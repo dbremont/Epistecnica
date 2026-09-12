@@ -47,7 +47,7 @@ any cross-graph unification is future work, not an assumption.
   (`{positions, computed_at, source, params}`) written by the subproject's
   `bin/layout.py`.
 - **No build step.** Python 3.12 stdlib server; vanilla JS; vendored deck.gl
-  (`tecnica/app/vendor/`); self-contained single-file HTML pages.
+  (`src/tecnica/app/vendor/`); self-contained single-file HTML pages.
 
 ### Surfaces & endpoints (✅)
 
@@ -74,8 +74,8 @@ Subprojects additionally honor `COUCHDB_DB` in their standalone mode.
 
 | Store | Contents | Written by |
 |-------|----------|------------|
-| CouchDB `epistemica` | Node docs + `layout` doc | `epistemica/bin/seed_couchdb.py` (seed), `epistemica/bin/layout.py` (layout), editor saves (via server) |
-| CouchDB `tecnica` | Node docs + `layout` doc | `tecnica/bin/seed_couchdb.py`, `tecnica/bin/layout.py`, editor saves |
+| CouchDB `epistemica` | Node docs + `layout` doc | `src/epistemica/bin/seed_couchdb.py` (seed), `src/epistemica/bin/layout.py` (layout), editor saves (via server) |
+| CouchDB `tecnica` | Node docs + `layout` doc | `src/tecnica/bin/seed_couchdb.py`, `src/tecnica/bin/layout.py`, editor saves |
 | `<sub>/app/data/data.json` | Seed snapshot only — never the live store, never fetched by the frontend | hand-authored |
 | `<sub>/app/data/layout.json` | Static layout fallback | `<sub>/bin/layout.py` |
 

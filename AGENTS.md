@@ -1,9 +1,9 @@
 # AGENTS.md — notes for coding agents working in this repo
 
-Epistecnica joins two sibling projects — `epistemica/` and `tecnica/` — under
-one hub, one combined server, and one deployment. Read this file, then the
-`AGENT.md` of whichever subproject you touch (`epistemica/AGENT.md`,
-`tecnica/AGENT.md`); those contain per-repo details that still apply.
+Epistecnica joins two sibling projects — `src/epistemica/` and `src/tecnica/`
+— under one hub, one combined server, and one deployment. Read this file, then
+the `AGENT.md` of whichever subproject you touch (`src/epistemica/AGENT.md`,
+`src/tecnica/AGENT.md`); those contain per-repo details that still apply.
 
 ## What this is
 
@@ -14,8 +14,8 @@ one hub, one combined server, and one deployment. Read this file, then the
 - **Hub** — `index.html` at the repo root: entry point to both datasets, with
   live |V|/|E|/facet strips fetched from the two nodes APIs.
 - No Node build step, no test suite; Python-stdlib servers in `bin/`, vanilla
-  JS, vendored deck.gl (`*/app/vendor/`). Do not introduce package managers,
-  frameworks, or build steps.
+  JS, vendored deck.gl (`src/*/app/vendor/`). Do not introduce package
+  managers, frameworks, or build steps.
 
 ## Repo map
 
@@ -24,9 +24,10 @@ index.html              hub (served at /)
 bin/serve.py            combined server — the only new surface; owns all routes below
 bin/envutil.py          .env loader with per-dataset DB resolution
 bin/couchdb_client.py   shared CouchDB client (byte-identical to the subprojects')
-epistemica/…            subproject, self-contained (app/, bin/, spec/, AGENT.md)
-tecnica/…               subproject, self-contained (app/, bin/, spec.md, AGENT.md)
+src/epistemica/…        subproject, self-contained (app/, bin/, spec/, AGENT.md)
+src/tecnica/…           subproject, self-contained (app/, bin/, spec.md, AGENT.md)
 spec/                   general spec + shared design system
+docs/                   documentation hub
 Dockerfile, deploy-server.sh, deploy-local.sh   combined image + server deploy scripts
 .github/workflows/      one workflow building ghcr.io/dbremont/epistecnica
 ```
@@ -39,8 +40,8 @@ disabled.
 
 - Routes served by `bin/serve.py`:
   - `/` → hub `index.html`
-  - `/epistemica/<path>` → static from `epistemica/app/<path>`
-  - `/tecnica/<path>` → static from `tecnica/app/<path>`
+  - `/epistemica/<path>` → static from `src/epistemica/app/<path>`
+  - `/tecnica/<path>` → static from `src/tecnica/app/<path>`
   - `/epistemica/api/{health,nodes,layout}` and `POST …/api/graph/save` → CouchDB db `epistemica`
   - `/tecnica/api/…` (same four) → CouchDB db `tecnica`
   - `/api/health` → aggregate health for both datasets
@@ -73,8 +74,8 @@ README), seed via each subproject's `bin/seed_couchdb.py`, then
 
 Verification (no test suite exists):
 
-- `python3 -m py_compile bin/*.py epistemica/bin/*.py tecnica/bin/*.py`
-- `node --check epistemica/app/js/api.js && node --check tecnica/app/js/api.js`
+- `python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py`
+- `node --check src/epistemica/app/js/api.js && node --check src/tecnica/app/js/api.js`
 - `curl :8000/api/health` → both datasets `couchdb_ok: true`
 - `curl :8000/epistemica/api/nodes` and `/tecnica/api/nodes` → flat arrays, no `_id`/`_rev`, no layout doc
 - `curl -X POST :8000/tecnica/api/graph/save -d '{"nodes":[]}'` → `{"status":"ok","saved":0}`
@@ -127,7 +128,7 @@ when switching over.
   HTML pages (`edit.html` ~8k+ lines, `graph.html` ~2–4k). Scope the include
   pattern or use `bash` + `rg` directly.
 - Everything is stdlib Python 3.12 + vanilla JS + vendored deck.gl. The only
-  vendored runtime bundle is `tecnica/app/vendor/` (deck.gl +
+  vendored runtime bundle is `src/tecnica/app/vendor/` (deck.gl +
   `socio-graph.js`); epistemica's viewer is Canvas2D with a shared `app/js/`
   layout. Don't unify the two renderers casually — they are intentionally
   independent.

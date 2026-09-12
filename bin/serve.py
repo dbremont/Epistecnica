@@ -6,8 +6,8 @@ One stdlib HTTP server serving three surfaces (the browser never talks to
 CouchDB directly; CORS on CouchDB stays disabled):
 
   /                     -> the hub (index.html at the repo root)
-  /epistemica/...       -> static files from epistemica/app/
-  /tecnica/...          -> static files from tecnica/app/
+  /epistemica/...       -> static files from src/epistemica/app/
+  /tecnica/...          -> static files from src/tecnica/app/
 
 and, per dataset prefix, the same API contract as the per-project
 bin/sync.py scripts:
@@ -23,7 +23,7 @@ bin/sync.py scripts:
   GET  /api/health             -> aggregate health for both datasets
 
 The pages fetch everything relative, so app data (data/layout.json etc.)
-under /{ds}/data/... resolves to {ds}/app/data/... automatically.
+under /{ds}/data/... resolves to src/{ds}/app/data/... automatically.
 
 Usage:
 
@@ -53,11 +53,13 @@ class Dataset:
 
     def __init__(self, name, prefix, app_dir, layout_file, cfg):
         self.name = name
-        self.prefix = prefix            # "/epistemica"
-        self.app_dir = app_dir          # Path to <name>/app
-        self.layout_file = layout_file  # Path to <name>/app/data/layout.json
+        self.prefix = prefix            # URL prefix, e.g. "/epistemica"
+        self.app_dir = app_dir          # Path to src/<name>/app
+        self.layout_file = layout_file  # Path to src/<name>/app/data/layout.json
         self.cfg = cfg
         self.api_base = prefix + "/api"
+        # URL prefix -> on-disk mount (repo-relative logical path).
+        self.mount = app_dir.resolve().relative_to(REPO).as_posix()
 
     def endpoint(self, api_path):
         """'/epistemica/api/nodes' -> '/api/nodes' for this dataset."""
@@ -72,15 +74,15 @@ def build_datasets():
         Dataset(
             name="epistemica",
             prefix="/epistemica",
-            app_dir=REPO / "epistemica" / "app",
-            layout_file=REPO / "epistemica" / "app" / "data" / "layout.json",
+            app_dir=REPO / "src" / "epistemica" / "app",
+            layout_file=REPO / "src" / "epistemica" / "app" / "data" / "layout.json",
             cfg=envutil.dataset("EPISTEMICA_DB", "epistemica"),
         ),
         Dataset(
             name="tecnica",
             prefix="/tecnica",
-            app_dir=REPO / "tecnica" / "app",
-            layout_file=REPO / "tecnica" / "app" / "data" / "layout.json",
+            app_dir=REPO / "src" / "tecnica" / "app",
+            layout_file=REPO / "src" / "tecnica" / "app" / "data" / "layout.json",
             cfg=envutil.dataset("TECNICA_DB", "tecnica"),
         ),
     ]
@@ -101,8 +103,8 @@ class HubHandler(SimpleHTTPRequestHandler):
         """Map URL prefixes onto on-disk directories.
 
         /              -> <repo>/index.html (the hub)
-        /epistemica/x  -> <repo>/epistemica/app/x
-        /tecnica/x     -> <repo>/tecnica/app/x
+        /epistemica/x  -> <repo>/src/epistemica/app/x
+        /tecnica/x     -> <repo>/src/tecnica/app/x
         anything else  -> <repo>/x
         """
         clean = path.split("?", 1)[0].split("#", 1)[0]
@@ -112,7 +114,7 @@ class HubHandler(SimpleHTTPRequestHandler):
                 rel = "index.html"
                 break
             if clean.startswith(ds.prefix + "/"):
-                rel = ds.prefix + "/app" + clean[len(ds.prefix):]
+                rel = ds.mount + clean[len(ds.prefix):]
                 break
         else:
             rel = "index.html" if clean == "/" else clean

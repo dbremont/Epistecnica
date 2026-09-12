@@ -1,4 +1,4 @@
-# Epistecnica
+# Epistecnica Documentation
 
 > One home for two ontologies: **Epistemica** — *Modelling and Epistemic Operationalization* — and **Tecnica** — *rendering purposeful (agentic) operation intelligible*.
 
