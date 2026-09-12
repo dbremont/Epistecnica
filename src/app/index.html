@@ -35,6 +35,8 @@
             color: var(--text-primary);
             font-family: var(--font-body);
             min-height: 100vh;
+            display: flex;
+            flex-direction: column;
             overflow-x: hidden;
         }
 
@@ -49,9 +51,11 @@
         .page {
             position: relative;
             z-index: 1;
+            flex: 1;
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 2rem 4rem;
+            padding: 0 2rem 3.5rem;
         }
 
         /* ---------- navbar ---------- */
@@ -124,18 +128,6 @@
             font-size: 0.88rem;
             color: var(--text-muted);
         }
-
-        .sysline {
-            margin-top: 2.2rem;
-            font-family: var(--font-mono);
-            font-size: 0.62rem;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-        }
-
-        .sysline .live { color: var(--accent-cyan); }
-        .sysline .down { color: var(--accent-gold); }
 
         /* ---------- sections ---------- */
 
@@ -306,12 +298,21 @@
         /* ---------- footer ---------- */
 
         footer {
-            margin-top: 4.5rem;
-            padding-top: 1.6rem;
+            position: relative;
+            z-index: 1;
             border-top: 1px solid var(--border-subtle);
+            background: rgba(4, 5, 10, 0.7);
+        }
+
+        .foot-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
             display: flex;
+            align-items: center;
             justify-content: space-between;
-            gap: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
             font-family: var(--font-mono);
             font-size: 0.6rem;
             letter-spacing: 0.18em;
@@ -319,13 +320,25 @@
             color: var(--text-muted);
         }
 
-        footer a { color: var(--text-muted); text-decoration: none; }
+        .foot-brand {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            letter-spacing: 0.03em;
+            text-transform: none;
+            color: var(--text-secondary);
+        }
+
+        .foot-brand em { font-style: italic; color: var(--accent-gold); }
+
+        .foot-links { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+
+        footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
         footer a:hover { color: var(--accent-cyan); }
 
         @media (max-width: 860px) {
             .datasets, .routes { grid-template-columns: 1fr; }
             header { padding-top: 4rem; }
-            footer { flex-direction: column; gap: 0.8rem; }
+            .foot-inner { flex-direction: column; align-items: flex-start; }
         }
     </style>
 </head>
@@ -350,10 +363,6 @@
                 Epistecnica brings both under a common index, deployment, and set of conventions,
                 without collapsing their conceptual distinction or their independence as subprojects.
             </p>
-            <div class="sysline">
-                <span id="sysHealth"><span class="pending">SYNC&hellip;</span></span>
-                &middot; COUCHDB &middot; DATASETS: EPISTEMICA / TECNICA
-            </div>
         </header>
 
         <section>
@@ -428,12 +437,20 @@
                 </div>
             </div>
         </section>
-
-        <footer>
-            <div>EPISTE-CNICA &middot; ONE SERVER &middot; TWO DATABASES &middot; NO BUILD STEP</div>
-            <div><a href="https://github.com/dbremont/Epistecnica">GITHUB</a> &middot; <a href="api/health">SYSTEM HEALTH</a></div>
-        </footer>
     </div>
+
+    <footer>
+        <div class="foot-inner">
+            <div class="foot-brand">Episte<em>cnica</em></div>
+            <div>KNOWING &middot; ACTING &middot; ONE FRAMEWORK</div>
+            <div class="foot-links">
+                <a href="epistemica/">EPISTEMICA</a>
+                <a href="tecnica/">TECNICA</a>
+                <a href="https://github.com/dbremont/Epistecnica">GITHUB</a>
+                <a href="api/health">HEALTH</a>
+            </div>
+        </div>
+    </footer>
 
     <script>
     (function () {
@@ -488,24 +505,6 @@
         }
 
         DATASETS.forEach(loadDataset);
-
-        fetch('api/health', { headers: { 'Accept': 'application/json' } })
-            .then(function (r) { return r.json(); })
-            .then(function (h) {
-                var sys = document.getElementById('sysHealth');
-                if (!sys) return;
-                var parts = Object.keys(h.datasets || {}).map(function (name) {
-                    var d = h.datasets[name];
-                    var cls = d.couchdb_ok ? 'live' : 'down';
-                    var mark = d.couchdb_ok ? 'OK' : 'DOWN';
-                    return name.toUpperCase() + ': <span class="' + cls + '">' + mark + '</span>';
-                });
-                sys.innerHTML = parts.join(' &middot; ');
-            })
-            .catch(function () {
-                var sys = document.getElementById('sysHealth');
-                if (sys) { sys.innerHTML = '<span class="down">SYNC OFFLINE</span>'; }
-            });
 
         /* ---------- ambient constellation canvas ---------- */
 
