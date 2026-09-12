@@ -11,3 +11,5 @@
 - [Affirmation Space](https://www.notion.so/Affirmation-Space-336c0f5171ec80928f75ddbde09d7121?source=copy_link)
 - [Algorithms](https://github.com/dbremont/algorithms)
 - [autoregia](https://github.com/dbremont/autoregia)
+- [Produceologia](https://github.com/csiglab/Produceologia)
+- [Arbitriologia](https://github.com/csiglab/Arbitriologia)

@@ -40,7 +40,7 @@ in the DB `layout` doc with a static `app/data/layout.json` fallback.
 
 | URL | What |
 |-----|------|
-| `/` | Hub: dataset cards, live \|V\|/\|E\| identity strips, entry guidance |
+| `/` | Hub: project cards, live \|V\|/\|E\| identity strips, entry guidance |
 | `/epistemica/` | Epistemica landing; `graph.html` viewer, `edit.html` editor, `view/…` extras |
 | `/tecnica/` | Tecnica landing; `graph.html` viewer, `edit.html` editor |
 | `/epistemica/api/{health,nodes,layout,graph/save}` | Epistemica API (DB `epistemica`) |

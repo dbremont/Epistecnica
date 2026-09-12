@@ -53,7 +53,7 @@ any cross-graph unification is future work, not an assumption.
 
 | Route | Purpose |
 |-------|---------|
-| `GET /` | Hub `src/app/index.html` (dataset cards, live \|V\|/\|E\| strips, entry guidance) |
+| `GET /` | Hub `src/app/index.html` (project cards, live \|V\|/\|E\| strips, entry guidance) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
 | `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
 | `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |
