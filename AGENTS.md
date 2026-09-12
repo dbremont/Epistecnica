@@ -93,15 +93,16 @@ Verification (no test suite exists; `make check` covers the first two):
 
 ## Git — conventions & gotchas (global hooks apply to this repo)
 
-- `core.hooksPath = ~/configs/global/git/hooks` → every commit here runs those
-  global hooks.
+- Every commit here runs the global git hooks configured via `core.hooksPath`:
+  two pre-commit policies and a `prepare-commit-msg` message rewriter (all
+  described below).
 - Pre-commit authorization policy: staged files must be explicitly marked first:
   `mark-for-commit <file>...` (sets xattr `user.checkin`; deletions exempt;
   marks are cleaned post-commit). Unmarked staged files → commit rejected.
 - Pre-commit annotation policy: `@FIXME @QUESTION @VERIFY` in staged source
   files block the commit; `@TODO @HACK @WORKAROUND` warn only. Markdown files
   are not inspected.
-- Commit message guideline (source: `~/configs/global/git/guideline.md`):
+- Commit message guideline:
   `<type>(<optional scope>): <description>`, then optional body and optional
   footer. Allowed `<type>`: `feat` (new feature), `fix` (bug), `docs`, `style`
   (formatting or style-only, no behavior change), `refactor`, `test`, `chore`
