@@ -12,7 +12,7 @@ self-contained.
 
 ```
 Epistecnica/
-├── index.html            # The hub — entry point to both datasets (served at /)
+├── src/app/index.html    # The hub — entry point to both datasets (served at /)
 ├── bin/serve.py          # Combined server: hub + /epistemica/ + /tecnica/ + APIs
 ├── bin/envutil.py        # .env loader (per-dataset DB names)
 ├── bin/couchdb_client.py # Shared stdlib CouchDB client (same as the subprojects')

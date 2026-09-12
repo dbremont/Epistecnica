@@ -11,7 +11,7 @@ the `AGENT.md` of whichever subproject you touch (`src/epistemica/AGENT.md`,
   graph; edges in a per-node `relationships` list.
 - **Tecnica** — an ontology of ~40 technical-object nodes across six layers;
   edges in a per-node `relationship_set` list, richer per-category schema.
-- **Hub** — `index.html` at the repo root: entry point to both datasets, with
+- **Hub** — `src/app/index.html`: entry point to both datasets, with
   live |V|/|E|/facet strips fetched from the two nodes APIs.
 - No Node build step, no test suite; Python-stdlib servers in `bin/`, vanilla
   JS, vendored deck.gl (`src/*/app/vendor/`). Do not introduce package
@@ -24,6 +24,7 @@ index.html              hub (served at /)
 bin/serve.py            combined server — the only new surface; owns all routes below
 bin/envutil.py          .env loader with per-dataset DB resolution
 bin/couchdb_client.py   shared CouchDB client (byte-identical to the subprojects')
+src/app/                hub page (index.html, served at /)
 src/epistemica/…        subproject, self-contained (app/, bin/, spec/, AGENT.md)
 src/tecnica/…           subproject, self-contained (app/, bin/, spec.md, AGENT.md)
 spec/                   general spec + shared design system
@@ -39,7 +40,7 @@ frontend-facing surface in the combined deployment. CORS on CouchDB stays
 disabled.
 
 - Routes served by `bin/serve.py`:
-  - `/` → hub `index.html`
+  - `/` → hub `src/app/index.html`
   - `/epistemica/<path>` → static from `src/epistemica/app/<path>`
   - `/tecnica/<path>` → static from `src/tecnica/app/<path>`
   - `/epistemica/api/{health,nodes,layout}` and `POST …/api/graph/save` → CouchDB db `epistemica`

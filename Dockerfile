@@ -1,7 +1,7 @@
 FROM python:3.12-slim
 WORKDIR /srv
 COPY bin/ bin/
-COPY index.html index.html
+COPY src/app/ src/app/
 COPY src/epistemica/app/ src/epistemica/app/
 COPY src/tecnica/app/ src/tecnica/app/
 ENV PYTHONUNBUFFERED=1

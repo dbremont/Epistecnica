@@ -28,7 +28,7 @@ any cross-graph unification is future work, not an assumption.
 ```
                     ┌──────────────────────────────┐
    browser ────────►│  bin/serve.py (stdlib HTTP)  │
-                    │  /            hub index.html │
+                    │  /         src/app/index.html │
                     │  /epistemica/*  app statics  │
                     │  /tecnica/*     app statics  │
                     │  /{ds}/api/…    CouchDB I/O  │
@@ -53,7 +53,7 @@ any cross-graph unification is future work, not an assumption.
 
 | Route | Purpose |
 |-------|---------|
-| `GET /` | Hub `index.html` (dataset cards, live \|V\|/\|E\| strips, entry guidance) |
+| `GET /` | Hub `src/app/index.html` (dataset cards, live \|V\|/\|E\| strips, entry guidance) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
 | `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
 | `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |
@@ -88,7 +88,7 @@ load; no live force simulation. Recompute after edits is manual 🎯 (a
 
 | Page | Renderer | Persists? |
 |------|----------|-----------|
-| `index.html` (hub) | Ambient Canvas2D constellation only | No |
+| `src/app/index.html` (hub) | Ambient Canvas2D constellation only | No |
 | `epistemica/graph.html` | Canvas2D + precomputed layout (epistemica's `app/js/` shared layout code) | No |
 | `epistemica/edit.html` | Canvas2D + precomputed layout, AI-assisted authoring (DeepSeek, browser-direct) | Yes (POST patch) |
 | `tecnica/graph.html` | deck.gl (WebGL) + precomputed layout via `app/vendor/socio-graph.js` | No |

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Epistecnica — Epistemic &amp; Technical Ontologies</title>
-    <meta name="description" content="A combined home for two ontologies: Epistemica (modelling and epistemic operationalization) and Tecnica (rendering purposeful operation).">
+    <title>Epistecnica</title>
+    <meta name="description" content="Epistecnica is a unified framework for the two fundamental dimensions of human agency: knowing (Epistemica) and acting (Tecnica).">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -54,20 +54,43 @@
             padding: 0 2rem 4rem;
         }
 
-        /* ---------- header ---------- */
+        /* ---------- navbar ---------- */
 
-        header {
-            padding: 5.5rem 0 4rem;
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(4, 5, 10, 0.82);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-subtle);
         }
 
-        .eyebrow {
-            font-family: var(--font-mono);
-            font-size: 0.65rem;
-            letter-spacing: 0.35em;
-            text-transform: uppercase;
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+        }
+
+        .nav-brand {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav-brand em {
+            font-style: italic;
             color: var(--accent-gold);
-            margin-bottom: 1.6rem;
+        }
+
+        /* ---------- header ---------- */
+
+        header {
+            padding: 4.5rem 0 4rem;
+            border-bottom: 1px solid var(--border-subtle);
         }
 
         h1 {
@@ -86,12 +109,20 @@
         .lede {
             margin-top: 1.8rem;
             max-width: 46rem;
-            font-size: 0.95rem;
+            font-size: 1.05rem;
             font-weight: 300;
             line-height: 1.7;
             color: var(--text-secondary);
             border-left: 1px solid var(--accent-gold);
             padding-left: 1.25rem;
+        }
+
+        .lede strong { font-weight: 500; color: var(--text-primary); }
+
+        .lede + .lede {
+            margin-top: 1.2rem;
+            font-size: 0.88rem;
+            color: var(--text-muted);
         }
 
         .sysline {
@@ -127,13 +158,6 @@
             flex: 1;
             height: 1px;
             background: var(--border-subtle);
-        }
-
-        .section-head .index {
-            font-family: var(--font-mono);
-            font-size: 0.62rem;
-            letter-spacing: 0.25em;
-            color: var(--text-muted);
         }
 
         /* ---------- dataset cards ---------- */
@@ -308,15 +332,23 @@
 <body>
     <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 
+    <nav class="nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="/">Episte<em>cnica</em></a>
+        </div>
+    </nav>
+
     <div class="page">
         <header>
-            <div class="eyebrow">Epistecnica &mdash; Index</div>
-            <h1>Two ontologies, <em>one</em> practice.</h1>
+            <h1>Episte<em>cnica</em></h1>
             <p class="lede">
-                A combined home for two knowledge graphs: <strong>Epistemica</strong>, the ontology of
-                epistemic practice &mdash; modelling, validation, inference &mdash; and <strong>Tecnica</strong>,
-                the ontology of purposeful (agentic) operation &mdash; techniques, tools, and technical objects.
-                Together they render how we know and how we act, as one navigable structure.
+                Epistecnica is a unified framework for the two fundamental dimensions of human
+                agency: knowing (<strong>Epistemica</strong>) and acting (<strong>Tecnica</strong>).
+            </p>
+            <p class="lede">
+                Epistemica describes how an agent knows; Tecnica describes how an agent acts.
+                Epistecnica brings both under a common index, deployment, and set of conventions,
+                without collapsing their conceptual distinction or their independence as subprojects.
             </p>
             <div class="sysline">
                 <span id="sysHealth"><span class="pending">SYNC&hellip;</span></span>
@@ -326,7 +358,6 @@
 
         <section>
             <div class="section-head">
-                <span class="index">01</span>
                 <h2>Datasets</h2>
                 <div class="rule"></div>
             </div>
@@ -378,7 +409,6 @@
 
         <section>
             <div class="section-head">
-                <span class="index">02</span>
                 <h2>Entry Guidance</h2>
                 <div class="rule"></div>
             </div>

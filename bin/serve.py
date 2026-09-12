@@ -5,7 +5,7 @@ Epistecnica combined sync server.
 One stdlib HTTP server serving three surfaces (the browser never talks to
 CouchDB directly; CORS on CouchDB stays disabled):
 
-  /                     -> the hub (index.html at the repo root)
+  /                     -> the hub (src/app/index.html)
   /epistemica/...       -> static files from src/epistemica/app/
   /tecnica/...          -> static files from src/tecnica/app/
 
@@ -102,7 +102,8 @@ class HubHandler(SimpleHTTPRequestHandler):
     def translate_path(self, path):
         """Map URL prefixes onto on-disk directories.
 
-        /              -> <repo>/index.html (the hub)
+        /              -> <repo>/src/app/index.html (the hub)
+        /epistemica    -> <repo>/src/epistemica/app/ (its landing index.html)
         /epistemica/x  -> <repo>/src/epistemica/app/x
         /tecnica/x     -> <repo>/src/tecnica/app/x
         anything else  -> <repo>/x
@@ -111,13 +112,13 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         for ds in self.datasets:
             if clean == ds.prefix or clean == ds.prefix + "/":
-                rel = "index.html"
+                rel = ds.mount + "/"
                 break
             if clean.startswith(ds.prefix + "/"):
                 rel = ds.mount + clean[len(ds.prefix):]
                 break
         else:
-            rel = "index.html" if clean == "/" else clean
+            rel = "src/app/index.html" if clean == "/" else clean
 
         return super().translate_path(rel)
 
@@ -446,8 +447,9 @@ def main():
                 file=sys.stderr,
             )
             return 1
-    if not (REPO / "index.html").exists():
-        print("ERROR: hub page not found: %s" % (REPO / "index.html"), file=sys.stderr)
+    hub_page = REPO / "src" / "app" / "index.html"
+    if not hub_page.exists():
+        print("ERROR: hub page not found: %s" % (hub_page,), file=sys.stderr)
         return 1
 
     for ds in datasets:
