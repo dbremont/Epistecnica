@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concurrent Map</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07090d;
+      --bg-elevated: #0d1117;
+      --bg-card: #131a24;
+      --fg: #e6eaf0;
+      --fg-muted: #6a7a8c;
+      --accent: #22d3a8;
+      --accent-dim: rgba(34, 211, 168, 0.12);
+      --accent-glow: rgba(34, 211, 168, 0.25);
+      --border: #1e2a3a;
+      --danger: #f06565;
+      --warning: #f0a848;
+      --info: #5fa8f0;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+    .bg-grid {
+      background-image: 
+        linear-gradient(rgba(30, 42, 58, 0.25) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(30, 42, 58, 0.25) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--fg-muted); }
+
+    .nav-link {
+      position: relative;
+      transition: all 0.2s ease;
+      display: block;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+      color: var(--fg-muted);
+      border-radius: 6px;
+    }
+    .nav-link:hover { color: var(--fg); background: var(--bg); }
+    .nav-link::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 0;
+      background: var(--accent);
+      border-radius: 1px;
+      transition: height 0.2s ease;
+    }
+    .nav-link.active { color: var(--accent); }
+    .nav-link.active::before { height: 60%; }
+
+    .section-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+    .section-card:hover {
+      border-color: rgba(34, 211, 168, 0.25);
+    }
+
+    .collapsible-header { cursor: pointer; user-select: none; }
+    .collapsible-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+    }
+    .collapsible-content.open { max-height: 10000px; }
+    .collapsible-icon { transition: transform 0.3s ease; }
+    .collapsible-header.open .collapsible-icon { transform: rotate(180deg); }
+
+    .question-item {
+      border-left: 2px solid var(--border);
+      padding-left: 1rem;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      margin-bottom: 0.75rem;
+      transition: all 0.2s ease;
+    }
+    .question-item:hover {
+      border-left-color: var(--accent);
+      background: linear-gradient(90deg, var(--accent-dim), transparent);
+    }
+    .question-item:last-child { margin-bottom: 0; }
+
+    .bucket {
+      transition: all 0.15s ease;
+      background: var(--bg);
+      border: 1px solid var(--border);
+    }
+    .bucket.reading {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      box-shadow: 0 0 8px var(--accent-glow);
+    }
+    .bucket.writing {
+      background: rgba(240, 101, 101, 0.15);
+      border-color: var(--danger);
+      box-shadow: 0 0 8px rgba(240, 101, 101, 0.3);
+    }
+
+    .lock-stripe {
+      transition: all 0.2s ease;
+      background: var(--border);
+    }
+    .lock-stripe.locked {
+      background: var(--danger);
+      box-shadow: 0 0 10px rgba(240, 101, 101, 0.5);
+    }
+    .lock-stripe.unlocked {
+      background: var(--accent);
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .tag {
+      font-size: 0.65rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), #5fa8f0);
+      z-index: 1000;
+      transition: width 0.1s linear;
+    }
+
+    *:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .mobile-nav {
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+    }
+    .mobile-nav.open { transform: translateX(0); }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+
+    /* Code tabs */
+    .code-tab {
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem;
+      border-bottom: 2px solid transparent;
+      color: var(--fg-muted);
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .code-tab:hover { color: var(--fg); }
+    .code-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+    .code-panel { display: none; }
+    .code-panel.active { display: block; }
+
+    /* Performance chart */
+    .perf-bar {
+      height: 8px;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+    .skip-link {
+      position: absolute; left: 12px; top: 12px; z-index: 1000;
+      padding: 8px 14px; background: var(--accent); color: var(--bg);
+      font-size: 0.8rem; font-weight: 600; text-decoration: none; border-radius: 6px;
+      transform: translateY(-150%); transition: transform 0.2s ease;
+    }
+    .skip-link:focus { transform: translateY(0); }
+    .sr-only { position:absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    </style>
+</head>
+<body class="bg-grid">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="progress-bar" id="progressBar" style="width: 0%"></div>
+
+  <!-- Mobile Menu -->
+  <button id="mobileMenuBtn" class="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-lg bg-[var(--bg-card)] border border-[var(--border)]" aria-label="Toggle navigation">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="3" y1="6" x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+
+  <!-- Sidebar -->
+  <nav id="sidebar" class="mobile-nav lg:translate-x-0 fixed left-0 top-0 h-screen w-64 bg-[var(--bg-elevated)] border-r border-[var(--border)] z-40 overflow-y-auto">
+    <div class="p-5">
+      <div class="mb-6">
+        <div class="flex items-center gap-2 mb-1">
+          <div class="w-8 h-8 rounded bg-[var(--accent-dim)] border border-[var(--accent)] flex items-center justify-center">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+              <rect x="3" y="3" width="7" height="7" rx="1"/>
+              <rect x="14" y="3" width="7" height="7" rx="1"/>
+              <rect x="3" y="14" width="7" height="7" rx="1"/>
+              <rect x="14" y="14" width="7" height="7" rx="1"/>
+            </svg>
+          </div>
+          <div>
+            <span class="font-semibold text-base">Concurrent Map</span>
+          </div>
+        </div>
+        <p class="text-xs text-[var(--fg-muted)]">Technical Notebook</p>
+      </div>
+
+      <div class="relative mb-5">
+        <input type="text" id="searchInput" placeholder="Search..." 
+               class="w-full bg-[var(--bg)] border border-[var(--border)] rounded px-3 py-1.5 text-xs focus:border-[var(--accent)] focus:outline-none transition-colors"
+               aria-label="Search sections">
+      </div>
+
+      <div class="space-y-0.5" id="navLinks">
+        <a href="#characterization" class="nav-link">Characterization</a>
+        <a href="#technical-problem" class="nav-link">Technical Problem</a>
+        <a href="#purpose" class="nav-link">Purpose</a>
+        <a href="#technique" class="nav-link">Technique</a>
+        <a href="#physical" class="nav-link">Physical Instantiation</a>
+        <a href="#design" class="nav-link">Design</a>
+        <a href="#implementation" class="nav-link">Implementation</a>
+        <a href="#variation" class="nav-link">Variation</a>
+        <a href="#failure" class="nav-link">Technical Failure</a>
+        <a href="#performance" class="nav-link">Performance</a>
+        <a href="#verification" class="nav-link">Verification</a>
+        <a href="#operationalization" class="nav-link">Operationalization</a>
+        <a href="#future" class="nav-link">Future</a>
+        <a href="#history" class="nav-link">History</a>
+        <a href="#references" class="nav-link">References</a>
+      </div>
+
+      <!-- Taxonomy Quick Reference -->
+      <div class="mt-6 pt-5 border-t border-[var(--border)]">
+        <button id="taxonomyToggle" class="w-full text-left text-xs text-[var(--fg-muted)] hover:text-[var(--fg)] flex items-center justify-between">
+          <span>Taxonomy Reference</span>
+          <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div id="taxonomyPanel" class="hidden mt-3 text-xs text-[var(--fg-muted)] space-y-2 max-h-48 overflow-y-auto">
+          <div><strong class="text-[var(--accent)]">Technical Problem</strong>: discrepancy to resolve</div>
+          <div><strong class="text-[var(--accent)]">Technical Purpose</strong>: intended ultimate impact</div>
+          <div><strong class="text-[var(--accent)]">Technical Constraint</strong>: bounds on action</div>
+          <div><strong class="text-[var(--accent)]">Technical Principle</strong>: design laws</div>
+          <div><strong class="text-[var(--accent)]">Technical Failure</strong>: deviation from spec</div>
+          <div><strong class="text-[var(--accent)]">Verification</strong>: correctness evaluation</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content" class="lg:ml-64 min-h-screen">
+    
+    <!-- Hero -->
+    <section class="relative border-b border-[var(--border)] overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-[var(--accent-dim)] via-transparent to-transparent opacity-40"></div>
+      
+      <div class="relative max-w-5xl mx-auto px-6 py-12 lg:py-16">
+        <div class="grid lg:grid-cols-2 gap-10 items-start">
+          
+          <!-- Text -->
+          <div class="fade-in">
+            <div class="flex items-center gap-2 mb-4">
+              <span class="tag bg-[var(--accent-dim)] text-[var(--accent)]">Data Structure</span>
+              <span class="tag bg-[rgba(95,168,240,0.12)] text-[var(--info)]">Concurrent</span>
+            </div>
+            <h1 class="text-3xl lg:text-4xl font-bold mb-3 leading-tight">
+              Concurrent Map
+            </h1>
+            <p class="text-base text-[var(--fg-muted)] mb-6 max-w-md">
+              A thread-safe associative data structure enabling simultaneous read and write operations 
+              from multiple execution contexts without external synchronization.
+            </p>
+            <p class="text-sm text-[var(--fg-muted)] mb-6">
+              In this notebook, we characterize and locate the <strong class="text-[var(--fg)]">Concurrent Map</strong> 
+              within technical space — examining its problems, purposes, techniques, constraints, and failures.
+            </p>
+          </div>
+
+          <!-- Visualization -->
+          <div id="visualization" class="fade-in section-card p-5" style="transition-delay: 0.15s">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-[var(--fg-muted)]">Lock Striping Model</h3>
+              <div class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)] pulse"></span>
+                <span class="text-xs text-[var(--fg-muted)] font-mono" id="statusText">Ready</span>
+              </div>
+            </div>
+            
+            <div class="bg-[var(--bg)] rounded-lg p-3 mb-3">
+              <div class="text-xs text-[var(--fg-muted)] mb-2">Lock Stripes</div>
+              <div class="grid grid-cols-8 gap-1 mb-3" id="lockStripes"></div>
+              
+              <div class="text-xs text-[var(--fg-muted)] mb-2">Hash Buckets</div>
+              <div class="grid grid-cols-8 gap-1" id="buckets"></div>
+            </div>
+
+            <div class="flex gap-2 flex-wrap mb-3">
+              <button id="simReadBtn" class="px-3 py-1.5 text-xs bg-[var(--accent-dim)] text-[var(--accent)] rounded hover:bg-[var(--accent)] hover:text-[var(--bg)] transition-colors">
+                Read
+              </button>
+              <button id="simWriteBtn" class="px-3 py-1.5 text-xs bg-[rgba(240,101,101,0.12)] text-[var(--danger)] rounded hover:bg-[var(--danger)] hover:text-white transition-colors">
+                Write
+              </button>
+              <button id="simMixedBtn" class="px-3 py-1.5 text-xs bg-[var(--bg)] border border-[var(--border)] text-[var(--fg-muted)] rounded hover:border-[var(--accent)] hover:text-[var(--fg)] transition-colors">
+                Mixed
+              </button>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 text-xs text-[var(--fg-muted)]">
+              <div class="flex items-center gap-2">
+                <div class="w-2.5 h-2.5 rounded bg-[var(--accent)]"></div>
+                <span>Read (non-blocking)</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-2.5 h-2.5 rounded bg-[var(--danger)]"></div>
+                <span>Write (locks stripe)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sections -->
+    <div class="max-w-3xl mx-auto px-6 py-10 space-y-6">
+
+      <!-- Characterization -->
+      <section id="characterization" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="char-content">
+          <div>
+            <h2 class="text-lg font-semibold">Characterization</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Taxonomic placement and structural definition</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="char-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What category in the technical taxonomy does this element belong to?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                The <strong class="text-[var(--accent)]">Concurrent Map</strong> is a <strong>Concrete Technical Artifact</strong> 
+                instantiated as a <strong>Production Technical Object</strong> within concurrent software systems. 
+                It is an associative container designed for multi-threaded access patterns, occupying the intersection 
+                of hash-based key-value stores and synchronization primitives.
+              </p>
+              <div class="mt-3 p-3 bg-[var(--bg)] rounded text-xs">
+                <div class="text-[var(--fg-muted)] mb-2">Taxonomic Position:</div>
+                <div class="font-mono text-[var(--accent)]">
+                  Reality → Information Structures → Associative Containers → <strong>Concurrent Map</strong>
+                </div>
+              </div>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What differentiates it from neighboring concepts?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Unlike a <strong>synchronized hash map</strong> (single lock serialization) or a 
+                <strong>lock-free hash map</strong> (no blocking, weaker guarantees), the concurrent map 
+                occupies a middle ground: fine-grained locking for writes, lock-free reads, 
+                strong consistency for individual operations.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which are the relations with other technical elements?</h4>
+              <div class="flex flex-wrap gap-1.5 mt-2">
+                <span class="tag bg-[var(--bg)] border border-[var(--border)]">Hash Map (parent)</span>
+                <span class="tag bg-[var(--bg)] border border-[var(--border)]">Mutex (collaborator)</span>
+                <span class="tag bg-[var(--bg)] border border-[var(--border)]">CAS (mechanism)</span>
+                <span class="tag bg-[var(--bg)] border border-[var(--border)]">Memory Barrier (constraint)</span>
+              </div>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which are the variations of the technical element?</h4>
+              <ul class="text-sm text-[var(--fg-muted)] space-y-1 mt-2">
+                <li>• <strong>Segmented locking</strong> — fixed partitions with independent locks</li>
+                <li>• <strong>Per-bucket locking</strong> — synchronization at individual bucket granularity</li>
+                <li>• <strong>Lock-free reads</strong> — readers never acquire locks</li>
+                <li>• <strong>Copy-on-write</strong> — snapshots for iteration (trade-off: memory)</li>
+              </ul>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What is the structure of the technical element?</h4>
+              <pre class="text-xs font-mono bg-[var(--bg)] p-3 rounded mt-2 overflow-x-auto">ConcurrentMap
+├── Hash table (array of buckets)
+├── Bucket entries (linked/tree structures)  
+├── Locks (striped or per-bucket)
+├── Size counter (atomic or distributed)
+└── Resize coordinator</pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Problem -->
+      <section id="technical-problem" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="problem-content">
+          <div>
+            <h2 class="text-lg font-semibold">Technical Problem</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Discrepancies the element resolves</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="problem-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which technical problems does the concurrent map solve?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                The core problem: <strong class="text-[var(--accent)]">thread-safe associative storage without serialization bottlenecks</strong>. 
+                Standard maps corrupt under concurrent mutation; coarse-grained synchronized maps serialize all operations. 
+                The concurrent map enables parallel access while preserving integrity.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which limitations of ordinary hash maps motivated its development?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Ordinary hash maps offer no safety guarantees under concurrency: lost updates, 
+                corrupted internal structures (infinite loops during rehash), 
+                and inconsistent reads from partially mutated state.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which forms of race conditions is it designed to prevent?</h4>
+              <div class="grid md:grid-cols-2 gap-2 mt-2">
+                <div class="bg-[var(--bg)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-0.5">Lost Updates</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Concurrent writes overwriting each other</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-0.5">Torn Reads</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Reading partially updated values</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-0.5">Structure Corruption</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Broken chain pointers during resize</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-0.5">Size Inconsistency</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Incorrect counts during mutations</p>
+                </div>
+              </div>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which scalability bottlenecks does it attempt to reduce?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                The single-lock bottleneck: with coarse synchronization, all threads serialize on one lock 
+                regardless of which keys they access. Fine-grained locking allows independent operations 
+                on disjoint keys to proceed in parallel.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which latency problems emerge under high thread counts?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Lock contention causes threads to wait; cache coherence traffic from lock variables 
+                creates memory bus pressure; under extreme contention, operations degrade toward serialization.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which consistency problems arise during concurrent mutation?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Visibility (when do writes become visible to other threads), ordering (in what sequence do 
+                operations appear to occur), and atomicity (do compound operations complete entirely or not at all).
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which workload patterns make it unnecessary or overengineered?</h4>
+              <ul class="text-sm text-[var(--fg-muted)] space-y-0.5">
+                <li>• Single-threaded execution contexts</li>
+                <li>• Write-once, read-many after initialization</li>
+                <li>• Low-contention scenarios with infrequent writes</li>
+                <li>• Immutable data published via safe publication patterns</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Purpose -->
+      <section id="purpose" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="purpose-content">
+          <div>
+            <h2 class="text-lg font-semibold">Purpose</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Teleological orientation and objectives</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="purpose-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Why is the concurrent map used instead of other structures?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                It provides the <strong class="text-[var(--accent)]">strongest consistency guarantees</strong> among concurrent 
+                key-value stores while maintaining reasonable throughput. Weaker alternatives (eventually consistent maps) 
+                may offer higher performance but sacrifice correctness properties.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which operational goals justify its complexity?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Correctness under concurrent access, predictable performance degradation under load, 
+                and freedom from external synchronization burden on the caller.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Is the primary purpose throughput, latency, scalability, safety, or availability?</h4>
+              <div class="flex flex-wrap gap-1.5 mt-2">
+                <span class="tag bg-[var(--accent-dim)] text-[var(--accent)]">Scalability</span>
+                <span class="tag bg-[var(--accent-dim)] text-[var(--accent)]">Safety</span>
+                <span class="tag bg-[rgba(95,168,240,0.12)] text-[var(--info)]">Throughput</span>
+              </div>
+              <p class="text-sm text-[var(--fg-muted)] mt-2">
+                Primary: <strong>scalability</strong> — maintaining performance as concurrency increases. 
+                Secondary: safety — preserving correctness without external coordination.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which system-level objectives depend on it?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Request routing (mapping keys to handlers), session management, caching layers, 
+                deduplication tables, rate limiting counters, and any shared mutable state in concurrent systems.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does it contribute to system responsiveness?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                By avoiding global locks, it prevents the "stop-the-world" pauses that freeze all threads. 
+                Uncontended operations proceed at near-native speed; contended operations only block direct competitors.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which broader production systems require it?</h4>
+              <div class="grid grid-cols-3 gap-2 mt-2 text-xs">
+                <div class="bg-[var(--bg)] rounded p-2 text-center">
+                  <div class="font-medium">Web Servers</div>
+                  <p class="text-[var(--fg-muted)]">Session caches</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2 text-center">
+                  <div class="font-medium">Databases</div>
+                  <p class="text-[var(--fg-muted)]">Lock tables</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2 text-center">
+                  <div class="font-medium">Caching</div>
+                  <p class="text-[var(--fg-muted)]">In-memory stores</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technique -->
+      <section id="technique" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="technique-content">
+          <div>
+            <h2 class="text-lg font-semibold">Technique</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Foundational methods and mechanisms</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="technique-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <p class="text-sm text-[var(--fg-muted)] mb-4">
+              Which techniques underpin the Concurrent Map?
+            </p>
+            <div class="space-y-3">
+              <div class="flex gap-3 items-start">
+                <div class="w-7 h-7 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 text-xs font-bold text-[var(--accent)]">1</div>
+                <div>
+                  <h5 class="text-sm font-medium">Lock Striping</h5>
+                  <p class="text-xs text-[var(--fg-muted)]">Partitioning locks across independent segments. Each stripe guards a subset of buckets, allowing concurrent access to different segments.</p>
+                </div>
+              </div>
+              <div class="flex gap-3 items-start">
+                <div class="w-7 h-7 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 text-xs font-bold text-[var(--accent)]">2</div>
+                <div>
+                  <h5 class="text-sm font-medium">Compare-And-Swap (CAS)</h5>
+                  <p class="text-xs text-[var(--fg-muted)]">Atomic primitive for optimistic updates. Succeeds only if current value matches expected; enables lock-free reads and lightweight writes.</p>
+                </div>
+              </div>
+              <div class="flex gap-3 items-start">
+                <div class="w-7 h-7 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 text-xs font-bold text-[var(--accent)]">3</div>
+                <div>
+                  <h5 class="text-sm font-medium">Volatile Memory Semantics</h5>
+                  <p class="text-xs text-[var(--fg-muted)]">Ensures visibility of writes across threads. Readers see the most recent published state without acquiring locks.</p>
+                </div>
+              </div>
+              <div class="flex gap-3 items-start">
+                <div class="w-7 h-7 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 text-xs font-bold text-[var(--accent)]">4</div>
+                <div>
+                  <h5 class="text-sm font-medium">Collision Treeification</h5>
+                  <p class="text-xs text-[var(--fg-muted)]">When bucket chains exceed threshold, convert to balanced tree structure. Prevents O(n) degradation under hash collision attacks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Physical Instantiation -->
+      <section id="physical" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="physical-content">
+          <div>
+            <h2 class="text-lg font-semibold">Physical Instantiation</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Hardware substrate and material constraints</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="physical-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which is the hardware substrate used to realize this technical element?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Shared-memory multiprocessor systems — multiple CPU cores with access to common memory, 
+                coordinated via cache coherence protocols and atomic instructions.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How do CPU cache hierarchies influence its behavior?</h4>
+              <div class="grid grid-cols-3 gap-3 mt-2 text-center text-xs">
+                <div class="bg-[var(--bg)] rounded p-2">
+                  <div class="font-mono text-[var(--accent)] text-sm mb-1">L1</div>
+                  <p class="text-[var(--fg-muted)]">~4 cycles</p>
+                  <p class="text-[var(--fg-muted)]">Per-core private</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2">
+                  <div class="font-mono text-[var(--info)] text-sm mb-1">L2</div>
+                  <p class="text-[var(--fg-muted)]">~12 cycles</p>
+                  <p class="text-[var(--fg-muted)]">Per-core private</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2">
+                  <div class="font-mono text-[var(--warning)] text-sm mb-1">L3</div>
+                  <p class="text-[var(--fg-muted)]">~40 cycles</p>
+                  <p class="text-[var(--fg-muted)]">Shared across cores</p>
+                </div>
+              </div>
+              <p class="text-xs text-[var(--fg-muted)] mt-2">
+                Cache line (typically 64 bytes) is the unit of coherence. Adjacent data in the same line 
+                causes false sharing when modified by different cores.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does memory latency affect throughput?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Each cache miss costs ~100+ cycles for main memory access. Concurrent maps with poor locality 
+                suffer under high load; those with sequential access patterns benefit from prefetching.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which characteristics of multicore systems motivate its existence?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Parallelism is wasted if threads serialize on shared locks. Multicore systems demand 
+                data structures that allow independent cores to make progress independently.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How do memory consistency models constrain its correctness?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                The memory model defines when writes become visible to other threads. Implementations must 
+                use memory barriers (acquire/release semantics) to ensure readers see consistent state.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does NUMA topology affect scalability?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Memory access latency varies by CPU-to-memory distance. Contended data structures spanning 
+                NUMA nodes suffer from remote memory access penalties.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does the operating system scheduler influence lock contention?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                A thread holding a lock may be preempted, blocking all threads waiting for that lock. 
+                Adaptive spinning before blocking can reduce context-switch overhead.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Design -->
+      <section id="design" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="design-content">
+          <div>
+            <h2 class="text-lg font-semibold">Design</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Architectural principles and patterns</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="design-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which design principles govern its construction?</h4>
+              <ul class="text-sm text-[var(--fg-muted)] space-y-1">
+                <li>• <strong>Minimize critical sections</strong> — reduce time spent holding locks</li>
+                <li>• <strong>Partition state</strong> — independent regions can be accessed concurrently</li>
+                <li>• <strong>Optimistic concurrency</strong> — try without locking, retry on conflict</li>
+                <li>• <strong>Fail-safe iteration</strong> — iterators don't throw on concurrent modification</li>
+              </ul>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How is fine-grained synchronization applied?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Rather than one lock for the entire map, synchronization operates at bucket or segment level. 
+                Operations on different keys can proceed in parallel if they hash to different partitions.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How is lock striping used?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                The hash space is divided into stripes, each with an independent lock. The stripe for a key 
+                is determined by bits from its hash code. More stripes = less contention probability, 
+                but more memory overhead.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does immutability reduce synchronization complexity?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Node structures, once published, are never mutated in place. Updates create new nodes or 
+                atomically swap pointers. Readers traverse without locks because they only see 
+                fully-constructed state.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Implementation -->
+      <section id="implementation" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="impl-content">
+          <div>
+            <h2 class="text-lg font-semibold">Implementation</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Mechanistic functions and composition</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="impl-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <p class="text-sm text-[var(--fg-muted)] mb-4">
+              In the large, which principles, mechanisms, and technical elements make it what it is?
+            </p>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What are the mechanistic functions of the concurrent map?</h4>
+              <div class="grid grid-cols-2 gap-2 mt-2">
+                <div class="bg-[var(--bg)] rounded p-2">
+                  <code class="text-xs text-[var(--accent)]">get(key)</code>
+                  <p class="text-xs text-[var(--fg-muted)] mt-0.5">Lock-free read with volatile semantics</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2">
+                  <code class="text-xs text-[var(--accent)]">put(key, value)</code>
+                  <p class="text-xs text-[var(--fg-muted)] mt-0.5">CAS or lock on bucket</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2">
+                  <code class="text-xs text-[var(--accent)]">remove(key)</code>
+                  <p class="text-xs text-[var(--fg-muted)] mt-0.5">Atomic unlink from chain</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-2">
+                  <code class="text-xs text-[var(--accent)]">compute(key, fn)</code>
+                  <p class="text-xs text-[var(--fg-muted)] mt-0.5">Atomic read-modify-write</p>
+                </div>
+              </div>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does it coordinate reads and writes?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Reads proceed without locks, observing the latest published state via memory barriers. 
+                Writes acquire the lock for the target bucket (or use CAS for empty buckets), 
+                ensuring exclusive modification rights.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does it resolve collisions under concurrency?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Collisions form chains within buckets. The bucket head is locked for modifications. 
+                Tree conversion (when chains exceed threshold) maintains sorted order for O(log n) access.
+              </p>
+            </div>
+
+            <h3 class="text-sm font-semibold mt-5 mb-3 text-[var(--accent)]">Constitutive Technical Object</h3>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which subcomponents compose the concurrent map?</h4>
+              <div class="space-y-2 text-xs">
+                <div class="flex items-center gap-2">
+                  <div class="w-2.5 h-2.5 rounded bg-[var(--accent)]"></div>
+                  <span><strong>Hash table</strong> — array of bucket pointers</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2.5 h-2.5 rounded bg-[var(--info)]"></div>
+                  <span><strong>Node structures</strong> — key-value pairs with chain pointers</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2.5 h-2.5 rounded bg-[var(--warning)]"></div>
+                  <span><strong>Lock structures</strong> — mutexes or striped lock array</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2.5 h-2.5 rounded bg-[var(--danger)]"></div>
+                  <span><strong>Counter cells</strong> — distributed size tracking</span>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="text-sm font-semibold mt-5 mb-3 text-[var(--accent)]">Technical Constraint</h3>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which constraints dominate its implementation?</h4>
+              <ul class="text-sm text-[var(--fg-muted)] space-y-1">
+                <li>• <strong>Memory bandwidth</strong> — cache coherence traffic under contention</li>
+                <li>• <strong>Atomic operation cost</strong> — CAS is slower than plain writes</li>
+                <li>• <strong>Memory model rules</strong> — barrier placement affects correctness and performance</li>
+                <li>• <strong>False sharing</strong> — adjacent lock variables cause contention</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Variation -->
+      <section id="variation" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="variation-content">
+          <div>
+            <h2 class="text-lg font-semibold">Variation</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Design alternatives and trade-off structures</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="variation-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What are the possible variations on the technical problem?</h4>
+              <div class="overflow-x-auto mt-2">
+                <table class="w-full text-xs">
+                  <thead>
+                    <tr class="border-b border-[var(--border)]">
+                      <th class="text-left py-2 px-2">Problem Variant</th>
+                      <th class="text-left py-2 px-2">Solution</th>
+                      <th class="text-left py-2 px-2">Trade-off</th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-[var(--fg-muted)]">
+                    <tr class="border-b border-[var(--border)]">
+                      <td class="py-2 px-2">High write contention</td>
+                      <td class="py-2 px-2">More stripes</td>
+                      <td class="py-2 px-2">Memory overhead</td>
+                    </tr>
+                    <tr class="border-b border-[var(--border)]">
+                      <td class="py-2 px-2">Read-heavy workload</td>
+                      <td class="py-2 px-2">Copy-on-write</td>
+                      <td class="py-2 px-2">Write latency</td>
+                    </tr>
+                    <tr class="border-b border-[var(--border)]">
+                      <td class="py-2 px-2">Memory-constrained</td>
+                      <td class="py-2 px-2">Open addressing</td>
+                      <td class="py-2 px-2">Collision complexity</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 px-2">Weak consistency OK</td>
+                      <td class="py-2 px-2">Lock-free relaxed</td>
+                      <td class="py-2 px-2">Stale reads</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which trade-offs structure the problem-implementation relationship?</h4>
+              <div class="grid md:grid-cols-2 gap-3 mt-2">
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="text-xs font-medium mb-1">Throughput vs Latency</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Higher stripe count improves throughput but individual operations may have higher variance</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="text-xs font-medium mb-1">Memory vs Contention</div>
+                  <p class="text-xs text-[var(--fg-muted)]">More locks reduce contention but increase memory footprint</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Failure -->
+      <section id="failure" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="failure-content">
+          <div>
+            <h2 class="text-lg font-semibold">Technical Failure</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Pathological conditions and failure modes</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="failure-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="grid md:grid-cols-2 gap-3">
+              <div class="bg-[rgba(240,101,101,0.08)] border border-[var(--danger)] rounded-lg p-3">
+                <h4 class="text-sm font-medium mb-1 text-[var(--danger)]">Race Conditions</h4>
+                <p class="text-xs text-[var(--fg-muted)]">If synchronization is incorrect, concurrent writes can corrupt chain pointers, leading to lost entries or infinite loops during traversal.</p>
+              </div>
+              <div class="bg-[rgba(240,168,72,0.08)] border border-[var(--warning)] rounded-lg p-3">
+                <h4 class="text-sm font-medium mb-1 text-[var(--warning)]">Deadlock</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Rare with proper lock ordering, but possible if callbacks acquire locks in inconsistent order (e.g., computeIfAbsent calling external code).</p>
+              </div>
+              <div class="bg-[rgba(95,168,240,0.08)] border border-[var(--info)] rounded-lg p-3">
+                <h4 class="text-sm font-medium mb-1 text-[var(--info)]">Livelock</h4>
+                <p class="text-xs text-[var(--fg-muted)]">CAS-based approaches can theoretically livelock under extreme contention; exponential backoff mitigates this.</p>
+              </div>
+              <div class="bg-[var(--bg)] border border-[var(--border)] rounded-lg p-3">
+                <h4 class="text-sm font-medium mb-1">ABA Problem</h4>
+                <p class="text-xs text-[var(--fg-muted)]">A thread observes value A, it changes to B then back to A. CAS succeeds incorrectly. Mitigated by versioning or stamped references.</p>
+              </div>
+            </div>
+            <div class="question-item mt-4">
+              <h4 class="text-sm font-medium mb-1">Which failures appear only under high concurrency?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Resize-induced corruption, counter cell overflow, and lock striping hot spots. 
+                These rarely manifest in low-contention testing but cause production failures under load.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Performance -->
+      <section id="performance" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="perf-content">
+          <div>
+            <h2 class="text-lg font-semibold">Performance</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Modeling, measurement, and analysis</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="perf-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How to model the performance of the implementation?</h4>
+              <p class="text-sm text-[var(--fg-muted)] mb-3">
+                Performance modeling for concurrent maps requires <strong class="text-[var(--accent)]">queuing theory</strong>, 
+                <strong>amortized analysis</strong>, and <strong>empirical benchmarking</strong> under controlled conditions. 
+                Models must account for both algorithmic complexity and hardware-level effects.
+              </p>
+              
+              <!-- Performance Model Components -->
+              <div class="bg-[var(--bg)] rounded-lg p-4 mt-3">
+                <h5 class="text-xs font-semibold text-[var(--accent)] mb-3">Performance Model Components</h5>
+                <div class="grid md:grid-cols-2 gap-4 text-xs">
+                  <div>
+                    <div class="font-medium mb-1">Algorithmic Factors</div>
+                    <ul class="text-[var(--fg-muted)] space-y-0.5">
+                      <li>• Hash function distribution quality</li>
+                      <li>• Collision resolution cost</li>
+                      <li>• Resize frequency and cost</li>
+                      <li>• Lock granularity and count</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="font-medium mb-1">Hardware Factors</div>
+                    <ul class="text-[var(--fg-muted)] space-y-0.5">
+                      <li>• Cache hit/miss ratios</li>
+                      <li>• Memory bandwidth saturation</li>
+                      <li>• Coherence protocol overhead</li>
+                      <li>• NUMA access patterns</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What are the key performance metrics?</h4>
+              <div class="grid md:grid-cols-3 gap-3 mt-2">
+                <div class="bg-[var(--bg)] rounded p-3 text-center">
+                  <div class="text-lg font-mono text-[var(--accent)]">Throughput</div>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">Operations per second</p>
+                  <p class="text-xs text-[var(--fg-muted)]">Under varying load</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3 text-center">
+                  <div class="text-lg font-mono text-[var(--info)]">Latency</div>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">p50, p99, p99.9</p>
+                  <p class="text-xs text-[var(--fg-muted)]">Tail latency matters</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3 text-center">
+                  <div class="text-lg font-mono text-[var(--warning)]">Scalability</div>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">Speedup vs threads</p>
+                  <p class="text-xs text-[var(--fg-muted)]">Linear is ideal</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How does performance scale with thread count?</h4>
+              <div class="bg-[var(--bg)] rounded-lg p-4 mt-3">
+                <div class="flex items-center justify-between mb-4">
+                  <h5 class="text-xs font-semibold">Scalability Comparison</h5>
+                  <div class="flex items-center gap-3 text-xs text-[var(--fg-muted)]">
+                    <div class="flex items-center gap-1">
+                      <div class="w-3 h-3 rounded bg-[var(--accent)]"></div>
+                      <span>Ideal</span>
+                    </div>
+                    <div class="flex items-center gap-1">
+                      <div class="w-3 h-3 rounded bg-[var(--info)]"></div>
+                      <span>ConcurrentMap</span>
+                    </div>
+                    <div class="flex items-center gap-1">
+                      <div class="w-3 h-3 rounded bg-[var(--danger)]"></div>
+                      <span>Synchronized</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Simple bar visualization -->
+                <div class="space-y-3">
+                  <div>
+                    <div class="flex items-center justify-between text-xs mb-1">
+                      <span>4 threads</span>
+                      <span class="text-[var(--fg-muted)]">3.8x throughput</span>
+                    </div>
+                    <div class="h-2 bg-[var(--border)] rounded overflow-hidden">
+                      <div class="perf-bar bg-[var(--info)]" style="width: 95%"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex items-center justify-between text-xs mb-1">
+                      <span>8 threads</span>
+                      <span class="text-[var(--fg-muted)]">7.2x throughput</span>
+                    </div>
+                    <div class="h-2 bg-[var(--border)] rounded overflow-hidden">
+                      <div class="perf-bar bg-[var(--info)]" style="width: 90%"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex items-center justify-between text-xs mb-1">
+                      <span>16 threads</span>
+                      <span class="text-[var(--fg-muted)]">12.4x throughput</span>
+                    </div>
+                    <div class="h-2 bg-[var(--border)] rounded overflow-hidden">
+                      <div class="perf-bar bg-[var(--info)]" style="width: 77%"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex items-center justify-between text-xs mb-1">
+                      <span>32 threads</span>
+                      <span class="text-[var(--fg-muted)]">18.1x throughput</span>
+                    </div>
+                    <div class="h-2 bg-[var(--border)] rounded overflow-hidden">
+                      <div class="perf-bar bg-[var(--info)]" style="width: 57%"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <p class="text-xs text-[var(--fg-muted)] mt-3">
+                  Scalability diminishes as contention increases. Amdahl's Law limits speedup to the non-parallelizable fraction.
+                </p>
+              </div>
+            </div>
+
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which theoretical models apply?</h4>
+              <div class="space-y-3 mt-2">
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="flex items-start gap-2">
+                    <div class="w-6 h-6 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 text-xs font-bold text-[var(--accent)]">1</div>
+                    <div>
+                      <h5 class="text-xs font-medium">Queuing Theory (M/M/c)</h5>
+                      <p class="text-xs text-[var(--fg-muted)]">
+                        Models contention as a queuing system where operations arrive randomly and are serviced by multiple "servers" (lock stripes). 
+                        Predicts wait times under load: <code class="font-mono">W = L / λ</code> (Little's Law).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="flex items-start gap-2">
+                    <div class="w-6 h-6 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 text-xs font-bold text-[var(--accent)]">2</div>
+                    <div>
+                      <h5 class="text-xs font-medium">Amdahl's Law</h5>
+                      <p class="text-xs text-[var(--fg-muted)]">
+                        Maximum speedup limited by serial fraction: <code class="font-mono">S(n) = 1 / [(1-p) + p/n]</code> 
+                        where p is parallelizable portion. Resize operations are inherently serial.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="flex items-start gap-2">
+                    <div class="w-6 h-6 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 text-xs font-bold text-[var(--accent)]">3</div>
+                    <div>
+                      <h5 class="text-xs font-medium">Universal Scalability Law (USL)</h5>
+                      <p class="text-xs text-[var(--fg-muted)]">
+                        Extends Amdahl with coherency cost: <code class="font-mono">X(n) = λn / [1 + σ(n-1) + κn(n-1)]</code>. 
+                        Models the retrograde throughput seen under extreme contention.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How to benchmark correctly?</h4>
+              <div class="bg-[var(--bg)] rounded-lg overflow-hidden mt-3">
+                <table class="w-full text-xs">
+                  <thead>
+                    <tr class="border-b border-[var(--border)]">
+                      <th class="text-left py-2 px-3 font-medium">Consideration</th>
+                      <th class="text-left py-2 px-3 font-medium">Rationale</th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-[var(--fg-muted)]">
+                    <tr class="border-b border-[var(--border)]">
+                      <td class="py-2 px-3">Warmup iterations</td>
+                      <td class="py-2 px-3">JIT compilation, cache warming</td>
+                    </tr>
+                    <tr class="border-b border-[var(--border)]">
+                      <td class="py-2 px-3">Steady-state measurement</td>
+                      <td class="py-2 px-3">Avoid startup/transient effects</td>
+                    </tr>
+                    <tr class="border-b border-[var(--border)]">
+                      <td class="py-2 px-3">Key distribution control</td>
+                      <td class="py-2 px-3">Uniform vs skewed vs hot-spot</td>
+                    </tr>
+                    <tr class="border-b border-[var(--border)]">
+                      <td class="py-2 px-3">Read/write ratio variation</td>
+                      <td class="py-2 px-3">Different contention profiles</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 px-3">Multiple runs / statistical analysis</td>
+                      <td class="py-2 px-3">Account for measurement noise</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which performance anti-patterns should be avoided?</h4>
+              <div class="grid md:grid-cols-2 gap-2 mt-2">
+                <div class="bg-[rgba(240,101,101,0.08)] border border-[var(--danger)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-1">Hot Keys</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Frequent access to same key serializes on its lock stripe</p>
+                </div>
+                <div class="bg-[rgba(240,101,101,0.08)] border border-[var(--danger)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-1">Poor Hash Function</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Collisions cluster into few buckets, reducing parallelism</p>
+                </div>
+                <div class="bg-[rgba(240,101,101,0.08)] border border-[var(--danger)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-1">Resize Storm</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Growth triggers expensive rehash under load</p>
+                </div>
+                <div class="bg-[rgba(240,101,101,0.08)] border border-[var(--danger)] rounded p-2.5">
+                  <div class="text-xs font-medium text-[var(--danger)] mb-1">False Sharing</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Adjacent locks on same cache line cause contention</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What performance variations exist across workloads?</h4>
+              <pre class="text-xs font-mono bg-[var(--bg)] p-3 rounded mt-2 overflow-x-auto">Workload          | Read Latency | Write Latency | Scalability
+------------------|--------------|---------------|------------
+Read-heavy (90/10)| O(1) ~10ns   | O(1) ~50ns    | Excellent
+Write-heavy (10/90)| O(1) ~15ns  | O(1) ~200ns   | Good
+Uniform access    | O(1) ~12ns   | O(1) ~100ns   | Very Good
+Hot-key skewed    | O(1) ~50ns   | O(1) ~500ns   | Poor
+Resize under load | O(1) ~20ns   | O(n) ~ms      | Degraded</pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Verification -->
+      <section id="verification" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="verify-content">
+          <div>
+            <h2 class="text-lg font-semibold">Verification</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Correctness assurance and testing</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="verify-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which invariants must always hold?</h4>
+              <pre class="text-xs font-mono bg-[var(--bg)] p-3 rounded mt-2">// Structural invariants
+- No null keys or values (unless explicitly allowed)
+- Hash table never null after initialization
+- Bucket chains are well-formed (no cycles)
+- Size counter eventually consistent with entry count
+
+// Concurrency invariants
+- All reads see a consistent snapshot
+- Writes are totally ordered per key
+- No lost updates on concurrent modification</pre>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How are race conditions tested?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Stress testing frameworks that execute millions of operations across random thread interleavings. 
+                Property-based verification checks linearizability: each operation appears to occur atomically 
+                at some point between its invocation and response.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which formal methods can model its behavior?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Model checking (TLA+, SPIN) for algorithm correctness; theorem proving for invariant preservation; 
+                linearizability proofs via history refinement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Operationalization -->
+      <section id="operationalization" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="ops-content">
+          <div>
+            <h2 class="text-lg font-semibold">Operationalization</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Practical application and usage</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="ops-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <p class="text-sm text-[var(--fg-muted)] mb-4">
+              How is the Concurrent Map used in practice?
+            </p>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">When should you choose a concurrent map?</h4>
+              <ul class="text-sm text-[var(--fg-muted)] space-y-1">
+                <li>• Multiple threads need read and write access to shared key-value state</li>
+                <li>• The access pattern involves different keys (low key-level contention)</li>
+                <li>• Strong per-operation consistency is required</li>
+                <li>• External synchronization burden would complicate calling code</li>
+              </ul>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Common usage patterns</h4>
+              <div class="grid md:grid-cols-2 gap-2 mt-2">
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="text-xs font-medium text-[var(--accent)]">Caching</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Thread-local caches with shared invalidation tables</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="text-xs font-medium text-[var(--accent)]">Registry</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Dynamic service registration and lookup</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="text-xs font-medium text-[var(--accent)]">Deduplication</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Tracking seen items across concurrent workers</p>
+                </div>
+                <div class="bg-[var(--bg)] rounded p-3">
+                  <div class="text-xs font-medium text-[var(--accent)]">Configuration</div>
+                  <p class="text-xs text-[var(--fg-muted)]">Live configuration updates observed by many threads</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cross-Language Instantiations -->
+            <h3 class="text-sm font-semibold mt-6 mb-3 text-[var(--accent)]">Cross-Language Instantiations</h3>
+            <p class="text-xs text-[var(--fg-muted)] mb-3">
+              The concurrent map concept manifests differently across programming languages, 
+              reflecting each language's concurrency model and standard library design.
+            </p>
+            
+            <div class="bg-[var(--bg)] rounded-lg overflow-hidden">
+              <!-- Language Tabs -->
+              <div class="flex border-b border-[var(--border)] overflow-x-auto">
+                <button class="code-tab active" data-lang="java">Java</button>
+                <button class="code-tab" data-lang="rust">Rust</button>
+                <button class="code-tab" data-lang="go">Go</button>
+                <button class="code-tab" data-lang="cpp">C++</button>
+                <button class="code-tab" data-lang="ocaml">OCaml</button>
+              </div>
+              
+              <!-- Code Panels -->
+              <div class="p-4">
+                <!-- Java -->
+                <div class="code-panel active" data-lang="java">
+                  <div class="text-xs text-[var(--fg-muted)] mb-2">
+                    <strong class="text-[var(--accent)]">ConcurrentHashMap</strong> — Built into JDK. Uses lock striping internally with per-bucket locking for writes and lock-free reads.
+                  </div>
+                  <pre class="text-xs font-mono text-[var(--fg)] overflow-x-auto"><code>import java.util.concurrent.ConcurrentHashMap;
+
+ConcurrentHashMap&lt;String, Integer&gt; map = new ConcurrentHashMap&lt;&gt;();
+
+// Lock-free read
+Integer value = map.get("key");
+
+// Atomic write (locks bucket)
+map.put("key", 42);
+
+// Atomic compute-if-absent
+map.computeIfAbsent("key", k -&gt; expensiveComputation(k));
+
+// Atomic merge
+map.merge("counter", 1, Integer::sum);</code></pre>
+                </div>
+                
+                <!-- Rust -->
+                <div class="code-panel" data-lang="rust">
+                  <div class="text-xs text-[var(--fg-muted)] mb-2">
+                    <strong class="text-[var(--accent)]">DashMap</strong> — Third-party crate. Sharded implementation with per-shard RwLock. Extremely high performance under contention.
+                  </div>
+                  <pre class="text-xs font-mono text-[var(--fg)] overflow-x-auto"><code>use dashmap::DashMap;
+
+let map = DashMap::&lt;String, i32&gt;::new();
+
+// Lock-free read (returns reference guard)
+let value = map.get("key").map(|v| *v);
+
+// Fine-grained write (locks only shard)
+map.insert("key", 42);
+
+// Entry API for atomic updates
+map.entry("counter".to_string())
+    .and_modify(|v| *v += 1)
+    .or_insert(1);</code></pre>
+                  <div class="text-xs text-[var(--fg-muted)] mt-2">
+                    Alternative: <code class="font-mono">RwLock&lt;HashMap&gt;</code> for simpler cases with less contention.
+                  </div>
+                </div>
+                
+                <!-- Go -->
+                <div class="code-panel" data-lang="go">
+                  <div class="text-xs text-[var(--fg-muted)] mb-2">
+                    <strong class="text-[var(--accent)]">sync.Map</strong> — Standard library. Optimized for disjoint key sets (each key written once, read many times). Different trade-offs than typical concurrent hash maps.
+                  </div>
+                  <pre class="text-xs font-mono text-[var(--fg)] overflow-x-auto"><code>import "sync"
+
+var m sync.Map
+
+// Store (atomic)
+m.Store("key", 42)
+
+// Load (returns value and existence flag)
+if v, ok := m.Load("key"); ok {
+    fmt.Println(v)
+}
+
+// LoadOrStore (atomic)
+actual, loaded := m.LoadOrStore("key", 1)
+
+// Range iteration
+m.Range(func(key, value any) bool {
+    fmt.Println(key, value)
+    return true
+})</code></pre>
+                  <div class="text-xs text-[var(--fg-muted)] mt-2">
+                    For general-purpose use, consider third-party libraries like <code class="font-mono">cmap</code> or <code class="font-mono">concurrent-map</code>.
+                  </div>
+                </div>
+                
+                <!-- C++ -->
+                <div class="code-panel" data-lang="cpp">
+                  <div class="text-xs text-[var(--fg-muted)] mb-2">
+                    <strong class="text-[var(--accent)]">tbb::concurrent_hash_map</strong> — Intel Threading Building Blocks. Uses fine-grained locking with accessor pattern.
+                  </div>
+                  <pre class="text-xs font-mono text-[var(--fg)] overflow-x-auto"><code>#include &lt;tbb/concurrent_hash_map.h&gt;
+
+tbb::concurrent_hash_map&lt;std::string, int&gt; map;
+
+// Read with accessor
+{
+    tbb::concurrent_hash_map&lt;std::string, int&gt;::const_accessor acc;
+    if (map.find(acc, "key")) {
+        std::cout &lt;&lt; *acc &lt;&lt; std::endl;
+    }
+}
+
+// Write with accessor
+{
+    tbb::concurrent_hash_map&lt;std::string, int&gt;::accessor acc;
+    map.insert(acc, "key");
+    *acc = 42;
+}</code></pre>
+                  <div class="text-xs text-[var(--fg-muted)] mt-2">
+                    Alternative: <code class="font-mono">folly::ConcurrentHashMap</code> (Facebook) for lock-free reads.
+                  </div>
+                </div>
+                
+                <!-- OCaml -->
+                <div class="code-panel" data-lang="ocaml">
+                  <div class="text-xs text-[var(--fg-muted)] mb-2">
+                    <strong class="text-[var(--accent)]">Mutex-protected Hashtbl</strong> — Standard pattern. OCaml's Hashtbl is not thread-safe; wrap with Mutex for concurrent access.
+                  </div>
+                  <pre class="text-xs font-mono text-[var(--fg)] overflow-x-auto"><code>let table : (string, int) Hashtbl.t = 
+  Hashtbl.create 16
+let mutex = Mutex.create ()
+
+let get key =
+  Mutex.lock mutex;
+  let result = Hashtbl.find_opt table key in
+  Mutex.unlock mutex;
+  result
+
+let set key value =
+  Mutex.lock mutex;
+  Hashtbl.replace table key value;
+  Mutex.unlock mutex
+
+(* Using fun_protect for exception safety *)
+let compute_if_absent key f =
+  Mutex.lock mutex;
+  Fun.protect
+    ~finally:(fun () -> Mutex.unlock mutex)
+    (fun () ->
+      match Hashtbl.find_opt table key with
+      | Some v -> v
+      | None -> let v = f () in
+                Hashtbl.add table key v;
+                v)</code></pre>
+                  <div class="text-xs text-[var(--fg-muted)] mt-2">
+                    OCaml 5 with Domains: Consider <code class="font-mono">domainslib</code> task pools for parallel work.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="question-item mt-4">
+              <h4 class="text-sm font-medium mb-1">What are the operational considerations?</h4>
+              <ul class="text-sm text-[var(--fg-muted)] space-y-1">
+                <li>• <strong>Initial capacity</strong>: Size appropriately to minimize resizing overhead</li>
+                <li>• <strong>Load factor</strong>: Balance memory vs. collision rate</li>
+                <li>• <strong>Concurrency level</strong>: Hint for expected thread count (affects stripe count)</li>
+                <li>• <strong>Iteration semantics</strong>: Weakly consistent — may reflect some but not all concurrent changes</li>
+              </ul>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">What pitfalls should be avoided?</h4>
+              <div class="bg-[rgba(240,101,101,0.08)] border border-[var(--danger)] rounded p-3 mt-2">
+                <ul class="text-xs text-[var(--fg-muted)] space-y-1">
+                  <li>• Using <code class="font-mono">computeIfAbsent</code> with functions that modify the map (reentrancy risk)</li>
+                  <li>• Iterating and expecting a snapshot of all concurrent modifications</li>
+                  <li>• Assuming <code class="font-mono">size()</code> is exact during concurrent modifications</li>
+                  <li>• Using as a replacement for proper database transactions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Future -->
+      <section id="future" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="future-content">
+          <div>
+            <h2 class="text-lg font-semibold">Future</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Research directions and evolution</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="future-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which open research problems still exist?</h4>
+              <ul class="text-sm text-[var(--fg-muted)] space-y-1">
+                <li>• <strong>Wait-free implementations</strong>: Current designs are lock-free for reads but may block writes</li>
+                <li>• <strong>Persistent memory integration</strong>: Crash-consistent variants for non-volatile memory</li>
+                <li>• <strong>Heterogeneous computing</strong>: GPU-compatible structures for massive parallelism</li>
+              </ul>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">Which hardware trends may obsolete current designs?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Hardware transactional memory could simplify concurrent structures, though current implementations 
+                have capacity limitations and high abort rates under contention.
+              </p>
+            </div>
+            <div class="question-item">
+              <h4 class="text-sm font-medium mb-1">How can concurrent resizing become more efficient?</h4>
+              <p class="text-sm text-[var(--fg-muted)]">
+                Incremental resizing (gradually migrating buckets) amortizes cost but complicates read paths. 
+                Fork-based resizing (copy entire table, apply pending updates) trades memory for simplicity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- History -->
+      <section id="history" class="fade-in section-card">
+        <div class="collapsible-header p-5 flex items-center justify-between" data-target="history-content">
+          <div>
+            <h2 class="text-lg font-semibold">History</h2>
+            <p class="text-xs text-[var(--fg-muted)] mt-0.5">Evolution and paradigm shifts</p>
+          </div>
+          <svg class="collapsible-icon text-[var(--fg-muted)]" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </div>
+        <div id="history-content" class="collapsible-content">
+          <div class="px-5 pb-5">
+            <div class="relative pl-6">
+              <div class="absolute left-2 top-0 bottom-0 w-px bg-[var(--border)]"></div>
+              
+              <div class="relative pb-6">
+                <div class="absolute left-[-18px] w-3 h-3 rounded-full bg-[var(--accent)] border-2 border-[var(--bg)]"></div>
+                <div class="font-mono text-xs text-[var(--accent)] mb-0.5">1990s</div>
+                <h4 class="text-sm font-medium">Coarse-grained locking era</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Single lock for entire hash table; simple but poor scalability</p>
+              </div>
+              
+              <div class="relative pb-6">
+                <div class="absolute left-[-18px] w-3 h-3 rounded-full bg-[var(--info)] border-2 border-[var(--bg)]"></div>
+                <div class="font-mono text-xs text-[var(--info)] mb-0.5">Early 2000s</div>
+                <h4 class="text-sm font-medium">Lock striping emerges</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Segmented locking allows parallel access to different regions</p>
+              </div>
+              
+              <div class="relative pb-6">
+                <div class="absolute left-[-18px] w-3 h-3 rounded-full bg-[var(--warning)] border-2 border-[var(--bg)]"></div>
+                <div class="font-mono text-xs text-[var(--warning)] mb-0.5">2010s</div>
+                <h4 class="text-sm font-medium">Fine-grained and lock-free techniques</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Per-bucket CAS, lock-free reads, tree bins for collision handling</p>
+              </div>
+              
+              <div class="relative">
+                <div class="absolute left-[-18px] w-3 h-3 rounded-full bg-[var(--fg-muted)] border-2 border-[var(--bg)]"></div>
+                <div class="font-mono text-xs text-[var(--fg-muted)] mb-0.5">Present</div>
+                <h4 class="text-sm font-medium">Hybrid approaches</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Adaptive strategies, hardware-specific optimizations, persistent memory variants</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- References -->
+      <section id="references" class="fade-in section-card">
+        <div class="p-5">
+          <h2 class="text-lg font-semibold mb-3">References</h2>
+          <div class="grid md:grid-cols-2 gap-2">
+            <a href="#" class="flex items-center gap-3 p-2.5 bg-[var(--bg)] rounded hover:border-[var(--accent)] border border-transparent transition-colors group">
+              <div class="w-8 h-8 rounded bg-[var(--accent-dim)] flex items-center justify-center">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-xs font-medium group-hover:text-[var(--accent)]">Caching</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Related concept</p>
+              </div>
+            </a>
+            <a href="#" class="flex items-center gap-3 p-2.5 bg-[var(--bg)] rounded hover:border-[var(--accent)] border border-transparent transition-colors group">
+              <div class="w-8 h-8 rounded bg-[var(--accent-dim)] flex items-center justify-center">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="12" y1="16" x2="12" y2="12"/>
+                  <line x1="12" y1="8" x2="12.01" y2="8"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-xs font-medium group-hover:text-[var(--accent)]">Concept</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Conceptual framework</p>
+              </div>
+            </a>
+            <a href="#" class="flex items-center gap-3 p-2.5 bg-[var(--bg)] rounded hover:border-[var(--accent)] border border-transparent transition-colors group">
+              <div class="w-8 h-8 rounded bg-[var(--accent-dim)] flex items-center justify-center">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-xs font-medium group-hover:text-[var(--accent)]">Concurrency</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Core paradigm</p>
+              </div>
+            </a>
+            <a href="#" class="flex items-center gap-3 p-2.5 bg-[var(--bg)] rounded hover:border-[var(--accent)] border border-transparent transition-colors group">
+              <div class="w-8 h-8 rounded bg-[var(--accent-dim)] flex items-center justify-center">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                  <polyline points="2 17 12 22 22 17"/>
+                  <polyline points="2 12 12 17 22 12"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-xs font-medium group-hover:text-[var(--accent)]">Philosophia Artium</h4>
+                <p class="text-xs text-[var(--fg-muted)]">Technical philosophy</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="border-t border-[var(--border)] mt-8">
+      <div class="max-w-3xl mx-auto px-6 py-6 text-center">
+        <p class="text-xs text-[var(--fg-muted)]">Technical Notebook — Concurrent Map Analysis</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Initialize on DOM ready
+    document.addEventListener('DOMContentLoaded', () => {
+      initVisualization();
+      initCollapsibles();
+      initNavigation();
+      initSearch();
+      initScrollReveal();
+      initProgressBar();
+      initMobileMenu();
+      initTaxonomyToggle();
+      initCodeTabs();
+    });
+
+    // Visualization
+    function initVisualization() {
+      const lockStripesEl = document.getElementById('lockStripes');
+      const bucketsEl = document.getElementById('buckets');
+      const statusText = document.getElementById('statusText');
+      
+      if (!lockStripesEl || !bucketsEl) return;
+      
+      const numStripes = 8;
+      const numBuckets = 32;
+      
+      // Create lock stripes
+      for (let i = 0; i < numStripes; i++) {
+        const stripe = document.createElement('div');
+        stripe.className = 'lock-stripe h-5 rounded cursor-pointer';
+        stripe.dataset.stripe = i;
+        lockStripesEl.appendChild(stripe);
+      }
+      
+      // Create buckets
+      for (let i = 0; i < numBuckets; i++) {
+        const bucket = document.createElement('div');
+        const stripeIndex = Math.floor(i / (numBuckets / numStripes));
+        bucket.className = 'bucket h-6 rounded cursor-pointer';
+        bucket.dataset.bucket = i;
+        bucket.dataset.stripe = stripeIndex;
+        bucketsEl.appendChild(bucket);
+      }
+      
+      // Buttons
+      document.getElementById('simReadBtn').addEventListener('click', simulateRead);
+      document.getElementById('simWriteBtn').addEventListener('click', simulateWrite);
+      document.getElementById('simMixedBtn').addEventListener('click', simulateMixed);
+      
+      function simulateRead() {
+        statusText.textContent = 'Reading...';
+        const buckets = document.querySelectorAll('.bucket');
+        const indices = Array.from({length: 6}, () => Math.floor(Math.random() * numBuckets));
+        
+        indices.forEach((idx, i) => {
+          setTimeout(() => {
+            buckets[idx].classList.add('reading');
+            setTimeout(() => buckets[idx].classList.remove('reading'), 400);
+          }, i * 80);
+        });
+        
+        setTimeout(() => { statusText.textContent = 'Ready'; }, 600);
+      }
+      
+      function simulateWrite() {
+        statusText.textContent = 'Writing...';
+        const buckets = document.querySelectorAll('.bucket');
+        const stripes = document.querySelectorAll('.lock-stripe');
+        const bucketIdx = Math.floor(Math.random() * numBuckets);
+        const stripeIdx = Math.floor(bucketIdx / (numBuckets / numStripes));
+        
+        stripes[stripeIdx].classList.add('locked');
+        buckets[bucketIdx].classList.add('writing');
+        
+        setTimeout(() => {
+          stripes[stripeIdx].classList.remove('locked');
+          buckets[bucketIdx].classList.remove('writing');
+          statusText.textContent = 'Ready';
+        }, 800);
+      }
+      
+      function simulateMixed() {
+        statusText.textContent = 'Mixed workload...';
+        const buckets = document.querySelectorAll('.bucket');
+        const stripes = document.querySelectorAll('.lock-stripe');
+        
+        // Reset
+        stripes.forEach(s => s.classList.remove('locked'));
+        buckets.forEach(b => b.classList.remove('reading', 'writing'));
+        
+        const ops = [
+          { type: 'read', indices: [0, 1, 2] },
+          { type: 'write', index: 12 },
+          { type: 'read', indices: [20, 21] },
+          { type: 'write', index: 28 }
+        ];
+        
+        ops.forEach((op, i) => {
+          setTimeout(() => {
+            if (op.type === 'read') {
+              op.indices.forEach(idx => {
+                buckets[idx].classList.add('reading');
+                setTimeout(() => buckets[idx].classList.remove('reading'), 300);
+              });
+            } else {
+              const stripeIdx = Math.floor(op.index / (numBuckets / numStripes));
+              stripes[stripeIdx].classList.add('locked');
+              buckets[op.index].classList.add('writing');
+              setTimeout(() => {
+                stripes[stripeIdx].classList.remove('locked');
+                buckets[op.index].classList.remove('writing');
+              }, 500);
+            }
+          }, i * 250);
+        });
+        
+        setTimeout(() => { statusText.textContent = 'Ready'; }, 1200);
+      }
+    }
+
+    // Collapsibles — promoted to accessible disclosure controls.
+    function initCollapsibles() {
+      const headers = document.querySelectorAll('.collapsible-header');
+
+      headers.forEach(header => {
+        const targetId = header.dataset.target;
+        const content = targetId ? document.getElementById(targetId) : null;
+
+        header.setAttribute('role', 'button');
+        header.setAttribute('tabindex', '0');
+        if (targetId) header.setAttribute('aria-controls', targetId);
+
+        const sync = () => header.setAttribute('aria-expanded', header.classList.contains('open') ? 'true' : 'false');
+        const toggle = () => {
+          header.classList.toggle('open');
+          if (content) content.classList.toggle('open');
+          sync();
+        };
+        sync();
+
+        header.addEventListener('click', toggle);
+        header.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+        });
+
+        // Open Characterization by default
+        if (header.closest('#characterization') && !header.classList.contains('open')) {
+          toggle();
+        }
+      });
+    }
+
+    // Navigation
+    function initNavigation() {
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('section[id]');
+      
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+          document.getElementById('sidebar').classList.remove('open');
+        });
+      });
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            navLinks.forEach(link => {
+              link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+            });
+          }
+        });
+      }, { threshold: 0.2 });
+      
+      sections.forEach(section => observer.observe(section));
+    }
+
+    // Search
+    function initSearch() {
+      const searchInput = document.getElementById('searchInput');
+      const navLinks = document.querySelectorAll('.nav-link');
+      
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase();
+        navLinks.forEach(link => {
+          const text = link.textContent.toLowerCase();
+          link.style.display = text.includes(query) ? 'block' : 'none';
+        });
+      });
+    }
+
+    // Scroll reveal
+    function initScrollReveal() {
+      const elements = document.querySelectorAll('.fade-in');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      elements.forEach(el => observer.observe(el));
+    }
+
+    // Progress bar
+    function initProgressBar() {
+      const bar = document.getElementById('progressBar');
+      window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY;
+        const height = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.width = height > 0 ? `${(scrolled / height) * 100}%` : '0%';
+      });
+    }
+
+    // Mobile menu
+    function initMobileMenu() {
+      const btn = document.getElementById('mobileMenuBtn');
+      const sidebar = document.getElementById('sidebar');
+      
+      btn.addEventListener('click', () => {
+        const open = sidebar.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      document.addEventListener('click', (e) => {
+        if (!sidebar.contains(e.target) && !btn.contains(e.target)) {
+          sidebar.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // Taxonomy toggle
+    function initTaxonomyToggle() {
+      const toggle = document.getElementById('taxonomyToggle');
+      const panel = document.getElementById('taxonomyPanel');
+      
+      toggle.setAttribute('aria-expanded', panel.classList.contains('hidden') ? 'false' : 'true');
+      toggle.addEventListener('click', () => {
+        const hidden = panel.classList.toggle('hidden');
+        toggle.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+      });
+    }
+
+    // Code tabs
+    function initCodeTabs() {
+      const tabs = Array.from(document.querySelectorAll('.code-tab'));
+      const panels = document.querySelectorAll('.code-panel');
+      const tablist = tabs.length ? tabs[0].parentElement : null;
+
+      if (tablist) tablist.setAttribute('role', 'tablist');
+      tabs.forEach(tab => tab.setAttribute('role', 'tab'));
+      panels.forEach(p => p.setAttribute('role', 'tabpanel'));
+
+      const select = (tab) => {
+        const lang = tab.dataset.lang;
+        tabs.forEach(t => {
+          const on = (t === tab);
+          t.classList.toggle('active', on);
+          t.setAttribute('aria-selected', on ? 'true' : 'false');
+          t.setAttribute('tabindex', on ? '0' : '-1');
+        });
+        panels.forEach(p => p.classList.remove('active'));
+        const panel = document.querySelector(`.code-panel[data-lang="${lang}"]`);
+        if (panel) panel.classList.add('active');
+      };
+
+      tabs.forEach((tab, i) => {
+        tab.setAttribute('aria-selected', tab.classList.contains('active') ? 'true' : 'false');
+        tab.setAttribute('tabindex', tab.classList.contains('active') ? '0' : '-1');
+        tab.addEventListener('click', () => select(tab));
+        tab.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+            e.preventDefault();
+            const dir = e.key === 'ArrowRight' ? 1 : -1;
+            const next = tabs[(i + dir + tabs.length) % tabs.length];
+            next.focus();
+            select(next);
+          }
+        });
+      });
+    }
+  </script>
+</body>
+</html>

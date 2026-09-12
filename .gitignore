@@ -1,0 +1,10 @@
+# Secrets — never commit (CouchDB credentials; AI tokens live in the browser only)
+.env
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store

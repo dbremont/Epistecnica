@@ -1,0 +1,10 @@
+# Keep build context lean; the combined Dockerfile copies only what it needs.
+.git
+**/.git
+.env
+**/.env
+**/__pycache__
+**/node_modules
+.vscode
+*.md
+!README.md

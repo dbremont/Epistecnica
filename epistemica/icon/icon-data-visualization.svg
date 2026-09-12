@@ -1,0 +1,29 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="256" height="256" rx="18" fill="#0A0A0A"/>
+
+  <!-- Vertical separator (tight, perfectly aligned to content band) -->
+  <line x1="128" y1="110" x2="128" y2="146"
+        stroke="#E5E7EB"
+        stroke-width="1.2"
+        stroke-linecap="round"/>
+
+  <!-- Left: data (aligned within same vertical band) -->
+  <g fill="#E5E7EB">
+    <circle cx="108" cy="116" r="3"/>
+    <circle cx="116" cy="132" r="3"/>
+    <circle cx="100" cy="136" r="3"/>
+  </g>
+
+  <!-- Right: representation (top/bottom constrained to same band) -->
+  <g fill="#E5E7EB">
+    <rect x="136" y="118" width="6" height="22" rx="1"/>
+    <rect x="146" y="110" width="6" height="30" rx="1"/>
+    <rect x="156" y="124" width="6" height="16" rx="1"/>
+  </g>
+
+  <!-- Insight (aligned to top of representation band) -->
+  <circle cx="149" cy="110" r="3" fill="#FFFFFF"/>
+
+</svg>

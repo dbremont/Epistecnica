@@ -1,0 +1,5713 @@
+[
+  {
+    "id": "cat_obs_iface",
+    "name": "Observation Interface & Recoding",
+    "category": "observationInterface",
+    "inheritanceLevel": 0,
+    "description": "The sensorimotor boundary + inscription process that transduces a Domain Snapshot into a persistent encoded artifact.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "transductionMethod": "abstract",
+      "samplingMethod": "abstract",
+      "encodingMethod": "abstract"
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_artifact",
+    "name": "Epistemic Artifact",
+    "category": "epistemicFramework",
+    "inheritanceLevel": 0,
+    "description": "Structured object that encodes claims, constraints, or distributions over reality; the primary carrier of semantic content.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "frameworkType": "TaxonomicCategory",
+      "coreAssumptions": "Artifacts are structured objects that encode claims",
+      "integrationScope": "All epistemic practices"
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_interp",
+    "name": "Interpretation Layer",
+    "category": "epistemicFramework",
+    "inheritanceLevel": 0,
+    "description": "Interpretation function that assigns meaning to an epistemic artifact.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "frameworkType": "InterpretationFramework",
+      "coreAssumptions": "Meaning is assigned via mapping from artifact to domain",
+      "integrationScope": "Semantic interpretation"
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_tool",
+    "name": "Epistemic Tool",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 0,
+    "description": "Formal or procedural mechanism used to construct, transform, or validate epistemic artifacts.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "AbstractTool",
+      "transformationRule": "Varies by tool",
+      "operandType": "Artifact"
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_agent",
+    "name": "Epistemic Agent",
+    "category": "epistemicAgent",
+    "inheritanceLevel": 0,
+    "description": "Entity that performs epistemic operations by applying tools to artifacts.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "agentType": "Abstract",
+      "capabilities": [],
+      "autonomyLevel": "N/A",
+      "goalStructure": "N/A"
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_process",
+    "name": "Epistemic Process (Activity)",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 0,
+    "description": "Ordered sequence of tool applications over time; defines the dynamics of knowledge construction.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "processType": "AbstractProcess",
+      "inputs": [],
+      "outputs": [],
+      "validationMethod": "N/A"
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_standard",
+    "name": "Epistemic Standard",
+    "category": "epistemicStandard",
+    "inheritanceLevel": 0,
+    "description": "Normative criteria used to evaluate validity, correctness, or acceptability of artifacts and processes.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "standardType": "AbstractStandard",
+      "complianceCriteria": "",
+      "measurementBasis": ""
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_substrate",
+    "name": "Encoding Substrate",
+    "category": "epistemicInfrastructure",
+    "inheritanceLevel": 0,
+    "description": "Encoding format or substrate in which artifacts are expressed; constrains manipulation and interpretation.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "infrastructureType": "EncodingSubstrate",
+      "storageMechanism": "",
+      "communicationMode": ""
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_domain",
+    "name": "Epistemic Domain (Segment of Reality)",
+    "category": "epistemicDomain",
+    "inheritanceLevel": 0,
+    "description": "Segment of reality that the epistemic practice targets or models.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "domainScope": "Abstract",
+      "knowledgeBoundaries": "",
+      "primaryObjects": []
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_constraint",
+    "name": "Epistemic Constraint",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 0,
+    "description": "Limitation that bounds what can be known or inferred within the system.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "constraintType": "AbstractConstraint",
+      "boundedResource": "",
+      "failureMode": ""
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_infra",
+    "name": "Epistemic Infrastructure",
+    "category": "epistemicInfrastructure",
+    "inheritanceLevel": 0,
+    "description": "Supporting environment that enables storage, computation, measurement, and communication of artifacts.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "infrastructureType": "AbstractInfrastructure",
+      "storageMechanism": "",
+      "communicationMode": ""
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_meta",
+    "name": "Meta‑Epistemic Layer",
+    "category": "metaEpistemicLayer",
+    "inheritanceLevel": 0,
+    "description": "Material, energetic, social, and institutional environment enabling artifact handling over time.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "reflectionScope": "Meta",
+      "governanceRole": "Oversight",
+      "recursiveDepth": 1
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_feedback",
+    "name": "Epistemic Feedback",
+    "category": "epistemicFeedback",
+    "inheritanceLevel": 0,
+    "description": "Signal from reality (or another artifact) that resists or confirms prior predictions, driving learning.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "feedbackType": "Abstract",
+      "signalSource": "",
+      "adaptationTarget": ""
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "cat_act",
+    "name": "Epistemic Act",
+    "category": "epistemicAct",
+    "inheritanceLevel": 0,
+    "description": "Primitive, non‑decomposable operation performed by an agent.",
+    "functionalRoles": [
+      "abstract_category"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "actType": "AbstractAct",
+      "intent": "",
+      "target": "",
+      "outcome": ""
+    },
+    "relationships": [],
+    "metadata": {
+      "tags": [
+        "top-level"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "taxonomy",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "obs_iface_01",
+    "name": "CMOS Sensor + ADC + JPEG pipeline",
+    "category": "observationInterface",
+    "inheritanceLevel": 1,
+    "description": "Transduces light → digital image, compresses and stores as JPEG.",
+    "functionalRoles": [
+      "sensor",
+      "encoder"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "transductionMethod": "photon → charge → ADC → JPEG file",
+      "samplingMethod": "CMOS sensor raster scan",
+      "encodingMethod": "JPEG compression"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_obs_iface",
+        "description": "This observation interface is a subtype of the abstract category Observation Interface & Recoding."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "encodes",
+        "targetNodeId": "artifact_01",
+        "description": "This interface encodes a digital image artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "imaging"
+      ],
+      "confidenceScore": 0.95,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "obs_iface_02",
+    "name": "Human Visual Observation + Working Memory",
+    "category": "observationInterface",
+    "inheritanceLevel": 1,
+    "description": "Retina → V1 → working memory buffer; volatile encoded snapshot.",
+    "functionalRoles": [
+      "biological sensor"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "transductionMethod": "retina → LGN → V1 → memory",
+      "samplingMethod": "biological photoreceptor array",
+      "encodingMethod": "neural firing patterns"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_obs_iface",
+        "description": "This observation interface is a subtype of the abstract category Observation Interface & Recoding."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "encodes",
+        "targetNodeId": "artifact_07",
+        "description": "This interface encodes a visual mental image artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "human"
+      ],
+      "confidenceScore": 0.92,
+      "sourceReference": "cogsci",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_01",
+    "name": "Digital Image",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "2D RGB pixel array + metadata.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "sensorimotor",
+      "structure": "raster (R,G,B)",
+      "truthEvaluability": true,
+      "noiseModel": "per-pixel Gaussian"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "instantiates",
+        "targetNodeId": "artifact_06",
+        "description": "This digital image instantiates a differential equation model artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "image"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_02",
+    "name": "Numerical Measurement (scalar + uncertainty)",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "e.g., 9.81 ± 0.01 m/s².",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "sensorimotor",
+      "structure": "value, unit, uncertainty",
+      "truthEvaluability": true,
+      "noiseModel": "Gaussian"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "measurement"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_03",
+    "name": "Scientific Hypothesis (Proposition)",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "Falsifiable claim in natural/formal language.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "cognitive",
+      "structure": "logical form",
+      "truthEvaluability": true,
+      "noiseModel": "none"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "hypothesis"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_04",
+    "name": "Bayesian Network Model",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "DAG with conditional probability tables.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "computational",
+      "structure": "nodes, edges, CPDs",
+      "truthEvaluability": true,
+      "noiseModel": "probabilistic"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "bayesian"
+      ],
+      "confidenceScore": 0.98,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_05",
+    "name": "Time Series Dataset",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "Ordered (t, value) pairs.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "sensorimotor",
+      "structure": "timestamped sequence",
+      "truthEvaluability": true,
+      "noiseModel": "correlated + white"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "time series"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_06",
+    "name": "Differential Equation Model",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "ODE/PDE system with parameters.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "computational",
+      "structure": "equations, ICs",
+      "truthEvaluability": true,
+      "noiseModel": "process noise"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "dynamics"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_07",
+    "name": "Visual Mental Image",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "Ephemeral working-memory trace.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "cognitive",
+      "structure": "feature sketch",
+      "truthEvaluability": false,
+      "noiseModel": "decay + interference"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "memory"
+      ],
+      "confidenceScore": 0.85,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "interp_01",
+    "name": "Semantic Interpretation Mapping",
+    "category": "epistemicFramework",
+    "inheritanceLevel": 0,
+    "description": "Maps artifact → meaning, linking to domain claims.",
+    "functionalRoles": [
+      "interpretation"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "frameworkType": "SemanticMapping",
+      "coreAssumptions": "Artifacts can be assigned meaning via mapping functions",
+      "integrationScope": "Interpretation of artifacts"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_interp",
+        "description": "This interpretation framework is a subtype of the abstract category Interpretation Layer."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "semantics"
+      ],
+      "confidenceScore": 0.9,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_01",
+    "name": "Linear Regression",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Fits linear model by OLS.",
+    "functionalRoles": [
+      "inference tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "inference tool",
+      "transformationRule": "Minimizes sum of squared residuals",
+      "operandType": "scalar measurements"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "regression"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_02",
+    "name": "t-test (Statistical Hypothesis Test)",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Evaluates null hypothesis, produces p‑value.",
+    "functionalRoles": [
+      "validation tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "validation tool",
+      "transformationRule": "Computes t-statistic and p-value",
+      "operandType": "dataset, hypothesis"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "hypothesis test"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_03",
+    "name": "Bayesian Updating Rule",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Prior × likelihood → posterior.",
+    "functionalRoles": [
+      "inference tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "inference tool",
+      "transformationRule": "Posterior = Prior × Likelihood / Evidence",
+      "operandType": "prior, likelihood, data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "bayesian"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_04",
+    "name": "Measurement Calibration Procedure",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Maps raw readings to calibrated units.",
+    "functionalRoles": [
+      "measurement tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "measurement tool",
+      "transformationRule": "Apply calibration curve to raw readings",
+      "operandType": "raw output, reference"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "calibration"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_05",
+    "name": "Runge‑Kutta ODE Solver",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Numerical ODE simulation.",
+    "functionalRoles": [
+      "simulation tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "simulation tool",
+      "transformationRule": "Iterative integration using Runge-Kutta coefficients",
+      "operandType": "ODE model, ICs"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "simulation"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "agent_01",
+    "name": "Human Scientist",
+    "category": "epistemicAgent",
+    "inheritanceLevel": 1,
+    "description": "Biological cognitive agent capable of experimentation, theorizing, and learning.",
+    "functionalRoles": [
+      "agent"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "agentType": "human",
+      "capabilities": [
+        "perception",
+        "inference",
+        "intervention"
+      ],
+      "autonomyLevel": "deliberative",
+      "goalStructure": "adaptive"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_agent",
+        "description": "This agent is a subtype of the abstract category Epistemic Agent."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "human"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "agent_02",
+    "name": "Automated Experimentation Pipeline",
+    "category": "epistemicAgent",
+    "inheritanceLevel": 1,
+    "description": "Machine agent cycling hypothesis‑experiment‑update.",
+    "functionalRoles": [
+      "agent"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "agentType": "machine",
+      "capabilities": [
+        "inference",
+        "learning",
+        "intervention"
+      ],
+      "autonomyLevel": "self_improving",
+      "goalStructure": "fixed (optimization)"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_agent",
+        "description": "This agent is a subtype of the abstract category Epistemic Agent."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "AI"
+      ],
+      "confidenceScore": 0.9,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "agent_03",
+    "name": "Research Institution",
+    "category": "epistemicAgent",
+    "inheritanceLevel": 1,
+    "description": "Collective agent (humans + infrastructure) sustaining knowledge production.",
+    "functionalRoles": [
+      "agent"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "agentType": "institution",
+      "capabilities": [
+        "knowledge accumulation",
+        "norm enforcement"
+      ],
+      "autonomyLevel": "deliberative",
+      "goalStructure": "multi-objective"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_agent",
+        "description": "This agent is a subtype of the abstract category Epistemic Agent."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "institution"
+      ],
+      "confidenceScore": 0.95,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "process_01",
+    "name": "Scientific Method Cycle",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 1,
+    "description": "Hypothesize → design → collect → analyze → refine.",
+    "functionalRoles": [
+      "process"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "processType": "scientific_method",
+      "inputs": [
+        "hypothesis",
+        "experimental design"
+      ],
+      "outputs": [
+        "refined hypothesis",
+        "data"
+      ],
+      "validationMethod": "corroboration/falsification"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_process",
+        "description": "This process is a subtype of the abstract category Epistemic Process."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "method"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "process_02",
+    "name": "Bayesian Inference Loop",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 1,
+    "description": "Prior → observe → posterior → new prior.",
+    "functionalRoles": [
+      "process"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "processType": "inference_cycle",
+      "inputs": [
+        "prior",
+        "observation"
+      ],
+      "outputs": [
+        "posterior"
+      ],
+      "validationMethod": "convergence"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_process",
+        "description": "This process is a subtype of the abstract category Epistemic Process."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "bayesian"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "process_03",
+    "name": "Supervised Learning Training Pipeline",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 1,
+    "description": "Data → clean → split → fit → validate → deploy.",
+    "functionalRoles": [
+      "process"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "processType": "training_pipeline",
+      "inputs": [
+        "raw data",
+        "labels"
+      ],
+      "outputs": [
+        "trained model",
+        "validation metrics"
+      ],
+      "validationMethod": "validation loss plateau"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_process",
+        "description": "This process is a subtype of the abstract category Epistemic Process."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "ML"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "standard_01",
+    "name": "Statistical Significance (p < 0.05)",
+    "category": "epistemicStandard",
+    "inheritanceLevel": 1,
+    "description": "Null hypothesis rejection threshold.",
+    "functionalRoles": [
+      "norm"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "standardType": "statistical",
+      "complianceCriteria": "p < 0.05",
+      "measurementBasis": "frequentist"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_standard",
+        "description": "This standard is a subtype of the abstract category Epistemic Standard."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "significance"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "standard_02",
+    "name": "Reproducibility Criterion",
+    "category": "epistemicStandard",
+    "inheritanceLevel": 1,
+    "description": "Independent repetition yields consistent results.",
+    "functionalRoles": [
+      "norm"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "standardType": "reproducibility",
+      "complianceCriteria": "reproduction success rate >= 0.9",
+      "measurementBasis": "empirical"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_standard",
+        "description": "This standard is a subtype of the abstract category Epistemic Standard."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "reproducibility"
+      ],
+      "confidenceScore": 0.95,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "standard_03",
+    "name": "Falsifiability Requirement",
+    "category": "epistemicStandard",
+    "inheritanceLevel": 0,
+    "description": "Hypothesis must be logically refutable.",
+    "functionalRoles": [
+      "demarcation"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "standardType": "logical",
+      "complianceCriteria": "logical possibility of refutation",
+      "measurementBasis": "binary"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_standard",
+        "description": "This standard is a subtype of the abstract category Epistemic Standard."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "Popper"
+      ],
+      "confidenceScore": 0.9,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "substrate_01",
+    "name": "Digital JSON File",
+    "category": "epistemicInfrastructure",
+    "inheritanceLevel": 1,
+    "description": "Structured text serialization on non‑volatile memory.",
+    "functionalRoles": [
+      "encoding"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "infrastructureType": "digital storage",
+      "storageMechanism": "flash/disk",
+      "communicationMode": "file I/O"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_substrate",
+        "description": "This infrastructure is a subtype of the abstract category Encoding Substrate."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "digital"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "substrate_02",
+    "name": "Printed Text on Paper",
+    "category": "epistemicInfrastructure",
+    "inheritanceLevel": 1,
+    "description": "Physical archival record.",
+    "functionalRoles": [
+      "encoding"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "infrastructureType": "physical storage",
+      "storageMechanism": "paper",
+      "communicationMode": "visual reading"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_substrate",
+        "description": "This infrastructure is a subtype of the abstract category Encoding Substrate."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "paper"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "substrate_03",
+    "name": "Neural Firing Pattern (Working Memory)",
+    "category": "epistemicInfrastructure",
+    "inheritanceLevel": 1,
+    "description": "Ephemeral biological substrate.",
+    "functionalRoles": [
+      "encoding"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "infrastructureType": "biological storage",
+      "storageMechanism": "neural tissue",
+      "communicationMode": "synaptic transmission"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_substrate",
+        "description": "This infrastructure is a subtype of the abstract category Encoding Substrate."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "neural"
+      ],
+      "confidenceScore": 0.85,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "domain_01",
+    "name": "Classical Mechanical System",
+    "category": "epistemicDomain",
+    "inheritanceLevel": 1,
+    "description": "Macroscopic bodies, Newtonian dynamics.",
+    "functionalRoles": [
+      "target"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "domainScope": "physical_system, macro scale",
+      "knowledgeBoundaries": "closed system",
+      "primaryObjects": [
+        "bodies",
+        "forces",
+        "trajectories"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_domain",
+        "description": "This domain is a subtype of the abstract category Epistemic Domain."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "physics"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "domain_02",
+    "name": "Biological Ecosystem",
+    "category": "epistemicDomain",
+    "inheritanceLevel": 1,
+    "description": "Interacting populations, nutrient flows.",
+    "functionalRoles": [
+      "target"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "domainScope": "biological_system, meso scale",
+      "knowledgeBoundaries": "open system",
+      "primaryObjects": [
+        "populations",
+        "nutrients",
+        "flows"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_domain",
+        "description": "This domain is a subtype of the abstract category Epistemic Domain."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "ecology"
+      ],
+      "confidenceScore": 0.98,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "domain_03",
+    "name": "Human Social Network",
+    "category": "epistemicDomain",
+    "inheritanceLevel": 1,
+    "description": "Individuals, ties, influence.",
+    "functionalRoles": [
+      "target"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "domainScope": "social_system, macro scale",
+      "knowledgeBoundaries": "fuzzy boundary",
+      "primaryObjects": [
+        "individuals",
+        "ties",
+        "influence"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_domain",
+        "description": "This domain is a subtype of the abstract category Epistemic Domain."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "sociology"
+      ],
+      "confidenceScore": 0.9,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "constraint_01",
+    "name": "Measurement Noise",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 0,
+    "description": "Stochastic perturbation limiting precision.",
+    "functionalRoles": [
+      "limitation"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "constraintType": "physical",
+      "boundedResource": "measurement precision",
+      "failureMode": "reduces precision"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_constraint",
+        "description": "This constraint is a subtype of the abstract category Epistemic Constraint."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "noise"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "constraint_02",
+    "name": "Limited Sample Size",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 0,
+    "description": "Finite observations increase uncertainty.",
+    "functionalRoles": [
+      "limitation"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "constraintType": "statistical",
+      "boundedResource": "sample size",
+      "failureMode": "increases uncertainty"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_constraint",
+        "description": "This constraint is a subtype of the abstract category Epistemic Constraint."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "small n"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "constraint_03",
+    "name": "Computational Intractability",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 0,
+    "description": "NP‑hardness forces approximations.",
+    "functionalRoles": [
+      "limitation"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "constraintType": "computational",
+      "boundedResource": "computational resources",
+      "failureMode": "limits precision"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_constraint",
+        "description": "This constraint is a subtype of the abstract category Epistemic Constraint."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "NP-hard"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "infra_01",
+    "name": "General-Purpose Laboratory",
+    "category": "epistemicInfrastructure",
+    "inheritanceLevel": 1,
+    "description": "Physical facility with instruments and environmental controls.",
+    "functionalRoles": [
+      "infrastructure"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "infrastructureType": "laboratory",
+      "storageMechanism": "physical storage",
+      "communicationMode": "manual interaction"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_infra",
+        "description": "This infrastructure is a subtype of the abstract category Epistemic Infrastructure."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "lab"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "infra_02",
+    "name": "Cloud Computing Platform",
+    "category": "epistemicInfrastructure",
+    "inheritanceLevel": 1,
+    "description": "Elastic virtualized compute and storage.",
+    "functionalRoles": [
+      "infrastructure"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "infrastructureType": "cloud computing",
+      "storageMechanism": "distributed storage",
+      "communicationMode": "API calls"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_infra",
+        "description": "This infrastructure is a subtype of the abstract category Epistemic Infrastructure."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "cloud"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "meta_01",
+    "name": "Funding Agency",
+    "category": "metaEpistemicLayer",
+    "inheritanceLevel": 1,
+    "description": "Provides financial resources, shapes research priorities.",
+    "functionalRoles": [
+      "meta"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "reflectionScope": "institutional funding",
+      "governanceRole": "resource allocation",
+      "recursiveDepth": 1
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_meta",
+        "description": "This meta layer is a subtype of the abstract category Meta‑Epistemic Layer."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "funding"
+      ],
+      "confidenceScore": 0.95,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "meta_02",
+    "name": "Scientific Journal",
+    "category": "metaEpistemicLayer",
+    "inheritanceLevel": 1,
+    "description": "Disseminates validated artifacts, permanent record.",
+    "functionalRoles": [
+      "meta"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "reflectionScope": "scientific publishing",
+      "governanceRole": "validation and dissemination",
+      "recursiveDepth": 1
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_meta",
+        "description": "This meta layer is a subtype of the abstract category Meta‑Epistemic Layer."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "publishing"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "feedback_01",
+    "name": "Prediction Error Signal",
+    "category": "epistemicFeedback",
+    "inheritanceLevel": 0,
+    "description": "Mismatch between predicted and observed, driving model update.",
+    "functionalRoles": [
+      "feedback"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "feedbackType": "error",
+      "signalSource": "environment",
+      "adaptationTarget": "model artifact"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_feedback",
+        "description": "This feedback is a subtype of the abstract category Epistemic Feedback."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "error"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "feedback_02",
+    "name": "Experimental Anomaly",
+    "category": "epistemicFeedback",
+    "inheritanceLevel": 0,
+    "description": "Observation contradicting theory, triggering revision.",
+    "functionalRoles": [
+      "feedback"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "feedbackType": "anomaly",
+      "signalSource": "environment",
+      "adaptationTarget": "hypothesis"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_feedback",
+        "description": "This feedback is a subtype of the abstract category Epistemic Feedback."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "surprise"
+      ],
+      "confidenceScore": 0.9,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "act_01",
+    "name": "Observation Act",
+    "category": "epistemicAct",
+    "inheritanceLevel": 0,
+    "description": "Directing sensor to target, triggering transduction.",
+    "functionalRoles": [
+      "act"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "actType": "observe",
+      "intent": "acquire data",
+      "target": "environmental energy",
+      "outcome": "encoded artifact"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_act",
+        "description": "This act is a subtype of the abstract category Epistemic Act."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "observation"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "act_02",
+    "name": "Comparison Act",
+    "category": "epistemicAct",
+    "inheritanceLevel": 0,
+    "description": "Detecting similarity/difference between two artifacts.",
+    "functionalRoles": [
+      "act"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "actType": "compare",
+      "intent": "discriminate",
+      "target": "two artifacts",
+      "outcome": "similarity judgment"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_act",
+        "description": "This act is a subtype of the abstract category Epistemic Act."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "discrimination"
+      ],
+      "confidenceScore": 0.9,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "act_03",
+    "name": "Prediction Act",
+    "category": "epistemicAct",
+    "inheritanceLevel": 0,
+    "description": "Generating expected artifact from a model.",
+    "functionalRoles": [
+      "act"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "actType": "predict",
+      "intent": "anticipate",
+      "target": "model + current state",
+      "outcome": "predicted artifact"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_act",
+        "description": "This act is a subtype of the abstract category Epistemic Act."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "anticipation"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "meta_03",
+    "name": "Philosophia Naturalis",
+    "category": "metaEpistemicLayer",
+    "inheritanceLevel": 1,
+    "description": "The integration of ontology and epistemology: a set of tools, strategies, and frameworks used to describe, model, and reason about reality.",
+    "functionalRoles": [
+      "framework"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "reflectionScope": "natural philosophy",
+      "governanceRole": "integrative framework",
+      "recursiveDepth": 2
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_meta",
+        "description": "This meta layer is a subtype of the abstract category Meta‑Epistemic Layer."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "meta"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_08",
+    "name": "Ontic Map",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "A collection of ontic maps of different domains of reality.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "cognitive",
+      "structure": "collection of domain maps",
+      "truthEvaluability": false,
+      "noiseModel": "none"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "class",
+        "ontic"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "artifact_09",
+    "name": "Concept (Category)",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "A structured, often implicit epistemic artifact that encodes criteria for recognition, classification, and inferential use of a class of entities or phenomena. It is not reducible to a linguistic definition but can be partially expressed through definitions, prototypes, or formal constraints.",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "cognitive",
+      "structure": "implicit criteria",
+      "truthEvaluability": false,
+      "noiseModel": "prototype drift"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "artifact",
+        "#categorization"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_06",
+    "name": "Definition",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Explicit semantic specification",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "semantic fixation",
+      "transformationRule": "assigns a precise meaning to a term",
+      "operandType": "concept or term"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "semantic-fixation",
+        "definition",
+        "glossary",
+        "circularity",
+        "ambiguity",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_07",
+    "name": "Abstraction Operator",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Removes detail while preserving structure",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "abstraction",
+      "transformationRule": "ignores irrelevant details, keeps essential structure",
+      "operandType": "model or artifact"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "abstraction",
+        "modeling",
+        "generalization",
+        "over-abstraction",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_08",
+    "name": "Idealization",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Controlled simplification of reality",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "simplification",
+      "transformationRule": "ignores minor effects, assumes perfect conditions",
+      "operandType": "real system"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "simplification",
+        "modeling",
+        "idealized-model",
+        "unrealistic-assumptions",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_09",
+    "name": "State Representation",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Encodes system configuration",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "representation",
+      "transformationRule": "maps system state to a structured description",
+      "operandType": "physical or abstract system"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "representation",
+        "state-space",
+        "dynamics",
+        "omitted-variables",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_10",
+    "name": "Variable",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Measurable system property",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "measurement schema",
+      "transformationRule": "assigns a symbol to a measurable quantity",
+      "operandType": "observable property"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "measurement",
+        "variable-schema",
+        "quantification",
+        "proxy-mismatch",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_11",
+    "name": "Parameter",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Fixed model quantity",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "parameterization",
+      "transformationRule": "encodes a constant that shapes model behavior",
+      "operandType": "model"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "parameterization",
+        "calibration",
+        "identifiability",
+        "non-identifiability",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_12",
+    "name": "Function",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Mapping between sets",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "functional mapping",
+      "transformationRule": "maps inputs to outputs via a defined relation",
+      "operandType": "mathematical sets"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "functional-modeling",
+        "mapping",
+        "dependency",
+        "misspecification",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_13",
+    "name": "Equation",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Equality constraint between expressions",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "constraint specification",
+      "transformationRule": "asserts equality of two expressions",
+      "operandType": "mathematical expressions"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "problem-solving",
+        "constraint",
+        "system-solving",
+        "ill-posed",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_14",
+    "name": "Matrix",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Representation of linear transformations",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "linear algebra representation",
+      "transformationRule": "encodes linear map as rectangular array",
+      "operandType": "vector spaces"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "linear-algebra",
+        "representation",
+        "transformation",
+        "ill-conditioning",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_15",
+    "name": "Derivative",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Rate of change",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "differential operator",
+      "transformationRule": "computes instantaneous rate of change",
+      "operandType": "function"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "differentiation",
+        "local-analysis",
+        "change",
+        "non-differentiable",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_16",
+    "name": "Integral",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Aggregation over a domain",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "integral operator",
+      "transformationRule": "accumulates function values over a domain",
+      "operandType": "function"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "integration",
+        "aggregation",
+        "accumulation",
+        "divergence",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_17",
+    "name": "Differential Equation",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Dynamics defined via derivatives",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "dynamical law",
+      "transformationRule": "relates function to its derivatives",
+      "operandType": "function and its derivatives"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "dynamical-systems",
+        "ode",
+        "pde",
+        "evolution",
+        "instability",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_18",
+    "name": "Probability Distribution",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Model of uncertainty over outcomes",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "stochastic model",
+      "transformationRule": "assigns probabilities to events",
+      "operandType": "sample space"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "stochastic",
+        "distribution",
+        "modeling",
+        "wrong-assumption",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_19",
+    "name": "Estimator",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Rule for inferring parameters",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "inference rule",
+      "transformationRule": "computes parameter estimates from data",
+      "operandType": "data and model"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "estimation",
+        "inference",
+        "approximation",
+        "bias",
+        "inconsistency",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_20",
+    "name": "Likelihood Function",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Measures data fit under parameters",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "goodness-of-fit measure",
+      "transformationRule": "computes probability of data given parameters",
+      "operandType": "data and model parameters"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "inference",
+        "stochastic",
+        "model-fitting",
+        "identifiability",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_21",
+    "name": "Algorithm",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Finite computational procedure",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "computational procedure",
+      "transformationRule": "step-by-step computation",
+      "operandType": "input data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "computation",
+        "procedure",
+        "automation",
+        "opacity",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_22",
+    "name": "Data Structure",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Organized data representation",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "data organization",
+      "transformationRule": "organizes data for efficient access",
+      "operandType": "raw data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "representation",
+        "data-organization",
+        "efficiency",
+        "inefficiency",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_23",
+    "name": "Numerical Method",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Approximation techniques for computation",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "approximation technique",
+      "transformationRule": "computes approximate solution using discretization",
+      "operandType": "continuous problem"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "approximation",
+        "numerical-solution",
+        "computation",
+        "error-propagation",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_24",
+    "name": "Optimization Problem",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Objective function with constraints",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "optimization",
+      "transformationRule": "defines an objective to be minimized or maximized subject to constraints",
+      "operandType": "variables and constraints"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "optimization",
+        "objective",
+        "constraints",
+        "search",
+        "local-minima",
+        "tool"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "process_04",
+    "name": "Simulation",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 1,
+    "description": "A generalized epistemic process that constructs executable representations of reality to generate predictive, explanatory, or exploratory state trajectories under specified assumptions and constraints.",
+    "longDescription": "Simulation is a broad epistemic process through which agents construct, execute, and iteratively refine formalized representations of real or hypothetical systems in order to model their dynamics across time. It transforms concrete epistemic artifacts (initial states, parameters, governing equations) into predictive or exploratory trajectories through algorithmic operators and computational infrastructures. Simulation serves as one of the principal mechanisms for epistemic exploration when direct experimentation is costly, impossible, or unsafe. It encompasses deterministic, stochastic, mechanistic, agent-based, systems-dynamic, and numerical frameworks. Within epistemic systems, simulation links frameworks, operators, standards, constraints, and feedback loops into executable knowledge production pipelines.",
+    "functionalRoles": [
+      "Predictive modeling",
+      "Counterfactual analysis",
+      "Dynamic systems exploration",
+      "Hypothesis testing",
+      "Scenario generation",
+      "Knowledge production under uncertainty"
+    ],
+    "realityDomains": [
+      "Physical systems",
+      "Biological systems",
+      "Social systems",
+      "Economic systems",
+      "Engineering systems",
+      "Computational systems"
+    ],
+    "historicalContext": {
+      "summary": "Simulation emerged from mathematical physics and military systems analysis, later expanding into engineering, computational science, economics, and machine learning as computational infrastructure advanced.",
+      "chronology": [
+        {
+          "year": 1940,
+          "event": "Early analog and Monte Carlo simulations",
+          "associatedContext": "Physics and military modeling"
+        },
+        {
+          "year": 1960,
+          "event": "Digital computational simulation expansion",
+          "associatedContext": "Systems engineering"
+        },
+        {
+          "year": 2000,
+          "event": "Large-scale multi-domain simulation ecosystems",
+          "associatedContext": "Scientific computing and AI"
+        }
+      ]
+    },
+    "specific": {
+      "processType": "Generalized computational and formal modeling process",
+      "inputs": [
+        "Initial conditions",
+        "Formal models",
+        "Parameters",
+        "Boundary conditions",
+        "Governing rules"
+      ],
+      "outputs": [
+        "Predicted trajectories",
+        "Synthetic datasets",
+        "Scenario analyses",
+        "Sensitivity analyses",
+        "Validation reports"
+      ],
+      "validationMethod": "Empirical comparison, convergence testing, robustness analysis, falsification"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "uses",
+        "targetNodeId": "concrete-model-artifact-001",
+        "description": "Uses formalized artifacts as executable state representations."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "uses",
+        "targetNodeId": "algorithmic-operator-001",
+        "description": "Depends on operators to execute transformations over state representations."
+      },
+      {
+        "relationshipFamily": "normativeValidation",
+        "relationshipType": "conforms_to",
+        "targetNodeId": "validation-standard-001",
+        "description": "Conforms to predictive adequacy, reproducibility, and robustness standards."
+      },
+      {
+        "relationshipFamily": "constraint",
+        "relationshipType": "is_bounded_by",
+        "targetNodeId": "computational-resource-constraint-001",
+        "description": "Bounded by computational complexity, uncertainty, and model incompleteness."
+      },
+      {
+        "relationshipFamily": "dynamicFeedback",
+        "relationshipType": "feeds_back_to",
+        "targetNodeId": "model-revision-process-001",
+        "description": "Simulation discrepancies inform iterative refinement."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "simulation",
+        "epistemic process",
+        "modeling",
+        "prediction",
+        "systems analysis",
+        "scientific computing"
+      ],
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Primarily an epistemic process because simulation is an ordered sequence of epistemic acts generating knowledge through execution over time.",
+        "alternativeCategories": [
+          {
+            "category": "epistemicFramework",
+            "justification": "Simulation can function as a broad methodological framework across disciplines.",
+            "confidence": 0.79
+          },
+          {
+            "category": "epistemicStrategy",
+            "justification": "Simulation is often used strategically for uncertainty reduction and planning.",
+            "confidence": 0.67
+          }
+        ]
+      },
+      "confidenceScore": 0.98,
+      "sourceReference": "General epistemic systems ontology of simulation",
+      "createdAt": "2026-05-02T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-02",
+          "reviewNote": "General simulation schema node formalized."
+        }
+      ]
+    }
+  },
+  {
+    "id": "artifact_10",
+    "name": "Model",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "Abstract representation of a system",
+    "functionalRoles": [
+      "artifact"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "modality": "computational",
+      "structure": "abstract representation",
+      "truthEvaluability": false,
+      "noiseModel": "simplification error"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "modeling",
+        "representation",
+        "prediction",
+        "overfitting",
+        "underfitting",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_25",
+    "name": "Data Visualization",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Visual representation of data",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "visual encoding",
+      "transformationRule": "maps data to visual attributes",
+      "operandType": "data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "visual",
+        "representation",
+        "exploration",
+        "pattern-detection",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_26",
+    "name": "Standard Deviation",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Measure of dispersion",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "statistical measure",
+      "transformationRule": "computes square root of variance",
+      "operandType": "numerical data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "statistics",
+        "dispersion",
+        "variability",
+        "distribution",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_27",
+    "name": "Dimensionality Reduction",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Extract latent structure",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "latent structure extraction",
+      "transformationRule": "maps high-dimensional data to lower-dimensional representation",
+      "operandType": "high-dimensional data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "statistics",
+        "dimensionality-reduction",
+        "latent-structure",
+        "pattern-detection",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_28",
+    "name": "Regression Analysis",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Model relationships between variables",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "relationship modeling",
+      "transformationRule": "estimates conditional expectation of dependent variable",
+      "operandType": "variables"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "statistics",
+        "prediction",
+        "causal-inference",
+        "trend-analysis",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_29",
+    "name": "Clustering",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Group data by similarity",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "unsupervised classification",
+      "transformationRule": "partitions data into groups based on similarity",
+      "operandType": "data points"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "unsupervised",
+        "pattern-detection",
+        "classification",
+        "structure",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_30",
+    "name": "Network Analysis",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Analyze relational structures",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "graph analysis",
+      "transformationRule": "computes graph metrics (degree, centrality, etc.)",
+      "operandType": "graph data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "graph",
+        "connectivity",
+        "structure",
+        "relations",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_31",
+    "name": "Bayesian Inference",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Probabilistic belief updating",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "probabilistic inference",
+      "transformationRule": "updates beliefs using Bayes' theorem",
+      "operandType": "prior and likelihood"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "stochastic",
+        "belief-updating",
+        "inference",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_32",
+    "name": "Time Series Analysis",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Analysis of temporal data",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "temporal analysis",
+      "transformationRule": "detects trends, seasonality, and dependencies",
+      "operandType": "time-ordered data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "temporal",
+        "dynamics",
+        "trend",
+        "anomaly-detection",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_33",
+    "name": "Monte Carlo Simulation",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Random sampling simulation",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "stochastic simulation",
+      "transformationRule": "uses random sampling to approximate distributions",
+      "operandType": "probabilistic model"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "stochastic",
+        "simulation",
+        "risk-analysis",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "tool_34",
+    "name": "Hypothesis Testing",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Statistical decision procedure",
+    "functionalRoles": [
+      "tool"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "operatorType": "statistical decision",
+      "transformationRule": "evaluates null hypothesis against alternative",
+      "operandType": "data and hypotheses"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_tool",
+        "description": "This operator is a subtype of the abstract category Epistemic Tool."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "statistics",
+        "testing",
+        "significance",
+        "inference",
+        "class"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "standard_04",
+    "name": "Law of Large Numbers",
+    "category": "epistemicStandard",
+    "inheritanceLevel": 1,
+    "description": "Convergence of averages",
+    "functionalRoles": [
+      "norm"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "standardType": "probabilistic convergence",
+      "complianceCriteria": "sample average converges to expected value",
+      "measurementBasis": "theoretical guarantee"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_standard",
+        "description": "This standard is a subtype of the abstract category Epistemic Standard."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "stochastic",
+        "convergence",
+        "statistics",
+        "theory"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "process_05",
+    "name": "Abduction",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 1,
+    "description": "Abduction is an epistemic process aimed at inferring and ranking candidate explanations for a given set of observations, based on how likely those observations would be under each hypothesis in a space of possible worlds.",
+    "functionalRoles": [
+      "process"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "",
+      "chronology": []
+    },
+    "specific": {
+      "processType": "inference to best explanation",
+      "inputs": [
+        "observations",
+        "hypothesis space"
+      ],
+      "outputs": [
+        "ranked explanations"
+      ],
+      "validationMethod": "likelihood or plausibility"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_process",
+        "description": "This process is a subtype of the abstract category Epistemic Process."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "#activity"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": []
+    }
+  },
+  {
+    "id": "framework_causality",
+    "name": "Causality (as theoretical framework)",
+    "category": "epistemicFramework",
+    "inheritanceLevel": 1,
+    "description": "The theoretical framework and principles that define cause-and-effect relationships, often formalized through models. Provides abstract conceptual system for reasoning about influence, intervention, and explanation.",
+    "functionalRoles": [
+      "framework"
+    ],
+    "realityDomains": [
+      "physical",
+      "biological",
+      "social",
+      "computational"
+    ],
+    "historicalContext": {
+      "summary": "Causality as a philosophical concept dates back to Plato and Aristotle. Modern causal frameworks emerged from Hume's regularity theory, later extended by counterfactual, probabilistic, and interventionist approaches. Since the 1990s, formal graphical and structural models (Pearl, Rubin) have dominated.",
+      "chronology": [
+        {
+          "year": -350,
+          "event": "Aristotle formulates the Four Causes",
+          "associatedContext": "Ancient Greece"
+        },
+        {
+          "year": 1739,
+          "event": "Hume publishes 'A Treatise of Human Nature', regularity theory of causation",
+          "associatedContext": "Enlightenment philosophy"
+        },
+        {
+          "year": 1973,
+          "event": "Lewis publishes 'Causation', counterfactual theory",
+          "associatedContext": "Analytic philosophy"
+        },
+        {
+          "year": 1995,
+          "event": "Pearl introduces causal diagrams and do-calculus",
+          "associatedContext": "Computer science / statistics"
+        }
+      ]
+    },
+    "specific": {
+      "frameworkType": "causal theory",
+      "coreAssumptions": "Causality involves counterfactual dependence, intervention, and graphical structure",
+      "integrationScope": "Allows reasoning about cause-effect in science"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_framework",
+        "description": "This framework is a subtype of the abstract category Epistemic Framework."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "formalizes",
+        "targetNodeId": "blueprint_causal_model",
+        "description": "This framework formalizes the causal model blueprint."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "causality",
+        "framework",
+        "reasoning"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "blueprint_causal_model",
+    "name": "Causal Model (generic representation scheme)",
+    "category": "epistemicBlueprint",
+    "inheritanceLevel": 1,
+    "description": "A representation of the relationships between variables in a system, aiming to understand how changes in one variable can influence or cause changes in other variables.",
+    "functionalRoles": [
+      "encoding_format"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Generic causal models have been used in science since at least the 20th century, with path analysis (Wright) as an early precursor. The modern notion of a formal causal model crystallized with structural equation modeling and graphical approaches.",
+      "chronology": [
+        {
+          "year": 1921,
+          "event": "Wright introduces path analysis",
+          "associatedContext": "Genetics"
+        },
+        {
+          "year": 1970,
+          "event": "Structural equation models become widespread in social sciences",
+          "associatedContext": "Econometrics"
+        },
+        {
+          "year": 2000,
+          "event": "Pearl's 'Causality' book formalizes causal models as DAGs + structural equations",
+          "associatedContext": "AI / Statistics"
+        }
+      ]
+    },
+    "specific": {
+      "representationType": "symbolic",
+      "formalism": "directed graphs + equations",
+      "expressiveLimits": [
+        "acyclic",
+        "no latent feedback"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_blueprint",
+        "description": "This blueprint is a subtype of the abstract category Epistemic Blueprint."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "causal_model",
+        "blueprint",
+        "representation"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "blueprint_scm",
+    "name": "Structural Causal Model (SCM)",
+    "category": "epistemicBlueprint",
+    "inheritanceLevel": 2,
+    "description": "Uses directed acyclic graphs (DAGs) and structural equations to represent and compute counterfactuals. A specific formalism within causal modeling.",
+    "functionalRoles": [
+      "encoding_format"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "SCM was formalized by Judea Pearl in the 1990s, building on earlier work on graphical models, structural equations, and causal Bayesian networks. It became the dominant framework for counterfactual and interventionist reasoning.",
+      "chronology": [
+        {
+          "year": 1995,
+          "event": "Pearl introduces SCM in 'Causal Diagrams for Empirical Research'",
+          "associatedContext": "Biometrika"
+        },
+        {
+          "year": 2000,
+          "event": "Publication of 'Causality: Models, Reasoning, and Inference'",
+          "associatedContext": "Cambridge University Press"
+        },
+        {
+          "year": 2009,
+          "event": "Second edition of 'Causality' includes extensive SCM developments",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "representationType": "symbolic",
+      "formalism": "DAG + structural equations",
+      "expressiveLimits": [
+        "acyclic",
+        "deterministic functions"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "blueprint_causal_model",
+        "description": "This blueprint is a subtype of the generic causal model blueprint."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "scm",
+        "dag",
+        "structural_equations",
+        "causal_model"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "operator_do_calculus",
+    "name": "Do-calculus",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Algebraic rules for reasoning about interventions and identifying causal effects from observational data.",
+    "functionalRoles": [
+      "transform",
+      "infer"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Do-calculus was developed by Judea Pearl in the mid‑1990s as a set of three rules to derive causal effects from graphical models. It provides the mathematical foundation for identifying interventions without running experiments.",
+      "chronology": [
+        {
+          "year": 1995,
+          "event": "Pearl introduces do-calculus in 'Causal Diagrams for Empirical Research'",
+          "associatedContext": ""
+        },
+        {
+          "year": 2000,
+          "event": "Do-calculus presented systematically in 'Causality'",
+          "associatedContext": ""
+        },
+        {
+          "year": 2012,
+          "event": "Shpitser and Pearl prove completeness of do-calculus",
+          "associatedContext": "AI / Statistics"
+        }
+      ]
+    },
+    "specific": {
+      "operatorType": "inference",
+      "transformationRule": "three rules for manipulating conditional probabilities under interventions",
+      "operandType": "causal graphical model"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_operator",
+        "description": "This operator is a subtype of the abstract category Epistemic Operator."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "acts_on",
+        "targetNodeId": "blueprint_causal_model",
+        "description": "Do-calculus acts on causal models to identify interventions."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "do_calculus",
+        "intervention",
+        "causal_inference"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "operator_counterfactual_reasoning",
+    "name": "Counterfactual Reasoning",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Reasoning about hypothetical outcomes under alternative scenarios; defining causation in terms of difference-making.",
+    "functionalRoles": [
+      "transform",
+      "infer"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Counterfactual reasoning has roots in Hume and was formalized by Lewis (1973). Pearl integrated it with SCM, operationalizing counterfactuals through structural equations. It is now central to causal inference and AI explainability.",
+      "chronology": [
+        {
+          "year": 1748,
+          "event": "Hume discusses counterfactuals in 'An Enquiry Concerning Human Understanding'",
+          "associatedContext": ""
+        },
+        {
+          "year": 1973,
+          "event": "Lewis publishes 'Causation' using possible-world semantics",
+          "associatedContext": "Philosophy"
+        },
+        {
+          "year": 2000,
+          "event": "Pearl incorporates counterfactuals into SCM",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "operatorType": "inference",
+      "transformationRule": "computes outcomes under hypothetical interventions",
+      "operandType": "causal model + intervention"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_operator",
+        "description": "This operator is a subtype of the abstract category Epistemic Operator."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "counterfactual",
+        "reasoning",
+        "causation"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "framework_potential_outcomes",
+    "name": "Potential Outcomes Framework (Rubin Model)",
+    "category": "epistemicFramework",
+    "inheritanceLevel": 1,
+    "description": "Represents causation through contrasts between potential outcomes (Y₁, Y₀) under different treatments.",
+    "functionalRoles": [
+      "framework"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "The potential outcomes framework was developed by Donald Rubin in the 1970s (building on Neyman's earlier work). It formalizes causal effects as comparisons of outcomes under treatment and control, and underpins modern causal inference in statistics and econometrics.",
+      "chronology": [
+        {
+          "year": 1923,
+          "event": "Neyman introduces potential outcomes for randomized experiments",
+          "associatedContext": "Polish agricultural experiments"
+        },
+        {
+          "year": 1974,
+          "event": "Rubin publishes 'Estimating Causal Effects of Treatments'",
+          "associatedContext": "Journal of Educational Psychology"
+        },
+        {
+          "year": 1978,
+          "event": "Rubin formalizes the 'Rubin Causal Model'",
+          "associatedContext": ""
+        },
+        {
+          "year": 1990,
+          "event": "Imbens and Angrist link potential outcomes to instrumental variables",
+          "associatedContext": "Econometrics"
+        }
+      ]
+    },
+    "specific": {
+      "frameworkType": "statistical causality",
+      "coreAssumptions": "Stable unit treatment value assumption (SUTVA), no interference",
+      "integrationScope": "experimental and observational studies"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_framework",
+        "description": "This framework is a subtype of the abstract category Epistemic Framework."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "rubin",
+        "potential_outcomes",
+        "causal_inference"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "blueprint_causal_bayesian_network",
+    "name": "Causal Bayesian Network",
+    "category": "epistemicBlueprint",
+    "inheritanceLevel": 2,
+    "description": "Probabilistic graphical models that incorporate interventions as variable manipulations.",
+    "functionalRoles": [
+      "encoding_format"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Bayesian networks were introduced by Pearl in the 1980s as a formalism for probabilistic reasoning. The causal interpretation (using do‑calculus) emerged in the 1990s, turning them into Causal Bayesian Networks.",
+      "chronology": [
+        {
+          "year": 1988,
+          "event": "Pearl publishes 'Probabilistic Reasoning in Intelligent Systems'",
+          "associatedContext": "Introduction of Bayesian networks"
+        },
+        {
+          "year": 1995,
+          "event": "Pearl adds intervention semantics, creating Causal Bayesian Networks",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "representationType": "graphical probabilistic",
+      "formalism": "DAG + conditional probability tables",
+      "expressiveLimits": [
+        "acyclic",
+        "discrete variables (often)"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "blueprint_causal_model",
+        "description": "This blueprint is a subtype of the generic causal model blueprint."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "bayesian_network",
+        "cbn",
+        "graphical_model"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "operator_granger_causality",
+    "name": "Granger Causality",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "X causes Y if past values of X improve prediction of Y beyond Y’s own history.",
+    "functionalRoles": [
+      "infer"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Granger causality was proposed by Clive Granger in 1969 as a statistical notion of predictive causality for time series. It became widely used in econometrics and neuroscience, though it is not a true causal model (only predictive).",
+      "chronology": [
+        {
+          "year": 1969,
+          "event": "Granger publishes 'Investigating Causal Relations by Econometric Models'",
+          "associatedContext": "Econometrica"
+        },
+        {
+          "year": 2003,
+          "event": "Granger receives Nobel Prize for this method",
+          "associatedContext": "Economics"
+        }
+      ]
+    },
+    "specific": {
+      "operatorType": "inference",
+      "transformationRule": "test of predictive improvement via autoregressive models",
+      "operandType": "time series data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_operator",
+        "description": "This operator is a subtype of the abstract category Epistemic Operator."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "granger",
+        "time_series",
+        "causality"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "operator_transfer_entropy",
+    "name": "Transfer Entropy",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Quantifies directional information flow from X to Y.",
+    "functionalRoles": [
+      "infer"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Transfer entropy was introduced by Thomas Schreiber in 2000 as an information‑theoretic measure of directed dependency, building on Granger causality and earlier work on mutual information.",
+      "chronology": [
+        {
+          "year": 2000,
+          "event": "Schreiber publishes 'Measuring Information Transfer'",
+          "associatedContext": "Physical Review Letters"
+        },
+        {
+          "year": 2005,
+          "event": "Transfer entropy linked to Granger causality for Gaussian variables",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "operatorType": "inference",
+      "transformationRule": "conditional mutual information between past of X and future of Y",
+      "operandType": "time series data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_operator",
+        "description": "This operator is a subtype of the abstract category Epistemic Operator."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "transfer_entropy",
+        "information_flow",
+        "causality"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "act_intervention",
+    "name": "Intervention",
+    "category": "epistemicAct",
+    "inheritanceLevel": 1,
+    "description": "Manipulating one factor to observe change in another; basis for experiments and do-calculus.",
+    "functionalRoles": [
+      "act"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Intervention has been central to experimental science since Bacon. In causal inference, it was formalized by Pearl through the do(·) operator and by Woodward in the manipulationist theory of causation.",
+      "chronology": [
+        {
+          "year": 1620,
+          "event": "Bacon's 'Novum Organum' emphasizes experimental intervention",
+          "associatedContext": ""
+        },
+        {
+          "year": 2003,
+          "event": "Woodward publishes 'Making Things Happen'",
+          "associatedContext": "Manipulationist theory"
+        },
+        {
+          "year": 1995,
+          "event": "Pearl formalizes intervention with do(·) operator",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "actType": "intervene",
+      "intent": "manipulate cause to observe effect",
+      "target": "variable in model",
+      "outcome": "modified system state"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_act",
+        "description": "This act is a subtype of the abstract category Epistemic Act."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "acts_on",
+        "targetNodeId": "blueprint_causal_model",
+        "description": "Intervention acts on causal models."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "intervention",
+        "manipulation",
+        "experiment"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "constraint_confounder",
+    "name": "Confounder",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 1,
+    "description": "Influences both cause and effect, potentially biasing causal inference if not controlled for.",
+    "functionalRoles": [
+      "constraint"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "The problem of confounding has been recognized since early statistics (Pearson, Fisher). Formal definitions came from epidemiology and graphical models; Pearl characterized confounders via the back‑door criterion.",
+      "chronology": [
+        {
+          "year": 1897,
+          "event": "Yule demonstrates spurious correlation due to confounding",
+          "associatedContext": "Statistics"
+        },
+        {
+          "year": 1958,
+          "event": "Cornfield discusses confounding in epidemiology",
+          "associatedContext": "Smoking and lung cancer"
+        },
+        {
+          "year": 1993,
+          "event": "Pearl introduces back‑door criterion for confounder control",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "constraintType": "statistical",
+      "boundedResource": "observational data",
+      "failureMode": "biased causal effect estimation"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_constraint",
+        "description": "This constraint is a subtype of the abstract category Epistemic Constraint."
+      },
+      {
+        "relationshipFamily": "constraint",
+        "relationshipType": "distorts",
+        "targetNodeId": "artifact_causal_effect_estimate",
+        "description": "Confounders distort causal effect estimates."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "confounder",
+        "bias",
+        "causal_inference"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "artifact_counterfactual_statement",
+    "name": "Counterfactual (statement)",
+    "category": "concreteEpistemicArtifact",
+    "inheritanceLevel": 1,
+    "description": "A claim about what would happen if some event had or had not occurred; e.g., 'If A had not occurred, B would not have occurred.'",
+    "functionalRoles": [
+      "representation"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Counterfactual statements have been used in philosophy and science for centuries. In causal inference, they are the target of many queries (e.g., 'What would be the outcome if treatment were different?').",
+      "chronology": [
+        {
+          "year": 1739,
+          "event": "Hume uses counterfactual reasoning",
+          "associatedContext": ""
+        },
+        {
+          "year": 1973,
+          "event": "Lewis makes counterfactuals central to his theory of causation",
+          "associatedContext": ""
+        },
+        {
+          "year": 2000,
+          "event": "Pearl operationalizes counterfactuals with SCM",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "modality": "cognitive",
+      "structure": "propositional",
+      "truthEvaluability": false,
+      "noiseModel": "deterministic_error_function"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_artifact",
+        "description": "This artifact is a subtype of the abstract category Epistemic Artifact."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "expresses_in",
+        "targetNodeId": "blueprint_causal_model",
+        "description": "Counterfactual statements are expressed in causal models."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "produced_by",
+        "targetNodeId": "operator_counterfactual_reasoning",
+        "description": "Counterfactual statements are produced by counterfactual reasoning."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "counterfactual",
+        "claim",
+        "proposition"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "process_causal_inference",
+    "name": "Causal Inference",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 1,
+    "description": "Estimating the effects of interventions from observational or experimental data; includes steps like model specification, identification, estimation, and validation.",
+    "functionalRoles": [
+      "process"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Causal inference as a formal discipline grew from statistics (Fisher, Neyman, Rubin) and computer science (Pearl). It is now a standard process in medicine, economics, and AI.",
+      "chronology": [
+        {
+          "year": 1925,
+          "event": "Fisher introduces randomized experiments",
+          "associatedContext": ""
+        },
+        {
+          "year": 1974,
+          "event": "Rubin's potential outcomes framework",
+          "associatedContext": ""
+        },
+        {
+          "year": 1995,
+          "event": "Pearl's graphical approach",
+          "associatedContext": ""
+        },
+        {
+          "year": 2010,
+          "event": "Causal inference becomes standard in data science",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "processType": "inference_cycle",
+      "inputs": [
+        "observational data",
+        "causal assumptions"
+      ],
+      "outputs": [
+        "causal effect estimate",
+        "confidence interval"
+      ],
+      "validationMethod": "sensitivity analysis"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_process",
+        "description": "This process is a subtype of the abstract category Epistemic Process."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "causal_inference",
+        "process",
+        "estimation"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "operator_rct",
+    "name": "Randomized Controlled Trial (RCT)",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "An experimental design that randomly assigns subjects to treatment/control groups to establish causal relationships.",
+    "functionalRoles": [
+      "transform",
+      "validate"
+    ],
+    "realityDomains": [
+      "physical",
+      "biological",
+      "social"
+    ],
+    "historicalContext": {
+      "summary": "RCTs originated in agricultural experiments (Fisher) and biomedical research. They are considered the gold standard for establishing causality because randomization eliminates confounding.",
+      "chronology": [
+        {
+          "year": 1926,
+          "event": "Fisher introduces randomization in agricultural trials",
+          "associatedContext": "Rothamsted Experimental Station"
+        },
+        {
+          "year": 1948,
+          "event": "First modern RCT: streptomycin trial for tuberculosis",
+          "associatedContext": "UK Medical Research Council"
+        },
+        {
+          "year": 1970,
+          "event": "RCTs become mandatory for drug approval",
+          "associatedContext": "FDA regulations"
+        }
+      ]
+    },
+    "specific": {
+      "operatorType": "experimental design",
+      "transformationRule": "random assignment to treatment/control",
+      "operandType": "subjects and treatments"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_operator",
+        "description": "This operator is a subtype of the abstract category Epistemic Operator."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "rct",
+        "experiment",
+        "randomization",
+        "causal"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "operator_causal_discovery",
+    "name": "Causal Discovery",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "Algorithms to learn causal structure (e.g., DAGs) from observational or interventional data.",
+    "functionalRoles": [
+      "infer"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "Causal discovery emerged from the fusion of graphical models and machine learning in the 1990s. Key algorithms include PC, FCI, and GES, later extended with deep learning.",
+      "chronology": [
+        {
+          "year": 1990,
+          "event": "Spirtes, Glymour, and Scheines publish 'Causation, Prediction, and Search'",
+          "associatedContext": "Introduces PC algorithm"
+        },
+        {
+          "year": 1995,
+          "event": "Pearl's IC algorithm",
+          "associatedContext": ""
+        },
+        {
+          "year": 2002,
+          "event": "Chickering presents GES (Greedy Equivalence Search)",
+          "associatedContext": ""
+        },
+        {
+          "year": 2020,
+          "event": "Deep learning for causal discovery (e.g., DAG-GNN)",
+          "associatedContext": "NeurIPS"
+        }
+      ]
+    },
+    "specific": {
+      "operatorType": "inference",
+      "transformationRule": "learns graphical structure from conditional independence tests or score-based search",
+      "operandType": "observational data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_operator",
+        "description": "This operator is a subtype of the abstract category Epistemic Operator."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "produces",
+        "targetNodeId": "blueprint_causal_model",
+        "description": "Causal discovery produces causal models."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "causal_discovery",
+        "learning",
+        "structure"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "principle_against_reification",
+    "name": "Against Reification / Layered Causality",
+    "category": "epistemicPrinciple",
+    "inheritanceLevel": 1,
+    "description": "Causality is not a single mechanism but a bundle of layered processes (biological, social, institutional). Do not treat abstract causal estimates as 'the cause'.",
+    "functionalRoles": [
+      "norm"
+    ],
+    "realityDomains": [],
+    "historicalContext": {
+      "summary": "This principle reflects a critique of naive causal inference that conflates statistical estimates with ontological mechanisms. It draws on systems thinking, critical realism, and philosophy of science (Bhaskar, Cartwright).",
+      "chronology": [
+        {
+          "year": 1975,
+          "event": "Bhaskar's 'A Realist Theory of Science' critiques causal reification",
+          "associatedContext": ""
+        },
+        {
+          "year": 1989,
+          "event": "Cartwright's 'Nature's Capacities and Their Measurement'",
+          "associatedContext": ""
+        },
+        {
+          "year": 2010,
+          "event": "Adoption in complex systems and methodologists",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "principleType": "anti-reification",
+      "formalStatement": "Do not treat causal estimates as the unique underlying mechanism",
+      "applicability": "causal inference and modeling"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_principle",
+        "description": "This principle is a subtype of the abstract category Epistemic Principle."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "reification",
+        "layered_causality",
+        "interpretation"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "domain_piece_of_reality",
+    "name": "Reality Segment",
+    "category": "epistemicDomain",
+    "inheritanceLevel": 1,
+    "description": "Some phenomenon or subset of the real world you want to understand (e.g., physical, biological, social system).",
+    "functionalRoles": [
+      "target_domain"
+    ],
+    "realityDomains": [
+      "physical",
+      "biological",
+      "social",
+      "computational"
+    ],
+    "historicalContext": {
+      "summary": "The notion of a 'piece of reality' as a target of inquiry is implicit in all empirical science. It is a philosophical primitive: the domain that exists independently of representations.",
+      "chronology": [
+        {
+          "year": -350,
+          "event": "Aristotle distinguishes substance and accident",
+          "associatedContext": "Metaphysics"
+        },
+        {
+          "year": 1930,
+          "event": "Logical positivism's distinction between protocol sentences and reality",
+          "associatedContext": ""
+        }
+      ]
+    },
+    "specific": {
+      "domainScope": "physical_system, meso scale",
+      "knowledgeBoundaries": "fuzzy",
+      "primaryObjects": [
+        "entities",
+        "interactions"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_domain",
+        "description": "This domain is a subtype of the abstract category Epistemic Domain."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "reality",
+        "target",
+        "phenomenon"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-01",
+          "reviewNote": "Initial extraction from Causality document"
+        }
+      ]
+    }
+  },
+  {
+    "id": "barnes-hut-simulation-001",
+    "name": "Barnes–Hut Simulation",
+    "category": "epistemicProcess",
+    "inheritanceLevel": 2,
+    "description": "A computational epistemic process implementing the Barnes–Hut algorithm to simulate large-scale N-body dynamical systems through hierarchical spatial decomposition and approximate force aggregation.",
+    "longDescription": "Barnes–Hut simulation is a structured epistemic process situated at the intersection of computational physics, numerical simulation, and algorithmic systems modeling. It operationalizes the Barnes–Hut algorithm as an ordered epistemic activity for approximating gravitational or force interactions among large numbers of entities while reducing computational complexity from O(n²) to O(n log n). The process constructs a hierarchical tree-based spatial partition (typically quadtree or octree), recursively decomposes physical space, estimates distant aggregate forces through center-of-mass approximations, and iteratively updates system state trajectories over time. As an epistemic practice, it transforms encoded initial conditions into predictive dynamical artifacts under formal physical laws. It depends on representational blueprints (tree structures, force equations), operators (recursive decomposition, approximation heuristics), constraints (approximation error, timestep instability), and standards (numerical stability, physical plausibility). Barnes–Hut simulation functions as both a scientific modeling pipeline and an algorithmic infrastructure for scalable dynamical knowledge generation.",
+    "functionalRoles": [
+      "Large-scale dynamical system simulation",
+      "Hierarchical approximation of force interactions",
+      "Predictive modeling of N-body systems",
+      "Computational reduction of pairwise complexity",
+      "Transformation of initial state artifacts into temporal state trajectories"
+    ],
+    "realityDomains": [
+      "Computational systems",
+      "Physical systems",
+      "Astrophysical systems",
+      "Numerical simulation environments"
+    ],
+    "historicalContext": {
+      "summary": "Developed in 1986 by Josh Barnes and Piet Hut to address computational inefficiency in N-body simulations, the Barnes–Hut method became foundational in computational astrophysics and large-scale force simulation.",
+      "chronology": [
+        {
+          "year": 1986,
+          "event": "Barnes and Hut publish hierarchical tree algorithm",
+          "associatedContext": "Computational astrophysics"
+        },
+        {
+          "year": 1990,
+          "event": "Broad adoption in galaxy and cosmological simulations",
+          "associatedContext": "Scientific high-performance computing"
+        },
+        {
+          "year": 2000,
+          "event": "Extension into GPU and distributed architectures",
+          "associatedContext": "Parallel computing"
+        }
+      ]
+    },
+    "specific": {
+      "processType": "Hierarchical N-body simulation",
+      "inputs": [
+        "Initial particle positions",
+        "Particle masses",
+        "Particle velocities",
+        "Simulation timestep",
+        "Approximation threshold parameter (θ)"
+      ],
+      "outputs": [
+        "Updated system state trajectories",
+        "Predicted force fields",
+        "Temporal evolution datasets",
+        "Simulation logs"
+      ],
+      "validationMethod": "Numerical convergence analysis, physical conservation checks, approximation error benchmarking"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "implements_principle",
+        "targetNodeId": "hierarchical-decomposition-principle-001",
+        "description": "Implements recursive spatial decomposition for computational efficiency."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "uses",
+        "targetNodeId": "barnes-hut-algorithm-001",
+        "description": "Uses the Barnes–Hut algorithm as its formal computational operator."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "expresses_in",
+        "targetNodeId": "quadtree-octree-blueprint-001",
+        "description": "Expresses simulation state and partitioning through hierarchical tree blueprints."
+      },
+      {
+        "relationshipFamily": "constraint",
+        "relationshipType": "is_bounded_by",
+        "targetNodeId": "numerical-approximation-constraint-001",
+        "description": "Bounded by timestep stability, force approximation error, and finite precision."
+      },
+      {
+        "relationshipFamily": "dynamicFeedback",
+        "relationshipType": "produces",
+        "targetNodeId": "n-body-state-trajectory-artifact-001",
+        "description": "Produces evolving concrete epistemic artifacts representing system trajectories."
+      },
+      {
+        "relationshipFamily": "normativeValidation",
+        "relationshipType": "evaluated_by",
+        "targetNodeId": "numerical-stability-standard-001",
+        "description": "Evaluated through conservation laws, error analysis, and simulation robustness."
+      },
+      {
+        "relationshipFamily": "infrastructure",
+        "relationshipType": "depends_on",
+        "targetNodeId": "high-performance-computing-infrastructure-001",
+        "description": "Depends on computational infrastructure for scalability."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "Barnes-Hut",
+        "simulation",
+        "algorithm",
+        "N-body",
+        "computational physics",
+        "hierarchical decomposition",
+        "epistemic process",
+        "systems modeling"
+      ],
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Primarily classified as an epistemic process because it is an ordered operational activity transforming inputs into validated predictive artifacts over time.",
+        "alternativeCategories": [
+          {
+            "category": "epistemicOperator",
+            "justification": "The Barnes–Hut algorithm itself functions as a transformation operator.",
+            "confidence": 0.92
+          },
+          {
+            "category": "epistemicFramework",
+            "justification": "Can also function as part of broader computational simulation frameworks.",
+            "confidence": 0.61
+          },
+          {
+            "category": "concreteEpistemicArtifact",
+            "justification": "Specific simulation instances produce fully specified predictive artifacts.",
+            "confidence": 0.58
+          }
+        ]
+      },
+      "confidenceScore": 0.98,
+      "sourceReference": "Conceptual synthesis of Barnes–Hut simulation within epistemic systems ontology",
+      "createdAt": "2026-05-02T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-02",
+          "reviewNote": "Initial formal epistemic classification and schema encoding completed."
+        }
+      ]
+    }
+  },
+  {
+    "id": "algorithm_concept",
+    "name": "Algorithm",
+    "category": "epistemicOperator",
+    "inheritanceLevel": 1,
+    "description": "A formally specified, finite, ordered sequence of operations that transforms defined inputs into outputs according to explicit procedural rules.",
+    "longDescription": "An algorithm is an abstract procedural structure that defines a reproducible sequence of operations for transforming inputs into outputs under specified logical, mathematical, or computational constraints. Algorithms serve as core epistemic operators by operationalizing inference, optimization, simulation, search, control, and decision procedures into executable form. They may be deterministic, stochastic, recursive, heuristic, exact, or approximate, and can exist independently of specific hardware or implementation environments. Algorithms are foundational to scientific reasoning, engineering systems, mathematics, computational infrastructures, and cognitive procedures because they encode tractable pathways for systematically manipulating representational artifacts. Their significance lies not merely in execution, but in their role as formalized mechanisms for structured transformation within epistemic systems.",
+    "functionalRoles": [
+      "information transformation",
+      "formal procedure execution",
+      "optimization",
+      "simulation",
+      "search",
+      "decision support",
+      "knowledge processing"
+    ],
+    "realityDomains": [
+      "computer science",
+      "mathematics",
+      "engineering",
+      "scientific modeling",
+      "cognitive systems",
+      "institutional processes"
+    ],
+    "historicalContext": {
+      "summary": "Algorithms emerged from early mathematical procedures and were formally generalized through logic, computability theory, and modern computer science.",
+      "chronology": [
+        {
+          "year": -300,
+          "event": "Euclidean procedural mathematics",
+          "associatedContext": "Early formal stepwise problem-solving methods"
+        },
+        {
+          "year": 825,
+          "event": "Al-Khwarizmi's procedural arithmetic methods",
+          "associatedContext": "Origin of the term 'algorithm'"
+        },
+        {
+          "year": 1936,
+          "event": "Turing formalizes computation through Turing machines",
+          "associatedContext": "Computability theory"
+        },
+        {
+          "year": 1940,
+          "event": "Modern computational algorithmics expands",
+          "associatedContext": "Digital computer development"
+        }
+      ]
+    },
+    "specific": {
+      "operatorType": "algorithm",
+      "transformationRule": "Executes a finite sequence of formally defined state transformations from input to output.",
+      "operandType": "symbolic, numeric, logical, or physical representations",
+      "algorithmClass": "general procedural operator",
+      "computationalComplexity": "Varies by implementation and problem class",
+      "determinism": "hybrid",
+      "terminationGuarantee": true
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "implements_principle",
+        "targetNodeId": "formal_procedural_logic",
+        "description": "Algorithms operationalize formal logical or mathematical principles into executable procedures."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "expresses_in",
+        "targetNodeId": "epistemic_blueprint_procedural_representation",
+        "description": "Algorithms are encoded through procedural blueprints such as pseudocode, flowcharts, or programming languages."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "transforms",
+        "targetNodeId": "concrete_epistemic_artifact",
+        "description": "Algorithms transform structured epistemic artifacts into new informational states."
+      },
+      {
+        "relationshipFamily": "constraint",
+        "relationshipType": "is_bounded_by",
+        "targetNodeId": "computational_complexity_constraints",
+        "description": "Algorithmic performance is constrained by time, space, and tractability limitations."
+      },
+      {
+        "relationshipFamily": "metaEpistemic",
+        "relationshipType": "supports",
+        "targetNodeId": "epistemic_process",
+        "description": "Algorithms enable broader epistemic processes such as modeling, inference, experimentation, and optimization."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "algorithm",
+        "procedure",
+        "computation",
+        "optimization",
+        "simulation",
+        "formal systems",
+        "epistemic operator"
+      ],
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Algorithm is primarily an epistemic operator because its defining feature is formal transformation of representations via executable procedural rules.",
+        "alternativeCategories": [
+          {
+            "category": "epistemicBlueprint",
+            "justification": "Algorithms may also be treated as abstract representational procedural structures independent of execution.",
+            "confidence": 0.81
+          },
+          {
+            "category": "epistemicProcess",
+            "justification": "When instantiated temporally in real systems, algorithms function as operational processes.",
+            "confidence": 0.76
+          },
+          {
+            "category": "epistemicStrategy",
+            "justification": "Certain algorithms encode adaptive search or optimization strategies.",
+            "confidence": 0.68
+          }
+        ]
+      },
+      "confidenceScore": 0.98,
+      "sourceReference": "Conceptual synthesis from computability theory, computer science, systems theory, and epistemology.",
+      "createdAt": "2026-05-02T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-05-02",
+          "reviewNote": "Initial formalization of algorithm as an epistemic operator with category ambiguity analysis."
+        }
+      ]
+    }
+  },
+  {
+  "$schema": "https://example.org/conceptual-structure-node.schema.json",
+  "id": "em-wave-ontic-001",
+  "name": "ElectromagneticWave",
+  "category": "reality",
+  "inheritanceLevel": 0,
+  "description": "A self-propagating transverse wave of oscillating electric and magnetic fields that travels through vacuum or matter at the speed of light, carrying energy and momentum without requiring a material medium.",
+  "longDescription": "Electromagnetic waves are solutions to Maxwell's equations in free space or dielectric media, characterized by frequency, wavelength, amplitude, polarization, and phase. They form the basis for all classical electrodynamic radiation, from radio waves to gamma rays. As an ontic phenomenon, the electromagnetic wave is a real, measurable disturbance in the electromagnetic field, existing independently of any particular measurement apparatus. Its behavior is governed by the wave equation derived from Maxwell's equations, and it exhibits wave-particle duality at the quantum level (photons). In classical ontology, it is a perdurant processual entity that propagates causally and can be superposed, reflected, refracted, diffracted, and absorbed. Its observability is direct via antennas, photodetectors, or the human eye (for visible light), though some properties (e.g., phase) require interferometric techniques.",
+  "functionalRoles": [
+    "energy_transport",
+    "momentum_transfer",
+    "information_carrier",
+    "force_mediator_in_classical_electrodynamics"
+  ],
+  "realityDomains": [
+    "electromagnetism",
+    "optics",
+    "radio_physics",
+    "quantum_electrodynamics"
+  ],
+  "historicalContext": {
+    "summary": "The concept of electromagnetic waves emerged from the unification of electricity and magnetism by James Clerk Maxwell in the 1860s, who predicted their existence. Heinrich Hertz experimentally generated and detected radio waves in 1887, confirming Maxwell's theory. Later developments included the discovery of X-rays by Röntgen (1895), gamma rays by Villard (1900), and the quantum formulation by Einstein (1905) and others, leading to wave-particle duality.",
+    "chronology": [
+      {
+        "year": 1864,
+        "event": "Maxwell publishes 'A Dynamical Theory of the Electromagnetic Field', predicting electromagnetic waves.",
+        "associatedContext": "Unification of electricity, magnetism, and light; wave equation derived."
+      },
+      {
+        "year": 1887,
+        "event": "Hertz experimentally generates and detects radio waves, confirming Maxwell's prediction.",
+        "associatedContext": "First controlled production and measurement of electromagnetic waves in the laboratory."
+      },
+      {
+        "year": 1905,
+        "event": "Einstein explains the photoelectric effect using light quanta (photons), introducing wave-particle duality.",
+        "associatedContext": "Quantum nature challenges purely classical wave ontology."
+      }
+    ]
+  },
+  "specific": {
+    "ontologicalClass": "Ontic.Dynamical.Phenomena",
+    "observability": "observable",
+    "temporalProfile": "perdurant",
+    "levelOfExistence": "first-order",
+    "conceptEvaluationNote": "The electromagnetic wave is a highly successful ontic concept in classical physics, enabling precise predictions of propagation, interference, and radiation. However, at quantum scales it is supplanted by the photon field description, though classical waves remain a valid approximation for many phenomena (coherent states). As an epistemic tool, it provides an intuitive visualizable model but must be complemented by quantum field theory for completeness."
+  },
+  "relationships": [
+    {
+      "relationshipFamily": "structural",
+      "relationshipType": "composed_of",
+      "targetNodeId": "electric-field-ontic-001",
+      "description": "An electromagnetic wave is composed of oscillating electric and magnetic fields mutually inducing each other."
+    },
+    {
+      "relationshipFamily": "representational",
+      "relationshipType": "formalizes",
+      "targetNodeId": "maxwell-equations-001",
+      "description": "The behavior of electromagnetic waves is formalized by Maxwell's equations in vacuum or media."
+    },
+    {
+      "relationshipFamily": "operational",
+      "relationshipType": "produces",
+      "targetNodeId": "radiation-pressure-001",
+      "description": "Electromagnetic waves produce radiation pressure and momentum transfer upon absorption or reflection."
+    }
+  ],
+  "metadata": {
+    "tags": [
+      "electromagnetism",
+      "wave",
+      "ontic",
+      "classical-physics",
+      "field-theory"
+    ],
+    "categoryAmbiguity": {
+      "isAmbiguous": false,
+      "primaryJustification": "Electromagnetic wave is a fundamental ontic entity in classical electromagnetism, directly referring to a real physical phenomenon, not an epistemic artifact or process.",
+      "alternativeCategories": []
+    },
+    "confidenceScore": 0.98,
+    "sourceReference": "Derived from Maxwell's equations, standard electrodynamics textbooks (e.g., Jackson, Griffiths), and historical analysis.",
+    "createdAt": "2025-01-15T10:00:00Z",
+    "auditTrail": []
+  }
+},
+{
+  "id": "concept.number",
+  "name": "Number",
+  "category": "epistemicBlueprint",
+  "inheritanceLevel": 2,
+  "description": "An abstract symbolic and structural construct used to represent quantity, magnitude, order, relation, ratio, measure, and formal mathematical structure.",
+  "longDescription": "A number is an abstract representational construct emerging from the epistemic need to stabilize, compare, manipulate, and formalize quantitative and relational aspects of reality. Numbers function simultaneously as symbolic artifacts, structural invariants, operational operands, and formal entities within mathematical systems. Historically, numbers evolved from concrete counting practices and resource accounting into highly abstract algebraic, topological, logical, and computational objects. Different numerical systems—including natural numbers, integers, rationals, reals, complex numbers, ordinals, cardinals, and hyperreal systems—extend the representational and operational capacity of mathematics. Numbers are foundational to measurement, computation, geometry, modeling, simulation, optimization, finance, physics, engineering, and formal reasoning. Epistemically, numbers mediate between observed phenomena and formal symbolic systems, enabling compression, prediction, abstraction, and operational control over reality models.",
+  "functionalRoles": [
+    "Represent quantity",
+    "Encode magnitude",
+    "Support ordering relations",
+    "Enable arithmetic operations",
+    "Provide measurement infrastructure",
+    "Support formal mathematical reasoning",
+    "Act as operands in computational systems",
+    "Enable abstraction of physical and conceptual systems",
+    "Facilitate statistical and probabilistic modeling",
+    "Support symbolic encoding of relations"
+  ],
+  "realityDomains": [
+    "mathematics",
+    "physics",
+    "engineering",
+    "economics",
+    "computer science",
+    "statistics",
+    "finance",
+    "measurement systems",
+    "logic",
+    "information systems"
+  ],
+  "historicalContext": {
+    "summary": "The concept of number evolved from primitive counting systems into increasingly abstract mathematical structures used across scientific, computational, and formal domains.",
+    "chronology": [
+      {
+        "year": -30000,
+        "event": "Primitive tally systems emerge",
+        "associatedContext": "Early human counting and resource tracking"
+      },
+      {
+        "year": -2000,
+        "event": "Babylonian positional numeral systems develop",
+        "associatedContext": "Administrative mathematics and astronomy"
+      },
+      {
+        "year": -500,
+        "event": "Greek mathematical abstraction of numbers",
+        "associatedContext": "Formal geometry and philosophical mathematics"
+      },
+      {
+        "year": 628,
+        "event": "Formalization of zero and arithmetic rules in India",
+        "associatedContext": "Development of positional decimal systems"
+      },
+      {
+        "year": 1600,
+        "event": "Expansion of real and complex number systems",
+        "associatedContext": "Algebraic and analytic mathematics"
+      },
+      {
+        "year": 1874,
+        "event": "Cantor develops set-theoretic foundations of cardinality",
+        "associatedContext": "Infinite set theory and formal mathematics"
+      },
+      {
+        "year": 1930,
+        "event": "Formal computational treatment of numbers",
+        "associatedContext": "Computability theory and digital computation"
+      }
+    ]
+  },
+  "specific": {
+    "representationType": "Abstract symbolic quantitative representation",
+    "formalism": "Arithmetic, algebraic, logical, set-theoretic, and computational formal systems",
+    "expressiveLimits": [
+      "Cannot fully represent continuous physical reality with finite precision",
+      "Dependent on formal axiomatic systems",
+      "Some numerical truths are undecidable within formal systems",
+      "Finite computational representations introduce approximation and rounding errors",
+      "Symbolic representation may diverge from ontological structure of reality"
+    ]
+  },
+  "relationships": [
+    
+  ],
+  
+  "references": [
+    {
+      "title": "Toolbox: Number",
+      "description": "",
+      "link" : "view/tool/eaft/nbr.html"
+    }
+  ],
+  "metadata": {
+    "tags": [
+      "mathematics",
+      "quantity",
+      "abstraction",
+      "symbolic-system",
+      "measurement",
+      "arithmetic",
+      "formalism",
+      "representation",
+      "computation",
+      "logic"
+    ],
+    "categoryAmbiguity": {
+      "isAmbiguous": true,
+      "primaryJustification": "The concept of number is classified primarily as an epistemicBlueprint because it functions as a formal representational structure used to model and manipulate quantitative relationships across domains.",
+      "alternativeCategories": [
+        {
+          "category": "epistemicOperator",
+          "justification": "Numbers serve operational roles as operands within transformation systems.",
+          "confidence": 0.74
+        },
+        {
+          "category": "concreteEpistemicArtifact",
+          "justification": "Numerals and written numerical symbols exist as concrete symbolic artifacts.",
+          "confidence": 0.61
+        },
+        {
+          "category": "epistemicFramework",
+          "justification": "Entire mathematical systems may organize around numerical structures.",
+          "confidence": 0.53
+        },
+        {
+          "category": "reality",
+          "justification": "Certain philosophical traditions treat numbers as ontologically real entities.",
+          "confidence": 0.42
+        }
+      ]
+    },
+    "confidenceScore": 0.95,
+    "sourceReference": "Synthetic conceptual synthesis derived from mathematics, philosophy of mathematics, logic, computation theory, and epistemology.",
+    "createdAt": "2026-05-14T12:00:00Z",
+    "auditTrail": [
+      {
+        "reviewDate": "2026-05-14",
+        "reviewNote": "Initial conceptual formalization of the number concept using the Conceptual Structure Typing Node Schema."
+      }
+    ]
+  }
+}  ,{
+    "id": "framework_decision_theory",
+    "name": "Decision Theory",
+    "category": "epistemicFramework",
+    "inheritanceLevel": 1,
+    "description": "A formal epistemic framework that structures how rational agents select actions under uncertainty by integrating preferences, beliefs, and probabilistic reasoning into decision rules.",
+    "longDescription": "Decision Theory provides a unifying conceptual and mathematical architecture for evaluating choices under uncertainty. It integrates belief representations (e.g., probability distributions), preference orderings (e.g., utility functions), and inference rules (e.g., expected utility maximization). It functions as a meta-structure that organizes multiple epistemic operators such as Bayesian updating, optimization, and counterfactual evaluation. It is foundational in economics, statistics, AI, and cognitive science for modeling rational choice behavior under constraints of uncertainty and limited information.",
+    "functionalRoles": ["framework", "inferential_structure", "normative_model"],
+    "realityDomains": ["economic systems", "cognitive systems", "multi-agent systems"],
+    "historicalContext": {
+      "summary": "Emerges from utility theory, probability theory, and formal economics.",
+      "chronology": [
+        {
+          "year": 1738,
+          "event": "Expected utility foundation (Bernoulli)",
+          "associatedContext": "Risk and utility formalization"
+        },
+        {
+          "year": 1944,
+          "event": "Axiomatic expected utility theory (von Neumann & Morgenstern)",
+          "associatedContext": "Formal decision theory foundation"
+        }
+      ]
+    },
+    "specific": {
+      "frameworkType": "Normative-Probabilistic Decision Framework",
+      "coreAssumptions": "Agents act to maximize expected utility under probabilistic beliefs; preferences are coherent and transitive; uncertainty is representable via probability distributions.",
+      "integrationScope": "Integrates probability theory, utility theory, optimization, and game theory into a unified decision architecture."
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "implements_principle",
+        "targetNodeId": "principle_bayesian_coherence",
+        "description": "Operationalizes probabilistic coherence in belief updating and decision evaluation."
+      }
+    ],
+    "metadata": {
+      "tags": ["decision theory", "rational choice", "uncertainty", "utility", "probability"],
+      "confidenceScore": 0.95,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T14:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "Expected Utility Theory (von Neumann & Morgenstern)",
+        "description": "Foundational axiomatic formulation of decision-making under risk."
+      },
+      {
+        "title": "A Treatise on Probability - John Maynard Keynes",
+        "description": "Early formal treatment of probabilistic reasoning in decision contexts."
+      }
+    ]
+  },
+  {
+    "id": "process_decision_making",
+    "name": "Decision-Making",
+    "category": "reality",
+    "inheritanceLevel": 1,
+    "description": "A structured epistemic process in which an agent selects one action from a set of alternatives based on evaluation of expected outcomes, constraints, and objectives.",
+    "longDescription": "Decision-making is a temporally structured epistemic process that transforms a decision problem into an executed action through sequential operations: perception of state, generation of alternatives, evaluation under uncertainty, application of selection criteria, and commitment to action. It is constrained by cognitive limitations, informational incompleteness, and environmental uncertainty. It is the operational realization of decision theory within bounded, real-world settings.",
+    "functionalRoles": ["selection_process", "evaluation_pipeline", "action_commitment"],
+    "realityDomains": ["cognitive systems", "organizational systems", "autonomous agents"],
+    "historicalContext": {
+      "summary": "Studied across psychology, economics, and artificial intelligence as a core rationality process.",
+      "chronology": [
+        {
+          "year": 1955,
+          "event": "Bounded rationality (Herbert Simon)",
+          "associatedContext": "Limits of human decision-making capacity"
+        }
+      ]
+    },
+    "specific": {
+      "processType": "Sequential bounded rational selection process",
+      "inputs": [
+        "belief_state",
+        "utility_structure",
+        "action_space",
+        "constraints"
+      ],
+      "outputs": [
+        "selected_action",
+        "commitment_state"
+      ],
+      "validationMethod": "Outcome evaluation against realized utility and prediction error minimization"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "uses",
+        "targetNodeId": "framework_decision_theory",
+        "description": "Implements decision theory as the guiding evaluative framework."
+      },
+      {
+        "relationshipFamily": "constraint",
+        "relationshipType": "is_bounded_by",
+        "targetNodeId": "constraint_uncertainty",
+        "description": "Constrained by incomplete information and stochastic environments."
+      }
+    ],
+    "metadata": {
+      "tags": ["decision-making", "process", "choice", "bounded rationality"],
+      "confidenceScore": 0.95,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T14:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "Administrative Behavior - Herbert A. Simon",
+        "description": "Foundational work on bounded rationality in decision processes."
+      }
+    ]
+  },
+  {
+    "id": "blueprint_decision_problem",
+    "name": "Decision Problem",
+    "category": "epistemicBlueprint",
+    "inheritanceLevel": 1,
+    "description": "A structured representational schema defining the components of a decision situation: states, actions, outcomes, and evaluation criteria.",
+    "longDescription": "A decision problem is a formal representation schema that specifies the structure of choice under uncertainty. It encodes the state space, action space, transition dynamics (if applicable), and utility or payoff mapping. It serves as the input specification for decision-making processes and decision-theoretic evaluation. It is not itself a computation or inference, but a structured representation enabling such operations.",
+    "functionalRoles": ["problem_specification", "formal_representation", "input_schema"],
+    "realityDomains": ["economic systems", "control systems", "cognitive modeling"],
+    "historicalContext": {
+      "summary": "Evolved from early economic modeling and operations research formulations.",
+      "chronology": []
+    },
+    "specific": {
+      "representationType": "State-Action-Outcome tuple representation",
+      "formalism": "⟨S, A, P, U⟩ formal decision tuple",
+      "expressiveLimits": [
+        "Requires explicit enumeration or parametrization of states and actions",
+        "May struggle with high-dimensional continuous spaces without approximation"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "has_input",
+        "targetNodeId": "process_decision_making",
+        "description": "Serves as input specification for decision-making processes."
+      }
+    ],
+    "metadata": {
+      "tags": ["decision problem", "formalization", "representation", "structure"],
+      "confidenceScore": 0.92,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T14:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "Markov Decision Processes in Operations Research",
+        "description": "Formal framework for sequential decision problems under uncertainty."
+      }
+    ]
+  },
+  {
+    "id": "blueprint_action_space",
+    "name": "Action Space",
+    "category": "epistemicBlueprint",
+    "inheritanceLevel": 1,
+    "description": "The structured set of all feasible actions available to an agent within a decision context.",
+    "longDescription": "The action space defines the domain of possible interventions or choices an epistemic agent can enact. It may be discrete, continuous, constrained, or context-dependent. It is a structural component of decision problems and determines the combinatorial and computational complexity of decision-making processes.",
+    "functionalRoles": ["choice_structure", "constraint_definition", "option_set"],
+    "realityDomains": ["control systems", "robotics", "economics"],
+    "historicalContext": {
+      "summary": "Originates in control theory and mathematical decision models.",
+      "chronology": []
+    },
+    "specific": {
+      "representationType": "Set-theoretic or parametric action representation",
+      "formalism": "A ∈ ℝⁿ or discrete set A = {a₁, a₂, ..., aₙ}",
+      "expressiveLimits": [
+        "May become intractable in high-dimensional continuous spaces",
+        "Requires discretization or sampling in complex systems"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "blueprint_decision_problem",
+        "description": "Forms a component of the decision problem structure."
+      }
+    ],
+    "metadata": {
+      "tags": ["action space", "control", "decision structure"],
+      "confidenceScore": 0.9,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T14:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "Reinforcement Learning: An Introduction - Sutton & Barto",
+        "description": "Standard reference for action spaces in sequential decision systems."
+      }
+    ]
+  },
+  {
+    "id": "blueprint_utility_function",
+    "name": "Utility Function",
+    "category": "epistemicBlueprint",
+    "inheritanceLevel": 1,
+    "description": "A formal mapping from states or outcomes to scalar values representing preference intensity.",
+    "longDescription": "The utility function encodes preference structure over outcomes in a decision system. It assigns scalar values to states or action-outcome pairs, enabling comparison and optimization. It is central to expected utility theory and functions as the evaluative backbone of decision-theoretic reasoning.",
+    "functionalRoles": ["preference_encoding", "evaluation_mapping", "optimization_target"],
+    "realityDomains": ["economics", "decision systems", "AI alignment"],
+    "historicalContext": {
+      "summary": "Developed in utility theory and expected value formalizations.",
+      "chronology": []
+    },
+    "specific": {
+      "representationType": "Scalar-valued preference mapping",
+      "formalism": "U: S → ℝ or U: (S × A) → ℝ",
+      "expressiveLimits": [
+        "Assumes comparability of all outcomes via scalar reduction",
+        "May fail under preference intransitivity or context dependence"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "has_parameter",
+        "targetNodeId": "framework_decision_theory",
+        "description": "Serves as a parameterized component within decision theory."
+      }
+    ],
+    "metadata": {
+      "tags": ["utility", "preference", "optimization", "decision theory"],
+      "confidenceScore": 0.94,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T14:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "Theory of Games and Economic Behavior",
+        "description": "Foundational formalization of utility functions in economics."
+      }
+    ]
+  },
+  {
+    "id": "constraint_uncertainty",
+    "name": "Uncertainty Constraint",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 1,
+    "description": "A limiting condition in which incomplete or stochastic information restricts the determinacy of inference and decision outcomes.",
+    "longDescription": "Uncertainty as a constraint represents epistemic incompleteness regarding states of the world, transition dynamics, or outcome distributions. It induces probabilistic reasoning requirements and limits deterministic prediction. It is a fundamental constraint in all real-world decision systems.",
+    "functionalRoles": ["limitation", "information_bound", "stochastic_constraint"],
+    "realityDomains": ["all empirical systems"],
+    "historicalContext": {
+      "summary": "Central to probability theory and statistical inference.",
+      "chronology": []
+    },
+    "specific": {
+      "constraintType": "Epistemic stochasticity constraint",
+      "boundedResource": "information about true world state",
+      "failureMode": "misestimation, variance explosion, incorrect inference under missing data"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "constraint",
+        "relationshipType": "constrains",
+        "targetNodeId": "process_decision_making",
+        "description": "Restricts accuracy and determinacy of decision-making processes."
+      }
+    ],
+    "metadata": {
+      "tags": ["uncertainty", "constraint", "stochasticity"],
+      "confidenceScore": 0.96,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T14:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "Probability Theory: The Logic of Science - Jaynes",
+        "description": "Foundational treatment of uncertainty in inference and decision-making."
+      }
+    ]
+  }
+  ,{
+    "id": "constraint_noGoTheorem",
+    "name": "No-go Theorem",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 1,
+    "description": "A no-go theorem is a formal mathematical result demonstrating that a particular combination of assumptions necessarily precludes a certain desired outcome, imposing a fundamental limit on what can be achieved within a given framework.",
+    "longDescription": "No-go theorems are foundational in physics, mathematics, logic, and computer science. They establish impossibility results—e.g., the impossibility of faster-than-light communication, the undecidability of the halting problem, or the no-cloning theorem in quantum mechanics. By proving that certain outcomes cannot be realized under specified axioms, they bound the space of valid epistemic claims and guide research away from fruitless directions. They are not mere limitations of current knowledge, but permanent constraints grounded in logical or physical law.",
+    "functionalRoles": [
+      "constraint",
+      "limitation",
+      "theoretical bound"
+    ],
+    "realityDomains": [
+      "physics",
+      "mathematics",
+      "computer science",
+      "quantum information",
+      "logic"
+    ],
+    "historicalContext": {
+      "summary": "The concept of a no-go theorem emerged in early 20th-century foundational debates, notably von Neumann's 1932 attempt to exclude hidden variables from quantum mechanics. It was later sharpened by Bell (1964), Kochen–Specker (1967), and extended to relativistic causality, quantum information, and computability theory.",
+      "chronology": [
+        {
+          "year": 1932,
+          "event": "von Neumann publishes 'Mathematical Foundations of Quantum Mechanics', containing an impossibility proof for hidden-variable theories.",
+          "associatedContext": "quantum foundations"
+        },
+        {
+          "year": 1964,
+          "event": "Bell's theorem demonstrates that no local hidden-variable theory can reproduce all quantum predictions.",
+          "associatedContext": "quantum entanglement, locality"
+        },
+        {
+          "year": 1982,
+          "event": "Wootters, Zurek, and Dieks independently prove the no-cloning theorem.",
+          "associatedContext": "quantum information"
+        }
+      ]
+    },
+    "specific": {
+      "constraintType": "theoretical impossibility",
+      "boundedResource": "space of physically or logically possible states/operations",
+      "failureMode": "contradiction with fundamental axioms if the outcome were achievable"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_epistemicConstraint",
+        "description": "No-go Theorem is a subclass of epistemic constraint that formalizes impossibility within a defined axiomatic system."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "impossibility",
+        "theorem",
+        "limit",
+        "axiomatic",
+        "foundations"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T00:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "The No-Cloning Theorem",
+        "link": "https://doi.org/10.1038/299802a0",
+        "description": "Seminal paper proving that an arbitrary unknown quantum state cannot be copied perfectly."
+      }
+    ]
+  },
+  {
+    "id": "constraint_noFreeLunchTheorem",
+    "name": "No Free Lunch Theorem",
+    "category": "epistemicConstraint",
+    "inheritanceLevel": 1,
+    "description": "The No Free Lunch (NFL) theorem states that all optimization algorithms perform equally well when averaged over all possible objective functions, implying that no algorithm is universally superior without problem-specific structural assumptions.",
+    "longDescription": "Formulated by Wolpert and Macready in 1997, the NFL theorem for optimization (and its extensions to supervised learning) demonstrates that for any pair of algorithms, the distribution of performance across all possible cost functions is identical. Thus, any improvement on one class of problems is exactly paid for by degradation on another. This theorem binds the epistemic practice of algorithm selection by forcing practitioners to incorporate domain knowledge or inductive biases. It is a pure constraint, not a tool or a standard, as it limits what optimization processes can achieve irrespective of computational infrastructure.",
+    "functionalRoles": [
+      "constraint",
+      "algorithmic bound",
+      "domain-independent limitation"
+    ],
+    "realityDomains": [
+      "optimization",
+      "machine learning",
+      "evolutionary computation",
+      "search"
+    ],
+    "historicalContext": {
+      "summary": "Published by David Wolpert and William Macready in 1997, the NFL theorems provided a rigorous formalization of the long-held intuition that there is no universally best optimizer. Subsequent work extended the results to co-evolution, supervised learning, and other search domains.",
+      "chronology": [
+        {
+          "year": 1997,
+          "event": "Wolpert and Macready publish 'No Free Lunch Theorems for Optimization' in IEEE Transactions on Evolutionary Computation.",
+          "associatedContext": "optimization theory, evolutionary algorithms"
+        }
+      ]
+    },
+    "specific": {
+      "constraintType": "algorithmic performance bound",
+      "boundedResource": "expected optimization performance across all objective functions",
+      "failureMode": "vanishing advantage of any algorithm over random search when problem distribution is uniform"
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_epistemicConstraint",
+        "description": "The No Free Lunch Theorem is a concrete instance of an epistemic constraint bounding algorithmic generalization."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "optimization",
+        "limit",
+        "theorem",
+        "NFL",
+        "generalization"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T00:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "No Free Lunch Theorems for Optimization",
+        "link": "https://doi.org/10.1109/4235.585893",
+        "description": "Original paper establishing the foundational impossibility result for optimization algorithms."
+      }
+    ]
+  },
+  {
+    "id": "blueprint_HJBEquation",
+    "name": "Hamilton-Jacobi-Bellman Equation",
+    "category": "epistemicBlueprint",
+    "inheritanceLevel": 1,
+    "description": "The Hamilton-Jacobi-Bellman (HJB) equation is a partial differential equation that provides a necessary and sufficient condition for optimality in continuous-time optimal control problems, expressing the value function in terms of system dynamics, cost function, and control policy.",
+    "longDescription": "The HJB equation arises from Bellman's principle of optimality applied to continuous-time systems. It is a formal encoding that defines the optimal value function as the solution to a PDE. As an epistemic blueprint, it prescribes the syntactic structure that a valid optimal control formulation must satisfy; it does not itself perform optimization but serves as the representational scheme into which specific problem instances (dynamic models, cost functionals) are instantiated. Its expressive limits include the curse of dimensionality and smoothness requirements, which motivate approximate solution operators.",
+    "functionalRoles": [
+      "blueprint",
+      "optimality encoding",
+      "equation schema"
+    ],
+    "realityDomains": [
+      "control theory",
+      "optimal control",
+      "dynamic programming",
+      "mathematics",
+      "engineering",
+      "economics"
+    ],
+    "historicalContext": {
+      "summary": "Evolving from the classical Hamilton-Jacobi equation of mechanics, the HJB equation was developed in the mid-20th century after Richard Bellman introduced dynamic programming. It became a cornerstone of continuous-time optimal control, alongside Pontryagin's maximum principle.",
+      "chronology": [
+        {
+          "year": 1950,
+          "event": "Richard Bellman develops the principle of optimality and dynamic programming.",
+          "associatedContext": "applied mathematics, control systems"
+        },
+        {
+          "year": 1960,
+          "event": "The Hamilton-Jacobi-Bellman equation is formalized for continuous-time stochastic and deterministic optimal control.",
+          "associatedContext": "Rudolf Kalman, Pontryagin's maximum principle"
+        }
+      ]
+    },
+    "specific": {
+      "representationType": "Partial Differential Equation",
+      "formalism": "∂V/∂t + min_{u ∈ U} [L(x,u,t) + (∂V/∂x)·f(x,u,t)] = 0",
+      "expressiveLimits": [
+        "requires continuous differentiability of the value function",
+        "curse of dimensionality in numerical discretization",
+        "assumes Markovian dynamics and full state observability"
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "cat_epistemicBlueprint",
+        "description": "The HJB equation is a specific encoding format (partial differential equation blueprint) within optimal control."
+      }
+    ],
+    "metadata": {
+      "tags": [
+        "optimal control",
+        "PDE",
+        "dynamic programming",
+        "blueprint"
+      ],
+      "confidenceScore": 1.0,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T00:00:00Z",
+      "auditTrail": []
+    },
+    "references": [
+      {
+        "title": "Dynamic Programming",
+        "link": "https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming",
+        "description": "Bellman’s foundational text introducing the principle of optimality and the value function approach."
+      }
+    ]
+  }
+]

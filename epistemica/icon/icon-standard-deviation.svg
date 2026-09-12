@@ -1,0 +1,24 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="256" height="256" fill="#E5E7EB"/>
+
+  <!-- Large S -->
+  <text x="48" y="180"
+        font-size="180"
+        fill="#000000"
+        font-family="Times New Roman, Georgia, serif"
+        font-weight="400">
+    S
+  </text>
+
+  <!-- Small td -->
+  <text x="150" y="190"
+        font-size="72"
+        fill="#000000"
+        font-family="Times New Roman, Georgia, serif"
+        font-weight="400">
+    td
+  </text>
+
+</svg>

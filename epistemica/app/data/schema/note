@@ -1,0 +1,89 @@
+# Conceptual Structure Typing Epistemic Practice
+
+> aka: Cognitive Cartography, Noetic Topography, Cognitectura, Epistetura.
+
+> A taxonomy (conceptual structure) that renders the epistemic practice of epistemic agents intelligible.
+
+> Epistemic practice can be characterized as the structured process by which an observer acquires, encodes, transforms, validates, and applies epistemic artifacts about a target domain.
+
+## Formulation
+
+> Which are the sets of concept that characterize  epistemic practice? How to capture all of this concept in a database?
+
+| **Category** | **Description** | **Instance(s)** |
+| --- | --- | --- |
+| **Reality** | The ontological substrate comprising the actual states, structures, processes, entities, and causal dynamics that exist independently (or partially independently) of any observer’s representation. Reality constitutes the ultimate source domain from which observations are extracted, against which epistemic artifacts are validated, and whose structure constrains possible knowledge. It includes both observable and unobservable phenomena, latent mechanisms, causal architectures, and state trajectories across time. | Physical systems, biological organisms, chemical reactions, social institutions, computational systems, economic systems, ecological networks, latent variables, hidden causal mechanisms, dynamical state spaces, material processes, environmental structures. |
+| **Observation Interface & Recoding** | The sensorimotor boundary + inscription process that transduces a Domain Snapshot into a persistent encoded artifact. Includes transduction, sampling, quantization, encoding, and storage. | CMOS sensor + ADC + JPEG + SD card; thermocouple + data logger + CSV file; human retina + V1 cortex + working memory. |
+|  **Concrete Epistemic Artifact** | Structured object and **specific object** that encodes claims, constraints, or distributions over reality; the primary carrier of semantic content. | ***Zero free parameters**** – every coefficient, distribution, variable, and functional form is concretely specified. | Yes – can be evaluated as correct/incorrect against reality. | `y = 2.3x + 1.7` (fitted linear model); specific CSV file `[2.1, 3.4, 5.6]`; a particular DAG with all edges and functional forms fixed. - Propositions, numbers, datasets, differential equations, probabilistic models, Hypergraphs, property encoding, |
+| **Epistemic Blueprint** | Encoding format or substrate in which artifacts are expressed; constrains manipulation and interpretation. | Directed Acyclic Graph (DAG), Structural Equation (functional notation), Polynomial Equation, … |
+| **Epistemic Agent** | Entity that performs epistemic operations by applying tools to artifacts. | Scientist, analyst, research institution, machine learning system, automated pipeline |
+| **Epistemic Process (Activity)** | Ordered sequence of tool applications over time; defines the dynamics of knowledge construction. | Scientific method, Bayesian updating loop, training pipeline, experimental cycle |
+| **Epistemic Standard** | Normative criteria used to evaluate validity, correctness, or acceptability of artifacts and processes. | Logical consistency, statistical significance, reproducibility, robustness, falsifiability |
+| **Encoding Substrate** | Segment of reality that the epistemic practice targets or models. | Physical systems, biological systems, social systems, computational systems |
+| **Epistemic Constraint** | Limitation that bounds what can be known or inferred within the system. | Noise, limited data, computational complexity, identifiability issues, measurement error, ignorance, intractability, stochasticity, higher-order stochasticity, chaos, nonlinearity, uncertainty propagation, and observational limitations. |
+| **Epistemic Infrastructure** | Supporting environment that enables storage, computation, measurement, and communication of artifacts. | Sensors, laboratories, software systems, databases, notebooks, scientific publications |
+| **Epistemic Feedback** | Signal from reality (or from another artifact) that resists or confirms prior predictions or actions; primary driver of learning and error correction. | Prediction error (residual), unexpected observation, failed intervention, successful replication, sensor saturation, model divergence, comparison between two Domain Snapshots taken at different times. |
+| **Epistemic Act** | Primitive, non‑decomposable operation performed by an agent: attending, discriminating, remembering, anticipating, intervening, comparing, observing (which invokes Observation Encoding). | Attending to a sensor reading, detecting a difference, recalling an observation, emitting a prediction, pressing a measurement probe, judging similarity, encoding a raw signal into a digital value. |
+| **Epistemic Principle** | Foundational normative, structural, or strategic rule that governs how epistemic agents should construct, validate, organize, or revise knowledge. Principles shape the selection of standards, tools, and processes by defining the underlying logic of inquiry. | Empiricism, falsifiability, parsimony (Occam’s Razor), Bayesian coherence, causal reasoning, reproducibility, predictive adequacy, reductionism, systems thinking, explanatory power, measurement invariance |
+| **Epistemic Strategy** | Adaptive, context-dependent planning logic that governs how epistemic agents allocate resources, sequence inquiry, navigate uncertainty, and select investigative pathways to achieve epistemic objectives under real-world constraints. Strategies operationalize principles into executable inquiry architectures by determining search order, decomposition methods, validation sequencing, exploration/exploitation balance, and intervention priorities. | Exploratory data analysis before formal modeling; hypothesis-first experimentation; reductionist decomposition; systems-level integrative analysis; sequential Bayesian updating; active learning; robustness-first validation; coarse-to-fine modeling; simulation-before-deployment; high-throughput screening; falsification-driven testing; divide-and-conquer investigation; iterative refinement; uncertainty minimization; adversarial stress testing; hierarchical model building. |
+| **Epistemic Framework** | Abstract conceptual, inferential, and formal systems that structure how epistemic agents interpret observations, organize knowledge, generate explanations, and reason about reality. Frameworks define the overarching cognitive architecture within which principles, operators, and artifacts are selected and deployed. | Logic, causal inference, Bayesian reasoning, statistical reasoning, systems theory, cybernetics, information theory, mechanistic modeling, optimization theory, game theory, control theory, reductionist frameworks, complexity science, decision theory |
+| **Epistemic Operator** | Formal or procedural mechanism used to construct, transform, representation form ( abstract artifact)or validate epistemic artifacts. | Algebraic manipulation, statistical inference, optimization algorithms, simulation methods, measurement procedures,  generic or abstract class of artifact or let’s called it by representational form. |
+| **Meta-Epistemic Layer** | Supporting material, energetic, social, and institutional environment that enables storage, computation, measurement, and communication of artifacts over time. | Sensors (thermocouples, cameras), laboratories (clean rooms), software systems (Jupyter, Git), databases, scientific publications, power grid, funding agencies, data repositories. |
+
+### Which are the edged types?
+
+> Note: The specific components will be formulated in the subsequent sections.
+
+| **Relation Family** | **Relation Type** | **Description** | **Relation Signature** | **Use** |
+| --- | --- | --- | --- | --- |
+| Representational | observes | Captures or measures a domain snapshot through perception or instrumentation. | Observation Interface → Domain Snapshot | Empirical sensing, experiments, perception systems |
+| Representational | encodes | Transduces observations into persistent epistemic artifacts. | Observation Interface / Agent → Epistemic Artifact | Data acquisition, memory, recording |
+| Representational | expresses_in | Instantiates an artifact in a specific representational substrate or encoding format. | Epistemic Artifact → Encoding Format | Formal notation, code, schemas |
+| Representational | formalizes | Converts raw, implicit, or informal content into structured epistemic representation. | Tool / Agent → Epistemic Artifact | Ontologies, models, formal systems |
+| Representational | abstracts_from | Extracts generalized structures or principles from lower-level artifacts. | Artifact / Theory → Lower-Level Artifact | Theory building, pattern extraction |
+| Structural | composed_of | Defines constituent internal components, operations, or stages of an entity. | Tool / Process / Artifact → Subcomponent | Tool architecture, workflow decomposition |
+| Structural | has_parameter | Specifies formal adjustable variables or governing parameters. | Tool / Model → Parameter | Configuration, tuning, optimization |
+| Structural | has_input | Defines required epistemic inputs. | Tool / Process → Input Artifact | Pipeline specification |
+| Structural | has_output | Defines produced outputs. | Tool / Process → Output Artifact | Output specification |
+| Structural | implements_principle | Operationalizes an underlying formal or mathematical principle. | Tool → Principle | Fourier methods, Bayesian inference |
+| Operational | uses | Agent or higher-order system employs a tool. | Agent / Tool → Tool | Scientific inquiry, automation |
+| Operational | performs | Agent executes a process. | Agent → Process | Research, experimentation |
+| Operational | acts_on | Tool, act, or process manipulates an artifact or domain. | Tool / Process / Act → Artifact / Domain | Data processing, intervention |
+| Operational | produces | Generates a new artifact or epistemic output. | Agent / Tool / Process → Artifact | Model creation, inference products |
+| Operational | transforms | Converts one artifact into another epistemic state. | Tool / Process → Artifact | Signal processing, inference |
+| Operational | predicts | Produces projected future epistemic claims. | Model / Artifact → Future State | Forecasting, simulation |
+| Operational | decomposes | Breaks an artifact into constituent analyzable components. | Tool → Artifact Components | Fourier analysis, PCA |
+| Operational | integrates | Combines multiple epistemic sources into unified artifacts. | Tool / Process → Unified Artifact | Fusion, synthesis |
+| Operational | estimates | Infers latent states, parameters, or distributions. | Tool / Process → Estimated Artifact | Bayesian methods, econometrics |
+| Normative - Validation | conforms_to | Satisfies standards or evaluative criteria. | Artifact / Tool / Process → Standard | Scientific validity |
+| Normative - Validation | evaluated_by | Subject is assessed by evaluative mechanism. | Artifact / Process → Standard / Tool | Benchmarking, review |
+| Normative - Validation | validates | Confirms adequacy or correctness. | Process / Evidence → Artifact | Verification, replication |
+| Normative - Validation | refutes | Disconfirms or falsifies a claim. | Evidence / Feedback → Artifact | Falsification |
+| Normative - Validation | supports | Provides evidential reinforcement. | Evidence / Artifact → Artifact | Justification |
+| Constraint | is_bounded_by | Subject exists under limiting conditions. | Artifact / Tool / Process → Constraint | Complexity, uncertainty |
+| Constraint | constrains | Restricts epistemic operation, expressibility, or validity. | Constraint / Format → Subject | Formal, practical, methodological limitations |
+| Constraint | distorts | Introduces systematic deviation or corruption. | Constraint → Artifact / Observation | Bias, noise |
+| Constraint | depends_on | Requires enabling conditions. | Subject → Dependency | Infrastructure, quality prerequisites |
+| Dynamic - Feedback | triggers | Feedback initiates epistemic adaptation. | Feedback → Process / Artifact | Revision, anomaly correction |
+| Dynamic - Feedback | updates | Revises epistemic state based on new evidence. | Evidence / Feedback → Artifact / Process | Learning, Bayesian updating |
+| Dynamic - Feedback | feeds_back_to | Recursive return of output into prior stages. | Output → Prior Process | Adaptive loops |
+| Dynamic - Feedback | iterates_on | Repeatedly refines prior artifacts or processes. | Process → Prior Artifact / Process | Continuous improvement |
+| Dynamic - Feedback | evolves_into | Develops into more advanced epistemic form. | Artifact / Process → Advanced Artifact / Process | Theory maturation |
+| Infrastructure | provides | Supplies enabling material, computational, or sensory resources. | Infrastructure → Agent / Tool / Process | Labs, compute systems |
+| Infrastructure | hosts | Sustains persistent epistemic systems or agents. | Institution / Infrastructure → Agent / System | Universities, organizations |
+| Infrastructure | stores | Preserves epistemic artifacts over time. | Infrastructure → Artifact | Archives, repositories |
+| Infrastructure | communicates | Transmits artifacts across epistemic agents. | Infrastructure / Artifact → Agent / Community | Journals, APIs |
+| Infrastructure | standardizes | Establishes shared representational or methodological conventions. | Institution / Infrastructure → Standard / Format | Protocols, schemas |
+| Meta-Epistemic | monitors | Tracks epistemic system quality or performance. | Meta-System → E |  |
+
+
+
+## References
+
+- https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)
+- https://www.decisiondeskhq.com/
+- https://projects.economist.com/us-2020-forecast/president
+- https://web.archive.org/web/20250305183642/
+- https://projects.fivethirtyeight.com/
+- https://cosmograph.app/
+- https://en.wikipedia.org/wiki/Eigenvector_centrality

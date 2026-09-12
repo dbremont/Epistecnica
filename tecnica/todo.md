@@ -1,0 +1,21 @@
+- We need so separate the update the of node in to micro task -  so we don't send to much to the server - and increase the probably of mistakes.
+-  Autoregia - Index of **Tecnical Objects** Should Just Point to This.
+  - It should  have a graph integrated - but not the edit.
+- This should just point to autoregia - Work Management System.
+- Java Project File Encoding -> Eclipse File Encoding  (Should It Be a Policy or Not)
+- Firm Valuation:   Discounted Cash Flow of Future Earning?  What type of element in the tecnica dataset is this?
+- API: Token, Key? What kinds of elements are they? What kind of element is a API?
+- What is a Convertible bond? (https://en.wikipedia.org/wiki/Convertible_bond)
+- [Why Problem Statements Aren't Enough](https://letters.unchartedpathbreakthroughs.com/posts/why-problem-statements-arent-enough)
+- https://w.pitula.me/fintech-engineering-handbook/#notifying-reliably-outbox-and-cdc
+- (Finance) Terminal Value
+- Formal Verification: Why3 -- Why3, Lean, Coq.
+- CouchDB is now the data backend (DONE):
+  - CouchDB bootstrap is manual (create the `tecnica` DB + clear its `_security`; two curl steps in the README). CORS stays disabled (default).
+  - `bin/seed_couchdb.py` seeded `app/data/data.json` into CouchDB (40 docs). `data.json` is kept as the seed source, NOT deleted.
+  - Reads: served by `bin/sync.py` (`GET /api/nodes`, `GET /api/layout`) via `app/js/api.js` (`Api.loadNodes()`); the browser never touches CouchDB.
+  - Writes: the editor POSTs to `bin/sync.py` `/api/graph/save`, which proxies to CouchDB (`_bulk_docs`, server resolves `_rev`).
+  - `bin/layout.py` now reads nodes from CouchDB (`--source couch`, default) instead of `data.json`.
+  - The save-to-file code path (`edit.html` `saveJSON()` JSON-download fallback) is marked `@deprecated` and slated for removal once CouchDB is confirmed everywhere.
+  - Follow-ups: add a `/api/layout/recompute` endpoint so `layout.py` can run server-side after edits; drop the deprecated `saveJSON()` path.
+- 
