@@ -94,11 +94,26 @@ Verification (no test suite exists):
 - Pre-commit annotation policy: `@FIXME @QUESTION @VERIFY` in staged source
   files block the commit; `@TODO @HACK @WORKAROUND` warn only. Markdown files
   are not inspected.
-- `prepare-commit-msg` rewrites every normal commit message to
-  `type(<branch-or-jira-key>): message` + placeholder body + "Appended
-  Information" file list. All repo history looks like that; don't fight it.
+- Commit message guideline (source: `~/configs/global/git/guideline.md`):
+  `<type>(<optional scope>): <description>`, then optional body and optional
+  footer. Allowed `<type>`: `feat` (new feature), `fix` (bug), `docs`, `style`
+  (formatting or style-only, no behavior change), `refactor`, `test`, `chore`
+  (maintenance).
+- Gotcha: `prepare-commit-msg` overwrites every normal commit's message with
+  the placeholder `type(<branch-or-jira-key>): message` + placeholder body +
+  "Appended Information" file list. Any `-m`/`-F` message is lost — including
+  on `git commit --amend -m` (`-m` makes the source `message`, which the hook
+  rewrites). Messages survive only when the hook's source is `commit`:
+  `git commit --amend` without `-m`/`-F`. Non-interactive workflow: commit the
+  content (message gets clobbered), then set the real message via the editor
+  hook point:
+  `GIT_EDITOR="cp <msgfile>" git commit --amend --no-verify`
+  (`cp <msgfile> <msgfile-arg>` overwrites the message file with your text;
+  `--no-verify` skips the mark-for-commit re-check on the amended diff).
 - Commits are SSH-signed via 1Password (`commit.gpgsign`, `op-ssh-sign`) —
-  1Password must be unlocked or the commit fails.
+  1Password must be unlocked or the commit fails. `rebase` does not sign its
+  rewritten commits; after a rebase, re-sign with
+  `git rebase <range> --exec 'git commit --amend --no-verify --no-edit -S'`.
 - Remote may be ahead of local — `git fetch` and rebase before pushing.
 - Keep this file and the subproject `AGENT.md`s current when you learn
   something durable about this repo.
