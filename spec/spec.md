@@ -102,8 +102,10 @@ backend has no AI endpoints and must never hold keys.
 ## 5. Deployment (✅)
 
 - CI builds one image on push to `main`: `ghcr.io/dbremont/epistecnica:latest`.
-- `./deploy.sh` runs container `epistecnica` (`--network host`, port 8000
-  default via `EPISTECNICA_PORT`, `.env` mounted read-only).
+- `./deploy-server.sh` pulls and runs the GHCR image (production);
+  `./deploy-local.sh` builds the repo and runs the local image (dev/testing).
+  Both run container `epistecnica` (`--network host`, port 8000 default via
+  `EPISTECNICA_PORT`, `.env` mounted read-only).
 - Replaces the two former deployments (`tecnica` :8000, `epistemica` :8010).
 - Per-subproject `Dockerfile`/`deploy.sh` remain for standalone runs; CI does
   not build them.

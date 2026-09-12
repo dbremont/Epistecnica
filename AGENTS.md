@@ -27,7 +27,7 @@ bin/couchdb_client.py   shared CouchDB client (byte-identical to the subprojects
 epistemica/…            subproject, self-contained (app/, bin/, spec/, AGENT.md)
 tecnica/…               subproject, self-contained (app/, bin/, spec.md, AGENT.md)
 spec/                   general spec + shared design system
-Dockerfile, deploy.sh   combined image + server deploy script
+Dockerfile, deploy-server.sh, deploy-local.sh   combined image + server deploy scripts
 .github/workflows/      one workflow building ghcr.io/dbremont/epistecnica
 ```
 
@@ -104,14 +104,14 @@ Verification (no test suite exists):
 ## Deploy
 
 Push to `main` → CI builds and pushes `ghcr.io/dbremont/epistecnica:latest`.
-Deploy with `./deploy.sh`, which has two modes:
+Deploy with one of two scripts:
 
-- `./deploy.sh` (or `./deploy.sh server`) — pull the GHCR image and run it
-  (the production path; check the manifest digest changed before/after).
-- `./deploy.sh local` — `docker build` the repo and run the local image
+- `./deploy-server.sh` — pull the GHCR image and run it (the production path;
+  check the manifest digest changed before/after).
+- `./deploy-local.sh` — `docker build` the repo and run the local image
   (dev/testing against local CouchDB).
 
-Both modes run container `epistecnica` (`--network host`, port 8000 default
+Both scripts run container `epistecnica` (`--network host`, port 8000 default
 via `EPISTECNICA_PORT`, `.env` mounted read-only). This container replaces
 the two old ones (`tecnica` on :8000, `epistemica` on :8010) — retire them
 when switching over.

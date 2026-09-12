@@ -116,19 +116,19 @@ CI (`.github/workflows/deploy.yml`) builds one combined image on every push to
 On the server:
 
 ```sh
-./deploy.sh              # server mode (default): pull the GHCR image, run it
-./deploy.sh local        # local mode: docker build this repo, run the local image
+./deploy-server.sh       # production: pull the GHCR image, run it
+./deploy-local.sh        # dev/testing: docker build this repo, run the local image
 ```
 
-Both modes run the same container:
+Both scripts run the same container:
 
 - One container (`epistecnica`), `--network host`, port **8000** by default
-  (`EPISTECNICA_PORT=<port> ./deploy.sh` to override).
+  (`EPISTECNICA_PORT=<port> ./deploy-server.sh` to override).
 - The repo's `.env` is mounted read-only at `/srv/.env`.
 - This replaces the two former deployments (`ghcr.io/dbremont/tecnica` on :8000
   and `ghcr.io/dbremont/epistemica` on :8010). Retire those containers on the
   server; the old repositories remain on GitHub untouched as archives.
-- Don't deploy in server mode before CI publishes: compare
+- Don't run `deploy-server.sh` before CI publishes: compare
   `docker manifest inspect -v ghcr.io/dbremont/epistecnica:latest` digests
   before/after. `gh` CLI is not installed on the server; use the public GitHub
   API or registry digests.
