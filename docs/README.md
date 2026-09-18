@@ -18,6 +18,7 @@ Epistecnica/
 ├── bin/couchdb_client.py # Shared stdlib CouchDB client (same as the subprojects')
 ├── spec/                 # General spec + shared design system
 ├── docs/                 # Documentation hub (README mirrors this file)
+├── src/note/             # Notes corpus + catalog/viewer (served at /note/)
 ├── src/epistemica/       # Self-contained subproject (app/, bin/, spec/, docs)
 └── src/tecnica/          # Self-contained subproject (app/, bin/, spec.md, docs)
 ```
@@ -43,6 +44,7 @@ in the DB `layout` doc with a static `app/data/layout.json` fallback.
 | `/` | Hub: project cards, live \|V\|/\|E\| identity strips, entry guidance |
 | `/epistemica/` | Epistemica landing; `graph.html` viewer, `edit.html` editor, `view/…` extras |
 | `/tecnica/` | Tecnica landing; `graph.html` viewer, `edit.html` editor |
+| `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`notes/**.md`) |
 | `/epistemica/api/{health,nodes,layout,graph/save}` | Epistemica API (DB `epistemica`) |
 | `/tecnica/api/{health,nodes,layout,graph/save}` | Tecnica API (DB `tecnica`) |
 | `/api/health` | Aggregate health of both backends |
@@ -58,38 +60,36 @@ editor's save URL POSTs `/api/graph/save` (proxied to CouchDB `_bulk_docs`).
 The data backend is **CouchDB** — one instance, two databases. Connection comes
 from a gitignored `.env` (copy `.env.example`).
 
-1. Bootstrap CouchDB once (adapt host/port/user:pass to your `.env`):
+1. Bootstrap CouchDB once — `make bootstrap` creates both DBs, clears their
+   `_security`, seeds the nodes via each subproject's `bin/seed_couchdb.py`,
+   and precomputes the layouts (`bin/layout.py` per dataset). Re-runnable.
+
+   By hand, that is (adapt host/port/user:pass to your `.env`):
 
    ```sh
    curl -X PUT http://127.0.0.1:5984/epistemica
    curl -X PUT http://127.0.0.1:5984/epistemica/_security -H 'Content-Type: application/json' -d '{}'
    curl -X PUT http://127.0.0.1:5984/tecnica
    curl -X PUT http://127.0.0.1:5984/tecnica/_security -H 'Content-Type: application/json' -d '{}'
+   python3 src/epistemica/bin/seed_couchdb.py
+   python3 src/tecnica/bin/seed_couchdb.py
+   python3 src/epistemica/bin/layout.py
+   python3 src/tecnica/bin/layout.py
    ```
 
    `_security` is cleared so the sync server can read anonymously; CORS must
    stay disabled (the CouchDB default) so the browser can never reach the DB.
 
-2. Seed both databases (each subproject reads its own `.env` / `COUCHDB_DB`):
-
-   ```sh
-   python3 src/epistemica/bin/seed_couchdb.py
-   python3 src/tecnica/bin/seed_couchdb.py
-   ```
-
-3. Precompute the layouts (rerun whenever a dataset changes):
-
-   ```sh
-   python3 src/epistemica/bin/layout.py
-   python3 src/tecnica/bin/layout.py
-   ```
-
 ## Run (combined)
 
 ```sh
 cp .env.example .env        # fill in COUCHDB_USER / COUCHDB_PASSWORD
-python3 bin/serve.py        # http://localhost:8000 (hub + both apps + APIs)
+make run                    # dev server on http://localhost:8010 (no docker)
+python3 bin/serve.py        # same server directly, port 8000
 ```
+
+`make check` runs the verification battery (py_compile all servers +
+node --check the two API js files).
 
 Editor "Backend Save URL" per dataset:
 
@@ -117,22 +117,39 @@ CI (`.github/workflows/deploy.yml`) builds one combined image on every push to
 On the server:
 
 ```sh
-./deploy-server.sh       # production: pull the GHCR image, run it
-./deploy-local.sh        # dev/testing: docker build this repo, run the local image
+make deploy-server       # production: pull the GHCR image, run it
+make deploy-local        # dev/testing: docker build this repo, run the local image
 ```
 
-Both scripts run the same container:
+Both targets run the same container (`make help` lists all targets):
 
 - One container (`epistecnica`), `--network host`, port **8000** by default
-  (`EPISTECNICA_PORT=<port> ./deploy-server.sh` to override).
+  (`make deploy-server EPISTECNICA_PORT=<port>` to override; `.env`'s
+  `EPISTECNICA_PORT` also applies).
 - The repo's `.env` is mounted read-only at `/srv/.env`.
 - This replaces the two former deployments (`ghcr.io/dbremont/tecnica` on :8000
   and `ghcr.io/dbremont/epistemica` on :8010). Retire those containers on the
   server; the old repositories remain on GitHub untouched as archives.
-- Don't run `deploy-server.sh` before CI publishes: compare
+- Don't run `make deploy-server` before CI publishes: compare
   `docker manifest inspect -v ghcr.io/dbremont/epistecnica:latest` digests
   before/after. `gh` CLI is not installed on the server; use the public GitHub
   API or registry digests.
+
+## Notes
+
+The written corpus behind both ontologies lives in `src/note/app/notes/` —
+plain markdown, kebab-case filenames (convention in `src/note/README.md`).
+Rebuild the search index after any corpus edit:
+
+```sh
+make notes-index
+```
+
+Browse at `/note/` (catalog: search + section facets) and
+`/note/note.html?n=notes/pto/zsh.md` (viewer, rendered on the fly). Markdown
+files are **notes**; self-contained hand-authored HTML pages under
+`notes/live/` are **live notes** — indexed and searchable, linked directly
+(e.g. `/note/notes/live/chmc.html`).
 
 ## Specs & docs
 

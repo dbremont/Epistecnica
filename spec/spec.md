@@ -31,6 +31,7 @@ any cross-graph unification is future work, not an assumption.
                     │  /         src/app/index.html │
                     │  /epistemica/*  app statics  │
                     │  /tecnica/*     app statics  │
+                    │  /note/*        notes statics│
                     │  /{ds}/api/…    CouchDB I/O  │
                     └───────────┬──────────┬───────┘
                                 │          │
@@ -55,6 +56,7 @@ any cross-graph unification is future work, not an assumption.
 |-------|---------|
 | `GET /` | Hub `src/app/index.html` (project cards, live \|V\|/\|E\| strips, entry guidance) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
+| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, search + facets), viewer (`note.html?n=<path>`), corpus (`notes/**.md`), generated search index (`data/index.json`) |
 | `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
 | `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |
 | `GET /{ds}/api/nodes` | Flat JSON array; `_id`/`_rev` stripped; `layout` doc excluded; **hard 502 when CouchDB is down — no file fallback** |
@@ -93,7 +95,9 @@ load; no live force simulation. Recompute after edits is manual 🎯 (a
 | `epistemica/edit.html` | Canvas2D + precomputed layout, AI-assisted authoring (DeepSeek, browser-direct) | Yes (POST patch) |
 | `tecnica/graph.html` | deck.gl (WebGL) + precomputed layout via `app/vendor/socio-graph.js` | No |
 | `tecnica/edit.html` | deck.gl + `socio-graph.js`, AI-assisted authoring | Yes (POST patch) |
-| Subproject `view/…` pages | Various (stats, docs, map, note, chmc) | No |
+| `note/index.html` (catalog) | Client-side search over generated `app/data/index.json` (`make notes-index`) | No |
+| `note/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`) | No |
+| Subproject `view/…` pages | Various (stats, docs, map, note) | No |
 
 The two renderers are intentionally independent (Canvas2D vs deck.gl); don't
 unify them casually. Both editors keep the AI token in the browser only — the
@@ -102,8 +106,8 @@ backend has no AI endpoints and must never hold keys.
 ## 5. Deployment (✅)
 
 - CI builds one image on push to `main`: `ghcr.io/dbremont/epistecnica:latest`.
-- `./deploy-server.sh` pulls and runs the GHCR image (production);
-  `./deploy-local.sh` builds the repo and runs the local image (dev/testing).
+- `make deploy-server` pulls and runs the GHCR image (production);
+  `make deploy-local` builds the repo and runs the local image (dev/testing).
   Both run container `epistecnica` (`--network host`, port 8000 default via
   `EPISTECNICA_PORT`, `.env` mounted read-only).
 - Replaces the two former deployments (`tecnica` :8000, `epistemica` :8010).

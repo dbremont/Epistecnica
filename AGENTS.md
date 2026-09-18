@@ -27,9 +27,10 @@ bin/couchdb_client.py   shared CouchDB client (byte-identical to the subprojects
 src/app/                hub page (index.html, served at /)
 src/epistemica/…        subproject, self-contained (app/, bin/, spec/, AGENT.md)
 src/tecnica/…           subproject, self-contained (app/, bin/, spec.md, AGENT.md)
+src/note/…              notes corpus + catalog/viewer (app/ incl. app/notes/ + live notes, bin/index.py) — see src/note/README.md
 spec/                   general spec + shared design system
 docs/                   documentation hub
-Dockerfile, deploy-server.sh, deploy-local.sh   combined image + server deploy scripts
+Makefile, Dockerfile    project operations (make run/check/build/deploy-*/logs/stop) + combined image
 .github/workflows/      one workflow building ghcr.io/dbremont/epistecnica
 ```
 
@@ -43,6 +44,7 @@ disabled.
   - `/` → hub `src/app/index.html`
   - `/epistemica/<path>` → static from `src/epistemica/app/<path>`
   - `/tecnica/<path>` → static from `src/tecnica/app/<path>`
+  - `/note/<path>` → static from `src/note/app/<path>` (notes catalog + viewer + corpus)
   - `/epistemica/api/{health,nodes,layout}` and `POST …/api/graph/save` → CouchDB db `epistemica`
   - `/tecnica/api/…` (same four) → CouchDB db `tecnica`
   - `/api/health` → aggregate health for both datasets
@@ -66,14 +68,18 @@ disabled.
 
 ```
 cp .env.example .env            # fill in credentials
-python3 bin/serve.py            # http://localhost:8000 — needs CouchDB up with both DBs
+make run                        # dev server on :8010 (python3 bin/serve.py --port 8010)
+python3 bin/serve.py            # same server directly on :8000 — needs CouchDB up with both DBs
 ```
 
-Bootstrap (once): create both DBs + clear `_security` (two curl pairs in
-README), seed via each subproject's `bin/seed_couchdb.py`, then
-`python3 <subproject>/bin/layout.py` per dataset.
+`make help` lists all targets; `make check` runs the py_compile + node --check
+battery below.
 
-Verification (no test suite exists):
+Bootstrap (once): `make bootstrap` — creates both DBs + clears `_security`,
+seeds via each subproject's `bin/seed_couchdb.py`, then runs
+`<subproject>/bin/layout.py` per dataset.
+
+Verification (no test suite exists; `make check` covers the first two):
 
 - `python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py`
 - `node --check src/epistemica/app/js/api.js && node --check src/tecnica/app/js/api.js`
@@ -81,8 +87,9 @@ Verification (no test suite exists):
 - `curl :8000/epistemica/api/nodes` and `/tecnica/api/nodes` → flat arrays, no `_id`/`_rev`, no layout doc
 - `curl -X POST :8000/tecnica/api/graph/save -d '{"nodes":[]}'` → `{"status":"ok","saved":0}`
 - Static mounts: `curl -s :8000/epistemica/graph.html | head -1` and same for `tecnica`
+- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=notes/pto/zsh.md` (viewer), `/note/notes/live/chmc.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes in `src/note/README.md`)
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the two `edit.html` pages (check stderr for Uncaught errors)
-- Image: `docker build -t epistecnica:local .` then run it against local CouchDB
+- Image: `make build` (`docker build -t epistecnica:local .`) then run it against local CouchDB (`make deploy-local`)
 
 ## Git — conventions & gotchas (global hooks apply to this repo)
 
@@ -121,14 +128,14 @@ Verification (no test suite exists):
 ## Deploy
 
 Push to `main` → CI builds and pushes `ghcr.io/dbremont/epistecnica:latest`.
-Deploy with one of two scripts:
+Deploy with one of two make targets:
 
-- `./deploy-server.sh` — pull the GHCR image and run it (the production path;
+- `make deploy-server` — pull the GHCR image and run it (the production path;
   check the manifest digest changed before/after).
-- `./deploy-local.sh` — `docker build` the repo and run the local image
+- `make deploy-local` — `docker build` the repo and run the local image
   (dev/testing against local CouchDB).
 
-Both scripts run container `epistecnica` (`--network host`, port 8000 default
+Both targets run container `epistecnica` (`--network host`, port 8000 default
 via `EPISTECNICA_PORT`, `.env` mounted read-only). This container replaces
 the two old ones (`tecnica` on :8000, `epistemica` on :8010) — retire them
 when switching over.
