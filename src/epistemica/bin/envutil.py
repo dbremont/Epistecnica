@@ -44,7 +44,7 @@ class CouchConfig:
 
     def __init__(self):
         self.url = (_get("COUCHDB_URL") or "http://127.0.0.1:5984").rstrip("/")
-        self.db = _get("COUCHDB_DB") or "tecnica"
+        self.db = _get("COUCHDB_DB") or "epistemica"
         self.user = _get("COUCHDB_USER")
         self.password = _get("COUCHDB_PASSWORD")
 
