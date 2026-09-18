@@ -42,7 +42,7 @@ in the DB `layout` doc with a static `app/data/layout.json` fallback.
 | URL | What |
 |-----|------|
 | `/` | Hub: project cards, live \|V\|/\|E\| identity strips, entry guidance |
-| `/epistemica/` | Epistemica landing; `graph.html` viewer, `edit.html` editor, `view/…` extras |
+| `/epistemica/` | Epistemica landing; `graph.html` viewer, `edit.html` editor, `about.html` + `docs.html` plates |
 | `/tecnica/` | Tecnica landing; `graph.html` viewer, `edit.html` editor |
 | `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`notes/**.md`) |
 | `/epistemica/api/{health,nodes,layout,graph/save}` | Epistemica API (DB `epistemica`) |

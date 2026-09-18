@@ -97,7 +97,7 @@ load; no live force simulation. Recompute after edits is manual 🎯 (a
 | `tecnica/edit.html` | deck.gl + `socio-graph.js`, AI-assisted authoring | Yes (POST patch) |
 | `note/index.html` (catalog) | Client-side search over generated `app/data/index.json` (`make notes-index`) | No |
 | `note/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`) | No |
-| Subproject `view/…` pages | Various (docs) | No |
+| Subproject `about.html`, `docs.html` | Project about & docs plates (app root; `view/` retired) | No |
 
 The two renderers are intentionally independent (Canvas2D vs deck.gl); don't
 unify them casually. Both editors keep the AI token in the browser only — the
