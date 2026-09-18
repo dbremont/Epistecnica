@@ -4,28 +4,157 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hawkes Process — Epistemic Tool Notebook</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
     :root {
-      --bg-deep: #080c14;
-      --bg-surface: #0f1520;
-      --bg-elevated: #161d2a;
-      --bg-highlight: #1e2838;
-      --fg-primary: #e4eaf4;
-      --fg-secondary: #8fa3c0;
-      --fg-muted: #4a5d78;
-      --accent: #00e5b8;
-      --accent-dim: #00b894;
-      --accent-glow: rgba(0, 229, 184, 0.12);
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    .site-nav {
+      position: static;
+      z-index: 60;
+      background: var(--nav-bg);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens */
+    :root {
+      --bg-deep: var(--bg-void);
+      --bg-elevated: var(--bg-surface);
+      --bg-highlight: var(--bg-card);
+      --fg-primary: var(--text-primary);
+      --fg-secondary: var(--text-secondary);
+      --fg-muted: var(--text-muted);
+      --accent: var(--accent-cyan);
+      --accent-dim: var(--accent-cyan-dim);
+      --accent-glow: var(--accent-cyan-dim);
       --trigger: #f472b6;
       --trigger-glow: rgba(244, 114, 182, 0.15);
-      --warning: #fbbf24;
+      --warning: var(--accent-gold);
       --error: #f87171;
-      --border: #243044;
-      --border-subtle: #1a2435;
+      --border: var(--border-subtle);
     }
 
     * { box-sizing: border-box; }
@@ -40,14 +169,14 @@
     }
 
     body {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: var(--font-body);
       background: var(--bg-deep);
       color: var(--fg-primary);
       line-height: 1.65;
       min-height: 100vh;
     }
 
-    .mono { font-family: 'JetBrains Mono', monospace; }
+    .mono { font-family: var(--font-mono); }
 
     .bg-atmosphere {
       background-image: 
@@ -57,7 +186,7 @@
     }
 
     .section-card {
-      background: var(--bg-surface);
+      background: var(--bg-card);
       border: 1px solid var(--border-subtle);
       border-radius: 12px;
       transition: border-color 0.25s ease, box-shadow 0.25s ease;
@@ -348,14 +477,175 @@
       border: 1px solid rgba(251, 191, 36, 0.2);
       color: var(--warning);
     }
+
+    /* ---- heading face ---- */
+    h1, h2, h3 {
+      font-family: var(--font-display);
+    }
+
+    /* ---- utility shim (replaces the Tailwind CDN) ---- */
+    .below-nav { top: 60px; height: calc(100vh - 60px); }
+    .hidden { display: none; }
+    .flex { display: flex; }
+    .grid { display: grid; }
+    .flex-wrap { flex-wrap: wrap; }
+    .flex-1 { flex: 1 1 0%; }
+    .flex-shrink-0 { flex-shrink: 0; }
+    .fixed { position: fixed; }
+    .relative { position: relative; }
+    .left-0 { left: 0; }
+    .z-50 { z-index: 50; }
+    .overflow-hidden { overflow: hidden; }
+    .overflow-x-auto { overflow-x: auto; }
+    .overflow-y-auto { overflow-y: auto; }
+    .cursor-pointer { cursor: pointer; }
+    .items-center { align-items: center; }
+    .items-start { align-items: flex-start; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .text-center { text-align: center; }
+    .text-right { text-align: right; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .ml-auto { margin-left: auto; }
+    .w-2 { width: 0.5rem; }
+    .w-3 { width: 0.75rem; }
+    .w-4 { width: 1rem; }
+    .w-5 { width: 1.25rem; }
+    .w-6 { width: 1.5rem; }
+    .w-8 { width: 2rem; }
+    .w-24 { width: 6rem; }
+    .w-56 { width: 14rem; }
+    .w-64 { width: 16rem; }
+    .w-full { width: 100%; }
+    .h-2 { height: 0.5rem; }
+    .h-3 { height: 0.75rem; }
+    .h-4 { height: 1rem; }
+    .h-5 { height: 1.25rem; }
+    .h-6 { height: 1.5rem; }
+    .h-8 { height: 2rem; }
+    .max-h-40 { max-height: 10rem; }
+    .max-h-64 { max-height: 16rem; }
+    .max-w-2xl { max-width: 42rem; }
+    .max-w-5xl { max-width: 64rem; }
+    .min-h-screen { min-height: 100vh; }
+    .min-w-col { min-width: 200px; }
+    .gap-1\.5 { gap: 0.375rem; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-5 { gap: 1.25rem; }
+    .p-2 { padding: 0.5rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-5 { padding: 1.25rem; }
+    .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+    .px-4 { padding-left: 1rem; padding-right: 1rem; }
+    .px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .py-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; }
+    .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+    .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+    .pt-2 { padding-top: 0.5rem; }
+    .pt-4 { padding-top: 1rem; }
+    .pt-6 { padding-top: 1.5rem; }
+    .pb-2 { padding-bottom: 0.5rem; }
+    .pb-5 { padding-bottom: 1.25rem; }
+    .pl-4 { padding-left: 1rem; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-5 { margin-bottom: 1.25rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-10 { margin-bottom: 2.5rem; }
+    .mb-12 { margin-bottom: 3rem; }
+    .space-y-0\.5 > * + * { margin-top: 0.125rem; }
+    .space-y-1 > * + * { margin-top: 0.25rem; }
+    .space-y-1\.5 > * + * { margin-top: 0.375rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .text-xs { font-size: 0.75rem; line-height: 1.5; }
+    .text-sm { font-size: 0.875rem; line-height: 1.5; }
+    .text-lg { font-size: 1.125rem; line-height: 1.6; }
+    .text-xl { font-size: 1.25rem; line-height: 1.6; }
+    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+    .font-medium { font-weight: 500; }
+    .font-semibold { font-weight: 600; }
+    .font-bold { font-weight: 700; }
+    .uppercase { text-transform: uppercase; }
+    .tracking-tight { letter-spacing: -0.025em; }
+    .tracking-wider { letter-spacing: 0.05em; }
+    .tracking-widest { letter-spacing: 0.1em; }
+    .rounded { border-radius: 0.25rem; }
+    .rounded-lg { border-radius: 0.5rem; }
+    .rounded-full { border-radius: 9999px; }
+    .border { border: 1px solid var(--border); }
+    .border-2 { border: 2px solid var(--border); }
+    .border-r { border-right: 1px solid var(--border); }
+    .border-t { border-top: 1px solid var(--border); }
+    .border-l-2 { border-left: 2px solid var(--border); }
+    .bdr-accent { border-color: var(--accent); }
+    .bdr-warn { border-color: var(--warning); }
+    .bdr-muted { border-color: var(--fg-muted); }
+    .bg-deep { background: var(--bg-deep); }
+    .bg-elev { background: var(--bg-elevated); }
+    .bg-hi { background: var(--bg-highlight); }
+    .bg-accent { background: var(--accent); }
+    .accent-text { color: var(--accent); }
+    .text-fg { color: var(--fg-primary); }
+    .text-sec { color: var(--fg-secondary); }
+    .text-muted { color: var(--fg-muted); }
+    .text-trigger { color: var(--trigger); }
+    .text-warn { color: var(--warning); }
+    .text-error { color: var(--error); }
+    .on-accent { color: var(--bg-deep); }
+    .radio-accent { accent-color: var(--accent); }
+    .hover-op:hover { opacity: 0.9; }
+    .hover-hi:hover { background: var(--bg-highlight); }
+    .focus-ring:focus { outline: none; box-shadow: 0 0 0 2px var(--accent); }
+    .transition-colors { transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease; }
+    .transition-opacity { transition: opacity 0.15s ease; }
+    .transition-transform { transition: transform 0.3s ease; }
+    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    @media (min-width: 768px) {
+      .md\:col-span-2 { grid-column: span 2 / span 2; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .md\:text-5xl { font-size: 3rem; line-height: 1.1; }
+    }
+    @media (min-width: 1024px) {
+      .lg\:block { display: block; }
+      .lg\:ml-56 { margin-left: 14rem; }
+    }
   </style>
 </head>
 <body class="bg-atmosphere">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
   <!-- Intensity Tooltip (Global) -->
   <div class="intensity-tooltip" id="intensity-tooltip">
     <div class="font-medium mb-2">Intensity at t = <span id="tooltip-time">0.00</span></div>
-    <div class="mono text-lg font-bold text-[var(--accent)] mb-2">λ*(t) = <span id="tooltip-intensity">0.00</span></div>
-    <div class="space-y-1 text-[var(--fg-secondary)]">
+    <div class="mono text-lg font-bold accent-text mb-2">λ*(t) = <span id="tooltip-intensity">0.00</span></div>
+    <div class="space-y-1 text-sec">
       <div class="flex justify-between">
         <span>Base contribution:</span>
         <span class="mono" id="tooltip-base">0.00</span>
@@ -369,16 +659,16 @@
         <span class="mono" id="tooltip-contributors">0</span>
       </div>
     </div>
-    <div class="mt-2 pt-2 border-t border-[var(--border-subtle)]">
-      <div class="text-xs text-[var(--fg-muted)]">Click to freeze this point</div>
+    <div class="mt-2 pt-2 border-t">
+      <div class="text-xs text-muted">Click to freeze this point</div>
     </div>
   </div>
 
   <!-- Navigation Sidebar -->
-  <nav class="fixed left-0 top-0 h-full w-56 p-5 border-r border-[var(--border-subtle)] hidden lg:block overflow-y-auto z-50 bg-[var(--bg-deep)]" id="sidebar">
+  <nav class="fixed left-0 below-nav w-56 p-5 border-r hidden lg:block overflow-y-auto z-50 bg-deep" id="sidebar">
     <div class="mb-6">
-      <div class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-1">Epistemic Tool</div>
-      <div class="text-lg font-semibold text-[var(--accent)]">Hawkes Process</div>
+      <div class="text-xs uppercase tracking-wider text-muted mb-1">Epistemic Tool</div>
+      <div class="text-lg font-semibold accent-text">Hawkes Process</div>
     </div>
     <div class="space-y-0.5" id="nav-links">
       <a href="#identity" class="nav-link">Identity</a>
@@ -390,31 +680,31 @@
       <a href="#limits" class="nav-link">Scope & Limits</a>
       <a href="#qa" class="nav-link">Diagnostic QA</a>
     </div>
-    <div class="mt-6 pt-6 border-t border-[var(--border-subtle)]">
-      <div class="text-xs text-[var(--fg-muted)] mb-2">Process Status</div>
+    <div class="mt-6 pt-6 border-t">
+      <div class="text-xs text-muted mb-2">Process Status</div>
       <div class="flex items-center gap-2">
         <div class="w-8 h-8 rounded-full border-2 flex items-center justify-center" id="status-indicator" style="border-color: var(--accent);">
           <div class="w-3 h-3 rounded-full" id="status-dot" style="background: var(--accent);"></div>
         </div>
         <div>
           <div class="text-sm font-medium" id="stability-label">Stationary</div>
-          <div class="text-xs text-[var(--fg-muted)]" id="stability-sublabel">n = 0.80</div>
+          <div class="text-xs text-muted" id="stability-sublabel">n = 0.80</div>
         </div>
       </div>
     </div>
-    <div class="mt-4 pt-4 border-t border-[var(--border-subtle)]">
-      <div class="text-xs text-[var(--fg-muted)] mb-2">Quick Stats</div>
+    <div class="mt-4 pt-4 border-t">
+      <div class="text-xs text-muted mb-2">Quick Stats</div>
       <div class="space-y-1">
         <div class="flex justify-between text-xs">
-          <span class="text-[var(--fg-muted)]">Events</span>
+          <span class="text-muted">Events</span>
           <span class="mono" id="quick-events">0</span>
         </div>
         <div class="flex justify-between text-xs">
-          <span class="text-[var(--fg-muted)]">λ*(t)</span>
+          <span class="text-muted">λ*(t)</span>
           <span class="mono" id="quick-intensity">0.00</span>
         </div>
         <div class="flex justify-between text-xs">
-          <span class="text-[var(--fg-muted)]">E[λ]</span>
+          <span class="text-muted">E[λ]</span>
           <span class="mono" id="quick-mean">0.00</span>
         </div>
       </div>
@@ -428,11 +718,11 @@
       <!-- Header -->
       <header class="mb-12 animate-in">
         <div class="flex items-center gap-3 mb-4">
-          <div class="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
-          <span class="mono text-xs text-[var(--fg-muted)] uppercase tracking-widest">Epistemic Tool Notebook</span>
+          <div class="w-2 h-2 rounded-full bg-accent"></div>
+          <span class="mono text-xs text-muted uppercase tracking-widest">Epistemic Tool Notebook</span>
         </div>
         <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Hawkes Process</h1>
-        <p class="text-lg text-[var(--fg-secondary)] max-w-2xl">A self-exciting point process for modeling temporal clustering. Each event increases future event probability, with influence decaying exponentially over time.</p>
+        <p class="text-lg text-sec max-w-2xl">A self-exciting point process for modeling temporal clustering. Each event increases future event probability, with influence decaying exponentially over time.</p>
       </header>
 
       <!-- Identity Section -->
@@ -448,13 +738,13 @@
           
           <div class="grid md:grid-cols-2 gap-5">
             <div>
-              <div class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-1">Name</div>
+              <div class="text-xs uppercase tracking-wider text-muted mb-1">Name</div>
               <div class="text-lg font-medium">Hawkes Process</div>
-              <div class="mono text-sm text-[var(--fg-secondary)]">Self-exciting point process</div>
+              <div class="mono text-sm text-sec">Self-exciting point process</div>
             </div>
             <div>
-              <div class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-2">One-line Summary</div>
-              <p class="text-sm text-[var(--fg-secondary)]">Transforms temporal event sequences into probabilistic models capturing self-excitation dynamics, enabling prediction and triggering structure inference.</p>
+              <div class="text-xs uppercase tracking-wider text-muted mb-2">One-line Summary</div>
+              <p class="text-sm text-sec">Transforms temporal event sequences into probabilistic models capturing self-excitation dynamics, enabling prediction and triggering structure inference.</p>
             </div>
           </div>
         </div>
@@ -465,7 +755,7 @@
         <div class="section-card">
           <div class="collapsible-header p-5 flex items-center justify-between" onclick="toggleSection(this)">
             <h2 class="text-xl font-semibold">Formal Characterization</h2>
-            <svg class="w-5 h-5 text-[var(--fg-muted)] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-5 h-5 text-muted transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
             </svg>
           </div>
@@ -473,29 +763,29 @@
             <div class="px-5 pb-5">
               <!-- Input/Output -->
               <div class="grid md:grid-cols-2 gap-5 mb-6">
-                <div class="bg-[var(--bg-elevated)] rounded-lg p-4">
+                <div class="bg-elev rounded-lg p-4">
                   <div class="text-sm font-medium mb-3">Input Space</div>
                   <div class="space-y-2 text-sm">
                     <div>
-                      <span class="text-[var(--fg-muted)]">Event Timeline:</span>
-                      <span class="mono text-[var(--fg-secondary)]"> T = {"t₁, t₂, ..., tₙ"} ⊂ ℝ⁺</span>
+                      <span class="text-muted">Event Timeline:</span>
+                      <span class="mono text-sec"> T = {"t₁, t₂, ..., tₙ"} ⊂ ℝ⁺</span>
                     </div>
                     <div>
-                      <span class="text-[var(--fg-muted)]">Observation Window:</span>
-                      <span class="mono text-[var(--fg-secondary)]"> [0, T]</span>
+                      <span class="text-muted">Observation Window:</span>
+                      <span class="mono text-sec"> [0, T]</span>
                     </div>
                   </div>
                 </div>
-                <div class="bg-[var(--bg-elevated)] rounded-lg p-4">
+                <div class="bg-elev rounded-lg p-4">
                   <div class="text-sm font-medium mb-3">Output Space</div>
                   <div class="space-y-2 text-sm">
                     <div>
-                      <span class="text-[var(--fg-muted)]">Intensity Function:</span>
-                      <span class="mono text-[var(--fg-secondary)]"> λ*(t) : ℝ⁺ → ℝ⁺</span>
+                      <span class="text-muted">Intensity Function:</span>
+                      <span class="mono text-sec"> λ*(t) : ℝ⁺ → ℝ⁺</span>
                     </div>
                     <div>
-                      <span class="text-[var(--fg-muted)]">Parameters:</span>
-                      <span class="mono text-[var(--accent)]"> μ, α, β</span>
+                      <span class="text-muted">Parameters:</span>
+                      <span class="mono accent-text"> μ, α, β</span>
                     </div>
                   </div>
                 </div>
@@ -505,24 +795,24 @@
               <div class="mb-6">
                 <div class="text-sm font-medium mb-2">Transformation</div>
                 <div class="formula mono text-sm">
-                  <div class="mb-1 text-[var(--fg-secondary)]">λ*(t) = μ + Σᵢ α · e<sup>-β(t - tᵢ)</sup> · 𝟙(t > tᵢ)</div>
-                  <div class="text-xs text-[var(--fg-muted)]">Sum over all events tᵢ occurring before time t</div>
+                  <div class="mb-1 text-sec">λ*(t) = μ + Σᵢ α · e<sup>-β(t - tᵢ)</sup> · 𝟙(t > tᵢ)</div>
+                  <div class="text-xs text-muted">Sum over all events tᵢ occurring before time t</div>
                 </div>
               </div>
 
               <!-- Assumptions -->
               <div class="grid md:grid-cols-2 gap-4">
-                <div class="p-3 border border-[var(--border-subtle)] rounded-lg">
-                  <div class="text-sm font-medium text-[var(--warning)] mb-2">Structural Assumptions</div>
-                  <ul class="text-xs text-[var(--fg-secondary)] space-y-0.5">
+                <div class="p-3 border rounded-lg">
+                  <div class="text-sm font-medium text-warn mb-2">Structural Assumptions</div>
+                  <ul class="text-xs text-sec space-y-0.5">
                     <li>• Events are instantaneous points</li>
                     <li>• Excitation always positive (no inhibition)</li>
                     <li>• Exponential decay kernel</li>
                   </ul>
                 </div>
-                <div class="p-3 border border-[var(--border-subtle)] rounded-lg">
-                  <div class="text-sm font-medium text-[var(--warning)] mb-2">Stationarity Condition</div>
-                  <ul class="text-xs text-[var(--fg-secondary)] space-y-0.5">
+                <div class="p-3 border rounded-lg">
+                  <div class="text-sm font-medium text-warn mb-2">Stationarity Condition</div>
+                  <ul class="text-xs text-sec space-y-0.5">
                     <li>• Branching ratio n = α/β < 1</li>
                     <li>• Finite expected intensity</li>
                     <li>• Time-invariant parameters</li>
@@ -539,37 +829,37 @@
         <div class="section-card p-5">
           <h2 class="text-xl font-semibold mb-5">Mechanism</h2>
           <div class="flex flex-wrap gap-4 items-start">
-            <div class="flex-1 min-w-[200px]">
+            <div class="flex-1 min-w-col">
               <div class="space-y-3">
                 <div class="flex gap-3 items-start">
-                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--accent)] text-[var(--bg-deep)] flex items-center justify-center text-xs font-bold">1</div>
-                  <div class="text-sm"><span class="font-medium">Initialize</span> <span class="text-[var(--fg-secondary)]">base intensity μ</span></div>
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">1</div>
+                  <div class="text-sm"><span class="font-medium">Initialize</span> <span class="text-sec">base intensity μ</span></div>
                 </div>
                 <div class="flex gap-3 items-start">
-                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--accent)] text-[var(--bg-deep)] flex items-center justify-center text-xs font-bold">2</div>
-                  <div class="text-sm"><span class="font-medium">Event occurs</span> <span class="text-[var(--fg-secondary)]">spontaneous or triggered</span></div>
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">2</div>
+                  <div class="text-sm"><span class="font-medium">Event occurs</span> <span class="text-sec">spontaneous or triggered</span></div>
                 </div>
                 <div class="flex gap-3 items-start">
-                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--accent)] text-[var(--bg-deep)] flex items-center justify-center text-xs font-bold">3</div>
-                  <div class="text-sm"><span class="font-medium">Excite</span> <span class="text-[var(--fg-secondary)]">add α to intensity, decay at rate β</span></div>
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">3</div>
+                  <div class="text-sm"><span class="font-medium">Excite</span> <span class="text-sec">add α to intensity, decay at rate β</span></div>
                 </div>
                 <div class="flex gap-3 items-start">
-                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--accent)] text-[var(--bg-deep)] flex items-center justify-center text-xs font-bold">4</div>
-                  <div class="text-sm"><span class="font-medium">Aggregate</span> <span class="text-[var(--fg-secondary)]">sum all contributions</span></div>
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">4</div>
+                  <div class="text-sm"><span class="font-medium">Aggregate</span> <span class="text-sec">sum all contributions</span></div>
                 </div>
                 <div class="flex gap-3 items-start">
-                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--accent)] text-[var(--bg-deep)] flex items-center justify-center text-xs font-bold">5</div>
-                  <div class="text-sm"><span class="font-medium">Sample</span> <span class="text-[var(--fg-secondary)]">next event from Exp(λ*)</span></div>
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">5</div>
+                  <div class="text-sm"><span class="font-medium">Sample</span> <span class="text-sec">next event from Exp(λ*)</span></div>
                 </div>
               </div>
             </div>
             <div class="w-64 flex-shrink-0">
-              <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                <div class="text-xs text-[var(--fg-muted)] mb-2">Dependencies</div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted mb-2">Dependencies</div>
                 <div class="flex flex-wrap gap-1.5">
-                  <span class="px-2 py-0.5 bg-[var(--bg-highlight)] rounded text-xs">Poisson Process</span>
-                  <span class="px-2 py-0.5 bg-[var(--bg-highlight)] rounded text-xs">Exponential Dist.</span>
-                  <span class="px-2 py-0.5 bg-[var(--bg-highlight)] rounded text-xs">Ogata Thinning</span>
+                  <span class="px-2 py-0.5 bg-hi rounded text-xs">Poisson Process</span>
+                  <span class="px-2 py-0.5 bg-hi rounded text-xs">Exponential Dist.</span>
+                  <span class="px-2 py-0.5 bg-hi rounded text-xs">Ogata Thinning</span>
                 </div>
               </div>
             </div>
@@ -595,7 +885,7 @@
               <div>
                 <div class="flex justify-between items-center mb-2">
                   <label class="text-sm font-medium">Base Rate (μ)</label>
-                  <span class="mono text-sm text-[var(--accent)]" id="mu-value">0.5</span>
+                  <span class="mono text-sm accent-text" id="mu-value">0.5</span>
                 </div>
                 <input type="range" class="param-slider" id="mu-slider" min="0.1" max="2" step="0.05" value="0.5" aria-label="Base rate parameter">
               </div>
@@ -603,7 +893,7 @@
               <div>
                 <div class="flex justify-between items-center mb-2">
                   <label class="text-sm font-medium">Excitation (α)</label>
-                  <span class="mono text-sm text-[var(--accent)]" id="alpha-value">0.8</span>
+                  <span class="mono text-sm accent-text" id="alpha-value">0.8</span>
                 </div>
                 <input type="range" class="param-slider" id="alpha-slider" min="0.1" max="2" step="0.05" value="0.8" aria-label="Excitation parameter">
               </div>
@@ -611,66 +901,66 @@
               <div>
                 <div class="flex justify-between items-center mb-2">
                   <label class="text-sm font-medium">Decay Rate (β)</label>
-                  <span class="mono text-sm text-[var(--accent)]" id="beta-value">1.0</span>
+                  <span class="mono text-sm accent-text" id="beta-value">1.0</span>
                 </div>
                 <input type="range" class="param-slider" id="beta-slider" min="0.5" max="3" step="0.1" value="1.0" aria-label="Decay rate parameter">
               </div>
             </div>
 
             <!-- Branching Ratio Display -->
-            <div class="bg-[var(--bg-elevated)] rounded-lg p-4 mb-5">
+            <div class="bg-elev rounded-lg p-4 mb-5">
               <div class="flex items-center justify-between">
                 <div>
-                  <div class="text-xs text-[var(--fg-muted)]">Branching Ratio</div>
+                  <div class="text-xs text-muted">Branching Ratio</div>
                   <div class="mono text-2xl font-bold" id="branching-ratio">0.80</div>
-                  <div class="text-xs text-[var(--fg-muted)]">n = α/β</div>
+                  <div class="text-xs text-muted">n = α/β</div>
                 </div>
                 <div class="text-right">
-                  <div class="text-xs text-[var(--fg-muted)]">Regime</div>
-                  <div class="text-lg font-medium text-[var(--accent)]" id="process-type">Stationary</div>
-                  <div class="text-xs text-[var(--fg-muted)]" id="process-desc">Finite expected intensity</div>
+                  <div class="text-xs text-muted">Regime</div>
+                  <div class="text-lg font-medium accent-text" id="process-type">Stationary</div>
+                  <div class="text-xs text-muted" id="process-desc">Finite expected intensity</div>
                 </div>
               </div>
             </div>
 
             <!-- Main Canvas -->
-            <div class="relative bg-[var(--bg-deep)] rounded-lg overflow-hidden mb-5" style="height: 300px;">
+            <div class="relative bg-deep rounded-lg overflow-hidden mb-5" style="height: 300px;">
               <canvas id="main-canvas" aria-label="Hawkes process visualization"></canvas>
             </div>
 
             <!-- Controls -->
             <div class="flex flex-wrap gap-3 mb-5">
-              <button class="px-4 py-2 bg-[var(--accent)] text-[var(--bg-deep)] rounded-lg font-medium hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-[var(--accent)]" onclick="runSimulation()">
+              <button class="px-4 py-2 bg-accent on-accent rounded-lg font-medium hover-op transition-opacity focus-ring" onclick="runSimulation()">
                 Generate New
               </button>
-              <button class="px-4 py-2 bg-[var(--bg-elevated)] rounded-lg font-medium hover:bg-[var(--bg-highlight)] transition-colors" onclick="togglePause()">
+              <button class="px-4 py-2 bg-elev rounded-lg font-medium hover-hi transition-colors" onclick="togglePause()">
                 <span id="pause-btn-text">Pause</span>
               </button>
-              <button class="px-4 py-2 bg-[var(--bg-elevated)] rounded-lg font-medium hover:bg-[var(--bg-highlight)] transition-colors" onclick="resetSimulation()">
+              <button class="px-4 py-2 bg-elev rounded-lg font-medium hover-hi transition-colors" onclick="resetSimulation()">
                 Reset
               </button>
               <div class="flex items-center gap-2 ml-auto">
-                <span class="text-xs text-[var(--fg-muted)]">Speed:</span>
+                <span class="text-xs text-muted">Speed:</span>
                 <input type="range" class="param-slider w-24" id="speed-slider" min="0.005" max="0.1" step="0.005" value="0.02" aria-label="Simulation speed">
               </div>
             </div>
 
             <!-- Stats Grid -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-              <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                <div class="text-xs text-[var(--fg-muted)]">Total Events</div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Total Events</div>
                 <div class="mono text-xl font-bold" id="stat-events">0</div>
               </div>
-              <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                <div class="text-xs text-[var(--fg-muted)]">Current λ*(t)</div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Current λ*(t)</div>
                 <div class="mono text-xl font-bold" id="stat-intensity">0.00</div>
               </div>
-              <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                <div class="text-xs text-[var(--fg-muted)]">Theoretical E[λ]</div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Theoretical E[λ]</div>
                 <div class="mono text-xl font-bold" id="stat-mean">0.00</div>
               </div>
-              <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                <div class="text-xs text-[var(--fg-muted)]">Exogenous Ratio</div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Exogenous Ratio</div>
                 <div class="mono text-xl font-bold" id="stat-exogenous">0%</div>
               </div>
             </div>
@@ -691,14 +981,14 @@
               <div class="grid md:grid-cols-2 gap-5">
                 <div>
                   <h3 class="text-sm font-medium mb-3">Intensity Decomposition at Selected Point</h3>
-                  <div class="bg-[var(--bg-elevated)] rounded-lg p-4 mb-3">
+                  <div class="bg-elev rounded-lg p-4 mb-3">
                     <div class="flex justify-between items-center mb-3">
-                      <span class="text-sm text-[var(--fg-muted)]">Selected Time:</span>
+                      <span class="text-sm text-muted">Selected Time:</span>
                       <span class="mono text-sm" id="decomp-time">—</span>
                     </div>
                     <div class="flex justify-between items-center mb-3">
-                      <span class="text-sm text-[var(--fg-muted)]">Total Intensity:</span>
-                      <span class="mono text-lg font-bold text-[var(--accent)]" id="decomp-total">—</span>
+                      <span class="text-sm text-muted">Total Intensity:</span>
+                      <span class="mono text-lg font-bold accent-text" id="decomp-total">—</span>
                     </div>
                     <div class="space-y-2">
                       <div>
@@ -721,12 +1011,12 @@
                       </div>
                     </div>
                   </div>
-                  <p class="text-xs text-[var(--fg-muted)]">Click on the main simulation canvas to select a time point and see the intensity decomposition.</p>
+                  <p class="text-xs text-muted">Click on the main simulation canvas to select a time point and see the intensity decomposition.</p>
                 </div>
                 <div>
                   <h3 class="text-sm font-medium mb-3">Individual Event Contributions</h3>
-                  <div class="bg-[var(--bg-elevated)] rounded-lg p-3 max-h-64 overflow-y-auto" id="contribution-list">
-                    <div class="text-xs text-[var(--fg-muted)] text-center py-4">Select a time point to see contributions</div>
+                  <div class="bg-elev rounded-lg p-3 max-h-64 overflow-y-auto" id="contribution-list">
+                    <div class="text-xs text-muted text-center py-4">Select a time point to see contributions</div>
                   </div>
                 </div>
               </div>
@@ -737,29 +1027,29 @@
               <div class="grid md:grid-cols-3 gap-5">
                 <div class="md:col-span-2">
                   <h3 class="text-sm font-medium mb-3">Event Triggering Structure</h3>
-                  <div class="bg-[var(--bg-deep)] rounded-lg overflow-hidden" style="height: 280px;">
+                  <div class="bg-deep rounded-lg overflow-hidden" style="height: 280px;">
                     <canvas id="genealogy-canvas"></canvas>
                   </div>
                 </div>
                 <div>
                   <h3 class="text-sm font-medium mb-3">Event Classification</h3>
-                  <div class="bg-[var(--bg-elevated)] rounded-lg p-4 mb-3">
+                  <div class="bg-elev rounded-lg p-4 mb-3">
                     <div class="flex justify-between mb-2">
-                      <span class="text-xs text-[var(--fg-muted)]">Exogenous Events:</span>
+                      <span class="text-xs text-muted">Exogenous Events:</span>
                       <span class="mono text-sm" id="exog-count">0</span>
                     </div>
                     <div class="flex justify-between mb-2">
-                      <span class="text-xs text-[var(--fg-muted)]">Endogenous Events:</span>
+                      <span class="text-xs text-muted">Endogenous Events:</span>
                       <span class="mono text-sm" id="endog-count">0</span>
                     </div>
                     <div class="flex justify-between">
-                      <span class="text-xs text-[var(--fg-muted)]">Avg Children per Event:</span>
+                      <span class="text-xs text-muted">Avg Children per Event:</span>
                       <span class="mono text-sm" id="avg-children">0.00</span>
                     </div>
                   </div>
                   <h3 class="text-sm font-medium mb-3">Event Log</h3>
-                  <div class="bg-[var(--bg-elevated)] rounded-lg overflow-hidden max-h-40 overflow-y-auto" id="event-log">
-                    <div class="event-row bg-[var(--bg-highlight)] text-[var(--fg-muted)]">
+                  <div class="bg-elev rounded-lg overflow-hidden max-h-40 overflow-y-auto" id="event-log">
+                    <div class="event-row bg-hi text-muted">
                       <span>#</span>
                       <span>Time</span>
                       <span>Type</span>
@@ -779,25 +1069,25 @@
                     <canvas id="phase-canvas"></canvas>
                     <div class="phase-point" id="phase-point"></div>
                   </div>
-                  <p class="text-xs text-[var(--fg-muted)] mt-2">The diagonal line marks n = α/β = 1 (stationarity boundary). Green region = stationary, red region = explosive.</p>
+                  <p class="text-xs text-muted mt-2">The diagonal line marks n = α/β = 1 (stationarity boundary). Green region = stationary, red region = explosive.</p>
                 </div>
                 <div>
                   <h3 class="text-sm font-medium mb-3">Theoretical Properties</h3>
-                  <div class="bg-[var(--bg-elevated)] rounded-lg p-4 space-y-3">
+                  <div class="bg-elev rounded-lg p-4 space-y-3">
                     <div>
-                      <div class="text-xs text-[var(--fg-muted)] mb-1">Long-run Mean Intensity</div>
+                      <div class="text-xs text-muted mb-1">Long-run Mean Intensity</div>
                       <div class="formula mono text-sm">E[λ] = μ / (1 - n) = <span id="theoretical-mean">2.50</span></div>
                     </div>
                     <div>
-                      <div class="text-xs text-[var(--fg-muted)] mb-1">Expected Event Rate</div>
+                      <div class="text-xs text-muted mb-1">Expected Event Rate</div>
                       <div class="formula mono text-sm">Λ(T) = E[λ] · T</div>
                     </div>
                     <div>
-                      <div class="text-xs text-[var(--fg-muted)] mb-1">Memory Horizon (e-folding time)</div>
+                      <div class="text-xs text-muted mb-1">Memory Horizon (e-folding time)</div>
                       <div class="formula mono text-sm">τ = 1/β = <span id="memory-horizon">1.00</span> time units</div>
                     </div>
                     <div>
-                      <div class="text-xs text-[var(--fg-muted)] mb-1">Coefficient of Variation</div>
+                      <div class="text-xs text-muted mb-1">Coefficient of Variation</div>
                       <div class="formula mono text-sm">CV² = 1 + 2n²/(1-n²) = <span id="coeff-var">2.78</span></div>
                     </div>
                   </div>
@@ -810,38 +1100,38 @@
               <div class="grid md:grid-cols-2 gap-5">
                 <div>
                   <h3 class="text-sm font-medium mb-3">Excitation Kernel Shape</h3>
-                  <div class="bg-[var(--bg-deep)] rounded-lg" style="height: 240px;">
+                  <div class="bg-deep rounded-lg" style="height: 240px;">
                     <canvas id="kernel-canvas"></canvas>
                   </div>
                 </div>
                 <div>
                   <h3 class="text-sm font-medium mb-3">Kernel Selection</h3>
                   <div class="space-y-2">
-                    <label class="flex items-center gap-3 p-3 bg-[var(--bg-elevated)] rounded-lg cursor-pointer hover:bg-[var(--bg-highlight)] transition-colors">
-                      <input type="radio" name="kernel" value="exponential" checked class="accent-[var(--accent)]">
+                    <label class="flex items-center gap-3 p-3 bg-elev rounded-lg cursor-pointer hover-hi transition-colors">
+                      <input type="radio" name="kernel" value="exponential" checked class="radio-accent">
                       <div>
                         <div class="text-sm font-medium">Exponential</div>
-                        <div class="mono text-xs text-[var(--fg-muted)]">g(t) = α · e<sup>-βt</sup></div>
+                        <div class="mono text-xs text-muted">g(t) = α · e<sup>-βt</sup></div>
                       </div>
                     </label>
-                    <label class="flex items-center gap-3 p-3 bg-[var(--bg-elevated)] rounded-lg cursor-pointer hover:bg-[var(--bg-highlight)] transition-colors">
-                      <input type="radio" name="kernel" value="power" class="accent-[var(--accent)]">
+                    <label class="flex items-center gap-3 p-3 bg-elev rounded-lg cursor-pointer hover-hi transition-colors">
+                      <input type="radio" name="kernel" value="power" class="radio-accent">
                       <div>
                         <div class="text-sm font-medium">Power Law</div>
-                        <div class="mono text-xs text-[var(--fg-muted)]">g(t) = α · (1+t)<sup>-β</sup></div>
+                        <div class="mono text-xs text-muted">g(t) = α · (1+t)<sup>-β</sup></div>
                       </div>
                     </label>
-                    <label class="flex items-center gap-3 p-3 bg-[var(--bg-elevated)] rounded-lg cursor-pointer hover:bg-[var(--bg-highlight)] transition-colors">
-                      <input type="radio" name="kernel" value="gaussian" class="accent-[var(--accent)]">
+                    <label class="flex items-center gap-3 p-3 bg-elev rounded-lg cursor-pointer hover-hi transition-colors">
+                      <input type="radio" name="kernel" value="gaussian" class="radio-accent">
                       <div>
                         <div class="text-sm font-medium">Gaussian</div>
-                        <div class="mono text-xs text-[var(--fg-muted)]">g(t) = α · e<sup>-βt²</sup></div>
+                        <div class="mono text-xs text-muted">g(t) = α · e<sup>-βt²</sup></div>
                       </div>
                     </label>
                   </div>
-                  <div class="mt-4 p-3 bg-[var(--bg-elevated)] rounded-lg">
-                    <div class="text-xs text-[var(--fg-muted)]">Kernel Selection Impact</div>
-                    <p class="text-xs text-[var(--fg-secondary)] mt-1">Different kernels capture different memory structures. Exponential assumes constant relative decay; power law captures long-range memory; Gaussian assumes fixed memory duration.</p>
+                  <div class="mt-4 p-3 bg-elev rounded-lg">
+                    <div class="text-xs text-muted">Kernel Selection Impact</div>
+                    <p class="text-xs text-sec mt-1">Different kernels capture different memory structures. Exponential assumes constant relative decay; power law captures long-range memory; Gaussian assumes fixed memory duration.</p>
                   </div>
                 </div>
               </div>
@@ -852,27 +1142,27 @@
               <div class="grid md:grid-cols-3 gap-5">
                 <div class="md:col-span-2">
                   <h3 class="text-sm font-medium mb-3">Ensemble Simulation (N = <span id="ensemble-n">20</span> realizations)</h3>
-                  <div class="bg-[var(--bg-deep)] rounded-lg" style="height: 280px;">
+                  <div class="bg-deep rounded-lg" style="height: 280px;">
                     <canvas id="ensemble-canvas"></canvas>
                   </div>
                 </div>
                 <div>
                   <h3 class="text-sm font-medium mb-3">Distribution Statistics</h3>
                   <div class="space-y-3">
-                    <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                      <div class="text-xs text-[var(--fg-muted)]">Mean Event Count</div>
+                    <div class="bg-elev rounded-lg p-3">
+                      <div class="text-xs text-muted">Mean Event Count</div>
                       <div class="mono text-lg font-bold" id="ensemble-mean-events">—</div>
                     </div>
-                    <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                      <div class="text-xs text-[var(--fg-muted)]">Std Dev</div>
+                    <div class="bg-elev rounded-lg p-3">
+                      <div class="text-xs text-muted">Std Dev</div>
                       <div class="mono text-lg font-bold" id="ensemble-std-events">—</div>
                     </div>
-                    <div class="bg-[var(--bg-elevated)] rounded-lg p-3">
-                      <div class="text-xs text-[var(--fg-muted)]">Theoretical E[N(T)]</div>
-                      <div class="mono text-lg font-bold text-[var(--accent)]" id="theoretical-n">—</div>
+                    <div class="bg-elev rounded-lg p-3">
+                      <div class="text-xs text-muted">Theoretical E[N(T)]</div>
+                      <div class="mono text-lg font-bold accent-text" id="theoretical-n">—</div>
                     </div>
                   </div>
-                  <button class="w-full mt-3 px-4 py-2 bg-[var(--bg-elevated)] rounded-lg text-sm font-medium hover:bg-[var(--bg-highlight)] transition-colors" onclick="runEnsemble()">
+                  <button class="w-full mt-3 px-4 py-2 bg-elev rounded-lg text-sm font-medium hover-hi transition-colors" onclick="runEnsemble()">
                     Run Ensemble
                   </button>
                 </div>
@@ -890,14 +1180,14 @@
           
           <div class="grid md:grid-cols-2 gap-5 mb-5">
             <div>
-              <h3 class="text-sm font-medium text-[var(--fg-muted)] uppercase tracking-wider mb-2">Function</h3>
-              <p class="text-sm text-[var(--fg-secondary)]">Resolves <strong class="text-[var(--fg-primary)]">temporal structure discovery</strong> — distinguishes endogenous dynamics (self-excitation) from exogenous factors (background rate).</p>
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Function</h3>
+              <p class="text-sm text-sec">Resolves <strong class="text-fg">temporal structure discovery</strong> — distinguishes endogenous dynamics (self-excitation) from exogenous factors (background rate).</p>
             </div>
             <div>
-              <h3 class="text-sm font-medium text-[var(--fg-muted)] uppercase tracking-wider mb-2">Preservation</h3>
-              <div class="text-sm text-[var(--fg-secondary)]">
-                <span class="text-[var(--accent)]">Preserves:</span> Temporal order, event count, clustering degree<br>
-                <span class="text-[var(--error)]">Destroys:</span> Individual causality, inhibition effects
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Preservation</h3>
+              <div class="text-sm text-sec">
+                <span class="accent-text">Preserves:</span> Temporal order, event count, clustering degree<br>
+                <span class="text-error">Destroys:</span> Individual causality, inhibition effects
               </div>
             </div>
           </div>
@@ -924,14 +1214,14 @@
             </div>
           </div>
 
-          <div class="bg-[var(--bg-elevated)] rounded-lg p-4">
+          <div class="bg-elev rounded-lg p-4">
             <h3 class="text-sm font-medium mb-2">Residual Analysis</h3>
             <div class="grid md:grid-cols-2 gap-4">
-              <div class="text-sm text-[var(--fg-secondary)]">
+              <div class="text-sm text-sec">
                 <p>If the model is correct, transformed times Λ(tᵢ) should follow a unit Poisson process. The time transformation:</p>
                 <div class="formula mono text-xs mt-2">Λ(t) = μt + (α/β)Σᵢ(1 - e<sup>-β(t-tᵢ)</sup>)</div>
               </div>
-              <div class="bg-[var(--bg-deep)] rounded-lg p-3" style="height: 120px;">
+              <div class="bg-deep rounded-lg p-3" style="height: 120px;">
                 <canvas id="qq-canvas"></canvas>
               </div>
             </div>
@@ -946,20 +1236,20 @@
           
           <div class="grid md:grid-cols-2 gap-5">
             <div>
-              <h3 class="text-sm font-medium text-[var(--fg-muted)] uppercase tracking-wider mb-2">Applicability</h3>
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Applicability</h3>
               <div class="space-y-1.5">
-                <div class="p-2 bg-[var(--bg-elevated)] rounded text-sm">Seismology (earthquake-aftershock)</div>
-                <div class="p-2 bg-[var(--bg-elevated)] rounded text-sm">High-frequency finance</div>
-                <div class="p-2 bg-[var(--bg-elevated)] rounded text-sm">Social media cascades</div>
-                <div class="p-2 bg-[var(--bg-elevated)] rounded text-sm">Neuronal spike trains</div>
+                <div class="p-2 bg-elev rounded text-sm">Seismology (earthquake-aftershock)</div>
+                <div class="p-2 bg-elev rounded text-sm">High-frequency finance</div>
+                <div class="p-2 bg-elev rounded text-sm">Social media cascades</div>
+                <div class="p-2 bg-elev rounded text-sm">Neuronal spike trains</div>
               </div>
             </div>
             <div>
-              <h3 class="text-sm font-medium text-[var(--fg-muted)] uppercase tracking-wider mb-2">Structural Limits</h3>
-              <div class="space-y-1.5 text-sm text-[var(--fg-secondary)]">
-                <div class="p-2 border border-[var(--border-subtle)] rounded">No inhibition modeling</div>
-                <div class="p-2 border border-[var(--border-subtle)] rounded">Single temporal dimension</div>
-                <div class="p-2 border border-[var(--border-subtle)] rounded">Event marks not captured</div>
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Structural Limits</h3>
+              <div class="space-y-1.5 text-sm text-sec">
+                <div class="p-2 border rounded">No inhibition modeling</div>
+                <div class="p-2 border rounded">Single temporal dimension</div>
+                <div class="p-2 border rounded">Event marks not captured</div>
               </div>
             </div>
           </div>
@@ -972,31 +1262,38 @@
           <h2 class="text-xl font-semibold mb-5">Diagnostic Questions</h2>
           
           <div class="space-y-4">
-            <div class="border-l-2 border-[var(--accent)] pl-4">
+            <div class="border-l-2 bdr-accent pl-4">
               <div class="font-medium text-sm mb-1">What happens if branching ratio exceeds 1?</div>
-              <p class="text-sm text-[var(--fg-secondary)]">Explosive regime: intensity grows without bound, infinite events in finite time. Estimation methods fail.</p>
+              <p class="text-sm text-sec">Explosive regime: intensity grows without bound, infinite events in finite time. Estimation methods fail.</p>
             </div>
-            <div class="border-l-2 border-[var(--warning)] pl-4">
+            <div class="border-l-2 bdr-warn pl-4">
               <div class="font-medium text-sm mb-1">What invariant is most critical?</div>
-              <p class="text-sm text-[var(--fg-secondary)]">Exponential decay structure — encodes proportional influence decay. Violations require kernel modifications.</p>
+              <p class="text-sm text-sec">Exponential decay structure — encodes proportional influence decay. Violations require kernel modifications.</p>
             </div>
-            <div class="border-l-2 border-[var(--fg-muted)] pl-4">
+            <div class="border-l-2 bdr-muted pl-4">
               <div class="font-medium text-sm mb-1">Can different parameters produce indistinguishable sequences?</div>
-              <p class="text-sm text-[var(--fg-secondary)]">Yes — identifiability issues when long-run mean intensity λ̄ = μ/(1-n) is similar across parameter sets.</p>
+              <p class="text-sm text-sec">Yes — identifiability issues when long-run mean intensity λ̄ = μ/(1-n) is similar across parameter sets.</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Footer -->
-      <footer class="text-center py-8 border-t border-[var(--border-subtle)]">
-        <div class="text-xs text-[var(--fg-muted)]">
+      <footer class="text-center py-8 border-t">
+        <div class="text-xs text-muted">
           Epistemic Tool Notebook — Hawkes Process
         </div>
       </footer>
 
     </div>
   </main>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
 
   <script>
     // ========================================
@@ -1049,6 +1346,30 @@
     
     function rgba(r, g, b, a) {
       return `rgba(${clamp(Math.round(r),0,255)},${clamp(Math.round(g),0,255)},${clamp(Math.round(b),0,255)},${clamp(a,0,1)})`;
+    }
+
+    function themeColors() {
+      const s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim(),
+        card: s.getPropertyValue('--bg-card').trim(),
+        void: s.getPropertyValue('--bg-void').trim()
+      };
+    }
+
+    function withAlpha(color, alpha) {
+      const m = /^#([0-9a-f]{6})$/i.exec(color);
+      if (m) {
+        const n = parseInt(m[1], 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+      }
+      return color;
     }
     
     // ========================================
@@ -1179,13 +1500,14 @@
       const w = mainCanvasW;
       const h = mainCanvasH;
       const timeWindow = 20;
-      
+      const colors = themeColors();
+
       // Clear
-      mainCtx.fillStyle = '#080c14';
+      mainCtx.fillStyle = colors.void;
       mainCtx.fillRect(0, 0, w, h);
-      
+
       // Grid
-      mainCtx.strokeStyle = rgba(36, 48, 68, 0.4);
+      mainCtx.strokeStyle = withAlpha(colors.primary, '0.14');
       mainCtx.lineWidth = 1;
       
       for (let i = 0; i <= timeWindow; i += 5) {
@@ -1209,7 +1531,7 @@
       
       // Intensity curve
       mainCtx.beginPath();
-      mainCtx.strokeStyle = '#00e5b8';
+      mainCtx.strokeStyle = colors.cyan;
       mainCtx.lineWidth = 2;
       
       let started = false;
@@ -1235,14 +1557,14 @@
         mainCtx.lineTo(Math.min((currentTime / timeWindow) * w, w), h);
         mainCtx.lineTo(0, h);
         mainCtx.closePath();
-        mainCtx.fillStyle = rgba(0, 229, 184, 0.08);
+        mainCtx.fillStyle = withAlpha(colors.cyan, '0.08');
         mainCtx.fill();
       }
-      
+
       // Base rate line
       const baseY = h - (mu / maxIntensity) * h * 0.85;
       mainCtx.beginPath();
-      mainCtx.strokeStyle = rgba(143, 163, 192, 0.4);
+      mainCtx.strokeStyle = withAlpha(colors.secondary, '0.4');
       mainCtx.setLineDash([4, 4]);
       mainCtx.moveTo(0, baseY);
       mainCtx.lineTo(w, baseY);
@@ -1260,22 +1582,22 @@
         
         // Glow
         const gradient = mainCtx.createRadialGradient(x, clampedY, 0, x, clampedY, safeRadius(12));
-        gradient.addColorStop(0, rgba(0, 229, 184, 0.35));
-        gradient.addColorStop(1, rgba(0, 229, 184, 0));
+        gradient.addColorStop(0, withAlpha(colors.cyan, '0.35'));
+        gradient.addColorStop(1, withAlpha(colors.cyan, '0'));
         mainCtx.fillStyle = gradient;
         mainCtx.beginPath();
         mainCtx.arc(x, clampedY, safeRadius(12), 0, Math.PI * 2);
         mainCtx.fill();
-        
+
         // Marker
         const genealogyInfo = eventGenealogy[i];
-        mainCtx.fillStyle = genealogyInfo && genealogyInfo.isExogenous ? '#00e5b8' : '#f472b6';
+        mainCtx.fillStyle = genealogyInfo && genealogyInfo.isExogenous ? colors.cyan : '#f472b6';
         mainCtx.beginPath();
         mainCtx.arc(x, clampedY, safeRadius(4), 0, Math.PI * 2);
         mainCtx.fill();
-        
+
         // Stem
-        mainCtx.strokeStyle = rgba(0, 229, 184, 0.2);
+        mainCtx.strokeStyle = withAlpha(colors.cyan, '0.2');
         mainCtx.lineWidth = 1;
         mainCtx.beginPath();
         mainCtx.moveTo(x, clampedY);
@@ -1307,7 +1629,7 @@
       // Current time line
       if (currentTime > 0 && currentTime <= timeWindow) {
         const currX = (currentTime / timeWindow) * w;
-        mainCtx.strokeStyle = rgba(255, 255, 255, 0.2);
+        mainCtx.strokeStyle = withAlpha(colors.primary, '0.2');
         mainCtx.lineWidth = 1;
         mainCtx.beginPath();
         mainCtx.moveTo(currX, 0);
@@ -1316,7 +1638,7 @@
       }
       
       // Labels
-      mainCtx.fillStyle = rgba(143, 163, 192, 0.6);
+      mainCtx.fillStyle = withAlpha(colors.secondary, '0.6');
       mainCtx.font = '10px "JetBrains Mono", monospace';
       mainCtx.fillText('Time', w - 28, h - 6);
       mainCtx.fillText('λ*(t)', 4, 12);
@@ -1328,8 +1650,9 @@
       const w = genealogyCanvas.width / dpr;
       const h = genealogyCanvas.height / dpr;
       const timeWindow = 20;
-      
-      genealogyCtx.fillStyle = '#080c14';
+      const colors = themeColors();
+
+      genealogyCtx.fillStyle = colors.void;
       genealogyCtx.fillRect(0, 0, w, h);
       
       // Build generation levels
@@ -1367,7 +1690,7 @@
         const x = (events[i] / timeWindow) * w;
         const y = (levels[i] + 1) * levelHeight;
         
-        genealogyCtx.fillStyle = eventGenealogy[i].isExogenous ? '#00e5b8' : '#f472b6';
+        genealogyCtx.fillStyle = eventGenealogy[i].isExogenous ? colors.cyan : '#f472b6';
         genealogyCtx.beginPath();
         genealogyCtx.arc(x, y, safeRadius(4), 0, Math.PI * 2);
         genealogyCtx.fill();
@@ -1379,13 +1702,14 @@
       
       const w = phaseCanvas.width / dpr;
       const h = phaseCanvas.height / dpr;
-      
-      phaseCtx.fillStyle = '#080c14';
+      const colors = themeColors();
+
+      phaseCtx.fillStyle = colors.void;
       phaseCtx.fillRect(0, 0, w, h);
-      
+
       // Draw regions
       // Stationary region (green)
-      phaseCtx.fillStyle = rgba(0, 229, 184, 0.1);
+      phaseCtx.fillStyle = withAlpha(colors.cyan, '0.1');
       phaseCtx.fillRect(0, 0, w, h);
       
       // Explosive region (red) - where alpha > beta
@@ -1415,7 +1739,7 @@
       phaseCtx.fill();
       
       // Grid
-      phaseCtx.strokeStyle = rgba(36, 48, 68, 0.3);
+      phaseCtx.strokeStyle = withAlpha(colors.primary, '0.1');
       phaseCtx.lineWidth = 1;
       for (let i = 0.5; i <= 2; i += 0.5) {
         const y = ((2 - i) / 1.5) * h;
@@ -1433,7 +1757,7 @@
       }
       
       // Labels
-      phaseCtx.fillStyle = rgba(143, 163, 192, 0.6);
+      phaseCtx.fillStyle = withAlpha(colors.secondary, '0.6');
       phaseCtx.font = '9px "JetBrains Mono", monospace';
       phaseCtx.fillText('α', w - 12, h - 6);
       phaseCtx.fillText('β', 4, 12);
@@ -1457,12 +1781,13 @@
       const w = kernelCanvas.width / dpr;
       const h = kernelCanvas.height / dpr;
       const maxT = 5;
-      
-      kernelCtx.fillStyle = '#080c14';
+      const tc = themeColors();
+
+      kernelCtx.fillStyle = tc.void;
       kernelCtx.fillRect(0, 0, w, h);
-      
+
       // Grid
-      kernelCtx.strokeStyle = rgba(36, 48, 68, 0.3);
+      kernelCtx.strokeStyle = withAlpha(tc.primary, '0.1');
       kernelCtx.lineWidth = 1;
       for (let i = 0; i <= maxT; i++) {
         const x = (i / maxT) * w;
@@ -1474,7 +1799,7 @@
       
       // Draw all kernels with reduced opacity
       const kernels = ['exponential', 'power', 'gaussian'];
-      const colors = ['#00e5b8', '#f472b6', '#fbbf24'];
+      const colors = [tc.cyan, '#f472b6', tc.gold];
       
       kernels.forEach((k, idx) => {
         kernelCtx.beginPath();
@@ -1498,7 +1823,7 @@
       });
       
       // Labels
-      kernelCtx.fillStyle = rgba(143, 163, 192, 0.6);
+      kernelCtx.fillStyle = withAlpha(tc.secondary, '0.6');
       kernelCtx.font = '9px "JetBrains Mono", monospace';
       kernelCtx.fillText('t', w - 10, h - 6);
       kernelCtx.fillText('g(t)', 4, 12);
@@ -1510,12 +1835,13 @@
       const w = ensembleCanvas.width / dpr;
       const h = ensembleCanvas.height / dpr;
       const timeWindow = 20;
-      
-      ensembleCtx.fillStyle = '#080c14';
+      const colors = themeColors();
+
+      ensembleCtx.fillStyle = colors.void;
       ensembleCtx.fillRect(0, 0, w, h);
-      
+
       // Grid
-      ensembleCtx.strokeStyle = rgba(36, 48, 68, 0.3);
+      ensembleCtx.strokeStyle = withAlpha(colors.primary, '0.1');
       ensembleCtx.lineWidth = 1;
       for (let i = 0; i <= timeWindow; i += 5) {
         const x = (i / timeWindow) * w;
@@ -1526,8 +1852,8 @@
       }
       
       if (ensembleRuns.length === 0) {
-        ensembleCtx.fillStyle = rgba(143, 163, 192, 0.4);
-        ensembleCtx.font = '11px "Space Grotesk", sans-serif';
+        ensembleCtx.fillStyle = withAlpha(colors.secondary, '0.4');
+        ensembleCtx.font = '11px Inter, sans-serif';
         ensembleCtx.textAlign = 'center';
         ensembleCtx.fillText('Click "Run Ensemble" to generate realizations', w/2, h/2);
         ensembleCtx.textAlign = 'left';
@@ -1540,7 +1866,7 @@
       // Draw individual realizations
       ensembleRuns.forEach((run, idx) => {
         ensembleCtx.beginPath();
-        ensembleCtx.strokeStyle = rgba(0, 229, 184, 0.15);
+        ensembleCtx.strokeStyle = withAlpha(colors.cyan, '0.15');
         ensembleCtx.lineWidth = 1;
         
         for (let px = 0; px < w; px++) {
@@ -1566,7 +1892,7 @@
       }
       
       ensembleCtx.beginPath();
-      ensembleCtx.strokeStyle = '#00e5b8';
+      ensembleCtx.strokeStyle = colors.cyan;
       ensembleCtx.lineWidth = 2;
       meanLine.forEach((val, px) => {
         const y = h - (val / maxEvents) * h * 0.9;
@@ -1591,12 +1917,13 @@
       
       const w = qqCanvas.width / dpr;
       const h = qqCanvas.height / dpr;
-      
-      qqCtx.fillStyle = '#080c14';
+      const colors = themeColors();
+
+      qqCtx.fillStyle = colors.void;
       qqCtx.fillRect(0, 0, w, h);
-      
+
       // Identity line
-      qqCtx.strokeStyle = rgba(143, 163, 192, 0.3);
+      qqCtx.strokeStyle = withAlpha(colors.secondary, '0.3');
       qqCtx.lineWidth = 1;
       qqCtx.setLineDash([3, 3]);
       qqCtx.beginPath();
@@ -1615,7 +1942,7 @@
       const maxRes = Math.max(...residuals, 1);
       
       // Points
-      qqCtx.fillStyle = '#00e5b8';
+      qqCtx.fillStyle = colors.cyan;
       for (let i = 0; i < n; i++) {
         const theoretical = -Math.log(1 - (i + 0.5) / n);
         const x = (theoretical / maxRes) * w;
@@ -1715,7 +2042,7 @@
         document.getElementById('decomp-excite-val').textContent = '—';
         document.getElementById('decomp-base-bar').style.width = '0%';
         document.getElementById('decomp-excite-bar').style.width = '0%';
-        document.getElementById('contribution-list').innerHTML = '<div class="text-xs text-[var(--fg-muted)] text-center py-4">Select a time point to see contributions</div>';
+        document.getElementById('contribution-list').innerHTML = '<div class="text-xs text-muted text-center py-4">Select a time point to see contributions</div>';
         return;
       }
       
@@ -1735,14 +2062,14 @@
       
       // Contribution list
       const listHtml = decomp.contributions.slice(0, 10).map((c, i) => `
-        <div class="flex justify-between items-center py-1 px-2 ${i % 2 === 0 ? 'bg-[var(--bg-highlight)]' : ''} rounded text-xs">
-          <span class="text-[var(--fg-muted)]">t = ${c.time.toFixed(2)}</span>
-          <span class="mono text-[var(--trigger)]">+${c.contribution.toFixed(4)}</span>
-          <span class="text-[var(--fg-muted)]">(${c.dt.toFixed(2)} ago)</span>
+        <div class="flex justify-between items-center py-1 px-2 ${i % 2 === 0 ? 'bg-hi' : ''} rounded text-xs">
+          <span class="text-muted">t = ${c.time.toFixed(2)}</span>
+          <span class="mono text-trigger">+${c.contribution.toFixed(4)}</span>
+          <span class="text-muted">(${c.dt.toFixed(2)} ago)</span>
         </div>
       `).join('');
       
-      document.getElementById('contribution-list').innerHTML = listHtml || '<div class="text-xs text-[var(--fg-muted)] text-center py-4">No past events</div>';
+      document.getElementById('contribution-list').innerHTML = listHtml || '<div class="text-xs text-muted text-center py-4">No past events</div>';
     }
     
     function updateEventGenealogy() {
@@ -1751,7 +2078,7 @@
         document.getElementById('endog-count').textContent = '0';
         document.getElementById('avg-children').textContent = '0.00';
         document.getElementById('event-log').innerHTML = `
-          <div class="event-row bg-[var(--bg-highlight)] text-[var(--fg-muted)]">
+          <div class="event-row bg-hi text-muted">
             <span>#</span><span>Time</span><span>Type</span><span>Children</span>
           </div>
         `;
@@ -1772,7 +2099,7 @@
         const idx = eventGenealogy.length - 20 + i;
         return `
           <div class="event-row">
-            <span class="text-[var(--fg-muted)]">${idx + 1}</span>
+            <span class="text-muted">${idx + 1}</span>
             <span class="mono">${e.time.toFixed(2)}</span>
             <span>${e.isExogenous ? '<span class="badge badge-exogenous">EXOG</span>' : '<span class="badge badge-endogenous">ENDO</span>'}</span>
             <span class="mono">${e.children.length}</span>
@@ -1781,7 +2108,7 @@
       }).join('');
       
       document.getElementById('event-log').innerHTML = `
-        <div class="event-row bg-[var(--bg-highlight)] text-[var(--fg-muted)]">
+        <div class="event-row bg-hi text-muted">
           <span>#</span><span>Time</span><span>Type</span><span>Children</span>
         </div>
         ${logHtml}
@@ -2077,6 +2404,45 @@
       runSimulation();
       animate();
     });
+
+    // Redraw canvas-drawn visuals when the site theme changes
+    window.addEventListener('epistecnica-theme', function() {
+      drawMainCanvas();
+      drawPhaseCanvas();
+      drawKernelCanvas();
+      drawGenealogyCanvas();
+      drawEnsembleCanvas();
+      drawQQCanvas();
+    });
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
   </script>
 </body>
 </html>

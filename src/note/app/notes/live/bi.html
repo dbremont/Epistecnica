@@ -4,26 +4,156 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Burstiness Index | Epistemic Notebook</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
     :root {
-      --bg: #0a0c10;
-      --bg-elevated: #12151c;
-      --bg-card: #181c26;
-      --fg: #e8eaed;
-      --fg-muted: #8b919d;
-      --fg-dim: #4a5060;
-      --accent: #00d4aa;
-      --accent-dim: rgba(0, 212, 170, 0.15);
-      --warning: #ffb347;
-      --warning-dim: rgba(255, 179, 71, 0.15);
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    .site-nav {
+      position: static;
+      z-index: 60;
+      background: var(--nav-bg);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens */
+    :root {
+      --bg: var(--bg-void);
+      --bg-elevated: var(--bg-surface);
+      --fg: var(--text-primary);
+      --fg-muted: var(--text-secondary);
+      --fg-dim: var(--text-muted);
+      --accent: var(--accent-cyan);
+      --accent-dim: var(--accent-cyan-dim);
+      --warning: var(--accent-gold);
+      --warning-dim: var(--accent-gold-dim);
+      --border: var(--border-subtle);
+      --border-light: var(--border-subtle);
       --danger: #ff6b6b;
       --danger-dim: rgba(255, 107, 107, 0.15);
-      --border: #2a3040;
-      --border-light: #3a4050;
     }
 
     * {
@@ -44,7 +174,7 @@
     }
 
     body {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: var(--font-body);
       background: var(--bg);
       color: var(--fg);
       line-height: 1.7;
@@ -52,7 +182,7 @@
     }
 
     .font-mono {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
     }
 
     /* Background Pattern */
@@ -60,8 +190,8 @@
       position: fixed;
       inset: 0;
       background-image: 
-        linear-gradient(rgba(0, 212, 170, 0.02) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 212, 170, 0.02) 1px, transparent 1px);
+        linear-gradient(color-mix(in srgb, var(--accent) 2%, transparent) 1px, transparent 1px),
+        linear-gradient(90deg, color-mix(in srgb, var(--accent) 2%, transparent) 1px, transparent 1px);
       background-size: 60px 60px;
       pointer-events: none;
       z-index: -1;
@@ -71,8 +201,8 @@
       position: fixed;
       inset: 0;
       background: 
-        radial-gradient(ellipse at 20% 20%, rgba(0, 212, 170, 0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 80%, rgba(255, 179, 71, 0.05) 0%, transparent 50%);
+        radial-gradient(ellipse at 20% 20%, color-mix(in srgb, var(--accent) 8%, transparent) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, color-mix(in srgb, var(--warning) 5%, transparent) 0%, transparent 50%);
       pointer-events: none;
       z-index: -1;
     }
@@ -222,13 +352,13 @@
       border: 1px solid var(--border);
       border-radius: 3px;
       padding: 1.5rem 2rem;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       text-align: center;
     }
 
     /* Value Display */
     .value-display {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       font-size: 2rem;
       font-weight: 300;
       letter-spacing: -0.02em;
@@ -251,13 +381,13 @@
     .tag-accent {
       background: var(--accent-dim);
       color: var(--accent);
-      border: 1px solid rgba(0, 212, 170, 0.3);
+      border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
     }
 
     .tag-warning {
       background: var(--warning-dim);
       color: var(--warning);
-      border: 1px solid rgba(255, 179, 71, 0.3);
+      border: 1px solid color-mix(in srgb, var(--warning) 30%, transparent);
     }
 
     .tag-danger {
@@ -410,22 +540,189 @@
         font-size: 1.5rem;
       }
     }
+
+    /* ---- heading face ---- */
+    h1, h2, h3 {
+      font-family: var(--font-display);
+    }
+
+    /* ---- utility shim (replaces the Tailwind CDN) ---- */
+    .min-h-screen { min-height: 100vh; }
+    .relative { position: relative; }
+    .absolute { position: absolute; }
+    .sticky { position: sticky; }
+    .top-0 { top: 0; }
+    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+    .bottom-0 { bottom: 0; }
+    .left-0 { left: 0; }
+    .right-0 { right: 0; }
+    .z-50 { z-index: 50; }
+    .-translate-x-1\/2 { transform: translateX(-50%); }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .hidden { display: none; }
+    .flex { display: flex; }
+    .grid { display: grid; }
+    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .flex-col { flex-direction: column; }
+    .flex-wrap { flex-wrap: wrap; }
+    .flex-1 { flex: 1 1 0%; }
+    .flex-shrink-0 { flex-shrink: 0; }
+    .items-center { align-items: center; }
+    .items-start { align-items: flex-start; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-6 { gap: 1.5rem; }
+    .gap-8 { gap: 2rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .space-y-6 > * + * { margin-top: 1.5rem; }
+    .w-1 { width: 0.25rem; }
+    .w-2 { width: 0.5rem; }
+    .w-3 { width: 0.75rem; }
+    .w-4 { width: 1rem; }
+    .w-5 { width: 1.25rem; }
+    .w-6 { width: 1.5rem; }
+    .w-8 { width: 2rem; }
+    .w-10 { width: 2.5rem; }
+    .w-full { width: 100%; }
+    .max-w-7xl { max-width: 80rem; }
+    .h-1 { height: 0.25rem; }
+    .h-2 { height: 0.5rem; }
+    .h-3 { height: 0.75rem; }
+    .h-4 { height: 1rem; }
+    .h-5 { height: 1.25rem; }
+    .h-6 { height: 1.5rem; }
+    .h-8 { height: 2rem; }
+    .h-10 { height: 2.5rem; }
+    .h-12 { height: 3rem; }
+    .h-16 { height: 4rem; }
+    .h-px { height: 1px; }
+    .h-full { height: 100%; }
+    .p-2 { padding: 0.5rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-5 { padding: 1.25rem; }
+    .p-6 { padding: 1.5rem; }
+    .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+    .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+    .pt-6 { padding-top: 1.5rem; }
+    .mt-0\.5 { margin-top: 0.125rem; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mt-20 { margin-top: 5rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .mb-16 { margin-bottom: 4rem; }
+    .mb-20 { margin-bottom: 5rem; }
+    .text-xs { font-size: 0.75rem; line-height: 1.5; }
+    .text-sm { font-size: 0.875rem; line-height: 1.5; }
+    .text-lg { font-size: 1.125rem; line-height: 1.6; }
+    .text-xl { font-size: 1.25rem; line-height: 1.6; }
+    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+    .text-left { text-align: left; }
+    .text-center { text-align: center; }
+    .font-medium { font-weight: 500; }
+    .font-bold { font-weight: 700; }
+    .tracking-tight { letter-spacing: -0.025em; }
+    .leading-relaxed { line-height: 1.7; }
+    .rounded { border-radius: 0.25rem; }
+    .rounded-full { border-radius: 9999px; }
+    .border { border: 1px solid var(--border); }
+    .border-b { border-bottom: 1px solid var(--border); }
+    .border-t { border-top: 1px solid var(--border); }
+    .overflow-hidden { overflow: hidden; }
+    .overflow-x-auto { overflow-x: auto; }
+    .cursor-pointer { cursor: pointer; }
+    .transition-colors { transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease; }
+    .transition-all { transition: all 0.15s ease; }
+    .duration-500 { transition-duration: 500ms; }
+    .backdrop-blur-xl { backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
+    .bg-white { background: #FFFFFF; }
+    .fg-clr { color: var(--fg); }
+    .muted { color: var(--fg-muted); }
+    .dim { color: var(--fg-dim); }
+    .accent-clr { color: var(--accent); }
+    .warn { color: var(--warning); }
+    .danger-clr { color: var(--danger); }
+    .bg-clr { color: var(--bg); }
+    .bg-accent { background: var(--accent); }
+    .bg-warn { background: var(--warning); }
+    .bg-danger { background: var(--danger); }
+    .bg-accent-dim { background: var(--accent-dim); }
+    .bg-warn-dim { background: var(--warning-dim); }
+    .bg-danger-dim { background: var(--danger-dim); }
+    .bg-elev { background: var(--bg-elevated); }
+    .bg-card-c { background: var(--bg-card); }
+    .bg-nav { background: color-mix(in srgb, var(--bg) 85%, transparent); }
+    .bg-bdr { background: var(--border); }
+    .bdr-warn { border-color: var(--warning); }
+    .bdr-danger { border-color: var(--danger); }
+    .bdr-danger-dim { border-color: rgba(255, 107, 107, 0.3); }
+    .hover-bdr:hover { border-color: var(--accent); }
+    .group:hover .gh-accent { color: var(--accent); }
+    .logo-grad { background: linear-gradient(135deg, var(--accent), var(--warning)); }
+    .scale-grad { background: linear-gradient(90deg, var(--accent), var(--fg-dim), var(--warning)); }
+    @media (min-width: 768px) {
+      .md\:flex { display: flex; }
+      .md\:hidden { display: none; }
+      .md\:flex-row { flex-direction: row; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .md\:grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+      .md\:text-5xl { font-size: 3rem; line-height: 1.1; }
+    }
+    @media (min-width: 1024px) {
+      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .lg\:col-span-1 { grid-column: span 1 / span 1; }
+      .lg\:col-span-3 { grid-column: span 3 / span 3; }
+    }
   </style>
 </head>
 <body class="min-h-screen">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
   <div class="bg-pattern"></div>
   <div class="bg-gradient-overlay"></div>
 
   <!-- Header -->
-  <header class="sticky top-0 z-50 backdrop-blur-xl bg-[rgba(10,12,16,0.85)] border-b border-[var(--border)]">
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-nav border-b">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <div class="w-8 h-8 rounded bg-gradient-to-br from-[var(--accent)] to-[var(--warning)] flex items-center justify-center">
-          <svg class="w-4 h-4 text-[var(--bg)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="w-8 h-8 rounded logo-grad flex items-center justify-center">
+          <svg class="w-4 h-4 bg-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
           </svg>
         </div>
-        <span class="font-mono text-sm text-[var(--fg-muted)]">Epistemic Notebook</span>
+        <span class="font-mono text-sm muted">Epistemic Notebook</span>
       </div>
       <nav class="hidden md:flex items-center gap-8" id="main-nav" role="navigation" aria-label="Main navigation">
         <a href="#identity" class="nav-link active">Identity</a>
@@ -447,34 +744,34 @@
     <!-- Index Section -->
     <section class="mb-16 animate-in stagger-1">
       <div class="flex items-center gap-2 mb-6">
-        <span class="text-xs font-mono text-[var(--fg-dim)]">INDEX</span>
-        <div class="flex-1 h-px bg-[var(--border)]"></div>
+        <span class="text-xs font-mono dim">INDEX</span>
+        <div class="flex-1 h-px bg-bdr"></div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
-        <a href="#identity" class="section-card p-4 hover:border-[var(--accent)] transition-colors group">
+        <a href="#identity" class="section-card p-4 hover-bdr transition-colors group">
           <div class="progress-step completed mb-3">1</div>
-          <div class="text-sm font-medium group-hover:text-[var(--accent)] transition-colors">Identity</div>
-          <div class="text-xs text-[var(--fg-dim)] mt-1">Definition & Role</div>
+          <div class="text-sm font-medium gh-accent transition-colors">Identity</div>
+          <div class="text-xs dim mt-1">Definition & Role</div>
         </a>
-        <a href="#formal" class="section-card p-4 hover:border-[var(--accent)] transition-colors group">
+        <a href="#formal" class="section-card p-4 hover-bdr transition-colors group">
           <div class="progress-step mb-3">2</div>
-          <div class="text-sm font-medium group-hover:text-[var(--accent)] transition-colors">Formal</div>
-          <div class="text-xs text-[var(--fg-dim)] mt-1">Mathematical Core</div>
+          <div class="text-sm font-medium gh-accent transition-colors">Formal</div>
+          <div class="text-xs dim mt-1">Mathematical Core</div>
         </a>
-        <a href="#laboratory" class="section-card p-4 hover:border-[var(--accent)] transition-colors group">
+        <a href="#laboratory" class="section-card p-4 hover-bdr transition-colors group">
           <div class="progress-step mb-3">3</div>
-          <div class="text-sm font-medium group-hover:text-[var(--accent)] transition-colors">Laboratory</div>
-          <div class="text-xs text-[var(--fg-dim)] mt-1">Interactive Simulation</div>
+          <div class="text-sm font-medium gh-accent transition-colors">Laboratory</div>
+          <div class="text-xs dim mt-1">Interactive Simulation</div>
         </a>
-        <a href="#validation" class="section-card p-4 hover:border-[var(--accent)] transition-colors group">
+        <a href="#validation" class="section-card p-4 hover-bdr transition-colors group">
           <div class="progress-step mb-3">4</div>
-          <div class="text-sm font-medium group-hover:text-[var(--accent)] transition-colors">Validation</div>
-          <div class="text-xs text-[var(--fg-dim)] mt-1">Testing & Edge Cases</div>
+          <div class="text-sm font-medium gh-accent transition-colors">Validation</div>
+          <div class="text-xs dim mt-1">Testing & Edge Cases</div>
         </a>
-        <a href="#limits" class="section-card p-4 hover:border-[var(--accent)] transition-colors group">
+        <a href="#limits" class="section-card p-4 hover-bdr transition-colors group">
           <div class="progress-step mb-3">5</div>
-          <div class="text-sm font-medium group-hover:text-[var(--accent)] transition-colors">Limits</div>
-          <div class="text-xs text-[var(--fg-dim)] mt-1">Boundaries & Failure</div>
+          <div class="text-sm font-medium gh-accent transition-colors">Limits</div>
+          <div class="text-xs dim mt-1">Boundaries & Failure</div>
         </a>
       </div>
     </section>
@@ -482,9 +779,9 @@
     <!-- Identity Section -->
     <section id="identity" class="mb-20 animate-in stagger-2">
       <div class="flex items-center gap-2 mb-8">
-        <span class="text-xs font-mono text-[var(--accent)]">01</span>
-        <div class="flex-1 h-px bg-[var(--border)]"></div>
-        <span class="text-xs font-mono text-[var(--fg-dim)]">IDENTITY</span>
+        <span class="text-xs font-mono accent-clr">01</span>
+        <div class="flex-1 h-px bg-bdr"></div>
+        <span class="text-xs font-mono dim">IDENTITY</span>
       </div>
 
       <div class="grid lg:grid-cols-2 gap-8">
@@ -492,7 +789,7 @@
           <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
             Burstiness Index
           </h1>
-          <p class="text-xl text-[var(--fg-muted)] mb-8 leading-relaxed">
+          <p class="text-xl muted mb-8 leading-relaxed">
             A dimensionless measure quantifying temporal clustering patterns in discrete event sequences.
           </p>
           
@@ -503,65 +800,65 @@
           </div>
 
           <div class="space-y-4">
-            <div class="flex items-start gap-4 p-4 bg-[var(--bg-elevated)] rounded border border-[var(--border)]">
-              <div class="w-10 h-10 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="flex items-start gap-4 p-4 bg-elev rounded border">
+              <div class="w-10 h-10 rounded bg-accent-dim flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 accent-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                 </svg>
               </div>
               <div>
-                <div class="font-medium text-sm mb-1">Type: <span class="text-[var(--accent)]">Descriptive Statistic</span></div>
-                <div class="text-xs text-[var(--fg-muted)]">Position: Temporal structure characterization tool within the epistemic toolbox</div>
+                <div class="font-medium text-sm mb-1">Type: <span class="accent-clr">Descriptive Statistic</span></div>
+                <div class="text-xs muted">Position: Temporal structure characterization tool within the epistemic toolbox</div>
               </div>
             </div>
 
-            <div class="flex items-start gap-4 p-4 bg-[var(--bg-elevated)] rounded border border-[var(--border)]">
-              <div class="w-10 h-10 rounded bg-[var(--warning-dim)] flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-[var(--warning)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="flex items-start gap-4 p-4 bg-elev rounded border">
+              <div class="w-10 h-10 rounded bg-warn-dim flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 warn" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                 </svg>
               </div>
               <div>
                 <div class="font-medium text-sm mb-1">Transformation</div>
-                <div class="text-xs text-[var(--fg-muted)]">Maps inter-event interval distribution to a single scalar in [-1, 1]</div>
+                <div class="text-xs muted">Maps inter-event interval distribution to a single scalar in [-1, 1]</div>
               </div>
             </div>
           </div>
         </div>
 
         <div class="section-card p-6">
-          <h3 class="text-sm font-mono text-[var(--fg-dim)] mb-4">EPISTEMIC ROLE</h3>
+          <h3 class="text-sm font-mono dim mb-4">EPISTEMIC ROLE</h3>
           
           <div class="space-y-6">
             <div>
-              <div class="text-xs text-[var(--fg-dim)] mb-2">Function</div>
-              <p class="text-sm">Resolves the epistemic gap of <strong class="text-[var(--fg)]">temporal pattern quantification</strong>—transforming qualitative observations of clustering into precise, comparable measurements.</p>
+              <div class="text-xs dim mb-2">Function</div>
+              <p class="text-sm">Resolves the epistemic gap of <strong class="fg-clr">temporal pattern quantification</strong>—transforming qualitative observations of clustering into precise, comparable measurements.</p>
             </div>
             
-            <div class="border-t border-[var(--border)] pt-6">
-              <div class="text-xs text-[var(--fg-dim)] mb-3">Preservation Profile</div>
+            <div class="border-t pt-6">
+              <div class="text-xs dim mb-3">Preservation Profile</div>
               <div class="grid grid-cols-2 gap-3">
-                <div class="p-3 bg-[var(--bg-elevated)] rounded border border-[var(--border)] text-xs">
-                  <div class="text-[var(--accent)] mb-1">Relative Variance</div>
-                  <div class="text-[var(--fg-muted)]">Coefficient of variation preserved</div>
+                <div class="p-3 bg-elev rounded border text-xs">
+                  <div class="accent-clr mb-1">Relative Variance</div>
+                  <div class="muted">Coefficient of variation preserved</div>
                 </div>
-                <div class="p-3 bg-[var(--bg-elevated)] rounded border border-[var(--border)] text-xs">
-                  <div class="text-[var(--accent)] mb-1">Ordering</div>
-                  <div class="text-[var(--fg-muted)]">Interval sequence maintained</div>
+                <div class="p-3 bg-elev rounded border text-xs">
+                  <div class="accent-clr mb-1">Ordering</div>
+                  <div class="muted">Interval sequence maintained</div>
                 </div>
               </div>
             </div>
 
-            <div class="border-t border-[var(--border)] pt-6">
-              <div class="text-xs text-[var(--fg-dim)] mb-3">Destruction Profile</div>
+            <div class="border-t pt-6">
+              <div class="text-xs dim mb-3">Destruction Profile</div>
               <div class="grid grid-cols-2 gap-3">
-                <div class="p-3 bg-[var(--danger-dim)] rounded border border-[rgba(255,107,107,0.3)] text-xs">
-                  <div class="text-[var(--danger)] mb-1">Absolute Timing</div>
-                  <div class="text-[var(--fg-muted)]">Specific timestamps lost</div>
+                <div class="p-3 bg-danger-dim rounded border bdr-danger-dim text-xs">
+                  <div class="danger-clr mb-1">Absolute Timing</div>
+                  <div class="muted">Specific timestamps lost</div>
                 </div>
-                <div class="p-3 bg-[var(--danger-dim)] rounded border border-[rgba(255,107,107,0.3)] text-xs">
-                  <div class="text-[var(--danger)] mb-1">Distribution Shape</div>
-                  <div class="text-[var(--fg-muted)]">Higher moments discarded</div>
+                <div class="p-3 bg-danger-dim rounded border bdr-danger-dim text-xs">
+                  <div class="danger-clr mb-1">Distribution Shape</div>
+                  <div class="muted">Higher moments discarded</div>
                 </div>
               </div>
             </div>
@@ -573,34 +870,34 @@
     <!-- Formal Characterization Section -->
     <section id="formal" class="mb-20 animate-in stagger-3">
       <div class="flex items-center gap-2 mb-8">
-        <span class="text-xs font-mono text-[var(--accent)]">02</span>
-        <div class="flex-1 h-px bg-[var(--border)]"></div>
-        <span class="text-xs font-mono text-[var(--fg-dim)]">FORMAL CHARACTERIZATION</span>
+        <span class="text-xs font-mono accent-clr">02</span>
+        <div class="flex-1 h-px bg-bdr"></div>
+        <span class="text-xs font-mono dim">FORMAL CHARACTERIZATION</span>
       </div>
 
       <div class="grid lg:grid-cols-3 gap-6">
         <!-- Input Space -->
         <div class="section-card p-6">
           <div class="flex items-center gap-2 mb-4">
-            <svg class="w-4 h-4 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-4 h-4 accent-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
             </svg>
             <h3 class="text-sm font-mono">INPUT SPACE</h3>
           </div>
           <div class="space-y-4">
             <div>
-              <div class="text-xs text-[var(--fg-dim)] mb-2">Structure</div>
-              <div class="font-mono text-sm bg-[var(--bg-elevated)] p-3 rounded border border-[var(--border)]">
+              <div class="text-xs dim mb-2">Structure</div>
+              <div class="font-mono text-sm bg-elev p-3 rounded border">
                 T = {t₁, t₂, ..., tₙ}
               </div>
-              <div class="text-xs text-[var(--fg-muted)] mt-2">Ordered timestamp sequence where tᵢ ∈ ℝ⁺</div>
+              <div class="text-xs muted mt-2">Ordered timestamp sequence where tᵢ ∈ ℝ⁺</div>
             </div>
             <div>
-              <div class="text-xs text-[var(--fg-dim)] mb-2">Derived Input</div>
-              <div class="font-mono text-sm bg-[var(--bg-elevated)] p-3 rounded border border-[var(--border)]">
+              <div class="text-xs dim mb-2">Derived Input</div>
+              <div class="font-mono text-sm bg-elev p-3 rounded border">
                 τᵢ = tᵢ₊₁ - tᵢ
               </div>
-              <div class="text-xs text-[var(--fg-muted)] mt-2">Inter-event intervals (n-1 values)</div>
+              <div class="text-xs muted mt-2">Inter-event intervals (n-1 values)</div>
             </div>
           </div>
         </div>
@@ -608,27 +905,27 @@
         <!-- Transformation -->
         <div class="section-card p-6">
           <div class="flex items-center gap-2 mb-4">
-            <svg class="w-4 h-4 text-[var(--warning)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-4 h-4 warn" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
             </svg>
             <h3 class="text-sm font-mono">TRANSFORMATION</h3>
           </div>
           <div class="formula-box mb-4">
-            <div class="text-2xl mb-2">B = <span class="text-[var(--accent)]">σ - μ</span> / <span class="text-[var(--warning)]">σ + μ</span></div>
-            <div class="text-xs text-[var(--fg-muted)] mt-3">Where σ = std(τ), μ = mean(τ)</div>
+            <div class="text-2xl mb-2">B = <span class="accent-clr">σ - μ</span> / <span class="warn">σ + μ</span></div>
+            <div class="text-xs muted mt-3">Where σ = std(τ), μ = mean(τ)</div>
           </div>
           <div class="space-y-2 text-xs">
-            <div class="flex justify-between p-2 bg-[var(--bg-elevated)] rounded">
+            <div class="flex justify-between p-2 bg-elev rounded">
               <span>σ = μ (Poisson)</span>
-              <span class="font-mono text-[var(--fg-muted)]">→ B = 0</span>
+              <span class="font-mono muted">→ B = 0</span>
             </div>
-            <div class="flex justify-between p-2 bg-[var(--bg-elevated)] rounded">
+            <div class="flex justify-between p-2 bg-elev rounded">
               <span>σ > μ (Bursty)</span>
-              <span class="font-mono text-[var(--warning)]">→ B > 0</span>
+              <span class="font-mono warn">→ B > 0</span>
             </div>
-            <div class="flex justify-between p-2 bg-[var(--bg-elevated)] rounded">
+            <div class="flex justify-between p-2 bg-elev rounded">
               <span>σ < μ (Regular)</span>
-              <span class="font-mono text-[var(--accent)]">→ B < 0</span>
+              <span class="font-mono accent-clr">→ B < 0</span>
             </div>
           </div>
         </div>
@@ -636,32 +933,32 @@
         <!-- Output Space -->
         <div class="section-card p-6">
           <div class="flex items-center gap-2 mb-4">
-            <svg class="w-4 h-4 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-4 h-4 accent-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
             </svg>
             <h3 class="text-sm font-mono">OUTPUT SPACE</h3>
           </div>
           <div class="space-y-4">
             <div>
-              <div class="text-xs text-[var(--fg-dim)] mb-2">Artifact Type</div>
-              <div class="font-mono text-sm bg-[var(--bg-elevated)] p-3 rounded border border-[var(--border)]">
+              <div class="text-xs dim mb-2">Artifact Type</div>
+              <div class="font-mono text-sm bg-elev p-3 rounded border">
                 B ∈ [-1, 1] ⊂ ℝ
               </div>
             </div>
             <div>
-              <div class="text-xs text-[var(--fg-dim)] mb-2">Interpretation</div>
-              <div class="relative h-12 bg-[var(--bg-elevated)] rounded border border-[var(--border)] overflow-hidden">
+              <div class="text-xs dim mb-2">Interpretation</div>
+              <div class="relative h-12 bg-elev rounded border overflow-hidden">
                 <div class="absolute inset-0 flex items-center justify-between px-3 text-xs">
-                  <span class="text-[var(--accent)]">-1</span>
-                  <span class="text-[var(--fg-dim)]">Regular</span>
-                  <span class="text-[var(--fg)]">|</span>
-                  <span class="text-[var(--fg-dim)]">Random</span>
-                  <span class="text-[var(--fg)]">|</span>
-                  <span class="text-[var(--fg-dim)]">Bursty</span>
-                  <span class="text-[var(--warning)]">+1</span>
+                  <span class="accent-clr">-1</span>
+                  <span class="dim">Regular</span>
+                  <span class="fg-clr">|</span>
+                  <span class="dim">Random</span>
+                  <span class="fg-clr">|</span>
+                  <span class="dim">Bursty</span>
+                  <span class="warn">+1</span>
                 </div>
                 <div class="absolute bottom-0 left-0 right-0 h-1">
-                  <div class="h-full bg-gradient-to-r from-[var(--accent)] via-[var(--fg-dim)] to-[var(--warning)]"></div>
+                  <div class="h-full scale-grad"></div>
                 </div>
               </div>
             </div>
@@ -673,26 +970,26 @@
       <div class="section-card p-6 mt-6">
         <h3 class="text-sm font-mono mb-4">ASSUMPTIONS / PRECONDITIONS</h3>
         <div class="grid md:grid-cols-3 gap-4">
-          <div class="p-4 border border-[var(--border)] rounded">
+          <div class="p-4 border rounded">
             <div class="flex items-center gap-2 mb-2">
-              <div class="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
+              <div class="w-2 h-2 rounded-full bg-accent"></div>
               <span class="text-xs font-medium">Temporal Ordering</span>
             </div>
-            <p class="text-xs text-[var(--fg-muted)]">Events must be ordered chronologically; permutation destroys information.</p>
+            <p class="text-xs muted">Events must be ordered chronologically; permutation destroys information.</p>
           </div>
-          <div class="p-4 border border-[var(--border)] rounded">
+          <div class="p-4 border rounded">
             <div class="flex items-center gap-2 mb-2">
-              <div class="w-2 h-2 rounded-full bg-[var(--warning)]"></div>
+              <div class="w-2 h-2 rounded-full bg-warn"></div>
               <span class="text-xs font-medium">Minimum Events</span>
             </div>
-            <p class="text-xs text-[var(--fg-muted)]">At least 3 events required (2 intervals) for variance computation.</p>
+            <p class="text-xs muted">At least 3 events required (2 intervals) for variance computation.</p>
           </div>
-          <div class="p-4 border border-[var(--border)] rounded">
+          <div class="p-4 border rounded">
             <div class="flex items-center gap-2 mb-2">
-              <div class="w-2 h-2 rounded-full bg-[var(--danger)]"></div>
+              <div class="w-2 h-2 rounded-full bg-danger"></div>
               <span class="text-xs font-medium">Non-zero Intervals</span>
             </div>
-            <p class="text-xs text-[var(--fg-muted)]">Simultaneous events (τ=0) require special handling or exclusion.</p>
+            <p class="text-xs muted">Simultaneous events (τ=0) require special handling or exclusion.</p>
           </div>
         </div>
       </div>
@@ -701,16 +998,16 @@
     <!-- Laboratory Section -->
     <section id="laboratory" class="mb-20 animate-in stagger-4">
       <div class="flex items-center gap-2 mb-8">
-        <span class="text-xs font-mono text-[var(--accent)]">03</span>
-        <div class="flex-1 h-px bg-[var(--border)]"></div>
-        <span class="text-xs font-mono text-[var(--fg-dim)]">LABORATORY</span>
+        <span class="text-xs font-mono accent-clr">03</span>
+        <div class="flex-1 h-px bg-bdr"></div>
+        <span class="text-xs font-mono dim">LABORATORY</span>
       </div>
 
       <div class="grid lg:grid-cols-4 gap-6">
         <!-- Control Panel -->
         <div class="lg:col-span-1 space-y-4">
           <div class="section-card p-4">
-            <h3 class="text-xs font-mono text-[var(--fg-dim)] mb-4">GENERATION MODE</h3>
+            <h3 class="text-xs font-mono dim mb-4">GENERATION MODE</h3>
             <div class="space-y-2">
               <button class="btn-secondary w-full text-left active" data-mode="poisson" aria-pressed="true">
                 Poisson (B ≈ 0)
@@ -728,13 +1025,13 @@
           </div>
 
           <div class="section-card p-4">
-            <h3 class="text-xs font-mono text-[var(--fg-dim)] mb-4">PARAMETERS</h3>
+            <h3 class="text-xs font-mono dim mb-4">PARAMETERS</h3>
             
             <div class="space-y-4">
               <div>
                 <div class="flex justify-between mb-2">
                   <label class="text-xs" for="param-events">Events</label>
-                  <span class="font-mono text-xs text-[var(--accent)]" id="events-value">50</span>
+                  <span class="font-mono text-xs accent-clr" id="events-value">50</span>
                 </div>
                 <input type="range" id="param-events" class="param-slider" min="10" max="200" value="50" aria-label="Number of events">
               </div>
@@ -742,7 +1039,7 @@
               <div>
                 <div class="flex justify-between mb-2">
                   <label class="text-xs" for="param-burstiness">Target Burstiness</label>
-                  <span class="font-mono text-xs text-[var(--accent)]" id="burstiness-value">0.0</span>
+                  <span class="font-mono text-xs accent-clr" id="burstiness-value">0.0</span>
                 </div>
                 <input type="range" id="param-burstiness" class="param-slider" min="-0.9" max="0.9" step="0.1" value="0" aria-label="Target burstiness">
               </div>
@@ -750,7 +1047,7 @@
               <div>
                 <div class="flex justify-between mb-2">
                   <label class="text-xs" for="param-rate">Base Rate</label>
-                  <span class="font-mono text-xs text-[var(--accent)]" id="rate-value">1.0</span>
+                  <span class="font-mono text-xs accent-clr" id="rate-value">1.0</span>
                 </div>
                 <input type="range" id="param-rate" class="param-slider" min="0.1" max="5" step="0.1" value="1" aria-label="Base rate">
               </div>
@@ -767,9 +1064,9 @@
           </div>
 
           <div class="section-card p-4">
-            <h3 class="text-xs font-mono text-[var(--fg-dim)] mb-3">SEED</h3>
-            <input type="number" id="seed-input" class="w-full bg-[var(--bg-elevated)] border border-[var(--border)] rounded p-2 font-mono text-sm text-[var(--fg)]" value="42" aria-label="Random seed">
-            <p class="text-xs text-[var(--fg-dim)] mt-2">For reproducibility</p>
+            <h3 class="text-xs font-mono dim mb-3">SEED</h3>
+            <input type="number" id="seed-input" class="w-full bg-elev border rounded p-2 font-mono text-sm fg-clr" value="42" aria-label="Random seed">
+            <p class="text-xs dim mt-2">For reproducibility</p>
           </div>
         </div>
 
@@ -778,11 +1075,11 @@
           <!-- Main Time Series -->
           <div class="section-card p-4">
             <div class="flex items-center justify-between mb-4">
-              <h3 class="text-xs font-mono text-[var(--fg-dim)]">EVENT TIMELINE</h3>
+              <h3 class="text-xs font-mono dim">EVENT TIMELINE</h3>
               <div class="flex items-center gap-4">
                 <div class="flex items-center gap-2">
-                  <div class="w-3 h-3 rounded-full bg-[var(--accent)]"></div>
-                  <span class="text-xs text-[var(--fg-muted)]">Event</span>
+                  <div class="w-3 h-3 rounded-full bg-accent"></div>
+                  <span class="text-xs muted">Event</span>
                 </div>
               </div>
             </div>
@@ -794,37 +1091,37 @@
           <!-- Statistics Display -->
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="section-card p-4 text-center">
-              <div class="text-xs text-[var(--fg-dim)] mb-1">BURSTINESS</div>
+              <div class="text-xs dim mb-1">BURSTINESS</div>
               <div class="value-display" id="stat-burstiness">0.000</div>
               <div class="text-xs mt-1" id="stat-burstiness-label">Random</div>
             </div>
             <div class="section-card p-4 text-center">
-              <div class="text-xs text-[var(--fg-dim)] mb-1">MEAN (μ)</div>
-              <div class="value-display text-[var(--fg)]" id="stat-mean">0.000</div>
-              <div class="text-xs text-[var(--fg-muted)] mt-1">time units</div>
+              <div class="text-xs dim mb-1">MEAN (μ)</div>
+              <div class="value-display fg-clr" id="stat-mean">0.000</div>
+              <div class="text-xs muted mt-1">time units</div>
             </div>
             <div class="section-card p-4 text-center">
-              <div class="text-xs text-[var(--fg-dim)] mb-1">STD DEV (σ)</div>
-              <div class="value-display text-[var(--fg)]" id="stat-std">0.000</div>
-              <div class="text-xs text-[var(--fg-muted)] mt-1">time units</div>
+              <div class="text-xs dim mb-1">STD DEV (σ)</div>
+              <div class="value-display fg-clr" id="stat-std">0.000</div>
+              <div class="text-xs muted mt-1">time units</div>
             </div>
             <div class="section-card p-4 text-center">
-              <div class="text-xs text-[var(--fg-dim)] mb-1">COEFF. VAR.</div>
-              <div class="value-display text-[var(--fg)]" id="stat-cv">0.000</div>
-              <div class="text-xs text-[var(--fg-muted)] mt-1">σ/μ</div>
+              <div class="text-xs dim mb-1">COEFF. VAR.</div>
+              <div class="value-display fg-clr" id="stat-cv">0.000</div>
+              <div class="text-xs muted mt-1">σ/μ</div>
             </div>
           </div>
 
           <!-- Interval Distribution -->
           <div class="grid md:grid-cols-2 gap-4">
             <div class="section-card p-4">
-              <h3 class="text-xs font-mono text-[var(--fg-dim)] mb-4">INTERVAL DISTRIBUTION</h3>
+              <h3 class="text-xs font-mono dim mb-4">INTERVAL DISTRIBUTION</h3>
               <div class="canvas-container" style="height: 200px;">
                 <canvas id="histogram-canvas" aria-label="Interval distribution histogram"></canvas>
               </div>
             </div>
             <div class="section-card p-4">
-              <h3 class="text-xs font-mono text-[var(--fg-dim)] mb-4">INTERVAL SEQUENCE</h3>
+              <h3 class="text-xs font-mono dim mb-4">INTERVAL SEQUENCE</h3>
               <div class="canvas-container" style="height: 200px;">
                 <canvas id="interval-canvas" aria-label="Interval sequence plot"></canvas>
               </div>
@@ -833,10 +1130,10 @@
 
           <!-- Burstiness Gauge -->
           <div class="section-card p-6">
-            <h3 class="text-xs font-mono text-[var(--fg-dim)] mb-4">BURSTINESS GAUGE</h3>
+            <h3 class="text-xs font-mono dim mb-4">BURSTINESS GAUGE</h3>
             <div class="relative h-16">
               <div class="absolute inset-0 flex items-center">
-                <div class="w-full h-2 rounded-full bg-gradient-to-r from-[var(--accent)] via-[var(--fg-dim)] to-[var(--warning)]"></div>
+                <div class="w-full h-2 rounded-full scale-grad"></div>
               </div>
               <div class="absolute inset-0 flex items-center justify-between px-2 text-xs font-mono">
                 <span>-1</span>
@@ -847,16 +1144,16 @@
             </div>
             <div class="flex justify-between mt-4 text-xs">
               <div class="text-center">
-                <div class="text-[var(--accent)] font-medium">Regular</div>
-                <div class="text-[var(--fg-dim)]">Periodic events</div>
+                <div class="accent-clr font-medium">Regular</div>
+                <div class="dim">Periodic events</div>
               </div>
               <div class="text-center">
-                <div class="text-[var(--fg-muted)] font-medium">Random</div>
-                <div class="text-[var(--fg-dim)]">Poisson process</div>
+                <div class="muted font-medium">Random</div>
+                <div class="dim">Poisson process</div>
               </div>
               <div class="text-center">
-                <div class="text-[var(--warning)] font-medium">Bursty</div>
-                <div class="text-[var(--fg-dim)]">Clustered events</div>
+                <div class="warn font-medium">Bursty</div>
+                <div class="dim">Clustered events</div>
               </div>
             </div>
           </div>
@@ -867,27 +1164,27 @@
       <div class="section-card mt-6">
         <div class="accordion-header p-4 flex items-center justify-between" id="inspector-toggle" role="button" tabindex="0" aria-expanded="false" aria-controls="inspector-content">
           <div class="flex items-center gap-2">
-            <svg class="w-4 h-4 text-[var(--fg-muted)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-4 h-4 muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
             </svg>
             <span class="text-sm font-mono">DATA INSPECTOR</span>
           </div>
-          <svg class="w-4 h-4 accordion-icon text-[var(--fg-muted)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg class="w-4 h-4 accordion-icon muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
           </svg>
         </div>
         <div class="accordion-content" id="inspector-content">
-          <div class="p-4 border-t border-[var(--border)]">
+          <div class="p-4 border-t">
             <div class="grid md:grid-cols-2 gap-4">
               <div>
-                <div class="text-xs text-[var(--fg-dim)] mb-2">TIMESTAMPS (first 20)</div>
-                <div class="font-mono text-xs bg-[var(--bg-elevated)] p-3 rounded border border-[var(--border)] overflow-x-auto" id="timestamps-display">
+                <div class="text-xs dim mb-2">TIMESTAMPS (first 20)</div>
+                <div class="font-mono text-xs bg-elev p-3 rounded border overflow-x-auto" id="timestamps-display">
                   No data generated
                 </div>
               </div>
               <div>
-                <div class="text-xs text-[var(--fg-dim)] mb-2">INTER-EVENT INTERVALS (first 20)</div>
-                <div class="font-mono text-xs bg-[var(--bg-elevated)] p-3 rounded border border-[var(--border)] overflow-x-auto" id="intervals-display">
+                <div class="text-xs dim mb-2">INTER-EVENT INTERVALS (first 20)</div>
+                <div class="font-mono text-xs bg-elev p-3 rounded border overflow-x-auto" id="intervals-display">
                   No data generated
                 </div>
               </div>
@@ -900,9 +1197,9 @@
     <!-- Validation Section -->
     <section id="validation" class="mb-20 animate-in stagger-5">
       <div class="flex items-center gap-2 mb-8">
-        <span class="text-xs font-mono text-[var(--accent)]">04</span>
-        <div class="flex-1 h-px bg-[var(--border)]"></div>
-        <span class="text-xs font-mono text-[var(--fg-dim)]">VALIDATION</span>
+        <span class="text-xs font-mono accent-clr">04</span>
+        <div class="flex-1 h-px bg-bdr"></div>
+        <span class="text-xs font-mono dim">VALIDATION</span>
       </div>
 
       <!-- Correctness Criteria -->
@@ -910,62 +1207,62 @@
         <h3 class="text-sm font-mono mb-4">CORRECTNESS CRITERIA</h3>
         <div class="grid md:grid-cols-2 gap-6">
           <div>
-            <div class="text-xs text-[var(--fg-dim)] mb-3">Theoretical Properties</div>
+            <div class="text-xs dim mb-3">Theoretical Properties</div>
             <div class="space-y-3">
-              <div class="flex items-start gap-3 p-3 bg-[var(--bg-elevated)] rounded border border-[var(--border)]">
-                <div class="w-6 h-6 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <svg class="w-3 h-3 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="flex items-start gap-3 p-3 bg-elev rounded border">
+                <div class="w-6 h-6 rounded bg-accent-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 accent-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
                   </svg>
                 </div>
                 <div>
                   <div class="text-sm font-medium">Boundedness</div>
-                  <div class="text-xs text-[var(--fg-muted)]">B ∈ [-1, 1] for all non-negative intervals with σ > 0</div>
+                  <div class="text-xs muted">B ∈ [-1, 1] for all non-negative intervals with σ > 0</div>
                 </div>
               </div>
-              <div class="flex items-start gap-3 p-3 bg-[var(--bg-elevated)] rounded border border-[var(--border)]">
-                <div class="w-6 h-6 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <svg class="w-3 h-3 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="flex items-start gap-3 p-3 bg-elev rounded border">
+                <div class="w-6 h-6 rounded bg-accent-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 accent-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
                   </svg>
                 </div>
                 <div>
                   <div class="text-sm font-medium">Scale Invariance</div>
-                  <div class="text-xs text-[var(--fg-muted)]">B unchanged under uniform scaling of all intervals</div>
+                  <div class="text-xs muted">B unchanged under uniform scaling of all intervals</div>
                 </div>
               </div>
-              <div class="flex items-start gap-3 p-3 bg-[var(--bg-elevated)] rounded border border-[var(--border)]">
-                <div class="w-6 h-6 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <svg class="w-3 h-3 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="flex items-start gap-3 p-3 bg-elev rounded border">
+                <div class="w-6 h-6 rounded bg-accent-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 accent-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
                   </svg>
                 </div>
                 <div>
                   <div class="text-sm font-medium">Poisson Reference</div>
-                  <div class="text-xs text-[var(--fg-muted)]">B → 0 asymptotically for exponential interval distribution</div>
+                  <div class="text-xs muted">B → 0 asymptotically for exponential interval distribution</div>
                 </div>
               </div>
             </div>
           </div>
           
           <div>
-            <div class="text-xs text-[var(--fg-dim)] mb-3">Interactive Tests</div>
+            <div class="text-xs dim mb-3">Interactive Tests</div>
             <div class="space-y-3">
               <button class="w-full btn-secondary text-left p-3" id="test-poisson">
                 <div class="font-medium text-sm">Test: Poisson Convergence</div>
-                <div class="text-xs text-[var(--fg-muted)]">Verify B → 0 for large Poisson samples</div>
+                <div class="text-xs muted">Verify B → 0 for large Poisson samples</div>
               </button>
               <button class="w-full btn-secondary text-left p-3" id="test-regular">
                 <div class="font-medium text-sm">Test: Perfect Regularity</div>
-                <div class="text-xs text-[var(--fg-muted)]">Verify B = -1 for constant intervals</div>
+                <div class="text-xs muted">Verify B = -1 for constant intervals</div>
               </button>
               <button class="w-full btn-secondary text-left p-3" id="test-scale">
                 <div class="font-medium text-sm">Test: Scale Invariance</div>
-                <div class="text-xs text-[var(--fg-muted)]">Verify B unchanged under scaling</div>
+                <div class="text-xs muted">Verify B unchanged under scaling</div>
               </button>
               <button class="w-full btn-secondary text-left p-3" id="test-extreme">
                 <div class="font-medium text-sm">Test: Extreme Burstiness</div>
-                <div class="text-xs text-[var(--fg-muted)]">Approach B → 1 with bimodal distribution</div>
+                <div class="text-xs muted">Approach B → 1 with bimodal distribution</div>
               </button>
             </div>
           </div>
@@ -974,8 +1271,8 @@
 
       <!-- Test Results Display -->
       <div class="section-card p-4" id="test-results" style="display: none;">
-        <h3 class="text-xs font-mono text-[var(--fg-dim)] mb-3">TEST RESULTS</h3>
-        <div class="bg-[var(--bg-elevated)] rounded border border-[var(--border)] p-4" id="test-output">
+        <h3 class="text-xs font-mono dim mb-3">TEST RESULTS</h3>
+        <div class="bg-elev rounded border p-4" id="test-output">
         </div>
       </div>
 
@@ -983,32 +1280,32 @@
       <div class="section-card p-6 mt-6">
         <h3 class="text-sm font-mono mb-4">FAILURE MODES</h3>
         <div class="grid md:grid-cols-3 gap-4">
-          <div class="p-4 border border-[var(--danger)] rounded bg-[var(--danger-dim)]">
+          <div class="p-4 border bdr-danger rounded bg-danger-dim">
             <div class="flex items-center gap-2 mb-2">
-              <svg class="w-4 h-4 text-[var(--danger)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-4 h-4 danger-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
               </svg>
-              <span class="text-sm font-medium text-[var(--danger)]">Zero Variance</span>
+              <span class="text-sm font-medium danger-clr">Zero Variance</span>
             </div>
-            <p class="text-xs text-[var(--fg-muted)]">When all intervals are identical, σ = 0 and B is undefined (division by zero). Mathematically, lim σ→0 B = -1.</p>
+            <p class="text-xs muted">When all intervals are identical, σ = 0 and B is undefined (division by zero). Mathematically, lim σ→0 B = -1.</p>
           </div>
-          <div class="p-4 border border-[var(--danger)] rounded bg-[var(--danger-dim)]">
+          <div class="p-4 border bdr-danger rounded bg-danger-dim">
             <div class="flex items-center gap-2 mb-2">
-              <svg class="w-4 h-4 text-[var(--danger)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-4 h-4 danger-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
               </svg>
-              <span class="text-sm font-medium text-[var(--danger)]">Small Sample Bias</span>
+              <span class="text-sm font-medium danger-clr">Small Sample Bias</span>
             </div>
-            <p class="text-xs text-[var(--fg-muted)]">With few events, sample variance underestimates population variance, biasing B toward -1. Minimum 30 intervals recommended.</p>
+            <p class="text-xs muted">With few events, sample variance underestimates population variance, biasing B toward -1. Minimum 30 intervals recommended.</p>
           </div>
-          <div class="p-4 border border-[var(--danger)] rounded bg-[var(--danger-dim)]">
+          <div class="p-4 border bdr-danger rounded bg-danger-dim">
             <div class="flex items-center gap-2 mb-2">
-              <svg class="w-4 h-4 text-[var(--danger)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-4 h-4 danger-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
               </svg>
-              <span class="text-sm font-medium text-[var(--danger)]">Distribution Insensitivity</span>
+              <span class="text-sm font-medium danger-clr">Distribution Insensitivity</span>
             </div>
-            <p class="text-xs text-[var(--fg-muted)]">Different distributions can yield identical B values. Cannot distinguish between bimodal clusters and power-law tails.</p>
+            <p class="text-xs muted">Different distributions can yield identical B values. Cannot distinguish between bimodal clusters and power-law tails.</p>
           </div>
         </div>
       </div>
@@ -1017,9 +1314,9 @@
     <!-- Limits Section -->
     <section id="limits" class="mb-20">
       <div class="flex items-center gap-2 mb-8">
-        <span class="text-xs font-mono text-[var(--accent)]">05</span>
-        <div class="flex-1 h-px bg-[var(--border)]"></div>
-        <span class="text-xs font-mono text-[var(--fg-dim)]">SCOPE & LIMITS</span>
+        <span class="text-xs font-mono accent-clr">05</span>
+        <div class="flex-1 h-px bg-bdr"></div>
+        <span class="text-xs font-mono dim">SCOPE & LIMITS</span>
       </div>
 
       <div class="grid lg:grid-cols-2 gap-6">
@@ -1027,47 +1324,47 @@
           <h3 class="text-sm font-mono mb-4">SCOPE OF APPLICABILITY</h3>
           <div class="space-y-3">
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--accent)]" fill="currentColor" viewBox="0 0 20 20">
+              <div class="w-5 h-5 rounded bg-accent-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 accent-clr" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">Network Traffic Analysis</div>
-                <div class="text-xs text-[var(--fg-muted)]">Detecting anomalous traffic patterns, DDoS characterization</div>
+                <div class="text-xs muted">Detecting anomalous traffic patterns, DDoS characterization</div>
               </div>
             </div>
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--accent)]" fill="currentColor" viewBox="0 0 20 20">
+              <div class="w-5 h-5 rounded bg-accent-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 accent-clr" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">Neural Spike Trains</div>
-                <div class="text-xs text-[var(--fg-muted)]">Characterizing firing patterns in neuroscience</div>
+                <div class="text-xs muted">Characterizing firing patterns in neuroscience</div>
               </div>
             </div>
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--accent)]" fill="currentColor" viewBox="0 0 20 20">
+              <div class="w-5 h-5 rounded bg-accent-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 accent-clr" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">Human Activity Patterns</div>
-                <div class="text-xs text-[var(--fg-muted)]">Communication, mobility, social interaction analysis</div>
+                <div class="text-xs muted">Communication, mobility, social interaction analysis</div>
               </div>
             </div>
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--accent-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--accent)]" fill="currentColor" viewBox="0 0 20 20">
+              <div class="w-5 h-5 rounded bg-accent-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 accent-clr" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">Financial Transactions</div>
-                <div class="text-xs text-[var(--fg-muted)]">Trading activity, market microstructure</div>
+                <div class="text-xs muted">Trading activity, market microstructure</div>
               </div>
             </div>
           </div>
@@ -1077,47 +1374,47 @@
           <h3 class="text-sm font-mono mb-4">STRUCTURAL LIMITATIONS</h3>
           <div class="space-y-3">
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--danger-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--danger)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-5 h-5 rounded bg-danger-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 danger-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">No Temporal Scale</div>
-                <div class="text-xs text-[var(--fg-muted)]">Cannot distinguish fast vs slow processes with same B</div>
+                <div class="text-xs muted">Cannot distinguish fast vs slow processes with same B</div>
               </div>
             </div>
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--danger-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--danger)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-5 h-5 rounded bg-danger-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 danger-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">No Multi-scale Analysis</div>
-                <div class="text-xs text-[var(--fg-muted)]">Single global measure; cannot capture hierarchical patterns</div>
+                <div class="text-xs muted">Single global measure; cannot capture hierarchical patterns</div>
               </div>
             </div>
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--danger-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--danger)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-5 h-5 rounded bg-danger-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 danger-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">No Directionality</div>
-                <div class="text-xs text-[var(--fg-muted)]">Cannot detect trends in burstiness over time</div>
+                <div class="text-xs muted">Cannot detect trends in burstiness over time</div>
               </div>
             </div>
             <div class="flex items-start gap-3">
-              <div class="w-5 h-5 rounded bg-[var(--danger-dim)] flex items-center justify-center flex-shrink-0 mt-0.5">
-                <svg class="w-3 h-3 text-[var(--danger)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-5 h-5 rounded bg-danger-dim flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 danger-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
               </div>
               <div>
                 <div class="text-sm font-medium">Sensitive to Outliers</div>
-                <div class="text-xs text-[var(--fg-muted)]">Single extreme interval can dominate the measure</div>
+                <div class="text-xs muted">Single extreme interval can dominate the measure</div>
               </div>
             </div>
           </div>
@@ -1127,24 +1424,24 @@
       <!-- Cognitive Friction -->
       <div class="section-card p-6 mt-6">
         <h3 class="text-sm font-mono mb-4">COGNITIVE FRICTION</h3>
-        <p class="text-sm text-[var(--fg-muted)] mb-4">Common misunderstandings that systematically distort correct usage:</p>
+        <p class="text-sm muted mb-4">Common misunderstandings that systematically distort correct usage:</p>
         
         <div class="grid md:grid-cols-2 gap-4">
-          <div class="p-4 border border-[var(--warning)] rounded bg-[var(--warning-dim)]">
-            <div class="font-medium text-sm mb-2 text-[var(--warning)]">Confusion: B as Complete Descriptor</div>
-            <p class="text-xs text-[var(--fg-muted)]">Treating B as fully characterizing temporal structure. Reality: B captures only one dimension (relative dispersion); many different processes can have identical B values.</p>
+          <div class="p-4 border bdr-warn rounded bg-warn-dim">
+            <div class="font-medium text-sm mb-2 warn">Confusion: B as Complete Descriptor</div>
+            <p class="text-xs muted">Treating B as fully characterizing temporal structure. Reality: B captures only one dimension (relative dispersion); many different processes can have identical B values.</p>
           </div>
-          <div class="p-4 border border-[var(--warning)] rounded bg-[var(--warning-dim)]">
-            <div class="font-medium text-sm mb-2 text-[var(--warning)]">Confusion: B = 0 Implies Poisson</div>
-            <p class="text-xs text-[var(--fg-muted)]">Assuming B = 0 guarantees exponential intervals. Reality: Many non-exponential distributions can yield B ≈ 0. The converse holds asymptotically, not the inverse.</p>
+          <div class="p-4 border bdr-warn rounded bg-warn-dim">
+            <div class="font-medium text-sm mb-2 warn">Confusion: B = 0 Implies Poisson</div>
+            <p class="text-xs muted">Assuming B = 0 guarantees exponential intervals. Reality: Many non-exponential distributions can yield B ≈ 0. The converse holds asymptotically, not the inverse.</p>
           </div>
-          <div class="p-4 border border-[var(--warning)] rounded bg-[var(--warning-dim)]">
-            <div class="font-medium text-sm mb-2 text-[var(--warning)]">Confusion: Cross-domain Comparison</div>
-            <p class="text-xs text-[var(--fg-muted)]">Comparing B values across fundamentally different domains without context. Reality: B = 0.5 in neural spikes has different significance than B = 0.5 in social media posts.</p>
+          <div class="p-4 border bdr-warn rounded bg-warn-dim">
+            <div class="font-medium text-sm mb-2 warn">Confusion: Cross-domain Comparison</div>
+            <p class="text-xs muted">Comparing B values across fundamentally different domains without context. Reality: B = 0.5 in neural spikes has different significance than B = 0.5 in social media posts.</p>
           </div>
-          <div class="p-4 border border-[var(--warning)] rounded bg-[var(--warning-dim)]">
-            <div class="font-medium text-sm mb-2 text-[var(--warning)]">Confusion: Ignoring Sample Size</div>
-            <p class="text-xs text-[var(--fg-muted)]">Treating B from small samples as reliable. Reality: Small samples produce biased, high-variance estimates. Always report sample size alongside B.</p>
+          <div class="p-4 border bdr-warn rounded bg-warn-dim">
+            <div class="font-medium text-sm mb-2 warn">Confusion: Ignoring Sample Size</div>
+            <p class="text-xs muted">Treating B from small samples as reliable. Reality: Small samples produce biased, high-variance estimates. Always report sample size alongside B.</p>
           </div>
         </div>
       </div>
@@ -1156,27 +1453,27 @@
         <div class="overflow-x-auto">
           <table class="w-full text-sm">
             <thead>
-              <tr class="border-b border-[var(--border)]">
-                <th class="text-left p-3 text-xs font-mono text-[var(--fg-dim)]">Measure</th>
-                <th class="text-left p-3 text-xs font-mono text-[var(--fg-dim)]">Range</th>
-                <th class="text-left p-3 text-xs font-mono text-[var(--fg-dim)]">Advantage</th>
-                <th class="text-left p-3 text-xs font-mono text-[var(--fg-dim)]">Limitation</th>
+              <tr class="border-b">
+                <th class="text-left p-3 text-xs font-mono dim">Measure</th>
+                <th class="text-left p-3 text-xs font-mono dim">Range</th>
+                <th class="text-left p-3 text-xs font-mono dim">Advantage</th>
+                <th class="text-left p-3 text-xs font-mono dim">Limitation</th>
               </tr>
             </thead>
             <tbody>
-              <tr class="border-b border-[var(--border)]">
-                <td class="p-3 font-medium text-[var(--accent)]">Burstiness Index (B)</td>
+              <tr class="border-b">
+                <td class="p-3 font-medium accent-clr">Burstiness Index (B)</td>
                 <td class="p-3 font-mono">[-1, 1]</td>
                 <td class="p-3 text-xs">Bounded, scale-invariant, intuitive</td>
                 <td class="p-3 text-xs">Information loss, distribution insensitivity</td>
               </tr>
-              <tr class="border-b border-[var(--border)]">
+              <tr class="border-b">
                 <td class="p-3 font-medium">Coefficient of Variation</td>
                 <td class="p-3 font-mono">[0, ∞)</td>
                 <td class="p-3 text-xs">Preserves more information</td>
                 <td class="p-3 text-xs">Unbounded, scale-dependent interpretation</td>
               </tr>
-              <tr class="border-b border-[var(--border)]">
+              <tr class="border-b">
                 <td class="p-3 font-medium">Fano Factor</td>
                 <td class="p-3 font-mono">[0, ∞)</td>
                 <td class="p-3 text-xs">Counts-based, no interval calculation</td>
@@ -1197,56 +1494,56 @@
     <!-- QA Section -->
     <section id="qa" class="mb-20">
       <div class="flex items-center gap-2 mb-8">
-        <span class="text-xs font-mono text-[var(--accent)]">?</span>
-        <div class="flex-1 h-px bg-[var(--border)]"></div>
-        <span class="text-xs font-mono text-[var(--fg-dim)]">DIAGNOSTIC QUESTIONS</span>
+        <span class="text-xs font-mono accent-clr">?</span>
+        <div class="flex-1 h-px bg-bdr"></div>
+        <span class="text-xs font-mono dim">DIAGNOSTIC QUESTIONS</span>
       </div>
 
       <div class="grid md:grid-cols-2 gap-4">
-        <div class="section-card p-5 cursor-pointer hover:border-[var(--accent)] transition-colors qa-card" data-question="assumptions">
+        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="assumptions">
           <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-[var(--bg-elevated)] flex items-center justify-center flex-shrink-0">
-              <span class="text-[var(--accent)] font-mono text-sm">Q1</span>
+            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
+              <span class="accent-clr font-mono text-sm">Q1</span>
             </div>
             <div>
               <div class="font-medium text-sm mb-2">What happens if assumptions are violated?</div>
-              <div class="text-xs text-[var(--fg-muted)] qa-answer">If temporal ordering is lost (events shuffled), B becomes meaningless—it measures a property that no longer exists. If simultaneous events occur, they must be handled (excluded or jittered) to avoid zero intervals.</div>
+              <div class="text-xs muted qa-answer">If temporal ordering is lost (events shuffled), B becomes meaningless—it measures a property that no longer exists. If simultaneous events occur, they must be handled (excluded or jittered) to avoid zero intervals.</div>
             </div>
           </div>
         </div>
 
-        <div class="section-card p-5 cursor-pointer hover:border-[var(--accent)] transition-colors qa-card" data-question="invariant">
+        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="invariant">
           <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-[var(--bg-elevated)] flex items-center justify-center flex-shrink-0">
-              <span class="text-[var(--accent)] font-mono text-sm">Q2</span>
+            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
+              <span class="accent-clr font-mono text-sm">Q2</span>
             </div>
             <div>
               <div class="font-medium text-sm mb-2">What invariant does this tool rely on most critically?</div>
-              <div class="text-xs text-[var(--fg-muted)] qa-answer">The relationship between mean and variance—specifically that the coefficient of variation (σ/μ) captures meaningful temporal structure. This assumes intervals are i.i.d. samples from some underlying distribution.</div>
+              <div class="text-xs muted qa-answer">The relationship between mean and variance—specifically that the coefficient of variation (σ/μ) captures meaningful temporal structure. This assumes intervals are i.i.d. samples from some underlying distribution.</div>
             </div>
           </div>
         </div>
 
-        <div class="section-card p-5 cursor-pointer hover:border-[var(--accent)] transition-colors qa-card" data-question="indistinguishable">
+        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="indistinguishable">
           <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-[var(--bg-elevated)] flex items-center justify-center flex-shrink-0">
-              <span class="text-[var(--accent)] font-mono text-sm">Q3</span>
+            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
+              <span class="accent-clr font-mono text-sm">Q3</span>
             </div>
             <div>
               <div class="font-medium text-sm mb-2">Can two different tools produce indistinguishable artifacts?</div>
-              <div class="text-xs text-[var(--fg-muted)] qa-answer">Yes. A bimodal distribution (many short intervals, few very long intervals) and a power-law distribution can both yield B ≈ 0.7, yet represent fundamentally different temporal processes. B alone cannot distinguish them.</div>
+              <div class="text-xs muted qa-answer">Yes. A bimodal distribution (many short intervals, few very long intervals) and a power-law distribution can both yield B ≈ 0.7, yet represent fundamentally different temporal processes. B alone cannot distinguish them.</div>
             </div>
           </div>
         </div>
 
-        <div class="section-card p-5 cursor-pointer hover:border-[var(--accent)] transition-colors qa-card" data-question="robustness">
+        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="robustness">
           <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-[var(--bg-elevated)] flex items-center justify-center flex-shrink-0">
-              <span class="text-[var(--accent)] font-mono text-sm">Q4</span>
+            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
+              <span class="accent-clr font-mono text-sm">Q4</span>
             </div>
             <div>
               <div class="font-medium text-sm mb-2">How robust is B to outliers?</div>
-              <div class="text-xs text-[var(--fg-muted)] qa-answer">Not robust. A single extremely long interval dramatically increases σ while barely affecting μ, pushing B toward +1. Consider using robust alternatives (median-based) or trimming extreme intervals.</div>
+              <div class="text-xs muted qa-answer">Not robust. A single extremely long interval dramatically increases σ while barely affecting μ, pushing B toward +1. Consider using robust alternatives (median-based) or trimming extreme intervals.</div>
             </div>
           </div>
         </div>
@@ -1256,16 +1553,23 @@
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-[var(--border)] py-8 mt-20">
+  <footer class="border-t py-8 mt-20">
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-      <div class="text-xs text-[var(--fg-dim)]">
+      <div class="text-xs dim">
         Interactive Epistemic Notebook | Burstiness Index
       </div>
-      <div class="flex items-center gap-4 text-xs text-[var(--fg-dim)]">
+      <div class="flex items-center gap-4 text-xs dim">
         <span>Concept: Kim & Altmann (2008)</span>
         <span>|</span>
         <span>Built for epistemic clarity</span>
       </div>
+    </div>
+  </footer>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../index.html">&larr; CATALOG</a>
     </div>
   </footer>
 
@@ -1401,6 +1705,26 @@
     // ========================================
     // Canvas Rendering
     // ========================================
+    function themeColors() {
+      const s = getComputedStyle(document.documentElement);
+      return {
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim()
+      };
+    }
+
+    function withAlpha(color, alpha) {
+      const m = /^#([0-9a-f]{6})$/i.exec(color);
+      if (m) {
+        const n = parseInt(m[1], 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+      }
+      return color;
+    }
+
     function renderTimeline(canvas, timestamps) {
       const ctx = canvas.getContext('2d');
       const dpr = window.devicePixelRatio || 1;
@@ -1412,8 +1736,9 @@
       
       const width = rect.width;
       const height = rect.height;
+      const colors = themeColors();
       
-      ctx.fillStyle = '#12151c';
+      ctx.fillStyle = colors.surface;
       ctx.fillRect(0, 0, width, height);
       
       if (timestamps.length === 0) return;
@@ -1424,7 +1749,7 @@
       const padding = 20;
       
       // Draw baseline
-      ctx.strokeStyle = '#2a3040';
+      ctx.strokeStyle = colors.border;
       ctx.lineWidth = 1;
       ctx.beginPath();
       ctx.moveTo(padding, height / 2);
@@ -1438,7 +1763,7 @@
         
         ctx.beginPath();
         ctx.arc(x, y, 3, 0, Math.PI * 2);
-        ctx.fillStyle = '#00d4aa';
+        ctx.fillStyle = colors.cyan;
         ctx.fill();
       });
     }
@@ -1454,8 +1779,9 @@
       
       const width = rect.width;
       const height = rect.height;
+      const colors = themeColors();
       
-      ctx.fillStyle = '#12151c';
+      ctx.fillStyle = colors.surface;
       ctx.fillRect(0, 0, width, height);
       
       if (intervals.length === 0) return;
@@ -1477,7 +1803,7 @@
       
       const maxCount = Math.max(...bins);
       
-      ctx.fillStyle = '#00d4aa';
+      ctx.fillStyle = colors.cyan;
       bins.forEach((count, i) => {
         const x = padding.left + (i / binCount) * plotWidth;
         const barHeight = (count / maxCount) * plotHeight;
@@ -1487,7 +1813,7 @@
       });
       
       // Axes
-      ctx.strokeStyle = '#3a4050';
+      ctx.strokeStyle = colors.border;
       ctx.lineWidth = 1;
       ctx.beginPath();
       ctx.moveTo(padding.left, padding.top);
@@ -1496,7 +1822,7 @@
       ctx.stroke();
       
       // Labels
-      ctx.fillStyle = '#8b919d';
+      ctx.fillStyle = colors.secondary;
       ctx.font = '10px JetBrains Mono';
       ctx.textAlign = 'center';
       ctx.fillText('0', padding.left, height - padding.bottom + 15);
@@ -1515,8 +1841,9 @@
       
       const width = rect.width;
       const height = rect.height;
+      const colors = themeColors();
       
-      ctx.fillStyle = '#12151c';
+      ctx.fillStyle = colors.surface;
       ctx.fillRect(0, 0, width, height);
       
       if (intervals.length === 0) return;
@@ -1530,7 +1857,7 @@
       
       // Mean line
       const meanY = height - padding.bottom - (meanVal / maxVal) * plotHeight;
-      ctx.strokeStyle = 'rgba(255, 179, 71, 0.5)';
+      ctx.strokeStyle = withAlpha(colors.gold, '0.5');
       ctx.setLineDash([5, 5]);
       ctx.beginPath();
       ctx.moveTo(padding.left, meanY);
@@ -1539,7 +1866,7 @@
       ctx.setLineDash([]);
       
       // Points
-      ctx.fillStyle = '#00d4aa';
+      ctx.fillStyle = colors.cyan;
       intervals.forEach((val, i) => {
         const x = padding.left + (i / (intervals.length - 1)) * plotWidth;
         const y = height - padding.bottom - (val / maxVal) * plotHeight;
@@ -1550,7 +1877,7 @@
       });
       
       // Axes
-      ctx.strokeStyle = '#3a4050';
+      ctx.strokeStyle = colors.border;
       ctx.lineWidth = 1;
       ctx.beginPath();
       ctx.moveTo(padding.left, padding.top);
@@ -1559,7 +1886,7 @@
       ctx.stroke();
       
       // Labels
-      ctx.fillStyle = '#8b919d';
+      ctx.fillStyle = colors.secondary;
       ctx.font = '10px JetBrains Mono';
       ctx.textAlign = 'center';
       ctx.fillText('Event Index', width / 2, height - 5);
@@ -1652,13 +1979,13 @@
           const avgB = trials.reduce((a, b) => a + b, 0) / trials.length;
           result = `
             <div class="font-mono text-sm">
-              <div class="text-[var(--accent)] mb-2">Poisson Convergence Test</div>
-              <div class="text-xs text-[var(--fg-muted)] mb-3">Testing B → 0 for n=1000 Poisson events across 10 trials</div>
+              <div class="accent-clr mb-2">Poisson Convergence Test</div>
+              <div class="text-xs muted mb-3">Testing B → 0 for n=1000 Poisson events across 10 trials</div>
               <div class="grid grid-cols-5 gap-2 mb-3">
-                ${trials.map(b => `<div class="p-2 bg-[var(--bg-card)] rounded text-center">${b.toFixed(3)}</div>`).join('')}
+                ${trials.map(b => `<div class="p-2 bg-card-c rounded text-center">${b.toFixed(3)}</div>`).join('')}
               </div>
-              <div class="text-sm">Mean B: <span class="text-[var(--accent)]">${avgB.toFixed(4)}</span></div>
-              <div class="text-xs text-[var(--fg-muted)] mt-2">${Math.abs(avgB) < 0.1 ? 'PASS: B converges toward 0 as expected' : 'Result shows small sample variance'}</div>
+              <div class="text-sm">Mean B: <span class="accent-clr">${avgB.toFixed(4)}</span></div>
+              <div class="text-xs muted mt-2">${Math.abs(avgB) < 0.1 ? 'PASS: B converges toward 0 as expected' : 'Result shows small sample variance'}</div>
             </div>
           `;
           break;
@@ -1668,14 +1995,14 @@
           const { B, mean, std } = calculateBurstiness(perfectIntervals);
           result = `
             <div class="font-mono text-sm">
-              <div class="text-[var(--accent)] mb-2">Perfect Regularity Test</div>
-              <div class="text-xs text-[var(--fg-muted)] mb-3">Testing B = -1 for constant intervals (n=100, all τ=1.0)</div>
+              <div class="accent-clr mb-2">Perfect Regularity Test</div>
+              <div class="text-xs muted mb-3">Testing B = -1 for constant intervals (n=100, all τ=1.0)</div>
               <div class="grid grid-cols-3 gap-4 mb-3">
-                <div><span class="text-[var(--fg-dim)]">Mean:</span> ${mean.toFixed(3)}</div>
-                <div><span class="text-[var(--fg-dim)]">Std:</span> ${std.toFixed(3)}</div>
-                <div><span class="text-[var(--fg-dim)]">B:</span> <span class="text-[var(--accent)]">${B.toFixed(3)}</span></div>
+                <div><span class="dim">Mean:</span> ${mean.toFixed(3)}</div>
+                <div><span class="dim">Std:</span> ${std.toFixed(3)}</div>
+                <div><span class="dim">B:</span> <span class="accent-clr">${B.toFixed(3)}</span></div>
               </div>
-              <div class="text-xs text-[var(--fg-muted)]">σ = 0 causes B formula to yield ${(std - mean)/(std + mean).toFixed(3)}. As σ → 0, B → -1.</div>
+              <div class="text-xs muted">σ = 0 causes B formula to yield ${(std - mean)/(std + mean).toFixed(3)}. As σ → 0, B → -1.</div>
             </div>
           `;
           break;
@@ -1691,19 +2018,19 @@
           
           result = `
             <div class="font-mono text-sm">
-              <div class="text-[var(--accent)] mb-2">Scale Invariance Test</div>
-              <div class="text-xs text-[var(--fg-muted)] mb-3">Verifying B unchanged under uniform scaling</div>
+              <div class="accent-clr mb-2">Scale Invariance Test</div>
+              <div class="text-xs muted mb-3">Verifying B unchanged under uniform scaling</div>
               <div class="grid grid-cols-2 gap-4 mb-3">
-                <div class="p-3 bg-[var(--bg-card)] rounded">
-                  <div class="text-xs text-[var(--fg-dim)] mb-1">Original (rate=1)</div>
+                <div class="p-3 bg-card-c rounded">
+                  <div class="text-xs dim mb-1">Original (rate=1)</div>
                   <div class="text-lg">B = ${B1.toFixed(4)}</div>
                 </div>
-                <div class="p-3 bg-[var(--bg-card)] rounded">
-                  <div class="text-xs text-[var(--fg-dim)] mb-1">Scaled 10x</div>
+                <div class="p-3 bg-card-c rounded">
+                  <div class="text-xs dim mb-1">Scaled 10x</div>
                   <div class="text-lg">B = ${B2.toFixed(4)}</div>
                 </div>
               </div>
-              <div class="text-xs text-[var(--accent)]">PASS: B values are ${B1 === B2 ? 'identical' : 'nearly identical (' + Math.abs(B1-B2).toFixed(6) + ' difference)'}</div>
+              <div class="text-xs accent-clr">PASS: B values are ${B1 === B2 ? 'identical' : 'nearly identical (' + Math.abs(B1-B2).toFixed(6) + ' difference)'}</div>
             </div>
           `;
           break;
@@ -1717,14 +2044,14 @@
           const { B, mean, std } = calculateBurstiness(extremeIntervals);
           result = `
             <div class="font-mono text-sm">
-              <div class="text-[var(--accent)] mb-2">Extreme Burstiness Test</div>
-              <div class="text-xs text-[var(--fg-muted)] mb-3">Bimodal distribution: alternating short (0.01) and long (10.0) intervals</div>
+              <div class="accent-clr mb-2">Extreme Burstiness Test</div>
+              <div class="text-xs muted mb-3">Bimodal distribution: alternating short (0.01) and long (10.0) intervals</div>
               <div class="grid grid-cols-3 gap-4 mb-3">
-                <div><span class="text-[var(--fg-dim)]">Mean:</span> ${mean.toFixed(3)}</div>
-                <div><span class="text-[var(--fg-dim)]">Std:</span> ${std.toFixed(3)}</div>
-                <div><span class="text-[var(--fg-dim)]">B:</span> <span class="text-[var(--warning)]">${B.toFixed(3)}</span></div>
+                <div><span class="dim">Mean:</span> ${mean.toFixed(3)}</div>
+                <div><span class="dim">Std:</span> ${std.toFixed(3)}</div>
+                <div><span class="dim">B:</span> <span class="warn">${B.toFixed(3)}</span></div>
               </div>
-              <div class="text-xs text-[var(--fg-muted)]">High variance relative to mean produces B close to +1, indicating extreme clustering.</div>
+              <div class="text-xs muted">High variance relative to mean produces B close to +1, indicating extreme clustering.</div>
             </div>
           `;
           break;
@@ -1909,6 +2236,40 @@
       initScrollAnimations();
       generateSequence();
     });
+
+    // Redraw canvas-drawn visuals when the site theme changes
+    window.addEventListener('epistecnica-theme', () => {
+      if (typeof updateDisplay === 'function') updateDisplay();
+    });
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
   </script>
 </body>
 </html>

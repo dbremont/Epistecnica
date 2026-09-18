@@ -4,27 +4,157 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fokker-Planck Equation | Interactive Epistemic Notebook</title>
-  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
     :root {
-      --bg-primary: #0a0c10;
-      --bg-secondary: #12151c;
-      --bg-tertiary: #1a1e28;
-      --bg-elevated: #222733;
-      --fg-primary: #e8eaed;
-      --fg-secondary: #9aa0a6;
-      --fg-muted: #5f6368;
-      --accent-primary: #00d4aa;
-      --accent-secondary: #00a88a;
-      --accent-glow: rgba(0, 212, 170, 0.15);
-      --warning: #f4b400;
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    .site-nav {
+      position: static;
+      z-index: 60;
+      background: var(--nav-bg);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens */
+    :root {
+      --bg-primary: var(--bg-void);
+      --bg-secondary: var(--bg-surface);
+      --bg-tertiary: var(--bg-card);
+      --bg-elevated: var(--bg-card);
+      --fg-primary: var(--text-primary);
+      --fg-secondary: var(--text-secondary);
+      --fg-muted: var(--text-muted);
+      --accent-primary: var(--accent-cyan);
+      --accent-secondary: color-mix(in srgb, var(--accent-cyan) 85%, var(--bg-void));
+      --accent-glow: var(--accent-cyan-dim);
+      --warning: var(--accent-gold);
       --error: #ea4335;
-      --border: #2d323c;
-      --card: #161920;
+      --border: var(--border-subtle);
+      --card: var(--bg-card);
     }
 
     * {
@@ -36,7 +166,7 @@
     }
 
     body {
-      font-family: 'Source Serif 4', Georgia, serif;
+      font-family: var(--font-display);
       background: var(--bg-primary);
       color: var(--fg-primary);
       line-height: 1.7;
@@ -44,7 +174,7 @@
     }
 
     .font-mono {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
     }
 
     /* Custom scrollbar */
@@ -70,7 +200,7 @@
     }
 
     .section-number {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       font-size: 12px;
       letter-spacing: 0.1em;
       color: var(--accent-primary);
@@ -81,7 +211,7 @@
       background: var(--bg-tertiary);
       border: 1px solid var(--border);
       border-left: 3px solid var(--accent-primary);
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       font-size: 14px;
       overflow-x: auto;
     }
@@ -137,7 +267,7 @@
     .btn-primary {
       background: var(--accent-primary);
       color: var(--bg-primary);
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       font-weight: 500;
       font-size: 13px;
       padding: 10px 20px;
@@ -160,7 +290,7 @@
     .btn-secondary {
       background: transparent;
       color: var(--fg-primary);
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       font-size: 13px;
       padding: 10px 20px;
       border: 1px solid var(--border);
@@ -174,7 +304,7 @@
 
     /* Tab system */
     .tab-btn {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       font-size: 12px;
       padding: 8px 16px;
       background: transparent;
@@ -272,7 +402,7 @@
     /* Nav */
     .nav-link {
       color: var(--fg-muted);
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
       font-size: 13px;
       transition: color 0.15s ease;
     }
@@ -318,14 +448,146 @@
       height: 8px;
       border-radius: 50%;
     }
+
+    /* ---- heading face ---- */
+    h1, h2, h3 {
+      font-family: var(--font-display);
+    }
+
+    /* ---- utility shim (replaces the Tailwind CDN) ---- */
+    h1, h2, h3, h4, h5, h6, p { margin: 0; }
+    ul { list-style: none; margin: 0; padding: 0; }
+    a { text-decoration: none; }
+    table { border-collapse: collapse; }
+    .sticky { position: sticky; }
+    .fixed { position: fixed; }
+    .absolute { position: absolute; }
+    .relative { position: relative; }
+    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+    .top-0 { top: 0; }
+    .bottom-0 { bottom: 0; }
+    .bottom-4 { bottom: 1rem; }
+    .left-0 { left: 0; }
+    .right-0 { right: 0; }
+    .left-4 { left: 1rem; }
+    .-left-12 { left: -3rem; }
+    .z-10 { z-index: 10; }
+    .z-50 { z-index: 50; }
+    .block { display: block; }
+    .hidden { display: none; }
+    .flex { display: flex; }
+    .grid { display: grid; }
+    .flex-wrap { flex-wrap: wrap; }
+    .flex-1 { flex: 1 1 0%; }
+    .items-center { align-items: center; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .overflow-hidden { overflow: hidden; }
+    .overflow-x-auto { overflow-x: auto; }
+    .cursor-pointer { cursor: pointer; }
+    .w-8 { width: 2rem; }
+    .w-px { width: 1px; }
+    .w-full { width: 100%; }
+    .h-8 { height: 2rem; }
+    .h-full { height: 100%; }
+    .min-h-screen { min-height: 100vh; }
+    .max-w-4xl { max-width: 56rem; }
+    .max-w-6xl { max-width: 72rem; }
+    .p-2 { padding: 0.5rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-6 { padding: 1.5rem; }
+    .p-8 { padding: 2rem; }
+    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+    .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+    .py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+    .pt-4 { padding-top: 1rem; }
+    .pt-8 { padding-top: 2rem; }
+    .pl-12 { padding-left: 3rem; }
+    .mt-0 { margin-top: 0; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mt-8 { margin-top: 2rem; }
+    .mt-12 { margin-top: 3rem; }
+    .mt-16 { margin-top: 4rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .mb-12 { margin-bottom: 3rem; }
+    .mb-16 { margin-bottom: 4rem; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-6 { gap: 1.5rem; }
+    .gap-8 { gap: 2rem; }
+    .gap-12 { gap: 3rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .space-y-6 > * + * { margin-top: 1.5rem; }
+    .space-y-8 > * + * { margin-top: 2rem; }
+    .text-xs { font-size: 0.75rem; line-height: 1.5; }
+    .text-sm { font-size: 0.875rem; line-height: 1.5; }
+    .text-lg { font-size: 1.125rem; line-height: 1.6; }
+    .text-xl { font-size: 1.25rem; line-height: 1.6; }
+    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+    .text-3xl { font-size: 1.875rem; line-height: 1.2; }
+    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+    .font-light { font-weight: 300; }
+    .tracking-tight { letter-spacing: -0.025em; }
+    .tracking-wider { letter-spacing: 0.05em; }
+    .text-left { text-align: left; }
+    .text-center { text-align: center; }
+    .opacity-20 { opacity: 0.2; }
+    .border-t { border-top: 1px solid var(--border); }
+    .border-b { border-bottom: 1px solid var(--border); }
+    .border-l-2 { border-left: 2px solid var(--border); }
+    .rounded-full { border-radius: 9999px; }
+    .rounded-lg { border-radius: 0.5rem; }
+    .rounded-t-none { border-top-left-radius: 0; border-top-right-radius: 0; }
+    .list-none { list-style: none; }
+    .hover\:no-underline:hover { text-decoration: none; }
+    .backdrop-blur-sm { backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+    .transition-transform { transition: transform 0.15s ease; }
+    .group[open] .group-open\:block { display: block; }
+    .group[open] .group-open\:rotate-45 { transform: rotate(45deg); }
+    @media (min-width: 768px) {
+      .md\:flex { display: flex; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .md\:text-xl { font-size: 1.25rem; line-height: 1.6; }
+      .md\:text-4xl { font-size: 2.25rem; line-height: 1.15; }
+      .md\:text-6xl { font-size: 3.75rem; line-height: 1.05; }
+    }
+    @media (min-width: 1024px) {
+      .lg\:col-span-2 { grid-column: span 2 / span 2; }
+      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
   </style>
 </head>
 <body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
   <!-- Progress Bar -->
   <div class="progress-bar" id="progressBar" style="width: 0%"></div>
 
   <!-- Navigation -->
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-opacity-90 backdrop-blur-sm" style="background: rgba(10, 12, 16, 0.9);">
+  <nav class="sticky top-0 left-0 right-0 z-50 backdrop-blur-sm" style="background: var(--nav-bg);">
     <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
       <div class="font-mono text-sm tracking-wider" style="color: var(--accent-primary);">
         EPISTEMIC NOTEBOOK
@@ -340,7 +602,7 @@
     </div>
   </nav>
 
-  <main class="pt-20">
+  <main class="pt-8">
     <!-- Hero Section -->
     <header class="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
       <div class="absolute inset-0 opacity-20">
@@ -348,7 +610,7 @@
       </div>
       <div class="relative z-10 text-center max-w-4xl reveal">
         <div class="section-number mb-6">EPISTEMIC TOOL ANALYSIS</div>
-        <h1 class="text-4xl md:text-6xl font-light mb-6 tracking-tight" style="font-family: 'Source Serif 4', serif;">
+        <h1 class="text-4xl md:text-6xl font-light mb-6 tracking-tight" style="font-family: var(--font-display);">
           Fokker-Planck<br>Equation
         </h1>
         <p class="text-lg md:text-xl mb-8" style="color: var(--fg-secondary); max-width: 600px; margin: 0 auto;">
@@ -1198,6 +1460,13 @@
     </footer>
   </main>
 
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
   <script>
     // ============================================
     // INITIALIZATION & GLOBAL STATE
@@ -1270,6 +1539,30 @@
       return z * std + mean;
     }
 
+    function themeColors() {
+      const s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim(),
+        card: s.getPropertyValue('--bg-card').trim(),
+        void: s.getPropertyValue('--bg-void').trim()
+      };
+    }
+
+    function withAlpha(color, alpha) {
+      const m = /^#([0-9a-f]{6})$/i.exec(color);
+      if (m) {
+        const n = parseInt(m[1], 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+      }
+      return color;
+    }
+
     // ============================================
     // CANVAS RENDERING
     // ============================================
@@ -1291,13 +1584,14 @@
       const rect = fpCanvas.parentElement.getBoundingClientRect();
       const width = rect.width;
       const height = rect.height;
-      
+      const colors = themeColors();
+
       // Clear
-      fpCtx.fillStyle = '#0a0c10';
+      fpCtx.fillStyle = colors.void;
       fpCtx.fillRect(0, 0, width, height);
-      
+
       // Draw grid
-      fpCtx.strokeStyle = '#1a1e28';
+      fpCtx.strokeStyle = withAlpha(colors.primary, '0.1');
       fpCtx.lineWidth = 1;
       
       // Vertical grid lines
@@ -1320,7 +1614,7 @@
       
       // Draw probability density
       fpCtx.beginPath();
-      fpCtx.strokeStyle = '#00d4aa';
+      fpCtx.strokeStyle = colors.cyan;
       fpCtx.lineWidth = 2;
       
       const maxP = Math.max(...state.density, 0.5);
@@ -1342,11 +1636,11 @@
       fpCtx.lineTo(width, height);
       fpCtx.lineTo(0, height);
       fpCtx.closePath();
-      fpCtx.fillStyle = 'rgba(0, 212, 170, 0.1)';
+      fpCtx.fillStyle = withAlpha(colors.cyan, '0.1');
       fpCtx.fill();
-      
+
       // Draw particle trajectories
-      fpCtx.strokeStyle = 'rgba(244, 180, 0, 0.3)';
+      fpCtx.strokeStyle = withAlpha(colors.gold, '0.3');
       fpCtx.lineWidth = 1;
       
       for (const particle of state.particles) {
@@ -1368,7 +1662,7 @@
         
         // Draw current position
         const px = ((particle.x - state.xMin) / (state.xMax - state.xMin)) * width;
-        fpCtx.fillStyle = '#f4b400';
+        fpCtx.fillStyle = colors.gold;
         fpCtx.beginPath();
         fpCtx.arc(px, height * 0.1, 3, 0, 2 * Math.PI);
         fpCtx.fill();
@@ -1386,7 +1680,7 @@
       fpCtx.setLineDash([]);
       
       // Labels
-      fpCtx.fillStyle = '#5f6368';
+      fpCtx.fillStyle = colors.muted;
       fpCtx.font = '12px JetBrains Mono';
       fpCtx.fillText('x', width - 15, height - 10);
       fpCtx.fillText('p(x,t)', 10, 20);
@@ -1530,12 +1824,13 @@
       const rect = heroCanvas.parentElement.getBoundingClientRect();
       heroCanvas.width = rect.width;
       heroCanvas.height = rect.height;
-      
-      heroCtx.fillStyle = '#0a0c10';
+      const colors = themeColors();
+
+      heroCtx.fillStyle = colors.void;
       heroCtx.fillRect(0, 0, rect.width, rect.height);
-      
+
       // Draw connections
-      heroCtx.strokeStyle = 'rgba(0, 212, 170, 0.1)';
+      heroCtx.strokeStyle = withAlpha(colors.cyan, '0.1');
       heroCtx.lineWidth = 1;
       
       for (let i = 0; i < heroParticles.length; i++) {
@@ -1561,7 +1856,7 @@
         if (p.x < 0 || p.x > rect.width) p.vx *= -1;
         if (p.y < 0 || p.y > rect.height) p.vy *= -1;
         
-        heroCtx.fillStyle = 'rgba(0, 212, 170, 0.5)';
+        heroCtx.fillStyle = withAlpha(colors.cyan, '0.5');
         heroCtx.beginPath();
         heroCtx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI);
         heroCtx.fill();
@@ -1581,24 +1876,25 @@
       const rect = depCanvas.parentElement.getBoundingClientRect();
       depCanvas.width = rect.width;
       depCanvas.height = 300;
-      
-      depCtx.fillStyle = '#0a0c10';
+      const colors = themeColors();
+
+      depCtx.fillStyle = colors.void;
       depCtx.fillRect(0, 0, depCanvas.width, depCanvas.height);
-      
+
       const nodes = [
-        { x: 100, y: 50, label: 'Wiener Process', color: '#5f6368' },
-        { x: 300, y: 50, label: 'Ito Calculus', color: '#5f6368' },
-        { x: 500, y: 50, label: 'Continuity Eq.', color: '#5f6368' },
-        { x: 300, y: 150, label: 'SDE Formulation', color: '#9aa0a6' },
-        { x: 300, y: 250, label: 'Fokker-Planck', color: '#00d4aa' }
+        { x: 100, y: 50, label: 'Wiener Process', color: colors.muted },
+        { x: 300, y: 50, label: 'Ito Calculus', color: colors.muted },
+        { x: 500, y: 50, label: 'Continuity Eq.', color: colors.muted },
+        { x: 300, y: 150, label: 'SDE Formulation', color: colors.secondary },
+        { x: 300, y: 250, label: 'Fokker-Planck', color: colors.cyan }
       ];
-      
+
       const edges = [
         [0, 3], [1, 3], [2, 4], [3, 4]
       ];
-      
+
       // Draw edges
-      depCtx.strokeStyle = '#2d323c';
+      depCtx.strokeStyle = withAlpha(colors.primary, '0.15');
       depCtx.lineWidth = 2;
       
       for (const [from, to] of edges) {
@@ -1631,7 +1927,7 @@
         depCtx.arc(node.x, node.y, 8, 0, 2 * Math.PI);
         depCtx.fill();
         
-        depCtx.fillStyle = '#e8eaed';
+        depCtx.fillStyle = colors.primary;
         depCtx.font = '12px JetBrains Mono';
         depCtx.textAlign = 'center';
         depCtx.fillText(node.label, node.x, node.y + 25);
@@ -1650,8 +1946,9 @@
       const rect = intCanvas.parentElement.getBoundingClientRect();
       intCanvas.width = rect.width - 32;
       intCanvas.height = 200;
-      
-      intCtx.fillStyle = '#0a0c10';
+      const colors = themeColors();
+
+      intCtx.fillStyle = colors.void;
       intCtx.fillRect(0, 0, intCanvas.width, intCanvas.height);
       
       const centerX = intCanvas.width / 2;
@@ -1661,7 +1958,7 @@
       for (let i = 0; i < 5; i++) {
         const radius = Math.max(1, 10 + i * 15 + Math.sin(intTime + i) * 5);
         const alpha = 1 - i * 0.2;
-        intCtx.strokeStyle = `rgba(0, 212, 170, ${alpha})`;
+        intCtx.strokeStyle = withAlpha(colors.cyan, alpha);
         intCtx.lineWidth = 1;
         intCtx.beginPath();
         intCtx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
@@ -1669,7 +1966,7 @@
       }
       
       // Draw drift arrow
-      intCtx.strokeStyle = '#f4b400';
+      intCtx.strokeStyle = colors.gold;
       intCtx.lineWidth = 2;
       intCtx.beginPath();
       intCtx.moveTo(centerX, centerY);
@@ -1682,7 +1979,7 @@
       intCtx.lineTo(centerX + 40, centerY - 5);
       intCtx.lineTo(centerX + 40, centerY + 5);
       intCtx.closePath();
-      intCtx.fillStyle = '#f4b400';
+      intCtx.fillStyle = colors.gold;
       intCtx.fill();
       
       intTime += 0.02;
@@ -1796,6 +2093,38 @@
 
     // Start
     init();
+
+    // Redraw canvas-drawn visuals when the site theme changes
+    window.addEventListener('epistecnica-theme', () => drawDependencyGraph());
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
   </script>
 </body>
 </html>
