@@ -4,26 +4,161 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Epistemic Artifact Type: Concept</title>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
     :root {
-      --bg: #0d0d0f;
-      --bg-elevated: #141417;
-      --bg-card: #1a1a1f;
-      --fg: #e8e6e3;
-      --fg-muted: #8a8a8d;
-      --fg-dim: #5a5a5d;
-      --accent: #d4a855;
-      --accent-dim: #8a7039;
-      --accent-glow: rgba(212, 168, 85, 0.15);
-      --concept-intension: #d4a855;
-      --concept-extension: #5ba8d4;
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens */
+    :root {
+      --bg: var(--bg-void);
+      --bg-elevated: var(--bg-surface);
+      --fg: var(--text-primary);
+      --fg-muted: var(--text-secondary);
+      --fg-dim: var(--text-muted);
+      --accent: var(--accent-gold);
+      --accent-dim: var(--accent-gold);
+      --accent-glow: var(--accent-gold-dim);
+      --concept-intension: var(--accent-gold);
+      --concept-extension: var(--accent-cyan);
       --concept-boundary: #7a5ad4;
       --valid: #4a9d6e;
       --invalid: #c45d5d;
-      --border: #2a2a2f;
-      --border-active: #3a3a40;
+      --border: var(--border-subtle);
+      --border-active: var(--text-muted);
     }
 
     * {
@@ -31,7 +166,7 @@
     }
 
     body {
-      font-family: 'Crimson Pro', Georgia, serif;
+      font-family: var(--font-display);
       background: var(--bg);
       color: var(--fg);
       margin: 0;
@@ -40,7 +175,7 @@
     }
 
     .mono {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: var(--font-mono);
     }
 
     /* Scrollbar */
@@ -295,7 +430,7 @@
 
     .instance-chip:hover {
       border-color: var(--concept-extension);
-      background: rgba(91, 168, 212, 0.1);
+      background: var(--accent-cyan-dim);
     }
 
     .instance-chip.boundary {
@@ -685,6 +820,16 @@
   </style>
 </head>
 <body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
   <div class="notebook-container">
     <!-- Header -->
     <header class="main-header">
@@ -828,6 +973,13 @@
       </div>
     </aside>
   </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
 
   <script>
     // ========================================
@@ -1058,6 +1210,32 @@
     }
 
     // ========================================
+    // THEME PALETTE (reads the shared tokens)
+    // ========================================
+
+    const BOUNDARY = '#7a5ad4';
+    const INVALID = '#c45d5d';
+
+    function themeColors() {
+      const s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim()
+      };
+    }
+
+    function withAlpha(color, alpha) {
+      const m = /^#([0-9a-f]{6})$/i.exec(color);
+      if (m) {
+        const n = parseInt(m[1], 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+      }
+      return color;
+    }
+
+    // ========================================
     // CANVAS VISUALIZATION
     // ========================================
 
@@ -1117,14 +1295,15 @@
       const height = canvas.clientHeight;
       const centerX = width / 2;
       const centerY = height / 2;
-      
+      const colors = themeColors();
+
       // Clear
-      ctx.fillStyle = '#141417';
+      ctx.fillStyle = colors.surface;
       ctx.fillRect(0, 0, width, height);
-      
+
       // Background glow
       const bgGrad = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, Math.max(width, height) / 2);
-      bgGrad.addColorStop(0, 'rgba(212, 168, 85, 0.03)');
+      bgGrad.addColorStop(0, withAlpha(colors.gold, '0.03'));
       bgGrad.addColorStop(1, 'rgba(0, 0, 0, 0)');
       ctx.fillStyle = bgGrad;
       ctx.fillRect(0, 0, width, height);
@@ -1134,14 +1313,14 @@
       // Draw boundary zone (outer ring)
       ctx.beginPath();
       ctx.arc(centerX, centerY, 170, 0, Math.PI * 2);
-      ctx.strokeStyle = 'rgba(122, 90, 212, 0.2)';
+      ctx.strokeStyle = withAlpha(BOUNDARY, '0.2');
       ctx.lineWidth = 20;
       ctx.stroke();
       
       // Draw extension boundary (inner ring)
       ctx.beginPath();
       ctx.arc(centerX, centerY, 120, 0, Math.PI * 2);
-      ctx.strokeStyle = 'rgba(91, 168, 212, 0.2)';
+      ctx.strokeStyle = withAlpha(colors.cyan, '0.2');
       ctx.lineWidth = 15;
       ctx.stroke();
       
@@ -1150,11 +1329,11 @@
       ctx.beginPath();
       ctx.arc(centerX, centerY, coreRadius, 0, Math.PI * 2);
       const coreGrad = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, coreRadius);
-      coreGrad.addColorStop(0, 'rgba(212, 168, 85, 0.4)');
-      coreGrad.addColorStop(1, 'rgba(212, 168, 85, 0.1)');
+      coreGrad.addColorStop(0, withAlpha(colors.gold, '0.4'));
+      coreGrad.addColorStop(1, withAlpha(colors.gold, '0.1'));
       ctx.fillStyle = coreGrad;
       ctx.fill();
-      ctx.strokeStyle = '#d4a855';
+      ctx.strokeStyle = colors.gold;
       ctx.lineWidth = 2;
       ctx.stroke();
       
@@ -1167,11 +1346,11 @@
         
         ctx.beginPath();
         ctx.arc(segX, segY, segRadius * 0.6, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(212, 168, 85, 0.3)';
+        ctx.fillStyle = withAlpha(colors.gold, '0.3');
         ctx.fill();
-        
+
         // Property name
-        ctx.fillStyle = '#d4a855';
+        ctx.fillStyle = colors.gold;
         ctx.font = '11px "JetBrains Mono"';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
@@ -1214,7 +1393,7 @@
         if (isHovered || ext.isPrototype) {
           ctx.beginPath();
           ctx.arc(pos.x, pos.y, particleRadius + 8, 0, Math.PI * 2);
-          const glowColor = ext.isBoundary ? 'rgba(122, 90, 212, 0.3)' : 'rgba(91, 168, 212, 0.3)';
+          const glowColor = ext.isBoundary ? withAlpha(BOUNDARY, '0.3') : withAlpha(colors.cyan, '0.3');
           ctx.fillStyle = glowColor;
           ctx.fill();
         }
@@ -1225,13 +1404,13 @@
         
         let fillColor;
         if (!satisfiesAll) {
-          fillColor = '#c45d5d';
+          fillColor = INVALID;
         } else if (ext.isBoundary) {
-          fillColor = '#7a5ad4';
+          fillColor = BOUNDARY;
         } else if (ext.isPrototype) {
-          fillColor = '#d4a855';
+          fillColor = colors.gold;
         } else {
-          fillColor = '#5ba8d4';
+          fillColor = colors.cyan;
         }
         
         ctx.fillStyle = fillColor;
@@ -1239,16 +1418,16 @@
         
         // Label
         if (isHovered || ext.isPrototype) {
-          ctx.fillStyle = '#e8e6e3';
-          ctx.font = '12px "Crimson Pro"';
+          ctx.fillStyle = colors.primary;
+          ctx.font = '12px "Cormorant Garamond"';
           ctx.textAlign = 'center';
           ctx.fillText(ext.name, pos.x, pos.y - particleRadius - 8);
         }
       });
       
       // Draw intension label
-      ctx.fillStyle = '#e8e6e3';
-      ctx.font = '14px "Crimson Pro"';
+      ctx.fillStyle = colors.primary;
+      ctx.font = '14px "Cormorant Garamond"';
       ctx.textAlign = 'center';
       ctx.fillText(currentInstance.name, centerX, centerY);
       
@@ -1499,6 +1678,35 @@
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     
     document.addEventListener('DOMContentLoaded', init);
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
   </script>
 </body>
 </html>

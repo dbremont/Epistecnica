@@ -4,56 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example Tool - Reference Implementation</title>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         /* ============================================
-           EPISTEMIC TOOLBOX TOOL REFERENCE IMPLEMENTATION
+           EPISTEMICA — shared tokens + live-note chrome
+           (canonical blocks: docs/live-note-chrome.md)
            ============================================ */
-        
+
+        :root {
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-gold-dim: rgba(197, 164, 103, 0.15);
+            --accent-cyan: #5BF0E7;
+            --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --card-bg: rgba(11, 13, 20, 0.72);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --card-bg: rgba(255, 255, 255, 0.72);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
+        }
+
+        body { transition: opacity 180ms ease; }
+        html.theme-fading body { opacity: 0; }
+        @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 60;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .site-nav .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-nav .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .site-nav .nav-mark { height: 26px; width: auto; }
+        .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+        .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        .site-nav .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .site-footer {
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+            position: relative;
+            z-index: 1;
+        }
+
+        .site-footer .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .site-footer a:hover { color: var(--accent-cyan); }
+
+        /* ============================================
+           PAGE — Example Tool reference implementation
+           ============================================ */
+
         body {
-            font-family: system-ui, -apple-system, sans-serif;
+            font-family: var(--font-body);
             padding: 2rem;
-            color: #f0f4f8;
-            background: #0d1117;
+            color: var(--text-secondary);
+            background: var(--bg-void);
             line-height: 1.6;
+            max-width: 1280px;
+            margin: 0 auto;
         }
 
         h1 {
-            color: #d4a84b;
+            font-family: var(--font-display);
+            font-weight: 300;
+            color: var(--text-primary);
             margin-bottom: 1rem;
-            font-size: 2rem;
+            font-size: 2.4rem;
         }
 
         h2 {
-            color: #5ec4b2;
+            font-family: var(--font-display);
+            font-weight: 400;
+            color: var(--text-primary);
             margin-top: 2rem;
             margin-bottom: 1rem;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
         }
 
         p {
             margin-bottom: 1rem;
-            color: #8b95a5;
         }
 
-        /* Button Styles */
-        button {
-            background: #5ec4b2;
-            color: #0d1117;
+        /* Buttons */
+        #action-btn, #decrement-btn {
+            background: var(--accent-cyan);
+            color: var(--bg-void);
             border: none;
             padding: 0.75rem 1.5rem;
             border-radius: 8px;
             cursor: pointer;
             font-weight: 600;
             font-size: 0.9rem;
+            font-family: var(--font-body);
             transition: all 0.2s ease;
         }
 
-        button:hover {
-            background: #4ab3a3;
+        #action-btn:hover, #decrement-btn:hover {
+            filter: brightness(1.1);
             transform: translateY(-2px);
         }
 
-        button:active {
+        #action-btn:active, #decrement-btn:active {
             transform: translateY(0);
         }
 
@@ -61,24 +205,25 @@
         .status-section {
             margin-top: 2rem;
             padding: 1.5rem;
-            background: rgba(20, 26, 35, 0.5);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: var(--card-bg);
+            border: 1px solid var(--border-subtle);
             border-radius: 12px;
         }
 
         .status-message {
             padding: 1rem;
-            background: rgba(94, 196, 178, 0.1);
-            border: 1px solid rgba(94, 196, 178, 0.3);
+            background: var(--accent-cyan-dim);
+            border: 1px solid var(--accent-cyan);
             border-radius: 8px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.85rem;
             margin-bottom: 0.5rem;
+            color: var(--text-primary);
         }
 
         .status-message.warning {
-            background: rgba(212, 168, 75, 0.1);
-            border-color: rgba(212, 168, 75, 0.3);
+            background: var(--accent-gold-dim);
+            border-color: var(--accent-gold);
         }
 
         /* Counter Display */
@@ -92,8 +237,8 @@
         .counter-value {
             font-size: 3rem;
             font-weight: 700;
-            color: #d4a84b;
-            font-family: 'Space Grotesk', monospace;
+            color: var(--accent-gold);
+            font-family: var(--font-mono);
         }
 
         /* Event Log */
@@ -101,37 +246,39 @@
             margin-top: 1.5rem;
             max-height: 300px;
             overflow-y: auto;
-            background: rgba(13, 17, 23, 0.8);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
             border-radius: 8px;
             padding: 1rem;
         }
 
         .event-log-title {
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: #8b95a5;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--text-muted);
             margin-bottom: 0.75rem;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.18em;
         }
 
         .event-entry {
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.75rem;
             padding: 0.5rem;
             margin-bottom: 0.25rem;
-            border-left: 2px solid rgba(94, 196, 178, 0.5);
-            background: rgba(94, 196, 178, 0.05);
+            border-left: 2px solid var(--accent-cyan);
+            background: var(--accent-cyan-dim);
+            color: var(--text-secondary);
         }
 
         .event-entry.error {
-            border-left-color: rgba(212, 168, 75, 0.5);
-            background: rgba(212, 168, 75, 0.05);
+            border-left-color: var(--accent-gold);
+            background: var(--accent-gold-dim);
         }
 
         .event-time {
-            color: #4a5568;
+            color: var(--text-muted);
             margin-right: 0.5rem;
         }
 
@@ -156,8 +303,8 @@
         }
 
         .modal {
-            background: #0d1117;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: var(--bg-void);
+            border: 1px solid var(--border-subtle);
             border-radius: 16px;
             max-width: 800px;
             width: 90%;
@@ -170,28 +317,28 @@
 
         .modal-header {
             padding: 1.5rem 2rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            border-bottom: 1px solid var(--border-subtle);
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: rgba(20, 26, 35, 0.5);
+            background: var(--card-bg);
         }
 
         .modal-title {
+            font-family: var(--font-display);
+            font-weight: 400;
             font-size: 1.5rem;
-            font-weight: 700;
-            color: #f0f4f8;
-            font-family: 'Space Grotesk', sans-serif;
+            color: var(--text-primary);
         }
 
         .modal-close {
-            width: 34px !important;
-            height: 34px !important;
-            background: rgba(255, 255, 255, 0.05) !important;
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            color: #8b95a5 !important;
+            width: 34px;
+            height: 34px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
             cursor: pointer;
-            padding: 0 !important;
+            padding: 0;
             border-radius: 8px;
             display: flex;
             align-items: center;
@@ -200,9 +347,9 @@
         }
 
         .modal-close:hover {
-            background: rgba(212, 168, 75, 0.2) !important;
-            border-color: #d4a84b !important;
-            color: #d4a84b !important;
+            background: var(--accent-gold-dim);
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
         }
 
         .modal-body {
@@ -216,38 +363,41 @@
         }
 
         .modal-section h3 {
-            color: #d4a84b;
-            font-size: 1.25rem;
+            font-family: var(--font-display);
+            font-weight: 400;
+            color: var(--text-primary);
+            font-size: 1.35rem;
             margin-bottom: 0.75rem;
-            font-family: 'Space Grotesk', sans-serif;
         }
 
         .modal-section h4 {
-            color: #5ec4b2;
-            font-size: 1rem;
+            font-family: var(--font-mono);
+            color: var(--accent-cyan);
+            font-size: 0.95rem;
             margin-top: 1rem;
             margin-bottom: 0.5rem;
         }
 
         .modal-section code {
-            background: rgba(20, 26, 35, 0.8);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
             border-radius: 4px;
             padding: 0.25rem 0.5rem;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.85rem;
-            color: #5ec4b2;
+            color: var(--accent-cyan);
         }
 
         .modal-section pre {
-            background: rgba(13, 17, 23, 0.9);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
             border-radius: 8px;
             padding: 1rem;
             overflow-x: auto;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
             line-height: 1.5;
+            color: var(--text-primary);
         }
 
         .modal-section ul {
@@ -259,25 +409,25 @@
             padding: 0.5rem 0;
             padding-left: 1.5rem;
             position: relative;
-            color: #8b95a5;
+            color: var(--text-secondary);
         }
 
         .modal-section li::before {
             content: '→';
             position: absolute;
             left: 0;
-            color: #d4a84b;
+            color: var(--accent-gold);
         }
 
         .event-badge {
             display: inline-block;
             padding: 0.25rem 0.5rem;
-            background: rgba(94, 196, 178, 0.15);
-            border: 1px solid rgba(94, 196, 178, 0.3);
+            background: var(--accent-cyan-dim);
+            border: 1px solid var(--accent-cyan);
             border-radius: 4px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.75rem;
-            color: #5ec4b2;
+            color: var(--accent-cyan);
             margin: 0 0.25rem;
         }
 
@@ -288,31 +438,41 @@
         }
 
         ::-webkit-scrollbar-track {
-            background: rgba(20, 26, 35, 0.5);
+            background: var(--bg-surface);
             border-radius: 4px;
         }
 
         ::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.1);
+            background: var(--border-subtle);
             border-radius: 4px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: rgba(255, 255, 255, 0.2);
+            background: var(--text-muted);
         }
     </style>
 </head>
 <body>
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div class="nav-right">
+                <div class="nav-links"><a href="../../index.html">Catalog</a></div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
+
     <h1>Example Tool</h1>
     <p>Reference implementation demonstrating the Epistemic Toolbox tool communication protocol.</p>
 
     <button id="action-btn">Increment Counter</button>
-    <button id="decrement-btn" style="background: rgba(212, 168, 75, 0.2); color: #d4a84b; margin-left: 0.5rem;">Decrement</button>
+    <button id="decrement-btn" style="background: var(--accent-gold-dim); color: var(--accent-gold); margin-left: 0.5rem;">Decrement</button>
 
     <div class="status-section">
         <div class="status-message" id="status">Status: Ready</div>
         <div class="counter-display">
-            <span style="color: #8b95a5;">Counter:</span>
+            <span style="color: var(--text-secondary);">Counter:</span>
             <span class="counter-value" id="counter">0</span>
         </div>
     </div>
@@ -434,6 +594,13 @@ document.dispatchEvent(new CustomEvent('tool-ready', {
             </div>
         </div>
     </div>
+
+    <footer class="site-footer">
+        <div class="foot-inner">
+            <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+            <a href="../../index.html">&larr; CATALOG</a>
+        </div>
+    </footer>
 
     <script>
         // ============================================
@@ -795,6 +962,35 @@ document.dispatchEvent(new CustomEvent('tool-ready', {
 
         // Initialize tool immediately - DOM is already loaded
         initializeTool();
+    </script>
+
+    <script>
+    (function () {
+        var toggle = document.getElementById('themeToggle');
+        var label = document.getElementById('themeLabel');
+        var fading = false;
+        function apply() {
+            label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+        toggle.addEventListener('click', function () {
+            if (fading) return;
+            fading = true;
+            var root = document.documentElement;
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var swap = function () {
+                root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                apply();
+                root.classList.remove('theme-fading');
+                fading = false;
+                window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+            };
+            if (reduced) { swap(); return; }
+            root.classList.add('theme-fading');
+            setTimeout(swap, 190);
+        });
+        apply();
+    })();
     </script>
 </body>
 </html>
