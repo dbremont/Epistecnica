@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epistecnica</title>
     <meta name="description" content="Epistecnica is a unified framework for the two fundamental dimensions of human agency: knowing (Epistemica) and acting (Tecnica).">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta property="og:title" content="Epistecnica">
+    <meta property="og:description" content="One framework for the two fundamental dimensions of human agency: knowing (Epistemica) and acting (Tecnica).">
+    <meta property="og:image" content="og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -77,12 +83,21 @@
         }
 
         .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
             font-family: var(--font-display);
             font-size: 1.2rem;
             font-weight: 400;
             letter-spacing: 0.03em;
             color: var(--text-primary);
             text-decoration: none;
+        }
+
+        .nav-mark {
+            height: 26px;
+            width: auto;
+            mix-blend-mode: screen;
         }
 
         .nav-brand em {
@@ -107,6 +122,12 @@
         h1 em {
             font-style: italic;
             color: var(--accent-gold);
+        }
+
+        .masthead-wordmark {
+            display: block;
+            height: clamp(3.4rem, 7vw, 5.6rem);
+            width: auto;
         }
 
         .lede {
@@ -337,13 +358,13 @@
 
     <nav class="nav">
         <div class="nav-inner">
-            <a class="nav-brand" href="/">Episte<em>cnica</em></a>
+            <a class="nav-brand" href="/"><img class="nav-mark" src="mark.png" alt="">Episte<em>cnica</em></a>
         </div>
     </nav>
 
     <div class="page">
         <header>
-            <h1>Episte<em>cnica</em></h1>
+            <h1><img class="masthead-wordmark" src="wordmark-web.png" alt="Epistecnica"></h1>
             <p class="lede">
                 Epistecnica is a unified framework for the two fundamental dimensions of human
                 agency: knowing (<strong>Epistemica</strong>) and acting (<strong>Tecnica</strong>).
