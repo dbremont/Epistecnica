@@ -132,7 +132,7 @@ html[data-theme="light"] {
 
 .markdown-body td {
     padding: 0.5em 0.75em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    border-bottom: 1px solid var(--border-subtle);
 }
 
 .markdown-body tr:last-child td { border-bottom: none; }
