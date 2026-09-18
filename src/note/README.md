@@ -32,8 +32,10 @@ src/note/
   living under `notes/live/` — bespoke styling, interactivity, its own
   scripts. Served as-is; never rendered through the viewer. The catalog
   still indexes it (title, headings, text) and links directly to the page,
-  marked with a `live` chip. First of the kind: `live/chmc.html`
-  ("Concurrent Map"), moved from `src/tecnica/app/view/`.
+  marked with a `live` chip. Examples: `live/chmc.html` ("Concurrent Map",
+  from `src/tecnica/app/view/`), `live/pd.html` ("Poisson Distribution"),
+  `live/hp.html` ("Hawkes Process"), `live/fpe.html` ("Fokker-Planck
+  Equation"), from epistemica's former `view/tool/`.
 
 ## Naming convention
 

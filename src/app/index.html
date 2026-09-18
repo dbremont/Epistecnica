@@ -252,7 +252,7 @@
 
         .routes {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 1px;
             background: var(--border-subtle);
             border: 1px solid var(--border-subtle);
@@ -377,10 +377,6 @@
                     <div class="links">
                         <a class="primary" href="epistemica/graph.html">Graph &rarr;</a>
                         <a href="epistemica/edit.html">Editor</a>
-                        <a href="note/">Notes</a>
-                        <a href="epistemica/view/stats.html">Stats</a>
-                        <a href="epistemica/view/docs.html">Docs</a>
-                        <a href="epistemica/view/map.html">Map</a>
                     </div>
                 </article>
 
@@ -399,8 +395,6 @@
                     <div class="links">
                         <a class="primary" href="tecnica/graph.html">Graph &rarr;</a>
                         <a href="tecnica/edit.html">Editor</a>
-                        <a href="note/">Notes</a>
-                        <a href="note/notes/live/chmc.html">CHMC</a>
                     </div>
                 </article>
             </div>
@@ -422,8 +416,12 @@
                     <div class="go"><a href="epistemica/edit.html">Epistemica editor</a> or <a href="tecnica/edit.html">Tecnica editor</a> &mdash; AI-assisted authoring; saves through the sync server.</div>
                 </div>
                 <div class="route">
+                    <div class="intent">I want to see the notes</div>
+                    <div class="go">the <a href="note/">notes catalog</a> &mdash; search and read the markdown notes and live notebooks behind both ontologies.</div>
+                </div>
+                <div class="route">
                     <div class="intent">I want the theory</div>
-                    <div class="go"><a href="epistemica/view/docs.html">Epistemica docs</a>, the per-repo <a href="epistemica/view/note.html">notes</a>, and each subproject&rsquo;s <a href="https://github.com/dbremont/Epistecnica">spec</a> in the repository.</div>
+                    <div class="go"><a href="epistemica/view/docs.html">Epistemica docs</a> and each subproject&rsquo;s <a href="https://github.com/dbremont/Epistecnica">spec</a> in the repository.</div>
                 </div>
             </div>
         </section>
