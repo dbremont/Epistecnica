@@ -603,6 +603,10 @@
             return d.innerHTML;
         }
 
+        function encPath(p) {
+            return p.split('/').map(encodeURIComponent).join('/');
+        }
+
         function hl(text, q) {
             var e = esc(text);
             if (!q) return e;
@@ -665,7 +669,7 @@
                 var n = slice[i];
                 var snip = snippet(n.text, q);
                 var live = n.kind === 'live';
-                var href = live ? 'notes/' + encodeURIComponent(n.path) : 'note.html?n=' + encodeURIComponent(n.path);
+                var href = live ? 'notes/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
                 out.push(
                     '<a class="row" href="' + href + '">' +
                     '<div class="row-top"><span class="row-title">' + hl(n.title, q) + '</span>' +

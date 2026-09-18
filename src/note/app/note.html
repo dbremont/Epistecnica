@@ -500,6 +500,10 @@
             return d.innerHTML;
         }
 
+        function encPath(p) {
+            return p.split('/').map(encodeURIComponent).join('/');
+        }
+
         function renderCrumbs(path) {
             var parts = path.split('/');
             var html = '<a href="index.html">notes</a>';
@@ -572,7 +576,7 @@
                     var words = md.split(/\s+/).filter(Boolean).length;
                     document.getElementById('meta-words').textContent = words + ' words';
                     document.getElementById('meta-time').textContent = Math.max(1, Math.ceil(words / 200)) + ' min read';
-                    document.getElementById('meta-raw').setAttribute('href', 'notes/' + encodeURIComponent(name));
+                    document.getElementById('meta-raw').setAttribute('href', 'notes/' + encPath(name));
 
                     document.getElementById('note-body').innerHTML = marked.parse(md);
                     document.getElementById('loading').hidden = true;
