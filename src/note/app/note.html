@@ -157,7 +157,7 @@
             gap: 2.5rem;
         }
 
-        .note-main { flex: 1; min-width: 0; max-width: 800px; }
+        .note-main { flex: 4 1 0; min-width: 0; }
 
         .crumbs {
             font-family: var(--font-mono);
@@ -216,12 +216,12 @@
         }
 
         .sidebar {
-            width: 260px;
-            flex-shrink: 0;
+            flex: 1 1 0;
+            min-width: 180px;
             position: sticky;
-            top: 5rem;
+            top: 3.5rem;
             height: fit-content;
-            max-height: calc(100vh - 7rem);
+            max-height: calc(100vh - 5rem);
             overflow-y: auto;
             border-left: 1px solid var(--border-subtle);
             padding-left: 1.25rem;
