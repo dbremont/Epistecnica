@@ -1,3 +1,5 @@
+# ip
+
 > The **Linux `ip` program** is a command-line utility used for configuring and managing network interfaces, routing tables, IP addresses, tunnels, and various network-related settings in Linux, replacing older tools like `ifconfig` and `route` with a more powerful and unified interface.
 > 
 

@@ -1,3 +1,5 @@
+# Lunr.js
+
 > …
 
 ## References

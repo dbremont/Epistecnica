@@ -1,3 +1,5 @@
+# RuboCop
+
 > A Ruby static code analyzer and formatter.
 > 
 

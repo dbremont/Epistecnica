@@ -1,3 +1,5 @@
+# xxd
+
 > **`xxd`** is a command-line utility that creates a hexadecimal (hex) dump of a binary file or converts a hex dump back to binary.
 > 
 

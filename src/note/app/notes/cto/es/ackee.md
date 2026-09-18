@@ -1,2 +1,4 @@
+# Ackee
+
 > Ackee is a self-hosted analytics platform that provides insights into website traffic, visitor demographics, and performance metrics. It offers a minimalist interface and emphasizes privacy and data ownership.
 >

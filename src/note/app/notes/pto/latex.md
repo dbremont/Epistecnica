@@ -1,3 +1,5 @@
+# LaTeX
+
 ## Name’s Origins
 
 The name "LaTeX" originates from the Greek word "λάτεξ," pronounced "latekh," which means "rubber" or "latex" in English. It was chosen by Leslie Lamport, the creator of LaTeX, as a play on the word "TeX," which is the typesetting system developed by Donald Knuth upon which LaTeX is based.

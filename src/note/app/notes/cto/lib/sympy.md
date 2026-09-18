@@ -1,3 +1,5 @@
+# SymPy
+
 > SymPy is implemented in Python as a pure Python library that provides tools for symbolic mathematics.
 > 
 

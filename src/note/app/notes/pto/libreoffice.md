@@ -1,3 +1,5 @@
+# LibreOffice
+
 > LibreOffice is an open-source office productivity suite that utilizes the Universal Network Objects (UNO) component model for modular architecture, providing a comprehensive set of applications—including Writer, Calc, Impress, and Base—built on a cross-platform Visual Class Library (VCL) for rendering and a robust data model using the OpenDocument Format (ODF) for document storage and interchange, allowing for extensibility through scripting and integration with external databases via standardized APIs.
 > 
 
