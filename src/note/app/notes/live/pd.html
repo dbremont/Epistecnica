@@ -4,24 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poisson Distribution — Epistemic Tool</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
+        /* ============================================
+           EPISTEMICA — shared tokens + live-note chrome
+           (canonical blocks: docs/live-note-chrome.md)
+           ============================================ */
+
         :root {
-            --bg: #f8f5f0;
-            --bg-deep: #efe9e0;
-            --fg: #1a1714;
-            --fg-muted: #5c5650;
-            --accent: #0d6b58;
-            --accent-light: #14a085;
-            --accent-dim: rgba(13, 107, 88, 0.12);
-            --card: #fffefb;
-            --border: #d4cfc6;
-            --code: #2d5a4f;
-            --warn: #a65d3f;
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-gold-dim: rgba(197, 164, 103, 0.15);
+            --accent-cyan: #5BF0E7;
+            --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --card-bg: rgba(11, 13, 20, 0.72);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --card-bg: rgba(255, 255, 255, 0.72);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
             --grid: rgba(26, 23, 20, 0.04);
+        }
+
+        body { transition: opacity 180ms ease; }
+        html.theme-fading body { opacity: 0; }
+
+        .site-nav {
+            position: static;
+            z-index: 60;
+            background: var(--nav-bg);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .site-nav .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-nav .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .site-nav .nav-mark { height: 26px; width: auto; }
+        .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+        .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        .site-nav .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .site-footer {
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+            position: relative;
+            z-index: 1;
+        }
+
+        .site-footer .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .site-footer a:hover { color: var(--accent-cyan); }
+
+        /* Page aliases onto the shared tokens */
+        :root {
+            --bg: var(--bg-void);
+            --bg-deep: var(--bg-surface);
+            --fg: var(--text-primary);
+            --fg-muted: var(--text-secondary);
+            --accent: var(--accent-cyan);
+            --accent-light: var(--accent-cyan);
+            --accent-dim: var(--accent-cyan-dim);
+            --card: var(--bg-card);
+            --border: var(--border-subtle);
+            --code: var(--accent-cyan);
+            --warn: var(--accent-gold);
+            --grid: rgba(255, 255, 255, 0.03);
         }
 
         * {
@@ -44,7 +176,7 @@
         }
 
         body {
-            font-family: 'Newsreader', serif;
+            font-family: var(--font-body);
             background: var(--bg);
             color: var(--fg);
             line-height: 1.7;
@@ -56,7 +188,7 @@
         }
 
         .mono {
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
         }
 
         .section-reveal {
@@ -266,18 +398,184 @@
         kbd {
             display: inline-block;
             padding: 2px 6px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 13px;
             background: var(--bg-deep);
             border: 1px solid var(--border);
             border-radius: 3px;
             box-shadow: 0 1px 0 var(--border);
         }
+
+        /* ---- heading face ---- */
+        h1, h2, h3 {
+            font-family: var(--font-display);
+        }
+
+        /* ---- utility shim (replaces the Tailwind CDN) ---- */
+        .page-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: var(--nav-bg);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .block { display: block; }
+        .hidden { display: none; }
+        .flex { display: flex; }
+        .grid { display: grid; }
+        .flex-col { flex-direction: column; }
+        .flex-wrap { flex-wrap: wrap; }
+        .flex-shrink-0 { flex-shrink: 0; }
+        .absolute { position: absolute; }
+        .fixed { position: fixed; }
+        .relative { position: relative; }
+        .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+        .top-0 { top: 0; }
+        .left-0 { left: 0; }
+        .right-0 { right: 0; }
+        .left-1\/2 { left: 50%; }
+        .-translate-x-1\/2 { transform: translateX(-50%); }
+        .z-40 { z-index: 40; }
+        .z-50 { z-index: 50; }
+        .overflow-hidden { overflow: hidden; }
+        .overflow-x-auto { overflow-x: auto; }
+        .cursor-pointer { cursor: pointer; }
+        .whitespace-nowrap { white-space: nowrap; }
+        .items-center { align-items: center; }
+        .items-end { align-items: flex-end; }
+        .items-start { align-items: flex-start; }
+        .justify-between { justify-content: space-between; }
+        .justify-center { justify-content: center; }
+        .justify-start { justify-content: flex-start; }
+        .text-center { text-align: center; }
+        .text-left { text-align: left; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .w-full { width: 100%; }
+        .w-4 { width: 1rem; }
+        .w-5 { width: 1.25rem; }
+        .w-20 { width: 5rem; }
+        .h-4 { height: 1rem; }
+        .h-5 { height: 1.25rem; }
+        .h-40 { height: 10rem; }
+        .h-48 { height: 12rem; }
+        .h-64 { height: 16rem; }
+        .max-w-2xl { max-width: 42rem; }
+        .max-w-5xl { max-width: 64rem; }
+        .min-h-screen { min-height: 100vh; }
+        .gap-1 { gap: 0.25rem; }
+        .gap-2 { gap: 0.5rem; }
+        .gap-3 { gap: 0.75rem; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .gap-8 { gap: 2rem; }
+        .p-2 { padding: 0.5rem; }
+        .p-3 { padding: 0.75rem; }
+        .p-4 { padding: 1rem; }
+        .p-5 { padding: 1.25rem; }
+        .p-6 { padding: 1.5rem; }
+        .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+        .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+        .px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+        .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+        .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .pt-8 { padding-top: 2rem; }
+        .pb-2 { padding-bottom: 0.5rem; }
+        .pb-5 { padding-bottom: 1.25rem; }
+        .pb-24 { padding-bottom: 6rem; }
+        .pl-4 { padding-left: 1rem; }
+        .pr-4 { padding-right: 1rem; }
+        .ml-5 { margin-left: 1.25rem; }
+        .mt-0\.5 { margin-top: 0.125rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mt-3 { margin-top: 0.75rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mt-6 { margin-top: 1.5rem; }
+        .mt-8 { margin-top: 2rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .space-y-1 > * + * { margin-top: 0.25rem; }
+        .space-y-2 > * + * { margin-top: 0.5rem; }
+        .space-y-3 > * + * { margin-top: 0.75rem; }
+        .space-y-4 > * + * { margin-top: 1rem; }
+        .space-y-6 > * + * { margin-top: 1.5rem; }
+        .text-xs { font-size: 0.75rem; line-height: 1.5; }
+        .text-sm { font-size: 0.875rem; line-height: 1.5; }
+        .text-lg { font-size: 1.125rem; line-height: 1.6; }
+        .text-xl { font-size: 1.25rem; line-height: 1.6; }
+        .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+        .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+        .font-medium { font-weight: 500; }
+        .uppercase { text-transform: uppercase; }
+        .tracking-wide { letter-spacing: 0.025em; }
+        .tracking-widest { letter-spacing: 0.1em; }
+        .leading-relaxed { line-height: 1.7; }
+        .leading-tight { line-height: 1.25; }
+        .list-disc { list-style-type: disc; }
+        .text-white { color: #FFFFFF; }
+        .border { border: 1px solid var(--border); }
+        .border-b { border-bottom: 1px solid var(--border); }
+        .border-t { border-top: 1px solid var(--border); }
+        .border-l-2 { border-left: 2px solid var(--border); }
+        .bdr-warn { border-color: var(--warn); }
+        .rounded { border-radius: 0.25rem; }
+        .rounded-t { border-radius: 0.25rem 0.25rem 0 0; }
+        .muted { color: var(--fg-muted); }
+        .warn { color: var(--warn); }
+        .fg-clr { color: var(--fg); }
+        .code-clr { color: var(--code); }
+        .bg-deep { background: var(--bg-deep); }
+        .bg-card-c { background: var(--card); }
+        .bg-ovl { background: color-mix(in srgb, var(--bg) 98%, transparent); }
+        .bg-warn-dim { background: var(--accent-gold-dim); }
+        .bg-accent-dim { background: var(--accent-dim); }
+        .hover-deep:hover { background: var(--bg-deep); }
+        .hover-op:hover { opacity: 0.9; }
+        .opacity-20 { opacity: 0.2; }
+        .backdrop-blur-sm { backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+        .transition-transform { transition: transform 0.2s ease; }
+        .group[open] .group-open\:rotate-180 { transform: rotate(180deg); }
+        .active\:scale-\[0\.98\]:active { transform: scale(0.98); }
+        @media (min-width: 768px) {
+            .md\:flex { display: flex; }
+            .md\:hidden { display: none; }
+            .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .md\:text-xl { font-size: 1.25rem; }
+            .md\:text-3xl { font-size: 1.875rem; line-height: 1.2; }
+            .md\:text-5xl { font-size: 3rem; line-height: 1.1; }
+            .md\:py-24 { padding-top: 6rem; padding-bottom: 6rem; }
+        }
+        @media (min-width: 1024px) {
+            .lg\:text-6xl { font-size: 3.75rem; line-height: 1.05; }
+        }
     </style>
 </head>
 <body class="min-h-screen">
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div class="nav-right">
+                <div class="nav-links"><a href="../../index.html">Catalog</a></div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
+
     <!-- Navigation -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-[var(--bg)]/95 backdrop-blur-sm border-b border-[var(--border)]">
+    <nav class="page-nav">
         <div class="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
             <span class="mono text-sm font-medium accent-text">Poisson Distribution</span>
             <div class="hidden md:flex items-center gap-6 text-sm">
@@ -298,7 +596,7 @@
     </nav>
 
     <!-- Mobile TOC -->
-    <div id="mobile-toc" class="fixed inset-0 z-40 bg-[var(--bg)]/98 hidden flex-col items-center justify-center gap-6 text-lg">
+    <div id="mobile-toc" class="fixed inset-0 z-40 bg-ovl hidden flex-col items-center justify-center gap-6 text-lg">
         <a href="#identity" class="nav-link">Identity</a>
         <a href="#formal" class="nav-link">Formal</a>
         <a href="#simulation" class="nav-link">Simulation</a>
@@ -306,15 +604,15 @@
         <a href="#scope" class="nav-link">Scope</a>
     </div>
 
-    <main class="max-w-5xl mx-auto px-6 pt-20 pb-24">
+    <main class="max-w-5xl mx-auto px-6 pt-8 pb-24">
         
         <!-- Header -->
         <header class="py-16 md:py-24 section-reveal">
-            <p class="mono text-xs uppercase tracking-widest text-[var(--fg-muted)] mb-4">Epistemic Tool Analysis</p>
+            <p class="mono text-xs uppercase tracking-widest muted mb-4">Epistemic Tool Analysis</p>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-medium leading-tight mb-6" style="font-weight: 500;">
                 Poisson Distribution
             </h1>
-            <p class="text-lg md:text-xl text-[var(--fg-muted)] max-w-2xl leading-relaxed">
+            <p class="text-lg md:text-xl muted max-w-2xl leading-relaxed">
                 A discrete probability distribution that transforms observations of rare event counts into probabilistic claims about reality's rate structure.
             </p>
         </header>
@@ -328,22 +626,22 @@
 
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="card p-6">
-                    <h3 class="mono text-sm font-medium text-[var(--fg-muted)] mb-2">Name</h3>
+                    <h3 class="mono text-sm font-medium muted mb-2">Name</h3>
                     <p class="text-xl">Poisson Distribution</p>
-                    <p class="mono text-sm text-[var(--fg-muted)] mt-1">Named after Siméon Denis Poisson (1837)</p>
+                    <p class="mono text-sm muted mt-1">Named after Siméon Denis Poisson (1837)</p>
                 </div>
 
                 <div class="card p-6">
-                    <h3 class="mono text-sm font-medium text-[var(--fg-muted)] mb-2">Type</h3>
+                    <h3 class="mono text-sm font-medium muted mb-2">Type</h3>
                     <p class="text-xl">Generative / Inferential</p>
-                    <p class="text-sm text-[var(--fg-muted)] mt-2">
+                    <p class="text-sm muted mt-2">
                         Belongs to the class of <strong>probability models</strong> — tools that encode uncertainty about observables through parametric structures.
                     </p>
                 </div>
             </div>
 
             <div class="card p-6 mt-6">
-                <h3 class="mono text-sm font-medium text-[var(--fg-muted)] mb-3">One-line Summary</h3>
+                <h3 class="mono text-sm font-medium muted mb-3">One-line Summary</h3>
                 <p class="text-lg">
                     Maps a rate parameter λ to a probability distribution over non-negative integer counts, assuming events occur independently at constant average rate.
                 </p>
@@ -352,7 +650,7 @@
             <!-- Key Insight Box -->
             <div class="insight-box p-5 mt-8">
                 <p class="text-sm font-medium mb-2">Epistemic Insight</p>
-                <p class="text-[var(--fg-muted)]">
+                <p class="muted">
                     The Poisson distribution is not merely a formula — it is a <strong>compression device</strong> that reduces infinite possible temporal event patterns into a single scalar λ, preserving only the rate information while discarding all temporal structure.
                 </p>
             </div>
@@ -367,11 +665,11 @@
 
             <!-- Formula -->
             <div class="formula-box p-6 mb-8">
-                <p class="mono text-sm text-[var(--fg-muted)] mb-4">Probability Mass Function</p>
+                <p class="mono text-sm muted mb-4">Probability Mass Function</p>
                 <div class="text-center text-2xl md:text-3xl mono py-4">
-                    P(X = k) = <span class="text-[var(--code)]">e<sup>-λ</sup> · λ<sup>k</sup> / k!</span>
+                    P(X = k) = <span class=" code-clr">e<sup>-λ</sup> · λ<sup>k</sup> / k!</span>
                 </div>
-                <div class="flex flex-wrap justify-center gap-8 mt-4 text-sm text-[var(--fg-muted)]">
+                <div class="flex flex-wrap justify-center gap-8 mt-4 text-sm muted">
                     <div class="text-center">
                         <span class="mono accent-text">λ</span>
                         <p>rate parameter (expected count)</p>
@@ -389,20 +687,20 @@
 
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="card p-5">
-                    <h3 class="mono text-xs uppercase tracking-wide text-[var(--fg-muted)] mb-3">Input Space</h3>
-                    <p class="text-sm text-[var(--fg-muted)]">
+                    <h3 class="mono text-xs uppercase tracking-wide muted mb-3">Input Space</h3>
+                    <p class="text-sm muted">
                         Single positive real number λ ∈ ℝ⁺ representing the expected number of events per unit interval (time, space, etc.)
                     </p>
                 </div>
                 <div class="card p-5">
-                    <h3 class="mono text-xs uppercase tracking-wide text-[var(--fg-muted)] mb-3">Output Space</h3>
-                    <p class="text-sm text-[var(--fg-muted)]">
+                    <h3 class="mono text-xs uppercase tracking-wide muted mb-3">Output Space</h3>
+                    <p class="text-sm muted">
                         Probability distribution over non-negative integers ℤ⁺₀ with infinite but countable support.
                     </p>
                 </div>
                 <div class="card p-5">
-                    <h3 class="mono text-xs uppercase tracking-wide text-[var(--fg-muted)] mb-3">Transformation</h3>
-                    <p class="text-sm text-[var(--fg-muted)]">
+                    <h3 class="mono text-xs uppercase tracking-wide muted mb-3">Transformation</h3>
+                    <p class="text-sm muted">
                         <span class="mono">T: ℝ⁺ → Δ(ℤ⁺₀)</span><br>
                         Maps rate to probability distribution over counts.
                     </p>
@@ -416,7 +714,7 @@
                     <div class="flex items-center gap-3">
                         <label class="mono text-sm">λ =</label>
                         <input type="number" id="lambda-input" value="4" min="0.1" max="30" step="0.1" 
-                               class="w-20 px-2 py-1 text-center mono text-sm border border-[var(--border)] rounded bg-[var(--card)]">
+                               class="w-20 px-2 py-1 text-center mono text-sm border bdr rounded bg-card-c">
                     </div>
                 </div>
                 
@@ -428,7 +726,7 @@
                     <!-- Bars rendered by JS -->
                 </div>
 
-                <div class="flex justify-between mt-4 text-xs mono text-[var(--fg-muted)]">
+                <div class="flex justify-between mt-4 text-xs mono muted">
                     <span>k (count)</span>
                     <span id="pmf-stats">Mean: 4 | Variance: 4 | Mode: 3, 4</span>
                 </div>
@@ -440,23 +738,23 @@
                     <h3 class="mono text-sm font-medium mb-4">Key Properties</h3>
                     <ul class="space-y-3 text-sm">
                         <li class="flex justify-between">
-                            <span class="text-[var(--fg-muted)]">Mean (E[X])</span>
+                            <span class="muted">Mean (E[X])</span>
                             <span class="mono">λ</span>
                         </li>
                         <li class="flex justify-between">
-                            <span class="text-[var(--fg-muted)]">Variance (Var(X))</span>
+                            <span class="muted">Variance (Var(X))</span>
                             <span class="mono">λ</span>
                         </li>
                         <li class="flex justify-between">
-                            <span class="text-[var(--fg-muted)]">Equidispersion</span>
+                            <span class="muted">Equidispersion</span>
                             <span class="mono accent-text">E[X] = Var(X)</span>
                         </li>
                         <li class="flex justify-between">
-                            <span class="text-[var(--fg-muted)]">Skewness</span>
+                            <span class="muted">Skewness</span>
                             <span class="mono">1/√λ</span>
                         </li>
                         <li class="flex justify-between">
-                            <span class="text-[var(--fg-muted)]">Mode</span>
+                            <span class="muted">Mode</span>
                             <span class="mono">⌊λ⌋ and ⌈λ⌉ - 1</span>
                         </li>
                     </ul>
@@ -464,13 +762,13 @@
 
                 <div class="card p-5">
                     <h3 class="mono text-sm font-medium mb-4">Additive Property</h3>
-                    <p class="text-sm text-[var(--fg-muted)] mb-3">
+                    <p class="text-sm muted mb-3">
                         If X₁ ~ Poisson(λ₁) and X₂ ~ Poisson(λ₂) are independent:
                     </p>
                     <div class="formula-box p-3 text-center mono">
                         X₁ + X₂ ~ Poisson(λ₁ + λ₂)
                     </div>
-                    <p class="text-xs text-[var(--fg-muted)] mt-3">
+                    <p class="text-xs muted mt-3">
                         This property enables aggregation of counts across intervals while preserving distributional form.
                     </p>
                 </div>
@@ -489,11 +787,11 @@
                     <div class="flex items-start justify-between gap-4">
                         <div>
                             <h4 class="font-medium mb-1">Stationarity</h4>
-                            <p class="text-sm text-[var(--fg-muted)]">
+                            <p class="text-sm muted">
                                 The rate λ remains constant throughout the observation period. Event probability does not change over time or space.
                             </p>
                         </div>
-                        <span class="mono text-xs px-2 py-1 rounded bg-[var(--bg-deep)]" id="a1-status">Required</span>
+                        <span class="mono text-xs px-2 py-1 rounded bg-deep" id="a1-status">Required</span>
                     </div>
                 </div>
 
@@ -501,11 +799,11 @@
                     <div class="flex items-start justify-between gap-4">
                         <div>
                             <h4 class="font-medium mb-1">Independence</h4>
-                            <p class="text-sm text-[var(--fg-muted)]">
+                            <p class="text-sm muted">
                                 The occurrence of one event does not affect the probability of another. No clustering or contagion effects.
                             </p>
                         </div>
-                        <span class="mono text-xs px-2 py-1 rounded bg-[var(--bg-deep)]" id="a2-status">Required</span>
+                        <span class="mono text-xs px-2 py-1 rounded bg-deep" id="a2-status">Required</span>
                     </div>
                 </div>
 
@@ -513,18 +811,18 @@
                     <div class="flex items-start justify-between gap-4">
                         <div>
                             <h4 class="font-medium mb-1">Rarity (at infinitesimal scale)</h4>
-                            <p class="text-sm text-[var(--fg-muted)]">
+                            <p class="text-sm muted">
                                 In very small subintervals, the probability of more than one event is negligible. Events occur one at a time.
                             </p>
                         </div>
-                        <span class="mono text-xs px-2 py-1 rounded bg-[var(--bg-deep)]" id="a3-status">Required</span>
+                        <span class="mono text-xs px-2 py-1 rounded bg-deep" id="a3-status">Required</span>
                     </div>
                 </div>
             </div>
 
             <div class="insight-box p-5 mt-8">
                 <p class="text-sm font-medium mb-2">Epistemic Warning</p>
-                <p class="text-[var(--fg-muted)] text-sm">
+                <p class="muted text-sm">
                     These assumptions are rarely perfectly satisfied in real-world data. The Poisson distribution is best understood as an <strong>idealization</strong> — a useful approximation whose validity must be assessed, not assumed.
                 </p>
             </div>
@@ -537,7 +835,7 @@
                 <h2 class="text-2xl font-medium">Mechanism & Simulation</h2>
             </div>
 
-            <p class="text-[var(--fg-muted)] mb-8 max-w-2xl">
+            <p class="muted mb-8 max-w-2xl">
                 Observe how Poisson-distributed events emerge from a constant-rate process. Each simulation generates events over time intervals, demonstrating the relationship between λ and observed counts.
             </p>
 
@@ -545,7 +843,7 @@
             <div class="card p-6 mb-6">
                 <div class="grid md:grid-cols-3 gap-6 mb-6">
                     <div>
-                        <label class="mono text-xs uppercase tracking-wide text-[var(--fg-muted)] block mb-2">Rate (λ events/unit time)</label>
+                        <label class="mono text-xs uppercase tracking-wide muted block mb-2">Rate (λ events/unit time)</label>
                         <input type="range" id="sim-lambda" value="5" min="1" max="15" step="0.5">
                         <div class="flex justify-between text-xs mono mt-1">
                             <span>1</span>
@@ -554,7 +852,7 @@
                         </div>
                     </div>
                     <div>
-                        <label class="mono text-xs uppercase tracking-wide text-[var(--fg-muted)] block mb-2">Intervals</label>
+                        <label class="mono text-xs uppercase tracking-wide muted block mb-2">Intervals</label>
                         <input type="range" id="sim-intervals" value="20" min="5" max="50" step="5">
                         <div class="flex justify-between text-xs mono mt-1">
                             <span>5</span>
@@ -563,7 +861,7 @@
                         </div>
                     </div>
                     <div class="flex items-end">
-                        <button id="run-sim" class="w-full px-4 py-2 accent-bg text-white rounded font-medium hover:opacity-90 active:scale-[0.98]">
+                        <button id="run-sim" class="w-full px-4 py-2 accent-bg text-white rounded font-medium hover-op active:scale-[0.98]">
                             Run Simulation
                         </button>
                     </div>
@@ -574,11 +872,11 @@
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="card p-5">
                     <h4 class="mono text-sm font-medium mb-4">Event Timeline</h4>
-                    <div id="timeline" class="h-48 bg-[var(--bg-deep)] rounded overflow-hidden relative">
+                    <div id="timeline" class="h-48 bg-deep rounded overflow-hidden relative">
                         <div class="absolute inset-0 opacity-20" style="background: repeating-linear-gradient(90deg, var(--border) 0, var(--border) 1px, transparent 1px, transparent 10%)"></div>
                         <div id="timeline-events" class="absolute inset-0"></div>
                     </div>
-                    <p class="text-xs text-[var(--fg-muted)] mt-2">Each dot represents an event occurrence over time</p>
+                    <p class="text-xs muted mt-2">Each dot represents an event occurrence over time</p>
                 </div>
 
                 <div class="card p-5">
@@ -586,7 +884,7 @@
                     <div id="sim-histogram" class="h-48 flex items-end gap-1">
                         <!-- Histogram bars -->
                     </div>
-                    <div class="flex justify-between mt-2 text-xs mono text-[var(--fg-muted)]">
+                    <div class="flex justify-between mt-2 text-xs mono muted">
                         <span>Count (k)</span>
                         <span id="sim-stats">Sample mean: —</span>
                     </div>
@@ -598,14 +896,14 @@
                 <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
                     <div>
                         <h4 class="mono text-sm font-medium">Law of Large Numbers</h4>
-                        <p class="text-xs text-[var(--fg-muted)]">Observe sample mean converging to λ as observations accumulate</p>
+                        <p class="text-xs muted">Observe sample mean converging to λ as observations accumulate</p>
                     </div>
-                    <button id="reset-convergence" class="px-3 py-1 text-sm border border-[var(--border)] rounded hover:bg-[var(--bg-deep)]">
+                    <button id="reset-convergence" class="px-3 py-1 text-sm border bdr rounded hover-deep">
                         Reset
                     </button>
                 </div>
-                <canvas id="convergence-canvas" class="w-full h-40 bg-[var(--bg-deep)] rounded"></canvas>
-                <div class="flex justify-between mt-2 text-xs mono text-[var(--fg-muted)]">
+                <canvas id="convergence-canvas" class="w-full h-40 bg-deep rounded"></canvas>
+                <div class="flex justify-between mt-2 text-xs mono muted">
                     <span>Sample size (n)</span>
                     <span id="conv-stats">|Sample mean - λ|: —</span>
                 </div>
@@ -622,7 +920,7 @@
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="card p-6">
                     <h3 class="mono text-sm font-medium mb-4">Function</h3>
-                    <p class="text-[var(--fg-muted)] mb-4">
+                    <p class="muted mb-4">
                         The Poisson distribution resolves the epistemic gap between:
                     </p>
                     <ul class="space-y-2 text-sm">
@@ -666,34 +964,34 @@
                 </div>
             </div>
 
-            <div class="card p-6 mt-6 border-l-2 border-[var(--warn)]">
-                <h3 class="mono text-sm font-medium mb-4 text-[var(--warn)]">Destruction / Loss Profile</h3>
+            <div class="card p-6 mt-6 border-l-2 bdr-warn">
+                <h3 class="mono text-sm font-medium mb-4 warn">Destruction / Loss Profile</h3>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <ul class="space-y-2 text-sm text-[var(--fg-muted)]">
+                    <ul class="space-y-2 text-sm muted">
                         <li class="flex gap-2">
-                            <span class="text-[var(--warn)]">×</span>
+                            <span class="warn">×</span>
                             <span><strong>Temporal structure</strong> — when events occurred is lost</span>
                         </li>
                         <li class="flex gap-2">
-                            <span class="text-[var(--warn)]">×</span>
+                            <span class="warn">×</span>
                             <span><strong>Event characteristics</strong> — magnitude, duration, severity</span>
                         </li>
                         <li class="flex gap-2">
-                            <span class="text-[var(--warn)]">×</span>
+                            <span class="warn">×</span>
                             <span><strong>Causal dependencies</strong> — why events occurred</span>
                         </li>
                     </ul>
-                    <ul class="space-y-2 text-sm text-[var(--fg-muted)]">
+                    <ul class="space-y-2 text-sm muted">
                         <li class="flex gap-2">
-                            <span class="text-[var(--warn)]">×</span>
+                            <span class="warn">×</span>
                             <span><strong>Rate variation</strong> — fluctuations in λ over time</span>
                         </li>
                         <li class="flex gap-2">
-                            <span class="text-[var(--warn)]">×</span>
+                            <span class="warn">×</span>
                             <span><strong>Overdispersion</strong> — variance exceeding mean</span>
                         </li>
                         <li class="flex gap-2">
-                            <span class="text-[var(--warn)]">×</span>
+                            <span class="warn">×</span>
                             <span><strong>Zero-inflation</strong> — excess zeros beyond model</span>
                         </li>
                     </ul>
@@ -709,7 +1007,7 @@
             </div>
 
             <!-- Tabs -->
-            <div class="flex gap-6 border-b border-[var(--border)] mb-6">
+            <div class="flex gap-6 border-b bdr mb-6">
                 <button class="tab-btn active mono text-sm py-2" data-tab="correctness">Correctness</button>
                 <button class="tab-btn mono text-sm py-2" data-tab="empirical">Empirical</button>
                 <button class="tab-btn mono text-sm py-2" data-tab="failures">Failures</button>
@@ -720,21 +1018,21 @@
                 <div class="card p-6">
                     <h4 class="font-medium mb-4">Formal Correctness Criteria</h4>
                     <div class="space-y-4">
-                        <div class="p-4 bg-[var(--bg-deep)] rounded">
+                        <div class="p-4 bg-deep rounded">
                             <p class="mono text-sm mb-2">Limit Theorem</p>
-                            <p class="text-sm text-[var(--fg-muted)]">
+                            <p class="text-sm muted">
                                 Poisson arises as limit of Binomial(n, p) as n → ∞, p → 0, np → λ. This provides mathematical grounding for the "rare events" interpretation.
                             </p>
                         </div>
-                        <div class="p-4 bg-[var(--bg-deep)] rounded">
+                        <div class="p-4 bg-deep rounded">
                             <p class="mono text-sm mb-2">Maximum Entropy</p>
-                            <p class="text-sm text-[var(--fg-muted)]">
+                            <p class="text-sm muted">
                                 Among all distributions with fixed mean on non-negative integers, Poisson has maximum entropy. It makes minimal additional assumptions.
                             </p>
                         </div>
-                        <div class="p-4 bg-[var(--bg-deep)] rounded">
+                        <div class="p-4 bg-deep rounded">
                             <p class="mono text-sm mb-2">Consistency</p>
-                            <p class="text-sm text-[var(--fg-muted)]">
+                            <p class="text-sm muted">
                                 The sample mean converges to λ almost surely (SLLN), providing consistent estimation.
                             </p>
                         </div>
@@ -749,19 +1047,19 @@
                     <!-- Dispersion Test -->
                     <div class="mb-6">
                         <p class="mono text-sm mb-2">Dispersion Test</p>
-                        <p class="text-sm text-[var(--fg-muted)] mb-3">Check if variance ≈ mean (equidispersion holds)</p>
+                        <p class="text-sm muted mb-3">Check if variance ≈ mean (equidispersion holds)</p>
                         <div class="interactive-box p-4">
                             <div class="grid md:grid-cols-2 gap-4 mb-4">
                                 <div>
-                                    <label class="text-xs text-[var(--fg-muted)]">Sample Mean</label>
-                                    <input type="number" id="test-mean" value="5" step="0.1" class="w-full mt-1 px-2 py-1 border border-[var(--border)] rounded bg-[var(--card)] mono">
+                                    <label class="text-xs muted">Sample Mean</label>
+                                    <input type="number" id="test-mean" value="5" step="0.1" class="w-full mt-1 px-2 py-1 border bdr rounded bg-card-c mono">
                                 </div>
                                 <div>
-                                    <label class="text-xs text-[var(--fg-muted)]">Sample Variance</label>
-                                    <input type="number" id="test-var" value="8" step="0.1" class="w-full mt-1 px-2 py-1 border border-[var(--border)] rounded bg-[var(--card)] mono">
+                                    <label class="text-xs muted">Sample Variance</label>
+                                    <input type="number" id="test-var" value="8" step="0.1" class="w-full mt-1 px-2 py-1 border bdr rounded bg-card-c mono">
                                 </div>
                             </div>
-                            <button id="run-dispersion" class="px-4 py-2 accent-bg text-white rounded text-sm hover:opacity-90">Test</button>
+                            <button id="run-dispersion" class="px-4 py-2 accent-bg text-white rounded text-sm hover-op">Test</button>
                             <div id="dispersion-result" class="mt-4 p-3 rounded text-sm hidden"></div>
                         </div>
                     </div>
@@ -769,7 +1067,7 @@
                     <!-- Goodness of Fit -->
                     <div>
                         <p class="mono text-sm mb-2">Chi-Square Goodness of Fit</p>
-                        <p class="text-sm text-[var(--fg-muted)]">
+                        <p class="text-sm muted">
                             Compare observed frequencies with expected frequencies under Poisson model.
                         </p>
                     </div>
@@ -781,25 +1079,25 @@
                     <h4 class="font-medium mb-4">Systematic Failure Modes</h4>
                     <div class="space-y-4">
                         <div class="assumption-card card p-4 violated">
-                            <h5 class="font-medium text-[var(--warn)]">Overdispersion</h5>
-                            <p class="text-sm text-[var(--fg-muted)] mt-1">
+                            <h5 class="font-medium warn">Overdispersion</h5>
+                            <p class="text-sm muted mt-1">
                                 When variance > mean. Common in clustered data, mixed populations, or when independence fails.
                             </p>
-                            <p class="text-xs mono mt-2 text-[var(--fg-muted)]">Alternative: Negative Binomial</p>
+                            <p class="text-xs mono mt-2 muted">Alternative: Negative Binomial</p>
                         </div>
                         <div class="assumption-card card p-4 violated">
-                            <h5 class="font-medium text-[var(--warn)]">Underdispersion</h5>
-                            <p class="text-sm text-[var(--fg-muted)] mt-1">
+                            <h5 class="font-medium warn">Underdispersion</h5>
+                            <p class="text-sm muted mt-1">
                                 When variance < mean. Occurs with regularization, bounded counts, or competitive events.
                             </p>
-                            <p class="text-xs mono mt-2 text-[var(--fg-muted)]">Alternative: Generalized Poisson, COM-Poisson</p>
+                            <p class="text-xs mono mt-2 muted">Alternative: Generalized Poisson, COM-Poisson</p>
                         </div>
                         <div class="assumption-card card p-4 violated">
-                            <h5 class="font-medium text-[var(--warn)]">Zero-Inflation</h5>
-                            <p class="text-sm text-[var(--fg-muted)] mt-1">
+                            <h5 class="font-medium warn">Zero-Inflation</h5>
+                            <p class="text-sm muted mt-1">
                                 Excess zeros beyond what Poisson predicts. Common in "hurdle" scenarios or structural zeros.
                             </p>
-                            <p class="text-xs mono mt-2 text-[var(--fg-muted)]">Alternative: Zero-inflated Poisson (ZIP)</p>
+                            <p class="text-xs mono mt-2 muted">Alternative: Zero-inflated Poisson (ZIP)</p>
                         </div>
                     </div>
                 </div>
@@ -816,7 +1114,7 @@
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="card p-5">
                     <h4 class="mono text-sm font-medium mb-4">Valid Domains</h4>
-                    <ul class="space-y-2 text-sm text-[var(--fg-muted)]">
+                    <ul class="space-y-2 text-sm muted">
                         <li>• Radioactive decay events</li>
                         <li>• Phone calls at a call center</li>
                         <li>• Website hits per minute</li>
@@ -828,7 +1126,7 @@
 
                 <div class="card p-5">
                     <h4 class="mono text-sm font-medium mb-4">Questionable Domains</h4>
-                    <ul class="space-y-2 text-sm text-[var(--fg-muted)]">
+                    <ul class="space-y-2 text-sm muted">
                         <li>• Disease outbreaks (contagion)</li>
                         <li>• Traffic accidents (clustering)</li>
                         <li>• Insurance claims (catastrophes)</li>
@@ -839,7 +1137,7 @@
 
                 <div class="card p-5">
                     <h4 class="mono text-sm font-medium mb-4">Structural Limits</h4>
-                    <ul class="space-y-2 text-sm text-[var(--fg-muted)]">
+                    <ul class="space-y-2 text-sm muted">
                         <li>• Cannot model bimodality</li>
                         <li>• Single parameter limits flexibility</li>
                         <li>• Requires constant rate</li>
@@ -855,27 +1153,27 @@
                 <div class="overflow-x-auto">
                     <table class="w-full text-sm">
                         <thead>
-                            <tr class="border-b border-[var(--border)]">
+                            <tr class="border-b bdr">
                                 <th class="text-left py-2 pr-4 font-medium">Tool</th>
                                 <th class="text-left py-2 px-4 font-medium">Parameters</th>
                                 <th class="text-left py-2 px-4 font-medium">Variance/Mean</th>
                                 <th class="text-left py-2 pl-4 font-medium">When to Use</th>
                             </tr>
                         </thead>
-                        <tbody class="text-[var(--fg-muted)]">
-                            <tr class="border-b border-[var(--border)]">
-                                <td class="py-3 pr-4 font-medium text-[var(--fg)]">Poisson</td>
+                        <tbody class="muted">
+                            <tr class="border-b bdr">
+                                <td class="py-3 pr-4 font-medium fg-clr">Poisson</td>
                                 <td class="py-3 px-4 mono">λ</td>
                                 <td class="py-3 px-4 mono">= 1</td>
                                 <td class="py-3 pl-4">Rare, independent events</td>
                             </tr>
-                            <tr class="border-b border-[var(--border)]">
+                            <tr class="border-b bdr">
                                 <td class="py-3 pr-4">Binomial</td>
                                 <td class="py-3 px-4 mono">n, p</td>
                                 <td class="py-3 px-4 mono">&lt; 1</td>
                                 <td class="py-3 pl-4">Fixed number of trials</td>
                             </tr>
-                            <tr class="border-b border-[var(--border)]">
+                            <tr class="border-b bdr">
                                 <td class="py-3 pr-4">Negative Binomial</td>
                                 <td class="py-3 px-4 mono">r, p</td>
                                 <td class="py-3 px-4 mono">&gt; 1</td>
@@ -902,13 +1200,13 @@
 
             <div class="space-y-4">
                 <details class="card group">
-                    <summary class="p-5 cursor-pointer flex justify-between items-center hover:bg-[var(--bg-deep)]">
+                    <summary class="p-5 cursor-pointer flex justify-between items-center hover-deep">
                         <span class="font-medium">What happens if the rate λ varies over time?</span>
                         <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </summary>
-                    <div class="px-5 pb-5 text-[var(--fg-muted)]">
+                    <div class="px-5 pb-5 muted">
                         <p class="mb-3">If the rate varies, you're no longer dealing with a single Poisson process. The aggregate will typically show <strong>overdispersion</strong> — variance exceeds mean. This is because:</p>
                         <div class="formula-box p-3 mono text-sm mb-3">
                             Var(total) = E[Var(X|λ)] + Var(E[X|λ]) = E[λ] + Var(λ) > E[λ]
@@ -918,13 +1216,13 @@
                 </details>
 
                 <details class="card group">
-                    <summary class="p-5 cursor-pointer flex justify-between items-center hover:bg-[var(--bg-deep)]">
+                    <summary class="p-5 cursor-pointer flex justify-between items-center hover-deep">
                         <span class="font-medium">Can two different processes produce indistinguishable count distributions?</span>
                         <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </summary>
-                    <div class="px-5 pb-5 text-[var(--fg-muted)]">
+                    <div class="px-5 pb-5 muted">
                         <p><strong>Yes.</strong> This is an identifiability problem. Given only count data, you cannot distinguish between:</p>
                         <ul class="list-disc ml-5 mt-2 space-y-1">
                             <li>A homogeneous Poisson process with rate λ</li>
@@ -936,13 +1234,13 @@
                 </details>
 
                 <details class="card group">
-                    <summary class="p-5 cursor-pointer flex justify-between items-center hover:bg-[var(--bg-deep)]">
+                    <summary class="p-5 cursor-pointer flex justify-between items-center hover-deep">
                         <span class="font-medium">What invariant does Poisson rely on most critically?</span>
                         <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </summary>
-                    <div class="px-5 pb-5 text-[var(--fg-muted)]">
+                    <div class="px-5 pb-5 muted">
                         <p>The <strong>equidispersion invariant</strong>: E[X] = Var(X). This is the signature property that distinguishes Poisson from other count distributions. When this invariant fails:</p>
                         <ul class="list-disc ml-5 mt-2 space-y-1">
                             <li>Overdispersion → model underestimates variability</li>
@@ -953,13 +1251,13 @@
                 </details>
 
                 <details class="card group">
-                    <summary class="p-5 cursor-pointer flex justify-between items-center hover:bg-[var(--bg-deep)]">
+                    <summary class="p-5 cursor-pointer flex justify-between items-center hover-deep">
                         <span class="font-medium">How does sample size affect Poisson inference?</span>
                         <svg class="w-5 h-5 transform transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </summary>
-                    <div class="px-5 pb-5 text-[var(--fg-muted)]">
+                    <div class="px-5 pb-5 muted">
                         <p>With larger samples:</p>
                         <ul class="list-disc ml-5 mt-2 space-y-1">
                             <li>Estimate precision improves (∝ 1/√n)</li>
@@ -982,27 +1280,27 @@
             <div class="card p-6">
                 <h4 class="font-medium mb-4">Systematic Misunderstandings</h4>
                 <div class="space-y-6">
-                    <div class="border-l-2 border-[var(--warn)] pl-4">
-                        <h5 class="font-medium text-[var(--warn)]">Confusion between artifact and reality</h5>
-                        <p class="text-sm text-[var(--fg-muted)] mt-1">
+                    <div class="border-l-2 bdr-warn pl-4">
+                        <h5 class="font-medium warn">Confusion between artifact and reality</h5>
+                        <p class="text-sm muted mt-1">
                             The Poisson distribution describes our <em>representation</em> of uncertainty, not the underlying generative process. Real events don't "follow" a Poisson — our model assumes independence and constant rate as useful approximations.
                         </p>
                     </div>
-                    <div class="border-l-2 border-[var(--warn)] pl-4">
-                        <h5 class="font-medium text-[var(--warn)]">Misinterpretation of assumptions as facts</h5>
-                        <p class="text-sm text-[var(--fg-muted)] mt-1">
+                    <div class="border-l-2 bdr-warn pl-4">
+                        <h5 class="font-medium warn">Misinterpretation of assumptions as facts</h5>
+                        <p class="text-sm muted mt-1">
                             Independence and stationarity are <em>assumed</em>, not discovered. They are simplifying choices that make the model tractable, not empirical truths to be accepted uncritically.
                         </p>
                     </div>
-                    <div class="border-l-2 border-[var(--warn)] pl-4">
-                        <h5 class="font-medium text-[var(--warn)]">Overextension beyond scope</h5>
-                        <p class="text-sm text-[var(--fg-muted)] mt-1">
+                    <div class="border-l-2 bdr-warn pl-4">
+                        <h5 class="font-medium warn">Overextension beyond scope</h5>
+                        <p class="text-sm muted mt-1">
                             Applying Poisson to bounded counts (can't exceed n), heavy-tailed phenomena (power law distributions), or clustered data violates core assumptions. The model's simplicity invites overuse.
                         </p>
                     </div>
-                    <div class="border-l-2 border-[var(--warn)] pl-4">
-                        <h5 class="font-medium text-[var(--warn)]">Treating λ as a property of the world</h5>
-                        <p class="text-sm text-[var(--fg-muted)] mt-1">
+                    <div class="border-l-2 bdr-warn pl-4">
+                        <h5 class="font-medium warn">Treating λ as a property of the world</h5>
+                        <p class="text-sm muted mt-1">
                             λ is an epistemic parameter — a summary of our expectations — not an ontological feature. Different observers with different information may legitimately use different λ values for the same phenomenon.
                         </p>
                     </div>
@@ -1011,8 +1309,8 @@
         </section>
 
         <!-- Footer -->
-        <footer class="py-12 border-t border-[var(--border)] section-reveal">
-            <div class="flex flex-wrap justify-between gap-6 text-sm text-[var(--fg-muted)]">
+        <footer class="py-12 border-t bdr section-reveal">
+            <div class="flex flex-wrap justify-between gap-6 text-sm muted">
                 <div>
                     <p class="mono text-xs uppercase tracking-wide mb-2">Tool</p>
                     <p>Poisson Distribution</p>
@@ -1028,6 +1326,13 @@
             </div>
         </footer>
     </main>
+
+    <footer class="site-footer">
+        <div class="foot-inner">
+            <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+            <a href="../../index.html">&larr; CATALOG</a>
+        </div>
+    </footer>
 
     <script>
         // ========== Initialization ==========
@@ -1107,7 +1412,7 @@
                             k=${k}: ${(p * 100).toFixed(2)}%
                         </div>
                     </div>
-                    <span class="text-xs mono mt-1 text-[var(--fg-muted)]">${k}</span>
+                    <span class="text-xs mono mt-1 muted">${k}</span>
                 `;
                 pmfChart.appendChild(bar);
             }
@@ -1221,15 +1526,34 @@
             convCtx.scale(window.devicePixelRatio, window.devicePixelRatio);
         }
 
+        function themeColors() {
+            const s = getComputedStyle(document.documentElement);
+            return {
+                primary: s.getPropertyValue('--text-primary').trim(),
+                cyan: s.getPropertyValue('--accent-cyan').trim(),
+                surface: s.getPropertyValue('--bg-surface').trim()
+            };
+        }
+
+        function withAlpha(color, alpha) {
+            const m = /^#([0-9a-f]{6})$/i.exec(color);
+            if (m) {
+                const n = parseInt(m[1], 16);
+                return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+            }
+            return color;
+        }
+
         function drawConvergence() {
             const w = convergenceCanvas.width / window.devicePixelRatio;
             const h = convergenceCanvas.height / window.devicePixelRatio;
-            
-            convCtx.fillStyle = '#efe9e0';
+            const colors = themeColors();
+
+            convCtx.fillStyle = colors.surface;
             convCtx.fillRect(0, 0, w, h);
-            
+
             // Grid
-            convCtx.strokeStyle = 'rgba(26, 23, 20, 0.08)';
+            convCtx.strokeStyle = withAlpha(colors.primary, '0.08');
             convCtx.lineWidth = 1;
             for (let i = 0; i <= 10; i++) {
                 const y = (i / 10) * h;
@@ -1242,7 +1566,7 @@
             // λ line
             const lambda = state.simLambda;
             const lambdaY = h - (lambda / (lambda * 2)) * h;
-            convCtx.strokeStyle = 'rgba(13, 107, 88, 0.3)';
+            convCtx.strokeStyle = withAlpha(colors.cyan, '0.3');
             convCtx.setLineDash([5, 5]);
             convCtx.beginPath();
             convCtx.moveTo(0, clamp(lambdaY, 0, h));
@@ -1252,7 +1576,7 @@
             
             // Data line
             if (state.convergenceData.length > 1) {
-                convCtx.strokeStyle = '#0d6b58';
+                convCtx.strokeStyle = colors.cyan;
                 convCtx.lineWidth = 2;
                 convCtx.beginPath();
                 
@@ -1273,7 +1597,7 @@
                 const lastMean = state.convergenceData[state.convergenceData.length - 1];
                 const lastX = ((state.convergenceData.length - 1) / maxN) * w;
                 const lastY = clamp(h - (lastMean / (lambda * 2)) * h, 0, h);
-                convCtx.fillStyle = '#0d6b58';
+                convCtx.fillStyle = colors.cyan;
                 convCtx.beginPath();
                 convCtx.arc(lastX, lastY, 4, 0, Math.PI * 2);
                 convCtx.fill();
@@ -1334,19 +1658,19 @@
             dispersionResult.classList.remove('hidden');
             
             if (ratio > 1.5) {
-                dispersionResult.className = 'mt-4 p-3 rounded text-sm bg-[rgba(166,93,63,0.1)]';
+                dispersionResult.className = 'mt-4 p-3 rounded text-sm bg-warn-dim';
                 dispersionResult.innerHTML = `
                     <strong>Overdispersed</strong> (ratio = ${ratio.toFixed(2)})<br>
                     Variance substantially exceeds mean. Consider Negative Binomial or check for clustering.
                 `;
             } else if (ratio < 0.67) {
-                dispersionResult.className = 'mt-4 p-3 rounded text-sm bg-[rgba(166,93,63,0.1)]';
+                dispersionResult.className = 'mt-4 p-3 rounded text-sm bg-warn-dim';
                 dispersionResult.innerHTML = `
                     <strong>Underdispersed</strong> (ratio = ${ratio.toFixed(2)})<br>
                     Variance less than mean. Consider COM-Poisson or check for regularity.
                 `;
             } else {
-                dispersionResult.className = 'mt-4 p-3 rounded text-sm bg-[rgba(13,107,88,0.1)]';
+                dispersionResult.className = 'mt-4 p-3 rounded text-sm bg-accent-dim';
                 dispersionResult.innerHTML = `
                     <strong>Equidispersed</strong> (ratio = ${ratio.toFixed(2)})<br>
                     Variance and mean are approximately equal. Poisson assumption is plausible.
@@ -1439,6 +1763,38 @@
         resizeCanvas();
         renderPMF(state.lambda);
         drawConvergence();
+
+        // Redraw canvas-drawn visuals when the site theme changes
+        window.addEventListener('epistecnica-theme', () => drawConvergence());
+    </script>
+
+    <script>
+    (function () {
+        var toggle = document.getElementById('themeToggle');
+        var label = document.getElementById('themeLabel');
+        var fading = false;
+        function apply() {
+            label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+        toggle.addEventListener('click', function () {
+            if (fading) return;
+            fading = true;
+            var root = document.documentElement;
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var swap = function () {
+                root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                apply();
+                root.classList.remove('theme-fading');
+                fading = false;
+                window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+            };
+            if (reduced) { swap(); return; }
+            root.classList.add('theme-fading');
+            setTimeout(swap, 190);
+        });
+        apply();
+    })();
     </script>
 </body>
 </html>
