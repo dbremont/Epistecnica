@@ -13,6 +13,19 @@
     --border-subtle: rgba(255, 255, 255, 0.07);
 }
 
+html[data-theme="light"] {
+    --bg-void: #F7F5F0;
+    --bg-surface: #F1EEE7;
+    --bg-card: #FFFFFF;
+    --text-primary: #1A1D24;
+    --text-secondary: #4A4F5E;
+    --text-muted: #7A7F8E;
+    --accent-gold: #9A7B3F;
+    --accent-cyan: #0E7C72;
+    --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+    --border-subtle: rgba(20, 22, 30, 0.10);
+}
+
 .markdown-body {
     font-family: var(--font-body);
     font-weight: 300;

@@ -37,6 +37,44 @@ per-project pages are the reference implementations.
   visual weight. Avoid heavy shadows; use hairline borders and background
   shifts for elevation.
 
+### Light theme
+
+Dark is the brand's home and the default. Every page also carries a light
+palette under `html[data-theme="light"]` — warm paper, slate text, and
+darkened accents so contrast holds:
+
+```css
+html[data-theme="light"] {
+  --bg-void: #F7F5F0;          /* warm paper                            */
+  --bg-surface: #F1EEE7;       /* elevated                              */
+  --bg-card: #FFFFFF;          /* interactive                           */
+  --text-primary: #1A1D24;
+  --text-secondary: #4A4F5E;
+  --text-muted: #7A7F8E;
+  --accent-gold: #9A7B3F;      /* darkened for paper                    */
+  --accent-gold-dim: rgba(154, 123, 63, 0.12);
+  --accent-cyan: #0E7C72;      /* deep teal                             */
+  --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+  --border-subtle: rgba(20, 22, 30, 0.10);
+  --nav-bg: rgba(247, 245, 240, 0.85);
+  --footer-bg: rgba(247, 245, 240, 0.75);
+}
+```
+
+Mechanics (identical on every themed surface; the hub is the reference
+implementation):
+
+- `localStorage` key **`epistecnica-theme`** (`dark` | `light`), shared
+  across surfaces — a choice made anywhere applies everywhere.
+- A one-line inline `<head>` script applies the saved theme **before first
+  paint** (no flash). No saved value → dark.
+- The nav toggle (`◐ LIGHT/DARK`, showing the theme you'd switch to) swaps
+  through a **curtain fade**: `body` fades out ~180 ms, `data-theme` flips
+  while hidden, content fades back in. Guarded against re-clicks;
+  `prefers-reduced-motion` swaps instantly. `html` carries
+  `background: var(--bg-void)` so the reveal is always themed.
+- The ambient constellation's dot/link colors follow the active theme.
+
 ## 3. Typography
 
 Three typefaces establish a strict hierarchy between narrative, function, and
@@ -100,3 +138,21 @@ reproducing actual data.
   gloss where apt (*Epistecnica — Epistemic & Technical Ontologies*).
 - Labels/metadata: uppercase mono, letterspaced (`0.18–0.35em`).
 - Metric emptiness: em dash `—` in muted/gold, never `0` or `N/A` invented.
+
+## 9. Nav bar standard
+
+Every surface's nav follows the hub (`index.html`), the reference
+implementation. Do not invent per-page variants.
+
+- **Left — brand lockup:** the graph mark (`mark-alpha.png`, ~26px, true
+  transparency — never blend-mode tricks, never the raw black-backed
+  masters) + the two-tone wordmark as **live typography** (`Episte` in
+  `--text-primary`, `cnica` italic in `--accent-gold`). The lockup links
+  to the hub (`/`). Never embed the wordmark as an image.
+- **Right — mono uppercase page links, then the theme toggle** (`◐` +
+  label showing the theme you'd switch to). Links: mono, ~0.6rem,
+  letterspaced, muted → cyan on hover.
+- Themes, persistence, boot script, and the curtain fade per §2.
+
+Surfaces are one directory deep (`/note/`, …): reference shared root
+assets relatively (`../mark-alpha.png`).

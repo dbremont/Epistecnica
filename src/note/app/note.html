@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note — Epistecnica</title>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -21,13 +22,31 @@
             --accent-cyan: #5BF0E7;
             --accent-cyan-dim: rgba(91, 240, 231, 0.1);
             --border-subtle: rgba(255, 255, 255, 0.07);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
             --font-display: 'Cormorant Garamond', serif;
             --font-body: 'Inter', sans-serif;
             --font-mono: 'JetBrains Mono', monospace;
         }
 
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
+        }
+
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
 
         body {
             background: var(--bg-void);
@@ -37,6 +56,14 @@
             display: flex;
             flex-direction: column;
             overflow-x: hidden;
+            transition: opacity 180ms ease;
+        }
+
+        html.theme-fading body { opacity: 0; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            body { transition: none; }
         }
 
         #ambientCanvas {
@@ -51,7 +78,7 @@
             position: sticky;
             top: 0;
             z-index: 10;
-            background: rgba(4, 5, 10, 0.82);
+            background: var(--nav-bg);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-subtle);
@@ -67,6 +94,9 @@
         }
 
         .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
             font-family: var(--font-display);
             font-size: 1.2rem;
             font-weight: 400;
@@ -75,9 +105,31 @@
             text-decoration: none;
         }
 
+        .nav-mark {
+            height: 26px;
+            width: auto;
+        }
+
         .nav-brand em { font-style: italic; color: var(--accent-gold); }
 
         .nav-links { display: flex; gap: 1.2rem; }
+
+        .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
         .nav-links a {
             font-family: var(--font-mono);
@@ -235,7 +287,7 @@
             position: relative;
             z-index: 1;
             border-top: 1px solid var(--border-subtle);
-            background: rgba(4, 5, 10, 0.7);
+            background: var(--footer-bg);
         }
 
         .foot-inner {
@@ -268,10 +320,10 @@
 
     <nav class="nav">
         <div class="nav-inner">
-            <a class="nav-brand" href="index.html">Notes</a>
-            <div class="nav-links">
-                <a href="index.html">Catalog</a>
-                <a href="../">Hub</a>
+            <a class="nav-brand" href="../"><img class="nav-mark" src="../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div class="nav-right">
+                <div class="nav-links"><a href="index.html">Catalog</a></div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
             </div>
         </div>
     </nav>
@@ -345,6 +397,9 @@
         }
 
         function tick() {
+            var light = document.documentElement.dataset.theme === 'light';
+            var dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+            var linkRGB = light ? '154, 123, 63' : '197, 164, 103';
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             for (var i = 0; i < pts.length; i++) {
                 var p = pts[i];
@@ -353,7 +408,7 @@
                 if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-                ctx.fillStyle = 'rgba(226, 228, 235, 0.5)';
+                ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
                 ctx.fill();
                 for (var j = i + 1; j < pts.length; j++) {
                     var m = pts[j];
@@ -363,7 +418,7 @@
                         ctx.beginPath();
                         ctx.moveTo(p.x, p.y);
                         ctx.lineTo(m.x, m.y);
-                        ctx.strokeStyle = 'rgba(197, 164, 103, ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                        ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
                         ctx.lineWidth = 1;
                         ctx.stroke();
                     }
@@ -375,6 +430,38 @@
         window.addEventListener('resize', resize);
         resize();
         requestAnimationFrame(tick);
+
+        /* ---------- theme toggle (shared with the hub) ---------- */
+
+        var themeToggle = document.getElementById('themeToggle');
+        var themeLabel = document.getElementById('themeLabel');
+        var themeFading = false;
+
+        function applyThemeLabel() {
+            themeLabel.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+
+        themeToggle.addEventListener('click', function () {
+            if (themeFading) return;
+            themeFading = true;
+            var root = document.documentElement;
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var swap = function () {
+                root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                applyThemeLabel();
+                root.classList.remove('theme-fading');
+                themeFading = false;
+            };
+            if (reduced) {
+                swap();
+                return;
+            }
+            root.classList.add('theme-fading');
+            setTimeout(swap, 190);
+        });
+
+        applyThemeLabel();
 
         /* ---------- note loading ---------- */
 
