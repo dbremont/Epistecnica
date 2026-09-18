@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes — Epistecnica</title>
+    <meta name="description" content="Search and read the notes corpus behind Epistecnica's ontologies.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-gold-dim: rgba(197, 164, 103, 0.15);
+            --accent-cyan: #5BF0E7;
+            --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        #ambientCanvas {
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 0;
+            opacity: 0.55;
+            pointer-events: none;
+        }
+
+        .page {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem 3.5rem;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(4, 5, 10, 0.82);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav-brand em { font-style: italic; color: var(--accent-gold); }
+
+        .nav-links {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover { color: var(--accent-cyan); }
+
+        header {
+            padding: 4rem 0 3rem;
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-weight: 300;
+            font-size: clamp(2.6rem, 5vw, 4.2rem);
+            line-height: 1.05;
+        }
+
+        h1 em { font-style: italic; color: var(--accent-gold); }
+
+        .lede {
+            margin-top: 1.6rem;
+            max-width: 44rem;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            border-left: 1px solid var(--accent-gold);
+            padding-left: 1.25rem;
+        }
+
+        .lede strong { font-weight: 500; color: var(--text-primary); }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            margin-top: 2rem;
+        }
+
+        .stat { background: var(--bg-void); padding: 0.85rem 0.9rem; }
+
+        .stat .value {
+            font-family: var(--font-mono);
+            font-size: 1.4rem;
+            color: var(--accent-cyan);
+        }
+
+        .stat .value.pending { color: var(--text-muted); }
+
+        .stat .label {
+            margin-top: 0.3rem;
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .toolbar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-bottom: 1.6rem;
+        }
+
+        .search-wrap {
+            position: relative;
+        }
+
+        #search {
+            width: 100%;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            padding: 0.9rem 1rem 0.9rem 2.6rem;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #search::placeholder { color: var(--text-muted); }
+
+        #search:focus {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 15px rgba(91, 240, 231, 0.05);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.95rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        .facets {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        .facet {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.9rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .facet:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .facet.active {
+            color: var(--text-primary);
+            border-color: var(--accent-gold);
+        }
+
+        .facet .count { color: var(--text-muted); margin-left: 0.4rem; }
+        .facet.active .count { color: var(--accent-gold); }
+
+        .results {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+        }
+
+        a.row {
+            display: block;
+            background: var(--bg-void);
+            padding: 1.1rem 1.3rem;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        a.row:hover { background: var(--bg-surface); }
+
+        .row-top {
+            display: flex;
+            align-items: baseline;
+            gap: 1rem;
+        }
+
+        .row-title {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        a.row:hover .row-title { color: var(--accent-cyan); }
+
+        .row-path {
+            margin-left: auto;
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
+        .row-kind {
+            flex-shrink: 0;
+            font-family: var(--font-mono);
+            font-size: 0.5rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--accent-cyan);
+            border: 1px solid var(--accent-cyan);
+            border-radius: 2px;
+            padding: 0.1rem 0.4rem;
+            margin-left: 0.5rem;
+        }
+
+        .row-snippet {
+            margin-top: 0.45rem;
+            font-size: 0.8rem;
+            font-weight: 300;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .row-snippet mark, .row-title mark {
+            background: var(--accent-cyan-dim);
+            color: var(--accent-cyan);
+            padding: 0 0.1em;
+        }
+
+        .empty {
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-void);
+            padding: 3rem 2rem;
+            text-align: center;
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.05rem;
+            color: var(--text-muted);
+        }
+
+        .pager {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.1rem;
+            margin-top: 1.2rem;
+        }
+
+        .page-btn {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.9rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .page-btn:hover:not([disabled]) { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .page-btn[disabled] { opacity: 0.35; cursor: default; }
+
+        .page-ind {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        footer {
+            position: relative;
+            z-index: 1;
+            border-top: 1px solid var(--border-subtle);
+            background: rgba(4, 5, 10, 0.7);
+        }
+
+        .foot-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .foot-brand {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            letter-spacing: 0.03em;
+            text-transform: none;
+            color: var(--text-secondary);
+        }
+
+        .foot-brand em { font-style: italic; color: var(--accent-gold); }
+
+        .foot-links { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+
+        footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        footer a:hover { color: var(--accent-cyan); }
+
+        @media (max-width: 860px) {
+            .stats { grid-template-columns: 1fr; }
+            .row-path { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="../">Notes</a>
+            <div class="nav-links"><a href="../">Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em></a></div>
+        </div>
+    </nav>
+
+    <div class="page">
+        <header>
+            <h1>Notes<em>.</em></h1>
+            <p class="lede">
+                The written corpus behind <strong>Epistemica</strong> and <strong>Tecnica</strong> &mdash;
+                technical objects, external systems, libraries, operations. Plain markdown,
+                indexed and searchable.
+            </p>
+            <div class="stats">
+                <div class="stat"><div class="value pending" id="stat-notes">&mdash;</div><div class="label">Notes</div></div>
+                <div class="stat"><div class="value pending" id="stat-sections">&mdash;</div><div class="label">Sections</div></div>
+                <div class="stat"><div class="value pending" id="stat-words">&mdash;</div><div class="label">Words</div></div>
+            </div>
+        </header>
+
+        <div class="toolbar">
+            <div class="search-wrap">
+                <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="search" placeholder="search the corpus&hellip;  ( / )" aria-label="Search notes" autocomplete="off">
+            </div>
+            <div class="facets" id="facets" role="group" aria-label="Section filters"></div>
+        </div>
+
+        <div class="results" id="results"></div>
+        <div class="empty" id="empty" hidden>no notes match.</div>
+        <div class="pager" id="pager" hidden>
+            <button type="button" class="page-btn" id="page-prev">&larr; prev</button>
+            <span class="page-ind" id="page-ind">page 1 / 1</span>
+            <button type="button" class="page-btn" id="page-next">next &rarr;</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-inner">
+            <div class="foot-brand">Episte<em>cnica</em></div>
+            <div>NOTES &middot; INDEXED &middot; <span id="foot-date">&mdash;</span></div>
+            <div class="foot-links">
+                <a href="../">HUB</a>
+                <a href="../epistemica/graph.html">EPISTEMICA</a>
+                <a href="../tecnica/graph.html">TECNICA</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function () {
+        'use strict';
+
+        var NOTES = [];
+        var state = { q: '', section: 'all', page: 1, pageSize: 20 };
+        var rowH = 66;
+        var lastTotalPages = 1;
+        var resultsEl = document.getElementById('results');
+        var emptyEl = document.getElementById('empty');
+        var pagerEl = document.getElementById('pager');
+        var prevBtn = document.getElementById('page-prev');
+        var nextBtn = document.getElementById('page-next');
+        var indEl = document.getElementById('page-ind');
+
+        /* ---------- ambient constellation ---------- */
+
+        var canvas = document.getElementById('ambientCanvas');
+        var ctx = canvas.getContext('2d');
+        var pts = [];
+        var LINK_DIST = 130;
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var count = Math.max(24, Math.floor((canvas.width * canvas.height) / 34000));
+            pts = [];
+            for (var i = 0; i < count; i++) {
+                pts.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.22,
+                    vy: (Math.random() - 0.5) * 0.22,
+                    r: Math.random() * 1.4 + 0.4
+                });
+            }
+        }
+
+        function tick() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (var i = 0; i < pts.length; i++) {
+                var p = pts[i];
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(226, 228, 235, 0.5)';
+                ctx.fill();
+                for (var j = i + 1; j < pts.length; j++) {
+                    var m = pts[j];
+                    var dx = p.x - m.x, dy = p.y - m.y;
+                    var dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < LINK_DIST) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(m.x, m.y);
+                        ctx.strokeStyle = 'rgba(197, 164, 103, ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(tick);
+        }
+
+        window.addEventListener('resize', resize);
+        resize();
+        requestAnimationFrame(tick);
+
+        /* ---------- helpers ---------- */
+
+        function esc(s) {
+            var d = document.createElement('div');
+            d.textContent = s == null ? '' : String(s);
+            return d.innerHTML;
+        }
+
+        function hl(text, q) {
+            var e = esc(text);
+            if (!q) return e;
+            var i = text.toLowerCase().indexOf(q.toLowerCase());
+            if (i < 0) return e;
+            return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
+        }
+
+        function snippet(text, q) {
+            if (!q) return text.slice(0, 180);
+            var i = text.indexOf(q.toLowerCase());
+            if (i < 0) return text.slice(0, 180);
+            var start = Math.max(0, i - 60);
+            return (start > 0 ? '\u2026' : '') + text.slice(start, start + 180);
+        }
+
+        function score(n, q) {
+            var t = n.title.toLowerCase().indexOf(q);
+            if (t === 0) return 0;
+            if (t > 0) return 1;
+            for (var i = 0; i < n.headings.length; i++) {
+                if (n.headings[i].text.toLowerCase().indexOf(q) >= 0) return 2;
+            }
+            if (n.text.indexOf(q) >= 0) return 3;
+            return -1;
+        }
+
+        /* ---------- render ---------- */
+
+        function filteredList() {
+            var q = state.q.trim().toLowerCase();
+            var list = NOTES.filter(function (n) {
+                if (state.section !== 'all' && n.section !== state.section) return false;
+                if (!q) return true;
+                return score(n, q) >= 0;
+            });
+            if (q) {
+                list = list.map(function (n) { return { n: n, s: score(n, q) }; })
+                    .sort(function (a, b) { return a.s - b.s || a.n.title.localeCompare(b.n.title); })
+                    .map(function (x) { return x.n; });
+            }
+            return list;
+        }
+
+        /* Rows per page: whatever fills the viewport below the toolbar,
+           minus footer, page padding, pager, and a little slack. */
+        function sizeFor() {
+            var top = resultsEl.getBoundingClientRect().top;
+            var foot = document.querySelector('footer').offsetHeight;
+            var avail = window.innerHeight - top - foot - 112;
+            return Math.max(3, Math.min(60, Math.floor(Math.max(avail, 200) / rowH)));
+        }
+
+        function buildRows(list) {
+            var q = state.q.trim().toLowerCase();
+            var start = (state.page - 1) * state.pageSize;
+            var slice = list.slice(start, start + state.pageSize);
+            var out = [];
+            for (var i = 0; i < slice.length; i++) {
+                var n = slice[i];
+                var snip = snippet(n.text, q);
+                var live = n.kind === 'live';
+                var href = live ? 'notes/' + encodeURIComponent(n.path) : 'note.html?n=' + encodeURIComponent(n.path);
+                out.push(
+                    '<a class="row" href="' + href + '">' +
+                    '<div class="row-top"><span class="row-title">' + hl(n.title, q) + '</span>' +
+                    (live ? '<span class="row-kind">live</span>' : '') +
+                    '<span class="row-path">' + esc(n.path) + '</span></div>' +
+                    '<div class="row-snippet">' + hl(snip, q) + '</div>' +
+                    '</a>'
+                );
+            }
+            resultsEl.innerHTML = out.join('');
+        }
+
+        function updatePager(count, totalPages) {
+            emptyEl.hidden = count > 0;
+            pagerEl.hidden = totalPages <= 1;
+            if (totalPages <= 1) return;
+            indEl.textContent = 'page ' + state.page + ' / ' + totalPages;
+            indEl.title = count + ' notes \u00b7 ' + state.pageSize + ' per page';
+            prevBtn.disabled = state.page <= 1;
+            nextBtn.disabled = state.page >= totalPages;
+        }
+
+        function render() {
+            var list = filteredList();
+            var s = sizeFor();
+            if (s !== state.pageSize) state.pageSize = s;
+            var totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
+            if (state.page > totalPages) state.page = totalPages;
+            if (state.page < 1) state.page = 1;
+            buildRows(list);
+
+            /* Calibrate row height against the real DOM once rows exist;
+               if it moves the page size, lay out once more. */
+            var row0 = resultsEl.querySelector('.row');
+            if (row0) {
+                var h = row0.offsetHeight + 1;
+                if (Math.abs(h - rowH) > 2) {
+                    rowH = h;
+                    s = sizeFor();
+                    if (s !== state.pageSize) {
+                        state.pageSize = s;
+                        totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
+                        if (state.page > totalPages) state.page = totalPages;
+                        buildRows(list);
+                    }
+                }
+            }
+            lastTotalPages = totalPages;
+            updatePager(list.length, totalPages);
+        }
+
+        function goToPage(p) {
+            if (p < 1 || p > lastTotalPages || p === state.page) return;
+            state.page = p;
+            render();
+            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        prevBtn.addEventListener('click', function () { goToPage(state.page - 1); });
+        nextBtn.addEventListener('click', function () { goToPage(state.page + 1); });
+
+        function renderFacets() {
+            var counts = { all: NOTES.length };
+            NOTES.forEach(function (n) { counts[n.section] = (counts[n.section] || 0) + 1; });
+            var order = Object.keys(counts).sort(function (a, b) {
+                if (a === 'all') return -1;
+                if (b === 'all') return 1;
+                return a.localeCompare(b);
+            });
+            document.getElementById('facets').innerHTML = order.map(function (s) {
+                return '<button type="button" class="facet' + (state.section === s ? ' active' : '') + '" data-section="' + esc(s) + '">' +
+                    esc(s) + '<span class="count">' + counts[s] + '</span></button>';
+            }).join('');
+        }
+
+        /* ---------- boot ---------- */
+
+        fetch('data/index.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (idx) {
+                NOTES = idx.notes;
+                document.getElementById('stat-notes').textContent = String(idx.count);
+                document.getElementById('stat-sections').textContent = String(Object.keys(idx.sections).length);
+                var words = 0;
+                NOTES.forEach(function (n) { words += n.words; });
+                document.getElementById('stat-words').textContent = words > 999 ? (words / 1000).toFixed(1) + 'k' : String(words);
+                document.getElementById('foot-date').textContent = idx.generated;
+                renderFacets();
+                render();
+            })
+            .catch(function () {
+                document.getElementById('empty').hidden = false;
+                document.getElementById('empty').textContent = 'index unavailable \u2014 run: make notes-index';
+            });
+
+        var input = document.getElementById('search');
+        var timer = null;
+        input.addEventListener('input', function () {
+            clearTimeout(timer);
+            timer = setTimeout(function () {
+                state.q = input.value;
+                state.page = 1;
+                render();
+            }, 120);
+        });
+
+        document.getElementById('facets').addEventListener('click', function (e) {
+            var btn = e.target.closest('.facet');
+            if (!btn) return;
+            state.section = btn.dataset.section;
+            state.page = 1;
+            renderFacets();
+            render();
+        });
+
+        var resizeTimer = null;
+        window.addEventListener('resize', function () {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(render, 150);
+        });
+
+        document.addEventListener('keydown', function (e) {
+            var el = document.activeElement;
+            var typing = !!el && (el === input || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA');
+            if (e.key === 'Escape' && document.activeElement === input) { input.blur(); return; }
+            if (e.key === '/' && !typing) { e.preventDefault(); input.focus(); }
+            if (!typing && !e.ctrlKey && !e.metaKey && !e.altKey) {
+                if (e.key === 'ArrowLeft') { e.preventDefault(); goToPage(state.page - 1); }
+                if (e.key === 'ArrowRight') { e.preventDefault(); goToPage(state.page + 1); }
+            }
+        });
+    })();
+    </script>
+</body>
+</html>

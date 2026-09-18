@@ -8,6 +8,8 @@ CouchDB directly; CORS on CouchDB stays disabled):
   /                     -> the hub (src/app/index.html)
   /epistemica/...       -> static files from src/epistemica/app/
   /tecnica/...          -> static files from src/tecnica/app/
+  /note/...             -> static files from src/note/app/ (notes catalog,
+                           viewer, corpus, generated search index)
 
 and, per dataset prefix, the same API contract as the per-project
 bin/sync.py scripts:
@@ -46,6 +48,9 @@ REPO = Path(__file__).resolve().parent.parent
 
 HUB_HEALTH_ENDPOINT = "/api/health"
 LAYOUT_DOC_ID = "layout"
+
+NOTES_PREFIX = "/note"
+NOTES_MOUNT = "src/note/app"
 
 
 class Dataset:
@@ -106,19 +111,28 @@ class HubHandler(SimpleHTTPRequestHandler):
         /epistemica    -> <repo>/src/epistemica/app/ (its landing index.html)
         /epistemica/x  -> <repo>/src/epistemica/app/x
         /tecnica/x     -> <repo>/src/tecnica/app/x
+        /note/x        -> <repo>/src/note/app/x
         anything else  -> <repo>/x
         """
         clean = path.split("?", 1)[0].split("#", 1)[0]
 
-        for ds in self.datasets:
-            if clean == ds.prefix or clean == ds.prefix + "/":
-                rel = ds.mount + "/"
-                break
-            if clean.startswith(ds.prefix + "/"):
-                rel = ds.mount + clean[len(ds.prefix):]
-                break
+        if clean == NOTES_PREFIX or clean == NOTES_PREFIX + "/":
+            rel = NOTES_MOUNT + "/"
+        elif clean.startswith(NOTES_PREFIX + "/"):
+            rel = NOTES_MOUNT + clean[len(NOTES_PREFIX):]
         else:
-            rel = "src/app/index.html" if clean == "/" else clean
+            rel = None
+
+        if rel is None:
+            for ds in self.datasets:
+                if clean == ds.prefix or clean == ds.prefix + "/":
+                    rel = ds.mount + "/"
+                    break
+                if clean.startswith(ds.prefix + "/"):
+                    rel = ds.mount + clean[len(ds.prefix):]
+                    break
+            else:
+                rel = "src/app/index.html" if clean == "/" else clean
 
         return super().translate_path(rel)
 
@@ -447,6 +461,11 @@ def main():
                 file=sys.stderr,
             )
             return 1
+
+    notes_app = REPO / NOTES_MOUNT
+    if not notes_app.is_dir():
+        print("ERROR: notes static dir not found: %s" % notes_app, file=sys.stderr)
+        return 1
     hub_page = REPO / "src" / "app" / "index.html"
     if not hub_page.exists():
         print("ERROR: hub page not found: %s" % (hub_page,), file=sys.stderr)
@@ -477,6 +496,7 @@ def main():
             % (ds.name + ":", display_host, args.port, ds.prefix, ds.cfg.url, ds.cfg.db)
         )
     print("  Health:  http://%s:%d%s" % (display_host, args.port, HUB_HEALTH_ENDPOINT))
+    print("  Notes:   http://%s:%d%s/" % (display_host, args.port, NOTES_PREFIX))
     print("══════════════════════════════════════════════")
     print()
 

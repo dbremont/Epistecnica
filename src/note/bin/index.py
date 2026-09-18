@@ -1,0 +1,162 @@
+#!/usr/bin/env python3
+"""
+Notes index builder.
+
+Scans src/note/app/notes/** for notes — markdown (*.md, kind "note") and
+self-contained HTML live notes (*.html, kind "live") — and emits
+src/note/app/data/index.json, the search corpus for the notes catalog
+(/note/). Stdlib only.
+
+For each note it extracts: path (relative to notes/), title (markdown:
+first "# " heading; html: <title>, else first <h1>; fallback: the
+filename), top-level section (first path component), h2/h3 headings,
+lowercased plain text, and word count. Paths are validated against the
+naming convention (see src/note/README.md); violations print as warnings
+and never fail the build.
+
+Usage: python3 src/note/bin/index.py
+"""
+
+import json
+import re
+import sys
+from datetime import date
+from html import unescape
+from pathlib import Path
+
+NOTE = Path(__file__).resolve().parent.parent
+APP = NOTE / "app"
+NOTES = APP / "notes"
+OUT = APP / "data" / "index.json"
+
+NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
+LINK_RE = re.compile(r"!?\[([^\]]*)\]\([^)]*\)")
+FENCE_RE = re.compile(r"```[^\n]*\n|```")
+HTML_BLOCK_RE = re.compile(r"<(script|style)\b.*?</\1>", re.IGNORECASE | re.DOTALL)
+HTML_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
+HTML_H_RE = re.compile(r"<h([1-6])[^>]*>(.*?)</h\1>", re.IGNORECASE | re.DOTALL)
+HTML_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def check_name(rel: Path, warnings: list):
+    for part in rel.parts[:-1]:
+        if not NAME_RE.match(part):
+            warnings.append(f"{rel.as_posix()} (directory '{part}')")
+            return
+    filename = rel.parts[-1]
+    stem, dot, ext = filename.rpartition(".")
+    if not NAME_RE.match(stem):
+        warnings.append(f"{rel.as_posix()} (filename)")
+
+
+def plain_text(md: str) -> str:
+    md = FENCE_RE.sub("\n", md)
+    md = LINK_RE.sub(r"\1", md)
+    lines = []
+    for line in md.splitlines():
+        line = HEADING_RE.sub(r"\2", line)
+        line = re.sub(r"[*_>`|]", " ", line)
+        lines.append(line)
+    return re.sub(r"\s+", " ", "\n".join(lines)).strip().lower()
+
+
+def parse(path: Path, rel: Path, warnings: list) -> dict:
+    md = path.read_text(encoding="utf-8", errors="replace")
+    title = None
+    headings = []
+    for line in md.splitlines():
+        m = HEADING_RE.match(line)
+        if not m:
+            continue
+        level, text = len(m.group(1)), m.group(2).strip()
+        if level == 1 and title is None:
+            title = text
+        elif level >= 2:
+            headings.append({"level": level, "text": text})
+    if title is None:
+        title = rel.stem.replace("-", " ")
+    text = plain_text(md)
+    return entry(rel, title, headings, text, kind="note")
+
+
+def parse_html(path: Path, rel: Path, warnings: list) -> dict:
+    raw = path.read_text(encoding="utf-8", errors="replace")
+    body = HTML_BLOCK_RE.sub(" ", raw)
+
+    title = None
+    m = HTML_TITLE_RE.search(body)
+    if m:
+        title = HTML_TAG_RE.sub(" ", m.group(1)).strip()
+    headings = []
+    for hm in HTML_H_RE.finditer(body):
+        level = int(hm.group(1))
+        text = unescape(HTML_TAG_RE.sub(" ", hm.group(2))).strip()
+        text = re.sub(r"\s+", " ", text)
+        if not text:
+            continue
+        if level == 1 and title is None:
+            title = text
+        elif level >= 2:
+            headings.append({"level": level, "text": text})
+    if title is None:
+        title = rel.stem.replace("-", " ")
+
+    text = unescape(HTML_TAG_RE.sub(" ", body))
+    text = re.sub(r"\s+", " ", text).strip().lower()
+    return entry(rel, title, headings, text, kind="live")
+
+
+def entry(rel: Path, title: str, headings: list, text: str, kind: str) -> dict:
+    parts = rel.parts
+    section = parts[0] if len(parts) > 1 else "root"
+    return {
+        "path": rel.as_posix(),
+        "title": title,
+        "section": section,
+        "kind": kind,
+        "headings": headings,
+        "text": text,
+        "words": len(text.split()),
+    }
+
+
+def main() -> int:
+    if not NOTES.is_dir():
+        print(f"ERROR: notes directory not found: {NOTES}", file=sys.stderr)
+        return 1
+
+    warnings: list = []
+    notes: list = []
+    for pattern, parser in (("*.md", parse), ("*.html", parse_html)):
+        for path in sorted(NOTES.rglob(pattern)):
+            rel = path.relative_to(NOTES)
+            check_name(rel, warnings)
+            notes.append(parser(path, rel, warnings))
+
+    sections: dict = {}
+    for n in notes:
+        sections[n["section"]] = sections.get(n["section"], 0) + 1
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "generated": date.today().isoformat(),
+        "count": len(notes),
+        "sections": sections,
+        "notes": notes,
+    }
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    kb = OUT.stat().st_size / 1024
+    print(f"notes-index: {len(notes)} notes, {sum(n['words'] for n in notes)} words -> {OUT.relative_to(NOTE.parent.parent)} ({kb:.0f} KB)")
+    for section, count in sorted(sections.items()):
+        print(f"  {section}: {count}")
+    if warnings:
+        print(f"naming warnings: {len(warnings)} (see src/note/README.md)")
+        for w in warnings:
+            print(f"  ! {w}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

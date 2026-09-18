@@ -9,11 +9,11 @@
 > Kafka's architecture consists of **producers that publish messages** to topics, partitioned across **brokers** for parallelism and fault tolerance, while **consumers** pull messages using a consumer group mechanism that enables load balancing; data is durably stored in segmented, replicated logs across brokers, ensuring high availability and persistence, with ZooKeeper (or KRaft) managing metadata, leader election, and cluster coordination.
 > 
 
-![Untitled](Apache%20Kafka%20af3e509f4b224126b6df261e50497dce/Untitled.png)
+![Untitled](kafka/untitled.png)
 
-![image.png](Apache%20Kafka%20af3e509f4b224126b6df261e50497dce/image.png)
+![image.png](kafka/image.png)
 
-![image.png](Apache%20Kafka%20af3e509f4b224126b6df261e50497dce/image%201.png)
+![image.png](kafka/image-1.png)
 
 QA:
 
