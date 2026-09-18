@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epistecnica</title>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
     <meta name="description" content="Epistecnica is a unified framework for the two fundamental dimensions of human agency: knowing (Epistemica) and acting (Tecnica).">
     <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -27,9 +28,27 @@
             --accent-cyan: #5BF0E7;
             --accent-cyan-dim: rgba(91, 240, 231, 0.1);
             --border-subtle: rgba(255, 255, 255, 0.07);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
             --font-display: 'Cormorant Garamond', serif;
             --font-body: 'Inter', sans-serif;
             --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -70,7 +89,7 @@
             position: sticky;
             top: 0;
             z-index: 10;
-            background: rgba(4, 5, 10, 0.82);
+            background: var(--nav-bg);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-subtle);
@@ -80,6 +99,9 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .nav-brand {
@@ -97,8 +119,22 @@
         .nav-mark {
             height: 26px;
             width: auto;
-            mix-blend-mode: screen;
         }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
         .nav-brand em {
             font-style: italic;
@@ -306,7 +342,7 @@
             position: relative;
             z-index: 1;
             border-top: 1px solid var(--border-subtle);
-            background: rgba(4, 5, 10, 0.7);
+            background: var(--footer-bg);
         }
 
         .foot-inner {
@@ -340,6 +376,16 @@
         footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
         footer a:hover { color: var(--accent-cyan); }
 
+        .foot-colophon {
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 0.5rem;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            padding: 0 2rem 1.1rem;
+        }
+
         @media (max-width: 860px) {
             .datasets, .routes { grid-template-columns: 1fr; }
             header { padding-top: 2.25rem; }
@@ -352,7 +398,8 @@
 
     <nav class="nav">
         <div class="nav-inner">
-            <a class="nav-brand" href="/"><img class="nav-mark" src="mark.png" alt="">Episte<em>cnica</em></a>
+            <a class="nav-brand" href="/"><img class="nav-mark" src="mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
         </div>
     </nav>
 
@@ -445,7 +492,6 @@
     <footer>
         <div class="foot-inner">
             <div class="foot-brand">Episte<em>cnica</em></div>
-            <div>KNOWING &middot; ACTING &middot; ONE FRAMEWORK</div>
             <div class="foot-links">
                 <a href="epistemica/">EPISTEMICA</a>
                 <a href="tecnica/">TECNICA</a>
@@ -454,6 +500,7 @@
                 <a href="api/health">HEALTH</a>
             </div>
         </div>
+        <div class="foot-colophon">KNOWING &middot; ACTING &middot; ONE FRAMEWORK</div>
     </footer>
 
     <script>
@@ -510,6 +557,24 @@
 
         DATASETS.forEach(loadDataset);
 
+        /* ---------- theme toggle (dark default, persisted) ---------- */
+
+        var themeToggle = document.getElementById('themeToggle');
+        var themeLabel = document.getElementById('themeLabel');
+
+        function applyThemeLabel() {
+            themeLabel.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+
+        themeToggle.addEventListener('click', function () {
+            var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+            document.documentElement.dataset.theme = next;
+            try { localStorage.setItem('epistecnica-theme', next); } catch (e) { /* private mode */ }
+            applyThemeLabel();
+        });
+
+        applyThemeLabel();
+
         /* ---------- ambient constellation canvas ---------- */
 
         var canvas = document.getElementById('ambientCanvas');
@@ -534,6 +599,9 @@
         }
 
         function tick() {
+            var light = document.documentElement.dataset.theme === 'light';
+            var dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+            var linkRGB = light ? '154, 123, 63' : '197, 164, 103';
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
             for (var i = 0; i < nodes.length; i++) {
@@ -545,7 +613,7 @@
 
                 ctx.beginPath();
                 ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
-                ctx.fillStyle = 'rgba(226, 228, 235, 0.5)';
+                ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
                 ctx.fill();
 
                 for (var j = i + 1; j < nodes.length; j++) {
@@ -557,7 +625,7 @@
                         ctx.beginPath();
                         ctx.moveTo(n.x, n.y);
                         ctx.lineTo(m.x, m.y);
-                        ctx.strokeStyle = 'rgba(197, 164, 103, ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                        ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
                         ctx.lineWidth = 1;
                         ctx.stroke();
                     }
