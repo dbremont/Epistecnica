@@ -196,7 +196,6 @@
 | Concurrency Control | Snapshot-Based Isolation                | Concurrency Control → Isolation → Isolation Level → Snapshot Isolation → Snapshot-Based Isolation                                             | Isolation based on transaction-consistent snapshots rather than direct visibility of all concurrent changes.                                       | Isolation Property        |
 | Concurrency Control | Dirty Write                             | Concurrency Control → Isolation → Read Phenomenon → Dirty Write                                                                               | Overwriting data written by an uncommitted transaction.                                                                                            | Phenomenon                |
 | Concurrency Control | Read Skew                               | Concurrency Control → Isolation → Read Phenomenon → Read Skew                                                                                 | A transaction observes mutually inconsistent values across related reads.                                                                          | Phenomenon                |
-| Concurrency Control | Write-Write Conflict                    | Concurrency Control → Isolation → Read Phenomenon → Write-Write Conflict                                                                      | Concurrent writes target the same logical data item.                                                                                               | Phenomenon                |
 | Concurrency Control | Predicate Skew                          | Concurrency Control → Isolation → Read Phenomenon → Predicate Skew                                                                            | A transaction's predicate-based observations become inconsistent because of concurrent changes.                                                    | Phenomenon                |
 | Concurrency Control | Serialization Anomaly                   | Concurrency Control → Isolation → Read Phenomenon → Serialization Anomaly                                                                     | Behavior possible under weaker isolation that cannot occur in a serial execution.                                                                  | Phenomenon                |
 | Concurrency Control | Read-Only Anomaly                       | Concurrency Control → Isolation → Read Phenomenon → Read-Only Anomaly                                                                         | Inconsistent observation produced by a read-only transaction interacting with concurrent changes.                                                  | Phenomenon                |
@@ -253,7 +252,6 @@
 | Concurrency Control | Deadlock Detection Interval             | Concurrency Control → Lock-Based Concurrency Control → Deadlock → Deadlock Detection → Deadlock Detection Interval                            | Period between executions of deadlock-detection procedures.                                                                                        | Policy                    |
 | Concurrency Control | Victim Cost                             | Concurrency Control → Lock-Based Concurrency Control → Deadlock → Deadlock Resolution → Victim Selection → Victim Cost                        | Estimated cost used to select a transaction for rollback.                                                                                          | Selection Criterion       |
 | Concurrency Control | Victim Rollback                         | Concurrency Control → Lock-Based Concurrency Control → Deadlock → Deadlock Resolution → Victim Rollback                                       | Rollback of a selected transaction to eliminate a deadlock.                                                                                        | Operation                 |
-| Concurrency Control | Partial Rollback                        | Concurrency Control → Lock-Based Concurrency Control → Deadlock → Deadlock Resolution → Partial Rollback                                      | Rollback of part of a transaction to release resources while preserving earlier work.                                                              | Mechanism                 |
 | Concurrency Control | Starvation                              | Concurrency Control → Lock-Based Concurrency Control → Deadlock → Starvation                                                                  | Repeated postponement or abort of a transaction preventing eventual progress.                                                                      | Condition                 |
 | Concurrency Control | Starvation Prevention                   | Concurrency Control → Lock-Based Concurrency Control → Deadlock → Starvation → Starvation Prevention                                          | Mechanisms ensuring waiting transactions eventually obtain service.                                                                                | Mechanism                 |
 | Concurrency Control | Fair Lock Scheduling                    | Concurrency Control → Lock-Based Concurrency Control → Lock Manager → Fair Lock Scheduling                                                    | Scheduling policy intended to provide bounded or ordered access to contended locks.                                                                | Policy                    |
@@ -523,6 +521,124 @@
 | Concurrency Control | Distributed MVCC | Concurrency Control → Distributed Concurrency Control → Distributed MVCC | Multiversion concurrency control coordinated across distributed nodes. | Protocol |
 | Concurrency Control | Distributed GC | Concurrency Control → Distributed Concurrency Control → Global Snapshot → Distributed GC | Garbage collection of versions or state coordinated across nodes. | Mechanism |
 | Concurrency Control | Chandy–Lamport Snapshot | Concurrency Control → Distributed Concurrency Control → Global Snapshot → Chandy–Lamport Snapshot | Distributed snapshot algorithm for capturing a consistent global state. | Algorithm |
+| Concurrency Control | Locking Behavior Option | Concurrency Control → Lock-Based Concurrency Control → Lock Acquisition → Locking Behavior Option | Mechanism controlling how a transaction or statement behaves when a requested lock cannot be granted immediately. | Mechanism |
+| Concurrency Control | WAIT | Concurrency Control → Lock-Based Concurrency Control → Lock Acquisition → Locking Behavior Option → WAIT | Lock request waits until the lock can be granted, subject to timeout, deadlock detection, or cancellation. | Behavior Option |
+| Concurrency Control | NOWAIT | Concurrency Control → Lock-Based Concurrency Control → Lock Acquisition → Locking Behavior Option → NOWAIT | Lock request fails immediately if the lock cannot be granted, rather than waiting. | Behavior Option |
+| Concurrency Control | SKIP LOCKED | Concurrency Control → Lock-Based Concurrency Control → Lock Acquisition → Locking Behavior Option → SKIP LOCKED | Lock request ignores currently locked rows or records and operates only on unlocked ones. | Behavior Option |
+| Concurrency Control | LOCK WAIT TIMEOUT | Concurrency Control → Lock-Based Concurrency Control → Lock Acquisition → Locking Behavior Option → LOCK WAIT TIMEOUT | Maximum duration a lock request may wait before it fails, aborts, or is retried according to policy. | Timeout Policy |
+| Concurrency Control | DEADLOCK DETECTION / ABORT | Concurrency Control → Lock-Based Concurrency Control → Lock Acquisition → Locking Behavior Option → DEADLOCK DETECTION / ABORT | Detects circular wait dependencies and aborts one or more transactions to break the deadlock. | Mechanism |
+| Consistency Models | Linearizability | Concurrency Control → Consistency Model → Linearizability | Strong correctness condition where operations appear to take effect atomically in real-time order. | Correctness Property |
+| Consistency Models | Sequential Consistency | Concurrency Control → Consistency Model → Sequential Consistency | All operations appear in a single total order consistent with each process order. | Correctness Property |
+| Consistency Models | Causal Consistency | Concurrency Control → Consistency Model → Causal Consistency | Preserves causal ordering of dependent operations. | Correctness Property |
+| Consistency Models | Eventual Consistency | Concurrency Control → Consistency Model → Eventual Consistency | Replicas converge if updates stop. | Correctness Property |
+| Consistency Models | PRAM Consistency | Concurrency Control → Consistency Model → PRAM Consistency | Writes from one process are seen in order by all others, but cross-process order is not required. | Correctness Property |
+| Consistency Models | Fork-Join Consistency | Concurrency Control → Consistency Model → Fork-Join Consistency | Consistency model for fork/join parallel execution. | Correctness Property |
+| Session Guarantees | Read-Your-Writes | Concurrency Control → Session Guarantee → Read-Your-Writes | A session sees its own prior writes. | Session Guarantee |
+| Session Guarantees | Monotonic Reads | Concurrency Control → Session Guarantee → Monotonic Reads | A session does not observe older states after newer ones. | Session Guarantee |
+| Session Guarantees | Monotonic Writes | Concurrency Control → Session Guarantee → Monotonic Writes | Writes from a session are applied in order. | Session Guarantee |
+| Session Guarantees | Writes-Follow-Reads | Concurrency Control → Session Guarantee → Writes-Follow-Reads | Writes are ordered after reads they depend on. | Session Guarantee |
+| Distributed Theory | CAP Theorem | Concurrency Control → Distributed Concurrency Control → CAP Theorem | Trade-off among consistency, availability, and partition tolerance. | Theorem |
+| Distributed Theory | PACELC | Concurrency Control → Distributed Concurrency Control → PACELC | Extends CAP with latency vs consistency trade-off when no partition exists. | Theorem |
+| Distributed Theory | Bounded Staleness | Concurrency Control → Consistency Model → Bounded Staleness | Replicas may lag but within a defined bound. | Correctness Property |
+| Distributed Theory | Consistent Prefix | Concurrency Control → Consistency Model → Consistent Prefix | Readers never observe out-of-order committed prefixes. | Correctness Property |
+| Formal Serializability | Multiversion Serializability Graph | Concurrency Control → Serializability → Multiversion Serializability Graph | Graph used to test serializability in multiversion schedules. | Data Structure |
+| Formal Serializability | Multiversion Conflict Serializability | Concurrency Control → Serializability → Multiversion Conflict Serializability | Conflict serializability generalized to multiple versions. | Correctness Property |
+| Formal Serializability | One-Copy Serializability | Concurrency Control → Serializability → One-Copy Serializability | Distributed serializability as if data were not replicated. | Correctness Property |
+| Formal Serializability | Final-State Serializability | Concurrency Control → Serializability → Final-State Serializability | Serializability based only on final database state. | Correctness Property |
+| Formal Serializability | Commit Serializability | Concurrency Control → Serializability → Commit Serializability | Commit order itself must be serializable. | Correctness Property |
+| Formal Serializability | PL-1 | Concurrency Control → Isolation → Formal Isolation Level → PL-1 | Prevents dirty writes. | Isolation Level |
+| Formal Serializability | PL-2 | Concurrency Control → Isolation → Formal Isolation Level → PL-2 | Prevents dirty reads and dirty writes. | Isolation Level |
+| Formal Serializability | PL-3 | Concurrency Control → Isolation → Formal Isolation Level → PL-3 | Full serializability. | Isolation Level |
+| Formal Serializability | PL-2.99 | Concurrency Control → Isolation → Formal Isolation Level → PL-2.99 | Prevents non-repeatable reads but not all phantoms. | Isolation Level |
+| Formal Serializability | Adya Isolation Levels | Concurrency Control → Isolation → Formal Isolation Level → Adya Isolation Levels | Formal definitions of isolation using dependency graphs. | Formal Model |
+| Transaction Models | Flat Transaction | Concurrency Control → Transaction → Transaction Model → Flat Transaction | Single-level transaction with no nested structure. | Transaction Model |
+| Transaction Models | Nested Transaction | Concurrency Control → Transaction → Transaction Model → Nested Transaction | Transaction composed of subtransactions. | Transaction Model |
+| Transaction Models | Chained Transaction | Concurrency Control → Transaction → Transaction Model → Chained Transaction | Sequence of transactions where state is passed forward. | Transaction Model |
+| Transaction Models | Saga | Concurrency Control → Transaction → Transaction Model → Saga | Long-running transaction split into compensatable steps. | Transaction Model |
+| Transaction Models | Long-Running Transaction | Concurrency Control → Transaction → Transaction Model → Long-Running Transaction | Transaction that holds resources for long periods. | Transaction Model |
+| Transaction Models | Workflow Transaction | Concurrency Control → Transaction → Transaction Model → Workflow Transaction | Transaction spanning workflow-like coordinated activities. | Transaction Model |
+| Transaction Models | Open Nested Transaction | Concurrency Control → Transaction → Transaction Model → Open Nested Transaction | Nested transaction whose subtransaction effects are visible before commit. | Transaction Model |
+| Transaction Models | Closed Nested Transaction | Concurrency Control → Transaction → Transaction Model → Closed Nested Transaction | Nested transaction whose effects are hidden until parent commits. | Transaction Model |
+| Modern Protocols | Calvin | Concurrency Control → Deterministic Concurrency Control → Calvin | Deterministic transaction ordering before execution. | Protocol |
+| Modern Protocols | Aria | Concurrency Control → Deterministic Concurrency Control → Aria | Deterministic execution with snapshot-like reads. | Protocol |
+| Modern Protocols | BOHM | Concurrency Control → Deterministic Concurrency Control → BOHM | Deterministic multi-version concurrency control protocol. | Protocol |
+| Modern Protocols | Spanner | Concurrency Control → Distributed Concurrency Control → Spanner | Globally distributed transaction system using TrueTime. | System |
+| Modern Protocols | Percolator | Concurrency Control → Distributed Concurrency Control → Percolator | Distributed transaction protocol using timestamp ordering. | Protocol |
+| Modern Protocols | COPS | Concurrency Control → Distributed Concurrency Control → COPS | Causally consistent distributed storage system. | System |
+| Modern Protocols | EPaxos | Concurrency Control → Distributed Concurrency Control → Consensus → EPaxos | Leaderless consensus protocol. | Algorithm |
+| Modern Protocols | Rabia | Concurrency Control → Distributed Concurrency Control → Consensus → Rabia | Consensus protocol for crash faults. | Algorithm |
+| Modern Protocols | Paxos Commit | Concurrency Control → Commit Ordering → Paxos Commit | Distributed commit using Paxos. | Protocol |
+| Modern Protocols | Raft-Based Commit | Concurrency Control → Commit Ordering → Raft-Based Commit | Commit ordering coordinated through Raft. | Protocol |
+| Modern Protocols | State Machine Replication | Concurrency Control → Distributed Concurrency Control → State Machine Replication | Replicated deterministic execution for fault tolerance. | Protocol |
+| Modern Protocols | Primary-Backup Replication | Concurrency Control → Distributed Concurrency Control → Primary-Backup Replication | One primary coordinates writes, backups replicate. | Architecture |
+| Modern Protocols | Quorum Replication | Concurrency Control → Distributed Concurrency Control → Quorum Replication | Writes/reads require quorum agreement. | Protocol |
+| Storage Engine CC | LSM-Tree Concurrency Control | Concurrency Control → Storage Engine Concurrency Control → LSM-Tree Concurrency Control | Coordination for LSM-tree reads, writes, flushes, and compactions. | Protocol |
+| Storage Engine CC | Memtable Concurrency Control | Concurrency Control → Storage Engine Concurrency Control → Memtable Concurrency Control | Concurrent access control for in-memory write buffers. | Mechanism |
+| Storage Engine CC | Compaction Concurrency Control | Concurrency Control → Storage Engine Concurrency Control → Compaction Concurrency Control | Coordination between compaction and foreground operations. | Mechanism |
+| Storage Engine CC | SSTable Concurrency Control | Concurrency Control → Storage Engine Concurrency Control → SSTable Concurrency Control | Safe concurrent access to immutable or mutable SSTables. | Mechanism |
+| Storage Engine CC | Column-Store Concurrency Control | Concurrency Control → Storage Engine Concurrency Control → Column-Store Concurrency Control | Concurrency control for column-oriented storage. | Protocol |
+| Storage Engine CC | Vectorized Execution Concurrency | Concurrency Control → Storage Engine Concurrency Control → Vectorized Execution Concurrency | Coordination for batch/vectorized operators. | Mechanism |
+| Recovery Interaction | Write-Ahead Logging | Concurrency Control → Recovery Interaction → Write-Ahead Logging | Log changes before applying them to data pages. | Mechanism |
+| Recovery Interaction | ARIES | Concurrency Control → Recovery Interaction → ARIES | Recovery algorithm using WAL, repeating history, and undo. | Algorithm |
+| Recovery Interaction | Redo Logging | Concurrency Control → Recovery Interaction → Redo Logging | Reapplies committed changes after crash. | Mechanism |
+| Recovery Interaction | Undo Logging | Concurrency Control → Recovery Interaction → Undo Logging | Rolls back uncommitted changes after crash. | Mechanism |
+| Recovery Interaction | Checkpointing | Concurrency Control → Recovery Interaction → Checkpointing | Periodic capture of consistent recovery state. | Mechanism |
+| Recovery Interaction | Fuzzy Checkpointing | Concurrency Control → Recovery Interaction → Fuzzy Checkpointing | Checkpoint without stopping concurrent transactions. | Mechanism |
+| Recovery Interaction | Crash Recovery | Concurrency Control → Recovery Interaction → Crash Recovery | Restoring correct state after failure. | Mechanism |
+| Recovery Interaction | Snapshot Too Old | Concurrency Control → Recovery Interaction → Snapshot Too Old | Error when required historical version has been reclaimed. | Failure Condition |
+| Recovery Interaction | Log Sequence Number | Concurrency Control → Recovery Interaction → Log Sequence Number | Monotonic identifier for log records. | Metadata |
+| Recovery Interaction | Steal/No-Steal | Concurrency Control → Recovery Interaction → Steal/No-Steal | Buffer-management policy affecting recovery. | Policy |
+| Recovery Interaction | Force/No-Force | Concurrency Control → Recovery Interaction → Force/No-Force | Commit-time page-flush policy. | Policy |
+| Recovery Interaction | Shadow Paging | Concurrency Control → Recovery Interaction → Shadow Paging | Recovery technique using alternate page tables. | Mechanism |
+| Low-Level Locking | Ticket Lock | Concurrency Control → Physical Concurrency Control → Ticket Lock | FIFO spinlock using ticket counters. | Synchronization Primitive |
+| Low-Level Locking | MCS Lock | Concurrency Control → Physical Concurrency Control → MCS Lock | Scalable queue-based spinlock. | Synchronization Primitive |
+| Low-Level Locking | CLH Lock | Concurrency Control → Physical Concurrency Control → CLH Lock | Linked-list queue spinlock. | Synchronization Primitive |
+| Low-Level Locking | Backoff Lock | Concurrency Control → Physical Concurrency Control → Backoff Lock | Spinlock with delay to reduce contention. | Synchronization Primitive |
+| Low-Level Locking | Adaptive Locking | Concurrency Control → Physical Concurrency Control → Adaptive Locking | Switches between spinning and blocking. | Technique |
+| Low-Level Locking | NUMA-Aware Locking | Concurrency Control → Physical Concurrency Control → NUMA-Aware Locking | Lock design aware of non-uniform memory access. | Technique |
+| Low-Level Locking | False Sharing | Concurrency Control → Physical Concurrency Control → False Sharing | Performance loss from cache-line contention. | Condition |
+| Low-Level Locking | Cache Coherence | Concurrency Control → Physical Concurrency Control → Cache Coherence | Hardware protocol maintaining memory consistency across caches. | Mechanism |
+| Low-Level Locking | ABA Problem | Concurrency Control → Physical Concurrency Control → ABA Problem | Lock-free bug where value changes A→B→A. | Condition |
+| Low-Level Locking | Lock Convoy | Concurrency Control → Physical Concurrency Control → Lock Convoy | Performance collapse from repeated lock handoff. | Condition |
+| Low-Level Locking | Lock Thrashing | Concurrency Control → Physical Concurrency Control → Lock Thrashing | Excessive contention causing wasted work. | Condition |
+| Real-Time CC | Priority Inheritance | Concurrency Control → Real-Time Concurrency Control → Priority Inheritance | Low-priority holder inherits higher priority. | Protocol |
+| Real-Time CC | Priority Ceiling Protocol | Concurrency Control → Real-Time Concurrency Control → Priority Ceiling Protocol | Prevents priority inversion using ceilings. | Protocol |
+| Real-Time CC | Deadline Scheduling | Concurrency Control → Real-Time Concurrency Control → Deadline Scheduling | Schedules transactions by deadlines. | Policy |
+| Real-Time CC | Real-Time Concurrency Control | Concurrency Control → Real-Time Concurrency Control | Concurrency control with timing constraints. | System |
+| Real-Time CC | Temporal Concurrency Control | Concurrency Control → Temporal Concurrency Control | Concurrency control over time-valid data. | Protocol |
+| Workload-Specific CC | HTAP Concurrency Control | Concurrency Control → Workload-Specific Concurrency Control → HTAP Concurrency Control | Coordinates transactional and analytical workloads. | Protocol |
+| Workload-Specific CC | OLTP vs OLAP Concurrency | Concurrency Control → Workload-Specific Concurrency Control → OLTP vs OLAP Concurrency | Different CC needs for transactional vs analytical workloads. | Design Dimension |
+| Workload-Specific CC | Graph Database Concurrency Control | Concurrency Control → Workload-Specific Concurrency Control → Graph Database Concurrency Control | CC for graph traversal and updates. | Protocol |
+| Workload-Specific CC | Streaming Concurrency Control | Concurrency Control → Workload-Specific Concurrency Control → Streaming Concurrency Control | CC for event-time/stream processing. | Protocol |
+| Workload-Specific CC | Multi-Tenant Concurrency Control | Concurrency Control → Workload-Specific Concurrency Control → Multi-Tenant Concurrency Control | Isolation and fairness across tenants. | System |
+| Workload-Specific CC | Serverless Concurrency Control | Concurrency Control → Workload-Specific Concurrency Control → Serverless Concurrency Control | CC for short-lived serverless transactions. | System |
+| Workload-Specific CC | Vector Database Concurrency Control | Concurrency Control → Workload-Specific Concurrency Control → Vector Database Concurrency Control | CC for vector index and similarity search workloads. | Protocol |
+| Verification/Testing | Linearizability Checking | Concurrency Control → Verification → Linearizability Checking | Tests whether history is linearizable. | Algorithm |
+| Verification/Testing | Jepsen-Style Testing | Concurrency Control → Verification → Jepsen-Style Testing | Fault-injection testing for distributed consistency. | Technique |
+| Verification/Testing | TLA+ Specification | Concurrency Control → Verification → TLA+ Specification | Formal specification of concurrent protocols. | Formal Method |
+| Verification/Testing | Model Checking | Concurrency Control → Verification → Model Checking | Exhaustive state-space verification. | Formal Method |
+| Verification/Testing | Conflict Injection | Concurrency Control → Verification → Conflict Injection | Deliberately injects conflicts to test CC behavior. | Technique |
+| Verification/Testing | Deterministic Simulation | Concurrency Control → Verification → Deterministic Simulation | Reproducible simulation of concurrent schedules. | Technique |
+| Verification/Testing | Race Detection | Concurrency Control → Verification → Race Detection | Detects data races in concurrent code. | Algorithm |
+| Verification/Testing | Serializability Testing | Concurrency Control → Verification → Serializability Testing | Tests whether observed histories are serializable. | Algorithm |
+| Metrics/Observability | Lock Contention Metrics | Concurrency Control → Observability → Lock Contention Metrics | Measures lock waits and contention. | Metric |
+| Metrics/Observability | Deadlock Rate | Concurrency Control → Observability → Deadlock Rate | Frequency of deadlocks. | Metric |
+| Metrics/Observability | Abort Rate | Concurrency Control → Observability → Abort Rate | Frequency of aborted transactions. | Metric |
+| Metrics/Observability | Retry Rate | Concurrency Control → Observability → Retry Rate | Frequency of transaction retries. | Metric |
+| Metrics/Observability | MVCC GC Lag | Concurrency Control → Observability → MVCC GC Lag | Delay in reclaiming old versions. | Metric |
+| Metrics/Observability | Snapshot Age | Concurrency Control → Observability → Snapshot Age | Age of active snapshots. | Metric |
+| Metrics/Observability | Lock Wait Histogram | Concurrency Control → Observability → Lock Wait Histogram | Distribution of lock wait times. | Metric |
+| Cloud/Hardware CC | Serverless Transaction CC | Concurrency Control → Cloud Concurrency Control → Serverless Transaction CC | CC for stateless/elastic serverless execution. | System |
+| Cloud/Hardware CC | Elastic Concurrency Control | Concurrency Control → Cloud Concurrency Control → Elastic Concurrency Control | CC that scales with cluster size. | System |
+| Cloud/Hardware CC | Multi-Region Concurrency Control | Concurrency Control → Cloud Concurrency Control → Multi-Region Concurrency Control | CC across multiple geographic regions. | System |
+| Cloud/Hardware CC | GPU Concurrency Control | Concurrency Control → Hardware Concurrency Control → GPU Concurrency Control | CC for GPU-accelerated data operations. | Protocol |
+| Cloud/Hardware CC | RDMA Concurrency Control | Concurrency Control → Hardware Concurrency Control → RDMA Concurrency Control | CC using remote direct memory access. | Protocol |
+| Cloud/Hardware CC | Persistent Memory Concurrency Control | Concurrency Control → Hardware Concurrency Control → Persistent Memory Concurrency Control | CC for byte-addressable persistent memory. | Protocol |
+| Cloud/Hardware CC | Disaggregated Storage Concurrency Control | Concurrency Control → Hardware Concurrency Control → Disaggregated Storage Concurrency Control | CC when storage is separated from compute. | Protocol |
+| Security/Multi-Tenant | Tenant Isolation | Concurrency Control → Security → Tenant Isolation | Prevents cross-tenant interference. | Correctness Property |
+| Security/Multi-Tenant | Fairness | Concurrency Control → Security → Fairness | Prevents starvation across sessions/tenants. | Policy |
+| Security/Multi-Tenant | Resource Governance | Concurrency Control → Security → Resource Governance | Controls resource use under contention. | Policy |
+| Security/Multi-Tenant | Row-Level Security Interaction | Concurrency Control → Security → Row-Level Security Interaction | How row-level security interacts with locks/MVCC. | Mechanism |
 
 ## References
 
