@@ -245,9 +245,23 @@ Listen for `epistecnica-theme` (section 5) and redraw when practical.
 
 ## Rules
 
-- No CDN libraries (no Tailwind, Plotly, Chart.js, mathjs). Vanilla JS +
-  Canvas2D/SVG only; math helpers are a few stdlib lines.
+- No CDN `<script>`/`<link>` tags — runtime dependencies are vendored under
+  `src/note/app/vendor/` and referenced relatively (see below). Vanilla JS +
+  Canvas2D/SVG otherwise; math helpers are a few stdlib lines.
 - The page's own content, layout, and interactivity stay as authored; the
   container only wraps and tokenizes it.
 - Keep `<title>` and the first `<h1>` stable — the notes catalog indexes them.
 - No backend references in UI strings; pages fetch nothing at runtime.
+
+## Vendored runtime dependencies
+
+Runtime libraries live in `src/note/app/vendor/`, version-pinned, referenced
+from live notes with a relative path (e.g. `../../vendor/alpine.min.js` from
+`notes/live/*.html`). To add one: download the exact version, record its
+size and sha256 in the commit message, reference it relatively, and list it
+here.
+
+| File                     | Version | Source                                    |
+|--------------------------|---------|-------------------------------------------|
+| `marked.min.js`          | (pinned)| markdown rendering (notes viewer)         |
+| `alpine.min.js`          | 3.13.5  | `unpkg.com/alpinejs@3.13.5/dist/cdn.min.js` — reactive UI in live notes (`alpine:init` + `defer` pattern) |

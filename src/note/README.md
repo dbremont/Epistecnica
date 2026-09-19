@@ -13,7 +13,7 @@ src/note/
     ├── index.html   # catalog: search + section facets
     ├── note.html    # single-note viewer (?n=<path>)
     ├── notes.css    # markdown typography (shared design tokens)
-    ├── vendor/      # vendored runtime deps (marked.min.js)
+    ├── vendor/      # vendored runtime deps (marked.min.js, alpine.min.js)
     ├── data/        # generated (index.json — do not edit)
     └── notes/       # the corpus (never machine-edited)
         └── live/    # live notes — self-contained hand-authored HTML pages
