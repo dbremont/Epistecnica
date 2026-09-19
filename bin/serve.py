@@ -6,10 +6,13 @@ One stdlib HTTP server serving three surfaces (the browser never talks to
 CouchDB directly; CORS on CouchDB stays disabled):
 
   /                     -> the hub (src/app/index.html)
+  /docs                 -> site-wide documentation (src/app/docs.html)
   /epistemica/...       -> static files from src/epistemica/app/
   /tecnica/...          -> static files from src/tecnica/app/
   /note/...             -> static files from src/note/app/ (notes catalog,
                            viewer, corpus, generated search index)
+  /glossarium/...       -> static files from src/glossarium/app/ (lexical
+                           corpus: catalog, terms, generated lookup index)
 
 and, per dataset prefix, the same API contract as the per-project
 bin/sync.py scripts:
@@ -24,6 +27,16 @@ bin/sync.py scripts:
   POST /{ds}/api/graph/save    -> upserts {nodes, timestamp} via _bulk_docs
   GET  /api/health             -> aggregate health for both datasets
 
+and, for the notes catalog, one preference API (server-side pins):
+
+  GET  /note/api/pins          -> {"pins": [...]} pinned note paths
+                                  (single 'pins' doc in the NOTES_DB db,
+                                  default 'notes'; hard 502 when CouchDB
+                                  is down)
+  POST /note/api/pins          -> body {"path": "<note path>", "pinned":
+                                  true|false}; validates the path against
+                                  the corpus naming rules, upserts the doc
+
 The pages fetch everything relative, so app data (data/layout.json etc.)
 under /{ds}/data/... resolves to src/{ds}/app/data/... automatically.
 
@@ -35,6 +48,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from functools import partial
 from http.server import HTTPServer, SimpleHTTPRequestHandler
@@ -51,6 +65,15 @@ LAYOUT_DOC_ID = "layout"
 
 NOTES_PREFIX = "/note"
 NOTES_MOUNT = "src/note/app"
+NOTES_PINS_ENDPOINT = NOTES_PREFIX + "/api/pins"
+PINS_DOC_ID = "pins"
+
+GLOSSARIUM_PREFIX = "/glossarium"
+GLOSSARIUM_MOUNT = "src/glossarium/app"
+
+# Note path segments follow the corpus naming rule: ASCII lowercase
+# kebab-case (src/note/README.md). The last segment additionally ends .md.
+NOTE_SEGMENT_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 
 class Dataset:
@@ -96,8 +119,9 @@ def build_datasets():
 class HubHandler(SimpleHTTPRequestHandler):
     """Hub statics + prefix-mounted subproject statics + per-dataset API."""
 
-    def __init__(self, *args, datasets=None, **kwargs):
+    def __init__(self, *args, datasets=None, notes_cfg=None, **kwargs):
         self.datasets = datasets or []
+        self.notes_cfg = notes_cfg
         super().__init__(*args, **kwargs)
 
     # ------------------------------------------------------------------
@@ -108,20 +132,31 @@ class HubHandler(SimpleHTTPRequestHandler):
         """Map URL prefixes onto on-disk directories.
 
         /              -> <repo>/src/app/index.html (the hub)
+        /docs[.html]   -> <repo>/src/app/docs.html (site documentation)
         /epistemica    -> <repo>/src/epistemica/app/ (its landing index.html)
         /epistemica/x  -> <repo>/src/epistemica/app/x
-        /tecnica/x     -> <repo>/src/tecnica/app/x
-        /note/x        -> <repo>/src/note/app/x
-        anything else  -> <repo>/x
+        /tecnica/x      -> <repo>/src/tecnica/app/x
+        /note/x         -> <repo>/src/note/app/x
+        /glossarium/x   -> <repo>/src/glossarium/app/x
+        anything else   -> <repo>/x
         """
         clean = path.split("?", 1)[0].split("#", 1)[0]
 
-        if clean == NOTES_PREFIX or clean == NOTES_PREFIX + "/":
-            rel = NOTES_MOUNT + "/"
-        elif clean.startswith(NOTES_PREFIX + "/"):
-            rel = NOTES_MOUNT + clean[len(NOTES_PREFIX):]
-        else:
-            rel = None
+        # Site docs: /docs, /docs/, /docs.html -> src/app/docs.html.
+        if clean in ("/docs", "/docs/", "/docs.html"):
+            return super().translate_path("src/app/docs.html")
+
+        rel = None
+        for prefix, mount in (
+            (NOTES_PREFIX, NOTES_MOUNT),
+            (GLOSSARIUM_PREFIX, GLOSSARIUM_MOUNT),
+        ):
+            if clean == prefix or clean == prefix + "/":
+                rel = mount + "/"
+                break
+            if clean.startswith(prefix + "/"):
+                rel = mount + clean[len(prefix):]
+                break
 
         if rel is None:
             for ds in self.datasets:
@@ -167,6 +202,10 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._handle_hub_health()
             return
 
+        if path == NOTES_PINS_ENDPOINT:
+            self._handle_pins_get()
+            return
+
         for ds in self.datasets:
             if ds.matches_api(path):
                 endpoint = ds.endpoint(path)
@@ -188,6 +227,10 @@ class HubHandler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         path = self.path.split("?", 1)[0].split("#", 1)[0]
+
+        if path == NOTES_PINS_ENDPOINT:
+            self._handle_pins_post()
+            return
 
         for ds in self.datasets:
             if ds.matches_api(path):
@@ -353,6 +396,94 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._send_json({"status": "error", "message": str(exc)}, 500)
 
     # ------------------------------------------------------------------
+    # Notes pins (server-side catalog preferences; CouchDB-backed)
+    # ------------------------------------------------------------------
+
+    def _valid_note_path(self, p):
+        if not isinstance(p, str) or not p or len(p) > 200:
+            return False
+        if not p.endswith(".md"):
+            return False
+        parts = p.split("/")
+        for i, part in enumerate(parts):
+            seg = part[:-3] if i == len(parts) - 1 else part
+            if not NOTE_SEGMENT_RE.match(seg):
+                return False
+        return True
+
+    def _pins_read(self, client):
+        """Pinned paths + doc _rev; ([], None) when not pinned yet (404)."""
+        status, doc = client.get(self.notes_cfg.db_url + "/" + PINS_DOC_ID)
+        if status == 200 and isinstance(doc, dict):
+            paths = doc.get("paths")
+            paths = paths if isinstance(paths, list) else []
+            return [p for p in paths if isinstance(p, str)], doc.get("_rev")
+        if status == 404:
+            return [], None
+        raise couchdb_client.CouchError(status, doc)
+
+    def _pins_write(self, client, paths, rev):
+        doc = {"_id": PINS_DOC_ID, "type": "pins", "paths": paths}
+        if rev:
+            doc["_rev"] = rev
+        status, body = client.put(self.notes_cfg.db_url + "/" + PINS_DOC_ID, doc)
+        if status not in (201, 202):
+            raise couchdb_client.CouchError(status, body)
+        return body
+
+    def _handle_pins_get(self):
+        try:
+            client = couchdb_client.Client(self.notes_cfg)
+            paths, _rev = self._pins_read(client)
+        except Exception as exc:
+            self._send_json(
+                {"status": "error", "message": "CouchDB unavailable: %s" % exc},
+                502,
+            )
+            return
+        self._send_json({"pins": paths})
+
+    def _handle_pins_post(self):
+        try:
+            length = int(self.headers.get("Content-Length", 0))
+            payload = json.loads(self.rfile.read(length) if length else b"{}")
+        except json.JSONDecodeError as exc:
+            self._send_json(
+                {"status": "error", "message": "Invalid JSON: %s" % exc}, 400
+            )
+            return
+
+        path_arg = payload.get("path") if isinstance(payload, dict) else None
+        pinned = payload.get("pinned") if isinstance(payload, dict) else None
+        if not self._valid_note_path(path_arg) or not isinstance(pinned, bool):
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": 'body must be {"path": "<note path>",'
+                               ' "pinned": true|false}',
+                },
+                400,
+            )
+            return
+
+        try:
+            client = couchdb_client.Client(self.notes_cfg)
+            paths, rev = self._pins_read(client)
+            if pinned and path_arg not in paths:
+                paths.append(path_arg)
+            elif not pinned and path_arg in paths:
+                paths.remove(path_arg)
+            self._pins_write(client, paths, rev)
+        except Exception as exc:
+            self._send_json(
+                {"status": "error", "message": "CouchDB unavailable: %s" % exc},
+                502,
+            )
+            return
+
+        self._send_json({"status": "ok", "pins": paths})
+
+    # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
 
@@ -453,6 +584,7 @@ def main():
     args = parser.parse_args()
 
     datasets = build_datasets()
+    notes_cfg = envutil.dataset("NOTES_DB", "notes")
 
     for ds in datasets:
         if not ds.app_dir.exists():
@@ -465,6 +597,10 @@ def main():
     notes_app = REPO / NOTES_MOUNT
     if not notes_app.is_dir():
         print("ERROR: notes static dir not found: %s" % notes_app, file=sys.stderr)
+        return 1
+    glossarium_app = REPO / GLOSSARIUM_MOUNT
+    if not glossarium_app.is_dir():
+        print("ERROR: glossarium static dir not found: %s" % glossarium_app, file=sys.stderr)
         return 1
     hub_page = REPO / "src" / "app" / "index.html"
     if not hub_page.exists():
@@ -480,7 +616,7 @@ def main():
             )
             return 1
 
-    handler = partial(HubHandler, datasets=datasets)
+    handler = partial(HubHandler, datasets=datasets, notes_cfg=notes_cfg)
 
     server = HTTPServer((args.host, args.port), handler)
 
@@ -496,7 +632,9 @@ def main():
             % (ds.name + ":", display_host, args.port, ds.prefix, ds.cfg.url, ds.cfg.db)
         )
     print("  Health:  http://%s:%d%s" % (display_host, args.port, HUB_HEALTH_ENDPOINT))
-    print("  Notes:   http://%s:%d%s/" % (display_host, args.port, NOTES_PREFIX))
+    print("  Notes:   http://%s:%d%s/  (pins: CouchDB %s/%s)"
+          % (display_host, args.port, NOTES_PREFIX, notes_cfg.url, notes_cfg.db))
+    print("  Gloss.:  http://%s:%d%s/" % (display_host, args.port, GLOSSARIUM_PREFIX))
     print("══════════════════════════════════════════════")
     print()
 

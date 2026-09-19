@@ -28,6 +28,7 @@ src/app/                hub page (index.html, served at /)
 src/epistemica/…        subproject, self-contained (app/, bin/, spec/, AGENT.md)
 src/tecnica/…           subproject, self-contained (app/, bin/, spec.md, AGENT.md)
 src/note/…              notes corpus + catalog/viewer (app/ incl. app/notes/ + live notes, bin/index.py) — see src/note/README.md
+src/glossarium/…        lexical corpus (terms + definitions) + catalog at /glossarium/ + select-a-word lookup on note pages — see src/glossarium/README.md
 spec/                   general spec + shared design system
 docs/                   documentation hub
 Makefile, Dockerfile    project operations (make run/check/build/deploy-*/logs/stop) + combined image
@@ -42,12 +43,18 @@ disabled.
 
 - Routes served by `bin/serve.py`:
   - `/` → hub `src/app/index.html`
+  - `/docs` (also `/docs/`, `/docs.html`) → site documentation `src/app/docs.html` — the single user-facing docs surface (theory + guide, live stats from the APIs); the old per-subproject docs pages were deleted
   - `/epistemica/<path>` → static from `src/epistemica/app/<path>`
   - `/tecnica/<path>` → static from `src/tecnica/app/<path>`
   - `/note/<path>` → static from `src/note/app/<path>` (notes catalog + viewer + corpus)
+  - `/glossarium/<path>` → static from `src/glossarium/app/<path>` (term catalog + corpus + lookup index); no API routes
   - `/epistemica/api/{health,nodes,layout}` and `POST …/api/graph/save` → CouchDB db `epistemica`
   - `/tecnica/api/…` (same four) → CouchDB db `tecnica`
   - `/api/health` → aggregate health for both datasets
+  - `GET/POST /note/api/pins` → notes-catalog pins; single `pins` doc in
+    CouchDB db `NOTES_DB` (default `notes`); POST body
+    `{"path": "<note path>", "pinned": bool}`, server validates the path
+    against the corpus naming rules; hard 502 when CouchDB is down
 - API semantics are identical to the subprojects' `bin/sync.py`: nodes are a
   flat JSON array with `_id`/`_rev` stripped and the `layout` doc excluded;
   **hard 502 when CouchDB is down — no file fallback** (the seed `data.json`
@@ -88,6 +95,7 @@ Verification (no test suite exists; `make check` covers the first two):
 - `curl -X POST :8000/tecnica/api/graph/save -d '{"nodes":[]}'` → `{"status":"ok","saved":0}`
 - Static mounts: `curl -s :8000/epistemica/graph.html | head -1` and same for `tecnica`
 - Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=notes/pto/zsh.md` (viewer), `/note/notes/live/chmc.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes in `src/note/README.md`)
+- Glossarium: `curl -s :8000/glossarium/` (catalog; `?t=<slug>` term view), `/glossarium/data/index.json` (generated — run `make glossarium-index` after any corpus edit), `/glossarium/terms/<slug>.md` (corpus; naming + import in `src/glossarium/README.md`); note pages fetch the lookup index relatively (`../glossarium/data/index.json`) for the select-a-word popup
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the two `edit.html` pages (check stderr for Uncaught errors)
 - Image: `make build` (`docker build -t epistecnica:local .`) then run it against local CouchDB (`make deploy-local`)
 

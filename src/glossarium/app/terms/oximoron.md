@@ -1,0 +1,3 @@
+# Oximoron
+
+Oxímoron: El oxímoron (del griego ὀξύμωρον, oxymoron, en latín Contradictio in terminis), dentro de las figuras literarias en retórica, es una figura lógica que consiste en usar dos conceptos de significado opuesto en una sola expresión,1 que genera un tercer concepto. Dado que el sentido literal de oxímoron es opuesto, ‘absurdo’ (por ejemplo, «un instante eterno»), se fuerza al lector o al interlocutor a comprender el sentido metafórico (en este caso: un instante que, por la intensidad de lo vivido durante su transcurso, hace perder la noción del tiempo). https://es.wikipedia.org/wiki/Ox%C3%ADmoron - Ejemplo: Cuba. Somos el unico pais que se ha librado de la ingerencia estado unidense - Cuba. Somos un pais pobre por el embargo norte-americano.

@@ -1,0 +1,5 @@
+# Pensamiento
+
+**Thought Experiment**: Thought experiments are “devices of the imagination used to investigate the nature of things.” Many disciplines, such as philosophy and physics, use thought experiments to examine what can be known. In doing so, they can open new avenues for inquiry and exploration. Thought experiments are influential because they help us learn from our mistakes and avoid future ones. They let us take on the impossible, evaluate the potential consequences of our actions, and re-examine history to make better decisions. They can help us determine what we want and the best way to get there.
+
+**First Principles Thinking**: First-principles thinking is one of the best ways to reverse-engineer complicated situations and unleash creative possibility. Sometimes called reasoning from first principles, it’s a tool to help clarify complex problems by separating the underlying ideas or facts from any assumptions based on them. What remains are the essentials. If you know the first principles of something, you can build the rest of your knowledge around them to produce something new.

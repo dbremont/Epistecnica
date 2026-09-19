@@ -55,13 +55,17 @@ any cross-graph unification is future work, not an assumption.
 | Route | Purpose |
 |-------|---------|
 | `GET /` | Hub `src/app/index.html` (project cards, live \|V\|/\|E\| strips, entry guidance) |
+| `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface (per-subproject docs pages removed) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
-| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, search + facets), viewer (`note.html?n=<path>`), corpus (`notes/**.md`), generated search index (`data/index.json`) |
+| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, search + facets + pins), viewer (`note.html?n=<path>`), corpus (`notes/**.md`), generated search index (`data/index.json`) |
+| `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog (`index.html`, search + letter facets), term view (`?t=<slug>`), corpus (`terms/**.md`), generated lookup index (`data/index.json`); the select-a-word popup on note pages fetches this index relatively |
 | `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
 | `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |
 | `GET /{ds}/api/nodes` | Flat JSON array; `_id`/`_rev` stripped; `layout` doc excluded; **hard 502 when CouchDB is down — no file fallback** |
 | `GET /{ds}/api/layout` | `{nodeId: [x, y]}`; CouchDB `layout` doc primary, `<sub>/app/data/layout.json` fallback; `X-Layout-Source: db\|file` |
 | `POST /{ds}/api/graph/save` | Body `{nodes: […], timestamp}` → `_bulk_docs` upsert, server resolves `_rev` |
+| `GET /note/api/pins` | Notes-catalog pins: `{"pins": […]}` from the single `pins` doc in db `NOTES_DB` (default `notes`); empty list when unpinned; **hard 502 when CouchDB is down** |
+| `POST /note/api/pins` | Body `{"path": "<note path>", "pinned": bool}`; server validates the path against the corpus naming rules, upserts the `pins` doc |
 
 where `{ds}` ∈ {`epistemica`, `tecnica`}.
 

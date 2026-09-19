@@ -1,0 +1,3 @@
+# Tolerancia
+
+**Tolerance**: In engineering and science, error is a deviation from an expected or computed value. Tolerance is the level of error that is acceptable for an engineering application. We say that a computer program has converged to a solution when it has found a solution with an error smaller than the tolerance. When computing roots numerically, or conducting any other kind of numerical analysis, it is important to establish both a metric for error and a tolerance that is suitable for a given engineering/science application. https://pythonnumericalmethods.berkeley.edu/notebooks/chapter19.02-Tolerance.html

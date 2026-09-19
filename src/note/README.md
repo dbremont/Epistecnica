@@ -40,6 +40,16 @@ src/note/
   `live/hp.html` ("Hawkes Process"), `live/fpe.html` ("Fokker-Planck
   Equation"), from epistemica's former `view/tool/`.
 
+## Pins
+
+The catalog lets you pin notes (star button per row, `pinned` facet chip).
+Pins are server-side, not per-browser: `GET/POST /note/api/pins` (served by
+`bin/serve.py`) reads and upserts a single `pins` doc in the CouchDB
+database named by `NOTES_DB` (default `notes`; created by `make bootstrap`).
+The server validates paths against the corpus naming rules; the catalog
+hides the pin UI when the API is unreachable and filters out pins whose
+notes no longer exist.
+
 ## Naming convention
 
 Note paths (directories and `.md`/`.html` filenames) must be:

@@ -24,6 +24,7 @@ EPISTECNICA_PORT ?= 8000
 COUCHDB_URL   ?= http://127.0.0.1:5984
 EPISTEMICA_DB ?= epistemica
 TECNICA_DB    ?= tecnica
+NOTES_DB      ?= notes
 AUTH          = $(if $(COUCHDB_USER),-u "$(COUCHDB_USER):$(COUCHDB_PASSWORD)",)
 
 -include .env
@@ -33,7 +34,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check bootstrap notes-index build deploy-local deploy-server logs stop
+.PHONY: help run check bootstrap notes-index glossarium-index build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -42,17 +43,20 @@ run: ## local dev server, no docker (port DEV_PORT, default 8010)
 	python3 bin/serve.py --port $(DEV_PORT)
 
 check: ## py_compile all servers + node --check the two API js files
-	python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py src/note/bin/*.py
+	python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py src/note/bin/*.py src/glossarium/bin/*.py
 	node --check src/epistemica/app/js/api.js
 	node --check src/tecnica/app/js/api.js
 
 notes-index: ## rebuild the notes search index (after any corpus change)
 	python3 src/note/bin/index.py
 
+glossarium-index: ## rebuild the glossarium lookup index (after any corpus change)
+	python3 src/glossarium/bin/index.py
+
 # One-time CouchDB setup. The create-then-verify idiom on each DB keeps the
 # rule re-runnable (PUT on an existing DB would fail with 412). Credentials
 # come from .env via AUTH when set.
-bootstrap: ## one-time CouchDB setup: create both DBs, seed nodes, precompute layouts
+bootstrap: ## one-time CouchDB setup: create all DBs, seed nodes, precompute layouts
 	curl -fsS $(AUTH) -X PUT $(COUCHDB_URL)/$(EPISTEMICA_DB) || curl -fsS $(AUTH) -o /dev/null $(COUCHDB_URL)/$(EPISTEMICA_DB)
 	curl -fsS $(AUTH) -X PUT $(COUCHDB_URL)/$(EPISTEMICA_DB)/_security -H 'Content-Type: application/json' -d '{}'
 	python3 src/epistemica/bin/seed_couchdb.py
@@ -61,6 +65,8 @@ bootstrap: ## one-time CouchDB setup: create both DBs, seed nodes, precompute la
 	curl -fsS $(AUTH) -X PUT $(COUCHDB_URL)/$(TECNICA_DB)/_security -H 'Content-Type: application/json' -d '{}'
 	python3 src/tecnica/bin/seed_couchdb.py
 	python3 src/tecnica/bin/layout.py
+	curl -fsS $(AUTH) -X PUT $(COUCHDB_URL)/$(NOTES_DB) || curl -fsS $(AUTH) -o /dev/null $(COUCHDB_URL)/$(NOTES_DB)
+	curl -fsS $(AUTH) -X PUT $(COUCHDB_URL)/$(NOTES_DB)/_security -H 'Content-Type: application/json' -d '{}'
 
 build: ## docker build the local image (epistecnica:local)
 	docker build -t $(LOCAL_IMAGE) .

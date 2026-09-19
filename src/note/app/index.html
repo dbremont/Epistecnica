@@ -283,20 +283,26 @@
             border: 1px solid var(--border-subtle);
         }
 
-        a.row {
-            display: block;
+        .row {
+            position: relative;
             background: var(--bg-void);
-            padding: 1.1rem 1.3rem;
-            text-decoration: none;
             transition: background 0.3s ease;
         }
 
-        a.row:hover { background: var(--bg-surface); }
+        .row:hover { background: var(--bg-surface); }
+
+        .row-link {
+            display: block;
+            padding: 1.1rem 1.3rem;
+            color: inherit;
+            text-decoration: none;
+        }
 
         .row-top {
             display: flex;
             align-items: baseline;
             gap: 1rem;
+            padding-right: 1.9rem;
         }
 
         .row-title {
@@ -305,7 +311,7 @@
             color: var(--text-primary);
         }
 
-        a.row:hover .row-title { color: var(--accent-cyan); }
+        .row:hover .row-title { color: var(--accent-cyan); }
 
         .row-path {
             margin-left: auto;
@@ -347,6 +353,28 @@
             color: var(--accent-cyan);
             padding: 0 0.1em;
         }
+
+        .row-pin {
+            position: absolute;
+            top: 0.65rem;
+            right: 0.5rem;
+            width: 26px;
+            height: 26px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .row-pin:hover { color: var(--accent-cyan); }
+
+        .row-pin.pinned { color: var(--accent-gold); }
+
+        .facet-star { color: var(--accent-gold); margin-right: 0.35em; }
 
         .empty {
             border: 1px solid var(--border-subtle);
@@ -486,6 +514,7 @@
                 <a href="../">HUB</a>
                 <a href="../epistemica/graph.html">EPISTEMICA</a>
                 <a href="../tecnica/graph.html">TECNICA</a>
+                <a href="../glossarium/">GLOSSARIUM</a>
             </div>
         </div>
     </footer>
@@ -496,6 +525,8 @@
 
         var NOTES = [];
         var state = { q: '', section: 'all', page: 1, pageSize: 20 };
+        var PINS = [];          /* pinned note paths, server order */
+        var pinsAvailable = false;
         var rowH = 66;
         var lastTotalPages = 1;
         var resultsEl = document.getElementById('results');
@@ -634,15 +665,22 @@
             return -1;
         }
 
+        function isPinned(p) { return PINS.indexOf(p) >= 0; }
+
         /* ---------- render ---------- */
 
         function filteredList() {
             var q = state.q.trim().toLowerCase();
-            var list = NOTES.filter(function (n) {
-                if (state.section !== 'all' && n.section !== state.section) return false;
-                if (!q) return true;
-                return score(n, q) >= 0;
-            });
+            var list;
+            if (state.section === 'pinned') {
+                list = NOTES.filter(function (n) { return isPinned(n.path); });
+            } else {
+                list = NOTES.filter(function (n) {
+                    if (state.section !== 'all' && n.section !== state.section) return false;
+                    if (!q) return true;
+                    return score(n, q) >= 0;
+                });
+            }
             if (q) {
                 list = list.map(function (n) { return { n: n, s: score(n, q) }; })
                     .sort(function (a, b) { return a.s - b.s || a.n.title.localeCompare(b.n.title); })
@@ -660,6 +698,18 @@
             return Math.max(3, Math.min(60, Math.floor(Math.max(avail, 200) / rowH)));
         }
 
+        function pinButtonHtml(path) {
+            if (!pinsAvailable) return '';
+            var on = isPinned(path);
+            return '<button type="button" class="row-pin' + (on ? ' pinned' : '') + '"' +
+                ' data-path="' + esc(path) + '"' +
+                ' aria-pressed="' + (on ? 'true' : 'false') + '"' +
+                ' aria-label="' + (on ? 'Unpin note' : 'Pin note') + '"' +
+                ' title="' + (on ? 'unpin' : 'pin') + '">' +
+                '<svg width="13" height="13" viewBox="0 0 24 24" fill="' + (on ? 'currentColor' : 'none') + '" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>' +
+                '</button>';
+        }
+
         function buildRows(list) {
             var q = state.q.trim().toLowerCase();
             var start = (state.page - 1) * state.pageSize;
@@ -671,12 +721,15 @@
                 var live = n.kind === 'live';
                 var href = live ? 'notes/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
                 out.push(
-                    '<a class="row" href="' + href + '">' +
+                    '<div class="row">' +
+                    '<a class="row-link" href="' + href + '">' +
                     '<div class="row-top"><span class="row-title">' + hl(n.title, q) + '</span>' +
                     (live ? '<span class="row-kind">live</span>' : '') +
                     '<span class="row-path">' + esc(n.path) + '</span></div>' +
                     '<div class="row-snippet">' + hl(snip, q) + '</div>' +
-                    '</a>'
+                    '</a>' +
+                    pinButtonHtml(n.path) +
+                    '</div>'
                 );
             }
             resultsEl.innerHTML = out.join('');
@@ -684,6 +737,9 @@
 
         function updatePager(count, totalPages) {
             emptyEl.hidden = count > 0;
+            emptyEl.textContent = state.section === 'pinned'
+                ? 'no pins yet \u2014 star a note.'
+                : 'no notes match.';
             pagerEl.hidden = totalPages <= 1;
             if (totalPages <= 1) return;
             indEl.textContent = 'page ' + state.page + ' / ' + totalPages;
@@ -733,17 +789,54 @@
 
         function renderFacets() {
             var counts = { all: NOTES.length };
+            if (pinsAvailable) {
+                counts.pinned = NOTES.filter(function (n) { return isPinned(n.path); }).length;
+            }
             NOTES.forEach(function (n) { counts[n.section] = (counts[n.section] || 0) + 1; });
             var order = Object.keys(counts).sort(function (a, b) {
                 if (a === 'all') return -1;
                 if (b === 'all') return 1;
+                if (a === 'pinned') return -1;
+                if (b === 'pinned') return 1;
                 return a.localeCompare(b);
             });
             document.getElementById('facets').innerHTML = order.map(function (s) {
                 return '<button type="button" class="facet' + (state.section === s ? ' active' : '') + '" data-section="' + esc(s) + '">' +
+                    (s === 'pinned' ? '<span class="facet-star">\u2605</span>' : '') +
                     esc(s) + '<span class="count">' + counts[s] + '</span></button>';
             }).join('');
         }
+
+        /* ---------- pins ---------- */
+
+        function togglePin(path) {
+            var on = !isPinned(path);
+            var prev = PINS.slice();
+            if (on) PINS.push(path);
+            else PINS = PINS.filter(function (p) { return p !== path; });
+            renderFacets();
+            render();
+            fetch('api/pins', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ path: path, pinned: on })
+            }).then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            }).catch(function (err) {
+                PINS = prev;
+                renderFacets();
+                render();
+                console.warn('pin update failed:', err);
+            });
+        }
+
+        resultsEl.addEventListener('click', function (e) {
+            var btn = e.target.closest('.row-pin');
+            if (!btn) return;
+            e.preventDefault();
+            togglePin(btn.dataset.path);
+        });
 
         /* ---------- boot ---------- */
 
@@ -760,6 +853,21 @@
                 NOTES.forEach(function (n) { words += n.words; });
                 document.getElementById('stat-words').textContent = words > 999 ? (words / 1000).toFixed(1) + 'k' : String(words);
                 document.getElementById('foot-date').textContent = idx.generated;
+                /* Pins degrade silently: no API -> no pin UI. */
+                return fetch('api/pins', { headers: { 'Accept': 'application/json' } })
+                    .then(function (r) {
+                        if (!r.ok) throw new Error('HTTP ' + r.status);
+                        return r.json();
+                    })
+                    .then(function (d) {
+                        if (d && Array.isArray(d.pins)) {
+                            PINS = d.pins.filter(function (p) { return typeof p === 'string'; });
+                        }
+                        pinsAvailable = true;
+                    })
+                    .catch(function () { pinsAvailable = false; });
+            })
+            .then(function () {
                 renderFacets();
                 render();
             })
@@ -806,5 +914,6 @@
         });
     })();
     </script>
+    <script src="../glossarium/js/glossarium-lookup.js" data-glossarium="../glossarium/data/index.json" defer></script>
 </body>
 </html>

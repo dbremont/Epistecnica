@@ -1,0 +1,8 @@
+# Sofista
+
+> Los **sofistas** (del [griego](https://es.wikipedia.org/wiki/Griego_antiguo) σοφία [*sophía*], y σοφός [*sophós*], «sabio») eran estudiantes  y maestros de [retórica](https://es.wikipedia.org/wiki/Ret%C3%B3rica), que desarrollaron su actividad en la [Atenas](https://es.wikipedia.org/wiki/Antigua_Atenas) democrática del siglo V y IV a. C. Se enfocaban en el [relativismo](https://es.wikipedia.org/wiki/Relativismo), la naturaleza, creación de leyes, la moralidad, conocimiento del lenguaje, la concepción gnoseológica constructivista y el [escepticismo](https://es.wikipedia.org/wiki/Escepticismo) respecto al valor absoluto del conocimiento. Su filosofía se conoce a través de fragmentos y testimonios de [Platón](https://es.wikipedia.org/wiki/Plat%C3%B3n), [Aristóteles](https://es.wikipedia.org/wiki/Arist%C3%B3teles) y [Flavio Filostrato](https://es.wikipedia.org/wiki/Fil%C3%B3strato_de_Atenas).[1](https://es.wikipedia.org/wiki/Sofista#cite_note-Los_sofistas-1) Los [filósofos de la naturaleza](https://es.wikipedia.org/wiki/Filosof%C3%ADa_de_la_naturaleza) (*physis*), los [presocráticos](https://es.wikipedia.org/wiki/Filosof%C3%ADa_presocr%C3%A1tica), habían elaborado diferentes teorías para explicar el cosmos. Los sofistas y [Sócrates](https://es.wikipedia.org/wiki/S%C3%B3crates) van a cambiar el objeto de la [filosofía](https://es.wikipedia.org/wiki/Filosof%C3%ADa). Ahora, el tema de reflexión es el hombre ([*nomos*](https://es.wikipedia.org/wiki/Nomos)) y la sociedad ([*polis*](https://es.wikipedia.org/wiki/Polis)).
+> 
+
+## References
+
+- [Sofista](https://es.wikipedia.org/wiki/Sofista)

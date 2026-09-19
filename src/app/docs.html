@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation — Epistecnica</title>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <meta name="description" content="What Epistecnica is, the theory behind it, and how to use every surface — grounded in the running system.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-cyan: #5BF0E7;
+            --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --card-bg: rgba(11, 13, 20, 0.72);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --card-bg: rgba(255, 255, 255, 0.72);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
+
+        body {
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            transition: opacity 180ms ease;
+        }
+
+        html.theme-fading body { opacity: 0; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            body { transition: none; }
+        }
+
+        #ambientCanvas {
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 0;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav-brand em { font-style: italic; color: var(--accent-gold); }
+
+        .nav-links { display: flex; gap: 1.2rem; }
+
+        .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover { color: var(--accent-cyan); }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .layout {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2.5rem 2rem 3.5rem;
+        }
+
+        .cols { display: flex; gap: 2.5rem; }
+
+        .doc-main { flex: 9 1 0; min-width: 0; }
+
+        .sidebar {
+            flex: 1 1 0;
+            min-width: 180px;
+            position: sticky;
+            top: 3.5rem;
+            height: fit-content;
+            max-height: calc(100vh - 5rem);
+            overflow-y: auto;
+            padding: 0 1.25rem 0 0;
+        }
+
+        .sidebar-title {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 0.9rem;
+            text-align: right;
+        }
+
+        .toc-item {
+            display: block;
+            font-size: 0.78rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            text-decoration: none;
+            text-align: right;
+            padding: 0.3rem 0.75rem 0.3rem 0;
+            border-right: 1px solid transparent;
+            margin-right: -1.25rem;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .toc-item.sub { padding-right: 1.6rem; font-size: 0.74rem; color: var(--text-muted); }
+
+        .toc-item:hover { color: var(--text-primary); }
+        .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+        .crumbs {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+        }
+
+        .crumbs a { color: var(--text-muted); text-decoration: none; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+
+        h1.doc-title {
+            font-family: var(--font-display);
+            font-weight: 300;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
+        }
+
+        .doc-body {
+            background: var(--card-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2.5rem;
+            backdrop-filter: blur(6px);
+            font-weight: 300;
+            font-size: 0.95rem;
+            line-height: 1.75;
+            color: var(--text-secondary);
+        }
+
+        .doc-body h2 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-size: 1.55rem;
+            color: var(--text-primary);
+            margin: 2.4em 0 0.8em;
+            padding-bottom: 0.35em;
+            border-bottom: 1px solid var(--border-subtle);
+            scroll-margin-top: 5rem;
+        }
+
+        .doc-body h2:first-child { margin-top: 0; }
+
+        .doc-body h3 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-size: 1.25rem;
+            font-style: italic;
+            color: var(--text-primary);
+            margin: 1.8em 0 0.6em;
+            scroll-margin-top: 5rem;
+        }
+
+        .doc-body p { margin: 0 0 1.1em; }
+
+        .doc-body strong { font-weight: 500; color: var(--text-primary); }
+
+        .doc-body em { color: var(--text-primary); }
+
+        .doc-body a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: border-color 0.3s ease;
+        }
+
+        .doc-body a:hover { border-bottom-color: var(--accent-cyan); }
+
+        .doc-body ul, .doc-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+        .doc-body li { margin-bottom: 0.35em; }
+        .doc-body li::marker { color: var(--accent-gold); }
+
+        .doc-body blockquote {
+            margin: 0 0 1.1em;
+            padding: 0.2em 0 0.2em 1.25em;
+            border-left: 1px solid var(--accent-gold);
+            font-style: italic;
+        }
+
+        .doc-body code {
+            font-family: var(--font-mono);
+            font-size: 0.82em;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 3px;
+            padding: 0.15em 0.4em;
+            color: var(--accent-cyan);
+        }
+
+        .doc-body table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 0 1.1em;
+            font-size: 0.85rem;
+        }
+
+        .doc-body th {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-align: left;
+            padding: 0.5em 0.75em;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .doc-body td {
+            padding: 0.5em 0.75em;
+            border-bottom: 1px solid var(--border-subtle);
+            vertical-align: top;
+        }
+
+        .doc-body tr:last-child td { border-bottom: none; }
+
+        .live {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            margin: 0 0 1.4em;
+        }
+
+        .live .stat { background: var(--bg-void); padding: 0.8rem 0.9rem; }
+
+        .live .value {
+            font-family: var(--font-mono);
+            font-size: 1.25rem;
+            color: var(--accent-cyan);
+        }
+
+        .live .value.pending { color: var(--text-muted); }
+
+        .live .label {
+            margin-top: 0.25rem;
+            font-family: var(--font-mono);
+            font-size: 0.55rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .doc-body { padding: 1.5rem; }
+            .live { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        footer {
+            position: relative;
+            z-index: 1;
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+        }
+
+        .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .foot-inner a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .foot-inner a:hover { color: var(--accent-cyan); }
+    </style>
+</head>
+<body>
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="../"><img style="height:26px" src="../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div style="display:flex;align-items:center;gap:1.2rem">
+                <div class="nav-links">
+                    <a href="note/">Notes</a>
+                    <a href="glossarium/">Glossarium</a>
+                </div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="layout">
+        <div class="crumbs"><a href="../">epistecnica</a> / docs</div>
+        <div class="cols">
+            <main class="doc-main">
+                <h1 class="doc-title">Documentation <em style="color:var(--accent-gold);font-style:italic">&amp;</em> Theory</h1>
+
+                <div class="doc-body">
+                    <div class="live" aria-label="Live corpus sizes">
+                        <div class="stat"><div class="value pending" id="stat-epi-nodes">&mdash;</div><div class="label">Epistemica Nodes</div></div>
+                        <div class="stat"><div class="value pending" id="stat-tec-nodes">&mdash;</div><div class="label">Tecnica Nodes</div></div>
+                        <div class="stat"><div class="value pending" id="stat-notes">&mdash;</div><div class="label">Notes</div></div>
+                        <div class="stat"><div class="value pending" id="stat-terms">&mdash;</div><div class="label">Glossarium Terms</div></div>
+                    </div>
+
+                    <h2 id="what">What Epistecnica Is</h2>
+                    <p>
+                        <strong>Epistecnica</strong> joins two siblings under one framework:
+                        <a href="epistemica/"><em>Epistemica</em></a>, the structure of
+                        <strong>knowing</strong>, and <a href="tecnica/"><em>Tecnica</em></a>, the structure of
+                        <strong>doing</strong>. Together they model the two halves of purposeful human
+                        practice — the arts that produce knowledge, and the arts that produce
+                        transformation — as living knowledge graphs rather than static text.
+                    </p>
+                    <p>
+                        The project is the complement of <em>Philosophia Naturalis</em>: where natural
+                        philosophy asks what the world is, Epistecnica asks what we <em>do</em> when we
+                        come to know it and when we act upon it.
+                    </p>
+
+                    <h2 id="theory">The Theory</h2>
+
+                    <h3>Technique and operation</h3>
+                    <p>
+                        <em>Philosophia Artium Technicarum et Operis</em> — the philosophy of the
+                        technical arts and of operation — analyzes purposeful (agentic) operation and
+                        its primary driver: <strong>technique</strong>, the organized method for
+                        achieving a desired transformation through purposeful action. Technical
+                        practice is the structured process by which an agent transforms, constructs,
+                        operates, and maintains material or informational artifacts to bring about
+                        desired states in the world.
+                    </p>
+                    <p>Its most abstract formulation of operation:</p>
+                    <ul>
+                        <li>Requirements &rarr; Technique &rarr; Product (good, service).</li>
+                        <li>Desired Difference &rarr; Controlled Transformation &rarr; Realized Difference.</li>
+                    </ul>
+                    <p>
+                        A companion aphorism anchors the dynamics: <code>mechanism</code> is to
+                        dynamics what <code>program</code> is to computation — function is what is
+                        achieved, mechanism is how, and process is the organized sequence of
+                        transformations a mechanism may coordinate.
+                    </p>
+
+                    <h3>The epistemic arts</h3>
+                    <p>
+                        <em>Philosophia Artium Epistemicarum</em> is its counterpart: the philosophy of
+                        epistemic practice. Where technique transforms reality, the epistemic arts
+                        transform <em>ignorance into knowledge</em> — the organized practices by which
+                        agents observe, model, validate, standardize, and transmit warranted belief.
+                        The two are joined: every epistemic practice is itself a technique, and every
+                        technique rests on knowledge gained epistemically.
+                    </p>
+
+                    <h3>From theory to graphs</h3>
+                    <p>
+                        Each ontology is the operationalization of one half of this theory: nodes are
+                        the elements the theory distinguishes, edges are the typed relationships that
+                        make practice intelligible. The full development of both philosophies lives
+                        in the <a href="note/">notes corpus</a>, most directly in
+                        <a href="note/note.html?n=general/philosophia-artium-technicarum-et-operis.md">Philosophia
+                        Artium Technicarum et Operis</a> and
+                        <a href="note/note.html?n=general/philosophia-artium-epistemicarum.md">Philosophia
+                        Artium Epistemicarum</a>.
+                    </p>
+
+                    <h2 id="ontologies">The Ontologies</h2>
+
+                    <h3>Epistemica — the structure of knowing</h3>
+                    <p>
+                        An ontology of epistemic practice: <span id="stat-epi-inline">&mdash;</span>
+                        nodes across categories such as <em>epistemic operators, acts, processes,
+                        constraints, blueprints, infrastructure, frameworks, standards,</em> and
+                        <em>artifacts</em>, connected by typed relationships — agents, tools,
+                        methods, and the constraints under which knowledge is made. Explore it in the
+                        <a href="epistemica/graph.html">graph viewer</a>: filter by category, search
+                        nodes, pan and zoom the canvas, and follow edges between practices. Edit it
+                        in the <a href="epistemica/edit.html">editor</a>, which writes back through
+                        the sync server.
+                    </p>
+
+                    <h3>Tecnica — the structure of doing</h3>
+                    <p>
+                        An ontology of technical objects: <span id="stat-tec-inline">&mdash;</span>
+                        nodes organized into layered spaces — <em>problem, capability, execution,
+                        artifact, governance,</em> and <em>evolution</em> — with rich per-node
+                        specifications (functional roles, interfaces, implementations, failure modes,
+                        lifecycles). Explore it in the
+                        <a href="tecnica/graph.html">graph viewer</a> and edit it in the
+                        <a href="tecnica/edit.html">editor</a>.
+                    </p>
+
+                    <h2 id="notes">Notes &amp; Glossarium</h2>
+                    <p>
+                        The written corpus lives in the <a href="note/">notes catalog</a>:
+                        <span id="stat-notes-inline">&mdash;</span> searchable markdown notes behind
+                        both ontologies, organized by section, with a
+                        <a href="note/note.html?n=notes/readme.md">viewer</a> for any note,
+                        self-contained <em>live notes</em> (interactive, hand-authored pages), and
+                        <strong>pins</strong> — star any note in the catalog to keep it at hand;
+                        pins persist server-side for everyone.
+                    </p>
+                    <p>
+                        The <a href="glossarium/">glossarium</a> is the lexical corpus:
+                        <span id="stat-terms-inline">&mdash;</span> terms and definitions, browsable
+                        alphabetically or by search. Selecting a word on the note pages pops its
+                        definition in place — <em>consistencia</em>, <em>telos</em>,
+                        <em>technique</em> — with a link to the full entry.
+                    </p>
+
+                    <h2 id="architecture">Architecture, for the Curious</h2>
+                    <p>
+                        One small server fronts everything; the browser never talks to the database.
+                        Data lives in CouchDB, is served through the endpoints below, and every page
+                        fetches <em>relatively</em>, so each surface also works under its own prefix
+                        or standalone server. There are no accounts: reads are open, saves and pins
+                        go through the server, and AI assistance in the editors is called
+                        browser-direct — model keys never touch the backend.
+                    </p>
+                    <table>
+                        <thead><tr><th>Endpoint</th><th>Purpose</th></tr></thead>
+                        <tbody>
+                            <tr><td><code>GET /api/health</code></td><td>Aggregate health of both dataset backends</td></tr>
+                            <tr><td><code>GET /{ds}/api/health</code></td><td>Per-dataset health: CouchDB reachability, doc count</td></tr>
+                            <tr><td><code>GET /{ds}/api/nodes</code></td><td>The ontology as a flat node array (proxied from CouchDB)</td></tr>
+                            <tr><td><code>GET /{ds}/api/layout</code></td><td>Precomputed node positions for the viewer</td></tr>
+                            <tr><td><code>POST /{ds}/api/graph/save</code></td><td>Editor saves, proxied to the database</td></tr>
+                            <tr><td><code>GET/POST /note/api/pins</code></td><td>Notes-catalog pins (read / toggle)</td></tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        <code>{ds}</code> is <code>epistemica</code> or <code>tecnica</code>. When the
+                        database is unreachable, the proxies fail loudly (HTTP 502) rather than
+                        serving stale snapshots — what you read is the live store.
+                    </p>
+
+                    <h2 id="design">Design</h2>
+                    <p>
+                        Every surface shares one visual system: serif display type for titles,
+                        monospace for machine voice, a dark/light theme toggle (your choice is
+                        remembered), and the ambient constellation behind each page. The corpus pages
+                        — notes and glossarium — are plain markdown and generated indexes; nothing
+                        you read here is hand-maintained twice.
+                    </p>
+                </div>
+            </main>
+
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-title">Contents</div>
+                <nav id="toc"></nav>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-inner">
+            <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; docs</div>
+            <div class="foot-links" style="display:flex;gap:1.2rem">
+                <a href="../">&larr; HUB</a>
+                <a href="note/">NOTES</a>
+                <a href="glossarium/">GLOSSARIUM</a>
+                <a href="api/health">HEALTH</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* ---------- ambient constellation ---------- */
+
+        var canvas = document.getElementById('ambientCanvas');
+        var ctx = canvas.getContext('2d');
+        var pts = [];
+        var LINK_DIST = 130;
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+            pts = [];
+            for (var i = 0; i < count; i++) {
+                pts.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.22,
+                    vy: (Math.random() - 0.5) * 0.22,
+                    r: Math.random() * 1.4 + 0.4
+                });
+            }
+        }
+
+        function tick() {
+            var light = document.documentElement.dataset.theme === 'light';
+            var dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+            var linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (var i = 0; i < pts.length; i++) {
+                var p = pts[i];
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+                ctx.fill();
+                for (var j = i + 1; j < pts.length; j++) {
+                    var m = pts[j];
+                    var dx = p.x - m.x, dy = p.y - m.y;
+                    var dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < LINK_DIST) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(m.x, m.y);
+                        ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(tick);
+        }
+
+        window.addEventListener('resize', resize);
+        resize();
+        requestAnimationFrame(tick);
+
+        /* ---------- theme toggle (shared with the hub) ---------- */
+
+        var themeToggle = document.getElementById('themeToggle');
+        var themeLabel = document.getElementById('themeLabel');
+        var themeFading = false;
+
+        function applyThemeLabel() {
+            themeLabel.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+
+        themeToggle.addEventListener('click', function () {
+            if (themeFading) return;
+            themeFading = true;
+            var root = document.documentElement;
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var swap = function () {
+                root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                applyThemeLabel();
+                root.classList.remove('theme-fading');
+                themeFading = false;
+            };
+            if (reduced) { swap(); return; }
+            root.classList.add('theme-fading');
+            setTimeout(swap, 190);
+        });
+
+        applyThemeLabel();
+
+        /* ---------- live corpus sizes ---------- */
+
+        function setText(id, v) {
+            var el = document.getElementById(id);
+            if (el) el.textContent = v;
+        }
+
+        function mark(el, v) { if (el) el.textContent = v; }
+
+        function nodeStats(prefix, inlineId, bigId) {
+            return fetch(prefix + '/api/nodes', { headers: { 'Accept': 'application/json' } })
+                .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .then(function (nodes) {
+                    var edges = 0;
+                    nodes.forEach(function (n) {
+                        var rel = n.relationships || n.relationship_set || [];
+                        edges += rel.length;
+                    });
+                    var v = nodes.length.toLocaleString();
+                    mark(document.getElementById(inlineId), v);
+                    if (bigId) setText(bigId, v);
+                })
+                .catch(function () { /* keep the em-dash placeholder */ });
+        }
+
+        function countStats(url, bigId, inlineId) {
+            return fetch(url, { headers: { 'Accept': 'application/json' } })
+                .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .then(function (d) {
+                    var v = (d.count != null ? d.count : (d.doc_count != null ? d.doc_count : null));
+                    if (v == null) throw new Error('no count');
+                    v = v.toLocaleString();
+                    if (bigId) setText(bigId, v);
+                    if (inlineId) mark(document.getElementById(inlineId), v);
+                })
+                .catch(function () { /* keep the em-dash placeholder */ });
+        }
+
+        nodeStats('epistemica', 'stat-epi-inline', 'stat-epi-nodes');
+        nodeStats('tecnica', 'stat-tec-inline', 'stat-tec-nodes');
+        countStats('note/data/index.json', 'stat-notes', 'stat-notes-inline');
+        countStats('glossarium/data/index.json', 'stat-terms', 'stat-terms-inline');
+
+        /* ---------- table of contents + scrollspy ---------- */
+
+        var headings = document.querySelectorAll('.doc-body h2, .doc-body h3');
+        var toc = document.getElementById('toc');
+        if (!headings.length) { document.getElementById('sidebar').remove(); }
+        headings.forEach(function (h, i) {
+            if (!h.id) h.id = 'sec-' + i;
+            var a = document.createElement('a');
+            a.href = '#' + h.id;
+            a.className = 'toc-item' + (h.tagName === 'H3' ? ' sub' : '');
+            a.textContent = h.textContent;
+            a.addEventListener('click', function (e) {
+                e.preventDefault();
+                h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+            toc.appendChild(a);
+        });
+
+        if (headings.length) {
+            var items = toc.querySelectorAll('.toc-item');
+            var observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (!entry.isIntersecting) return;
+                    var idx = Array.prototype.indexOf.call(headings, entry.target);
+                    items.forEach(function (it) { it.classList.remove('active'); });
+                    if (items[idx]) items[idx].classList.add('active');
+                });
+            }, { rootMargin: '-10% 0px -60% 0px' });
+            headings.forEach(function (h) { observer.observe(h); });
+        }
+    })();
+    </script>
+</body>
+</html>
