@@ -379,19 +379,20 @@
 
         .foot-brand em { font-style: italic; color: var(--accent-gold); }
 
+        .foot-brand-wrap { display: flex; flex-direction: column; gap: 0.35rem; }
+
         .foot-links { display: flex; flex-wrap: wrap; gap: 1.2rem; }
 
         footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
         footer a:hover { color: var(--accent-cyan); }
 
         .foot-colophon {
-            text-align: center;
             font-family: var(--font-mono);
-            font-size: 0.5rem;
-            letter-spacing: 0.35em;
+            font-size: 0.42rem;
+            letter-spacing: 0.32em;
             text-transform: uppercase;
             color: var(--text-muted);
-            padding: 0 2rem 1.1rem;
+            opacity: 0.75;
         }
 
         @media (max-width: 860px) {
@@ -499,7 +500,10 @@
 
     <footer>
         <div class="foot-inner">
-            <div class="foot-brand">Episte<em>cnica</em></div>
+            <div class="foot-brand-wrap">
+                <div class="foot-brand">Episte<em>cnica</em></div>
+                <div class="foot-colophon">KNOWING &middot; ACTING &middot; ONE FRAMEWORK</div>
+            </div>
             <div class="foot-links">
                 <a href="epistemica/">EPISTEMICA</a>
                 <a href="tecnica/">TECNICA</a>
@@ -508,7 +512,6 @@
                 <a href="api/health">HEALTH</a>
             </div>
         </div>
-        <div class="foot-colophon">KNOWING &middot; ACTING &middot; ONE FRAMEWORK</div>
     </footer>
 
     <script>
