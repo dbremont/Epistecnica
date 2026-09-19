@@ -29,8 +29,11 @@ src/note/
 - A **note** is a markdown file (`*.md`): rendered on the fly by
   `note.html?n=<path>`. The bulk of the corpus.
 - A **live note** is a self-contained, hand-authored HTML page (`*.html`),
-  living under `notes/live/` — bespoke styling, interactivity, its own
-  scripts. Served as-is; never rendered through the viewer. The catalog
+  living under `notes/live/` — bespoke interactivity, its own scripts,
+  wrapped in the shared live-note chrome (brand nav, theme toggle, footer,
+  Epistecnica tokens; dark + light). Served as-is; never rendered through
+  the viewer. The canonical copy-paste chrome blocks live in
+  `docs/live-note-chrome.md`; no CDN libraries are allowed. The catalog
   still indexes it (title, headings, text) and links directly to the page,
   marked with a `live` chip. Examples: `live/chmc.html` ("Concurrent Map",
   from `src/tecnica/app/view/`), `live/pd.html` ("Poisson Distribution"),
