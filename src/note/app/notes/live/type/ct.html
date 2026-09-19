@@ -4,69 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epistemic Analyzer — Central Tendency Engine</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.2.1/math.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    },
-                    colors: {
-                        slate: {
-                            850: '#151f32',
-                            900: '#0f172a',
-                            950: '#020617',
-                        }
-                    },
-                    animation: {
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                        'shimmer': 'shimmer 2s linear infinite',
-                        'slide-up': 'slideUp 0.5s ease-out forwards',
-                        'fade-in': 'fadeIn 0.3s ease-out forwards',
-                    },
-                    keyframes: {
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-10px)' },
-                        },
-                        shimmer: {
-                            '0%': { backgroundPosition: '-1000px 0' },
-                            '100%': { backgroundPosition: '1000px 0' },
-                        },
-                        slideUp: {
-                            '0%': { opacity: '0', transform: 'translateY(20px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        },
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
+        /* ============================================
+           EPISTEMICA — shared tokens + live-note chrome
+           (canonical blocks: docs/live-note-chrome.md)
+           ============================================ */
+
+        :root {
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-gold-dim: rgba(197, 164, 103, 0.15);
+            --accent-cyan: #5BF0E7;
+            --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --card-bg: rgba(11, 13, 20, 0.72);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --card-bg: rgba(255, 255, 255, 0.72);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
+        }
+
+        body { transition: opacity 180ms ease; }
+        html.theme-fading body { opacity: 0; }
+
+        .site-nav {
+            position: static;
+            z-index: 60;
+            background: var(--nav-bg);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .site-nav .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-nav .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .site-nav .nav-mark { height: 26px; width: auto; }
+        .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+        .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        .site-nav .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .site-footer {
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+            position: relative;
+            z-index: 1;
+        }
+
+        .site-footer .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .site-footer a:hover { color: var(--accent-cyan); }
+
         body {
-            background: #020617;
-            color: #e2e8f0;
-            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
             overflow-x: hidden;
         }
         
         /* Cinematic Background */
         .bg-cinematic {
             background: 
-                radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
-                radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.06) 0%, transparent 50%),
-                radial-gradient(ellipse at 50% 100%, rgba(236, 72, 153, 0.04) 0%, transparent 50%),
-                linear-gradient(180deg, #020617 0%, #0f172a 100%);
+                radial-gradient(ellipse at 20% 50%, rgba(91, 240, 231, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(197, 164, 103, 0.05) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 100%, rgba(91, 240, 231, 0.03) 0%, transparent 50%),
+                linear-gradient(180deg, var(--bg-void) 0%, var(--bg-surface) 100%);
             position: fixed;
             inset: 0;
             z-index: -2;
@@ -83,10 +169,10 @@
 
         /* Glassmorphism Cards */
         .glass-card {
-            background: rgba(30, 41, 59, 0.4);
+            background: var(--card-bg);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--border-subtle);
             box-shadow: 
                 0 4px 6px -1px rgba(0, 0, 0, 0.1),
                 0 2px 4px -1px rgba(0, 0, 0, 0.06),
@@ -95,7 +181,7 @@
         }
         
         .glass-card:hover {
-            border-color: rgba(99, 102, 241, 0.2);
+            border-color: var(--accent-cyan-dim);
             box-shadow: 
                 0 20px 25px -5px rgba(0, 0, 0, 0.2),
                 0 10px 10px -5px rgba(0, 0, 0, 0.1),
@@ -104,10 +190,10 @@
         }
 
         .glass-panel {
-            background: rgba(15, 23, 42, 0.6);
+            background: var(--card-bg);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-subtle);
         }
 
         /* Navigation */
@@ -124,7 +210,7 @@
             top: 0;
             bottom: 0;
             width: 3px;
-            background: linear-gradient(180deg, #818cf8, #c084fc);
+            background: linear-gradient(180deg, var(--accent-cyan), var(--accent-gold));
             transform: scaleY(0);
             transition: transform 0.3s ease;
         }
@@ -134,8 +220,8 @@
         }
         
         .nav-item.active {
-            background: linear-gradient(90deg, rgba(99, 102, 241, 0.15), transparent);
-            color: #fff;
+            background: var(--accent-cyan-dim);
+            color: var(--text-primary);
         }
         
         .nav-item:hover:not(.active) {
@@ -146,23 +232,23 @@
         ::-webkit-scrollbar { width: 5px; height: 5px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { 
-            background: rgba(99, 102, 241, 0.3); 
+            background: var(--accent-cyan-dim);
             border-radius: 10px; 
         }
-        ::-webkit-scrollbar-thumb:hover { background: rgba(99, 102, 241, 0.5); }
+        ::-webkit-scrollbar-thumb:hover { background: var(--accent-cyan); }
 
         /* Inputs */
         .input-glass {
-            background: rgba(15, 23, 42, 0.8);
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            color: #e2e8f0;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
             transition: all 0.3s ease;
         }
         
         .input-glass:focus {
             outline: none;
-            border-color: rgba(99, 102, 241, 0.5);
-            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 0 3px var(--accent-cyan-dim);
         }
 
         /* Range Slider */
@@ -175,7 +261,7 @@
         }
         
         input[type="range"]::-webkit-slider-runnable-track {
-            background: rgba(51, 65, 85, 0.5);
+            background: var(--border-subtle);
             height: 4px;
             border-radius: 2px;
         }
@@ -184,29 +270,29 @@
             -webkit-appearance: none;
             appearance: none;
             margin-top: -6px;
-            background: linear-gradient(135deg, #818cf8, #c084fc);
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
             height: 16px;
             width: 16px;
             border-radius: 50%;
-            border: 2px solid #020617;
-            box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+            border: 2px solid var(--bg-void);
+            box-shadow: 0 0 10px var(--accent-cyan-dim);
             transition: all 0.2s ease;
         }
         
         input[type="range"]::-webkit-slider-thumb:hover {
             transform: scale(1.2);
-            box-shadow: 0 0 20px rgba(99, 102, 241, 0.8);
+            box-shadow: 0 0 20px var(--accent-cyan);
         }
 
         /* Metric Cards */
         .metric-pill {
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.05));
-            border: 1px solid rgba(99, 102, 241, 0.2);
+            background: linear-gradient(135deg, var(--accent-cyan-dim), transparent);
+            border: 1px solid var(--accent-cyan-dim);
             transition: all 0.3s ease;
         }
         
         .metric-pill:hover {
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.1));
+            background: linear-gradient(135deg, var(--accent-cyan-dim), var(--accent-gold-dim));
             transform: translateX(4px);
         }
 
@@ -244,7 +330,7 @@
         }
         
         .data-table tbody tr:hover {
-            background: rgba(99, 102, 241, 0.05);
+            background: var(--accent-cyan-dim);
         }
 
         /* Chart Container */
@@ -263,9 +349,9 @@
 
         /* Tooltip Custom */
         .custom-tooltip {
-            background: rgba(15, 23, 42, 0.95);
+            background: var(--bg-surface);
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(99, 102, 241, 0.3);
+            border: 1px solid var(--accent-cyan-dim);
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
         }
 
@@ -296,14 +382,14 @@
 
         /* Gradient Text */
         .text-gradient {
-            background: linear-gradient(135deg, #818cf8 0%, #c084fc 50%, #f472b6 100%);
+            background: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-gold) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
         
         .text-gradient-subtle {
-            background: linear-gradient(135deg, #94a3b8 0%, #e2e8f0 100%);
+            background: linear-gradient(135deg, var(--text-muted) 0%, var(--text-primary) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -352,7 +438,7 @@
         
         .drift-positive { color: #f87171; }
         .drift-negative { color: #34d399; }
-        .drift-neutral { color: #94a3b8; }
+        .drift-neutral { color: var(--text-muted); }
 
         /* Responsive Grid */
         @media (max-width: 1024px) {
@@ -361,12 +447,268 @@
 
         /* Canvas Glow */
         canvas {
-            filter: drop-shadow(0 0 20px rgba(99, 102, 241, 0.1));
+            filter: drop-shadow(0 0 20px rgba(91, 240, 231, 0.06));
+        }
+
+        /* ---- heading face ---- */
+        h1, h2, h3, h4 {
+            font-family: var(--font-display);
+        }
+
+        /* ---- utility shim (replaces the Tailwind CDN) ---- */
+        .antialiased { -webkit-font-smoothing: antialiased; }
+        .absolute { position: absolute; }
+        .relative { position: relative; }
+        .sticky { position: sticky; }
+        .fixed { position: fixed; }
+        .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+        .-z-10 { z-index: -10; }
+        .z-10 { z-index: 10; }
+        .block { display: block; }
+        .hidden { display: none; }
+        .flex { display: flex; }
+        .inline-flex { display: inline-flex; }
+        .grid { display: grid; }
+        .flex-1 { flex: 1 1 0%; }
+        .flex-col { flex-direction: column; }
+        .flex-shrink-0 { flex-shrink: 0; }
+        .flex-wrap { flex-wrap: wrap; }
+        .items-center { align-items: center; }
+        .items-end { align-items: flex-end; }
+        .items-start { align-items: flex-start; }
+        .justify-between { justify-content: space-between; }
+        .justify-center { justify-content: center; }
+        .text-left { text-align: left; }
+        .text-center { text-align: center; }
+        .text-right { text-align: right; }
+        .overflow-hidden { overflow: hidden; }
+        .overflow-x-auto { overflow-x: auto; }
+        .overflow-y-auto { overflow-y: auto; }
+        .w-full { width: 100%; }
+        .h-full { height: 100%; }
+        .min-w-0 { min-width: 0; }
+        .min-h-screen { min-height: 100vh; }
+        .max-h-64 { max-height: 16rem; }
+        .w-1\.5 { width: 0.375rem; } .h-1\.5 { height: 0.375rem; }
+        .w-2 { width: 0.5rem; } .h-2 { height: 0.5rem; }
+        .w-2\.5 { width: 0.625rem; } .h-2\.5 { height: 0.625rem; }
+        .w-3 { width: 0.75rem; } .h-3 { height: 0.75rem; }
+        .w-4 { width: 1rem; } .h-4 { height: 1rem; }
+        .w-5 { width: 1.25rem; } .h-5 { height: 1.25rem; }
+        .w-6 { width: 1.5rem; } .h-6 { height: 1.5rem; }
+        .w-8 { width: 2rem; } .h-8 { height: 2rem; }
+        .gap-2 { gap: 0.5rem; }
+        .gap-3 { gap: 0.75rem; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+        .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .p-1 { padding: 0.25rem; }
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        .p-px { padding: 1px; }
+        .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+        .px-2\.5 { padding-left: 0.625rem; padding-right: 0.625rem; }
+        .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+        .px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .py-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; }
+        .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .py-2\.5 { padding-top: 0.625rem; padding-bottom: 0.625rem; }
+        .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+        .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .pb-3 { padding-bottom: 0.75rem; }
+        .pr-2 { padding-right: 0.5rem; }
+        .pr-4 { padding-right: 1rem; }
+        .pt-2 { padding-top: 0.5rem; }
+        .pt-4 { padding-top: 1rem; }
+        .pt-6 { padding-top: 1.5rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .ml-11 { margin-left: 2.75rem; }
+        .ml-auto { margin-left: auto; }
+        .space-y-1 > * + * { margin-top: 0.25rem; }
+        .space-y-2 > * + * { margin-top: 0.5rem; }
+        .space-y-3 > * + * { margin-top: 0.75rem; }
+        .space-y-4 > * + * { margin-top: 1rem; }
+        .space-y-6 > * + * { margin-top: 1.5rem; }
+        .text-\[10px\] { font-size: 10px; line-height: 1.5; }
+        .text-xs { font-size: 0.75rem; line-height: 1.5; }
+        .text-sm { font-size: 0.875rem; line-height: 1.5; }
+        .text-lg { font-size: 1.125rem; line-height: 1.6; }
+        .text-xl { font-size: 1.25rem; line-height: 1.6; }
+        .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+        .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+        .font-medium { font-weight: 500; }
+        .font-semibold { font-weight: 600; }
+        .font-bold { font-weight: 700; }
+        .font-extrabold { font-weight: 800; }
+        .font-mono { font-family: var(--font-mono); }
+        .uppercase { text-transform: uppercase; }
+        .tracking-tight { letter-spacing: -0.025em; }
+        .tracking-wider { letter-spacing: 0.05em; }
+        .tracking-\[0\.2em\] { letter-spacing: 0.2em; }
+        .leading-relaxed { line-height: 1.7; }
+        .rounded { border-radius: 0.25rem; }
+        .rounded-lg { border-radius: 0.5rem; }
+        .rounded-xl { border-radius: 0.75rem; }
+        .rounded-2xl { border-radius: 1rem; }
+        .rounded-full { border-radius: 9999px; }
+        .rounded-\[11px\] { border-radius: 11px; }
+        .border { border: 1px solid var(--border-subtle); }
+        .border-b { border-bottom: 1px solid var(--border-subtle); }
+        .border-t { border-top: 1px solid var(--border-subtle); }
+        .border-collapse { border-collapse: collapse; }
+        .divide-y > * + * { border-top: 1px solid var(--border-subtle); }
+        .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 4px 6px -4px rgba(0, 0, 0, 0.3); }
+        .shadow-indigo-500\/30 { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 0 14px var(--accent-cyan-dim); }
+        .opacity-0 { opacity: 0; }
+        .backdrop-blur-sm { backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+        .blur-xl { filter: blur(24px); }
+        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .transition-all { transition: all 0.3s ease; }
+        .transition-colors { transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; }
+        .transition-opacity { transition: opacity 0.3s ease; }
+        .duration-700 { transition-duration: 0.7s; }
+        .duration-1000 { transition-duration: 1s; }
+        .group:hover .group-hover\:opacity-100 { opacity: 1; }
+        .group:hover .group-hover\:text-indigo-300 { color: var(--accent-cyan); }
+        .group:hover .group-hover\:text-purple-400 { color: var(--accent-gold); }
+        .group:hover .group-hover\:text-pink-400 { color: var(--accent-gold); }
+        .group:hover .group-hover\:bg-opacity-0 { opacity: 0.35; }
+        .hover\:bg-slate-700\/50:hover { background: var(--bg-card); }
+        .hover\:bg-white\/5:hover { background: var(--accent-cyan-dim); }
+        .hover\:text-white:hover { color: var(--text-primary); }
+        .hover\:border-indigo-500\/20:hover { border-color: var(--accent-cyan-dim); }
+        .hover\:border-indigo-500\/30:hover { border-color: var(--accent-cyan); }
+        .hover\:scale-\[1\.02\]:hover { transform: scale(1.02); }
+
+        /* text colors → tokens */
+        .text-white { color: var(--text-primary); }
+        .text-slate-200 { color: var(--text-primary); }
+        .text-slate-300 { color: var(--text-secondary); }
+        .text-slate-400 { color: var(--text-secondary); }
+        .text-slate-500 { color: var(--text-muted); }
+        .text-slate-600 { color: var(--text-muted); }
+        .text-indigo-300 { color: var(--accent-cyan); }
+        .text-indigo-400 { color: var(--accent-cyan); }
+        .text-purple-400 { color: var(--accent-gold); }
+        .text-pink-400 { color: var(--accent-gold); }
+        .text-rose-300 { color: #fda4af; }
+        .text-rose-400 { color: #fb7185; }
+        .text-red-300 { color: #fca5a5; }
+        .text-red-400 { color: #f87171; }
+        .text-emerald-300 { color: #6ee7b7; }
+        .text-emerald-400 { color: #34d399; }
+        .text-amber-300 { color: #fcd34d; }
+        .text-amber-400 { color: #fbbf24; }
+        .text-blue-300 { color: #93c5fd; }
+
+        /* background colors → tokens */
+        .bg-slate-900 { background: var(--bg-card); }
+        .bg-slate-900\/30 { background: color-mix(in srgb, var(--bg-card) 45%, transparent); }
+        .bg-slate-900\/50 { background: color-mix(in srgb, var(--bg-card) 70%, transparent); }
+        .bg-slate-800\/50 { background: var(--bg-card); }
+        .bg-indigo-400 { background: var(--accent-cyan); }
+        .bg-indigo-500 { background: var(--accent-cyan); }
+        .bg-indigo-500\/10 { background: var(--accent-cyan-dim); }
+        .bg-indigo-500\/5 { background: var(--accent-cyan-dim); }
+        .bg-purple-500\/10 { background: var(--accent-gold-dim); }
+        .bg-pink-500 { background: var(--accent-gold); }
+        .bg-pink-500\/10 { background: var(--accent-gold-dim); }
+        .bg-amber-400 { background: #fbbf24; }
+        .bg-amber-500 { background: #f59e0b; }
+        .bg-amber-500\/5 { background: rgba(245, 158, 11, 0.08); }
+        .bg-emerald-400 { background: #34d399; }
+        .bg-emerald-500 { background: #10b981; }
+        .bg-emerald-500\/10 { background: rgba(16, 185, 129, 0.12); }
+        .bg-emerald-500\/5 { background: rgba(16, 185, 129, 0.07); }
+        .bg-red-500\/10 { background: rgba(239, 68, 68, 0.12); }
+        .bg-rose-400 { background: #fb7185; }
+        .bg-rose-500\/5 { background: rgba(244, 63, 94, 0.07); }
+        .bg-blue-950\/30 { background: rgba(23, 37, 84, 0.4); }
+        .bg-red-950\/30 { background: rgba(69, 10, 10, 0.4); }
+        .bg-amber-950\/30 { background: rgba(69, 39, 3, 0.4); }
+        .bg-emerald-950\/30 { background: rgba(2, 44, 34, 0.4); }
+        .bg-white\/\[0\.02\] { background: color-mix(in srgb, var(--text-primary) 3%, transparent); }
+
+        /* border colors → tokens */
+        .border-white\/5 { border-color: var(--border-subtle); }
+        .border-white\/10 { border-color: var(--border-subtle); }
+        .border-indigo-500\/10 { border-color: var(--accent-cyan-dim); }
+        .border-indigo-500\/20 { border-color: var(--accent-cyan-dim); }
+        .border-indigo-500\/30 { border-color: var(--accent-cyan); }
+        .border-purple-500\/20 { border-color: var(--accent-gold-dim); }
+        .border-pink-500\/20 { border-color: var(--accent-gold-dim); }
+        .border-amber-500\/10 { border-color: rgba(245, 158, 11, 0.15); }
+        .border-amber-800\/30 { border-color: rgba(146, 64, 14, 0.4); }
+        .border-red-500\/20 { border-color: rgba(239, 68, 68, 0.25); }
+        .border-red-800\/30 { border-color: rgba(153, 27, 27, 0.4); }
+        .border-emerald-500\/10 { border-color: rgba(16, 185, 129, 0.15); }
+        .border-emerald-800\/30 { border-color: rgba(6, 95, 70, 0.4); }
+        .border-blue-800\/30 { border-color: rgba(30, 64, 175, 0.4); }
+        .border-rose-500\/10 { border-color: rgba(244, 63, 94, 0.15); }
+
+        /* gradients → token-driven custom properties */
+        .bg-gradient-to-r { background-image: linear-gradient(to right, var(--grad-from), var(--grad-via, var(--grad-to)), var(--grad-to)); }
+        .bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--grad-from), var(--grad-via, var(--grad-to)), var(--grad-to)); }
+        .from-indigo-500 { --grad-from: var(--accent-cyan); }
+        .from-indigo-600 { --grad-from: var(--accent-cyan); }
+        .from-slate-800\/30 { --grad-from: color-mix(in srgb, var(--bg-card) 30%, transparent); }
+        .from-emerald-500 { --grad-from: #10b981; }
+        .from-amber-500 { --grad-from: #f59e0b; }
+        .from-red-500 { --grad-from: #ef4444; }
+        .to-purple-500 { --grad-to: var(--accent-gold); }
+        .to-purple-600 { --grad-to: var(--accent-gold); }
+        .to-emerald-400 { --grad-to: #34d399; }
+        .to-teal-400 { --grad-to: #2dd4bf; }
+        .to-rose-400 { --grad-to: #fb7185; }
+        .to-purple-900\/10 { --grad-to: color-mix(in srgb, var(--accent-gold) 10%, transparent); }
+        .via-indigo-900\/10 { --grad-via: color-mix(in srgb, var(--accent-cyan) 10%, transparent); }
+        .via-purple-500 { --grad-via: var(--accent-gold); }
+
+        /* responsive variants */
+        @media (min-width: 640px) {
+            .sm\:flex-row { flex-direction: row; }
+            .sm\:items-end { align-items: flex-end; }
+        }
+        @media (min-width: 768px) {
+            .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+        @media (min-width: 1024px) {
+            .lg\:flex-row { flex-direction: row; }
+            .lg\:w-72 { width: 18rem; }
+            .lg\:h-screen { height: 100vh; }
+            .lg\:sticky { position: sticky; }
+            .lg\:top-0 { top: 0; }
+            .lg\:p-8 { padding: 2rem; }
+            .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .lg\:col-span-2 { grid-column: span 2 / span 2; }
+        }
+        @media (min-width: 1280px) {
+            .xl\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .xl\:col-span-2 { grid-column: span 2 / span 2; }
         }
     </style>
 <base target="_blank">
 </head>
 <body class="min-h-screen antialiased">
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div class="nav-right">
+                <div class="nav-links"><a href="../../../index.html">Catalog</a></div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
 
     <!-- Background Layers -->
     <div class="bg-cinematic"></div>
@@ -754,10 +1096,16 @@
         </main>
     </div>
 
+    <footer class="site-footer">
+        <div class="foot-inner">
+            <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+            <a href="../../../index.html">&larr; CATALOG</a>
+        </div>
+    </footer>
+
     <script>
         // --- CORE STATE & DATA ---
         const state = { baseData: [], cfData: [], metrics: {} };
-        const charts = {};
 
         // --- NAVIGATION ---
         function switchView(viewId) {
@@ -781,9 +1129,7 @@
             document.getElementById(`nav-${viewId}`).classList.add('active');
             
             // Resize charts after view switch
-            setTimeout(() => {
-                Object.values(charts).forEach(c => c && c.resize && c.resize());
-            }, 100);
+            setTimeout(redrawCharts, 100);
         }
 
         // --- ROBUST DATA GENERATION ENGINE ---
@@ -817,9 +1163,211 @@
         function generateBaseData() { loadPreset('normal'); }
 
         // --- CHARTING ENGINE ---
+        const stats = {
+            min: (a) => Math.min(...a),
+            max: (a) => Math.max(...a),
+            mean: (a) => a.reduce((s, x) => s + x, 0) / a.length,
+            median: (a) => {
+                const s = [...a].sort((x, y) => x - y);
+                const m = Math.floor(s.length / 2);
+                return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+            },
+            std: (a) => {
+                const mu = stats.mean(a);
+                return Math.sqrt(a.reduce((s, x) => s + (x - mu) ** 2, 0) / (a.length - 1));
+            },
+            quantile: (a, p) => {
+                const s = [...a].sort((x, y) => x - y);
+                const h = (s.length - 1) * p;
+                const lo = Math.floor(h);
+                return s[lo] + (h - lo) * (s[Math.min(lo + 1, s.length - 1)] - s[lo]);
+            },
+            range: (start, end, step) => {
+                const out = [];
+                for (let v = start; v < end; v += step) out.push(v);
+                return out;
+            }
+        };
+
+        function themeColors() {
+            const s = getComputedStyle(document.documentElement);
+            return {
+                primary: s.getPropertyValue('--text-primary').trim(),
+                secondary: s.getPropertyValue('--text-secondary').trim(),
+                muted: s.getPropertyValue('--text-muted').trim(),
+                cyan: s.getPropertyValue('--accent-cyan').trim(),
+                gold: s.getPropertyValue('--accent-gold').trim(),
+                surface: s.getPropertyValue('--bg-surface').trim()
+            };
+        }
+
+        function withAlpha(color, alpha) {
+            const m = /^#([0-9a-f]{6})$/i.exec(color);
+            if (m) {
+                const n = parseInt(m[1], 16);
+                return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+            }
+            return color;
+        }
+
+        const chartCache = {};
+
+        function prepCanvas(canvas) {
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvas.parentElement.getBoundingClientRect();
+            const w = Math.max(rect.width, 10);
+            const h = Math.max(rect.height, 10);
+            if (canvas.width !== Math.round(w * dpr) || canvas.height !== Math.round(h * dpr)) {
+                canvas.width = Math.round(w * dpr);
+                canvas.height = Math.round(h * dpr);
+                canvas.style.width = w + 'px';
+                canvas.style.height = h + 'px';
+            }
+            const ctx = canvas.getContext('2d');
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            return { ctx, w, h };
+        }
+
+        function roundRectPath(ctx, x, y, w, h, r) {
+            ctx.beginPath();
+            ctx.moveTo(x + r, y);
+            ctx.arcTo(x + w, y, x + w, y + h, r);
+            ctx.arcTo(x + w, y + h, x, y + h, r);
+            ctx.arcTo(x, y + h, x, y, r);
+            ctx.arcTo(x, y, x + w, y, r);
+            ctx.closePath();
+        }
+
+        function drawLineChart(canvas, cfg) {
+            const pal = themeColors();
+            const { ctx, w, h } = prepCanvas(canvas);
+            ctx.clearRect(0, 0, w, h);
+            const pad = { l: 10, r: 10, t: 30, b: 22 };
+            let minX = Infinity, maxX = -Infinity, maxY = 0;
+            cfg.series.forEach(s => s.points.forEach(p => {
+                minX = Math.min(minX, p.x);
+                maxX = Math.max(maxX, p.x);
+                maxY = Math.max(maxY, p.y);
+            }));
+            if (!isFinite(minX) || maxX === minX) return;
+            maxY *= 1.05;
+            const X = x => pad.l + (x - minX) / (maxX - minX) * (w - pad.l - pad.r);
+            const Y = y => h - pad.b - (y / (maxY || 1)) * (h - pad.t - pad.b);
+            ctx.fillStyle = pal.muted;
+            ctx.font = '10px "JetBrains Mono", monospace';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'alphabetic';
+            const ticks = 6;
+            for (let i = 0; i <= ticks; i++) {
+                const x = minX + (maxX - minX) * i / ticks;
+                ctx.fillText(x.toFixed(1), X(x), h - 6);
+            }
+            ctx.strokeStyle = withAlpha(pal.muted, '0.18');
+            ctx.lineWidth = 1;
+            for (let i = 0; i <= ticks; i++) {
+                const x = minX + (maxX - minX) * i / ticks;
+                ctx.beginPath();
+                ctx.moveTo(X(x), pad.t);
+                ctx.lineTo(X(x), h - pad.b);
+                ctx.stroke();
+            }
+            cfg.series.forEach(s => {
+                if (!s.points.length) return;
+                if (s.fill) {
+                    const g = ctx.createLinearGradient(0, pad.t, 0, h - pad.b);
+                    g.addColorStop(0, withAlpha(s.color, '0.30'));
+                    g.addColorStop(1, withAlpha(s.color, '0'));
+                    ctx.beginPath();
+                    s.points.forEach((p, i) => i ? ctx.lineTo(X(p.x), Y(p.y)) : ctx.moveTo(X(p.x), Y(p.y)));
+                    ctx.lineTo(X(s.points[s.points.length - 1].x), h - pad.b);
+                    ctx.lineTo(X(s.points[0].x), h - pad.b);
+                    ctx.closePath();
+                    ctx.fillStyle = g;
+                    ctx.fill();
+                }
+                ctx.beginPath();
+                if (s.dash) ctx.setLineDash(s.dash);
+                s.points.forEach((p, i) => i ? ctx.lineTo(X(p.x), Y(p.y)) : ctx.moveTo(X(p.x), Y(p.y)));
+                ctx.strokeStyle = s.color;
+                ctx.lineWidth = s.width || 2;
+                ctx.lineJoin = 'round';
+                ctx.lineCap = 'round';
+                ctx.stroke();
+                ctx.setLineDash([]);
+            });
+            const labeled = cfg.series.filter(s => s.label);
+            if (labeled.length) {
+                ctx.textAlign = 'right';
+                ctx.font = '11px Inter, sans-serif';
+                ctx.textBaseline = 'middle';
+                let lx = w - pad.r;
+                labeled.forEach(s => {
+                    const tw = ctx.measureText(s.label).width;
+                    ctx.fillStyle = s.color;
+                    ctx.beginPath();
+                    ctx.arc(lx - tw - 8, pad.t - 12, 3.5, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.fillStyle = pal.primary;
+                    ctx.fillText(s.label, lx, pad.t - 12);
+                    lx -= tw + 22;
+                });
+                ctx.textBaseline = 'alphabetic';
+            }
+        }
+
+        function drawBarChart(canvas, cfg) {
+            const pal = themeColors();
+            const { ctx, w, h } = prepCanvas(canvas);
+            ctx.clearRect(0, 0, w, h);
+            const pad = { l: 92, r: 18, t: 10, b: 10 };
+            const max = cfg.max || 100;
+            const rowH = (h - pad.t - pad.b) / cfg.labels.length;
+            ctx.strokeStyle = withAlpha(pal.muted, '0.15');
+            ctx.lineWidth = 1;
+            for (let v = 0; v <= max; v += max / 4) {
+                const x = pad.l + (v / max) * (w - pad.l - pad.r);
+                ctx.beginPath();
+                ctx.moveTo(x, pad.t);
+                ctx.lineTo(x, h - pad.b);
+                ctx.stroke();
+            }
+            ctx.textBaseline = 'middle';
+            cfg.labels.forEach((lab, i) => {
+                const y = pad.t + rowH * i + rowH / 2;
+                ctx.fillStyle = pal.primary;
+                ctx.font = '12px Inter, sans-serif';
+                ctx.textAlign = 'right';
+                ctx.fillText(lab, pad.l - 10, y);
+                const c = cfg.colors[i];
+                const bw = Math.max((cfg.values[i] / max) * (w - pad.l - pad.r), 1);
+                ctx.fillStyle = withAlpha(c, '0.18');
+                roundRectPath(ctx, pad.l, y - rowH * 0.28, bw, rowH * 0.56, 4);
+                ctx.fill();
+                ctx.strokeStyle = c;
+                ctx.lineWidth = 1.5;
+                roundRectPath(ctx, pad.l, y - rowH * 0.28, bw, rowH * 0.56, 4);
+                ctx.stroke();
+                ctx.fillStyle = pal.muted;
+                ctx.font = '10px "JetBrains Mono", monospace';
+                ctx.textAlign = 'left';
+                ctx.fillText(String(Math.round(cfg.values[i])), pad.l + bw + 6, y);
+            });
+            ctx.textBaseline = 'alphabetic';
+        }
+
+        function redrawCharts() {
+            Object.keys(chartCache).forEach(id => {
+                const c = chartCache[id];
+                const el = document.getElementById(id);
+                if (!el) return;
+                if (c.type === 'line') drawLineChart(el, c.cfg);
+                if (c.type === 'bar') drawBarChart(el, c.cfg);
+            });
+        }
+
         function calculateKDE(data, evalPoints, bandwidth) {
             const n = data.length;
-            const h = bandwidth || math.std(data) * Math.pow(n, -1/5) * 1.2; 
+            const h = bandwidth || stats.std(data) * Math.pow(n, -1/5) * 1.2; 
             const densities = evalPoints.map(x => {
                 const sum = data.reduce((acc, val) => acc + Math.exp(-0.5 * Math.pow((x - val) / h, 2)), 0);
                 return sum / (n * h * Math.sqrt(2 * Math.PI));
@@ -828,84 +1376,25 @@
         }
 
         function renderDistChart(canvasId, data) {
-            const ctx = document.getElementById(canvasId).getContext('2d');
-            if (charts[canvasId]) charts[canvasId].destroy();
+            const canvas = document.getElementById(canvasId);
 
-            const min = math.min(data);
-            const max = math.max(data);
+            const min = stats.min(data);
+            const max = stats.max(data);
             const padding = (max - min) * 0.15;
-            const step = (max - min + 2*padding) / 200; 
-            const kdePoints = math.range(min - padding, max + padding, step).toArray();
+            const step = (max - min + 2*padding) / 200;
+            const kdePoints = stats.range(min - padding, max + padding, step);
             const kdeDensities = calculateKDE(data, kdePoints);
 
-            const gradient = ctx.createLinearGradient(0, 0, 0, 450);
-            gradient.addColorStop(0, 'rgba(99, 102, 241, 0.5)');  
-            gradient.addColorStop(0.4, 'rgba(139, 92, 246, 0.2)'); 
-            gradient.addColorStop(1, 'rgba(15, 23, 42, 0)');       
-
-            charts[canvasId] = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: kdePoints.map(x => x.toFixed(2)),
-                    datasets: [{
-                        label: 'Density',
-                        data: kdeDensities,
-                        borderColor: '#818cf8', 
-                        borderWidth: 3,
-                        backgroundColor: gradient,
-                        fill: true,
-                        pointRadius: 0,
-                        tension: 0.4, 
-                        borderCapStyle: 'round',
-                        borderJoinStyle: 'round'
-                    }]
-                },
-                options: {
-                    responsive: true, 
-                    maintainAspectRatio: false,
-                    interaction: {
-                        intersect: false,
-                        mode: 'index',
-                    },
-                    scales: {
-                        x: { 
-                            display: true, 
-                            grid: { display: false, color: 'rgba(51, 65, 85, 0.2)' }, 
-                            border: { display: false }, 
-                            ticks: { 
-                                color: '#64748b', 
-                                maxTicksLimit: 8, 
-                                font: { family: 'JetBrains Mono', size: 10 } 
-                            } 
-                        },
-                        y: { 
-                            display: false, 
-                            beginAtZero: true,
-                            grid: { display: false }
-                        }
-                    },
-                    plugins: {
-                        legend: { display: false },
-                        tooltip: {
-                            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-                            backdropColor: 'rgba(15, 23, 42, 0.8)',
-                            borderColor: 'rgba(99, 102, 241, 0.3)',
-                            borderWidth: 1,
-                            titleColor: '#e2e8f0',
-                            bodyColor: '#818cf8',
-                            padding: 12,
-                            cornerRadius: 12,
-                            displayColors: false,
-                            titleFont: { family: 'Inter', size: 12, weight: '600' },
-                            bodyFont: { family: 'JetBrains Mono', size: 11 },
-                            callbacks: { 
-                                title: (items) => `Value: ${items[0].label}`, 
-                                label: (item) => `Density: ${item.raw.toFixed(4)}` 
-                            }
-                        }
-                    }
-                }
-            });
+            const cfg = {
+                series: [{
+                    points: kdePoints.map((x, i) => ({ x, y: kdeDensities[i] })),
+                    color: themeColors().cyan,
+                    width: 3,
+                    fill: true
+                }]
+            };
+            chartCache[canvasId] = { type: 'line', cfg };
+            drawLineChart(canvas, cfg);
         }
 
         // --- EPISTEMIC ENGINE ---
@@ -934,97 +1423,46 @@
         }
 
         function renderBootstrapChart(canvasId, data) {
-            const ctx = document.getElementById(canvasId).getContext('2d');
-            if (charts[canvasId]) charts[canvasId].destroy();
+            const canvas = document.getElementById(canvasId);
 
             const bootstrapResults = computeBootstrapDistributions(data);
-            const colors = { 
-                'Mean': '#ef4444', 
-                'Median': '#22c55e', 
-                'Huber': '#ec4899', 
-                'Trimmed Mean': '#06b6d4' 
+            const colors = {
+                'Mean': '#ef4444',
+                'Median': '#22c55e',
+                'Huber': '#ec4899',
+                'Trimmed Mean': '#06b6d4'
             };
-            
-            const allValues = Object.values(bootstrapResults).flat();
-            const globalMin = math.min(allValues);
-            const globalMax = math.max(allValues);
-            const padding = (globalMax - globalMin) * 0.1;
-            const evalPoints = math.range(globalMin - padding, globalMax + padding, (globalMax - globalMin + 2*padding)/120).toArray();
 
-            const datasets = [];
+            const allValues = Object.values(bootstrapResults).flat();
+            const globalMin = stats.min(allValues);
+            const globalMax = stats.max(allValues);
+            const padding = (globalMax - globalMin) * 0.1;
+            const evalPoints = stats.range(globalMin - padding, globalMax + padding, (globalMax - globalMin + 2*padding)/120);
+
+            const series = [];
             Object.keys(bootstrapResults).forEach(metricName => {
                 const mData = bootstrapResults[metricName];
                 const kde = calculateKDE(mData, evalPoints, (globalMax - globalMin) * 0.05);
-                
-                datasets.push({
+
+                series.push({
                     label: metricName,
-                    data: kde,
-                    borderColor: colors[metricName],
-                    borderWidth: 2.5,
-                    backgroundColor: colors[metricName] + '15',
-                    fill: true,
-                    pointRadius: 0,
-                    tension: 0.4
+                    points: evalPoints.map((x, i) => ({ x, y: kde[i] })),
+                    color: colors[metricName],
+                    width: 2.5,
+                    fill: true
                 });
             });
 
-            charts[canvasId] = new Chart(ctx, {
-                type: 'line',
-                data: { labels: evalPoints.map(x => x.toFixed(2)), datasets: datasets },
-                options: {
-                    responsive: true, 
-                    maintainAspectRatio: false,
-                    interaction: {
-                        mode: 'index',
-                        intersect: false,
-                    },
-                    scales: {
-                        x: { 
-                            grid: { display: false, color: 'rgba(51, 65, 85, 0.2)' }, 
-                            border: { display: false }, 
-                            ticks: { color: '#64748b', maxTicksLimit: 8, font: { family: 'JetBrains Mono', size: 10 } } 
-                        },
-                        y: { 
-                            display: false, 
-                            beginAtZero: true,
-                            grid: { display: false }
-                        }
-                    },
-                    plugins: {
-                        legend: { 
-                            position: 'top', 
-                            align: 'end',
-                            labels: { 
-                                color: '#e2e8f0', 
-                                usePointStyle: true, 
-                                boxWidth: 8, 
-                                padding: 20,
-                                font: { family: 'Inter', size: 11 }
-                            } 
-                        },
-                        tooltip: {
-                            mode: 'index', 
-                            intersect: false,
-                            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-                            borderColor: 'rgba(99, 102, 241, 0.2)',
-                            borderWidth: 1,
-                            titleColor: '#e2e8f0',
-                            bodyColor: '#e2e8f0',
-                            padding: 12,
-                            cornerRadius: 12,
-                            titleFont: { family: 'Inter', size: 12, weight: '600' },
-                            bodyFont: { family: 'JetBrains Mono', size: 11 }
-                        }
-                    }
-                }
-            });
+            const cfg = { series };
+            chartCache[canvasId] = { type: 'line', cfg };
+            drawLineChart(canvas, cfg);
         }
 
         function analyzeStructure(data) {
-            const mean = math.mean(data);
-            const std = math.std(data);
-            const skew = math.mean(data.map(x => Math.pow((x - mean) / std, 3)));
-            const kurt = math.mean(data.map(x => Math.pow((x - mean) / std, 4))) - 3;
+            const mean = stats.mean(data);
+            const std = stats.std(data);
+            const skew = stats.mean(data.map(x => Math.pow((x - mean) / std, 3)));
+            const kurt = stats.mean(data.map(x => Math.pow((x - mean) / std, 4))) - 3;
             
             const sData = [...data].sort((a,b) => b-a);
             const k = Math.floor(data.length * 0.1);
@@ -1074,18 +1512,18 @@
         function computeMetrics(data) {
             if (data.length === 0) return {};
             const sData = [...data].sort((a,b) => a-b);
-            const mean = math.mean(data);
+            const mean = stats.mean(data);
             
             return {
                 'Moment': [
                     { name: 'Mean', value: mean, loss: 'L2 (Squared)', bp: '0%', infNorm: '∞', color: '#ef4444' },
-                    { name: 'RMS', value: math.sqrt(math.mean(data.map(x => x**2))), loss: 'L2 Root', bp: '0%', infNorm: '∞', color: '#f97316' },
-                    { name: 'Geometric Mean', value: data.every(x => x > 0) ? math.exp(math.mean(data.map(x => math.log(x)))) : NaN, loss: 'Log-L2', bp: '0%', infNorm: '∞', color: '#eab308' }
+                    { name: 'RMS', value: Math.sqrt(stats.mean(data.map(x => x**2))), loss: 'L2 Root', bp: '0%', infNorm: '∞', color: '#f97316' },
+                    { name: 'Geometric Mean', value: data.every(x => x > 0) ? Math.exp(stats.mean(data.map(x => Math.log(x)))) : NaN, loss: 'Log-L2', bp: '0%', infNorm: '∞', color: '#eab308' }
                 ],
                 'Order': [
-                    { name: 'Median', value: math.median(data), loss: 'L1 (Absolute)', bp: '50%', infNorm: '1/x', color: '#22c55e' },
-                    { name: '25th Quantile', value: math.quantileSeq(data, 0.25), loss: 'Asymmetric L1', bp: '25%', infNorm: '1/x', color: '#14b8a6' },
-                    { name: 'Trimmed Mean', value: math.mean(sData.slice(Math.floor(data.length*0.1), Math.ceil(data.length*0.9))), loss: 'Truncated L2', bp: '10%', infNorm: 'Bound', color: '#06b6d4' }
+                    { name: 'Median', value: stats.median(data), loss: 'L1 (Absolute)', bp: '50%', infNorm: '1/x', color: '#22c55e' },
+                    { name: '25th Quantile', value: stats.quantile(data, 0.25), loss: 'Asymmetric L1', bp: '25%', infNorm: '1/x', color: '#14b8a6' },
+                    { name: 'Trimmed Mean', value: stats.mean(sData.slice(Math.floor(data.length*0.1), Math.ceil(data.length*0.9))), loss: 'Truncated L2', bp: '10%', infNorm: 'Bound', color: '#06b6d4' }
                 ],
                 'Density': [
                     { name: 'Mode (KDE)', value: kdeMode(data), loss: 'Density Argmax', bp: '0%', infNorm: 'Local', color: '#8b5cf6' }
@@ -1095,14 +1533,14 @@
                 ],
                 'Range': [
                     { name: 'Midrange', value: (sData[0] + sData[sData.length-1]) / 2, loss: 'Minimax', bp: '0%', infNorm: '∞', color: '#6366f1' },
-                    { name: 'Midhinge', value: (math.quantileSeq(data, 0.25) + math.quantileSeq(data, 0.75)) / 2, loss: 'Interquartile Mid', bp: '25%', infNorm: 'Bound', color: '#a855f7' }
+                    { name: 'Midhinge', value: (stats.quantile(data, 0.25) + stats.quantile(data, 0.75)) / 2, loss: 'Interquartile Mid', bp: '25%', infNorm: 'Bound', color: '#a855f7' }
                 ]
             };
         }
 
         function kdeMode(data) {
             let maxD = -1, modeX = 0;
-            const h = math.std(data) * Math.pow(data.length, -1/5);
+            const h = stats.std(data) * Math.pow(data.length, -1/5);
             for (let i = 0; i < data.length; i += 5) { 
                 let d = 0;
                 for (let j = 0; j < data.length; j++) d += Math.exp(-0.5 * Math.pow((data[i] - data[j]) / h, 2));
@@ -1112,7 +1550,7 @@
         }
 
         function huberMEstimator(data, k=1.5) {
-            let mu = math.median(data);
+            let mu = stats.median(data);
             for(let iter=0; iter<10; iter++) {
                 let sumW = 0, sumWX = 0;
                 data.forEach(x => {
@@ -1205,59 +1643,15 @@
             renderBootstrapChart('bootstrapChart', data);
 
             // Alignment Chart
-            const ctx = document.getElementById('alignmentChart').getContext('2d');
-            if(charts.alignmentChart) charts.alignmentChart.destroy();
-            
+            const canvas = document.getElementById('alignmentChart');
+
             const labels = Object.keys(alignMap);
             const values = Object.values(alignMap);
             const barColors = values.map(v => v > 70 ? '#22c55e' : v > 40 ? '#f59e0b' : '#ef4444');
 
-            charts.alignmentChart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: 'Alignment Score',
-                        data: values,
-                        backgroundColor: barColors.map(c => c + '25'),
-                        borderColor: barColors,
-                        borderWidth: 1.5,
-                        borderRadius: 6,
-                        borderSkipped: false
-                    }]
-                },
-                options: {
-                    indexAxis: 'y',
-                    responsive: true, 
-                    maintainAspectRatio: false,
-                    scales: {
-                        x: { 
-                            max: 100, 
-                            grid: { color: 'rgba(51, 65, 85, 0.2)', drawBorder: false }, 
-                            ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 10 } },
-                            border: { display: false }
-                        },
-                        y: { 
-                            grid: { display: false, drawBorder: false }, 
-                            ticks: { color: '#e2e8f0', font: { family: 'Inter', size: 12, weight: '500' } },
-                            border: { display: false }
-                        }
-                    },
-                    plugins: { 
-                        legend: { display: false },
-                        tooltip: {
-                            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-                            borderColor: 'rgba(99, 102, 241, 0.2)',
-                            borderWidth: 1,
-                            padding: 12,
-                            cornerRadius: 12,
-                            callbacks: {
-                                label: (ctx) => `Score: ${ctx.raw}/100`
-                            }
-                        }
-                    }
-                }
-            });
+            const cfg = { labels: labels, values: values, colors: barColors, max: 100 };
+            chartCache['alignmentChart'] = { type: 'bar', cfg };
+            drawBarChart(canvas, cfg);
 
             // Diagnostic Flags
             const flagsDiv = document.getElementById('riskFlags');
@@ -1340,7 +1734,7 @@
         function updateCounterfactuals() {
             const skew = parseFloat(document.getElementById('cfSkew').value);
             const contam = parseFloat(document.getElementById('cfContam').value);
-            const baseStd = math.std(state.baseData);
+            const baseStd = stats.std(state.baseData);
             
             state.cfData = state.baseData.map(x => {
                 let v = x + (Math.log(Math.abs(x) + 1) * skew);
@@ -1383,103 +1777,39 @@ const colorClass = isSignificant ? 'text-rose-400' : (Math.abs(drift) > baseStd 
         }
 
         function renderCounterfactualChart(cfData, baseData) {
-            const ctx = document.getElementById('counterfactualChart').getContext('2d');
-            if (charts.counterfactualChart) charts.counterfactualChart.destroy();
+            const canvas = document.getElementById('counterfactualChart');
 
             const allData = [...cfData, ...baseData];
-            const globalMin = math.min(allData);
-            const globalMax = math.max(allData);
+            const globalMin = stats.min(allData);
+            const globalMax = stats.max(allData);
             const padding = (globalMax - globalMin) * 0.1;
             const range = globalMax - globalMin + 2 * padding;
             const step = range / 200;
-            const evalPoints = math.range(globalMin - padding, globalMax + padding, step).toArray();
+            const evalPoints = stats.range(globalMin - padding, globalMax + padding, step);
 
             const baseKDE = calculateKDE(baseData, evalPoints);
             const cfKDE = calculateKDE(cfData, evalPoints);
 
-            const cfGradient = ctx.createLinearGradient(0, 0, 0, 400);
-            cfGradient.addColorStop(0, 'rgba(236, 72, 153, 0.35)');
-            cfGradient.addColorStop(0.5, 'rgba(236, 72, 153, 0.1)');
-            cfGradient.addColorStop(1, 'rgba(15, 23, 42, 0)');
-
-            charts.counterfactualChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: evalPoints.map(x => x.toFixed(2)),
-                    datasets: [
-                        {
-                            label: 'Perturbed',
-                            data: cfKDE,
-                            borderColor: '#ec4899',
-                            borderWidth: 2.5,
-                            backgroundColor: cfGradient,
-                            fill: true,
-                            pointRadius: 0,
-                            tension: 0.4,
-                            borderDash: []
-                        },
-                        {
-                            label: 'Baseline',
-                            data: baseKDE,
-                            borderColor: '#64748b',
-                            borderWidth: 1.5,
-                            backgroundColor: 'transparent',
-                            fill: false,
-                            pointRadius: 0,
-                            tension: 0.4,
-                            borderDash: [6, 4]
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    interaction: {
-                        intersect: false,
-                        mode: 'index'
+            const cfg = {
+                series: [
+                    {
+                        label: 'Perturbed',
+                        points: evalPoints.map((x, i) => ({ x, y: cfKDE[i] })),
+                        color: '#ec4899',
+                        width: 2.5,
+                        fill: true
                     },
-                    scales: {
-                        x: {
-                            grid: { display: false },
-                            border: { display: false },
-                            ticks: {
-                                color: '#64748b',
-                                maxTicksLimit: 8,
-                                font: { family: 'JetBrains Mono', size: 10 }
-                            }
-                        },
-                        y: {
-                            display: false,
-                            beginAtZero: true,
-                            grid: { display: false }
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            position: 'top',
-                            align: 'end',
-                            labels: {
-                                color: '#e2e8f0',
-                                usePointStyle: true,
-                                boxWidth: 8,
-                                padding: 20,
-                                font: { family: 'Inter', size: 11 }
-                            }
-                        },
-                        tooltip: {
-                            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-                            borderColor: 'rgba(236, 72, 153, 0.3)',
-                            borderWidth: 1,
-                            titleColor: '#e2e8f0',
-                            bodyColor: '#e2e8f0',
-                            padding: 12,
-                            cornerRadius: 12,
-                            titleFont: { family: 'Inter', size: 12, weight: '600' },
-                            bodyFont: { family: 'JetBrains Mono', size: 11 }
-                        }
+                    {
+                        label: 'Baseline',
+                        points: evalPoints.map((x, i) => ({ x, y: baseKDE[i] })),
+                        color: themeColors().muted,
+                        width: 1.5,
+                        dash: [6, 4]
                     }
-                }
-            });
+                ]
+            };
+            chartCache['counterfactualChart'] = { type: 'line', cfg };
+            drawLineChart(canvas, cfg);
         }
 
         function resetCounterfactuals() {
@@ -1531,9 +1861,41 @@ const colorClass = isSignificant ? 'text-rose-400' : (Math.abs(drift) > baseStd 
                 });
             }
 
+            // Re-render charts on resize and site theme change
+            window.addEventListener('resize', redrawCharts);
+            window.addEventListener('epistecnica-theme', redrawCharts);
+
             console.log('%c EPISTEMIC ANALYZER v2.0 ', 'background: linear-gradient(135deg, #6366f1, #a855f7); color: white; font-size: 14px; padding: 6px 12px; border-radius: 6px; font-family: Inter, sans-serif; font-weight: 700;');
             console.log('%c Central Tendency Engine loaded. Press 1/2/3 to switch views, R to regenerate.', 'color: #94a3b8; font-family: JetBrains Mono, monospace;');
         });
+    </script>
+    <script>
+    (function () {
+        var toggle = document.getElementById('themeToggle');
+        var label = document.getElementById('themeLabel');
+        var fading = false;
+        function apply() {
+            label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+        toggle.addEventListener('click', function () {
+            if (fading) return;
+            fading = true;
+            var root = document.documentElement;
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var swap = function () {
+                root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                apply();
+                root.classList.remove('theme-fading');
+                fading = false;
+                window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+            };
+            if (reduced) { swap(); return; }
+            root.classList.add('theme-fading');
+            setTimeout(swap, 190);
+        });
+        apply();
+    })();
     </script>
 </body>
 </html>

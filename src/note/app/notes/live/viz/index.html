@@ -5,28 +5,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epistemic Toolbox - Visualization</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap"
         rel="stylesheet">
 
     <style>
+        /* ============================================
+           EPISTEMICA — shared tokens + live-note chrome
+           (canonical blocks: docs/live-note-chrome.md)
+           ============================================ */
+
         :root {
-            --bg-deep: #060a10;
-            --bg-primary: #0a1019;
-            --bg-elevated: #0f1621;
-            --bg-card: rgba(15, 22, 33, 0.7);
-            --fg-primary: #e8eef5;
-            --fg-secondary: #8a96a8;
-            --fg-muted: #4a5567;
-            --accent-primary: #d4a056;
-            --accent-secondary: #7dd3c0;
-            --accent-glow: rgba(212, 160, 86, 0.25);
-            --border-subtle: rgba(255, 255, 255, 0.06);
-            --border-elevated: rgba(255, 255, 255, 0.1);
-            --border-accent: rgba(212, 160, 86, 0.4);
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-gold-dim: rgba(197, 164, 103, 0.15);
+            --accent-cyan: #5BF0E7;
+            --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --card-bg: rgba(11, 13, 20, 0.72);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --card-bg: rgba(255, 255, 255, 0.72);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
+            --grid: rgba(26, 23, 20, 0.04);
+        }
+
+        body { transition: opacity 180ms ease; }
+        html.theme-fading body { opacity: 0; }
+        @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+        .site-nav {
+            position: static;
+            z-index: 60;
+            background: var(--nav-bg);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .site-nav .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-nav .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .site-nav .nav-mark { height: 26px; width: auto; }
+        .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+        .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        .site-nav .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .site-footer {
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+            position: relative;
+            z-index: 1;
+        }
+
+        .site-footer .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .site-footer a:hover { color: var(--accent-cyan); }
+
+        /* Page aliases onto the shared tokens */
+        :root {
+            --bg-deep: var(--bg-void);
+            --bg-primary: var(--bg-surface);
+            --bg-elevated: var(--bg-card);
+            --bg-card: var(--card-bg);
+            --fg-primary: var(--text-primary);
+            --fg-secondary: var(--text-secondary);
+            --fg-muted: var(--text-muted);
+            --accent-primary: var(--accent-gold);
+            --accent-secondary: var(--accent-cyan);
+            --accent-glow: var(--accent-gold-dim);
+            --border-elevated: var(--border-subtle);
+            --border-accent: color-mix(in srgb, var(--accent-primary) 40%, transparent);
+            --border: var(--border-subtle);
+            --grid: rgba(255, 255, 255, 0.03);
         }
 
         * {
@@ -40,7 +174,7 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: var(--font-body);
             background: var(--bg-deep);
             color: var(--fg-primary);
             line-height: 1.6;
@@ -73,11 +207,11 @@
         }
 
         .font-display {
-            font-family: 'Space Grotesk', sans-serif;
+            font-family: var(--font-display);
         }
 
         .font-mono {
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
         }
 
         /* Background & Atmosphere */
@@ -86,8 +220,8 @@
             inset: 0;
             z-index: -1;
             background:
-                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(212, 160, 86, 0.08) 0%, transparent 60%),
-                radial-gradient(ellipse 60% 40% at 80% 60%, rgba(125, 211, 192, 0.05) 0%, transparent 50%),
+                radial-gradient(ellipse 80% 50% at 50% -20%, color-mix(in srgb, var(--accent-primary) 8%, transparent) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 80% 60%, color-mix(in srgb, var(--accent-secondary) 5%, transparent) 0%, transparent 50%),
                 linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-primary) 100%);
         }
 
@@ -97,8 +231,8 @@
             z-index: -1;
             opacity: 0.4;
             background-image:
-                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+                linear-gradient(var(--grid) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid) 1px, transparent 1px);
             background-size: 60px 60px;
             mask-image: radial-gradient(ellipse 100% 70% at 50% 30%, black, transparent);
         }
@@ -107,11 +241,13 @@
            NAVIGATION AESTHETICS
            ------------------------------------------ */
         .nav-blur {
-            background: rgba(6, 10, 16, 0.92);
-            backdrop-filter: blur(24px);
-            -webkit-backdrop-filter: blur(24px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-            position: relative;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
         }
 
         /* Subtle glowing underline for nav */
@@ -135,7 +271,7 @@
             border: 1px solid var(--border-subtle);
             background: transparent;
             color: var(--fg-secondary);
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
@@ -145,10 +281,10 @@
         }
 
         .nav-back-btn:hover {
-            background: rgba(212, 160, 86, 0.1);
+            background: color-mix(in srgb, var(--accent-primary) 10%, transparent);
             border-color: var(--border-accent);
             color: var(--accent-primary);
-            box-shadow: 0 0 15px rgba(212, 160, 86, 0.1);
+            box-shadow: 0 0 15px color-mix(in srgb, var(--accent-primary) 10%, transparent);
         }
 
         .nav-back-btn svg {
@@ -171,7 +307,7 @@
         }
 
         .nav-context span {
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
@@ -206,14 +342,14 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: radial-gradient(400px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(212, 160, 86, 0.06), transparent 40%);
+            background: radial-gradient(400px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), color-mix(in srgb, var(--accent-primary) 6%, transparent), transparent 40%);
             opacity: 0;
             transition: opacity 0.4s;
             pointer-events: none;
         }
 
         .tool-card:hover {
-            background: rgba(15, 22, 33, 0.9);
+            background: color-mix(in srgb, var(--bg-elevated) 90%, transparent);
             border-color: var(--border-elevated);
             transform: translateY(-6px);
             box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.5), 0 0 60px -20px var(--accent-glow);
@@ -227,8 +363,8 @@
         .icon-wrapper {
             width: 56px;
             height: 56px;
-            background: linear-gradient(135deg, rgba(212, 160, 86, 0.1) 0%, rgba(125, 211, 192, 0.05) 100%);
-            border: 1px solid rgba(212, 160, 86, 0.2);
+            background: linear-gradient(135deg, color-mix(in srgb, var(--accent-primary) 10%, transparent) 0%, color-mix(in srgb, var(--accent-secondary) 5%, transparent) 100%);
+            border: 1px solid color-mix(in srgb, var(--accent-primary) 20%, transparent);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -238,8 +374,8 @@
         }
 
         .tool-card:hover .icon-wrapper {
-            background: linear-gradient(135deg, rgba(212, 160, 86, 0.15) 0%, rgba(125, 211, 192, 0.08) 100%);
-            border-color: rgba(212, 160, 86, 0.4);
+            background: linear-gradient(135deg, color-mix(in srgb, var(--accent-primary) 15%, transparent) 0%, color-mix(in srgb, var(--accent-secondary) 8%, transparent) 100%);
+            border-color: color-mix(in srgb, var(--accent-primary) 40%, transparent);
             transform: scale(1.05);
         }
 
@@ -253,7 +389,7 @@
 
         /* Tags */
         .tag {
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.65rem;
             text-transform: uppercase;
             letter-spacing: 0.08em;
@@ -264,14 +400,14 @@
         }
 
         .tag-primary {
-            background: rgba(212, 160, 86, 0.12);
-            border: 1px solid rgba(212, 160, 86, 0.3);
+            background: color-mix(in srgb, var(--accent-primary) 12%, transparent);
+            border: 1px solid color-mix(in srgb, var(--accent-primary) 30%, transparent);
             color: var(--accent-primary);
         }
 
         .tag-secondary {
-            background: rgba(125, 211, 192, 0.08);
-            border: 1px solid rgba(125, 211, 192, 0.2);
+            background: color-mix(in srgb, var(--accent-secondary) 8%, transparent);
+            border: 1px solid color-mix(in srgb, var(--accent-secondary) 20%, transparent);
             color: var(--accent-secondary);
         }
 
@@ -323,10 +459,10 @@
             align-items: center;
             gap: 8px;
             padding: 8px 14px;
-            background: rgba(212, 160, 86, 0.08);
-            border: 1px solid rgba(212, 160, 86, 0.2);
+            background: color-mix(in srgb, var(--accent-primary) 8%, transparent);
+            border: 1px solid color-mix(in srgb, var(--accent-primary) 20%, transparent);
             border-radius: 100px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.7rem;
             text-transform: uppercase;
             letter-spacing: 0.1em;
@@ -357,11 +493,11 @@
         .search-input {
             width: 100%;
             padding: 1rem 1rem 1rem 3rem;
-            background: rgba(15, 22, 33, 0.8);
+            background: color-mix(in srgb, var(--bg-elevated) 80%, transparent);
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
             color: var(--fg-primary);
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.875rem;
             transition: all 0.3s;
         }
@@ -371,8 +507,8 @@
         .search-input:focus {
             outline: none;
             border-color: var(--border-accent);
-            background: rgba(15, 22, 33, 0.95);
-            box-shadow: 0 0 0 3px rgba(212, 160, 86, 0.1);
+            background: color-mix(in srgb, var(--bg-elevated) 95%, transparent);
+            box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-primary) 10%, transparent);
         }
 
         .search-icon {
@@ -387,7 +523,7 @@
 
         .search-dropdown {
             margin-top: 8px;
-            background: rgba(15, 22, 33, 0.98);
+            background: color-mix(in srgb, var(--bg-elevated) 98%, transparent);
             backdrop-filter: blur(20px);
             border: 1px solid var(--border-elevated);
             border-radius: 12px;
@@ -408,7 +544,7 @@
         }
 
         .search-result-item:last-child { border-bottom: none; }
-        .search-result-item:hover { background: rgba(212, 160, 86, 0.05); }
+        .search-result-item:hover { background: color-mix(in srgb, var(--accent-primary) 5%, transparent); }
 
         .search-result-title {
             font-size: 0.95rem;
@@ -430,7 +566,7 @@
         .search-result-stats {
             display: flex;
             gap: 12px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.65rem;
             color: var(--fg-muted);
             border-top: 1px solid var(--border-subtle);
@@ -462,7 +598,7 @@
         .filter-btn {
             padding: 0.5rem 1rem;
             border-radius: 8px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.7rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
@@ -481,10 +617,10 @@
         }
 
         .filter-btn.active {
-            background: linear-gradient(135deg, rgba(212, 160, 86, 0.15), rgba(212, 160, 86, 0.08));
+            background: linear-gradient(135deg, color-mix(in srgb, var(--accent-primary) 15%, transparent), color-mix(in srgb, var(--accent-primary) 8%, transparent));
             border-color: var(--border-accent);
             color: var(--accent-primary);
-            box-shadow: 0 0 15px rgba(212, 160, 86, 0.1);
+            box-shadow: 0 0 15px color-mix(in srgb, var(--accent-primary) 10%, transparent);
         }
 
         .nav-arrow {
@@ -541,13 +677,13 @@
         .pagination-btn:hover:not(:disabled) {
             border-color: var(--accent-primary);
             color: var(--accent-primary);
-            background: rgba(212, 160, 86, 0.1);
+            background: color-mix(in srgb, var(--accent-primary) 10%, transparent);
         }
 
         .pagination-btn:disabled { opacity: 0.3; cursor: not-allowed; }
 
         .pagination-info {
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.75rem;
             color: var(--fg-muted);
             padding: 0 16px;
@@ -557,7 +693,7 @@
         .modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(6, 10, 16, 0.9);
+            background: color-mix(in srgb, var(--bg-void) 90%, transparent);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             z-index: 1000;
@@ -593,7 +729,7 @@
             background: var(--bg-primary);
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.75rem;
             position: relative;
         }
@@ -622,7 +758,7 @@
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
             color: var(--fg-primary);
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.85rem;
             padding: 1rem;
             width: 100%;
@@ -650,7 +786,7 @@
             padding: 0.75rem 1.5rem;
             background: linear-gradient(135deg, var(--accent-primary), #c49347);
             color: var(--bg-deep);
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.8rem;
             font-weight: 600;
             border-radius: 8px;
@@ -663,7 +799,7 @@
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px -10px rgba(212, 160, 86, 0.5);
+            box-shadow: 0 10px 20px -10px color-mix(in srgb, var(--accent-primary) 50%, transparent);
         }
 
         .btn-secondary {
@@ -671,14 +807,14 @@
             background: transparent;
             border: 1px solid var(--border-accent);
             color: var(--accent-primary);
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.7rem;
             border-radius: 6px;
             cursor: pointer;
             transition: all 0.2s;
         }
 
-        .btn-secondary:hover { background: rgba(212, 160, 86, 0.1); }
+        .btn-secondary:hover { background: color-mix(in srgb, var(--accent-primary) 10%, transparent); }
 
         .copy-btn {
             background: transparent;
@@ -686,7 +822,7 @@
             color: var(--fg-muted);
             padding: 0.25rem 0.75rem;
             border-radius: 4px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: var(--font-mono);
             font-size: 0.65rem;
             cursor: pointer;
             transition: all 0.2s;
@@ -705,7 +841,7 @@
         .footer-upgrade {
             position: relative;
             border-top: 1px solid transparent;
-            background: radial-gradient(ellipse 80% 50% at 50% 100%, rgba(212, 160, 86, 0.04) 0%, transparent 70%);
+            background: radial-gradient(ellipse 80% 50% at 50% 100%, color-mix(in srgb, var(--accent-primary) 4%, transparent) 0%, transparent 70%);
         }
 
         /* Gradient top border for footer */
@@ -754,16 +890,134 @@
                 transition-duration: 0.01ms !important;
             }
         }
+
+        /* ---- heading face ---- */
+        h1, h2, h3 {
+            font-family: var(--font-display);
+        }
+
+        /* ---- utility shim (replaces the Tailwind CDN) ---- */
+        .block { display: block; }
+        .hidden { display: none; }
+        .flex { display: flex; }
+        .grid { display: grid; }
+        .flex-col { flex-direction: column; }
+        .flex-1 { flex: 1 1 0%; }
+        .absolute { position: absolute; }
+        .relative { position: relative; }
+        .top-0 { top: 0; }
+        .right-0 { right: 0; }
+        .z-10 { z-index: 10; }
+        .overflow-hidden { overflow: hidden; }
+        .overflow-auto { overflow: auto; }
+        .overflow-y-auto { overflow-y: auto; }
+        .items-center { align-items: center; }
+        .items-start { align-items: flex-start; }
+        .justify-between { justify-content: space-between; }
+        .justify-start { justify-content: flex-start; }
+        .text-center { text-align: center; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .w-5 { width: 1.25rem; }
+        .w-px { width: 1px; }
+        .h-3 { height: 0.75rem; }
+        .h-5 { height: 1.25rem; }
+        .h-16 { height: 4rem; }
+        .max-w-md { max-width: 28rem; }
+        .max-w-2xl { max-width: 42rem; }
+        .max-w-7xl { max-width: 80rem; }
+        .gap-4 { gap: 1rem; }
+        .gap-5 { gap: 1.25rem; }
+        .gap-12 { gap: 3rem; }
+        .p-2 { padding: 0.5rem; }
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+        .pt-4 { padding-top: 1rem; }
+        .pt-8 { padding-top: 2rem; }
+        .pb-8 { padding-bottom: 2rem; }
+        .pb-24 { padding-bottom: 6rem; }
+        .mt-3 { margin-top: 0.75rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mt-auto { margin-top: auto; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-5 { margin-bottom: 1.25rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .mb-10 { margin-bottom: 2.5rem; }
+        .mb-12 { margin-bottom: 3rem; }
+        .space-y-3 > * + * { margin-top: 0.75rem; }
+        .text-xs { font-size: 0.75rem; line-height: 1.5; }
+        .text-sm { font-size: 0.875rem; line-height: 1.5; }
+        .text-lg { font-size: 1.125rem; line-height: 1.6; }
+        .text-xl { font-size: 1.25rem; line-height: 1.6; }
+        .text-5xl { font-size: 3rem; line-height: 1.1; }
+        .font-semibold { font-weight: 600; }
+        .uppercase { text-transform: uppercase; }
+        .tracking-tight { letter-spacing: -0.025em; }
+        .tracking-wider { letter-spacing: 0.05em; }
+        .tracking-widest { letter-spacing: 0.1em; }
+        .leading-relaxed { line-height: 1.7; }
+        .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+        .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .col-span-full { grid-column: 1 / -1; }
+        .border { border: 1px solid var(--border); }
+        .border-b { border-bottom: 1px solid var(--border); }
+        .border-t { border-top: 1px solid var(--border); }
+        .border-r { border-right: 1px solid var(--border); }
+        .border-b-2 { border-bottom: 2px solid var(--border); }
+        .bdr-transparent { border-color: transparent; }
+        .rounded-lg { border-radius: 0.5rem; }
+        .rounded-xl { border-radius: 0.75rem; }
+        .transition-colors { transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease; }
+        .muted { color: var(--fg-muted); }
+        .sec-clr { color: var(--fg-secondary); }
+        .fg-clr { color: var(--fg-primary); }
+        .accent-clr { color: var(--accent-primary); }
+        .accent2-clr { color: var(--accent-secondary); }
+        .accent-bdr { border-color: var(--accent-primary); }
+        .bg-bdr { background: var(--border-elevated); }
+        .bg-primary-c { background: var(--bg-primary); }
+        .bg-elevated-c { background: var(--bg-elevated); }
+        .min-h-preview { min-height: 200px; }
+        .hover-soft:hover { background: var(--border-subtle); }
+        .hover-fg:hover { color: var(--fg-primary); }
+        @media (min-width: 768px) {
+            .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .md\:justify-end { justify-content: flex-end; }
+            .md\:text-xl { font-size: 1.25rem; line-height: 1.6; }
+            .md\:text-6xl { font-size: 3.75rem; line-height: 1.1; }
+        }
+        @media (min-width: 1024px) {
+            .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .lg\:text-7xl { font-size: 4.5rem; line-height: 1.1; }
+        }
     </style>
 </head>
 
 <body>
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div class="nav-right">
+                <div class="nav-links"><a href="../../../index.html">Catalog</a></div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
+
     <!-- Background Layers -->
     <div class="bg-atmosphere"></div>
     <div class="bg-pattern"></div>
 
     <!-- Navigation -->
-    <nav class="fixed top-0 left-0 right-0 z-50 nav-blur">
+    <nav class="nav-blur">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <!-- Left Side: Back Button -->
             <a href="#" class="nav-back-btn" onclick="history.back(); return false;">
@@ -776,15 +1030,15 @@
 
             <!-- Right Side: Context Title -->
             <div class="nav-context">
-                <span class="text-[var(--fg-muted)]">Toolbox</span>
-                <span class="w-px h-3 bg-[var(--border-elevated)]"></span>
-                <span class="text-[var(--accent-primary)]">Data Visualization</span>
+                <span class="muted">Toolbox</span>
+                <span class="w-px h-3 bg-bdr"></span>
+                <span class="accent-clr">Data Visualization</span>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="pt-32 pb-8 px-6">
+    <header class="pt-8 pb-8 px-6">
         <div class="max-w-7xl mx-auto">
 
             <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-semibold mb-6 animate-in stagger-2 hero-title"
@@ -792,7 +1046,7 @@
                 Data Visualization
             </h1>
 
-            <p class="text-[var(--fg-secondary)] text-lg md:text-xl max-w-2xl mb-10 animate-in stagger-3"
+            <p class="sec-clr text-lg md:text-xl max-w-2xl mb-10 animate-in stagger-3"
                 style="line-height: 1.7;">
                 Select a technique to configure parameters, input data arrays, and export production-ready Python and
                 JavaScript code modules.
@@ -870,16 +1124,16 @@
     <div id="modal" class="modal-overlay">
         <div class="modal-panel">
             <!-- Modal Header -->
-            <div class="flex justify-between items-center p-6 border-b border-white/5">
+            <div class="flex justify-between items-center p-6 border-b">
                 <div class="flex items-center gap-4">
                     <div id="modal-icon" class="icon-wrapper" style="margin-bottom: 0;"></div>
                     <div>
-                        <div class="font-mono text-xs text-[var(--accent-primary)] uppercase tracking-wider"
+                        <div class="font-mono text-xs accent-clr uppercase tracking-wider"
                             id="modal-category">Category</div>
                         <div class="text-xl font-display font-semibold" id="modal-title">Technique Name</div>
                     </div>
                 </div>
-                <button id="modal-close" class="p-2 hover:bg-white/5 rounded-lg transition-colors" aria-label="Close">
+                <button id="modal-close" class="p-2 hover-soft rounded-lg transition-colors" aria-label="Close">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-width="1.5">
                         <path d="M18 6L6 18M6 6l12 12" />
@@ -891,14 +1145,14 @@
             <div class="flex-1 grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
                 <!-- Left: Configuration & Code -->
-                <div class="border-r border-white/5 flex flex-col bg-[var(--bg-primary)] p-6 overflow-y-auto">
+                <div class="border-r flex flex-col bg-primary-c p-6 overflow-y-auto">
                     <!-- Input Section -->
                     <div class="mb-6">
-                        <label class="block font-mono text-xs text-[var(--fg-muted)] mb-2 uppercase">Data Input
+                        <label class="block font-mono text-xs muted mb-2 uppercase">Data Input
                             Array</label>
                         <textarea id="data-input" class="data-input" placeholder="Paste array data here..."></textarea>
                         <div class="flex justify-between items-center mt-3">
-                            <span class="font-mono text-xs text-[var(--fg-muted)]" id="data-status">Status: Waiting for
+                            <span class="font-mono text-xs muted" id="data-status">Status: Waiting for
                                 input</span>
                             <button id="btn-update" class="btn-secondary">
                                 Generate
@@ -907,12 +1161,12 @@
                     </div>
 
                     <!-- Code Tabs -->
-                    <div class="flex border-b border-white/5 mb-4">
+                    <div class="flex border-b mb-4">
                         <button
-                            class="tab-btn active flex-1 py-2 font-mono text-xs border-b-2 border-[var(--accent-primary)] text-[var(--accent-primary)]"
+                            class="tab-btn active flex-1 py-2 font-mono text-xs border-b-2 accent-bdr accent-clr"
                             data-tab="python">Python</button>
                         <button
-                            class="tab-btn flex-1 py-2 font-mono text-xs border-b-2 border-transparent text-[var(--fg-muted)] hover:text-white"
+                            class="tab-btn flex-1 py-2 font-mono text-xs border-b-2 bdr-transparent muted hover-fg"
                             data-tab="js">JavaScript</button>
                     </div>
 
@@ -930,7 +1184,7 @@
                         <div id="js-panel" class="code-panel hidden">
                             <div class="code-block">
                                 <div class="code-header">
-                                    <span>plotly.js</span>
+                                    <span>canvas.js</span>
                                     <button class="copy-btn" data-target="code-js">Copy</button>
                                 </div>
                                 <pre class="code-content" id="code-js"></pre>
@@ -940,32 +1194,32 @@
                 </div>
 
                 <!-- Right: Preview & Info -->
-                <div class="flex flex-col bg-[var(--bg-elevated)] p-6">
+                <div class="flex flex-col bg-elevated-c p-6">
                     <!-- Preview -->
-                    <div class="flex-1 relative min-h-[200px] mb-6">
+                    <div class="flex-1 relative min-h-preview mb-6">
                         <div
-                            class="absolute top-0 right-0 font-mono text-xs text-[var(--fg-muted)] z-10 uppercase tracking-wider">
+                            class="absolute top-0 right-0 font-mono text-xs muted z-10 uppercase tracking-wider">
                             Preview</div>
                         <canvas id="preview-canvas"></canvas>
                     </div>
 
                     <!-- Info Grid -->
                     <div
-                        class="grid grid-cols-2 gap-4 text-xs font-mono bg-[var(--bg-primary)] rounded-xl p-4 border border-white/5">
+                        class="grid grid-cols-2 gap-4 text-xs font-mono bg-primary-c rounded-xl p-4 border">
                         <div>
-                            <span class="text-[var(--fg-muted)] block mb-1 uppercase">Preservation</span>
-                            <span id="modal-preserved" class="text-[var(--fg-primary)]">-</span>
+                            <span class="muted block mb-1 uppercase">Preservation</span>
+                            <span id="modal-preserved" class="fg-clr">-</span>
                         </div>
                         <div>
-                            <span class="text-[var(--fg-muted)] block mb-1 uppercase">Lossiness</span>
+                            <span class="muted block mb-1 uppercase">Lossiness</span>
                             <span id="modal-lossiness">-</span>
                         </div>
                         <div>
-                            <span class="text-[var(--fg-muted)] block mb-1 uppercase">Scalability</span>
+                            <span class="muted block mb-1 uppercase">Scalability</span>
                             <span id="modal-scalability">-</span>
                         </div>
                         <div>
-                            <span class="text-[var(--fg-muted)] block mb-1 uppercase">Use Case</span>
+                            <span class="muted block mb-1 uppercase">Use Case</span>
                             <span id="modal-usecase">-</span>
                         </div>
                     </div>
@@ -981,14 +1235,14 @@
                 
                 <!-- Brand & Description -->
                 <div>
-                    <h3 class="font-display text-xl font-semibold text-[var(--fg-primary)] mb-3 tracking-tight">Epistemic Toolbox</h3>
-                    <p class="text-sm text-[var(--fg-muted)] leading-relaxed max-w-md">A comprehensive library of visualization techniques. Transforming raw data into meaningful visual representations through computational precision.</p>
+                    <h3 class="font-display text-xl font-semibold fg-clr mb-3 tracking-tight">Epistemic Toolbox</h3>
+                    <p class="text-sm muted leading-relaxed max-w-md">A comprehensive library of visualization techniques. Transforming raw data into meaningful visual representations through computational precision.</p>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="flex justify-start md:justify-end">
                     <div>
-                        <h4 class="font-mono text-xs text-[var(--accent-primary)] uppercase tracking-widest mb-5">Library</h4>
+                        <h4 class="font-mono text-xs accent-clr uppercase tracking-widest mb-5">Library</h4>
                         <ul class="space-y-3">
                             <li><a href="#" class="footer-link text-sm">Documentation</a></li>
                             <li><a href="#" class="footer-link text-sm">API Reference</a></li>
@@ -998,6 +1252,13 @@
                 </div>
 
             </div>
+        </div>
+    </footer>
+
+    <footer class="site-footer">
+        <div class="foot-inner">
+            <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+            <a href="../../../index.html">&larr; CATALOG</a>
         </div>
     </footer>
 
@@ -1043,7 +1304,7 @@
                 renderGrid();
             } catch (error) {
                 console.error('Could not load techniques:', error);
-                document.getElementById('grid').innerHTML = `<div class="col-span-full text-center text-[var(--fg-muted)] py-20">Error loading data/viz.json</div>`;
+                document.getElementById('grid').innerHTML = `<div class="col-span-full text-center muted py-20">Error loading data/viz.json</div>`;
             }
         }
 
@@ -1124,10 +1385,10 @@
                     <div class="icon-wrapper"><svg viewBox="0 0 24 24">${tech.svg}</svg></div>
                     <span class="tag tag-primary">${tech.category}</span>
                     <h3 class="font-display text-lg font-semibold mt-3 mb-2">${tech.name}</h3>
-                    <p class="text-sm text-[var(--fg-secondary)] leading-relaxed mb-4">${tech.desc}</p>
-                    <div class="mt-4 pt-4 border-t border-white/5 flex justify-between font-mono text-xs">
-                        <span class="text-[var(--fg-muted)] uppercase">Scalability</span>
-                        <span class="text-[var(--accent-secondary)]">${tech.scalability}</span>
+                    <p class="text-sm sec-clr leading-relaxed mb-4">${tech.desc}</p>
+                    <div class="mt-4 pt-4 border-t flex justify-between font-mono text-xs">
+                        <span class="muted uppercase">Scalability</span>
+                        <span class="accent2-clr">${tech.scalability}</span>
                     </div>
                 `;
 
@@ -1204,7 +1465,7 @@
                     });
                 });
             } else {
-                dropdown.innerHTML = `<div class="p-4 text-center text-[var(--fg-muted)] text-sm">No results found</div>`;
+                dropdown.innerHTML = `<div class="p-4 text-center muted text-sm">No results found</div>`;
                 dropdown.classList.add('active');
             }
 
@@ -1341,23 +1602,23 @@ plt.title("${currentTechnique.name}", color='white', fontsize=14)
 plt.tight_layout()
 plt.show()`;
 
-            const jsCode = `// Dependencies: 
-// <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"><`+ `/script>
-
+            const jsCode = `// No dependencies — Canvas2D on a <canvas id="chart">
+const canvas = document.getElementById('chart');
+canvas.width = 640;
+canvas.height = 360;
+const ctx = canvas.getContext('2d');
 const data = ${dataStr};
+const pad = 40;
+const min = Math.min(...data);
+const max = Math.max(...data);
+const range = max - min || 1;
+const px = i => pad + (i / Math.max(1, data.length - 1)) * (canvas.width - pad * 2);
+const py = v => canvas.height - pad - ((v - min) / range) * (canvas.height - pad * 2);
+ctx.fillStyle = '${colorHex}';
+ctx.strokeStyle = '${colorHex}';
+ctx.lineWidth = 1.5;
 
-const trace = ${getJSPlotLogic(currentTechnique.id, colorHex)};
-
-const layout = {
-  title: '${currentTechnique.name}',
-  paper_bgcolor: 'rgba(0,0,0,0)',
-  plot_bgcolor: 'rgba(0,0,0,0)',
-  font: { color: '#e8eef5', family: 'Inter, sans-serif' },
-  xaxis: { gridcolor: 'rgba(255,255,255,0.1)', zerolinecolor: 'rgba(255,255,255,0.1)' },
-  yaxis: { gridcolor: 'rgba(255,255,255,0.1)', zerolinecolor: 'rgba(255,255,255,0.1)' }
-};
-
-Plotly.newPlot('myDiv', [trace], layout);`;
+${getJSPlotLogic(currentTechnique.id, colorHex)}`;
 
             document.getElementById('code-python').textContent = pyCode;
             document.getElementById('code-js').textContent = jsCode;
@@ -1380,21 +1641,85 @@ Plotly.newPlot('myDiv', [trace], layout);`;
 
         function getJSPlotLogic(id, color) {
             switch (id) {
-                case 'histogram': return `{ x: data, type: 'histogram', marker: { color: '${color}' }, nbinsx: 20 }`;
-                case 'kde':
-                case 'violin': return `{ y: data, type: 'violin', box: { visible: true }, marker: { color: '${color}' }, opacity: 0.6 }`;
-                case 'boxplot': return `{ y: data, type: 'box', marker: { color: '${color}' }, boxpoints: 'outliers' }`;
-                case 'line': return `{ y: data, type: 'scatter', mode: 'lines', line: { color: '${color}', width: 2 } }`;
-                case 'area': return `{ y: data, type: 'scatter', mode: 'lines', fill: 'tozeroy', fillcolor: 'rgba(212,160,86,0.3)', line: { color: '${color}' } }`;
-                case 'bar': return `{ y: data, type: 'bar', marker: { color: '${color}' } }`;
-                case 'strip': return `{ y: data, type: 'box', boxpoints: 'all', jitter: 0.5, pointpos: 0, marker: { color: '${color}' }, box: { visible: false } }`;
-                default: return `{ y: data, type: 'scatter', mode: 'lines+markers', marker: { color: '${color}' } }`;
+                case 'histogram': return `const bins = 20;
+const counts = Array(bins).fill(0);
+data.forEach(d => counts[Math.min(bins - 1, Math.floor(((d - min) / range) * bins))]++);
+const bw = (canvas.width - pad * 2) / bins;
+counts.forEach((c, i) => {
+    const bh = (c / Math.max(...counts)) * (canvas.height - pad * 2);
+    ctx.fillRect(pad + i * bw + 1, canvas.height - pad - bh, bw - 2, bh);
+});`;
+                case 'boxplot': return `const s = [...data].sort((a, b) => a - b);
+const q = p => s[Math.floor(s.length * p)];
+const left = canvas.width / 2 - 40;
+ctx.globalAlpha = 0.2;
+ctx.fillRect(left, py(q(0.75)), 80, py(q(0.25)) - py(q(0.75)));
+ctx.globalAlpha = 1;
+ctx.strokeRect(left, py(q(0.75)), 80, py(q(0.25)) - py(q(0.75)));
+ctx.beginPath();
+ctx.moveTo(left, py(q(0.5)));
+ctx.lineTo(left + 80, py(q(0.5)));
+ctx.moveTo(canvas.width / 2, py(max));
+ctx.lineTo(canvas.width / 2, py(q(0.75)));
+ctx.moveTo(canvas.width / 2, py(q(0.25)));
+ctx.lineTo(canvas.width / 2, py(min));
+ctx.stroke();`;
+                case 'line': return `ctx.beginPath();
+data.forEach((d, i) => i === 0 ? ctx.moveTo(px(i), py(d)) : ctx.lineTo(px(i), py(d)));
+ctx.stroke();`;
+                case 'area': return `ctx.beginPath();
+data.forEach((d, i) => i === 0 ? ctx.moveTo(px(i), py(d)) : ctx.lineTo(px(i), py(d)));
+ctx.lineTo(px(data.length - 1), canvas.height - pad);
+ctx.lineTo(px(0), canvas.height - pad);
+ctx.closePath();
+ctx.globalAlpha = 0.3;
+ctx.fill();
+ctx.globalAlpha = 1;
+ctx.stroke();`;
+                case 'bar': return `const bw = (canvas.width - pad * 2) / data.length - 2;
+data.forEach((d, i) => ctx.fillRect(px(i) - bw / 2, py(d), bw, canvas.height - pad - py(d)));`;
+                case 'ecdf': return `const xs = [...data].sort((a, b) => a - b);
+const lo = xs[0];
+const span = xs[xs.length - 1] - lo || 1;
+const ex = v => pad + ((v - lo) / span) * (canvas.width - pad * 2);
+const ey = p => canvas.height - pad - p * (canvas.height - pad * 2);
+ctx.beginPath();
+xs.forEach((d, i) => i === 0 ? ctx.moveTo(ex(d), ey((i + 1) / xs.length)) : ctx.lineTo(ex(d), ey((i + 1) / xs.length)));
+ctx.stroke();`;
+                default: return `data.forEach((d, i) => {
+    ctx.beginPath();
+    ctx.arc(px(i), py(d), 3, 0, Math.PI * 2);
+    ctx.fill();
+});`;
             }
         }
 
         // =============================================
         // CANVAS DRAWING
         // =============================================
+        function themeColors() {
+            const s = getComputedStyle(document.documentElement);
+            return {
+                primary: s.getPropertyValue('--text-primary').trim(),
+                secondary: s.getPropertyValue('--text-secondary').trim(),
+                muted: s.getPropertyValue('--text-muted').trim(),
+                gold: s.getPropertyValue('--accent-gold').trim(),
+                cyan: s.getPropertyValue('--accent-cyan').trim(),
+                border: s.getPropertyValue('--border-subtle').trim(),
+                surface: s.getPropertyValue('--bg-surface').trim(),
+                card: s.getPropertyValue('--bg-card').trim()
+            };
+        }
+
+        function withAlpha(color, alpha) {
+            const m = /^#([0-9a-f]{6})$/i.exec(color);
+            if (m) {
+                const n = parseInt(m[1], 16);
+                return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+            }
+            return color;
+        }
+
         function drawPreview() {
             const rect = previewCanvas.getBoundingClientRect();
             previewCanvas.width = rect.width * 2;
@@ -1404,11 +1729,12 @@ Plotly.newPlot('myDiv', [trace], layout);`;
             const w = rect.width;
             const h = rect.height;
             const pad = 40;
+            const colors = themeColors();
 
             ctx.clearRect(0, 0, w, h);
 
             if (currentData.length === 0) {
-                ctx.fillStyle = '#505058';
+                ctx.fillStyle = colors.muted;
                 ctx.font = '12px Inter';
                 ctx.textAlign = 'center';
                 ctx.fillText('No valid data', w / 2, h / 2);
@@ -1419,8 +1745,8 @@ Plotly.newPlot('myDiv', [trace], layout);`;
             const max = Math.max(...currentData);
             const range = max - min || 1;
 
-            ctx.strokeStyle = '#d4a056';
-            ctx.fillStyle = '#d4a056';
+            ctx.strokeStyle = colors.gold;
+            ctx.fillStyle = colors.gold;
             ctx.lineWidth = 1.5;
 
             const xScale = (i) => pad + (i / Math.max(1, currentData.length - 1)) * (w - pad * 2);
@@ -1436,7 +1762,7 @@ Plotly.newPlot('myDiv', [trace], layout);`;
                         counts[idx]++;
                     });
                     const maxC = Math.max(...counts);
-                    ctx.fillStyle = 'rgba(212, 160, 86, 0.6)';
+                    ctx.fillStyle = withAlpha(colors.gold, '0.6');
                     counts.forEach((c, i) => {
                         const barH = (c / maxC) * (h - pad * 2);
                         ctx.fillRect(pad + i * binW + 1, h - pad - barH, binW - 2, barH);
@@ -1449,7 +1775,7 @@ Plotly.newPlot('myDiv', [trace], layout);`;
                     const med = sorted[Math.floor(sorted.length * 0.5)];
                     const q3 = sorted[Math.floor(sorted.length * 0.75)];
 
-                    ctx.fillStyle = 'rgba(212, 160, 86, 0.2)';
+                    ctx.fillStyle = withAlpha(colors.gold, '0.2');
                     ctx.fillRect(w / 2 - 40, yScale(q3), 80, yScale(q1) - yScale(q3));
                     ctx.strokeRect(w / 2 - 40, yScale(q3), 80, yScale(q1) - yScale(q3));
 
@@ -1481,14 +1807,14 @@ Plotly.newPlot('myDiv', [trace], layout);`;
                         ctx.lineTo(xScale(currentData.length - 1), h - pad);
                         ctx.lineTo(xScale(0), h - pad);
                         ctx.closePath();
-                        ctx.fillStyle = 'rgba(212, 160, 86, 0.2)';
+                        ctx.fillStyle = withAlpha(colors.gold, '0.2');
                         ctx.fill();
                     }
                     break;
 
                 case 'bar':
                     const bw = (w - pad * 2) / currentData.length - 2;
-                    ctx.fillStyle = 'rgba(212, 160, 86, 0.6)';
+                    ctx.fillStyle = withAlpha(colors.gold, '0.6');
                     currentData.forEach((d, i) => {
                         ctx.fillRect(xScale(i) - bw / 2, yScale(d), bw, h - pad - yScale(d));
                     });
@@ -1502,7 +1828,7 @@ Plotly.newPlot('myDiv', [trace], layout);`;
                     });
             }
 
-            ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+            ctx.strokeStyle = colors.border;
             ctx.lineWidth = 1;
             ctx.beginPath();
             ctx.moveTo(pad, h - pad);
@@ -1547,8 +1873,41 @@ Plotly.newPlot('myDiv', [trace], layout);`;
             });
         }
 
+        window.addEventListener('epistecnica-theme', () => {
+            if (currentTechnique) drawPreview();
+        });
+
         // Start App
         init();
+    </script>
+
+    <script>
+        (function () {
+            var toggle = document.getElementById('themeToggle');
+            var label = document.getElementById('themeLabel');
+            var fading = false;
+            function apply() {
+                label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+            }
+            toggle.addEventListener('click', function () {
+                if (fading) return;
+                fading = true;
+                var root = document.documentElement;
+                var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                var swap = function () {
+                    root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                    try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                    apply();
+                    root.classList.remove('theme-fading');
+                    fading = false;
+                    window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+                };
+                if (reduced) { swap(); return; }
+                root.classList.add('theme-fading');
+                setTimeout(swap, 190);
+            });
+            apply();
+        })();
     </script>
 </body>
 
