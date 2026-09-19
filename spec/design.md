@@ -144,7 +144,7 @@ reproducing actual data.
 Every surface's nav follows the hub (`index.html`), the reference
 implementation. Do not invent per-page variants.
 
-- **Left — brand lockup:** the graph mark (`mark-alpha.png`, ~26px, true
+- **Left — brand lockup:** the graph mark (`img/mark-alpha.png`, ~26px, true
   transparency — never blend-mode tricks, never the raw black-backed
   masters) + the two-tone wordmark as **live typography** (`Episte` in
   `--text-primary`, `cnica` italic in `--accent-gold`). The lockup links
@@ -155,4 +155,4 @@ implementation. Do not invent per-page variants.
 - Themes, persistence, boot script, and the curtain fade per §2.
 
 Surfaces are one directory deep (`/note/`, …): reference shared root
-assets relatively (`../mark-alpha.png`).
+assets relatively (`../img/mark-alpha.png`).

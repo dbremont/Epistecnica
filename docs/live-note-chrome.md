@@ -165,7 +165,7 @@ html.theme-fading body { opacity: 0; }
 ```html
 <nav class="site-nav">
     <div class="nav-inner">
-        <a class="nav-brand" href="ROOT"><img class="nav-mark" src="ROOTmark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <a class="nav-brand" href="ROOT"><img class="nav-mark" src="ROOTimg/mark-alpha.png" alt="">Episte<em>cnica</em></a>
         <div class="nav-right">
             <div class="nav-links"><a href="NOTEindex.html">Catalog</a></div>
             <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
