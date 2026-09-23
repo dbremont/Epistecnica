@@ -2,7 +2,9 @@
 
 > OpenAPI Specification (OAS) is a language-agnostic standard for describing the structure, operations, parameters, request/response schemas, and other characteristics of HTTP APIs.
 
-OpenAPI Technical System Element Set:
+What type of technical element is 
+
+OpenAPI Technical Element Set:
 
 ```
 
