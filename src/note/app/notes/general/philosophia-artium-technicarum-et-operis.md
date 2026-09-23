@@ -9,6 +9,8 @@
 > It’s the complement of Philosophia Naturalis.
 > 
 
+## Index
+
 ## Formulation
 
 ### What is the nature of the `technique`?
@@ -37,6 +39,9 @@
 > `Mechanism` is to dynamics, what `program` is to  computation.
 > 
 
+> Note:  Technical Element Type  can be make recursive.
+> 
+
 | **Technical Category** | **Technical Element Type** | **Description (Role)** | **Instance(s)** |
 | --- | --- | --- | --- |
 | **Technical Context** | Technical Domain | Bounded field of technical reality defined by problems, purposes, phenomena, and intervention targets. | Structural engineering; semiconductor fabrication; machine learning; database systems |
@@ -54,7 +59,7 @@
 |  | Technical Framework | Overarching logic for structuring technical problems and generating or evaluating solutions. | Systems engineering; TRIZ; control theory; FMEA |
 |  | Technical Strategy | Context-sensitive regime for planning, sequencing, prioritizing, and allocating technical work. | Agile; waterfall; prototyping-first; blue-green deployment |
 |  | Technical Institution | Durable social structure that organizes, governs, or sustains technical practice and knowledge. | IEEE; FAA; corporate R&D division; standards body |
-| **Agents & Competence** | Technical Agent | Entity capable of executing technical operations using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
+| **Agents & Competence** | Technical Agent | Entity capable of executing Techniques using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
 |  | Technical Labor | Purposive expenditure of human cognitive or physical effort in technical activity. | Programming; machining; electrical installation |
 |  | Technical Competence | Acquired capacity to reliably execute technical processes and techniques. | Surgeon’s procedural skill; engineer’s systems expertise |
 | **System Structure** | Technical Architecture | Fundamental structural organization of a technical system, including components, relationships, boundaries, and governing principles. | Client-server; microkernel; microservices; layered architecture |
@@ -72,13 +77,13 @@
 |  | Technical Property | Characteristic attributable to a technical object, process, or system. | Mass; latency; modularity; reliability |
 |  | Technical Quality | Degree to which desirable technical properties are possessed under relevant conditions. | Reliability; maintainability; efficiency; safety |
 |  | Technical Performance | Realized quantitative behavior under specified conditions. | 10 Gbit/s throughput; 99.99% availability |
-| **Technical Operation** | Technical Practice | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
+| **Technique** | Technical Practice | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
 |  | Technical Activity | Temporally extended sequence of technical acts that transforms inputs or changes technical states. | Assembly sequence; development lifecycle; deployment pipeline |
 |  | Technical Task | Discrete unit of planned technical work assigned to an agent. | Implement authentication; calibrate sensor |
-|  | Technical Technique | Generalized method for performing a class of technical operations. | TIG welding; unit testing; photolithography |
+|  | General Technique | Generalized method for performing a class of technical operations. | TIG welding; unit testing; photolithography |
 |  | Operative Technique | Situated application of a technique by an agent to a particular technical situation. | Applying TIG welding to a specific aluminum joint |
-|  | Constitutive Technique | Technique concerned with creating, testing, or integrating constitutive technical objects. | Photolithography; die casting; unit testing |
-|  | Technical Act | Primitive technical operation performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying; measuring |
+|  | Constitutive Technique | A technique embodied in a technical element that constitutes part of its technical organization, establishing an internal dynamic logic through which the element operates and fulfills its technical role. | Parsing, optimization, code generation |
+|  | Technical Act | Primitive Technique performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying; measuring |
 |  | Technical Interface & Actuation | Boundary and means through which an agent encodes intent and acts upon a technical object or reality. | CNC spindle + G-code; robotic gripper + controller |
 | **Technical Control** | Technical Feedback | Information about intervention effects or system state that enables adjustment and error correction. | Sensor reading; build error; crash report; quality inspection |
 |  | Technical Evaluation | Systematic determination of properties, performance, adequacy, or conformity. | Benchmarking; inspection; testing |
@@ -127,7 +132,7 @@
 | **Knowledge & Methodology** | `(root) > Technical Element Set Type > Knowledge & Methodology > Technical Knowledge Type` | Accumulated propositions, models, principles, methods, and know-how. | Networking knowledge; materials science; operating-system knowledge |
 | **Knowledge & Methodology** | `(root) > Technical Element Set Type > Knowledge & Methodology > Technical Framework Type` | Overarching logic for structuring technical problems and evaluating solutions. | Systems engineering; TRIZ; control theory; FMEA |
 | **Knowledge & Methodology** | `(root) > Technical Element Set Type > Knowledge & Methodology > Technical Institution Type` | Durable social structure that organizes, governs, or sustains technical practice and knowledge. | IEEE; FAA; corporate R&D division; standards body |
-| **Agents & Competence** | `(root) > Technical Element Set Type > Agents & Competence > Technical Agent Type` | Entity capable of executing technical operations using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
+| **Agents & Competence** | `(root) > Technical Element Set Type > Agents & Competence > Technical Agent Type` | Entity capable of executing Techniques using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
 | **Agents & Competence** | `(root) > Technical Element Set Type > Agents & Competence > Technical Competence Type` | Acquired capacity to reliably execute technical processes and techniques. | Surgeon’s procedural skill; engineer’s systems expertise |
 | **System Structure** | `(root) > Technical Element Set Type > System Structure > Production Technical Object Type` | Technical object produced within a production system and intended to enable action or further production. | Aircraft; server; turbine; software product |
 | **System Structure** | `(root) > Technical Element Set Type > System Structure > Production Technical System Type` | Organized set of production technical objects whose interaction realizes a technical capability. | Power plant; computer system; manufacturing line |
@@ -136,10 +141,10 @@
 | **System Relations** | `(root) > Technical Element Set Type > System Relations > Technical Interaction Type` | Relation through which technical elements affect one another during operation or transformation. | Sensor → controller → actuator |
 | **Mechanism & Capability** | `(root) > Technical Element Set Type > Mechanism & Capability > Technical Capability Type` | Value-producing possibility enabled by a technical function. | Network communication; secure authentication; high-speed computation |
 | **Mechanism & Capability** | `(root) > Technical Element Set Type > Mechanism & Capability > Technical Mechanism Type` | Physical, procedural, or logical arrangement through which a function or transformation is produced. | Milling; refactoring; soldering; garbage collection |
-| **Technical Operation** | `(root) > Technical Element Set Type > Technical Operation > Technical Practice Type` | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
-| **Technical Operation** | `(root) > Technical Element Set Type > Technical Operation > Technical Activity Type` | Temporally extended sequence of technical acts that transforms inputs or changes technical states. | Assembly sequence; development lifecycle; deployment pipeline |
-| **Technical Operation** | `(root) > Technical Element Set Type > Technical Operation > Technical Technique Type` | Generalized method for performing a class of technical operations. | TIG welding; unit testing; photolithography |
-| **Technical Operation** | `(root) > Technical Element Set Type > Technical Operation > Technical Act Type` | Primitive technical operation performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying; measuring |
+| **Technique** | `(root) > Technical Element Set Type > Technique > Technical Practice Type` | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
+| **Technique** | `(root) > Technical Element Set Type > Technique > Technical Activity Type` | Temporally extended sequence of technical acts that transforms inputs or changes technical states. | Assembly sequence; development lifecycle; deployment pipeline |
+| **Technique** | `(root) > Technical Element Set Type > Technique > General Technique Type` | Generalized method for performing a class of Techniques. | TIG welding; unit testing; photolithography |
+| **Technique** | `(root) > Technical Element Set Type > Technique > Technical Act Type` | Primitive Technique performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying; measuring |
 | **Technical Control** | `(root) > Technical Element Set Type > Technical Control > Technical Feedback Type` | Information about intervention effects or system state that enables adjustment and error correction. | Sensor reading; build error; crash report; quality inspection |
 | **Technical Control** | `(root) > Technical Element Set Type > Technical Control > Technical Evaluation Type` | Systematic determination of properties, performance, adequacy, or conformity. | Benchmarking; inspection; testing |
 | **Technical Control** | `(root) > Technical Element Set Type > Technical Control > Technical Security Type` | Principles and practices concerned with protecting systems against unauthorized or adversarial actions. | Access control; encryption; authentication |
@@ -165,14 +170,14 @@
 | **Knowledge & Methodology** | `(root) > Technical Knowledge Type` | Accumulated propositions, models, principles, methods, and know-how. | Networking knowledge; materials science |
 | **Knowledge & Methodology** | `(root) > Technical Framework Type` | Overarching logic for structuring technical problems and evaluating solutions. | Systems engineering; TRIZ; control theory |
 | **Knowledge & Methodology** | `(root) > Technical Strategy Type` | Context-sensitive regime for planning, sequencing, and allocating technical work. | Agile; waterfall; prototyping-first |
-| **Agents & Competence** | `(root) > Technical Agent Type` | Entity capable of executing technical operations using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
+| **Agents & Competence** | `(root) > Technical Agent Type` | Entity capable of executing Techniques using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
 | **Agents & Competence** | `(root) > Technical Competence Type` | Acquired capacity to reliably execute technical processes and techniques. | Surgeon’s procedural skill; engineer’s systems expertise |
 | **System Structure** | `(root) > Production Technical Object Type` | Technical object produced within a production system and intended to enable action. | Aircraft; server; turbine; software product |
 | **System Structure** | `(root) > Production Technical System Type` | Organized set of production technical objects whose interaction realizes a technical capability. | Power plant; computer system; manufacturing line |
 | **System Structure** | `(root) > Technical Architecture Type` | Fundamental structural organization of a technical system. | Client-server; microkernel; microservices |
-| **Technical Operation** | `(root) > Technical Practice Type` | Repeatable, organized pattern of technical work. | CI/CD; TDD; SRE; preventive maintenance |
-| **Technical Operation** | `(root) > Technical Activity Type` | Temporally extended sequence of technical acts. | Assembly sequence; deployment pipeline |
-| **Technical Operation** | `(root) > Technical Technique Type` | Generalized method for performing a class of technical operations. | TIG welding; unit testing; photolithography |
+| **Technique** | `(root) > Technical Practice Type` | Repeatable, organized pattern of technical work. | CI/CD; TDD; SRE; preventive maintenance |
+| **Technique** | `(root) > Technical Activity Type` | Temporally extended sequence of technical acts. | Assembly sequence; deployment pipeline |
+| **Technique** | `(root) > General Technique Type` | Generalized method for performing a class of Techniques. | TIG welding; unit testing; photolithography |
 | **Technical Control** | `(root) > Technical Evaluation Type` | Systematic determination of properties, performance, adequacy, or conformity. | Benchmarking; inspection; testing |
 | **Technical Control** | `(root) > Technical Feedback Type` | Information about intervention effects that enables adjustment and error correction. | Sensor reading; build error; crash report |
 | **Lifecycle & Continuity** | `(root) > Technical Service Type` | Technical capability delivered to an external agent or system through an operational interface. | DNS resolution; payment processing; electricity delivery |
@@ -198,7 +203,7 @@
 | **Mechanism & Capability** | `(root) > Technical Property Type` | Characteristic attributable to a technical object, process, or system. | Mass; latency; modularity; reliability |
 | **Mechanism & Capability** | `(root) > Technical Quality Type` | Degree to which desirable technical properties are possessed under relevant conditions. | Reliability; maintainability; efficiency; safety |
 | **Mechanism & Capability** | `(root) > Technical Performance Type` | Realized quantitative behavior under specified conditions. | 10 Gbit/s throughput; 99.99% availability |
-| **Technical Operation** | `(root) > Technical Act Type` | Primitive technical operation performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying |
+| **Technique** | `(root) > Technical Act Type` | Primitive Technique performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying |
 | **Technical Control** | `(root) > Verification Type` | Evaluation of whether an artifact conforms to its specification or blueprint. | Unit tests; static analysis; dimensional inspection |
 | **Lifecycle & Continuity** | `(root) > Technical Maintenance Type` | Activity performed to preserve or restore an artifact’s functional state. | Patching; lubrication; recalibration |
 | **Lifecycle & Continuity** | `(root) > Technical Lifecycle Type` | Temporal trajectory from conception through production, operation, maintenance, and retirement. | Design → production → deployment → retirement |
@@ -219,8 +224,8 @@
 | **System Relations** | `(root) > Technical Interaction Type` | Relation through which elements affect one another during operation. | Sensor → controller → actuator |
 | **Mechanism & Capability** | `(root) > Technical Capability Type` | Value-producing possibility enabled by a technical function. | Network communication; secure authentication |
 | **Mechanism & Capability** | `(root) > Technical Mechanism Type` | Arrangement through which a function or transformation is produced. | Garbage collection; load balancing; feedback control |
-| **Technical Operation** | `(root) > Technical Activity Type` | Temporally extended sequence of technical acts. | Assembly sequence; deployment pipeline |
-| **Technical Operation** | `(root) > Technical Task Type` | Discrete unit of planned technical work assigned to an agent. | Calibrate sensor; implement authentication |
+| **Technique** | `(root) > Technical Activity Type` | Temporally extended sequence of technical acts. | Assembly sequence; deployment pipeline |
+| **Technique** | `(root) > Technical Task Type` | Discrete unit of planned technical work assigned to an agent. | Calibrate sensor; implement authentication |
 | **Technical Control** | `(root) > Technical Feedback Type` | Information about intervention effects or system state. | Sensor reading; metrics; logs |
 | **Technical Control** | `(root) > Technical Evaluation Type` | Systematic determination of properties, performance, adequacy, or conformity. | Inspection; benchmarking; testing |
 | **Technical Control** | `(root) > Technical Failure Type` | State or event in which the system fails to perform a required function. | Crash; structural fracture; thermal runaway |
@@ -239,9 +244,9 @@
 | **Mechanism & Capability** | `(root) > Technical Function Type` | What the service does operationally. | Resolve domain names; process payment |
 | **System Structure** | `(root) > Technical Interface Type` | Boundary through which the service is requested and delivered. | REST API; DNS protocol; power socket |
 | **Mechanism & Capability** | `(root) > Technical Mechanism Type` | Arrangement through which the service function is realized. | Load balancing; caching; transaction processing |
-| **Technical Operation** | `(root) > Technical Activity Type` | Sequence of technical acts that delivers the service. | Request handling; payment authorization |
-| **Technical Operation** | `(root) > Technical Task Type` | Discrete unit of planned technical work. | Authenticate user; validate card |
-| **Technical Operation** | `(root) > Technical Technique Type` | Generalized method used in service delivery. | Caching; retry with backoff; rate limiting |
+| **Technique** | `(root) > Technical Activity Type` | Sequence of technical acts that delivers the service. | Request handling; payment authorization |
+| **Technique** | `(root) > Technical Task Type` | Discrete unit of planned technical work. | Authenticate user; validate card |
+| **Technique** | `(root) > General Technique Type` | Generalized method used in service delivery. | Caching; retry with backoff; rate limiting |
 | **Agents & Competence** | `(root) > Technical Agent Type` | Entity executing service operations. | Service daemon; engineer; robot |
 | **Technical Context** | `(root) > Technical Resource Type` | Input required or consumed by the service. | Bandwidth; compute; electricity; storage |
 | **Requirements & Definition** | `(root) > Technical Requirement Type` | Formalized desired state or performance objective. | 99.99% uptime; <200 ms p99 latency |
@@ -259,20 +264,20 @@
 
 | **Technical Category** | **Technical Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
 | --- | --- | --- | --- |
-| **Technical Operation** | `(root) > Technical Practice Type` | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
-| **Technical Operation** | `(root) > Technical Activity Type` | Temporally extended sequence of technical acts that transforms inputs or changes states. | Build, test, deploy; assembly sequence |
-| **Technical Operation** | `(root) > Technical Task Type` | Discrete unit of planned technical work assigned to an agent. | Implement authentication; calibrate sensor |
-| **Technical Operation** | `(root) > Technical Technique Type` | Generalized method for performing a class of technical operations. | Unit testing; TIG welding; photolithography |
-| **Technical Operation** | `(root) > Operative Technique Type` | Situated application of a technique to a particular technical situation. | Applying TIG welding to a specific aluminum joint |
-| **Technical Operation** | `(root) > Constitutive Technique Type` | Technique concerned with creating, testing, or integrating constitutive technical objects. | Photolithography; die casting; unit testing |
-| **Technical Operation** | `(root) > Technical Act Type` | Primitive technical operation performed by an agent on reality or a technical object. | Compiling; deploying; measuring; cutting |
+| **Technique** | `(root) > Technical Practice Type` | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
+| **Technique** | `(root) > Technical Activity Type` | Temporally extended sequence of technical acts that transforms inputs or changes states. | Build, test, deploy; assembly sequence |
+| **Technique** | `(root) > Technical Task Type` | Discrete unit of planned technical work assigned to an agent. | Implement authentication; calibrate sensor |
+| **Technique** | `(root) > General Technique Type` | Generalized method for performing a class of Techniques. | Unit testing; TIG welding; photolithography |
+| **Technique** | `(root) > Operative Technique Type` | Situated application of a technique to a particular technical situation. | Applying TIG welding to a specific aluminum joint |
+| **Technique** | `(root) > Constitutive Technique Type` | Technique concerned with creating, testing, or integrating constitutive technical objects. | Photolithography; die casting; unit testing |
+| **Technique** | `(root) > Technical Act Type` | Primitive Technique performed by an agent on reality or a technical object. | Compiling; deploying; measuring; cutting |
 | **Knowledge & Methodology** | `(root) > Technical Principle Type` | General rule governing construction or operation of technical systems. | Least privilege; redundancy; fail-safe |
 | **Requirements & Definition** | `(root) > Technical Standard Type` | Normative specification governing form, function, safety, interoperability, or performance. | POSIX; HTTP; ISO standards; electrical codes |
 | **Knowledge & Methodology** | `(root) > Technical Framework Type` | Overarching logic for structuring technical problems and evaluating solutions. | Systems engineering; TRIZ; FMEA |
 | **Knowledge & Methodology** | `(root) > Technical Strategy Type` | Context-sensitive regime for planning, sequencing, and allocating technical work. | Agile; waterfall; blue-green deployment |
-| **Agents & Competence** | `(root) > Technical Agent Type` | Entity capable of executing technical operations. | Engineer; robot; compiler; build pipeline |
+| **Agents & Competence** | `(root) > Technical Agent Type` | Entity capable of executing Techniques. | Engineer; robot; compiler; build pipeline |
 | **Agents & Competence** | `(root) > Technical Competence Type` | Acquired capacity to reliably execute technical processes and techniques. | Surgeon’s procedural skill; systems expertise |
-| **Technical Operation** | `(root) > Technical Interface & Actuation Type` | Boundary and means through which an agent encodes intent and acts upon reality. | CNC spindle + G-code; robotic gripper + controller |
+| **Technique** | `(root) > Technical Interface & Actuation Type` | Boundary and means through which an agent encodes intent and acts upon reality. | CNC spindle + G-code; robotic gripper + controller |
 | **Technical Control** | `(root) > Technical Feedback Type` | Information about intervention effects that enables adjustment. | Build error; crash report; quality inspection |
 | **Technical Control** | `(root) > Verification Type` | Evaluation of whether an artifact conforms to its specification or blueprint. | Unit tests; static analysis; dimensional inspection |
 | **Technical Control** | `(root) > Validation Type` | Evaluation of whether an artifact fulfills its intended purpose. | User validation; operational trials |
@@ -282,8 +287,10 @@
 ## How to decomposed any technical instance?
 
 > A technical instance is decomposed by identifying the concrete technical elements that constitute, configure, support, interface with, operate, control, or sustain that particular instance. Each identified element is then classified according to its technical element type and may itself be recursively decomposed according to the decomposition rules of that type.
+> 
 
 > Note: The Instance Tree Path - only contain instances — not technical element types.
+> 
 
 | Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
 | --- | --- | --- | --- |

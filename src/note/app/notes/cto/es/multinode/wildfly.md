@@ -26,6 +26,8 @@ WildFly is a technical system because it is an organized composition of software
 > Stopping rule: a row is terminal when it names a concrete file, process, configuration attribute, measured value, or named actor; attribute slots (Port, Version, Name) are terminal by rule.
 >
 > Identity: Instance Tree Path is the stable identifier of each row; every path in this table is unique.
+>
+> Constitutive techniques in this table are those the WildFly system embodies in constituting its objects, not the programmers' external build toolchain.
 
 | Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
 |---|---|---|---|
@@ -34,16 +36,18 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Distribution | Installed WildFly server distribution from which the runtime is provisioned. | System Structure | `(root) > Production Technical Object` |
 | WildFly > Distribution > WildFly Home | Root filesystem location containing the server installation. | System Structure | `Production Technical Object > Constitutive Technical Object` |
 | WildFly > Distribution > `bin/` | Executable scripts and command-line entry points. | System Structure | `Production Technical Object > Constitutive Technical Object` |
-| WildFly > Distribution > `bin/standalone.sh` | Launch mechanism for a standalone server process. | Technical Operation | `Technical Operation > Technical Technique > Operative Technique` |
-| WildFly > Distribution > `bin/standalone.bat` | Windows launch script for a standalone server process. | Technical Operation | `Technical Operation > Technical Technique > Operative Technique` |
-| WildFly > Distribution > `bin/domain.sh` | Launch mechanism for managed-domain processes. | Technical Operation | `Technical Operation > Technical Technique > Operative Technique` |
-| WildFly > Distribution > `bin/domain.bat` | Windows launch script for managed-domain processes. | Technical Operation | `Technical Operation > Technical Technique > Operative Technique` |
-| WildFly > Distribution > `bin/jboss-cli.sh` | Command-line management client launcher. | Technical Operation | `Technical Operation > Technical Technique > Operative Technique` |
-| WildFly > Distribution > `bin/jboss-cli.bat` | Windows command-line management client launcher. | Technical Operation | `Technical Operation > Technical Technique > Operative Technique` |
-| WildFly > Distribution > `bin/add-user.sh` | User/identity configuration utility. | Technical Operation | `Technical Operation > Technical Technique` |
-| WildFly > Distribution > `bin/add-user.bat` | Windows user and identity configuration utility. | Technical Operation | `Technical Operation > Technical Technique` |
-| WildFly > Distribution > `bin/elytron-tool.sh` | Elytron security utility launcher. | Technical Operation | `Technical Operation > Technical Technique` |
-| WildFly > Distribution > `bin/elytron-tool.bat` | Windows Elytron security utility launcher. | Technical Operation | `Technical Operation > Technical Technique` |
+| WildFly > Distribution > `bin/standalone.sh` | Standalone server launch script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > `bin/standalone.bat` | Windows standalone server launch script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > Standalone Launch | Situated launching of a standalone server process by an operator. | Technique | `Operative Technique` |
+| WildFly > Distribution > `bin/domain.sh` | Managed-domain launch script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > `bin/domain.bat` | Windows managed-domain launch script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > Domain Launch | Situated launching of managed-domain processes by an operator. | Technique | `Operative Technique` |
+| WildFly > Distribution > `bin/jboss-cli.sh` | Management CLI launcher script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > `bin/jboss-cli.bat` | Windows management CLI launcher script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > `bin/add-user.sh` | User and identity configuration script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > `bin/add-user.bat` | Windows user and identity configuration script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > `bin/elytron-tool.sh` | Elytron security utility script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Distribution > `bin/elytron-tool.bat` | Windows Elytron security utility script. | System Structure | `Production Technical Object > Constitutive Technical Object` |
 | WildFly > Distribution > `bin/client/` | Client library directory for remote access. | System Structure | `Production Technical Object > Constitutive Technical Object` |
 | WildFly > Distribution > `bin/client/jboss-cli-client.jar` | Client library for remote management access. | System Structure | `Production Technical Object > Constitutive Technical Object` |
 | WildFly > Distribution > `bin/init.d/` | Unix service initialization scripts. | System Structure | `Production Technical Object > Constitutive Technical Object` |
@@ -138,7 +142,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Management > Management Model > Root Resource | Root of the management-resource tree. | System Structure | `Production Technical System > Constitutive Technical Object` |
 | WildFly > Management > Management Model > Resource | Addressable management resource. | System Structure | `Production Technical System > Constitutive Technical Object` |
 | WildFly > Management > Management Model > Attribute | Named property of a management resource. | Requirements & Definition | `Requirements & Definition > Technical Parameter` |
-| WildFly > Management > Management Model > Operation | Management operation executable against a resource. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > Management Model > Operation | Management operation executable against a resource. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Management > Management Model > Operation Catalog | Catalog of management operation definitions. | Requirements & Definition | `Requirements & Definition > Technical Specification` |
 | WildFly > Management > Management Model > Capability | Named capability exposed or required by a management resource. | Mechanism & Capability | `Mechanism & Capability > Technical Capability` |
 | WildFly > Management > Management Model > Capability Reference | Relationship connecting resources through capabilities. | System Relations | `System Relations > Technical Dependency` |
@@ -155,11 +159,11 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Management > Management Interface | Network interface exposing management operations. | System Structure | `Production Technical System > Technical Interface` |
 | WildFly > Management > HTTP Management Interface | HTTP-based management interface (port 9990). | System Structure | `Technical Interface` |
 | WildFly > Management > Native Management Interface | Native management protocol interface (port 9999). | System Structure | `Technical Interface` |
-| WildFly > Management > CLI | Command-line client for management operations. | Technical Operation | `Technical Operation > Technical Technique` |
-| WildFly > Management > CLI > Command | Management command issued by an operator or automation. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI | Command-line client for management operations. | Technique | `Technical Operation > General Technique` |
+| WildFly > Management > CLI > Command | Management command issued by an operator or automation. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Management > CLI > DMR Request | Detyped Model Representation request sent to the management controller. | System Relations | `System Relations > Technical Interaction` |
-| WildFly > Management > CLI Actuation | Command line encoding operator intent into management operations on the controller. | Technical Operation | `Technical Interface & Actuation` |
-| WildFly > Management > Console Actuation | Browser console encoding operator intent into management operations. | Technical Operation | `Technical Interface & Actuation` |
+| WildFly > Management > CLI Actuation | Command line encoding operator intent into management operations on the controller. | Technique | `Technical Interface & Actuation` |
+| WildFly > Management > Console Actuation | Browser console encoding operator intent into management operations. | Technique | `Technical Interface & Actuation` |
 | WildFly > Management > Web Management Interface | Browser-based management interface (HAL). | System Structure | `Technical Interface` |
 | WildFly > Management > JMX Management | JMX-based management integration. | System Structure | `Technical Interface` |
 | WildFly > Management > JMX Management > MBean Server | Runtime registry and access point for MBeans. | System Structure | `Constitutive Technical Object` |
@@ -174,7 +178,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Configuration > System Property | Runtime configuration parameter exposed as a system property. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Configuration > Environment Variable | External runtime configuration parameter. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Configuration > Path | Named filesystem path. | System Structure | `Constitutive Technical Object` |
-| WildFly > Provisioning | Mechanism for constructing a WildFly installation from feature/layer definitions. | Technical Operation | `Technical Operation > Technical Practice` |
+| WildFly > Provisioning | Reproducible construction of server installations. | Technique | `Technical Operation > Technical Practice` |
 | WildFly > Provisioning > Galleon | Provisioning technology used to compose WildFly installations. | Knowledge & Methodology | `Knowledge & Methodology > Technical Framework` |
 | WildFly > Provisioning > WildFly Galleon Feature Pack | Feature-pack definition supplying WildFly features. | System Structure | `Technical Element Set` |
 | WildFly > Provisioning > Feature | Provisionable unit in the feature-pack model. | System Structure | `Constitutive Technical Object` |
@@ -193,7 +197,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Provisioning > `health` layer | Runtime health capability layer. | System Structure | `Technical Element Set` |
 | WildFly > Provisioning > `jdr` layer | Diagnostic-reporting capability layer. | System Structure | `Technical Element Set` |
 | WildFly > Provisioning > WildFly Glow | Tooling to identify required Galleon Feature-packs and Layers from application binaries. | Knowledge & Methodology | `Knowledge & Methodology > Technical Framework` |
-| WildFly > Provisioning > Prospero | Tool for installing and managing updates of WildFly servers. | Technical Operation | `Technical Operation > Technical Practice` |
+| WildFly > Provisioning > Prospero | Tool for installing and managing updates of WildFly servers. | Technique | `Technical Operation > Technical Practice` |
 | WildFly > Extensions | Extension modules that introduce management resources and runtime services. | System Structure | `Technical Element Set` |
 | WildFly > Extensions > `org.wildfly.extension.undertow` | Extension implementing Undertow integration. | System Structure | `Constitutive Technical Object` |
 | WildFly > Extensions > `org.wildfly.extension.messaging-activemq` | Extension implementing ActiveMQ Artemis integration. | System Structure | `Constitutive Technical Object` |
@@ -357,7 +361,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Transactions | Transaction-management subsystem. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Transactions > Transaction Manager | Coordinates transactions. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Transactions > Commit Coordination | Coordinator driving participants toward commit. | System Relations | `Technical Interaction` |
-| WildFly > Subsystems > Transactions > Transaction | Unit of coordinated resource work. | Technical Operation | `Technical Activity` |
+| WildFly > Subsystems > Transactions > Transaction | Unit of coordinated resource work. | Technique | `Technical Activity` |
 | WildFly > Subsystems > Transactions > XA Coordination | Two-phase transaction coordination mechanism. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Transactions > Recovery | Transaction recovery mechanism. | Technical Control | `Technical Mechanism` |
 | WildFly > Subsystems > Transactions > Object Store | Persistent transaction log storage. | System Structure | `Constitutive Technical Object` |
@@ -419,8 +423,8 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Web Services > `jboss-webservices.xml` | JBossWS-specific deployment descriptor. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Web Services > Handler Chain | SOAP handler chain. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Batch JBeret | Jakarta Batch implementation. | System Structure | `Constitutive Technical Object` |
-| WildFly > Subsystems > Batch JBeret > Job | Batch job definition. | Technical Operation | `Technical Activity` |
-| WildFly > Subsystems > Batch JBeret > Step | Batch processing step. | Technical Operation | `Technical Task` |
+| WildFly > Subsystems > Batch JBeret > Job | Batch job definition. | Technique | `Technical Activity` |
+| WildFly > Subsystems > Batch JBeret > Step | Batch processing step. | Technique | `Technical Task` |
 | WildFly > Subsystems > Batch JBeret > Job Repository | Persistent batch job state. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Mail | Jakarta Mail integration. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Mail > Mail Session | Configured mail-session resource. | System Structure | `Technical Interface` |
@@ -436,7 +440,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Logging > Periodic Rotating File Handler | Time-based rotating file handler. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Logging > Size Rotating File Handler | Size-based rotating file handler. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Logging > Async Handler | Asynchronous logging handler. | System Structure | `Constitutive Technical Object` |
-| WildFly > Subsystems > Logging > Formatter | Log-message formatting mechanism. | Mechanism & Capability | `Technical Technique` |
+| WildFly > Subsystems > Logging > Formatter | Log-message formatting mechanism. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Logging > Log Level | Severity filtering threshold. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > IO | I/O subsystem. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > IO > Worker | Thread worker resource. | System Structure | `Constitutive Technical Object` |
@@ -473,13 +477,13 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > MicroProfile > OpenAPI | API documentation generation. | Knowledge & Methodology | `Knowledge & Methodology > Technical Knowledge` |
 | WildFly > Subsystems > MicroProfile > JWT | JWT authentication capability. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > SAR | Service Archive deployment subsystem. | System Structure | `Constitutive Technical Object` |
-| WildFly > Subsystems > SAR > SAR Deployment | Service Archive deployment. | Technical Operation | `Technical Activity` |
+| WildFly > Subsystems > SAR > SAR Deployment | Service Archive deployment. | Technique | `Technical Activity` |
 | WildFly > Subsystems > SAR > MBean | MBean supplied by SAR deployment. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JSF | Jakarta Server Faces integration. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JSF > Mojarra | JSF implementation. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JSF > `faces-config.xml` | JSF configuration descriptor. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > POJO | Plain Old Java Object subsystem. | System Structure | `Constitutive Technical Object` |
-| WildFly > Subsystems > POJO > POJO Deployment | POJO deployment unit. | Technical Operation | `Technical Activity` |
+| WildFly > Subsystems > POJO > POJO Deployment | POJO deployment unit. | Technique | `Technical Activity` |
 | WildFly > Subsystems > Bean Validation | Jakarta Bean Validation integration. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Bean Validation > Validator | Bean validation runtime. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Bean Validation > Constraint | Validation constraint definition. | Requirements & Definition | `Technical Specification` |
@@ -514,7 +518,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Deployment > `jboss-deployment-structure.xml` | Class-loading control descriptor. | Requirements & Definition | `Technical Specification` |
 | WildFly > Deployment > Deployment Annotation | Annotation contributing deployment metadata. | Requirements & Definition | `Technical Specification` |
 | WildFly > Deployment > Deployment Processor | Component processing deployment metadata/content. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Deployment > Deployment Phase | Ordered stage of deployment processing. | Technical Operation | `Technical Activity` |
+| WildFly > Deployment > Deployment Phase | Ordered stage of deployment processing. | Technique | `Technical Activity` |
 | WildFly > Deployment > Deployment Unit Processor | Processor transforming deployment state during deployment. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Deployment > Deployment Service | Runtime service representing deployed application state. | System Structure | `Constitutive Technical Object` |
 | WildFly > Deployment > Deployment Lifecycle | Deploy, undeploy, redeploy, replace and related transitions. | Lifecycle & Continuity | `Technical Lifecycle` |
@@ -575,23 +579,23 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Runtime Control > Log Event | Recorded runtime event. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Health Result | Result of a health evaluation. | Technical Control | `Technical Evaluation` |
 | WildFly > Runtime Control > Diagnostic Report | Consolidated diagnostic information. | Technical Control | `Technical Evaluation` |
-| WildFly > Runtime Control > JDR | JBoss Diagnostic Reporting mechanism. | Technical Control | `Technical Technique` |
+| WildFly > Runtime Control > JDR | JBoss Diagnostic Reporting mechanism. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime Control > Audit Log | Management audit trail. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Server Log | Server runtime log. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > GC Log | Garbage collection log. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Thread Dump | Thread state snapshot. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Heap Dump | Memory state snapshot. | Technical Control | `Technical Feedback` |
 | WildFly > Lifecycle | WildFly technical lifecycle. | Lifecycle & Continuity | `Technical Lifecycle` |
-| WildFly > Lifecycle > Provision | Construction of a WildFly installation. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Install | Installation of WildFly distribution. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure | Establishment of server configuration. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Start | Creation and activation of runtime services. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Boot | Initialization of server runtime. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Deploy | Introduction of application deployment into runtime. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Redeploy | Replacement/reprocessing of deployment. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Reload | Reinitialization of server configuration/runtime. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Shutdown | Controlled termination of server runtime. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Undeploy | Removal of application deployment. | Technical Operation | `Technical Activity` |
+| WildFly > Lifecycle > Provision | Construction of a WildFly installation. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Install | Installation of WildFly distribution. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure | Establishment of server configuration. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Start | Creation and activation of runtime services. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Boot | Initialization of server runtime. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Deploy | Introduction of application deployment into runtime. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Redeploy | Replacement/reprocessing of deployment. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Reload | Reinitialization of server configuration/runtime. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Shutdown | Controlled termination of server runtime. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Undeploy | Removal of application deployment. | Technique | `Technical Activity` |
 | WildFly > Lifecycle > Maintain | Continued corrective/preventive technical work. | Lifecycle & Continuity | `Technical Maintenance` |
 | WildFly > Lifecycle > Patch | Application of a server update/patch. | Lifecycle & Continuity | `Technical Maintenance` |
 | WildFly > Lifecycle > Upgrade | Transition to a newer WildFly version. | Lifecycle & Continuity | `Technical Evolution` |
@@ -667,9 +671,9 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Technical Standards > SOAP | SOAP messaging protocol. | Requirements & Definition | `Technical Standard` |
 | WildFly > Technical Standards > XML-RPC | XML-RPC protocol. | Requirements & Definition | `Technical Standard` |
 | WildFly > Technical Practices | Repeatable practices used to operate and maintain WildFly. | Knowledge & Methodology | `Technical Practice` |
-| WildFly > Technical Practices > Provisioning | Reproducible server construction. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Configuration Management | Controlled management of server configuration. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Application Deployment | Controlled introduction of applications. | Technical Operation | `Technical Practice` |
+| WildFly > Technical Practices > Provisioning | Reproducible server construction. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Configuration Management | Controlled management of server configuration. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Application Deployment | Controlled introduction of applications. | Technique | `Technical Practice` |
 | WildFly > Technical Practices > Monitoring | Observation of runtime state and performance. | Technical Control | `Technical Practice` |
 | WildFly > Technical Practices > Health Checking | Periodic/evaluative checking of runtime health. | Technical Control | `Technical Practice` |
 | WildFly > Technical Practices > Log Analysis | Analysis of generated runtime records. | Technical Control | `Technical Practice` |
@@ -720,19 +724,19 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Technical Control > Resource Utilization | CPU, memory, disk, network consumption. | Mechanism & Capability | `Technical Performance` |
 | WildFly > Technical Control > Error Rate | Frequency of failed requests/operations. | Technical Control | `Technical Feedback` |
 | WildFly > Technical Control > Saturation | Degree of resource saturation. | Technical Control | `Technical Performance` |
-| WildFly > Distribution > `bin/standalone.sh` > JVM Launch | Invocation of the Java runtime with standalone parameters. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/standalone.sh` > Classpath Setup | Construction of the runtime classpath from modules and boot libraries. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/standalone.sh` > Module Path Configuration | Configuration of the JBoss Modules path for the runtime. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/standalone.sh` > Main Class Invocation | Invocation of the WildFly bootstrap main class. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/domain.sh` > Host Controller Launch | Invocation of the Host Controller process. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/domain.sh` > Domain Controller Connection | Establishment of connection to the Domain Controller. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/jboss-cli.sh` > CLI Bootstrap | Initialization of the management CLI client. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/jboss-cli.sh` > Connection Establishment | Connection of the CLI to a management endpoint. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/add-user.sh` > User Creation | Interactive or batch creation of a management/application user. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/add-user.sh` > Credential Hashing | Hashing of the user password for storage. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/add-user.sh` > Property File Update | Update of the users/groups properties files. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/elytron-tool.sh` > Keystore Generation | Generation of a cryptographic keystore. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Distribution > `bin/elytron-tool.sh` > Credential Store Generation | Generation of a credential store. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/standalone.sh` > JVM Launch | Invocation of the Java runtime with standalone parameters. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/standalone.sh` > Classpath Setup | Construction of the runtime classpath from modules and boot libraries. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/standalone.sh` > Module Path Configuration | Configuration of the JBoss Modules path for the runtime. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/standalone.sh` > Main Class Invocation | Invocation of the WildFly bootstrap main class. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/domain.sh` > Host Controller Launch | Invocation of the Host Controller process. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/domain.sh` > Domain Controller Connection | Establishment of connection to the Domain Controller. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/jboss-cli.sh` > CLI Bootstrap | Initialization of the management CLI client. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/jboss-cli.sh` > Connection Establishment | Connection of the CLI to a management endpoint. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/add-user.sh` > User Creation | Interactive or batch creation of a management/application user. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/add-user.sh` > Credential Hashing | Hashing of the user password for storage. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/add-user.sh` > Property File Update | Update of the users/groups properties files. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/elytron-tool.sh` > Keystore Generation | Generation of a cryptographic keystore. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Distribution > `bin/elytron-tool.sh` > Credential Store Generation | Generation of a credential store. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Distribution > `modules > Module > module.xml` > Dependencies Declaration | Declaration of module dependencies. | Requirements & Definition | `Requirements & Definition > Technical Specification` |
 | WildFly > Distribution > `modules > Module > module.xml` > Resources Declaration | Declaration of module resources and exports. | Requirements & Definition | `Requirements & Definition > Technical Specification` |
 | WildFly > Distribution > `modules > Module > module.xml` > Main Class Declaration | Declaration of the module main class. | Requirements & Definition | `Requirements & Definition > Technical Specification` |
@@ -757,15 +761,16 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Domain Distribution > `domain/configuration/host.xml` > JVM Configuration | JVM launch options per server. | Requirements & Definition | `Requirements & Definition > Technical Configuration` |
 | WildFly > Domain Distribution > `domain/configuration/host.xml` > Interface Configuration | Host-level interface declarations. | Requirements & Definition | `Requirements & Definition > Technical Configuration` |
 | WildFly > Domain Distribution > `domain/configuration/host.xml` > Socket Binding Group | Host-level socket-binding group. | Requirements & Definition | `Requirements & Definition > Technical Configuration` |
-| WildFly > Domain Distribution > Host Controller > Registration | Registration of the host with the Domain Controller. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Domain Distribution > Host Controller > Process Supervision | Supervision of the managed server processes. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Domain Distribution > Host Controller > Configuration Propagation | Propagation of domain configuration to servers. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Domain Distribution > Domain Controller > Central Configuration | Central management of domain configuration. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Domain Distribution > Domain Controller > Server Group Management | Management of server groups across hosts. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Domain Distribution > Domain Controller > Deployment Distribution | Distribution of deployments to server groups. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Domain Distribution > Host Controller > Registration | Registration of the host with the Domain Controller. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Domain Distribution > Host Controller > Process Supervision | Supervision of the managed server processes. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Domain Distribution > Host Controller > Configuration Propagation | Propagation of domain configuration to servers. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Domain Distribution > Domain Controller > Central Configuration | Central management of domain configuration. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Domain Distribution > Domain Controller > Server Group Management | Management of server groups across hosts. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Domain Distribution > Domain Controller > Deployment Distribution | Distribution of deployments to server groups. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Domain Distribution > Server Group > Profile Assignment | Association of a profile with a server group. | Requirements & Definition | `Requirements & Definition > Technical Configuration` |
 | WildFly > Domain Distribution > Server Group > Socket Binding Group Assignment | Association of a socket-binding group with a server group. | Requirements & Definition | `Requirements & Definition > Technical Configuration` |
 | WildFly > Domain Distribution > Server Group > JVM Assignment | Association of JVM settings with a server group. | Requirements & Definition | `Requirements & Definition > Technical Configuration` |
+| WildFly > Domain Distribution > Domain Formation | Constituting a managed domain from hosts, groups, and profiles. | Technique | `Constitutive Technique` |
 | WildFly > Runtime > JVM > Heap | JVM heap memory regions. | System Structure | `Constitutive Technical Object` |
 | WildFly > Runtime > JVM > Metaspace | JVM metaspace region. | System Structure | `Constitutive Technical Object` |
 | WildFly > Runtime > JVM > Thread Stacks | Per-thread JVM stacks. | System Structure | `Constitutive Technical Object` |
@@ -785,13 +790,15 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Runtime > JBoss Modules > Module Loader > Module Linking | Linking of modules into the runtime graph. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime > JBoss Modules > Module Class Loader > Parent Delegation | Delegation policy to parent class loader. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime > JBoss Modules > Module Class Loader > Resource Visibility | Visibility rules for module resources. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Runtime > Service Container > Service Installation | Installation of services into the container. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Runtime > Service Container > Service Start | Start of installed services. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Runtime > Service Container > Service Stop | Stop of running services. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Runtime > Service Container > Service Removal | Removal of services from the container. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Runtime > JBoss Modules > Modular Class Loading | Loading isolated modules with dependency resolution and delegation. | Technique | `Constitutive Technique` |
+| WildFly > Runtime > Service Container > Service Installation | Installation of services into the container. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Runtime > Service Container > Service Start | Start of installed services. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Runtime > Service Container > Service Stop | Stop of running services. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Runtime > Service Container > Service Removal | Removal of services from the container. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Runtime > Service Container > Dependency Resolution | Resolution of inter-service dependencies. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime > Service Container > State Transition | Controlled service state transition. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime > Service Container > Service Registry > Lookup | Lookup of services by name. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Runtime > Service Container > Service Lifecycle Management | Installing, starting, stopping, and removing services in dependency order. | Technique | `Constitutive Technique` |
 | WildFly > Runtime > Request Controller > Request Queue | Queue of pending requests. | System Structure | `Constitutive Technical Object` |
 | WildFly > Runtime > Request Controller > Concurrency Control | Control of request concurrency. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime > Request Controller > Backpressure | Backpressure handling. | Mechanism & Capability | `Technical Mechanism` |
@@ -799,25 +806,27 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Runtime > XNIO > Channel Listener | Listener for I/O channel events. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime > XNIO > Worker Task Queue | Queue of tasks for worker threads. | System Structure | `Constitutive Technical Object` |
 | WildFly > Runtime > XNIO > Worker Thread Pool | Pool of I/O worker threads. | System Structure | `Technical Element Set` |
+| WildFly > Runtime > XNIO > Asynchronous Dispatch | Handing I/O work to workers and selectors without blocking. | Technique | `Constitutive Technique` |
 | WildFly > Runtime > Deployment Runtime > Deployment Processor Chain | Chain of processors applied to deployments. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime > Deployment Runtime > Deployment Repository | Repository of deployed content realized through computation. | System Structure | `Production Virtual Technical Object` |
 | WildFly > Runtime > Deployment Runtime > VFS | Virtual file system for deployment content realized through computation. | System Structure | `Production Virtual Technical Object` |
-| WildFly > Runtime > Deployment Runtime > Runtime Stage | Runtime-stage deployment processing. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Runtime > Deployment Runtime > Runtime Stage | Runtime-stage deployment processing. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Runtime > Deployment Runtime > Staged Deployment Processing | Transforming deployment content into runtime services through ordered stages. | Technique | `Constitutive Technique` |
 | WildFly > Management > Management Model > Root Resource > Host | Host-level management resource. | System Structure | `Production Technical System > Constitutive Technical Object` |
 | WildFly > Management > Management Model > Root Resource > Server | Server-level management resource. | System Structure | `Production Technical System > Constitutive Technical Object` |
 | WildFly > Management > Management Model > Root Resource > Deployment | Deployment management resource. | System Structure | `Production Technical System > Constitutive Technical Object` |
 | WildFly > Management > Management Model > Resource > Address | Address identifying the resource. | Requirements & Definition | `Requirements & Definition > Technical Specification` |
 | WildFly > Management > Management Model > Resource > Attributes | Attributes of the resource. | Requirements & Definition | `Requirements & Definition > Technical Parameter` |
-| WildFly > Management > Management Model > Resource > Operations | Operations on the resource. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > Management Model > Resource > Operations | Operations on the resource. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Management > Management Model > Resource > Children | Child resources. | System Structure | `Production Technical System > Constitutive Technical Object` |
 | WildFly > Management > Management Model > Attribute > Value Type | Type of the attribute value. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Management > Management Model > Attribute > Access Type | Read/write/read-only access. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Management > Management Model > Attribute > Default Value | Default attribute value. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Management > Management Model > Operation > Operation Signature | Signature of the operation. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > Management Model > Operation > Operation Signature | Signature of the operation. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Management > Management Model > Operation > Operation Handler | Handler executing the operation. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Management > Management Model > Operation > Result | Result returned by the operation. | Technical Control | `Technical Feedback` |
-| WildFly > Management > Management Controller > Model Controller > Model Registration | Registration of resources in the model. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > Management Controller > Model Controller > Model Traversal | Traversal of the model tree. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > Management Controller > Model Controller > Model Registration | Registration of resources in the model. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > Management Controller > Model Controller > Model Traversal | Traversal of the model tree. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Management > Management Controller > Model Controller > Model Validation | Validation of model changes. | Technical Control | `Verification` |
 | WildFly > Management > Management Controller > Configuration Persister > XML Serialization | Serialization of model to XML. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Management > Management Controller > Configuration Persister > XML Deserialization | Deserialization of model from XML. | Mechanism & Capability | `Technical Mechanism` |
@@ -832,25 +841,27 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Management > HTTP Management Interface > Console | HAL management console. | System Structure | `Technical Interface` |
 | WildFly > Management > Native Management Interface > Native Protocol | Native management protocol. | System Structure | `Technical Interface` |
 | WildFly > Management > Native Management Interface > SASL Authentication | SASL-based authentication for native management. | Technical Control | `Technical Security` |
-| WildFly > Management > CLI > Command > Connect Command | CLI connect command. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > CLI > Command > Read Command | CLI read-attribute/read-resource command. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > CLI > Command > Write Command | CLI write-attribute command. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > CLI > Command > Operation Command | CLI :operation command. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > CLI > Command > Deploy Command | CLI deploy/undeploy command. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > CLI > Command > Batch Command | CLI batch command. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI > Command > Connect Command | CLI connect command. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI > Command > Read Command | CLI read-attribute/read-resource command. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI > Command > Write Command | CLI write-attribute command. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI > Command > Operation Command | CLI :operation command. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI > Command > Deploy Command | CLI deploy/undeploy command. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI > Command > Batch Command | CLI batch command. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > CLI > Batch Execution | Situated batch execution of management commands. | Technique | `Operative Technique` |
 | WildFly > Management > CLI > DMR Request > Request Encoding | Encoding of DMR request. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Management > CLI > DMR Request > Response Handling | Handling of DMR response. | Technical Control | `Technical Feedback` |
 | WildFly > Management > Web Management Interface > HAL Console | HAL web console. | System Structure | `Technical Interface` |
 | WildFly > Management > Web Management Interface > REST Endpoint | REST endpoint for management. | System Structure | `Technical Interface` |
-| WildFly > Management > JMX Management > MBean Server > Registration | Registration of MBeans. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > JMX Management > MBean Server > Query | JMX query processing. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > JMX Management > MBean Server > Registration | Registration of MBeans. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > JMX Management > MBean Server > Query | JMX query processing. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Management > JMX Management > MBean Server > Notification | JMX notification delivery. | Technical Control | `Technical Feedback` |
-| WildFly > Management > Model Browser > Tree Navigation | Navigation of the management model tree. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Management > Model Browser > Attribute Inspection | Inspection of resource attributes. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Management > Model Browser > Tree Navigation | Navigation of the management model tree. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > Model Browser > Attribute Inspection | Inspection of resource attributes. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Management > Detyped Model Manipulation | Managing resources as DMR address, attribute, and operation trees. | Technique | `Constitutive Technique` |
 | WildFly > Configuration > Extension > Module Reference | Reference to the extension module. | System Structure | `Production Technical System > Constitutive Technical Object` |
-| WildFly > Configuration > Extension > Subsystem Registration | Registration of extension subsystems. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Configuration > Extension > Subsystem Registration | Registration of extension subsystems. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Configuration > Subsystem > Resource Definition | Definition of subsystem resources. | Requirements & Definition | `Technical Specification` |
-| WildFly > Configuration > Subsystem > Operation Definition | Definition of subsystem operations. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Configuration > Subsystem > Operation Definition | Definition of subsystem operations. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Configuration > Subsystem > Capability Declaration | Declaration of subsystem capabilities. | Mechanism & Capability | `Technical Capability` |
 | WildFly > Configuration > Interface > Inet Address | Inet address of the interface. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Configuration > Socket Binding Group > Port Offset | Port offset applied to bindings. | Requirements & Definition | `Technical Parameter` |
@@ -867,6 +878,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Configuration > Environment Variable > Value | Environment variable value. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Configuration > Path > Name | Path name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Configuration > Path > Path Value | Absolute or relative path value. | Requirements & Definition | `Technical Parameter` |
+| WildFly > Configuration > Descriptor-Driven Configuration | Constituting running server state from XML descriptors through DMR. | Technique | `Constitutive Technique` |
 | WildFly > Server Architecture | Modular service-container architecture organizing subsystems, services, and deployments. | System Structure | `Technical Architecture` |
 | WildFly > Server Architecture > Service Container Architecture | MSC-based runtime organizing services through dependencies and lifecycles. | System Structure | `Technical Architecture` |
 | WildFly > Server Blueprints | Generative descriptions prescribing server construction, assembly, and deployment. | System Structure | `Technical Blueprint` |
@@ -878,31 +890,32 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Maintainability | Degree to which the server can be patched, upgraded, and reconfigured. | Mechanism & Capability | `Technical Quality` |
 | WildFly > Provisioning > Galleon > Feature Pack Repository | Repository of feature packs. | System Structure | `Constitutive Technical Object` |
 | WildFly > Provisioning > Galleon > Provisioning Plan | Plan describing features/layers to install. | Requirements & Definition | `Technical Specification` |
-| WildFly > Provisioning > Galleon > Provisioning Execution | Execution of the provisioning plan. | Technical Operation | `Technical Activity` |
+| WildFly > Provisioning > Galleon > Provisioning Execution | Execution of the provisioning plan. | Technique | `Technical Activity` |
 | WildFly > Provisioning > Feature > Feature Dependency | Dependency between features. | System Relations | `Technical Dependency` |
 | WildFly > Provisioning > Feature > Feature Package | Package produced by a feature. | System Structure | `Constitutive Technical Object` |
 | WildFly > Provisioning > Layer > Layer Dependency | Dependency between layers. | System Relations | `Technical Dependency` |
 | WildFly > Provisioning > Layer > Layer Feature | Feature contained in a layer. | System Structure | `Constitutive Technical Object` |
 | WildFly > Provisioning > Layer > Layer Package | Package contained in a layer. | System Structure | `Constitutive Technical Object` |
-| WildFly > Provisioning > WildFly Glow > Binary Scan | Scan of an application binary. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Provisioning > WildFly Glow > Feature Pack Discovery | Discovery of required feature packs. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Provisioning > WildFly Glow > Layer Discovery | Discovery of required layers. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Provisioning > Prospero > Install | Installation of a WildFly server. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Provisioning > Prospero > Update | Update of an installed WildFly server. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Provisioning > Prospero > Rollback | Rollback of an update. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Provisioning > Feature-Pack Assembly | Technique for composing server installations from feature packs and layers. | Technical Operation | `Constitutive Technique` |
+| WildFly > Provisioning > WildFly Glow > Binary Scan | Scan of an application binary. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Provisioning > WildFly Glow > Feature Pack Discovery | Discovery of required feature packs. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Provisioning > WildFly Glow > Layer Discovery | Discovery of required layers. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Provisioning > Prospero > Install | Installation of a WildFly server. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Provisioning > Prospero > Update | Update of an installed WildFly server. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Provisioning > Prospero > Rollback | Rollback of an update. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Provisioning > Feature-Pack Assembly | Technique for composing server installations from feature packs and layers. | Technique | `Constitutive Technique` |
 | WildFly > Provisioning > Layer Boundary | Criterion distinguishing provisioned layers from non-members. | System Structure | `Set Boundary` |
 | WildFly > Provisioning > Layer Coherence | Shared Galleon feature-pack model integrating layers into one server. | System Structure | `Set Coherence` |
 | WildFly > Provisioning > Layer Governance | Galleon provisioning rules governing layer composition. | System Structure | `Set Governance` |
 | WildFly > Provisioning > Layer Realization | Jakarta EE runtime capability the layer composition collectively realizes. | System Structure | `Set Realization` |
-| WildFly > Extensions > `org.wildfly.extension.undertow` > Subsystem Registration | Registration of the Undertow subsystem. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Extensions > `org.wildfly.extension.messaging-activemq` > Subsystem Registration | Registration of the ActiveMQ Artemis subsystem. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Extensions > `org.wildfly.extension.elytron` > Subsystem Registration | Registration of the Elytron subsystem. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Extensions > `org.wildfly.extension.io` > Subsystem Registration | Registration of the I/O subsystem. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Extensions > `org.wildfly.extension.transactions` > Subsystem Registration | Registration of the transactions subsystem. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Extensions > `org.wildfly.extension.batch.jberet` > Subsystem Registration | Registration of the Batch JBeret subsystem. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Extensions > `org.wildfly.extension.health` > Subsystem Registration | Registration of the health subsystem. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Extensions > `org.wildfly.extension.metrics` > Subsystem Registration | Registration of the metrics subsystem. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.undertow` > Subsystem Registration | Registration of the Undertow subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.messaging-activemq` > Subsystem Registration | Registration of the ActiveMQ Artemis subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.elytron` > Subsystem Registration | Registration of the Elytron subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.io` > Subsystem Registration | Registration of the I/O subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.transactions` > Subsystem Registration | Registration of the transactions subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.batch.jberet` > Subsystem Registration | Registration of the Batch JBeret subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.health` > Subsystem Registration | Registration of the health subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > `org.wildfly.extension.metrics` > Subsystem Registration | Registration of the metrics subsystem. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Extensions > Extension Registration | Registering management resources and runtime services from extension modules. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > EE > Default Bindings > Default Datasource Binding | Default datasource JNDI binding. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > EE > Default Bindings > Default JMS Binding | Default JMS connection factory binding. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > EE > Default Bindings > Default Concurrency Binding | Default concurrency utility binding. | Requirements & Definition | `Technical Configuration` |
@@ -911,6 +924,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > EE > Concurrency > Managed Scheduled Executor | Managed scheduled executor service. | Mechanism & Capability | `Technical Capability` |
 | WildFly > Subsystems > EE > Concurrency > Managed Thread Factory | Managed thread factory. | Mechanism & Capability | `Technical Capability` |
 | WildFly > Subsystems > EE > Concurrency > Context Service | Managed context propagation service. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > EE > Managed Context Propagation | Propagating managed context to executors. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > CDI / Weld > Bean Discovery > Archive Scanning | Scanning of deployment archives. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > CDI / Weld > Bean Discovery > Bean Registration | Registration of discovered beans. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > CDI / Weld > Dependency Injection > Injection Point Resolution | Resolution of injection points. | Mechanism & Capability | `Technical Mechanism` |
@@ -918,60 +932,63 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > CDI / Weld > Interceptor > Binding | Interceptor binding. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > CDI / Weld > Interceptor > Invocation | Interceptor invocation. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > CDI / Weld > Decorator > Delegation | Decorator delegation. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > CDI / Weld > Bean Discovery and Injection | Discovering beans and resolving injections. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > EJB3 > Stateless Session Bean > Pooling | Pooling of stateless EJB instances. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > EJB3 > Stateless Session Bean > Invocation | Invocation of stateless EJB methods. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > EJB3 > Stateless Session Bean > Invocation | Invocation of stateless EJB methods. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > EJB3 > Stateful Session Bean > Passivation | Passivation of stateful EJB state. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > EJB3 > Stateful Session Bean > Activation | Activation of stateful EJB state. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > EJB3 > Singleton Session Bean > Locking | Locking of singleton EJB. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > EJB3 > Singleton Session Bean > Startup | Startup of singleton EJB. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > EJB3 > Singleton Session Bean > Startup | Startup of singleton EJB. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > EJB3 > Message-Driven Bean > Message Consumption | Consumption of messages by MDB. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > EJB3 > Message-Driven Bean > Pooling | Pooling of MDB instances. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > EJB3 > EJB Container > Lifecycle Callbacks | Lifecycle callback invocations. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > EJB3 > EJB Container > Lifecycle Callbacks | Lifecycle callback invocations. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > EJB3 > EJB Container > Security Interceptors | Security interceptors. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > EJB3 > EJB Container > Transaction Interceptors | Transaction interceptors. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > EJB3 > EJB Pool > Pool Sizing | Pool size configuration. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Subsystems > EJB3 > EJB Pool > Instance Creation | Creation of pooled EJB instances. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > EJB3 > EJB Pool > Instance Creation | Creation of pooled EJB instances. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > EJB3 > Remote Invocation > Serialization | Serialization of remote invocations. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > EJB3 > Remote Invocation > Transport | Transport of remote invocations. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > EJB3 > Timer Service > Timer Creation | Creation of EJB timers. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > EJB3 > Timer Service > Timer Expiry | Expiry of EJB timers. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > EJB3 > Timer Service > Timer Creation | Creation of EJB timers. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > EJB3 > Timer Service > Timer Expiry | Expiry of EJB timers. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > EJB3 > Timer Service > Timer Persistence | Persistence of EJB timers. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > EJB3 > Stateful Passivation | Passivating and activating stateful bean state to and from storage. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Naming > JNDI Namespace > Root Context | Root JNDI context. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Naming > JNDI Namespace > java: Context | java: namespace. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Naming > JNDI Namespace > java:comp Context | java:comp namespace. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Naming > JNDI Namespace > java:module Context | java:module namespace. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Naming > JNDI Namespace > java:app Context | java:app namespace. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Naming > JNDI Namespace > java:global Context | java:global namespace. | System Structure | `Constitutive Technical Object` |
-| WildFly > Subsystems > Naming > JNDI Binding > Lookup | Lookup of bound resources. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Naming > JNDI Binding > Bind | Binding of resources. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Naming > JNDI Binding > Unbind | Unbinding of resources. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Naming > JNDI Binding > Lookup | Lookup of bound resources. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Naming > JNDI Binding > Bind | Binding of resources. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Naming > JNDI Binding > Unbind | Unbinding of resources. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Naming > Remote Naming > Remote Lookup | Remote JNDI lookup. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Naming > Namespace Binding | Binding names to resources in namespaces. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Undertow > Server > Default Server > HTTP Listener | Default HTTP listener. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Undertow > Server > Default Server > AJP Listener | Default AJP listener. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Undertow > Server > Default Server > HTTPS Listener | Default HTTPS listener. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Undertow > Host > Default Host > Virtual Host | Default virtual host. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Undertow > Host > Default Host > Access Log | Access log for the virtual host. | Technical Control | `Technical Feedback` |
-| WildFly > Subsystems > Undertow > Servlet Container > Servlet Lifecycle | Servlet lifecycle management. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > Undertow > Servlet Container > Servlet Lifecycle | Servlet lifecycle management. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Subsystems > Undertow > Servlet Container > Session Management | HTTP session management. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Servlet Container > Filter Chain | Servlet filter chain. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Undertow > Servlet > Init | Servlet initialization. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Undertow > Servlet > Service | Servlet request servicing. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Undertow > Servlet > Destroy | Servlet destruction. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Undertow > Filter > Init | Filter initialization. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Undertow > Filter > DoFilter | Filter chain execution. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Undertow > Listener > Context Initialized | Context initialization callback. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Undertow > Listener > Context Destroyed | Context destruction callback. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Servlet > Init | Servlet initialization. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Servlet > Service | Servlet request servicing. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Servlet > Destroy | Servlet destruction. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Filter > Init | Filter initialization. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Filter > DoFilter | Filter chain execution. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Listener > Context Initialized | Context initialization callback. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Listener > Context Destroyed | Context destruction callback. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Undertow > WebSocket > Handshake | WebSocket handshake. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > WebSocket > Frame Handling | WebSocket frame handling. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > HTTP Invoker > EJB Invocation | HTTP-based EJB invocation. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Handler > Request Handling | Request handling by the handler. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Buffer Pool > Buffer Allocation | Allocation of buffers. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Buffer Pool > Buffer Release | Release of buffers. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > RESTEasy > REST Endpoint > Request Handling | Handling of REST requests. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > RESTEasy > REST Endpoint > Response Generation | Generation of REST responses. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > RESTEasy > REST Endpoint > Request Handling | Handling of REST requests. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > RESTEasy > REST Endpoint > Response Generation | Generation of REST responses. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > RESTEasy > Message Body Reader > Deserialization | Deserialization of request bodies. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > RESTEasy > Message Body Writer > Serialization | Serialization of response bodies. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > RESTEasy > Provider > Registration | Registration of providers. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > RESTEasy > Provider > Registration | Registration of providers. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > RESTEasy > Provider > Selection | Selection of providers for a request. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > RESTEasy > Jackson Provider > JSON Serialization | Jackson JSON serialization. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > RESTEasy > Jackson Provider > JSON Deserialization | Jackson JSON deserialization. | Mechanism & Capability | `Technical Mechanism` |
@@ -979,8 +996,8 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > RESTEasy > JSON-P Provider > JSON-P Serialization | JSON-P serialization. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > RESTEasy > JAXB Provider > XML Serialization | JAXB XML serialization. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > RESTEasy > Exception Mapper > Exception Mapping | Mapping of exceptions to responses. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > RESTEasy > Client > Request Build | Building of client requests. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > RESTEasy > Client > Response Handling | Handling of client responses. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > RESTEasy > Client > Request Build | Building of client requests. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > RESTEasy > Client > Response Handling | Handling of client responses. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Datasources > Datasource > Connection Acquisition | Acquisition of a database connection. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Datasources > Datasource > Connection Release | Release of a database connection. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Datasources > XA Datasource > XA Start | XA transaction start. | Mechanism & Capability | `Technical Mechanism` |
@@ -1042,8 +1059,8 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Clustering > Cluster Membership > View Change | Cluster view change. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Clustering > Distributed Session Management > Session Replication | Replication of sessions. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Clustering > Distributed Session Management > Session Failover | Failover of sessions. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Distributable Web > Session Management > Session Creation | Creation of HTTP sessions. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Distributable Web > Session Management > Session Invalidation | Invalidation of HTTP sessions. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Distributable Web > Session Management > Session Creation | Creation of HTTP sessions. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Distributable Web > Session Management > Session Invalidation | Invalidation of HTTP sessions. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Distributable Web > Session Affinity > Node Affinity | Node affinity for sessions. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Distributable Web > Session Replication > Replication Trigger | Trigger for session replication. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Distributable Web > Session Replication > Replication Transport | Transport for session replication. | Mechanism & Capability | `Technical Mechanism` |
@@ -1051,13 +1068,13 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Singleton > Singleton Service > Failover | Failover of the singleton service. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Singleton > Singleton Policy > Simple Policy | Simple singleton policy. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Singleton > Singleton Policy > Random Policy | Random singleton policy. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Transactions > Transaction Manager > Begin | Begin of a transaction. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Transactions > Transaction Manager > Commit | Commit of a transaction. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Transactions > Transaction Manager > Rollback | Rollback of a transaction. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Transactions > Transaction Manager > Suspend | Suspension of a transaction. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Transactions > Transaction Manager > Resume | Resumption of a transaction. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Transactions > Transaction > Enlist Resource | Enlistment of a resource. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Transactions > Transaction > Delist Resource | Delisting of a resource. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction Manager > Begin | Begin of a transaction. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction Manager > Commit | Commit of a transaction. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction Manager > Rollback | Rollback of a transaction. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction Manager > Suspend | Suspension of a transaction. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction Manager > Resume | Resumption of a transaction. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction > Enlist Resource | Enlistment of a resource. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction > Delist Resource | Delisting of a resource. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Transactions > XA Coordination > Prepare | Prepare phase of two-phase commit. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Transactions > XA Coordination > Commit | Commit phase of two-phase commit. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Transactions > XA Coordination > Rollback | Rollback phase of two-phase commit. | Mechanism & Capability | `Technical Mechanism` |
@@ -1095,7 +1112,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Messaging-ActiveMQ > Address Setting > Expiry Address | Expiry address. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > Messaging-ActiveMQ > Address Setting > Max Size Bytes | Maximum address size. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Messaging-ActiveMQ > Divert > Routing | Routing of diverted messages. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Resource Adapters > Resource Adapter > Deployment | Deployment of the resource adapter. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Resource Adapters > Resource Adapter > Deployment | Deployment of the resource adapter. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Resource Adapters > Resource Adapter > Connection Factory | Connection factory provided by the adapter. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Resource Adapters > Resource Adapter > Admin Object | Admin object provided by the adapter. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Resource Adapters > Connection Definition > Managed Connection Factory | Managed connection factory. | Mechanism & Capability | `Technical Mechanism` |
@@ -1139,33 +1156,33 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Elytron > Protocol > Protocol Name | TLS protocol name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Elytron > OIDC Client > Token Validation | Validation of OIDC tokens. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Elytron > OIDC Client > Token Refresh | Refresh of OIDC tokens. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Web Services > JAX-WS Endpoint > Request Handling | Handling of SOAP requests. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Web Services > JAX-WS Endpoint > Response Generation | Generation of SOAP responses. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Web Services > JAX-WS Endpoint > Request Handling | Handling of SOAP requests. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Web Services > JAX-WS Endpoint > Response Generation | Generation of SOAP responses. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Web Services > WSDL > Service Definition | Service definition in WSDL. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Web Services > WSDL > Binding Definition | Binding definition in WSDL. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Web Services > WSDL > Port Type Definition | Port-type definition in WSDL. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Web Services > WSDL > Message Definition | Message definition in WSDL. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Web Services > Handler Chain > Handler Invocation | Invocation of SOAP handlers. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Batch JBeret > Job > Job Instance | Batch job instance. | Technical Operation | `Technical Activity` |
-| WildFly > Subsystems > Batch JBeret > Job > Job Execution | Batch job execution. | Technical Operation | `Technical Activity` |
-| WildFly > Subsystems > Batch JBeret > Step > Step Execution | Batch step execution. | Technical Operation | `Technical Task` |
-| WildFly > Subsystems > Batch JBeret > Step > Chunk Processing | Chunk processing. | Technical Operation | `Technical Task` |
-| WildFly > Subsystems > Batch JBeret > Step > Batchlet Processing | Batchlet processing. | Technical Operation | `Technical Task` |
+| WildFly > Subsystems > Batch JBeret > Job > Job Instance | Batch job instance. | Technique | `Technical Activity` |
+| WildFly > Subsystems > Batch JBeret > Job > Job Execution | Batch job execution. | Technique | `Technical Activity` |
+| WildFly > Subsystems > Batch JBeret > Step > Step Execution | Batch step execution. | Technique | `Technical Task` |
+| WildFly > Subsystems > Batch JBeret > Step > Chunk Processing | Chunk processing. | Technique | `Technical Task` |
+| WildFly > Subsystems > Batch JBeret > Step > Batchlet Processing | Batchlet processing. | Technique | `Technical Task` |
 | WildFly > Subsystems > Batch JBeret > Job Repository > Job State | Persistent job state. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Batch JBeret > Job Repository > Step State | Persistent step state. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Mail > Mail Session > Session Properties | Mail session properties. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Mail > Mail Session > Credentials | Mail session credentials. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > JMX > MBean > Attribute | MBean attribute. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Subsystems > JMX > MBean > Operation | MBean operation. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JMX > MBean > Operation | MBean operation. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > JMX > MBean > Notification | MBean notification. | Technical Control | `Technical Feedback` |
-| WildFly > Subsystems > JMX > MBean Server > Registration | MBean registration. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JMX > MBean Server > Query | MBean query. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JMX > MBean Server > Registration | MBean registration. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JMX > MBean Server > Query | MBean query. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > JMX > JMX Connector > Remote Access | Remote JMX access. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Logging > Log Category > Level | Log level of the category. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Logging > Log Category > Handlers | Handlers attached to the category. | System Structure | `Technical Element Set` |
 | WildFly > Subsystems > Logging > Log Category > Use Parent Handlers | Use-parent-handlers flag. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Logging > Handler > Level | Handler level. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Subsystems > Logging > Handler > Formatter | Handler formatter. | Mechanism & Capability | `Technical Technique` |
+| WildFly > Subsystems > Logging > Handler > Formatter | Handler formatter. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Logging > Handler > Filter | Handler filter. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Logging > File Handler > File Path | File path of the handler. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Logging > File Handler > Append | Append flag. | Requirements & Definition | `Technical Parameter` |
@@ -1224,22 +1241,22 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > MicroProfile > OpenAPI > Operation | OpenAPI operation. | Knowledge & Methodology | `Knowledge & Methodology > Technical Knowledge` |
 | WildFly > Subsystems > MicroProfile > JWT > Token | JWT token. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > MicroProfile > JWT > Claim | JWT claim. | Technical Control | `Technical Security` |
-| WildFly > Subsystems > SAR > SAR Deployment > Deployment | Deployment of a service archive. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > SAR > SAR Deployment > Undeployment | Undeployment of a service archive. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > SAR > MBean > Registration | Registration of the SAR MBean. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JSF > Mojarra > Lifecycle | JSF lifecycle. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > SAR > SAR Deployment > Deployment | Deployment of a service archive. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > SAR > SAR Deployment > Undeployment | Undeployment of a service archive. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > SAR > MBean > Registration | Registration of the SAR MBean. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JSF > Mojarra > Lifecycle | JSF lifecycle. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Subsystems > JSF > Mojarra > Component Tree | JSF component tree. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JSF > Mojarra > Renderer | JSF renderer. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > JSF > `faces-config.xml` > Navigation Rules | JSF navigation rules. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > JSF > `faces-config.xml` > Managed Beans | JSF managed beans. | Requirements & Definition | `Technical Specification` |
-| WildFly > Subsystems > POJO > POJO Deployment > Deployment | POJO deployment. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > POJO > POJO Deployment > Undeployment | POJO undeployment. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > POJO > POJO Deployment > Deployment | POJO deployment. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > POJO > POJO Deployment > Undeployment | POJO undeployment. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Subsystems > Bean Validation > Validator > Validation | Bean validation. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Bean Validation > Constraint > Definition | Constraint definition. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Bean Validation > Constraint > Violation | Constraint violation. | Technical Control | `Technical Feedback` |
 | WildFly > Subsystems > Deployment Scanner > Scan | Scan of the deployment directory. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Deployment Scanner > Deploy | Deployment of detected content. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Deployment Scanner > Undeploy | Undeployment of removed content. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Deployment Scanner > Deploy | Deployment of detected content. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Deployment Scanner > Undeploy | Undeployment of removed content. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Deployment Scanner > Scan Interval > Interval Value | Scan interval value. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Deployment Scanner > Auto-deploy > Enabled | Auto-deploy enabled flag. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > Deployment Scanner > Deployment Marker > Marker Type | Type of deployment marker. | Requirements & Definition | `Technical Specification` |
@@ -1293,21 +1310,21 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Deployment > Deployment Annotation > Class Annotation | Class-level annotation. | Requirements & Definition | `Technical Specification` |
 | WildFly > Deployment > Deployment Annotation > Method Annotation | Method-level annotation. | Requirements & Definition | `Technical Specification` |
 | WildFly > Deployment > Deployment Annotation > Field Annotation | Field-level annotation. | Requirements & Definition | `Technical Specification` |
-| WildFly > Deployment > Deployment Processor > Parse | Parse phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Processor > Register | Register phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Processor > Deploy | Deploy phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > STRUCTURE | STRUCTURE phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > PARSE | PARSE phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > REGISTER | REGISTER phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > DEPENDENCIES | DEPENDENCIES phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > CONFIGURE_MODULE | CONFIGURE_MODULE phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > POST_MODULE | POST_MODULE phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > INSTALL | INSTALL phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > CLEANUP | CLEANUP phase. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Processor > Parse | Parse phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Processor > Register | Register phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Processor > Deploy | Deploy phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > STRUCTURE | STRUCTURE phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > PARSE | PARSE phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > REGISTER | REGISTER phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > DEPENDENCIES | DEPENDENCIES phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > CONFIGURE_MODULE | CONFIGURE_MODULE phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > POST_MODULE | POST_MODULE phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > INSTALL | INSTALL phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > CLEANUP | CLEANUP phase. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Deployment > Deployment Unit Processor > Transform | Transformation of deployment state. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Deployment > Deployment Service > Registration | Registration of the deployment service. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Deployment > Deployment Service > Start | Start of the deployment service. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Deployment > Deployment Service > Stop | Stop of the deployment service. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Deployment Service > Registration | Registration of the deployment service. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Deployment Service > Start | Start of the deployment service. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Deployment Service > Stop | Stop of the deployment service. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Deployment > Deployment Lifecycle > Deploy | Deploy transition. | Lifecycle & Continuity | `Technical Lifecycle` |
 | WildFly > Deployment > Deployment Lifecycle > Undeploy | Undeploy transition. | Lifecycle & Continuity | `Technical Lifecycle` |
 | WildFly > Deployment > Deployment Lifecycle > Redeploy | Redeploy transition. | Lifecycle & Continuity | `Technical Lifecycle` |
@@ -1331,17 +1348,17 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Deployment > Application > Component > CDI Component | CDI component. | System Structure | `Constitutive Technical Object` |
 | WildFly > Deployment > Application > Component > REST Component | REST component. | System Structure | `Constitutive Technical Object` |
 | WildFly > Deployment > Application > Component > WebSocket Component | WebSocket component. | System Structure | `Constitutive Technical Object` |
-| WildFly > Deployment > Application > Servlet > Lifecycle | Servlet lifecycle. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > Servlet > Request Handling | Servlet request handling. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Deployment > Application > Servlet > Session Handling | Servlet session handling. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Application > Servlet > Lifecycle | Servlet lifecycle. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > Servlet > Request Handling | Servlet request handling. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Application > Servlet > Session Handling | Servlet session handling. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Deployment > Application > CDI Bean > Scope | CDI bean scope. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Deployment > Application > CDI Bean > Lifecycle | CDI bean lifecycle. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > CDI Bean > Lifecycle | CDI bean lifecycle. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Deployment > Application > CDI Bean > Injection | CDI bean injection. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Deployment > Application > EJB > Lifecycle | EJB lifecycle. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > EJB > Lifecycle | EJB lifecycle. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Deployment > Application > EJB > Business Interface | EJB business interface. | System Structure | `Technical Interface` |
 | WildFly > Deployment > Application > EJB > Transaction Attribute | EJB transaction attribute. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Deployment > Application > EJB > Security Role | EJB security role. | Technical Control | `Technical Security` |
-| WildFly > Deployment > Application > REST Resource > Resource Method | REST resource method. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Application > REST Resource > Resource Method | REST resource method. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Deployment > Application > REST Resource > Path | REST resource path. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Deployment > Application > REST Resource > Media Type | REST media type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Deployment > Application > Persistence Unit > Entity | JPA entity. | System Structure | `Constitutive Technical Object` |
@@ -1418,38 +1435,38 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Runtime Control > Health Result > Status | Health status. | Technical Control | `Technical Evaluation` |
 | WildFly > Runtime Control > Health Result > Check | Health check name. | Technical Control | `Technical Evaluation` |
 | WildFly > Runtime Control > Diagnostic Report > Section | Diagnostic report section. | Technical Control | `Technical Evaluation` |
-| WildFly > Runtime Control > JDR > Collection | Diagnostic data collection. | Technical Control | `Technical Technique` |
-| WildFly > Runtime Control > JDR > Report | Diagnostic report generation. | Technical Control | `Technical Technique` |
+| WildFly > Runtime Control > JDR > Collection | Diagnostic data collection. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Runtime Control > JDR > Report | Diagnostic report generation. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime Control > Audit Log > Entry | Audit log entry. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Server Log > Entry | Server log entry. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > GC Log > Entry | GC log entry. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Thread Dump > Thread | Thread in the dump. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Heap Dump > Heap Region | Heap region in the dump. | Technical Control | `Technical Feedback` |
-| WildFly > Lifecycle > Provision > Provisioning Plan | Plan for provisioning. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Provision > Provisioning Execution | Execution of provisioning. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Install > Distribution Extraction | Extraction of the distribution. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Install > File Placement | Placement of installation files. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Profile Selection | Selection of the configuration profile. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Subsystem Configuration | Configuration of subsystems. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Interface Configuration | Configuration of network interfaces. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Socket Binding Configuration | Configuration of socket bindings. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Security Configuration | Configuration of security domains. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Start > Service Container Start | Start of the service container. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Start > Subsystem Start | Start of subsystems. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Start > Deployment Start | Start of deployments. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Boot > Bootstrap | Bootstrap phase. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Boot > Configuration Load | Loading of configuration. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Boot > Service Installation | Installation of services. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Deploy > Deployment Processing | Processing of the deployment. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Deploy > Deployment Start | Start of the deployed application. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Redeploy > Undeploy | Undeploy phase of redeploy. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Redeploy > Deploy | Deploy phase of redeploy. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Reload > Stop | Stop phase of reload. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Reload > Start | Start phase of reload. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Shutdown > Graceful Shutdown | Graceful shutdown. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Shutdown > Forced Shutdown | Forced shutdown. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Undeploy > Deployment Stop | Stop of the deployed application. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Undeploy > Content Removal | Removal of deployment content. | Technical Operation | `Technical Activity` |
+| WildFly > Lifecycle > Provision > Provisioning Plan | Plan for provisioning. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Provision > Provisioning Execution | Execution of provisioning. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Install > Distribution Extraction | Extraction of the distribution. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Install > File Placement | Placement of installation files. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Profile Selection | Selection of the configuration profile. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Subsystem Configuration | Configuration of subsystems. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Interface Configuration | Configuration of network interfaces. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Socket Binding Configuration | Configuration of socket bindings. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Security Configuration | Configuration of security domains. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Start > Service Container Start | Start of the service container. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Start > Subsystem Start | Start of subsystems. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Start > Deployment Start | Start of deployments. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Boot > Bootstrap | Bootstrap phase. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Boot > Configuration Load | Loading of configuration. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Boot > Service Installation | Installation of services. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Deploy > Deployment Processing | Processing of the deployment. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Deploy > Deployment Start | Start of the deployed application. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Redeploy > Undeploy | Undeploy phase of redeploy. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Redeploy > Deploy | Deploy phase of redeploy. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Reload > Stop | Stop phase of reload. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Reload > Start | Start phase of reload. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Shutdown > Graceful Shutdown | Graceful shutdown. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Shutdown > Forced Shutdown | Forced shutdown. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Undeploy > Deployment Stop | Stop of the deployed application. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Undeploy > Content Removal | Removal of deployment content. | Technique | `Technical Activity` |
 | WildFly > Lifecycle > Maintain > Corrective Maintenance | Corrective maintenance. | Lifecycle & Continuity | `Technical Maintenance` |
 | WildFly > Lifecycle > Maintain > Preventive Maintenance | Preventive maintenance. | Lifecycle & Continuity | `Technical Maintenance` |
 | WildFly > Lifecycle > Patch > Patch Application | Application of the patch. | Lifecycle & Continuity | `Technical Maintenance` |
@@ -1530,12 +1547,12 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Technical Standards > MicroProfile > Version | MicroProfile version. | Requirements & Definition | `Technical Standard` |
 | WildFly > Technical Standards > OpenAPI > Version | OpenAPI version. | Requirements & Definition | `Technical Standard` |
 | WildFly > Technical Standards > OpenTelemetry > Version | OpenTelemetry version. | Requirements & Definition | `Technical Standard` |
-| WildFly > Technical Practices > Provisioning > Plan Definition | Definition of the provisioning plan. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Provisioning > Execution | Execution of provisioning. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Configuration Management > Change Control | Control of configuration changes. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Configuration Management > Version Control | Versioning of configuration. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Application Deployment > Release Process | Process of releasing applications. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Application Deployment > Rollback Process | Process of rolling back applications. | Technical Operation | `Technical Practice` |
+| WildFly > Technical Practices > Provisioning > Plan Definition | Definition of the provisioning plan. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Provisioning > Execution | Execution of provisioning. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Configuration Management > Change Control | Control of configuration changes. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Configuration Management > Version Control | Versioning of configuration. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Application Deployment > Release Process | Process of releasing applications. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Application Deployment > Rollback Process | Process of rolling back applications. | Technique | `Technical Practice` |
 | WildFly > Technical Practices > Monitoring > Metric Collection | Collection of runtime metrics. | Technical Control | `Technical Practice` |
 | WildFly > Technical Practices > Monitoring > Alerting | Alerting on monitored conditions. | Technical Control | `Technical Practice` |
 | WildFly > Technical Practices > Health Checking > Probe Scheduling | Scheduling of health probes. | Technical Control | `Technical Practice` |
@@ -1642,7 +1659,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Undertow > Server > Default Server > Host > Default Host > Access Log | Access log of the default host. | Technical Control | `Technical Feedback` |
 | WildFly > Subsystems > Undertow > Server > Default Server > Host > Default Host > Filter | HTTP filter of the default host. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Server > Default Server > Host > Default Host > Handler | Request handler of the default host. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Undertow > Servlet Container > Deployment | Deployment of a web application. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > Undertow > Servlet Container > Deployment | Deployment of a web application. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Subsystems > Undertow > Servlet Container > Servlet Context | Servlet context. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Undertow > Servlet Container > Session Manager | HTTP session manager. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Servlet Container > Session Cookie | Session cookie configuration. | Requirements & Definition | `Technical Parameter` |
@@ -1653,7 +1670,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Undertow > Servlet Container > Security Constraint | Security constraint enforcement. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > Undertow > Servlet Container > Servlet Mapping | Servlet URL mapping. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Undertow > Servlet Container > Filter Mapping | Filter URL mapping. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Subsystems > Undertow > Servlet Container > Listener Registration | Listener registration. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Undertow > Servlet Container > Listener Registration | Listener registration. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Undertow > WebSocket > Endpoint | WebSocket endpoint. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Undertow > WebSocket > Session | WebSocket session. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Undertow > WebSocket > Message Encoder | WebSocket message encoder. | Mechanism & Capability | `Technical Mechanism` |
@@ -1670,6 +1687,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Undertow > Handler > Compression Handler | Compression handler. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Handler > Byte-range Handler | Byte-range handler. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Undertow > Handler > Path Template Handler | Path-template handler. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Undertow > Request Handling | Handling requests through the server, host, and servlet chain. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > RESTEasy > REST Endpoint > Path Template | REST path template. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > RESTEasy > REST Endpoint > HTTP Method | HTTP method binding. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > RESTEasy > REST Endpoint > Consumes | Consumed media types. | Requirements & Definition | `Technical Parameter` |
@@ -1684,6 +1702,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > RESTEasy > Provider > Param Converter | REST parameter converter. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > RESTEasy > Provider > Feature | REST feature provider. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > RESTEasy > Provider > Dynamic Feature | REST dynamic feature provider. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > RESTEasy > Message Body Processing | Deserializing requests and serializing responses through providers. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Datasources > Datasource > Connection URL | JDBC connection URL. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Datasources > Datasource > User Name | Datasource user name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Datasources > Datasource > Password | Datasource password. | Technical Control | `Technical Security` |
@@ -1713,6 +1732,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Datasources > Validation > Validate on Match | Validate-on-match flag. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Datasources > Validation > Background Validation | Background-validation flag. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Datasources > Validation > Background Validation Millis | Background-validation interval. | Requirements & Definition | `Technical Parameter` |
+| WildFly > Subsystems > Datasources > Connection Pooling | Sharing managed database connections from a pool. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > JPA > Persistence Unit > Name | Persistence unit name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JPA > Persistence Unit > Transaction Type | Persistence-unit transaction type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JPA > Persistence Unit > Provider | Persistence provider. | Requirements & Definition | `Technical Parameter` |
@@ -1729,13 +1749,13 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > JPA > Hibernate ORM > Identifier Generator | Identifier generator. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > JPA > Hibernate ORM > Dirty Checking | Dirty checking. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > JPA > Hibernate ORM > Flush Mode | Flush mode. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Subsystems > JPA > Entity Manager > Persist | Entity persist operation. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JPA > Entity Manager > Merge | Entity merge operation. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JPA > Entity Manager > Remove | Entity remove operation. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JPA > Entity Manager > Find | Entity find operation. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JPA > Entity Manager > Query | Query execution. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JPA > Entity Manager > Lock | Entity lock operation. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > JPA > Entity Manager > Refresh | Entity refresh operation. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JPA > Entity Manager > Persist | Entity persist operation. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JPA > Entity Manager > Merge | Entity merge operation. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JPA > Entity Manager > Remove | Entity remove operation. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JPA > Entity Manager > Find | Entity find operation. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JPA > Entity Manager > Query | Query execution. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JPA > Entity Manager > Lock | Entity lock operation. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > JPA > Entity Manager > Refresh | Entity refresh operation. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > JPA > Hibernate Cache > Cache Region Factory | Cache region factory. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > JPA > Hibernate Cache > Cache Provider | Cache provider. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > JPA > Hibernate Cache > Cache Concurrency Strategy | Cache concurrency strategy. | Mechanism & Capability | `Technical Mechanism` |
@@ -1744,6 +1764,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > JPA > Second-Level Cache > Natural Id Cache | Natural-id cache. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JPA > Second-Level Cache > Query Cache | Query-level cache. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JPA > Second-Level Cache > Cache Eviction | Cache eviction. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > JPA > Persistence Context Management | Managing entity state within persistence contexts. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Infinispan > Cache Container > Transport | Cache-container transport. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Infinispan > Cache Container > Global Configuration | Global cache configuration. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > Infinispan > Local Cache > Mode | Local cache mode. | Requirements & Definition | `Technical Parameter` |
@@ -1761,6 +1782,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Infinispan > Eviction > Eviction Max Entries | Maximum entries before eviction. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Infinispan > Expiration > Interval | Expiration interval. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Infinispan > Expiration > Reaper | Expiration reaper. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Infinispan > Distributed Caching | Storing and retrieving entries across a cache cluster. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > JGroups > Channel > Cluster Name | Channel cluster name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JGroups > Channel > Address | Channel address. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JGroups > Channel > State Transfer | State transfer on the channel. | Mechanism & Capability | `Technical Mechanism` |
@@ -1775,6 +1797,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > JGroups > Failure Detection > Max Attempts | Maximum failure-detection attempts. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JGroups > MERGE3 > Merge Interval | Merge interval. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JGroups > FD_SOCK > Client Bind Address | FD_SOCK client bind address. | Requirements & Definition | `Technical Parameter` |
+| WildFly > Subsystems > JGroups > Reliable Group Communication | Exchanging messages over channels with delivery guarantees. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Clustering > Cluster Node > Name | Cluster node name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Clustering > Cluster Node > Address | Cluster node address. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Clustering > Cluster Membership > Coordinator | Cluster coordinator. | System Structure | `Production Technical System` |
@@ -1782,7 +1805,8 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Clustering > Cluster Membership > Node List | List of cluster members. | System Structure | `Technical Element Set` |
 | WildFly > Subsystems > Clustering > Distributed Session Management > Session Cache | Distributed session cache. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Clustering > Distributed Session Management > Session Ownership | Session ownership. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Distributable Web > Session Management > Session Access | Session access. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Clustering > Session State Replication | Replicating session state across cluster nodes. | Technique | `Constitutive Technique` |
+| WildFly > Subsystems > Distributable Web > Session Management > Session Access | Session access. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Distributable Web > Session Affinity > Node Selection | Node-selection algorithm. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Distributable Web > Session Replication > Replication Mode | Replication mode. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Distributable Web > Session Replication > Replication Granularity | Replication granularity. | Requirements & Definition | `Technical Parameter` |
@@ -1792,11 +1816,12 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Singleton > Singleton Service > Service Name | Singleton service name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Singleton > Singleton Service > Provider | Singleton provider. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Singleton > Singleton Policy > Policy Name | Singleton policy name. | Requirements & Definition | `Technical Parameter` |
+| WildFly > Subsystems > Singleton > Singleton Election | Electing the active singleton service among members. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Transactions > Transaction Manager > Transaction ID | Transaction identifier. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Transactions > Transaction Manager > Transaction Status | Transaction status. | Technical Control | `Technical Evaluation` |
 | WildFly > Subsystems > Transactions > Transaction Manager > Transaction Timeout | Transaction timeout. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Subsystems > Transactions > Transaction > Resource Enlistment | Resource enlistment. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Transactions > Transaction > Synchronization | Transaction synchronization. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction > Resource Enlistment | Resource enlistment. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Transactions > Transaction > Synchronization | Transaction synchronization. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Transactions > Transaction > Branch | Transaction branch. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Transactions > XA Coordination > XA Resource | XA resource. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Transactions > XA Coordination > XA Branch | XA branch. | System Structure | `Constitutive Technical Object` |
@@ -1817,6 +1842,8 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Transactions > JTS > ORB Integration > ORB | ORB instance. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Transactions > JTS > ORB Integration > POA | Portable Object Adapter. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Transactions > JTS > ORB Integration > IOR | Interoperable Object Reference. | Requirements & Definition | `Technical Specification` |
+| WildFly > Subsystems > Transactions > Suspended Execution | Suspending and resuming transactional work across contexts. | Technique | `Constitutive Technique` |
+| WildFly > Subsystems > Transactions > Two-Phase Commit | Coordinating resource commitment in prepare and commit phases. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Messaging-ActiveMQ > Broker Server > Acceptors > In-VM Acceptor | In-VM acceptor. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Messaging-ActiveMQ > Broker Server > Acceptors > Netty Acceptor | Netty acceptor. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Messaging-ActiveMQ > Broker Server > Acceptors > HTTP Acceptor | HTTP acceptor. | System Structure | `Technical Interface` |
@@ -1880,6 +1907,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Messaging-ActiveMQ > Divert > Forwarding Address | Forwarding address. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Messaging-ActiveMQ > Divert > Filter | Divert filter. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Messaging-ActiveMQ > Divert > Transformer | Divert transformer. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Messaging-ActiveMQ > Message-Driven Delivery | Delivering messages asynchronously to consumers. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Resource Adapters > Resource Adapter > Archive | Resource-adapter archive. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Resource Adapters > Resource Adapter > Deployment Descriptor | Resource-adapter deployment descriptor. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Resource Adapters > Resource Adapter > Connection Factory > Managed Connection Factory | Managed connection factory. | Mechanism & Capability | `Technical Mechanism` |
@@ -1894,6 +1922,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Resource Adapters > Admin Object > Admin Object Properties > Property | Admin-object property. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Resource Adapters > Activation > Activation Spec > Message Listener Type | Message-listener type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Resource Adapters > Activation > Message Listener > onMessage | Message-listener callback. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Resource Adapters > Connection Establishment | Establishing managed connections from definitions. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Security > Legacy Security Domain > Authentication > Login Module | Legacy login module. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Security > Legacy Security Domain > Authentication > JAAS Configuration | JAAS configuration. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Security > Legacy Security Domain > Authorization > Role Mapping | Role mapping. | Technical Control | `Technical Security` |
@@ -1944,6 +1973,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Elytron > OIDC Client > Token Validation > Expiry | Token expiry. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > Elytron > OIDC Client > Token Validation > Issuer | Token issuer. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > Elytron > OIDC Client > Token Refresh > Refresh Token | Refresh token. | Technical Control | `Technical Security` |
+| WildFly > Subsystems > Elytron > Authentication Composition | Assembling authentication from factories, mappers, and realms. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Web Services > JAX-WS Endpoint > Service Endpoint Interface | Service endpoint interface. | System Structure | `Technical Interface` |
 | WildFly > Subsystems > Web Services > JAX-WS Endpoint > Implementation Class | Endpoint implementation class. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Web Services > JAX-WS Endpoint > Binding | SOAP binding. | Requirements & Definition | `Technical Specification` |
@@ -1955,6 +1985,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Web Services > WSDL > Message Definition > Part | WSDL message part. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Web Services > Handler Chain > Handler Invocation > Inbound | Inbound handler invocation. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Web Services > Handler Chain > Handler Invocation > Outbound | Outbound handler invocation. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Web Services > Endpoint Publication | Publishing SOAP endpoints from deployments. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Batch JBeret > Job > Job Instance > Instance ID | Job-instance ID. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Batch JBeret > Job > Job Execution > Execution ID | Job-execution ID. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Batch JBeret > Job > Job Execution > Batch Status | Batch status. | Technical Control | `Technical Evaluation` |
@@ -1967,12 +1998,14 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Batch JBeret > Step > Batchlet Processing > Batchlet | Batchlet. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Batch JBeret > Job Repository > Job State > Job Instance | Job instance. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Batch JBeret > Job Repository > Step State > Step Execution | Step execution. | System Structure | `Constitutive Technical Object` |
+| WildFly > Subsystems > Batch JBeret > Job Execution | Executing batch jobs through ordered steps. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Mail > Mail Session > Session Properties > Host | Mail host. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Mail > Mail Session > Session Properties > Port | Mail port. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Mail > Mail Session > Session Properties > Protocol | Mail protocol. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Mail > Mail Session > Session Properties > Debug | Debug flag. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Mail > Mail Session > Credentials > User | Mail user. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > Mail > Mail Session > Credentials > Password | Mail password. | Technical Control | `Technical Security` |
+| WildFly > Subsystems > Mail > Mail Dispatch | Dispatching messages through mail sessions. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > JMX > MBean > Attribute > Name | MBean attribute name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JMX > MBean > Attribute > Type | MBean attribute type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JMX > MBean > Operation > Name | MBean operation name. | Requirements & Definition | `Technical Parameter` |
@@ -1981,6 +2014,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > JMX > MBean Server > Registration > Object Name | MBean object name. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JMX > MBean Server > Query > Query Expression | JMX query expression. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > JMX > JMX Connector > Remote Access > RMI | RMI-based JMX access. | System Structure | `Technical Interface` |
+| WildFly > Subsystems > JMX > MBean Registration | Registering managed objects with the MBean server. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Logging > Log Category > Level > Level Value | Log-level value. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Logging > Log Category > Handlers > Handler Reference | Handler reference. | System Structure | `Technical Element Set` |
 | WildFly > Subsystems > Logging > Log Category > Use Parent Handlers > Flag | Use-parent-handlers flag. | Requirements & Definition | `Technical Parameter` |
@@ -1997,19 +2031,23 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Logging > Async Handler > Overflow Action > Action | Overflow action. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Logging > Formatter > Pattern > Format | Format pattern. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Logging > Log Level > Severity > Severity | Severity threshold. | Requirements & Definition | `Technical Parameter` |
+| WildFly > Subsystems > Logging > Log Routing and Formatting | Routing records to handlers and formatting output. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > IO > Worker > Task Queue > Queue | Worker task queue. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > IO > Worker > Thread Pool > Threads | Worker threads. | System Structure | `Technical Element Set` |
 | WildFly > Subsystems > IO > Buffer Pool > Buffer Size > Size | Buffer size. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > IO > Buffer Pool > Buffer Count > Count | Buffer count. | Requirements & Definition | `Technical Parameter` |
+| WildFly > Subsystems > IO > Worker Dispatch | Dispatching I/O work to thread workers. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Remoting > Connector > Transport > Transport Type | Transport type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Remoting > Connector > Security > SASL Policy | Connector SASL policy. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > Remoting > Endpoint > Listener > Listener Type | Listener type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Remoting > HTTP Upgrade > Upgrade Handshake > Upgrade Header | HTTP upgrade header. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Remoting > SASL Policy > Mechanism Selection > Mechanism | SASL mechanism. | Technical Control | `Technical Security` |
+| WildFly > Subsystems > Remoting > Remote Invocation | Invoking components across process boundaries. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Discovery > Discovery Provider > Static Provider > Address List | Static address list. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > Discovery > Discovery Provider > Aggregate Provider > Providers | Aggregated providers. | System Structure | `Technical Element Set` |
 | WildFly > Subsystems > Discovery > Static Discovery > Address List > Address | Static address. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > Discovery > Aggregate Discovery > Provider Composition > Provider | Aggregated provider. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Discovery > Service Discovery | Locating remote services through providers. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Mod_Cluster > Proxy > Balancer > Balancer Type | Balancer type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Mod_Cluster > Proxy > Node Registration > Node | Registered node. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > Mod_Cluster > Advertise > Multicast > Multicast Address | Multicast address. | Requirements & Definition | `Technical Parameter` |
@@ -2018,6 +2056,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > Mod_Cluster > Balancer > Load Factor > Factor | Load factor. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Mod_Cluster > Balancer > Sticky Session > Sticky | Sticky-session flag. | Requirements & Definition | `Technical Configuration` |
 | WildFly > Subsystems > Mod_Cluster > Node > Node Registration > Node | Registered node. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Subsystems > Mod_Cluster > Load Distribution | Distributing traffic across cluster nodes. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Health > Health Check > UP > Status | UP status. | Technical Control | `Technical Evaluation` |
 | WildFly > Subsystems > Health > Health Check > DOWN > Status | DOWN status. | Technical Control | `Technical Evaluation` |
 | WildFly > Subsystems > Health > Readiness Check > READY > Status | READY status. | Technical Control | `Technical Evaluation` |
@@ -2051,28 +2090,30 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Subsystems > MicroProfile > JWT > Token > Payload | JWT payload. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > MicroProfile > JWT > Claim > Claim Name | JWT claim name. | Technical Control | `Technical Security` |
 | WildFly > Subsystems > MicroProfile > JWT > Claim > Claim Value | JWT claim value. | Technical Control | `Technical Security` |
-| WildFly > Subsystems > SAR > SAR Deployment > Deployment > Archive | SAR archive. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > SAR > SAR Deployment > Undeployment > Archive | SAR archive. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > SAR > SAR Deployment > Deployment > Archive | SAR archive. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > SAR > SAR Deployment > Undeployment > Archive | SAR archive. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Subsystems > SAR > MBean > Registration > Object Name | SAR MBean object name. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Restore View | JSF restore-view phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Apply Request Values | JSF apply-request-values phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Process Validations | JSF process-validations phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Update Model Values | JSF update-model-values phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Invoke Application | JSF invoke-application phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Render Response | JSF render-response phase. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Restore View | JSF restore-view phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Apply Request Values | JSF apply-request-values phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Process Validations | JSF process-validations phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Update Model Values | JSF update-model-values phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Invoke Application | JSF invoke-application phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > JSF > Mojarra > Lifecycle > Render Response | JSF render-response phase. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Subsystems > JSF > Mojarra > Component Tree > UIViewRoot | JSF UIViewRoot. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JSF > Mojarra > Component Tree > UIComponent | JSF UIComponent. | System Structure | `Constitutive Technical Object` |
 | WildFly > Subsystems > JSF > Mojarra > Renderer > RenderKit | JSF RenderKit. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > JSF > `faces-config.xml` > Navigation Rules > Rule | JSF navigation rule. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > JSF > `faces-config.xml` > Managed Beans > Bean | JSF managed bean. | Requirements & Definition | `Technical Specification` |
-| WildFly > Subsystems > POJO > POJO Deployment > Deployment > Archive | POJO archive. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Subsystems > POJO > POJO Deployment > Undeployment > Archive | POJO archive. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > JSF > View Rendering | Rendering component trees into responses. | Technique | `Constitutive Technique` |
+| WildFly > Subsystems > POJO > POJO Deployment > Deployment > Archive | POJO archive. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Subsystems > POJO > POJO Deployment > Undeployment > Archive | POJO archive. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Subsystems > Bean Validation > Validator > Validation > Constraint Validation | Constraint validation. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Subsystems > Bean Validation > Constraint > Definition > Annotation | Constraint annotation. | Requirements & Definition | `Technical Specification` |
 | WildFly > Subsystems > Bean Validation > Constraint > Violation > Message | Violation message. | Technical Control | `Technical Feedback` |
+| WildFly > Subsystems > Bean Validation > Constraint Validation | Validating beans against constraints. | Technique | `Constitutive Technique` |
 | WildFly > Subsystems > Deployment Scanner > Scan > Directory Scan | Directory scan. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Subsystems > Deployment Scanner > Deploy > Marker Handling | Marker handling. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Subsystems > Deployment Scanner > Undeploy > Marker Handling | Marker handling. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Deployment Scanner > Deploy > Marker Handling | Marker handling. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Subsystems > Deployment Scanner > Undeploy > Marker Handling | Marker handling. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Subsystems > Deployment Scanner > Scan Interval > Interval | Scan interval. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Subsystems > Deployment Scanner > Deployment Marker > Type | Marker type. | Requirements & Definition | `Technical Specification` |
 | WildFly > Deployment > Deployment Unit > Archive > File | Deployment archive file. | System Structure | `Constitutive Technical Object` |
@@ -2149,22 +2190,22 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Deployment > Deployment Annotation > Class Annotation > Annotation | Class-level annotation. | Requirements & Definition | `Technical Specification` |
 | WildFly > Deployment > Deployment Annotation > Method Annotation > Annotation | Method-level annotation. | Requirements & Definition | `Technical Specification` |
 | WildFly > Deployment > Deployment Annotation > Field Annotation > Annotation | Field-level annotation. | Requirements & Definition | `Technical Specification` |
-| WildFly > Deployment > Deployment Processor > Parse > Descriptor Parser | Descriptor parser. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Processor > Parse > Annotation Scanner | Annotation scanner. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Processor > Register > Component Registry | Component registry. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Processor > Deploy > Service Installation | Service installation. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > STRUCTURE > Structure Build | Structure build. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > PARSE > Parse | Parse phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > REGISTER > Register | Register phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > DEPENDENCIES > Dependency Resolution | Dependency resolution. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > CONFIGURE_MODULE > Module Configuration | Module configuration. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > POST_MODULE > Post-Module Processing | Post-module processing. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > INSTALL > Install | Install phase. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Deployment Phase > CLEANUP > Cleanup | Cleanup phase. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Processor > Parse > Descriptor Parser | Descriptor parser. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Processor > Parse > Annotation Scanner | Annotation scanner. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Processor > Register > Component Registry | Component registry. | System Structure | `Production Technical Object > Constitutive Technical Object` |
+| WildFly > Deployment > Deployment Processor > Deploy > Service Installation | Service installation. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > STRUCTURE > Structure Build | Structure build. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > PARSE > Parse | Parse phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > REGISTER > Register | Register phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > DEPENDENCIES > Dependency Resolution | Dependency resolution. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > CONFIGURE_MODULE > Module Configuration | Module configuration. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > POST_MODULE > Post-Module Processing | Post-module processing. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > INSTALL > Install | Install phase. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Deployment Phase > CLEANUP > Cleanup | Cleanup phase. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Deployment > Deployment Unit Processor > Transform > Transform Step | Transform step. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Deployment > Deployment Service > Registration > Service Name | Deployment-service name. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Deployment > Deployment Service > Start > Service Start | Service start. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Deployment > Deployment Service > Stop > Service Stop | Service stop. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Deployment Service > Start > Service Start | Service start. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Deployment Service > Stop > Service Stop | Service stop. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Deployment > Deployment Lifecycle > Deploy > Transition | Deploy transition. | Lifecycle & Continuity | `Technical Lifecycle` |
 | WildFly > Deployment > Deployment Lifecycle > Undeploy > Transition | Undeploy transition. | Lifecycle & Continuity | `Technical Lifecycle` |
 | WildFly > Deployment > Deployment Lifecycle > Redeploy > Transition | Redeploy transition. | Lifecycle & Continuity | `Technical Lifecycle` |
@@ -2188,24 +2229,24 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Deployment > Application > Component > CDI Component > Bean | CDI bean component. | System Structure | `Constitutive Technical Object` |
 | WildFly > Deployment > Application > Component > REST Component > Resource | REST resource component. | System Structure | `Constitutive Technical Object` |
 | WildFly > Deployment > Application > Component > WebSocket Component > Endpoint | WebSocket endpoint component. | System Structure | `Constitutive Technical Object` |
-| WildFly > Deployment > Application > Servlet > Lifecycle > Init | Servlet init. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > Servlet > Lifecycle > Service | Servlet service. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > Servlet > Lifecycle > Destroy | Servlet destroy. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > Servlet > Request Handling > Request Dispatch | Servlet request dispatch. | Technical Operation | `Technical Operation > Technical Act` |
-| WildFly > Deployment > Application > Servlet > Session Handling > Session Access | Servlet session access. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Application > Servlet > Lifecycle > Init | Servlet init. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > Servlet > Lifecycle > Service | Servlet service. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > Servlet > Lifecycle > Destroy | Servlet destroy. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > Servlet > Request Handling > Request Dispatch | Servlet request dispatch. | Technique | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Application > Servlet > Session Handling > Session Access | Servlet session access. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Deployment > Application > CDI Bean > Scope > Scope Annotation | CDI scope annotation. | Requirements & Definition | `Technical Parameter` |
-| WildFly > Deployment > Application > CDI Bean > Lifecycle > Creation | CDI bean creation. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > CDI Bean > Lifecycle > Destruction | CDI bean destruction. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > CDI Bean > Lifecycle > Creation | CDI bean creation. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > CDI Bean > Lifecycle > Destruction | CDI bean destruction. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Deployment > Application > CDI Bean > Injection > Injection Point | CDI injection point. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Deployment > Application > EJB > Lifecycle > Creation | EJB creation. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > EJB > Lifecycle > Invocation | EJB invocation. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > EJB > Lifecycle > Passivation | EJB passivation. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > EJB > Lifecycle > Activation | EJB activation. | Technical Operation | `Technical Operation > Technical Activity` |
-| WildFly > Deployment > Application > EJB > Lifecycle > Removal | EJB removal. | Technical Operation | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > EJB > Lifecycle > Creation | EJB creation. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > EJB > Lifecycle > Invocation | EJB invocation. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > EJB > Lifecycle > Passivation | EJB passivation. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > EJB > Lifecycle > Activation | EJB activation. | Technique | `Technical Operation > Technical Activity` |
+| WildFly > Deployment > Application > EJB > Lifecycle > Removal | EJB removal. | Technique | `Technical Operation > Technical Activity` |
 | WildFly > Deployment > Application > EJB > Business Interface > Interface | EJB business interface. | System Structure | `Technical Interface` |
 | WildFly > Deployment > Application > EJB > Transaction Attribute > Attribute | EJB transaction attribute. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Deployment > Application > EJB > Security Role > Role | EJB security role. | Technical Control | `Technical Security` |
-| WildFly > Deployment > Application > REST Resource > Resource Method > Method | REST resource method. | Technical Operation | `Technical Operation > Technical Act` |
+| WildFly > Deployment > Application > REST Resource > Resource Method > Method | REST resource method. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Deployment > Application > REST Resource > Path > Path | REST resource path. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Deployment > Application > REST Resource > Media Type > Media Type | REST media type. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Deployment > Application > Persistence Unit > Entity > Entity Class | JPA entity class. | System Structure | `Constitutive Technical Object` |
@@ -2220,14 +2261,14 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Deployment > Application > Messaging Dependency > Destination Reference > Destination | Messaging destination. | System Relations | `Technical Dependency` |
 | WildFly > Deployment > Application > Module Dependency > Module Reference > Module | WildFly module. | System Relations | `Technical Dependency` |
 | WildFly > Deployment > Application > Module Dependency > Export > Package | Exported package. | System Relations | `Technical Dependency` |
-| WildFly > Deployment > Archive Assembly | Technique for assembling deployment archives for WildFly deployment. | Technical Operation | `Constitutive Technique` |
+| WildFly > Deployment > Archive Assembly | Technique for assembling deployment archives for WildFly deployment. | Technique | `Constitutive Technique` |
 | WildFly > Services | Technical services delivered to deployed applications. | Lifecycle & Continuity | `Technical Element Set` |
 | WildFly > Services > Deployment Service | Controlled introduction and lifecycle of application deployments. | Lifecycle & Continuity | `Technical Service` |
 | WildFly > Services > Deployment Service > Deployment Capability | Possibility of deploying and running enterprise applications. | Mechanism & Capability | `Technical Capability` |
 | WildFly > Services > Deployment Service > Deployment Interface | Boundary through which deployments are submitted: scanner, CLI, console. | System Structure | `Technical Interface` |
 | WildFly > Services > Deployment Service > Deployment Mechanism | Processor chain transforming deployment content into runtime services. | Mechanism & Capability | `Technical Mechanism` |
-| WildFly > Services > Deployment Service > Deployment Activity | Sequence of submit, verify, and activate acts. | Technical Operation | `Technical Activity` |
-| WildFly > Services > Deployment Service > Deployment Task | Single deploy or undeploy unit of work. | Technical Operation | `Technical Task` |
+| WildFly > Services > Deployment Service > Deployment Activity | Sequence of submit, verify, and activate acts. | Technique | `Technical Activity` |
+| WildFly > Services > Deployment Service > Deployment Task | Single deploy or undeploy unit of work. | Technique | `Technical Task` |
 | WildFly > Services > Deployment Service > Deployment Requirement | Deployments must reach active state within operational bounds. | Requirements & Definition | `Technical Requirement` |
 | WildFly > Services > Deployment Service > Deployment Feedback | Deployment state, markers, and scanner notifications. | Technical Control | `Technical Feedback` |
 | WildFly > Services > Deployment Service > Deployment Evaluation | Determination of deployment success and health. | Technical Control | `Technical Evaluation` |
@@ -2255,6 +2296,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Network > Port Offset > Offset Value > Offset | Port offset value. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Network > Outbound Socket Binding > Remote Host > Host | Remote host. | Requirements & Definition | `Technical Parameter` |
 | WildFly > Network > Outbound Socket Binding > Remote Port > Port | Remote port. | Requirements & Definition | `Technical Parameter` |
+| WildFly > Network > Endpoint Binding | Constituting bound endpoints from configuration and interfaces. | Technique | `Constitutive Technique` |
 | WildFly > Runtime Security > Authentication > Mechanism > Mechanism | Authentication mechanism. | Mechanism & Capability | `Technical Capability` |
 | WildFly > Runtime Security > Authentication > Credential > Credential | Authentication credential. | Technical Control | `Technical Security` |
 | WildFly > Runtime Security > Authorization > Policy > Policy | Authorization policy. | Mechanism & Capability | `Technical Capability` |
@@ -2296,38 +2338,38 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Runtime Control > Health Result > Status > Status | Health-result status. | Technical Control | `Technical Evaluation` |
 | WildFly > Runtime Control > Health Result > Check > Check | Health-check name. | Technical Control | `Technical Evaluation` |
 | WildFly > Runtime Control > Diagnostic Report > Section > Section | Diagnostic-report section. | Technical Control | `Technical Evaluation` |
-| WildFly > Runtime Control > JDR > Collection > Collection | JDR collection. | Technical Control | `Technical Technique` |
-| WildFly > Runtime Control > JDR > Report > Report | JDR report. | Technical Control | `Technical Technique` |
+| WildFly > Runtime Control > JDR > Collection > Collection | JDR collection. | Mechanism & Capability | `Technical Mechanism` |
+| WildFly > Runtime Control > JDR > Report > Report | JDR report. | Mechanism & Capability | `Technical Mechanism` |
 | WildFly > Runtime Control > Audit Log > Entry > Entry | Audit-log entry. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Server Log > Entry > Entry | Server-log entry. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > GC Log > Entry > Entry | GC-log entry. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Thread Dump > Thread > Thread | Dumped thread. | Technical Control | `Technical Feedback` |
 | WildFly > Runtime Control > Heap Dump > Heap Region > Region | Heap-dump region. | Technical Control | `Technical Feedback` |
-| WildFly > Lifecycle > Provision > Provisioning Plan > Plan | Provisioning plan. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Provision > Provisioning Execution > Execution | Provisioning execution. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Install > Distribution Extraction > Extraction | Distribution extraction. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Install > File Placement > Placement | File placement. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Profile Selection > Selection | Profile selection. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Subsystem Configuration > Configuration | Subsystem configuration. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Interface Configuration > Configuration | Interface configuration. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Socket Binding Configuration > Configuration | Socket-binding configuration. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Configure > Security Configuration > Configuration | Security configuration. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Start > Service Container Start > Start | Service-container start. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Start > Subsystem Start > Start | Subsystem start. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Start > Deployment Start > Start | Deployment start. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Boot > Bootstrap > Bootstrap | Bootstrap. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Boot > Configuration Load > Load | Configuration load. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Boot > Service Installation > Installation | Service installation. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Deploy > Deployment Processing > Processing | Deployment processing. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Deploy > Deployment Start > Start | Deployment start. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Redeploy > Undeploy > Undeploy | Undeploy phase. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Redeploy > Deploy > Deploy | Deploy phase. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Reload > Stop > Stop | Reload stop. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Reload > Start > Start | Reload start. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Shutdown > Graceful Shutdown > Shutdown | Graceful shutdown. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Shutdown > Forced Shutdown > Shutdown | Forced shutdown. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Undeploy > Deployment Stop > Stop | Deployment stop. | Technical Operation | `Technical Activity` |
-| WildFly > Lifecycle > Undeploy > Content Removal > Removal | Content removal. | Technical Operation | `Technical Activity` |
+| WildFly > Lifecycle > Provision > Provisioning Plan > Plan | Provisioning plan. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Provision > Provisioning Execution > Execution | Provisioning execution. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Install > Distribution Extraction > Extraction | Distribution extraction. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Install > File Placement > Placement | File placement. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Profile Selection > Selection | Profile selection. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Subsystem Configuration > Configuration | Subsystem configuration. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Interface Configuration > Configuration | Interface configuration. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Socket Binding Configuration > Configuration | Socket-binding configuration. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Configure > Security Configuration > Configuration | Security configuration. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Start > Service Container Start > Start | Service-container start. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Start > Subsystem Start > Start | Subsystem start. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Start > Deployment Start > Start | Deployment start. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Boot > Bootstrap > Bootstrap | Bootstrap. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Boot > Configuration Load > Load | Configuration load. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Boot > Service Installation > Installation | Service installation. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Deploy > Deployment Processing > Processing | Deployment processing. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Deploy > Deployment Start > Start | Deployment start. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Redeploy > Undeploy > Undeploy | Undeploy phase. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Redeploy > Deploy > Deploy | Deploy phase. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Reload > Stop > Stop | Reload stop. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Reload > Start > Start | Reload start. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Shutdown > Graceful Shutdown > Shutdown | Graceful shutdown. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Shutdown > Forced Shutdown > Shutdown | Forced shutdown. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Undeploy > Deployment Stop > Stop | Deployment stop. | Technique | `Technical Activity` |
+| WildFly > Lifecycle > Undeploy > Content Removal > Removal | Content removal. | Technique | `Technical Activity` |
 | WildFly > Lifecycle > Maintain > Corrective Maintenance > Maintenance | Corrective maintenance. | Lifecycle & Continuity | `Technical Maintenance` |
 | WildFly > Lifecycle > Maintain > Preventive Maintenance > Maintenance | Preventive maintenance. | Lifecycle & Continuity | `Technical Maintenance` |
 | WildFly > Lifecycle > Patch > Patch Application > Application | Patch application. | Lifecycle & Continuity | `Technical Maintenance` |
@@ -2422,12 +2464,12 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Technical Standards > MicroProfile > Version > Version | MicroProfile version. | Requirements & Definition | `Technical Standard` |
 | WildFly > Technical Standards > OpenAPI > Version > Version | OpenAPI version. | Requirements & Definition | `Technical Standard` |
 | WildFly > Technical Standards > OpenTelemetry > Version > Version | OpenTelemetry version. | Requirements & Definition | `Technical Standard` |
-| WildFly > Technical Practices > Provisioning > Plan Definition > Definition | Plan definition. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Provisioning > Execution > Execution | Provisioning execution. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Configuration Management > Change Control > Control | Change control. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Configuration Management > Version Control > Control | Version control. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Application Deployment > Release Process > Process | Release process. | Technical Operation | `Technical Practice` |
-| WildFly > Technical Practices > Application Deployment > Rollback Process > Process | Rollback process. | Technical Operation | `Technical Practice` |
+| WildFly > Technical Practices > Provisioning > Plan Definition > Definition | Plan definition. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Provisioning > Execution > Execution | Provisioning execution. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Configuration Management > Change Control > Control | Change control. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Configuration Management > Version Control > Control | Version control. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Application Deployment > Release Process > Process | Release process. | Technique | `Technical Practice` |
+| WildFly > Technical Practices > Application Deployment > Rollback Process > Process | Rollback process. | Technique | `Technical Practice` |
 | WildFly > Technical Practices > Monitoring > Metric Collection > Collection | Metric collection. | Technical Control | `Technical Practice` |
 | WildFly > Technical Practices > Monitoring > Alerting > Alerting | Alerting. | Technical Control | `Technical Practice` |
 | WildFly > Technical Practices > Health Checking > Probe Scheduling > Scheduling | Probe scheduling. | Technical Control | `Technical Practice` |
@@ -2615,3 +2657,4 @@ WildFly is a technical system because it is an organized composition of software
 ## References
 
 - [WildFly](https://www.wildfly.org/)
+- [WildFly Source Code](https://github.com/wildfly/wildfly/)
