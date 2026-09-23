@@ -1,4 +1,46 @@
-# Swagger
+# OpenAPI Specification (OAS)
+
+> OpenAPI Specification (OAS) is a language-agnostic standard for describing the structure, operations, parameters, request/response schemas, and other characteristics of HTTP APIs.
+
+OpenAPI Technical System Element Set:
+
+```
+
+OpenAPI Technical System
+│
+├── Specification
+│   └── OpenAPI Specification (OAS)
+│
+├── Source Integration
+│   └── OpenAPI Annotations
+│
+├── Generation
+│   ├── OpenAPI Generator
+│   ├── Code Generator
+│   └── Documentation Generator
+│
+├── Processing
+│   ├── Parser
+│   └── Validator
+│
+├── Build Integration
+│   └── Maven / Gradle Plugins
+│
+├── Runtime Integration
+│   └── Framework Integration
+│
+├── API Description
+│   └── OpenAPI Document
+│       ├── YAML
+│       └── JSON
+│
+└── Presentation
+    └── OpenAPI UI
+        └── Swagger UI
+
+
+```
+
 
 > Swagger is an open-source framework for designing, documenting, and testing RESTful APIs, simplifying API development and enabling interactive API exploration.
 > 

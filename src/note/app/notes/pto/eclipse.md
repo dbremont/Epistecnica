@@ -1,7 +1,7 @@
+# Eclipse
+
 > `WEBKIT_DISABLE_DMABUF_RENDERER=1` / https://github.com/eclipse-platform/eclipse.platform.swt/issues/1108
 > 
-
-## Index
 
 Eclipse Architecture
 
