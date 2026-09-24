@@ -32,7 +32,6 @@ WildFly is a technical system because it is an organized composition of software
 | Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
 |---|---|---|---|
 | **WildFly** | Running WildFly application-server platform instance. | System Structure | `(root) > Production Technical System` |
-| WildFly > Instance Boundary | Scope of this decomposition: distribution artefacts, configuration surface, runtime structure, and operating practices; deployment-specific values appear only in exemplar rows. | System Structure | `Set Boundary` |
 | WildFly > Distribution | Installed WildFly server distribution from which the runtime is provisioned. | System Structure | `(root) > Production Technical Object` |
 | WildFly > Distribution > WildFly Home | Root filesystem location containing the server installation. | System Structure | `Production Technical Object > Constitutive Technical Object` |
 | WildFly > Distribution > `bin/` | Executable scripts and command-line entry points. | System Structure | `Production Technical Object > Constitutive Technical Object` |
@@ -903,10 +902,10 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Provisioning > Prospero > Update | Update of an installed WildFly server. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Provisioning > Prospero > Rollback | Rollback of an update. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Provisioning > Feature-Pack Assembly | Technique for composing server installations from feature packs and layers. | Technique | `Constitutive Technique` |
-| WildFly > Provisioning > Layer Boundary | Criterion distinguishing provisioned layers from non-members. | System Structure | `Set Boundary` |
-| WildFly > Provisioning > Layer Coherence | Shared Galleon feature-pack model integrating layers into one server. | System Structure | `Set Coherence` |
-| WildFly > Provisioning > Layer Governance | Galleon provisioning rules governing layer composition. | System Structure | `Set Governance` |
-| WildFly > Provisioning > Layer Realization | Jakarta EE runtime capability the layer composition collectively realizes. | System Structure | `Set Realization` |
+| WildFly > Provisioning > Layer membership criterion | Criterion distinguishing provisioned layers from non-members. | Requirements & Definition | `(root) > Technical Specification Type` |
+| WildFly > Provisioning > Layer architecture | Shared Galleon feature-pack model integrating layers into one server. | System Structure | `(root) > Technical Architecture Type` |
+| WildFly > Provisioning > Layer provisioning rules | Galleon provisioning rules governing layer composition. | Requirements & Definition | `(root) > Technical Standard Type` |
+| WildFly > Provisioning > Realized runtime capability | Jakarta EE runtime capability the layer composition collectively realizes. | Mechanism & Capability | `(root) > Technical Capability Type` |
 | WildFly > Extensions > `org.wildfly.extension.undertow` > Subsystem Registration | Registration of the Undertow subsystem. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Extensions > `org.wildfly.extension.messaging-activemq` > Subsystem Registration | Registration of the ActiveMQ Artemis subsystem. | Technique | `Technical Operation > Technical Act` |
 | WildFly > Extensions > `org.wildfly.extension.elytron` > Subsystem Registration | Registration of the Elytron subsystem. | Technique | `Technical Operation > Technical Act` |
@@ -2574,7 +2573,7 @@ WildFly is a technical system because it is an organized composition of software
 | WildFly > Technical Control > Saturation > Connection Pool Saturation > Saturation | Connection-pool saturation. | Technical Control | `Technical Performance` |
 | WildFly > Technical Control > Saturation > Heap Saturation > Saturation | Heap saturation. | Technical Control | `Technical Performance` |
 | WildFly > Technical Control > Saturation > Queue Saturation > Saturation | Queue saturation. | Technical Control | `Technical Performance` |
-| WildFly > WildFly Ecosystem | Coherent body of server, tooling, configurations, and practices realizing managed Jakarta EE runtime capability. | System Structure | `Production Technical Element Set` |
+| WildFly > WildFly Ecosystem | Coherent body of server, tooling, configurations, and practices realizing managed Jakarta EE runtime capability. | Composite | `(root) > Technical Element Set Type` |
 
 ## How are the Java EE / Jakarta EE specifications implemented?
 
