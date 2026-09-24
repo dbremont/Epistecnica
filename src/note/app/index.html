@@ -275,6 +275,35 @@
         .facet .count { color: var(--text-muted); margin-left: 0.4rem; }
         .facet.active .count { color: var(--accent-gold); }
 
+        .tagbar { display: flex; align-items: baseline; gap: 0.8rem; }
+        .tagbar-label {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+        .tagbar .facets { flex: 1; }
+
+        .row-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.55rem; }
+
+        .row-tag {
+            font-family: var(--font-mono);
+            font-size: 0.55rem;
+            letter-spacing: 0.08em;
+            color: var(--accent-cyan);
+            background: transparent;
+            border: 1px solid var(--border-subtle);
+            border-radius: 2px;
+            padding: 0.15rem 0.45rem;
+            cursor: pointer;
+            transition: border-color 0.3s ease, color 0.3s ease;
+        }
+
+        .row-tag:hover { border-color: var(--accent-cyan); }
+        .row-tag.active { border-color: var(--accent-gold); color: var(--accent-gold); }
+
         .results {
             display: flex;
             flex-direction: column;
@@ -495,6 +524,10 @@
                 <input type="search" id="search" placeholder="search the corpus&hellip;  ( / )" aria-label="Search notes" autocomplete="off">
             </div>
             <div class="facets" id="facets" role="group" aria-label="Section filters"></div>
+            <div class="tagbar" id="tagbar" hidden>
+                <span class="tagbar-label">tags</span>
+                <div class="facets" id="tag-facets" role="group" aria-label="Tag filters"></div>
+            </div>
         </div>
 
         <div class="results" id="results"></div>
@@ -512,6 +545,9 @@
             <div>NOTES &middot; INDEXED &middot; <span id="foot-date">&mdash;</span></div>
             <div class="foot-links">
                 <a href="../">HUB</a>
+                <a href="../course/">COURSES</a>
+                <a href="../document/">DOCUMENTS</a>
+                <a href="../persona/">PERSONAS</a>
                 <a href="../epistemica/graph.html">EPISTEMICA</a>
                 <a href="../tecnica/graph.html">TECNICA</a>
                 <a href="../glossarium/">GLOSSARIUM</a>
@@ -524,7 +560,7 @@
         'use strict';
 
         var NOTES = [];
-        var state = { q: '', section: 'all', page: 1, pageSize: 20 };
+        var state = { q: '', section: 'all', tag: 'all', page: 1, pageSize: 20 };
         var PINS = [];          /* pinned note paths, server order */
         var pinsAvailable = false;
         var rowH = 66;
@@ -661,11 +697,14 @@
             for (var i = 0; i < n.headings.length; i++) {
                 if (n.headings[i].text.toLowerCase().indexOf(q) >= 0) return 2;
             }
+            if (n.tags && n.tags.join(' ').indexOf(q) >= 0) return 2;
             if (n.text.indexOf(q) >= 0) return 3;
             return -1;
         }
 
         function isPinned(p) { return PINS.indexOf(p) >= 0; }
+
+        function hasTag(n, tag) { return tag === 'all' || (n.tags && n.tags.indexOf(tag) >= 0); }
 
         /* ---------- render ---------- */
 
@@ -673,10 +712,11 @@
             var q = state.q.trim().toLowerCase();
             var list;
             if (state.section === 'pinned') {
-                list = NOTES.filter(function (n) { return isPinned(n.path); });
+                list = NOTES.filter(function (n) { return isPinned(n.path) && hasTag(n, state.tag); });
             } else {
                 list = NOTES.filter(function (n) {
                     if (state.section !== 'all' && n.section !== state.section) return false;
+                    if (!hasTag(n, state.tag)) return false;
                     if (!q) return true;
                     return score(n, q) >= 0;
                 });
@@ -710,6 +750,17 @@
                 '</button>';
         }
 
+        function tagsHtml(n) {
+            if (!n.tags || !n.tags.length) return '';
+            var out = ['<div class="row-tags">'];
+            for (var i = 0; i < n.tags.length; i++) {
+                out.push('<button type="button" class="row-tag' + (state.tag === n.tags[i] ? ' active' : '') + '"' +
+                    ' data-tag="' + esc(n.tags[i]) + '">#' + esc(n.tags[i]) + '</button>');
+            }
+            out.push('</div>');
+            return out.join('');
+        }
+
         function buildRows(list) {
             var q = state.q.trim().toLowerCase();
             var start = (state.page - 1) * state.pageSize;
@@ -728,6 +779,7 @@
                     '<span class="row-path">' + esc(n.path) + '</span></div>' +
                     '<div class="row-snippet">' + hl(snip, q) + '</div>' +
                     '</a>' +
+                    tagsHtml(n) +
                     pinButtonHtml(n.path) +
                     '</div>'
                 );
@@ -807,6 +859,28 @@
             }).join('');
         }
 
+        function renderTagFacets() {
+            var counts = {};
+            NOTES.forEach(function (n) {
+                (n.tags || []).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
+            });
+            var tags = Object.keys(counts).sort(function (a, b) {
+                return counts[b] - counts[a] || a.localeCompare(b);
+            });
+            document.getElementById('tagbar').hidden = tags.length === 0;
+            document.getElementById('tag-facets').innerHTML = tags.map(function (t) {
+                return '<button type="button" class="facet' + (state.tag === t ? ' active' : '') + '" data-tag="' + esc(t) + '">' +
+                    '#' + esc(t) + '<span class="count">' + counts[t] + '</span></button>';
+            }).join('');
+        }
+
+        function setTag(t) {
+            state.tag = (state.tag === t) ? 'all' : t;
+            state.page = 1;
+            renderTagFacets();
+            render();
+        }
+
         /* ---------- pins ---------- */
 
         function togglePin(path) {
@@ -833,9 +907,16 @@
 
         resultsEl.addEventListener('click', function (e) {
             var btn = e.target.closest('.row-pin');
-            if (!btn) return;
-            e.preventDefault();
-            togglePin(btn.dataset.path);
+            if (btn) {
+                e.preventDefault();
+                togglePin(btn.dataset.path);
+                return;
+            }
+            var tag = e.target.closest('.row-tag');
+            if (tag) {
+                e.preventDefault();
+                setTag(tag.dataset.tag);
+            }
         });
 
         /* ---------- boot ---------- */
@@ -868,7 +949,12 @@
                     .catch(function () { pinsAvailable = false; });
             })
             .then(function () {
+                try {
+                    var preset = new URLSearchParams(window.location.search).get('tag');
+                    if (preset) state.tag = preset.toLowerCase();
+                } catch (e) { /* ignore malformed query */ }
                 renderFacets();
+                renderTagFacets();
                 render();
             })
             .catch(function () {
@@ -894,6 +980,12 @@
             state.page = 1;
             renderFacets();
             render();
+        });
+
+        document.getElementById('tag-facets').addEventListener('click', function (e) {
+            var btn = e.target.closest('.facet');
+            if (!btn) return;
+            setTag(btn.dataset.tag);
         });
 
         var resizeTimer = null;

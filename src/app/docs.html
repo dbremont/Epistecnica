@@ -379,6 +379,9 @@
             <div style="display:flex;align-items:center;gap:1.2rem">
                 <div class="nav-links">
                     <a href="note/">Notes</a>
+                    <a href="course/">Courses</a>
+                    <a href="document/">Documents</a>
+                    <a href="persona/">Personas</a>
                     <a href="glossarium/">Glossarium</a>
                 </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
@@ -397,6 +400,9 @@
                         <div class="stat"><div class="value pending" id="stat-epi-nodes">&mdash;</div><div class="label">Epistemica Nodes</div></div>
                         <div class="stat"><div class="value pending" id="stat-tec-nodes">&mdash;</div><div class="label">Tecnica Nodes</div></div>
                         <div class="stat"><div class="value pending" id="stat-notes">&mdash;</div><div class="label">Notes</div></div>
+                        <div class="stat"><div class="value pending" id="stat-courses">&mdash;</div><div class="label">Courses</div></div>
+                        <div class="stat"><div class="value pending" id="stat-documents">&mdash;</div><div class="label">Documents</div></div>
+                        <div class="stat"><div class="value pending" id="stat-personas">&mdash;</div><div class="label">Personas</div></div>
                         <div class="stat"><div class="value pending" id="stat-terms">&mdash;</div><div class="label">Glossarium Terms</div></div>
                     </div>
 
@@ -495,7 +501,35 @@
                         <a href="note/note.html?n=notes/readme.md">viewer</a> for any note,
                         self-contained <em>live notes</em> (interactive, hand-authored pages), and
                         <strong>pins</strong> — star any note in the catalog to keep it at hand;
-                        pins persist server-side for everyone.
+                        pins persist server-side for everyone. Notes, courses, and
+                        documents all accept optional <code>tags: [...]</code> front
+                        matter, which surfaces as catalog facets and viewer chips.
+                    </p>
+                    <p>
+                        The <a href="course/">courses catalog</a> holds one directory
+                        per course: a <code>readme.md</code> entry plus a set of
+                        lecture files. The course view renders the entry with its
+                        lectures; each lecture reads on its own page.
+                    </p>
+                    <p>
+                        The <a href="document/">documents catalog</a> holds papers,
+                        articles, and books as markdown entries with summary,
+                        formulation, and references — the same catalog-plus-viewer
+                        shape as the notes.
+                    </p>
+                    <p>
+                        The <a href="persona/">personas catalog</a> is a new
+                        type of note: each entry carries a <code>type:</code>
+                        field (architecture, paper, …) that facets the
+                        catalog and chips the viewer.
+                    </p>
+                    <p>
+                        Universal search lives in the hub header: one box
+                        over a pre-deployment snapshot (<code>make
+                        search-index</code>) covering both graphs plus all
+                        five corpora, grouped by surface and deep-linking
+                        into every viewer — including node focus via
+                        <code>graph.html?node=&lt;id&gt;</code>.
                     </p>
                     <p>
                         The <a href="glossarium/">glossarium</a> is the lexical corpus:
@@ -535,8 +569,8 @@
                     <p>
                         Every surface shares one visual system: serif display type for titles,
                         monospace for machine voice, a dark/light theme toggle (your choice is
-                        remembered), and the ambient constellation behind each page. The corpus pages
-                        — notes and glossarium — are plain markdown and generated indexes; nothing
+                        remembered), and the ambient constellation behind each page.                         The corpus pages
+                        — notes, courses, documents, personas, and glossarium — are plain markdown and generated indexes; nothing
                         you read here is hand-maintained twice.
                     </p>
                 </div>
@@ -555,6 +589,9 @@
             <div class="foot-links" style="display:flex;gap:1.2rem">
                 <a href="../">&larr; HUB</a>
                 <a href="note/">NOTES</a>
+                <a href="course/">COURSES</a>
+                <a href="document/">DOCUMENTS</a>
+                <a href="persona/">PERSONAS</a>
                 <a href="glossarium/">GLOSSARIUM</a>
                 <a href="api/health">HEALTH</a>
             </div>
@@ -677,11 +714,11 @@
                 .catch(function () { /* keep the em-dash placeholder */ });
         }
 
-        function countStats(url, bigId, inlineId) {
+        function countStats(url, bigId, inlineId, key) {
             return fetch(url, { headers: { 'Accept': 'application/json' } })
                 .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(function (d) {
-                    var v = (d.count != null ? d.count : (d.doc_count != null ? d.doc_count : null));
+                    var v = (key && d[key] != null ? d[key] : (d.count != null ? d.count : (d.doc_count != null ? d.doc_count : null)));
                     if (v == null) throw new Error('no count');
                     v = v.toLocaleString();
                     if (bigId) setText(bigId, v);
@@ -693,6 +730,9 @@
         nodeStats('epistemica', 'stat-epi-inline', 'stat-epi-nodes');
         nodeStats('tecnica', 'stat-tec-inline', 'stat-tec-nodes');
         countStats('note/data/index.json', 'stat-notes', 'stat-notes-inline');
+        countStats('course/data/index.json', 'stat-courses', null, 'courses');
+        countStats('document/data/index.json', 'stat-documents', null);
+        countStats('persona/data/index.json', 'stat-personas', null);
         countStats('glossarium/data/index.json', 'stat-terms', 'stat-terms-inline');
 
         /* ---------- table of contents + scrollspy ---------- */

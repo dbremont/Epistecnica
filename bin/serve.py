@@ -9,8 +9,17 @@ CouchDB directly; CORS on CouchDB stays disabled):
   /docs                 -> site-wide documentation (src/app/docs.html)
   /epistemica/...       -> static files from src/epistemica/app/
   /tecnica/...          -> static files from src/tecnica/app/
-  /note/...             -> static files from src/note/app/ (notes catalog,
-                           viewer, corpus, generated search index)
+   /note/...             -> static files from src/note/app/ (notes catalog,
+                            viewer, corpus, generated search index)
+   /course/...           -> static files from src/course/app/ (courses
+                            catalog, course + lecture views, corpus,
+                            generated search index)
+   /document/...         -> static files from src/document/app/ (documents
+                            catalog, viewer, corpus, generated search
+                            index)
+   /persona/...           -> static files from src/persona/app/ (personas
+                            catalog, viewer, corpus, generated search
+                            index)
   /glossarium/...       -> static files from src/glossarium/app/ (lexical
                            corpus: catalog, terms, generated lookup index)
 
@@ -67,6 +76,15 @@ NOTES_PREFIX = "/note"
 NOTES_MOUNT = "src/note/app"
 NOTES_PINS_ENDPOINT = NOTES_PREFIX + "/api/pins"
 PINS_DOC_ID = "pins"
+
+COURSE_PREFIX = "/course"
+COURSE_MOUNT = "src/course/app"
+
+DOCUMENT_PREFIX = "/document"
+DOCUMENT_MOUNT = "src/document/app"
+
+PERSONA_PREFIX = "/persona"
+PERSONA_MOUNT = "src/persona/app"
 
 GLOSSARIUM_PREFIX = "/glossarium"
 GLOSSARIUM_MOUNT = "src/glossarium/app"
@@ -137,6 +155,9 @@ class HubHandler(SimpleHTTPRequestHandler):
         /epistemica/x  -> <repo>/src/epistemica/app/x
         /tecnica/x      -> <repo>/src/tecnica/app/x
         /note/x         -> <repo>/src/note/app/x
+        /course/x       -> <repo>/src/course/app/x
+        /document/x     -> <repo>/src/document/app/x
+        /persona/x      -> <repo>/src/persona/app/x
         /glossarium/x   -> <repo>/src/glossarium/app/x
         anything else   -> <repo>/x
         """
@@ -146,9 +167,19 @@ class HubHandler(SimpleHTTPRequestHandler):
         if clean in ("/docs", "/docs/", "/docs.html"):
             return super().translate_path("src/app/docs.html")
 
+        # Hub-owned data (the universal search snapshot): /data/... ->
+        # <repo>/src/app/data/...
+        if clean == "/data" or clean == "/data/":
+            return super().translate_path("src/app/data/")
+        if clean.startswith("/data/"):
+            return super().translate_path("src/app" + clean)
+
         rel = None
         for prefix, mount in (
             (NOTES_PREFIX, NOTES_MOUNT),
+            (COURSE_PREFIX, COURSE_MOUNT),
+            (DOCUMENT_PREFIX, DOCUMENT_MOUNT),
+            (PERSONA_PREFIX, PERSONA_MOUNT),
             (GLOSSARIUM_PREFIX, GLOSSARIUM_MOUNT),
         ):
             if clean == prefix or clean == prefix + "/":
@@ -598,6 +629,15 @@ def main():
     if not notes_app.is_dir():
         print("ERROR: notes static dir not found: %s" % notes_app, file=sys.stderr)
         return 1
+    for prefix, mount in (
+        ("course", COURSE_MOUNT),
+        ("document", DOCUMENT_MOUNT),
+        ("persona", PERSONA_MOUNT),
+    ):
+        app_dir = REPO / mount
+        if not app_dir.is_dir():
+            print("ERROR: %s static dir not found: %s" % (prefix, app_dir), file=sys.stderr)
+            return 1
     glossarium_app = REPO / GLOSSARIUM_MOUNT
     if not glossarium_app.is_dir():
         print("ERROR: glossarium static dir not found: %s" % glossarium_app, file=sys.stderr)
@@ -634,6 +674,9 @@ def main():
     print("  Health:  http://%s:%d%s" % (display_host, args.port, HUB_HEALTH_ENDPOINT))
     print("  Notes:   http://%s:%d%s/  (pins: CouchDB %s/%s)"
           % (display_host, args.port, NOTES_PREFIX, notes_cfg.url, notes_cfg.db))
+    print("  Courses: http://%s:%d%s/" % (display_host, args.port, COURSE_PREFIX))
+    print("  Docs:    http://%s:%d%s/" % (display_host, args.port, DOCUMENT_PREFIX))
+    print("  Personas:http://%s:%d%s/" % (display_host, args.port, PERSONA_PREFIX))
     print("  Gloss.:  http://%s:%d%s/" % (display_host, args.port, GLOSSARIUM_PREFIX))
     print("══════════════════════════════════════════════")
     print()

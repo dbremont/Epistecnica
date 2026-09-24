@@ -1,0 +1,23 @@
+# Black, F., & Scholes, M. (1973). The pricing of options and corporate liabilities. Journal of Political Economy, 81(3), 637–654.
+
+
+```python
+{bitex reference}
+```
+
+## Notes
+
+---
+
+```jsx
+@article{black1973pricing,
+  title={The pricing of options and corporate liabilities},
+  author={Black, Fischer and Scholes, Myron},
+  journal={Journal of political economy},
+  volume={81},
+  number={3},
+  pages={637--654},
+  year={1973},
+  publisher={The University of Chicago Press}
+}
+```

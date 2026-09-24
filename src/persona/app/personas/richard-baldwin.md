@@ -1,0 +1,5 @@
+---
+type: person
+---
+
+# Richard Baldwin

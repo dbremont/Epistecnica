@@ -504,6 +504,38 @@
             return p.split('/').map(encodeURIComponent).join('/');
         }
 
+        /* Split optional `---` front matter off; only `tags: [...]` is read. */
+        function stripFrontMatter(md) {
+            var tags = [];
+            var body = md;
+            var fm = md.match(/^---\n([\s\S]*?)\n---\n/);
+            if (fm) {
+                var lines = fm[1].split('\n');
+                for (var i = 0; i < lines.length; i++) {
+                    var tm = lines[i].trim().match(/^tags:\s*\[(.*)\]\s*$/);
+                    if (tm) {
+                        tm[1].split(',').forEach(function (raw) {
+                            var t = raw.trim().replace(/^['"]|['"]$/g, '').toLowerCase();
+                            if (t && tags.indexOf(t) < 0) tags.push(t);
+                        });
+                    }
+                }
+                body = md.slice(fm[0].length);
+            }
+            return { body: body, tags: tags };
+        }
+
+        function renderTags(tags) {
+            var meta = document.querySelector('.note-meta');
+            tags.forEach(function (t) {
+                var a = document.createElement('a');
+                a.className = 'chip';
+                a.href = 'index.html?tag=' + encodeURIComponent(t);
+                a.textContent = '#' + t;
+                meta.appendChild(a);
+            });
+        }
+
         function renderCrumbs(path) {
             var parts = path.split('/');
             var html = '<a href="index.html">notes</a>';
@@ -561,6 +593,8 @@
                     return r.text();
                 })
                 .then(function (md) {
+                    var fm = stripFrontMatter(md);
+                    md = fm.body;
                     var title = null;
                     var lines = md.split('\n');
                     for (var i = 0; i < lines.length; i++) {
@@ -577,6 +611,7 @@
                     document.getElementById('meta-words').textContent = words + ' words';
                     document.getElementById('meta-time').textContent = Math.max(1, Math.ceil(words / 200)) + ' min read';
                     document.getElementById('meta-raw').setAttribute('href', 'notes/' + encPath(name));
+                    renderTags(fm.tags);
 
                     document.getElementById('note-body').innerHTML = marked.parse(md);
                     document.getElementById('loading').hidden = true;

@@ -1,0 +1,1 @@
+# Myers, C., Rabiner, L. R., Rosenberg, A. E. (1980). Performance Tradeoffs in Dynamic Time Warping Algorithms for Isolated Word Recognition. IEEE Transactions on Acoustics, Speech, and Signal Processing, 28(6), 623–635.

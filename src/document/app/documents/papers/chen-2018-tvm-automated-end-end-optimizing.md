@@ -1,0 +1,16 @@
+# Chen, T., Moreau, T., Jiang, Z., Zheng, L., Yan, E., Shen, H., Cowan, M., Wang, L., Hu, Y., Ceze, L., & others. (2018). {TVM}: An automated {End-to-End} optimizing compiler for deep learning. 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18), 578–594.
+
+
+```python
+@inproceedings{chen2018tvm,
+  title={$\{$TVM$\}$: An automated $\{$End-to-End$\}$ optimizing compiler for deep learning},
+  author={Chen, Tianqi and Moreau, Thierry and Jiang, Ziheng and Zheng, Lianmin and Yan, Eddie and Shen, Haichen and Cowan, Meghan and Wang, Leyuan and Hu, Yuwei and Ceze, Luis and others},
+  booktitle={13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)},
+  pages={578--594},
+  year={2018}
+}
+```
+
+## Notes
+
+---

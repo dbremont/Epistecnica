@@ -1,0 +1,5 @@
+---
+type: person
+---
+
+# Bill Gates

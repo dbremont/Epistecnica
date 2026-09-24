@@ -149,6 +149,12 @@
             color: var(--accent-gold);
         }
 
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
         /* ---------- header ---------- */
 
         header {
@@ -184,6 +190,100 @@
         .lede + .lede {
             margin-top: 1.2rem;
             font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        /* ---------- universal search ---------- */
+
+        .usearch-wrap {
+            position: relative;
+            width: min(22rem, 38vw);
+            flex: none;
+        }
+
+        #usearch {
+            width: 100%;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-primary);
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.8rem 0.55rem 2.2rem;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #usearch::placeholder { color: var(--text-muted); }
+
+        #usearch:focus {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 15px rgba(91, 240, 231, 0.05);
+        }
+
+        .usearch-icon {
+            position: absolute;
+            left: 0.8rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        .usearch-drop {
+            position: absolute;
+            top: calc(100% + 0.4rem);
+            left: 0;
+            right: 0;
+            z-index: 20;
+            max-height: 24rem;
+            overflow-y: auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+        }
+
+        .ugroup-label {
+            font-family: var(--font-mono);
+            font-size: 0.55rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            padding: 0.7rem 1rem 0.3rem;
+        }
+
+        .urow {
+            display: block;
+            padding: 0.55rem 1rem;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .urow:hover, .urow.kb-focus { background: var(--bg-surface); }
+
+        .urow-title { font-size: 0.85rem; font-weight: 500; color: var(--text-primary); }
+
+        .urow:hover .urow-title, .urow.kb-focus .urow-title { color: var(--accent-cyan); }
+
+        .urow-sub {
+            margin-top: 0.2rem;
+            font-size: 0.72rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .urow-title mark, .urow-sub mark {
+            background: var(--accent-cyan-dim);
+            color: var(--accent-cyan);
+            padding: 0 0.1em;
+        }
+
+        .urow-hint {
+            padding: 0.9rem 1rem;
+            font-family: var(--font-display);
+            font-style: italic;
             color: var(--text-muted);
         }
 
@@ -399,6 +499,9 @@
             .datasets, .routes { grid-template-columns: 1fr; }
             header { padding-top: 2.25rem; }
             .foot-inner { flex-direction: column; align-items: flex-start; }
+            .nav-inner { flex-wrap: wrap; row-gap: 0.6rem; }
+            .nav-inner .nav-right { flex: 1 1 100%; order: 3; }
+            .nav-inner .usearch-wrap { flex: 1; width: auto; }
         }
     </style>
 </head>
@@ -408,7 +511,14 @@
     <nav class="nav">
         <div class="nav-inner">
             <a class="nav-brand" href="/"><img class="nav-mark" src="img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
-            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            <div class="nav-right">
+                <div class="usearch-wrap">
+                    <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="usearch" placeholder="search everything…  ( / )" aria-label="Universal search" autocomplete="off">
+                    <div class="usearch-drop" id="usearch-drop" hidden></div>
+                </div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
         </div>
     </nav>
 
@@ -491,12 +601,20 @@
                     <div class="go">the <a href="note/">notes catalog</a> &mdash; search and read the markdown notes and live notebooks behind both ontologies.</div>
                 </div>
                 <div class="route">
-                    <div class="intent">I want to look up a term</div>
-                    <div class="go">the <a href="glossarium/">glossarium</a> &mdash; the lexical corpus behind both ontologies; select any word on the note pages for its definition.</div>
+                    <div class="intent">I want to take a course</div>
+                    <div class="go">the <a href="course/">courses catalog</a> &mdash; one directory per course: an entry plus a set of lectures.</div>
                 </div>
                 <div class="route">
-                    <div class="intent">I want the theory</div>
-                    <div class="go">the <a href="docs">site documentation</a> &mdash; what Epistecnica is, the theory behind both ontologies, and how every surface works.</div>
+                    <div class="intent">I want to read a paper</div>
+                    <div class="go">the <a href="document/">documents catalog</a> &mdash; papers, articles, and books as markdown entries with references.</div>
+                </div>
+                <div class="route">
+                    <div class="intent">I want a typed note</div>
+                    <div class="go">the <a href="persona/">personas catalog</a> &mdash; a new type of note, each entry carrying a type.</div>
+                </div>
+                <div class="route">
+                    <div class="intent">I want to look up a term</div>
+                    <div class="go">the <a href="glossarium/">glossarium</a> &mdash; the lexical corpus behind both ontologies; select any word on the note pages for its definition.</div>
                 </div>
             </div>
         </section>
@@ -512,6 +630,9 @@
                 <a href="epistemica/">EPISTEMICA</a>
                 <a href="tecnica/">TECNICA</a>
                 <a href="note/">NOTES</a>
+                <a href="course/">COURSES</a>
+                <a href="document/">DOCUMENTS</a>
+                <a href="persona/">PERSONAS</a>
                 <a href="glossarium/">GLOSSARIUM</a>
                 <a href="docs">DOCS</a>
                 <a href="api/health">HEALTH</a>
@@ -667,6 +788,171 @@
         window.addEventListener('resize', resize);
         resize();
         requestAnimationFrame(tick);
+
+        /* ---------- universal search (prototype) ---------- */
+
+        var UENTRIES = [];
+        var uinput = document.getElementById('usearch');
+        var udrop = document.getElementById('usearch-drop');
+        var uflat = [];   /* visible rows for keyboard nav */
+        var ukb = -1;
+        var utimer = null;
+
+        var UGROUPS = [
+            ['epistemica', 'Epistemica nodes'],
+            ['tecnica', 'Tecnica nodes'],
+            ['note', 'Notes'],
+            ['course', 'Courses & lectures'],
+            ['document', 'Documents'],
+            ['persona', 'Personas'],
+            ['glossarium', 'Terms']
+        ];
+
+        function uesc(s) {
+            var d = document.createElement('div');
+            d.textContent = s == null ? '' : String(s);
+            return d.innerHTML;
+        }
+
+        function uencPath(p) {
+            return String(p).split('/').map(encodeURIComponent).join('/');
+        }
+
+        function uurl(e) {
+            var p = uencPath(e.path);
+            if (e.surface === 'epistemica' || e.surface === 'tecnica') {
+                return e.surface + '/graph.html?node=' + encodeURIComponent(e.path);
+            }
+            if (e.surface === 'note') {
+                return e.kind === 'live' ? 'note/notes/' + p : 'note/note.html?n=' + p;
+            }
+            if (e.surface === 'course') {
+                return e.kind === 'course' ? 'course/course.html?c=' + p : 'course/lecture.html?l=' + p;
+            }
+            if (e.surface === 'document') return 'document/document.html?d=' + p;
+            if (e.surface === 'persona') return 'persona/persona.html?p=' + p;
+            if (e.surface === 'glossarium') return 'glossarium/?t=' + encodeURIComponent(e.path);
+            return '#';
+        }
+
+        function usub(e) {
+            var bits = [];
+            if (e.type) bits.push(e.type);
+            if (e.kind && e.kind !== e.type) bits.push(e.kind);
+            if (e.tags && e.tags.length) bits.push(e.tags.slice(0, 3).join(', '));
+            if (e.excerpt) bits.push(e.excerpt.slice(0, 120));
+            return bits.join(' · ');
+        }
+
+        function uscore(e, q) {
+            var title = (e.title || '').toLowerCase();
+            if (title.indexOf(q) === 0) return 0;
+            if (title.indexOf(q) > 0) return 1;
+            if (((e.type || '') + ' ' + (e.tags || []).join(' ')).toLowerCase().indexOf(q) >= 0) return 2;
+            if ((e.aliases || []).join(' ').toLowerCase().indexOf(q) >= 0) return 2;
+            if ((e.path || '').toLowerCase().indexOf(q) >= 0) return 2;
+            if ((e.excerpt || '').toLowerCase().indexOf(q) >= 0) return 3;
+            return -1;
+        }
+
+        function uhl(text, q) {
+            var e = uesc(text);
+            if (!q) return e;
+            var i = String(text).toLowerCase().indexOf(q);
+            if (i < 0) return e;
+            return uesc(String(text).slice(0, i)) + '<mark>' +
+                uesc(String(text).slice(i, i + q.length)) + '</mark>' +
+                uesc(String(text).slice(i + q.length));
+        }
+
+        function urender() {
+            var q = uinput.value.trim().toLowerCase();
+            if (!q || !UENTRIES.length) { udrop.hidden = true; uflat = []; ukb = -1; return; }
+            var scored = [];
+            for (var i = 0; i < UENTRIES.length; i++) {
+                var s = uscore(UENTRIES[i], q);
+                if (s >= 0) scored.push({ e: UENTRIES[i], s: s });
+            }
+            scored.sort(function (a, b) { return a.s - b.s || a.e.title.localeCompare(b.e.title); });
+            var byGroup = {};
+            scored.forEach(function (x) {
+                var g = x.e.surface;
+                if (!byGroup[g]) byGroup[g] = [];
+                if (byGroup[g].length < 6) byGroup[g].push(x.e);
+            });
+            var out = [];
+            uflat = [];
+            if (!scored.length) {
+                out.push('<div class="urow-hint">nothing found.</div>');
+            }
+            UGROUPS.forEach(function (g) {
+                var list = byGroup[g[0]];
+                if (!list || !list.length) return;
+                out.push('<div class="ugroup-label">' + uesc(g[1]) + '</div>');
+                list.forEach(function (e) {
+                    var idx = uflat.length;
+                    uflat.push(e);
+                    out.push(
+                        '<a class="urow" data-idx="' + idx + '" href="' + uurl(e) + '">' +
+                        '<div class="urow-title">' + uhl(e.title, q) + '</div>' +
+                        '<div class="urow-sub">' + uhl(usub(e), q) + '</div>' +
+                        '</a>'
+                    );
+                });
+            });
+            udrop.innerHTML = out.join('');
+            udrop.hidden = false;
+            ukb = -1;
+        }
+
+        function umove(d) {
+            if (!uflat.length) return;
+            ukb = (ukb + d + uflat.length) % uflat.length;
+            var rows = udrop.querySelectorAll('.urow');
+            rows.forEach(function (r) { r.classList.remove('kb-focus'); });
+            var el = udrop.querySelector('.urow[data-idx="' + ukb + '"]');
+            if (el) { el.classList.add('kb-focus'); el.scrollIntoView({ block: 'nearest' }); }
+        }
+
+        uinput.addEventListener('input', function () {
+            clearTimeout(utimer);
+            utimer = setTimeout(urender, 120);
+        });
+
+        uinput.addEventListener('focus', function () { if (uinput.value.trim()) urender(); });
+
+        uinput.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') { udrop.hidden = true; uinput.blur(); return; }
+            if (e.key === 'ArrowDown') { e.preventDefault(); umove(1); return; }
+            if (e.key === 'ArrowUp') { e.preventDefault(); umove(-1); return; }
+            if (e.key === 'Enter' && ukb >= 0 && uflat[ukb]) {
+                e.preventDefault();
+                window.location.href = uurl(uflat[ukb]);
+            }
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.usearch-wrap')) udrop.hidden = true;
+        });
+
+        document.addEventListener('keydown', function (e) {
+            var el = document.activeElement;
+            var typing = !!el && (el === uinput || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA');
+            if (e.key === '/' && !typing) { e.preventDefault(); uinput.focus(); }
+        });
+
+        fetch('data/search-index.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (idx) {
+                UENTRIES = idx.entries || [];
+            })
+            .catch(function () {
+                UENTRIES = [];
+                uinput.placeholder = 'universal index unavailable — run: make search-index';
+            });
     })();
     </script>
 </body>

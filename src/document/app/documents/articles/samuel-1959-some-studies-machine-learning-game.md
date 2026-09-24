@@ -1,0 +1,23 @@
+---
+tags: [physical]
+---
+
+# Samuel, A. L. (1959). Some studies in machine learning using the game of checkers. IBM Journal of Research and Development, 3(3), 210–229.
+
+
+```bash
+@article{samuel1959some,
+  title={Some studies in machine learning using the game of checkers},
+  author={Samuel, Arthur L},
+  journal={IBM Journal of research and development},
+  volume={3},
+  number={3},
+  pages={210--229},
+  year={1959},
+  publisher={IBM}
+}
+```
+
+## Notes
+
+---

@@ -1,0 +1,19 @@
+# Li, P., & Gleitman, L. (2002). Turning the tables: Language and spatial reasoning. Cognition, 83(3), 265–294.
+
+
+```python
+@article{li2002turning,
+  title={Turning the tables: Language and spatial reasoning},
+  author={Li, Peggy and Gleitman, Lila},
+  journal={Cognition},
+  volume={83},
+  number={3},
+  pages={265--294},
+  year={2002},
+  publisher={Elsevier}
+}
+```
+
+## Notes
+
+---

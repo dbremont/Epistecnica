@@ -27,7 +27,10 @@ bin/couchdb_client.py   shared CouchDB client (byte-identical to the subprojects
 src/app/                hub page (index.html, served at /)
 src/epistemica/…        subproject, self-contained (app/, bin/, spec/, AGENT.md)
 src/tecnica/…           subproject, self-contained (app/, bin/, spec.md, AGENT.md)
-src/note/…              notes corpus + catalog/viewer (app/ incl. app/notes/ + live notes, bin/index.py) — see src/note/README.md
+src/note/…              notes corpus + catalog/viewer (app/ incl. app/notes/ + live notes, bin/index.py) + tags — see src/note/README.md
+src/course/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures, bin/index.py) — see src/course/README.md
+src/document/…          documents corpus + catalog/viewer (papers/articles/books, bin/index.py) — see src/document/README.md
+src/persona/…            personas corpus (typed notes: type front matter + tags) + catalog/viewer (bin/index.py) — see src/persona/README.md
 src/glossarium/…        lexical corpus (terms + definitions) + catalog at /glossarium/ + select-a-word lookup on note pages — see src/glossarium/README.md
 spec/                   general spec + shared design system
 docs/                   documentation hub
@@ -47,6 +50,9 @@ disabled.
   - `/epistemica/<path>` → static from `src/epistemica/app/<path>`
   - `/tecnica/<path>` → static from `src/tecnica/app/<path>`
   - `/note/<path>` → static from `src/note/app/<path>` (notes catalog + viewer + corpus)
+  - `/course/<path>` → static from `src/course/app/<path>` (courses catalog + course/lecture views + corpus); no API routes
+  - `/document/<path>` → static from `src/document/app/<path>` (documents catalog + viewer + corpus); no API routes
+  - `/persona/<path>` → static from `src/persona/app/<path>` (personas catalog + viewer + corpus); no API routes
   - `/glossarium/<path>` → static from `src/glossarium/app/<path>` (term catalog + corpus + lookup index); no API routes
   - `/epistemica/api/{health,nodes,layout}` and `POST …/api/graph/save` → CouchDB db `epistemica`
   - `/tecnica/api/…` (same four) → CouchDB db `tecnica`
@@ -88,13 +94,17 @@ seeds via each subproject's `bin/seed_couchdb.py`, then runs
 
 Verification (no test suite exists; `make check` covers the first two):
 
-- `python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py`
+- `python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py src/persona/bin/*.py`
 - `node --check src/epistemica/app/js/api.js && node --check src/tecnica/app/js/api.js`
+- Universal search: `make search-index` (build-time snapshot → committed `src/app/data/search-index.json`; live CouchDB nodes, seed fallback marked) → hub `/` search box → every viewer, incl. `graph.html?node=<id>` focus on both graphs
 - `curl :8000/api/health` → both datasets `couchdb_ok: true`
 - `curl :8000/epistemica/api/nodes` and `/tecnica/api/nodes` → flat arrays, no `_id`/`_rev`, no layout doc
 - `curl -X POST :8000/tecnica/api/graph/save -d '{"nodes":[]}'` → `{"status":"ok","saved":0}`
 - Static mounts: `curl -s :8000/epistemica/graph.html | head -1` and same for `tecnica`
-- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=notes/pto/zsh.md` (viewer), `/note/notes/live/chmc.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes in `src/note/README.md`)
+- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=notes/pto/zsh.md` (viewer), `/note/notes/live/chmc.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
+- Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`)
+- Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`)
+- Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `src/persona/bin/import.py <notion-export-dir>`)
 - Glossarium: `curl -s :8000/glossarium/` (catalog; `?t=<slug>` term view), `/glossarium/data/index.json` (generated — run `make glossarium-index` after any corpus edit), `/glossarium/terms/<slug>.md` (corpus; naming + import in `src/glossarium/README.md`); note pages fetch the lookup index relatively (`../glossarium/data/index.json`) for the select-a-word popup
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the two `edit.html` pages (check stderr for Uncaught errors)
 - Image: `make build` (`docker build -t epistecnica:local .`) then run it against local CouchDB (`make deploy-local`)

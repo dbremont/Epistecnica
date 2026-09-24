@@ -2313,6 +2313,25 @@
         function tSB() { document.body.classList.toggle('sidebar-collapsed'); setTimeout(function () { resize(); uPS(); if (ddOpen) pDD() }, 550) }
         window.addEventListener('resize', function () { resize(); uPS(); if (ddOpen) pDD() });
         resize(); loadData();
+
+        /* Deep link: ?node=<id> selects and pans to the node once loaded.
+           Unknown ids are ignored (normal load). Used by universal search. */
+        (function () {
+            try {
+                var qn = new URLSearchParams(window.location.search).get('node');
+                if (!qn) return;
+                var tries = 0;
+                var timer = setInterval(function () {
+                    tries++;
+                    try {
+                        var nd = (typeof nM !== 'undefined' && nM)
+                            ? (nM[qn] || nM[qn.replace(/\s+/g, '_')]) : null;
+                        if (nd && typeof selSN === 'function') { clearInterval(timer); selSN(nd); }
+                        else if (tries > 100) { clearInterval(timer); }
+                    } catch (e) { clearInterval(timer); }
+                }, 200);
+            } catch (e) { /* ignore malformed query */ }
+        })();
     </script>
 </body>
 

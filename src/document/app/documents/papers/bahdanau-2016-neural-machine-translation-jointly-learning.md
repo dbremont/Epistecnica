@@ -1,0 +1,22 @@
+---
+tags: [physical]
+---
+
+# Bahdanau, D., Cho, K., & Bengio, Y. (2016). Neural Machine Translation by Jointly Learning to Align and Translate. https://arxiv.org/abs/1409.0473
+
+
+```python
+@misc{bahdanau2016neuralmachinetranslationjointly,
+      title={Neural Machine Translation by Jointly Learning to Align and Translate}, 
+      author={Dzmitry Bahdanau and Kyunghyun Cho and Yoshua Bengio},
+      year={2016},
+      eprint={1409.0473},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/1409.0473}, 
+}
+```
+
+## Notes
+
+---

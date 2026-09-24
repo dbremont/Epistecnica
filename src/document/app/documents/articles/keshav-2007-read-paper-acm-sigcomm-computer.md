@@ -1,0 +1,20 @@
+# Keshav, S. (2007). How to read a paper. ACM SIGCOMM Computer Communication Review, 37(3), 83–84.
+
+
+```python
+@article{keshav2007read,
+  title={How to read a paper},
+  author={Keshav, Srinivasan},
+  journal={ACM SIGCOMM Computer Communication Review},
+  volume={37},
+  number={3},
+  pages={83--84},
+  year={2007},
+  publisher={ACM New York, NY, USA}
+}
+
+```
+
+## Notes
+
+---

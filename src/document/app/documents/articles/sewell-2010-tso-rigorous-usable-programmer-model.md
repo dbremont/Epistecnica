@@ -1,0 +1,20 @@
+# Sewell, P., Sarkar, S., Owens, S., Nardelli, F. Z., & Myreen, M. O. (2010). x86-TSO: a rigorous and usable programmer’s model for x86 multiprocessors. Communications of the ACM, 53(7), 89–97.
+
+
+```python
+@article{sewell2010x86,
+  title={x86-TSO: a rigorous and usable programmer's model for x86 multiprocessors},
+  author={Sewell, Peter and Sarkar, Susmit and Owens, Scott and Nardelli, Francesco Zappa and Myreen, Magnus O},
+  journal={Communications of the ACM},
+  volume={53},
+  number={7},
+  pages={89--97},
+  year={2010},
+  publisher={ACM New York, NY, USA}
+}
+
+```
+
+## Notes
+
+---

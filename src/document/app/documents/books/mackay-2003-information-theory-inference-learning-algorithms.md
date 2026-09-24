@@ -1,0 +1,16 @@
+# MacKay, D. J. (2003). Information theory, inference and learning algorithms. Cambridge university press.
+
+
+```python
+@book{mackay2003information,
+  title={Information theory, inference and learning algorithms},
+  author={MacKay, David JC},
+  year={2003},
+  publisher={Cambridge university press}
+}
+
+```
+
+## Notes
+
+---

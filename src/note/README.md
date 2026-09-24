@@ -50,6 +50,28 @@ The server validates paths against the corpus naming rules; the catalog
 hides the pin UI when the API is unreachable and filters out pins whose
 notes no longer exist.
 
+## Tags
+
+Notes accept optional `tags: [...]` front matter, `---`-fenced at the top
+of the file (same style as the glossarium `aliases`):
+
+```markdown
+---
+tags: [java, debugging, osgi]
+---
+
+# Title
+```
+
+- Tags follow the same naming rules as paths: ASCII, lowercase,
+  kebab-case. The indexer warns on violations and drops the bad tag.
+- Tags are indexed into `data/index.json`, surface as catalog facets
+  (clickable per-row chips, `?tag=` deep links), render as chips on the
+  note page, and rank between headings and body text in search.
+- The same convention applies to the courses corpus
+  (`src/course/README.md`) and the documents corpus
+  (`src/document/README.md`).
+
 ## Naming convention
 
 Note paths (directories and `.md`/`.html` filenames) must be:

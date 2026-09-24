@@ -5,6 +5,9 @@ COPY src/app/ src/app/
 COPY src/epistemica/app/ src/epistemica/app/
 COPY src/tecnica/app/ src/tecnica/app/
 COPY src/note/ src/note/
+COPY src/course/ src/course/
+COPY src/document/ src/document/
+COPY src/persona/ src/persona/
 COPY src/glossarium/ src/glossarium/
 COPY img/ img/
 ENV PYTHONUNBUFFERED=1
