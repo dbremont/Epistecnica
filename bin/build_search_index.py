@@ -6,7 +6,7 @@ Merges the per-corpus search indexes plus a snapshot of both ontology
 node sets into one committed file, src/app/data/search-index.json,
 consumed by the hub search box (/). Stdlib only.
 
-- Corpora (no backend needed): notes, courses, documents, personas,
+- Corpora (no backend needed): notes, courses, documents,
   glossarium — trimmed to {surface, kind, type, title, path, tags,
   excerpt} so the page fetches one ~2 MB file instead of ~4 MB of
   full-text indexes. Ranking beyond the excerpt stays in the
@@ -21,7 +21,7 @@ consumed by the hub search box (/). Stdlib only.
   marker makes staleness visible).
 
 The corpus indexes must exist first (make notes-index course-index
-document-index persona-index glossarium-index); missing ones abort the
+document-index glossarium-index); missing ones abort the
 build with a hint. Regenerate deliberately before build/deploy — the
 file is committed, like the per-corpus indexes.
 
@@ -96,19 +96,6 @@ def corpus_entries() -> list:
             "surface": "document",
             "kind": "document",
             "type": n.get("section", ""),
-            "title": n.get("title", ""),
-            "path": n.get("path", ""),
-            "tags": n.get("tags", []),
-            "excerpt": excerpt(n.get("text", "")),
-        })
-
-    personas = load_index(app / "persona" / "app" / "data" / "index.json",
-                          "make persona-index")
-    for n in personas.get("personas", []):
-        entries.append({
-            "surface": "persona",
-            "kind": "persona",
-            "type": n.get("type", ""),
             "title": n.get("title", ""),
             "path": n.get("path", ""),
             "tags": n.get("tags", []),

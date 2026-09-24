@@ -1,8 +1,0 @@
----
-type: person
----
-
-# Petrarca
-
-
->

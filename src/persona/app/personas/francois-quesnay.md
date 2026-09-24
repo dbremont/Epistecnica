@@ -1,5 +1,0 @@
----
-type: person
----
-
-# François Quesnay

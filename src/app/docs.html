@@ -381,7 +381,6 @@
                     <a href="note/">Notes</a>
                     <a href="course/">Courses</a>
                     <a href="document/">Documents</a>
-                    <a href="persona/">Personas</a>
                     <a href="glossarium/">Glossarium</a>
                 </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
@@ -402,7 +401,6 @@
                         <div class="stat"><div class="value pending" id="stat-notes">&mdash;</div><div class="label">Notes</div></div>
                         <div class="stat"><div class="value pending" id="stat-courses">&mdash;</div><div class="label">Courses</div></div>
                         <div class="stat"><div class="value pending" id="stat-documents">&mdash;</div><div class="label">Documents</div></div>
-                        <div class="stat"><div class="value pending" id="stat-personas">&mdash;</div><div class="label">Personas</div></div>
                         <div class="stat"><div class="value pending" id="stat-terms">&mdash;</div><div class="label">Glossarium Terms</div></div>
                     </div>
 
@@ -518,16 +516,17 @@
                         shape as the notes.
                     </p>
                     <p>
-                        The <a href="persona/">personas catalog</a> is a new
-                        type of note: each entry carries a <code>type:</code>
-                        field (architecture, paper, …) that facets the
-                        catalog and chips the viewer.
+                        Personas (people notes) have moved to
+                        <a href="https://www.bremontix.xyz/note/">Naturgnosis</a>,
+                        where they live as tagged notes in the Note Space
+                        and as actor nodes in the Social Space — linked
+                        both ways.
                     </p>
                     <p>
                         Universal search lives in the hub header: one box
                         over a pre-deployment snapshot (<code>make
                         search-index</code>) covering both graphs plus all
-                        five corpora, grouped by surface and deep-linking
+                        four corpora, grouped by surface and deep-linking
                         into every viewer — including node focus via
                         <code>graph.html?node=&lt;id&gt;</code>.
                     </p>
@@ -570,7 +569,7 @@
                         Every surface shares one visual system: serif display type for titles,
                         monospace for machine voice, a dark/light theme toggle (your choice is
                         remembered), and the ambient constellation behind each page.                         The corpus pages
-                        — notes, courses, documents, personas, and glossarium — are plain markdown and generated indexes; nothing
+                        — notes, courses, documents, and glossarium — are plain markdown and generated indexes; nothing
                         you read here is hand-maintained twice.
                     </p>
                 </div>
@@ -591,7 +590,6 @@
                 <a href="note/">NOTES</a>
                 <a href="course/">COURSES</a>
                 <a href="document/">DOCUMENTS</a>
-                <a href="persona/">PERSONAS</a>
                 <a href="glossarium/">GLOSSARIUM</a>
                 <a href="api/health">HEALTH</a>
             </div>
@@ -732,7 +730,6 @@
         countStats('note/data/index.json', 'stat-notes', 'stat-notes-inline');
         countStats('course/data/index.json', 'stat-courses', null, 'courses');
         countStats('document/data/index.json', 'stat-documents', null);
-        countStats('persona/data/index.json', 'stat-personas', null);
         countStats('glossarium/data/index.json', 'stat-terms', 'stat-terms-inline');
 
         /* ---------- table of contents + scrollspy ---------- */

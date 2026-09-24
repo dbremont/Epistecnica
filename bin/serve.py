@@ -17,9 +17,6 @@ CouchDB directly; CORS on CouchDB stays disabled):
    /document/...         -> static files from src/document/app/ (documents
                             catalog, viewer, corpus, generated search
                             index)
-   /persona/...           -> static files from src/persona/app/ (personas
-                            catalog, viewer, corpus, generated search
-                            index)
   /glossarium/...       -> static files from src/glossarium/app/ (lexical
                            corpus: catalog, terms, generated lookup index)
 
@@ -82,9 +79,6 @@ COURSE_MOUNT = "src/course/app"
 
 DOCUMENT_PREFIX = "/document"
 DOCUMENT_MOUNT = "src/document/app"
-
-PERSONA_PREFIX = "/persona"
-PERSONA_MOUNT = "src/persona/app"
 
 GLOSSARIUM_PREFIX = "/glossarium"
 GLOSSARIUM_MOUNT = "src/glossarium/app"
@@ -157,7 +151,6 @@ class HubHandler(SimpleHTTPRequestHandler):
         /note/x         -> <repo>/src/note/app/x
         /course/x       -> <repo>/src/course/app/x
         /document/x     -> <repo>/src/document/app/x
-        /persona/x      -> <repo>/src/persona/app/x
         /glossarium/x   -> <repo>/src/glossarium/app/x
         anything else   -> <repo>/x
         """
@@ -179,7 +172,6 @@ class HubHandler(SimpleHTTPRequestHandler):
             (NOTES_PREFIX, NOTES_MOUNT),
             (COURSE_PREFIX, COURSE_MOUNT),
             (DOCUMENT_PREFIX, DOCUMENT_MOUNT),
-            (PERSONA_PREFIX, PERSONA_MOUNT),
             (GLOSSARIUM_PREFIX, GLOSSARIUM_MOUNT),
         ):
             if clean == prefix or clean == prefix + "/":
@@ -632,7 +624,6 @@ def main():
     for prefix, mount in (
         ("course", COURSE_MOUNT),
         ("document", DOCUMENT_MOUNT),
-        ("persona", PERSONA_MOUNT),
     ):
         app_dir = REPO / mount
         if not app_dir.is_dir():
@@ -676,7 +667,6 @@ def main():
           % (display_host, args.port, NOTES_PREFIX, notes_cfg.url, notes_cfg.db))
     print("  Courses: http://%s:%d%s/" % (display_host, args.port, COURSE_PREFIX))
     print("  Docs:    http://%s:%d%s/" % (display_host, args.port, DOCUMENT_PREFIX))
-    print("  Personas:http://%s:%d%s/" % (display_host, args.port, PERSONA_PREFIX))
     print("  Gloss.:  http://%s:%d%s/" % (display_host, args.port, GLOSSARIUM_PREFIX))
     print("══════════════════════════════════════════════")
     print()

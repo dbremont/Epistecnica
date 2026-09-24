@@ -1,5 +1,0 @@
----
-type: person
----
-
-# Johan Huizinga
