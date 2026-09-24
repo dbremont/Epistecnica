@@ -1,1 +1,0 @@
-# Philosophia Artium Epistemicarum
