@@ -1,57 +1,92 @@
 # OpenAPI Specification (OAS)
 
-> OpenAPI Specification (OAS) is a language-agnostic standard for describing the structure, operations, parameters, request/response schemas, and other characteristics of HTTP APIs.
+> OpenAPI is a language-agnostic standard for describing HTTP APIs as machine-readable contracts, consumable by humans and tooling alike.
+>
 
-What type of technical element is 
+> It is the complement of an implementation: the OpenAPI document states the intended interface (paths, operations, schemas, security) while servers, clients, and gateways realize it.
+>
 
-OpenAPI Technical Element Set:
+> This note treats OpenAPI as a full ecosystem — the versioned specification plus its documents, annotations, generators, validators, renderers, and practices — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md).
 
+## Formulation
+
+### What technical element type does this technical instance belong to?
+
+**OpenAPI belongs to the `Technical Standard` technical element type — a set of versioned specs — readable as a `Technical Element Set`.**
+
+More specifically:
+
+```text
+Technical Standard
+└── OpenAPI (umbrella standard — OAS 2.0 / 3.0 / 3.1)
+    readable as Technical Element Set (spec + documents + tooling + practices)
 ```
 
-OpenAPI Technical System
-│
-├── Specification
-│   └── OpenAPI Specification (OAS)
-│
-├── Source Integration
-│   └── OpenAPI Annotations
-│
-├── Generation
-│   ├── OpenAPI Generator
-│   ├── Code Generator
-│   └── Documentation Generator
-│
-├── Processing
-│   ├── Parser
-│   └── Validator
-│
-├── Build Integration
-│   └── Maven / Gradle Plugins
-│
-├── Runtime Integration
-│   └── Framework Integration
-│
-├── API Description
-│   └── OpenAPI Document
-│       ├── YAML
-│       └── JSON
-│
-└── Presentation
-    └── OpenAPI UI
-        └── Swagger UI
+OpenAPI is a standard because it is a normative specification governing the form, function, interoperability, and behavior of API description documents. It is itself a set: versioned spec documents (Swagger 2.0, OAS 3.0, OAS 3.1) grouped under one umbrella. A tool (validator, generator, renderer) *implements* the spec; a running server, gateway, or generated client *realizes* a described interface. As a coherent body of standard + blueprint documents + objects + techniques + institutions organized around one capability — specify, produce, validate, document, and consume API interfaces — it can also be read as a `Technical Element Set`.
 
+### What is this technical instance?
 
-```
+> OpenAPI is a versioned, serialization-independent standard instance for machine-readable HTTP API contracts — describing paths, operations, parameters, request/response bodies, schemas, and security in JSON or YAML — together with the document format, tooling, and contract-first/code-first practices that generate code, validation, documentation, and gateway enforcement from a single source.
 
+Lineage: Swagger 2.0 (Wordnik/SmartBear) donated to the OpenAPI Initiative (Linux Foundation, 2015) → OAS 3.0 (2017) → OAS 3.1 (2021, full JSON Schema alignment).
 
-> Swagger is an open-source framework for designing, documenting, and testing RESTful APIs, simplifying API development and enabling interactive API exploration.
-> 
+### What is the recursive instance decomposition of this technical instance?
 
-## Swagger Annotations
+> Boundary: this table decomposes one OAS 3.x ecosystem instance (standard, document format, spec objects, tooling, practices, control, governance); deployment-specific values appear only in rows marked exemplar.
+>
+> Stopping rule: a row is terminal when it names a concrete spec version, a named OAS object field, a file, a named tool, a config attribute, or a named actor.
+>
+> Identity: Instance Tree Path is the stable identifier of each row; every path in this table is unique.
+>
+> Verbs: a tool *implements* the standard; a server, gateway, or generated client *realizes* a described interface.
+
+| Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
+|---|---|---|---|
+| **OpenAPI** | Umbrella standard plus its document format, tooling, and practices for API contracts. | Requirements & Definition | `(root) > Technical Standard` |
+| OpenAPI > Coherence (one contract, many artifacts) | Organizing structure: a single machine-readable contract drives code, docs, validation, mocks, and gateway policy. | System Structure | `(root) > Technical Architecture` |
+| OpenAPI > Realized capability | Capability realized: specify, produce, validate, document, and consume HTTP API interfaces from one source. | Mechanism & Capability | `(root) > Technical Capability` |
+| OpenAPI > Governance (OpenAPI Initiative) | Linux Foundation stewardship of the spec set; versioning and conformance process. | Knowledge & Methodology | `(root) > Technical Element Set > Knowledge & Methodology > Technical Institution` |
+| OpenAPI > Specification | The versioned spec set: Swagger 2.0, OAS 3.0, OAS 3.1 documents. | Requirements & Definition | `(root) > Technical Standard` |
+| OpenAPI > Specification > OAS 3.1 document | Current spec version, aligned with JSON Schema (2021). | Requirements & Definition | `(root) > Technical Standard` |
+| OpenAPI > Specification > OAS 3.0 document | Prior spec version still widely deployed. | Requirements & Definition | `(root) > Technical Standard` |
+| OpenAPI > Specification > Swagger 2.0 document | Donated predecessor format (2015 heritage). | Requirements & Definition | `(root) > Technical Standard` |
+| OpenAPI > OpenAPI Document | A concrete API contract file (`openapi.json` / `openapi.yaml`) conforming to the spec. | System Structure | `(root) > Technical Blueprint` |
+| OpenAPI > OpenAPI Document > Info | Title, version, description of the described API. | Requirements & Definition | `(root) > Technical Specification` |
+| OpenAPI > OpenAPI Document > Servers | Base URLs and variables where the described API is realized (exemplar values per deployment). | System Structure | `(root) > Technical Configuration` |
+| OpenAPI > OpenAPI Document > Paths | Route table mapping URL templates to operations. | System Structure | `(root) > Technical Interface` |
+| OpenAPI > OpenAPI Document > Paths > Operation | One HTTP method + path entry: parameters, bodies, responses, security. | System Structure | `(root) > Technical Interface` |
+| OpenAPI > OpenAPI Document > Paths > Operation > `operationId` | Stable identifier linking an operation to generated code and tooling. | Requirements & Definition | `(root) > Technical Parameter` |
+| OpenAPI > OpenAPI Document > Paths > Operation > Tags | Grouping label organizing operations in renderers. | Requirements & Definition | `(root) > Technical Specification` |
+| OpenAPI > OpenAPI Document > Parameter | Typed input bound from query, path, header, or cookie. | Requirements & Definition | `(root) > Technical Parameter` |
+| OpenAPI > OpenAPI Document > RequestBody | Declared request payload shape and media types. | Requirements & Definition | `(root) > Technical Specification` |
+| OpenAPI > OpenAPI Document > Responses | Declared response shapes per status code. | Requirements & Definition | `(root) > Technical Specification` |
+| OpenAPI > OpenAPI Document > Components | Reusable section: schemas, security schemes, headers, examples. | System Structure | `(root) > Constitutive Technical Object` |
+| OpenAPI > OpenAPI Document > Components > Schema | Data-model definition (OAS 3.1: plain JSON Schema). | Requirements & Definition | `(root) > Technical Specification` |
+| OpenAPI > OpenAPI Document > Components > SecurityScheme | Declared auth mechanism (HTTP, apiKey, OAuth2, OpenID Connect). | Technical Control | `(root) > Technical Security` |
+| OpenAPI > OpenAPI Document > Security Requirement | Which security schemes guard an operation or the whole API. | Technical Control | `(root) > Technical Security` |
+| OpenAPI > OpenAPI Document > ExternalDocs | Pointer to out-of-band documentation. | Knowledge & Methodology | `(root) > Technical Knowledge` |
+| OpenAPI > Annotation libraries | Code annotations that emit OpenAPI documents (e.g. Swashbuckle attributes in ASP.NET — see Documentation below). | System Structure | `(root) > Constitutive Technical Object` |
+| OpenAPI > Editors | Authoring tools producing and previewing OpenAPI documents (e.g. Swagger Editor). | System Structure | `(root) > Constitutive Technical Object` |
+| OpenAPI > Validators | Tools checking a document against the spec schema (spec conformance). | Technical Control | `(root) > Verification` |
+| OpenAPI > Contract testing | Tools checking an implementation against its document (interface conformance). | Technical Control | `(root) > Validation` |
+| OpenAPI > Renderers | Documentation UIs realizing a document for humans (e.g. Swagger UI, ReDoc — see Configuration below). | System Structure | `(root) > Constitutive Technical Object` |
+| OpenAPI > Generators | Tools generating clients, servers, and stubs from a document (e.g. OpenAPI Generator, swagger-codegen). | Mechanism & Capability | `(root) > Technical Mechanism` |
+| OpenAPI > Generated client | Client code realizing the described interface for a deployment (exemplar). | System Structure | `(root) > Production Technical Object` |
+| OpenAPI > Generated server stub | Server skeleton realizing the described interface for a deployment (exemplar). | System Structure | `(root) > Production Technical Object` |
+| OpenAPI > Gateway import | Gateway or mock realizing enforcement/mocking from the document (exemplar). | System Structure | `(root) > Production Technical System` |
+| OpenAPI > Contract-first practice | Repeatable pattern: write the document, then generate/validate against it. | Technique | `(root) > Technical Practice` |
+| OpenAPI > Code-first practice | Repeatable pattern: annotate code, then emit the document. | Technique | `(root) > Technical Practice` |
+| OpenAPI > Linting practice | Repeatable pattern: enforce style and rules on documents (e.g. Spectral). | Technique | `(root) > Technical Practice` |
+| OpenAPI > Versioning practice | Repeatable pattern: evolve the contract without breaking consumers. | Lifecycle & Continuity | `(root) > Technical Evolution` |
+| OpenAPI > Evolution Swagger-2.0-to-OAS-3.1 | Historical trajectory: Swagger 2.0 → OAS 3.0 → OAS 3.1 (JSON Schema alignment). | Lifecycle & Continuity | `(root) > Technical Evolution` |
+
+## Documentation
+
+> How to document (annotate) an app so the OpenAPI document can be emitted code-first? The attributes below belong to the ASP.NET Swashbuckle annotation library — one *implementing* constitutive object from the decomposition above — not to OAS itself.
 
 1. **[SwaggerOperation]**
     - Used to describe an API operation or endpoint.
-    - Allows specifying the operation’s HTTP method, path, and summary.
+    - Allows specifying the operation's HTTP method, path, and summary.
 2. **[ProducesResponseType]**
     - Used to specify the possible HTTP response types and status codes for an operation.
 3. **[SwaggerResponse]**
@@ -65,7 +100,7 @@ OpenAPI Technical System
 7. **[SwaggerResponseHeader]**
     - Specifies a response header in the Swagger documentation.
 8. **[SwaggerOperationFilter]**
-    - Allows customizing the operation’s Swagger documentation at runtime.
+    - Allows customizing the operation's Swagger documentation at runtime.
 9. **[SwaggerSchemaFilter]**
     - Used for customizing the schema of a model in Swagger documentation.
 10. **[SwaggerTag]**
@@ -84,18 +119,14 @@ OpenAPI Technical System
     - Binds a parameter from an HTTP header.
 17. **[FromForm]**
     - Specifies that a parameter should be bound from the form data in a POST request.
-18. **[FromRoute]**
-    - Specifies that a parameter should be bound from the route in HTTP requests.
-19. **[FromRoute]**
-    - Specifies that a parameter should be bound from the route in HTTP requests.
-20. **[ApiVersion]**
+18. **[ApiVersion]**
     - Specifies the API version for a controller or action.
 
-## swagger-config.yaml
+## Configuration
 
-`swagger-config.yaml`
+> `swagger-config.yaml` — configuration of Swagger UI, one *realizing* renderer from the decomposition above, not of OAS itself.
 
-Swagger UI provides several configuration options that allow you to customize its behavior and appearance when documenting your APIs. Here’s a list of some common Swagger UI options and their descriptions:
+Swagger UI provides several configuration options that allow you to customize its behavior and appearance when documenting your APIs. Here's a list of some common Swagger UI options and their descriptions:
 
 1. **url**:
     - Specifies the URL to the Swagger/OpenAPI definition file (JSON or YAML) that Swagger UI should use for documentation.
@@ -106,17 +137,17 @@ Swagger UI provides several configuration options that allow you to customize it
 4. **validatorUrl**:
     - Specifies the URL of an external Swagger validator service. This is used to validate the Swagger/OpenAPI definition against a schema.
 5. **docExpansion**:
-    - Controls the initial state of the documentation sections. Options include “list,” “full,” “none,” or “fullOnStartup.”
+    - Controls the initial state of the documentation sections. Options include "list," "full," "none," or "fullOnStartup."
 6. **defaultModelRendering**:
-    - Defines how models are initially displayed. Options include “model,” “schema,” or “example.”
+    - Defines how models are initially displayed. Options include "model," "schema," or "example."
 7. **displayRequestDuration**:
     - Specifies whether to display the request duration (response time) for each API request.
 8. **filter**:
     - Allows you to apply a filter to the API operations to display only a subset of endpoints.
 9. **operationsSorter**:
-    - Controls the sorting of API operations in the UI. Options include “alpha,” “method,” or a custom function.
+    - Controls the sorting of API operations in the UI. Options include "alpha," "method," or a custom function.
 10. **tagsSorter**:
-    - Defines the sorting of tags in the UI. Options include “alpha” or a custom function.
+    - Defines the sorting of tags in the UI. Options include "alpha" or a custom function.
 11. **deepLinking**:
     - Enables deep linking to specific sections of the documentation, which updates the URL as you navigate through the documentation.
 12. **showExtensions**:
@@ -126,7 +157,7 @@ Swagger UI provides several configuration options that allow you to customize it
 14. **defaultModelExpandDepth** and **defaultModelsExpandDepth**:
     - Set the default depth for models and model schemas that are expanded by default.
 15. **tryItOutEnabled**:
-    - Controls whether the “Try it out” functionality is enabled for making API requests directly from the UI.
+    - Controls whether the "Try it out" functionality is enabled for making API requests directly from the UI.
 16. **showCommonExtensions**:
     - Displays common extensions (fields defined by Swagger/OpenAPI extensions) in the UI.
 17. **useRequestInterceptor** and **useResponseInterceptor**:
@@ -134,7 +165,7 @@ Swagger UI provides several configuration options that allow you to customize it
 18. **configUrl**:
     - Specifies a URL to an external configuration file to customize Swagger UI settings.
 19. **layout**:
-    - Specifies the layout of the UI. Options include “BaseLayout,” “StandaloneLayout,” or a custom layout class.
+    - Specifies the layout of the UI. Options include "BaseLayout," "StandaloneLayout," or a custom layout class.
 20. **onComplete**:
     - A JavaScript callback function that is executed when Swagger UI has finished loading.
 
@@ -142,7 +173,12 @@ These options can be set when configuring Swagger UI in your ASP.NET Core or Nod
 
 ## References
 
+- [OpenAPI Specification (spec.openapis.org)](https://spec.openapis.org/oas/latest.html)
+- [OpenAPI Initiative](https://www.openapis.org/)
 - [Swagger](https://swagger.io/)
-- [Swagger Docs](https://medium.com/@niteshsinghal85/enhance-swagger-documentation-with-annotations-in-asp-net-core-d2981803e299)
+- [OpenAPI Generator](https://openapi-generator.tech/)
+- [JSON Schema](https://json-schema.org/)
 - [Enhance Swagger Documentation with Annotations in ASP.NET core](https://medium.com/@niteshsinghal85/enhance-swagger-documentation-with-annotations-in-asp-net-core-d2981803e299)
 - [Documenting Additional API endpoints in Swagger in ASP.Net Core](https://medium.com/@niteshsinghal85/documenting-additional-api-endpoints-in-swagger-in-asp-net-core-59da9c84e4ba)
+- [GraphQL](note.html?n=cto/es/multinode/graphql.md)
+- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
