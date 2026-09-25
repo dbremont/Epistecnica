@@ -152,6 +152,127 @@
 
         .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        /* ---------- universal nav search (same as the hub) ---------- */
+
+        .usearch-wrap {
+            position: relative;
+            width: min(22rem, 38vw);
+            flex: none;
+        }
+
+        #usearch {
+            width: 100%;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-primary);
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 2.4rem 0.55rem 2.2rem;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #usearch::placeholder { color: var(--text-muted); }
+
+        #usearch:focus {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 15px rgba(91, 240, 231, 0.05);
+        }
+
+        .usearch-icon {
+            position: absolute;
+            left: 0.8rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        #usurprise {
+            position: absolute;
+            right: 0.35rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.95rem;
+            line-height: 1;
+            color: var(--text-muted);
+            background: transparent;
+            border: none;
+            padding: 0.25rem 0.35rem;
+            cursor: pointer;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        #usurprise:hover:not(:disabled) { color: var(--accent-cyan); transform: translateY(-50%) rotate(-18deg); }
+
+        #usurprise:disabled { opacity: 0.35; cursor: default; }
+
+        #usurprise:focus-visible { outline: 1px solid var(--accent-cyan); outline-offset: 2px; }
+
+        .usearch-drop {
+            position: absolute;
+            top: calc(100% + 0.4rem);
+            left: 0;
+            right: 0;
+            z-index: 20;
+            max-height: 24rem;
+            overflow-y: auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+        }
+
+        .ugroup-label {
+            font-family: var(--font-mono);
+            font-size: 0.55rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            padding: 0.7rem 1rem 0.3rem;
+        }
+
+        .urow {
+            display: block;
+            padding: 0.55rem 1rem;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .urow:hover, .urow.kb-focus { background: var(--bg-surface); }
+
+        .urow-title { font-size: 0.85rem; font-weight: 500; color: var(--text-primary); }
+
+        .urow:hover .urow-title, .urow.kb-focus .urow-title { color: var(--accent-cyan); }
+
+        .urow-sub {
+            margin-top: 0.2rem;
+            font-size: 0.72rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .urow-title mark, .urow-sub mark {
+            background: var(--accent-cyan-dim);
+            color: var(--accent-cyan);
+            padding: 0 0.1em;
+        }
+
+        .urow-hint {
+            padding: 0.9rem 1rem;
+            font-family: var(--font-display);
+            font-style: italic;
+            color: var(--text-muted);
+        }
+
         header {
             padding: 4rem 0 3rem;
         }
@@ -468,6 +589,9 @@
         @media (max-width: 860px) {
             .stats { grid-template-columns: 1fr; }
             .row-path { display: none; }
+            .nav-inner { flex-wrap: wrap; row-gap: 0.6rem; }
+            .nav-inner .nav-right { flex: 1 1 100%; order: 3; }
+            .nav-inner .usearch-wrap { flex: 1; width: auto; }
         }
     </style>
 </head>
@@ -477,7 +601,15 @@
     <nav class="nav">
         <div class="nav-inner">
             <a class="nav-brand" href="../"><img class="nav-mark" src="../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
-            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            <div class="nav-right">
+                <div class="usearch-wrap">
+                    <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" autocomplete="off">
+                    <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled>⚄</button>
+                    <div class="usearch-drop" id="usearch-drop" hidden></div>
+                </div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
         </div>
     </nav>
 
@@ -500,7 +632,7 @@
         <div class="toolbar">
             <div class="search-wrap">
                 <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                <input type="search" id="search" placeholder="search the corpus&hellip;  ( / )" aria-label="Search courses" autocomplete="off">
+                <input type="search" id="search" placeholder="search the corpus&hellip;  ( ctrl + / )" aria-label="Search courses" autocomplete="off">
             </div>
             <div class="facets" id="facets" role="group" aria-label="Kind filters"></div>
             <div class="tagbar" id="tagbar" hidden>
@@ -637,6 +769,191 @@
         });
 
         applyThemeLabel();
+
+        /* ---------- universal nav search (same index as the hub) ---------- */
+
+        var UENTRIES = [];
+        var uinput = document.getElementById('usearch');
+        var udrop = document.getElementById('usearch-drop');
+        var usurprise = document.getElementById('usurprise');
+        var localInput = document.getElementById('search');
+        var uflat = [];   /* visible rows for keyboard nav */
+        var ukb = -1;
+        var utimer = null;
+
+        var UGROUPS = [
+            ['epistemica', 'Epistemica nodes'],
+            ['tecnica', 'Tecnica nodes'],
+            ['note', 'Notes'],
+            ['course', 'Courses & lectures'],
+            ['document', 'Documents'],
+            ['glossarium', 'Terms']
+        ];
+
+        function uesc(s) {
+            var d = document.createElement('div');
+            d.textContent = s == null ? '' : String(s);
+            return d.innerHTML;
+        }
+
+        function uencPath(p) {
+            return String(p).split('/').map(encodeURIComponent).join('/');
+        }
+
+        function uurl(e) {
+            var p = uencPath(e.path);
+            if (e.surface === 'epistemica' || e.surface === 'tecnica') {
+                return '../' + e.surface + '/graph.html?node=' + encodeURIComponent(e.path);
+            }
+            if (e.surface === 'note') {
+                return e.kind === 'live' ? '../note/notes/' + p : '../note/note.html?n=' + p;
+            }
+            if (e.surface === 'course') {
+                return e.kind === 'course' ? '../course/course.html?c=' + p : '../course/lecture.html?l=' + p;
+            }
+            if (e.surface === 'document') return '../document/document.html?d=' + p;
+            if (e.surface === 'glossarium') return '../glossarium/?t=' + encodeURIComponent(e.path);
+            return '#';
+        }
+
+        function usub(e) {
+            var bits = [];
+            if (e.type) bits.push(e.type);
+            if (e.kind && e.kind !== e.type) bits.push(e.kind);
+            if (e.tags && e.tags.length) bits.push(e.tags.slice(0, 3).join(', '));
+            if (e.excerpt) bits.push(e.excerpt.slice(0, 120));
+            return bits.join(' · ');
+        }
+
+        function uscore(e, q) {
+            var title = (e.title || '').toLowerCase();
+            if (title.indexOf(q) === 0) return 0;
+            if (title.indexOf(q) > 0) return 1;
+            if (((e.type || '') + ' ' + (e.tags || []).join(' ')).toLowerCase().indexOf(q) >= 0) return 2;
+            if ((e.aliases || []).join(' ').toLowerCase().indexOf(q) >= 0) return 2;
+            if ((e.path || '').toLowerCase().indexOf(q) >= 0) return 2;
+            if ((e.excerpt || '').toLowerCase().indexOf(q) >= 0) return 3;
+            return -1;
+        }
+
+        function uhl(text, q) {
+            var e = uesc(text);
+            if (!q) return e;
+            var i = String(text).toLowerCase().indexOf(q);
+            if (i < 0) return e;
+            return uesc(String(text).slice(0, i)) + '<mark>' +
+                uesc(String(text).slice(i, i + q.length)) + '</mark>' +
+                uesc(String(text).slice(i + q.length));
+        }
+
+        function urender() {
+            var q = uinput.value.trim().toLowerCase();
+            if (!q || !UENTRIES.length) { udrop.hidden = true; uflat = []; ukb = -1; return; }
+            var scored = [];
+            for (var i = 0; i < UENTRIES.length; i++) {
+                var s = uscore(UENTRIES[i], q);
+                if (s >= 0) scored.push({ e: UENTRIES[i], s: s });
+            }
+            scored.sort(function (a, b) { return a.s - b.s || a.e.title.localeCompare(b.e.title); });
+            var byGroup = {};
+            scored.forEach(function (x) {
+                var g = x.e.surface;
+                if (!byGroup[g]) byGroup[g] = [];
+                if (byGroup[g].length < 6) byGroup[g].push(x.e);
+            });
+            var out = [];
+            uflat = [];
+            if (!scored.length) {
+                out.push('<div class="urow-hint">nothing found.</div>');
+            }
+            UGROUPS.forEach(function (g) {
+                var list = byGroup[g[0]];
+                if (!list || !list.length) return;
+                out.push('<div class="ugroup-label">' + uesc(g[1]) + '</div>');
+                list.forEach(function (e) {
+                    var idx = uflat.length;
+                    uflat.push(e);
+                    out.push(
+                        '<a class="urow" data-idx="' + idx + '" href="' + uurl(e) + '">' +
+                        '<div class="urow-title">' + uhl(e.title, q) + '</div>' +
+                        '<div class="urow-sub">' + uhl(usub(e), q) + '</div>' +
+                        '</a>'
+                    );
+                });
+            });
+            udrop.innerHTML = out.join('');
+            udrop.hidden = false;
+            ukb = -1;
+        }
+
+        function umove(d) {
+            if (!uflat.length) return;
+            ukb = (ukb + d + uflat.length) % uflat.length;
+            var rows = udrop.querySelectorAll('.urow');
+            rows.forEach(function (r) { r.classList.remove('kb-focus'); });
+            var el = udrop.querySelector('.urow[data-idx="' + ukb + '"]');
+            if (el) { el.classList.add('kb-focus'); el.scrollIntoView({ block: 'nearest' }); }
+        }
+
+        uinput.addEventListener('input', function () {
+            clearTimeout(utimer);
+            utimer = setTimeout(urender, 120);
+        });
+
+        uinput.addEventListener('focus', function () { if (uinput.value.trim()) urender(); });
+
+        uinput.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') { udrop.hidden = true; uinput.blur(); return; }
+            if (e.key === 'ArrowDown') { e.preventDefault(); umove(1); return; }
+            if (e.key === 'ArrowUp') { e.preventDefault(); umove(-1); return; }
+            if (e.key === 'Enter' && ukb >= 0 && uflat[ukb]) {
+                e.preventDefault();
+                window.location.href = uurl(uflat[ukb]);
+            }
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.usearch-wrap')) udrop.hidden = true;
+        });
+
+        document.addEventListener('keydown', function (e) {
+            var el = document.activeElement;
+            var typing = !!el && (el === uinput || el === localInput || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
+            if (e.key === '/' && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); uinput.focus(); return; }
+            if ((e.key === 'r' || e.key === 'R') && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); ugoRandom(); }
+        });
+
+        fetch('../data/search-index.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (idx) {
+                UENTRIES = idx.entries || [];
+                usurprise.disabled = !UENTRIES.length;
+            })
+            .catch(function () {
+                UENTRIES = [];
+                usurprise.disabled = true;
+                uinput.placeholder = 'universal index unavailable — run: make search-index';
+            });
+
+        function upick() {
+            if (!UENTRIES.length) return null;
+            if (window.crypto && window.crypto.getRandomValues) {
+                var buf = new Uint32Array(1);
+                window.crypto.getRandomValues(buf);
+                return UENTRIES[buf[0] % UENTRIES.length];
+            }
+            return UENTRIES[Math.floor(Math.random() * UENTRIES.length)];
+        }
+
+        function ugoRandom() {
+            var e = upick();
+            if (e) window.location.href = uurl(e);
+        }
+
+        usurprise.addEventListener('click', ugoRandom);
 
         /* ---------- helpers ---------- */
 
@@ -898,9 +1215,9 @@
 
         document.addEventListener('keydown', function (e) {
             var el = document.activeElement;
-            var typing = !!el && (el === input || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA');
+            var typing = !!el && (el === input || el === uinput || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
             if (e.key === 'Escape' && document.activeElement === input) { input.blur(); return; }
-            if (e.key === '/' && !typing) { e.preventDefault(); input.focus(); }
+            if (e.key === '/' && (e.ctrlKey || e.metaKey) && !e.altKey) { e.preventDefault(); input.focus(); return; }
             if (!typing && !e.ctrlKey && !e.metaKey && !e.altKey) {
                 if (e.key === 'ArrowLeft') { e.preventDefault(); goToPage(state.page - 1); }
                 if (e.key === 'ArrowRight') { e.preventDefault(); goToPage(state.page + 1); }
