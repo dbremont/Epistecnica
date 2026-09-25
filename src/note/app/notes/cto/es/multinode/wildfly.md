@@ -2657,3 +2657,6 @@ WildFly is a technical system because it is an organized composition of software
 
 - [WildFly](https://www.wildfly.org/)
 - [WildFly Source Code](https://github.com/wildfly/wildfly/)
+- [WildFly Core](https://github.com/wildfly/wildfly-core/tree/main)
+- [JBoss Modules](https://github.com/jboss-modules/jboss-modules)
+- [Distributed System Lab — Jakarta EE](https://github.com/dbremont/distributed-system-lab/tree/main/jakarta-ee)
