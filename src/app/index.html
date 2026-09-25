@@ -208,7 +208,7 @@
             color: var(--text-primary);
             background: var(--bg-surface);
             border: 1px solid var(--border-subtle);
-            padding: 0.55rem 0.8rem 0.55rem 2.2rem;
+            padding: 0.55rem 2.4rem 0.55rem 2.2rem;
             outline: none;
             transition: border-color 0.3s ease, box-shadow 0.3s ease;
         }
@@ -228,6 +228,27 @@
             color: var(--text-muted);
             pointer-events: none;
         }
+
+        #usurprise {
+            position: absolute;
+            right: 0.35rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.95rem;
+            line-height: 1;
+            color: var(--text-muted);
+            background: transparent;
+            border: none;
+            padding: 0.25rem 0.35rem;
+            cursor: pointer;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        #usurprise:hover:not(:disabled) { color: var(--accent-cyan); transform: translateY(-50%) rotate(-18deg); }
+
+        #usurprise:disabled { opacity: 0.35; cursor: default; }
+
+        #usurprise:focus-visible { outline: 1px solid var(--accent-cyan); outline-offset: 2px; }
 
         .usearch-drop {
             position: absolute;
@@ -514,7 +535,8 @@
             <div class="nav-right">
                 <div class="usearch-wrap">
                     <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                    <input type="search" id="usearch" placeholder="search everything…  ( / )" aria-label="Universal search" autocomplete="off">
+                    <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" autocomplete="off">
+                    <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled>⚄</button>
                     <div class="usearch-drop" id="usearch-drop" hidden></div>
                 </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
@@ -930,8 +952,9 @@
 
         document.addEventListener('keydown', function (e) {
             var el = document.activeElement;
-            var typing = !!el && (el === uinput || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA');
-            if (e.key === '/' && !typing) { e.preventDefault(); uinput.focus(); }
+            var typing = !!el && (el === uinput || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
+            if (e.key === '/' && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); uinput.focus(); return; }
+            if ((e.key === 'r' || e.key === 'R') && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); ugoRandom(); }
         });
 
         fetch('data/search-index.json', { headers: { 'Accept': 'application/json' } })
@@ -941,11 +964,34 @@
             })
             .then(function (idx) {
                 UENTRIES = idx.entries || [];
+                usurprise.disabled = !UENTRIES.length;
             })
             .catch(function () {
                 UENTRIES = [];
+                usurprise.disabled = true;
                 uinput.placeholder = 'universal index unavailable — run: make search-index';
             });
+
+        /* ---------- surprise me: uniform random pick from the same index ---------- */
+
+        var usurprise = document.getElementById('usurprise');
+
+        function upick() {
+            if (!UENTRIES.length) return null;
+            if (window.crypto && window.crypto.getRandomValues) {
+                var buf = new Uint32Array(1);
+                window.crypto.getRandomValues(buf);
+                return UENTRIES[buf[0] % UENTRIES.length];
+            }
+            return UENTRIES[Math.floor(Math.random() * UENTRIES.length)];
+        }
+
+        function ugoRandom() {
+            var e = upick();
+            if (e) window.location.href = uurl(e);
+        }
+
+        usurprise.addEventListener('click', ugoRandom);
     })();
     </script>
 </body>
