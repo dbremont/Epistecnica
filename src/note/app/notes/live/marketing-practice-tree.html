@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marketing Technical Practice — Decomposition Tree</title>
+<script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+    --bg-void: #04050A;
+    --bg-surface: #0B0D14;
+    --bg-card: #11141D;
+    --text-primary: #E2E4EB;
+    --text-secondary: #8A8FA6;
+    --text-muted: #737891;
+    --accent-gold: #C5A467;
+    --accent-cyan: #5BF0E7;
+    --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+    --border-subtle: rgba(255, 255, 255, 0.07);
+    --card-bg: rgba(11, 13, 20, 0.72);
+    --nav-bg: rgba(4, 5, 10, 0.82);
+    --footer-bg: rgba(4, 5, 10, 0.7);
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+}
+
+html[data-theme="light"] {
+    --bg-void: #F7F5F0;
+    --bg-surface: #F1EEE7;
+    --bg-card: #FFFFFF;
+    --text-primary: #1A1D24;
+    --text-secondary: #4A4F5E;
+    --text-muted: #7A7F8E;
+    --accent-gold: #9A7B3F;
+    --accent-gold-dim: rgba(154, 123, 63, 0.12);
+    --accent-cyan: #0E7C72;
+    --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+    --border-subtle: rgba(20, 22, 30, 0.10);
+    --card-bg: rgba(255, 255, 255, 0.72);
+    --nav-bg: rgba(247, 245, 240, 0.85);
+    --footer-bg: rgba(247, 245, 240, 0.75);
+}
+
+body { transition: opacity 180ms ease; }
+html.theme-fading body { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    background: var(--nav-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.site-nav .nav-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.95rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-nav .nav-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.site-nav .nav-mark { height: 26px; width: auto; }
+.site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+.site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+.site-nav .nav-links a {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+.theme-toggle {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 0.45rem 0.75rem;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+.site-footer {
+    border-top: 1px solid var(--border-subtle);
+    background: var(--footer-bg);
+    position: relative;
+    z-index: 1;
+}
+
+.site-footer .foot-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+.site-footer a:hover { color: var(--accent-cyan); }
+
+/* ---- page ---- */
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: var(--bg-void);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-weight: 300;
+    line-height: 1.6;
+}
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 2rem 3rem; }
+.eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent-gold);
+    margin: 2.5rem 0 0.6rem;
+}
+h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.15;
+    margin: 0 0 0.8rem;
+}
+h1 em { font-style: italic; color: var(--accent-gold); }
+h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 2.2rem 0 0.6rem;
+}
+.lede { color: var(--text-secondary); max-width: 72ch; }
+.lede a, .fine a { color: var(--accent-cyan); }
+.fine { color: var(--text-muted); font-size: 0.85rem; }
+
+.tabs { display: flex; gap: 0.5rem; margin: 1.6rem 0 1rem; }
+.tab {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 0.55rem 1.1rem;
+    cursor: pointer;
+}
+.tab[aria-selected="true"] { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.search {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 0.55rem 0.8rem;
+    min-width: 16rem;
+}
+.search::placeholder { color: var(--text-muted); }
+.counts { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.12em; color: var(--text-muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.chip {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    background: transparent;
+}
+.chip .dot { display: inline-block; width: 0.55em; height: 0.55em; border-radius: 50%; margin-right: 0.4em; }
+.chip.off { opacity: 0.35; }
+.btn {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    background: transparent;
+    border: 1px solid var(--border-subtle);
+    padding: 0.45rem 0.8rem;
+    cursor: pointer;
+}
+.btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 1.2rem; align-items: start; }
+@media (max-width: 1000px) { .layout { grid-template-columns: 1fr; } }
+
+.stage {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    min-height: 60vh;
+}
+#treeSvg { display: block; width: 100%; height: 68vh; cursor: grab; touch-action: none; }
+#treeSvg.panning { cursor: grabbing; }
+.node { cursor: pointer; }
+.node circle.face { stroke: var(--bg-void); stroke-width: 2px; }
+.node text {
+    fill: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    paint-order: stroke;
+    stroke: var(--bg-surface);
+    stroke-width: 3px;
+}
+.node.dim { opacity: 0.15; }
+.node .halo { fill: none; stroke: var(--accent-gold); stroke-width: 2px; display: none; }
+.node.match .halo { display: block; }
+.node.selected circle.face { stroke: var(--accent-cyan); stroke-width: 2.5px; }
+.node .badge { fill: var(--accent-gold); }
+.node .badge-t { fill: var(--bg-void); font-size: 9px; text-anchor: middle; stroke: none; paint-order: normal; }
+.link { stroke: var(--text-muted); stroke-opacity: 0.45; stroke-width: 1px; }
+.link.dim { stroke-opacity: 0.08; }
+.node .badge.matchon { fill: var(--accent-cyan); }
+.mbadge { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+.hint { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; color: var(--text-muted); padding: 0.5rem 0.9rem; }
+
+#listView { display: none; max-height: 68vh; overflow: auto; padding: 0.6rem 0.9rem; }
+#listView ul { list-style: none; margin: 0; padding-left: 1.1rem; }
+#listView > ul { padding-left: 0; }
+.trow { display: flex; gap: 0.5rem; align-items: baseline; padding: 0.18rem 0; border-bottom: 1px dotted var(--border-subtle); }
+.twisty {
+    font-family: var(--font-mono);
+    color: var(--accent-gold);
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 1.4em;
+    text-align: center;
+    padding: 0;
+    font-size: 0.8rem;
+}
+.twisty.leaf { visibility: hidden; }
+.tname { cursor: pointer; }
+.tname:hover { color: var(--accent-cyan); }
+.tname .full { display: none; }
+.tchip {
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    padding: 0 0.5em;
+    white-space: nowrap;
+}
+.tdesc { color: var(--text-muted); font-size: 0.82rem; margin: 0 0 0.3rem 1.9rem; max-width: 90ch; }
+li.nomatch { display: none; }
+
+aside.detail {
+    position: sticky;
+    top: 4.5rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border-subtle);
+    padding: 1.1rem 1.2rem;
+}
+aside.detail h3 {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent-gold);
+    margin: 0 0 0.7rem;
+}
+aside.detail .dname { font-size: 1.05rem; margin: 0 0 0.4rem; }
+aside.detail .dpath { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-secondary); word-break: break-word; }
+aside.detail .ddesc { color: var(--text-secondary); font-size: 0.9rem; }
+aside.detail .dmeta { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted); margin-top: 0.6rem; }
+aside.detail .dmeta .k { color: var(--accent-cyan); }
+aside.detail .row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.9rem; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="nav-links"><a href="../../index.html">Catalog</a></div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+<div class="wrap">
+    <div class="eyebrow">Live note &middot; decomposition tree</div>
+    <h1>Marketing Technical Practice &mdash; <em>Decomposition Tree</em></h1>
+    <p class="lede">An interactive tree-graph of the instance decomposition table in
+    <a href="../../note.html?n=cto/es/multinode/marketing-technical-practice.md">marketing-technical-practice.md</a>
+    (189 nodes). The graph view is a loose force layout with collapsible subtrees; the list view is the same
+    tree as a collapsible outline. Data is a snapshot embedded in this page &mdash; re-extract it if the note changes.</p>
+
+    <div class="tabs" role="tablist">
+        <button type="button" class="tab" id="tabGraph" role="tab" aria-selected="true">Graph view</button>
+        <button type="button" class="tab" id="tabList" role="tab" aria-selected="false">Instance-path list view</button>
+    </div>
+
+    <div class="toolbar">
+        <input type="search" class="search" id="search" placeholder="filter nodes&hellip;" aria-label="Filter nodes">
+        <span class="counts" id="counts"></span>
+        <button type="button" class="btn" id="expandAll">Expand all</button>
+        <button type="button" class="btn" id="collapseAll">Collapse to depth 1</button>
+    </div>
+    <div class="legend" id="legend"></div>
+
+    <div class="layout" style="margin-top:1rem">
+        <div>
+            <div class="stage" id="graphView">
+                <svg id="treeSvg" role="img" aria-label="Decomposition tree graph"></svg>
+                <div class="hint">DRAG NODES &middot; DRAG BACKGROUND TO PAN &middot; SCROLL TO ZOOM &middot; CLICK TO COLLAPSE / EXPAND &middot; DOUBLE-CLICK TO CENTER &middot; SEARCH ONLY HIGHLIGHTS &mdash; OPENING IS ALWAYS MANUAL</div>
+            </div>
+            <div class="stage" id="listView" aria-label="Instance path list"></div>
+        </div>
+        <aside class="detail" id="detail" aria-live="polite">
+            <h3>Selected node</h3>
+            <p class="dname" id="dName">Marketing Technical Practice</p>
+            <p class="dpath" id="dPath">Marketing Technical Practice</p>
+            <p class="ddesc" id="dDesc"></p>
+            <div class="dmeta" id="dMeta"></div>
+            <div class="row">
+                <button type="button" class="btn" id="dToggle">Collapse subtree</button>
+                <button type="button" class="btn" id="dFocus">Center in graph</button>
+            </div>
+        </aside>
+    </div>
+
+    <h2>How to read this tree</h2>
+    <p class="lede">Each node is one row of the decomposition table: the label is the last segment of its
+    <em>Instance Tree Path</em>, the color is its <em>Technical Category</em>. Click any node with children to
+    collapse or expand its subtree. Terminal rows &mdash; named tools, files, config attributes, measured values,
+    named actors &mdash; are leaves. Deployment-specific values and named vendors appear only in exemplar rows.</p>
+    <p class="fine">Companion: <a href="../../note.html?n=general/marketing-science.md">Marketing Science</a> &middot;
+    Source table: <a href="../../note.html?n=cto/es/multinode/marketing-technical-practice.md">marketing-technical-practice.md</a></p>
+</div>
+<footer class="site-footer">
+    <div class="foot-inner">
+        <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+        <a href="../../index.html">&larr; CATALOG</a>
+    </div>
+</footer>
+<script>
+/* Snapshot of the decomposition table in cto/es/multinode/marketing-technical-practice.md — re-extract if that note changes. Format per row: [instance path, description, category, element-type path]. */
+const MTP_ROWS = [["Marketing Technical Practice > Membership criterion", "Rule distinguishing members from non-members: all elements required to move a contact from capture to customer.", "Composite", "`(root) > Technical Element Set`"], ["Marketing Technical Practice > Organizing principle", "Shared demand-generation capability under a shared consent regime.", "Composite", "`(root) > Technical Element Set`"], ["Marketing Technical Practice > Email Direct Practice", "Nested element set: the email-channel ensemble (systems, techniques, and rules) within the practice.", "Composite", "`(root) > Technical Element Set`"], ["Marketing Technical Practice > Marketing Technical Domain", "Bounded field: acquisition, conversion, and retention pursued under budget, consent, and deliverability bounds.", "Technical Context", "`(root) > Technical Domain`"], ["Marketing Technical Practice > Acquisition Problem", "Discrepancy between current and desired qualified-contact volume at acceptable cost (exemplar values per deployment).", "Technical Context", "`(root) > Technical Problem`"], ["Marketing Technical Practice > Acquisition Problem > CAC ceiling", "Maximum acceptable acquisition cost per customer (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Acquisition Problem > Qualified-contact volume target", "Formalized contact-volume objective at acceptable cost (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Requirement`"], ["Marketing Technical Practice > Conversion Problem", "Discrepancy between current and desired contact-to-customer rate under funnel and latency conditions.", "Technical Context", "`(root) > Technical Problem`"], ["Marketing Technical Practice > Conversion Problem > Contact-to-customer rate target", "Formalized conversion objective per funnel (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Requirement`"], ["Marketing Technical Practice > Conversion Problem > Funnel latency budget", "Maximum tolerable lag from first contact to conversion (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Retention Problem", "Discrepancy between current and desired repeat-purchase or renewal rate.", "Technical Context", "`(root) > Technical Problem`"], ["Marketing Technical Practice > Retention Problem > Repeat-purchase rate target", "Formalized retention objective per cohort (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Requirement`"], ["Marketing Technical Practice > Retention Problem > Churn-rate ceiling", "Maximum tolerable cohort churn per period (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Demand Purpose", "Intended ultimate effect: qualified pipeline and revenue from addressable audiences.", "Technical Context", "`(root) > Technical Purpose`"], ["Marketing Technical Practice > Demand Purpose > Pipeline target", "Formalized qualified-pipeline objective per period (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Requirement`"], ["Marketing Technical Practice > Demand Purpose > Revenue target", "Formalized revenue objective attributed to the practice (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Requirement`"], ["Marketing Technical Practice > Consent Constraint", "Bound on action imposed by consent regimes and platform policies (e.g. GDPR opt-in, ad-platform approval).", "Technical Context", "`(root) > Technical Constraint`"], ["Marketing Technical Practice > Consent Constraint > GDPR opt-in regime", "Consent bound: prior opt-in for electronic outreach in scope.", "Technical Context", "`(root) > Technical Constraint`"], ["Marketing Technical Practice > Consent Constraint > CAN-SPAM requirements", "US commercial-email bound: identification, opt-out mechanism, postal address.", "Technical Context", "`(root) > Technical Constraint`"], ["Marketing Technical Practice > Consent Constraint > Ad-platform approval policy", "Platform-side bound on creatives and claims (exemplar: Meta, Google Ads).", "Technical Context", "`(root) > Technical Constraint`"], ["Marketing Technical Practice > Budget Constraint", "Bound on action imposed by spend caps and cost-per-acquisition ceilings (exemplar values per deployment).", "Technical Context", "`(root) > Technical Constraint`"], ["Marketing Technical Practice > Budget Constraint > Spend cap", "Authorized spend ceiling per campaign or period (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Budget Constraint > LTV:CAC floor", "Minimum acceptable lifetime-value to acquisition-cost ratio (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Audience Resource", "Addressable contacts and segments consumed and cultivated by campaigns (exemplar lists per deployment).", "Technical Context", "`(root) > Technical Resource`"], ["Marketing Technical Practice > Audience Resource > `suppression-list.csv`", "Exclusion file: unsubscribed, bounced, and do-not-contact entries (exemplar).", "System Structure", "`(root) > Technical Configuration`"], ["Marketing Technical Practice > Audience Resource > Segment lists", "Named contact cohorts consumed by campaigns (exemplar lists per deployment).", "Technical Context", "`(root) > Technical Resource`"], ["Marketing Technical Practice > Content Resource", "Creative and copy assets consumed across channels (exemplar items per deployment).", "Technical Context", "`(root) > Technical Resource`"], ["Marketing Technical Practice > Content Resource > Asset library items", "Approved creatives and copy blocks available for assembly (exemplar items per deployment).", "Technical Context", "`(root) > Technical Resource`"], ["Marketing Technical Practice > Content Resource > UTM schema", "Naming convention for source, medium, and campaign tracking parameters.", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > Attribution Knowledge", "Accumulated models and rules for crediting touchpoints with outcomes (e.g. last-touch, multi-touch, lift).", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Attribution Knowledge > Last-touch model", "Single-credit rule assigning conversion to the final touchpoint.", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Attribution Knowledge > Multi-touch model", "Weighted-credit rule distributing conversion across touchpoints.", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Attribution Knowledge > Incrementality readout", "Lift measured against a holdout group (exemplar readout per deployment).", "Technical Control", "`(root) > Technical Evaluation`"], ["Marketing Technical Practice > Deliverability Knowledge", "Know-how governing inbox, push, and ad-policy acceptance (e.g. SPF/DKIM/DMARC alignment, list hygiene).", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Deliverability Knowledge > SPF/DKIM/DMARC alignment", "Authentication rules establishing sender legitimacy.", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Deliverability Knowledge > List hygiene practice", "Repeatable pattern: pruning invalid and disengaged contacts.", "Technique", "`(root) > Technical Practice`"], ["Marketing Technical Practice > Deliverability Knowledge > Bounce handling rules", "Hard/soft bounce classification with retry-or-suppress logic.", "Knowledge & Methodology", "`(root) > Technical Principle`"], ["Marketing Technical Practice > Experimentation Strategy", "Context-sensitive regime for sequencing tests and allocating traffic (e.g. A/B, holdouts, ramp-ups).", "Knowledge & Methodology", "`(root) > Technical Strategy`"], ["Marketing Technical Practice > Experimentation Strategy > A/B design", "Two-variant comparison under randomized assignment.", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Experimentation Strategy > Holdout design", "Withheld-control comparison measuring incrementality.", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Experimentation Strategy > Geo-split design", "Region-level comparison where contact randomization is infeasible.", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Experimentation Strategy > Ramp-up rule", "Traffic-allocation schedule limiting blast radius (exemplar schedule per deployment).", "Knowledge & Methodology", "`(root) > Technical Principle`"], ["Marketing Technical Practice > M3AAWG", "Messaging anti-abuse institution governing sending best practice.", "Knowledge & Methodology", "`(root) > Technical Institution`"], ["Marketing Technical Practice > IAB", "Advertising-standards institution governing formats, transparency, and consent frameworks.", "Knowledge & Methodology", "`(root) > Technical Institution`"], ["Marketing Technical Practice > Supervisory authority", "Data-protection enforcement institution (exemplar authority per deployment).", "Knowledge & Methodology", "`(root) > Technical Institution`"], ["Marketing Technical Practice > Ad-platform policy governance", "Platform-side rule-making governing creatives, claims, and audiences (exemplar: Meta, Google Ads).", "Knowledge & Methodology", "`(root) > Technical Institution`"], ["Marketing Technical Practice > IAB TCF consent string", "Standard encoding of consent state passed to vendors.", "Requirements & Definition", "`(root) > Technical Standard`"], ["Marketing Technical Practice > ads.txt / sellers.json", "Standards declaring authorized sellers of ad inventory.", "Requirements & Definition", "`(root) > Technical Standard`"], ["Marketing Technical Practice > RFC 7489 DMARC", "Standard aligning authentication results with sender policy.", "Requirements & Definition", "`(root) > Technical Standard`"], ["Marketing Technical Practice > Permission-first principle", "General rule: no outreach without a consent basis.", "Knowledge & Methodology", "`(root) > Technical Principle`"], ["Marketing Technical Practice > Deliverability-before-volume principle", "General rule: reputation constrains scale.", "Knowledge & Methodology", "`(root) > Technical Principle`"], ["Marketing Technical Practice > Test-before-scale principle", "General rule: no full rollout without a readout.", "Knowledge & Methodology", "`(root) > Technical Principle`"], ["Marketing Technical Practice > Suppression-before-send principle", "General rule: exclusion check precedes every dispatch.", "Knowledge & Methodology", "`(root) > Technical Principle`"], ["Marketing Technical Practice > Data-minimization principle", "General rule: collect only attributes segments consume.", "Knowledge & Methodology", "`(root) > Technical Principle`"], ["Marketing Technical Practice > Funnel framework", "Overarching logic staging the journey (awareness, interest, desire, action).", "Knowledge & Methodology", "`(root) > Technical Framework`"], ["Marketing Technical Practice > RACE framework", "Overarching logic planning reach, act, convert, and engage phases.", "Knowledge & Methodology", "`(root) > Technical Framework`"], ["Marketing Technical Practice > Deliverability labor", "Purposive human effort tending warmup, lists, and reputation (exemplar per deployment).", "Agents & Competence", "`(root) > Technical Labor`"], ["Marketing Technical Practice > Sender reputation", "Characteristic attributable to a sending identity (exemplar score per deployment).", "Mechanism & Capability", "`(root) > Technical Property`"], ["Marketing Technical Practice > List quality", "Degree to which a list holds valid, engaged contacts (exemplar per deployment).", "Mechanism & Capability", "`(root) > Technical Quality`"], ["Marketing Technical Practice > Marketing Operator", "Human agent executing techniques through tools, budgets, and calendars (exemplar actors per deployment).", "Agents & Competence", "`(root) > Technical Agent`"], ["Marketing Technical Practice > Marketing Operator > Deliverability competence", "Acquired capacity to sustain placement and sender reputation (exemplar holder per deployment).", "Agents & Competence", "`(root) > Technical Competence`"], ["Marketing Technical Practice > Marketing Operator > Platform certification", "Vendor credential for a delivery or ad platform (exemplar per deployment).", "Agents & Competence", "`(root) > Technical Competence`"], ["Marketing Technical Practice > Marketing Operator > Campaign calendar", "Time-bound plan assigning campaigns to slots (exemplar per deployment).", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > Campaign Pipeline", "Automated agent executing scheduled acts: segmentation, send, sync, and measurement (exemplar per deployment).", "Agents & Competence", "`(root) > Technical Agent`"], ["Marketing Technical Practice > Campaign Pipeline > Segmentation job", "Scheduled computation rebuilding segment membership.", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Pipeline > Send job", "Scheduled act dispatching messages to a segment (exemplar run per deployment).", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Pipeline > Audience-sync job", "Scheduled propagation of segments to ad platforms (exemplar run per deployment).", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Pipeline > Measurement job", "Scheduled collection of delivery and conversion events.", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Pipeline > Schedule", "Cron expression fixing job cadence (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > CRM System", "Production system of record for contacts, consent, and lifecycle stage.", "System Structure", "`(root) > Production Technical System`"], ["Marketing Technical Practice > CRM System > Contact record", "Constitutive object holding one addressable contact.", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > CRM System > Contact record > Contact attribute schema", "Field contract: identifiers, consent flags, lifecycle stage.", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > CRM System > Contact record > Dedupe mechanism", "Merge logic resolving duplicate identities.", "Mechanism & Capability", "`(root) > Technical Mechanism`"], ["Marketing Technical Practice > CRM System > Consent record", "Constitutive object holding opt-in evidence per contact (exemplar entries per deployment).", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > CRM System > Consent record > Opt-in timestamp", "Proof-of-consent attribute (exemplar values per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > CRM System > Lifecycle stage", "Stage marker moving contacts from lead to customer (exemplar stages per deployment).", "System Structure", "`(root) > Technical Configuration`"], ["Marketing Technical Practice > CRM System > Lifecycle stage > Stage-transition automation", "Rule-driven moves on behavior or operator acts.", "Mechanism & Capability", "`(root) > Technical Mechanism`"], ["Marketing Technical Practice > CRM System > Forms API", "Capture boundary for web-originated contacts.", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > CRM System > Import API", "Bulk-ingestion boundary for lists (exemplar files per deployment).", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > CRM System > HubSpot CRM", "Exemplar production CRM implementing the system.", "System Structure", "`(root) > Production Technical Object`"], ["Marketing Technical Practice > CRM System > Salesforce", "Exemplar production CRM implementing the system.", "System Structure", "`(root) > Production Technical Object`"], ["Marketing Technical Practice > Audience Platform", "System constituting segments from contact attributes and behaviors.", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > Audience Platform > Segment definition", "Named cohort rule over attributes and behaviors (exemplar per deployment).", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > Audience Platform > Segment definition > Membership rule", "Boolean and temporal predicate deciding inclusion (exemplar per deployment).", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > Audience Platform > Segment definition > Refresh cadence", "Recompute interval keeping membership current (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Audience Platform > Attribute schema", "Contract of profile fields available to segments.", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > Audience Platform > Behavior-event catalog", "Named events (page view, purchase, lapse) feeding segments.", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > Audience Platform > Segment (Twilio Segment)", "Exemplar customer-data platform implementing the platform.", "System Structure", "`(root) > Production Technical Object`"], ["Marketing Technical Practice > Content System", "System producing and assembling content assets for channels.", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > Content System > Template library", "Reusable layouts for messages and pages (exemplar items per deployment).", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > Content System > Personalization tokens", "Placeholders resolved per contact at send time.", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Content System > Approval flow", "Ordered review acts before release (exemplar per deployment).", "Technique", "`(root) > Technical Activity`"], ["Marketing Technical Practice > Content System > CMS template builder", "Exemplar tool implementing assembly (exemplar per deployment).", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > Delivery Infrastructure", "Infrastructure realizing sends and placements across email, push, paid, and social endpoints (exemplar).", "System Structure", "`(root) > Technical Architecture`"], ["Marketing Technical Practice > Delivery Infrastructure > Email endpoint", "Channel endpoint for mailbox delivery.", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Delivery Infrastructure > Email endpoint > ESP", "Exemplar sending provider (e.g. SendGrid).", "System Structure", "`(root) > Production Technical Object`"], ["Marketing Technical Practice > Delivery Infrastructure > Email endpoint > Sending domain", "Authenticated domain that reputation attaches to (exemplar per deployment).", "System Structure", "`(root) > Technical Configuration`"], ["Marketing Technical Practice > Delivery Infrastructure > Email endpoint > IP warmup schedule", "Ramp plan for new sending IPs (exemplar per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Delivery Infrastructure > Push endpoint", "Channel endpoint for device notifications.", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Delivery Infrastructure > Paid endpoint", "Channel endpoint for auctioned placements.", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Delivery Infrastructure > Paid endpoint > Ad-platform connector", "Sync boundary pushing audiences and pulling delivery (exemplar: Meta, Google Ads).", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Delivery Infrastructure > Paid endpoint > Audience sync", "Propagation of segments into platform custom audiences (exemplar run per deployment).", "System Relations", "`(root) > Technical Interaction`"], ["Marketing Technical Practice > Delivery Infrastructure > Social endpoint", "Channel endpoint for organic social placement (exemplar per deployment).", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Tracking Interface", "Boundary through which behavior is captured into the ensemble.", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Tracking Interface > Tracking pixel", "Client-side capture tag on pages and mail (exemplar deployment).", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Tracking Interface > Conversions API", "Server-side event boundary bypassing client loss (exemplar deployment).", "System Structure", "`(root) > Technical Interface`"], ["Marketing Technical Practice > Tracking Interface > UTM parameters", "Source, medium, and campaign attributes on links (exemplar values per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Tracking Interface > Event catalog", "Contract of tracked conversion events.", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > CRM-to-ESP send dependency", "Relation in which delivery requires contact and suppression state from the CRM.", "System Relations", "`(root) > Technical Dependency`"], ["Marketing Technical Practice > Pipeline-to-CRM dependency", "Relation in which scheduled jobs require CRM reads and writes.", "System Relations", "`(root) > Technical Dependency`"], ["Marketing Technical Practice > Delivery-to-suppression check", "Relation in which every dispatch requires a suppression-list lookup.", "System Relations", "`(root) > Technical Dependency`"], ["Marketing Technical Practice > Paid-to-policy interaction", "Relation through which placements are approved or rejected under platform policy.", "System Relations", "`(root) > Technical Interaction`"], ["Marketing Technical Practice > Tracking-to-attribution interaction", "Relation through which captured events feed attribution credit.", "System Relations", "`(root) > Technical Interaction`"], ["Marketing Technical Practice > Audience Targeting Practice", "Repeatable pattern integrating segmentation, targeting, and measurement across channels.", "Technique", "`(root) > Technical Practice`"], ["Marketing Technical Practice > Audience Targeting Practice > Define activity", "Authoring the segment predicate (exemplar per deployment).", "Technique", "`(root) > Technical Activity`"], ["Marketing Technical Practice > Audience Targeting Practice > Validate activity", "Checking coverage and overlap before publish.", "Technique", "`(root) > Technical Activity`"], ["Marketing Technical Practice > Audience Targeting Practice > Publish activity", "Releasing the segment to targeting and sync.", "Technique", "`(root) > Technical Activity`"], ["Marketing Technical Practice > Audience Targeting Practice > Segmentation Technique", "Generalized method for partitioning audiences by attributes and behaviors.", "Technique", "`(root) > General Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Segmentation Technique > Criterion types", "Demographic, behavioral, and firmographic selectors.", "Knowledge & Methodology", "`(root) > Technical Knowledge`"], ["Marketing Technical Practice > Audience Targeting Practice > Segmentation Technique > Cohort segmentation operation", "Situated application of segmentation to a particular cohort and campaign (exemplar per deployment).", "Technique", "`(root) > Operative Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Segmentation Technique > Cohort segmentation operation > Apply criterion act", "Setting one selector value on the cohort (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Segmentation Technique > Cohort segmentation operation > Set threshold act", "Fixing the inclusion cutoff for the cohort (exemplar value per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Segmentation Technique > Scoring model", "Technique embodied in the platform establishing how contacts are ranked (e.g. lead score, send-time optimization).", "Technique", "`(root) > Constitutive Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Targeting Operation", "Situated application of targeting to a channel placement by an operator or pipeline (exemplar per deployment).", "Technique", "`(root) > Operative Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Targeting Operation > Select segment act", "Binding a published segment to a placement (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Targeting Operation > Bind placement act", "Reserving the channel slot for the segment (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Targeting Operation > Set budget cap act", "Fixing the spend ceiling for the binding (exemplar value per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Targeting Operation > Launch act", "Releasing the binding into operation (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Targeting console & API", "Boundary and means through which the operator or pipeline encodes targeting intent (e.g. ESP dashboard + API, ad-manager + bulk sheet — exemplar).", "Technique", "`(root) > Technical Interface & Actuation`"], ["Marketing Technical Practice > Audience Targeting Practice > Nurture Technique", "Generalized method for sequencing messages that move contacts down-funnel.", "Technique", "`(root) > General Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Nurture Technique > Drip operation", "Situated sequence of timed messages for one cohort (exemplar per deployment).", "Technique", "`(root) > Operative Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Nurture Technique > Drip operation > Wait-step act", "Holding a contact until the next timed message (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Nurture Technique > Drip operation > Branch-on-behavior act", "Routing a contact on an opened, clicked, or lapsed event (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Retargeting Technique", "Generalized method for re-engaging prior visitors or cart abandoners.", "Technique", "`(root) > General Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Retargeting Technique > Pool-build operation", "Situated assembly of the retargeting pool for one placement (exemplar per deployment).", "Technique", "`(root) > Operative Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Retargeting Technique > Pool-build operation > Burn-list act", "Removing converters from the pool (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Lookalike Technique", "Generalized method for expanding reach from a seed audience (exemplar platform builder per deployment).", "Technique", "`(root) > General Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Lookalike Technique > Seed-size parameter", "Seed audience volume the model expands from (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Audience Targeting Practice > Lookalike Technique > Similarity threshold", "Minimum resemblance for inclusion in the expansion (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Audience Targeting Practice > Personalization Technique", "Generalized method for resolving content per contact at send time.", "Technique", "`(root) > General Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Personalization Technique > Render-per-contact act", "Assembling tokens and blocks for one recipient (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Bid Management Technique", "Generalized method for pricing paid placements under caps.", "Technique", "`(root) > General Technique Type`"], ["Marketing Technical Practice > Audience Targeting Practice > Bid Management Technique > Bid-adjust act", "Raising or lowering a bid on performance signals (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Audience Targeting Practice > Bid Management Technique > Frequency cap", "Maximum impressions per contact per period (exemplar value per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Experimentation Practice", "Repeatable pattern: hypothesis, holdout, measurement, and rollout of campaign variants.", "Technique", "`(root) > Technical Practice`"], ["Marketing Technical Practice > Experimentation Practice > Hypothesis", "Falsifiable claim about variant effect (exemplar per deployment).", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > Experimentation Practice > Variant", "Divergent content or bid under test (exemplar per deployment).", "System Structure", "`(root) > Constitutive Technical Object`"], ["Marketing Technical Practice > Experimentation Practice > Randomization unit", "Contact- or geo-level assignment grain (exemplar per deployment).", "Requirements & Definition", "`(root) > Technical Parameter`"], ["Marketing Technical Practice > Experimentation Practice > Guardrail metrics", "Non-regression indicators watched during tests (exemplar set per deployment).", "Technical Control", "`(root) > Technical Feedback`"], ["Marketing Technical Practice > Experimentation Practice > Experiment readout", "Measured lift with uncertainty (exemplar per deployment).", "Technical Control", "`(root) > Technical Evaluation`"], ["Marketing Technical Practice > Experimentation Practice > Pre-registration standard", "Norm fixing hypothesis and metrics before launch.", "Requirements & Definition", "`(root) > Technical Standard`"], ["Marketing Technical Practice > Experimentation Practice > Significance standard", "Norm fixing the confidence level for readout claims (e.g. 95% — exemplar).", "Requirements & Definition", "`(root) > Technical Standard`"], ["Marketing Technical Practice > Experimentation Practice > Holdout maintenance", "Activity preserving holdout purity against leakage.", "Lifecycle & Continuity", "`(root) > Technical Maintenance`"], ["Marketing Technical Practice > Experimentation Practice > Landing Test Technique", "Generalized method for testing page variants behind a campaign.", "Technique", "`(root) > General Technique Type`"], ["Marketing Technical Practice > Experimentation Practice > Landing Test Technique > Page-variant act", "Publishing one page variant under test (exemplar per deployment).", "Technique", "`(root) > Technical Act`"], ["Marketing Technical Practice > Campaign Activity", "Temporally extended sequence: brief, build, launch, monitor, and close a campaign (exemplar).", "Technique", "`(root) > Technical Activity`"], ["Marketing Technical Practice > Campaign Activity > Brief task", "Scoping audience, message, and success criteria (exemplar per deployment).", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Activity > Brief task > Campaign brief", "Decision artifact authorizing production (exemplar per deployment).", "Requirements & Definition", "`(root) > Technical Specification`"], ["Marketing Technical Practice > Campaign Activity > Build task", "Assembling segments, content, and bindings (exemplar per deployment).", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Activity > QA task", "Verifying links, tokens, lists, and caps before launch.", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Activity > QA task > QA checklist", "Conformance artifact gating launch (exemplar per deployment).", "Technical Control", "`(root) > Verification`"], ["Marketing Technical Practice > Campaign Activity > Launch task", "Releasing the campaign into operation (exemplar per deployment).", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Activity > Monitor task", "Watching funnel feedback against guardrails.", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Campaign Activity > Close task", "Archiving assets and recording learnings (exemplar per deployment).", "Technique", "`(root) > Technical Task`"], ["Marketing Technical Practice > Funnel Feedback", "Information about intervention effects enabling adjustment (e.g. delivery, open, click, conversion rates).", "Technical Control", "`(root) > Technical Feedback`"], ["Marketing Technical Practice > Funnel Feedback > Delivery rate", "Share of dispatched messages accepted by the channel (exemplar per deployment).", "Technical Control", "`(root) > Technical Feedback`"], ["Marketing Technical Practice > Funnel Feedback > Open rate", "Share of delivered messages opened (exemplar per deployment).", "Technical Control", "`(root) > Technical Feedback`"], ["Marketing Technical Practice > Funnel Feedback > Click rate", "Share of opened messages clicked through (exemplar per deployment).", "Technical Control", "`(root) > Technical Feedback`"], ["Marketing Technical Practice > Funnel Feedback > Conversion rate", "Share of clicks completing the target act (exemplar per deployment).", "Technical Control", "`(root) > Technical Feedback`"], ["Marketing Technical Practice > Funnel Feedback > CAC", "Realized acquisition cost per customer (exemplar per deployment).", "Mechanism & Capability", "`(root) > Technical Performance`"], ["Marketing Technical Practice > Funnel Feedback > ROAS", "Realized return on ad spend (exemplar per deployment).", "Mechanism & Capability", "`(root) > Technical Performance`"], ["Marketing Technical Practice > Attribution Evaluation", "Systematic determination of which touchpoints drove outcomes under the chosen model.", "Technical Control", "`(root) > Technical Evaluation`"], ["Marketing Technical Practice > Attribution Evaluation > Attribution readout", "Touchpoint credit under the chosen model (exemplar per deployment).", "Technical Control", "`(root) > Technical Evaluation`"], ["Marketing Technical Practice > Attribution Evaluation > Validation against holdout", "Check of attributed credit versus experimental lift.", "Technical Control", "`(root) > Validation`"], ["Marketing Technical Practice > Blocklisting", "State in which a sending domain or IP is listed and placement collapses (exemplar per deployment).", "Technical Control", "`(root) > Technical Failure`"], ["Marketing Technical Practice > Deliverability collapse", "State in which inbox placement falls below usable levels (exemplar per deployment).", "Technical Control", "`(root) > Technical Failure`"], ["Marketing Technical Practice > Audience-sync breakage", "State in which segment propagation to ad platforms stalls (exemplar per deployment).", "Technical Control", "`(root) > Technical Failure`"], ["Marketing Technical Practice > Suppression failure risk", "Possibility and consequence of dispatching to excluded contacts.", "Technical Control", "`(root) > Technical Risk`"], ["Marketing Technical Practice > Volume-vs-deliverability trade-off", "Relationship in which higher send volume constrains placement quality.", "Technical Control", "`(root) > Technical Trade-off`"], ["Marketing Technical Practice > PII retention policy", "Rules bounding how long contact data is kept (exemplar per deployment).", "Technical Control", "`(root) > Technical Security`"], ["Marketing Technical Practice > CRM access control", "Role-based bounds on who reads and writes contact data (exemplar per deployment).", "Technical Control", "`(root) > Technical Security`"], ["Marketing Technical Practice > Campaign Lifecycle", "Temporal trajectory from brief through production, operation, measurement, and retirement (exemplar).", "Lifecycle & Continuity", "`(root) > Technical Lifecycle`"], ["Marketing Technical Practice > Campaign Lifecycle > Brief approval gate", "Decision point authorizing production (exemplar per deployment).", "Lifecycle & Continuity", "`(root) > Technical Lifecycle`"], ["Marketing Technical Practice > Campaign Lifecycle > QA gate", "Decision point authorizing launch (exemplar per deployment).", "Lifecycle & Continuity", "`(root) > Technical Lifecycle`"], ["Marketing Technical Practice > Campaign Lifecycle > Sunset", "Retirement of assets and placements (exemplar per deployment).", "Lifecycle & Continuity", "`(root) > Technical Lifecycle`"], ["Marketing Technical Practice > Evolution blast-to-automation-to-orchestration", "Historical trajectory: batch blasts → triggered automation → AI-orchestrated journeys.", "Lifecycle & Continuity", "`(root) > Technical Evolution`"], ["Marketing Technical Practice > Third-party cookie deprecation", "Condition in which browser tracking identifiers lose viability, forcing server-side capture.", "Lifecycle & Continuity", "`(root) > Technical Obsolescence`"], ["Marketing Technical Practice > Sender-reputation maintenance", "Activity preserving sending-identity standing (warmup tending, complaint watching).", "Lifecycle & Continuity", "`(root) > Technical Maintenance`"], ["Marketing Technical Practice > List re-engagement", "Activity restoring lapsed contacts or pruning them (exemplar per deployment).", "Lifecycle & Continuity", "`(root) > Technical Maintenance`"]];
+/* App: tree build, loose force graph, collapsible list, shared search + detail. */
+(function () {
+'use strict';
+
+var ROOT_DEF = {
+    name: 'Marketing Technical Practice',
+    desc: 'Demand-generation ensemble: systems, techniques, knowledge, and agents operating on audiences, channels, and content.',
+    cat: 'Composite',
+    etype: '(root) > Technical Element Set'
+};
+
+var CATCOLORS = {
+    'Composite': '#C5A467',
+    'Technical Context': '#6FA8DC',
+    'Requirements & Definition': '#9B8CD9',
+    'Knowledge & Methodology': '#63C7A5',
+    'Agents & Competence': '#E0935B',
+    'System Structure': '#4FB3D9',
+    'System Relations': '#D97FB0',
+    'Mechanism & Capability': '#9DC65B',
+    'Technique': '#E7C85B',
+    'Technical Control': '#E26D6D',
+    'Lifecycle & Continuity': '#8FA3B8'
+};
+
+/* ---------- tree ---------- */
+var nodes = new Map();
+function mkNode(name, path, depth, parent) {
+    var n = { name: name, path: path, desc: '', cat: '', etype: '', children: [], parent: parent, depth: depth, x: 0, y: 0, vx: 0, vy: 0, fx: null, fy: null, hiddenMatches: 0 };
+    nodes.set(path, n);
+    if (parent) parent.children.push(n);
+    return n;
+}
+var root = mkNode(ROOT_DEF.name, ROOT_DEF.name, 0, null);
+root.desc = ROOT_DEF.desc; root.cat = ROOT_DEF.cat; root.etype = ROOT_DEF.etype;
+(MTP_ROWS || []).forEach(function (r) {
+    var segs = r[0].split(' > '), cur = segs[0], node = nodes.get(cur);
+    if (!node) node = mkNode(segs[0], cur, 0, null);
+    for (var i = 1; i < segs.length; i++) {
+        cur = cur + ' > ' + segs[i];
+        var child = nodes.get(cur);
+        if (!child) child = mkNode(segs[i], cur, i, node);
+        node = child;
+    }
+    node.desc = r[1]; node.cat = r[2]; node.etype = r[3];
+});
+
+var collapsed = new Set();
+nodes.forEach(function (n) { if (n.depth >= 1 && n.children.length) collapsed.add(n.path); });
+var hiddenCats = new Set();
+var query = '';
+var selected = root;
+
+function descendants(n) {
+    var out = [];
+    (function walk(x) { x.children.forEach(function (c) { out.push(c); walk(c); }); })(n);
+    return out;
+}
+function isHiddenByCollapse(n) {
+    var p = n.parent;
+    while (p) { if (collapsed.has(p.path)) return true; p = p.parent; }
+    return false;
+}
+function visibleNodes() {
+    var out = [];
+    nodes.forEach(function (n) { if (!isHiddenByCollapse(n)) out.push(n); });
+    return out;
+}
+function matches(n) {
+    if (!query) return true;
+    return (n.name + ' ' + n.desc).toLowerCase().indexOf(query) !== -1;
+}
+function catOn(n) { return !hiddenCats.has(n.cat); }
+
+/* ---------- shared UI refs ---------- */
+var svg = document.getElementById('treeSvg');
+var NS = 'http://www.w3.org/2000/svg';
+var viewport = document.createElementNS(NS, 'g');
+svg.appendChild(viewport);
+var linkG = document.createElementNS(NS, 'g');
+var nodeG = document.createElementNS(NS, 'g');
+viewport.appendChild(linkG); viewport.appendChild(nodeG);
+var view = { x: 0, y: 0, k: 1 };
+var W = 800, H = 600;
+
+function sizeSvg() {
+    var r = svg.getBoundingClientRect();
+    if (r.width > 0) { W = r.width; H = r.height || 600; }
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+}
+function applyView() { viewport.setAttribute('transform', 'translate(' + view.x + ',' + view.y + ') scale(' + view.k + ')'); }
+
+/* ---------- force layout ---------- */
+var simNodes = [], simLinks = [], alpha = 1;
+var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function rebuildSim() {
+    simNodes = visibleNodes();
+    var set = new Set(simNodes.map(function (n) { return n.path; }));
+    simLinks = [];
+    simNodes.forEach(function (n) { if (n.parent && set.has(n.parent.path)) simLinks.push([n.parent, n]); });
+    simNodes.forEach(function (n, i) {
+        if (n.fx !== null) { n.x = n.fx; n.y = n.fy; return; }
+        if (!n.x && !n.y) {
+            var a = (i / Math.max(1, simNodes.length)) * Math.PI * 2 + Math.random() * 0.3;
+            var rad = 120 + n.depth * 110;
+            n.x = W / 2 + Math.cos(a) * rad; n.y = H / 2 + Math.sin(a) * rad;
+        }
+        n.vx = 0; n.vy = 0;
+    });
+    alpha = 1;
+    renderStatic();
+}
+function tick() {
+    var cx = W / 2, cy = H / 2, i, j, a, b, dx, dy, d2, d, f;
+    for (i = 0; i < simNodes.length; i++) {
+        a = simNodes[i];
+        for (j = i + 1; j < simNodes.length; j++) {
+            b = simNodes[j];
+            dx = a.x - b.x; dy = a.y - b.y; d2 = dx * dx + dy * dy;
+            if (d2 > 19600 || d2 < 1) continue;
+            d = Math.sqrt(d2); f = Math.min(40, 2600 / d2) / d;
+            a.vx += dx * f; a.vy += dy * f; b.vx -= dx * f; b.vy -= dy * f;
+        }
+    }
+    for (i = 0; i < simLinks.length; i++) {
+        a = simLinks[i][0]; b = simLinks[i][1];
+        dx = b.x - a.x; dy = b.y - a.y; d = Math.sqrt(dx * dx + dy * dy) || 1;
+        f = (d - 120) * 0.02 / d;
+        if (a.fx === null) { a.vx += dx * f; a.vy += dy * f; }
+        if (b.fx === null) { b.vx -= dx * f; b.vy -= dy * f; }
+    }
+    for (i = 0; i < simNodes.length; i++) {
+        a = simNodes[i];
+        if (a.fx !== null) { a.x = a.fx; a.y = a.fy; a.vx = a.vy = 0; continue; }
+        a.vx += (cx - a.x) * 0.012; a.vy += (cy - a.y) * 0.012;
+        a.vx *= 0.86; a.vy *= 0.86;
+        a.x += a.vx * alpha; a.y += a.vy * alpha;
+    }
+    alpha *= 0.986;
+    positionEls();
+    if (alpha > 0.02) requestAnimationFrame(tick);
+}
+function reheat() { alpha = Math.max(alpha, 0.6); requestAnimationFrame(tick); }
+
+/* ---------- graph render ---------- */
+var elByPath = new Map();
+function shortLabel(s) { return s.length > 30 ? s.slice(0, 29) + '…' : s; }
+function renderStatic() {
+    while (linkG.firstChild) linkG.removeChild(linkG.firstChild);
+    while (nodeG.firstChild) nodeG.removeChild(nodeG.firstChild);
+    elByPath = new Map();
+    simLinks.forEach(function (L) {
+        var el = document.createElementNS(NS, 'line');
+        el.setAttribute('class', 'link');
+        linkG.appendChild(el);
+        L.el = el;
+    });
+    simNodes.forEach(function (n) {
+        n.badgeC = null; n.badgeT = null;
+        var g = document.createElementNS(NS, 'g');
+        g.setAttribute('class', 'node');
+        var halo = document.createElementNS(NS, 'circle');
+        halo.setAttribute('class', 'halo'); halo.setAttribute('r', '12');
+        var c = document.createElementNS(NS, 'circle');
+        c.setAttribute('class', 'face');
+        c.setAttribute('r', n.depth === 0 ? '11' : '7');
+        c.setAttribute('fill', CATCOLORS[n.cat] || '#8A8FA6');
+        var t = document.createElementNS(NS, 'text');
+        t.setAttribute('x', '12'); t.setAttribute('y', '4');
+        t.textContent = shortLabel(n.name);
+        g.appendChild(halo); g.appendChild(c); g.appendChild(t);
+        if (collapsed.has(n.path) && n.children.length) {
+            var hid = descendants(n).length;
+            var b = document.createElementNS(NS, 'circle');
+            b.setAttribute('class', 'badge'); b.setAttribute('cx', '9'); b.setAttribute('cy', '-9'); b.setAttribute('r', '8');
+            var bt = document.createElementNS(NS, 'text');
+            bt.setAttribute('class', 'badge-t'); bt.setAttribute('x', '9'); bt.setAttribute('y', '-6');
+            bt.textContent = String(hid);
+            n.badgeC = b; n.badgeT = bt;
+            g.appendChild(b); g.appendChild(bt);
+        }
+        g.addEventListener('pointerdown', function (ev) { onNodeDown(ev, n); });
+        g.addEventListener('dblclick', function (ev) { ev.stopPropagation(); centerOn(n); });
+        nodeG.appendChild(g);
+        n.g = g;
+        elByPath.set(n.path, n);
+    });
+    applyFilters();
+    positionEls();
+}
+function positionEls() {
+    simLinks.forEach(function (L) {
+        var el = L.el; if (!el) return;
+        el.setAttribute('x1', L[0].x); el.setAttribute('y1', L[0].y);
+        el.setAttribute('x2', L[1].x); el.setAttribute('y2', L[1].y);
+    });
+    simNodes.forEach(function (n) {
+        if (n.g) n.g.setAttribute('transform', 'translate(' + n.x + ',' + n.y + ')');
+    });
+}
+function applyFilters() {
+    var anyQ = !!query;
+    simNodes.forEach(function (n) {
+        var dim = !catOn(n);
+        if (n.g) {
+            n.g.classList.toggle('dim', dim);
+            n.g.classList.toggle('match', anyQ && matches(n));
+            n.g.classList.toggle('selected', selected === n);
+        }
+        if (n.badgeT) {
+            if (anyQ) {
+                n.badgeT.textContent = String(n.hiddenMatches || 0);
+                n.badgeC.classList.toggle('matchon', (n.hiddenMatches || 0) > 0);
+            } else {
+                n.badgeT.textContent = String(descendants(n).length);
+                n.badgeC.classList.remove('matchon');
+            }
+        }
+    });
+    simLinks.forEach(function (L) {
+        if (L.el) L.el.classList.toggle('dim', !catOn(L[0]) || !catOn(L[1]));
+    });
+    updateCounts();
+}
+function updateCounts() {
+    var vis = simNodes.length, m = 0, mv = 0;
+    if (query) {
+        nodes.forEach(function (n) { if (matches(n)) m++; });
+        simNodes.forEach(function (n) { if (matches(n)) mv++; });
+    }
+    document.getElementById('counts').textContent =
+        nodes.size + ' nodes · ' + vis + ' shown' + (query ? ' · ' + m + ' matched (' + mv + ' visible)' : '');
+}
+/* Staged disclosure: expansion happens only by clicking a node. Search
+   highlights matches and counts them per hidden subtree, but never opens
+   anything by itself. */
+function computeMatchBadges() {
+    nodes.forEach(function (n) { n.hiddenMatches = 0; });
+    if (!query) return;
+    nodes.forEach(function (n) {
+        if (!matches(n)) return;
+        var p = n.parent;
+        while (p) {
+            if (collapsed.has(p.path)) {
+                var a = nodes.get(p.path);
+                if (a) a.hiddenMatches++;
+            }
+            p = p.parent;
+        }
+    });
+}
+
+/* node drag vs click */
+var dragN = null, dragMoved = false, lastPX = 0, lastPY = 0;
+function svgPoint(ev) {
+    var r = svg.getBoundingClientRect();
+    return { x: (ev.clientX - r.left - view.x) / view.k, y: (ev.clientY - r.top - view.y) / view.k };
+}
+function onNodeDown(ev, n) {
+    ev.stopPropagation();
+    dragN = n; dragMoved = false;
+    /* Click-vs-drag is measured in client pixels: the layout keeps moving
+       under the cursor while the simulation cools, so a world-unit threshold
+       misfires every click into a drag. */
+    var startCX = ev.clientX, startCY = ev.clientY;
+    var mv = function (e2) {
+        if (Math.hypot(e2.clientX - startCX, e2.clientY - startCY) > 6) dragMoved = true;
+        if (dragMoved) { var q = svgPoint(e2); n.fx = q.x; n.fy = q.y; reheat(); }
+    };
+    var up = function () {
+        window.removeEventListener('pointermove', mv);
+        window.removeEventListener('pointerup', up);
+        if (dragN) { dragN.fx = null; dragN.fy = null; }
+        if (!dragMoved) { toggleCollapse(n); select(n); }
+        dragN = null;
+    };
+    window.addEventListener('pointermove', mv);
+    window.addEventListener('pointerup', up);
+}
+function toggleCollapse(n) {
+    if (!n.children.length) return;
+    if (collapsed.has(n.path)) collapsed.delete(n.path); else collapsed.add(n.path);
+    rebuildSim(); syncList(); reheat();
+}
+function centerOn(n) {
+    showTab('graph');
+    view.k = Math.max(view.k, 1);
+    view.x = W / 2 - n.x * view.k; view.y = H / 2 - n.y * view.k;
+    applyView(); select(n);
+}
+/* background pan + zoom */
+(function () {
+    var panning = false, sx = 0, sy = 0;
+    svg.addEventListener('pointerdown', function (ev) {
+        panning = true; sx = ev.clientX - view.x; sy = ev.clientY - view.y;
+        svg.classList.add('panning');
+        var mv = function (e2) { if (panning) { view.x = e2.clientX - sx; view.y = e2.clientY - sy; applyView(); } };
+        var up = function () { panning = false; svg.classList.remove('panning'); window.removeEventListener('pointermove', mv); window.removeEventListener('pointerup', up); };
+        window.addEventListener('pointermove', mv);
+        window.addEventListener('pointerup', up);
+    });
+    svg.addEventListener('wheel', function (ev) {
+        ev.preventDefault();
+        var r = svg.getBoundingClientRect();
+        var mx = ev.clientX - r.left, my = ev.clientY - r.top;
+        var k2 = Math.min(3, Math.max(0.3, view.k * (ev.deltaY < 0 ? 1.12 : 0.89)));
+        view.x = mx - (mx - view.x) * (k2 / view.k);
+        view.y = my - (my - view.y) * (k2 / view.k);
+        view.k = k2; applyView();
+    }, { passive: false });
+})();
+
+/* ---------- list view ---------- */
+var listView = document.getElementById('listView');
+function buildList() {
+    listView.innerHTML = '';
+    var ul = document.createElement('ul');
+    ul.appendChild(listItem(root));
+    listView.appendChild(ul);
+    syncList();
+}
+function listItem(n) {
+    var li = document.createElement('li');
+    li.dataset.path = n.path;
+    var row = document.createElement('div');
+    row.className = 'trow';
+    var tw = document.createElement('button');
+    tw.type = 'button';
+    tw.className = 'twisty' + (n.children.length ? '' : ' leaf');
+    tw.textContent = '▸';
+    tw.setAttribute('aria-label', 'Expand or collapse ' + n.name);
+    tw.addEventListener('click', function () { toggleCollapse(n); });
+    var nm = document.createElement('span');
+    nm.className = 'tname'; nm.textContent = n.name;
+    nm.addEventListener('click', function () { select(n); });
+    var chip = document.createElement('span');
+    chip.className = 'tchip'; chip.textContent = n.cat;
+    row.appendChild(tw); row.appendChild(nm); row.appendChild(chip);
+    li.appendChild(row);
+    if (n.desc) {
+        var d = document.createElement('p');
+        d.className = 'tdesc'; d.textContent = n.desc;
+        li.appendChild(d);
+    }
+    if (n.children.length) {
+        var sub = document.createElement('ul');
+        n.children.forEach(function (c) { sub.appendChild(listItem(c)); });
+        li.appendChild(sub);
+    }
+    return li;
+}
+function subtreeVisible(n) {
+    if (!matches(n) || !catOn(n)) {
+        return n.children.some(subtreeVisible);
+    }
+    return true;
+}
+function syncList() {
+    var items = listView.querySelectorAll('li');
+    items.forEach(function (li) {
+        var n = nodes.get(li.dataset.path);
+        if (!n) return;
+        li.classList.toggle('nomatch', !subtreeVisible(n));
+        var tw = li.querySelector(':scope > .trow > .twisty');
+        if (tw && n.children.length) tw.textContent = collapsed.has(n.path) ? '▸' : '▾';
+        var sub = li.querySelector(':scope > ul');
+        if (sub) sub.style.display = collapsed.has(n.path) ? 'none' : '';
+        var row = li.querySelector(':scope > .trow');
+        var old = row.querySelector('.mbadge');
+        if (old) old.parentNode.removeChild(old);
+        if (query && n.children.length && collapsed.has(n.path) && (n.hiddenMatches || 0) > 0) {
+            var mb = document.createElement('span');
+            mb.className = 'tchip mbadge';
+            mb.textContent = n.hiddenMatches + ' below — click to open';
+            row.appendChild(mb);
+        }
+    });
+}
+
+/* ---------- detail ---------- */
+function select(n) {
+    selected = n;
+    document.getElementById('dName').textContent = n.name;
+    document.getElementById('dPath').textContent = n.path;
+    document.getElementById('dDesc').textContent = n.desc;
+    document.getElementById('dMeta').innerHTML = '';
+    var meta = document.getElementById('dMeta');
+    function kv(k, v) {
+        var d = document.createElement('div');
+        var s = document.createElement('span'); s.className = 'k'; s.textContent = k + ' ';
+        d.appendChild(s); d.appendChild(document.createTextNode(v));
+        meta.appendChild(d);
+    }
+    kv('category:', n.cat);
+    kv('element:', n.etype);
+    kv('depth:', String(n.depth));
+    kv('children:', String(n.children.length));
+    if (n.children.length) kv('descendants:', String(descendants(n).length));
+    document.getElementById('dToggle').textContent = collapsed.has(n.path) ? 'Expand subtree' : (n.children.length ? 'Collapse subtree' : 'Leaf node');
+    applyFilters();
+}
+document.getElementById('dToggle').addEventListener('click', function () { toggleCollapse(selected); select(selected); });
+document.getElementById('dFocus').addEventListener('click', function () { centerOn(selected); });
+
+/* ---------- tabs / toolbar ---------- */
+function showTab(which) {
+    var g = which === 'graph';
+    document.getElementById('graphView').style.display = g ? '' : 'none';
+    document.getElementById('listView').style.display = g ? 'none' : '';
+    document.getElementById('tabGraph').setAttribute('aria-selected', g ? 'true' : 'false');
+    document.getElementById('tabList').setAttribute('aria-selected', g ? 'false' : 'true');
+    if (g) { sizeSvg(); applyView(); }
+}
+document.getElementById('tabGraph').addEventListener('click', function () { showTab('graph'); });
+document.getElementById('tabList').addEventListener('click', function () { showTab('list'); });
+document.getElementById('expandAll').addEventListener('click', function () { collapsed.clear(); rebuildSim(); syncList(); reheat(); });
+document.getElementById('collapseAll').addEventListener('click', function () {
+    collapsed.clear();
+    nodes.forEach(function (n) { if (n.depth >= 1 && n.children.length) collapsed.add(n.path); });
+    rebuildSim(); syncList(); reheat();
+});
+document.getElementById('search').addEventListener('input', function (ev) {
+    query = ev.target.value.trim().toLowerCase();
+    computeMatchBadges();
+    applyFilters(); syncList();
+});
+
+/* legend */
+(function () {
+    var legend = document.getElementById('legend');
+    Object.keys(CATCOLORS).forEach(function (c) {
+        if (!Array.from(nodes.values()).some(function (n) { return n.cat === c; })) return;
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'chip';
+        var dot = document.createElement('span');
+        dot.className = 'dot'; dot.style.background = CATCOLORS[c];
+        b.appendChild(dot); b.appendChild(document.createTextNode(c));
+        b.addEventListener('click', function () {
+            if (hiddenCats.has(c)) { hiddenCats.delete(c); b.classList.remove('off'); }
+            else { hiddenCats.add(c); b.classList.add('off'); }
+            applyFilters(); syncList();
+        });
+        legend.appendChild(b);
+    });
+})();
+
+/* ---------- init ---------- */
+sizeSvg();
+view.x = 0; view.y = 0; view.k = 1;
+rebuildSim();
+buildList();
+select(root);
+applyView();
+if (reduced) { for (var i = 0; i < 400 && alpha > 0.02; i++) { tick0(); } }
+else { requestAnimationFrame(tick); }
+function tick0() {
+    var cx = W / 2, cy = H / 2, i, j, a, b, dx, dy, d2, d, f;
+    for (i = 0; i < simNodes.length; i++) {
+        a = simNodes[i];
+        for (j = i + 1; j < simNodes.length; j++) {
+            b = simNodes[j];
+            dx = a.x - b.x; dy = a.y - b.y; d2 = dx * dx + dy * dy;
+            if (d2 > 19600 || d2 < 1) continue;
+            d = Math.sqrt(d2); f = Math.min(40, 2600 / d2) / d;
+            a.vx += dx * f; a.vy += dy * f; b.vx -= dx * f; b.vy -= dy * f;
+        }
+    }
+    for (i = 0; i < simLinks.length; i++) {
+        a = simLinks[i][0]; b = simLinks[i][1];
+        dx = b.x - a.x; dy = b.y - a.y; d = Math.sqrt(dx * dx + dy * dy) || 1;
+        f = (d - 120) * 0.02 / d;
+        a.vx += dx * f; a.vy += dy * f; b.vx -= dx * f; b.vy -= dy * f;
+    }
+    for (i = 0; i < simNodes.length; i++) {
+        a = simNodes[i];
+        a.vx += (cx - a.x) * 0.012; a.vy += (cy - a.y) * 0.012;
+        a.vx *= 0.86; a.vy *= 0.86;
+        a.x += a.vx * alpha; a.y += a.vy * alpha;
+    }
+    alpha *= 0.986;
+    positionEls();
+}
+window.addEventListener('resize', function () { sizeSvg(); applyView(); });
+window.addEventListener('epistecnica-theme', function () { positionEls(); });
+})();
+</script>
+<script>
+(function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+        label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+        if (fading) return;
+        fading = true;
+        var root = document.documentElement;
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var swap = function () {
+            root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+            try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+            apply();
+            root.classList.remove('theme-fading');
+            fading = false;
+            window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+        };
+        if (reduced) { swap(); return; }
+        root.classList.add('theme-fading');
+        setTimeout(swap, 190);
+    });
+    apply();
+})();
+</script>
+</body>
+</html>
