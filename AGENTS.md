@@ -77,6 +77,34 @@ disabled.
   `TECNICA_DB` (default `tecnica`), plus `COUCHDB_URL`, `COUCHDB_USER`,
   `COUCHDB_PASSWORD`. `.env` is gitignored and must stay that way.
 
+## Notes corpus — multinode note conventions
+
+Multinode notes (`src/note/app/notes/cto/es/multinode/`, e.g. `openapi.md`,
+`wildfly.md`, `marketing-technical-practice.md`) document one technical
+instance with the shell from
+`src/note/app/notes/general/philosophia-artium-technicarum-et-operis.md`
+(`# …` / intro / three Formulation questions / References) plus a single
+instance-decomposition table:
+
+- Table contract: 4 columns (`Instance Tree Path | Description | Technical
+  Category | Technical Element Type Tree Path`) under a Boundary /
+  Stopping-rule / Identity / Verbs block. Every path unique; a row is
+  terminal when it names a concrete tool, file, config attribute, measured
+  value, or named actor.
+- Verbs: a tool *implements* the standard/practice; a running
+  deployment/campaign/client *realizes* it. Deployment-specific values and
+  named vendors appear only in rows marked exemplar.
+- Technique subtrees follow the taxonomy chain Practice → Activity → Task →
+  General Technique Type → Operative Technique Type → Constitutive
+  Technique Type → Technical Act → Technical Interface & Actuation; do not
+  skip levels or hang Activities under a General Technique.
+- Depth guidance: deep core (systems + techniques to levels 4–5), shallow
+  rest (context/control/lifecycle +1). `wildfly.md` is the full-recursion
+  exemplar (~2.5k rows), `openapi.md` the mid-scale one (~50 rows).
+- Filenames stay ASCII lowercase kebab-case; titles come from the first `# `
+  heading (`src/note/README.md` owns naming/tags rules). Run
+  `make notes-index` after any corpus edit (see verification list below).
+
 ## Run / verify locally
 
 ```
