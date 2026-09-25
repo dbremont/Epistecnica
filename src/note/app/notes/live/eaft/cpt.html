@@ -54,6 +54,207 @@
     body { transition: opacity 180ms ease; }
     html.theme-fading body { opacity: 0; }
 
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
     .site-nav {
       position: sticky;
       top: 0;
@@ -820,6 +1021,7 @@
   </style>
 </head>
 <body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
       <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -830,12 +1032,65 @@
     </div>
   </nav>
 
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span>eaft</span><span class="sep">/</span><span class="here">cpt</span></div>
+      <h1 class="note-title">Concept</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#concept</span>
+        <span class="chip">#artifact-type</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A Concept is a structured epistemic artifact that partitions reality into instances and non-instances through a definable intension (conditions) and observable extension (members).</p>
+            </blockquote>
+
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+              <li><a href="#conceptual-layer">Conceptual Layer</a> — type definition</li>
+              <li><a href="#epistemic-role">Epistemic Role</a> — categorical affirmations</li>
+              <li><a href="#instance-space">Instance Space</a> — intension, extension, prototype, boundary</li>
+              <li><a href="#constraint-system">Constraint System</a> — membership checks</li>
+              <li><a href="#instance-layer">Instance Layer</a> — worked instance</li>
+              <li><a href="#intension">Intension (Properties)</a> — defining properties</li>
+              <li><a href="#extension">Extension (Instances)</a> — members</li>
+              <li><a href="#transformations">Transformations</a> — specialize, generalize, differentiate, abstract</li>
+              <li><a href="#trace">Transformation Trace</a> — operation log</li>
+              <li><a href="#diagnostics">Diagnostic questions</a> — membership, boundaries</li>
+              <li><a href="#references">References</a> — schema</li>
+            </ul>
+
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Concrete Epistemic Artifact</strong> — one realized concept instance (here: Bird) — produced by applying an <strong>Epistemic Operator</strong> (intension checks and transformations), and usable as an <strong>Epistemic Standard</strong> (non-empty intension, intension–extension consistency, prototype existence). Schema: <a href="../../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>A <strong>Concept</strong> worked through the prototype Bird: intension (has feathers, has wings, lays eggs, can fly, warm-blooded) and extension (sparrow, eagle, robin; boundary cases penguin, ostrich, kiwi, bat, archaeopteryx). Type: a structured epistemic artifact partitioning reality into instances and non-instances.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>It encodes <strong>categorical affirmations</strong> about reality: things belong together by virtue of shared properties, enabling recognition, inference, and communication. Specialize narrows the extension, generalize broadens it, differentiate splits, abstract merges — each recorded in the transformation trace.</p>
+            </blockquote>
+
   <div class="notebook-container">
     <!-- Header -->
     <header class="main-header">
       <div class="header-title">
         <span>Epistemic Artifact Type</span>
-        <h1>Concept</h1>
       </div>
       <div class="header-actions">
         <button class="btn" onclick="resetInstance()" aria-label="Reset to prototype">Reset</button>
@@ -846,7 +1101,7 @@
     <!-- Left Panel: Conceptual Layer -->
     <aside class="panel">
       <div class="panel-header">
-        <h2>Conceptual Layer</h2>
+        <h2 id="conceptual-layer">Conceptual Layer</h2>
         <h3>Type Definition</h3>
       </div>
       <div class="panel-content">
@@ -855,12 +1110,12 @@
         </div>
 
         <div class="section">
-          <h2>Epistemic Role</h2>
+          <h2 id="epistemic-role">Epistemic Role</h2>
           <p>Concepts encode <em>categorical affirmations</em> about reality: they assert that certain things belong together by virtue of shared properties, enabling recognition, inference, and communication.</p>
         </div>
 
         <div class="section">
-          <h2>Instance Space</h2>
+          <h2 id="instance-space">Instance Space</h2>
           <div class="component-list">
             <div class="component-item active" onclick="selectComponent('intension')">
               <h4>Intension</h4>
@@ -882,7 +1137,7 @@
         </div>
 
         <div class="section">
-          <h2>Constraint System</h2>
+          <h2 id="constraint-system">Constraint System</h2>
           <div id="constraintList"></div>
         </div>
       </div>
@@ -922,12 +1177,12 @@
     <!-- Right Panel: Instance Layer -->
     <aside class="panel">
       <div class="panel-header">
-        <h2>Instance Layer</h2>
+        <h2 id="instance-layer">Instance Layer</h2>
         <h3 id="instanceName">Concept: Bird</h3>
       </div>
       <div class="panel-content">
         <div class="section">
-          <h2>Intension (Properties)</h2>
+          <h2 id="intension">Intension (Properties)</h2>
           <div class="property-list" id="propertyList"></div>
           <div class="add-input-group">
             <input type="text" id="newProperty" placeholder="Add property..." aria-label="New property name">
@@ -936,7 +1191,7 @@
         </div>
 
         <div class="section">
-          <h2>Extension (Instances)</h2>
+          <h2 id="extension">Extension (Instances)</h2>
           <div class="extension-grid" id="extensionGrid"></div>
           <div class="add-input-group">
             <input type="text" id="newInstance" placeholder="Add instance..." aria-label="New instance name">
@@ -945,7 +1200,7 @@
         </div>
 
         <div class="section">
-          <h2>Transformations</h2>
+          <h2 id="transformations">Transformations</h2>
           <div class="transform-grid">
             <button class="transform-btn" onclick="applyTransformation('specialize')">
               <h4>Specialize</h4>
@@ -967,11 +1222,53 @@
         </div>
 
         <div class="section">
-          <h2>Transformation Trace</h2>
+          <h2 id="trace">Transformation Trace</h2>
           <div class="trace-list" id="traceList"></div>
         </div>
       </div>
     </aside>
+  </div>
+
+            <h2 id="diagnostics">Diagnostic questions</h2>
+
+            <h3>What fails membership?</h3>
+            <blockquote>
+              <p>Constraint indicators flip from satisfied to violated — the instance is rejected from the extension until its properties conform.</p>
+            </blockquote>
+
+            <h3>What moves the intension/extension boundary?</h3>
+            <blockquote>
+              <p>Specialize adds a property and narrows the extension; generalize removes one and broadens it; differentiate splits by distinguishing property; abstract removes distinguishing features.</p>
+            </blockquote>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="../../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#conceptual-layer">Conceptual layer</a>
+          <a class="toc-item" href="#epistemic-role">Epistemic role</a>
+          <a class="toc-item" href="#instance-space">Instance space</a>
+          <a class="toc-item" href="#constraint-system">Constraint system</a>
+          <a class="toc-item" href="#instance-layer">Instance layer</a>
+          <a class="toc-item" href="#intension">Intension</a>
+          <a class="toc-item" href="#extension">Extension</a>
+          <a class="toc-item" href="#transformations">Transformations</a>
+          <a class="toc-item" href="#trace">Trace</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
   </div>
 
   <footer class="site-footer">
@@ -1708,5 +2005,85 @@
     apply();
   })();
   </script>
+  <script>
+    // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+    document.addEventListener('DOMContentLoaded', () => { initTocHighlight(); initAmbient(); });
+  </script>
+  <script src="../../../..//glossarium/js/glossarium-lookup.js" data-glossarium="../../../..//glossarium/data/index.json" defer></script>
 </body>
 </html>

@@ -55,9 +55,12 @@
     html.theme-fading body { opacity: 0; }
 
     .site-nav {
-      position: static;
+      position: sticky;
+      top: 0;
       z-index: 60;
       background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border-subtle);
     }
 
@@ -178,21 +181,14 @@
 
     .mono { font-family: var(--font-mono); }
 
-    .bg-atmosphere {
-      background-image: 
-        radial-gradient(ellipse at 15% 10%, rgba(0, 229, 184, 0.06) 0%, transparent 45%),
-        radial-gradient(ellipse at 85% 90%, rgba(244, 114, 182, 0.04) 0%, transparent 45%),
-        radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-    }
-
     .section-card {
-      background: var(--bg-card);
+      background: var(--card-bg);
       border: 1px solid var(--border-subtle);
-      border-radius: 12px;
-      transition: border-color 0.25s ease, box-shadow 0.25s ease;
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      position: relative;
     }
-
-    .section-card:hover { border-color: var(--border); }
     .section-card:focus-within {
       border-color: var(--accent);
       box-shadow: 0 0 0 3px var(--accent-glow);
@@ -339,7 +335,7 @@
     }
 
     .intensity-tooltip {
-      position: fixed;
+      position: absolute;
       background: var(--bg-highlight);
       border: 1px solid var(--border);
       padding: 0.75rem 1rem;
@@ -478,20 +474,208 @@
       color: var(--warning);
     }
 
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      position: relative;
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body section[id] { scroll-margin-top: 6rem; }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
     /* ---- heading face ---- */
     h1, h2, h3 {
       font-family: var(--font-display);
     }
 
     /* ---- utility shim (replaces the Tailwind CDN) ---- */
-    .below-nav { top: 60px; height: calc(100vh - 60px); }
     .hidden { display: none; }
     .flex { display: flex; }
     .grid { display: grid; }
     .flex-wrap { flex-wrap: wrap; }
     .flex-1 { flex: 1 1 0%; }
     .flex-shrink-0 { flex-shrink: 0; }
-    .fixed { position: fixed; }
     .relative { position: relative; }
     .left-0 { left: 0; }
     .z-50 { z-index: 50; }
@@ -626,11 +810,11 @@
     }
     @media (min-width: 1024px) {
       .lg\:block { display: block; }
-      .lg\:ml-56 { margin-left: 14rem; }
     }
   </style>
 </head>
-<body class="bg-atmosphere">
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
       <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -641,7 +825,22 @@
     </div>
   </nav>
 
-  <!-- Intensity Tooltip (Global) -->
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">hp</span></div>
+      <h1 class="note-title">Hawkes Process</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#temporal</span>
+        <span class="chip">#generative</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+    <!-- Intensity Tooltip (scoped inside card) -->
   <div class="intensity-tooltip" id="intensity-tooltip">
     <div class="font-medium mb-2">Intensity at t = <span id="tooltip-time">0.00</span></div>
     <div class="mono text-lg font-bold accent-text mb-2">λ*(t) = <span id="tooltip-intensity">0.00</span></div>
@@ -664,66 +863,42 @@
     </div>
   </div>
 
-  <!-- Navigation Sidebar -->
-  <nav class="fixed left-0 below-nav w-56 p-5 border-r hidden lg:block overflow-y-auto z-50 bg-deep" id="sidebar">
-    <div class="mb-6">
-      <div class="text-xs uppercase tracking-wider text-muted mb-1">Epistemic Tool</div>
-      <div class="text-lg font-semibold accent-text">Hawkes Process</div>
-    </div>
-    <div class="space-y-0.5" id="nav-links">
-      <a href="#identity" class="nav-link">Identity</a>
-      <a href="#formal" class="nav-link">Formal Characterization</a>
-      <a href="#mechanism" class="nav-link">Mechanism</a>
-      <a href="#simulation" class="nav-link">Interactive Simulation</a>
-      <a href="#epistemic-role" class="nav-link">Epistemic Role</a>
-      <a href="#validation" class="nav-link">Validation</a>
-      <a href="#limits" class="nav-link">Scope & Limits</a>
-      <a href="#qa" class="nav-link">Diagnostic QA</a>
-    </div>
-    <div class="mt-6 pt-6 border-t">
-      <div class="text-xs text-muted mb-2">Process Status</div>
-      <div class="flex items-center gap-2">
-        <div class="w-8 h-8 rounded-full border-2 flex items-center justify-center" id="status-indicator" style="border-color: var(--accent);">
-          <div class="w-3 h-3 rounded-full" id="status-dot" style="background: var(--accent);"></div>
-        </div>
-        <div>
-          <div class="text-sm font-medium" id="stability-label">Stationary</div>
-          <div class="text-xs text-muted" id="stability-sublabel">n = 0.80</div>
-        </div>
-      </div>
-    </div>
-    <div class="mt-4 pt-4 border-t">
-      <div class="text-xs text-muted mb-2">Quick Stats</div>
-      <div class="space-y-1">
-        <div class="flex justify-between text-xs">
-          <span class="text-muted">Events</span>
-          <span class="mono" id="quick-events">0</span>
-        </div>
-        <div class="flex justify-between text-xs">
-          <span class="text-muted">λ*(t)</span>
-          <span class="mono" id="quick-intensity">0.00</span>
-        </div>
-        <div class="flex justify-between text-xs">
-          <span class="text-muted">E[λ]</span>
-          <span class="mono" id="quick-mean">0.00</span>
-        </div>
-      </div>
-    </div>
-  </nav>
+          <div class="markdown-body">
 
-  <!-- Main Content -->
-  <main class="lg:ml-56 min-h-screen">
-    <div class="max-w-5xl mx-auto px-6 py-12">
-      
-      <!-- Header -->
-      <header class="mb-12 animate-in">
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-2 h-2 rounded-full bg-accent"></div>
-          <span class="mono text-xs text-muted uppercase tracking-widest">Epistemic Tool Notebook</span>
-        </div>
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Hawkes Process</h1>
-        <p class="text-lg text-sec max-w-2xl">A self-exciting point process for modeling temporal clustering. Each event increases future event probability, with influence decaying exponentially over time.</p>
-      </header>
+            <blockquote>
+              <p>A self-exciting point process for modeling temporal clustering. Each event increases future event probability, with influence decaying exponentially over time.</p>
+            </blockquote>
+
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+              <li><a href="#identity">Identity</a></li>
+              <li><a href="#formal">Formal Characterization</a></li>
+              <li><a href="#mechanism">Mechanism</a></li>
+              <li><a href="#simulation">Interactive Simulation</a></li>
+              <li><a href="#epistemic-role">Epistemic Role</a></li>
+              <li><a href="#validation">Validation</a></li>
+              <li><a href="#limits">Scope &amp; Limits</a></li>
+              <li><a href="#diagnostics">Diagnostic Questions</a></li>
+              <li><a href="#references">References</a> — sources &amp; schema</li>
+            </ul>
+
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Concrete Epistemic Artifact</strong> — a probabilistic model of one temporal event sequence — produced by applying an <strong>Epistemic Operator</strong> (the Hawkes intensity with exponential kernel), and usable as an <strong>Epistemic Standard</strong> (stationarity and residual checks). Schema: <a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>A self-exciting point process with base intensity μ, excitation α, and decay β: each event adds α to the intensity, decaying at rate β. Type: <strong>Generative / Inferential probability model</strong> — a temporal structure discovery tool within the epistemic toolbox.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>It resolves the epistemic gap of <strong>temporal structure discovery</strong> — distinguishing endogenous dynamics (self-excitation) from exogenous factors (background rate). It preserves temporal order, event count, and clustering degree; it destroys individual causality and inhibition effects.</p>
+            </blockquote>
 
       <!-- Identity Section -->
       <section id="identity" class="mb-10 animate-in stagger-1">
@@ -1257,7 +1432,7 @@
       </section>
 
       <!-- Diagnostic QA -->
-      <section id="qa" class="mb-10 animate-in">
+      <section id="diagnostics" class="mb-10 animate-in">
         <div class="section-card p-5">
           <h2 class="text-xl font-semibold mb-5">Diagnostic Questions</h2>
           
@@ -1278,15 +1453,57 @@
         </div>
       </section>
 
-      <!-- Footer -->
-      <footer class="text-center py-8 border-t">
-        <div class="text-xs text-muted">
-          Epistemic Tool Notebook — Hawkes Process
-        </div>
-      </footer>
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+            </ul>
 
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#identity">Identity</a>
+          <a class="toc-item" href="#formal">Formal</a>
+          <a class="toc-item" href="#mechanism">Mechanism</a>
+          <a class="toc-item" href="#simulation">Simulation</a>
+          <a class="toc-item" href="#epistemic-role">Epistemic Role</a>
+          <a class="toc-item" href="#validation">Validation</a>
+          <a class="toc-item" href="#limits">Limits</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+        <div class="sidebar-title" style="margin-top:1.5rem">Process Status</div>
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-full border-2 flex items-center justify-center" id="status-indicator" style="border-color: var(--accent);">
+            <div class="w-3 h-3 rounded-full" id="status-dot" style="background: var(--accent);"></div>
+          </div>
+          <div>
+            <div class="text-sm font-medium" id="stability-label">Stationary</div>
+            <div class="text-xs text-muted" id="stability-sublabel">n = 0.80</div>
+          </div>
+        </div>
+        <div class="sidebar-title" style="margin-top:1.5rem">Quick Stats</div>
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs">
+            <span class="text-muted">Events</span>
+            <span class="mono" id="quick-events">0</span>
+          </div>
+          <div class="flex justify-between text-xs">
+            <span class="text-muted">λ*(t)</span>
+            <span class="mono" id="quick-intensity">0.00</span>
+          </div>
+          <div class="flex justify-between text-xs">
+            <span class="text-muted">E[λ]</span>
+            <span class="mono" id="quick-mean">0.00</span>
+          </div>
+        </div>
+      </aside>
     </div>
-  </main>
+  </div>
 
   <footer class="site-footer">
     <div class="foot-inner">
@@ -2223,6 +2440,83 @@
     }
     
     // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+
+    // ========================================
     // INITIALIZATION
     // ========================================
     
@@ -2403,6 +2697,8 @@
       updateBranchingRatio();
       runSimulation();
       animate();
+      initTocHighlight();
+      initAmbient();
     });
 
     // Redraw canvas-drawn visuals when the site theme changes
@@ -2444,5 +2740,6 @@
     apply();
   })();
   </script>
+  <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 </body>
 </html>

@@ -149,7 +149,9 @@ Browse at `/note/` (catalog: search + section facets) and
 `/note/note.html?n=notes/pto/zsh.md` (viewer, rendered on the fly). Markdown
 files are **notes**; self-contained hand-authored HTML pages under
 `notes/live/` are **live notes** — indexed and searchable, linked directly
-(e.g. `/note/notes/live/chmc.html`).
+(e.g. `/note/notes/live/chmc.html`). Live notes use the same viewer frame
+and philosophia shell as regular notes (recipe in
+`docs/live-note-chrome.md` §7–§8).
 
 ## Specs & docs
 

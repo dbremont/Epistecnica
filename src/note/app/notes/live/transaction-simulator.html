@@ -117,6 +117,214 @@
 
   .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
+  /* ---- note.html frame: layout / header / card / sidebar ---- */
+  #ambientCanvas {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 0;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .layout {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 3.5rem;
+  }
+
+  .cols { display: flex; gap: 2.5rem; }
+  .note-main { flex: 9 1 0; min-width: 0; }
+
+  .crumbs {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+  }
+  .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+  .crumbs a:hover { color: var(--accent-cyan); }
+  .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+  .crumbs .here { color: var(--accent-gold); }
+
+  h1.note-title {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.1;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 2rem;
+  }
+
+  .note-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: -1.2rem 0 2rem;
+    position: relative;
+    top: 0.8rem;
+  }
+
+  .chip {
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 0.35rem 0.7rem;
+    text-decoration: none;
+  }
+
+  .note-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    padding: 2.5rem;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  .sidebar {
+    flex: 1 1 0;
+    min-width: 180px;
+    position: sticky;
+    top: 3.5rem;
+    height: fit-content;
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+    padding: 0 1.25rem 0 0;
+  }
+
+  .sidebar-title {
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.9rem;
+    text-align: right;
+  }
+
+  .toc-item {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+    text-decoration: none;
+    text-align: right;
+    padding: 0.3rem 0.75rem 0.3rem 0;
+    border-right: 1px solid transparent;
+    margin-right: -1.25rem;
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  .toc-item:hover { color: var(--text-primary); }
+  .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+  @media (max-width: 900px) {
+    .sidebar { display: none; }
+    .note-card { padding: 1.5rem; }
+  }
+
+  /* ---- markdown-body typography (mirrors notes.css) ---- */
+  .markdown-body {
+    font-weight: 300;
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: var(--text-secondary);
+    word-wrap: break-word;
+  }
+  .markdown-body h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 1.55rem;
+    line-height: 1.25;
+    color: var(--text-primary);
+    margin: 2.2em 0 0.8em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--border-subtle);
+    scroll-margin-top: 6rem;
+  }
+  .markdown-body h2:first-child { margin-top: 0; }
+  .markdown-body h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: var(--text-primary);
+    margin: 2.2em 0 0.8em;
+    scroll-margin-top: 6rem;
+  }
+  .markdown-body p { margin: 0 0 1.1em; }
+  .markdown-body a {
+    color: var(--accent-cyan);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-subtle);
+    transition: border-color 0.3s ease;
+  }
+  .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+  .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+  .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+  .markdown-body li { margin-bottom: 0.35em; }
+  .markdown-body li::marker { color: var(--accent-gold); }
+  .markdown-body blockquote {
+    margin: 0 0 1.1em;
+    padding: 0.2em 0 0.2em 1.25em;
+    border-left: 1px solid var(--accent-gold);
+    font-style: italic;
+    color: var(--text-secondary);
+  }
+  .markdown-body table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 0 1.1em;
+    font-size: 0.85rem;
+  }
+  .markdown-body th {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: left;
+    padding: 0.5em 0.75em;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .markdown-body td {
+    padding: 0.5em 0.75em;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .markdown-body tr:last-child td { border-bottom: none; }
+  .markdown-body p code, .markdown-body li code {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--accent-cyan);
+  }
+
+  /* Live-note lab panels: same card-bg/border/radius idiom as .note-card */
+  .section-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    position: relative;
+    padding: 1.5rem;
+  }
+
   .site-footer {
     border-top: 1px solid var(--border-subtle);
     background: var(--footer-bg);
@@ -159,14 +367,12 @@
   body{
     font-family:var(--font-body);
     background:var(--bg); color:var(--ink); line-height:1.45; font-size:14px;
+    min-height:100vh; display:flex; flex-direction:column; overflow-x:hidden;
   }
   [x-cloak]{display:none!important}
   a{color:var(--t1)}
 
-  .wrap{max-width:1180px;margin:0 auto;padding:18px 16px 60px}
-
   header.app{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:6px}
-  header.app h1{font-family:var(--font-display);font-weight:400;font-size:1.6rem;margin:0;letter-spacing:-.2px}
   header.app .sub{color:var(--muted);font-size:12.5px;flex-basis:100%}
   .spacer{flex:1}
   .meta{display:flex;align-items:center;gap:14px;color:var(--muted);font-size:12.5px}
@@ -174,17 +380,17 @@
 
   .btn{
     appearance:none;border:1px solid var(--line);background:var(--card);color:var(--ink);
-    padding:6px 10px;border-radius:8px;cursor:pointer;font-size:12.5px;font-weight:600;
+    padding:6px 10px;border-radius:6px;cursor:pointer;font-size:12.5px;font-weight:600;
     transition:all .12s; white-space:nowrap; font-family:inherit;
   }
   .btn:hover{border-color:var(--text-muted);box-shadow:0 1px 2px rgba(15,23,42,.06)}
   .btn:active{transform:translateY(1px)}
-  .btn.t1{border-color:var(--t1);color:var(--t1)}
+  .btn.t1{border-color:var(--t1);color:var(--t1);background:transparent}
   .btn.t1:hover{background:var(--t1-bg)}
-  .btn.t2{border-color:var(--t2);color:var(--t2)}
+  .btn.t2{border-color:var(--t2);color:var(--t2);background:transparent}
   .btn.t2:hover{background:var(--t2-bg)}
-  .btn.danger{border-color:rgba(220,38,38,.4);color:var(--err)} .btn.danger:hover{background:rgba(220,38,38,.12)}
-  .btn.primary{background:var(--t1);color:var(--bg-void);border-color:var(--t1)} .btn.primary:hover{filter:brightness(1.1)}
+  .btn.danger{border-color:rgba(220,38,38,.4);color:var(--err);background:transparent} .btn.danger:hover{background:rgba(220,38,38,.12)}
+  .btn.primary{background:transparent;color:var(--t1);border-color:var(--t1)} .btn.primary:hover{background:var(--t1-bg)}
   .btn.ghost{background:transparent}
   .btn.small{padding:4px 8px;font-size:11.5px}
   .btn:disabled{opacity:.45;cursor:not-allowed}
@@ -192,12 +398,9 @@
   .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px}
   @media(max-width:820px){.grid-2{grid-template-columns:1fr}}
 
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:0 1px 2px rgba(15,23,42,.03)}
+  .card{background:var(--card-bg);border:1px solid var(--line);border-radius:10px;padding:14px;box-shadow:0 1px 2px rgba(15,23,42,.03)}
   .card + .card{margin-top:14px}
   .card h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px;font-weight:600}
-
-  .console{border-top:3px solid var(--t1)}
-  .console.t2{border-top-color:var(--t2)}
 
   .con-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
   .con-head .name{font-weight:700;font-size:15px}
@@ -216,7 +419,7 @@
   .row{display:flex;align-items:center;gap:8px;margin:8px 0;flex-wrap:wrap}
   .row label{font-size:11.5px;color:var(--muted);font-weight:600;min-width:46px}
   select,input[type=text],input[type=number]{
-    border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:13px;background:var(--card);color:var(--ink);font-family:inherit;
+    border:1px solid var(--line);border-radius:6px;padding:6px 8px;font-size:13px;background:var(--card);color:var(--ink);font-family:inherit;
   }
   input.code, .code{font-family:var(--font-mono);font-size:12px}
   .btnrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
@@ -226,13 +429,11 @@
   .held .lk{font-weight:700}
   .held .lk.x{color:var(--err)} .held .lk.s{color:var(--info)}
 
-  .sect-divider{display:flex;align-items:center;gap:10px;margin:14px 0 8px;color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;font-weight:700}
-  .sect-divider:before,.sect-divider:after{content:"";height:1px;background:var(--line);flex:1}
   .prog-toolbar{display:flex;align-items:center;margin-bottom:6px}
   .pc-info{margin-left:auto;font-size:11px;color:var(--muted)}
   .pc-info b{color:var(--ink);font-variant-numeric:tabular-nums}
-  .prog-area{width:100%;resize:vertical;min-height:96px;line-height:1.5;font-size:12px;background:var(--bg-surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px}
-  .proglist{margin-top:8px;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--bg-surface)}
+  .prog-area{width:100%;resize:vertical;min-height:96px;line-height:1.5;font-size:12px;background:var(--bg-surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:8px}
+  .proglist{margin-top:8px;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--bg-surface)}
   .progline{display:flex;gap:8px;align-items:flex-start;padding:4px 9px;font-size:11.5px;border-bottom:1px solid var(--line)}
   .progline:last-child{border-bottom:none}
   .progline .pcmark{width:13px;flex:none;color:var(--muted);font-size:11px}
@@ -256,7 +457,7 @@
   .chipX{background:rgba(220,38,38,.15);color:#f87171}
   html[data-theme="light"] .chipX{background:#fee2e2;color:#991b1b}
   .chipW{background:var(--accent-gold-dim);color:var(--accent-gold)}
-  .chip{display:inline-block;font-weight:700;font-size:10.5px;padding:2px 6px;border-radius:6px;font-family:var(--font-mono)}
+  .locklist .chip, .legend .chip{display:inline-block;font-weight:700;font-size:10.5px;padding:2px 6px;border-radius:6px;font-family:var(--font-mono)}
   .locklist{display:flex;flex-wrap:wrap;gap:4px}
 
   .timeline{max-height:300px;overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--bg-surface)}
@@ -288,18 +489,10 @@
   .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:11.5px;color:var(--muted);align-items:center;margin-top:6px}
   .legend .swatch{display:inline-flex;align-items:center;gap:5px}
 
-  details.help{margin-top:6px}
-  details.help summary{cursor:pointer;font-size:12.5px;color:var(--t1);font-weight:600}
-  details.help .body{font-size:12.5px;color:var(--text-secondary);padding-top:8px}
-  details.help .body p{margin:6px 0}
-  details.help code{background:var(--soft);padding:1px 5px;border-radius:4px;font-family:var(--font-mono)}
-
-  .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
-  .chipbtn{font-family:var(--font-mono);font-size:10.5px;background:var(--soft);border:1px solid var(--line);color:var(--text-secondary);padding:3px 6px;border-radius:6px;cursor:pointer}
-  .chipbtn:hover{border-color:var(--text-muted);color:var(--ink)}
 </style>
 </head>
 <body>
+<canvas id="ambientCanvas" aria-hidden="true"></canvas>
 <nav class="site-nav">
     <div class="nav-inner">
         <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -310,13 +503,61 @@
     </div>
 </nav>
 
-<div class="wrap" x-data="simulator" x-init="init()" x-cloak>
+<div class="layout">
+  <div class="note-header">
+    <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">transaction-simulator</span></div>
+    <h1 class="note-title">DB Transaction &amp; Locking Simulator</h1>
+    <div class="note-meta">
+      <span class="chip">live note</span>
+      <span class="chip">interactive</span>
+      <span class="chip">#transactions</span>
+      <span class="chip">#locking</span>
+    </div>
+  </div>
+
+  <div class="cols">
+    <main class="note-main">
+      <article class="note-card">
+        <div class="markdown-body">
+
+          <blockquote>
+            <p>Strict Two-Phase Locking (2PL) &middot; Row-level &middot; S/X locks &middot; Automatic deadlock detection</p>
+          </blockquote>
+
+          <h2 id="index">Index</h2>
+          <ul>
+            <li><a href="#formulation">Formulation</a> — model, locks, deadlock detection</li>
+            <li><a href="#lab">Lab</a> — interactive transaction simulator</li>
+            <li><a href="#blocking">Blocking</a> — waiting and re-grant</li>
+            <li><a href="#programs">Programs &amp; stepping</a> — you control the interleaving</li>
+            <li><a href="#isolation">Isolation</a> — per-transaction views</li>
+            <li><a href="#sql">SQL subset</a> — accepted statements</li>
+            <li><a href="#diagnostics">Diagnostic questions</a> — conflicts, victims, visibility</li>
+            <li><a href="#references">References</a> — model</li>
+          </ul>
+
+          <h2 id="formulation">Formulation</h2>
+
+          <h3>What epistemic element type does this instance belong to?</h3>
+          <blockquote>
+            <p><b>Model.</b> Each transaction follows <b>strict two-phase locking</b>: it acquires locks while running and releases them all only at COMMIT or ROLLBACK.</p>
+          </blockquote>
+
+          <h3>What is this epistemic instance?</h3>
+          <blockquote>
+            <p><b>Locks.</b> <code>SELECT</code> takes an <b>S</b> (shared) lock; <code>SELECT FOR UPDATE</code>, <code>UPDATE</code>, <code>DELETE</code> and <code>INSERT</code> take an <b>X</b> (exclusive) lock. Two S locks coexist; an X lock is incompatible with anything else. A transaction that already holds S may <b>upgrade</b> to X if it is the sole holder.</p>
+          </blockquote>
+
+          <h3>What grounds this reading?</h3>
+          <blockquote>
+            <p><b>Deadlocks.</b> After every lock wait, a wait-for graph is checked for cycles. If a cycle is found, the transaction that just closed the cycle is chosen as the <b>victim</b> and rolled back — the alert shows the cycle.</p>
+          </blockquote>
+
+          <h2 id="lab">Lab</h2>
+          <div class="section-card" x-data="simulator" x-init="init()" x-cloak>
 
   <header class="app">
-    <div>
-      <h1>DB Transaction &amp; Locking Simulator</h1>
-      <div class="sub">Strict Two-Phase Locking (2PL) &middot; Row-level &middot; S/X locks &middot; Automatic deadlock detection</div>
-    </div>
+    <div class="sub">Strict Two-Phase Locking (2PL) &middot; Row-level &middot; S/X locks &middot; Automatic deadlock detection</div>
     <div class="spacer"></div>
     <div class="meta"><span>Ops <b x-text="opCount"></b></span></div>
     <button class="btn danger" @click="reset()">Reset all</button>
@@ -451,23 +692,66 @@
     </div>
   </div>
 
-  <details class="help card">
-    <summary>How this simulator works (click to expand)</summary>
-    <div class="body">
-      <p><b>Model.</b> Each transaction follows <b>strict two-phase locking</b>: it acquires locks while running and releases them all only at COMMIT or ROLLBACK.</p>
-      <p><b>Locks.</b> <code>SELECT</code> takes an <b>S</b> (shared) lock; <code>SELECT FOR UPDATE</code>, <code>UPDATE</code>, <code>DELETE</code> and <code>INSERT</code> take an <b>X</b> (exclusive) lock. Two S locks coexist; an X lock is incompatible with anything else. A transaction that already holds S may <b>upgrade</b> to X if it is the sole holder.</p>
-      <p><b>Blocking.</b> If a requested lock conflicts, the transaction goes <span class="pill waiting" style="position:relative;top:-1px">waiting</span> and is queued on that row. When the holder releases (commit/rollback), the queue head is re-granted automatically.</p>
-      <p><b>Deadlocks.</b> After every lock wait, a wait-for graph is checked for cycles. If a cycle is found, the transaction that just closed the cycle is chosen as the <b>victim</b> and rolled back — the alert shows the cycle.</p>
-      <p><b>Programs &amp; stepping.</b> Each transaction holds a multi-statement <i>program</i> (one SQL statement per line). Use <b>Step T1</b> / <b>Step T2</b> to advance one statement at a time — <em>you control the interleaving</em>, which is how deadlocks and races are produced. A statement that blocks pauses the program counter (▶); when its lock is later granted (e.g. the other transaction commits), it resumes automatically and the counter advances. <b>Rewind</b> aborts and resets a transaction to its first statement.</p>
-      <p><b>Isolation you can observe.</b> The “sees” columns show each transaction’s own view: it reads its own pending writes, otherwise the committed value. Notice a writer’s pending value is invisible to the other transaction until COMMIT.</p>
-      <p><b>SQL.</b> The text box accepts a small subset: <code>BEGIN</code>, <code>COMMIT</code>, <code>ROLLBACK</code>,
-        <code>SELECT ... WHERE id=N [FOR UPDATE]</code>,
-        <code>UPDATE t SET col = V WHERE id=N</code>,
-        <code>UPDATE t SET col = col +/- V WHERE id=N</code>,
-        <code>DELETE FROM t WHERE id=N</code>,
-        <code>INSERT INTO t VALUES (V)</code>.</p>
-    </div>
-  </details>
+          </div>
+
+          <h2 id="blocking">Blocking</h2>
+          <p><b>Blocking.</b> If a requested lock conflicts, the transaction goes <span class="pill waiting" style="position:relative;top:-1px">waiting</span> and is queued on that row. When the holder releases (commit/rollback), the queue head is re-granted automatically.</p>
+
+          <h2 id="programs">Programs &amp; stepping</h2>
+          <p><b>Programs &amp; stepping.</b> Each transaction holds a multi-statement <i>program</i> (one SQL statement per line). Use <b>Step T1</b> / <b>Step T2</b> to advance one statement at a time — <em>you control the interleaving</em>, which is how deadlocks and races are produced. A statement that blocks pauses the program counter (▶); when its lock is later granted (e.g. the other transaction commits), it resumes automatically and the counter advances. <b>Rewind</b> aborts and resets a transaction to its first statement.</p>
+
+          <h2 id="isolation">Isolation</h2>
+          <p><b>Isolation you can observe.</b> The “sees” columns show each transaction’s own view: it reads its own pending writes, otherwise the committed value. Notice a writer’s pending value is invisible to the other transaction until COMMIT.</p>
+
+          <h2 id="sql">SQL subset</h2>
+          <p><b>SQL.</b> The text box accepts a small subset: <code>BEGIN</code>, <code>COMMIT</code>, <code>ROLLBACK</code>,
+            <code>SELECT ... WHERE id=N [FOR UPDATE]</code>,
+            <code>UPDATE t SET col = V WHERE id=N</code>,
+            <code>UPDATE t SET col = col +/- V WHERE id=N</code>,
+            <code>DELETE FROM t WHERE id=N</code>,
+            <code>INSERT INTO t VALUES (V)</code>.</p>
+
+          <h2 id="diagnostics">Diagnostic questions</h2>
+
+          <h3>What happens when a requested lock conflicts?</h3>
+          <blockquote>
+            <p>If a requested lock conflicts, the transaction goes <span class="pill waiting" style="position:relative;top:-1px">waiting</span> and is queued on that row. When the holder releases (commit/rollback), the queue head is re-granted automatically.</p>
+          </blockquote>
+
+          <h3>Which transaction is rolled back when a deadlock is detected?</h3>
+          <blockquote>
+            <p>If a cycle is found, the transaction that just closed the cycle is chosen as the <b>victim</b> and rolled back — the alert shows the cycle.</p>
+          </blockquote>
+
+          <h3>What does the other transaction see before COMMIT?</h3>
+          <blockquote>
+            <p>Notice a writer’s pending value is invisible to the other transaction until COMMIT.</p>
+          </blockquote>
+
+          <h2 id="references">References</h2>
+          <ul>
+            <li>Strict two-phase locking (2PL) — row-level S/X locks with automatic deadlock detection; the concurrency model implemented in the lab above</li>
+          </ul>
+
+        </div>
+      </article>
+    </main>
+
+    <aside class="sidebar">
+      <div class="sidebar-title">Contents</div>
+      <nav id="toc">
+        <a class="toc-item" href="#index">Index</a>
+        <a class="toc-item" href="#formulation">Formulation</a>
+        <a class="toc-item" href="#lab">Lab</a>
+        <a class="toc-item" href="#blocking">Blocking</a>
+        <a class="toc-item" href="#programs">Programs</a>
+        <a class="toc-item" href="#isolation">Isolation</a>
+        <a class="toc-item" href="#sql">SQL</a>
+        <a class="toc-item" href="#diagnostics">Diagnostics</a>
+        <a class="toc-item" href="#references">References</a>
+      </nav>
+    </aside>
+  </div>
 </div>
 
 <footer class="site-footer">
@@ -846,5 +1130,90 @@ document.addEventListener('alpine:init', () => {
     apply();
 })();
 </script>
+
+<script>
+// ========================================
+// Sidebar TOC highlight (mirrors note.html)
+// ========================================
+function initTocHighlight() {
+  const items = document.querySelectorAll('#toc .toc-item');
+  if (!items.length || !('IntersectionObserver' in window)) return;
+  const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const idx = sections.indexOf(entry.target);
+      items.forEach(it => it.classList.remove('active'));
+      if (items[idx]) items[idx].classList.add('active');
+    });
+  }, { rootMargin: '-10% 0px -60% 0px' });
+  sections.forEach(s => observer.observe(s));
+}
+
+// ========================================
+// Ambient constellation (mirrors note.html)
+// ========================================
+function initAmbient() {
+  const canvas = document.getElementById('ambientCanvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  let pts = [];
+  const LINK_DIST = 130;
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+    pts = [];
+    for (let i = 0; i < count; i++) {
+      pts.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.22,
+        vy: (Math.random() - 0.5) * 0.22,
+        r: Math.random() * 1.4 + 0.4
+      });
+    }
+  }
+  function tick() {
+    const light = document.documentElement.dataset.theme === 'light';
+    const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+    const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let i = 0; i < pts.length; i++) {
+      const p = pts[i];
+      p.x += p.vx; p.y += p.vy;
+      if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+      if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+      ctx.fill();
+      for (let j = i + 1; j < pts.length; j++) {
+        const m = pts[j];
+        const dx = p.x - m.x, dy = p.y - m.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < LINK_DIST) {
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(m.x, m.y);
+          ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(tick);
+  }
+  window.addEventListener('resize', resize);
+  resize();
+  requestAnimationFrame(tick);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initTocHighlight();
+  initAmbient();
+});
+</script>
+<script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 </body>
 </html>

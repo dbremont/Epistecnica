@@ -54,10 +54,216 @@
     body { transition: opacity 180ms ease; }
     html.theme-fading body { opacity: 0; }
 
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
+    /* Pages with their own sticky/fixed section nav demote the brand bar
+       (docs/live-note-chrome.md): the in-page nav below stays sticky. */
     .site-nav {
       position: static;
+      top: 0;
       z-index: 60;
       background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border-subtle);
     }
 
@@ -157,22 +363,6 @@
       --card: var(--bg-card);
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: var(--font-display);
-      background: var(--bg-primary);
-      color: var(--fg-primary);
-      line-height: 1.7;
-      font-size: 17px;
-    }
-
     .font-mono {
       font-family: var(--font-mono);
     }
@@ -193,10 +383,17 @@
       background: var(--fg-muted);
     }
 
-    /* Section styling */
-    .section-container {
-      background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
-      border-left: 1px solid var(--border);
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
     }
 
     .section-number {
@@ -214,6 +411,13 @@
       font-family: var(--font-mono);
       font-size: 14px;
       overflow-x: auto;
+    }
+
+    /* Lab panels: same card-bg/border idiom as .note-card */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
     }
 
     /* Interactive panels */
@@ -263,39 +467,43 @@
       outline-offset: 2px;
     }
 
-    /* Buttons */
+    /* Buttons: note.html outline idiom (mono uppercase chips, no solid fills) */
     .btn-primary {
-      background: var(--accent-primary);
-      color: var(--bg-primary);
       font-family: var(--font-mono);
-      font-weight: 500;
-      font-size: 13px;
-      padding: 10px 20px;
-      border: none;
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-block;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.55rem 0.9rem;
       cursor: pointer;
-      transition: all 0.15s ease;
+      transition: color 0.3s ease, border-color 0.3s ease;
     }
     .btn-primary:hover {
-      background: var(--accent-secondary);
-      transform: translateY(-1px);
-    }
-    .btn-primary:active {
-      transform: translateY(0);
+      color: var(--accent-primary);
+      border-color: var(--accent-primary);
     }
     .btn-primary:focus-visible {
-      outline: 2px solid var(--fg-primary);
+      outline: 2px solid var(--accent-primary);
       outline-offset: 2px;
     }
 
     .btn-secondary {
-      background: transparent;
-      color: var(--fg-primary);
       font-family: var(--font-mono);
-      font-size: 13px;
-      padding: 10px 20px;
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-block;
+      color: var(--fg-muted);
+      background: transparent;
       border: 1px solid var(--border);
+      padding: 0.55rem 0.9rem;
       cursor: pointer;
-      transition: all 0.15s ease;
+      transition: color 0.3s ease, border-color 0.3s ease;
     }
     .btn-secondary:hover {
       border-color: var(--accent-primary);
@@ -367,24 +575,8 @@
 
     /* Mobile adjustments */
     @media (max-width: 768px) {
-      body {
-        font-size: 15px;
-      }
       .equation-block {
         font-size: 12px;
-      }
-    }
-
-    /* Reduced motion */
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-      .reveal {
-        opacity: 1;
-        transform: none;
       }
     }
 
@@ -399,7 +591,7 @@
       transition: width 0.1s linear;
     }
 
-    /* Nav */
+    /* In-page nav */
     .nav-link {
       color: var(--fg-muted);
       font-family: var(--font-mono);
@@ -408,31 +600,6 @@
     }
     .nav-link:hover {
       color: var(--accent-primary);
-    }
-
-    /* Tooltip */
-    .tooltip {
-      position: relative;
-    }
-    .tooltip::after {
-      content: attr(data-tooltip);
-      position: absolute;
-      bottom: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--bg-elevated);
-      color: var(--fg-primary);
-      font-size: 12px;
-      padding: 6px 10px;
-      border: 1px solid var(--border);
-      white-space: nowrap;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.15s ease;
-      z-index: 100;
-    }
-    .tooltip:hover::after {
-      opacity: 1;
     }
 
     /* Particle visualization specific */
@@ -454,16 +621,14 @@
       font-family: var(--font-display);
     }
 
-    /* ---- utility shim (replaces the Tailwind CDN) ---- */
+    /* ---- utility shim (layout classes still used) ---- */
     h1, h2, h3, h4, h5, h6, p { margin: 0; }
     ul { list-style: none; margin: 0; padding: 0; }
     a { text-decoration: none; }
     table { border-collapse: collapse; }
     .sticky { position: sticky; }
-    .fixed { position: fixed; }
     .absolute { position: absolute; }
     .relative { position: relative; }
-    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
     .top-0 { top: 0; }
     .bottom-0 { bottom: 0; }
     .bottom-4 { bottom: 1rem; }
@@ -471,7 +636,6 @@
     .right-0 { right: 0; }
     .left-4 { left: 1rem; }
     .-left-12 { left: -3rem; }
-    .z-10 { z-index: 10; }
     .z-50 { z-index: 50; }
     .block { display: block; }
     .hidden { display: none; }
@@ -490,8 +654,6 @@
     .w-full { width: 100%; }
     .h-8 { height: 2rem; }
     .h-full { height: 100%; }
-    .min-h-screen { min-height: 100vh; }
-    .max-w-4xl { max-width: 56rem; }
     .max-w-6xl { max-width: 72rem; }
     .p-2 { padding: 0.5rem; }
     .p-3 { padding: 0.75rem; }
@@ -500,11 +662,7 @@
     .p-8 { padding: 2rem; }
     .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
     .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
-    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
-    .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
-    .py-20 { padding-top: 5rem; padding-bottom: 5rem; }
     .pt-4 { padding-top: 1rem; }
-    .pt-8 { padding-top: 2rem; }
     .pl-12 { padding-left: 3rem; }
     .mt-0 { margin-top: 0; }
     .mt-1 { margin-top: 0.25rem; }
@@ -537,13 +695,9 @@
     .text-xl { font-size: 1.25rem; line-height: 1.6; }
     .text-2xl { font-size: 1.5rem; line-height: 1.3; }
     .text-3xl { font-size: 1.875rem; line-height: 1.2; }
-    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
-    .font-light { font-weight: 300; }
-    .tracking-tight { letter-spacing: -0.025em; }
     .tracking-wider { letter-spacing: 0.05em; }
     .text-left { text-align: left; }
     .text-center { text-align: center; }
-    .opacity-20 { opacity: 0.2; }
     .border-t { border-top: 1px solid var(--border); }
     .border-b { border-bottom: 1px solid var(--border); }
     .border-l-2 { border-left: 2px solid var(--border); }
@@ -563,7 +717,6 @@
       .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
       .md\:text-xl { font-size: 1.25rem; line-height: 1.6; }
       .md\:text-4xl { font-size: 2.25rem; line-height: 1.15; }
-      .md\:text-6xl { font-size: 3.75rem; line-height: 1.05; }
     }
     @media (min-width: 1024px) {
       .lg\:col-span-2 { grid-column: span 2 / span 2; }
@@ -573,6 +726,7 @@
   </style>
 </head>
 <body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
       <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -602,63 +756,104 @@
     </div>
   </nav>
 
-  <main class="pt-8">
-    <!-- Hero Section -->
-    <header class="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
-      <div class="absolute inset-0 opacity-20">
-        <canvas id="heroCanvas" class="w-full h-full"></canvas>
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">fpe</span></div>
+      <h1 class="note-title">Fokker-Planck Equation | Interactive Epistemic Notebook</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#stochastic</span>
+        <span class="chip">#pde</span>
       </div>
-      <div class="relative z-10 text-center max-w-4xl reveal">
-        <div class="section-number mb-6">EPISTEMIC TOOL ANALYSIS</div>
-        <h1 class="text-4xl md:text-6xl font-light mb-6 tracking-tight" style="font-family: var(--font-display);">
-          Fokker-Planck<br>Equation
-        </h1>
-        <p class="text-lg md:text-xl mb-8" style="color: var(--fg-secondary); max-width: 600px; margin: 0 auto;">
-          A partial differential equation governing the temporal evolution of probability densities in stochastic dynamical systems
-        </p>
-        <div class="flex gap-4 justify-center flex-wrap">
-          <a href="#simulation" class="btn-primary">Explore Simulation</a>
-          <a href="#identity" class="btn-secondary">Read Documentation</a>
-        </div>
-      </div>
-    </header>
+    </div>
 
-    <!-- Index -->
-    <section class="py-16 px-6 border-t" style="border-color: var(--border);">
-      <div class="max-w-6xl mx-auto">
-        <div class="section-number mb-4">CONTENTS</div>
-        <h2 class="text-2xl mb-8">Index</h2>
-        <div class="grid md:grid-cols-3 gap-6 font-mono text-sm">
-          <a href="#identity" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
-            <div style="color: var(--accent-primary);">01</div>
-            <div class="mt-2">Identity & Definition</div>
-          </a>
-          <a href="#formal" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
-            <div style="color: var(--accent-primary);">02</div>
-            <div class="mt-2">Formal Characterization</div>
-          </a>
-          <a href="#simulation" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
-            <div style="color: var(--accent-primary);">03</div>
-            <div class="mt-2">Interactive Simulation</div>
-          </a>
-          <a href="#mechanism" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
-            <div style="color: var(--accent-primary);">04</div>
-            <div class="mt-2">Mechanism & Components</div>
-          </a>
-          <a href="#validation" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
-            <div style="color: var(--accent-primary);">05</div>
-            <div class="mt-2">Validation & Limits</div>
-          </a>
-          <a href="#qa" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
-            <div style="color: var(--accent-primary);">06</div>
-            <div class="mt-2">Diagnostic Questions</div>
-          </a>
-        </div>
-      </div>
-    </section>
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A partial differential equation governing the temporal evolution of probability densities in stochastic dynamical systems.</p>
+            </blockquote>
+
+            <div class="section-card p-6">
+              <div class="section-number mb-4">EPISTEMIC TOOL ANALYSIS</div>
+              <div class="canvas-container" style="height: 320px;">
+                <canvas id="heroCanvas" class="w-full h-full"></canvas>
+              </div>
+              <div class="flex gap-4 justify-center flex-wrap mt-6">
+                <a href="#simulation" class="btn-primary">Explore Simulation</a>
+                <a href="#identity" class="btn-secondary">Read Documentation</a>
+              </div>
+            </div>
+            <section id="index">
+              <div class="max-w-6xl mx-auto">
+                <div class="section-number mb-4">CONTENTS</div>
+                <h2 class="text-2xl mb-8">Index</h2>
+                <div class="grid md:grid-cols-3 gap-6 font-mono text-sm">
+                  <a href="#identity" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">01</div>
+                    <div class="mt-2">Identity & Definition</div>
+                  </a>
+                  <a href="#formal" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">02</div>
+                    <div class="mt-2">Formal Characterization</div>
+                  </a>
+                  <a href="#simulation" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">03</div>
+                    <div class="mt-2">Interactive Simulation</div>
+                  </a>
+                  <a href="#mechanism" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">04</div>
+                    <div class="mt-2">Mechanism & Components</div>
+                  </a>
+                  <a href="#validation" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">05</div>
+                    <div class="mt-2">Validation & Limits</div>
+                  </a>
+                  <a href="#diagnostics" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">06</div>
+                    <div class="mt-2">Diagnostic Questions</div>
+                  </a>
+                  <a href="#formulation" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">07</div>
+                    <div class="mt-2">Formulation</div>
+                  </a>
+                  <a href="#information-profile" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">08</div>
+                    <div class="mt-2">Information Profile</div>
+                  </a>
+                  <a href="#comparative" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">09</div>
+                    <div class="mt-2">Comparative Position</div>
+                  </a>
+                  <a href="#references" class="panel p-4 block hover:no-underline" style="color: var(--fg-secondary);">
+                    <div style="color: var(--accent-primary);">10</div>
+                    <div class="mt-2">References</div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Probabilistic / Inferential / Generative</strong> — bridging stochastic process theory with deterministic PDE analysis. It transforms random dynamics into predictable distributional evolution.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>The Fokker-Planck equation transforms the description of a stochastic dynamical system from individual random trajectories into a deterministic partial differential equation governing the evolution of the probability density function over state space.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>This tool resolves the epistemic gap between <strong>microscopic randomness</strong> and <strong>macroscopic predictability</strong>. It enables analytical treatment of systems whose individual behaviors are fundamentally unpredictable, yet whose statistical properties evolve deterministically.</p>
+            </blockquote>
 
     <!-- Identity Section -->
-    <section id="identity" class="section-container py-20 px-6">
+    <section id="identity">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 01</div>
@@ -714,7 +909,7 @@
     </section>
 
     <!-- Formal Characterization -->
-    <section id="formal" class="py-20 px-6" style="background: var(--bg-primary);">
+    <section id="formal">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 02</div>
@@ -818,7 +1013,7 @@
     </section>
 
     <!-- Interactive Simulation -->
-    <section id="simulation" class="py-20 px-6" style="background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);">
+    <section id="simulation">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 03</div>
@@ -980,7 +1175,7 @@
     </section>
 
     <!-- Mechanism Section -->
-    <section id="mechanism" class="section-container py-20 px-6">
+    <section id="mechanism">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 04</div>
@@ -1076,7 +1271,7 @@
     </section>
 
     <!-- Preservation & Loss Profile -->
-    <section class="py-20 px-6" style="background: var(--bg-primary);">
+    <section id="information-profile">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 04.5</div>
@@ -1132,7 +1327,7 @@
     </section>
 
     <!-- Validation Section -->
-    <section id="validation" class="py-20 px-6" style="background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);">
+    <section id="validation">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 05</div>
@@ -1228,7 +1423,7 @@
     </section>
 
     <!-- QA Section -->
-    <section id="qa" class="py-20 px-6" style="background: var(--bg-primary);">
+    <section id="diagnostics">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 06</div>
@@ -1352,7 +1547,7 @@
     </section>
 
     <!-- Comparative Position -->
-    <section class="py-20 px-6" style="background: var(--bg-secondary);">
+    <section id="comparative">
       <div class="max-w-6xl mx-auto">
         <div class="reveal">
           <div class="section-number mb-4">SECTION 07</div>
@@ -1429,36 +1624,41 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-12 px-6 border-t" style="border-color: var(--border);">
-      <div class="max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-3 gap-8">
-          <div>
-            <div class="font-mono text-sm mb-4" style="color: var(--accent-primary);">EPISTEMIC NOTEBOOK</div>
-            <p class="text-sm" style="color: var(--fg-muted);">
-              A controlled experimental environment for understanding epistemic tools through structured interaction.
-            </p>
-          </div>
-          <div>
-            <div class="font-mono text-sm mb-4" style="color: var(--fg-muted);">REFERENCES</div>
-            <ul class="text-sm space-y-2" style="color: var(--fg-secondary);">
-              <li>• Risken, H. "The Fokker-Planck Equation"</li>
-              <li>• Gardiner, C. "Stochastic Methods"</li>
-              <li>• Van Kampen, N. "Stochastic Processes in Physics"</li>
+            <h2 id="references">References</h2>
+            <ul>
+              <li>Risken, H. "The Fokker-Planck Equation"</li>
+              <li>Gardiner, C. "Stochastic Methods"</li>
+              <li>Van Kampen, N. "Stochastic Processes in Physics"</li>
+            </ul>
+
+            <h3>Related tools</h3>
+            <ul>
+              <li>Master Equation</li>
+              <li>Langevin Dynamics</li>
+              <li>Kolmogorov Backward Equation</li>
             </ul>
           </div>
-          <div>
-            <div class="font-mono text-sm mb-4" style="color: var(--fg-muted);">RELATED TOOLS</div>
-            <ul class="text-sm space-y-2" style="color: var(--fg-secondary);">
-              <li>• Master Equation</li>
-              <li>• Langevin Dynamics</li>
-              <li>• Kolmogorov Backward Equation</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </main>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#identity">Identity</a>
+          <a class="toc-item" href="#formal">Formal</a>
+          <a class="toc-item" href="#simulation">Simulation</a>
+          <a class="toc-item" href="#mechanism">Mechanism</a>
+          <a class="toc-item" href="#information-profile">Information</a>
+          <a class="toc-item" href="#validation">Validation</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#comparative">Comparative</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="foot-inner">
@@ -1986,6 +2186,83 @@
       requestAnimationFrame(drawIntuitionCanvas);
     }
 
+    // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+
     // ============================================
     // EVENT HANDLERS
     // ============================================
@@ -2093,6 +2370,8 @@
 
     // Start
     init();
+    initTocHighlight();
+    initAmbient();
 
     // Redraw canvas-drawn visuals when the site theme changes
     window.addEventListener('epistecnica-theme', () => drawDependencyGraph());
@@ -2126,5 +2405,6 @@
     apply();
   })();
   </script>
+  <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 </body>
 </html>

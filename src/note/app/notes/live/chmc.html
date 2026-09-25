@@ -54,10 +54,214 @@
     body { transition: opacity 180ms ease; }
     html.theme-fading body { opacity: 0; }
 
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
     .site-nav {
-      position: static;
+      position: sticky;
+      top: 0;
       z-index: 60;
       background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border-subtle);
     }
 
@@ -139,15 +343,6 @@
     .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .site-footer a:hover { color: var(--accent-cyan); }
 
-    @media (min-width: 1024px) {
-      .site-nav .nav-inner,
-      .site-footer .foot-inner { margin-left: 16rem; }
-    }
-
-    @media (max-width: 1023.98px) {
-      .site-nav .nav-inner { padding-left: 3.5rem; }
-    }
-
     /* Page aliases onto the shared tokens */
     :root {
       --bg: var(--bg-void);
@@ -163,10 +358,6 @@
       --info: #5fa8f0;
     }
 
-    * { box-sizing: border-box; }
-
-    html { scroll-behavior: smooth; }
-
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
       *, *::before, *::after {
@@ -176,52 +367,12 @@
       }
     }
 
-    body {
-      font-family: var(--font-body);
-      background: var(--bg);
-      color: var(--fg);
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
-
     .font-mono { font-family: var(--font-mono); }
-
-    .bg-grid {
-      background-image: 
-        linear-gradient(color-mix(in srgb, var(--border) 25%, transparent) 1px, transparent 1px),
-        linear-gradient(90deg, color-mix(in srgb, var(--border) 25%, transparent) 1px, transparent 1px);
-      background-size: 32px 32px;
-    }
 
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--fg-muted); }
-
-    .nav-link {
-      position: relative;
-      transition: all 0.2s ease;
-      display: block;
-      padding: 0.5rem 0.75rem;
-      font-size: 0.8rem;
-      color: var(--fg-muted);
-      border-radius: 6px;
-    }
-    .nav-link:hover { color: var(--fg); background: var(--bg); }
-    .nav-link::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 2px;
-      height: 0;
-      background: var(--accent);
-      border-radius: 1px;
-      transition: height 0.2s ease;
-    }
-    .nav-link.active { color: var(--accent); }
-    .nav-link.active::before { height: 60%; }
 
     .section-card {
       background: var(--bg-card);
@@ -295,35 +446,62 @@
       transform: translateY(0);
     }
 
+    /* Tags: same mono-uppercase chip idiom as .chip in note.html */
     .tag {
-      font-size: 0.65rem;
-      padding: 2px 8px;
-      border-radius: 4px;
-      font-weight: 500;
-      letter-spacing: 0.04em;
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
       text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      cursor: pointer;
     }
 
-    .progress-bar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 2px;
-      background: linear-gradient(90deg, var(--accent), #5fa8f0);
-      z-index: 1000;
-      transition: width 0.1s linear;
+    .tag-accent {
+      color: var(--text-muted);
     }
 
-    *:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
+    .tag-accent.active, button.tag-accent[aria-pressed="true"] {
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
     }
 
-    .mobile-nav {
-      transform: translateX(-100%);
-      transition: transform 0.3s ease;
+    .tag-warning {
+      color: var(--text-muted);
     }
-    .mobile-nav.open { transform: translateX(0); }
+
+    .tag-danger {
+      background: var(--danger-dim);
+      color: var(--danger);
+      border: 1px solid rgba(255, 107, 107, 0.3);
+    }
+
+    /* Sim controls: outline chip-button idiom (mirrors .chip) */
+    .sim-btn {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .sim-btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .sim-btn.danger:hover { color: var(--danger); border-color: var(--danger); }
+    .sim-btn:focus-visible { outline: 2px solid var(--accent-cyan); outline-offset: 2px; }
+
+    /* Performance chart */
+    .perf-bar {
+      height: 8px;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
 
     @keyframes pulse {
       0%, 100% { opacity: 0.5; }
@@ -331,12 +509,21 @@
     }
     .pulse { animation: pulse 2s ease-in-out infinite; }
 
+    *:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
     /* Code tabs */
     .code-tab {
       padding: 0.5rem 1rem;
       font-size: 0.75rem;
       border-bottom: 2px solid transparent;
       color: var(--fg-muted);
+      background: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
       transition: all 0.2s ease;
       cursor: pointer;
     }
@@ -348,43 +535,21 @@
     .code-panel { display: none; }
     .code-panel.active { display: block; }
 
-    /* Performance chart */
-    .perf-bar {
-      height: 8px;
-      border-radius: 4px;
-      transition: width 0.5s ease;
-    }
-    .skip-link {
-      position: absolute; left: 12px; top: 12px; z-index: 1000;
-      padding: 8px 14px; background: var(--accent); color: var(--bg);
-      font-size: 0.8rem; font-weight: 600; text-decoration: none; border-radius: 6px;
-      transform: translateY(-150%); transition: transform 0.2s ease;
-    }
-    .skip-link:focus { transform: translateY(0); }
-    .sr-only { position:absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-
     /* ---- heading face ---- */
     h1, h2, h3 {
       font-family: var(--font-display);
     }
 
-    /* ---- utility shim (replaces the Tailwind CDN) ---- */
-    .min-h-screen { min-height: 100vh; }
+    /* Inset panels use the card idiom (same fill/border language as .note-card) */
+    .bg-deep { background: var(--bg-surface); border: 1px solid var(--border-subtle); }
+
+    /* ---- utility shim (layout classes still used) ---- */
     .relative { position: relative; }
     .absolute { position: absolute; }
-    .fixed { position: fixed; }
-    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
     .top-0 { top: 0; }
-    .top-4 { top: 1rem; }
     .bottom-0 { bottom: 0; }
-    .left-0 { left: 0; }
     .left-2 { left: 0.5rem; }
-    .left-4 { left: 1rem; }
     .dot-left { left: -18px; }
-    .z-40 { z-index: 40; }
-    .z-50 { z-index: 50; }
-    .mx-auto { margin-left: auto; margin-right: auto; }
-    .hidden { display: none; }
     .flex { display: flex; }
     .grid { display: grid; }
     .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -401,12 +566,10 @@
     .gap-2 { gap: 0.5rem; }
     .gap-3 { gap: 0.75rem; }
     .gap-4 { gap: 1rem; }
-    .gap-10 { gap: 2.5rem; }
     .space-y-0\.5 > * + * { margin-top: 0.125rem; }
     .space-y-1 > * + * { margin-top: 0.25rem; }
     .space-y-2 > * + * { margin-top: 0.5rem; }
     .space-y-3 > * + * { margin-top: 0.75rem; }
-    .space-y-6 > * + * { margin-top: 1.5rem; }
     .w-1\.5 { width: 0.375rem; }
     .w-2\.5 { width: 0.625rem; }
     .w-3 { width: 0.75rem; }
@@ -414,7 +577,6 @@
     .w-7 { width: 1.75rem; }
     .w-8 { width: 2rem; }
     .w-px { width: 1px; }
-    .w-64 { width: 16rem; }
     .w-full { width: 100%; }
     .h-1\.5 { height: 0.375rem; }
     .h-2 { height: 0.5rem; }
@@ -425,14 +587,18 @@
     .h-7 { height: 1.75rem; }
     .h-8 { height: 2rem; }
     .h-px { height: 1px; }
-    .h-screen { height: 100vh; }
-    .max-h-48 { max-height: 12rem; }
-    .max-w-md { max-width: 28rem; }
-    .max-w-3xl { max-width: 48rem; }
-    .max-w-5xl { max-width: 64rem; }
-    .ml-64 { margin-left: 16rem; }
-    .mb-5 { margin-bottom: 1.25rem; }
-    .pl-6 { padding-left: 1.5rem; }
+    .mt-0\.5 { margin-top: 0.125rem; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-5 { margin-top: 1.25rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mb-0\.5 { margin-bottom: 0.125rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
     .p-2 { padding: 0.5rem; }
     .p-2\.5 { padding: 0.625rem; }
     .p-3 { padding: 0.75rem; }
@@ -441,34 +607,13 @@
     .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
     .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
     .px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
-    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
-    .py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
     .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
-    .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
-    .py-10 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
-    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
-    .pt-5 { padding-top: 1.25rem; }
     .pb-5 { padding-bottom: 1.25rem; }
+    .pl-6 { padding-left: 1.5rem; }
     .pb-6 { padding-bottom: 1.5rem; }
-    .mt-0\.5 { margin-top: 0.125rem; }
-    .mt-1 { margin-top: 0.25rem; }
-    .mt-2 { margin-top: 0.5rem; }
-    .mt-3 { margin-top: 0.75rem; }
-    .mt-4 { margin-top: 1rem; }
-    .mt-5 { margin-top: 1.25rem; }
-    .mt-6 { margin-top: 1.5rem; }
-    .mt-8 { margin-top: 2rem; }
-    .mb-0\.5 { margin-bottom: 0.125rem; }
-    .mb-1 { margin-bottom: 0.25rem; }
-    .mb-2 { margin-bottom: 0.5rem; }
-    .mb-3 { margin-bottom: 0.75rem; }
-    .mb-4 { margin-bottom: 1rem; }
-    .mb-6 { margin-bottom: 1.5rem; }
     .text-xs { font-size: 0.75rem; line-height: 1.5; }
     .text-sm { font-size: 0.875rem; line-height: 1.5; }
-    .text-base { font-size: 1rem; line-height: 1.6; }
     .text-lg { font-size: 1.125rem; line-height: 1.6; }
-    .text-3xl { font-size: 1.875rem; line-height: 1.2; }
     .text-left { text-align: left; }
     .text-center { text-align: center; }
     .font-medium { font-weight: 500; }
@@ -476,31 +621,23 @@
     .font-bold { font-weight: 700; }
     .uppercase { text-transform: uppercase; }
     .tracking-wider { letter-spacing: 0.05em; }
-    .leading-tight { line-height: 1.25; }
     .rounded { border-radius: 0.25rem; }
     .rounded-lg { border-radius: 0.5rem; }
     .rounded-full { border-radius: 9999px; }
     .border { border: 1px solid var(--border); }
     .border-b { border-bottom: 1px solid var(--border); }
-    .border-t { border-top: 1px solid var(--border); }
-    .border-r { border-right: 1px solid var(--border); }
     .border-2 { border-width: 2px; border-style: solid; }
     .border-transparent { border-color: transparent; }
     .overflow-hidden { overflow: hidden; }
     .overflow-x-auto { overflow-x: auto; }
-    .overflow-y-auto { overflow-y: auto; }
     .cursor-pointer { cursor: pointer; }
     .transition-colors { transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease; }
-    .opacity-40 { opacity: 0.4; }
     .fg-clr { color: var(--fg); }
     .muted { color: var(--fg-muted); }
     .accent-clr { color: var(--accent); }
     .danger-clr { color: var(--danger); }
     .info-clr { color: var(--info); }
     .warn { color: var(--warning); }
-    .bg-deep { background: var(--bg); }
-    .bg-elev { background: var(--bg-elevated); }
-    .bg-card-c { background: var(--bg-card); }
     .bg-accent { background: var(--accent); }
     .bg-danger { background: var(--danger); }
     .bg-info { background: var(--info); }
@@ -508,41 +645,24 @@
     .bg-accent-dim { background: var(--accent-dim); }
     .bg-bdr { background: var(--border); }
     .bg-info-dim { background: rgba(95, 168, 240, 0.12); }
-    .bg-danger-dim { background: rgba(240, 101, 101, 0.12); }
     .bg-danger-faint { background: rgba(240, 101, 101, 0.08); }
     .bg-warn-faint { background: rgba(240, 168, 72, 0.08); }
     .bg-info-faint { background: rgba(95, 168, 240, 0.08); }
     .bg-muted { background: var(--fg-muted); }
     .bdr-void { border-color: var(--bg); }
-    .bdr-accent { border-color: var(--accent); }
     .bdr-danger { border-color: var(--danger); }
     .bdr-info { border-color: var(--info); }
     .bdr-warn { border-color: var(--warning); }
-    .hero-grad { background: linear-gradient(135deg, var(--accent-dim), transparent 50%, transparent); }
     .hover-bdr:hover { border-color: var(--accent); }
-    .hov-bg-accent:hover { background: var(--accent); }
-    .hov-bg-danger:hover { background: var(--danger); }
-    .hov-void:hover { color: var(--bg); }
-    .hov-fg:hover { color: var(--fg); }
-    .hov-white:hover { color: #FFFFFF; }
-    .focus-bdr:focus { border-color: var(--accent); }
-    .no-outline:focus { outline: none; }
     .group:hover .gh-accent { color: var(--accent); }
     @media (min-width: 768px) {
       .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     }
-    @media (min-width: 1024px) {
-      .lg\:hidden { display: none; }
-      .lg\:translate-x-0 { transform: translateX(0); }
-      .lg\:ml-64 { margin-left: 16rem; }
-      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .lg\:py-16 { padding-top: 4rem; padding-bottom: 4rem; }
-      .lg\:text-4xl { font-size: 2.25rem; line-height: 1.15; }
-    }
-    </style>
+  </style>
 </head>
-<body class="bg-grid">
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
       <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -553,158 +673,66 @@
     </div>
   </nav>
 
-  <a class="skip-link" href="#main-content">Skip to content</a>
-  <div class="progress-bar" id="progressBar" style="width: 0%"></div>
-
-  <!-- Mobile Menu -->
-  <button id="mobileMenuBtn" class="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-lg bg-card-c border" aria-label="Toggle navigation">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="3" y1="6" x2="21" y2="6"/>
-      <line x1="3" y1="12" x2="21" y2="12"/>
-      <line x1="3" y1="18" x2="21" y2="18"/>
-    </svg>
-  </button>
-
-  <!-- Sidebar -->
-  <nav id="sidebar" class="mobile-nav lg:translate-x-0 fixed left-0 top-0 h-screen w-64 bg-elev border-r z-40 overflow-y-auto">
-    <div class="p-5">
-      <div class="mb-6">
-        <div class="flex items-center gap-2 mb-1">
-          <div class="w-8 h-8 rounded bg-accent-dim border bdr-accent flex items-center justify-center">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
-              <rect x="3" y="3" width="7" height="7" rx="1"/>
-              <rect x="14" y="3" width="7" height="7" rx="1"/>
-              <rect x="3" y="14" width="7" height="7" rx="1"/>
-              <rect x="14" y="14" width="7" height="7" rx="1"/>
-            </svg>
-          </div>
-          <div>
-            <span class="font-semibold text-base">Concurrent Map</span>
-          </div>
-        </div>
-        <p class="text-xs muted">Technical Notebook</p>
-      </div>
-
-      <div class="relative mb-5">
-        <input type="text" id="searchInput" placeholder="Search..." 
-               class="w-full bg-deep border rounded px-3 py-1.5 text-xs focus-bdr no-outline transition-colors"
-               aria-label="Search sections">
-      </div>
-
-      <div class="space-y-0.5" id="navLinks">
-        <a href="#characterization" class="nav-link">Characterization</a>
-        <a href="#technical-problem" class="nav-link">Technical Problem</a>
-        <a href="#purpose" class="nav-link">Purpose</a>
-        <a href="#technique" class="nav-link">Technique</a>
-        <a href="#physical" class="nav-link">Physical Instantiation</a>
-        <a href="#design" class="nav-link">Design</a>
-        <a href="#implementation" class="nav-link">Implementation</a>
-        <a href="#variation" class="nav-link">Variation</a>
-        <a href="#failure" class="nav-link">Technical Failure</a>
-        <a href="#performance" class="nav-link">Performance</a>
-        <a href="#verification" class="nav-link">Verification</a>
-        <a href="#operationalization" class="nav-link">Operationalization</a>
-        <a href="#future" class="nav-link">Future</a>
-        <a href="#history" class="nav-link">History</a>
-        <a href="#references" class="nav-link">References</a>
-      </div>
-
-      <!-- Taxonomy Quick Reference -->
-      <div class="mt-6 pt-5 border-t">
-        <button id="taxonomyToggle" class="w-full text-left text-xs muted hov-fg flex items-center justify-between">
-          <span>Taxonomy Reference</span>
-          <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polyline points="6 9 12 15 18 9"/>
-          </svg>
-        </button>
-        <div id="taxonomyPanel" class="hidden mt-3 text-xs muted space-y-2 max-h-48 overflow-y-auto">
-          <div><strong class="accent-clr">Technical Problem</strong>: discrepancy to resolve</div>
-          <div><strong class="accent-clr">Technical Purpose</strong>: intended ultimate impact</div>
-          <div><strong class="accent-clr">Technical Constraint</strong>: bounds on action</div>
-          <div><strong class="accent-clr">Technical Principle</strong>: design laws</div>
-          <div><strong class="accent-clr">Technical Failure</strong>: deviation from spec</div>
-          <div><strong class="accent-clr">Verification</strong>: correctness evaluation</div>
-        </div>
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">chmc</span></div>
+      <h1 class="note-title">Concurrent Map</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#data-structure</span>
+        <span class="chip">#concurrent</span>
       </div>
     </div>
-  </nav>
 
-  <!-- Main Content -->
-  <main id="main-content" class="lg:ml-64 min-h-screen">
-    
-    <!-- Hero -->
-    <section class="relative border-b overflow-hidden">
-      <div class="absolute inset-0 hero-grad opacity-40"></div>
-      
-      <div class="relative max-w-5xl mx-auto px-6 py-12 lg:py-16">
-        <div class="grid lg:grid-cols-2 gap-10 items-start">
-          
-          <!-- Text -->
-          <div class="fade-in">
-            <div class="flex items-center gap-2 mb-4">
-              <span class="tag bg-accent-dim accent-clr">Data Structure</span>
-              <span class="tag bg-info-dim info-clr">Concurrent</span>
-            </div>
-            <h1 class="text-3xl lg:text-4xl font-bold mb-3 leading-tight">
-              Concurrent Map
-            </h1>
-            <p class="text-base muted mb-6 max-w-md">
-              A thread-safe associative data structure enabling simultaneous read and write operations 
-              from multiple execution contexts without external synchronization.
-            </p>
-            <p class="text-sm muted mb-6">
-              In this notebook, we characterize and locate the <strong class="fg-clr">Concurrent Map</strong> 
-              within technical space — examining its problems, purposes, techniques, constraints, and failures.
-            </p>
-          </div>
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
 
-          <!-- Visualization -->
-          <div id="visualization" class="fade-in section-card p-5" style="transition-delay: 0.15s">
-            <div class="flex items-center justify-between mb-3">
-              <h3 class="text-xs font-semibold uppercase tracking-wider muted">Lock Striping Model</h3>
-              <div class="flex items-center gap-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-accent pulse"></span>
-                <span class="text-xs muted font-mono" id="statusText">Ready</span>
-              </div>
-            </div>
-            
-            <div class="bg-deep rounded-lg p-3 mb-3">
-              <div class="text-xs muted mb-2">Lock Stripes</div>
-              <div class="grid grid-cols-8 gap-1 mb-3" id="lockStripes"></div>
-              
-              <div class="text-xs muted mb-2">Hash Buckets</div>
-              <div class="grid grid-cols-8 gap-1" id="buckets"></div>
-            </div>
+            <blockquote>
+              <p>A thread-safe associative data structure enabling simultaneous read and write operations from multiple execution contexts without external synchronization.</p>
+            </blockquote>
 
-            <div class="flex gap-2 flex-wrap mb-3">
-              <button id="simReadBtn" class="px-3 py-1.5 text-xs bg-accent-dim accent-clr rounded hov-bg-accent hov-void transition-colors">
-                Read
-              </button>
-              <button id="simWriteBtn" class="px-3 py-1.5 text-xs bg-danger-dim danger-clr rounded hov-bg-danger hov-white transition-colors">
-                Write
-              </button>
-              <button id="simMixedBtn" class="px-3 py-1.5 text-xs bg-deep border muted rounded hover-bdr hov-fg transition-colors">
-                Mixed
-              </button>
-            </div>
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a></li>
+              <li><a href="#characterization">Characterization</a></li>
+              <li><a href="#technical-problem">Technical Problem</a></li>
+              <li><a href="#purpose">Purpose</a></li>
+              <li><a href="#technique">Technique</a></li>
+              <li><a href="#physical">Physical Instantiation</a></li>
+              <li><a href="#design">Design</a></li>
+              <li><a href="#implementation">Implementation</a></li>
+              <li><a href="#variation">Variation</a></li>
+              <li><a href="#failure">Technical Failure</a></li>
+              <li><a href="#performance">Performance</a></li>
+              <li><a href="#verification">Verification</a></li>
+              <li><a href="#operationalization">Operationalization</a></li>
+              <li><a href="#future">Future</a></li>
+              <li><a href="#history">History</a></li>
+              <li><a href="#lab">Laboratory</a></li>
+              <li><a href="#diagnostics">Diagnostic questions</a></li>
+              <li><a href="#references">References</a></li>
+            </ul>
 
-            <div class="grid grid-cols-2 gap-2 text-xs muted">
-              <div class="flex items-center gap-2">
-                <div class="w-2.5 h-2.5 rounded bg-accent"></div>
-                <span>Read (non-blocking)</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <div class="w-2.5 h-2.5 rounded bg-danger"></div>
-                <span>Write (locks stripe)</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <h2 id="formulation">Formulation</h2>
 
-    <!-- Sections -->
-    <div class="max-w-3xl mx-auto px-6 py-10 space-y-6">
+            <h3>What technical element type does this instance belong to?</h3>
+            <blockquote>
+              <p>The <strong>Concurrent Map</strong> is a <strong>Concrete Technical Artifact</strong> instantiated as a <strong>Production Technical Object</strong> within concurrent software systems. It is an associative container designed for multi-threaded access patterns, occupying the intersection of hash-based key-value stores and synchronization primitives.</p>
+            </blockquote>
+
+            <h3>What is this technical instance?</h3>
+            <blockquote>
+              <p>In this notebook, we characterize and locate the <strong>Concurrent Map</strong> within technical space — examining its problems, purposes, techniques, constraints, and failures.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>Primary: <strong>scalability</strong> — maintaining performance as concurrency increases. Secondary: safety — preserving correctness without external coordination.</p>
+            </blockquote>
+
 
       <!-- Characterization -->
       <section id="characterization" class="fade-in section-card">
@@ -1927,6 +1955,65 @@ let compute_if_absent key f =
         </div>
       </section>
 
+            <h2 id="lab">Laboratory</h2>
+            <p>The lock-striping model below renders eight lock stripes over thirty-two hash buckets. Trigger read, write, or mixed workloads and watch stripes lock and buckets light up — the same mechanism described under Technique and Design.</p>
+          <div id="visualization" class="fade-in section-card p-5" style="transition-delay: 0.15s">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-xs font-semibold uppercase tracking-wider muted">Lock Striping Model</h3>
+              <div class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-accent pulse"></span>
+                <span class="text-xs muted font-mono" id="statusText">Ready</span>
+              </div>
+            </div>
+            
+            <div class="bg-deep rounded-lg p-3 mb-3">
+              <div class="text-xs muted mb-2">Lock Stripes</div>
+              <div class="grid grid-cols-8 gap-1 mb-3" id="lockStripes"></div>
+              
+              <div class="text-xs muted mb-2">Hash Buckets</div>
+              <div class="grid grid-cols-8 gap-1" id="buckets"></div>
+            </div>
+
+            <div class="flex gap-2 flex-wrap mb-3">
+              <button id="simReadBtn" class="sim-btn">
+                Read
+              </button>
+              <button id="simWriteBtn" class="sim-btn danger">
+                Write
+              </button>
+              <button id="simMixedBtn" class="sim-btn">
+                Mixed
+              </button>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 text-xs muted">
+              <div class="flex items-center gap-2">
+                <div class="w-2.5 h-2.5 rounded bg-accent"></div>
+                <span>Read (non-blocking)</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-2.5 h-2.5 rounded bg-danger"></div>
+                <span>Write (locks stripe)</span>
+              </div>
+            </div>
+          </div>
+            <h2 id="diagnostics">Diagnostic questions</h2>
+
+            <h3>What fails first under contention?</h3>
+            <blockquote>
+              <p>Resize-induced corruption, counter cell overflow, and lock striping hot spots. These rarely manifest in low-contention testing but cause production failures under load.</p>
+            </blockquote>
+
+            <h3>How is correctness established?</h3>
+            <blockquote>
+              <p>Stress testing frameworks that execute millions of operations across random thread interleavings. Property-based verification checks linearizability: each operation appears to occur atomically at some point between its invocation and response.</p>
+            </blockquote>
+
+            <h3>When is it the wrong tool?</h3>
+            <blockquote>
+              <p>Single-threaded execution contexts; write-once, read-many workloads after initialization; low-contention scenarios with infrequent writes; immutable data published via safe publication patterns.</p>
+            </blockquote>
+
       <!-- References -->
       <section id="references" class="fade-in section-card">
         <div class="p-5">
@@ -1984,15 +2071,36 @@ let compute_if_absent key f =
           </div>
         </div>
       </section>
+          </div>
+        </article>
+      </main>
 
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#characterization">Characterization</a>
+          <a class="toc-item" href="#technical-problem">Technical Problem</a>
+          <a class="toc-item" href="#purpose">Purpose</a>
+          <a class="toc-item" href="#technique">Technique</a>
+          <a class="toc-item" href="#physical">Physical</a>
+          <a class="toc-item" href="#design">Design</a>
+          <a class="toc-item" href="#implementation">Implementation</a>
+          <a class="toc-item" href="#variation">Variation</a>
+          <a class="toc-item" href="#failure">Failure</a>
+          <a class="toc-item" href="#performance">Performance</a>
+          <a class="toc-item" href="#verification">Verification</a>
+          <a class="toc-item" href="#operationalization">Operationalization</a>
+          <a class="toc-item" href="#future">Future</a>
+          <a class="toc-item" href="#history">History</a>
+          <a class="toc-item" href="#lab">Laboratory</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
     </div>
-
-    <footer class="border-t mt-8">
-      <div class="max-w-3xl mx-auto px-6 py-6 text-center">
-        <p class="text-xs muted">Technical Notebook — Concurrent Map Analysis</p>
-      </div>
-    </footer>
-  </main>
+  </div>
 
   <footer class="site-footer">
     <div class="foot-inner">
@@ -2006,13 +2114,10 @@ let compute_if_absent key f =
     document.addEventListener('DOMContentLoaded', () => {
       initVisualization();
       initCollapsibles();
-      initNavigation();
-      initSearch();
       initScrollReveal();
-      initProgressBar();
-      initMobileMenu();
-      initTaxonomyToggle();
       initCodeTabs();
+      initTocHighlight();
+      initAmbient();
     });
 
     // Visualization
@@ -2152,47 +2257,6 @@ let compute_if_absent key f =
       });
     }
 
-    // Navigation
-    function initNavigation() {
-      const navLinks = document.querySelectorAll('.nav-link');
-      const sections = document.querySelectorAll('section[id]');
-      
-      navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-          navLinks.forEach(l => l.classList.remove('active'));
-          link.classList.add('active');
-          document.getElementById('sidebar').classList.remove('open');
-        });
-      });
-      
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const id = entry.target.id;
-            navLinks.forEach(link => {
-              link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
-            });
-          }
-        });
-      }, { threshold: 0.2 });
-      
-      sections.forEach(section => observer.observe(section));
-    }
-
-    // Search
-    function initSearch() {
-      const searchInput = document.getElementById('searchInput');
-      const navLinks = document.querySelectorAll('.nav-link');
-      
-      searchInput.addEventListener('input', (e) => {
-        const query = e.target.value.toLowerCase();
-        navLinks.forEach(link => {
-          const text = link.textContent.toLowerCase();
-          link.style.display = text.includes(query) ? 'block' : 'none';
-        });
-      });
-    }
-
     // Scroll reveal
     function initScrollReveal() {
       const elements = document.querySelectorAll('.fade-in');
@@ -2207,43 +2271,81 @@ let compute_if_absent key f =
       elements.forEach(el => observer.observe(el));
     }
 
-    // Progress bar
-    function initProgressBar() {
-      const bar = document.getElementById('progressBar');
-      window.addEventListener('scroll', () => {
-        const scrolled = window.scrollY;
-        const height = document.documentElement.scrollHeight - window.innerHeight;
-        bar.style.width = height > 0 ? `${(scrolled / height) * 100}%` : '0%';
-      });
+    // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
     }
 
-    // Mobile menu
-    function initMobileMenu() {
-      const btn = document.getElementById('mobileMenuBtn');
-      const sidebar = document.getElementById('sidebar');
-      
-      btn.addEventListener('click', () => {
-        const open = sidebar.classList.toggle('open');
-        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      });
-      document.addEventListener('click', (e) => {
-        if (!sidebar.contains(e.target) && !btn.contains(e.target)) {
-          sidebar.classList.remove('open');
-          btn.setAttribute('aria-expanded', 'false');
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
         }
-      });
-    }
-
-    // Taxonomy toggle
-    function initTaxonomyToggle() {
-      const toggle = document.getElementById('taxonomyToggle');
-      const panel = document.getElementById('taxonomyPanel');
-      
-      toggle.setAttribute('aria-expanded', panel.classList.contains('hidden') ? 'false' : 'true');
-      toggle.addEventListener('click', () => {
-        const hidden = panel.classList.toggle('hidden');
-        toggle.setAttribute('aria-expanded', hidden ? 'false' : 'true');
-      });
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
     }
 
     // Code tabs
@@ -2314,5 +2416,6 @@ let compute_if_absent key f =
     apply();
   })();
   </script>
+  <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 </body>
 </html>

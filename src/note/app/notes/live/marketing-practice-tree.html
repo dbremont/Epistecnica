@@ -1,152 +1,867 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Marketing Technical Practice — Decomposition Tree</title>
-<script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root {
-    --bg-void: #04050A;
-    --bg-surface: #0B0D14;
-    --bg-card: #11141D;
-    --text-primary: #E2E4EB;
-    --text-secondary: #8A8FA6;
-    --text-muted: #737891;
-    --accent-gold: #C5A467;
-    --accent-cyan: #5BF0E7;
-    --accent-cyan-dim: rgba(91, 240, 231, 0.1);
-    --border-subtle: rgba(255, 255, 255, 0.07);
-    --card-bg: rgba(11, 13, 20, 0.72);
-    --nav-bg: rgba(4, 5, 10, 0.82);
-    --footer-bg: rgba(4, 5, 10, 0.7);
-    --font-display: 'Cormorant Garamond', serif;
-    --font-body: 'Inter', sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing Technical Practice — Decomposition Tree</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
 
-html[data-theme="light"] {
-    --bg-void: #F7F5F0;
-    --bg-surface: #F1EEE7;
-    --bg-card: #FFFFFF;
-    --text-primary: #1A1D24;
-    --text-secondary: #4A4F5E;
-    --text-muted: #7A7F8E;
-    --accent-gold: #9A7B3F;
-    --accent-gold-dim: rgba(154, 123, 63, 0.12);
-    --accent-cyan: #0E7C72;
-    --accent-cyan-dim: rgba(14, 124, 114, 0.08);
-    --border-subtle: rgba(20, 22, 30, 0.10);
-    --card-bg: rgba(255, 255, 255, 0.72);
-    --nav-bg: rgba(247, 245, 240, 0.85);
-    --footer-bg: rgba(247, 245, 240, 0.75);
-}
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
 
-body { transition: opacity 180ms ease; }
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens (accent = project gold) */
+    :root {
+      --bg: var(--bg-void);
+      --bg-elevated: var(--bg-surface);
+      --fg: var(--text-primary);
+      --fg-muted: var(--text-secondary);
+      --fg-dim: var(--text-muted);
+      --accent: var(--accent-gold);
+      --accent-dim: var(--accent-gold-dim);
+      --warning: var(--accent-cyan);
+      --warning-dim: var(--accent-cyan-dim);
+      --border: var(--border-subtle);
+      --border-light: var(--border-subtle);
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    .font-mono {
+      font-family: var(--font-mono);
+    }
+
+    /* Live-note lab panels: same card-bg/border/radius idiom as .note-card */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      position: relative;
+    }
+
+    /* Interactive Elements */
+    .param-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .param-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      background: var(--accent);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .param-slider::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 12px var(--accent);
+    }
+
+    .param-slider:focus-visible::-webkit-slider-thumb {
+      box-shadow: 0 0 0 3px var(--accent-dim);
+    }
+
+    /* Buttons: note.html outline idiom (mono uppercase chips) */
+    .btn-primary {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.55rem 0.9rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .btn-primary:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .btn-primary:focus-visible {
+      outline: 2px solid var(--accent-cyan);
+      outline-offset: 2px;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--fg-muted);
+      border: 1px solid var(--border);
+      padding: 0.5rem 1rem;
+      border-radius: 3px;
+      font-size: 0.8rem;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-secondary.active {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* Canvas */
+    .canvas-container {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      position: relative;
+    }
+
+    /* Formula Display */
+    .formula-box {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 1.5rem 2rem;
+      font-family: var(--font-mono);
+      text-align: center;
+    }
+
+    /* Value Display */
+    .value-display {
+      font-family: var(--font-mono);
+      font-size: 2rem;
+      font-weight: 300;
+      letter-spacing: -0.02em;
+    }
+
+    .value-positive { color: var(--warning); }
+    .value-negative { color: var(--accent); }
+    .value-neutral { color: var(--fg-muted); }
+
+    /* Tags: same mono-uppercase chip idiom as .chip in note.html */
+    .tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      cursor: pointer;
+    }
+
+    .tag-accent {
+      color: var(--text-muted);
+    }
+
+    .tag-accent.active, button.tag-accent[aria-pressed="true"] {
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
+    }
+
+    .tag-warning {
+      color: var(--text-muted);
+    }
+
+    .tag-danger {
+      background: var(--danger-dim);
+      color: var(--danger);
+      border: 1px solid rgba(255, 107, 107, 0.3);
+    }
+
+    /* Accordion */
+    .accordion-header {
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.2s ease;
+    }
+
+    .accordion-header:hover {
+      color: var(--accent);
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+
+    .accordion-content.open {
+      max-height: 2000px;
+    }
+
+    .accordion-icon {
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-header.open .accordion-icon {
+      transform: rotate(180deg);
+    }
+
+    /* Tooltip */
+    .tooltip-trigger {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted var(--fg-dim);
+    }
+
+    .tooltip-trigger:hover .tooltip-content {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .tooltip-content {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%) translateY(8px);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      border-radius: 3px;
+      font-size: 0.8rem;
+      width: 280px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.2s ease;
+      z-index: 100;
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    /* Progress Indicator */
+    .progress-step {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .progress-step.completed {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .progress-step.active {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .animate-in {
+      animation: fadeInUp 0.6s ease forwards;
+    }
+
+    .stagger-1 { animation-delay: 0.1s; opacity: 0; }
+    .stagger-2 { animation-delay: 0.2s; opacity: 0; }
+    .stagger-3 { animation-delay: 0.3s; opacity: 0; }
+    .stagger-4 { animation-delay: 0.4s; opacity: 0; }
+    .stagger-5 { animation-delay: 0.5s; opacity: 0; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--border-light);
+    }
+
+    /* Focus States */
+    *:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .value-display {
+        font-size: 1.5rem;
+      }
+    }
+
+    /* ---- page headings inherit the note face via .markdown-body ---- */
+    .markdown-body h1 {
+      font-family: var(--font-display);
+      font-weight: 300;
+    }
+
+    /* ---- utility shim (replaces the Tailwind CDN) ---- */
+    .min-h-screen { min-height: 100vh; }
+    .relative { position: relative; }
+    .absolute { position: absolute; }
+    .sticky { position: sticky; }
+    .top-0 { top: 0; }
+    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+    .bottom-0 { bottom: 0; }
+    .left-0 { left: 0; }
+    .right-0 { right: 0; }
+    .z-50 { z-index: 50; }
+    .-translate-x-1\/2 { transform: translateX(-50%); }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .hidden { display: none; }
+    .flex { display: flex; }
+    .grid { display: grid; }
+    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .flex-col { flex-direction: column; }
+    .flex-wrap { flex-wrap: wrap; }
+    .flex-1 { flex: 1 1 0%; }
+    .flex-shrink-0 { flex-shrink: 0; }
+    .items-center { align-items: center; }
+    .items-start { align-items: flex-start; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-6 { gap: 1.5rem; }
+    .gap-8 { gap: 2rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .space-y-6 > * + * { margin-top: 1.5rem; }
+    .w-1 { width: 0.25rem; }
+    .w-2 { width: 0.5rem; }
+    .w-3 { width: 0.75rem; }
+    .w-4 { width: 1rem; }
+    .w-5 { width: 1.25rem; }
+    .w-6 { width: 1.5rem; }
+    .w-8 { width: 2rem; }
+    .w-10 { width: 2.5rem; }
+    .w-full { width: 100%; }
+    .max-w-7xl { max-width: 80rem; }
+    .h-1 { height: 0.25rem; }
+    .h-2 { height: 0.5rem; }
+    .h-3 { height: 0.75rem; }
+    .h-4 { height: 1rem; }
+    .h-5 { height: 1.25rem; }
+    .h-6 { height: 1.5rem; }
+    .h-8 { height: 2rem; }
+    .h-10 { height: 2.5rem; }
+    .h-12 { height: 3rem; }
+    .h-16 { height: 4rem; }
+    .h-px { height: 1px; }
+    .h-full { height: 100%; }
+    .p-2 { padding: 0.5rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-5 { padding: 1.25rem; }
+    .p-6 { padding: 1.5rem; }
+    .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+    .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+    .pt-6 { padding-top: 1.5rem; }
+    .mt-0\.5 { margin-top: 0.125rem; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mt-20 { margin-top: 5rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .mb-16 { margin-bottom: 4rem; }
+    .mb-20 { margin-bottom: 5rem; }
+    .text-xs { font-size: 0.75rem; line-height: 1.5; }
+    .text-sm { font-size: 0.875rem; line-height: 1.5; }
+    .text-lg { font-size: 1.125rem; line-height: 1.6; }
+    .text-xl { font-size: 1.25rem; line-height: 1.6; }
+    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+    .text-left { text-align: left; }
+    .text-center { text-align: center; }
+    .font-medium { font-weight: 500; }
+    .font-bold { font-weight: 700; }
+    .tracking-tight { letter-spacing: -0.025em; }
+    .leading-relaxed { line-height: 1.7; }
+    .rounded { border-radius: 0.25rem; }
+    .rounded-full { border-radius: 9999px; }
+    .border { border: 1px solid var(--border); }
+    .border-b { border-bottom: 1px solid var(--border); }
+    .border-t { border-top: 1px solid var(--border); }
+    .overflow-hidden { overflow: hidden; }
+    .overflow-x-auto { overflow-x: auto; }
+    .cursor-pointer { cursor: pointer; }
+    .transition-colors { transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease; }
+    .transition-all { transition: all 0.15s ease; }
+    .duration-500 { transition-duration: 500ms; }
+    .backdrop-blur-xl { backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
+    .bg-white { background: #FFFFFF; }
+    .fg-clr { color: var(--fg); }
+    .muted { color: var(--fg-muted); }
+    .dim { color: var(--fg-dim); }
+    .accent-clr { color: var(--accent); }
+    .warn { color: var(--warning); }
+    .danger-clr { color: var(--danger); }
+    .bg-clr { color: var(--bg); }
+    .bg-accent { background: var(--accent); }
+    .bg-warn { background: var(--warning); }
+    .bg-danger { background: var(--danger); }
+    .bg-accent-dim { background: var(--accent-dim); }
+    .bg-warn-dim { background: var(--warning-dim); }
+    .bg-danger-dim { background: var(--danger-dim); }
+    .bg-elev { background: var(--bg-elevated); }
+    .bg-card-c { background: var(--bg-card); }
+    .bg-nav { background: color-mix(in srgb, var(--bg) 85%, transparent); }
+    .bg-bdr { background: var(--border); }
+    .bdr-warn { border-color: var(--warning); }
+    .bdr-danger { border-color: var(--danger); }
+    .bdr-danger-dim { border-color: rgba(255, 107, 107, 0.3); }
+    .hover-bdr:hover { border-color: var(--accent); }
+    .group:hover .gh-accent { color: var(--accent); }
+    .logo-grad { background: linear-gradient(135deg, var(--accent), var(--warning)); }
+    .scale-grad { background: linear-gradient(90deg, var(--accent), var(--fg-dim), var(--warning)); }
+    @media (min-width: 768px) {
+      .md\:flex { display: flex; }
+      .md\:hidden { display: none; }
+      .md\:flex-row { flex-direction: row; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .md\:grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+      .md\:text-5xl { font-size: 3rem; line-height: 1.1; }
+    }
+    @media (min-width: 1024px) {
+      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .lg\:col-span-1 { grid-column: span 1 / span 1; }
+      .lg\:col-span-3 { grid-column: span 3 / span 3; }
+    }
+  
+
+    /* ---- page lab (cleaned; frame tokens/chrome canonical above) ---- */
 html.theme-fading body { opacity: 0; }
 @media (prefers-reduced-motion: reduce) { body { transition: none; } }
 
-.site-nav {
-    position: sticky;
-    top: 0;
-    z-index: 60;
-    background: var(--nav-bg);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border-subtle);
-}
 
-.site-nav .nav-inner {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0.95rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.site-nav .nav-brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.55rem;
-    font-family: var(--font-display);
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    color: var(--text-primary);
-    text-decoration: none;
-}
 
-.site-nav .nav-mark { height: 26px; width: auto; }
-.site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
-.site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
 
-.site-nav .nav-links a {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
 
-.site-nav .nav-links a:hover { color: var(--accent-cyan); }
 
-.theme-toggle {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--text-secondary);
-    background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
-    padding: 0.45rem 0.75rem;
-    cursor: pointer;
-    transition: color 0.3s ease, border-color 0.3s ease;
-}
 
-.theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
-.site-footer {
-    border-top: 1px solid var(--border-subtle);
-    background: var(--footer-bg);
-    position: relative;
-    z-index: 1;
-}
 
-.site-footer .foot-inner {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 1.5rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem 2rem;
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-}
 
-.site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
-.site-footer a:hover { color: var(--accent-cyan); }
+
+
+
 
 /* ---- page ---- */
 * { box-sizing: border-box; }
-body {
-    margin: 0;
-    background: var(--bg-void);
-    color: var(--text-primary);
-    font-family: var(--font-body);
-    font-weight: 300;
-    line-height: 1.6;
-}
+
 .wrap { max-width: 1280px; margin: 0 auto; padding: 0 2rem 3rem; }
 .eyebrow {
     font-family: var(--font-mono);
@@ -233,8 +948,8 @@ h2 {
 }
 .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
-.layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 1.2rem; align-items: start; }
-@media (max-width: 1000px) { .layout { grid-template-columns: 1fr; } }
+.tree-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 1.2rem; align-items: start; }
+@media (max-width: 1000px) { .tree-layout { grid-template-columns: 1fr; } }
 
 .stage {
     background: var(--bg-surface);
@@ -318,9 +1033,27 @@ aside.detail .ddesc { color: var(--text-secondary); font-size: 0.9rem; }
 aside.detail .dmeta { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted); margin-top: 0.6rem; }
 aside.detail .dmeta .k { color: var(--accent-cyan); }
 aside.detail .row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.9rem; }
-</style>
+    .btn-primary {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.55rem 0.9rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .btn-primary:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    /* tree-stage scroll + tree-layout (renamed; frame .layout canonical above) */
+    .tree-layout .stage { overflow-x: auto; }
+    #treeSvg { min-width: 640px; }
+
+  </style>
 </head>
 <body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 <nav class="site-nav">
     <div class="nav-inner">
         <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -330,13 +1063,60 @@ aside.detail .row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.9
         </div>
     </div>
 </nav>
-<div class="wrap">
-    <div class="eyebrow">Live note &middot; decomposition tree</div>
-    <h1>Marketing Technical Practice &mdash; <em>Decomposition Tree</em></h1>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">marketing-practice-tree</span></div>
+      <h1 class="note-title">Marketing Technical Practice &mdash; <em>Decomposition Tree</em></h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#decomposition-tree</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+<div class="eyebrow">Live note &middot; decomposition tree</div>
+    
     <p class="lede">An interactive tree-graph of the instance decomposition table in
     <a href="../../note.html?n=cto/es/multinode/marketing-technical-practice.md">marketing-technical-practice.md</a>
     (189 nodes). The graph view is a loose force layout with collapsible subtrees; the list view is the same
     tree as a collapsible outline. Data is a snapshot embedded in this page &mdash; re-extract it if the note changes.</p>
+
+    <blockquote>
+      <p>An interactive tree-graph of one instance decomposition table — the marketing technical practice, 189 rows — as a loose force layout with collapsible subtrees and a collapsible outline of the same tree.</p>
+    </blockquote>
+
+    <h2 id="index">Index</h2>
+    <ul>
+      <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+      <li><a href="#tree">Instance decomposition tree</a> — graph and list views</li>
+      <li><a href="#how-to-read">How to read this tree</a> — node semantics</li>
+      <li><a href="#diagnostics">Diagnostic questions</a> — staleness, search limits</li>
+      <li><a href="#references">References</a> — schema</li>
+    </ul>
+
+    <h2 id="formulation">Formulation</h2>
+
+    <h3>What epistemic element type does this instance belong to?</h3>
+    <blockquote>
+      <p><strong>Concrete Epistemic Artifact</strong> — one rendered reading of the marketing-technical-practice instance decomposition table (189 nodes) — produced by applying an <strong>Epistemic Operator</strong> (tree extraction and layout), and read against the source note. Schema: <a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+    </blockquote>
+
+    <h3>What is this epistemic instance?</h3>
+    <blockquote>
+      <p>An interactive tree-graph of the decomposition table in <a href="../../note.html?n=cto/es/multinode/marketing-technical-practice.md">marketing-technical-practice.md</a>: the graph view is a loose force layout with collapsible subtrees; the list view is the same tree as a collapsible outline.</p>
+    </blockquote>
+
+    <h3>What grounds this reading?</h3>
+    <blockquote>
+      <p>Each node is one row of the decomposition table: the label is the last segment of its Instance Tree Path, the color is its Technical Category. Terminal rows — named tools, files, config attributes, measured values, named actors — are leaves; deployment-specific values and named vendors appear only in exemplar rows. Data is a snapshot embedded in this page — re-extract it if the note changes.</p>
+    </blockquote>
+
+    <h2 id="tree">Instance decomposition tree</h2>
 
     <div class="tabs" role="tablist">
         <button type="button" class="tab" id="tabGraph" role="tab" aria-selected="true">Graph view</button>
@@ -351,7 +1131,7 @@ aside.detail .row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.9
     </div>
     <div class="legend" id="legend"></div>
 
-    <div class="layout" style="margin-top:1rem">
+    <div class="tree-layout" style="margin-top:1rem">
         <div>
             <div class="stage" id="graphView">
                 <svg id="treeSvg" role="img" aria-label="Decomposition tree graph"></svg>
@@ -372,14 +1152,49 @@ aside.detail .row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.9
         </aside>
     </div>
 
-    <h2>How to read this tree</h2>
+    <h2 id="how-to-read">How to read this tree</h2>
     <p class="lede">Each node is one row of the decomposition table: the label is the last segment of its
     <em>Instance Tree Path</em>, the color is its <em>Technical Category</em>. Click any node with children to
     collapse or expand its subtree. Terminal rows &mdash; named tools, files, config attributes, measured values,
     named actors &mdash; are leaves. Deployment-specific values and named vendors appear only in exemplar rows.</p>
     <p class="fine">Companion: <a href="../../note.html?n=general/marketing-science.md">Marketing Science</a> &middot;
     Source table: <a href="../../note.html?n=cto/es/multinode/marketing-technical-practice.md">marketing-technical-practice.md</a></p>
-</div>
+
+    <h2 id="diagnostics">Diagnostic questions</h2>
+
+    <h3>When is this tree stale?</h3>
+    <blockquote>
+      <p>Data is a snapshot embedded in this page — re-extract it if the source note changes.</p>
+    </blockquote>
+
+    <h3>What does search not do?</h3>
+    <blockquote>
+      <p>Search only highlights — opening is always manual. Collapse and expand subtrees by hand; double-click centers the graph.</p>
+    </blockquote>
+
+    <h2 id="references">References</h2>
+    <ul>
+      <li><a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+    </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#tree">Decomposition tree</a>
+          <a class="toc-item" href="#how-to-read">How to read</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
 <footer class="site-footer">
     <div class="foot-inner">
         <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
@@ -903,5 +1718,87 @@ window.addEventListener('epistecnica-theme', function () { positionEls(); });
     apply();
 })();
 </script>
+
+  <script>
+    // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+    document.addEventListener('DOMContentLoaded', () => { initTocHighlight(); initAmbient(); });
+
+  </script>
+  <script src="../../..//glossarium/js/glossarium-lookup.js" data-glossarium="../../..//glossarium/data/index.json" defer></script>
 </body>
 </html>

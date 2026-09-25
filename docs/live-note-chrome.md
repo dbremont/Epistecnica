@@ -243,13 +243,93 @@ function themeColors() {
 
 Listen for `epistecnica-theme` (section 5) and redraw when practical.
 
+## 7. Body container (mirrors `src/note/app/note.html`)
+
+Live notes render inside the same frame as the markdown viewer — ambient
+constellation background, 1280px layout, crumbs + title + meta chips, card,
+and sticky `Contents` sidebar. No grid/gradient background divs, no second
+footer. Exemplar: `src/note/app/notes/live/burstiness-index.html`.
+
+```html
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav"><!-- §3 --></nav>
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="NOTEindex.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">SLUG</span></div>
+      <h1 class="note-title">Title (== <title> + catalog entry)</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+      </div>
+    </div>
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card"><div class="markdown-body">
+          <!-- content: Index / Formulation / decomposition / lab / diagnostics / References -->
+        </div></article>
+      </main>
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc"><!-- one .toc-item per h2 --></nav>
+      </aside>
+    </div>
+  </div>
+  <footer class="site-footer"><!-- §4 --></footer>
+```
+
+CSS needed on top of §2: `#ambientCanvas`, `.layout`, `.cols`,
+`.note-main`, `.crumbs`, `h1.note-title`, `.note-meta`, `.chip`,
+`.note-card`, `.sidebar`, `.toc-item`, and the `.markdown-body`
+typography (all copied from `note.html` / `notes.css`). Lab panels
+(`canvas-container`, tour controls) use the same `card-bg` /
+`border-subtle` / radius idiom — no gold top-bars, no solid-gold
+buttons, no `.tag` pills (use `.chip` styling for tour tabs).
+
+Content order follows the philosophia shell: intro `>` quote, `## Index`
+(link list), `## Formulation` (the three `###` questions as quotes),
+`## Recursive instance decomposition` (plain `.markdown-body` table),
+lab section(s), `## Diagnostic questions` (`###` + quotes),
+`## References`. Include the glossarium lookup script with a
+live-depth-relative path, e.g. from `notes/live/*.html`:
+
+```html
+<script src="ROOTglossarium/js/glossarium-lookup.js" data-glossarium="ROOTglossarium/data/index.json" defer></script>
+```
+
+## 8. Conversion record (all 12 live notes unified, Sept 2026)
+
+Exemplar: `notes/live/burstiness-index.html` (converted first). The other
+11 were converted in one pass with the same recipe; `<title>`/h1 text and
+all copy, formulas, tables, and JS ids preserved verbatim throughout.
+
+Rules applied beyond §7:
+
+- **One nav only.** Secondary nav systems were dismantled into the frame
+  TOC: `chmc` fixed sidebar + search + progress + taxonomy, `hp` fixed
+  sidebar, `fpe`/`sd` sticky in-page navs (fpe demotes the brand bar per
+  the §2 comment instead), `pd` mobile-TOC overlay, `nbr` sticky header.
+- **Heroes unwound.** `fpe`'s full-viewport hero became a normal lab
+  panel (canvas ids kept); `ct`'s cinematic/noise/fixed layers were
+  removed and its hardcoded dark palette fully tokenized for light theme.
+- **Collisions renamed.** `marketing-practice-tree`'s own `.layout`
+  became `.tree-layout` (SVG scrolls horizontally inside the card);
+  `cpt`'s in-page `h1`/`main`/`aside` became non-landmark divs.
+- **Half-wired theme fixed.** `cpt` had `themeColors()` without a
+  listener — added the `epistecnica-theme` redraw; `can`/`transaction`
+  dispatch without canvases (nothing to redraw); `transaction`'s
+  vendored Alpine tag kept byte-identical.
+- **Fixed overlays scoped.** `can` modal (z-index above frame), `hp`
+  tooltip (absolute inside `.note-card`), `ct` control panel (unfixed
+  into card flow).
+
 ## Rules
 
 - No CDN `<script>`/`<link>` tags — runtime dependencies are vendored under
   `src/note/app/vendor/` and referenced relatively (see below). Vanilla JS +
   Canvas2D/SVG otherwise; math helpers are a few stdlib lines.
-- The page's own content, layout, and interactivity stay as authored; the
-  container only wraps and tokenizes it.
+- The page's own interactivity stays as authored; the container (§7) wraps
+  and tokenizes it. Content order follows the philosophia shell (§7).
 - Keep `<title>` and the first `<h1>` stable — the notes catalog indexes them.
 - No backend references in UI strings; pages fetch nothing at runtime.
 

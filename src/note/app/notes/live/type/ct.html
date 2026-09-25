@@ -55,9 +55,12 @@
         html.theme-fading body { opacity: 0; }
 
         .site-nav {
-            position: static;
+            position: sticky;
+            top: 0;
             z-index: 60;
             background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-subtle);
         }
 
@@ -146,26 +149,8 @@
             overflow-x: hidden;
         }
         
-        /* Cinematic Background */
-        .bg-cinematic {
-            background: 
-                radial-gradient(ellipse at 20% 50%, rgba(91, 240, 231, 0.06) 0%, transparent 50%),
-                radial-gradient(ellipse at 80% 20%, rgba(197, 164, 103, 0.05) 0%, transparent 50%),
-                radial-gradient(ellipse at 50% 100%, rgba(91, 240, 231, 0.03) 0%, transparent 50%),
-                linear-gradient(180deg, var(--bg-void) 0%, var(--bg-surface) 100%);
-            position: fixed;
-            inset: 0;
-            z-index: -2;
-        }
+        /* (frame: ambient canvas replaces cinematic background) */
         
-        .bg-noise {
-            position: fixed;
-            inset: 0;
-            z-index: -1;
-            opacity: 0.03;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-            pointer-events: none;
-        }
 
         /* Glassmorphism Cards */
         .glass-card {
@@ -450,6 +435,174 @@
             filter: drop-shadow(0 0 20px rgba(91, 240, 231, 0.06));
         }
 
+        #ambientCanvas {
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 0;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        /* ---- note.html frame: layout / header / card / sidebar ---- */
+        .layout {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2.5rem 2rem 3.5rem;
+        }
+
+        .cols { display: flex; gap: 2.5rem; }
+        .note-main { flex: 9 1 0; min-width: 0; }
+
+        .crumbs {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+        }
+        .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+        .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+        .crumbs .here { color: var(--accent-gold); }
+
+        h1.note-title {
+            font-family: var(--font-display);
+            font-weight: 300;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
+        }
+
+        .note-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin: -1.2rem 0 2rem;
+            position: relative;
+            top: 0.8rem;
+        }
+
+        .chip {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.35rem 0.7rem;
+            text-decoration: none;
+        }
+
+        .note-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2.5rem;
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            position: relative;
+        }
+
+        .sidebar {
+            flex: 1 1 0;
+            min-width: 180px;
+            position: sticky;
+            top: 3.5rem;
+            height: fit-content;
+            max-height: calc(100vh - 5rem);
+            overflow-y: auto;
+            padding: 0 1.25rem 0 0;
+        }
+
+        .sidebar-title {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 0.9rem;
+            text-align: right;
+        }
+
+        .toc-item {
+            display: block;
+            font-size: 0.78rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            text-decoration: none;
+            text-align: right;
+            padding: 0.3rem 0.75rem 0.3rem 0;
+            border-right: 1px solid transparent;
+            margin-right: -1.25rem;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        .toc-item:hover { color: var(--text-primary); }
+        .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .note-card { padding: 1.5rem; }
+        }
+
+        /* ---- markdown-body typography (mirrors notes.css) ---- */
+        .markdown-body {
+            font-weight: 300;
+            font-size: 0.95rem;
+            line-height: 1.75;
+            color: var(--text-secondary);
+            word-wrap: break-word;
+        }
+        .markdown-body h2 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-size: 1.55rem;
+            line-height: 1.25;
+            color: var(--text-primary);
+            margin: 2.2em 0 0.8em;
+            padding-bottom: 0.35em;
+            border-bottom: 1px solid var(--border-subtle);
+            scroll-margin-top: 6rem;
+        }
+        .markdown-body h2:first-child { margin-top: 0; }
+        .markdown-body h3 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-style: italic;
+            font-size: 1.25rem;
+            line-height: 1.25;
+            color: var(--text-primary);
+            margin: 2.2em 0 0.8em;
+            scroll-margin-top: 6rem;
+        }
+        .markdown-body section[id] { scroll-margin-top: 6rem; }
+        .markdown-body p { margin: 0 0 1.1em; }
+        .markdown-body a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: border-color 0.3s ease;
+        }
+        .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+        .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+        .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+        .markdown-body li { margin-bottom: 0.35em; }
+        .markdown-body li::marker { color: var(--accent-gold); }
+        .markdown-body blockquote {
+            margin: 0 0 1.1em;
+            padding: 0.2em 0 0.2em 1.25em;
+            border-left: 1px solid var(--accent-gold);
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
         /* ---- heading face ---- */
         h1, h2, h3, h4 {
             font-family: var(--font-display);
@@ -460,7 +613,7 @@
         .absolute { position: absolute; }
         .relative { position: relative; }
         .sticky { position: sticky; }
-        .fixed { position: fixed; }
+        /* (frame: no position:fixed; card flow only) */
         .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
         .-z-10 { z-index: -10; }
         .z-10 { z-index: 10; }
@@ -685,9 +838,6 @@
         @media (min-width: 1024px) {
             .lg\:flex-row { flex-direction: row; }
             .lg\:w-72 { width: 18rem; }
-            .lg\:h-screen { height: 100vh; }
-            .lg\:sticky { position: sticky; }
-            .lg\:top-0 { top: 0; }
             .lg\:p-8 { padding: 2rem; }
             .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
             .lg\:col-span-2 { grid-column: span 2 / span 2; }
@@ -697,9 +847,8 @@
             .xl\:col-span-2 { grid-column: span 2 / span 2; }
         }
     </style>
-<base target="_blank">
 </head>
-<body class="min-h-screen antialiased">
+<body>
     <nav class="site-nav">
         <div class="nav-inner">
             <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -710,15 +859,61 @@
         </div>
     </nav>
 
-    <!-- Background Layers -->
-    <div class="bg-cinematic"></div>
-    <div class="bg-noise"></div>
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 
-    <!-- App Container -->
-    <div class="relative z-10 flex flex-col lg:flex-row min-h-screen">
+    <div class="layout">
+      <div class="note-header">
+        <div class="crumbs"><a href="../../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span>type</span><span class="sep">/</span><span class="here">ct</span></div>
+        <h1 class="note-title">Epistemic Analyzer — Central Tendency Engine</h1>
+        <div class="note-meta">
+          <span class="chip">live note</span>
+          <span class="chip">interactive</span>
+          <span class="chip">#distributional</span>
+          <span class="chip">#robustness</span>
+        </div>
+      </div>
 
-        <!-- Sidebar -->
-        <aside class="w-full lg:w-72 glass-panel flex flex-col flex-shrink-0 lg:h-screen lg:sticky lg:top-0">
+      <div class="cols">
+        <main class="note-main">
+          <article class="note-card">
+            <div class="markdown-body">
+
+              <blockquote>
+                <p>An interactive engine for central tendency: density estimation, epistemic validity checks, and counterfactual perturbation — testing which summaries survive structural stress.</p>
+              </blockquote>
+
+              <h2 id="index">Index</h2>
+              <ul>
+                <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+                <li><a href="#view1">Density &amp; Metrics</a></li>
+                <li><a href="#view2">Epistemic Validity</a></li>
+                <li><a href="#view3">Counterfactual Lab</a></li>
+                <li><a href="#diagnostics">Diagnostic questions</a> — flags, fragility</li>
+                <li><a href="#references">References</a> — schema</li>
+              </ul>
+
+              <h2 id="formulation">Formulation</h2>
+
+              <h3>What epistemic element type does this instance belong to?</h3>
+              <blockquote>
+                <p><strong>Concrete Epistemic Artifact</strong> — a computed validity verdict about one dataset's center — produced by applying an <strong>Epistemic Operator</strong> (kernel density estimation, bootstrap resampling, structural alignment), and usable as an <strong>Epistemic Standard</strong> (center-viability score and diagnostic flags). Schema: <a href="../../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+              </blockquote>
+
+              <h3>What is this epistemic instance?</h3>
+              <blockquote>
+                <p>An interactive engine comparing central-tendency estimators across three views — density and metrics, epistemic validity, counterfactual lab — with an affirmation matrix recording what each metric represents (location, variance, multimodality, tail risk).</p>
+              </blockquote>
+
+              <h3>What grounds this reading?</h3>
+              <blockquote>
+                <p>It resolves the epistemic gap of <strong>estimator choice under structural stress</strong> — perturbing distributions and observing metric drift under skew and contamination to test which summaries survive. It preserves each metric's breakdown behavior; it destroys the full distributional detail that point summaries collapse away.</p>
+              </blockquote>
+
+    <!-- App Container (scoped inside card flow) -->
+    <div class="relative z-10 flex flex-col lg:flex-row">
+
+        <!-- Sidebar (in-card control panel; eyebrow h1 preserved) -->
+        <aside class="w-full lg:w-72 glass-panel flex flex-col flex-shrink-0">
             <!-- Header -->
             <div class="p-6 border-b border-white/5">
                 <div class="flex items-center gap-3 mb-1">
@@ -808,7 +1003,7 @@
         </aside>
 
         <!-- Main Content -->
-        <main class="flex-1 p-4 lg:p-8 overflow-y-auto min-h-screen">
+        <main class="flex-1 p-4 lg:p-8">
             
             <!-- View 1: Density Explorer -->
             <div id="view1" class="view-section space-y-6">
@@ -1096,6 +1291,41 @@
         </main>
     </div>
 
+              <h2 id="diagnostics">Diagnostic questions</h2>
+
+              <h3>What flags a non-viable center?</h3>
+              <blockquote>
+                <p>Skewness, kurtosis, modality, and tail index feed the center-viability score — the Diagnostic Flags panel names whichever metric breaks the reading.</p>
+              </blockquote>
+
+              <h3>How fragile is the verdict?</h3>
+              <blockquote>
+                <p>Perturb skew and contamination in the Counterfactual Simulator and watch Metric Drift: the distance each metric moves from baseline before the verdict flips.</p>
+              </blockquote>
+
+              <h2 id="references">References</h2>
+              <ul>
+                <li><a href="../../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+              </ul>
+
+            </div>
+          </article>
+        </main>
+
+        <aside class="sidebar">
+          <div class="sidebar-title">Contents</div>
+          <nav id="toc">
+            <a class="toc-item" href="#formulation">Formulation</a>
+            <a class="toc-item" href="#view1">Density &amp; Metrics</a>
+            <a class="toc-item" href="#view2">Epistemic Validity</a>
+            <a class="toc-item" href="#view3">Counterfactual Lab</a>
+            <a class="toc-item" href="#diagnostics">Diagnostics</a>
+            <a class="toc-item" href="#references">References</a>
+          </nav>
+        </aside>
+      </div>
+    </div>
+
     <footer class="site-footer">
         <div class="foot-inner">
             <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
@@ -1104,6 +1334,83 @@
     </footer>
 
     <script>
+        // ========================================
+        // Sidebar TOC highlight (mirrors note.html)
+        // ========================================
+        function initTocHighlight() {
+            const items = document.querySelectorAll('#toc .toc-item');
+            if (!items.length || !('IntersectionObserver' in window)) return;
+            const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    const idx = sections.indexOf(entry.target);
+                    items.forEach(it => it.classList.remove('active'));
+                    if (items[idx]) items[idx].classList.add('active');
+                });
+            }, { rootMargin: '-10% 0px -60% 0px' });
+            sections.forEach(s => observer.observe(s));
+        }
+
+        // ========================================
+        // Ambient constellation (mirrors note.html)
+        // ========================================
+        function initAmbient() {
+            const canvas = document.getElementById('ambientCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            let pts = [];
+            const LINK_DIST = 130;
+            function resize() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+                pts = [];
+                for (let i = 0; i < count; i++) {
+                    pts.push({
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        vx: (Math.random() - 0.5) * 0.22,
+                        vy: (Math.random() - 0.5) * 0.22,
+                        r: Math.random() * 1.4 + 0.4
+                    });
+                }
+            }
+            function tick() {
+                const light = document.documentElement.dataset.theme === 'light';
+                const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+                const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (let i = 0; i < pts.length; i++) {
+                    const p = pts[i];
+                    p.x += p.vx; p.y += p.vy;
+                    if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                    if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+                    ctx.fill();
+                    for (let j = i + 1; j < pts.length; j++) {
+                        const m = pts[j];
+                        const dx = p.x - m.x, dy = p.y - m.y;
+                        const dist = Math.sqrt(dx * dx + dy * dy);
+                        if (dist < LINK_DIST) {
+                            ctx.beginPath();
+                            ctx.moveTo(p.x, p.y);
+                            ctx.lineTo(m.x, m.y);
+                            ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                            ctx.lineWidth = 1;
+                            ctx.stroke();
+                        }
+                    }
+                }
+                requestAnimationFrame(tick);
+            }
+            window.addEventListener('resize', resize);
+            resize();
+            requestAnimationFrame(tick);
+        }
+
         // --- CORE STATE & DATA ---
         const state = { baseData: [], cfData: [], metrics: {} };
 
@@ -1828,6 +2135,9 @@ const colorClass = isSignificant ? 'text-rose-400' : (Math.abs(drift) > baseStd 
             document.getElementById('view2').style.opacity = '0';
             document.getElementById('view3').style.opacity = '0';
 
+            initTocHighlight();
+            initAmbient();
+
             // Generate initial dataset
             loadPreset('normal');
 
@@ -1897,5 +2207,6 @@ const colorClass = isSignificant ? 'text-rose-400' : (Math.abs(drift) > baseStd 
         apply();
     })();
     </script>
+    <script src="../../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../../glossarium/data/index.json" defer></script>
 </body>
 </html>

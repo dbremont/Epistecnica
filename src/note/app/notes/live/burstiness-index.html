@@ -54,6 +54,207 @@
     body { transition: opacity 180ms ease; }
     html.theme-fading body { opacity: 0; }
 
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
     .site-nav {
       position: sticky;
       top: 0;
@@ -188,45 +389,14 @@
       font-family: var(--font-mono);
     }
 
-    /* Background Pattern */
-    .bg-pattern {
-      position: fixed;
-      inset: 0;
-      background-image: 
-        linear-gradient(color-mix(in srgb, var(--accent) 2%, transparent) 1px, transparent 1px),
-        linear-gradient(90deg, color-mix(in srgb, var(--accent) 2%, transparent) 1px, transparent 1px);
-      background-size: 60px 60px;
-      pointer-events: none;
-      z-index: -1;
-    }
-
-    .bg-gradient-overlay {
-      position: fixed;
-      inset: 0;
-      background: 
-        radial-gradient(ellipse at 20% 20%, color-mix(in srgb, var(--accent) 8%, transparent) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 80%, color-mix(in srgb, var(--warning) 5%, transparent) 0%, transparent 50%);
-      pointer-events: none;
-      z-index: -1;
-    }
-
-    /* Section Cards */
+    /* Live-note lab panels: same card-bg/border/radius idiom as .note-card */
     .section-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 4px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
       position: relative;
-      overflow: hidden;
-    }
-
-    .section-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: linear-gradient(90deg, var(--accent), transparent);
     }
 
     /* Interactive Elements */
@@ -261,31 +431,24 @@
       box-shadow: 0 0 0 3px var(--accent-dim);
     }
 
-    /* Buttons */
+    /* Buttons: note.html outline idiom (mono uppercase chips) */
     .btn-primary {
-      background: var(--accent);
-      color: var(--bg);
-      font-weight: 600;
-      padding: 0.75rem 1.5rem;
-      border-radius: 3px;
-      font-size: 0.85rem;
-      letter-spacing: 0.03em;
-      transition: all 0.2s ease;
-      border: none;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.55rem 0.9rem;
       cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
     }
 
-    .btn-primary:hover {
-      filter: brightness(1.1);
-      transform: translateY(-1px);
-    }
-
-    .btn-primary:active {
-      transform: translateY(0);
-    }
+    .btn-primary:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
     .btn-primary:focus-visible {
-      outline: 2px solid var(--accent);
+      outline: 2px solid var(--accent-cyan);
       outline-offset: 2px;
     }
 
@@ -313,9 +476,9 @@
 
     /* Canvas */
     .canvas-container {
-      background: var(--bg-elevated);
-      border: 1px solid var(--border);
-      border-radius: 3px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
       position: relative;
     }
 
@@ -341,26 +504,31 @@
     .value-negative { color: var(--accent); }
     .value-neutral { color: var(--fg-muted); }
 
-    /* Tags */
+    /* Tags: same mono-uppercase chip idiom as .chip in note.html */
     .tag {
       display: inline-block;
-      padding: 0.25rem 0.75rem;
-      font-size: 0.7rem;
-      letter-spacing: 0.05em;
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
       text-transform: uppercase;
-      border-radius: 2px;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      cursor: pointer;
     }
 
     .tag-accent {
-      background: var(--accent-dim);
-      color: var(--accent);
-      border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+      color: var(--text-muted);
+    }
+
+    .tag-accent.active, button.tag-accent[aria-pressed="true"] {
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
     }
 
     .tag-warning {
-      background: var(--warning-dim);
-      color: var(--warning);
-      border: 1px solid color-mix(in srgb, var(--warning) 30%, transparent);
+      color: var(--text-muted);
     }
 
     .tag-danger {
@@ -514,16 +682,10 @@
       }
     }
 
-    /* ---- page headings (project face) ---- */
-    h1 {
+    /* ---- page headings inherit the note face via .markdown-body ---- */
+    .markdown-body h1 {
       font-family: var(--font-display);
-    }
-
-    h2 {
-      font-family: var(--font-display);
-      font-weight: 400;
-      font-size: 1.5rem;
-      margin: 0 0 1rem;
+      font-weight: 300;
     }
 
     /* ---- utility shim (replaces the Tailwind CDN) ---- */
@@ -679,7 +841,8 @@
     }
   </style>
 </head>
-<body class="min-h-screen">
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
       <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -690,297 +853,179 @@
     </div>
   </nav>
 
-  <div class="bg-pattern"></div>
-  <div class="bg-gradient-overlay"></div>
-
-  <main class="max-w-7xl mx-auto px-6 py-12">
-    
-    <!-- Index Section -->
-    <section class="mb-16 animate-in stagger-1">
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
-          <a href="#identity" class="section-card p-4 hover-bdr transition-colors group">
-            <div class="text-sm font-medium gh-accent transition-colors">Intro</div>
-            <div class="text-xs dim mt-1">Definition &amp; Role</div>
-          </a>
-          <a href="#formal" class="section-card p-4 hover-bdr transition-colors group">
-            <div class="text-sm font-medium gh-accent transition-colors">Decomposition</div>
-            <div class="text-xs dim mt-1">Instance Tree</div>
-          </a>
-          <a href="#playground" class="section-card p-4 hover-bdr transition-colors group">
-            <div class="text-sm font-medium gh-accent transition-colors">Playground</div>
-            <div class="text-xs dim mt-1">Guided Regimes Tour</div>
-          </a>
-          <a href="#qa" class="section-card p-4 hover-bdr transition-colors group">
-            <div class="text-sm font-medium gh-accent transition-colors">Q&amp;A</div>
-            <div class="text-xs dim mt-1">Diagnostic Questions</div>
-          </a>
-          <a href="#references" class="section-card p-4 hover-bdr transition-colors group">
-            <div class="text-sm font-medium gh-accent transition-colors">References</div>
-            <div class="text-xs dim mt-1">Sources &amp; Schema</div>
-          </a>
-      </div>
-    </section>
-
-    <!-- Identity Section -->
-    <section id="identity" class="mb-20 animate-in stagger-2">
-      <div class="grid lg:grid-cols-2 gap-8">
-        <div>
-          <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            Burstiness Index
-          </h1>
-          <p class="text-xl muted mb-8 leading-relaxed">
-            A dimensionless measure quantifying temporal clustering patterns in discrete event sequences.
-          </p>
-          
-          <div class="flex flex-wrap gap-2 mb-8">
-            <span class="tag tag-accent">Diagnostic</span>
-            <span class="tag tag-accent">Temporal</span>
-            <span class="tag tag-warning">Distributional</span>
-          </div>
-
-          <div class="space-y-4">
-            <div class="flex items-start gap-4 p-4 bg-elev rounded border">
-              <div class="w-10 h-10 rounded bg-accent-dim flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 accent-clr" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                </svg>
-              </div>
-              <div>
-                <div class="font-medium text-sm mb-1">Type: <span class="accent-clr">Descriptive Statistic</span></div>
-                <div class="text-xs muted">Position: Temporal structure characterization tool within the epistemic toolbox</div>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-
-        <div class="section-card p-6">
-          <h3 class="text-sm font-mono dim mb-4">EPISTEMIC ROLE</h3>
-          
-          <div class="space-y-6">
-            <div>
-              <div class="text-xs dim mb-2">Function</div>
-              <p class="text-sm">Resolves the epistemic gap of <strong class="fg-clr">temporal pattern quantification</strong>—transforming qualitative observations of clustering into precise, comparable measurements.</p>
-            </div>
-            
-            <div class="border-t pt-6">
-              <div class="text-xs dim mb-3">Preservation Profile</div>
-              <div class="grid grid-cols-2 gap-3">
-                <div class="p-3 bg-elev rounded border text-xs">
-                  <div class="accent-clr mb-1">Relative Variance</div>
-                  <div class="muted">Coefficient of variation preserved</div>
-                </div>
-                <div class="p-3 bg-elev rounded border text-xs">
-                  <div class="accent-clr mb-1">Ordering</div>
-                  <div class="muted">Interval sequence maintained</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="border-t pt-6">
-              <div class="text-xs dim mb-3">Destruction Profile</div>
-              <div class="grid grid-cols-2 gap-3">
-                <div class="p-3 bg-danger-dim rounded border bdr-danger-dim text-xs">
-                  <div class="danger-clr mb-1">Absolute Timing</div>
-                  <div class="muted">Specific timestamps lost</div>
-                </div>
-                <div class="p-3 bg-danger-dim rounded border bdr-danger-dim text-xs">
-                  <div class="danger-clr mb-1">Distribution Shape</div>
-                  <div class="muted">Higher moments discarded</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="border-t pt-6">
-              <div class="text-xs dim mb-3">Formulation — what epistemic element type does this instance belong to?</div>
-              <p class="text-sm"><strong class="fg-clr">Concrete Epistemic Artifact</strong> — a computed claim about one event stream — produced by applying an <strong class="fg-clr">Epistemic Operator</strong> (the B formula), and usable as an <strong class="fg-clr">Epistemic Standard</strong> (regime classification). Schema: <a class="accent-clr" href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
-            </div>
-
-            <div class="border-t pt-6">
-              <div class="text-xs dim mb-3">Formulation — what is this epistemic instance?</div>
-              <p class="text-sm">B = (σ−μ)/(σ+μ) over inter-event intervals, mapping any stream to [−1, 1]: −1 fully regular, 0 Poisson, +1 extremely bursty.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Formal Characterization Section -->
-    <section id="formal" class="mb-20 animate-in stagger-3">
-      <div class="section-card p-6 mt-6">
-        <div class="text-xs dim mb-4">FORMULATION — RECURSIVE INSTANCE DECOMPOSITION</div>
-        <div class="overflow-x-auto">
-        <table class="w-full text-xs">
-          <thead>
-            <tr class="font-mono dim text-left">
-              <th class="p-2 border-b">Instance Tree Path</th>
-              <th class="p-2 border-b">Description</th>
-              <th class="p-2 border-b">Epistemic Category</th>
-              <th class="p-2 border-b">Epistemic Element Type Tree Path</th>
-            </tr>
-          </thead>
-          <tbody class="font-mono">
-            <tr><td class="p-2 border-b accent-clr">Burstiness Index</td><td class="p-2 border-b muted">Computed burstiness claim about one event stream (exemplar stream per session).</td><td class="p-2 border-b">Representation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Event Timestamps T</td><td class="p-2 border-b muted">Ordered input sequence tᵢ ∈ ℝ⁺ (exemplar per session).</td><td class="p-2 border-b">Target</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Event Stream</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Interval Sequence τ</td><td class="p-2 border-b muted">Derived input τᵢ = tᵢ₊₁ − tᵢ.</td><td class="p-2 border-b">Access</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Observable</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Mean Operator μ</td><td class="p-2 border-b muted">Sample mean of intervals.</td><td class="p-2 border-b">Methodology</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Std Operator σ</td><td class="p-2 border-b muted">Sample standard deviation with Bessel correction.</td><td class="p-2 border-b">Methodology</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; B Formula</td><td class="p-2 border-b muted">B = (σ−μ)/(σ+μ) mapping to [−1, 1].</td><td class="p-2 border-b">Methodology</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; B Value</td><td class="p-2 border-b muted">Realized scalar for this stream (exemplar).</td><td class="p-2 border-b">Representation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Regime Reading</td><td class="p-2 border-b muted">Regular (−1), Poisson (0), bursty (+1) classification.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Timeline Canvas</td><td class="p-2 border-b muted">Visual inscription of timestamps.</td><td class="p-2 border-b">Access</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Histogram Canvas</td><td class="p-2 border-b muted">Visual inscription of the interval distribution.</td><td class="p-2 border-b">Access</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Validation Tests</td><td class="p-2 border-b muted">Poisson, regular, scale, and extreme regime checks.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Playground Session</td><td class="p-2 border-b muted">Guided regimes tour: regular, Poisson, bursty, failure-modes (exemplar per session).</td><td class="p-2 border-b">Agency</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Activity (Process)</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Epistemic Function</td><td class="p-2 border-b muted">Resolves the gap of temporal pattern quantification: qualitative clustering becomes comparable measurement.</td><td class="p-2 border-b">Purpose</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Purpose</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Preservation &gt; Relative Variance</td><td class="p-2 border-b muted">Coefficient of variation preserved through the transform.</td><td class="p-2 border-b">Representation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Preservation &gt; Ordering</td><td class="p-2 border-b muted">Interval sequence maintained.</td><td class="p-2 border-b">Representation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Destruction &gt; Absolute Timing</td><td class="p-2 border-b muted">Specific timestamps lost.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Destruction &gt; Distribution Shape</td><td class="p-2 border-b muted">Higher moments discarded.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Temporal Ordering</td><td class="p-2 border-b muted">Events must be chronologically ordered; permutation destroys information.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Minimum Events</td><td class="p-2 border-b muted">At least 3 events (2 intervals) for variance computation.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Non-zero Intervals</td><td class="p-2 border-b muted">Simultaneous events require special handling or exclusion.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Correctness Criteria</td><td class="p-2 border-b muted">Expected B per regime: −1 regular, 0 Poisson, +1 bursty.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Poisson Check</td><td class="p-2 border-b muted">B ≈ 0 over repeated Poisson trials (exemplar per session).</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Regular Check</td><td class="p-2 border-b muted">B &lt; 0 for even streams (exemplar per session).</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Scale Check</td><td class="p-2 border-b muted">Invariance of B under rate scaling (exemplar per session).</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Extreme Check</td><td class="p-2 border-b muted">B → +1 for clustered extremes (exemplar per session).</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Unimodal Scope</td><td class="p-2 border-b muted">Valid for unimodal, near-symmetric interval data.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Multimodal Failure</td><td class="p-2 border-b muted">Mean falls between modes; B measures spread around a meaningless center.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Heavy-tail Understatement</td><td class="p-2 border-b muted">A single scalar understates extreme-event probability.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Lossy Compression</td><td class="p-2 border-b muted">Infinitely many distributions share one B; always plot alongside.</td><td class="p-2 border-b">Validation</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td class="p-2 border-b accent-clr">BI &gt; Robust Alternatives</td><td class="p-2 border-b muted">MAD and IQR for contaminated data.</td><td class="p-2 border-b">Methodology</td><td class="p-2 border-b muted">(root) &gt; Epistemic Order &gt; Epistemic Strategy</td></tr>
-          </tbody>
-        </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- Laboratory Section -->
-        <!-- Playground Section : guided regimes tour -->
-    <section id="playground" class="mb-20 animate-in">
-      <h2>Playground</h2>
-      <p class="text-sm muted mb-6 max-w-3xl">Four stops through the regimes of B. Each stop generates a fixed stream, renders its timeline, and reads out the burstiness value — what changes is the interval distribution underneath.</p>
-      <div class="flex flex-wrap gap-2 mb-6" role="tablist" aria-label="Tour stops">
-        <button type="button" class="tag tag-accent active" data-tour-step="0" aria-pressed="true">1 · Regular</button>
-        <button type="button" class="tag tag-accent" data-tour-step="1" aria-pressed="false">2 · Poisson</button>
-        <button type="button" class="tag tag-accent" data-tour-step="2" aria-pressed="false">3 · Bursty</button>
-        <button type="button" class="tag tag-accent" data-tour-step="3" aria-pressed="false">4 · Failure modes</button>
-      </div>
-      <div class="grid lg:grid-cols-2 gap-6">
-        <div class="section-card p-6">
-          <h3 class="text-sm font-mono dim mb-4" id="tour-step-title">Step 1 of 4 — Regular</h3>
-          <p class="text-sm mb-6" id="tour-narration"></p>
-          <div class="flex items-baseline gap-3 mb-2">
-            <span class="text-xs dim">B =</span>
-            <span class="value-display" id="tour-b">—</span>
-            <span class="tag" id="tour-regime">—</span>
-          </div>
-          <div class="text-xs muted mb-6">mean interval <span class="font-mono" id="tour-mean">—</span></div>
-          <div id="tour-failures" class="space-y-3 text-xs" style="display:none">
-            <div class="p-3 bg-elev rounded border"><span class="accent-clr">Bimodal —</span> <span class="muted">the mean falls between two clusters where almost nothing lives; B measures spread around a meaningless center.</span></div>
-            <div class="p-3 bg-elev rounded border"><span class="accent-clr">Skewed —</span> <span class="muted">the tail pulls σ outward, overstating typical spread.</span></div>
-            <div class="p-3 bg-elev rounded border"><span class="accent-clr">Contaminated —</span> <span class="muted">one extreme interval can drag B toward +1 by itself.</span></div>
-            <div class="p-3 bg-elev rounded border"><span class="accent-clr">Same B, different shape —</span> <span class="muted">B is lossy compression: infinitely many distributions share one value. Always plot.</span></div>
-          </div>
-          <div class="flex gap-3 mt-6">
-            <button type="button" class="btn-primary" id="tour-prev">← Prev</button>
-            <button type="button" class="btn-primary" id="tour-next">Next →</button>
-          </div>
-        </div>
-        <div class="section-card p-6">
-          <h3 class="text-sm font-mono dim mb-4">EVENT TIMELINE</h3>
-          <div class="canvas-container" style="height: 260px;">
-            <canvas id="tour-canvas" aria-label="Tour event timeline"></canvas>
-          </div>
-          <p class="text-xs muted mt-3">One tick per event. Clumps push B up; clockwork pushes it down.</p>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- QA Section -->
-    <section id="qa" class="mb-20">
-      <h2>Diagnostic Questions</h2>
-
-      <div class="grid md:grid-cols-2 gap-4">
-        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="assumptions">
-          <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
-              <span class="accent-clr font-mono text-sm">Q1</span>
-            </div>
-            <div>
-              <div class="font-medium text-sm mb-2">What happens if assumptions are violated?</div>
-              <div class="text-xs muted qa-answer">If temporal ordering is lost (events shuffled), B becomes meaningless—it measures a property that no longer exists. If simultaneous events occur, they must be handled (excluded or jittered) to avoid zero intervals.</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="invariant">
-          <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
-              <span class="accent-clr font-mono text-sm">Q2</span>
-            </div>
-            <div>
-              <div class="font-medium text-sm mb-2">What invariant does this tool rely on most critically?</div>
-              <div class="text-xs muted qa-answer">The relationship between mean and variance—specifically that the coefficient of variation (σ/μ) captures meaningful temporal structure. This assumes intervals are i.i.d. samples from some underlying distribution.</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="indistinguishable">
-          <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
-              <span class="accent-clr font-mono text-sm">Q3</span>
-            </div>
-            <div>
-              <div class="font-medium text-sm mb-2">Can two different tools produce indistinguishable artifacts?</div>
-              <div class="text-xs muted qa-answer">Yes. A bimodal distribution (many short intervals, few very long intervals) and a power-law distribution can both yield B ≈ 0.7, yet represent fundamentally different temporal processes. B alone cannot distinguish them.</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-card p-5 cursor-pointer hover-bdr transition-colors qa-card" data-question="robustness">
-          <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded bg-elev flex items-center justify-center flex-shrink-0">
-              <span class="accent-clr font-mono text-sm">Q4</span>
-            </div>
-            <div>
-              <div class="font-medium text-sm mb-2">How robust is B to outliers?</div>
-              <div class="text-xs muted qa-answer">Not robust. A single extremely long interval dramatically increases σ while barely affecting μ, pushing B toward +1. Consider using robust alternatives (median-based) or trimming extreme intervals.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- References Section -->
-    <section id="references" class="mb-20">
-      <h2>References</h2>
-      <div class="section-card p-6">
-        <ul class="space-y-2 text-sm">
-          <li><a class="accent-clr" href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> <span class="muted text-xs">— schema of this page: epistemic element type, instance, recursive decomposition</span></li>
-          <li><span class="fg-clr">Kim &amp; Altmann (2008)</span> <span class="muted text-xs">— burstiness measure B for event sequences</span></li>
-        </ul>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="border-t py-8 mt-20">
-    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-      <div class="text-xs dim">
-        Interactive Epistemic Notebook | Burstiness Index
-      </div>
-      <div class="flex items-center gap-4 text-xs dim">
-        <span>Concept: Kim & Altmann (2008)</span>
-        <span>|</span>
-        <span>Built for epistemic clarity</span>
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">burstiness-index</span></div>
+      <h1 class="note-title">Burstiness Index</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#diagnostic</span>
+        <span class="chip">#temporal</span>
+        <span class="chip">#distributional</span>
       </div>
     </div>
-  </footer>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>In this note, we analyze one event stream through a single dimensionless measure — the burstiness index — that turns qualitative impressions of clustering into a comparable number.</p>
+            </blockquote>
+
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+              <li><a href="#decomposition">Recursive instance decomposition</a> — instance tree</li>
+              <li><a href="#playground">Playground</a> — guided regimes tour</li>
+              <li><a href="#diagnostics">Diagnostic questions</a> — assumptions, invariants, limits</li>
+              <li><a href="#references">References</a> — sources &amp; schema</li>
+            </ul>
+
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Concrete Epistemic Artifact</strong> — a computed claim about one event stream — produced by applying an <strong>Epistemic Operator</strong> (the B formula), and usable as an <strong>Epistemic Standard</strong> (regime classification). Schema: <a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>B = (σ−μ)/(σ+μ) over inter-event intervals, mapping any stream to [−1, 1]: −1 fully regular, 0 Poisson, +1 extremely bursty. Type: <strong>Descriptive Statistic</strong> — a temporal structure characterization tool within the epistemic toolbox.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>It resolves the epistemic gap of <strong>temporal pattern quantification</strong> — transforming qualitative observations of clustering into precise, comparable measurements. It preserves relative variance (coefficient of variation) and interval ordering; it destroys absolute timing (specific timestamps) and distribution shape (higher moments).</p>
+            </blockquote>
+
+            <h2 id="decomposition">Recursive instance decomposition</h2>
+            <div class="overflow-x-auto">
+            <table>
+          <thead>
+            <tr>
+              <th>Instance Tree Path</th>
+              <th>Description</th>
+              <th>Epistemic Category</th>
+              <th>Epistemic Element Type Tree Path</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Burstiness Index</td><td>Computed burstiness claim about one event stream (exemplar stream per session).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>BI &gt; Event Timestamps T</td><td>Ordered input sequence tᵢ ∈ ℝ⁺ (exemplar per session).</td><td>Target</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Event Stream</td></tr>
+            <tr><td>BI &gt; Interval Sequence τ</td><td>Derived input τᵢ = tᵢ₊₁ − tᵢ.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Observable</td></tr>
+            <tr><td>BI &gt; Mean Operator μ</td><td>Sample mean of intervals.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>BI &gt; Std Operator σ</td><td>Sample standard deviation with Bessel correction.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>BI &gt; B Formula</td><td>B = (σ−μ)/(σ+μ) mapping to [−1, 1].</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>BI &gt; B Value</td><td>Realized scalar for this stream (exemplar).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>BI &gt; Regime Reading</td><td>Regular (−1), Poisson (0), bursty (+1) classification.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Timeline Canvas</td><td>Visual inscription of timestamps.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
+            <tr><td>BI &gt; Histogram Canvas</td><td>Visual inscription of the interval distribution.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
+            <tr><td>BI &gt; Validation Tests</td><td>Poisson, regular, scale, and extreme regime checks.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Playground Session</td><td>Guided regimes tour: regular, Poisson, bursty, failure-modes (exemplar per session).</td><td>Agency</td><td>(root) &gt; Epistemic Order &gt; Epistemic Activity (Process)</td></tr>
+            <tr><td>BI &gt; Epistemic Function</td><td>Resolves the gap of temporal pattern quantification: qualitative clustering becomes comparable measurement.</td><td>Purpose</td><td>(root) &gt; Epistemic Order &gt; Epistemic Purpose</td></tr>
+            <tr><td>BI &gt; Preservation &gt; Relative Variance</td><td>Coefficient of variation preserved through the transform.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
+            <tr><td>BI &gt; Preservation &gt; Ordering</td><td>Interval sequence maintained.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
+            <tr><td>BI &gt; Destruction &gt; Absolute Timing</td><td>Specific timestamps lost.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Destruction &gt; Distribution Shape</td><td>Higher moments discarded.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Temporal Ordering</td><td>Events must be chronologically ordered; permutation destroys information.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Minimum Events</td><td>At least 3 events (2 intervals) for variance computation.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Non-zero Intervals</td><td>Simultaneous events require special handling or exclusion.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Correctness Criteria</td><td>Expected B per regime: −1 regular, 0 Poisson, +1 bursty.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Poisson Check</td><td>B ≈ 0 over repeated Poisson trials (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Regular Check</td><td>B &lt; 0 for even streams (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Scale Check</td><td>Invariance of B under rate scaling (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Extreme Check</td><td>B → +1 for clustered extremes (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Unimodal Scope</td><td>Valid for unimodal, near-symmetric interval data.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Multimodal Failure</td><td>Mean falls between modes; B measures spread around a meaningless center.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Heavy-tail Understatement</td><td>A single scalar understates extreme-event probability.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Lossy Compression</td><td>Infinitely many distributions share one B; always plot alongside.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Robust Alternatives</td><td>MAD and IQR for contaminated data.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Strategy</td></tr>
+          </tbody>
+        </table>
+            </div>
+
+            <h2 id="playground">Playground</h2>
+            <p>Four stops through the regimes of B. Each stop generates a fixed stream, renders its timeline, and reads out the burstiness value — what changes is the interval distribution underneath.</p>
+            <div class="flex flex-wrap gap-2 mb-6" role="tablist" aria-label="Tour stops">
+              <button type="button" class="tag tag-accent active" data-tour-step="0" aria-pressed="true">1 · Regular</button>
+              <button type="button" class="tag tag-accent" data-tour-step="1" aria-pressed="false">2 · Poisson</button>
+              <button type="button" class="tag tag-accent" data-tour-step="2" aria-pressed="false">3 · Bursty</button>
+              <button type="button" class="tag tag-accent" data-tour-step="3" aria-pressed="false">4 · Failure modes</button>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-6">
+              <div class="section-card p-6">
+                <h3 id="tour-step-title">Step 1 of 4 — Regular</h3>
+                <p id="tour-narration"></p>
+                <p>B = <span class="value-display" id="tour-b">—</span> <span class="tag" id="tour-regime">—</span></p>
+                <p>mean interval <span class="font-mono" id="tour-mean">—</span></p>
+                <div id="tour-failures" style="display:none">
+                  <blockquote><p><strong>Bimodal</strong> — the mean falls between two clusters where almost nothing lives; B measures spread around a meaningless center.</p></blockquote>
+                  <blockquote><p><strong>Skewed</strong> — the tail pulls σ outward, overstating typical spread.</p></blockquote>
+                  <blockquote><p><strong>Contaminated</strong> — one extreme interval can drag B toward +1 by itself.</p></blockquote>
+                  <blockquote><p><strong>Same B, different shape</strong> — B is lossy compression: infinitely many distributions share one value. Always plot.</p></blockquote>
+                </div>
+                <div class="flex gap-3 mt-6">
+                  <button type="button" class="btn-primary" id="tour-prev">← Prev</button>
+                  <button type="button" class="btn-primary" id="tour-next">Next →</button>
+                </div>
+              </div>
+              <div class="section-card p-6">
+                <h3>Event timeline</h3>
+                <div class="canvas-container" style="height: 260px;">
+                  <canvas id="tour-canvas" aria-label="Tour event timeline"></canvas>
+                </div>
+                <p>One tick per event. Clumps push B up; clockwork pushes it down.</p>
+              </div>
+            </div>
+
+            <h2 id="diagnostics">Diagnostic questions</h2>
+
+            <h3>What happens if assumptions are violated?</h3>
+            <blockquote>
+              <p>If temporal ordering is lost (events shuffled), B becomes meaningless — it measures a property that no longer exists. If simultaneous events occur, they must be handled (excluded or jittered) to avoid zero intervals.</p>
+            </blockquote>
+
+            <h3>What invariant does this tool rely on most critically?</h3>
+            <blockquote>
+              <p>The relationship between mean and variance — specifically that the coefficient of variation (σ/μ) captures meaningful temporal structure. This assumes intervals are i.i.d. samples from some underlying distribution.</p>
+            </blockquote>
+
+            <h3>Can two different tools produce indistinguishable artifacts?</h3>
+            <blockquote>
+              <p>Yes. A bimodal distribution (many short intervals, few very long intervals) and a power-law distribution can both yield B ≈ 0.7, yet represent fundamentally different temporal processes. B alone cannot distinguish them.</p>
+            </blockquote>
+
+            <h3>How robust is B to outliers?</h3>
+            <blockquote>
+              <p>Not robust. A single extremely long interval dramatically increases σ while barely affecting μ, pushing B toward +1. Consider using robust alternatives (median-based) or trimming extreme intervals.</p>
+            </blockquote>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, recursive decomposition</li>
+              <li><strong>Kim &amp; Altmann (2008)</strong> — burstiness measure B for event sequences</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#decomposition">Decomposition</a>
+          <a class="toc-item" href="#playground">Playground</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="foot-inner">
@@ -1386,28 +1431,80 @@
     }
 
     // ========================================
-    // Scroll Animation
+    // Sidebar TOC highlight (mirrors note.html)
     // ========================================
-    function initScrollAnimations() {
-      const animatedElements = document.querySelectorAll('.animate-in');
-      
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
-          }
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
         });
-      }, {
-        threshold: 0.1
-      });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
 
-      animatedElements.forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        observer.observe(el);
-      });
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
     }
 
     // ========================================
@@ -1415,7 +1512,8 @@
     // ========================================
     document.addEventListener('DOMContentLoaded', () => {
       initEventHandlers();
-      initScrollAnimations();
+      initTocHighlight();
+      initAmbient();
       renderTourStep(0);
     });
 
@@ -1453,5 +1551,6 @@
     apply();
   })();
   </script>
+  <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 </body>
 </html>

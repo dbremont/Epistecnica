@@ -105,6 +105,12 @@ instance-decomposition table:
   heading (`src/note/README.md` owns naming/tags rules). Run
   `make notes-index` after any corpus edit (see verification list below).
 
+Live notes (`src/note/app/notes/live/*.html`) share the `note.html` frame
+(ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
+and the philosophia shell order — recipe + conversion record in
+`docs/live-note-chrome.md` §7–§8. Keep `<title>`/h1, copy, and JS ids
+stable; the catalog indexes them.
+
 ## Run / verify locally
 
 ```

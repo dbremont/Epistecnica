@@ -144,61 +144,205 @@
         .site-footer a:hover { color: var(--accent-cyan); }
 
         /* ============================================
-           PAGE — Example Tool reference implementation
+           PAGE — frame (mirrors note.html) + lab panels
            ============================================ */
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
 
         body {
             font-family: var(--font-body);
-            padding: 2rem;
-            color: var(--text-secondary);
+            color: var(--text-primary);
             background: var(--bg-void);
             line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        #ambientCanvas {
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 0;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        .layout {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
             max-width: 1280px;
             margin: 0 auto;
+            padding: 2.5rem 2rem 3.5rem;
         }
 
-        h1 {
+        .cols { display: flex; gap: 2.5rem; }
+        .note-main { flex: 9 1 0; min-width: 0; }
+
+        .crumbs {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+        }
+        .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+        .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+        .crumbs .here { color: var(--accent-gold); }
+
+        h1.note-title {
             font-family: var(--font-display);
             font-weight: 300;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-            font-size: 2.4rem;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
         }
 
-        h2 {
+        .note-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin: -1.2rem 0 2rem;
+            position: relative;
+            top: 0.8rem;
+        }
+
+        .chip {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.35rem 0.7rem;
+            text-decoration: none;
+        }
+
+        .note-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2.5rem;
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+        }
+
+        .sidebar {
+            flex: 1 1 0;
+            min-width: 180px;
+            position: sticky;
+            top: 3.5rem;
+            height: fit-content;
+            max-height: calc(100vh - 5rem);
+            overflow-y: auto;
+            padding: 0 1.25rem 0 0;
+        }
+
+        .sidebar-title {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 0.9rem;
+            text-align: right;
+        }
+
+        .toc-item {
+            display: block;
+            font-size: 0.78rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            text-decoration: none;
+            text-align: right;
+            padding: 0.3rem 0.75rem 0.3rem 0;
+            border-right: 1px solid transparent;
+            margin-right: -1.25rem;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        .toc-item:hover { color: var(--text-primary); }
+        .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .note-card { padding: 1.5rem; }
+        }
+
+        .markdown-body {
+            font-weight: 300;
+            font-size: 0.95rem;
+            line-height: 1.75;
+            color: var(--text-secondary);
+            word-wrap: break-word;
+        }
+        .markdown-body h2 {
             font-family: var(--font-display);
             font-weight: 400;
+            font-size: 1.55rem;
+            line-height: 1.25;
             color: var(--text-primary);
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            font-size: 1.6rem;
+            margin: 2.2em 0 0.8em;
+            padding-bottom: 0.35em;
+            border-bottom: 1px solid var(--border-subtle);
+            scroll-margin-top: 6rem;
+        }
+        .markdown-body h2:first-child { margin-top: 0; }
+        .markdown-body h3 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-style: italic;
+            font-size: 1.25rem;
+            line-height: 1.25;
+            color: var(--text-primary);
+            margin: 2.2em 0 0.8em;
+            scroll-margin-top: 6rem;
+        }
+        .markdown-body p { margin: 0 0 1.1em; }
+        .markdown-body a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: border-color 0.3s ease;
+        }
+        .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+        .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+        .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+        .markdown-body li { margin-bottom: 0.35em; }
+        .markdown-body li::marker { color: var(--accent-gold); }
+        .markdown-body blockquote {
+            margin: 0 0 1.1em;
+            padding: 0.2em 0 0.2em 1.25em;
+            border-left: 1px solid var(--accent-gold);
+            font-style: italic;
+            color: var(--text-secondary);
         }
 
-        p {
-            margin-bottom: 1rem;
-        }
-
-        /* Buttons */
-        #action-btn, #decrement-btn {
-            background: var(--accent-cyan);
-            color: var(--bg-void);
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: 8px;
+        /* Buttons: note outline chip idiom */
+        #action-btn, #decrement-btn, #open-help-btn {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.9rem;
+            margin-right: 0.5rem;
             cursor: pointer;
-            font-weight: 600;
-            font-size: 0.9rem;
-            font-family: var(--font-body);
-            transition: all 0.2s ease;
+            transition: color 0.3s ease, border-color 0.3s ease;
         }
 
-        #action-btn:hover, #decrement-btn:hover {
-            filter: brightness(1.1);
-            transform: translateY(-2px);
-        }
-
-        #action-btn:active, #decrement-btn:active {
-            transform: translateY(0);
+        #action-btn:hover, #decrement-btn:hover, #open-help-btn:hover {
+            color: var(--accent-cyan);
+            border-color: var(--accent-cyan);
         }
 
         /* Status Display */
@@ -207,14 +351,14 @@
             padding: 1.5rem;
             background: var(--card-bg);
             border: 1px solid var(--border-subtle);
-            border-radius: 12px;
+            border-radius: 10px;
         }
 
         .status-message {
             padding: 1rem;
             background: var(--accent-cyan-dim);
             border: 1px solid var(--accent-cyan);
-            border-radius: 8px;
+            border-radius: 6px;
             font-family: var(--font-mono);
             font-size: 0.85rem;
             margin-bottom: 0.5rem;
@@ -248,7 +392,7 @@
             overflow-y: auto;
             background: var(--bg-surface);
             border: 1px solid var(--border-subtle);
-            border-radius: 8px;
+            border-radius: 6px;
             padding: 1rem;
         }
 
@@ -453,6 +597,7 @@
     </style>
 </head>
 <body>
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
     <nav class="site-nav">
         <div class="nav-inner">
             <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
@@ -463,23 +608,104 @@
         </div>
     </nav>
 
-    <h1>Example Tool</h1>
-    <p>Reference implementation demonstrating the Epistemic Toolbox tool communication protocol.</p>
-
-    <button id="action-btn">Increment Counter</button>
-    <button id="decrement-btn" style="background: var(--accent-gold-dim); color: var(--accent-gold); margin-left: 0.5rem;">Decrement</button>
-
-    <div class="status-section">
-        <div class="status-message" id="status">Status: Ready</div>
-        <div class="counter-display">
-            <span style="color: var(--text-secondary);">Counter:</span>
-            <span class="counter-value" id="counter">0</span>
+    <div class="layout">
+        <div class="note-header">
+            <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">can</span></div>
+            <h1 class="note-title">Example Tool</h1>
+            <div class="note-meta">
+                <span class="chip">live note</span>
+                <span class="chip">interactive</span>
+                <span class="chip">#protocol</span>
+                <span class="chip">#reference</span>
+            </div>
         </div>
-    </div>
 
-    <div class="event-log">
-        <div class="event-log-title">Event Log</div>
-        <div id="event-log-entries"></div>
+        <div class="cols">
+            <main class="note-main">
+                <article class="note-card">
+                    <div class="markdown-body">
+                        <blockquote>
+                            <p>Reference implementation demonstrating the Epistemic Toolbox tool communication protocol.</p>
+                        </blockquote>
+
+                        <h2 id="index">Index</h2>
+                        <ul>
+                            <li><a href="#formulation">Formulation</a> — element type, instance, grounds</li>
+                            <li><a href="#lab">Laboratory</a> — counter demo and event log</li>
+                            <li><a href="#diagnostics">Diagnostic questions</a> — standalone use, boundaries</li>
+                            <li><a href="#references">References</a> — sources &amp; schema</li>
+                        </ul>
+
+                        <h2 id="formulation">Formulation</h2>
+
+                        <h3>What epistemic element type does this instance belong to?</h3>
+                        <blockquote>
+                            <p>A <strong>reference implementation</strong> of the tool communication protocol — a working example of how tools receive commands from the viewer and emit events back. Schema: <a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+                        </blockquote>
+
+                        <h3>What is this epistemic instance?</h3>
+                        <blockquote>
+                            <p>A counter tool with increment and decrement commands, a status line, and an event log — the smallest tool that exercises the full bidirectional protocol.</p>
+                        </blockquote>
+
+                        <h3>What grounds this reading?</h3>
+                        <blockquote>
+                            <p>Tools receive commands from the viewer and emit events back, enabling bidirectional communication while maintaining CSS isolation via Shadow DOM.</p>
+                        </blockquote>
+
+                        <h2 id="lab">Laboratory</h2>
+                        <p>
+                            <button id="action-btn">Increment Counter</button>
+                            <button id="decrement-btn">Decrement</button>
+                            <button id="open-help-btn">Protocol reference</button>
+                        </p>
+
+                        <div class="status-section">
+                            <div class="status-message" id="status">Status: Ready</div>
+                            <div class="counter-display">
+                                <span style="color: var(--text-secondary);">Counter:</span>
+                                <span class="counter-value" id="counter">0</span>
+                            </div>
+                        </div>
+
+                        <div class="event-log">
+                            <div class="event-log-title">Event Log</div>
+                            <div id="event-log-entries"></div>
+                        </div>
+
+                        <p>The full protocol — viewer-to-tool commands, tool-to-viewer events, implementation example, best practices — lives in the help dialog (Protocol reference button, or the <code>tool-openHelp</code> command).</p>
+
+                        <h2 id="diagnostics">Diagnostic questions</h2>
+
+                        <h3>What happens with no viewer attached?</h3>
+                        <blockquote>
+                            <p>The tool initializes on load and works standalone — commands simply never arrive, and emitted events go unheard. Use <code>bubbles: true</code> and <code>composed: true</code> for events to cross the Shadow DOM boundary.</p>
+                        </blockquote>
+
+                        <h3>What crosses the tool boundary?</h3>
+                        <blockquote>
+                            <p>Commands in (<code>tool-reset</code>, <code>tool-refresh</code>, <code>tool-[custom]</code>) and events out (<code>tool-ready</code>, <code>tool-stateChanged</code>, <code>tool-error</code>) — each with a documented detail object.</p>
+                        </blockquote>
+
+                        <h2 id="references">References</h2>
+                        <ul>
+                            <li><a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page</li>
+                        </ul>
+                    </div>
+                </article>
+            </main>
+
+            <aside class="sidebar">
+                <div class="sidebar-title">Contents</div>
+                <nav id="toc">
+                    <a class="toc-item" href="#index">Index</a>
+                    <a class="toc-item" href="#formulation">Formulation</a>
+                    <a class="toc-item" href="#lab">Laboratory</a>
+                    <a class="toc-item" href="#diagnostics">Diagnostics</a>
+                    <a class="toc-item" href="#references">References</a>
+                </nav>
+            </aside>
+        </div>
     </div>
 
     <!-- Help Section (Modal Overlay) -->
@@ -966,6 +1192,95 @@ document.dispatchEvent(new CustomEvent('tool-ready', {
 
     <script>
     (function () {
+        // Protocol reference button dogfoods the documented command.
+        document.addEventListener('DOMContentLoaded', function () {
+            var btn = document.getElementById('open-help-btn');
+            if (btn) {
+                btn.addEventListener('click', function () {
+                    document.dispatchEvent(new CustomEvent('tool-openHelp', { bubbles: true }));
+                });
+            }
+        });
+
+        // Sidebar TOC highlight (mirrors note.html)
+        (function initTocHighlight() {
+            var items = document.querySelectorAll('#toc .toc-item');
+            if (!items.length || !('IntersectionObserver' in window)) return;
+            var sections = Array.prototype.map.call(items, function (a) {
+                return document.querySelector(a.getAttribute('href'));
+            }).filter(Boolean);
+            var observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (!entry.isIntersecting) return;
+                    var idx = sections.indexOf(entry.target);
+                    items.forEach(function (it) { it.classList.remove('active'); });
+                    if (items[idx]) items[idx].classList.add('active');
+                });
+            }, { rootMargin: '-10% 0px -60% 0px' });
+            sections.forEach(function (s) { observer.observe(s); });
+        })();
+
+        // Ambient constellation (mirrors note.html)
+        (function initAmbient() {
+            var canvas = document.getElementById('ambientCanvas');
+            if (!canvas) return;
+            var ctx = canvas.getContext('2d');
+            var pts = [];
+            var LINK_DIST = 130;
+            function resize() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                var count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+                pts = [];
+                for (var i = 0; i < count; i++) {
+                    pts.push({
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        vx: (Math.random() - 0.5) * 0.22,
+                        vy: (Math.random() - 0.5) * 0.22,
+                        r: Math.random() * 1.4 + 0.4
+                    });
+                }
+            }
+            function tick() {
+                var light = document.documentElement.dataset.theme === 'light';
+                var dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+                var linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (var i = 0; i < pts.length; i++) {
+                    var p = pts[i];
+                    p.x += p.vx; p.y += p.vy;
+                    if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                    if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+                    ctx.fill();
+                    for (var j = i + 1; j < pts.length; j++) {
+                        var m = pts[j];
+                        var dx = p.x - m.x, dy = p.y - m.y;
+                        var dist = Math.sqrt(dx * dx + dy * dy);
+                        if (dist < LINK_DIST) {
+                            ctx.beginPath();
+                            ctx.moveTo(p.x, p.y);
+                            ctx.lineTo(m.x, m.y);
+                            ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                            ctx.lineWidth = 1;
+                            ctx.stroke();
+                        }
+                    }
+                }
+                requestAnimationFrame(tick);
+            }
+            window.addEventListener('resize', resize);
+            resize();
+            requestAnimationFrame(tick);
+        })();
+    })();
+    </script>
+
+    <script>
+    (function () {
         var toggle = document.getElementById('themeToggle');
         var label = document.getElementById('themeLabel');
         var fading = false;
@@ -992,5 +1307,6 @@ document.dispatchEvent(new CustomEvent('tool-ready', {
         apply();
     })();
     </script>
+    <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 </body>
 </html>
