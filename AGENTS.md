@@ -90,7 +90,9 @@ instance-decomposition table:
   Category | Technical Element Type Tree Path`) under a Boundary /
   Stopping-rule / Identity / Verbs block. Every path unique; a row is
   terminal when it names a concrete tool, file, config attribute, measured
-  value, or named actor.
+  value, or named actor. Leaves are always instances; intermediate rows are
+  type elements giving structure (each typed in the fourth column) — a type
+  element must never terminate a branch.
 - Verbs: a tool *implements* the standard/practice; a running
   deployment/campaign/client *realizes* it. Deployment-specific values and
   named vendors appear only in rows marked exemplar.
@@ -98,12 +100,29 @@ instance-decomposition table:
   General Technique Type → Operative Technique Type → Constitutive
   Technique Type → Technical Act → Technical Interface & Actuation; do not
   skip levels or hang Activities under a General Technique.
+- Multi-root decomposition is the default for multi-typed instances (one root
+  per candidate type — see the "How to decompose an instance that belongs to
+  multiple element types?" QA in the philosophia note). On ambiguous root
+  typing, ask the user for disambiguation instead of guessing; if unanswered,
+  build the default root — a primary type chosen from the philosophia Tabular
+  view — and record it in the note's What-type Formulation answer (secondary
+  readings as `readable as …` prose).
 - Depth guidance: deep core (systems + techniques to levels 4–5), shallow
   rest (context/control/lifecycle +1). `wildfly.md` is the full-recursion
   exemplar (~2.5k rows), `openapi.md` the mid-scale one (~50 rows).
 - Filenames stay ASCII lowercase kebab-case; titles come from the first `# `
   heading (`src/note/README.md` owns naming/tags rules). Run
   `make notes-index` after any corpus edit (see verification list below).
+- **Epistemic-element notes**: before writing any note that types an epistemic
+  element, read
+  `src/note/app/notes/general/philosophia-artium-epistemicarum-et-operis.md`
+  first — it owns the mandatory schema (`#` title, intro quote,
+  `## Formulation` with the three questions *including* the recursive
+  instance decomposition, `## References`) and the decomposition table
+  contract (4 columns; Instance Tree Path holds instances only, never
+  element types; child descriptions state role-in-parent).
+  `general/financial-sector.md` is the worked exemplar (138-row
+  Entity-typed table generated from the explorer's `TAXO` snapshot).
 
 Live notes (`src/note/app/notes/live/*.html`) share the `note.html` frame
 (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)

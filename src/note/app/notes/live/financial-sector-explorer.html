@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Sector — Sunburst</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+    /* ---- page lab: financial-sector sunburst (ported from sector explorer; chrome tokens canonical above) ---- */
+    .fs-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem 1rem;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .fs-search {
+        font-family: var(--font-mono);
+        font-size: 0.8rem;
+        color: var(--text-primary);
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        padding: 0.55rem 0.8rem;
+        min-width: 16rem;
+    }
+    .fs-search::placeholder { color: var(--text-muted); }
+    .fs-search:focus { outline: none; border-color: var(--accent-cyan); }
+    .fs-status { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.12em; color: var(--text-muted); }
+    .fs-stage {
+        background: var(--bg-surface);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        position: relative;
+        min-height: 520px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    svg.fs-sb { display: block; }
+    svg.fs-sb path.arc { stroke: var(--bg-surface); stroke-width: 1; }
+    svg.fs-sb path.arc.branch { cursor: pointer; }
+    svg.fs-sb path.arc:hover { filter: brightness(1.35); }
+    svg.fs-sb g.arcg.match path.arc { stroke: var(--accent-gold); stroke-width: 1.6; }
+    svg.fs-sb g.dim { opacity: 0.07; pointer-events: none; }
+    svg.fs-sb text {
+        fill: var(--text-primary);
+        pointer-events: none;
+        paint-order: stroke;
+        stroke: var(--bg-surface);
+        stroke-width: 2.4px;
+        stroke-linejoin: round;
+        font-family: var(--font-mono);
+    }
+    svg.fs-sb circle.sbc { fill: var(--bg-card); stroke: var(--border-subtle); stroke-width: 1.5; cursor: pointer; }
+    svg.fs-sb circle.sbc:hover { stroke: var(--accent-cyan); }
+    svg.fs-sb text.ct { fill: var(--text-primary); }
+    svg.fs-sb text.chint { fill: var(--text-muted); }
+    .fs-bc { position: absolute; top: 10px; left: 12px; display: flex; gap: 5px; align-items: center; flex-wrap: wrap; z-index: 5; }
+    .fs-bc button {
+        font-family: var(--font-mono);
+        font-size: 0.65rem;
+        letter-spacing: 0.06em;
+        color: var(--text-secondary);
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        padding: 0.3rem 0.7rem;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .fs-bc button:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .fs-bc .sep { color: var(--text-muted); font-size: 0.7rem; }
+    .fs-tip {
+        position: absolute;
+        z-index: 6;
+        pointer-events: none;
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        padding: 0.5rem 0.7rem;
+        max-width: 360px;
+        font-size: 0.78rem;
+        color: var(--text-primary);
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+    }
+    .fs-tip .p { color: var(--text-muted); font-size: 0.68rem; margin-bottom: 2px; }
+    .fs-tip .n { font-weight: 600; font-size: 0.85rem; }
+    .fs-tip .m { color: var(--text-muted); font-size: 0.72rem; margin-top: 3px; }
+    .fs-hint { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; color: var(--text-muted); padding: 0.5rem 0.9rem 0; }
+
+  </style>
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="nav-links"><a href="../../index.html">Catalog</a></div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">financial-sector-explorer</span></div>
+      <h1 class="note-title">Financial Sector &mdash; <em>Sunburst</em></h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#sector-taxonomy</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+<div class="eyebrow">Live note &middot; sector taxonomy</div>
+
+    <p class="lede">An interactive sunburst of the financial-sector taxonomy in
+    <a href="../../note.html?n=general/financial-sector.md">financial-sector.md</a>
+    (12 sectors &middot; 58 categories &middot; 108 subsectors): click a sector to drill in,
+    breadcrumb to zoom back out, search to highlight. Data is a snapshot embedded in this page
+    &mdash; re-extract it if the taxonomy changes.</p>
+
+    <blockquote>
+      <p>An interactive sunburst of one sector taxonomy — the financial sector, 12 sectors and 108 subsectors — as a radial partition with drill-down, breadcrumb navigation, and search highlighting.</p>
+    </blockquote>
+
+    <h2 id="index">Index</h2>
+    <ul>
+      <li><a href="#formulation">Formulation</a> — element type, instance, grounds</li>
+      <li><a href="#explorer">Sector sunburst</a> — drill, search, counts</li>
+      <li><a href="#how-to-read">How to read this sunburst</a> — arc semantics</li>
+      <li><a href="#diagnostics">Diagnostic questions</a> — staleness, search limits</li>
+      <li><a href="#references">References</a> — schema</li>
+    </ul>
+
+    <h2 id="formulation">Formulation</h2>
+
+    <h3>What epistemic element type does this instance belong to?</h3>
+    <blockquote>
+      <p><strong>Concrete Epistemic Artifact</strong> — one rendered reading of the financial-sector taxonomy (12 sectors, 58 categories, 108 subsectors) — produced by applying an <strong>Epistemic Operator</strong> (taxonomy extraction and radial layout), and read against the source note. Schema: <a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+    </blockquote>
+
+    <h3>What is this epistemic instance?</h3>
+    <blockquote>
+      <p>An interactive sunburst of the taxonomy behind <a href="../../note.html?n=general/financial-sector.md">financial-sector.md</a>: twelve sectors around the center, categories on the middle ring, subsectors on the outer ring; click to drill into a sector, breadcrumb to zoom back out.</p>
+    </blockquote>
+
+    <h3>What grounds this reading?</h3>
+    <blockquote>
+      <p>Each arc is one taxonomy node: the label is its sector, category, or subsector name, the color is its top-level sector, the angular span is proportional to its subsector count. Leaves — subsectors, plus childless categories counted as their own subsector — carry no children. Data is a snapshot embedded in this page — re-extract it if the taxonomy changes.</p>
+    </blockquote>
+
+    <h2 id="explorer">Sector sunburst</h2>
+
+    <div class="fs-bar">
+        <input type="search" class="fs-search" id="fsSearch" placeholder="Search sectors, categories, subsectors&hellip;  ( / )" aria-label="Search sectors" autocomplete="off">
+        <span class="fs-status" id="fsSearchStatus"></span>
+        <span class="fs-status" id="fsStats"></span>
+    </div>
+    <div class="fs-stage" id="fsStage"></div>
+    <div class="fs-tip" id="fsTip" hidden></div>
+    <div class="fs-hint">CLICK A SECTOR TO DRILL IN &middot; BREADCRUMB TO ZOOM OUT &middot; SEARCH ONLY HIGHLIGHTS</div>
+
+    <h2 id="how-to-read">How to read this sunburst</h2>
+    <p class="lede">Rings follow depth — sectors around the center, categories on the middle ring, subsectors
+    on the outer ring — and arc width follows subsector count. Color is the top-level sector. The center disc
+    names the current focus; clicking it zooms one level out. Hover any arc for its full path and counts.</p>
+    <p class="fine">Companion: <a href="../../note.html?n=general/financial-sector.md">Financial Sector</a> &middot;
+    Source taxonomy: sector snapshot embedded below (see Diagnostics)</p>
+
+    <h2 id="diagnostics">Diagnostic questions</h2>
+
+    <h3>When is this explorer stale?</h3>
+    <blockquote>
+      <p>Data is a snapshot embedded in this page — re-extract the <code>TAXO</code> block if the sector taxonomy changes (new charters, instruments, or sectors).</p>
+    </blockquote>
+
+    <h3>What does search not do?</h3>
+    <blockquote>
+      <p>Search only highlights — matches glow, the rest dims. It auto-opens nothing in the sunburst itself; drill by hand via click and breadcrumb.</p>
+    </blockquote>
+
+    <h2 id="references">References</h2>
+    <ul>
+      <li><a href="../../note.html?n=general/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+      <li><a href="../../note.html?n=general/financial-sector.md">Financial Sector</a> — the epistemic note this page renders</li>
+    </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#explorer">Sunburst</a>
+          <a class="toc-item" href="#how-to-read">How to read</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+
+<footer class="site-footer">
+    <div class="foot-inner">
+        <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+        <a href="../../index.html">&larr; CATALOG</a>
+    </div>
+</footer>
+<script>
+/* Snapshot of the financial-sector taxonomy — re-extract if it changes. */
+window.FS_TAXO = {"n": "Financial Sector", "c": [{"n": "Banking", "num": "1", "s": "Banking", "c": [{"n": "Deposit-Taking Banking", "num": "1.1", "c": ["Retail Banking", "Commercial Banking", "Corporate Banking", "SME Banking", "Private Banking", "Universal Banking"]}, {"n": "Specialized Banking", "num": "1.2", "c": ["Mortgage Banking", "Development Banking", "Savings Banking", "Cooperative Banking"]}, {"n": "Investment Banking", "num": "1.3", "c": ["M&A Advisory", "Securities Underwriting", "Debt Capital Markets", "Equity Capital Markets", "Restructuring Advisory"]}]}, {"n": "Credit & Finance", "num": "2", "s": "Credit & Fin", "c": [{"n": "Consumer Finance", "num": "2.1", "c": ["Consumer Lending", "Credit Cards", "Auto Finance", "Point-of-Sale Finance"]}, {"n": "Mortgage Finance", "num": "2.2", "c": ["Residential Mortgage", "Commercial Mortgage"]}, {"n": "Business Finance", "num": "2.3", "c": ["Corporate Lending", "SME Finance", "Trade Finance", "Working-Capital Finance"]}, {"n": "Specialized Finance", "num": "2.4", "c": ["Leasing", "Factoring", "Project Finance", "Asset Finance", "Structured Finance"]}]}, {"n": "Capital Markets", "num": "3", "s": "Capital Mkts", "c": [{"n": "Equity Markets", "num": "3.1", "c": ["Public Equity", "Private Equity Markets"]}, {"n": "Debt Markets", "num": "3.2", "c": ["Government Debt", "Corporate Debt", "Municipal Debt", "Money Markets"]}, {"n": "Derivatives Markets", "num": "3.3", "c": ["Futures", "Options", "Forwards", "Swaps"]}, {"n": "Foreign Exchange", "num": "3.4", "c": ["Spot FX", "FX Forwards", "FX Swaps", "Currency Options"]}]}, {"n": "Securities Services", "num": "4", "s": "Securities", "c": [{"n": "Brokerage", "num": "4.1"}, {"n": "Securities Dealing", "num": "4.2"}, {"n": "Market Making", "num": "4.3"}, {"n": "Securities Custody", "num": "4.4"}, {"n": "Securities Administration", "num": "4.5"}]}, {"n": "Asset & Wealth Management", "num": "5", "s": "Asset & Wealth", "c": [{"n": "Asset Management", "num": "5.1", "c": ["Mutual Funds", "ETFs", "Institutional Management", "Separately Managed Accounts"]}, {"n": "Alternative Investments", "num": "5.2", "c": ["Private Equity", "Venture Capital", "Hedge Funds", "Private Credit", "Infrastructure Funds"]}, {"n": "Wealth Management", "num": "5.3", "c": ["Private Wealth", "Financial Advisory", "Portfolio Management"]}]}, {"n": "Insurance", "num": "6", "s": "Insurance", "c": [{"n": "Life Insurance", "num": "6.1", "c": ["Term Life", "Whole Life", "Universal Life", "Annuities"]}, {"n": "Health Insurance", "num": "6.2"}, {"n": "Property & Casualty", "num": "6.3", "c": ["Property", "Auto", "Liability", "Marine", "Specialty"]}, {"n": "Reinsurance", "num": "6.4", "c": ["Life Reinsurance", "Non-Life Reinsurance"]}]}, {"n": "Pensions & Retirement", "num": "7", "s": "Pensions", "c": [{"n": "Pension Funds", "num": "7.1"}, {"n": "Retirement Plans", "num": "7.2"}, {"n": "Pension Administration", "num": "7.3"}, {"n": "Retirement Investment Management", "num": "7.4"}]}, {"n": "Payments", "num": "8", "s": "Payments", "c": [{"n": "Payment Processing", "num": "8.1"}, {"n": "Card Payments", "num": "8.2"}, {"n": "Merchant Acquiring", "num": "8.3"}, {"n": "Payment Gateways", "num": "8.4"}, {"n": "Money Transfer", "num": "8.5"}, {"n": "Remittances", "num": "8.6"}]}, {"n": "Financial Market Infrastructure", "num": "9", "s": "Market Infra", "c": [{"n": "Exchanges", "num": "9.1"}, {"n": "Trading Venues", "num": "9.2"}, {"n": "Clearing", "num": "9.3"}, {"n": "Settlement", "num": "9.4"}, {"n": "Central Securities Depositories", "num": "9.5"}, {"n": "Payment Systems", "num": "9.6"}, {"n": "Financial Messaging", "num": "9.7"}]}, {"n": "Financial Information & Support", "num": "10", "s": "Info & Support", "c": [{"n": "Credit Information", "num": "10.1"}, {"n": "Credit Rating", "num": "10.2"}, {"n": "Financial Data", "num": "10.3"}, {"n": "Market Information", "num": "10.4"}, {"n": "Financial Research", "num": "10.5"}, {"n": "Actuarial Services", "num": "10.6"}]}, {"n": "Financial Technology", "num": "11", "s": "Fintech", "c": [{"n": "Digital Banking", "num": "11.1"}, {"n": "Fintech Lending", "num": "11.2"}, {"n": "Fintech Payments", "num": "11.3"}, {"n": "Wealthtech", "num": "11.4"}, {"n": "Insurtech", "num": "11.5"}, {"n": "Regtech", "num": "11.6"}, {"n": "Digital-Asset Finance", "num": "11.7"}]}, {"n": "Monetary & Public Finance Institutions", "num": "12", "s": "Monetary & Public", "c": [{"n": "Central Banking", "num": "12.1"}, {"n": "Monetary Authorities", "num": "12.2"}, {"n": "Development Finance", "num": "12.3"}, {"n": "Export Finance", "num": "12.4"}, {"n": "Public Financial Institutions", "num": "12.5"}]}]};
+</script>
+<script>
+/* Financial-sector sunburst (ported from the standalone sector explorer;
+   tree and treemap views dropped — this live note is sunburst-only).
+   Snapshot of the sector taxonomy — re-extract TAXO if it changes. */
+(function () {
+'use strict';
+
+var PALETTE = ['#5b8ff9','#61ddaa','#657898','#f6bd16','#7262fd','#78d3f8','#9661bc','#f6903d','#008685','#f08bb4','#e8684a','#6dc8ec'];
+var C0 = 78;
+var stage = document.getElementById('fsStage');
+var tip = document.getElementById('fsTip');
+var searchEl = document.getElementById('fsSearch');
+var statusEl = document.getElementById('fsSearchStatus');
+var RAW = window.FS_TAXO;
+
+var state = { query: '', sbFocus: null };
+var search = { q: '', match: new Set(), keep: new Set(), open: new Set() };
+
+var BYID = {};
+var nodes = [];
+function convert(r, parent, depth, path) {
+    var isLeaf = typeof r === 'string';
+    var node = {
+        id: path.join('.'),
+        name: isLeaf ? r : r.n,
+        num: (!isLeaf && r.num) || null,
+        short: (!isLeaf && r.s) || null,
+        parent: parent, depth: depth, children: []
+    };
+    nodes.push(node); BYID[node.id] = node;
+    if (!isLeaf && r.c) r.c.forEach(function (ch, i) { node.children.push(convert(ch, node, depth + 1, path.concat(i))); });
+    node.leafCount = node.children.length ? node.children.reduce(function (a, c) { return a + c.leafCount; }, 0) : 1;
+    return node;
+}
+var ROOT = convert(RAW, null, 0, []);
+var sectors = ROOT.children;
+
+function esc(s) { return s.replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]); }); }
+function ancestors(n) { var o = []; var p = n.parent; while (p) { o.push(p); p = p.parent; } return o; }
+function descendants(n) { var o = []; (function w(x) { for (var i = 0; i < x.children.length; i++) { o.push(x.children[i]); w(x.children[i]); } })(n); return o; }
+function deepestRel(n) { var m = n.children.length ? 1 : 0; for (var i = 0; i < n.children.length; i++) m = Math.max(m, 1 + deepestRel(n.children[i])); return m; }
+function wrapText(t, w) {
+    var out = [], cur = '';
+    var words = t.split(' ');
+    for (var i = 0; i < words.length; i++) { var cand = cur ? cur + ' ' + words[i] : words[i]; if (cand.length > w && cur) { out.push(cur); cur = words[i]; } else cur = cand; }
+    if (cur) out.push(cur);
+    return out;
+}
+function sectorColor(n) { var x = n; while (x.depth > 1) x = x.parent; return PALETTE[sectors.indexOf(x) % PALETTE.length]; }
+function mc(n) {
+    if (!search.q) return '';
+    if (search.match.has(n.id)) return ' match';
+    return search.keep.has(n.id) ? '' : ' dim';
+}
+function computeSearch() {
+    search.q = state.query.trim().toLowerCase();
+    search.match = new Set(); search.keep = new Set(); search.open = new Set();
+    if (!search.q) return;
+    var i, n;
+    for (i = 0; i < nodes.length; i++) {
+        n = nodes[i];
+        var hay = ((n.num ? n.num + ' ' : '') + n.name).toLowerCase();
+        if (hay.indexOf(search.q) !== -1) search.match.add(n.id);
+    }
+    search.match.forEach(function (id) {
+        var n = BYID[id];
+        search.keep.add(id);
+        var a = ancestors(n), d = descendants(n), k;
+        for (k = 0; k < a.length; k++) { search.keep.add(a[k].id); search.open.add(a[k].id); }
+        for (k = 0; k < d.length; k++) search.keep.add(d[k].id);
+    });
+}
+
+function pt(cx, cy, r, a) { return [cx + r * Math.sin(a), cy - r * Math.cos(a)]; }
+function arcPath(cx, cy, r0, r1, a0, a1) {
+    var p0 = pt(cx, cy, r1, a0), p1 = pt(cx, cy, r1, a1), p2 = pt(cx, cy, r0, a1), p3 = pt(cx, cy, r0, a0);
+    var f = (a1 - a0) > Math.PI ? 1 : 0;
+    var q = function (v) { return v.toFixed(2); };
+    return 'M' + q(p0[0]) + ' ' + q(p0[1]) + ' A' + r1 + ' ' + r1 + ' 0 ' + f + ' 1 ' + q(p1[0]) + ' ' + q(p1[1]) +
+        ' L' + q(p2[0]) + ' ' + q(p2[1]) + ' A' + r0 + ' ' + r0 + ' 0 ' + f + ' 0 ' + q(p3[0]) + ' ' + q(p3[1]) + ' Z';
+}
+function bcHTML(focus) {
+    var chain = [], p = focus;
+    while (p) { chain.unshift(p); p = p.parent; }
+    return '<div class="fs-bc">' + chain.map(function (n, i) {
+        return (i ? '<span class="sep">&#8250;</span>' : '') + '<button data-f="' + n.id + '">' + (i === 0 ? 'All' : esc(n.name)) + '</button>';
+    }).join('') + '</div>';
+}
+function renderSunburst() {
+    var W = stage.clientWidth, H = stage.clientHeight;
+    if (W <= 0 || H <= 0) return;
+    var size = Math.max(340, Math.min(W, H) - 30);
+    size = Math.min(size, W - 16);
+    var cx = size / 2, cy = size / 2, R = size / 2 - 6;
+    var focus = state.sbFocus ? BYID[state.sbFocus] : ROOT;
+    var rings = Math.max(1, deepestRel(focus));
+    var t = (R - C0) / rings;
+    var arcs = [];
+    (function assign(n, a0, a1, rel) {
+        if (!n.children.length || rel > rings) return;
+        var span = (a1 - a0) / n.children.length;
+        n.children.forEach(function (k, i) { var s0 = a0 + i * span, s1 = s0 + span; arcs.push({ n: k, a0: s0, a1: s1, rel: rel }); assign(k, s0, s1, rel + 1); });
+    })(focus, 0, Math.PI * 2, 1);
+    var fonts = [11, 10.5, 9.5], minSpan = [0, 5, 3.4];
+    var s = '<svg class="fs-sb" width="' + size + '" height="' + size + '" viewBox="0 0 ' + size + ' ' + size + '" role="img" aria-label="Financial sector sunburst">';
+    var ai;
+    for (ai = 0; ai < arcs.length; ai++) {
+        (function (a) {
+            var n = a.n, col = sectorColor(n);
+            var rr0 = C0 + (a.rel - 1) * t + 2, rr1 = C0 + a.rel * t - 1;
+            var op = [0.95, 0.6, 0.38][a.rel - 1];
+            var spanDeg = (a.a1 - a.a0) * 180 / Math.PI;
+            var label = '';
+            var f = fonts[a.rel - 1];
+            var maxChars = Math.floor((t - 16) / (f * 0.56));
+            if (spanDeg >= minSpan[a.rel - 1] && maxChars >= 4) {
+                var txt = n.name;
+                if (a.rel === 1 && n.short && n.name.length > maxChars) txt = n.short;
+                if (txt.length > maxChars) txt = txt.slice(0, Math.max(1, maxChars - 1)) + '…';
+                if (txt.length >= 3) {
+                    var mid = (a.a0 + a.a1) / 2, rp = rr0 + 7;
+                    var x = cx + rp * Math.sin(mid), y = cy - rp * Math.cos(mid);
+                    var deg = mid * 180 / Math.PI - 90;
+                    var flip = mid > Math.PI;
+                    if (flip) deg += 180;
+                    label = '<text x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '" transform="rotate(' + deg.toFixed(1) + ' ' + x.toFixed(1) + ' ' + y.toFixed(1) + ')" text-anchor="' + (flip ? 'end' : 'start') + '" dominant-baseline="middle" font-size="' + f + '">' + esc(txt) + '</text>';
+                }
+            }
+            s += '<g class="arcg' + mc(n) + '" data-tip="' + n.id + '"><path class="arc' + (n.children.length ? ' branch' : '') + '" d="' +
+                arcPath(cx, cy, rr0, rr1, a.a0, a.a1) + '" fill="' + col + '" fill-opacity="' + op + '"/>' + label + '</g>';
+        })(arcs[ai]);
+    }
+    var lines = wrapText(focus.name, focus === ROOT ? 14 : 16);
+    var lh = 15, ty = cy - (lines.length - 1) * lh / 2;
+    s += '<g data-tip="' + focus.id + '"><circle class="sbc" cx="' + cx + '" cy="' + cy + '" r="' + (C0 - 4) + '"/>';
+    lines.forEach(function (L, i) { s += '<text class="ct" x="' + cx + '" y="' + (ty + i * lh).toFixed(1) + '" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="600">' + esc(L) + '</text>'; });
+    if (focus !== ROOT) s += '<text class="chint" x="' + cx + '" y="' + (cy + 34) + '" text-anchor="middle" font-size="9.5">click to zoom out</text>';
+    s += '</g></svg>';
+    stage.innerHTML = bcHTML(focus) + s;
+}
+
+function showTip(n, px, py) {
+    var kind = n.depth === 0 ? 'Root' : n.depth === 1 ? 'Sector' : n.depth === 2 ? (n.children.length ? 'Category' : 'Category (leaf)') : 'Subsector';
+    var path = [n].concat(ancestors(n)).reverse().map(function (x) { return esc(x.name); }).join(' &#8250; ');
+    var meta;
+    if (n.children.length) meta = n.depth === 1 ? n.children.length + ' categories &#183; ' + n.leafCount + ' subsectors' : n.leafCount + ' subsectors';
+    else if (n.depth === 2) meta = 'counted as its own subsector';
+    else meta = kind;
+    tip.innerHTML = '<div class="p">' + path + '</div><div class="n">' + esc(n.name) + '</div><div class="m">' + meta + '</div>';
+    tip.hidden = false;
+    var r = stage.getBoundingClientRect();
+    var w = tip.offsetWidth || 300, h = tip.offsetHeight || 80;
+    var x = px - r.left + 14, y = py - r.top + 16;
+    if (x + w > r.width - 8) x = px - r.left - w - 12;
+    if (y + h > r.height - 8) y = py - r.top - h - 12;
+    tip.style.left = Math.max(0, x) + 'px';
+    tip.style.top = Math.max(0, y) + 'px';
+}
+function hideTip() { tip.hidden = true; }
+
+stage.addEventListener('click', function (e) {
+    var b = e.target.closest('.fs-bc [data-f]');
+    if (b) { state.sbFocus = b.dataset.f || null; renderSunburst(); return; }
+    var g = e.target.closest('g[data-tip]');
+    if (!g) return;
+    var n = BYID[g.dataset.tip];
+    if (g.querySelector('.sbc')) { state.sbFocus = n.parent ? n.parent.id : null; renderSunburst(); return; }
+    if (n.children.length) { state.sbFocus = n.id; renderSunburst(); }
+});
+stage.addEventListener('mousemove', function (e) {
+    var g = e.target.closest('[data-tip]');
+    if (g && BYID[g.dataset.tip]) showTip(BYID[g.dataset.tip], e.clientX, e.clientY);
+    else hideTip();
+});
+stage.addEventListener('mouseleave', hideTip);
+
+var deb;
+searchEl.addEventListener('input', function () {
+    clearTimeout(deb);
+    deb = setTimeout(function () {
+        state.query = searchEl.value;
+        computeSearch();
+        statusEl.textContent = search.q ? search.match.size + ' match' + (search.match.size === 1 ? '' : 'es') : '';
+        renderSunburst();
+    }, 130);
+});
+
+document.addEventListener('keydown', function (e) {
+    var tag = document.activeElement ? document.activeElement.tagName : '';
+    if (e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA') { e.preventDefault(); searchEl.focus(); }
+    else if (e.key === 'Escape' && searchEl.value) {
+        searchEl.value = ''; state.query = ''; computeSearch(); statusEl.textContent = ''; renderSunburst(); searchEl.blur();
+    }
+});
+
+var rz;
+window.addEventListener('resize', function () { clearTimeout(rz); rz = setTimeout(renderSunburst, 120); });
+window.addEventListener('epistecnica-theme', renderSunburst);
+
+document.getElementById('fsStats').innerHTML =
+    sectors.length + ' sectors &#183; ' + nodes.filter(function (n) { return n.depth === 2; }).length + ' categories &#183; ' +
+    nodes.filter(function (n) { return !n.children.length; }).length + ' subsectors';
+
+renderSunburst();
+})();
+
+</script>
+<script>
+(function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+        label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+        if (fading) return;
+        fading = true;
+        var root = document.documentElement;
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var swap = function () {
+            root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+            try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+            apply();
+            root.classList.remove('theme-fading');
+            fading = false;
+            window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+        };
+        if (reduced) { swap(); return; }
+        root.classList.add('theme-fading');
+        setTimeout(swap, 190);
+    });
+    apply();
+})();
+</script>
+
+  <script>
+    // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+    document.addEventListener('DOMContentLoaded', () => { initTocHighlight(); initAmbient(); });
+
+  </script>
+  <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
+</body>
+</html>
