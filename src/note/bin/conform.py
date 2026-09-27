@@ -42,6 +42,7 @@ DEFAULT_FILES = [
     NOTE / "app/notes/cto/es/multinode/wildfly.md",
     NOTE / "app/notes/cto/es/multinode/biotechnology.md",
     NOTE / "app/notes/pto/eclipse.md",
+    NOTE / "app/notes/general/energy-technology.md",
 ]
 
 GRAMMAR_ROW_RE = re.compile(r"^\|\s*`(\(root\)[^`]*)`")
