@@ -77,7 +77,22 @@ disabled.
   `TECNICA_DB` (default `tecnica`), plus `COUCHDB_URL`, `COUCHDB_USER`,
   `COUCHDB_PASSWORD`. `.env` is gitignored and must stay that way.
 
-## Notes corpus — multinode note conventions
+## On Notes In General
+
+- Filenames stay ASCII lowercase kebab-case; titles come from the first `# `
+  heading. Per-corpus naming/tags rules live in their READMEs
+  (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
+  `src/persona/README.md`, `src/glossarium/README.md`).
+- Regenerate the corpus index after any edit: `make notes-index`,
+  `make course-index`, `make document-index`, `make persona-index`,
+  `make glossarium-index` (see verification list below).
+- Live notes (`src/note/app/notes/live/*.html`) share the `note.html` frame
+  (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
+  and the philosophia shell order — recipe + conversion record in
+  `docs/live-note-chrome.md` §7–§8. Keep `<title>`/h1, copy, and JS ids
+  stable; the catalog indexes them.
+
+## On Technical Notes
 
 Multinode notes (`src/note/app/notes/cto/es/multinode/`, e.g. `openapi.md`,
 `wildfly.md`, `marketing-technical-practice.md`) document one technical
@@ -86,20 +101,45 @@ instance with the shell from
 (`# …` / intro / three Formulation questions / References) plus a single
 instance-decomposition table:
 
+- Pre-read: before writing any technical-element note, read
+  `src/note/app/notes/general/philosophia-artium-technicarum-et-operis.md`
+  first — it owns the shell below, the Tabular taxonomy, the Recursive-view
+  grammar, the decomposition contract, and the worked CRM case study.
 - Table contract: 4 columns (`Instance Tree Path | Description | Technical
   Category | Technical Element Type Tree Path`) under a Boundary /
   Stopping-rule / Identity / Verbs block. Every path unique; a row is
   terminal when it names a concrete tool, file, config attribute, measured
   value, or named actor. Leaves are always instances; intermediate rows are
   type elements giving structure (each typed in the fourth column) — a type
-  element must never terminate a branch.
+  element must never terminate a branch. A skipped spine level gets a
+  vendor-neutral intermediate instance (the CRM `CRM application` pattern),
+  never an exemplar.
+- What-type answer: the "What technical element type does this technical
+  instance belong to?" Formulation answer declares one primary type chosen
+  from the philosophia Tabular view; secondary readings stay as
+  `readable as …` prose (OpenAPI: Standard primary, Set reading).
+- Grammar conformance: every fourth-column path must resolve to a
+  Recursive-view grammar path — `Technical Element Set`-prefixed, spine
+  levels never skipped, facet types attached under a Set. No `...`/`{...}`
+  wildcards in instance tables.
+- Grouping segments: children are grouped under bare type-name segments with
+  their own rows (grouped type's category and grammar path in the row), so
+  the typing reads from the instance path itself. Type segments are styled
+  `` `like this` `` to read as types, not instances; intermediate instances
+  are styled `**bold**`, leaves stay plain. Exemplars realizing their
+  parent stay direct. No type segment terminates a branch, and no segment
+  directly beneath the root repeats the root's own type as bare
+  re-expression (the root is never re-expressed through an intermediate);
+  a same-type segment scoping a genuine instance family is the documented
+  exception (biotech `Control` under its Set segment).
 - Verbs: a tool *implements* the standard/practice; a running
   deployment/campaign/client *realizes* it. Deployment-specific values and
   named vendors appear only in rows marked exemplar.
-- Technique subtrees follow the taxonomy chain Practice → Activity → Task →
-  General Technique Type → Operative Technique Type → Constitutive
-  Technique Type → Technical Act → Technical Interface & Actuation; do not
-  skip levels or hang Activities under a General Technique.
+- Technique subtrees follow the taxonomy chain Practice → Task →
+  General Technique → Operative Technique → Constitutive Technique →
+  Technical Act → Technical Interface & Actuation; do not skip levels or
+  hang Activities under a General Technique. (`Technical Activity` is not a
+  structural type — see the note's QA on why it is excluded.)
 - Multi-root decomposition is the default for multi-typed instances (one root
   per candidate type — see the "How to decompose an instance that belongs to
   multiple element types?" QA in the philosophia note). On ambiguous root
@@ -110,10 +150,13 @@ instance-decomposition table:
 - Depth guidance: deep core (systems + techniques to levels 4–5), shallow
   rest (context/control/lifecycle +1). `wildfly.md` is the full-recursion
   exemplar (~2.5k rows), `openapi.md` the mid-scale one (~50 rows).
-- Filenames stay ASCII lowercase kebab-case; titles come from the first `# `
-  heading (`src/note/README.md` owns naming/tags rules). Run
-  `make notes-index` after any corpus edit (see verification list below).
-- **Epistemic-element notes**: before writing any note that types an epistemic
+- Self-check after any table edit: instance paths unique; every
+  fourth-column path resolves to a Recursive-view grammar path; no
+  branch-terminating type segments. Then run `make notes-index` (below).
+
+## On Epistemical Notes
+
+- Before writing any note that types an epistemic
   element, read
   `src/note/app/notes/general/philosophia-artium-epistemicarum-et-operis.md`
   first — it owns the mandatory schema (`#` title, intro quote,
@@ -124,13 +167,7 @@ instance-decomposition table:
   `general/financial-sector.md` is the worked exemplar (138-row
   Entity-typed table generated from the explorer's `TAXO` snapshot).
 
-Live notes (`src/note/app/notes/live/*.html`) share the `note.html` frame
-(ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
-and the philosophia shell order — recipe + conversion record in
-`docs/live-note-chrome.md` §7–§8. Keep `<title>`/h1, copy, and JS ids
-stable; the catalog indexes them.
-
-## Run / verify locally
+## Run / Verify Locally
 
 ```
 cp .env.example .env            # fill in credentials
