@@ -42,10 +42,12 @@ src/note/
   chrome blocks plus the container spec and conversion record live in
   `docs/live-note-chrome.md`; no CDN libraries are allowed. The catalog
   still indexes it (title, headings, text) and links directly to the page,
-  marked with a `live` chip. Examples: `live/chmc.html` ("Concurrent Map",
-  from `src/tecnica/app/view/`), `live/pd.html` ("Poisson Distribution"),
-  `live/hp.html` ("Hawkes Process"), `live/fpe.html` ("Fokker-Planck
-  Equation"), from epistemica's former `view/tool/`.
+  marked with a `live` chip. Examples: `live/concurrent-map.html`
+  ("Concurrent Map", from `src/tecnica/app/view/`),
+  `live/poisson-distribution.html` ("Poisson Distribution"),
+  `live/hawkes-process.html` ("Hawkes Process"),
+  `live/fokker-planck-equation.html` ("Fokker-Planck Equation"), from
+  epistemica's former `view/tool/`.
 
 ## Pins
 

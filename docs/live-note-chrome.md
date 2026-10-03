@@ -306,21 +306,22 @@ all copy, formulas, tables, and JS ids preserved verbatim throughout.
 Rules applied beyond §7:
 
 - **One nav only.** Secondary nav systems were dismantled into the frame
-  TOC: `chmc` fixed sidebar + search + progress + taxonomy, `hp` fixed
-  sidebar, `fpe`/`sd` sticky in-page navs (fpe demotes the brand bar per
-  the §2 comment instead), `pd` mobile-TOC overlay, `nbr` sticky header.
-- **Heroes unwound.** `fpe`'s full-viewport hero became a normal lab
-  panel (canvas ids kept); `ct`'s cinematic/noise/fixed layers were
+  TOC: `concurrent-map` fixed sidebar + search + progress + taxonomy,
+  `hawkes-process` fixed sidebar, `fokker-planck-equation`/`standard-deviation`
+  sticky in-page navs (fpe demotes the brand bar per
+  the §2 comment instead), `poisson-distribution` mobile-TOC overlay, `number` sticky header.
+- **Heroes unwound.** `fokker-planck-equation`'s full-viewport hero became a normal lab
+  panel (canvas ids kept); `central-tendency`'s cinematic/noise/fixed layers were
   removed and its hardcoded dark palette fully tokenized for light theme.
 - **Collisions renamed.** `marketing-practice-tree`'s own `.layout`
   became `.tree-layout` (SVG scrolls horizontally inside the card);
-  `cpt`'s in-page `h1`/`main`/`aside` became non-landmark divs.
-- **Half-wired theme fixed.** `cpt` had `themeColors()` without a
-  listener — added the `epistecnica-theme` redraw; `can`/`transaction`
-  dispatch without canvases (nothing to redraw); `transaction`'s
+  `concept`'s in-page `h1`/`main`/`aside` became non-landmark divs.
+- **Half-wired theme fixed.** `concept` had `themeColors()` without a
+  listener — added the `epistecnica-theme` redraw;
+  `transaction-simulator` dispatches without canvases (nothing to redraw); `transaction`'s
   vendored Alpine tag kept byte-identical.
-- **Fixed overlays scoped.** `can` modal (z-index above frame), `hp`
-  tooltip (absolute inside `.note-card`), `ct` control panel (unfixed
+- **Fixed overlays scoped.** `hawkes-process`
+  tooltip (absolute inside `.note-card`), `central-tendency` control panel (unfixed
   into card flow).
 
 ## Rules
