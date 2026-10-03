@@ -2,12 +2,12 @@
 """
 Notes index builder.
 
-Scans src/note/app/notes/** for notes — markdown (*.md, kind "note") and
+Scans src/note/app/data/** for notes — markdown (*.md, kind "note") and
 self-contained HTML live notes (*.html, kind "live") — and emits
 src/note/app/data/index.json, the search corpus for the notes catalog
 (/note/). Stdlib only.
 
-For each note it extracts: path (relative to notes/), title (markdown:
+For each note it extracts: path (relative to data/), title (markdown:
 first "# " heading; html: <title>, else first <h1>; fallback: the
 filename), top-level section (first path component), h2/h3 headings,
 tags (optional `tags: [...]` front matter, same `---` style as the
@@ -28,7 +28,7 @@ from pathlib import Path
 
 NOTE = Path(__file__).resolve().parent.parent
 APP = NOTE / "app"
-NOTES = APP / "notes"
+NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -154,7 +154,7 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, kind: st
 
 def main() -> int:
     if not NOTES.is_dir():
-        print(f"ERROR: notes directory not found: {NOTES}", file=sys.stderr)
+        print(f"ERROR: notes data directory not found: {NOTES}", file=sys.stderr)
         return 1
 
     warnings: list = []

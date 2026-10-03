@@ -14,22 +14,24 @@ src/note/
     ├── note.html    # single-note viewer (?n=<path>)
     ├── notes.css    # markdown typography (shared design tokens)
     ├── vendor/      # vendored runtime deps (marked.min.js, alpine.min.js)
-    ├── data/        # generated (index.json — do not edit)
-    └── notes/       # the corpus (never machine-edited)
-        └── live/    # live notes — self-contained hand-authored HTML pages
+    ├── data/        # the corpus (never machine-edited) + generated index.json (do not edit)
+    │   ├── index.json   # generated search index
+    │   ├── general/     # shared notes (philosophiae, companions)
+    │   ├── technica/    # technical notes (cto/, pto/, op/)
+    │   └── live/        # live notes — self-contained hand-authored HTML pages
 ```
 
 - Regenerate the search index after any corpus change: `make notes-index`.
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
-  section (`pto`, `cto`, `op`, …).
+  section (`general`, `technica`, …).
 
 ## Notes vs live notes
 
 - A **note** is a markdown file (`*.md`): rendered on the fly by
   `note.html?n=<path>`. The bulk of the corpus.
 - A **live note** is a self-contained, hand-authored HTML page (`*.html`),
-  living under `notes/live/` — bespoke interactivity, its own scripts.
+  living under `data/live/` — bespoke interactivity, its own scripts.
   Served as-is; never rendered through the viewer. Every live note uses
   the same frame as the viewer (`note.html`: ambient constellation
   background, 1280px layout, crumbs + title + meta chips, card, sticky

@@ -206,5 +206,5 @@ Expression Language (EL):
 - [Java: Modularization](https://righteous-guardian-68f.notion.site/Java-Modularization-210c0f5171ec809b8108ee6acba4db9c?source=copy_link)
 - [What is the difference between application server and web server?](https://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server?rq=3)
 
-- [Apache Tomcat](note.html?n=cto/es/multinode/apache-tomcat.md)
-- [Wildfly](note.html?n=cto/es/multinode/wildfly.md)
+- [Apache Tomcat](note.html?n=technica/cto/es/multinode/apache-tomcat.md)
+- [Wildfly](note.html?n=technica/cto/es/multinode/wildfly.md)

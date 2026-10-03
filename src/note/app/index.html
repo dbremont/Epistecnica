@@ -829,7 +829,7 @@
                 return '../' + e.surface + '/graph.html?node=' + encodeURIComponent(e.path);
             }
             if (e.surface === 'note') {
-                return e.kind === 'live' ? '../note/notes/' + p : '../note/note.html?n=' + p;
+                return e.kind === 'live' ? '../note/data/' + p : '../note/note.html?n=' + p;
             }
             if (e.surface === 'course') {
                 return e.kind === 'course' ? '../course/course.html?c=' + p : '../course/lecture.html?l=' + p;
@@ -1086,7 +1086,7 @@
                 var n = slice[i];
                 var snip = snippet(n.text, q);
                 var live = n.kind === 'live';
-                var href = live ? 'notes/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
+                var href = live ? 'data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
                 out.push(
                     '<div class="row">' +
                     '<a class="row-link" href="' + href + '">' +

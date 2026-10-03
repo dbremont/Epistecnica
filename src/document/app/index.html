@@ -805,7 +805,7 @@
                 return '../' + e.surface + '/graph.html?node=' + encodeURIComponent(e.path);
             }
             if (e.surface === 'note') {
-                return e.kind === 'live' ? '../note/notes/' + p : '../note/note.html?n=' + p;
+                return e.kind === 'live' ? '../note/data/' + p : '../note/note.html?n=' + p;
             }
             if (e.surface === 'course') {
                 return e.kind === 'course' ? '../course/course.html?c=' + p : '../course/lecture.html?l=' + p;

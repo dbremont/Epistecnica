@@ -4,7 +4,7 @@ Decomposition-table conformance checker.
 
 Verifies that every `Instance Tree Path` table in the given technical
 notes adheres to the decomposition standards owned by
-src/note/app/notes/general/philosophia-artium-technicarum-et-operis.md:
+src/note/app/data/general/philosophia-artium-technicarum-et-operis.md:
 
 - every fourth-column type path resolves to a Recursive-view grammar path
   (`Technical Element Set`-prefixed, spine levels never skipped, no
@@ -32,18 +32,18 @@ import sys
 from pathlib import Path
 
 NOTE = Path(__file__).resolve().parent.parent
-PHILOSOPHIA = NOTE / "app/notes/general/philosophia-artium-technicarum-et-operis.md"
+PHILOSOPHIA = NOTE / "app/data/general/philosophia-artium-technicarum-et-operis.md"
 
 DEFAULT_FILES = [
-    NOTE / "app/notes/cto/es/multinode/openapi.md",
-    NOTE / "app/notes/cto/es/multinode/java-ee-jakarta-ee.md",
-    NOTE / "app/notes/cto/es/multinode/jobrunr.md",
-    NOTE / "app/notes/cto/es/multinode/marketing-technical-practice.md",
-    NOTE / "app/notes/cto/es/multinode/wildfly.md",
-    NOTE / "app/notes/cto/es/multinode/biotechnology.md",
-    NOTE / "app/notes/pto/eclipse.md",
-    NOTE / "app/notes/general/energy-technology.md",
-    NOTE / "app/notes/general/physical-material-technology.md",
+    NOTE / "app/data/technica/cto/es/multinode/openapi.md",
+    NOTE / "app/data/technica/cto/es/multinode/java-ee-jakarta-ee.md",
+    NOTE / "app/data/technica/cto/es/multinode/jobrunr.md",
+    NOTE / "app/data/technica/cto/es/multinode/marketing-technical-practice.md",
+    NOTE / "app/data/technica/cto/es/multinode/wildfly.md",
+    NOTE / "app/data/technica/cto/es/multinode/biotechnology.md",
+    NOTE / "app/data/technica/pto/eclipse.md",
+    NOTE / "app/data/general/energy-technology.md",
+    NOTE / "app/data/general/physical-material-technology.md",
 ]
 
 GRAMMAR_ROW_RE = re.compile(r"^\|\s*`(\(root\)[^`]*)`")

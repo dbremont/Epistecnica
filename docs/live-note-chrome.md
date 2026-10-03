@@ -1,6 +1,6 @@
-# Live-note chrome — standardized container for `notes/live/`
+# Live-note chrome — standardized container for `data/live/`
 
-Live notes (`src/note/app/notes/live/**.html`) are self-contained pages, but
+Live notes (`src/note/app/data/live/**.html`) are self-contained pages, but
 they share the Epistecnica container so they read as part of the site. This
 document holds the canonical copy-paste blocks (there is no shared runtime
 file by design — each live note stays self-contained). When the chrome
@@ -13,8 +13,8 @@ and `spec/` (dark default + light via `epistecnica-theme`).
 
 | Page location            | `ROOT` (site root)  | `NOTE` (catalog dir) |
 |--------------------------|---------------------|----------------------|
-| `notes/live/*.html`      | `../../../`         | `../../`             |
-| `notes/live/*/*.html`    | `../../../../`      | `../../../`          |
+| `data/live/*.html`      | `../../../`         | `../../`             |
+| `data/live/*/*.html`    | `../../../../`      | `../../../`          |
 
 ## 1. `<head>` — theme init + fonts (before the page's `<style>`)
 
@@ -248,7 +248,7 @@ Listen for `epistecnica-theme` (section 5) and redraw when practical.
 Live notes render inside the same frame as the markdown viewer — ambient
 constellation background, 1280px layout, crumbs + title + meta chips, card,
 and sticky `Contents` sidebar. No grid/gradient background divs, no second
-footer. Exemplar: `src/note/app/notes/live/burstiness-index.html`.
+footer. Exemplar: `src/note/app/data/live/burstiness-index.html`.
 
 ```html
 <body>
@@ -291,7 +291,7 @@ Content order follows the philosophia shell: intro `>` quote, `## Index`
 `## Recursive instance decomposition` (plain `.markdown-body` table),
 lab section(s), `## Diagnostic questions` (`###` + quotes),
 `## References`. Include the glossarium lookup script with a
-live-depth-relative path, e.g. from `notes/live/*.html`:
+live-depth-relative path, e.g. from `data/live/*.html`:
 
 ```html
 <script src="ROOTglossarium/js/glossarium-lookup.js" data-glossarium="ROOTglossarium/data/index.json" defer></script>
@@ -299,7 +299,7 @@ live-depth-relative path, e.g. from `notes/live/*.html`:
 
 ## 8. Conversion record (all 12 live notes unified, Sept 2026)
 
-Exemplar: `notes/live/burstiness-index.html` (converted first). The other
+Exemplar: `data/live/burstiness-index.html` (converted first). The other
 11 were converted in one pass with the same recipe; `<title>`/h1 text and
 all copy, formulas, tables, and JS ids preserved verbatim throughout.
 
@@ -337,7 +337,7 @@ Rules applied beyond §7:
 
 Runtime libraries live in `src/note/app/vendor/`, version-pinned, referenced
 from live notes with a relative path (e.g. `../../vendor/alpine.min.js` from
-`notes/live/*.html`). To add one: download the exact version, record its
+`data/live/*.html`). To add one: download the exact version, record its
 size and sha256 in the commit message, reference it relatively, and list it
 here.
 

@@ -44,7 +44,7 @@ in the DB `layout` doc with a static `app/data/layout.json` fallback.
 | `/` | Hub: project cards, live \|V\|/\|E\| identity strips, entry guidance |
 | `/epistemica/` | Epistemica landing; `graph.html` viewer, `edit.html` editor, `about.html` + `docs.html` plates |
 | `/tecnica/` | Tecnica landing; `graph.html` viewer, `edit.html` editor |
-| `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`notes/**.md`) |
+| `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`data/**.md`) |
 | `/epistemica/api/{health,nodes,layout,graph/save}` | Epistemica API (DB `epistemica`) |
 | `/tecnica/api/{health,nodes,layout,graph/save}` | Tecnica API (DB `tecnica`) |
 | `/api/health` | Aggregate health of both backends |
@@ -137,7 +137,7 @@ Both targets run the same container (`make help` lists all targets):
 
 ## Notes
 
-The written corpus behind both ontologies lives in `src/note/app/notes/` —
+The written corpus behind both ontologies lives in `src/note/app/data/` —
 plain markdown, kebab-case filenames (convention in `src/note/README.md`).
 Rebuild the search index after any corpus edit:
 
@@ -146,10 +146,10 @@ make notes-index
 ```
 
 Browse at `/note/` (catalog: search + section facets) and
-`/note/note.html?n=notes/pto/zsh.md` (viewer, rendered on the fly). Markdown
+`/note/note.html?n=technica/pto/zsh.md` (viewer, rendered on the fly). Markdown
 files are **notes**; self-contained hand-authored HTML pages under
-`notes/live/` are **live notes** — indexed and searchable, linked directly
-(e.g. `/note/notes/live/chmc.html`). Live notes use the same viewer frame
+`data/live/` are **live notes** — indexed and searchable, linked directly
+(e.g. `/note/data/live/chmc.html`). Live notes use the same viewer frame
 and philosophia shell as regular notes (recipe in
 `docs/live-note-chrome.md` §7–§8).
 

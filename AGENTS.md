@@ -27,7 +27,7 @@ bin/couchdb_client.py   shared CouchDB client (byte-identical to the subprojects
 src/app/                hub page (index.html, served at /)
 src/epistemica/…        subproject, self-contained (app/, bin/, spec/, AGENT.md)
 src/tecnica/…           subproject, self-contained (app/, bin/, spec.md, AGENT.md)
-src/note/…              notes corpus + catalog/viewer (app/ incl. app/notes/ + live notes, bin/index.py) + tags — see src/note/README.md
+src/note/…              notes corpus + catalog/viewer (app/ incl. app/data/ + live notes, bin/index.py) + tags — see src/note/README.md
 src/course/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures, bin/index.py) — see src/course/README.md
 src/document/…          documents corpus + catalog/viewer (papers/articles/books, bin/index.py) — see src/document/README.md
 src/persona/…            personas corpus (typed notes: type front matter + tags) + catalog/viewer (bin/index.py) — see src/persona/README.md
@@ -86,7 +86,7 @@ disabled.
 - Regenerate the corpus index after any edit: `make notes-index`,
   `make course-index`, `make document-index`, `make persona-index`,
   `make glossarium-index` (see verification list below).
-- Live notes (`src/note/app/notes/live/*.html`) share the `note.html` frame
+- Live notes (`src/note/app/data/live/*.html`) share the `note.html` frame
   (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
   and the philosophia shell order — recipe + conversion record in
   `docs/live-note-chrome.md` §7–§8. Keep `<title>`/h1, copy, and JS ids
@@ -94,15 +94,15 @@ disabled.
 
 ## On Technical Notes
 
-Multinode notes (`src/note/app/notes/cto/es/multinode/`, e.g. `openapi.md`,
+Multinode notes (`src/note/app/data/technica/cto/es/multinode/`, e.g. `openapi.md`,
 `wildfly.md`, `marketing-technical-practice.md`) document one technical
 instance with the shell from
-`src/note/app/notes/general/philosophia-artium-technicarum-et-operis.md`
+`src/note/app/data/general/philosophia-artium-technicarum-et-operis.md`
 (`# …` / intro / three Formulation questions / References) plus a single
 instance-decomposition table:
 
 - Pre-read: before writing any technical-element note, read
-  `src/note/app/notes/general/philosophia-artium-technicarum-et-operis.md`
+  `src/note/app/data/general/philosophia-artium-technicarum-et-operis.md`
   first — it owns the shell below, the Tabular taxonomy, the Recursive-view
   grammar, the decomposition contract, and the worked CRM case study.
 - Table contract: 4 columns (`Instance Tree Path | Description | Technical
@@ -158,7 +158,7 @@ instance-decomposition table:
 
 - Before writing any note that types an epistemic
   element, read
-  `src/note/app/notes/general/philosophia-artium-epistemicarum-et-operis.md`
+  `src/note/app/data/general/philosophia-artium-epistemicarum-et-operis.md`
   first — it owns the mandatory schema (`#` title, intro quote,
   `## Formulation` with the three questions *including* the recursive
   instance decomposition, `## References`) and the decomposition table
@@ -191,7 +191,7 @@ Verification (no test suite exists; `make check` covers the first two):
 - `curl :8000/epistemica/api/nodes` and `/tecnica/api/nodes` → flat arrays, no `_id`/`_rev`, no layout doc
 - `curl -X POST :8000/tecnica/api/graph/save -d '{"nodes":[]}'` → `{"status":"ok","saved":0}`
 - Static mounts: `curl -s :8000/epistemica/graph.html | head -1` and same for `tecnica`
-- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=notes/pto/zsh.md` (viewer), `/note/notes/live/chmc.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
+- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/pto/zsh.md` (viewer), `/note/data/live/chmc.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
 - Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`)
 - Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`)
 - Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `src/persona/bin/import.py <notion-export-dir>`)

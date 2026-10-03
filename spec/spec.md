@@ -57,7 +57,7 @@ any cross-graph unification is future work, not an assumption.
 | `GET /` | Hub `src/app/index.html` (project cards, live \|V\|/\|E\| strips, entry guidance) |
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface (per-subproject docs pages removed) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
-| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, search + facets + pins), viewer (`note.html?n=<path>`), corpus (`notes/**.md`), generated search index (`data/index.json`) |
+| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, search + facets + pins), viewer (`note.html?n=<path>`), corpus (`data/**.md`), generated search index (`data/index.json`) |
 | `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog (`index.html`, search + letter facets), term view (`?t=<slug>`), corpus (`terms/**.md`), generated lookup index (`data/index.json`); the select-a-word popup on note pages fetches this index relatively |
 | `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
 | `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |

@@ -587,7 +587,7 @@
         if (!validPath(name)) {
             fail(name ? 'Invalid note path: "' + name + '".' : 'No note specified. Use note.html?n=&lt;path&gt;.');
         } else {
-            fetch('notes/' + name)
+            fetch('data/' + name)
                 .then(function (r) {
                     if (!r.ok) throw new Error('HTTP ' + r.status);
                     return r.text();
@@ -610,7 +610,7 @@
                     var words = md.split(/\s+/).filter(Boolean).length;
                     document.getElementById('meta-words').textContent = words + ' words';
                     document.getElementById('meta-time').textContent = Math.max(1, Math.ceil(words / 200)) + ' min read';
-                    document.getElementById('meta-raw').setAttribute('href', 'notes/' + encPath(name));
+                    document.getElementById('meta-raw').setAttribute('href', 'data/' + encPath(name));
                     renderTags(fm.tags);
 
                     document.getElementById('note-body').innerHTML = marked.parse(md);
