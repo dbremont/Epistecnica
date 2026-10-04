@@ -18,5 +18,5 @@ Through experiments (A/B, holdouts, geo-splits), observational fit (model vs rea
 
 ## References
 
-- [Philosophia Artium Epistemicarum et Operis](note.html?n=general/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Marketing Technical Practice (companion note)](note.html?n=technica/cto/es/multinode/marketing-technical-practice.md)

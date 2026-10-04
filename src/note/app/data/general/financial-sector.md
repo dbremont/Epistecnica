@@ -169,6 +169,6 @@ Through fit against external registries and perimeters (statistical classificati
 
 ## References
 
-- [Philosophia Artium Epistemicarum et Operis](note.html?n=general/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Financial Sector explorer (live note)](data/live/financial-sector-explorer.html)
 - Financial Sector Technical Practice (companion note, forthcoming)

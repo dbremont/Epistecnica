@@ -83,7 +83,8 @@ disabled.
   heading. Per-corpus naming/tags rules live in their READMEs
   (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
   `src/persona/README.md`, `src/glossarium/README.md`).
-- Regenerate the corpus index after any edit: `make notes-index`,
+- Regenerate the corpus index after any edit: `make index` (all of them),
+  or individually `make notes-index`,
   `make course-index`, `make document-index`, `make persona-index`,
   `make glossarium-index` (see verification list below).
 - Live notes (`src/note/app/data/live/*.html`) share the `note.html` frame
@@ -158,7 +159,7 @@ instance-decomposition table:
 
 - Before writing any note that types an epistemic
   element, read
-  `src/note/app/data/general/philosophia-artium-epistemicarum-et-operis.md`
+  `https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`
   first — it owns the mandatory schema (`#` title, intro quote,
   `## Formulation` with the three questions *including* the recursive
   instance decomposition, `## References`) and the decomposition table

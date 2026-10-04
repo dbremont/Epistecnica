@@ -34,7 +34,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check bootstrap notes-index course-index document-index glossarium-index search-index build deploy-local deploy-server logs stop
+.PHONY: help run check bootstrap notes-index course-index document-index glossarium-index search-index index build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -61,6 +61,8 @@ search-index: ## build the universal search snapshot (before build/deploy)
 
 glossarium-index: ## rebuild the glossarium lookup index (after any corpus change)
 	python3 src/glossarium/bin/index.py
+
+index: notes-index course-index document-index glossarium-index search-index ## rebuild all search indexes (corpora first, universal snapshot last)
 
 # One-time CouchDB setup. The create-then-verify idiom on each DB keeps the
 # rule re-runnable (PUT on an existing DB would fail with 412). Credentials
