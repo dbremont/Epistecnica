@@ -3,8 +3,13 @@
 Decomposition-table conformance checker.
 
 Verifies that every `Instance Tree Path` table in the given technical
-notes adheres to the decomposition standards owned by
-src/note/app/data/general/philosophia-artium-technicarum-et-operis.md:
+notes adheres to the decomposition standards owned by the canonical
+technica guide
+(https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md),
+as vendored in the `technicarum-grammar.txt` snapshot next to this script
+(pre-centralization local `(root) > ...` form — instance tables validate
+against the snapshot until migrated to the external
+`(root) -> <<Technical Element>> -> ...` grammar):
 
 - every fourth-column type path resolves to a Recursive-view grammar path
   (`Technical Element Set`-prefixed, spine levels never skipped, no
@@ -32,7 +37,7 @@ import sys
 from pathlib import Path
 
 NOTE = Path(__file__).resolve().parent.parent
-PHILOSOPHIA = NOTE / "app/data/general/philosophia-artium-technicarum-et-operis.md"
+GRAMMAR_SNAPSHOT = Path(__file__).resolve().parent / "technicarum-grammar.txt"
 
 DEFAULT_FILES = [
     NOTE / "app/data/technica/cto/es/multinode/openapi.md",
@@ -46,7 +51,6 @@ DEFAULT_FILES = [
     NOTE / "app/data/general/physical-material-technology.md",
 ]
 
-GRAMMAR_ROW_RE = re.compile(r"^\|\s*`(\(root\)[^`]*)`")
 BACKTICK_RE = re.compile(r"`([^`]*)`")
 CATEGORIES = {
     "Composite", "Technical Context", "Requirements & Definition",
@@ -69,18 +73,15 @@ ROOT_REPEAT_ALLOWLIST = {"Biotechnology > Technical Element Set"}
 
 
 def load_grammar():
-    """Return (grammar_paths, canonical) from the philosophia Recursive view.
+    """Return (grammar_paths, canonical) from the vendored snapshot.
 
     canonical maps a terminal type name to its full grammar path.
     """
-    text = PHILOSOPHIA.read_text()
-    section = text.split("### Recursive view")[1].split(
-        "## How to decompose")[0]
     grammar = set()
-    for line in section.splitlines():
-        m = GRAMMAR_ROW_RE.match(line)
-        if m:
-            grammar.add(m.group(1))
+    for line in GRAMMAR_SNAPSHOT.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            grammar.add(line)
     canonical = {}
     for path in grammar:
         if "..." in path or "{" in path:

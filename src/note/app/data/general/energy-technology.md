@@ -4,7 +4,7 @@
 
 > It is the complement of an observation: energy science states how energy behaves and converts, while energy technology intervenes in it — raising steam, spinning turbines, switching inverters, balancing grids, and charging stores from bench cell to continental system.
 
-> This note treats energy technology as a full ensemble — the technical domain plus its carrier fleets, transmission and distribution systems, stores, practices, markets, agents, and institutions — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md).
+> This note treats energy technology as a full ensemble — the technical domain plus its carrier fleets, transmission and distribution systems, stores, practices, markets, agents, and institutions — following the schema in [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -127,7 +127,7 @@ Lineage: waterwheels and windmills → steam engine and dynamo → AC transmissi
 | **Energy Technology** > `Technical Lifecycle` > Asset lifecycle | Temporal trajectory of a plant from commissioning through operation to retirement. | Lifecycle & Continuity | `(root) > Technical Element Set > Technical Lifecycle` |
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Biotechnology (companion domain pattern)](note.html?n=technica/cto/es/multinode/biotechnology.md)
 - https://www.iea.org/reports/world-energy-outlook
 - https://www.entsoe.eu/

@@ -4,7 +4,7 @@
 
 > It is the complement of an observation: molecular biology states how living systems behave, while biotechnology intervenes in them — editing genomes, expressing proteins, culturing cells, and scaling fermentation from bench construct to manufactured batch.
 
-> This note treats biotechnology as a full ensemble — the technical domain plus its cell lines, vectors, instruments, bioreactor systems, bioinformatics objects, culture and editing practices, knowledge, agents, regulations, and institutions — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md).
+> This note treats biotechnology as a full ensemble — the technical domain plus its cell lines, vectors, instruments, bioreactor systems, bioinformatics objects, culture and editing practices, knowledge, agents, regulations, and institutions — following the schema in [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -3925,7 +3925,7 @@ Lineage: recombinant DNA (1970s) → PCR and Sanger sequencing (1980s) → indus
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [WildFly (full-recursion structural exemplar)](note.html?n=technica/cto/es/multinode/wildfly.md)
 - [OpenAPI Specification (companion ensemble pattern)](note.html?n=technica/cto/es/multinode/openapi.md)
 - [Marketing Technical Practice (companion Element Set pattern)](note.html?n=technica/cto/es/multinode/marketing-technical-practice.md)

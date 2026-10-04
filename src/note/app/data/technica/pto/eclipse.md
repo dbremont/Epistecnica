@@ -8,7 +8,7 @@ tags: [java, ide, debugging, osgi, maven]
 >
 > It is the complement of the command line and the bare build: the workspace returns fast, managed feedback (problems view, incremental build, debugger with source lookup) while the `Bundle` persists as the unit of functionality, claimed and wired by the Equinox runtime through the extension registry.
 >
-> This note characterizes Eclipse as a full ensemble — distribution, OSGi runtime, workbench, JDT, PDE, help, Maven bridge, configuration, practices, and evolution — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md).
+> This note characterizes Eclipse as a full ensemble — distribution, OSGi runtime, workbench, JDT, PDE, help, Maven bridge, configuration, practices, and evolution — following the schema in [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -185,4 +185,4 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 - [VS Code](note.html?n=technica/pto/vscode.md)
 - [Java EE / Jakarta EE](note.html?n=technica/cto/es/multinode/java-ee-jakarta-ee.md)
 - [WildFly](note.html?n=technica/cto/es/multinode/wildfly.md)
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

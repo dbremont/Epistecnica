@@ -6,7 +6,7 @@
 > It is the complement of the request path: the web request returns fast while the `Job` persists as JSON in the application's existing database, is claimed and executed by a `BackgroundJobServer`, retried on failure, and observed in a built-in dashboard.
 >
 
-> This note characterizes JobRunr as a full ensemble — jobs, states, scheduler API, server cluster, storage providers, dashboard, filters, framework integrations, and practices (OSS plus a marked Pro sketch) — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md).
+> This note characterizes JobRunr as a full ensemble — jobs, states, scheduler API, server cluster, storage providers, dashboard, filters, framework integrations, and practices (OSS plus a marked Pro sketch) — following the schema in [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -190,4 +190,4 @@ public void processOrder(UUID orderId, JobContext context) {
 - [JobRunr compared (alternatives)](https://www.jobrunr.io/en/documentation/alternatives/)
 - [Spring Boot](note.html?n=technica/cto/es/multinode/spring-boot.md)
 - [Sidekiq](note.html?n=technica/cto/es/multinode/sidekiq.md)
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

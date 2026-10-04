@@ -4,7 +4,7 @@
 
 > It is the complement of an observation: materials science states how matter behaves under load, heat, and environment, while material technology intervenes in it — melting, casting, forging, machining, coating, joining, and qualifying it from raw charge to finished part.
 
-> This note treats physical material technology as a full ensemble — the technical domain plus its material families, furnaces, mills, machine tools, test labs, practices, standards, and institutions — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md).
+> This note treats physical material technology as a full ensemble — the technical domain plus its material families, furnaces, mills, machine tools, test labs, practices, standards, and institutions — following the schema in [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -125,7 +125,7 @@ Lineage: bronze and iron smelting → Bessemer and open-hearth steel → Hall-H�
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Energy Technology (companion domain pattern)](note.html?n=general/energy-technology.md)
 - https://www.asminternational.org/
 - https://www.nist.gov/

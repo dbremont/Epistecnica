@@ -957,7 +957,7 @@ It is an Element Set because it is a coherent, bounded collection of heterogeneo
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Marketing Science (companion note)](note.html?n=general/marketing-science.md)
 - [M3AAWG Messaging Best Practices](https://www.m3aawg.org/)
 - [IAB Transparency & Consent Framework](https://iabtechlab.com/)

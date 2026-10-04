@@ -97,15 +97,20 @@ disabled.
 
 Multinode notes (`src/note/app/data/technica/cto/es/multinode/`, e.g. `openapi.md`,
 `wildfly.md`, `marketing-technical-practice.md`) document one technical
-instance with the shell from
-`src/note/app/data/general/philosophia-artium-technicarum-et-operis.md`
+instance with the shell from the canonical technica guide
+(`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md`)
 (`# …` / intro / three Formulation questions / References) plus a single
 instance-decomposition table:
 
 - Pre-read: before writing any technical-element note, read
-  `src/note/app/data/general/philosophia-artium-technicarum-et-operis.md`
+  the canonical technica guide above
   first — it owns the shell below, the Tabular taxonomy, the Recursive-view
   grammar, the decomposition contract, and the worked CRM case study.
+- Grammar snapshot: `src/note/bin/conform.py` validates instance tables
+  against the vendored `src/note/bin/technicarum-grammar.txt` snapshot
+  (pre-centralization local `(root) > ...` form), not the external
+  `(root) -> <<Technical Element>> -> ...` grammar — existing tables are
+  grammatically orphaned until migrated.
 - Table contract: 4 columns (`Instance Tree Path | Description | Technical
   Category | Technical Element Type Tree Path`) under a Boundary /
   Stopping-rule / Identity / Verbs block. Every path unique; a row is

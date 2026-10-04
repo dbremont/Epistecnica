@@ -1,0 +1,62 @@
+# Technica grammar snapshot (pre-centralization, local `(root) > ...` form).
+# Source was src/note/app/data/general/philosophia-artium-technicarum-et-operis.md
+# (### Recursive view), now canonical at Naturgnosis (meta/philosophia-artium-technicarum-et-operis.md,
+# `(root) -> <<Technical Element>> -> ...` form). Existing instance tables validate against
+# this snapshot until migrated to the external grammar. One grammar path per line.
+(root) > Technical Element Set
+(root) > Technical Element Set > ... > Technical Element Set
+(root) > Technical Element Set > ... > {any Technical Element Type}
+(root) > Technical Element Set > Technical Practice
+(root) > Technical Element Set > Technical Ecosystem
+(root) > Technical Element Set > Technical Domain
+(root) > Technical Element Set > Production Technical System
+(root) > Technical Element Set > Production Technical System > Production Technical Object
+(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object
+(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object > Production Virtual Technical Object
+(root) > Technical Element Set > Technical Practice > Technical Task
+(root) > Technical Element Set > Technical Practice > Technical Task > General Technique
+(root) > Technical Element Set > Technical Practice > Technical Task > General Technique > Operative Technique
+(root) > Technical Element Set > Technical Practice > Technical Task > General Technique > Operative Technique > Constitutive Technique
+(root) > Technical Element Set > Technical Practice > Technical Task > General Technique > Operative Technique > Constitutive Technique > Technical Act
+(root) > Technical Element Set > Technical Practice > Technical Task > General Technique > Operative Technique > Constitutive Technique > Technical Act > Technical Interface & Actuation
+(root) > Technical Element Set > Technical Problem
+(root) > Technical Element Set > Technical Purpose
+(root) > Technical Element Set > Technical Constraint
+(root) > Technical Element Set > Technical Resource
+(root) > Technical Element Set > Technical Requirement
+(root) > Technical Element Set > Technical Specification
+(root) > Technical Element Set > Technical Parameter
+(root) > Technical Element Set > Technical Standard
+(root) > Technical Element Set > Technical Research
+(root) > Technical Element Set > Technical Principle
+(root) > Technical Element Set > Technical Framework
+(root) > Technical Element Set > Technical Strategy
+(root) > Technical Element Set > Technical Institution
+(root) > Technical Element Set > Technical Agent
+(root) > Technical Element Set > Technical Labor
+(root) > Technical Element Set > Technical Competence
+(root) > Technical Element Set > Technical Architecture
+(root) > Technical Element Set > Technical Blueprint
+(root) > Technical Element Set > Technical Configuration
+(root) > Technical Element Set > Technical Interface
+(root) > Technical Element Set > Technical Dependency
+(root) > Technical Element Set > Technical Interaction
+(root) > Technical Element Set > Technical Capability
+(root) > Technical Element Set > Technical Mechanism
+(root) > Technical Element Set > Technical Property
+(root) > Technical Element Set > Technical Quality
+(root) > Technical Element Set > Technical Performance
+(root) > Technical Element Set > Technical Feedback
+(root) > Technical Element Set > Technical Evaluation
+(root) > Technical Element Set > Verification
+(root) > Technical Element Set > Validation
+(root) > Technical Element Set > Technical Hazard
+(root) > Technical Element Set > Technical Risk
+(root) > Technical Element Set > Technical Trade-off
+(root) > Technical Element Set > Technical Failure
+(root) > Technical Element Set > Technical Security
+(root) > Technical Element Set > Technical Maintenance
+(root) > Technical Element Set > Technical Service
+(root) > Technical Element Set > Technical Lifecycle
+(root) > Technical Element Set > Technical Evolution
+(root) > Technical Element Set > Technical Obsolescence
