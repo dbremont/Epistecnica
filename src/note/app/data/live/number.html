@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Number as Epistemic Artifact</title>
+  <title>Number</title>
   <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     /* ============================================
-       EPISTEMICA — shared tokens + live-note chrome
-       (canonical blocks: docs/live-note-chrome.md)
+       Shared tokens + live-note chrome
+       (mirrors the sibling live/epistemic notes)
        ============================================ */
-
     :root {
       --bg-void: #04050A;
       --bg-surface: #0B0D14;
@@ -32,8 +31,9 @@
       --font-display: 'Cormorant Garamond', serif;
       --font-body: 'Inter', sans-serif;
       --font-mono: 'JetBrains Mono', monospace;
+      --valid: #4a9d6e;
+      --invalid: #c45d5d;
     }
-
     html[data-theme="light"] {
       --bg-void: #F7F5F0;
       --bg-surface: #F1EEE7;
@@ -50,13 +50,8 @@
       --nav-bg: rgba(247, 245, 240, 0.85);
       --footer-bg: rgba(247, 245, 240, 0.75);
     }
-
-    body { transition: opacity 180ms ease; }
-    html.theme-fading body { opacity: 0; }
-
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; background: var(--bg-void); }
-
     body {
       font-family: var(--font-body);
       background: var(--bg-void);
@@ -65,1599 +60,143 @@
       display: flex;
       flex-direction: column;
       overflow-x: hidden;
+      transition: opacity 180ms ease;
     }
-
-    #ambientCanvas {
-      position: fixed;
-      top: 0; left: 0;
-      z-index: 0;
-      opacity: 0.4;
-      pointer-events: none;
-    }
-
-    /* ---- note.html frame: layout / header / card / sidebar ---- */
-    .layout {
-      position: relative;
-      z-index: 1;
-      flex: 1;
-      width: 100%;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 2.5rem 2rem 3.5rem;
-    }
-
+    html.theme-fading body { opacity: 0; }
+    #ambientCanvas { position: fixed; top: 0; left: 0; z-index: 0; opacity: 0.4; pointer-events: none; }
+    .layout { position: relative; z-index: 1; flex: 1; width: 100%; max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem 3.5rem; }
     .cols { display: flex; gap: 2.5rem; }
     .note-main { flex: 9 1 0; min-width: 0; }
-
-    .crumbs {
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      margin-bottom: 1.2rem;
-    }
+    .crumbs { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.2rem; }
     .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .crumbs a:hover { color: var(--accent-cyan); }
     .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
     .crumbs .here { color: var(--accent-gold); }
-
-    h1.note-title {
-      font-family: var(--font-display);
-      font-weight: 300;
-      font-size: clamp(2rem, 4vw, 3rem);
-      line-height: 1.1;
-      padding-bottom: 1.2rem;
-      border-bottom: 1px solid var(--border-subtle);
-      margin-bottom: 2rem;
-    }
-
-    .note-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.6rem;
-      margin: -1.2rem 0 2rem;
-      position: relative;
-      top: 0.8rem;
-    }
-
-    .chip {
-      font-family: var(--font-mono);
-      font-size: 0.58rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      padding: 0.35rem 0.7rem;
-      text-decoration: none;
-    }
-
-    .note-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-subtle);
-      border-radius: 10px;
-      padding: 2.5rem;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-    }
-
-    .sidebar {
-      flex: 1 1 0;
-      min-width: 180px;
-      position: sticky;
-      top: 3.5rem;
-      height: fit-content;
-      max-height: calc(100vh - 5rem);
-      overflow-y: auto;
-      padding: 0 1.25rem 0 0;
-    }
-
-    .sidebar-title {
-      font-family: var(--font-mono);
-      font-size: 0.58rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      margin-bottom: 0.9rem;
-      text-align: right;
-    }
-
-    .toc-item {
-      display: block;
-      font-size: 0.78rem;
-      font-weight: 300;
-      color: var(--text-secondary);
-      text-decoration: none;
-      text-align: right;
-      padding: 0.3rem 0.75rem 0.3rem 0;
-      border-right: 1px solid transparent;
-      margin-right: -1.25rem;
-      transition: color 0.2s ease, border-color 0.2s ease;
-    }
+    h1.note-title { font-family: var(--font-display); font-weight: 300; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border-subtle); margin-bottom: 2rem; }
+    .note-meta { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: -1.2rem 0 2rem; position: relative; top: 0.8rem; }
+    .chip { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted); background: var(--bg-card); border: 1px solid var(--border-subtle); padding: 0.35rem 0.7rem; }
+    .note-card { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 2.5rem; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+    .sidebar { flex: 1 1 0; min-width: 180px; position: sticky; top: 3.5rem; height: fit-content; max-height: calc(100vh - 5rem); overflow-y: auto; padding: 0 1.25rem 0 0; }
+    .sidebar-title { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.9rem; text-align: right; }
+    .toc-item { display: block; font-size: 0.78rem; font-weight: 300; color: var(--text-secondary); text-decoration: none; text-align: right; padding: 0.3rem 0.75rem 0.3rem 0; border-right: 1px solid transparent; margin-right: -1.25rem; transition: color 0.2s ease, border-color 0.2s ease; }
     .toc-item:hover { color: var(--text-primary); }
     .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
-
-    @media (max-width: 900px) {
-      .sidebar { display: none; }
-      .note-card { padding: 1.5rem; }
-    }
-
-    /* ---- markdown-body typography (mirrors notes.css) ---- */
-    .markdown-body {
-      font-weight: 300;
-      font-size: 0.95rem;
-      line-height: 1.75;
-      color: var(--text-secondary);
-      word-wrap: break-word;
-    }
-    .markdown-body h2 {
-      font-family: var(--font-display);
-      font-weight: 400;
-      font-size: 1.55rem;
-      line-height: 1.25;
-      color: var(--text-primary);
-      margin: 2.2em 0 0.8em;
-      padding-bottom: 0.35em;
-      border-bottom: 1px solid var(--border-subtle);
-      scroll-margin-top: 6rem;
-    }
+    @media (max-width: 900px) { .sidebar { display: none; } .note-card { padding: 1.5rem; } }
+    .markdown-body { font-weight: 300; font-size: 0.95rem; line-height: 1.75; color: var(--text-secondary); word-wrap: break-word; }
+    .markdown-body h2 { font-family: var(--font-display); font-weight: 400; font-size: 1.55rem; line-height: 1.25; color: var(--text-primary); margin: 2.2em 0 0.8em; padding-bottom: 0.35em; border-bottom: 1px solid var(--border-subtle); scroll-margin-top: 6rem; }
     .markdown-body h2:first-child { margin-top: 0; }
-    .markdown-body h3 {
-      font-family: var(--font-display);
-      font-weight: 400;
-      font-style: italic;
-      font-size: 1.25rem;
-      line-height: 1.25;
-      color: var(--text-primary);
-      margin: 2.2em 0 0.8em;
-      scroll-margin-top: 6rem;
-    }
+    .markdown-body h3 { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: 1.25rem; line-height: 1.25; color: var(--text-primary); margin: 2.2em 0 0.8em; scroll-margin-top: 6rem; }
     .markdown-body p { margin: 0 0 1.1em; }
-    .markdown-body a {
-      color: var(--accent-cyan);
-      text-decoration: none;
-      border-bottom: 1px solid var(--border-subtle);
-      transition: border-color 0.3s ease;
-    }
+    .markdown-body a { color: var(--accent-cyan); text-decoration: none; border-bottom: 1px solid var(--border-subtle); transition: border-color 0.3s ease; }
     .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
     .markdown-body strong { font-weight: 500; color: var(--text-primary); }
     .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
     .markdown-body li { margin-bottom: 0.35em; }
     .markdown-body li::marker { color: var(--accent-gold); }
-    .markdown-body blockquote {
-      margin: 0 0 1.1em;
-      padding: 0.2em 0 0.2em 1.25em;
-      border-left: 1px solid var(--accent-gold);
-      font-style: italic;
-      color: var(--text-secondary);
-    }
-    .markdown-body table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 0 0 1.1em;
-      font-size: 0.85rem;
-    }
-    .markdown-body th {
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      text-align: left;
-      padding: 0.5em 0.75em;
-      border-bottom: 1px solid var(--border-subtle);
-    }
-    .markdown-body td {
-      padding: 0.5em 0.75em;
-      border-bottom: 1px solid var(--border-subtle);
-    }
-    .markdown-body tr:last-child td { border-bottom: none; }
-
-    .site-nav {
-      position: sticky;
-      top: 0;
-      z-index: 60;
-      background: var(--nav-bg);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--border-subtle);
-    }
-
-    .site-nav .nav-inner {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0.95rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .site-nav .nav-brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.55rem;
-      font-family: var(--font-display);
-      font-size: 1.2rem;
-      font-weight: 400;
-      letter-spacing: 0.03em;
-      color: var(--text-primary);
-      text-decoration: none;
-    }
-
+    .markdown-body blockquote { margin: 0 0 1.1em; padding: 0.2em 0 0.2em 1.25em; border-left: 1px solid var(--accent-gold); font-style: italic; color: var(--text-secondary); }
+    .site-nav { position: sticky; top: 0; z-index: 60; background: var(--nav-bg); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); }
+    .site-nav .nav-inner { max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .site-nav .nav-brand { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--font-display); font-size: 1.2rem; font-weight: 400; letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none; }
     .site-nav .nav-mark { height: 26px; width: auto; }
     .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
     .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
-
-    .site-nav .nav-links a {
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
+    .site-nav .nav-links a { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .site-nav .nav-links a:hover { color: var(--accent-cyan); }
-
-    .theme-toggle {
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--text-secondary);
-      background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      padding: 0.45rem 0.75rem;
-      cursor: pointer;
-      transition: color 0.3s ease, border-color 0.3s ease;
-    }
-
+    .theme-toggle { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-subtle); padding: 0.45rem 0.75rem; cursor: pointer; transition: color 0.3s ease, border-color 0.3s ease; }
     .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
-
-    .site-footer {
-      border-top: 1px solid var(--border-subtle);
-      background: var(--footer-bg);
-      position: relative;
-      z-index: 1;
-    }
-
-    .site-footer .foot-inner {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 1.5rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem 2rem;
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-    }
-
+    .site-footer { border-top: 1px solid var(--border-subtle); background: var(--footer-bg); position: relative; z-index: 1; }
+    .site-footer .foot-inner { max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem; font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); }
     .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .site-footer a:hover { color: var(--accent-cyan); }
-
-    /* Page aliases onto the shared tokens (accent = project gold) */
-    :root {
-      --bg: var(--bg-void);
-      --bg-elevated: var(--bg-surface);
-      --fg: var(--text-primary);
-      --fg-muted: var(--text-secondary);
-      --fg-dim: var(--text-muted);
-      --accent: var(--accent-gold);
-      --accent-dim: var(--accent-gold-dim);
-      --warning: var(--accent-cyan);
-      --warning-dim: var(--accent-cyan-dim);
-      --border: var(--border-subtle);
-      --border-light: var(--border-subtle);
-      --danger: #ff6b6b;
-      --danger-dim: rgba(255, 107, 107, 0.15);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-
-    body {
-      font-family: var(--font-body);
-      background: var(--bg);
-      color: var(--fg);
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-
-    .font-mono {
-      font-family: var(--font-mono);
-    }
-
-    /* Live-note lab panels: same card-bg/border/radius idiom as .note-card */
-    .section-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-subtle);
-      border-radius: 10px;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-      position: relative;
-    }
-
-    /* Interactive Elements */
-    .param-slider {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 100%;
-      height: 4px;
-      background: var(--border);
-      border-radius: 2px;
-      outline: none;
-      cursor: pointer;
-    }
-
-    .param-slider::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 16px;
-      height: 16px;
-      background: var(--accent);
-      border-radius: 50%;
-      cursor: pointer;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .param-slider::-webkit-slider-thumb:hover {
-      transform: scale(1.2);
-      box-shadow: 0 0 12px var(--accent);
-    }
-
-    .param-slider:focus-visible::-webkit-slider-thumb {
-      box-shadow: 0 0 0 3px var(--accent-dim);
-    }
-
-    /* Buttons: note.html outline idiom (mono uppercase chips) */
-    .btn-primary {
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--text-secondary);
-      background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      padding: 0.55rem 0.9rem;
-      cursor: pointer;
-      transition: color 0.3s ease, border-color 0.3s ease;
-    }
-
-    .btn-primary:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
-
-    .btn-primary:focus-visible {
-      outline: 2px solid var(--accent-cyan);
-      outline-offset: 2px;
-    }
-
-    .btn-secondary {
-      background: transparent;
-      color: var(--fg-muted);
-      border: 1px solid var(--border);
-      padding: 0.5rem 1rem;
-      border-radius: 3px;
-      font-size: 0.8rem;
-      transition: all 0.2s ease;
-      cursor: pointer;
-    }
-
-    .btn-secondary:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    .btn-secondary.active {
-      background: var(--accent-dim);
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    /* Canvas */
-    .canvas-container {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-subtle);
-      border-radius: 6px;
-      position: relative;
-    }
-
-    /* Formula Display */
-    .formula-box {
-      background: var(--bg-elevated);
-      border: 1px solid var(--border);
-      border-radius: 3px;
-      padding: 1.5rem 2rem;
-      font-family: var(--font-mono);
-      text-align: center;
-    }
-
-    /* Value Display */
-    .value-display {
-      font-family: var(--font-mono);
-      font-size: 2rem;
-      font-weight: 300;
-      letter-spacing: -0.02em;
-    }
-
-    .value-positive { color: var(--warning); }
-    .value-negative { color: var(--accent); }
-    .value-neutral { color: var(--fg-muted); }
-
-    /* Tags: same mono-uppercase chip idiom as .chip in note.html */
-    .tag {
-      display: inline-block;
-      font-family: var(--font-mono);
-      font-size: 0.58rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      padding: 0.35rem 0.7rem;
-      cursor: pointer;
-    }
-
-    .tag-accent {
-      color: var(--text-muted);
-    }
-
-    .tag-accent.active, button.tag-accent[aria-pressed="true"] {
-      color: var(--accent-cyan);
-      border-color: var(--accent-cyan);
-    }
-
-    .tag-warning {
-      color: var(--text-muted);
-    }
-
-    .tag-danger {
-      background: var(--danger-dim);
-      color: var(--danger);
-      border: 1px solid rgba(255, 107, 107, 0.3);
-    }
-
-    /* Accordion */
-    .accordion-header {
-      cursor: pointer;
-      user-select: none;
-      transition: color 0.2s ease;
-    }
-
-    .accordion-header:hover {
-      color: var(--accent);
-    }
-
-    .accordion-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease;
-    }
-
-    .accordion-content.open {
-      max-height: 2000px;
-    }
-
-    .accordion-icon {
-      transition: transform 0.3s ease;
-    }
-
-    .accordion-header.open .accordion-icon {
-      transform: rotate(180deg);
-    }
-
-    /* Tooltip */
-    .tooltip-trigger {
-      position: relative;
-      cursor: help;
-      border-bottom: 1px dotted var(--fg-dim);
-    }
-
-    .tooltip-trigger:hover .tooltip-content {
-      opacity: 1;
-      visibility: visible;
-      transform: translateY(0);
-    }
-
-    .tooltip-content {
-      position: absolute;
-      bottom: 100%;
-      left: 50%;
-      transform: translateX(-50%) translateY(8px);
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 0.75rem 1rem;
-      border-radius: 3px;
-      font-size: 0.8rem;
-      width: 280px;
-      opacity: 0;
-      visibility: hidden;
-      transition: all 0.2s ease;
-      z-index: 100;
-      text-align: left;
-      line-height: 1.5;
-    }
-
-    /* Progress Indicator */
-    .progress-step {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      border: 2px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.75rem;
-      font-weight: 600;
-      transition: all 0.3s ease;
-    }
-
-    .progress-step.completed {
-      background: var(--accent-dim);
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    .progress-step.active {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    /* Animations */
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.5; }
-    }
-
-    .animate-in {
-      animation: fadeInUp 0.6s ease forwards;
-    }
-
-    .stagger-1 { animation-delay: 0.1s; opacity: 0; }
-    .stagger-2 { animation-delay: 0.2s; opacity: 0; }
-    .stagger-3 { animation-delay: 0.3s; opacity: 0; }
-    .stagger-4 { animation-delay: 0.4s; opacity: 0; }
-    .stagger-5 { animation-delay: 0.5s; opacity: 0; }
-
-    /* Scrollbar */
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: var(--bg);
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background: var(--border);
-      border-radius: 4px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--border-light);
-    }
-
-    /* Focus States */
-    *:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .value-display {
-        font-size: 1.5rem;
-      }
-    }
-
-    /* ---- page headings inherit the note face via .markdown-body ---- */
-    .markdown-body h1 {
-      font-family: var(--font-display);
-      font-weight: 300;
-    }
-
-    /* ---- utility shim (replaces the Tailwind CDN) ---- */
-    .min-h-screen { min-height: 100vh; }
-    .relative { position: relative; }
-    .absolute { position: absolute; }
-    .sticky { position: sticky; }
-    .top-0 { top: 0; }
-    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
-    .bottom-0 { bottom: 0; }
-    .left-0 { left: 0; }
-    .right-0 { right: 0; }
-    .z-50 { z-index: 50; }
-    .-translate-x-1\/2 { transform: translateX(-50%); }
-    .mx-auto { margin-left: auto; margin-right: auto; }
-    .hidden { display: none; }
-    .flex { display: flex; }
-    .grid { display: grid; }
-    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-    .grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-    .flex-col { flex-direction: column; }
-    .flex-wrap { flex-wrap: wrap; }
-    .flex-1 { flex: 1 1 0%; }
-    .flex-shrink-0 { flex-shrink: 0; }
-    .items-center { align-items: center; }
-    .items-start { align-items: flex-start; }
-    .justify-between { justify-content: space-between; }
-    .justify-center { justify-content: center; }
-    .gap-2 { gap: 0.5rem; }
-    .gap-3 { gap: 0.75rem; }
-    .gap-4 { gap: 1rem; }
-    .gap-6 { gap: 1.5rem; }
-    .gap-8 { gap: 2rem; }
-    .space-y-2 > * + * { margin-top: 0.5rem; }
-    .space-y-3 > * + * { margin-top: 0.75rem; }
-    .space-y-4 > * + * { margin-top: 1rem; }
-    .space-y-6 > * + * { margin-top: 1.5rem; }
-    .w-1 { width: 0.25rem; }
-    .w-2 { width: 0.5rem; }
-    .w-3 { width: 0.75rem; }
-    .w-4 { width: 1rem; }
-    .w-5 { width: 1.25rem; }
-    .w-6 { width: 1.5rem; }
-    .w-8 { width: 2rem; }
-    .w-10 { width: 2.5rem; }
-    .w-full { width: 100%; }
-    .max-w-7xl { max-width: 80rem; }
-    .h-1 { height: 0.25rem; }
-    .h-2 { height: 0.5rem; }
-    .h-3 { height: 0.75rem; }
-    .h-4 { height: 1rem; }
-    .h-5 { height: 1.25rem; }
-    .h-6 { height: 1.5rem; }
-    .h-8 { height: 2rem; }
-    .h-10 { height: 2.5rem; }
-    .h-12 { height: 3rem; }
-    .h-16 { height: 4rem; }
-    .h-px { height: 1px; }
-    .h-full { height: 100%; }
-    .p-2 { padding: 0.5rem; }
-    .p-3 { padding: 0.75rem; }
-    .p-4 { padding: 1rem; }
-    .p-5 { padding: 1.25rem; }
-    .p-6 { padding: 1.5rem; }
-    .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
-    .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
-    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
-    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
-    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
-    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
-    .pt-6 { padding-top: 1.5rem; }
-    .mt-0\.5 { margin-top: 0.125rem; }
-    .mt-1 { margin-top: 0.25rem; }
-    .mt-2 { margin-top: 0.5rem; }
-    .mt-3 { margin-top: 0.75rem; }
-    .mt-4 { margin-top: 1rem; }
-    .mt-6 { margin-top: 1.5rem; }
-    .mt-20 { margin-top: 5rem; }
-    .mb-1 { margin-bottom: 0.25rem; }
-    .mb-2 { margin-bottom: 0.5rem; }
-    .mb-3 { margin-bottom: 0.75rem; }
-    .mb-4 { margin-bottom: 1rem; }
-    .mb-6 { margin-bottom: 1.5rem; }
-    .mb-8 { margin-bottom: 2rem; }
-    .mb-16 { margin-bottom: 4rem; }
-    .mb-20 { margin-bottom: 5rem; }
-    .text-xs { font-size: 0.75rem; line-height: 1.5; }
-    .text-sm { font-size: 0.875rem; line-height: 1.5; }
-    .text-lg { font-size: 1.125rem; line-height: 1.6; }
-    .text-xl { font-size: 1.25rem; line-height: 1.6; }
-    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
-    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
-    .text-left { text-align: left; }
-    .text-center { text-align: center; }
-    .font-medium { font-weight: 500; }
-    .font-bold { font-weight: 700; }
-    .tracking-tight { letter-spacing: -0.025em; }
-    .leading-relaxed { line-height: 1.7; }
-    .rounded { border-radius: 0.25rem; }
-    .rounded-full { border-radius: 9999px; }
-    .border { border: 1px solid var(--border); }
-    .border-b { border-bottom: 1px solid var(--border); }
-    .border-t { border-top: 1px solid var(--border); }
-    .overflow-hidden { overflow: hidden; }
-    .overflow-x-auto { overflow-x: auto; }
-    .cursor-pointer { cursor: pointer; }
-    .transition-colors { transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease; }
-    .transition-all { transition: all 0.15s ease; }
-    .duration-500 { transition-duration: 500ms; }
-    .backdrop-blur-xl { backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
-    .bg-white { background: #FFFFFF; }
-    .fg-clr { color: var(--fg); }
-    .muted { color: var(--fg-muted); }
-    .dim { color: var(--fg-dim); }
-    .accent-clr { color: var(--accent); }
-    .warn { color: var(--warning); }
-    .danger-clr { color: var(--danger); }
-    .bg-clr { color: var(--bg); }
-    .bg-accent { background: var(--accent); }
-    .bg-warn { background: var(--warning); }
-    .bg-danger { background: var(--danger); }
-    .bg-accent-dim { background: var(--accent-dim); }
-    .bg-warn-dim { background: var(--warning-dim); }
-    .bg-danger-dim { background: var(--danger-dim); }
-    .bg-elev { background: var(--bg-elevated); }
-    .bg-card-c { background: var(--bg-card); }
-    .bg-nav { background: color-mix(in srgb, var(--bg) 85%, transparent); }
-    .bg-bdr { background: var(--border); }
-    .bdr-warn { border-color: var(--warning); }
-    .bdr-danger { border-color: var(--danger); }
-    .bdr-danger-dim { border-color: rgba(255, 107, 107, 0.3); }
-    .hover-bdr:hover { border-color: var(--accent); }
-    .group:hover .gh-accent { color: var(--accent); }
-    .logo-grad { background: linear-gradient(135deg, var(--accent), var(--warning)); }
-    .scale-grad { background: linear-gradient(90deg, var(--accent), var(--fg-dim), var(--warning)); }
-    @media (min-width: 768px) {
-      .md\:flex { display: flex; }
-      .md\:hidden { display: none; }
-      .md\:flex-row { flex-direction: row; }
-      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .md\:grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-      .md\:text-5xl { font-size: 3rem; line-height: 1.1; }
-    }
-    @media (min-width: 1024px) {
-      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-      .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .lg\:col-span-1 { grid-column: span 1 / span 1; }
-      .lg\:col-span-3 { grid-column: span 3 / span 3; }
-    }
-  
-
-    /* ---- page lab (cleaned; frame tokens/chrome canonical above) ---- */
-/* ============================================
-       EPISTEMICA — shared tokens + live-note chrome
-       (canonical blocks: docs/live-note-chrome.md)
-       ============================================ */
-
-    
-
-    html[data-theme="light"] {
-      --bg-void: #F7F5F0;
-      --bg-surface: #F1EEE7;
-      --bg-card: #FFFFFF;
-      --text-primary: #1A1D24;
-      --text-secondary: #4A4F5E;
-      --text-muted: #7A7F8E;
-      --accent-gold: #9A7B3F;
-      --accent-gold-dim: rgba(154, 123, 63, 0.12);
-      --accent-cyan: #0E7C72;
-      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
-      --border-subtle: rgba(20, 22, 30, 0.10);
-      --card-bg: rgba(255, 255, 255, 0.72);
-      --nav-bg: rgba(247, 245, 240, 0.85);
-      --footer-bg: rgba(247, 245, 240, 0.75);
-    }
-
-    html.theme-fading body { opacity: 0; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* Page aliases onto the shared tokens */
-    :root {
-      --bg-deep: var(--bg-void);
-      --bg: var(--bg-surface);
-      --bg-elevated: var(--bg-surface);
-      --fg: var(--text-primary);
-      --fg-muted: var(--text-secondary);
-      --fg-dim: var(--text-muted);
-      --accent: var(--accent-gold);
-      --accent-bright: #e8c4a0;
-      --accent-dim: var(--accent-gold-dim);
-      --border: color-mix(in srgb, var(--text-primary) 14%, transparent);
-      --success: #5fb87a;
-      --warning: #d4a574;
-      --error: #c75f5f;
-      --info: #5f8dc7;
-      --granular-low: #4a6670;
-      --granular-mid: #6b8a4e;
-      --granular-high: #c49a3a;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      font-family: var(--font-body);
-      background: var(--bg-deep);
-      color: var(--fg);
-    }
-
-
-    .mono {
-      font-family: var(--font-mono);
-    }
-
-
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: var(--bg);
-    }
-    ::-webkit-scrollbar-thumb {
-      background: var(--border);
-      border-radius: 3px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--fg-dim);
-    }
-
-    @keyframes fadeSlideIn {
-      from {
-        opacity: 0;
-        transform: translateY(12px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.6; }
-    }
-
-    @keyframes numberMorph {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-      100% { transform: scale(1); }
-    }
-
-    @keyframes grainFlow {
-      0% { background-position: 0% 50%; }
-      100% { background-position: 100% 50%; }
-    }
-
-    .animate-in {
-      animation: fadeSlideIn 0.5s ease-out forwards;
-    }
-
-    .animate-pulse-subtle {
-      animation: pulse 2s ease-in-out infinite;
-    }
-
-    .number-morph {
-      animation: numberMorph 0.3s ease-out;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      border-radius: 8px;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-
-    .card:hover {
-      border-color: var(--border);
-    }
-
-    .card-header {
-      padding: 16px 20px;
-      border-bottom: 1px solid var(--border-subtle);
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .card-body {
-      padding: 20px;
-    }
-
-    .btn {
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-weight: 500;
-      font-size: 14px;
-      transition: all 0.15s;
-      cursor: pointer;
-      border: 1px solid transparent;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .btn:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-
-    .btn-secondary {
-      background: var(--bg-elevated);
-      color: var(--fg);
-      border-color: var(--border);
-    }
-
-    .btn-secondary:hover {
-      background: var(--bg-card);
-      border-color: var(--fg-dim);
-    }
-
-    .btn-ghost {
-      background: transparent;
-      color: var(--fg-muted);
-    }
-
-    .btn-ghost:hover {
-      background: var(--bg-elevated);
-      color: var(--fg);
-    }
-
-    .type-selector {
-      display: flex;
-      gap: 4px;
-      padding: 4px;
-      background: var(--bg);
-      border-radius: 8px;
-      border: 1px solid var(--border-subtle);
-    }
-
-    .type-btn {
-      padding: 10px 16px;
-      border-radius: 6px;
-      font-weight: 500;
-      font-size: 13px;
-      cursor: pointer;
-      border: none;
-      background: transparent;
-      color: var(--fg-muted);
-      transition: all 0.2s;
-      position: relative;
-    }
-
-    .type-btn:hover {
-      color: var(--fg);
-      background: var(--bg-elevated);
-    }
-
-    .type-btn.active {
-      background: var(--bg-card);
-      color: var(--accent);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .type-btn:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: -2px;
-    }
-
-    .input-field {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 12px 16px;
-      color: var(--fg);
-      font-family: var(--font-mono);
-      font-size: 24px;
-      width: 100%;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-
-    .input-field:focus {
-      outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 10%, transparent);
-    }
-
-    .input-field.error {
-      border-color: var(--error);
-    }
-
-    .input-field.valid {
-      border-color: var(--success);
-    }
-
-    .number-display {
-      font-family: var(--font-mono);
-      font-size: 72px;
-      font-weight: 300;
-      letter-spacing: -2px;
-      line-height: 1;
-      transition: all 0.3s;
-    }
-
-    .transform-btn {
-      width: 48px;
-      height: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 8px;
-      background: var(--bg-elevated);
-      border: 1px solid var(--border-subtle);
-      color: var(--fg-muted);
-      font-size: 20px;
-      cursor: pointer;
-      transition: all 0.15s;
-    }
-
-    .transform-btn:hover {
-      background: var(--bg-card);
-      border-color: var(--accent);
-      color: var(--accent);
-      transform: translateY(-2px);
-    }
-
-    .transform-btn:active {
-      transform: translateY(0);
-    }
-
-    .transform-btn:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-    .constraint-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 12px 16px;
-      background: var(--bg-elevated);
-      border-radius: 6px;
-      transition: all 0.2s;
-    }
-
-    .constraint-item.satisfied {
-      border-left: 3px solid var(--success);
-    }
-
-    .constraint-item.violated {
-      border-left: 3px solid var(--error);
-    }
-
-    .constraint-indicator {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    .constraint-indicator.satisfied {
-      background: var(--success);
-      box-shadow: 0 0 8px var(--success);
-    }
-
-    .constraint-indicator.violated {
-      background: var(--error);
-      box-shadow: 0 0 8px var(--error);
-    }
-
-    .panel-tabs {
-      display: flex;
-      gap: 0;
-      border-bottom: 1px solid var(--border-subtle);
-    }
-
-    .panel-tab {
-      padding: 12px 20px;
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--fg-muted);
-      cursor: pointer;
-      border: none;
-      background: transparent;
-      position: relative;
-      transition: color 0.2s;
-    }
-
-    .panel-tab:hover {
-      color: var(--fg);
-    }
-
-    .panel-tab.active {
-      color: var(--accent);
-    }
-
-    .panel-tab.active::after {
-      content: '';
-      position: absolute;
-      bottom: -1px;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: var(--accent);
-    }
-
-    .panel-tab:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: -2px;
-    }
-
-    .representation-card {
-      padding: 16px;
-      background: var(--bg);
-      border-radius: 6px;
-      border: 1px solid var(--border-subtle);
-    }
-
-    .representation-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--fg-dim);
-      margin-bottom: 8px;
-    }
-
-    .representation-value {
-      font-family: var(--font-mono);
-      font-size: 18px;
-      color: var(--fg);
-    }
-
-    .history-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 12px;
-      background: var(--bg);
-      border-radius: 6px;
-      font-size: 13px;
-    }
-
-    .history-op {
-      padding: 4px 8px;
-      border-radius: 4px;
-      background: var(--bg-elevated);
-      color: var(--accent);
-      font-family: var(--font-mono);
-      font-size: 12px;
-    }
-
-    .section-divider {
-      height: 1px;
-      background: linear-gradient(90deg, transparent, var(--border), transparent);
-      margin: 24px 0;
-    }
-
-    .badge {
-      padding: 4px 10px;
-      border-radius: 20px;
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .badge-success {
-      background: rgba(95, 184, 122, 0.15);
-      color: var(--success);
-    }
-
-    .badge-warning {
-      background: rgba(212, 165, 116, 0.15);
-      color: var(--warning);
-    }
-
-    .badge-error {
-      background: rgba(199, 95, 95, 0.15);
-      color: var(--error);
-    }
-
-    .badge-info {
-      background: rgba(95, 141, 199, 0.15);
-      color: var(--info);
-    }
-
-    .number-line {
-      position: relative;
-      height: 60px;
-      background: var(--bg);
-      border-radius: 6px;
-      overflow: hidden;
-    }
-
-    .number-line-axis {
-      position: absolute;
-      top: 50%;
-      left: 20px;
-      right: 20px;
-      height: 2px;
-      background: var(--border);
-      transform: translateY(-50%);
-    }
-
-    .number-line-tick {
-      position: absolute;
-      top: 50%;
-      width: 1px;
-      height: 8px;
-      background: var(--fg-dim);
-      transform: translate(-50%, -50%);
-    }
-
-    .number-line-marker {
-      position: absolute;
-      top: 50%;
-      width: 12px;
-      height: 12px;
-      background: var(--accent);
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-      box-shadow: 0 0 12px var(--accent);
-      transition: left 0.3s ease-out;
-    }
-
-    .tooltip {
-      position: relative;
-    }
-
-    .tooltip::after {
-      content: attr(data-tooltip);
-      position: absolute;
-      bottom: 100%;
-      left: 50%;
-      transform: translateX(-50%) translateY(-8px);
-      padding: 6px 10px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      font-size: 12px;
-      color: var(--fg);
-      white-space: nowrap;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.15s;
-    }
-
-    .tooltip:hover::after {
-      opacity: 1;
-    }
-
-    /* Granularity Slider */
-    .granularity-slider {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 100%;
-      height: 8px;
-      border-radius: 4px;
-      background: linear-gradient(90deg, var(--granular-low), var(--granular-mid), var(--granular-high));
-      outline: none;
-      cursor: pointer;
-    }
-
-    .granularity-slider::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      background: var(--fg);
-      cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-      transition: transform 0.15s;
-    }
-
-    .granularity-slider::-webkit-slider-thumb:hover {
-      transform: scale(1.1);
-    }
-
-    .granularity-slider::-moz-range-thumb {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      background: var(--fg);
-      cursor: pointer;
-      border: none;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    }
-
-    .granularity-slider:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 4px;
-    }
-
-    /* Grain visualization */
-    .grain-container {
-      position: relative;
-      height: 120px;
-      background: var(--bg);
-      border-radius: 8px;
-      overflow: hidden;
-      border: 1px solid var(--border-subtle);
-    }
-
-    .grain-block {
-      position: absolute;
-      background: var(--accent);
-      opacity: 0.3;
-      transition: all 0.4s ease-out;
-    }
-
-    /* Transition arrow */
-    .transition-arrow {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 16px 24px;
-      background: linear-gradient(90deg, var(--bg-elevated), var(--bg-card), var(--bg-elevated));
-      border-radius: 8px;
-      border: 1px solid var(--border-subtle);
-    }
-
-    .arrow-line {
-      flex: 1;
-      height: 2px;
-      background: linear-gradient(90deg, var(--fg-dim), var(--accent), var(--fg-dim));
-      position: relative;
-    }
-
-    .arrow-line::after {
-      content: '';
-      position: absolute;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      border: 6px solid transparent;
-      border-left-color: var(--accent);
-    }
-
-    /* Domain selector */
-    .domain-card {
-      padding: 16px;
-      background: var(--bg);
-      border-radius: 8px;
-      border: 1px solid var(--border-subtle);
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .domain-card:hover {
-      border-color: var(--accent);
-    }
-
-    .domain-card.active {
-      border-color: var(--accent);
-      background: color-mix(in srgb, var(--accent) 5%, transparent);
-    }
-
-    .domain-card:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-    /* Coarse/Fine display */
-    .characterization-display {
-      padding: 24px;
-      background: var(--bg);
-      border-radius: 8px;
-      border: 1px solid var(--border-subtle);
-      text-align: center;
-      transition: all 0.3s;
-    }
-
-    .coarse-text {
-      font-size: 24px;
-      color: var(--fg-muted);
-      font-style: italic;
-    }
-
-    .fine-text {
-      font-family: var(--font-mono);
-      font-size: 48px;
-      font-weight: 300;
-      color: var(--accent);
-    }
-
-    .unit-text {
-      font-size: 18px;
-      color: var(--fg-muted);
-      margin-left: 8px;
-    }
-
-    /* Resolution spectrum */
-    .resolution-spectrum {
-      display: flex;
-      gap: 2px;
-      height: 40px;
-      border-radius: 6px;
-      overflow: hidden;
-    }
-
-    .resolution-bin {
-      flex: 1;
-      background: var(--border);
-      transition: background 0.2s;
-    }
-
-    .resolution-bin.active {
-      background: var(--accent);
-    }
-
-    /* ---- heading face ---- */
-    h1, h2, h3 {
-      font-family: var(--font-display);
-    }
-
-    /* ---- utility shim (replaces the Tailwind CDN) ---- */
-    .min-h-screen { min-height: 100vh; }
-    .relative { position: relative; }
-    .absolute { position: absolute; }
-    .sticky { position: sticky; }
-    .top-0 { top: 0; }
-    .top-1\/2 { top: 50%; }
-    .right-4 { right: 1rem; }
-    .-translate-y-1\/2 { transform: translateY(-50%); }
-    .z-50 { z-index: 50; }
-    .mx-auto { margin-left: auto; margin-right: auto; }
-    .block { display: block; }
-    .hidden { display: none; }
-    .flex { display: flex; }
-    .grid { display: grid; }
-    .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
-    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-    .flex-1 { flex: 1 1 0%; }
-    .items-center { align-items: center; }
-    .items-baseline { align-items: baseline; }
-    .justify-between { justify-content: space-between; }
-    .justify-center { justify-content: center; }
-    .gap-2 { gap: 0.5rem; }
-    .gap-3 { gap: 0.75rem; }
-    .gap-4 { gap: 1rem; }
-    .gap-6 { gap: 1.5rem; }
-    .space-y-2 > * + * { margin-top: 0.5rem; }
-    .space-y-3 > * + * { margin-top: 0.75rem; }
-    .space-y-4 > * + * { margin-top: 1rem; }
-    .w-2 { width: 0.5rem; }
-    .w-8 { width: 2rem; }
-    .w-10 { width: 2.5rem; }
-    .w-24 { width: 6rem; }
-    .w-full { width: 100%; }
-    .h-2 { height: 0.5rem; }
-    .h-8 { height: 2rem; }
-    .h-10 { height: 2.5rem; }
-    .h-full { height: 100%; }
-    .max-h-64 { max-height: 16rem; }
-    .max-w-7xl { max-width: 80rem; }
-    .aspect-square { aspect-ratio: 1 / 1; }
-    .p-4 { padding: 1rem; }
-    .px-4 { padding-left: 1rem; padding-right: 1rem; }
-    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
-    .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
-    .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
-    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
-    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
-    .pt-2 { padding-top: 0.5rem; }
-    .pt-4 { padding-top: 1rem; }
-    .ml-1 { margin-left: 0.25rem; }
-    .mt-2 { margin-top: 0.5rem; }
-    .mt-3 { margin-top: 0.75rem; }
-    .mt-4 { margin-top: 1rem; }
-    .mt-6 { margin-top: 1.5rem; }
-    .mt-16 { margin-top: 4rem; }
-    .mb-2 { margin-bottom: 0.5rem; }
-    .mb-3 { margin-bottom: 0.75rem; }
-    .mb-6 { margin-bottom: 1.5rem; }
-    .mb-8 { margin-bottom: 2rem; }
-    .mb-12 { margin-bottom: 3rem; }
-    .text-xs { font-size: 0.75rem; line-height: 1.5; }
-    .text-sm { font-size: 0.875rem; line-height: 1.5; }
-    .text-lg { font-size: 1.125rem; line-height: 1.6; }
-    .text-xl { font-size: 1.25rem; line-height: 1.6; }
-    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
-    .text-center { text-align: center; }
-    .font-medium { font-weight: 500; }
-    .font-semibold { font-weight: 600; }
-    .uppercase { text-transform: uppercase; }
-    .tracking-wide { letter-spacing: 0.025em; }
-    .tracking-tight { letter-spacing: -0.025em; }
-    .leading-relaxed { line-height: 1.7; }
-    .rounded { border-radius: 0.25rem; }
-    .rounded-lg { border-radius: 0.5rem; }
-    .rounded-full { border-radius: 9999px; }
-    .border { border: 1px solid var(--border-subtle); }
-    .border-b { border-bottom: 1px solid var(--border-subtle); }
-    .border-t { border-top: 1px solid var(--border-subtle); }
-    .bdr { border-color: var(--border); }
-    .overflow-y-auto { overflow-y: auto; }
-    .opacity-70 { opacity: 0.7; }
-    .fg-clr { color: var(--fg); }
-    .muted { color: var(--fg-muted); }
-    .dim { color: var(--fg-dim); }
-    .accent-clr { color: var(--accent); }
-    .ok-clr { color: var(--success); }
-    .err-clr { color: var(--error); }
-    .bg-deep { background: var(--bg); }
-    .bg-card-c { background: var(--bg-card); }
-    .bg-accent { background: var(--accent); }
-    .bg-ovl { background: color-mix(in srgb, var(--bg) 80%, transparent); }
-    .bg-accent-10 { background: color-mix(in srgb, var(--accent) 10%, transparent); }
-    .backdrop-blur-sm { backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
-    .focus-bdr:focus { border-color: var(--accent); }
-    .no-outline:focus { outline: none; }
-    @media (min-width: 768px) {
-      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-    }
-    @media (min-width: 1024px) {
-      .lg\:col-span-2 { grid-column: span 2 / span 2; }
-      .lg\:col-span-4 { grid-column: span 4 / span 4; }
-      .lg\:col-span-8 { grid-column: span 8 / span 8; }
-      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-      .lg\:grid-cols-6 { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-      .lg\:grid-cols-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
-    }
-    .btn-primary {
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--text-secondary);
-      background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      padding: 0.55rem 0.9rem;
-      cursor: pointer;
-      transition: color 0.3s ease, border-color 0.3s ease;
-    }
-    .btn-primary:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
-
+    *:focus-visible { outline: 2px solid var(--accent-cyan); outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } }
+
+    /* ---- Number lab ---- */
+    .lab { display: grid; gap: 1.25rem; margin: 1.5rem 0; }
+    .lab-2 { grid-template-columns: 1fr; }
+    @media (min-width: 1024px) { .lab-2 { grid-template-columns: 3fr 2fr; } }
+    .lab-3 { grid-template-columns: 1fr; }
+    @media (min-width: 1024px) { .lab-3 { grid-template-columns: 2fr 1fr 1fr; } }
+    .panel { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; min-width: 0; }
+    .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.9rem 1.1rem; border-bottom: 1px solid var(--border-subtle); font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted); }
+    .panel-body { padding: 1.1rem; }
+    .mono { font-family: var(--font-mono); }
+    .type-selector { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0.35rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; margin-bottom: 1rem; }
+    .type-btn { padding: 0.55rem 0.8rem; border-radius: 6px; font-size: 0.8rem; cursor: pointer; border: none; background: transparent; color: var(--text-muted); transition: background 0.2s, color 0.2s; font-family: var(--font-body); }
+    .type-btn:hover { color: var(--text-primary); background: var(--bg-card); }
+    .type-btn.active { background: var(--bg-card); color: var(--accent-gold); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); }
+    .type-btn .mono { font-weight: 600; margin-right: 0.35rem; }
+    .input-field { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 0.7rem 0.9rem; color: var(--text-primary); font-family: var(--font-mono); font-size: 1.3rem; width: 100%; transition: border-color 0.2s, box-shadow 0.2s; }
+    .input-field:focus { outline: none; border-color: var(--accent-gold); box-shadow: 0 0 0 3px var(--accent-gold-dim); }
+    .input-field.error { border-color: var(--invalid); }
+    .input-hint { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem; }
+    .input-hint.err { color: var(--invalid); }
+    .number-display { font-family: var(--font-mono); font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 300; letter-spacing: -0.02em; line-height: 1.2; color: var(--accent-gold); text-align: center; padding: 1.5rem 1rem; word-break: break-all; }
+    .badge { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 20px; white-space: nowrap; }
+    .badge-ok { background: rgba(74, 157, 110, 0.15); color: var(--valid); }
+    .badge-err { background: rgba(196, 93, 93, 0.15); color: var(--invalid); }
+    .badge-na { background: var(--bg-surface); color: var(--text-muted); border: 1px solid var(--border-subtle); }
+    .kv { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.55rem 0; border-bottom: 1px solid var(--border-subtle); font-size: 0.85rem; }
+    .kv:last-child { border-bottom: none; }
+    .kv .k { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; }
+    .kv .v { color: var(--text-primary); font-family: var(--font-mono); text-align: right; word-break: break-all; }
+    .number-line { position: relative; height: 44px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; overflow: hidden; margin-top: 1rem; }
+    .number-line-axis { position: absolute; top: 50%; left: 16px; right: 16px; height: 2px; background: var(--border-subtle); transform: translateY(-50%); }
+    .number-line-marker { position: absolute; top: 50%; width: 12px; height: 12px; background: var(--accent-gold); border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 12px var(--accent-gold); transition: left 0.25s ease-out; }
+    .scale-note { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.5rem; }
+    .op-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; margin-bottom: 1rem; }
+    .op-btn { padding: 0.7rem 0.25rem; border-radius: 8px; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-secondary); font-size: 1.05rem; cursor: pointer; transition: border-color 0.15s, color 0.15s, transform 0.15s; font-family: var(--font-mono); }
+    .op-btn:hover { border-color: var(--accent-gold); color: var(--accent-gold); transform: translateY(-2px); }
+    .op-btn:active { transform: translateY(0); }
+    .custom-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .custom-row select, .custom-row input { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; color: var(--text-primary); padding: 0.55rem 0.7rem; font-size: 0.85rem; font-family: var(--font-body); }
+    .custom-row input { width: 5.5rem; font-family: var(--font-mono); text-align: center; }
+    .btn { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-subtle); padding: 0.55rem 0.9rem; cursor: pointer; transition: color 0.3s ease, border-color 0.3s ease; border-radius: 0; }
+    .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .trace-list { display: flex; flex-direction: column; gap: 0.4rem; max-height: 16rem; overflow-y: auto; }
+    .trace-item { padding: 0.6rem 0.7rem; background: var(--bg-surface); border-radius: 6px; font-size: 0.8rem; border-left: 3px solid var(--accent-gold-dim); }
+    .trace-item:first-child { border-left-color: var(--accent-gold); }
+    .trace-item.err { border-left-color: var(--invalid); }
+    .trace-time { font-size: 0.68rem; color: var(--text-muted); margin-top: 0.2rem; font-family: var(--font-mono); }
+    .trace-empty { font-size: 0.8rem; color: var(--text-muted); text-align: center; padding: 2rem 0; }
+    .constraint-item { display: flex; align-items: flex-start; gap: 0.7rem; padding: 0.7rem; background: var(--bg-surface); border-radius: 6px; margin-bottom: 0.5rem; border: 1px solid var(--border-subtle); }
+    .constraint-dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 0.35rem; flex-shrink: 0; }
+    .constraint-dot.ok { background: var(--valid); box-shadow: 0 0 8px var(--valid); }
+    .constraint-dot.bad { background: var(--invalid); box-shadow: 0 0 8px var(--invalid); }
+    .constraint-text h4 { font-size: 0.82rem; font-weight: 500; color: var(--text-primary); margin: 0 0 0.15rem; font-family: var(--font-body); }
+    .constraint-text p { font-size: 0.75rem; margin: 0; color: var(--text-muted); }
+    .domain-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.6rem; margin-bottom: 1.25rem; }
+    @media (min-width: 768px) { .domain-grid { grid-template-columns: repeat(4, 1fr); } }
+    .domain-card { padding: 0.9rem 0.7rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; cursor: pointer; transition: border-color 0.2s; text-align: center; color: var(--text-primary); font-family: var(--font-body); }
+    .domain-card:hover { border-color: var(--accent-gold); }
+    .domain-card.active { border-color: var(--accent-gold); background: var(--accent-gold-dim); }
+    .domain-card .d-sym { font-family: var(--font-mono); font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.3rem; }
+    .domain-card .d-name { font-size: 0.82rem; font-weight: 500; }
+    .domain-card .d-ex { font-size: 0.7rem; color: var(--text-muted); font-family: var(--font-mono); }
+    .coarse-fine { display: grid; grid-template-columns: 1fr; gap: 0.75rem; align-items: stretch; margin-bottom: 1.25rem; }
+    @media (min-width: 768px) { .coarse-fine { grid-template-columns: 1fr auto 1fr; align-items: center; } }
+    .cf-box { padding: 1.25rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; text-align: center; }
+    .cf-box.fine { border-color: var(--accent-gold); }
+    .cf-label { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .cf-box.fine .cf-label { color: var(--accent-gold); }
+    .coarse-text { font-size: 1.4rem; color: var(--text-secondary); font-style: italic; font-family: var(--font-display); }
+    .fine-text { font-family: var(--font-mono); font-size: 2rem; font-weight: 300; color: var(--accent-gold); }
+    .unit-text { font-size: 1rem; color: var(--text-muted); margin-left: 0.4rem; }
+    .cf-arrow { text-align: center; font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); }
+    .cf-arrow .shaft { font-size: 1.4rem; color: var(--accent-gold); letter-spacing: 0; }
+    input[type="range"].slider { -webkit-appearance: none; appearance: none; width: 100%; height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--text-muted), var(--accent-gold), var(--accent-cyan)); outline: none; cursor: pointer; }
+    input[type="range"].slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 50%; background: var(--text-primary); cursor: pointer; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); }
+    input[type="range"].slider::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: var(--text-primary); cursor: pointer; border: none; }
+    .slider-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.6rem; font-size: 0.82rem; }
+    .edge-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
+    @media (min-width: 768px) { .edge-grid { grid-template-columns: repeat(4, 1fr); } }
+    @media (min-width: 1024px) { .edge-grid { grid-template-columns: repeat(6, 1fr); } }
+    .reset-row { display: flex; justify-content: flex-end; margin-bottom: 1rem; }
   </style>
 </head>
 <body>
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
-<nav class="site-nav">
+  <nav class="site-nav">
     <div class="nav-inner">
       <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
       <div class="nav-right">
@@ -1669,7 +208,7 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">number</span></div>
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span>epistemic</span><span class="sep">/</span><span class="here">number</span></div>
       <h1 class="note-title">Number</h1>
       <div class="note-meta">
         <span class="chip">live note</span>
@@ -1683,14 +222,8 @@
       <main class="note-main">
         <article class="note-card">
           <div class="markdown-body">
-            <div style="display:flex;justify-content:flex-end;margin-bottom:1rem;">
-              <button id="resetBtn" class="btn btn-ghost text-sm" aria-label="Reset all">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
-                  <path d="M3 3v5h5"/>
-                </svg>
-                Reset
-              </button>
+            <div class="reset-row">
+              <button id="resetBtn" class="btn" aria-label="Reset all labs">Reset</button>
             </div>
 
             <blockquote>
@@ -1726,545 +259,168 @@
               <p>It resolves the epistemic gap of <strong>coarse-to-fine transition</strong> — transforming qualitative, coarse-grained characterizations of reality into precise, quantitative representations, enabling prediction, comparison, and manipulation.</p>
             </blockquote>
 
-            <div>
-      <!-- Conceptual Layer -->
-      <section class="mb-12 animate-in" style="animation-delay: 0.1s;">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="w-8 h-8 rounded bg-accent-10 flex items-center justify-center">
-            <span class="accent-clr text-sm font-semibold">1</span>
-          </div>
-          <h2 id="conceptual-layer" class="text-xl font-semibold">Conceptual Layer</h2>
-          <span class="dim text-sm">Type Definition</span>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <!-- Type Definition -->
-          <div class="card lg:col-span-2">
-            <div class="card-header">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                <path d="M2 17l10 5 10-5"/>
-                <path d="M2 12l10 5 10-5"/>
-              </svg>
-              <span class="font-medium">Type Definition</span>
-            </div>
-            <div class="card-body space-y-4">
-              <p class="muted leading-relaxed">
-                A <strong class="fg-clr">Number</strong> is an epistemic artifact that encodes affirmations about 
-                <strong class="accent-clr">quantity</strong>, <strong class="accent-clr">magnitude</strong>, 
-                <strong class="accent-clr">order</strong>, or <strong class="accent-clr">relation</strong> 
-                in a formal symbolic system.
-              </p>
-              <div class="grid grid-cols-2 gap-4 pt-2">
-                <div class="p-4 bg-deep rounded-lg border">
-                  <div class="text-xs dim uppercase tracking-wide mb-2">Formal Structure</div>
-                  <p class="text-sm muted">Symbolic representation with defined syntax, operations, and ordering relations</p>
+            <h2 id="conceptual-layer">Conceptual Layer</h2>
+            <div class="lab lab-2">
+              <div class="panel">
+                <div class="panel-head"><span>Type definition</span></div>
+                <div class="panel-body">
+                  <p style="margin-bottom:1rem;">A <strong>Number</strong> is an epistemic artifact that encodes affirmations about <strong>quantity</strong>, <strong>magnitude</strong>, <strong>order</strong>, or <strong>relation</strong> in a formal symbolic system.</p>
+                  <div class="kv"><span class="k">Formal structure</span><span class="v">syntax + operations + order</span></div>
+                  <div class="kv"><span class="k">Semantics</span><span class="v">maps to quantities / positions / relations</span></div>
+                  <div class="kv"><span class="k">Inclusion</span><span class="v">N ⊂ Z ⊂ Q ⊂ R ⊂ C</span></div>
                 </div>
-                <div class="p-4 bg-deep rounded-lg border">
-                  <div class="text-xs dim uppercase tracking-wide mb-2">Semantic Interpretation</div>
-                  <p class="text-sm muted">Mapping to quantities, positions, or relations in conceptual or physical reality</p>
+              </div>
+              <div class="panel">
+                <div class="panel-head"><span>Epistemic role</span></div>
+                <div class="panel-body">
+                  <div class="kv"><span class="k">01</span><span class="v">encoding measurement</span></div>
+                  <div class="kv"><span class="k">02</span><span class="v">representing order</span></div>
+                  <div class="kv"><span class="k">03</span><span class="v">expressing relations</span></div>
+                  <div class="kv"><span class="k">04</span><span class="v">enabling calculation</span></div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Epistemic Role -->
-          <div class="card">
-            <div class="card-header">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <path d="M12 16v-4"/>
-                <path d="M12 8h.01"/>
-              </svg>
-              <span class="font-medium">Epistemic Role</span>
-            </div>
-            <div class="card-body">
-              <div class="space-y-3">
-                <div class="flex items-center gap-3">
-                  <div class="w-2 h-2 rounded-full bg-accent"></div>
-                  <span class="text-sm muted">Encoding measurement</span>
-                </div>
-                <div class="flex items-center gap-3">
-                  <div class="w-2 h-2 rounded-full bg-accent"></div>
-                  <span class="text-sm muted">Representing order</span>
-                </div>
-                <div class="flex items-center gap-3">
-                  <div class="w-2 h-2 rounded-full bg-accent"></div>
-                  <span class="text-sm muted">Expressing relations</span>
-                </div>
-                <div class="flex items-center gap-3">
-                  <div class="w-2 h-2 rounded-full bg-accent"></div>
-                  <span class="text-sm muted">Enabling calculation</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Coarse → Fine Grained Transition -->
-      <section class="mb-12 animate-in" style="animation-delay: 0.15s;">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="w-8 h-8 rounded bg-accent-10 flex items-center justify-center">
-            <span class="accent-clr text-sm font-semibold">1b</span>
-          </div>
-          <h2 id="resolution-transition" class="text-xl font-semibold">Resolution Transition</h2>
-          <span class="dim text-sm">Coarse-grained State → Fine-grained Quantitative Representation</span>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="3"/>
-              <path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/>
-            </svg>
-            <span class="font-medium">The Epistemic Function of Numbers</span>
-          </div>
-          <div class="card-body">
-            <p class="muted mb-6 leading-relaxed">
-              Numbers serve as the primary tool for transforming <strong class="fg-clr">qualitative, coarse-grained characterizations</strong> 
-              of reality into <strong class="accent-clr">precise, quantitative representations</strong>. 
-              This transition is the fundamental epistemic move that enables prediction, comparison, and manipulation.
-            </p>
-
-            <!-- Domain Selector -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
-              <button class="domain-card active" data-domain="temperature" tabindex="0" role="button" aria-pressed="true">
-                <div class="text-2xl mb-2">🌡</div>
-                <div class="text-sm font-medium">Temperature</div>
-                <div class="text-xs dim">cold → 4.2°C</div>
-              </button>
-              <button class="domain-card" data-domain="length" tabindex="0" role="button" aria-pressed="false">
-                <div class="text-2xl mb-2">📏</div>
-                <div class="text-sm font-medium">Length</div>
-                <div class="text-xs dim">tall → 2.3m</div>
-              </button>
-              <button class="domain-card" data-domain="count" tabindex="0" role="button" aria-pressed="false">
-                <div class="text-2xl mb-2">📦</div>
-                <div class="text-sm font-medium">Count</div>
-                <div class="text-xs dim">many → 847</div>
-              </button>
-              <button class="domain-card" data-domain="probability" tabindex="0" role="button" aria-pressed="false">
-                <div class="text-2xl mb-2">🎲</div>
-                <div class="text-sm font-medium">Probability</div>
-                <div class="text-xs dim">likely → 0.73</div>
-              </button>
-            </div>
-
-            <!-- Transition Visualization -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center mb-8">
-              <!-- Coarse-grained -->
-              <div class="characterization-display">
-                <div class="text-xs dim uppercase tracking-wide mb-3">Coarse-grained</div>
-                <div id="coarseDisplay" class="coarse-text">"cold"</div>
-                <div class="mt-3 text-xs dim">Qualitative characterization</div>
-              </div>
-
-              <!-- Arrow -->
-              <div class="transition-arrow">
-                <span class="text-xs dim">precision</span>
-                <div class="arrow-line"></div>
-                <span class="text-xs dim">quantification</span>
-              </div>
-
-              <!-- Fine-grained -->
-              <div class="characterization-display" style="border-color: var(--accent);">
-                <div class="text-xs accent-clr uppercase tracking-wide mb-3">Fine-grained</div>
-                <div class="flex items-baseline justify-center">
-                  <span id="fineDisplay" class="fine-text">4.2</span>
-                  <span id="unitDisplay" class="unit-text">°C</span>
-                </div>
-                <div class="mt-3 text-xs dim">Quantitative representation</div>
-              </div>
-            </div>
-
-            <!-- Granularity Slider -->
-            <div class="mb-6">
-              <div class="flex justify-between items-center mb-3">
-                <span class="text-sm muted">Resolution Level</span>
-                <span id="granularityLabel" class="text-sm font-medium accent-clr">Fine (0.1 units)</span>
-              </div>
-              <input 
-                type="range" 
-                id="granularitySlider" 
-                class="granularity-slider" 
-                min="0" 
-                max="100" 
-                value="85"
-                aria-label="Granularity level"
-              >
-              <div class="flex justify-between text-xs dim mt-2">
-                <span>Coarse categories</span>
-                <span>Continuous precision</span>
-              </div>
-            </div>
-
-            <!-- Resolution Spectrum -->
-            <div class="mb-6">
-              <div class="text-xs dim uppercase tracking-wide mb-3">Information Resolution</div>
-              <div id="resolutionSpectrum" class="resolution-spectrum" role="img" aria-label="Resolution spectrum showing current precision level">
-                <!-- Generated by JS -->
-              </div>
-              <div class="flex justify-between text-xs dim mt-2">
-                <span>1 bit</span>
-                <span id="bitCount">~13 bits</span>
-                <span>64 bits</span>
-              </div>
-            </div>
-
-            <!-- Grain Visualization -->
-            <div>
-              <div class="text-xs dim uppercase tracking-wide mb-3">State Space Partitioning</div>
-              <div id="grainContainer" class="grain-container">
-                <!-- Generated by JS -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Instance Layer -->
-      <section class="mb-12 animate-in" style="animation-delay: 0.2s;">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="w-8 h-8 rounded bg-accent-10 flex items-center justify-center">
-            <span class="accent-clr text-sm font-semibold">2</span>
-          </div>
-          <h2 id="instance-layer" class="text-xl font-semibold">Instance Layer</h2>
-          <span class="dim text-sm">Artifact Instantiation</span>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          <!-- Number Type Selector -->
-          <div class="lg:col-span-8">
-            <div class="card">
-              <div class="card-header justify-between">
-                <div class="flex items-center gap-3">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-                  </svg>
-                  <span class="font-medium">Number Type</span>
-                </div>
-                <span id="typeBadge" class="badge badge-success">Valid</span>
-              </div>
-              <div class="card-body">
-                <!-- Type Selector -->
-                <div class="type-selector mb-6" role="tablist" aria-label="Number type selector">
-                  <button class="type-btn active" data-type="natural" role="tab" aria-selected="true">
-                    <span class="mono font-semibold">N</span>
-                    <span class="ml-1 text-xs opacity-70">Natural</span>
+            <h2 id="resolution-transition">Resolution Transition</h2>
+            <p>Numbers move inquiry from qualitative, coarse-grained characterizations to precise, quantitative representations. Pick a domain, then raise the resolution: the fine-grained value gains decimals while the information estimate grows.</p>
+            <div class="panel">
+              <div class="panel-head"><span>Coarse-grained → fine-grained</span></div>
+              <div class="panel-body">
+                <div class="domain-grid" role="group" aria-label="Domain selector">
+                  <button class="domain-card active" data-domain="temperature" aria-pressed="true">
+                    <div class="d-sym">°C</div><div class="d-name">Temperature</div><div class="d-ex">cold → 4.2</div>
                   </button>
-                  <button class="type-btn" data-type="integer" role="tab" aria-selected="false">
-                    <span class="mono font-semibold">Z</span>
-                    <span class="ml-1 text-xs opacity-70">Integer</span>
+                  <button class="domain-card" data-domain="length" aria-pressed="false">
+                    <div class="d-sym">m</div><div class="d-name">Length</div><div class="d-ex">tall → 2.3</div>
                   </button>
-                  <button class="type-btn" data-type="rational" role="tab" aria-selected="false">
-                    <span class="mono font-semibold">Q</span>
-                    <span class="ml-1 text-xs opacity-70">Rational</span>
+                  <button class="domain-card" data-domain="count" aria-pressed="false">
+                    <div class="d-sym">#</div><div class="d-name">Count</div><div class="d-ex">many → 847</div>
                   </button>
-                  <button class="type-btn" data-type="real" role="tab" aria-selected="false">
-                    <span class="mono font-semibold">R</span>
-                    <span class="ml-1 text-xs opacity-70">Real</span>
-                  </button>
-                  <button class="type-btn" data-type="complex" role="tab" aria-selected="false">
-                    <span class="mono font-semibold">C</span>
-                    <span class="ml-1 text-xs opacity-70">Complex</span>
+                  <button class="domain-card" data-domain="probability" aria-pressed="false">
+                    <div class="d-sym">P</div><div class="d-name">Probability</div><div class="d-ex">likely → 0.73</div>
                   </button>
                 </div>
-
-                <!-- Number Input -->
-                <div class="mb-6">
-                  <label for="numberInput" class="block text-xs dim uppercase tracking-wide mb-3">
-                    Instance Value
-                  </label>
-                  <div class="relative">
-                    <input 
-                      type="text" 
-                      id="numberInput" 
-                      class="input-field" 
-                      value="42"
-                      autocomplete="off"
-                      spellcheck="false"
-                      aria-describedby="inputHelp"
-                    >
-                    <div id="inputFeedback" class="absolute right-4 top-1/2 -translate-y-1/2 text-sm"></div>
+                <div class="coarse-fine">
+                  <div class="cf-box">
+                    <div class="cf-label">Coarse-grained</div>
+                    <div id="coarseDisplay" class="coarse-text">"cold"</div>
                   </div>
-                  <p id="inputHelp" class="mt-2 text-xs dim">
-                    Enter a value valid for the selected number type
-                  </p>
+                  <div class="cf-arrow">precision<div class="shaft">→</div>quantification</div>
+                  <div class="cf-box fine">
+                    <div class="cf-label">Fine-grained</div>
+                    <div><span id="fineDisplay" class="fine-text">4.2</span><span id="unitDisplay" class="unit-text">°C</span></div>
+                  </div>
                 </div>
-
-                <!-- Number Display -->
-                <div class="flex items-center justify-center py-8 bg-deep rounded-lg border">
-                  <div id="numberDisplay" class="number-display accent-clr">42</div>
+                <div class="slider-row">
+                  <span style="color:var(--text-secondary);">Resolution level</span>
+                  <span id="granularityLabel" class="mono" style="color:var(--accent-gold);">Fine · 2 decimals · ≈11 bits</span>
                 </div>
+                <input type="range" id="granularitySlider" class="slider" min="0" max="100" value="85" aria-label="Resolution level">
+                <div class="slider-row" style="margin-top:0.4rem;">
+                  <span style="color:var(--text-muted);font-size:0.72rem;">Coarse categories</span>
+                  <span style="color:var(--text-muted);font-size:0.72rem;">Continuous precision</span>
+                </div>
+              </div>
+            </div>
 
-                <!-- Number Line Visualization -->
-                <div id="numberLineContainer" class="mt-6">
-                  <div class="text-xs dim uppercase tracking-wide mb-3">Position on Number Line</div>
+            <h2 id="instance-layer">Instance Layer</h2>
+            <div class="lab lab-2">
+              <div class="panel">
+                <div class="panel-head"><span>Number type + instance value</span><span id="typeBadge" class="badge badge-ok">Valid</span></div>
+                <div class="panel-body">
+                  <div class="type-selector" role="tablist" aria-label="Number type selector">
+                    <button class="type-btn active" data-type="natural" role="tab" aria-selected="true"><span class="mono">N</span>Natural</button>
+                    <button class="type-btn" data-type="integer" role="tab" aria-selected="false"><span class="mono">Z</span>Integer</button>
+                    <button class="type-btn" data-type="rational" role="tab" aria-selected="false"><span class="mono">Q</span>Rational</button>
+                    <button class="type-btn" data-type="real" role="tab" aria-selected="false"><span class="mono">R</span>Real</button>
+                    <button class="type-btn" data-type="complex" role="tab" aria-selected="false"><span class="mono">C</span>Complex</button>
+                  </div>
+                  <label for="numberInput" class="mono" style="font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);">Instance value</label>
+                  <input type="text" id="numberInput" class="input-field" value="42" autocomplete="off" spellcheck="false" aria-describedby="inputHelp" style="margin-top:0.4rem;">
+                  <p id="inputHelp" class="input-hint">Enter a value valid for the selected number type.</p>
+                  <div id="numberDisplay" class="number-display">42</div>
                   <div class="number-line" role="img" aria-label="Number line visualization">
                     <div class="number-line-axis"></div>
-                    <div id="numberLineMarker" class="number-line-marker" style="left: 70%;"></div>
+                    <div id="numberLineMarker" class="number-line-marker" style="left:50%;"></div>
                   </div>
+                  <p id="numberLineNote" class="scale-note">tanh scale: infinities clamp to the edges.</p>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-head"><span>Representations + properties</span></div>
+                <div class="panel-body">
+                  <div id="reprList"></div>
+                  <div id="propsList" style="margin-top:1rem;"></div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Representations Panel -->
-          <div class="lg:col-span-4">
-            <div class="card h-full">
-              <div class="panel-tabs">
-                <button class="panel-tab active" data-panel="repr" role="tab">Representations</button>
-                <button class="panel-tab" data-panel="props" role="tab">Properties</button>
-              </div>
-              <div class="card-body">
-                <div id="reprPanel" class="space-y-4">
-                  <div class="representation-card">
-                    <div class="representation-label">Decimal</div>
-                    <div id="reprDecimal" class="representation-value">42</div>
+            <h2 id="transformation-layer">Transformation Layer</h2>
+            <div class="lab lab-2">
+              <div class="panel">
+                <div class="panel-head"><span>Admissible operations</span></div>
+                <div class="panel-body">
+                  <div class="op-grid">
+                    <button class="op-btn" data-op="add" aria-label="Add 1">+1</button>
+                    <button class="op-btn" data-op="subtract" aria-label="Subtract 1">−1</button>
+                    <button class="op-btn" data-op="multiply" aria-label="Multiply by 2">×2</button>
+                    <button class="op-btn" data-op="divide" aria-label="Divide by 2">÷2</button>
+                    <button class="op-btn" data-op="square" aria-label="Square">x²</button>
+                    <button class="op-btn" data-op="sqrt" aria-label="Square root">√</button>
+                    <button class="op-btn" data-op="negate" aria-label="Negate">±</button>
+                    <button class="op-btn" data-op="reciprocal" aria-label="Reciprocal">1/x</button>
                   </div>
-                  <div class="representation-card">
-                    <div class="representation-label">Binary</div>
-                    <div id="reprBinary" class="representation-value">101010</div>
-                  </div>
-                  <div class="representation-card">
-                    <div class="representation-label">Hexadecimal</div>
-                    <div id="reprHex" class="representation-value">0x2A</div>
-                  </div>
-                  <div class="representation-card">
-                    <div class="representation-label">Scientific</div>
-                    <div id="reprScientific" class="representation-value">4.2 × 10¹</div>
-                  </div>
-                  <div class="representation-card">
-                    <div class="representation-label">English</div>
-                    <div id="reprEnglish" class="representation-value">forty-two</div>
-                  </div>
-                </div>
-                <div id="propsPanel" class="hidden space-y-3">
-                  <div class="flex justify-between items-center py-2 border-b">
-                    <span class="text-sm muted">Even</span>
-                    <span id="propEven" class="badge badge-success">Yes</span>
-                  </div>
-                  <div class="flex justify-between items-center py-2 border-b">
-                    <span class="text-sm muted">Prime</span>
-                    <span id="propPrime" class="badge badge-error">No</span>
-                  </div>
-                  <div class="flex justify-between items-center py-2 border-b">
-                    <span class="text-sm muted">Positive</span>
-                    <span id="propPositive" class="badge badge-success">Yes</span>
-                  </div>
-                  <div class="flex justify-between items-center py-2 border-b">
-                    <span class="text-sm muted">Integer</span>
-                    <span id="propInteger" class="badge badge-success">Yes</span>
-                  </div>
-                  <div class="flex justify-between items-center py-2">
-                    <span class="text-sm muted">Rational</span>
-                    <span id="propRational" class="badge badge-success">Yes</span>
+                  <label class="mono" style="font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);">Custom operation</label>
+                  <div class="custom-row" style="margin-top:0.4rem;">
+                    <select id="customOpSelect" aria-label="Custom operation">
+                      <option value="add">Add</option>
+                      <option value="subtract">Subtract</option>
+                      <option value="multiply">Multiply by</option>
+                      <option value="divide">Divide by</option>
+                      <option value="power">Raise to power</option>
+                    </select>
+                    <input type="text" id="customOpValue" value="1" aria-label="Custom operand">
+                    <button id="applyCustomOp" class="btn">Apply</button>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Transformation Layer -->
-      <section class="mb-12 animate-in" style="animation-delay: 0.3s;">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="w-8 h-8 rounded bg-accent-10 flex items-center justify-center">
-            <span class="accent-clr text-sm font-semibold">3</span>
-          </div>
-          <h2 id="transformation-layer" class="text-xl font-semibold">Transformation Layer</h2>
-          <span class="dim text-sm">Admissible Operations</span>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <!-- Operations -->
-          <div class="card">
-            <div class="card-header">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 5v14"/>
-                <path d="M5 12h14"/>
-              </svg>
-              <span class="font-medium">Arithmetic Transformations</span>
-            </div>
-            <div class="card-body">
-              <div class="grid grid-cols-4 gap-3 mb-6">
-                <button class="transform-btn tooltip" data-op="add" data-tooltip="Add 1" aria-label="Add 1">+</button>
-                <button class="transform-btn tooltip" data-op="subtract" data-tooltip="Subtract 1" aria-label="Subtract 1">−</button>
-                <button class="transform-btn tooltip" data-op="multiply" data-tooltip="Multiply by 2" aria-label="Multiply by 2">×</button>
-                <button class="transform-btn tooltip" data-op="divide" data-tooltip="Divide by 2" aria-label="Divide by 2">÷</button>
-              </div>
-              <div class="grid grid-cols-4 gap-3 mb-6">
-                <button class="transform-btn tooltip" data-op="square" data-tooltip="Square" aria-label="Square">x²</button>
-                <button class="transform-btn tooltip" data-op="sqrt" data-tooltip="Square root" aria-label="Square root">√</button>
-                <button class="transform-btn tooltip" data-op="negate" data-tooltip="Negate" aria-label="Negate">±</button>
-                <button class="transform-btn tooltip" data-op="reciprocal" data-tooltip="Reciprocal" aria-label="Reciprocal">1/x</button>
-              </div>
-
-              <!-- Custom Operation -->
-              <div class="pt-4 border-t">
-                <label class="block text-xs dim uppercase tracking-wide mb-3">Custom Operation</label>
-                <div class="flex gap-3">
-                  <select id="customOpSelect" class="flex-1 bg-deep border bdr rounded-lg px-4 py-3 text-sm no-outline focus-bdr">
-                    <option value="add">Add</option>
-                    <option value="subtract">Subtract</option>
-                    <option value="multiply">Multiply by</option>
-                    <option value="divide">Divide by</option>
-                    <option value="power">Raise to power</option>
-                  </select>
-                  <input 
-                    type="text" 
-                    id="customOpValue" 
-                    class="w-24 bg-deep border bdr rounded-lg px-4 py-3 mono text-center no-outline focus-bdr"
-                    value="1"
-                  >
-                  <button id="applyCustomOp" class="btn btn-primary">Apply</button>
+              <div class="panel">
+                <div class="panel-head"><span>Transformation trace</span><button id="clearHistory" class="btn">Clear</button></div>
+                <div class="panel-body">
+                  <div id="historyContainer" class="trace-list"></div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Transformation History -->
-          <div class="card">
-            <div class="card-header justify-between">
-              <div class="flex items-center gap-3">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 8v4l3 3"/>
-                  <circle cx="12" cy="12" r="10"/>
-                </svg>
-                <span class="font-medium">Transformation Trace</span>
+            <h2 id="constraint-layer">Constraint Layer</h2>
+            <div class="lab lab-2">
+              <div class="panel">
+                <div class="panel-head"><span>Constraint satisfaction</span></div>
+                <div class="panel-body"><div id="constraintsContainer"></div></div>
               </div>
-              <button id="clearHistory" class="btn btn-ghost text-xs">Clear</button>
-            </div>
-            <div class="card-body">
-              <div id="historyContainer" class="space-y-2 max-h-64 overflow-y-auto">
-                <div class="text-sm dim text-center py-8">
-                  No transformations yet
+              <div class="panel">
+                <div class="panel-head"><span>Type inclusion</span></div>
+                <div class="panel-body">
+                  <p style="font-size:0.85rem;">Every instance lives at the intersection of all number types that admit it:</p>
+                  <p class="mono" style="color:var(--accent-gold);font-size:0.9rem;margin-top:0.5rem;">N ⊂ Z ⊂ Q ⊂ R ⊂ C</p>
+                  <p style="font-size:0.85rem;margin-top:0.5rem;">Instance resides in: <span id="instanceTypeLabel" class="mono" style="color:var(--accent-cyan);">N ∩ Z ∩ Q ∩ R ∩ C</span></p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- Constraint Layer -->
-      <section class="mb-12 animate-in" style="animation-delay: 0.4s;">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="w-8 h-8 rounded bg-accent-10 flex items-center justify-center">
-            <span class="accent-clr text-sm font-semibold">4</span>
-          </div>
-          <h2 id="constraint-layer" class="text-xl font-semibold">Constraint Layer</h2>
-          <span class="dim text-sm">Validation & Invariants</span>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <!-- Constraint System -->
-          <div class="lg:col-span-2 card">
-            <div class="card-header">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              </svg>
-              <span class="font-medium">Constraint Satisfaction</span>
-            </div>
-            <div class="card-body">
-              <div id="constraintsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <!-- Constraints will be rendered here -->
+            <h2 id="diagnostics">Boundary Exploration</h2>
+            <p>Edge-case probes load boundary values into the instance lab. Probes that violate the active type flip its constraints — that failure is the diagnostic.</p>
+            <div class="panel">
+              <div class="panel-head"><span>Edge-case probes</span></div>
+              <div class="panel-body">
+                <div class="edge-grid" id="edgeGrid"></div>
               </div>
             </div>
-          </div>
 
-          <!-- Type Inclusion Diagram -->
-          <div class="card">
-            <div class="card-header">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <circle cx="12" cy="12" r="6"/>
-                <circle cx="12" cy="12" r="2"/>
-              </svg>
-              <span class="font-medium">Type Inclusion</span>
-            </div>
-            <div class="card-body">
-              <div class="relative w-full aspect-square">
-                <svg viewBox="0 0 200 200" class="w-full h-full">
-                  <!-- Complex (outermost) -->
-                  <circle cx="100" cy="100" r="90" fill="color-mix(in srgb, var(--accent) 5%, transparent)" stroke="color-mix(in srgb, var(--accent) 20%, transparent)" stroke-width="1"/>
-                  <text x="100" y="20" text-anchor="middle" fill="var(--fg-dim)" font-size="10">C</text>
-                  
-                  <!-- Real -->
-                  <circle cx="100" cy="100" r="72" fill="color-mix(in srgb, var(--accent) 8%, transparent)" stroke="color-mix(in srgb, var(--accent) 30%, transparent)" stroke-width="1"/>
-                  <text x="100" y="38" text-anchor="middle" fill="var(--fg-dim)" font-size="10">R</text>
-                  
-                  <!-- Rational -->
-                  <circle cx="100" cy="100" r="54" fill="color-mix(in srgb, var(--accent) 12%, transparent)" stroke="color-mix(in srgb, var(--accent) 40%, transparent)" stroke-width="1"/>
-                  <text x="100" y="56" text-anchor="middle" fill="var(--fg-dim)" font-size="10">Q</text>
-                  
-                  <!-- Integer -->
-                  <circle cx="100" cy="100" r="36" fill="color-mix(in srgb, var(--accent) 18%, transparent)" stroke="color-mix(in srgb, var(--accent) 50%, transparent)" stroke-width="1"/>
-                  <text x="100" y="74" text-anchor="middle" fill="var(--fg-dim)" font-size="10">Z</text>
-                  
-                  <!-- Natural (innermost) -->
-                  <circle id="naturalCircle" cx="100" cy="100" r="18" fill="color-mix(in srgb, var(--accent) 30%, transparent)" stroke="var(--accent)" stroke-width="2"/>
-                  <text x="100" y="104" text-anchor="middle" fill="var(--accent)" font-size="10" font-weight="600">N</text>
-                  
-                  <!-- Instance marker -->
-                  <circle id="instanceMarker" cx="100" cy="100" r="4" fill="var(--accent)">
-                    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
-                  </circle>
-                </svg>
-              </div>
-              <p class="text-xs dim text-center mt-4">
-                Instance resides in: <span id="instanceTypeLabel" class="accent-clr font-medium">N ∩ Z ∩ Q ∩ R ∩ C</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Edge Cases -->
-      <section class="animate-in" style="animation-delay: 0.5s;">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="w-8 h-8 rounded bg-accent-10 flex items-center justify-center">
-            <span class="accent-clr text-sm font-semibold">5</span>
-          </div>
-          <h2 id="diagnostics" class="text-xl font-semibold">Boundary Exploration</h2>
-          <span class="dim text-sm">Edge Cases & Limits</span>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
-              <line x1="12" y1="9" x2="12" y2="13"/>
-              <line x1="12" y1="17" x2="12.01" y2="17"/>
-            </svg>
-            <span class="font-medium">Edge Case Probes</span>
-          </div>
-          <div class="card-body">
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="0">Zero (0)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="1">Unit (1)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="-1">Negative Unit (-1)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="Infinity">Infinity (∞)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="-Infinity">Neg. Infinity (-∞)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="NaN">Not a Number</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="1e308">Max Approx</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="1e-323">Min Approx</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="3.14159265359">π (pi)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="2.718281828">e (Euler's)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="1/3">Repeating (1/3)</button>
-              <button class="edge-case-btn btn btn-secondary w-full" data-value="i">Imaginary (i)</button>
-            </div>
-          </div>
-        </div>
-      </section>
             <h2 id="references">References</h2>
             <ul>
               <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
             </ul>
-            </div>
-
-  
           </div>
         </article>
       </main>
@@ -2286,938 +442,621 @@
     </div>
   </div>
 
-<footer class="site-footer">
+  <footer class="site-footer">
     <div class="foot-inner">
       <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
       <a href="../../index.html">&larr; CATALOG</a>
     </div>
   </footer>
-<script>
-    // ============================================
-    // Domain Data for Coarse → Fine Transition
-    // ============================================
-    const domainData = {
-      temperature: {
-        name: 'Temperature',
-        unit: '°C',
-        coarseLevels: [
-          { label: 'freezing', range: [-50, -10] },
-          { label: 'cold', range: [-10, 10] },
-          { label: 'cool', range: [10, 18] },
-          { label: 'mild', range: [18, 24] },
-          { label: 'warm', range: [24, 30] },
-          { label: 'hot', range: [30, 40] },
-          { label: 'scorching', range: [40, 60] }
-        ],
-        baseValue: 4.2,
-        precision: 1
-      },
-      length: {
-        name: 'Length',
-        unit: 'm',
-        coarseLevels: [
-          { label: 'tiny', range: [0, 0.01] },
-          { label: 'small', range: [0.01, 0.3] },
-          { label: 'moderate', range: [0.3, 1.5] },
-          { label: 'tall', range: [1.5, 3] },
-          { label: 'large', range: [3, 10] },
-          { label: 'huge', range: [10, 100] },
-          { label: 'massive', range: [100, 1000] }
-        ],
-        baseValue: 2.3,
-        precision: 2
-      },
-      count: {
-        name: 'Count',
-        unit: '',
-        coarseLevels: [
-          { label: 'none', range: [0, 0] },
-          { label: 'few', range: [1, 5] },
-          { label: 'several', range: [5, 15] },
-          { label: 'many', range: [15, 100] },
-          { label: 'numerous', range: [100, 1000] },
-          { label: 'countless', range: [1000, 1000000] },
-          { label: 'innumerable', range: [1000000, Infinity] }
-        ],
-        baseValue: 847,
-        precision: 0
-      },
-      probability: {
-        name: 'Probability',
-        unit: '',
-        coarseLevels: [
-          { label: 'impossible', range: [0, 0.001] },
-          { label: 'unlikely', range: [0.001, 0.25] },
-          { label: 'possible', range: [0.25, 0.5] },
-          { label: 'likely', range: [0.5, 0.75] },
-          { label: 'probable', range: [0.75, 0.95] },
-          { label: 'certain', range: [0.95, 0.999] },
-          { label: 'definite', range: [0.999, 1] }
-        ],
-        baseValue: 0.73,
-        precision: 3
+  <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
+
+  <script>
+    'use strict';
+    /* Theme (mirrors sibling live notes) */
+    (function theme() {
+      var root = document.documentElement;
+      var btn = document.getElementById('themeToggle');
+      var label = document.getElementById('themeLabel');
+      function paint() {
+        var light = root.dataset.theme === 'light';
+        label.textContent = light ? 'DARK' : 'LIGHT';
       }
+      btn.addEventListener('click', function () {
+        root.classList.add('theme-fading');
+        setTimeout(function () {
+          var next = root.dataset.theme === 'light' ? 'dark' : 'light';
+          root.dataset.theme = next;
+          try { localStorage.setItem('epistecnica-theme', next); } catch (e) {}
+          paint();
+          root.classList.remove('theme-fading');
+        }, 180);
+      });
+      paint();
+    })();
+
+    /* Ambient canvas: slow drifting dots, off under reduced motion */
+    (function ambient() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var cv = document.getElementById('ambientCanvas');
+      var ctx = cv.getContext('2d');
+      var dots = [];
+      function size() {
+        cv.width = window.innerWidth; cv.height = window.innerHeight;
+        dots = Array.from({ length: 40 }, function () {
+          return { x: Math.random() * cv.width, y: Math.random() * cv.height, r: Math.random() * 1.6 + 0.4, v: Math.random() * 0.15 + 0.03 };
+        });
+      }
+      size();
+      window.addEventListener('resize', size);
+      (function tick() {
+        var gold = getComputedStyle(document.documentElement).getPropertyValue('--accent-gold').trim() || '#C5A467';
+        ctx.clearRect(0, 0, cv.width, cv.height);
+        dots.forEach(function (d) {
+          d.y -= d.v;
+          if (d.y < -4) { d.y = cv.height + 4; d.x = Math.random() * cv.width; }
+          ctx.beginPath(); ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
+          ctx.fillStyle = gold; ctx.globalAlpha = 0.25; ctx.fill(); ctx.globalAlpha = 1;
+        });
+        requestAnimationFrame(tick);
+      })();
+    })();
+
+    /* TOC scroll-spy */
+    (function toc() {
+      var links = Array.prototype.slice.call(document.querySelectorAll('#toc .toc-item'));
+      var map = new Map(links.map(function (a) { return [a.getAttribute('href').slice(1), a]; }));
+      if (!('IntersectionObserver' in window)) return;
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            links.forEach(function (a) { a.classList.remove('active'); });
+            var a = map.get(e.target.id);
+            if (a) a.classList.add('active');
+          }
+        });
+      }, { rootMargin: '-30% 0px -60% 0px' });
+      map.forEach(function (_, id) { var el = document.getElementById(id); if (el) obs.observe(el); });
+    })();
+
+    /* ---------- Number model ---------- */
+    var TYPES = {
+      natural: { symbol: 'N', hint: 'Non-negative integers: 0, 1, 2, …' },
+      integer: { symbol: 'Z', hint: 'Signed integers: …, −2, −1, 0, 1, …' },
+      rational: { symbol: 'Q', hint: 'Fractions a/b (b ≠ 0) or finite decimals.' },
+      real: { symbol: 'R', hint: 'Decimals, scientific notation, ±Infinity.' },
+      complex: { symbol: 'C', hint: 'Forms a+bi, a-bi, bi — plus any real.' }
     };
+    var TYPE_ORDER = ['natural', 'integer', 'rational', 'real', 'complex'];
 
-    // ============================================
-    // State Management
-    // ============================================
-    const state = {
-      currentValue: 42,
-      currentType: 'natural',
-      currentDomain: 'temperature',
-      granularity: 85,
-      history: [],
-      maxHistory: 50
-    };
+    var state = { type: 'natural', raw: '42', value: 42, ok: true, error: '', trace: [] };
 
-    // ============================================
-    // Number Type Definitions
-    // ============================================
-    const numberTypes = {
-      natural: {
-        symbol: 'N',
-        name: 'Natural',
-        description: 'Non-negative integers: {0, 1, 2, 3, ...}',
-        constraints: [
-          { id: 'integer', name: 'Integer', desc: 'No fractional part' },
-          { id: 'non-negative', name: 'Non-negative', desc: '≥ 0' },
-          { id: 'finite', name: 'Finite', desc: 'Not Infinity or NaN' }
-        ],
-        validate: (n) => Number.isInteger(n) && n >= 0 && Number.isFinite(n),
-        defaultValue: 42
-      },
-      integer: {
-        symbol: 'Z',
-        name: 'Integer',
-        description: 'Whole numbers: {..., -2, -1, 0, 1, 2, ...}',
-        constraints: [
-          { id: 'integer', name: 'Integer', desc: 'No fractional part' },
-          { id: 'finite', name: 'Finite', desc: 'Not Infinity or NaN' }
-        ],
-        validate: (n) => Number.isInteger(n) && Number.isFinite(n),
-        defaultValue: 42
-      },
-      rational: {
-        symbol: 'Q',
-        name: 'Rational',
-        description: 'Fractions of integers: a/b where b ≠ 0',
-        constraints: [
-          { id: 'finite', name: 'Finite', desc: 'Not Infinity or NaN' },
-          { id: 'rational', name: 'Rational', desc: 'Can be expressed as a/b' }
-        ],
-        validate: (n) => Number.isFinite(n),
-        defaultValue: 42.5
-      },
-      real: {
-        symbol: 'R',
-        name: 'Real',
-        description: 'All rational and irrational numbers',
-        constraints: [
-          { id: 'finite', name: 'Finite', desc: 'Not Infinity or NaN' },
-          { id: 'real', name: 'Real', desc: 'No imaginary component' }
-        ],
-        validate: (n) => Number.isFinite(n),
-        defaultValue: 42.71828
-      },
-      complex: {
-        symbol: 'C',
-        name: 'Complex',
-        description: 'Numbers of the form a + bi',
-        constraints: [
-          { id: 'defined', name: 'Defined', desc: 'Not NaN' }
-        ],
-        validate: (n) => !Number.isNaN(n.real !== undefined ? n.real : n),
-        defaultValue: { real: 3, imag: 4 },
-        isComplex: true
+    function $(id) { return document.getElementById(id); }
+
+    function parseValue(type, raw) {
+      var s = raw.trim().replace(/−/g, '-');
+      if (!s) return { ok: false, error: 'Empty input.' };
+      var num;
+      if (type === 'natural') {
+        if (!/^\d+$/.test(s)) return { ok: false, error: 'Natural numbers are digits without sign, fraction, or exponent.' };
+        num = parseInt(s, 10);
+        if (!Number.isSafeInteger(num)) return { ok: false, error: 'Beyond safe-integer range.' };
+        return { ok: true, value: num };
       }
-    };
-
-    // ============================================
-    // DOM Elements
-    // ============================================
-    let elements = {};
-
-    // ============================================
-    // Utility Functions
-    // ============================================
-    function parseInput(value) {
-      const trimmed = value.trim();
-      
-      if (trimmed === 'Infinity' || trimmed === '∞') return Infinity;
-      if (trimmed === '-Infinity' || trimmed === '-∞') return -Infinity;
-      if (trimmed === 'NaN') return NaN;
-      if (trimmed === 'i') return { real: 0, imag: 1 };
-      if (trimmed === '-i') return { real: 0, imag: -1 };
-      
-      const complexMatch = trimmed.match(/^([+-]?\d*\.?\d*)\s*([+-])\s*(\d*\.?\d*)i$/);
-      if (complexMatch) {
-        return {
-          real: parseFloat(complexMatch[1] || '0'),
-          imag: parseFloat((complexMatch[2] === '-' ? '-' : '+') + complexMatch[3])
-        };
+      if (type === 'integer') {
+        if (!/^[+-]?\d+$/.test(s)) return { ok: false, error: 'Integers admit an optional sign and digits only.' };
+        num = parseInt(s, 10);
+        if (!Number.isSafeInteger(num)) return { ok: false, error: 'Beyond safe-integer range.' };
+        return { ok: true, value: num };
       }
-      
-      if (trimmed.includes('/')) {
-        const [num, denom] = trimmed.split('/');
-        return parseFloat(num) / parseFloat(denom);
+      if (type === 'rational') {
+        var m = s.match(/^([+-]?\d+)\s*\/\s*([+-]?\d+)$/);
+        if (m) {
+          var a = parseInt(m[1], 10), b = parseInt(m[2], 10);
+          if (b === 0) return { ok: false, error: 'Denominator must be non-zero.' };
+          return { ok: true, value: a / b, fraction: reduce(a, b) };
+        }
+        if (!/^[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?$/.test(s)) return { ok: false, error: 'Rationals admit a/b fractions or finite decimals.' };
+        num = Number(s);
+        if (!Number.isFinite(num)) return { ok: false, error: 'Rationals are finite by construction.' };
+        return { ok: true, value: num };
       }
-      
-      return parseFloat(trimmed);
+      if (type === 'real') {
+        if (/^[+-]?Infinity$/.test(s)) return { ok: true, value: s[0] === '-' ? -Infinity : Infinity, infinite: true };
+        if (!/^[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?$/.test(s)) return { ok: false, error: 'Reals admit decimals, scientific notation, ±Infinity — not NaN.' };
+        num = Number(s);
+        if (Number.isNaN(num)) return { ok: false, error: 'Not a Number is not a number: rejected.' };
+        return { ok: true, value: num, infinite: !Number.isFinite(num) };
+      }
+      /* complex */
+      var c = parseComplex(s);
+      if (!c) return { ok: false, error: 'Complex forms: a+bi, a−bi, bi — or any real.' };
+      return { ok: true, value: c };
     }
 
-    function formatNumber(n, type) {
-      if (typeof n === 'object' && n.real !== undefined) {
-        const realStr = n.real.toFixed(4).replace(/\.?0+$/, '');
-        const imagStr = Math.abs(n.imag).toFixed(4).replace(/\.?0+$/, '');
-        const sign = n.imag >= 0 ? '+' : '-';
-        return `${realStr} ${sign} ${imagStr}i`;
+    function parseComplex(s) {
+      var t = s.replace(/\s+/g, '');
+      var realOnly = /^[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?$/.test(t);
+      if (realOnly) { var r = Number(t); return Number.isFinite(r) ? { re: r, im: 0 } : null; }
+      var m = t.match(/^([+-]?(\d+(\.\d+)?|\.\d+)?)?([+-])(\d+(\.\d+)?|\.\d+)?i$/);
+      if (!m || (m[1] === undefined && (m[5] === undefined || m[5] === ''))) {
+        var m2 = t.match(/^([+-]?)(\d+(\.\d+)?|\.\d+)?i$/);
+        if (!m2) return null;
+        var im2 = m2[2] === undefined || m2[2] === '' ? 1 : Number(m2[2]);
+        if (!Number.isFinite(im2)) return null;
+        return { re: 0, im: m2[1] === '-' ? -im2 : im2 };
       }
-      
+      var re = m[1] === undefined || m[1] === '' ? 0 : Number(m[1]);
+      var imN = m[5] === undefined || m[5] === '' ? 1 : Number(m[5]);
+      var im = m[4] === '-' ? -imN : imN;
+      if (!Number.isFinite(re) || !Number.isFinite(im)) return null;
+      return { re: re, im: im };
+    }
+
+    function gcd(a, b) { a = Math.abs(a); b = Math.abs(b); while (b) { var t = a % b; a = b; b = t; } return a || 1; }
+    function reduce(a, b) {
+      if (b < 0) { a = -a; b = -b; }
+      var g = gcd(a, b);
+      return { n: a / g, d: b / g };
+    }
+
+    function fmt(n) {
+      if (typeof n !== 'number') return String(n);
       if (Number.isNaN(n)) return 'NaN';
       if (n === Infinity) return '∞';
-      if (n === -Infinity) return '-∞';
-      
-      if (Number.isInteger(n)) return n.toString();
-      return n.toFixed(6).replace(/\.?0+$/, '');
+      if (n === -Infinity) return '−∞';
+      if (Number.isInteger(n) && Math.abs(n) < 1e15) return String(n);
+      var s = String(Number(n.toPrecision(12)));
+      return s.replace('e', '×10^').replace('-', '−');
+    }
+    function fmtC(c) {
+      var re = fmt(c.re);
+      var imAbs = fmt(Math.abs(c.im));
+      var sign = c.im < 0 ? ' − ' : ' + ';
+      if (c.im === 0) return re;
+      var unit = Math.abs(c.im) === 1 ? 'i' : imAbs + 'i';
+      if (c.re === 0) return (c.im < 0 ? '−' : '') + unit;
+      return re + sign + imAbs + 'i';
+    }
+    function displayValue() {
+      return state.type === 'complex' ? fmtC(state.value) : fmt(state.value);
     }
 
-    function toBinary(n) {
-      if (typeof n === 'object' || !Number.isInteger(n) || n < 0) return '—';
-      if (n === 0) return '0';
-      return n.toString(2);
+    /* ---------- Words ---------- */
+    var ONES = ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
+    var TENS = ['', '', 'twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];
+    function underThousand(n) {
+      var parts = [];
+      if (n >= 100) { parts.push(ONES[Math.floor(n / 100)] + ' hundred'); n %= 100; }
+      if (n >= 20) { parts.push(TENS[Math.floor(n / 10)] + (n % 10 ? '-' + ONES[n % 10] : '')); }
+      else if (n > 0) parts.push(ONES[n]);
+      return parts.join(' ');
     }
-
-    function toHex(n) {
-      if (typeof n === 'object' || !Number.isInteger(n) || n < 0) return '—';
-      return '0x' + n.toString(16).toUpperCase();
-    }
-
-    function toScientific(n) {
-      if (typeof n === 'object') return '—';
-      if (!Number.isFinite(n)) return formatNumber(n);
-      if (n === 0) return '0';
-      const exp = Math.floor(Math.log10(Math.abs(n)));
-      const mantissa = n / Math.pow(10, exp);
-      const sup = '⁰¹²³⁴⁵⁶⁷⁸⁹';
-      const expStr = Math.abs(exp).toString().split('').map(d => sup[parseInt(d)]).join('');
-      const expSign = exp < 0 ? '⁻' : '';
-      return `${mantissa.toFixed(2)} × 10${expSign}${expStr}`;
-    }
-
-    function toEnglish(n) {
-      if (typeof n === 'object') return 'complex number';
-      if (!Number.isFinite(n)) return formatNumber(n);
-      
-      const ones = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
-      const teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
-      const tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
-      
-      if (n === 0) return 'zero';
-      if (!Number.isInteger(n) || n < 0 || n > 999) return formatNumber(n);
-      
-      if (n < 10) return ones[n];
-      if (n < 20) return teens[n - 10];
-      if (n < 100) {
-        const t = Math.floor(n / 10);
-        const o = n % 10;
-        return tens[t] + (o ? '-' + ones[o] : '');
-      }
-      const h = Math.floor(n / 100);
-      const rest = n % 100;
-      return ones[h] + ' hundred' + (rest ? ' ' + toEnglish(rest) : '');
-    }
-
-    // ============================================
-    // Coarse → Fine Functions
-    // ============================================
-    function getCoarseLabel(value, domain) {
-      const data = domainData[domain];
-      for (const level of data.coarseLevels) {
-        if (value >= level.range[0] && value <= level.range[1]) {
-          return level.label;
+    function words(n) {
+      if (!Number.isInteger(n) || Math.abs(n) >= 1e9) return null;
+      if (n < 0) return 'minus ' + words(-n);
+      if (n < 20) return ONES[n];
+      if (n < 1000) return underThousand(n);
+      var scales = [[1e6, 'million'], [1e3, 'thousand']];
+      for (var i = 0; i < scales.length; i++) {
+        if (n >= scales[i][0]) {
+          var q = Math.floor(n / scales[i][0]), r = n % scales[i][0];
+          return words(q) + ' ' + scales[i][1] + (r ? ' ' + words(r) : '');
         }
       }
-      return 'undefined';
+      return underThousand(n);
     }
 
-    function getQuantizedValue(value, granularity) {
-      // Granularity 0 = coarsest (category), 100 = finest (full precision)
-      const domain = domainData[state.currentDomain];
-      const levels = domain.coarseLevels.length;
-      
-      if (granularity < 10) {
-        // Return midpoint of category
-        const level = domain.coarseLevels.find(l => 
-          value >= l.range[0] && value <= l.range[1]
-        );
-        if (level) {
-          return ((level.range[0] + level.range[1]) / 2).toFixed(1);
-        }
-      }
-      
-      // Calculate decimal places based on granularity
-      const maxDecimals = domain.precision;
-      const decimals = Math.max(0, Math.floor((granularity / 100) * maxDecimals + 1));
-      
-      return value.toFixed(decimals);
-    }
-
-    function updateGranularityDisplay() {
-      const domain = domainData[state.currentDomain];
-      const granularity = state.granularity;
-      
-      // Update coarse display
-      const coarse = getCoarseLabel(domain.baseValue, state.currentDomain);
-      elements.coarseDisplay.textContent = `"${coarse}"`;
-      
-      // Update fine display
-      const fine = getQuantizedValue(domain.baseValue, granularity);
-      elements.fineDisplay.textContent = fine;
-      elements.unitDisplay.textContent = domain.unit;
-      
-      // Update granularity label
-      let label = 'Fine';
-      const decPlaces = Math.floor((granularity / 100) * domain.precision + 1);
-      if (granularity < 20) label = 'Coarse categories';
-      else if (granularity < 40) label = 'Rounded';
-      else if (granularity < 60) label = 'Moderate';
-      else if (granularity < 80) label = 'Detailed';
-      else label = `Fine (${Math.pow(10, -decPlaces).toFixed(decPlaces)} units)`;
-      
-      elements.granularityLabel.textContent = label;
-      
-      // Update bit count
-      const bits = Math.max(1, Math.floor(granularity * 0.64));
-      elements.bitCount.textContent = `~${bits} bits`;
-      
-      // Update resolution spectrum
-      updateResolutionSpectrum(granularity);
-      
-      // Update grain visualization
-      updateGrainVisualization(granularity);
-    }
-
-    function updateResolutionSpectrum(granularity) {
-      const container = elements.resolutionSpectrum;
-      const totalBins = 64;
-      const activeBins = Math.max(1, Math.floor((granularity / 100) * totalBins));
-      
-      let html = '';
-      for (let i = 0; i < totalBins; i++) {
-        const isActive = i < activeBins;
-        const opacity = isActive ? 0.3 + (i / totalBins) * 0.7 : 0.1;
-        html += `<div class="resolution-bin ${isActive ? 'active' : ''}" style="opacity: ${isActive ? opacity : 0.1}"></div>`;
-      }
-      container.innerHTML = html;
-    }
-
-    function updateGrainVisualization(granularity) {
-      const container = elements.grainContainer;
-      const numBlocks = Math.max(4, Math.floor((granularity / 100) * 64 + 4));
-      
-      // Clear existing
-      container.innerHTML = '';
-      
-      const containerWidth = container.offsetWidth || 600;
-      const containerHeight = container.offsetHeight || 120;
-      
-      for (let i = 0; i < numBlocks; i++) {
-        const block = document.createElement('div');
-        block.className = 'grain-block';
-        
-        const cols = Math.ceil(Math.sqrt(numBlocks * (containerWidth / containerHeight)));
-        const rows = Math.ceil(numBlocks / cols);
-        const cellWidth = containerWidth / cols;
-        const cellHeight = containerHeight / rows;
-        
-        const col = i % cols;
-        const row = Math.floor(i / cols);
-        
-        // Add small gaps
-        const gap = 2;
-        block.style.width = `${cellWidth - gap}px`;
-        block.style.height = `${cellHeight - gap}px`;
-        block.style.left = `${col * cellWidth + gap/2}px`;
-        block.style.top = `${row * cellHeight + gap/2}px`;
-        
-        // Vary opacity based on position
-        block.style.opacity = 0.2 + (Math.sin(i * 0.5) * 0.15 + 0.15);
-        
-        container.appendChild(block);
-      }
-    }
-
-    // ============================================
-    // UI Update Functions
-    // ============================================
-    function updateDisplay() {
-      const type = numberTypes[state.currentType];
-      const value = state.currentValue;
-      
-      elements.numberDisplay.textContent = formatNumber(value, state.currentType);
-      elements.numberDisplay.classList.add('number-morph');
-      setTimeout(() => elements.numberDisplay.classList.remove('number-morph'), 300);
-      
-      const numericValue = typeof value === 'object' ? value.real : value;
-      elements.reprDecimal.textContent = formatNumber(value, state.currentType);
-      elements.reprBinary.textContent = toBinary(numericValue);
-      elements.reprHex.textContent = toHex(numericValue);
-      elements.reprScientific.textContent = toScientific(numericValue);
-      elements.reprEnglish.textContent = toEnglish(Math.round(numericValue));
-      
-      updateProperties(numericValue);
-      updateConstraints(value);
-      updateNumberLine(numericValue);
-      updateTypeBadge(value);
-      updateInstanceTypeLabel(value);
-    }
-
-    function updateProperties(n) {
-      const isEven = Number.isInteger(n) && n % 2 === 0;
-      const isPrime = isPrimeNumber(n);
-      
-      elements.propEven.textContent = Number.isInteger(n) ? (isEven ? 'Yes' : 'No') : 'N/A';
-      elements.propEven.className = 'badge ' + (Number.isInteger(n) ? (isEven ? 'badge-success' : 'badge-error') : 'badge-warning');
-      
-      elements.propPrime.textContent = Number.isInteger(n) && n > 1 ? (isPrime ? 'Yes' : 'No') : 'N/A';
-      elements.propPrime.className = 'badge ' + (Number.isInteger(n) && n > 1 ? (isPrime ? 'badge-success' : 'badge-error') : 'badge-warning');
-      
-      elements.propPositive.textContent = n > 0 ? 'Yes' : (n === 0 ? 'Zero' : 'No');
-      elements.propPositive.className = 'badge ' + (n > 0 ? 'badge-success' : (n === 0 ? 'badge-warning' : 'badge-error'));
-      
-      elements.propInteger.textContent = Number.isInteger(n) ? 'Yes' : 'No';
-      elements.propInteger.className = 'badge ' + (Number.isInteger(n) ? 'badge-success' : 'badge-error');
-      
-      elements.propRational.textContent = Number.isFinite(n) ? 'Yes' : 'No';
-      elements.propRational.className = 'badge ' + (Number.isFinite(n) ? 'badge-success' : 'badge-error');
-    }
-
-    function isPrimeNumber(n) {
-      if (!Number.isInteger(n) || n < 2) return false;
-      if (n === 2) return true;
-      if (n % 2 === 0) return false;
-      for (let i = 3; i <= Math.sqrt(n); i += 2) {
-        if (n % i === 0) return false;
-      }
+    function isPrime(n) {
+      if (!Number.isInteger(n) || n < 2 || n > 999983) return null;
+      if (n % 2 === 0) return n === 2;
+      for (var d = 3; d * d <= n; d += 2) if (n % d === 0) return false;
       return true;
     }
 
-    function updateConstraints(value) {
-      const type = numberTypes[state.currentType];
-      const numericValue = typeof value === 'object' ? value.real : value;
-      
-      const allConstraints = [
-        { id: 'defined', name: 'Defined', desc: 'Not NaN', check: () => !Number.isNaN(numericValue) },
-        { id: 'finite', name: 'Finite', desc: 'Not Infinity', check: () => Number.isFinite(numericValue) },
-        { id: 'real', name: 'Real', desc: 'No imaginary component', check: () => typeof value !== 'object' },
-        { id: 'integer', name: 'Integer', desc: 'No fractional part', check: () => Number.isInteger(numericValue) },
-        { id: 'non-negative', name: 'Non-negative', desc: '≥ 0', check: () => numericValue >= 0 },
-        { id: 'rational', name: 'Rational', desc: 'Expressible as a/b', check: () => Number.isFinite(numericValue) }
-      ];
-      
-      const container = elements.constraintsContainer;
-      container.innerHTML = '';
-      
-      type.constraints.forEach(constraint => {
-        const fullConstraint = allConstraints.find(c => c.id === constraint.id);
-        const isSatisfied = fullConstraint ? fullConstraint.check() : false;
-        
-        const item = document.createElement('div');
-        item.className = `constraint-item ${isSatisfied ? 'satisfied' : 'violated'}`;
-        item.innerHTML = `
-          <div class="constraint-indicator ${isSatisfied ? 'satisfied' : 'violated'}"></div>
-          <div class="flex-1">
-            <div class="text-sm font-medium">${constraint.name}</div>
-            <div class="text-xs dim">${constraint.desc}</div>
-          </div>
-          <span class="text-xs ${isSatisfied ? 'ok-clr' : 'err-clr'}">${isSatisfied ? 'Satisfied' : 'Violated'}</span>
-        `;
-        container.appendChild(item);
-      });
+    /* ---------- Rendering ---------- */
+    function kvRow(k, v) {
+      return '<div class="kv"><span class="k">' + k + '</span><span class="v">' + v + '</span></div>';
+    }
+    function badge(text, kind) {
+      return '<span class="badge badge-' + kind + '">' + text + '</span>';
     }
 
-    function updateNumberLine(n) {
-      const marker = elements.numberLineMarker;
-      const container = elements.numberLineContainer;
-      
-      if (typeof state.currentValue === 'object') {
-        container.style.display = 'none';
-        return;
-      }
-      container.style.display = 'block';
-      
-      let position;
-      if (!Number.isFinite(n)) {
-        position = n > 0 ? 95 : 5;
+    function renderTypeTabs() {
+      document.querySelectorAll('.type-btn').forEach(function (b) {
+        var active = b.dataset.type === state.type;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      $('inputHelp').textContent = TYPES[state.type].hint;
+      $('inputHelp').classList.remove('err');
+    }
+
+    function renderValidation() {
+      var input = $('numberInput'), badgeEl = $('typeBadge'), help = $('inputHelp');
+      input.classList.toggle('error', !state.ok);
+      badgeEl.textContent = state.ok ? 'Valid' : 'Invalid';
+      badgeEl.className = 'badge ' + (state.ok ? 'badge-ok' : 'badge-err');
+      if (!state.ok) {
+        help.textContent = state.error;
+        help.classList.add('err');
       } else {
-        const mapped = Math.atan(n / 10) / Math.PI + 0.5;
-        position = Math.max(5, Math.min(95, mapped * 100));
+        help.textContent = TYPES[state.type].hint;
       }
-      
-      marker.style.left = `${position}%`;
+      $('numberDisplay').textContent = state.ok ? displayValue() : '—';
     }
 
-    function updateTypeBadge(value) {
-      const type = numberTypes[state.currentType];
-      const isValid = type.validate(value);
-      
-      elements.typeBadge.textContent = isValid ? 'Valid' : 'Invalid';
-      elements.typeBadge.className = `badge ${isValid ? 'badge-success' : 'badge-error'}`;
-      
-      elements.numberInput.classList.remove('valid', 'error');
-      elements.numberInput.classList.add(isValid ? 'valid' : 'error');
-    }
-
-    function updateInstanceTypeLabel(value) {
-      const numericValue = typeof value === 'object' ? value.real : value;
-      const types = [];
-      
-      if (!Number.isNaN(numericValue)) types.push('C');
-      if (Number.isFinite(numericValue) && typeof value !== 'object') {
-        types.push('R');
-        types.push('Q');
-        if (Number.isInteger(numericValue)) {
-          types.push('Z');
-          if (numericValue >= 0) types.push('N');
+    function renderReprProps() {
+      var rl = $('reprList'), pl = $('propsList');
+      if (!state.ok) { rl.innerHTML = kvRow('status', 'rejected by ' + TYPES[state.type].symbol); pl.innerHTML = ''; renderLine(); return; }
+      var html = '', props = '';
+      if (state.type === 'complex') {
+        var c = state.value;
+        var mag = Math.hypot(c.re, c.im), phase = Math.atan2(c.im, c.re);
+        html += kvRow('rectangular', fmtC(c));
+        html += kvRow('polar', fmt(mag) + ' ∠ ' + fmt(phase * 180 / Math.PI) + '°');
+        html += kvRow('magnitude', fmt(mag));
+        html += kvRow('phase', fmt(phase) + ' rad');
+        props += kvRow('real part', fmt(c.re)) + kvRow('imag part', fmt(c.im)) + kvRow('purely real', c.im === 0 ? 'Yes' : 'No');
+      } else {
+        var v = state.value;
+        html += kvRow('decimal', fmt(v));
+        if (Number.isInteger(v) && Number.isSafeInteger(v) && Math.abs(v) < 2 ** 31) {
+          html += kvRow('binary', (v < 0 ? '−' : '') + Math.abs(v).toString(2));
+          html += kvRow('hex', (v < 0 ? '−' : '') + '0x' + Math.abs(v).toString(16).toUpperCase());
         }
+        html += kvRow('scientific', sci(v));
+        var w = words(v);
+        html += kvRow('english', w === null ? '—' : w);
+        if (state.type === 'rational' && state.fraction && state.fraction.d !== 1) {
+          html = kvRow('fraction', state.fraction.n + '/' + state.fraction.d) + html;
+        }
+        props += kvRow('sign', v > 0 ? 'positive' : v < 0 ? 'negative' : 'zero');
+        props += kvRow('finite', Number.isFinite(v) ? 'Yes' : 'No');
+        if (Number.isInteger(v)) {
+          props += kvRow('parity', v % 2 === 0 ? 'even' : 'odd');
+          if (state.type === 'natural') {
+            var p = isPrime(v);
+            props += kvRow('prime', p === null ? 'n/a' : p ? 'Yes' : 'No');
+          }
+        } else {
+          props += kvRow('parity', 'n/a (non-integer)');
+        }
+        props += kvRow('integer', Number.isInteger(v) ? 'Yes' : 'No');
       }
-      
-      elements.instanceTypeLabel.textContent = types.length > 0 ? types.join(' ∩ ') : 'None';
+      rl.innerHTML = html;
+      pl.innerHTML = props;
+      renderLine();
     }
 
-    function addToHistory(operation, from, to) {
-      state.history.unshift({
-        operation,
-        from: formatNumber(from, state.currentType),
-        to: formatNumber(to, state.currentType),
-        timestamp: Date.now()
-      });
-      
-      if (state.history.length > state.maxHistory) {
-        state.history.pop();
-      }
-      
-      renderHistory();
+    function sci(v) {
+      if (!Number.isFinite(v)) return fmt(v);
+      if (v === 0) return '0';
+      var e = Math.floor(Math.log10(Math.abs(v)));
+      var m = v / Math.pow(10, e);
+      return fmt(Number(m.toPrecision(6))) + ' × 10^' + e;
     }
 
-    function renderHistory() {
-      const container = elements.historyContainer;
-      
-      if (state.history.length === 0) {
-        container.innerHTML = '<div class="text-sm dim text-center py-8">No transformations yet</div>';
+    function renderLine() {
+      var marker = $('numberLineMarker'), note = $('numberLineNote');
+      var anchor = state.type === 'complex' ? (state.ok ? state.value.re : NaN) : state.value;
+      if (!state.ok || typeof anchor !== 'number' || Number.isNaN(anchor)) {
+        marker.style.left = '50%';
+        note.textContent = 'No position: input is rejected by the active type.';
         return;
       }
-      
-      container.innerHTML = state.history.map((item, i) => `
-        <div class="history-item" style="animation: fadeSlideIn 0.3s ease-out ${i * 0.05}s forwards; opacity: 0;">
-          <span class="history-op">${item.operation}</span>
-          <span class="dim">${item.from}</span>
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--fg-dim)" stroke-width="2">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
-          </svg>
-          <span class="accent-clr">${item.to}</span>
-        </div>
-      `).join('');
+      var pos = 50 + 50 * Math.tanh(anchor === Infinity ? 3 : anchor === -Infinity ? -3 : anchor / 50);
+      if (!Number.isFinite(anchor)) pos = anchor > 0 ? 99 : 1;
+      marker.style.left = Math.min(99, Math.max(1, pos)).toFixed(1) + '%';
+      note.textContent = state.type === 'complex'
+        ? 'Plots the real part; magnitude ' + fmt(Math.hypot(state.value.re, state.value.im)) + '. tanh scale: infinities clamp to the edges.'
+        : 'tanh scale: infinities clamp to the edges.';
     }
 
-    // ============================================
-    // Transformation Functions
-    // ============================================
-    const transformations = {
-      add: (n) => n + 1,
-      subtract: (n) => n - 1,
-      multiply: (n) => n * 2,
-      divide: (n) => n / 2,
-      square: (n) => n * n,
-      sqrt: (n) => Math.sqrt(n),
-      negate: (n) => -n,
-      reciprocal: (n) => n === 0 ? NaN : 1 / n
+    function constraintsFor() {
+      var v = state.value, ok = state.ok;
+      var finite = ok && (state.type === 'complex' ? Number.isFinite(v.re) && Number.isFinite(v.im) : Number.isFinite(v));
+      switch (state.type) {
+        case 'natural':
+          return [
+            { name: 'Well-formed syntax', desc: 'Digits without sign, fraction, or exponent.', met: ok },
+            { name: 'Non-negative integer', desc: 'v ≥ 0 and v ∈ Z.', met: ok && v >= 0 && Number.isInteger(v) },
+            { name: 'Safe range', desc: 'Within Number.MAX_SAFE_INTEGER.', met: ok && Number.isSafeInteger(v) }
+          ];
+        case 'integer':
+          return [
+            { name: 'Well-formed syntax', desc: 'Optional sign followed by digits.', met: ok },
+            { name: 'Integral', desc: 'No fractional or exponential part.', met: ok && Number.isInteger(v) },
+            { name: 'Safe range', desc: 'Within Number.MAX_SAFE_INTEGER.', met: ok && Number.isSafeInteger(v) }
+          ];
+        case 'rational':
+          return [
+            { name: 'Well-formed syntax', desc: 'a/b fraction or finite decimal.', met: ok },
+            { name: 'Finite', desc: 'Rationals exclude ±Infinity by construction.', met: finite },
+            { name: 'Non-zero denominator', desc: 'The b in a/b is never 0.', met: ok }
+          ];
+        case 'real':
+          return [
+            { name: 'Well-formed syntax', desc: 'Decimal, scientific, or ±Infinity — never NaN.', met: ok },
+            { name: 'Declared infinity or finite', desc: 'Infinite values must be explicit.', met: ok },
+            { name: 'Not NaN', desc: 'NaN is rejected in every type.', met: ok }
+          ];
+        default:
+          return [
+            { name: 'Well-formed syntax', desc: 'a+bi, a−bi, bi — or any real.', met: ok },
+            { name: 'Finite components', desc: 'Both parts finite.', met: finite },
+            { name: 'Closure', desc: 'Results of the lab operations stay in C.', met: true }
+          ];
+      }
+    }
+
+    function renderConstraints() {
+      var list = constraintsFor();
+      $('constraintsContainer').innerHTML = list.map(function (c) {
+        return '<div class="constraint-item"><div class="constraint-dot ' + (c.met ? 'ok' : 'bad') + '"></div>' +
+          '<div class="constraint-text"><h4>' + c.name + '</h4><p>' + c.desc + '</p></div></div>';
+      }).join('');
+      var label = $('instanceTypeLabel');
+      if (!state.ok) { label.textContent = '∅ — rejected'; return; }
+      if (state.type === 'complex' && state.value.im !== 0) { label.textContent = 'C only'; return; }
+      var anchor = state.type === 'complex' ? state.value.re : state.value;
+      var sets = [];
+      if (Number.isInteger(anchor) && anchor >= 0 && state.type !== 'real') sets.push('N');
+      else if (state.type === 'natural') sets.push('N');
+      if (Number.isInteger(anchor) && (state.type === 'natural' || state.type === 'integer')) sets.push('Z');
+      else if (state.type === 'integer') sets.push('Z');
+      if (state.type === 'natural' || state.type === 'integer' || state.type === 'rational') sets.push('Q');
+      sets.push('R', 'C');
+      if (anchor === Infinity || anchor === -Infinity) sets = ['R', 'C'];
+      label.textContent = sets.join(' ∩ ');
+    }
+
+    function refresh() {
+      var parsed = parseValue(state.type, state.raw);
+      state.ok = parsed.ok;
+      state.error = parsed.error || '';
+      state.value = parsed.value;
+      state.fraction = parsed.fraction;
+      renderValidation();
+      renderReprProps();
+      renderConstraints();
+    }
+
+    /* ---------- Trace ---------- */
+    function logTrace(text, isErr) {
+      state.trace.unshift({ text: text, err: !!isErr, time: new Date() });
+      state.trace = state.trace.slice(0, 8);
+      renderTrace();
+    }
+    function renderTrace() {
+      var box = $('historyContainer');
+      if (!state.trace.length) { box.innerHTML = '<div class="trace-empty">No transformations yet</div>'; return; }
+      box.innerHTML = state.trace.map(function (t) {
+        return '<div class="trace-item' + (t.err ? ' err' : '') + '"><div class="mono">' + t.text + '</div>' +
+          '<div class="trace-time">' + t.time.toLocaleTimeString() + '</div></div>';
+      }).join('');
+    }
+
+    /* ---------- Operations ---------- */
+    function rawFor(v, type) {
+      if (type === 'complex') return fmtC(v).replace(/−/g, '-');
+      if (typeof v === 'number' && !Number.isFinite(v)) return v > 0 ? 'Infinity' : '-Infinity';
+      if (typeof v === 'number' && Number.isInteger(v)) return String(v);
+      if (typeof v === 'number') return String(Number(v.toPrecision(12)));
+      return String(v);
+    }
+    function coerceToType(v, fromComplex) {
+      /* Returns {raw} or {error}; keeps the active type honest. */
+      if (state.type === 'complex') {
+        if (!fromComplex) return { error: 'internal' };
+        return { raw: rawFor(v, 'complex') };
+      }
+      if (typeof v !== 'number' || Number.isNaN(v)) return { error: 'Result is not a number in ' + TYPES[state.type].symbol + '.' };
+      if (state.type === 'natural' && (!Number.isInteger(v) || v < 0)) return { error: 'Result ' + fmt(v) + ' leaves N — switch type to keep it.' };
+      if (state.type === 'integer' && !Number.isInteger(v)) return { error: 'Result ' + fmt(v) + ' leaves Z — switch type to keep it.' };
+      if (state.type === 'rational' && !Number.isFinite(v)) return { error: 'Result is infinite — rationals are finite.' };
+      if ((state.type === 'natural' || state.type === 'integer') && !Number.isSafeInteger(v)) return { error: 'Result exceeds safe-integer range.' };
+      return { raw: rawFor(v, state.type) };
+    }
+
+    function applyOp(op, operand) {
+      if (!state.ok) { logTrace('No valid instance to transform.', true); return; }
+      var isC = state.type === 'complex';
+      var result, label;
+      try {
+        if (isC) { result = complexOp(op, state.value, operand); label = opLabel(op, operand); }
+        else {
+          var v = state.value, b = operand !== undefined ? operand : (op === 'multiply' || op === 'divide' ? 2 : 1);
+          switch (op) {
+            case 'add': result = v + b; break;
+            case 'subtract': result = v - b; break;
+            case 'multiply': result = v * b; break;
+            case 'divide':
+              if (b === 0) throw new Error('Division by zero.');
+              result = v / b; break;
+            case 'square': result = v * v; break;
+            case 'sqrt':
+              if (v < 0) throw new Error('√ of a negative is undefined in R — switch to C.');
+              result = Math.sqrt(v); break;
+            case 'negate': result = -v; break;
+            case 'reciprocal':
+              if (v === 0) throw new Error('Reciprocal of zero is undefined.');
+              result = 1 / v; break;
+            case 'power': result = Math.pow(v, b); break;
+            default: throw new Error('Unknown operation.');
+          }
+          label = opLabel(op, op === 'power' || operand !== undefined ? b : undefined);
+        }
+      } catch (e) { logTrace(e.message, true); return; }
+      var coerced = coerceToType(result, isC);
+      if (coerced.error) { logTrace(label + ' → ' + coerced.error, true); return; }
+      var before = displayValue();
+      state.raw = coerced.raw;
+      $('numberInput').value = coerced.raw;
+      refresh();
+      logTrace(before + '  ' + label + '  =  ' + displayValue(), false);
+    }
+
+    function opLabel(op, b) {
+      var sym = { add: '+', subtract: '−', multiply: '×', divide: '÷', square: '²', sqrt: '√', negate: '±', reciprocal: '1/x', power: '^' }[op];
+      if (op === 'add' || op === 'subtract') return sym + ' ' + (b === undefined ? 1 : fmt(b));
+      if (op === 'multiply' || op === 'divide') return sym + ' ' + (b === undefined ? 2 : fmt(b));
+      if (op === 'power') return '^ ' + fmt(b);
+      return sym;
+    }
+
+    function complexOp(op, c, operand) {
+      var b = operand !== undefined ? operand : 1;
+      var scalar = typeof b === 'number' ? { re: b, im: 0 } : b;
+      function add(a, d) { return { re: a.re + d.re, im: a.im + d.im }; }
+      function mul(a, d) { return { re: a.re * d.re - a.im * d.im, im: a.re * d.im + a.im * d.re }; }
+      function div(a, d) {
+        var den = d.re * d.re + d.im * d.im;
+        if (den === 0) throw new Error('Division by zero.');
+        return { re: (a.re * d.re + a.im * d.im) / den, im: (a.im * d.re - a.re * d.im) / den };
+      }
+      switch (op) {
+        case 'add': return add(c, op === 'add' && operand === undefined ? { re: 1, im: 0 } : scalar);
+        case 'subtract': return add(c, { re: -scalar.re, im: -scalar.im });
+        case 'multiply': return mul(c, operand === undefined ? { re: 2, im: 0 } : scalar);
+        case 'divide': return div(c, operand === undefined ? { re: 2, im: 0 } : scalar);
+        case 'square': return mul(c, c);
+        case 'sqrt': {
+          var m = Math.hypot(c.re, c.im);
+          var root = Math.sqrt(m);
+          var half = Math.atan2(c.im, c.re) / 2;
+          return { re: root * Math.cos(half), im: root * Math.sin(half) };
+        }
+        case 'negate': return { re: -c.re, im: -c.im };
+        case 'reciprocal': return div({ re: 1, im: 0 }, c);
+        case 'power': {
+          if (typeof operand !== 'number' || !Number.isInteger(operand)) throw new Error('Complex power admits integer exponents in this lab.');
+          var n = operand, acc = { re: 1, im: 0 }, base = n < 0 ? div({ re: 1, im: 0 }, c) : c;
+          for (var i = 0; i < Math.abs(n); i++) acc = mul(acc, base);
+          return acc;
+        }
+        default: throw new Error('Unknown operation.');
+      }
+    }
+
+    /* ---------- Coarse → fine lab ---------- */
+    var DOMAINS = {
+      temperature: { coarse: '"cold"', base: 4.2, unit: '°C', decimals: true },
+      length: { coarse: '"tall"', base: 2.3, unit: 'm', decimals: true },
+      count: { coarse: '"many"', base: 847, unit: '', decimals: false },
+      probability: { coarse: '"likely"', base: 0.73, unit: '', decimals: true }
     };
-
-    function applyTransformation(opName) {
-      const oldValue = state.currentValue;
-      const transform = transformations[opName];
-      
-      if (!transform) return;
-      
-      if (typeof oldValue === 'object') {
-        switch(opName) {
-          case 'add':
-            state.currentValue = { real: oldValue.real + 1, imag: oldValue.imag };
-            break;
-          case 'subtract':
-            state.currentValue = { real: oldValue.real - 1, imag: oldValue.imag };
-            break;
-          case 'negate':
-            state.currentValue = { real: -oldValue.real, imag: -oldValue.imag };
-            break;
-          default:
-            return;
-        }
-      } else {
-        state.currentValue = transform(oldValue);
-      }
-      
-      elements.numberInput.value = formatNumber(state.currentValue, state.currentType);
-      addToHistory(opName, oldValue, state.currentValue);
-      updateDisplay();
+    var activeDomain = 'temperature';
+    function renderCoarseFine() {
+      var d = DOMAINS[activeDomain];
+      var v = Number($('granularitySlider').value);
+      var decimals = d.decimals ? (v < 25 ? 0 : v < 60 ? 1 : v < 85 ? 2 : 3) : 0;
+      var shown = decimals === 0 ? String(Math.round(d.base)) : d.base.toFixed(decimals);
+      $('coarseDisplay').textContent = d.coarse;
+      $('fineDisplay').textContent = shown;
+      $('unitDisplay').textContent = d.unit;
+      var name = v < 25 ? 'Coarse' : v < 60 ? 'Balanced' : v < 85 ? 'Fine' : 'Full';
+      var bits = Math.round(1 + (v / 100) * 12);
+      $('granularityLabel').textContent = name + ' · ' + decimals + ' decimals · ≈' + bits + ' bits';
     }
 
-    function applyCustomTransformation() {
-      const op = elements.customOpSelect.value;
-      const val = parseFloat(elements.customOpValue.value);
-      
-      if (isNaN(val)) return;
-      
-      const oldValue = state.currentValue;
-      
-      if (typeof oldValue === 'object') {
+    /* ---------- Edge probes ---------- */
+    var PROBES = [
+      { label: 'Zero (0)', type: 'natural', raw: '0' },
+      { label: 'Unit (1)', type: 'natural', raw: '1' },
+      { label: 'Negative unit (−1)', type: 'integer', raw: '-1' },
+      { label: 'Infinity (∞)', type: 'real', raw: 'Infinity' },
+      { label: 'Neg. infinity (−∞)', type: 'real', raw: '-Infinity' },
+      { label: 'Not a Number', type: 'real', raw: 'NaN' },
+      { label: 'Max approx', type: 'real', raw: '1e308' },
+      { label: 'Min approx', type: 'real', raw: '1e-323' },
+      { label: 'π (pi)', type: 'real', raw: '3.14159265359' },
+      { label: "e (Euler's)", type: 'real', raw: '2.718281828' },
+      { label: 'Repeating (1/3)', type: 'rational', raw: '1/3' },
+      { label: 'Imaginary (i)', type: 'complex', raw: 'i' }
+    ];
+
+    /* ---------- Wiring ---------- */
+    function setType(t) {
+      state.type = t;
+      renderTypeTabs();
+      refresh();
+    }
+    document.querySelectorAll('.type-btn').forEach(function (b) {
+      b.addEventListener('click', function () { setType(b.dataset.type); });
+    });
+    $('numberInput').addEventListener('input', function (e) {
+      state.raw = e.target.value;
+      refresh();
+    });
+    document.querySelectorAll('.op-btn').forEach(function (b) {
+      b.addEventListener('click', function () { applyOp(b.dataset.op); });
+    });
+    $('applyCustomOp').addEventListener('click', function () {
+      var op = $('customOpSelect').value;
+      var s = $('customOpValue').value.trim();
+      if (state.type === 'complex') {
+        var c = parseComplex(s.replace(/−/g, '-'));
+        if (!c) { logTrace('Operand "' + s + '" is not a valid complex number.', true); return; }
+        if (op === 'power') { logTrace('Complex power admits integer exponents: enter e.g. 2.', true); return; }
+        applyOp(op, c);
         return;
       }
-      
-      switch(op) {
-        case 'add': state.currentValue = oldValue + val; break;
-        case 'subtract': state.currentValue = oldValue - val; break;
-        case 'multiply': state.currentValue = oldValue * val; break;
-        case 'divide': state.currentValue = val !== 0 ? oldValue / val : NaN; break;
-        case 'power': state.currentValue = Math.pow(oldValue, val); break;
+      var n = Number(s);
+      if (s === '' || Number.isNaN(n)) { logTrace('Operand "' + s + '" is not a number.', true); return; }
+      if (op === 'divide' && n === 0) { logTrace('Division by zero.', true); return; }
+      if (op === 'power' && state.type !== 'real' && state.type !== 'complex' && !Number.isInteger(n)) {
+        logTrace('Non-integer exponents leave ' + TYPES[state.type].symbol + ' — switch type first.', true); return;
       }
-      
-      elements.numberInput.value = formatNumber(state.currentValue, state.currentType);
-      addToHistory(`${op} ${val}`, oldValue, state.currentValue);
-      updateDisplay();
-    }
-
-    // ============================================
-    // Event Handlers
-    // ============================================
-    function handleTypeChange(e) {
-      const btn = e.target.closest('.type-btn');
-      if (!btn) return;
-      
-      const type = btn.dataset.type;
-      if (type === state.currentType) return;
-      
-      document.querySelectorAll('.type-btn').forEach(b => {
-        b.classList.remove('active');
-        b.setAttribute('aria-selected', 'false');
-      });
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-      
-      state.currentType = type;
-      
-      const typeDef = numberTypes[type];
-      state.currentValue = typeDef.defaultValue;
-      elements.numberInput.value = formatNumber(state.currentValue, type);
-      
-      updateDisplay();
-    }
-
-    function handleInputChange(e) {
-      const value = parseInput(e.target.value);
-      
-      if (typeof value === 'object' || !Number.isNaN(value)) {
-        state.currentValue = value;
-        updateDisplay();
-      }
-    }
-
-    function handlePanelTab(e) {
-      const tab = e.target.closest('.panel-tab');
-      if (!tab) return;
-      
-      const panel = tab.dataset.panel;
-      
-      tab.parentElement.querySelectorAll('.panel-tab').forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      
-      elements.reprPanel.classList.toggle('hidden', panel !== 'repr');
-      elements.propsPanel.classList.toggle('hidden', panel !== 'props');
-    }
-
-    function handleEdgeCase(e) {
-      const btn = e.target.closest('.edge-case-btn');
-      if (!btn) return;
-      
-      const value = parseInput(btn.dataset.value);
-      
-      if (typeof value === 'object' || !Number.isNaN(value)) {
-        const oldValue = state.currentValue;
-        state.currentValue = value;
-        elements.numberInput.value = btn.dataset.value;
-        addToHistory('edge case', oldValue, value);
-        updateDisplay();
-      }
-    }
-
-    function handleDomainChange(e) {
-      const card = e.target.closest('.domain-card');
-      if (!card) return;
-      
-      const domain = card.dataset.domain;
-      if (domain === state.currentDomain) return;
-      
-      document.querySelectorAll('.domain-card').forEach(c => {
-        c.classList.remove('active');
-        c.setAttribute('aria-pressed', 'false');
-      });
-      card.classList.add('active');
-      card.setAttribute('aria-pressed', 'true');
-      
-      state.currentDomain = domain;
-      updateGranularityDisplay();
-    }
-
-    function handleGranularityChange(e) {
-      state.granularity = parseInt(e.target.value);
-      updateGranularityDisplay();
-    }
-
-    function reset() {
-      state.currentValue = 42;
-      state.currentType = 'natural';
-      state.currentDomain = 'temperature';
-      state.granularity = 85;
-      state.history = [];
-      
-      document.querySelectorAll('.type-btn').forEach(b => {
-        b.classList.remove('active');
-        b.setAttribute('aria-selected', 'false');
-      });
-      document.querySelector('[data-type="natural"]').classList.add('active');
-      document.querySelector('[data-type="natural"]').setAttribute('aria-selected', 'true');
-      
-      document.querySelectorAll('.domain-card').forEach(c => {
-        c.classList.remove('active');
-        c.setAttribute('aria-pressed', 'false');
-      });
-      document.querySelector('[data-domain="temperature"]').classList.add('active');
-      document.querySelector('[data-domain="temperature"]').setAttribute('aria-pressed', 'true');
-      
-      elements.numberInput.value = '42';
-      elements.granularitySlider.value = 85;
-      
-      renderHistory();
-      updateDisplay();
-      updateGranularityDisplay();
-    }
-
-    // ============================================
-    // Initialization
-    // ============================================
-    document.addEventListener('DOMContentLoaded', () => {
-      // Initialize DOM elements
-      elements = {
-        numberDisplay: document.getElementById('numberDisplay'),
-        numberInput: document.getElementById('numberInput'),
-        typeBadge: document.getElementById('typeBadge'),
-        constraintsContainer: document.getElementById('constraintsContainer'),
-        historyContainer: document.getElementById('historyContainer'),
-        numberLineMarker: document.getElementById('numberLineMarker'),
-        numberLineContainer: document.getElementById('numberLineContainer'),
-        instanceTypeLabel: document.getElementById('instanceTypeLabel'),
-        reprPanel: document.getElementById('reprPanel'),
-        propsPanel: document.getElementById('propsPanel'),
-        reprDecimal: document.getElementById('reprDecimal'),
-        reprBinary: document.getElementById('reprBinary'),
-        reprHex: document.getElementById('reprHex'),
-        reprScientific: document.getElementById('reprScientific'),
-        reprEnglish: document.getElementById('reprEnglish'),
-        propEven: document.getElementById('propEven'),
-        propPrime: document.getElementById('propPrime'),
-        propPositive: document.getElementById('propPositive'),
-        propInteger: document.getElementById('propInteger'),
-        propRational: document.getElementById('propRational'),
-        customOpSelect: document.getElementById('customOpSelect'),
-        customOpValue: document.getElementById('customOpValue'),
-        coarseDisplay: document.getElementById('coarseDisplay'),
-        fineDisplay: document.getElementById('fineDisplay'),
-        unitDisplay: document.getElementById('unitDisplay'),
-        granularityLabel: document.getElementById('granularityLabel'),
-        granularitySlider: document.getElementById('granularitySlider'),
-        bitCount: document.getElementById('bitCount'),
-        resolutionSpectrum: document.getElementById('resolutionSpectrum'),
-        grainContainer: document.getElementById('grainContainer')
-      };
-      
-      // Event listeners
-      document.querySelector('.type-selector').addEventListener('click', handleTypeChange);
-      elements.numberInput.addEventListener('input', handleInputChange);
-      document.querySelector('.panel-tabs').addEventListener('click', handlePanelTab);
-      document.getElementById('clearHistory').addEventListener('click', () => {
-        state.history = [];
-        renderHistory();
-      });
-      document.getElementById('resetBtn').addEventListener('click', reset);
-      document.getElementById('applyCustomOp').addEventListener('click', applyCustomTransformation);
-      
-      // Domain cards
-      document.querySelectorAll('.domain-card').forEach(card => {
-        card.addEventListener('click', handleDomainChange);
-        card.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            handleDomainChange(e);
-          }
-        });
-      });
-      
-      // Granularity slider
-      elements.granularitySlider.addEventListener('input', handleGranularityChange);
-      
-      // Transformation buttons
-      document.querySelectorAll('.transform-btn[data-op]').forEach(btn => {
-        btn.addEventListener('click', () => applyTransformation(btn.dataset.op));
-      });
-      
-      // Edge case buttons
-      document.querySelectorAll('.edge-case-btn').forEach(btn => {
-        btn.addEventListener('click', handleEdgeCase);
-      });
-      
-      // Keyboard support for number input
-      elements.numberInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-          e.target.blur();
-        }
-      });
-      
-      // Initial render
-      updateDisplay();
-      renderHistory();
-      updateGranularityDisplay();
-      
-      // Staggered reveal animation
-      document.querySelectorAll('.animate-in').forEach((el, i) => {
-        el.style.opacity = '0';
-        setTimeout(() => {
-          el.style.opacity = '1';
-        }, 100 + i * 100);
-      });
-      
-      // Initialize grain visualization after container has dimensions
-      setTimeout(() => {
-        updateGrainVisualization(state.granularity);
-      }, 100);
+      applyOp(op, n);
     });
-  </script>
-<script>
-  (function () {
-    var toggle = document.getElementById('themeToggle');
-    var label = document.getElementById('themeLabel');
-    var fading = false;
-    function apply() {
-      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
-    }
-    toggle.addEventListener('click', function () {
-      if (fading) return;
-      fading = true;
-      var root = document.documentElement;
-      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      var swap = function () {
-        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
-        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
-        apply();
-        root.classList.remove('theme-fading');
-        fading = false;
-        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
-      };
-      if (reduced) { swap(); return; }
-      root.classList.add('theme-fading');
-      setTimeout(swap, 190);
+    $('clearHistory').addEventListener('click', function () { state.trace = []; renderTrace(); });
+    document.querySelectorAll('.domain-card').forEach(function (b) {
+      b.addEventListener('click', function () {
+        document.querySelectorAll('.domain-card').forEach(function (x) { x.classList.remove('active'); x.setAttribute('aria-pressed', 'false'); });
+        b.classList.add('active');
+        b.setAttribute('aria-pressed', 'true');
+        activeDomain = b.dataset.domain;
+        renderCoarseFine();
+      });
     });
-    apply();
-  })();
-  </script>
+    $('granularitySlider').addEventListener('input', renderCoarseFine);
 
-  <script>
-    // ========================================
-    // Sidebar TOC highlight (mirrors note.html)
-    // ========================================
-    function initTocHighlight() {
-      const items = document.querySelectorAll('#toc .toc-item');
-      if (!items.length || !('IntersectionObserver' in window)) return;
-      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (!entry.isIntersecting) return;
-          const idx = sections.indexOf(entry.target);
-          items.forEach(it => it.classList.remove('active'));
-          if (items[idx]) items[idx].classList.add('active');
-        });
-      }, { rootMargin: '-10% 0px -60% 0px' });
-      sections.forEach(s => observer.observe(s));
-    }
-
-    // ========================================
-    // Ambient constellation (mirrors note.html)
-    // ========================================
-    function initAmbient() {
-      const canvas = document.getElementById('ambientCanvas');
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      let pts = [];
-      const LINK_DIST = 130;
-      function resize() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
-        pts = [];
-        for (let i = 0; i < count; i++) {
-          pts.push({
-            x: Math.random() * canvas.width,
-            y: Math.random() * canvas.height,
-            vx: (Math.random() - 0.5) * 0.22,
-            vy: (Math.random() - 0.5) * 0.22,
-            r: Math.random() * 1.4 + 0.4
-          });
-        }
-      }
-      function tick() {
-        const light = document.documentElement.dataset.theme === 'light';
-        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
-        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        for (let i = 0; i < pts.length; i++) {
-          const p = pts[i];
-          p.x += p.vx; p.y += p.vy;
-          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
-          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-          ctx.beginPath();
-          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
-          ctx.fill();
-          for (let j = i + 1; j < pts.length; j++) {
-            const m = pts[j];
-            const dx = p.x - m.x, dy = p.y - m.y;
-            const dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < LINK_DIST) {
-              ctx.beginPath();
-              ctx.moveTo(p.x, p.y);
-              ctx.lineTo(m.x, m.y);
-              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
-              ctx.lineWidth = 1;
-              ctx.stroke();
-            }
-          }
-        }
-        requestAnimationFrame(tick);
-      }
-      window.addEventListener('resize', resize);
-      resize();
-      requestAnimationFrame(tick);
-    }
-    document.addEventListener('DOMContentLoaded', () => { initTocHighlight(); initAmbient(); });
-
-    // Redraw visuals when the site theme changes
-    window.addEventListener('epistecnica-theme', () => {
-      if (typeof updateDisplay === 'function') updateDisplay();
-      if (typeof updateGrainVisualization === 'function' && typeof state !== 'undefined') updateGrainVisualization(state.granularity);
+    var edgeGrid = $('edgeGrid');
+    PROBES.forEach(function (p) {
+      var b = document.createElement('button');
+      b.className = 'btn';
+      b.textContent = p.label;
+      b.addEventListener('click', function () {
+        setType(p.type);
+        state.raw = p.raw;
+        $('numberInput').value = p.raw;
+        refresh();
+        logTrace('Probe ' + p.label + ' → ' + TYPES[p.type].symbol + ': ' + (state.ok ? displayValue() : 'rejected'), !state.ok);
+      });
+      edgeGrid.appendChild(b);
     });
 
+    $('resetBtn').addEventListener('click', function () {
+      activeDomain = 'temperature';
+      document.querySelectorAll('.domain-card').forEach(function (x) {
+        var on = x.dataset.domain === 'temperature';
+        x.classList.toggle('active', on);
+        x.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      $('granularitySlider').value = 85;
+      renderCoarseFine();
+      state.trace = [];
+      renderTrace();
+      state.raw = '42';
+      $('numberInput').value = '42';
+      setType('natural');
+    });
+
+    /* init */
+    renderTypeTabs();
+    refresh();
+    renderCoarseFine();
+    renderTrace();
   </script>
-  <script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 </body>
 </html>
