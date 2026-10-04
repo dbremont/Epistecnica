@@ -192,6 +192,20 @@
     @media (min-width: 768px) { .edge-grid { grid-template-columns: repeat(4, 1fr); } }
     @media (min-width: 1024px) { .edge-grid { grid-template-columns: repeat(6, 1fr); } }
     .reset-row { display: flex; justify-content: flex-end; margin-bottom: 1rem; }
+    .overflow-x-auto { overflow-x: auto; margin: 1.25rem 0; border: 1px solid var(--border-subtle); border-radius: 8px; }
+    .markdown-body table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 0.8rem; }
+    .markdown-body th { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--border-subtle); background: var(--bg-surface); white-space: nowrap; }
+    .markdown-body td { padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--border-subtle); vertical-align: top; }
+    .markdown-body tbody tr:last-child td { border-bottom: none; }
+    .markdown-body td:first-child { font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-primary); white-space: nowrap; }
+    .markdown-body .decomp-wrap table { min-width: 0; }
+    .markdown-body .decomp-wrap td:first-child { white-space: normal; word-break: break-word; }
+    .markdown-body td:nth-child(4) { font-family: var(--font-mono); font-size: 0.72rem; }
+    .etype { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-gold); background: var(--accent-gold-dim); padding: 0.2rem 0.55rem; border-radius: 20px; white-space: nowrap; }
+    .inf-case[hidden] { display: none; }
+    .inf-out { font-family: var(--font-mono); font-size: 1.1rem; color: var(--accent-gold); margin: 0.9rem 0 0.3rem; }
+    .inf-verdict { font-size: 0.85rem; color: var(--text-secondary); margin: 0 0 0.2rem; }
+    .inf-verdict strong { font-weight: 500; color: var(--text-primary); }
   </style>
 </head>
 <body>
@@ -214,7 +228,7 @@
         <span class="chip">live note</span>
         <span class="chip">interactive</span>
         <span class="chip">#number</span>
-        <span class="chip">#artifact-type</span>
+        <span class="chip">#representation-element</span>
       </div>
     </div>
 
@@ -226,32 +240,25 @@
               <button id="resetBtn" class="btn" aria-label="Reset all labs">Reset</button>
             </div>
 
-            <blockquote>
-              <p>A Number is an epistemic artifact that encodes affirmations about quantity, magnitude, order, or relation in a formal symbolic system.</p>
+	    <blockquote>
+              <p>A <strong>Number</strong> is a representation element formed in a numeral system — a system of signs, symbols, and rules — denoting quantity, magnitude, order, or relation.</p>
             </blockquote>
 
-            <h2 id="index">Index</h2>
-            <ul>
-              <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
-              <li><a href="#conceptual-layer">Conceptual layer</a> — type definition</li>
-              <li><a href="#resolution-transition">Resolution transition</a> — coarse to fine</li>
-              <li><a href="#instance-layer">Instance layer</a> — worked instance</li>
-              <li><a href="#transformation-layer">Transformation layer</a> — operations</li>
-              <li><a href="#constraint-layer">Constraint layer</a> — validation</li>
-              <li><a href="#diagnostics">Boundary exploration</a> — edge cases</li>
-              <li><a href="#references">References</a> — schema</li>
-            </ul>
+            <blockquote>
+            	<p>Numbers and numeral systems are representational mechanisms — similar to signs, symbols, and pictograms — that humans use to represent and reason about the quantitative properties of reality. This note works one realized number through the full epistemic arc: from coarse qualitative impression to fine-grained comparable value, through the labs below.</p>
+            </blockquote>
+            
 
             <h2 id="formulation">Formulation</h2>
 
             <h3>What epistemic element type does this instance belong to?</h3>
             <blockquote>
-              <p><strong>Concrete Epistemic Artifact</strong> — one realized number encoding affirmations about quantity, magnitude, order, or relation — produced by applying an <strong>Epistemic Operator</strong> (measurement and calculation), and usable as an <strong>Epistemic Standard</strong> (constraint satisfaction). Schema: <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+              <p><strong>Representation Element</strong> — one realized numeral token (exemplar <span class="mono">42</span> in the labs below) formed in the <strong>Numeral System</strong> (<span class="mono">Epistemic Representation -&gt; Representational System</span>), produced by <strong>Measurement</strong> and <strong>Calculation</strong> (<span class="mono">Epistemic Operation -&gt; Action</span>) and inscription, and judged against an <strong>Epistemic Standard</strong> (<span class="mono">Epistemic Evaluation</span>). The numeral system itself is the Representational System; <strong>Number</strong> is the abstract construct under its Constitutive Substrate. Schema: <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
             </blockquote>
 
             <h3>What is this epistemic instance?</h3>
             <blockquote>
-              <p>A <strong>Number</strong>: a formal symbolic system with defined syntax, operations, and ordering relations, mapped to quantities, positions, or relations in conceptual or physical reality — for encoding measurement, representing order, expressing relations, and enabling calculation.</p>
+              <p>A <strong>Number</strong> worked at two levels: as <strong>type</strong>, the numeral system with defined syntax, operations, and ordering relations (N ⊂ Z ⊂ Q ⊂ R ⊂ C), mapped to quantities, positions, or relations in conceptual or physical reality; as <strong>instance</strong>, one realized numeral token (exemplar <span class="mono">42</span>) denoting forty-two — for encoding measurement, representing order, expressing relations, and enabling calculation.</p>
             </blockquote>
 
             <h3>What grounds this reading?</h3>
@@ -259,12 +266,63 @@
               <p>It resolves the epistemic gap of <strong>coarse-to-fine transition</strong> — transforming qualitative, coarse-grained characterizations of reality into precise, quantitative representations, enabling prediction, comparison, and manipulation.</p>
             </blockquote>
 
+            <h2 id="decomposition">What is the recursively decomposed instance tree of a Number?</h2>
+            <blockquote>
+              <p>A number is a representation element inside a representation system — a token formed by the system's formation rules, interpretable only through its constitutive substrate of place value, convention, and type inclusion, and usable as premise for the operations the evaluation judges.</p>
+            </blockquote>
+            <div class="overflow-x-auto decomp-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Instance Tree Path</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>`Representation Element` → Number</td><td>The concept of a number as representation element: abstract construct identifying discrete multitude, order, and ratio — worked through one realized token (<span class="mono">42</span>) in the labs below.</td></tr>
+                <tr><td>`Representation Element` → Number → Forty-Two</td><td>The numeral token <span class="mono">42</span> denoting forty-two: the realized token working this concept in the labs (exemplar leaf).</td></tr>
+                <tr><td>`Representation Element` → Number → Forty-Two → Tens Place</td><td>The tens position carrying place-weighted magnitude within Forty-Two.</td></tr>
+                <tr><td>`Representation Element` → Number → Forty-Two → Tens Place → Four Tens</td><td>4 × 10¹: the tens contribution constituting Forty-Two.</td></tr>
+                <tr><td>`Representation Element` → Number → Forty-Two → Ones Place</td><td>The ones position carrying unit magnitude within Forty-Two.</td></tr>
+                <tr><td>`Representation Element` → Number → Forty-Two → Ones Place → Two Ones</td><td>2 × 10⁰: the ones contribution constituting Forty-Two.</td></tr>
+                <tr><td>`Representation Element` → Number → Decimal Numerals</td><td>The realizing system instance in which this concept is formed: decimal numerals.</td></tr>
+                <tr><td>`Representation Element` → Number → Decimal Numerals → `Constitutive Substrate`</td><td>Grouping: rules and structures constituting the realizing system.</td></tr>
+                <tr><td>`Representation Element` → Number → Decimal Numerals → `Constitutive Substrate` → Place Value</td><td>Position-weighted magnitude carried by numeral places within this number.</td></tr>
+                <tr><td>`Representation Element` → Number → Decimal Numerals → `Constitutive Substrate` → Decimal Convention</td><td>Stabilized base-ten notation choice governing use and interpretation of this number.</td></tr>
+                <tr><td>`Representation Element` → Number → Decimal Numerals → `Constitutive Substrate` → Type Inclusion</td><td>The nested number-type foundation N ⊂ Z ⊂ Q ⊂ R ⊂ C constraining what this number may mean.</td></tr>
+                <tr><td>`Representation Element` → Number → Rendered Encodings</td><td>Decimal, binary, hex, scientific, english-words, and polar encodings of this number's value.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Orientation`</td><td>Grouping: what the inquiry around this number is for and what deficiency motivates it.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Orientation` → `Epistemic Purpose` → Exact Reckoning</td><td>The purpose directing inquiry around this number: rendering discrete quantity exactly comparable and calculable.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Orientation` → `Epistemic Gap` → Missing Exact Value</td><td>The deficiency motivating inquiry around this number: coarse qualitative characterization lacking precision, comparability, and calculability.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Agency` → `Epistemic Activity` → Reckoning Session</td><td>The organized sequence of inscription, calculation, and checking acts performed on this number in the labs below.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Target` → `Observable` → Discrete Quantity</td><td>Countable multitude, order, and ratio as the observable aspect denoted by this number.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Access` → `Measurement` → Scale Reading</td><td>Assigning a value to a property according to a defined scale, resolved to this number (exemplar 4.2 °C on the temperature domain).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Access` → `Observation Encoding` → Inscribed String</td><td>The typed inscription in the instance field encoding the observation resolved to this number (exemplar per session).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Operation` → `Action` → Reckoning</td><td>Ordered calculation acts transforming this number (exemplar moves +1 −1 ×2 ÷2 x² √ ± 1/x in the operations lab).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Operation` → `Action` → Magnitude Comparison</td><td>Determining order relations of this number against represented values (exemplar per session).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Operation` → `Action` → Admission Check</td><td>Per-type check accepting or rejecting an inscription as this number against the admitted set (exemplar rejections per session).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Operation` → `Action` → Resolution Raising</td><td>Raising resolution from coarse category to decimals on the domain slider, resolved to this number (exemplar "cold" → 4.2).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Operation` → `Action` → `Inference`</td><td>Grouping: deriving conclusions from quantized premises.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Operation` → `Action` → `Inference` → Ration Share</td><td>Each worker's loaves from 100 ÷ 13: the bread-rations case.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Operation` → `Action` → `Inference` → Tax Due</td><td>Granary claim from harvest at a tenth: the grain-tax case.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Construction` → `Measurement Record` → Scale Record</td><td>A record containing a measurement result with its context, resolved to this number (exemplar 4.2 °C on the temperature domain).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Construction` → `Record` → Transformation Trace</td><td>Ordered record of operations applied to this number (exemplar per session).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Evaluation` → `Epistemic Standard` → Type Admission Standard</td><td>The per-type admission rule against which this number is judged valid (exemplar N admits 42, rejects −1).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Evaluation` → `Epistemic Standard` → Correctness Standard</td><td>Exact reckoning of this number judged against the admitted arithmetic (exemplar inverse check passes).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Evaluation` → `Validation` → Inverse Check</td><td>Recomputing against the result to confirm the reckoning of this number (exemplar per session).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Evaluation` → `Feedback` → Edge Probe Mismatch</td><td>Boundary values flipping a verdict on this number, returned to the session as diagnostic (exemplar twelve probes; a flipped constraint is the diagnostic).</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Evaluation` → `Epistemic Constraint` → Float Exactness Limit</td><td>Binary floating point cannot hold 1/3 or most decimals and rationals exclude infinity by construction — an acceptability gate on this number.</td></tr>
+                <tr><td>`Representation Element` → Number → `Epistemic Evaluation` → `Epistemic Constraint` → Context Loss</td><td>Domain semantics lost in encoding this number: 4.2 no longer says "cold".</td></tr>
+              </tbody>
+            </table>
+            </div>
+
             <h2 id="conceptual-layer">Conceptual Layer</h2>
             <div class="lab lab-2">
               <div class="panel">
                 <div class="panel-head"><span>Type definition</span></div>
                 <div class="panel-body">
-                  <p style="margin-bottom:1rem;">A <strong>Number</strong> is an epistemic artifact that encodes affirmations about <strong>quantity</strong>, <strong>magnitude</strong>, <strong>order</strong>, or <strong>relation</strong> in a formal symbolic system.</p>
+                  <p style="margin-bottom:1rem;">A <strong>Number</strong> is a representation element formed in a <strong>numeral system</strong> denoting <strong>quantity</strong>, <strong>magnitude</strong>, <strong>order</strong>, or <strong>relation</strong>.</p>
                   <div class="kv"><span class="k">Formal structure</span><span class="v">syntax + operations + order</span></div>
                   <div class="kv"><span class="k">Semantics</span><span class="v">maps to quantities / positions / relations</span></div>
                   <div class="kv"><span class="k">Inclusion</span><span class="v">N ⊂ Z ⊂ Q ⊂ R ⊂ C</span></div>
@@ -282,9 +340,10 @@
             </div>
 
             <h2 id="resolution-transition">Resolution Transition</h2>
-            <p>Numbers move inquiry from qualitative, coarse-grained characterizations to precise, quantitative representations. Pick a domain, then raise the resolution: the fine-grained value gains decimals while the information estimate grows.</p>
+            <p>Certain aspects of reality admit quantization — a forehead merely feels "hot" until the thermometer reads 39.4 °C — and can thus be represented both by coarse-grained descriptions and by fine-grained ones.</p>
+            <p>Pick a domain, then raise the resolution: the fine-grained value gains decimals while the information estimate grows.</p>
             <div class="panel">
-              <div class="panel-head"><span>Coarse-grained → fine-grained</span></div>
+              <div class="panel-head"><span>Coarse-grained → fine-grained</span><span class="etype">Epistemic Operation</span></div>
               <div class="panel-body">
                 <div class="domain-grid" role="group" aria-label="Domain selector">
                   <button class="domain-card active" data-domain="temperature" aria-pressed="true">
@@ -323,10 +382,68 @@
               </div>
             </div>
 
+            <h2 id="inference">Inference</h2>
+            <p>Quantized values support inference: arithmetic, comparison, and relations turn numbers into decisions. Each case below takes live inputs and computes its conclusion.</p>
+            <div class="panel">
+              <div class="panel-head"><span>Case studies</span><span class="etype">Inference</span></div>
+              <div class="panel-body">
+                <div class="type-selector" role="tablist" aria-label="Inference case selector">
+                  <button class="type-btn active" data-case="rations" role="tab" aria-selected="true">Bread rations</button>
+                  <button class="type-btn" data-case="graintax" role="tab" aria-selected="false">Grain tax</button>
+                  <button class="type-btn" data-case="merchant" role="tab" aria-selected="false">Merchant's total</button>
+                  <button class="type-btn" data-case="fieldarea" role="tab" aria-selected="false">Field area</button>
+                </div>
+                <div class="inf-case" id="inf-rations" role="tabpanel">
+                  <p style="font-size:0.85rem;">Division, scribe's staple: loaves among workers gives each share, remainder stated.</p>
+                  <label class="mono" style="font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);">Loaves ÷ workers</label>
+                  <div class="custom-row" style="margin-top:0.4rem;">
+                    <input type="text" id="infRationsLoaves" value="100" aria-label="Loaf count">
+                    <input type="text" id="infRationsWorkers" value="13" aria-label="Worker count">
+                  </div>
+                  <div id="infRationsOut" class="inf-out"></div>
+                  <p id="infRationsVerdict" class="inf-verdict"></p>
+                  <p id="infRationsHint" class="input-hint"></p>
+                </div>
+                <div class="inf-case" id="inf-graintax" role="tabpanel" hidden>
+                  <p style="font-size:0.85rem;">Rate assessment, the overseer's due: harvest in hekat at a tenth gives the tax.</p>
+                  <label class="mono" style="font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);">Harvest (hekat) × rate</label>
+                  <div class="custom-row" style="margin-top:0.4rem;">
+                    <input type="text" id="infTaxHarvest" value="847" aria-label="Harvest in hekat">
+                    <input type="text" id="infTaxRate" value="0.1" aria-label="Tax rate">
+                  </div>
+                  <div id="infTaxOut" class="inf-out"></div>
+                  <p id="infTaxVerdict" class="inf-verdict"></p>
+                  <p id="infTaxHint" class="input-hint"></p>
+                </div>
+                <div class="inf-case" id="inf-merchant" role="tabpanel" hidden>
+                  <p style="font-size:0.85rem;">The transaction: jars at a price in deben weigh out the copper due.</p>
+                  <label class="mono" style="font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);">Jars × price (deben)</label>
+                  <div class="custom-row" style="margin-top:0.4rem;">
+                    <input type="text" id="infMerchJars" value="42" aria-label="Jar count">
+                    <input type="text" id="infMerchPrice" value="2.5" aria-label="Price in deben">
+                  </div>
+                  <div id="infMerchOut" class="inf-out"></div>
+                  <p id="infMerchVerdict" class="inf-verdict"></p>
+                  <p id="infMerchHint" class="input-hint"></p>
+                </div>
+                <div class="inf-case" id="inf-fieldarea" role="tabpanel" hidden>
+                  <p style="font-size:0.85rem;">The surveyor's reckoning: length by width in cubits, rendered in khet (10,000 sq cubits each, approximate).</p>
+                  <label class="mono" style="font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);">Length × width (cubits)</label>
+                  <div class="custom-row" style="margin-top:0.4rem;">
+                    <input type="text" id="infFieldLen" value="230" aria-label="Field length in cubits">
+                    <input type="text" id="infFieldWid" value="100" aria-label="Field width in cubits">
+                  </div>
+                  <div id="infFieldOut" class="inf-out"></div>
+                  <p id="infFieldVerdict" class="inf-verdict"></p>
+                  <p id="infFieldHint" class="input-hint"></p>
+                </div>
+              </div>
+            </div>
+
             <h2 id="instance-layer">Instance Layer</h2>
             <div class="lab lab-2">
               <div class="panel">
-                <div class="panel-head"><span>Number type + instance value</span><span id="typeBadge" class="badge badge-ok">Valid</span></div>
+                <div class="panel-head"><span>Number type + instance value</span><span class="etype">Representation Element</span><span id="typeBadge" class="badge badge-ok">Valid</span></div>
                 <div class="panel-body">
                   <div class="type-selector" role="tablist" aria-label="Number type selector">
                     <button class="type-btn active" data-type="natural" role="tab" aria-selected="true"><span class="mono">N</span>Natural</button>
@@ -347,7 +464,7 @@
                 </div>
               </div>
               <div class="panel">
-                <div class="panel-head"><span>Representations + properties</span></div>
+                <div class="panel-head"><span>Representations + properties</span><span class="etype">Representational System</span></div>
                 <div class="panel-body">
                   <div id="reprList"></div>
                   <div id="propsList" style="margin-top:1rem;"></div>
@@ -358,7 +475,7 @@
             <h2 id="transformation-layer">Transformation Layer</h2>
             <div class="lab lab-2">
               <div class="panel">
-                <div class="panel-head"><span>Admissible operations</span></div>
+                <div class="panel-head"><span>Admissible operations</span><span class="etype">Epistemic Operation</span></div>
                 <div class="panel-body">
                   <div class="op-grid">
                     <button class="op-btn" data-op="add" aria-label="Add 1">+1</button>
@@ -385,7 +502,7 @@
                 </div>
               </div>
               <div class="panel">
-                <div class="panel-head"><span>Transformation trace</span><button id="clearHistory" class="btn">Clear</button></div>
+                <div class="panel-head"><span>Transformation trace</span><span class="etype">Epistemic Activity</span><button id="clearHistory" class="btn">Clear</button></div>
                 <div class="panel-body">
                   <div id="historyContainer" class="trace-list"></div>
                 </div>
@@ -395,7 +512,7 @@
             <h2 id="constraint-layer">Constraint Layer</h2>
             <div class="lab lab-2">
               <div class="panel">
-                <div class="panel-head"><span>Constraint satisfaction</span></div>
+                <div class="panel-head"><span>Constraint satisfaction</span><span class="etype">Epistemic Standard</span></div>
                 <div class="panel-body"><div id="constraintsContainer"></div></div>
               </div>
               <div class="panel">
@@ -411,7 +528,7 @@
             <h2 id="diagnostics">Boundary Exploration</h2>
             <p>Edge-case probes load boundary values into the instance lab. Probes that violate the active type flip its constraints — that failure is the diagnostic.</p>
             <div class="panel">
-              <div class="panel-head"><span>Edge-case probes</span></div>
+              <div class="panel-head"><span>Edge-case probes</span><span class="etype">Feedback</span></div>
               <div class="panel-body">
                 <div class="edge-grid" id="edgeGrid"></div>
               </div>
@@ -420,6 +537,7 @@
             <h2 id="references">References</h2>
             <ul>
               <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+              <li><a href="https://app.notion.com/p/Number-1dec0f5171ec809d8838c20764714d52?source=copy_link">Number</a> — source note (Notion)</li>
             </ul>
           </div>
         </article>
@@ -428,10 +546,11 @@
       <aside class="sidebar">
         <div class="sidebar-title">Contents</div>
         <nav id="toc">
-          <a class="toc-item" href="#index">Index</a>
           <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#decomposition">Decomposition</a>
           <a class="toc-item" href="#conceptual-layer">Conceptual layer</a>
           <a class="toc-item" href="#resolution-transition">Resolution transition</a>
+          <a class="toc-item" href="#inference">Inference</a>
           <a class="toc-item" href="#instance-layer">Instance layer</a>
           <a class="toc-item" href="#transformation-layer">Transformation layer</a>
           <a class="toc-item" href="#constraint-layer">Constraint layer</a>
@@ -819,9 +938,31 @@
       renderValidation();
       renderReprProps();
       renderConstraints();
+      syncHash();
+    }
+
+    /* Shareable instance state: #t=<type>&v=<value>. Written only when the
+       current hash is empty or already a state hash, so section anchors
+       (#formulation, …) keep working once followed. */
+    function syncHash() {
+      var h = location.hash;
+      if (h && h.indexOf('#t=') !== 0) return;
+      try {
+        history.replaceState(null, '', '#t=' + state.type + '&v=' + encodeURIComponent(state.raw));
+      } catch (e) {}
+    }
+    function restoreHash() {
+      var m = /^#t=([a-z]+)&v=(.*)$/.exec(location.hash || '');
+      if (!m || !TYPES[m[1]]) return;
+      state.type = m[1];
+      try { state.raw = decodeURIComponent(m[2]); } catch (e) { state.raw = '42'; }
+      $('numberInput').value = state.raw;
     }
 
     /* ---------- Trace ---------- */
+    function esc(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
     function logTrace(text, isErr) {
       state.trace.unshift({ text: text, err: !!isErr, time: new Date() });
       state.trace = state.trace.slice(0, 8);
@@ -831,7 +972,7 @@
       var box = $('historyContainer');
       if (!state.trace.length) { box.innerHTML = '<div class="trace-empty">No transformations yet</div>'; return; }
       box.innerHTML = state.trace.map(function (t) {
-        return '<div class="trace-item' + (t.err ? ' err' : '') + '"><div class="mono">' + t.text + '</div>' +
+        return '<div class="trace-item' + (t.err ? ' err' : '') + '"><div class="mono">' + esc(t.text) + '</div>' +
           '<div class="trace-time">' + t.time.toLocaleTimeString() + '</div></div>';
       }).join('');
     }
@@ -972,6 +1113,7 @@
       { label: 'π (pi)', type: 'real', raw: '3.14159265359' },
       { label: "e (Euler's)", type: 'real', raw: '2.718281828' },
       { label: 'Repeating (1/3)', type: 'rational', raw: '1/3' },
+      { label: 'Float artifact', type: 'real', raw: '0.30000000000000004' },
       { label: 'Imaginary (i)', type: 'complex', raw: 'i' }
     ];
 
@@ -1036,6 +1178,76 @@
       edgeGrid.appendChild(b);
     });
 
+    /* ---------- Inference cases ---------- */
+    (function inference() {
+      var tabs = Array.prototype.slice.call(document.querySelectorAll('[data-case]'));
+      function showCase(name) {
+        tabs.forEach(function (b) {
+          var on = b.dataset.case === name;
+          b.classList.toggle('active', on);
+          b.setAttribute('aria-selected', on ? 'true' : 'false');
+        });
+        document.querySelectorAll('.inf-case').forEach(function (p) {
+          p.hidden = p.id !== 'inf-' + name;
+        });
+      }
+      tabs.forEach(function (b) {
+        b.addEventListener('click', function () { showCase(b.dataset.case); });
+      });
+      function num(id) {
+        var s = $(id).value.trim().replace(/−/g, '-');
+        if (!/^[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?$/.test(s)) return null;
+        var n = Number(s);
+        return Number.isFinite(n) ? n : null;
+      }
+      function setHint(out, hint, msg) {
+        if (msg) { hint.textContent = msg; hint.classList.add('err'); out.textContent = '—'; }
+        else { hint.textContent = ''; hint.classList.remove('err'); }
+        return !msg;
+      }
+      function rations() {
+        var l = num('infRationsLoaves'), w = num('infRationsWorkers');
+        if (!setHint($('infRationsOut'), $('infRationsHint'), (l === null || w === null || w === 0) ? 'Enter finite loaves and a non-zero crew.' : '')) { $('infRationsVerdict').textContent = ''; return; }
+        var q = Math.floor(l / w), r = Math.round((l - q * w) * 100) / 100;
+        $('infRationsOut').textContent = String(l) + ' ÷ ' + String(w) + ' = ' + String(q) + ' remainder ' + String(r);
+        $('infRationsVerdict').innerHTML = 'Each worker draws <strong>' + String(q) + ' loaves</strong>' + (r ? ', ' + String(r) + ' held back.' : ', nothing held back.');
+      }
+      function graintax() {
+        var h = num('infTaxHarvest'), t = num('infTaxRate');
+        if (!setHint($('infTaxOut'), $('infTaxHint'), (h === null || t === null) ? 'Enter finite harvest and rate.' : '')) { $('infTaxVerdict').textContent = ''; return; }
+        var due = Math.round(h * t * 100) / 100;
+        $('infTaxOut').textContent = String(h) + ' × ' + String(t) + ' = ' + String(due) + ' hekat';
+        $('infTaxVerdict').innerHTML = 'The granary claims <strong>' + String(due) + ' hekat</strong> (approximate measure).';
+      }
+      function merchant() {
+        var j = num('infMerchJars'), p = num('infMerchPrice');
+        if (!setHint($('infMerchOut'), $('infMerchHint'), (j === null || p === null) ? 'Enter finite jars and price.' : '')) { $('infMerchVerdict').textContent = ''; return; }
+        var total = Math.round(j * p * 100) / 100;
+        $('infMerchOut').textContent = String(j) + ' × ' + String(p) + ' = ' + String(total) + ' deben';
+        $('infMerchVerdict').innerHTML = 'Copper due: <strong>' + String(total) + ' deben</strong> (approximate weight).';
+      }
+      function fieldarea() {
+        var l = num('infFieldLen'), w = num('infFieldWid');
+        if (!setHint($('infFieldOut'), $('infFieldHint'), (l === null || w === null) ? 'Enter finite length and width.' : '')) { $('infFieldVerdict').textContent = ''; return; }
+        var sq = l * w, khet = Math.round(sq / 10000 * 1000) / 1000;
+        $('infFieldOut').textContent = String(l) + ' × ' + String(w) + ' = ' + String(sq) + ' sq cubits ≈ ' + String(khet) + ' khet';
+        $('infFieldVerdict').innerHTML = 'The survey records <strong>' + String(khet) + ' khet</strong> (approximate).';
+      }
+      ['infRationsLoaves', 'infRationsWorkers'].forEach(function (id) { $(id).addEventListener('input', rations); });
+      ['infTaxHarvest', 'infTaxRate'].forEach(function (id) { $(id).addEventListener('input', graintax); });
+      ['infMerchJars', 'infMerchPrice'].forEach(function (id) { $(id).addEventListener('input', merchant); });
+      ['infFieldLen', 'infFieldWid'].forEach(function (id) { $(id).addEventListener('input', fieldarea); });
+      rations(); graintax(); merchant(); fieldarea();
+      window.__infReset = function () {
+        $('infRationsLoaves').value = '100'; $('infRationsWorkers').value = '13';
+        $('infTaxHarvest').value = '847'; $('infTaxRate').value = '0.1';
+        $('infMerchJars').value = '42'; $('infMerchPrice').value = '2.5';
+        $('infFieldLen').value = '230'; $('infFieldWid').value = '100';
+        showCase('rations');
+        rations(); graintax(); merchant(); fieldarea();
+      };
+    })();
+
     $('resetBtn').addEventListener('click', function () {
       activeDomain = 'temperature';
       document.querySelectorAll('.domain-card').forEach(function (x) {
@@ -1050,9 +1262,11 @@
       state.raw = '42';
       $('numberInput').value = '42';
       setType('natural');
+      if (window.__infReset) window.__infReset();
     });
 
     /* init */
+    restoreHash();
     renderTypeTabs();
     refresh();
     renderCoarseFine();
