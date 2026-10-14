@@ -59,4 +59,4 @@ enabled_layouts stack,tall
 ## References
 
 - [https://sw.kovidgoyal.net](https://sw.kovidgoyal.net/)
-- [kitty.conf](https://github.com/dbremont/configs/tree/main/global/config/kitty)
+- [kitty.conf](https://github.com/dbremont/configs/blob/main/global/kitty/kitty.conf)
