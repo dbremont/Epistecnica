@@ -57,7 +57,7 @@ any cross-graph unification is future work, not an assumption.
 | `GET /` | Hub `src/app/index.html` (project cards, live \|V\|/\|E\| strips, entry guidance) |
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface (per-subproject docs pages removed) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
-| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`), corpus (`data/**.md`), generated search index (`data/index.json`) |
+| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), generated search index (`data/index.json`), hand-edited `data/changelog.json` (+ schema) |
 | `GET /glossarium/<path>` | **Not served here.** The lexical surface moved to the external Naturgnosis medium (`http://localhost:8013/glossarium/web/`: catalog, term view `?t=<slug>`, lookup index `/glossarium/data/index.json`); Epistecnica pages link out and the select-a-word popup loads its JS + index from there |
 | `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
 | `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |
@@ -100,7 +100,7 @@ load; no live force simulation. Recompute after edits is manual 🎯 (a
 | `tecnica/graph.html` | deck.gl (WebGL) + precomputed layout via `app/vendor/socio-graph.js` | No |
 | `tecnica/edit.html` | deck.gl + `socio-graph.js`, AI-assisted authoring | Yes (POST patch) |
 | `note/index.html` (catalog) | Client-side dir browse/files + `@tag` search over generated `app/data/index.json` (`make notes-index`) | No |
-| `note/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`) | No |
+| `note/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-note `history` modal over `data/changelog.json` | No |
 | Subproject `about.html`, `docs.html` | Project about & docs plates (app root; `view/` retired) | No |
 
 The two renderers are intentionally independent (Canvas2D vs deck.gl); don't

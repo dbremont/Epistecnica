@@ -16,6 +16,8 @@ src/note/
     ├── vendor/      # vendored runtime deps (marked.min.js, alpine.min.js)
     ├── data/        # the corpus (never machine-edited) + generated index.json (do not edit)
     │   ├── index.json   # generated search index
+    │   ├── changelog.json        # per-note edit history (hand-edited)
+    │   ├── changelog.schema.json # schema for changelog.json
     │   ├── general/     # shared notes (philosophiae, companions)
     │   ├── technica/    # technical notes (cto/, pto/, op/)
     │   └── live/        # live notes — self-contained hand-authored HTML pages
@@ -66,6 +68,29 @@ facet bars: sections are reached as folders and tags through the search box.
   `live/hawkes-process.html` ("Hawkes Process"),
   `live/fokker-planck-equation.html` ("Fokker-Planck Equation"), from
   epistemica's former `view/tool/`.
+
+## Changelog / history
+
+Every markdown note carries a per-file edit history in
+`app/data/changelog.json` (with `changelog.schema.json`): an array of
+`{file_path, logs[]}` objects, `file_path` a corpus-relative `.md` path
+(live HTML and other assets are out of scope). Each log is
+`{date: YYYY-MM-DD, summary; optional kind}` — commit-type words like
+`feat`/`fix`/`docs` suggested. Object key order follows the schema's
+`properties` order.
+
+- Every change set touching `app/data/**/*.md` appends one log per touched
+  note, **in the same commit**; validate with
+  `python3 -m json.tool app/data/changelog.json`.
+- `bin/link_changelog_commits.py` (or `make changelog-link`) fills the
+  optional `commit`/`before` shas **after** the change-set commit — the
+  introducing sha is unknowable when the log is authored. Commit the
+  json-only annotation separately. Going forward only.
+- The viewer shows a `history` chip when logs exist, opening a modal that
+  lists them newest-first, each with `commit` / `before` / `after` links to
+  `github.com/dbremont/Epistecnica`.
+- The index builder ignores `*.json`, so changelog edits need no index
+  rebuild. Git log remains the source of truth.
 
 ## Pins
 

@@ -89,6 +89,12 @@ disabled.
   or individually `make notes-index`,
   `make course-index`, `make document-index`, `make persona-index`
   (see verification list below).
+- Every change set touching `src/note/app/data/**/*.md` appends one log per
+  file to `src/note/app/data/changelog.json` (schema beside it) **in the same
+  commit**; then stamp `commit`/`before` post-commit with
+  `python3 bin/link_changelog_commits.py`, commit the json-only annotation.
+  The viewer's `history` chip opens the modal. See `src/note/README.md`
+  §Changelog / history.
 - Live notes (`src/note/app/data/live/*.html`) share the `note.html` frame
   (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
   and the philosophia shell order — recipe + conversion record in

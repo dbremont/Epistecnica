@@ -34,7 +34,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check bootstrap notes-index course-index document-index search-index index build deploy-local deploy-server logs stop
+.PHONY: help run check bootstrap notes-index course-index document-index search-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -60,6 +60,9 @@ search-index: ## build the universal search snapshot (before build/deploy)
 	python3 bin/build_search_index.py
 
 index: notes-index course-index document-index search-index ## rebuild all search indexes (corpora first, universal snapshot last)
+
+changelog-link: ## stamp commit links on notes changelog logs introduced by HEAD
+	python3 bin/link_changelog_commits.py
 
 # One-time CouchDB setup. The create-then-verify idiom on each DB keeps the
 # rule re-runnable (PUT on an existing DB would fail with 412). Credentials
