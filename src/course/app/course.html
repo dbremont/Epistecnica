@@ -521,7 +521,7 @@
             tags.forEach(function (t) {
                 var a = document.createElement('a');
                 a.className = 'chip';
-                a.href = 'index.html?tag=' + encodeURIComponent(t);
+                a.href = 'index.html?q=' + encodeURIComponent('@' + t);
                 a.textContent = '#' + t;
                 meta.appendChild(a);
             });

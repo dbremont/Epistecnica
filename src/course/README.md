@@ -10,7 +10,7 @@ src/course/
 ├── README.md        # this document
 ├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /course/
-    ├── index.html   # catalog: search + kind + tag facets
+    ├── index.html   # catalog: dir browse/files + @tag search
     ├── course.html  # course view (?c=<dir>): entry plus its lectures
     ├── lecture.html # lecture view (?l=<dir>/<file>)
     ├── courses.css  # markdown typography (shared design tokens)
@@ -29,14 +29,17 @@ src/course/
   linking to their lecture pages — the entry-plus-lectures shape is what
   makes a course a course in the view.
 - The index holds two kinds: `course` (path `<dir>`) and `lecture`
-  (path `<dir>/<file>`, with a `course` parent field). The catalog
-  facets by kind (`all`, `course`, `lecture`) instead of sections.
+  (path `<dir>/<file>`, with a `course` parent field). The catalog follows
+  the Naturgnosis model (see `src/note/README.md` §Catalog): `browse` lists
+  one folder card per course, and entering a folder shows the course entry
+  (`course.html?c=<dir>`) plus its lecture cards
+  (`lecture.html?l=<dir>/<file>`); `files` flattens the corpus. There are no
+  facet bars — kind is a badge on each card, tags are `@tag` search tokens.
 - Optional `tags: [...]` front matter (`---`-fenced, the same
   front-matter style used across the corpora) types entries and lectures
-  independently; tags
-  surface as catalog facets and viewer chips, and rank between headings
-  and body text in search. See `src/note/README.md` for the shared tag
-  convention.
+  independently; tags surface as `@tag` search tokens and viewer chips
+  (`?q=@<tag>` deep links), and rank between headings and body text in
+  search. See `src/note/README.md` for the shared tag convention.
 - Markdown rendering uses the notes vendor bundle relatively
   (`../note/vendor/marked.min.js`) — no duplicated runtime deps.
 

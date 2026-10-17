@@ -11,7 +11,7 @@ src/document/
 ├── README.md        # this document
 ├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /document/
-    ├── index.html   # catalog: search + section + tag facets
+    ├── index.html   # catalog: dir browse/files + @tag search
     ├── document.html# single-document viewer (?d=<path>)
     ├── documents.css# markdown typography (shared design tokens)
     ├── data/        # generated (index.json — do not edit)
@@ -24,11 +24,15 @@ src/document/
 - Regenerate the search index after any corpus change: `make document-index`.
 - Documents are plain markdown entries: title comes from the first `# `
   heading (else the filename); the top-level directory is the section
-  (`papers`, `articles`, `books`, …).
+  (`papers`, `articles`, `books`, …). The catalog follows the Naturgnosis
+  model (see `src/note/README.md` §Catalog): `browse` lists one folder card
+  per section, and entering a folder shows its document cards; `files`
+  flattens the corpus. There are no facet bars — tags are `@tag` search
+  tokens.
 - Optional `tags: [...]` front matter (`---`-fenced, the same
   front-matter style used across the corpora) types each document; tags
-  surface as catalog facets
-  and viewer chips, and rank between headings and body text in search.
+  surface as `@tag` search tokens and viewer chips (`?q=@<tag>` deep
+  links), and rank between headings and body text in search.
   See `src/note/README.md` for the shared tag convention.
 - Markdown rendering uses the notes vendor bundle relatively
   (`../note/vendor/marked.min.js`) — no duplicated runtime deps.

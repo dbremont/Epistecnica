@@ -10,7 +10,7 @@ src/note/
 ├── README.md        # this document
 ├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /note/
-    ├── index.html   # catalog: search + section facets
+    ├── index.html   # catalog: dir browse/files + @tag search (+ pins)
     ├── note.html    # single-note viewer (?n=<path>)
     ├── notes.css    # markdown typography (shared design tokens)
     ├── vendor/      # vendored runtime deps (marked.min.js, alpine.min.js)
@@ -25,6 +25,24 @@ src/note/
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
   section (`general`, `technica`, …).
+
+## Catalog
+
+`index.html` follows the Naturgnosis catalog model (the same engine is
+mirrored in the courses and documents catalogs). There are no section/tag
+facet bars: sections are reached as folders and tags through the search box.
+
+- **Search** (`?q=` deep link, prefilled): free text ranked title > headings
+  > tags > body, plus `@tag` tokens — each an exact, case-insensitive tag
+  filter (AND). Typing `@` opens an autocomplete menu of corpus tags.
+  `ctrl + /` focuses the box (`/` focuses the hub's universal search).
+- **Views** (`?view=browse|files`, default `browse`): browse mixes folder
+  cards (a subdirectory, with a count) with the files directly inside the
+  current directory; files flattens the whole corpus (or the `?dir=` scope).
+- **Directory** (`?dir=<scope>`): entering a folder card, or an ancestor
+  breadcrumb, changes the listing in place via `pushState` — no reload.
+- **Toggles**: ★ pinned (server pins, `GET/POST /note/api/pins`), live
+  (`?live=1`), unfinished (`?unfinished=1`, notes tagged `unfinished`).
 
 ## Notes vs live notes
 
@@ -74,9 +92,9 @@ tags: [java, debugging, osgi]
 
 - Tags follow the same naming rules as paths: ASCII, lowercase,
   kebab-case. The indexer warns on violations and drops the bad tag.
-- Tags are indexed into `data/index.json`, surface as catalog facets
-  (clickable per-row chips, `?tag=` deep links), render as chips on the
-  note page, and rank between headings and body text in search.
+- Tags are indexed into `data/index.json`, surface as `@tag` search tokens
+  and as viewer chips (`?q=@<tag>` deep links), and rank between headings
+  and body text in search.
 - The same convention applies to the courses corpus
   (`src/course/README.md`) and the documents corpus
   (`src/document/README.md`).

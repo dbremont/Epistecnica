@@ -366,18 +366,15 @@
             pointer-events: none;
         }
 
-        .facets {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.6rem;
-        }
+        /* ---------- catalog view modes ---------- */
 
-        .facet {
+        .viewbar { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+
+        .viewbtn {
             font-family: var(--font-mono);
             font-size: 0.62rem;
             letter-spacing: 0.18em;
             text-transform: uppercase;
-            text-decoration: none;
             color: var(--text-secondary);
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -386,94 +383,154 @@
             transition: color 0.3s ease, border-color 0.3s ease;
         }
 
-        .facet:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .viewbtn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
-        .facet.active {
-            color: var(--text-primary);
-            border-color: var(--accent-gold);
+        .viewbtn.active { color: var(--text-primary); border-color: var(--accent-gold); }
+
+        .tag-menu {
+            position: absolute;
+            z-index: 30;
+            left: 0;
+            right: 0;
+            top: calc(100% + 4px);
+            margin: 0;
+            padding: 0.3rem 0;
+            list-style: none;
+            max-height: 16rem;
+            overflow-y: auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
         }
 
-        .facet .count { color: var(--text-muted); margin-left: 0.4rem; }
-        .facet.active .count { color: var(--accent-gold); }
-
-        .tagbar { display: flex; align-items: baseline; gap: 0.8rem; }
-        .tagbar-label {
+        .tag-menu li {
+            padding: 0.35rem 0.95rem;
             font-family: var(--font-mono);
-            font-size: 0.58rem;
-            letter-spacing: 0.2em;
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+        }
+
+        .tag-menu li .at { color: var(--text-muted); }
+
+        .tag-menu li[aria-selected="true"] {
+            background: var(--accent-cyan-dim);
+            color: var(--text-primary);
+        }
+
+        /* Breadcrumb: which directory the catalog is showing. */
+        .crumbbar {
+            margin-bottom: 1.2rem;
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.16em;
             text-transform: uppercase;
             color: var(--text-muted);
-            flex-shrink: 0;
         }
-        .tagbar .facets { flex: 1; }
 
-        .row-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.55rem; }
+        .crumbbar a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .crumbbar a:hover { color: var(--accent-cyan); }
+        .crumbbar .sep { margin: 0 0.5em; opacity: 0.5; }
+        .crumbbar .here { color: var(--accent-gold); }
+        .crumbbar .count { margin-left: 0.8rem; opacity: 0.75; }
 
-        .row-tag {
-            font-family: var(--font-mono);
-            font-size: 0.55rem;
-            letter-spacing: 0.08em;
-            color: var(--accent-cyan);
-            background: transparent;
+        .crumbbar-clear {
+            float: right;
+            color: var(--text-secondary);
+            text-decoration: none;
+            background: var(--bg-card);
             border: 1px solid var(--border-subtle);
-            border-radius: 2px;
-            padding: 0.15rem 0.45rem;
-            cursor: pointer;
-            transition: border-color 0.3s ease, color 0.3s ease;
+            padding: 0.35rem 0.6rem;
+            letter-spacing: 0.14em;
         }
 
-        .row-tag:hover { border-color: var(--accent-cyan); }
-        .row-tag.active { border-color: var(--accent-gold); color: var(--accent-gold); }
+        .crumbbar-clear:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
+        /* Explorer card grid: folders and files as visual cards. */
         .results {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.9rem;
+        }
+
+        .card {
+            position: relative;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-card);
+            overflow: hidden;
             display: flex;
             flex-direction: column;
-            gap: 1px;
-            background: var(--border-subtle);
-            border: 1px solid var(--border-subtle);
+            transition: border-color 140ms ease, transform 140ms ease;
         }
 
-        .row {
-            position: relative;
-            background: var(--bg-void);
-            transition: background 0.3s ease;
-        }
+        .card:hover { border-color: var(--accent-cyan); transform: translateY(-1px); }
 
-        .row:hover { background: var(--bg-surface); }
+        .card:hover .card-name { color: var(--accent-cyan); }
 
-        .row-link {
-            display: block;
-            padding: 1.1rem 1.3rem;
+        .card-link {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
             color: inherit;
             text-decoration: none;
         }
 
-        .row-top {
+        .card-thumb {
+            height: 104px;
             display: flex;
-            align-items: baseline;
-            gap: 1rem;
-            padding-right: 1.9rem;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border-subtle);
         }
 
-        .row-title {
-            font-size: 0.95rem;
+        .card-thumb svg { width: 44px; height: 44px; }
+
+        .card-dir .card-thumb svg { color: var(--accent-gold); }
+
+        .card-file .card-thumb svg { color: var(--text-secondary); }
+
+        .card-live .card-thumb svg { color: var(--accent-cyan); }
+
+        .card-body {
+            padding: 0.7rem 0.8rem 0.8rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+            flex: 1;
+        }
+
+        .card-name {
+            font-size: 0.85rem;
             font-weight: 500;
+            line-height: 1.35;
             color: var(--text-primary);
+            overflow-wrap: anywhere;
         }
 
-        .row:hover .row-title { color: var(--accent-cyan); }
+        .card-name mark {
+            background: var(--accent-cyan-dim);
+            color: var(--accent-cyan);
+            padding: 0 0.1em;
+        }
 
-        .row-path {
-            margin-left: auto;
+        .card-sub {
             font-family: var(--font-mono);
             font-size: 0.58rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
+            letter-spacing: 0.06em;
             color: var(--text-muted);
-            white-space: nowrap;
+            overflow-wrap: anywhere;
         }
 
-        .row-kind {
+        .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: auto;
+            padding-top: 0.25rem;
+        }
+
+        .card-kind {
             flex-shrink: 0;
             font-family: var(--font-mono);
             font-size: 0.5rem;
@@ -483,26 +540,29 @@
             border: 1px solid var(--accent-cyan);
             border-radius: 2px;
             padding: 0.1rem 0.4rem;
-            margin-left: 0.5rem;
         }
 
-        .row-snippet {
-            margin-top: 0.45rem;
-            font-size: 0.8rem;
-            font-weight: 300;
-            line-height: 1.6;
-            color: var(--text-secondary);
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
+        .card-dir .card-kind { color: var(--accent-gold); border-color: var(--accent-gold); }
+
+        .card-pin {
+            position: absolute;
+            top: 0.4rem;
+            right: 0.4rem;
+            width: 26px;
+            height: 26px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
         }
 
-        .row-snippet mark, .row-title mark {
-            background: var(--accent-cyan-dim);
-            color: var(--accent-cyan);
-            padding: 0 0.1em;
-        }
+        .card-pin:hover { color: var(--accent-cyan); }
+
+        .card-pin.pinned { color: var(--accent-gold); }
 
         .empty {
             border: 1px solid var(--border-subtle);
@@ -522,6 +582,8 @@
             gap: 1.1rem;
             margin-top: 1.2rem;
         }
+
+        .pager[hidden] { display: none; }
 
         .page-btn {
             font-family: var(--font-mono);
@@ -588,7 +650,6 @@
 
         @media (max-width: 860px) {
             .stats { grid-template-columns: 1fr; }
-            .row-path { display: none; }
             .nav-inner { flex-wrap: wrap; row-gap: 0.6rem; }
             .nav-inner .nav-right { flex: 1 1 100%; order: 3; }
             .nav-inner .usearch-wrap { flex: 1; width: auto; }
@@ -629,16 +690,18 @@
         </header>
 
         <div class="toolbar">
+            <div class="viewbar" id="viewbar" role="group" aria-label="Catalog view">
+                <button type="button" class="viewbtn" data-view="browse">browse</button>
+                <button type="button" class="viewbtn" data-view="files">files</button>
+            </div>
             <div class="search-wrap">
                 <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                <input type="search" id="search" placeholder="search the corpus&hellip;  ( ctrl + / )" aria-label="Search documents" autocomplete="off">
-            </div>
-            <div class="facets" id="facets" role="group" aria-label="Section filters"></div>
-            <div class="tagbar" id="tagbar" hidden>
-                <span class="tagbar-label">tags</span>
-                <div class="facets" id="tag-facets" role="group" aria-label="Tag filters"></div>
+                <input type="search" id="search" placeholder="search the corpus&hellip;  (@ tags, ctrl + / focus)" aria-label="Search documents" autocomplete="off" aria-autocomplete="list" aria-controls="tag-menu">
+                <ul class="tag-menu" id="tag-menu" hidden role="listbox" aria-label="Tag suggestions"></ul>
             </div>
         </div>
+
+        <div class="crumbbar" id="crumbbar" hidden></div>
 
         <div class="results" id="results"></div>
         <div class="empty" id="empty" hidden>no documents match.</div>
@@ -669,8 +732,13 @@
         'use strict';
 
         var NOTES = [];
-        var state = { q: '', section: 'all', tag: 'all', page: 1, pageSize: 20 };
-        var rowH = 66;
+        var SEG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+        var VIEWS = ['browse', 'files'];
+        var GRID_PAGE = 48;
+        var NOUN = 'document', NOUNS = 'documents', HOME = 'documents', TITLE = 'Documents';
+        var state = { q: '', view: 'browse', dir: '', section: 'all', page: 1, pageSize: GRID_PAGE, liveOnly: false, unfinishedOnly: false };
+        var PINS = [];          /* pinned note paths, server order */
+        var pinsAvailable = false;
         var lastTotalPages = 1;
         var resultsEl = document.getElementById('results');
         var emptyEl = document.getElementById('empty');
@@ -678,6 +746,13 @@
         var prevBtn = document.getElementById('page-prev');
         var nextBtn = document.getElementById('page-next');
         var indEl = document.getElementById('page-ind');
+
+        /* ---------- @ tag picker ---------- */
+
+        var ALL_TAGS = [];      /* sorted unique tags across NOTES */
+        var tagMenu = document.getElementById('tag-menu');
+        var tagItems = [];
+        var tagSel = -1;
 
         /* ---------- ambient constellation ---------- */
 
@@ -964,6 +1039,12 @@
             return p.split('/').map(encodeURIComponent).join('/');
         }
 
+        function cleanQuery(sp) {
+            /* Keep directory separators readable: URLSearchParams encodes '/'
+               as '%2F', but both forms decode to the same value. */
+            return sp.toString().replace(/%2F/gi, '/');
+        }
+
         function hl(text, q) {
             var e = esc(text);
             if (!q) return e;
@@ -972,15 +1053,29 @@
             return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
         }
 
-        function snippet(text, q) {
-            if (!q) return text.slice(0, 180);
-            var i = text.indexOf(q.toLowerCase());
-            if (i < 0) return text.slice(0, 180);
-            var start = Math.max(0, i - 60);
-            return (start > 0 ? '\u2026' : '') + text.slice(start, start + 180);
+        function liveSub(n) {
+            if (n.kind !== 'live') return '';
+            var parts = String(n.path || '').split('/');
+            return parts.length > 2 ? parts[1] : '';
         }
 
+        /* `@tag` tokens are exact, case-insensitive tag filters (AND); the
+           remaining words form the free-text query. A tag-only query matches
+           on tags alone with a neutral score. */
         function score(n, q) {
+            var ftags = [], rest = [];
+            q.split(/\s+/).forEach(function (tok) {
+                if (tok.charAt(0) === '@' && tok.length > 1) ftags.push(tok.slice(1));
+                else if (tok) rest.push(tok);
+            });
+            if (ftags.length) {
+                var have = (n.tags || []).map(function (t) { return t.toLowerCase(); });
+                for (var k = 0; k < ftags.length; k++) {
+                    if (have.indexOf(ftags[k]) < 0) return -1;
+                }
+            }
+            q = rest.join(' ');
+            if (!q) return 0;
             var t = n.title.toLowerCase().indexOf(q);
             if (t === 0) return 0;
             if (t > 0) return 1;
@@ -988,111 +1083,272 @@
                 if (n.headings[i].text.toLowerCase().indexOf(q) >= 0) return 2;
             }
             if (n.tags && n.tags.join(' ').indexOf(q) >= 0) return 2;
+            if (liveSub(n).toLowerCase().indexOf(q) >= 0) return 2;
             if (n.text.indexOf(q) >= 0) return 3;
             return -1;
         }
 
-        function hasTag(n, tag) { return tag === 'all' || (n.tags && n.tags.indexOf(tag) >= 0); }
+        function sortScored(list, q) {
+            return list.map(function (n) { return { n: n, s: score(n, q) }; })
+                .sort(function (a, b) { return a.s - b.s || a.n.title.localeCompare(b.n.title); })
+                .map(function (x) { return x.n; });
+        }
+
+        function isPinned(p) { return PINS.indexOf(p) >= 0; }
+
+        function isUnfinished(n) { return !!n.tags && n.tags.indexOf('unfinished') >= 0; }
+
+        function parentDir(p) {
+            var i = p.lastIndexOf('/');
+            return i < 0 ? '' : p.slice(0, i);
+        }
+
+        /* Directory deep link (?dir=a/b): kebab segments only, never a file. */
+        function validDir(d) {
+            if (!d || d.length > 200) return '';
+            var parts = d.split('/');
+            for (var i = 0; i < parts.length; i++) {
+                if (!SEG_RE.test(parts[i])) return '';
+            }
+            return parts.join('/');
+        }
+
+        /* First path segment, or null when a rootless path must stay a file
+           rather than become a folder (the notes corpus has one root note).
+           Courses are the inverse: a depth-0 path IS the folder itself. */
+        function folderSeg(n) {
+            var s = n.path.indexOf('/');
+            if (s < 0) return NOUN === 'entry' ? n.path : null;
+            return n.path.slice(0, s);
+        }
+
+        /* Browse: strict level scoping — only files directly in state.dir.
+           Course entries live at the directory itself (path === dir), so they
+           belong to their folder; the course root lists folders only. */
+        function fileInBrowse(n) {
+            if (NOUN === 'entry') return state.dir !== '' && (n.path === state.dir || parentDir(n.path) === state.dir);
+            return parentDir(n.path) === state.dir;
+        }
+
+        /* Files view keeps the looser scope: no ?dir= flattens the whole
+           corpus; a ?dir= scope restricts the listing to that directory. */
+        function fileInDir(n) {
+            if (!state.dir) return true;
+            if (NOUN === 'entry') return n.path === state.dir || parentDir(n.path) === state.dir;
+            return parentDir(n.path) === state.dir;
+        }
+
+        function passFilters(n) {
+            if (state.section === 'pinned' && !isPinned(n.path)) return false;
+            if (state.liveOnly && n.kind !== 'live') return false;
+            if (state.unfinishedOnly && !isUnfinished(n)) return false;
+            return true;
+        }
 
         /* ---------- render ---------- */
+
+        function browseFiles() {
+            var q = state.q.trim().toLowerCase();
+            var list = NOTES.filter(function (n) {
+                if (!passFilters(n)) return false;
+                if (!fileInBrowse(n)) return false;
+                if (!q) return true;
+                return score(n, q) >= 0;
+            });
+            return q ? sortScored(list, q) : list;
+        }
 
         function filteredList() {
             var q = state.q.trim().toLowerCase();
             var list = NOTES.filter(function (n) {
-                if (state.section !== 'all' && n.section !== state.section) return false;
-                if (!hasTag(n, state.tag)) return false;
+                if (!passFilters(n)) return false;
+                if (!fileInDir(n)) return false;
                 if (!q) return true;
                 return score(n, q) >= 0;
             });
-            if (q) {
-                list = list.map(function (n) { return { n: n, s: score(n, q) }; })
-                    .sort(function (a, b) { return a.s - b.s || a.n.title.localeCompare(b.n.title); })
-                    .map(function (x) { return x.n; });
+            return q ? sortScored(list, q) : list;
+        }
+
+        function pinButtonHtml(path) {
+            if (!pinsAvailable) return '';
+            var on = isPinned(path);
+            return '<button type="button" class="card-pin' + (on ? ' pinned' : '') + '"' +
+                ' data-path="' + esc(path) + '"' +
+                ' aria-pressed="' + (on ? 'true' : 'false') + '"' +
+                ' aria-label="' + (on ? 'Unpin' : 'Pin') + '"' +
+                ' title="' + (on ? 'unpin' : 'pin') + '">' +
+                '<svg width="13" height="13" viewBox="0 0 24 24" fill="' + (on ? 'currentColor' : 'none') + '" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>' +
+                '</button>';
+        }
+
+        function fileHref(n) {
+            if (NOUN === 'document') return 'document.html?d=' + encPath(n.path);
+            if (NOUN === 'entry') return n.kind === 'course' ? 'course.html?c=' + encPath(n.path) : 'lecture.html?l=' + encPath(n.path);
+            return n.kind === 'live' ? 'data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
+        }
+
+        var ICON_DIR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>';
+
+        var ICON_FILE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
+
+        /* File card: file glyph, title + path, optional kind badge. */
+        function fileCard(n, q) {
+            var live = n.kind === 'live';
+            var badge = '';
+            if (live) {
+                var sub = liveSub(n);
+                badge = '<span class="card-kind">live</span>' + (sub ? '<span class="card-kind">#' + esc(sub) + '</span>' : '');
+            } else if (NOUN === 'entry' && n.kind) {
+                badge = '<span class="card-kind">' + esc(n.kind) + '</span>';
             }
-            return list;
+            return '<div class="card ' + (live ? 'card-live' : 'card-file') + '">' +
+                '<a class="card-link" href="' + fileHref(n) + '">' +
+                '<div class="card-thumb">' + ICON_FILE + '</div>' +
+                '<div class="card-body">' +
+                '<div class="card-name">' + hl(n.title, q) + '</div>' +
+                (live ? '' : '<div class="card-sub">' + esc(n.path) + '</div>') +
+                (badge ? '<div class="card-meta">' + badge + '</div>' : '') +
+                '</div></a>' + pinButtonHtml(n.path) + '</div>';
         }
 
-        /* Rows per page: whatever fills the viewport below the toolbar,
-           minus footer, page padding, pager, and a little slack. */
-        function sizeFor() {
-            var top = resultsEl.getBoundingClientRect().top;
-            var foot = document.querySelector('footer').offsetHeight;
-            var avail = window.innerHeight - top - foot - 112;
-            return Math.max(3, Math.min(60, Math.floor(Math.max(avail, 200) / rowH)));
+        /* Folder card: folder glyph, name + count. Enters the directory in
+           place (pushState), no page reload. */
+        function dirCard(s, q) {
+            return '<div class="card card-dir">' +
+                '<a class="card-link" href="' + navHref(s.path) + '" data-navdir="' + esc(s.path) + '">' +
+                '<div class="card-thumb">' + ICON_DIR + '</div>' +
+                '<div class="card-body">' +
+                '<div class="card-name">' + hl(s.name, q) + '</div>' +
+                '<div class="card-meta"><span class="card-kind">dir</span>' +
+                '<span class="card-sub">' + s.count + ' ' + (s.count === 1 ? NOUN : NOUNS) + '</span></div>' +
+                '</div></a></div>';
         }
 
-        function tagsHtml(n) {
-            if (!n.tags || !n.tags.length) return '';
-            var out = ['<div class="row-tags">'];
-            for (var i = 0; i < n.tags.length; i++) {
-                out.push('<button type="button" class="row-tag' + (state.tag === n.tags[i] ? ' active' : '') + '"' +
-                    ' data-tag="' + esc(n.tags[i]) + '">#' + esc(n.tags[i]) + '</button>');
-            }
-            out.push('</div>');
-            return out.join('');
+        function dirCards(subs) {
+            var q = state.q.trim().toLowerCase();
+            return subs.map(function (s) { return dirCard(s, q); }).join('');
         }
 
-        function buildRows(list) {
+        function fileCards(list) {
             var q = state.q.trim().toLowerCase();
             var start = (state.page - 1) * state.pageSize;
-            var slice = list.slice(start, start + state.pageSize);
-            var out = [];
-            for (var i = 0; i < slice.length; i++) {
-                var n = slice[i];
-                var snip = snippet(n.text, q);
-                var href = 'document.html?d=' + encPath(n.path);
-                out.push(
-                    '<div class="row">' +
-                    '<a class="row-link" href="' + href + '">' +
-                    '<div class="row-top"><span class="row-title">' + hl(n.title, q) + '</span>' +
-                    '<span class="row-path">' + esc(n.path) + '</span></div>' +
-                    '<div class="row-snippet">' + hl(snip, q) + '</div>' +
-                    '</a>' +
-                    tagsHtml(n) +
-                    '</div>'
-                );
+            return list.slice(start, start + state.pageSize).map(function (n) { return fileCard(n, q); }).join('');
+        }
+
+        /* Immediate subfolders of state.dir, with counts. A folder shows when
+           it holds a note matching the query (if any); filters scope both. */
+        function dirSubdirs() {
+            if (!state.dir) return [];
+            var q = state.q.trim().toLowerCase();
+            var map = {};
+            NOTES.forEach(function (n) {
+                if (!passFilters(n)) return;
+                var pre = state.dir + '/';
+                if (n.path.indexOf(pre) !== 0) return;
+                var rest = n.path.slice(pre.length);
+                var slash = rest.indexOf('/');
+                if (slash < 0) return;
+                var seg = rest.slice(0, slash);
+                var e = map[seg] || (map[seg] = { name: seg, path: state.dir + '/' + seg, count: 0, hit: false });
+                e.count++;
+                if (!q || score(n, q) >= 0) e.hit = true;
+            });
+            return Object.keys(map).sort().filter(function (k) { return map[k].hit; }).map(function (k) { return map[k]; });
+        }
+
+        /* Top-level folders for the root browse view (sections as dirs). */
+        function rootSections() {
+            var q = state.q.trim().toLowerCase();
+            var map = {};
+            NOTES.forEach(function (n) {
+                if (!passFilters(n)) return;
+                var seg = folderSeg(n);
+                if (!seg) return;
+                var e = map[seg] || (map[seg] = { name: seg, path: seg, count: 0, hit: false });
+                e.count++;
+                if (!q || score(n, q) >= 0) e.hit = true;
+            });
+            return Object.keys(map).sort().filter(function (k) { return map[k].hit; }).map(function (k) { return map[k]; });
+        }
+
+        /* Shareable browse URL for a directory (browse view, current filters). */
+        function navHref(dir) {
+            var sp = new URLSearchParams();
+            sp.set('view', 'browse');
+            if (dir) sp.set('dir', dir);
+            if (state.section === 'pinned') sp.set('section', 'pinned');
+            return 'index.html?' + cleanQuery(sp);
+        }
+
+        function crumbsHtml() {
+            var parts = state.dir.split('/');
+            var html = '<a href="index.html" data-navhome>' + HOME + '</a>';
+            var prefix = [];
+            for (var i = 0; i < parts.length; i++) {
+                prefix.push(parts[i]);
+                html += '<span class="sep">/</span>';
+                if (i === parts.length - 1) {
+                    html += '<span class="here">' + esc(parts[i]) + '</span>';
+                } else {
+                    html += '<a href="' + navHref(prefix.join('/')) + '" data-navdir="' + esc(prefix.join('/')) + '">' + esc(prefix[i]) + '</a>';
+                }
             }
-            resultsEl.innerHTML = out.join('');
+            return html;
+        }
+
+        /* Breadcrumb: which directory the catalog is showing. Ancestors jump
+           back without a reload; the files view shows the count line. */
+        function renderCrumbbar(subs, fileCount) {
+            var bar = document.getElementById('crumbbar');
+            var filtered = state.dir || state.section !== 'all' || state.liveOnly || state.unfinishedOnly;
+            if (!state.dir && state.view !== 'files' && !filtered) {
+                bar.hidden = true;
+                bar.innerHTML = '';
+                return;
+            }
+            bar.hidden = false;
+            var html = state.dir ? crumbsHtml() : '<a href="index.html" data-navhome>' + HOME + '</a>';
+            html += '<span class="count">' + fileCount + ' ' + (fileCount === 1 ? NOUN : NOUNS);
+            if (state.view === 'browse') {
+                html += ' &middot; ' + subs.length + (subs.length === 1 ? ' folder' : ' folders');
+            }
+            html += '</span>';
+            if (filtered) {
+                html += '<a class="crumbbar-clear" href="index.html" data-navclear>&times; all ' + HOME + '</a>';
+            }
+            bar.innerHTML = html;
+        }
+
+        function emptyText() {
+            if (state.section === 'pinned') return 'no pins yet \u2014 star a ' + NOUN + '.';
+            if (state.liveOnly) return 'no live ' + NOUNS + ' match.';
+            if (state.unfinishedOnly) return 'no unfinished ' + NOUNS + ' match.';
+            return 'no ' + NOUNS + ' match.';
         }
 
         function updatePager(count, totalPages) {
             emptyEl.hidden = count > 0;
-            emptyEl.textContent = 'no documents match.';
+            emptyEl.textContent = emptyText();
             pagerEl.hidden = totalPages <= 1;
             if (totalPages <= 1) return;
             indEl.textContent = 'page ' + state.page + ' / ' + totalPages;
-            indEl.title = count + ' documents \u00b7 ' + state.pageSize + ' per page';
+            indEl.title = count + ' ' + NOUNS + ' \u00b7 ' + state.pageSize + ' per page';
             prevBtn.disabled = state.page <= 1;
             nextBtn.disabled = state.page >= totalPages;
         }
 
         function render() {
-            var list = filteredList();
-            var s = sizeFor();
-            if (s !== state.pageSize) state.pageSize = s;
+            renderViewbar();
+            var list = state.view === 'browse' ? browseFiles() : filteredList();
+            var subs = state.view === 'browse' ? (state.dir ? dirSubdirs() : rootSections()) : [];
+            renderCrumbbar(subs, list.length);
             var totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
             if (state.page > totalPages) state.page = totalPages;
             if (state.page < 1) state.page = 1;
-            buildRows(list);
-
-            /* Calibrate row height against the real DOM once rows exist;
-               if it moves the page size, lay out once more. */
-            var row0 = resultsEl.querySelector('.row');
-            if (row0) {
-                var h = row0.offsetHeight + 1;
-                if (Math.abs(h - rowH) > 2) {
-                    rowH = h;
-                    s = sizeFor();
-                    if (s !== state.pageSize) {
-                        state.pageSize = s;
-                        totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
-                        if (state.page > totalPages) state.page = totalPages;
-                        buildRows(list);
-                    }
-                }
-            }
+            resultsEl.innerHTML = (state.view === 'browse' ? dirCards(subs) : '') + fileCards(list);
             lastTotalPages = totalPages;
             updatePager(list.length, totalPages);
+            if (!list.length && subs.length) emptyEl.hidden = true;
         }
 
         function goToPage(p) {
@@ -1105,47 +1361,159 @@
         prevBtn.addEventListener('click', function () { goToPage(state.page - 1); });
         nextBtn.addEventListener('click', function () { goToPage(state.page + 1); });
 
-        function renderFacets() {
-            var counts = { all: NOTES.length };
-            NOTES.forEach(function (n) { counts[n.section] = (counts[n.section] || 0) + 1; });
-            var order = Object.keys(counts).sort(function (a, b) {
-                if (a === 'all') return -1;
-                if (b === 'all') return 1;
-                return a.localeCompare(b);
-            });
-            document.getElementById('facets').innerHTML = order.map(function (s) {
-                return '<button type="button" class="facet' + (state.section === s ? ' active' : '') + '" data-section="' + esc(s) + '">' +
-                    esc(s) + '<span class="count">' + counts[s] + '</span></button>';
-            }).join('');
+        /* ---------- navigation (pushState file browsing) ---------- */
+
+        function snapshot() {
+            return { view: state.view, dir: state.dir, section: state.section, q: state.q, live: state.liveOnly, unfinished: state.unfinishedOnly };
         }
 
-        function renderTagFacets() {
-            var counts = {};
-            NOTES.forEach(function (n) {
-                (n.tags || []).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
-            });
-            var tags = Object.keys(counts).sort(function (a, b) {
-                return counts[b] - counts[a] || a.localeCompare(b);
-            });
-            document.getElementById('tagbar').hidden = tags.length === 0;
-            document.getElementById('tag-facets').innerHTML = tags.map(function (t) {
-                return '<button type="button" class="facet' + (state.tag === t ? ' active' : '') + '" data-tag="' + esc(t) + '">' +
-                    '#' + esc(t) + '<span class="count">' + counts[t] + '</span></button>';
-            }).join('');
+        function syncUrl(push) {
+            try {
+                var sp = new URLSearchParams();
+                sp.set('view', state.view);
+                if (state.dir) sp.set('dir', state.dir);
+                if (state.section === 'pinned') sp.set('section', 'pinned');
+                if (state.liveOnly) sp.set('live', '1');
+                if (state.unfinishedOnly) sp.set('unfinished', '1');
+                if (state.q.trim()) sp.set('q', state.q.trim());
+                var url = 'index.html?' + cleanQuery(sp);
+                if (push) history.pushState(snapshot(), '', url);
+                else history.replaceState(null, '', url);
+            } catch (e) { /* file:// or old browser: URL stays as-is */ }
         }
 
-        function setTag(t) {
-            state.tag = (state.tag === t) ? 'all' : t;
+        function readUrl() {
+            var qs;
+            try { qs = new URLSearchParams(window.location.search); }
+            catch (e) { return; }
+            var v = (qs.get('view') || 'browse').toLowerCase();
+            state.view = v === 'files' ? 'files' : 'browse';
+            var d = qs.get('dir');
+            state.dir = d ? validDir(d) : '';
+            var s = qs.get('section');
+            state.section = (s && s.toLowerCase() === 'pinned') ? 'pinned' : 'all';
+            /* Legacy ?section=<dir> deep links resolve to the browse dir. */
+            if (!state.dir && s && s.toLowerCase() !== 'pinned' && s.toLowerCase() !== 'all') {
+                state.dir = validDir(s.toLowerCase());
+            }
+            state.liveOnly = qs.get('live') === '1';
+            state.unfinishedOnly = qs.get('unfinished') === '1';
+            var q = qs.get('q');
+            if (q) state.q = q.slice(0, 200);
+            else {
+                var t = qs.get('tag');   /* legacy viewer chip deep link */
+                if (t) state.q = '@' + t.toLowerCase() + ' ';
+            }
             state.page = 1;
-            renderTagFacets();
+        }
+
+        /* In-place navigation: folder cards, breadcrumb, view switch. */
+        function navigate(patch, push) {
+            if (patch.view !== undefined) state.view = patch.view;
+            if (patch.dir !== undefined) state.dir = patch.dir;
+            if (patch.section !== undefined) state.section = patch.section;
+            state.page = 1;
+            syncUrl(push !== false);
+            render();
+            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function togglePinned() {
+            state.section = state.section === 'pinned' ? 'all' : 'pinned';
+            state.page = 1;
+            syncUrl(false);
             render();
         }
 
+        function toggleLive() {
+            state.liveOnly = !state.liveOnly;
+            state.page = 1;
+            syncUrl(false);
+            render();
+        }
+
+        function toggleUnfinished() {
+            state.unfinishedOnly = !state.unfinishedOnly;
+            state.page = 1;
+            syncUrl(false);
+            render();
+        }
+
+        function setView(v) {
+            if (VIEWS.indexOf(v) < 0 || v === state.view) return;
+            navigate({ view: v });
+        }
+
+        function renderViewbar() {
+            var btns = document.querySelectorAll('#viewbar .viewbtn[data-view]');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList.toggle('active', btns[i].getAttribute('data-view') === state.view);
+            }
+            var pin = document.getElementById('pins-toggle');
+            if (pin) { var on = state.section === 'pinned'; pin.classList.toggle('active', on); pin.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+            var lv = document.getElementById('live-toggle');
+            if (lv) { var lon = !!state.liveOnly; lv.classList.toggle('active', lon); lv.setAttribute('aria-pressed', lon ? 'true' : 'false'); }
+            var uf = document.getElementById('unfinished-toggle');
+            if (uf) { var uon = !!state.unfinishedOnly; uf.classList.toggle('active', uon); uf.setAttribute('aria-pressed', uon ? 'true' : 'false'); }
+        }
+
+        /* ---------- pins ---------- */
+
+        function togglePin(path) {
+            var on = !isPinned(path);
+            var prev = PINS.slice();
+            if (on) PINS.push(path);
+            else PINS = PINS.filter(function (p) { return p !== path; });
+            render();
+            fetch('api/pins', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ path: path, pinned: on })
+            }).then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            }).catch(function (err) {
+                PINS = prev;
+                render();
+                console.warn('pin update failed:', err);
+            });
+        }
+
         resultsEl.addEventListener('click', function (e) {
-            var tag = e.target.closest('.row-tag');
-            if (!tag) return;
-            e.preventDefault();
-            setTag(tag.dataset.tag);
+            var btn = e.target.closest('.card-pin');
+            if (btn) { e.preventDefault(); togglePin(btn.dataset.path); return; }
+            var nav = e.target.closest('[data-navdir]');
+            if (nav) { e.preventDefault(); navigate({ view: 'browse', dir: nav.getAttribute('data-navdir') }); }
+        });
+
+        document.getElementById('viewbar').addEventListener('click', function (e) {
+            var btn = e.target.closest('.viewbtn[data-view]');
+            if (btn) setView(btn.getAttribute('data-view'));
+        });
+
+        document.getElementById('crumbbar').addEventListener('click', function (e) {
+            var nav = e.target.closest('[data-navdir]');
+            if (nav) { e.preventDefault(); navigate({ view: 'browse', dir: nav.getAttribute('data-navdir') }); return; }
+            if (e.target.closest('[data-navclear]')) { e.preventDefault(); navigate({ dir: '', section: 'all' }); return; }
+            if (e.target.closest('[data-navhome]')) { e.preventDefault(); navigate({ view: 'browse', dir: '' }); }
+        });
+
+        /* Browser Back/Forward restores the pushed filter snapshot. */
+        window.addEventListener('popstate', function (e) {
+            var s = (e.state && e.state.view) ? e.state : null;
+            if (s) {
+                state.view = VIEWS.indexOf(s.view) >= 0 ? s.view : 'browse';
+                state.dir = s.dir || '';
+                state.section = s.section === 'pinned' ? 'pinned' : 'all';
+                state.liveOnly = !!s.live;
+                state.unfinishedOnly = !!s.unfinished;
+                if (typeof s.q === 'string') { state.q = s.q; document.getElementById('search').value = s.q; }
+            } else {
+                readUrl();
+                document.getElementById('search').value = state.q;
+            }
+            state.page = 1;
+            render();
         });
 
         /* ---------- boot ---------- */
@@ -1157,30 +1525,47 @@
             })
             .then(function (idx) {
                 NOTES = idx.documents;
+                var tagset = {};
+                NOTES.forEach(function (n) {
+                    (n.tags || []).forEach(function (t) { tagset[t] = (tagset[t] || 0) + 1; });
+                });
+                ALL_TAGS = Object.keys(tagset).sort(function (a, b) { return a.localeCompare(b); });
                 document.getElementById('stat-notes').textContent = String(idx.count);
                 document.getElementById('stat-sections').textContent = String(Object.keys(idx.sections).length);
                 var words = 0;
                 NOTES.forEach(function (n) { words += n.words; });
                 document.getElementById('stat-words').textContent = words > 999 ? (words / 1000).toFixed(1) + 'k' : String(words);
                 document.getElementById('foot-date').textContent = idx.generated;
+                /* No pins store for this corpus. */
             })
             .then(function () {
-                try {
-                    var preset = new URLSearchParams(window.location.search).get('tag');
-                    if (preset) state.tag = preset.toLowerCase();
-                } catch (e) { /* ignore malformed query */ }
-                renderFacets();
-                renderTagFacets();
+                readUrl();
+                document.getElementById('search').value = state.q;
+                updateDocTitle();
                 render();
+                syncUrl(false);
             })
             .catch(function () {
                 document.getElementById('empty').hidden = false;
-                document.getElementById('empty').textContent = 'index unavailable \u2014 run: make document-index';
+                document.getElementById('empty').textContent = 'index unavailable \u2014 run: make notes-index';
             });
+
+        function updateDocTitle() {
+            if (state.dir) document.title = state.dir + ' \u00b7 ' + TITLE;
+            else if (state.view === 'files') document.title = 'All ' + NOUNS + ' \u00b7 ' + TITLE;
+            else if (state.section === 'pinned') document.title = 'Pinned \u00b7 ' + TITLE;
+            else if (state.liveOnly) document.title = 'Live \u00b7 ' + TITLE;
+            else if (state.unfinishedOnly) document.title = 'Unfinished \u00b7 ' + TITLE;
+            else document.title = TITLE + ' \u2014 Epistecnica';
+        }
+
+        /* ---------- search box + @ tag picker ---------- */
 
         var input = document.getElementById('search');
         var timer = null;
         input.addEventListener('input', function () {
+            var tok = currentTagToken();
+            if (tok) openTagMenu(tok.query); else closeTagMenu();
             clearTimeout(timer);
             timer = setTimeout(function () {
                 state.q = input.value;
@@ -1189,20 +1574,86 @@
             }, 120);
         });
 
-        document.getElementById('facets').addEventListener('click', function (e) {
-            var btn = e.target.closest('.facet');
-            if (!btn) return;
-            state.section = btn.dataset.section;
+        /* The token under the caret when it begins with `@` (tag picker). */
+        function currentTagToken() {
+            var v = input.value;
+            var pos = input.selectionStart != null ? input.selectionStart : v.length;
+            var m = v.slice(0, pos).match(/(^|\s)@([a-z0-9_-]*)$/i);
+            if (!m) return null;
+            return { start: pos - m[2].length - 1, end: pos, query: m[2].toLowerCase() };
+        }
+
+        function openTagMenu(q) {
+            var matches = ALL_TAGS.filter(function (t) { return t.indexOf(q) >= 0; });
+            matches.sort(function (a, b) {
+                var pa = a.indexOf(q) === 0, pb = b.indexOf(q) === 0;
+                if (pa !== pb) return pa ? -1 : 1;
+                return a.length - b.length || a.localeCompare(b);
+            });
+            matches = matches.slice(0, 40);
+            tagItems = matches;
+            tagSel = 0;
+            tagMenu.innerHTML = matches.map(function (t, i) {
+                return '<li role="option" data-tag="' + esc(t) + '"' +
+                    (i === tagSel ? ' aria-selected="true"' : '') + '><span class="at">@</span>' + esc(t) + '</li>';
+            }).join('');
+            tagMenu.hidden = false;
+        }
+
+        function closeTagMenu() {
+            tagMenu.hidden = true;
+            tagMenu.innerHTML = '';
+            tagItems = [];
+            tagSel = -1;
+        }
+
+        function moveTag(delta) {
+            if (tagMenu.hidden || !tagItems.length) return;
+            tagSel = (tagSel + delta + tagItems.length) % tagItems.length;
+            Array.prototype.forEach.call(tagMenu.children, function (li, i) {
+                if (i === tagSel) { li.setAttribute('aria-selected', 'true'); li.scrollIntoView({ block: 'nearest' }); }
+                else li.removeAttribute('aria-selected');
+            });
+        }
+
+        function acceptTag(tag) {
+            var tok = currentTagToken();
+            if (!tok) return;
+            var v = input.value;
+            var head = v.slice(0, tok.start) + '@' + tag + ' ';
+            input.value = head + v.slice(tok.end).replace(/^\s+/, '');
+            var caret = head.length;
+            input.setSelectionRange(caret, caret);
+            closeTagMenu();
+            state.q = input.value;
             state.page = 1;
-            renderFacets();
             render();
+        }
+
+        input.addEventListener('keydown', function (e) {
+            if (tagMenu.hidden) return;
+            if (e.key === 'ArrowDown') { e.preventDefault(); e.stopPropagation(); moveTag(1); }
+            else if (e.key === 'ArrowUp') { e.preventDefault(); e.stopPropagation(); moveTag(-1); }
+            else if (e.key === 'Enter' || e.key === 'Tab') {
+                if (tagSel >= 0 && tagItems.length) { e.preventDefault(); e.stopPropagation(); acceptTag(tagItems[tagSel]); }
+            } else if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); closeTagMenu(); }
         });
 
-        document.getElementById('tag-facets').addEventListener('click', function (e) {
-            var btn = e.target.closest('.facet');
-            if (!btn) return;
-            setTag(btn.dataset.tag);
+        input.addEventListener('blur', function () { setTimeout(closeTagMenu, 120); });
+
+        tagMenu.addEventListener('mousedown', function (e) {
+            var li = e.target.closest('li[data-tag]');
+            if (!li) return;
+            e.preventDefault();
+            acceptTag(li.getAttribute('data-tag'));
         });
+
+        var pinsToggle = document.getElementById('pins-toggle');
+        if (pinsToggle) pinsToggle.addEventListener('click', togglePinned);
+        var liveToggle = document.getElementById('live-toggle');
+        if (liveToggle) liveToggle.addEventListener('click', toggleLive);
+        var unfinishedToggle = document.getElementById('unfinished-toggle');
+        if (unfinishedToggle) unfinishedToggle.addEventListener('click', toggleUnfinished);
 
         var resizeTimer = null;
         window.addEventListener('resize', function () {
