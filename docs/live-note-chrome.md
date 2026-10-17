@@ -290,11 +290,11 @@ Content order follows the philosophia shell: intro `>` quote, `## Index`
 (link list), `## Formulation` (the three `###` questions as quotes),
 `## Recursive instance decomposition` (plain `.markdown-body` table),
 lab section(s), `## Diagnostic questions` (`###` + quotes),
-`## References`. Include the glossarium lookup script with a
-live-depth-relative path, e.g. from `data/live/*.html`:
+`## References`. Include the glossarium lookup script, loaded from the
+external Naturgnosis medium (absolute URL):
 
 ```html
-<script src="ROOTglossarium/js/glossarium-lookup.js" data-glossarium="ROOTglossarium/data/index.json" defer></script>
+<script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
 ```
 
 ## 8. Conversion record (all 12 live notes unified, Sept 2026)

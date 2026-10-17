@@ -62,7 +62,7 @@ notes no longer exist.
 ## Tags
 
 Notes accept optional `tags: [...]` front matter, `---`-fenced at the top
-of the file (same style as the glossarium `aliases`):
+of the file (the same `---` front-matter style used across the corpora):
 
 ```markdown
 ---

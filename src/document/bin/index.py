@@ -10,8 +10,8 @@ catalog (/document/). Stdlib only.
 For each document it extracts: path (relative to documents/), title
 (first "# " heading; fallback: the filename), top-level section (first
 path component: papers, articles, books, …), h2/h3 headings, tags
-(optional `tags: [...]` front matter, same `---` style as the
-glossarium aliases), lowercased plain text, and word count. Paths and
+(optional `tags: [...]` front matter, `---` style), lowercased plain
+text, and word count. Paths and
 tags are validated against the naming convention (see
 src/document/README.md); violations print as warnings and never fail
 the build.

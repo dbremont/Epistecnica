@@ -1,6 +1,0 @@
-# Convocar
-
-Related Glosarium: Invocar
-
-> …
->

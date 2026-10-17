@@ -1,4 +1,0 @@
-# Central Bank
-
-> …
->

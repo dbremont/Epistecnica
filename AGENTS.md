@@ -31,7 +31,6 @@ src/note/…              notes corpus + catalog/viewer (app/ incl. app/data/ + 
 src/course/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures, bin/index.py) — see src/course/README.md
 src/document/…          documents corpus + catalog/viewer (papers/articles/books, bin/index.py) — see src/document/README.md
 src/persona/…            personas corpus (typed notes: type front matter + tags) + catalog/viewer (bin/index.py) — see src/persona/README.md
-src/glossarium/…        lexical corpus (terms + definitions) + catalog at /glossarium/ + select-a-word lookup on note pages — see src/glossarium/README.md
 spec/                   general spec + shared design system
 docs/                   documentation hub
 Makefile, Dockerfile    project operations (make run/check/build/deploy-*/logs/stop) + combined image
@@ -53,7 +52,10 @@ disabled.
   - `/course/<path>` → static from `src/course/app/<path>` (courses catalog + course/lecture views + corpus); no API routes
   - `/document/<path>` → static from `src/document/app/<path>` (documents catalog + viewer + corpus); no API routes
   - `/persona/<path>` → static from `src/persona/app/<path>` (personas catalog + viewer + corpus); no API routes
-  - `/glossarium/<path>` → static from `src/glossarium/app/<path>` (term catalog + corpus + lookup index); no API routes
+  - `/glossarium/…` is **not** served here — the lexical corpus moved to the
+    external Naturgnosis medium (`http://localhost:8013/glossarium/web/`,
+    lookup index `…/glossarium/data/index.json`); pages link to it and the
+    select-a-word popup loads its JS + index from there
   - `/epistemica/api/{health,nodes,layout}` and `POST …/api/graph/save` → CouchDB db `epistemica`
   - `/tecnica/api/…` (same four) → CouchDB db `tecnica`
   - `/api/health` → aggregate health for both datasets
@@ -82,11 +84,11 @@ disabled.
 - Filenames stay ASCII lowercase kebab-case; titles come from the first `# `
   heading. Per-corpus naming/tags rules live in their READMEs
   (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
-  `src/persona/README.md`, `src/glossarium/README.md`).
+  `src/persona/README.md`).
 - Regenerate the corpus index after any edit: `make index` (all of them),
   or individually `make notes-index`,
-  `make course-index`, `make document-index`, `make persona-index`,
-  `make glossarium-index` (see verification list below).
+  `make course-index`, `make document-index`, `make persona-index`
+  (see verification list below).
 - Live notes (`src/note/app/data/live/*.html`) share the `note.html` frame
   (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
   and the philosophia shell order — recipe + conversion record in
@@ -201,7 +203,7 @@ Verification (no test suite exists; `make check` covers the first two):
 - Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`)
 - Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`)
 - Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `src/persona/bin/import.py <notion-export-dir>`)
-- Glossarium: `curl -s :8000/glossarium/` (catalog; `?t=<slug>` term view), `/glossarium/data/index.json` (generated — run `make glossarium-index` after any corpus edit), `/glossarium/terms/<slug>.md` (corpus; naming + import in `src/glossarium/README.md`); note pages fetch the lookup index relatively (`../glossarium/data/index.json`) for the select-a-word popup
+- Glossarium: external — served by Naturgnosis at `http://localhost:8013/glossarium/web/` (`?t=<slug>` term view; lookup index `/glossarium/data/index.json`); Epistecnica pages link out and load the lookup JS + index from there (no local `/glossarium/` route)
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the two `edit.html` pages (check stderr for Uncaught errors)
 - Image: `make build` (`docker build -t epistecnica:local .`) then run it against local CouchDB (`make deploy-local`)
 

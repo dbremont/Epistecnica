@@ -25,8 +25,9 @@ src/document/
 - Documents are plain markdown entries: title comes from the first `# `
   heading (else the filename); the top-level directory is the section
   (`papers`, `articles`, `books`, …).
-- Optional `tags: [...]` front matter (`---`-fenced, same style as the
-  glossarium aliases) types each document; tags surface as catalog facets
+- Optional `tags: [...]` front matter (`---`-fenced, the same
+  front-matter style used across the corpora) types each document; tags
+  surface as catalog facets
   and viewer chips, and rank between headings and body text in search.
   See `src/note/README.md` for the shared tag convention.
 - Markdown rendering uses the notes vendor bundle relatively

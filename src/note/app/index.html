@@ -681,7 +681,7 @@
                 <a href="../document/">DOCUMENTS</a>
                 <a href="../epistemica/graph.html">EPISTEMICA</a>
                 <a href="../tecnica/graph.html">TECNICA</a>
-                <a href="../glossarium/">GLOSSARIUM</a>
+                <a href="http://localhost:8013/glossarium/web/">GLOSSARIUM</a>
             </div>
         </div>
     </footer>
@@ -809,8 +809,7 @@
             ['tecnica', 'Tecnica nodes'],
             ['note', 'Notes'],
             ['course', 'Courses & lectures'],
-            ['document', 'Documents'],
-            ['glossarium', 'Terms']
+            ['document', 'Documents']
         ];
 
         function uesc(s) {
@@ -835,7 +834,6 @@
                 return e.kind === 'course' ? '../course/course.html?c=' + p : '../course/lecture.html?l=' + p;
             }
             if (e.surface === 'document') return '../document/document.html?d=' + p;
-            if (e.surface === 'glossarium') return '../glossarium/?t=' + encodeURIComponent(e.path);
             return '#';
         }
 
@@ -1322,6 +1320,6 @@
         });
     })();
     </script>
-    <script src="../glossarium/js/glossarium-lookup.js" data-glossarium="../glossarium/data/index.json" defer></script>
+    <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
 </body>
 </html>

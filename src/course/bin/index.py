@@ -11,7 +11,7 @@ For each course it emits one entry (kind "course", path "<dir>") and one
 entry per lecture (kind "lecture", path "<dir>/<file>", with a "course"
 parent field). Each entry extracts: title (first "# " heading;
 fallback: the filename), h2/h3 headings, tags (optional `tags: [...]`
-front matter, same `---` style as the glossarium aliases), lowercased
+front matter, `---` style), lowercased
 plain text, and word count. Paths and tags are validated against the
 naming convention (see src/course/README.md); violations print as
 warnings and never fail the build.

@@ -31,8 +31,9 @@ src/course/
 - The index holds two kinds: `course` (path `<dir>`) and `lecture`
   (path `<dir>/<file>`, with a `course` parent field). The catalog
   facets by kind (`all`, `course`, `lecture`) instead of sections.
-- Optional `tags: [...]` front matter (`---`-fenced, same style as the
-  glossarium aliases) types entries and lectures independently; tags
+- Optional `tags: [...]` front matter (`---`-fenced, the same
+  front-matter style used across the corpora) types entries and lectures
+  independently; tags
   surface as catalog facets and viewer chips, and rank between headings
   and body text in search. See `src/note/README.md` for the shared tag
   convention.

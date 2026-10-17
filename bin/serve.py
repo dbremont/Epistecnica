@@ -17,8 +17,6 @@ CouchDB directly; CORS on CouchDB stays disabled):
    /document/...         -> static files from src/document/app/ (documents
                             catalog, viewer, corpus, generated search
                             index)
-  /glossarium/...       -> static files from src/glossarium/app/ (lexical
-                           corpus: catalog, terms, generated lookup index)
 
 and, per dataset prefix, the same API contract as the per-project
 bin/sync.py scripts:
@@ -79,9 +77,6 @@ COURSE_MOUNT = "src/course/app"
 
 DOCUMENT_PREFIX = "/document"
 DOCUMENT_MOUNT = "src/document/app"
-
-GLOSSARIUM_PREFIX = "/glossarium"
-GLOSSARIUM_MOUNT = "src/glossarium/app"
 
 # Note path segments follow the corpus naming rule: ASCII lowercase
 # kebab-case (src/note/README.md). The last segment additionally ends .md.
@@ -151,7 +146,6 @@ class HubHandler(SimpleHTTPRequestHandler):
         /note/x         -> <repo>/src/note/app/x
         /course/x       -> <repo>/src/course/app/x
         /document/x     -> <repo>/src/document/app/x
-        /glossarium/x   -> <repo>/src/glossarium/app/x
         anything else   -> <repo>/x
         """
         clean = path.split("?", 1)[0].split("#", 1)[0]
@@ -172,7 +166,6 @@ class HubHandler(SimpleHTTPRequestHandler):
             (NOTES_PREFIX, NOTES_MOUNT),
             (COURSE_PREFIX, COURSE_MOUNT),
             (DOCUMENT_PREFIX, DOCUMENT_MOUNT),
-            (GLOSSARIUM_PREFIX, GLOSSARIUM_MOUNT),
         ):
             if clean == prefix or clean == prefix + "/":
                 rel = mount + "/"
@@ -629,10 +622,6 @@ def main():
         if not app_dir.is_dir():
             print("ERROR: %s static dir not found: %s" % (prefix, app_dir), file=sys.stderr)
             return 1
-    glossarium_app = REPO / GLOSSARIUM_MOUNT
-    if not glossarium_app.is_dir():
-        print("ERROR: glossarium static dir not found: %s" % glossarium_app, file=sys.stderr)
-        return 1
     hub_page = REPO / "src" / "app" / "index.html"
     if not hub_page.exists():
         print("ERROR: hub page not found: %s" % (hub_page,), file=sys.stderr)
@@ -667,7 +656,6 @@ def main():
           % (display_host, args.port, NOTES_PREFIX, notes_cfg.url, notes_cfg.db))
     print("  Courses: http://%s:%d%s/" % (display_host, args.port, COURSE_PREFIX))
     print("  Docs:    http://%s:%d%s/" % (display_host, args.port, DOCUMENT_PREFIX))
-    print("  Gloss.:  http://%s:%d%s/" % (display_host, args.port, GLOSSARIUM_PREFIX))
     print("══════════════════════════════════════════════")
     print()
 

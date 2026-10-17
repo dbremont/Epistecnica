@@ -633,7 +633,7 @@
                 </div>
                 <div class="route">
                     <div class="intent">I want to look up a term</div>
-                    <div class="go">the <a href="glossarium/">glossarium</a> &mdash; the lexical corpus behind both ontologies; select any word on the note pages for its definition.</div>
+                    <div class="go">the <a href="http://localhost:8013/glossarium/web/">glossarium</a> &mdash; the lexical corpus behind both ontologies; select any word on the note pages for its definition.</div>
                 </div>
             </div>
         </section>
@@ -651,7 +651,7 @@
                 <a href="note/">NOTES</a>
                 <a href="course/">COURSES</a>
                 <a href="document/">DOCUMENTS</a>
-                <a href="glossarium/">GLOSSARIUM</a>
+                <a href="http://localhost:8013/glossarium/web/">GLOSSARIUM</a>
                 <a href="docs">DOCS</a>
                 <a href="api/health">HEALTH</a>
             </div>
@@ -821,8 +821,7 @@
             ['tecnica', 'Tecnica nodes'],
             ['note', 'Notes'],
             ['course', 'Courses & lectures'],
-            ['document', 'Documents'],
-            ['glossarium', 'Terms']
+            ['document', 'Documents']
         ];
 
         function uesc(s) {
@@ -847,7 +846,6 @@
                 return e.kind === 'course' ? 'course/course.html?c=' + p : 'course/lecture.html?l=' + p;
             }
             if (e.surface === 'document') return 'document/document.html?d=' + p;
-            if (e.surface === 'glossarium') return 'glossarium/?t=' + encodeURIComponent(e.path);
             return '#';
         }
 

@@ -58,7 +58,7 @@ any cross-graph unification is future work, not an assumption.
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface (per-subproject docs pages removed) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
 | `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, search + facets + pins), viewer (`note.html?n=<path>`), corpus (`data/**.md`), generated search index (`data/index.json`) |
-| `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog (`index.html`, search + letter facets), term view (`?t=<slug>`), corpus (`terms/**.md`), generated lookup index (`data/index.json`); the select-a-word popup on note pages fetches this index relatively |
+| `GET /glossarium/<path>` | **Not served here.** The lexical surface moved to the external Naturgnosis medium (`http://localhost:8013/glossarium/web/`: catalog, term view `?t=<slug>`, lookup index `/glossarium/data/index.json`); Epistecnica pages link out and the select-a-word popup loads its JS + index from there |
 | `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
 | `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |
 | `GET /{ds}/api/nodes` | Flat JSON array; `_id`/`_rev` stripped; `layout` doc excluded; **hard 502 when CouchDB is down — no file fallback** |

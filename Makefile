@@ -34,7 +34,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check bootstrap notes-index course-index document-index glossarium-index search-index index build deploy-local deploy-server logs stop
+.PHONY: help run check bootstrap notes-index course-index document-index search-index index build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -43,7 +43,7 @@ run: ## local dev server, no docker (port DEV_PORT, default 8010)
 	python3 bin/serve.py --port $(DEV_PORT)
 
 check: ## py_compile all servers + node --check the two API js files
-	python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py src/glossarium/bin/*.py
+	python3 -m py_compile bin/*.py src/epistemica/bin/*.py src/tecnica/bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py
 	node --check src/epistemica/app/js/api.js
 	node --check src/tecnica/app/js/api.js
 
@@ -59,10 +59,7 @@ document-index: ## rebuild the documents search index (after any corpus change)
 search-index: ## build the universal search snapshot (before build/deploy)
 	python3 bin/build_search_index.py
 
-glossarium-index: ## rebuild the glossarium lookup index (after any corpus change)
-	python3 src/glossarium/bin/index.py
-
-index: notes-index course-index document-index glossarium-index search-index ## rebuild all search indexes (corpora first, universal snapshot last)
+index: notes-index course-index document-index search-index ## rebuild all search indexes (corpora first, universal snapshot last)
 
 # One-time CouchDB setup. The create-then-verify idiom on each DB keeps the
 # rule re-runnable (PUT on an existing DB would fail with 412). Credentials

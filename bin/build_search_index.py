@@ -6,8 +6,8 @@ Merges the per-corpus search indexes plus a snapshot of both ontology
 node sets into one committed file, src/app/data/search-index.json,
 consumed by the hub search box (/). Stdlib only.
 
-- Corpora (no backend needed): notes, courses, documents,
-  glossarium — trimmed to {surface, kind, type, title, path, tags,
+- Corpora (no backend needed): notes, courses, documents
+  — trimmed to {surface, kind, type, title, path, tags,
   excerpt} so the page fetches one ~2 MB file instead of ~4 MB of
   full-text indexes. Ranking beyond the excerpt stays in the
   per-catalog indexes; the universal box links out to them.
@@ -21,7 +21,7 @@ consumed by the hub search box (/). Stdlib only.
   marker makes staleness visible).
 
 The corpus indexes must exist first (make notes-index course-index
-document-index glossarium-index); missing ones abort the
+document-index); missing ones abort the
 build with a hint. Regenerate deliberately before build/deploy — the
 file is committed, like the per-corpus indexes.
 
@@ -100,26 +100,6 @@ def corpus_entries() -> list:
             "path": n.get("path", ""),
             "tags": n.get("tags", []),
             "excerpt": excerpt(n.get("text", "")),
-        })
-
-    gloss = load_index(app / "glossarium" / "app" / "data" / "index.json",
-                       "make glossarium-index")
-    for n in gloss.get("terms", []):
-        aliases = n.get("aliases", [])
-        if isinstance(aliases, str):
-            try:
-                aliases = json.loads(aliases)
-            except ValueError:
-                aliases = []
-        entries.append({
-            "surface": "glossarium",
-            "kind": "term",
-            "type": "",
-            "title": n.get("name", ""),
-            "path": n.get("slug", ""),
-            "tags": [],
-            "aliases": aliases if isinstance(aliases, list) else [],
-            "excerpt": excerpt(n.get("excerpt") or n.get("text", "")),
         })
 
     return entries

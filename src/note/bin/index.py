@@ -10,8 +10,8 @@ src/note/app/data/index.json, the search corpus for the notes catalog
 For each note it extracts: path (relative to data/), title (markdown:
 first "# " heading; html: <title>, else first <h1>; fallback: the
 filename), top-level section (first path component), h2/h3 headings,
-tags (optional `tags: [...]` front matter, same `---` style as the
-glossarium aliases), lowercased plain text, and word count. Paths and
+tags (optional `tags: [...]` front matter, `---` style), lowercased plain
+text, and word count. Paths and
 tags are validated against the naming convention (see
 src/note/README.md); violations print as warnings and never fail the
 build.

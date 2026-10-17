@@ -1,4 +1,0 @@
-# Private Research Lab
-
-> …
->
