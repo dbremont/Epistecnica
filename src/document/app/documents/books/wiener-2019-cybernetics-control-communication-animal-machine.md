@@ -14,3 +14,8 @@
 ## Notes
 
 ---
+
+## References
+
+- Wiener, N. (2019). *Cybernetics or Control and Communication in the Animal and the Machine*. MIT press.
+- [Internet Archive Book](https://archive.org/details/cyberneticsorcon00wien)

@@ -21,15 +21,10 @@
 - We humans a bounded - lock in time -  perceptual capacity - and cognitive capacity. Bounded Observer.
 - …
 
-## Index
 
 ## Reading Guide
 
 > **This book is about philosophy** in general -  ontology, epistemology, ethics, politics, and philosophical anthropology.
-> 
-
-> …
-> 
 
 ## Finitude and  Transcendence in Human Experience
 
