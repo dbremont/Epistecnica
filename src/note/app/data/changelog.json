@@ -2262,7 +2262,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Expand the scope note: representation-system framing and reworked framework decomposition."
+        "summary": "Expand the scope note: representation-system framing and reworked framework decomposition.",
+        "commit": "6ee9afdf0414d8bcf7f5c5c1aa29fb599c3c96a6",
+        "before": "26e67b8ddf537ba0135b360372e786dd679d3c5a"
       }
     ]
   },
