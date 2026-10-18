@@ -101,6 +101,16 @@ disabled.
   and the philosophia shell order — recipe + conversion record in
   `docs/live-note-chrome.md` §7–§8. Keep `<title>`/h1, copy, and JS ids
   stable; the catalog indexes them.
+- Math is typeset with the vendored MathJax 3 (`src/note/app/vendor/mathjax/`,
+  configured by `src/note/app/vendor/mathjax-setup.js`). Author page math as
+  `data-tex` / `data-tex-display` attributes (not raw `$…$`) so `bin/index.py`
+  never indexes LaTeX; corpus `.md` keeps literal `$…$`. Call `renderTeX()`
+  after dynamic DOM updates. Recipe in `docs/live-note-chrome.md` §Vendored
+  runtime dependencies.
+- Playground live notes (`…/rsp/<system>.html`) are lean: intro → the
+  instance's rate law + description → lab; no Formulation/decomposition
+  sections. The phase plane opens on the **initial state** (no trajectories)
+  and reveals as the user plays/steps.
 
 ## On Technical Notes
 

@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cellular Automaton Representational System</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.15);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+      --danger: #b3261e;
+      --danger-dim: rgba(179, 38, 30, 0.10);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin: 1.6em 0 0.5em;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body em { font-style: italic; }
+    .markdown-body ul { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body code, .font-mono { font-family: var(--font-mono); font-size: 0.85em; }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    /* ---- lab panel ---- */
+    .lab-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; align-items: start; }
+    @media (min-width: 1024px) { .lab-grid { grid-template-columns: 1.5fr 1fr; } }
+
+    .lab-stage {
+      position: relative;
+      height: min(58vh, 560px);
+      min-height: 340px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    #wrap { position: absolute; inset: 0; touch-action: none; cursor: crosshair; }
+    #cv { display: block; }
+
+    .lab-overlay { position: absolute; top: 12px; left: 12px; pointer-events: none; user-select: none; }
+    .overlay-card {
+      border-radius: 9px;
+      background: var(--card-bg);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      border: 1px solid var(--border-subtle);
+      padding: 8px 12px;
+      font-family: var(--font-mono);
+    }
+    #ovName { color: var(--text-primary); font-size: 13px; }
+    #ovSub { color: var(--text-muted); font-size: 10px; margin-top: 3px; }
+
+    .zoomers { position: absolute; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 6px; }
+    .zbtn {
+      width: 32px; height: 32px; border-radius: 7px;
+      border: 1px solid var(--border-subtle);
+      background: var(--card-bg);
+      color: var(--text-secondary);
+      font-size: 15px; line-height: 1; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .zbtn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .zbtn.small { font-size: 11px; }
+    .legend {
+      position: absolute; left: 12px; bottom: 12px;
+      display: flex; gap: 12px; font-family: var(--font-mono); font-size: 10px;
+      color: var(--text-muted); user-select: none; pointer-events: none;
+    }
+    .legend .k { display: inline-flex; align-items: center; gap: 4px; }
+    .legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+    .legend .dot#lgStable { background: var(--accent-cyan); }
+    .legend .dot#lgUnstable { background: var(--accent-gold); }
+    .legend .dot#lgNeutral { background: var(--text-muted); }
+
+    .lab-controls { display: flex; flex-direction: column; gap: 1.25rem; }
+    .lab-h {
+      font-family: var(--font-mono);
+      font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--text-muted); margin-bottom: 0.6rem;
+    }
+
+    .insts { display: flex; flex-direction: column; gap: 6px; }
+    .inst {
+      display: flex; flex-direction: column; gap: 2px;
+      text-align: left;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      border-radius: 7px;
+      padding: 7px 10px;
+      cursor: pointer;
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    .inst .d { font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-gold); }
+    .inst .n { font-size: 13px; color: var(--text-secondary); }
+    .inst:hover { border-color: var(--accent-cyan); }
+    .inst:hover .n { color: var(--text-primary); }
+    .inst.active { border-color: var(--accent-cyan); }
+    .inst.active .n { color: var(--accent-cyan); }
+
+    .btn {
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      border-radius: 7px;
+      padding: 7px 12px;
+      font-size: 13px; cursor: pointer; white-space: nowrap;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .btn.primary { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .rowBtns { display: flex; gap: 8px; }
+    .rowBtns .btn { flex: 1; }
+
+    .param { margin-bottom: 9px; }
+    .param .pl { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin-bottom: 3px; }
+    .param .pl .val { font-family: var(--font-mono); color: var(--text-secondary); }
+    input[type=range] { width: 100%; accent-color: var(--accent-cyan); }
+
+    .speedRow { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin: 0 0 4px; }
+    .speedRow .val { font-family: var(--font-mono); }
+
+    .resultCard { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 9px; padding: 12px; }
+    .stRow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .stRow .lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-right: auto; }
+    .pill { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 9999px; }
+    .pill.run { background: var(--accent-gold); color: var(--bg-void); }
+    .pill.idle { background: var(--accent-cyan-dim); color: var(--accent-cyan); }
+    .statGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; text-align: center; font-family: var(--font-mono); font-size: 12px; }
+    .statGrid .box { background: var(--bg-card); border-radius: 6px; padding: 6px 4px; }
+    .statGrid .k { font-size: 9px; color: var(--text-muted); }
+    .statGrid .v { font-size: 14px; color: var(--text-primary); }
+    .fpLine { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); margin-top: 8px; line-height: 1.6; }
+    .fpLine .s { color: var(--accent-cyan); }
+    .fpLine .u { color: var(--accent-gold); }
+    .tsWrap { margin-top: 1.25rem; border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 6px; height: 150px; position: relative; }
+    #ts { display: block; cursor: crosshair; }
+    .tsTip {
+      position: absolute; pointer-events: none; z-index: 3;
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px;
+      padding: 5px 8px; font-family: var(--font-mono); font-size: 10px; line-height: 1.5;
+      color: var(--text-secondary); white-space: nowrap; transform: translate(-50%, -100%);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+    }
+    .tsTip b { color: var(--text-primary); font-weight: 500; }
+    .tsTip .sx { color: var(--accent-cyan); }
+    .tsTip .sy { color: var(--accent-gold); }
+
+    .note-card ol.how { list-style: none; counter-reset: how; margin: 1.2em 0 0; padding-left: 0; }
+    .note-card ol.how li { counter-increment: how; position: relative; padding-left: 22px; margin-bottom: 8px; line-height: 1.55; font-size: 0.9rem; color: var(--text-secondary); }
+    .note-card ol.how li::before {
+      content: counter(how); position: absolute; left: 0; top: 0.1em;
+      font-family: var(--font-mono); font-size: 10px; color: var(--accent-cyan);
+      border: 1px solid var(--border-subtle); border-radius: 50%; width: 15px; height: 15px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .fine { font-size: 11px; color: var(--text-muted); margin-top: 10px; line-height: 1.6; }
+
+    /* ---- instance description (in the playground) ---- */
+    .inst-info { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 9px; padding: 10px 12px; }
+    .ii-name { font-family: var(--font-display); font-size: 1.02rem; color: var(--text-primary); margin-bottom: 5px; }
+    .ii-law { margin: 2px 0 9px; color: var(--text-secondary); overflow-x: auto; }
+    .ii-desc { font-size: 0.8rem; line-height: 1.55; color: var(--text-secondary); margin: 0 0 9px; }
+    .ii-docs { display: flex; flex-wrap: wrap; gap: 10px; }
+    .ii-docs a {
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--accent-cyan); text-decoration: none; border-bottom: 1px solid var(--border-subtle);
+    }
+    .ii-docs a:hover { border-bottom-color: var(--accent-cyan); }
+    .overlay-card { max-width: 260px; }
+    .overlay-card .law { color: var(--text-muted); font-size: 11px; margin-top: 4px; }
+    .math { white-space: nowrap; }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .site-nav .nav-links { display: flex; align-items: center; gap: 1.1rem; }
+    .site-nav .nav-links a {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted); text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-secondary);
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative; z-index: 1;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem 2rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    .statGrid .box.wide { grid-column: span 2; }
+    .ruleLine { font-family: var(--font-mono); font-size: 11px; color: var(--text-secondary); margin-top: 8px; }
+    .ruleLine b { color: var(--accent-cyan); font-weight: 500; }
+
+  </style>
+</head>
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../../../index.html">Catalog</a><a href="atlas.html">Atlas</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds/rsp">rsp</a><span class="sep">/</span><span class="here">cellular-automaton</span></div>
+      <h1 class="note-title">Cellular Automaton Representational System</h1>
+      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#cellular-automata</span><span class="chip">#representation</span></div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A <strong>Cellular Automaton (CA)</strong> representational system writes
+              change as a <em>local rule on a discrete lattice</em>: every cell holds a state, and at
+              each tick it updates from its own state and its neighbours. <span class="math"
+              data-tex="s_i^{t+1}=f(s_i^{t},\,s_{N(i)}^{t})"></span>. It is the canonical way
+              discrete, parallel computation is stated, and the spacetime diagram is the way it is read.</p>
+              <p>Below, this one representation is instantiated in five domains. Pick an instance to
+              load it; its rule and description appear above the lab. Then <strong>play</strong> — step
+              generation by generation, draw cells with the pointer, and watch the population graph.</p>
+            </blockquote>
+
+            <h2 id="playground">Playground</h2>
+            <p>Pick an instance, then play with it. Scroll to zoom, drag to pan, click to draw or
+            toggle a cell. The rule line and the population graph update as generations advance.</p>
+
+            <div class="inst-info" id="instInfo">
+              <div class="ii-name" id="iiName"></div>
+              <div class="ii-law" id="iiLaw"></div>
+              <p class="ii-desc" id="iiDesc"></p>
+              <div class="ii-docs" id="iiDocs"></div>
+            </div>
+
+            <section class="lab">
+              <div class="lab-grid">
+                <div class="lab-stage">
+                  <div id="wrap"><canvas id="cv"></canvas></div>
+                  <div class="lab-overlay"><div class="overlay-card">
+                    <div id="ovName">—</div>
+                    <div class="law" id="ovSub">spacetime</div>
+                  </div></div>
+                  <div class="zoomers">
+                    <button class="zbtn" id="zin" aria-label="Zoom in">+</button>
+                    <button class="zbtn" id="zout" aria-label="Zoom out">&minus;</button>
+                    <button class="zbtn small" id="zfit" aria-label="Fit view">&#x2922;</button>
+                  </div>
+                </div>
+
+                <div class="lab-controls">
+                  <section aria-label="Instances">
+                    <div class="lab-h">Instance</div>
+                    <div class="insts" id="insts"></div>
+                  </section>
+
+                  <section aria-label="Playback">
+                    <div class="lab-h">Playback</div>
+                    <div class="rowBtns">
+                      <button class="btn primary" id="playBtn">&#9654; Play</button>
+                      <button class="btn" id="stepBtn">Step</button>
+                      <button class="btn" id="resetBtn">Reset</button>
+                    </div>
+                    <div class="speedRow" style="margin-top:12px"><span>speed</span><span class="val" id="speedLbl">12 gen/s</span></div>
+                    <input type="range" id="speed" min="1" max="60" step="1" value="12" aria-label="Generations per second">
+                  </section>
+
+                  <section aria-label="Parameters">
+                    <div class="lab-h">Parameters</div>
+                    <div id="params"></div>
+                  </section>
+
+                  <section aria-label="Readouts">
+                    <div class="lab-h">Readouts</div>
+                    <div class="resultCard">
+                      <div class="stRow">
+                        <span class="lbl">status</span>
+                        <span class="pill idle" id="status">READY</span>
+                      </div>
+                      <div class="statGrid">
+                        <div class="box"><div class="k">generation</div><div class="v" id="vGen">0</div></div>
+                        <div class="box"><div class="k">active cells</div><div class="v" id="vLive">—</div></div>
+                      </div>
+                      <div class="ruleLine" id="ruleLine">rule: —</div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+
+              <div class="tsWrap"><canvas id="ts"></canvas><div class="tsTip" id="tsTip" hidden></div></div>
+
+              <ol class="how">
+                <li>Every cell applies the same rule to its neighbourhood; a whole generation is computed at once, in parallel.</li>
+                <li>The population graph tracks the number of active cells against generation — waves, gliders and extinctions show as characteristic traces.</li>
+                <li>Excitable and wireworld instances use extra states (refractory, electron head/tail) — the legend lives in the rule line.</li>
+              </ol>
+              <p class="fine">Nothing is fetched at runtime — the lattice, rule and rendering all run in this page. Colours follow the light/dark theme.</p>
+            </section>
+
+            <h2 id="docs">Docs</h2>
+            <ul><li><a href="../../../../../note.html?n=epistemica/natural-computing/cellular-automata.md">Cellular Automata</a> — the element this playground instantiates</li><li><a href="../../../../../note.html?n=epistemica/computational-science/boolean-network.md">Boolean Network</a> · <a href="../../../../../note.html?n=epistemica/computational-science/agent.md">Agent Model</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+
+            <h2 id="references">References</h2>
+            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Von Neumann, J. (1966)</strong> — <em>Theory of Self-Reproducing Automata</em></li><li><strong>Wolfram, S. (2002)</strong> — <em>A New Kind of Science</em> (elementary rules and complexity classes)</li><li><strong>Gardner, M. (1970)</strong> — the Game of Life; <strong>Greenberg &amp; Hastings (1978)</strong> — excitable media</li></ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc"><a class="toc-item" href="#playground">Playground</a><a class="toc-item" href="#docs">Docs</a><a class="toc-item" href="#references">References</a></nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script src="../../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../../vendor/mathjax/tex-svg-full.js"></script>
+
+<script id="ambient">
+  (function () {
+    var cv = document.getElementById('ambientCanvas');
+    var ctx = cv.getContext('2d');
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var stars = [], W = 0, H = 0, raf = 0;
+
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return { gold: s.getPropertyValue('--accent-gold').trim(), cyan: s.getPropertyValue('--accent-cyan').trim() };
+    }
+    function resize() {
+      W = window.innerWidth; H = window.innerHeight;
+      cv.width = W * dpr; cv.height = H * dpr;
+      cv.style.width = W + 'px'; cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.min(150, Math.round((W * H) / 16000));
+      stars = [];
+      for (var i = 0; i < n; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, r: 0.4 + Math.random() * 1.1, p: Math.random() * Math.PI * 2, s: 0.4 + Math.random() * 0.8 });
+    }
+    function frame() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < stars.length; i++) {
+        var st = stars[i];
+        st.p += 0.01 * st.s;
+        var a = 0.18 + 0.22 * (0.5 + 0.5 * Math.sin(st.p));
+        ctx.globalAlpha = a;
+        ctx.fillStyle = (i % 7 === 0) ? c.gold : c.cyan;
+        ctx.beginPath(); ctx.arc(st.x, st.y, st.r, 0, Math.PI * 2); ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      raf = requestAnimationFrame(frame);
+    }
+    window.addEventListener('resize', resize);
+    window.addEventListener('epistecnica-theme', function () {});
+    resize();
+    if (!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) frame();
+    else { var c = colors(); ctx.clearRect(0, 0, W, H); }
+  })();
+  </script>
+
+<script id="theme">
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+
+  <script id="app">
+
+(function () {
+    "use strict";
+
+    /* ---------------- shared playground helpers ---------------- */
+    function el(id) { return document.getElementById(id); }
+    function fmt(v) { return (Math.round(v * 1000) / 1000).toString(); }
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim(),
+        card: s.getPropertyValue('--bg-card').trim(),
+        danger: s.getPropertyValue('--danger').trim()
+      };
+    }
+    function buildPills(container, INSTS, onSelect) {
+      container.innerHTML = '';
+      INSTS.forEach(function (inst, i) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'inst' + (i === 0 ? ' active' : '');
+        b.innerHTML = '<span class="d">' + inst.domain + '</span><span class="n">' + inst.name + '</span>';
+        b.addEventListener('click', function () { onSelect(i); });
+        container.appendChild(b);
+      });
+    }
+    function setActivePill(container, i) {
+      var b = container.querySelectorAll('.inst');
+      for (var k = 0; k < b.length; k++) b[k].className = 'inst' + (k === i ? ' active' : '');
+    }
+    function fillInstInfo(cur) {
+      el('ovName').textContent = cur.domain + ' · ' + cur.name;
+      var os = el('ovSub'); if (os && cur.tag) os.textContent = cur.tag;
+      el('iiName').textContent = cur.domain + ' · ' + cur.name;
+      el('iiLaw').setAttribute('data-tex-display', cur.sub);
+      el('iiDesc').textContent = cur.desc;
+      el('iiDocs').innerHTML = cur.docs.map(function (d) {
+        return '<a href="../../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
+      }).join('');
+      if (window.renderTeX) { renderTeX(el('instInfo')); }
+    }
+
+    /* ---------------- instances ---------------- */
+    var INSTS = [
+      {
+        id: 'life', domain: 'Computational science', name: 'Game of Life', kind: 'life', tag: 'life-like B3/S23',
+        B: [3], S: [2, 3], rule: 'B3/S23', density: 0.28,
+        sub: 'B=\\{3\\},\\quad S=\\{2,3\\}',
+        desc: 'Conway\u2019s binary rule: a dead cell is born with exactly 3 live neighbours; a live cell survives with 2 or 3 and dies otherwise. From random soup it produces gliders, blinkers and still lifes — the archetype of emergent computation.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.28 }]
+      },
+      {
+        id: 'seeds', domain: 'Mathematics', name: 'Seeds', kind: 'life', tag: 'life-like B2/S',
+        B: [2], S: [], rule: 'B2/S', density: 0.12,
+        sub: 'B=\\{2\\},\\quad S=\\varnothing',
+        desc: 'Every live cell dies each tick; a dead cell is born with exactly 2 live neighbours. The result is an explosive, ever-spreading pattern of expanding diamonds — a minimal rule with unbounded growth from almost any seed.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.12 }]
+      },
+      {
+        id: 'highlife', domain: 'Biology', name: 'HighLife', kind: 'life', tag: 'life-like B36/S23',
+        B: [3, 6], S: [2, 3], rule: 'B36/S23', density: 0.30,
+        sub: 'B=\\{3,6\\},\\quad S=\\{2,3\\}',
+        desc: 'Life with one extra birth condition (6 neighbours). It supports a self-replicating pattern, the replicator — put forward as a model of reproduction arising from a purely local rule.',
+        docs: [{ label: 'Boolean network', n: 'epistemica/computational-science/boolean-network.md' }],
+        params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.30 }]
+      },
+      {
+        id: 'gh', domain: 'Physics', name: 'Greenberg\u2013Hastings', kind: 'gh', tag: 'excitable medium', rule: 'excitable',
+        sub: '\\#\\text{excited}\\ge n \\Rightarrow \\text{fire}',
+        desc: 'An excitable-medium automaton: a resting cell fires when at least n neighbours are excited, stays refractory for r ticks, then recovers. Waves travel across the medium and never cross — the discrete analogue of cardiac and neural tissue.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: [
+          { key: 'thresh', label: 'excitation threshold', min: 1, max: 8, step: 1, value: 3 },
+          { key: 'refrac', label: 'refractory steps', min: 2, max: 20, step: 1, value: 6 }
+        ]
+      },
+      {
+        id: 'ww', domain: 'Engineering', name: 'Wireworld', kind: 'ww', tag: 'electron flow', rule: 'electron flow',
+        sub: '\\text{head}\\!\\to\\!\\text{tail}\\!\\to\\!\\text{wire}',
+        desc: 'A four-state automaton modelling electron flow: empty, wire, electron head and electron tail. Heads become tails, tails become wire, and a wire next to one or two heads becomes a head — enough to build logic gates and clocks.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: []
+      }
+    ];
+
+    var N = 140;
+    var grid = new Uint8Array(N * N), next = new Uint8Array(N * N), timer = new Uint8Array(N * N);
+    var gen = 0, popHist = [];
+    var playing = false, speed = 12, lastT = 0, accT = 0;
+    var view = { zoom: 1, panx: 0, pany: 0 };
+    var W = 0, H = 0, TW = 0, TH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var tsHover = -1, tsMap = null;
+    var cur = null, P = {};
+
+    var els = {
+      cv: el('cv'), wrap: el('wrap'), ts: el('ts'), tsTip: el('tsTip'),
+      insts: el('insts'), params: el('params'), playBtn: el('playBtn'), stepBtn: el('stepBtn'),
+      resetBtn: el('resetBtn'), speed: el('speed'), speedLbl: el('speedLbl'), status: el('status'),
+      vGen: el('vGen'), vLive: el('vLive'), ruleLine: el('ruleLine')
+    };
+    var ctx = els.cv.getContext('2d'), tctx = els.ts.getContext('2d');
+
+    /* ---------------- simulation ---------------- */
+    function idx(x, y) { return y * N + x; }
+    function neighborsCount(x, y) {
+      var n = 0;
+      for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) {
+        if (!dx && !dy) continue;
+        var nx = (x + dx + N) % N, ny = (y + dy + N) % N;
+        if (grid[idx(nx, ny)] === 1) n++;
+      }
+      return n;
+    }
+    function neighborsState(x, y, want) {
+      var n = 0;
+      for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) {
+        if (!dx && !dy) continue;
+        var nx = (x + dx + N) % N, ny = (y + dy + N) % N;
+        if (grid[idx(nx, ny)] === want) n++;
+      }
+      return n;
+    }
+    function stepSim() {
+      var x, y;
+      if (cur.kind === 'life') {
+        for (y = 0; y < N; y++) for (x = 0; x < N; x++) {
+          var a = grid[idx(x, y)] === 1, c = neighborsCount(x, y);
+          next[idx(x, y)] = ((a && cur.S.indexOf(c) >= 0) || (!a && cur.B.indexOf(c) >= 0)) ? 1 : 0;
+        }
+        grid.set(next);
+      } else if (cur.kind === 'gh') {
+        var thr = P.thresh | 0, rf = P.refrac | 0;
+        for (y = 0; y < N; y++) for (x = 0; x < N; x++) {
+          var s = grid[idx(x, y)];
+          if (s === 1) { next[idx(x, y)] = 2; timer[idx(x, y)] = rf; }
+          else if (s === 2) { if (timer[idx(x, y)] > 1) { next[idx(x, y)] = 2; timer[idx(x, y)]--; } else { next[idx(x, y)] = 0; } }
+          else { next[idx(x, y)] = (neighborsState(x, y, 1) >= thr) ? 1 : 0; }
+        }
+        grid.set(next);
+      } else if (cur.kind === 'ww') {
+        for (y = 0; y < N; y++) for (x = 0; x < N; x++) {
+          var v = grid[idx(x, y)];
+          if (v === 2) next[idx(x, y)] = 3;
+          else if (v === 3) next[idx(x, y)] = 1;
+          else if (v === 1) {
+            var h = neighborsState(x, y, 2);
+            next[idx(x, y)] = (h === 1 || h === 2) ? 2 : 1;
+          } else next[idx(x, y)] = 0;
+        }
+        grid.set(next);
+      }
+      gen++;
+      popHist.push(activeCount());
+      if (popHist.length > 600) popHist.shift();
+    }
+    function activeCount() {
+      var n = 0;
+      for (var i = 0; i < grid.length; i++) if (grid[i] && (cur.kind !== 'ww' || grid[i] === 2 || grid[i] === 3)) n++;
+      return n;
+    }
+    function seedWW() {
+      grid.fill(0);
+      function hline(y, x0, x1) { for (var x = x0; x <= x1; x++) grid[idx(x, y)] = 1; }
+      function vline(x, y0, y1) { for (var y = y0; y <= y1; y++) grid[idx(x, y)] = 1; }
+      var c = N >> 1;
+      hline(c, 20, N - 21);
+      hline(c - 18, 20, 60); vline(20, c - 18, c - 8);
+      hline(c + 18, 40, N - 21); vline(N - 21, c + 8, c + 18);
+      grid[idx(24, c)] = 2; grid[idx(23, c)] = 3; grid[idx(22, c)] = 3;
+      grid[idx(N - 25, c + 18)] = 2; grid[idx(N - 24, c + 18)] = 3; grid[idx(N - 23, c + 18)] = 3;
+    }
+    function reseed() {
+      gen = 0; popHist = [];
+      grid.fill(0); timer.fill(0);
+      if (cur.kind === 'ww') { seedWW(); }
+      else if (cur.kind === 'gh') {
+        for (var i = 0; i < grid.length; i++) if (Math.random() < 0.04) grid[i] = 1;
+      } else {
+        var d = (cur.params.length && cur.keyDensity) ? P.density : cur.density;
+        for (var j = 0; j < grid.length; j++) grid[j] = Math.random() < d ? 1 : 0;
+      }
+      gen = 0; popHist = [activeCount()];
+    }
+
+    /* ---------------- colors / draw ---------------- */
+    function stateColor(c, v) {
+      if (cur.kind === 'life') return v ? c.cyan : c.surface;
+      if (cur.kind === 'gh') return v === 1 ? c.gold : (v === 2 ? c.muted : c.surface);
+      return v === 2 ? c.cyan : (v === 3 ? c.gold : (v === 1 ? c.muted : c.surface));
+    }
+    function draw() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      var base = Math.min(W, H) / N;
+      var cell = base * view.zoom;
+      var gw = cell * N, gh = cell * N;
+      var ox = (W - gw) / 2 + view.panx, oy = (H - gh) / 2 + view.pany;
+      for (var y = 0; y < N; y++) for (var x = 0; x < N; x++) {
+        var v = grid[idx(x, y)];
+        if (cur.kind === 'life' && !v) continue;
+        if (cur.kind === 'gh' && v === 0) continue;
+        if (cur.kind === 'ww' && v === 0) continue;
+        ctx.fillStyle = stateColor(c, v);
+        ctx.globalAlpha = (cur.kind === 'gh' && v === 2) ? 0.5 : (cur.kind === 'ww' && v === 1 ? 0.45 : 1);
+        ctx.fillRect(ox + x * cell, oy + y * cell, Math.ceil(cell), Math.ceil(cell));
+      }
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = c.border; ctx.lineWidth = 1;
+      ctx.strokeRect(ox, oy, gw, gh);
+      els.vGen.textContent = gen;
+      els.vLive.textContent = activeCount();
+      drawTS();
+    }
+    function drawTS() {
+      var c = colors();
+      tctx.clearRect(0, 0, TW, TH);
+      if (popHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
+      var hi = 1;
+      for (var i = 0; i < popHist.length; i++) hi = Math.max(hi, popHist[i]);
+      var lo = 0;
+      var x0 = 40, x1 = TW - 10, y0 = 16, y1 = TH - 16;
+      function tx(i) { return x0 + (i / (popHist.length - 1)) * (x1 - x0); }
+      function ty(v) { return y1 - ((v - lo) / (hi - lo)) * (y1 - y0); }
+      tsMap = { x0: x0, x1: x1, y0: y0, y1: y1, n: popHist.length };
+      tctx.font = '9px monospace';
+      tctx.strokeStyle = c.border; tctx.lineWidth = 1;
+      tctx.beginPath(); tctx.moveTo(x0, y0); tctx.lineTo(x0, y1); tctx.lineTo(x1, y1); tctx.stroke();
+      tctx.fillStyle = c.muted; tctx.textAlign = 'right';
+      tctx.fillText(String(Math.round(hi)), x0 - 4, y0 + 4);
+      tctx.fillText('0', x0 - 4, y1);
+      tctx.textAlign = 'left';
+      tctx.beginPath();
+      for (i = 0; i < popHist.length; i++) { var X = tx(i), Y = ty(popHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
+      tctx.strokeStyle = c.cyan; tctx.lineWidth = 1.6; tctx.stroke();
+      tctx.fillStyle = c.cyan; tctx.fillText('active cells', x0 + 2, 11);
+      if (tsHover >= 0 && tsHover < popHist.length) {
+        var hx = tx(tsHover);
+        tctx.strokeStyle = c.primary; tctx.globalAlpha = 0.5;
+        tctx.beginPath(); tctx.moveTo(hx, y0); tctx.lineTo(hx, y1); tctx.stroke(); tctx.globalAlpha = 1;
+        tctx.fillStyle = c.cyan; tctx.beginPath(); tctx.arc(hx, ty(popHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
+      }
+    }
+
+    /* ---------------- params ---------------- */
+    function preset(inst) { P = {}; inst.params.forEach(function (p) { P[p.key] = p.value; }); }
+    function buildParams() {
+      els.params.innerHTML = '';
+      if (!cur.params.length) { els.params.innerHTML = '<div class="ruleLine">no parameters for this rule</div>'; return; }
+      cur.params.forEach(function (pm) {
+        var wrap = document.createElement('div'); wrap.className = 'param';
+        var lab = document.createElement('div'); lab.className = 'pl';
+        lab.innerHTML = '<span>' + pm.label + '</span><span class="val" id="pv_' + pm.key + '">' + pm.value + '</span>';
+        var inp = document.createElement('input');
+        inp.type = 'range'; inp.min = pm.min; inp.max = pm.max; inp.step = pm.step; inp.value = pm.value;
+        inp.addEventListener('input', function () {
+          P[pm.key] = parseFloat(inp.value);
+          el('pv_' + pm.key).textContent = pm.step < 1 ? P[pm.key] : String(P[pm.key]);
+          if (cur.kind === 'gh') { /* applies live */ } else { reseed(); }
+          draw();
+        });
+        wrap.appendChild(lab); wrap.appendChild(inp); els.params.appendChild(wrap);
+      });
+      if (window.renderTeX) renderTeX(els.params);
+    }
+
+    /* ---------------- UI ---------------- */
+    function setStatus(state) {
+      if (state === 'run') { els.status.textContent = 'PLAYING'; els.status.className = 'pill run'; els.playBtn.innerHTML = '&#10073;&#10073; Pause'; }
+      else { els.status.textContent = 'READY'; els.status.className = 'pill idle'; els.playBtn.innerHTML = '&#9654; Play'; }
+    }
+    function select(i) {
+      cur = INSTS[i];
+      cur.keyDensity = cur.params.some(function (p) { return p.key === 'density'; });
+      setActivePill(els.insts, i);
+      preset(cur);
+      gen = 0; playing = false; setStatus('idle');
+      fillInstInfo(cur);
+      els.ruleLine.innerHTML = 'rule: <b>' + cur.rule + '</b>';
+      buildParams();
+      reseed(); draw();
+    }
+
+    /* ---------------- interaction ---------------- */
+    function resizeAll() {
+      W = els.wrap.clientWidth; H = els.wrap.clientHeight;
+      els.cv.width = W * dpr; els.cv.height = H * dpr;
+      els.cv.style.width = W + 'px'; els.cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      TW = els.ts.clientWidth; TH = els.ts.clientHeight;
+      els.ts.width = TW * dpr; els.ts.height = TH * dpr;
+      els.ts.style.width = TW + 'px'; els.ts.style.height = TH + 'px';
+      tctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    var drag = null;
+    els.wrap.addEventListener('pointerdown', function (e) {
+      drag = { x: e.clientX, y: e.clientY, moved: false, px: view.panx, py: view.pany, paint: e.shiftKey || e.detail === 0 };
+      els.wrap.setPointerCapture(e.pointerId);
+      if (e.shiftKey) paintAt(e);
+    });
+    els.wrap.addEventListener('pointermove', function (e) {
+      if (!drag) return;
+      var mx = e.clientX - drag.x, my = e.clientY - drag.y;
+      if (Math.abs(mx) + Math.abs(my) > 3) drag.moved = true;
+      if (drag.paint) { paintAt(e); return; }
+      view.panx = drag.px + mx; view.pany = drag.py + my; draw();
+    });
+    els.wrap.addEventListener('pointerup', function (e) {
+      if (drag && !drag.moved && !drag.paint) toggleAt(e);
+      drag = null;
+    });
+    function cellAt(e) {
+      var r = els.cv.getBoundingClientRect();
+      var base = Math.min(W, H) / N, cell = base * view.zoom;
+      var ox = (W - cell * N) / 2 + view.panx, oy = (H - cell * N) / 2 + view.pany;
+      var x = Math.floor((e.clientX - r.left - ox) / cell), y = Math.floor((e.clientY - r.top - oy) / cell);
+      return { x: x, y: y };
+    }
+    function toggleAt(e) {
+      var p = cellAt(e);
+      if (p.x < 0 || p.y < 0 || p.x >= N || p.y >= N) return;
+      var i = idx(p.x, p.y);
+      if (cur.kind === 'ww') grid[i] = grid[i] === 1 ? 0 : 1;
+      else grid[i] = grid[i] ? 0 : 1;
+      draw();
+    }
+    function paintAt(e) {
+      var p = cellAt(e);
+      if (p.x < 0 || p.y < 0 || p.x >= N || p.y >= N) return;
+      grid[idx(p.x, p.y)] = cur.kind === 'ww' ? 1 : 1;
+      draw();
+    }
+    els.wrap.addEventListener('wheel', function (e) {
+      e.preventDefault();
+      view.zoom *= e.deltaY < 0 ? 1.12 : 1 / 1.12;
+      view.zoom = Math.max(0.4, Math.min(12, view.zoom));
+      draw();
+    }, { passive: false });
+    el('zin').addEventListener('click', function () { view.zoom *= 1.2; draw(); });
+    el('zout').addEventListener('click', function () { view.zoom /= 1.2; draw(); });
+    el('zfit').addEventListener('click', function () { view.zoom = 1; view.panx = 0; view.pany = 0; draw(); });
+
+    els.playBtn.addEventListener('click', function () {
+      playing = !playing; setStatus(playing ? 'run' : 'idle'); lastT = performance.now();
+    });
+    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); stepSim(); draw(); });
+    els.resetBtn.addEventListener('click', function () { playing = false; setStatus('idle'); reseed(); draw(); });
+    els.speed.addEventListener('input', function () { speed = parseInt(els.speed.value, 10); els.speedLbl.textContent = speed + ' gen/s'; });
+
+    els.ts.addEventListener('pointermove', function (e) {
+      if (!tsMap) return;
+      var r = els.ts.getBoundingClientRect();
+      var px = e.clientX - r.left, py = e.clientY - r.top;
+      var i = Math.round(((px - tsMap.x0) / (tsMap.x1 - tsMap.x0)) * (tsMap.n - 1));
+      i = Math.max(0, Math.min(tsMap.n - 1, i));
+      tsHover = i; drawTS();
+      var hx = tsMap.x0 + (i / (tsMap.n - 1)) * (tsMap.x1 - tsMap.x0);
+      els.tsTip.innerHTML = 'generation <b>' + (gen - (tsMap.n - 1 - i)) + '</b><br>active = <b>' + popHist[i] + '</b>';
+      els.tsTip.style.left = hx + 'px';
+      els.tsTip.style.top = Math.max(26, py) + 'px';
+      els.tsTip.hidden = false;
+    });
+    els.ts.addEventListener('pointerleave', function () { tsHover = -1; els.tsTip.hidden = true; drawTS(); });
+
+    function tick(now) {
+      if (playing) {
+        var dt = Math.min(0.25, (now - lastT) / 1000); lastT = now;
+        accT += dt * speed;
+        while (accT >= 1) { stepSim(); accT -= 1; }
+        draw();
+      } else { lastT = now; }
+      requestAnimationFrame(tick);
+    }
+
+    function boot() {
+      resizeAll();
+      buildPills(els.insts, INSTS, select);
+      var want = (location.search.match(/[?&]inst=([a-z0-9]+)/i) || [])[1];
+      var i0 = 0;
+      for (var i = 0; i < INSTS.length; i++) if (INSTS[i].id === want) i0 = i;
+      select(i0);
+      if (window.renderTeX) renderTeX(document);
+      requestAnimationFrame(tick);
+      var spy = document.querySelectorAll('.markdown-body h2[id]');
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) {
+            if (!en.isIntersecting) return;
+            var href = '#' + en.target.id, links = document.querySelectorAll('#toc .toc-item');
+            for (var i = 0; i < links.length; i++) links[i].classList.toggle('active', links[i].getAttribute('href') === href);
+          });
+        }, { rootMargin: '-80px 0px -70% 0px' });
+        for (var i = 0; i < spy.length; i++) io.observe(spy[i]);
+      }
+    }
+    var rt = 0;
+    window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(function () { resizeAll(); draw(); }, 120); });
+    window.addEventListener('epistecnica-theme', function () { draw(); });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+  })();
+
+  </script>
+
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+</body>
+</html>

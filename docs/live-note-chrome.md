@@ -358,3 +358,23 @@ here.
 |--------------------------|---------|-------------------------------------------|
 | `marked.min.js`          | (pinned)| markdown rendering (notes viewer)         |
 | `alpine.min.js`          | 3.13.5  | `unpkg.com/alpinejs@3.13.5/dist/cdn.min.js` — reactive UI in live notes (`alpine:init` + `defer` pattern) |
+| `mathjax/tex-svg-full.js`| 3.2.2   | `cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg-full.js` — offline TeX → SVG math; single self-contained file, no dynamic component loading, `svg: {fontCache:'local'}` (no font files). Apache-2.0. Loaded after `mathjax-setup.js`. |
+
+### Math / LaTeX
+
+`mathjax-setup.js` (beside the MathJax bundle) sets `window.MathJax` and
+exposes `window.renderTeX(root?)`. Author math as **empty** elements carrying
+TeX in an attribute, never as raw delimiters:
+
+```html
+<span class="math" data-tex="\dot{x}=f(x)"></span>      <!-- inline -->
+<div data-tex-display="\dot{x}=\alpha x-\beta x y"></div> <!-- display -->
+```
+
+`renderTeX()` fills each `[data-tex]` / `[data-tex-display]` node with the
+matching delimiters and typesets it (defaults to the whole body). This keeps
+the TeX out of the rendered text so `bin/index.py` (which strips attributes)
+never indexes LaTeX source. Corpus `.md` notes keep literal `$…$` / `$$…$$`,
+which MathJax renders in `note.html`; call `renderTeX(root)` again after any
+dynamic DOM update (viewer navigation, instance switch, parameter rebuild).
+Canvas-drawn labels stay Unicode (Canvas2D cannot typeset TeX).

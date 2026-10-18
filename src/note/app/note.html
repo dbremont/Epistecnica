@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="notes.css">
     <script src="vendor/marked.min.js"></script>
+    <script src="vendor/mathjax-setup.js"></script>
+    <script src="vendor/mathjax/tex-svg-full.js"></script>
     <style>
         :root {
             --bg-void: #04050A;
@@ -806,6 +808,7 @@
                     histPromise.then(function (list) { wireHistory(name, list); });
 
                     document.getElementById('note-body').innerHTML = marked.parse(md);
+                    if (window.renderTeX) renderTeX(document.getElementById('note-body'));
                     document.getElementById('loading').hidden = true;
                     document.getElementById('note-header').hidden = false;
                     document.getElementById('note-card').hidden = false;

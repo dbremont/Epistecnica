@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordinary Differential Equation Representational System</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.15);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+      --danger: #b3261e;
+      --danger-dim: rgba(179, 38, 30, 0.10);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin: 1.6em 0 0.5em;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body em { font-style: italic; }
+    .markdown-body ul { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body code, .font-mono { font-family: var(--font-mono); font-size: 0.85em; }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    /* ---- lab panel ---- */
+    .lab-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; align-items: start; }
+    @media (min-width: 1024px) { .lab-grid { grid-template-columns: 1.5fr 1fr; } }
+
+    .lab-stage {
+      position: relative;
+      height: min(58vh, 560px);
+      min-height: 340px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    #wrap { position: absolute; inset: 0; touch-action: none; cursor: crosshair; }
+    #cv { display: block; }
+
+    .lab-overlay { position: absolute; top: 12px; left: 12px; pointer-events: none; user-select: none; }
+    .overlay-card {
+      border-radius: 9px;
+      background: var(--card-bg);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      border: 1px solid var(--border-subtle);
+      padding: 8px 12px;
+      font-family: var(--font-mono);
+    }
+    #ovName { color: var(--text-primary); font-size: 13px; }
+    #ovSub { color: var(--text-muted); font-size: 10px; margin-top: 3px; }
+
+    .zoomers { position: absolute; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 6px; }
+    .zbtn {
+      width: 32px; height: 32px; border-radius: 7px;
+      border: 1px solid var(--border-subtle);
+      background: var(--card-bg);
+      color: var(--text-secondary);
+      font-size: 15px; line-height: 1; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .zbtn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .zbtn.small { font-size: 11px; }
+    .legend {
+      position: absolute; left: 12px; bottom: 12px;
+      display: flex; gap: 12px; font-family: var(--font-mono); font-size: 10px;
+      color: var(--text-muted); user-select: none; pointer-events: none;
+    }
+    .legend .k { display: inline-flex; align-items: center; gap: 4px; }
+    .legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+    .legend .dot#lgStable { background: var(--accent-cyan); }
+    .legend .dot#lgUnstable { background: var(--accent-gold); }
+    .legend .dot#lgNeutral { background: var(--text-muted); }
+
+    .lab-controls { display: flex; flex-direction: column; gap: 1.25rem; }
+    .lab-h {
+      font-family: var(--font-mono);
+      font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--text-muted); margin-bottom: 0.6rem;
+    }
+
+    .insts { display: flex; flex-direction: column; gap: 6px; }
+    .inst {
+      display: flex; flex-direction: column; gap: 2px;
+      text-align: left;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      border-radius: 7px;
+      padding: 7px 10px;
+      cursor: pointer;
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    .inst .d { font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-gold); }
+    .inst .n { font-size: 13px; color: var(--text-secondary); }
+    .inst:hover { border-color: var(--accent-cyan); }
+    .inst:hover .n { color: var(--text-primary); }
+    .inst.active { border-color: var(--accent-cyan); }
+    .inst.active .n { color: var(--accent-cyan); }
+
+    .btn {
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      border-radius: 7px;
+      padding: 7px 12px;
+      font-size: 13px; cursor: pointer; white-space: nowrap;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .btn.primary { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .rowBtns { display: flex; gap: 8px; }
+    .rowBtns .btn { flex: 1; }
+
+    .param { margin-bottom: 9px; }
+    .param .pl { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin-bottom: 3px; }
+    .param .pl .val { font-family: var(--font-mono); color: var(--text-secondary); }
+    input[type=range] { width: 100%; accent-color: var(--accent-cyan); }
+
+    .speedRow { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin: 0 0 4px; }
+    .speedRow .val { font-family: var(--font-mono); }
+
+    .resultCard { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 9px; padding: 12px; }
+    .stRow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .stRow .lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-right: auto; }
+    .pill { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 9999px; }
+    .pill.run { background: var(--accent-gold); color: var(--bg-void); }
+    .pill.idle { background: var(--accent-cyan-dim); color: var(--accent-cyan); }
+    .statGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; text-align: center; font-family: var(--font-mono); font-size: 12px; }
+    .statGrid .box { background: var(--bg-card); border-radius: 6px; padding: 6px 4px; }
+    .statGrid .k { font-size: 9px; color: var(--text-muted); }
+    .statGrid .v { font-size: 14px; color: var(--text-primary); }
+    .fpLine { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); margin-top: 8px; line-height: 1.6; }
+    .fpLine .s { color: var(--accent-cyan); }
+    .fpLine .u { color: var(--accent-gold); }
+    .tsWrap { margin-top: 1.25rem; border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 6px; height: 150px; position: relative; }
+    #ts { display: block; cursor: crosshair; }
+    .tsTip {
+      position: absolute; pointer-events: none; z-index: 3;
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px;
+      padding: 5px 8px; font-family: var(--font-mono); font-size: 10px; line-height: 1.5;
+      color: var(--text-secondary); white-space: nowrap; transform: translate(-50%, -100%);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+    }
+    .tsTip b { color: var(--text-primary); font-weight: 500; }
+    .tsTip .sx { color: var(--accent-cyan); }
+    .tsTip .sy { color: var(--accent-gold); }
+
+    .note-card ol.how { list-style: none; counter-reset: how; margin: 1.2em 0 0; padding-left: 0; }
+    .note-card ol.how li { counter-increment: how; position: relative; padding-left: 22px; margin-bottom: 8px; line-height: 1.55; font-size: 0.9rem; color: var(--text-secondary); }
+    .note-card ol.how li::before {
+      content: counter(how); position: absolute; left: 0; top: 0.1em;
+      font-family: var(--font-mono); font-size: 10px; color: var(--accent-cyan);
+      border: 1px solid var(--border-subtle); border-radius: 50%; width: 15px; height: 15px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .fine { font-size: 11px; color: var(--text-muted); margin-top: 10px; line-height: 1.6; }
+
+    /* ---- instance description (in the playground) ---- */
+    .inst-info { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 9px; padding: 10px 12px; }
+    .ii-name { font-family: var(--font-display); font-size: 1.02rem; color: var(--text-primary); margin-bottom: 5px; }
+    .ii-law { margin: 2px 0 9px; color: var(--text-secondary); overflow-x: auto; }
+    .ii-desc { font-size: 0.8rem; line-height: 1.55; color: var(--text-secondary); margin: 0 0 9px; }
+    .ii-docs { display: flex; flex-wrap: wrap; gap: 10px; }
+    .ii-docs a {
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--accent-cyan); text-decoration: none; border-bottom: 1px solid var(--border-subtle);
+    }
+    .ii-docs a:hover { border-bottom-color: var(--accent-cyan); }
+    .overlay-card { max-width: 260px; }
+    .overlay-card .law { color: var(--text-muted); font-size: 11px; margin-top: 4px; }
+    .math { white-space: nowrap; }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .site-nav .nav-links { display: flex; align-items: center; gap: 1.1rem; }
+    .site-nav .nav-links a {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted); text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-secondary);
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative; z-index: 1;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem 2rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+  </style>
+</head>
+<body>
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../../../index.html">Catalog</a><a href="atlas.html">Atlas</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds/rsp">rsp</a><span class="sep">/</span><span class="here">ordinary-differential-equation</span></div>
+      <h1 class="note-title">Ordinary Differential Equation Representational System</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#dynamical-systems</span>
+        <span class="chip">#representation</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>An <strong>Ordinary Differential Equation (ODE)</strong> representational system writes continuous-time change as a rate law: a finite state vector evolves under a rule <span class="math" data-tex="\dot{x}=f(x)"></span>. It is the canonical way dynamical behaviour is stated, and the <em>phase portrait</em> is the way it is read — a vector field whose flow lines are the possible histories of a system.</p>
+              <p>Below, this one representation is instantiated in five domains. Pick an instance to load it; its rate law and description appear above the lab. Then <strong>play</strong> — drag the parameter sliders, drop trajectories by clicking the phase plane, and watch the time series.</p>
+            </blockquote>
+
+            <h2 id="playground">Playground</h2>
+            <p>Pick an instance, then play with it. The phase plane shows the vector field (pale arrows), the trajectories (flow lines), and the equilibria (numeric, coloured by stability). Scroll to zoom, drag to pan, <span class="font-mono">⌂</span> to fit, click anywhere to launch a trajectory from that point.</p>
+
+            <div class="inst-info" id="instInfo">
+              <div class="ii-name" id="iiName"></div>
+              <div class="ii-law" id="iiLaw"></div>
+              <p class="ii-desc" id="iiDesc"></p>
+              <div class="ii-docs" id="iiDocs"></div>
+            </div>
+
+            <section class="lab">
+              <div class="lab-grid">
+                <div class="lab-stage">
+                  <div id="wrap"><canvas id="cv"></canvas></div>
+                  <div class="lab-overlay"><div class="overlay-card">
+                    <div id="ovName">—</div>
+                    <div class="law" id="ovSub">phase portrait</div>
+                  </div></div>
+                  <div class="legend">
+                    <span class="k"><span class="dot" id="lgStable"></span>stable</span>
+                    <span class="k"><span class="dot" id="lgUnstable"></span>unstable</span>
+                    <span class="k"><span class="dot" id="lgNeutral"></span>neutral</span>
+                  </div>
+                  <div class="zoomers">
+                    <button class="zbtn" id="zin" aria-label="Zoom in">+</button>
+                    <button class="zbtn" id="zout" aria-label="Zoom out">&minus;</button>
+                    <button class="zbtn small" id="zfit" aria-label="Fit view">&#x2922;</button>
+                  </div>
+                </div>
+
+                <div class="lab-controls">
+                  <section aria-label="Instances">
+                    <div class="lab-h">Instance</div>
+                    <div class="insts" id="insts"></div>
+                  </section>
+
+                  <section aria-label="Playback">
+                    <div class="lab-h">Playback</div>
+                    <div class="rowBtns">
+                      <button class="btn primary" id="playBtn">&#9654; Play</button>
+                      <button class="btn" id="stepBtn">Step</button>
+                      <button class="btn" id="resetBtn">Reset</button>
+                    </div>
+                    <div class="speedRow" style="margin-top:12px"><span>speed</span><span class="val" id="speedLbl">60 steps/s</span></div>
+                    <input type="range" id="speed" min="1" max="120" step="1" value="60" aria-label="Simulation speed">
+                  </section>
+
+                  <section aria-label="Parameters">
+                    <div class="lab-h">Parameters</div>
+                    <div id="params"></div>
+                  </section>
+
+                  <section aria-label="Readouts">
+                    <div class="lab-h">Readouts</div>
+                    <div class="resultCard">
+                      <div class="stRow">
+                        <span class="lbl">status</span>
+                        <span class="pill idle" id="status">READY</span>
+                      </div>
+                      <div class="statGrid">
+                        <div class="box"><div class="k" id="kX">x</div><div class="v" id="vX">—</div></div>
+                        <div class="box"><div class="k" id="kY">y</div><div class="v" id="vY">—</div></div>
+                      </div>
+                      <div class="fpLine" id="fps">—</div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+
+              <div class="tsWrap"><canvas id="ts"></canvas><div class="tsTip" id="tsTip" hidden></div></div>
+
+              <ol class="how">
+                <li>Every pale arrow is the rate law <span class="math" data-tex="(\dot{x},\dot{y})"></span> sampled at a point; together they are the vector field.</li>
+                <li>The coloured curves are trajectories obtained by integrating the rate law with a fixed-step <span class="font-mono">RK4</span> scheme — they are the histories the representation permits.</li>
+                <li>Equilibria are found numerically and classified by the eigenvalues of the Jacobian; the time series below shows the selected trajectory's states against time.</li>
+              </ol>
+              <p class="fine">Nothing is fetched at runtime — the vector field, integrator, and rendering all run in this page. Colours follow the light/dark theme.</p>
+            </section>
+
+            <h2 id="docs">Docs</h2>
+            <p>The representational system and its neighbours in the corpus:</p>
+            <ul>
+              <li><a href="../../../../../note.html?n=epistemica/mathematical/differential-equation.md">Differential Equation</a> — the element this playground instantiates</li>
+              <li><a href="../../../../../note.html?n=epistemica/mathematical/ds/vector-field.md">Vector Field</a> · <a href="../../../../../note.html?n=epistemica/mathematical/ds/flow.md">Flow</a> · <a href="../../../../../note.html?n=epistemica/mathematical/ds/fixed-point.md">Fixed Point</a> · <a href="../../../../../note.html?n=epistemica/mathematical/ds/stability-theory.md">Stability Theory</a></li>
+              <li><a href="../../../../../note.html?n=epistemica/mathematical/ds/dynamical-system.md">Dynamical System</a> — the scope note this playground serves</li>
+              <li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li>
+            </ul>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li>
+              <li><strong>Strogatz, S. H.</strong> — <em>Nonlinear Dynamics and Chaos</em> (phase portraits, fixed points, and the models reproduced here)</li>
+              <li><strong>FitzHugh, R. (1961)</strong> · <strong>Nagumo, J. et al. (1962)</strong> — the excitable-media equations</li>
+              <li><strong>Kermack, W. O. &amp; McKendrick, A. G. (1927)</strong> — the SIR compartmental model</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#playground">Playground</a>
+          <a class="toc-item" href="#docs">Docs</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+    <script src="../../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../../vendor/mathjax/tex-svg-full.js"></script>
+
+  <script id="ambient">
+  (function () {
+    var cv = document.getElementById('ambientCanvas');
+    var ctx = cv.getContext('2d');
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var stars = [], W = 0, H = 0, raf = 0;
+
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return { gold: s.getPropertyValue('--accent-gold').trim(), cyan: s.getPropertyValue('--accent-cyan').trim() };
+    }
+    function resize() {
+      W = window.innerWidth; H = window.innerHeight;
+      cv.width = W * dpr; cv.height = H * dpr;
+      cv.style.width = W + 'px'; cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.min(150, Math.round((W * H) / 16000));
+      stars = [];
+      for (var i = 0; i < n; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, r: 0.4 + Math.random() * 1.1, p: Math.random() * Math.PI * 2, s: 0.4 + Math.random() * 0.8 });
+    }
+    function frame() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < stars.length; i++) {
+        var st = stars[i];
+        st.p += 0.01 * st.s;
+        var a = 0.18 + 0.22 * (0.5 + 0.5 * Math.sin(st.p));
+        ctx.globalAlpha = a;
+        ctx.fillStyle = (i % 7 === 0) ? c.gold : c.cyan;
+        ctx.beginPath(); ctx.arc(st.x, st.y, st.r, 0, Math.PI * 2); ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      raf = requestAnimationFrame(frame);
+    }
+    window.addEventListener('resize', resize);
+    window.addEventListener('epistecnica-theme', function () {});
+    resize();
+    if (!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) frame();
+    else { var c = colors(); ctx.clearRect(0, 0, W, H); }
+  })();
+  </script>
+
+  <script id="theme">
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+
+  <script id="app">
+  (function () {
+    "use strict";
+
+    /* ---------------- instances ---------------- */
+    var INSTS = [
+      {
+        id: 'pendulum', domain: 'Physics', name: 'Damped pendulum',
+        xlab: 'θ', ylab: 'ω', xtex: '\\theta', ytex: '\\omega',
+        sub: '\\dot\\theta=\\omega,\\quad \\dot\\omega=-(g/L)\\sin\\theta-b\\,\\omega',
+        desc: 'A rigid pendulum with friction. The angle θ and the angular velocity ω evolve under gravity (g/L) and a damping torque b. Released away from rest, the bob spirals into the downward equilibrium — an underdamped focus.',
+        docs: [{ label: 'Hamiltonian mechanics', n: 'epistemica/computational-science/hamiltonian-mechanics.md' }],
+        params: [
+          { key: 'a', label: '\\(g/L\\)', min: 0.5, max: 20, step: 0.1, value: 9.8 },
+          { key: 'b', label: 'damping \\(b\\)', min: 0, max: 2, step: 0.01, value: 0.2 }
+        ],
+        field: function (x, y, p) { return [y, -p.a * Math.sin(x) - p.b * y]; },
+        bounds: { xmin: -7, xmax: 7, ymin: -6, ymax: 6 },
+        seeds: [[0.4, 0], [2.2, 0], [-2.6, 0], [0, 4.5], [0, -4.5]],
+        findFixed: true, dt: 0.01
+      },
+      {
+        id: 'rlc', domain: 'Electronics', name: 'Series RLC circuit',
+        xlab: 'v_C', ylab: 'i_L', xtex: 'v_C', ytex: 'i_L',
+        sub: '\\dot{v}_C=i_L/C,\\quad \\dot{i}_L=(V-R\\,i_L-v_C)/L',
+        desc: 'A series inductor–resistor–capacitor loop driven by a source V. The state is the capacitor voltage v_C and the loop current i_L; R, L and C set how the energy sloshes between the field and the charge and how fast it decays.',
+        docs: [{ label: 'State-space model', n: 'epistemica/computational-science/state-space-model.md' }],
+        params: [
+          { key: 'R', label: '\\(R\\)', min: 0.05, max: 3, step: 0.05, value: 0.4 },
+          { key: 'L', label: '\\(L\\)', min: 0.3, max: 3, step: 0.05, value: 1 },
+          { key: 'C', label: '\\(C\\)', min: 0.3, max: 3, step: 0.05, value: 1 },
+          { key: 'V', label: 'source \\(V\\)', min: 0, max: 2, step: 0.05, value: 0 }
+        ],
+        field: function (x, y, p) { return [y / p.C, (p.V - p.R * y - x) / p.L]; },
+        bounds: { xmin: -1.6, xmax: 1.6, ymin: -1.6, ymax: 1.6 },
+        seeds: [[1, 0], [0, 1], [-1, 0.6], [1.4, -0.4]],
+        findFixed: true, dt: 0.01
+      },
+      {
+        id: 'sir', domain: 'Epidemiology', name: 'SIR',
+        xlab: 'S', ylab: 'I', xtex: 'S', ytex: 'I',
+        sub: '\\dot{S}=-\\beta S I,\\quad \\dot{I}=\\beta S I-\\gamma I',
+        desc: 'Susceptible and infectious fractions of a well-mixed population. Contacts (β) move individuals from S to I, recovery (γ) removes them. The infected fraction rises, peaks, then burns out — the epidemic progression the model predicts.',
+        docs: [{ label: 'System dynamics', n: 'epistemica/computational-science/system-dynamics.md' }],
+        params: [
+          { key: 'b', label: '\\(\\beta\\) (contact)', min: 0.05, max: 2, step: 0.01, value: 0.6 },
+          { key: 'g', label: '\\(\\gamma\\) (recovery)', min: 0.05, max: 2, step: 0.01, value: 0.3 }
+        ],
+        field: function (x, y, p) { return [-p.b * x * y, p.b * x * y - p.g * y]; },
+        bounds: { xmin: 0, xmax: 1, ymin: 0, ymax: 1 },
+        seeds: [[1, 0.02], [0.99, 0.01], [0.95, 0.05], [0.8, 0.1], [0.6, 0.2]],
+        findFixed: false, dt: 0.02
+      },
+      {
+        id: 'lv', domain: 'Ecology', name: 'Lotka–Volterra',
+        xlab: 'prey', ylab: 'predator', xtex: 'x', ytex: 'y',
+        sub: '\\dot{x}=\\alpha x-\\beta x y,\\quad \\dot{y}=\\delta x y-\\gamma y',
+        desc: 'Prey x and predator y coupled by consumption. Prey grow (α) and are eaten (β); predators convert the food (δ) and die (γ). The classic portrait is a family of closed orbits around a centre — predator–prey cycles that neither damp nor grow.',
+        docs: [{ label: 'Lotka–Volterra', n: 'epistemica/computational-science/lotka-volterra.md' }],
+        params: [
+          { key: 'a', label: '\\(\\alpha\\) prey growth', min: 0.1, max: 2, step: 0.01, value: 1 },
+          { key: 'b', label: '\\(\\beta\\) predation', min: 0.05, max: 1, step: 0.01, value: 0.4 },
+          { key: 'd', label: '\\(\\delta\\) conversion', min: 0.05, max: 1, step: 0.01, value: 0.3 },
+          { key: 'g', label: '\\(\\gamma\\) death', min: 0.1, max: 2, step: 0.01, value: 0.5 }
+        ],
+        field: function (x, y, p) { return [p.a * x - p.b * x * y, p.d * x * y - p.g * y]; },
+        bounds: { xmin: 0, xmax: 6, ymin: 0, ymax: 6 },
+        seeds: [[1, 0.5], [3, 1], [4, 1.5], [2, 2.5], [0.6, 0.8]],
+        findFixed: true, dt: 0.01
+      },
+      {
+        id: 'fhn', domain: 'Neuroscience', name: 'FitzHugh–Nagumo',
+        xlab: 'v', ylab: 'w', xtex: 'v', ytex: 'w',
+        sub: '\\dot{v}=v-v^3/3-w+I,\\quad \\dot{w}=(v+a-b\\,w)/\\tau',
+        desc: 'An excitable membrane model. The fast voltage v and the slow recovery w interact through a cubic nonlinearity, a stimulus I and a time-scale τ. Depending on the parameters it is excitable, fires a spike, or settles into relaxation oscillations.',
+        docs: [{ label: 'Stability theory', n: 'epistemica/mathematical/ds/stability-theory.md' }],
+        params: [
+          { key: 'I', label: 'stimulus \\(I\\)', min: 0, max: 1.5, step: 0.01, value: 0.5 },
+          { key: 'a', label: '\\(a\\)', min: 0.3, max: 1.2, step: 0.01, value: 0.7 },
+          { key: 'b', label: '\\(b\\)', min: 0.5, max: 1.2, step: 0.01, value: 0.8 },
+          { key: 't', label: '\\(\\tau\\)', min: 6, max: 20, step: 0.1, value: 12.5 }
+        ],
+        field: function (x, y, p) { return [x - x * x * x / 3 - y + p.I, (x + p.a - p.b * y) / p.t]; },
+        bounds: { xmin: -2.5, xmax: 2.5, ymin: -1, ymax: 2 },
+        seeds: [[0, 0], [1, 0.4], [-1, 0.4], [1.8, -0.4], [-1.8, 0.8]],
+        findFixed: true, dt: 0.02
+      }
+    ];
+
+    /* ---------------- state ---------------- */
+    var cur = null, P = {}, trajs = [], reveal = Infinity, playing = false,
+        fps = [], view = { cx: 0, cy: 0, scale: 40 }, speed = 60,
+        primary = 0, lastT = 0;
+    var tsHover = -1, tsMap = null;
+    var STEP_CAP = 4000;
+
+    var els = {
+      cv: document.getElementById('cv'), wrap: document.getElementById('wrap'),
+      ts: document.getElementById('ts'), insts: document.getElementById('insts'),
+      params: document.getElementById('params'), playBtn: document.getElementById('playBtn'),
+      stepBtn: document.getElementById('stepBtn'), resetBtn: document.getElementById('resetBtn'),
+      speed: document.getElementById('speed'), speedLbl: document.getElementById('speedLbl'),
+      status: document.getElementById('status'), ovName: document.getElementById('ovName'),
+      ovSub: document.getElementById('ovSub'), kX: document.getElementById('kX'), kY: document.getElementById('kY'),
+      vX: document.getElementById('vX'), vY: document.getElementById('vY'), fpsEl: document.getElementById('fps'),
+      tsTip: document.getElementById('tsTip'),
+      instInfo: document.getElementById('instInfo'), iiName: document.getElementById('iiName'),
+      iiLaw: document.getElementById('iiLaw'), iiDesc: document.getElementById('iiDesc'), iiDocs: document.getElementById('iiDocs')
+    };
+    var ctx = els.cv.getContext('2d'), tctx = els.ts.getContext('2d');
+    var W = 0, H = 0, TW = 0, TH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim(),
+        danger: s.getPropertyValue('--danger').trim()
+      };
+    }
+
+    /* ---------------- math ---------------- */
+    function field(x, y) { return cur.field(x, y, P); }
+    function step(x, y, dt) {
+      var a = field(x, y);
+      var k1x = a[0], k1y = a[1];
+      var b = field(x + 0.5 * dt * k1x, y + 0.5 * dt * k1y);
+      var k2x = b[0], k2y = b[1];
+      var c = field(x + 0.5 * dt * k2x, y + 0.5 * dt * k2y);
+      var k3x = c[0], k3y = c[1];
+      var d = field(x + dt * k3x, y + dt * k3y);
+      var nx = x + (dt / 6) * (k1x + 2 * k2x + 2 * k3x + d[0]);
+      var ny = y + (dt / 6) * (k1y + 2 * k2y + 2 * k3y + d[1]);
+      return [nx, ny];
+    }
+    function integrate(x, y, dt, n) {
+      var pts = [[x, y]];
+      var bx = cur.bounds, lim = 5;
+      for (var i = 0; i < n; i++) {
+        var nx = step(x, y, dt);
+        if (!isFinite(nx[0]) || !isFinite(nx[1])) break;
+        x = nx[0]; y = nx[1];
+        if (x < bx.xmin - lim || x > bx.xmax + lim || y < bx.ymin - lim || y > bx.ymax + lim) { pts.push([x, y]); break; }
+        pts.push([x, y]);
+      }
+      return pts;
+    }
+    function jac(x, y) {
+      var h = 1e-5;
+      var f0 = field(x, y);
+      var fx = field(x + h, y), fy = field(x, y + h);
+      return [(fx[0] - f0[0]) / h, (fy[0] - f0[0]) / h, (fx[1] - f0[1]) / h, (fy[1] - f0[1]) / h];
+    }
+    function classify(x, y) {
+      var J = jac(x, y);
+      var T = J[0] + J[3], D = J[0] * J[3] - J[1] * J[2];
+      if (D < 0) return 'unstable';
+      if (Math.abs(T) < 1e-3) return 'neutral';
+      return T < 0 ? 'stable' : 'unstable';
+    }
+    function newton(x, y) {
+      for (var k = 0; k < 30; k++) {
+        var f = field(x, y);
+        var J = jac(x, y);
+        var det = J[0] * J[3] - J[1] * J[2];
+        if (Math.abs(det) < 1e-12) return null;
+        var dx = (-f[0] * J[3] + J[1] * f[1]) / det;
+        var dy = (-J[0] * f[1] + f[0] * J[2]) / det;
+        x += dx; y += dy;
+        if (dx * dx + dy * dy < 1e-16) break;
+      }
+      return [x, y];
+    }
+    function findFixed() {
+      fps = [];
+      var b = cur.bounds, N = 45;
+      var padv = 0.06 * (b.xmax - b.xmin), padh = 0.06 * (b.ymax - b.ymin);
+      var x0 = b.xmin - padv, x1 = b.xmax + padv, y0 = b.ymin - padh, y1 = b.ymax + padh;
+      var gx = [], gy = [];
+      for (var i = 0; i <= N; i++) {
+        gx[i] = []; gy[i] = [];
+        for (var j = 0; j <= N; j++) {
+          var x = x0 + (x1 - x0) * (i + 0.5) / (N + 1);
+          var y = y0 + (y1 - y0) * (j + 0.5) / (N + 1);
+          var f = field(x, y);
+          gx[i][j] = f[0]; gy[i][j] = f[1];
+        }
+      }
+      var span = Math.max(b.xmax - b.xmin, b.ymax - b.ymin);
+      for (i = 0; i < N; i++) for (j = 0; j < N; j++) {
+        var fs = [gx[i][j], gx[i + 1][j], gx[i][j + 1], gx[i + 1][j + 1]];
+        var gs = [gy[i][j], gy[i + 1][j], gy[i][j + 1], gy[i + 1][j + 1]];
+        function signChange(arr) {
+          var pos = false, neg = false;
+          for (var q = 0; q < arr.length; q++) { if (arr[q] > 0) pos = true; if (arr[q] < 0) neg = true; }
+          return pos && neg;
+        }
+        if (!signChange(fs) || !signChange(gs)) continue;
+        var cx = x0 + (x1 - x0) * (i + 1) / (N + 1);
+        var cy = y0 + (y1 - y0) * (j + 1) / (N + 1);
+        var r = newton(cx, cy);
+        if (!r) continue;
+        var fv = field(r[0], r[1]);
+        if (!isFinite(fv[0]) || Math.abs(fv[0]) + Math.abs(fv[1]) > 1e-4) continue;
+        var dup = false;
+        for (var k = 0; k < fps.length; k++) {
+          var dxx = fps[k].x - r[0], dyy = fps[k].y - r[1];
+          if (Math.sqrt(dxx * dxx + dyy * dyy) < span * 0.012) { dup = true; break; }
+        }
+        if (!dup) fps.push({ x: r[0], y: r[1], kind: classify(r[0], r[1]) });
+      }
+    }
+
+    /* ---------------- view ---------------- */
+    function fit() {
+      var b = cur.bounds;
+      var pad = 1.12;
+      var sw = (b.xmax - b.xmin) * pad, sh = (b.ymax - b.ymin) * pad;
+      view.scale = Math.max(8, Math.min(W / sw, H / sh));
+      view.cx = (b.xmin + b.xmax) / 2;
+      view.cy = (b.ymin + b.ymax) / 2;
+    }
+    function sx(x) { return (x - view.cx) * view.scale + W / 2; }
+    function sy(y) { return H / 2 - (y - view.cy) * view.scale; }
+    function dx(px) { return view.cx + (px - W / 2) / view.scale; }
+    function dy(py) { return view.cy + (H / 2 - py) / view.scale; }
+
+    /* ---------------- build / reset ---------------- */
+    function preset(inst) {
+      P = {};
+      for (var i = 0; i < inst.params.length; i++) P[inst.params[i].key] = inst.params[i].value;
+    }
+    function reset(keepView) {
+      if (!keepView) fit();
+      trajs = [];
+      for (var i = 0; i < cur.seeds.length; i++) {
+        var s = cur.seeds[i];
+        trajs.push({ pts: integrate(s[0], s[1], cur.dt, STEP_CAP), seed: s });
+      }
+      primary = 0;
+      reveal = 0;
+      playing = false;
+      tsHover = -1;
+      if (els.tsTip) els.tsTip.hidden = true;
+      setStatus('idle');
+      if (cur.findFixed) findFixed(); else fps = [];
+      renderFps();
+      draw();
+    }
+    function maxLen() { var m = 0; for (var i = 0; i < trajs.length; i++) m = Math.max(m, trajs[i].pts.length); return m; }
+    function setStatus(state) {
+      if (state === 'run') { els.status.textContent = 'PLAYING'; els.status.className = 'pill run'; els.playBtn.innerHTML = '&#10073;&#10073; Pause'; }
+      else { els.status.textContent = 'READY'; els.status.className = 'pill idle'; els.playBtn.innerHTML = '&#9654; Play'; }
+    }
+
+    /* ---------------- draw ---------------- */
+    function draw() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      drawField(c);
+      drawTrajs(c);
+      drawFps(c);
+      drawAxes(c);
+      updateReadouts();
+    }
+    function drawField(c) {
+      var spacing = 34;
+      ctx.strokeStyle = c.muted;
+      ctx.globalAlpha = 0.32;
+      ctx.lineWidth = 1;
+      for (var px = spacing / 2; px < W; px += spacing) {
+        for (var py = spacing / 2; py < H; py += spacing) {
+          var x = dx(px), y = dy(py), f = field(x, y);
+          var m = Math.sqrt(f[0] * f[0] + f[1] * f[1]);
+          if (!isFinite(m) || m < 1e-9) continue;
+          var ux = f[0] / m, uy = f[1] / m;
+          var L = spacing * 0.36;
+          var x2 = px + ux * L, y2 = py - uy * L;
+          ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(x2, y2); ctx.stroke();
+          ctx.beginPath();
+          ctx.moveTo(x2, y2);
+          ctx.lineTo(x2 - ux * 4 - uy * 2.4, y2 + uy * 4 - ux * 2.4);
+          ctx.lineTo(x2 - ux * 4 + uy * 2.4, y2 + uy * 4 + ux * 2.4);
+          ctx.closePath(); ctx.fillStyle = c.muted; ctx.fill();
+        }
+      }
+      ctx.globalAlpha = 1;
+    }
+    function drawTrajs(c) {
+      var lim = Math.min(reveal, 1e9);
+      for (var i = 0; i < trajs.length; i++) {
+        var pts = trajs[i].pts, n = Math.min(pts.length, Math.floor(lim));
+        var isP = (i === primary);
+        if (n < 2) continue;
+        ctx.beginPath();
+        ctx.moveTo(sx(pts[0][0]), sy(pts[0][1]));
+        for (var j = 1; j < n; j++) ctx.lineTo(sx(pts[j][0]), sy(pts[j][1]));
+        ctx.lineWidth = isP ? 2 : 1.4;
+        ctx.strokeStyle = isP ? c.cyan : c.gold;
+        ctx.globalAlpha = isP ? 0.95 : 0.6;
+        ctx.stroke();
+        if (isP) {
+          ctx.globalAlpha = 1;
+          ctx.fillStyle = c.cyan;
+          ctx.beginPath(); ctx.arc(sx(pts[n - 1][0]), sy(pts[n - 1][1]), 4, 0, Math.PI * 2); ctx.fill();
+        }
+      }
+      ctx.globalAlpha = 1;
+    }
+    function drawFps(c) {
+      for (var i = 0; i < fps.length; i++) {
+        var p = fps[i];
+        var col = p.kind === 'stable' ? c.cyan : (p.kind === 'unstable' ? c.gold : c.muted);
+        ctx.fillStyle = col;
+        ctx.strokeStyle = col;
+        ctx.globalAlpha = 0.9;
+        ctx.beginPath(); ctx.arc(sx(p.x), sy(p.y), 4, 0, Math.PI * 2); ctx.fill();
+        ctx.globalAlpha = 0.5;
+        ctx.beginPath(); ctx.arc(sx(p.x), sy(p.y), 8, 0, Math.PI * 2); ctx.stroke();
+        ctx.globalAlpha = 1;
+      }
+    }
+    function drawAxes(c) {
+      ctx.strokeStyle = c.border; ctx.lineWidth = 1;
+      if (view.cy > cur.bounds.ymin && view.cy < cur.bounds.ymax) {
+        ctx.beginPath(); ctx.moveTo(0, sy(0)); ctx.lineTo(W, sy(0)); ctx.stroke();
+      }
+      if (view.cx > cur.bounds.xmin && view.cx < cur.bounds.xmax) {
+        ctx.beginPath(); ctx.moveTo(sx(0), 0); ctx.lineTo(sx(0), H); ctx.stroke();
+      }
+    }
+    function renderFps() {
+      if (!cur.findFixed) { els.fpsEl.innerHTML = 'equilibria: the disease-free sheet I = 0 (continuum)'; return; }
+      if (!fps.length) { els.fpsEl.innerHTML = 'equilibria: none detected in view'; return; }
+      var html = 'equilibria:<br>';
+      for (var i = 0; i < fps.length; i++) {
+        var cls = fps[i].kind === 'stable' ? 's' : (fps[i].kind === 'unstable' ? 'u' : '');
+        html += '· (' + fps[i].x.toFixed(2) + ', ' + fps[i].y.toFixed(2) + ') <span class="' + cls + '">' + fps[i].kind + '</span><br>';
+      }
+      els.fpsEl.innerHTML = html;
+    }
+    function updateReadouts() {
+      var p = trajs[primary] ? trajs[primary].pts : null;
+      if (!p || p.length < 1) { els.vX.textContent = '—'; els.vY.textContent = '—'; return; }
+      var n = Math.min(p.length, Math.max(1, Math.floor(reveal))) - 1;
+      if (!isFinite(reveal)) n = p.length - 1;
+      if (n < 0) n = 0;
+      els.vX.textContent = p[n][0].toFixed(3);
+      els.vY.textContent = p[n][1].toFixed(3);
+    }
+
+    /* ---------------- time series ---------------- */
+    function niceStep(range, count) {
+      if (!(range > 0)) return 1;
+      var raw = range / Math.max(1, count);
+      var mag = Math.pow(10, Math.floor(Math.log(raw) / Math.LN10));
+      var norm = raw / mag;
+      var step = norm < 1.5 ? 1 : (norm < 3 ? 2 : (norm < 7 ? 5 : 10));
+      return step * mag;
+    }
+    function drawTS() {
+      var c = colors();
+      var p = trajs[primary] ? trajs[primary].pts : null;
+      tctx.clearRect(0, 0, TW, TH);
+      if (!p || p.length < 2) { tsMap = null; if (els.tsTip) els.tsTip.hidden = true; return; }
+      var n = isFinite(reveal) ? Math.min(p.length, Math.max(1, Math.floor(reveal))) : p.length;
+      var dt = cur.dt;
+      var lo = Infinity, hi = -Infinity;
+      for (var i = 0; i < n; i++) { lo = Math.min(lo, p[i][0], p[i][1]); hi = Math.max(hi, p[i][0], p[i][1]); }
+      if (!isFinite(lo)) { tsMap = null; if (els.tsTip) els.tsTip.hidden = true; return; }
+      var pad = (hi - lo) * 0.1 || 1; lo -= pad; hi += pad;
+      var tmax = (n - 1) * dt || 1;
+      var x0 = 40, x1 = TW - 10, y0 = 18, y1 = TH - 16;
+      function txs(t) { return x0 + (t / tmax) * (x1 - x0); }
+      function tys(v) { return y1 - ((v - lo) / (hi - lo)) * (y1 - y0); }
+      tsMap = { x0: x0, x1: x1, y0: y0, y1: y1, lo: lo, hi: hi, tmax: tmax, dt: dt, n: n };
+
+      tctx.font = '9px monospace';
+      tctx.strokeStyle = c.border; tctx.lineWidth = 1;
+      tctx.beginPath(); tctx.moveTo(x0, y0); tctx.lineTo(x0, y1); tctx.lineTo(x1, y1); tctx.stroke();
+
+      var ts = niceStep(tmax, 4);
+      tctx.fillStyle = c.muted; tctx.textAlign = 'center';
+      for (var tt = 0; tt <= tmax + 1e-9; tt += ts) {
+        var TX = txs(tt);
+        tctx.globalAlpha = 0.35; tctx.beginPath(); tctx.moveTo(TX, y0); tctx.lineTo(TX, y1); tctx.stroke(); tctx.globalAlpha = 1;
+        tctx.fillText(fmt(tt), TX, y1 + 11);
+      }
+      var vs = niceStep(hi - lo, 3);
+      tctx.textAlign = 'right';
+      for (var vv = Math.ceil(lo / vs) * vs; vv <= hi + 1e-9; vv += vs) {
+        var VY = tys(vv);
+        tctx.globalAlpha = 0.35; tctx.beginPath(); tctx.moveTo(x0, VY); tctx.lineTo(x1, VY); tctx.stroke(); tctx.globalAlpha = 1;
+        tctx.fillText(fmt(vv), x0 - 4, VY + 3);
+      }
+      tctx.textAlign = 'left';
+
+      var series = [[0, c.cyan], [1, c.gold]];
+      for (var s = 0; s < series.length; s++) {
+        var idx = series[s][0];
+        tctx.beginPath();
+        for (i = 0; i < n; i++) {
+          var X = txs(i * dt), Y = tys(p[i][idx]);
+          if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y);
+        }
+        tctx.strokeStyle = series[s][1]; tctx.lineWidth = 1.6; tctx.stroke();
+      }
+
+      tctx.font = '10px monospace';
+      tctx.fillStyle = c.cyan; tctx.fillText(cur.xlab + '(t)', x0 + 2, 11);
+      tctx.fillStyle = c.gold; tctx.fillText(cur.ylab + '(t)', x0 + 2 + (cur.xlab.length + 5) * 6, 11);
+
+      if (tsHover >= 0 && tsHover < n) {
+        var hx = txs(tsHover * dt);
+        tctx.strokeStyle = c.primary; tctx.globalAlpha = 0.5; tctx.lineWidth = 1;
+        tctx.beginPath(); tctx.moveTo(hx, y0); tctx.lineTo(hx, y1); tctx.stroke();
+        tctx.globalAlpha = 1;
+        tctx.fillStyle = c.cyan; tctx.beginPath(); tctx.arc(hx, tys(p[tsHover][0]), 3, 0, Math.PI * 2); tctx.fill();
+        tctx.fillStyle = c.gold; tctx.beginPath(); tctx.arc(hx, tys(p[tsHover][1]), 3, 0, Math.PI * 2); tctx.fill();
+      }
+    }
+
+    /* ---------------- UI ---------------- */
+    function buildInsts() {
+      els.insts.innerHTML = '';
+      INSTS.forEach(function (inst, i) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'inst' + (i === 0 ? ' active' : '');
+        b.innerHTML = '<span class="d">' + inst.domain + '</span><span class="n">' + inst.name + '</span>';
+        b.addEventListener('click', function () { select(i); });
+        els.insts.appendChild(b);
+      });
+    }
+    function buildParams() {
+      els.params.innerHTML = '';
+      cur.params.forEach(function (pm) {
+        var wrap = document.createElement('div'); wrap.className = 'param';
+        var lab = document.createElement('div'); lab.className = 'pl';
+        lab.innerHTML = '<span>' + pm.label + '</span><span class="val" id="pv_' + pm.key + '">' + fmt(pm.value) + '</span>';
+        var inp = document.createElement('input');
+        inp.type = 'range'; inp.min = pm.min; inp.max = pm.max; inp.step = pm.step; inp.value = pm.value;
+        inp.addEventListener('input', function () {
+          P[pm.key] = parseFloat(inp.value);
+          var el = document.getElementById('pv_' + pm.key); if (el) el.textContent = fmt(P[pm.key]);
+          reveal = 0; playing = false; setStatus('idle');
+          trajs = [];
+          for (var i = 0; i < cur.seeds.length; i++) trajs.push({ pts: integrate(cur.seeds[i][0], cur.seeds[i][1], cur.dt, STEP_CAP), seed: cur.seeds[i] });
+          if (cur.findFixed) findFixed(); else fps = [];
+          renderFps(); draw(); drawTS();
+        });
+        wrap.appendChild(lab); wrap.appendChild(inp);
+        els.params.appendChild(wrap);
+      });
+      if (window.renderTeX) renderTeX(els.params);
+    }
+    function fmt(v) { return (Math.round(v * 100) / 100).toString(); }
+    function select(i, noScroll) {
+      cur = INSTS[i];
+      var btns = els.insts.querySelectorAll('.inst');
+      for (var k = 0; k < btns.length; k++) btns[k].className = 'inst' + (k === i ? ' active' : '');
+      preset(cur);
+      els.ovName.textContent = cur.domain + ' · ' + cur.name;
+      els.iiName.textContent = cur.domain + ' · ' + cur.name;
+      els.iiLaw.setAttribute('data-tex-display', cur.sub);
+      els.iiDesc.textContent = cur.desc;
+      els.iiDocs.innerHTML = cur.docs.map(function (d) {
+        return '<a href="../../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
+      }).join('');
+      els.kX.setAttribute('data-tex', cur.xtex);
+      els.kY.setAttribute('data-tex', cur.ytex);
+      buildParams();
+      reset(false); drawTS();
+      if (window.renderTeX) { renderTeX(els.instInfo); renderTeX(els.kX.parentNode); }
+      if (!noScroll) document.getElementById('playground').scrollIntoView({ block: 'start' });
+    }
+
+    /* ---------------- interaction ---------------- */
+    function resizeAll() {
+      W = els.wrap.clientWidth; H = els.wrap.clientHeight;
+      els.cv.width = W * dpr; els.cv.height = H * dpr;
+      els.cv.style.width = W + 'px'; els.cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      TW = els.ts.clientWidth; TH = els.ts.clientHeight;
+      els.ts.width = TW * dpr; els.ts.height = TH * dpr;
+      els.ts.style.width = TW + 'px'; els.ts.style.height = TH + 'px';
+      tctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    var drag = null;
+    els.wrap.addEventListener('pointerdown', function (e) {
+      drag = { x: e.clientX, y: e.clientY, moved: false, vx: view.cx, vy: view.cy };
+      els.wrap.setPointerCapture(e.pointerId);
+    });
+    els.wrap.addEventListener('pointermove', function (e) {
+      if (!drag) return;
+      var mx = e.clientX - drag.x, my = e.clientY - drag.y;
+      if (Math.abs(mx) + Math.abs(my) > 3) drag.moved = true;
+      view.cx = drag.vx - mx / view.scale;
+      view.cy = drag.vy + my / view.scale;
+      draw();
+    });
+    els.wrap.addEventListener('pointerup', function (e) {
+      if (drag && !drag.moved) {
+        var r = els.cv.getBoundingClientRect();
+        var x = dx(e.clientX - r.left), y = dy(e.clientY - r.top);
+        trajs.push({ pts: integrate(x, y, cur.dt, STEP_CAP), seed: [x, y] });
+        primary = trajs.length - 1;
+        reveal = 0;
+        draw(); drawTS();
+      }
+      drag = null;
+    });
+    els.wrap.addEventListener('wheel', function (e) {
+      e.preventDefault();
+      var r = els.cv.getBoundingClientRect();
+      var px = e.clientX - r.left, py = e.clientY - r.top;
+      var bx = dx(px), by = dy(py);
+      var f = e.deltaY < 0 ? 1.12 : 1 / 1.12;
+      view.scale *= f;
+      view.scale = Math.max(4, Math.min(4000, view.scale));
+      view.cx = bx - (px - W / 2) / view.scale;
+      view.cy = by - (H / 2 - py) / view.scale;
+      draw();
+    }, { passive: false });
+
+    document.getElementById('zin').addEventListener('click', function () { view.scale *= 1.2; draw(); });
+    document.getElementById('zout').addEventListener('click', function () { view.scale /= 1.2; draw(); });
+    document.getElementById('zfit').addEventListener('click', function () { fit(); draw(); });
+
+    els.playBtn.addEventListener('click', function () {
+      if (playing) { playing = false; setStatus('idle'); return; }
+      if (!isFinite(reveal) || reveal >= maxLen()) reveal = 0;
+      playing = true; setStatus('run'); lastT = performance.now();
+    });
+    els.stepBtn.addEventListener('click', function () {
+      playing = false; setStatus('idle');
+      if (!isFinite(reveal)) reveal = 0;
+      reveal = Math.min(maxLen(), reveal + 40);
+      draw(); drawTS();
+    });
+    els.resetBtn.addEventListener('click', function () { reset(true); drawTS(); });
+    els.speed.addEventListener('input', function () {
+      speed = parseInt(els.speed.value, 10);
+      els.speedLbl.textContent = speed + ' steps/s';
+    });
+
+    els.ts.addEventListener('pointermove', function (e) {
+      if (!tsMap || tsMap.n < 1 || !trajs[primary]) return;
+      var r = els.ts.getBoundingClientRect();
+      var px = e.clientX - r.left, py = e.clientY - r.top;
+      var frac = (px - tsMap.x0) / (tsMap.x1 - tsMap.x0);
+      var i = Math.round(frac * (tsMap.n - 1));
+      i = Math.max(0, Math.min(tsMap.n - 1, i));
+      tsHover = i; drawTS();
+      var tip = els.tsTip;
+      if (!tip) return;
+      var pt = trajs[primary].pts[i];
+      var hx = tsMap.x0 + (i * tsMap.dt / tsMap.tmax) * (tsMap.x1 - tsMap.x0);
+      tip.innerHTML = 't = <b>' + fmt(i * tsMap.dt) + '</b>'
+        + '<br><span class="sx">' + cur.xlab + '</span> = <b>' + pt[0].toFixed(3) + '</b>'
+        + '<br><span class="sy">' + cur.ylab + '</span> = <b>' + pt[1].toFixed(3) + '</b>';
+      tip.style.left = hx + 'px';
+      tip.style.top = Math.max(26, py) + 'px';
+      tip.hidden = false;
+    });
+    els.ts.addEventListener('pointerleave', function () {
+      tsHover = -1; if (els.tsTip) els.tsTip.hidden = true; drawTS();
+    });
+
+    window.addEventListener('epistecnica-theme', function () { draw(); drawTS(); });
+
+    /* ---------------- loop ---------------- */
+    function tick(now) {
+      if (playing) {
+        var dts = Math.min(0.05, (now - lastT) / 1000); lastT = now;
+        reveal = Math.min(maxLen(), reveal + speed * dts);
+        if (reveal >= maxLen()) { playing = false; setStatus('idle'); }
+        draw(); drawTS();
+      } else { lastT = now; }
+      requestAnimationFrame(tick);
+    }
+
+    /* ---------------- boot ---------------- */
+    function boot() {
+      resizeAll();
+      buildInsts();
+      var want = (location.search.match(/[?&]inst=([a-z]+)/) || [])[1] || location.hash.replace('#', '');
+      var idx = 0;
+      for (var i = 0; i < INSTS.length; i++) if (INSTS[i].id === want) idx = i;
+      select(idx, true);
+      if (window.renderTeX) renderTeX(document);
+      requestAnimationFrame(tick);
+      var spy = document.querySelectorAll('.markdown-body h2[id]');
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) {
+            if (!en.isIntersecting) return;
+            var href = '#' + en.target.id;
+            var links = document.querySelectorAll('#toc .toc-item');
+            for (var i = 0; i < links.length; i++) links[i].classList.toggle('active', links[i].getAttribute('href') === href);
+          });
+        }, { rootMargin: '-80px 0px -70% 0px' });
+        for (var i = 0; i < spy.length; i++) io.observe(spy[i]);
+      }
+    }
+    var rt = 0;
+    window.addEventListener('resize', function () {
+      clearTimeout(rt);
+      rt = setTimeout(function () { resizeAll(); draw(); drawTS(); }, 120);
+    });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+  })();
+  </script>
+
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+
+
+</body>
+</html>

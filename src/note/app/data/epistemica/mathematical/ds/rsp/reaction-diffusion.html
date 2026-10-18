@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reaction–Diffusion Representational System</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.15);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+      --danger: #b3261e;
+      --danger-dim: rgba(179, 38, 30, 0.10);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin: 1.6em 0 0.5em;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body em { font-style: italic; }
+    .markdown-body ul { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body code, .font-mono { font-family: var(--font-mono); font-size: 0.85em; }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    /* ---- lab panel ---- */
+    .lab-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; align-items: start; }
+    @media (min-width: 1024px) { .lab-grid { grid-template-columns: 1.5fr 1fr; } }
+
+    .lab-stage {
+      position: relative;
+      height: min(58vh, 560px);
+      min-height: 340px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    #wrap { position: absolute; inset: 0; touch-action: none; cursor: crosshair; }
+    #cv { display: block; }
+
+    .lab-overlay { position: absolute; top: 12px; left: 12px; pointer-events: none; user-select: none; }
+    .overlay-card {
+      border-radius: 9px;
+      background: var(--card-bg);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      border: 1px solid var(--border-subtle);
+      padding: 8px 12px;
+      font-family: var(--font-mono);
+    }
+    #ovName { color: var(--text-primary); font-size: 13px; }
+    #ovSub { color: var(--text-muted); font-size: 10px; margin-top: 3px; }
+
+    .zoomers { position: absolute; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 6px; }
+    .zbtn {
+      width: 32px; height: 32px; border-radius: 7px;
+      border: 1px solid var(--border-subtle);
+      background: var(--card-bg);
+      color: var(--text-secondary);
+      font-size: 15px; line-height: 1; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .zbtn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .zbtn.small { font-size: 11px; }
+    .legend {
+      position: absolute; left: 12px; bottom: 12px;
+      display: flex; gap: 12px; font-family: var(--font-mono); font-size: 10px;
+      color: var(--text-muted); user-select: none; pointer-events: none;
+    }
+    .legend .k { display: inline-flex; align-items: center; gap: 4px; }
+    .legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+    .legend .dot#lgStable { background: var(--accent-cyan); }
+    .legend .dot#lgUnstable { background: var(--accent-gold); }
+    .legend .dot#lgNeutral { background: var(--text-muted); }
+
+    .lab-controls { display: flex; flex-direction: column; gap: 1.25rem; }
+    .lab-h {
+      font-family: var(--font-mono);
+      font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--text-muted); margin-bottom: 0.6rem;
+    }
+
+    .insts { display: flex; flex-direction: column; gap: 6px; }
+    .inst {
+      display: flex; flex-direction: column; gap: 2px;
+      text-align: left;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      border-radius: 7px;
+      padding: 7px 10px;
+      cursor: pointer;
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    .inst .d { font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-gold); }
+    .inst .n { font-size: 13px; color: var(--text-secondary); }
+    .inst:hover { border-color: var(--accent-cyan); }
+    .inst:hover .n { color: var(--text-primary); }
+    .inst.active { border-color: var(--accent-cyan); }
+    .inst.active .n { color: var(--accent-cyan); }
+
+    .btn {
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      border-radius: 7px;
+      padding: 7px 12px;
+      font-size: 13px; cursor: pointer; white-space: nowrap;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .btn.primary { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .rowBtns { display: flex; gap: 8px; }
+    .rowBtns .btn { flex: 1; }
+
+    .param { margin-bottom: 9px; }
+    .param .pl { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin-bottom: 3px; }
+    .param .pl .val { font-family: var(--font-mono); color: var(--text-secondary); }
+    input[type=range] { width: 100%; accent-color: var(--accent-cyan); }
+
+    .speedRow { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin: 0 0 4px; }
+    .speedRow .val { font-family: var(--font-mono); }
+
+    .resultCard { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 9px; padding: 12px; }
+    .stRow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .stRow .lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-right: auto; }
+    .pill { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 9999px; }
+    .pill.run { background: var(--accent-gold); color: var(--bg-void); }
+    .pill.idle { background: var(--accent-cyan-dim); color: var(--accent-cyan); }
+    .statGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; text-align: center; font-family: var(--font-mono); font-size: 12px; }
+    .statGrid .box { background: var(--bg-card); border-radius: 6px; padding: 6px 4px; }
+    .statGrid .k { font-size: 9px; color: var(--text-muted); }
+    .statGrid .v { font-size: 14px; color: var(--text-primary); }
+    .fpLine { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); margin-top: 8px; line-height: 1.6; }
+    .fpLine .s { color: var(--accent-cyan); }
+    .fpLine .u { color: var(--accent-gold); }
+    .tsWrap { margin-top: 1.25rem; border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 6px; height: 150px; position: relative; }
+    #ts { display: block; cursor: crosshair; }
+    .tsTip {
+      position: absolute; pointer-events: none; z-index: 3;
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px;
+      padding: 5px 8px; font-family: var(--font-mono); font-size: 10px; line-height: 1.5;
+      color: var(--text-secondary); white-space: nowrap; transform: translate(-50%, -100%);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+    }
+    .tsTip b { color: var(--text-primary); font-weight: 500; }
+    .tsTip .sx { color: var(--accent-cyan); }
+    .tsTip .sy { color: var(--accent-gold); }
+
+    .note-card ol.how { list-style: none; counter-reset: how; margin: 1.2em 0 0; padding-left: 0; }
+    .note-card ol.how li { counter-increment: how; position: relative; padding-left: 22px; margin-bottom: 8px; line-height: 1.55; font-size: 0.9rem; color: var(--text-secondary); }
+    .note-card ol.how li::before {
+      content: counter(how); position: absolute; left: 0; top: 0.1em;
+      font-family: var(--font-mono); font-size: 10px; color: var(--accent-cyan);
+      border: 1px solid var(--border-subtle); border-radius: 50%; width: 15px; height: 15px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .fine { font-size: 11px; color: var(--text-muted); margin-top: 10px; line-height: 1.6; }
+
+    /* ---- instance description (in the playground) ---- */
+    .inst-info { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 9px; padding: 10px 12px; }
+    .ii-name { font-family: var(--font-display); font-size: 1.02rem; color: var(--text-primary); margin-bottom: 5px; }
+    .ii-law { margin: 2px 0 9px; color: var(--text-secondary); overflow-x: auto; }
+    .ii-desc { font-size: 0.8rem; line-height: 1.55; color: var(--text-secondary); margin: 0 0 9px; }
+    .ii-docs { display: flex; flex-wrap: wrap; gap: 10px; }
+    .ii-docs a {
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--accent-cyan); text-decoration: none; border-bottom: 1px solid var(--border-subtle);
+    }
+    .ii-docs a:hover { border-bottom-color: var(--accent-cyan); }
+    .overlay-card { max-width: 260px; }
+    .overlay-card .law { color: var(--text-muted); font-size: 11px; margin-top: 4px; }
+    .math { white-space: nowrap; }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .site-nav .nav-links { display: flex; align-items: center; gap: 1.1rem; }
+    .site-nav .nav-links a {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted); text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-secondary);
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative; z-index: 1;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem 2rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    #wrap { cursor: cell; }
+    .swatchRow { display: flex; gap: 6px; margin-top: 8px; }
+    .swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--border-subtle); }
+
+  </style>
+</head>
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../../../index.html">Catalog</a><a href="atlas.html">Atlas</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds/rsp">rsp</a><span class="sep">/</span><span class="here">reaction-diffusion</span></div>
+      <h1 class="note-title">Reaction–Diffusion Representational System</h1>
+      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#reaction-diffusion</span><span class="chip">#representation</span></div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A <strong>Reaction–Diffusion</strong> representational system writes change
+              as <em>local reaction coupled to spatial diffusion</em>: two concentrations
+              <span class="math" data-tex="u(\mathbf{x},t),\,v(\mathbf{x},t)"></span> evolve under
+              <span class="math" data-tex="\partial_t u = D_u\nabla^2 u + f(u,v)"></span> and the same
+              for <span class="math" data-tex="v"></span>. It is how continuous fields are stated, and
+              the evolving pattern is the way it is read.</p>
+              <p>Below, this one representation is instantiated in four domains. Pick an instance to
+              load it; its kinetics and description appear above the lab. Then <strong>play</strong> —
+              let the field evolve, click to inject chemical, and watch the mean values.</p>
+            </blockquote>
+
+            <h2 id="playground">Playground</h2>
+            <p>Pick an instance, then play with it. The field is a two-species grid rendered through a
+            colour map; click to inject a blob, drag to pan, scroll to zoom. Mean concentrations and a
+            trace update as the pattern forms.</p>
+
+            <div class="inst-info" id="instInfo">
+              <div class="ii-name" id="iiName"></div>
+              <div class="ii-law" id="iiLaw"></div>
+              <p class="ii-desc" id="iiDesc"></p>
+              <div class="ii-docs" id="iiDocs"></div>
+            </div>
+
+            <section class="lab">
+              <div class="lab-grid">
+                <div class="lab-stage">
+                  <div id="wrap"><canvas id="cv"></canvas></div>
+                  <div class="lab-overlay"><div class="overlay-card">
+                    <div id="ovName">—</div>
+                    <div class="law" id="ovSub">concentration field</div>
+                  </div></div>
+                  <div class="zoomers">
+                    <button class="zbtn" id="zin" aria-label="Zoom in">+</button>
+                    <button class="zbtn" id="zout" aria-label="Zoom out">&minus;</button>
+                    <button class="zbtn small" id="zfit" aria-label="Fit view">&#x2922;</button>
+                  </div>
+                </div>
+
+                <div class="lab-controls">
+                  <section aria-label="Instances">
+                    <div class="lab-h">Instance</div>
+                    <div class="insts" id="insts"></div>
+                  </section>
+
+                  <section aria-label="Playback">
+                    <div class="lab-h">Playback</div>
+                    <div class="rowBtns">
+                      <button class="btn primary" id="playBtn">&#9654; Play</button>
+                      <button class="btn" id="stepBtn">Step</button>
+                      <button class="btn" id="resetBtn">Reset</button>
+                    </div>
+                    <div class="speedRow" style="margin-top:12px"><span>iterations / s</span><span class="val" id="speedLbl">240</span></div>
+                    <input type="range" id="speed" min="30" max="600" step="30" value="240" aria-label="Iterations per second">
+                  </section>
+
+                  <section aria-label="Parameters">
+                    <div class="lab-h">Parameters</div>
+                    <div id="params"></div>
+                  </section>
+
+                  <section aria-label="Readouts">
+                    <div class="lab-h">Readouts</div>
+                    <div class="resultCard">
+                      <div class="stRow">
+                        <span class="lbl">status</span>
+                        <span class="pill idle" id="status">READY</span>
+                      </div>
+                      <div class="statGrid">
+                        <div class="box"><div class="k">mean ⟨u⟩</div><div class="v" id="vU">—</div></div>
+                        <div class="box"><div class="k">mean ⟨v⟩</div><div class="v" id="vV">—</div></div>
+                      </div>
+                      <div class="ruleLine" id="ruleLine">kinetics: —</div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+
+              <div class="tsWrap"><canvas id="ts"></canvas><div class="tsTip" id="tsTip" hidden></div></div>
+
+              <ol class="how">
+                <li>Each cell runs the same reaction kinetics <span class="math" data-tex="f(u,v)"></span> locally and exchanges chemical with its neighbours by diffusion <span class="math" data-tex="D\nabla^2"></span>.</li>
+                <li>A diffusion-driven instability (Turing) can turn a uniform state into spots and stripes — order emerging from local rules alone.</li>
+                <li>The trace plots the mean of the <span class="math" data-tex="v"></span> field, which marks when a pattern has settled.</li>
+              </ol>
+              <p class="fine">Nothing is fetched at runtime — the field, kinetics and rendering all run in this page. Colours follow the light/dark theme.</p>
+            </section>
+
+            <h2 id="docs">Docs</h2>
+            <ul><li><a href="../../../../../note.html?n=epistemica/observational/diffusion-process.md">Diffusion Process</a> · <a href="../../../../../note.html?n=epistemica/observational/diffusion-model.md">Diffusion Model</a> · <a href="../../../../../note.html?n=epistemica/computational-science/fick-s-laws-of-diffusion.md">Fick’s Laws</a></li><li><a href="../../../../../note.html?n=epistemica/computational-science/system-dynamics.md">System Dynamics</a> · <a href="../../../../../note.html?n=epistemica/mathematical/ds/dynamical-system.md">Dynamical System</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+
+            <h2 id="references">References</h2>
+            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Turing, A. M. (1952)</strong> — <em>The Chemical Basis of Morphogenesis</em></li><li><strong>Pearson, J. E. (1993)</strong> — complex patterns in a simple system (Gray–Scott)</li><li><strong>FitzHugh, R. (1961)</strong> · <strong>Nagumo, J. et al. (1962)</strong> — excitable-media equations</li></ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc"><a class="toc-item" href="#playground">Playground</a><a class="toc-item" href="#docs">Docs</a><a class="toc-item" href="#references">References</a></nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script src="../../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../../vendor/mathjax/tex-svg-full.js"></script>
+
+<script id="ambient">
+  (function () {
+    var cv = document.getElementById('ambientCanvas');
+    var ctx = cv.getContext('2d');
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var stars = [], W = 0, H = 0, raf = 0;
+
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return { gold: s.getPropertyValue('--accent-gold').trim(), cyan: s.getPropertyValue('--accent-cyan').trim() };
+    }
+    function resize() {
+      W = window.innerWidth; H = window.innerHeight;
+      cv.width = W * dpr; cv.height = H * dpr;
+      cv.style.width = W + 'px'; cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.min(150, Math.round((W * H) / 16000));
+      stars = [];
+      for (var i = 0; i < n; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, r: 0.4 + Math.random() * 1.1, p: Math.random() * Math.PI * 2, s: 0.4 + Math.random() * 0.8 });
+    }
+    function frame() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < stars.length; i++) {
+        var st = stars[i];
+        st.p += 0.01 * st.s;
+        var a = 0.18 + 0.22 * (0.5 + 0.5 * Math.sin(st.p));
+        ctx.globalAlpha = a;
+        ctx.fillStyle = (i % 7 === 0) ? c.gold : c.cyan;
+        ctx.beginPath(); ctx.arc(st.x, st.y, st.r, 0, Math.PI * 2); ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      raf = requestAnimationFrame(frame);
+    }
+    window.addEventListener('resize', resize);
+    window.addEventListener('epistecnica-theme', function () {});
+    resize();
+    if (!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) frame();
+    else { var c = colors(); ctx.clearRect(0, 0, W, H); }
+  })();
+  </script>
+
+<script id="theme">
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+
+  <script id="app">
+
+(function () {
+    "use strict";
+
+    /* ---------------- shared playground helpers ---------------- */
+    function el(id) { return document.getElementById(id); }
+    function fmt(v) { return (Math.round(v * 1000) / 1000).toString(); }
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim(),
+        card: s.getPropertyValue('--bg-card').trim(),
+        danger: s.getPropertyValue('--danger').trim()
+      };
+    }
+    function buildPills(container, INSTS, onSelect) {
+      container.innerHTML = '';
+      INSTS.forEach(function (inst, i) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'inst' + (i === 0 ? ' active' : '');
+        b.innerHTML = '<span class="d">' + inst.domain + '</span><span class="n">' + inst.name + '</span>';
+        b.addEventListener('click', function () { onSelect(i); });
+        container.appendChild(b);
+      });
+    }
+    function setActivePill(container, i) {
+      var b = container.querySelectorAll('.inst');
+      for (var k = 0; k < b.length; k++) b[k].className = 'inst' + (k === i ? ' active' : '');
+    }
+    function fillInstInfo(cur) {
+      el('ovName').textContent = cur.domain + ' · ' + cur.name;
+      var os = el('ovSub'); if (os && cur.tag) os.textContent = cur.tag;
+      el('iiName').textContent = cur.domain + ' · ' + cur.name;
+      el('iiLaw').setAttribute('data-tex-display', cur.sub);
+      el('iiDesc').textContent = cur.desc;
+      el('iiDocs').innerHTML = cur.docs.map(function (d) {
+        return '<a href="../../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
+      }).join('');
+      if (window.renderTeX) { renderTeX(el('instInfo')); }
+    }
+
+    var N = 150;
+    var u = new Float32Array(N * N), v = new Float32Array(N * N);
+    var u2 = new Float32Array(N * N), v2 = new Float32Array(N * N);
+    var meanHist = [];
+    var playing = false, speed = 240, lastT = 0, accT = 0, iters = 0;
+    var view = { zoom: 1, panx: 0, pany: 0 };
+    var W = 0, H = 0, TW = 0, TH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var tsHover = -1, tsMap = null;
+    var cur = null, P = {};
+    var img = null, off = document.createElement('canvas');
+    off.width = N; off.height = N;
+    var octx = off.getContext('2d');
+    img = octx.createImageData(N, N);
+
+    var els = {
+      cv: el('cv'), wrap: el('wrap'), ts: el('ts'), tsTip: el('tsTip'),
+      insts: el('insts'), params: el('params'), playBtn: el('playBtn'), stepBtn: el('stepBtn'),
+      resetBtn: el('resetBtn'), speed: el('speed'), speedLbl: el('speedLbl'), status: el('status'),
+      vU: el('vU'), vV: el('vV'), ruleLine: el('ruleLine')
+    };
+    var ctx = els.cv.getContext('2d'), tctx = els.ts.getContext('2d');
+
+    var INSTS = [
+      {
+        id: 'grayscott', domain: 'Chemistry', name: 'Gray\u2013Scott', reaction: 'gs', render: 'v', rng: [0, 0.4], tag: 'autocatalytic reactor',
+        sub: '\\dot u=-uv^2+f(1-u),\\quad \\dot v=uv^2-(f+k)v',
+        desc: 'The canonical autocatalytic reactor: u is fed in, v consumes u and decays. With the right feed and kill rates a uniform state breaks into self-maintaining spots and worms \u2014 therefore called "mitosis".',
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
+        params: [
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.05, max: 0.3, step: 0.01, value: 0.16 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.02, max: 0.15, step: 0.01, value: 0.08 },
+          { key: 'f', label: 'feed f', min: 0.01, max: 0.08, step: 0.001, value: 0.035 },
+          { key: 'k', label: 'kill k', min: 0.03, max: 0.075, step: 0.001, value: 0.065 }
+        ]
+      },
+      {
+        id: 'brusselator', domain: 'Chemistry', name: 'Brusselator', reaction: 'br', render: 'u', rng: [0, 4.5], tag: 'oscillating reaction',
+        sub: '\\dot u=a-(b+1)u+u^2v,\\quad \\dot v=bu-u^2v',
+        desc: 'A theoretical oscillating reaction. With diffusion, the uniform steady state loses stability and the field organises into stripes and rotating spirals \u2014 a Turing pattern from a limit-cycle chemistry.',
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
+        params: [
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.4, max: 1.4, step: 0.05, value: 0.9 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.2, max: 0.9, step: 0.05, value: 0.45 },
+          { key: 'a', label: 'a', min: 0.5, max: 2, step: 0.05, value: 1.0 },
+          { key: 'b', label: 'b', min: 1.5, max: 4, step: 0.05, value: 2.5 }
+        ]
+      },
+      {
+        id: 'schnakenberg', domain: 'Biology', name: 'Schnakenberg', reaction: 'sk', render: 'u', rng: [0.2, 1.2], tag: 'activator\u2013substrate',
+        sub: '\\dot u=a-u+u^2v,\\quad \\dot v=b-u^2v',
+        desc: 'A minimal activator\u2013substrate model of morphogenesis. A slowly diffusing activator u and a fast substrate v form regular spot arrays \u2014 the textbook picture of how a uniform embryo can decide where to grow.',
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
+        params: [
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.05, max: 0.4, step: 0.01, value: 0.16 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.4, max: 3, step: 0.05, value: 1.6 },
+          { key: 'a', label: 'a', min: 0.02, max: 0.4, step: 0.01, value: 0.1 },
+          { key: 'b', label: 'b', min: 0.4, max: 1.4, step: 0.02, value: 0.9 }
+        ]
+      },
+      {
+        id: 'fhn', domain: 'Neuroscience', name: 'FitzHugh\u2013Nagumo', reaction: 'fhn', render: 'u', rng: [-2, 2], tag: 'excitable medium',
+        sub: '\\dot u=u-\\tfrac{u^3}{3}-v+I,\\quad \\dot v=\\epsilon(u+a-bv)',
+        desc: 'An excitable medium: below threshold it stays quiet, at threshold it fires a wave that sweeps the tissue and leaves a refractory trail. Diffusion couples the cells so the pulse travels as a travelling front.',
+        docs: [{ label: 'Diffusion model', n: 'epistemica/observational/diffusion-model.md' }],
+        params: [
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.4, max: 2, step: 0.05, value: 1.0 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.1, max: 1, step: 0.05, value: 0.4 },
+          { key: 'I', label: 'stimulus I', min: -0.2, max: 0.8, step: 0.02, value: 0.05 },
+          { key: 'e', label: 'time-scale ε', min: 0.02, max: 0.2, step: 0.005, value: 0.08 }
+        ]
+      }
+    ];
+
+    function idx(x, y) { return ((y + N) % N) * N + ((x + N) % N); }
+    function lap(f, x, y) {
+      return f[idx(x - 1, y)] + f[idx(x + 1, y)] + f[idx(x, y - 1)] + f[idx(x, y + 1)] - 4 * f[idx(x, y)];
+    }
+    function reactions(a, b, p) {
+      if (cur.reaction === 'gs') { var uvv = a * b * b; return [-uvv + p.f * (1 - a), uvv - (p.f + p.k) * b]; }
+      if (cur.reaction === 'br') { var u2v = a * a * b; return [p.a - (p.b + 1) * a + u2v, p.b * a - u2v]; }
+      if (cur.reaction === 'sk') { var u2v2 = a * a * b; return [p.a - a + u2v2, p.b - u2v2]; }
+      return [a - a * a * a / 3 - b + p.I, p.e * (a + 0.7 - 0.8 * b)];
+    }
+    function stepSim() {
+      var Du = P.Du, Dv = P.Dv;
+      for (var y = 0; y < N; y++) for (var x = 0; x < N; x++) {
+        var i = y * N + x, r = reactions(u[i], v[i], P);
+        u2[i] = u[i] + Du * lap(u, x, y) + r[0];
+        v2[i] = v[i] + Dv * lap(v, x, y) + r[1];
+      }
+      u.set(u2); v.set(v2);
+      iters++;
+    }
+    function reseed() {
+      iters = 0; meanHist = [];
+      for (var i = 0; i < u.length; i++) { u[i] = 1; v[i] = 0; }
+      var c = N >> 1, s = Math.max(4, N >> 4);
+      for (var y = -s; y <= s; y++) for (var x = -s; x <= s; x++) { u[idx(c + x, c + y)] = 0.5; v[idx(c + x, c + y)] = 0.25; }
+      if (cur.reaction === 'br') { for (i = 0; i < u.length; i++) { u[i] = 0.5 + Math.random() * 0.1; v[i] = 1.5; } for (y = -s; y <= s; y++) for (x = -s; x <= s; x++) u[idx(c + x, c + y)] = 1 + Math.random(); }
+      if (cur.reaction === 'sk') { for (i = 0; i < u.length; i++) { u[i] = 0.5; v[i] = 0.5; } for (y = -s; y <= s; y++) for (x = -s; x <= s; x++) u[idx(c + x, c + y)] = 0.7 + Math.random() * 0.4; }
+      if (cur.reaction === 'fhn') { for (i = 0; i < u.length; i++) { u[i] = -1.2; v[i] = 0; } for (y = -3; y <= 3; y++) for (x = -3; x <= 3; x++) u[idx(c + x, c + y)] = 1.5; }
+      pushMean(); draw();
+    }
+    function pushMean() {
+      var su = 0, sv = 0;
+      for (var i = 0; i < u.length; i++) { su += u[i]; sv += v[i]; }
+      meanHist.push(sv / u.length);
+      if (meanHist.length > 600) meanHist.shift();
+    }
+
+    /* palette: concentration -> rgb */
+    function palette(t) {
+      t = Math.max(0, Math.min(1, t));
+      var stops = [[4, 8, 24], [20, 90, 140], [0, 200, 200], [230, 190, 90], [250, 245, 235]];
+      var x = t * (stops.length - 1), i = Math.min(stops.length - 2, Math.floor(x)), f = x - i;
+      var a = stops[i], b = stops[i + 1];
+      return [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f, a[2] + (b[2] - a[2]) * f];
+    }
+    function draw() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      var field = (cur.render === 'v') ? v : u;
+      var lo = Infinity, hi = -Infinity;
+      for (var i = 0; i < field.length; i++) { if (field[i] < lo) lo = field[i]; if (field[i] > hi) hi = field[i]; }
+      if (cur.rng && cur.rng.length) { lo = cur.rng[0]; hi = cur.rng[1]; }
+      var span = (hi - lo) || 1, d = img.data;
+      for (i = 0; i < field.length; i++) {
+        var col = palette((field[i] - lo) / span);
+        var o = i * 4;
+        d[o] = col[0]; d[o + 1] = col[1]; d[o + 2] = col[2]; d[o + 3] = 255;
+      }
+      octx.putImageData(img, 0, 0);
+      var base = Math.min(W, H) / N, cell = base * view.zoom, gw = cell * N, gh = cell * N;
+      var ox = (W - gw) / 2 + view.panx, oy = (H - gh) / 2 + view.pany;
+      ctx.imageSmoothingEnabled = true;
+      ctx.drawImage(off, ox, oy, gw, gh);
+      ctx.strokeStyle = c.border; ctx.lineWidth = 1; ctx.strokeRect(ox, oy, gw, gh);
+      var su = 0, sv = 0;
+      for (i = 0; i < u.length; i++) { su += u[i]; sv += v[i]; }
+      els.vU.textContent = (su / u.length).toFixed(3);
+      els.vV.textContent = (sv / u.length).toFixed(3);
+      drawTS();
+    }
+    function drawTS() {
+      var c = colors();
+      tctx.clearRect(0, 0, TW, TH);
+      if (meanHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
+      var lo = Infinity, hi = -Infinity;
+      for (var i = 0; i < meanHist.length; i++) { lo = Math.min(lo, meanHist[i]); hi = Math.max(hi, meanHist[i]); }
+      var pad = (hi - lo) * 0.15 || 1; lo -= pad; hi += pad;
+      var x0 = 44, x1 = TW - 10, y0 = 16, y1 = TH - 16;
+      function tx(i) { return x0 + (i / (meanHist.length - 1)) * (x1 - x0); }
+      function ty(val) { return y1 - ((val - lo) / (hi - lo)) * (y1 - y0); }
+      tsMap = { x0: x0, x1: x1, n: meanHist.length };
+      tctx.font = '9px monospace';
+      tctx.strokeStyle = c.border; tctx.lineWidth = 1;
+      tctx.beginPath(); tctx.moveTo(x0, y0); tctx.lineTo(x0, y1); tctx.lineTo(x1, y1); tctx.stroke();
+      tctx.fillStyle = c.muted; tctx.textAlign = 'right';
+      tctx.fillText(hi.toFixed(2), x0 - 4, y0 + 4); tctx.fillText(lo.toFixed(2), x0 - 4, y1);
+      tctx.textAlign = 'left';
+      tctx.beginPath();
+      for (i = 0; i < meanHist.length; i++) { var X = tx(i), Y = ty(meanHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
+      tctx.strokeStyle = c.gold; tctx.lineWidth = 1.6; tctx.stroke();
+      tctx.fillStyle = c.gold; tctx.fillText('\u27e8v\u27e9', x0 + 2, 11);
+      if (tsHover >= 0 && tsHover < meanHist.length) {
+        var hx = tx(tsHover);
+        tctx.strokeStyle = c.primary; tctx.globalAlpha = 0.5;
+        tctx.beginPath(); tctx.moveTo(hx, y0); tctx.lineTo(hx, y1); tctx.stroke(); tctx.globalAlpha = 1;
+        tctx.fillStyle = c.gold; tctx.beginPath(); tctx.arc(hx, ty(meanHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
+      }
+    }
+
+    function preset(inst) { P = {}; inst.params.forEach(function (p) { P[p.key] = p.value; }); }
+    function buildParams() {
+      els.params.innerHTML = '';
+      cur.params.forEach(function (pm) {
+        var wrap = document.createElement('div'); wrap.className = 'param';
+        var lab = document.createElement('div'); lab.className = 'pl';
+        lab.innerHTML = '<span>' + pm.label + '</span><span class="val" id="pv_' + pm.key + '">' + pm.value + '</span>';
+        var inp = document.createElement('input');
+        inp.type = 'range'; inp.min = pm.min; inp.max = pm.max; inp.step = pm.step; inp.value = pm.value;
+        inp.addEventListener('input', function () { P[pm.key] = parseFloat(inp.value); el('pv_' + pm.key).textContent = inp.value; });
+        wrap.appendChild(lab); wrap.appendChild(inp); els.params.appendChild(wrap);
+      });
+      if (window.renderTeX) renderTeX(els.params);
+    }
+
+    function setStatus(state) {
+      if (state === 'run') { els.status.textContent = 'PLAYING'; els.status.className = 'pill run'; els.playBtn.innerHTML = '&#10073;&#10073; Pause'; }
+      else { els.status.textContent = 'READY'; els.status.className = 'pill idle'; els.playBtn.innerHTML = '&#9654; Play'; }
+    }
+    function select(i) {
+      cur = INSTS[i];
+      setActivePill(els.insts, i);
+      preset(cur);
+      playing = false; setStatus('idle');
+      fillInstInfo(cur);
+      els.ruleLine.innerHTML = 'kinetics: <b>' + cur.name + '</b>';
+      buildParams();
+      reseed();
+    }
+
+    function resizeAll() {
+      W = els.wrap.clientWidth; H = els.wrap.clientHeight;
+      els.cv.width = W * dpr; els.cv.height = H * dpr;
+      els.cv.style.width = W + 'px'; els.cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      TW = els.ts.clientWidth; TH = els.ts.clientHeight;
+      els.ts.width = TW * dpr; els.ts.height = TH * dpr;
+      els.ts.style.width = TW + 'px'; els.ts.style.height = TH + 'px';
+      tctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    var drag = null;
+    els.wrap.addEventListener('pointerdown', function (e) {
+      drag = { x: e.clientX, y: e.clientY, moved: false, px: view.panx, py: view.pany };
+      els.wrap.setPointerCapture(e.pointerId);
+    });
+    els.wrap.addEventListener('pointermove', function (e) {
+      if (!drag) return;
+      var mx = e.clientX - drag.x, my = e.clientY - drag.y;
+      if (Math.abs(mx) + Math.abs(my) > 3) drag.moved = true;
+      view.panx = drag.px + mx; view.pany = drag.py + my; draw();
+    });
+    els.wrap.addEventListener('pointerup', function (e) {
+      if (drag && !drag.moved) inject(e);
+      drag = null;
+    });
+    els.wrap.addEventListener('wheel', function (e) {
+      e.preventDefault();
+      view.zoom *= e.deltaY < 0 ? 1.12 : 1 / 1.12;
+      view.zoom = Math.max(0.5, Math.min(10, view.zoom)); draw();
+    }, { passive: false });
+    function inject(e) {
+      var r = els.cv.getBoundingClientRect();
+      var base = Math.min(W, H) / N, cell = base * view.zoom, gw = cell * N;
+      var ox = (W - gw) / 2 + view.panx, oy = (H - gw) / 2 + view.pany;
+      var cx = Math.round((e.clientX - r.left - ox) / cell), cy = Math.round((e.clientY - r.top - oy) / cell);
+      var rad = 12;
+      for (var dy = -rad; dy <= rad; dy++) for (var dx = -rad; dx <= rad; dx++) {
+        if (dx * dx + dy * dy > rad * rad) continue;
+        var i = idx(cx + dx, cy + dy);
+        if (cur.reaction === 'fhn') u[i] = 2;
+        else v[i] = (cur.reaction === 'br') ? 3 : 0.9;
+      }
+      draw();
+    }
+    el('zin').addEventListener('click', function () { view.zoom *= 1.2; draw(); });
+    el('zout').addEventListener('click', function () { view.zoom /= 1.2; draw(); });
+    el('zfit').addEventListener('click', function () { view.zoom = 1; view.panx = 0; view.pany = 0; draw(); });
+
+    els.playBtn.addEventListener('click', function () { playing = !playing; setStatus(playing ? 'run' : 'idle'); lastT = performance.now(); });
+    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); for (var k = 0; k < 20; k++) stepSim(); pushMean(); draw(); });
+    els.resetBtn.addEventListener('click', function () { playing = false; setStatus('idle'); reseed(); });
+    els.speed.addEventListener('input', function () { speed = parseInt(els.speed.value, 10); els.speedLbl.textContent = speed; });
+
+    els.ts.addEventListener('pointermove', function (e) {
+      if (!tsMap) return;
+      var r = els.ts.getBoundingClientRect();
+      var px = e.clientX - r.left, py = e.clientY - r.top;
+      var i = Math.round(((px - tsMap.x0) / (tsMap.x1 - tsMap.x0)) * (tsMap.n - 1));
+      i = Math.max(0, Math.min(tsMap.n - 1, i));
+      tsHover = i; drawTS();
+      var hx = tsMap.x0 + (i / (tsMap.n - 1)) * (tsMap.x1 - tsMap.x0);
+      els.tsTip.innerHTML = '\u27e8v\u27e9 = <b>' + meanHist[i].toFixed(4) + '</b>';
+      els.tsTip.style.left = hx + 'px'; els.tsTip.style.top = Math.max(26, py) + 'px'; els.tsTip.hidden = false;
+    });
+    els.ts.addEventListener('pointerleave', function () { tsHover = -1; els.tsTip.hidden = true; drawTS(); });
+
+    function tick(now) {
+      if (playing) {
+        var dt = Math.min(0.25, (now - lastT) / 1000); lastT = now;
+        accT += dt * speed;
+        var budget = Math.min(speed, 60);
+        for (var k = 0; k < budget && accT >= 1; k++) { stepSim(); accT -= 1; }
+        if (accT > 2) accT = 0;
+        pushMean(); draw();
+      } else { lastT = now; }
+      requestAnimationFrame(tick);
+    }
+
+    function boot() {
+      resizeAll();
+      buildPills(els.insts, INSTS, select);
+      var want = (location.search.match(/[?&]inst=([a-z0-9]+)/i) || [])[1];
+      var i0 = 0;
+      for (var i = 0; i < INSTS.length; i++) if (INSTS[i].id === want) i0 = i;
+      select(i0);
+      if (window.renderTeX) renderTeX(document);
+      requestAnimationFrame(tick);
+      var spy = document.querySelectorAll('.markdown-body h2[id]');
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) {
+            if (!en.isIntersecting) return;
+            var href = '#' + en.target.id, links = document.querySelectorAll('#toc .toc-item');
+            for (var i = 0; i < links.length; i++) links[i].classList.toggle('active', links[i].getAttribute('href') === href);
+          });
+        }, { rootMargin: '-80px 0px -70% 0px' });
+        for (var i = 0; i < spy.length; i++) io.observe(spy[i]);
+      }
+    }
+    var rt = 0;
+    window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(function () { resizeAll(); draw(); }, 120); });
+    window.addEventListener('epistecnica-theme', function () { draw(); });
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+  })();
+
+  </script>
+
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+</body>
+</html>

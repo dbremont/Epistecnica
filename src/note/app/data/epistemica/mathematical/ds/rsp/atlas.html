@@ -239,11 +239,25 @@
       overflow: hidden;
       text-decoration: none;
       color: inherit;
-      transition: border-color 0.2s ease, transform 0.2s ease;
     }
-    a.card:hover { border-color: var(--accent-cyan); transform: translateY(-2px); }
-    a.card:hover .card-name { color: var(--accent-cyan); }
     .card-plain { opacity: 0.9; }
+
+    .card-wrap { display: flex; flex-direction: column; gap: 0.45rem; }
+    .card-wrap > .card { flex: 1; }
+    .card .card-note { display: inline-flex; align-items: center; color: var(--accent-cyan); text-decoration: none; border-bottom: none; line-height: 1; }
+    .card .card-note:hover { color: var(--text-primary); }
+    .card .no-note { color: var(--text-muted); font-size: 0.9rem; line-height: 1; }
+    .card-tags .card-note, .card-tags .no-note { margin-left: auto; }
+    .card-tags .pg-link { margin-left: -0.12rem; }
+    .pg-link {
+      position: relative; z-index: 1; flex: 0 0 auto;
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 1.55rem; height: 1.55rem; border-radius: 999px;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      color: var(--accent-cyan); text-decoration: none; font-size: 0.6rem; line-height: 1;
+      transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+    }
+    .pg-link:hover { border-color: var(--accent-cyan); background: var(--bg-card); transform: scale(1.1); }
 
     .card-thumb {
       height: 132px;
@@ -404,7 +418,7 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds/rs">rs</a><span class="sep">/</span><span class="here">atlas</span></div>
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds/rsp">rsp</a><span class="sep">/</span><span class="here">atlas</span></div>
       <h1 class="note-title">Atlas of Dynamical Representational Systems</h1>
       <div class="note-meta">
         <span class="chip">live note</span>
@@ -425,7 +439,7 @@
             </blockquote>
 
             <h2 id="catalog">The catalog</h2>
-            <p>Search across names, specializations, descriptions, structures, mechanisms, scopes, tags, and the category path; filter by branch. Cards with a note are clickable.</p>
+            <p>Search across names, specializations, descriptions, structures, mechanisms, scopes, tags, and the category path; filter by branch. The note icon opens the corpus note when one exists; &#9654; opens the playground.</p>
 
             <div class="toolbar">
               <input id="search" type="search" placeholder="Search representational systems…" autocomplete="off" aria-label="Search representational systems">
@@ -629,6 +643,16 @@
     return NOTE_REL + "note.html?n=" + e.note;
   }
 
+  var PG = {
+    "Ordinary Differential Equation Representational System": "ordinary-differential-equation.html",
+    "Cellular Automaton Representational System": "cellular-automaton.html",
+    "Reaction\u2013Diffusion Representational System": "reaction-diffusion.html",
+    "Coupled Oscillator Network Representational System": "coupled-oscillator-network.html",
+    "Markov Chain Representational System": "markov-chain.html"
+  };
+
+  var NOTE_ICON = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg>';
+
   /* ---- procedural theme-aware thumbnails ---- */
   var CYAN = "var(--accent-cyan)", GOLD = "var(--accent-gold)",
       SEC = "var(--text-secondary)", MUT = "var(--text-muted)";
@@ -777,11 +801,13 @@
 
   function cardHTML(e) {
     var h = hrefOf(e);
-    var open = h ? '<a class="card" href="' + h + '">' : '<div class="card card-plain">';
-    var close = h ? "</a>" : "</div>";
     var tags = e.t.map(function (x) { return '<span class="pill">' + x + "</span>"; }).join("");
-    var mark = h ? '<span class="no-note" style="opacity:0.85;color:var(--accent-cyan)">note &#8599;</span>' : '<span class="no-note">no note</span>';
-    return open +
+    var mark = h
+      ? '<a class="card-note" href="' + h + '" title="Open note" aria-label="Open note">' + NOTE_ICON + '</a>'
+      : '<span class="no-note" title="No note" aria-label="No note">&#8212;</span>';
+    var pg = PG[e.n];
+    var pgBtn = pg ? '<a class="pg-link" href="' + pg + '" title="Open playground" aria-label="Open playground">&#9654;</a>' : "";
+    return '<div class="card-wrap"><div class="card' + (h ? "" : " card-plain") + '">' +
       '<div class="card-thumb">' + thumb(e.motif, e.n) + "</div>" +
       '<div class="card-body">' +
         '<div class="card-cat">' + e.crumb + "</div>" +
@@ -791,8 +817,8 @@
         '<p class="card-line"><span class="lbl">Structure</span>' + e.st + "</p>" +
         '<p class="card-line"><span class="lbl">Mechanism</span>' + e.m + "</p>" +
         '<p class="card-line"><span class="lbl">Scope</span>' + e.s + "</p>" +
-        '<div class="card-tags">' + tags + mark + "</div>" +
-      "</div>" + close;
+        '<div class="card-tags">' + tags + mark + pgBtn + "</div>" +
+      "</div></div></div>";
   }
 
   function render() {
@@ -935,6 +961,7 @@
             fading = false;
             window.dispatchEvent(new CustomEvent('epistecnica-theme'));
         };
+
         if (reduced) { swap(); return; }
         root.classList.add('theme-fading');
         setTimeout(swap, 190);
