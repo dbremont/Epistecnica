@@ -75,10 +75,10 @@ Here’s a table summarizing various dynamical systems frameworks and their key 
 
 [Subshift of Finite Type](subshift-of-finite-type.md)
 
-[Self-Organized Criticality](../natural-computing/self-organized-criticality.md)
+[Self-Organized Criticality](../../natural-computing/self-organized-criticality.md)
 
-[(HMM) Hidden Markov Model](../observational/hmm-hidden-markov-model.md)
+[(HMM) Hidden Markov Model](../../observational/hmm-hidden-markov-model.md)
 
-[Complex Adaptative Systems (CAS)](../complexity-science/complex-adaptative-systems-cas.md)
+[Complex Adaptative Systems (CAS)](../../complexity-science/complex-adaptative-systems-cas.md)
 
-[Stochastic Differential Equation  **(SDE)**](../computational-science/stochastic-differential-equation-sde.md)
+[Stochastic Differential Equation  **(SDE)**](../../computational-science/stochastic-differential-equation-sde.md)

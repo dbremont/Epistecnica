@@ -1,0 +1,64 @@
+{
+  "links": [
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/mathematical/differential-equation.md",
+      "label": "Differential Equations",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/mathematical/difference-equation.md",
+      "label": "Difference Equations",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/mathematical/recurrence-equation.md",
+      "label": "Recurrence Equations",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/mathematical/derivative-operator.md",
+      "label": "Derivative Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/mathematical/differential-operator.md",
+      "label": "Differential Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/mathematical/partial-derivative-operator.md",
+      "label": "Partial Derivative Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/computational-science/stochastic-differential-equation-sde.md",
+      "label": "Stochastic Differential Equation",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/computational-science/phase-space.md",
+      "label": "Phase Space",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/computational-science/state-space-model.md",
+      "label": "State-Space Models",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/ds/",
+      "to": "epistemica/computational-science/system-dynamics.md",
+      "label": "System Dynamics",
+      "kind": "related"
+    }
+  ]
+}

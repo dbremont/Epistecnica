@@ -43,6 +43,10 @@ exemplar is `data/general/financial-sector.md`.
   `bin/import_epistemica.py <export-root>` (names normalized, CSV tags as
   front matter, Notion noise stripped; content preserved). Re-running skips
   existing notes.
+- The dynamical-systems notes live in the `epistemica/mathematical/ds/`
+  scope (the *ds* sub-scope of the Mathematical domain); elements best kept
+  separate (differential/difference equations, operators, SDE, phase/state
+  space) are reached through `links.json` rather than moved into it.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Catalog
@@ -140,6 +144,20 @@ tags: [java, debugging, osgi]
 - The same convention applies to the courses corpus
   (`src/course/README.md`) and the documents corpus
   (`src/document/README.md`).
+
+## Support links
+
+`app/data/links.json` is the single hand-maintained registry of directed
+navigation links — `{"links": [{"from", "to", "label", "kind"}]}`; endpoints
+are note paths or `dir/` scopes (`from` a directory node, `to` a directory or
+a note). The builder validates every endpoint against the corpus (warn and
+drop dangling, never fail) and embeds the pairs as `index.json:links`; the
+catalog's browse view renders them as a linked group of cards with a link-mark
+overlay. Edit the registry, then rebuild and commit the index.
+
+- The registry is a special file: never a note, never naming-validated.
+- `kind` is a free-form tag (`hierarchy`, `related`, …); `label` names the
+  target and is shown as a card badge.
 
 ## Naming convention
 

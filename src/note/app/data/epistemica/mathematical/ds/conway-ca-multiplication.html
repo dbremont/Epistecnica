@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conway Multiplier</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.15);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+      --danger: #b3261e;
+      --danger-dim: rgba(179, 38, 30, 0.10);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
+    .table-wrap { overflow-x: auto; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* ============================================
+       Conway Multiplier — lab panel
+       (the machine, folded into the note card)
+       ============================================ */
+
+    .lab-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      align-items: start;
+    }
+    @media (min-width: 1024px) {
+      .lab-grid { grid-template-columns: 1.6fr 1fr; }
+    }
+
+    .lab-stage {
+      position: relative;
+      height: min(64vh, 640px);
+      min-height: 360px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    #wrap { position: absolute; inset: 0; touch-action: none; cursor: grab; overflow: hidden; }
+    #wrap.drag { cursor: grabbing; }
+    #cv { display: block; }
+
+    .lab-overlay { position: absolute; top: 12px; left: 12px; pointer-events: none; user-select: none; }
+    .overlay-card {
+      border-radius: 9px;
+      background: var(--card-bg);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      border: 1px solid var(--border-subtle);
+      padding: 8px 12px;
+      font-family: var(--font-mono);
+    }
+    #fMain { color: var(--text-secondary); font-size: 14px; }
+    #fMain .big { color: var(--accent-cyan); font-weight: 700; }
+    #fMain .pend { color: var(--text-muted); }
+    #fMain .tick { color: var(--accent-cyan); margin-left: 4px; }
+    #fSub { color: var(--text-muted); font-size: 10px; margin-top: 3px; }
+
+    .zoomers { position: absolute; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 6px; }
+    .zbtn {
+      width: 32px; height: 32px;
+      border-radius: 7px;
+      border: 1px solid var(--border-subtle);
+      background: var(--card-bg);
+      color: var(--text-secondary);
+      font-size: 15px;
+      line-height: 1;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .zbtn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .zbtn.small { font-size: 10px; }
+
+    .lab-controls { display: flex; flex-direction: column; gap: 1.25rem; }
+
+    .lab-h {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .inRow { display: flex; align-items: flex-end; gap: 8px; }
+    .field { flex: 1; }
+    .field label { display: block; font-size: 10px; color: var(--text-muted); margin-bottom: 4px; }
+    .field input {
+      width: 100%;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 7px;
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 14px;
+      padding: 7px 9px;
+      outline: none;
+    }
+    .field input:focus { border-color: var(--accent-cyan); }
+    .times { color: var(--text-muted); padding-bottom: 9px; font-family: var(--font-mono); }
+
+    .btn {
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      border-radius: 7px;
+      padding: 7px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .btn:disabled { opacity: 0.4; cursor: default; }
+    .btn.primary { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .presets { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .presets .chip { cursor: pointer; }
+    .presets .chip:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .rowBtns { display: flex; gap: 8px; }
+    .rowBtns .btn { flex: 1; }
+    .speedRow { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin: 12px 0 4px; }
+    .speedRow .val { font-family: var(--font-mono); }
+    input[type=range] { width: 100%; accent-color: var(--accent-cyan); }
+    .chk { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-size: 12px; color: var(--text-secondary); cursor: pointer; user-select: none; }
+    .chk input { accent-color: var(--accent-cyan); }
+
+    .resultCard { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 9px; padding: 12px; }
+    .stRow { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 10px; }
+    .stRow .lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-right: auto; }
+    .pill { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 9999px; }
+    .pill.done { background: var(--accent-cyan); color: var(--bg-void); }
+    .pill.run { background: var(--accent-gold); color: var(--bg-void); }
+    .pill.idle { background: var(--accent-cyan-dim); color: var(--accent-cyan); }
+
+    .prog { height: 8px; border-radius: 9999px; background: var(--bg-void); overflow: hidden; margin-bottom: 12px; }
+    .prog i { display: block; height: 100%; width: 0; border-radius: 9999px; background: linear-gradient(90deg, var(--accent-cyan), var(--accent-gold)); transition: width 0.2s; }
+
+    .statGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; font-family: var(--font-mono); font-size: 12px; margin-bottom: 12px; }
+    .statGrid .box { background: var(--bg-card); border-radius: 6px; padding: 6px 4px; }
+    .statGrid .k { font-size: 9px; color: var(--text-muted); }
+    .statGrid .v { font-size: 14px; color: var(--text-primary); }
+    .statGrid .v.hot { color: var(--accent-cyan); font-weight: 700; }
+    .statGrid .v.count { color: var(--accent-gold); }
+
+    .laneHint { font-size: 10px; color: var(--text-muted); margin-bottom: 6px; }
+    .lanes { display: flex; flex-wrap: wrap; gap: 4px; min-height: 20px; }
+    .lane {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 5px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+    }
+    .lane.full { border-color: var(--accent-cyan); background: var(--accent-cyan-dim); color: var(--accent-cyan); }
+    .noLanes { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); }
+
+    .note-card ol.how { list-style: none; counter-reset: how; margin: 1.2em 0 0; padding-left: 0; }
+    .note-card ol.how li { counter-increment: how; position: relative; padding-left: 22px; margin-bottom: 10px; line-height: 1.55; font-size: 0.9rem; color: var(--text-secondary); }
+    .note-card ol.how li::before {
+      content: counter(how) ".";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--accent-gold);
+      font-family: var(--font-mono);
+      font-weight: 600;
+    }
+    .note-card ol.how .gun { color: var(--accent-gold); font-weight: 500; }
+    .note-card ol.how .kill { color: var(--danger); font-weight: 500; }
+    .note-card ol.how .em { color: var(--text-primary); font-weight: 500; }
+    .note-card ol.how .str { color: var(--accent-cyan); font-weight: 500; }
+
+    .fine { font-size: 11px; color: var(--text-muted); margin-top: 10px; line-height: 1.55; }
+  </style>
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><span class="here">conway-ca-multiplication</span></div>
+      <h1 class="note-title">Conway Multiplier</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#cellular-automata</span>
+        <span class="chip">#dynamical-systems</span>
+        <span class="chip">#computation</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>In this note we compute a product the way a dynamical system does — not by an arithmetic operator but by letting a cellular automaton fire, count, and settle; the number that survives is A&middot;B.</p>
+            </blockquote>
+
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a> — element type, instance, grounds</li>
+              <li><a href="#decomposition">Recursive instance decomposition</a> — instance tree</li>
+              <li><a href="#machine">Machine</a> — interactive multiplier</li>
+              <li><a href="#diagnostics">Diagnostic questions</a> — assumptions, invariants, limits</li>
+              <li><a href="#references">References</a> — sources &amp; schema</li>
+            </ul>
+
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Concrete Epistemic Artifact</strong> — a computed product about one operand pair — produced by applying an <strong>Epistemic Operator</strong> (a Game-of-Life machine), and usable as an <strong>Epistemic Standard</strong> (product-by-count completion criterion). Schema: <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>The Conway Multiplier computes A&middot;B by running Conway's Game of Life (B3/S23): A Gosper glider guns each emit exactly B gliders — a delay line of kill-order gliders terminates every gun after B firing periods — so the product appears, in unary, as A&middot;B gliders counted live by eater detectors. Type: <strong>Computational Procedure</strong> — a dynamical realization of integer multiplication within the epistemic toolbox.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>It resolves the epistemic gap of <strong>arithmetic in a dynamical substrate</strong> — transforming an operand pair into a product through local cellular dynamics alone, with no arithmetic operator. It preserves the multiplicative relation between operands (and commutativity up to the machine's symmetry); it destroys the operands' numeric encoding (they survive only as gun and delay counts) and the machine's intermediate trajectory (glider timings and positions are discarded once counted).</p>
+            </blockquote>
+
+            <h2 id="decomposition">Recursive instance decomposition</h2>
+            <div class="table-wrap">
+            <table>
+          <thead>
+            <tr>
+              <th>Instance Tree Path</th>
+              <th>Description</th>
+              <th>Epistemic Category</th>
+              <th>Epistemic Element Type Tree Path</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Conway Multiplier</td><td>Computed product A&middot;B by Game-of-Life dynamics (exemplar per session).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Operand A</td><td>Number of Gosper glider guns, 0&ndash;12 (input).</td><td>Target</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Input Variable</td></tr>
+            <tr><td>CM &gt; Operand B</td><td>Kill-order delay index, 0&ndash;99 (input); sets gliders per gun.</td><td>Target</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Input Variable</td></tr>
+            <tr><td>CM &gt; Gun Bank</td><td>A Gosper glider guns stacked, each firing one p30 glider stream SE.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Kill-Order Gliders</td><td>NW gliders on a parallel diagonal at flight distance &lfloor;7.5&middot;B&rfloor;+7 cells.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Delay Line</td><td>At glider speed c/4 each kill arrives after &asymp;30&middot;B generations — exactly B firing periods.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Clean Kill</td><td>Verified collision that destroys each gun after exactly B gliders.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Product Stream</td><td>A&middot;B gliders in unary = the product.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Eater Detectors</td><td>eater1 blocks absorbing the streams (pale).</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
+            <tr><td>CM &gt; Sensor Cells</td><td>Per-lane cells pulsing once per arriving glider.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
+            <tr><td>CM &gt; Lane Counter</td><td>Refractory-debounced count per lane.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Product Count</td><td>Running total counted live as gliders arrive.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Product Value</td><td>Realized A&middot;B for this session (exemplar).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Completion Criterion</td><td>counted = A&middot;B with all guns settled.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; B3/S23 Rule</td><td>The Game-of-Life update rule that performs every step.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Playground Session</td><td>Guided A&times;B runs, including 12&times;99 (exemplar per session).</td><td>Agency</td><td>(root) &gt; Epistemic Order &gt; Epistemic Activity (Process)</td></tr>
+            <tr><td>CM &gt; Epistemic Function</td><td>Resolves the gap of arithmetic computation in a dynamical substrate: multiplicative relation becomes a counted population.</td><td>Purpose</td><td>(root) &gt; Epistemic Order &gt; Epistemic Purpose</td></tr>
+            <tr><td>CM &gt; Preservation &gt; Product Relation</td><td>Multiplicative relation between the operands preserved through the dynamics.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
+            <tr><td>CM &gt; Preservation &gt; Commutativity</td><td>A&times;B = B&times;A recoverable across the machine's symmetry.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
+            <tr><td>CM &gt; Destruction &gt; Operand Encoding</td><td>Operands exist only as gun and delay counts; no numeric literals survive.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Destruction &gt; Intermediate State</td><td>Glider timings and positions are discarded once counted.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Bounds</td><td>A &isin; [0,12], B &isin; [0,99] by calibration.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Finite Grid</td><td>Bounded world with a kill-border; overflow is impossible by construction.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Refractory Window</td><td>12-generation debounce prevents double-counting one glider.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Verification Debt</td><td>Correctness rests on exhaustive empirical sweeps, not a formal proof.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Sweep &gt; 100/100 Single-Lane</td><td>All B = 0&hellip;99 single-lane configurations verified.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Sweep &gt; Multi-Lane</td><td>12 multi-lane configurations up to 12&times;99 verified.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Zero Product</td><td>A=0 or B=0 settles with no gliders (exemplar).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Lossy Reading</td><td>The product scalar hides the machine's full trajectory.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Robust Alternative &gt; Mapping</td><td>Reading the product back as a numeral is a separate epistemic step.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Strategy</td></tr>
+          </tbody>
+        </table>
+            </div>
+
+            <h2 id="machine">Machine</h2>
+            <p>Pick two operands and run the machine. A single-lane run (A) or a full bank (up to 12&times;99) fires Gosper guns, terminates them with kill-order gliders, and counts the surviving product gliders live. Drag to pan, wheel to zoom, <span class="font-mono">&#x2922;</span> to fit.</p>
+            <section class="lab">
+              <div class="lab-grid">
+                <div class="lab-stage">
+                  <div id="wrap"><canvas id="cv"></canvas></div>
+                  <div class="lab-overlay"><div class="overlay-card">
+                    <div id="fMain"></div>
+                    <div id="fSub"></div>
+                  </div></div>
+                  <div class="zoomers">
+                    <button class="zbtn" id="zin" aria-label="Zoom in">+</button>
+                    <button class="zbtn" id="zout" aria-label="Zoom out">&minus;</button>
+                    <button class="zbtn small" id="zfit" aria-label="Fit view">&#x2922;</button>
+                  </div>
+                </div>
+
+                <div class="lab-controls">
+                  <section aria-label="Machine inputs">
+                    <div class="lab-h">Inputs</div>
+                    <div class="inRow">
+                      <div class="field">
+                        <label for="aIn">A (0&ndash;12) — guns</label>
+                        <input id="aIn" inputmode="numeric" autocomplete="off" value="3">
+                      </div>
+                      <div class="times">&times;</div>
+                      <div class="field">
+                        <label for="bIn">B (0&ndash;99) — delay</label>
+                        <input id="bIn" inputmode="numeric" autocomplete="off" value="7">
+                      </div>
+                      <button class="btn primary" id="runBtn">Run</button>
+                    </div>
+                    <div class="presets" id="presets"></div>
+                  </section>
+
+                  <section aria-label="Playback">
+                    <div class="lab-h">Playback</div>
+                    <div class="rowBtns">
+                      <button class="btn" id="pauseBtn">&#9654; Resume</button>
+                      <button class="btn" id="stepBtn">Step</button>
+                      <button class="btn" id="resetBtn">Reset</button>
+                    </div>
+                    <div class="speedRow"><span>speed</span><span class="val" id="speedLbl">240 gen/s</span></div>
+                    <input type="range" id="speed" min="0" max="100" step="1" value="55" aria-label="Simulation speed">
+                    <label class="chk"><input type="checkbox" id="annChk" checked> show machine annotations</label>
+                  </section>
+
+                  <section aria-label="Live results">
+                    <div class="lab-h">Live results</div>
+                    <div class="resultCard">
+                      <div class="stRow">
+                        <span class="lbl">status</span>
+                        <span class="pill idle" id="status">READY</span>
+                      </div>
+                      <div class="prog"><i id="progFill"></i></div>
+                      <div class="statGrid">
+                        <div class="box"><div class="k">A</div><div class="v" id="stA">3</div></div>
+                        <div class="box"><div class="k">B</div><div class="v" id="stB">7</div></div>
+                        <div class="box"><div class="k">counted</div><div class="v count" id="stC">0</div></div>
+                      </div>
+                      <div class="laneHint" id="laneHint"></div>
+                      <div class="lanes" id="lanes"></div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+
+              <p class="fine" id="killInfo"></p>
+
+              <ol class="how">
+                <li><span class="gun">A Gosper glider guns</span> fire a glider every 30 generations — each gun is a unary &ldquo;1-generator&rdquo;.</li>
+                <li><span class="kill">Kill-order gliders</span> are placed on a parallel diagonal at flight distance &#8960;7.5&middot;B&#8961;+7 cells. At glider speed (c/4) each arrives after &asymp; 30&middot;B generations — exactly B firing periods.</li>
+                <li>Each strike <span class="em">destroys its gun cleanly</span> (verified collision), so every gun fires exactly B gliders.</li>
+                <li>A independent guns &times; B gliders each = <span class="str">A&middot;B gliders in total</span> — the product, in unary — streamed into the detectors (pale) and counted live.</li>
+              </ol>
+              <p class="fine">Every glider you count is a real Game of Life collision. The machine was verified by exhaustive simulation: all 100 single-lane configurations (B = 0&hellip;99) and multi-lane checks up to 12&nbsp;&times;&nbsp;99 produce exact products.</p>
+            </section>
+
+            <h2 id="diagnostics">Diagnostic questions</h2>
+
+            <h3>What happens if the machine's assumptions are violated?</h3>
+            <blockquote>
+              <p>If an operand falls outside its calibrated range (A &gt; 12 or B &gt; 99), the delay-line geometry no longer matches the gun period and kills miss: the count under- or over-shoots the product. If lanes are placed too close, glider streams interfere and detectors count collisions that are not product events.</p>
+            </blockquote>
+
+            <h3>What invariant does this tool rely on most critically?</h3>
+            <blockquote>
+              <p>The constant glider speed c/4 and the clean-kill collision. Everything reduces to the calibrated identity between delay distance, arrival time, and the gun's 30-generation period — break the period or the collision and the multiplication becomes a coincidence.</p>
+            </blockquote>
+
+            <h3>Can two different instances produce indistinguishable artifacts?</h3>
+            <blockquote>
+              <p>Yes. The product scalar alone is ambiguous: 3&times;7 and 7&times;3 (and any factorization of 21) yield the same surviving count, and differently wired machines that happen to emit 21 gliders are indistinguishable from the artifact. The count certifies the product, not the machine that produced it.</p>
+            </blockquote>
+
+            <h3>How robust is the reading to noise?</h3>
+            <blockquote>
+              <p>Not robust. A single stray cell can disturb a gun, disrupt a kill, or leak a glider into a detector, and the unary count has no error correction: one spurious transit corrupts the result. The empirical sweeps hold only because the simulation is exact and the world is closed with a kill-border.</p>
+            </blockquote>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, recursive decomposition</li>
+              <li><strong>Gardner, M. (1970)</strong> — &ldquo;Mathematical Games: The fantastic combinations of John Conway's new solitaire game <em>life</em>&rdquo;, <em>Scientific American</em> 223(4)</li>
+              <li><strong>Gosper, R. W. (1970)</strong> — the glider gun (first known finite pattern of unbounded growth in Life)</li>
+              <li><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> — B3/S23</li>
+              <li><strong>Wolfram, S. (2002)</strong> — <em>A New Kind of Science</em> — computation in cellular automata</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#decomposition">Decomposition</a>
+          <a class="toc-item" href="#machine">Machine</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+<script id="core">
+/* =====================================================================
+ * Conway Multiplier — standalone core (engine + patterns + machine)
+ * Faithful port of the verified TypeScript implementation
+ * (src/lib/gol/{engine,patterns,machine}.ts). All calibrated constants
+ * are unchanged; the sweep results carry over 1:1.
+ * ===================================================================== */
+(function () {
+  "use strict";
+
+  /* ------------------------------------------------------------------ *
+   *  ENGINE — B3/S23, dense grid with tile-based activity tracking.    *
+   *  Buffers carry a 1-cell dead ring so the hot loop is branch-free.  *
+   * ------------------------------------------------------------------ */
+  const TILE = 32;
+
+  const BORDER_STRIPS = [
+    (w, h) => ({ x0: 0, y0: 0, x1: w, y1: 2 }),
+    (w, h) => ({ x0: 0, y0: h - 2, x1: w, y1: h }),
+    (w, h) => ({ x0: 0, y0: 0, x1: 2, y1: h }),
+    (w, h) => ({ x0: w - 2, y0: 0, x1: w, y1: h }),
+  ];
+
+  class World {
+    constructor(w, h, opts = {}) {
+      if (w < 8 || h < 8) throw new Error("world too small");
+      this.w = w; this.h = h;
+      this.tw = Math.ceil(w / TILE);
+      this.th = Math.ceil(h / TILE);
+      const W = w + 2, H = h + 2;
+      this.cur = new Uint8Array(W * H);
+      this.nxt = new Uint8Array(W * H);
+      this.tileLive = new Int32Array(this.tw * this.th);
+      this.newLive = new Int32Array(this.tw * this.th);
+      this.dirty = new Uint8Array(this.tw * this.th);
+      this.killBorder = !!opts.killBorder;
+      this.gen = 0;
+      this.population = 0;
+    }
+    get(x, y) {
+      if (x < 0 || y < 0 || x >= this.w || y >= this.h) return 0;
+      return this.cur[(y + 1) * (this.w + 2) + (x + 1)];
+    }
+    set(x, y, v) {
+      if (x < 0 || y < 0 || x >= this.w || y >= this.h) return;
+      const W = this.w + 2;
+      const i = (y + 1) * W + (x + 1);
+      if (this.cur[i] === v) return;
+      this.cur[i] = v;
+      const t = Math.floor(y / TILE) * this.tw + Math.floor(x / TILE);
+      this.tileLive[t] += v ? 1 : -1;
+      this.population += v ? 1 : -1;
+    }
+    place(cells, dx = 0, dy = 0) {
+      const W = this.w + 2;
+      for (let k = 0; k < cells.length; k++) {
+        const x = cells[k][0] + dx;
+        const y = cells[k][1] + dy;
+        if (x < 0 || y < 0 || x >= this.w || y >= this.h) continue;
+        const i = (y + 1) * W + (x + 1);
+        if (this.cur[i]) continue;
+        this.cur[i] = 1;
+        this.population++;
+        const t = Math.floor(y / TILE) * this.tw + Math.floor(x / TILE);
+        this.tileLive[t]++;
+      }
+    }
+    step() {
+      const w = this.w, h = this.h, tw = this.tw, th = this.th;
+      const cur = this.cur, nxt = this.nxt, tileLive = this.tileLive,
+            newLive = this.newLive, dirty = this.dirty;
+      const W = w + 2;
+      newLive.fill(0);
+
+      for (let ty = 0; ty < th; ty++) {
+        for (let tx = 0; tx < tw; tx++) {
+          const t = ty * tw + tx;
+
+          // active if this tile or any neighbor tile has live cells
+          let active = false;
+          outer:
+          for (let dy = -1; dy <= 1; dy++) {
+            const ny = ty + dy;
+            if (ny < 0 || ny >= th) continue;
+            for (let dx = -1; dx <= 1; dx++) {
+              const nx = tx + dx;
+              if (nx < 0 || nx >= tw) continue;
+              if (tileLive[ny * tw + nx] > 0) { active = true; break outer; }
+            }
+          }
+
+          const x0 = tx * TILE, y0 = ty * TILE;
+          const x1 = Math.min(x0 + TILE, w), y1 = Math.min(y0 + TILE, h);
+
+          if (!active) {
+            if (dirty[t]) {
+              for (let y = y0; y < y1; y++) {
+                const r = (y + 1) * W;
+                nxt.fill(0, r + x0 + 1, r + x1 + 1);
+              }
+              dirty[t] = 0;
+            }
+            continue;
+          }
+
+          let live = 0;
+          for (let y = y0; y < y1; y++) {
+            const r0 = y * W, r1 = r0 + W, r2 = r0 + 2 * W;
+            for (let x = x0; x < x1; x++) {
+              const c = x + 1;
+              const n =
+                cur[r0 + c - 1] + cur[r0 + c] + cur[r0 + c + 1] +
+                cur[r1 + c - 1] + cur[r1 + c + 1] +
+                cur[r2 + c - 1] + cur[r2 + c] + cur[r2 + c + 1];
+              const v = cur[r1 + c] !== 0 ? (n === 2 || n === 3 ? 1 : 0) : (n === 3 ? 1 : 0);
+              nxt[r1 + c] = v;
+              live += v;
+            }
+          }
+          newLive[t] = live;
+          dirty[t] = 0; // re-derived after swap from old tileLive
+        }
+      }
+
+      // kill-border: force outer 2-cell user margin dead
+      if (this.killBorder) {
+        for (let s = 0; s < BORDER_STRIPS.length; s++) {
+          const b = BORDER_STRIPS[s](w, h);
+          for (let y = b.y0; y < b.y1; y++) {
+            for (let x = b.x0; x < b.x1; x++) {
+              const r = (y + 1) * W;
+              const i = r + x + 1;
+              if (nxt[i]) {
+                nxt[i] = 0;
+                newLive[Math.floor(y / TILE) * tw + Math.floor(x / TILE)]--;
+              }
+            }
+          }
+        }
+      }
+
+      // swap buffers
+      const tb = cur; this.cur = nxt; this.nxt = tb;
+
+      // new nxt (= old cur) holds stale data exactly where old cur was live
+      for (let i = 0; i < dirty.length; i++) dirty[i] = tileLive[i] > 0 ? 1 : 0;
+
+      // swap live-count arrays
+      const tl = tileLive; this.tileLive = newLive; this.newLive = tl;
+
+      let p = 0;
+      for (let i = 0; i < this.tileLive.length; i++) p += this.tileLive[i];
+      this.population = p;
+
+      this.gen++;
+    }
+    stepN(n) { for (let i = 0; i < n; i++) this.step(); }
+    forEachLive(cb) {
+      const tw = this.tw, th = this.th, tileLive = this.tileLive,
+            w = this.w, h = this.h, cur = this.cur, W = w + 2;
+      for (let ty = 0; ty < th; ty++) {
+        for (let tx = 0; tx < tw; tx++) {
+          if (tileLive[ty * tw + tx] === 0) continue;
+          const x0 = tx * TILE, y0 = ty * TILE;
+          const x1 = Math.min(x0 + TILE, w), y1 = Math.min(y0 + TILE, h);
+          for (let y = y0; y < y1; y++) {
+            const r = (y + 1) * W;
+            for (let x = x0; x < x1; x++) if (cur[r + x + 1]) cb(x, y);
+          }
+        }
+      }
+    }
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  PATTERNS — RLE decoding, transforms, canonical building blocks.   *
+   * ------------------------------------------------------------------ */
+  function decodeRLE(rle) {
+    const lines = rle.split("\n").map((l) => l.trim())
+      .filter((l) => l.length > 0 && !l.startsWith("#"));
+    let w = 0, h = 0;
+    const bodyLines = [];
+    for (const line of lines) {
+      const m = line.match(/^x\s*=\s*(\d+)\s*,\s*y\s*=\s*(\d+)/i);
+      if (m) { w = parseInt(m[1], 10); h = parseInt(m[2], 10); }
+      else if (!line.startsWith("x =")) bodyLines.push(line);
+    }
+    const body = bodyLines.join("");
+    const cells = [];
+    let x = 0, y = 0, count = "";
+    for (const ch of body) {
+      if (ch >= "0" && ch <= "9") { count += ch; continue; }
+      const n = count === "" ? 1 : parseInt(count, 10);
+      count = "";
+      if (ch === "b" || ch === ".") x += n;
+      else if (ch === "o") { for (let i = 0; i < n; i++) cells.push([x++, y]); }
+      else if (ch === "$") { y += n; x = 0; }
+      else if (ch === "!") break;
+      else throw new Error("unexpected RLE character: " + ch);
+    }
+    if (w === 0) {
+      for (const c of cells) { if (c[0] + 1 > w) w = c[0] + 1; if (c[1] + 1 > h) h = c[1] + 1; }
+    }
+    return { w, h, cells };
+  }
+
+  function normalize(cells) {
+    let mx = Infinity, my = Infinity;
+    for (const c of cells) { if (c[0] < mx) mx = c[0]; if (c[1] < my) my = c[1]; }
+    return cells.map(([x, y]) => [x - mx, y - my]);
+  }
+
+  function rotate(cells, rot) {
+    let out = cells.map(([x, y]) => [x, y]);
+    for (let i = 0; i < rot; i++) out = out.map(([x, y]) => [-y, x]);
+    return normalize(out);
+  }
+
+  function evolveCells(cells, n) {
+    const size = 64, off = 20;
+    const wld = new World(size, size);
+    wld.place(normalize(cells), off, off);
+    wld.stepN(n);
+    const out = [];
+    wld.forEachLive((x, y) => out.push([x - off, y - off]));
+    return normalize(out);
+  }
+
+  const RLE_GOSPER_GUN = `
+24bo$22bobo$12b2o6b2o12b2o$11bo3bo4b2o12b2o$2o8bo5bo3b2o$2o8bo3bob2o4b
+obo$10bo5bo7bo$11bo3bo$12b2o!`;
+
+  const RLE_GLIDER = `bo$2bo$3o!`;
+  const RLE_EATER = `2o$obo$2bo$2b2o!`;
+  const RLE_BLOCK = `2o$2o!`;
+  const RLE_BLINKER = `3o!`;
+
+  const PATTERNS = {
+    gun: decodeRLE(RLE_GOSPER_GUN),
+    glider: decodeRLE(RLE_GLIDER),
+    eater: decodeRLE(RLE_EATER),
+    block: decodeRLE(RLE_BLOCK),
+    blinker: decodeRLE(RLE_BLINKER),
+  };
+
+  const ROT_MAP = { SE: 0, SW: 1, NW: 2, NE: 3 };
+  // canonical glider travels SE (verified); rotation mapping: SE=0, SW=1, NW=2, NE=3
+
+  function gliderCells(dir, phase) {
+    let cells = normalize(PATTERNS.glider.cells);
+    const p = ((phase % 4) + 4) % 4;
+    if (p !== 0) cells = evolveCells(cells, p);
+    const rot = ROT_MAP[dir];
+    if (rot !== 0) cells = rotate(cells, rot);
+    return cells;
+  }
+
+  // canonical eater1 eats a glider traveling NW into its hook (verified)
+  const EATER_ROT = { SE: 1, SW: 2, NW: 0, NE: 3 };
+
+  function eaterCells(dir) {
+    return rotate(normalize(PATTERNS.eater.cells), EATER_ROT[dir]);
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  MACHINE — the Conway Multiplier compiler.                         *
+   *                                                                    *
+   *  Architecture (all arithmetic performed by Game of Life dynamics): *
+   *   - Input A (0..MAX_A): a bank of A Gosper glider guns, stacked    *
+   *     vertically, each firing a p30 glider stream SE along its lane. *
+   *   - Input B (0..MAX_B): for every gun, one "kill-order" glider on  *
+   *     a parallel diagonal lane at flight distance                    *
+   *         d(B) = floor(7.5*B) + 7 cells.                             *
+   *     Traveling at c/4 it arrives after ~30*B generations — exactly  *
+   *     B gun periods — and destroys its gun (clean kill, verified).   *
+   *   - Each gun therefore emits exactly B gliders; A guns emit A*B    *
+   *     gliders in total = the product, in unary.                      *
+   *   - Streams terminate in eater "detectors"; a sensor cell on each  *
+   *     lane pulses once per arriving glider; the UI counts live.      *
+   *                                                                    *
+   *  All constants calibrated empirically and verified exhaustively.   *
+   * ------------------------------------------------------------------ */
+  const GUN_X = 20;
+  const GUN_Y = 20;
+  const LANE_SPACING = 60;
+  const LANE = 14;          // output lane constant (gun-relative): x - y = 14
+  const LANEP = { x: 20, y: 6 }; // reference point on the lane
+  const EATER_D = 70;       // eater anchor distance along lane from LANEP
+  const SENSOR_D = 50;      // sensor cell distance along lane from LANEP
+  const KILL_LANE = 28;     // kill lane constant (gun-relative)
+  const KILL_PHASE = 3;     // kill glider phase
+  const KILL_D_BASE = 7;    // d(B) = floor(7.5*B) + KILL_D_BASE
+  const REFRACTORY = 12;    // sensor debounce (gens)
+  const MAX_A = 12;
+  const MAX_B = 99;
+
+  const killDistance = (B) => Math.floor(7.5 * B) + KILL_D_BASE;
+
+  function machineExtents(A, B) {
+    const d = killDistance(B);
+    const bottomY = GUN_Y + LANE_SPACING * Math.max(0, A - 1);
+    const width = Math.max(GUN_X + EATER_D + LANEP.x + 12, GUN_X + 35 + d + 14);
+    const height = bottomY + Math.max(LANEP.y + EATER_D + 12, 7 + d + 14);
+    return { width, height };
+  }
+
+  function buildSpec(A, B) {
+    const d = killDistance(B);
+    const ext = machineExtents(A, B);
+    const lanes = [];
+    for (let k = 0; k < A; k++) {
+      const gy = GUN_Y + LANE_SPACING * k;
+      lanes.push({
+        k,
+        gunOrigin: { x: GUN_X, y: gy },
+        sensor: { x: GUN_X + LANEP.x + SENSOR_D, y: gy + LANEP.y + SENSOR_D },
+        eaterAnchor: { x: GUN_X + LANEP.x + EATER_D, y: gy + LANEP.y + EATER_D },
+        killGlider: { x: GUN_X + 35 + d, y: gy + 7 + d },
+        laneConst: LANE + GUN_X - gy,
+        killConst: KILL_LANE + GUN_X - gy,
+      });
+    }
+    // kill contact ~4*d; last glider crosses sensor ~4*(eater distance) later
+    const killGenApprox = 4 * d + 4;
+    const endGenApprox = killGenApprox + 4 * (EATER_D + 30) + 120;
+    return {
+      A, B, product: A * B, perLane: B,
+      width: ext.width, height: ext.height,
+      lanes, killGenApprox, endGenApprox,
+    };
+  }
+
+  /** Place the full machine into a fresh world. */
+  function buildMachine(A, B) {
+    const spec = buildSpec(A, B);
+    const world = new World(spec.width, spec.height, { killBorder: true });
+    const gun = PATTERNS.gun.cells;
+    const eater = normalize(PATTERNS.eater.cells);
+    const kill = gliderCells("NW", KILL_PHASE);
+    for (const lane of spec.lanes) {
+      world.place(gun, lane.gunOrigin.x, lane.gunOrigin.y);
+      world.place(eater, lane.eaterAnchor.x, lane.eaterAnchor.y);
+      world.place(kill, lane.killGlider.x, lane.killGlider.y);
+    }
+    return { world, spec };
+  }
+
+  /** Per-lane crossing counter: call update() once per generation (after step). */
+  class LaneCounter {
+    constructor(spec) {
+      this.spec = spec;
+      this.counts = spec.lanes.map(() => 0);
+      this.lastEventGen = -1;
+      this._inside = spec.lanes.map(() => false);
+      this._lastEnd = spec.lanes.map(() => -1000);
+    }
+    update(world, gen) {
+      let events = 0;
+      for (let i = 0; i < this.spec.lanes.length; i++) {
+        const s = this.spec.lanes[i].sensor;
+        const hit = world.get(s.x, s.y) !== 0;
+        if (hit && !this._inside[i] && gen - this._lastEnd[i] > REFRACTORY) {
+          this.counts[i]++;
+          this._lastEnd[i] = gen;
+          this.lastEventGen = gen;
+          events++;
+        }
+        this._inside[i] = hit;
+      }
+      return events;
+    }
+    get total() {
+      return this.counts.reduce((a, b) => a + b, 0);
+    }
+  }
+
+  const GOL = {
+    World, decodeRLE, normalize, rotate, evolveCells,
+    PATTERNS, gliderCells, eaterCells, EATER_ROT,
+    GUN_X, GUN_Y, LANE_SPACING, LANE, LANEP, EATER_D, SENSOR_D,
+    KILL_LANE, KILL_PHASE, KILL_D_BASE, REFRACTORY, MAX_A, MAX_B,
+    killDistance, machineExtents, buildSpec, buildMachine, LaneCounter,
+  };
+  if (typeof window !== "undefined") window.GOL = GOL;
+  if (typeof globalThis !== "undefined") globalThis.GOL = GOL;
+})();
+</script>
+
+<script id="app">
+/* =====================================================================
+ * Conway Multiplier — standalone UI (vanilla JS port of page.tsx)
+ * ===================================================================== */
+(function () {
+  "use strict";
+  const G = window.GOL;
+  const { buildMachine, LaneCounter, MAX_A, MAX_B, killDistance } = G;
+
+  /* ---------------- colors & cell classification ---------------- */
+  let COL = {};
+  let GEN_COL = [];
+  const TAG = { junk: 0, gun: 1, kill: 2, stream: 3, eater: 4 };
+
+  function refreshColors() {
+    const cs = getComputedStyle(document.documentElement);
+    const v = (n) => cs.getPropertyValue(n).trim();
+    COL = {
+      bg: v('--bg-surface'),
+      gun: v('--accent-gold'),    // Gosper guns
+      kill: v('--danger'),        // kill-order gliders
+      stream: v('--accent-cyan'), // product glider streams
+      eater: v('--text-secondary'),// detector blocks
+      junk: v('--text-muted'),    // debris / transients
+    };
+    GEN_COL = [COL.junk, COL.gun, COL.kill, COL.stream, COL.eater];
+  }
+  refreshColors();
+  window.addEventListener('epistecnica-theme', refreshColors);
+
+  function classify(x, y, spec) {
+    for (const lane of spec.lanes) {
+      const gx = lane.gunOrigin.x, gy = lane.gunOrigin.y;
+      if (x >= gx - 1 && x <= gx + 38 && y >= gy - 1 && y <= gy + 11) return TAG.gun;
+    }
+    for (const lane of spec.lanes) {
+      const ex = lane.eaterAnchor.x, ey = lane.eaterAnchor.y;
+      if (x >= ex - 1 && x <= ex + 5 && y >= ey - 1 && y <= ey + 5) return TAG.eater;
+    }
+    const d = x - y;
+    for (const lane of spec.lanes) if (Math.abs(d - lane.killConst) <= 2) return TAG.kill;
+    for (const lane of spec.lanes) if (Math.abs(d - lane.laneConst) <= 2) return TAG.stream;
+    return TAG.junk;
+  }
+
+  const PRESETS = [[3, 7], [12, 99], [9, 12], [7, 0], [0, 5]];
+
+  /* ---------------- elements ---------------- */
+  const $ = (id) => document.getElementById(id);
+  const canvas = $("cv"), wrap = $("wrap");
+  const aIn = $("aIn"), bIn = $("bIn"), runBtn = $("runBtn");
+  const pauseBtn = $("pauseBtn"), stepBtn = $("stepBtn"), resetBtn = $("resetBtn");
+  const speedEl = $("speed"), speedLbl = $("speedLbl"), annChk = $("annChk");
+  const statusEl = $("status"), progFill = $("progFill");
+  const stA = $("stA"), stB = $("stB"), stC = $("stC");
+  const lanesEl = $("lanes"), laneHint = $("laneHint");
+  const fMain = $("fMain"), fSub = $("fSub"), killInfo = $("killInfo");
+  const presetsEl = $("presets");
+
+  /* ---------------- state ---------------- */
+  let world = null, spec = null, counter = null;
+  let running = false, done = false, accum = 0;
+  let cam = { x: 0, y: 0, zoom: 1 }, fitPending = true, showAnn = true;
+  let speedVal = 55; // slider 0..100
+  const gensPerSec = () => Math.round(20 * Math.pow(2400 / 20, speedVal / 100));
+  let speed = gensPerSec();
+  const stats = {
+    gen: 0, pop: 0, counts: [], total: 0, done: false,
+    product: 0, A: 3, B: 7, killed: false, perLane: 7,
+  };
+
+  /* ---------------- build ---------------- */
+  function parseInput(v, max) {
+    const n = Math.max(0, Math.min(max, Math.floor(Number(v) || 0)));
+    return n;
+  }
+  function build(a, b, autoRun = true) {
+    const A = Math.max(0, Math.min(MAX_A, Math.floor(a)));
+    const B = Math.max(0, Math.min(MAX_B, Math.floor(b)));
+    const m = buildMachine(A, B);
+    world = m.world; spec = m.spec;
+    counter = new LaneCounter(spec);
+    done = false; accum = 0; fitPending = true;
+    running = autoRun;
+    aIn.value = String(A); bIn.value = String(B);
+    stats.gen = 0; stats.pop = world.population;
+    stats.counts = new Array(A).fill(0);
+    stats.total = 0; stats.done = false;
+    stats.product = A * B; stats.A = A; stats.B = B;
+    stats.killed = false; stats.perLane = B;
+    renderStats();
+  }
+
+  /* ---------------- annotations layer ---------------- */
+  function drawAnnotations(ctx, spec, cx, cy, zoom) {
+    ctx.save();
+    ctx.lineWidth = 1;
+    for (const lane of spec.lanes) {
+      const g = lane.gunOrigin, sensor = lane.sensor, ea = lane.eaterAnchor, kg = lane.killGlider;
+
+      // output lane guide (faint emerald)
+      ctx.strokeStyle = "rgba(61,220,132,0.14)";
+      ctx.setLineDash([]);
+      ctx.beginPath();
+      ctx.moveTo((g.x + 20 - cx) * zoom, (g.y + 6 - cy) * zoom);
+      ctx.lineTo((ea.x - cx) * zoom, (ea.y - cy) * zoom);
+      ctx.stroke();
+
+      // kill lane guide (dashed red)
+      ctx.strokeStyle = "rgba(255,93,93,0.20)";
+      ctx.setLineDash([4 / zoom, 4 / zoom]);
+      ctx.beginPath();
+      ctx.moveTo((kg.x - cx) * zoom, (kg.y - cy) * zoom);
+      ctx.lineTo((g.x + 36 - cx) * zoom, (g.x + 36 - lane.killConst - cy) * zoom);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // sensor marker (cyan crosshair)
+      ctx.strokeStyle = "rgba(103,232,249,0.8)";
+      const px = (sensor.x - cx) * zoom, py = (sensor.y - cy) * zoom;
+      const r = Math.max(4, zoom * 1.6);
+      ctx.beginPath();
+      ctx.moveTo(px - r, py); ctx.lineTo(px + r, py);
+      ctx.moveTo(px, py - r); ctx.lineTo(px, py + r);
+      ctx.stroke();
+
+      // eater outline
+      ctx.strokeStyle = "rgba(200,211,220,0.5)";
+      ctx.strokeRect((ea.x - cx) * zoom - 2, (ea.y - cy) * zoom - 2, zoom * 5 + 4, zoom * 5 + 4);
+
+      // lane label
+      if (zoom > 0.22) {
+        ctx.fillStyle = "rgba(61,220,132,0.55)";
+        ctx.font = "10px ui-monospace, monospace";
+        ctx.fillText("gun " + lane.k, (g.x - cx) * zoom, (g.y - 6 - cy) * zoom);
+      }
+    }
+    ctx.restore();
+  }
+
+  /* ---------------- draw ---------------- */
+  function draw() {
+    if (!canvas || !wrap || !world || !spec) return;
+    const cssW = wrap.clientWidth, cssH = wrap.clientHeight;
+    if (cssW === 0 || cssH === 0) return;
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    if (canvas.width !== Math.floor(cssW * dpr) || canvas.height !== Math.floor(cssH * dpr)) {
+      canvas.width = Math.floor(cssW * dpr);
+      canvas.height = Math.floor(cssH * dpr);
+      canvas.style.width = cssW + "px";
+      canvas.style.height = cssH + "px";
+    }
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    if (fitPending) {
+      const zoom = Math.min(cssW / (spec.width + 10), cssH / (spec.height + 10));
+      cam.zoom = Math.max(0.05, Math.min(6, zoom));
+      cam.x = spec.width / 2 - cssW / (2 * cam.zoom);
+      cam.y = spec.height / 2 - cssH / (2 * cam.zoom);
+      fitPending = false;
+    }
+    const cx = cam.x, cy = cam.y, zoom = cam.zoom;
+
+    ctx.fillStyle = COL.bg;
+    ctx.fillRect(0, 0, cssW, cssH);
+
+    if (showAnn) drawAnnotations(ctx, spec, cx, cy, zoom);
+
+    // live cells, batched per color
+    const paths = [];
+    for (let t = 0; t < GEN_COL.length; t++) paths.push(new Path2D());
+    const s = Math.max(zoom * 0.94, 0.85);
+    world.forEachLive((x, y) => {
+      const px = (x - cx) * zoom, py = (y - cy) * zoom;
+      if (px < -3 || py < -3 || px > cssW + 3 || py > cssH + 3) return;
+      paths[classify(x, y, spec)].rect(px, py, s, s);
+    });
+    for (let t = 0; t < paths.length; t++) {
+      ctx.fillStyle = GEN_COL[t];
+      ctx.fill(paths[t]);
+    }
+
+    // faint grid when zoomed in
+    if (zoom >= 5) {
+      ctx.strokeStyle = "rgba(255,255,255,0.05)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      const x0 = Math.floor(cx), x1 = Math.ceil(cx + cssW / zoom);
+      const y0 = Math.floor(cy), y1 = Math.ceil(cy + cssH / zoom);
+      for (let gx = x0; gx <= x1; gx++) {
+        ctx.moveTo((gx - cx) * zoom, 0);
+        ctx.lineTo((gx - cx) * zoom, cssH);
+      }
+      for (let gy = y0; gy <= y1; gy++) {
+        ctx.moveTo(0, (gy - cy) * zoom);
+        ctx.lineTo(cssW, (gy - cy) * zoom);
+      }
+      ctx.stroke();
+    }
+  }
+
+  /* ---------------- stats rendering ---------------- */
+  function renderStats() {
+    stA.textContent = String(stats.A);
+    stB.textContent = String(stats.B);
+    stC.textContent = String(stats.total);
+
+    const pct = stats.product > 0
+      ? Math.min(100, (stats.total / stats.product) * 100)
+      : (stats.done ? 100 : 0);
+    progFill.style.width = pct + "%";
+
+    const label = stats.done ? "COMPLETE" : running ? "COMPUTING" : stats.gen === 0 ? "READY" : "PAUSED";
+    statusEl.textContent = label;
+    statusEl.className = "pill " + (stats.done ? "done" : running ? "run" : "idle");
+
+    pauseBtn.disabled = stats.done;
+    pauseBtn.innerHTML = running ? "&#9208; Pause" : "&#9654; Resume";
+
+    // lane chips
+    if (stats.counts.length === 0) {
+      lanesEl.innerHTML = '<span class="noLanes">no lanes (A = 0)</span>';
+      laneHint.textContent = "gliders detected per lane (0 lanes)";
+    } else {
+      let html = "";
+      for (let i = 0; i < stats.counts.length; i++) {
+        const c = stats.counts[i];
+        const full = c === stats.perLane ? " full" : "";
+        html += '<span class="lane' + full + '" title="lane ' + i + '">L' + i + ": " + c + "</span>";
+      }
+      lanesEl.innerHTML = html;
+      laneHint.textContent = "gliders detected per lane (" + stats.counts.length +
+        " lane" + (stats.counts.length === 1 ? "" : "s") + ", each must count " + stats.perLane + ")";
+    }
+
+    // formula overlay
+    if (stats.done) {
+      fMain.innerHTML = stats.A + " &times; " + stats.B + " = " +
+        '<span class="big">' + stats.product + '</span><span class="tick">&#10003;</span>';
+    } else {
+      fMain.innerHTML = stats.A + " &times; " + stats.B + " = " +
+        '<span class="pend">' + stats.total + " / " + stats.product + "</span>";
+    }
+    fSub.textContent = "gen " + stats.gen.toLocaleString() + " · pop " + stats.pop.toLocaleString() +
+      " · " + (stats.killed ? "guns terminated" : "guns firing");
+
+    killInfo.textContent = "kill distance d(B) = ⌊7.5·B⌋ + 7 · current d = " + killDistance(stats.B);
+  }
+
+  /* ---------------- animation loop ---------------- */
+  let last = performance.now(), lastStats = 0;
+  function loop(t) {
+    const dt = Math.min(0.1, (t - last) / 1000);
+    last = t;
+    if (world && spec && counter) {
+      if (running && !done) {
+        accum += dt * speed;
+        let steps = Math.floor(accum);
+        accum -= steps;
+        steps = Math.min(steps, 160);
+        for (let i = 0; i < steps; i++) {
+          world.step();
+          counter.update(world, world.gen);
+        }
+        const settled = world.gen - counter.lastEventGen > 240 && counter.lastEventGen >= 0;
+        const trivialDone = spec.product === 0 && world.gen > spec.killGenApprox + 300;
+        if (settled && counter.total >= spec.product) {
+          done = true; running = false;
+        } else if (trivialDone) {
+          done = true; running = false;
+        } else if (world.gen > spec.endGenApprox + 4000) {
+          done = true; running = false;
+        }
+      }
+      if (t - lastStats > 180) {
+        lastStats = t;
+        stats.gen = world.gen;
+        stats.pop = world.population;
+        stats.counts = counter.counts.slice();
+        stats.total = counter.total;
+        stats.done = done;
+        stats.product = spec.product;
+        stats.A = spec.A; stats.B = spec.B;
+        stats.killed = world.gen > spec.killGenApprox;
+        stats.perLane = spec.perLane;
+        renderStats();
+      }
+    }
+    draw();
+    requestAnimationFrame(loop);
+  }
+
+  /* ---------------- interactions ---------------- */
+  let dragging = false, lx = 0, ly = 0;
+  wrap.addEventListener("pointerdown", (e) => {
+    dragging = true; lx = e.clientX; ly = e.clientY;
+    wrap.classList.add("drag");
+    try { wrap.setPointerCapture(e.pointerId); } catch (_) {}
+  });
+  wrap.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    cam.x -= (e.clientX - lx) / cam.zoom;
+    cam.y -= (e.clientY - ly) / cam.zoom;
+    lx = e.clientX; ly = e.clientY;
+  });
+  const endDrag = () => { dragging = false; wrap.classList.remove("drag"); };
+  wrap.addEventListener("pointerup", endDrag);
+  wrap.addEventListener("pointercancel", endDrag);
+  wrap.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const rect = wrap.getBoundingClientRect();
+    const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+    const old = cam.zoom;
+    const factor = Math.pow(1.0016, -e.deltaY);
+    const nw = Math.max(0.04, Math.min(8, old * factor));
+    cam.x += mx / old - mx / nw;   // keep cursor anchored
+    cam.y += my / old - my / nw;
+    cam.zoom = nw;
+  }, { passive: false });
+
+  function zoomBy(f) {
+    const old = cam.zoom;
+    const nw = Math.max(0.04, Math.min(8, old * f));
+    cam.x += wrap.clientWidth / 2 / old - wrap.clientWidth / 2 / nw;
+    cam.y += wrap.clientHeight / 2 / old - wrap.clientHeight / 2 / nw;
+    cam.zoom = nw;
+  }
+  $("zin").addEventListener("click", () => zoomBy(1.3));
+  $("zout").addEventListener("click", () => zoomBy(1 / 1.3));
+  $("zfit").addEventListener("click", () => { fitPending = true; });
+
+  /* ---------------- controls ---------------- */
+  runBtn.addEventListener("click", () => build(parseInput(aIn.value, MAX_A), parseInput(bIn.value, MAX_B)));
+  aIn.addEventListener("input", () => { aIn.value = aIn.value.replace(/[^0-9]/g, ""); });
+  bIn.addEventListener("input", () => { bIn.value = bIn.value.replace(/[^0-9]/g, ""); });
+  aIn.addEventListener("keydown", (e) => { if (e.key === "Enter") runBtn.click(); });
+  bIn.addEventListener("keydown", (e) => { if (e.key === "Enter") runBtn.click(); });
+
+  pauseBtn.addEventListener("click", () => {
+    if (done) return;
+    running = !running;
+    renderStats();
+  });
+  stepBtn.addEventListener("click", () => {
+    if (!world || !counter) return;
+    running = false;
+    world.step();
+    counter.update(world, world.gen);
+    renderStats();
+  });
+  resetBtn.addEventListener("click", () => build(stats.A, stats.B, false));
+
+  speedEl.addEventListener("input", () => {
+    speedVal = +speedEl.value;
+    speed = gensPerSec();
+    speedLbl.textContent = speed + " gen/s";
+  });
+  annChk.addEventListener("change", () => { showAnn = annChk.checked; });
+
+  // presets
+  for (const [a, b] of PRESETS) {
+    const btn = document.createElement("button");
+    btn.className = "chip";
+    btn.textContent = a + "\u00d7" + b;
+    btn.addEventListener("click", () => build(a, b, true));
+    presetsEl.appendChild(btn);
+  }
+
+  /* ---------------- boot ---------------- */
+  speed = gensPerSec();
+  speedLbl.textContent = speed + " gen/s";
+  build(3, 7, true);
+  requestAnimationFrame(loop);
+})();
+</script>
+
+<script>
+  // ========================================
+  // Sidebar TOC highlight (mirrors note.html)
+  // ========================================
+  function initTocHighlight() {
+    const items = document.querySelectorAll('#toc .toc-item');
+    if (!items.length || !('IntersectionObserver' in window)) return;
+    const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const idx = sections.indexOf(entry.target);
+        items.forEach(it => it.classList.remove('active'));
+        if (items[idx]) items[idx].classList.add('active');
+      });
+    }, { rootMargin: '-10% 0px -60% 0px' });
+    sections.forEach(s => observer.observe(s));
+  }
+
+  // ========================================
+  // Ambient constellation (mirrors note.html)
+  // ========================================
+  function initAmbient() {
+    const canvas = document.getElementById('ambientCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    let pts = [];
+    const LINK_DIST = 130;
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+      pts = [];
+      for (let i = 0; i < count; i++) {
+        pts.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          vx: (Math.random() - 0.5) * 0.22,
+          vy: (Math.random() - 0.5) * 0.22,
+          r: Math.random() * 1.4 + 0.4
+        });
+      }
+    }
+    function tick() {
+      const light = document.documentElement.dataset.theme === 'light';
+      const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+      const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < pts.length; i++) {
+        const p = pts[i];
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+        ctx.fill();
+        for (let j = i + 1; j < pts.length; j++) {
+          const m = pts[j];
+          const dx = p.x - m.x, dy = p.y - m.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < LINK_DIST) {
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(m.x, m.y);
+            ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+            ctx.lineWidth = 1;
+            ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(tick);
+    }
+    window.addEventListener('resize', resize);
+    resize();
+    requestAnimationFrame(tick);
+  }
+
+  // ========================================
+  // Initialize
+  // ========================================
+  document.addEventListener('DOMContentLoaded', () => {
+    initTocHighlight();
+    initAmbient();
+  });
+</script>
+
+<script>
+(function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+        label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+        if (fading) return;
+        fading = true;
+        var root = document.documentElement;
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var swap = function () {
+            root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+            try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+            apply();
+            root.classList.remove('theme-fading');
+            fading = false;
+            window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+        };
+        if (reduced) { swap(); return; }
+        root.classList.add('theme-fading');
+        setTimeout(swap, 190);
+    });
+    apply();
+})();
+</script>
+<script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+</body>
+</html>

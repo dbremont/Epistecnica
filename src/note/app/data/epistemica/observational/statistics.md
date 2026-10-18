@@ -646,7 +646,7 @@ and Modelling, Cambridge University Press, pp. 83-119.
 - [Time Series Forecasting](https://www.udacity.com/course/time-series-forecasting--ud980)
 - Facebook Prophet
 - MAPE forecasting metric
-- [Dynamical System](../mathematical/dynamical-system.md)
+- [Dynamical System](../mathematical/ds/dynamical-system.md)
 - https://en.wikipedia.org/wiki/Gompertz_function
 - [‣](https://app.notion.com/p/273598edb790800ebe9efdc968b59009?pvs=21)
 - https://archive.org/details/practicaldataana0000brya

@@ -39,4 +39,4 @@ tags: [learning-system]
 ## References
 
 - [Introduction to Dynamic Linear Models for Time Series Analysis](https://arxiv.org/abs/1903.11309#:~:text=Dynamic%20linear%20models%20(DLM)%20offer,coefficients%20can%20vary%20in%20time.)
-- [Dynamical System](../mathematical/dynamical-system.md)
+- [Dynamical System](../mathematical/ds/dynamical-system.md)

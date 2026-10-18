@@ -492,6 +492,27 @@
 
         .card-live .card-thumb svg { color: var(--accent-cyan); }
 
+        /* Linked entries (links.json): same cards, link-mark overlay on the
+           thumb. */
+        .card-linked .card-thumb { position: relative; }
+
+        .card-linkmark {
+            position: absolute;
+            top: 0.5rem;
+            left: 0.5rem;
+            width: 22px;
+            height: 22px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-cyan);
+            background: var(--bg-void);
+            border: 1px solid var(--border-subtle);
+            border-radius: 50%;
+        }
+
+        .card-linkmark svg { width: 12px; height: 12px; }
+
         .card-body {
             padding: 0.7rem 0.8rem 0.8rem;
             display: flex;
@@ -741,6 +762,9 @@
         var NOUN = 'note', NOUNS = 'notes', HOME = 'notes', TITLE = 'Notes';
         var state = { q: '', view: 'browse', dir: '', section: 'all', page: 1, pageSize: GRID_PAGE, liveOnly: false, unfinishedOnly: false };
         var PINS = [];          /* pinned note paths, server order */
+        var LINKS = [];         /* embedded support links {from, to, label, kind} */
+        var LINKS_BY_FROM = {}; /* note/dir path -> outgoing links */
+        var NOTE_BY_PATH = {};  /* note path -> note */
         var pinsAvailable = false;
         var lastTotalPages = 1;
         var resultsEl = document.getElementById('results');
@@ -1194,9 +1218,19 @@
 
         var ICON_FILE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
 
-        /* File card: file glyph, title + path, optional kind badge. */
-        function fileCard(n, q) {
+        var ICON_LINK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>';
+
+        /* Link mark: arrow overlay on the thumb of support-link entries. */
+        function linkMark() {
+            return '<span class="card-linkmark" aria-hidden="true">' + ICON_LINK + '</span>';
+        }
+
+        /* File card: file glyph, title + path, optional kind badge. The
+           optional linkLabel marks support-link entries (links.json):
+           link-mark overlay on the thumb. */
+        function fileCard(n, q, linkLabel) {
             var live = n.kind === 'live';
+            var linked = linkLabel != null;
             var badge = '';
             if (live) {
                 var sub = liveSub(n);
@@ -1204,9 +1238,9 @@
             } else if (NOUN !== 'note' && n.kind) {
                 badge = '<span class="card-kind">' + esc(n.kind) + '</span>';
             }
-            return '<div class="card ' + (live ? 'card-live' : 'card-file') + '">' +
+            return '<div class="card ' + (live ? 'card-live' : 'card-file') + (linked ? ' card-linked' : '') + '">' +
                 '<a class="card-link" href="' + fileHref(n) + '">' +
-                '<div class="card-thumb">' + ICON_FILE + '</div>' +
+                '<div class="card-thumb">' + ICON_FILE + (linked ? linkMark() : '') + '</div>' +
                 '<div class="card-body">' +
                 '<div class="card-name">' + hl(n.title, q) + '</div>' +
                 (live ? '' : '<div class="card-sub">' + esc(n.path) + '</div>') +
@@ -1215,13 +1249,17 @@
         }
 
         /* Folder card: folder glyph, name + count. Enters the directory in
-           place (pushState), no page reload. */
-        function dirCard(s, q) {
-            return '<div class="card card-dir">' +
+           place (pushState), no page reload. The optional linkLabel marks
+           support-link entries: link-mark overlay plus a card-sub line with
+           the scope path (folder cards show no path otherwise). */
+        function dirCard(s, q, linkLabel) {
+            var linked = linkLabel != null;
+            return '<div class="card card-dir' + (linked ? ' card-linked' : '') + '">' +
                 '<a class="card-link" href="' + navHref(s.path) + '" data-navdir="' + esc(s.path) + '">' +
-                '<div class="card-thumb">' + ICON_DIR + '</div>' +
+                '<div class="card-thumb">' + ICON_DIR + (linked ? linkMark() : '') + '</div>' +
                 '<div class="card-body">' +
                 '<div class="card-name">' + hl(s.name, q) + '</div>' +
+                (linked ? '<div class="card-sub">' + esc(s.path) + '</div>' : '') +
                 '<div class="card-meta"><span class="card-kind">dir</span>' +
                 '<span class="card-sub">' + s.count + ' ' + (s.count === 1 ? NOUN : NOUNS) + '</span></div>' +
                 '</div></a></div>';
@@ -1236,6 +1274,78 @@
             var q = state.q.trim().toLowerCase();
             var start = (state.page - 1) * state.pageSize;
             return list.slice(start, start + state.pageSize).map(function (n) { return fileCard(n, q); }).join('');
+        }
+
+        /* Linked group (links.json): outgoing support links declared by the
+           notes strictly in the current browse dir, rendered as entries — a
+           file link (the target's own file card) or a dir link (a folder card
+           for the scope). Shown only without a search query, outside
+           pagination like folder cards. */
+        function linkedTargets() {
+            var seen = {};
+            var out = [];
+            function push(list) {
+                (list || []).forEach(function (l) {
+                    if (!l || !l.to || seen[l.to]) return;
+                    seen[l.to] = true;
+                    out.push(l);
+                });
+            }
+            /* Directory-node links: declared with a dir `from` equal to the
+               browsed directory. Shown only on that directory, never on its
+               descendants. */
+            push(LINKS_BY_FROM[state.dir]);
+            push(LINKS_BY_FROM[state.dir + '/']);
+            /* File-node links: declared with a note `from` in this directory. */
+            NOTES.forEach(function (n) {
+                if (parentDir(n.path) !== state.dir) return;
+                push(LINKS_BY_FROM[n.path]);
+            });
+            return out;
+        }
+
+        function linkedGroup() {
+            if (state.view !== 'browse') return '';
+            var q = state.q.trim().toLowerCase();
+            if (q) return '';
+            var targets = linkedTargets();
+            if (!targets.length) return '';
+            var dirs = [];
+            var files = [];
+            var labels = {};
+            targets.forEach(function (l) {
+                var to = l.to;
+                if (l.label) {
+                    if (labels[to] === undefined) labels[to] = [];
+                    if (labels[to].indexOf(l.label) < 0) labels[to].push(l.label);
+                }
+                if (to.charAt(to.length - 1) === '/') {
+                    var trim = to.replace(/\/$/, '');
+                    var segs = trim.split('/');
+                    var count = 0;
+                    var anyPin = false;
+                    NOTES.forEach(function (n) {
+                        if (n.path !== trim && n.path.indexOf(trim + '/') !== 0) return;
+                        count++;
+                        if (isPinned(n.path)) anyPin = true;
+                    });
+                    if (state.section === 'pinned' && !anyPin) return;
+                    dirs.push({ name: segs[segs.length - 1], path: trim, count: count, _to: to });
+                } else {
+                    var n = NOTE_BY_PATH[to];
+                    if (!n) return;
+                    if (state.section === 'pinned' && !isPinned(n.path)) return;
+                    if (state.liveOnly && n.kind !== 'live') return;
+                    if (state.unfinishedOnly && !isUnfinished(n)) return;
+                    files.push(n);
+                }
+            });
+            if (!dirs.length && !files.length) return '';
+            dirs.sort(function (a, b) { return a.name.localeCompare(b.name); });
+            files.sort(function (a, b) { return a.title.localeCompare(b.title); });
+            function badgeFor(to) { return (labels[to] || []).join(' \u00b7 '); }
+            return dirs.map(function (s) { return dirCard(s, q, badgeFor(s._to)); }).join('') +
+                files.map(function (n) { return fileCard(n, q, badgeFor(n.path)); }).join('');
         }
 
         /* Immediate subfolders of state.dir, with counts. A folder shows when
@@ -1348,10 +1458,11 @@
             var totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
             if (state.page > totalPages) state.page = totalPages;
             if (state.page < 1) state.page = 1;
-            resultsEl.innerHTML = (state.view === 'browse' ? dirCards(subs) : '') + fileCards(list);
+            var linkedHtml = linkedGroup();
+            resultsEl.innerHTML = (state.view === 'browse' ? dirCards(subs) : '') + fileCards(list) + linkedHtml;
             lastTotalPages = totalPages;
             updatePager(list.length, totalPages);
-            if (!list.length && subs.length) emptyEl.hidden = true;
+            if (!list.length && (subs.length || linkedHtml)) emptyEl.hidden = true;
         }
 
         function goToPage(p) {
@@ -1528,6 +1639,15 @@
             })
             .then(function (idx) {
                 NOTES = idx.notes;
+                LINKS = idx.links || [];
+                NOTE_BY_PATH = {};
+                NOTES.forEach(function (n) { NOTE_BY_PATH[n.path] = n; });
+                LINKS_BY_FROM = {};
+                LINKS.forEach(function (l) {
+                    if (!l || !l.from) return;
+                    if (!LINKS_BY_FROM[l.from]) LINKS_BY_FROM[l.from] = [];
+                    LINKS_BY_FROM[l.from].push(l);
+                });
                 var tagset = {};
                 NOTES.forEach(function (n) {
                     (n.tags || []).forEach(function (t) { tagset[t] = (tagset[t] || 0) + 1; });

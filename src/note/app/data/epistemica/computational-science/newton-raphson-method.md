@@ -18,7 +18,7 @@ QA:
 ## References
 
 - [Zero Set](../mathematical/zero-set.md)
-- [Fixed Point](../mathematical/fixed-point.md)
+- [Fixed Point](../mathematical/ds/fixed-point.md)
 - https://en.wikipedia.org/wiki/Newton%27s_method
 - https://patrickwalls.github.io/mathematicalpython/root-finding/newton/
 - https://en.wikipedia.org/wiki/Methods_of_computing_square_roots

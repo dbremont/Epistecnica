@@ -213,4 +213,4 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 - https://cafaq.com/
 - https://www.amazon.com/Cellular-Automata-Discrete-Andrew-Ilachinski/dp/981238183X →  [http://lib.ysu.am/disciplines_bk/10601885498bd77aa5069c30185beabd.pdf](http://lib.ysu.am/disciplines_bk/10601885498bd77aa5069c30185beabd.pdf) (If The Book is Good It Must be Bought)
 - http://bactra.org/notebooks/cellular-automata.html
-- [Subshift of Finite Type](../mathematical/subshift-of-finite-type.md)
+- [Subshift of Finite Type](../mathematical/ds/subshift-of-finite-type.md)

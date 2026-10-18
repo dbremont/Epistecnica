@@ -30,6 +30,7 @@ NOTE = Path(__file__).resolve().parent.parent
 APP = NOTE / "app"
 NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
+LINKS = APP / "data" / "links.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
@@ -152,6 +153,59 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, kind: st
     }
 
 
+def load_links(index_paths: set, warnings: list) -> list:
+    """Read the links registry and return embedded {from, to, label, kind} pairs.
+
+    The registry is the single fixed file data/links.json (a special file: never
+    a note, never naming-validated). Each entry declares a directed support link;
+    `from` is a directory node, `to` is a directory or a note. A dir `from` stays
+    a directory node (embedded as {from: "<dir>/", ...}) — it is not expanded onto
+    its descendants; a dir `to` stays a scope link. Unknown endpoints warn and are
+    dropped, never failing the build.
+    """
+    if not LINKS.is_file():
+        return []
+    try:
+        raw = json.loads(LINKS.read_text(encoding="utf-8"))
+    except ValueError as exc:
+        warnings.append(f"links.json (invalid JSON: {exc})")
+        return []
+    declared = raw.get("links", []) if isinstance(raw, dict) else []
+    embedded = []
+    for e in declared:
+        if not isinstance(e, dict):
+            warnings.append("links.json (entry is not an object)")
+            continue
+        frm = e.get("from", "") or ""
+        to = e.get("to", "") or ""
+        label = e.get("label", "") or ""
+        kind = e.get("kind", "") or ""
+        if frm.endswith("/"):
+            if not (NOTES / frm).is_dir():
+                warnings.append(f"links.json (unknown dir: {frm})")
+                continue
+            sources = [frm]
+        elif frm in index_paths:
+            sources = [frm]
+        else:
+            warnings.append(f"links.json (unknown note: {frm})")
+            continue
+        if to.endswith("/"):
+            if not (NOTES / to).is_dir():
+                warnings.append(f"links.json (unknown dir: {to})")
+                continue
+            targets = [to]
+        elif to in index_paths:
+            targets = [to]
+        else:
+            warnings.append(f"links.json (unknown note: {to})")
+            continue
+        for s in sources:
+            for t in targets:
+                embedded.append({"from": s, "to": t, "label": label, "kind": kind})
+    return embedded
+
+
 def main() -> int:
     if not NOTES.is_dir():
         print(f"ERROR: notes data directory not found: {NOTES}", file=sys.stderr)
@@ -169,18 +223,21 @@ def main() -> int:
     for n in notes:
         sections[n["section"]] = sections.get(n["section"], 0) + 1
 
+    links = load_links({n["path"] for n in notes}, warnings)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated": date.today().isoformat(),
         "count": len(notes),
         "sections": sections,
+        "links": links,
         "notes": notes,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     kb = OUT.stat().st_size / 1024
     tagged = sum(1 for n in notes if n["tags"])
-    print(f"notes-index: {len(notes)} notes ({tagged} tagged), {sum(n['words'] for n in notes)} words -> {OUT.relative_to(NOTE.parent.parent)} ({kb:.0f} KB)")
+    print(f"notes-index: {len(notes)} notes ({tagged} tagged), {len(links)} links, {sum(n['words'] for n in notes)} words -> {OUT.relative_to(NOTE.parent.parent)} ({kb:.0f} KB)")
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:

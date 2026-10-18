@@ -1518,17 +1518,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/attractor.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Attractor from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/banach-fixed-point-theorem.md",
     "logs": [
       {
@@ -1579,17 +1568,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Beta Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/bifurcation-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bifurcation Theory from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -2233,6 +2211,278 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/ds/attractor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Attractor from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/bifurcation-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bifurcation Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/dynamical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dynamical System from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/fixed-point.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fixed Point from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/flow.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Flow from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/graph-dynamical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Graph Dynamical System from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/henon-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Henon Map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/logistic-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Logistic Map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/lorenz-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lorenz system from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/lyapunov-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lyapunov Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/mandelbrot-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mandelbrot Set from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/poincare-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poincaré map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/rossler-attractor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Rössler Attractor from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/stability-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stability Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/subshift-of-finite-type.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Subshift of Finite Type from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/subshift.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Subshift from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ds/vector-field.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Vector Field from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved into the dynamical-systems (ds) scope."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/dual-number.md",
     "logs": [
       {
@@ -2250,17 +2500,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Dual Vector Space from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/dynamical-system.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Dynamical System from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -2426,28 +2665,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Field from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/fixed-point.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fixed Point from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/flow.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Flow from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -2629,17 +2846,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/graph-dynamical-system.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Graph Dynamical System from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/graph.md",
     "logs": [
       {
@@ -2778,17 +2984,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Heine-Borel Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/henon-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Henon Map from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -3333,56 +3528,12 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/logistic-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Logistic Map from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/lorenz-system.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lorenz system from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/lu-decomposition.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import LU Decomposition from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/lyapunov-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lyapunov Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/mandelbrot-set.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Mandelbrot Set from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -3916,17 +4067,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/poincare-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Poincaré map from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/polygon.md",
     "logs": [
       {
@@ -4235,17 +4375,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/rossler-attractor.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Rössler Attractor from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/rounding.md",
     "logs": [
       {
@@ -4466,17 +4595,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/stability-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Stability Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/state-transition-matrix.md",
     "logs": [
       {
@@ -4516,28 +4634,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Sublinear Functional from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/subshift-of-finite-type.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Subshift of Finite Type from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/subshift.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Subshift from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4791,17 +4887,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Variational Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/vector-field.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Vector Field from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
