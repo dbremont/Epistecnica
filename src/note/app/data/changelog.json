@@ -1140,6 +1140,11 @@
         "kind": "feat",
         "summary": "Import Decision Making from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Link the Decision Theory field entry and add the Luce-Raiffa archive reference."
       }
     ]
   },
@@ -4989,6 +4994,11 @@
         "kind": "feat",
         "summary": "Import Cellular Automata from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Add CA book/survey references and fix internal note links."
       }
     ]
   },
@@ -5693,6 +5703,21 @@
         "kind": "feat",
         "summary": "Import Decision Problem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Link the Decision Theory field entry and fix the Trade-Off link."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/decision-theory/decision-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-18",
+        "kind": "feat",
+        "summary": "Add the Decision Theory field entry: schema, aspect decomposition, entry map, and references."
       }
     ]
   },
@@ -5902,6 +5927,11 @@
         "kind": "feat",
         "summary": "Import Entropy from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Link Shannon information theory and the information-theory atlas from the relation section."
       }
     ]
   },
@@ -6474,6 +6504,16 @@
         "kind": "feat",
         "summary": "Import Input Representation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/it/shannon-information-content.md",
+    "logs": [
+      {
+        "date": "2026-10-18",
+        "kind": "feat",
+        "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition."
       }
     ]
   },
@@ -7171,6 +7211,16 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/possibility.md",
+    "logs": [
+      {
+        "date": "2026-10-18",
+        "kind": "feat",
+        "summary": "Fill the Possibility note with the epistemic schema and the aspect-based Aggregate decomposition."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/principal-component-analysis-pca.md",
     "logs": [
       {
@@ -7519,6 +7569,11 @@
         "kind": "feat",
         "summary": "Import Shannon Information Theory from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Link the Shannon information content note and the information-theory atlas."
       }
     ]
   },

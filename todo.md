@@ -1,3 +1,6 @@
+Wikipedia Gun (cellular automaton)  Why repetition allows us prove that this is a universal computing machine?
+
+
 Cellular Automata:
 
 Representation System

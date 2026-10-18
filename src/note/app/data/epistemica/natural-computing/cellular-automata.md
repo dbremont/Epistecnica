@@ -9,7 +9,7 @@
 
 > Cellular Automata are a **parallel, spatially distributed model of computation**, where complex behavior emerges from simple local interactions. They offer insights into **emergence**, **computation in physical systems**, and **distributed algorithms**, and they challenge the notion that all computation must be sequential or centralized.
 > 
-- [ ]  Learn more about CA ([Cellular Automata](cellular-automata.md) );  and Continue With Low Level Graphics (https://github.com/dbremont/visiotecnica-labs); Migrate the Results to Python-Matplotlib (No Real Time Updates) (https://github.com/dbremont/algorithms)
+- [ ]  Learn more about CA ([Cellular Automata](note.html?n=epistemica/natural-computing/cellular-automata.md) );  and Continue With Low Level Graphics (https://github.com/dbremont/visiotecnica-labs); Migrate the Results to Python-Matplotlib (No Real Time Updates) (https://github.com/dbremont/algorithms)
 
 QA:
 
@@ -212,5 +212,9 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 - Sarkar, Palash. "A brief history of cellular automata." Acm computing surveys (csur) 32.1 (2000): 80-107.
 - https://cafaq.com/
 - https://www.amazon.com/Cellular-Automata-Discrete-Andrew-Ilachinski/dp/981238183X →  [http://lib.ysu.am/disciplines_bk/10601885498bd77aa5069c30185beabd.pdf](http://lib.ysu.am/disciplines_bk/10601885498bd77aa5069c30185beabd.pdf) (If The Book is Good It Must be Bought)
+- Toffoli, T. & Margolus, N. (1987). *Cellular Automata Machines: A New Environment for Modeling*. MIT Press. [PDF](https://people.csail.mit.edu/nhm/cam-book.pdf)
+- Hedlund, G. A. (1969). Endomorphisms and automorphisms of the shift dynamical system. *Mathematical Systems Theory*, 3(4), 320–375. [Springer](https://link.springer.com/article/10.1007/BF01691062)
+- Boccara, N. (2004). *Modeling Complex Systems*. Springer. [PDF](https://ndl.ethernet.edu.et/server/api/core/bitstreams/160340ae-2d4d-492a-a3ee-c53629febfc6/content)
+- Kari, J. (2005). Theory of cellular automata: A survey. *Theoretical Computer Science*, 334(1–3), 3–33. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S030439750500054X)
 - http://bactra.org/notebooks/cellular-automata.html
-- [Subshift of Finite Type](../mathematical/ds/subshift-of-finite-type.md)
+- [Subshift of Finite Type](note.html?n=epistemica/mathematical/ds/subshift-of-finite-type.md)

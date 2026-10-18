@@ -111,6 +111,8 @@ Let the alphabet be: $\mathcal{A} = \{a_1, a_2, \dots, a_n\}$:
 > What kind of element is this? Technical, Epistemic, or What?
 > 
 
+> See the dedicated note on [Shannon Information Content](note.html?n=epistemica/observational/it/shannon-information-content.md) and the [Information Theory Atlas](data/epistemica/observational/it/atlas.html) for its operational quantities.
+
 ![image.png](assets/shannon-information-theory/image.png)
 
 ### Entropy
@@ -130,6 +132,8 @@ Where:
 - $H(X)$ = entropy of (X)
 - $P(x_i)$ = probability of outcome ($x_i$)
 - (b) = logarithm base (2 → bits, (e) → nats)
+
+> The averaged quantity itself is developed in [Entropy](note.html?n=epistemica/observational/entropy.md) and [Shannon Entropy](note.html?n=epistemica/observational/shannon-entropy.md).
 
 ### **Joint Entropy**
 

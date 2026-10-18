@@ -32,5 +32,6 @@ where:
 
 ## References
 
-- [Trade-Off](../optimization/trade-off.md)
+- [Decision Theory](note.html?n=epistemica/observational/decision-theory/decision-theory.md) — the field entry: branches, methods, and links.
+- [Trade-Off](note.html?n=epistemica/optimization/trade-off.md)
 - …

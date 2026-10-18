@@ -9,6 +9,8 @@
 > **Note:** Decision-making is an almost daily task for agents. This note should be viewed in tandem with related work on  [Problem](https://app.notion.com/p/Problem-1e8c0f5171ec80e59848c3449661c09f?pvs=21) and [Agency](https://app.notion.com/p/Agency-eebe9b5a15d84a3db7a1a1273fc29a2c?pvs=21).
 > 
 
+> See [Decision Theory](note.html?n=epistemica/observational/decision-theory/decision-theory.md) for the field-level entry: branches, methods, and links.
+
 ## Glossary
 
 | Term | Definition |
@@ -518,7 +520,7 @@ See:
 - **von Neumann, J., & Morgenstern, O. (1944).** *Theory of games and economic behavior*. Princeton University Press.
 - **Savage, L. J. (1954).** *The foundations of statistics*. John Wiley & Sons.
 - **Raiffa, H. (1968).** *Decision analysis: Introductory lectures on choices under uncertainty*. Addison-Wesley.
-- **Luce, R. D., & Raiffa, H. (1957).** *Games and decisions: Introduction and critical survey*. John Wiley & Sons.
+- **Luce, R. D., & Raiffa, H. (1957).** *Games and decisions: Introduction and critical survey*. John Wiley & Sons. [Internet Archive](https://ia802909.us.archive.org/6/items/in.ernet.dli.2015.132625/2015.132625.Games-And-Decisions-Introduction-And-Critical-Survey.pdf)
 - **Berger, J. O. (1985).** *Statistical decision theory and Bayesian analysis* (2nd ed.). Springer.
 - **Robert, C. P. (2001).** *The Bayesian choice: From decision-theoretic foundations to computational implementation*. Springer. (Winner of the 2004 DeGroot Prize)
 - **Simon, H. A. (1982).** *Models of bounded rationality* (Vols. 1–3). MIT Press.
