@@ -115,11 +115,12 @@ instance-decomposition table:
   the canonical technica guide above
   first — it owns the shell below, the Tabular taxonomy, the Recursive-view
   grammar, the decomposition contract, and the worked CRM case study.
-- Grammar snapshot: `src/note/bin/conform.py` validates instance tables
-  against the vendored `src/note/bin/technicarum-grammar.txt` snapshot
-  (pre-centralization local `(root) > ...` form), not the external
-  `(root) -> <<Technical Element>> -> ...` grammar — existing tables are
-  grammatically orphaned until migrated.
+- Grammar source: `src/note/bin/conform.py` fetches the canonical grammar from
+  the guide above at runtime (stdlib `urllib`, no local snapshot) — the
+  `technicarum-grammar.txt` copy was removed on centralization. It validates
+  instance tables against the guide's Tabular view
+  (`(root) := <<Technical Element>> -> ...`); legacy `(root) > ...` tables
+  whose types no longer exist in the guide are reported until migrated.
 - Table contract: 4 columns (`Instance Tree Path | Description | Technical
   Category | Technical Element Type Tree Path`) under a Boundary /
   Stopping-rule / Identity / Verbs block. Every path unique; a row is
@@ -181,9 +182,10 @@ instance-decomposition table:
   element types; child descriptions state role-in-parent).
   `general/financial-sector.md` is the worked exemplar (138-row
   Entity-typed table generated from the explorer's `TAXO` snapshot).
-- The guide is vendored at `src/note/bin/epistemicarum-guide.md` (guidelines
-  under `src/note/bin/epistemicarum-guideline/`); use the snapshot offline and
-  cite the Naturgnosis raw URL in notes. The corpus lives under
+- The guide is canonical at the Naturgnosis raw URL above; the former local
+  copies (`src/note/bin/epistemicarum-guide.md` and
+  `src/note/bin/epistemicarum-guideline/`) were removed when the guide was
+  centralized — cite that URL in notes. The corpus lives under
   `src/note/app/data/epistemica/` and was seeded from the Modelado Notion
   export by `src/note/bin/import_epistemica.py <export-root>` (mechanical
   normalization only — the schema conversion is still outstanding).

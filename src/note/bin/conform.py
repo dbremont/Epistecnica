@@ -4,12 +4,12 @@ Decomposition-table conformance checker.
 
 Verifies that every `Instance Tree Path` table in the given technical
 notes adheres to the decomposition standards owned by the canonical
-technica guide
-(https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md),
-as vendored in the `technicarum-grammar.txt` snapshot next to this script
-(pre-centralization local `(root) > ...` form — instance tables validate
-against the snapshot until migrated to the external
-`(root) -> <<Technical Element>> -> ...` grammar):
+technica guide, fetched at runtime from Naturgnosis
+(https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md).
+The grammar paths are parsed from the guide's Tabular view rows
+(`(root) := <<Technical Element>> -> ...`); no local snapshot is kept
+(the former `technicarum-grammar.txt` was removed when the guide was
+centralized to Naturgnosis).
 
 - every fourth-column type path resolves to a Recursive-view grammar path
   (`Technical Element Set`-prefixed, spine levels never skipped, no
@@ -24,20 +24,30 @@ against the snapshot until migrated to the external
   the documented allowlist),
 - no type segment terminates a branch.
 
+The canonical grammar has evolved past the legacy local snapshot, so
+`(root) > Technical Element Set > ...` instance tables whose types no
+longer exist in the guide are reported until migrated to the canonical
+`(root) := <<Technical Element>> -> ...` form.
+
 Instance-path styling (`**bold**` intermediates, `` `code` `` types) is
 normalized away before structural checks.
 
 Usage: python3 src/note/bin/conform.py [file ...]
 Default: all technical notes carrying decomposition tables.
-Exit 1 on any violation. Stdlib only.
+Exit 1 on any violation, 2 if the guide cannot be fetched. Stdlib only.
 """
 
 import re
 import sys
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 NOTE = Path(__file__).resolve().parent.parent
-GRAMMAR_SNAPSHOT = Path(__file__).resolve().parent / "technicarum-grammar.txt"
+GRAMMAR_URL = (
+    "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/"
+    "app/note/data/meta/philosophia-artium-technicarum-et-operis.md"
+)
 
 DEFAULT_FILES = [
     NOTE / "app/data/technica/cto/es/multinode/openapi.md",
@@ -72,21 +82,56 @@ LEGACY_SUFFIX_RE = re.compile(
 ROOT_REPEAT_ALLOWLIST = {"Biotechnology > Technical Element Set"}
 
 
-def load_grammar():
-    """Return (grammar_paths, canonical) from the vendored snapshot.
+def fetch_guide(url=GRAMMAR_URL):
+    """Fetch the canonical technica guide text at runtime (no local copy)."""
+    try:
+        with urllib.request.urlopen(url, timeout=30) as resp:
+            return resp.read().decode("utf-8")
+    except (urllib.error.URLError, OSError) as exc:
+        print(f"ERROR: cannot fetch the technica guide ({url}): {exc}",
+              file=sys.stderr)
+        raise SystemExit(2)
 
-    canonical maps a terminal type name to its full grammar path.
+
+def norm_path(path):
+    """Collapse whitespace around `>` so forms compare consistently."""
+    return re.sub(r"\s*>\s*", " > ", path.strip())
+
+
+def load_grammar(text):
+    """Return (grammar_paths, canonical) parsed from the guide Tabular view.
+
+    Grammar paths are the second-column cells of the `(root) := <<Technical
+    Element>> -> ...` table rows, normalized to the comparable `(root) >
+    Technical Element Set > ...` form (which the legacy instance tables use
+    too). canonical maps a terminal type name to its full grammar path.
     """
     grammar = set()
-    for line in GRAMMAR_SNAPSHOT.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#"):
-            grammar.add(line)
+    for line in text.splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if len(cells) < 2:
+            continue
+        m = re.search(r"\(root\).*", cells[1])
+        if not m:
+            continue
+        path = m.group(0).strip().strip("`").strip()
+        # Canonical form -> comparable form: the root binds the Set spine.
+        path = path.replace("(root) := <<Technical Element>>", "(root)")
+        path = path.replace(" := <<Technical Element>>", "")
+        path = path.replace("->", ">").strip()
+        if path == "(root)":
+            path = "(root) > Technical Element Set"
+        elif path.startswith("(root) >"):
+            path = ("(root) > Technical Element Set >"
+                    + path[len("(root) >"):].strip())
+        grammar.add(norm_path(path))
     canonical = {}
     for path in grammar:
         if "..." in path or "{" in path:
             continue
-        terminal = path.split(" > ")[-1]
+        terminal = path.rsplit(" > ", 1)[-1]
         canonical.setdefault(terminal, path)
     return grammar, canonical
 
@@ -139,14 +184,14 @@ def check_file(path, grammar, canonical):
             errors.append(f"{lineno}: empty technical category")
             continue
         m = BACKTICK_RE.search(typecell)
-        tpath = m.group(1).strip() if m else typecell.strip()
+        tpath = norm_path(m.group(1)) if m else norm_path(typecell)
         if not tpath:
             errors.append(f"{lineno}: empty type path")
             continue
         if "..." in tpath or "{" in tpath:
             errors.append(f"{lineno}: wildcard in instance table: `{tpath}`")
             continue
-        terminal = tpath.split(">")[-1].strip()
+        terminal = tpath.rsplit(" > ", 1)[-1]
         if terminal in REMOVED:
             errors.append(
                 f"{lineno}: {REMOVED[terminal]}: `{tpath}`")
@@ -216,7 +261,7 @@ def check_file(path, grammar, canonical):
 
 
 def main(files):
-    grammar, canonical = load_grammar()
+    grammar, canonical = load_grammar(fetch_guide())
     total = 0
     for f in files:
         errors = check_file(f, grammar, canonical)

@@ -35,9 +35,10 @@ domains (`causality.md`, `mathematical.md`, `observational.md`, …) and their
 element notes, one directory per domain (`epistemica/mathematical/group.md`).
 They document epistemic elements and must follow the epistemical schema (title,
 intro quote, `## Formulation` with the three questions including the recursive
-instance decomposition, `## References`) owned by the guide vendored at
-`bin/epistemicarum-guide.md` (with `bin/epistemicarum-guideline/`); the worked
-exemplar is `data/general/financial-sector.md`.
+instance decomposition, `## References`) owned by the canonical philosophia
+guide at
+`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`;
+the worked exemplar is `data/general/financial-sector.md`.
 
 - The corpus was seeded from the Naturgnosis Notion *Modelado* export with
   `bin/import_epistemica.py <export-root>` (names normalized, CSV tags as
