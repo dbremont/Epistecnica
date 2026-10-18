@@ -6493,6 +6493,11 @@
         "kind": "feat",
         "summary": "Import Information from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Remove the leftover Notion reference line."
       }
     ]
   },
@@ -7816,6 +7821,11 @@
         "kind": "feat",
         "summary": "Import topic from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "chore",
+        "summary": "Delete the stale topic-2 note."
       }
     ]
   },
@@ -7827,6 +7837,11 @@
         "kind": "feat",
         "summary": "Import topic from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "chore",
+        "summary": "Delete the stale topic note."
       }
     ]
   },
@@ -7871,6 +7886,11 @@
         "kind": "feat",
         "summary": "Import Variability from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "chore",
+        "summary": "Delete the stale variability note."
       }
     ]
   },
@@ -8279,6 +8299,11 @@
         "summary": "Drop the financial-sector explorer live-note link; the page was removed in the live-note relocation.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1",
         "before": "52ba9306ccb16d746c63c9dfeb85b98206a00b29"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "chore",
+        "summary": "Delete the financial-sector note."
       }
     ]
   }

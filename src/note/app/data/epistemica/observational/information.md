@@ -4,10 +4,7 @@ tags: [framework]
 
 # Information
 
- : Shannon Information Theory (Shannon%20Information%20Theory%20a22d92f3a8b845698e10e8039544dad3.md), Coding (Coding%2021b82ffc9433484ca5e7a8aa98f32825.md), Information Geometry (Information%20Geometry%209e8f47513e9c4b8ba9e9450c52dced78.md), Fisher Information (Fisher%20Information%204cefa509a9c94f7b912cfbdc477adbec.md), Algorithmic Information Theory (AIT) (Algorithmic%20Information%20Theory%20(AIT)%2002ef38459a5743eeb0726c479584010a.md)
-
 > In this note, we will explore the multi-aspect concept of “Information.”
-> 
 
 > **Information** is any distinguishable pattern, signal, or state that, when received or interpreted by a system, constrains its possible beliefs, states, or actions.
 > 
@@ -97,9 +94,10 @@ See more:
 
 ## References
 
-- https://en.wikipedia.org/wiki/Information
-- https://plato.stanford.edu/entries/information/
-- https://en.wikipedia.org/wiki/Information_asymmetry
-- https://en.wikipedia.org/wiki/Monopolies_of_knowledge
+- [Information - Wikipedia](https://en.wikipedia.org/wiki/Information)
+- [Information - Stanford](https://plato.stanford.edu/entries/information/)
+- [Information Asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry)
 - [An Essay on Pattern, Prediction, Randomness and Explanation](https://app.notion.com/p/An-Essay-on-Pattern-Prediction-Randomness-and-Explanation-2cfc0f5171ec8012a392e8493b338e8f?pvs=21)
 - [Coding](coding.md)
+- [Information Theory](https://bactra.org/notebooks/information-theory.html)
+
