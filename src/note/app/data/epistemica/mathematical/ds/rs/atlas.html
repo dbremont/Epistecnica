@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas of Representational Systems</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    /* ---- catalog: toolbar, facets, cards ---- */
+    .toolbar { margin: 0.5rem 0 1rem; }
+    #search {
+      width: 100%;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      color: var(--text-primary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 0.7rem 0.9rem 0.7rem 2.3rem;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%238A8FA6' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: 0.75rem center;
+    }
+    #search::placeholder { color: var(--text-muted); }
+    #search:focus { outline: none; border-color: var(--accent-cyan); }
+
+    .facets { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.9rem 0 0.4rem; }
+    .fchip {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 999px;
+      padding: 0.3rem 0.7rem;
+      cursor: pointer;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+    .fchip:hover { border-color: var(--accent-cyan); color: var(--text-primary); }
+    .fchip.active { background: var(--accent-cyan); border-color: var(--accent-cyan); color: #0b0e14; }
+    .fchip .n { opacity: 0.6; margin-left: 0.3rem; }
+
+    .counts {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin: 0.4rem 0 1.2rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    a.card:hover { border-color: var(--accent-cyan); transform: translateY(-2px); }
+    a.card:hover .card-name { color: var(--accent-cyan); }
+    .card-plain { opacity: 0.9; }
+
+    .card-thumb {
+      height: 132px;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .card-thumb svg { display: block; width: 100%; height: 100%; }
+
+    .card-body { display: flex; flex-direction: column; gap: 0.45rem; padding: 0.95rem 1.05rem 1.1rem; }
+    .card-cat {
+      font-family: var(--font-mono);
+      font-size: 0.56rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+    }
+    .card-name {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.18rem;
+      line-height: 1.2;
+      color: var(--text-primary);
+      transition: color 0.2s ease;
+    }
+    .card-name .go { font-size: 0.8rem; color: var(--text-muted); }
+    .card-desc { font-size: 0.82rem; line-height: 1.5; color: var(--text-secondary); }
+    .card-line { font-size: 0.76rem; line-height: 1.45; color: var(--text-muted); }
+    .card-line .lbl {
+      font-family: var(--font-mono);
+      font-size: 0.55rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-right: 0.35rem;
+    }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.35rem; align-items: center; }
+    .pill {
+      font-family: var(--font-mono);
+      font-size: 0.56rem;
+      letter-spacing: 0.02em;
+      color: var(--text-secondary);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 999px;
+      padding: 0.14rem 0.5rem;
+    }
+    .no-note {
+      font-family: var(--font-mono);
+      font-size: 0.56rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      opacity: 0.7;
+      margin-left: auto;
+    }
+    .empty { color: var(--text-muted); font-style: italic; margin: 1.5rem 0; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+  </style>
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds/rs">rs</a><span class="sep">/</span><span class="here">atlas</span></div>
+      <h1 class="note-title">Atlas of Representational Systems</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">catalog</span>
+        <span class="chip">#dynamical-systems</span>
+        <span class="chip">#representation</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A catalog of the <strong>representational systems</strong> — systems of signs, symbols, structures, and rules — through which dynamical behavior is written down and studied. Each entry is a <strong>Representational System</strong>; where a corpus note exists, the card opens it for exploration.</p>
+            </blockquote>
+
+            <h2 id="catalog">The catalog</h2>
+            <p>Search across names, specializations, descriptions, mechanisms, scopes, and tags; filter by category. Cards with a note are clickable.</p>
+
+            <div class="toolbar">
+              <input id="search" type="search" placeholder="Search representational systems…" autocomplete="off" aria-label="Search representational systems">
+            </div>
+            <div class="facets" id="facets"></div>
+            <div class="counts" id="counts"></div>
+            <div class="cards" id="cards"></div>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation &rarr; Representational System</em></li>
+              <li><a href="../../../../../note.html?n=epistemica/mathematical/ds/dynamical-system.md">Dynamical System</a> — the scope note this atlas serves</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#catalog">Catalog</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var NOTE_REL = "../../../../../";
+
+  /* ---- the elements: representational systems ---- */
+  var DATA = [
+    {c:"Cellular systems",n:"Cellular automaton",v:"Elementary CA; Game of Life; totalistic CA; reversible CA; Wolfram-rule CA",d:"Represents spatially distributed discrete dynamics.",m:"Local state-transition rules.",s:"Discrete spatial systems; pattern formation; emergent behavior.",t:["discrete","spatial","local-rules"],note:"epistemica/natural-computing/cellular-automata.md"},
+    {c:"Cellular systems",n:"Probabilistic cellular automaton",v:"Noisy CA; stochastic-rule CA; random-update CA; probabilistic rule-table CA",d:"Represents stochastic spatial dynamics.",m:"Probabilistic local update rules.",s:"Stochastic spatial processes.",t:["stochastic","spatial"],note:null},
+    {c:"Cellular systems",n:"Asynchronous cellular automaton",v:"Sequential CA; random-order CA; event-driven CA; nonuniform-update CA",d:"Represents dynamics in which cells update at different times.",m:"Sequential or asynchronous state updates.",s:"Asynchronous discrete systems.",t:["asynchronous","discrete"],note:null},
+    {c:"Cellular systems",n:"Continuous cellular automaton",v:"Continuous-state CA; fuzzy CA; coupled-map CA; continuous-valued rule CA",d:"Represents spatial systems with continuous-valued cell states.",m:"Local continuous-valued update functions.",s:"Continuous-state spatial dynamics.",t:["continuous","spatial"],note:null},
+    {c:"Cellular systems",n:"Coupled map lattice",v:"Diffusively coupled maps; globally coupled maps; chaotic CML; locally coupled CML",d:"Represents spatially coupled discrete-time dynamics.",m:"Iterated maps coupled across a lattice.",s:"Spatiotemporal dynamics; pattern formation.",t:["discrete-time","spatial"],note:null},
+    {c:"Cellular systems",n:"Reconfigurable cellular system",v:"Programmable CA; self-reconfiguring CA; adaptive-rule CA; structurally dynamic CA",d:"Represents spatially organized computation or dynamics with changing rules or connections.",m:"Local updates combined with structural or rule reconfiguration.",s:"Reconfigurable computation; adaptive cellular systems.",t:["reconfigurable","computational"],note:null},
+
+    {c:"Lattice systems",n:"Lattice gas automaton",v:"FHP lattice gas; multiparticle collision lattice gas; reversible lattice gas; thermal lattice gas",d:"Represents particle transport and collisions on a discrete lattice.",m:"Particle propagation and collision rules.",s:"Fluid dynamics; transport phenomena.",t:["lattice","particle"],note:null},
+    {c:"Lattice systems",n:"Lattice Boltzmann method",v:"D2Q9; D3Q19; BGK-LBM; MRT-LBM; Shan-Chen multiphase LBM",d:"Represents fluid dynamics through discrete particle distribution functions.",m:"Streaming and collision operators.",s:"Computational fluid dynamics.",t:["fluid","numerical"],note:"epistemica/computational-science/lattice-boltzmann-method.md"},
+
+    {c:"Particle systems",n:"Molecular dynamics",v:"All-atom MD; coarse-grained MD; ab initio MD; force-field MD; reactive MD",d:"Represents microscopic physical dynamics.",m:"Numerical integration of equations of motion.",s:"Molecular and atomic systems.",t:["microscopic","physical"],note:"epistemica/computational-science/molecular-dynamics-md.md"},
+    {c:"Particle systems",n:"Dissipative particle dynamics",v:"Standard DPD; many-body DPD; energy-conserving DPD; soft-particle DPD",d:"Represents mesoscopic fluid and soft-matter dynamics.",m:"Conservative, dissipative, and random particle forces.",s:"Soft matter; mesoscopic fluids.",t:["mesoscopic","stochastic"],note:null},
+    {c:"Particle systems",n:"Smoothed particle hydrodynamics",v:"WCSPH; ISPH; delta-SPH; adaptive SPH; multiphase SPH",d:"Represents continuum dynamics using moving particles.",m:"Kernel interpolation and particle evolution.",s:"Fluids; deformable continua; astrophysics.",t:["particle","continuum"],note:null},
+    {c:"Particle systems",n:"Brownian dynamics",v:"Overdamped BD; inertial BD; generalized Langevin BD; interacting-particle BD",d:"Represents stochastic particle motion.",m:"Stochastic equations of motion.",s:"Diffusion; colloids; biological particles.",t:["stochastic","particle"],note:"epistemica/observational/brownian-motion.md"},
+    {c:"Particle systems",n:"Active Brownian particles",v:"ABP; run-and-tumble particles; active Ornstein-Uhlenbeck particles; chiral active particles",d:"Represents self-propelled particles subject to fluctuations.",m:"Self-propulsion, interactions, and stochastic motion.",s:"Active matter; collective motion.",t:["active-matter","stochastic"],note:null},
+
+    {c:"Spatial numerical methods",n:"Finite-difference method",v:"Explicit FD; implicit FD; FTCS; Crank-Nicolson; higher-order FD",d:"Approximates spatial or temporal derivatives on a discrete grid.",m:"Finite-difference approximations.",s:"Numerical solutions of differential equations.",t:["numerical","discretization"],note:"epistemica/computational-science/finite-difference-method-fdm.md"},
+    {c:"Spatial numerical methods",n:"Finite-volume method",v:"Godunov FV; upwind FV; MUSCL; WENO; central-upwind FV",d:"Represents conservation laws over discrete control volumes.",m:"Flux balances across volume boundaries.",s:"Fluid dynamics; conservation laws.",t:["numerical","conservation"],note:null},
+    {c:"Spatial numerical methods",n:"Finite-element method",v:"Galerkin FE; mixed FE; hp-FE; discontinuous Galerkin; spectral-element FE",d:"Approximates continuous fields using local basis functions.",m:"Weak-form discretization and element assembly.",s:"Structural mechanics; heat transfer; field equations.",t:["numerical","mesh"],note:"epistemica/computational-science/finite-element-method-fem.md"},
+    {c:"Spatial numerical methods",n:"Spectral method",v:"Fourier spectral; Chebyshev spectral; pseudospectral; spectral-element",d:"Represents fields using global basis functions.",m:"Spectral expansion and differentiation.",s:"Smooth solutions of differential equations.",t:["numerical","spectral"],note:"epistemica/computational-science/spectral-method-toolbox.md"},
+    {c:"Spatial numerical methods",n:"Adaptive mesh refinement",v:"Block-structured AMR; octree AMR; particle AMR; h-adaptive; p-adaptive",d:"Represents spatial dynamics using locally varying numerical resolution.",m:"Dynamic mesh refinement and coarsening.",s:"Multiscale numerical simulations.",t:["adaptive","multiscale"],note:null},
+
+    {c:"Field systems",n:"Reaction-diffusion system",v:"Turing system; Gray-Scott; FitzHugh-Nagumo; excitable media; morphogen model",d:"Represents interacting fields that react and diffuse.",m:"Reaction terms coupled with diffusion equations.",s:"Chemical patterns; biological morphogenesis.",t:["continuous","spatial"],note:null},
+    {c:"Field systems",n:"Continuum field model",v:"Elasticity field; fluid field; electromagnetic field; poroelastic field; thermal field",d:"Represents quantities distributed continuously across space and time.",m:"Governing field equations.",s:"Physical, biological, and engineering fields.",t:["continuum","field"],note:"epistemica/computational-science/continuum-mechanic-framework.md"},
+    {c:"Field systems",n:"Phase-field model",v:"Allen-Cahn; Cahn-Hilliard; multiphase phase-field; fracture phase-field; phase-field crystal",d:"Represents evolving material phases and interfaces.",m:"Free-energy evolution and gradient-driven dynamics.",s:"Phase transitions; material evolution.",t:["phase-transition","continuous"],note:"epistemica/computational-science/phase-field-model.md"},
+    {c:"Field systems",n:"Level-set method",v:"Narrow-band level set; conservative level set; fast-marching-related level set; interface-tracking level set",d:"Represents moving interfaces through level sets of a function.",m:"Evolution of the level-set function.",s:"Interface tracking; fluid and material boundaries.",t:["interface","numerical"],note:"epistemica/mathematical/level-set.md"},
+    {c:"Field systems",n:"Lattice-free continuum model",v:"Meshfree continuum; arbitrary Lagrangian-Eulerian continuum; particle-in-cell continuum; continuum solver without fixed lattice",d:"Represents continuous dynamics without a fixed spatial lattice.",m:"Continuum equations and numerical solution.",s:"Continuum mechanics; spatial processes.",t:["continuum","continuous"],note:null},
+
+    {c:"Network systems",n:"Network dynamical system",v:"Consensus dynamics; network diffusion; coupled maps on networks; network epidemic dynamics",d:"Represents evolving states of interconnected components.",m:"Node dynamics coupled through edges.",s:"Interconnected physical, biological, and social systems.",t:["network","dynamical"],note:"epistemica/computational-science/network-science.md"},
+    {c:"Network systems",n:"Graph dynamical system",v:"Graph automata; graph cellular automata; sequential graph dynamical system; synchronous graph dynamical system",d:"Represents state evolution on a graph.",m:"Graph-dependent state-transition functions.",s:"Discrete and continuous dynamics on graphs.",t:["graph","state-transition"],note:"epistemica/mathematical/ds/graph-dynamical-system.md"},
+    {c:"Network systems",n:"Boolean network",v:"Random Boolean network; scale-free Boolean network; synchronous Boolean network; asynchronous Boolean network",d:"Represents discrete regulatory dynamics using binary variables.",m:"Boolean update functions.",s:"Gene regulation; logical networks.",t:["boolean","discrete"],note:"epistemica/computational-science/boolean-network.md"},
+    {c:"Network systems",n:"Probabilistic Boolean network",v:"Context-sensitive PBN; stochastic Boolean network; probabilistic update PBN; ensemble Boolean model",d:"Represents uncertain regulatory dynamics.",m:"Probabilistic selection of Boolean update functions.",s:"Stochastic regulatory systems.",t:["probabilistic","boolean"],note:null},
+    {c:"Network systems",n:"Multilayer network dynamics",v:"Multiplex network; interdependent network; multilayer epidemic; multilayer synchronization",d:"Represents dynamics across multiple interconnected network layers.",m:"Coupled evolution across layers.",s:"Interdependent networks; multiplex systems.",t:["multilayer","network"],note:null},
+    {c:"Network systems",n:"Temporal network dynamics",v:"Activity-driven network; edge-switching network; time-varying graph; temporal epidemic network",d:"Represents dynamics on networks whose connections change over time.",m:"State evolution coupled to time-varying topology.",s:"Temporal and evolving networks.",t:["temporal","network"],note:null},
+    {c:"Network systems",n:"Hypergraph dynamical system",v:"Hypergraph automata; higher-order contagion; simplicial-complex dynamics; hyperedge-coupled dynamics",d:"Represents dynamics involving higher-order relationships among entities.",m:"State updates driven by hyperedges.",s:"Higher-order interactions; complex systems.",t:["hypergraph","higher-order"],note:"epistemica/mathematical/hypergraph.md"},
+    {c:"Network systems",n:"Adaptive network model",v:"Coevolutionary network; adaptive voter model; synaptic-plasticity network; adaptive epidemic network",d:"Represents the coevolution of node states and network structure.",m:"Coupled state and topology evolution.",s:"Adaptive social, biological, and technological networks.",t:["adaptive","coevolution"],note:null},
+    {c:"Network systems",n:"Coupled oscillator network",v:"Kuramoto model; phase-coupled oscillators; Stuart-Landau network; coupled pendula; globally coupled oscillators",d:"Represents collective oscillatory behavior among interconnected oscillators.",m:"Coupling of oscillator phases or amplitudes.",s:"Synchronization; rhythmic systems.",t:["oscillation","synchronization"],note:null},
+
+    {c:"Agent systems",n:"Agent-based model",v:"Rule-based ABM; BDI-agent model; reinforcement-learning ABM; spatial ABM; economic ABM",d:"Represents dynamics generated by interacting agents.",m:"Agent behavior, interactions, and environmental feedback.",s:"Social systems; markets; ecosystems.",t:["agent-based","emergence"],note:"epistemica/computational-science/agent.md"},
+    {c:"Agent systems",n:"Multi-agent system",v:"Cooperative MAS; competitive MAS; swarm system; distributed-AI MAS; negotiation MAS",d:"Represents interactions among multiple autonomous agents.",m:"Distributed decision-making, communication, and interaction.",s:"Distributed intelligence; coordination; competition.",t:["multi-agent","interaction"],note:null},
+    {c:"Agent systems",n:"Cellular agent-based model",v:"Grid-based ecology model; tissue agent model; cellular automaton agent model; lattice-gas agent model",d:"Represents individual agents or organisms within a discrete spatial grid.",m:"Agent behavior combined with cell-based movement and interactions.",s:"Spatial ecology; tissue models.",t:["spatial","agent-based"],note:null},
+    {c:"Agent systems",n:"Spatial agent-based model",v:"Continuous-space ABM; GIS-based ABM; mobility ABM; local-interaction spatial ABM",d:"Represents agents moving and interacting in continuous space.",m:"Movement, local interactions, and behavioral rules.",s:"Spatial social and biological dynamics.",t:["spatial","agent-based"],note:null},
+
+    {c:"Population systems",n:"Individual-based population model",v:"Individual-based ecology model; trait-based IBM; agent-based population model; individual lifecycle model",d:"Represents population dynamics at the individual level.",m:"Birth, death, reproduction, and movement.",s:"Ecology; population biology.",t:["individual-based","population"],note:null},
+    {c:"Population systems",n:"Structured population model",v:"Age-structured model; stage-structured model; class-structured model; integral projection model",d:"Represents populations differentiated into classes.",m:"Transitions among classes and demographic processes.",s:"Age-structured; stage-structured populations.",t:["population","structured"],note:null},
+    {c:"Population systems",n:"Compartmental model",v:"SIR/SEIR; pharmacokinetic compartment model; box model; chemical compartment model",d:"Represents aggregate quantities divided into compartments connected by flows.",m:"Transfer rates between compartments.",s:"Epidemiology; chemical systems; population dynamics.",t:["compartmental","flow"],note:null},
+    {c:"Population systems",n:"Metapopulation model",v:"Levins metapopulation; mainland-island model; patch-occupancy model; stochastic metapopulation",d:"Represents dynamics among distinct local populations.",m:"Local population dynamics and migration.",s:"Ecology; habitat networks.",t:["metapopulation","spatial"],note:null},
+    {c:"Population systems",n:"Size-structured population model",v:"Size-spectrum model; fish-stock size model; size-based consumer model; size-transition model",d:"Represents populations differentiated by individual size.",m:"Growth, mortality, recruitment, and size transitions.",s:"Population ecology; fisheries.",t:["population","size-structured"],note:null},
+    {c:"Population systems",n:"Branching process",v:"Galton-Watson; continuous-time branching; multi-type branching; lineage branching process",d:"Represents reproduction and lineage dynamics.",m:"Probabilistic generation of descendants.",s:"Population growth; extinction; lineage processes.",t:["stochastic","branching"],note:"epistemica/computational-science/branching-model.md"},
+
+    {c:"Reaction systems",n:"Chemical reaction network",v:"Deterministic CRN; reversible CRN; enzyme-kinetic network; oscillatory CRN; metabolic network",d:"Represents transformations among chemical species.",m:"Reaction kinetics and stoichiometric transformations.",s:"Chemical and biochemical dynamics.",t:["chemical","reaction"],note:null},
+    {c:"Reaction systems",n:"Stochastic reaction network",v:"Gillespie SSA; tau-leaping; chemical Langevin; next-reaction method; stochastic CRN",d:"Represents discrete molecular reaction events.",m:"Random events governed by reaction propensity functions.",s:"Molecular reaction dynamics.",t:["stochastic","chemical"],note:"epistemica/observational/gillespie-algorithm.md"},
+    {c:"Reaction systems",n:"Rule-based reaction system",v:"BioNetGen; Kappa; graph-rewriting reaction model; rule-based biochemical model",d:"Represents complex biochemical interactions through general transformation rules.",m:"Pattern matching and rule-governed transformations.",s:"Biochemistry; molecular interaction networks.",t:["rule-based","biochemical"],note:null},
+    {c:"Reaction systems",n:"Chemical master equation",v:"Birth-death CME; Michaelis-Menten stochastic CME; multiscale CME; probability-distribution CME",d:"Represents probability distributions over molecular configurations.",m:"Master equation governing probabilistic state transitions.",s:"Stochastic chemical kinetics.",t:["probabilistic","chemical"],note:null},
+    {c:"Reaction systems",n:"Mass-action kinetic system",v:"Law-of-mass-action system; power-law kinetics; Michaelis-Menten kinetics; Hill kinetics",d:"Represents deterministic chemical kinetics.",m:"Mass-action rate equations.",s:"Chemical concentration dynamics.",t:["deterministic","kinetics"],note:null},
+
+    {c:"Transition systems",n:"State-transition system",v:"Transition system; Kripke structure; discrete automaton; behavioral state model",d:"Represents possible states and transitions between them.",m:"A transition relation specifies permitted state changes.",s:"Discrete systems; formal behavioral models.",t:["state-transition","discrete"],note:"epistemica/mathematical/state-transition-matrix.md"},
+    {c:"Transition systems",n:"Finite-state machine",v:"DFA; NFA; Moore machine; Mealy machine",d:"Represents finite discrete-state dynamics.",m:"Input-triggered or condition-triggered transitions.",s:"Protocols; controllers; software behavior.",t:["finite-state","discrete"],note:null},
+    {c:"Transition systems",n:"Labeled transition system",v:"LTS; process transition system; labeled behavioral model; bisimulation-labeled system",d:"Represents states and transitions distinguished by labels.",m:"Labeled transition relations.",s:"Behavioral specification; formal verification.",t:["labeled","transition"],note:null},
+    {c:"Transition systems",n:"Petri net",v:"Place/transition net; timed Petri net; stochastic Petri net; inhibitor Petri net",d:"Represents concurrent processes and resource flows.",m:"Transition firing and token redistribution.",s:"Workflows; concurrency; resource systems.",t:["petri-net","concurrency"],note:"epistemica/observational/stochastic-petri-nets.md"},
+    {c:"Transition systems",n:"Colored Petri net",v:"CPN; hierarchical CPN; timed CPN; typed-token CPN",d:"Represents typed entities and complex discrete processes.",m:"Typed tokens and expression-governed transitions.",s:"Complex workflows; distributed processes.",t:["petri-net","typed"],note:null},
+    {c:"Transition systems",n:"Timed automaton",v:"Timed safety automaton; timed I/O automaton; stopwatch automaton; timed game automaton",d:"Represents discrete-state systems with timing constraints.",m:"Clock evolution, guards, and resets.",s:"Real-time systems; communication protocols.",t:["timed","automaton"],note:null},
+    {c:"Transition systems",n:"Hybrid automaton",v:"Rectangular hybrid automaton; linear hybrid automaton; nonlinear hybrid automaton; switched automaton",d:"Represents continuous evolution within discrete modes.",m:"Continuous flows and guarded transitions.",s:"Hybrid and cyber-physical systems.",t:["hybrid","state-transition"],note:null},
+
+    {c:"Event systems",n:"Discrete-event system",v:"Event-scheduling DES; activity-scanning DES; process-interaction DES; stochastic DES",d:"Represents systems whose states change at discrete events.",m:"Event generation and state-transition rules.",s:"Manufacturing; logistics; communication.",t:["discrete-event","simulation"],note:"epistemica/computational-science/discrete-event-simulation.md"},
+    {c:"Event systems",n:"Discrete Event System Specification (DEVS)",v:"Atomic DEVS; coupled DEVS; parallel DEVS; stochastic DEVS",d:"Represents modular and hierarchical dynamical systems.",m:"Atomic and coupled models with transition and timing functions.",s:"Discrete-event simulation.",t:["DEVS","hierarchical"],note:null},
+    {c:"Event systems",n:"Event graph",v:"Event-scheduling graph; activity-cycle graph; event-relationship graph; simulation event graph",d:"Represents event-driven simulation models.",m:"Event scheduling and event-triggered changes.",s:"Operational processes; simulation.",t:["event-driven","simulation"],note:null},
+    {c:"Event systems",n:"Queueing network",v:"Jackson network; open/closed queueing network; priority queueing network; BCMP network",d:"Represents entities moving through interconnected service facilities.",m:"Arrivals, service, waiting, and routing.",s:"Telecommunications; logistics; service systems.",t:["queueing","flow"],note:"epistemica/mathematical/queueing-system.md"},
+    {c:"Event systems",n:"Synchronous dataflow",v:"SDF; cyclo-static dataflow; homogeneous SDF; scheduled actor dataflow",d:"Represents computation over discrete data streams.",m:"Scheduled actors consume and produce tokens at defined rates.",s:"Signal processing; streaming computation.",t:["dataflow","synchronous"],note:null},
+
+    {c:"Stochastic systems",n:"Stochastic process",v:"Discrete-time process; continuous-time process; Gaussian process; stationary process; Markov process",d:"Represents the evolution of random variables indexed by time or another parameter.",m:"Probability distributions and temporal dependencies.",s:"Random phenomena; uncertain dynamics.",t:["stochastic","probabilistic"],note:"epistemica/observational/stochastic-process.md"},
+    {c:"Stochastic systems",n:"Markov chain",v:"Discrete-time Markov chain; absorbing chain; ergodic chain; periodic chain; random walk",d:"Represents probabilistic discrete-time state transitions.",m:"Transition probability matrix.",s:"Random walks; discrete stochastic processes.",t:["markov","discrete-time"],note:"epistemica/observational/markov-model.md"},
+    {c:"Stochastic systems",n:"Continuous-time Markov chain",v:"Birth-death chain; Poisson process; reliability CTMC; queueing CTMC",d:"Represents random state transitions occurring in continuous time.",m:"Transition rates and exponential waiting times.",s:"Queueing; reliability; chemical kinetics.",t:["markov","continuous-time"],note:"epistemica/observational/ctmc-continuous-time-markov-chain.md"},
+    {c:"Stochastic systems",n:"Markov decision process",v:"Finite MDP; POMDP; semi-MDP; constrained MDP",d:"Represents decision-dependent stochastic dynamics.",m:"Actions, transition probabilities, and rewards.",s:"Sequential decision-making; reinforcement learning.",t:["markov","decision"],note:"epistemica/dynamical-intelligence/markov-decision-processes-mdp.md"},
+    {c:"Stochastic systems",n:"Hidden Markov model",v:"Discrete HMM; Gaussian HMM; factorial HMM; coupled HMM",d:"Represents systems with latent states and observable outputs.",m:"State-transition and observation distributions.",s:"Sequence modeling; signal processing.",t:["hidden-state","probabilistic"],note:"epistemica/observational/hmm-hidden-markov-model.md"},
+    {c:"Stochastic systems",n:"Stochastic differential equation",v:"Ito SDE; Stratonovich SDE; jump-diffusion SDE; Fokker-Planck-related SDE",d:"Represents continuous-state dynamics affected by random processes.",m:"Differential evolution with stochastic forcing.",s:"Stochastic physical and biological systems.",t:["stochastic","continuous"],note:"epistemica/computational-science/stochastic-differential-equation-sde.md"},
+    {c:"Stochastic systems",n:"Langevin system",v:"Overdamped Langevin; underdamped Langevin; generalized Langevin; colored-noise Langevin",d:"Represents dynamics under deterministic and random forces.",m:"Drift and noise terms.",s:"Brownian motion; statistical physics.",t:["noise","stochastic"],note:null},
+    {c:"Stochastic systems",n:"Random dynamical system",v:"Random map; cocycle; random attractor; stochastic flow",d:"Represents evolution driven by random inputs or environments.",m:"Random evolution maps or cocycles.",s:"Random environments; stochastic dynamics.",t:["random","dynamical"],note:null},
+
+    {c:"Continuous systems",n:"Ordinary differential-equation system",v:"Linear ODE; nonlinear ODE; autonomous ODE; forced ODE; stiff ODE",d:"Represents continuous-time evolution of state variables.",m:"Differential equations governing a finite-dimensional state vector.",s:"Classical dynamical systems; physical and biological processes.",t:["ODE","continuous-time"],note:"epistemica/mathematical/differential-equation.md"},
+    {c:"Continuous systems",n:"Difference equation system",v:"Linear recurrence; logistic map; coupled maps; discrete-time dynamical system",d:"Represents discrete-time evolution of quantities or states.",m:"Recurrence relations between successive states.",s:"Iterative processes; discrete-time dynamics.",t:["difference-equation","discrete-time"],note:"epistemica/mathematical/difference-equation.md"},
+    {c:"Continuous systems",n:"Differential-algebraic equation system",v:"Index-1 DAE; multibody DAE; circuit DAE; constrained Hamiltonian DAE",d:"Represents dynamics subject to algebraic constraints.",m:"Differential evolution combined with algebraic relations.",s:"Constrained mechanical and electrical systems.",t:["DAE","constrained"],note:null},
+    {c:"Continuous systems",n:"Delay differential-equation system",v:"Constant-delay DDE; state-dependent DDE; neutral DDE; distributed-delay DDE",d:"Represents dynamics dependent on past states.",m:"Delayed variables in evolution equations.",s:"Delayed feedback; physiological processes.",t:["delay","history-dependent"],note:null},
+    {c:"Continuous systems",n:"Integro-differential system",v:"Volterra integro-differential; Fredholm integro-differential; memory integro-differential; nonlocal integro-differential",d:"Represents dynamics involving both differential and integral relationships.",m:"Differential evolution coupled to integral terms.",s:"Nonlocal and memory-dependent processes.",t:["integral","differential"],note:null},
+    {c:"Continuous systems",n:"Fractional-order dynamical system",v:"Caputo fractional; Riemann-Liouville fractional; fractional ODE; fractional PDE; variable-order fractional",d:"Represents dynamics using noninteger-order derivatives.",m:"Fractional differential operators.",s:"Memory-dependent and anomalous dynamics.",t:["fractional","nonlocal"],note:null},
+    {c:"Continuous systems",n:"Transfer-function system",v:"SISO transfer function; MIMO transfer function; continuous-time; discrete-time; FIR/IIR",d:"Represents linear input-output dynamics.",m:"Transfer functions, poles, zeros, and convolution.",s:"Linear control and signal systems.",t:["transfer-function","linear"],note:null},
+    {c:"Continuous systems",n:"State-space model",v:"Linear state-space; nonlinear state-space; time-invariant; time-varying; descriptor state-space",d:"Represents internal states, inputs, and outputs.",m:"State-transition and output equations.",s:"Control; system identification; simulation.",t:["state-space","input-output"],note:"epistemica/computational-science/state-space-model.md"},
+    {c:"Continuous systems",n:"Functional representation system",v:"Function mapping; operator representation; kernel representation; functional equation",d:"Represents dependencies between quantities through mathematical functions.",m:"Mapping of input values to output values.",s:"Quantitative dependencies; transformations.",t:["functional","mathematical"],note:"epistemica/mathematical/functional.md"},
+    {c:"Continuous systems",n:"Classical algebraic representation system",v:"Polynomial equations; linear equations; nonlinear equations; symbolic constraints",d:"Represents quantitative relationships using variables, expressions, and equations.",m:"Symbolic manipulation and algebraic relations.",s:"Equations of change; quantitative relationships.",t:["algebraic","symbolic"],note:"epistemica/mathematical/classical-algebra.md"},
+    {c:"Continuous systems",n:"Arithmetic representation system",v:"Numerical update; difference accumulation; ratio model; accounting arithmetic",d:"Represents quantitative change through numerical values and operations.",m:"Numerical differences, sums, products, and ratios.",s:"Quantitative change; accumulation.",t:["arithmetic","quantitative"],note:"epistemica/mathematical/arithmetic.md"},
+    {c:"Continuous systems",n:"Hamiltonian system",v:"Integrable Hamiltonian; nonintegrable Hamiltonian; discrete Hamiltonian; stochastic Hamiltonian",d:"Represents conservative dynamics using generalized coordinates and momenta.",m:"Hamilton's equations.",s:"Classical mechanics; conservative systems.",t:["hamiltonian","mechanics"],note:"epistemica/computational-science/hamiltonian-mechanics.md"},
+    {c:"Continuous systems",n:"Lagrangian system",v:"Standard Lagrangian; field Lagrangian; constrained Lagrangian; variational-integrator Lagrangian",d:"Represents dynamics using generalized coordinates and a Lagrangian.",m:"Euler-Lagrange equations.",s:"Classical mechanics; variational dynamics.",t:["lagrangian","mechanics"],note:"epistemica/computational-science/lagrangian-mechanics.md"},
+    {c:"Continuous systems",n:"Port-Hamiltonian system",v:"Finite-dimensional pH; distributed-parameter pH; Dirac-structure pH; control pH",d:"Represents energy exchange and dissipation in interconnected systems.",m:"Energy balance and power-preserving interconnection.",s:"Multiphysics systems; control; electrical and mechanical systems.",t:["energy","interconnection"],note:null},
+
+    {c:"Hybrid systems",n:"Hybrid dynamical system",v:"Switched system; piecewise-smooth system; hybrid automaton; reset system",d:"Represents combined continuous and discrete dynamics.",m:"Continuous flows, switching conditions, and reset maps.",s:"Cyber-physical and engineered systems.",t:["hybrid","multimode"],note:null},
+    {c:"Hybrid systems",n:"Cyber-physical system model",v:"Embedded-control CPS; networked CPS; digital twin; robotic CPS",d:"Represents interactions between computational and physical dynamics.",m:"Feedback between software, control, communication, and physical subsystems.",s:"Robotics; industrial automation; embedded systems.",t:["cyber-physical","feedback"],note:null},
+
+    {c:"Feedback systems",n:"Control-system model",v:"Open-loop control; closed-loop control; PID control; state-feedback control; optimal/robust control",d:"Represents controlled dynamical behavior.",m:"Plant, controller, control laws, and feedback.",s:"Automation; regulation; tracking.",t:["control","feedback"],note:"epistemica/dynamical-intelligence/control-theory.md"},
+    {c:"Feedback systems",n:"Block-diagram system",v:"Signal-flow diagram; Simulink-style block model; transfer-function block model; state-space block model",d:"Represents interconnected functional components and signal paths.",m:"Composition of transfer functions or state equations.",s:"Control engineering; signal processing.",t:["block-diagram","signals"],note:null},
+    {c:"Feedback systems",n:"Bond graph",v:"Word bond graph; pseudo-bond graph; multiport bond graph; thermal/fluid/electrical bond graph",d:"Represents energy exchange among physical components.",m:"Energy ports, constitutive relations, and interconnections.",s:"Multidomain physical systems.",t:["bond-graph","energy"],note:null},
+    {c:"Feedback systems",n:"System dynamics model",v:"Stock-and-flow SD; causal-loop SD; delay SD; aggregated SD",d:"Represents aggregate behavior driven by feedback, accumulation, and delays.",m:"Stock-and-flow equations and feedback relationships.",s:"Organizations; economies; environmental systems.",t:["feedback","stocks-flows"],note:"epistemica/computational-science/system-dynamics.md"},
+
+    {c:"Causal systems",n:"Structural causal dynamical model",v:"Dynamic SCM; temporal SEM; intervention model; counterfactual dynamical model",d:"Represents temporal evolution through causal dependencies.",m:"Structural equations and temporal dependencies.",s:"Causal modeling; intervention analysis.",t:["causal","temporal"],note:"epistemica/observational/structural-equation-modeling.md"},
+    {c:"Causal systems",n:"Causal loop model",v:"Reinforcing-loop model; balancing-loop model; qualitative signed-digraph model",d:"Represents qualitative causal relationships and feedback.",m:"Directed causal links and reinforcing or balancing loops.",s:"Qualitative systems analysis.",t:["causal","feedback"],note:"epistemica/causality.md"},
+    {c:"Causal systems",n:"Stock-and-flow model",v:"Accumulation model; resource-flow model; population stock-flow; economic stock-flow",d:"Represents accumulated quantities and their rates of change.",m:"Flows change stock quantities over time.",s:"Population; resources; economic systems.",t:["stock-flow","accumulation"],note:"epistemica/computational-science/system-dynamics.md"},
+
+    {c:"Information systems",n:"Information-theoretic dynamical model",v:"Entropy-rate model; information-flow model; transfer-entropy model; KL-evolution model",d:"Represents changes in information quantities or probability distributions.",m:"Entropy, information flow, and probabilistic evolution.",s:"Information processing; uncertainty; communication.",t:["information-theory","temporal"],note:"epistemica/observational/shannon-information-theory.md"},
+    {c:"Information systems",n:"Dynamical Bayesian network",v:"Dynamic BN; factorial DBN; switching DBN; temporal naive Bayes",d:"Represents temporal probabilistic dependencies among variables.",m:"Bayesian-network transitions across time slices.",s:"Temporal inference; forecasting; uncertain dynamics.",t:["bayesian","temporal"],note:"epistemica/observational/bayesian-network.md"},
+    {c:"Information systems",n:"Probabilistic graphical model",v:"Bayesian network; Markov random field; factor graph; conditional random field",d:"Represents probabilistic dependencies among variables.",m:"Graphical factorization and probabilistic inference.",s:"Statistical modeling; uncertain systems.",t:["probabilistic","graphical"],note:"epistemica/observational/probabilistic-graphical-model-pgm.md"},
+    {c:"Information systems",n:"Reservoir computing system",v:"Echo state network; liquid state machine; physical reservoir; recurrent readout reservoir",d:"Represents temporal input processing through a recurrent dynamical substrate.",m:"Recurrent state evolution and a trained readout mapping.",s:"Temporal learning; signal processing.",t:["reservoir-computing","recurrent"],note:null},
+
+    {c:"Computational systems",n:"Turing machine",v:"Deterministic TM; nondeterministic TM; multitape TM; universal TM; probabilistic TM",d:"Represents symbolic computation as discrete state evolution.",m:"Symbol reading, writing, and state transitions.",s:"Computability theory; formal computation.",t:["turing-machine","computation"],note:null},
+    {c:"Computational systems",n:"Register machine",v:"Minsky register machine; RAM; counter machine; random-access machine",d:"Represents computation using registers and instructions.",m:"Instruction execution and register updates.",s:"Formal computation; algorithmic processes.",t:["register-machine","computation"],note:null},
+    {c:"Computational systems",n:"Rewriting system",v:"Term rewriting; string rewriting; graph rewriting; multiset rewriting",d:"Represents transformations of symbolic structures.",m:"Rule-based rewriting of terms, strings, or graphs.",s:"Symbolic computation; formal systems.",t:["rewriting","transformation"],note:null},
+    {c:"Computational systems",n:"Lambda calculus",v:"Untyped lambda calculus; typed lambda calculus; call-by-name; call-by-value",d:"Represents computation through symbolic expressions and function application.",m:"Substitution and beta reduction.",s:"Functional computation; formal semantics.",t:["lambda-calculus","symbolic"],note:null},
+    {c:"Computational systems",n:"Logic programming system",v:"Prolog; Datalog; constraint logic programming; answer-set-related logic system",d:"Represents computation through logical relations and inference.",m:"Unification, resolution, and search.",s:"Declarative programming; automated reasoning.",t:["logic-programming","inference"],note:null},
+    {c:"Computational systems",n:"Dataflow system",v:"Static dataflow; dynamic dataflow; synchronous dataflow; actor dataflow; streaming dataflow",d:"Represents computation through dependencies among operations and data.",m:"Operations execute when required input data are available.",s:"Parallel computation; signal processing.",t:["dataflow","computation"],note:null},
+    {c:"Computational systems",n:"Process algebra",v:"CCS; CSP; ACP; pi-calculus",d:"Represents interacting concurrent processes.",m:"Algebraic process composition and transition rules.",s:"Concurrent computation; communicating systems.",t:["process-algebra","concurrency"],note:null},
+
+    {c:"Mathematical representations",n:"Phase-space representation",v:"State space; extended phase space; reduced phase space; discrete state space",d:"Represents possible system states as points in a state space.",m:"State variables define coordinates in a multidimensional space.",s:"Dynamical systems; state analysis.",t:["phase-space","state"],note:"epistemica/computational-science/phase-space.md"},
+    {c:"Mathematical representations",n:"Vector-field representation",v:"Continuous vector field; piecewise vector field; gradient field; divergence-free field",d:"Represents the direction and magnitude of instantaneous change at each point in a domain.",m:"Vectors specify local rates and directions of evolution.",s:"Continuous dynamics; differential equations.",t:["vector-field","continuous"],note:"epistemica/mathematical/ds/vector-field.md"},
+    {c:"Mathematical representations",n:"Dynamical systems phase portrait",v:"2D phase portrait; 3D phase portrait; basin-of-attraction portrait; bifurcation-related portrait",d:"Represents trajectories and equilibria in state space.",m:"Curves and directional information characterize state evolution.",s:"Stability; oscillation; attractors.",t:["phase-portrait","trajectories"],note:"epistemica/mathematical/ds/dynamical-system.md"},
+    {c:"Mathematical representations",n:"Complex dynamical system representation",v:"Julia set; Mandelbrot set; iterated complex map; complex ODE-related representation",d:"Represents iteration of functions over complex numbers.",m:"Repeated application of complex-valued functions.",s:"Complex dynamics; Julia and Mandelbrot sets.",t:["complex-dynamics","iteration"],note:"epistemica/mathematical/ds/mandelbrot-set.md"},
+
+    {c:"Graphical representations",n:"Time-series plot",v:"Line plot; scatter time plot; multi-panel time series; seasonal time-series plot",d:"Represents observed quantities as functions of time.",m:"Temporal observations plotted against a time axis.",s:"Trends; periodicity; fluctuations.",t:["time-series","visualization"],note:"epistemica/observational/time-series.md"},
+    {c:"Graphical representations",n:"Space-time diagram",v:"CA space-time diagram; wave-propagation diagram; spacetime plot; spatiotemporal raster",d:"Represents spatial configurations and their evolution over time.",m:"Spatial position and time are mapped to diagram axes.",s:"Cellular automata; wave propagation; spatial dynamics.",t:["space-time","visualization"],note:"epistemica/mathematical/ds/conway-ca-multiplication.html",kind:"live"},
+    {c:"Graphical representations",n:"State-transition diagram",v:"Statechart; UML state diagram; automaton diagram; workflow state diagram",d:"Represents states and permitted transitions using nodes and directed edges.",m:"Nodes represent states; edges represent transitions.",s:"Discrete systems; protocols; workflows.",t:["state-transition","graphical"],note:null},
+    {c:"Graphical representations",n:"Causal loop diagram",v:"Reinforcing-loop CLD; balancing-loop CLD; signed-digraph CLD; influence diagram",d:"Represents hypothesized causal links and feedback loops visually.",m:"Signed directed links and feedback cycles.",s:"System dynamics; causal analysis.",t:["causal","feedback"],note:null},
+    {c:"Graphical representations",n:"Stock-and-flow diagram",v:"System-dynamics SFD; resource SFD; population SFD; economic SFD",d:"Represents accumulations and the flows that change them.",m:"Stocks, inflows, outflows, and connecting relationships.",s:"Resource systems; populations; economic dynamics.",t:["stock-flow","accumulation"],note:"epistemica/computational-science/system-dynamics.md"},
+    {c:"Graphical representations",n:"Sankey diagram",v:"Energy Sankey; material Sankey; financial Sankey; alluvial diagram",d:"Represents quantities transferred among processes or categories.",m:"Directed links whose widths represent flow magnitudes.",s:"Material, energy, and financial flows.",t:["flow","quantitative"],note:null}
+  ];
+
+  var CATS = [];
+  DATA.forEach(function (e) { if (CATS.indexOf(e.c) < 0) CATS.push(e.c); });
+
+  function hrefOf(e) {
+    if (!e.note) return null;
+    if (e.kind === "live") return "../" + e.note.split("/").pop();
+    return NOTE_REL + "note.html?n=" + e.note;
+  }
+
+  /* ---- procedural theme-aware thumbnails ---- */
+  var CYAN = "var(--accent-cyan)", GOLD = "var(--accent-gold)",
+      SEC = "var(--text-secondary)", MUT = "var(--text-muted)";
+
+  function seedOf(str) {
+    var h = 2166136261;
+    for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return h >>> 0;
+  }
+  function rng(seed) {
+    return function () {
+      seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+      var t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    };
+  }
+
+  function thumb(cat, name) {
+    var r = rng(seedOf(name)), inner = "";
+    var i, j, x, y;
+
+    if (cat === "Cellular systems") {
+      for (y = 0; y < 4; y++) for (x = 0; x < 8; x++) {
+        var on = r() > 0.6;
+        inner += '<rect x="' + (14 + x * 37) + '" y="' + (12 + y * 33) + '" width="30" height="26" rx="3" fill="' +
+          (on ? (r() > 0.75 ? GOLD : CYAN) : "none") + '" fill-opacity="0.45" stroke="' + SEC + '" stroke-opacity="0.22"/>';
+      }
+    } else if (cat === "Lattice systems") {
+      for (y = 0; y < 4; y++) for (x = 0; x < 7; x++) {
+        if (x < 6) inner += '<line x1="' + (20 + x * 47) + '" y1="' + (22 + y * 35) + '" x2="' + (20 + (x + 1) * 47) + '" y2="' + (22 + y * 35) + '" stroke="' + SEC + '" stroke-opacity="0.18"/>';
+        if (y < 3) inner += '<line x1="' + (20 + x * 47) + '" y1="' + (22 + y * 35) + '" x2="' + (20 + x * 47) + '" y2="' + (22 + (y + 1) * 35) + '" stroke="' + SEC + '" stroke-opacity="0.18"/>';
+        inner += '<circle cx="' + (20 + x * 47) + '" cy="' + (22 + y * 35) + '" r="' + (r() > 0.82 ? 4 : 2.4) + '" fill="' + (r() > 0.82 ? GOLD : CYAN) + '" fill-opacity="0.7"/>';
+      }
+    } else if (cat === "Particle systems") {
+      for (i = 0; i < 24; i++) {
+        x = 18 + r() * 284; y = 16 + r() * 118;
+        inner += '<line x1="' + (x - 8) + '" y1="' + (y + 5) + '" x2="' + x + '" y2="' + y + '" stroke="' + CYAN + '" stroke-opacity="0.28"/>';
+        inner += '<circle cx="' + x + '" cy="' + y + '" r="' + (1.4 + r() * 2) + '" fill="' + (r() > 0.8 ? GOLD : CYAN) + '" fill-opacity="0.75"/>';
+      }
+    } else if (cat === "Spatial numerical methods") {
+      for (y = 0; y < 4; y++) for (x = 0; x < 7; x++) {
+        var px = 20 + x * 47, py = 20 + y * 37;
+        if (x < 6) inner += '<line x1="' + px + '" y1="' + py + '" x2="' + (px + 47) + '" y2="' + py + '" stroke="' + SEC + '" stroke-opacity="0.2"/>';
+        if (y < 3) inner += '<line x1="' + px + '" y1="' + py + '" x2="' + px + '" y2="' + (py + 37) + '" stroke="' + SEC + '" stroke-opacity="0.2"/>';
+        if (x < 6 && y < 3) inner += '<line x1="' + px + '" y1="' + py + '" x2="' + (px + 47) + '" y2="' + (py + 37) + '" stroke="' + CYAN + '" stroke-opacity="0.2"/>';
+      }
+    } else if (cat === "Field systems") {
+      for (i = 0; i < 6; i++) {
+        var yy = 22 + i * 21;
+        inner += '<path d="M12 ' + yy + ' C 80 ' + (yy - 14 + i * 3) + ', 170 ' + (yy + 16 - i * 4) + ', 308 ' + (yy - 4) + '" fill="none" stroke="' + (i % 2 ? CYAN : GOLD) + '" stroke-opacity="' + (0.15 + i * 0.07) + '" stroke-width="2"/>';
+      }
+    } else if (cat === "Network systems") {
+      var nx = [], ny = [];
+      for (i = 0; i < 9; i++) { nx.push(28 + r() * 264); ny.push(22 + r() * 106); }
+      for (i = 0; i < 9; i++) for (j = i + 1; j < 9; j++) {
+        if (Math.hypot(nx[i] - nx[j], ny[i] - ny[j]) < 92)
+          inner += '<line x1="' + nx[i] + '" y1="' + ny[i] + '" x2="' + nx[j] + '" y2="' + ny[j] + '" stroke="' + SEC + '" stroke-opacity="0.25"/>';
+      }
+      for (i = 0; i < 9; i++) inner += '<circle cx="' + nx[i] + '" cy="' + ny[i] + '" r="' + (r() > 0.78 ? 4.4 : 3) + '" fill="' + (r() > 0.78 ? GOLD : CYAN) + '" fill-opacity="0.8"/>';
+    } else if (cat === "Agent systems") {
+      for (i = 0; i < 6; i++) {
+        x = 34 + r() * 250; y = 30 + r() * 90; var a = r() * 6.28;
+        inner += '<path d="M' + x + ' ' + (y - 7) + ' l6 12 l-12 0 z" fill="' + (r() > 0.7 ? GOLD : CYAN) + '" fill-opacity="0.75"/>';
+        inner += '<line x1="' + x + '" y1="' + y + '" x2="' + (x + 22 * Math.cos(a)) + '" y2="' + (y + 22 * Math.sin(a)) + '" stroke="' + MUT + '" stroke-opacity="0.4" stroke-dasharray="3 3"/>';
+      }
+    } else if (cat === "Population systems") {
+      for (i = 0; i < 7; i++) {
+        var h = 18 + r() * 96;
+        inner += '<rect x="' + (24 + i * 40) + '" y="' + (134 - h) + '" width="24" height="' + h + '" rx="2" fill="' + (i % 3 === 0 ? GOLD : CYAN) + '" fill-opacity="0.42" stroke="' + SEC + '" stroke-opacity="0.2"/>';
+      }
+    } else if (cat === "Reaction systems") {
+      var gx = [64, 160, 256];
+      for (i = 0; i < 3; i++) for (j = 0; j < 4; j++)
+        inner += '<circle cx="' + (gx[i] + (r() - 0.5) * 34) + '" cy="' + (56 + (r() - 0.5) * 40) + '" r="' + (2 + r() * 2.4) + '" fill="' + (i === 1 ? GOLD : CYAN) + '" fill-opacity="0.75"/>';
+      inner += '<line x1="96" y1="75" x2="130" y2="75" stroke="' + MUT + '" stroke-opacity="0.5"/><path d="M124 71 l7 4 l-7 4z" fill="' + MUT + '" fill-opacity="0.6"/>';
+      inner += '<line x1="192" y1="75" x2="226" y2="75" stroke="' + MUT + '" stroke-opacity="0.5"/><path d="M220 71 l7 4 l-7 4z" fill="' + MUT + '" fill-opacity="0.6"/>';
+    } else if (cat === "Transition systems") {
+      var sx = [46, 130, 214, 286];
+      for (i = 0; i < 4; i++) inner += '<circle cx="' + sx[i] + '" cy="' + (40 + (i % 2) * 66) + '" r="12" fill="none" stroke="' + (i === 3 ? GOLD : CYAN) + '" stroke-opacity="0.7" stroke-width="2"/>';
+      for (i = 0; i < 3; i++)
+        inner += '<path d="M' + (sx[i] + 12) + ' ' + (40 + (i % 2) * 66) + ' Q ' + ((sx[i] + sx[i + 1]) / 2) + ' ' + (16 + (i % 2) * 66) + ' ' + (sx[i + 1] - 12) + ' ' + (40 + ((i + 1) % 2) * 66) + '" fill="none" stroke="' + SEC + '" stroke-opacity="0.5" marker-end="url(#ar)"/>';
+    } else if (cat === "Event systems") {
+      inner += '<line x1="16" y1="96" x2="304" y2="96" stroke="' + SEC + '" stroke-opacity="0.4"/>';
+      for (i = 0; i < 11; i++) {
+        x = 24 + i * 26;
+        inner += '<line x1="' + x + '" y1="90" x2="' + x + '" y2="102" stroke="' + SEC + '" stroke-opacity="0.3"/>';
+        if (r() > 0.55) inner += '<circle cx="' + x + '" cy="96" r="' + (2 + r() * 3) + '" fill="' + (r() > 0.7 ? GOLD : CYAN) + '" fill-opacity="0.8"/>';
+      }
+    } else if (cat === "Stochastic systems") {
+      var p = "M16 75", py = 75;
+      for (i = 1; i <= 14; i++) { py += (r() - 0.5) * 34; py = Math.max(16, Math.min(134, py)); p += " L" + (16 + i * 20.5) + " " + py; }
+      inner += '<path d="' + p + '" fill="none" stroke="' + CYAN + '" stroke-opacity="0.8" stroke-width="2"/>';
+      inner += '<line x1="16" y1="75" x2="304" y2="75" stroke="' + MUT + '" stroke-opacity="0.25" stroke-dasharray="4 4"/>';
+    } else if (cat === "Continuous systems") {
+      inner += '<path d="M16 96 C 70 30, 110 128, 168 74 S 262 26, 304 92" fill="none" stroke="' + CYAN + '" stroke-opacity="0.8" stroke-width="2.2"/>';
+      for (i = 0; i < 8; i++) { x = 30 + i * 36; inner += '<line x1="' + x + '" y1="' + (128) + '" x2="' + (x + 10) + '" y2="' + (120) + '" stroke="' + GOLD + '" stroke-opacity="0.35"/>'; }
+    } else if (cat === "Hybrid systems") {
+      inner += '<path d="M16 100 C 60 100, 70 46, 120 46 L 150 46" fill="none" stroke="' + CYAN + '" stroke-opacity="0.8" stroke-width="2.2"/>';
+      inner += '<line x1="150" y1="46" x2="150" y2="96" stroke="' + GOLD + '" stroke-opacity="0.8" stroke-width="2.2" stroke-dasharray="2 3"/>';
+      inner += '<path d="M150 96 C 210 96, 230 34, 304 34" fill="none" stroke="' + CYAN + '" stroke-opacity="0.8" stroke-width="2.2"/>';
+    } else if (cat === "Feedback systems") {
+      inner += '<rect x="118" y="52" width="84" height="46" rx="6" fill="none" stroke="' + CYAN + '" stroke-opacity="0.7" stroke-width="2"/>';
+      inner += '<path d="M16 75 L112 75" stroke="' + SEC + '" stroke-opacity="0.6"/><path d="M106 70 l8 5 l-8 5z" fill="' + SEC + '" fill-opacity="0.6"/>';
+      inner += '<path d="M202 75 C 288 75, 288 128, 160 128 C 60 128, 16 118, 16 84" fill="none" stroke="' + GOLD + '" stroke-opacity="0.6" stroke-width="2"/>';
+    } else if (cat === "Causal systems") {
+      var cx = [[60, 44], [160, 106], [262, 44]];
+      for (i = 0; i < 3; i++) inner += '<circle cx="' + cx[i][0] + '" cy="' + cx[i][1] + '" r="11" fill="none" stroke="' + (i === 1 ? GOLD : CYAN) + '" stroke-opacity="0.75" stroke-width="2"/>';
+      inner += '<path d="M71 50 Q 116 92 149 102" fill="none" stroke="' + SEC + '" stroke-opacity="0.5"/><path d="M262 50 Q 216 92 180 102" fill="none" stroke="' + SEC + '" stroke-opacity="0.5"/>';
+      inner += '<text x="104" y="98" fill="' + CYAN + '" font-size="14" font-family="serif">+</text><text x="196" y="98" fill="' + GOLD + '" font-size="14" font-family="serif">&minus;</text>';
+    } else if (cat === "Information systems") {
+      for (i = 0; i < 5; i++) {
+        var bh = 20 + r() * 84;
+        inner += '<rect x="' + (34 + i * 50) + '" y="' + (128 - bh) + '" width="30" height="' + bh + '" rx="2" fill="' + (i % 2 ? GOLD : CYAN) + '" fill-opacity="0.4" stroke="' + SEC + '" stroke-opacity="0.2"/>';
+      }
+      for (i = 0; i < 6; i++) inner += '<text x="' + (40 + i * 40) + '" y="22" fill="' + MUT + '" font-size="13" font-family="monospace">' + (r() > 0.5 ? "1" : "0") + '</text>';
+    } else if (cat === "Computational systems") {
+      for (i = 0; i < 8; i++)
+        inner += '<rect x="' + (18 + i * 36) + '" y="58" width="32" height="32" rx="3" fill="none" stroke="' + (i % 3 === 1 ? GOLD : CYAN) + '" stroke-opacity="0.55"/>';
+      for (i = 0; i < 8; i++) if (r() > 0.45) inner += '<text x="' + (30 + i * 36) + '" y="80" fill="' + SEC + '" font-size="15" font-family="monospace">' + "01x"[(i + 1) % 3] + '</text>';
+      inner += '<line x1="16" y1="40" x2="304" y2="40" stroke="' + MUT + '" stroke-opacity="0.3"/>';
+    } else if (cat === "Mathematical representations") {
+      inner += '<line x1="34" y1="18" x2="34" y2="134" stroke="' + MUT + '" stroke-opacity="0.5"/><line x1="20" y1="120" x2="304" y2="120" stroke="' + MUT + '" stroke-opacity="0.5"/>';
+      var pts = "";
+      for (i = 0; i <= 60; i++) { var th = i * 0.28, rad = 4 + i * 1.7; pts += (i ? " L" : "M") + (34 + rad * Math.cos(th)) + " " + (120 - rad * Math.sin(th) * 0.6); }
+      inner += '<path d="' + pts + '" fill="none" stroke="' + CYAN + '" stroke-opacity="0.75" stroke-width="1.8"/>';
+      inner += '<circle cx="34" cy="120" r="3" fill="' + GOLD + '"/>';
+    } else if (cat === "Graphical representations") {
+      inner += '<line x1="34" y1="20" x2="34" y2="128" stroke="' + MUT + '" stroke-opacity="0.5"/><line x1="34" y1="128" x2="300" y2="128" stroke="' + MUT + '" stroke-opacity="0.5"/>';
+      var sp = "M40 " + (110 - r() * 20), sy = 110 - r() * 20;
+      for (i = 1; i <= 8; i++) { sy += (r() - 0.55) * 34; sy = Math.max(30, Math.min(124, sy)); sp += " L" + (40 + i * 32) + " " + sy; }
+      inner += '<path d="' + sp + '" fill="none" stroke="' + CYAN + '" stroke-opacity="0.8" stroke-width="2"/>';
+      inner += '<circle cx="200" cy="' + (60 + r() * 40) + '" r="3.4" fill="' + GOLD + '"/>';
+    }
+
+    var defs = '<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="' + SEC + '" fill-opacity="0.6"/></marker></defs>';
+    return '<svg viewBox="0 0 320 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">' + defs + inner + '</svg>';
+  }
+
+  /* ---- rendering ---- */
+  var facetsEl = document.getElementById("facets");
+  var cardsEl = document.getElementById("cards");
+  var countsEl = document.getElementById("counts");
+  var searchEl = document.getElementById("search");
+  var state = { cat: "all", q: "" };
+
+  function cardHTML(e) {
+    var h = hrefOf(e);
+    var open = h ? '<a class="card" href="' + h + '">' : '<div class="card card-plain">';
+    var close = h ? "</a>" : "</div>";
+    var tags = e.t.map(function (x) { return '<span class="pill">' + x + "</span>"; }).join("");
+    var mark = h ? '<span class="no-note" style="opacity:0.85;color:var(--accent-cyan)">note &#8599;</span>' : '<span class="no-note">no note</span>';
+    return open +
+      '<div class="card-thumb">' + thumb(e.c, e.n) + "</div>" +
+      '<div class="card-body">' +
+        '<div class="card-cat">' + e.c + "</div>" +
+        '<h3 class="card-name">' + e.n + "</h3>" +
+        '<p class="card-desc">' + e.d + "</p>" +
+        '<p class="card-line"><span class="lbl">Variations</span>' + e.v + "</p>" +
+        '<p class="card-line"><span class="lbl">Mechanism</span>' + e.m + "</p>" +
+        '<p class="card-line"><span class="lbl">Scope</span>' + e.s + "</p>" +
+        '<div class="card-tags">' + tags + mark + "</div>" +
+      "</div>" + close;
+  }
+
+  function render() {
+    var q = state.q.toLowerCase();
+    var list = DATA.filter(function (e) {
+      if (state.cat !== "all" && e.c !== state.cat) return false;
+      if (!q) return true;
+      var hay = (e.c + " " + e.n + " " + e.v + " " + e.d + " " + e.m + " " + e.s + " " + e.t.join(" ")).toLowerCase();
+      return hay.indexOf(q) >= 0;
+    });
+    countsEl.textContent = list.length + " of " + DATA.length + " systems";
+    cardsEl.innerHTML = list.length ? list.map(cardHTML).join("") : '<p class="empty">No representational systems match.</p>';
+  }
+
+  function buildFacets() {
+    var html = '<button class="fchip active" data-c="all">All<span class="n">' + DATA.length + "</span></button>";
+    CATS.forEach(function (c) {
+      var n = DATA.filter(function (e) { return e.c === c; }).length;
+      html += '<button class="fchip" data-c="' + c + '">' + c + '<span class="n">' + n + "</span></button>";
+    });
+    facetsEl.innerHTML = html;
+    facetsEl.querySelectorAll(".fchip").forEach(function (b) {
+      b.addEventListener("click", function () {
+        state.cat = b.getAttribute("data-c");
+        facetsEl.querySelectorAll(".fchip").forEach(function (x) { x.classList.remove("active"); });
+        b.classList.add("active");
+        render();
+      });
+    });
+  }
+
+  searchEl.addEventListener("input", function () { state.q = searchEl.value.trim(); render(); });
+
+  buildFacets();
+  render();
+})();
+</script>
+
+<script>
+  // ========================================
+  // Sidebar TOC highlight (mirrors note.html)
+  // ========================================
+  function initTocHighlight() {
+    const items = document.querySelectorAll('#toc .toc-item');
+    if (!items.length || !('IntersectionObserver' in window)) return;
+    const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const idx = sections.indexOf(entry.target);
+        items.forEach(it => it.classList.remove('active'));
+        if (items[idx]) items[idx].classList.add('active');
+      });
+    }, { rootMargin: '-10% 0px -60% 0px' });
+    sections.forEach(s => observer.observe(s));
+  }
+
+  // ========================================
+  // Ambient constellation (mirrors note.html)
+  // ========================================
+  function initAmbient() {
+    const canvas = document.getElementById('ambientCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    let pts = [];
+    const LINK_DIST = 130;
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+      pts = [];
+      for (let i = 0; i < count; i++) {
+        pts.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          vx: (Math.random() - 0.5) * 0.22,
+          vy: (Math.random() - 0.5) * 0.22,
+          r: Math.random() * 1.4 + 0.4
+        });
+      }
+    }
+    function tick() {
+      const light = document.documentElement.dataset.theme === 'light';
+      const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+      const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < pts.length; i++) {
+        const p = pts[i];
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+        ctx.fill();
+        for (let j = i + 1; j < pts.length; j++) {
+          const m = pts[j];
+          const dx = p.x - m.x, dy = p.y - m.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < LINK_DIST) {
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(m.x, m.y);
+            ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+            ctx.lineWidth = 1;
+            ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(tick);
+    }
+    window.addEventListener('resize', resize);
+    resize();
+    requestAnimationFrame(tick);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initTocHighlight();
+    initAmbient();
+  });
+</script>
+
+<script>
+(function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+        label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+        if (fading) return;
+        fading = true;
+        var root = document.documentElement;
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var swap = function () {
+            root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+            try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+            apply();
+            root.classList.remove('theme-fading');
+            fading = false;
+            window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+        };
+        if (reduced) { swap(); return; }
+        root.classList.add('theme-fading');
+        setTimeout(swap, 190);
+    });
+    apply();
+})();
+</script>
+<script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+</body>
+</html>
