@@ -22,6 +22,14 @@
 - …
 
 
+- What is a principle? What is the most fundamental categorizatio of principles? As fundamental truths of reality (ontic), of epistemic practice (epistemic),  or technical practice (tcnical).
+- What are the characteristic  features of humanity?
+ - Goal Formulation
+ - Buildings Tools that Build Tools
+
+- Collective Organization
+
+
 ## Reading Guide
 
 > **This book is about philosophy** in general -  ontology, epistemology, ethics, politics, and philosophical anthropology.
