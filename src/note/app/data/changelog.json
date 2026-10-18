@@ -1144,7 +1144,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Link the Decision Theory field entry and add the Luce-Raiffa archive reference."
+        "summary": "Link the Decision Theory field entry and add the Luce-Raiffa archive reference.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
       }
     ]
   },
@@ -4998,7 +5000,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Add CA book/survey references and fix internal note links."
+        "summary": "Add CA book/survey references and fix internal note links.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
       }
     ]
   },
@@ -5707,7 +5711,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Link the Decision Theory field entry and fix the Trade-Off link."
+        "summary": "Link the Decision Theory field entry and fix the Trade-Off link.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
       }
     ]
   },
@@ -5717,7 +5723,8 @@
       {
         "date": "2026-10-18",
         "kind": "feat",
-        "summary": "Add the Decision Theory field entry: schema, aspect decomposition, entry map, and references."
+        "summary": "Add the Decision Theory field entry: schema, aspect decomposition, entry map, and references.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   },
@@ -5931,7 +5938,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Link Shannon information theory and the information-theory atlas from the relation section."
+        "summary": "Link Shannon information theory and the information-theory atlas from the relation section.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
       }
     ]
   },
@@ -6497,7 +6506,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Remove the leftover Notion reference line."
+        "summary": "Remove the leftover Notion reference line.",
+        "commit": "878887d38bc4e8c76469d6caf700959f4fad1b4a",
+        "before": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   },
@@ -6518,7 +6529,8 @@
       {
         "date": "2026-10-18",
         "kind": "feat",
-        "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition."
+        "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   },
@@ -7221,7 +7233,8 @@
       {
         "date": "2026-10-18",
         "kind": "feat",
-        "summary": "Fill the Possibility note with the epistemic schema and the aspect-based Aggregate decomposition."
+        "summary": "Fill the Possibility note with the epistemic schema and the aspect-based Aggregate decomposition.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   },
@@ -7578,7 +7591,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Link the Shannon information content note and the information-theory atlas."
+        "summary": "Link the Shannon information content note and the information-theory atlas.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
       }
     ]
   },
@@ -7825,7 +7840,9 @@
       {
         "date": "2026-10-18",
         "kind": "chore",
-        "summary": "Delete the stale topic-2 note."
+        "summary": "Delete the stale topic-2 note.",
+        "commit": "878887d38bc4e8c76469d6caf700959f4fad1b4a",
+        "before": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   },
@@ -7841,7 +7858,9 @@
       {
         "date": "2026-10-18",
         "kind": "chore",
-        "summary": "Delete the stale topic note."
+        "summary": "Delete the stale topic note.",
+        "commit": "878887d38bc4e8c76469d6caf700959f4fad1b4a",
+        "before": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   },
@@ -7890,7 +7909,9 @@
       {
         "date": "2026-10-18",
         "kind": "chore",
-        "summary": "Delete the stale variability note."
+        "summary": "Delete the stale variability note.",
+        "commit": "878887d38bc4e8c76469d6caf700959f4fad1b4a",
+        "before": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   },
@@ -8303,7 +8324,9 @@
       {
         "date": "2026-10-18",
         "kind": "chore",
-        "summary": "Delete the financial-sector note."
+        "summary": "Delete the financial-sector note.",
+        "commit": "878887d38bc4e8c76469d6caf700959f4fad1b4a",
+        "before": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
       }
     ]
   }
