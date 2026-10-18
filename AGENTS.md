@@ -186,12 +186,18 @@ instance-decomposition table:
   element, read
   `https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`
   first — it owns the mandatory schema (`#` title, intro quote,
-  `## Formulation` with the three questions *including* the recursive
-  instance decomposition, `## References`) and the decomposition table
-  contract (4 columns; Instance Tree Path holds instances only, never
-  element types; child descriptions state role-in-parent).
-  `general/financial-sector.md` is the worked exemplar (138-row
-  Entity-typed table generated from the explorer's `TAXO` snapshot).
+  `## Formulation` with the five questions — what is this epistemic
+  instance, what epistemic element type does it belong to, is the type of
+  this `epistemic element instance` unambiguous, what is the recursive
+  instance decomposition, what is a critical conceptual evaluation of
+  this `epistemic element instance` — and `## References`) and the
+  decomposition table contract: a single `Instance Tree Path | Description`
+  table; paths use `→`; type grouping segments are backticked and
+  instances are Title Case; the root type is declared once and no type
+  terminates a branch; composites take a `Set` suffix past depth 2;
+  declare the Epistemic Order or Ontic Order in the formulation. The
+  guide's Arithmetic case study is the worked table reference — not the
+  old 4-column entity-taxonomy form.
 - The guide is canonical at the Naturgnosis raw URL above; the former local
   copies (`src/note/bin/epistemicarum-guide.md` and
   `src/note/bin/epistemicarum-guideline/`) were removed when the guide was
