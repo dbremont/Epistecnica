@@ -1,6 +1,6 @@
-# Live-note chrome — standardized container for `data/live/`
+# Live-note chrome — standardized container for corpus HTML
 
-Live notes (`src/note/app/data/live/**.html`) are self-contained pages, but
+Live notes (`src/note/app/data/**/*.html`) are self-contained pages, but
 they share the Epistecnica container so they read as part of the site. This
 document holds the canonical copy-paste blocks (there is no shared runtime
 file by design — each live note stays self-contained). When the chrome
@@ -11,10 +11,16 @@ and `spec/` (dark default + light via `epistecnica-theme`).
 
 ## Path prefixes
 
-| Page location            | `ROOT` (site root)  | `NOTE` (catalog dir) |
-|--------------------------|---------------------|----------------------|
-| `data/live/*.html`      | `../../../`         | `../../`             |
-| `data/live/*/*.html`    | `../../../../`      | `../../../`          |
+Live notes sit beside their companion markdown note, so their depth varies.
+`ROOT` is the site root and `NOTE` the catalog dir; both grow by one `../`
+for each directory level below `data/`.
+
+| Page location                     | `ROOT` (site root)   | `NOTE` (catalog dir) |
+|-----------------------------------|----------------------|----------------------|
+| `data/<dir>/*.html`              | `../../../`          | `../../`             |
+| `data/<dir>/<sub>/*.html`        | `../../../../`       | `../../../`          |
+| `data/<dir>/<sub>/<sub2>/*.html` | `../../../../../`    | `../../../../`       |
+| each further level               | add one `../`        | add one `../`        |
 
 ## 1. `<head>` — theme init + fonts (before the page's `<style>`)
 
@@ -248,7 +254,7 @@ Listen for `epistecnica-theme` (section 5) and redraw when practical.
 Live notes render inside the same frame as the markdown viewer — ambient
 constellation background, 1280px layout, crumbs + title + meta chips, card,
 and sticky `Contents` sidebar. No grid/gradient background divs, no second
-footer. Exemplar: `src/note/app/data/live/burstiness-index.html`.
+footer. Exemplar: `src/note/app/data/epistemica/observational/burstiness-index.html`.
 
 ```html
 <body>
@@ -256,7 +262,7 @@ footer. Exemplar: `src/note/app/data/live/burstiness-index.html`.
   <nav class="site-nav"><!-- §3 --></nav>
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="NOTEindex.html">notes</a><span class="sep">/</span><span>live</span><span class="sep">/</span><span class="here">SLUG</span></div>
+      <div class="crumbs"><a href="NOTEindex.html">notes</a><span class="sep">/</span><a href="NOTEindex.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="NOTEindex.html?dir=epistemica/observational">observational</a><span class="sep">/</span><span class="here">SLUG</span></div>
       <h1 class="note-title">Title (== <title> + catalog entry)</h1>
       <div class="note-meta">
         <span class="chip">live note</span>
@@ -278,6 +284,11 @@ footer. Exemplar: `src/note/app/data/live/burstiness-index.html`.
   <footer class="site-footer"><!-- §4 --></footer>
 ```
 
+The crumb lists every directory level from `notes` down to the note's own
+folder, each as a `NOTEindex.html?dir=<path>` link (e.g. the exemplar reads
+`notes / epistemica / observational / burstiness-index`), ending in the
+non-clickable `<span class="here">SLUG</span>`.
+
 CSS needed on top of §2: `#ambientCanvas`, `.layout`, `.cols`,
 `.note-main`, `.crumbs`, `h1.note-title`, `.note-meta`, `.chip`,
 `.note-card`, `.sidebar`, `.toc-item`, and the `.markdown-body`
@@ -297,11 +308,12 @@ external Naturgnosis medium (absolute URL):
 <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
 ```
 
-## 8. Conversion record (all 12 live notes unified, Sept 2026)
+## 8. Conversion record (live notes unified, Sept 2026)
 
-Exemplar: `data/live/burstiness-index.html` (converted first). The other
-11 were converted in one pass with the same recipe; `<title>`/h1 text and
-all copy, formulas, tables, and JS ids preserved verbatim throughout.
+Exemplar: `data/epistemica/observational/burstiness-index.html` (converted
+first). The other live notes were converted in one pass with the same recipe;
+`<title>`/h1 text and all copy, formulas, tables, and JS ids preserved
+verbatim throughout. The financial-sector explorer was later removed.
 
 Rules applied beyond §7:
 
@@ -338,7 +350,7 @@ Rules applied beyond §7:
 
 Runtime libraries live in `src/note/app/vendor/`, version-pinned, referenced
 from live notes with a relative path (e.g. `../../vendor/alpine.min.js` from
-`data/live/*.html`). To add one: download the exact version, record its
+`data/general/*.html`). To add one: download the exact version, record its
 size and sha256 in the commit message, reference it relatively, and list it
 here.
 

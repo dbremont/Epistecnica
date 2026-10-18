@@ -1,1 +1,7382 @@
-[]
+[
+  {
+    "file_path": "epistemica/causality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Causality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/causal-discovery.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Causal Discovery from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/correlational-study.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Correlational Study from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/do-calculus.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Do-Calculus from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/factor-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Factor Analysis from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/pc-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import PC Algorithm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/randomized-controlled-trial-rct.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Randomized Controlled Trial (RCT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/untitled.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Untitled from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity-science.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Complexity Science from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity-science/collective-dynamics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Collective Dynamics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity-science/complex-adaptative-systems-cas.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Complex Adaptative Systems (CAS) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity-science/coordination.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Coordination from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity-science/extreme-event.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Extreme Event from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity-science/topics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Science from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/ab-initio-molecular-dynamics-aimd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ab initio Molecular Dynamics (AIMD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/agent.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Agent from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/boolean-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boolean Network from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/boundary-element-method-bem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boundary Element Method (BEM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/branching-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Branching Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/chemical-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chemical Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/classical-field-theory-cft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classical Field Theory (CFT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/climate-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Climate Modelling from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/cluster-expansion-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cluster Expansion Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/computational-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Chemistry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/computational-fluid-dynamics-cfd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Fluid Dynamics (CFD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/computational-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Geometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/configuration-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Configuration Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/conformal-field-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conformal Field Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/continuum-mechanic-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Continuum Mechanic Framework from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/density-functional-theory-dft-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Density Functional Theory (DFT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/density-functional-theory-dft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Density Functional Theory (DFT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/discrete-element-method-dem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discrete Element Method (DEM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/discrete-event-simulation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discrete-Event Simulation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/durandkerner-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Durand–Kerner Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/electromagnetic-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Electromagnetic Framework from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/electromagnetism.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Electromagnetism from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/euler-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Euler Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/fast-fourier-transform-fft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fast Fourier Transform (FFT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/fick-s-laws-of-diffusion.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fick's Laws of Diffusion from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/finite-difference-method-fdm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Finite Difference Method (FDM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/finite-difference-time-domain-fdtd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Finite-difference time-domain (FDTD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/finite-element-method-fem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Finite Element Method (FEM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/fourier-decomposition-toolkit.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fourier Decomposition Toolkit from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/fourier-transform.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fourier Transform from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/functional-decomposition.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Functional Decomposition from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/galerkin-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Galerkin Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/gauge-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gauge Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/general-equilibrium-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import General Equilibrium Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/genetic-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Genetic Modelling from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/geometric-quantization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Geometric Quantization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/graph-processing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Graph Processing from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/hamiltonian-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hamiltonian Mechanics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/input-output-modeling-iom.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Input-Output Modeling (IOM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/kinetic-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kinetic Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/lagrangian-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lagrangian Mechanics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/lattice-boltzmann-method-lbm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lattice Boltzmann Method (LBM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/lattice-boltzmann-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lattice Boltzmann Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/load-optimization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Load Optimization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/lotka-volterra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lotka-Volterra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/material-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Material Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/maxwell-s-fundamental-electromagnetic-formulation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Maxwell's Fundamental Electromagnetic Formulation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/measurement-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Measurement Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/molecular-dynamics-md.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Molecular Dynamics (MD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/molecular-orbital-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Molecular Orbital Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/mori-zwanzig-formalism.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mori-Zwanzig Formalism from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/multibody-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multibody System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/navierstokes-equations.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Navier–Stokes Equations from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/network-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Network Effect from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/network-flow.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Network Flow from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/network-science.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Network Science from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/newton-raphson-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Newton-Raphson Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/newtonian-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Newtonian Mechanics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/numerical-relativity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Numerical Relativity from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/osteology.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Osteology from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/path-integral.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Path Integral from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/phase-field-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Phase Field Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/phase-field-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Phase-field Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/phase-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Phase Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/physical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Physical System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/quantum-electrodynamics-qed.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Electrodynamics (QED) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/quantum-field-theory-qft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Field Theory (QFT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/quantum-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Framework from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/quantum-molecular-dynamics-qmd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Molecular Dynamics (QMD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/real-space-renormalization-group-rsrg.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Real-Space Renormalization Group (RSRG) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/reference-frame.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Reference Frame from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/relativistic-quantum-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Relativistic Quantum Framework from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/rigid-body-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Rigid Body Mechanics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/runge-kutta-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Runge-Kutta Toolbox from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/smoothing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Smoothing from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/space-filling-curves.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Space-Filling Curves from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/spectral-method-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Spectral Method Toolbox from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/state-estimation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import State Estimation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/state-space-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import State-Space Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/stochastic-differential-equation-sde.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stochastic Differential Equation  (SDE) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/string-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import String Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/structural-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Structural Analysis from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/system-dynamics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import System Dynamics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/system-identification.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import System Identification from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/tessellation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Tessellation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/topological-quantum-field-theory-tqft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Topological Quantum Field Theory (TQFT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/computational-science/visualizing-integrals.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Visualizing Integrals from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/decision-making.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decision Making from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dynamical Intelligence from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/active-inference.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Active Inference from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/control-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Control Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/cybernetics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cybernetics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/free-energy-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Free Energy Principle from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/markov-decision-processes-mdp.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Markov Decision Processes (MDP) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/model-predictive-control-mpc.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Model Predictive Control (MPC) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/optimal-control-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Optimal Control Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/reinforcement-learning-rl.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Reinforcement Learning (RL) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/dynamical-intelligence/viable-system-model-vsm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Viable System Model (VSM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/exploratory-data-analysis-eda.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exploratory Data Analysis (EDA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/formal-concept-analysis-fca.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Formal Concept Analysis (FCA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mathematical from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/abelian-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Abelian Group from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/absolute-value.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Absolute Value from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/abstract-reference-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Abstract Reference System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/activation-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Activation Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/adjoin-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Adjoin Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/adjoint-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Adjoint Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/affine-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Affine Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/algebra-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import σ-algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/algebraic-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algebraic Geometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/algebraic-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algebraic Set from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/algebraic-topology.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algebraic Topology from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/algebraic-variety.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algebraic Variety from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/am-gm-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import AM-GM Inequality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/analytic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Analytic Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/angle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Angle from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/arithmetic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Arithmetic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/associative-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Associative Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/asymmetric-norm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Asymmetric Norm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/asymptotic-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Asymptotic Analysis from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/attractor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Attractor from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/banach-fixed-point-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Banach Fixed-Point Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/banach-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Banach Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/bell-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bell Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/bessel-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bessel Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/beta-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Beta Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/bifurcation-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bifurcation Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/bijective-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bijective Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/binomial-coefficient.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Binomial Coefficient from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/boolean-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boolean Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/brouwer-fixed-point-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Brouwer Fixed-Point Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/canonical-form.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Canonical Form from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cardinality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cardinality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/catalan-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Catalan Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cauchy-schwarz-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cauchy-Schwarz Inequality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cauchy-sequence.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cauchy Sequence from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cayley-hamilton-theorem-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cayley-Hamilton Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cayley-hamilton-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cayley-Hamilton Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/chebyshev-s-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chebyshev's Inequality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/classical-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classical Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/clifford-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Clifford Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cohomology.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cohomology from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/combination.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Combination from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/combinatorics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Combinatorics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/commutative.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Commutative from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/compact-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Compact Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Complex Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex-numbers-c.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Complex Numbers (ℂ) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/composition-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Composition Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/configuration.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Configuration from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/conformal-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conformal map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/conjugate.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conjugate from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/continuity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Continuity from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/contour-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Contour Map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/contraction-mapping.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Contraction Mapping from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/convergent.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Convergent from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/convex-hull.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Convex Hull from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/convexity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Convexity from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/convolution-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Convolution Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/coordinate-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Coordinate System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/correlation-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Correlation Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/coset.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Coset from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/covariance-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Covariance Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/curl-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Curl Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/de-moivres-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import De Moivre’s Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/de-sitter-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import De Sitter Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/decomposition.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decomposition from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/density-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Density Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/derivative-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Derivative Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/design-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Design Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/diagonal-argument.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diagonal Argument from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/diagonal.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diagonal from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/difference-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Difference Equation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/differential-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Differential Equation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/differential-form.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Differential Form from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/differential-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Differential Geometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/differential-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Differential Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dimensional-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dimensional Analysis from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/diophantine-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diophantine Equation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dirac-delta-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dirac Delta Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/discrete-structure.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discrete Structure from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/discretization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discretization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/divergence-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Divergence Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/divergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Divergence Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/division.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Division from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dual-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dual Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dual-vector-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dual Vector Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dynamical System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/eigenvector.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Eigenvector from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/enumeration-counting.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Enumeration (Counting) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Equation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/equivalence-relation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Equivalence Relation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/euclidean-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Euclidean  Geometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/euclidean-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Euclidean Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/euclids-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Euclid’s Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/eulermascheroni-constant.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Euler–Mascheroni Constant from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/exponentiation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exponentiation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/expression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/factorial.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Factorial from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/factorization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Factorization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/feynman-diagram.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Feynman Diagram from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/field-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Field Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/field.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Field from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/fixed-point.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fixed Point from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/flow.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Flow from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/foliation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Foliation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/fubinis-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fubini’s Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/function-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Function Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/functional.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Functional from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/fundamental-theorem-of-calculus-ftc.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fundamental Theorem of Calculus (FTC) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/fundamental-theory-of-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fundamental Theory of Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/gamma-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gamma Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/generalized-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generalized Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Geometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/gibbs-free-energy.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gibbs Free Energy from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/godel-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gödel Machine from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/gradient-descent-convergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gradient Descent Convergence Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/gradient-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gradient Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/gradient-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gradient Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/gram-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gram Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/graph-dynamical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Graph Dynamical System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/graph.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Graph from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/green-s-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Green's Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/green-s-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Green's Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/greens-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Green’s Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/group-action.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Group Action from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/group-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Group Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Group from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hahn-banach-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hahn-Banach Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hardy-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hardy Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/harmonic-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Harmonic Analysis from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hausdorff-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hausdorff Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/heaviside-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Heaviside Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/heine-borel-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Heine-Borel Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/henon-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Henon Map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hermitian-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hermitian Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hessian-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hessian Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hilbert-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hilbert Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/holomorphic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Holomorphic Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/homogeneous-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Homogeneous Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/homology.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Homology from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/homotopy.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Homotopy from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hypergraph.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hypergraph from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hyperplane.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hyperplane from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/hyperreal-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hyperreal Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/identity-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Identity Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/identity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Identity from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/inclusion-exclusion-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inclusion-Exclusion Principle from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/indo-arabic-numeral.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Indo-Arabic Numeral from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inequality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/infinite-dimensional-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Infinite-dimensional Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/inner-product-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inner Product Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/inner-product.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inner Product from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/integral-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Integral Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/integral-transform.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Integral Transform from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/intermediate-value-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Intermediate Value Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/invariant.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Invariant from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/inverse-function-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inverse Function Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/inverse-problem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inverse Problem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ising-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ising Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/iterative-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Iterative Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/jacobian-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Jacobian Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/jensen-s-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Jensen's Inequality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/joint-probability-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Joint Probability Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/jordan-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Jordan Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/knot.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Knot from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/l-hopital-s-rule.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import L'Hôpital's rule from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/laplacian-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Laplacian Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lattice.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lattice from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lebesgue-integral.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lebesgue Integral from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lebesgues-dominated-convergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lebesgue’s Dominated Convergence Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/level-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Level Set from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lie-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lie Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lie-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lie Group from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/limit.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Limit from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/linear-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear  Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/linear-combination.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Combination from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/linear-functional.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Functional from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/linear-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/linear-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/linear-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/linearization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linearization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/logarithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Logarithm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/logistic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Logistic Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/logistic-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Logistic Map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lorenz-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lorenz system from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lu-decomposition.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import LU Decomposition from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/lyapunov-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lyapunov Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mandelbrot-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mandelbrot Set from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/manifold.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Manifold from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mathematical-embedding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mathematical Embedding from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mathematical-object.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mathematical Object from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mathematical-structure.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mathematical Structure from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/matrix-factorization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Matrix Factorization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/matroid.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Matroid from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/maya-number-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Maya Number System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mean-value-theorem-mvt.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mean Value Theorem (MVT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/measure.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Measure from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/metric-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Metric Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/minkowski-functional.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Minkowski Functional from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/minkowski-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Minkowski Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/modular-form.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Modular Form from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/moment-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Moment Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/monoid.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Monoid from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/multilinear-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multilinear Map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/multiplication.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multiplication from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/multiset.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multiset from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/nabla-laplace-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import $\\nabla$ Laplace Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/nabla-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Nabla Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Network from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/noethers-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Noether’s Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/non-linear-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Non-linear Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/norm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Norm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/normalization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Normalization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/normed-vector-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Normed Vector Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/numeric-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Numeric System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/observed-information-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Observed Information Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/octonions.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Octonions from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/operator-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Operator Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/order-of-magnitude.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Order of Magnitude from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/order.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Order from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ortho-normalizing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ortho-Normalizing from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/orthogonal-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Orthogonal Group from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/p-adic-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import p-adic Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/parameter-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Parameter Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/partial-derivative-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Partial Derivative Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/percentage.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Percentage from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/perceptron-convergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Perceptron Convergence Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/periodic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Periodic Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/perturbation-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Perturbation Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/piecewise-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Piecewise Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/pigeonhole-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Pigeonhole Principle from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/planarity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Planarity from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/plane.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Plane from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/poincare-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poincaré map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/polygon.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Polygon from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/polynomial-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Polynomial System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/polynomial.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Polynomial from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/positive-definite-kernel.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Positive-definite Kernel from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/positive-definite-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Positive Definite Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/precision-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Precision Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/projection-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Projection Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/projective-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Projective Geometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/projective-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Projective Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/promise-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Promise Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/pseudometric-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Pseudometric Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/pythagorean-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Pythagorean Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/quantitative-property.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantitative Property from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/quantization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/quaternions.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quaternions from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/queueing-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Queueing System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/random-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ranking.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ranking from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/recurrence-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Recurrence Equation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/relation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Relation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/representation-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Representation Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/representation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Representation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/reproducing-kernel-hilbert-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Reproducing Kernel Hilbert Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ricci-flow.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ricci Flow from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ricci-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ricci Tensor from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ridge-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ridge Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/rieszfrechet-representation-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Riesz–Fréchet Representation Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/roman-numeric-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Roman Numeric System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/rossler-attractor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Rössler Attractor from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/rounding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Rounding from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/scalar-field.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Scalar Field from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/scatter-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Scatter Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/schurs-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Schur’s Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/self-adjoint-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Self-adjoint Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/seminorm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Seminorm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/sequence.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sequence from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/serie.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Serie from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Set from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/sheaf.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sheaf from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/shift-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Shift Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/sierpinski-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sierpiński Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/signal.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Signal from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/singular-value-decomposition-svd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Singular Value Decomposition (SVD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/smoothness.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Smoothness from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/sobolev-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sobolev Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/span.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Span from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/special-linear-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Special Linear Group from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/spectrum.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Spectrum from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/stability-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stability Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/state-transition-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import State-Transition Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/stirling-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stirling Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/stokes-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stokes’ Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/sublinear-functional.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sublinear Functional from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/subshift-of-finite-type.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Subshift of Finite Type from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/subshift.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Subshift from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/symmetric-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symmetric Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/symmetry-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symmetry Group from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/symmetry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symmetry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/taylors-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Taylor’s Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Tensor from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/the-weierstrass-approximation-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import The Weierstrass Approximation Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/topic-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/topological-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Topological Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/topological-vector-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Topological Vector Space from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/topology.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Topology from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/transition-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Transition Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/transportation-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Transportation System from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tree.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Tree from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/triangle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Triangle from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/trigonometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Trigonometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tuple.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Tuple from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ultrafilter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ultrafilter from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ultrahyperbolic-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ultrahyperbolic Equation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/universal-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Universal Algebra from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/universal-approximation-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Universal Approximation Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/universal-induction.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Universal Induction from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/variational-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variational Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/vector-field.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Vector Field from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/vector.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Vector from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/vitali-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Vitali Set from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/wavelet.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Wavelet from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/zero-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Zero Set from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/modelado.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Modelado from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Natural Computing from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/cellular-automata.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cellular Automata from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/evolutionary-computation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Evolutionary Computation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/flux-balance-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Flux Balance Analysis from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/genetic-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Genetic Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/grey-wolf-optimizer.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Grey Wolf Optimizer from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/island-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Island Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/memetic-algorithms.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Memetic Algorithms from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/molecular-dynamics-md.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Molecular Dynamics (MD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/multi-objective-evolutionary-algorithms-moea.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multi-objective Evolutionary Algorithms (MOEA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/neuroevolution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Neuroevolution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/neurosymbolic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Neurosymbolic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/particle-swarm-optimization-pso.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Particle Swarm Optimization (PSO) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/self-organized-criticality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Self-Organized Criticality from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/swarm-intelligence-collective-intelligence.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Swarm Intelligence (Collective Intelligence) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/natural-computing/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Observational from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/aixi.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import AIXI from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/algorithmic-information-theory-ait.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algorithmic Information Theory (AIT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/anova-analysis-of-variance.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import ANOVA (Analysis of Variance) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/approximate-bayesian-computation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Approximate Bayesian Computation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/attention.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Attention from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/autoencoder.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoencoder from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/automatic-differentiation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Automatic Differentiation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/autoregressive-conditional-heteroscedasticity-arch-models.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive Conditional Heteroscedasticity (ARCH) Models from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/autoregressive-integrated-moving-average-arima-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive Integrated Moving Average (ARIMA) Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/autoregressive-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/autoregressivemoving-average-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive–Moving-Average Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/bag-of-words-bow.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bag of Words (BoW) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/bayes-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bayes Estimator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/bayes-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bayes’ Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/bayesian-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bayesian Network from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/bayesian-structural-time-series.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bayesian Structural Time Series from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/bernoulli-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bernoulli Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/beta-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Beta Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/betting.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Betting from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/binomial-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Binomial Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/boltzmann-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boltzmann Machine from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/bootstrapping.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bootstrapping from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/brownian-motion.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Brownian Motion from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/burstiness-index.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Burstiness Index from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/cauchy-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cauchy Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/central-limit-theorem-clt.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Central Limit Theorem (CLT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/chain-of-thought-cot.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chain-of-thought (CoT) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/characteristic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Characteristic Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/chi-squared-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chi-Squared Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/chi-squared-test.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chi-Squared Test from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/classification.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classification from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/clustering-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Clustering Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/coding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Coding from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/comparison.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Comparison from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computation-graph.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computation Graph from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Learning from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/conditional-random-fields-crfs.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conditional Random Fields (CRFs) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/confidence-interval.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Confidence Interval from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/conformal-prediction-inference.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conformal Prediction (Inference) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/convolutional-neural-network-cnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Convolutional Neural Network (CNN) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/correlation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Correlation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/covariance.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Covariance from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/cox-regression-proportional-hazards-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cox Regression (Proportional Hazards Model) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/cramerrao-lower-bound-crlb.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cramér–Rao Lower Bound (CRLB) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/ctmc-continuous-time-markov-chain.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (CTMC) Continuous-time Markov Chain from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/data-envelopment-analysis-dea.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Data Envelopment Analysis (DEA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/data.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Data from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/de-finetti-interpretation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import de Finetti Interpretation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/decision-problem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decision Problem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/decision-tree.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decision Tree from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/deep-belief-networks-dbn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Deep Belief Networks (DBN) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/diffusion-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diffusion Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/diffusion-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diffusion Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/dimensionality-reduction.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dimensionality Reduction from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/dirichlet-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dirichlet Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/dirichlet-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dirichlet Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/discriminative-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discriminative Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/document-term-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Document-Term Matrix from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/dutch-book.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dutch Book from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/e-values.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import E-values from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/econometrics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Econometrics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/elastic-net-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Elastic Net Regression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/embedding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Embedding from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/energy-based-model-ebm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Energy-Based Model (EBM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/ensemble-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ensemble Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/entropy.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Entropy from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/error-correcting-code-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Error-Correcting Code from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/error-correcting-code.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Error Correcting Code from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/expectation-maximization-em-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expectation-Maximization (EM) Algorithm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/expectation-propagation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expectation Propagation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/expectationmaximization-em-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expectation–Maximization (EM) Algorithm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/expected-value.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expected Value from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/exponential-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exponential Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/exponential-random-graph-model-ergm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exponential Random Graph Model (ERGM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/exponential-smoothing-ets.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exponential Smoothing (ETS) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/f-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import F-Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/factor-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Factor Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/feedforward-neural-network-fnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Feedforward Neural Network (FNN) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Filter from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/filtration.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Filtration from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/fisher-information.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fisher Information from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/flow-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Flow Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/fokker-planck-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fokker-Planck Equation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/free-probability-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Free Probability Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/galtonwatson-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Galton–Watson Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/gamma-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gamma Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian-Bernoulli Restricted Boltzmann Machines (GRBM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/gaussian-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/gaussian-process-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/gaussian-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/generalized-additive-models-gam.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generalized Additive Models (GAM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/generalized-linear-models-glm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generalized Linear Models (GLM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/generative-adversarial-network-gan.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generative Adversarial Network (GAN) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/generative-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generative Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/geometric-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Geometric Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/gillespie-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gillespie Algorithm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/glivenkocantelli-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Glivenko–Cantelli Theorem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/graph-neural-networks-gnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Graph Neural Networks (GNN) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/gumbel-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gumbel Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/hawkes-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hawkes Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/helmholtz-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Helmholtz Machine from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/hidden-variable.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hidden Variable from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/hierarchical-linear-models.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hierarchical Linear Models from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/hierarchical-temporal-memory-htm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hierarchical Temporal Memory (HTM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/high-dimensional-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import High Dimensional Probability from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/hmm-hidden-markov-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (HMM) Hidden Markov Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/homoscedasticity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Homoscedasticity from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/hopfield-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hopfield Network from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/huffman-coding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Huffman Coding from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/hypothesis-testing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hypothesis Testing from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/imprecise-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Imprecise Probability from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/independence.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Independence from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/indicator-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Indicator Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/indirect-inference.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Indirect Inference from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/inductive-bias.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inductive Bias from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Information Geometry from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Information from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/input-representation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Input Representation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/ito-calculus.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ito Calculus from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/jamesstein-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import James–Stein Estimator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/kalman-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kalman Filter from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/kanerva-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kanerva Machine from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/kelly-criterion.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kelly Criterion from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/kernel-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kernel Method from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/kullbackleibler-divergence.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kullback–Leibler Divergence from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/laplace-s-approximation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Laplace's Approximation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/laplaces-rule-of-succession.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Laplace’s Rule of Succession from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/latent-dirichlet-allocation-lda.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Latent Dirichlet Allocation (LDA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/latent-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Latent Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/latent-semantic-analysis-lsa.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Latent Semantic Analysis (LSA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/law-of-large-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Law of Large Number from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/law-of-the-iterated-logarithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Law of the Iterated Logarithm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/law-of-total-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Law of Total Probability from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/levy-proces.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lévy Proces from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/linear-discriminant-analysis-lda.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Discriminant Analysis (LDA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/log-normal-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Log-Normal Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/logistic-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Logistic Regression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/lstm-networks.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import LSTM Networks from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/marked-point-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Marked Point Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/markov-blanket.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Markov Blanket from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/markov-logic-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Markov Logic Network from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/markov-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Markov Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/martingale.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Martingale from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/maximum-a-posteriori-estimation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Maximum a Posteriori Estimation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/maximum-likelihood-estimation-mle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Maximum Likelihood Estimation (MLE) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/mcmc-markov-chain-monte-carlo.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (MCMC) Markov Chain Monte Carlo from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/mean.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mean from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/method-of-moments-mom.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Method of Moments (MoM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/metropolis-hastings-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Metropolis-Hastings Algorithm from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/minimum-mean-square-error-mmse.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Minimum Mean Square Error (MMSE) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/mixture-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mixture Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/model-order-reduction-mor-dimensionality-reduction.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Model Order Reduction (MOR)  (Dimensionality Reduction) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/model-validation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Model Validation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/moment-generating-function-mgf.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Moment-Generating Function (MGF) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/monte-carlo-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Monte Carlo Toolbox from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/multicollinearity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multicollinearity from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/multilayer-perceptron-mlp.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multilayer Perceptron (MLP) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/multilinear-subspace-learning-msl.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multilinear Subspace Learning (MSL) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/multinomial-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multinomial Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/multivariate-adaptive-regression-splines-mars.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multivariate Adaptive Regression Splines (MARS) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/multivariate-normal-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multivariate Normal Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/naive-bayes-classifier.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Naive Bayes Classifier from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/negative-binomial-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Negative Binomial Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/neural-network-nn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Neural Network (NN) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/non-parametric-tests.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Non-parametric Tests from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/one-hot-encoding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import One-Hot Encoding from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Operator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/ordinary-least-squares-ols-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ordinary Least Squares (OLS) Estimator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/p-value.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import p-value from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/pareto-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Pareto Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/partial-least-squares-regression-pls.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Partial Least Squares Regression (PLS) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/particle-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Particle Filter from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/pearson-correlation-coefficient.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Pearson Correlation Coefficient from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/percentile.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Percentile from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/perceptron-mccullochpitts-neuron.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Perceptron (McCulloch–Pitts Neuron) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/persistent-homology.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Persistent Homology from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/point-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Point Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/poisson-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poisson Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/poisson-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poisson Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/poisson-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poisson Regression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/polynomial-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Polynomial Regression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/principal-component-analysis-pca.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Principal Component Analysis (PCA) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/principle-of-maximum-entropy.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Principle of Maximum Entropy from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probabilistic-graphical-model-pgm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probabilistic Graphical Model (PGM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability-density-function-pdf.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability Density Function (PDF) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability-generating-function-pgf.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability-Generating Function (PGF) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability-mass-function-pmf.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability Mass Function (PMF) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability-model-validation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability Model Validation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability-representation-regime.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability Representation Regime from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/quantile.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantile from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/radial-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Radial Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/radial-rasis-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Radial Rasis Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/random-forest.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Forest from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/random-matrix-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Matrix Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/random-object.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Object from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/random-variable.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Variable from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/random-walk-drunkard-s-walk.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Walk (Drunkard's Walk) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/randomness-extractor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Randomness Extractor from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/rare-events-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Rare Events Modelling from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/recurrent-neural-network-rnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Recurrent Neural Network (RNN) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Regression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/regularization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Regularization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/relative-efficiency.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Relative Efficiency from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/renewal-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Renewal Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/representation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Representation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/resampling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Resampling from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/sampling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sampling from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/savitzkygolay-sg-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Savitzky–Golay (S–G) Filter from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/self-organizing-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Self-organizing Map from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/sequence-to-sequence-seq2seq.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sequence to Sequence (Seq2Seq) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/shannon-entropy.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Shannon Entropy from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/shannon-information-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Shannon Information Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/simple-linear-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Simple Linear Regression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/singularity-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Singularity Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/solomonoff-induction.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Solomonoff Induction from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/standard-deviation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Standard Deviation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/state-estimation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import State Estimation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/stationary-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stationary Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/statistic-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (Statistic) Estimator from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/statistical-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Statistical Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/statistics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Statistics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/stochastic-petri-nets.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stochastic Petri Nets from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/stochastic-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stochastic Process from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/structural-equation-modeling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Structural Equation Modeling from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/support-vector-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Support Vector Machine from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/survival-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Survival Analysis from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/symbolic-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symbolic Regression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/t-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import t-distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/tendency.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Tendency from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/theory-of-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Theory of Probability from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/theory-of-statistics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Theory of Statistics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/time-series.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Time Series from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/token.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Token from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/topic-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/transformer.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Transformer from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/umap-uniform-manifold-approximation-and-projection.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import UMAP (Uniform Manifold Approximation and Projection) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/uniform-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Uniform Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/variability.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variability from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/variance.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variance from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/variational-autoencoder-vae.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variational Autoencoder (VAE) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/variational-inference.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variational Inference from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/vector-autoregression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Vector Autoregression from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/visualization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Visualization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/weibull-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Weibull Distribution from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/wiener-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Wiener Filter from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/word2vec.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Word2Vec from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/world-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import World-Model from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/yolo-you-only-look-once.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import YOLO (You Only Look Once) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/z-score.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Z-Score from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Optimization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/backpropagation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Backpropagation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/calculus-of-variations.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Calculus of Variations from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/change-making-problem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Change-making Problem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/combinatorial-optimization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Combinatorial Optimization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/dynamic-programming.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dynamic Programming from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/gradient-descent-gd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gradient Descent (GD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/hamiltonian-optimization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hamiltonian Optimization from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/knapsack-problem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Knapsack Problem from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/lagrange-multiplier.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lagrange Multiplier from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/loss-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Loss Function from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/multiple-criteria-decision-making-mcdm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multiple-Criteria Decision-Making (MCDM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/robust-decision-making-rdm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Robust Decision-Making (RDM) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/stochastic-gradient-descent-sgd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stochastic Gradient Descent (SGD) from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/trade-off.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Trade-Off from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/signal-processing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Signal Processing from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/signal-processing/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/simulation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Simulation from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/simulation/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/statistical-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Statistical Mechanics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/statistical-mechanics/mean-field-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mean Field Theory from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/statistical-mechanics/renormalization-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Renormalization Group from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/statistical-mechanics/topics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topics from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/system-of-units-of-measurement.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import System of Units of Measurement from the Modelado Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "general/financial-sector.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Drop the financial-sector explorer live-note link; the page was removed in the live-note relocation."
+      }
+    ]
+  }
+]

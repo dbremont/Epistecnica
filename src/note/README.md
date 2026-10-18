@@ -19,14 +19,31 @@ src/note/
     │   ├── changelog.json        # per-note edit history (hand-edited)
     │   ├── changelog.schema.json # schema for changelog.json
     │   ├── general/     # shared notes (philosophiae, companions)
-    │   ├── technica/    # technical notes (cto/, pto/, op/)
-    │   └── live/        # live notes — self-contained hand-authored HTML pages
+    │   ├── epistemica/  # epistemical notes (Modelling domains + elements)
+    │   └── technica/    # technical notes (cto/, pto/, op/)
 ```
 
 - Regenerate the search index after any corpus change: `make notes-index`.
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
   section (`general`, `technica`, …).
+
+## Epistemica corpus
+
+`data/epistemica/` holds the epistemical notes — the *Modelling* (Modelado)
+domains (`causality.md`, `mathematical.md`, `observational.md`, …) and their
+element notes, one directory per domain (`epistemica/mathematical/group.md`).
+They document epistemic elements and must follow the epistemical schema (title,
+intro quote, `## Formulation` with the three questions including the recursive
+instance decomposition, `## References`) owned by the guide vendored at
+`bin/epistemicarum-guide.md` (with `bin/epistemicarum-guideline/`); the worked
+exemplar is `data/general/financial-sector.md`.
+
+- The corpus was seeded from the Naturgnosis Notion *Modelado* export with
+  `bin/import_epistemica.py <export-root>` (names normalized, CSV tags as
+  front matter, Notion noise stripped; content preserved). Re-running skips
+  existing notes.
+- Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Catalog
 
@@ -51,9 +68,9 @@ facet bars: sections are reached as folders and tags through the search box.
 - A **note** is a markdown file (`*.md`): rendered on the fly by
   `note.html?n=<path>`. The bulk of the corpus.
 - A **live note** is a self-contained, hand-authored HTML page (`*.html`),
-  living under `data/live/` — bespoke interactivity, its own scripts.
-  Served as-is; never rendered through the viewer. Every live note uses
-  the same frame as the viewer (`note.html`: ambient constellation
+  co-located with its companion markdown note — bespoke interactivity, its
+  own scripts. Served as-is; never rendered through the viewer. Every live
+  note uses the same frame as the viewer (`note.html`: ambient constellation
   background, 1280px layout, crumbs + title + meta chips, card, sticky
   `Contents` sidebar) and the philosophia shell order (intro quote,
   Index, Formulation, decomposition, lab, Diagnostic questions,
@@ -62,12 +79,12 @@ facet bars: sections are reached as folders and tags through the search box.
   chrome blocks plus the container spec and conversion record live in
   `docs/live-note-chrome.md`; no CDN libraries are allowed. The catalog
   still indexes it (title, headings, text) and links directly to the page,
-  marked with a `live` chip. Examples: `live/concurrent-map.html`
+  marked with a `live` chip. Examples: `technica/cto/lib/concurrent-map.html`
   ("Concurrent Map", from `src/tecnica/app/view/`),
-  `live/poisson-distribution.html` ("Poisson Distribution"),
-  `live/hawkes-process.html` ("Hawkes Process"),
-  `live/fokker-planck-equation.html` ("Fokker-Planck Equation"), from
-  epistemica's former `view/tool/`.
+  `epistemica/observational/poisson-distribution.html` ("Poisson Distribution"),
+  `epistemica/observational/hawkes-process.html` ("Hawkes Process"),
+  `epistemica/observational/fokker-planck-equation.html`
+  ("Fokker-Planck Equation"), from epistemica's former `view/tool/`.
 
 ## Changelog / history
 

@@ -95,7 +95,8 @@ disabled.
   `python3 bin/link_changelog_commits.py`, commit the json-only annotation.
   The viewer's `history` chip opens the modal. See `src/note/README.md`
   §Changelog / history.
-- Live notes (`src/note/app/data/live/*.html`) share the `note.html` frame
+- Live notes (`src/note/app/data/**/*.html`, co-located with their companion
+  note) share the `note.html` frame
   (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
   and the philosophia shell order — recipe + conversion record in
   `docs/live-note-chrome.md` §7–§8. Keep `<title>`/h1, copy, and JS ids
@@ -180,6 +181,12 @@ instance-decomposition table:
   element types; child descriptions state role-in-parent).
   `general/financial-sector.md` is the worked exemplar (138-row
   Entity-typed table generated from the explorer's `TAXO` snapshot).
+- The guide is vendored at `src/note/bin/epistemicarum-guide.md` (guidelines
+  under `src/note/bin/epistemicarum-guideline/`); use the snapshot offline and
+  cite the Naturgnosis raw URL in notes. The corpus lives under
+  `src/note/app/data/epistemica/` and was seeded from the Modelado Notion
+  export by `src/note/bin/import_epistemica.py <export-root>` (mechanical
+  normalization only — the schema conversion is still outstanding).
 
 ## Run / Verify Locally
 
@@ -205,7 +212,7 @@ Verification (no test suite exists; `make check` covers the first two):
 - `curl :8000/epistemica/api/nodes` and `/tecnica/api/nodes` → flat arrays, no `_id`/`_rev`, no layout doc
 - `curl -X POST :8000/tecnica/api/graph/save -d '{"nodes":[]}'` → `{"status":"ok","saved":0}`
 - Static mounts: `curl -s :8000/epistemica/graph.html | head -1` and same for `tecnica`
-- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/pto/zsh.md` (viewer), `/note/data/live/concurrent-map.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
+- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/pto/zsh.md` (viewer), `/note/data/technica/cto/lib/concurrent-map.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
 - Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`)
 - Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`)
 - Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `src/persona/bin/import.py <notion-export-dir>`)

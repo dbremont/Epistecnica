@@ -1,0 +1,2745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hawkes Process — Epistemic Tool Notebook</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens */
+    :root {
+      --bg-deep: var(--bg-void);
+      --bg-elevated: var(--bg-surface);
+      --bg-highlight: var(--bg-card);
+      --fg-primary: var(--text-primary);
+      --fg-secondary: var(--text-secondary);
+      --fg-muted: var(--text-muted);
+      --accent: var(--accent-cyan);
+      --accent-dim: var(--accent-cyan-dim);
+      --accent-glow: var(--accent-cyan-dim);
+      --trigger: #f472b6;
+      --trigger-glow: rgba(244, 114, 182, 0.15);
+      --warning: var(--accent-gold);
+      --error: #f87171;
+      --border: var(--border-subtle);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-deep);
+      color: var(--fg-primary);
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+
+    .mono { font-family: var(--font-mono); }
+
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      position: relative;
+    }
+    .section-card:focus-within {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .param-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 4px;
+      background: var(--bg-elevated);
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .param-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      background: var(--accent);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .param-slider::-webkit-slider-thumb:hover {
+      transform: scale(1.25);
+      box-shadow: 0 0 16px var(--accent);
+    }
+
+    .param-slider:focus::-webkit-slider-thumb {
+      box-shadow: 0 0 0 4px var(--accent-glow);
+    }
+
+    .param-slider::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      background: var(--accent);
+      border-radius: 50%;
+      cursor: pointer;
+      border: none;
+    }
+
+    canvas { display: block; border-radius: 8px; }
+
+    .tab-btn {
+      padding: 0.5rem 1rem;
+      background: transparent;
+      border: 1px solid var(--border-subtle);
+      color: var(--fg-secondary);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.875rem;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--border);
+      color: var(--fg-primary);
+    }
+
+    .tab-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--bg-deep);
+    }
+
+    .tab-btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .subtab-btn {
+      padding: 0.375rem 0.75rem;
+      background: var(--bg-elevated);
+      border: none;
+      color: var(--fg-muted);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.75rem;
+    }
+
+    .subtab-btn:hover { color: var(--fg-secondary); }
+    .subtab-btn.active {
+      background: var(--accent-glow);
+      color: var(--accent);
+    }
+
+    .collapsible-header { cursor: pointer; user-select: none; }
+
+    .collapsible-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+
+    .collapsible-content.open { max-height: 4000px; }
+
+    .nav-link {
+      color: var(--fg-muted);
+      text-decoration: none;
+      padding: 0.25rem 0;
+      border-left: 2px solid transparent;
+      padding-left: 0.75rem;
+      transition: all 0.2s ease;
+      display: block;
+      font-size: 0.75rem;
+    }
+
+    .nav-link:hover {
+      color: var(--fg-secondary);
+      border-color: var(--border);
+    }
+
+    .nav-link.active {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-in {
+      opacity: 0;
+      animation: fadeInUp 0.5s ease forwards;
+    }
+
+    .stagger-1 { animation-delay: 0.05s; }
+    .stagger-2 { animation-delay: 0.1s; }
+    .stagger-3 { animation-delay: 0.15s; }
+    .stagger-4 { animation-delay: 0.2s; }
+    .stagger-5 { animation-delay: 0.25s; }
+
+    .formula {
+      background: var(--bg-elevated);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+      overflow-x: auto;
+    }
+
+    .intensity-tooltip {
+      position: absolute;
+      background: var(--bg-highlight);
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      z-index: 1000;
+      max-width: 280px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+
+    .intensity-tooltip.visible { opacity: 1; }
+
+    .contribution-bar {
+      height: 6px;
+      border-radius: 3px;
+      background: var(--bg-elevated);
+      overflow: hidden;
+    }
+
+    .contribution-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+
+    .event-row {
+      display: grid;
+      grid-template-columns: 60px 80px 1fr 80px;
+      gap: 0.5rem;
+      padding: 0.5rem;
+      border-radius: 6px;
+      transition: background 0.2s ease;
+      font-size: 0.75rem;
+    }
+
+    .event-row:hover { background: var(--bg-elevated); }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.125rem 0.5rem;
+      border-radius: 999px;
+      font-size: 0.625rem;
+      font-weight: 500;
+    }
+
+    .badge-exogenous {
+      background: var(--accent-glow);
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+    }
+
+    .badge-endogenous {
+      background: var(--trigger-glow);
+      color: var(--trigger);
+      border: 1px solid rgba(244, 114, 182, 0.3);
+    }
+
+    .phase-diagram {
+      position: relative;
+      background: var(--bg-deep);
+      border-radius: 8px;
+    }
+
+    .phase-point {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: var(--accent);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 12px var(--accent);
+      transition: all 0.3s ease;
+    }
+
+    .ensemble-line {
+      stroke: var(--accent);
+      stroke-width: 1;
+      fill: none;
+      opacity: 0.3;
+    }
+
+    .ensemble-mean {
+      stroke: var(--accent);
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .kernel-comparison {
+      transition: stroke 0.3s ease, stroke-width 0.3s ease;
+    }
+
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-deep); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--fg-muted); }
+
+    .kv-pair {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border-subtle);
+      font-size: 0.875rem;
+    }
+
+    .kv-pair:last-child { border-bottom: none; }
+
+    .validation-status {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 0.875rem;
+      border-radius: 6px;
+      font-size: 0.8125rem;
+    }
+
+    .validation-status.pass {
+      background: rgba(0, 229, 184, 0.08);
+      border: 1px solid rgba(0, 229, 184, 0.2);
+      color: var(--accent);
+    }
+
+    .validation-status.fail {
+      background: rgba(248, 113, 113, 0.08);
+      border: 1px solid rgba(248, 113, 113, 0.2);
+      color: var(--error);
+    }
+
+    .validation-status.warn {
+      background: rgba(251, 191, 36, 0.08);
+      border: 1px solid rgba(251, 191, 36, 0.2);
+      color: var(--warning);
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      position: relative;
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body section[id] { scroll-margin-top: 6rem; }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
+    /* ---- heading face ---- */
+    h1, h2, h3 {
+      font-family: var(--font-display);
+    }
+
+    /* ---- utility shim (replaces the Tailwind CDN) ---- */
+    .hidden { display: none; }
+    .flex { display: flex; }
+    .grid { display: grid; }
+    .flex-wrap { flex-wrap: wrap; }
+    .flex-1 { flex: 1 1 0%; }
+    .flex-shrink-0 { flex-shrink: 0; }
+    .relative { position: relative; }
+    .left-0 { left: 0; }
+    .z-50 { z-index: 50; }
+    .overflow-hidden { overflow: hidden; }
+    .overflow-x-auto { overflow-x: auto; }
+    .overflow-y-auto { overflow-y: auto; }
+    .cursor-pointer { cursor: pointer; }
+    .items-center { align-items: center; }
+    .items-start { align-items: flex-start; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .text-center { text-align: center; }
+    .text-right { text-align: right; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .ml-auto { margin-left: auto; }
+    .w-2 { width: 0.5rem; }
+    .w-3 { width: 0.75rem; }
+    .w-4 { width: 1rem; }
+    .w-5 { width: 1.25rem; }
+    .w-6 { width: 1.5rem; }
+    .w-8 { width: 2rem; }
+    .w-24 { width: 6rem; }
+    .w-56 { width: 14rem; }
+    .w-64 { width: 16rem; }
+    .w-full { width: 100%; }
+    .h-2 { height: 0.5rem; }
+    .h-3 { height: 0.75rem; }
+    .h-4 { height: 1rem; }
+    .h-5 { height: 1.25rem; }
+    .h-6 { height: 1.5rem; }
+    .h-8 { height: 2rem; }
+    .max-h-40 { max-height: 10rem; }
+    .max-h-64 { max-height: 16rem; }
+    .max-w-2xl { max-width: 42rem; }
+    .max-w-5xl { max-width: 64rem; }
+    .min-h-screen { min-height: 100vh; }
+    .min-w-col { min-width: 200px; }
+    .gap-1\.5 { gap: 0.375rem; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-5 { gap: 1.25rem; }
+    .p-2 { padding: 0.5rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-5 { padding: 1.25rem; }
+    .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+    .px-4 { padding-left: 1rem; padding-right: 1rem; }
+    .px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .py-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; }
+    .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+    .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+    .pt-2 { padding-top: 0.5rem; }
+    .pt-4 { padding-top: 1rem; }
+    .pt-6 { padding-top: 1.5rem; }
+    .pb-2 { padding-bottom: 0.5rem; }
+    .pb-5 { padding-bottom: 1.25rem; }
+    .pl-4 { padding-left: 1rem; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-5 { margin-bottom: 1.25rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-10 { margin-bottom: 2.5rem; }
+    .mb-12 { margin-bottom: 3rem; }
+    .space-y-0\.5 > * + * { margin-top: 0.125rem; }
+    .space-y-1 > * + * { margin-top: 0.25rem; }
+    .space-y-1\.5 > * + * { margin-top: 0.375rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .text-xs { font-size: 0.75rem; line-height: 1.5; }
+    .text-sm { font-size: 0.875rem; line-height: 1.5; }
+    .text-lg { font-size: 1.125rem; line-height: 1.6; }
+    .text-xl { font-size: 1.25rem; line-height: 1.6; }
+    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+    .font-medium { font-weight: 500; }
+    .font-semibold { font-weight: 600; }
+    .font-bold { font-weight: 700; }
+    .uppercase { text-transform: uppercase; }
+    .tracking-tight { letter-spacing: -0.025em; }
+    .tracking-wider { letter-spacing: 0.05em; }
+    .tracking-widest { letter-spacing: 0.1em; }
+    .rounded { border-radius: 0.25rem; }
+    .rounded-lg { border-radius: 0.5rem; }
+    .rounded-full { border-radius: 9999px; }
+    .border { border: 1px solid var(--border); }
+    .border-2 { border: 2px solid var(--border); }
+    .border-r { border-right: 1px solid var(--border); }
+    .border-t { border-top: 1px solid var(--border); }
+    .border-l-2 { border-left: 2px solid var(--border); }
+    .bdr-accent { border-color: var(--accent); }
+    .bdr-warn { border-color: var(--warning); }
+    .bdr-muted { border-color: var(--fg-muted); }
+    .bg-deep { background: var(--bg-deep); }
+    .bg-elev { background: var(--bg-elevated); }
+    .bg-hi { background: var(--bg-highlight); }
+    .bg-accent { background: var(--accent); }
+    .accent-text { color: var(--accent); }
+    .text-fg { color: var(--fg-primary); }
+    .text-sec { color: var(--fg-secondary); }
+    .text-muted { color: var(--fg-muted); }
+    .text-trigger { color: var(--trigger); }
+    .text-warn { color: var(--warning); }
+    .text-error { color: var(--error); }
+    .on-accent { color: var(--bg-deep); }
+    .radio-accent { accent-color: var(--accent); }
+    .hover-op:hover { opacity: 0.9; }
+    .hover-hi:hover { background: var(--bg-highlight); }
+    .focus-ring:focus { outline: none; box-shadow: 0 0 0 2px var(--accent); }
+    .transition-colors { transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease; }
+    .transition-opacity { transition: opacity 0.15s ease; }
+    .transition-transform { transition: transform 0.3s ease; }
+    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    @media (min-width: 768px) {
+      .md\:col-span-2 { grid-column: span 2 / span 2; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .md\:text-5xl { font-size: 3rem; line-height: 1.1; }
+    }
+    @media (min-width: 1024px) {
+      .lg\:block { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../index.html">notes</a><span class="sep">/</span><a href="../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><span class="here">hawkes-process</span></div>
+      <h1 class="note-title">Hawkes Process</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#temporal</span>
+        <span class="chip">#generative</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+    <!-- Intensity Tooltip (scoped inside card) -->
+  <div class="intensity-tooltip" id="intensity-tooltip">
+    <div class="font-medium mb-2">Intensity at t = <span id="tooltip-time">0.00</span></div>
+    <div class="mono text-lg font-bold accent-text mb-2">λ*(t) = <span id="tooltip-intensity">0.00</span></div>
+    <div class="space-y-1 text-sec">
+      <div class="flex justify-between">
+        <span>Base contribution:</span>
+        <span class="mono" id="tooltip-base">0.00</span>
+      </div>
+      <div class="flex justify-between">
+        <span>Excitation sum:</span>
+        <span class="mono" id="tooltip-excitation">0.00</span>
+      </div>
+      <div class="flex justify-between">
+        <span>Past events contributing:</span>
+        <span class="mono" id="tooltip-contributors">0</span>
+      </div>
+    </div>
+    <div class="mt-2 pt-2 border-t">
+      <div class="text-xs text-muted">Click to freeze this point</div>
+    </div>
+  </div>
+
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A self-exciting point process for modeling temporal clustering. Each event increases future event probability, with influence decaying exponentially over time.</p>
+            </blockquote>
+
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+              <li><a href="#identity">Identity</a></li>
+              <li><a href="#formal">Formal Characterization</a></li>
+              <li><a href="#mechanism">Mechanism</a></li>
+              <li><a href="#simulation">Interactive Simulation</a></li>
+              <li><a href="#epistemic-role">Epistemic Role</a></li>
+              <li><a href="#validation">Validation</a></li>
+              <li><a href="#limits">Scope &amp; Limits</a></li>
+              <li><a href="#diagnostics">Diagnostic Questions</a></li>
+              <li><a href="#references">References</a> — sources &amp; schema</li>
+            </ul>
+
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Concrete Epistemic Artifact</strong> — a probabilistic model of one temporal event sequence — produced by applying an <strong>Epistemic Operator</strong> (the Hawkes intensity with exponential kernel), and usable as an <strong>Epistemic Standard</strong> (stationarity and residual checks). Schema: <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>A self-exciting point process with base intensity μ, excitation α, and decay β: each event adds α to the intensity, decaying at rate β. Type: <strong>Generative / Inferential probability model</strong> — a temporal structure discovery tool within the epistemic toolbox.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>It resolves the epistemic gap of <strong>temporal structure discovery</strong> — distinguishing endogenous dynamics (self-excitation) from exogenous factors (background rate). It preserves temporal order, event count, and clustering degree; it destroys individual causality and inhibition effects.</p>
+            </blockquote>
+
+      <!-- Identity Section -->
+      <section id="identity" class="mb-10 animate-in stagger-1">
+        <div class="section-card p-5">
+          <div class="flex items-center justify-between mb-5">
+            <h2 class="text-xl font-semibold">Identity</h2>
+            <div class="flex gap-1.5">
+              <span class="badge badge-exogenous">Generative</span>
+              <span class="badge badge-endogenous">Inferential</span>
+            </div>
+          </div>
+          
+          <div class="grid md:grid-cols-2 gap-5">
+            <div>
+              <div class="text-xs uppercase tracking-wider text-muted mb-1">Name</div>
+              <div class="text-lg font-medium">Hawkes Process</div>
+              <div class="mono text-sm text-sec">Self-exciting point process</div>
+            </div>
+            <div>
+              <div class="text-xs uppercase tracking-wider text-muted mb-2">One-line Summary</div>
+              <p class="text-sm text-sec">Transforms temporal event sequences into probabilistic models capturing self-excitation dynamics, enabling prediction and triggering structure inference.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formal Characterization -->
+      <section id="formal" class="mb-10 animate-in stagger-2">
+        <div class="section-card">
+          <div class="collapsible-header p-5 flex items-center justify-between" onclick="toggleSection(this)">
+            <h2 class="text-xl font-semibold">Formal Characterization</h2>
+            <svg class="w-5 h-5 text-muted transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </div>
+          <div class="collapsible-content open">
+            <div class="px-5 pb-5">
+              <!-- Input/Output -->
+              <div class="grid md:grid-cols-2 gap-5 mb-6">
+                <div class="bg-elev rounded-lg p-4">
+                  <div class="text-sm font-medium mb-3">Input Space</div>
+                  <div class="space-y-2 text-sm">
+                    <div>
+                      <span class="text-muted">Event Timeline:</span>
+                      <span class="mono text-sec"> T = {"t₁, t₂, ..., tₙ"} ⊂ ℝ⁺</span>
+                    </div>
+                    <div>
+                      <span class="text-muted">Observation Window:</span>
+                      <span class="mono text-sec"> [0, T]</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-elev rounded-lg p-4">
+                  <div class="text-sm font-medium mb-3">Output Space</div>
+                  <div class="space-y-2 text-sm">
+                    <div>
+                      <span class="text-muted">Intensity Function:</span>
+                      <span class="mono text-sec"> λ*(t) : ℝ⁺ → ℝ⁺</span>
+                    </div>
+                    <div>
+                      <span class="text-muted">Parameters:</span>
+                      <span class="mono accent-text"> μ, α, β</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Transformation -->
+              <div class="mb-6">
+                <div class="text-sm font-medium mb-2">Transformation</div>
+                <div class="formula mono text-sm">
+                  <div class="mb-1 text-sec">λ*(t) = μ + Σᵢ α · e<sup>-β(t - tᵢ)</sup> · 𝟙(t > tᵢ)</div>
+                  <div class="text-xs text-muted">Sum over all events tᵢ occurring before time t</div>
+                </div>
+              </div>
+
+              <!-- Assumptions -->
+              <div class="grid md:grid-cols-2 gap-4">
+                <div class="p-3 border rounded-lg">
+                  <div class="text-sm font-medium text-warn mb-2">Structural Assumptions</div>
+                  <ul class="text-xs text-sec space-y-0.5">
+                    <li>• Events are instantaneous points</li>
+                    <li>• Excitation always positive (no inhibition)</li>
+                    <li>• Exponential decay kernel</li>
+                  </ul>
+                </div>
+                <div class="p-3 border rounded-lg">
+                  <div class="text-sm font-medium text-warn mb-2">Stationarity Condition</div>
+                  <ul class="text-xs text-sec space-y-0.5">
+                    <li>• Branching ratio n = α/β < 1</li>
+                    <li>• Finite expected intensity</li>
+                    <li>• Time-invariant parameters</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mechanism -->
+      <section id="mechanism" class="mb-10 animate-in stagger-3">
+        <div class="section-card p-5">
+          <h2 class="text-xl font-semibold mb-5">Mechanism</h2>
+          <div class="flex flex-wrap gap-4 items-start">
+            <div class="flex-1 min-w-col">
+              <div class="space-y-3">
+                <div class="flex gap-3 items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">1</div>
+                  <div class="text-sm"><span class="font-medium">Initialize</span> <span class="text-sec">base intensity μ</span></div>
+                </div>
+                <div class="flex gap-3 items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">2</div>
+                  <div class="text-sm"><span class="font-medium">Event occurs</span> <span class="text-sec">spontaneous or triggered</span></div>
+                </div>
+                <div class="flex gap-3 items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">3</div>
+                  <div class="text-sm"><span class="font-medium">Excite</span> <span class="text-sec">add α to intensity, decay at rate β</span></div>
+                </div>
+                <div class="flex gap-3 items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">4</div>
+                  <div class="text-sm"><span class="font-medium">Aggregate</span> <span class="text-sec">sum all contributions</span></div>
+                </div>
+                <div class="flex gap-3 items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-accent on-accent flex items-center justify-center text-xs font-bold">5</div>
+                  <div class="text-sm"><span class="font-medium">Sample</span> <span class="text-sec">next event from Exp(λ*)</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="w-64 flex-shrink-0">
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted mb-2">Dependencies</div>
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="px-2 py-0.5 bg-hi rounded text-xs">Poisson Process</span>
+                  <span class="px-2 py-0.5 bg-hi rounded text-xs">Exponential Dist.</span>
+                  <span class="px-2 py-0.5 bg-hi rounded text-xs">Ogata Thinning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Simulation -->
+      <section id="simulation" class="mb-10 animate-in stagger-4">
+        <div class="section-card p-5">
+          <div class="flex items-center justify-between mb-5">
+            <h2 class="text-xl font-semibold">Interactive Simulation</h2>
+            <div class="flex gap-2">
+              <button class="tab-btn active" data-tab="simulate" onclick="switchMainTab(this)">Simulate</button>
+              <button class="tab-btn" data-tab="explore" onclick="switchMainTab(this)">Explore</button>
+            </div>
+          </div>
+
+          <!-- SIMULATE TAB -->
+          <div id="tab-simulate">
+            <!-- Parameters -->
+            <div class="grid md:grid-cols-3 gap-5 mb-5">
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <label class="text-sm font-medium">Base Rate (μ)</label>
+                  <span class="mono text-sm accent-text" id="mu-value">0.5</span>
+                </div>
+                <input type="range" class="param-slider" id="mu-slider" min="0.1" max="2" step="0.05" value="0.5" aria-label="Base rate parameter">
+              </div>
+              
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <label class="text-sm font-medium">Excitation (α)</label>
+                  <span class="mono text-sm accent-text" id="alpha-value">0.8</span>
+                </div>
+                <input type="range" class="param-slider" id="alpha-slider" min="0.1" max="2" step="0.05" value="0.8" aria-label="Excitation parameter">
+              </div>
+              
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <label class="text-sm font-medium">Decay Rate (β)</label>
+                  <span class="mono text-sm accent-text" id="beta-value">1.0</span>
+                </div>
+                <input type="range" class="param-slider" id="beta-slider" min="0.5" max="3" step="0.1" value="1.0" aria-label="Decay rate parameter">
+              </div>
+            </div>
+
+            <!-- Branching Ratio Display -->
+            <div class="bg-elev rounded-lg p-4 mb-5">
+              <div class="flex items-center justify-between">
+                <div>
+                  <div class="text-xs text-muted">Branching Ratio</div>
+                  <div class="mono text-2xl font-bold" id="branching-ratio">0.80</div>
+                  <div class="text-xs text-muted">n = α/β</div>
+                </div>
+                <div class="text-right">
+                  <div class="text-xs text-muted">Regime</div>
+                  <div class="text-lg font-medium accent-text" id="process-type">Stationary</div>
+                  <div class="text-xs text-muted" id="process-desc">Finite expected intensity</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Main Canvas -->
+            <div class="relative bg-deep rounded-lg overflow-hidden mb-5" style="height: 300px;">
+              <canvas id="main-canvas" aria-label="Hawkes process visualization"></canvas>
+            </div>
+
+            <!-- Controls -->
+            <div class="flex flex-wrap gap-3 mb-5">
+              <button class="px-4 py-2 bg-accent on-accent rounded-lg font-medium hover-op transition-opacity focus-ring" onclick="runSimulation()">
+                Generate New
+              </button>
+              <button class="px-4 py-2 bg-elev rounded-lg font-medium hover-hi transition-colors" onclick="togglePause()">
+                <span id="pause-btn-text">Pause</span>
+              </button>
+              <button class="px-4 py-2 bg-elev rounded-lg font-medium hover-hi transition-colors" onclick="resetSimulation()">
+                Reset
+              </button>
+              <div class="flex items-center gap-2 ml-auto">
+                <span class="text-xs text-muted">Speed:</span>
+                <input type="range" class="param-slider w-24" id="speed-slider" min="0.005" max="0.1" step="0.005" value="0.02" aria-label="Simulation speed">
+              </div>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Total Events</div>
+                <div class="mono text-xl font-bold" id="stat-events">0</div>
+              </div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Current λ*(t)</div>
+                <div class="mono text-xl font-bold" id="stat-intensity">0.00</div>
+              </div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Theoretical E[λ]</div>
+                <div class="mono text-xl font-bold" id="stat-mean">0.00</div>
+              </div>
+              <div class="bg-elev rounded-lg p-3">
+                <div class="text-xs text-muted">Exogenous Ratio</div>
+                <div class="mono text-xl font-bold" id="stat-exogenous">0%</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXPLORE TAB -->
+          <div id="tab-explore" style="display: none;">
+            <div class="flex gap-2 mb-5 overflow-x-auto pb-2">
+              <button class="subtab-btn active" data-subtab="intensity" onclick="switchSubTab(this)">Intensity Decomposition</button>
+              <button class="subtab-btn" data-subtab="genealogy" onclick="switchSubTab(this)">Event Genealogy</button>
+              <button class="subtab-btn" data-subtab="phase" onclick="switchSubTab(this)">Phase Space</button>
+              <button class="subtab-btn" data-subtab="kernel" onclick="switchSubTab(this)">Kernel Comparison</button>
+              <button class="subtab-btn" data-subtab="ensemble" onclick="switchSubTab(this)">Ensemble Stats</button>
+            </div>
+
+            <!-- Intensity Decomposition -->
+            <div id="subtab-intensity" class="subtab-content">
+              <div class="grid md:grid-cols-2 gap-5">
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Intensity Decomposition at Selected Point</h3>
+                  <div class="bg-elev rounded-lg p-4 mb-3">
+                    <div class="flex justify-between items-center mb-3">
+                      <span class="text-sm text-muted">Selected Time:</span>
+                      <span class="mono text-sm" id="decomp-time">—</span>
+                    </div>
+                    <div class="flex justify-between items-center mb-3">
+                      <span class="text-sm text-muted">Total Intensity:</span>
+                      <span class="mono text-lg font-bold accent-text" id="decomp-total">—</span>
+                    </div>
+                    <div class="space-y-2">
+                      <div>
+                        <div class="flex justify-between text-xs mb-1">
+                          <span>Base (μ)</span>
+                          <span class="mono" id="decomp-base-val">—</span>
+                        </div>
+                        <div class="contribution-bar">
+                          <div class="contribution-fill" id="decomp-base-bar" style="width: 0%; background: var(--accent);"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="flex justify-between text-xs mb-1">
+                          <span>Excitation Sum</span>
+                          <span class="mono" id="decomp-excite-val">—</span>
+                        </div>
+                        <div class="contribution-bar">
+                          <div class="contribution-fill" id="decomp-excite-bar" style="width: 0%; background: var(--trigger);"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-xs text-muted">Click on the main simulation canvas to select a time point and see the intensity decomposition.</p>
+                </div>
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Individual Event Contributions</h3>
+                  <div class="bg-elev rounded-lg p-3 max-h-64 overflow-y-auto" id="contribution-list">
+                    <div class="text-xs text-muted text-center py-4">Select a time point to see contributions</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Event Genealogy -->
+            <div id="subtab-genealogy" class="subtab-content" style="display: none;">
+              <div class="grid md:grid-cols-3 gap-5">
+                <div class="md:col-span-2">
+                  <h3 class="text-sm font-medium mb-3">Event Triggering Structure</h3>
+                  <div class="bg-deep rounded-lg overflow-hidden" style="height: 280px;">
+                    <canvas id="genealogy-canvas"></canvas>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Event Classification</h3>
+                  <div class="bg-elev rounded-lg p-4 mb-3">
+                    <div class="flex justify-between mb-2">
+                      <span class="text-xs text-muted">Exogenous Events:</span>
+                      <span class="mono text-sm" id="exog-count">0</span>
+                    </div>
+                    <div class="flex justify-between mb-2">
+                      <span class="text-xs text-muted">Endogenous Events:</span>
+                      <span class="mono text-sm" id="endog-count">0</span>
+                    </div>
+                    <div class="flex justify-between">
+                      <span class="text-xs text-muted">Avg Children per Event:</span>
+                      <span class="mono text-sm" id="avg-children">0.00</span>
+                    </div>
+                  </div>
+                  <h3 class="text-sm font-medium mb-3">Event Log</h3>
+                  <div class="bg-elev rounded-lg overflow-hidden max-h-40 overflow-y-auto" id="event-log">
+                    <div class="event-row bg-hi text-muted">
+                      <span>#</span>
+                      <span>Time</span>
+                      <span>Type</span>
+                      <span>Children</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phase Space -->
+            <div id="subtab-phase" class="subtab-content" style="display: none;">
+              <div class="grid md:grid-cols-2 gap-5">
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Parameter Phase Diagram</h3>
+                  <div class="phase-diagram" style="height: 280px;">
+                    <canvas id="phase-canvas"></canvas>
+                    <div class="phase-point" id="phase-point"></div>
+                  </div>
+                  <p class="text-xs text-muted mt-2">The diagonal line marks n = α/β = 1 (stationarity boundary). Green region = stationary, red region = explosive.</p>
+                </div>
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Theoretical Properties</h3>
+                  <div class="bg-elev rounded-lg p-4 space-y-3">
+                    <div>
+                      <div class="text-xs text-muted mb-1">Long-run Mean Intensity</div>
+                      <div class="formula mono text-sm">E[λ] = μ / (1 - n) = <span id="theoretical-mean">2.50</span></div>
+                    </div>
+                    <div>
+                      <div class="text-xs text-muted mb-1">Expected Event Rate</div>
+                      <div class="formula mono text-sm">Λ(T) = E[λ] · T</div>
+                    </div>
+                    <div>
+                      <div class="text-xs text-muted mb-1">Memory Horizon (e-folding time)</div>
+                      <div class="formula mono text-sm">τ = 1/β = <span id="memory-horizon">1.00</span> time units</div>
+                    </div>
+                    <div>
+                      <div class="text-xs text-muted mb-1">Coefficient of Variation</div>
+                      <div class="formula mono text-sm">CV² = 1 + 2n²/(1-n²) = <span id="coeff-var">2.78</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kernel Comparison -->
+            <div id="subtab-kernel" class="subtab-content" style="display: none;">
+              <div class="grid md:grid-cols-2 gap-5">
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Excitation Kernel Shape</h3>
+                  <div class="bg-deep rounded-lg" style="height: 240px;">
+                    <canvas id="kernel-canvas"></canvas>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Kernel Selection</h3>
+                  <div class="space-y-2">
+                    <label class="flex items-center gap-3 p-3 bg-elev rounded-lg cursor-pointer hover-hi transition-colors">
+                      <input type="radio" name="kernel" value="exponential" checked class="radio-accent">
+                      <div>
+                        <div class="text-sm font-medium">Exponential</div>
+                        <div class="mono text-xs text-muted">g(t) = α · e<sup>-βt</sup></div>
+                      </div>
+                    </label>
+                    <label class="flex items-center gap-3 p-3 bg-elev rounded-lg cursor-pointer hover-hi transition-colors">
+                      <input type="radio" name="kernel" value="power" class="radio-accent">
+                      <div>
+                        <div class="text-sm font-medium">Power Law</div>
+                        <div class="mono text-xs text-muted">g(t) = α · (1+t)<sup>-β</sup></div>
+                      </div>
+                    </label>
+                    <label class="flex items-center gap-3 p-3 bg-elev rounded-lg cursor-pointer hover-hi transition-colors">
+                      <input type="radio" name="kernel" value="gaussian" class="radio-accent">
+                      <div>
+                        <div class="text-sm font-medium">Gaussian</div>
+                        <div class="mono text-xs text-muted">g(t) = α · e<sup>-βt²</sup></div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="mt-4 p-3 bg-elev rounded-lg">
+                    <div class="text-xs text-muted">Kernel Selection Impact</div>
+                    <p class="text-xs text-sec mt-1">Different kernels capture different memory structures. Exponential assumes constant relative decay; power law captures long-range memory; Gaussian assumes fixed memory duration.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ensemble Statistics -->
+            <div id="subtab-ensemble" class="subtab-content" style="display: none;">
+              <div class="grid md:grid-cols-3 gap-5">
+                <div class="md:col-span-2">
+                  <h3 class="text-sm font-medium mb-3">Ensemble Simulation (N = <span id="ensemble-n">20</span> realizations)</h3>
+                  <div class="bg-deep rounded-lg" style="height: 280px;">
+                    <canvas id="ensemble-canvas"></canvas>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-sm font-medium mb-3">Distribution Statistics</h3>
+                  <div class="space-y-3">
+                    <div class="bg-elev rounded-lg p-3">
+                      <div class="text-xs text-muted">Mean Event Count</div>
+                      <div class="mono text-lg font-bold" id="ensemble-mean-events">—</div>
+                    </div>
+                    <div class="bg-elev rounded-lg p-3">
+                      <div class="text-xs text-muted">Std Dev</div>
+                      <div class="mono text-lg font-bold" id="ensemble-std-events">—</div>
+                    </div>
+                    <div class="bg-elev rounded-lg p-3">
+                      <div class="text-xs text-muted">Theoretical E[N(T)]</div>
+                      <div class="mono text-lg font-bold accent-text" id="theoretical-n">—</div>
+                    </div>
+                  </div>
+                  <button class="w-full mt-3 px-4 py-2 bg-elev rounded-lg text-sm font-medium hover-hi transition-colors" onclick="runEnsemble()">
+                    Run Ensemble
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Epistemic Role -->
+      <section id="epistemic-role" class="mb-10 animate-in stagger-5">
+        <div class="section-card p-5">
+          <h2 class="text-xl font-semibold mb-5">Epistemic Role</h2>
+          
+          <div class="grid md:grid-cols-2 gap-5 mb-5">
+            <div>
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Function</h3>
+              <p class="text-sm text-sec">Resolves <strong class="text-fg">temporal structure discovery</strong> — distinguishes endogenous dynamics (self-excitation) from exogenous factors (background rate).</p>
+            </div>
+            <div>
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Preservation</h3>
+              <div class="text-sm text-sec">
+                <span class="accent-text">Preserves:</span> Temporal order, event count, clustering degree<br>
+                <span class="text-error">Destroys:</span> Individual causality, inhibition effects
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Validation -->
+      <section id="validation" class="mb-10 animate-in">
+        <div class="section-card p-5">
+          <h2 class="text-xl font-semibold mb-5">Validation</h2>
+          
+          <div class="grid md:grid-cols-3 gap-3 mb-5">
+            <div class="validation-status pass" id="val-stationarity">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span>Stationarity</span>
+            </div>
+            <div class="validation-status pass" id="val-positivity">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span>Intensity ≥ 0</span>
+            </div>
+            <div class="validation-status pass" id="val-residuals">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span>KS Test: p = <span id="ks-pval">1.00</span></span>
+            </div>
+          </div>
+
+          <div class="bg-elev rounded-lg p-4">
+            <h3 class="text-sm font-medium mb-2">Residual Analysis</h3>
+            <div class="grid md:grid-cols-2 gap-4">
+              <div class="text-sm text-sec">
+                <p>If the model is correct, transformed times Λ(tᵢ) should follow a unit Poisson process. The time transformation:</p>
+                <div class="formula mono text-xs mt-2">Λ(t) = μt + (α/β)Σᵢ(1 - e<sup>-β(t-tᵢ)</sup>)</div>
+              </div>
+              <div class="bg-deep rounded-lg p-3" style="height: 120px;">
+                <canvas id="qq-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scope & Limits -->
+      <section id="limits" class="mb-10 animate-in">
+        <div class="section-card p-5">
+          <h2 class="text-xl font-semibold mb-5">Scope and Limits</h2>
+          
+          <div class="grid md:grid-cols-2 gap-5">
+            <div>
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Applicability</h3>
+              <div class="space-y-1.5">
+                <div class="p-2 bg-elev rounded text-sm">Seismology (earthquake-aftershock)</div>
+                <div class="p-2 bg-elev rounded text-sm">High-frequency finance</div>
+                <div class="p-2 bg-elev rounded text-sm">Social media cascades</div>
+                <div class="p-2 bg-elev rounded text-sm">Neuronal spike trains</div>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wider mb-2">Structural Limits</h3>
+              <div class="space-y-1.5 text-sm text-sec">
+                <div class="p-2 border rounded">No inhibition modeling</div>
+                <div class="p-2 border rounded">Single temporal dimension</div>
+                <div class="p-2 border rounded">Event marks not captured</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Diagnostic QA -->
+      <section id="diagnostics" class="mb-10 animate-in">
+        <div class="section-card p-5">
+          <h2 class="text-xl font-semibold mb-5">Diagnostic Questions</h2>
+          
+          <div class="space-y-4">
+            <div class="border-l-2 bdr-accent pl-4">
+              <div class="font-medium text-sm mb-1">What happens if branching ratio exceeds 1?</div>
+              <p class="text-sm text-sec">Explosive regime: intensity grows without bound, infinite events in finite time. Estimation methods fail.</p>
+            </div>
+            <div class="border-l-2 bdr-warn pl-4">
+              <div class="font-medium text-sm mb-1">What invariant is most critical?</div>
+              <p class="text-sm text-sec">Exponential decay structure — encodes proportional influence decay. Violations require kernel modifications.</p>
+            </div>
+            <div class="border-l-2 bdr-muted pl-4">
+              <div class="font-medium text-sm mb-1">Can different parameters produce indistinguishable sequences?</div>
+              <p class="text-sm text-sec">Yes — identifiability issues when long-run mean intensity λ̄ = μ/(1-n) is similar across parameter sets.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#identity">Identity</a>
+          <a class="toc-item" href="#formal">Formal</a>
+          <a class="toc-item" href="#mechanism">Mechanism</a>
+          <a class="toc-item" href="#simulation">Simulation</a>
+          <a class="toc-item" href="#epistemic-role">Epistemic Role</a>
+          <a class="toc-item" href="#validation">Validation</a>
+          <a class="toc-item" href="#limits">Limits</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+        <div class="sidebar-title" style="margin-top:1.5rem">Process Status</div>
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-full border-2 flex items-center justify-center" id="status-indicator" style="border-color: var(--accent);">
+            <div class="w-3 h-3 rounded-full" id="status-dot" style="background: var(--accent);"></div>
+          </div>
+          <div>
+            <div class="text-sm font-medium" id="stability-label">Stationary</div>
+            <div class="text-xs text-muted" id="stability-sublabel">n = 0.80</div>
+          </div>
+        </div>
+        <div class="sidebar-title" style="margin-top:1.5rem">Quick Stats</div>
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs">
+            <span class="text-muted">Events</span>
+            <span class="mono" id="quick-events">0</span>
+          </div>
+          <div class="flex justify-between text-xs">
+            <span class="text-muted">λ*(t)</span>
+            <span class="mono" id="quick-intensity">0.00</span>
+          </div>
+          <div class="flex justify-between text-xs">
+            <span class="text-muted">E[λ]</span>
+            <span class="mono" id="quick-mean">0.00</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script>
+    // ========================================
+    // STATE INITIALIZATION (MUST BE FIRST)
+    // ========================================
+    
+    let mu = 0.5;
+    let alpha = 0.8;
+    let beta = 1.0;
+    let events = [];
+    let eventGenealogy = [];
+    let isPaused = false;
+    let currentTime = 0;
+    let simulationSpeed = 0.02;
+    let selectedTime = null;
+    let animationId = null;
+    let ensembleRuns = [];
+    let selectedKernel = 'exponential';
+    
+    // Canvas dimensions
+    let mainCanvasW = 800;
+    let mainCanvasH = 300;
+    let dpr = 1;
+    
+    // Canvas references (initialized after DOM)
+    let mainCanvas = null;
+    let mainCtx = null;
+    let genealogyCanvas = null;
+    let genealogyCtx = null;
+    let phaseCanvas = null;
+    let phaseCtx = null;
+    let kernelCanvas = null;
+    let kernelCtx = null;
+    let ensembleCanvas = null;
+    let ensembleCtx = null;
+    let qqCanvas = null;
+    let qqCtx = null;
+    
+    // ========================================
+    // UTILITY FUNCTIONS
+    // ========================================
+    
+    function clamp(val, min, max) {
+      return Math.max(min, Math.min(max, val));
+    }
+    
+    function safeRadius(r) {
+      return Math.max(0.5, r);
+    }
+    
+    function rgba(r, g, b, a) {
+      return `rgba(${clamp(Math.round(r),0,255)},${clamp(Math.round(g),0,255)},${clamp(Math.round(b),0,255)},${clamp(a,0,1)})`;
+    }
+
+    function themeColors() {
+      const s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim(),
+        card: s.getPropertyValue('--bg-card').trim(),
+        void: s.getPropertyValue('--bg-void').trim()
+      };
+    }
+
+    function withAlpha(color, alpha) {
+      const m = /^#([0-9a-f]{6})$/i.exec(color);
+      if (m) {
+        const n = parseInt(m[1], 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+      }
+      return color;
+    }
+    
+    // ========================================
+    // HAWKES PROCESS CORE
+    // ========================================
+    
+    function kernelFunction(dt, kernelType) {
+      if (dt <= 0) return 0;
+      switch (kernelType) {
+        case 'exponential': return alpha * Math.exp(-beta * dt);
+        case 'power': return alpha * Math.pow(1 + dt, -beta);
+        case 'gaussian': return alpha * Math.exp(-beta * dt * dt);
+        default: return alpha * Math.exp(-beta * dt);
+      }
+    }
+    
+    function computeIntensity(t, eventList, kernelType) {
+      let intensity = mu;
+      for (const ei of eventList) {
+        if (t > ei) {
+          intensity += kernelFunction(t - ei, kernelType);
+        }
+      }
+      return Math.max(0.001, intensity);
+    }
+    
+    function computeIntensityDecomposition(t, eventList) {
+      const base = mu;
+      let excitation = 0;
+      const contributions = [];
+      
+      for (const ei of eventList) {
+        if (t > ei) {
+          const contrib = alpha * Math.exp(-beta * (t - ei));
+          excitation += contrib;
+          contributions.push({ time: ei, contribution: contrib, dt: t - ei });
+        }
+      }
+      
+      contributions.sort((a, b) => b.contribution - a.contribution);
+      return { base, excitation, total: base + excitation, contributions };
+    }
+    
+    function simulateHawkes(T, baseMu, exciteAlpha, decayBeta) {
+      const generatedEvents = [];
+      const genealogy = [];
+      let t = 0;
+      const maxEvents = 10000;
+      
+      while (t < T && generatedEvents.length < maxEvents) {
+        const upperBound = computeIntensity(t, generatedEvents, 'exponential') + exciteAlpha;
+        const dt = -Math.log(Math.random()) / upperBound;
+        t += dt;
+        
+        if (t > T) break;
+        
+        const lambdaT = computeIntensity(t, generatedEvents, 'exponential');
+        if (Math.random() < lambdaT / upperBound) {
+          // Determine if exogenous or endogenous
+          const baseContrib = baseMu / lambdaT;
+          let isExogenous = Math.random() < baseContrib;
+          let parentIndex = -1;
+          
+          if (!isExogenous && generatedEvents.length > 0) {
+            // Find triggering event based on contribution
+            const decomp = computeIntensityDecomposition(t, generatedEvents);
+            const exciteTotal = decomp.excitation;
+            let cumSum = 0;
+            const rand = Math.random() * exciteTotal;
+            for (let i = 0; i < decomp.contributions.length; i++) {
+              cumSum += decomp.contributions[i].contribution;
+              if (cumSum >= rand) {
+                parentIndex = generatedEvents.indexOf(decomp.contributions[i].time);
+                break;
+              }
+            }
+          }
+          
+          generatedEvents.push(t);
+          genealogy.push({ time: t, parent: parentIndex, isExogenous, children: [] });
+        }
+      }
+      
+      // Build children arrays
+      for (let i = 0; i < genealogy.length; i++) {
+        if (genealogy[i].parent >= 0) {
+          genealogy[genealogy[i].parent].children.push(i);
+        }
+      }
+      
+      return { events: generatedEvents, genealogy };
+    }
+    
+    function computeMeanIntensity() {
+      const n = alpha / beta;
+      if (n >= 1) return Infinity;
+      return mu / (1 - n);
+    }
+    
+    function computeResiduals(eventList, T) {
+      if (eventList.length === 0) return [];
+      const residuals = [];
+      let compensator = 0;
+      
+      for (let i = 0; i < eventList.length; i++) {
+        const prevT = i === 0 ? 0 : eventList[i - 1];
+        const currT = eventList[i];
+        compensator += mu * (currT - prevT);
+        
+        for (let j = 0; j < i; j++) {
+          const tj = eventList[j];
+          const integral = (alpha / beta) * (Math.exp(-beta * Math.max(0, prevT - tj)) - Math.exp(-beta * (currT - tj)));
+          compensator += integral;
+        }
+        
+        residuals.push(compensator);
+      }
+      return residuals;
+    }
+    
+    // ========================================
+    // VISUALIZATION FUNCTIONS
+    // ========================================
+    
+    function drawMainCanvas() {
+      if (!mainCtx) return;
+      
+      const w = mainCanvasW;
+      const h = mainCanvasH;
+      const timeWindow = 20;
+      const colors = themeColors();
+
+      // Clear
+      mainCtx.fillStyle = colors.void;
+      mainCtx.fillRect(0, 0, w, h);
+
+      // Grid
+      mainCtx.strokeStyle = withAlpha(colors.primary, '0.14');
+      mainCtx.lineWidth = 1;
+      
+      for (let i = 0; i <= timeWindow; i += 5) {
+        const x = (i / timeWindow) * w;
+        mainCtx.beginPath();
+        mainCtx.moveTo(x, 0);
+        mainCtx.lineTo(x, h);
+        mainCtx.stroke();
+      }
+      
+      for (let i = 0; i <= 4; i++) {
+        const y = (i / 4) * h;
+        mainCtx.beginPath();
+        mainCtx.moveTo(0, y);
+        mainCtx.lineTo(w, y);
+        mainCtx.stroke();
+      }
+      
+      const visibleEvents = events.filter(e => e <= currentTime);
+      const maxIntensity = Math.max(5, (isFinite(computeMeanIntensity()) ? computeMeanIntensity() * 1.5 : 10));
+      
+      // Intensity curve
+      mainCtx.beginPath();
+      mainCtx.strokeStyle = colors.cyan;
+      mainCtx.lineWidth = 2;
+      
+      let started = false;
+      for (let px = 0; px < w; px++) {
+        const t = (px / w) * timeWindow;
+        if (t > currentTime) break;
+        
+        const intensity = computeIntensity(t, visibleEvents, selectedKernel);
+        const y = h - (intensity / maxIntensity) * h * 0.85;
+        const clampedY = clamp(y, 5, h - 5);
+        
+        if (!started) {
+          mainCtx.moveTo(px, clampedY);
+          started = true;
+        } else {
+          mainCtx.lineTo(px, clampedY);
+        }
+      }
+      mainCtx.stroke();
+      
+      // Fill
+      if (started) {
+        mainCtx.lineTo(Math.min((currentTime / timeWindow) * w, w), h);
+        mainCtx.lineTo(0, h);
+        mainCtx.closePath();
+        mainCtx.fillStyle = withAlpha(colors.cyan, '0.08');
+        mainCtx.fill();
+      }
+
+      // Base rate line
+      const baseY = h - (mu / maxIntensity) * h * 0.85;
+      mainCtx.beginPath();
+      mainCtx.strokeStyle = withAlpha(colors.secondary, '0.4');
+      mainCtx.setLineDash([4, 4]);
+      mainCtx.moveTo(0, baseY);
+      mainCtx.lineTo(w, baseY);
+      mainCtx.stroke();
+      mainCtx.setLineDash([]);
+      
+      // Events
+      for (let i = 0; i < visibleEvents.length; i++) {
+        const event = visibleEvents[i];
+        const x = (event / timeWindow) * w;
+        const prevEvents = visibleEvents.slice(0, i);
+        const intensity = computeIntensity(event, prevEvents, selectedKernel);
+        const y = h - (intensity / maxIntensity) * h * 0.85;
+        const clampedY = clamp(y, 10, h - 10);
+        
+        // Glow
+        const gradient = mainCtx.createRadialGradient(x, clampedY, 0, x, clampedY, safeRadius(12));
+        gradient.addColorStop(0, withAlpha(colors.cyan, '0.35'));
+        gradient.addColorStop(1, withAlpha(colors.cyan, '0'));
+        mainCtx.fillStyle = gradient;
+        mainCtx.beginPath();
+        mainCtx.arc(x, clampedY, safeRadius(12), 0, Math.PI * 2);
+        mainCtx.fill();
+
+        // Marker
+        const genealogyInfo = eventGenealogy[i];
+        mainCtx.fillStyle = genealogyInfo && genealogyInfo.isExogenous ? colors.cyan : '#f472b6';
+        mainCtx.beginPath();
+        mainCtx.arc(x, clampedY, safeRadius(4), 0, Math.PI * 2);
+        mainCtx.fill();
+
+        // Stem
+        mainCtx.strokeStyle = withAlpha(colors.cyan, '0.2');
+        mainCtx.lineWidth = 1;
+        mainCtx.beginPath();
+        mainCtx.moveTo(x, clampedY);
+        mainCtx.lineTo(x, h);
+        mainCtx.stroke();
+      }
+      
+      // Selected time indicator
+      if (selectedTime !== null && selectedTime <= timeWindow) {
+        const selX = (selectedTime / timeWindow) * w;
+        mainCtx.strokeStyle = rgba(244, 114, 182, 0.5);
+        mainCtx.lineWidth = 2;
+        mainCtx.setLineDash([4, 4]);
+        mainCtx.beginPath();
+        mainCtx.moveTo(selX, 0);
+        mainCtx.lineTo(selX, h);
+        mainCtx.stroke();
+        mainCtx.setLineDash([]);
+        
+        // Intensity point
+        const selIntensity = computeIntensity(selectedTime, visibleEvents, selectedKernel);
+        const selY = h - (selIntensity / maxIntensity) * h * 0.85;
+        mainCtx.fillStyle = '#f472b6';
+        mainCtx.beginPath();
+        mainCtx.arc(selX, clamp(selY, 10, h - 10), safeRadius(6), 0, Math.PI * 2);
+        mainCtx.fill();
+      }
+      
+      // Current time line
+      if (currentTime > 0 && currentTime <= timeWindow) {
+        const currX = (currentTime / timeWindow) * w;
+        mainCtx.strokeStyle = withAlpha(colors.primary, '0.2');
+        mainCtx.lineWidth = 1;
+        mainCtx.beginPath();
+        mainCtx.moveTo(currX, 0);
+        mainCtx.lineTo(currX, h);
+        mainCtx.stroke();
+      }
+      
+      // Labels
+      mainCtx.fillStyle = withAlpha(colors.secondary, '0.6');
+      mainCtx.font = '10px "JetBrains Mono", monospace';
+      mainCtx.fillText('Time', w - 28, h - 6);
+      mainCtx.fillText('λ*(t)', 4, 12);
+    }
+    
+    function drawGenealogyCanvas() {
+      if (!genealogyCtx || events.length === 0) return;
+      
+      const w = genealogyCanvas.width / dpr;
+      const h = genealogyCanvas.height / dpr;
+      const timeWindow = 20;
+      const colors = themeColors();
+
+      genealogyCtx.fillStyle = colors.void;
+      genealogyCtx.fillRect(0, 0, w, h);
+      
+      // Build generation levels
+      const levels = new Array(events.length).fill(0);
+      for (let i = 0; i < eventGenealogy.length; i++) {
+        if (eventGenealogy[i].parent >= 0) {
+          levels[i] = levels[eventGenealogy[i].parent] + 1;
+        }
+      }
+      
+      const maxLevel = Math.max(...levels, 1);
+      const levelHeight = h / (maxLevel + 2);
+      
+      // Draw connections
+      genealogyCtx.strokeStyle = rgba(244, 114, 182, 0.3);
+      genealogyCtx.lineWidth = 1;
+      
+      for (let i = 0; i < eventGenealogy.length; i++) {
+        const parent = eventGenealogy[i].parent;
+        if (parent >= 0) {
+          const x1 = (events[parent] / timeWindow) * w;
+          const y1 = (levels[parent] + 1) * levelHeight;
+          const x2 = (events[i] / timeWindow) * w;
+          const y2 = (levels[i] + 1) * levelHeight;
+          
+          genealogyCtx.beginPath();
+          genealogyCtx.moveTo(x1, y1);
+          genealogyCtx.bezierCurveTo(x1 + (x2 - x1) * 0.3, y1, x1 + (x2 - x1) * 0.7, y2, x2, y2);
+          genealogyCtx.stroke();
+        }
+      }
+      
+      // Draw events
+      for (let i = 0; i < events.length; i++) {
+        const x = (events[i] / timeWindow) * w;
+        const y = (levels[i] + 1) * levelHeight;
+        
+        genealogyCtx.fillStyle = eventGenealogy[i].isExogenous ? colors.cyan : '#f472b6';
+        genealogyCtx.beginPath();
+        genealogyCtx.arc(x, y, safeRadius(4), 0, Math.PI * 2);
+        genealogyCtx.fill();
+      }
+    }
+    
+    function drawPhaseCanvas() {
+      if (!phaseCtx) return;
+      
+      const w = phaseCanvas.width / dpr;
+      const h = phaseCanvas.height / dpr;
+      const colors = themeColors();
+
+      phaseCtx.fillStyle = colors.void;
+      phaseCtx.fillRect(0, 0, w, h);
+
+      // Draw regions
+      // Stationary region (green)
+      phaseCtx.fillStyle = withAlpha(colors.cyan, '0.1');
+      phaseCtx.fillRect(0, 0, w, h);
+      
+      // Explosive region (red) - where alpha > beta
+      phaseCtx.beginPath();
+      phaseCtx.moveTo(0, 0);
+      phaseCtx.lineTo(w, 0);
+      phaseCtx.lineTo(w, h);
+      phaseCtx.lineTo(0, h);
+      phaseCtx.closePath();
+      
+      // Draw diagonal boundary
+      phaseCtx.strokeStyle = rgba(248, 113, 113, 0.5);
+      phaseCtx.lineWidth = 2;
+      phaseCtx.beginPath();
+      phaseCtx.moveTo(0, 0);
+      phaseCtx.lineTo(w, h);
+      phaseCtx.stroke();
+      
+      // Fill explosive region
+      phaseCtx.fillStyle = rgba(248, 113, 113, 0.1);
+      phaseCtx.beginPath();
+      phaseCtx.moveTo(0, 0);
+      phaseCtx.lineTo(w, 0);
+      phaseCtx.lineTo(w, h * (2 / 3));
+      phaseCtx.lineTo(0, h * (1 / 3));
+      phaseCtx.closePath();
+      phaseCtx.fill();
+      
+      // Grid
+      phaseCtx.strokeStyle = withAlpha(colors.primary, '0.1');
+      phaseCtx.lineWidth = 1;
+      for (let i = 0.5; i <= 2; i += 0.5) {
+        const y = ((2 - i) / 1.5) * h;
+        phaseCtx.beginPath();
+        phaseCtx.moveTo(0, y);
+        phaseCtx.lineTo(w, y);
+        phaseCtx.stroke();
+      }
+      for (let i = 0.5; i <= 3; i += 0.5) {
+        const x = (i / 3) * w;
+        phaseCtx.beginPath();
+        phaseCtx.moveTo(x, 0);
+        phaseCtx.lineTo(x, h);
+        phaseCtx.stroke();
+      }
+      
+      // Labels
+      phaseCtx.fillStyle = withAlpha(colors.secondary, '0.6');
+      phaseCtx.font = '9px "JetBrains Mono", monospace';
+      phaseCtx.fillText('α', w - 12, h - 6);
+      phaseCtx.fillText('β', 4, 12);
+      
+      // Update phase point position
+      const pointX = clamp((alpha / 2) * w, 6, w - 6);
+      const pointY = clamp(((2 - beta) / 1.5) * h, 6, h - 6);
+      
+      const phasePoint = document.getElementById('phase-point');
+      if (phasePoint) {
+        phasePoint.style.left = pointX + 'px';
+        phasePoint.style.top = pointY + 'px';
+        phasePoint.style.background = alpha / beta < 1 ? 'var(--accent)' : 'var(--error)';
+        phasePoint.style.boxShadow = alpha / beta < 1 ? '0 0 12px var(--accent)' : '0 0 12px var(--error)';
+      }
+    }
+    
+    function drawKernelCanvas() {
+      if (!kernelCtx) return;
+      
+      const w = kernelCanvas.width / dpr;
+      const h = kernelCanvas.height / dpr;
+      const maxT = 5;
+      const tc = themeColors();
+
+      kernelCtx.fillStyle = tc.void;
+      kernelCtx.fillRect(0, 0, w, h);
+
+      // Grid
+      kernelCtx.strokeStyle = withAlpha(tc.primary, '0.1');
+      kernelCtx.lineWidth = 1;
+      for (let i = 0; i <= maxT; i++) {
+        const x = (i / maxT) * w;
+        kernelCtx.beginPath();
+        kernelCtx.moveTo(x, 0);
+        kernelCtx.lineTo(x, h);
+        kernelCtx.stroke();
+      }
+      
+      // Draw all kernels with reduced opacity
+      const kernels = ['exponential', 'power', 'gaussian'];
+      const colors = [tc.cyan, '#f472b6', tc.gold];
+      
+      kernels.forEach((k, idx) => {
+        kernelCtx.beginPath();
+        kernelCtx.strokeStyle = rgba(
+          parseInt(colors[idx].slice(1,3), 16),
+          parseInt(colors[idx].slice(3,5), 16),
+          parseInt(colors[idx].slice(5,7), 16),
+          k === selectedKernel ? 1 : 0.3
+        );
+        kernelCtx.lineWidth = k === selectedKernel ? 2 : 1;
+        
+        for (let px = 0; px < w; px++) {
+          const t = (px / w) * maxT;
+          const val = kernelFunction(t, k);
+          const y = h - (val / alpha) * h * 0.9;
+          
+          if (px === 0) kernelCtx.moveTo(px, clamp(y, 5, h - 5));
+          else kernelCtx.lineTo(px, clamp(y, 5, h - 5));
+        }
+        kernelCtx.stroke();
+      });
+      
+      // Labels
+      kernelCtx.fillStyle = withAlpha(tc.secondary, '0.6');
+      kernelCtx.font = '9px "JetBrains Mono", monospace';
+      kernelCtx.fillText('t', w - 10, h - 6);
+      kernelCtx.fillText('g(t)', 4, 12);
+    }
+    
+    function drawEnsembleCanvas() {
+      if (!ensembleCtx) return;
+      
+      const w = ensembleCanvas.width / dpr;
+      const h = ensembleCanvas.height / dpr;
+      const timeWindow = 20;
+      const colors = themeColors();
+
+      ensembleCtx.fillStyle = colors.void;
+      ensembleCtx.fillRect(0, 0, w, h);
+
+      // Grid
+      ensembleCtx.strokeStyle = withAlpha(colors.primary, '0.1');
+      ensembleCtx.lineWidth = 1;
+      for (let i = 0; i <= timeWindow; i += 5) {
+        const x = (i / timeWindow) * w;
+        ensembleCtx.beginPath();
+        ensembleCtx.moveTo(x, 0);
+        ensembleCtx.lineTo(x, h);
+        ensembleCtx.stroke();
+      }
+      
+      if (ensembleRuns.length === 0) {
+        ensembleCtx.fillStyle = withAlpha(colors.secondary, '0.4');
+        ensembleCtx.font = '11px Inter, sans-serif';
+        ensembleCtx.textAlign = 'center';
+        ensembleCtx.fillText('Click "Run Ensemble" to generate realizations', w/2, h/2);
+        ensembleCtx.textAlign = 'left';
+        return;
+      }
+      
+      // Count events at each time point
+      const maxEvents = Math.max(...ensembleRuns.map(run => run.length), 10);
+      
+      // Draw individual realizations
+      ensembleRuns.forEach((run, idx) => {
+        ensembleCtx.beginPath();
+        ensembleCtx.strokeStyle = withAlpha(colors.cyan, '0.15');
+        ensembleCtx.lineWidth = 1;
+        
+        for (let px = 0; px < w; px++) {
+          const t = (px / w) * timeWindow;
+          const count = run.filter(e => e <= t).length;
+          const y = h - (count / maxEvents) * h * 0.9;
+          
+          if (px === 0) ensembleCtx.moveTo(px, y);
+          else ensembleCtx.lineTo(px, y);
+        }
+        ensembleCtx.stroke();
+      });
+      
+      // Draw mean
+      const meanLine = [];
+      for (let px = 0; px < w; px++) {
+        const t = (px / w) * timeWindow;
+        let sum = 0;
+        ensembleRuns.forEach(run => {
+          sum += run.filter(e => e <= t).length;
+        });
+        meanLine.push(sum / ensembleRuns.length);
+      }
+      
+      ensembleCtx.beginPath();
+      ensembleCtx.strokeStyle = colors.cyan;
+      ensembleCtx.lineWidth = 2;
+      meanLine.forEach((val, px) => {
+        const y = h - (val / maxEvents) * h * 0.9;
+        if (px === 0) ensembleCtx.moveTo(px, y);
+        else ensembleCtx.lineTo(px, y);
+      });
+      ensembleCtx.stroke();
+      
+      // Update stats
+      const finalCounts = ensembleRuns.map(run => run.length);
+      const meanCount = finalCounts.reduce((a, b) => a + b, 0) / finalCounts.length;
+      const stdCount = Math.sqrt(finalCounts.reduce((sum, c) => sum + (c - meanCount) ** 2, 0) / finalCounts.length);
+      const theoreticalN = computeMeanIntensity() * timeWindow;
+      
+      document.getElementById('ensemble-mean-events').textContent = meanCount.toFixed(1);
+      document.getElementById('ensemble-std-events').textContent = stdCount.toFixed(1);
+      document.getElementById('theoretical-n').textContent = isFinite(theoreticalN) ? theoreticalN.toFixed(1) : '∞';
+    }
+    
+    function drawQQCanvas() {
+      if (!qqCtx) return;
+      
+      const w = qqCanvas.width / dpr;
+      const h = qqCanvas.height / dpr;
+      const colors = themeColors();
+
+      qqCtx.fillStyle = colors.void;
+      qqCtx.fillRect(0, 0, w, h);
+
+      // Identity line
+      qqCtx.strokeStyle = withAlpha(colors.secondary, '0.3');
+      qqCtx.lineWidth = 1;
+      qqCtx.setLineDash([3, 3]);
+      qqCtx.beginPath();
+      qqCtx.moveTo(0, h);
+      qqCtx.lineTo(w, 0);
+      qqCtx.stroke();
+      qqCtx.setLineDash([]);
+      
+      if (events.length < 2) return;
+      
+      const residuals = computeResiduals(events, currentTime);
+      if (residuals.length === 0) return;
+      
+      residuals.sort((a, b) => a - b);
+      const n = residuals.length;
+      const maxRes = Math.max(...residuals, 1);
+      
+      // Points
+      qqCtx.fillStyle = colors.cyan;
+      for (let i = 0; i < n; i++) {
+        const theoretical = -Math.log(1 - (i + 0.5) / n);
+        const x = (theoretical / maxRes) * w;
+        const y = h - (residuals[i] / maxRes) * h;
+        qqCtx.beginPath();
+        qqCtx.arc(clamp(x, 2, w-2), clamp(y, 2, h-2), safeRadius(2), 0, Math.PI * 2);
+        qqCtx.fill();
+      }
+    }
+    
+    // ========================================
+    // UI UPDATE FUNCTIONS
+    // ========================================
+    
+    function updateStats() {
+      const visibleEvents = events.filter(e => e <= currentTime);
+      const currentIntensity = computeIntensity(currentTime, visibleEvents, selectedKernel);
+      const meanInt = computeMeanIntensity();
+      
+      document.getElementById('stat-events').textContent = visibleEvents.length;
+      document.getElementById('stat-intensity').textContent = currentIntensity.toFixed(2);
+      document.getElementById('stat-mean').textContent = isFinite(meanInt) ? meanInt.toFixed(2) : '∞';
+      
+      // Sidebar quick stats
+      document.getElementById('quick-events').textContent = visibleEvents.length;
+      document.getElementById('quick-intensity').textContent = currentIntensity.toFixed(2);
+      document.getElementById('quick-mean').textContent = isFinite(meanInt) ? meanInt.toFixed(2) : '∞';
+      
+      // Exogenous ratio
+      if (visibleEvents.length > 0 && isFinite(meanInt)) {
+        const exogRatio = (mu / meanInt * 100).toFixed(0);
+        document.getElementById('stat-exogenous').textContent = exogRatio + '%';
+      } else {
+        document.getElementById('stat-exogenous').textContent = '—';
+      }
+      
+      // KS test
+      const residuals = computeResiduals(visibleEvents, currentTime);
+      if (residuals.length > 1) {
+        residuals.sort((a, b) => a - b);
+        const n = residuals.length;
+        let maxDiff = 0;
+        for (let i = 0; i < n; i++) {
+          const empirical = (i + 1) / n;
+          const theoretical = 1 - Math.exp(-residuals[i]);
+          maxDiff = Math.max(maxDiff, Math.abs(empirical - theoretical));
+        }
+        const pval = Math.max(0, Math.min(1, 1 - maxDiff * Math.sqrt(n)));
+        document.getElementById('ks-pval').textContent = pval.toFixed(2);
+      }
+    }
+    
+    function updateBranchingRatio() {
+      const n = alpha / beta;
+      document.getElementById('branching-ratio').textContent = n.toFixed(2);
+      document.getElementById('stability-sublabel').textContent = `n = ${n.toFixed(2)}`;
+      
+      const statusIndicator = document.getElementById('status-indicator');
+      const statusDot = document.getElementById('status-dot');
+      
+      if (n < 1) {
+        document.getElementById('process-type').textContent = 'Stationary';
+        document.getElementById('process-type').style.color = 'var(--accent)';
+        document.getElementById('process-desc').textContent = 'Finite expected intensity';
+        document.getElementById('stability-label').textContent = 'Stationary';
+        statusIndicator.style.borderColor = 'var(--accent)';
+        statusDot.style.background = 'var(--accent)';
+        
+        document.getElementById('val-stationarity').className = 'validation-status pass';
+        document.getElementById('val-stationarity').innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><span>Stationarity</span>';
+      } else {
+        document.getElementById('process-type').textContent = 'Explosive';
+        document.getElementById('process-type').style.color = 'var(--error)';
+        document.getElementById('process-desc').textContent = 'Intensity grows unboundedly';
+        document.getElementById('stability-label').textContent = 'Explosive';
+        statusIndicator.style.borderColor = 'var(--error)';
+        statusDot.style.background = 'var(--error)';
+        
+        document.getElementById('val-stationarity').className = 'validation-status fail';
+        document.getElementById('val-stationarity').innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg><span>Stationarity</span>';
+      }
+      
+      // Update theoretical values
+      const meanInt = computeMeanIntensity();
+      document.getElementById('theoretical-mean').textContent = isFinite(meanInt) ? meanInt.toFixed(2) : '∞';
+      document.getElementById('memory-horizon').textContent = (1/beta).toFixed(2);
+      
+      const cv = n < 1 ? Math.sqrt(1 + 2*n*n/(1-n*n)) : Infinity;
+      document.getElementById('coeff-var').textContent = isFinite(cv) ? cv.toFixed(2) : '∞';
+    }
+    
+    function updateIntensityDecomposition() {
+      if (selectedTime === null || events.length === 0) {
+        document.getElementById('decomp-time').textContent = '—';
+        document.getElementById('decomp-total').textContent = '—';
+        document.getElementById('decomp-base-val').textContent = '—';
+        document.getElementById('decomp-excite-val').textContent = '—';
+        document.getElementById('decomp-base-bar').style.width = '0%';
+        document.getElementById('decomp-excite-bar').style.width = '0%';
+        document.getElementById('contribution-list').innerHTML = '<div class="text-xs text-muted text-center py-4">Select a time point to see contributions</div>';
+        return;
+      }
+      
+      const visibleEvents = events.filter(e => e <= selectedTime);
+      const decomp = computeIntensityDecomposition(selectedTime, visibleEvents);
+      
+      document.getElementById('decomp-time').textContent = selectedTime.toFixed(2);
+      document.getElementById('decomp-total').textContent = decomp.total.toFixed(3);
+      document.getElementById('decomp-base-val').textContent = decomp.base.toFixed(3);
+      document.getElementById('decomp-excite-val').textContent = decomp.excitation.toFixed(3);
+      
+      const basePct = (decomp.base / decomp.total * 100);
+      const excitePct = (decomp.excitation / decomp.total * 100);
+      
+      document.getElementById('decomp-base-bar').style.width = basePct + '%';
+      document.getElementById('decomp-excite-bar').style.width = excitePct + '%';
+      
+      // Contribution list
+      const listHtml = decomp.contributions.slice(0, 10).map((c, i) => `
+        <div class="flex justify-between items-center py-1 px-2 ${i % 2 === 0 ? 'bg-hi' : ''} rounded text-xs">
+          <span class="text-muted">t = ${c.time.toFixed(2)}</span>
+          <span class="mono text-trigger">+${c.contribution.toFixed(4)}</span>
+          <span class="text-muted">(${c.dt.toFixed(2)} ago)</span>
+        </div>
+      `).join('');
+      
+      document.getElementById('contribution-list').innerHTML = listHtml || '<div class="text-xs text-muted text-center py-4">No past events</div>';
+    }
+    
+    function updateEventGenealogy() {
+      if (eventGenealogy.length === 0) {
+        document.getElementById('exog-count').textContent = '0';
+        document.getElementById('endog-count').textContent = '0';
+        document.getElementById('avg-children').textContent = '0.00';
+        document.getElementById('event-log').innerHTML = `
+          <div class="event-row bg-hi text-muted">
+            <span>#</span><span>Time</span><span>Type</span><span>Children</span>
+          </div>
+        `;
+        return;
+      }
+      
+      const exogCount = eventGenealogy.filter(e => e.isExogenous).length;
+      const endogCount = eventGenealogy.length - exogCount;
+      const totalChildren = eventGenealogy.reduce((sum, e) => sum + e.children.length, 0);
+      const avgChildren = eventGenealogy.length > 0 ? totalChildren / eventGenealogy.length : 0;
+      
+      document.getElementById('exog-count').textContent = exogCount;
+      document.getElementById('endog-count').textContent = endogCount;
+      document.getElementById('avg-children').textContent = avgChildren.toFixed(2);
+      
+      // Event log
+      const logHtml = eventGenealogy.slice(-20).map((e, i) => {
+        const idx = eventGenealogy.length - 20 + i;
+        return `
+          <div class="event-row">
+            <span class="text-muted">${idx + 1}</span>
+            <span class="mono">${e.time.toFixed(2)}</span>
+            <span>${e.isExogenous ? '<span class="badge badge-exogenous">EXOG</span>' : '<span class="badge badge-endogenous">ENDO</span>'}</span>
+            <span class="mono">${e.children.length}</span>
+          </div>
+        `;
+      }).join('');
+      
+      document.getElementById('event-log').innerHTML = `
+        <div class="event-row bg-hi text-muted">
+          <span>#</span><span>Time</span><span>Type</span><span>Children</span>
+        </div>
+        ${logHtml}
+      `;
+      
+      drawGenealogyCanvas();
+    }
+    
+    // ========================================
+    // ANIMATION LOOP
+    // ========================================
+    
+    function animate() {
+      if (!isPaused && currentTime < 20) {
+        currentTime += simulationSpeed;
+        drawMainCanvas();
+        updateStats();
+        drawQQCanvas();
+      }
+      animationId = requestAnimationFrame(animate);
+    }
+    
+    // ========================================
+    // EVENT HANDLERS
+    // ========================================
+    
+    function runSimulation() {
+      const result = simulateHawkes(20, mu, alpha, beta);
+      events = result.events;
+      eventGenealogy = result.genealogy;
+      currentTime = 0;
+      selectedTime = null;
+      isPaused = false;
+      document.getElementById('pause-btn-text').textContent = 'Pause';
+      
+      drawMainCanvas();
+      drawGenealogyCanvas();
+      drawPhaseCanvas();
+      drawQQCanvas();
+      updateStats();
+      updateBranchingRatio();
+      updateEventGenealogy();
+      updateIntensityDecomposition();
+    }
+    
+    function togglePause() {
+      isPaused = !isPaused;
+      document.getElementById('pause-btn-text').textContent = isPaused ? 'Resume' : 'Pause';
+    }
+    
+    function resetSimulation() {
+      events = [];
+      eventGenealogy = [];
+      currentTime = 0;
+      selectedTime = null;
+      isPaused = false;
+      document.getElementById('pause-btn-text').textContent = 'Pause';
+      
+      drawMainCanvas();
+      drawGenealogyCanvas();
+      drawQQCanvas();
+      updateStats();
+      updateEventGenealogy();
+      updateIntensityDecomposition();
+    }
+    
+    function runEnsemble() {
+      ensembleRuns = [];
+      for (let i = 0; i < 20; i++) {
+        const result = simulateHawkes(20, mu, alpha, beta);
+        ensembleRuns.push(result.events);
+      }
+      document.getElementById('ensemble-n').textContent = ensembleRuns.length;
+      drawEnsembleCanvas();
+    }
+    
+    function switchMainTab(btn) {
+      document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      
+      const tabName = btn.dataset.tab;
+      document.getElementById('tab-simulate').style.display = tabName === 'simulate' ? 'block' : 'none';
+      document.getElementById('tab-explore').style.display = tabName === 'explore' ? 'block' : 'none';
+      
+      if (tabName === 'explore') {
+        drawPhaseCanvas();
+        drawKernelCanvas();
+        drawGenealogyCanvas();
+        drawEnsembleCanvas();
+      }
+    }
+    
+    function switchSubTab(btn) {
+      document.querySelectorAll('.subtab-btn').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      
+      document.querySelectorAll('.subtab-content').forEach(c => c.style.display = 'none');
+      document.getElementById('subtab-' + btn.dataset.subtab).style.display = 'block';
+      
+      // Redraw relevant canvas
+      if (btn.dataset.subtab === 'genealogy') drawGenealogyCanvas();
+      if (btn.dataset.subtab === 'phase') drawPhaseCanvas();
+      if (btn.dataset.subtab === 'kernel') drawKernelCanvas();
+      if (btn.dataset.subtab === 'ensemble') drawEnsembleCanvas();
+    }
+    
+    function toggleSection(header) {
+      const content = header.nextElementSibling;
+      const icon = header.querySelector('svg');
+      content.classList.toggle('open');
+      icon.style.transform = content.classList.contains('open') ? 'rotate(180deg)' : '';
+    }
+    
+    // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+
+    // ========================================
+    // INITIALIZATION
+    // ========================================
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get canvas elements
+      mainCanvas = document.getElementById('main-canvas');
+      genealogyCanvas = document.getElementById('genealogy-canvas');
+      phaseCanvas = document.getElementById('phase-canvas');
+      kernelCanvas = document.getElementById('kernel-canvas');
+      ensembleCanvas = document.getElementById('ensemble-canvas');
+      qqCanvas = document.getElementById('qq-canvas');
+      
+      if (!mainCanvas) return;
+      
+      // Get contexts
+      mainCtx = mainCanvas.getContext('2d');
+      genealogyCtx = genealogyCanvas ? genealogyCanvas.getContext('2d') : null;
+      phaseCtx = phaseCanvas ? phaseCanvas.getContext('2d') : null;
+      kernelCtx = kernelCanvas ? kernelCanvas.getContext('2d') : null;
+      ensembleCtx = ensembleCanvas ? ensembleCanvas.getContext('2d') : null;
+      qqCtx = qqCanvas ? qqCanvas.getContext('2d') : null;
+      
+      dpr = window.devicePixelRatio || 1;
+      
+      // Resize function
+      function resizeCanvas(canvasEl, w, h) {
+        if (!canvasEl) return;
+        canvasEl.width = w * dpr;
+        canvasEl.height = h * dpr;
+        canvasEl.style.width = w + 'px';
+        canvasEl.style.height = h + 'px';
+        canvasEl.getContext('2d').scale(dpr, dpr);
+      }
+      
+      function resizeAll() {
+        const mainRect = mainCanvas.parentElement.getBoundingClientRect();
+        mainCanvasW = mainRect.width;
+        mainCanvasH = mainRect.height;
+        resizeCanvas(mainCanvas, mainCanvasW, mainCanvasH);
+        
+        if (genealogyCanvas) {
+          const gRect = genealogyCanvas.parentElement.getBoundingClientRect();
+          resizeCanvas(genealogyCanvas, gRect.width, gRect.height);
+        }
+        if (phaseCanvas) {
+          const pRect = phaseCanvas.parentElement.getBoundingClientRect();
+          resizeCanvas(phaseCanvas, pRect.width, pRect.height);
+        }
+        if (kernelCanvas) {
+          const kRect = kernelCanvas.parentElement.getBoundingClientRect();
+          resizeCanvas(kernelCanvas, kRect.width, kRect.height);
+        }
+        if (ensembleCanvas) {
+          const eRect = ensembleCanvas.parentElement.getBoundingClientRect();
+          resizeCanvas(ensembleCanvas, eRect.width, eRect.height);
+        }
+        if (qqCanvas) {
+          const qRect = qqCanvas.parentElement.getBoundingClientRect();
+          resizeCanvas(qqCanvas, qRect.width, qRect.height);
+        }
+        
+        drawMainCanvas();
+        drawPhaseCanvas();
+        drawKernelCanvas();
+      }
+      
+      resizeAll();
+      window.addEventListener('resize', resizeAll);
+      
+      // Parameter sliders
+      document.getElementById('mu-slider').addEventListener('input', function() {
+        mu = parseFloat(this.value);
+        document.getElementById('mu-value').textContent = mu.toFixed(2);
+        updateBranchingRatio();
+        drawPhaseCanvas();
+      });
+      
+      document.getElementById('alpha-slider').addEventListener('input', function() {
+        alpha = parseFloat(this.value);
+        document.getElementById('alpha-value').textContent = alpha.toFixed(2);
+        updateBranchingRatio();
+        drawPhaseCanvas();
+        drawKernelCanvas();
+      });
+      
+      document.getElementById('beta-slider').addEventListener('input', function() {
+        beta = parseFloat(this.value);
+        document.getElementById('beta-value').textContent = beta.toFixed(1);
+        updateBranchingRatio();
+        drawPhaseCanvas();
+        drawKernelCanvas();
+      });
+      
+      document.getElementById('speed-slider').addEventListener('input', function() {
+        simulationSpeed = parseFloat(this.value);
+      });
+      
+      // Kernel selection
+      document.querySelectorAll('input[name="kernel"]').forEach(radio => {
+        radio.addEventListener('change', function() {
+          selectedKernel = this.value;
+          drawKernelCanvas();
+          drawMainCanvas();
+        });
+      });
+      
+      // Canvas click for intensity decomposition
+      mainCanvas.addEventListener('click', function(e) {
+        const rect = mainCanvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const timeWindow = 20;
+        selectedTime = (x / rect.width) * timeWindow;
+        updateIntensityDecomposition();
+        drawMainCanvas();
+      });
+      
+      // Canvas mousemove for tooltip
+      const tooltip = document.getElementById('intensity-tooltip');
+      
+      mainCanvas.addEventListener('mousemove', function(e) {
+        const rect = mainCanvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const timeWindow = 20;
+        const t = (x / rect.width) * timeWindow;
+        
+        const visibleEvents = events.filter(e => e <= Math.min(t, currentTime));
+        const intensity = computeIntensity(Math.min(t, currentTime), visibleEvents, selectedKernel);
+        const decomp = computeIntensityDecomposition(Math.min(t, currentTime), visibleEvents);
+        
+        document.getElementById('tooltip-time').textContent = Math.min(t, currentTime).toFixed(2);
+        document.getElementById('tooltip-intensity').textContent = intensity.toFixed(3);
+        document.getElementById('tooltip-base').textContent = decomp.base.toFixed(3);
+        document.getElementById('tooltip-excitation').textContent = decomp.excitation.toFixed(3);
+        document.getElementById('tooltip-contributors').textContent = decomp.contributions.length;
+        
+        tooltip.style.left = (e.clientX + 12) + 'px';
+        tooltip.style.top = (e.clientY + 12) + 'px';
+        tooltip.classList.add('visible');
+      });
+      
+      mainCanvas.addEventListener('mouseleave', function() {
+        tooltip.classList.remove('visible');
+      });
+      
+      // Navigation
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.nav-link');
+      
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            navLinks.forEach(function(link) {
+              link.classList.remove('active');
+              if (link.getAttribute('href') === '#' + entry.target.id) {
+                link.classList.add('active');
+              }
+            });
+          }
+        });
+      }, { rootMargin: '-20% 0px -80% 0px' });
+      
+      sections.forEach(function(section) { observer.observe(section); });
+      
+      // Animate on scroll
+      const animateObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      document.querySelectorAll('.animate-in').forEach(function(el) {
+        animateObserver.observe(el);
+      });
+      
+      // Initial setup
+      updateBranchingRatio();
+      runSimulation();
+      animate();
+      initTocHighlight();
+      initAmbient();
+    });
+
+    // Redraw canvas-drawn visuals when the site theme changes
+    window.addEventListener('epistecnica-theme', function() {
+      drawMainCanvas();
+      drawPhaseCanvas();
+      drawKernelCanvas();
+      drawGenealogyCanvas();
+      drawEnsembleCanvas();
+      drawQQCanvas();
+    });
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+</body>
+</html>

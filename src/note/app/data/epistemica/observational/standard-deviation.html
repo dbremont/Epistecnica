@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standard Deviation — Epistemic Notebook</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .site-nav .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens */
+    :root {
+      --bg: var(--bg-void);
+      --bg-elevated: var(--bg-surface);
+      --fg: var(--text-primary);
+      --fg-muted: var(--text-secondary);
+      --fg-dim: var(--text-muted);
+      --accent: var(--accent-gold);
+      --accent-dim: var(--accent-gold-dim);
+      --border: var(--border-subtle);
+      --positive: #4ade80;
+      --negative: #f87171;
+      --neutral: #60a5fa;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: var(--font-display);
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    .font-mono {
+      font-family: var(--font-mono);
+    }
+
+    .font-serif {
+      font-family: var(--font-display);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--fg-dim);
+    }
+
+    /* Focus states */
+    *:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Custom components */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      position: relative;
+    }
+
+    .formula-box {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: var(--font-mono);
+    }
+
+    .data-point {
+      transition: all 0.15s ease;
+    }
+
+    .data-point:hover {
+      transform: scale(1.3);
+    }
+
+    .interactive-area {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .slider-track {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      outline: none;
+    }
+
+    .slider-track::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      background: var(--accent);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.15s ease;
+    }
+
+    .slider-track::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+    }
+
+    .slider-track::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      background: var(--accent);
+      border-radius: 50%;
+      cursor: pointer;
+      border: none;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--fg-muted);
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--fg-dim);
+      color: var(--fg);
+    }
+
+    .tab-btn.active {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .nav-link {
+      color: var(--fg-muted);
+      text-decoration: none;
+      transition: color 0.15s ease;
+      font-size: 0.8rem;
+    }
+
+    .nav-link:hover {
+      color: var(--accent);
+    }
+
+    .metric-value {
+      font-family: var(--font-mono);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .metric-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--fg-muted);
+    }
+
+    /* Animation */
+    @keyframes fadeSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-in {
+      animation: fadeSlideIn 0.5s ease forwards;
+    }
+
+    .delay-1 { animation-delay: 0.1s; opacity: 0; }
+    .delay-2 { animation-delay: 0.2s; opacity: 0; }
+    .delay-3 { animation-delay: 0.3s; opacity: 0; }
+    .delay-4 { animation-delay: 0.4s; opacity: 0; }
+
+    /* Canvas container */
+    .canvas-container {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      min-height: 200px;
+    }
+
+    .canvas-container canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: absolute;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      z-index: 100;
+    }
+
+    .tooltip.visible {
+      opacity: 1;
+    }
+
+    /* Step indicator */
+    .step-indicator {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-weight: 600;
+      border: 2px solid var(--border);
+      color: var(--fg-muted);
+      transition: all 0.2s ease;
+    }
+
+    .step-indicator.active {
+      border-color: var(--accent);
+      background: var(--accent-dim);
+      color: var(--accent);
+    }
+
+    .step-indicator.completed {
+      border-color: var(--positive);
+      background: rgba(74, 222, 128, 0.15);
+      color: var(--positive);
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      position: relative;
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body section[id] { scroll-margin-top: 6rem; }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
+    /* ---- heading face ---- */
+    h1, h2, h3 {
+      font-family: var(--font-display);
+    }
+
+    /* ---- utility shim (replaces the Tailwind CDN) ---- */
+    h1, h2, h3, h4, h5, h6, p { margin: 0; }
+    ul { list-style: none; margin: 0; padding: 0; }
+    a { text-decoration: none; }
+    table { border-collapse: collapse; }
+    .sticky { position: sticky; }
+    .top-0 { top: 0; }
+    .left-0 { left: 0; }
+    .right-0 { right: 0; }
+    .z-50 { z-index: 50; }
+    .flex { display: flex; }
+    .grid { display: grid; }
+    .flex-1 { flex: 1 1 0%; }
+    .items-center { align-items: center; }
+    .items-start { align-items: flex-start; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .overflow-x-auto { overflow-x: auto; }
+    .cursor-pointer { cursor: pointer; }
+    .w-4 { width: 1rem; }
+    .w-5 { width: 1.25rem; }
+    .w-8 { width: 2rem; }
+    .w-32 { width: 8rem; }
+    .w-48 { width: 12rem; }
+    .w-full { width: 100%; }
+    .h-4 { height: 1rem; }
+    .h-5 { height: 1.25rem; }
+    .h-8 { height: 2rem; }
+    .max-w-2xl { max-width: 42rem; }
+    .max-w-6xl { max-width: 72rem; }
+    .p-2 { padding: 0.5rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-6 { padding: 1.5rem; }
+    .px-4 { padding-left: 1rem; padding-right: 1rem; }
+    .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+    .pt-4 { padding-top: 1rem; }
+    .pt-8 { padding-top: 2rem; }
+    .pb-4 { padding-bottom: 1rem; }
+    .pb-16 { padding-bottom: 4rem; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .mb-16 { margin-bottom: 4rem; }
+    .mb-20 { margin-bottom: 5rem; }
+    .ml-2 { margin-left: 0.5rem; }
+    .mx-4 { margin-left: 1rem; margin-right: 1rem; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-6 { gap: 1.5rem; }
+    .gap-8 { gap: 2rem; }
+    .space-y-1 > * + * { margin-top: 0.25rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .text-xs { font-size: 0.75rem; line-height: 1.5; }
+    .text-sm { font-size: 0.875rem; line-height: 1.5; }
+    .text-base { font-size: 1rem; line-height: 1.6; }
+    .text-lg { font-size: 1.125rem; line-height: 1.6; }
+    .text-xl { font-size: 1.25rem; line-height: 1.6; }
+    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+    .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+    .font-semibold { font-weight: 600; }
+    .tracking-tight { letter-spacing: -0.025em; }
+    .tracking-widest { letter-spacing: 0.1em; }
+    .leading-relaxed { line-height: 1.7; }
+    .text-left { text-align: left; }
+    .text-center { text-align: center; }
+    .rounded { border-radius: 0.25rem; }
+    .border-t { border-top: 1px solid var(--border); }
+    .border-b { border-bottom: 1px solid var(--border); }
+    .muted { color: var(--fg-muted); }
+    .dim { color: var(--fg-dim); }
+    .fg-clr { color: var(--fg); }
+    .accent-text { color: var(--accent); }
+    .pos { color: var(--positive); }
+    .neg { color: var(--negative); }
+    .neu { color: var(--neutral); }
+    .bg-accent-dim { background: var(--accent-dim); }
+    .hover-bdr-acc:hover { border-color: var(--accent); }
+    .radio-accent { accent-color: var(--accent); }
+    .backdrop-blur { backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+    .transition-all { transition: all 0.15s ease; }
+    .transition-transform { transition: transform 0.2s ease; }
+    .group[open] .group-open\:rotate-180 { transform: rotate(180deg); }
+    .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    @media (min-width: 768px) {
+      .md\:col-span-2 { grid-column: span 2 / span 2; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md\:grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+      .md\:text-5xl { font-size: 3rem; line-height: 1.1; }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="nav-links"><a href="../../../index.html">Catalog</a></div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../index.html">notes</a><span class="sep">/</span><a href="../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><span class="here">standard-deviation</span></div>
+      <h1 class="note-title">Standard Deviation</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#distributional</span>
+        <span class="chip">#diagnostic</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A measure of dispersion that quantifies how much individual observations deviate from the central tendency — encoding uncertainty about the typical value.</p>
+            </blockquote>
+
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+              <li><a href="#identity">Identity</a></li>
+              <li><a href="#formal">Formal Characterization</a></li>
+              <li><a href="#mechanism">Mechanism</a></li>
+              <li><a href="#playground">Interactive Playground</a></li>
+              <li><a href="#sample-population">Sample vs Population</a></li>
+              <li><a href="#limits">Scope &amp; Limits</a></li>
+              <li><a href="#diagnostics">Diagnostic Questions</a></li>
+              <li><a href="#comparative">Comparative Position</a></li>
+              <li><a href="#references">References</a> — sources &amp; schema</li>
+            </ul>
+
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Concrete Epistemic Artifact</strong> — a computed dispersion claim about one dataset — produced by applying an <strong>Epistemic Operator</strong> (the σ formula over squared deviations), and usable as an <strong>Epistemic Standard</strong> (normal-interval and failure-mode checks). Schema: <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>σ = √(Σ(xᵢ − μ)² / n): the <strong>root-mean-square deviation from the arithmetic mean</strong> — the "typical distance" of points from center, built from three constituents (mean, squared deviation, square root). Type: <strong>Compressive / Diagnostic descriptive statistic</strong> within the epistemic toolbox.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>It resolves the epistemic gap of <strong>mean reliability</strong> — without dispersion measures, central tendency is epistemically incomplete. It preserves relative ordering of distances, magnitude relationships, and the same units as the original data; it destroys direction of deviations, distribution shape, individual observation positions, and temporal ordering.</p>
+            </blockquote>
+
+    <!-- Identity Section -->
+    <section id="identity" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">01</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Identity</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="section-card p-6 animate-in delay-1">
+          <div class="metric-label mb-2">Type Classification</div>
+          <div class="text-xl font-semibold mb-4">Compressive / Diagnostic</div>
+          <p class="text-sm muted">
+            Standard deviation belongs to the class of <strong class="fg-clr">descriptive statistics</strong> — it compresses a distribution of values into a single scalar that characterizes spread, enabling diagnostic assessment of data homogeneity.
+          </p>
+        </div>
+
+        <div class="section-card p-6 animate-in delay-2">
+          <div class="metric-label mb-2">One-line Summary</div>
+          <div class="text-xl font-semibold mb-4 font-mono text-base">
+            σ = √(Σ(xᵢ - μ)² / n)
+          </div>
+          <p class="text-sm muted">
+            Transforms a collection of observations into a single scalar representing the <strong class="fg-clr">root-mean-square deviation from the arithmetic mean</strong> — quantifying the "typical distance" of points from center.
+          </p>
+        </div>
+
+        <div class="section-card p-6 md:col-span-2 animate-in delay-3">
+          <div class="metric-label mb-4">Epistemic Role</div>
+          <div class="grid md:grid-cols-3 gap-6">
+            <div>
+              <div class="text-sm font-semibold mb-2 pos">Resolves</div>
+              <p class="text-sm muted">Uncertainty about the reliability of the mean as a representative value. Without dispersion measures, central tendency is epistemically incomplete.</p>
+            </div>
+            <div>
+              <div class="text-sm font-semibold mb-2 neu">Preserves</div>
+              <p class="text-sm muted">Relative ordering of distances, magnitude relationships, and (crucially) the same units as the original data — enabling direct interpretation.</p>
+            </div>
+            <div>
+              <div class="text-sm font-semibold mb-2 neg">Destroys</div>
+              <p class="text-sm muted">Direction of deviations (always positive), distribution shape (skew, modality), individual observation positions, and temporal ordering.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formal Characterization -->
+    <section id="formal" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">02</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Formal Characterization</h2>
+      </div>
+
+      <div class="section-card p-6 mb-6">
+        <div class="metric-label mb-4">Transformation Mapping</div>
+        <div class="formula-box p-4 mb-6 text-center">
+          <span class="text-lg">𝒯 : ℝⁿ → ℝ₊</span>
+          <span class="muted mx-4">|</span>
+          <span class="muted">(x₁, x₂, ..., xₙ) ↦ σ</span>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <div class="text-sm font-semibold mb-3">Input Space (𝒜ᵢₙ)</div>
+            <ul class="space-y-2 text-sm muted">
+              <li class="flex items-start gap-2">
+                <span class="accent-text">→</span>
+                A finite set of n real-valued observations
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="accent-text">→</span>
+                Measurements on an interval or ratio scale
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="accent-text">→</span>
+                No requirement on distribution shape
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="text-sm font-semibold mb-3">Output Space (𝒜ₒᵤₜ)</div>
+            <ul class="space-y-2 text-sm muted">
+              <li class="flex items-start gap-2">
+                <span class="accent-text">←</span>
+                A single non-negative real number
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="accent-text">←</span>
+                In the same units as input observations
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="accent-text">←</span>
+                Bounded: σ = 0 iff all values identical
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Formula -->
+      <div class="section-card p-6">
+        <div class="metric-label mb-4">Computational Decomposition</div>
+        <p class="text-sm muted mb-6">Interact with each step to observe the transformation pipeline. Click on data points to modify the input.</p>
+        
+        <div class="grid md:grid-cols-5 gap-4 mb-6" id="formula-steps">
+          <div class="formula-box p-4 text-center cursor-pointer transition-all hover-bdr-acc" data-step="0">
+            <div class="text-xs muted mb-2">STEP 1</div>
+            <div class="font-mono text-sm">xᵢ</div>
+            <div class="text-xs dim mt-2">Raw Data</div>
+          </div>
+          <div class="formula-box p-4 text-center cursor-pointer transition-all hover-bdr-acc" data-step="1">
+            <div class="text-xs muted mb-2">STEP 2</div>
+            <div class="font-mono text-sm">μ = Σxᵢ/n</div>
+            <div class="text-xs dim mt-2">Mean</div>
+          </div>
+          <div class="formula-box p-4 text-center cursor-pointer transition-all hover-bdr-acc" data-step="2">
+            <div class="text-xs muted mb-2">STEP 3</div>
+            <div class="font-mono text-sm">(xᵢ - μ)</div>
+            <div class="text-xs dim mt-2">Deviations</div>
+          </div>
+          <div class="formula-box p-4 text-center cursor-pointer transition-all hover-bdr-acc" data-step="3">
+            <div class="text-xs muted mb-2">STEP 4</div>
+            <div class="font-mono text-sm">(xᵢ - μ)²</div>
+            <div class="text-xs dim mt-2">Squared Diffs</div>
+          </div>
+          <div class="formula-box p-4 text-center cursor-pointer transition-all hover-bdr-acc" data-step="4">
+            <div class="text-xs muted mb-2">STEP 5</div>
+            <div class="font-mono text-sm">σ = √(Σ/n)</div>
+            <div class="text-xs dim mt-2">Result</div>
+          </div>
+        </div>
+
+        <div class="interactive-area p-4">
+          <div class="canvas-container" style="aspect-ratio: 21/9;">
+            <canvas id="formulaCanvas"></canvas>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <div class="flex items-center gap-4">
+              <button id="resetDataBtn" class="tab-btn" aria-label="Reset data to default">Reset</button>
+              <button id="randomDataBtn" class="tab-btn" aria-label="Generate random data">Randomize</button>
+            </div>
+            <div class="flex items-center gap-6 font-mono text-sm">
+              <div>
+                <span class="muted">n = </span>
+                <span id="dataCount" class="fg-clr">8</span>
+              </div>
+              <div>
+                <span class="muted">μ = </span>
+                <span id="meanValue" class="fg-clr">0.00</span>
+              </div>
+              <div>
+                <span class="muted">σ = </span>
+                <span id="sdValue" class="accent-text">0.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mechanism -->
+    <section id="mechanism" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">03</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Mechanism</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mb-6">
+        <div class="section-card p-6">
+          <div class="metric-label mb-3">Constituent 1</div>
+          <div class="font-semibold mb-2">Arithmetic Mean</div>
+          <p class="text-sm muted">The centroid of the data — the point that minimizes the sum of squared deviations. SD is meaningless without this reference point.</p>
+        </div>
+        <div class="section-card p-6">
+          <div class="metric-label mb-3">Constituent 2</div>
+          <div class="font-semibold mb-2">Squared Deviation</div>
+          <p class="text-sm muted">Squaring achieves two goals: it removes sign (direction) and disproportionately penalizes larger deviations — making SD sensitive to outliers.</p>
+        </div>
+        <div class="section-card p-6">
+          <div class="metric-label mb-3">Constituent 3</div>
+          <div class="font-semibold mb-2">Square Root</div>
+          <p class="text-sm muted">Returns the measure to original units, enabling direct interpretation. Without it, we would have variance (σ²) which is harder to interpret.</p>
+        </div>
+      </div>
+
+      <!-- Interactive Sensitivity Demo -->
+      <div class="section-card p-6">
+        <div class="metric-label mb-4">Outlier Sensitivity Analysis</div>
+        <p class="text-sm muted mb-6">Drag the outlier point to observe how standard deviation responds compared to other measures. Note the quadratic sensitivity to extreme values.</p>
+        
+        <div class="interactive-area p-4 mb-4">
+          <div class="canvas-container" style="aspect-ratio: 16/7;">
+            <canvas id="outlierCanvas"></canvas>
+          </div>
+        </div>
+        
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <input type="range" id="outlierSlider" class="slider-track w-48" min="0" max="100" value="50" aria-label="Outlier position">
+            <span class="font-mono text-xs muted ml-2">Outlier Position</span>
+          </div>
+          <div class="grid grid-cols-3 gap-8 font-mono text-sm">
+            <div class="text-center">
+              <div class="text-xs dim">SD</div>
+              <div id="outlierSD" class="accent-text">1.00</div>
+            </div>
+            <div class="text-center">
+              <div class="text-xs dim">MAD</div>
+              <div id="outlierMAD" class="neu">0.74</div>
+            </div>
+            <div class="text-center">
+              <div class="text-xs dim">IQR</div>
+              <div id="outlierIQR" class="muted">1.35</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Playground -->
+    <section id="playground" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">04</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Interactive Playground</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-6">
+        <!-- Distribution Builder -->
+        <div class="section-card p-6">
+          <div class="metric-label mb-4">Distribution Builder</div>
+          <p class="text-sm muted mb-4">Click on the canvas to add points. Observe how SD changes with distribution shape.</p>
+          
+          <div class="interactive-area p-2 mb-4" style="aspect-ratio: 4/3;">
+            <canvas id="builderCanvas"></canvas>
+          </div>
+          
+          <div class="flex items-center justify-between">
+            <button id="clearBuilderBtn" class="tab-btn">Clear All</button>
+            <div class="font-mono text-sm">
+              <span class="muted">σ = </span>
+              <span id="builderSD" class="accent-text">—</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comparison View -->
+        <div class="section-card p-6">
+          <div class="metric-label mb-4">Distribution Comparison</div>
+          <p class="text-sm muted mb-4">Adjust spread to compare identical means with different dispersions.</p>
+          
+          <div class="interactive-area p-2 mb-4" style="aspect-ratio: 4/3;">
+            <canvas id="comparisonCanvas"></canvas>
+          </div>
+          
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="text-xs pos w-8">Low σ</span>
+              <input type="range" id="lowSpreadSlider" class="slider-track flex-1" min="5" max="40" value="10" aria-label="Low spread">
+              <span class="font-mono text-xs pos" id="lowSD">1.0</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-xs neg w-8">High σ</span>
+              <input type="range" id="highSpreadSlider" class="slider-track flex-1" min="5" max="40" value="30" aria-label="High spread">
+              <span class="font-mono text-xs neg" id="highSD">3.0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Normal Distribution Explorer -->
+      <div class="section-card p-6">
+        <div class="metric-label mb-4">Normal Distribution & The 68-95-99.7 Rule</div>
+        <p class="text-sm muted mb-6">For normally distributed data, standard deviation defines probability intervals. Adjust σ to see how coverage changes.</p>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="interactive-area p-4">
+            <div class="canvas-container" style="aspect-ratio: 16/10;">
+              <canvas id="normalCanvas"></canvas>
+            </div>
+            <div class="flex items-center justify-center gap-4 mt-4">
+              <button class="tab-btn normal-zone-btn active" data-zones="1">±1σ</button>
+              <button class="tab-btn normal-zone-btn" data-zones="2">±2σ</button>
+              <button class="tab-btn normal-zone-btn" data-zones="3">±3σ</button>
+            </div>
+          </div>
+          
+          <div class="space-y-4">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm">Standard Deviation (σ)</span>
+                <span class="font-mono text-sm accent-text" id="normalSDValue">1.0</span>
+              </div>
+              <input type="range" id="normalSDSlider" class="slider-track" min="5" max="30" value="10" aria-label="Normal SD">
+            </div>
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm">Mean (μ)</span>
+                <span class="font-mono text-sm" id="normalMeanValue">50</span>
+              </div>
+              <input type="range" id="normalMeanSlider" class="slider-track" min="20" max="80" value="50" aria-label="Normal mean">
+            </div>
+            
+            <div class="border-t pt-4 mt-4">
+              <div class="metric-label mb-3">Coverage Intervals</div>
+              <div class="space-y-2 text-sm">
+                <div class="flex justify-between">
+                  <span class="muted">μ ± 1σ contains:</span>
+                  <span class="font-mono">68.27%</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="muted">μ ± 2σ contains:</span>
+                  <span class="font-mono">95.45%</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="muted">μ ± 3σ contains:</span>
+                  <span class="font-mono">99.73%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sample vs Population -->
+    <section id="sample-population" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">05</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Sample vs Population</h2>
+      </div>
+
+      <div class="section-card p-6">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <div class="metric-label mb-4">Bessel's Correction</div>
+            <p class="text-sm muted mb-4">
+              When estimating population SD from a sample, dividing by (n-1) instead of n produces an <strong class="fg-clr">unbiased estimator</strong>. This correction accounts for the fact that sample variance systematically underestimates population variance.
+            </p>
+            
+            <div class="formula-box p-4 mb-4">
+              <div class="text-xs muted mb-2">Population SD</div>
+              <div class="font-mono text-sm">σ = √(Σ(xᵢ - μ)² / N)</div>
+              <div class="text-xs muted mt-4 mb-2">Sample SD (corrected)</div>
+              <div class="font-mono text-sm">s = √(Σ(xᵢ - x̄)² / (n-1))</div>
+            </div>
+            
+            <div class="flex items-center gap-4">
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="checkbox" id="besselToggle" class="w-4 h-4 radio-accent" checked>
+                <span class="text-sm">Apply Bessel's correction</span>
+              </label>
+            </div>
+          </div>
+          
+          <div>
+            <div class="metric-label mb-4">Convergence Demo</div>
+            <p class="text-sm muted mb-4">
+              Observe how sample SD approaches population SD as sample size increases. The correction matters most for small samples.
+            </p>
+            
+            <div class="interactive-area p-4 mb-4">
+              <div class="canvas-container" style="aspect-ratio: 16/9;">
+                <canvas id="besselCanvas"></canvas>
+              </div>
+            </div>
+            
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <input type="range" id="sampleSizeSlider" class="slider-track w-32" min="3" max="50" value="10" aria-label="Sample size">
+                <span class="font-mono text-xs muted">n = <span id="sampleSizeDisplay">10</span></span>
+              </div>
+              <button id="resampleBtn" class="tab-btn">Resample</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Limits & Failure Modes -->
+    <section id="limits" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">06</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Scope & Limits</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-6">
+        <div class="section-card p-6">
+          <div class="metric-label mb-3">Scope of Applicability</div>
+          <ul class="space-y-3 text-sm muted">
+            <li class="flex items-start gap-2">
+              <span class="pos mt-1">●</span>
+              <span>Interval or ratio scale data (meaningful distances)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="pos mt-1">●</span>
+              <span>Unimodal, approximately symmetric distributions</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="pos mt-1">●</span>
+              <span>Contexts where outliers represent measurement error</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="pos mt-1">●</span>
+              <span>Comparing variability across datasets with similar units</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="section-card p-6">
+          <div class="metric-label mb-3">Structural Limitations</div>
+          <ul class="space-y-3 text-sm muted">
+            <li class="flex items-start gap-2">
+              <span class="neg mt-1">●</span>
+              <span>Not applicable to nominal or ordinal data</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="neg mt-1">●</span>
+              <span>Misleading for multimodal distributions</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="neg mt-1">●</span>
+              <span>Cannot distinguish between different shapes with same spread</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="neg mt-1">●</span>
+              <span>Exponentially sensitive to outliers (non-robust)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Failure Mode Simulator -->
+      <div class="section-card p-6">
+        <div class="metric-label mb-4">Failure Mode Simulator</div>
+        <p class="text-sm muted mb-6">Select a distribution type to see where standard deviation fails to capture the true structure of the data.</p>
+        
+        <div class="flex gap-2 mb-6">
+          <button class="tab-btn failure-mode-btn active" data-mode="bimodal">Bimodal</button>
+          <button class="tab-btn failure-mode-btn" data-mode="skewed">Skewed</button>
+          <button class="tab-btn failure-mode-btn" data-mode="outliers">Contaminated</button>
+          <button class="tab-btn failure-mode-btn" data-mode="uniform">Uniform</button>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="interactive-area p-4">
+            <div class="canvas-container" style="aspect-ratio: 16/10;">
+              <canvas id="failureCanvas"></canvas>
+            </div>
+          </div>
+          
+          <div id="failureExplanation" class="space-y-4">
+            <div>
+              <div class="metric-label mb-2">The Problem</div>
+              <p class="text-sm muted">
+                In a bimodal distribution, the mean falls between the two modes — a region with few or no observations. The standard deviation then measures spread around this meaningless central point, capturing neither the spread within each cluster nor the distance between clusters.
+              </p>
+            </div>
+            <div>
+              <div class="metric-label mb-2">Better Alternatives</div>
+              <ul class="text-sm muted space-y-1">
+                <li>• Report modes and their locations</li>
+                <li>• Use IQR or MAD for robust spread</li>
+                <li>• Apply mixture model decomposition</li>
+              </ul>
+            </div>
+            <div class="formula-box p-3">
+              <div class="text-xs muted mb-1">Current Distribution</div>
+              <div class="font-mono text-sm">σ = <span id="failureSD">2.12</span> | <span class="dim">MAD = <span id="failureMAD">1.48</span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QA Section -->
+    <section id="diagnostics" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">07</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Diagnostic Questions</h2>
+      </div>
+
+      <div class="space-y-4">
+        <details class="section-card group">
+          <summary class="p-4 cursor-pointer flex items-center justify-between">
+            <span class="font-semibold">What happens if assumptions are violated?</span>
+            <svg class="w-5 h-5 muted transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm muted">
+            <p>Standard deviation remains mathematically computable for any set of real numbers. However, its <em>epistemic meaning</em> degrades:</p>
+            <ul class="mt-3 space-y-2">
+              <li>• <strong>Skewed data:</strong> SD is pulled toward the tail, overstating "typical" spread</li>
+              <li>• <strong>Multimodal data:</strong> The mean is not representative, making SD meaningless</li>
+              <li>• <strong>Heavy tails:</strong> SD understates extreme event probability</li>
+              <li>• <strong>Outliers:</strong> Single values can arbitrarily inflate SD</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="section-card group">
+          <summary class="p-4 cursor-pointer flex items-center justify-between">
+            <span class="font-semibold">What invariant does this tool rely on most critically?</span>
+            <svg class="w-5 h-5 muted transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm muted">
+            <p>The assumption that <strong>the arithmetic mean is a meaningful center</strong>. This requires:</p>
+            <ul class="mt-3 space-y-2">
+              <li>• Unimodal or symmetric distribution</li>
+              <li>• Data measured on interval/ratio scale</li>
+              <li>• No extreme asymmetry in the underlying process</li>
+            </ul>
+            <p class="mt-3">Without this, SD measures spread around a point that doesn't represent the data's central tendency.</p>
+          </div>
+        </details>
+
+        <details class="section-card group">
+          <summary class="p-4 cursor-pointer flex items-center justify-between">
+            <span class="font-semibold">Can different distributions produce the same SD?</span>
+            <svg class="w-5 h-5 muted transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm muted">
+            <p><strong>Yes — infinitely many.</strong> This is a core limitation: SD is a lossy compression.</p>
+            <p class="mt-3">Examples with identical mean and SD:</p>
+            <ul class="mt-3 space-y-2">
+              <li>• Normal distribution vs uniform distribution</li>
+              <li>• Bimodal vs unimodal distributions</li>
+              <li>• Symmetric vs moderately skewed distributions</li>
+            </ul>
+            <p class="mt-3">This is why SD should always be accompanied by visualization or additional measures.</p>
+          </div>
+        </details>
+
+        <details class="section-card group">
+          <summary class="p-4 cursor-pointer flex items-center justify-between">
+            <span class="font-semibold">Why square the deviations instead of using absolute values?</span>
+            <svg class="w-5 h-5 muted transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm muted">
+            <p>Squaring has both practical and theoretical justifications:</p>
+            <ul class="mt-3 space-y-2">
+              <li>• <strong>Mathematical convenience:</strong> Squared functions are differentiable everywhere</li>
+              <li>• <strong>Optimal estimation:</strong> Mean minimizes sum of squared errors</li>
+              <li>• <strong>Theoretical foundations:</strong> Central Limit Theorem involves variance</li>
+              <li>• <strong>Penalization:</strong> Larger deviations are disproportionately weighted</li>
+            </ul>
+            <p class="mt-3">The alternative — Mean Absolute Deviation (MAD) — is more robust but has less convenient mathematical properties.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- Comparative Position -->
+    <section id="comparative" class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-8 h-8 rounded bg-accent-dim flex items-center justify-center">
+          <span class="font-mono text-xs accent-text">08</span>
+        </div>
+        <h2 class="text-2xl font-semibold">Comparative Position</h2>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b">
+              <th class="text-left p-3 font-semibold">Measure</th>
+              <th class="text-left p-3 font-semibold">Robustness</th>
+              <th class="text-left p-3 font-semibold">Efficiency</th>
+              <th class="text-left p-3 font-semibold">Interpretability</th>
+              <th class="text-left p-3 font-semibold">When to Use</th>
+            </tr>
+          </thead>
+          <tbody class="muted">
+            <tr class="border-b">
+              <td class="p-3 font-mono accent-text">SD (σ)</td>
+              <td class="p-3">Low</td>
+              <td class="p-3">High (normal)</td>
+              <td class="p-3">High</td>
+              <td class="p-3">Symmetric, clean data; statistical inference</td>
+            </tr>
+            <tr class="border-b">
+              <td class="p-3 font-mono">MAD</td>
+              <td class="p-3">High</td>
+              <td class="p-3">Low (normal)</td>
+              <td class="p-3">Medium</td>
+              <td class="p-3">Data with outliers; quick robustness check</td>
+            </tr>
+            <tr class="border-b">
+              <td class="p-3 font-mono">IQR</td>
+              <td class="p-3">High</td>
+              <td class="p-3">Medium</td>
+              <td class="p-3">Medium</td>
+              <td class="p-3">Skewed data; box plots; outlier detection</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-mono">Variance (σ²)</td>
+              <td class="p-3">Low</td>
+              <td class="p-3">High</td>
+              <td class="p-3">Low</td>
+              <td class="p-3">Theoretical work; additive decomposition</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+          <nav id="toc">
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#identity">Identity</a>
+          <a class="toc-item" href="#formal">Formal</a>
+          <a class="toc-item" href="#mechanism">Mechanism</a>
+          <a class="toc-item" href="#playground">Playground</a>
+          <a class="toc-item" href="#sample-population">Sample vs Pop.</a>
+          <a class="toc-item" href="#limits">Limits</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#comparative">Comparison</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script>
+    // ============================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ============================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ============================================
+    // Ambient constellation (mirrors note.html)
+    // ============================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+
+    
+    const clamp = (val, min, max) => Math.max(min, Math.min(max, val));
+    const lerp = (a, b, t) => a + (b - a) * t;
+    const EPS = 0.0001;
+    
+    function safeNumber(val, fallback = 0) {
+      if (typeof val !== 'number' || !isFinite(val)) return fallback;
+      return val;
+    }
+    
+    function mean(arr) {
+      if (!arr || arr.length === 0) return 0;
+      return arr.reduce((a, b) => a + b, 0) / arr.length;
+    }
+    
+    function standardDeviation(arr, useBessel = false) {
+      if (!arr || arr.length < 2) return 0;
+      const n = arr.length;
+      const mu = mean(arr);
+      const variance = arr.reduce((sum, x) => sum + (x - mu) ** 2, 0) / (useBessel ? n - 1 : n);
+      return Math.sqrt(Math.max(0, variance));
+    }
+    
+    function median(arr) {
+      if (!arr || arr.length === 0) return 0;
+      const sorted = [...arr].sort((a, b) => a - b);
+      const mid = Math.floor(sorted.length / 2);
+      return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+    }
+    
+    function mad(arr) {
+      if (!arr || arr.length === 0) return 0;
+      const med = median(arr);
+      const devs = arr.map(x => Math.abs(x - med));
+      return median(devs) * 1.4826; // Scale factor for normal distribution
+    }
+    
+    function iqr(arr) {
+      if (!arr || arr.length < 4) return 0;
+      const sorted = [...arr].sort((a, b) => a - b);
+      const q1 = sorted[Math.floor(sorted.length * 0.25)];
+      const q3 = sorted[Math.floor(sorted.length * 0.75)];
+      return q3 - q1;
+    }
+    
+    function normalPDF(x, mu, sigma) {
+      sigma = Math.max(EPS, sigma);
+      const exp = -0.5 * ((x - mu) / sigma) ** 2;
+      return (1 / (sigma * Math.sqrt(2 * Math.PI))) * Math.exp(exp);
+    }
+
+    function themeColors() {
+      const s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        secondary: s.getPropertyValue('--text-secondary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim(),
+        card: s.getPropertyValue('--bg-card').trim(),
+        void: s.getPropertyValue('--bg-void').trim()
+      };
+    }
+
+    function withAlpha(color, alpha) {
+      const m = /^#([0-9a-f]{6})$/i.exec(color);
+      if (m) {
+        const n = parseInt(m[1], 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+      }
+      return color;
+    }
+    
+    function generateNormalData(n, mu, sigma) {
+      const data = [];
+      for (let i = 0; i < n; i++) {
+        // Box-Muller transform
+        const u1 = Math.random();
+        const u2 = Math.random();
+        const z = Math.sqrt(-2 * Math.log(Math.max(EPS, u1))) * Math.cos(2 * Math.PI * u2);
+        data.push(mu + sigma * z);
+      }
+      return data;
+    }
+    
+    // ============================================
+    // CANVAS SETUP UTILITIES
+    // ============================================
+    
+    function setupCanvas(canvasId) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return null;
+      
+      const ctx = canvas.getContext('2d');
+      const rect = canvas.parentElement.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      
+      canvas.width = Math.max(1, rect.width * dpr);
+      canvas.height = Math.max(1, rect.height * dpr);
+      ctx.scale(dpr, dpr);
+      
+      return { canvas, ctx, width: rect.width, height: rect.height };
+    }
+    
+    function clearCanvas(ctx, width, height) {
+      ctx.fillStyle = themeColors().surface;
+      ctx.fillRect(0, 0, width, height);
+    }
+    
+    // ============================================
+    // GLOBAL STATE
+    // ============================================
+    
+    let formulaData = [2, 4, 6, 8, 10, 12, 14, 16];
+    let formulaStep = 0;
+    let builderData = [];
+    let outlierPosition = 50;
+    let failureMode = 'bimodal';
+    let normalZones = 1;
+    let sampleSize = 10;
+    let sampleData = [];
+    let populationData = [];
+    
+    // Initialize population data once
+    for (let i = 0; i < 1000; i++) {
+      populationData.push(50 + 15 * (Math.random() - 0.5) * 2);
+    }
+    
+    // ============================================
+    // FORMULA CANVAS
+    // ============================================
+    
+    function drawFormulaCanvas() {
+      const setup = setupCanvas('formulaCanvas');
+      if (!setup) return;
+      
+      const { ctx, width, height } = setup;
+      clearCanvas(ctx, width, height);
+      const colors = themeColors();
+
+      const mu = mean(formulaData);
+      const sigma = standardDeviation(formulaData, false);
+      
+      // Draw axis
+      const padding = 40;
+      const plotWidth = width - padding * 2;
+      const plotHeight = height - padding * 2;
+      
+      const minVal = Math.min(...formulaData) - 2;
+      const maxVal = Math.max(...formulaData) + 2;
+      const range = Math.max(1, maxVal - minVal);
+      
+      ctx.strokeStyle = withAlpha(colors.primary, '0.15');
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(padding, height - padding);
+      ctx.lineTo(width - padding, height - padding);
+      ctx.stroke();
+
+      // Draw data points and transformations based on step
+      formulaData.forEach((val, i) => {
+        const x = padding + (val - minVal) / range * plotWidth;
+        const deviation = val - mu;
+        const squaredDev = deviation ** 2;
+        
+        // Draw point
+        ctx.beginPath();
+        
+        if (formulaStep === 0) {
+          // Raw data
+          ctx.fillStyle = colors.gold;
+          ctx.arc(x, height - padding - plotHeight * 0.5, 8, 0, Math.PI * 2);
+          ctx.fill();
+        } else if (formulaStep === 1) {
+          // Show mean
+          ctx.fillStyle = colors.muted;
+          ctx.arc(x, height - padding - plotHeight * 0.5, 6, 0, Math.PI * 2);
+          ctx.fill();
+
+          // Mean line
+          const meanX = padding + (mu - minVal) / range * plotWidth;
+          ctx.strokeStyle = colors.gold;
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.moveTo(meanX, height - padding);
+          ctx.lineTo(meanX, height - padding - plotHeight);
+          ctx.stroke();
+        } else if (formulaStep === 2) {
+          // Deviations from mean
+          const meanX = padding + (mu - minVal) / range * plotWidth;
+          
+          ctx.fillStyle = deviation >= 0 ? '#4ade80' : '#f87171';
+          ctx.arc(x, height - padding - plotHeight * 0.5, 8, 0, Math.PI * 2);
+          ctx.fill();
+          
+          // Draw deviation line
+          ctx.strokeStyle = deviation >= 0 ? 'rgba(74, 222, 128, 0.5)' : 'rgba(248, 113, 113, 0.5)';
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.moveTo(meanX, height - padding - plotHeight * 0.5);
+          ctx.lineTo(x, height - padding - plotHeight * 0.5);
+          ctx.stroke();
+        } else if (formulaStep === 3) {
+          // Squared deviations (bar height)
+          const normalizedSq = Math.min(1, squaredDev / (sigma * sigma * 4));
+          const barHeight = normalizedSq * plotHeight * 0.8;
+          
+          ctx.fillStyle = squaredDev >= sigma * sigma ? '#f87171' : colors.gold;
+          ctx.fillRect(x - 8, height - padding - barHeight, 16, barHeight);
+        } else if (formulaStep === 4) {
+          // Final SD representation
+          ctx.fillStyle = colors.gold;
+          ctx.arc(x, height - padding - plotHeight * 0.5, 6, 0, Math.PI * 2);
+          ctx.fill();
+          
+          // Draw ±σ bands
+          const meanX = padding + (mu - minVal) / range * plotWidth;
+          const sigmaWidth = sigma / range * plotWidth;
+          
+          ctx.fillStyle = withAlpha(colors.gold, '0.15');
+          ctx.fillRect(meanX - sigmaWidth, height - padding - plotHeight, sigmaWidth * 2, plotHeight);
+
+          ctx.strokeStyle = withAlpha(colors.gold, '0.5');
+          ctx.setLineDash([4, 4]);
+          ctx.beginPath();
+          ctx.moveTo(meanX - sigmaWidth, height - padding);
+          ctx.lineTo(meanX - sigmaWidth, height - padding - plotHeight);
+          ctx.moveTo(meanX + sigmaWidth, height - padding);
+          ctx.lineTo(meanX + sigmaWidth, height - padding - plotHeight);
+          ctx.stroke();
+          ctx.setLineDash([]);
+        }
+        
+        // Value label
+        ctx.fillStyle = colors.secondary;
+        ctx.font = '10px JetBrains Mono';
+        ctx.textAlign = 'center';
+        ctx.fillText(val.toFixed(0), x, height - padding + 15);
+      });
+      
+      // Update metrics
+      document.getElementById('dataCount').textContent = formulaData.length;
+      document.getElementById('meanValue').textContent = mu.toFixed(2);
+      document.getElementById('sdValue').textContent = sigma.toFixed(2);
+      
+      // Highlight active step
+      document.querySelectorAll('#formula-steps .formula-box').forEach((box, i) => {
+        box.classList.toggle('active', i === formulaStep);
+        box.style.borderColor = i === formulaStep ? 'var(--accent)' : 'var(--border)';
+        box.style.background = i === formulaStep ? 'var(--accent-dim)' : 'var(--bg-elevated)';
+      });
+    }
+    
+    // ============================================
+    // OUTLIER SENSITIVITY CANVAS
+    // ============================================
+    
+    function drawOutlierCanvas() {
+      const setup = setupCanvas('outlierCanvas');
+      if (!setup) return;
+      
+      const { ctx, width, height } = setup;
+      clearCanvas(ctx, width, height);
+      const colors = themeColors();
+
+      const padding = 40;
+      const plotWidth = width - padding * 2;
+      const plotHeight = height - padding * 2;
+
+      // Base data cluster
+      const baseData = [45, 47, 50, 52, 55];
+      const outlier = outlierPosition;
+      const fullData = [...baseData, outlier];
+      
+      const mu = mean(fullData);
+      const sigma = standardDeviation(fullData, false);
+      const madVal = mad(fullData);
+      const iqrVal = iqr(fullData);
+      
+      const minVal = 0;
+      const maxVal = 100;
+      const range = maxVal - minVal;
+      
+      // Draw grid
+      ctx.strokeStyle = withAlpha(colors.primary, '0.08');
+      ctx.lineWidth = 1;
+      for (let i = 0; i <= 10; i++) {
+        const x = padding + (i / 10) * plotWidth;
+        ctx.beginPath();
+        ctx.moveTo(x, padding);
+        ctx.lineTo(x, height - padding);
+        ctx.stroke();
+      }
+
+      // Draw base points
+      baseData.forEach(val => {
+        const x = padding + (val / range) * plotWidth;
+        ctx.beginPath();
+        ctx.fillStyle = colors.muted;
+        ctx.arc(x, height - padding - plotHeight * 0.5, 6, 0, Math.PI * 2);
+        ctx.fill();
+      });
+      
+      // Draw outlier
+      const outlierX = padding + (outlier / range) * plotWidth;
+      ctx.beginPath();
+      ctx.fillStyle = '#f87171';
+      ctx.arc(outlierX, height - padding - plotHeight * 0.5, 10, 0, Math.PI * 2);
+      ctx.fill();
+      
+      // Draw mean line
+      const meanX = padding + (mu / range) * plotWidth;
+      ctx.strokeStyle = colors.gold;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(meanX, height - padding - plotHeight * 0.2);
+      ctx.lineTo(meanX, height - padding - plotHeight * 0.8);
+      ctx.stroke();
+
+      // Draw ±σ band
+      const sigmaWidth = (sigma / range) * plotWidth;
+      ctx.fillStyle = withAlpha(colors.gold, '0.1');
+      ctx.fillRect(meanX - sigmaWidth, padding, sigmaWidth * 2, plotHeight);
+      
+      // Update display
+      document.getElementById('outlierSD').textContent = sigma.toFixed(2);
+      document.getElementById('outlierMAD').textContent = madVal.toFixed(2);
+      document.getElementById('outlierIQR').textContent = iqrVal.toFixed(2);
+    }
+    
+    // ============================================
+    // DISTRIBUTION BUILDER CANVAS
+    // ============================================
+    
+    function drawBuilderCanvas() {
+      const setup = setupCanvas('builderCanvas');
+      if (!setup) return;
+      
+      const { ctx, width, height } = setup;
+      clearCanvas(ctx, width, height);
+      const colors = themeColors();
+
+      const padding = 20;
+      const plotWidth = width - padding * 2;
+      const plotHeight = height - padding * 2;
+
+      // Draw grid
+      ctx.strokeStyle = withAlpha(colors.primary, '0.08');
+      ctx.lineWidth = 1;
+      for (let i = 0; i <= 10; i++) {
+        const x = padding + (i / 10) * plotWidth;
+        ctx.beginPath();
+        ctx.moveTo(x, padding);
+        ctx.lineTo(x, height - padding);
+        ctx.stroke();
+      }
+      
+      if (builderData.length === 0) {
+        ctx.fillStyle = colors.muted;
+        ctx.font = '12px JetBrains Mono';
+        ctx.textAlign = 'center';
+        ctx.fillText('Click to add points', width / 2, height / 2);
+        document.getElementById('builderSD').textContent = '—';
+        return;
+      }
+      
+      const mu = mean(builderData);
+      const sigma = standardDeviation(builderData, false);
+      
+      const minVal = Math.min(0, ...builderData);
+      const maxVal = Math.max(100, ...builderData);
+      const range = Math.max(1, maxVal - minVal);
+      
+      // Draw mean line
+      const meanX = padding + ((mu - minVal) / range) * plotWidth;
+      ctx.strokeStyle = withAlpha(colors.gold, '0.5');
+      ctx.lineWidth = 1;
+      ctx.setLineDash([4, 4]);
+      ctx.beginPath();
+      ctx.moveTo(meanX, padding);
+      ctx.lineTo(meanX, height - padding);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      
+      // Draw ±σ band
+      const sigmaWidth = (sigma / range) * plotWidth;
+      ctx.fillStyle = withAlpha(colors.gold, '0.08');
+      ctx.fillRect(meanX - sigmaWidth, padding, sigmaWidth * 2, plotHeight);
+
+      // Draw points
+      builderData.forEach(val => {
+        const x = padding + ((val - minVal) / range) * plotWidth;
+        ctx.beginPath();
+        ctx.fillStyle = colors.gold;
+        ctx.arc(x, height / 2, 6, 0, Math.PI * 2);
+        ctx.fill();
+      });
+      
+      document.getElementById('builderSD').textContent = sigma.toFixed(2);
+    }
+    
+    // ============================================
+    // COMPARISON CANVAS
+    // ============================================
+    
+    let lowSpread = 10;
+    let highSpread = 30;
+    
+    function drawComparisonCanvas() {
+      const setup = setupCanvas('comparisonCanvas');
+      if (!setup) return;
+      
+      const { ctx, width, height } = setup;
+      clearCanvas(ctx, width, height);
+      const colors = themeColors();
+
+      const padding = 20;
+      const plotWidth = width - padding * 2;
+      const plotHeight = height - padding * 2;
+      const centerY = height / 2;
+      const meanVal = 50;
+      
+      // Generate two distributions with same mean but different spreads
+      const lowData = generateNormalData(50, meanVal, lowSpread);
+      const highData = generateNormalData(50, meanVal, highSpread);
+      
+      const lowSD = standardDeviation(lowData);
+      const highSD = standardDeviation(highData);
+      
+      // Draw low spread distribution
+      ctx.fillStyle = 'rgba(74, 222, 128, 0.3)';
+      ctx.beginPath();
+      ctx.moveTo(padding, centerY);
+      
+      for (let x = 0; x <= plotWidth; x++) {
+        const val = (x / plotWidth) * 100;
+        const pdf = normalPDF(val, meanVal, Math.max(EPS, lowSpread));
+        const y = centerY - pdf * plotHeight * 15;
+        ctx.lineTo(padding + x, y);
+      }
+      ctx.lineTo(width - padding, centerY);
+      ctx.closePath();
+      ctx.fill();
+      
+      // Draw high spread distribution
+      ctx.fillStyle = 'rgba(248, 113, 113, 0.2)';
+      ctx.beginPath();
+      ctx.moveTo(padding, centerY);
+      
+      for (let x = 0; x <= plotWidth; x++) {
+        const val = (x / plotWidth) * 100;
+        const pdf = normalPDF(val, meanVal, Math.max(EPS, highSpread));
+        const y = centerY - pdf * plotHeight * 15;
+        ctx.lineTo(padding + x, y);
+      }
+      ctx.lineTo(width - padding, centerY);
+      ctx.closePath();
+      ctx.fill();
+      
+      // Draw mean line
+      const meanX = padding + plotWidth / 2;
+      ctx.strokeStyle = colors.secondary;
+      ctx.lineWidth = 1;
+      ctx.setLineDash([2, 2]);
+      ctx.beginPath();
+      ctx.moveTo(meanX, padding);
+      ctx.lineTo(meanX, height - padding);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      
+      // Labels
+      ctx.font = '10px JetBrains Mono';
+      ctx.fillStyle = '#4ade80';
+      ctx.textAlign = 'left';
+      ctx.fillText(`σ = ${lowSD.toFixed(1)}`, padding + 5, padding + 15);
+      
+      ctx.fillStyle = '#f87171';
+      ctx.fillText(`σ = ${highSD.toFixed(1)}`, padding + 5, padding + 30);
+      
+      document.getElementById('lowSD').textContent = lowSD.toFixed(1);
+      document.getElementById('highSD').textContent = highSD.toFixed(1);
+    }
+    
+    // ============================================
+    // NORMAL DISTRIBUTION CANVAS
+    // ============================================
+    
+    let normalSD = 10;
+    let normalMean = 50;
+    
+    function drawNormalCanvas() {
+      const setup = setupCanvas('normalCanvas');
+      if (!setup) return;
+      
+      const { ctx, width, height } = setup;
+      clearCanvas(ctx, width, height);
+      const colors = themeColors();
+
+      const padding = 30;
+      const plotWidth = width - padding * 2;
+      const plotHeight = height - padding * 2;
+
+      const mu = normalMean;
+      const sigma = Math.max(EPS, normalSD);
+
+      // Draw axis
+      ctx.strokeStyle = withAlpha(colors.primary, '0.15');
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(padding, height - padding);
+      ctx.lineTo(width - padding, height - padding);
+      ctx.stroke();
+      
+      // Draw full distribution curve
+      ctx.strokeStyle = colors.secondary;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      
+      let started = false;
+      for (let x = 0; x <= plotWidth; x++) {
+        const val = (x / plotWidth) * 100;
+        const pdf = normalPDF(val, mu, sigma);
+        const y = height - padding - pdf * plotHeight * 80;
+        
+        if (!started) {
+          ctx.moveTo(padding + x, y);
+          started = true;
+        } else {
+          ctx.lineTo(padding + x, y);
+        }
+      }
+      ctx.stroke();
+      
+      // Draw filled area for selected zones
+      ctx.fillStyle = withAlpha(colors.gold, '0.3');
+      ctx.beginPath();
+      
+      const zones = normalZones;
+      const minX = mu - zones * sigma;
+      const maxX = mu + zones * sigma;
+      
+      ctx.moveTo(padding + (minX / 100) * plotWidth, height - padding);
+      
+      for (let val = minX; val <= maxX; val += 0.5) {
+        const pdf = normalPDF(val, mu, sigma);
+        const x = padding + (val / 100) * plotWidth;
+        const y = height - padding - pdf * plotHeight * 80;
+        ctx.lineTo(x, y);
+      }
+      
+      ctx.lineTo(padding + (maxX / 100) * plotWidth, height - padding);
+      ctx.closePath();
+      ctx.fill();
+      
+      // Draw zone boundaries
+      ctx.strokeStyle = colors.gold;
+      ctx.lineWidth = 1;
+      ctx.setLineDash([4, 4]);
+      
+      for (let z = 1; z <= zones; z++) {
+        const leftX = padding + ((mu - z * sigma) / 100) * plotWidth;
+        const rightX = padding + ((mu + z * sigma) / 100) * plotWidth;
+        
+        ctx.beginPath();
+        ctx.moveTo(leftX, height - padding - plotHeight);
+        ctx.lineTo(leftX, height - padding);
+        ctx.stroke();
+        
+        ctx.beginPath();
+        ctx.moveTo(rightX, height - padding - plotHeight);
+        ctx.lineTo(rightX, height - padding);
+        ctx.stroke();
+      }
+      ctx.setLineDash([]);
+      
+      // Labels
+      ctx.font = '10px JetBrains Mono';
+      ctx.fillStyle = colors.secondary;
+      ctx.textAlign = 'center';
+      
+      ctx.fillText('μ', padding + (mu / 100) * plotWidth, height - padding + 15);
+      ctx.fillText(`μ - ${zones}σ`, padding + ((mu - zones * sigma) / 100) * plotWidth, height - padding + 15);
+      ctx.fillText(`μ + ${zones}σ`, padding + ((mu + zones * sigma) / 100) * plotWidth, height - padding + 15);
+      
+      // Update display
+      document.getElementById('normalSDValue').textContent = sigma.toFixed(1);
+      document.getElementById('normalMeanValue').textContent = mu.toFixed(0);
+    }
+    
+    // ============================================
+    // BESSEL CORRECTION CANVAS
+    // ============================================
+    
+    function drawBesselCanvas() {
+      const setup = setupCanvas('besselCanvas');
+      if (!setup) return;
+      
+      const { ctx, width, height } = setup;
+      clearCanvas(ctx, width, height);
+      const colors = themeColors();
+
+      const padding = 40;
+      const plotWidth = width - padding * 2;
+      const plotHeight = height - padding * 2;
+      
+      // Population parameters
+      const popMean = 50;
+      const popSD = 15;
+      
+      // Generate sample
+      const useBessel = document.getElementById('besselToggle').checked;
+      sampleData = generateNormalData(sampleSize, popMean, popSD);
+      
+      const sampleMean = mean(sampleData);
+      const sampleSDUncorrected = standardDeviation(sampleData, false);
+      const sampleSDCorrected = standardDeviation(sampleData, true);
+      
+      // Draw population reference
+      ctx.strokeStyle = colors.muted;
+      ctx.lineWidth = 1;
+      const popMeanX = padding + (popMean / 100) * plotWidth;
+      ctx.beginPath();
+      ctx.moveTo(popMeanX, padding);
+      ctx.lineTo(popMeanX, height - padding);
+      ctx.stroke();
+      
+      // Draw sample points
+      sampleData.forEach(val => {
+        const x = padding + (val / 100) * plotWidth;
+        ctx.beginPath();
+        ctx.fillStyle = colors.gold;
+        ctx.arc(x, height - padding - plotHeight * 0.6, 5, 0, Math.PI * 2);
+        ctx.fill();
+      });
+
+      // Draw sample mean
+      const sampleMeanX = padding + (sampleMean / 100) * plotWidth;
+      ctx.strokeStyle = colors.gold;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(sampleMeanX, padding + plotHeight * 0.2);
+      ctx.lineTo(sampleMeanX, height - padding - plotHeight * 0.3);
+      ctx.stroke();
+      
+      // Draw SD bars
+      const sdToUse = useBessel ? sampleSDCorrected : sampleSDUncorrected;
+      const sdWidth = (sdToUse / 100) * plotWidth;
+      
+      ctx.fillStyle = withAlpha(colors.gold, '0.1');
+      ctx.fillRect(sampleMeanX - sdWidth, padding + plotHeight * 0.2, sdWidth * 2, plotHeight * 0.5);
+
+      // Text
+      ctx.font = '10px JetBrains Mono';
+      ctx.fillStyle = colors.secondary;
+      ctx.textAlign = 'left';
+      ctx.fillText(`Population σ = ${popSD.toFixed(1)}`, padding, padding + 15);
+      ctx.fillText(`Sample s (${useBessel ? 'n-1' : 'n'}) = ${sdToUse.toFixed(1)}`, padding, padding + 30);
+      ctx.fillText(`n = ${sampleSize}`, padding, padding + 45);
+      
+      document.getElementById('sampleSizeDisplay').textContent = sampleSize;
+    }
+    
+    // ============================================
+    // FAILURE MODE CANVAS
+    // ============================================
+    
+    function generateFailureData(mode) {
+      const data = [];
+      
+      switch (mode) {
+        case 'bimodal':
+          // Two separate clusters
+          for (let i = 0; i < 25; i++) {
+            data.push(25 + (Math.random() - 0.5) * 10);
+            data.push(75 + (Math.random() - 0.5) * 10);
+          }
+          break;
+          
+        case 'skewed':
+          // Right-skewed distribution
+          for (let i = 0; i < 50; i++) {
+            const u = Math.random();
+            const val = 10 + Math.pow(u, 2) * 80; // Square for right skew
+            data.push(val);
+          }
+          break;
+          
+        case 'outliers':
+          // Clean data with contamination
+          for (let i = 0; i < 45; i++) {
+            data.push(50 + (Math.random() - 0.5) * 20);
+          }
+          // Add outliers
+          data.push(95, 97, 99, 2, 1);
+          break;
+          
+        case 'uniform':
+          // Uniform distribution
+          for (let i = 0; i < 50; i++) {
+            data.push(10 + Math.random() * 80);
+          }
+          break;
+      }
+      
+      return data;
+    }
+    
+    function drawFailureCanvas() {
+      const setup = setupCanvas('failureCanvas');
+      if (!setup) return;
+      
+      const { ctx, width, height } = setup;
+      clearCanvas(ctx, width, height);
+      const colors = themeColors();
+
+      const padding = 30;
+      const plotWidth = width - padding * 2;
+      const plotHeight = height - padding * 2;
+
+      const data = generateFailureData(failureMode);
+      const mu = mean(data);
+      const sigma = standardDeviation(data);
+      const madVal = mad(data);
+      
+      // Draw histogram
+      const bins = 20;
+      const minVal = Math.min(...data);
+      const maxVal = Math.max(...data);
+      const range = Math.max(1, maxVal - minVal);
+      const binWidth = range / bins;
+      
+      const counts = new Array(bins).fill(0);
+      data.forEach(val => {
+        const binIdx = Math.min(bins - 1, Math.floor((val - minVal) / binWidth));
+        counts[binIdx]++;
+      });
+      
+      const maxCount = Math.max(...counts);
+      
+      counts.forEach((count, i) => {
+        const x = padding + (i / bins) * plotWidth;
+        const barHeight = (count / maxCount) * plotHeight * 0.8;
+        
+        ctx.fillStyle = withAlpha(colors.primary, '0.15');
+        ctx.fillRect(x, height - padding - barHeight, plotWidth / bins - 2, barHeight);
+      });
+
+      // Draw mean line
+      const meanX = padding + ((mu - minVal) / range) * plotWidth;
+      ctx.strokeStyle = colors.gold;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(meanX, height - padding);
+      ctx.lineTo(meanX, padding);
+      ctx.stroke();
+      
+      // Draw SD band
+      const sigmaWidth = (sigma / range) * plotWidth;
+      ctx.fillStyle = withAlpha(colors.gold, '0.1');
+      ctx.fillRect(meanX - sigmaWidth, padding, sigmaWidth * 2, plotHeight);
+      
+      // Update display
+      document.getElementById('failureSD').textContent = sigma.toFixed(2);
+      document.getElementById('failureMAD').textContent = madVal.toFixed(2);
+      
+      // Update explanation
+      const explanations = {
+        bimodal: {
+          problem: 'In a bimodal distribution, the mean falls between the two modes — a region with few or no observations. The standard deviation then measures spread around this meaningless central point, capturing neither the spread within each cluster nor the distance between clusters.',
+          alternatives: 'Report modes and their locations<br>Use IQR or MAD for robust spread<br>Apply mixture model decomposition'
+        },
+        skewed: {
+          problem: 'In skewed distributions, the mean is pulled toward the tail. The standard deviation becomes asymmetric in meaning: points on one side of the mean are more "typical" than points at the same SD distance on the other side.',
+          alternatives: 'Report median instead of mean<br>Use IQR for spread<br>Consider log-transformation for analysis'
+        },
+        outliers: {
+          problem: 'A small number of extreme values can dramatically inflate standard deviation. Here, 5 outliers out of 50 points can double or triple the SD, making it unrepresentative of the "typical" spread in the main cluster.',
+          alternatives: 'Use MAD or IQR for robust spread<br>Apply trimming or winsorization<br>Report both robust and classical measures'
+        },
+        uniform: {
+          problem: 'For uniform distributions, standard deviation has a fixed relationship to the range (σ ≈ range/√12). The measure works but is redundant — reporting the range directly would be more interpretable.',
+          alternatives: 'Report min-max range directly<br>Use range/2 for "average spread"<br>SD adds no additional insight here'
+        }
+      };
+      
+      const exp = explanations[failureMode];
+      document.querySelector('#failureExplanation .metric-label').nextElementSibling.textContent = exp.problem;
+      document.querySelector('#failureExplanation .metric-label:nth-of-type(2)').nextElementSibling.innerHTML = exp.alternatives;
+    }
+    
+    // ============================================
+    // EVENT LISTENERS
+    // ============================================
+    
+    // Formula step clicks
+    document.querySelectorAll('#formula-steps .formula-box').forEach(box => {
+      box.addEventListener('click', () => {
+        formulaStep = parseInt(box.dataset.step);
+        drawFormulaCanvas();
+      });
+    });
+    
+    // Reset and randomize data
+    document.getElementById('resetDataBtn').addEventListener('click', () => {
+      formulaData = [2, 4, 6, 8, 10, 12, 14, 16];
+      drawFormulaCanvas();
+    });
+    
+    document.getElementById('randomDataBtn').addEventListener('click', () => {
+      formulaData = Array.from({ length: 8 }, () => Math.round(Math.random() * 20));
+      drawFormulaCanvas();
+    });
+    
+    // Outlier slider
+    document.getElementById('outlierSlider').addEventListener('input', (e) => {
+      outlierPosition = parseFloat(e.target.value);
+      drawOutlierCanvas();
+    });
+    
+    // Builder canvas click
+    document.getElementById('builderCanvas').addEventListener('click', (e) => {
+      const rect = e.target.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      builderData.push(x);
+      drawBuilderCanvas();
+    });
+    
+    document.getElementById('clearBuilderBtn').addEventListener('click', () => {
+      builderData = [];
+      drawBuilderCanvas();
+    });
+    
+    // Comparison sliders
+    document.getElementById('lowSpreadSlider').addEventListener('input', (e) => {
+      lowSpread = parseFloat(e.target.value);
+      drawComparisonCanvas();
+    });
+    
+    document.getElementById('highSpreadSlider').addEventListener('input', (e) => {
+      highSpread = parseFloat(e.target.value);
+      drawComparisonCanvas();
+    });
+    
+    // Normal distribution controls
+    document.getElementById('normalSDSlider').addEventListener('input', (e) => {
+      normalSD = parseFloat(e.target.value);
+      drawNormalCanvas();
+    });
+    
+    document.getElementById('normalMeanSlider').addEventListener('input', (e) => {
+      normalMean = parseFloat(e.target.value);
+      drawNormalCanvas();
+    });
+    
+    document.querySelectorAll('.normal-zone-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.normal-zone-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        normalZones = parseInt(btn.dataset.zones);
+        drawNormalCanvas();
+      });
+    });
+    
+    // Bessel correction
+    document.getElementById('besselToggle').addEventListener('change', drawBesselCanvas);
+    document.getElementById('sampleSizeSlider').addEventListener('input', (e) => {
+      sampleSize = parseInt(e.target.value);
+      drawBesselCanvas();
+    });
+    document.getElementById('resampleBtn').addEventListener('click', drawBesselCanvas);
+    
+    // Failure mode buttons
+    document.querySelectorAll('.failure-mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.failure-mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        failureMode = btn.dataset.mode;
+        drawFailureCanvas();
+      });
+    });
+    
+    // ============================================
+    // INTERSECTION OBSERVER FOR ANIMATIONS
+    // ============================================
+    
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    document.querySelectorAll('.section-card').forEach(card => {
+      observer.observe(card);
+    });
+    
+    // ============================================
+    // RESIZE HANDLER
+    // ============================================
+    
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        drawFormulaCanvas();
+        drawOutlierCanvas();
+        drawBuilderCanvas();
+        drawComparisonCanvas();
+        drawNormalCanvas();
+        drawBesselCanvas();
+        drawFailureCanvas();
+      }, 100);
+    });
+    
+    // ============================================
+    // INITIALIZATION
+    // ============================================
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      initTocHighlight();
+      initAmbient();
+      // Small delay to ensure DOM is ready
+      setTimeout(() => {
+        drawFormulaCanvas();
+        drawOutlierCanvas();
+        drawBuilderCanvas();
+        drawComparisonCanvas();
+        drawNormalCanvas();
+        drawBesselCanvas();
+        drawFailureCanvas();
+      }, 100);
+    });
+
+    // Redraw canvas-drawn visuals when the site theme changes
+    window.addEventListener('epistecnica-theme', () => {
+      drawFormulaCanvas();
+      drawOutlierCanvas();
+      drawBuilderCanvas();
+      drawComparisonCanvas();
+      drawNormalCanvas();
+      drawBesselCanvas();
+      drawFailureCanvas();
+    });
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+</body>
+</html>

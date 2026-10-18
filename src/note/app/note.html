@@ -728,12 +728,14 @@
         function renderCrumbs(path) {
             var parts = path.split('/');
             var html = '<a href="index.html">notes</a>';
+            var prefix = [];
             for (var i = 0; i < parts.length; i++) {
                 html += '<span class="sep">/</span>';
                 if (i === parts.length - 1) {
                     html += '<span class="here">' + esc(parts[i].replace(/\.md$/, '')) + '</span>';
                 } else {
-                    html += '<span>' + esc(parts[i]) + '</span>';
+                    prefix.push(parts[i]);
+                    html += '<a href="index.html?dir=' + prefix.map(encodeURIComponent).join('/') + '">' + esc(parts[i]) + '</a>';
                 }
             }
             document.getElementById('crumbs').innerHTML = html;

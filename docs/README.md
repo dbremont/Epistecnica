@@ -147,10 +147,10 @@ make notes-index
 
 Browse at `/note/` (catalog: search + section facets) and
 `/note/note.html?n=technica/pto/zsh.md` (viewer, rendered on the fly). Markdown
-files are **notes**; self-contained hand-authored HTML pages under
-`data/live/` are **live notes** — indexed and searchable, linked directly
-(e.g. `/note/data/live/concurrent-map.html`). Live notes use the same viewer frame
-and philosophia shell as regular notes (recipe in
+files are **notes**; self-contained hand-authored HTML pages are **live notes**
+— indexed and searchable, linked directly and co-located with their companion
+note (e.g. `/note/data/technica/cto/lib/concurrent-map.html`). Live notes use
+the same viewer frame and philosophia shell as regular notes (recipe in
 `docs/live-note-chrome.md` §7–§8).
 
 ## Specs & docs

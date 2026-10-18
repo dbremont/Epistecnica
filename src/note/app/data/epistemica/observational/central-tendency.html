@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epistemic Analyzer — Central Tendency Engine</title>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ============================================
+           EPISTEMICA — shared tokens + live-note chrome
+           (canonical blocks: docs/live-note-chrome.md)
+           ============================================ */
+
+        :root {
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-gold-dim: rgba(197, 164, 103, 0.15);
+            --accent-cyan: #5BF0E7;
+            --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --card-bg: rgba(11, 13, 20, 0.72);
+            --nav-bg: rgba(4, 5, 10, 0.82);
+            --footer-bg: rgba(4, 5, 10, 0.7);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #7A7F8E;
+            --accent-gold: #9A7B3F;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0E7C72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --card-bg: rgba(255, 255, 255, 0.72);
+            --nav-bg: rgba(247, 245, 240, 0.85);
+            --footer-bg: rgba(247, 245, 240, 0.75);
+        }
+
+        body { transition: opacity 180ms ease; }
+        html.theme-fading body { opacity: 0; }
+
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 60;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .site-nav .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-nav .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .site-nav .nav-mark { height: 26px; width: auto; }
+        .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+        .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        .site-nav .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .site-nav .nav-links a:hover { color: var(--accent-cyan); }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .site-footer {
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+            position: relative;
+            z-index: 1;
+        }
+
+        .site-footer .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .site-footer a:hover { color: var(--accent-cyan); }
+
+        body {
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            overflow-x: hidden;
+        }
+        
+        /* (frame: ambient canvas replaces cinematic background) */
+        
+
+        /* Glassmorphism Cards */
+        .glass-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-subtle);
+            box-shadow: 
+                0 4px 6px -1px rgba(0, 0, 0, 0.1),
+                0 2px 4px -1px rgba(0, 0, 0, 0.06),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .glass-card:hover {
+            border-color: var(--accent-cyan-dim);
+            box-shadow: 
+                0 20px 25px -5px rgba(0, 0, 0, 0.2),
+                0 10px 10px -5px rgba(0, 0, 0, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.08);
+            transform: translateY(-2px);
+        }
+
+        .glass-panel {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border-subtle);
+        }
+
+        /* Navigation */
+        .nav-item {
+            position: relative;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .nav-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, var(--accent-cyan), var(--accent-gold));
+            transform: scaleY(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-item.active::before {
+            transform: scaleY(1);
+        }
+        
+        .nav-item.active {
+            background: var(--accent-cyan-dim);
+            color: var(--text-primary);
+        }
+        
+        .nav-item:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 5px; height: 5px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { 
+            background: var(--accent-cyan-dim);
+            border-radius: 10px; 
+        }
+        ::-webkit-scrollbar-thumb:hover { background: var(--accent-cyan); }
+
+        /* Inputs */
+        .input-glass {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+        
+        .input-glass:focus {
+            outline: none;
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 0 3px var(--accent-cyan-dim);
+        }
+
+        /* Range Slider */
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            background: transparent;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        input[type="range"]::-webkit-slider-runnable-track {
+            background: var(--border-subtle);
+            height: 4px;
+            border-radius: 2px;
+        }
+        
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            margin-top: -6px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            border: 2px solid var(--bg-void);
+            box-shadow: 0 0 10px var(--accent-cyan-dim);
+            transition: all 0.2s ease;
+        }
+        
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 20px var(--accent-cyan);
+        }
+
+        /* Metric Cards */
+        .metric-pill {
+            background: linear-gradient(135deg, var(--accent-cyan-dim), transparent);
+            border: 1px solid var(--accent-cyan-dim);
+            transition: all 0.3s ease;
+        }
+        
+        .metric-pill:hover {
+            background: linear-gradient(135deg, var(--accent-cyan-dim), var(--accent-gold-dim));
+            transform: translateX(4px);
+        }
+
+        /* Status Indicators */
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            position: relative;
+        }
+        
+        .status-dot::after {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            border-radius: 50%;
+            animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        @keyframes pulse-ring {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(2.5); opacity: 0; }
+        }
+
+        /* Table Styling */
+        .data-table th {
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.7rem;
+        }
+        
+        .data-table tr {
+            transition: all 0.2s ease;
+        }
+        
+        .data-table tbody tr:hover {
+            background: var(--accent-cyan-dim);
+        }
+
+        /* Chart Container */
+        .chart-container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Loading Shimmer */
+        .shimmer {
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0) 100%);
+            background-size: 1000px 100%;
+            animation: shimmer 2s infinite linear;
+        }
+
+        /* Tooltip Custom */
+        .custom-tooltip {
+            background: var(--bg-surface);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--accent-cyan-dim);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        /* View Transitions */
+        .view-section {
+            animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        /* Preset Buttons */
+        .preset-btn {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .preset-btn::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, transparent, rgba(255,255,255,0.05), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.5s ease;
+        }
+        
+        .preset-btn:hover::after {
+            transform: translateX(100%);
+        }
+
+        /* Gradient Text */
+        .text-gradient {
+            background: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-gold) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .text-gradient-subtle {
+            background: linear-gradient(135deg, var(--text-muted) 0%, var(--text-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Progress Bar */
+        .progress-glow {
+            box-shadow: 0 0 10px currentColor;
+        }
+
+        /* Flag Cards */
+        .flag-card {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .flag-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            opacity: 0.6;
+        }
+        
+        .flag-warning::before { background: linear-gradient(180deg, #f59e0b, #d97706); }
+        .flag-danger::before { background: linear-gradient(180deg, #ef4444, #dc2626); }
+        .flag-success::before { background: linear-gradient(180deg, #22c55e, #16a34a); }
+        .flag-info::before { background: linear-gradient(180deg, #3b82f6, #2563eb); }
+
+        /* Affirmation Matrix */
+        .affirmation-cell {
+            transition: all 0.2s ease;
+        }
+        
+        .affirmation-cell:hover {
+            transform: scale(1.1);
+        }
+
+        /* Counterfactual Drift */
+        .drift-value {
+            font-variant-numeric: tabular-nums;
+            transition: all 0.3s ease;
+        }
+        
+        .drift-positive { color: #f87171; }
+        .drift-negative { color: #34d399; }
+        .drift-neutral { color: var(--text-muted); }
+
+        /* Responsive Grid */
+        @media (max-width: 1024px) {
+            .sidebar { width: 100%; }
+        }
+
+        /* Canvas Glow */
+        canvas {
+            filter: drop-shadow(0 0 20px rgba(91, 240, 231, 0.06));
+        }
+
+        #ambientCanvas {
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 0;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        /* ---- note.html frame: layout / header / card / sidebar ---- */
+        .layout {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2.5rem 2rem 3.5rem;
+        }
+
+        .cols { display: flex; gap: 2.5rem; }
+        .note-main { flex: 9 1 0; min-width: 0; }
+
+        .crumbs {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+        }
+        .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+        .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+        .crumbs .here { color: var(--accent-gold); }
+
+        h1.note-title {
+            font-family: var(--font-display);
+            font-weight: 300;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
+        }
+
+        .note-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin: -1.2rem 0 2rem;
+            position: relative;
+            top: 0.8rem;
+        }
+
+        .chip {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.35rem 0.7rem;
+            text-decoration: none;
+        }
+
+        .note-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2.5rem;
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            position: relative;
+        }
+
+        .sidebar {
+            flex: 1 1 0;
+            min-width: 180px;
+            position: sticky;
+            top: 3.5rem;
+            height: fit-content;
+            max-height: calc(100vh - 5rem);
+            overflow-y: auto;
+            padding: 0 1.25rem 0 0;
+        }
+
+        .sidebar-title {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 0.9rem;
+            text-align: right;
+        }
+
+        .toc-item {
+            display: block;
+            font-size: 0.78rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            text-decoration: none;
+            text-align: right;
+            padding: 0.3rem 0.75rem 0.3rem 0;
+            border-right: 1px solid transparent;
+            margin-right: -1.25rem;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        .toc-item:hover { color: var(--text-primary); }
+        .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .note-card { padding: 1.5rem; }
+        }
+
+        /* ---- markdown-body typography (mirrors notes.css) ---- */
+        .markdown-body {
+            font-weight: 300;
+            font-size: 0.95rem;
+            line-height: 1.75;
+            color: var(--text-secondary);
+            word-wrap: break-word;
+        }
+        .markdown-body h2 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-size: 1.55rem;
+            line-height: 1.25;
+            color: var(--text-primary);
+            margin: 2.2em 0 0.8em;
+            padding-bottom: 0.35em;
+            border-bottom: 1px solid var(--border-subtle);
+            scroll-margin-top: 6rem;
+        }
+        .markdown-body h2:first-child { margin-top: 0; }
+        .markdown-body h3 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-style: italic;
+            font-size: 1.25rem;
+            line-height: 1.25;
+            color: var(--text-primary);
+            margin: 2.2em 0 0.8em;
+            scroll-margin-top: 6rem;
+        }
+        .markdown-body section[id] { scroll-margin-top: 6rem; }
+        .markdown-body p { margin: 0 0 1.1em; }
+        .markdown-body a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: border-color 0.3s ease;
+        }
+        .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+        .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+        .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+        .markdown-body li { margin-bottom: 0.35em; }
+        .markdown-body li::marker { color: var(--accent-gold); }
+        .markdown-body blockquote {
+            margin: 0 0 1.1em;
+            padding: 0.2em 0 0.2em 1.25em;
+            border-left: 1px solid var(--accent-gold);
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        /* ---- heading face ---- */
+        h1, h2, h3, h4 {
+            font-family: var(--font-display);
+        }
+
+        /* ---- utility shim (replaces the Tailwind CDN) ---- */
+        .antialiased { -webkit-font-smoothing: antialiased; }
+        .absolute { position: absolute; }
+        .relative { position: relative; }
+        .sticky { position: sticky; }
+        /* (frame: no position:fixed; card flow only) */
+        .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+        .-z-10 { z-index: -10; }
+        .z-10 { z-index: 10; }
+        .block { display: block; }
+        .hidden { display: none; }
+        .flex { display: flex; }
+        .inline-flex { display: inline-flex; }
+        .grid { display: grid; }
+        .flex-1 { flex: 1 1 0%; }
+        .flex-col { flex-direction: column; }
+        .flex-shrink-0 { flex-shrink: 0; }
+        .flex-wrap { flex-wrap: wrap; }
+        .items-center { align-items: center; }
+        .items-end { align-items: flex-end; }
+        .items-start { align-items: flex-start; }
+        .justify-between { justify-content: space-between; }
+        .justify-center { justify-content: center; }
+        .text-left { text-align: left; }
+        .text-center { text-align: center; }
+        .text-right { text-align: right; }
+        .overflow-hidden { overflow: hidden; }
+        .overflow-x-auto { overflow-x: auto; }
+        .overflow-y-auto { overflow-y: auto; }
+        .w-full { width: 100%; }
+        .h-full { height: 100%; }
+        .min-w-0 { min-width: 0; }
+        .min-h-screen { min-height: 100vh; }
+        .max-h-64 { max-height: 16rem; }
+        .w-1\.5 { width: 0.375rem; } .h-1\.5 { height: 0.375rem; }
+        .w-2 { width: 0.5rem; } .h-2 { height: 0.5rem; }
+        .w-2\.5 { width: 0.625rem; } .h-2\.5 { height: 0.625rem; }
+        .w-3 { width: 0.75rem; } .h-3 { height: 0.75rem; }
+        .w-4 { width: 1rem; } .h-4 { height: 1rem; }
+        .w-5 { width: 1.25rem; } .h-5 { height: 1.25rem; }
+        .w-6 { width: 1.5rem; } .h-6 { height: 1.5rem; }
+        .w-8 { width: 2rem; } .h-8 { height: 2rem; }
+        .gap-2 { gap: 0.5rem; }
+        .gap-3 { gap: 0.75rem; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+        .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .p-1 { padding: 0.25rem; }
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        .p-px { padding: 1px; }
+        .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+        .px-2\.5 { padding-left: 0.625rem; padding-right: 0.625rem; }
+        .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+        .px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .py-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; }
+        .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .py-2\.5 { padding-top: 0.625rem; padding-bottom: 0.625rem; }
+        .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+        .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .pb-3 { padding-bottom: 0.75rem; }
+        .pr-2 { padding-right: 0.5rem; }
+        .pr-4 { padding-right: 1rem; }
+        .pt-2 { padding-top: 0.5rem; }
+        .pt-4 { padding-top: 1rem; }
+        .pt-6 { padding-top: 1.5rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .ml-11 { margin-left: 2.75rem; }
+        .ml-auto { margin-left: auto; }
+        .space-y-1 > * + * { margin-top: 0.25rem; }
+        .space-y-2 > * + * { margin-top: 0.5rem; }
+        .space-y-3 > * + * { margin-top: 0.75rem; }
+        .space-y-4 > * + * { margin-top: 1rem; }
+        .space-y-6 > * + * { margin-top: 1.5rem; }
+        .text-\[10px\] { font-size: 10px; line-height: 1.5; }
+        .text-xs { font-size: 0.75rem; line-height: 1.5; }
+        .text-sm { font-size: 0.875rem; line-height: 1.5; }
+        .text-lg { font-size: 1.125rem; line-height: 1.6; }
+        .text-xl { font-size: 1.25rem; line-height: 1.6; }
+        .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+        .text-4xl { font-size: 2.25rem; line-height: 1.15; }
+        .font-medium { font-weight: 500; }
+        .font-semibold { font-weight: 600; }
+        .font-bold { font-weight: 700; }
+        .font-extrabold { font-weight: 800; }
+        .font-mono { font-family: var(--font-mono); }
+        .uppercase { text-transform: uppercase; }
+        .tracking-tight { letter-spacing: -0.025em; }
+        .tracking-wider { letter-spacing: 0.05em; }
+        .tracking-\[0\.2em\] { letter-spacing: 0.2em; }
+        .leading-relaxed { line-height: 1.7; }
+        .rounded { border-radius: 0.25rem; }
+        .rounded-lg { border-radius: 0.5rem; }
+        .rounded-xl { border-radius: 0.75rem; }
+        .rounded-2xl { border-radius: 1rem; }
+        .rounded-full { border-radius: 9999px; }
+        .rounded-\[11px\] { border-radius: 11px; }
+        .border { border: 1px solid var(--border-subtle); }
+        .border-b { border-bottom: 1px solid var(--border-subtle); }
+        .border-t { border-top: 1px solid var(--border-subtle); }
+        .border-collapse { border-collapse: collapse; }
+        .divide-y > * + * { border-top: 1px solid var(--border-subtle); }
+        .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 4px 6px -4px rgba(0, 0, 0, 0.3); }
+        .shadow-indigo-500\/30 { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 0 14px var(--accent-cyan-dim); }
+        .opacity-0 { opacity: 0; }
+        .backdrop-blur-sm { backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+        .blur-xl { filter: blur(24px); }
+        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .transition-all { transition: all 0.3s ease; }
+        .transition-colors { transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; }
+        .transition-opacity { transition: opacity 0.3s ease; }
+        .duration-700 { transition-duration: 0.7s; }
+        .duration-1000 { transition-duration: 1s; }
+        .group:hover .group-hover\:opacity-100 { opacity: 1; }
+        .group:hover .group-hover\:text-indigo-300 { color: var(--accent-cyan); }
+        .group:hover .group-hover\:text-purple-400 { color: var(--accent-gold); }
+        .group:hover .group-hover\:text-pink-400 { color: var(--accent-gold); }
+        .group:hover .group-hover\:bg-opacity-0 { opacity: 0.35; }
+        .hover\:bg-slate-700\/50:hover { background: var(--bg-card); }
+        .hover\:bg-white\/5:hover { background: var(--accent-cyan-dim); }
+        .hover\:text-white:hover { color: var(--text-primary); }
+        .hover\:border-indigo-500\/20:hover { border-color: var(--accent-cyan-dim); }
+        .hover\:border-indigo-500\/30:hover { border-color: var(--accent-cyan); }
+        .hover\:scale-\[1\.02\]:hover { transform: scale(1.02); }
+
+        /* text colors → tokens */
+        .text-white { color: var(--text-primary); }
+        .text-slate-200 { color: var(--text-primary); }
+        .text-slate-300 { color: var(--text-secondary); }
+        .text-slate-400 { color: var(--text-secondary); }
+        .text-slate-500 { color: var(--text-muted); }
+        .text-slate-600 { color: var(--text-muted); }
+        .text-indigo-300 { color: var(--accent-cyan); }
+        .text-indigo-400 { color: var(--accent-cyan); }
+        .text-purple-400 { color: var(--accent-gold); }
+        .text-pink-400 { color: var(--accent-gold); }
+        .text-rose-300 { color: #fda4af; }
+        .text-rose-400 { color: #fb7185; }
+        .text-red-300 { color: #fca5a5; }
+        .text-red-400 { color: #f87171; }
+        .text-emerald-300 { color: #6ee7b7; }
+        .text-emerald-400 { color: #34d399; }
+        .text-amber-300 { color: #fcd34d; }
+        .text-amber-400 { color: #fbbf24; }
+        .text-blue-300 { color: #93c5fd; }
+
+        /* background colors → tokens */
+        .bg-slate-900 { background: var(--bg-card); }
+        .bg-slate-900\/30 { background: color-mix(in srgb, var(--bg-card) 45%, transparent); }
+        .bg-slate-900\/50 { background: color-mix(in srgb, var(--bg-card) 70%, transparent); }
+        .bg-slate-800\/50 { background: var(--bg-card); }
+        .bg-indigo-400 { background: var(--accent-cyan); }
+        .bg-indigo-500 { background: var(--accent-cyan); }
+        .bg-indigo-500\/10 { background: var(--accent-cyan-dim); }
+        .bg-indigo-500\/5 { background: var(--accent-cyan-dim); }
+        .bg-purple-500\/10 { background: var(--accent-gold-dim); }
+        .bg-pink-500 { background: var(--accent-gold); }
+        .bg-pink-500\/10 { background: var(--accent-gold-dim); }
+        .bg-amber-400 { background: #fbbf24; }
+        .bg-amber-500 { background: #f59e0b; }
+        .bg-amber-500\/5 { background: rgba(245, 158, 11, 0.08); }
+        .bg-emerald-400 { background: #34d399; }
+        .bg-emerald-500 { background: #10b981; }
+        .bg-emerald-500\/10 { background: rgba(16, 185, 129, 0.12); }
+        .bg-emerald-500\/5 { background: rgba(16, 185, 129, 0.07); }
+        .bg-red-500\/10 { background: rgba(239, 68, 68, 0.12); }
+        .bg-rose-400 { background: #fb7185; }
+        .bg-rose-500\/5 { background: rgba(244, 63, 94, 0.07); }
+        .bg-blue-950\/30 { background: rgba(23, 37, 84, 0.4); }
+        .bg-red-950\/30 { background: rgba(69, 10, 10, 0.4); }
+        .bg-amber-950\/30 { background: rgba(69, 39, 3, 0.4); }
+        .bg-emerald-950\/30 { background: rgba(2, 44, 34, 0.4); }
+        .bg-white\/\[0\.02\] { background: color-mix(in srgb, var(--text-primary) 3%, transparent); }
+
+        /* border colors → tokens */
+        .border-white\/5 { border-color: var(--border-subtle); }
+        .border-white\/10 { border-color: var(--border-subtle); }
+        .border-indigo-500\/10 { border-color: var(--accent-cyan-dim); }
+        .border-indigo-500\/20 { border-color: var(--accent-cyan-dim); }
+        .border-indigo-500\/30 { border-color: var(--accent-cyan); }
+        .border-purple-500\/20 { border-color: var(--accent-gold-dim); }
+        .border-pink-500\/20 { border-color: var(--accent-gold-dim); }
+        .border-amber-500\/10 { border-color: rgba(245, 158, 11, 0.15); }
+        .border-amber-800\/30 { border-color: rgba(146, 64, 14, 0.4); }
+        .border-red-500\/20 { border-color: rgba(239, 68, 68, 0.25); }
+        .border-red-800\/30 { border-color: rgba(153, 27, 27, 0.4); }
+        .border-emerald-500\/10 { border-color: rgba(16, 185, 129, 0.15); }
+        .border-emerald-800\/30 { border-color: rgba(6, 95, 70, 0.4); }
+        .border-blue-800\/30 { border-color: rgba(30, 64, 175, 0.4); }
+        .border-rose-500\/10 { border-color: rgba(244, 63, 94, 0.15); }
+
+        /* gradients → token-driven custom properties */
+        .bg-gradient-to-r { background-image: linear-gradient(to right, var(--grad-from), var(--grad-via, var(--grad-to)), var(--grad-to)); }
+        .bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--grad-from), var(--grad-via, var(--grad-to)), var(--grad-to)); }
+        .from-indigo-500 { --grad-from: var(--accent-cyan); }
+        .from-indigo-600 { --grad-from: var(--accent-cyan); }
+        .from-slate-800\/30 { --grad-from: color-mix(in srgb, var(--bg-card) 30%, transparent); }
+        .from-emerald-500 { --grad-from: #10b981; }
+        .from-amber-500 { --grad-from: #f59e0b; }
+        .from-red-500 { --grad-from: #ef4444; }
+        .to-purple-500 { --grad-to: var(--accent-gold); }
+        .to-purple-600 { --grad-to: var(--accent-gold); }
+        .to-emerald-400 { --grad-to: #34d399; }
+        .to-teal-400 { --grad-to: #2dd4bf; }
+        .to-rose-400 { --grad-to: #fb7185; }
+        .to-purple-900\/10 { --grad-to: color-mix(in srgb, var(--accent-gold) 10%, transparent); }
+        .via-indigo-900\/10 { --grad-via: color-mix(in srgb, var(--accent-cyan) 10%, transparent); }
+        .via-purple-500 { --grad-via: var(--accent-gold); }
+
+        /* responsive variants */
+        @media (min-width: 640px) {
+            .sm\:flex-row { flex-direction: row; }
+            .sm\:items-end { align-items: flex-end; }
+        }
+        @media (min-width: 768px) {
+            .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+        @media (min-width: 1024px) {
+            .lg\:flex-row { flex-direction: row; }
+            .lg\:w-72 { width: 18rem; }
+            .lg\:p-8 { padding: 2rem; }
+            .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .lg\:col-span-2 { grid-column: span 2 / span 2; }
+        }
+        @media (min-width: 1280px) {
+            .xl\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .xl\:col-span-2 { grid-column: span 2 / span 2; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div class="nav-right">
+                <div class="nav-links"><a href="../../../index.html">Catalog</a></div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+    <div class="layout">
+      <div class="note-header">
+        <div class="crumbs"><a href="../../../index.html">notes</a><span class="sep">/</span><a href="../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><span class="here">central-tendency</span></div>
+        <h1 class="note-title">Epistemic Analyzer — Central Tendency Engine</h1>
+        <div class="note-meta">
+          <span class="chip">live note</span>
+          <span class="chip">interactive</span>
+          <span class="chip">#distributional</span>
+          <span class="chip">#robustness</span>
+        </div>
+      </div>
+
+      <div class="cols">
+        <main class="note-main">
+          <article class="note-card">
+            <div class="markdown-body">
+
+              <blockquote>
+                <p>An interactive engine for central tendency: density estimation, epistemic validity checks, and counterfactual perturbation — testing which summaries survive structural stress.</p>
+              </blockquote>
+
+              <h2 id="index">Index</h2>
+              <ul>
+                <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+                <li><a href="#view1">Density &amp; Metrics</a></li>
+                <li><a href="#view2">Epistemic Validity</a></li>
+                <li><a href="#view3">Counterfactual Lab</a></li>
+                <li><a href="#diagnostics">Diagnostic questions</a> — flags, fragility</li>
+                <li><a href="#references">References</a> — schema</li>
+              </ul>
+
+              <h2 id="formulation">Formulation</h2>
+
+              <h3>What epistemic element type does this instance belong to?</h3>
+              <blockquote>
+                <p><strong>Concrete Epistemic Artifact</strong> — a computed validity verdict about one dataset's center — produced by applying an <strong>Epistemic Operator</strong> (kernel density estimation, bootstrap resampling, structural alignment), and usable as an <strong>Epistemic Standard</strong> (center-viability score and diagnostic flags). Schema: <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+              </blockquote>
+
+              <h3>What is this epistemic instance?</h3>
+              <blockquote>
+                <p>An interactive engine comparing central-tendency estimators across three views — density and metrics, epistemic validity, counterfactual lab — with an affirmation matrix recording what each metric represents (location, variance, multimodality, tail risk).</p>
+              </blockquote>
+
+              <h3>What grounds this reading?</h3>
+              <blockquote>
+                <p>It resolves the epistemic gap of <strong>estimator choice under structural stress</strong> — perturbing distributions and observing metric drift under skew and contamination to test which summaries survive. It preserves each metric's breakdown behavior; it destroys the full distributional detail that point summaries collapse away.</p>
+              </blockquote>
+
+    <!-- App Container (scoped inside card flow) -->
+    <div class="relative z-10 flex flex-col lg:flex-row">
+
+        <!-- Sidebar (in-card control panel; eyebrow h1 preserved) -->
+        <aside class="w-full lg:w-72 glass-panel flex flex-col flex-shrink-0">
+            <!-- Header -->
+            <div class="p-6 border-b border-white/5">
+                <div class="flex items-center gap-3 mb-1">
+                    <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/30">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h1 class="text-lg font-bold tracking-tight">
+                        <span class="text-gradient">EPISTEMIC</span>
+                    </h1>
+                </div>
+                <p class="text-[10px] text-slate-500 font-mono uppercase tracking-[0.2em] ml-11">Analyzer v2.0</p>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="flex-1 p-4 space-y-1 overflow-y-auto">
+                <button onclick="switchView('view1')" class="nav-item active w-full text-left px-4 py-3 rounded-xl text-sm font-medium flex items-center gap-3 group" id="nav-view1">
+                    <svg class="w-4 h-4 text-indigo-400 group-hover:text-indigo-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/>
+                    </svg>
+                    <span>Density & Metrics</span>
+                    <div class="ml-auto opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="w-1.5 h-1.5 rounded-full bg-indigo-400 status-dot"></div>
+                    </div>
+                </button>
+                
+                <button onclick="switchView('view2')" class="nav-item w-full text-left px-4 py-3 rounded-xl text-sm font-medium text-slate-400 flex items-center gap-3 group" id="nav-view2">
+                    <svg class="w-4 h-4 text-slate-500 group-hover:text-purple-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Epistemic Validity</span>
+                </button>
+                
+                <button onclick="switchView('view3')" class="nav-item w-full text-left px-4 py-3 rounded-xl text-sm font-medium text-slate-400 flex items-center gap-3 group" id="nav-view3">
+                    <svg class="w-4 h-4 text-slate-500 group-hover:text-pink-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                    </svg>
+                    <span>Counterfactual Lab</span>
+                </button>
+            </nav>
+
+            <!-- Data Controls -->
+            <div class="p-4 border-t border-white/5 space-y-4">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500">Data Presets</span>
+                    <div class="status-dot bg-emerald-500"></div>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-2">
+                    <button onclick="loadPreset('normal')" class="preset-btn px-3 py-2 rounded-lg bg-slate-800/50 border border-white/5 text-xs font-medium text-slate-300 hover:bg-slate-700/50 hover:border-indigo-500/30 transition-all">
+                        Normal
+                    </button>
+                    <button onclick="loadPreset('skewed')" class="preset-btn px-3 py-2 rounded-lg bg-slate-800/50 border border-white/5 text-xs font-medium text-slate-300 hover:bg-slate-700/50 hover:border-indigo-500/30 transition-all">
+                        Log-Normal
+                    </button>
+                    <button onclick="loadPreset('heavy')" class="preset-btn px-3 py-2 rounded-lg bg-slate-800/50 border border-white/5 text-xs font-medium text-slate-300 hover:bg-slate-700/50 hover:border-indigo-500/30 transition-all">
+                        Pareto
+                    </button>
+                    <button onclick="loadPreset('mixture')" class="preset-btn px-3 py-2 rounded-lg bg-slate-800/50 border border-white/5 text-xs font-medium text-slate-300 hover:bg-slate-700/50 hover:border-indigo-500/30 transition-all">
+                        Bimodal
+                    </button>
+                </div>
+
+                <div class="pt-2">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500">Sample Size</span>
+                        <span id="nDisplay" class="text-xs font-mono text-indigo-400">1000</span>
+                    </div>
+                    <input type="range" id="globalN" value="1000" min="100" max="10000" step="100" 
+                           oninput="document.getElementById('nDisplay').textContent = this.value"
+                           class="w-full">
+                </div>
+
+                <button onclick="generateBaseData()" class="w-full group relative overflow-hidden rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 p-px">
+                    <div class="relative bg-slate-900 rounded-[11px] px-4 py-2.5 transition-all group-hover:bg-opacity-0">
+                        <span class="relative flex items-center justify-center gap-2 text-sm font-semibold text-white">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                            </svg>
+                            Regenerate Data
+                        </span>
+                    </div>
+                    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity blur-xl"></div>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-4 lg:p-8">
+            
+            <!-- View 1: Density Explorer -->
+            <div id="view1" class="view-section space-y-6">
+                <!-- Header -->
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-8">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="px-2 py-0.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-[10px] font-bold uppercase tracking-wider text-indigo-400">Analysis</span>
+                        </div>
+                        <h2 class="text-4xl font-extrabold tracking-tight text-white mb-1">Density Explorer</h2>
+                        <p class="text-slate-400 text-sm">Kernel Density Estimation with Structural Diagnostics</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="glass-card px-4 py-2 rounded-lg flex items-center gap-3">
+                            <div class="w-2 h-2 rounded-full bg-emerald-500 status-dot"></div>
+                            <span class="text-xs text-slate-400 font-mono">LIVE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Grid -->
+                <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
+                    <!-- Chart -->
+                    <div class="xl:col-span-2 glass-card rounded-2xl p-1 overflow-hidden">
+                        <div class="p-4 border-b border-white/5 flex items-center justify-between">
+                            <h3 class="text-sm font-semibold text-slate-300">Distribution Profile</h3>
+                            <div class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-indigo-500"></span>
+                                <span class="text-xs text-slate-500 font-mono">KDE Bandwidth: Auto</span>
+                            </div>
+                        </div>
+                        <div class="p-4" style="height: 420px;">
+                            <canvas id="distChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Structural Analysis -->
+                    <div class="glass-card rounded-2xl p-6 space-y-6 bg-gradient-to-br from-slate-800/30 via-indigo-900/10 to-purple-900/10">
+                        <div>
+                            <h3 class="text-lg font-bold text-white mb-1">Structural Analysis</h3>
+                            <p class="text-xs text-slate-500">Distribution morphology metrics</p>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="metric-pill rounded-xl p-4">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-xs text-slate-400 uppercase tracking-wider font-medium">Modality</span>
+                                    <span id="modality" class="text-sm font-mono font-semibold text-indigo-300">-</span>
+                                </div>
+                                <div class="w-full bg-slate-900/50 rounded-full h-1.5 mt-2">
+                                    <div id="modalityBar" class="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 transition-all duration-700" style="width: 0%"></div>
+                                </div>
+                            </div>
+
+                            <div class="metric-pill rounded-xl p-4">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-xs text-slate-400 uppercase tracking-wider font-medium">Skewness</span>
+                                    <span id="skewness" class="text-sm font-mono font-semibold text-indigo-300">-</span>
+                                </div>
+                                <div class="w-full bg-slate-900/50 rounded-full h-1.5 mt-2">
+                                    <div id="skewnessBar" class="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 transition-all duration-700" style="width: 0%"></div>
+                                </div>
+                            </div>
+
+                            <div class="metric-pill rounded-xl p-4">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-xs text-slate-400 uppercase tracking-wider font-medium">Kurtosis</span>
+                                    <span id="kurtosis" class="text-sm font-mono font-semibold text-indigo-300">-</span>
+                                </div>
+                                <div class="w-full bg-slate-900/50 rounded-full h-1.5 mt-2">
+                                    <div id="kurtosisBar" class="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 transition-all duration-700" style="width: 0%"></div>
+                                </div>
+                            </div>
+
+                            <div class="metric-pill rounded-xl p-4">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-xs text-slate-400 uppercase tracking-wider font-medium">Tail Index (Hill)</span>
+                                    <span id="tailIndex" class="text-sm font-mono font-semibold text-indigo-300">-</span>
+                                </div>
+                                <div class="w-full bg-slate-900/50 rounded-full h-1.5 mt-2">
+                                    <div id="tailBar" class="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 transition-all duration-700" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-white/5">
+                            <div class="flex justify-between items-end mb-2">
+                                <span class="text-xs text-slate-400 uppercase tracking-wider font-bold">Center Viability</span>
+                                <span id="viabilityScore" class="text-2xl font-mono font-bold text-emerald-400">0%</span>
+                            </div>
+                            <div class="w-full bg-slate-900/50 rounded-full h-3 overflow-hidden">
+                                <div id="viabilityBar" class="h-full rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400 transition-all duration-1000 progress-glow" style="width: 0%"></div>
+                            </div>
+                            <p id="viabilityText" class="text-[10px] text-slate-500 mt-2 text-right">Awaiting data generation...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Metrics Table -->
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <div class="p-6 border-b border-white/5 flex items-center justify-between">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Functional Metrics Diagnostics</h3>
+                            <p class="text-xs text-slate-500 mt-1">Comparative analysis of central tendency estimators</p>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-[10px] font-mono text-indigo-400">Robust</div>
+                            <div class="px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-[10px] font-mono text-purple-400">Moment</div>
+                        </div>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full data-table text-sm">
+                            <thead class="bg-slate-900/30">
+                                <tr>
+                                    <th class="py-4 px-6 text-left text-slate-500">Family</th>
+                                    <th class="py-4 px-6 text-left text-slate-500">Metric</th>
+                                    <th class="py-4 px-6 text-right text-slate-500">Value</th>
+                                    <th class="py-4 px-6 text-left text-slate-500">Implicit Loss</th>
+                                    <th class="py-4 px-6 text-center text-slate-500">Breakdown Pt.</th>
+                                    <th class="py-4 px-6 text-center text-slate-500">Influence</th>
+                                </tr>
+                            </thead>
+                            <tbody id="metricsTable" class="font-mono text-slate-300 divide-y divide-white/5"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View 2: Epistemic Validity -->
+            <div id="view2" class="view-section hidden space-y-6">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-8">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="px-2 py-0.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-[10px] font-bold uppercase tracking-wider text-purple-400">Validation</span>
+                        </div>
+                        <h2 class="text-4xl font-extrabold tracking-tight text-white mb-1">Epistemic Validity Engine</h2>
+                        <p class="text-slate-400 text-sm">Bootstrap Uncertainty, Structural Alignment & Information Loss</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap Chart -->
+                <div class="glass-card rounded-2xl p-1 overflow-hidden">
+                    <div class="p-6 border-b border-white/5">
+                        <h3 class="text-lg font-bold text-white mb-1">Epistemic Uncertainty</h3>
+                        <p class="text-xs text-slate-500">Bootstrap sampling distributions (n=50 resamples). Tight curves indicate high certainty.</p>
+                    </div>
+                    <div class="p-4" style="height: 380px;">
+                        <canvas id="bootstrapChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Middle Row -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="glass-card rounded-2xl p-6">
+                        <h3 class="text-lg font-bold text-white mb-4">Structural Alignment Breakdown</h3>
+                        <div style="height: 320px;">
+                            <canvas id="alignmentChart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card rounded-2xl p-6 flex flex-col">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-white">Diagnostic Flags</h3>
+                            <div class="w-2 h-2 rounded-full bg-amber-500 status-dot animate-pulse"></div>
+                        </div>
+                        <div id="riskFlags" class="space-y-3 flex-1 overflow-y-auto pr-2"></div>
+                    </div>
+                </div>
+
+                <!-- Affirmation Matrix -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <h3 class="text-lg font-bold text-white mb-1">Affirmation Space</h3>
+                            <p class="text-xs text-slate-500">Information preservation matrix — what each metric represents</p>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                        <div class="lg:col-span-2 overflow-x-auto">
+                            <div id="affirmationMatrix" class="text-xs font-mono p-4 bg-slate-900/30 rounded-xl border border-white/5"></div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="p-4 rounded-xl bg-indigo-500/5 border border-indigo-500/10">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-indigo-400"></div>
+                                    <span class="text-xs font-bold text-indigo-300 uppercase tracking-wider">Location</span>
+                                </div>
+                                <p class="text-xs text-slate-400">Does the metric represent the center of mass or central tendency?</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-emerald-500/5 border border-emerald-500/10">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-emerald-400"></div>
+                                    <span class="text-xs font-bold text-emerald-300 uppercase tracking-wider">Variance</span>
+                                </div>
+                                <p class="text-xs text-slate-400">Does the metric account for spread or dispersion in the data?</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-amber-500/5 border border-amber-500/10">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-amber-400"></div>
+                                    <span class="text-xs font-bold text-amber-300 uppercase tracking-wider">Multimodality</span>
+                                </div>
+                                <p class="text-xs text-slate-400">Can the metric detect or preserve multiple peaks?</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-rose-500/5 border border-rose-500/10">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-rose-400"></div>
+                                    <span class="text-xs font-bold text-rose-300 uppercase tracking-wider">Tail Risk</span>
+                                </div>
+                                <p class="text-xs text-slate-400">Is the estimator sensitive to extreme events or outliers?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View 3: Counterfactual Lab -->
+            <div id="view3" class="view-section hidden space-y-6">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-8">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="px-2 py-0.5 rounded-full bg-pink-500/10 border border-pink-500/20 text-[10px] font-bold uppercase tracking-wider text-pink-400">Simulation</span>
+                        </div>
+                        <h2 class="text-4xl font-extrabold tracking-tight text-white mb-1">Counterfactual Simulator</h2>
+                        <p class="text-slate-400 text-sm">Perturb distributions and observe metric drift in real-time</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- Chart -->
+                    <div class="lg:col-span-2 glass-card rounded-2xl p-1 overflow-hidden">
+                        <div class="p-4 border-b border-white/5 flex items-center justify-between">
+                            <h3 class="text-sm font-semibold text-slate-300">Perturbed Distribution</h3>
+                            <div class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-pink-500 animate-pulse"></span>
+                                <span class="text-xs text-slate-500 font-mono">Live Preview</span>
+                            </div>
+                        </div>
+                        <div class="p-4" style="height: 400px;">
+                            <canvas id="counterfactualChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <div class="glass-card rounded-2xl p-6 space-y-6">
+                        <div>
+                            <h3 class="text-lg font-bold text-white mb-1">Perturbations</h3>
+                            <p class="text-xs text-slate-500">Adjust parameters to test estimator robustness</p>
+                        </div>
+
+                        <div class="space-y-6">
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center">
+                                    <label class="text-xs text-slate-400 font-medium uppercase tracking-wider">Skew Factor</label>
+                                    <span id="skewValue" class="text-xs font-mono text-pink-400 bg-pink-500/10 px-2 py-0.5 rounded">0.0</span>
+                                </div>
+                                <input type="range" id="cfSkew" min="0" max="3" step="0.1" value="0" 
+                                       oninput="document.getElementById('skewValue').textContent = parseFloat(this.value).toFixed(1); updateCounterfactuals()">
+                                <p class="text-[10px] text-slate-600">Applies logarithmic weight to induce right-skew</p>
+                            </div>
+
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center">
+                                    <label class="text-xs text-slate-400 font-medium uppercase tracking-wider">Contamination</label>
+                                    <span id="contamValue" class="text-xs font-mono text-pink-400 bg-pink-500/10 px-2 py-0.5 rounded">0%</span>
+                                </div>
+                                <input type="range" id="cfContam" min="0" max="0.2" step="0.01" value="0" 
+                                       oninput="document.getElementById('contamValue').textContent = (parseFloat(this.value) * 100).toFixed(0) + '%'; updateCounterfactuals()">
+                                <p class="text-[10px] text-slate-600">Percentage of extreme outliers injected</p>
+                            </div>
+                        </div>
+
+                        <div class="pt-6 border-t border-white/5">
+                            <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-4">Metric Drift (Δ from Base)</h4>
+                            <div id="metricDrift" class="space-y-2 max-h-64 overflow-y-auto pr-2"></div>
+                        </div>
+
+                        <button onclick="resetCounterfactuals()" class="w-full py-2.5 rounded-xl border border-white/10 text-xs font-medium text-slate-400 hover:bg-white/5 hover:text-white transition-all">
+                            Reset to Baseline
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+              <h2 id="diagnostics">Diagnostic questions</h2>
+
+              <h3>What flags a non-viable center?</h3>
+              <blockquote>
+                <p>Skewness, kurtosis, modality, and tail index feed the center-viability score — the Diagnostic Flags panel names whichever metric breaks the reading.</p>
+              </blockquote>
+
+              <h3>How fragile is the verdict?</h3>
+              <blockquote>
+                <p>Perturb skew and contamination in the Counterfactual Simulator and watch Metric Drift: the distance each metric moves from baseline before the verdict flips.</p>
+              </blockquote>
+
+              <h2 id="references">References</h2>
+              <ul>
+                <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+              </ul>
+
+            </div>
+          </article>
+        </main>
+
+        <aside class="sidebar">
+          <div class="sidebar-title">Contents</div>
+          <nav id="toc">
+            <a class="toc-item" href="#formulation">Formulation</a>
+            <a class="toc-item" href="#view1">Density &amp; Metrics</a>
+            <a class="toc-item" href="#view2">Epistemic Validity</a>
+            <a class="toc-item" href="#view3">Counterfactual Lab</a>
+            <a class="toc-item" href="#diagnostics">Diagnostics</a>
+            <a class="toc-item" href="#references">References</a>
+          </nav>
+        </aside>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="foot-inner">
+            <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+            <a href="../../../index.html">&larr; CATALOG</a>
+        </div>
+    </footer>
+
+    <script>
+        // ========================================
+        // Sidebar TOC highlight (mirrors note.html)
+        // ========================================
+        function initTocHighlight() {
+            const items = document.querySelectorAll('#toc .toc-item');
+            if (!items.length || !('IntersectionObserver' in window)) return;
+            const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    const idx = sections.indexOf(entry.target);
+                    items.forEach(it => it.classList.remove('active'));
+                    if (items[idx]) items[idx].classList.add('active');
+                });
+            }, { rootMargin: '-10% 0px -60% 0px' });
+            sections.forEach(s => observer.observe(s));
+        }
+
+        // ========================================
+        // Ambient constellation (mirrors note.html)
+        // ========================================
+        function initAmbient() {
+            const canvas = document.getElementById('ambientCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            let pts = [];
+            const LINK_DIST = 130;
+            function resize() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+                pts = [];
+                for (let i = 0; i < count; i++) {
+                    pts.push({
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        vx: (Math.random() - 0.5) * 0.22,
+                        vy: (Math.random() - 0.5) * 0.22,
+                        r: Math.random() * 1.4 + 0.4
+                    });
+                }
+            }
+            function tick() {
+                const light = document.documentElement.dataset.theme === 'light';
+                const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+                const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (let i = 0; i < pts.length; i++) {
+                    const p = pts[i];
+                    p.x += p.vx; p.y += p.vy;
+                    if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                    if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+                    ctx.fill();
+                    for (let j = i + 1; j < pts.length; j++) {
+                        const m = pts[j];
+                        const dx = p.x - m.x, dy = p.y - m.y;
+                        const dist = Math.sqrt(dx * dx + dy * dy);
+                        if (dist < LINK_DIST) {
+                            ctx.beginPath();
+                            ctx.moveTo(p.x, p.y);
+                            ctx.lineTo(m.x, m.y);
+                            ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                            ctx.lineWidth = 1;
+                            ctx.stroke();
+                        }
+                    }
+                }
+                requestAnimationFrame(tick);
+            }
+            window.addEventListener('resize', resize);
+            resize();
+            requestAnimationFrame(tick);
+        }
+
+        // --- CORE STATE & DATA ---
+        const state = { baseData: [], cfData: [], metrics: {} };
+
+        // --- NAVIGATION ---
+        function switchView(viewId) {
+            document.querySelectorAll('.view-section').forEach(v => {
+                v.classList.add('hidden');
+                v.style.opacity = '0';
+            });
+            document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
+            
+            const targetView = document.getElementById(viewId);
+            targetView.classList.remove('hidden');
+            
+            // Trigger animation
+            setTimeout(() => {
+                targetView.style.opacity = '1';
+                targetView.style.animation = 'none';
+                targetView.offsetHeight; // Trigger reflow
+                targetView.style.animation = 'slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards';
+            }, 10);
+            
+            document.getElementById(`nav-${viewId}`).classList.add('active');
+            
+            // Resize charts after view switch
+            setTimeout(redrawCharts, 100);
+        }
+
+        // --- ROBUST DATA GENERATION ENGINE ---
+        function randn() {
+            let u = 0, v = 0;
+            while(u === 0) u = Math.random();
+            while(v === 0) v = Math.random();
+            return Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+        }
+
+        const generators = {
+            normal: (n, p) => Array.from({length: n}, () => p.mu + randn() * p.sigma),
+            lognormal: (n, p) => Array.from({length: n}, () => Math.exp(p.mu + randn() * p.sigma)),
+            exponential: (n, p) => Array.from({length: n}, () => -Math.log(1.0 - Math.random()) / p.lambda),
+            pareto: (n, p) => Array.from({length: n}, () => p.xm / Math.pow(Math.random(), 1 / p.alpha)),
+            mixture: (n, p) => Array.from({length: n}, () => Math.random() < p.w1 ? p.mu1 + randn() * p.sig1 : p.mu2 + randn() * p.sig2)
+        };
+
+        function loadPreset(type) {
+            const n = parseInt(document.getElementById('globalN').value);
+            if (type === 'normal') state.baseData = generators.normal(n, {mu: 10, sigma: 2});
+            else if (type === 'skewed') state.baseData = generators.lognormal(n, {mu: 2, sigma: 0.8});
+            else if (type === 'heavy') state.baseData = generators.pareto(n, {xm: 1, alpha: 1.5});
+            else if (type === 'mixture') state.baseData = generators.mixture(n, {w1: 0.4, mu1: 5, sig1: 1, mu2: 15, sig2: 2});
+            
+            state.cfData = [...state.baseData];
+            state.metrics = computeMetrics(state.baseData);
+            updateAllViews();
+        }
+
+        function generateBaseData() { loadPreset('normal'); }
+
+        // --- CHARTING ENGINE ---
+        const stats = {
+            min: (a) => Math.min(...a),
+            max: (a) => Math.max(...a),
+            mean: (a) => a.reduce((s, x) => s + x, 0) / a.length,
+            median: (a) => {
+                const s = [...a].sort((x, y) => x - y);
+                const m = Math.floor(s.length / 2);
+                return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+            },
+            std: (a) => {
+                const mu = stats.mean(a);
+                return Math.sqrt(a.reduce((s, x) => s + (x - mu) ** 2, 0) / (a.length - 1));
+            },
+            quantile: (a, p) => {
+                const s = [...a].sort((x, y) => x - y);
+                const h = (s.length - 1) * p;
+                const lo = Math.floor(h);
+                return s[lo] + (h - lo) * (s[Math.min(lo + 1, s.length - 1)] - s[lo]);
+            },
+            range: (start, end, step) => {
+                const out = [];
+                for (let v = start; v < end; v += step) out.push(v);
+                return out;
+            }
+        };
+
+        function themeColors() {
+            const s = getComputedStyle(document.documentElement);
+            return {
+                primary: s.getPropertyValue('--text-primary').trim(),
+                secondary: s.getPropertyValue('--text-secondary').trim(),
+                muted: s.getPropertyValue('--text-muted').trim(),
+                cyan: s.getPropertyValue('--accent-cyan').trim(),
+                gold: s.getPropertyValue('--accent-gold').trim(),
+                surface: s.getPropertyValue('--bg-surface').trim()
+            };
+        }
+
+        function withAlpha(color, alpha) {
+            const m = /^#([0-9a-f]{6})$/i.exec(color);
+            if (m) {
+                const n = parseInt(m[1], 16);
+                return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+            }
+            return color;
+        }
+
+        const chartCache = {};
+
+        function prepCanvas(canvas) {
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvas.parentElement.getBoundingClientRect();
+            const w = Math.max(rect.width, 10);
+            const h = Math.max(rect.height, 10);
+            if (canvas.width !== Math.round(w * dpr) || canvas.height !== Math.round(h * dpr)) {
+                canvas.width = Math.round(w * dpr);
+                canvas.height = Math.round(h * dpr);
+                canvas.style.width = w + 'px';
+                canvas.style.height = h + 'px';
+            }
+            const ctx = canvas.getContext('2d');
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            return { ctx, w, h };
+        }
+
+        function roundRectPath(ctx, x, y, w, h, r) {
+            ctx.beginPath();
+            ctx.moveTo(x + r, y);
+            ctx.arcTo(x + w, y, x + w, y + h, r);
+            ctx.arcTo(x + w, y + h, x, y + h, r);
+            ctx.arcTo(x, y + h, x, y, r);
+            ctx.arcTo(x, y, x + w, y, r);
+            ctx.closePath();
+        }
+
+        function drawLineChart(canvas, cfg) {
+            const pal = themeColors();
+            const { ctx, w, h } = prepCanvas(canvas);
+            ctx.clearRect(0, 0, w, h);
+            const pad = { l: 10, r: 10, t: 30, b: 22 };
+            let minX = Infinity, maxX = -Infinity, maxY = 0;
+            cfg.series.forEach(s => s.points.forEach(p => {
+                minX = Math.min(minX, p.x);
+                maxX = Math.max(maxX, p.x);
+                maxY = Math.max(maxY, p.y);
+            }));
+            if (!isFinite(minX) || maxX === minX) return;
+            maxY *= 1.05;
+            const X = x => pad.l + (x - minX) / (maxX - minX) * (w - pad.l - pad.r);
+            const Y = y => h - pad.b - (y / (maxY || 1)) * (h - pad.t - pad.b);
+            ctx.fillStyle = pal.muted;
+            ctx.font = '10px "JetBrains Mono", monospace';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'alphabetic';
+            const ticks = 6;
+            for (let i = 0; i <= ticks; i++) {
+                const x = minX + (maxX - minX) * i / ticks;
+                ctx.fillText(x.toFixed(1), X(x), h - 6);
+            }
+            ctx.strokeStyle = withAlpha(pal.muted, '0.18');
+            ctx.lineWidth = 1;
+            for (let i = 0; i <= ticks; i++) {
+                const x = minX + (maxX - minX) * i / ticks;
+                ctx.beginPath();
+                ctx.moveTo(X(x), pad.t);
+                ctx.lineTo(X(x), h - pad.b);
+                ctx.stroke();
+            }
+            cfg.series.forEach(s => {
+                if (!s.points.length) return;
+                if (s.fill) {
+                    const g = ctx.createLinearGradient(0, pad.t, 0, h - pad.b);
+                    g.addColorStop(0, withAlpha(s.color, '0.30'));
+                    g.addColorStop(1, withAlpha(s.color, '0'));
+                    ctx.beginPath();
+                    s.points.forEach((p, i) => i ? ctx.lineTo(X(p.x), Y(p.y)) : ctx.moveTo(X(p.x), Y(p.y)));
+                    ctx.lineTo(X(s.points[s.points.length - 1].x), h - pad.b);
+                    ctx.lineTo(X(s.points[0].x), h - pad.b);
+                    ctx.closePath();
+                    ctx.fillStyle = g;
+                    ctx.fill();
+                }
+                ctx.beginPath();
+                if (s.dash) ctx.setLineDash(s.dash);
+                s.points.forEach((p, i) => i ? ctx.lineTo(X(p.x), Y(p.y)) : ctx.moveTo(X(p.x), Y(p.y)));
+                ctx.strokeStyle = s.color;
+                ctx.lineWidth = s.width || 2;
+                ctx.lineJoin = 'round';
+                ctx.lineCap = 'round';
+                ctx.stroke();
+                ctx.setLineDash([]);
+            });
+            const labeled = cfg.series.filter(s => s.label);
+            if (labeled.length) {
+                ctx.textAlign = 'right';
+                ctx.font = '11px Inter, sans-serif';
+                ctx.textBaseline = 'middle';
+                let lx = w - pad.r;
+                labeled.forEach(s => {
+                    const tw = ctx.measureText(s.label).width;
+                    ctx.fillStyle = s.color;
+                    ctx.beginPath();
+                    ctx.arc(lx - tw - 8, pad.t - 12, 3.5, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.fillStyle = pal.primary;
+                    ctx.fillText(s.label, lx, pad.t - 12);
+                    lx -= tw + 22;
+                });
+                ctx.textBaseline = 'alphabetic';
+            }
+        }
+
+        function drawBarChart(canvas, cfg) {
+            const pal = themeColors();
+            const { ctx, w, h } = prepCanvas(canvas);
+            ctx.clearRect(0, 0, w, h);
+            const pad = { l: 92, r: 18, t: 10, b: 10 };
+            const max = cfg.max || 100;
+            const rowH = (h - pad.t - pad.b) / cfg.labels.length;
+            ctx.strokeStyle = withAlpha(pal.muted, '0.15');
+            ctx.lineWidth = 1;
+            for (let v = 0; v <= max; v += max / 4) {
+                const x = pad.l + (v / max) * (w - pad.l - pad.r);
+                ctx.beginPath();
+                ctx.moveTo(x, pad.t);
+                ctx.lineTo(x, h - pad.b);
+                ctx.stroke();
+            }
+            ctx.textBaseline = 'middle';
+            cfg.labels.forEach((lab, i) => {
+                const y = pad.t + rowH * i + rowH / 2;
+                ctx.fillStyle = pal.primary;
+                ctx.font = '12px Inter, sans-serif';
+                ctx.textAlign = 'right';
+                ctx.fillText(lab, pad.l - 10, y);
+                const c = cfg.colors[i];
+                const bw = Math.max((cfg.values[i] / max) * (w - pad.l - pad.r), 1);
+                ctx.fillStyle = withAlpha(c, '0.18');
+                roundRectPath(ctx, pad.l, y - rowH * 0.28, bw, rowH * 0.56, 4);
+                ctx.fill();
+                ctx.strokeStyle = c;
+                ctx.lineWidth = 1.5;
+                roundRectPath(ctx, pad.l, y - rowH * 0.28, bw, rowH * 0.56, 4);
+                ctx.stroke();
+                ctx.fillStyle = pal.muted;
+                ctx.font = '10px "JetBrains Mono", monospace';
+                ctx.textAlign = 'left';
+                ctx.fillText(String(Math.round(cfg.values[i])), pad.l + bw + 6, y);
+            });
+            ctx.textBaseline = 'alphabetic';
+        }
+
+        function redrawCharts() {
+            Object.keys(chartCache).forEach(id => {
+                const c = chartCache[id];
+                const el = document.getElementById(id);
+                if (!el) return;
+                if (c.type === 'line') drawLineChart(el, c.cfg);
+                if (c.type === 'bar') drawBarChart(el, c.cfg);
+            });
+        }
+
+        function calculateKDE(data, evalPoints, bandwidth) {
+            const n = data.length;
+            const h = bandwidth || stats.std(data) * Math.pow(n, -1/5) * 1.2; 
+            const densities = evalPoints.map(x => {
+                const sum = data.reduce((acc, val) => acc + Math.exp(-0.5 * Math.pow((x - val) / h, 2)), 0);
+                return sum / (n * h * Math.sqrt(2 * Math.PI));
+            });
+            return densities;
+        }
+
+        function renderDistChart(canvasId, data) {
+            const canvas = document.getElementById(canvasId);
+
+            const min = stats.min(data);
+            const max = stats.max(data);
+            const padding = (max - min) * 0.15;
+            const step = (max - min + 2*padding) / 200;
+            const kdePoints = stats.range(min - padding, max + padding, step);
+            const kdeDensities = calculateKDE(data, kdePoints);
+
+            const cfg = {
+                series: [{
+                    points: kdePoints.map((x, i) => ({ x, y: kdeDensities[i] })),
+                    color: themeColors().cyan,
+                    width: 3,
+                    fill: true
+                }]
+            };
+            chartCache[canvasId] = { type: 'line', cfg };
+            drawLineChart(canvas, cfg);
+        }
+
+        // --- EPISTEMIC ENGINE ---
+        function sampleWithReplacement(data) {
+            const n = data.length;
+            return Array.from({length: n}, () => data[Math.floor(Math.random() * n)]);
+        }
+
+        function computeBootstrapDistributions(data, iterations = 50) {
+            const metricsToTrack = ['Mean', 'Median', 'Huber', 'Trimmed Mean'];
+            const results = {};
+            metricsToTrack.forEach(m => results[m] = []);
+
+            for(let i=0; i<iterations; i++) {
+                const sample = sampleWithReplacement(data);
+                const m = computeMetrics(sample);
+                Object.keys(m).forEach(fam => {
+                    m[fam].forEach(metric => {
+                        if(metricsToTrack.includes(metric.name) && !isNaN(metric.value)) {
+                            results[metric.name].push(metric.value);
+                        }
+                    });
+                });
+            }
+            return results;
+        }
+
+        function renderBootstrapChart(canvasId, data) {
+            const canvas = document.getElementById(canvasId);
+
+            const bootstrapResults = computeBootstrapDistributions(data);
+            const colors = {
+                'Mean': '#ef4444',
+                'Median': '#22c55e',
+                'Huber': '#ec4899',
+                'Trimmed Mean': '#06b6d4'
+            };
+
+            const allValues = Object.values(bootstrapResults).flat();
+            const globalMin = stats.min(allValues);
+            const globalMax = stats.max(allValues);
+            const padding = (globalMax - globalMin) * 0.1;
+            const evalPoints = stats.range(globalMin - padding, globalMax + padding, (globalMax - globalMin + 2*padding)/120);
+
+            const series = [];
+            Object.keys(bootstrapResults).forEach(metricName => {
+                const mData = bootstrapResults[metricName];
+                const kde = calculateKDE(mData, evalPoints, (globalMax - globalMin) * 0.05);
+
+                series.push({
+                    label: metricName,
+                    points: evalPoints.map((x, i) => ({ x, y: kde[i] })),
+                    color: colors[metricName],
+                    width: 2.5,
+                    fill: true
+                });
+            });
+
+            const cfg = { series };
+            chartCache[canvasId] = { type: 'line', cfg };
+            drawLineChart(canvas, cfg);
+        }
+
+        function analyzeStructure(data) {
+            const mean = stats.mean(data);
+            const std = stats.std(data);
+            const skew = stats.mean(data.map(x => Math.pow((x - mean) / std, 3)));
+            const kurt = stats.mean(data.map(x => Math.pow((x - mean) / std, 4))) - 3;
+            
+            const sData = [...data].sort((a,b) => b-a);
+            const k = Math.floor(data.length * 0.1);
+            let hillSum = 0;
+            for(let i=1; i<k; i++) hillSum += Math.log(sData[i-1]) - Math.log(sData[k]);
+            const tailIndex = hillSum / k;
+
+            const viability = Math.max(0, 100 - (Math.abs(skew) * 10) - (Math.abs(kurt) * 3) - (tailIndex < 2 ? 30 : 0));
+            return { skew, kurt, tailIndex, viability };
+        }
+
+        function calculateAlignment(data) {
+            const struct = analyzeStructure(data);
+            const alignMap = {};
+            
+            alignMap['Mean'] = 70;
+            alignMap['Median'] = 80;
+            alignMap['Trim Mean'] = 75;
+            alignMap['Huber'] = 85;
+            alignMap['Mode'] = 60;
+
+            if(Math.abs(struct.skew) > 0.5) {
+                alignMap['Mean'] -= 25;
+                alignMap['Median'] += 10;
+                alignMap['Trim Mean'] += 5;
+                alignMap['Huber'] += 10;
+                alignMap['Mode'] -= 10;
+            }
+
+            if(struct.tailIndex < 2) {
+                alignMap['Mean'] -= 35;
+                alignMap['Trim Mean'] -= 15;
+                alignMap['Median'] += 5;
+                alignMap['Huber'] += 5;
+            }
+
+            if(struct.kurt > 3) {
+                alignMap['Mean'] -= 15;
+                alignMap['Mode'] -= 20;
+            }
+
+            Object.keys(alignMap).forEach(k => alignMap[k] = Math.min(100, Math.max(0, alignMap[k])));
+            return alignMap;
+        }
+
+        // --- METRICS LAYER ---
+        function computeMetrics(data) {
+            if (data.length === 0) return {};
+            const sData = [...data].sort((a,b) => a-b);
+            const mean = stats.mean(data);
+            
+            return {
+                'Moment': [
+                    { name: 'Mean', value: mean, loss: 'L2 (Squared)', bp: '0%', infNorm: '∞', color: '#ef4444' },
+                    { name: 'RMS', value: Math.sqrt(stats.mean(data.map(x => x**2))), loss: 'L2 Root', bp: '0%', infNorm: '∞', color: '#f97316' },
+                    { name: 'Geometric Mean', value: data.every(x => x > 0) ? Math.exp(stats.mean(data.map(x => Math.log(x)))) : NaN, loss: 'Log-L2', bp: '0%', infNorm: '∞', color: '#eab308' }
+                ],
+                'Order': [
+                    { name: 'Median', value: stats.median(data), loss: 'L1 (Absolute)', bp: '50%', infNorm: '1/x', color: '#22c55e' },
+                    { name: '25th Quantile', value: stats.quantile(data, 0.25), loss: 'Asymmetric L1', bp: '25%', infNorm: '1/x', color: '#14b8a6' },
+                    { name: 'Trimmed Mean', value: stats.mean(sData.slice(Math.floor(data.length*0.1), Math.ceil(data.length*0.9))), loss: 'Truncated L2', bp: '10%', infNorm: 'Bound', color: '#06b6d4' }
+                ],
+                'Density': [
+                    { name: 'Mode (KDE)', value: kdeMode(data), loss: 'Density Argmax', bp: '0%', infNorm: 'Local', color: '#8b5cf6' }
+                ],
+                'Robust (M)': [
+                    { name: 'Huber Estimator', value: huberMEstimator(data), loss: 'L2/L1 Hybrid', bp: '20%', infNorm: 'Bound', color: '#ec4899' }
+                ],
+                'Range': [
+                    { name: 'Midrange', value: (sData[0] + sData[sData.length-1]) / 2, loss: 'Minimax', bp: '0%', infNorm: '∞', color: '#6366f1' },
+                    { name: 'Midhinge', value: (stats.quantile(data, 0.25) + stats.quantile(data, 0.75)) / 2, loss: 'Interquartile Mid', bp: '25%', infNorm: 'Bound', color: '#a855f7' }
+                ]
+            };
+        }
+
+        function kdeMode(data) {
+            let maxD = -1, modeX = 0;
+            const h = stats.std(data) * Math.pow(data.length, -1/5);
+            for (let i = 0; i < data.length; i += 5) { 
+                let d = 0;
+                for (let j = 0; j < data.length; j++) d += Math.exp(-0.5 * Math.pow((data[i] - data[j]) / h, 2));
+                if (d > maxD) { maxD = d; modeX = data[i]; }
+            }
+            return modeX;
+        }
+
+        function huberMEstimator(data, k=1.5) {
+            let mu = stats.median(data);
+            for(let iter=0; iter<10; iter++) {
+                let sumW = 0, sumWX = 0;
+                data.forEach(x => {
+                    const r = x - mu;
+                    const w = Math.abs(r) <= k ? 1 : k / Math.abs(r);
+                    sumW += w; sumWX += w * x;
+                });
+                mu = sumWX / sumW;
+            }
+            return mu;
+        }
+
+        // --- VIEW UPDATERS ---
+        function updateAllViews() {
+            updateView1();
+            updateView2();
+            updateView3();
+        }
+
+        function updateView1() {
+            const data = state.baseData;
+            const struct = analyzeStructure(data);
+            
+            // Update text values with animation
+            document.getElementById('modality').innerText = Math.abs(struct.kurt) > 5 ? "Multimodal" : "Unimodal";
+            document.getElementById('skewness').innerText = struct.skew.toFixed(2);
+            document.getElementById('kurtosis').innerText = struct.kurt.toFixed(2);
+            document.getElementById('tailIndex').innerText = struct.tailIndex.toFixed(2);
+            document.getElementById('viabilityScore').innerText = struct.viability.toFixed(0) + "%";
+            document.getElementById('viabilityBar').style.width = struct.viability + "%";
+            
+            // Color coding based on viability
+            const bar = document.getElementById('viabilityBar');
+            const text = document.getElementById('viabilityText');
+            if (struct.viability > 70) {
+                bar.className = "h-full rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-1000 progress-glow";
+                text.textContent = "Distribution is well-behaved. Standard metrics apply.";
+                text.className = "text-[10px] text-emerald-500/70 mt-2 text-right";
+            } else if (struct.viability > 40) {
+                bar.className = "h-full rounded-full bg-gradient-to-r from-amber-500 to-orange-400 transition-all duration-1000 progress-glow";
+                text.textContent = "Caution: Mild structural issues detected.";
+                text.className = "text-[10px] text-amber-500/70 mt-2 text-right";
+            } else {
+                bar.className = "h-full rounded-full bg-gradient-to-r from-red-500 to-rose-400 transition-all duration-1000 progress-glow";
+                text.textContent = "Warning: High epistemic risk. Use robust estimators.";
+                text.className = "text-[10px] text-red-500/70 mt-2 text-right";
+            }
+
+            // Animate metric bars
+            document.getElementById('modalityBar').style.width = Math.abs(struct.kurt) > 5 ? '85%' : '45%';
+            document.getElementById('skewnessBar').style.width = Math.min(Math.abs(struct.skew) * 20, 100) + '%';
+            document.getElementById('kurtosisBar').style.width = Math.min(Math.abs(struct.kurt) * 10, 100) + '%';
+            document.getElementById('tailBar').style.width = Math.min(struct.tailIndex * 30, 100) + '%';
+
+            renderDistChart('distChart', data);
+
+            const table = document.getElementById('metricsTable');
+            table.innerHTML = '';
+            Object.keys(state.metrics).forEach(family => {
+                state.metrics[family].forEach(metric => {
+                    const row = document.createElement('tr');
+                    row.className = 'group transition-colors hover:bg-white/[0.02]';
+                    row.innerHTML = `
+                        <td class="py-4 px-6 text-slate-500 text-[10px] uppercase tracking-wider font-semibold">${family}</td>
+                        <td class="py-4 px-6">
+                            <div class="flex items-center gap-3">
+                                <span class="w-2.5 h-2.5 rounded-full shadow-lg" style="background:${metric.color}; box-shadow: 0 0 8px ${metric.color}40"></span>
+                                <span class="font-semibold text-slate-200 text-sm">${metric.name}</span>
+                            </div>
+                        </td>
+                        <td class="py-4 px-6 text-right font-mono text-indigo-300 text-sm">${isNaN(metric.value) ? 'N/A' : metric.value.toFixed(4)}</td>
+                        <td class="py-4 px-6 text-slate-400 text-xs">${metric.loss}</td>
+                        <td class="py-4 px-6 text-center">
+                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-medium ${metric.bp === '0%' ? 'bg-red-500/10 text-red-400 border border-red-500/20' : 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'}">
+                                ${metric.bp}
+                            </span>
+                        </td>
+                        <td class="py-4 px-6 text-center text-amber-400 text-xs font-mono">${metric.infNorm}</td>
+                    `;
+                    table.appendChild(row);
+                });
+            });
+        }
+
+        function updateView2() {
+            const data = state.baseData;
+            const struct = analyzeStructure(data);
+            const alignMap = calculateAlignment(data);
+            
+            renderBootstrapChart('bootstrapChart', data);
+
+            // Alignment Chart
+            const canvas = document.getElementById('alignmentChart');
+
+            const labels = Object.keys(alignMap);
+            const values = Object.values(alignMap);
+            const barColors = values.map(v => v > 70 ? '#22c55e' : v > 40 ? '#f59e0b' : '#ef4444');
+
+            const cfg = { labels: labels, values: values, colors: barColors, max: 100 };
+            chartCache['alignmentChart'] = { type: 'bar', cfg };
+            drawBarChart(canvas, cfg);
+
+            // Diagnostic Flags
+            const flagsDiv = document.getElementById('riskFlags');
+            flagsDiv.innerHTML = '';
+            
+            const addFlag = (icon, type, title, desc) => {
+                const typeClass = type === 'warning' ? 'flag-warning bg-amber-950/30 border-amber-800/30' : 
+                                 type === 'danger' ? 'flag-danger bg-red-950/30 border-red-800/30' :
+                                 type === 'success' ? 'flag-success bg-emerald-950/30 border-emerald-800/30' :
+                                 'flag-info bg-blue-950/30 border-blue-800/30';
+                const textClass = type === 'warning' ? 'text-amber-300' : 
+                                  type === 'danger' ? 'text-red-300' :
+                                  type === 'success' ? 'text-emerald-300' :
+                                  'text-blue-300';
+                
+                flagsDiv.innerHTML += `
+                    <div class="flag-card ${typeClass} rounded-xl p-4 border backdrop-blur-sm transition-all hover:scale-[1.02]">
+                        <div class="flex gap-3">
+                            <span class="text-xl flex-shrink-0">${icon}</span>
+                            <div class="min-w-0">
+                                <h4 class="font-bold text-sm ${textClass} mb-1">${title}</h4>
+                                <p class="text-xs text-slate-400 leading-relaxed">${desc}</p>
+                            </div>
+                        </div>
+                    </div>`;
+            };
+
+            if(Math.abs(struct.skew) > 0.5) {
+                addFlag('⚠️', 'warning', 'Asymmetry Detected: Mean Compromised', 
+                    `Structural skew (${struct.skew.toFixed(2)}) violates L2 symmetry. Mean minimizes squared error but drags toward the tail. Consider Median or Huber estimators.`);
+            }
+            if(struct.tailIndex < 2 && struct.tailIndex > 0) {
+                addFlag('🔥', 'danger', 'Infinite Variance Regime', 
+                    `Tail index ${struct.tailIndex.toFixed(2)} < 2. Central Limit Theorem fails. Sample mean will not converge. RMS and Variance are epistemically void.`);
+            }
+            if(struct.kurt > 5) {
+                addFlag('📊', 'warning', 'High Kurtosis / Multimodality', 
+                    `Excess kurtosis (${struct.kurt.toFixed(2)}) indicates sharp peaks or multiple centers. Single summary metrics destroy modal structure.`);
+            }
+            if(flagsDiv.innerHTML === '') {
+                addFlag('✅', 'success', 'Distribution is Benign', 
+                    `Low skew (${struct.skew.toFixed(2)}), finite variance. Standard moment metrics are epistemically justified.`);
+            }
+
+            // Affirmation Matrix
+            const affDiv = document.getElementById('affirmationMatrix');
+            const props = ['Location', 'Variance', 'Multimodality', 'Tail Risk'];
+            const represents = { 
+                'Mean': ['Location', 'Variance'], 
+                'Median': ['Location'], 
+                'Mode': ['Location', 'Multimodality'], 
+                'Trim Mean': ['Location'], 
+                'Huber': ['Location', 'Variance'] 
+            };
+            
+            let html = '<table class="w-full text-left border-collapse"><thead><tr><th class="pr-4 pb-3 text-slate-500 text-[10px] uppercase tracking-wider">Property</th>';
+            Object.keys(represents).forEach(m => html += `<th class="px-3 pb-3 text-slate-500 text-[10px] uppercase tracking-wider text-center">${m}</th>`);
+            html += '</tr></thead><tbody class="divide-y divide-white/5">';
+            
+            props.forEach(p => {
+                html += `<tr><td class="pr-4 py-3 text-slate-400 text-xs font-medium">${p}</td>`;
+                Object.values(represents).forEach(list => {
+                    const pres = list.includes(p);
+                    html += `<td class="px-3 py-3 text-center affirmation-cell">
+                        <span class="inline-flex items-center justify-center w-6 h-6 rounded-lg ${pres ? 'bg-emerald-500/10 text-emerald-400' : 'bg-slate-800/50 text-slate-600'} text-xs font-bold">
+                            ${pres ? '✓' : '—'}
+                        </span>
+                    </td>`;
+                });
+                html += '</tr>';
+            });
+            html += '</tbody></table>';
+            affDiv.innerHTML = html;
+        }
+
+        function updateView3() {
+            updateCounterfactuals();
+        }
+
+        function updateCounterfactuals() {
+            const skew = parseFloat(document.getElementById('cfSkew').value);
+            const contam = parseFloat(document.getElementById('cfContam').value);
+            const baseStd = stats.std(state.baseData);
+            
+            state.cfData = state.baseData.map(x => {
+                let v = x + (Math.log(Math.abs(x) + 1) * skew);
+                if (Math.random() < contam) v += (Math.random() > 0.5 ? 1 : -1) * baseStd * 10;
+                return v;
+            });
+
+            const m = computeMetrics(state.cfData);
+            const driftDiv = document.getElementById('metricDrift');
+            driftDiv.innerHTML = '';
+            
+            Object.keys(m).forEach(fam => {
+                m[fam].forEach(metric => {
+                    const baseMetric = state.metrics[fam]?.find(bm => bm.name === metric.name);
+                    if(baseMetric && !isNaN(metric.value) && !isNaN(baseMetric.value)) {
+                        const drift = metric.value - baseMetric.value;
+                        const driftPct = (drift / baseMetric.value) * 100;
+                        const isSignificant = Math.abs(drift) > baseStd * 0.3;
+const colorClass = isSignificant ? 'text-rose-400' : (Math.abs(drift) > baseStd * 0.1 ? 'text-amber-400' : 'text-emerald-400');
+                        const driftClass = drift > 0 ? 'drift-positive' : drift < 0 ? 'drift-negative' : 'drift-neutral';
+                        const arrow = drift > 0 ? '↑' : drift < 0 ? '↓' : '→';
+                        
+                        driftDiv.innerHTML += `
+                            <div class="flex items-center justify-between py-2 px-3 rounded-lg bg-slate-900/30 border border-white/5 group hover:border-indigo-500/20 transition-all">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full" style="background:${metric.color}; box-shadow: 0 0 6px ${metric.color}40"></span>
+                                    <span class="text-xs text-slate-300 font-medium">${metric.name}</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="drift-value text-xs font-mono font-semibold ${driftClass}">${arrow} ${Math.abs(driftPct).toFixed(1)}%</span>
+                                    <span class="text-[10px] font-mono text-slate-500">(${drift >= 0 ? '+' : ''}${drift.toFixed(3)})</span>
+                                </div>
+                            </div>`;
+                    }
+                });
+            });
+
+            // Render counterfactual chart with overlaid base distribution
+            renderCounterfactualChart(state.cfData, state.baseData);
+        }
+
+        function renderCounterfactualChart(cfData, baseData) {
+            const canvas = document.getElementById('counterfactualChart');
+
+            const allData = [...cfData, ...baseData];
+            const globalMin = stats.min(allData);
+            const globalMax = stats.max(allData);
+            const padding = (globalMax - globalMin) * 0.1;
+            const range = globalMax - globalMin + 2 * padding;
+            const step = range / 200;
+            const evalPoints = stats.range(globalMin - padding, globalMax + padding, step);
+
+            const baseKDE = calculateKDE(baseData, evalPoints);
+            const cfKDE = calculateKDE(cfData, evalPoints);
+
+            const cfg = {
+                series: [
+                    {
+                        label: 'Perturbed',
+                        points: evalPoints.map((x, i) => ({ x, y: cfKDE[i] })),
+                        color: '#ec4899',
+                        width: 2.5,
+                        fill: true
+                    },
+                    {
+                        label: 'Baseline',
+                        points: evalPoints.map((x, i) => ({ x, y: baseKDE[i] })),
+                        color: themeColors().muted,
+                        width: 1.5,
+                        dash: [6, 4]
+                    }
+                ]
+            };
+            chartCache['counterfactualChart'] = { type: 'line', cfg };
+            drawLineChart(canvas, cfg);
+        }
+
+        function resetCounterfactuals() {
+            document.getElementById('cfSkew').value = 0;
+            document.getElementById('cfContam').value = 0;
+            document.getElementById('skewValue').textContent = '0.0';
+            document.getElementById('contamValue').textContent = '0%';
+            state.cfData = [...state.baseData];
+            updateCounterfactuals();
+        }
+
+        // --- INITIALIZATION ---
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set initial view opacity
+            document.getElementById('view1').style.opacity = '1';
+            document.getElementById('view2').style.opacity = '0';
+            document.getElementById('view3').style.opacity = '0';
+
+            initTocHighlight();
+            initAmbient();
+
+            // Generate initial dataset
+            loadPreset('normal');
+
+            // Add smooth number counter animation for viability score
+            const viabilityEl = document.getElementById('viabilityScore');
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach(m => {
+                    if (m.type === 'childList' && m.target === viabilityEl) {
+                        viabilityEl.style.transform = 'scale(1.15)';
+                        setTimeout(() => viabilityEl.style.transform = 'scale(1)', 200);
+                    }
+                });
+            });
+            observer.observe(viabilityEl, { childList: true });
+
+            // Keyboard shortcuts
+            document.addEventListener('keydown', (e) => {
+                if (e.key === '1') switchView('view1');
+                if (e.key === '2') switchView('view2');
+                if (e.key === '3') switchView('view3');
+                if (e.key === 'r' && !e.ctrlKey && !e.metaKey) {
+                    const active = document.querySelector('.nav-item.active');
+                    if (active) generateBaseData();
+                }
+            });
+
+            // Respect reduced motion preference
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelectorAll('[class*="animate-"]').forEach(el => {
+                    el.style.animation = 'none';
+                });
+            }
+
+            // Re-render charts on resize and site theme change
+            window.addEventListener('resize', redrawCharts);
+            window.addEventListener('epistecnica-theme', redrawCharts);
+
+            console.log('%c EPISTEMIC ANALYZER v2.0 ', 'background: linear-gradient(135deg, #6366f1, #a855f7); color: white; font-size: 14px; padding: 6px 12px; border-radius: 6px; font-family: Inter, sans-serif; font-weight: 700;');
+            console.log('%c Central Tendency Engine loaded. Press 1/2/3 to switch views, R to regenerate.', 'color: #94a3b8; font-family: JetBrains Mono, monospace;');
+        });
+    </script>
+    <script>
+    (function () {
+        var toggle = document.getElementById('themeToggle');
+        var label = document.getElementById('themeLabel');
+        var fading = false;
+        function apply() {
+            label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+        toggle.addEventListener('click', function () {
+            if (fading) return;
+            fading = true;
+            var root = document.documentElement;
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var swap = function () {
+                root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                apply();
+                root.classList.remove('theme-fading');
+                fading = false;
+                window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+            };
+            if (reduced) { swap(); return; }
+            root.classList.add('theme-fading');
+            setTimeout(swap, 190);
+        });
+        apply();
+    })();
+    </script>
+    <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+</body>
+</html>
