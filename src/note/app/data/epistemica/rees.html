@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reality Epistemic Element Set Atlas — notes</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --accent-violet: #B48EF0;
+      --accent-violet-dim: rgba(180, 142, 240, 0.12);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --accent-violet: #6D4BAE;
+      --accent-violet-dim: rgba(109, 75, 174, 0.1);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; }
+    .note-main { flex: 1 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    @media (max-width: 900px) {
+      .note-card { padding: 1.5rem; }
+    }
+
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body code { font-family: var(--font-mono); font-size: 0.85em; }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .theme-toggle {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-secondary);
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative; z-index: 1;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem 2rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* ---------- REES atlas ---------- */
+    .atlas-intro { font-size: 0.88rem; line-height: 1.6; color: var(--text-secondary); max-width: 68ch; margin: 0.2rem 0 0.5rem; }
+    .atlas-lede { font-size: 0.88rem; line-height: 1.6; color: var(--text-muted); max-width: 68ch; margin: 0 0 1.4rem; }
+    .atlas-stats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 1.6rem; }
+    .stat-pill {
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted);
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      padding: 0.32rem 0.7rem;
+    }
+    .stat-pill b { color: var(--accent-gold); font-weight: 500; }
+
+    .viewbar {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem;
+      border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.9rem; margin-bottom: 1.4rem;
+    }
+    .viewtab {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--text-muted); cursor: pointer;
+      background: transparent; border: 1px solid transparent; border-radius: 999px;
+      padding: 0.42rem 0.85rem; transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+    .viewtab:hover { color: var(--text-primary); }
+    .viewtab.active { color: var(--accent-cyan); border-color: var(--accent-cyan); background: var(--accent-cyan-dim); }
+    .viewbar .spacer { flex: 1 1 auto; }
+
+    .atlas-wrap { display: flex; gap: 1.6rem; align-items: flex-start; }
+    .atlas-main { flex: 1 1 auto; min-width: 0; }
+    .atlas-inspector {
+      flex: 0 0 296px; position: sticky; top: 4.5rem; align-self: flex-start;
+      border: 1px solid var(--border-subtle); border-radius: 10px; background: var(--bg-card);
+      padding: 1.1rem 1.15rem;
+    }
+    @media (max-width: 1040px) {
+      .atlas-wrap { flex-direction: column; }
+      .atlas-inspector { position: static; flex: 1 1 auto; width: 100%; }
+    }
+
+    .insp-empty { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; }
+    .insp-kicker { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.55rem; }
+    .insp-name { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; line-height: 1.15; color: var(--text-primary); margin-bottom: 0.5rem; }
+    .insp-badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.8rem; }
+    .insp-breadcrumb { font-family: var(--font-mono); font-size: 0.58rem; line-height: 1.7; color: var(--text-muted); margin-bottom: 0.8rem; word-break: break-word; }
+    .insp-breadcrumb a { color: var(--text-secondary); text-decoration: none; border-bottom: 1px solid transparent; cursor: pointer; }
+    .insp-breadcrumb a:hover { color: var(--accent-cyan); border-bottom-color: var(--border-subtle); }
+    .insp-breadcrumb .sep { opacity: 0.5; margin: 0 0.25em; }
+    .insp-desc { font-size: 0.84rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 0.9rem; }
+    .insp-block-title { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin: 0.9rem 0 0.45rem; }
+    .insp-kids { list-style: none; display: flex; flex-direction: column; gap: 0.2rem; }
+    .insp-kids a { font-size: 0.8rem; color: var(--text-secondary); text-decoration: none; cursor: pointer; display: block; padding: 0.16rem 0; }
+    .insp-kids a:hover { color: var(--accent-cyan); }
+    .insp-kids .more { font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-muted); }
+
+    .badge {
+      font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+      border: 1px solid var(--border-subtle); border-radius: 999px; padding: 0.2rem 0.5rem;
+    }
+    .badge.order-epistemic { color: var(--accent-gold); border-color: var(--accent-gold-dim); }
+    .badge.order-ontic { color: var(--accent-cyan); border-color: var(--accent-cyan-dim); }
+    .badge.order-reflexive { color: var(--accent-violet); border-color: var(--accent-violet-dim); }
+    .badge.kind-grouping { color: var(--text-secondary); }
+    .badge.kind-instance { color: var(--text-muted); }
+
+    .atlas-note { font-size: 0.78rem; color: var(--text-muted); margin: 0 0 1rem; }
+
+    /* tree */
+    .tree, .tree ul { list-style: none; }
+    .tree ul { margin-left: 0.85rem; border-left: 1px solid var(--border-subtle); padding-left: 0.55rem; }
+    .tree-row { display: flex; align-items: baseline; gap: 0.45rem; padding: 0.14rem 0; }
+    .tree-toggle {
+      flex: 0 0 auto; width: 1.1rem; height: 1.1rem; line-height: 1;
+      font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted);
+      background: transparent; border: 1px solid var(--border-subtle); border-radius: 4px;
+      cursor: pointer; transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .tree-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .tree-toggle.leaf { visibility: hidden; }
+    .tree-label { cursor: pointer; font-size: 0.85rem; color: var(--text-secondary); border-bottom: 1px solid transparent; }
+    .tree-label:hover { color: var(--text-primary); }
+    .tree-label.is-type { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); }
+    .tree-row.sel .tree-label { color: var(--accent-cyan); }
+    .tree-count { font-family: var(--font-mono); font-size: 0.58rem; color: var(--text-muted); }
+
+    /* cards */
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin: 0.4rem 0 1rem; }
+    .card { display: flex; flex-direction: column; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 10px; overflow: hidden; cursor: pointer; transition: border-color 0.2s ease; }
+    .card:hover { border-color: var(--accent-cyan); }
+    .card-formula { min-height: 78px; display: flex; align-items: center; justify-content: center; background: var(--bg-surface); border-bottom: 1px solid var(--border-subtle); padding: 0.8rem 1rem; text-align: center; }
+    .card-formula .seg { font-family: var(--font-mono); font-size: 0.6rem; line-height: 1.9; letter-spacing: 0.04em; color: var(--accent-gold); }
+    .card-body { display: flex; flex-direction: column; gap: 0.4rem; padding: 0.9rem 1rem 1rem; flex: 1; }
+    .card-name { font-family: var(--font-display); font-weight: 400; font-size: 1.12rem; line-height: 1.2; color: var(--text-primary); }
+    .card-desc { font-size: 0.8rem; line-height: 1.5; color: var(--text-secondary); flex: 1; }
+    .card-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 0.4rem; }
+    .ext-card { border-color: rgba(197,164,103,0.35); }
+    .ext-card .card-formula .seg { color: var(--accent-cyan); }
+
+    /* table */
+    .tbl-controls { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-bottom: 0.9rem; }
+    .tbl-input, .tbl-select {
+      font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-primary);
+      background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px;
+      padding: 0.45rem 0.6rem;
+    }
+    .tbl-input { min-width: 200px; flex: 1 1 200px; }
+    .tbl-input::placeholder { color: var(--text-muted); }
+    .tbl-wrap { overflow-x: auto; border: 1px solid var(--border-subtle); border-radius: 8px; }
+    table.atlas-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    .atlas-table th {
+      text-align: left; font-family: var(--font-mono); font-weight: 500; font-size: 0.56rem;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);
+      padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--border-subtle); cursor: pointer; white-space: nowrap;
+    }
+    .atlas-table th:hover { color: var(--accent-cyan); }
+    .atlas-table td { padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border-subtle); vertical-align: top; color: var(--text-secondary); }
+    .atlas-table tr:last-child td { border-bottom: none; }
+    .atlas-table tr:hover td { background: var(--bg-surface); }
+    .atlas-table .cell-path { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-secondary); cursor: pointer; }
+    .atlas-table .cell-path:hover { color: var(--accent-cyan); }
+    .atlas-table .cell-type { font-family: var(--font-mono); font-size: 0.66rem; color: var(--accent-gold); white-space: nowrap; }
+    .tbl-more { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); background: transparent; border: 1px solid var(--border-subtle); border-radius: 6px; padding: 0.45rem 0.8rem; margin-top: 0.8rem; cursor: pointer; }
+    .tbl-more:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .tbl-count { font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-muted); margin-left: 0.4rem; }
+
+    /* orders */
+    .order-group { border: 1px solid var(--border-subtle); border-radius: 10px; padding: 1rem 1.1rem; margin-bottom: 1rem; }
+    .order-group h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.15rem; color: var(--text-primary); margin-bottom: 0.25rem; }
+    .order-group .order-desc { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.8rem; }
+    .order-branches { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .order-branches button {
+      font-family: var(--font-mono); font-size: 0.66rem; color: var(--text-secondary);
+      background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px;
+      padding: 0.4rem 0.65rem; cursor: pointer;
+    }
+    .order-branches button:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .order-branches button b { color: var(--text-muted); font-weight: 400; }
+
+    .atlas-error { color: var(--accent-gold); font-size: 0.85rem; }
+  </style>
+  <link rel="stylesheet" href="../../../shared/usearch.css">
+</head>
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><a href="../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><span class="here">rees</span></div>
+      <h1 class="note-title">Reality Epistemic Element Set Atlas</h1>
+      <div class="note-meta"><span class="chip">atlas</span><span class="chip">#epistemology</span><span class="chip">#ontology</span><span class="chip">#method</span></div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+            <p class="atlas-intro">The complete, ever-expanding decomposition of the Reality
+            Epistemic Element Set, rendered from the tree store
+            <a href="rees.json">rees.json</a>. The companion note
+            <a href="../../note.html?n=epistemica/rees.md">REES</a> states the schema and the
+            backbone; this atlas carries the full tree and the views over it.</p>
+            <p class="atlas-lede">Types are named in the schemas of the canonical guide
+            <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia
+            Artium Epistemicarum et Operis</a>; instances live in the Naturgnosis Epistemic Space.</p>
+
+            <div class="atlas-stats" id="atlasStats"></div>
+
+            <div class="viewbar" id="viewbar">
+              <button type="button" class="viewtab" data-view="outline">Outline</button>
+              <button type="button" class="viewtab" data-view="cards">Cards</button>
+              <button type="button" class="viewtab" data-view="table">Table</button>
+              <button type="button" class="viewtab" data-view="orders">Orders</button>
+              <span class="spacer"></span>
+              <button type="button" class="viewtab" id="expandAll">Expand all</button>
+              <button type="button" class="viewtab" id="collapseAll">Collapse all</button>
+            </div>
+
+            <div class="atlas-wrap">
+              <div class="atlas-main" id="view"></div>
+              <aside class="atlas-inspector" id="inspector">
+                <div class="insp-kicker">Node inspector</div>
+                <div class="insp-empty">Select any node in a view to see what it is: its type, its order, its place in the tree, and its children.</div>
+              </aside>
+            </div>
+
+          </div>
+        </article>
+      </main>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script src="../../vendor/mathjax-setup.js"></script>
+  <script src="../../vendor/mathjax/tex-svg-full.js"></script>
+
+<script id="ambient">
+  (function () {
+    var cv = document.getElementById('ambientCanvas');
+    var ctx = cv.getContext('2d');
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var stars = [], W = 0, H = 0, raf = 0;
+
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return { gold: s.getPropertyValue('--accent-gold').trim(), cyan: s.getPropertyValue('--accent-cyan').trim() };
+    }
+    function resize() {
+      W = window.innerWidth; H = window.innerHeight;
+      cv.width = W * dpr; cv.height = H * dpr;
+      cv.style.width = W + 'px'; cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.min(150, Math.round((W * H) / 16000));
+      stars = [];
+      for (var i = 0; i < n; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, r: 0.4 + Math.random() * 1.1, p: Math.random() * Math.PI * 2, s: 0.4 + Math.random() * 0.8 });
+    }
+    function frame() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < stars.length; i++) {
+        var st = stars[i];
+        st.p += 0.01 * st.s;
+        var a = 0.18 + 0.22 * (0.5 + 0.5 * Math.sin(st.p));
+        ctx.globalAlpha = a;
+        ctx.fillStyle = (i % 7 === 0) ? c.gold : c.cyan;
+        ctx.beginPath(); ctx.arc(st.x, st.y, st.r, 0, Math.PI * 2); ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      raf = requestAnimationFrame(frame);
+    }
+    window.addEventListener('resize', resize);
+    window.addEventListener('epistecnica-theme', function () {});
+    resize();
+    if (!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) frame();
+    else { var c = colors(); ctx.clearRect(0, 0, W, H); }
+  })();
+  </script>
+
+<script id="theme">
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'light' : 'dark';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+
+<script id="atlas">
+  (function () {
+    var DATA = null;
+    var FLAT = [];
+    var BYPATH = {};
+    var ORDERS = ['epistemic', 'ontic', 'reflexive'];
+    var ORDER_LABEL = { epistemic: 'Epistemic Order', ontic: 'Ontic Order', reflexive: 'Reflexive Layer' };
+    var state = {
+      view: 'outline',
+      sel: null,
+      outlineRoot: null,
+      expanded: {},
+      filter: '',
+      table: { q: '', order: 'all', kind: 'all', sort: 'path', dir: 1, limit: 200 }
+    };
+
+    var viewEl = document.getElementById('view');
+    var inspectorEl = document.getElementById('inspector');
+    var statsEl = document.getElementById('atlasStats');
+
+    function esc(s) {
+      return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+    function mk(tag, cls, txt) {
+      var e = document.createElement(tag);
+      if (cls) e.className = cls;
+      if (txt != null) e.textContent = txt;
+      return e;
+    }
+    function badge(text, cls) { return '<span class="badge ' + cls + '">' + esc(text) + '</span>'; }
+
+    function flatten(roots) {
+      FLAT = []; BYPATH = {};
+      function rec(node, path, parent) {
+        var p = path.concat([node.label]);
+        var ps = p.join(' → ');
+        var e = { node: node, path: p, pathStr: ps, depth: p.length, parent: parent };
+        FLAT.push(e); BYPATH[ps] = e;
+        (node.children || []).forEach(function (c) { rec(c, p, ps); });
+      }
+      roots.forEach(function (r) { rec(r, [], null); });
+    }
+
+    function countLeaves(node) {
+      if (!node.children || !node.children.length) return 1;
+      var n = 0;
+      node.children.forEach(function (c) { n += countLeaves(c); });
+      return n;
+    }
+
+    function renderStats() {
+      var s = DATA.stats || {};
+      var items = [
+        ['nodes', s.nodes], ['branches', s.branches], ['groupings', s.groupings],
+        ['instances', s.instances], ['depth', s.maxDepth]
+      ];
+      statsEl.innerHTML = items.map(function (it) {
+        return '<span class="stat-pill">' + esc(it[0]) + ' <b>' + esc(it[1]) + '</b></span>';
+      }).join('');
+    }
+
+    function selectNode(pathStr, silent) {
+      if (!BYPATH[pathStr]) return;
+      state.sel = pathStr;
+      renderInspector();
+      document.querySelectorAll('.tree-row.sel').forEach(function (r) { r.classList.remove('sel'); });
+      var row = document.querySelector('.tree-row[data-path="' + cssEscape(pathStr) + '"]');
+      if (row) row.classList.add('sel');
+      if (!silent) syncURL();
+    }
+
+    function cssEscape(s) { return s.replace(/["\\]/g, '\\$&'); }
+
+    function renderInspector() {
+      var e = state.sel ? BYPATH[state.sel] : null;
+      if (!e) {
+        inspectorEl.innerHTML = '<div class="insp-kicker">Node inspector</div>'
+          + '<div class="insp-empty">Select any node in a view to see what it is: its type, its order, its place in the tree, and its children.</div>';
+        return;
+      }
+      var n = e.node;
+      var crumb = e.path.map(function (lab, i) {
+        var ps = e.path.slice(0, i + 1).join(' → ');
+        var last = i === e.path.length - 1;
+        return last
+          ? '<span>' + esc(lab) + '</span>'
+          : '<a data-node="' + esc(ps) + '">' + esc(lab) + '</a><span class="sep">→</span>';
+      }).join('');
+
+      var kids = n.children || [];
+      var shown = kids.slice(0, 14).map(function (c) {
+        var ps = e.pathStr + ' → ' + c.label;
+        return '<li><a data-node="' + esc(ps) + '">' + esc(c.label) + '</a></li>';
+      }).join('');
+      if (kids.length > 14) shown += '<li class="more">+' + (kids.length - 14) + ' more</li>';
+
+      inspectorEl.innerHTML =
+        '<div class="insp-kicker">What node of the tree is this?</div>'
+        + '<div class="insp-name">' + esc(n.label) + '</div>'
+        + '<div class="insp-badges">'
+        + badge(ORDER_LABEL[n.order] || n.order, 'order-' + n.order)
+        + badge('type · ' + n.type, 'kind-' + n.kind)
+        + badge(n.kind, 'kind-' + n.kind)
+        + '</div>'
+        + '<div class="insp-breadcrumb">' + crumb + '</div>'
+        + '<div class="insp-desc">' + esc(n.description || '') + '</div>'
+        + '<div class="insp-block-title">Depth ' + e.depth + ' · ' + countLeaves(n) + ' descendant instance' + (countLeaves(n) === 1 ? '' : 's') + '</div>'
+        + (kids.length
+            ? '<div class="insp-block-title">Children (' + kids.length + ')</div><ul class="insp-kids">' + shown + '</ul>'
+            : '<div class="insp-block-title">Leaf instance</div>');
+
+      inspectorEl.querySelectorAll('a[data-node]').forEach(function (a) {
+        a.addEventListener('click', function () {
+          selectNode(a.getAttribute('data-node'));
+        });
+      });
+    }
+
+    // ---------- Outline ----------
+    function renderOutline() {
+      viewEl.innerHTML = '';
+      var roots = state.outlineRoot ? [BYPATH[state.outlineRoot].node] : DATA.roots;
+      var base = state.outlineRoot ? state.outlineRoot.split(' → ') : [];
+      var ul = mk('ul', 'tree');
+      roots.forEach(function (r) {
+        ul.appendChild(buildNode(r, base, 0));
+      });
+      if (state.outlineRoot) {
+        var back = mk('button', 'tbl-more', '← all branches');
+        back.style.marginBottom = '0.9rem';
+        back.addEventListener('click', function () { state.outlineRoot = null; renderOutline(); });
+        viewEl.appendChild(back);
+      }
+      viewEl.appendChild(ul);
+    }
+
+    function pathOf(parentPath, label) {
+      return parentPath.length ? parentPath.join(' → ') + ' → ' + label : label;
+    }
+
+    function buildNode(node, parentPath, depth) {
+      var ps = pathOf(parentPath, node.label);
+      var li = mk('li');
+      var row = mk('div', 'tree-row');
+      row.setAttribute('data-path', ps);
+
+      var hasKids = node.children && node.children.length;
+      var toggle = mk('button', 'tree-toggle' + (hasKids ? '' : ' leaf'), hasKids ? '+' : '·');
+      toggle.type = 'button';
+      if (hasKids) {
+        toggle.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          toggleNode(li, node, ps, depth, toggle);
+        });
+      }
+      row.appendChild(toggle);
+
+      var label = mk('span', 'tree-label' + (node.kind === 'grouping' ? ' is-type' : ''), node.label);
+      label.addEventListener('click', function () { selectNode(ps); });
+      row.appendChild(label);
+
+      if (hasKids) {
+        var cnt = mk('span', 'tree-count', String(node.children.length));
+        row.appendChild(cnt);
+      }
+      li.appendChild(row);
+
+      var childUl = mk('ul');
+      childUl.style.display = 'none';
+      childUl.setAttribute('data-built', '0');
+      li.appendChild(childUl);
+      li._childUl = childUl;
+      li._node = node;
+      li._path = ps;
+      li._depth = depth;
+      li._toggle = toggle;
+
+      if (state.expanded[ps]) {
+        expand(li);
+      }
+      return li;
+    }
+
+    function toggleNode(li, node, ps, depth, toggle) {
+      if (state.expanded[ps]) {
+        state.expanded[ps] = false;
+        li._childUl.style.display = 'none';
+        toggle.textContent = '+';
+      } else {
+        state.expanded[ps] = true;
+        expand(li);
+      }
+    }
+
+    function expand(li) {
+      var node = li._node, ps = li._path, depth = li._depth;
+      var childUl = li._childUl;
+      if (childUl.getAttribute('data-built') === '0') {
+        node.children.forEach(function (c) {
+          childUl.appendChild(buildNode(c, ps.split(' → '), depth + 1));
+        });
+        childUl.setAttribute('data-built', '1');
+      }
+      childUl.style.display = '';
+      li._toggle.textContent = '−';
+    }
+
+    // ---------- Cards ----------
+    function renderCards() {
+      viewEl.innerHTML = '';
+      var grid = mk('div', 'cards');
+      var branches = DATA.roots[0].children || [];
+      branches.forEach(function (b) {
+        grid.appendChild(branchCard(b, DATA.roots[0].label));
+      });
+      (DATA.roots[1] ? [DATA.roots[1]] : []).forEach(function (r) {
+        grid.appendChild(branchCard(r, null, true));
+      });
+      viewEl.appendChild(grid);
+
+      var ext = mk('div', 'cards');
+      ext.innerHTML =
+        '<div class="card ext-card">'
+        + '<div class="card-formula"><span class="seg">→ Naturgnosis<br>Epistemic Space</span></div>'
+        + '<div class="card-body"><div class="card-name">Instance Index</div>'
+        + '<div class="card-desc">The complete live graph of epistemic instances — the universal index REES is the local mastery layer over.</div>'
+        + '<div class="card-foot"><a class="note-link" href="http://localhost:8011/epistemica/">open space →</a></div></div></div>';
+      viewEl.appendChild(ext);
+    }
+
+    function branchCard(b, parentLabel, isRoot) {
+      var card = mk('div', 'card');
+      var path = (parentLabel ? parentLabel + ' → ' : '') + b.label;
+      var desc = (b.description || '').replace(/^Grouping:\s*/, '');
+      card.innerHTML =
+        '<div class="card-formula"><span class="seg">' + esc(b.type || b.label) + '</span></div>'
+        + '<div class="card-body">'
+        + '<div class="card-name">' + esc(b.label) + '</div>'
+        + '<div class="card-desc">' + esc(desc) + '</div>'
+        + '<div class="card-foot">'
+        + badge(ORDER_LABEL[b.order] || b.order, 'order-' + b.order)
+        + '<span class="tree-count">' + countLeaves(b) + ' leaves</span>'
+        + '</div></div>';
+      card.addEventListener('click', function () {
+        state.view = 'outline';
+        state.outlineRoot = isRoot ? null : path;
+        if (isRoot) { state.outlineRoot = null; selectNode(path); }
+        else { state.outlineRoot = path; }
+        state.expanded[path] = true;
+        setView('outline');
+      });
+      return card;
+    }
+
+    // ---------- Table ----------
+    function renderTable() {
+      viewEl.innerHTML = '';
+      var c = mk('div', 'tbl-controls');
+      var q = mk('input', 'tbl-input'); q.type = 'search'; q.placeholder = 'Search path, type, or description…'; q.value = state.table.q;
+      q.addEventListener('input', function () { state.table.q = q.value; state.table.limit = 200; renderTable(); });
+      c.appendChild(q);
+
+      var orderSel = mk('select', 'tbl-select');
+      [['all', 'all orders'], ['epistemic', 'epistemic'], ['ontic', 'ontic'], ['reflexive', 'reflexive']].forEach(function (o) {
+        var opt = mk('option', null, o[1]); opt.value = o[0]; if (state.table.order === o[0]) opt.selected = true; orderSel.appendChild(opt);
+      });
+      orderSel.addEventListener('change', function () { state.table.order = orderSel.value; state.table.limit = 200; renderTable(); });
+      c.appendChild(orderSel);
+
+      var kindSel = mk('select', 'tbl-select');
+      [['all', 'all kinds'], ['grouping', 'groupings'], ['instance', 'instances'], ['root', 'roots']].forEach(function (o) {
+        var opt = mk('option', null, o[1]); opt.value = o[0]; if (state.table.kind === o[0]) opt.selected = true; kindSel.appendChild(opt);
+      });
+      kindSel.addEventListener('change', function () { state.table.kind = kindSel.value; state.table.limit = 200; renderTable(); });
+      c.appendChild(kindSel);
+
+      var count = mk('span', 'tbl-count');
+      c.appendChild(count);
+      viewEl.appendChild(c);
+
+      var rows = filteredRows();
+      count.textContent = rows.length + ' node' + (rows.length === 1 ? '' : 's');
+
+      var wrap = mk('div', 'tbl-wrap');
+      var table = mk('table', 'atlas-table');
+      table.innerHTML =
+        '<thead><tr>'
+        + '<th data-sort="path">Path</th>'
+        + '<th data-sort="type">Type</th>'
+        + '<th data-sort="order">Order</th>'
+        + '<th data-sort="kind">Kind</th>'
+        + '<th>Description</th>'
+        + '</tr></thead>';
+      var tbody = mk('tbody');
+      var shown = rows.slice(0, state.table.limit);
+      shown.forEach(function (e) {
+        var n = e.node;
+        var tr = mk('tr');
+        var tdPath = mk('td'); tdPath.className = 'cell-path'; tdPath.textContent = e.pathStr;
+        tdPath.addEventListener('click', function () { selectNode(e.pathStr); });
+        var tdType = mk('td'); tdType.className = 'cell-type'; tdType.textContent = n.type;
+        var tdOrder = mk('td'); tdOrder.innerHTML = badge(ORDER_LABEL[n.order] || n.order, 'order-' + n.order);
+        var tdKind = mk('td'); tdKind.textContent = n.kind;
+        var tdDesc = mk('td'); tdDesc.textContent = n.description;
+        tr.appendChild(tdPath); tr.appendChild(tdType); tr.appendChild(tdOrder); tr.appendChild(tdKind); tr.appendChild(tdDesc);
+        tr.addEventListener('click', function (ev) { if (ev.target.tagName !== 'TD') return; selectNode(e.pathStr); });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+      wrap.appendChild(table);
+      viewEl.appendChild(wrap);
+
+      if (rows.length > state.table.limit) {
+        var more = mk('button', 'tbl-more', 'Show ' + Math.min(200, rows.length - state.table.limit) + ' more');
+        more.addEventListener('click', function () { state.table.limit += 200; renderTable(); });
+        viewEl.appendChild(more);
+      }
+
+      table.querySelectorAll('th[data-sort]').forEach(function (th) {
+        th.addEventListener('click', function () {
+          var key = th.getAttribute('data-sort');
+          if (state.table.sort === key) state.table.dir *= -1;
+          else { state.table.sort = key; state.table.dir = 1; }
+          renderTable();
+        });
+      });
+    }
+
+    function filteredRows() {
+      var q = state.table.q.trim().toLowerCase();
+      var t = state.table;
+      var rows = FLAT.filter(function (e) {
+        if (t.order !== 'all' && e.node.order !== t.order) return false;
+        if (t.kind !== 'all' && e.node.kind !== t.kind) return false;
+        if (q) {
+          var hay = (e.pathStr + ' ' + e.node.type + ' ' + e.node.description).toLowerCase();
+          if (hay.indexOf(q) === -1) return false;
+        }
+        return true;
+      });
+      var key = t.sort;
+      rows.sort(function (a, b) {
+        var av = key === 'path' ? a.pathStr : (key === 'type' ? a.node.type : (key === 'order' ? a.node.order : a.node.kind));
+        var bv = key === 'path' ? b.pathStr : (key === 'type' ? b.node.type : (key === 'order' ? b.node.order : b.node.kind));
+        return av < bv ? -t.dir : av > bv ? t.dir : 0;
+      });
+      return rows;
+    }
+
+    // ---------- Orders ----------
+    function renderOrders() {
+      viewEl.innerHTML = '';
+      var byOrder = { epistemic: [], ontic: [], reflexive: [] };
+      FLAT.forEach(function (e) {
+        if (e.depth === 2) byOrder[e.node.order].push(e);
+      });
+      ORDERS.forEach(function (o) {
+        var g = mk('div', 'order-group');
+        var desc = (DATA.orders && DATA.orders[o]) || '';
+        g.innerHTML = '<h3>' + esc(ORDER_LABEL[o]) + '</h3><div class="order-desc">' + esc(desc) + '</div>';
+        var list = mk('ul', 'order-branches');
+        byOrder[o].forEach(function (e) {
+          var btn = mk('button');
+          btn.innerHTML = esc(e.node.label) + ' <b>' + countLeaves(e.node) + '</b>';
+          btn.addEventListener('click', function () { selectNode(e.pathStr); state.outlineRoot = e.pathStr; setView('outline'); });
+          var li = mk('li'); li.appendChild(btn); list.appendChild(li);
+        });
+        g.appendChild(list);
+        viewEl.appendChild(g);
+      });
+    }
+
+    // ---------- view switching ----------
+    function setView(v, noSync) {
+      state.view = v;
+      document.querySelectorAll('.viewtab[data-view]').forEach(function (b) {
+        b.classList.toggle('active', b.getAttribute('data-view') === v);
+      });
+      var showExpand = v === 'outline';
+      document.getElementById('expandAll').style.display = showExpand ? '' : 'none';
+      document.getElementById('collapseAll').style.display = showExpand ? '' : 'none';
+
+      if (v === 'outline') renderOutline();
+      else if (v === 'cards') renderCards();
+      else if (v === 'table') renderTable();
+      else if (v === 'orders') renderOrders();
+      if (!noSync) syncURL();
+    }
+
+    function syncURL() {
+      var q = [];
+      if (state.view !== 'outline') q.push('view=' + encodeURIComponent(state.view));
+      if (state.sel) q.push('node=' + encodeURIComponent(state.sel));
+      var url = location.pathname + (q.length ? '?' + q.join('&') : '');
+      history.replaceState(null, '', url);
+    }
+
+    function expandAll() {
+      FLAT.forEach(function (e) { if (e.node.children && e.node.children.length) state.expanded[e.pathStr] = true; });
+      renderOutline();
+    }
+    function collapseAll() {
+      state.expanded = {};
+      renderOutline();
+    }
+
+    function wire() {
+      document.querySelectorAll('.viewtab[data-view]').forEach(function (b) {
+        b.addEventListener('click', function () { setView(b.getAttribute('data-view')); });
+      });
+      document.getElementById('expandAll').addEventListener('click', expandAll);
+      document.getElementById('collapseAll').addEventListener('click', collapseAll);
+    }
+
+    function init(data) {
+      DATA = data;
+      flatten(data.roots);
+      renderStats();
+      wire();
+      var q = new URLSearchParams(location.search);
+      var v = q.get('view');
+      if (['outline', 'cards', 'table', 'orders'].indexOf(v) !== -1) state.view = v;
+      var node = q.get('node');
+      if (node && BYPATH[node]) state.sel = node;
+      setView(state.view, true);
+      if (state.sel) selectNode(state.sel, true);
+    }
+
+    fetch('rees.json')
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(init)
+      .catch(function (err) {
+        viewEl.innerHTML = '<p class="atlas-error">Could not load rees.json: ' + esc(err.message) + '</p>';
+      });
+  })();
+  </script>
+
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+  <script src="../../../shared/usearch.js" data-root="../../../"></script>
+</body>
+</html>

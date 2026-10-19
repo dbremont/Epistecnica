@@ -50,9 +50,9 @@ html[data-theme="light"] {
   --bg-card: #FFFFFF;          /* interactive                           */
   --text-primary: #1A1D24;
   --text-secondary: #4A4F5E;
-  --text-muted: #7A7F8E;
-  --accent-gold: #9A7B3F;      /* darkened for paper                    */
-  --accent-gold-dim: rgba(154, 123, 63, 0.12);
+  --text-muted: #696E7D;       /* darkened for ≥4.5:1 on paper          */
+  --accent-gold: #84682F;      /* darkened for ≥4.5:1 on paper          */
+  --accent-gold-dim: rgba(132, 104, 47, 0.12);
   --accent-cyan: #0E7C72;      /* deep teal                             */
   --accent-cyan-dim: rgba(14, 124, 114, 0.08);
   --border-subtle: rgba(20, 22, 30, 0.10);
@@ -94,15 +94,22 @@ Google Fonts link (offline-safe: pages still render with fallbacks):
 
 ## 4. Layout & structure
 
-- Content widths: standard reading `1000px`; wide system `1200px`.
+- Content widths: standard reading `1000px`; wide system `1200px` (the hub).
+  Corpus surfaces share the note-viewer page shell: `max-width: 1280px;
+  margin: 0 auto; padding: 2.5rem 2rem 3.5rem` (`.layout`), so catalogs,
+  viewers, docs, and live notes share one vertical rhythm.
 - Structural dividers: `1px solid var(--border-subtle)`, horizontal and
   vertical.
 - Narrative accent: a `1px solid var(--accent-gold)` left border isolates a
   quote or core concept.
 - Grid matrices (dense data / navigation): `gap: 1px;
   background: var(--border-subtle)` on the container creates hairline grid
-  borders between children — the hub's dataset cards and route cells use this.
+  borders between children — the hub's group lists use this.
 - Section headers: mono index (`01`, `02`, …) + display title + hairline rule.
+- Group-label variant (the hub's index): a display-italic lead-in question +
+  hairline rule opens the section, followed by mono uppercase group labels
+  (one per group), each marked up as a real heading inside a labelled
+  `<section>`; groups sit in two columns split by a vertical hairline.
 
 ## 5. Generic component rules
 
@@ -116,13 +123,24 @@ Google Fonts link (offline-safe: pages still render with fallbacks):
   `--bg-surface`; active/selected shifts top border or text to `--accent-cyan`.
 - **Chips / links:** mono, ~0.6–0.65rem, uppercase, `--bg-card` fill; hover
   adopts cyan text and border. Primary variant uses the gold border.
+- **Primary navigation rows (the hub's index):** `--bg-void` cells in a
+  hairline grid; a body-set name (`--text-primary`, ~1.05rem) in a fixed
+  first column, a muted gloss in the flexible column, and a trailing mono
+  arrow (`→` internal / `↗` external) pinned right. Hover **and**
+  `:focus-within` shift the row to `--bg-surface`, the name/arrow to
+  `--accent-cyan`, and nudge the arrow. Not the mono uppercase chip style.
 
 ## 6. Interaction & motion
 
-- Scroll reveal: elements enter via `.reveal` — `opacity: 0;
-  translateY(20px)` → `opacity: 1; translateY(0)`, `0.8s ease-out`.
+- Hub entrance: labels and navigation rows enter via a `rise` keyframe —
+  `opacity: 0; translateY(12px)` → `opacity: 1; translateY(0)`,
+  `0.55s cubic-bezier(.22,1,.36,1)`, with a small per-row stagger.
+- Scroll reveal (long-form / live pages): optional `.reveal` —
+  `opacity: 0; translateY(20px)` → `opacity: 1; translateY(0)`, `0.8s ease-out`.
 - Hover transitions: `0.3s ease`.
-- Focus: border-color shift + subtle glow only.
+- Focus: `:focus-visible` → cyan outline (`1px`, offset ~3px) for
+  links/buttons, or border-color shift + subtle glow for inputs. Never
+  default browser outlines.
 
 ## 7. Atmospheric layer
 
@@ -149,9 +167,12 @@ implementation. Do not invent per-page variants.
   masters) + the two-tone wordmark as **live typography** (`Episte` in
   `--text-primary`, `cnica` italic in `--accent-gold`). The lockup links
   to the hub (`/`). Never embed the wordmark as an image.
-- **Right — mono uppercase page links, then the theme toggle** (`◐` +
-  label showing the theme you'd switch to). Links: mono, ~0.6rem,
-  letterspaced, muted → cyan on hover.
+- **Right — the universal search, then the theme toggle** (`◐` + label
+  showing the theme you'd switch to). Every surface — hub, docs, catalogs,
+  viewers, and corpus live notes — carries the same search (one shared
+  implementation: `src/app/shared/usearch.css` + `usearch.js`), with `/` to
+  focus and `r` to open a random entry. Contextual page links live in the
+  page body, not in the nav.
 - Themes, persistence, boot script, and the curtain fade per §2.
 
 Surfaces are one directory deep (`/note/`, …): reference shared root

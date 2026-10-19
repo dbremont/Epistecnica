@@ -1,14 +1,8 @@
+- Generate teh link on the index using more sophicated techniques.
+
+
 Wikipedia Gun (cellular automaton)  Why repetition allows us prove that this is a universal computing machine?
 
-
-Cellular Automata:
-
-Representation System
-
-- Representation of Dynamical Sysetms
-
-- Is the term dynamicsl system right; i mean they deal with dynamics,  but the term system?
-- 
 
 References
 

@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal View · Epistecnica</title>
+    <link rel="icon" href="../img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="graph.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            display: grid;
+            grid-template-columns: 300px 1fr 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        body.detail-open { grid-template-columns: 300px 1fr 380px; }
+        aside.toolbox {
+            background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-void) 100%);
+            border-right: 1px solid var(--border-medium);
+            padding: 26px 20px 24px;
+            overflow-y: auto;
+            z-index: 10;
+        }
+        .sb-eyebrow {
+            font-family: var(--font-display); font-style: italic;
+            font-size: .7rem; color: rgba(201,149,108,.75);
+            display: block; margin-bottom: 8px;
+        }
+        .sb-title {
+            font-family: var(--font-display); font-style: italic;
+            font-weight: 300; font-size: 1.7rem; line-height: 1.1;
+            background: linear-gradient(90deg, var(--accent-copper), transparent) bottom left / 60% 1px no-repeat;
+            padding-bottom: 6px; margin-bottom: 6px;
+        }
+        .sb-subtitle { font-family: var(--font-display); font-style: italic; font-size: .75rem; color: var(--text-secondary); margin: 8px 0 4px; }
+        .search-box {
+            width: 100%; margin-top: 14px;
+            background: rgba(18,20,26,.9); border: 1px solid var(--border-medium);
+            color: var(--text-primary); font-size: .72rem;
+            padding: 9px 12px; border-radius: 6px; outline: 0;
+        }
+        .search-box:focus { border-color: var(--accent-copper); }
+        .search-results { margin-top: 6px; display: flex; flex-direction: column; gap: 2px; }
+        .sr {
+            text-align: left; background: none; border: 1px solid transparent;
+            border-radius: 5px; padding: 7px 9px; cursor: pointer; color: inherit;
+            display: flex; gap: 8px; align-items: baseline;
+        }
+        .sr:hover { background: rgba(201,149,108,.06); border-color: rgba(201,149,108,.15); }
+        .sr-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; transform: translateY(-1px); }
+        .sr-name { font-family: var(--font-display); font-style: italic; font-size: .8rem; color: var(--text-primary); }
+        .sr-src { font-family: var(--font-mono); font-size: .55rem; color: var(--text-muted); margin-left: auto; }
+        .sb-group-label {
+            font-family: var(--font-display); font-style: italic;
+            font-size: .68rem; color: rgba(201,149,108,.65);
+            display: block; margin: 18px 0 8px;
+        }
+        .src-toggle {
+            display: flex; align-items: center; gap: 8px;
+            font-size: .68rem; color: var(--text-secondary);
+            padding: 5px 7px; border-radius: 4px; cursor: pointer;
+        }
+        .src-toggle:hover { background: rgba(255,255,255,.03); color: var(--text-primary); }
+        .src-toggle input { accent-color: var(--accent-copper); }
+        .src-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+        .src-n { margin-left: auto; font-family: var(--font-mono); font-size: .6rem; color: var(--text-muted); }
+        .src-actions { display: flex; gap: 6px; margin-bottom: 8px; }
+        .mini-btn {
+            flex: 1; background: rgba(255,255,255,.03); border: 1px solid var(--border-subtle);
+            color: var(--text-secondary); font-family: var(--font-mono); font-size: .58rem;
+            letter-spacing: .06em; text-transform: uppercase;
+            border-radius: 4px; padding: 5px 0; cursor: pointer;
+        }
+        .mini-btn:hover { color: var(--accent-copper-light); border-color: rgba(201,149,108,.35); }
+        .mini-btn:disabled { opacity: .35; cursor: default; }
+        .mini-btn:disabled:hover { color: var(--text-secondary); border-color: var(--border-subtle); }
+        .random-btn { width: 100%; margin-top: 10px; white-space: nowrap; }
+        main.canvas-area { position: relative; overflow: hidden; background: var(--bg-void); }
+        main.canvas-area::after {
+            content: ''; position: absolute; inset: 0; pointer-events: none;
+            background: radial-gradient(ellipse at 50% 50%, transparent 45%, rgba(0,0,0,.55) 100%);
+            z-index: 1;
+        }
+        canvas#graph-canvas { width: 100%; height: 100%; display: block; position: relative; z-index: 2; cursor: grab; }
+        canvas#graph-canvas:active { cursor: grabbing; }
+        #silhouette-view { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; }
+        .canvas-btn {
+            position: absolute; z-index: 20; bottom: 20px; right: 20px;
+            background: rgba(31,35,45,.85); border: 1px solid var(--border-medium);
+            color: var(--text-secondary); width: 38px; height: 38px;
+            border-radius: var(--radius-md); cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .canvas-btn:hover { color: var(--accent-copper-light); border-color: rgba(201,149,108,.35); }
+        #overview-btn { right: 66px; }
+        .ov-overlay {
+            position: fixed; inset: 0; z-index: 600;
+            background: rgba(11,14,20,.7); backdrop-filter: blur(4px);
+            opacity: 0; pointer-events: none; transition: opacity .25s ease;
+        }
+        .ov-overlay.open { opacity: 1; pointer-events: auto; }
+        .ov-modal {
+            position: fixed; top: 50%; left: 50%; z-index: 610;
+            transform: translate(-50%,-48%) scale(.96);
+            width: min(440px, 92vw); max-height: 82vh; overflow-y: auto;
+            background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-void) 100%);
+            border: 1px solid var(--border-medium);
+            border-left: 2px solid var(--accent-copper);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            opacity: 0; pointer-events: none;
+            transition: opacity .25s ease, transform .25s cubic-bezier(.22,1,.36,1);
+            padding: 22px 24px 24px;
+        }
+        .ov-modal.open { opacity: 1; pointer-events: auto; transform: translate(-50%,-50%) scale(1); }
+        .ov-eyebrow {
+            font-family: var(--font-display); font-style: italic;
+            font-size: .7rem; color: rgba(201,149,108,.75);
+            display: block; margin-bottom: 4px;
+        }
+        .ov-title { font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: 1.5rem; margin-bottom: 14px; }
+        .ov-close {
+            position: absolute; top: 14px; right: 14px;
+            background: none; border: none; color: var(--text-muted);
+            font-size: 20px; width: 28px; height: 28px; cursor: pointer;
+            border-radius: var(--radius-sm); line-height: 1;
+        }
+        .ov-close:hover { color: var(--accent-rose); background: rgba(196,125,138,.08); }
+        .ov-row {
+            display: grid; grid-template-columns: 10px 1fr auto auto; gap: 10px; align-items: baseline;
+            padding: 7px 2px; border-bottom: 1px solid var(--border-subtle);
+            font-size: .74rem;
+        }
+        .ov-dot { width: 8px; height: 8px; border-radius: 50%; transform: translateY(-1px); }
+        .ov-name { font-family: var(--font-display); font-style: italic; color: var(--text-primary); }
+        .ov-n { font-family: var(--font-mono); font-size: .68rem; color: var(--accent-copper-light); }
+        .ov-e { font-family: var(--font-mono); font-size: .62rem; color: var(--text-muted); }
+        .ov-foot { margin-top: 14px; font-family: var(--font-mono); font-size: .6rem; color: var(--text-muted); line-height: 1.8; }
+        #tooltip {
+            position: absolute; display: none; z-index: 100; pointer-events: none;
+            background: rgba(31,35,45,.98); border: 1px solid var(--border-medium);
+            border-left: 2px solid var(--accent-copper); border-radius: 0 8px 8px 8px;
+            padding: 12px 14px; width: 250px; box-shadow: var(--shadow-lg);
+        }
+        .tt-src { font-family: var(--font-mono); font-size: .55rem; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); }
+        .tt-title { font-family: var(--font-display); font-style: italic; font-size: 1rem; margin: 4px 0; }
+        .tt-desc { font-size: .68rem; color: var(--text-secondary); line-height: 1.55; }
+        aside.detail-panel {
+            background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-void) 100%);
+            border-left: 1px solid var(--border-medium);
+            overflow-y: auto; z-index: 10; opacity: 0; pointer-events: none;
+            transition: opacity .3s ease; padding: 24px 22px 28px; position: relative;
+        }
+        body.detail-open aside.detail-panel { opacity: 1; pointer-events: auto; }
+        .dp-close {
+            position: absolute; top: 14px; right: 14px; background: none; border: none;
+            color: var(--text-muted); font-size: 20px; cursor: pointer; width: 28px; height: 28px;
+        }
+        .dp-close:hover { color: var(--accent-rose); }
+        .dp-src {
+            display: inline-block; font-family: var(--font-mono); font-size: .58rem;
+            text-transform: uppercase; letter-spacing: .1em;
+            padding: 3px 9px; border-radius: 10px; margin-bottom: 10px;
+            border: 1px solid var(--border-subtle); color: var(--text-secondary);
+        }
+        .dp-title { font-family: var(--font-display); font-style: italic; font-size: 1.5rem; line-height: 1.15; margin-bottom: 10px; }
+        .dp-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+        .dp-badge {
+            font-family: var(--font-mono); font-size: .56rem; color: var(--text-secondary);
+            background: rgba(255,255,255,.03); border: 1px solid var(--border-subtle);
+            border-radius: 10px; padding: 3px 9px;
+        }
+        .dp-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 16px; }
+        .dp-tag {
+            font-family: var(--font-mono); font-size: .55rem; color: var(--text-muted);
+            background: rgba(201,149,108,.06); border: 1px solid rgba(201,149,108,.12);
+            border-radius: 3px; padding: 2px 7px;
+        }
+        .dp-section-title {
+            font-family: var(--font-display); font-style: italic; font-size: .85rem;
+            padding-bottom: 6px; margin: 16px 0 10px; border-bottom: 1px solid var(--border-subtle);
+        }
+        .dp-prose { font-size: .76rem; color: var(--text-secondary); line-height: 1.65; }
+        .dp-ref, .dp-nbr {
+            display: block; background: rgba(0,0,0,.2); border: 1px solid var(--border-subtle);
+            border-radius: 6px; padding: 9px 11px; margin-bottom: 7px;
+            color: inherit; text-decoration: none; font-size: .72rem;
+        }
+        a.dp-ref:hover, button.dp-nbr:hover { border-color: rgba(201,149,108,.3); }
+        button.dp-nbr { width: 100%; text-align: left; cursor: pointer; font-family: inherit; background: rgba(0,0,0,.2); }
+        .dp-nbr-name { font-family: var(--font-display); font-style: italic; color: var(--text-primary); }
+        .dp-src-link {
+            display: inline-block; margin-top: 16px; font-family: var(--font-mono);
+            font-size: .62rem; letter-spacing: .06em; text-transform: uppercase;
+            color: var(--accent-cyan); text-decoration: none;
+            border-bottom: 1px solid rgba(77,212,196,.3); padding-bottom: 2px;
+        }
+        .dp-src-link:hover { border-color: var(--accent-cyan); }
+        .dp-empty { color: var(--text-muted); font-family: var(--font-display); font-style: italic; text-align: center; padding: 60px 20px; }
+        #loading-overlay {
+            position: fixed; inset: 0; display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            background: var(--bg-void); z-index: 200; transition: opacity .6s;
+        }
+        #loading-overlay.hidden { opacity: 0; pointer-events: none; }
+        .loader-text { font-family: var(--font-mono); font-size: .6rem; color: var(--text-secondary); margin-top: 16px; text-transform: uppercase; letter-spacing: .25em; }
+        .home-link {
+            display: inline-block; margin-top: 18px; font-family: var(--font-mono);
+            font-size: .6rem; letter-spacing: .08em; text-transform: uppercase;
+            color: var(--text-muted); text-decoration: none;
+        }
+        .home-link:hover { color: var(--accent-copper-light); }
+    </style>
+</head>
+
+<body>
+    <aside class="toolbox">
+        <span class="sb-eyebrow">Epistecnica · Universal View</span>
+        <h2 class="sb-title">Graphive</h2>
+        <p class="sb-subtitle">Every note, course, document, and element. Read-only.</p>
+        <input type="text" class="search-box" id="search" placeholder="Search all nodes…" autocomplete="off">
+        <div class="search-results" id="search-results"></div>
+        <span class="sb-group-label">Surfaces</span>
+        <div class="src-actions">
+            <button class="mini-btn" id="select-all">Select all</button>
+            <button class="mini-btn" id="deselect-all">Deselect all</button>
+        </div>
+        <div id="source-toggles"></div>
+        <button class="mini-btn random-btn" id="random-btn" title="Select a random visible node (r)" disabled>Random node · r</button>
+        <a class="home-link" href="../">← Epistecnica</a>
+    </aside>
+
+    <main class="canvas-area">
+        <canvas id="silhouette-view" aria-hidden="true"></canvas>
+        <canvas id="graph-canvas"></canvas>
+        <button class="canvas-btn" id="overview-btn" title="Graph overview">◔</button>
+        <button class="canvas-btn" id="fit-btn" title="Fit graph to view">⤢</button>
+        <div id="tooltip">
+            <div class="tt-src" id="tt-src"></div>
+            <div class="tt-title" id="tt-title"></div>
+            <div class="tt-desc" id="tt-desc"></div>
+        </div>
+    </main>
+
+    <aside class="detail-panel" id="detail" aria-live="polite">
+        <button class="dp-close" id="dp-close" aria-label="Close">×</button>
+        <div id="dp-body"><div class="dp-empty">Enable a space, then click a node to read its minimal record.</div></div>
+    </aside>
+
+    <div id="loading-overlay"><div class="loader-text" id="loader-msg">Loading universal index</div></div>
+
+    <div class="ov-overlay" id="ov-overlay"></div>
+    <div class="ov-modal" id="ov-modal" role="dialog" aria-label="Graph overview">
+        <button class="ov-close" id="ov-close" aria-label="Close overview">×</button>
+        <span class="ov-eyebrow">Epistecnica · Universal View</span>
+        <h3 class="ov-title">Overview</h3>
+        <div id="ov-rows"></div>
+        <div class="ov-foot" id="ov-foot"></div>
+    </div>
+
+    <script src="vendor/deck.min.js"></script>
+    <script src="vendor/socio-graph.js"></script>
+    <script>
+    (function () {
+        'use strict';
+
+        /* Source surface → color (Oxford Common Room tokens). The graph is
+           generated from Epistecnica's own content (bin/build_universal_index.py). */
+        var SOURCES = ['note', 'course', 'document', 'rees'];
+        var SOURCE_COLORS = {
+            note: '#c9956c', course: '#7ba388',
+            document: '#6b8caa', rees: '#9b7eb0'
+        };
+        var SOURCE_LABEL = {
+            note: 'Notes', course: 'Courses',
+            document: 'Documents', rees: 'REES'
+        };
+
+        function hexToRGBA(hex, a) {
+            var h = (hex || '#888888').replace('#', '');
+            if (h.length === 3) h = h.split('').map(function (c) { return c + c; }).join('');
+            var r = parseInt(h.slice(0, 2), 16) || 0, g = parseInt(h.slice(2, 4), 16) || 0, b = parseInt(h.slice(4, 6), 16) || 0;
+            return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
+        }
+        function esc(s) {
+            var d = document.createElement('div');
+            d.textContent = s == null ? '' : String(s);
+            return d.innerHTML;
+        }
+        function getSourceColor(source) { return SOURCE_COLORS[source] || '#888888'; }
+        function srcIndex(source) { var i = SOURCES.indexOf(source); return i < 0 ? 0 : i; }
+
+        /* ---------- state ---------- */
+        var nodes = [], nM = {}, gE = [];
+        var nodeDegrees = {}, labelTiers = {};
+        var cam = { x: 0, y: 0, z: 1 }, camTgt = null;
+        var hovN = null, selN = null;
+        var W = 0, H = 0, deck = null;
+        var silCanvas = null, silCtx = null, silBounds = null, silDirty = true;
+        var staticLayers = [], deckDirty = true, labelsDirty = true, lastBand = null, lastLabelZ = -1;
+        var catRGBCache = {};
+        var activeSources = {};
+        SOURCES.forEach(function (s) { activeSources[s] = false; });  // boot deselected
+
+        var canvas = document.getElementById('graph-canvas');
+        var tooltip = document.getElementById('tooltip');
+
+        function zoomBand() {
+            if (cam.z < 0.3) return 'macro';
+            if (cam.z < 0.9) return 'meso';
+            return 'micro';
+        }
+        function nodeRadius(n) { return 5 + (nodeDegrees[n.id] || 0) * 0.6; }
+        function visNodes() { return nodes.filter(function (n) { return n.visible; }); }
+
+        function labelTargetOpacity(n, band) {
+            var t = labelTiers[n.id] || 'micro';
+            if (band === 'macro') return t === 'always' ? 1 : 0;
+            if (band === 'meso') return t === 'always' ? 1 : (t === 'meso' ? 0.85 : 0);
+            return (t !== 'micro' || (nodeDegrees[n.id] || 0) > 1) ? 0.8 : 0;
+        }
+
+        /* ---------- renderer ---------- */
+        function sizeCanvas() {
+            var r = canvas.parentElement.getBoundingClientRect();
+            W = r.width; H = r.height;
+            var sil = document.getElementById('silhouette-view');
+            sil.width = Math.max(1, W * devicePixelRatio);
+            sil.height = Math.max(1, H * devicePixelRatio);
+            if (deck) deck.setProps({ width: W, height: H });
+            silDirty = true;
+        }
+        function computeFitTarget() {
+            var v = visNodes();
+            if (!v.length) return { x: 0, y: 0, z: 1 };
+            var x1 = Infinity, x2 = -Infinity, y1 = Infinity, y2 = -Infinity;
+            v.forEach(function (n) {
+                if (n.x < x1) x1 = n.x; if (n.x > x2) x2 = n.x;
+                if (n.y < y1) y1 = n.y; if (n.y > y2) y2 = n.y;
+            });
+            var p = 80, gw = Math.max(1, x2 - x1 + p * 2), gh = Math.max(1, y2 - y1 + p * 2);
+            var z = Math.min(W / gw, H / gh, 1.5);
+            return { z: z, x: W / 2 - ((x1 + x2) / 2) * z, y: H / 2 - ((y1 + y2) / 2) * z };
+        }
+        function tweenCamera(toX, toY, toZ, ms) {
+            camTgt = { from: { x: cam.x, y: cam.y, z: cam.z }, to: { x: toX, y: toY, z: toZ }, start: performance.now(), dur: ms || 600 };
+        }
+        function stepTween(now) {
+            if (!camTgt) return;
+            var t = Math.min(1, (now - camTgt.start) / camTgt.dur);
+            var e = 1 - Math.pow(1 - t, 3);
+            cam.x = camTgt.from.x + (camTgt.to.x - camTgt.from.x) * e;
+            cam.y = camTgt.from.y + (camTgt.to.y - camTgt.from.y) * e;
+            cam.z = camTgt.from.z + (camTgt.to.z - camTgt.from.z) * e;
+            if (t >= 1) camTgt = null;
+            deckDirty = true;
+        }
+        function buildStaticLayers() {
+            var vn = visNodes();
+            var vmap = {};
+            vn.forEach(function (n) { vmap[n.id] = n; });
+            var ve = gE.filter(function (e) { return vmap[e.source] && vmap[e.target]; });
+            var ew = new Array(ve.length), mw = 1;
+            for (var i = 0; i < ve.length; i++) {
+                var w = (nodeDegrees[ve[i].source] || 0) + (nodeDegrees[ve[i].target] || 0);
+                ew[i] = w; if (w > mw) mw = w;
+            }
+            return SocioGraph.buildStaticLayers({
+                lib: window.SocioDeck, nodes: vn, cam: cam, band: zoomBand(),
+                edges: ve, nodeMap: vmap,
+                hoveredNode: hovN, selectedNode: selN,
+                searchHighlights: new Set(), linkSourceNode: null, linkMode: false,
+                nodeRadius: nodeRadius, getCategoryColor: getSourceColor, catCache: catRGBCache,
+                edgeWeights: ew, maxEdgeWeight: mw,
+                edgeShouldShow: function (i, band) {
+                    if (band === 'macro') return ew[i] >= mw * 0.9;
+                    return true;
+                },
+                hexToRGBA: hexToRGBA
+            });
+        }
+        function draw() {
+            if (!deck) return;
+            stepTween(performance.now());
+            if (silDirty) {
+                var hulls = SocioGraph.computeHulls(visNodes(), srcIndex);
+                var sr = SocioGraph.renderSilhouettes(silCanvas, silCtx, hulls,
+                    SOURCES.map(function (s) { return SOURCE_COLORS[s]; }), hexToRGBA);
+                silCanvas = sr.canvas; silCtx = sr.ctx2d; silBounds = sr.bounds;
+                silDirty = false;
+            }
+            var band = zoomBand();
+            if (lastBand !== band) { lastBand = band; deckDirty = true; labelsDirty = true; }
+            if (lastLabelZ < 0 || Math.abs(cam.z - lastLabelZ) / Math.max(cam.z, 1e-6) > 0.12) {
+                lastLabelZ = cam.z; labelsDirty = true;
+            }
+            deck.setProps({ viewState: SocioGraph.viewStateFromCam(cam, W, H) });
+            if (deckDirty) { staticLayers = buildStaticLayers(); deckDirty = false; labelsDirty = true; }
+            if (labelsDirty) {
+                var r = SocioGraph.buildLabelsLayer({
+                    lib: window.SocioDeck, nodes: visNodes(), cam: cam, W: W, H: H, band: band,
+                    labelTargetOpacity: labelTargetOpacity, labelTiers: labelTiers,
+                    nodeDegrees: nodeDegrees, nodeRadius: nodeRadius,
+                    hoveredNode: hovN, selectedNode: selN
+                });
+                deck.setProps({ layers: r.layer ? staticLayers.concat([r.layer]) : staticLayers });
+                labelsDirty = false;
+            }
+            var sil = document.getElementById('silhouette-view');
+            SocioGraph.drawSilhouetteView(sil.getContext('2d'), sil, silCanvas, silBounds, cam, devicePixelRatio);
+            requestAnimationFrame(draw);
+        }
+
+        /* ---------- interaction ---------- */
+        var isDown = false, downPos = null, moved = false, hoverQueued = false;
+        canvas.addEventListener('mousedown', function (e) {
+            isDown = true; moved = false; camTgt = null;
+            downPos = { x: e.clientX, y: e.clientY, cx: cam.x, cy: cam.y };
+        });
+        window.addEventListener('mouseup', function () { isDown = false; });
+        canvas.addEventListener('mousemove', function (e) {
+            var r = canvas.getBoundingClientRect();
+            var sx = e.clientX - r.left, sy = e.clientY - r.top;
+            if (isDown && downPos) {
+                var dx = e.clientX - downPos.x, dy = e.clientY - downPos.y;
+                if (Math.abs(dx) + Math.abs(dy) > 3) moved = true;
+                cam.x = downPos.cx + dx; cam.y = downPos.cy + dy;
+                deckDirty = true;
+                hideTooltip();
+                return;
+            }
+            if (!hoverQueued) {
+                hoverQueued = true;
+                requestAnimationFrame(function () {
+                    hoverQueued = false;
+                    if (!deck) return;
+                    var info = null;
+                    try { info = deck.pickObject({ x: sx, y: sy, radius: 6, layerIds: ['nodes'] }); } catch (err) { /* noop */ }
+                    var n = info && info.object ? info.object : null;
+                    if (n !== hovN) { hovN = n; deckDirty = true; }
+                    if (hovN) showTooltip(hovN, sx, sy); else hideTooltip();
+                    canvas.style.cursor = hovN ? 'pointer' : 'grab';
+                });
+            }
+        });
+        canvas.addEventListener('mouseleave', function () { hovN = null; hideTooltip(); deckDirty = true; });
+        canvas.addEventListener('click', function () {
+            if (moved) return;
+            if (hovN) selectNode(hovN, false);
+            else closeDetail();
+        });
+        canvas.addEventListener('wheel', function (e) {
+            e.preventDefault();
+            camTgt = null;
+            var r = canvas.getBoundingClientRect();
+            var sx = e.clientX - r.left, sy = e.clientY - r.top;
+            var f = Math.exp(-e.deltaY * 0.0015);
+            var z2 = Math.max(0.05, Math.min(6, cam.z * f));
+            cam.x = sx - (sx - cam.x) * (z2 / cam.z);
+            cam.y = sy - (sy - cam.y) * (z2 / cam.z);
+            cam.z = z2;
+            deckDirty = true;
+        }, { passive: false });
+        window.addEventListener('resize', sizeCanvas);
+        document.getElementById('fit-btn').addEventListener('click', function () {
+            var t = computeFitTarget();
+            tweenCamera(t.x, t.y, t.z, 600);
+        });
+
+        /* ---------- overview modal ---------- */
+        function renderOverview() {
+            var st = window.__ustats || { counts: {}, edge_counts: {}, generated: '', total: 0 };
+            var rows = SOURCES.map(function (s) {
+                var nc = (st.counts[s] || 0).toLocaleString();
+                var ec = (st.edge_counts[s] || 0).toLocaleString();
+                return '<div class="ov-row"><span class="ov-dot" style="background:' +
+                    esc(getSourceColor(s)) + '"></span><span class="ov-name">' +
+                    esc(SOURCE_LABEL[s] || s) + '</span><span class="ov-n">' + nc +
+                    ' nodes</span><span class="ov-e">' + ec + ' edges</span></div>';
+            }).join('');
+            document.getElementById('ov-rows').innerHTML = rows;
+            document.getElementById('ov-foot').innerHTML =
+                esc(Number(st.total || 0).toLocaleString()) + ' nodes total<br>snapshot ' +
+                esc(st.generated || '—') + '<br>recompute: make graph-index';
+        }
+        function openOverview() {
+            renderOverview();
+            document.getElementById('ov-overlay').classList.add('open');
+            document.getElementById('ov-modal').classList.add('open');
+        }
+        function closeOverview() {
+            document.getElementById('ov-overlay').classList.remove('open');
+            document.getElementById('ov-modal').classList.remove('open');
+        }
+        document.getElementById('overview-btn').addEventListener('click', openOverview);
+        document.getElementById('ov-close').addEventListener('click', closeOverview);
+        document.getElementById('ov-overlay').addEventListener('click', closeOverview);
+
+        function showTooltip(n, sx, sy) {
+            document.getElementById('tt-src').textContent = SOURCE_LABEL[n.source] || n.source;
+            document.getElementById('tt-src').style.color = getSourceColor(n.source);
+            document.getElementById('tt-title').textContent = n.name;
+            document.getElementById('tt-desc').textContent = (n.description || '').slice(0, 140);
+            tooltip.style.display = 'block';
+            var r = canvas.parentElement.getBoundingClientRect();
+            tooltip.style.left = Math.min(r.width - 270, sx + 16) + 'px';
+            tooltip.style.top = Math.min(r.height - 160, sy + 14) + 'px';
+        }
+        function hideTooltip() { tooltip.style.display = 'none'; }
+
+        /* ---------- detail panel (minimal record + source links) ---------- */
+        function selectNode(n, snap) {
+            selN = n;
+            deckDirty = true;
+            document.body.classList.add('detail-open');
+            var nbrs = (n.targets || []).map(function (t) { return nM[t]; }).filter(Boolean);
+            // incoming edges (same dataset, symmetric view)
+            var incoming = [];
+            if (n.incoming) n.incoming.forEach(function (uid) { if (nM[uid]) incoming.push(nM[uid]); });
+            var html = '<span class="dp-src" style="color:' + esc(getSourceColor(n.source)) + ';border-color:' +
+                esc(hexToRGBA(getSourceColor(n.source), 0.35)) + '">' + esc(SOURCE_LABEL[n.source] || n.source) + '</span>' +
+                '<div class="dp-title">' + esc(n.name) + '</div><div class="dp-meta">';
+            if (n.cat) html += '<span class="dp-badge">' + esc(n.cat) + '</span>';
+            if (n.layer) html += '<span class="dp-badge">' + esc(n.layer) + '</span>';
+            html += '<span class="dp-badge">' + esc(n.source + ':' + n.source_id) + '</span></div>';
+            if (n.tags && n.tags.length) {
+                html += '<div class="dp-tags">' + n.tags.map(function (t) {
+                    return '<span class="dp-tag">' + esc(t) + '</span>';
+                }).join('') + '</div>';
+            }
+            if (n.description) html += '<div class="dp-section-title">Description</div><p class="dp-prose">' + esc(n.description) + '</p>';
+            var all = nbrs.concat(incoming.filter(function (m) { return nbrs.indexOf(m) < 0; }));
+            if (all.length) {
+                html += '<div class="dp-section-title">Links · ' + all.length + '</div>';
+                all.slice(0, 30).forEach(function (m) {
+                    html += '<button class="dp-nbr" data-uid="' + esc(m.uid) + '"><span class="dp-nbr-name">' +
+                        esc(m.name) + '</span><br><span style="font-family:var(--font-mono);font-size:.58rem;color:var(--text-muted)">' +
+                        esc(m.cat || m.source) + '</span></button>';
+                });
+            }
+            if (n.references && n.references.length) {
+                html += '<div class="dp-section-title">Sources · ' + n.references.length + '</div>';
+                n.references.forEach(function (ref) {
+                    var t = esc(ref.title || ref.link || 'source');
+                    if (ref.link) html += '<a class="dp-ref" href="' + esc(ref.link) + '" target="_blank" rel="noopener">' + t + '</a>';
+                    else html += '<span class="dp-ref">' + t + '</span>';
+                });
+            }
+            html += '<a class="dp-src-link" href="' + esc(n.deep_link) + '">Open in ' +
+                esc(SOURCE_LABEL[n.source] || n.source) + ' →</a>';
+            document.getElementById('dp-body').innerHTML = html;
+            Array.prototype.forEach.call(document.querySelectorAll('.dp-nbr'), function (b) {
+                b.addEventListener('click', function () {
+                    var m = nM[b.getAttribute('data-uid')];
+                    if (m) selectNode(m, false);
+                });
+            });
+            // center on node
+            var t = { z: Math.max(cam.z, 0.9), x: W / 2 - n.x * Math.max(cam.z, 0.9), y: H / 2 - n.y * Math.max(cam.z, 0.9) };
+            if (snap) { cam.x = t.x; cam.y = t.y; cam.z = t.z; }
+            else tweenCamera(t.x, t.y, t.z, 500);
+            sizeCanvasSafe();
+        }
+        function sizeCanvasSafe() { /* detail pane resize shifts canvas; refit next frame */ }
+        function closeDetail() {
+            selN = null;
+            document.body.classList.remove('detail-open');
+            deckDirty = true;
+        }
+
+        /* ---------- random node (r) ---------- */
+
+        var lastRandomUid = null;
+
+        function randomNode() {
+            var pool = visNodes();
+            if (!pool.length) return;                 // no surface enabled → no-op
+            if (pool.length > 1 && lastRandomUid) {
+                pool = pool.filter(function (n) { return n.uid !== lastRandomUid; });
+            }
+            if (!pool.length) pool = visNodes();
+            var n = pool[Math.floor(Math.random() * pool.length)];
+            if (!n) return;
+            lastRandomUid = n.uid;
+            closeOverview();
+            selectNode(n, false);
+            try {
+                var u = new URL(window.location.href);
+                u.searchParams.set('node', n.uid);
+                history.replaceState(null, '', u);
+            } catch (err) { /* ignore */ }
+        }
+
+        function syncRandomBtn() {
+            var b = document.getElementById('random-btn');
+            if (b) b.disabled = !visNodes().length;
+        }
+
+        document.getElementById('dp-close').addEventListener('click', closeDetail);
+        document.getElementById('random-btn').addEventListener('click', randomNode);
+        window.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') { closeOverview(); closeDetail(); return; }
+            var el = document.activeElement;
+            var typing = !!el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
+            if (typing || e.ctrlKey || e.metaKey || e.altKey) return;
+            if (e.key === 'r' || e.key === 'R') { e.preventDefault(); randomNode(); }
+        });
+
+        /* ---------- search ---------- */
+        var searchInput = document.getElementById('search');
+        var searchBox = document.getElementById('search-results');
+        searchInput.addEventListener('input', function () {
+            var q = searchInput.value.trim().toLowerCase();
+            if (!q) { searchBox.innerHTML = ''; return; }
+            var hits = [];
+            for (var i = 0; i < nodes.length && hits.length < 200; i++) {
+                var n = nodes[i];
+                if ((n.name || '').toLowerCase().indexOf(q) >= 0) hits.push(n);
+            }
+            hits.sort(function (a, b) { return a.name.localeCompare(b.name); });
+            searchBox.innerHTML = hits.slice(0, 8).map(function (n) {
+                return '<button class="sr" data-uid="' + esc(n.uid) + '"><span class="sr-dot" style="background:' +
+                    esc(getSourceColor(n.source)) + '"></span><span class="sr-name">' + esc(n.name) +
+                    '</span><span class="sr-src">' + esc(n.source) + '</span></button>';
+            }).join('');
+            Array.prototype.forEach.call(searchBox.querySelectorAll('.sr'), function (b) {
+                b.addEventListener('click', function () {
+                    var n = nM[b.getAttribute('data-uid')];
+                    if (n) {
+                        enableSource(n.source);
+                        selectNode(n, false);
+                        searchBox.innerHTML = ''; searchInput.value = n.name;
+                    }
+                });
+            });
+        });
+
+        /* ---------- source toggles ---------- */
+        function enableSource(s) {
+            activeSources[s] = true;
+            var box = document.querySelector('#source-toggles input[data-src="' + s + '"]');
+            if (box) box.checked = true;
+            applyVisibility();
+        }
+        function setAll(on) {
+            SOURCES.forEach(function (s) { activeSources[s] = on; });
+            Array.prototype.forEach.call(document.querySelectorAll('#source-toggles input'), function (box) {
+                box.checked = on;
+            });
+            applyVisibility();
+        }
+        document.getElementById('select-all').addEventListener('click', function () { setAll(true); });
+        document.getElementById('deselect-all').addEventListener('click', function () { setAll(false); });
+        function buildToggles(counts) {
+            var wrap = document.getElementById('source-toggles');
+            wrap.innerHTML = SOURCES.map(function (s) {
+                return '<label class="src-toggle"><input type="checkbox" data-src="' + s + '"' +
+                    (activeSources[s] ? ' checked' : '') + '>' +
+                    '<span class="src-dot" style="background:' + SOURCE_COLORS[s] + '"></span>' +
+                    esc(SOURCE_LABEL[s]) + '<span class="src-n">' + (counts[s] || 0) + '</span></label>';
+            }).join('');
+            Array.prototype.forEach.call(wrap.querySelectorAll('input'), function (box) {
+                box.addEventListener('change', function () {
+                    activeSources[box.getAttribute('data-src')] = box.checked;
+                    applyVisibility();
+                });
+            });
+        }
+        function applyVisibility() {
+            nodes.forEach(function (n) { n.visible = !!activeSources[n.source]; });
+            if (selN && !selN.visible) closeDetail();
+            if (hovN && !hovN.visible) { hovN = null; hideTooltip(); }
+            silDirty = true; deckDirty = true;
+            var t = computeFitTarget();
+            cam.x = t.x; cam.y = t.y; cam.z = t.z;
+            syncRandomBtn();
+        }
+
+        /* ---------- boot ---------- */
+        function fail(msg, hint) {
+            document.getElementById('loader-msg').innerHTML =
+                '<span style="color:#c47d8a">' + esc(msg) + '</span>' +
+                (hint ? '<br><span style="font-size:.85em">' + esc(hint) + '</span>' : '');
+        }
+        function initGraph(arr) {
+            arr.forEach(function (d) {
+                d.id = d.uid;            // renderer keys on .id
+                d.cat = d.category;     // original category preserved for display
+                d.category = d.source;  // color grouping by source space
+                d.visible = !!activeSources[d.source];
+                nodes.push(d);
+                nM[d.uid] = d;
+            });
+            gE = [];
+            nodes.forEach(function (n) {
+                (n.targets || []).forEach(function (t) {
+                    if (nM[t]) gE.push({ source: n.uid, target: t, visible: true });
+                });
+            });
+            // incoming index (same-dataset symmetric navigation)
+            nodes.forEach(function (n) { n.incoming = []; });
+            gE.forEach(function (e) { if (nM[e.target]) nM[e.target].incoming.push(e.source); });
+            // degrees + label tiers
+            var deg = {};
+            gE.forEach(function (e) { deg[e.source] = (deg[e.source] || 0) + 1; deg[e.target] = (deg[e.target] || 0) + 1; });
+            nodeDegrees = deg;
+            var ranked = nodes.slice().sort(function (a, b) { return (deg[b.uid] || 0) - (deg[a.uid] || 0); });
+            ranked.forEach(function (n, i) {
+                var f = i / Math.max(1, ranked.length);
+                labelTiers[n.uid] = f < 0.03 ? 'always' : (f < 0.12 ? 'meso' : 'micro');
+            });
+            var lib = window.SocioDeck;
+            if (!lib) { fail('Renderer missing', 'vendor/deck.min.js failed to load'); return; }
+            sizeCanvas();
+            deck = SocioGraph.createDeck(lib, canvas, W, H);
+            SocioGraph.applyLayoutToNodes(nodes, window.__ulayout);
+            var t = computeFitTarget();
+            cam.x = t.x; cam.y = t.y; cam.z = t.z;
+            document.getElementById('loading-overlay').classList.add('hidden');
+            draw();
+            // deep link ?node=<uid> (enables its space first — boot is deselected)
+            try {
+                var qn = new URLSearchParams(window.location.search).get('node');
+                if (qn && nM[qn]) { enableSource(nM[qn].source); selectNode(nM[qn], true); }
+            } catch (e) { /* ignore */ }
+            syncRandomBtn();
+        }
+
+        document.getElementById('loader-msg').textContent = 'Loading universal graph';
+        fetch('data/universal-graph.json')
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (g) {
+                var arr = g.nodes || [];
+                if (!arr.length) throw new Error('Empty universal graph');
+                var counts = g.counts || {};
+                var total = arr.length;
+                window.__ustats = {
+                    counts: counts,
+                    edge_counts: g.edge_counts || {},
+                    generated: g.generated || '',
+                    total: total
+                };
+                buildToggles(counts);
+                document.getElementById('loader-msg').textContent = 'Loading layout';
+                return fetch('data/universal-layout.json', { cache: 'no-cache' })
+                    .then(function (r) { if (!r.ok) throw new Error('layout missing'); return r.json(); })
+                    .then(function (L) {
+                        window.__ulayout = L;
+                        setTimeout(function () { initGraph(arr); }, 50);
+                    });
+            })
+            .catch(function (err) {
+                fail('Failed to load: ' + (err.message || err), 'The universal index has not been generated yet.');
+            });
+    })();
+    </script>
+</body>
+
+</html>

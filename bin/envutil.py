@@ -2,9 +2,8 @@
 """
 Tiny stdlib .env loader for the Epistecnica combined server.
 
-Same behavior as the per-project bin/envutil.py scripts, plus per-dataset
-database resolution: the combined repo uses ONE CouchDB instance with TWO
-databases (epistemica, tecnica), selected via EPISTEMICA_DB / TECNICA_DB.
+The combined repo uses ONE CouchDB instance hosting the notes-catalog pins
+store, selected via NOTES_DB (default 'notes').
 
 Reads <repo>/.env once, populates os.environ for keys that are not already
 set (real environment variables win).
@@ -47,7 +46,7 @@ class CouchConfig:
 
     def __init__(self, url=None, db=None, user=None, password=None):
         self.url = (url or (_get("COUCHDB_URL") or "http://127.0.0.1:5984")).rstrip("/")
-        self.db = db or _get("COUCHDB_DB") or "epistemica"
+        self.db = db or _get("COUCHDB_DB") or "notes"
         self.user = user if user is not None else _get("COUCHDB_USER")
         self.password = password if password is not None else _get("COUCHDB_PASSWORD")
 
@@ -68,10 +67,10 @@ class CouchConfig:
 
 
 def couch():
-    """Default config (single-DB fallback; standalone-style scripts)."""
+    """Default config (single-DB fallback; COUCHDB_DB or 'notes')."""
     return CouchConfig()
 
 
 def dataset(db_env_key, default_db):
-    """Config for one dataset: COUCHDB_* plus a dataset-specific DB name."""
+    """Config for one DB: COUCHDB_* plus a DB-name-specific override."""
     return CouchConfig(db=_get(db_env_key) or default_db)

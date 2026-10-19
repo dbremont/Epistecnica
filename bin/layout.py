@@ -1,0 +1,440 @@
+#!/usr/bin/env python3
+"""
+Epistecnica universal graph layout pre-computer (ported from Naturgnosis).
+
+Produces layout.json : { "<uid>": [x, y], ... }
+
+The universal graph is largely DISCONNECTED (isolated nodes plus a small number
+of connected components), so a global O(N^2) force simulation is both expensive
+and pointless. Instead:
+
+  1. Place every node on a sunflower (phyllotaxis) spiral -> even, dense,
+     overlap-free fill, O(N), deterministic.
+  2. For each connected component (size >= 2), run a tiny Fruchterman-Reingold
+     layout in a local subspace and anchor it at the centroid of the
+     component's spiral slot, so each small cluster reads as a unit without
+     disturbing the global packing. Oversized components (above
+     MAX_FR_COMPONENT, where FR would be O(m^2 * iters)) are laid as blossoms
+     in reserved territory beside the main disk instead.
+
+  Grouping (--group-by source): each source surface (note / course / document /
+  rees) gets its own sunflower disk and the disks are arranged on a ring, so
+  surfaces read as spatial clusters.
+
+Usage:
+    python3 bin/layout.py \\
+        --data-file src/app/graph/data/universal-graph.json \\
+        --layout-file src/app/graph/data/universal-layout.json \\
+        --group-by source
+
+Defaults resolve relative to the repository root (parent of bin/).
+"""
+
+import argparse
+import json
+import math
+import os
+import random
+import sys
+import tempfile
+from pathlib import Path
+
+GOLDEN_ANGLE = math.pi * (3.0 - math.sqrt(5.0))
+
+ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_DATA = ROOT / "src" / "app" / "graph" / "data" / "universal-graph.json"
+DEFAULT_LAYOUT = ROOT / "src" / "app" / "graph" / "data" / "universal-layout.json"
+
+SPACING = 60.0  # approximate nearest-neighbour distance on the spiral
+
+# Fruchterman-Reingold is O(m^2 * iters) per component; above this size the
+# O(m) sunflower fallback below is used instead (see compute_layout step 2).
+MAX_FR_COMPONENT = 120
+
+
+def load_data(path):
+    """Load nodes from the universal graph.
+
+    Accepts either the universal graph object ({nodes: [...]}) or a bare JSON
+    array of nodes.
+    """
+    with open(path, "r", encoding="utf-8") as fh:
+        data = json.load(fh)
+    if isinstance(data, dict):
+        data = data.get("nodes", [])
+    if not isinstance(data, list):
+        raise ValueError(f"{path} has no node array")
+    return data
+
+
+def build_edges(data, id_set):
+    """Undirected edge list from node targets, restricted to ids that exist."""
+    edges = []
+    for d in data:
+        s = d.get("uid") if isinstance(d, dict) else None
+        if s not in id_set:
+            continue
+        for t in d.get("targets") or []:
+            if t and t in id_set and t != s:
+                edges.append((s, t))
+    return edges
+
+
+def components_of(ids, edges, id_index):
+    """Union-find over ids -> list of components (each a list of ids)."""
+    parent = list(range(len(ids)))
+
+    def find(x):
+        root = x
+        while parent[root] != root:
+            root = parent[root]
+        while parent[x] != root:
+            parent[x], x = root, parent[x]
+        return root
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    for s, t in edges:
+        union(id_index[s], id_index[t])
+
+    groups = {}
+    for i in range(len(ids)):
+        groups.setdefault(find(i), []).append(ids[i])
+    return list(groups.values())
+
+
+def sunflower(i, n, radius):
+    r = radius * math.sqrt((i + 0.5) / n)
+    theta = i * GOLDEN_ANGLE
+    return (r * math.cos(theta), r * math.sin(theta))
+
+
+def fr_layout(members, edge_pairs, iters, width, height, rng):
+    """Fruchterman-Reingold on a small set of points. Fine for tiny components."""
+    m = len(members)
+    k = math.sqrt((width * height) / max(1, m)) * 0.6
+    pos = [[rng.uniform(-w2, w2) for w2 in (width / 2, height / 2)] for _ in range(m)]
+    temp = width * 0.25
+    for _ in range(iters):
+        disp = [[0.0, 0.0] for _ in range(m)]
+        for i in range(m):
+            xi, yi = pos[i]
+            for j in range(i + 1, m):
+                dx = xi - pos[j][0]
+                dy = yi - pos[j][1]
+                d2 = dx * dx + dy * dy
+                if d2 < 1e-6:
+                    dx = rng.uniform(-1e-3, 1e-3)
+                    dy = rng.uniform(-1e-3, 1e-3)
+                    d2 = dx * dx + dy * dy
+                d = math.sqrt(d2)
+                f = (k * k) / d
+                disp[i][0] += (dx / d) * f
+                disp[i][1] += (dy / d) * f
+                disp[j][0] -= (dx / d) * f
+                disp[j][1] -= (dy / d) * f
+        for a, b in edge_pairs:
+            dx = pos[a][0] - pos[b][0]
+            dy = pos[a][1] - pos[b][1]
+            d = max(1e-6, math.sqrt(dx * dx + dy * dy))
+            f = (d * d) / k
+            disp[a][0] -= (dx / d) * f
+            disp[a][1] -= (dy / d) * f
+            disp[b][0] += (dx / d) * f
+            disp[b][1] += (dy / d) * f
+        for i in range(m):
+            dx, dy = disp[i]
+            d = max(1e-6, math.sqrt(dx * dx + dy * dy))
+            lim = min(d, temp)
+            pos[i][0] += (dx / d) * lim
+            pos[i][1] += (dy / d) * lim
+        temp = max(1e-3, temp * 0.96)
+    return pos
+
+
+def _relax_pair(points, i, j, min_sep, rng):
+    xi, yi = points[i]
+    xj, yj = points[j]
+    dx = xi - xj
+    dy = yi - yj
+    d2 = dx * dx + dy * dy
+    if d2 >= min_sep * min_sep:
+        return False
+    if d2 < 1e-6:
+        a = rng.random() * 6.283185307179586
+        dx, dy = math.cos(a), math.sin(a)
+        d = 1.0
+    else:
+        d = math.sqrt(d2)
+    push = (min_sep - d) * 0.5
+    ux, uy = dx / d, dy / d
+    points[i][0] = xi + ux * push
+    points[i][1] = yi + uy * push
+    points[j][0] = xj - ux * push
+    points[j][1] = yj - uy * push
+    return True
+
+
+def resolve_overlaps(points, min_sep, rng, max_passes=40):
+    """Enforce a minimum pairwise separation via spatial-hash repulsion.
+
+    Guarantees no two points end closer than ``min_sep``. Each pass is O(N) for
+    sparse layouts (the sunflower field has no overlaps, so it early-exits after
+    one clean pass); only dense component pile-ups do real work. Deterministic
+    via the seeded ``rng`` (used only to break exact coincidences).
+    """
+    if not points:
+        return points
+    for _ in range(max_passes):
+        grid = {}
+        for i, p in enumerate(points):
+            grid.setdefault((int(p[0] // min_sep), int(p[1] // min_sep)), []).append(i)
+        changed = False
+        for (gx, gy), idxs in grid.items():
+            nbr = []
+            for dx in (-1, 0, 1):
+                for dy in (-1, 0, 1):
+                    if dx == 0 and dy == 0:
+                        continue
+                    g = grid.get((gx + dx, gy + dy))
+                    if g:
+                        nbr.extend(g)
+            for a in range(len(idxs)):
+                i = idxs[a]
+                for b in range(a + 1, len(idxs)):
+                    if _relax_pair(points, i, idxs[b], min_sep, rng):
+                        changed = True
+                for k in nbr:
+                    if k > i and _relax_pair(points, i, k, min_sep, rng):
+                        changed = True
+        if not changed:
+            break
+    return points
+
+
+def resolve_path(node, dotted):
+    """Resolve 'a.b.0.c' against nested dicts/lists; None when missing."""
+    cur = node
+    for seg in (dotted or "").split("."):
+        if not seg:
+            return None
+        if isinstance(cur, list):
+            if not seg.isdigit() or int(seg) >= len(cur):
+                return None
+            cur = cur[int(seg)]
+        elif isinstance(cur, dict):
+            if seg not in cur:
+                return None
+            cur = cur[seg]
+        else:
+            return None
+    return cur
+
+
+def group_key_of(node, group_by, group_fallback):
+    """Display-group key for spiral ordering (mirrors the explorer's grouping)."""
+    if group_by:
+        val = resolve_path(node, group_by)
+        if val is None or val == "":
+            val = resolve_path(node, group_fallback) if group_fallback else None
+        if isinstance(val, list):
+            val = val[0] if val else None
+        if val is not None and val != "":
+            return str(val)
+    return None
+
+
+def compute_layout(data, group_by=None, group_fallback=None):
+    """Return {id: [x, y]} for every node in data."""
+    ids = []
+    id_index = {}
+    seen = set()
+    by_id = {}
+    for d in data:
+        if not isinstance(d, dict):
+            continue
+        nid = d.get("uid") or d.get("id")
+        if not nid or nid in seen:
+            continue
+        seen.add(nid)
+        id_index[nid] = len(ids)
+        ids.append(nid)
+        by_id[nid] = d
+
+    n = len(ids)
+    if n == 0:
+        return {}
+
+    if group_by:
+        grouped = {}
+        for nid in ids:
+            key = group_key_of(by_id[nid], group_by, group_fallback) or ""
+            grouped.setdefault(key, []).append(nid)
+        ordered = sorted(grouped.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+        # One sunflower disk per group, disks side by side on a ring whose
+        # circumference fits every diameter plus breathing room. Deterministic.
+        radii = {k: max(SPACING, SPACING * 1.05 * math.sqrt(len(v) / math.pi)) for k, v in ordered}
+        ring = (2.0 * sum(radii.values()) + 2.0 * len(ordered) * SPACING) / (2.0 * math.pi)
+        base_of = {}
+        for gi, (key, members) in enumerate(ordered):
+            members = sorted(members)
+            ang = 2.0 * math.pi * gi / max(1, len(ordered))
+            cx, cy = ring * math.cos(ang), ring * math.sin(ang)
+            r = radii[key]
+            for i, nid in enumerate(members):
+                px, py = sunflower(i, len(members), r)
+                base_of[nid] = [cx + px, cy + py]
+        base = [base_of[nid] for nid in ids]
+
+    edges = build_edges(data, seen)
+
+    # Adjacency for fast component BFS is unnecessary: union-find already gives
+    # components. Re-derive per-component edge index pairs from the global list.
+    comps = components_of(ids, edges, id_index)
+
+    disk_radius = SPACING * math.sqrt(n / math.pi)
+    out = {}
+
+    # 1. Base positions: one sunflower disk per --group-by group (grouped
+    #    mode, computed above), else a single sunflower spiral for every
+    #    node (overlap-free, even fill).
+    if not group_by:
+        base = [sunflower(i, n, disk_radius) for i in range(n)]
+
+    # 2. Tighten connected components locally. Small components get the FR
+    # treatment anchored at their spiral-slot centroid; oversized ones are
+    # laid as blossoms in reserved territory beside the main disk (FR is
+    # O(m^2 * iters) and prohibitive there; centroid-anchoring a giant would
+    # also bury it inside the background field — O(m) here is exact, cheap,
+    # and collision-free).
+    rng = random.Random(123456789)
+    large = sorted(
+        (c for c in comps if len(c) > MAX_FR_COMPONENT),
+        key=lambda c: (-len(c), id_index[c[0]]),
+    )
+    cursor = disk_radius + SPACING * 2.0
+    if group_by:
+        # Blossoms go beside the grouped ring, not inside it.
+        cursor = max(max(abs(p[0]), abs(p[1])) for p in base) + SPACING * 2.0
+    for comp in large:
+        size = len(comp)
+        local_span = max(SPACING, SPACING * math.sqrt(size))
+        r = local_span / 2.0
+        cx = cursor + r
+        cursor += 2.0 * r + SPACING * 2.0
+        for i, nid in enumerate(comp):
+            px, py = sunflower(i, size, r)
+            out[nid] = [cx + px, py]
+    for comp in comps:
+        if len(comp) < 2 or len(comp) > MAX_FR_COMPONENT:
+            continue
+        size = len(comp)
+        cx = sum(base[id_index[nid]][0] for nid in comp) / size
+        cy = sum(base[id_index[nid]][1] for nid in comp) / size
+        local_span = max(SPACING, SPACING * math.sqrt(size))
+        local_idx = {nid: k for k, nid in enumerate(comp)}
+        members = comp
+        comp_set = set(comp)
+        edge_pairs = []
+        for s, t in edges:
+            if s in comp_set and t in comp_set:
+                edge_pairs.append((local_idx[s], local_idx[t]))
+
+        pos = fr_layout(members, edge_pairs, 350, local_span, local_span, rng)
+
+        max_r = max((math.hypot(p[0], p[1]) for p in pos), default=0.0)
+        scale = (local_span / 2.0 / max_r) if max_r > 1e-6 else 1.0
+
+        for k, nid in enumerate(members):
+            out[nid] = [cx + pos[k][0] * scale, cy + pos[k][1] * scale]
+
+    # 3. Isolated nodes keep their sunflower slot.
+    for i, nid in enumerate(ids):
+        if nid not in out:
+            out[nid] = [base[i][0], base[i][1]]
+
+    # 4. Guarantee minimum separation everywhere (no two nodes on top of each
+    #    other). Deterministic spatial-hash repulsion; cheap on sparse layouts.
+    pts = [out[nid] for nid in ids]
+    resolve_overlaps(pts, SPACING * 0.45, rng)
+    for i, nid in enumerate(ids):
+        out[nid] = pts[i]
+
+    return out
+
+
+def write_layout_atomically(layout, layout_path):
+    """Write layout.json atomically (temp file + os.replace), mirroring sync.py."""
+    layout_path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp_path = tempfile.mkstemp(suffix=".tmp", dir=str(layout_path.parent))
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            json.dump(layout, fh, ensure_ascii=False, separators=(",", ":"))
+        os.replace(tmp_path, layout_path)
+        os.chmod(layout_path, 0o644)
+    except Exception:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
+        raise
+
+
+def recompute(data_file, layout_file, group_by=None, group_fallback=None):
+    """Load data_file, compute layout, write layout_file atomically.
+
+    Returns (node_count, elapsed_seconds). Used by sync.py after each save.
+    """
+    import time
+
+    start = time.time()
+    data = load_data(data_file)
+    layout = compute_layout(data, group_by=group_by, group_fallback=group_fallback)
+    write_layout_atomically(layout, Path(layout_file))
+    return len(layout), time.time() - start
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(
+        prog="layout.py",
+        description="Pre-compute the Epistecnica universal graph layout (sunflower + per-component FR).",
+    )
+    parser.add_argument("--data-file", default=str(DEFAULT_DATA), help="Path to data.json.")
+    parser.add_argument(
+        "--layout-file",
+        default=str(DEFAULT_LAYOUT),
+        help="Path to write layout.json (default: sibling of data file).",
+    )
+    parser.add_argument(
+        "--group-by",
+        default=None,
+        help="Dotted node path (e.g. metadata.topics.0) to order spiral "
+        "slots by, forming one contiguous sector per group. Off by default.",
+    )
+    parser.add_argument(
+        "--group-fallback",
+        default=None,
+        help="Dotted node path used when --group-by resolves empty "
+        "(e.g. category).",
+    )
+    args = parser.parse_args(argv)
+
+    data_file = Path(args.data_file).resolve()
+    layout_file = Path(args.layout_file).resolve()
+
+    node_count, elapsed = recompute(
+        data_file, layout_file, group_by=args.group_by, group_fallback=args.group_fallback
+    )
+    size_kb = layout_file.stat().st_size / 1024
+    print(
+        f"layout: {node_count} nodes -> {layout_file} "
+        f"({size_kb:.1f} KB) in {elapsed * 1000:.0f} ms",
+        file=sys.stderr,
+    )
+
+
+if __name__ == "__main__":
+    main()

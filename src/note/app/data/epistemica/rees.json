@@ -1,0 +1,3520 @@
+{
+  "title": "Reality Epistemic Element Set",
+  "abbr": "REES",
+  "generated": "2026-10-19",
+  "source": "converted from the rees.md decomposition table",
+  "guide": "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md",
+  "note": "epistemica/rees.md",
+  "orders": {
+    "epistemic": "The inquiry order: orientation, agency, target, access, representation, construction, operation, evaluation, communication, infrastructure, context.",
+    "ontic": "The parsed-reality order: segments, entities, processes, events, properties, relations, states, structures, causes.",
+    "reflexive": "Inquiry turned on itself: its own conditions, limits, and accounts."
+  },
+  "stats": {
+    "nodes": 426,
+    "groupings": 88,
+    "instances": 336,
+    "branches": 12,
+    "maxDepth": 6
+  },
+  "roots": [
+    {
+      "label": "Reality Inquiry",
+      "type": "Aggregate",
+      "kind": "root",
+      "order": "epistemic",
+      "description": "The organized inquiry system into reality: orientation, agency, target, access, representation, construction, operation, evaluation, communication, infrastructure, context, and its ontic ground.",
+      "children": [
+        {
+          "label": "Epistemic Orientation",
+          "type": "Epistemic Orientation",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: the directing structure of inquiry.",
+          "children": [
+            {
+              "label": "Epistemic Purpose",
+              "type": "Epistemic Purpose",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: intended ultimate effects and values.",
+              "children": [
+                {
+                  "label": "Understanding Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: make a target intelligible in itself, independent of immediate use.",
+                  "children": []
+                },
+                {
+                  "label": "Explanation Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: identify the cause, mechanism, or relation that produces an outcome.",
+                  "children": []
+                },
+                {
+                  "label": "Prediction Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: forecast behavior or outcomes under stated conditions.",
+                  "children": []
+                },
+                {
+                  "label": "Intervention Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: support acting on the target with a predictable effect.",
+                  "children": []
+                },
+                {
+                  "label": "Compression Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: shorten description while preserving explanatory and predictive power.",
+                  "children": []
+                },
+                {
+                  "label": "Design Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: specify an artifact or arrangement that would satisfy a requirement.",
+                  "children": []
+                },
+                {
+                  "label": "Evaluation Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: judge performance, standing, or effectiveness against criteria.",
+                  "children": []
+                },
+                {
+                  "label": "Exploration Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: chart an unfamiliar target whose structure is not yet known.",
+                  "children": []
+                },
+                {
+                  "label": "Communication Purpose",
+                  "type": "Epistemic Purpose",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Telos: make a representation understandable and adoptable by others.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Question",
+              "type": "Epistemic Question",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: formulated questions directing inquiry toward a gap.",
+              "children": [
+                {
+                  "label": "Universal What-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of identity or composition: what is the target made of, what kind is it.",
+                  "children": []
+                },
+                {
+                  "label": "Universal Why-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of cause or reason: why does the target behave as it does.",
+                  "children": []
+                },
+                {
+                  "label": "Universal How-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of mechanism or procedure: how does the target produce its effect.",
+                  "children": []
+                },
+                {
+                  "label": "Universal Whether-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of existence or standing: whether the target, relation, or effect obtains.",
+                  "children": []
+                },
+                {
+                  "label": "Universal How-Much-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of magnitude: how much of a quantity the target carries.",
+                  "children": []
+                },
+                {
+                  "label": "Universal What-If-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of counterfactual: what would happen were a condition changed.",
+                  "children": []
+                },
+                {
+                  "label": "Universal Which-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of selection: which among alternatives is the case or the best.",
+                  "children": []
+                },
+                {
+                  "label": "Universal When-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of temporal order: when an event occurs or a condition holds.",
+                  "children": []
+                },
+                {
+                  "label": "Universal Where-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of spatial or structural location: where the target sits.",
+                  "children": []
+                },
+                {
+                  "label": "Universal Who-Question",
+                  "type": "Epistemic Question",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Question of agency: who or what performs, bears, or is affected.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Goal",
+              "type": "Epistemic Goal",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: desired epistemic outcomes toward which inquiry is directed.",
+              "children": [
+                {
+                  "label": "Descriptive Goal",
+                  "type": "Epistemic Goal",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Goal: a warranted description of the target that survives checking.",
+                  "children": []
+                },
+                {
+                  "label": "Explanatory Goal",
+                  "type": "Epistemic Goal",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Goal: an account that makes the target's behavior follow from its structure.",
+                  "children": []
+                },
+                {
+                  "label": "Predictive Goal",
+                  "type": "Epistemic Goal",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Goal: an artifact whose forecasts match future observations within tolerance.",
+                  "children": []
+                },
+                {
+                  "label": "Prescriptive Goal",
+                  "type": "Epistemic Goal",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Goal: a warranted recommendation for action or design.",
+                  "children": []
+                },
+                {
+                  "label": "Instrumental Goal",
+                  "type": "Epistemic Goal",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Goal: a usable tool, method, or representation for further inquiry.",
+                  "children": []
+                },
+                {
+                  "label": "Reflexive Goal",
+                  "type": "Epistemic Goal",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Goal: an account of inquiry's own conditions and limits.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Gap",
+              "type": "Epistemic Gap",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: deficiencies in available knowledge relative to the target.",
+              "children": [
+                {
+                  "label": "Missing Concept Gap",
+                  "type": "Epistemic Gap",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Gap: no concept yet parses a recurring aspect of the target.",
+                  "children": []
+                },
+                {
+                  "label": "Missing Data Gap",
+                  "type": "Epistemic Gap",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Gap: the observations needed to decide a question do not exist.",
+                  "children": []
+                },
+                {
+                  "label": "Missing Mechanism Gap",
+                  "type": "Epistemic Gap",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Gap: the process producing an observed regularity is unidentified.",
+                  "children": []
+                },
+                {
+                  "label": "Contradiction Gap",
+                  "type": "Epistemic Gap",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Gap: available descriptions conflict and demand resolution.",
+                  "children": []
+                },
+                {
+                  "label": "Measurement Gap",
+                  "type": "Epistemic Gap",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Gap: the target is not yet registrable under any available regime.",
+                  "children": []
+                },
+                {
+                  "label": "Theory Gap",
+                  "type": "Epistemic Gap",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Gap: no organizing account covers a range of known results.",
+                  "children": []
+                },
+                {
+                  "label": "Replication Gap",
+                  "type": "Epistemic Gap",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Gap: a reported result has not been independently reproduced.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Role",
+              "type": "Epistemic Role",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: functions an element or agent performs within the inquiry.",
+              "children": [
+                {
+                  "label": "Principal Inquirer",
+                  "type": "Epistemic Role",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Role: bears the question and is accountable for the inquiry's standing.",
+                  "children": []
+                },
+                {
+                  "label": "Domain Expert",
+                  "type": "Epistemic Role",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Role: holds the local concepts and precedents of the target.",
+                  "children": []
+                },
+                {
+                  "label": "Methodologist",
+                  "type": "Epistemic Role",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Role: guards the fit between question, operation, and evidence.",
+                  "children": []
+                },
+                {
+                  "label": "Adversarial Reviewer",
+                  "type": "Epistemic Role",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Role: attempts to falsify or break the construction.",
+                  "children": []
+                },
+                {
+                  "label": "Synthesizer",
+                  "type": "Epistemic Role",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Role: merges partial results into a coherent account.",
+                  "children": []
+                },
+                {
+                  "label": "Steward",
+                  "type": "Epistemic Role",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Role: preserves records, data, and provenance across the inquiry.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Scope",
+              "type": "Epistemic Scope",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: the declared extent and stopping of the inquiry.",
+              "children": [
+                {
+                  "label": "Declared Scope",
+                  "type": "Epistemic Scope",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "The aspects of reality the inquiry takes as relevant.",
+                  "children": []
+                },
+                {
+                  "label": "Stopping Criterion",
+                  "type": "Epistemic Scope",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "The condition under which expansion of a branch is judged sufficient.",
+                  "children": []
+                },
+                {
+                  "label": "Boundary Condition",
+                  "type": "Epistemic Scope",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "The domain of validity within which results are asserted to hold.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Agency",
+          "type": "Epistemic Agency",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: entities and organized activities performing epistemic operations.",
+          "children": [
+            {
+              "label": "Epistemic Agent",
+              "type": "Epistemic Agent",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: entities capable of performing epistemic operations.",
+              "children": [
+                {
+                  "label": "Inquirer",
+                  "type": "Epistemic Agent",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Agent that poses questions and seeks warranted answers.",
+                  "children": []
+                },
+                {
+                  "label": "Observer",
+                  "type": "Epistemic Agent",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Agent that registers aspects of the target under a regime.",
+                  "children": []
+                },
+                {
+                  "label": "Modeler",
+                  "type": "Epistemic Agent",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Agent that builds and calibrates representations of the target.",
+                  "children": []
+                },
+                {
+                  "label": "Experimenter",
+                  "type": "Epistemic Agent",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Agent that arranges conditions to elicit a discriminating effect.",
+                  "children": []
+                },
+                {
+                  "label": "Instrument",
+                  "type": "Epistemic Agent",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Non-human agent that couples a target to a registration.",
+                  "children": []
+                },
+                {
+                  "label": "Critic",
+                  "type": "Epistemic Agent",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Agent that evaluates constructions against standards.",
+                  "children": []
+                },
+                {
+                  "label": "Collective Inquirer",
+                  "type": "Epistemic Agent",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Organized group whose agency exceeds any member's.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Act",
+              "type": "Epistemic Act",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: discrete epistemic actions.",
+              "children": [
+                {
+                  "label": "Observing Act",
+                  "type": "Epistemic Act",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One act of registering an aspect of the target.",
+                  "children": []
+                },
+                {
+                  "label": "Measuring Act",
+                  "type": "Epistemic Act",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One act assigning a value under a unit and procedure.",
+                  "children": []
+                },
+                {
+                  "label": "Formulating Act",
+                  "type": "Epistemic Act",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One act giving a question or statement explicit form.",
+                  "children": []
+                },
+                {
+                  "label": "Inferring Act",
+                  "type": "Epistemic Act",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One act deriving a statement from premises.",
+                  "children": []
+                },
+                {
+                  "label": "Modeling Act",
+                  "type": "Epistemic Act",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One act constructing or adjusting a representation.",
+                  "children": []
+                },
+                {
+                  "label": "Testing Act",
+                  "type": "Epistemic Act",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One act confronting a construction with the target.",
+                  "children": []
+                },
+                {
+                  "label": "Recording Act",
+                  "type": "Epistemic Act",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One act committing content to a durable medium.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Activity",
+              "type": "Epistemic Activity",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: organized sequences of acts toward a purpose.",
+              "children": [
+                {
+                  "label": "Observing",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Sustained registration of a target under a regime.",
+                  "children": []
+                },
+                {
+                  "label": "Measuring",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Repeated assignment of values under a unit system.",
+                  "children": []
+                },
+                {
+                  "label": "Modeling",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Iterated construction, calibration, and revision of a model.",
+                  "children": []
+                },
+                {
+                  "label": "Experimenting",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Planned manipulation and comparison of conditions.",
+                  "children": []
+                },
+                {
+                  "label": "Formalizing",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Translation of informal content into a formal system.",
+                  "children": []
+                },
+                {
+                  "label": "Proving",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Derivation of claims from stated axioms by licensed rules.",
+                  "children": []
+                },
+                {
+                  "label": "Validating",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Confrontation of a construction with criteria and evidence.",
+                  "children": []
+                },
+                {
+                  "label": "Reviewing",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Independent assessment of a construction by peers.",
+                  "children": []
+                },
+                {
+                  "label": "Curating",
+                  "type": "Epistemic Activity",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Selection, description, and preservation of records and data.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Target",
+          "type": "Epistemic Target",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: the addressed domain of inquiry.",
+          "children": [
+            {
+              "label": "Target Domain",
+              "type": "Target Domain",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: bounded domains selected as the subject of analysis.",
+              "children": [
+                {
+                  "label": "Natural Domain",
+                  "type": "Target Domain",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Domain of observer-independent entities and processes.",
+                  "children": []
+                },
+                {
+                  "label": "Formal Domain",
+                  "type": "Target Domain",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Domain of abstract structures studied for internal necessity.",
+                  "children": []
+                },
+                {
+                  "label": "Artificial Domain",
+                  "type": "Target Domain",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Domain of designed artifacts and their behavior.",
+                  "children": []
+                },
+                {
+                  "label": "Cognitive Domain",
+                  "type": "Target Domain",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Domain of representation, inference, and decision.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Target Segment",
+              "type": "Target Segment",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: delimited portions of a domain under study.",
+              "children": [
+                {
+                  "label": "Selected Segment",
+                  "type": "Target Segment",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bounded portion of reality cut out as the unit of analysis.",
+                  "children": []
+                },
+                {
+                  "label": "Sample",
+                  "type": "Target Segment",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Finite selection drawn from a segment under a sampling rule.",
+                  "children": []
+                },
+                {
+                  "label": "Population",
+                  "type": "Target Segment",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "The whole from which a sample is drawn and to which results generalize.",
+                  "children": []
+                },
+                {
+                  "label": "Boundary Case",
+                  "type": "Target Segment",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Segment at the edge of validity where the account is expected to strain.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Observable",
+              "type": "Observable",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: features registrable under an observational regime.",
+              "children": [
+                {
+                  "label": "Measurable Property",
+                  "type": "Observable",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Feature admitting assignment of a value under a unit.",
+                  "children": []
+                },
+                {
+                  "label": "Detected Event",
+                  "type": "Observable",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Occurrence registered as having happened, with place and time.",
+                  "children": []
+                },
+                {
+                  "label": "Relational Feature",
+                  "type": "Observable",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Feature of a pair or ensemble rather than of a single entity.",
+                  "children": []
+                },
+                {
+                  "label": "Latent Feature",
+                  "type": "Observable",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Feature not directly registrable but inferable from observables.",
+                  "children": []
+                },
+                {
+                  "label": "Proxy",
+                  "type": "Observable",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Registrable stand-in used when the target feature resists direct registration.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Object",
+              "type": "Epistemic Object",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: constituted objects of inquiry.",
+              "children": [
+                {
+                  "label": "Constituted Object",
+                  "type": "Epistemic Object",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Target as recast into the objects the inquiry can operate on.",
+                  "children": []
+                },
+                {
+                  "label": "Unit of Analysis",
+                  "type": "Epistemic Object",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "The entity, act, or event at which variables are measured.",
+                  "children": []
+                },
+                {
+                  "label": "Case",
+                  "type": "Epistemic Object",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "One bounded instance of the unit prepared for comparison.",
+                  "children": []
+                },
+                {
+                  "label": "Variable",
+                  "type": "Epistemic Object",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Constructed property taking distinguishable values across cases.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Access",
+          "type": "Epistemic Access",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: means by which the target becomes registrable.",
+          "children": [
+            {
+              "label": "Observation Interface",
+              "type": "Observation Interface",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: boundary mechanisms coupling target to system.",
+              "children": [
+                {
+                  "label": "Measurement Interface",
+                  "type": "Observation Interface",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Physical arrangement transducing a property into a reading.",
+                  "children": []
+                },
+                {
+                  "label": "Survey Interface",
+                  "type": "Observation Interface",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Elicitation arrangement producing responses from a subject.",
+                  "children": []
+                },
+                {
+                  "label": "Instrument Interface",
+                  "type": "Observation Interface",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Device-mediated coupling yielding a machine-readable signal.",
+                  "children": []
+                },
+                {
+                  "label": "Simulation Interface",
+                  "type": "Observation Interface",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Sampling of a constructed system in place of the target.",
+                  "children": []
+                },
+                {
+                  "label": "Sensory Interface",
+                  "type": "Observation Interface",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Unmediated register an agent can perform without apparatus.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Observation Encoding",
+              "type": "Observation Encoding",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: encodings applied at the point of registration.",
+              "children": [
+                {
+                  "label": "Unit Encoding",
+                  "type": "Observation Encoding",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Binding of a registered magnitude to a unit of measure.",
+                  "children": []
+                },
+                {
+                  "label": "Scale Encoding",
+                  "type": "Observation Encoding",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Mapping of a registered property onto a scale type.",
+                  "children": []
+                },
+                {
+                  "label": "Timestamp Encoding",
+                  "type": "Observation Encoding",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Binding of a registration to a time reference.",
+                  "children": []
+                },
+                {
+                  "label": "Location Encoding",
+                  "type": "Observation Encoding",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Binding of a registration to a spatial or structural reference.",
+                  "children": []
+                },
+                {
+                  "label": "Calibration Encoding",
+                  "type": "Observation Encoding",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Correction of a reading by comparison to a standard.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Observation Record",
+              "type": "Observation Record",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: registered representations of observed aspects.",
+              "children": [
+                {
+                  "label": "Measurement Record",
+                  "type": "Observation Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A reading with unit, instrument, and condition noted.",
+                  "children": []
+                },
+                {
+                  "label": "Event Log",
+                  "type": "Observation Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Ordered record of detected occurrences.",
+                  "children": []
+                },
+                {
+                  "label": "Response Record",
+                  "type": "Observation Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Record of a subject's elicited answer under a survey regime.",
+                  "children": []
+                },
+                {
+                  "label": "Instrument Trace",
+                  "type": "Observation Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Raw signal retained by a device before interpretation.",
+                  "children": []
+                },
+                {
+                  "label": "Field Note",
+                  "type": "Observation Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Contemporaneous prose registration by an observer.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Representation",
+          "type": "Epistemic Representation",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: structures through which content is encoded and manipulated.",
+          "children": [
+            {
+              "label": "Representational System",
+              "type": "Representational System",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: sign systems within which representations are formed.",
+              "children": [
+                {
+                  "label": "Natural Language",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of spoken and written signs carrying everyday description.",
+                  "children": []
+                },
+                {
+                  "label": "Mathematical System",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of formal symbols and rules for structure and quantity.",
+                  "children": []
+                },
+                {
+                  "label": "Logical System",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of formal connectives and inference rules.",
+                  "children": []
+                },
+                {
+                  "label": "Diagrammatic System",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of spatial signs depicting structure and relation.",
+                  "children": []
+                },
+                {
+                  "label": "Statistical System",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of probabilistic and sampling constructs.",
+                  "children": []
+                },
+                {
+                  "label": "Computational System",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of executable rules and data structures.",
+                  "children": []
+                },
+                {
+                  "label": "Measurement System",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of units, scales, and their conventions.",
+                  "children": []
+                },
+                {
+                  "label": "Representation Element",
+                  "type": "Representation Element",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: combinable constituents of a system.",
+                  "children": [
+                    {
+                      "label": "Symbol",
+                      "type": "Representation Element",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Atomic sign bearing content within the system.",
+                      "children": []
+                    },
+                    {
+                      "label": "Expression",
+                      "type": "Representation Element",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Well-formed combination of symbols denoting content.",
+                      "children": []
+                    },
+                    {
+                      "label": "Variable Symbol",
+                      "type": "Representation Element",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Sign ranging over values in a domain.",
+                      "children": []
+                    },
+                    {
+                      "label": "Operator",
+                      "type": "Representation Element",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Sign combining expressions into new expressions.",
+                      "children": []
+                    },
+                    {
+                      "label": "Graph",
+                      "type": "Representation Element",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Sign of relations rendered as points and edges.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Constitutive Substrate",
+                  "type": "Constitutive Substrate",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: rules and structures constituting the system.",
+                  "children": [
+                    {
+                      "label": "Convention",
+                      "type": "Convention",
+                      "kind": "grouping",
+                      "order": "epistemic",
+                      "description": "Grouping: stabilized notational choices.",
+                      "children": [
+                        {
+                          "label": "Notation Convention",
+                          "type": "Convention",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Agreed way of writing the system's expressions.",
+                          "children": []
+                        },
+                        {
+                          "label": "Unit Convention",
+                          "type": "Convention",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Agreed magnitude and definition of a base unit.",
+                          "children": []
+                        },
+                        {
+                          "label": "Reference Frame",
+                          "type": "Convention",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Agreed origin and axes against which quantities are stated.",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Formation",
+                      "type": "Formation",
+                      "kind": "grouping",
+                      "order": "epistemic",
+                      "description": "Grouping: rules of well-formed combination.",
+                      "children": [
+                        {
+                          "label": "Syntax Rule",
+                          "type": "Formation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Rule stating which symbol strings are well formed.",
+                          "children": []
+                        },
+                        {
+                          "label": "Type Discipline",
+                          "type": "Formation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Rules constraining combinations by kind of content.",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Foundation",
+                      "type": "Foundation",
+                      "kind": "grouping",
+                      "order": "epistemic",
+                      "description": "Grouping: axioms and foundings of the system.",
+                      "children": [
+                        {
+                          "label": "Axiom Set",
+                          "type": "Foundation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Undemonstrated assumptions from which the system proceeds.",
+                          "children": []
+                        },
+                        {
+                          "label": "Primitive Notion",
+                          "type": "Foundation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Undefined term the system takes as given.",
+                          "children": []
+                        },
+                        {
+                          "label": "Definition",
+                          "type": "Foundation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Introduced term fixed by stating its content in prior terms.",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Interpretation",
+                      "type": "Interpretation",
+                      "kind": "grouping",
+                      "order": "epistemic",
+                      "description": "Grouping: meaning assignments to the system.",
+                      "children": [
+                        {
+                          "label": "Model-Theoretic Interpretation",
+                          "type": "Interpretation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Assignment of the system's symbols to elements of a structure.",
+                          "children": []
+                        },
+                        {
+                          "label": "Physical Interpretation",
+                          "type": "Interpretation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Assignment of formal quantities to measurable properties.",
+                          "children": []
+                        },
+                        {
+                          "label": "Operational Interpretation",
+                          "type": "Interpretation",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Assignment of a term to the operations that decide it.",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Construction",
+          "type": "Epistemic Construction",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: artifacts produced to organize, preserve, explain, or extend knowledge.",
+          "children": [
+            {
+              "label": "Description",
+              "type": "Description",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: structured affirmations about a segment of reality.",
+              "children": [
+                {
+                  "label": "Descriptive Statement",
+                  "type": "Description",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "An affirmation asserting what the target is or has.",
+                  "children": []
+                },
+                {
+                  "label": "Formal Description",
+                  "type": "Description",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A description carried in a formal system's expressions.",
+                  "children": []
+                },
+                {
+                  "label": "Statistical Description",
+                  "type": "Description",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A description by distribution, moment, or trend.",
+                  "children": []
+                },
+                {
+                  "label": "Qualitative Description",
+                  "type": "Description",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A description by category, kind, or aspect without magnitude.",
+                  "children": []
+                },
+                {
+                  "label": "Comparative Description",
+                  "type": "Description",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A description asserting a relation between two target states.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Concept",
+              "type": "Concept",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: constituents of thought that denote structures of reality.",
+              "children": [
+                {
+                  "label": "Relational Concept",
+                  "type": "Concept",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Concept denoting a relation among entities or processes.",
+                  "children": []
+                },
+                {
+                  "label": "Quantity Concept",
+                  "type": "Concept",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Concept denoting a measurable magnitude.",
+                  "children": []
+                },
+                {
+                  "label": "Process Concept",
+                  "type": "Concept",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Concept denoting a change or sequence over time.",
+                  "children": []
+                },
+                {
+                  "label": "Boundary Concept",
+                  "type": "Concept",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Concept marking a distinction the inquiry depends on.",
+                  "children": []
+                },
+                {
+                  "label": "Typology Concept",
+                  "type": "Concept",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Concept organizing instances into recognized kinds.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Model",
+              "type": "Model",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: constructed representations manipulated in place of the target.",
+              "children": [
+                {
+                  "label": "Deterministic Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model whose state fixes its future exactly.",
+                  "children": []
+                },
+                {
+                  "label": "Stochastic Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model whose outcomes are probabilistically distributed.",
+                  "children": []
+                },
+                {
+                  "label": "Mechanistic Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model exhibiting the arrangement that produces the effect.",
+                  "children": []
+                },
+                {
+                  "label": "Phenomenological Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model fitting behavior without claiming the mechanism.",
+                  "children": []
+                },
+                {
+                  "label": "Statistical Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model expressing how data are generated.",
+                  "children": []
+                },
+                {
+                  "label": "Simulation Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model run forward to generate synthetic states.",
+                  "children": []
+                },
+                {
+                  "label": "Causal Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model asserting which variables act on which.",
+                  "children": []
+                },
+                {
+                  "label": "Calibrated Model",
+                  "type": "Model",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Model whose parameters have been set against data.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Explanation",
+              "type": "Explanation",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: descriptions clarifying cause, mechanism, or relation.",
+              "children": [
+                {
+                  "label": "Causal Explanation",
+                  "type": "Explanation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Explanation citing a cause and its effect.",
+                  "children": []
+                },
+                {
+                  "label": "Mechanistic Explanation",
+                  "type": "Explanation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Explanation citing the arrangement that generates the effect.",
+                  "children": []
+                },
+                {
+                  "label": "Functional Explanation",
+                  "type": "Explanation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Explanation citing the role a part plays in a whole.",
+                  "children": []
+                },
+                {
+                  "label": "Statistical Explanation",
+                  "type": "Explanation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Explanation citing a distribution or propensity.",
+                  "children": []
+                },
+                {
+                  "label": "Deductive Explanation",
+                  "type": "Explanation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Explanation deriving the outcome from law and condition.",
+                  "children": []
+                },
+                {
+                  "label": "Narrative Explanation",
+                  "type": "Explanation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Explanation ordering events into an intelligible sequence.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Prediction",
+              "type": "Prediction",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: claims about not-yet-registered states of the target.",
+              "children": [
+                {
+                  "label": "Point Prediction",
+                  "type": "Prediction",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A single value asserted for a future state.",
+                  "children": []
+                },
+                {
+                  "label": "Interval Prediction",
+                  "type": "Prediction",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A range asserted to contain the future value.",
+                  "children": []
+                },
+                {
+                  "label": "Probabilistic Prediction",
+                  "type": "Prediction",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A distribution asserted over future outcomes.",
+                  "children": []
+                },
+                {
+                  "label": "Conditional Prediction",
+                  "type": "Prediction",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A prediction qualified by an assumed condition.",
+                  "children": []
+                },
+                {
+                  "label": "Extrapolative Prediction",
+                  "type": "Prediction",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "A prediction beyond the range of the data.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Theory",
+              "type": "Theory",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: organizing accounts binding many results under few principles.",
+              "children": [
+                {
+                  "label": "Axiomatic Theory",
+                  "type": "Theory",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Theory whose claims follow from stated axioms.",
+                  "children": []
+                },
+                {
+                  "label": "Phenomenological Theory",
+                  "type": "Theory",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Theory organizing regularities at the observable level.",
+                  "children": []
+                },
+                {
+                  "label": "Effective Theory",
+                  "type": "Theory",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Theory valid within a declared range and scale.",
+                  "children": []
+                },
+                {
+                  "label": "Field Theory",
+                  "type": "Theory",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Theory stated over a continuum of states.",
+                  "children": []
+                },
+                {
+                  "label": "Theory Family",
+                  "type": "Theory",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Cluster of related theories over a shared domain.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Dataset",
+              "type": "Dataset",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: organized sets of records prepared for operation.",
+              "children": [
+                {
+                  "label": "Raw Dataset",
+                  "type": "Dataset",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Records as registered, before cleaning.",
+                  "children": []
+                },
+                {
+                  "label": "Processed Dataset",
+                  "type": "Dataset",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Records cleaned, aligned, and typed.",
+                  "children": []
+                },
+                {
+                  "label": "Derived Dataset",
+                  "type": "Dataset",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Records computed from other datasets.",
+                  "children": []
+                },
+                {
+                  "label": "Longitudinal Dataset",
+                  "type": "Dataset",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Records repeated over time for the same units.",
+                  "children": []
+                },
+                {
+                  "label": "Benchmark Dataset",
+                  "type": "Dataset",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Records fixed as a shared reference for comparison.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Record",
+              "type": "Record",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: durable single-item accounts kept for later use.",
+              "children": [
+                {
+                  "label": "Laboratory Record",
+                  "type": "Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Contemporaneous account of preparation and procedure.",
+                  "children": []
+                },
+                {
+                  "label": "Observation Notebook",
+                  "type": "Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Chronological register of observations and decisions.",
+                  "children": []
+                },
+                {
+                  "label": "Archival Record",
+                  "type": "Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Preserved item kept for provenance and later inquiry.",
+                  "children": []
+                },
+                {
+                  "label": "Provenance Record",
+                  "type": "Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Account of who produced what, when, and how.",
+                  "children": []
+                },
+                {
+                  "label": "Data Dictionary",
+                  "type": "Record",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Record defining fields, types, and units of a dataset.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Classification",
+              "type": "Classification",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: schemes sorting instances into kinds.",
+              "children": [
+                {
+                  "label": "Taxonomy",
+                  "type": "Classification",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Hierarchical scheme of kinds with inclusion relations.",
+                  "children": []
+                },
+                {
+                  "label": "Typology",
+                  "type": "Classification",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Scheme of kinds distinguished by declared criteria.",
+                  "children": []
+                },
+                {
+                  "label": "Ontology",
+                  "type": "Classification",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Scheme of kinds with explicit relations and constraints.",
+                  "children": []
+                },
+                {
+                  "label": "Coding Scheme",
+                  "type": "Classification",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Scheme binding categories to symbols for tabulation.",
+                  "children": []
+                },
+                {
+                  "label": "Facet Scheme",
+                  "type": "Classification",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Scheme combining independent dimensions of classification.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Narrative",
+              "type": "Narrative",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: ordered accounts making a course of events intelligible.",
+              "children": [
+                {
+                  "label": "Chronology",
+                  "type": "Narrative",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Account ordering events in time.",
+                  "children": []
+                },
+                {
+                  "label": "Case Study",
+                  "type": "Narrative",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Account of one bounded instance in depth.",
+                  "children": []
+                },
+                {
+                  "label": "Scenario",
+                  "type": "Narrative",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Account of a possible course under stated assumptions.",
+                  "children": []
+                },
+                {
+                  "label": "Synthesis Review",
+                  "type": "Narrative",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Account merging many results into a standing.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Operation",
+          "type": "Epistemic Operation",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: operations and procedures transforming epistemic content.",
+          "children": [
+            {
+              "label": "Action",
+              "type": "Action",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: operations directly transforming, comparing, or deriving content.",
+              "children": [
+                {
+                  "label": "Reckoning",
+                  "type": "Reckoning",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: rule-governed transformation of represented quantities.",
+                  "children": [
+                    {
+                      "label": "Procedure",
+                      "type": "Procedure",
+                      "kind": "grouping",
+                      "order": "epistemic",
+                      "description": "Grouping: ordered routines of reckoning.",
+                      "children": [
+                        {
+                          "label": "Arithmetic Routine",
+                          "type": "Procedure",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Ordered place-based summation and multiplication.",
+                          "children": []
+                        },
+                        {
+                          "label": "Algebraic Manipulation",
+                          "type": "Procedure",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Symbolic rearrangement preserving equality.",
+                          "children": []
+                        },
+                        {
+                          "label": "Numerical Integration",
+                          "type": "Procedure",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Approximation of a continuum by finite steps.",
+                          "children": []
+                        },
+                        {
+                          "label": "Symbolic Differentiation",
+                          "type": "Procedure",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Rule-based derivation of rates of change.",
+                          "children": []
+                        },
+                        {
+                          "label": "Statistical Estimation",
+                          "type": "Procedure",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Fitting parameters to data under a model.",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Comparison",
+                  "type": "Action",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Operational act judging relation among content.",
+                  "children": []
+                },
+                {
+                  "label": "Measurement Operation",
+                  "type": "Action",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Act assigning a value under a unit and procedure.",
+                  "children": []
+                },
+                {
+                  "label": "Transformation",
+                  "type": "Action",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Act changing the form of content while preserving what matters.",
+                  "children": []
+                },
+                {
+                  "label": "Retrieval",
+                  "type": "Action",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Act locating content already held.",
+                  "children": []
+                },
+                {
+                  "label": "Search",
+                  "type": "Action",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Act exploring a space of candidates for content meeting a condition.",
+                  "children": []
+                },
+                {
+                  "label": "Inference",
+                  "type": "Inference",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: derivations from premises.",
+                  "children": [
+                    {
+                      "label": "Deduction",
+                      "type": "Deduction",
+                      "kind": "grouping",
+                      "order": "epistemic",
+                      "description": "Grouping: necessary derivations from premises.",
+                      "children": [
+                        {
+                          "label": "Proof by Induction",
+                          "type": "Deduction",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Base and step deriving a universal claim.",
+                          "children": []
+                        },
+                        {
+                          "label": "Proof by Contradiction",
+                          "type": "Deduction",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Assumption of the contrary deriving an impossibility.",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Abduction",
+                      "type": "Inference",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Inference to the best available explanation.",
+                      "children": []
+                    },
+                    {
+                      "label": "Analogy",
+                      "type": "Inference",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Inference drawing on structural sameness across domains.",
+                      "children": []
+                    },
+                    {
+                      "label": "Statistical Inference",
+                      "type": "Inference",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Inference from sample to population under a model.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Computation",
+                  "type": "Computation",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: procedures executed over data.",
+                  "children": [
+                    {
+                      "label": "Algorithm",
+                      "type": "Computation",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Finite procedure deciding or producing an output.",
+                      "children": []
+                    },
+                    {
+                      "label": "Numerical Scheme",
+                      "type": "Computation",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Discrete rule approximating a continuous process.",
+                      "children": []
+                    },
+                    {
+                      "label": "Simulation Run",
+                      "type": "Computation",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "One forward execution of a simulation model.",
+                      "children": []
+                    },
+                    {
+                      "label": "Optimization Routine",
+                      "type": "Computation",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Procedure seeking an extremum of an objective.",
+                      "children": []
+                    },
+                    {
+                      "label": "Monte Carlo Estimate",
+                      "type": "Computation",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Estimate from random sampling.",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Organization",
+              "type": "Organization",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: organization of actions into reproducible structures.",
+              "children": [
+                {
+                  "label": "Method",
+                  "type": "Method",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: generalized ways of proceeding.",
+                  "children": [
+                    {
+                      "label": "Experimental Method",
+                      "type": "Method",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Controlled variation to isolate an effect.",
+                      "children": []
+                    },
+                    {
+                      "label": "Comparative Method",
+                      "type": "Method",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Systematic contrast across cases.",
+                      "children": []
+                    },
+                    {
+                      "label": "Modeling Method",
+                      "type": "Method",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Iterated construction and revision of models.",
+                      "children": []
+                    },
+                    {
+                      "label": "Statistical Method",
+                      "type": "Method",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Design and analysis under probabilistic assumptions.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Procedure",
+                  "type": "Procedure",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: fixed ordered steps.",
+                  "children": [
+                    {
+                      "label": "Protocol",
+                      "type": "Procedure",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Steps fixed in advance for repeatability.",
+                      "children": []
+                    },
+                    {
+                      "label": "Calibration Procedure",
+                      "type": "Procedure",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Steps setting an instrument against a standard.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Principle",
+                  "type": "Principle",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: rules guiding operation.",
+                  "children": [
+                    {
+                      "label": "Conservation Principle",
+                      "type": "Principle",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Invariance constraining admissible transformations.",
+                      "children": []
+                    },
+                    {
+                      "label": "Symmetry Principle",
+                      "type": "Principle",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Invariance under a change of description.",
+                      "children": []
+                    },
+                    {
+                      "label": "Parsimony Principle",
+                      "type": "Principle",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Prefer the account with fewest assumptions.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Workflow",
+                  "type": "Workflow",
+                  "kind": "grouping",
+                  "order": "epistemic",
+                  "description": "Grouping: coordinated multi-step pipelines.",
+                  "children": [
+                    {
+                      "label": "Data Pipeline",
+                      "type": "Workflow",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Sequence from registration through processing to use.",
+                      "children": []
+                    },
+                    {
+                      "label": "Research Programme",
+                      "type": "Workflow",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Long-horizon organization of related inquiries.",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Evaluation",
+          "type": "Epistemic Evaluation",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: evaluative processes assessing constructions and operations.",
+          "children": [
+            {
+              "label": "Epistemic Standard",
+              "type": "Epistemic Standard",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: standards by which content is judged.",
+              "children": [
+                {
+                  "label": "Accuracy Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if close to the target value.",
+                  "children": []
+                },
+                {
+                  "label": "Precision Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if its spread is bounded.",
+                  "children": []
+                },
+                {
+                  "label": "Reproducibility Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if reobtainable by others.",
+                  "children": []
+                },
+                {
+                  "label": "Validity Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if it measures what it claims.",
+                  "children": []
+                },
+                {
+                  "label": "Reliability Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if consistent across occasions.",
+                  "children": []
+                },
+                {
+                  "label": "Parsimony Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if it does not multiply assumptions.",
+                  "children": []
+                },
+                {
+                  "label": "Falsifiability Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if it forbids some observation.",
+                  "children": []
+                },
+                {
+                  "label": "Robustness Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only if it survives variation of assumptions.",
+                  "children": []
+                },
+                {
+                  "label": "Generality Standard",
+                  "type": "Epistemic Standard",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content stands only within its declared boundary.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Criterion",
+              "type": "Epistemic Criterion",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: evaluated properties of content.",
+              "children": [
+                {
+                  "label": "Fidelity Criterion",
+                  "type": "Epistemic Criterion",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Degree to which a model reproduces the target's behavior.",
+                  "children": []
+                },
+                {
+                  "label": "Coverage Criterion",
+                  "type": "Epistemic Criterion",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Range of cases the account addresses.",
+                  "children": []
+                },
+                {
+                  "label": "Predictive Error Criterion",
+                  "type": "Epistemic Criterion",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Discrepancy between prediction and observation.",
+                  "children": []
+                },
+                {
+                  "label": "Consistency Criterion",
+                  "type": "Epistemic Criterion",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Freedom from internal contradiction.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Constraint",
+              "type": "Epistemic Constraint",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: limits on what can be evaluated or done.",
+              "children": [
+                {
+                  "label": "Computational Constraint",
+                  "type": "Epistemic Constraint",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bound on resources available to the operation.",
+                  "children": []
+                },
+                {
+                  "label": "Measurement Constraint",
+                  "type": "Epistemic Constraint",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bound on what a regime can register.",
+                  "children": []
+                },
+                {
+                  "label": "Ethical Constraint",
+                  "type": "Epistemic Constraint",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bound imposed by acceptable conduct.",
+                  "children": []
+                },
+                {
+                  "label": "Scope Constraint",
+                  "type": "Epistemic Constraint",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bound on the range the account may claim.",
+                  "children": []
+                },
+                {
+                  "label": "Resource Constraint",
+                  "type": "Epistemic Constraint",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bound on time, material, or money.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Error",
+              "type": "Error",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: deviations from the warranted value.",
+              "children": [
+                {
+                  "label": "Measurement Error",
+                  "type": "Error",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Deviation introduced by the registration interface.",
+                  "children": []
+                },
+                {
+                  "label": "Sampling Error",
+                  "type": "Error",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Deviation from drawing a finite sample.",
+                  "children": []
+                },
+                {
+                  "label": "Model Error",
+                  "type": "Error",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Deviation from the model's idealization.",
+                  "children": []
+                },
+                {
+                  "label": "Systematic Bias",
+                  "type": "Error",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Deviation that does not average out.",
+                  "children": []
+                },
+                {
+                  "label": "Random Noise",
+                  "type": "Error",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Deviation without assignable cause.",
+                  "children": []
+                },
+                {
+                  "label": "Rounding Error",
+                  "type": "Error",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Deviation from finite numerical representation.",
+                  "children": []
+                },
+                {
+                  "label": "Specification Error",
+                  "type": "Error",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Deviation from choosing the wrong model form.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Validation",
+              "type": "Validation",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: checks discharging doubt about content.",
+              "children": [
+                {
+                  "label": "Prediction Test",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Confrontation of a prediction with a withheld observation.",
+                  "children": []
+                },
+                {
+                  "label": "Replication",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Independent reobtainment of a reported result.",
+                  "children": []
+                },
+                {
+                  "label": "Intervention Test",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Alteration of a condition to see the predicted effect.",
+                  "children": []
+                },
+                {
+                  "label": "Cross-Validation",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Checking fit on data withheld from calibration.",
+                  "children": []
+                },
+                {
+                  "label": "Calibration Check",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Verification of an instrument against a standard.",
+                  "children": []
+                },
+                {
+                  "label": "Sensitivity Analysis",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Variation of inputs to gauge output dependence.",
+                  "children": []
+                },
+                {
+                  "label": "Robustness Check",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Reassessment under altered assumptions.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Feedback",
+              "type": "Feedback",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: evaluations returned to the inquiry.",
+              "children": [
+                {
+                  "label": "Model Revision",
+                  "type": "Feedback",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Adjustment of a model after a failed check.",
+                  "children": []
+                },
+                {
+                  "label": "Experimental Redesign",
+                  "type": "Feedback",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Change of regime after an uninformative result.",
+                  "children": []
+                },
+                {
+                  "label": "Standard Revision",
+                  "type": "Feedback",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Tightening or loosening of a standard after use.",
+                  "children": []
+                },
+                {
+                  "label": "Calibration Update",
+                  "type": "Feedback",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Correction of an interface after a calibration drift.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Communication",
+          "type": "Epistemic Communication",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: transmission, inscription, and coordination of content.",
+          "children": [
+            {
+              "label": "Epistemic Inscription",
+              "type": "Epistemic Inscription",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: persistent renderings of content.",
+              "children": [
+                {
+                  "label": "Table",
+                  "type": "Epistemic Inscription",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content ordered by named rows and columns.",
+                  "children": []
+                },
+                {
+                  "label": "Figure",
+                  "type": "Epistemic Inscription",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content rendered as a selected graphical form.",
+                  "children": []
+                },
+                {
+                  "label": "Diagram",
+                  "type": "Epistemic Inscription",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Content rendered as related spatial signs.",
+                  "children": []
+                },
+                {
+                  "label": "Notebook Entry",
+                  "type": "Epistemic Inscription",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Dated inscription within an inquiry's running log.",
+                  "children": []
+                },
+                {
+                  "label": "Annotation",
+                  "type": "Epistemic Inscription",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Note attached to an existing inscription.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Publication",
+              "type": "Epistemic Publication",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: released, citable content.",
+              "children": [
+                {
+                  "label": "Article",
+                  "type": "Epistemic Publication",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bounded published account of an inquiry.",
+                  "children": []
+                },
+                {
+                  "label": "Monograph",
+                  "type": "Epistemic Publication",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Book-length account of a domain or result.",
+                  "children": []
+                },
+                {
+                  "label": "Preprint",
+                  "type": "Epistemic Publication",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Account circulated before formal review.",
+                  "children": []
+                },
+                {
+                  "label": "Technical Report",
+                  "type": "Epistemic Publication",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Account prepared for a specific body or purpose.",
+                  "children": []
+                },
+                {
+                  "label": "Dataset Release",
+                  "type": "Epistemic Publication",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Public offering of a dataset with its dictionary.",
+                  "children": []
+                },
+                {
+                  "label": "Software Release",
+                  "type": "Epistemic Publication",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Public offering of an executable artifact.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Coordination",
+              "type": "Epistemic Coordination",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: exchange coordinating an inquiry.",
+              "children": [
+                {
+                  "label": "Memo",
+                  "type": "Epistemic Coordination",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Brief directed communication within a group.",
+                  "children": []
+                },
+                {
+                  "label": "Correspondence",
+                  "type": "Epistemic Coordination",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Sustained exchange between inquirers.",
+                  "children": []
+                },
+                {
+                  "label": "Conference Talk",
+                  "type": "Epistemic Coordination",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Oral presentation of a result to peers.",
+                  "children": []
+                },
+                {
+                  "label": "Issue Thread",
+                  "type": "Epistemic Coordination",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Running record of a problem and its resolution.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Exchange",
+              "type": "Epistemic Exchange",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: structured critical interchange.",
+              "children": [
+                {
+                  "label": "Peer Review",
+                  "type": "Epistemic Exchange",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Structured assessment of a construction by peers.",
+                  "children": []
+                },
+                {
+                  "label": "Seminar",
+                  "type": "Epistemic Exchange",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Recurring forum of presentation and critique.",
+                  "children": []
+                },
+                {
+                  "label": "Colloquium",
+                  "type": "Epistemic Exchange",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Formal gathering presenting current work.",
+                  "children": []
+                },
+                {
+                  "label": "Replication Report",
+                  "type": "Epistemic Exchange",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Published account attempting to reproduce a result.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Infrastructure",
+          "type": "Epistemic Infrastructure",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: material, computational, informational, institutional structures enabling inquiry.",
+          "children": [
+            {
+              "label": "Epistemic Tool",
+              "type": "Epistemic Tool",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: tools of the inquirer.",
+              "children": [
+                {
+                  "label": "Instrument",
+                  "type": "Epistemic Tool",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Device coupling a target to a registration.",
+                  "children": []
+                },
+                {
+                  "label": "Calculator",
+                  "type": "Epistemic Tool",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Device performing reckoning for the inquirer.",
+                  "children": []
+                },
+                {
+                  "label": "Software Tool",
+                  "type": "Epistemic Tool",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Executable artifact supporting a modeling or analytic task.",
+                  "children": []
+                },
+                {
+                  "label": "Notebook",
+                  "type": "Epistemic Tool",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bounded medium for running inscription.",
+                  "children": []
+                },
+                {
+                  "label": "Survey Kit",
+                  "type": "Epistemic Tool",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Instrument set for eliciting and recording responses.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Information Repository",
+              "type": "Information Repository",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: stored content made retrievable.",
+              "children": [
+                {
+                  "label": "Archive",
+                  "type": "Information Repository",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Long-term preserved collection with provenance.",
+                  "children": []
+                },
+                {
+                  "label": "Library",
+                  "type": "Information Repository",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Curated collection organized for consultation.",
+                  "children": []
+                },
+                {
+                  "label": "Database",
+                  "type": "Information Repository",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Structured store queried by a system.",
+                  "children": []
+                },
+                {
+                  "label": "Registry",
+                  "type": "Information Repository",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Authoritative list of items with identifiers.",
+                  "children": []
+                },
+                {
+                  "label": "Catalogue",
+                  "type": "Information Repository",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Described inventory of a collection.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Epistemic Institution",
+              "type": "Epistemic Institution",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: bodies sustaining inquiry.",
+              "children": [
+                {
+                  "label": "University",
+                  "type": "Epistemic Institution",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Body organizing teaching and research.",
+                  "children": []
+                },
+                {
+                  "label": "Laboratory",
+                  "type": "Epistemic Institution",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Bounded site instrumented for experiments.",
+                  "children": []
+                },
+                {
+                  "label": "Journal",
+                  "type": "Epistemic Institution",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Body reviewing and publishing accounts.",
+                  "children": []
+                },
+                {
+                  "label": "Funding Body",
+                  "type": "Epistemic Institution",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Body allocating resources to inquiry.",
+                  "children": []
+                },
+                {
+                  "label": "Standards Body",
+                  "type": "Epistemic Institution",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Body fixing conventions and reference values.",
+                  "children": []
+                },
+                {
+                  "label": "Learned Society",
+                  "type": "Epistemic Institution",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Body gathering practitioners of a domain.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Computational Substrate",
+              "type": "Computational Substrate",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: computational structures enabling operation.",
+              "children": [
+                {
+                  "label": "Hardware",
+                  "type": "Computational Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Physical machine executing operations.",
+                  "children": []
+                },
+                {
+                  "label": "Operating System",
+                  "type": "Computational Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Software layer managing execution and storage.",
+                  "children": []
+                },
+                {
+                  "label": "Programming Language",
+                  "type": "Computational Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Formal system for expressing executable procedures.",
+                  "children": []
+                },
+                {
+                  "label": "Version Control",
+                  "type": "Computational Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System recording the history of artifacts.",
+                  "children": []
+                },
+                {
+                  "label": "Compute Cluster",
+                  "type": "Computational Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Aggregated machines for large operations.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Material Substrate",
+              "type": "Material Substrate",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: physical resources sustaining inquiry.",
+              "children": [
+                {
+                  "label": "Physical Medium",
+                  "type": "Material Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Material bearing inscriptions and samples.",
+                  "children": []
+                },
+                {
+                  "label": "Energy Supply",
+                  "type": "Material Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Power required to run instruments and machines.",
+                  "children": []
+                },
+                {
+                  "label": "Reagent",
+                  "type": "Material Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Consumable material required by a procedure.",
+                  "children": []
+                },
+                {
+                  "label": "Facility",
+                  "type": "Material Substrate",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Built space and services hosting inquiry.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Context",
+          "type": "Epistemic Context",
+          "kind": "grouping",
+          "order": "epistemic",
+          "description": "Grouping: surrounding conditions within which inquiry is situated.",
+          "children": [
+            {
+              "label": "Epistemic Condition",
+              "type": "Epistemic Condition",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: conditions framing an inquiry.",
+              "children": [
+                {
+                  "label": "Data Availability Condition",
+                  "type": "Epistemic Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Whether the needed records exist and are reachable.",
+                  "children": []
+                },
+                {
+                  "label": "Tool Availability Condition",
+                  "type": "Epistemic Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Whether the needed instruments and software exist.",
+                  "children": []
+                },
+                {
+                  "label": "Regulatory Condition",
+                  "type": "Epistemic Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Legal and administrative constraints on the inquiry.",
+                  "children": []
+                },
+                {
+                  "label": "Publication Norm",
+                  "type": "Epistemic Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Accepted standards for releasing results.",
+                  "children": []
+                },
+                {
+                  "label": "Funding Condition",
+                  "type": "Epistemic Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Resources and their conditions of award.",
+                  "children": []
+                },
+                {
+                  "label": "Ethical Framework",
+                  "type": "Epistemic Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Norms governing acceptable treatment of subjects and data.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Historical Condition",
+              "type": "Historical Condition",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: the state of prior knowledge and tools at a time.",
+              "children": [
+                {
+                  "label": "Prior Knowledge State",
+                  "type": "Historical Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "What is already established when the inquiry begins.",
+                  "children": []
+                },
+                {
+                  "label": "Intellectual Tradition",
+                  "type": "Historical Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Inherited questions, methods, and standards.",
+                  "children": []
+                },
+                {
+                  "label": "Instrumental State of the Art",
+                  "type": "Historical Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "What current apparatus makes possible.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Social Condition",
+              "type": "Social Condition",
+              "kind": "grouping",
+              "order": "epistemic",
+              "description": "Grouping: the human setting of the inquiry.",
+              "children": [
+                {
+                  "label": "Community of Practice",
+                  "type": "Social Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "The peers who share and judge the inquiry's standards.",
+                  "children": []
+                },
+                {
+                  "label": "Institutional Incentive",
+                  "type": "Social Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Rewards shaping which questions are pursued.",
+                  "children": []
+                },
+                {
+                  "label": "Stakeholder Interest",
+                  "type": "Social Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Parties affected by or interested in the results.",
+                  "children": []
+                },
+                {
+                  "label": "Division of Cognitive Labour",
+                  "type": "Social Condition",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "Distribution of roles and expertise across the inquiry.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Ontic",
+          "type": "Ontic",
+          "kind": "grouping",
+          "order": "ontic",
+          "description": "Grouping: what exists, occurs, changes, or generates effects within a segment of reality.",
+          "children": [
+            {
+              "label": "Segment of Reality",
+              "type": "Segment of Reality",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: bounded portions of reality selected for inquiry.",
+              "children": [
+                {
+                  "label": "Domain Segment",
+                  "type": "Segment of Reality",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Region of reality picked out as the inquiry's domain.",
+                  "children": []
+                },
+                {
+                  "label": "Boundary Region",
+                  "type": "Segment of Reality",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Region at the edge of a domain where a concept strains.",
+                  "children": []
+                },
+                {
+                  "label": "Scale Layer",
+                  "type": "Segment of Reality",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Level of organization from micro to macro.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Entity",
+              "type": "Entity",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: what exists and bears properties.",
+              "children": [
+                {
+                  "label": "Substance",
+                  "type": "Entity",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Entity persisting through change.",
+                  "children": []
+                },
+                {
+                  "label": "Object",
+                  "type": "Entity",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Bounded entity with boundaries and parts.",
+                  "children": []
+                },
+                {
+                  "label": "System",
+                  "type": "Entity",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Organized ensemble of interacting parts.",
+                  "children": []
+                },
+                {
+                  "label": "Field",
+                  "type": "Entity",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Entity distributed over a region and taking values there.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Process",
+              "type": "Process",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: what occurs and unfolds.",
+              "children": [
+                {
+                  "label": "Mechanism",
+                  "type": "Process",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Arrangement of structures generating an effect.",
+                  "children": []
+                },
+                {
+                  "label": "Interaction",
+                  "type": "Process",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Reciprocal action between entities.",
+                  "children": []
+                },
+                {
+                  "label": "Transformation",
+                  "type": "Process",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Change of a system's state under a process.",
+                  "children": []
+                },
+                {
+                  "label": "Cycle",
+                  "type": "Process",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Process returning to a prior state.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Event",
+              "type": "Event",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: datable occurrences.",
+              "children": [
+                {
+                  "label": "Occurrence",
+                  "type": "Event",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Something happening at a place and time.",
+                  "children": []
+                },
+                {
+                  "label": "Transition",
+                  "type": "Event",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Event marking passage between states.",
+                  "children": []
+                },
+                {
+                  "label": "Change",
+                  "type": "Event",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Event consisting in a difference between states.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Property",
+              "type": "Property",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: what entities have or bear.",
+              "children": [
+                {
+                  "label": "Quality",
+                  "type": "Property",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Property of kind or character.",
+                  "children": []
+                },
+                {
+                  "label": "Quantity",
+                  "type": "Property",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Property admitting magnitude and unit.",
+                  "children": []
+                },
+                {
+                  "label": "Disposition",
+                  "type": "Property",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Property of what an entity would do under conditions.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Relation",
+              "type": "Relation",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: what holds among entities and events.",
+              "children": [
+                {
+                  "label": "Structural Relation",
+                  "type": "Relation",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Relation of composition, part, or enclosure.",
+                  "children": []
+                },
+                {
+                  "label": "Causal Relation",
+                  "type": "Relation",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Relation of producing or influencing an effect.",
+                  "children": []
+                },
+                {
+                  "label": "Functional Relation",
+                  "type": "Relation",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Relation of serving a role in a whole.",
+                  "children": []
+                },
+                {
+                  "label": "Temporal Relation",
+                  "type": "Relation",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Relation of precedence, simultaneity, or order.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "State",
+              "type": "State",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: configurations an entity or system is in.",
+              "children": [
+                {
+                  "label": "Configuration",
+                  "type": "State",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Arrangement of parts at a moment.",
+                  "children": []
+                },
+                {
+                  "label": "Phase",
+                  "type": "State",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Region of state space with uniform behavior.",
+                  "children": []
+                },
+                {
+                  "label": "Condition",
+                  "type": "State",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "State bearing on whether a process can proceed.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Structure",
+              "type": "Structure",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: persistent organization of a target.",
+              "children": [
+                {
+                  "label": "Composition",
+                  "type": "Structure",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "What a whole is made of.",
+                  "children": []
+                },
+                {
+                  "label": "Organization",
+                  "type": "Structure",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "How the parts of a whole are related.",
+                  "children": []
+                },
+                {
+                  "label": "Pattern",
+                  "type": "Structure",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "Recurring organization across instances.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Cause",
+              "type": "Cause",
+              "kind": "grouping",
+              "order": "ontic",
+              "description": "Grouping: what is responsible for an effect.",
+              "children": [
+                {
+                  "label": "Efficient Cause",
+                  "type": "Cause",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "The agency or event producing a change.",
+                  "children": []
+                },
+                {
+                  "label": "Mechanistic Cause",
+                  "type": "Cause",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "The arrangement that yields the effect.",
+                  "children": []
+                },
+                {
+                  "label": "Probabilistic Cause",
+                  "type": "Cause",
+                  "kind": "instance",
+                  "order": "ontic",
+                  "description": "A factor raising the chance of an effect.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reflexive Inquiry",
+      "type": "Aggregate",
+      "kind": "root",
+      "order": "reflexive",
+      "description": "Inquiry taking its own practice, conditions, and limits as its target.",
+      "children": [
+        {
+          "label": "Epistemic Target",
+          "type": "Epistemic Target",
+          "kind": "grouping",
+          "order": "reflexive",
+          "description": "Grouping: inquiry as the addressed target.",
+          "children": [
+            {
+              "label": "Knowing Gap",
+              "type": "Epistemic Target",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "Deficiency in the account of how knowing works.",
+              "children": []
+            },
+            {
+              "label": "Limit of Knowing",
+              "type": "Epistemic Target",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "Boundary beyond which the regime cannot register.",
+              "children": []
+            },
+            {
+              "label": "Instrument Effect",
+              "type": "Epistemic Target",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "The target as altered by the act of registering it.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Standard",
+          "type": "Epistemic Standard",
+          "kind": "grouping",
+          "order": "reflexive",
+          "description": "Grouping: standards applied to inquiry itself.",
+          "children": [
+            {
+              "label": "Self-Application Standard",
+              "type": "Epistemic Standard",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "A standard stands only if the inquiry that states it also meets it.",
+              "children": []
+            },
+            {
+              "label": "Reflexivity Standard",
+              "type": "Epistemic Standard",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "An account stands only if it can describe its own production.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Construction",
+          "type": "Epistemic Construction",
+          "kind": "grouping",
+          "order": "reflexive",
+          "description": "Grouping: accounts of inquiry.",
+          "children": [
+            {
+              "label": "Epistemology",
+              "type": "Epistemic Construction",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "Account of the nature, conditions, and limits of knowing.",
+              "children": []
+            },
+            {
+              "label": "Methodology",
+              "type": "Epistemic Construction",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "Account of how inquiry should proceed.",
+              "children": []
+            },
+            {
+              "label": "Ontology",
+              "type": "Epistemic Construction",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "Account of what exists, in service of what can be known.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Epistemic Evaluation",
+          "type": "Epistemic Evaluation",
+          "kind": "grouping",
+          "order": "reflexive",
+          "description": "Grouping: assessments of accounts of inquiry.",
+          "children": [
+            {
+              "label": "Philosophical Critique",
+              "type": "Epistemic Evaluation",
+              "kind": "instance",
+              "order": "reflexive",
+              "description": "Assessment of an account of knowing against its own claims.",
+              "children": []
+            },
+            {
+              "label": "Validation",
+              "type": "Validation",
+              "kind": "grouping",
+              "order": "reflexive",
+              "description": "Grouping: checks discharging doubt about accounts of inquiry.",
+              "children": [
+                {
+                  "label": "Reflexive Test",
+                  "type": "Validation",
+                  "kind": "instance",
+                  "order": "reflexive",
+                  "description": "An account of knowing is tried against the practice it describes.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

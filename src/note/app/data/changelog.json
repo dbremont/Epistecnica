@@ -8213,6 +8213,21 @@
     ]
   },
   {
+    "file_path": "epistemica/rees.md",
+    "logs": [
+      {
+        "date": "2026-10-19",
+        "kind": "feat",
+        "summary": "Add REES, the Reality Epistemic Element Set: universal taxonomy and recursive decomposition of epistemic elements, with a paired atlas."
+      },
+      {
+        "date": "2026-10-19",
+        "kind": "refactor",
+        "summary": "Move the complete decomposition into the canonical rees.json tree store; the note keeps the schema and a branch backbone and points to the REES atlas (rees.html) for the full, ever-expanding tree."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/signal-processing.md",
     "logs": [
       {

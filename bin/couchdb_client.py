@@ -3,8 +3,8 @@
 Shared stdlib CouchDB client for the bin/ scripts.
 
 Wraps urllib with Basic auth from bin/envutil.py. Returns (status, parsed_body)
-so callers decide what to do with non-2xx. Also offers helpers for the common
-Tecnica pattern: fetch all node docs, and bulk upsert node records by id.
+so callers decide what to do with non-2xx. Also offers generic helpers: fetch
+all docs, and bulk upsert records by id.
 """
 
 import base64

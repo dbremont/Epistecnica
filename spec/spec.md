@@ -1,111 +1,108 @@
 # Epistecnica — General Spec
 
-> One combined home for two sibling ontologies and their tools. Status legend:
+> One combined home for the project's corpora and its guide. Status legend:
 > ✅ built · 🎯 target / not yet implemented.
 
 ## 1. Vision
 
-Two graphs answer two halves of one question — how do we know, and how do we
-act?
+Epistecnica is a hub for the project's corpora — **notes**, **courses**,
+**documents** — served by one combined server from one deployment, under one
+guide-first entry page.
 
-- **Epistemica** — *Modelling and Epistemic Operationalization*. An ontology of
-  ~122 epistemic-practice nodes (artifacts, agents, tools, constraints,
-  standards) with edges in a per-node `relationships` list. Its thesis:
-  epistemic practice can be rendered intelligible and systematically improved.
-- **Tecnica** — *A framework for rendering purposeful (agentic) operation*. An
-  ontology of ~40 technical objects across six layers (`layer` enum), edges in
-  a per-node `relationship_set` (13 relation families, 45 relation types),
-  with per-category conditional subschemas (`app/data/schema/schema.json`,
-  JSON Schema draft 2020-12; rationale in `app/data/schema/note`).
-
-**Epistecnica** is the umbrella: one index (the hub), one combined server, one
-deployment, one set of conventions — without collapsing the two ontologies
-into one. They have different schemas and different data models on purpose;
-any cross-graph unification is future work, not an assumption.
+- **The guide** — the project's philosophia guides (*Artium Epistemicarum et
+  Operis*, *Artium Technicarum et Operis*) are the canonical schema owners.
+  Epistecnica foregrounds them and hosts the local **REES** atlas (Reality
+  Epistemic Element Set, `src/note/app/data/epistemica/rees.html`) as their
+  local companion.
+- **The spaces** — the ontology graphs (**Epistemica**, **Tecnica**) and the
+  lexical corpus (**Glossarium**) moved to the external **Naturgnosis** medium.
+  The hub links to them from its index; the old local graph apps were
+  retired and their URLs now **302** to the REES atlas.
+- **The universal view** — one read-only graph over everything we hold (notes,
+  courses, documents, REES), generated from our own corpus and served at
+  `/graph/`.
+- **The corpora** — local markdown, one catalog + viewer each, with a generated
+  JSON index.
 
 ## 2. System architecture
 
 ```
                     ┌──────────────────────────────┐
    browser ────────►│  bin/serve.py (stdlib HTTP)  │
-                    │  /         src/app/index.html │
-                    │  /epistemica/*  app statics  │
-                    │  /tecnica/*     app statics  │
-                    │  /note/*        notes statics│
-                    │  /{ds}/api/…    CouchDB I/O  │
-                    └───────────┬──────────┬───────┘
-                                │          │
-                    ┌───────────▼──┐  ┌────▼─────────┐
-                    │ CouchDB      │  │ CouchDB      │
-                    │ db epistemica│  │ db tecnica   │
-                    └──────────────┘  └──────────────┘
+                    │  /             src/app/…      │
+                    │  /graph/*      universal view │
+                    │  /shared/*     nav search     │
+                    │  /note/*       notes statics  │
+                    │  /course/*     course statics │
+                    │  /document/*   doc statics    │
+                    │  /note/api/pins CouchDB I/O   │
+                    └───────────┬──────────────────┘
+                                │
+                    ┌───────────▼──┐
+                    │ CouchDB      │
+                    │ db notes     │  (pins doc only)
+                    └──────────────┘
 ```
 
 - **The browser never talks to CouchDB.** The combined server is the only
   frontend-facing surface; CouchDB CORS stays disabled (default).
-- **One CouchDB instance, two databases.** One document per node
-  (`_id == node.id`); each DB also holds a `layout` doc
-  (`{positions, computed_at, source, params}`) written by the subproject's
-  `bin/layout.py`.
-- **No build step.** Python 3.12 stdlib server; vanilla JS; vendored deck.gl
-  (`src/tecnica/app/vendor/`); self-contained single-file HTML pages.
+- **One CouchDB-backed feature: the notes pins store.** A single `pins` doc in
+  the `notes` DB. Everything else is static file serving.
+- **No build step.** Python 3.12 stdlib server; vanilla JS. Vendored runtime
+  bundles: the notes MathJax (`src/note/app/vendor/mathjax/`) and the
+  universal-view renderer (`src/app/graph/vendor/`, deck.gl + socio-graph).
 
 ### Surfaces & endpoints (✅)
 
 | Route | Purpose |
 |-------|---------|
-| `GET /` | Hub `src/app/index.html` (project cards, live \|V\|/\|E\| strips, entry guidance) |
-| `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface (per-subproject docs pages removed) |
-| `GET /epistemica/<path>`, `GET /tecnica/<path>` | Subproject statics from `<sub>/app/` |
-| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), generated search index (`data/index.json`), hand-edited `data/changelog.json` (+ schema) |
-| `GET /glossarium/<path>` | **Not served here.** The lexical surface moved to the external Naturgnosis medium (`http://localhost:8013/glossarium/web/`: catalog, term view `?t=<slug>`, lookup index `/glossarium/data/index.json`); Epistecnica pages link out and the select-a-word popup loads its JS + index from there |
-| `GET /api/health` | Aggregate health: CouchDB reachability, version, doc counts per DB |
-| `GET /{ds}/api/health` | Per-dataset health (as each subproject's `sync.py`) |
-| `GET /{ds}/api/nodes` | Flat JSON array; `_id`/`_rev` stripped; `layout` doc excluded; **hard 502 when CouchDB is down — no file fallback** |
-| `GET /{ds}/api/layout` | `{nodeId: [x, y]}`; CouchDB `layout` doc primary, `<sub>/app/data/layout.json` fallback; `X-Layout-Source: db\|file` |
-| `POST /{ds}/api/graph/save` | Body `{nodes: […], timestamp}` → `_bulk_docs` upsert, server resolves `_rev` |
+| `GET /` | Hub `src/app/index.html` — a flat link index over the guide, the universal view, and the corpora |
+| `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface |
+| `GET /graph/<path>` | Universal view from `src/app/graph/`: Graphive viewer over the graph generated from our own corpus (notes + courses + documents + REES), plus `data/universal-graph.json` + `data/universal-layout.json`; no API routes |
+| `GET /shared/<path>` | Shared nav assets from `src/app/shared/`: `usearch.css` + `usearch.js`, the universal search used by every surface's header |
+| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/rees.html` (graphs moved to Naturgnosis) |
+| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), REES atlas (`data/epistemica/rees.html`), generated search index (`data/index.json`) |
+| `GET /course/<path>` | Courses surface from `src/course/app/`: catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`), corpus |
+| `GET /document/<path>` | Documents surface from `src/document/app/`: catalog (`index.html`), viewer (`document.html?d=`), corpus |
+| `GET /glossarium/<path>` | **Not served here.** The lexical surface lives in the external Naturgnosis medium (`http://localhost:8013/glossarium/web/`); Epistecnica pages link out and the select-a-word popup loads its JS + index from there |
+| `GET /api/health` | Liveness probe: `{"status":"ok","service":"epistecnica"}` |
 | `GET /note/api/pins` | Notes-catalog pins: `{"pins": […]}` from the single `pins` doc in db `NOTES_DB` (default `notes`); empty list when unpinned; **hard 502 when CouchDB is down** |
 | `POST /note/api/pins` | Body `{"path": "<note path>", "pinned": bool}`; server validates the path against the corpus naming rules, upserts the `pins` doc |
 
-where `{ds}` ∈ {`epistemica`, `tecnica`}.
+The old `/{ds}/api/{health,nodes,layout,graph/save}` endpoints and their
+`_bulk_docs`/`layout` semantics left with the subprojects.
 
 ### Configuration (✅)
 
 `.env` (gitignored; see `.env.example`): `COUCHDB_URL`, `COUCHDB_USER`,
-`COUCHDB_PASSWORD`, `EPISTEMICA_DB` (default `epistemica`), `TECNICA_DB`
-(default `tecnica`). Real environment variables override `.env` values.
-Subprojects additionally honor `COUCHDB_DB` in their standalone mode.
+`COUCHDB_PASSWORD`, `NOTES_DB` (default `notes`). Real environment variables
+override `.env` values.
 
 ## 3. Data flow & ownership
 
 | Store | Contents | Written by |
 |-------|----------|------------|
-| CouchDB `epistemica` | Node docs + `layout` doc | `src/epistemica/bin/seed_couchdb.py` (seed), `src/epistemica/bin/layout.py` (layout), editor saves (via server) |
-| CouchDB `tecnica` | Node docs + `layout` doc | `src/tecnica/bin/seed_couchdb.py`, `src/tecnica/bin/layout.py`, editor saves |
-| `<sub>/app/data/data.json` | Seed snapshot only — never the live store, never fetched by the frontend | hand-authored |
-| `<sub>/app/data/layout.json` | Static layout fallback | `<sub>/bin/layout.py` |
-
-Layouts are **precomputed** (subproject `bin/layout.py`; deterministic
-Fruchterman–Reingold + phyllotaxis packing). Renderers read positions once at
-load; no live force simulation. Recompute after edits is manual 🎯 (a
-`/api/layout/recompute` endpoint is a future convenience).
+| CouchDB `notes` | Single `pins` doc (pinned note paths) | `/note/api/pins` (via server) |
+| `src/note/app/data/**` | Notes corpus, live notes, REES atlas, `changelog.json` | hand-authored; index via `src/note/bin/index.py` |
+| `src/course/app/**` | Courses corpus | hand-authored; index via `src/course/bin/index.py` |
+| `src/document/app/**` | Documents corpus | hand-authored; index via `src/document/bin/index.py` |
+| `src/app/data/search-index.json` | Universal search snapshot (corpus-only) | `bin/build_search_index.py` |
+| `src/app/graph/data/universal-graph.json` + `universal-layout.json` | Universal view graph + layout (corpus + REES) | `bin/build_universal_index.py` + `bin/layout.py` |
 
 ## 4. Frontends
 
 | Page | Renderer | Persists? |
 |------|----------|-----------|
 | `src/app/index.html` (hub) | Ambient Canvas2D constellation only | No |
-| `epistemica/graph.html` | Canvas2D + precomputed layout (epistemica's `app/js/` shared layout code) | No |
-| `epistemica/edit.html` | Canvas2D + precomputed layout, AI-assisted authoring (DeepSeek, browser-direct) | Yes (POST patch) |
-| `tecnica/graph.html` | deck.gl (WebGL) + precomputed layout via `app/vendor/socio-graph.js` | No |
-| `tecnica/edit.html` | deck.gl + `socio-graph.js`, AI-assisted authoring | Yes (POST patch) |
+| `src/app/docs.html` | Site documentation, live corpus stats | No |
+| `src/app/graph/index.html` (universal view) | Vendored deck.gl renderer over the generated universal graph (surface filters, search, node records, deep links) | No |
 | `note/index.html` (catalog) | Client-side dir browse/files + `@tag` search over generated `app/data/index.json` (`make notes-index`) | No |
 | `note/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-note `history` modal over `data/changelog.json` | No |
-| Subproject `about.html`, `docs.html` | Project about & docs plates (app root; `view/` retired) | No |
+| `course/index.html`, `course.html`, `lecture.html` | Catalog + course/lecture views over `data/index.json` | No |
+| `document/index.html`, `document.html` | Catalog + viewer over `data/index.json` | No |
 
-The two renderers are intentionally independent (Canvas2D vs deck.gl); don't
-unify them casually. Both editors keep the AI token in the browser only — the
-backend has no AI endpoints and must never hold keys.
+AI (DeepSeek) is called browser-direct in the editors; the token lives only in
+the browser. The backend has no AI endpoints and must never hold keys.
 
 ## 5. Deployment (✅)
 
@@ -115,32 +112,23 @@ backend has no AI endpoints and must never hold keys.
   Both run container `epistecnica` (`--network host`, port 8000 default via
   `EPISTECNICA_PORT`, `.env` mounted read-only).
 - Replaces the two former deployments (`tecnica` :8000, `epistemica` :8010).
-- Per-subproject `Dockerfile`/`deploy.sh` remain for standalone runs; CI does
-  not build them.
 
 ## 6. Invariants (do not break)
 
 1. Browser → server only; never browser → CouchDB.
 2. Frontend pages fetch **relatively** (`api/…`, `data/…`) — this is what
-   allows prefix mounting under `/{ds}/` without touching the huge HTML files.
-3. `data.json` is a seed snapshot, not a live store; `nodes` API never falls
-   back to files.
-4. One subproject must not import or depend on the combined layer (or vice
-   versa beyond static file serving).
-5. No package managers, no frameworks, no build steps.
-6. UI strings must not reference backend scripts (`bin/...`, `python ...`);
+   allows prefix mounting without touching the huge HTML files.
+3. No package managers, no frameworks, no build steps.
+4. UI strings must not reference backend scripts (`bin/...`, `python ...`);
    backend hints live in docs and server logs.
+5. User-facing pages never reference the retired subproject paths.
 
 ## 7. Roadmap 🎯
 
-- Cross-graph navigation from the hub (e.g. deep-link a Tecnica node from an
-  Epistemica node when they describe the same practice/technique).
-- Shared edge-vocabulary study: Epistemica's `relationships` families vs
-  Tecnica's 13 `relationship_set` families — a mapping table before any data
-  unification.
-- `/api/layout/recompute` (per dataset) so edits can trigger relayout
-  server-side.
-- Hub-level search across both datasets (client-side over the two `nodes`
-  arrays is already feasible at this scale).
-- Overview statistics strip (degree distribution, components, entropies) per
-  the per-project "Home Page"/"Overview" specs, computed client-side.
+- Hub-level search across the corpora (client-side over the committed
+  `search-index.json` is already feasible at this scale).
+- Cross-space navigation from the universal view into the Naturgnosis spaces
+  when a local node and an external graph node describe the same
+  practice/technique.
+- Overview statistics strip (corpus counts, tags, entropies) computed
+  client-side.

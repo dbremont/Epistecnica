@@ -1,86 +1,80 @@
 # Epistecnica Documentation
 
-> One home for two ontologies: **Epistemica** — *Modelling and Epistemic Operationalization* — and **Tecnica** — *rendering purposeful (agentic) operation intelligible*.
+> One hub for the project's corpora — **notes**, **courses**, **documents** — under one guide-first entry page.
 
-Epistemica renders how we **know** (an ontology of ~122 epistemic-practice nodes as a
-knowledge graph). Tecnica renders how we **act** (an ontology of ~40 technical-object
-nodes across six layers). Epistecnica joins them under one index, one combined
-deployment, and one set of conventions — while each subproject stays fully
-self-contained.
+The project's philosophia guides — *Artium Epistemicarum et Operis* and
+*Artium Technicarum et Operis* — are the canonical schema owners. Epistecnica
+foregrounds them, hosts the local **REES** atlas (Reality Epistemic Element
+Set) as their local companion, and serves the written corpora: notes, courses,
+and documents, each a catalog + viewer over a local markdown corpus with a
+generated JSON index.
+
+The ontology graphs (**Epistemica**, **Tecnica**) no longer live here: they
+moved to the external **Naturgnosis** medium. The hub links to them from its
+index, and adds a **universal view** (`/graph/`) — one read-only graph
+over our own corpus (notes, courses, documents, REES).
 
 ## Layout
 
 ```
 Epistecnica/
-├── src/app/index.html    # The hub — entry point to both datasets (served at /)
-├── bin/serve.py          # Combined server: hub + /epistemica/ + /tecnica/ + APIs
-├── bin/envutil.py        # .env loader (per-dataset DB names)
-├── bin/couchdb_client.py # Shared stdlib CouchDB client (same as the subprojects')
+├── src/app/index.html    # The hub — guide-first entry page (served at /)
+├── src/app/docs.html     # Site documentation (served at /docs)
+├── src/app/graph/        # Universal view (served at /graph/) — Graphive over our corpus
+├── bin/serve.py          # Combined server: hub + /graph/ + /note/ + /course/ + /document/
+├── bin/build_universal_index.py  # Universal-view graph builder (our corpus → graph JSON)
+├── bin/layout.py         # Universal-view layout pre-computer (sunflower + FR)
+├── bin/envutil.py        # .env loader (notes pins DB resolution)
+├── bin/couchdb_client.py # Shared stdlib CouchDB client (notes pins)
 ├── spec/                 # General spec + shared design system
 ├── docs/                 # Documentation hub (README mirrors this file)
 ├── src/note/             # Notes corpus + catalog/viewer (served at /note/)
-├── src/epistemica/       # Self-contained subproject (app/, bin/, spec/, docs)
-└── src/tecnica/          # Self-contained subproject (app/, bin/, spec.md, docs)
+├── src/course/           # Courses corpus + catalog/views (served at /course/)
+└── src/document/         # Documents corpus + catalog/viewer (served at /document/)
 ```
-
-Each subproject keeps its own `app/` (viewer `graph.html`, editor `edit.html`,
-landing `index.html`), its own `bin/` (its standalone `sync.py`, `layout.py`,
-`seed_couchdb.py`), docs, and README. Nothing in a subproject depends on the
-combined layer; the combined layer depends on both.
 
 ## Architecture in one paragraph
 
 One stdlib Python server (`bin/serve.py`) serves everything. The browser talks
 **only** to this server — **it never talks to CouchDB directly** (CouchDB CORS
-stays disabled). One CouchDB instance hosts two databases (`epistemica`,
-`tecnica`; one document per node, `_id == node.id`, plus a `layout` doc per DB).
-Graph layouts are precomputed offline (`<subproject>/bin/layout.py`) and stored
-in the DB `layout` doc with a static `app/data/layout.json` fallback.
+stays disabled). The only CouchDB-backed API left is the notes-catalog pins
+store (a single `pins` doc in the `notes` DB). The old `/{ds}/api/*` graph
+endpoints, their `layout` docs, and the offline layout/seed scripts left with
+the subprojects.
 
 ## Surfaces
 
 | URL | What |
 |-----|------|
-| `/` | Hub: project cards, live \|V\|/\|E\| identity strips, entry guidance |
-| `/epistemica/` | Epistemica landing; `graph.html` viewer, `edit.html` editor, `about.html` + `docs.html` plates |
-| `/tecnica/` | Tecnica landing; `graph.html` viewer, `edit.html` editor |
+| `/` | Hub: a flat link index over the guide, the universal view, and the corpora |
+| `/docs` | Site documentation (this content, rendered) |
+| `/graph/` | Universal view: one read-only graph over notes + courses + documents + REES, generated from our corpus |
 | `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`data/**.md`) |
-| `/epistemica/api/{health,nodes,layout,graph/save}` | Epistemica API (DB `epistemica`) |
-| `/tecnica/api/{health,nodes,layout,graph/save}` | Tecnica API (DB `tecnica`) |
-| `/api/health` | Aggregate health of both backends |
-
-The API contract is identical to each subproject's `bin/sync.py`:
-`/api/nodes` proxies CouchDB (flat array, `_id`/`_rev` stripped, layout doc
-excluded, hard 502 when CouchDB is down), `/api/layout` serves the precomputed
-layout (DB doc primary, file fallback, `X-Layout-Source` header), and the
-editor's save URL POSTs `/api/graph/save` (proxied to CouchDB `_bulk_docs`).
+| `/note/data/epistemica/rees.html` | The REES atlas (local companion to the guide) |
+| `/course/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
+| `/document/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
+| `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/rees.html` (graphs moved to Naturgnosis) |
+| `/api/health` | Liveness probe for the service |
+| `/note/api/pins` | Notes-catalog pins (single `pins` doc in the `notes` DB) |
 
 ## Data backend
 
-The data backend is **CouchDB** — one instance, two databases. Connection comes
-from a gitignored `.env` (copy `.env.example`).
+The only CouchDB-backed feature is the notes-catalog pins store. Connection
+comes from a gitignored `.env` (copy `.env.example`).
 
-1. Bootstrap CouchDB once — `make bootstrap` creates both DBs, clears their
-   `_security`, seeds the nodes via each subproject's `bin/seed_couchdb.py`,
-   and precomputes the layouts (`bin/layout.py` per dataset). Re-runnable.
+Bootstrap CouchDB once — `make bootstrap` creates the `notes` DB and clears
+its `_security` (re-runnable). By hand (adapt host/port/user:pass to your
+`.env`):
 
-   By hand, that is (adapt host/port/user:pass to your `.env`):
+```sh
+curl -X PUT http://127.0.0.1:5984/notes
+curl -X PUT http://127.0.0.1:5984/notes/_security -H 'Content-Type: application/json' -d '{}'
+```
 
-   ```sh
-   curl -X PUT http://127.0.0.1:5984/epistemica
-   curl -X PUT http://127.0.0.1:5984/epistemica/_security -H 'Content-Type: application/json' -d '{}'
-   curl -X PUT http://127.0.0.1:5984/tecnica
-   curl -X PUT http://127.0.0.1:5984/tecnica/_security -H 'Content-Type: application/json' -d '{}'
-   python3 src/epistemica/bin/seed_couchdb.py
-   python3 src/tecnica/bin/seed_couchdb.py
-   python3 src/epistemica/bin/layout.py
-   python3 src/tecnica/bin/layout.py
-   ```
+`_security` is cleared so the server can read anonymously; CORS must stay
+disabled (the CouchDB default) so the browser can never reach the DB.
 
-   `_security` is cleared so the sync server can read anonymously; CORS must
-   stay disabled (the CouchDB default) so the browser can never reach the DB.
-
-## Run (combined)
+## Run
 
 ```sh
 cp .env.example .env        # fill in COUCHDB_USER / COUCHDB_PASSWORD
@@ -88,26 +82,16 @@ make run                    # dev server on http://localhost:8010 (no docker)
 python3 bin/serve.py        # same server directly, port 8000
 ```
 
-`make check` runs the verification battery (py_compile all servers +
-node --check the two API js files).
+`make check` runs the verification battery (py_compile all servers + index
+builders).
 
-Editor "Backend Save URL" per dataset:
+## External spaces
 
-- Epistemica: `http://localhost:8000/epistemica/api/graph/save`
-- Tecnica: `http://localhost:8000/tecnica/api/graph/save`
+The ontology graphs and the lexical corpus are served by Naturgnosis:
 
-### Run a subproject standalone
-
-Each subproject still runs exactly as it did before joining (its own `sync.py`,
-its own port, its own `.env` next to it):
-
-```sh
-python3 src/epistemica/bin/sync.py   # serves src/epistemica/ on :8000 (standalone contract)
-python3 src/tecnica/bin/sync.py      # serves src/tecnica/ on :8000 (standalone contract)
-```
-
-See `src/epistemica/README.md`, `src/epistemica/AGENT.md`, `src/tecnica/README.md`, and
-`src/tecnica/AGENT.md` for the per-project details.
+- Epistemica space — `http://localhost:8011/epistemica/`
+- Technique space — `http://localhost:8011/technique/`
+- Glossarium — `http://localhost:8013/glossarium/web/`
 
 ## Deployment
 
@@ -137,9 +121,9 @@ Both targets run the same container (`make help` lists all targets):
 
 ## Notes
 
-The written corpus behind both ontologies lives in `src/note/app/data/` —
-plain markdown, kebab-case filenames (convention in `src/note/README.md`).
-Rebuild the search index after any corpus edit:
+The written corpus lives in `src/note/app/data/` — plain markdown, kebab-case
+filenames (convention in `src/note/README.md`). Rebuild the search index after
+any corpus edit:
 
 ```sh
 make notes-index
@@ -157,9 +141,7 @@ the same viewer frame and philosophia shell as regular notes (recipe in
 
 - [`spec/spec.md`](spec/spec.md) — general spec: scope, system architecture, contracts, roadmap.
 - [`spec/design.md`](spec/design.md) — the shared design system (tokens, typography, layout, motion).
-- `src/epistemica/spec/` — Epistemica's spec and design notes.
-- `src/tecnica/spec.md` — Tecnica's spec (schema, rendering pipeline, data contract).
-- `AGENT.md` files — operating notes for coding agents, at the root and in each subproject.
+- `AGENTS.md` — operating notes for coding agents.
 
 ## References
 
