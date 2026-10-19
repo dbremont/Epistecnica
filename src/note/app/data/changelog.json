@@ -8223,7 +8223,8 @@
       {
         "date": "2026-10-19",
         "kind": "refactor",
-        "summary": "Move the complete decomposition into the canonical rees.json tree store; the note keeps the schema and a branch backbone and points to the REES atlas (rees.html) for the full, ever-expanding tree."
+        "summary": "Move the complete decomposition into the canonical rees.json tree store; the note keeps the schema and a branch backbone and points to the REES atlas (rees.html) for the full, ever-expanding tree.",
+        "commit": "4c98bec249dabd2f9f4648599c077939ef825682"
       }
     ]
   },
