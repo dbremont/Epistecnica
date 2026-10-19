@@ -8229,7 +8229,9 @@
       {
         "date": "2026-10-19",
         "kind": "docs",
-        "summary": "Update the REES atlas entry for the element search, replacing the searchable table and orders views."
+        "summary": "Update the REES atlas entry for the element search, replacing the searchable table and orders views.",
+        "commit": "6cc0fd2a30a9dcc2ac357de4aa1ef333745280cc",
+        "before": "51d70aa28dab6a43463b3cac65233c8883673bc6"
       }
     ]
   },
