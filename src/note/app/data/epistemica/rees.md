@@ -201,7 +201,7 @@ exchange through the guide's `Permitted Link Forms` table: an
 > REES is the index; the domain catalogues are its recursive expansions, and
 > the philosophical guides are its schema.
 
-- **The full tree** — the [REES atlas](data/epistemica/rees.html) renders the complete, ever-expanding decomposition from the tree store [rees.json](data/epistemica/rees.json): outline, branch cards, a searchable table, and a node inspector.
+- **The full tree** — the [REES atlas](data/epistemica/rees.html) renders the complete, ever-expanding decomposition from the tree store [rees.json](data/epistemica/rees.json): outline, branch cards, an element search, and a node inspector.
 - **Guides** — [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner) and [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (the technical complement).
 - **Universal index** — Naturgnosis Epistemic Space at [http://localhost:8011/epistemica/](http://localhost:8011/epistemica/) carries the full instance graph; REES is the local mastery layer over it.
 - **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/modelado.md), [Causality](note.html?n=epistemica/causality.md), [Decision Making](note.html?n=epistemica/decision-making.md).

@@ -215,8 +215,9 @@ instance-decomposition table:
   epistemic inventory. The tree is stored canonically in `rees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
   `kind` ∈ root|grouping|instance; `order` ∈ epistemic|ontic|reflexive); the
-  atlas `rees.html` renders it in four views (outline, cards, table, orders)
-  and is the single place the **complete, ever-expanding decomposition** lives.
+  atlas `rees.html` renders it in two views (outline, cards) plus an element
+  search and is the single place the **complete, ever-expanding decomposition**
+  lives.
   The note keeps only the schema, formulation, and a branch backbone and points
   to the atlas. Validate after any tree edit with `make rees-check` (also part
   of `make check`); `rees.json` is data — only `rees.md` changes are logged in

@@ -298,6 +298,7 @@
     .tree-label { cursor: pointer; font-size: 0.85rem; color: var(--text-secondary); border-bottom: 1px solid transparent; }
     .tree-label:hover { color: var(--text-primary); }
     .tree-label.is-type { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); }
+    .tree-row.sel { background: var(--accent-cyan-dim); border-radius: 4px; }
     .tree-row.sel .tree-label { color: var(--accent-cyan); }
     .tree-count { font-family: var(--font-mono); font-size: 0.58rem; color: var(--text-muted); }
 
@@ -314,45 +315,36 @@
     .ext-card { border-color: rgba(197,164,103,0.35); }
     .ext-card .card-formula .seg { color: var(--accent-cyan); }
 
-    /* table */
-    .tbl-controls { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-bottom: 0.9rem; }
-    .tbl-input, .tbl-select {
+    /* search */
+    .atlas-search { position: relative; flex: 1 1 240px; min-width: 180px; max-width: 380px; }
+    .atlas-search-input {
+      width: 100%;
       font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-primary);
-      background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px;
-      padding: 0.45rem 0.6rem;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 999px;
+      padding: 0.45rem 0.85rem;
     }
-    .tbl-input { min-width: 200px; flex: 1 1 200px; }
-    .tbl-input::placeholder { color: var(--text-muted); }
-    .tbl-wrap { overflow-x: auto; border: 1px solid var(--border-subtle); border-radius: 8px; }
-    table.atlas-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
-    .atlas-table th {
-      text-align: left; font-family: var(--font-mono); font-weight: 500; font-size: 0.56rem;
-      letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);
-      padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--border-subtle); cursor: pointer; white-space: nowrap;
+    .atlas-search-input::placeholder { color: var(--text-muted); }
+    .atlas-search-input:focus { outline: none; border-color: var(--accent-cyan); }
+    .atlas-search-drop {
+      position: absolute; top: calc(100% + 0.4rem); left: 0; right: 0; z-index: 80;
+      max-height: 320px; overflow-y: auto;
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
     }
-    .atlas-table th:hover { color: var(--accent-cyan); }
-    .atlas-table td { padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border-subtle); vertical-align: top; color: var(--text-secondary); }
-    .atlas-table tr:last-child td { border-bottom: none; }
-    .atlas-table tr:hover td { background: var(--bg-surface); }
-    .atlas-table .cell-path { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-secondary); cursor: pointer; }
-    .atlas-table .cell-path:hover { color: var(--accent-cyan); }
-    .atlas-table .cell-type { font-family: var(--font-mono); font-size: 0.66rem; color: var(--accent-gold); white-space: nowrap; }
-    .tbl-more { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); background: transparent; border: 1px solid var(--border-subtle); border-radius: 6px; padding: 0.45rem 0.8rem; margin-top: 0.8rem; cursor: pointer; }
-    .tbl-more:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
-    .tbl-count { font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-muted); margin-left: 0.4rem; }
+    .atlas-hit {
+      display: block; width: 100%; text-align: left; cursor: pointer;
+      background: transparent; border: none; border-bottom: 1px solid var(--border-subtle);
+      padding: 0.5rem 0.7rem; color: var(--text-secondary);
+    }
+    .atlas-hit:last-child { border-bottom: none; }
+    .atlas-hit:hover, .atlas-hit.active { background: var(--bg-surface); }
+    .atlas-hit.active .atlas-hit-name { color: var(--accent-cyan); }
+    .atlas-hit-name { display: block; font-size: 0.8rem; color: var(--text-primary); }
+    .atlas-hit-path { display: block; font-family: var(--font-mono); font-size: 0.56rem; color: var(--text-muted); margin-top: 0.15rem; word-break: break-word; }
+    .atlas-hit-none { padding: 0.6rem 0.7rem; font-size: 0.75rem; color: var(--text-muted); }
 
-    /* orders */
-    .order-group { border: 1px solid var(--border-subtle); border-radius: 10px; padding: 1rem 1.1rem; margin-bottom: 1rem; }
-    .order-group h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.15rem; color: var(--text-primary); margin-bottom: 0.25rem; }
-    .order-group .order-desc { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.8rem; }
-    .order-branches { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .order-branches button {
-      font-family: var(--font-mono); font-size: 0.66rem; color: var(--text-secondary);
-      background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px;
-      padding: 0.4rem 0.65rem; cursor: pointer;
-    }
-    .order-branches button:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
-    .order-branches button b { color: var(--text-muted); font-weight: 400; }
+    .atlas-back { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); background: transparent; border: 1px solid var(--border-subtle); border-radius: 6px; padding: 0.45rem 0.8rem; margin-top: 0.8rem; cursor: pointer; }
+    .atlas-back:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
     .atlas-error { color: var(--accent-gold); font-size: 0.85rem; }
   </style>
@@ -401,8 +393,10 @@
             <div class="viewbar" id="viewbar">
               <button type="button" class="viewtab" data-view="outline">Outline</button>
               <button type="button" class="viewtab" data-view="cards">Cards</button>
-              <button type="button" class="viewtab" data-view="table">Table</button>
-              <button type="button" class="viewtab" data-view="orders">Orders</button>
+              <div class="atlas-search">
+                <input type="search" id="atlasSearch" class="atlas-search-input" placeholder="find an element…" aria-label="Search REES elements" aria-expanded="false" aria-controls="atlasSearchDrop" autocomplete="off">
+                <div class="atlas-search-drop" id="atlasSearchDrop" hidden></div>
+              </div>
               <span class="spacer"></span>
               <button type="button" class="viewtab" id="expandAll">Expand all</button>
               <button type="button" class="viewtab" id="collapseAll">Collapse all</button>
@@ -486,7 +480,7 @@
       var root = document.documentElement;
       var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       var swap = function () {
-        root.dataset.theme = root.dataset.theme === 'light' ? 'light' : 'dark';
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
         try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
         apply();
         root.classList.remove('theme-fading');
@@ -506,20 +500,21 @@
     var DATA = null;
     var FLAT = [];
     var BYPATH = {};
-    var ORDERS = ['epistemic', 'ontic', 'reflexive'];
     var ORDER_LABEL = { epistemic: 'Epistemic Order', ontic: 'Ontic Order', reflexive: 'Reflexive Layer' };
     var state = {
       view: 'outline',
       sel: null,
       outlineRoot: null,
-      expanded: {},
-      filter: '',
-      table: { q: '', order: 'all', kind: 'all', sort: 'path', dir: 1, limit: 200 }
+      expanded: {}
     };
+    var hits = [];
+    var hitIndex = -1;
 
     var viewEl = document.getElementById('view');
     var inspectorEl = document.getElementById('inspector');
     var statsEl = document.getElementById('atlasStats');
+    var searchEl = document.getElementById('atlasSearch');
+    var searchDrop = document.getElementById('atlasSearchDrop');
 
     function esc(s) {
       return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
@@ -631,9 +626,9 @@
         ul.appendChild(buildNode(r, base, 0));
       });
       if (state.outlineRoot) {
-        var back = mk('button', 'tbl-more', '← all branches');
+        var back = mk('button', 'atlas-back', '← all branches');
         back.style.marginBottom = '0.9rem';
-        back.addEventListener('click', function () { state.outlineRoot = null; renderOutline(); });
+        back.addEventListener('click', function () { state.outlineRoot = null; renderOutline(); syncURL(); });
         viewEl.appendChild(back);
       }
       viewEl.appendChild(ul);
@@ -701,7 +696,7 @@
       var node = li._node, ps = li._path, depth = li._depth;
       var childUl = li._childUl;
       if (childUl.getAttribute('data-built') === '0') {
-        node.children.forEach(function (c) {
+        (node.children || []).forEach(function (c) {
           childUl.appendChild(buildNode(c, ps.split(' → '), depth + 1));
         });
         childUl.setAttribute('data-built', '1');
@@ -757,121 +752,128 @@
       return card;
     }
 
-    // ---------- Table ----------
-    function renderTable() {
-      viewEl.innerHTML = '';
-      var c = mk('div', 'tbl-controls');
-      var q = mk('input', 'tbl-input'); q.type = 'search'; q.placeholder = 'Search path, type, or description…'; q.value = state.table.q;
-      q.addEventListener('input', function () { state.table.q = q.value; state.table.limit = 200; renderTable(); });
-      c.appendChild(q);
-
-      var orderSel = mk('select', 'tbl-select');
-      [['all', 'all orders'], ['epistemic', 'epistemic'], ['ontic', 'ontic'], ['reflexive', 'reflexive']].forEach(function (o) {
-        var opt = mk('option', null, o[1]); opt.value = o[0]; if (state.table.order === o[0]) opt.selected = true; orderSel.appendChild(opt);
-      });
-      orderSel.addEventListener('change', function () { state.table.order = orderSel.value; state.table.limit = 200; renderTable(); });
-      c.appendChild(orderSel);
-
-      var kindSel = mk('select', 'tbl-select');
-      [['all', 'all kinds'], ['grouping', 'groupings'], ['instance', 'instances'], ['root', 'roots']].forEach(function (o) {
-        var opt = mk('option', null, o[1]); opt.value = o[0]; if (state.table.kind === o[0]) opt.selected = true; kindSel.appendChild(opt);
-      });
-      kindSel.addEventListener('change', function () { state.table.kind = kindSel.value; state.table.limit = 200; renderTable(); });
-      c.appendChild(kindSel);
-
-      var count = mk('span', 'tbl-count');
-      c.appendChild(count);
-      viewEl.appendChild(c);
-
-      var rows = filteredRows();
-      count.textContent = rows.length + ' node' + (rows.length === 1 ? '' : 's');
-
-      var wrap = mk('div', 'tbl-wrap');
-      var table = mk('table', 'atlas-table');
-      table.innerHTML =
-        '<thead><tr>'
-        + '<th data-sort="path">Path</th>'
-        + '<th data-sort="type">Type</th>'
-        + '<th data-sort="order">Order</th>'
-        + '<th data-sort="kind">Kind</th>'
-        + '<th>Description</th>'
-        + '</tr></thead>';
-      var tbody = mk('tbody');
-      var shown = rows.slice(0, state.table.limit);
-      shown.forEach(function (e) {
-        var n = e.node;
-        var tr = mk('tr');
-        var tdPath = mk('td'); tdPath.className = 'cell-path'; tdPath.textContent = e.pathStr;
-        tdPath.addEventListener('click', function () { selectNode(e.pathStr); });
-        var tdType = mk('td'); tdType.className = 'cell-type'; tdType.textContent = n.type;
-        var tdOrder = mk('td'); tdOrder.innerHTML = badge(ORDER_LABEL[n.order] || n.order, 'order-' + n.order);
-        var tdKind = mk('td'); tdKind.textContent = n.kind;
-        var tdDesc = mk('td'); tdDesc.textContent = n.description;
-        tr.appendChild(tdPath); tr.appendChild(tdType); tr.appendChild(tdOrder); tr.appendChild(tdKind); tr.appendChild(tdDesc);
-        tr.addEventListener('click', function (ev) { if (ev.target.tagName !== 'TD') return; selectNode(e.pathStr); });
-        tbody.appendChild(tr);
-      });
-      table.appendChild(tbody);
-      wrap.appendChild(table);
-      viewEl.appendChild(wrap);
-
-      if (rows.length > state.table.limit) {
-        var more = mk('button', 'tbl-more', 'Show ' + Math.min(200, rows.length - state.table.limit) + ' more');
-        more.addEventListener('click', function () { state.table.limit += 200; renderTable(); });
-        viewEl.appendChild(more);
-      }
-
-      table.querySelectorAll('th[data-sort]').forEach(function (th) {
-        th.addEventListener('click', function () {
-          var key = th.getAttribute('data-sort');
-          if (state.table.sort === key) state.table.dir *= -1;
-          else { state.table.sort = key; state.table.dir = 1; }
-          renderTable();
-        });
-      });
-    }
-
-    function filteredRows() {
-      var q = state.table.q.trim().toLowerCase();
-      var t = state.table;
-      var rows = FLAT.filter(function (e) {
-        if (t.order !== 'all' && e.node.order !== t.order) return false;
-        if (t.kind !== 'all' && e.node.kind !== t.kind) return false;
-        if (q) {
-          var hay = (e.pathStr + ' ' + e.node.type + ' ' + e.node.description).toLowerCase();
-          if (hay.indexOf(q) === -1) return false;
-        }
-        return true;
-      });
-      var key = t.sort;
-      rows.sort(function (a, b) {
-        var av = key === 'path' ? a.pathStr : (key === 'type' ? a.node.type : (key === 'order' ? a.node.order : a.node.kind));
-        var bv = key === 'path' ? b.pathStr : (key === 'type' ? b.node.type : (key === 'order' ? b.node.order : b.node.kind));
-        return av < bv ? -t.dir : av > bv ? t.dir : 0;
-      });
-      return rows;
-    }
-
-    // ---------- Orders ----------
-    function renderOrders() {
-      viewEl.innerHTML = '';
-      var byOrder = { epistemic: [], ontic: [], reflexive: [] };
+    // ---------- Search ----------
+    function runSearch(q) {
+      q = q.trim().toLowerCase();
+      if (!q) return [];
+      var found = [];
       FLAT.forEach(function (e) {
-        if (e.depth === 2) byOrder[e.node.order].push(e);
+        var n = e.node;
+        var label = String(n.label || '').toLowerCase();
+        var path = e.pathStr.toLowerCase();
+        var type = String(n.type || '').toLowerCase();
+        var desc = String(n.description || '').toLowerCase();
+        var rank = -1;
+        if (label === q) rank = 0;
+        else if (label.indexOf(q) === 0) rank = 1;
+        else if (label.indexOf(q) !== -1) rank = 2;
+        else if (path.indexOf(q) !== -1) rank = 3;
+        else if (type.indexOf(q) !== -1) rank = 4;
+        else if (desc.indexOf(q) !== -1) rank = 5;
+        if (rank !== -1) found.push({ e: e, rank: rank });
       });
-      ORDERS.forEach(function (o) {
-        var g = mk('div', 'order-group');
-        var desc = (DATA.orders && DATA.orders[o]) || '';
-        g.innerHTML = '<h3>' + esc(ORDER_LABEL[o]) + '</h3><div class="order-desc">' + esc(desc) + '</div>';
-        var list = mk('ul', 'order-branches');
-        byOrder[o].forEach(function (e) {
-          var btn = mk('button');
-          btn.innerHTML = esc(e.node.label) + ' <b>' + countLeaves(e.node) + '</b>';
-          btn.addEventListener('click', function () { selectNode(e.pathStr); state.outlineRoot = e.pathStr; setView('outline'); });
-          var li = mk('li'); li.appendChild(btn); list.appendChild(li);
-        });
-        g.appendChild(list);
-        viewEl.appendChild(g);
+      found.sort(function (a, b) {
+        return a.rank - b.rank || a.e.depth - b.e.depth || a.e.pathStr.localeCompare(b.e.pathStr);
+      });
+      return found.slice(0, 12).map(function (x) { return x.e; });
+    }
+
+    function closeSearch() {
+      searchDrop.hidden = true;
+      searchEl.setAttribute('aria-expanded', 'false');
+      searchDrop.innerHTML = '';
+      hits = [];
+      hitIndex = -1;
+    }
+
+    function renderHits() {
+      searchDrop.innerHTML = '';
+      if (!hits.length) {
+        searchDrop.hidden = false;
+        searchEl.setAttribute('aria-expanded', 'true');
+        searchDrop.appendChild(mk('div', 'atlas-hit-none', 'No element matches “' + searchEl.value.trim() + '”.'));
+        return;
+      }
+      searchDrop.hidden = false;
+      searchEl.setAttribute('aria-expanded', 'true');
+      hits.forEach(function (e, i) {
+        var b = mk('button', 'atlas-hit' + (i === hitIndex ? ' active' : ''));
+        b.type = 'button';
+        b.setAttribute('role', 'option');
+        b.innerHTML = '<span class="atlas-hit-name">' + esc(e.node.label) + '</span>'
+          + '<span class="atlas-hit-path">' + esc(e.pathStr) + '</span>';
+        b.addEventListener('mousedown', function (ev) { ev.preventDefault(); chooseHit(i); });
+        searchDrop.appendChild(b);
+      });
+      var active = searchDrop.querySelector('.atlas-hit.active');
+      if (active) active.scrollIntoView({ block: 'nearest' });
+    }
+
+    function updateSearch() {
+      if (!searchEl.value.trim()) { closeSearch(); return; }
+      hits = runSearch(searchEl.value);
+      hitIndex = hits.length ? 0 : -1;
+      renderHits();
+    }
+
+    function chooseHit(i) {
+      var e = hits[i];
+      if (!e) return;
+      searchEl.value = e.node.label;
+      closeSearch();
+      searchEl.blur();
+      focusElement(e.pathStr);
+    }
+
+    function expandAncestors(pathStr) {
+      var e = BYPATH[pathStr];
+      if (!e) return;
+      e.path.forEach(function (_, i) {
+        var pe = BYPATH[e.path.slice(0, i + 1).join(' → ')];
+        if (pe && pe.node.children && pe.node.children.length) state.expanded[pe.pathStr] = true;
+      });
+    }
+
+    function scrollToRow(pathStr) {
+      requestAnimationFrame(function () {
+        var row = document.querySelector('.tree-row[data-path="' + cssEscape(pathStr) + '"]');
+        if (row) row.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      });
+    }
+
+    function focusElement(pathStr) {
+      if (!BYPATH[pathStr]) return;
+      state.outlineRoot = null;
+      expandAncestors(pathStr);
+      setView('outline');
+      selectNode(pathStr);
+      scrollToRow(pathStr);
+    }
+
+    function wireSearch() {
+      searchEl.addEventListener('input', updateSearch);
+      searchEl.addEventListener('focus', function () {
+        if (searchEl.value.trim()) updateSearch();
+      });
+      searchEl.addEventListener('keydown', function (ev) {
+        if (ev.key === 'ArrowDown' && hits.length) {
+          ev.preventDefault();
+          hitIndex = (hitIndex + 1) % hits.length;
+          renderHits();
+        } else if (ev.key === 'ArrowUp' && hits.length) {
+          ev.preventDefault();
+          hitIndex = (hitIndex - 1 + hits.length) % hits.length;
+          renderHits();
+        } else if (ev.key === 'Enter' && !searchDrop.hidden && hits.length) {
+          ev.preventDefault();
+          chooseHit(hitIndex < 0 ? 0 : hitIndex);
+        } else if (ev.key === 'Escape') {
+          closeSearch();
+          searchEl.blur();
+        }
+      });
+      document.addEventListener('mousedown', function (ev) {
+        if (!searchDrop.hidden && ev.target !== searchEl && !searchDrop.contains(ev.target)) closeSearch();
       });
     }
 
@@ -887,8 +889,6 @@
 
       if (v === 'outline') renderOutline();
       else if (v === 'cards') renderCards();
-      else if (v === 'table') renderTable();
-      else if (v === 'orders') renderOrders();
       if (!noSync) syncURL();
     }
 
@@ -915,6 +915,7 @@
       });
       document.getElementById('expandAll').addEventListener('click', expandAll);
       document.getElementById('collapseAll').addEventListener('click', collapseAll);
+      wireSearch();
     }
 
     function init(data) {
@@ -924,11 +925,17 @@
       wire();
       var q = new URLSearchParams(location.search);
       var v = q.get('view');
-      if (['outline', 'cards', 'table', 'orders'].indexOf(v) !== -1) state.view = v;
+      if (['outline', 'cards'].indexOf(v) !== -1) state.view = v;
       var node = q.get('node');
-      if (node && BYPATH[node]) state.sel = node;
+      if (node && BYPATH[node]) {
+        state.sel = node;
+        if (state.view === 'outline') expandAncestors(node);
+      }
       setView(state.view, true);
-      if (state.sel) selectNode(state.sel, true);
+      if (state.sel) {
+        selectNode(state.sel, true);
+        if (state.view === 'outline') scrollToRow(state.sel);
+      }
     }
 
     fetch('rees.json')
