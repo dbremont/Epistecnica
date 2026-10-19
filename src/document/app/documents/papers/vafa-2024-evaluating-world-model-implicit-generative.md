@@ -42,6 +42,10 @@ There are two separate tests:
 
 > ...
 
+## See also
+
+- [Shalizi & Crutchfield — Computational Mechanics: Pattern and Prediction, Structure and Simplicity](document.html?d=articles/shalizi-2001-computational-mechanics-pattern-prediction.md)
+
 ## References
 
 - Vafa, K., Chen, J. Y., Rambachan, A., Kleinberg, J., & Mullainathan, S. (2024). *Evaluating the World Model Implicit in a Generative Model*. arXiv:2406.03689. https://arxiv.org/abs/2406.03689
