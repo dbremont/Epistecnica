@@ -124,7 +124,7 @@
 
         .nav-links { display: flex; gap: 1.2rem; }
 
-        .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+        .nav-right { display: flex; align-items: center; gap: 0.8rem; }
 
         .theme-toggle {
             font-family: var(--font-mono);
@@ -437,6 +437,7 @@
             .note-card { padding: 1.5rem; }
         }
     </style>
+    <link rel="stylesheet" href="../shared/usearch.css">
 </head>
 <body>
     <canvas id="ambientCanvas" aria-hidden="true"></canvas>
@@ -445,7 +446,12 @@
         <div class="nav-inner">
             <a class="nav-brand" href="../"><img class="nav-mark" src="../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
             <div class="nav-right">
-                <div class="nav-links"><a href="index.html">Catalog</a></div>
+                <div class="usearch-wrap">
+                    <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                    <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                    <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+                </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
             </div>
         </div>
@@ -820,6 +826,7 @@
         }
     })();
     </script>
+    <script src="../shared/usearch.js" data-root="../"></script>
     <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
 </body>
 </html>

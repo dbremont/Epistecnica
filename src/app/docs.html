@@ -107,19 +107,7 @@
 
         .nav-brand em { font-style: italic; color: var(--accent-gold); }
 
-        .nav-links { display: flex; gap: 1.2rem; }
-
-        .nav-links a {
-            font-family: var(--font-mono);
-            font-size: 0.6rem;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .nav-links a:hover { color: var(--accent-cyan); }
+        .nav-right { display: flex; align-items: center; gap: 0.8rem; }
 
         .theme-toggle {
             font-family: var(--font-mono);
@@ -369,6 +357,7 @@
         .foot-inner a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
         .foot-inner a:hover { color: var(--accent-cyan); }
     </style>
+    <link rel="stylesheet" href="shared/usearch.css">
 </head>
 <body>
     <canvas id="ambientCanvas" aria-hidden="true"></canvas>
@@ -376,12 +365,12 @@
     <nav class="nav">
         <div class="nav-inner">
             <a class="nav-brand" href="../"><img style="height:26px" src="../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
-            <div style="display:flex;align-items:center;gap:1.2rem">
-                <div class="nav-links">
-                    <a href="note/">Notes</a>
-                    <a href="course/">Courses</a>
-                    <a href="document/">Documents</a>
-                    <a href="http://localhost:8013/glossarium/web/">Glossarium</a>
+            <div class="nav-right">
+                <div class="usearch-wrap">
+                    <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                    <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                    <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
                 </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
             </div>
@@ -396,8 +385,6 @@
 
                 <div class="doc-body">
                     <div class="live" aria-label="Live corpus sizes">
-                        <div class="stat"><div class="value pending" id="stat-epi-nodes">&mdash;</div><div class="label">Epistemica Nodes</div></div>
-                        <div class="stat"><div class="value pending" id="stat-tec-nodes">&mdash;</div><div class="label">Tecnica Nodes</div></div>
                         <div class="stat"><div class="value pending" id="stat-notes">&mdash;</div><div class="label">Notes</div></div>
                         <div class="stat"><div class="value pending" id="stat-courses">&mdash;</div><div class="label">Courses</div></div>
                         <div class="stat"><div class="value pending" id="stat-documents">&mdash;</div><div class="label">Documents</div></div>
@@ -406,12 +393,14 @@
 
                     <h2 id="what">What Epistecnica Is</h2>
                     <p>
-                        <strong>Epistecnica</strong> joins two siblings under one framework:
-                        <a href="epistemica/"><em>Epistemica</em></a>, the onto-epistemic structure of
-                        <strong>knowing</strong>, and <a href="tecnica/"><em>Tecnica</em></a>, the structure of
-                        <strong>doing</strong>. Together they model the two halves of purposeful human
-                        practice — the arts that produce knowledge, and the arts that produce
-                        transformation — as living knowledge graphs rather than static text.
+                        <strong>Epistecnica</strong> is a guide to the two halves of purposeful human
+                        practice — knowing and acting — and a corpus that grows from that guide.
+                        Its spine is the pair of canonical philosophical guides, and its local
+                        catalog is the <a href="note/data/epistemica/rees.html">Reality Epistemic
+                        Element Set</a>. The two ontologies it once hosted — <em>Epistemica</em>, the
+                        onto-epistemic structure of <strong>knowing</strong>, and <em>Tecnica</em>,
+                        the structure of <strong>doing</strong> — now live as external spaces in
+                        <a href="http://localhost:8011/">Naturgnosis</a>.
                     </p>
                     <p>
                         Epistemica is onto-epistemic: an ontology of reality together with the
@@ -462,44 +451,61 @@
                         an ontic parsing.
                     </p>
 
-                    <h3>From theory to graphs</h3>
+                    <h3>From theory to the guide</h3>
                     <p>
-                        Each ontology is the operationalization of one half of this theory: nodes are
-                        the elements the theory distinguishes, edges are the typed relationships that
-                        make practice intelligible. The full development of both philosophies lives
-                        in the <a href="note/">notes corpus</a>, most directly in
+                        The full development of both philosophies lives in the
+                        <a href="note/">notes corpus</a>, most directly in
                         <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md">Philosophia
                         Artium Technicarum et Operis</a> and
                         <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia
-                        Artium Epistemicarum et Operis</a>.
+                        Artium Epistemicarum et Operis</a>. The local
+                        <a href="note/data/epistemica/rees.html">Reality Epistemic Element Set</a>
+                        applies the epistemic guide's grammar across the whole of reality: the
+                        complete, ever-expanding decomposition of epistemic elements, rendered from
+                        the tree store <a href="note/data/epistemica/rees.json">rees.json</a> in
+                        outline, card, table, and order views, with the schema and backbone in its
+                        <a href="note/note.html?n=epistemica/rees.md">note</a>.
                     </p>
 
-                    <h2 id="ontologies">The Ontologies</h2>
+                    <h2 id="ontologies">The Spaces</h2>
 
-                    <h3>Epistemica — the onto-epistemic structure</h3>
+                    <h3>Epistemic Space</h3>
                     <p>
                         An onto-epistemic ontology: the reality it parses together with the epistemic
-                        scaffolding that renders that reality intelligible — <span id="stat-epi-inline">&mdash;</span>
-                        nodes across the <em>Epistemic Order</em> (purposes, domains, interfaces,
-                        artifacts, operators, acts, processes, constraints, standards, agents, tools,
-                        infrastructure, frameworks) and the <em>Ontic Order</em> (the layered order of
-                        what <em>is</em>: Ontic, Synontic, Meta Ontic), connected by typed
-                        relationships. Explore it in the
-                        <a href="epistemica/graph.html">graph viewer</a>: filter by category, search
-                        nodes, pan and zoom the canvas, and follow edges between practices. Edit it
-                        in the <a href="epistemica/edit.html">editor</a>, which writes back through
-                        the sync server.
+                        scaffolding that renders that reality intelligible — the <em>Epistemic Order</em>
+                        (purposes, domains, interfaces, artifacts, operators, acts, processes,
+                        constraints, standards, agents, tools, infrastructure, frameworks) and the
+                        <em>Ontic Order</em> (the layered order of what <em>is</em>), connected by typed
+                        relationships. The live graph lives in Naturgnosis: open the
+                        <a href="http://localhost:8011/epistemica/">Epistemic Space</a>.
                     </p>
 
-                    <h3>Tecnica — the structure of doing</h3>
+                    <h3>Technique Space</h3>
                     <p>
-                        An ontology of technical objects: <span id="stat-tec-inline">&mdash;</span>
-                        nodes organized into layered spaces — <em>problem, capability, execution,
-                        artifact, governance,</em> and <em>evolution</em> — with rich per-node
-                        specifications (functional roles, interfaces, implementations, failure modes,
-                        lifecycles). Explore it in the
-                        <a href="tecnica/graph.html">graph viewer</a> and edit it in the
-                        <a href="tecnica/edit.html">editor</a>.
+                        An ontology of technical objects organized into layered spaces — <em>problem,
+                        capability, execution, artifact, governance,</em> and <em>evolution</em> — with
+                        rich per-node specifications (functional roles, interfaces, implementations,
+                        failure modes, lifecycles). The live graph lives in Naturgnosis: open the
+                        <a href="http://localhost:8011/technique/">Technique Space</a>.
+                    </p>
+
+                    <h2 id="universal-view">The Universal View</h2>
+                    <p>
+                        The <a href="graph/">universal view</a> is one read-only canvas over
+                        everything we hold: the <a href="note/">notes</a>, the
+                        <a href="course/">courses</a>, the <a href="document/">documents</a>, and
+                        the <a href="note/data/epistemica/rees.html">REES</a> epistemic elements,
+                        wired by their links and shared tags. Filter by surface, search every
+                        node, read its minimal record, and open any node in its own viewer.
+                    </p>
+                    <p>
+                        Unlike the external graph spaces, this view is generated from our own
+                        corpus: <code>bin/build_universal_index.py</code> aggregates the four
+                        indexes into <code>graph/data/universal-graph.json</code>,
+                        <code>bin/layout.py</code> computes the positions
+                        (<code>graph/data/universal-layout.json</code>), and the vendored
+                        deck.gl renderer draws them. Rebuild both with <code>make graph-index</code>
+                        after any corpus change.
                     </p>
 
                     <h2 id="notes">Notes &amp; Glossarium</h2>
@@ -538,12 +544,12 @@
                         both ways.
                     </p>
                     <p>
-                        Universal search lives in the hub header: one box
+                        Universal search lives in every surface's header: one box
                         over a pre-deployment snapshot (<code>make
-                        search-index</code>) covering both graphs plus the
-                        three corpora, grouped by surface and deep-linking
-                        into every viewer — including node focus via
-                        <code>graph.html?node=&lt;id&gt;</code>.
+                        search-index</code>) covering the three corpora —
+                        notes, courses, and documents — grouped by surface
+                        and deep-linking into each viewer. The ontology
+                        graphs are external and are not indexed here.
                     </p>
                     <p>
                         The <a href="http://localhost:8013/glossarium/web/">glossarium</a> is the lexical corpus:
@@ -556,28 +562,17 @@
                     <h2 id="architecture">Architecture, for the Curious</h2>
                     <p>
                         One small server fronts everything; the browser never talks to the database.
-                        Data lives in CouchDB, is served through the endpoints below, and every page
-                        fetches <em>relatively</em>, so each surface also works under its own prefix
-                        or standalone server. There are no accounts: reads are open, saves and pins
-                        go through the server, and AI assistance in the editors is called
-                        browser-direct — model keys never touch the backend.
+                        Every page fetches <em>relatively</em>, so each surface also works under its
+                        own prefix or standalone server. There are no accounts, and reads are open.
+                        The ontology graphs are not served here — they live in Naturgnosis, which the
+                        pages link to. The only stateful surface left is the notes-catalog pins.
                     </p>
                     <table>
                         <thead><tr><th>Endpoint</th><th>Purpose</th></tr></thead>
                         <tbody>
-                            <tr><td><code>GET /api/health</code></td><td>Aggregate health of both dataset backends</td></tr>
-                            <tr><td><code>GET /{ds}/api/health</code></td><td>Per-dataset health: CouchDB reachability, doc count</td></tr>
-                            <tr><td><code>GET /{ds}/api/nodes</code></td><td>The ontology as a flat node array (proxied from CouchDB)</td></tr>
-                            <tr><td><code>GET /{ds}/api/layout</code></td><td>Precomputed node positions for the viewer</td></tr>
-                            <tr><td><code>POST /{ds}/api/graph/save</code></td><td>Editor saves, proxied to the database</td></tr>
                             <tr><td><code>GET/POST /note/api/pins</code></td><td>Notes-catalog pins (read / toggle)</td></tr>
                         </tbody>
                     </table>
-                    <p>
-                        <code>{ds}</code> is <code>epistemica</code> or <code>tecnica</code>. When the
-                        database is unreachable, the proxies fail loudly (HTTP 502) rather than
-                        serving stale snapshots — what you read is the live store.
-                    </p>
 
                     <h2 id="design">Design</h2>
                     <p>
@@ -711,22 +706,6 @@
 
         function mark(el, v) { if (el) el.textContent = v; }
 
-        function nodeStats(prefix, inlineId, bigId) {
-            return fetch(prefix + '/api/nodes', { headers: { 'Accept': 'application/json' } })
-                .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-                .then(function (nodes) {
-                    var edges = 0;
-                    nodes.forEach(function (n) {
-                        var rel = n.relationships || n.relationship_set || [];
-                        edges += rel.length;
-                    });
-                    var v = nodes.length.toLocaleString();
-                    mark(document.getElementById(inlineId), v);
-                    if (bigId) setText(bigId, v);
-                })
-                .catch(function () { /* keep the em-dash placeholder */ });
-        }
-
         function countStats(url, bigId, inlineId, key) {
             return fetch(url, { headers: { 'Accept': 'application/json' } })
                 .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -740,8 +719,6 @@
                 .catch(function () { /* keep the em-dash placeholder */ });
         }
 
-        nodeStats('epistemica', 'stat-epi-inline', 'stat-epi-nodes');
-        nodeStats('tecnica', 'stat-tec-inline', 'stat-tec-nodes');
         countStats('note/data/index.json', 'stat-notes', 'stat-notes-inline');
         countStats('course/data/index.json', 'stat-courses', null, 'courses');
         countStats('document/data/index.json', 'stat-documents', null);
@@ -779,5 +756,6 @@
         }
     })();
     </script>
+    <script src="shared/usearch.js" data-root=""></script>
 </body>
 </html>
