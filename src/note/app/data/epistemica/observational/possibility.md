@@ -69,8 +69,8 @@ The primary reading is unambiguous: the note documents the concept-system of pos
 | `Aggregate` → Possibility → `Epistemic Target` → `Observable` | Grouping: registrable features of the target. |
 | `Aggregate` → Possibility → `Epistemic Target` → `Observable` → Constraint | The condition that rules an alternative in or out. |
 | `Aggregate` → Possibility → `Epistemic Target` → `Observable` → Accessibility Relation | The relation selecting which alternatives are reachable from the actual state. |
-| `Aggregate` → Possibility → `Epistemic Target` → `Epistemic Object` | Grouping: constituted objects of the modal domain. |
-| `Aggregate` → Possibility → `Epistemic Target` → `Epistemic Object` → Modal Status | The status of an alternative: possible, impossible, necessary, or contingent. |
+| `Aggregate` → Possibility → `Epistemic Target` → `Target Element` | Grouping: constituted elements of the modal domain. |
+| `Aggregate` → Possibility → `Epistemic Target` → `Target Element` → Modal Status | The status of an alternative: possible, impossible, necessary, or contingent. |
 | `Aggregate` → Possibility → `Epistemic Context` | Grouping: the constraint regime that fixes which possibility is meant. |
 | `Aggregate` → Possibility → `Epistemic Context` → Logical Context | Non-contradiction; the widest possibility space. |
 | `Aggregate` → Possibility → `Epistemic Context` → Nomological Context | Compatibility with the laws of the relevant science. |

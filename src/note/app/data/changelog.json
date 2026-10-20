@@ -3467,6 +3467,11 @@
         "kind": "feat",
         "summary": "Import Linear  Algebra from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Add the epistemic Formulation shell and a deep instance decomposition to Linear Algebra."
       }
     ]
   },
@@ -5725,6 +5730,11 @@
         "kind": "feat",
         "summary": "Add the Decision Theory field entry: schema, aspect decomposition, entry map, and references.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Rename Epistemic Object to Target Element under the Epistemic Target."
       }
     ]
   },
@@ -7235,6 +7245,11 @@
         "kind": "feat",
         "summary": "Fill the Possibility note with the epistemic schema and the aspect-based Aggregate decomposition.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Rename Epistemic Object to Target Element under the Epistemic Target."
       }
     ]
   },

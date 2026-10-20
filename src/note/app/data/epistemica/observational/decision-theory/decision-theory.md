@@ -57,8 +57,8 @@ The primary reading is unambiguous: the note documents the organized field, an `
 | `Aggregate` → Decision Theory → `Epistemic Target` → `Observable` → Alternative Set | The options available to the decision-maker. |
 | `Aggregate` → Decision Theory → `Epistemic Target` → `Observable` → State Set | The states of the world on which outcomes depend. |
 | `Aggregate` → Decision Theory → `Epistemic Target` → `Observable` → Outcome Set | The consequences of each action in each state. |
-| `Aggregate` → Decision Theory → `Epistemic Target` → `Epistemic Object` | Grouping: constituted objects of the decision problem. |
-| `Aggregate` → Decision Theory → `Epistemic Target` → `Epistemic Object` → Decision Rule | The mapping from beliefs and preferences to a selected action. |
+| `Aggregate` → Decision Theory → `Epistemic Target` → `Target Element` | Grouping: constituted elements of the decision problem. |
+| `Aggregate` → Decision Theory → `Epistemic Target` → `Target Element` → Decision Rule | The mapping from beliefs and preferences to a selected action. |
 | `Aggregate` → Decision Theory → `Epistemic Representation` | Grouping: how beliefs, preferences, and the decision problem are represented. |
 | `Aggregate` → Decision Theory → `Epistemic Representation` → `Representational System` | Grouping: the formal systems of decision theory. |
 | `Aggregate` → Decision Theory → `Epistemic Representation` → `Representational System` → Preference System | The representation of value over outcomes. |
