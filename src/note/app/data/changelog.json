@@ -3471,7 +3471,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Add the epistemic Formulation shell and a deep instance decomposition to Linear Algebra."
+        "summary": "Add the epistemic Formulation shell and a deep instance decomposition to Linear Algebra.",
+        "commit": "1a932b9c87f449213d52d463958279eaf5608603",
+        "before": "afba2aead84ef4a1b2b7e18192e85d144e72b5aa"
       }
     ]
   },
@@ -5734,7 +5736,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Rename Epistemic Object to Target Element under the Epistemic Target."
+        "summary": "Rename Epistemic Object to Target Element under the Epistemic Target.",
+        "commit": "1a932b9c87f449213d52d463958279eaf5608603",
+        "before": "afba2aead84ef4a1b2b7e18192e85d144e72b5aa"
       }
     ]
   },
@@ -7249,7 +7253,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Rename Epistemic Object to Target Element under the Epistemic Target."
+        "summary": "Rename Epistemic Object to Target Element under the Epistemic Target.",
+        "commit": "1a932b9c87f449213d52d463958279eaf5608603",
+        "before": "afba2aead84ef4a1b2b7e18192e85d144e72b5aa"
       }
     ]
   },
