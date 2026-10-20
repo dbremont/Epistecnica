@@ -18,15 +18,14 @@ src/note/
     │   ├── index.json   # generated search index
     │   ├── changelog.json        # per-note edit history (hand-edited)
     │   ├── changelog.schema.json # schema for changelog.json
-    │   ├── general/     # shared notes (philosophiae, companions)
     │   ├── epistemica/  # epistemical notes (Modelling domains + elements)
-    │   └── technica/    # technical notes (cto/, pto/, op/)
+    │   └── technica/    # technical notes (cto/, pto/, op/, computation/)
 ```
 
 - Regenerate the search index after any corpus change: `make notes-index`.
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
-  section (`general`, `technica`, …).
+  section (`epistemica`, `technica`).
 
 ## Epistemica corpus
 
@@ -38,7 +37,8 @@ intro quote, `## Formulation` with the three questions including the recursive
 instance decomposition, `## References`) owned by the canonical philosophia
 guide at
 `https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`;
-the worked exemplar is `data/general/financial-sector.md`.
+the guide's Arithmetic case study is the worked exemplar, and the local
+companion is `data/epistemica/rees.md`.
 
 - The corpus was seeded from the Naturgnosis Notion *Modelado* export with
   `bin/import_epistemica.py <export-root>` (names normalized, CSV tags as
@@ -48,6 +48,22 @@ the worked exemplar is `data/general/financial-sector.md`.
   scope (the *ds* sub-scope of the Mathematical domain); elements best kept
   separate (differential/difference equations, operators, SDE, phase/state
   space) are reached through `links.json` rather than moved into it.
+- Run `make notes-index` afterwards, as for any corpus edit.
+
+## Computation corpus
+
+`data/technica/computation/` holds the computation notes — the domain notes
+(`algorithm.md`, `language-system.md`, `system.md`, …) and their element
+notes, preserving the export's subcollection tree
+(`computation/language-system/conceptual-model-language-system/python.md`).
+
+- Imported mechanically from the Notion *Computacion* export (a one-off
+  migration; the importer was not kept): names normalized, CSV tags as front
+  matter, relation properties and note links rewritten for the viewer, images
+  copied beside their note, Notion noise stripped; content preserved. The
+  corpus is now the source of truth.
+- The import is mechanical: the notes have not yet been converted to the
+  technical schema owned by the canonical philosophia guide.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Catalog

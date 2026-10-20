@@ -121,7 +121,7 @@ disabled.
 ## On Technical Notes
 
 Multinode notes (`src/note/app/data/technica/cto/es/multinode/`, e.g. `openapi.md`,
-`wildfly.md`, `marketing-technical-practice.md`) document one technical
+`wildfly.md`, `jobrunr.md`) document one technical
 instance with the shell from the canonical technica guide
 (`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md`)
 (`# …` / intro / three Formulation questions / References) plus a single

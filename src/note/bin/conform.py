@@ -53,12 +53,11 @@ DEFAULT_FILES = [
     NOTE / "app/data/technica/cto/es/multinode/openapi.md",
     NOTE / "app/data/technica/cto/es/multinode/java-ee-jakarta-ee.md",
     NOTE / "app/data/technica/cto/es/multinode/jobrunr.md",
-    NOTE / "app/data/technica/cto/es/multinode/marketing-technical-practice.md",
     NOTE / "app/data/technica/cto/es/multinode/wildfly.md",
     NOTE / "app/data/technica/cto/es/multinode/biotechnology.md",
     NOTE / "app/data/technica/pto/eclipse.md",
-    NOTE / "app/data/general/energy-technology.md",
-    NOTE / "app/data/general/physical-material-technology.md",
+    NOTE / "app/data/technica/cto/es/multinode/energy-technology.md",
+    NOTE / "app/data/technica/cto/es/multinode/physical-material-technology.md",
 ]
 
 BACKTICK_RE = re.compile(r"`([^`]*)`")

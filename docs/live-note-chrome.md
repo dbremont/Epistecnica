@@ -350,9 +350,9 @@ Rules applied beyond §7:
 
 Runtime libraries live in `src/note/app/vendor/`, version-pinned, referenced
 from live notes with a relative path (e.g. `../../vendor/alpine.min.js` from
-`data/general/*.html`). To add one: download the exact version, record its
-size and sha256 in the commit message, reference it relatively, and list it
-here.
+`data/epistemica/*.html`; adjust the prefix to the file's depth). To add one:
+download the exact version, record its size and sha256 in the commit message,
+reference it relatively, and list it here.
 
 | File                     | Version | Source                                    |
 |--------------------------|---------|-------------------------------------------|

@@ -1,0 +1,49 @@
+# In
+
+- Kernel Type
+- Modularity
+- Execution Model
+- Event Handling
+- Process Isolation
+- Threading Model
+- Scheduling Algorithm
+- IPC Mechanisms
+- Virtual Memory
+- Memory Protection
+- Allocation Strategy
+- Swapping / Paging
+- Driver Type
+- Driver Loading
+- Device Abstraction Layer
+- Interrupt Handling Interface
+- File System Interface
+- File System Types
+- Journaling & Metadata
+- I/O Model
+- Protocol Support
+- Socket Interface
+- Network Virtualization
+- Packet Processing Pipeline
+- Rendering API Layer
+- Display Server Protocol
+- Compositor / Window Manager
+- Graphics Driver Interface
+- GPU Scheduling & Memory Mgmt
+- Display Abstraction
+- Acceleration & Offloading
+- Access Control Mechanism
+- User Privilege Model
+- Sandboxing & Containment
+- Authentication & Audit
+- Bootloader
+- Kernel Initialization
+- Init System
+- Userspace Bootstrap
+- Calling Convention
+- Syscall Table
+- ABI Compatibility
+- Extension Mechanisms
+- Architecture Support
+- Hardware Abstraction Layer (HAL)
+- Platform Portability
+- PTY

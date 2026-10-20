@@ -1,0 +1,11 @@
+# Python: Memory Model
+
+Here are the key aspects of the Python memory model:
+
+- **Objects and References**: In Python, all data is represented by objects, which are stored in memory. Each object has a unique identity, a type, and a value. References are used to access objects in memory, and each reference points to a specific object.
+- **Reference Counting**: Python uses reference counting to keep track of how many references are pointing to each object. When an object is created, its reference count is set to 1. Each time a new reference to the object is created, the reference count is incremented. When a reference is deleted, the reference count is decremented. When the reference count reaches 0, the object is no longer accessible and is automatically deleted by the garbage collector.
+- **Garbage Collection**: Python has a built-in garbage collector that automatically frees up memory that is no longer being used by objects. The garbage collector periodically scans the memory for objects that are no longer being referenced and deletes them.
+- **Mutable vs Immutable Objects**: In Python, objects can be mutable or immutable. Immutable objects, such as integers and strings, cannot be changed after they are created. Mutable objects, such as lists and dictionaries, can be changed after they are created. When a mutable object is changed, a new object is typically created in memory and the old object is discarded.
+- **Memory Management**: Python manages memory using a combination of reference counting and garbage collection. Reference counting is used to track references to objects in memory, while garbage collection is used to automatically free up memory that is no longer being used. Python also provides tools for fine-grained memory management, such as the `gc` module, which allows for more precise control over the garbage collector.
+
+Overall, the Python memory model is designed to provide a flexible and efficient system for managing memory and objects in a dynamic programming environment.

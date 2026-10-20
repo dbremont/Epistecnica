@@ -1,0 +1,2086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Epistemic Artifact Type: Concept</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    /* ---- note.html frame: layout / header / card / sidebar ---- */
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul, .markdown-body ol { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 0 1.1em;
+      font-size: 0.85rem;
+    }
+    .markdown-body th {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-align: left;
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.5em 0.75em;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body tr:last-child td { border-bottom: none; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .site-nav .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-nav .nav-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+
+
+    .theme-toggle {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer .foot-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* Page aliases onto the shared tokens */
+    :root {
+      --bg: var(--bg-void);
+      --bg-elevated: var(--bg-surface);
+      --fg: var(--text-primary);
+      --fg-muted: var(--text-secondary);
+      --fg-dim: var(--text-muted);
+      --accent: var(--accent-gold);
+      --accent-dim: var(--accent-gold);
+      --accent-glow: var(--accent-gold-dim);
+      --concept-intension: var(--accent-gold);
+      --concept-extension: var(--accent-cyan);
+      --concept-boundary: #7a5ad4;
+      --valid: #4a9d6e;
+      --invalid: #c45d5d;
+      --border: var(--border-subtle);
+      --border-active: var(--text-muted);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-display);
+      background: var(--bg);
+      color: var(--fg);
+      margin: 0;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .mono {
+      font-family: var(--font-mono);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--border-active);
+    }
+
+    /* Layout */
+    .notebook-container {
+      display: grid;
+      grid-template-columns: 320px 1fr 340px;
+      grid-template-rows: auto 1fr;
+      min-height: 100vh;
+      gap: 1px;
+      background: var(--border);
+    }
+
+    .panel {
+      background: var(--bg);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .panel-header {
+      padding: 20px 24px 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-elevated);
+    }
+
+    .panel-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px 24px 24px;
+    }
+
+    /* Typography */
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--fg-muted);
+      margin: 0 0 12px;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0 0 8px;
+    }
+
+    p {
+      margin: 0 0 12px;
+      line-height: 1.6;
+      color: var(--fg-muted);
+    }
+
+    .definition {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--fg);
+      padding: 16px 20px;
+      background: var(--bg-card);
+      border-left: 3px solid var(--accent);
+      margin: 0 0 16px;
+    }
+
+    /* Concept Visualization */
+    .concept-canvas-container {
+      position: relative;
+      flex: 1;
+      min-height: 400px;
+      background: var(--bg-elevated);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #conceptCanvas {
+      width: 100%;
+      height: 100%;
+    }
+
+    .canvas-overlay {
+      position: absolute;
+      pointer-events: none;
+    }
+
+    .instance-tooltip {
+      position: absolute;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 0.15s, transform 0.15s;
+      pointer-events: none;
+      z-index: 100;
+      max-width: 200px;
+    }
+
+    .instance-tooltip.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Components */
+    .component-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .component-item {
+      padding: 12px 16px;
+      background: var(--bg-card);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .component-item:hover {
+      border-color: var(--border-active);
+      background: var(--bg-elevated);
+    }
+
+    .component-item.active {
+      border-color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .component-item h4 {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0 0 4px;
+    }
+
+    .component-item p {
+      font-size: 13px;
+      margin: 0;
+      color: var(--fg-dim);
+    }
+
+    /* Property Editor */
+    .property-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .property-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 14px;
+      background: var(--bg-card);
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .property-item:hover {
+      border-color: var(--concept-intension);
+    }
+
+    .property-item.disabled {
+      opacity: 0.4;
+    }
+
+    .property-checkbox {
+      width: 18px;
+      height: 18px;
+      border: 2px solid var(--concept-intension);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.15s;
+    }
+
+    .property-item:not(.disabled) .property-checkbox {
+      background: var(--concept-intension);
+    }
+
+    .property-checkbox svg {
+      width: 12px;
+      height: 12px;
+      stroke: var(--bg);
+      opacity: 0;
+    }
+
+    .property-item:not(.disabled) .property-checkbox svg {
+      opacity: 1;
+    }
+
+    .property-name {
+      font-size: 14px;
+      flex: 1;
+    }
+
+    .property-status {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: var(--border);
+    }
+
+    /* Extension Grid */
+    .extension-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .instance-chip {
+      padding: 8px 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .instance-chip:hover {
+      border-color: var(--concept-extension);
+      background: var(--accent-cyan-dim);
+    }
+
+    .instance-chip.boundary {
+      border-style: dashed;
+    }
+
+    .instance-chip.prototype {
+      border-color: var(--concept-boundary);
+      background: rgba(122, 90, 212, 0.1);
+    }
+
+    .instance-status {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--valid);
+    }
+
+    .instance-chip.invalid .instance-status {
+      background: var(--invalid);
+    }
+
+    /* Transformation Buttons */
+    .transform-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .transform-btn {
+      padding: 14px 16px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: left;
+    }
+
+    .transform-btn:hover {
+      border-color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .transform-btn:active {
+      transform: scale(0.98);
+    }
+
+    .transform-btn h4 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 0 4px;
+      color: var(--fg);
+    }
+
+    .transform-btn p {
+      font-size: 12px;
+      margin: 0;
+      color: var(--fg-dim);
+    }
+
+    /* Constraint Panel */
+    .constraint-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px;
+      background: var(--bg-card);
+      border-radius: 6px;
+      margin-bottom: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .constraint-indicator {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-top: 4px;
+      flex-shrink: 0;
+    }
+
+    .constraint-indicator.satisfied {
+      background: var(--valid);
+      box-shadow: 0 0 8px var(--valid);
+    }
+
+    .constraint-indicator.violated {
+      background: var(--invalid);
+      box-shadow: 0 0 8px var(--invalid);
+    }
+
+    .constraint-text h4 {
+      font-size: 14px;
+      margin: 0 0 2px;
+    }
+
+    .constraint-text p {
+      font-size: 12px;
+      margin: 0;
+      color: var(--fg-dim);
+    }
+
+    /* Trace History */
+    .trace-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .trace-item {
+      padding: 10px 12px;
+      background: var(--bg-card);
+      border-radius: 6px;
+      font-size: 13px;
+      border-left: 3px solid var(--accent-dim);
+    }
+
+    .trace-item:first-child {
+      border-left-color: var(--accent);
+    }
+
+    .trace-time {
+      font-size: 11px;
+      color: var(--fg-dim);
+      margin-top: 4px;
+    }
+
+    /* Header */
+    .main-header {
+      grid-column: 1 / -1;
+      padding: 20px 32px;
+      background: var(--bg-elevated);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-title {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+    }
+
+    .header-title span {
+      font-size: 14px;
+      color: var(--fg-dim);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--fg);
+      font-family: inherit;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--bg);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dim);
+      border-color: var(--accent-dim);
+    }
+
+    /* Layer Tabs */
+    .layer-tabs {
+      display: flex;
+      gap: 4px;
+      padding: 0 24px;
+      background: var(--bg-elevated);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .layer-tab {
+      padding: 12px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--fg-muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      background: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+
+    .layer-tab:hover {
+      color: var(--fg);
+    }
+
+    .layer-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* Info Panel */
+    .info-card {
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin-bottom: 16px;
+    }
+
+    .info-card h3 {
+      font-size: 15px;
+      margin: 0 0 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .info-card p {
+      font-size: 13px;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .badge {
+      font-size: 10px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-type {
+      background: var(--concept-boundary);
+      color: white;
+    }
+
+    /* Add Input */
+    .add-input-group {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .add-input-group input {
+      flex: 1;
+      padding: 10px 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--fg);
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .add-input-group input:focus {
+      border-color: var(--accent);
+    }
+
+    .add-input-group input::placeholder {
+      color: var(--fg-dim);
+    }
+
+    .add-btn {
+      padding: 10px 16px;
+      background: var(--accent);
+      border: none;
+      border-radius: 6px;
+      color: var(--bg);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .add-btn:hover {
+      background: var(--accent-dim);
+    }
+
+    /* Section */
+    .section {
+      margin-bottom: 24px;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-in {
+      animation: fadeIn 0.4s ease-out forwards;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    .pulse {
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .notebook-container {
+        grid-template-columns: 280px 1fr 300px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .notebook-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+      }
+      
+      .panel {
+        max-height: none;
+      }
+      
+      .concept-canvas-container {
+        min-height: 350px;
+      }
+    }
+
+    /* Focus styles */
+    button:focus-visible,
+    input:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Legend */
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 12px 16px;
+      background: var(--bg-card);
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+    }
+
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .legend-dot.intension { background: var(--concept-intension); }
+    .legend-dot.extension { background: var(--concept-extension); }
+    .legend-dot.boundary { background: var(--concept-boundary); }
+  </style>
+  <link rel="stylesheet" href="../../../shared/usearch.css">
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><a href="../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><span class="here">concept</span></div>
+      <h1 class="note-title">Concept</h1>
+      <div class="note-meta">
+        <span class="chip">live note</span>
+        <span class="chip">interactive</span>
+        <span class="chip">#concept</span>
+        <span class="chip">#artifact-type</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>A Concept is a structured epistemic artifact that partitions reality into instances and non-instances through a definable intension (conditions) and observable extension (members).</p>
+            </blockquote>
+
+            <h2 id="index">Index</h2>
+            <ul>
+              <li><a href="#formulation">Formulation</a> — element type, instance, function</li>
+              <li><a href="#conceptual-layer">Conceptual Layer</a> — type definition</li>
+              <li><a href="#epistemic-role">Epistemic Role</a> — categorical affirmations</li>
+              <li><a href="#instance-space">Instance Space</a> — intension, extension, prototype, boundary</li>
+              <li><a href="#constraint-system">Constraint System</a> — membership checks</li>
+              <li><a href="#instance-layer">Instance Layer</a> — worked instance</li>
+              <li><a href="#intension">Intension (Properties)</a> — defining properties</li>
+              <li><a href="#extension">Extension (Instances)</a> — members</li>
+              <li><a href="#transformations">Transformations</a> — specialize, generalize, differentiate, abstract</li>
+              <li><a href="#trace">Transformation Trace</a> — operation log</li>
+              <li><a href="#diagnostics">Diagnostic questions</a> — membership, boundaries</li>
+              <li><a href="#references">References</a> — schema</li>
+            </ul>
+
+            <h2 id="formulation">Formulation</h2>
+
+            <h3>What epistemic element type does this instance belong to?</h3>
+            <blockquote>
+              <p><strong>Concrete Epistemic Artifact</strong> — one realized concept instance (here: Bird) — produced by applying an <strong>Epistemic Operator</strong> (intension checks and transformations), and usable as an <strong>Epistemic Standard</strong> (non-empty intension, intension–extension consistency, prototype existence). Schema: <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>.</p>
+            </blockquote>
+
+            <h3>What is this epistemic instance?</h3>
+            <blockquote>
+              <p>A <strong>Concept</strong> worked through the prototype Bird: intension (has feathers, has wings, lays eggs, can fly, warm-blooded) and extension (sparrow, eagle, robin; boundary cases penguin, ostrich, kiwi, bat, archaeopteryx). Type: a structured epistemic artifact partitioning reality into instances and non-instances.</p>
+            </blockquote>
+
+            <h3>What grounds this reading?</h3>
+            <blockquote>
+              <p>It encodes <strong>categorical affirmations</strong> about reality: things belong together by virtue of shared properties, enabling recognition, inference, and communication. Specialize narrows the extension, generalize broadens it, differentiate splits, abstract merges — each recorded in the transformation trace.</p>
+            </blockquote>
+
+  <div class="notebook-container">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-title">
+        <span>Epistemic Artifact Type</span>
+      </div>
+      <div class="header-actions">
+        <button class="btn" onclick="resetInstance()" aria-label="Reset to prototype">Reset</button>
+        <button class="btn btn-primary" onclick="showTypeDefinition()" aria-label="Show type definition">Type Definition</button>
+      </div>
+    </header>
+
+    <!-- Left Panel: Conceptual Layer -->
+    <aside class="panel">
+      <div class="panel-header">
+        <h2 id="conceptual-layer">Conceptual Layer</h2>
+        <h3>Type Definition</h3>
+      </div>
+      <div class="panel-content">
+        <div class="definition">
+          A <strong>Concept</strong> is a structured epistemic artifact that partitions reality into instances and non-instances through a definable intension (conditions) and observable extension (members).
+        </div>
+
+        <div class="section">
+          <h2 id="epistemic-role">Epistemic Role</h2>
+          <p>Concepts encode <em>categorical affirmations</em> about reality: they assert that certain things belong together by virtue of shared properties, enabling recognition, inference, and communication.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="instance-space">Instance Space</h2>
+          <div class="component-list">
+            <div class="component-item active" onclick="selectComponent('intension')">
+              <h4>Intension</h4>
+              <p>The set of defining properties that determine membership</p>
+            </div>
+            <div class="component-item" onclick="selectComponent('extension')">
+              <h4>Extension</h4>
+              <p>The set of all entities satisfying the intension</p>
+            </div>
+            <div class="component-item" onclick="selectComponent('prototype')">
+              <h4>Prototype</h4>
+              <p>Canonical instance exhibiting all properties clearly</p>
+            </div>
+            <div class="component-item" onclick="selectComponent('boundary')">
+              <h4>Boundary</h4>
+              <p>Cases where membership is ambiguous or contested</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 id="constraint-system">Constraint System</h2>
+          <div id="constraintList"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Center: Instance Visualization -->
+    <main class="panel">
+      <div class="layer-tabs" role="tablist">
+        <button class="layer-tab active" role="tab" data-layer="instance" onclick="switchLayer('instance')">Instance View</button>
+        <button class="layer-tab" role="tab" data-layer="structure" onclick="switchLayer('structure')">Structure View</button>
+        <button class="layer-tab" role="tab" data-layer="transform" onclick="switchLayer('transform')">Transform Trace</button>
+      </div>
+      
+      <div class="concept-canvas-container">
+        <canvas id="conceptCanvas" aria-label="Concept visualization"></canvas>
+        <div class="instance-tooltip" id="tooltip"></div>
+      </div>
+
+      <div class="panel-content" style="padding-top: 0;">
+        <div class="legend">
+          <div class="legend-item">
+            <div class="legend-dot intension"></div>
+            <span>Intension Core</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot extension"></div>
+            <span>Extension Members</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot boundary"></div>
+            <span>Boundary Cases</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Right Panel: Instance Layer -->
+    <aside class="panel">
+      <div class="panel-header">
+        <h2 id="instance-layer">Instance Layer</h2>
+        <h3 id="instanceName">Concept: Bird</h3>
+      </div>
+      <div class="panel-content">
+        <div class="section">
+          <h2 id="intension">Intension (Properties)</h2>
+          <div class="property-list" id="propertyList"></div>
+          <div class="add-input-group">
+            <input type="text" id="newProperty" placeholder="Add property..." aria-label="New property name">
+            <button class="add-btn" onclick="addProperty()" aria-label="Add property">+</button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 id="extension">Extension (Instances)</h2>
+          <div class="extension-grid" id="extensionGrid"></div>
+          <div class="add-input-group">
+            <input type="text" id="newInstance" placeholder="Add instance..." aria-label="New instance name">
+            <button class="add-btn" onclick="addInstance()" aria-label="Add instance">+</button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 id="transformations">Transformations</h2>
+          <div class="transform-grid">
+            <button class="transform-btn" onclick="applyTransformation('specialize')">
+              <h4>Specialize</h4>
+              <p>Add property, narrow extension</p>
+            </button>
+            <button class="transform-btn" onclick="applyTransformation('generalize')">
+              <h4>Generalize</h4>
+              <p>Remove property, broaden extension</p>
+            </button>
+            <button class="transform-btn" onclick="applyTransformation('differentiate')">
+              <h4>Differentiate</h4>
+              <p>Split by distinguishing property</p>
+            </button>
+            <button class="transform-btn" onclick="applyTransformation('abstract')">
+              <h4>Abstract</h4>
+              <p>Remove distinguishing features</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 id="trace">Transformation Trace</h2>
+          <div class="trace-list" id="traceList"></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+            <h2 id="diagnostics">Diagnostic questions</h2>
+
+            <h3>What fails membership?</h3>
+            <blockquote>
+              <p>Constraint indicators flip from satisfied to violated — the instance is rejected from the extension until its properties conform.</p>
+            </blockquote>
+
+            <h3>What moves the intension/extension boundary?</h3>
+            <blockquote>
+              <p>Specialize adds a property and narrows the extension; generalize removes one and broadens it; differentiate splits by distinguishing property; abstract removes distinguishing features.</p>
+            </blockquote>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — schema of this page: epistemic element type, instance, function</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#index">Index</a>
+          <a class="toc-item" href="#formulation">Formulation</a>
+          <a class="toc-item" href="#conceptual-layer">Conceptual layer</a>
+          <a class="toc-item" href="#epistemic-role">Epistemic role</a>
+          <a class="toc-item" href="#instance-space">Instance space</a>
+          <a class="toc-item" href="#constraint-system">Constraint system</a>
+          <a class="toc-item" href="#instance-layer">Instance layer</a>
+          <a class="toc-item" href="#intension">Intension</a>
+          <a class="toc-item" href="#extension">Extension</a>
+          <a class="toc-item" href="#transformations">Transformations</a>
+          <a class="toc-item" href="#trace">Trace</a>
+          <a class="toc-item" href="#diagnostics">Diagnostics</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script>
+    // ========================================
+    // EPISTEMIC ARTIFACT TYPE: CONCEPT
+    // ========================================
+
+    // Type Definition (Conceptual Layer)
+    const CONCEPT_TYPE = {
+      name: 'Concept',
+      definition: 'A structured epistemic artifact that partitions reality into instances and non-instances',
+      epistemicRole: 'Encodes categorical affirmations about reality',
+      constraints: [
+        {
+          id: 'nonempty-intension',
+          name: 'Non-empty Intension',
+          description: 'Must have at least one defining property',
+          check: (instance) => instance.intension.filter(p => p.enabled).length > 0
+        },
+        {
+          id: 'intension-extension-consistency',
+          name: 'Intension-Extension Consistency',
+          description: 'Each extension member must satisfy all enabled intension properties',
+          check: (instance) => {
+            const enabledProps = instance.intension.filter(p => p.enabled);
+            return instance.extension.every(ext => {
+              return enabledProps.every(prop => ext.satisfiedProperties.includes(prop.id));
+            });
+          }
+        },
+        {
+          id: 'prototype-existence',
+          name: 'Prototype Existence',
+          description: 'Should have at least one prototypical instance',
+          check: (instance) => instance.extension.some(e => e.isPrototype)
+        },
+        {
+          id: 'property-independence',
+          name: 'Property Independence',
+          description: 'No property should be redundant with others',
+          check: (instance) => true // Simplified for demo
+        }
+      ],
+      transformations: {
+        specialize: {
+          name: 'Specialize',
+          description: 'Add a property to narrow the extension',
+          effect: 'Narrows extension, preserves or reduces boundary'
+        },
+        generalize: {
+          name: 'Generalize',
+          description: 'Remove a property to broaden the extension',
+          effect: 'Broadens extension, may absorb boundary cases'
+        },
+        differentiate: {
+          name: 'Differentiate',
+          description: 'Split concept by introducing distinguishing property',
+          effect: 'Creates two subconcepts'
+        },
+        abstract: {
+          name: 'Abstract',
+          description: 'Remove distinguishing features to create superconcept',
+          effect: 'Merges distinctions, broadens extension'
+        }
+      }
+    };
+
+    // ========================================
+    // PROTOTYPICAL INSTANCE
+    // ========================================
+
+    const PROTOTYPE_INSTANCE = {
+      name: 'Bird',
+      intension: [
+        { id: 'feathers', name: 'Has feathers', enabled: true },
+        { id: 'wings', name: 'Has wings', enabled: true },
+        { id: 'eggs', name: 'Lays eggs', enabled: true },
+        { id: 'flight', name: 'Can fly', enabled: true },
+        { id: 'warm-blooded', name: 'Warm-blooded', enabled: true }
+      ],
+      extension: [
+        { id: 'sparrow', name: 'Sparrow', isPrototype: false, isBoundary: false, satisfiedProperties: ['feathers', 'wings', 'eggs', 'flight', 'warm-blooded'] },
+        { id: 'eagle', name: 'Eagle', isPrototype: true, isBoundary: false, satisfiedProperties: ['feathers', 'wings', 'eggs', 'flight', 'warm-blooded'] },
+        { id: 'robin', name: 'Robin', isPrototype: false, isBoundary: false, satisfiedProperties: ['feathers', 'wings', 'eggs', 'flight', 'warm-blooded'] },
+        { id: 'penguin', name: 'Penguin', isPrototype: false, isBoundary: true, satisfiedProperties: ['feathers', 'wings', 'eggs', 'warm-blooded'] },
+        { id: 'ostrich', name: 'Ostrich', isPrototype: false, isBoundary: true, satisfiedProperties: ['feathers', 'wings', 'eggs', 'warm-blooded'] },
+        { id: 'kiwi', name: 'Kiwi', isPrototype: false, isBoundary: true, satisfiedProperties: ['feathers', 'wings', 'eggs', 'warm-blooded'] },
+        { id: 'bat', name: 'Bat', isPrototype: false, isBoundary: true, satisfiedProperties: ['wings', 'flight', 'warm-blooded'] },
+        { id: 'archaeopteryx', name: 'Archaeopteryx', isPrototype: false, isBoundary: true, satisfiedProperties: ['feathers', 'wings', 'eggs'] }
+      ]
+    };
+
+    // ========================================
+    // STATE MANAGEMENT
+    // ========================================
+
+    let currentInstance = null;
+    let transformTrace = [];
+    let canvas = null;
+    let ctx = null;
+    let animationFrame = null;
+    let hoveredInstance = null;
+    let particlePositions = [];
+
+    // Initialize state
+    function initializeState() {
+      currentInstance = JSON.parse(JSON.stringify(PROTOTYPE_INSTANCE));
+      transformTrace = [{
+        type: 'init',
+        description: 'Initialized prototype: Bird',
+        timestamp: new Date()
+      }];
+      particlePositions = [];
+    }
+
+    // ========================================
+    // CONSTRAINT VALIDATION ENGINE
+    // ========================================
+
+    function validateConstraints() {
+      return CONCEPT_TYPE.constraints.map(constraint => ({
+        ...constraint,
+        satisfied: constraint.check(currentInstance)
+      }));
+    }
+
+    // ========================================
+    // RENDERING
+    // ========================================
+
+    function renderPropertyList() {
+      const container = document.getElementById('propertyList');
+      container.innerHTML = '';
+      
+      currentInstance.intension.forEach(prop => {
+        const item = document.createElement('div');
+        item.className = `property-item ${prop.enabled ? '' : 'disabled'}`;
+        item.onclick = () => toggleProperty(prop.id);
+        item.setAttribute('role', 'checkbox');
+        item.setAttribute('aria-checked', prop.enabled);
+        item.tabIndex = 0;
+        item.onkeydown = (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleProperty(prop.id);
+          }
+        };
+        
+        item.innerHTML = `
+          <div class="property-checkbox">
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 6l3 3 5-5"/>
+            </svg>
+          </div>
+          <span class="property-name">${prop.name}</span>
+          <span class="property-status mono">${prop.enabled ? 'active' : 'inactive'}</span>
+        `;
+        
+        container.appendChild(item);
+      });
+    }
+
+    function renderExtensionGrid() {
+      const container = document.getElementById('extensionGrid');
+      container.innerHTML = '';
+      
+      const enabledProps = currentInstance.intension.filter(p => p.enabled);
+      
+      currentInstance.extension.forEach(ext => {
+        const satisfiesAll = enabledProps.every(prop => ext.satisfiedProperties.includes(prop.id));
+        
+        const chip = document.createElement('div');
+        chip.className = `instance-chip ${ext.isBoundary ? 'boundary' : ''} ${ext.isPrototype ? 'prototype' : ''} ${satisfiesAll ? '' : 'invalid'}`;
+        chip.onclick = () => showInstanceDetails(ext);
+        chip.onmouseenter = () => highlightInstance(ext);
+        chip.onmouseleave = () => unhighlightInstance();
+        
+        chip.innerHTML = `
+          <span>${ext.name}</span>
+          <span class="instance-status"></span>
+        `;
+        
+        container.appendChild(chip);
+      });
+    }
+
+    function renderConstraintList() {
+      const container = document.getElementById('constraintList');
+      container.innerHTML = '';
+      
+      const constraints = validateConstraints();
+      
+      constraints.forEach(c => {
+        const item = document.createElement('div');
+        item.className = 'constraint-item';
+        
+        item.innerHTML = `
+          <div class="constraint-indicator ${c.satisfied ? 'satisfied' : 'violated'}"></div>
+          <div class="constraint-text">
+            <h4>${c.name}</h4>
+            <p>${c.description}</p>
+          </div>
+        `;
+        
+        container.appendChild(item);
+      });
+    }
+
+    function renderTraceList() {
+      const container = document.getElementById('traceList');
+      container.innerHTML = '';
+      
+      const recentTraces = transformTrace.slice(-5).reverse();
+      
+      recentTraces.forEach((trace, i) => {
+        const item = document.createElement('div');
+        item.className = 'trace-item';
+        item.style.opacity = 1 - (i * 0.15);
+        
+        const time = trace.timestamp.toLocaleTimeString();
+        
+        item.innerHTML = `
+          <div>${trace.description}</div>
+          <div class="trace-time mono">${time}</div>
+        `;
+        
+        container.appendChild(item);
+      });
+    }
+
+    // ========================================
+    // THEME PALETTE (reads the shared tokens)
+    // ========================================
+
+    const BOUNDARY = '#7a5ad4';
+    const INVALID = '#c45d5d';
+
+    function themeColors() {
+      const s = getComputedStyle(document.documentElement);
+      return {
+        primary: s.getPropertyValue('--text-primary').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim()
+      };
+    }
+
+    function withAlpha(color, alpha) {
+      const m = /^#([0-9a-f]{6})$/i.exec(color);
+      if (m) {
+        const n = parseInt(m[1], 16);
+        return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + alpha + ')';
+      }
+      return color;
+    }
+
+    // ========================================
+    // CANVAS VISUALIZATION
+    // ========================================
+
+    function initCanvas() {
+      canvas = document.getElementById('conceptCanvas');
+      ctx = canvas.getContext('2d');
+      
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
+      
+      canvas.addEventListener('mousemove', handleCanvasMouseMove);
+      canvas.addEventListener('mouseleave', handleCanvasMouseLeave);
+      
+      animate();
+    }
+
+    function resizeCanvas() {
+      const container = canvas.parentElement;
+      const dpr = window.devicePixelRatio || 1;
+      
+      canvas.width = container.clientWidth * dpr;
+      canvas.height = container.clientHeight * dpr;
+      canvas.style.width = container.clientWidth + 'px';
+      canvas.style.height = container.clientHeight + 'px';
+      
+      ctx.scale(dpr, dpr);
+      
+      initializeParticlePositions();
+    }
+
+    function initializeParticlePositions() {
+      const enabledProps = currentInstance.intension.filter(p => p.enabled);
+      const width = canvas.clientWidth;
+      const height = canvas.clientHeight;
+      const centerX = width / 2;
+      const centerY = height / 2;
+      
+      // Initialize positions if needed
+      if (particlePositions.length !== currentInstance.extension.length) {
+        particlePositions = currentInstance.extension.map((ext, i) => {
+          const angle = (i / currentInstance.extension.length) * Math.PI * 2;
+          const radius = ext.isBoundary ? 140 : 90;
+          return {
+            x: centerX + Math.cos(angle) * radius,
+            y: centerY + Math.sin(angle) * radius,
+            targetX: centerX + Math.cos(angle) * radius,
+            targetY: centerY + Math.sin(angle) * radius,
+            vx: 0,
+            vy: 0
+          };
+        });
+      }
+    }
+
+    function animate() {
+      const width = canvas.clientWidth;
+      const height = canvas.clientHeight;
+      const centerX = width / 2;
+      const centerY = height / 2;
+      const colors = themeColors();
+
+      // Clear
+      ctx.fillStyle = colors.surface;
+      ctx.fillRect(0, 0, width, height);
+
+      // Background glow
+      const bgGrad = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, Math.max(width, height) / 2);
+      bgGrad.addColorStop(0, withAlpha(colors.gold, '0.03'));
+      bgGrad.addColorStop(1, 'rgba(0, 0, 0, 0)');
+      ctx.fillStyle = bgGrad;
+      ctx.fillRect(0, 0, width, height);
+      
+      const enabledProps = currentInstance.intension.filter(p => p.enabled);
+      
+      // Draw boundary zone (outer ring)
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, 170, 0, Math.PI * 2);
+      ctx.strokeStyle = withAlpha(BOUNDARY, '0.2');
+      ctx.lineWidth = 20;
+      ctx.stroke();
+      
+      // Draw extension boundary (inner ring)
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, 120, 0, Math.PI * 2);
+      ctx.strokeStyle = withAlpha(colors.cyan, '0.2');
+      ctx.lineWidth = 15;
+      ctx.stroke();
+      
+      // Draw intension core
+      const coreRadius = 50;
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, coreRadius, 0, Math.PI * 2);
+      const coreGrad = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, coreRadius);
+      coreGrad.addColorStop(0, withAlpha(colors.gold, '0.4'));
+      coreGrad.addColorStop(1, withAlpha(colors.gold, '0.1'));
+      ctx.fillStyle = coreGrad;
+      ctx.fill();
+      ctx.strokeStyle = colors.gold;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+      
+      // Draw property segments around core
+      enabledProps.forEach((prop, i) => {
+        const angle = (i / enabledProps.length) * Math.PI * 2 - Math.PI / 2;
+        const segRadius = 30;
+        const segX = centerX + Math.cos(angle) * 65;
+        const segY = centerY + Math.sin(angle) * 65;
+        
+        ctx.beginPath();
+        ctx.arc(segX, segY, segRadius * 0.6, 0, Math.PI * 2);
+        ctx.fillStyle = withAlpha(colors.gold, '0.3');
+        ctx.fill();
+
+        // Property name
+        ctx.fillStyle = colors.gold;
+        ctx.font = '11px "JetBrains Mono"';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        const label = prop.name.length > 15 ? prop.name.substring(0, 12) + '...' : prop.name;
+        ctx.fillText(label, segX, segY);
+      });
+      
+      // Draw extension particles
+      currentInstance.extension.forEach((ext, i) => {
+        if (!particlePositions[i]) {
+          particlePositions[i] = {
+            x: centerX,
+            y: centerY,
+            targetX: centerX,
+            targetY: centerY,
+            vx: 0,
+            vy: 0
+          };
+        }
+        
+        const pos = particlePositions[i];
+        const satisfiesAll = enabledProps.every(prop => ext.satisfiedProperties.includes(prop.id));
+        
+        // Calculate target position
+        const angle = (i / currentInstance.extension.length) * Math.PI * 2;
+        const baseRadius = ext.isBoundary ? 160 : 100;
+        const targetRadius = satisfiesAll ? baseRadius : 190;
+        pos.targetX = centerX + Math.cos(angle) * targetRadius;
+        pos.targetY = centerY + Math.sin(angle) * targetRadius;
+        
+        // Smooth movement
+        pos.x += (pos.targetX - pos.x) * 0.08;
+        pos.y += (pos.targetY - pos.y) * 0.08;
+        
+        // Draw particle
+        const particleRadius = ext.isPrototype ? 10 : 7;
+        const isHovered = hoveredInstance && hoveredInstance.id === ext.id;
+        
+        // Glow
+        if (isHovered || ext.isPrototype) {
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, particleRadius + 8, 0, Math.PI * 2);
+          const glowColor = ext.isBoundary ? withAlpha(BOUNDARY, '0.3') : withAlpha(colors.cyan, '0.3');
+          ctx.fillStyle = glowColor;
+          ctx.fill();
+        }
+        
+        // Core
+        ctx.beginPath();
+        ctx.arc(pos.x, pos.y, particleRadius, 0, Math.PI * 2);
+        
+        let fillColor;
+        if (!satisfiesAll) {
+          fillColor = INVALID;
+        } else if (ext.isBoundary) {
+          fillColor = BOUNDARY;
+        } else if (ext.isPrototype) {
+          fillColor = colors.gold;
+        } else {
+          fillColor = colors.cyan;
+        }
+        
+        ctx.fillStyle = fillColor;
+        ctx.fill();
+        
+        // Label
+        if (isHovered || ext.isPrototype) {
+          ctx.fillStyle = colors.primary;
+          ctx.font = '12px "Cormorant Garamond"';
+          ctx.textAlign = 'center';
+          ctx.fillText(ext.name, pos.x, pos.y - particleRadius - 8);
+        }
+      });
+      
+      // Draw intension label
+      ctx.fillStyle = colors.primary;
+      ctx.font = '14px "Cormorant Garamond"';
+      ctx.textAlign = 'center';
+      ctx.fillText(currentInstance.name, centerX, centerY);
+      
+      animationFrame = requestAnimationFrame(animate);
+    }
+
+    function handleCanvasMouseMove(e) {
+      const rect = canvas.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      
+      hoveredInstance = null;
+      
+      currentInstance.extension.forEach((ext, i) => {
+        if (particlePositions[i]) {
+          const pos = particlePositions[i];
+          const dist = Math.sqrt((x - pos.x) ** 2 + (y - pos.y) ** 2);
+          if (dist < 15) {
+            hoveredInstance = ext;
+            showTooltip(ext, e.clientX, e.clientY);
+          }
+        }
+      });
+      
+      if (!hoveredInstance) {
+        hideTooltip();
+      }
+    }
+
+    function handleCanvasMouseLeave() {
+      hoveredInstance = null;
+      hideTooltip();
+    }
+
+    function showTooltip(instance, x, y) {
+      const tooltip = document.getElementById('tooltip');
+      const enabledProps = currentInstance.intension.filter(p => p.enabled);
+      const satisfied = enabledProps.filter(p => instance.satisfiedProperties.includes(p.id));
+      
+      tooltip.innerHTML = `
+        <strong>${instance.name}</strong><br>
+        <span style="color: var(--fg-dim)">Properties satisfied:</span> ${satisfied.length}/${enabledProps.length}<br>
+        ${instance.isBoundary ? '<span style="color: var(--concept-boundary)">Boundary case</span>' : ''}
+        ${instance.isPrototype ? '<span style="color: var(--concept-intension)">Prototype</span>' : ''}
+      `;
+      
+      const containerRect = canvas.parentElement.getBoundingClientRect();
+      tooltip.style.left = (x - containerRect.left + 15) + 'px';
+      tooltip.style.top = (y - containerRect.top - 15) + 'px';
+      tooltip.classList.add('visible');
+    }
+
+    function hideTooltip() {
+      document.getElementById('tooltip').classList.remove('visible');
+    }
+
+    function highlightInstance(instance) {
+      hoveredInstance = instance;
+    }
+
+    function unhighlightInstance() {
+      hoveredInstance = null;
+    }
+
+    function showInstanceDetails(instance) {
+      const enabledProps = currentInstance.intension.filter(p => p.enabled);
+      const satisfied = enabledProps.filter(p => instance.satisfiedProperties.includes(p.id));
+      
+      alert(`${instance.name}\n\nPrototype: ${instance.isPrototype ? 'Yes' : 'No'}\nBoundary: ${instance.isBoundary ? 'Yes' : 'No'}\n\nSatisfied properties (${satisfied.length}/${enabledProps.length}):\n${satisfied.map(p => '✓ ' + p.name).join('\n')}`);
+    }
+
+    // ========================================
+    // INTERACTION HANDLERS
+    // ========================================
+
+    function toggleProperty(propId) {
+      const prop = currentInstance.intension.find(p => p.id === propId);
+      if (prop) {
+        prop.enabled = !prop.enabled;
+        
+        transformTrace.push({
+          type: 'toggle-property',
+          description: `${prop.enabled ? 'Enabled' : 'Disabled'} property: ${prop.name}`,
+          timestamp: new Date()
+        });
+        
+        render();
+      }
+    }
+
+    function addProperty() {
+      const input = document.getElementById('newProperty');
+      const name = input.value.trim();
+      
+      if (name) {
+        const id = name.toLowerCase().replace(/\s+/g, '-');
+        
+        currentInstance.intension.push({
+          id,
+          name,
+          enabled: true
+        });
+        
+        transformTrace.push({
+          type: 'add-property',
+          description: `Added property: ${name}`,
+          timestamp: new Date()
+        });
+        
+        input.value = '';
+        render();
+      }
+    }
+
+    function addInstance() {
+      const input = document.getElementById('newInstance');
+      const name = input.value.trim();
+      
+      if (name) {
+        const id = name.toLowerCase().replace(/\s+/g, '-');
+        
+        currentInstance.extension.push({
+          id,
+          name,
+          isPrototype: false,
+          isBoundary: true,
+          satisfiedProperties: []
+        });
+        
+        transformTrace.push({
+          type: 'add-instance',
+          description: `Added instance: ${name}`,
+          timestamp: new Date()
+        });
+        
+        input.value = '';
+        initializeParticlePositions();
+        render();
+      }
+    }
+
+    function applyTransformation(type) {
+      const transform = CONCEPT_TYPE.transformations[type];
+      
+      switch (type) {
+        case 'specialize':
+          // Add a new specialized property
+          const newProp = {
+            id: 'special-' + Date.now(),
+            name: 'Specialized trait',
+            enabled: true
+          };
+          currentInstance.intension.push(newProp);
+          break;
+          
+        case 'generalize':
+          // Disable a property
+          const propToDisable = currentInstance.intension.find(p => p.enabled);
+          if (propToDisable) {
+            propToDisable.enabled = false;
+          }
+          break;
+          
+        case 'differentiate':
+          // Split concept - just show message for demo
+          alert('Differentiation would create two subconcepts:\n\n1. Bird (flying)\n2. Bird (flightless)\n\nThis demonstrates how concepts can be split by introducing a distinguishing property.');
+          break;
+          
+        case 'abstract':
+          // Disable multiple properties
+          const enabledProps = currentInstance.intension.filter(p => p.enabled);
+          if (enabledProps.length > 1) {
+            enabledProps[0].enabled = false;
+          }
+          break;
+      }
+      
+      transformTrace.push({
+        type,
+        description: `Applied transformation: ${transform.name}`,
+        timestamp: new Date()
+      });
+      
+      render();
+    }
+
+    function resetInstance() {
+      initializeState();
+      render();
+    }
+
+    function showTypeDefinition() {
+      alert(`EPISTEMIC ARTIFACT TYPE: CONCEPT\n\n` +
+        `Definition:\n${CONCEPT_TYPE.definition}\n\n` +
+        `Epistemic Role:\n${CONCEPT_TYPE.epistemicRole}\n\n` +
+        `Constraints:\n${CONCEPT_TYPE.constraints.map(c => `• ${c.name}: ${c.description}`).join('\n')}\n\n` +
+        `Transformations:\n${Object.values(CONCEPT_TYPE.transformations).map(t => `• ${t.name}: ${t.description}`).join('\n')}`);
+    }
+
+    function selectComponent(component) {
+      document.querySelectorAll('.component-item').forEach(item => {
+        item.classList.remove('active');
+      });
+      event.currentTarget.classList.add('active');
+    }
+
+    function switchLayer(layer) {
+      document.querySelectorAll('.layer-tab').forEach(tab => {
+        tab.classList.remove('active');
+        if (tab.dataset.layer === layer) {
+          tab.classList.add('active');
+        }
+      });
+    }
+
+    // ========================================
+    // MAIN RENDER
+    // ========================================
+
+    function render() {
+      document.getElementById('instanceName').textContent = `Concept: ${currentInstance.name}`;
+      renderPropertyList();
+      renderExtensionGrid();
+      renderConstraintList();
+      renderTraceList();
+    }
+
+    // ========================================
+    // INITIALIZATION
+    // ========================================
+
+    function init() {
+      initializeState();
+      initCanvas();
+      render();
+      
+      // Keyboard support for inputs
+      document.getElementById('newProperty').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') addProperty();
+      });
+      
+      document.getElementById('newInstance').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') addInstance();
+      });
+    }
+
+    // Check for reduced motion preference
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+  <script>
+    // ========================================
+    // Sidebar TOC highlight (mirrors note.html)
+    // ========================================
+    function initTocHighlight() {
+      const items = document.querySelectorAll('#toc .toc-item');
+      if (!items.length || !('IntersectionObserver' in window)) return;
+      const sections = Array.from(items).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const idx = sections.indexOf(entry.target);
+          items.forEach(it => it.classList.remove('active'));
+          if (items[idx]) items[idx].classList.add('active');
+        });
+      }, { rootMargin: '-10% 0px -60% 0px' });
+      sections.forEach(s => observer.observe(s));
+    }
+
+    // ========================================
+    // Ambient constellation (mirrors note.html)
+    // ========================================
+    function initAmbient() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let pts = [];
+      const LINK_DIST = 130;
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+        pts = [];
+        for (let i = 0; i < count; i++) {
+          pts.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.4 + 0.4
+          });
+        }
+      }
+      function tick() {
+        const light = document.documentElement.dataset.theme === 'light';
+        const dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+        const linkRGB = light ? '154, 123, 63' : '197, 164, 103';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < pts.length; i++) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+          ctx.fill();
+          for (let j = i + 1; j < pts.length; j++) {
+            const m = pts[j];
+            const dx = p.x - m.x, dy = p.y - m.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < LINK_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(tick);
+    }
+    document.addEventListener('DOMContentLoaded', () => { initTocHighlight(); initAmbient(); });
+  </script>
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+  <script src="../../../shared/usearch.js" data-root="../../../"></script>
+</body>
+</html>

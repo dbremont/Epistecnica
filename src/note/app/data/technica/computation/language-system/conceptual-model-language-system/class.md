@@ -1,0 +1,5 @@
+---
+tags: [type-system]
+---
+
+# Class
