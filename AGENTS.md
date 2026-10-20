@@ -36,7 +36,7 @@ src/app/                hub page (index.html, served at /) + docs.html + graph/ 
 src/note/…              notes corpus + catalog/viewer (app/ incl. app/data/ + live notes, bin/index.py) + tags — see src/note/README.md
 src/course/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures, bin/index.py) — see src/course/README.md
 src/document/…          documents corpus + catalog/viewer (papers/articles/books, bin/index.py) — see src/document/README.md
-spec/                   general spec + shared design system
+spec/                   general spec + shared design system + epistemic-content extraction method
 docs/                   documentation hub
 Makefile, Dockerfile    project operations (make run/check/build/deploy-*/logs/stop) + combined image
 .github/workflows/      one workflow building ghcr.io/dbremont/epistecnica

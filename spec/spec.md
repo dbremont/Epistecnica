@@ -132,3 +132,7 @@ the browser. The backend has no AI endpoints and must never hold keys.
   practice/technique.
 - Overview statistics strip (corpus counts, tags, entropies) computed
   client-side.
+
+## 8. Method specs
+
+- Book-to-forest epistemic extraction: [`epistemic-content-extraction.md`](epistemic-content-extraction.md) — the reusable algorithm, data contracts, quality gates, and run policy used for the Korzybski extraction.
