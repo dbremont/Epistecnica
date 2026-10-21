@@ -14,3 +14,7 @@
 ## Notes
 
 ---
+
+## References
+
+- [Irodov — Problems in General Physics (PDF)](https://dn710308.ca.archive.org/0/items/IrodovProblemsInGeneralPhysics/Irodov-Problems_in_General_Physics.pdf)
