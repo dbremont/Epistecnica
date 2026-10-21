@@ -91,7 +91,7 @@ Conceptual Model: Observational
 - https://en.wikipedia.org/wiki/Latent_variable_model
 - https://en.wikipedia.org/wiki/Smoothing
 - https://en.wikipedia.org/wiki/Curve_fitting
-- [Reproducing Kernel Hilbert Space](mathematical/reproducing-kernel-hilbert-space.md)
+- [Reproducing Kernel Hilbert Space](mathematical/space/reproducing-kernel-hilbert-space.md)
 - https://en.wikipedia.org/wiki/Machine_learning
 - [Optimization](optimization.md)
 - Kernel

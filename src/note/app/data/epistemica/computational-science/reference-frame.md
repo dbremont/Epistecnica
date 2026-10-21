@@ -111,7 +111,7 @@ Open question,  see:
 
 ## References
 
-- [Space](../mathematical/space.md)
+- [Space](../mathematical/space/space.md)
 - [Motion](https://app.notion.com/p/Motion-32ac0f5171ec80dca1b8fd42eaaf5f1c?pvs=21)
 - [Reference System](https://app.notion.com/p/Reference-System-1c3c0f5171ec803c8457da5ed1936028?pvs=21)
 - [Coordinate System](../mathematical/coordinate-system.md)

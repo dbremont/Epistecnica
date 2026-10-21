@@ -59,6 +59,114 @@
       "to": "epistemica/computational-science/system-dynamics.md",
       "label": "System Dynamics",
       "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/mathematical-structure.md",
+      "label": "Mathematical Structure",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/mathematical-object.md",
+      "label": "Mathematical Object",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/geometry.md",
+      "label": "Geometry",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/topology.md",
+      "label": "Topology",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/order.md",
+      "label": "Order",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/measure.md",
+      "label": "Measure",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/algebra.md",
+      "label": "Algebra",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/manifold.md",
+      "label": "Manifold",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/coordinate-system.md",
+      "label": "Coordinate System",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/vector.md",
+      "label": "Vector",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/linear-algebra.md",
+      "label": "Linear Algebra",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/operator.md",
+      "label": "Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/computational-science/phase-space.md",
+      "label": "Phase Space",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/computational-science/configuration-space.md",
+      "label": "Configuration Space",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/computational-science/state-space-model.md",
+      "label": "State-Space Models",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/computational-science/reference-frame.md",
+      "label": "Reference Frame",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/computational-science/quantum-framework.md",
+      "label": "Quantum Framework",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/computational-science/quantum-field-theory-qft.md",
+      "label": "Quantum Field Theory",
+      "kind": "related"
     }
   ]
 }

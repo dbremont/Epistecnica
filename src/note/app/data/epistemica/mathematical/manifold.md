@@ -57,7 +57,7 @@ QA:
 - https://en.wikipedia.org/wiki/Schwarzschild_metric
 - https://en.wikipedia.org/wiki/Pseudo-Riemannian_manifold
 - https://en.wikipedia.org/wiki/Atlas_(topology)
-- [Euclidean Space](euclidean-space.md)
+- [Euclidean Space](space/euclidean-space.md)
 - https://www.youtube.com/watch?v=2MUGrOy4Ce8
 - [Coordinate System](coordinate-system.md)
 - https://www.youtube.com/watch?v=KZjoxwUxlIs

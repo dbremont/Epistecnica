@@ -45,4 +45,4 @@ tags: [framework]
 - [Quantum Field Theory](https://en.wikipedia.org/wiki/Quantum_field_theory)
 - https://en.wikipedia.org/wiki/Classical_field_theory
 
-[Hilbert Space](../mathematical/hilbert-space.md)
+[Hilbert Space](../mathematical/space/hilbert-space.md)

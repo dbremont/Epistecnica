@@ -153,6 +153,6 @@ tags: [abstract-framework]
 - https://en.wikipedia.org/wiki/Rating
 - https://en.wikipedia.org/wiki/Ranking
 - https://en.wikipedia.org/wiki/Mean
-- [Metric Space](../mathematical/metric-space.md)
+- [Metric Space](../mathematical/space/metric-space.md)
 - https://en.wikipedia.org/wiki/Cosine_similarity
 - https://en.wikipedia.org/wiki/Similarity_measure

@@ -65,7 +65,7 @@ Where:
 > A measure of separation between points, which can define notions of length, metric properties, and geodesics. Examples include Euclidean distance, hyperbolic distance, and Manhattan distance.
 > 
 
-> See more in [Metric Space](metric-space.md).l
+> See more in [Metric Space](space/metric-space.md).l
 > 
 
 ### Angle

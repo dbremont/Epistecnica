@@ -335,13 +335,13 @@ Overall the instance is mature and heavily validated; what its warrant is condit
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Linear Space](note.html?n=epistemica/mathematical/linear-space.md)
+- [Linear Space](note.html?n=epistemica/mathematical/space/linear-space.md)
 - [Matrix](note.html?n=epistemica/mathematical/matrix.md)
-- [Normed Vector Space](note.html?n=epistemica/mathematical/normed-vector-space.md)
+- [Normed Vector Space](note.html?n=epistemica/mathematical/space/normed-vector-space.md)
 - [Norm](note.html?n=epistemica/mathematical/norm.md)
 - [Tensor](note.html?n=epistemica/mathematical/tensor.md)
 - [Linear Map](note.html?n=epistemica/mathematical/linear-map.md)
-- [Inner Product Space](note.html?n=epistemica/mathematical/inner-product-space.md)
+- [Inner Product Space](note.html?n=epistemica/mathematical/space/inner-product-space.md)
 - [Field](note.html?n=epistemica/mathematical/field.md)
 - [Linear Functional](note.html?n=epistemica/mathematical/linear-functional.md)
 - [Eigenvector](note.html?n=epistemica/mathematical/eigenvector.md)

@@ -48,6 +48,10 @@ companion is `data/epistemica/rees.md`.
   scope (the *ds* sub-scope of the Mathematical domain); elements best kept
   separate (differential/difference equations, operators, SDE, phase/state
   space) are reached through `links.json` rather than moved into it.
+- The mathematical spaces live in the `epistemica/mathematical/space/`
+  scope, with `space/space.md` as the master note. Related foundational
+  notes (structure, geometry, topology, order, measure, algebra, coordinate
+  systems) stay in `mathematical/` and are reached through `links.json`.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Computation corpus

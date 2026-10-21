@@ -77,5 +77,5 @@ But when functions become non-measurable, non-integrable, non-approximable, or n
 ## References
 
 - https://en.wikipedia.org/wiki/Functional_decomposition
-- [Function Space](../mathematical/function-space.md)
+- [Function Space](../mathematical/space/function-space.md)
 - http://bactra.org/notebooks/basis-selection-in-function-decomposition.html
