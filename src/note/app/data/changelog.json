@@ -4760,6 +4760,16 @@
         "kind": "refactor",
         "summary": "Move into the mathematical/space/ scope.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Convert Sobolev Space to the epistemic schema: five formulation questions, a recursive instance decomposition rooted at `Mathematical Space` and narrowed to the specific kind `Sobolev Space`, modeling the representation/theory duality through the `Representational System (→ Part) Epistemic Element` link, analytical content preserved, with a historical APA bibliography."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "fix",
+        "summary": "Render the L²(0,1) definition as a display formula and state measurability explicitly."
       }
     ]
   },
