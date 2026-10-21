@@ -2733,6 +2733,16 @@
         "kind": "feat",
         "summary": "Import Feynman Diagram from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Mean Field Theory and Renormalization Group links after the observational-scope flatten."
       }
     ]
   },
@@ -5203,6 +5213,11 @@
         "kind": "feat",
         "summary": "Import Modelado from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move."
       }
     ]
   },
@@ -5404,6 +5419,11 @@
         "summary": "Update space links after the space-scope move.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
         "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move."
       }
     ]
   },
@@ -5800,6 +5820,11 @@
         "kind": "feat",
         "summary": "Import Computational Learning from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move."
       }
     ]
   },
@@ -7599,6 +7624,11 @@
         "kind": "feat",
         "summary": "Import Probability from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move."
       }
     ]
   },
@@ -8514,6 +8544,11 @@
         "date": "2026-10-21",
         "kind": "docs",
         "summary": "Conform the type question to the guide's wording (ambiguous?) and flip the answer's opening polarity to match."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move."
       }
     ]
   },
@@ -8562,35 +8597,65 @@
     ]
   },
   {
-    "file_path": "epistemica/statistical-mechanics.md",
+    "file_path": "epistemica/construction/statistical-mechanics.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Statistical Mechanics from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform Statistical Mechanics to the epistemicarum note schema: five Formulation questions (Theory Family root typing) with a full recursive instance decomposition table; keep Signature, Mental Representation, Problem Space, Toolbox, Paradigm, and History as secondary sections; fix the duplicated Probability Distribution toolbox row and normalize internal links."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Mean Field Theory and Renormalization Group links after the observational-scope flatten."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Add the statistical-mechanics textbook references (Reif, Pathria & Beale, Landau & Lifshitz, Huang, Kardar x2), linking the four corpus documents."
       }
     ]
   },
   {
-    "file_path": "epistemica/statistical-mechanics/mean-field-theory.md",
+    "file_path": "epistemica/observational/mean-field-theory.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Mean Field Theory from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/observational/ scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/statistical-mechanics/renormalization-group.md",
+    "file_path": "epistemica/observational/renormalization-group.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Renormalization Group from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/observational/ scope."
       }
     ]
   },
@@ -8602,6 +8667,11 @@
         "kind": "feat",
         "summary": "Import topics from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "chore",
+        "summary": "Delete the empty topics stub with the observational-scope flatten."
       }
     ]
   },

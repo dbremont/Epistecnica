@@ -685,7 +685,7 @@ These operations **require numeric input** (real numbers, vectors, tensors).
 - [Algorithm](https://app.notion.com/p/Algorithm-617ee00b46ea444799ea7a4945d72921?pvs=21)
 - https://en.wikipedia.org/wiki/Mixture_of_experts
 - https://categoricaldeeplearning.com/
-- [**Statistical Mechanics**](../statistical-mechanics.md)
+- [**Statistical Mechanics**](note.html?n=epistemica/construction/statistical-mechanics.md)
 - Akyürek, Ekin, et al. "The surprising effectiveness of test-time training for abstract reasoning." *arXiv preprint arXiv:2411.07279* (2024).
 - https://medium.com/@rachittayal7/a-gentle-introduction-to-distributed-training-of-ml-models-81295a7057de
 - https://arxiv.org/abs/2407.07852

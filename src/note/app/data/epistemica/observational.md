@@ -66,7 +66,7 @@
 
 ## Statistical Mechanics
 
-> See more in [**Statistical Mechanics**](statistical-mechanics.md).
+> See more in [**Statistical Mechanics**](note.html?n=epistemica/construction/statistical-mechanics.md).
 > 
 
 ## Computational Learning System
@@ -146,6 +146,6 @@ Conceptual Model: Observational
 - [‣](https://app.notion.com/p/1b1c0f5171ec807ba1cac4e5ee8a62f8?pvs=21)
 - [‣](https://app.notion.com/p/1b1c0f5171ec8036abb9f4e1c85efffa?pvs=21)
 - [Computational Learning System](https://app.notion.com/p/Computational-Learning-System-232c0f5171ec80a2aa9decf36e5d6466?pvs=21)
-- [**Statistical Mechanics**](statistical-mechanics.md)
+- [**Statistical Mechanics**](note.html?n=epistemica/construction/statistical-mechanics.md)
 - [A General Guide to Representation & Estimation](https://app.notion.com/p/A-General-Guide-to-Representation-Estimation-22dc0f5171ec8099a450f1d8f419a67f?pvs=21)
 -

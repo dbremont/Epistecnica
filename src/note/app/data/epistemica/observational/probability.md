@@ -1053,7 +1053,7 @@ Formally, it involves:
 - https://www.richardcarrier.info/archives/16374
 - https://en.wikipedia.org/wiki/Bayesian_statistics
 - https://en.wikipedia.org/wiki/Likelihood_function
-- [**Statistical Mechanics**](../statistical-mechanics.md)
+- [**Statistical Mechanics**](note.html?n=epistemica/construction/statistical-mechanics.md)
 - https://en.wikipedia.org/wiki/Likelihood_function
 - [‣](https://app.notion.com/p/25e598edb7908013ba65d2eec601e725?pvs=21)
 - [‣](https://app.notion.com/p/25e598edb790809691e4d60f88bcbd3b?pvs=21)

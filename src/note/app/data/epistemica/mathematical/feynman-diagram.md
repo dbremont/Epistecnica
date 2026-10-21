@@ -12,4 +12,4 @@ tags: [technique]
 
 - [Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram)
 
-[Renormalization Group](../statistical-mechanics/renormalization-group.md)
+[Renormalization Group](note.html?n=epistemica/observational/renormalization-group.md)

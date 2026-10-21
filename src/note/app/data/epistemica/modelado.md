@@ -76,7 +76,7 @@
 
 [Complexity Science](complexity-science.md)
 
-[**Statistical Mechanics**](statistical-mechanics.md)
+[**Statistical Mechanics**](note.html?n=epistemica/construction/statistical-mechanics.md)
 
 [Dynamical Intelligence](dynamical-intelligence.md)
 

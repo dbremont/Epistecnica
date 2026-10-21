@@ -1,3 +1,0 @@
-# topics
-
-Formula: 6
