@@ -24,7 +24,7 @@ The concept is a companion of [Shannon Information Theory](note.html?n=epistemic
 
 An **Epistemic Construction** — specifically a concept that operationalises a target (the surprisal of an outcome) into a computable quantity. Read at a second remove it is a **quantitative Model**: a formula whose predictions (bits per outcome) can be compared against a source's actual statistics.
 
-### Is the type of this `epistemic element instance` unambiguous?
+### Is the type of this `epistemic element instance` ambiguous?
 
 The primary reading is unambiguous: it is a concept/construction, not an ontic entity and not a physical process. The secondary reading — a model — is legitimate but derivative, because the concept is applied through a probability model rather than being one. What is *not* licensed is reading it as a measure of semantic content or meaning: Shannon information is defined over probabilities alone and is silent about what an outcome signifies.
 

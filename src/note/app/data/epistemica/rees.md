@@ -57,9 +57,9 @@ system, an inquiry is *readable as* a `Technical Element Set` under the
 technicarum grammar; that reading is kept as `readable as …` prose and
 decomposed separately.
 
-### Is the type of this `epistemic element instance` unambiguous?
+### Is the type of this `epistemic element instance` ambiguous?
 
-Yes at the root: `Aggregate` is the only type that covers a whole inquiry
+No at the root: `Aggregate` is the only type that covers a whole inquiry
 system. Ambiguity appears only in the branches, where the guide's
 disambiguation rule applies — an element that could be read under more than
 one type takes one primary type and records the rest as `readable as …`.

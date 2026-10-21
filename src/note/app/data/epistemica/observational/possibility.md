@@ -41,7 +41,7 @@ with dual necessity $N(A)=1-\Pi(\neg A)$. This is the precise sense in which pos
 
 An **`Aggregate`** — the organized concept-system of possibility: its questions, target, contexts, representation, constructions, operations, evaluation, and infrastructure. Within that aggregate, the concept **Possibility** is an **Epistemic Construction** (a concept), and its formalizations are models and theories. The decomposition is read under the **Epistemic Order**.
 
-### Is the type of this `epistemic element instance` unambiguous?
+### Is the type of this `epistemic element instance` ambiguous?
 
 The primary reading is unambiguous: the note documents the concept-system of possibility as an **`Aggregate`**, with the concept itself an **Epistemic Construction**. A legitimate secondary reading is **ontic modality** — the modal status belongs to states of affairs in a segment of reality, and the concept is how that status is represented; that reading is kept as `readable as …` prose, not as a second tree. What is *not* licensed is collapsing possibility into its neighbours: probability is a measure *over* a possibility space, uncertainty is the epistemic gap *about* which possibility obtains, and variation is a pattern of differences *among realized states*. Treating any of these as synonyms is a category error, not a refinement.
 

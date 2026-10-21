@@ -26,7 +26,7 @@ The field's centre of gravity is the pair (belief, preference): a probability di
 
 An **`Aggregate`** — the organized field of decision theory: its questions, target, representation, constructions, operations, evaluation, and infrastructure. Within that aggregate, the core theory (expected utility) is an **Epistemic Construction** (a theory), and the individual methods are constructions and operations. The decomposition is read under the **Epistemic Order**.
 
-### Is the type of this `epistemic element instance` unambiguous?
+### Is the type of this `epistemic element instance` ambiguous?
 
 The primary reading is unambiguous: the note documents the organized field, an `Aggregate`, with the core theory an `Epistemic Construction`. A secondary reading splits the field by stance — normative, descriptive, or prescriptive — and that split is kept as prose, not as three separate trees. What is *not* licensed is collapsing decision theory into its neighbouring fields: optimization studies the search for a best element under a fixed objective, game theory studies choice when outcomes depend on other agents' choices, and control theory studies the regulation of a dynamical system over time. Each is a neighbour with its own grammar, not a synonym.
 

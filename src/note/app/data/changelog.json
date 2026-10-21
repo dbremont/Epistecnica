@@ -5133,6 +5133,21 @@
         "kind": "feat",
         "summary": "Import Variational Method from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "feat",
+        "summary": "Fill the stub with the canonical epistemic schema: Formulation, 136-row Aggregate decomposition under Variational Theory, critical evaluation, target-domain table, and QA."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?) and link the Newton and Voltaire books to their document-catalog entries."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Add the solved-problems question (Newton's minimal resistance through VQE), two benchmark exemplars in the tree, and the Newton resistance-problem reference."
       }
     ]
   },
@@ -5953,6 +5968,11 @@
         "summary": "Rename Epistemic Object to Target Element under the Epistemic Target.",
         "commit": "1a932b9c87f449213d52d463958279eaf5608603",
         "before": "afba2aead84ef4a1b2b7e18192e85d144e72b5aa"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?)."
       }
     ]
   },
@@ -6759,6 +6779,11 @@
         "kind": "feat",
         "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?)."
       }
     ]
   },
@@ -7470,6 +7495,11 @@
         "summary": "Rename Epistemic Object to Target Element under the Epistemic Target.",
         "commit": "1a932b9c87f449213d52d463958279eaf5608603",
         "before": "afba2aead84ef4a1b2b7e18192e85d144e72b5aa"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?)."
       }
     ]
   },
@@ -8187,6 +8217,11 @@
         "kind": "feat",
         "summary": "Import Variational Inference from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "feat",
+        "summary": "Fill the stub with the canonical epistemic schema: Formulation, 114-row Aggregate decomposition under Variational Inference Theory, critical evaluation, target-domain table, QA, and links to the four catalogued VI papers."
       }
     ]
   },
@@ -8474,6 +8509,11 @@
         "summary": "Update the REES atlas entry for the element search, replacing the searchable table and orders views.",
         "commit": "6cc0fd2a30a9dcc2ac357de4aa1ef333745280cc",
         "before": "51d70aa28dab6a43463b3cac65233c8883673bc6"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?) and flip the answer's opening polarity to match."
       }
     ]
   },
