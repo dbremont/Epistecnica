@@ -506,7 +506,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -907,7 +909,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -956,7 +960,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -1397,7 +1403,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -1567,7 +1574,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -2034,7 +2042,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -2566,7 +2575,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -2626,7 +2636,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -2642,7 +2654,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -2779,7 +2792,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -2861,7 +2875,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -3031,7 +3047,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3058,7 +3075,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3118,7 +3136,8 @@
       {
         "date": "2026-10-20",
         "kind": "fix",
-        "summary": "Repair the Hilbert Space note and move it into the mathematical/space/ scope."
+        "summary": "Repair the Hilbert Space note and move it into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3266,7 +3285,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3282,7 +3302,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3558,7 +3579,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -3618,7 +3641,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3678,7 +3702,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -3793,7 +3819,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3820,7 +3847,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -3979,7 +4007,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4116,7 +4145,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4319,7 +4349,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4346,7 +4377,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4483,7 +4515,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4675,7 +4708,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4724,7 +4758,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4740,7 +4775,8 @@
       {
         "date": "2026-10-20",
         "kind": "feat",
-        "summary": "Move into the mathematical/space/ scope, add the epistemic formulation and references, and reword the type-ambiguity question."
+        "summary": "Move into the mathematical/space/ scope, add the epistemic formulation and references, and reword the type-ambiguity question.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4921,7 +4957,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -4937,7 +4974,8 @@
       {
         "date": "2026-10-20",
         "kind": "refactor",
-        "summary": "Move into the mathematical/space/ scope."
+        "summary": "Move into the mathematical/space/ scope.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
       }
     ]
   },
@@ -5334,7 +5372,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
@@ -7867,7 +7907,9 @@
       {
         "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update space links after the space-scope move."
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
       }
     ]
   },
