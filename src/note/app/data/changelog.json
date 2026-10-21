@@ -4764,12 +4764,16 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Convert Sobolev Space to the epistemic schema: five formulation questions, a recursive instance decomposition rooted at `Mathematical Space` and narrowed to the specific kind `Sobolev Space`, modeling the representation/theory duality through the `Representational System (→ Part) Epistemic Element` link, analytical content preserved, with a historical APA bibliography."
+        "summary": "Convert Sobolev Space to the epistemic schema: five formulation questions, a recursive instance decomposition rooted at `Mathematical Space` and narrowed to the specific kind `Sobolev Space`, modeling the representation/theory duality through the `Representational System (→ Part) Epistemic Element` link, analytical content preserved, with a historical APA bibliography.",
+        "commit": "d06813e8e82dfaba0c6c35556109b81298b3494c",
+        "before": "6335fbf21896a66a83c5fc5ce891d8b546847a95"
       },
       {
         "date": "2026-10-21",
         "kind": "fix",
-        "summary": "Render the L²(0,1) definition as a display formula and state measurability explicitly."
+        "summary": "Render the L²(0,1) definition as a display formula and state measurability explicitly.",
+        "commit": "d06813e8e82dfaba0c6c35556109b81298b3494c",
+        "before": "6335fbf21896a66a83c5fc5ce891d8b546847a95"
       }
     ]
   },
