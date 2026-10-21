@@ -2742,7 +2742,9 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Update Mean Field Theory and Renormalization Group links after the observational-scope flatten."
+        "summary": "Update Mean Field Theory and Renormalization Group links after the observational-scope flatten.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
       }
     ]
   },
@@ -5217,7 +5219,9 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move."
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
       }
     ]
   },
@@ -5423,7 +5427,9 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move."
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
       }
     ]
   },
@@ -5824,7 +5830,9 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move."
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
       }
     ]
   },
@@ -7628,7 +7636,9 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move."
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
       }
     ]
   },
@@ -8548,7 +8558,9 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move."
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
       }
     ]
   },
@@ -8623,7 +8635,8 @@
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Add the statistical-mechanics textbook references (Reif, Pathria & Beale, Landau & Lifshitz, Huang, Kardar x2), linking the four corpus documents."
+        "summary": "Add the statistical-mechanics textbook references (Reif, Pathria & Beale, Landau & Lifshitz, Huang, Kardar x2), linking the four corpus documents.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
       }
     ]
   },
@@ -8639,7 +8652,8 @@
       {
         "date": "2026-10-21",
         "kind": "refactor",
-        "summary": "Move into the epistemica/observational/ scope."
+        "summary": "Move into the epistemica/observational/ scope.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
       }
     ]
   },
@@ -8655,7 +8669,8 @@
       {
         "date": "2026-10-21",
         "kind": "refactor",
-        "summary": "Move into the epistemica/observational/ scope."
+        "summary": "Move into the epistemica/observational/ scope.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
       }
     ]
   },
@@ -8671,7 +8686,9 @@
       {
         "date": "2026-10-21",
         "kind": "chore",
-        "summary": "Delete the empty topics stub with the observational-scope flatten."
+        "summary": "Delete the empty topics stub with the observational-scope flatten.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
       }
     ]
   },
