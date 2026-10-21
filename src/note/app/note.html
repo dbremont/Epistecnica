@@ -659,6 +659,23 @@
             return { body: body, tags: tags };
         }
 
+        function renderMd(md) {
+            var slots = [];
+            function stash(tex) {
+                slots.push(tex);
+                return 'epimath' + (slots.length - 1) + 'epi';
+            }
+            var s = md.replace(/\$\$([\s\S]*?)\$\$/g, function (m, t) { return stash('$$' + t + '$$'); });
+            s = s.replace(/\\\[([\s\S]*?)\\\]/g, function (m, t) { return stash('\\[' + t + '\\]'); });
+            s = s.replace(/\\\(([\s\S]*?)\\\)/g, function (m, t) { return stash('\\(' + t + '\\)'); });
+            s = s.replace(/\$([^$\n]+?)\$/g, function (m, t) { return stash('$' + t + '$'); });
+            var html = marked.parse(s);
+            for (var i = 0; i < slots.length; i++) {
+                html = html.split('epimath' + i + 'epi').join(esc(slots[i]));
+            }
+            return html;
+        }
+
         function renderTags(tags) {
             var meta = document.querySelector('.note-meta');
             tags.forEach(function (t) {
@@ -813,12 +830,12 @@
                     renderTags(fm.tags);
                     histPromise.then(function (list) { wireHistory(name, list); });
 
-                    document.getElementById('note-body').innerHTML = marked.parse(md);
-                    if (window.renderTeX) renderTeX(document.getElementById('note-body'));
+                    document.getElementById('note-body').innerHTML = renderMd(md);
+                    buildToc();
+                    if (window.renderTeX) renderTeX();
                     document.getElementById('loading').hidden = true;
                     document.getElementById('note-header').hidden = false;
                     document.getElementById('note-card').hidden = false;
-                    buildToc();
                 })
                 .catch(function (err) {
                     fail(err.message === 'HTTP 404' ? 'The note "' + name + '" does not exist.' : 'Failed to load the note (' + err.message + ').');
