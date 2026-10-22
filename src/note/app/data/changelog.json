@@ -28055,7 +28055,8 @@
       {
         "date": "2026-10-22",
         "kind": "docs",
-        "summary": "Rename the note to moe.md; add the deduped MoE reading list and the open GPT/MoE QA question."
+        "summary": "Rename the note to moe.md; add the deduped MoE reading list and the open QA questions.",
+        "commit": "1ce2c130cdd1d8f67907bff3033d867296b05caa"
       }
     ]
   }
