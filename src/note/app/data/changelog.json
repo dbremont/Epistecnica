@@ -8740,7 +8740,8 @@
       {
         "date": "2026-10-22",
         "kind": "feat",
-        "summary": "Add Compositionality: the twofold principle of reality (ontic + cognitive) with its decomposition table — first note of the nature/ section."
+        "summary": "Add Compositionality: the twofold principle of reality (ontic + cognitive) with its decomposition table — first note of the nature/ section.",
+        "commit": "40d72d07ffba1c6ceb6a74176009e1d0b5bd8aa5"
       }
     ]
   },
