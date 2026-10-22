@@ -44,7 +44,9 @@
       {
         "date": "2026-10-22",
         "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references."
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
       }
     ]
   },
@@ -401,7 +403,9 @@
       {
         "date": "2026-10-22",
         "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references."
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
       }
     ]
   },
