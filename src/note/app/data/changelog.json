@@ -28048,5 +28048,15 @@
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
       }
     ]
+  },
+  {
+    "file_path": "technica/ais/system/moe.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "docs",
+        "summary": "Rename the note to moe.md; add the deduped MoE reading list and the open GPT/MoE QA question."
+      }
+    ]
   }
 ]
