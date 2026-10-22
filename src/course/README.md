@@ -40,8 +40,26 @@ src/course/
   independently; tags surface as `@tag` search tokens and viewer chips
   (`?q=@<tag>` deep links), and rank between headings and body text in
   search. See `src/note/README.md` for the shared tag convention.
+- The same front matter may carry a `qa:` block list of open reflection
+  questions (one per `- ` line); a non-empty list shows a `QA · N` chip in
+  the course and lecture viewers that opens the question list. See
+  `src/note/README.md` §QA questions.
 - Markdown rendering uses the notes vendor bundle relatively
   (`../note/vendor/marked.min.js`) — no duplicated runtime deps.
+
+## Changelog / history
+
+Every markdown course entry and lecture carries a per-file edit history in
+`app/data/changelog.json` (with `changelog.schema.json`): an array of
+`{file_path, logs[]}` objects, `file_path` relative to `app/courses/` (the
+course entry is `<dir>/readme.md`). Each log is
+`{date, summary; optional kind, commit, before}` — object key order follows
+the schema. The existing history was backfilled from git by
+`bin/backfill_changelog.py --corpus course`; new change sets append one log
+per touched entry or lecture in the same commit, then
+`bin/link_changelog_commits.py --corpus course` stamps the commit shas in a
+json-only annotation commit. The viewer's `history` chip opens the modal.
+See `src/note/README.md` §Changelog / history for the full contract.
 
 ## Import
 

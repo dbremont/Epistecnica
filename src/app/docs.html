@@ -520,9 +520,11 @@
                         <code>@tag</code> tokens (<code>@</code> opens a tag menu); notes,
                         courses, and documents all accept optional <code>tags: [...]</code>
                         front matter, which surfaces as those <code>@tag</code> tokens and as
-                        viewer chips. Each markdown note carries a per-file edit history:
-                        the viewer's <code>history</code> chip opens its changelog, with
-                        linked commits.
+                        viewer chips. The same front matter may carry a <code>qa:</code> block
+                        list of open reflection questions; the viewer then shows a
+                        <code>QA</code> chip that opens the list. Each markdown file also
+                        carries a per-file edit history: the viewer's <code>history</code>
+                        chip opens its changelog, with linked commits.
                     </p>
                     <p>
                         The <a href="course/">courses catalog</a> holds one directory

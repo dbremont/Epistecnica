@@ -1,0 +1,453 @@
+[
+  {
+    "file_path": "14-01-principles-of-microeconomics/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "15-070j-advanced-stochastic-processes/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "15-859-algorithms-for-big-data/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-01sc-single-variable-calculus/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-02sc-multivariable-calculus/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-03sc-differential-equations/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-04-complex-variables-with-applications/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-06sc-linear-algebra/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-100a-real-analysis/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-152-introduction-to-partial-differential-equations/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-175-theory-of-probability/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-404j-theory-of-computation/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-445-introduction-to-stochastic-processes/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-650-statistics-for-applications/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-655-mathematical-statistics/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-s096-topics-in-mathematics-with-applications-in-finance/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-s997-high-dimensional-statistics/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "24-900-introduction-to-linguistics/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-003-signals-and-systems/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-004-computation-structures/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-006-introduction-to-algorithms/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-034-artificial-intelligence/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-041-probabilistic-systems-analysis-and-applied-probability/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-046j-design-and-analysis-of-algorithms/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-1200j-mathematics-for-computer-science/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-506-algorithm-engineering/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-828-operating-system-engineering/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-851-advanced-data-structures/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-854j-advanced-algorithms/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-856j-randomized-algorithms/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-890-algorithmic-lower-bounds-fun-with-hardness-proofs/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "9-69-foundations-of-cognition/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "conduct-of-life/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "course/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "cse-422-toolkit-for-modern-algorithms/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "data-science-foundations-statistical-inference-specialization/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "ds-ga-1008-deep-learning/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "finance/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "version-control-basics/01-why-version-control.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "version-control-basics/02-commit-branch-merge.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "version-control-basics/readme.md",
+    "logs": [
+      {
+        "date": "2026-09-24",
+        "kind": "feat",
+        "summary": "courses, documents, personas surfaces with tags plus universal search",
+        "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  }
+]

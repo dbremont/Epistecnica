@@ -211,6 +211,130 @@
 
         a.chip:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
+        button.chip { cursor: pointer; }
+        button.chip:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        /* ---------- history modal (per-file changelog) ---------- */
+        .hist-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(4, 6, 10, 0.6);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 600;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        .hist-overlay.open { opacity: 1; pointer-events: auto; }
+        .hist-modal {
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -48%) scale(0.96);
+            width: min(560px, 92vw);
+            max-height: 82vh;
+            background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-void) 100%);
+            border: 1px solid var(--border-medium);
+            border-left: 2px solid var(--accent-gold);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            z-index: 610;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .hist-modal.open {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translate(-50%, -50%) scale(1);
+        }
+        .hist-header {
+            padding: 1.2rem 1.4rem 1rem;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+            flex-shrink: 0;
+        }
+        .hist-eyebrow {
+            font-family: var(--font-display);
+            font-size: 0.7rem;
+            font-style: italic;
+            color: var(--accent-gold);
+            letter-spacing: 0.06em;
+            display: block;
+        }
+        .hist-title {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-size: 1.4rem;
+            margin-top: 0.2rem;
+            word-break: break-word;
+        }
+        .hist-close {
+            position: absolute;
+            top: 0.9rem; right: 1.1rem;
+            background: none;
+            border: 0;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            line-height: 1;
+            cursor: pointer;
+        }
+        .hist-close:hover { color: var(--text-primary); }
+        .hist-body { padding: 0.4rem 1.4rem 1.2rem; overflow-y: auto; }
+        .hist-row { padding: 0.7rem 0; border-bottom: 1px solid var(--border-subtle); }
+        .hist-row:last-child { border-bottom: 0; }
+        .hist-meta {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 0.3rem;
+        }
+        .hist-meta .k {
+            color: var(--text-primary);
+            border: 1px solid var(--border-medium);
+            border-radius: 999px;
+            padding: 0.05rem 0.45rem;
+            margin-left: 0.5rem;
+        }
+        .hist-text { font-size: 0.85rem; line-height: 1.55; color: var(--text-secondary); }
+        .hist-links {
+            margin-top: 0.35rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem 0.8rem;
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+        }
+        .hist-links a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        .hist-links a:hover { text-decoration: underline; }
+        .hist-links .sep { color: var(--text-muted); }
+        @media (prefers-reduced-motion: reduce) {
+            .hist-overlay, .hist-modal { transition: none; }
+        }
+
+        /* ---------- QA modal (front-matter questions) ---------- */
+        .qa-list {
+            list-style: none;
+            margin: 0.2rem 0 0;
+            padding: 0;
+        }
+        .qa-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.55;
+        }
+        .qa-list li:last-child { border-bottom: 0; }
+
         .note-card {
             background: var(--card-bg);
             border: 1px solid var(--border-subtle);
@@ -349,6 +473,8 @@
                 <span class="chip" id="meta-words"></span>
                 <span class="chip" id="meta-time"></span>
                 <a class="chip" id="meta-raw" href="#">view raw</a>
+                <button class="chip" id="meta-qa" hidden>QA</button>
+                <button class="chip" id="meta-history" hidden>history</button>
             </div>
         </div>
 
@@ -382,6 +508,26 @@
             <a href="index.html">&larr; CATALOG</a>
         </div>
     </footer>
+
+    <div class="hist-overlay" id="qa-overlay"></div>
+    <div class="hist-modal" id="qa-modal" role="dialog" aria-modal="true" aria-label="Questions">
+        <div class="hist-header">
+            <span class="hist-eyebrow">QA</span>
+            <h3 class="hist-title" id="qa-title">Questions</h3>
+            <button class="hist-close" id="qa-close" aria-label="Close questions">&times;</button>
+        </div>
+        <div class="hist-body"><ul class="qa-list" id="qa-list"></ul></div>
+    </div>
+
+    <div class="hist-overlay" id="hist-overlay"></div>
+    <div class="hist-modal" id="hist-modal" role="dialog" aria-modal="true" aria-label="History">
+        <div class="hist-header">
+            <span class="hist-eyebrow">History</span>
+            <h3 class="hist-title" id="hist-title">Changelog</h3>
+            <button class="hist-close" id="hist-close" aria-label="Close history">&times;</button>
+        </div>
+        <div class="hist-body" id="hist-body"></div>
+    </div>
 
     <script>
     (function () {
@@ -511,15 +657,29 @@
             return p.split('/').map(encodeURIComponent).join('/');
         }
 
-        /* Split optional `---` front matter off; only `tags: [...]` is read. */
+        /* Split optional `---` front matter off; read `tags: [...]` and `qa:`. */
         function stripFrontMatter(md) {
             var tags = [];
+            var qa = [];
             var body = md;
             var fm = md.match(/^---\n([\s\S]*?)\n---\n/);
             if (fm) {
                 var lines = fm[1].split('\n');
+                var inQa = false;
                 for (var i = 0; i < lines.length; i++) {
-                    var tm = lines[i].trim().match(/^tags:\s*\[(.*)\]\s*$/);
+                    var line = lines[i].trim();
+                    if (inQa) {
+                        var qm = line.match(/^-\s+(.+)$/);
+                        if (qm) {
+                            var q = qm[1].trim().replace(/^['"]|['"]$/g, '');
+                            if (q) qa.push(q);
+                            continue;
+                        }
+                        if (!line) continue;
+                        inQa = false;
+                    }
+                    if (/^qa:\s*$/.test(line)) { inQa = true; continue; }
+                    var tm = line.match(/^tags:\s*\[(.*)\]\s*$/);
                     if (tm) {
                         tm[1].split(',').forEach(function (raw) {
                             var t = raw.trim().replace(/^['"]|['"]$/g, '').toLowerCase();
@@ -529,7 +689,7 @@
                 }
                 body = md.slice(fm[0].length);
             }
-            return { body: body, tags: tags };
+            return { body: body, tags: tags, qa: qa };
         }
 
         function renderTags(tags) {
@@ -542,6 +702,100 @@
                 meta.appendChild(a);
             });
         }
+
+                /* ---------- QA list (front-matter `qa:` metadata) ---------- */
+
+        function openQa(title, qa) {
+            document.getElementById('qa-title').textContent = title;
+            document.getElementById('qa-list').innerHTML = qa.map(function (q) {
+                return '<li>' + esc(q) + '</li>';
+            }).join('');
+            document.getElementById('qa-overlay').classList.add('open');
+            document.getElementById('qa-modal').classList.add('open');
+        }
+
+        function closeQa() {
+            document.getElementById('qa-overlay').classList.remove('open');
+            document.getElementById('qa-modal').classList.remove('open');
+        }
+
+        function wireQa(title, qa) {
+            if (!qa.length) return;
+            var btn = document.getElementById('meta-qa');
+            btn.hidden = false;
+            btn.textContent = 'QA · ' + qa.length;
+            btn.onclick = function () { openQa(title, qa); };
+        }
+
+        document.getElementById('qa-overlay').addEventListener('click', closeQa);
+        document.getElementById('qa-close').addEventListener('click', closeQa);
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeQa();
+        });
+
+        /* ---------- per-file changelog history (data/changelog.json) ---------- */
+
+        var REPO = 'https://github.com/dbremont/Epistecnica';
+        var CORPUS = 'src/course/app/courses/';
+
+        var histPromise = fetch('data/changelog.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (d) { return Array.isArray(d) ? d : []; })
+            .catch(function () { return []; });
+
+        function historyLinks(name, l) {
+            if (!l.commit) return '';
+            var path = CORPUS + encPath(name);
+            var links =
+                '<a href="' + REPO + '/commit/' + encodeURIComponent(l.commit) +
+                '" target="_blank" rel="noopener">commit</a>';
+            if (l.before) {
+                links += '<span class="sep">|</span>' +
+                    '<a href="' + REPO + '/blob/' + encodeURIComponent(l.before) + '/' + path +
+                    '" target="_blank" rel="noopener">before</a>';
+            }
+            links += '<span class="sep">|</span>' +
+                '<a href="' + REPO + '/blob/' + encodeURIComponent(l.commit) + '/' + path +
+                '" target="_blank" rel="noopener">after</a>';
+            return '<div class="hist-links">' + links + '</div>';
+        }
+
+        function openHistory(name, logs) {
+            var body = document.getElementById('hist-body');
+            document.getElementById('hist-title').textContent = name;
+            body.innerHTML = logs.slice().reverse().map(function (l) {
+                return '<div class="hist-row"><div class="hist-meta">' + esc(l.date || '') +
+                    (l.kind ? '<span class="k">' + esc(l.kind) + '</span>' : '') + '</div>' +
+                    '<div class="hist-text">' + esc(l.summary || '') + '</div>' +
+                    historyLinks(name, l) + '</div>';
+            }).join('');
+            document.getElementById('hist-overlay').classList.add('open');
+            document.getElementById('hist-modal').classList.add('open');
+        }
+
+        function closeHistory() {
+            document.getElementById('hist-overlay').classList.remove('open');
+            document.getElementById('hist-modal').classList.remove('open');
+        }
+
+        function wireHistory(name, list) {
+            var entry = null;
+            for (var i = 0; i < list.length; i++) {
+                if (list[i] && list[i].file_path === name) { entry = list[i]; break; }
+            }
+            var logs = (entry && Array.isArray(entry.logs)) ? entry.logs : [];
+            if (!logs.length) return;
+            var btn = document.getElementById('meta-history');
+            btn.hidden = false;
+            btn.textContent = 'history';
+            btn.onclick = function () { openHistory(name, logs); };
+        }
+
+        document.getElementById('hist-overlay').addEventListener('click', closeHistory);
+        document.getElementById('hist-close').addEventListener('click', closeHistory);
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeHistory();
+        });
 
         function renderCrumbs(course, file) {
             document.getElementById('crumbs').innerHTML =
@@ -613,6 +867,8 @@
                     document.getElementById('meta-time').textContent = Math.max(1, Math.ceil(words / 200)) + ' min read';
                     document.getElementById('meta-raw').setAttribute('href', 'courses/' + encPath(name));
                     renderTags(fm.tags);
+                    wireQa(title, fm.qa);
+                    histPromise.then(function (list) { wireHistory(name, list); });
 
                     document.getElementById('note-body').innerHTML = marked.parse(md);
                     document.getElementById('loading').hidden = true;

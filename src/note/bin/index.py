@@ -10,9 +10,9 @@ src/note/app/data/index.json, the search corpus for the notes catalog
 For each note it extracts: path (relative to data/), title (markdown:
 first "# " heading; html: <title>, else first <h1>; fallback: the
 filename), top-level section (first path component), h2/h3 headings,
-tags (optional `tags: [...]` front matter, `---` style), lowercased plain
-text, and word count. Paths and
-tags are validated against the naming convention (see
+tags (optional `tags: [...]` front matter, `---` style), qa questions
+(optional `qa:` block-list front matter), lowercased plain text, and word
+count. Paths and tags are validated against the naming convention (see
 src/note/README.md); violations print as warnings and never fail the
 build.
 
@@ -36,6 +36,8 @@ NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 TAGS_RE = re.compile(r"^tags:\s*\[(.*)\]\s*$")
+QA_KEY_RE = re.compile(r"^qa:\s*$")
+QA_ITEM_RE = re.compile(r"^-\s+(.+)$")
 LINK_RE = re.compile(r"!?\[([^\]]*)\]\([^)]*\)")
 FENCE_RE = re.compile(r"```[^\n]*\n|```")
 HTML_BLOCK_RE = re.compile(r"<(script|style)\b.*?</\1>", re.IGNORECASE | re.DOTALL)
@@ -66,17 +68,34 @@ def plain_text(md: str) -> str:
     return re.sub(r"\s+", " ", "\n".join(lines)).strip().lower()
 
 
-def parse_tags(md: str, rel: Path, warnings: list) -> tuple:
-    """Split optional `---` front matter off; return (body, tags).
+def parse_front_matter(md: str, rel: Path, warnings: list) -> tuple:
+    """Split optional `---` front matter off; return (body, tags, qa).
 
-    Only the `tags: [...]` line is read; anything else in the fence is
-    ignored. Invalid tags warn and are dropped.
+    `tags: [...]` and a `qa:` block list (one open question per `- ` line)
+    are read; anything else in the fence is ignored. Invalid tags warn and
+    are dropped.
     """
     tags = []
+    qa = []
     fm = FRONT_MATTER_RE.match(md)
     if fm:
+        in_qa = False
         for line in fm.group(1).splitlines():
-            m = TAGS_RE.match(line.strip())
+            stripped = line.strip()
+            if in_qa:
+                m = QA_ITEM_RE.match(stripped)
+                if m:
+                    question = m.group(1).strip().strip("'\"")
+                    if question:
+                        qa.append(question)
+                    continue
+                if not stripped:
+                    continue
+                in_qa = False
+            if QA_KEY_RE.match(stripped):
+                in_qa = True
+                continue
+            m = TAGS_RE.match(stripped)
             if m:
                 for raw in m.group(1).split(","):
                     tag = raw.strip().strip("'\"").lower()
@@ -88,12 +107,12 @@ def parse_tags(md: str, rel: Path, warnings: list) -> tuple:
                     else:
                         warnings.append(f"{rel.as_posix()} (tag '{tag}')")
         md = md[fm.end():]
-    return md, tags
+    return md, tags, qa
 
 
 def parse(path: Path, rel: Path, warnings: list) -> dict:
     md = path.read_text(encoding="utf-8", errors="replace")
-    md, tags = parse_tags(md, rel, warnings)
+    md, tags, qa = parse_front_matter(md, rel, warnings)
     title = None
     headings = []
     for line in md.splitlines():
@@ -108,7 +127,7 @@ def parse(path: Path, rel: Path, warnings: list) -> dict:
     if title is None:
         title = rel.stem.replace("-", " ")
     text = plain_text(md)
-    return entry(rel, title, headings, text, tags, kind="note")
+    return entry(rel, title, headings, text, tags, qa, kind="note")
 
 
 def parse_html(path: Path, rel: Path, warnings: list) -> dict:
@@ -135,22 +154,27 @@ def parse_html(path: Path, rel: Path, warnings: list) -> dict:
 
     text = unescape(HTML_TAG_RE.sub(" ", body))
     text = re.sub(r"\s+", " ", text).strip().lower()
-    return entry(rel, title, headings, text, [], kind="live")
+    return entry(rel, title, headings, text, [], [], kind="live")
 
 
-def entry(rel: Path, title: str, headings: list, text: str, tags: list, kind: str) -> dict:
+def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str) -> dict:
     parts = rel.parts
     section = parts[0] if len(parts) > 1 else "root"
-    return {
+    item = {
         "path": rel.as_posix(),
         "title": title,
         "section": section,
         "kind": kind,
         "tags": tags,
+    }
+    if qa:
+        item["qa"] = qa
+    item.update({
         "headings": headings,
         "text": text,
         "words": len(text.split()),
-    }
+    })
+    return item
 
 
 def load_links(index_paths: set, warnings: list) -> list:

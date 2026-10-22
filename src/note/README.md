@@ -128,6 +128,12 @@ Every markdown note carries a per-file edit history in
   optional `commit`/`before` shas **after** the change-set commit — the
   introducing sha is unknowable when the log is authored. Commit the
   json-only annotation separately. Going forward only.
+- The documents and courses corpora keep the same changelog shape
+  (`src/document/app/data/changelog.json`,
+  `src/course/app/data/changelog.json`, schema beside each). Their history
+  was backfilled from git by `bin/backfill_changelog.py`; change sets
+  touching those corpora append logs the same way, and the same linker
+  stamps them (`--corpus` selects one).
 - The viewer shows a `history` chip when logs exist, opening a modal that
   lists them newest-first, each with `commit` / `before` / `after` links to
   `github.com/dbremont/Epistecnica`.
@@ -165,6 +171,32 @@ tags: [java, debugging, osgi]
 - The same convention applies to the courses corpus
   (`src/course/README.md`) and the documents corpus
   (`src/document/README.md`).
+
+## QA questions
+
+Front matter may also carry `qa:` — a block list of open reflection
+questions, one per `- ` line (no inline form, so commas and colons inside a
+question are safe):
+
+```markdown
+---
+tags: [ai]
+qa:
+  - What technical element type does this instance belong to?
+  - How does the scaling law justify the parameter count?
+---
+
+# Title
+```
+
+- The indexer copies a non-empty `qa` list into `data/index.json`; entries
+  without questions omit the key.
+- The viewer shows a `QA · N` chip in the metadata bar when the list is
+  present; clicking it opens a modal listing the questions (no navigation).
+- Nothing is inferred from the body: a `## QA` section is ordinary rendered
+  content. Front matter is the metadata source, so questions are authored
+  once, deliberately.
+- The same convention applies to the courses and documents corpora.
 
 ## Support links
 

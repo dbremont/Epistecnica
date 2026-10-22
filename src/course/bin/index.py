@@ -11,9 +11,9 @@ For each course it emits one entry (kind "course", path "<dir>") and one
 entry per lecture (kind "lecture", path "<dir>/<file>", with a "course"
 parent field). Each entry extracts: title (first "# " heading;
 fallback: the filename), h2/h3 headings, tags (optional `tags: [...]`
-front matter, `---` style), lowercased
-plain text, and word count. Paths and tags are validated against the
-naming convention (see src/course/README.md); violations print as
+front matter, `---` style), qa questions (optional `qa:` block-list
+front matter), lowercased plain text, and word count. Paths and tags
+are validated against the naming convention (see src/course/README.md); violations print as
 warnings and never fail the build.
 
 Usage: python3 src/course/bin/index.py
@@ -36,6 +36,8 @@ NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 TAGS_RE = re.compile(r"^tags:\s*\[(.*)\]\s*$")
+QA_KEY_RE = re.compile(r"^qa:\s*$")
+QA_ITEM_RE = re.compile(r"^-\s+(.+)$")
 LINK_RE = re.compile(r"!?\[([^\]]*)\]\([^)]*\)")
 FENCE_RE = re.compile(r"```[^\n]*\n|```")
 
@@ -62,17 +64,34 @@ def plain_text(md: str) -> str:
     return re.sub(r"\s+", " ", "\n".join(lines)).strip().lower()
 
 
-def parse_tags(md: str, rel: Path, warnings: list) -> tuple:
-    """Split optional `---` front matter off; return (body, tags).
+def parse_front_matter(md: str, rel: Path, warnings: list) -> tuple:
+    """Split optional `---` front matter off; return (body, tags, qa).
 
-    Only the `tags: [...]` line is read; anything else in the fence is
-    ignored. Invalid tags warn and are dropped.
+    `tags: [...]` and a `qa:` block list (one open question per `- ` line)
+    are read; anything else in the fence is ignored. Invalid tags warn and
+    are dropped.
     """
     tags = []
+    qa = []
     fm = FRONT_MATTER_RE.match(md)
     if fm:
+        in_qa = False
         for line in fm.group(1).splitlines():
-            m = TAGS_RE.match(line.strip())
+            stripped = line.strip()
+            if in_qa:
+                m = QA_ITEM_RE.match(stripped)
+                if m:
+                    question = m.group(1).strip().strip("'\"")
+                    if question:
+                        qa.append(question)
+                    continue
+                if not stripped:
+                    continue
+                in_qa = False
+            if QA_KEY_RE.match(stripped):
+                in_qa = True
+                continue
+            m = TAGS_RE.match(stripped)
             if m:
                 for raw in m.group(1).split(","):
                     tag = raw.strip().strip("'\"").lower()
@@ -84,12 +103,12 @@ def parse_tags(md: str, rel: Path, warnings: list) -> tuple:
                     else:
                         warnings.append(f"{rel.as_posix()} (tag '{tag}')")
         md = md[fm.end():]
-    return md, tags
+    return md, tags, qa
 
 
 def parse(path: Path, rel: Path, warnings: list) -> dict:
     md = path.read_text(encoding="utf-8", errors="replace")
-    md, tags = parse_tags(md, rel, warnings)
+    md, tags, qa = parse_front_matter(md, rel, warnings)
     title = None
     headings = []
     for line in md.splitlines():
@@ -104,19 +123,23 @@ def parse(path: Path, rel: Path, warnings: list) -> dict:
     if title is None:
         title = rel.stem.replace("-", " ")
     text = plain_text(md)
-    return entry(rel, title, headings, text, tags, kind="lecture")
+    return entry(rel, title, headings, text, tags, qa, kind="lecture")
 
 
-def entry(rel: Path, title: str, headings: list, text: str, tags: list, kind: str, course: str = None) -> dict:
+def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str, course: str = None) -> dict:
     item = {
         "path": rel.as_posix(),
         "title": title,
         "kind": kind,
         "tags": tags,
+    }
+    if qa:
+        item["qa"] = qa
+    item.update({
         "headings": headings,
         "text": text,
         "words": len(text.split()),
-    }
+    })
     if course is not None:
         item["course"] = course
     return item

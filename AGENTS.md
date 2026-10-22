@@ -94,8 +94,20 @@ disabled.
   file to `src/note/app/data/changelog.json` (schema beside it) **in the same
   commit**; then stamp `commit`/`before` post-commit with
   `python3 bin/link_changelog_commits.py`, commit the json-only annotation.
-  The viewer's `history` chip opens the modal. See `src/note/README.md`
-  §Changelog / history.
+  The documents and courses corpora keep the same shape
+  (`src/document/app/data/changelog.json`,
+  `src/course/app/data/changelog.json`, schema beside each); their history
+  was backfilled from git by `bin/backfill_changelog.py`, new change sets
+  append logs there the same way, and
+  `bin/link_changelog_commits.py --corpus document|course` stamps them.
+  Every viewer (`note`, `course`, `lecture`, `document`) shows the `history`
+  chip. See `src/note/README.md` §Changelog / history.
+- Front matter may carry `qa:` — a block list of open reflection questions,
+  one per `- ` line. The indexers copy a non-empty list into the corpus
+  index (`qa` key), and every viewer shows a `QA · N` chip in the metadata
+  bar that opens the question list. A body `## QA` section is rendered
+  content, never the metadata source. See `src/note/README.md` §QA
+  questions.
 - Live notes (`src/note/app/data/**/*.html`, co-located with their companion
   note) share the `note.html` frame
   (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
@@ -246,8 +258,8 @@ Verification (no test suite exists; `make check` covers the first):
 - Legacy graphs: `curl -sI :8000/epistemica/` and `:8000/tecnica/` → `302` → `/note/data/epistemica/rees.html`
 - Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/pto/zsh.md` (viewer), `/note/data/technica/cto/lib/concurrent-map.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
 - REES atlas: `curl -s :8000/note/data/epistemica/rees.html` (the multi-view atlas) and `/note/data/epistemica/rees.json` (the canonical tree store it renders)
-- Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`)
-- Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`)
+- Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`), `/course/data/changelog.json` (per-file history)
+- Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`), `/document/data/changelog.json` (per-file history)
 - Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `src/persona/bin/import.py <notion-export-dir>`)
 - Glossarium: external — served by Naturgnosis at `http://localhost:8013/glossarium/web/` (`?t=<slug>` term view; lookup index `/glossarium/data/index.json`); Epistecnica pages link out and load the lookup JS + index from there (no local `/glossarium/` route)
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the `/docs` + `note/` pages (check stderr for Uncaught errors)

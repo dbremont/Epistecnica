@@ -66,7 +66,7 @@ graph-index: ## rebuild the universal view graph + layout (after any corpus chan
 
 index: notes-index course-index document-index search-index ## rebuild all search indexes (corpora first, universal snapshot last)
 
-changelog-link: ## stamp commit links on notes changelog logs introduced by HEAD
+changelog-link: ## stamp commit links on corpus changelog logs introduced by HEAD
 	python3 bin/link_changelog_commits.py
 
 # One-time CouchDB setup. The create-then-verify idiom keeps the rule
