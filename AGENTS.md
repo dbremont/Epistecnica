@@ -32,7 +32,7 @@ bin/envutil.py          .env loader (notes pins DB resolution)
 bin/couchdb_client.py   shared CouchDB client (notes pins)
 bin/build_universal_index.py  universal-view graph builder (our corpus → graph JSON)
 bin/layout.py           universal-view layout pre-computer (sunflower + FR)
-src/app/                hub page (index.html, served at /) + docs.html + graph/ (universal view) + shared/ (nav search)
+src/app/                hub page (index.html, served at /) + docs.html + graph/ (universal view) + shared/ (nav search + content viewer)
 src/note/…              notes corpus + catalog/viewer (app/ incl. app/data/ + live notes, bin/index.py) + tags — see src/note/README.md
 src/course/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures, bin/index.py) — see src/course/README.md
 src/document/…          documents corpus + catalog/viewer (papers/articles/books, bin/index.py) — see src/document/README.md
@@ -52,12 +52,18 @@ disabled.
   - `/` → hub `src/app/index.html`
   - `/docs` (also `/docs/`, `/docs.html`) → site documentation `src/app/docs.html` — the single user-facing docs surface (theory + guide, live stats from the APIs); the old per-subproject docs pages were deleted
   - `/graph/<path>` → static from `src/app/graph/<path>` (the universal view: Graphive viewer over the graph generated from our own corpus; no API routes)
-  - `/shared/<path>` → static from `src/app/shared/<path>` (the universal nav search — `usearch.css` + `usearch.js` — included by every surface)
+  - `/shared/<path>` → static from `src/app/shared/<path>` (the universal nav search — `usearch.css` + `usearch.js` — included by every surface; plus the universal content-viewer script `viewer.js` that powers the four viewer shells below)
   - `/note/<path>` → static from `src/note/app/<path>` (notes catalog + viewer + corpus)
   - `/course/<path>` → static from `src/course/app/<path>` (courses catalog + course/lecture views + corpus); no API routes
   - `/document/<path>` → static from `src/document/app/<path>` (documents catalog + viewer + corpus); no API routes
   - `/epistemica/<path>` and `/tecnica/<path>` → **302** to
     `/note/data/epistemica/rees.html` (the graphs moved to Naturgnosis)
+  - `/favicon.ico` → **302** to `/img/favicon.ico`. Only the hub and graph
+    pages carry an explicit `<link rel="icon">`; every other surface relies on
+    the browser's default host-root probe, which would otherwise 404. Route it
+    to the real asset instead of touching ~34 HTML pages. The light-mode nav
+    mark swap (`img/mark-gold-dark.png`) is CSS-only, in
+    `src/app/shared/usearch.css`.
   - `/glossarium/…` is **not** served here — the lexical corpus moved to the
     external Naturgnosis medium (`http://localhost:8013/glossarium/web/`,
     lookup index `…/glossarium/data/index.json`); pages link to it and the
@@ -336,3 +342,14 @@ when switching over.
   in the browser. The backend has no AI endpoints and must never hold keys.
 - User-facing pages must not reference backend scripts (`bin/...`,
   `python ...`) in UI strings — backend hints live in docs and server logs.
+- The four content viewers (`note.html`, `course.html`, `lecture.html`,
+  `document.html`) are thin shells over one shared script,
+  `src/app/shared/viewer.js` (included with `data-kind="note|course|
+  lecture|document"`). The script owns all viewer behavior (ambient
+  background, theme toggle, markdown load/render, front-matter tags + QA,
+  changelog history modal, crumbs, TOC); the shell owns the page frame.
+  When changing viewer behavior or DOM ids, change `viewer.js` — not the
+  shells. Kind-specific config (query param, fetch URL, GitHub corpus
+  prefix, crumbs style) lives in its `KINDS` table; adding a corpus means
+  one table entry plus one thin shell page. The MathJax scripts stay in
+  `note.html`'s head only; `viewer.js` calls `renderTeX()` when present.

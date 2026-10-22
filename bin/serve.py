@@ -84,6 +84,12 @@ SHARED_MOUNT = "src/app/shared"
 LEGACY_REDIRECT_PREFIXES = ("/epistemica", "/tecnica")
 LEGACY_REDIRECT_TARGET = "/note/data/epistemica/rees.html"
 
+# The browser probes /favicon.ico at the host root whenever a page has no
+# explicit icon link; only the hub and graph declare one, so route the probe
+# to the real asset under img/ instead of letting it 404.
+FAVICON_ENDPOINT = "/favicon.ico"
+FAVICON_TARGET = "/img/favicon.ico"
+
 # Note path segments follow the corpus naming rule: ASCII lowercase
 # kebab-case (src/note/README.md). The last segment additionally ends .md.
 NOTE_SEGMENT_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -184,6 +190,10 @@ class HubHandler(SimpleHTTPRequestHandler):
                 self._redirect(LEGACY_REDIRECT_TARGET)
                 return
 
+        if path == FAVICON_ENDPOINT:
+            self._redirect(FAVICON_TARGET)
+            return
+
         super().do_GET()
 
     def do_HEAD(self):
@@ -193,6 +203,10 @@ class HubHandler(SimpleHTTPRequestHandler):
             if path == prefix or path.startswith(prefix + "/"):
                 self._redirect(LEGACY_REDIRECT_TARGET)
                 return
+
+        if path == FAVICON_ENDPOINT:
+            self._redirect(FAVICON_TARGET)
+            return
 
         super().do_HEAD()
 

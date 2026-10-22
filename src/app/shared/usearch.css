@@ -133,3 +133,11 @@
 }
 
 .site-nav .nav-right { gap: 0.8rem; }
+
+/* The shared nav-mark art (img/mark-alpha.png) is pale gold tuned for the
+   dark nav; on the light nav it washes out. Swap in the dark-gold recolor
+   (light-theme accent gold). The url is stylesheet-relative, so it stays
+   prefix-mount safe. */
+html[data-theme="light"] .nav-mark {
+    content: url(../img/mark-gold-dark.png);
+}
