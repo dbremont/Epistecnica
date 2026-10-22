@@ -32,7 +32,7 @@ tags: [algebraic]
 > **Generator**:  …
 > 
 
-![image.png](assets/group/image.png)
+![image.png](../assets/note/epistemica/mathematical/group/image.png)
 
 ### Action
 

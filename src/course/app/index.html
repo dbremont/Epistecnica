@@ -621,8 +621,15 @@
         var GRID_PAGE = 48;
         var NOUN = 'entry', NOUNS = 'entries', HOME = 'courses', TITLE = 'Courses';
         var state = { q: '', view: 'browse', dir: '', section: 'all', page: 1, pageSize: GRID_PAGE, liveOnly: false, unfinishedOnly: false };
-        var PINS = [];          /* pinned note paths, server order */
+        var PINS = [];          /* pinned paths, browser-local (localStorage) */
         var pinsAvailable = false;
+        try {
+            var storedPins = JSON.parse(localStorage.getItem('epistecnica.course-pins') || '[]');
+            PINS = Array.isArray(storedPins)
+                ? storedPins.filter(function (p) { return typeof p === 'string'; })
+                : [];
+            pinsAvailable = true;
+        } catch (err) { pinsAvailable = false; }
         var lastTotalPages = 1;
         var resultsEl = document.getElementById('results');
         var emptyEl = document.getElementById('empty');
@@ -1160,24 +1167,23 @@
 
         /* ---------- pins ---------- */
 
+        function savePins() {
+            localStorage.setItem('epistecnica.course-pins', JSON.stringify(PINS));
+        }
+
         function togglePin(path) {
             var on = !isPinned(path);
             var prev = PINS.slice();
             if (on) PINS.push(path);
             else PINS = PINS.filter(function (p) { return p !== path; });
             render();
-            fetch('api/pins', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ path: path, pinned: on })
-            }).then(function (r) {
-                if (!r.ok) throw new Error('HTTP ' + r.status);
-                return r.json();
-            }).catch(function (err) {
+            try {
+                savePins();
+            } catch (err) {
                 PINS = prev;
                 render();
                 console.warn('pin update failed:', err);
-            });
+            }
         }
 
         resultsEl.addEventListener('click', function (e) {

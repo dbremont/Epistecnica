@@ -45,9 +45,9 @@
 > Note: For System  Space  -see in Miscellanea.
 > 
 
-![image.png](data/technica/computation/system/assets/design/image.png)
+![image.png](../assets/note/technica/computation/system/design/image.png)
 
-![image.png](data/technica/computation/system/assets/design/image-1.png)
+![image.png](../assets/note/technica/computation/system/design/image-1.png)
 
 QA:
 

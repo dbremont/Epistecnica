@@ -8,7 +8,7 @@
 > The art of governing or the science of government.
 > 
 
-![image.png](assets/cybernetics/image.png)
+![image.png](../assets/note/epistemica/dynamical-intelligence/cybernetics/image.png)
 
 ## Conceptual Table
 

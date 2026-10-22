@@ -113,7 +113,7 @@ Let the alphabet be: $\mathcal{A} = \{a_1, a_2, \dots, a_n\}$:
 
 > See the dedicated note on [Shannon Information Content](note.html?n=epistemica/observational/it/shannon-information-content.md) and the [Information Theory Atlas](data/epistemica/observational/it/atlas.html) for its operational quantities.
 
-![image.png](assets/shannon-information-theory/image.png)
+![image.png](../assets/note/epistemica/observational/shannon-information-theory/image.png)
 
 ### Entropy
 

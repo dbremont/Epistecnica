@@ -37,7 +37,7 @@ tags: [physical]
 > Non-parametric Learning:  A non-parametric learning is characterized by having a **infinite** (determined by data)**.**
 > 
 
-![Problem: Monday stock prices  → Tuesday stock prices?](documents/books/trask-2019-grokking-deep-learning-simon/image.png)
+![Problem: Monday stock prices  → Tuesday stock prices?](../assets/document/books/trask-2019-grokking-deep-learning-simon/image.png)
 
 Problem: Monday stock prices  → Tuesday stock prices?
 
@@ -59,7 +59,7 @@ List of **problem examples**:
 > The paradigm **predict, compare and learn**.
 > 
 
-![image.png](documents/books/trask-2019-grokking-deep-learning-simon/image-1.png)
+![image.png](../assets/document/books/trask-2019-grokking-deep-learning-simon/image-1.png)
 
 ## Introduction to neural learning: gradient descent
 

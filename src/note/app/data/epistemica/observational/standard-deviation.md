@@ -167,7 +167,7 @@ Category; Affirmation Type, Description, Instance(s)
 > 1 standard deviation $(\pm 1\sigma)$ represents the average amount by which data points in a dataset deviate from the mean. In practical terms, it provides a measure of the "typical" spread of values around the mean. For many distributions, especially the normal distribution, about 68% of the data points lie within one standard deviation of the mean.
 > 
 
-![image.png](assets/standard-deviation/image.png)
+![image.png](../assets/note/epistemica/observational/standard-deviation/image.png)
 
 > $n$ standard deviations from the mean generalizes this idea. The interval $[\bar{x} - n\sigma, \bar{x} + n\sigma]$
 > 

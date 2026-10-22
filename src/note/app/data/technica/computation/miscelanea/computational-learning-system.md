@@ -7,15 +7,15 @@
 > **ML Systems** can be used in various applications, such as image recognition, natural language processing, fraud detection, recommendation systems, and autonomous vehicles. Depending on the specific requirements and goals of the project, these systems can be built using various programming languages, frameworks, and tools.
 > 
 
-![image.png](data/technica/computation/miscelanea/assets/computational-learning-system/image.png)
+![image.png](../assets/note/technica/computation/miscelanea/computational-learning-system/image.png)
 
-![image.png](data/technica/computation/miscelanea/assets/computational-learning-system/image-1.png)
+![image.png](../assets/note/technica/computation/miscelanea/computational-learning-system/image-1.png)
 
-![image.png](data/technica/computation/miscelanea/assets/computational-learning-system/image-2.png)
+![image.png](../assets/note/technica/computation/miscelanea/computational-learning-system/image-2.png)
 
-![image.png](data/technica/computation/miscelanea/assets/computational-learning-system/image-3.png)
+![image.png](../assets/note/technica/computation/miscelanea/computational-learning-system/image-3.png)
 
-![image.png](data/technica/computation/miscelanea/assets/computational-learning-system/image-4.png)
+![image.png](../assets/note/technica/computation/miscelanea/computational-learning-system/image-4.png)
 
 ## **Machine Learning (ML) Project**
 

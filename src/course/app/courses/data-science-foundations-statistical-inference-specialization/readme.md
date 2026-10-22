@@ -49,9 +49,9 @@ tags: [mathematics]
 > Read: https://bookdown.org/probability/beta/
 > 
 
-![image.png](courses/data-science-foundations-statistical-inference-specialization/image.png)
+![image.png](../assets/course/data-science-foundations-statistical-inference-specialization/image.png)
 
-![image.png](courses/data-science-foundations-statistical-inference-specialization/image-1.png)
+![image.png](../assets/course/data-science-foundations-statistical-inference-specialization/image-1.png)
 
 Let $X$ be a random variable such that $E(X) = 3$, $sd(X) = 4$, and let $Y$ be a
 r.v. such that $E(Y ) = 1$, $sd(Y ) = 2$. $X$ and $Y$ are not linearly independent, and
@@ -69,7 +69,7 @@ What is $E(X + 3Y + 1)$?
 
 ## The Central Limit Theorem
 
-![image.png](courses/data-science-foundations-statistical-inference-specialization/image-2.png)
+![image.png](../assets/course/data-science-foundations-statistical-inference-specialization/image-2.png)
 
 1. 0.471
 2. 2

@@ -32,7 +32,7 @@
 > **Statistics** is the art of describing phenomena without delving into their underlying mechanisms.
 > 
 
-![Untitled](assets/modelado/untitled.png)
+![Untitled](../assets/note/epistemica/modelado/untitled.png)
 
 ## Systems
 

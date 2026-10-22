@@ -8,7 +8,7 @@ tags: [integration]
 > **Enterprise Systems Integration Models** encompass the methodologies and frameworks used to connect disparate systems, applications, and data sources within an organization to facilitate seamless communication and data exchange.
 > 
 
-![image.png](data/technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/assets/information-systems-integration/image.png)
+![image.png](../assets/note/technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/information-systems-integration/image.png)
 
 ## Integration Patterns
 

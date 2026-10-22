@@ -5,7 +5,7 @@ tags: [model-of-computation]
 # Petri Net
 
 
-![petry.png](data/technica/computation/language-system/conceptual-model-language-system/assets/petri-net/petry.png)
+![petry.png](../assets/note/technica/computation/language-system/conceptual-model-language-system/petri-net/petry.png)
 
 Petri nets are a graphical model of computation used to study systems that involve the interaction of multiple components. The basic building blocks of Petri nets can be described in terms of the building blocks of a general model of computation as follows:
 

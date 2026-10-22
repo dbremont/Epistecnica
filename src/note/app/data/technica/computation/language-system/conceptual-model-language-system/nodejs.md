@@ -15,7 +15,7 @@ tags: [javascript, language-system, tool]
 > Node.js architecture uses a non-blocking, event-driven model powered by the V8 JavaScript engine, enabling efficient handling of I/O-heavy operations through asynchronous callbacks and a single-threaded event loop.
 > 
 
-![Untitled](data/technica/computation/language-system/conceptual-model-language-system/assets/nodejs/untitled.png)
+![Untitled](../assets/note/technica/computation/language-system/conceptual-model-language-system/nodejs/untitled.png)
 
 ## Parsing
 

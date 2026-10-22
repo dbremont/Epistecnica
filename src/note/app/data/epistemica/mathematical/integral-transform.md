@@ -9,7 +9,7 @@ tags: [analytical, operator]
 > An **integral transform** is a **mathematical operation** that maps a function into another function through integration, often used to simplify the analysis of functions or equations in different domains.
 > 
 
-![Untitled](assets/integral-transform/untitled.png)
+![Untitled](../assets/note/epistemica/mathematical/integral-transform/untitled.png)
 
 ## References
 

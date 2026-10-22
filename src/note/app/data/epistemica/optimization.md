@@ -6,7 +6,7 @@
 > New Geometry → New Theory of Optimization !!!
 > 
 
-![image.png](assets/optimization/image.png)
+![image.png](../assets/note/epistemica/optimization/image.png)
 
 ## Catalog of Optimization Problems
 

@@ -28,9 +28,9 @@ tags: [mathematics]
 > **Note:** The concept of a limit captures the idea of approaching a value through infinitely many approximations.
 > 
 
-![image.png](courses/18-01sc-single-variable-calculus/image.png)
+![image.png](../assets/course/18-01sc-single-variable-calculus/image.png)
 
-![image.png](courses/18-01sc-single-variable-calculus/image-1.png)
+![image.png](../assets/course/18-01sc-single-variable-calculus/image-1.png)
 
 > Differentiable → Continuous? Reason about this logical pattern and the concepts mentioned above.
 > 

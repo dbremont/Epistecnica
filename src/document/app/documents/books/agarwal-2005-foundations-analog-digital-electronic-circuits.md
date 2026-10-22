@@ -47,7 +47,7 @@ lumped matter discipline using ideal wires to form an assembly that performs
 a specific function results in the lumped circuit abstraction.
 > 
 
-![image.png](documents/books/agarwal-2005-foundations-analog-digital-electronic-circuits/image.png)
+![image.png](../assets/document/books/agarwal-2005-foundations-analog-digital-electronic-circuits/image.png)
 
 ## Resistive Networks
 

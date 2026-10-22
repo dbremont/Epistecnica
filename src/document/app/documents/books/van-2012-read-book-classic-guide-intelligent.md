@@ -14,4 +14,4 @@
 
 ---
 
-![image.png](documents/books/van-2012-read-book-classic-guide-intelligent/image.png)
+![image.png](../assets/document/books/van-2012-read-book-classic-guide-intelligent/image.png)

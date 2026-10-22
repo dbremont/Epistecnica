@@ -13,7 +13,7 @@
 > `cloc .`
 > 
 
-![image.png](data/technica/computation/system/operation/operation-conceptual-model/assets/jenkins-code-reading/image.png)
+![image.png](../assets/note/technica/computation/system/operation/operation-conceptual-model/jenkins-code-reading/image.png)
 
 ## Building
 

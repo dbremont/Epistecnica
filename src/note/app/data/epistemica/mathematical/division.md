@@ -107,7 +107,7 @@ The bottle costs **$2.00** more than the stopper.
 What is the cost of the stopper?
 > 
 
-![image.png](assets/division/image.png)
+![image.png](../assets/note/epistemica/mathematical/division/image.png)
 
 ### **Machine Problem**
 

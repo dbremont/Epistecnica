@@ -14,7 +14,7 @@ QA:
 - What is **Architecture as Code**?
 - What is Conceptual Integrity?
 
-![image.png](data/technica/computation/system/programming/conceptual-model-programming/assets/computational-system-architecture/image.png)
+![image.png](../assets/note/technica/computation/system/programming/conceptual-model-programming/computational-system-architecture/image.png)
 
 ## **📌 Software Architecture Toolbox**
 

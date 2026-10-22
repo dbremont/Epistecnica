@@ -32,7 +32,7 @@ In more general settings, where the context may be heterogeneous or non-stationa
 > This note is a major undertaking—recording my understanding of probability—so some degree of incoherence should be expected.
 > 
 
-![image.png](assets/probability/image.png)
+![image.png](../assets/note/epistemica/observational/probability/image.png)
 
 > **Note:** This perspective focuses on a type of *fixed weighting of possibilities*. Under this view, there may exist more complex constructions, such as sequences of such mechanisms (e.g., Markov chains), where states evolve over time, but the underlying outcome space is still assumed to be fixed.
 > 
@@ -424,7 +424,7 @@ Then, for any event $A$:
 > Probability is a **formal framework** that enables the representation - description of  **stochastic pieces of reality** (systems and `events`) —or observer-induced stochasticity—through simulation or formal modeling, to support, in the most **abstract sense**,  **forecasting** (What is the next state of the system likely to be?) - **prediction** (now-casting) (asociation) (relation) part (predict unknown part from known parts in the current state), **retrodiction or backcasting** (How did we get here? Why are we here?), and **simulation** (How can we generate possible new states or sequences of states?).
 > 
 
-![image.png](assets/probability/image-1.png)
+![image.png](../assets/note/epistemica/observational/probability/image-1.png)
 
 > Note: **Almost `Any System`** can be model with **probability**, even if there is no inherent stochasticity in it,  just **observer stochastic**. In applying probability to non-stochastic systems, we do not model inherent randomness, but rather quantify the profound epistemic uncertainty arising from the irreducible complexity and incomplete observability of deterministic processes, transforming probability from a measure of chance into a language for the boundaries of human knowledge.  See more here [Suppose we have a function f(x). How should we interpret a probabilistic model of P(f(x)∣x)?](probability.md)
 > 
@@ -893,7 +893,7 @@ Formally, it involves:
 
 ### Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?
 
-![image.png](assets/probability/image-2.png)
+![image.png](../assets/note/epistemica/observational/probability/image-2.png)
 
 > This is simpler than I imagined: the probability distribution is **basically the characterization of the stochastic system (row state  → probability)**, assigning a probability to each event  and the  **random variable (**and more generally random objects), is just a **numerical representation** of the same space.
 > 

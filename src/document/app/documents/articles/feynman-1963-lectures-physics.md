@@ -155,7 +155,7 @@ Unifying Understanding:
 > The **electromagnetic field** can carry waves—known as ***electromagnetic waves***—which vary only by frequency. Different frequencies correspond to different phenomena: low frequencies (like 100 cycles per second) appear in power lines; higher ones (thousands to millions of cycles per second) are used in radio, TV, and radar. At even higher frequencies (around $5 \times 10^{14}$ to $10^{15}$ Hz), we see visible light. Beyond that lie infrared, ultraviolet, x-rays, and gamma rays—differentiated mainly by their source, not by nature. Extremely high-frequency waves, such as those found in cosmic rays, exist naturally and can’t yet be generated or controlled by humans.
 > 
 
-![image.png](documents/articles/feynman-1963-lectures-physics/image.png)
+![image.png](../assets/document/articles/feynman-1963-lectures-physics/image.png)
 
 ### **Quantum physics**
 
@@ -185,7 +185,7 @@ Unifying Understanding:
 > https://en.wikipedia.org/wiki/Lepton ;  https://en.wikipedia.org/wiki/Baryon; https://en.wikipedia.org/wiki/Meson.
 > 
 
-![image.png](documents/articles/feynman-1963-lectures-physics/image-1.png)
+![image.png](../assets/document/articles/feynman-1963-lectures-physics/image-1.png)
 
 ## The Relation of Physics to Other Sciences
 

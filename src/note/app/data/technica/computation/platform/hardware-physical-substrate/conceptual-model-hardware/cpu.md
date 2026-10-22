@@ -16,7 +16,7 @@ QA:
 
 ## Formulation
 
-![image.png](data/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/assets/cpu/image.png)
+![image.png](../assets/note/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu/image.png)
 
 ## Structure
 

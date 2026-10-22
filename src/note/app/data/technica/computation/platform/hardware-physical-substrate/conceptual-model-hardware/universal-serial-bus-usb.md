@@ -3,7 +3,7 @@
 
 > 
 
-![Untitled](data/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/assets/universal-serial-bus-usb/untitled.png)
+![Untitled](../assets/note/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/universal-serial-bus-usb/untitled.png)
 
 ## References
 

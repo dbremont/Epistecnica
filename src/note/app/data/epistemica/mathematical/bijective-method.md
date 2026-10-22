@@ -22,7 +22,7 @@ tags: [discrete, technique]
 > Determine the number of walks from $(0,0)$ to $(m,n)$ allowing only unit steps upward or to the right.
 > 
 
-![image.png](assets/bijective-method/image.png)
+![image.png](../assets/note/epistemica/mathematical/bijective-method/image.png)
 
 ## References
 

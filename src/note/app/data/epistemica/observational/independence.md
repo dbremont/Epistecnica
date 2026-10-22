@@ -17,7 +17,7 @@ tags: [probability, property]
 > Note: A better name for this concept would be non-informativeness.
 > 
 
-![A and B, are independent.](assets/independence/image.png)
+![A and B, are independent.](../assets/note/epistemica/observational/independence/image.png)
 
 A and B, are independent.
 

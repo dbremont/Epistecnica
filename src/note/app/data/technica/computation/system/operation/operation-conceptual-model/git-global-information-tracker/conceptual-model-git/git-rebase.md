@@ -4,7 +4,7 @@
 > `git rebase` is a version control operation that rewrites the commit history by transplanting a sequence of commits from one base to another, creating new commit hashes and a linear ancestry, in contrast to `git merge`, which preserves the original commit topology by introducing a new merge commit that joins divergent histories.
 > 
 
-![Untitled](data/technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/conceptual-model-git/assets/git-rebase/untitled.png)
+![Untitled](../assets/note/technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/conceptual-model-git/git-rebase/untitled.png)
 
 ## References
 

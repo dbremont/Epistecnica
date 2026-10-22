@@ -43,21 +43,21 @@ tags: [economics, physical]
 - How can we study the evolution of the institutional ecosystem (i.e., the set of institutions) over time? → https://github.com/csiglab/viz-country-institutional-evolution
 - …
 
-![image.png](documents/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image.png)
+![image.png](../assets/document/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image.png)
 
 **How to map the dynamics of the technical-space and production?**
 
-![image.png](documents/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-1.png)
+![image.png](../assets/document/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-1.png)
 
-![image.png](documents/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-2.png)
+![image.png](../assets/document/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-2.png)
 
-![image.png](documents/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-3.png)
+![image.png](../assets/document/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-3.png)
 
-![image.png](documents/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-4.png)
+![image.png](../assets/document/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-4.png)
 
-![image.png](documents/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-5.png)
+![image.png](../assets/document/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-5.png)
 
-![image.png](documents/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-6.png)
+![image.png](../assets/document/articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader/image-6.png)
 
 ## Data
 

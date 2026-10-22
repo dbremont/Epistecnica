@@ -27,7 +27,7 @@ Learn:
 - RL
 - …
 
-![image.png](documents/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image.png)
+![image.png](../assets/document/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image.png)
 
 **Model:**
 
@@ -110,7 +110,7 @@ Learn:
 > …
 > 
 
-![image.png](documents/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image-1.png)
+![image.png](../assets/document/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image-1.png)
 
 > We first introduce the basic architecture of DeepSeek-V3, featured by Multi-head Latent Attention (MLA) (DeepSeek-AI, [2024c](https://arxiv.org/html/2412.19437v1#bib.bib16)) for efficient inference and DeepSeekMoE (Dai et al., [2024](https://arxiv.org/html/2412.19437v1#bib.bib13)) for economical training.
 > 
@@ -123,7 +123,7 @@ Learn:
 
 ### Multi-Head Latent Attention
 
-![image.png](documents/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image-2.png)
+![image.png](../assets/document/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image-2.png)
 
 > For attention, DeepSeek-V3 adopts the MLA architecture.
 > 
@@ -178,7 +178,7 @@ tokens at each position. On the one hand, an MTP objective densifies the trainin
 > …
 > 
 
-![image.png](documents/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image-3.png)
+![image.png](../assets/document/articles/liu-2024-deepseek-technical-report-arxiv-preprint/image-3.png)
 
 - Fine-Grained Quantization
 - Online Quantization

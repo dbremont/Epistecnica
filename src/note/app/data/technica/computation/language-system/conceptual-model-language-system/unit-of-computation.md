@@ -18,7 +18,7 @@ tags: [computational-entity, unit-of-computation]
 > For a **more in-depth analysis** of the idea of computation flow, see. - [Notion of Change](note.html?n=technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
 > 
 
-![Untitled](data/technica/computation/language-system/conceptual-model-language-system/assets/unit-of-computation/untitled.png)
+![Untitled](../assets/note/technica/computation/language-system/conceptual-model-language-system/unit-of-computation/untitled.png)
 
 # Characterization
 

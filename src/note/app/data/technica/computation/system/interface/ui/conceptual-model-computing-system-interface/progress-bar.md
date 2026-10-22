@@ -12,7 +12,7 @@ tags: [ui-component]
 
 > 
 
-![image.png](data/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/assets/progress-bar/image.png)
+![image.png](../assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/progress-bar/image.png)
 
 ## Case Studies
 

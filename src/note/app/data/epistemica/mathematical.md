@@ -9,7 +9,7 @@
 > The art of mathematics extends beyond formal deduction: it employs heuristic, abductive, inductive, analogical, computational, and exploratory modes of reasoning to generate concepts, conjectures, representations, and frameworks. These creative processes allow mathematicians to discover hidden patterns, construct new abstractions, and expand the expressive and explanatory power of mathematical knowledge.
 > 
 
-![Mathematics is the recursive process by which humans encode the regular dimension (space, quantity, measure)  into abstract formal systems, and use those systems to expand their capacity to understand, predict, and transform reality.](assets/mathematical/image.png)
+![Mathematics is the recursive process by which humans encode the regular dimension (space, quantity, measure)  into abstract formal systems, and use those systems to expand their capacity to understand, predict, and transform reality.](../assets/note/epistemica/mathematical/image.png)
 
 Mathematics is the recursive process by which humans encode the regular dimension (space, quantity, measure)  into abstract formal systems, and use those systems to expand their capacity to understand, predict, and transform reality.
 

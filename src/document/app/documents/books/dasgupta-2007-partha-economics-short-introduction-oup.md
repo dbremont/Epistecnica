@@ -29,9 +29,9 @@ tags: [economics]
 > **GDP**: Represents a **flow measure**, expressed as dollars per year, while wealth is a **stock** **measure**, represented as a total dollar amount at a specific point in time.
 > 
 
-![gdp-per-capita-maddison.png](documents/books/dasgupta-2007-partha-economics-short-introduction-oup/gdp-per-capita-maddison.png)
+![gdp-per-capita-maddison.png](../assets/document/books/dasgupta-2007-partha-economics-short-introduction-oup/gdp-per-capita-maddison.png)
 
-![image.png](documents/books/dasgupta-2007-partha-economics-short-introduction-oup/image.png)
+![image.png](../assets/document/books/dasgupta-2007-partha-economics-short-introduction-oup/image.png)
 
 ### GDP Measurement Strategies
 

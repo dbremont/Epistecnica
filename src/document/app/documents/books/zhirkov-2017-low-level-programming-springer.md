@@ -36,7 +36,7 @@ tags: [physical]
 > Von Newman Architecture: A computational architecture in which **program instructions and data share the same memory space**, are represented in the same addressable format, and are fetched sequentially through a unified bus. The CPU operates using a **fetch–decode–execute cycle**, retrieving both instructions and operands from main memory, which creates the characteristic **Von Neumann bottleneck**: system throughput is constrained by the bandwidth of the memory–CPU channel.
 > 
 
-![image.png](documents/books/zhirkov-2017-low-level-programming-springer/image.png)
+![image.png](../assets/document/books/zhirkov-2017-low-level-programming-springer/image.png)
 
 > The **assembly language** for a given processor is a set of mnemonics that correspond to the machine code — the binary-encoded instructions executed by the hardware.
 > 

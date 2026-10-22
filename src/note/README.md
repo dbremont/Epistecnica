@@ -40,10 +40,10 @@ guide at
 the guide's Arithmetic case study is the worked exemplar, and the local
 companion is `data/epistemica/rees.md`.
 
-- The corpus was seeded from the Naturgnosis Notion *Modelado* export with
-  `bin/import_epistemica.py <export-root>` (names normalized, CSV tags as
-  front matter, Notion noise stripped; content preserved). Re-running skips
-  existing notes.
+- The corpus was seeded from the Naturgnosis Notion *Modelado* export
+  (one-off migration; the importer was removed after use — names
+  normalized, CSV tags as front matter, Notion noise stripped; content
+  preserved). The corpus is now the source of truth.
 - The dynamical-systems notes live in the `epistemica/mathematical/ds/`
   scope (the *ds* sub-scope of the Mathematical domain); elements best kept
   separate (differential/difference equations, operators, SDE, phase/state
@@ -85,7 +85,7 @@ facet bars: sections are reached as folders and tags through the search box.
   current directory; files flattens the whole corpus (or the `?dir=` scope).
 - **Directory** (`?dir=<scope>`): entering a folder card, or an ancestor
   breadcrumb, changes the listing in place via `pushState` — no reload.
-- **Toggles**: ★ pinned (server pins, `GET/POST /note/api/pins`), live
+- **Toggles**: ★ pinned (browser-local pins, `localStorage`), live
   (`?live=1`), unfinished (`?unfinished=1`, notes tagged `unfinished`).
 
 ## Notes vs live notes
@@ -146,12 +146,10 @@ Every markdown note carries a per-file edit history in
 ## Pins
 
 The catalog lets you pin notes (star button per row, `pinned` facet chip).
-Pins are server-side, not per-browser: `GET/POST /note/api/pins` (served by
-`bin/serve.py`) reads and upserts a single `pins` doc in the CouchDB
-database named by `NOTES_DB` (default `notes`; created by `make bootstrap`).
-The server validates paths against the corpus naming rules; the catalog
-hides the pin UI when the API is unreachable and filters out pins whose
-notes no longer exist.
+Pins are browser-local: the catalog keeps them in `localStorage`
+(`epistecnica.note-pins`), with no server call and no database. They are not shared
+across browsers or devices, and the catalog filters out pins whose notes no
+longer exist (the pin UI hides when `localStorage` is unavailable).
 
 ## Tags
 

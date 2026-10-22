@@ -12,7 +12,7 @@ tags: [language]
 > **Python Enhancement Proposals (PEPs)** are design documents that provide information to the Python community, describe new features, processes, or improvements for Python, and serve as the primary mechanism for proposing, discussing, and standardizing major changes to the language and its ecosystem.
 > 
 
-![Untitled](data/technica/computation/language-system/conceptual-model-language-system/assets/python/untitled.png)
+![Untitled](../assets/note/technica/computation/language-system/conceptual-model-language-system/python/untitled.png)
 
 QA:
 

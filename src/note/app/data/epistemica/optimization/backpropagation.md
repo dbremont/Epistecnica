@@ -897,7 +897,7 @@ Understanding Path:
 > Backpropagation, short for **backward propagation of errors**, is a central algorithm used to compute gradients of the loss function with respect to the weights in a neural network. It leverages the **chain rule of calculus** to propagate the error signal backward through the layers of the network, enabling gradient-based optimization methods such as **Stochastic Gradient Descent (SGD)** or **Adam**.
 > 
 
-![image.png](assets/backpropagation/image.png)
+![image.png](../assets/note/epistemica/optimization/backpropagation/image.png)
 
 ### 📌 Preliminaries
 

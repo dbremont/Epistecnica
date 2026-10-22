@@ -15,9 +15,9 @@
 > Causality:  Piece of Reality * Technique → Causal Model.
 > 
 
-![Untitled](assets/causality/untitled.png)
+![Untitled](../assets/note/epistemica/causality/untitled.png)
 
-![How to think about system interventions?](assets/causality/image.png)
+![How to think about system interventions?](../assets/note/epistemica/causality/image.png)
 
 How to think about system interventions?
 
@@ -175,7 +175,7 @@ This ordering can be:
 > Which are the formalization goal?
 > 
 
-![image.png](assets/causality/image-1.png)
+![image.png](../assets/note/epistemica/causality/image-1.png)
 
 | Perspective | Explanation |
 | --- | --- |

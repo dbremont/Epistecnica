@@ -3,7 +3,7 @@
 #   make deploy-local    build the local image and run the container (dev/testing)
 #   make deploy-server   pull the GHCR image CI publishes and run it (production)
 #
-# Deploys require Docker and CouchDB running on 127.0.0.1:5984.
+# Deploys require Docker.
 
 CONTAINER   := epistecnica
 LOCAL_IMAGE := epistecnica:local
@@ -18,14 +18,6 @@ DEV_PORT ?= 8010
 # `make EPISTECNICA_PORT=...` overrides still win.
 EPISTECNICA_PORT ?= 8000
 
-# DB coordinates used by `make bootstrap` (same defaults as bin/envutil.py;
-# .env values override). AUTH feeds the bootstrap curls — empty when
-# COUCHDB_USER is unset (admin-party CouchDB). The ontology graphs moved to
-# Naturgnosis; the only local DB is the notes-catalog pins store.
-COUCHDB_URL   ?= http://127.0.0.1:5984
-NOTES_DB      ?= notes
-AUTH          = $(if $(COUCHDB_USER),-u "$(COUCHDB_USER):$(COUCHDB_PASSWORD)",)
-
 -include .env
 export
 
@@ -33,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check bootstrap notes-index course-index document-index rees-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check notes-index course-index document-index rees-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -69,13 +61,6 @@ index: notes-index course-index document-index search-index ## rebuild all searc
 changelog-link: ## stamp commit links on corpus changelog logs introduced by HEAD
 	python3 bin/link_changelog_commits.py
 
-# One-time CouchDB setup. The create-then-verify idiom keeps the rule
-# re-runnable (PUT on an existing DB would fail with 412). Credentials come
-# from .env via AUTH when set.
-bootstrap: ## one-time CouchDB setup: create the notes pins DB
-	curl -fsS $(AUTH) -X PUT $(COUCHDB_URL)/$(NOTES_DB) || curl -fsS $(AUTH) -o /dev/null $(COUCHDB_URL)/$(NOTES_DB)
-	curl -fsS $(AUTH) -X PUT $(COUCHDB_URL)/$(NOTES_DB)/_security -H 'Content-Type: application/json' -d '{}'
-
 build: ## docker build the local image (epistecnica:local)
 	docker build -t $(LOCAL_IMAGE) .
 
@@ -93,9 +78,8 @@ stop: ## stop and remove container epistecnica
 	docker rm -f $(CONTAINER) 2>/dev/null || true
 
 # Shared by both deploy targets: same semantics as the old deploy-*.sh — host
-# network, restart policy, .env mounted read-only at /srv/.env (bin/envutil.py
-# reads it there; real env vars win), and the port passed explicitly to
-# bin/serve.py.
+# network, restart policy, .env mounted read-only at /srv/.env, and the port
+# passed explicitly to bin/serve.py.
 define run_container
 	docker rm -f $(CONTAINER) 2>/dev/null || true
 	docker run -d --name $(CONTAINER) --restart unless-stopped \

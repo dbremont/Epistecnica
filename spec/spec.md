@@ -32,22 +32,17 @@ guide-first entry page.
                     │  /             src/app/…      │
                     │  /graph/*      universal view │
                     │  /shared/*     nav search     │
+                    │  /assets/*     shared images  │
                     │  /note/*       notes statics  │
                     │  /course/*     course statics │
                     │  /document/*   doc statics    │
-                    │  /note/api/pins CouchDB I/O   │
-                    └───────────┬──────────────────┘
-                                │
-                    ┌───────────▼──┐
-                    │ CouchDB      │
-                    │ db notes     │  (pins doc only)
-                    └──────────────┘
+                    └──────────────────────────────┘
 ```
 
-- **The browser never talks to CouchDB.** The combined server is the only
-  frontend-facing surface; CouchDB CORS stays disabled (default).
-- **One CouchDB-backed feature: the notes pins store.** A single `pins` doc in
-  the `notes` DB. Everything else is static file serving.
+- **The browser only talks to the server.** `bin/serve.py` is the only
+  frontend-facing surface, and there is no database behind it — the
+  notes-catalog pins are browser-local (`localStorage`). Everything else is
+  static file serving.
 - **No build step.** Python 3.12 stdlib server; vanilla JS. Vendored runtime
   bundles: the notes MathJax (`src/note/app/vendor/mathjax/`) and the
   universal-view renderer (`src/app/graph/vendor/`, deck.gl + socio-graph).
@@ -60,29 +55,28 @@ guide-first entry page.
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface |
 | `GET /graph/<path>` | Universal view from `src/app/graph/`: Graphive viewer over the graph generated from our own corpus (notes + courses + documents + REES), plus `data/universal-graph.json` + `data/universal-layout.json`; no API routes |
 | `GET /shared/<path>` | Shared nav assets from `src/app/shared/`: `usearch.css` + `usearch.js`, the universal search used by every surface's header |
+| `GET /assets/<path>` | Shared corpus-image store from `src/app/assets/` (every image referenced by corpus markdown) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/rees.html` (graphs moved to Naturgnosis) |
 | `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), REES atlas (`data/epistemica/rees.html`), generated search index (`data/index.json`) |
 | `GET /course/<path>` | Courses surface from `src/course/app/`: catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`), corpus |
 | `GET /document/<path>` | Documents surface from `src/document/app/`: catalog (`index.html`), viewer (`document.html?d=`), corpus |
 | `GET /glossarium/<path>` | **Not served here.** The lexical surface lives in the external Naturgnosis medium (`http://localhost:8013/glossarium/web/`); Epistecnica pages link out and the select-a-word popup loads its JS + index from there |
 | `GET /api/health` | Liveness probe: `{"status":"ok","service":"epistecnica"}` |
-| `GET /note/api/pins` | Notes-catalog pins: `{"pins": […]}` from the single `pins` doc in db `NOTES_DB` (default `notes`); empty list when unpinned; **hard 502 when CouchDB is down** |
-| `POST /note/api/pins` | Body `{"path": "<note path>", "pinned": bool}`; server validates the path against the corpus naming rules, upserts the `pins` doc |
 
 The old `/{ds}/api/{health,nodes,layout,graph/save}` endpoints and their
 `_bulk_docs`/`layout` semantics left with the subprojects.
 
 ### Configuration (✅)
 
-`.env` (gitignored; see `.env.example`): `COUCHDB_URL`, `COUCHDB_USER`,
-`COUCHDB_PASSWORD`, `NOTES_DB` (default `notes`). Real environment variables
-override `.env` values.
+`.env` (gitignored; see `.env.example`) carries repo-local configuration (the
+deploy port). Real environment variables override `.env` values. There is no
+database configuration.
 
 ## 3. Data flow & ownership
 
 | Store | Contents | Written by |
 |-------|----------|------------|
-| CouchDB `notes` | Single `pins` doc (pinned note paths) | `/note/api/pins` (via server) |
+| Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/note/app/index.html`); no server write |
 | `src/note/app/data/**` | Notes corpus, live notes, REES atlas, `changelog.json` | hand-authored; index via `src/note/bin/index.py` |
 | `src/course/app/**` | Courses corpus | hand-authored; index via `src/course/bin/index.py` |
 | `src/document/app/**` | Documents corpus | hand-authored; index via `src/document/bin/index.py` |
@@ -115,7 +109,7 @@ the browser. The backend has no AI endpoints and must never hold keys.
 
 ## 6. Invariants (do not break)
 
-1. Browser → server only; never browser → CouchDB.
+1. Browser → server only; the server holds no database (pins are browser-local).
 2. Frontend pages fetch **relatively** (`api/…`, `data/…`) — this is what
    allows prefix mounting without touching the huge HTML files.
 3. No package managers, no frameworks, no build steps.

@@ -8,7 +8,7 @@ tags: [principle]
 > The **SOLID** principles are a set of five foundational guidelines for designing maintainable, flexible, and scalable object-oriented software. Coined by Robert C. Martin (“Uncle Bob”), these principles help developers create systems that are easier to understand, extend, and refactor over time. By following SOLID, software components become more modular, reducing bugs and improving collaboration across teams. Each principle addresses a specific aspect of software design, collectively promoting clean architecture and robust codebases.
 > 
 
-![image.png](data/technica/computation/system/programming/conceptual-model-programming/assets/solid/image.png)
+![image.png](../assets/note/technica/computation/system/programming/conceptual-model-programming/solid/image.png)
 
 ## Principle
 

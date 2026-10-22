@@ -43,7 +43,7 @@ Guiding questions:
 
 ---
 
-![image.png](assets/matrix/image.png)
+![image.png](../assets/note/epistemica/mathematical/matrix/image.png)
 
 QA:
 

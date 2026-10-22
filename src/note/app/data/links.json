@@ -67,6 +67,12 @@
       "kind": "related"
     },
     {
+      "from": "technica/ais/",
+      "to": "epistemica/observational/",
+      "label": "Observational",
+      "kind": "related"
+    },
+    {
       "from": "epistemica/mathematical/space/",
       "to": "epistemica/mathematical/mathematical-structure.md",
       "label": "Mathematical Structure",

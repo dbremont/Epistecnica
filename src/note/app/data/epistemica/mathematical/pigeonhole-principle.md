@@ -18,7 +18,7 @@ tags: [axiom, discrete]
 > Note: The key in applying the Pigeonhole Principle is to learn to recognize problems in terms of assignments or mappings. This does not necessarily require thinking about the assignment directly; often it is done through transformations, logical reformulations, or other indirect approaches that eventually produce a form amenable to the principle.
 > 
 
-![image.png](assets/pigeonhole-principle/image.png)
+![image.png](../assets/note/epistemica/mathematical/pigeonhole-principle/image.png)
 
 ## Formalism
 

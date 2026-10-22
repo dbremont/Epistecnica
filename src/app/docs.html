@@ -563,16 +563,18 @@
 
                     <h2 id="architecture">Architecture, for the Curious</h2>
                     <p>
-                        One small server fronts everything; the browser never talks to the database.
-                        Every page fetches <em>relatively</em>, so each surface also works under its
-                        own prefix or standalone server. There are no accounts, and reads are open.
-                        The ontology graphs are not served here — they live in Naturgnosis, which the
-                        pages link to. The only stateful surface left is the notes-catalog pins.
+                        One small server fronts everything; the browser never talks to a database
+                        — there isn't one. Every page fetches <em>relatively</em>, so each surface
+                        also works under its own prefix or standalone server. There are no accounts,
+                        and reads are open. The ontology graphs are not served here — they live in
+                        Naturgnosis, which the pages link to. The only stateful surface is the
+                        catalog pins, and they live in your browser (stored locally, never sent
+                        anywhere).
                     </p>
                     <table>
                         <thead><tr><th>Endpoint</th><th>Purpose</th></tr></thead>
                         <tbody>
-                            <tr><td><code>GET/POST /note/api/pins</code></td><td>Notes-catalog pins (read / toggle)</td></tr>
+                            <tr><td><code>GET /api/health</code></td><td>Liveness probe for the service</td></tr>
                         </tbody>
                     </table>
 

@@ -8,11 +8,11 @@
 > **Trade-offs** refer to the compromises or sacrifices that must be made when choosing between two or more options. They involve giving up some benefits or advantages of one option to gain benefits or advantages of another option. **Trade-offs** can occur in various contexts, including personal decision-making, business strategy, and public policy.
 > 
 
-![Dominant Solution.](assets/trade-off/image.png)
+![Dominant Solution.](../assets/note/epistemica/optimization/trade-off/image.png)
 
 Dominant Solution.
 
-![Partial Dominant Solution.](assets/trade-off/image-1.png)
+![Partial Dominant Solution.](../assets/note/epistemica/optimization/trade-off/image-1.png)
 
 Partial Dominant Solution.
 

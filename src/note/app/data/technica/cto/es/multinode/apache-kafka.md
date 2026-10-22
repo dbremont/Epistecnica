@@ -9,11 +9,11 @@
 > Kafka's architecture consists of **producers that publish messages** to topics, partitioned across **brokers** for parallelism and fault tolerance, while **consumers** pull messages using a consumer group mechanism that enables load balancing; data is durably stored in segmented, replicated logs across brokers, ensuring high availability and persistence, with ZooKeeper (or KRaft) managing metadata, leader election, and cluster coordination.
 > 
 
-![Untitled](kafka/untitled.png)
+![Untitled](../assets/note/technica/cto/es/multinode/kafka/untitled.png)
 
-![image.png](kafka/image.png)
+![image.png](../assets/note/technica/cto/es/multinode/kafka/image.png)
 
-![image.png](kafka/image-1.png)
+![image.png](../assets/note/technica/cto/es/multinode/kafka/image-1.png)
 
 QA:
 

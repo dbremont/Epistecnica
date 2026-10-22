@@ -121,7 +121,7 @@ The GNU Debugger (GDB) is a powerful tool for debugging applications written in 
 
 [GDB Dashboard](https://stackoverflow.com/a/51301717)
 
-![Untitled](data/technica/computation/system/evaluation/performace/conceptual-model-performance/assets/gdb-gnu-project-debugger/untitled.png)
+![Untitled](../assets/note/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger/untitled.png)
 
 ## GDB Python API
 

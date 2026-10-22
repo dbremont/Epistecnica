@@ -4,7 +4,7 @@
 > A **computation graph** is a **directed acyclic graph** where nodes represent operations or variables, and edges represent the flow of data or dependencies between operations, used to model and compute functions step by step in fields like deep learning and automatic differentiation.
 > 
 
-![image.png](assets/computation-graph/image.png)
+![image.png](../assets/note/epistemica/observational/computation-graph/image.png)
 
 ## References
 

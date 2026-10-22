@@ -44,7 +44,7 @@ QA:
 > In a functional financial system, all forms of money are freely convertible to each other. When that conversion breaks down, then serious problems in the financial system emerges.
 > 
 
-![image.png](documents/books/wang-2020-central-banking-joseph/image.png)
+![image.png](../assets/document/books/wang-2020-central-banking-joseph/image.png)
 
 Types of Money:
 

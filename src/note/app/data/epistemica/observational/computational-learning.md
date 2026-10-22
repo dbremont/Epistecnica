@@ -29,11 +29,11 @@ Key Questions
     - **Meta-Learners (Learning to Learn):** Learn strategies for quickly adapting to new tasks, leveraging prior knowledge for efficient transfer and few-shot learning.
     - **Self-Supervised Learners:** Learn representations from raw, unlabeled data by exploiting inherent structure, enabling robust feature extraction and pretraining for downstream tasks.
 
-![image.png](assets/computational-learning/image.png)
+![image.png](../assets/note/epistemica/observational/computational-learning/image.png)
 
-![image.png](assets/computational-learning/image-1.png)
+![image.png](../assets/note/epistemica/observational/computational-learning/image-1.png)
 
-![image.png](assets/computational-learning/image-2.png)
+![image.png](../assets/note/epistemica/observational/computational-learning/image-2.png)
 
 ## Meta
 
@@ -635,7 +635,7 @@ These operations **require numeric input** (real numbers, vectors, tensors).
 
 ### When we talk about a learning system that correctly represents a decision boundary, do we judge this based on the model’s behavior—its ability to classify points correctly—or based on the model’s internal architecture?
 
-![image.png](assets/computational-learning/image-3.png)
+![image.png](../assets/note/epistemica/observational/computational-learning/image-3.png)
 
 > When we talk about a learning system that correctly learns or represents a decision boundary—like a complex frontier between countries—and you want to determine which country a given point belongs to, there are two main ways to interpret this:
 > 

@@ -84,7 +84,7 @@ Doing:
 > **Software Analysis:** The systematic examination of a software system to understand its structure, behavior, performance, and correctness.
 > 
 
-![image.png](data/technica/computation/assets/system/image.png)
+![image.png](../assets/note/technica/computation/system/image.png)
 
 | **Part** | **Task** | **Description** |
 | --- | --- | --- |

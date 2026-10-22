@@ -65,7 +65,7 @@ This ensures the polygon is **non-self-intersecting**
 > A **regular** polygon is a special type with sides that are all the same length and angles that are the same size.
 > 
 
-![image.png](assets/polygon/image.png)
+![image.png](../assets/note/epistemica/mathematical/polygon/image.png)
 
 ## **Trapezoid**
 

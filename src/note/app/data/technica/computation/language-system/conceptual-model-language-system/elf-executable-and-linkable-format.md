@@ -53,7 +53,7 @@ QA:
 
 > 
 
-![image.png](data/technica/computation/language-system/conceptual-model-language-system/assets/elf-executable-and-linkable-format/image.png)
+![image.png](../assets/note/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format/image.png)
 
 ### **ELF Header**
 

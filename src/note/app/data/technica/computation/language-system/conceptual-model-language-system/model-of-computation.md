@@ -226,7 +226,7 @@ It encompasses both:
 > Workload: A **Workload** is the total amount of work or processing tasks that are assigned to a system or component over a specific period. It can refer to the volume, complexity, and variety of operations that a system must handle, including tasks, transactions, and other computational activities
 > 
 
-![Untitled](data/technica/computation/language-system/conceptual-model-language-system/assets/model-of-computation/untitled.png)
+![Untitled](../assets/note/technica/computation/language-system/conceptual-model-language-system/model-of-computation/untitled.png)
 
 ### 🔍 Characterization
 

@@ -27,11 +27,11 @@
 > How to integrate ML Driven Computation with Symbolic Driven Computations?
 > 
 
-![**Computation** is the **evolution** of states under a governing **dynamic law**.](data/technica/computation/assets/computacion/image.png)
+![**Computation** is the **evolution** of states under a governing **dynamic law**.](../assets/note/technica/computation/computacion/image.png)
 
 **Computation** is the **evolution** of states under a governing **dynamic law**.
 
-![Programming: Computational Mental Model ↔ Concrete Reification in a Given Language System. ](data/technica/computation/assets/computacion/image-1.png)
+![Programming: Computational Mental Model ↔ Concrete Reification in a Given Language System. ](../assets/note/technica/computation/computacion/image-1.png)
 
 Programming: Computational Mental Model ↔ Concrete Reification in a Given Language System. 
 

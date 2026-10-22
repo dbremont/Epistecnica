@@ -24,8 +24,7 @@ Epistecnica/
 ├── bin/serve.py          # Combined server: hub + /graph/ + /note/ + /course/ + /document/
 ├── bin/build_universal_index.py  # Universal-view graph builder (our corpus → graph JSON)
 ├── bin/layout.py         # Universal-view layout pre-computer (sunflower + FR)
-├── bin/envutil.py        # .env loader (notes pins DB resolution)
-├── bin/couchdb_client.py # Shared stdlib CouchDB client (notes pins)
+├── bin/envutil.py        # .env loader
 ├── spec/                 # General spec + shared design system
 ├── docs/                 # Documentation hub (README mirrors this file)
 ├── src/note/             # Notes corpus + catalog/viewer (served at /note/)
@@ -35,12 +34,11 @@ Epistecnica/
 
 ## Architecture in one paragraph
 
-One stdlib Python server (`bin/serve.py`) serves everything. The browser talks
-**only** to this server — **it never talks to CouchDB directly** (CouchDB CORS
-stays disabled). The only CouchDB-backed API left is the notes-catalog pins
-store (a single `pins` doc in the `notes` DB). The old `/{ds}/api/*` graph
-endpoints, their `layout` docs, and the offline layout/seed scripts left with
-the subprojects.
+One stdlib Python server (`bin/serve.py`) serves everything. There is no
+database behind it: the browser only talks to this server, and the
+notes-catalog pins live in the browser (`localStorage`). The old `/{ds}/api/*`
+graph endpoints, their `layout` docs, and the offline layout/seed scripts left
+with the subprojects.
 
 ## Surfaces
 
@@ -55,29 +53,18 @@ the subprojects.
 | `/document/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
 | `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/rees.html` (graphs moved to Naturgnosis) |
 | `/api/health` | Liveness probe for the service |
-| `/note/api/pins` | Notes-catalog pins (single `pins` doc in the `notes` DB) |
 
 ## Data backend
 
-The only CouchDB-backed feature is the notes-catalog pins store. Connection
-comes from a gitignored `.env` (copy `.env.example`).
-
-Bootstrap CouchDB once — `make bootstrap` creates the `notes` DB and clears
-its `_security` (re-runnable). By hand (adapt host/port/user:pass to your
-`.env`):
-
-```sh
-curl -X PUT http://127.0.0.1:5984/notes
-curl -X PUT http://127.0.0.1:5984/notes/_security -H 'Content-Type: application/json' -d '{}'
-```
-
-`_security` is cleared so the server can read anonymously; CORS must stay
-disabled (the CouchDB default) so the browser can never reach the DB.
+None — every surface is static file serving, and the notes-catalog pins are
+browser-local (`localStorage`), so the deployment needs no database. `.env`
+(gitignored; copy `.env.example`) only carries repo-local configuration (the
+deploy port).
 
 ## Run
 
 ```sh
-cp .env.example .env        # fill in COUCHDB_USER / COUCHDB_PASSWORD
+cp .env.example .env        # optional: repo-local config
 make run                    # dev server on http://localhost:8010 (no docker)
 python3 bin/serve.py        # same server directly, port 8000
 ```

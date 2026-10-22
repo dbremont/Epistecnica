@@ -54,9 +54,9 @@ Set:
 
 Probabilistic Model:
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image.png)
 
-![Many tools can be used to represent this experiments like a **Sequential Tree Description**.](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-1.png)
+![Many tools can be used to represent this experiments like a **Sequential Tree Description**.](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-1.png)
 
 Many tools can be used to represent this experiments like a **Sequential Tree Description**.
 
@@ -89,7 +89,7 @@ Probability Formalism:
 
 Komolgorov Axioms:
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-2.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-2.png)
 
 Discrete Models:
 
@@ -118,7 +118,7 @@ Conditional Probability:
 
 Properties of **Conditional Probability**:
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-3.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-3.png)
 
 Modelling with Probability:
 
@@ -130,7 +130,7 @@ Multiplicative Rule:
 
 **Total Probability Theorem:**
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-4.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-4.png)
 
 Let $A_{1},\ldots,A_{n}$ be disjoint events that form a partition of the sample space (each possible outcome is included in one and only one of the events $A_{1},\ldots,A_{n}$ and assume that $\mathbf{P}(A_{i})>0$, for all $i=1,\ldots,n$. Then, for any event $B$, we have
 
@@ -146,17 +146,17 @@ Let $A_{1},A_{2},\ldots,A_{n}$ be disjoint events that form a partition of the s
 
 **Independence:**
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-5.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-5.png)
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-6.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-6.png)
 
 Counting:
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-7.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-7.png)
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-8.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-8.png)
 
-![image.png](documents/books/bertsekas-2008-introduction-probability-athena-scientific/image-9.png)
+![image.png](../assets/document/books/bertsekas-2008-introduction-probability-athena-scientific/image-9.png)
 
 - The counting principle is based on a divide-and-conquer approach, whereby the
 counting is broken down into stages through the use of a tree.

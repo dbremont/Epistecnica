@@ -27,11 +27,11 @@ tags: [framework]
 > Note: A superficial understanding of statistics can be more misleading than having no knowledge at all.
 > 
 
-![modelling.jpeg](assets/statistics/modelling.jpeg)
+![modelling.jpeg](../assets/note/epistemica/observational/statistics/modelling.jpeg)
 
 [https://pbs.twimg.com/media/GPFHPSCWwAAvrXq?format=jpg&name=large](https://pbs.twimg.com/media/GPFHPSCWwAAvrXq?format=jpg&name=large)
 
-![Untitled](assets/statistics/untitled.png)
+![Untitled](../assets/note/epistemica/observational/statistics/untitled.png)
 
 ## Meta
 

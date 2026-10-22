@@ -3,7 +3,7 @@
 
 > 
 
-![Untitled](assets/durandkerner-method/untitled.png)
+![Untitled](../assets/note/epistemica/computational-science/durandkerner-method/untitled.png)
 
 ## References
 

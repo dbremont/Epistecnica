@@ -14,7 +14,7 @@ tags: [data-system, ml-system, search-system]
 > In contrast, **traditional search operates in deterministic, clearly-defined problem spaces**, such as finding a value in a sorted array. See more in [Search](note.html?n=technica/computation/algorithm/conceptual-model-algorithm/search.md).
 > 
 
-![Untitled](data/technica/computation/miscelanea/assets/retrieval-system-search-system/untitled.png)
+![Untitled](../assets/note/technica/computation/miscelanea/retrieval-system-search-system/untitled.png)
 
 ## Formulation
 

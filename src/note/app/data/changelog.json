@@ -7,6 +7,11 @@
         "kind": "feat",
         "summary": "Import Causality from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -381,6 +386,11 @@
         "kind": "feat",
         "summary": "Import Durand–Kerner Method from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -1212,6 +1222,11 @@
         "kind": "feat",
         "summary": "Import Cybernetics from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -1322,6 +1337,11 @@
         "kind": "feat",
         "summary": "Import Mathematical from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -1515,6 +1535,11 @@
         "kind": "feat",
         "summary": "Import Arithmetic from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -1620,6 +1645,11 @@
         "kind": "feat",
         "summary": "Import Bijective Method from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -2253,6 +2283,11 @@
         "kind": "feat",
         "summary": "Import Division from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -2610,6 +2645,11 @@
         "kind": "feat",
         "summary": "Import Equation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -3033,6 +3073,11 @@
         "kind": "feat",
         "summary": "Import Group from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -3349,6 +3394,11 @@
         "kind": "feat",
         "summary": "Import Integral Transform from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -3772,6 +3822,11 @@
         "kind": "feat",
         "summary": "Import Matrix from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -4236,6 +4291,11 @@
         "kind": "feat",
         "summary": "Import Pigeonhole Principle from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -4269,6 +4329,11 @@
         "kind": "feat",
         "summary": "Import Polygon from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -5222,6 +5287,11 @@
         "summary": "Update Statistical Mechanics links after the construction-scope move.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
         "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -5815,6 +5885,11 @@
         "kind": "feat",
         "summary": "Import Computation Graph from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -5833,6 +5908,11 @@
         "summary": "Update Statistical Mechanics links after the construction-scope move.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
         "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -6398,6 +6478,11 @@
         "kind": "feat",
         "summary": "Import Flow Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -6662,6 +6747,11 @@
         "kind": "feat",
         "summary": "Import (HMM) Hidden Markov Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -6728,6 +6818,11 @@
         "kind": "feat",
         "summary": "Import Independence from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -7639,6 +7734,11 @@
         "summary": "Update Statistical Mechanics links after the construction-scope move.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
         "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -7899,6 +7999,11 @@
         "summary": "Link the Shannon information content note and the information-theory atlas.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
         "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -7943,6 +8048,11 @@
         "kind": "feat",
         "summary": "Import Standard Deviation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -8005,6 +8115,11 @@
         "kind": "feat",
         "summary": "Import Statistics from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -8361,6 +8476,11 @@
         "kind": "feat",
         "summary": "Import Optimization from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -8372,6 +8492,11 @@
         "kind": "feat",
         "summary": "Import Backpropagation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -8526,6 +8651,11 @@
         "kind": "feat",
         "summary": "Import Trade-Off from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -8742,6 +8872,11 @@
         "kind": "feat",
         "summary": "Add Compositionality: the twofold principle of reality (ontic + cognitive) with its decomposition table — first note of the nature/ section.",
         "commit": "40d72d07ffba1c6ceb6a74176009e1d0b5bd8aa5"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Rework the note around cognition: retag nature/cognition, add QA questions, replace the decomposition with a stub and expand the references (linguistics + ML compositionality)."
       }
     ]
   },
@@ -9141,6 +9276,11 @@
         "kind": "feat",
         "summary": "Import Algorithm from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -9152,6 +9292,11 @@
         "kind": "feat",
         "summary": "Import Computational Complexity Theory from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -9493,6 +9638,11 @@
         "kind": "feat",
         "summary": "Import Buffer Manager from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -9878,6 +10028,11 @@
         "kind": "feat",
         "summary": "Import Relational Data System Storage Management from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -9900,6 +10055,11 @@
         "kind": "feat",
         "summary": "Import SQL from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -10032,6 +10192,11 @@
         "kind": "feat",
         "summary": "Import Data Visualization from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -10043,6 +10208,11 @@
         "kind": "feat",
         "summary": "Import Consistency from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -10175,6 +10345,11 @@
         "kind": "feat",
         "summary": "Import Dependability from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -10241,6 +10416,11 @@
         "kind": "feat",
         "summary": "Import Distributed Counter from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -10307,6 +10487,11 @@
         "kind": "feat",
         "summary": "Import Interaction Protocol from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -10483,6 +10668,11 @@
         "kind": "feat",
         "summary": "Import Information Systems Integration from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -11737,6 +11927,11 @@
         "kind": "feat",
         "summary": "Import ELF (Executable and Linkable Format) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -13541,6 +13736,11 @@
         "kind": "feat",
         "summary": "Import Model of Computation from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -13596,6 +13796,11 @@
         "kind": "feat",
         "summary": "Import NodeJS from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -14080,6 +14285,11 @@
         "kind": "feat",
         "summary": "Import Petri Net from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -14388,6 +14598,11 @@
         "kind": "feat",
         "summary": "Import Python from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -15444,6 +15659,11 @@
         "kind": "feat",
         "summary": "Import Type Variance from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -15609,6 +15829,11 @@
         "kind": "feat",
         "summary": "Import Unit of Computation from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -15906,6 +16131,11 @@
         "kind": "feat",
         "summary": "Import x86: 📜 Language Specification from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -15983,6 +16213,11 @@
         "kind": "feat",
         "summary": "Import Language System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -16027,6 +16262,11 @@
         "kind": "feat",
         "summary": "Import Calendar from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -16071,6 +16311,11 @@
         "kind": "feat",
         "summary": "Import Computational Learning System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -16434,6 +16679,11 @@
         "kind": "feat",
         "summary": "Import Retrieval System (Search System) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -16456,6 +16706,11 @@
         "kind": "feat",
         "summary": "Import Search Engine Optimization (SEO) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -17116,6 +17371,11 @@
         "kind": "feat",
         "summary": "Import Linux Security Stack from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -17842,6 +18102,11 @@
         "kind": "feat",
         "summary": "Import CPU from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -18183,6 +18448,11 @@
         "kind": "feat",
         "summary": "Import Universal Serial Bus (USB) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -20064,6 +20334,11 @@
         "kind": "feat",
         "summary": "Import Design from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -20328,6 +20603,11 @@
         "kind": "feat",
         "summary": "Import GDB (GNU Project Debugger) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -20592,6 +20872,11 @@
         "kind": "feat",
         "summary": "Import Tracing from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -20702,6 +20987,11 @@
         "kind": "feat",
         "summary": "Import Performace from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -20922,6 +21212,11 @@
         "kind": "feat",
         "summary": "Import Firefox from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -21263,6 +21558,11 @@
         "kind": "feat",
         "summary": "Import Network Diagram from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -21362,6 +21662,11 @@
         "kind": "feat",
         "summary": "Import Progress Bar from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -22077,6 +22382,11 @@
         "kind": "feat",
         "summary": "Import GIT: Rebase from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -22220,6 +22530,11 @@
         "kind": "feat",
         "summary": "Import Jenkins Code Reading from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -22627,6 +22942,11 @@
         "kind": "feat",
         "summary": "Import Computational System Architecture from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -23287,6 +23607,11 @@
         "kind": "feat",
         "summary": "Import SOLID from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -23507,6 +23832,11 @@
         "kind": "feat",
         "summary": "Import System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -23683,6 +24013,11 @@
         "kind": "feat",
         "summary": "Import HTTP from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -24079,6 +24414,11 @@
         "kind": "feat",
         "summary": "Import Transmission Control Protocol (TCP) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -24266,6 +24606,11 @@
         "kind": "feat",
         "summary": "Import Telecom from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -24277,6 +24622,11 @@
         "kind": "feat",
         "summary": "Import Computacion from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
       }
     ]
   },
@@ -26499,6 +26849,966 @@
         "kind": "feat",
         "summary": "Import 🌐 from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Evaluation from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/cityscapes.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Cityscapes from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/coco-common-objects-in-context.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import COCO (Common Objects in Context) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/fashion-mnist.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Fashion-MNIST from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/glue-general-language-understanding-evaluation.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import GLUE (General Language Understanding Evaluation) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/kitti.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import KITTI from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/librispeech.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import LibriSpeech from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/mnist.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import MNIST from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/pascal-voc.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import PASCAL VOC from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/squad-stanford-question-answering-dataset.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import SQuAD (Stanford Question Answering Dataset) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/timit.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import TIMIT from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/evaluation/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import topic from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/theory/llm-system-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import LLM System Modelling from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/theory/coding-model-continuation-study.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Coding Model Continuation Study from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/theory/study-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Study Framework from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/ais.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Machine Active Inference from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/operation.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Operation from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/robotic-system.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Robotic System from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/robotic-system/automatum-conceptual-model/computer-numerical-control-cnc.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Computer Numerical Control (CNC) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/robotic-system/automatum-conceptual-model/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import topic from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import System from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/abstract-reasoning.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Abstract Reasoning from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/active-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Active Learning from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/agentic-system.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Agentic System from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/bert.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import BERT from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/cifar-10-100.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import CIFAR-10/100 from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/code-search.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Code Search from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/constituency-parsing.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Constituency Parsing from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/curriculum-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Curriculum Learning from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/data-augmentation.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Data Augmentation from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/dbt.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import dbt from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/deepseek-r1.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import DeepSeek R1 from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/deepseek-v3.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import DeepSeek V3 from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/dependency-parsing.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Dependency Parsing from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/differentiable-computing.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Differentiable Computing from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/distributed-training.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Distributed Training from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/document-classification.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Document Classification from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/dual-chunk-attention-dca.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Dual Chunk Attention (DCA) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/ensemble-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Ensemble Learning from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/full-text-search.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Full-Text Search from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/gpt2.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import GPT2 from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/gpt3.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import GPT3 from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/haystack.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Haystack from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/imagenet.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import ImageNet from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/interaction-layer.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Interaction Layer from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/interoperability.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Interoperability from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/jax.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import JAX from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/keras.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Keras from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/knowledge-distillation.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Knowledge Distillation from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/knowledge-graph.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Knowledge Graph from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/langchain.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import LangChain from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/language-modelling-lm.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Language Modelling (LM) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/mixture-of-experts-moe.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Mixture of Experts (MoE) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/model-context-protocol-mcp.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Model Context Protocol (MCP) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/multi-level-attention-mla.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Multi-Level Attention (MLA) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/multi-tensor-processing-mtp.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Multi-Tensor Processing (MTP) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/n-grams.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import n-grams from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/named-entity-recognition-ner.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Named Entity Recognition (NER) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/natural-language-processing-nlp.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Natural Language Processing (NLP) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/natural-language-toolkit-nltk.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Natural Language Toolkit (nltk) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/numpy.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Numpy from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/ollama.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import ollama from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/opencv.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import OpenCV from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/openxla.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import OpenXLA from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/optical-flow.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Optical Flow from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/pandas.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Pandas from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/paraphrase-detection.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Paraphrase Detection from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/parts-of-speech-pos-tags.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Parts of Speech (POS) Tags from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/performace.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Performace from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/quantization.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Quantization from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/recommender-system.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Recommender System from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/reinforcement-learning-with-human-feedback-rlhf.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Reinforcement Learning with Human Feedback (RLHF) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/retrieval-augmented-generation-rag.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Retrieval-Augmented Generation (RAG) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/scikit-learn.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Scikit-learn from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/scipy.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Scipy from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/semantic-search.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Semantic Search from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/similarity-search.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Similarity Search from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/spacy.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import spaCy from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/statsmodels.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Statsmodels from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/system-prompt.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import System Prompt from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/temperature.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Temperature from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/tensorflow.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import TensorFlow from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/term-frequency-inverse-document-frequency-tf-idf.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Term Frequency-Inverse Document Frequency (TF-IDF) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/test-time-compute-ttc.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Test Time Compute (TTC) from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/topic-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Topic Modelling from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import topic from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/training.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Training from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/transfer-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Transfer Learning from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/transformer-system-training.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Transformer System: Training from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/transformer-system.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Transformer System from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/virtual-assistant.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Virtual Assistant from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/visual-encoding.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import Visual Encoding from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/world-model.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import World Model from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/conceptual-model-ml-system/yolo-real-time-object-detection.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Import YOLO: Real-Time Object Detection from the Machine Active Inference Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/cto/es/multinode/apache-kafka.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/construction/principle/minimal.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Add the Minimal Principle note (minimal-compositionality reading)."
       }
     ]
   }

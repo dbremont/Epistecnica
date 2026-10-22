@@ -28,8 +28,7 @@ to the external Naturgnosis medium, and the local pages point at them.
 ```
 index.html              hub (served at /)
 bin/serve.py            combined server — the only frontend-facing surface; owns all routes below
-bin/envutil.py          .env loader (notes pins DB resolution)
-bin/couchdb_client.py   shared CouchDB client (notes pins)
+bin/envutil.py          .env loader
 bin/build_universal_index.py  universal-view graph builder (our corpus → graph JSON)
 bin/layout.py           universal-view layout pre-computer (sunflower + FR)
 src/app/                hub page (index.html, served at /) + docs.html + graph/ (universal view) + shared/ (nav search + content viewer)
@@ -44,15 +43,16 @@ Makefile, Dockerfile    project operations (make run/check/build/deploy-*/logs/s
 
 ## Architecture contract (do not break)
 
-**The browser never talks to CouchDB.** `bin/serve.py` is the only
-frontend-facing surface in the combined deployment. CORS on CouchDB stays
-disabled.
+**The browser only talks to `bin/serve.py`.** The combined server is the only
+frontend-facing surface in the deployment; there is no database behind it
+(the notes-catalog pins are browser-local).
 
 - Routes served by `bin/serve.py`:
   - `/` → hub `src/app/index.html`
   - `/docs` (also `/docs/`, `/docs.html`) → site documentation `src/app/docs.html` — the single user-facing docs surface (theory + guide, live stats from the APIs); the old per-subproject docs pages were deleted
   - `/graph/<path>` → static from `src/app/graph/<path>` (the universal view: Graphive viewer over the graph generated from our own corpus; no API routes)
   - `/shared/<path>` → static from `src/app/shared/<path>` (the universal nav search — `usearch.css` + `usearch.js` — included by every surface; plus the universal content-viewer script `viewer.js` that powers the four viewer shells below)
+  - `/assets/<path>` → static from `src/app/assets/<path>` (the shared corpus-image store: every image referenced by corpus markdown lives here — `note/…`, `course/…`, `document/…` subtrees mirroring the corpus paths, plus a few generic diagrams at the root — never beside the notes)
   - `/note/<path>` → static from `src/note/app/<path>` (notes catalog + viewer + corpus)
   - `/course/<path>` → static from `src/course/app/<path>` (courses catalog + course/lecture views + corpus); no API routes
   - `/document/<path>` → static from `src/document/app/<path>` (documents catalog + viewer + corpus); no API routes
@@ -69,19 +69,19 @@ disabled.
     lookup index `…/glossarium/data/index.json`); pages link to it and the
     select-a-word popup loads its JS + index from there
   - `/api/health` → liveness probe for the service
-  - `GET/POST /note/api/pins` → notes-catalog pins; single `pins` doc in
-    CouchDB db `NOTES_DB` (default `notes`); POST body
-    `{"path": "<note path>", "pinned": bool}`, server validates the path
-    against the corpus naming rules; hard 502 when CouchDB is down
-- The only CouchDB-backed API left is the notes pins store. The old
-  `/{ds}/api/{health,nodes,layout,graph/save}` endpoints and their
-  `_bulk_docs`/`layout` semantics are gone with the subprojects.
 - Frontend pages fetch **relatively** (`api/…`, `data/…`) — that is what makes
   prefix mounting work without touching the huge HTML files. Keep it that way:
   never introduce absolute `/api/...` or `/data/...` paths in page code.
-- DB names come from `.env`: `NOTES_DB` (default `notes`), plus `COUCHDB_URL`,
-  `COUCHDB_USER`, `COUCHDB_PASSWORD`. `.env` is gitignored and must stay that
-  way.
+- Corpus **images** live in `src/app/assets/` (served at `/assets/…`), never
+  beside the notes. Reference them page-root-relative as
+  `../assets/<corpus>/<path>` — the viewer shells sit at `/note/note.html`,
+  `/course/*.html`, and `/document/*.html`, so one `../assets/…` reaches the
+  shared store from every surface and still works under prefix mounting. The
+  whole corpus was migrated there (notes `assets/…` dirs and the
+  beside-the-note course/document images); do not add per-note `assets/` dirs
+  back.
+- `.env` carries repo-local configuration (the deploy port) and is gitignored;
+  it must stay that way.
 
 ## On Notes In General
 
@@ -229,8 +229,9 @@ instance-decomposition table:
   `src/note/bin/epistemicarum-guideline/`) were removed when the guide was
   centralized — cite that URL in notes. The corpus lives under
   `src/note/app/data/epistemica/` and was seeded from the Modelado Notion
-  export by `src/note/bin/import_epistemica.py <export-root>` (mechanical
-  normalization only — the schema conversion is still outstanding).
+  export (one-off migration; the importer was removed after use —
+  mechanical normalization only, the schema conversion is still
+  outstanding).
 - **REES** (`epistemica/rees.md` + `rees.html` + `rees.json`) is the master
   epistemic inventory. The tree is stored canonically in `rees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
@@ -270,15 +271,12 @@ instance-decomposition table:
 ## Run / Verify Locally
 
 ```
-cp .env.example .env            # fill in credentials
+cp .env.example .env            # optional: repo-local config
 make run                        # dev server on :8010 (python3 bin/serve.py --port 8010)
-python3 bin/serve.py            # same server directly on :8000 — needs CouchDB up with the notes DB
+python3 bin/serve.py            # same server directly on :8000
 ```
 
 `make help` lists all targets; `make check` runs the py_compile battery below.
-
-Bootstrap (once): `make bootstrap` — creates the notes pins DB and clears its
-`_security`.
 
 Verification (no test suite exists; `make check` covers the first):
 
@@ -295,7 +293,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `src/persona/bin/import.py <notion-export-dir>`)
 - Glossarium: external — served by Naturgnosis at `http://localhost:8013/glossarium/web/` (`?t=<slug>` term view; lookup index `/glossarium/data/index.json`); Epistecnica pages link out and load the lookup JS + index from there (no local `/glossarium/` route)
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the `/docs` + `note/` pages (check stderr for Uncaught errors)
-- Image: `make build` (`docker build -t epistecnica:local .`) then run it against local CouchDB (`make deploy-local`)
+- Image: `make build` (`docker build -t epistecnica:local .`) then run it (`make deploy-local`)
 
 ## Git — conventions & gotchas (global hooks apply to this repo)
 
@@ -341,7 +339,7 @@ Deploy with one of two make targets:
 - `make deploy-server` — pull the GHCR image and run it (the production path;
   check the manifest digest changed before/after).
 - `make deploy-local` — `docker build` the repo and run the local image
-  (dev/testing against local CouchDB).
+  (dev/testing).
 
 Both targets run container `epistecnica` (`--network host`, port 8000 default
 via `EPISTECNICA_PORT`, `.env` mounted read-only). This container replaces

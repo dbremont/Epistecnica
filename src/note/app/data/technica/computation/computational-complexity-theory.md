@@ -6,7 +6,7 @@
 > The cost of algorithms can be informally defined as the resources an algorithm takes to solve a computational problem.
 > 
 
-![image.png](data/technica/computation/assets/computational-complexity-theory/image.png)
+![image.png](../assets/note/technica/computation/computational-complexity-theory/image.png)
 
 Approaches to measuring the cost of an algorithm: 
 
