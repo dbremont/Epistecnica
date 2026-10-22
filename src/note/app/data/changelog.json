@@ -8735,6 +8735,16 @@
     ]
   },
   {
+    "file_path": "nature/construction/principle/compositionality.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Add Compositionality: the twofold principle of reality (ontic + cognitive) with its decomposition table — first note of the nature/ section."
+      }
+    ]
+  },
+  {
     "file_path": "technica/cto/es/multinode/marketing-technical-practice.md",
     "logs": [
       {

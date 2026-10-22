@@ -61,6 +61,12 @@
       "kind": "related"
     },
     {
+      "from": "epistemica/",
+      "to": "nature/construction/principle/compositionality.md",
+      "label": "Compositionality",
+      "kind": "related"
+    },
+    {
       "from": "epistemica/mathematical/space/",
       "to": "epistemica/mathematical/mathematical-structure.md",
       "label": "Mathematical Structure",

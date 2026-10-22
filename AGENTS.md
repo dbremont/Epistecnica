@@ -243,6 +243,30 @@ instance-decomposition table:
   of `make check`); `rees.json` is data — only `rees.md` changes are logged in
   the changelog.
 
+## On Natural Notes
+
+- Notes under `src/note/app/data/nature/` type natural elements — the
+  representation of the world, observer-independent reality. Before writing
+  any note there, read
+  `https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md`
+  first — it owns the schema (`#` title, intro quote, `## Formulation` with
+  the three questions — what natural element type does this natural
+  instance belong to, what is this natural instance, what is the recursive
+  instance decomposition of this natural instance — and `## References`)
+  and the decomposition table contract: a single 4-column
+  `Instance Tree Path | Description | Natural Category | Natural Element
+  Type Tree Path` table; type paths are `(root) := <<Natural Element>> ->
+  ...` grammar paths with branch order never skipped; instances are
+  `**bold**`, bare grouping types `` `code` ``; every leaf resolves to a
+  natural instance and no type terminates a branch; the root's own type is
+  never re-expressed through an intermediate. Declare the level of
+  organization (micro/meso/macro) in the formulation and record the
+  Limitation checklist items the instance exhibits.
+- The guide is canonical at the Naturgnosis raw URL above — cite that URL
+  in notes. The directory is created with the first note (like the other
+  sections, the top-level dir is the section); run `make notes-index`
+  after any corpus edit.
+
 ## Run / Verify Locally
 
 ```
