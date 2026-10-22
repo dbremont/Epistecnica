@@ -52,7 +52,9 @@ order follows the schema. The existing history was backfilled from git by
 log per touched document in the same commit, then
 `bin/link_changelog_commits.py --corpus document` stamps the commit shas in
 a json-only annotation commit. The viewer's `history` chip opens the modal.
-See `src/note/README.md` §Changelog / history for the full contract.
+Only content changes are logged: metadata-only front-matter edits (`tags:`,
+`qa:`) append no log. See `src/note/README.md` §Changelog / history for the
+full contract.
 
 ## Import
 

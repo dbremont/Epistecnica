@@ -100,8 +100,10 @@ disabled.
   was backfilled from git by `bin/backfill_changelog.py`, new change sets
   append logs there the same way, and
   `bin/link_changelog_commits.py --corpus document|course` stamps them.
-  Every viewer (`note`, `course`, `lecture`, `document`) shows the `history`
-  chip. See `src/note/README.md` §Changelog / history.
+  Only content changes are logged: a metadata-only edit of the front matter
+  (`tags:`, `qa:`) appends **no** changelog log. Every viewer (`note`,
+  `course`, `lecture`, `document`) shows the `history` chip. See
+  `src/note/README.md` §Changelog / history.
 - Front matter may carry `qa:` — a block list of open reflection questions,
   one per `- ` line. The indexers copy a non-empty list into the corpus
   index (`qa` key), and every viewer shows a `QA · N` chip in the metadata

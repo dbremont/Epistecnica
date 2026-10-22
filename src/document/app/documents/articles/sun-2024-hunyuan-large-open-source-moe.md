@@ -1,3 +1,17 @@
+---
+qa:
+  - Why can activating 52B of 389B parameters match a dense model of the larger size — what exactly does MoE separate, computation from capacity, and what happens to FLOPs per token and memory per parameter as a result?
+  - Why is routing limited to the single highest-scoring specialized expert plus the shared expert (top-1) rather than the top-2 routing other open MoEs use, and what quality-versus-efficiency trade-off does that choice make?
+  - Load-balance losses are mentioned only in passing — what mechanism keeps the 16 specialists from collapsing onto a few hot experts, and what evidence (or experiment you would design) shows the realized routing distribution?
+  - The experts are called domain experts — what evidence would show they genuinely specialize by topic rather than merely partitioning traffic, and does anything in the report depend on that being true?
+  - The isoFLOPs laws were fitted on 10M–1B activated-parameter models — what licenses trusting them at 52B activated / 389B total, and what observation would falsify the extrapolation?
+  - Recycle routing reassigns capacity-dropped tokens at random — what does that do to the specialization it is meant to protect, and why is it better than raising the capacity factor?
+  - About 1.5T of 7T tokens are synthetic — which failure modes (homogenization, self-distillation drift, benchmark contamination) would you watch for, and what in the released artifacts would let you detect them?
+  - The DPO recipe adds an SFT loss on chosen responses and an EMA in a single offline+online stage — what failure of plain offline DPO do these terms counteract, and what does online data buy that offline data cannot?
+  - The 256K context comes from scaling the RoPE base to 10⁹ in a second stage — why not YaRN or NTK-aware scaling, and how would you measure the quality profile across context lengths rather than at 128K averages?
+  - Benchmarks are self-reported/self-reproduced and LV-Eval uses an LLM judge to cut false negatives — what independent measurement would you demand to believe the 405B-comparable claim, and what would falsify it?
+---
+
 # Sun, X., Chen, Y., Huang, Y., Xie, R., Zhu, J., Zhang, K., Li, S., Yang, Z., Han, J., Shu, X., & others. (2024). Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent. ArXiv.
 
 

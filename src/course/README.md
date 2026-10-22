@@ -59,7 +59,9 @@ the schema. The existing history was backfilled from git by
 per touched entry or lecture in the same commit, then
 `bin/link_changelog_commits.py --corpus course` stamps the commit shas in a
 json-only annotation commit. The viewer's `history` chip opens the modal.
-See `src/note/README.md` §Changelog / history for the full contract.
+Only content changes are logged: metadata-only front-matter edits (`tags:`,
+`qa:`) append no log. See `src/note/README.md` §Changelog / history for the
+full contract.
 
 ## Import
 

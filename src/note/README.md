@@ -124,6 +124,9 @@ Every markdown note carries a per-file edit history in
 - Every change set touching `app/data/**/*.md` appends one log per touched
   note, **in the same commit**; validate with
   `python3 -m json.tool app/data/changelog.json`.
+- Only content changes are logged. A metadata-only edit of the front matter
+  (`tags:`, `qa:`) is not content, so it appends **no** log — the changelog
+  records what the document says, not how its metadata is indexed.
 - `bin/link_changelog_commits.py` (or `make changelog-link`) fills the
   optional `commit`/`before` shas **after** the change-set commit — the
   introducing sha is unknowable when the log is authored. Commit the
