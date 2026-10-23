@@ -7456,6 +7456,11 @@
         "kind": "feat",
         "summary": "Import Neural Network (NN) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Repoint the Transformer link at the note's new technica/ais/system/transformer/ path."
       }
     ]
   },
@@ -28057,6 +28062,16 @@
         "kind": "docs",
         "summary": "Rename the note to moe.md; add the deduped MoE reading list and the open QA questions.",
         "commit": "1ce2c130cdd1d8f67907bff3033d867296b05caa"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/transformer/transformer.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Move the Transformer note from epistemica/observational/ to technica/ais/system/transformer/ and register the observational -> new-path support link in links.json."
       }
     ]
   }

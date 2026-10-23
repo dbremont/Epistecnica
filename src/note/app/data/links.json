@@ -179,6 +179,12 @@
       "to": "epistemica/computational-science/quantum-field-theory-qft.md",
       "label": "Quantum Field Theory",
       "kind": "related"
+    },
+    {
+      "from": "epistemica/observational/",
+      "to": "technica/ais/system/transformer/transformer.md",
+      "label": "Transformer",
+      "kind": "related"
     }
   ]
 }

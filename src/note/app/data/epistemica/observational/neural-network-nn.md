@@ -562,6 +562,6 @@ In other words, a neural network generalizes because it abstracts and distills p
 - https://arxiv.org/abs/1206.5538
 - https://en.wikipedia.org/wiki/Information_bottleneck_method
 - https://arxiv.org/abs/2402.10450v2
-- [Transformer](transformer.md)
+- [Transformer](../../technica/ais/system/transformer/transformer.md)
 - [An Essay on Representation in Computationally Synthesized Systems](https://app.notion.com/p/An-Essay-on-Representation-in-Computationally-Synthesized-Systems-320c0f5171ec805ab65ac0e60ba9dc06?pvs=21)
 - https://en.wikipedia.org/wiki/Weight_initialization
