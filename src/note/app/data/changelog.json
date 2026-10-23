@@ -28122,7 +28122,8 @@
         "date": "2026-10-23",
         "kind": "fix",
         "summary": "Replace the freehand critical evaluation with a criterion-by-criterion conceptual evaluation of the Transformer concept against the Philosophia Conceptuum et Operis: name the precising definition, rate seventeen criteria, and record that attention is a weighted read keeping every position — the inverse of the psychological sense of selective exclusion.",
-        "before": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0"
+        "commit": "ff25e60f3830c76b1ef1ad13df4f387fd81886ff",
+        "before": "30b871de6a4567becdc363d54bd0eb690f777f4e"
       }
     ]
   },
