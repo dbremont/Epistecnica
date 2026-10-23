@@ -28117,6 +28117,12 @@
         "summary": "Rewrite the characterization on the canonical two-column decomposition (125 rows), dedupe the introduction, add ten open QA questions, and rebuild the reference list with verified links.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Replace the freehand critical evaluation with a criterion-by-criterion conceptual evaluation of the Transformer concept against the Philosophia Conceptuum et Operis: name the precising definition, rate seventeen criteria, and record that attention is a weighted read keeping every position — the inverse of the psychological sense of selective exclusion.",
+        "before": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0"
       }
     ]
   },
