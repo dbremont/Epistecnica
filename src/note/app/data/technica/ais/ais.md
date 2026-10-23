@@ -1,26 +1,24 @@
+---
+tags: []
+qa:
+  - How can we reason deeply about these kinds of systems? What technical ontology underlies them? What is the nature of these systems (general-purpose, synthetic computation)? Are they even computational systems? Does the concept of computation make sense in this domain?
+---
+
 # Active Inference System
 
 > **Note:** Here, *intelligence* refers simply to a **trainable system for solving intractable computational problems**.
-> 
 
 > **Machine Intelligence System:** A computational system that either (1) consists of a trained machine learning model or (2) wraps one or more trained machine learning models with additional software components that provide capabilities such as inference, memory, retrieval, planning, tool use, orchestration, or interaction.
-> 
 
 > **Machine Active Inference** is preferable to **Machine Learning** because it frames machines as systems that continuously infer, predict, act, and update through feedback, while requiring us to understand their mechanisms **on their own ontological terms rather than projecting human concepts such as intelligence, understanding, or cognition onto them**.
-> 
 
-- [ ]  https://github.com/Tencent/AngelSpec
-- [ ]  https://kvcache-ai.github.io/AgentENV/  (Virtulization - Hardware Sharing) - Firecracker vs Docker.
-- [ ]  https://github.com/MoonshotAI/MoonEP
-- [ ]  https://t3.codes/
-- [ ]  How to reason deeply abou tthis kinod of systems? What is th technical otology behidn them? Waht i the nature of this systems?   (General Purpose - Symthetical Computation); It is even computaiton ? Does the term computtion makes sense in this domain.
+## Formulation
+
+> ...
 
 ## Product Space
 
 > Which are the types of Machine Intelligence Systems?
-> 
-
-- Agentic System
 
 | **Type** | **Subtype** | **Definition** | **Instance(s)** |
 | --- | --- | --- | --- |
@@ -28,12 +26,14 @@
 |  | Regression | Predicts continuous values. | House price prediction, weather forecasting. |
 |  | Forecasting | Predicts future states from temporal data. | Demand forecasting, stock prediction. |
 |  | Ranking | Produces ordered outputs. | Search ranking, recommendation ranking. |
-| **Generative System** | Text Generation | Produces natural language. | ChatGPT, Claude. |
+| **Generative System (GS) (GM)** | Language Generation Model (LGM) | Produces natural language. | ChatGPT, Claude. |
 |  | Code Generation | Produces executable source code. | GitHub Copilot, Code Llama. |
 |  | Image Generation | Produces images. | Midjourney, Stable Diffusion. |
 |  | Audio Generation | Produces speech or music. | ElevenLabs, MusicGen. |
 |  | Video Generation | Produces videos. | Sora, Veo. |
 |  | 3D Generation | Produces 3D assets. | Tripo AI, DreamGaussian. |
+|  | (Mixed) Multimodal  Generation Model (MGM)| | | 
+|  | Language Generation Model - Inference-Time Computation (LGM-ITC) | |
 | **Conversational System** | Chat Assistant | General conversational interaction. | ChatGPT, Claude. |
 |  | Customer Support | Domain-specific support automation. | Banking chatbot, IT helpdesk bot. |
 |  | Voice Assistant | Spoken dialogue interface. | Siri, Alexa. |
@@ -70,6 +70,7 @@
 |  | Mobile Robot | Autonomous navigation platform. | Warehouse robots. |
 |  | Autonomous Vehicle | Self-driving transportation. | Waymo. |
 |  | Industrial Robot | Manufacturing automation. | Robotic assembly arms. |
+|  | **Agentic System** | | |
 
 ## Case Study
 
@@ -100,6 +101,29 @@
 | **Devin** | Autonomous software engineering agent capable of planning, coding, debugging, and executing development tasks. | **Software Engineering Agent** |
 | **Atlassian Rovo** | Enterprise AI platform integrated into Jira, Confluence, and other Atlassian products, providing search, chat, specialized agents, and workflow automation. | **Enterprise AI Harness** or **Agentic Orchestration System** |
 |  |  |  |
+
+## Which are the Agent System Software?
+
+| Agent System Software | Description |
+| --- | --- |
+| **OpenClaw** | Persistent, self-hosted personal agent that can use models, tools, messaging channels, memory, files, browsers, terminals, and scheduled tasks. ([OpenClaw](https://openclaw.ai/?utm_source=chatgpt.com)) |
+| **Muse** | Personal AI agent designed to operate across a user's digital environment and perform tasks on the user's behalf. |
+| **Instinct** | Personal agent designed to interact with a user's applications, devices, and information environment. |
+| **Manus** | General-purpose autonomous agent that decomposes user objectives into multi-step tasks and executes them in a computer environment. ([Manus](https://www.manus.im/blog/openclaw-vs-manus-desktop?utm_source=chatgpt.com)) |
+| **Perplexity Computer** | Agentic computer environment capable of orchestrating multiple models and executing multi-step tasks across applications and the web; it also has a local/portable version. ([Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs?utm_source=chatgpt.com)) |
+| **Claude Cowork** | Desktop-oriented agent system from Anthropic that can work with files and applications and execute longer-running tasks rather than merely answer conversationally. ([Reuters](https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/?utm_source=chatgpt.com)) |
+| **ChatGPT Agent** | General-purpose agent system combining reasoning with browsing, computer interaction, and tool use to perform multi-step tasks. |
+| **Google Antigravity** | Agent-first development environment in which software-development agents can plan and execute tasks using an integrated computer environment. |
+| **Devin** | Autonomous software-engineering agent that can plan, code, operate development environments, and execute software-development tasks. |
+| **Rabbit r1 (RabbitOS)** | Agent-oriented personal-computing system designed to execute actions across services through a natural-language interface. |
+| **Genspark Super Agent** | General-purpose agent system capable of carrying out multi-step research, creation, and computer tasks. |
+| **Adept** | Agent system focused on allowing AI to operate software through natural-language instructions and computer interaction. |
+| **OpenAI Operator** | Computer-use agent designed to interact with websites and execute tasks through a browser/computer interface. |
+| **Microsoft Copilot (Copilot Cowork)** | Agentic assistant environment integrated with Microsoft's productivity ecosystem and capable of carrying out multi-step work. |
+| **Google Gemini Agent (Gemini computer-use agents)** | Google's agentic systems for reasoning, tool use, application interaction, and task execution. |
+| **Amazon Alexa+** | Agentic personal assistant system integrating conversational reasoning with actions across Amazon and connected services. |
+| **Siri with Apple Intelligence** | Apple's evolving personal-agent architecture combining personal context, application interaction, and action execution. |
+| **Google Assistant / Gemini for Home** | Agentic assistant environment capable of interacting with connected devices and services; Google's Home infrastructure now exposes agent access through MCP. ([The Verge](https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date?utm_source=chatgpt.com)) |
 
 ## QA
 
@@ -217,29 +241,6 @@ Commands:
 - [Epoch AI](https://epoch.ai/)
 - Vals Index
 
-### Which are the Agent System Software?
-
-| Agent System Software | Description |
-| --- | --- |
-| **OpenClaw** | Persistent, self-hosted personal agent that can use models, tools, messaging channels, memory, files, browsers, terminals, and scheduled tasks. ([OpenClaw](https://openclaw.ai/?utm_source=chatgpt.com)) |
-| **Muse** | Personal AI agent designed to operate across a user's digital environment and perform tasks on the user's behalf. |
-| **Instinct** | Personal agent designed to interact with a user's applications, devices, and information environment. |
-| **Manus** | General-purpose autonomous agent that decomposes user objectives into multi-step tasks and executes them in a computer environment. ([Manus](https://www.manus.im/blog/openclaw-vs-manus-desktop?utm_source=chatgpt.com)) |
-| **Perplexity Computer** | Agentic computer environment capable of orchestrating multiple models and executing multi-step tasks across applications and the web; it also has a local/portable version. ([Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs?utm_source=chatgpt.com)) |
-| **Claude Cowork** | Desktop-oriented agent system from Anthropic that can work with files and applications and execute longer-running tasks rather than merely answer conversationally. ([Reuters](https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/?utm_source=chatgpt.com)) |
-| **ChatGPT Agent** | General-purpose agent system combining reasoning with browsing, computer interaction, and tool use to perform multi-step tasks. |
-| **Google Antigravity** | Agent-first development environment in which software-development agents can plan and execute tasks using an integrated computer environment. |
-| **Devin** | Autonomous software-engineering agent that can plan, code, operate development environments, and execute software-development tasks. |
-| **Rabbit r1 (RabbitOS)** | Agent-oriented personal-computing system designed to execute actions across services through a natural-language interface. |
-| **Genspark Super Agent** | General-purpose agent system capable of carrying out multi-step research, creation, and computer tasks. |
-| **Adept** | Agent system focused on allowing AI to operate software through natural-language instructions and computer interaction. |
-| **OpenAI Operator** | Computer-use agent designed to interact with websites and execute tasks through a browser/computer interface. |
-| **Microsoft Copilot (Copilot Cowork)** | Agentic assistant environment integrated with Microsoft's productivity ecosystem and capable of carrying out multi-step work. |
-| **Google Gemini Agent (Gemini computer-use agents)** | Google's agentic systems for reasoning, tool use, application interaction, and task execution. |
-| **Amazon Alexa+** | Agentic personal assistant system integrating conversational reasoning with actions across Amazon and connected services. |
-| **Siri with Apple Intelligence** | Apple's evolving personal-agent architecture combining personal context, application interaction, and action execution. |
-| **Google Assistant / Gemini for Home** | Agentic assistant environment capable of interacting with connected devices and services; Google's Home infrastructure now exposes agent access through MCP. ([The Verge](https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date?utm_source=chatgpt.com)) |
-
 ### What is the typology of data format?
 
 ```
@@ -260,6 +261,14 @@ GPU Tensors
 Training
 ```
 
+### Which are the crititism to the terms “Test-Time Compute”?
+
+-  Inference-Time Computation (ITC)
+
+### Which are the crititism to the terms “Language Model”?
+
+> The term `language model`, without any clarification, refers to a broad class of models rather than any specific model. If you mean a generative next-token model, you should use a more specific term rather than appropriating the abstract term `language model`.
+
 ## References
 
 - https://martinfowler.com/articles/harness-engineering.html
@@ -278,13 +287,12 @@ Training
 - [**System Connector**](https://app.notion.com/p/System-Connector-3e1c0f5171ec80a0b7f0e810605aa191?pvs=21)
 - https://instinct.com/
 - https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
-
-[System](system.md)
-
-[Evaluation](evaluation.md)
-
-[Operation](operation.md)
-
-[Robotic System](robotic-system.md)
-
-[LLM System Modelling](llm-system-modelling.md)
+- [System](system/system.md)
+- [Evaluation](evaluation/evaluation.md)
+- [Operation](operation.md)
+- [Robotic System](../robotic-system/robotic-system.md)
+- [LLM System Modelling](llm-system-modelling.md)
+- [ ]  https://github.com/Tencent/AngelSpec
+- [ ]  https://kvcache-ai.github.io/AgentENV/  (Virtulization - Hardware Sharing) - Firecracker vs Docker.
+- [ ]  https://github.com/MoonshotAI/MoonEP
+- [ ]  https://t3.codes/

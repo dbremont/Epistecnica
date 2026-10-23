@@ -1,21 +1,19 @@
-# Language Modelling (LM)
+---
+qa:
+  - Why are large language models described as autoregressive?  LLMs (Large Language Models) are called **autoregressive** because they generate text **one token at a time**, where each token is **predicted based on the previous ones**.
+  - What is a retriever in the transformer architecture?
+  - How to use transformers to inject domain knowledge into a given model?
+  - How  inference time compute ("thinking")  works?
+  - How CoT works?
+---
 
- : System Prompt (System%20Prompt%2020dc0f5171ec805d95a4e48257c4436f.md), Retrieval-Augmented Generation (RAG) (Retrieval-Augmented%20Generation%20(RAG)%2013bc0f5171ec80e2bf8bfa0d05235b9a.md)
+# Language Generative Model  (LGM)
 
-> 
+> ...
 
-QA:
+## Formulation
 
-- Why are large language models described as autoregressive?  LLMs (Large Language Models) are called **autoregressive** because they generate text **one token at a time**, where each token is **predicted based on the previous ones**.
-- What is a retriever in the transformer architecture?
-- How to use transformers to inject domain knowledge into a given model?
-
-- How  inference time compute ("thinking")  works?
-- How CoT works?
-
-Reasoning
-
-- https://www.science.org/doi/10.1126/science.adw5211
+>  ...
 
 ## 🧩 **Model Category**
 
@@ -215,3 +213,5 @@ Evaluation
 - [ ]  https://news.ycombinator.com/item?id=43931366
 - [ ]  [https://drive.google.com/file/d/1cUxKspEXgQ64s4OFEw0kabf_qNauOPiH/view](https://drive.google.com/file/d/1cUxKspEXgQ64s4OFEw0kabf_qNauOPiH/view) → LLM Knowledge Test.
 - [ ]  https://news.ycombinator.com/item?id=45110311
+- System Prompt (System%20Prompt%2020dc0f5171ec805d95a4e48257c4436f.md), Retrieval-Augmented Generation (RAG) (Retrieval-Augmented%20Generation%20(RAG)%2013bc0f5171ec80e2bf8bfa0d05235b9a.md)
+- https://www.science.org/doi/10.1126/science.adw5211

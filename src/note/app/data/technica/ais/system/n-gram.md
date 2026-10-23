@@ -1,4 +1,4 @@
-# n-grams
+# n-gram
 
 
 > Contiguous sequences of n items from a given sample of text or speech.
@@ -9,4 +9,4 @@
 
 ## References
 
-- https://en.wikipedia.org/wiki/N-gram
+- [n-gram](https://en.wikipedia.org/wiki/N-gram)
