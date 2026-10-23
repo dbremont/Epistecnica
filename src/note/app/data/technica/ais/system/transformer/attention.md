@@ -1,25 +1,31 @@
 ---
 tags: [neural-network-learning-system, technique]
+qa:
+  - Which are the components of attention?
+  - When is kernel smoothing used in the attention mechanism?
+  - What does the query bring to the table?
+  - What does values bring to the table?
+  - What does \(W_V\) do?
+  - What is the nature of \(V\)? What kind of representation is it? Do we even know? Does it matter, or is \(V\) simply a computational representation that a self-organizing system can learn to use without its components having predefined meanings?
+  - Are \(W_Q\), \(W_K\), and \(W_V\) learned parameters, or are they part of the model's state?
+  - How does attention operate in general?
+  - What emergent phenomena are powered by attention?
+  - What are the scope and limitations of attention?
+  - Where does the query, key and value comes from?
+  - During inference, are the queries simply the transformed representations of the prompt tokens, or do they originate from a different mechanism?
+  - Are keys and values computed as learned transformations of the prompt token representations or something else?
+  - What is the **role of training** shaping the `Key, Query and Value`**?**
+  - How should I think about the `Key, Query and Value` ?
+  - Is attention just kernel smoothing? Sort of - in the functional form - but in ML  the parameters - that underpins the formation o the K,Q,V are learned.
 ---
 
 # Attention
 
- : Transformer (Transformer%203f35bea9676546abbc588911bfd83c41.md), Chain-of-thought (CoT) (Chain-of-thought%20(CoT)%2017fc0f5171ec8083b650de8675c4325e.md)
-
 > In this note, we examine the attention mechanism underlying transformer architectures.
-> 
+
+> **Note:** It is difficult to assign a specific role or meaning to individual network components. Do they primarily enable self-organization? The meaning of a component need not be determined solely by its position in the network.
 
 Guiding Questions:
-
-- How does attention operate in general?
-- What emergent phenomena are powered by attention?
-- What are the scope and limitations of attention?
-- Where does the query, key and value comes from?
-- During inference, are the queries simply the transformed representations of the prompt tokens, or do they originate from a different mechanism?
-- Are keys and values computed as learned transformations of the prompt token representations or something else?
-- What is the **role of training** shaping the `Key, Query and Value`**?**
-- How should I think about the `Key, Query and Value` ?
-- Is attention just kernel smoothing? Sort of - in the functional form - but in ML  the parameters - that underpins the formation o the K,Q,V are learned.
 
 - Old View
     
@@ -70,10 +76,8 @@ Guiding Questions:
 ## Formulation
 
 > At a high level, **attention is a differentiable key–value retrieval mechanism**. (nop this is an interpretation not the core !!!)
-> 
 
 > Query, Key, and Value are simply different learned linear views of the same input representation.
-> 
 
 Given:
 
@@ -95,7 +99,6 @@ This implements:
 ## Type Space
 
 > **Self-attention** is a clever trick that uses similarities between all pairs of inputs. This makes the network care about relationships between inputs, independently of their order (permutations equivariance / invariance). That's the real contribution of the **2017 transformer paper**.
-> 
 
 | **Attention Type** | **Description** | **Use Cases** | **Formula (Simplified)** |
 | --- | --- | --- | --- |
@@ -117,3 +120,8 @@ This implements:
 
 - http://bactra.org/notebooks/nn-attention-and-transformers.html
 - https://growingswe.com/blog/microgpt
+- [A Gentle Introduction to Transformers](https://alexsemendinger.github.io/transformers-gentle-introduction)
+- Tsai, Y.-H. H., Bai, S., Yamada, M., Morency, L.-P., & Salakhutdinov, R. (2019). Transformer dissection: A unified understanding of Transformer’s attention via the lens of kernel. In Proceedings of EMNLP-IJCNLP 2019 (pp. 4344–4353). ACL Anthology paper
+- Transformer (Transformer%203f35bea9676546abbc588911bfd83c41.md), Chain-of-thought (CoT) (Chain-of-thought%20(CoT)%2017fc0f5171ec8083b650de8675c4325e.md)
+- https://en.wikipedia.org/wiki/Kernel_smoother
+- Kenel Term Disambiguation.

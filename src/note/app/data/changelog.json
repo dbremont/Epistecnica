@@ -27172,6 +27172,13 @@
         "kind": "feat",
         "summary": "Import Machine Active Inference from the Machine Active Inference Notion export.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Restructure the AIS landing note (front-matter qa, Formulation section, cleaned checklist) and repoint the System/Evaluation/Robotic System links at their new paths.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46",
+        "before": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
       }
     ]
   },
@@ -28086,6 +28093,11 @@
         "kind": "refactor",
         "summary": "Move Attention from epistemica/observational/ into the technica ais/system/transformer/ scope.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Rework the Attention note: guiding questions moved into front-matter qa (16 TeX questions), intro restructured, Notion relation line dropped."
       }
     ]
   },
@@ -28164,18 +28176,6 @@
         "kind": "refactor",
         "summary": "Move the Evaluation landing note from the ais root into ais/evaluation/.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/ais.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "docs",
-        "summary": "Restructure the AIS landing note (front-matter qa, Formulation section, cleaned checklist) and repoint the System/Evaluation/Robotic System links at their new paths.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46",
-        "before": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
       }
     ]
   },
