@@ -33,7 +33,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)"
+        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
+        "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
+        "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
       }
     ]
   },
@@ -166,7 +168,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)"
+        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
+        "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
+        "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
       }
     ]
   },
@@ -215,7 +219,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)"
+        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
+        "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
+        "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
       }
     ]
   },
@@ -231,7 +237,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)"
+        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
+        "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
+        "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
       }
     ]
   },
@@ -324,7 +332,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)"
+        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
+        "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
+        "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
       }
     ]
   },
@@ -428,7 +438,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)"
+        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
+        "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
+        "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
       }
     ]
   },
@@ -539,7 +551,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)"
+        "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
+        "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
+        "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
       }
     ]
   },
