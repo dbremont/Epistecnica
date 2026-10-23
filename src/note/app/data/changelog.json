@@ -28168,6 +28168,7 @@
         "date": "2026-10-23",
         "kind": "docs",
         "summary": "Expand the reference list with the attention lineage and critique literature, and retag the note as ml/mechanism; duplicate entries collapsed and tracking parameters stripped.",
+        "commit": "13bf62c7c689eb3f6a6abe1230a419a747afc782",
         "before": "8867dd297fd1e427e48b3e0d0b848ad0d20eea13"
       }
     ]
