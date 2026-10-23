@@ -19,7 +19,7 @@ qa:
 
 **Disambiguation.** Four things travel under one name and must not be conflated. 
 
-- **Attention** is a mechanism — a learnt weighted read over a key–value store.
+- **Attention** is a mechanism — a learnt, content-addressed weighted read over a key–value store in which every retained position contributes. This inverts the psychological sense of the word: attending there means dropping the unattended, while here nothing is dropped and only masking excludes. The name is a misnomer the field kept.
 - The **transformer** is an architecture — how those mechanisms are stacked, ordered, and bound.
 - A **BERT/GPT/T5 model** is a trained object realizing that architecture.
 - An **LLM** is a capability class usually, though not necessarily, reached through a transformer. This note characterizes the architecture together with the system that produces and serves models from it.
@@ -29,6 +29,13 @@ qa:
 ### What is this technical instance?
 
 > The Transformer system is the arrangement — plus the training, control, and serving apparatus — that turns token sequences into contextual representations and continuations. Its operative core is a stack of identical blocks: each routes every position's representation through a multi-head self-attention sublayer and then through a position-wise feed-forward sublayer, each wrapped in a residual connection and a normalization. Order enters only through an injected positional signal, or through a rotary or relative substitute for one. The 2017 encoder–decoder binding is the reference configuration: six encoder and six decoder layers, eight heads, 512-dimensional model width, 2048-dimensional feed-forward width, trained with Adam under a warmup schedule on translation.
+
+### How to think about the 'Transformer'?
+
+- **Process:**  `Context (Initial Condition) → Context Extension & Verification → Unfolding (Next Token) → Context Extension & Verification → Further Unfolding Until Stop`.
+- **Mechanism:** Successive context-conditioned computations, with each generated token extending the context for subsequent predictions.
+- **Central question:** How does the system exploit regularities in the current context to unfold a trajectory of continuations?
+- **Note:** Modern systems involve substantially more engineering, including dedicated memory mechanisms, tool use, verification, and other supporting capabilities.
 
 ### What technical element type does this technical instance belong to?
 
@@ -195,17 +202,33 @@ The guide's default for a multi-typed instance is multi-root decomposition, one 
 
 ### What is a critical conceptual evaluation of this technical element instance?
 
-> **The 2017 claim is not "attention".** Content-based attention already existed as a bolt-on to recurrent translation. What the paper actually claimed was that a *stack* of attention and feed-forward layers, with no recurrence and no convolution, suffices — and the testable part of that claim is permutation equivariance plus parallel training. Everything else in the block (residuals, normalization, heads) is engineering history compressed into a canonical shape.
+> **Concept under evaluation:** *Transformer*, under the precising definition declared above — uniformly repeated blocks of multi-head self-attention and position-wise feed-forward layers, bound by residual connections and normalization, with no recurrence and with position injected rather than carried. Criteria and ratings follow the *Philosophia Conceptuum et Operis*.
 
-> **The quadratic cost was never accidental, and the field has largely conceded the point.** Sparse, low-rank, and kernel approximations traded retrieval fidelity for asymptotics through 2019–2021; IO-aware exact attention then recovered most of the practical gain without approximating the operation. The surviving lesson is that dense attention over a bounded context is the cheapest correct primitive we know how to make fast, not that the complexity class was solved.
+| Criterion | Verdict | Diagnostic |
+| --- | --- | --- |
+| Conceptual Identification | Weak | One word carries five elements — architecture, blueprint, trained object, technique, system — and its neighbours (*attention*, *LLM*, *foundation model*) are separated by convention, not by stated criteria. See **Disambiguation**. |
+| Definitional Clarity | Moderate | The block conditions are precise enough to check mechanically; what falls outside them is left to context. |
+| Conceptual Determinacy | Weak | No membership rule. Kernel attention, a hybrid with two attention layers in twelve, a sparse mixture, and a single self-attention block are all undecided by the definition. |
+| Internal Consistency | Strong | Attention, feed-forward, residual, and normalization conditions are mutually compatible; "no native recurrent state" follows from the block rather than competing with it. |
+| Extensional Fidelity | Moderate | Clean at the canonical members (BERT, GPT, T5, ViT); leaks at hybrids, mixture-of-experts variants, and retrieval-augmented systems that keep the name without the block. |
+| Intensional Adequacy | Moderate | The defining properties capture the 2017 design exactly, and nothing about what later made the family capable — outside the concept's job, inside the reader's expectation. |
+| Ontological Adequacy | Strong as architecture; category error otherwise | The concept denotes a design schema, a class of artifacts. Applied to a checkpoint, a deployment, or a capability it names the wrong kind of entity. |
+| Discriminative Power | Weak at the LLM boundary | Separates the transformer from recurrent and convolutional sequence models; does not separate it from *LLM* or *foundation model* in current usage. |
+| Granularity Adequacy | Weak | The root aggregates encoder-only, decoder-only, encoder–decoder, vision, and hybrid bindings; the `Transformer Family Set` exists to recover distinctions a capability claim depends on. |
+| Conceptual Distinctiveness | Moderate | Distinct from *attention* in content but not in name: the mechanism is content-addressed aggregation, not selective filtering. Redundant with *LLM* in ordinary speech. |
+| Boundary Differentiation | Weak against the neighbouring concept of attention | The word is borrowed from psychological attention, whose defining property is selection by exclusion — the unattended is dropped. The operation drops nothing: a convex softmax read in which every retained position keeps its key and receives a weight. Masking is the only exclusion, and it is a constraint on the read, not an act of attending. |
+| Epistemic Leverage | High | Supplies the vocabulary later work reasons with: residual stream, head, depth, context, key–value cache. |
+| Explanatory Power | Moderate | Explains parallel training at bounded cost; does not explain capability at scale, which runs through data, objective, and optimization. |
+| Falsifiability | Strong for the 2017 claim; weak for capability | Permutation equivariance and the absence of recurrence are testable; "transformer scaling explains capability" is not a claim the concept can carry. |
+| Temporal Stability | Weak | The referent drifted from a 2017 translation encoder–decoder to a decoder-only hybrid family while the word stayed fixed, concealing the change. |
+| Operationalizability | Strong in the laboratory; weak in discourse | Sublayer count, mask shape, and position-injection site decide membership mechanically; ordinary usage is not decidable at all. |
+| Purpose Adequacy | Split | Adequate for engineering description and cost reasoning; inadequate for capability claims, and for policy discourse where the word stands in for *AI*. |
 
-> **Position is where the remaining inductive bias lives.** With recurrence gone, the only statement about order is the one we inject; every subsequent long-context technique is a claim about how that statement extrapolates. This makes positional encoding the most altered part of the architecture and the least discussed in tutorials.
+> **Verdict.** *Transformer* is a prototype-structured concept, not a natural kind. It has no necessary and sufficient conditions as used; it has a prototype — the 2017 post-norm encoder–decoder block — around which membership grades. What the concept buys is anatomical and fiscal rather than predictive: it names the parts later work reasons with (residual stream, head, depth, context, key–value cache) and licenses cost inference (6ND training FLOPs, quadratic attention, linear cache growth). On Epistemic Leverage and Information Compression it scores high; on Inferential Productivity it splits sharply — strong for cost, nearly empty for capability.
 
-> **Scaling made architecture differences second-order.** Once compute-optimal data/parameter allocation became the operative variable, improvements credited to "architecture" were frequently improvements in trainability of the *same* block. Post-transformer candidates (state-space models, hybrids, sparse mixtures) compete on the same capability axis and mostly on long-context behaviour; none has displaced attention on the general axis.
+> **Verdict.** Determinacy fails exactly where it matters. The concept cannot decide from its own definition whether linear or kernel attention, a twelve-layer stack carrying two attention layers, or a sparse mixture qualifies; membership is settled by lineage and convention, and the field advances by departing from the prototype. That is not a defect a better definition repairs — the boundary is where the work is. The naming compounds it: *attention* imports a psychological concept defined by exclusion, while the operation retains everything and merely reweights, so the reader must supply the inversion on every use. The same instability is temporal: the 2017 referent was a translation encoder–decoder, the current one a decoder-only hybrid family, and the fixed word conceals the drift.
 
-> **The architecture does not explain emergence.** Mechanistic work shows that heads and residual channels carry interpretable, composable computation — induction heads, copying, arithmetic. That is evidence about *what* is computed, not a derivation of *why* capability appears at scale. The causal story still runs predominantly through data volume, objective, and optimization, with architecture as the substrate that permits it.
-
-> **Limits are structural, not incidental.** No native recurrent state means no carried memory between calls, a bounded context fixed at training time, and a cache that grows linearly with context at inference. Attention also provides universal-approximation guarantees that say nothing about learnability, sample efficiency, or generalization to unseen lengths.
+> **Verdict.** The remedy is the guide's own instrument: precising, not abandoning. The architecture reading declared in the Formulation is the operative definition, and the reader should take it as the extension of *this* note. *Model*, *LLM*, and *system* are separate concepts, not further readings of this one — the decomposition keeps them apart under `Production Technical Object`, `Technical Practice`, and the system root. Under that definition the concept is Purpose-adequate for engineering description and cost reasoning, and inadequate as an explanation of capability; the residual accordingly sits in the `Technical Evolution`, `Technical Practice`, and `Technical Evaluation` branches, not in the architecture.
 
 ## QA
 
@@ -270,4 +293,5 @@ The guide's default for a multi-typed instance is multi-root decomposition, one 
 - [Attention](note.html?n=technica/ais/system/transformer/attention.md) — the mechanism this architecture is built from.
 - [Transformer System: Training](note.html?n=technica/ais/system/transformer/transformer-system-training.md) — the training half of this system.
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) — the schema and decomposition contract this note follows.
+- [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) — the evaluation criteria applied above.
 

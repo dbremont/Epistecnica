@@ -151,6 +151,18 @@ instance-decomposition table:
   the canonical technica guide above
   first — it owns the shell below, the Tabular taxonomy, the Recursive-view
   grammar, the decomposition contract, and the worked CRM case study.
+- Conceptual evaluation: the answer to "What is a critical conceptual
+  evaluation of this `technical element instance`?" is judged against the
+  canonical conceptuum guide
+  (`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md`),
+  not written freehand. Read it before writing that answer; name the concept
+  and the precising definition under evaluation first; apply its `## Evaluation`
+  criteria as a criterion → verdict → diagnostic table plus a verdict paragraph
+  (its minimum set is Conceptual Identification, Definitional Clarity,
+  Conceptual Determinacy, Internal Consistency, Representational Adequacy,
+  Purpose Adequacy); cite the guide in the note's References. Architectural,
+  historical, or scaling commentary is not a conceptual evaluation — it
+  belongs in the decomposition, the QA, or the `Technical Evolution` branch.
 - Grammar source: `src/note/bin/conform.py` fetches the canonical grammar from
   the guide above at runtime (stdlib `urllib`, no local snapshot) — the
   `technicarum-grammar.txt` copy was removed on centralization. It validates
@@ -224,6 +236,13 @@ instance-decomposition table:
   declare the Epistemic Order or Ontic Order in the formulation. The
   guide's Arithmetic case study is the worked table reference — not the
   old 4-column entity-taxonomy form.
+- The fifth formulation question — "what is a critical conceptual evaluation
+  of this `epistemic element instance`?" — is answered against the same
+  conceptuum guide
+  (`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md`):
+  criteria table plus verdict, guide cited in References, never freehand
+  commentary. Notes predating this rule keep their existing evaluation until
+  it is rewritten for another reason.
 - The guide is canonical at the Naturgnosis raw URL above; the former local
   copies (`src/note/bin/epistemicarum-guide.md` and
   `src/note/bin/epistemicarum-guideline/`) were removed when the guide was
