@@ -91,6 +91,11 @@
         "kind": "feat",
         "summary": "Import Untitled from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "chore",
+        "summary": "Remove the empty placeholder note (title only, no content)."
       }
     ]
   },
@@ -28139,6 +28144,11 @@
         "kind": "refactor",
         "summary": "Move Transformer System into the new ais/system/transformer/ scope.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "chore",
+        "summary": "Remove the stub note: it carried nothing but a broken Notion link and duplicated the Transformer System characterization."
       }
     ]
   },

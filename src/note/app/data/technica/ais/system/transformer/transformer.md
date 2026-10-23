@@ -207,6 +207,8 @@ The guide's default for a multi-typed instance is multi-root decomposition, one 
 
 > **Limits are structural, not incidental.** No native recurrent state means no carried memory between calls, a bounded context fixed at training time, and a cache that grows linearly with context at inference. Attention also provides universal-approximation guarantees that say nothing about learnability, sample efficiency, or generalization to unseen lengths.
 
+## QA
+
 ### What is the historical lineage of the Transformer architecture?
 
 > Lineage: recurrent encoder–decoder translation (Sutskever et al., 2014) → additive attention over encoder states (Bahdanau et al., 2015) → self-attention with no recurrence at all (Vaswani et al., 2017) → pretrained encoders (BERT, 2018), decoder-only scaling (GPT, 2018–2020), text-to-text unification (T5, 2020), and vision adaptation (ViT, 2020).

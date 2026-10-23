@@ -1,3 +1,0 @@
-# Untitled
-
-Formula: 0
