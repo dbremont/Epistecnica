@@ -97,8 +97,9 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 | Eclipse > RCP practice > Mars Rover monitoring (NASA and JPL) | Exemplar RCP application monitoring rover robots. | System Structure | `(root) > Technical Element Set > Production Technical System` |
 | Eclipse > RCP practice > Bioclipse | Exemplar RCP application for bioinformatics data visualization. | System Structure | `(root) > Technical Element Set > Production Technical System` |
 | Eclipse > RCP practice > Dutch Railway monitoring | Exemplar RCP application monitoring train performance. | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Eclipse > Compiler verification | Compiler and problem markers verifying code against the language specification. | Technical Control | `(root) > Technical Element Set > Verification` |
-| Eclipse > Launch validation | Running and debugging validating the artifact against its intended purpose. | Technical Control | `(root) > Technical Element Set > Validation` |
+| Eclipse > Evaluation | Grouping: evaluation surface of the installation. | Technical Control | `(root) > Technical Element Set > Technical Evaluation` |
+| Eclipse > Evaluation > Compiler verification | Compiler and problem markers verifying code against the language specification. | Technical Control | `(root) > Technical Element Set > Verification` |
+| Eclipse > Evaluation > Launch validation | Running and debugging validating the artifact against its intended purpose. | Technical Control | `(root) > Technical Element Set > Validation` |
 | Eclipse > Failure > Source-not-found | Debugger reaching bytecode without attached sources. | Technical Control | `(root) > Technical Element Set > Technical Failure` |
 | Eclipse > Evolution plugins-to-bundles | Historical line: `(root) > Technical Element Set > Technical Evolution` plugins become OSGi bundles with manifest metadata under Equinox. | Lifecycle & Continuity | `(root) > Technical Element Set > Technical Evolution` |
 | Eclipse > Maintenance (p2 updates) | Patching and upgrading the installation while preserving workspace state. | Lifecycle & Continuity | `(root) > Technical Element Set > Technical Maintenance` |

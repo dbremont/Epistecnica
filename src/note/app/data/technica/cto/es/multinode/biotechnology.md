@@ -42,7 +42,7 @@ Lineage: recombinant DNA (1970s) → PCR and Sanger sequencing (1980s) → indus
 
 | Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
 |---|---|---|---|
-| **Biotechnology** | Engineering-living-substrates ensemble: domain, cell lines, vectors, instruments, reactor systems, pipelines, techniques, and governance. | Composite | `(root) > Technical Element Set > Technical Domain` |
+| **Biotechnology** | Engineering-living-substrates ensemble: domain, cell lines, vectors, instruments, reactor systems, pipelines, techniques, and governance. | Composite | `(root) > Technical Element Set` |
 | **Biotechnology** > `Technical Principle` | Grouping: Technical Principle elements of the biotechnology ensemble. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Principle` |
 | **Biotechnology** > `Technical Principle` > **Membership criterion** | Rule distinguishing members from non-members: all elements required to move a bench construct from sequence to manufactured batch. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Principle` |
 | **Biotechnology** > `Technical Principle` > **Membership criterion** > `Technical Specification` | Grouping: membership conditions of the criterion. | Requirements & Definition | `(root) > Technical Element Set > Technical Specification` |
@@ -58,7 +58,7 @@ Lineage: recombinant DNA (1970s) → PCR and Sanger sequencing (1980s) → indus
 | **Biotechnology** > `Technical Principle` > Quality-by-design principle | Critical quality attributes traced to process parameters govern development and control strategy. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Principle` |
 | **Biotechnology** > `Technical Principle` > Metabolic-flux principle | Stoichiometric flux distribution governs titer, rate, and yield ceilings of a production strain. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Principle` |
 | **Biotechnology** > `Technical Principle` > Population-genetics principle | Allele-frequency dynamics under selection and drift governs strain improvement and containment. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Principle` |
-| **Biotechnology** > Biotechnology Technical Domain | Bounded field: editing, expressing, culturing, and scaling living substrates under viability, sterility, and biosafety bounds. | Technical Context | `(root) > Technical Element Set > Technical Domain` |
+| **Biotechnology** > Biotechnology Technical Domain | Bounded field: editing, expressing, culturing, and scaling living substrates under viability, sterility, and biosafety bounds. | Technical Context | `(root) > Technical Element Set` |
 | **Biotechnology** > `Technical Capability` | Grouping: Technical Capability elements of the biotechnology ensemble. | Mechanism & Capability | `(root) > Technical Element Set > Technical Capability` |
 | **Biotechnology** > `Technical Capability` > Realized capability | Capability realized: edit genomes, express proteins, culture cells, and scale fermentation to specification. | Mechanism & Capability | `(root) > Technical Element Set > Technical Capability` |
 | **Biotechnology** > `Technical Capability` > Genome-editing capability | Value realized: precise sequence changes in living genomes, realized by nuclease and delivery mechanisms. | Mechanism & Capability | `(root) > Technical Element Set > Technical Capability` |

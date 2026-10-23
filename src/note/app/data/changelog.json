@@ -9016,6 +9016,11 @@
         "kind": "refactor",
         "summary": "Move the Energy Technology note from general/ to technica/cto/es/multinode/.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links."
       }
     ]
   },
@@ -9027,6 +9032,11 @@
         "kind": "refactor",
         "summary": "Move the Physical Material Technology note from general/ to technica/cto/es/multinode/.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links."
       }
     ]
   },
@@ -10789,6 +10799,11 @@
         "kind": "feat",
         "summary": "Import System Connector from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition from the legacy five-column category table to the canonical two-column typed form, retype stale elements, and replace dead Notion references."
       }
     ]
   },
@@ -28082,6 +28097,11 @@
         "kind": "refactor",
         "summary": "Move the Transformer note from epistemica/observational/ to technica/ais/system/transformer/ and register the observational -> new-path support link in links.json.",
         "commit": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "Rewrite the characterization on the canonical two-column decomposition (125 rows), dedupe the introduction, add ten open QA questions, and rebuild the reference list with verified links."
       }
     ]
   },
@@ -28211,6 +28231,66 @@
         "kind": "refactor",
         "summary": "Move the Automatum topic note with the robotic-system promotion out of technica/ais/.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/cto/es/multinode/biotechnology.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Retire the superseded Technical Domain type in favour of Technical Element Set."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/cto/es/multinode/java-ee-jakarta-ee.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Insert the Technical Evaluation grouping so conformance verification hangs from the standard by a licensed link."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/cto/es/multinode/jobrunr.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Type carbon-aware processing as a Technical Strategy instead of an unlicensed General Technique under the server."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/cto/es/multinode/openapi.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Insert Technical Evaluation and generated-artifacts groupings so verification, validation, and generated objects hang by licensed links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/cto/es/multinode/wildfly.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Retype the four mis-typed rows (launch configurations, operation definition, CLI and command interfaces) and retire Technical Domain."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/pto/eclipse.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Insert the Technical Evaluation grouping so compiler verification and launch validation hang by licensed links."
       }
     ]
   }
