@@ -28097,7 +28097,9 @@
       {
         "date": "2026-10-23",
         "kind": "docs",
-        "summary": "Rework the Attention note: guiding questions moved into front-matter qa (16 TeX questions), intro restructured, Notion relation line dropped."
+        "summary": "Rework the Attention note: guiding questions moved into front-matter qa (16 TeX questions), intro restructured, Notion relation line dropped.",
+        "commit": "007b3ef23a748418d9ab314edf523d3154b0e732",
+        "before": "e56a5a16c661b1b08a50e9113779e5e03d3f04c7"
       }
     ]
   },
