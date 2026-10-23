@@ -11,6 +11,7 @@ src/course/
 ├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /course/
     ├── index.html   # catalog: dir browse/files + @tag search
+    ├── atlas.html   # the atlas of courses: source lists + corpus, merged
     ├── course.html  # course view (?c=<dir>): entry plus its lectures
     ├── lecture.html # lecture view (?l=<dir>/<file>)
     ├── courses.css  # markdown typography (shared design tokens)
@@ -23,6 +24,21 @@ src/course/
 ```
 
 - Regenerate the search index after any corpus change: `make course-index`.
+- **The atlas** (`atlas.html`, served at `/course/atlas.html`, linked from the
+  catalog footer and the hub footer) maps the two source course lists —
+  [courses.md](https://gist.github.com/dbremont/914cdbcf861238742ea1d41c7bf0d08e)
+  and
+  [science-courses.md](https://gist.github.com/dbremont/fd5a44f3d064ad23ac8e3612f828e216)
+  — against the corpus, one **field** section per source section. One row per
+  course: the primary link opens the corpus course page when a directory
+  exists (badge `in corpus`), otherwise the source link; every other
+  occurrence of the same course (another offering, year, or source) rides
+  along on that row as **references**. The seven anchor courses carry the
+  `main` badge. Same course number with a different title (14.451, 14.452,
+  9.98, 18.S096) means a different course — both rows stay, noted in place.
+  The page is static HTML (a client-side filter and the shared nav search
+  are its only scripts); edit its rows by hand and keep the source links
+  intact.
 - A **course** is a directory: `readme.md` is the entry (title from its
   first `# ` heading), every other `*.md` is a lecture. The course view
   renders the entry, then lists that course's lectures (from the index)

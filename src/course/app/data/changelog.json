@@ -22,6 +22,16 @@
     ]
   },
   {
+    "file_path": "15-773-hands-on-deep-learning/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "atlas of courses — seven main OCW course entries with references"
+      }
+    ]
+  },
+  {
     "file_path": "15-859-algorithms-for-big-data/readme.md",
     "logs": [
       {
@@ -139,6 +149,16 @@
     ]
   },
   {
+    "file_path": "18-409-algorithmic-aspects-of-machine-learning/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "atlas of courses — seven main OCW course entries with references"
+      }
+    ]
+  },
+  {
     "file_path": "18-445-introduction-to-stochastic-processes/readme.md",
     "logs": [
       {
@@ -168,6 +188,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "18-657-mathematics-of-machine-learning/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "atlas of courses — seven main OCW course entries with references"
+      }
+    ]
+  },
+  {
+    "file_path": "18-s096-matrix-calculus-for-machine-learning-and-beyond/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "atlas of courses — seven main OCW course entries with references"
       }
     ]
   },
@@ -245,6 +285,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-036-introduction-to-machine-learning/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "atlas of courses — seven main OCW course entries with references"
       }
     ]
   },
@@ -333,6 +383,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "6-867-machine-learning/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "atlas of courses — seven main OCW course entries with references"
       }
     ]
   },
@@ -428,6 +488,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "mas-712-how-to-learn-almost-anything/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "atlas of courses — seven main OCW course entries with references"
       }
     ]
   },
