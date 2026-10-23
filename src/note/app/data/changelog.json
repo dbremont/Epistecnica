@@ -95,7 +95,9 @@
       {
         "date": "2026-10-23",
         "kind": "chore",
-        "summary": "Remove the empty placeholder note (title only, no content)."
+        "summary": "Remove the empty placeholder note (title only, no content).",
+        "commit": "28e47fbcaa93f9e737a5f6fbcfa4b35d75db9d55",
+        "before": "4b7e7f4e512d09a578617ce69f87772f67af3f5a"
       }
     ]
   },
@@ -28148,7 +28150,9 @@
       {
         "date": "2026-10-23",
         "kind": "chore",
-        "summary": "Remove the stub note: it carried nothing but a broken Notion link and duplicated the Transformer System characterization."
+        "summary": "Remove the stub note: it carried nothing but a broken Notion link and duplicated the Transformer System characterization.",
+        "commit": "28e47fbcaa93f9e737a5f6fbcfa4b35d75db9d55",
+        "before": "4b7e7f4e512d09a578617ce69f87772f67af3f5a"
       }
     ]
   },
