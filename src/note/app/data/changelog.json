@@ -28142,6 +28142,12 @@
         "summary": "Rework the Attention note: guiding questions moved into front-matter qa (16 TeX questions), intro restructured, Notion relation line dropped.",
         "commit": "007b3ef23a748418d9ab314edf523d3154b0e732",
         "before": "e56a5a16c661b1b08a50e9113779e5e03d3f04c7"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "Rebuild on the technical schema: type and ambiguity answers, a 53-row two-column decomposition, a criterion-based conceptual evaluation against the Philosophia Conceptuum et Operis, a corrected variant table, and curated QA replacing the raw guiding-questions dump.",
+        "before": "51a6dd38c979f666e652c3f70ec79da07dddcf1f"
       }
     ]
   },
