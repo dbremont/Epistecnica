@@ -28163,6 +28163,12 @@
         "summary": "Lead the conceptual evaluation with its verdicts and leave the criteria table to support them, matching the transformer note.",
         "commit": "4813d95b4b3a22c58ae7f55531fb912d95df3a6f",
         "before": "663435424ec1caa1ff201c9135ca1f72667be4a4"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Expand the reference list with the attention lineage and critique literature, and retag the note as ml/mechanism; duplicate entries collapsed and tracking parameters stripped.",
+        "before": "8867dd297fd1e427e48b3e0d0b848ad0d20eea13"
       }
     ]
   },

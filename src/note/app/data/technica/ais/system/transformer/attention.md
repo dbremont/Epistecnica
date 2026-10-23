@@ -1,5 +1,5 @@
 ---
-tags: [neural-network-learning-system, technique]
+tags: [ml, mechanism]
 qa:
   - Which are the components of attention?
   - When is kernel smoothing used in the attention mechanism?
@@ -248,3 +248,27 @@ The guide's default for a multi-typed instance is multi-root decomposition. This
 - [MicroGPT](https://growingswe.com/blog/microgpt) — minimal implementation walkthrough.
 - [Attention and Transformers notebooks](http://bactra.org/notebooks/nn-attention-and-transformers.html) — dated reading notes with provenance.
 - [Kernel smoother](https://en.wikipedia.org/wiki/Kernel_smoother) — the fixed-kernel neighbour attention resembles.
+- Britz, D., Goldie, A., Luong, M.-T., & Le, Q. V. (2017). Massive exploration of neural machine translation architectures. In *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing* (pp. 1442–1451). Association for Computational Linguistics. [ACL Anthology](https://doi.org/10.18653/v1/D17-1151)
+- Cheng, J., Dong, L., & Lapata, M. (2016). Long short-term memory-networks for machine reading. In *Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing* (pp. 551–561). Association for Computational Linguistics. [ACL Anthology](https://doi.org/10.18653/v1/D16-1053)
+- Graves, A., Wayne, G., & Danihelka, I. (2014). *Neural Turing machines*. arXiv. [arXiv:1410.5401](https://arxiv.org/abs/1410.5401)
+- Graves, A., Wayne, G., Reynolds, M., Harley, T., Danihelka, I., Grabska-Barwińska, A., ... Hassabis, D. (2016). Hybrid computing using a neural network with dynamic external memory. *Nature, 538*(7626), 471–476. [Nature](https://doi.org/10.1038/nature20101)
+- Lin, Z., Feng, M., Santos, C. N. dos, Yu, M., Xiang, B., Zhou, B., & Bengio, Y. (2017). A structured self-attentive sentence embedding. In *Proceedings of the 5th International Conference on Learning Representations* (ICLR 2017). [arXiv:1703.03130](https://arxiv.org/abs/1703.03130)
+- Luong, T., Pham, H., & Manning, C. D. (2015). Effective approaches to attention-based neural machine translation. In *Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing* (pp. 1412–1421). Association for Computational Linguistics. [ACL Anthology](https://doi.org/10.18653/v1/D15-1166)
+- Nadaraya, E. A. (1964). On estimating regression. *Theory of Probability & Its Applications, 9*(1), 141–142. [SIAM](https://doi.org/10.1137/1109020)
+- Parikh, A. P., Täckström, O., Das, D., & Uszkoreit, J. (2016). A decomposable attention model for natural language inference. In *Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing* (pp. 2249–2255). Association for Computational Linguistics. [ACL Anthology](https://doi.org/10.18653/v1/D16-1244)
+- Sukhbaatar, S., Szlam, A., Weston, J., & Fergus, R. (2015). End-to-end memory networks. In *Advances in Neural Information Processing Systems* (Vol. 28, pp. 2440–2448). Curran Associates. [arXiv:1503.08895](https://arxiv.org/abs/1503.08895)
+- Watson, G. S. (1964). Smooth regression analysis. *Sankhyā: The Indian Journal of Statistics, Series A, 26*(4), 359–372. [JSTOR](http://www.jstor.org/stable/25049340)
+- Watson, J. B. (1913). Psychology as the behaviorist views it. *Psychological Review, 20*(2), 158–177. [APA PsycNet DOI](https://doi.org/10.1037/h0074428)
+- Brauwers, G., & Frasincar, F. (2023). A general survey on attention mechanisms in deep learning. *IEEE Transactions on Knowledge and Data Engineering, 35*(4), 3279–3298. https://doi.org/10.1109/TKDE.2021.3126456
+- Bricken, T., & Pehlevan, C. (2021). Attention approximates sparse distributed memory. In *Advances in Neural Information Processing Systems* (Vol. 34).
+- Chaudhari, S., Mithal, V., Polatkan, G., & Ramanath, R. (2021). An attentive survey of attention models. *ACM Transactions on Intelligent Systems and Technology, 12*(5), Article 53. https://doi.org/10.1145/3465055
+- Choromanski, K., Likhosherstov, D., Dohan, D., Song, X., Gane, A., Sarlos, T., Hawkins, P., Davis, J., Mohiuddin, A., Kaiser, Ł., Belanger, D. B., Colwell, L., & Weller, A. (2021). Rethinking attention with Performers. In *International Conference on Learning Representations (ICLR 2021)*. https://arxiv.org/abs/2009.14794
+- Dao, T., Fu, D. Y., Ermon, S., Rudra, A., & Ré, C. (2022). FlashAttention: Fast and memory-efficient exact attention with IO-awareness. In *Advances in Neural Information Processing Systems* (Vol. 35). https://arxiv.org/abs/2205.14135
+- Dong, Y., Cordonnier, J.-B., & Loukas, A. (2021). Attention is not all you need: Pure attention loses rank doubly exponentially with depth. In *Proceedings of the 38th International Conference on Machine Learning* (pp. 2793–2803). PMLR. https://proceedings.mlr.press/v139/dong21a.html
+- Galassi, A., Lippi, M., & Torroni, P. (2021). Attention in natural language processing. *IEEE Transactions on Neural Networks and Learning Systems, 32*(10), 4291–4308. https://doi.org/10.1109/TNNLS.2020.3019893
+- Jain, S., & Wallace, B. C. (2019). Attention is not explanation. In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)* (pp. 3543–3556). Association for Computational Linguistics. https://doi.org/10.18653/v1/N19-1357
+- Katharopoulos, A., Vyas, A., Pappas, N., & Fleuret, F. (2020). Transformers are RNNs: Fast autoregressive Transformers with linear attention. In *Proceedings of the 37th International Conference on Machine Learning* (pp. 5156–5165). PMLR. https://proceedings.mlr.press/v119/katharopoulos20a.html
+- Shaw, P., Uszkoreit, J., & Vaswani, A. (2018). Self-attention with relative position representations. In *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)* (pp. 464–468). Association for Computational Linguistics. https://doi.org/10.18653/v1/N18-2074
+- Vinyals, O., Fortunato, M., & Jaitly, N. (2015). Pointer networks. In *Advances in Neural Information Processing Systems* (Vol. 28).
+- Wiegreffe, S., & Pinter, Y. (2019). Attention is not not explanation. In *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing* (pp. 11–20). Association for Computational Linguistics. https://doi.org/10.18653/v1/D19-1002
+- Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., Zemel, R., & Bengio, Y. (2015). Show, attend and tell: Neural image caption generation with visual attention. In *Proceedings of the 32nd International Conference on Machine Learning* (pp. 2048–2057). PMLR. https://proceedings.mlr.press/v37/xuc15.html
