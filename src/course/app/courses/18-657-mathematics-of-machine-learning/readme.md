@@ -15,4 +15,4 @@ tags: [ml, mathematics]
 - [18.409 Algorithmic Aspects of Machine Learning](course.html?c=18-409-algorithmic-aspects-of-machine-learning) — the algorithmic side
 - [18.650 Statistics for Applications](course.html?c=18-650-statistics-for-applications) · [18.175 Theory of Probability](course.html?c=18-175-theory-of-probability) — the probabilistic groundwork
 - [6.438 Algorithms for Inference](https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/)
-- [Atlas of courses](atlas.html)
+- [Atlas of courses](courses/atlas.html)

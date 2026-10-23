@@ -15,4 +15,4 @@ tags: [ml]
 - [LeCun Deep Learning](https://atcold.github.io/NYU-DLSP21/) — NYU DS-GA 1008, the theory-side companion ([in the corpus](course.html?c=ds-ga-1008-deep-learning))
 - [10-414/714 Deep Learning Systems](https://dlsyscourse.org/lectures/) — building the systems deep learning runs on
 - [6.036 Introduction to Machine Learning](course.html?c=6-036-introduction-to-machine-learning) · [6.867 Machine Learning](course.html?c=6-867-machine-learning) — the ML courses this one builds on
-- [Atlas of courses](atlas.html)
+- [Atlas of courses](courses/atlas.html)

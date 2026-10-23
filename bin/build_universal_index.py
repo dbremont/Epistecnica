@@ -104,6 +104,8 @@ def build_nodes():
             "references": [],
             "deep_link": ("/course/lecture.html?l=" + quote(path, safe="/"))
             if kind == "lecture"
+            else ("/course/courses/" + quote(path, safe="/"))
+            if kind == "live"
             else ("/course/course.html?c=" + quote(path, safe="/")),
             "targets": [],
         })

@@ -63,6 +63,7 @@
             return e.kind === 'live' ? root + 'note/data/' + p : root + 'note/note.html?n=' + p;
         }
         if (e.surface === 'course') {
+            if (e.kind === 'live') return root + 'course/courses/' + p;
             return e.kind === 'course' ? root + 'course/course.html?c=' + p : root + 'course/lecture.html?l=' + p;
         }
         if (e.surface === 'document') return root + 'document/document.html?d=' + p;

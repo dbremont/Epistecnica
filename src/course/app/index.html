@@ -601,7 +601,7 @@
             <div class="foot-brand">Episte<em>cnica</em></div>
             <div>COURSES &middot; INDEXED &middot; <span id="foot-date">&mdash;</span></div>
             <div class="foot-links">
-                <a href="atlas.html">ATLAS</a>
+                <a href="courses/atlas.html">ATLAS</a>
                 <a href="../">HUB</a>
                 <a href="../note/">NOTES</a>
                 <a href="../document/">DOCUMENTS</a>
@@ -824,8 +824,13 @@
 
         /* First path segment, or null when a rootless path must stay a file
            rather than become a folder (the notes corpus has one root note).
-           Courses are the inverse: a depth-0 path IS the folder itself. */
+           Courses are the inverse: a depth-0 path IS the folder itself —
+           except live HTML pages, which are files at every level. */
         function folderSeg(n) {
+            if (n.kind === 'live') {
+                var s = n.path.indexOf('/');
+                return s < 0 ? null : n.path.slice(0, s);
+            }
             var s = n.path.indexOf('/');
             if (s < 0) return NOUN === 'entry' ? n.path : null;
             return n.path.slice(0, s);
@@ -833,9 +838,14 @@
 
         /* Browse: strict level scoping — only files directly in state.dir.
            Course entries live at the directory itself (path === dir), so they
-           belong to their folder; the course root lists folders only. */
+           belong to their folder; the course root lists folders only. Live
+           HTML pages are files everywhere — a root-level one (the atlas)
+           shows as a card at the root. */
         function fileInBrowse(n) {
-            if (NOUN === 'entry') return state.dir !== '' && (n.path === state.dir || parentDir(n.path) === state.dir);
+            if (NOUN === 'entry') {
+                if (n.kind === 'live') return parentDir(n.path) === state.dir;
+                return state.dir !== '' && (n.path === state.dir || parentDir(n.path) === state.dir);
+            }
             return parentDir(n.path) === state.dir;
         }
 
@@ -892,7 +902,10 @@
 
         function fileHref(n) {
             if (NOUN === 'document') return 'document.html?d=' + encPath(n.path);
-            if (NOUN === 'entry') return n.kind === 'course' ? 'course.html?c=' + encPath(n.path) : 'lecture.html?l=' + encPath(n.path);
+            if (NOUN === 'entry') {
+                if (n.kind === 'live') return 'courses/' + encPath(n.path);
+                return n.kind === 'course' ? 'course.html?c=' + encPath(n.path) : 'lecture.html?l=' + encPath(n.path);
+            }
             return n.kind === 'live' ? 'data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
         }
 

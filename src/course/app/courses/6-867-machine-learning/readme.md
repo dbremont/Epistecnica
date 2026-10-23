@@ -16,4 +16,4 @@ tags: [ml]
 - [6.438 Algorithms for Inference](https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/) — the inference-first treatment
 - [15.097 Prediction: Machine Learning and Statistics](https://ocw.mit.edu/courses/15-097-prediction-machine-learning-and-statistics-spring-2012/)
 - [15.773 Hands-On Deep Learning](course.html?c=15-773-hands-on-deep-learning) — where the deep learning track leads
-- [Atlas of courses](atlas.html)
+- [Atlas of courses](courses/atlas.html)

@@ -7,6 +7,10 @@ with a readme.md entry plus lecture *.md files — and emits
 src/course/app/data/index.json, the search corpus for the courses
 catalog (/course/). Stdlib only.
 
+Standalone HTML pages anywhere under the corpus (*.html, kind "live",
+e.g. the atlas) are indexed as ordinary entries too: title from
+<title>, else the first <h1>.
+
 For each course it emits one entry (kind "course", path "<dir>") and one
 entry per lecture (kind "lecture", path "<dir>/<file>", with a "course"
 parent field). Each entry extracts: title (first "# " heading;
@@ -23,6 +27,7 @@ import json
 import re
 import sys
 from datetime import date
+from html import unescape
 from pathlib import Path
 
 COURSE = Path(__file__).resolve().parent.parent
@@ -40,6 +45,10 @@ QA_KEY_RE = re.compile(r"^qa:\s*$")
 QA_ITEM_RE = re.compile(r"^-\s+(.+)$")
 LINK_RE = re.compile(r"!?\[([^\]]*)\]\([^)]*\)")
 FENCE_RE = re.compile(r"```[^\n]*\n|```")
+HTML_BLOCK_RE = re.compile(r"<(script|style)\b.*?</\1>", re.IGNORECASE | re.DOTALL)
+HTML_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
+HTML_H_RE = re.compile(r"<h([1-6])[^>]*>(.*?)</h\1>", re.IGNORECASE | re.DOTALL)
+HTML_TAG_RE = re.compile(r"<[^>]+>")
 
 
 def check_name(rel: Path, warnings: list):
@@ -126,6 +135,35 @@ def parse(path: Path, rel: Path, warnings: list) -> dict:
     return entry(rel, title, headings, text, tags, qa, kind="lecture")
 
 
+def parse_html(path: Path, rel: Path, warnings: list) -> dict:
+    """Standalone HTML page (kind "live"): title from <title>, else the
+    first <h1>; headings from <h2>+; searchable text from the visible
+    markup with scripts/styles and tags stripped."""
+    raw = path.read_text(encoding="utf-8", errors="replace")
+    body = HTML_BLOCK_RE.sub(" ", raw)
+
+    title = None
+    m = HTML_TITLE_RE.search(body)
+    if m:
+        title = HTML_TAG_RE.sub(" ", m.group(1)).strip()
+    headings = []
+    for hm in HTML_H_RE.finditer(body):
+        level = int(hm.group(1))
+        text = unescape(HTML_TAG_RE.sub(" ", hm.group(2))).strip()
+        text = re.sub(r"\s+", " ", text)
+        if not text:
+            continue
+        if level == 1 and title is None:
+            title = text
+        elif level >= 2:
+            headings.append({"level": level, "text": text})
+    if title is None:
+        title = rel.stem.replace("-", " ")
+    text = unescape(HTML_TAG_RE.sub(" ", body))
+    text = re.sub(r"\s+", " ", text).strip().lower()
+    return entry(rel, title, headings, text, [], [], kind="live")
+
+
 def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str, course: str = None) -> dict:
     item = {
         "path": rel.as_posix(),
@@ -175,19 +213,26 @@ def main() -> int:
             lecture["course"] = course_dir.name
             entries.append(lecture)
 
+    # standalone HTML pages anywhere in the corpus (kind "live")
+    for path in sorted(COURSES.rglob("*.html")):
+        rel = path.relative_to(COURSES)
+        check_name(rel, warnings)
+        entries.append(parse_html(path, rel, warnings))
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated": date.today().isoformat(),
         "count": len(entries),
         "courses": sum(1 for n in entries if n["kind"] == "course"),
         "lectures": sum(1 for n in entries if n["kind"] == "lecture"),
+        "live": sum(1 for n in entries if n["kind"] == "live"),
         "entries": entries,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     kb = OUT.stat().st_size / 1024
     tagged = sum(1 for n in entries if n["tags"])
-    print(f"courses-index: {payload['courses']} courses, {payload['lectures']} lectures ({tagged} tagged), {sum(n['words'] for n in entries)} words -> {OUT.relative_to(COURSE.parent.parent)} ({kb:.0f} KB)")
+    print(f"courses-index: {payload['courses']} courses, {payload['lectures']} lectures, {payload['live']} live ({tagged} tagged), {sum(n['words'] for n in entries)} words -> {OUT.relative_to(COURSE.parent.parent)} ({kb:.0f} KB)")
     if warnings:
         print(f"naming warnings: {len(warnings)} (see src/course/README.md)")
         for w in warnings:

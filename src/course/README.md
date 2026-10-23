@@ -11,12 +11,12 @@ src/course/
 ├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /course/
     ├── index.html   # catalog: dir browse/files + @tag search
-    ├── atlas.html   # the atlas of courses: source lists + corpus, merged
     ├── course.html  # course view (?c=<dir>): entry plus its lectures
     ├── lecture.html # lecture view (?l=<dir>/<file>)
     ├── courses.css  # markdown typography (shared design tokens)
     ├── data/        # generated (index.json — do not edit)
     └── courses/     # the corpus (never machine-edited)
+        ├── atlas.html           # the atlas of courses (a live page)
         └── <course-dir>/
             ├── readme.md        # the entry (title, overview, lecture list)
             ├── 01-*.md          # lecture files, sort order = read order
@@ -24,8 +24,15 @@ src/course/
 ```
 
 - Regenerate the search index after any corpus change: `make course-index`.
-- **The atlas** (`atlas.html`, served at `/course/atlas.html`, linked from the
-  catalog footer and the hub footer) maps the two source course lists —
+- **Live HTML pages**: any standalone `*.html` anywhere in the corpus (not a
+  course dir) is indexed as an ordinary entry with kind `live` — title from
+  `<title>`, else the first `<h1>` — and the catalog renders it as a card
+  with a `live` badge linking straight to the served page (the universal
+  search and the universal view route it the same way).
+- **The atlas** (`courses/atlas.html`, served at
+  `/course/courses/atlas.html`, a live page listed in the catalog and
+  linked from the catalog footer and the hub footer) maps the two source
+  course lists —
   [courses.md](https://gist.github.com/dbremont/914cdbcf861238742ea1d41c7bf0d08e)
   and
   [science-courses.md](https://gist.github.com/dbremont/fd5a44f3d064ad23ac8e3612f828e216)

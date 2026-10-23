@@ -14,4 +14,4 @@ tags: [ml, computation]
 - [18.657 Mathematics of Machine Learning](course.html?c=18-657-mathematics-of-machine-learning) — the mathematical counterpart
 - [6.006 Introduction to Algorithms](course.html?c=6-006-introduction-to-algorithms) · [6.854J Advanced Algorithms](course.html?c=6-854j-advanced-algorithms) — the algorithms it draws on
 - [18.404J Theory of Computation](course.html?c=18-404j-theory-of-computation)
-- [Atlas of courses](atlas.html)
+- [Atlas of courses](courses/atlas.html)

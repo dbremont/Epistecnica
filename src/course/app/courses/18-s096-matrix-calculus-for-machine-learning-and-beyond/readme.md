@@ -15,4 +15,4 @@ tags: [ml, mathematics]
 - https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/
 - [18.06SC Linear Algebra](course.html?c=18-06sc-linear-algebra) · [18.01SC Single Variable Calculus](course.html?c=18-01sc-single-variable-calculus) · [18.02SC Multivariable Calculus](course.html?c=18-02sc-multivariable-calculus) — the calculus sequence it extends
 - [18.657 Mathematics of Machine Learning](course.html?c=18-657-mathematics-of-machine-learning) — the consumer of these derivatives
-- [Atlas of courses](atlas.html)
+- [Atlas of courses](courses/atlas.html)
