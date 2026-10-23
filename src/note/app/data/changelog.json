@@ -9020,7 +9020,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links."
+        "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -9036,7 +9038,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links."
+        "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -10803,7 +10807,9 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Migrate the decomposition from the legacy five-column category table to the canonical two-column typed form, retype stale elements, and replace dead Notion references."
+        "summary": "Migrate the decomposition from the legacy five-column category table to the canonical two-column typed form, retype stale elements, and replace dead Notion references.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -28101,7 +28107,9 @@
       {
         "date": "2026-10-23",
         "kind": "feat",
-        "summary": "Rewrite the characterization on the canonical two-column decomposition (125 rows), dedupe the introduction, add ten open QA questions, and rebuild the reference list with verified links."
+        "summary": "Rewrite the characterization on the canonical two-column decomposition (125 rows), dedupe the introduction, add ten open QA questions, and rebuild the reference list with verified links.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -28240,7 +28248,9 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Retire the superseded Technical Domain type in favour of Technical Element Set."
+        "summary": "Retire the superseded Technical Domain type in favour of Technical Element Set.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -28250,7 +28260,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Insert the Technical Evaluation grouping so conformance verification hangs from the standard by a licensed link."
+        "summary": "Insert the Technical Evaluation grouping so conformance verification hangs from the standard by a licensed link.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -28260,7 +28272,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Type carbon-aware processing as a Technical Strategy instead of an unlicensed General Technique under the server."
+        "summary": "Type carbon-aware processing as a Technical Strategy instead of an unlicensed General Technique under the server.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -28270,7 +28284,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Insert Technical Evaluation and generated-artifacts groupings so verification, validation, and generated objects hang by licensed links."
+        "summary": "Insert Technical Evaluation and generated-artifacts groupings so verification, validation, and generated objects hang by licensed links.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -28280,7 +28296,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Retype the four mis-typed rows (launch configurations, operation definition, CLI and command interfaces) and retire Technical Domain."
+        "summary": "Retype the four mis-typed rows (launch configurations, operation definition, CLI and command interfaces) and retire Technical Domain.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   },
@@ -28290,7 +28308,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Insert the Technical Evaluation grouping so compiler verification and launch validation hang by licensed links."
+        "summary": "Insert the Technical Evaluation grouping so compiler verification and launch validation hang by licensed links.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
       }
     ]
   }
