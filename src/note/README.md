@@ -194,6 +194,9 @@ qa:
   without questions omit the key.
 - The viewer shows a `QA · N` chip in the metadata bar when the list is
   present; clicking it opens a modal listing the questions (no navigation).
+  Questions may carry `$…$` TeX math; the notes viewer typesets them in the
+  modal (MathJax ships with the note viewer only — other shells show the
+  literal source).
 - Nothing is inferred from the body: a `## QA` section is ordinary rendered
   content. Front matter is the metadata source, so questions are authored
   once, deliberately.

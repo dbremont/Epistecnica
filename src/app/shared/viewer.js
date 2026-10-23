@@ -213,10 +213,13 @@
     /* ---------- QA list (front-matter `qa:` metadata) ---------- */
 
     function openQa(title, qa) {
+        var list = document.getElementById('qa-list');
+        if (window.MathJax && MathJax.typesetClear) MathJax.typesetClear([list]);
         document.getElementById('qa-title').textContent = title;
-        document.getElementById('qa-list').innerHTML = qa.map(function (q) {
+        list.innerHTML = qa.map(function (q) {
             return '<li>' + esc(q) + '</li>';
         }).join('');
+        if (window.renderTeX) renderTeX(list);
         document.getElementById('qa-overlay').classList.add('open');
         document.getElementById('qa-modal').classList.add('open');
     }

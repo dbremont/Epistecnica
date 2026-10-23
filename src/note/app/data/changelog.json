@@ -28084,7 +28084,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move Attention from epistemica/observational/ into the technica ais/system/transformer/ scope."
+        "summary": "Move Attention from epistemica/observational/ into the technica ais/system/transformer/ scope.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28094,7 +28095,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move Transformer System into the new ais/system/transformer/ scope."
+        "summary": "Move Transformer System into the new ais/system/transformer/ scope.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28104,7 +28106,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move Transformer System Training into the new ais/system/transformer/ scope."
+        "summary": "Move Transformer System Training into the new ais/system/transformer/ scope.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28114,7 +28117,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move the System landing note from the ais root into ais/system/."
+        "summary": "Move the System landing note from the ais root into ais/system/.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28124,7 +28128,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Rename n-grams.md to n-gram.md in ais/system/."
+        "summary": "Rename n-grams.md to n-gram.md in ais/system/.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28134,7 +28139,8 @@
       {
         "date": "2026-10-23",
         "kind": "docs",
-        "summary": "Rename Language Modelling (LM) to Language Generative Model (LGM) and rework the note with front-matter qa questions."
+        "summary": "Rename Language Modelling (LM) to Language Generative Model (LGM) and rework the note with front-matter qa questions.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28144,7 +28150,9 @@
       {
         "date": "2026-10-23",
         "kind": "fix",
-        "summary": "Repoint the Language Modelling link at the note's new lgm.md path."
+        "summary": "Repoint the Language Modelling link at the note's new lgm.md path.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46",
+        "before": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
       }
     ]
   },
@@ -28154,7 +28162,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move the Evaluation landing note from the ais root into ais/evaluation/."
+        "summary": "Move the Evaluation landing note from the ais root into ais/evaluation/.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28164,7 +28173,9 @@
       {
         "date": "2026-10-23",
         "kind": "docs",
-        "summary": "Restructure the AIS landing note (front-matter qa, Formulation section, cleaned checklist) and repoint the System/Evaluation/Robotic System links at their new paths."
+        "summary": "Restructure the AIS landing note (front-matter qa, Formulation section, cleaned checklist) and repoint the System/Evaluation/Robotic System links at their new paths.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46",
+        "before": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
       }
     ]
   },
@@ -28174,7 +28185,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move the Robotic System landing note out of technica/ais/ to the technica/robotic-system/ scope."
+        "summary": "Move the Robotic System landing note out of technica/ais/ to the technica/robotic-system/ scope.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28184,7 +28196,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move the CNC note with the robotic-system promotion out of technica/ais/."
+        "summary": "Move the CNC note with the robotic-system promotion out of technica/ais/.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   },
@@ -28194,7 +28207,8 @@
       {
         "date": "2026-10-23",
         "kind": "refactor",
-        "summary": "Move the Automatum topic note with the robotic-system promotion out of technica/ais/."
+        "summary": "Move the Automatum topic note with the robotic-system promotion out of technica/ais/.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       }
     ]
   }
