@@ -1,6 +1,8 @@
 ---
 qa:
-  - Which are the type of models GPT? MoE?
+  - What is  a MoE?
+  - What types of MoE exists?
+  - Is MoE more of a Pattern or any specific unit in a GPT?
   - How does a sparse MoE layer decouple parameter count from per-token computation, and what do the router and its top-k gating actually compute?
   - What is expert load imbalance, and how do auxiliary load-balancing losses, Expert Choice routing, and auxiliary-loss-free balancing each mitigate it — at what cost?
   - How do the capacity factor and top-1 routing in the Switch Transformer trade off token dropping against communication and memory, and why does dropping happen at all?
@@ -10,6 +12,80 @@ qa:
   - Why do MoE models fine-tune and do few-shot inference worse than dense models of comparable activated compute, and what do OpenMoE/OLMoE routing analyses (context-independent specialization, early routing learning, drop-towards-the-end) reveal about the cause?
   - How does DeepSeekMoE's fine-grained expert segmentation plus shared experts differ from the classic coarse MoE recipe, and what does it buy in expert specialization?
   - Under what batch-size and memory-bandwidth conditions does an MoE actually beat a dense model at inference, and when is it slower?
+  - What computational problem does MoE solve, and why is conditional computation a useful solution?
+  - Is MoE a general architectural pattern, a specific neural-network layer, or both?
+  - What are the defining properties of an MoE, and which properties are implementation choices?
+  - What distinguishes MoE from other forms of conditional computation and dynamic neural networks?
+  - Which computational operations does MoE perform that an otherwise comparable dense architecture does not?
+  - Does MoE primarily increase model capacity, specialize computation, improve computational efficiency, or some combination of these?
+  - Which capabilities of an MoE model arise from conditional routing, and which arise simply from having more parameters?
+  - What computation does an expert actually perform inside an MoE layer?
+  - What determines the transformation that an individual expert learns?
+  - Do experts specialize in particular input distributions, token patterns, representations, or computational functions?
+  - What is the difference between specialization in the inputs an expert receives and specialization in the transformations it performs?
+  - How can we determine whether two experts perform redundant, complementary, or genuinely distinct computations?
+  - Does each expert learn a relatively stable function, or does its computational role depend substantially on the representations produced by preceding layers?
+  - To what extent can experts be assigned interpretable functional roles?
+  - How can expert specialization be measured without assuming that experts correspond to human-defined domains or skills?
+  - What happens to model performance when experts are merged, removed, duplicated, or replaced?
+  - How is this section of the network train?
+  - What information does the router use to determine which experts receive a token?
+  - How are routing scores computed from the token's hidden representation?
+  - How do routing scores become discrete expert-selection decisions?
+  - What is the difference between routing based on token identity, contextual representation, and token position?
+  - How does routing vary across layers and across different occurrences of the same token?
+  - How do the router and experts co-adapt during training?
+  - Does the router learn to identify inputs that benefit from different transformations, or primarily learn a partition of the training distribution?
+  - How can we distinguish useful functional routing from routing that merely reflects statistical correlations?
+  - How sensitive are routing decisions to small changes in the input representation?
+  - What computational role does the router play beyond selecting experts, and which implementations give it additional responsibilities?
+  - What are the principal architectural dimensions along which MoE systems differ?
+  - How do sparse and dense mixtures of experts differ?
+  - How do token-choice and expert-choice routing differ?
+  - How do top-1, top-k, and soft mixture routing differ?
+  - How do shared experts and routed experts differ in computational role?
+  - How do coarse-grained and fine-grained expert architectures differ?
+  - How do flat and hierarchical MoE architectures differ?
+  - How do input-dependent routing and other forms of conditional computation differ?
+  - Which MoE variants differ in their routing mechanism, expert architecture, training objective, or distributed implementation?
+  - Which architectural choices are independent, and which impose constraints on one another?
+  - How does conditional computation through MoE contribute to the capabilities of a language model?
+  - Which capabilities benefit specifically from conditional expert activation?
+  - Does increasing the number of experts improve the diversity of learned transformations, the model's capacity to represent regularities, or both?
+  - How does MoE affect the discovery and representation of deep regularities in training data?
+  - Does expert specialization enable the model to represent distinct regularities more efficiently?
+  - How does MoE interact with abstraction, analogy, generalization, and the reuse of learned patterns?
+  - Does routing facilitate the combination of previously learned regularities in unfamiliar contexts?
+  - Under what conditions does sparse expert activation improve generalization to out-of-distribution inputs?
+  - Can a dense model with comparable activated computation learn equivalent capabilities, and what differences would remain?
+  - How can we distinguish capability gains caused by conditional computation from gains caused by increased total parameter capacity?
+  - How does expert specialization emerge during training?
+  - What determines whether experts develop distinct computational roles or learn redundant transformations?
+  - Does specialization emerge before, during, or after the router learns effective routing policies?
+  - How do initialization, training data, optimization, and routing constraints influence specialization?
+  - What is the relationship between expert specialization and the statistical structure of the training distribution?
+  - How do shared experts influence the specialization of routed experts?
+  - Does load balancing promote useful specialization, or can it force the model to distribute tokens across experts without functional benefit?
+  - How can we distinguish specialization caused by the training objective from specialization induced by architectural constraints?
+  - What happens to expert specialization during supervised fine-tuning and continued pretraining?
+  - How stable are expert roles across training runs, checkpoints, and model scales?
+  - How can we measure the computational contribution of an individual expert?
+  - What happens to a model's output when a particular expert is disabled?
+  - How can we distinguish an expert's direct contribution from its indirect effects through routing and other experts?
+  - Does routing to a particular expert causally improve the output for the tokens it receives?
+  - How can we test whether two experts implement distinct functions rather than redundant ones?
+  - What evidence would demonstrate that expert specialization is functionally meaningful?
+  - Can expert routing be manipulated to change model behavior predictably?
+  - What are the limitations of inferring an expert's computational role from its preferred tokens or activation patterns?
+  - Which experimental methods best distinguish the effects of routing, expert transformations, total parameter count, and activated computation?
+  - How do token batch size, sequence length, and routing distribution affect MoE throughput and latency?
+  - How does the distribution of selected experts affect memory access and communication costs?
+  - How do expert placement, memory bandwidth, interconnect bandwidth, and accelerator utilization affect inference performance?
+  - How does autoregressive decoding change the performance trade-offs between MoE and dense models?
+  - How do prefill and decode differ in their ability to exploit MoE computation?
+  - How do quantization and expert placement affect the efficiency of MoE inference?
+  - What are the differences between reducing arithmetic operations and reducing end-to-end inference latency?
+  - How should MoE models be benchmarked against dense models to ensure a meaningful comparison?
 ---
 
 # Mixture of Experts (MoE)
@@ -49,3 +125,4 @@ qa:
 - Murphy, K. P. (2022). *Probabilistic machine learning: An introduction*. MIT Press. https://probml.github.io/pml-book/book1.html
 - Prince, S. J. D. (2023). *Understanding deep learning*. MIT Press. https://udlbook.github.io/udlbook/
 - ChatVariety Team. (2026). *Mixture of experts architecture engineering: Designing, training, and serving sparse MoE language models*. Independently Published.
+
