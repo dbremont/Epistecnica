@@ -156,9 +156,9 @@ instance-decomposition table:
   canonical conceptuum guide
   (`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md`),
   not written freehand. Read it before writing that answer; name the concept
-  and the precising definition under evaluation first; apply its `## Evaluation`
-  criteria as a criterion → verdict → diagnostic table plus a verdict paragraph
-  (its minimum set is Conceptual Identification, Definitional Clarity,
+  and the precising definition under evaluation first; lead with the verdicts,
+  then apply its `## Evaluation` criteria as a criterion → verdict → diagnostic
+  table (its minimum set is Conceptual Identification, Definitional Clarity,
   Conceptual Determinacy, Internal Consistency, Representational Adequacy,
   Purpose Adequacy); cite the guide in the note's References. Architectural,
   historical, or scaling commentary is not a conceptual evaluation — it
@@ -241,8 +241,8 @@ instance-decomposition table:
   conceptuum guide
   (`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md`):
   criteria table plus verdict, guide cited in References, never freehand
-  commentary. Notes predating this rule keep their existing evaluation until
-  it is rewritten for another reason.
+  commentary. Verdicts lead; the criteria table follows. Notes predating this
+  rule keep their existing evaluation until it is rewritten for another reason.
 - The guide is canonical at the Naturgnosis raw URL above; the former local
   copies (`src/note/bin/epistemicarum-guide.md` and
   `src/note/bin/epistemicarum-guideline/`) were removed when the guide was

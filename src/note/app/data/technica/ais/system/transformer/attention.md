@@ -146,6 +146,12 @@ The guide's default for a multi-typed instance is multi-root decomposition. This
 
 > **Concept under evaluation:** *Attention*, under the precising definition declared above — a learned, content-addressed weighted read: score every query against every retained key, normalize the scores into a convex combination, and return the corresponding mixture of values. Criteria and ratings follow the *Philosophia Conceptuum et Operis*.
 
+> **Verdict.** Attention is a mechanism concept with a precise core and a fuzzy perimeter. The formula is exact — score, normalize, mix — and everything inside it is measurable and inspectable. What the definition does not fix is where the concept stops: linear and kernel attention keep the function but change the normalization, sparse attention keeps the softmax but drops most pairs, and hard selection keeps the vocabulary but removes the mixture. Membership is settled by lineage, not by the definition.
+
+> **Verdict.** The name is the weakest part. In psychology, attending means excluding — the unattended is dropped. Here nothing is dropped: every retained position keeps its key and receives a weight, and masking is a constraint on the read rather than an act of attention. Kernel smoothing is the closer neighbour in functional form, and the real difference is that the kernel is learned rather than given. The term survives because it is vivid, not because it is accurate, and every reader must supply the inversion.
+
+> **Verdict.** The remedy is precising, not renaming. Take the declared definition — learned $W_Q$, $W_K$, $W_V$, softmax over retained keys, convex mixture of values — as the operative extension. Variants that keep the mixture qualify; hard selection and non-differentiable lookup are routing, close relatives that should be named as such. Under that definition the concept is Purpose-adequate as an implementation primitive and inadequate as an explanation of what a model does, which is why the circuit-level and capability-level questions belong to the transformer note rather than here.
+
 | Criterion | Verdict | Diagnostic |
 | --- | --- | --- |
 | Conceptual Identification | Weak | One word names the operation, the family, the mathematical map, and the psychological namesake. Only the formula separates them, and the formula is narrower than the usage. |
@@ -166,12 +172,6 @@ The guide's default for a multi-typed instance is multi-root decomposition. This
 | Temporal Stability | Moderate | The referent widened from a softmax read to any content-addressed mix, and drifted into the name of the block that contains it. |
 | Operationalizability | Strong | The formula is executable, the weights are inspectable, and membership in the canonical form is decidable mechanically. |
 | Purpose Adequacy | Split | Adequate as a mechanism description and as an implementation primitive; inadequate as an explanation of capability or of model behaviour. |
-
-> **Verdict.** Attention is a mechanism concept with a precise core and a fuzzy perimeter. The formula is exact — score, normalize, mix — and everything inside it is measurable and inspectable. What the definition does not fix is where the concept stops: linear and kernel attention keep the function but change the normalization, sparse attention keeps the softmax but drops most pairs, and hard selection keeps the vocabulary but removes the mixture. Membership is settled by lineage, not by the definition.
-
-> **Verdict.** The name is the weakest part. In psychology, attending means excluding — the unattended is dropped. Here nothing is dropped: every retained position keeps its key and receives a weight, and masking is a constraint on the read rather than an act of attention. Kernel smoothing is the closer neighbour in functional form, and the real difference is that the kernel is learned rather than given. The term survives because it is vivid, not because it is accurate, and every reader must supply the inversion.
-
-> **Verdict.** The remedy is precising, not renaming. Take the declared definition — learned $W_Q$, $W_K$, $W_V$, softmax over retained keys, convex mixture of values — as the operative extension. Variants that keep the mixture qualify; hard selection and non-differentiable lookup are routing, close relatives that should be named as such. Under that definition the concept is Purpose-adequate as an implementation primitive and inadequate as an explanation of what a model does, which is why the circuit-level and capability-level questions belong to the transformer note rather than here.
 
 ## Type Space
 
