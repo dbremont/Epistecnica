@@ -28147,6 +28147,7 @@
         "date": "2026-10-23",
         "kind": "feat",
         "summary": "Rebuild on the technical schema: type and ambiguity answers, a 53-row two-column decomposition, a criterion-based conceptual evaluation against the Philosophia Conceptuum et Operis, a corrected variant table, and curated QA replacing the raw guiding-questions dump.",
+        "commit": "224c292c02f81daa9c034bebfea6fddcbda9d042",
         "before": "51a6dd38c979f666e652c3f70ec79da07dddcf1f"
       }
     ]
