@@ -185,6 +185,12 @@
       "to": "technica/ais/system/transformer/transformer.md",
       "label": "Transformer",
       "kind": "related"
+    },
+    {
+      "from": "epistemica/observational/",
+      "to": "technica/ais/",
+      "label": "Active Inference System",
+      "kind": "related"
     }
   ]
 }

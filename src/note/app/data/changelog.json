@@ -596,6 +596,11 @@
         "kind": "feat",
         "summary": "Import Graph Processing from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Graph Neural Networks link after its move to technica/ais/system/."
       }
     ]
   },
@@ -805,6 +810,11 @@
         "kind": "feat",
         "summary": "Import Network Science from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Graph Neural Networks link after its move to technica/ais/system/."
       }
     ]
   },
@@ -3682,6 +3692,11 @@
         "kind": "feat",
         "summary": "Import Linear Combination from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Neural Network link after its move to technica/ais/system/."
       }
     ]
   },
@@ -5594,13 +5609,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/autoencoder.md",
+    "file_path": "technica/ais/system/autoencoder.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Autoencoder from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets."
       }
     ]
   },
@@ -5759,13 +5779,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/boltzmann-machine.md",
+    "file_path": "technica/ais/system/boltzmann-machine.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Boltzmann Machine from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -5825,13 +5850,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/chain-of-thought-cot.md",
+    "file_path": "technica/ais/system/chain-of-thought-cot.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Chain-of-thought (CoT) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -5869,24 +5899,34 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/classification.md",
+    "file_path": "technica/ais/system/classification.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Classification from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/clustering-model.md",
+    "file_path": "technica/ais/system/clustering-model.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Clustering Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -5952,17 +5992,27 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Chain-of-Thought link after its move to technica/ais/system/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/conditional-random-fields-crfs.md",
+    "file_path": "technica/ais/system/conditional-random-fields-crfs.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Conditional Random Fields (CRFs) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -5989,13 +6039,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/convolutional-neural-network-cnn.md",
+    "file_path": "technica/ais/system/convolutional-neural-network-cnn.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Convolutional Neural Network (CNN) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6125,39 +6180,59 @@
         "date": "2026-10-21",
         "kind": "docs",
         "summary": "Conform the type question to the guide's wording (ambiguous?)."
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Decision Tree link after its move to technica/ais/system/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/decision-tree.md",
+    "file_path": "technica/ais/system/decision-tree.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Decision Tree from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/deep-belief-networks-dbn.md",
+    "file_path": "technica/ais/system/deep-belief-networks-dbn.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Deep Belief Networks (DBN) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/diffusion-model.md",
+    "file_path": "technica/ais/system/diffusion-model.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Diffusion Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6305,13 +6380,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/energy-based-model-ebm.md",
+    "file_path": "technica/ais/system/energy-based-model-ebm.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Energy-Based Model (EBM) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6323,6 +6403,11 @@
         "kind": "feat",
         "summary": "Import Ensemble Method from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational Ensemble Method note into technica/ais/system/ensemble-learning.md and retire it from the corpus."
       }
     ]
   },
@@ -6466,13 +6551,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/feedforward-neural-network-fnn.md",
+    "file_path": "technica/ais/system/feedforward-neural-network-fnn.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Feedforward Neural Network (FNN) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6572,13 +6662,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md",
+    "file_path": "technica/ais/system/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Gaussian-Bernoulli Restricted Boltzmann Machines (GRBM) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6638,13 +6733,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/generative-adversarial-network-gan.md",
+    "file_path": "technica/ais/system/generative-adversarial-network-gan.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Generative Adversarial Network (GAN) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6693,13 +6793,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/graph-neural-networks-gnn.md",
+    "file_path": "technica/ais/system/graph-neural-networks-gnn.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Graph Neural Networks (GNN) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6726,13 +6831,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/helmholtz-machine.md",
+    "file_path": "technica/ais/system/helmholtz-machine.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Helmholtz Machine from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6759,13 +6869,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/hierarchical-temporal-memory-htm.md",
+    "file_path": "technica/ais/system/hierarchical-temporal-memory-htm.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Hierarchical Temporal Memory (HTM) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6810,13 +6925,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/hopfield-network.md",
+    "file_path": "technica/ais/system/hopfield-network.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Hopfield Network from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -6994,13 +7114,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/kanerva-machine.md",
+    "file_path": "technica/ais/system/kanerva-machine.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Kanerva Machine from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -7060,13 +7185,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/latent-dirichlet-allocation-lda.md",
+    "file_path": "technica/ais/system/latent-dirichlet-allocation-lda.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Latent Dirichlet Allocation (LDA) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -7170,13 +7300,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/lstm-networks.md",
+    "file_path": "technica/ais/system/lstm-networks.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import LSTM Networks from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -7379,13 +7514,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/multilayer-perceptron-mlp.md",
+    "file_path": "technica/ais/system/multilayer-perceptron-mlp.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Multilayer Perceptron (MLP) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets."
       }
     ]
   },
@@ -7434,13 +7574,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/naive-bayes-classifier.md",
+    "file_path": "technica/ais/system/naive-bayes-classifier.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Naive Bayes Classifier from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -7456,7 +7601,7 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/neural-network-nn.md",
+    "file_path": "technica/ais/system/neural-network-nn.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -7470,6 +7615,11 @@
         "summary": "Repoint the Transformer link at the note's new technica/ais/system/transformer/ path.",
         "commit": "b81739abb38b4ca9748feeb46fdb44c1cc31576e",
         "before": "4ec40224c0c14c60d6ad382efe2ca39ff4b58e81"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets."
       }
     ]
   },
@@ -7584,13 +7734,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/perceptron-mccullochpitts-neuron.md",
+    "file_path": "technica/ais/system/perceptron-mccullochpitts-neuron.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Perceptron (McCulloch–Pitts Neuron) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets."
       }
     ]
   },
@@ -7830,13 +7985,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/random-forest.md",
+    "file_path": "technica/ais/system/random-forest.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Random Forest from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -7907,13 +8067,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/recurrent-neural-network-rnn.md",
+    "file_path": "technica/ais/system/recurrent-neural-network-rnn.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Recurrent Neural Network (RNN) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -8006,24 +8171,34 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/self-organizing-map.md",
+    "file_path": "technica/ais/system/self-organizing-map.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Self-organizing Map from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/sequence-to-sequence-seq2seq.md",
+    "file_path": "technica/ais/system/sequence-to-sequence-seq2seq.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Sequence to Sequence (Seq2Seq) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -8217,13 +8392,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/support-vector-machine.md",
+    "file_path": "technica/ais/system/support-vector-machine.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Support Vector Machine from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -8414,13 +8594,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/variational-autoencoder-vae.md",
+    "file_path": "technica/ais/system/variational-autoencoder-vae.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Variational Autoencoder (VAE) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -8437,6 +8622,11 @@
         "date": "2026-10-21",
         "kind": "feat",
         "summary": "Fill the stub with the canonical epistemic schema: Formulation, 114-row Aggregate decomposition under Variational Inference Theory, critical evaluation, target-domain table, QA, and links to the four catalogued VI papers."
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Variational Autoencoder links after its move to technica/ais/system/."
       }
     ]
   },
@@ -8485,13 +8675,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/word2vec.md",
+    "file_path": "technica/ais/system/word2vec.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Word2Vec from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/."
       }
     ]
   },
@@ -8503,6 +8698,11 @@
         "kind": "feat",
         "summary": "Import World-Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational World Model note into technica/ais/system/world-model.md and retire it from the corpus."
       }
     ]
   },
@@ -8514,6 +8714,11 @@
         "kind": "feat",
         "summary": "Import YOLO (You Only Look Once) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational YOLO note into technica/ais/system/yolo-real-time-object-detection.md and retire it from the corpus."
       }
     ]
   },
@@ -8833,6 +9038,11 @@
         "kind": "docs",
         "summary": "Add the statistical-mechanics textbook references (Reif, Pathria & Beale, Landau & Lifshitz, Huang, Kardar x2), linking the four corpus documents.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Boltzmann Machine link after its move to technica/ais/system/."
       }
     ]
   },
@@ -16435,7 +16645,7 @@
     ]
   },
   {
-    "file_path": "technica/computation/miscelanea/computational-learning-system.md",
+    "file_path": "technica/ais/system/computational-learning-system.md",
     "logs": [
       {
         "date": "2026-10-20",
@@ -16449,6 +16659,21 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and follow the images into the shared /assets/ mirror."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/miscelanea/computational-learning-system.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Leave a pointer at the old location after the move to technica/ais/system/."
       }
     ]
   },
@@ -16903,6 +17128,11 @@
         "kind": "feat",
         "summary": "Import Task Execution System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Computational Learning System link after the move to technica/ais/system/."
       }
     ]
   },
@@ -28360,6 +28590,36 @@
         "summary": "Insert the Technical Evaluation grouping so compiler verification and launch validation hang by licensed links.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/world-model.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational world-model note into this one; adopt its tags and full reference list."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/yolo-real-time-object-detection.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational yolo-you-only-look-once note into this one; adopt its tags and the original-paper reference."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/ensemble-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational ensemble-method note into this one; bring over its goals, taxonomy, tags, and references."
       }
     ]
   }

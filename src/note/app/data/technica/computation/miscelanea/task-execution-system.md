@@ -708,5 +708,5 @@ A system may need to evolve because of:
 - [Unit of Computation](note.html?n=technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
 - [Distributed Computing](note.html?n=technica/computation/distributed-computing.md)
 - [Job Scheduling Problem](note.html?n=technica/computation/algorithm/conceptual-model-algorithm/job-scheduling-problem.md)
-- [Computational Learning System](note.html?n=technica/computation/miscelanea/computational-learning-system.md)
+- [Computational Learning System](note.html?n=technica/ais/system/computational-learning-system.md)
 - [Philosophia Artium Technicarum et Operis](https://app.notion.com/p/Philosophia-Artium-Technicarum-et-Operis-355c0f5171ec808b82f8d7a85e8134cd?pvs=21)

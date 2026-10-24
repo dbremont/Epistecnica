@@ -112,7 +112,7 @@ QA:
 
 ## Computation Graph
 
-> What is the structure of the **[Trainable Computational System Space](computational-learning.md)?** What is the general structure of a neural network? What are its components, and what are the possible variations of these components?
+> What is the structure of the **[Trainable Computational System Space](note.html?n=epistemica/observational/computational-learning.md)?** What is the general structure of a neural network? What are its components, and what are the possible variations of these components?
 > 
 
 ### Basic
@@ -537,7 +537,7 @@ In other words, a neural network generalizes because it abstracts and distills p
 - Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position
 [https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf](https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf)
 - [Feed Foward](https://www.wikiwand.com/en/Feedforward_neural_network)
-- [Computation Graph](computation-graph.md)
+- [Computation Graph](note.html?n=epistemica/observational/computation-graph.md)
 - [Learning rate](https://en.wikipedia.org/wiki/Learning_rate)
 - [Setting the learning rate of your neural network](https://www.jeremyjordan.me/nn-learning-rate/)
 - https://en.wikipedia.org/wiki/History_of_artificial_neural_networks
@@ -562,6 +562,6 @@ In other words, a neural network generalizes because it abstracts and distills p
 - https://arxiv.org/abs/1206.5538
 - https://en.wikipedia.org/wiki/Information_bottleneck_method
 - https://arxiv.org/abs/2402.10450v2
-- [Transformer](../../technica/ais/system/transformer/transformer.md)
+- [Transformer](note.html?n=technica/ais/system/transformer/transformer.md)
 - [An Essay on Representation in Computationally Synthesized Systems](https://app.notion.com/p/An-Essay-on-Representation-in-Computationally-Synthesized-Systems-320c0f5171ec805ab65ac0e60ba9dc06?pvs=21)
 - https://en.wikipedia.org/wiki/Weight_initialization

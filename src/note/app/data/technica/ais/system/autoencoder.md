@@ -9,7 +9,7 @@ tags: [learning-system, representation]
 > In this note we will explore the idea of an auto-encoder.
 > 
 
-> For a comprehensive view on re-representation see ([Representation](../mathematical/representation.md)).
+> For a comprehensive view on re-representation see ([Representation](note.html?n=epistemica/mathematical/representation.md)).
 > 
 
 Guiding questions:

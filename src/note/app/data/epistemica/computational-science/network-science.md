@@ -394,5 +394,5 @@ tags: [framework]
 - [Graph](../mathematical/graph.md)
 - https://github.com/dbremont/algorithms
 - [Graph Data Model ](https://app.notion.com/p/Graph-Data-Model-1afc0f5171ec809fb444fd2da46e183f?pvs=21)
-- [Graph Neural Networks (GNN)](../observational/graph-neural-networks-gnn.md)
+- [Graph Neural Networks (GNN)](note.html?n=technica/ais/system/graph-neural-networks-gnn.md)
 - https://github.com/dbremont/algorithms/tree/main/cm/network
