@@ -168,7 +168,9 @@
       {
         "date": "2026-10-24",
         "kind": "chore",
-        "summary": "Delete the complexity-science topics note."
+        "summary": "Delete the complexity-science topics note.",
+        "commit": "e4583b7a0137ab228ab6634675190adf2c671359",
+        "before": "b58aeeca081c9636075f489266d9f8460f7ddaf1"
       }
     ]
   },
@@ -8811,7 +8813,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Follow the robotic-system branch rename to technica/robotics/."
+        "summary": "Follow the robotic-system branch rename to technica/robotics/.",
+        "commit": "e4583b7a0137ab228ab6634675190adf2c671359",
+        "before": "b58aeeca081c9636075f489266d9f8460f7ddaf1"
       }
     ]
   },
@@ -11326,7 +11330,9 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the training decomposition outline to the synthesis landing note."
+        "summary": "Add the training decomposition outline to the synthesis landing note.",
+        "commit": "e4583b7a0137ab228ab6634675190adf2c671359",
+        "before": "b58aeeca081c9636075f489266d9f8460f7ddaf1"
       }
     ]
   },
@@ -33130,7 +33136,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/robotics/."
+        "summary": "Move to technica/robotics/.",
+        "commit": "e4583b7a0137ab228ab6634675190adf2c671359"
       }
     ]
   },
@@ -33146,7 +33153,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/robotics/."
+        "summary": "Move to technica/robotics/.",
+        "commit": "e4583b7a0137ab228ab6634675190adf2c671359"
       }
     ]
   },
@@ -33162,7 +33170,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/robotics/."
+        "summary": "Move to technica/robotics/.",
+        "commit": "e4583b7a0137ab228ab6634675190adf2c671359"
       }
     ]
   }
