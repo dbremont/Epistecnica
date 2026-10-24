@@ -30698,7 +30698,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Rewrite the forest contract around the decomposition tables: both table syntaxes, the merge rule, the source links, and the dendrogram view."
+        "summary": "Rewrite the forest contract around the decomposition tables: both table syntaxes, the merge rule, the source links, and the dendrogram view.",
+        "commit": "5e2ce626936c90fa53a2d2f8644bdc45108391c4",
+        "before": "8f360023800d347c8e3e6fe024d0e314466e561d"
       }
     ]
   },
