@@ -8840,7 +8840,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the retrieval/lgm link to technica/ais/domain/retrieval/."
+        "summary": "Retarget the retrieval/lgm link to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40",
+        "before": "b7b9cf11e3c365951587f25131c0ad703916eae9"
       }
     ]
   },
@@ -9945,7 +9947,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -9967,7 +9970,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -9989,7 +9993,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10011,7 +10016,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10039,7 +10045,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10061,7 +10068,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10083,7 +10091,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10105,7 +10114,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10127,7 +10137,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10149,7 +10160,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10171,7 +10183,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10193,7 +10206,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10215,7 +10229,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/language/."
+        "summary": "Move to technica/ais/domain/language/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10237,7 +10252,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10259,7 +10275,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10281,7 +10298,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10303,7 +10321,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10325,7 +10344,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10353,7 +10373,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10375,7 +10396,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10397,7 +10419,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10419,7 +10442,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
@@ -10441,7 +10465,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/domain/retrieval/."
+        "summary": "Move to technica/ais/domain/retrieval/.",
+        "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
       }
     ]
   },
