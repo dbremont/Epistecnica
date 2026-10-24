@@ -270,6 +270,8 @@
     .insp-kids a:hover { color: var(--accent-cyan); }
     .insp-kids .more { font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-muted); }
     .insp-note { font-size: 0.78rem; line-height: 1.5; }
+    .insp-note a { color: var(--accent-cyan); text-decoration: none; border-bottom: 1px solid var(--border-subtle); }
+    .insp-note a:hover { border-bottom-color: var(--accent-cyan); }
     .insp-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.2rem; }
 
     .badge {
@@ -347,6 +349,32 @@
     .atlas-back:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
     .atlas-error { color: var(--accent-gold); font-size: 0.85rem; }
+
+    /* dendrogram */
+    #view.view-tree {
+      position: relative; overflow: auto;
+      min-height: 560px; max-height: 78vh;
+      border: 1px solid var(--border-subtle); border-radius: 10px;
+      background-color: var(--bg-surface);
+      background-image: radial-gradient(var(--border-subtle) 1px, transparent 1.1px);
+      background-size: 24px 24px;
+    }
+    #view.view-tree svg { display: block; }
+    .tn circle { cursor: pointer; }
+    .tn text { font-size: 10.5px; fill: var(--text-secondary); cursor: pointer; }
+    .tn text.is-type { font-family: var(--font-mono); font-size: 9.5px; fill: var(--accent-gold); }
+    .tn:hover text { fill: var(--text-primary); }
+    .tn.sel text { fill: var(--accent-cyan); font-weight: 500; }
+    #atlasTip {
+      position: fixed; z-index: 120; pointer-events: none; opacity: 0;
+      transition: opacity 0.12s ease;
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      color: var(--text-primary); font-family: var(--font-mono);
+      font-size: 10px; line-height: 1.55; padding: 7px 10px;
+      border-radius: 4px; max-width: 320px;
+    }
+    #atlasTip b { font-weight: 500; }
+    #atlasTip .ts { opacity: 0.7; }
   </style>
   <link rel="stylesheet" href="../../../../shared/usearch.css">
 </head>
@@ -380,20 +408,28 @@
         <article class="note-card">
           <div class="markdown-body">
             <p class="atlas-intro">The complete, ever-expanding decomposition of the
-            technica corpus — every note an instance, every directory a grouping —
-            rendered from the tree store <a href="atlas.json">atlas.json</a>. The
+            technica corpus — read off the decomposition tables of the notes, never
+            off the file layout — rendered from the tree store
+            <a href="atlas.json">atlas.json</a>. The
             companion note <a href="../../../note.html?n=technica/meta/atlas.md">Technical
             Element Forest</a> states the schema and the sync rule; this atlas
             carries the full forest and the views over it.</p>
-            <p class="atlas-lede">Types are named in the schemas of the canonical guide
+            <p class="atlas-lede">Every row of every
+            <code>| Instance Tree Path |</code> table feeds one merged instance
+            tree: the four-column tables contribute their paths and align their
+            type column to the row's terminal element, the two-column tables
+            contribute their inline backticked type segments. Types are named in
+            the schemas of the canonical guide
             <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md">Philosophia
-            Artium Technicarum et Operis</a>; instances live in the Epistecnica notes corpus.</p>
+            Artium Technicarum et Operis</a>; the notes that decompose each
+            node are listed in the inspector.</p>
 
             <div class="atlas-stats" id="atlasStats"></div>
 
             <div class="viewbar" id="viewbar">
               <button type="button" class="viewtab" data-view="outline">Outline</button>
               <button type="button" class="viewtab" data-view="cards">Cards</button>
+              <button type="button" class="viewtab" data-view="tree">Dendrogram</button>
               <div class="atlas-search">
                 <input type="search" id="atlasSearch" class="atlas-search-input" placeholder="find an element…" aria-label="Search technica elements" aria-expanded="false" aria-controls="atlasSearchDrop" autocomplete="off">
                 <div class="atlas-search-drop" id="atlasSearchDrop" hidden></div>
@@ -401,6 +437,7 @@
               <span class="spacer"></span>
               <button type="button" class="viewtab" id="expandAll">Expand all</button>
               <button type="button" class="viewtab" id="collapseAll">Collapse all</button>
+              <button type="button" class="viewtab" id="foldTop">Fold to branches</button>
             </div>
 
             <div class="atlas-wrap">
@@ -426,6 +463,9 @@
 
   <script src="../../../vendor/mathjax-setup.js"></script>
   <script src="../../../vendor/mathjax/tex-svg-full.js"></script>
+  <script src="../../../vendor/d3.min.js"></script>
+
+<div id="atlasTip" aria-hidden="true"></div>
 
 <script id="ambient">
   (function () {
@@ -501,12 +541,14 @@
     var DATA = null;
     var FLAT = [];
     var BYPATH = {};
+    var PATHS = new WeakMap();
     var state = {
       view: 'outline',
       sel: null,
       outlineRoot: null,
       expanded: {}
     };
+    var treeState = { expanded: null, root: null, gL: null, gN: null };
     var hits = [];
     var hitIndex = -1;
 
@@ -515,6 +557,7 @@
     var statsEl = document.getElementById('atlasStats');
     var searchEl = document.getElementById('atlasSearch');
     var searchDrop = document.getElementById('atlasSearchDrop');
+    var tipEl = document.getElementById('atlasTip');
 
     function esc(s) {
       return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
@@ -536,6 +579,7 @@
         var p = path.concat([node.label]);
         var ps = p.join(' → ');
         var e = { node: node, path: p, pathStr: ps, depth: p.length, parent: parent };
+        PATHS.set(node, ps);
         FLAT.push(e); BYPATH[ps] = e;
         (node.children || []).forEach(function (c) { rec(c, p, ps); });
       }
@@ -552,8 +596,9 @@
     function renderStats() {
       var s = DATA.stats || {};
       var items = [
-        ['nodes', s.nodes], ['branches', s.branches], ['groupings', s.groupings],
-        ['instances', s.instances], ['depth', s.maxDepth]
+        ['nodes', s.nodes], ['branches', s.branches],
+        ['tables', s.tables], ['rows', s.rows],
+        ['groupings', s.groupings], ['instances', s.instances], ['depth', s.maxDepth]
       ];
       statsEl.innerHTML = items.map(function (it) {
         return '<span class="stat-pill">' + esc(it[0]) + ' <b>' + esc(it[1]) + '</b></span>';
@@ -567,6 +612,7 @@
       document.querySelectorAll('.tree-row.sel').forEach(function (r) { r.classList.remove('sel'); });
       var row = document.querySelector('.tree-row[data-path="' + cssEscape(pathStr) + '"]');
       if (row) row.classList.add('sel');
+      if (state.view === 'tree') treeHighlight();
       if (!silent) syncURL();
     }
 
@@ -604,13 +650,16 @@
         + '</div>'
         + '<div class="insp-breadcrumb">' + crumb + '</div>'
         + '<div class="insp-desc">' + esc(n.description || '') + '</div>'
-        + (n.path
-            ? '<div class="insp-block-title">Corpus note</div><div class="insp-note"><a href="' + noteHref(n.path) + '">' + esc(n.path) + '</a></div>'
-            : '')
-        + (n.tags && n.tags.length
-            ? '<div class="insp-block-title">Tags</div><div class="insp-tags">'
-              + n.tags.slice(0, 10).map(function (t) { return badge('#' + t, 'kind-instance'); }).join('')
+        + (n.sources && n.sources.length
+            ? '<div class="insp-block-title">Decomposed in</div><div class="insp-note">'
+              + n.sources.map(function (s) {
+                  return '<a href="' + noteHref(s) + '">' + esc(s) + '</a>';
+                }).join('<br>')
               + '</div>'
+            : '')
+        + (n.note
+            ? '<div class="insp-block-title">Open note</div><div class="insp-note"><a href="'
+              + noteHref(n.note) + '">' + esc(n.note) + '</a></div>'
             : '')
         + '<div class="insp-block-title">Depth ' + e.depth + ' · ' + countLeaves(n) + ' descendant instance' + (countLeaves(n) === 1 ? '' : 's') + '</div>'
         + (kids.length
@@ -728,7 +777,7 @@
         '<div class="card ext-card">'
         + '<div class="card-formula"><span class="seg">→ Epistecnica<br>notes corpus</span></div>'
         + '<div class="card-body"><div class="card-name">Corpus catalog</div>'
-        + '<div class="card-desc">Every instance of this forest is a note in the technica corpus — browse and read them in the catalog.</div>'
+        + '<div class="card-desc">Every node of this forest comes from a decomposition table of a technica note — browse and read those notes in the catalog.</div>'
         + '<div class="card-foot"><a class="note-link" href="../../../index.html?dir=technica">open catalog →</a></div></div></div>';
       viewEl.appendChild(ext);
     }
@@ -754,6 +803,176 @@
         setView('outline');
       });
       return card;
+    }
+
+    // ---------- Dendrogram ----------
+    function treeColor(kind) {
+      if (kind === 'root') return 'var(--accent-violet)';
+      if (kind === 'grouping') return 'var(--accent-gold)';
+      return 'var(--accent-cyan)';
+    }
+
+    function truncate(s, n) {
+      s = String(s == null ? '' : s);
+      return s.length > n ? s.slice(0, n - 1) + '…' : s;
+    }
+
+    function showTip(d, ev) {
+      var n = d.data;
+      tipEl.innerHTML = '<b>' + esc(n.label) + '</b><br><span class="ts">'
+        + esc((n.type ? n.type + ' · ' : '') + n.kind)
+        + (d.children || d._children ? ' · click the dot to fold' : '')
+        + (d._children ? ' / unfold' : '')
+        + '</span>';
+      tipEl.style.left = Math.min(ev.clientX + 14, window.innerWidth - 330) + 'px';
+      tipEl.style.top = (ev.clientY + 16) + 'px';
+      tipEl.style.opacity = '1';
+    }
+    function hideTip() { tipEl.style.opacity = '0'; }
+
+    function treeApply(h) {
+      (function rec(node) {
+        if (!node.children) return;
+        if (treeState.expanded.has(PATHS.get(node.data))) {
+          node.children.forEach(rec);
+        } else {
+          node._children = node.children;
+          node.children = null;
+          node._children.forEach(rec);
+        }
+      })(h);
+    }
+
+    function treeRender() {
+      var data = DATA.roots[0];
+      if (!data) return;
+      if (!treeState.expanded) {
+        treeState.expanded = new Set([PATHS.get(data)]);
+      }
+      var scrollTop = viewEl.scrollTop, scrollLeft = viewEl.scrollLeft;
+      viewEl.innerHTML = '';
+      viewEl.classList.add('view-tree');
+
+      var h = d3.hierarchy(data, function (d) {
+        return (d.children && d.children.length) ? d.children : null;
+      });
+      treeApply(h);
+
+      var levels = 0;
+      h.each(function (d) { levels = Math.max(levels, d.depth); });
+      var gap = 190, vStep = 22;
+      var leaves = h.leaves().length || 1;
+      var height = Math.max(560, leaves * vStep + 80);
+
+      var svg = d3.select(viewEl).append('svg')
+        .attr('width', 190 + levels * gap + 240)
+        .attr('height', height);
+
+      var gL = svg.append('g');
+      var gN = svg.append('g');
+
+      d3.tree().nodeSize([vStep, gap])(h);
+      var top = Math.max(30, (height - (leaves - 1) * vStep) / 2);
+      h.each(function (d) { d.x += top; d.y += 190; });
+
+      var link = d3.linkHorizontal()
+        .x(function (d) { return d.y; })
+        .y(function (d) { return d.x; });
+
+      gL.selectAll('path').data(h.links()).enter().append('path')
+        .attr('class', 'tlink').attr('fill', 'none')
+        .attr('stroke', 'var(--border-subtle)').attr('stroke-width', 1.1)
+        .attr('d', link);
+
+      var nodes = gN.selectAll('g.tn').data(h.descendants()).enter().append('g')
+        .attr('class', 'tn')
+        .attr('transform', function (d) { return 'translate(' + d.y + ',' + d.x + ')'; });
+
+      nodes.append('circle')
+        .attr('r', function (d) {
+          if (d.data.kind === 'root') return 7;
+          if (d._children) return 6;
+          return d.children ? 5.5 : 4.5;
+        })
+        .attr('fill', function (d) {
+          return d._children ? 'var(--bg-void)' : treeColor(d.data.kind);
+        })
+        .attr('stroke', function (d) { return treeColor(d.data.kind); })
+        .attr('stroke-width', 1.6)
+        .on('click', function (ev, d) { ev.stopPropagation(); treeToggle(d); })
+        .on('mousemove', function (ev, d) { showTip(d, ev); })
+        .on('mouseout', hideTip);
+
+      nodes.append('text')
+        .attr('class', function (d) { return d.data.kind === 'grouping' ? 'is-type' : ''; })
+        .attr('dy', '0.34em')
+        .attr('x', function (d) { return (d.children || d._children) ? -13 : 13; })
+        .attr('text-anchor', function (d) {
+          return (d.children || d._children) ? 'end' : 'start';
+        })
+        .text(function (d) { return truncate(d.data.label, 30); })
+        .on('click', function (ev, d) {
+          ev.stopPropagation();
+          selectNode(PATHS.get(d.data));
+        })
+        .on('mousemove', function (ev, d) { showTip(d, ev); })
+        .on('mouseout', hideTip);
+
+      treeState.root = h; treeState.gL = gL; treeState.gN = gN;
+      viewEl.scrollTop = scrollTop;
+      viewEl.scrollLeft = scrollLeft;
+    }
+
+    function treeToggle(d) {
+      var key = PATHS.get(d.data);
+      if (d.children) treeState.expanded.delete(key);
+      else treeState.expanded.add(key);
+      treeRender();
+      if (state.sel) treeHighlight();
+    }
+
+    function treeHighlight() {
+      if (!treeState.root) return;
+      var target = null;
+      treeState.root.each(function (d) {
+        if (!target && PATHS.get(d.data) === state.sel) target = d;
+      });
+      if (!target) return;
+      var chain = new Set();
+      target.ancestors().forEach(function (a) { chain.add(PATHS.get(a.data)); });
+      treeState.gN.selectAll('g.tn').classed('sel', function (d) {
+        return chain.has(PATHS.get(d.data));
+      });
+      treeState.gL.selectAll('path.tlink')
+        .attr('stroke', function (l) {
+          return chain.has(PATHS.get(l.target.data))
+            ? 'var(--accent-gold)' : 'var(--border-subtle)';
+        })
+        .attr('stroke-width', function (l) {
+          return chain.has(PATHS.get(l.target.data)) ? 1.8 : 1.1;
+        });
+    }
+
+    function treeReveal(pathStr) {
+      var e = BYPATH[pathStr];
+      if (!e) return;
+      if (!treeState.expanded) {
+        treeState.expanded = new Set([PATHS.get(DATA.roots[0])]);
+      }
+      e.path.forEach(function (_, i) {
+        var ps = e.path.slice(0, i + 1).join(' → ');
+        if (BYPATH[ps] && BYPATH[ps].node.children && BYPATH[ps].node.children.length) {
+          treeState.expanded.add(ps);
+        }
+      });
+      treeRender();
+      treeHighlight();
+    }
+
+    function treeFoldTop() {
+      treeState.expanded = new Set([PATHS.get(DATA.roots[0])]);
+      treeRender();
+      if (state.sel) treeHighlight();
     }
 
     // ---------- Search ----------
@@ -890,9 +1109,15 @@
       var showExpand = v === 'outline';
       document.getElementById('expandAll').style.display = showExpand ? '' : 'none';
       document.getElementById('collapseAll').style.display = showExpand ? '' : 'none';
+      document.getElementById('foldTop').style.display = v === 'tree' ? '' : 'none';
+      if (v !== 'tree') viewEl.classList.remove('view-tree');
 
       if (v === 'outline') renderOutline();
       else if (v === 'cards') renderCards();
+      else if (v === 'tree') {
+        if (state.sel) treeReveal(state.sel);
+        else treeRender();
+      }
       if (!noSync) syncURL();
     }
 
@@ -919,6 +1144,16 @@
       });
       document.getElementById('expandAll').addEventListener('click', expandAll);
       document.getElementById('collapseAll').addEventListener('click', collapseAll);
+      document.getElementById('foldTop').addEventListener('click', treeFoldTop);
+      var resizeT;
+      window.addEventListener('resize', function () {
+        if (state.view !== 'tree') return;
+        clearTimeout(resizeT);
+        resizeT = setTimeout(function () {
+          treeRender();
+          if (state.sel) treeHighlight();
+        }, 200);
+      });
       wireSearch();
     }
 
@@ -929,7 +1164,7 @@
       wire();
       var q = new URLSearchParams(location.search);
       var v = q.get('view');
-      if (['outline', 'cards'].indexOf(v) !== -1) state.view = v;
+      if (['outline', 'cards', 'tree'].indexOf(v) !== -1) state.view = v;
       var node = q.get('node');
       if (node && BYPATH[node]) {
         state.sel = node;

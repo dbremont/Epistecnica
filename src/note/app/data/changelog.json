@@ -30694,6 +30694,11 @@
         "kind": "refactor",
         "summary": "Move the Technical Element Forest note to technica/meta/.",
         "commit": "980e4eac130302dca483d1d42086860f7aab0a80"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Rewrite the forest contract around the decomposition tables: both table syntaxes, the merge rule, the source links, and the dendrogram view."
       }
     ]
   },

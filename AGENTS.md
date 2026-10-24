@@ -218,14 +218,22 @@ instance-decomposition table:
   fourth-column path resolves to a Recursive-view grammar path; no
   branch-terminating type segments. Then run `make notes-index` (below).
 - **Technical-element atlas** — `data/technica/meta/atlas.html` renders
-  the forest (the whole technica corpus as a typed tree) from the generated
-  store `data/technica/meta/atlas.json`. **Every new instance in a
-  decomposition tree of a technical element must also be in the forest**:
-  after any corpus edit under `src/note/app/data/technica/`, regenerate the
-  store with `make atlas-index` (validated by `make atlas-check`, part of
-  `make check`; the atlas page and catalog card are `atlas.html` /
-  `technica/meta/` in the `?dir=technica` browse view). The store is
-  generated data — never hand-edit it, never changelog it.
+  the forest: the decomposition tables of the technica notes merged into
+  one typed instance tree, never the directory layout. Four-column tables
+  align their type column to the row's terminal segment; two-column `→`
+  tables carry their type segments inline; a backticked first-column
+  segment is a type grouping only when its label is a guide type (a
+  concrete artifact otherwise). `meta/` is excluded from parsing, so the
+  atlas never indexes itself. Every new instance in a decomposition table
+  is in the forest by construction: regenerate the store after any table
+  edit under `src/note/app/data/technica/` with `make atlas-index`
+  (validated by `make atlas-check`, part of `make check` — one synthetic
+  root, unique sibling labels, sources exist, note links resolve, stats;
+  table grammar conformance stays `conform.py`'s job). The atlas page and
+  catalog card are `atlas.html` / `technica/meta/` in the
+  `?dir=technica` browse view; the page carries outline, card, and
+  dendrogram views. The store is generated data — never hand-edit it,
+  never changelog it.
 
 ## On Epistemical Notes
 
@@ -310,7 +318,7 @@ Verification (no test suite exists; `make check` covers the first):
 
 - `python3 -m py_compile bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py`
 - REES tree: `make rees-check` (validates `src/note/app/data/epistemica/rees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
-- Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the corpus dir tree — after any edit under `src/note/app/data/technica/`) → `make atlas-check` (unique sibling labels, grouping types, instance paths exist, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` + card in `:8000/note/?dir=technica`
+- Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the decomposition tables of the technica corpus — four-column and `→` two-column tables, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram) + card in `:8000/note/?dir=technica`
 - Universal search: `make search-index` (build-time snapshot → committed `src/app/data/search-index.json`, corpus-only) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → committed `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`
@@ -386,7 +394,8 @@ when switching over.
 - Everything is stdlib Python 3.12 + vanilla JS. The old dataset graph
   renderers (deck.gl tecnica viewer, Canvas2D epistemica viewer) left with the
   subprojects. Vendored runtime bundles: the notes MathJax under
-  `src/note/app/vendor/mathjax/`, and the universal-view renderer under
+  `src/note/app/vendor/mathjax/`, d3 under `src/note/app/vendor/d3.min.js`
+  (the technica atlas dendrogram), and the universal-view renderer under
   `src/app/graph/vendor/` (`deck.min.js` + `socio-graph.js`) — third-party
   copies, keep names as-is.
 - AI (DeepSeek) is called browser-direct in the editors; the token lives only

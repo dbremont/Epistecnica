@@ -1,16 +1,38 @@
 #!/usr/bin/env python3
 """Build the technica atlas store: the Technical Element Forest.
 
-Walks src/note/app/data/technica/ and renders its directory decomposition
-plus every corpus note into a forest store (data/technica/meta/atlas.json),
-the store the atlas page (data/technica/meta/atlas.html) renders.
+Parses the decomposition tables of the technica notes — never the
+directory layout — and merges them into one forest store
+(data/technica/meta/atlas.json), the store the atlas page
+(data/technica/meta/atlas.html) renders.
+
+Two table syntaxes live in the corpus and both feed the same trie:
+
+  four-column  | Instance Tree Path | Description | Technical Category |
+               | Technical Element Type Tree Path |
+               instance paths split on ` > `; the fourth column is a
+               backticked type path starting at `(root)`, whose last
+               segment types the row's terminal segment. A backticked
+               col-1 segment names a type when it belongs to the guide's
+               type vocabulary (collected from the type column), and a
+               concrete artifact otherwise.
+
+  two-column   | Instance Tree Path | Description |
+               epistemic-style paths split on `→` with backticked type
+               segments inline; plain segments are instances typed by the
+               nearest grouping ancestor.
 
 Node model (REEs-compatible, see epistemica/rees.json):
-  root      - the section itself, typed Technical Element Set
-  grouping  - a directory, typed from its index note's declared guide type
-              (the backticked type in the note's first blockquote), with a
-              curated fallback table for sections that predate the pattern
-  instance  - a corpus note: title, description snippet, corpus path, tags
+
+  root      - one synthetic `Technical Element` node, typed
+              Technical Element Set; its children are the table roots
+  grouping  - a type segment (backticked in the table)
+  instance  - a named technical element; it may carry children (the
+              decomposition is recursive), unlike the old file-tree store
+
+Every node records the notes whose tables define it (`sources`), and an
+instance whose label matches exactly one corpus note carries that note's
+path (`note`). The store is generated data: never hand-edit it.
 
 Usage: python3 src/note/bin/build_technica_atlas.py
 """
@@ -24,44 +46,22 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[3]
 DATA = REPO / 'src' / 'note' / 'app' / 'data'
 TECH = DATA / 'technica'
-INDEX = DATA / 'index.json'
 OUT = TECH / 'meta' / 'atlas.json'
 
 GUIDE = ('https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/'
          'main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md')
 
-# Section roots: curated types (the guide type where the dir literally is
-# one, otherwise the section's own designation).
-ROOT_TYPES = {
-    'ais': 'Technical Domain',
-    'computation': 'Technical Domain',
-    'cto': 'Constitutive Technical Object',
-    'op': 'Technical Operation',
-    'pto': 'Production Technical Object',
-    'robotic-system': 'Production Technical System',
-}
-
-# Index notes not named <dir>.md.
-ALT_INDEX = {
-    'computation': 'computacion.md',
-    'cto': 'readme.md',
-    'op': 'readme.md',
-    'pto': 'readme.md',
-}
-
-# Fallback grouping types for index notes that declare no backticked type.
-DIR_TYPES = {
-    'theory': 'Technical Theory',
-    'evaluation': 'Technical Evaluation',
-    'transformer': 'Technical Architecture',
-}
-FALLBACK_TYPE = 'Technical Element Grouping'
-
-DECLARED = re.compile(r'^\s*>\s*`([^`]+)`')
-BLOCK = re.compile(r'^((?:\s*>.*\n?)+)', re.M)
+FOUR = ('| Instance Tree Path | Description | Technical Category | '
+        'Technical Element Type Tree Path |')
+TWO = '| Instance Tree Path | Description |'
+ROOT_LABEL = 'Technical Element'
+ROOT_TYPE = 'Technical Element Set'
 SNIP = re.compile(r'\s+')
-
-stats = {'nodes': 0, 'groupings': 0, 'instances': 0, 'maxDepth': 0}
+TITLE = re.compile(r'^#\s+(.+)$', re.M)
+CODE = re.compile(r'`([^`]*)`')
+MATH = re.compile(r'\$\$?.*?\$\$?')
+LINK = re.compile(r'\[([^\]]*)\]\([^)]*\)')
+SLUG = re.compile(r'[^a-z0-9]+')
 
 
 def read(path):
@@ -71,162 +71,253 @@ def read(path):
         return ''
 
 
-def title_of(text, fallback):
-    m = re.search(r'^#\s+(.+)$', text, re.M)
-    return m.group(1).strip() if m else fallback
-
-
-def strip_md(s, limit=240):
-    s = re.sub(r'\$\$?.*?\$\$?', ' ', s)
-    s = re.sub(r'```.*?```', ' ', s, flags=re.S)
-    s = re.sub(r'[#*_`>|\\-]+', ' ', s)
-    s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)
+def strip_md(s):
+    s = MATH.sub(' ', s)
+    s = CODE.sub(r'\1', s)
+    s = LINK.sub(r'\1', s)
     s = SNIP.sub(' ', s).strip()
-    if len(s) > limit:
-        s = s[:limit].rsplit(' ', 1)[0] + '…'
     return s
 
 
-def description_of(text):
-    """First blockquote, else first prose paragraph, clipped."""
-    m = re.search(r'^\s*>\s*(.+)$', text, re.M)
-    if m and not set(m.group(1)) <= set('. …>-—'):
-        return strip_md(m.group(1))
-    body = re.sub(r'^---$.*?^---$', '', text, count=1, flags=re.S | re.M)
-    body = re.sub(r'^#.*$', '', body, flags=re.M)
-    for para in body.split('\n\n'):
-        p = para.strip()
-        if p and not p.startswith(('>', '|', '- [', '!')):
-            return strip_md(p)
-    return ''
+def cells(line):
+    return [c.strip() for c in line.strip().strip('|').split('|')]
 
 
-def declared_type(text):
-    """The guide type an index note declares in its first blockquote."""
-    m = BLOCK.search(text)
-    d = DECLARED.search(m.group(1)) if m else None
-    return d.group(1).strip() if d else None
+def four_rows(text):
+    """Every four-column decomposition row (all table blocks of a note)."""
+    for line in text.splitlines():
+        if not line.startswith('|'):
+            continue
+        c = cells(line)
+        if len(c) == 4 and c[3].startswith('`(root)') \
+                and c[0] != 'Instance Tree Path':
+            yield c
 
 
-def index_note(d, alt=False):
-    f = d / (ALT_INDEX.get(d.name, d.name + '.md'))
-    return f if f.is_file() else None
+def two_rows(text):
+    """Every two-column `→` decomposition row (all table blocks)."""
+    for line in text.splitlines():
+        if not line.startswith('|'):
+            continue
+        c = cells(line)
+        if len(c) == 2 and ' → ' in c[0] \
+                and c[0] != 'Instance Tree Path':
+            yield c
 
 
-def instance_node(md, notes, depth):
-    rel = str(md.relative_to(DATA))
-    meta = notes.get(rel, {})
-    text = meta.get('text') or read(md)
-    node = {
-        'label': meta.get('title') or title_of(text, md.stem),
-        'kind': 'instance',
-        'description': strip_md(text),
-        'path': rel,
-    }
-    tags = meta.get('tags') or []
-    if tags:
-        node['tags'] = tags
-    stats['nodes'] += 1
-    stats['instances'] += 1
-    stats['maxDepth'] = max(stats['maxDepth'], depth)
-    return node
+def segment(raw, vocabulary):
+    """(label, kind) for one instance-path segment.
 
-
-def dedupe_labels(children):
-    """Sibling labels must be unique (they key the atlas's label paths).
-
-    On collision, instances take their corpus stem in parentheses — the
-    stem is unique within its directory by construction.
+    Bold marks an instance; a backticked segment is a type grouping when
+    its label belongs to the guide type vocabulary, a concrete artifact
+    (instance) otherwise. Plain segments are instances.
     """
-    counts = {}
-    for c in children:
-        counts[c['label']] = counts.get(c['label'], 0) + 1
-    for c in children:
-        if counts[c['label']] > 1 and c['kind'] == 'instance':
-            stem = Path(c['path']).stem
-            if stem != c['label']:
-                c['label'] += ' (' + stem + ')'
-    taken = set()
-    for c in children:
-        label, n = c['label'], 2
-        while c['label'] in taken:
-            c['label'] = f'{label} ({n})'
-            n += 1
-        taken.add(c['label'])
+    s = raw.strip()
+    if len(s) > 4 and s.startswith('**') and s.endswith('**'):
+        return s[2:-2].strip(), 'instance'
+    if len(s) > 2 and s.startswith('`') and s.endswith('`'):
+        inner = s[1:-1].strip()
+        return inner, ('grouping' if inner in vocabulary else 'instance')
+    return s, 'instance'
 
 
-def grouping_node(d, base, notes, depth, is_root=False):
-    note = index_note(d)
-    text = read(note) if note else ''
-    rel_dir = str(d.relative_to(TECH))
-    label = 'Technica' if is_root else title_of(text, d.name)
-    if is_root:
-        typ = 'Technical Element Set'
-    else:
-        typ = (declared_type(text)
-               or ROOT_TYPES.get(rel_dir)
-               or DIR_TYPES.get(rel_dir)
-               or DIR_TYPES.get(d.name)
-               or FALLBACK_TYPE)
-    node = {
-        'label': label,
-        'kind': 'root' if is_root else 'grouping',
-        'type': typ,
-        'description': description_of(text) or strip_md(
-            'The ' + label + ' branch of the technica corpus.'),
-        'children': [],
-    }
+def type_path(cell):
+    """Segments of a fourth-column type path, `(root)` removed."""
+    raw = cell.strip()
+    if raw.startswith('`') and raw.endswith('`'):
+        raw = raw[1:-1]
+    return [p.strip() for p in raw.split(' > ')
+            if p.strip() and p.strip() != '(root)']
 
-    for sub in sorted([p for p in d.iterdir() if p.is_dir()
-                       and not p.name.startswith('.')]):
-        if is_root and sub.name == OUT.parent.name:
-            continue  # the store's own dir is not a corpus grouping
-        child = grouping_node(sub, base, notes, depth + 1)
-        if child:
-            node['children'].append(child)
-    for md in sorted(d.glob('*.md')):
-        if note and md == note:
-            continue  # the index note speaks for its directory
-        node['children'].append(instance_node(md, notes, depth + 1))
-    dedupe_labels(node['children'])
-    if not is_root and not node['children']:
-        return None  # a grouping with no corpus notes is not in the forest
-    stats['nodes'] += 1
-    if not is_root:
-        stats['groupings'] += 1
-    stats['maxDepth'] = max(stats['maxDepth'], depth)
-    return node
+
+def slug(s):
+    return SLUG.sub(' ', s.lower()).strip()
+
+
+class Forest:
+    """One trie over every instance path of every decomposition table."""
+
+    def __init__(self):
+        self.root = {
+            'label': ROOT_LABEL,
+            'kind': 'root',
+            'type': ROOT_TYPE,
+            'description': ('The complete, ever-expanding forest of technical '
+                            'elements: every decomposition table of the '
+                            'technica corpus merged into one instance tree.'),
+            'sources': [],
+            'children': [],
+        }
+
+    def node(self, parent, label):
+        """Child of `parent` named `label`, created on first sight."""
+        for child in parent['children']:
+            if child['label'] == label:
+                return child
+        node = {'label': label, 'kind': 'instance', 'description': '',
+                'sources': set(), 'children': []}
+        parent['children'].append(node)
+        return node
+
+    def add(self, segments, source, terminal_type=None, description=''):
+        """Add one table row: `segments` = [(label, kind), ...] from the root.
+
+        `terminal_type` types the row's last segment (four-column tables);
+        intermediate segments inherit the nearest ancestor's type. Type
+        groupings are typed by their own label.
+        """
+        parent = self.root
+        inherited = None
+        for i, (label, kind) in enumerate(segments):
+            if not label:
+                continue
+            node = self.node(parent, label)
+            node['sources'].add(source)
+            last = i == len(segments) - 1
+            if kind == 'grouping':
+                node['kind'] = 'grouping'
+                node['type'] = label
+            elif not node.get('type'):
+                node['type'] = (terminal_type if last and terminal_type
+                                else inherited)
+            inherited = node.get('type') or inherited
+            if last and description and not node['description']:
+                node['description'] = description
+            parent = node
+
+    def finish(self):
+        """Sort the branches, freeze sources, type the root's tree."""
+        self.root['children'].sort(key=lambda n: n['label'].lower())
+        self._freeze(self.root)
+
+    def _freeze(self, node):
+        if isinstance(node.get('sources'), set):
+            node['sources'] = sorted(node['sources'])
+        if node['kind'] == 'grouping' and not node['description']:
+            node['description'] = 'Type grouping: ' + node['label'] + '.'
+        for child in node['children']:
+            self._freeze(child)
+
+    def walk(self, node=None, depth=1):
+        node = node or self.root
+        yield node, depth
+        for child in node['children']:
+            yield from self.walk(child, depth + 1)
+
+
+def note_links(notes):
+    """Label → corpus note path, only for unambiguous title/slug matches."""
+    titles, stems = {}, {}
+    for path, title, stem in notes:
+        titles.setdefault(slug(title), set()).add(path)
+        stems.setdefault(slug(stem), set()).add(path)
+
+    def resolve(label):
+        key = slug(label)
+        found = titles.get(key) or stems.get(key) or set()
+        return next(iter(found)) if len(found) == 1 else None
+
+    return resolve
 
 
 def main():
-    if not INDEX.is_file():
-        print('atlas: index.json missing — run make notes-index first',
+    if not TECH.is_dir():
+        print('atlas: technica corpus missing', file=sys.stderr)
+        return 1
+
+    notes = []
+    four_files, two_files = [], []
+    for path in sorted(TECH.rglob('*.md')):
+        rel = path.relative_to(TECH)
+        if 'meta' in rel.parts:
+            continue  # meta/ holds the atlas itself, not elements
+        text = read(path)
+        title = TITLE.search(text)
+        notes.append(('technica/' + rel.as_posix(),
+                      title.group(1).strip() if title else path.stem,
+                      path.stem))
+        if FOUR in text:
+            four_files.append((path, text))
+        elif TWO in text:
+            two_files.append((path, text))
+
+    # The guide's type vocabulary, read off the type column itself: a
+    # backticked col-1 segment naming one of these is a type grouping.
+    vocabulary = set()
+    for _, text in four_files:
+        for row in four_rows(text):
+            vocabulary.update(type_path(row[3]))
+
+    forest = Forest()
+    rows = 0
+    for path, text in four_files:
+        source = 'technica/' + path.relative_to(TECH).as_posix()
+        for row in four_rows(text):
+            segments = [segment(s, vocabulary) for s in row[0].split(' > ')]
+            types = type_path(row[3])
+            forest.add(segments, source,
+                       terminal_type=types[-1] if types else None,
+                       description=strip_md(row[1]))
+            rows += 1
+    for path, text in two_files:
+        source = 'technica/' + path.relative_to(TECH).as_posix()
+        for row in two_rows(text):
+            segments = [segment(s, vocabulary) for s in row[0].split(' → ')]
+            groupings = [label for label, kind in segments[:-1]
+                         if kind == 'grouping']
+            forest.add(segments, source,
+                       terminal_type=(groupings[-1] if groupings else None),
+                       description=strip_md(row[1]))
+            rows += 1
+
+    if not forest.root['children']:
+        print('atlas: no decomposition tables found under technica/',
               file=sys.stderr)
         return 1
-    notes = {n['path']: n for n in json.load(open(INDEX))['notes']
-             if n.get('path', '').startswith('technica/')}
 
-    root = grouping_node(TECH, TECH, notes, 1, is_root=True)
-    branches = len(root['children'])
+    forest.finish()
+
+    resolve = note_links(notes)
+    linked = 0
+    for node, _ in forest.walk():
+        if node['kind'] != 'instance':
+            continue
+        note = resolve(node['label'])
+        if note:
+            node['note'] = note
+            linked += 1
+
+    stats = {'nodes': 0, 'groupings': 0, 'instances': 0, 'maxDepth': 0}
+    for node, depth in forest.walk():
+        stats['nodes'] += 1
+        stats['maxDepth'] = max(stats['maxDepth'], depth)
+        if node['kind'] == 'grouping':
+            stats['groupings'] += 1
+        elif node['kind'] == 'instance':
+            stats['instances'] += 1
+    stats['branches'] = len(forest.root['children'])
+    stats['tables'] = len(four_files) + len(two_files)
+    stats['rows'] = rows
 
     store = {
         'title': 'Technical Element Forest',
         'abbr': 'TEF',
         'generated': date.today().isoformat(),
-        'source': 'generated from the technica corpus directory tree '
-                  '(src/note/app/data/technica)',
+        'source': 'generated from the decomposition tables of the technica '
+                  'corpus (src/note/app/data/technica, meta/ excluded)',
         'guide': GUIDE,
         'note': 'technica/meta/atlas.md',
-        'stats': {**stats, 'branches': branches},
-        'roots': [root],
+        'stats': stats,
+        'roots': [forest.root],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(store, f, indent=1, ensure_ascii=False)
         f.write('\n')
-    print(f"atlas: {stats['nodes']} nodes "
-          f"({stats['groupings']} groupings, {stats['instances']} instances), "
-          f"{branches} branches, depth {stats['maxDepth']} -> "
+    print(f"atlas: {stats['rows']} table rows from {stats['tables']} tables "
+          f"-> {stats['nodes']} nodes ({stats['groupings']} groupings, "
+          f"{stats['instances']} instances), {stats['branches']} branches, "
+          f"depth {stats['maxDepth']}, {linked} note links -> "
           f"{OUT.relative_to(REPO)}")
     return 0
 
