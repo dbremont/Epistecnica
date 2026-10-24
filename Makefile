@@ -25,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check notes-index course-index document-index rees-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check notes-index course-index document-index rees-check atlas-index atlas-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -33,9 +33,10 @@ help: ## list targets
 run: ## local dev server, no docker (port DEV_PORT, default 8010)
 	python3 bin/serve.py --port $(DEV_PORT)
 
-check: ## py_compile all servers + index builders + validate the REES tree
+check: ## py_compile all servers + index builders + validate the REES tree + technica atlas
 	python3 -m py_compile bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py
 	python3 src/note/bin/rees_check.py
+	python3 src/note/bin/atlas_check.py
 
 notes-index: ## rebuild the notes search index (after any corpus change)
 	python3 src/note/bin/index.py
@@ -48,6 +49,12 @@ document-index: ## rebuild the documents search index (after any corpus change)
 
 rees-check: ## validate the REES tree store (src/note/app/data/epistemica/rees.json)
 	python3 src/note/bin/rees_check.py
+
+atlas-index: ## rebuild the technica atlas store (after any technica corpus change)
+	python3 src/note/bin/build_technica_atlas.py
+
+atlas-check: ## validate the technica atlas store (src/note/app/data/technica/atlas/atlas.json)
+	python3 src/note/bin/atlas_check.py
 
 search-index: ## build the universal search snapshot (before build/deploy)
 	python3 bin/build_search_index.py

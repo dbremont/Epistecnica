@@ -217,6 +217,15 @@ instance-decomposition table:
 - Self-check after any table edit: instance paths unique; every
   fourth-column path resolves to a Recursive-view grammar path; no
   branch-terminating type segments. Then run `make notes-index` (below).
+- **Technical-element atlas** — `data/technica/atlas/atlas.html` renders
+  the forest (the whole technica corpus as a typed tree) from the generated
+  store `data/technica/atlas/atlas.json`. **Every new instance in a
+  decomposition tree of a technical element must also be in the forest**:
+  after any corpus edit under `src/note/app/data/technica/`, regenerate the
+  store with `make atlas-index` (validated by `make atlas-check`, part of
+  `make check`; the atlas page and catalog card are `atlas.html` /
+  `technica/atlas/` in the `?dir=technica` browse view). The store is
+  generated data — never hand-edit it, never changelog it.
 
 ## On Epistemical Notes
 
@@ -301,6 +310,7 @@ Verification (no test suite exists; `make check` covers the first):
 
 - `python3 -m py_compile bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py`
 - REES tree: `make rees-check` (validates `src/note/app/data/epistemica/rees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
+- Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/atlas/atlas.json` from the corpus dir tree — after any edit under `src/note/app/data/technica/`) → `make atlas-check` (unique sibling labels, grouping types, instance paths exist, stats) — part of `make check`; page `curl -s :8000/note/data/technica/atlas/atlas.html` + card in `:8000/note/?dir=technica`
 - Universal search: `make search-index` (build-time snapshot → committed `src/app/data/search-index.json`, corpus-only) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → committed `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`
