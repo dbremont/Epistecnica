@@ -9932,7 +9932,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Domain index note grouping the AIS problem domains (language, retrieval)."
+        "summary": "Add the Domain index note grouping the AIS problem domains (language, retrieval).",
+        "commit": "8a895b96798ee72c1c48faeb5e64e19787b530f9"
       }
     ]
   },
@@ -12543,7 +12544,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Technical Element Forest note: companion contract of the technica atlas (generated store, sync rule, backbone)."
+        "summary": "Add the Technical Element Forest note: companion contract of the technica atlas (generated store, sync rule, backbone).",
+        "commit": "8a895b96798ee72c1c48faeb5e64e19787b530f9"
       }
     ]
   },
