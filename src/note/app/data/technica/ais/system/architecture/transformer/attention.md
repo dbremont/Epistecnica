@@ -239,8 +239,8 @@ The guide's default for a multi-typed instance is multi-root decomposition. This
 
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) — the schema and decomposition contract this note follows.
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) — the evaluation criteria applied above.
-- [Transformer System](note.html?n=technica/ais/system/transformer/transformer.md) — the architecture this mechanism is embedded in.
-- [Transformer System: Training](note.html?n=technica/ais/system/transformer/transformer-system-training.md) — how the projections are fitted.
+- [Transformer System](note.html?n=technica/ais/system/architecture/transformer/transformer.md) — the architecture this mechanism is embedded in.
+- [Transformer System: Training](note.html?n=technica/ais/system/architecture/transformer/transformer-system-training.md) — how the projections are fitted.
 - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*, 5998–6008. https://arxiv.org/abs/1706.03762
 - Bahdanau, D., Cho, K., & Bengio, Y. (2015). Neural machine translation by jointly learning to align and translate. *International Conference on Learning Representations*. https://arxiv.org/abs/1409.0473
 - Tsai, Y.-H. H., Bai, S., Yamada, M., Morency, L.-P., & Salakhutdinov, R. (2019). Transformer dissection: A unified understanding of Transformer's attention via the lens of kernel. In *Proceedings of EMNLP-IJCNLP 2019* (pp. 4344–4353). https://aclanthology.org/D19-1443/
