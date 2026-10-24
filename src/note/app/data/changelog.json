@@ -6210,7 +6210,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the decision-tree link to technica/ais/synthesis/learning-method/."
+        "summary": "Retarget the decision-tree link to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82",
+        "before": "98892d3cf5d0670efbd62c5495c9f9768a007ad4"
       }
     ]
   },
@@ -10975,7 +10977,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11009,7 +11012,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11043,7 +11047,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11077,7 +11082,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11106,7 +11112,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11140,7 +11147,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11162,7 +11170,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11196,7 +11205,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11230,7 +11240,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
@@ -11264,7 +11275,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/synthesis/learning-method/."
+        "summary": "Move to technica/ais/synthesis/learning-method/.",
+        "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
       }
     ]
   },
