@@ -12,4 +12,4 @@ Language processing and its representations (n-grams, tf-idf), syntactic and lex
 
 ## References
 
-- [System](../system.md)
+- [System](../system/system.md)

@@ -509,7 +509,7 @@ Conceptual Model: Statistical Mechanics
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [Phase Space](note.html?n=epistemica/computational-science/phase-space.md)
 - [Statistical Mechanics](https://en.wikipedia.org/wiki/Statistical_mechanics)
-- [Boltzmann Machine](note.html?n=technica/ais/system/architecture/boltzmann-machine.md)
+- [Boltzmann Machine](note.html?n=technica/ais/architecture/boltzmann-machine.md)
 - [Monte Carlo Toolbox](note.html?n=epistemica/observational/monte-carlo-toolbox.md)
 - [Mean Field Theory](note.html?n=epistemica/observational/mean-field-theory.md)
 - [Renormalization Group](note.html?n=epistemica/observational/renormalization-group.md)

@@ -12,5 +12,5 @@ Training, distributed training, data and curricula shaping, transfer, distillati
 
 ## References
 
-- [System](../system.md)
+- [System](../system/system.md)
 - [Technica guide](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

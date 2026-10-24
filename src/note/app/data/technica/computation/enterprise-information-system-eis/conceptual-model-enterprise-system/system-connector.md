@@ -252,7 +252,7 @@ System Connector
 ## References
 
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) — the schema and decomposition contract this table follows.
-- [Model Context Protocol](note.html?n=technica/ais/system/application/model-context-protocol-mcp.md) — a connector specification for tool and resource access.
+- [Model Context Protocol](note.html?n=technica/ais/application/model-context-protocol-mcp.md) — a connector specification for tool and resource access.
 - [Zapier integrations](https://zapier.com/apps/google-drive/integrations) and the [Zapier repository](https://github.com/zapier) — connector-manager case material.
 - [n8n integrations](https://n8n.io/integrations/) — connector catalogue and credential manager.
 - [MCP server registry](https://mcpservers.org/) — concrete connector instances.

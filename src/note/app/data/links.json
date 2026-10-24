@@ -182,7 +182,7 @@
     },
     {
       "from": "epistemica/observational/",
-      "to": "technica/ais/system/architecture/transformer/transformer.md",
+      "to": "technica/ais/architecture/transformer/transformer.md",
       "label": "Transformer",
       "kind": "related"
     },

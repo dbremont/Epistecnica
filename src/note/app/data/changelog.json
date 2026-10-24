@@ -610,6 +610,11 @@
         "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },
@@ -833,6 +838,11 @@
         "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },
@@ -1245,6 +1255,11 @@
         "summary": "Retarget the boltzmann-machine link to technica/ais/system/architecture/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },
@@ -3583,6 +3598,11 @@
         "summary": "Retarget the neural-network link to technica/ais/system/architecture/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },
@@ -5999,6 +6019,11 @@
         "summary": "Retarget the chain-of-thought link to technica/ais/system/application/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },
@@ -6164,6 +6189,11 @@
         "summary": "Retarget the decision-tree link to technica/ais/system/learning-method/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },
@@ -8260,6 +8290,11 @@
         "summary": "Retarget the variational-autoencoder links to technica/ais/system/architecture/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },
@@ -8750,6 +8785,1077 @@
     ]
   },
   {
+    "file_path": "technica/ais/application/abstract-reasoning.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/agentic-system.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Repoint the Language Modelling link at the note's new lgm.md path.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46",
+        "before": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/ and retarget its lgm link.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/application.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Application index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/chain-of-thought-cot.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chain-of-thought (CoT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/dbt.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/interaction-layer.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/interoperability.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/mixed-system.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Hybrid Computational System note.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/model-context-protocol-mcp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/optical-flow.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/recommender-system.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/system-prompt.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/virtual-assistant.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/visual-encoding.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/world-model.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational world-model note into this one; adopt its tags and full reference list.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/application/yolo-real-time-object-detection.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational yolo-you-only-look-once note into this one; adopt its tags and the original-paper reference.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/application/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/architecture.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Architecture index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/autoencoder.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoencoder from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/boltzmann-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boltzmann Machine from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/convolutional-neural-network-cnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Convolutional Neural Network (CNN) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/deep-belief-networks-dbn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Deep Belief Networks (DBN) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/diffusion-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diffusion Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/energy-based-model-ebm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Energy-Based Model (EBM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/feedforward-neural-network-fnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Feedforward Neural Network (FNN) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian-Bernoulli Restricted Boltzmann Machines (GRBM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/generative-adversarial-network-gan.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generative Adversarial Network (GAN) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/graph-neural-networks-gnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Graph Neural Networks (GNN) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/helmholtz-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Helmholtz Machine from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/hierarchical-temporal-memory-htm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hierarchical Temporal Memory (HTM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/hopfield-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hopfield Network from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/kanerva-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kanerva Machine from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/lstm-networks.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import LSTM Networks from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/multilayer-perceptron-mlp.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multilayer Perceptron (MLP) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/neural-network-nn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Neural Network (NN) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Repoint the Transformer link at the note's new technica/ais/system/transformer/ path.",
+        "commit": "b81739abb38b4ca9748feeb46fdb44c1cc31576e",
+        "before": "4ec40224c0c14c60d6ad382efe2ca39ff4b58e81"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/ and retarget its transformer link.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/perceptron-mccullochpitts-neuron.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Perceptron (McCulloch–Pitts Neuron) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/recurrent-neural-network-rnn.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Recurrent Neural Network (RNN) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/self-organizing-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Self-organizing Map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/sequence-to-sequence-seq2seq.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sequence to Sequence (Seq2Seq) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/transformer/attention.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Move Attention from epistemica/observational/ into the technica ais/system/transformer/ scope.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Rework the Attention note: guiding questions moved into front-matter qa (16 TeX questions), intro restructured, Notion relation line dropped.",
+        "commit": "007b3ef23a748418d9ab314edf523d3154b0e732",
+        "before": "e56a5a16c661b1b08a50e9113779e5e03d3f04c7"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "Rebuild on the technical schema: type and ambiguity answers, a 53-row two-column decomposition, a criterion-based conceptual evaluation against the Philosophia Conceptuum et Operis, a corrected variant table, and curated QA replacing the raw guiding-questions dump.",
+        "commit": "224c292c02f81daa9c034bebfea6fddcbda9d042",
+        "before": "51a6dd38c979f666e652c3f70ec79da07dddcf1f"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "style",
+        "summary": "Lead the conceptual evaluation with its verdicts and leave the criteria table to support them, matching the transformer note.",
+        "commit": "4813d95b4b3a22c58ae7f55531fb912d95df3a6f",
+        "before": "663435424ec1caa1ff201c9135ca1f72667be4a4"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Expand the reference list with the attention lineage and critique literature, and retag the note as ml/mechanism; duplicate entries collapsed and tracking parameters stripped.",
+        "commit": "13bf62c7c689eb3f6a6abe1230a419a747afc782",
+        "before": "8867dd297fd1e427e48b3e0d0b848ad0d20eea13"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/transformer/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/transformer/transformer-system-training.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Move Transformer System Training into the new ais/system/transformer/ scope.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/transformer/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/transformer/transformer.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Move the Transformer note from epistemica/observational/ to technica/ais/system/transformer/ and register the observational -> new-path support link in links.json.",
+        "commit": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "feat",
+        "summary": "Rewrite the characterization on the canonical two-column decomposition (125 rows), dedupe the introduction, add ten open QA questions, and rebuild the reference list with verified links.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Replace the freehand critical evaluation with a criterion-by-criterion conceptual evaluation of the Transformer concept against the Philosophia Conceptuum et Operis: name the precising definition, rate seventeen criteria, and record that attention is a weighted read keeping every position — the inverse of the psychological sense of selective exclusion.",
+        "commit": "ff25e60f3830c76b1ef1ad13df4f387fd81886ff",
+        "before": "30b871de6a4567becdc363d54bd0eb690f777f4e"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "style",
+        "summary": "Lead the conceptual evaluation with its verdicts and leave the criteria table to support them.",
+        "commit": "4813d95b4b3a22c58ae7f55531fb912d95df3a6f",
+        "before": "663435424ec1caa1ff201c9135ca1f72667be4a4"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/transformer/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/variational-autoencoder-vae.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variational Autoencoder (VAE) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/architecture/word2vec.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Word2Vec from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/architecture/."
+      }
+    ]
+  },
+  {
     "file_path": "technica/ais/evaluation.md",
     "logs": [
       {
@@ -8915,6 +10021,633 @@
     ]
   },
   {
+    "file_path": "technica/ais/inference/dual-chunk-attention-dca.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/inference.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Inference index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/moe.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "docs",
+        "summary": "Rename the note to moe.md; add the deduped MoE reading list and the open QA questions.",
+        "commit": "1ce2c130cdd1d8f67907bff3033d867296b05caa"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/multi-level-attention-mla.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/multi-tensor-processing-mtp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/performace.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/quantization.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/temperature.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/inference/test-time-compute-ttc.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/inference/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/constituency-parsing.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/dependency-parsing.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/document-classification.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/language.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Language index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/n-gram.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Rename n-grams.md to n-gram.md in ais/system/.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/named-entity-recognition-ner.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/natural-language-processing-nlp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/natural-language-toolkit-nltk.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/paraphrase-detection.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/parts-of-speech-pos-tags.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/spacy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/term-frequency-inverse-document-frequency-tf-idf.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/language/topic-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/classification.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classification from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/clustering-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Clustering Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/conditional-random-fields-crfs.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conditional Random Fields (CRFs) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/decision-tree.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decision Tree from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/ensemble-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational ensemble-method note into this one; bring over its goals, taxonomy, tags, and references.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/latent-dirichlet-allocation-lda.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Latent Dirichlet Allocation (LDA) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/learning-method.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Learning Method index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/naive-bayes-classifier.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Naive Bayes Classifier from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/random-forest.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Forest from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/learning-method/support-vector-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Support Vector Machine from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/."
+      }
+    ]
+  },
+  {
     "file_path": "technica/ais/operation.md",
     "logs": [
       {
@@ -8922,6 +10655,172 @@
         "kind": "feat",
         "summary": "Import Operation from the Machine Active Inference Notion export.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/code-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/full-text-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/haystack.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/knowledge-graph.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/langchain.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/lgm.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Rename Language Modelling (LM) to Language Generative Model (LGM) and rework the note with front-matter qa questions.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/retrieval-augmented-generation-rag.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/retrieval.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Retrieval index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/semantic-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/retrieval/similarity-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/."
       }
     ]
   },
@@ -8959,6 +10858,166 @@
     ]
   },
   {
+    "file_path": "technica/ais/synthesis/active-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/curriculum-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/data-augmentation.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/differentiable-computing.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/distributed-training.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/knowledge-distillation.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/reinforcement-learning-with-human-feedback-rlhf.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/synthesis.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Synthesis index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/training.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/transfer-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/."
+      }
+    ]
+  },
+  {
     "file_path": "technica/ais/system.md",
     "logs": [
       {
@@ -8970,858 +11029,18 @@
     ]
   },
   {
-    "file_path": "technica/ais/system/application/abstract-reasoning.md",
+    "file_path": "technica/ais/system/bert.md",
     "logs": [
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
+        "summary": "Move to technica/ais/system/model/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/agentic-system.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "fix",
-        "summary": "Repoint the Language Modelling link at the note's new lgm.md path.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46",
-        "before": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
       },
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/ and retarget its lgm link.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/application.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Application index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/chain-of-thought-cot.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Chain-of-thought (CoT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/dbt.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/interaction-layer.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/interoperability.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/mixed-system.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Hybrid Computational System note.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/model-context-protocol-mcp.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/optical-flow.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/recommender-system.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/system-prompt.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/virtual-assistant.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/visual-encoding.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/world-model.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Merge the observational world-model note into this one; adopt its tags and full reference list.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/application/yolo-real-time-object-detection.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Merge the observational yolo-you-only-look-once note into this one; adopt its tags and the original-paper reference.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/architecture.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Architecture index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/autoencoder.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Autoencoder from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/boltzmann-machine.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Boltzmann Machine from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/convolutional-neural-network-cnn.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Convolutional Neural Network (CNN) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/deep-belief-networks-dbn.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Deep Belief Networks (DBN) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/diffusion-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Diffusion Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/energy-based-model-ebm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Energy-Based Model (EBM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/feedforward-neural-network-fnn.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Feedforward Neural Network (FNN) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gaussian-Bernoulli Restricted Boltzmann Machines (GRBM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/generative-adversarial-network-gan.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Generative Adversarial Network (GAN) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/graph-neural-networks-gnn.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Graph Neural Networks (GNN) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/helmholtz-machine.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Helmholtz Machine from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/hierarchical-temporal-memory-htm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hierarchical Temporal Memory (HTM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/hopfield-network.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hopfield Network from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/kanerva-machine.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Kanerva Machine from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/lstm-networks.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import LSTM Networks from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/multilayer-perceptron-mlp.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multilayer Perceptron (MLP) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/neural-network-nn.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Neural Network (NN) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "fix",
-        "summary": "Repoint the Transformer link at the note's new technica/ais/system/transformer/ path.",
-        "commit": "b81739abb38b4ca9748feeb46fdb44c1cc31576e",
-        "before": "4ec40224c0c14c60d6ad382efe2ca39ff4b58e81"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/ and retarget its transformer link.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/perceptron-mccullochpitts-neuron.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Perceptron (McCulloch–Pitts Neuron) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/ and rewrite its corpus-relative links as note.html?n= targets.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/recurrent-neural-network-rnn.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Recurrent Neural Network (RNN) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/self-organizing-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Self-organizing Map from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/sequence-to-sequence-seq2seq.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Sequence to Sequence (Seq2Seq) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/transformer/attention.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "refactor",
-        "summary": "Move Attention from epistemica/observational/ into the technica ais/system/transformer/ scope.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "docs",
-        "summary": "Rework the Attention note: guiding questions moved into front-matter qa (16 TeX questions), intro restructured, Notion relation line dropped.",
-        "commit": "007b3ef23a748418d9ab314edf523d3154b0e732",
-        "before": "e56a5a16c661b1b08a50e9113779e5e03d3f04c7"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "feat",
-        "summary": "Rebuild on the technical schema: type and ambiguity answers, a 53-row two-column decomposition, a criterion-based conceptual evaluation against the Philosophia Conceptuum et Operis, a corrected variant table, and curated QA replacing the raw guiding-questions dump.",
-        "commit": "224c292c02f81daa9c034bebfea6fddcbda9d042",
-        "before": "51a6dd38c979f666e652c3f70ec79da07dddcf1f"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "style",
-        "summary": "Lead the conceptual evaluation with its verdicts and leave the criteria table to support them, matching the transformer note.",
-        "commit": "4813d95b4b3a22c58ae7f55531fb912d95df3a6f",
-        "before": "663435424ec1caa1ff201c9135ca1f72667be4a4"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "docs",
-        "summary": "Expand the reference list with the attention lineage and critique literature, and retag the note as ml/mechanism; duplicate entries collapsed and tracking parameters stripped.",
-        "commit": "13bf62c7c689eb3f6a6abe1230a419a747afc782",
-        "before": "8867dd297fd1e427e48b3e0d0b848ad0d20eea13"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/transformer/transformer-system-training.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "refactor",
-        "summary": "Move Transformer System Training into the new ais/system/transformer/ scope.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/transformer/transformer.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "refactor",
-        "summary": "Move the Transformer note from epistemica/observational/ to technica/ais/system/transformer/ and register the observational -> new-path support link in links.json.",
-        "commit": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "feat",
-        "summary": "Rewrite the characterization on the canonical two-column decomposition (125 rows), dedupe the introduction, add ten open QA questions, and rebuild the reference list with verified links.",
-        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
-        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "fix",
-        "summary": "Replace the freehand critical evaluation with a criterion-by-criterion conceptual evaluation of the Transformer concept against the Philosophia Conceptuum et Operis: name the precising definition, rate seventeen criteria, and record that attention is a weighted read keeping every position — the inverse of the psychological sense of selective exclusion.",
-        "commit": "ff25e60f3830c76b1ef1ad13df4f387fd81886ff",
-        "before": "30b871de6a4567becdc363d54bd0eb690f777f4e"
-      },
-      {
-        "date": "2026-10-23",
-        "kind": "style",
-        "summary": "Lead the conceptual evaluation with its verdicts and leave the criteria table to support them.",
-        "commit": "4813d95b4b3a22c58ae7f55531fb912d95df3a6f",
-        "before": "663435424ec1caa1ff201c9135ca1f72667be4a4"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/variational-autoencoder-vae.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Variational Autoencoder (VAE) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/architecture/word2vec.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Word2Vec from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+        "summary": "Move to technica/ais/system/ (the synthesized systems)."
       }
     ]
   },
@@ -10653,761 +11872,66 @@
     ]
   },
   {
-    "file_path": "technica/ais/system/inference/dual-chunk-attention-dca.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/inference.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Inference index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/moe.md",
-    "logs": [
-      {
-        "date": "2026-10-22",
-        "kind": "docs",
-        "summary": "Rename the note to moe.md; add the deduped MoE reading list and the open QA questions.",
-        "commit": "1ce2c130cdd1d8f67907bff3033d867296b05caa"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/multi-level-attention-mla.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/multi-tensor-processing-mtp.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/performace.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/quantization.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/temperature.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/inference/test-time-compute-ttc.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/constituency-parsing.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/dependency-parsing.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/document-classification.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/language.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Language index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/n-gram.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "refactor",
-        "summary": "Rename n-grams.md to n-gram.md in ais/system/.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/named-entity-recognition-ner.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/natural-language-processing-nlp.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/natural-language-toolkit-nltk.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/paraphrase-detection.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/parts-of-speech-pos-tags.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/spacy.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/term-frequency-inverse-document-frequency-tf-idf.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/language/topic-modelling.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/classification.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Classification from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/clustering-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Clustering Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/conditional-random-fields-crfs.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Conditional Random Fields (CRFs) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/decision-tree.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Decision Tree from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/ensemble-learning.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Merge the observational ensemble-method note into this one; bring over its goals, taxonomy, tags, and references.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/latent-dirichlet-allocation-lda.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Latent Dirichlet Allocation (LDA) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/learning-method.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Learning Method index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/naive-bayes-classifier.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Naive Bayes Classifier from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/random-forest.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Random Forest from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/learning-method/support-vector-machine.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Support Vector Machine from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/model/bert.md",
+    "file_path": "technica/ais/system/deepseek-r1.md",
     "logs": [
       {
         "date": "2026-10-24",
         "kind": "refactor",
         "summary": "Move to technica/ais/system/model/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/model/deepseek-r1.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/model/deepseek-v3.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/model/gpt2.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/model/gpt3.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/model/model.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Model index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/retrieval/code-search.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/retrieval/full-text-search.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/retrieval/haystack.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/retrieval/knowledge-graph.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/retrieval/langchain.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/retrieval/lgm.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "docs",
-        "summary": "Rename Language Modelling (LM) to Language Generative Model (LGM) and rework the note with front-matter qa questions.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
       },
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+        "summary": "Move to technica/ais/system/ (the synthesized systems)."
       }
     ]
   },
   {
-    "file_path": "technica/ais/system/retrieval/retrieval-augmented-generation-rag.md",
+    "file_path": "technica/ais/system/deepseek-v3.md",
     "logs": [
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
+        "summary": "Move to technica/ais/system/model/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/retrieval/retrieval.md",
-    "logs": [
+      },
       {
         "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Retrieval index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ (the synthesized systems)."
       }
     ]
   },
   {
-    "file_path": "technica/ais/system/retrieval/semantic-search.md",
+    "file_path": "technica/ais/system/gpt2.md",
     "logs": [
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
+        "summary": "Move to technica/ais/system/model/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/ (the synthesized systems)."
       }
     ]
   },
   {
-    "file_path": "technica/ais/system/retrieval/similarity-search.md",
+    "file_path": "technica/ais/system/gpt3.md",
     "logs": [
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
+        "summary": "Move to technica/ais/system/model/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/active-learning.md",
-    "logs": [
+      },
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/curriculum-learning.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/data-augmentation.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/differentiable-computing.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/distributed-training.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/knowledge-distillation.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/reinforcement-learning-with-human-feedback-rlhf.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/synthesis.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Synthesis index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/training.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/synthesis/transfer-learning.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+        "summary": "Move to technica/ais/system/ (the synthesized systems)."
       }
     ]
   },
@@ -11419,138 +11943,6 @@
         "kind": "refactor",
         "summary": "Move the System landing note from the ais root into ais/system/.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/jax.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/keras.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/numpy.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/ollama.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/opencv.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/openxla.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/pandas.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/scikit-learn.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/scipy.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/statsmodels.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/tensorflow.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/system/tooling/tooling.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Tooling index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11602,6 +11994,198 @@
         "kind": "feat",
         "summary": "Import Study Framework from the Machine Active Inference Notion export.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/jax.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/keras.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/numpy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/ollama.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/opencv.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/openxla.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/pandas.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/scikit-learn.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/scipy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/statsmodels.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/tensorflow.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/tooling/tooling.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Tooling index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/tooling/."
       }
     ]
   },
@@ -13526,6 +14110,11 @@
         "summary": "Retarget the model-context-protocol link to technica/ais/system/application/.",
         "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
         "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths."
       }
     ]
   },

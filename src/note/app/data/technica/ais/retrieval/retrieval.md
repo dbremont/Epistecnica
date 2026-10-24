@@ -12,4 +12,4 @@ Retrieval-augmented generation, search (semantic, similarity, full-text, code), 
 
 ## References
 
-- [System](../system.md)
+- [System](../system/system.md)

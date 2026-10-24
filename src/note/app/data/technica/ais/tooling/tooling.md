@@ -12,5 +12,5 @@ Numerical and data libraries, ML frameworks and compilers, vision libraries, and
 
 ## References
 
-- [System](../system.md)
+- [System](../system/system.md)
 - [Technica guide](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

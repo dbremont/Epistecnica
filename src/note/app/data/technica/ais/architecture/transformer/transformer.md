@@ -290,8 +290,8 @@ The guide's default for a multi-typed instance is multi-root decomposition, one 
 - [IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse](https://arxiv.org/abs/2603.12201)
 - [LLM Neuroanatomy: How I Topped the LLM Leaderboard Without Changing a Single Weight](https://dnhkng.github.io/posts/rys/)
 - [Experts Have World Models. LLMs Have Word Models.](https://www.latent.space/p/adversarial-reasoning)
-- [Attention](note.html?n=technica/ais/system/architecture/transformer/attention.md) — the mechanism this architecture is built from.
-- [Transformer System: Training](note.html?n=technica/ais/system/architecture/transformer/transformer-system-training.md) — the training half of this system.
+- [Attention](note.html?n=technica/ais/architecture/transformer/attention.md) — the mechanism this architecture is built from.
+- [Transformer System: Training](note.html?n=technica/ais/architecture/transformer/transformer-system-training.md) — the training half of this system.
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) — the schema and decomposition contract this note follows.
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) — the evaluation criteria applied above.
 
