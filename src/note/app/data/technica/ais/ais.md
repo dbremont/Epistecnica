@@ -290,7 +290,7 @@ Training
 - [System](system/system.md)
 - [Evaluation](evaluation/evaluation.md)
 - [Operation](operation.md)
-- [Robotic System](../robotic-system/robotic-system.md)
+- [Robotic System](../robotics/robotic-system.md)
 - [LLM System Modelling](llm-system-modelling.md)
 - [ ]  https://github.com/Tencent/AngelSpec
 - [ ]  https://kvcache-ai.github.io/AgentENV/  (Virtulization - Hardware Sharing) - Firecracker vs Docker.

@@ -10,7 +10,17 @@
 
 Training, distributed training, data and curricula shaping, transfer, distillation, and human-feedback adaptation.
 
+- Learning System
+- Activiity
+- Training Goal
+- Training
+- Training Environment
+	- Static: Data: Gathering & Preparation.
+	- Online
+- ...
+
 ## References
 
 - [System](../system/system.md)
 - [Technica guide](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
+

@@ -164,6 +164,11 @@
         "kind": "feat",
         "summary": "Import topics from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "chore",
+        "summary": "Delete the complexity-science topics note."
       }
     ]
   },
@@ -8802,6 +8807,11 @@
         "summary": "Restructure the AIS landing note (front-matter qa, Formulation section, cleaned checklist) and repoint the System/Evaluation/Robotic System links at their new paths.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46",
         "before": "b81739abb38b4ca9748feeb46fdb44c1cc31576e"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Follow the robotic-system branch rename to technica/robotics/."
       }
     ]
   },
@@ -11312,6 +11322,11 @@
         "kind": "refactor",
         "summary": "Move to technica/ais/synthesis/.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the training decomposition outline to the synthesis landing note."
       }
     ]
   },
@@ -33104,35 +33119,50 @@
     ]
   },
   {
-    "file_path": "technica/robotic-system/automatum-conceptual-model/computer-numerical-control-cnc.md",
+    "file_path": "technica/robotics/automatum-conceptual-model/computer-numerical-control-cnc.md",
     "logs": [
       {
         "date": "2026-10-23",
         "kind": "refactor",
         "summary": "Move the CNC note with the robotic-system promotion out of technica/ais/.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/robotics/."
       }
     ]
   },
   {
-    "file_path": "technica/robotic-system/automatum-conceptual-model/topic.md",
+    "file_path": "technica/robotics/automatum-conceptual-model/topic.md",
     "logs": [
       {
         "date": "2026-10-23",
         "kind": "refactor",
         "summary": "Move the Automatum topic note with the robotic-system promotion out of technica/ais/.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/robotics/."
       }
     ]
   },
   {
-    "file_path": "technica/robotic-system/robotic-system.md",
+    "file_path": "technica/robotics/robotic-system.md",
     "logs": [
       {
         "date": "2026-10-23",
         "kind": "refactor",
         "summary": "Move the Robotic System landing note out of technica/ais/ to the technica/robotic-system/ scope.",
         "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/robotics/."
       }
     ]
   }
