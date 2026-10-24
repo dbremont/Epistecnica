@@ -31387,7 +31387,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -31438,7 +31440,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -31483,7 +31487,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -31506,7 +31512,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -31562,7 +31570,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -31591,7 +31601,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -31713,7 +31725,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -32682,7 +32696,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Migrate the decomposition table to the canonical two-column form."
+        "summary": "Migrate the decomposition table to the canonical two-column form.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
@@ -33081,7 +33097,9 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "State the canonical two-column table form in the forest contract."
+        "summary": "State the canonical two-column table form in the forest contract.",
+        "commit": "7267021de9458ec7747e718daff0127813e7714b",
+        "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
       }
     ]
   },
