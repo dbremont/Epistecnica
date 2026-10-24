@@ -72,6 +72,18 @@ frontend-facing surface in the deployment; there is no database behind it
 - Frontend pages fetch **relatively** (`api/…`, `data/…`) — that is what makes
   prefix mounting work without touching the huge HTML files. Keep it that way:
   never introduce absolute `/api/...` or `/data/...` paths in page code.
+- **Catalogs and viewers render data, never literals.** The notes, courses, and
+  documents catalogs and the shared viewer are generic renderers over the
+  generated indexes (`data/index.json`, `data/links.json`, the search snapshot)
+  and the corpus files those name. Never hardcode a corpus entry, section
+  name, directory, note title, or href to a corpus artifact in page code — no
+  promoted cards, no `state.dir === '<name>'` special cases, no literal
+  `data/<corpus>/…` links. To surface something, put it in the data (the
+  indexer, `links.json`) or write it in the docs/hub surface; when a rendered
+  card looks wrong, fix the data, not the viewer. `bin/check_catalog_literals.py`
+  (part of `make check`) enforces this on the three catalog pages. Page chrome
+  (nav labels, links to other app surfaces) and the hub's curated entry links
+  are not corpus listings and stay allowed.
 - Corpus **images** live in `src/app/assets/` (served at `/assets/…`), never
   beside the notes. Reference them page-root-relative as
   `../assets/<corpus>/<path>` — the viewer shells sit at `/note/note.html`,
@@ -317,8 +329,9 @@ python3 bin/serve.py            # same server directly on :8000
 Verification (no test suite exists; `make check` covers the first):
 
 - `python3 -m py_compile bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py`
+- Catalog literals: `bin/check_catalog_literals.py` fails when a catalog page hardcodes a corpus entry, a directory special case, or a `data/<corpus>/…` href (part of `make check`)
 - REES tree: `make rees-check` (validates `src/note/app/data/epistemica/rees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
-- Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the decomposition tables of the technica corpus — four-column and `→` two-column tables, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram) + card in `:8000/note/?dir=technica`
+- Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the decomposition tables of the technica corpus — four-column and `→` two-column tables, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
 - Universal search: `make search-index` (build-time snapshot → committed `src/app/data/search-index.json`, corpus-only) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → committed `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`

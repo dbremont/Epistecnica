@@ -970,23 +970,6 @@
             return subs.map(function (s) { return dirCard(s, q); }).join('');
         }
 
-        /* Atlas card: the Technical Element Forest surfaces as a card in
-           the technica section's browse view, linking the static atlas
-           page (the viewer over the corpus decomposition store). */
-        var ICON_ATLAS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v4M5 17v-3h14v3"/></svg>';
-
-        function atlasCard() {
-            return '<div class="card card-dir">' +
-                '<a class="card-link" href="data/technica/meta/atlas.html">' +
-                '<div class="card-thumb">' + ICON_ATLAS + '</div>' +
-                '<div class="card-body">' +
-                '<div class="card-name">Technical Element Forest</div>' +
-                '<div class="card-sub">technica/meta/atlas.html</div>' +
-                '<div class="card-meta"><span class="card-kind">atlas</span>' +
-                '<span class="card-sub">the corpus as a typed forest</span></div>' +
-                '</div></a></div>';
-        }
-
         function fileCards(list) {
             var q = state.q.trim().toLowerCase();
             var start = (state.page - 1) * state.pageSize;
@@ -1176,11 +1159,10 @@
             if (state.page > totalPages) state.page = totalPages;
             if (state.page < 1) state.page = 1;
             var linkedHtml = linkedGroup();
-            var atlasHtml = (state.view === 'browse' && state.dir === 'technica' && !state.q.trim()) ? atlasCard() : '';
-            resultsEl.innerHTML = atlasHtml + (state.view === 'browse' ? dirCards(subs) : '') + fileCards(list) + linkedHtml;
+            resultsEl.innerHTML = (state.view === 'browse' ? dirCards(subs) : '') + fileCards(list) + linkedHtml;
             lastTotalPages = totalPages;
             updatePager(list.length, totalPages);
-            if (!list.length && (subs.length || linkedHtml || atlasHtml)) emptyEl.hidden = true;
+            if (!list.length && (subs.length || linkedHtml)) emptyEl.hidden = true;
         }
 
         function goToPage(p) {

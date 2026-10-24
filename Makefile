@@ -33,8 +33,9 @@ help: ## list targets
 run: ## local dev server, no docker (port DEV_PORT, default 8010)
 	python3 bin/serve.py --port $(DEV_PORT)
 
-check: ## py_compile all servers + index builders + validate the REES tree + technica atlas
+check: ## py_compile all servers + index builders + validate the REES tree + technica atlas + catalog literals
 	python3 -m py_compile bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py
+	python3 bin/check_catalog_literals.py
 	python3 src/note/bin/rees_check.py
 	python3 src/note/bin/atlas_check.py
 
