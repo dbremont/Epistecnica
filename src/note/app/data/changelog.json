@@ -8836,6 +8836,11 @@
         "kind": "refactor",
         "summary": "Move to technica/ais/application/.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the retrieval/lgm link to technica/ais/domain/retrieval/."
       }
     ]
   },
@@ -9913,6 +9918,534 @@
     ]
   },
   {
+    "file_path": "technica/ais/domain/domain.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Domain index note grouping the AIS problem domains (language, retrieval)."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/constituency-parsing.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/dependency-parsing.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/document-classification.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/language.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Language index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/n-gram.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "refactor",
+        "summary": "Rename n-grams.md to n-gram.md in ais/system/.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/named-entity-recognition-ner.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/natural-language-processing-nlp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/natural-language-toolkit-nltk.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/paraphrase-detection.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/parts-of-speech-pos-tags.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/spacy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/term-frequency-inverse-document-frequency-tf-idf.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/language/topic-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/language/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/language/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/code-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/full-text-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/haystack.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/knowledge-graph.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/langchain.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/lgm.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Rename Language Modelling (LM) to Language Generative Model (LGM) and rework the note with front-matter qa questions.",
+        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/retrieval-augmented-generation-rag.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/retrieval.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Retrieval index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/semantic-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/domain/retrieval/similarity-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/retrieval/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/domain/retrieval/."
+      }
+    ]
+  },
+  {
     "file_path": "technica/ais/evaluation.md",
     "logs": [
       {
@@ -10237,233 +10770,6 @@
     ]
   },
   {
-    "file_path": "technica/ais/language/constituency-parsing.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/dependency-parsing.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/document-classification.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/language.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Language index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/n-gram.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "refactor",
-        "summary": "Rename n-grams.md to n-gram.md in ais/system/.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/named-entity-recognition-ner.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/natural-language-processing-nlp.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/natural-language-toolkit-nltk.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/paraphrase-detection.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/parts-of-speech-pos-tags.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/spacy.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/term-frequency-inverse-document-frequency-tf-idf.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/language/topic-modelling.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/language/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
     "file_path": "technica/ais/learning-method/classification.md",
     "logs": [
       {
@@ -10744,182 +11050,6 @@
         "kind": "feat",
         "summary": "Import Operation from the Machine Active Inference Notion export.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/code-search.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/full-text-search.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/haystack.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/knowledge-graph.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/langchain.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/lgm.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "docs",
-        "summary": "Rename Language Modelling (LM) to Language Generative Model (LGM) and rework the note with front-matter qa questions.",
-        "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/retrieval-augmented-generation-rag.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/retrieval.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Retrieval index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/semantic-search.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/retrieval/similarity-search.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/retrieval/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
       }
     ]
   },
