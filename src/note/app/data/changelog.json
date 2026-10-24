@@ -607,7 +607,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the gnn link to technica/ais/system/architecture/."
+        "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
@@ -828,7 +830,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the gnn link to technica/ais/system/architecture/."
+        "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
@@ -1238,7 +1242,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the boltzmann-machine link to technica/ais/system/architecture/."
+        "summary": "Retarget the boltzmann-machine link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
@@ -3574,7 +3580,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the neural-network link to technica/ais/system/architecture/."
+        "summary": "Retarget the neural-network link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
@@ -5988,7 +5996,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the chain-of-thought link to technica/ais/system/application/."
+        "summary": "Retarget the chain-of-thought link to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
@@ -6151,7 +6161,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the decision-tree link to technica/ais/system/learning-method/."
+        "summary": "Retarget the decision-tree link to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
@@ -8245,7 +8257,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the variational-autoencoder links to technica/ais/system/architecture/."
+        "summary": "Retarget the variational-autoencoder links to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
@@ -8752,7 +8766,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/evaluation/."
+        "summary": "Move to technica/ais/evaluation/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -8817,7 +8832,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/evaluation/."
+        "summary": "Move to technica/ais/evaluation/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -8959,7 +8975,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -8976,7 +8993,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/ and retarget its lgm link."
+        "summary": "Move to technica/ais/system/application/ and retarget its lgm link.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -8986,7 +9004,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Application index note grouping the system-decomposition dir."
+        "summary": "Add the Application index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9008,7 +9027,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9018,7 +9038,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9028,7 +9049,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9038,7 +9060,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9048,7 +9071,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Hybrid Computational System note."
+        "summary": "Add the Hybrid Computational System note.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9058,7 +9082,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9068,7 +9093,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9078,7 +9104,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9088,7 +9115,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9098,7 +9126,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9108,7 +9137,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9125,7 +9155,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9142,7 +9173,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/application/."
+        "summary": "Move to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9152,7 +9184,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Architecture index note grouping the system-decomposition dir."
+        "summary": "Add the Architecture index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9174,7 +9207,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9196,7 +9230,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9218,7 +9253,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9240,7 +9276,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9262,7 +9299,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9284,7 +9322,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9306,7 +9345,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9328,7 +9368,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9350,7 +9391,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9372,7 +9414,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9394,7 +9437,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9416,7 +9460,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9438,7 +9483,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9460,7 +9506,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9482,7 +9529,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9504,7 +9552,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9533,7 +9582,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/ and retarget its transformer link."
+        "summary": "Move to technica/ais/system/architecture/ and retarget its transformer link.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9555,7 +9605,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9577,7 +9628,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9599,7 +9651,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9621,7 +9674,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9665,7 +9719,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links."
+        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9681,7 +9736,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links."
+        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9718,7 +9774,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links."
+        "summary": "Move to technica/ais/system/architecture/transformer/ and retarget its corpus links.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9740,7 +9797,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -9762,7 +9820,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/architecture/."
+        "summary": "Move to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10599,7 +10658,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10609,7 +10669,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Inference index note grouping the system-decomposition dir."
+        "summary": "Add the Inference index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10625,7 +10686,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10635,7 +10697,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10645,7 +10708,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10655,7 +10719,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10665,7 +10730,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10675,7 +10741,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10685,7 +10752,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/inference/."
+        "summary": "Move to technica/ais/system/inference/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10695,7 +10763,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10705,7 +10774,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10715,7 +10785,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10725,7 +10796,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Language index note grouping the system-decomposition dir."
+        "summary": "Add the Language index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10741,7 +10813,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10751,7 +10824,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10761,7 +10835,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10771,7 +10846,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10781,7 +10857,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10791,7 +10868,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10801,7 +10879,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10811,7 +10890,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10821,7 +10901,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/language/."
+        "summary": "Move to technica/ais/system/language/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10843,7 +10924,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10865,7 +10947,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10887,7 +10970,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10909,7 +10993,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10926,7 +11011,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10948,7 +11034,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10958,7 +11045,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Learning Method index note grouping the system-decomposition dir."
+        "summary": "Add the Learning Method index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -10980,7 +11068,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11002,7 +11091,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11024,7 +11114,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/."
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11034,7 +11125,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/."
+        "summary": "Move to technica/ais/system/model/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11044,7 +11136,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/."
+        "summary": "Move to technica/ais/system/model/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11054,7 +11147,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/."
+        "summary": "Move to technica/ais/system/model/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11064,7 +11158,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/."
+        "summary": "Move to technica/ais/system/model/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11074,7 +11169,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/model/."
+        "summary": "Move to technica/ais/system/model/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11084,7 +11180,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Model index note grouping the system-decomposition dir."
+        "summary": "Add the Model index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11094,7 +11191,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11104,7 +11202,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11114,7 +11213,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11124,7 +11224,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11134,7 +11235,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11150,7 +11252,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11160,7 +11263,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11170,7 +11274,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Retrieval index note grouping the system-decomposition dir."
+        "summary": "Add the Retrieval index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11180,7 +11285,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11190,7 +11296,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/retrieval/."
+        "summary": "Move to technica/ais/system/retrieval/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11200,7 +11307,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11210,7 +11318,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11220,7 +11329,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11230,7 +11340,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11240,7 +11351,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11250,7 +11362,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11260,7 +11373,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11270,7 +11384,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Synthesis index note grouping the system-decomposition dir."
+        "summary": "Add the Synthesis index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11280,7 +11395,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11290,7 +11406,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/synthesis/."
+        "summary": "Move to technica/ais/system/synthesis/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11311,7 +11428,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11321,7 +11439,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11331,7 +11450,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11341,7 +11461,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11351,7 +11472,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11361,7 +11483,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11371,7 +11494,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11381,7 +11505,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11391,7 +11516,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11401,7 +11527,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11411,7 +11538,8 @@
       {
         "date": "2026-10-24",
         "kind": "refactor",
-        "summary": "Move to technica/ais/system/tooling/."
+        "summary": "Move to technica/ais/system/tooling/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -11421,7 +11549,8 @@
       {
         "date": "2026-10-24",
         "kind": "feat",
-        "summary": "Add the Tooling index note grouping the system-decomposition dir."
+        "summary": "Add the Tooling index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
       }
     ]
   },
@@ -13394,7 +13523,9 @@
       {
         "date": "2026-10-24",
         "kind": "fix",
-        "summary": "Retarget the model-context-protocol link to technica/ais/system/application/."
+        "summary": "Retarget the model-context-protocol link to technica/ais/system/application/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
       }
     ]
   },
