@@ -14,8 +14,8 @@ The forest applies that grammar to this corpus: the directory tree of
 layout *is* the decomposition.
 
 The **complete decomposition** lives in the **[Technica
-atlas](data/technica/atlas/atlas.html)** — the viewer over the tree store
-[`atlas.json`](data/technica/atlas/atlas.json). This note states the
+atlas](data/technica/meta/atlas.html)** — the viewer over the tree store
+[`atlas.json`](data/technica/meta/atlas.json). This note states the
 contract; the atlas carries the full, ever-expanding forest with outline,
 card, and node-inspector views.
 
@@ -69,8 +69,8 @@ whole corpus inventory. Two recurring branch ambiguities are worth stating:
 > The table below is the **backbone**: the forest root and its six section
 > branches. The **complete, ever-expanding decomposition** — every branch
 > grown to its leaf notes — is not held in this note: it is the tree store
-> [`atlas.json`](data/technica/atlas/atlas.json), rendered by the
-> **[Technica atlas](data/technica/atlas/atlas.html)**. Read the note for
+> [`atlas.json`](data/technica/meta/atlas.json), rendered by the
+> **[Technica atlas](data/technica/meta/atlas.html)**. Read the note for
 > the contract; open the atlas for the full tree and its views.
 
 | Instance Tree Path | Description |
@@ -105,7 +105,7 @@ whole corpus inventory. Two recurring branch ambiguities are worth stating:
 > element must also add it to the forest.
 
 - Every new instance in a decomposition tree of a technical element must
-  also be present in [`atlas.json`](data/technica/atlas/atlas.json) —
+  also be present in [`atlas.json`](data/technica/meta/atlas.json) —
   regenerate the store after any corpus edit under
   `src/note/app/data/technica/` with `make atlas-index`.
 - `make atlas-check` (part of `make check`) validates the store: unique
@@ -119,13 +119,13 @@ whole corpus inventory. Two recurring branch ambiguities are worth stating:
 > The forest is the index; the atlas is its viewer; the notes are its
 > instances.
 
-- **The full tree** — the [Technica atlas](data/technica/atlas/atlas.html) renders the complete, ever-expanding decomposition from the tree store [atlas.json](data/technica/atlas/atlas.json): outline, branch cards, an element search, and a node inspector.
+- **The full tree** — the [Technica atlas](data/technica/meta/atlas.html) renders the complete, ever-expanding decomposition from the tree store [atlas.json](data/technica/meta/atlas.json): outline, branch cards, an element search, and a node inspector.
 - **Guide** — [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (schema owner).
 - **Epistemic complement** — [REES](note.html?n=epistemica/rees.md) and its [atlas](data/epistemica/rees.html): the same grammar applied to the epistemic corpus.
 - **Catalog** — [technica](index.html?dir=technica) in the notes catalog browses the corpus the forest indexes.
 
 ## References
 
-- [Technica atlas](data/technica/atlas/atlas.html) — the complete, ever-expanding decomposition (views over [atlas.json](data/technica/atlas/atlas.json))
+- [Technica atlas](data/technica/meta/atlas.html) — the complete, ever-expanding decomposition (views over [atlas.json](data/technica/meta/atlas.json))
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [REES](note.html?n=epistemica/rees.md) — the epistemic-element atlas this one mirrors

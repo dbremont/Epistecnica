@@ -53,7 +53,7 @@ rees-check: ## validate the REES tree store (src/note/app/data/epistemica/rees.j
 atlas-index: ## rebuild the technica atlas store (after any technica corpus change)
 	python3 src/note/bin/build_technica_atlas.py
 
-atlas-check: ## validate the technica atlas store (src/note/app/data/technica/atlas/atlas.json)
+atlas-check: ## validate the technica atlas store (src/note/app/data/technica/meta/atlas.json)
 	python3 src/note/bin/atlas_check.py
 
 search-index: ## build the universal search snapshot (before build/deploy)

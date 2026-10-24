@@ -12539,17 +12539,6 @@
     ]
   },
   {
-    "file_path": "technica/atlas/atlas.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Technical Element Forest note: companion contract of the technica atlas (generated store, sync rule, backbone).",
-        "commit": "8a895b96798ee72c1c48faeb5e64e19787b530f9"
-      }
-    ]
-  },
-  {
     "file_path": "technica/computation/algorithm.md",
     "logs": [
       {
@@ -30688,6 +30677,22 @@
         "summary": "Retype the four mis-typed rows (launch configurations, operation definition, CLI and command interfaces) and retire Technical Domain.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/meta/atlas.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Technical Element Forest note: companion contract of the technica atlas (generated store, sync rule, backbone).",
+        "commit": "8a895b96798ee72c1c48faeb5e64e19787b530f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move the Technical Element Forest note to technica/meta/."
       }
     ]
   },

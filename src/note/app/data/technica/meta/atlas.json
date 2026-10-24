@@ -4,7 +4,7 @@
  "generated": "2026-10-24",
  "source": "generated from the technica corpus directory tree (src/note/app/data/technica)",
  "guide": "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md",
- "note": "technica/atlas/atlas.md",
+ "note": "technica/meta/atlas.md",
  "stats": {
   "nodes": 2072,
   "groupings": 132,

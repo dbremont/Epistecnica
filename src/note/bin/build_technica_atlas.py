@@ -2,8 +2,8 @@
 """Build the technica atlas store: the Technical Element Forest.
 
 Walks src/note/app/data/technica/ and renders its directory decomposition
-plus every corpus note into a forest store (data/technica/atlas/atlas.json),
-the store the atlas page (data/technica/atlas/atlas.html) renders.
+plus every corpus note into a forest store (data/technica/meta/atlas.json),
+the store the atlas page (data/technica/meta/atlas.html) renders.
 
 Node model (REEs-compatible, see epistemica/rees.json):
   root      - the section itself, typed Technical Element Set
@@ -25,7 +25,7 @@ REPO = Path(__file__).resolve().parents[3]
 DATA = REPO / 'src' / 'note' / 'app' / 'data'
 TECH = DATA / 'technica'
 INDEX = DATA / 'index.json'
-OUT = TECH / 'atlas' / 'atlas.json'
+OUT = TECH / 'meta' / 'atlas.json'
 
 GUIDE = ('https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/'
          'main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md')
@@ -216,7 +216,7 @@ def main():
         'source': 'generated from the technica corpus directory tree '
                   '(src/note/app/data/technica)',
         'guide': GUIDE,
-        'note': 'technica/atlas/atlas.md',
+        'note': 'technica/meta/atlas.md',
         'stats': {**stats, 'branches': branches},
         'roots': [root],
     }

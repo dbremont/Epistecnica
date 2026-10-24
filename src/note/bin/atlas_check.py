@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the technica atlas store (data/technica/atlas/atlas.json).
+"""Validate the technica atlas store (data/technica/meta/atlas.json).
 
 Checks: header fields; node schema (label/kind); grouping types non-empty;
 sibling labels unique; instances leaf-only with an existing corpus path
@@ -14,7 +14,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
 DATA = REPO / 'src' / 'note' / 'app' / 'data'
-STORE = DATA / 'technica' / 'atlas' / 'atlas.json'
+STORE = DATA / 'technica' / 'meta' / 'atlas.json'
 
 KINDS = {'root', 'grouping', 'instance'}
 HEADER = ('title', 'generated', 'source', 'guide', 'note', 'stats', 'roots')
