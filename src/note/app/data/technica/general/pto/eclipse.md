@@ -42,67 +42,109 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 >
 > Verbs: a team *provisions* a distribution; the runtime *claims* and wires bundles; a plugin *extends* an extension point; the workbench *realizes* perspectives; JDT *embodies* the incremental-build technique.
 
-| Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
-|---|---|---|---|
-| **Eclipse** | Running Eclipse IDE product instance: distribution plus OSGi runtime, workbench, JDT, PDE, and RCP hosting. | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Eclipse > Coherence (everything is a plugin) | Organizing structure: platform, IDE tooling, and user-built apps are all plugins/bundles composed through the extension registry. | System Structure | `(root) > Technical Element Set > Technical Architecture` |
-| Eclipse > Realized capability | Capability realized: edit, build, debug, and extend Java (and other-language) software from one workbench; host standalone RCP applications. | Mechanism & Capability | `(root) > Technical Element Set > Technical Capability` |
-| Eclipse > Governance (Eclipse Foundation) | Eclipse Foundation stewardship; Eclipse Public License; plugin contribution process. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Institution` |
-| Eclipse > Distribution | Installed IDE distribution from which the runtime is provisioned (exemplar: a 4.x release stream). | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object` |
-| Eclipse > Distribution > `eclipse.ini` | JVM selection, heap, and system-property launch configuration (exemplar values per install). | Requirements & Definition | `(root) > Technical Element Set > Technical Configuration` |
-| Eclipse > Distribution > `plugins/` | Installed bundle artifact pool. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Distribution > `features/` | Grouped installable feature definitions (p2 provisioning). | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Distribution > `configuration/` | Install configuration state and profile data. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Distribution > Workspace | User working area holding projects, settings, and history (exemplar path per user). | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Distribution > Workspace > `.metadata/` | Workbench state, preferences, and plugin runtime data. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Distribution > JVM requirement | A Java VM is required to run the platform (exemplar: a Java 17/21 runtime). | System Relations | `(root) > Technical Element Set > Technical Dependency` |
-| Eclipse > Runtime | Executing Eclipse runtime: JVM process hosting the OSGi framework and the workbench. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Runtime > JVM process | Operating-system process containing the runtime. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Runtime > Equinox OSGi | OSGi framework implementation hosting bundles and services. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Eclipse > Runtime > Bundle (plugin) | Modular unit of functionality: JAR plus manifest describing itself, its dependencies, and how it can be utilized or extended (manifest data formerly stored in `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` at the plugin root). | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Runtime > Bundle > Manifest plus `plugin.xml` | Self-description: identity, `require`d dependencies, utilizable and extensible contributions. | Requirements & Definition | `(root) > Technical Element Set > Technical Specification` |
-| Eclipse > Runtime > Bundle > Per-bundle classloader | Each plugin loads through its own classloader. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Eclipse > Runtime > Bundle dependency | `(root) > Technical Element Set > Technical Dependency` statements expressing plugin-to-plugin dependencies. | System Relations | `(root) > Technical Element Set > Technical Dependency` |
-| Eclipse > Runtime > Extension registry | Runtime mechanism matching extensions to extension points. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Eclipse > Runtime > Extension point | Declared point at which a plugin can be extended (editors, views, builders). | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Eclipse > Runtime > Extension | Contribution plugged into an extension point by some plugin. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Runtime > Non-code contributions | HTML help and documentation resources shipped inside plugins. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Specification` |
-| Eclipse > Workbench | Familiar desktop UI shell organizing perspectives, views, and editors. | System Structure | `(root) > Technical Element Set > Technical Architecture` |
-| Eclipse > Workbench > Perspective | Organized arrangement of editors and views presenting tooling for a task. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Eclipse > Workbench > View | Auxiliary pane; exemplar: the Problems view listing errors and warnings in Java code. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Workbench > Editor | File-type-bound editing surface; the correct editor launches when a file opens. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Eclipse > Workbench > Problems view | Feedback surface listing compilation errors and warnings. | Technical Control | `(root) > Technical Element Set > Technical Feedback` |
-| Eclipse > Runtime > SWT | Standard Widget Toolkit: native-widget UI toolkit using operating-system calls for lists, buttons, and events. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Eclipse > Runtime > SWT > Native binding (GTK and WebKit) | Operating-system widget calls underneath SWT; source of platform quirks (exemplar workaround: `(root) > Technical Element Set > Technical Dependency`, see SWT issue 1108). | System Relations | `(root) > Technical Element Set > Technical Dependency` |
-| Eclipse > Runtime > JFace | UI layer above SWT: viewers, actions, and dialogs. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > JDT | Java Development Tools subsystem: editors, wizards, refactoring support, debugger, compiler, and incremental builder. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > JDT > ECJ compiler | Own Java compiler from the VisualAge Micro Edition contribution, enabling tooling and compiler extension points a third-party command-line compiler could not offer. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Eclipse > JDT > Incremental builder | Rebuilds only changed code on save; separable as its own technique (take the Java Incremental Builder out of Eclipse). | Technique | `(root) > Technical Element Set > Technical Practice > Technical Task > General Technique > Operative Technique > Constitutive Technique` |
-| Eclipse > JDT > Refactoring support | Automated code-restructuring tooling over the compiler model. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Eclipse > JDT > Java debugger | Debug engine plus source lookup for stepping through project and dependency code. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > PDE | Plug-in Development Environment: tooling to develop, build, deploy, and test plugins and other artifacts extending Eclipse. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > PDE > PDE Build | Dependency-driven generation of Ant scripts constructing the build artifacts. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Eclipse > Help subsystem | Online help content, indexed and searched with Apache Lucene. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Eclipse > Maven integration (m2e) | Bridge resolving Maven dependencies into the workspace build path. | System Relations | `(root) > Technical Element Set > Technical Interaction` |
-| Eclipse > Maven integration > `mvn eclipse:eclipse` | Generates Eclipse project metadata from a Maven project (exemplar command; `mvn eclipse:clean` reverts it). | Technique | `(root) > Technical Element Set > Technical Practice > Technical Task > General Technique` |
-| Eclipse > Maven integration > `mvn dependency:sources` | Fetches dependency sources for debugger attachment (exemplar command). | Technique | `(root) > Technical Element Set > Technical Practice > Technical Task > General Technique` |
-| Eclipse > Configuration > Runtime CLI options | Documented runtime command-line arguments (see Eclipse help runtime-options reference). | Requirements & Definition | `(root) > Technical Element Set > Technical Configuration` |
-| Eclipse > Configuration > Run and Debug configuration | Named launch definition: main type, classpath, arguments, JRE (exemplar per project). | Requirements & Definition | `(root) > Technical Element Set > Technical Configuration` |
-| Eclipse > Configuration > Source attachment | Project-source versus debugging-source settings; manual attachment when automatic resolution fails. | Requirements & Definition | `(root) > Technical Element Set > Technical Configuration` |
-| Eclipse > Configuration > Certificates | JVM trust-store setup for Eclipse and Maven HTTPS access (exemplar per install). | Technical Control | `(root) > Technical Element Set > Technical Security` |
-| Eclipse > Configuration > Profile | Named list of UIs in an installation. | Requirements & Definition | `(root) > Technical Element Set > Technical Parameter` |
-| Eclipse > Debug-source practice | Repeatable pattern: take the root Maven project, run `(root) > Technical Element Set > Technical Practice` plus `mvn dependency:sources`, else attach sources manually (exemplar frame: `AbstractSharedSessionContract.checkOpenOrWaitingForAutoClose`). | Technique | `(root) > Technical Element Set > Technical Practice` |
-| Eclipse > Plugin-install practice | Repeatable pattern: install plugins into the distribution through provisioning. | Technique | `(root) > Technical Element Set > Technical Practice` |
-| Eclipse > RCP practice | Repeatable pattern: build standalone applications on the Eclipse platform. | Technique | `(root) > Technical Element Set > Technical Practice` |
-| Eclipse > RCP practice > Mars Rover monitoring (NASA and JPL) | Exemplar RCP application monitoring rover robots. | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Eclipse > RCP practice > Bioclipse | Exemplar RCP application for bioinformatics data visualization. | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Eclipse > RCP practice > Dutch Railway monitoring | Exemplar RCP application monitoring train performance. | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Eclipse > Evaluation | Grouping: evaluation surface of the installation. | Technical Control | `(root) > Technical Element Set > Technical Evaluation` |
-| Eclipse > Evaluation > Compiler verification | Compiler and problem markers verifying code against the language specification. | Technical Control | `(root) > Technical Element Set > Verification` |
-| Eclipse > Evaluation > Launch validation | Running and debugging validating the artifact against its intended purpose. | Technical Control | `(root) > Technical Element Set > Validation` |
-| Eclipse > Failure > Source-not-found | Debugger reaching bytecode without attached sources. | Technical Control | `(root) > Technical Element Set > Technical Failure` |
-| Eclipse > Evolution plugins-to-bundles | Historical line: `(root) > Technical Element Set > Technical Evolution` plugins become OSGi bundles with manifest metadata under Equinox. | Lifecycle & Continuity | `(root) > Technical Element Set > Technical Evolution` |
-| Eclipse > Maintenance (p2 updates) | Patching and upgrading the installation while preserving workspace state. | Lifecycle & Continuity | `(root) > Technical Element Set > Technical Maintenance` |
+| Instance Tree Path | Description |
+| --- | --- |
+| `Production Technical System` → Eclipse | Running Eclipse IDE product instance: distribution plus OSGi runtime, workbench, JDT, PDE, and RCP hosting. |
+| `Production Technical System` → Eclipse → `Technical Architecture` | Grouping: Technical Architecture elements. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Coherence (everything is a plugin) | Organizing structure: platform, IDE tooling, and user-built apps are all plugins/bundles composed through the extension registry. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench | Familiar desktop UI shell organizing perspectives, views, and editors. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench → `Technical Interface` | Grouping: Technical Interface elements. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench → `Technical Interface` → Perspective | Organized arrangement of editors and views presenting tooling for a task. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench → `Technical Interface` → Editor | File-type-bound editing surface; the correct editor launches when a file opens. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench → `Constitutive Technical Object` | Grouping: Constitutive Technical Object elements. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench → `Constitutive Technical Object` → View | Auxiliary pane; exemplar: the Problems view listing errors and warnings in Java code. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench → `Technical Feedback` | Grouping: Technical Feedback elements. |
+| `Production Technical System` → Eclipse → `Technical Architecture` → Workbench → `Technical Feedback` → Problems view | Feedback surface listing compilation errors and warnings. |
+| `Production Technical System` → Eclipse → `Technical Capability` | Grouping: Technical Capability elements. |
+| `Production Technical System` → Eclipse → `Technical Capability` → Realized capability | Capability realized: edit, build, debug, and extend Java (and other-language) software from one workbench; host standalone RCP applications. |
+| `Production Technical System` → Eclipse → `Technical Institution` | Grouping: Technical Institution elements. |
+| `Production Technical System` → Eclipse → `Technical Institution` → Governance (Eclipse Foundation) | Eclipse Foundation stewardship; Eclipse Public License; plugin contribution process. |
+| `Production Technical System` → Eclipse → `Production Technical Object` | Grouping: Production Technical Object elements. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution | Installed IDE distribution from which the runtime is provisioned (exemplar: a 4.x release stream). |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Technical Configuration` | Grouping: Technical Configuration elements. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Technical Configuration` → eclipse.ini | JVM selection, heap, and system-property launch configuration (exemplar values per install). |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Constitutive Technical Object` | Grouping: Constitutive Technical Object elements. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Constitutive Technical Object` → plugins/ | Installed bundle artifact pool. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Constitutive Technical Object` → features/ | Grouped installable feature definitions (p2 provisioning). |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Constitutive Technical Object` → configuration/ | Install configuration state and profile data. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Constitutive Technical Object` → Workspace | User working area holding projects, settings, and history (exemplar path per user). |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Constitutive Technical Object` → Workspace → `Constitutive Technical Object` | Grouping: Constitutive Technical Object elements. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Constitutive Technical Object` → Workspace → `Constitutive Technical Object` → .metadata/ | Workbench state, preferences, and plugin runtime data. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Technical Dependency` | Grouping: Technical Dependency elements. |
+| `Production Technical System` → Eclipse → `Production Technical Object` → Distribution → `Technical Dependency` → JVM requirement | A Java VM is required to run the platform (exemplar: a Java 17/21 runtime). |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` | Grouping: Constitutive Technical Object elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime | Executing Eclipse runtime: JVM process hosting the OSGi framework and the workbench. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` | Grouping: Constitutive Technical Object elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → JVM process | Operating-system process containing the runtime. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → Bundle (plugin) | Modular unit of functionality: JAR plus manifest describing itself, its dependencies, and how it can be utilized or extended (manifest data formerly stored in `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` at the plugin root). |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → Bundle |  |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → Bundle → `Technical Specification` | Grouping: Technical Specification elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → Bundle → `Technical Specification` → Manifest plus plugin.xml | Self-description: identity, `require`d dependencies, utilizable and extensible contributions. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → Bundle → `Technical Mechanism` | Grouping: Technical Mechanism elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → Bundle → `Technical Mechanism` → Per-bundle classloader | Each plugin loads through its own classloader. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → Extension | Contribution plugged into an extension point by some plugin. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Constitutive Technical Object` → JFace | UI layer above SWT: viewers, actions, and dialogs. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Mechanism` | Grouping: Technical Mechanism elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Mechanism` → Equinox OSGi | OSGi framework implementation hosting bundles and services. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Mechanism` → Extension registry | Runtime mechanism matching extensions to extension points. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Mechanism` → SWT | Standard Widget Toolkit: native-widget UI toolkit using operating-system calls for lists, buttons, and events. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Mechanism` → SWT → `Technical Dependency` | Grouping: Technical Dependency elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Mechanism` → SWT → `Technical Dependency` → Native binding (GTK and WebKit) | Operating-system widget calls underneath SWT; source of platform quirks (exemplar workaround: `(root) > Technical Element Set > Technical Dependency`, see SWT issue 1108). |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Dependency` | Grouping: Technical Dependency elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Dependency` → Bundle dependency | `(root) > Technical Element Set > Technical Dependency` statements expressing plugin-to-plugin dependencies. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Interface` | Grouping: Technical Interface elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Interface` → Extension point | Declared point at which a plugin can be extended (editors, views, builders). |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Specification` | Grouping: Technical Specification elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Runtime → `Technical Specification` → Non-code contributions | HTML help and documentation resources shipped inside plugins. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT | Java Development Tools subsystem: editors, wizards, refactoring support, debugger, compiler, and incremental builder. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT → `Technical Mechanism` | Grouping: Technical Mechanism elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT → `Technical Mechanism` → ECJ compiler | Own Java compiler from the VisualAge Micro Edition contribution, enabling tooling and compiler extension points a third-party command-line compiler could not offer. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT → `Technical Mechanism` → Refactoring support | Automated code-restructuring tooling over the compiler model. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT → `Constitutive Technique` | Grouping: Constitutive Technique elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT → `Constitutive Technique` → Incremental builder | Rebuilds only changed code on save; separable as its own technique (take the Java Incremental Builder out of Eclipse). |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT → `Constitutive Technical Object` | Grouping: Constitutive Technical Object elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → JDT → `Constitutive Technical Object` → Java debugger | Debug engine plus source lookup for stepping through project and dependency code. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → PDE | Plug-in Development Environment: tooling to develop, build, deploy, and test plugins and other artifacts extending Eclipse. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → PDE → `Technical Mechanism` | Grouping: Technical Mechanism elements. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → PDE → `Technical Mechanism` → PDE Build | Dependency-driven generation of Ant scripts constructing the build artifacts. |
+| `Production Technical System` → Eclipse → `Constitutive Technical Object` → Help subsystem | Online help content, indexed and searched with Apache Lucene. |
+| `Production Technical System` → Eclipse → `Technical Interaction` | Grouping: Technical Interaction elements. |
+| `Production Technical System` → Eclipse → `Technical Interaction` → Maven integration (m2e) | Bridge resolving Maven dependencies into the workspace build path. |
+| `Production Technical System` → Eclipse → `Production Technical System` | Grouping: Production Technical System elements. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Maven integration |  |
+| `Production Technical System` → Eclipse → `Production Technical System` → Maven integration → `General Technique` | Grouping: General Technique elements. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Maven integration → `General Technique` → mvn eclipse:eclipse | Generates Eclipse project metadata from a Maven project (exemplar command; `mvn eclipse:clean` reverts it). |
+| `Production Technical System` → Eclipse → `Production Technical System` → Maven integration → `General Technique` → mvn dependency:sources | Fetches dependency sources for debugger attachment (exemplar command). |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration |  |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Configuration` | Grouping: Technical Configuration elements. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Configuration` → Runtime CLI options | Documented runtime command-line arguments (see Eclipse help runtime-options reference). |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Configuration` → Run and Debug configuration | Named launch definition: main type, classpath, arguments, JRE (exemplar per project). |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Configuration` → Source attachment | Project-source versus debugging-source settings; manual attachment when automatic resolution fails. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Security` | Grouping: Technical Security elements. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Security` → Certificates | JVM trust-store setup for Eclipse and Maven HTTPS access (exemplar per install). |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Parameter` | Grouping: Technical Parameter elements. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Configuration → `Technical Parameter` → Profile | Named list of UIs in an installation. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Failure |  |
+| `Production Technical System` → Eclipse → `Production Technical System` → Failure → `Technical Failure` | Grouping: Technical Failure elements. |
+| `Production Technical System` → Eclipse → `Production Technical System` → Failure → `Technical Failure` → Source-not-found | Debugger reaching bytecode without attached sources. |
+| `Production Technical System` → Eclipse → `Technical Practice` | Grouping: Technical Practice elements. |
+| `Production Technical System` → Eclipse → `Technical Practice` → Debug-source practice | Repeatable pattern: take the root Maven project, run `(root) > Technical Element Set > Technical Practice` plus `mvn dependency:sources`, else attach sources manually (exemplar frame: `AbstractSharedSessionContract.checkOpenOrWaitingForAutoClose`). |
+| `Production Technical System` → Eclipse → `Technical Practice` → Plugin-install practice | Repeatable pattern: install plugins into the distribution through provisioning. |
+| `Production Technical System` → Eclipse → `Technical Practice` → RCP practice | Repeatable pattern: build standalone applications on the Eclipse platform. |
+| `Production Technical System` → Eclipse → `Technical Practice` → RCP practice → `Production Technical System` | Grouping: Production Technical System elements. |
+| `Production Technical System` → Eclipse → `Technical Practice` → RCP practice → `Production Technical System` → Mars Rover monitoring (NASA and JPL) | Exemplar RCP application monitoring rover robots. |
+| `Production Technical System` → Eclipse → `Technical Practice` → RCP practice → `Production Technical System` → Bioclipse | Exemplar RCP application for bioinformatics data visualization. |
+| `Production Technical System` → Eclipse → `Technical Practice` → RCP practice → `Production Technical System` → Dutch Railway monitoring | Exemplar RCP application monitoring train performance. |
+| `Production Technical System` → Eclipse → `Technical Evaluation` | Grouping: Technical Evaluation elements. |
+| `Production Technical System` → Eclipse → `Technical Evaluation` → Evaluation | Grouping: evaluation surface of the installation. |
+| `Production Technical System` → Eclipse → `Technical Evaluation` → Evaluation → `Verification` | Grouping: Verification elements. |
+| `Production Technical System` → Eclipse → `Technical Evaluation` → Evaluation → `Verification` → Compiler verification | Compiler and problem markers verifying code against the language specification. |
+| `Production Technical System` → Eclipse → `Technical Evaluation` → Evaluation → `Validation` | Grouping: Validation elements. |
+| `Production Technical System` → Eclipse → `Technical Evaluation` → Evaluation → `Validation` → Launch validation | Running and debugging validating the artifact against its intended purpose. |
+| `Production Technical System` → Eclipse → `Technical Evolution` | Grouping: Technical Evolution elements. |
+| `Production Technical System` → Eclipse → `Technical Evolution` → Evolution plugins-to-bundles | Historical line: `(root) > Technical Element Set > Technical Evolution` plugins become OSGi bundles with manifest metadata under Equinox. |
+| `Production Technical System` → Eclipse → `Technical Maintenance` | Grouping: Technical Maintenance elements. |
+| `Production Technical System` → Eclipse → `Technical Maintenance` → Maintenance (p2 updates) | Patching and upgrading the installation while preserving workspace state. |
 
 ## QA
 

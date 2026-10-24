@@ -6,21 +6,12 @@ directory layout — and merges them into one forest store
 (data/technica/meta/atlas.json), the store the atlas page
 (data/technica/meta/atlas.html) renders.
 
-Two table syntaxes live in the corpus and both feed the same trie:
+The table form is the guide's canonical one:
 
-  four-column  | Instance Tree Path | Description | Technical Category |
-               | Technical Element Type Tree Path |
-               instance paths split on ` > `; the fourth column is a
-               backticked type path starting at `(root)`, whose last
-               segment types the row's terminal segment. A backticked
-               col-1 segment names a type when it belongs to the guide's
-               type vocabulary (collected from the type column), and a
-               concrete artifact otherwise.
+  | Instance Tree Path | Description |
 
-  two-column   | Instance Tree Path | Description |
-               epistemic-style paths split on `→` with backticked type
-               segments inline; plain segments are instances typed by the
-               nearest grouping ancestor.
+Paths split on `→`; backticked segments are type groupings, plain segments
+are instances typed by the nearest grouping ancestor.
 
 Node model (REEs-compatible, see epistemica/rees.json):
 
@@ -51,8 +42,6 @@ OUT = TECH / 'meta' / 'atlas.json'
 GUIDE = ('https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/'
          'main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md')
 
-FOUR = ('| Instance Tree Path | Description | Technical Category | '
-        'Technical Element Type Tree Path |')
 TWO = '| Instance Tree Path | Description |'
 ROOT_LABEL = 'Technical Element'
 ROOT_TYPE = 'Technical Element Set'
@@ -83,17 +72,6 @@ def cells(line):
     return [c.strip() for c in line.strip().strip('|').split('|')]
 
 
-def four_rows(text):
-    """Every four-column decomposition row (all table blocks of a note)."""
-    for line in text.splitlines():
-        if not line.startswith('|'):
-            continue
-        c = cells(line)
-        if len(c) == 4 and c[3].startswith('`(root)') \
-                and c[0] != 'Instance Tree Path':
-            yield c
-
-
 def two_rows(text):
     """Every two-column `→` decomposition row (all table blocks)."""
     for line in text.splitlines():
@@ -105,29 +83,16 @@ def two_rows(text):
             yield c
 
 
-def segment(raw, vocabulary):
+def segment(raw):
     """(label, kind) for one instance-path segment.
 
-    Bold marks an instance; a backticked segment is a type grouping when
-    its label belongs to the guide type vocabulary, a concrete artifact
-    (instance) otherwise. Plain segments are instances.
+    A backticked segment is a type grouping; a plain segment is an
+    instance.
     """
     s = raw.strip()
-    if len(s) > 4 and s.startswith('**') and s.endswith('**'):
-        return s[2:-2].strip(), 'instance'
     if len(s) > 2 and s.startswith('`') and s.endswith('`'):
-        inner = s[1:-1].strip()
-        return inner, ('grouping' if inner in vocabulary else 'instance')
-    return s, 'instance'
-
-
-def type_path(cell):
-    """Segments of a fourth-column type path, `(root)` removed."""
-    raw = cell.strip()
-    if raw.startswith('`') and raw.endswith('`'):
-        raw = raw[1:-1]
-    return [p.strip() for p in raw.split(' > ')
-            if p.strip() and p.strip() != '(root)']
+        return s[1:-1].strip(), 'grouping'
+    return s.replace('**', '').replace('`', '').strip(), 'instance'
 
 
 def slug(s):
@@ -162,7 +127,7 @@ class Forest:
     def add(self, segments, source, terminal_type=None, description=''):
         """Add one table row: `segments` = [(label, kind), ...] from the root.
 
-        `terminal_type` types the row's last segment (four-column tables);
+        `terminal_type` is the nearest grouping label (two-column tables);
         intermediate segments inherit the nearest ancestor's type. Type
         groupings are typed by their own label.
         """
@@ -226,7 +191,7 @@ def main():
         return 1
 
     notes = []
-    four_files, two_files = [], []
+    table_files = []
     for path in sorted(TECH.rglob('*.md')):
         rel = path.relative_to(TECH)
         if 'meta' in rel.parts:
@@ -236,33 +201,15 @@ def main():
         notes.append(('technica/' + rel.as_posix(),
                       title.group(1).strip() if title else path.stem,
                       path.stem))
-        if FOUR in text:
-            four_files.append((path, text))
-        elif TWO in text:
-            two_files.append((path, text))
-
-    # The guide's type vocabulary, read off the type column itself: a
-    # backticked col-1 segment naming one of these is a type grouping.
-    vocabulary = set()
-    for _, text in four_files:
-        for row in four_rows(text):
-            vocabulary.update(type_path(row[3]))
+        if TWO in text:
+            table_files.append((path, text))
 
     forest = Forest()
     rows = 0
-    for path, text in four_files:
-        source = 'technica/' + path.relative_to(TECH).as_posix()
-        for row in four_rows(text):
-            segments = [segment(s, vocabulary) for s in row[0].split(' > ')]
-            types = type_path(row[3])
-            forest.add(segments, source,
-                       terminal_type=types[-1] if types else None,
-                       description=strip_md(row[1]))
-            rows += 1
-    for path, text in two_files:
+    for path, text in table_files:
         source = 'technica/' + path.relative_to(TECH).as_posix()
         for row in two_rows(text):
-            segments = [segment(s, vocabulary) for s in row[0].split(' → ')]
+            segments = [segment(s) for s in row[0].split(' → ')]
             groupings = [label for label, kind in segments[:-1]
                          if kind == 'grouping']
             forest.add(segments, source,
@@ -296,7 +243,7 @@ def main():
         elif node['kind'] == 'instance':
             stats['instances'] += 1
     stats['branches'] = len(forest.root['children'])
-    stats['tables'] = len(four_files) + len(two_files)
+    stats['tables'] = len(table_files)
     stats['rows'] = rows
 
     store = {

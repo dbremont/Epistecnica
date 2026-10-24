@@ -175,39 +175,27 @@ instance-decomposition table:
   Purpose Adequacy); cite the guide in the note's References. Architectural,
   historical, or scaling commentary is not a conceptual evaluation — it
   belongs in the decomposition, the QA, or the `Technical Evolution` branch.
-- Grammar source: `src/note/bin/conform.py` fetches the canonical grammar from
-  the guide above at runtime (stdlib `urllib`, no local snapshot) — the
-  `technicarum-grammar.txt` copy was removed on centralization. It validates
-  instance tables against the guide's Tabular view
-  (`(root) := <<Technical Element>> -> ...`); legacy `(root) > ...` tables
-  whose types no longer exist in the guide are reported until migrated.
-- Table contract: 4 columns (`Instance Tree Path | Description | Technical
-  Category | Technical Element Type Tree Path`) under a Boundary /
-  Stopping-rule / Identity / Verbs block. Every path unique; a row is
-  terminal when it names a concrete tool, file, config attribute, measured
-  value, or named actor. Leaves are always instances; intermediate rows are
-  type elements giving structure (each typed in the fourth column) — a type
-  element must never terminate a branch. A skipped spine level gets a
+- Grammar source: `src/note/bin/conform.py` fetches the guide above at
+  runtime (stdlib `urllib`, no local snapshot) and validates the canonical
+  two-column tables: every backticked segment names a type from the guide's
+  Tabular view, no type terminates a branch, paths are unique.
+- Table contract: 2 columns (`Instance Tree Path | Description`) under a
+  Boundary / Stopping-rule / Identity / Verbs block. Paths split on `→`;
+  backticked segments are type groupings, plain segments are instances
+  typed by their nearest grouping. Every path is unique and complete from
+  the root; a row is terminal when it names a concrete tool, file, config
+  attribute, measured value, or named actor. A skipped spine level gets a
   vendor-neutral intermediate instance (the CRM `CRM application` pattern),
   never an exemplar.
 - What-type answer: the "What technical element type does this technical
   instance belong to?" Formulation answer declares one primary type chosen
   from the philosophia Tabular view; secondary readings stay as
   `readable as …` prose (OpenAPI: Standard primary, Set reading).
-- Grammar conformance: every fourth-column path must resolve to a
-  Recursive-view grammar path — `Technical Element Set`-prefixed, spine
-  levels never skipped, facet types attached under a Set. No `...`/`{...}`
-  wildcards in instance tables.
-- Grouping segments: children are grouped under bare type-name segments with
-  their own rows (grouped type's category and grammar path in the row), so
-  the typing reads from the instance path itself. Type segments are styled
-  `` `like this` `` to read as types, not instances; intermediate instances
-  are styled `**bold**`, leaves stay plain. Exemplars realizing their
-  parent stay direct. No type segment terminates a branch, and no segment
-  directly beneath the root repeats the root's own type as bare
-  re-expression (the root is never re-expressed through an intermediate);
-  a same-type segment scoping a genuine instance family is the documented
-  exception (biotech `Control` under its Set segment).
+- Grouping segments: children are grouped under bare type-name segments
+  with their own rows, so the typing reads from the instance path itself.
+  Type segments are styled `` `like this` ``; instance segments stay plain.
+  Exemplars realizing their parent stay direct. No type segment terminates
+  a branch.
 - Verbs: a tool *implements* the standard/practice; a running
   deployment/campaign/client *realizes* it. Deployment-specific values and
   named vendors appear only in rows marked exemplar.
@@ -226,16 +214,14 @@ instance-decomposition table:
 - Depth guidance: deep core (systems + techniques to levels 4–5), shallow
   rest (context/control/lifecycle +1). `wildfly.md` is the full-recursion
   exemplar (~2.5k rows), `openapi.md` the mid-scale one (~50 rows).
-- Self-check after any table edit: instance paths unique; every
-  fourth-column path resolves to a Recursive-view grammar path; no
-  branch-terminating type segments. Then run `make notes-index` (below).
+- Self-check after any table edit: instance paths unique; every backticked
+  segment names a guide type; no branch-terminating type segments. Then run
+  `make notes-index` (below).
 - **Technical-element atlas** — `data/technica/meta/atlas.html` renders
   the forest: the decomposition tables of the technica notes merged into
-  one typed instance tree, never the directory layout. Four-column tables
-  align their type column to the row's terminal segment; two-column `→`
-  tables carry their type segments inline; a backticked first-column
-  segment is a type grouping only when its label is a guide type (a
-  concrete artifact otherwise). `meta/` is excluded from parsing, so the
+  one typed instance tree, never the directory layout. The tables use the
+  canonical `| Instance Tree Path | Description |` form (`→` paths,
+  backticked type groupings, plain instances). `meta/` is excluded from parsing, so the
   atlas never indexes itself. Every new instance in a decomposition table
   is in the forest by construction: regenerate the store after any table
   edit under `src/note/app/data/technica/` with `make atlas-index`
@@ -331,7 +317,7 @@ Verification (no test suite exists; `make check` covers the first):
 - `python3 -m py_compile bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py`
 - Catalog literals: `bin/check_catalog_literals.py` fails when a catalog page hardcodes a corpus entry, a directory special case, or a `data/<corpus>/…` href (part of `make check`)
 - REES tree: `make rees-check` (validates `src/note/app/data/epistemica/rees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
-- Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the decomposition tables of the technica corpus — four-column and `→` two-column tables, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
+- Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the canonical two-column decomposition tables of the technica corpus, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
 - Universal search: `make search-index` (build-time snapshot → committed `src/app/data/search-index.json`, corpus-only) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → committed `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`

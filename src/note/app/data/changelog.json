@@ -31383,6 +31383,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -31429,6 +31434,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -31469,6 +31479,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -31487,6 +31502,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -31538,6 +31558,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -31562,6 +31587,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -31679,6 +31709,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -32643,6 +32678,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Migrate the decomposition table to the canonical two-column form."
       }
     ]
   },
@@ -33037,6 +33077,11 @@
         "summary": "Rewrite the forest contract around the decomposition tables: both table syntaxes, the merge rule, the source links, and the dendrogram view.",
         "commit": "5e2ce626936c90fa53a2d2f8644bdc45108391c4",
         "before": "8f360023800d347c8e3e6fe024d0e314466e561d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "State the canonical two-column table form in the forest contract."
       }
     ]
   },
