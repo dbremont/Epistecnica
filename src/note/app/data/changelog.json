@@ -6206,6 +6206,11 @@
         "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
         "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the decision-tree link to technica/ais/synthesis/learning-method/."
       }
     ]
   },
@@ -10795,279 +10800,6 @@
     ]
   },
   {
-    "file_path": "technica/ais/learning-method/classification.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Classification from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/clustering-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Clustering Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/conditional-random-fields-crfs.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Conditional Random Fields (CRFs) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/decision-tree.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Decision Tree from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/ensemble-learning.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Merge the observational ensemble-method note into this one; bring over its goals, taxonomy, tags, and references.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/latent-dirichlet-allocation-lda.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Latent Dirichlet Allocation (LDA) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/learning-method.md",
-    "logs": [
-      {
-        "date": "2026-10-24",
-        "kind": "feat",
-        "summary": "Add the Learning Method index note grouping the system-decomposition dir.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/naive-bayes-classifier.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Naive Bayes Classifier from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/random-forest.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Random Forest from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/ais/learning-method/support-vector-machine.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Support Vector Machine from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/system/learning-method/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "refactor",
-        "summary": "Move to technica/ais/learning-method/.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
-      }
-    ]
-  },
-  {
     "file_path": "technica/ais/operation.md",
     "logs": [
       {
@@ -11210,6 +10942,329 @@
         "kind": "refactor",
         "summary": "Move to technica/ais/synthesis/.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/classification.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classification from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/clustering-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Clustering Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/conditional-random-fields-crfs.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conditional Random Fields (CRFs) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/decision-tree.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decision Tree from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/ensemble-learning.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Merge the observational ensemble-method note into this one; bring over its goals, taxonomy, tags, and references.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/latent-dirichlet-allocation-lda.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Latent Dirichlet Allocation (LDA) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/learning-method.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "feat",
+        "summary": "Add the Learning Method index note grouping the system-decomposition dir.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/naive-bayes-classifier.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Naive Bayes Classifier from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/random-forest.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Forest from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/synthesis/learning-method/support-vector-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Support Vector Machine from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/system/learning-method/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/learning-method/.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/ais/synthesis/learning-method/."
       }
     ]
   },

@@ -130,7 +130,7 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 | Sequential decisions | [Markov Decision Processes (MDP)](note.html?n=epistemica/dynamical-intelligence/markov-decision-processes-mdp.md) | States, actions, transitions, and rewards over time. |
 | Control | [Control Theory](note.html?n=epistemica/dynamical-intelligence/control-theory.md), [Optimal Control Theory](note.html?n=epistemica/dynamical-intelligence/optimal-control-theory.md), [Model Predictive Control (MPC)](note.html?n=epistemica/dynamical-intelligence/model-predictive-control-mpc.md) | Regulating a dynamical system, with and without an explicit objective. |
 | Computational decisions | [Combinatorial Optimization](note.html?n=epistemica/optimization/combinatorial-optimization.md), [Dynamic Programming](note.html?n=epistemica/optimization/dynamic-programming.md), [Knapsack Problem](note.html?n=epistemica/optimization/knapsack-problem.md) | Decision problems in the computer-science sense. |
-| Decision trees | [Decision Tree](note.html?n=technica/ais/learning-method/decision-tree.md) | The trainable ML model — distinct from the decision-analysis tree. |
+| Decision trees | [Decision Tree](note.html?n=technica/ais/synthesis/learning-method/decision-tree.md) | The trainable ML model — distinct from the decision-analysis tree. |
 | Information value | [Shannon Information Content](note.html?n=epistemica/observational/it/shannon-information-content.md) | The surprisal that information reduces; the atom of value-of-information reasoning. |
 
 ## QA
