@@ -152,7 +152,7 @@ frontend-facing surface in the deployment; there is no database behind it
 
 ## On Technical Notes
 
-Multinode notes (`src/note/app/data/technica/cto/es/multinode/`, e.g. `openapi.md`,
+Multinode notes (`src/note/app/data/technica/general/cto/es/multinode/`, e.g. `openapi.md`,
 `wildfly.md`, `jobrunr.md`) document one technical
 instance with the shell from the canonical technica guide
 (`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md`)
@@ -336,7 +336,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Universal view: `make graph-index` (build-time snapshot → committed `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`
 - Legacy graphs: `curl -sI :8000/epistemica/` and `:8000/tecnica/` → `302` → `/note/data/epistemica/rees.html`
-- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/pto/zsh.md` (viewer), `/note/data/technica/cto/lib/concurrent-map.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
+- Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/general/pto/zsh.md` (viewer), `/note/data/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
 - REES atlas: `curl -s :8000/note/data/epistemica/rees.html` (the multi-view atlas) and `/note/data/epistemica/rees.json` (the canonical tree store it renders)
 - Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`), `/course/data/changelog.json` (per-file history)
 - Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`), `/document/data/changelog.json` (per-file history)

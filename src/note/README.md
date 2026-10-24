@@ -104,7 +104,7 @@ facet bars: sections are reached as folders and tags through the search box.
   chrome blocks plus the container spec and conversion record live in
   `docs/live-note-chrome.md`; no CDN libraries are allowed. The catalog
   still indexes it (title, headings, text) and links directly to the page,
-  marked with a `live` chip. Examples: `technica/cto/lib/concurrent-map.html`
+  marked with a `live` chip. Examples: `technica/general/cto/lib/concurrent-map.html`
   ("Concurrent Map"),
   `epistemica/observational/poisson-distribution.html` ("Poisson Distribution"),
   `epistemica/observational/hawkes-process.html` ("Hawkes Process"),

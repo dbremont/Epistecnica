@@ -30506,62 +30506,739 @@
     ]
   },
   {
-    "file_path": "technica/cto/es/data/apache-hive.md",
+    "file_path": "technica/cto/es/multinode/marketing-technical-practice.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "chore",
+        "summary": "Delete the marketing-technical-practice note; it moved to Naturgnosis under technique/systems/multinode/marketing-technical-practice.md.",
+        "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187",
+        "before": "b85286c540cab7859dd23d7a8deb211ae3c6c10e"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/ackee.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/apache-airflow.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/apache-bookkeeper.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/apache-helix.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/apache-ignite.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/carla.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-calcite.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-cassandra.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-doris.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-drill.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-druid.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-hive.md",
     "logs": [
       {
         "date": "2026-10-20",
         "kind": "refactor",
         "summary": "Move the Apache Hive note from general/ to technica/cto/es/data/.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/data/apache-pinot.md",
+    "file_path": "technica/general/cto/es/data/apache-pinot.md",
     "logs": [
       {
         "date": "2026-10-20",
         "kind": "refactor",
         "summary": "Move the Apache Pinot note from general/ to technica/cto/es/data/.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/data/data-system-concurrency-control.md",
+    "file_path": "technica/general/cto/es/data/apache-sorl.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-spark.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/apache-storm.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/clickhouse.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/data-system-concurrency-control.md",
     "logs": [
       {
         "date": "2026-10-20",
         "kind": "refactor",
         "summary": "Move the Data System Concurrency Control note from general/ to technica/cto/es/data/.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/data/seaweedfs.md",
+    "file_path": "technica/general/cto/es/data/delta-lake.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/duckdb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/elasticsearch.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/facebook-ai-similarity-search-faiss.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/flexsearch.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/fluend.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/hazelcast.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/hikaricp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/influxdb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/leveldb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/memcached.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/milvus.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/monetdb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/mongodb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/mysql.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/neo4j.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/openmetadata.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/opentsdb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/oracle.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/postgresql.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/postgrest.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/redis.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/rocksdb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/scylladb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/seaweedfs.md",
     "logs": [
       {
         "date": "2026-10-20",
         "kind": "refactor",
         "summary": "Move the SeaweedFS note from general/ to technica/cto/es/data/.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/data/trino.md",
+    "file_path": "technica/general/cto/es/data/sharedb.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/sqlite.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/data/trino.md",
     "logs": [
       {
         "date": "2026-10-20",
         "kind": "refactor",
         "summary": "Move the Trino note from general/ to technica/cto/es/data/.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/apache-kafka.md",
+    "file_path": "technica/general/cto/es/data/vespa-vector-search.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/discourse.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/dtrace.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/fastapi.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/filebeat.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/gazebo.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/glowroot.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/gnu-stow.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/graphviz.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/hamcrest.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/ip.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/jekyll.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/keycloak.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/metaculus.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/mitmproxy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/mkdocs.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/mockito.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/mockserver.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-camel.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-flink.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-hadoop.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-http-server.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-kafka.md",
     "logs": [
       {
         "date": "2026-10-22",
@@ -30569,11 +31246,56 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/ and follow the images into the shared /assets/ mirror."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/biotechnology.md",
+    "file_path": "technica/general/cto/es/multinode/apache-nifi.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-nutch.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-pulsar.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-tomcat.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/biotechnology.md",
     "logs": [
       {
         "date": "2026-10-23",
@@ -30581,11 +31303,36 @@
         "summary": "Retire the superseded Technical Domain type in favour of Technical Element Set.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/energy-technology.md",
+    "file_path": "technica/general/cto/es/multinode/dapr.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/django.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/energy-technology.md",
     "logs": [
       {
         "date": "2026-10-20",
@@ -30599,11 +31346,36 @@
         "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/java-ee-jakarta-ee.md",
+    "file_path": "technica/general/cto/es/multinode/flask.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/graphql.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/java-ee-jakarta-ee.md",
     "logs": [
       {
         "date": "2026-10-23",
@@ -30611,11 +31383,16 @@
         "summary": "Insert the Technical Evaluation grouping so conformance verification hangs from the standard by a licensed link.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/jobrunr.md",
+    "file_path": "technica/general/cto/es/multinode/jobrunr.md",
     "logs": [
       {
         "date": "2026-10-23",
@@ -30623,23 +31400,46 @@
         "summary": "Type carbon-aware processing as a Technical Strategy instead of an unlicensed General Technique under the server.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/marketing-technical-practice.md",
+    "file_path": "technica/general/cto/es/multinode/laravel.md",
     "logs": [
       {
-        "date": "2026-10-20",
-        "kind": "chore",
-        "summary": "Delete the marketing-technical-practice note; it moved to Naturgnosis under technique/systems/multinode/marketing-technical-practice.md.",
-        "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187",
-        "before": "b85286c540cab7859dd23d7a8deb211ae3c6c10e"
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/openapi.md",
+    "file_path": "technica/general/cto/es/multinode/meilisearch.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/nginx.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/openapi.md",
     "logs": [
       {
         "date": "2026-10-23",
@@ -30647,11 +31447,16 @@
         "summary": "Insert Technical Evaluation and generated-artifacts groupings so verification, validation, and generated objects hang by licensed links.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/physical-material-technology.md",
+    "file_path": "technica/general/cto/es/multinode/physical-material-technology.md",
     "logs": [
       {
         "date": "2026-10-20",
@@ -30665,11 +31470,106 @@
         "summary": "Retire Technical Domain and re-parent the constitutive technique, act, and actuation rows so the technique chain follows the guide's licensed links.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
   {
-    "file_path": "technica/cto/es/multinode/wildfly.md",
+    "file_path": "technica/general/cto/es/multinode/puma.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/ruby-on-rails.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/seastar.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/service-weaver.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/sidekiq.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/sinatra.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/spring-boot.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/supabase.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/traefik.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/wildfly.md",
     "logs": [
       {
         "date": "2026-10-23",
@@ -30677,6 +31577,1225 @@
         "summary": "Retype the four mis-typed rows (launch configurations, operation definition, CLI and command interfaces) and retire Technical Domain.",
         "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
         "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/n8n.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/networkx.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/npx.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/phpdocumentor.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/pm2.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/poetry.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/rabbitmq.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/rake.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/rubocop.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/sdkman.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/serve.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/signoz.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/ui/ember-js.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/ui/nextjs.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/ui/vue.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/varnish-cache-service.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/vite.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/vsftpd.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/webpack.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/xdebug.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/apache-caffeine.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/apache-commons.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/apache-lucene.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/apache-opennlp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/apache-tika.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/beautiful-soup.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/binascii.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/celery.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/checker-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/dapper.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/falcor.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/folly.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/gensim.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/ggplot2.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/google-guava.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/google-guice.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/hamcrest.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/hibernate.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/htmx.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/libuv.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/linq.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/lmax-disruptor.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/lunr-js.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/openmp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/openpyxl.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/pillow.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/presto.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/project-lombok.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/pydantic.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/pytorch/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/reactivex.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/redux.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/requests.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/resilience4j.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/rspec.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/scapy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/scrapy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/sqlalchemy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/struct.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/sympy.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/thor.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/typer.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/xpath.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/lib/zstd.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/platform/aws.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/platform/ray.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/platform/runpod.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/op/computational.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/op/house/cleaning/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/op/house/nutrition/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/op/house/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/op/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/aider.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/appimage.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/awk.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/bazel.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/berkeley-packet-filter-bpf.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/blender.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/btop.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/cloudflared.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/copilot.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/dbeaver.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/dd.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/doxygen.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/eclipse.md",
+    "logs": [
+      {
+        "date": "2026-10-23",
+        "kind": "fix",
+        "summary": "Insert the Technical Evaluation grouping so compiler verification and launch validation hang by licensed links.",
+        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
+        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/file.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/find.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Merge the GNU Find note from the corpus root; add the formal model, signature, structure, dynamics, GNU grammar, evaluation model, and alternatives.",
+        "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187",
+        "before": "b85286c540cab7859dd23d7a8deb211ae3c6c10e"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/firefox.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/jepsen.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/kitty.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/latex.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/libreoffice.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/linux.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/maven.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/neovim.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/npm.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/ollama.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/openclaw.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/opencode.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/openssl.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/opentelemetry.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/portainer.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/pretty-good-privacy-pgp.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/pytest.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/readelf.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/ss.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/ssh/ssh-config.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/ssh/ssh-secure-shell.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/strace.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/strings.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/tc.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/tcpdump.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/uv.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/vlc-media-player.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/vscode.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/xxd.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/pto/zsh.md",
+    "logs": [
+      {
+        "date": "2026-10-24",
+        "kind": "refactor",
+        "summary": "Move to technica/general/."
       }
     ]
   },
@@ -30701,30 +32820,6 @@
         "summary": "Rewrite the forest contract around the decomposition tables: both table syntaxes, the merge rule, the source links, and the dendrogram view.",
         "commit": "5e2ce626936c90fa53a2d2f8644bdc45108391c4",
         "before": "8f360023800d347c8e3e6fe024d0e314466e561d"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/pto/eclipse.md",
-    "logs": [
-      {
-        "date": "2026-10-23",
-        "kind": "fix",
-        "summary": "Insert the Technical Evaluation grouping so compiler verification and launch validation hang by licensed links.",
-        "commit": "f9792fb82d7e5b425a2e18940e9da0ad49f0e5e0",
-        "before": "2fca0bef087857284a637fe9b27ff72236c4e596"
-      }
-    ]
-  },
-  {
-    "file_path": "technica/pto/find.md",
-    "logs": [
-      {
-        "date": "2026-10-20",
-        "kind": "refactor",
-        "summary": "Merge the GNU Find note from the corpus root; add the formal model, signature, structure, dynamics, GNU grammar, evaluation model, and alternatives.",
-        "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187",
-        "before": "b85286c540cab7859dd23d7a8deb211ae3c6c10e"
       }
     ]
   },
