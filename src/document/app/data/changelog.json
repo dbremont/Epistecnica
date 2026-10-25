@@ -24889,7 +24889,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "add Nanbeige4.2-3B agentic small-model technical report"
+        "summary": "add Nanbeige4.2-3B agentic small-model technical report",
+        "commit": "1179e7332d6fadd30ea61b98096f54f7d7f959d3"
       }
     ]
   },
@@ -26409,7 +26410,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "add Nanbeige4-3B small language model technical report"
+        "summary": "add Nanbeige4-3B small language model technical report",
+        "commit": "1179e7332d6fadd30ea61b98096f54f7d7f959d3"
       }
     ]
   },
@@ -26419,7 +26421,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "add Nanbeige4.1-3B generalist small-model technical report"
+        "summary": "add Nanbeige4.1-3B generalist small-model technical report",
+        "commit": "1179e7332d6fadd30ea61b98096f54f7d7f959d3"
       }
     ]
   },
