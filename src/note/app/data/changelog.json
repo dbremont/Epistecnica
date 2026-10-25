@@ -8703,7 +8703,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Bifurcation from the Philosophia Naturalis Notion export."
+        "summary": "Import Bifurcation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8713,7 +8714,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Causality from the Philosophia Naturalis Notion export."
+        "summary": "Import Causality from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8723,7 +8725,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Dynamic from the Philosophia Naturalis Notion export."
+        "summary": "Import Dynamic from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8733,7 +8736,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Emergence from the Philosophia Naturalis Notion export."
+        "summary": "Import Emergence from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8743,7 +8747,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Endogeneity from the Philosophia Naturalis Notion export."
+        "summary": "Import Endogeneity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8753,7 +8758,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Epiphenomenon from the Philosophia Naturalis Notion export."
+        "summary": "Import Epiphenomenon from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8763,7 +8769,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Event Stream from the Philosophia Naturalis Notion export."
+        "summary": "Import Event Stream from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8773,7 +8780,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Event from the Philosophia Naturalis Notion export."
+        "summary": "Import Event from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8783,7 +8791,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Interaction from the Philosophia Naturalis Notion export."
+        "summary": "Import Interaction from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8793,7 +8802,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Irreversible Process from the Philosophia Naturalis Notion export."
+        "summary": "Import Irreversible Process from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8803,7 +8813,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Level of Organization from the Philosophia Naturalis Notion export."
+        "summary": "Import Level of Organization from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8813,7 +8824,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Materialism from the Philosophia Naturalis Notion export."
+        "summary": "Import Materialism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8823,7 +8835,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Monism from the Philosophia Naturalis Notion export."
+        "summary": "Import Monism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8833,7 +8846,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Non Linear System from the Philosophia Naturalis Notion export."
+        "summary": "Import Non Linear System from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8843,7 +8857,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Principle from the Philosophia Naturalis Notion export."
+        "summary": "Import Principle from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8853,7 +8868,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Property from the Philosophia Naturalis Notion export."
+        "summary": "Import Property from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8863,7 +8879,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Quasi-Open Interaction Field from the Philosophia Naturalis Notion export."
+        "summary": "Import Quasi-Open Interaction Field from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8873,7 +8890,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Reality from the Philosophia Naturalis Notion export."
+        "summary": "Import Reality from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8883,7 +8901,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Segment from the Philosophia Naturalis Notion export."
+        "summary": "Import Segment from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8893,7 +8912,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import System from the Philosophia Naturalis Notion export."
+        "summary": "Import System from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8903,7 +8923,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Philosophia Naturalis from the Philosophia Naturalis Notion export."
+        "summary": "Import Philosophia Naturalis from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8913,7 +8934,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Philosophy from the Philosophia Naturalis Notion export."
+        "summary": "Import Philosophy from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8923,7 +8945,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Activity from the Philosophia Naturalis Notion export."
+        "summary": "Import Activity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8933,7 +8956,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Affirmation Space from the Philosophia Naturalis Notion export."
+        "summary": "Import Affirmation Space from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8943,7 +8967,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Approximation from the Philosophia Naturalis Notion export."
+        "summary": "Import Approximation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8953,7 +8978,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Bayesian Epistemology from the Philosophia Naturalis Notion export."
+        "summary": "Import Bayesian Epistemology from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8963,7 +8989,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Category from the Philosophia Naturalis Notion export."
+        "summary": "Import Category from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8973,7 +9000,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Context-State Relation from the Philosophia Naturalis Notion export."
+        "summary": "Import Context-State Relation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8983,7 +9011,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Effective Theory from the Philosophia Naturalis Notion export."
+        "summary": "Import Effective Theory from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -8993,7 +9022,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Empiricism from the Philosophia Naturalis Notion export."
+        "summary": "Import Empiricism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9003,7 +9033,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Epistemic Artifact from the Philosophia Naturalis Notion export."
+        "summary": "Import Epistemic Artifact from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9013,7 +9044,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Epistemic Prior from the Philosophia Naturalis Notion export."
+        "summary": "Import Epistemic Prior from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9023,7 +9055,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Epistemic Tool from the Philosophia Naturalis Notion export."
+        "summary": "Import Epistemic Tool from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9033,7 +9066,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Evaluation from the Philosophia Naturalis Notion export."
+        "summary": "Import Evaluation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9043,7 +9077,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Evolutionary Explanation from the Philosophia Naturalis Notion export."
+        "summary": "Import Evolutionary Explanation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9053,7 +9088,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Explanation from the Philosophia Naturalis Notion export."
+        "summary": "Import Explanation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9063,7 +9099,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Falsifiability from the Philosophia Naturalis Notion export."
+        "summary": "Import Falsifiability from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9073,7 +9110,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Adaptation from the Philosophia Naturalis Notion export."
+        "summary": "Import Adaptation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9083,7 +9121,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Additive Effect from the Philosophia Naturalis Notion export."
+        "summary": "Import Additive Effect from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9093,7 +9132,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Antifragility from the Philosophia Naturalis Notion export."
+        "summary": "Import Antifragility from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9103,7 +9143,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Argumentation from the Philosophia Naturalis Notion export."
+        "summary": "Import Argumentation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9113,7 +9154,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Chaotic from the Philosophia Naturalis Notion export."
+        "summary": "Import Chaotic from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9123,7 +9165,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Closed from the Philosophia Naturalis Notion export."
+        "summary": "Import Closed from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9133,7 +9176,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Complexity from the Philosophia Naturalis Notion export."
+        "summary": "Import Complexity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9143,7 +9187,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Compound Effect from the Philosophia Naturalis Notion export."
+        "summary": "Import Compound Effect from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9153,7 +9198,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Computational Irreducibility from the Philosophia Naturalis Notion export."
+        "summary": "Import Computational Irreducibility from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9163,7 +9209,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Concept from the Philosophia Naturalis Notion export."
+        "summary": "Import Concept from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9173,7 +9220,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Connectivity from the Philosophia Naturalis Notion export."
+        "summary": "Import Connectivity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9183,7 +9231,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Conservation Law from the Philosophia Naturalis Notion export."
+        "summary": "Import Conservation Law from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9193,7 +9242,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Contingency from the Philosophia Naturalis Notion export."
+        "summary": "Import Contingency from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9203,7 +9253,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Critical Theory from the Philosophia Naturalis Notion export."
+        "summary": "Import Critical Theory from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9213,7 +9264,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Definition from the Philosophia Naturalis Notion export."
+        "summary": "Import Definition from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9223,7 +9275,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Determinism from the Philosophia Naturalis Notion export."
+        "summary": "Import Determinism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9233,7 +9286,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Dualism from the Philosophia Naturalis Notion export."
+        "summary": "Import Dualism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9243,7 +9297,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Epistemic System from the Philosophia Naturalis Notion export."
+        "summary": "Import Epistemic System from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9253,7 +9308,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Epistemology from the Philosophia Naturalis Notion export."
+        "summary": "Import Epistemology from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9263,7 +9319,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Equilibrium from the Philosophia Naturalis Notion export."
+        "summary": "Import Equilibrium from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9273,7 +9330,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Ergodicity from the Philosophia Naturalis Notion export."
+        "summary": "Import Ergodicity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9283,7 +9341,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Escuela from the Philosophia Naturalis Notion export."
+        "summary": "Import Escuela from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9293,7 +9352,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Hitting Time from the Philosophia Naturalis Notion export."
+        "summary": "Import Hitting Time from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9303,7 +9363,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Indeterminism from the Philosophia Naturalis Notion export."
+        "summary": "Import Indeterminism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9313,7 +9374,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Kolmogorov Complexity from the Philosophia Naturalis Notion export."
+        "summary": "Import Kolmogorov Complexity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9323,7 +9385,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Least Action Principle from the Philosophia Naturalis Notion export."
+        "summary": "Import Least Action Principle from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9333,7 +9396,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Lebensphilosophie from the Philosophia Naturalis Notion export."
+        "summary": "Import Lebensphilosophie from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9343,7 +9407,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Lempel–Ziv Complexity from the Philosophia Naturalis Notion export."
+        "summary": "Import Lempel–Ziv Complexity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9353,7 +9418,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Memory from the Philosophia Naturalis Notion export."
+        "summary": "Import Memory from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9363,7 +9429,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Metastability from the Philosophia Naturalis Notion export."
+        "summary": "Import Metastability from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9373,7 +9440,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Minimum Description Length (MDL) from the Philosophia Naturalis Notion export."
+        "summary": "Import Minimum Description Length (MDL) from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9383,7 +9451,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Monotonicity from the Philosophia Naturalis Notion export."
+        "summary": "Import Monotonicity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9393,7 +9462,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import More Is Different from the Philosophia Naturalis Notion export."
+        "summary": "Import More Is Different from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9403,7 +9473,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Multiplicative Effect from the Philosophia Naturalis Notion export."
+        "summary": "Import Multiplicative Effect from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9413,7 +9484,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Nominalism from the Philosophia Naturalis Notion export."
+        "summary": "Import Nominalism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9423,7 +9495,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Objectivity from the Philosophia Naturalis Notion export."
+        "summary": "Import Objectivity from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9433,7 +9506,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Observer Epistemic-Ontic Modelling from the Philosophia Naturalis Notion export."
+        "summary": "Import Observer Epistemic-Ontic Modelling from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9443,7 +9517,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Ontology from the Philosophia Naturalis Notion export."
+        "summary": "Import Ontology from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9453,7 +9528,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Open from the Philosophia Naturalis Notion export."
+        "summary": "Import Open from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9463,7 +9539,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Panpsychism from the Philosophia Naturalis Notion export."
+        "summary": "Import Panpsychism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9473,7 +9550,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Path Dependency from the Philosophia Naturalis Notion export."
+        "summary": "Import Path Dependency from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9483,7 +9561,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Pattern from the Philosophia Naturalis Notion export."
+        "summary": "Import Pattern from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9493,7 +9572,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Phase Transition from the Philosophia Naturalis Notion export."
+        "summary": "Import Phase Transition from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9503,7 +9583,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Philosophy of Language from the Philosophia Naturalis Notion export."
+        "summary": "Import Philosophy of Language from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9513,7 +9594,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Preferential Attachment from the Philosophia Naturalis Notion export."
+        "summary": "Import Preferential Attachment from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9523,7 +9605,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Proportionality from the Philosophia Naturalis Notion export."
+        "summary": "Import Proportionality from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9533,7 +9616,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Quantum Mechanical Ontology Map from the Philosophia Naturalis Notion export."
+        "summary": "Import Quantum Mechanical Ontology Map from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9543,7 +9627,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Reason from the Philosophia Naturalis Notion export."
+        "summary": "Import Reason from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9553,7 +9638,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Recurrence from the Philosophia Naturalis Notion export."
+        "summary": "Import Recurrence from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9563,7 +9649,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Representation from the Philosophia Naturalis Notion export."
+        "summary": "Import Representation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9573,7 +9660,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Reversible from the Philosophia Naturalis Notion export."
+        "summary": "Import Reversible from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9583,7 +9671,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Scale from the Philosophia Naturalis Notion export."
+        "summary": "Import Scale from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9593,7 +9682,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Science from the Philosophia Naturalis Notion export."
+        "summary": "Import Science from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9603,7 +9693,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Self-Organization from the Philosophia Naturalis Notion export."
+        "summary": "Import Self-Organization from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9613,7 +9704,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Skepticism from the Philosophia Naturalis Notion export."
+        "summary": "Import Skepticism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9623,7 +9715,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Stable from the Philosophia Naturalis Notion export."
+        "summary": "Import Stable from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9633,7 +9726,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import State Descriptor from the Philosophia Naturalis Notion export."
+        "summary": "Import State Descriptor from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9643,7 +9737,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Static from the Philosophia Naturalis Notion export."
+        "summary": "Import Static from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9653,7 +9748,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Stationary from the Philosophia Naturalis Notion export."
+        "summary": "Import Stationary from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9663,7 +9759,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Steady State from the Philosophia Naturalis Notion export."
+        "summary": "Import Steady State from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9673,7 +9770,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Stoicism from the Philosophia Naturalis Notion export."
+        "summary": "Import Stoicism from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9683,7 +9781,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Survivorship Bias from the Philosophia Naturalis Notion export."
+        "summary": "Import Survivorship Bias from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9693,7 +9792,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Synchronization from the Philosophia Naturalis Notion export."
+        "summary": "Import Synchronization from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9703,7 +9803,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Theory from the Philosophia Naturalis Notion export."
+        "summary": "Import Theory from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9713,7 +9814,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Threshold from the Philosophia Naturalis Notion export."
+        "summary": "Import Threshold from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9723,7 +9825,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Individuation from the Philosophia Naturalis Notion export."
+        "summary": "Import Individuation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9733,7 +9836,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Lumped Element Model from the Philosophia Naturalis Notion export."
+        "summary": "Import Lumped Element Model from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9743,7 +9847,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Aquinas's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Aquinas's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9753,7 +9858,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Aristotle's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Aristotle's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9763,7 +9869,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Bacon's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Bacon's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9773,7 +9880,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Berkeley's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Berkeley's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9783,7 +9891,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Canterbury's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Canterbury's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9793,7 +9902,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Cusa’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Cusa’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9803,7 +9913,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Descartes’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Descartes’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9813,7 +9924,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Hegel’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Hegel’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9823,7 +9935,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Heidegger’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Heidegger’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9833,7 +9946,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Hume’s System from the Philosophia Naturalis Notion export."
+        "summary": "Import Hume’s System from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9843,7 +9957,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Husserl’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Husserl’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9853,7 +9968,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Ibn al-Haytham's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Ibn al-Haytham's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9863,7 +9979,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Kant’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Kant’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9873,7 +9990,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Leibniz Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Leibniz Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9883,7 +10001,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Mileto’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Mileto’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9893,7 +10012,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Nietzsche’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Nietzsche’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9903,7 +10023,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Ockham's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Ockham's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9913,7 +10034,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Philosophical System from the Philosophia Naturalis Notion export."
+        "summary": "Import Philosophical System from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9923,7 +10045,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Plato’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Plato’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9933,7 +10056,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Russell’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Russell’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9943,7 +10067,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Schopenhauer's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Schopenhauer's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9953,7 +10078,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Scotus's Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Scotus's Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9963,7 +10089,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Spinoza’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Spinoza’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9973,7 +10100,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Whitehead’s  Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Whitehead’s  Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9983,7 +10111,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Wittgenstein’s Method from the Philosophia Naturalis Notion export."
+        "summary": "Import Wittgenstein’s Method from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -9993,7 +10122,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Model from the Philosophia Naturalis Notion export."
+        "summary": "Import Model from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10028,7 +10158,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Add Modelling: the modelling problem as an identification diagram — map, connectors, observational equivalence and identifiability."
+        "summary": "Add Modelling: the modelling problem as an identification diagram — map, connectors, observational equivalence and identifiability.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10038,7 +10169,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Occam’s Razor from the Philosophia Naturalis Notion export."
+        "summary": "Import Occam’s Razor from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10048,7 +10180,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Paradigm from the Philosophia Naturalis Notion export."
+        "summary": "Import Paradigm from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10058,7 +10191,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Principle of Sufficient Reason (PSR) from the Philosophia Naturalis Notion export."
+        "summary": "Import Principle of Sufficient Reason (PSR) from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10068,7 +10202,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import State from the Philosophia Naturalis Notion export."
+        "summary": "Import State from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10078,7 +10213,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import The Problem of Induction from the Philosophia Naturalis Notion export."
+        "summary": "Import The Problem of Induction from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10088,7 +10224,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Truth from the Philosophia Naturalis Notion export."
+        "summary": "Import Truth from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10098,7 +10235,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Validation from the Philosophia Naturalis Notion export."
+        "summary": "Import Validation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10108,7 +10246,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Variable–Reality Aspect Type (VRAT) from the Philosophia Naturalis Notion export."
+        "summary": "Import Variable–Reality Aspect Type (VRAT) from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
@@ -10118,7 +10257,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Import Variable from the Philosophia Naturalis Notion export."
+        "summary": "Import Variable from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
   },
