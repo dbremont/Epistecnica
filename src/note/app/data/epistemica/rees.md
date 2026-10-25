@@ -204,7 +204,7 @@ exchange through the guide's `Permitted Link Forms` table: an
 - **The full tree** — the [REES atlas](data/epistemica/rees.html) renders the complete, ever-expanding decomposition from the tree store [rees.json](data/epistemica/rees.json): outline, branch cards, an element search, and a node inspector.
 - **Guides** — [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner) and [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (the technical complement).
 - **Universal index** — Naturgnosis Epistemic Space at [http://localhost:8011/epistemica/](http://localhost:8011/epistemica/) carries the full instance graph; REES is the local mastery layer over it.
-- **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/modelado.md), [Causality](note.html?n=epistemica/causality.md), [Decision Making](note.html?n=epistemica/decision-making.md).
+- **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/theory/practice/modelling.md), [Causality](note.html?n=epistemica/causality.md), [Decision Making](note.html?n=epistemica/decision-making.md).
 - **Access & representation catalogues** — [Observational](note.html?n=epistemica/observational.md), [Signal Processing](note.html?n=epistemica/signal-processing.md), [System of Units of Measurement](note.html?n=epistemica/system-of-units-of-measurement.md).
 - **Operation & construction catalogues** — [Mathematical](note.html?n=epistemica/mathematical.md), [Computational Science](note.html?n=epistemica/computational-science.md), [Simulation](note.html?n=epistemica/simulation.md), [Optimization](note.html?n=epistemica/optimization.md), [Natural Computing](note.html?n=epistemica/natural-computing.md), [Statistical Mechanics](note.html?n=epistemica/construction/statistical-mechanics.md).
 - **Evaluation & reflexive catalogues** — [Exploratory Data Analysis](note.html?n=epistemica/exploratory-data-analysis-eda.md), [Formal Concept Analysis](note.html?n=epistemica/formal-concept-analysis-fca.md), [Complexity Science](note.html?n=epistemica/complexity-science.md), [Dynamical Intelligence](note.html?n=epistemica/dynamical-intelligence.md).
@@ -266,7 +266,7 @@ The distinction is one of function:
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Naturgnosis Epistemic Space](http://localhost:8011/epistemica/)
-- [Modelado](note.html?n=epistemica/modelado.md)
+- [Modelado](note.html?n=epistemica/theory/practice/modelling.md)
 - [Causality](note.html?n=epistemica/causality.md)
 - [Observational](note.html?n=epistemica/observational.md)
 - [Mathematical](note.html?n=epistemica/mathematical.md)

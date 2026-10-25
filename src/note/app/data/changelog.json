@@ -5429,31 +5429,6 @@
     ]
   },
   {
-    "file_path": "epistemica/modelado.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Modelado from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move.",
-        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
-        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/natural-computing.md",
     "logs": [
       {
@@ -8723,6 +8698,1431 @@
     ]
   },
   {
+    "file_path": "epistemica/theory/ontology/bifurcation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Bifurcation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/causality.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Causality from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/dynamic.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Dynamic from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/emergence.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Emergence from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/endogeneity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Endogeneity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/epiphenomenon.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Epiphenomenon from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/event-stream.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Event Stream from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/event.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Event from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/interaction.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Interaction from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/irreversible-process.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Irreversible Process from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/level-of-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Level of Organization from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/materialism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Materialism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/monism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Monism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/non-linear-system.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Non Linear System from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/principle.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Principle from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/property.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Property from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/quasi-open-interaction-field.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Quasi-Open Interaction Field from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/reality.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Reality from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/segment.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Segment from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/ontology/system.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import System from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/philosophia-naturalis.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Philosophia Naturalis from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/philosophy.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Philosophy from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/activity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Activity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/affirmation-space.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Affirmation Space from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/approximation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Approximation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/bayesian-epistemology.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Bayesian Epistemology from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/category.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Category from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/context-state-relation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Context-State Relation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/effective-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Effective Theory from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/empiricism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Empiricism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/epistemic-artifact.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Epistemic Artifact from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/epistemic-prior.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Epistemic Prior from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/epistemic-tool.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Epistemic Tool from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/evaluation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Evaluation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/evolutionary-explanation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Evolutionary Explanation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/explanation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Explanation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/falsifiability.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Falsifiability from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/adaptation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Adaptation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/additive-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Additive Effect from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/antifragility.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Antifragility from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/argumentation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Argumentation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/chaotic.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Chaotic from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/closed.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Closed from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/complexity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Complexity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/compound-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Compound Effect from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/computational-irreducibility.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Computational Irreducibility from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/concept.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Concept from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/connectivity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Connectivity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/conservation-law.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Conservation Law from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/contingency.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Contingency from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/critical-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Critical Theory from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/definition.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Definition from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/determinism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Determinism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/dualism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Dualism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/epistemic-system.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Epistemic System from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/epistemology.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Epistemology from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/equilibrium.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Equilibrium from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/ergodicity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Ergodicity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/escuela.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Escuela from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/hitting-time.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Hitting Time from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/indeterminism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Indeterminism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/kolmogorov-complexity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Kolmogorov Complexity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/least-action-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Least Action Principle from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/lebensphilosophie.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Lebensphilosophie from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/lempel-ziv-complexity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Lempel–Ziv Complexity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/memory.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Memory from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/metastability.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Metastability from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/minimum-description-length-mdl.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Minimum Description Length (MDL) from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/monotonicity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Monotonicity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/more-is-different.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import More Is Different from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/multiplicative-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Multiplicative Effect from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/nominalism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Nominalism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/objectivity.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Objectivity from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/observer-epistemic-ontic-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Observer Epistemic-Ontic Modelling from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/ontology.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Ontology from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/open.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Open from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/panpsychism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Panpsychism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/path-dependency.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Path Dependency from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/pattern.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Pattern from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/phase-transition.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Phase Transition from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/philosophy-of-language.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Philosophy of Language from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/preferential-attachment.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Preferential Attachment from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/proportionality.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Proportionality from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/quantum-mechanical-ontology-map.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Quantum Mechanical Ontology Map from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/reason.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Reason from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/recurrence.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Recurrence from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/representation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Representation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/reversible.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Reversible from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/scale.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Scale from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/science.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Science from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/self-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Self-Organization from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/skepticism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Skepticism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/stable.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Stable from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/state-descriptor.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import State Descriptor from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/static.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Static from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/stationary.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Stationary from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/steady-state.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Steady State from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/stoicism.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Stoicism from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/survivorship-bias.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Survivorship Bias from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/synchronization.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Synchronization from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/theory.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Theory from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/general/threshold.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Threshold from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/individuation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Individuation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/lumped-element-model.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Lumped Element Model from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/aquinas-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Aquinas's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/aristotle-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Aristotle's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/bacon-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Bacon's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/berkeley-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Berkeley's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/canterbury-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Canterbury's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/cusa-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Cusa’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/descartes-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Descartes’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/hegel-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Hegel’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/heidegger-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Heidegger’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/hume-system.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Hume’s System from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/husserl-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Husserl’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/ibn-al-haytham-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Ibn al-Haytham's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/kant-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Kant’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/leibniz-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Leibniz Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/mileto-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Mileto’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/nietzsche-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Nietzsche’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/ockham-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Ockham's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/philosophical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Philosophical System from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/plato-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Plato’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/russell-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Russell’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/schopenhauer-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Schopenhauer's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/scotus-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Scotus's Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/spinoza-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Spinoza’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/whitehead-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Whitehead’s  Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/method/wittgenstein-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Wittgenstein’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/model.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Model from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Modelado from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Modelling from the Philosophia Naturalis Notion export."
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Add Modelling: the modelling problem as an identification diagram — map, connectors, observational equivalence and identifiability."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/occam-razor.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Occam’s Razor from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/paradigm.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Paradigm from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/principle-of-sufficient-reason-psr.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Principle of Sufficient Reason (PSR) from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/state.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import State from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/the-problem-of-induction.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import The Problem of Induction from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/truth.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Truth from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/validation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Validation from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/variable-reality-aspect-type-vrat.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Variable–Reality Aspect Type (VRAT) from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/practice/variable.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Variable from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
     "file_path": "general/financial-sector.md",
     "logs": [
       {
@@ -8791,6 +10191,36 @@
         "kind": "feat",
         "summary": "Add the Minimal Principle note (minimal-compositionality reading).",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+      }
+    ]
+  },
+  {
+    "file_path": "philosophia-naturalis/doctrina/rousseau-method.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Rousseau’s Method from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "philosophia-naturalis/general/philosophical-system-2.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import philosophical system from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "philosophia-naturalis/general/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import topic from the Philosophia Naturalis Notion export."
       }
     ]
   },

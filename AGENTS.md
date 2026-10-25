@@ -101,6 +101,11 @@ frontend-facing surface in the deployment; there is no database behind it
   heading. Per-corpus naming/tags rules live in their READMEs
   (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
   `src/persona/README.md`).
+- `data/epistemica/theory/` holds the cross-domain theory notes: the
+  *Philosophia Naturalis* conceptual model imported from its Notion export
+  (root guide + `Philosophy` + its concept notes, source template kept) and
+  the identifiability note `theory/practice/modelling.md` (epistemic-element
+  schema). The imported notes have no philosophia schema conversion.
 - Regenerate the corpus index after any edit: `make index` (all of them),
   or individually `make notes-index`,
   `make course-index`, `make document-index`, `make persona-index`

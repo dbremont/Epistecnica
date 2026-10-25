@@ -18,14 +18,15 @@ src/note/
     │   ├── index.json   # generated search index
     │   ├── changelog.json        # per-note edit history (hand-edited)
     │   ├── changelog.schema.json # schema for changelog.json
-    │   ├── epistemica/  # epistemical notes (Modelling domains + elements)
+    │   ├── epistemica/  # epistemical notes (Modelling domains + elements; theory/ scope)
+    │   ├── nature/      # natural notes (natural elements)
     │   └── technica/    # technical notes (cto/, pto/, op/, computation/)
 ```
 
 - Regenerate the search index after any corpus change: `make notes-index`.
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
-  section (`epistemica`, `technica`).
+  section (`epistemica`, `nature`, `technica`).
 
 ## Epistemica corpus
 
@@ -68,6 +69,26 @@ notes, preserving the export's subcollection tree
   corpus is now the source of truth.
 - The import is mechanical: the notes have not yet been converted to the
   technical schema owned by the canonical philosophia guide.
+- Run `make notes-index` afterwards, as for any corpus edit.
+
+## Theory corpus
+
+`data/epistemica/theory/` holds the cross-domain theory notes: the
+*Philosophia Naturalis* conceptual model imported from its Notion export —
+the root guide (`theory/philosophia-naturalis.md`), `theory/philosophy.md`,
+and its concept notes — together with the identifiability note
+`theory/practice/modelling.md`.
+
+- The imported notes keep the source's own template
+  (Meta/Evaluation/Signature/QA) and have not been converted to the
+  epistemical schema; `theory/practice/modelling.md` is authored in the
+  epistemic-element schema.
+- The imported conceptual model was migrated mechanically (a one-off
+  migration; the importer was not kept): names normalized, CSV tags as front
+  matter, relation properties rewritten as a `Related:` line, Notion noise
+  stripped, images moved to the shared `/assets/` store; content preserved.
+- `theory/practice/modelling.md` frames modelling as an identification
+  diagram — map, connectors, observational equivalence, identifiability.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Catalog
