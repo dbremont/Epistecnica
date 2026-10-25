@@ -1,5 +1,7 @@
 ---
 tags: [framework]
+qa:
+  - Why study the interactions and connections between elements? What kinds of regularities, learnable patterns, and useful information can be extracted from them? What purposes can this knowledge serve, such as explanation and intervention?
 ---
 
 # Network Science
