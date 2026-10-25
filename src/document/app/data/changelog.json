@@ -24884,6 +24884,16 @@
     ]
   },
   {
+    "file_path": "papers/nanbeige-lab-2026-nanbeige4-2-3b-unlocking-agentic.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "add Nanbeige4.2-3B agentic small-model technical report"
+      }
+    ]
+  },
+  {
     "file_path": "papers/neil-2002-spring-ratul-mahajan-david-wetherall.md",
     "logs": [
       {
@@ -26390,6 +26400,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "papers/yang-2025-nanbeige4-3b-technical-report-exploring.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "add Nanbeige4-3B small language model technical report"
+      }
+    ]
+  },
+  {
+    "file_path": "papers/yang-2026-nanbeige4-1-3b-small-general-model-reasons.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "add Nanbeige4.1-3B generalist small-model technical report"
       }
     ]
   },
