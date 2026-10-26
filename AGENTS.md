@@ -258,7 +258,7 @@ instance-decomposition table:
   table; paths use `→`; type grouping segments are backticked and
   instances are Title Case; the root type is declared once and no type
   terminates a branch; composites take a `Set` suffix past depth 2;
-  declare the Epistemic Order or Ontic Order in the formulation. The
+  declare whether the branches are read as inquiry or as parsed reality. The
   guide's Arithmetic case study is the worked table reference — not the
   old 4-column entity-taxonomy form.
 - The fifth formulation question — "what is a critical conceptual evaluation

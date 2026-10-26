@@ -39,7 +39,7 @@ with dual necessity $N(A)=1-\Pi(\neg A)$. This is the precise sense in which pos
 
 ### What epistemic element type does this epistemic instance belong to?
 
-An **`Aggregate`** — the organized concept-system of possibility: its questions, target, contexts, representation, constructions, operations, evaluation, and infrastructure. Within that aggregate, the concept **Possibility** is an **Epistemic Construction** (a concept), and its formalizations are models and theories. The decomposition is read under the **Epistemic Order**.
+An **`Aggregate`** — the organized concept-system of possibility: its questions, target, contexts, representation, constructions, operations, evaluation, and infrastructure. Within that aggregate, the concept **Possibility** is an **Epistemic Construction** (a concept), and its formalizations are models and theories. The decomposition is inquiry-relative.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -53,7 +53,7 @@ The primary reading is unambiguous: the note documents the concept-system of pos
 >
 > Identity: Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
-> Typing: the decomposition is read under the Epistemic Order; the root type is `Aggregate`, and the concept `Possibility` is an `Epistemic Construction` within it.
+> Typing: the decomposition is inquiry-relative; the root type is `Aggregate`, and the concept `Possibility` is an `Epistemic Construction` within it.
 
 | Instance Tree Path | Description |
 | --- | --- |

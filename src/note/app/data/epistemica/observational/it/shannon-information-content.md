@@ -36,7 +36,7 @@ The primary reading is unambiguous: it is a concept/construction, not an ontic e
 >
 > Identity: Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
-> Typing: the decomposition is read under the Epistemic Order; the root type is `Epistemic Construction`, and the instances are concepts, models, and theories built on self-information.
+> Typing: the decomposition is inquiry-relative; the root type is `Epistemic Construction`, and the instances are concepts, models, and theories built on self-information.
 
 | Instance Tree Path | Description |
 | --- | --- |

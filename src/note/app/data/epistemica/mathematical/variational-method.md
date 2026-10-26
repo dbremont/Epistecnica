@@ -26,7 +26,7 @@ In physics the same move is **Hamilton's principle**: the motion of a system is 
 
 ### What epistemic element type does this epistemic instance belong to?
 
-An **`Aggregate`** — the organized method-system of variational analysis: its questions, extremum targets, representations (functional, Lagrangian, action, Euler–Lagrange equation, trial ansatz), constitutive theories (gathered under the `Variational Theory` construction), operations (formulate–vary–derive–solve–discretize), evaluations, and infrastructure. The decomposition is read under the **Epistemic Order**; the root type is `Aggregate`, and the constituent theories are `Epistemic Construction`s nested under the `Variational Theory` instance.
+An **`Aggregate`** — the organized method-system of variational analysis: its questions, extremum targets, representations (functional, Lagrangian, action, Euler–Lagrange equation, trial ansatz), constitutive theories (gathered under the `Variational Theory` construction), operations (formulate–vary–derive–solve–discretize), evaluations, and infrastructure. The decomposition is inquiry-relative; the root type is `Aggregate`, and the constituent theories are `Epistemic Construction`s nested under the `Variational Theory` instance.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -42,7 +42,7 @@ What is *not* licensed is collapsing the method into its neighbours. Ordinary nu
 >
 > Identity: Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
-> Typing: the decomposition is read under the Epistemic Order; the root type is `Aggregate`, the constitutive theories hang under the `Variational Theory` instance as `Epistemic Construction`s, and the operative routines under `Epistemic Operation` → `Organization` → `Method`.
+> Typing: the decomposition is inquiry-relative; the root type is `Aggregate`, the constitutive theories hang under the `Variational Theory` instance as `Epistemic Construction`s, and the operative routines under `Epistemic Operation` → `Organization` → `Method`.
 
 | Instance Tree Path | Description |
 | --- | --- |

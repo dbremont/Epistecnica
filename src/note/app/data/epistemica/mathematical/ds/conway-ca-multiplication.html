@@ -584,36 +584,36 @@
             </tr>
           </thead>
           <tbody>
-            <tr><td>Conway Multiplier</td><td>Computed product A&middot;B by Game-of-Life dynamics (exemplar per session).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td>CM &gt; Operand A</td><td>Number of Gosper glider guns, 0&ndash;12 (input).</td><td>Target</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Input Variable</td></tr>
-            <tr><td>CM &gt; Operand B</td><td>Kill-order delay index, 0&ndash;99 (input); sets gliders per gun.</td><td>Target</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Input Variable</td></tr>
-            <tr><td>CM &gt; Gun Bank</td><td>A Gosper glider guns stacked, each firing one p30 glider stream SE.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>CM &gt; Kill-Order Gliders</td><td>NW gliders on a parallel diagonal at flight distance &lfloor;7.5&middot;B&rfloor;+7 cells.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>CM &gt; Delay Line</td><td>At glider speed c/4 each kill arrives after &asymp;30&middot;B generations — exactly B firing periods.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>CM &gt; Clean Kill</td><td>Verified collision that destroys each gun after exactly B gliders.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>CM &gt; Product Stream</td><td>A&middot;B gliders in unary = the product.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td>CM &gt; Eater Detectors</td><td>eater1 blocks absorbing the streams (pale).</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
-            <tr><td>CM &gt; Sensor Cells</td><td>Per-lane cells pulsing once per arriving glider.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
-            <tr><td>CM &gt; Lane Counter</td><td>Refractory-debounced count per lane.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>CM &gt; Product Count</td><td>Running total counted live as gliders arrive.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td>CM &gt; Product Value</td><td>Realized A&middot;B for this session (exemplar).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td>CM &gt; Completion Criterion</td><td>counted = A&middot;B with all guns settled.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>CM &gt; B3/S23 Rule</td><td>The Game-of-Life update rule that performs every step.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>CM &gt; Playground Session</td><td>Guided A&times;B runs, including 12&times;99 (exemplar per session).</td><td>Agency</td><td>(root) &gt; Epistemic Order &gt; Epistemic Activity (Process)</td></tr>
-            <tr><td>CM &gt; Epistemic Function</td><td>Resolves the gap of arithmetic computation in a dynamical substrate: multiplicative relation becomes a counted population.</td><td>Purpose</td><td>(root) &gt; Epistemic Order &gt; Epistemic Purpose</td></tr>
-            <tr><td>CM &gt; Preservation &gt; Product Relation</td><td>Multiplicative relation between the operands preserved through the dynamics.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
-            <tr><td>CM &gt; Preservation &gt; Commutativity</td><td>A&times;B = B&times;A recoverable across the machine's symmetry.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
-            <tr><td>CM &gt; Destruction &gt; Operand Encoding</td><td>Operands exist only as gun and delay counts; no numeric literals survive.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>CM &gt; Destruction &gt; Intermediate State</td><td>Glider timings and positions are discarded once counted.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>CM &gt; Constraint &gt; Bounds</td><td>A &isin; [0,12], B &isin; [0,99] by calibration.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>CM &gt; Constraint &gt; Finite Grid</td><td>Bounded world with a kill-border; overflow is impossible by construction.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>CM &gt; Constraint &gt; Refractory Window</td><td>12-generation debounce prevents double-counting one glider.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>CM &gt; Constraint &gt; Verification Debt</td><td>Correctness rests on exhaustive empirical sweeps, not a formal proof.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>CM &gt; Sweep &gt; 100/100 Single-Lane</td><td>All B = 0&hellip;99 single-lane configurations verified.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>CM &gt; Sweep &gt; Multi-Lane</td><td>12 multi-lane configurations up to 12&times;99 verified.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>CM &gt; Zero Product</td><td>A=0 or B=0 settles with no gliders (exemplar).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>CM &gt; Lossy Reading</td><td>The product scalar hides the machine's full trajectory.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>CM &gt; Robust Alternative &gt; Mapping</td><td>Reading the product back as a numeral is a separate epistemic step.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Strategy</td></tr>
+            <tr><td>Conway Multiplier</td><td>Computed product A&middot;B by Game-of-Life dynamics (exemplar per session).</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Operand A</td><td>Number of Gosper glider guns, 0&ndash;12 (input).</td><td>Target</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact &gt; Input Variable</td></tr>
+            <tr><td>CM &gt; Operand B</td><td>Kill-order delay index, 0&ndash;99 (input); sets gliders per gun.</td><td>Target</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact &gt; Input Variable</td></tr>
+            <tr><td>CM &gt; Gun Bank</td><td>A Gosper glider guns stacked, each firing one p30 glider stream SE.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Kill-Order Gliders</td><td>NW gliders on a parallel diagonal at flight distance &lfloor;7.5&middot;B&rfloor;+7 cells.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Delay Line</td><td>At glider speed c/4 each kill arrives after &asymp;30&middot;B generations — exactly B firing periods.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Clean Kill</td><td>Verified collision that destroys each gun after exactly B gliders.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Product Stream</td><td>A&middot;B gliders in unary = the product.</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Eater Detectors</td><td>eater1 blocks absorbing the streams (pale).</td><td>Access</td><td>(root) &gt; Inquiry &gt; Observation Interface</td></tr>
+            <tr><td>CM &gt; Sensor Cells</td><td>Per-lane cells pulsing once per arriving glider.</td><td>Access</td><td>(root) &gt; Inquiry &gt; Observation Interface</td></tr>
+            <tr><td>CM &gt; Lane Counter</td><td>Refractory-debounced count per lane.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Product Count</td><td>Running total counted live as gliders arrive.</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Product Value</td><td>Realized A&middot;B for this session (exemplar).</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>CM &gt; Completion Criterion</td><td>counted = A&middot;B with all guns settled.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; B3/S23 Rule</td><td>The Game-of-Life update rule that performs every step.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>CM &gt; Playground Session</td><td>Guided A&times;B runs, including 12&times;99 (exemplar per session).</td><td>Agency</td><td>(root) &gt; Inquiry &gt; Epistemic Activity (Process)</td></tr>
+            <tr><td>CM &gt; Epistemic Function</td><td>Resolves the gap of arithmetic computation in a dynamical substrate: multiplicative relation becomes a counted population.</td><td>Purpose</td><td>(root) &gt; Inquiry &gt; Epistemic Purpose</td></tr>
+            <tr><td>CM &gt; Preservation &gt; Product Relation</td><td>Multiplicative relation between the operands preserved through the dynamics.</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Epistemic Representation Form</td></tr>
+            <tr><td>CM &gt; Preservation &gt; Commutativity</td><td>A&times;B = B&times;A recoverable across the machine's symmetry.</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Epistemic Representation Form</td></tr>
+            <tr><td>CM &gt; Destruction &gt; Operand Encoding</td><td>Operands exist only as gun and delay counts; no numeric literals survive.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Destruction &gt; Intermediate State</td><td>Glider timings and positions are discarded once counted.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Bounds</td><td>A &isin; [0,12], B &isin; [0,99] by calibration.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Finite Grid</td><td>Bounded world with a kill-border; overflow is impossible by construction.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Refractory Window</td><td>12-generation debounce prevents double-counting one glider.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Constraint &gt; Verification Debt</td><td>Correctness rests on exhaustive empirical sweeps, not a formal proof.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Sweep &gt; 100/100 Single-Lane</td><td>All B = 0&hellip;99 single-lane configurations verified.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Sweep &gt; Multi-Lane</td><td>12 multi-lane configurations up to 12&times;99 verified.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Zero Product</td><td>A=0 or B=0 settles with no gliders (exemplar).</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>CM &gt; Lossy Reading</td><td>The product scalar hides the machine's full trajectory.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>CM &gt; Robust Alternative &gt; Mapping</td><td>Reading the product back as a numeral is a separate epistemic step.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Strategy</td></tr>
           </tbody>
         </table>
             </div>

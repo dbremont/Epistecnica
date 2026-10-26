@@ -909,36 +909,36 @@
             </tr>
           </thead>
           <tbody>
-            <tr><td>Burstiness Index</td><td>Computed burstiness claim about one event stream (exemplar stream per session).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td>BI &gt; Event Timestamps T</td><td>Ordered input sequence tᵢ ∈ ℝ⁺ (exemplar per session).</td><td>Target</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Event Stream</td></tr>
-            <tr><td>BI &gt; Interval Sequence τ</td><td>Derived input τᵢ = tᵢ₊₁ − tᵢ.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact &gt; Observable</td></tr>
-            <tr><td>BI &gt; Mean Operator μ</td><td>Sample mean of intervals.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>BI &gt; Std Operator σ</td><td>Sample standard deviation with Bessel correction.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>BI &gt; B Formula</td><td>B = (σ−μ)/(σ+μ) mapping to [−1, 1].</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Operator</td></tr>
-            <tr><td>BI &gt; B Value</td><td>Realized scalar for this stream (exemplar).</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Concrete Epistemic Artifact</td></tr>
-            <tr><td>BI &gt; Regime Reading</td><td>Regular (−1), Poisson (0), bursty (+1) classification.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>BI &gt; Timeline Canvas</td><td>Visual inscription of timestamps.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
-            <tr><td>BI &gt; Histogram Canvas</td><td>Visual inscription of the interval distribution.</td><td>Access</td><td>(root) &gt; Epistemic Order &gt; Observation Interface</td></tr>
-            <tr><td>BI &gt; Validation Tests</td><td>Poisson, regular, scale, and extreme regime checks.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>BI &gt; Playground Session</td><td>Guided regimes tour: regular, Poisson, bursty, failure-modes (exemplar per session).</td><td>Agency</td><td>(root) &gt; Epistemic Order &gt; Epistemic Activity (Process)</td></tr>
-            <tr><td>BI &gt; Epistemic Function</td><td>Resolves the gap of temporal pattern quantification: qualitative clustering becomes comparable measurement.</td><td>Purpose</td><td>(root) &gt; Epistemic Order &gt; Epistemic Purpose</td></tr>
-            <tr><td>BI &gt; Preservation &gt; Relative Variance</td><td>Coefficient of variation preserved through the transform.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
-            <tr><td>BI &gt; Preservation &gt; Ordering</td><td>Interval sequence maintained.</td><td>Representation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Representation Form</td></tr>
-            <tr><td>BI &gt; Destruction &gt; Absolute Timing</td><td>Specific timestamps lost.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Destruction &gt; Distribution Shape</td><td>Higher moments discarded.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Temporal Ordering</td><td>Events must be chronologically ordered; permutation destroys information.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Minimum Events</td><td>At least 3 events (2 intervals) for variance computation.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Non-zero Intervals</td><td>Simultaneous events require special handling or exclusion.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Correctness Criteria</td><td>Expected B per regime: −1 regular, 0 Poisson, +1 bursty.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>BI &gt; Poisson Check</td><td>B ≈ 0 over repeated Poisson trials (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>BI &gt; Regular Check</td><td>B &lt; 0 for even streams (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>BI &gt; Scale Check</td><td>Invariance of B under rate scaling (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>BI &gt; Extreme Check</td><td>B → +1 for clustered extremes (exemplar per session).</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Standard</td></tr>
-            <tr><td>BI &gt; Unimodal Scope</td><td>Valid for unimodal, near-symmetric interval data.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Multimodal Failure</td><td>Mean falls between modes; B measures spread around a meaningless center.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Heavy-tail Understatement</td><td>A single scalar understates extreme-event probability.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Lossy Compression</td><td>Infinitely many distributions share one B; always plot alongside.</td><td>Validation</td><td>(root) &gt; Epistemic Order &gt; Epistemic Constraint</td></tr>
-            <tr><td>BI &gt; Robust Alternatives</td><td>MAD and IQR for contaminated data.</td><td>Methodology</td><td>(root) &gt; Epistemic Order &gt; Epistemic Strategy</td></tr>
+            <tr><td>Burstiness Index</td><td>Computed burstiness claim about one event stream (exemplar stream per session).</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>BI &gt; Event Timestamps T</td><td>Ordered input sequence tᵢ ∈ ℝ⁺ (exemplar per session).</td><td>Target</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact &gt; Event Stream</td></tr>
+            <tr><td>BI &gt; Interval Sequence τ</td><td>Derived input τᵢ = tᵢ₊₁ − tᵢ.</td><td>Access</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact &gt; Observable</td></tr>
+            <tr><td>BI &gt; Mean Operator μ</td><td>Sample mean of intervals.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>BI &gt; Std Operator σ</td><td>Sample standard deviation with Bessel correction.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>BI &gt; B Formula</td><td>B = (σ−μ)/(σ+μ) mapping to [−1, 1].</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Operator</td></tr>
+            <tr><td>BI &gt; B Value</td><td>Realized scalar for this stream (exemplar).</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Concrete Epistemic Artifact</td></tr>
+            <tr><td>BI &gt; Regime Reading</td><td>Regular (−1), Poisson (0), bursty (+1) classification.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Timeline Canvas</td><td>Visual inscription of timestamps.</td><td>Access</td><td>(root) &gt; Inquiry &gt; Observation Interface</td></tr>
+            <tr><td>BI &gt; Histogram Canvas</td><td>Visual inscription of the interval distribution.</td><td>Access</td><td>(root) &gt; Inquiry &gt; Observation Interface</td></tr>
+            <tr><td>BI &gt; Validation Tests</td><td>Poisson, regular, scale, and extreme regime checks.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Playground Session</td><td>Guided regimes tour: regular, Poisson, bursty, failure-modes (exemplar per session).</td><td>Agency</td><td>(root) &gt; Inquiry &gt; Epistemic Activity (Process)</td></tr>
+            <tr><td>BI &gt; Epistemic Function</td><td>Resolves the gap of temporal pattern quantification: qualitative clustering becomes comparable measurement.</td><td>Purpose</td><td>(root) &gt; Inquiry &gt; Epistemic Purpose</td></tr>
+            <tr><td>BI &gt; Preservation &gt; Relative Variance</td><td>Coefficient of variation preserved through the transform.</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Epistemic Representation Form</td></tr>
+            <tr><td>BI &gt; Preservation &gt; Ordering</td><td>Interval sequence maintained.</td><td>Representation</td><td>(root) &gt; Inquiry &gt; Epistemic Representation Form</td></tr>
+            <tr><td>BI &gt; Destruction &gt; Absolute Timing</td><td>Specific timestamps lost.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Destruction &gt; Distribution Shape</td><td>Higher moments discarded.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Temporal Ordering</td><td>Events must be chronologically ordered; permutation destroys information.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Minimum Events</td><td>At least 3 events (2 intervals) for variance computation.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Non-zero Intervals</td><td>Simultaneous events require special handling or exclusion.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Correctness Criteria</td><td>Expected B per regime: −1 regular, 0 Poisson, +1 bursty.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Poisson Check</td><td>B ≈ 0 over repeated Poisson trials (exemplar per session).</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Regular Check</td><td>B &lt; 0 for even streams (exemplar per session).</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Scale Check</td><td>Invariance of B under rate scaling (exemplar per session).</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Extreme Check</td><td>B → +1 for clustered extremes (exemplar per session).</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Standard</td></tr>
+            <tr><td>BI &gt; Unimodal Scope</td><td>Valid for unimodal, near-symmetric interval data.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Multimodal Failure</td><td>Mean falls between modes; B measures spread around a meaningless center.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Heavy-tail Understatement</td><td>A single scalar understates extreme-event probability.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Lossy Compression</td><td>Infinitely many distributions share one B; always plot alongside.</td><td>Validation</td><td>(root) &gt; Inquiry &gt; Epistemic Constraint</td></tr>
+            <tr><td>BI &gt; Robust Alternatives</td><td>MAD and IQR for contaminated data.</td><td>Methodology</td><td>(root) &gt; Inquiry &gt; Epistemic Strategy</td></tr>
           </tbody>
         </table>
             </div>

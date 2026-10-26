@@ -24,7 +24,7 @@ The field's centre of gravity is the pair (belief, preference): a probability di
 
 ### What epistemic element type does this epistemic instance belong to?
 
-An **`Aggregate`** — the organized field of decision theory: its questions, target, representation, constructions, operations, evaluation, and infrastructure. Within that aggregate, the core theory (expected utility) is an **Epistemic Construction** (a theory), and the individual methods are constructions and operations. The decomposition is read under the **Epistemic Order**.
+An **`Aggregate`** — the organized field of decision theory: its questions, target, representation, constructions, operations, evaluation, and infrastructure. Within that aggregate, the core theory (expected utility) is an **Epistemic Construction** (a theory), and the individual methods are constructions and operations. The decomposition is inquiry-relative.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -38,7 +38,7 @@ The primary reading is unambiguous: the note documents the organized field, an `
 >
 > Identity: Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
-> Typing: the decomposition is read under the Epistemic Order; the root type is `Aggregate`, and the core theory is an `Epistemic Construction` within it.
+> Typing: the decomposition is inquiry-relative; the root type is `Aggregate`, and the core theory is an `Epistemic Construction` within it.
 
 | Instance Tree Path | Description |
 | --- | --- |

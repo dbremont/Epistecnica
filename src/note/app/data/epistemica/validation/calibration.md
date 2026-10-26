@@ -34,7 +34,7 @@ tags: [calibration, identifiability, validation, estimation]
 
 ### What epistemic element type does this epistemic instance belong to?
 
-> Primary type: `Aggregate` — the **Calibration Practice Set**: the organized inquiry that binds an orientation (which free elements, against which reference), a target (segment, observable, reference record), a representation (map, parameters, scale), operations (fitting, estimation, adjustment), evaluations (discrepancy, reliability, traceability, independent validation), a context (noise and data regime), and an infrastructure (algorithms, reference data) into one coherent epistemic whole. The root type is declared once, and the branches are read in the **Epistemic Order**.
+> Primary type: `Aggregate` — the **Calibration Practice Set**: the organized inquiry that binds an orientation (which free elements, against which reference), a target (segment, observable, reference record), a representation (map, parameters, scale), operations (fitting, estimation, adjustment), evaluations (discrepancy, reliability, traceability, independent validation), a context (noise and data regime), and an infrastructure (algorithms, reference data) into one coherent epistemic whole. The root type is declared once, and the branches are read as elements of inquiry.
 
 > `readable as` an `Epistemic Operation` when attention falls on the act of fitting or adjusting; `readable as` an `Epistemic Evaluation` when attention falls on the criterion that decides when the fit is acceptable; and `readable as` an `Epistemic Construction` when attention falls on the calibrated artifact. `Aggregate` is primary because calibration is not exhausted by the operation: the criterion and the artifact are constitutive of the practice.
 

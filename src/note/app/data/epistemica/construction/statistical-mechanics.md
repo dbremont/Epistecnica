@@ -30,7 +30,7 @@ Its essence is compression under warrant: an ensemble compresses the astronomica
 
 > Primary type: `Epistemic Construction` — specifically a `Theory` of the **`Theory Family`** kind: the general theory whose instances are particular formulations, ensembles, or applications ("a statistical mechanics").
 
-The decomposition is read under the Epistemic Order; the root type is `Epistemic Construction`, the theory's own constituents — cores, ensembles, distributions, concepts, predictions — hang under the `Statistical Mechanics` instance as `Epistemic Construction`s, and its tool routines under `Epistemic Operation` → `Organization` → `Method`. Two `readable as …` readings are legitimate and kept as prose, not as second trees: `readable as` an **`Aggregate`** when attention falls on the practiced field — its tools, paradigms, evaluations, and institutions (the reading under which the catalogue entry in [REES](note.html?n=epistemica/rees.md) files this note among the operation & construction catalogues), and `readable as` an **`Epistemic Representation`** (a `Representational System`) when the probability-measure formalism itself is in focus — the calculus of weights, expectations, and cumulants over microstates.
+The decomposition is inquiry-relative; the root type is `Epistemic Construction`, the theory's own constituents — cores, ensembles, distributions, concepts, predictions — hang under the `Statistical Mechanics` instance as `Epistemic Construction`s, and its tool routines under `Epistemic Operation` → `Organization` → `Method`. Two `readable as …` readings are legitimate and kept as prose, not as second trees: `readable as` an **`Aggregate`** when attention falls on the practiced field — its tools, paradigms, evaluations, and institutions (the reading under which the catalogue entry in [REES](note.html?n=epistemica/rees.md) files this note among the operation & construction catalogues), and `readable as` an **`Epistemic Representation`** (a `Representational System`) when the probability-measure formalism itself is in focus — the calculus of weights, expectations, and cumulants over microstates.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -44,7 +44,7 @@ The primary reading is unambiguous: the note documents the general theory — th
 >
 > Identity: Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
-> Typing: the decomposition is read under the Epistemic Order; the root type is `Epistemic Construction`, the theory's own constituents hang under the `Statistical Mechanics` instance as `Epistemic Construction`s (cores as `Theory`, systems as `Model`, distributions as `Description`, concepts as `Concept`, forecasts as `Prediction`), and the tool routines under `Epistemic Operation` → `Organization` → `Method`.
+> Typing: the decomposition is inquiry-relative; the root type is `Epistemic Construction`, the theory's own constituents hang under the `Statistical Mechanics` instance as `Epistemic Construction`s (cores as `Theory`, systems as `Model`, distributions as `Description`, concepts as `Concept`, forecasts as `Prediction`), and the tool routines under `Epistemic Operation` → `Organization` → `Method`.
 
 | Instance Tree Path | Description |
 | --- | --- |

@@ -37,7 +37,7 @@ and the schema it instantiates is owned by the canonical
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
-> The table below decomposes mathematics as an organized inquiry system, grown along the branches of the Epistemic Order. A deep core (orientation, representation, operation, evaluation) is developed to levels 4–5; the rest (agency, target, communication, infrastructure, context) is carried to level 3–4. Each leaf resolves to a concrete instance.
+> The table below decomposes mathematics as an organized inquiry system, grown along the branches of inquiry. A deep core (orientation, representation, operation, evaluation) is developed to levels 4–5; the rest (agency, target, communication, infrastructure, context) is carried to level 3–4. Each leaf resolves to a concrete instance.
 
 | Instance Tree Path | Description |
 | --- | --- |

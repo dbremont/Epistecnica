@@ -1273,6 +1273,11 @@
         "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
         "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording."
       }
     ]
   },
@@ -1302,6 +1307,11 @@
         "kind": "feat",
         "summary": "Add the Computer Science discipline Aggregate note.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition preamble."
       }
     ]
   },
@@ -1313,6 +1323,11 @@
         "kind": "feat",
         "summary": "Add the Logic discipline Aggregate note.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition preamble."
       }
     ]
   },
@@ -1324,6 +1339,11 @@
         "kind": "feat",
         "summary": "Add the Mathematics discipline Aggregate note, folding in the retired mathematical.md.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition preamble."
       }
     ]
   },
@@ -1335,6 +1355,11 @@
         "kind": "feat",
         "summary": "Add the Philosophy discipline Aggregate note.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition preamble."
       }
     ]
   },
@@ -1351,6 +1376,11 @@
         "kind": "refactor",
         "summary": "Fold the observational statistics framework note into this discipline Aggregate.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition preamble."
       }
     ]
   },
@@ -5448,6 +5478,11 @@
         "date": "2026-10-21",
         "kind": "docs",
         "summary": "Add the solved-problems question (Newton's minimal resistance through VQE), two benchmark exemplars in the tree, and the Newton resistance-problem reference."
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording."
       }
     ]
   },
@@ -6276,6 +6311,11 @@
         "summary": "Retarget the decision-tree link to technica/ais/synthesis/learning-method/.",
         "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82",
         "before": "98892d3cf5d0670efbd62c5495c9f9768a007ad4"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording."
       }
     ]
   },
@@ -6972,6 +7012,11 @@
         "date": "2026-10-21",
         "kind": "docs",
         "summary": "Conform the type question to the guide's wording (ambiguous?)."
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording."
       }
     ]
   },
@@ -7606,6 +7651,11 @@
         "date": "2026-10-21",
         "kind": "docs",
         "summary": "Conform the type question to the guide's wording (ambiguous?)."
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording."
       }
     ]
   },
@@ -8345,6 +8395,11 @@
         "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
         "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording."
       }
     ]
   },
@@ -8675,6 +8730,11 @@
         "summary": "Add the Disciplines root to the backbone and point the catalogue links at the discipline notes.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
         "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the REES note and describe the branches as inquiry branches."
       }
     ]
   },
@@ -10221,6 +10281,11 @@
         "summary": "Point the Mathematical domain link at the mathematical catalogue folder.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
         "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the QA and type formulation."
       }
     ]
   },
@@ -10332,6 +10397,11 @@
         "summary": "Point the Model Validation link at validation.md.",
         "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
         "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the type formulation."
       }
     ]
   },
@@ -10350,6 +10420,11 @@
         "summary": "Convert the e-value note to the epistemic-element schema: type the e-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the e-value QA.",
         "commit": "c185c1a6c7de41ed6bfb7d4fc8f71ba16dc5510d",
         "before": "46e8ec8d8ac4c884c789a0f72cb40319466aac4d"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording."
       }
     ]
   },
@@ -10429,6 +10504,11 @@
         "summary": "Convert to the epistemic-element schema: type the p-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the interpretation QA.",
         "commit": "1b039d6a80ed0d56c21e72700121349529c738c7",
         "before": "5b0f638be7203c648551d41fb6f3626db5099d66"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording and drop the order declaration."
       }
     ]
   },

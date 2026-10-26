@@ -14,7 +14,7 @@ qa:
   - Can predictive success justify structural claims, or does it only admit a model into the fibre?
   - Where does the functional-map framing stop working — stochastic kernels, causal graphs, partial observability, or open systems?
   - What does the *Modelado* master contribute — the modelling pipeline, well-posedness, the domain index — that the identification diagram alone does not?
-  - Which parts of the note are read in the Epistemic Order and which in the Ontic Order?
+  - Which parts of the note are read as inquiry and which as parsed reality?
   - What would count as evidence against the identification framing itself?
 ---
 
@@ -133,7 +133,7 @@ A rule that determines whether the model adequately explains or fits the observe
 
 ### What epistemic element type does this epistemic instance belong to?
 
-> Primary type: `Aggregate` — the **Modelling Practice Set**: the organized inquiry that binds an orientation (the question and its purpose), a target (segment, observable, target element), an access regime (interface, record), a representation (the map and its elements), operations (evaluation, inference, estimation), evaluations (identifiability, equivalence, validation, error), a context (noise and conditions), and an infrastructure (tools, repositories) into one coherent epistemic whole. The root type is declared once, and the branches are read in the **Epistemic Order**.
+> Primary type: `Aggregate` — the **Modelling Practice Set**: the organized inquiry that binds an orientation (the question and its purpose), a target (segment, observable, target element), an access regime (interface, record), a representation (the map and its elements), operations (evaluation, inference, estimation), evaluations (identifiability, equivalence, validation, error), a context (noise and conditions), and an infrastructure (tools, repositories) into one coherent epistemic whole. The root type is declared once, and the branches are read as elements of inquiry.
 
 > `readable as` an `Epistemic Operation` when attention falls on the practice (evaluating, inverting, estimating, identifying); `readable as` an `Epistemic Construction` when attention falls on the model as an artifact; and `readable as` an `Epistemic Evaluation` when attention falls on identifiability, equivalence, and validation. `Aggregate` is primary because the practice is not exhausted by any one of these readings: the map without the operation is inert, and the operation without the evaluation cannot say what was identified.
 

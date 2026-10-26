@@ -88,7 +88,7 @@ qa:
 
 > The table inserts the guide's licensed type groupings between the instance segments — `Representational System`, `Representation Element`, `Constitutive Substrate`, and `Property` on the representation branch; `Organization`, `Method`, `Procedure`, `Action`, and `Principle` on the operation branch. The instance chain is preserved; the groupings are what let each row be typed.
 
-> The **Epistemic Order** is declared for both branches. The target — population, sample, observable — is ontic and is not part of either branch. The e-value is not a feature of observer-independent reality; it is a representation of a sample relative to a null model and a construction.
+> Both branches are read as elements of inquiry rather than as elements of reality. The target — population, sample, observable — is ontic and is not part of either branch. The e-value is not a feature of observer-independent reality; it is a representation of a sample relative to a null model and a construction.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -108,7 +108,7 @@ qa:
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
-> Boundary: the table decomposes the e-value element under two kind branches — the representation (the quantity) and the operation (its calculation). Stopping rule: a row is terminal when it names a concrete quantity, model component, procedure, act, principle, or test; the branches are not decomposed further here. Identity: every path is unique; instance rows are Title Case; type groupings are backticked; no type terminates a branch. Typing: the root is `Epistemic Element`; the e-value branch is `Epistemic Representation`, the calculation branch is `Epistemic Operation`; both are read in the Epistemic Order.
+> Boundary: the table decomposes the e-value element under two kind branches — the representation (the quantity) and the operation (its calculation). Stopping rule: a row is terminal when it names a concrete quantity, model component, procedure, act, principle, or test; the branches are not decomposed further here. Identity: every path is unique; instance rows are Title Case; type groupings are backticked; no type terminates a branch. Typing: the root is `Epistemic Element`; the e-value branch is `Epistemic Representation`, the calculation branch is `Epistemic Operation`; both are read as elements of inquiry.
 
 | Instance Tree Path | Description |
 | --- | --- |

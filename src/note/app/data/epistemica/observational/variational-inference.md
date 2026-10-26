@@ -22,7 +22,7 @@ The family $\mathcal{Q}$ ranges from fully factorized **mean-field** ansätze $q
 
 ### What epistemic element type does this epistemic instance belong to?
 
-An **`Aggregate`** — the organized method-system of approximate-posterior inference: its questions, posterior targets, representations (variational family, ELBO functional, reparameterization map), constitutive theories (gathered under the `Variational Inference Theory` construction), operations (coordinate and gradient ascent on the bound), evaluations (bound tightness, predictive checks), and infrastructure. The decomposition is read under the **Epistemic Order**; the root type is `Aggregate`, and the constituent theories are `Epistemic Construction`s nested under the `Variational Inference Theory` instance.
+An **`Aggregate`** — the organized method-system of approximate-posterior inference: its questions, posterior targets, representations (variational family, ELBO functional, reparameterization map), constitutive theories (gathered under the `Variational Inference Theory` construction), operations (coordinate and gradient ascent on the bound), evaluations (bound tightness, predictive checks), and infrastructure. The decomposition is inquiry-relative; the root type is `Aggregate`, and the constituent theories are `Epistemic Construction`s nested under the `Variational Inference Theory` instance.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -38,7 +38,7 @@ What is *not* licensed is collapsing the method into its neighbours. MCMC **samp
 >
 > Identity: Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
-> Typing: the decomposition is read under the Epistemic Order; the root type is `Aggregate`, the constitutive theories hang under the `Variational Inference Theory` instance as `Epistemic Construction`s, and the operative routines under `Epistemic Operation` → `Organization` → `Method`.
+> Typing: the decomposition is inquiry-relative; the root type is `Aggregate`, the constitutive theories hang under the `Variational Inference Theory` instance as `Epistemic Construction`s, and the operative routines under `Epistemic Operation` → `Organization` → `Method`.
 
 | Instance Tree Path | Description |
 | --- | --- |

@@ -45,8 +45,8 @@ the scaffolding under which any domain inquiry can be grown.
 > `Aggregate`.
 
 Reality Inquiry is a structured collection of epistemic elements, so it
-belongs to the `Aggregate` type of the Epistemic Order. Its children are
-typed by the branches of that order — `Epistemic Orientation`,
+is an `Aggregate` over the inquiry branches. Its children are
+typed by those branches — `Epistemic Orientation`,
 `Epistemic Agency`, `Epistemic Target`, `Epistemic Access`,
 `Epistemic Representation`, `Epistemic Construction`,
 `Epistemic Operation`, `Epistemic Evaluation`,
@@ -78,7 +78,7 @@ Two recurring ambiguities are worth stating up front:
 ### What is the recursive instance decomposition of this epistemic instance?
 
 > The table below is the **backbone**: the root *Reality Inquiry*, its twelve
-> branches (eleven of the Epistemic Order plus the `Ontic` branch of the Ontic
+> branches (eleven inquiry branches plus the `Ontic` branch of the Ontic
 > Order), the reflexive root, and the *Disciplines* root that indexes the
 > organized inquiry systems the other branches presuppose. The **complete,
 > ever-expanding decomposition** — every branch grown down to its generic
@@ -119,7 +119,7 @@ Two recurring ambiguities are worth stating up front:
 - **Strength.** It gives one typed index spanning the whole of inquiry, so a
   domain catalogue can be grown link by permitted link without inventing a
   vocabulary per domain. Because the root is an `Aggregate` over the
-  Epistemic Order, the same twelve branches apply whether the target is a
+  inquiry branches, the same twelve branches apply whether the target is a
   physical phenomenon, a formal system, or the inquiry itself.
 - **Risk of over-extension.** A universal schema can absorb too much: if
   every practice is filed as an instance, the distinctions that carry
@@ -139,7 +139,7 @@ Two recurring ambiguities are worth stating up front:
 > An epistemic element type is read under two orders, and the same element
 > can be read under both.
 
-- **Epistemic Order** — the *inquiry* order: orientation, agency, target,
+- **Inquiry** — orientation, agency, target,
   access, representation (including constitution), construction, operation,
   evaluation, communication, infrastructure, and conditions, plus
   `Aggregate` collections. It answers: how does an inquirer turn reality
@@ -150,7 +150,7 @@ Two recurring ambiguities are worth stating up front:
 
 They are mutually constraining duals of the same act. Ontology constrains
 what can be known; epistemology constrains how the known is accessed and
-represented. REES roots the Epistemic Order at `Aggregate` → Reality
+represented. REES roots the inquiry branches at `Aggregate` → Reality
 Inquiry and the Ontic Order under the `Ontic` branch, and licenses their
 exchange through the guide's `Permitted Link Forms` table: an
 `Epistemic Target` decomposes to a `Segment of Reality` and an
