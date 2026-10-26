@@ -10271,7 +10271,9 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Add the null-hypothesis trick note and restore the Hypothesis Testing relation to the references."
+        "summary": "Add the null-hypothesis trick note and restore the Hypothesis Testing relation to the references.",
+        "commit": "6fb8e123adfffcf231c2d234d15cd34d997cbdfe",
+        "before": "e23cf6d58258e16dc8110015b5502b9ebe6064a0"
       }
     ]
   },
@@ -10315,7 +10317,9 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Rework the QA and references sections; trim the Related line."
+        "summary": "Rework the QA and references sections; trim the Related line.",
+        "commit": "6fb8e123adfffcf231c2d234d15cd34d997cbdfe",
+        "before": "e23cf6d58258e16dc8110015b5502b9ebe6064a0"
       }
     ]
   },
