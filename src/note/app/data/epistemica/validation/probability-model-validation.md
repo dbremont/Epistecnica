@@ -1,6 +1,6 @@
 # Probability Model Validation
 
- : Model Validation (Model%20Validation%2024fc0f5171ec8060b23af2f0f74afdc4.md)
+Related: [Model Validation](note.html?n=epistemica/validation/model-validation.md)
 
 > **Probability model validation** is the process of assessing whether a probabilistic model **adequately represents the system or phenomenon it is intended to describe**, capturing both the **structural dependencies** and the **stochastic behavior** of the variables of interest. The goal is to ensure that predictions, inferences, or decisions based on the model are **reliable** and **consistent with observed data**.
 > 

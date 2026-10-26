@@ -6298,17 +6298,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/e-values.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import E-values from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/econometrics.md",
     "logs": [
       {
@@ -6783,17 +6772,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Huffman Coding from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/hypothesis-testing.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hypothesis Testing from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7275,17 +7253,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/model-validation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Model Validation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/moment-generating-function-mgf.md",
     "logs": [
       {
@@ -7413,17 +7380,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Ordinary Least Squares (OLS) Estimator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/p-value.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import p-value from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7634,17 +7590,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Probability Mass Function (PMF) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/probability-model-validation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Probability Model Validation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8042,6 +7987,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Retarget the Model Validation and Statistical Hypothesis Testing links after the validation-scope move."
       }
     ]
   },
@@ -10230,17 +10180,6 @@
     ]
   },
   {
-    "file_path": "epistemica/theory/practice/validation.md",
-    "logs": [
-      {
-        "date": "2026-10-25",
-        "kind": "feat",
-        "summary": "Import Validation from the Philosophia Naturalis Notion export.",
-        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/theory/practice/variable-reality-aspect-type-vrat.md",
     "logs": [
       {
@@ -10259,6 +10198,122 @@
         "kind": "feat",
         "summary": "Import Variable from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/calibration.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Add Calibration: parameter, probabilistic and measurement calibration as one practice, with identifiability and validation as its neighbours."
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Expand the calibration references: forecast verification, proper scoring and ML recalibration."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/e-values.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import E-values from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "refactor",
+        "summary": "Move to epistemica/validation/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/model-validation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Model Validation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "refactor",
+        "summary": "Move to epistemica/validation/ and rewrite the relation line."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/p-value.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import p-value from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "refactor",
+        "summary": "Move to epistemica/validation/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/probability-model-validation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability Model Validation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "refactor",
+        "summary": "Move to epistemica/validation/ and rewrite the relation line."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/statistical-hypothesis-testing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hypothesis Testing from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "refactor",
+        "summary": "Move to epistemica/validation/ and rename to Statistical Hypothesis Testing."
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Fill the references and the PhD-level QA set."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/validation.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Validation from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "refactor",
+        "summary": "Move to epistemica/validation/ and link the validation set."
       }
     ]
   },

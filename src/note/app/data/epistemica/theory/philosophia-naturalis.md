@@ -337,7 +337,7 @@ The following principles summarize these features:
 > How to validate our descriptions of reality?
 > 
 
-> See more in [Validation](note.html?n=epistemica/theory/practice/validation.md).
+> See more in [Validation](note.html?n=epistemica/validation/validation.md).
 > 
 
 ### Limitation

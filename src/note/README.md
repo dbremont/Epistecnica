@@ -53,6 +53,9 @@ companion is `data/epistemica/rees.md`.
   scope, with `space/space.md` as the master note. Related foundational
   notes (structure, geometry, topology, order, measure, algebra, coordinate
   systems) stay in `mathematical/` and are reached through `links.json`.
+- The validation scope lives in `epistemica/validation/`: `validation.md`
+  (master), `model-validation.md`, `probability-model-validation.md`, and
+  `calibration.md`.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Computation corpus

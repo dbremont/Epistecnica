@@ -4,7 +4,7 @@ tags: [learning-system, probability, statistic]
 
 # Model Validation
 
- : Hypothesis Testing (Hypothesis%20Testing%201d8c0f5171ec8059ab37d8dcb755dbae.md), Probability Model Validation (Probability%20Model%20Validation%2030ec0f5171ec80e4896ae8822ddeddd5.md)
+Related: [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md), [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md)
 
 > The process of quantitatively and qualitatively assessing the performance, reliability, and generalizability of a mathematical, statistical, or computational model by comparing its outputs against independent datasets, theoretical expectations, or known system behaviors, to determine whether the model accurately represents the underlying system or phenomenon within a specified domain of applicability.
 > 

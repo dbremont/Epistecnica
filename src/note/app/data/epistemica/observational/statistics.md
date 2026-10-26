@@ -457,7 +457,7 @@ tags: [framework]
 
 ### Model Validation
 
-> See [Model Validation](model-validation.md) &  [Hypothesis Testing](hypothesis-testing.md).
+> See [Model Validation](note.html?n=epistemica/validation/model-validation.md) & [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md).
 > 
 
 ### **Predictive Power**

@@ -271,6 +271,10 @@ instance-decomposition table:
   export (one-off migration; the importer was removed after use —
   mechanical normalization only, the schema conversion is still
   outstanding).
+- The validation notes live in `epistemica/validation/` — `validation.md`
+  (master), `model-validation.md`, `probability-model-validation.md`, and
+  `calibration.md`; calibration is a distinct practice, not a synonym for
+  validation.
 - **REES** (`epistemica/rees.md` + `rees.html` + `rees.json`) is the master
   epistemic inventory. The tree is stored canonically in `rees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;

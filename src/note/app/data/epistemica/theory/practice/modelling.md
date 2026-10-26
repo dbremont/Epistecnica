@@ -1,5 +1,21 @@
 ---
 tags: [epistemology, representation, modelling, identifiability]
+qa:
+  - What is the modelling instance — the map $f_\theta: X \to Y$, the model artifact, the practice, or the identification problem that binds them?
+  - Why is $Y$ a datum in inverse problems and the unknown in forward problems, and what stays invariant across the problem types?
+  - What epistemic element type does modelling belong to, and why is `Aggregate` primary over `Epistemic Operation`, `Epistemic Construction`, and `Epistemic Evaluation`?
+  - What is the relation between a connector $C$ and the schema $X \to Y$ — realization, morphism, pullback, or physical measurement channel?
+  - When are several $X$ contexts or several models observationally equivalent, and what does the fibre $B^{-1}(y)$ leave unidentified?
+  - What separates structural from practical identifiability, and which one can a finite, noisy dataset ever establish?
+  - Is Hadamard well-posedness — existence, uniqueness, stability — the same as identifiability, or a precondition for it?
+  - What does equifinality share with observational equivalence, and where do the two come apart?
+  - What does a gauge orbit hide, and when is gauge-fixing a discovery rather than a convention?
+  - When is a model right for the wrong reasons, and which tests — intervention, out-of-distribution prediction, structural stability — can expose it?
+  - Can predictive success justify structural claims, or does it only admit a model into the fibre?
+  - Where does the functional-map framing stop working — stochastic kernels, causal graphs, partial observability, or open systems?
+  - What does the *Modelado* master contribute — the modelling pipeline, well-posedness, the domain index — that the identification diagram alone does not?
+  - Which parts of the note are read in the Epistemic Order and which in the Ontic Order?
+  - What would count as evidence against the identification framing itself?
 ---
 
 # Modelling
