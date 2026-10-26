@@ -10415,6 +10415,11 @@
         "summary": "Add the null-hypothesis trick note and restore the Hypothesis Testing relation to the references.",
         "commit": "6fb8e123adfffcf231c2d234d15cd34d997cbdfe",
         "before": "e23cf6d58258e16dc8110015b5502b9ebe6064a0"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Convert to the epistemic-element schema: type the p-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the interpretation QA."
       }
     ]
   },

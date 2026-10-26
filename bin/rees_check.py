@@ -11,8 +11,10 @@ Contract (see src/note/README.md and the philosophia guide):
   - every node has a label, type, kind, order, and description;
   - sibling labels are unique, and every root-to-node path is unique;
   - a grouping (type) node never terminates a branch (always has children);
-  - a grouping node's type is its own label; an instance's type is the
-    nearest grouping/root ancestor's type;
+  - a grouping node's type is its own label;
+  - an instance may have children (a recursive instance chain); a leaf
+    instance's type is its parent's type when the parent is a grouping/root,
+    and is its declared type when the parent is an instance;
   - every leaf is an instance; kind/order values are from the fixed sets;
   - the declared stats match the tree.
 
@@ -31,12 +33,12 @@ KINDS = {"root", "grouping", "instance"}
 ORDERS = {"epistemic", "ontic", "reflexive"}
 
 
-def walk(node, parent_type, path, out):
+def walk(node, parent_type, parent_kind, path, out):
     label = node.get("label")
     here = path + [label]
-    out.append((node, tuple(here), parent_type))
+    out.append((node, tuple(here), parent_type, parent_kind))
     for child in node.get("children", []):
-        walk(child, node.get("type"), here, out)
+        walk(child, node.get("type"), node.get("kind"), here, out)
 
 
 def check(data):
@@ -45,9 +47,9 @@ def check(data):
     nodes = []
 
     for root in data.get("roots", []):
-        walk(root, "Aggregate", [], nodes)
+        walk(root, "Aggregate", "root", [], nodes)
 
-    for node, path, parent_type in nodes:
+    for node, path, parent_type, parent_kind in nodes:
         label = node.get("label")
         where = " → ".join(path)
 
@@ -71,13 +73,17 @@ def check(data):
             if not node.get("children"):
                 errors.append("%s: grouping terminates a branch" % where)
         elif node.get("kind") == "instance":
-            if not node.get("children") and node.get("type") != parent_type:
+            if not isinstance(node.get("type"), str) or not node["type"].strip():
+                errors.append("%s: missing instance type" % where)
+            if (
+                not node.get("children")
+                and parent_kind != "instance"
+                and node.get("type") != parent_type
+            ):
                 errors.append(
                     "%s: instance type %r != parent type %r"
                     % (where, node.get("type"), parent_type)
                 )
-            if node.get("children"):
-                errors.append("%s: instance has children" % where)
 
     # sibling uniqueness
     def siblings(node):
@@ -92,10 +98,10 @@ def check(data):
 
     stats = {
         "nodes": len(nodes),
-        "groupings": sum(1 for n, _, _ in nodes if n.get("kind") == "grouping"),
-        "instances": sum(1 for n, _, _ in nodes if n.get("kind") == "instance"),
+        "groupings": sum(1 for n, _, _, _ in nodes if n.get("kind") == "grouping"),
+        "instances": sum(1 for n, _, _, _ in nodes if n.get("kind") == "instance"),
         "branches": len(data.get("roots", [{}])[0].get("children", [])),
-        "maxDepth": max((len(p) for _, p, _ in nodes), default=0),
+        "maxDepth": max((len(p) for _, p, _, _ in nodes), default=0),
     }
     declared = data.get("stats", {})
     for key, value in stats.items():

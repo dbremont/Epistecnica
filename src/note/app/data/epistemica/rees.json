@@ -1,7 +1,7 @@
 {
   "title": "Reality Epistemic Element Set",
   "abbr": "REES",
-  "generated": "2026-10-19",
+  "generated": "2026-10-26",
   "source": "converted from the rees.md decomposition table",
   "guide": "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md",
   "note": "epistemica/rees.md",
@@ -11,11 +11,11 @@
     "reflexive": "Inquiry turned on itself: its own conditions, limits, and accounts."
   },
   "stats": {
-    "nodes": 432,
+    "nodes": 439,
     "groupings": 88,
-    "instances": 341,
+    "instances": 348,
     "branches": 12,
-    "maxDepth": 6
+    "maxDepth": 8
   },
   "roots": [
     {
@@ -1028,6 +1028,32 @@
                   "children": []
                 },
                 {
+                  "label": "Quantitative Representation",
+                  "type": "Representational System",
+                  "kind": "instance",
+                  "order": "epistemic",
+                  "description": "System of quantities, scales, and numerical comparison.",
+                  "children": [
+                    {
+                      "label": "Statistical Quantity",
+                      "type": "Representation Element",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Quantity defined by a statistical model and a sampling distribution rather than by direct measurement.",
+                      "children": [
+                        {
+                          "label": "P-Value",
+                          "type": "Representation Element",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Tail probability of a test statistic at least as extreme as the observed one, under the null hypothesis.",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "label": "Computational System",
                   "type": "Representational System",
                   "kind": "instance",
@@ -2018,6 +2044,41 @@
                       "order": "epistemic",
                       "description": "Design and analysis under probabilistic assumptions.",
                       "children": []
+                    },
+                    {
+                      "label": "Statistical Operation",
+                      "type": "Method",
+                      "kind": "instance",
+                      "order": "epistemic",
+                      "description": "Organized class of operations that infer from sample to population under a statistical model.",
+                      "children": [
+                        {
+                          "label": "Statistical Inference",
+                          "type": "Method",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Inference from sample to population under a model, read here as the method of the p-value calculation.",
+                          "children": [
+                            {
+                              "label": "Hypothesis Testing",
+                              "type": "Method",
+                              "kind": "instance",
+                              "order": "epistemic",
+                              "description": "Method that evaluates a null hypothesis against an alternative by a test statistic and a rejection rule.",
+                              "children": [
+                                {
+                                  "label": "P-Value Calculation",
+                                  "type": "Procedure",
+                                  "kind": "instance",
+                                  "order": "epistemic",
+                                  "description": "Procedure that computes the p-value from the observed statistic and its null distribution.",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
