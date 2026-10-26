@@ -11,9 +11,9 @@
     "reflexive": "Inquiry turned on itself: its own conditions, limits, and accounts."
   },
   "stats": {
-    "nodes": 439,
+    "nodes": 441,
     "groupings": 88,
-    "instances": 348,
+    "instances": 350,
     "branches": 12,
     "maxDepth": 8
   },
@@ -1048,6 +1048,14 @@
                           "order": "epistemic",
                           "description": "Tail probability of a test statistic at least as extreme as the observed one, under the null hypothesis.",
                           "children": []
+                        },
+                        {
+                          "label": "E-Value",
+                          "type": "Representation Element",
+                          "kind": "instance",
+                          "order": "epistemic",
+                          "description": "Nonnegative statistic with expectation at most one under every null distribution; larger values are evidence against the null hypothesis.",
+                          "children": []
                         }
                       ]
                     }
@@ -2072,6 +2080,14 @@
                                   "kind": "instance",
                                   "order": "epistemic",
                                   "description": "Procedure that computes the p-value from the observed statistic and its null distribution.",
+                                  "children": []
+                                },
+                                {
+                                  "label": "E-Value Calculation",
+                                  "type": "Procedure",
+                                  "kind": "instance",
+                                  "order": "epistemic",
+                                  "description": "Procedure that constructs an e-value or e-process from the observed data and the null model.",
                                   "children": []
                                 }
                               ]

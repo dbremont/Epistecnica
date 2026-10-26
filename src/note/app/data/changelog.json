@@ -10343,6 +10343,11 @@
         "kind": "feat",
         "summary": "Add the E-value note.",
         "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Convert the e-value note to the epistemic-element schema: type the e-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the e-value QA."
       }
     ]
   },
