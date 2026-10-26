@@ -10419,7 +10419,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Convert to the epistemic-element schema: type the p-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the interpretation QA."
+        "summary": "Convert to the epistemic-element schema: type the p-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the interpretation QA.",
+        "commit": "1b039d6a80ed0d56c21e72700121349529c738c7",
+        "before": "5b0f638be7203c648551d41fb6f3626db5099d66"
       }
     ]
   },
