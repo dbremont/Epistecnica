@@ -34773,7 +34773,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Update the conform.py reference to its centralized repo-root bin/ path."
+        "summary": "Update the conform.py reference to its centralized repo-root bin/ path.",
+        "commit": "86647eb05e80bdc1642b49e2b30880fe88a11ce0",
+        "before": "75e0f81ad93464a79d7d871f067c6110fa681690"
       }
     ]
   },
