@@ -11,9 +11,9 @@
     "reflexive": "Inquiry turned on itself: its own conditions, limits, and accounts."
   },
   "stats": {
-    "nodes": 426,
+    "nodes": 432,
     "groupings": 88,
-    "instances": 336,
+    "instances": 341,
     "branches": 12,
     "maxDepth": 6
   },
@@ -3513,6 +3513,55 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "label": "Disciplines",
+      "type": "Aggregate",
+      "kind": "root",
+      "order": "epistemic",
+      "description": "The organized inquiry systems other branches presuppose: Mathematics, Statistics, Computer Science, Logic, and Philosophy, each a coherent epistemic whole indexed here as one instance.",
+      "children": [
+        {
+          "label": "Mathematics",
+          "type": "Aggregate",
+          "kind": "instance",
+          "order": "epistemic",
+          "description": "The organized inquiry into abstract structure, quantity, space, and change, pursued through deduction from stated axioms.",
+          "children": []
+        },
+        {
+          "label": "Statistics",
+          "type": "Aggregate",
+          "kind": "instance",
+          "order": "epistemic",
+          "description": "The organized inquiry into variation, uncertainty, and inference from data.",
+          "children": []
+        },
+        {
+          "label": "Computer Science",
+          "type": "Aggregate",
+          "kind": "instance",
+          "order": "epistemic",
+          "description": "The organized inquiry into effective computation: what can be computed, by which procedures, and at what cost.",
+          "children": []
+        },
+        {
+          "label": "Logic",
+          "type": "Aggregate",
+          "kind": "instance",
+          "order": "epistemic",
+          "description": "The organized inquiry into valid inference: which conclusions follow necessarily from which premises.",
+          "children": []
+        },
+        {
+          "label": "Philosophy",
+          "type": "Aggregate",
+          "kind": "instance",
+          "order": "epistemic",
+          "description": "The organized inquiry into the most general structures of reality, knowledge, and value.",
+          "children": []
         }
       ]
     }

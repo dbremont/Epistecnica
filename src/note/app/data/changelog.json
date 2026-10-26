@@ -1295,6 +1295,61 @@
     ]
   },
   {
+    "file_path": "epistemica/discipline/computer-science.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "Add the Computer Science discipline Aggregate note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/logic.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "Add the Logic discipline Aggregate note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/mathematics.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "Add the Mathematics discipline Aggregate note, folding in the retired mathematical.md."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/philosophy.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "Add the Philosophy discipline Aggregate note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/statistics.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "Add the Statistics discipline Aggregate note."
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Fold the observational statistics framework note into this discipline Aggregate."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/dynamical-intelligence.md",
     "logs": [
       {
@@ -1459,6 +1514,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Fold into the Mathematics discipline note and retire this file."
       }
     ]
   },
@@ -5633,6 +5693,11 @@
         "summary": "Update Statistical Mechanics links after the construction-scope move.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
         "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Statistics link at the discipline note."
       }
     ]
   },
@@ -7994,6 +8059,11 @@
         "summary": "Retarget the Model Validation and Statistical Hypothesis Testing links after the validation-scope move.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad",
         "before": "a4d4bb1a22690c8f2daedb3d0e0784b182cba543"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Retire; content folded into epistemica/discipline/statistics.md."
       }
     ]
   },
@@ -8573,6 +8643,11 @@
         "summary": "Update Statistical Mechanics links after the construction-scope move.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
         "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Add the Disciplines root to the backbone and point the catalogue links at the discipline notes."
       }
     ]
   },
@@ -10112,6 +10187,11 @@
         "kind": "feat",
         "summary": "Add Modelling: the modelling problem as an identification diagram — map, connectors, observational equivalence and identifiability.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Mathematical domain link at the mathematical catalogue folder."
       }
     ]
   },

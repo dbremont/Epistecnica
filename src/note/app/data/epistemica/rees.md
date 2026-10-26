@@ -79,10 +79,12 @@ Two recurring ambiguities are worth stating up front:
 
 > The table below is the **backbone**: the root *Reality Inquiry*, its twelve
 > branches (eleven of the Epistemic Order plus the `Ontic` branch of the Ontic
-> Order), and the reflexive root. The **complete, ever-expanding
-> decomposition** — every branch grown down to its generic instances — is not
-> held in this note: it is the tree store [`rees.json`](data/epistemica/rees.json), rendered by
-> the **[REES atlas](data/epistemica/rees.html)**. Read the note for the schema and the
+> Order), the reflexive root, and the *Disciplines* root that indexes the
+> organized inquiry systems the other branches presuppose. The **complete,
+> ever-expanding decomposition** — every branch grown down to its generic
+> instances — is not held in this note: it is the tree store
+> [`rees.json`](data/epistemica/rees.json), rendered by the
+> **[REES atlas](data/epistemica/rees.html)**. Read the note for the schema and the
 > backbone; open the atlas for the full tree and its views.
 
 | Instance Tree Path | Description |
@@ -101,6 +103,12 @@ Two recurring ambiguities are worth stating up front:
 | `Aggregate` → Reality Inquiry → `Epistemic Context` | Grouping: surrounding conditions within which inquiry is situated. |
 | `Aggregate` → Reality Inquiry → `Ontic` | Grouping: the parsed reality the inquiry addresses — the Ontic Order (segments, entities, processes, events, properties, relations, states, structures, causes). |
 | `Aggregate` → Reflexive Inquiry | Inquiry taking its own practice, conditions, and limits as its target. |
+| `Aggregate` → Disciplines | The organized inquiry systems other branches presuppose: the disciplines indexed as one epistemic whole. |
+| `Aggregate` → Disciplines → Mathematics | The organized inquiry into abstract structure, quantity, space, and change, pursued through deduction from stated axioms. |
+| `Aggregate` → Disciplines → Statistics | The organized inquiry into variation, uncertainty, and inference from data. |
+| `Aggregate` → Disciplines → Computer Science | The organized inquiry into effective computation: what can be computed, by which procedures, and at what cost. |
+| `Aggregate` → Disciplines → Logic | The organized inquiry into valid inference: which conclusions follow necessarily from which premises. |
+| `Aggregate` → Disciplines → Philosophy | The organized inquiry into the most general structures of reality, knowledge, and value. |
 
 ### What is a critical conceptual evaluation of this `epistemic element instance`?
 
@@ -206,7 +214,8 @@ exchange through the guide's `Permitted Link Forms` table: an
 - **Universal index** — Naturgnosis Epistemic Space at [http://localhost:8011/epistemica/](http://localhost:8011/epistemica/) carries the full instance graph; REES is the local mastery layer over it.
 - **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/theory/practice/modelling.md), [Causality](note.html?n=epistemica/causality.md), [Decision Making](note.html?n=epistemica/decision-making.md).
 - **Access & representation catalogues** — [Observational](note.html?n=epistemica/observational.md), [Signal Processing](note.html?n=epistemica/signal-processing.md), [System of Units of Measurement](note.html?n=epistemica/system-of-units-of-measurement.md).
-- **Operation & construction catalogues** — [Mathematical](note.html?n=epistemica/mathematical.md), [Computational Science](note.html?n=epistemica/computational-science.md), [Simulation](note.html?n=epistemica/simulation.md), [Optimization](note.html?n=epistemica/optimization.md), [Natural Computing](note.html?n=epistemica/natural-computing.md), [Statistical Mechanics](note.html?n=epistemica/construction/statistical-mechanics.md).
+- **Discipline catalogues** — [Mathematics](note.html?n=epistemica/discipline/mathematics.md), [Statistics](note.html?n=epistemica/discipline/statistics.md), [Computer Science](note.html?n=epistemica/discipline/computer-science.md), [Logic](note.html?n=epistemica/discipline/logic.md), [Philosophy](note.html?n=epistemica/discipline/philosophy.md).
+- **Operation & construction catalogues** — [Mathematical](index.html?dir=epistemica/mathematical), [Computational Science](note.html?n=epistemica/computational-science.md), [Simulation](note.html?n=epistemica/simulation.md), [Optimization](note.html?n=epistemica/optimization.md), [Natural Computing](note.html?n=epistemica/natural-computing.md), [Statistical Mechanics](note.html?n=epistemica/construction/statistical-mechanics.md).
 - **Evaluation & reflexive catalogues** — [Exploratory Data Analysis](note.html?n=epistemica/exploratory-data-analysis-eda.md), [Formal Concept Analysis](note.html?n=epistemica/formal-concept-analysis-fca.md), [Complexity Science](note.html?n=epistemica/complexity-science.md), [Dynamical Intelligence](note.html?n=epistemica/dynamical-intelligence.md).
 
 ## QA
@@ -269,5 +278,9 @@ The distinction is one of function:
 - [Modelado](note.html?n=epistemica/theory/practice/modelling.md)
 - [Causality](note.html?n=epistemica/causality.md)
 - [Observational](note.html?n=epistemica/observational.md)
-- [Mathematical](note.html?n=epistemica/mathematical.md)
+- [Mathematics](note.html?n=epistemica/discipline/mathematics.md)
+- [Statistics](note.html?n=epistemica/discipline/statistics.md)
+- [Computer Science](note.html?n=epistemica/discipline/computer-science.md)
+- [Logic](note.html?n=epistemica/discipline/logic.md)
+- [Philosophy](note.html?n=epistemica/discipline/philosophy.md)
 - Reality, Ontology, Observer, Nature — no dedicated note yet; see the Formulation questions above

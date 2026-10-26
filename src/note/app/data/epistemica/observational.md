@@ -45,7 +45,7 @@
 
 ## Statistics
 
-> See more in [Statistics](observational/statistics.md).
+> See more in [Statistics](note.html?n=epistemica/discipline/statistics.md).
 > 
 
 > Statistics: The science of collecting, analyzing, interpreting, and presenting data.

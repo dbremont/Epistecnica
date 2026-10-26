@@ -1,10 +1,26 @@
 ---
-tags: [framework]
+tags: [epistemology, statistics, discipline, framework]
 ---
 
 # Statistics
 
- : Probability (Probability%204210c322839242cd8cc944b9b1e7c27f.md), Theory of Probability (Theory%20of%20Probability%20272c0f5171ec80c1bcafcd23a25b4f50.md), Theory of Statistics (Theory%20of%20Statistics%20272c0f5171ec80ce988eebaba3a61964.md), Comparison (Comparison%20275c0f5171ec800590bfc9a57e022fc9.md)
+> In this set of notes, Statistics is treated as a **discipline** — an **Epistemic Aggregate**: the organized inquiry into variation, uncertainty, and inference from data — how warranted claims are extracted from observations that differ across samples and populations.
+
+> **Statistics** is the discipline dedicated to the **design of data production**, the **quantification of uncertainty**, and the **inference** from samples to populations. It encodes the regularity of **variation** — the fact that observations differ, that measurement errs, and that outcomes are not deterministic — into formal systems of probability, estimation, and hypothesis testing, thereby providing rigorous grounds for prediction, comparison, and decision under uncertainty. Data inspires our models, and through those models we describe, predict, and act on an uncertain world.
+
+Statistics is mathematics turned on the world's irreducible variation: where
+mathematics deduces within a fixed formal system, statistics **infers beyond
+the observed** — from sample to population, from present to future, from
+signal to noise. Its product is a *warranted claim under uncertainty*; its
+warrant is calibration, not proof.
+
+This note is the discipline-level Aggregate; its evaluative sibling
+**validation** (checking a model against reality) lives in the
+[`validation/`](index.html?dir=epistemica/validation) folder, and the schema it
+instantiates is owned by the canonical
+[Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md).
+
+: Probability (Probability%204210c322839242cd8cc944b9b1e7c27f.md), Theory of Probability (Theory%20of%20Probability%20272c0f5171ec80c1bcafcd23a25b4f50.md), Theory of Statistics (Theory%20of%20Statistics%20272c0f5171ec80ce988eebaba3a61964.md), Comparison (Comparison%20275c0f5171ec800590bfc9a57e022fc9.md)
 
 > Statistics (Datomatica), aka. The Logic of Data.
 > 
@@ -27,11 +43,157 @@ tags: [framework]
 > Note: A superficial understanding of statistics can be more misleading than having no knowledge at all.
 > 
 
-![modelling.jpeg](../assets/note/epistemica/observational/statistics/modelling.jpeg)
+![modelling.jpeg](../assets/note/epistemica/discipline/statistics/modelling.jpeg)
 
 [https://pbs.twimg.com/media/GPFHPSCWwAAvrXq?format=jpg&name=large](https://pbs.twimg.com/media/GPFHPSCWwAAvrXq?format=jpg&name=large)
 
-![Untitled](../assets/note/epistemica/observational/statistics/untitled.png)
+![Untitled](../assets/note/epistemica/discipline/statistics/untitled.png)
+
+## Formulation
+
+### What is this epistemic instance?
+
+> Statistics is the organized inquiry system into variation and uncertainty: it designs how data are produced, quantifies how much a claim is exposed to chance, and infers from finite samples to the populations and futures they were drawn from. Its product is a calibrated statement of support, uncertainty, and generalization; its warrant is that the procedure behaves as advertised over repeated use.
+
+### What epistemic element type does this epistemic instance belong to?
+
+> An **`Aggregate`** — the organized inquiry system of statistics: one coherent body scoping orientation, target, representations, operations, evaluations, communication, and infrastructure around the quantification of uncertainty and inference from data.
+
+### Is the type of this `epistemic element instance` ambiguous?
+
+> No at the root: statistics is a structured collection of epistemic elements organized as one coherent epistemic whole, so `Aggregate` is its primary type. Two boundaries are worth stating. Against **mathematics**: probability theory is the mathematical scaffold statistics uses, but statistics adds what pure mathematics does not supply — a *data-producing design* and a *repeated-sampling warrant*. Against **epistemic evaluation / validation**: a p-value or a calibrated model is a statistical *construction*, while validating a scientific model against reality is the *evaluation* branch; the two are adjacent but not identical, and calibration is a distinct practice, not a synonym for validation (see [`validation/calibration.md`](note.html?n=epistemica/validation/calibration.md)).
+
+### What is the recursive instance decomposition of this epistemic instance?
+
+> The table below decomposes statistics as an organized inquiry system, grown along the branches of the Epistemic Order. A deep core (orientation, target, access, representation, operation, evaluation) is developed to levels 4–5; the rest is carried to level 3–4. Each leaf resolves to a concrete instance.
+
+| Instance Tree Path | Description |
+| --- | --- |
+| `Aggregate` → Statistics | The organized inquiry into variation, uncertainty, and inference from data: one body of statistical knowledge with its orientation, target, representations, operations, evaluations, and infrastructure. |
+| `Aggregate` → Statistics → `Epistemic Orientation` | Grouping: the directing structure of the inquiry. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Purpose` | Grouping: purposes of the inquiry. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Purpose` → Uncertainty Quantification Purpose | Telos: state how much of a claim is exposed to chance, in a calibrated scale. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Purpose` → Generalization Purpose | Telos: warrant a claim about a population or future from a finite sample. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Purpose` → Comparison Purpose | Telos: determine whether an observed difference exceeds what chance alone produces. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Question` | Grouping: questions directing the inquiry. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Question` → Significance Question | Formulated question: is this observed effect distinguishable from sampling noise? |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Question` → Estimation Question | Formulated question: what is the value of this population quantity, and with what precision? |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Question` → Design Question | Formulated question: how should data be produced so the inference it supports is valid? |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Goal` | Grouping: desired outcomes. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Goal` → Calibrated Claim Goal | Desired outcome: a claim whose stated uncertainty matches its long-run frequency of error. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Gap` | Grouping: gaps motivating the inquiry. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Gap` → Unquantified Uncertainty Gap | Deficiency: an observed difference whose chance component has not yet been bounded. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Role` | Grouping: roles performed within the inquiry. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Role` → Statistician | Principal inquirer: designing studies, fitting models, and judging uncertainty. |
+| `Aggregate` → Statistics → `Epistemic Orientation` → `Epistemic Role` → Data Subject | The entity whose observations are registered — the human, cell, or market the sample is drawn from. |
+| `Aggregate` → Statistics → `Epistemic Agency` | Grouping: entities and organized activities performing the discipline's work. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Agent` | Grouping: agents performing statistical operations. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Agent` → Statistician | Entity designing, estimating, and testing; analysts and software realize this agent. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Act` | Grouping: primitive acts of the statistician. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Act` → Sampling Act | Primitive act selecting a subset of the population to observe. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Act` → Measuring Act | Primitive act registering a value of a variable on a unit. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Act` → Estimating Act | Primitive act computing a statistic as a point or interval for a parameter. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Act` → Testing Act | Primitive act computing how extreme the observed data are under a null model. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Activity` | Grouping: organized sequences of acts. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Activity` → Designing | Fixing the sampling frame, randomization, and sample size before data are seen. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Activity` → Exploring | Summarizing and visualizing data to find structure before formal testing. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Activity` → Modeling | Fitting a probability model to the data-generating process. |
+| `Aggregate` → Statistics → `Epistemic Agency` → `Epistemic Activity` → Testing | Quantifying the evidence against a stated null hypothesis. |
+| `Aggregate` → Statistics → `Epistemic Target` | Grouping: the addressed domain of inquiry. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Target Domain` | Grouping: domains addressed. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Target Domain` → Population | Bounded domain: the full set of units the claim generalizes to. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Target Segment` | Grouping: segments selected for study. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Target Segment` → Sample | The observed subset drawn from the population by the sampling design. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Observable` | Grouping: registrable features of the target. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Observable` → Variable | Registrable feature: a measurable property taking values across units. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Observable` → Parameter | The fixed but unknown population quantity the sample estimates. |
+| `Aggregate` → Statistics → `Epistemic Target` → `Observable` → Effect Size | Registrable feature: the magnitude of a difference or association, not merely its presence. |
+| `Aggregate` → Statistics → `Epistemic Access` | Grouping: means by which the target becomes registrable. |
+| `Aggregate` → Statistics → `Epistemic Access` → `Observation Interface` | Grouping: interfaces coupling the population to a record. |
+| `Aggregate` → Statistics → `Epistemic Access` → `Observation Interface` → Randomized Trial | Interface assigning units to conditions by chance, breaking confounding by design. |
+| `Aggregate` → Statistics → `Epistemic Access` → `Observation Interface` → Survey Instrument | Interface eliciting responses from a sampled set of subjects. |
+| `Aggregate` → Statistics → `Epistemic Access` → `Observation Record` | Grouping: registered representations of observations. |
+| `Aggregate` → Statistics → `Epistemic Access` → `Observation Record` → Data Table | Registered rows of units and columns of measured variables. |
+| `Aggregate` → Statistics → `Epistemic Representation` | Grouping: structures through which content is encoded and manipulated. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` | Grouping: sign systems of the discipline. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → Probability Distribution | Function assigning likelihoods to the outcomes of a random variable. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → Probability Distribution → Normal Distribution | Exemplar distribution realizing the type: the bell curve governing sums of many small effects. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → Probability Distribution → Binomial Distribution | Exemplar distribution realizing the type: counts of successes in fixed independent trials. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → Likelihood Function | Mapping from parameter values to the plausibility of the observed data. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → Sampling Distribution | Distribution of a statistic over repeated samples — the bridge from data to uncertainty. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → `Constitutive Substrate` | Grouping: rules constituting the representations. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → `Constitutive Substrate` → Probability Axiom | The non-negativity, unit-mass, and additivity rules every distribution satisfies. |
+| `Aggregate` → Statistics → `Epistemic Representation` → `Representational System` → `Constitutive Substrate` → Estimand Convention | What exactly is being estimated — the target quantity the procedure aims at. |
+| `Aggregate` → Statistics → `Epistemic Operation` | Grouping: operations transforming data into inference. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Action` | Grouping: direct transformations of the data. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Action` → Summary Statistic | Compressing a sample to a mean, variance, or quantile. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Action` → Interval Estimation | Producing a confidence or credible interval for a parameter. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Action` → Hypothesis Test | Computing the extremeness of the data under a null model to a p-value. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` | Grouping: coordinated routines and generalized ways. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Method` | Grouping: generalized methods of inference. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Method` → Maximum Likelihood | Choosing the parameter value that makes the observed data most probable. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Method` → Regression | Estimating the conditional relationship of a response to explanatory variables. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Method` → Resampling | Estimating a sampling distribution by repeatedly drawing from the observed data. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Method` → Resampling → Bootstrap | Exemplar resampling method: sampling with replacement to approximate uncertainty. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Principle` | Grouping: rules guiding the operations. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Principle` → Randomization Principle | Chance assignment, not adjustment, is what breaks confounding in a trial. |
+| `Aggregate` → Statistics → `Epistemic Operation` → `Organization` → `Principle` → Sufficient Statistic Principle | A statistic is sufficient when it captures all the sample carries about the parameter. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` | Grouping: assessments of the discipline's outputs. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Epistemic Standard` | Grouping: standards judging results. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Epistemic Standard` → Calibration Standard | A stated uncertainty stands only if, over repeated use, the claimed coverage matches. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Epistemic Standard` → Error-Rate Standard | A test stands only if its false-positive rate is held at the declared level. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Epistemic Criterion` | Grouping: evaluated properties. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Epistemic Criterion` → Bias-Variance Criterion | An estimator is judged by the trade-off between systematic and sampling error. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Epistemic Criterion` → Power Criterion | A test is judged by its ability to detect an effect of stated size. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Validation` | Grouping: checks discharging doubt. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Validation` → Model Check | Comparing the fitted model's implications against the observed data. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Validation` → Replication | Re-running the study to see whether the inference reproduces. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Error` | Grouping: deviations from the true state. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Error` → Type I Error | Rejecting a true null hypothesis — a false positive. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Error` → Type II Error | Failing to reject a false null hypothesis — a false negative. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Feedback` | Grouping: evaluations returned to the design. |
+| `Aggregate` → Statistics → `Epistemic Evaluation` → `Feedback` → Sample-Size Revision | Enlarging the sample after a power analysis exposes low detection. |
+| `Aggregate` → Statistics → `Epistemic Communication` | Grouping: transmission of statistical content. |
+| `Aggregate` → Statistics → `Epistemic Communication` → `Epistemic Inscription` | Grouping: persistent renderings. |
+| `Aggregate` → Statistics → `Epistemic Communication` → `Epistemic Inscription` → Reported Estimate | A point estimate with its interval and stated uncertainty, recorded for scrutiny. |
+| `Aggregate` → Statistics → `Epistemic Communication` → `Epistemic Publication` | Grouping: published expositions. |
+| `Aggregate` → Statistics → `Epistemic Communication` → `Epistemic Publication` → Statistical Report | Sustained account of a study's design, analysis, and uncertainty. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` | Grouping: structures enabling the inquiry. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` → `Epistemic Tool` | Grouping: tools performing the statistics. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` → `Epistemic Tool` → Statistical Software | Software fitting models, computing intervals, and running tests. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` → `Epistemic Tool` → Statistical Software → R | Exemplar tool realizing the type: the language and runtime of applied statistics. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` → `Information Repository` | Grouping: stored data and reference. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` → `Information Repository` → Dataset | Stored table of units and variables consulted instead of re-collected. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` → `Epistemic Institution` | Grouping: bodies sustaining the discipline. |
+| `Aggregate` → Statistics → `Epistemic Infrastructure` → `Epistemic Institution` → Pre-Registration Registry | Institution fixing the analysis plan before data are seen, curbing selective reporting. |
+| `Aggregate` → Statistics → `Epistemic Context` | Grouping: conditions surrounding the inquiry. |
+| `Aggregate` → Statistics → `Epistemic Context` → `Epistemic Condition` | Grouping: conditions under which results are interpreted. |
+| `Aggregate` → Statistics → `Epistemic Context` → `Epistemic Condition` → i.i.d. Condition | Results conditional on units being independent and identically distributed. |
+| `Aggregate` → Statistics → `Epistemic Context` → `Epistemic Condition` → Observational Condition | Results from non-randomized data are conditional on all confounders being measured. |
+
+### What Is a critical conceptual evaluation of this `epistemic element instance`?
+
+> **Verdict.** Statistics is conceptually strong where it matters most — its boundary rule (a claim is statistical iff its warrant is a repeated-sampling or posterior calibration) is determinate, and its purpose-adequacy is proven by its role as the discipline of warranted inference under uncertainty. Its principal risk is *misuse*: a formally correct procedure is routinely read as bearing more warrant than its design supports, so misuse-resistance is the criterion where the discipline is weakest.
+
+| Criterion | Verdict | Diagnostic Focus |
+| --- | --- | --- |
+| Conceptual Identification | Strong | Distinguished from probability theory (its mathematical scaffold) by the added data-design and repeated-sampling warrant; distinguished from validation by calibrating claims, not adjudicating a model against reality. |
+| Definitional Clarity | Strong | Estimand, sampling design, and calibration are stated conditions; the note separates the p-value (an extremeness measure) from effect size (a magnitude), avoiding the common conflation. |
+| Conceptual Determinacy | Strong | Borderline cases (Bayesian posteriors vs frequentist intervals) are handled by declaring the warrant type, not by excluding a school. |
+| Internal Consistency | Strong | Error rates, power, and calibration are mutually compatible; Type I / Type II are defined against a fixed null. |
+| Representational Adequacy | Strong | The `Aggregate` reading captures the discipline; the sampling distribution is correctly placed as the bridge from data to uncertainty, not as a property of the world. |
+| Purpose Adequacy | Strong | Uncertainty quantification, generalization, and comparison are all served; the note never claims the procedure proves a causal mechanism on its own. |
+| Misuse Resistance | **Weak–Moderate** | The p-value is habitually misread as the probability the null is true; statistical significance is conflated with practical importance. The discipline's notation invites this, and only design literacy (randomization, pre-registration) check it. |
+
+Its limits follow from the same source as its strength. The i.i.d. assumption
+and the observational condition are load-bearing and usually unverifiable from
+the data themselves: a calibrated procedure over repeated use says nothing
+guaranteeing *this* instance, and an observational study inherits whatever
+confounding its design did not break. The discipline is also silent about what
+its models do not encode — a fitted distribution is a compression, and the
+world's tail behavior routinely exceeds it. Overall the instance is mature and
+heavily validated; what its warrant is conditional on is the honesty of the
+design and the honesty of the reader.
 
 ## Meta
 
@@ -241,7 +403,7 @@ tags: [framework]
 
 ### Representation Toolbox
 
-> See ([Trainable Computational System Space](computational-learning.md) ) for Cl and ([**Representation Toolbox**](probability.md)) for Probabilistic ones.
+> See ([Trainable Computational System Space](note.html?n=epistemica/observational/computational-learning.md) ) for Cl and ([**Representation Toolbox**](note.html?n=epistemica/observational/probability.md)) for Probabilistic ones.
 > 
 
 > **Note:** A statistical model is basically a **trainable computational system, but here we will only cover the more traditional ones.**
@@ -315,7 +477,7 @@ tags: [framework]
 > What inferences can we make from a statistical representation or from raw pieces of reality? What are the tools used to make these inferences?
 > 
 
-> See [Problem Space](statistics.md), [Statistical Function](statistical-function.md),  [(Statistic) Estimator](statistic-estimator.md), …
+> See [Problem Space](note.html?n=epistemica/discipline/statistics.md), [Statistical Function](note.html?n=epistemica/observational/statistical-function.md),  [(Statistic) Estimator](note.html?n=epistemica/observational/statistic-estimator.md), …
 > 
 
 | **Category** | **Inference** | **Description** |
@@ -333,7 +495,7 @@ tags: [framework]
 
 ### Description
 
-> See more in [(Statistic) Estimator](statistic-estimator.md) and [Statistical Function](statistical-function.md).
+> See more in [(Statistic) Estimator](note.html?n=epistemica/observational/statistic-estimator.md) and [Statistical Function](note.html?n=epistemica/observational/statistical-function.md).
 > 
 
 ### Principle
@@ -457,7 +619,7 @@ tags: [framework]
 
 ### Model Validation
 
-> See [Model Validation](note.html?n=epistemica/validation/model-validation.md) & [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md).
+> See [Model Validation](note.html?n=epistemica/validation/validation.md) & [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md).
 > 
 
 ### **Predictive Power**
@@ -484,7 +646,7 @@ tags: [framework]
 
 ## Sampling
 
-> Se more in [Sampling](sampling.md) and  [**Resampling**](resampling.md).
+> Se more in [Sampling](note.html?n=epistemica/observational/sampling.md) and  [**Resampling**](note.html?n=epistemica/observational/resampling.md).
 > 
 
 > In probability and statistics, **sampling** refers to the process of selecting a subset of elements from a larger **population** or **universe** in order to make inferences about the whole population. The main idea is that it is usually impractical or impossible to observe every member of a population, so we observe a sample and use it to estimate population properties.
@@ -510,7 +672,7 @@ tags: [framework]
 > **Population Comparison:**  Comparing populations involves analyzing differences or relationships between two or more populations. This can be done with respect to **means**, **variances**, **distributions**, or **proportions**.
 > 
 
-> See more in [Comparison](comparison.md).
+> See more in [Comparison](note.html?n=epistemica/observational/comparison.md).
 > 
 
 ## Foundation
@@ -521,7 +683,7 @@ tags: [framework]
 > What is the theoretical grounding of statistics? When should a **statistical procedure** be used?
 > 
 
-> See more in [Theory of Statistics](theory-of-statistics.md) and [Theory of Probability](theory-of-probability.md).
+> See more in [Theory of Statistics](note.html?n=epistemica/observational/theory-of-statistics.md) and [Theory of Probability](note.html?n=epistemica/observational/theory-of-probability.md).
 > 
 
 ### Induction
@@ -580,12 +742,19 @@ tags: [framework]
 | Manufacturing Defect Rate | Analyze causes of defects in a production line. | Control Charts & Regression | Control charts monitor process stability; regression identifies relationships between variables and defect rates. |
 | Marketing Campaign Effectiveness | Measure impact of a campaign on sales over time. | Time Series Analysis | Analyzes sales data over time to detect trends, seasonal effects, and impact of interventions like campaigns. |
 
-## ❓ QA
-
-> 
-
 ## References
 
+- [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
+- [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
+- [Validation](note.html?n=epistemica/validation/validation.md) — the evaluative sibling of statistics
+- [Calibration](note.html?n=epistemica/validation/calibration.md) — a distinct practice, not a synonym for validation
+- [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md)
+- [p-value](note.html?n=epistemica/validation/p-value.md) · [e-value](note.html?n=epistemica/validation/e-value.md)
+- [Exploratory Data Analysis](note.html?n=epistemica/exploratory-data-analysis-eda.md)
+- [Mathematics](note.html?n=epistemica/discipline/mathematics.md) — the parent formal discipline
+- [REES](note.html?n=epistemica/rees.md) — the inventory this discipline is indexed in
+- [Statistics](https://en.wikipedia.org/wiki/Statistics)
+- [Statistical model](https://en.wikipedia.org/wiki/Statistical_model)
 - http://bactra.org/notebooks/statistics.html
 - http://bactra.org/notebooks/computational-statistics.html
 - [The Problem of Induction](https://app.notion.com/p/The-Problem-of-Induction-1fdc0f5171ec8031a27ef5c52d2c549e?pvs=21)
@@ -646,7 +815,7 @@ and Modelling, Cambridge University Press, pp. 83-119.
 - [Time Series Forecasting](https://www.udacity.com/course/time-series-forecasting--ud980)
 - Facebook Prophet
 - MAPE forecasting metric
-- [Dynamical System](../mathematical/ds/dynamical-system.md)
+- [Dynamical System](note.html?n=epistemica/mathematical/ds/dynamical-system.md)
 - https://en.wikipedia.org/wiki/Gompertz_function
 - [‣](https://app.notion.com/p/273598edb790800ebe9efdc968b59009?pvs=21)
 - https://archive.org/details/practicaldataana0000brya

@@ -432,7 +432,7 @@ Aphorisms:
 [Causality](note.html?n=epistemica/causality.md)
 [Simulation](note.html?n=epistemica/simulation.md)
 [Optimization](note.html?n=epistemica/optimization.md)
-[Mathematical](note.html?n=epistemica/mathematical.md)
+[Mathematical](index.html?dir=epistemica/mathematical)
 [Observational](note.html?n=epistemica/observational.md)
 [Decision Making](note.html?n=epistemica/decision-making.md)
 [Signal Processing](note.html?n=epistemica/signal-processing.md)
