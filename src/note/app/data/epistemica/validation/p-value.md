@@ -4,7 +4,7 @@ tags: [model-evaluation]
 
 # p-value
 
- : Hypothesis Testing (Hypothesis%20Testing%201d8c0f5171ec8059ab37d8dcb755dbae.md)
+> Notice: the trick here is tno set the null hypotheis as negatingsomethgn that you wnat to provee,  if you find the null hy0pothee false - than the thing that you want to provee is validaetd.
 
 > It’s a hypothesis testing method that answers the question: Should we **reject the null** hypothesis?
 > 
@@ -98,3 +98,5 @@ The smaller the p-value, the more confidently one can reject H_0.
 - Thisted, Ronald A. "What is a P-value." Departments of Statistics and Health Studies (1998).
 - https://www.youtube.com/watch?v=9jW9G8MO4PQ
 - [https://en.wikipedia.org/wiki/Neyman–Pearson_lemma](https://en.wikipedia.org/wiki/Neyman%E2%80%93Pearson_lemma)
+- Hypothesis Testing (Hypothesis%20Testing%201d8c0f5171ec8059ab37d8dcb755dbae.md)
+

@@ -56,6 +56,10 @@ companion is `data/epistemica/rees.md`.
 - The validation scope lives in `epistemica/validation/`: `validation.md`
   (master), `model-validation.md`, `probability-model-validation.md`, and
   `calibration.md`.
+- The terminology-crimes atlas lives in `epistemica/crimes/`:
+  `terminology.json` (the store) and `terminology.html` (searchable cards and
+  table over misnomers, legacy names and false friends in statistics,
+  probability and measurement); `make terminology-check` validates the store.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Computation corpus

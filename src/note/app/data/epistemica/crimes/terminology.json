@@ -1,0 +1,1306 @@
+{
+  "title": "Terminology Crimes",
+  "abbr": "TC",
+  "version": "2026-10-25",
+  "intro": "The words that cost hours. Misnomers, legacy names and false friends that make correct work sound wrong and wrong work sound obvious. Ranked by the damage they do.",
+  "source": "hand-authored store; epistemica/crimes/terminology.json",
+  "domains": [
+    "statistics",
+    "probability",
+    "measurement",
+    "modelling",
+    "inference",
+    "time-series",
+    "validation"
+  ],
+  "severities": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "crime_types": {
+    "misnomer": "The name asserts something false or value-laden about the thing.",
+    "legacy": "A historical accident outlived the theory that produced it.",
+    "metaphor": "A figure of speech is read as a literal property.",
+    "false-friend": "An everyday synonym hides a technical inversion.",
+    "overloaded": "One word is forced to do several incompatible jobs.",
+    "opaque": "The name encodes no meaning at all; it must be memorized."
+  },
+  "crimes": [
+    {
+      "id": "normal-distribution",
+      "term": "Normal Distribution",
+      "aliases": [
+        "normal",
+        "Gaussian distribution"
+      ],
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "crime": "misnomer",
+      "severity": "high",
+      "damage": "Turns “not a bell curve” into “bad data”, so teams transform first and ask later.",
+      "sounds_like": "The default, healthy, standard shape every dataset should have.",
+      "actually_means": "A specific symmetric bell curve defined by its mean and variance — the Gaussian distribution.",
+      "trap": "Most real data — income, latency, traffic — is skewed, heavy-tailed or multimodal. The name supplies a false baseline and makes the actual distribution look like a defect.",
+      "use_instead": "Gaussian (and name the distribution you actually have).",
+      "related": [
+        "central-limit-theorem",
+        "standardized-normalized"
+      ],
+      "notes": [
+        "epistemica/observational/probability.md",
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Normal distribution",
+          "url": "https://en.wikipedia.org/wiki/Normal_distribution"
+        },
+        {
+          "label": "Stigler, S. M. (1986). The History of Statistics."
+        }
+      ]
+    },
+    {
+      "id": "regression",
+      "term": "Regression",
+      "aliases": [
+        "regression analysis",
+        "linear regression"
+      ],
+      "domains": [
+        "statistics",
+        "modelling"
+      ],
+      "crime": "legacy",
+      "severity": "medium",
+      "damage": "Sounds like decay, so people miss that it is just fitting a relationship.",
+      "sounds_like": "Going backward, reverting, getting worse.",
+      "actually_means": "Modelling a dependent variable as a function of one or more predictors.",
+      "trap": "Galton coined “regression toward mediocrity” for an observed genetic phenomenon, not for the method. The word now hides linear, logistic, quantile and every other model family.",
+      "use_instead": "Fit / model — and name the model (linear regression, logistic regression).",
+      "related": [
+        "maximum-likelihood-estimator"
+      ],
+      "notes": [
+        "epistemica/observational/regression.md"
+      ],
+      "sources": [
+        {
+          "label": "Galton, F. (1886). Regression towards mediocrity in hereditary stature."
+        },
+        {
+          "label": "Wikipedia: Regression analysis",
+          "url": "https://en.wikipedia.org/wiki/Regression_analysis"
+        }
+      ]
+    },
+    {
+      "id": "null-hypothesis",
+      "term": "Null Hypothesis",
+      "aliases": [
+        "H0",
+        "H₀"
+      ],
+      "domains": [
+        "statistics",
+        "validation"
+      ],
+      "crime": "legacy",
+      "severity": "high",
+      "damage": "Turns the benchmark into a straw man; “reject at all costs” is how p-hacking starts.",
+      "sounds_like": "An empty hypothesis, a worthless idea, or a hypothesis stating that everything equals zero.",
+      "actually_means": "A baseline reference model — no effect, no difference, default noise — against which the data are compared.",
+      "trap": "“Null” sounds dismissive, so H₀ becomes the villain rather than the benchmark. Rejecting it says the data are unlikely under the baseline; it does not prove your alternative.",
+      "use_instead": "Baseline hypothesis / reference model.",
+      "related": [
+        "type-i-type-ii-errors"
+      ],
+      "notes": [
+        "epistemica/validation/statistical-hypothesis-testing.md",
+        "epistemica/validation/p-value.md"
+      ],
+      "sources": [
+        {
+          "label": "Fisher, R. A. (1925). Statistical Methods for Research Workers."
+        },
+        {
+          "label": "Wikipedia: Null hypothesis",
+          "url": "https://en.wikipedia.org/wiki/Null_hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "type-i-type-ii-errors",
+      "term": "Type I and Type II Errors",
+      "aliases": [
+        "alpha error",
+        "beta error",
+        "false positive",
+        "false negative"
+      ],
+      "domains": [
+        "statistics",
+        "validation"
+      ],
+      "crime": "opaque",
+      "severity": "high",
+      "damage": "Two labels with zero semantics; people mix them up mid-sentence and misreport risk.",
+      "sounds_like": "Error 1 and Error 2 on a system status panel.",
+      "actually_means": "Type I = false positive: reject a true H₀. Type II = false negative: fail to reject a false H₀.",
+      "trap": "Roman numerals carry no meaning, and they hide the asymmetry: Type I is set by α, Type II by power. Swap the words and you swap the risk.",
+      "use_instead": "False positive / false negative (α error / β error when you mean the rates).",
+      "related": [
+        "null-hypothesis"
+      ],
+      "notes": [
+        "epistemica/validation/statistical-hypothesis-testing.md",
+        "epistemica/validation/p-value.md"
+      ],
+      "sources": [
+        {
+          "label": "Neyman, J., & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses."
+        },
+        {
+          "label": "Wikipedia: Type I and type II errors",
+          "url": "https://en.wikipedia.org/wiki/Type_I_and_type_II_errors"
+        }
+      ]
+    },
+    {
+      "id": "expectation",
+      "term": "Expectation / Expected Value",
+      "aliases": [
+        "E[X]",
+        "mean",
+        "expected value"
+      ],
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "crime": "false-friend",
+      "severity": "medium",
+      "damage": "Makes an impossible value sound like a forecast, then the model gets blamed when 3.5 never shows up.",
+      "sounds_like": "The single value you should expect to see when you run an experiment.",
+      "actually_means": "The probability-weighted mean over all realizations — a long-run average, not a prediction.",
+      "trap": "The expected value of a die is 3.5; you will never roll it. For skewed distributions it can sit where no observation can.",
+      "use_instead": "Mean / probability-weighted average (or “long-run average”).",
+      "related": [
+        "central-limit-theorem"
+      ],
+      "notes": [
+        "epistemica/observational/probability.md"
+      ],
+      "sources": [
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        },
+        {
+          "label": "Wikipedia: Expected value",
+          "url": "https://en.wikipedia.org/wiki/Expected_value"
+        }
+      ]
+    },
+    {
+      "id": "central-limit-theorem",
+      "term": "Central Limit Theorem",
+      "aliases": [
+        "CLT"
+      ],
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "crime": "misnomer",
+      "severity": "high",
+      "damage": "Launders non-normal data into “normal” in people's heads, then produces bogus t-tests and confidence intervals.",
+      "sounds_like": "A central law saying large datasets collapse to a point or become normal.",
+      "actually_means": "The normalized sum or average of independent, finite-variance variables tends to a Gaussian as n grows — the sampling distribution of the mean, not the raw data.",
+      "trap": "The data do not become normal. Only the standardized mean's distribution approaches normal; dependence, heavy tails and infinite variance break the guarantee.",
+      "use_instead": "CLT for the sampling distribution of the mean (check the assumptions).",
+      "related": [
+        "normal-distribution",
+        "expectation"
+      ],
+      "notes": [
+        "epistemica/observational/probability.md",
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        },
+        {
+          "label": "Wikipedia: Central limit theorem",
+          "url": "https://en.wikipedia.org/wiki/Central_limit_theorem"
+        }
+      ]
+    },
+    {
+      "id": "likelihood-vs-probability",
+      "term": "Likelihood (vs Probability)",
+      "aliases": [
+        "L(θ)",
+        "likelihood function"
+      ],
+      "domains": [
+        "probability",
+        "statistics",
+        "inference"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "Reverses the condition in your head and produces confident P(θ | data) nonsense.",
+      "sounds_like": "Synonyms for how probable something is.",
+      "actually_means": "Probability fixes the parameter and measures data: P(data | θ). Likelihood fixes the observed data and measures the parameter: L(θ; data).",
+      "trap": "Everyday English treats them as interchangeable. Swapping the fixed side turns a density into a function of parameters; a likelihood is not a probability distribution over θ.",
+      "use_instead": "Probability of the data given θ; likelihood of θ given the data.",
+      "related": [
+        "maximum-likelihood-estimator"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md",
+        "epistemica/validation/calibration.md"
+      ],
+      "sources": [
+        {
+          "label": "Fisher, R. A. (1922). On the mathematical foundations of theoretical statistics."
+        },
+        {
+          "label": "Pawitan, Y. (2001). In All Likelihood."
+        },
+        {
+          "label": "Wikipedia: Likelihood function",
+          "url": "https://en.wikipedia.org/wiki/Likelihood_function"
+        }
+      ]
+    },
+    {
+      "id": "stationary-process",
+      "term": "Stationary Process",
+      "aliases": [
+        "stationarity",
+        "strict stationarity",
+        "weak stationarity"
+      ],
+      "domains": [
+        "probability",
+        "time-series"
+      ],
+      "crime": "metaphor",
+      "severity": "high",
+      "damage": "Sounds dead, so people detrend and filter a process that is only statistically stable.",
+      "sounds_like": "A process standing still, not moving, dead in the water.",
+      "actually_means": "A stochastic process whose joint distribution — mean, variance, autocovariance — does not change with time.",
+      "trap": "A stationary series can jump every millisecond. Stationarity is a property of the generating law, not of the realised values; it says nothing about how boring the plot looks.",
+      "use_instead": "Distributionally stable / time-invariant law (strict or weak, as the case may be).",
+      "related": [
+        "expectation"
+      ],
+      "notes": [
+        "epistemica/observational/stochastic-process.md"
+      ],
+      "sources": [
+        {
+          "label": "Hamilton, J. D. (1994). Time Series Analysis."
+        },
+        {
+          "label": "Wikipedia: Stationary process",
+          "url": "https://en.wikipedia.org/wiki/Stationary_process"
+        }
+      ]
+    },
+    {
+      "id": "maximum-likelihood-estimator",
+      "term": "Maximum Likelihood Estimator (MLE)",
+      "aliases": [
+        "MLE",
+        "maximum likelihood"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "Sells a point estimate as the most probable parameter, then everyone forgets the prior.",
+      "sounds_like": "The parameter with the highest probability of being true.",
+      "actually_means": "The θ that maximizes the probability or density of the observed data — the argmax of L(θ; data).",
+      "trap": "An MLE is not P(θ | data). Without a prior it is not a posterior; it is the setting under which the data look least surprising. It can be biased, boundary-invalid, or non-identifiable.",
+      "use_instead": "Maximum-likelihood estimate (the θ that makes the data most likely).",
+      "related": [
+        "likelihood-vs-probability"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md",
+        "epistemica/validation/calibration.md"
+      ],
+      "sources": [
+        {
+          "label": "Fisher, R. A. (1922). On the mathematical foundations of theoretical statistics."
+        },
+        {
+          "label": "Pawitan, Y. (2001). In All Likelihood."
+        }
+      ]
+    },
+    {
+      "id": "standardized-normalized",
+      "term": "Standardized / Normalized Variable",
+      "aliases": [
+        "z-score",
+        "z-scored",
+        "normalization"
+      ],
+      "domains": [
+        "statistics",
+        "measurement"
+      ],
+      "crime": "overloaded",
+      "severity": "medium",
+      "damage": "Sounds like cleaning or repairing, so nobody states the transform and everyone assumes the shape changed.",
+      "sounds_like": "Standardizing to an accepted rule, cleaning messy data, or making it normal.",
+      "actually_means": "z = (x − μ) / σ: subtract the mean and divide by the standard deviation; dimensionless, mean 0, sd 1.",
+      "trap": "“Normalization” does not make data normal; “standardization” does not fix formatting. Location and scale change; skew, tails and shape survive untouched.",
+      "use_instead": "z-scored / rescaled — and write the transform.",
+      "related": [
+        "normal-distribution"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        },
+        {
+          "label": "Wikipedia: Standard score",
+          "url": "https://en.wikipedia.org/wiki/Standard_score"
+        }
+      ]
+    },
+    {
+      "id": "random-variable",
+      "term": "Random Variable",
+      "aliases": [
+        "rv",
+        "X(ω)"
+      ],
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "Makes a deterministic function sound like a dice roll, so nobody can say what is actually random.",
+      "sounds_like": "A variable that is random — a quantity whose value is unpredictable.",
+      "actually_means": "A measurable function from a sample space to a value space, X: Ω → ℝ. The randomness belongs to the outcome ω, not to X; given ω, X(ω) is fixed.",
+      "trap": "A random variable is neither random nor a variable in the algebraic sense. Confusing it with its distribution hides that different variables can share one distribution, and that P(X = x) can be zero for continuous X.",
+      "use_instead": "Measurable function on outcomes — and say “its distribution” when you mean the law.",
+      "related": [
+        "normal-distribution",
+        "expectation"
+      ],
+      "notes": [
+        "epistemica/observational/probability.md",
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Random variable",
+          "url": "https://en.wikipedia.org/wiki/Random_variable"
+        },
+        {
+          "label": "Kolmogorov, A. N. (1933). Grundbegriffe der Wahrscheinlichkeitsrechnung."
+        },
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        }
+      ]
+    },
+    {
+      "id": "probability-density-function",
+      "term": "Probability Density Function",
+      "aliases": [
+        "PDF",
+        "density"
+      ],
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "crime": "misnomer",
+      "severity": "high",
+      "damage": "Lets people read density values as probabilities, then wonder why a density of 3 is “300%”.",
+      "sounds_like": "The probability of each value of a continuous variable.",
+      "actually_means": "A function f such that probabilities are integrals over intervals; f(x) is density per unit x, not P(X = x).",
+      "trap": "A density can exceed 1 and carries units of inverse x. Only its integral over a set is a probability; for continuous X, P(X = x) = 0.",
+      "use_instead": "Density — integrate over an interval to get probability.",
+      "related": [
+        "random-variable",
+        "normal-distribution"
+      ],
+      "notes": [
+        "epistemica/observational/probability.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Probability density function",
+          "url": "https://en.wikipedia.org/wiki/Probability_density_function"
+        },
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        }
+      ]
+    },
+    {
+      "id": "confidence-interval",
+      "term": "Confidence Interval",
+      "aliases": [
+        "CI",
+        "95% CI"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "Turns a coverage procedure into a 95% probability claim; the number is then quoted as if it were a posterior.",
+      "sounds_like": "There is a 95% probability that the true value lies in this interval.",
+      "actually_means": "A procedure that, over repeated samples, covers the true parameter 95% of the time under its assumptions.",
+      "trap": "A realised interval either contains the value or not; the 95% is a property of the procedure, not of this interval. Coverage is not the probability that the parameter is inside, and it depends on the model being right.",
+      "use_instead": "95% confidence procedure — report the interval and its coverage.",
+      "related": [
+        "standard-error",
+        "p-value"
+      ],
+      "notes": [
+        "epistemica/observational/confidence-interval.md",
+        "epistemica/validation/statistical-hypothesis-testing.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Confidence interval",
+          "url": "https://en.wikipedia.org/wiki/Confidence_interval"
+        },
+        {
+          "label": "Neyman, J. (1937). Outline of a theory of statistical estimation based on the classical theory of probability."
+        }
+      ]
+    },
+    {
+      "id": "p-value",
+      "term": "p-value",
+      "aliases": [
+        "p value"
+      ],
+      "domains": [
+        "statistics",
+        "validation"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "The most misquoted number in science: read as P(H0 | data) and used as a truth machine.",
+      "sounds_like": "The probability that the null hypothesis is true, or that the result is due to chance.",
+      "actually_means": "The probability, under H0 and the model, of a result at least as extreme as the observed one.",
+      "trap": "P(data | H0) is not P(H0 | data). A small p-value says the data are surprising under the baseline; it does not measure effect size, importance, or the probability of replication.",
+      "use_instead": "p-value = P(data at least this extreme | H0) — report the effect and interval.",
+      "related": [
+        "null-hypothesis",
+        "type-i-type-ii-errors",
+        "statistical-significance"
+      ],
+      "notes": [
+        "epistemica/validation/p-value.md",
+        "epistemica/validation/statistical-hypothesis-testing.md"
+      ],
+      "sources": [
+        {
+          "label": "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA statement on p-values."
+        },
+        {
+          "label": "Greenland, S., et al. (2016). Statistical tests, P values, confidence intervals, and power."
+        },
+        {
+          "label": "Wikipedia: p-value",
+          "url": "https://en.wikipedia.org/wiki/P-value"
+        }
+      ]
+    },
+    {
+      "id": "statistical-significance",
+      "term": "Statistical Significance",
+      "aliases": [
+        "significant",
+        "significance"
+      ],
+      "domains": [
+        "statistics",
+        "validation"
+      ],
+      "crime": "misnomer",
+      "severity": "high",
+      "damage": "Makes “significant” sound important, certain, or large; then significant noise gets shipped.",
+      "sounds_like": "The result is important, reliable, or practically meaningful.",
+      "actually_means": "The observed result is unlikely under a specified null model at a chosen threshold.",
+      "trap": "Significance is a relation between data and a null, not a property of the effect. With enough data, trivial effects become significant; with too little, large ones do not.",
+      "use_instead": "Statistically detectable under this null — report effect size and interval.",
+      "related": [
+        "p-value",
+        "power",
+        "type-i-type-ii-errors"
+      ],
+      "notes": [
+        "epistemica/validation/statistical-hypothesis-testing.md"
+      ],
+      "sources": [
+        {
+          "label": "Wasserstein, R. L., Schirm, A. L., & Lazar, N. A. (2019). Moving to a world beyond “p < 0.05”."
+        },
+        {
+          "label": "Wikipedia: Statistical significance",
+          "url": "https://en.wikipedia.org/wiki/Statistical_significance"
+        }
+      ]
+    },
+    {
+      "id": "standard-error",
+      "term": "Standard Error",
+      "aliases": [
+        "SE",
+        "standard error of the mean"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "misnomer",
+      "severity": "high",
+      "damage": "Sounds like a mistake, so people report it as if it were a standard deviation of the data.",
+      "sounds_like": "An error in the standard, or the standard deviation of the sample.",
+      "actually_means": "The standard deviation of an estimator’s sampling distribution — how much the estimate would vary across repeated samples.",
+      "trap": "The standard error is not the SD of the data and not an error. It shrinks with √n; for a mean it is s/√n, and it says nothing about bias.",
+      "use_instead": "Standard error of the estimate — the SD of its sampling distribution.",
+      "related": [
+        "confidence-interval",
+        "expectation"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Standard error",
+          "url": "https://en.wikipedia.org/wiki/Standard_error"
+        },
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        }
+      ]
+    },
+    {
+      "id": "degrees-of-freedom",
+      "term": "Degrees of Freedom",
+      "aliases": [
+        "df",
+        "d.o.f."
+      ],
+      "domains": [
+        "statistics"
+      ],
+      "crime": "metaphor",
+      "severity": "medium",
+      "damage": "Sounds like freedom; hides the constraint count that sets the denominator of every test.",
+      "sounds_like": "How free the data are — an abstract allowance.",
+      "actually_means": "The number of independent pieces of information left after estimating constraints (e.g., n − 1 after estimating a mean).",
+      "trap": "Degrees of freedom are not a mood; they are a bookkeeping count of independent deviations. Getting them wrong silently changes p-values and intervals.",
+      "use_instead": "Residual degrees of freedom — count of independent pieces after constraints.",
+      "related": [
+        "standard-error"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Degrees of freedom (statistics)",
+          "url": "https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)"
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "term": "Power",
+      "aliases": [
+        "statistical power",
+        "1−β"
+      ],
+      "domains": [
+        "statistics",
+        "validation"
+      ],
+      "crime": "metaphor",
+      "severity": "high",
+      "damage": "Sounds like strength or authority; underpowered studies then get read as evidence of no effect.",
+      "sounds_like": "The strength of a test or of a result.",
+      "actually_means": "The probability of rejecting H0 when H0 is false — 1 − β, at a specified alternative and sample size.",
+      "trap": "Power is a property of the test, the alternative and the design, not of the observed result. A non-significant result from an underpowered study is not evidence for H0.",
+      "use_instead": "Power against this alternative (1 − β) — report the minimum detectable effect.",
+      "related": [
+        "statistical-significance",
+        "type-i-type-ii-errors"
+      ],
+      "notes": [
+        "epistemica/validation/statistical-hypothesis-testing.md"
+      ],
+      "sources": [
+        {
+          "label": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences."
+        },
+        {
+          "label": "Wikipedia: Power (statistics)",
+          "url": "https://en.wikipedia.org/wiki/Power_(statistics)"
+        }
+      ]
+    },
+    {
+      "id": "bias",
+      "term": "Bias",
+      "aliases": [
+        "estimator bias",
+        "biased estimator"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "overloaded",
+      "severity": "medium",
+      "damage": "Everyday prejudice and statistical bias share a word, so a biased estimator gets treated as a moral failure.",
+      "sounds_like": "Prejudice, unfairness, or a distorted view.",
+      "actually_means": "For an estimator, E[θ̂] − θ: the average deviation of the estimate from the target over repeated samples.",
+      "trap": "A biased estimator can be useful (low MSE), and an unbiased one can be terrible (huge variance). Bias is one component of error, not a verdict on the method.",
+      "use_instead": "Estimator bias E[θ̂] − θ — report variance/MSE alongside.",
+      "related": [
+        "standard-error",
+        "maximum-likelihood-estimator"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Bias of an estimator",
+          "url": "https://en.wikipedia.org/wiki/Bias_of_an_estimator"
+        },
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        }
+      ]
+    },
+    {
+      "id": "correlation",
+      "term": "Correlation",
+      "aliases": [
+        "Pearson correlation",
+        "r"
+      ],
+      "domains": [
+        "statistics"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "Read as “any relationship” or “causation”, then linear-association numbers drive causal stories.",
+      "sounds_like": "How strongly two things are related — or that one causes the other.",
+      "actually_means": "A measure of linear association between two variables (Pearson) or a rank/other association (Spearman, etc.).",
+      "trap": "Zero correlation does not mean independence; nonzero correlation does not mean causation. The coefficient also depends on the range and on outliers.",
+      "use_instead": "Linear association — state the coefficient; causality needs a design.",
+      "related": [
+        "regression"
+      ],
+      "notes": [
+        "epistemica/observational/correlation.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Correlation",
+          "url": "https://en.wikipedia.org/wiki/Correlation"
+        },
+        {
+          "label": "Pearson, K. (1895). Notes on regression and inheritance in the case of two parents."
+        }
+      ]
+    },
+    {
+      "id": "explained-variance",
+      "term": "Explained Variance (R²)",
+      "aliases": [
+        "R-squared",
+        "R²",
+        "coefficient of determination"
+      ],
+      "domains": [
+        "statistics",
+        "modelling"
+      ],
+      "crime": "metaphor",
+      "severity": "medium",
+      "damage": "Makes a variance decomposition sound like a causal explanation; R² becomes the score of the model’s understanding.",
+      "sounds_like": "How much of the phenomenon the model explains.",
+      "actually_means": "The proportion of the response’s variance accounted for by the fitted model: 1 − SS_res / SS_tot.",
+      "trap": "Explained variance is a fit statistic, not an explanation. R² rises with extra predictors, depends on the sample’s range, and says nothing about mechanism or out-of-sample skill.",
+      "use_instead": "Proportion of variance accounted for (R²) — validate out of sample.",
+      "related": [
+        "regression"
+      ],
+      "notes": [
+        "epistemica/observational/regression.md",
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Coefficient of determination",
+          "url": "https://en.wikipedia.org/wiki/Coefficient_of_determination"
+        }
+      ]
+    },
+    {
+      "id": "ground-truth",
+      "term": "Ground Truth",
+      "aliases": [
+        "gold standard",
+        "reference labels"
+      ],
+      "domains": [
+        "measurement",
+        "validation"
+      ],
+      "crime": "metaphor",
+      "severity": "high",
+      "damage": "Turns a fallible reference label into metaphysical truth, then every error is charged to the model.",
+      "sounds_like": "The actual, certain, objective state of the world.",
+      "actually_means": "The reference labels or measurements used to score a model — themselves produced by a protocol, an instrument, or annotators.",
+      "trap": "Ground truth is operational, not absolute. If the reference is noisy or biased, the model is scored against the error, and “accuracy” measures agreement with the protocol.",
+      "use_instead": "Reference standard / evaluation labels — state how they were produced.",
+      "related": [],
+      "notes": [
+        "epistemica/validation/model-validation.md",
+        "epistemica/observational/data.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Ground truth",
+          "url": "https://en.wikipedia.org/wiki/Ground_truth"
+        }
+      ]
+    },
+    {
+      "id": "nonparametric",
+      "term": "Nonparametric",
+      "aliases": [
+        "non-parametric",
+        "distribution-free"
+      ],
+      "domains": [
+        "statistics"
+      ],
+      "crime": "misnomer",
+      "severity": "medium",
+      "damage": "Suggests “no parameters”; people then expect a model-free miracle and are surprised by smoothing choices.",
+      "sounds_like": "A method with no parameters at all.",
+      "actually_means": "A model whose parameter space is infinite-dimensional or distribution-free — it still has tuning or smoothing parameters.",
+      "trap": "Nonparametric does not mean assumption-free or parameter-free. Kernel bandwidths, spline penalties and tree depths are parameters; they just do not index a fixed finite family.",
+      "use_instead": "Distribution-free / infinite-dimensional model — name the tuning parameters.",
+      "related": [],
+      "notes": [
+        "epistemica/observational/non-parametric-tests.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Nonparametric statistics",
+          "url": "https://en.wikipedia.org/wiki/Nonparametric_statistics"
+        }
+      ]
+    },
+    {
+      "id": "iid",
+      "term": "i.i.d.",
+      "aliases": [
+        "independent and identically distributed",
+        "iid"
+      ],
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "crime": "opaque",
+      "severity": "high",
+      "damage": "A four-letter assumption that gets waved through when dependence is the whole problem.",
+      "sounds_like": "Independent and identically distributed — a harmless default.",
+      "actually_means": "The observations are mutually independent and share one distribution; independence is probabilistic, not causal.",
+      "trap": "i.i.d. is a modelling assumption, not a description of the data. Time series, clustered data and network data violate it; the standard errors and tests that assume it then lie.",
+      "use_instead": "i.i.d. — state it and test it; otherwise model the dependence.",
+      "related": [
+        "stationary-process",
+        "random-sample"
+      ],
+      "notes": [
+        "epistemica/observational/probability.md",
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Independent and identically distributed random variables",
+          "url": "https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables"
+        }
+      ]
+    },
+    {
+      "id": "random-sample",
+      "term": "Random Sample",
+      "aliases": [
+        "probability sample",
+        "random sampling"
+      ],
+      "domains": [
+        "statistics",
+        "measurement"
+      ],
+      "crime": "misnomer",
+      "severity": "high",
+      "damage": "Sounds like “any sample” or “arbitrary sample”; selection bias then hides behind the word random.",
+      "sounds_like": "A sample that happened by chance, or any sample taken without a rule.",
+      "actually_means": "A sample drawn by a specified probabilistic mechanism that gives known inclusion probabilities.",
+      "trap": "Random does not mean haphazard. A convenience sample is not a random sample; without the sampling mechanism, uncertainty statements lose their warrant.",
+      "use_instead": "Probability sample — state the sampling design.",
+      "related": [
+        "iid"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Simple random sample",
+          "url": "https://en.wikipedia.org/wiki/Simple_random_sample"
+        }
+      ]
+    },
+    {
+      "id": "credible-interval",
+      "term": "Credible Interval",
+      "aliases": [
+        "Bayesian interval",
+        "posterior interval"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "Sounds like the Bayesian twin of a confidence interval, so people assume the same guarantee — or that it is automatically better.",
+      "sounds_like": "An interval you can believe: the parameter is probably inside it.",
+      "actually_means": "A posterior interval: given the prior and likelihood, the parameter lies in it with the stated posterior probability.",
+      "trap": "A 95% credible interval is 95% conditional on the prior and model. It is not a frequentist coverage guarantee, and an overconfident prior makes it narrow for the wrong reason. The two intervals answer different questions.",
+      "use_instead": "Posterior credible interval — state the prior.",
+      "related": [
+        "confidence-interval",
+        "prior-posterior"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Credible interval",
+          "url": "https://en.wikipedia.org/wiki/Credible_interval"
+        },
+        {
+          "label": "Gelman, A., et al. (2013). Bayesian Data Analysis."
+        }
+      ]
+    },
+    {
+      "id": "prior-posterior",
+      "term": "Prior / Posterior",
+      "aliases": [
+        "prior",
+        "posterior"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "metaphor",
+      "severity": "medium",
+      "damage": "The temporal metaphor (“before/after”) hides that a prior is a modelling choice, not a timestamp.",
+      "sounds_like": "Prior = before the data, posterior = after; the data automatically correct the prior.",
+      "actually_means": "Prior: a distribution over parameters before the likelihood is applied. Posterior: the distribution after conditioning on data, proportional to prior × likelihood.",
+      "trap": "The prior is not “before” in time when it is chosen after seeing the data, and a posterior is not objective just because it is “after”. Priors encode assumptions; with weak data the posterior is the prior in disguise.",
+      "use_instead": "Parameter prior / posterior — state the model and the prior.",
+      "related": [
+        "credible-interval",
+        "likelihood-vs-probability"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Prior probability",
+          "url": "https://en.wikipedia.org/wiki/Prior_probability"
+        },
+        {
+          "label": "Gelman, A., et al. (2013). Bayesian Data Analysis."
+        }
+      ]
+    },
+    {
+      "id": "ergodicity",
+      "term": "Ergodicity",
+      "aliases": [
+        "ergodic"
+      ],
+      "domains": [
+        "probability",
+        "time-series"
+      ],
+      "crime": "opaque",
+      "severity": "high",
+      "damage": "A five-syllable word for “time average equals ensemble average”; teams assume it and then estimate a trend from one path.",
+      "sounds_like": "Something about energy or work (ergonomics?).",
+      "actually_means": "A property whereby long-run time averages of one realisation converge to ensemble averages under the process law.",
+      "trap": "Ergodicity is not stationarity, and it is not automatic. A process can be stationary but not ergodic; if it is not ergodic, one long run tells you about one path, not the ensemble.",
+      "use_instead": "Ergodic (time averages = ensemble averages) — say why it holds.",
+      "related": [
+        "stationary-process"
+      ],
+      "notes": [
+        "epistemica/observational/stochastic-process.md"
+      ],
+      "sources": [
+        {
+          "label": "Hamilton, J. D. (1994). Time Series Analysis."
+        },
+        {
+          "label": "Wikipedia: Ergodic process",
+          "url": "https://en.wikipedia.org/wiki/Ergodic_process"
+        }
+      ]
+    },
+    {
+      "id": "sufficiency",
+      "term": "Sufficiency",
+      "aliases": [
+        "sufficient statistic"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "opaque",
+      "severity": "medium",
+      "damage": "“Sufficient statistic” sounds like “enough data”, so people think it means a large sample rather than a compression.",
+      "sounds_like": "A statistic that is sufficient — enough to do the job.",
+      "actually_means": "A statistic T(X) is sufficient for θ if the distribution of X given T does not depend on θ: it retains all information about θ.",
+      "trap": "Sufficiency is about information loss, not sample size. A sufficient statistic can be one number; a large sample of an insufficient statistic still loses information.",
+      "use_instead": "Sufficient statistic — no information about θ lost.",
+      "related": [
+        "bias"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        },
+        {
+          "label": "Wikipedia: Sufficient statistic",
+          "url": "https://en.wikipedia.org/wiki/Sufficient_statistic"
+        }
+      ]
+    },
+    {
+      "id": "unbiased-efficient",
+      "term": "Unbiased / Efficient",
+      "aliases": [
+        "unbiased",
+        "efficient",
+        "BLUE"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "overloaded",
+      "severity": "medium",
+      "damage": "“Unbiased” sounds fair, “efficient” sounds fast; both are technical and can trade against each other.",
+      "sounds_like": "Unbiased = fair; efficient = quick or cheap; so both are always good.",
+      "actually_means": "Unbiased: E[θ̂] = θ. Efficient: low variance (relative to a bound or another estimator), often asymptotically.",
+      "trap": "An unbiased estimator can have huge variance; a biased one can have lower MSE. Efficiency is about variance, not speed. “Best unbiased” is a constrained optimum, not a universal one.",
+      "use_instead": "Unbiased (E[θ̂] = θ) and minimum-variance / efficient — state the class.",
+      "related": [
+        "bias",
+        "maximum-likelihood-estimator"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+        },
+        {
+          "label": "Wikipedia: Efficiency (statistics)",
+          "url": "https://en.wikipedia.org/wiki/Efficiency_(statistics)"
+        }
+      ]
+    },
+    {
+      "id": "robust",
+      "term": "Robust",
+      "aliases": [
+        "robustness",
+        "robust statistics"
+      ],
+      "domains": [
+        "statistics"
+      ],
+      "crime": "overloaded",
+      "severity": "high",
+      "damage": "“Robust” sounds strong; it hides to what the method is robust and how much efficiency it pays.",
+      "sounds_like": "Strong, reliable, works under everything.",
+      "actually_means": "Insensitive (bounded influence) to specified deviations — outliers, heavy tails, model misspecification — usually at some efficiency cost.",
+      "trap": "Robustness is relative to a contamination model. A robust estimator can fail under a different violation, and the word is used as a free pass for unexamined assumptions.",
+      "use_instead": "Robust to [outliers/heavy tails/…] under [model] — report the efficiency cost.",
+      "related": [
+        "bias"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Huber, P. J., & Ronchetti, E. M. (2009). Robust Statistics."
+        },
+        {
+          "label": "Wikipedia: Robust statistics",
+          "url": "https://en.wikipedia.org/wiki/Robust_statistics"
+        }
+      ]
+    },
+    {
+      "id": "random-effect",
+      "term": "Random Effect",
+      "aliases": [
+        "random effects",
+        "fixed effect",
+        "mixed model"
+      ],
+      "domains": [
+        "statistics",
+        "modelling"
+      ],
+      "crime": "false-friend",
+      "severity": "high",
+      "damage": "“Random” and “fixed” sound like chance versus certainty; the real distinction is conditional versus marginal and exchangeable grouping.",
+      "sounds_like": "Random effect = a variable that varies randomly; fixed effect = a constant.",
+      "actually_means": "Random effect: group-level coefficients modelled as draws from a distribution (exchangeable). Fixed effect: group-specific parameters estimated without that distributional assumption.",
+      "trap": "A fixed effect is not fixed in value; a random effect is not random in the dice sense. The choice changes the estimand, the shrinkage, and the interpretation.",
+      "use_instead": "Group-level (random) effect with a distributional assumption; group-specific (fixed) effect.",
+      "related": [
+        "bias"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Gelman, A., & Hill, J. (2007). Data Analysis Using Regression and Multilevel/Hierarchical Models."
+        },
+        {
+          "label": "Wikipedia: Random effects model",
+          "url": "https://en.wikipedia.org/wiki/Random_effects_model"
+        }
+      ]
+    },
+    {
+      "id": "instrumental-variable",
+      "term": "Instrumental Variable",
+      "aliases": [
+        "IV",
+        "instrument"
+      ],
+      "domains": [
+        "statistics",
+        "inference",
+        "modelling"
+      ],
+      "crime": "metaphor",
+      "severity": "high",
+      "damage": "“Instrument” sounds like a measurement tool; it is actually an external variable used to isolate causal variation.",
+      "sounds_like": "A tool or instrument used to measure the variable.",
+      "actually_means": "A variable Z that affects treatment X but affects outcome Y only through X (exclusion restriction), used to identify a causal effect when X is endogenous.",
+      "trap": "The name suggests measurement; validity rests on relevance and exclusion, not on the instrument being a better measurement. A weak or invalid instrument is worse than no instrument.",
+      "use_instead": "Instrument Z — state relevance and exclusion.",
+      "related": [
+        "endogeneity"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md",
+        "epistemica/causality.md"
+      ],
+      "sources": [
+        {
+          "label": "Angrist, J. D., & Pischke, J.-S. (2009). Mostly Harmless Econometrics."
+        },
+        {
+          "label": "Wikipedia: Instrumental variables estimation",
+          "url": "https://en.wikipedia.org/wiki/Instrumental_variables_estimation"
+        }
+      ]
+    },
+    {
+      "id": "endogeneity",
+      "term": "Endogeneity",
+      "aliases": [
+        "endogenous",
+        "exogeneity"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "opaque",
+      "severity": "high",
+      "damage": "Sounds like “internal to the system”; it actually means the regressor is correlated with the error, so OLS is biased.",
+      "sounds_like": "The variable is endogenous — internal, naturally arising.",
+      "actually_means": "Cov(X, ε) ≠ 0: the regressor is correlated with the unobserved error, so the estimator does not recover the causal effect.",
+      "trap": "Endogeneity is not “the variable comes from inside the model”. It is a failure of exogeneity; the fix (instrument, control, design) must address the specific correlation.",
+      "use_instead": "Regressor–error dependence — state the source (omitted variable, simultaneity, measurement error).",
+      "related": [
+        "instrumental-variable"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md",
+        "epistemica/causality.md"
+      ],
+      "sources": [
+        {
+          "label": "Wooldridge, J. M. (2010). Econometric Analysis of Cross Section and Panel Data."
+        },
+        {
+          "label": "Wikipedia: Endogeneity (econometrics)",
+          "url": "https://en.wikipedia.org/wiki/Endogeneity_(econometrics)"
+        }
+      ]
+    },
+    {
+      "id": "heteroskedasticity",
+      "term": "Heteroskedasticity",
+      "aliases": [
+        "heteroscedasticity"
+      ],
+      "domains": [
+        "statistics",
+        "inference"
+      ],
+      "crime": "opaque",
+      "severity": "medium",
+      "damage": "Greek for “different scatter”; people treat it as a disease rather than a property that changes the right standard errors.",
+      "sounds_like": "Something exotic and bad — hetero-skedastic.",
+      "actually_means": "The conditional variance of the error is not constant across observations: Var(ε | X) varies.",
+      "trap": "Heteroskedasticity does not necessarily bias OLS coefficients; it invalidates the usual standard errors. The fix is robust/clustered inference or a different model, not necessarily a transformation.",
+      "use_instead": "Non-constant error variance — use robust or clustered SEs.",
+      "related": [
+        "standard-error"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "White, H. (1980). A heteroskedasticity-consistent covariance matrix estimator."
+        },
+        {
+          "label": "Wikipedia: Heteroscedasticity",
+          "url": "https://en.wikipedia.org/wiki/Heteroscedasticity"
+        }
+      ]
+    },
+    {
+      "id": "white-noise",
+      "term": "White Noise",
+      "aliases": [
+        "white noise",
+        "weak white noise"
+      ],
+      "domains": [
+        "probability",
+        "time-series"
+      ],
+      "crime": "metaphor",
+      "severity": "high",
+      "damage": "Sounds like harmless background; it is a precise moment assumption routinely assumed and rarely checked.",
+      "sounds_like": "Random static — harmless, structureless noise.",
+      "actually_means": "A sequence with zero mean, constant variance and no serial correlation (weak white noise); strong white noise adds independence and identical distribution.",
+      "trap": "White noise is not “any noise”. Uncorrelatedness is not independence; a process can be white in the weak sense yet dependent nonlinearly, and financial “noise” is rarely white.",
+      "use_instead": "Serially uncorrelated (weak white noise) — specify the moment conditions.",
+      "related": [
+        "iid",
+        "stationary-process"
+      ],
+      "notes": [
+        "epistemica/observational/stochastic-process.md"
+      ],
+      "sources": [
+        {
+          "label": "Hamilton, J. D. (1994). Time Series Analysis."
+        },
+        {
+          "label": "Wikipedia: White noise",
+          "url": "https://en.wikipedia.org/wiki/White_noise"
+        }
+      ]
+    },
+    {
+      "id": "curse-of-dimensionality",
+      "term": "Curse of Dimensionality",
+      "aliases": [
+        "high-dimensional scaling"
+      ],
+      "domains": [
+        "statistics",
+        "modelling"
+      ],
+      "crime": "metaphor",
+      "severity": "medium",
+      "damage": "A dramatic metaphor that hides the actual scaling: distances concentrate, volume vanishes, and sample requirements explode.",
+      "sounds_like": "Dimensions are cursed — mysterious bad luck in high dimensions.",
+      "actually_means": "The family of failures of intuition and sample-based methods as dimension grows: data become sparse, distances concentrate, and nonparametric rates degrade exponentially.",
+      "trap": "It is not one theorem or one curse; different methods fail differently. The fix is structure (sparsity, manifolds, priors), not more of the same data.",
+      "use_instead": "High-dimensional scaling failure — name the mechanism (sparsity, distance concentration, sample complexity).",
+      "related": [
+        "nonparametric"
+      ],
+      "notes": [
+        "epistemica/observational/statistics.md"
+      ],
+      "sources": [
+        {
+          "label": "Bellman, R. E. (1961). Adaptive Control Processes."
+        },
+        {
+          "label": "Wikipedia: Curse of dimensionality",
+          "url": "https://en.wikipedia.org/wiki/Curse_of_dimensionality"
+        }
+      ]
+    }
+  ]
+}

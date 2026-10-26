@@ -275,6 +275,11 @@ instance-decomposition table:
   (master), `model-validation.md`, `probability-model-validation.md`, and
   `calibration.md`; calibration is a distinct practice, not a synonym for
   validation.
+- **Terminology Crimes atlas** — `epistemica/crimes/terminology.{json,html}`
+  stores and renders the misnomer/legacy/false-friend inventory (statistics,
+  probability, measurement); `make terminology-check` validates the store
+  (part of `make check`). The page is reached through the catalog's
+  `epistemica/crimes/` folder, no promoted card.
 - **REES** (`epistemica/rees.md` + `rees.html` + `rees.json`) is the master
   epistemic inventory. The tree is stored canonically in `rees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
@@ -327,6 +332,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Catalog literals: `bin/check_catalog_literals.py` fails when a catalog page hardcodes a corpus entry, a directory special case, or a `data/<corpus>/…` href (part of `make check`)
 - REES tree: `make rees-check` (validates `src/note/app/data/epistemica/rees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
 - Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the canonical two-column decomposition tables of the technica corpus, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
+- Terminology crimes: `make terminology-check` (validates `src/note/app/data/epistemica/crimes/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/crimes/terminology.html`, reached in the catalog through the `epistemica/crimes/` folder (no promoted card)
 - Universal search: `make search-index` (build-time snapshot → committed `src/app/data/search-index.json`, corpus-only) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → committed `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`

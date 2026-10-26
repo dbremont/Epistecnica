@@ -10267,6 +10267,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/validation/.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Add the null-hypothesis trick note and restore the Hypothesis Testing relation to the references."
       }
     ]
   },
@@ -10306,6 +10311,11 @@
         "kind": "docs",
         "summary": "Fill the references and the PhD-level QA set.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Rework the QA and references sections; trim the Related line."
       }
     ]
   },
