@@ -1277,7 +1277,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording."
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -1311,7 +1313,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition preamble."
+        "summary": "Remove the retired order label from the decomposition preamble.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -1327,7 +1331,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition preamble."
+        "summary": "Remove the retired order label from the decomposition preamble.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -1343,7 +1349,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition preamble."
+        "summary": "Remove the retired order label from the decomposition preamble.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -1359,7 +1367,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition preamble."
+        "summary": "Remove the retired order label from the decomposition preamble.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -1380,7 +1390,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition preamble."
+        "summary": "Remove the retired order label from the decomposition preamble.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -5482,7 +5494,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording."
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -6315,7 +6329,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording."
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -7016,7 +7032,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording."
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -7655,7 +7673,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording."
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -8399,7 +8419,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording."
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -8734,7 +8756,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the REES note and describe the branches as inquiry branches."
+        "summary": "Remove the retired order label from the REES note and describe the branches as inquiry branches.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -10285,7 +10309,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the QA and type formulation."
+        "summary": "Remove the retired order label from the QA and type formulation.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -10401,7 +10427,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the type formulation."
+        "summary": "Remove the retired order label from the type formulation.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -10424,7 +10452,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording."
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
@@ -10508,7 +10538,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording and drop the order declaration."
+        "summary": "Remove the retired order label from the decomposition wording and drop the order declaration.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       }
     ]
   },
