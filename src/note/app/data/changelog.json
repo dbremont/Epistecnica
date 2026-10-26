@@ -10347,7 +10347,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Convert the e-value note to the epistemic-element schema: type the e-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the e-value QA."
+        "summary": "Convert the e-value note to the epistemic-element schema: type the e-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the e-value QA.",
+        "commit": "c185c1a6c7de41ed6bfb7d4fc8f71ba16dc5510d",
+        "before": "46e8ec8d8ac4c884c789a0f72cb40319466aac4d"
       }
     ]
   },
