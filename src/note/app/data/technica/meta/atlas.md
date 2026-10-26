@@ -77,7 +77,7 @@ two sources; the disagreement is invisible in the store.
 - `make atlas-check` (part of `make check`) validates the merged store:
   one synthetic root, sibling labels unique, every non-root node sourced
   from an existing technica note, note links resolve, stats consistent.
-- Table grammar conformance stays with `src/note/bin/conform.py` (every
+- Table grammar conformance stays with `bin/conform.py` (every
   fourth-column path resolves to a Recursive-view grammar path); the atlas
   checker validates the store, not the tables.
 - `src/note/app/data/technica/meta/` is excluded from parsing: the atlas

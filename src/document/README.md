@@ -9,7 +9,6 @@
 ```
 src/document/
 ├── README.md        # this document
-├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /document/
     ├── index.html   # catalog: dir browse/files + @tag search
     ├── document.html# single-document viewer (?d=<path>)
@@ -61,8 +60,8 @@ full contract.
 One-off migration from the Notion "Catalogus Documentorum" export:
 
 ```
-python3 src/document/bin/import.py <notion-export-dir>
-python3 src/document/bin/index.py
+python3 bin/document_import.py <notion-export-dir>
+python3 bin/document_index.py
 ```
 
 The importer strips Notion uuid suffixes, classifies by bibtex entry
@@ -81,6 +80,6 @@ edit entries by hand and rerun `make document-index`.
 Same rules as the notes corpus (see `src/note/README.md`): ASCII only,
 lowercase, kebab-case — for directories, `.md` filenames, and tags.
 
-`bin/index.py` validates every document path and tag and prints warnings
+`bin/document_index.py` validates every document path and tag and prints warnings
 for violations; warnings never fail the build. Keep the output
 warning-free.

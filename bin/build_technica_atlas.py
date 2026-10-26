@@ -25,7 +25,7 @@ Every node records the notes whose tables define it (`sources`), and an
 instance whose label matches exactly one corpus note carries that note's
 path (`note`). The store is generated data: never hand-edit it.
 
-Usage: python3 src/note/bin/build_technica_atlas.py
+Usage: python3 bin/build_technica_atlas.py
 """
 
 import json
@@ -34,7 +34,7 @@ import sys
 from datetime import date
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parents[3]
+REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / 'src' / 'note' / 'app' / 'data'
 TECH = DATA / 'technica'
 OUT = TECH / 'meta' / 'atlas.json'

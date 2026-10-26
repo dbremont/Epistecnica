@@ -2,7 +2,7 @@
 """Validate the technica atlas store (data/technica/meta/atlas.json).
 
 The store is derived from the decomposition tables of the technica notes
-(src/note/bin/build_technica_atlas.py), so this checker validates the
+(bin/build_technica_atlas.py), so this checker validates the
 merged forest, not the corpus layout:
 
 - header fields present; exactly one root, typed;
@@ -14,14 +14,14 @@ merged forest, not the corpus layout:
 - a `note` link, when present, resolves to an existing corpus note;
 - declared stats match the tree (plus the table/row counters).
 
-Usage: python3 src/note/bin/atlas_check.py
+Usage: python3 bin/atlas_check.py
 """
 
 import json
 import sys
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parents[3]
+REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / 'src' / 'note' / 'app' / 'data'
 STORE = DATA / 'technica' / 'meta' / 'atlas.json'
 

@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symbol Atlas</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --accent-violet: #B48EF0;
+      --accent-violet-dim: rgba(180, 142, 240, 0.12);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --accent-violet: #6B4FA8;
+      --accent-violet-dim: rgba(107, 79, 168, 0.1);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg-void);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent-cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    #ambientCanvas {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      opacity: 0.55; width: 100%; height: 100%;
+    }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .theme-toggle {
+      background: transparent; border: 1px solid var(--border-subtle);
+      border-radius: 6px; color: var(--text-secondary); cursor: pointer;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
+      padding: 0.45rem 0.7rem; text-transform: uppercase;
+    }
+    .theme-toggle:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+
+    .layout { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem 3.5rem; }
+
+    .crumbs {
+      font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.1rem;
+    }
+    .crumbs a { color: var(--text-muted); }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.45rem; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display); font-weight: 300; font-size: clamp(2.2rem, 5vw, 3.4rem);
+      line-height: 1.05; letter-spacing: 0.01em; margin: 0 0 1rem;
+    }
+    .note-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.6rem; }
+    .chip {
+      display: inline-block; padding: 0.22rem 0.6rem;
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-secondary);
+    }
+    .chip.gold { color: var(--accent-gold); border-color: var(--accent-gold-dim); }
+
+    .lede {
+      max-width: 78ch; color: var(--text-secondary); font-size: 1.02rem;
+      margin: 0 0 1.5rem;
+    }
+    .lede strong { color: var(--text-primary); font-weight: 500; }
+
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin: 1.4rem 0 1.8rem; }
+    .stat {
+      background: var(--card-bg); border: 1px solid var(--border-subtle);
+      border-radius: 10px; padding: 0.9rem 1rem;
+    }
+    .stat .value { font-family: var(--font-display); font-size: 1.8rem; line-height: 1; color: var(--accent-gold); }
+    .stat .label {
+      display: block; margin-top: 0.35rem; font-family: var(--font-mono);
+      font-size: 0.55rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);
+    }
+
+    .controls {
+      position: sticky; top: 56px; z-index: 30;
+      background: color-mix(in srgb, var(--bg-void) 88%, transparent);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 0.9rem 0 0.75rem; margin: 0 0 1.6rem;
+    }
+    .controls-row { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; }
+    .search-wrap { position: relative; flex: 1 1 280px; }
+    .search-wrap svg {
+      position: absolute; left: 0.75rem; top: 50%; transform: translateY(-50%);
+      color: var(--text-muted); pointer-events: none;
+    }
+    #symbolSearch {
+      width: 100%; background: var(--bg-card); color: var(--text-primary);
+      border: 1px solid var(--border-subtle); border-radius: 8px;
+      padding: 0.62rem 0.8rem 0.62rem 2.2rem;
+      font-family: var(--font-body); font-size: 0.9rem; outline: none;
+    }
+    #symbolSearch:focus { border-color: var(--accent-cyan); }
+    #symbolSearch::placeholder { color: var(--text-muted); }
+    .view-toggle { display: inline-flex; border: 1px solid var(--border-subtle); border-radius: 7px; overflow: hidden; }
+    .view-toggle button {
+      background: transparent; border: 0; color: var(--text-muted); cursor: pointer;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em;
+      text-transform: uppercase; padding: 0.55rem 0.8rem;
+    }
+    .view-toggle button[aria-pressed="true"] { background: var(--accent-gold-dim); color: var(--accent-gold); }
+    .reset {
+      background: transparent; border: 1px solid var(--border-subtle); border-radius: 7px;
+      color: var(--text-muted); cursor: pointer; font-family: var(--font-mono);
+      font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.55rem 0.75rem;
+    }
+    .reset:hover { color: var(--accent-gold); border-color: var(--accent-gold-dim); }
+
+    .filter-row { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin-top: 0.7rem; }
+    .filter-row .group-label {
+      font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--text-muted); margin-right: 0.25rem; min-width: 4.2rem;
+    }
+    .filter-chip {
+      background: transparent; border: 1px solid var(--border-subtle); border-radius: 999px;
+      color: var(--text-secondary); cursor: pointer; font-family: var(--font-mono);
+      font-size: 0.56rem; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 0.3rem 0.6rem;
+    }
+    .filter-chip .n { color: var(--text-muted); margin-left: 0.3rem; }
+    .filter-chip:hover { border-color: var(--accent-cyan); color: var(--accent-cyan); }
+    .filter-chip[aria-pressed="true"] { background: var(--accent-cyan-dim); border-color: var(--accent-cyan); color: var(--accent-cyan); }
+
+    .result-line {
+      display: flex; justify-content: space-between; align-items: baseline;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 1rem;
+    }
+    .result-line strong { color: var(--text-primary); font-weight: 500; }
+
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 1rem; }
+    .symbol-card {
+      background: var(--card-bg); border: 1px solid var(--border-subtle);
+      border-radius: 12px; padding: 1.15rem 1.2rem 1rem; position: relative;
+      scroll-margin-top: 150px;
+    }
+    .symbol-card::before {
+      content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
+      border-radius: 12px 0 0 12px; background: var(--border-subtle);
+    }
+    .symbol-card[data-cat="logic"]::before,
+    .symbol-card[data-cat="notation"]::before { background: var(--accent-gold); }
+    .symbol-card[data-cat="set-theory"]::before,
+    .symbol-card[data-cat="algebra"]::before { background: var(--accent-cyan); }
+    .symbol-card[data-cat="analysis"]::before,
+    .symbol-card[data-cat="order"]::before { background: var(--accent-violet); }
+    .symbol-card.flash { border-color: var(--accent-cyan); box-shadow: 0 0 0 2px var(--accent-cyan-dim); }
+
+    .card-top { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 0.9rem; }
+    .glyph {
+      flex: 0 0 auto; width: 66px; height: 66px; border-radius: 12px;
+      display: grid; place-items: center; overflow: hidden;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      font-family: var(--font-mono); font-size: 1.9rem; line-height: 1;
+      color: var(--accent-gold); user-select: none;
+    }
+    .card-head { min-width: 0; flex: 1; }
+    .card-head h2 {
+      font-family: var(--font-display); font-weight: 400; font-size: 1.5rem;
+      line-height: 1.15; margin: 0;
+    }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.3rem; justify-content: flex-end; }
+    .badge {
+      font-family: var(--font-mono); font-size: 0.52rem; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 0.2rem 0.45rem; border-radius: 4px;
+      border: 1px solid var(--border-subtle); color: var(--text-muted); white-space: nowrap;
+    }
+    .badge.cat { color: var(--accent-violet); border-color: var(--accent-violet-dim); }
+    .aliases { color: var(--text-muted); font-size: 0.78rem; margin: 0.3rem 0 0.45rem; }
+    .meta-line { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: baseline; }
+    .meta-line code {
+      font-family: var(--font-mono); font-size: 0.74rem; color: var(--accent-cyan);
+      background: var(--accent-cyan-dim); border: 1px solid var(--accent-cyan-dim);
+      border-radius: 5px; padding: 0.12rem 0.42rem;
+    }
+    .meta-line .cp {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em;
+      color: var(--text-muted);
+    }
+
+    .label {
+      display: block; font-family: var(--font-mono); font-size: 0.54rem;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);
+      margin-bottom: 0.25rem;
+    }
+    .field { margin-bottom: 0.85rem; }
+    .field p { margin: 0; font-size: 0.86rem; color: var(--text-secondary); }
+    .field.description p { color: var(--text-primary); }
+    .field.origins { border-left: 2px solid var(--accent-violet); padding-left: 0.7rem; }
+    .field.usage { border-left: 2px solid var(--accent-cyan); padding-left: 0.7rem; }
+    .field.usage p { color: var(--accent-cyan); }
+    .related { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.7rem; }
+    .related .label { width: 100%; margin-bottom: 0.1rem; }
+    .related a, .related span.rel {
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.04em;
+      color: var(--accent-cyan); border: 1px solid var(--accent-cyan-dim);
+      border-radius: 999px; padding: 0.18rem 0.5rem; cursor: pointer;
+      text-transform: uppercase;
+    }
+    .related a.note { color: var(--text-secondary); border-color: var(--border-subtle); }
+    .sources { border-top: 1px solid var(--border-subtle); padding-top: 0.6rem; }
+    .sources ul { list-style: none; margin: 0; padding: 0; }
+    .sources li { font-size: 0.74rem; color: var(--text-muted); margin: 0.1rem 0; }
+    .sources a { color: var(--text-secondary); }
+
+    .table-wrap { overflow-x: auto; border: 1px solid var(--border-subtle); border-radius: 10px; background: var(--card-bg); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+    th, td { text-align: left; padding: 0.65rem 0.8rem; border-bottom: 1px solid var(--border-subtle); vertical-align: top; }
+    th {
+      font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted); font-weight: 500;
+      background: var(--bg-surface); position: sticky; top: 0;
+    }
+    tr:last-child td { border-bottom: 0; }
+    td.glyph-cell {
+      font-family: var(--font-mono); font-size: 1.25rem; color: var(--accent-gold);
+      white-space: nowrap; width: 4rem;
+    }
+    td.name-cell { font-weight: 500; color: var(--text-primary); min-width: 11rem; }
+    td.name-cell a { color: inherit; }
+    td.desc-cell { color: var(--text-secondary); }
+    .empty {
+      text-align: center; padding: 3rem 1rem; color: var(--text-muted);
+      font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+    }
+    .error { color: var(--accent-gold); font-size: 0.9rem; }
+
+    .site-footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid var(--border-subtle); background: var(--footer-bg);
+      padding: 1.4rem 2rem;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; display: flex; justify-content: space-between;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    @media (max-width: 720px) {
+      .layout { padding: 1.8rem 1.2rem 2.6rem; }
+      .site-nav .nav-inner { padding: 0.8rem 1.2rem; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .controls { position: static; }
+      .cards { grid-template-columns: 1fr; }
+      .glyph { width: 54px; height: 54px; font-size: 1.5rem; }
+    }
+  </style>
+  <link rel="stylesheet" href="../../../../shared/usearch.css">
+</head>
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="crumbs">
+      <a href="../../../index.html">notes</a><span class="sep">/</span>
+      <a href="../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span>
+      <a href="../../../index.html?dir=epistemica/symbols">symbols</a><span class="sep">/</span>
+      <span class="here">symbols</span>
+    </div>
+
+    <h1 class="note-title">Symbol Atlas</h1>
+    <div class="note-meta">
+      <span class="chip gold">atlas</span>
+      <span class="chip">live note</span>
+      <span class="chip">#logic</span>
+      <span class="chip">#set-theory</span>
+      <span class="chip">#algebra</span>
+    </div>
+
+    <p class="lede" id="lede">The signs the corpus leans on, each with <strong>what it means, where it came from, and what it does in the notes</strong> — from the turnstile to the circled dot.</p>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="controls">
+      <div class="controls-row">
+        <div class="search-wrap">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="symbolSearch" placeholder="name, ⊙, \\odot, usage…" aria-label="Search symbols" autocomplete="off">
+        </div>
+        <div class="view-toggle" role="group" aria-label="View">
+          <button type="button" data-view="cards" aria-pressed="true">Cards</button>
+          <button type="button" data-view="table" aria-pressed="false">Table</button>
+        </div>
+        <button type="button" class="reset" id="symbolReset">Reset</button>
+      </div>
+      <div class="filter-row" id="categoryFilters"></div>
+    </div>
+
+    <div class="result-line"><span id="resultCount"></span><span id="resultHint">click a related chip to jump</span></div>
+
+    <div id="results"></div>
+    <div id="empty" class="empty" hidden>no symbol matches the current filters</div>
+    <div id="error" class="error" hidden></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; symbol atlas</div>
+      <a href="../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() {
+      label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+  <script src="../../../../shared/usearch.js" data-root="../../../../"></script>
+
+  <script>
+  (function () {
+    'use strict';
+
+    var state = {
+      q: '',
+      cats: new Set(),
+      view: 'cards'
+    };
+    var data = null;
+    var byId = {};
+    var catRank = {};
+    var els = {
+      stats: document.getElementById('stats'),
+      cats: document.getElementById('categoryFilters'),
+      results: document.getElementById('results'),
+      empty: document.getElementById('empty'),
+      error: document.getElementById('error'),
+      count: document.getElementById('resultCount'),
+      search: document.getElementById('symbolSearch'),
+      reset: document.getElementById('symbolReset')
+    };
+
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    function titleFromNote(path) {
+      var stem = path.split('/').pop().replace(/\.md$/, '');
+      return stem.replace(/-/g, ' ');
+    }
+
+    function noteHref(path) { return '../../../note.html?n=' + path.split('/').map(encodeURIComponent).join('/'); }
+
+    function sourceLine(src) {
+      if (src.url) {
+        return '<li><a href="' + esc(src.url) + '" target="_blank" rel="noopener">' + esc(src.label) + '</a></li>';
+      }
+      return '<li>' + esc(src.label) + '</li>';
+    }
+
+    function rankOf(sym) {
+      var best = Infinity;
+      (sym.categories || []).forEach(function (c) {
+        if (catRank[c] !== undefined && catRank[c] < best) best = catRank[c];
+      });
+      return best;
+    }
+
+    function matches(sym) {
+      if (state.q) {
+        var hay = [sym.symbol, sym.latex, sym.codepoint, sym.name, (sym.aliases || []).join(' '),
+          sym.description, sym.origins, sym.usage, (sym.categories || []).join(' ')].join(' ').toLowerCase();
+        if (hay.indexOf(state.q) < 0) return false;
+      }
+      if (state.cats.size && !(sym.categories || []).some(function (c) { return state.cats.has(c); })) return false;
+      return true;
+    }
+
+    function visibleSymbols() {
+      return (data.symbols || []).filter(matches).sort(function (a, b) {
+        var d = rankOf(a) - rankOf(b);
+        return d !== 0 ? d : a.name.localeCompare(b.name);
+      });
+    }
+
+    function badge(text, cls) {
+      return '<span class="badge ' + (cls || '') + '">' + esc(text) + '</span>';
+    }
+
+    function renderCard(s) {
+      var cats = (s.categories || []).map(function (c) { return badge(c, 'cat'); }).join('');
+      var aliases = (s.aliases || []).length ? 'aka ' + s.aliases.map(esc).join(' · ') : '';
+      var meta = '';
+      if (s.latex || s.codepoint) {
+        meta = '<div class="meta-line">' +
+          (s.latex ? '<code>' + esc(s.latex) + '</code>' : '') +
+          (s.codepoint ? '<span class="cp">' + esc(s.codepoint) + '</span>' : '') +
+          '</div>';
+      }
+      var related = (s.related || []).map(function (rid) {
+        var target = byId[rid];
+        if (!target) return '';
+        return '<a href="#' + esc(rid) + '" data-jump="' + esc(rid) + '">' + esc(target.name) + '</a>';
+      }).join('');
+      var notes = (s.notes || []).map(function (n) {
+        return '<a class="note" href="' + noteHref(n) + '">' + esc(titleFromNote(n)) + '</a>';
+      }).join('');
+      var sources = (s.sources || []).map(sourceLine).join('');
+      return '' +
+        '<article class="symbol-card" id="' + esc(s.id) + '" data-cat="' + esc((s.categories || [])[0] || '') + '">' +
+          '<div class="card-top">' +
+            '<div class="glyph" aria-hidden="true">' + esc(s.symbol) + '</div>' +
+            '<div class="card-head">' +
+              '<div style="display:flex;justify-content:space-between;gap:0.8rem;align-items:flex-start;">' +
+                '<h2>' + esc(s.name) + '</h2>' +
+                '<div class="badges">' + cats + '</div>' +
+              '</div>' +
+              (aliases ? '<div class="aliases">' + aliases + '</div>' : '') +
+              meta +
+            '</div>' +
+          '</div>' +
+          '<div class="field description"><span class="label">Description</span><p>' + esc(s.description) + '</p></div>' +
+          '<div class="field origins"><span class="label">Origins</span><p>' + esc(s.origins) + '</p></div>' +
+          '<div class="field usage"><span class="label">Usage</span><p>' + esc(s.usage) + '</p></div>' +
+          ((related || notes) ? '<div class="related"><span class="label">Related</span>' + related + notes + '</div>' : '') +
+          (sources ? '<div class="sources"><span class="label">Sources</span><ul>' + sources + '</ul></div>' : '') +
+        '</article>';
+    }
+
+    function renderTable(list) {
+      var rows = list.map(function (s) {
+        return '<tr>' +
+          '<td class="glyph-cell"><a href="#' + esc(s.id) + '" data-jump="' + esc(s.id) + '">' + esc(s.symbol) + '</a></td>' +
+          '<td class="name-cell"><a href="#' + esc(s.id) + '" data-jump="' + esc(s.id) + '">' + esc(s.name) + '</a></td>' +
+          '<td>' + (s.categories || []).map(esc).join(', ') + '</td>' +
+          '<td class="desc-cell">' + esc(s.description) + '</td>' +
+        '</tr>';
+      }).join('');
+      return '<div class="table-wrap"><table><thead><tr><th>Symbol</th><th>Name</th><th>Category</th><th>Description</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+    }
+
+    function render() {
+      var list = visibleSymbols();
+      els.count.innerHTML = '<strong>' + list.length + '</strong> of ' + data.symbols.length + ' symbols';
+      els.empty.hidden = list.length !== 0;
+      els.results.innerHTML = list.length === 0 ? '' : (state.view === 'table' ? renderTable(list) : '<div class="cards">' + list.map(renderCard).join('') + '</div>');
+      document.querySelectorAll('.view-toggle button').forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.getAttribute('data-view') === state.view));
+      });
+    }
+
+    function filterGroup(host, label, values, set, counts) {
+      var html = '<span class="group-label">' + esc(label) + '</span>';
+      values.forEach(function (v) {
+        var n = counts[v] || 0;
+        html += '<button type="button" class="filter-chip" data-value="' + esc(v) + '" aria-pressed="' + (set.has(v) ? 'true' : 'false') + '">' +
+          esc(v) + '<span class="n">' + n + '</span></button>';
+      });
+      host.innerHTML = html;
+      host.querySelectorAll('.filter-chip').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var v = b.getAttribute('data-value');
+          if (set.has(v)) set.delete(v); else set.add(v);
+          b.setAttribute('aria-pressed', String(set.has(v)));
+          render();
+        });
+      });
+    }
+
+    function categoryCounts() {
+      var out = {};
+      (data.symbols || []).forEach(function (s) {
+        (s.categories || []).forEach(function (c) { out[c] = (out[c] || 0) + 1; });
+      });
+      return out;
+    }
+
+    function renderStats() {
+      var notes = {};
+      var links = 0;
+      (data.symbols || []).forEach(function (s) {
+        (s.notes || []).forEach(function (n) { notes[n] = true; });
+        links += (s.related || []).length;
+      });
+      var items = [
+        [data.symbols.length, 'symbols'],
+        [Object.keys(data.categories || {}).length, 'categories'],
+        [Object.keys(notes).length, 'linked notes'],
+        [links, 'cross-links']
+      ];
+      els.stats.innerHTML = items.map(function (x) {
+        return '<div class="stat"><div class="value">' + x[0] + '</div><span class="label">' + x[1] + '</span></div>';
+      }).join('');
+    }
+
+    function jump(id) {
+      var card = document.getElementById(id);
+      if (card) { card.scrollIntoView({ behavior: 'smooth', block: 'center' }); card.classList.add('flash'); setTimeout(function () { card.classList.remove('flash'); }, 1600); return; }
+      var sym = byId[id];
+      if (!sym) return;
+      state.q = sym.name.toLowerCase();
+      state.cats.clear();
+      document.querySelectorAll('.filter-chip').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+      els.search.value = state.q;
+      render();
+      var card2 = document.getElementById(id);
+      if (card2) { card2.scrollIntoView({ behavior: 'smooth', block: 'center' }); card2.classList.add('flash'); setTimeout(function () { card2.classList.remove('flash'); }, 1600); }
+    }
+
+    els.search.addEventListener('input', function () {
+      state.q = els.search.value.trim().toLowerCase();
+      render();
+    });
+    document.querySelectorAll('.view-toggle button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        state.view = b.getAttribute('data-view');
+        render();
+      });
+    });
+    els.reset.addEventListener('click', function () {
+      state.q = ''; state.cats.clear();
+      els.search.value = '';
+      document.querySelectorAll('.filter-chip').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+      render();
+    });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('[data-jump]');
+      if (a) { e.preventDefault(); jump(a.getAttribute('data-jump')); }
+    });
+
+    fetch('symbols.json').then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (json) {
+      data = json;
+      (data.symbols || []).forEach(function (s) { byId[s.id] = s; });
+      Object.keys(data.categories || {}).forEach(function (c, i) { catRank[c] = i; });
+      renderStats();
+      filterGroup(els.cats, 'category', Object.keys(data.categories || {}), state.cats, categoryCounts());
+      var params = new URLSearchParams(location.search);
+      if (params.get('q')) { state.q = params.get('q').trim().toLowerCase(); els.search.value = params.get('q'); }
+      render();
+      if (params.get('id')) jump(params.get('id'));
+    }).catch(function (err) {
+      els.error.hidden = false;
+      els.error.textContent = 'Could not load symbols.json: ' + err.message;
+      els.count.textContent = '';
+    });
+  })();
+  </script>
+
+  <script>
+  (function () {
+    var c = document.getElementById('ambientCanvas');
+    if (!c) return;
+    var ctx = c.getContext('2d');
+    var pts = [];
+    function resize() {
+      c.width = window.innerWidth; c.height = window.innerHeight;
+      pts = [];
+      for (var i = 0; i < 70; i++) {
+        pts.push({ x: Math.random() * c.width, y: Math.random() * c.height, r: Math.random() * 1.1 + 0.2, a: Math.random() * 0.35 + 0.08 });
+      }
+    }
+    function draw() {
+      var col = getComputedStyle(document.documentElement).getPropertyValue('--text-muted').trim();
+      ctx.clearRect(0, 0, c.width, c.height);
+      pts.forEach(function (p) {
+        ctx.globalAlpha = p.a; ctx.fillStyle = col;
+        ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+      });
+      ctx.globalAlpha = 1;
+    }
+    window.addEventListener('resize', function () { resize(); draw(); });
+    window.addEventListener('epistecnica-theme', draw);
+    resize(); draw();
+  })();
+  </script>
+
+</body>
+</html>

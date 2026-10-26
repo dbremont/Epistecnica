@@ -27,14 +27,19 @@ to the external Naturgnosis medium, and the local pages point at them.
 
 ```
 index.html              hub (served at /)
+bin/                    every repo script lives here (centralized — never under src/; see Tooling notes)
 bin/serve.py            combined server — the only frontend-facing surface; owns all routes below
 bin/envutil.py          .env loader
 bin/build_universal_index.py  universal-view graph builder (our corpus → graph JSON)
 bin/layout.py           universal-view layout pre-computer (sunflower + FR)
+bin/notes_index.py | bin/course_index.py | bin/document_index.py   corpus indexers (make *-index)
+bin/course_import.py | bin/document_import.py   bulk Notion-export importers
+bin/rees_check.py | bin/atlas_check.py | bin/terminology_check.py | bin/symbols_check.py   atlas/store validators (make *-check)
+bin/conform.py          technica table-grammar conformance; bin/build_technica_atlas.py atlas builder
 src/app/                hub page (index.html, served at /) + docs.html + graph/ (universal view) + shared/ (nav search + content viewer)
-src/note/…              notes corpus + catalog/viewer (app/ incl. app/data/ + live notes, bin/index.py) + tags — see src/note/README.md
-src/course/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures, bin/index.py) — see src/course/README.md
-src/document/…          documents corpus + catalog/viewer (papers/articles/books, bin/index.py) — see src/document/README.md
+src/note/…              notes corpus + catalog/viewer (app/ incl. app/data/ + live notes) + tags — see src/note/README.md
+src/course/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures) — see src/course/README.md
+src/document/…          documents corpus + catalog/viewer (papers/articles/books) — see src/document/README.md
 spec/                   general spec + shared design system + epistemic-content extraction method
 docs/                   documentation hub
 Makefile, Dockerfile    project operations (make run/check/build/deploy-*/logs/stop) + combined image
@@ -146,7 +151,7 @@ frontend-facing surface in the deployment; there is no database behind it
   exception at 1200px.
 - Math is typeset with the vendored MathJax 3 (`src/note/app/vendor/mathjax/`,
   configured by `src/note/app/vendor/mathjax-setup.js`). Author page math as
-  `data-tex` / `data-tex-display` attributes (not raw `$…$`) so `bin/index.py`
+  `data-tex` / `data-tex-display` attributes (not raw `$…$`) so `bin/notes_index.py`
   never indexes LaTeX; corpus `.md` keeps literal `$…$`. Call `renderTeX()`
   after dynamic DOM updates. Recipe in `docs/live-note-chrome.md` §Vendored
   runtime dependencies.
@@ -180,7 +185,7 @@ instance-decomposition table:
   Purpose Adequacy); cite the guide in the note's References. Architectural,
   historical, or scaling commentary is not a conceptual evaluation — it
   belongs in the decomposition, the QA, or the `Technical Evolution` branch.
-- Grammar source: `src/note/bin/conform.py` fetches the guide above at
+- Grammar source: `bin/conform.py` fetches the guide above at
   runtime (stdlib `urllib`, no local snapshot) and validates the canonical
   two-column tables: every backticked segment names a type from the guide's
   Tabular view, no type terminates a branch, paths are unique.
@@ -280,6 +285,11 @@ instance-decomposition table:
   probability, measurement); `make terminology-check` validates the store
   (part of `make check`). The page is reached through the catalog's
   `epistemica/crimes/` folder, no promoted card.
+- **Symbol atlas** — `epistemica/symbols/symbols.{json,html}` stores and
+  renders the mathematical-notation inventory (glyph, category, description,
+  origins, usage, related symbols, note links); `make symbols-check`
+  validates the store (part of `make check`). The page is reached through
+  the catalog's `epistemica/symbols/` folder, no promoted card.
 - **REES** (`epistemica/rees.md` + `rees.html` + `rees.json`) is the master
   epistemic inventory. The tree is stored canonically in `rees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
@@ -328,20 +338,21 @@ python3 bin/serve.py            # same server directly on :8000
 
 Verification (no test suite exists; `make check` covers the first):
 
-- `python3 -m py_compile bin/*.py src/note/bin/*.py src/course/bin/*.py src/document/bin/*.py`
+- `python3 -m py_compile bin/*.py`
 - Catalog literals: `bin/check_catalog_literals.py` fails when a catalog page hardcodes a corpus entry, a directory special case, or a `data/<corpus>/…` href (part of `make check`)
 - REES tree: `make rees-check` (validates `src/note/app/data/epistemica/rees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
 - Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the canonical two-column decomposition tables of the technica corpus, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
 - Terminology crimes: `make terminology-check` (validates `src/note/app/data/epistemica/crimes/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/crimes/terminology.html`, reached in the catalog through the `epistemica/crimes/` folder (no promoted card)
-- Universal search: `make search-index` (build-time snapshot → committed `src/app/data/search-index.json`, corpus-only) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
-- Universal view: `make graph-index` (build-time snapshot → committed `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus) → hub `/graph/`
+- Symbol atlas: `make symbols-check` (validates `src/note/app/data/epistemica/symbols/symbols.json` — unique ids, enum categories, non-empty symbol/description/origins/usage, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/symbols/symbols.html`, reached in the catalog through the `epistemica/symbols/` folder (no promoted card)
+- Universal search: `make search-index` (build-time snapshot → gitignored `src/app/data/search-index.json`, corpus-only; rebuilt locally or at image build) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
+- Universal view: `make graph-index` (build-time snapshot → gitignored `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus; rebuilt locally or at image build) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`
 - Legacy graphs: `curl -sI :8000/epistemica/` and `:8000/tecnica/` → `302` → `/note/data/epistemica/rees.html`
 - Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/general/pto/zsh.md` (viewer), `/note/data/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
 - REES atlas: `curl -s :8000/note/data/epistemica/rees.html` (the multi-view atlas) and `/note/data/epistemica/rees.json` (the canonical tree store it renders)
-- Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `src/course/bin/import.py <notion-export-dir>`), `/course/data/changelog.json` (per-file history)
-- Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `src/document/bin/import.py <notion-export-dir>`), `/document/data/changelog.json` (per-file history)
-- Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `src/persona/bin/import.py <notion-export-dir>`)
+- Courses: `curl -s :8000/course/` (catalog), `/course/course.html?c=version-control-basics` (course view: entry + lectures), `/course/lecture.html?l=version-control-basics/01-why-version-control.md` (lecture), `/course/data/index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/course/README.md`; bulk import via `bin/course_import.py <notion-export-dir>`), `/course/data/changelog.json` (per-file history)
+- Documents: `curl -s :8000/document/` (catalog), `/document/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/document/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/document/README.md`; bulk import via `bin/document_import.py <notion-export-dir>`), `/document/data/changelog.json` (per-file history)
+- Personas: `curl -s :8000/persona/` (catalog), `/persona/persona.html?p=flp-impossibility.md` (viewer), `/persona/data/index.json` (generated — run `make persona-index` after any corpus edit; type front matter + tags in `src/persona/README.md`; bulk import via `bin/persona_import.py <notion-export-dir>`)
 - Glossarium: external — served by Naturgnosis at `http://localhost:8013/glossarium/web/` (`?t=<slug>` term view; lookup index `/glossarium/data/index.json`); Epistecnica pages link out and load the lookup JS + index from there (no local `/glossarium/` route)
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the `/docs` + `note/` pages (check stderr for Uncaught errors)
 - Image: `make build` (`docker build -t epistecnica:local .`) then run it (`make deploy-local`)
@@ -402,6 +413,20 @@ when switching over.
 
 ## Tooling notes
 
+- **All scripts live in the repo-root `bin/` — centralized, never under
+  `src/`.** The per-corpus `src/note/bin/`, `src/course/bin/`,
+  `src/document/bin/` dirs were merged into `bin/` (corpus tools renamed to
+  avoid collisions: `notes_index.py`, `course_index.py`, `document_index.py`,
+  `course_import.py`, `document_import.py`; checkers/conform/atlas builders
+  keep their names). New scripts go in `bin/` with a corpus-qualified name;
+  scripts locate their corpus via `REPO = Path(__file__).resolve().parent.parent`
+  then `REPO / "src" / "<corpus>"` — not via their own directory depth.
+- **Generated corpus indexes are gitignored** (`index.json`, `links.json`,
+  `search-index.json`, `universal-graph.json`/`universal-layout.json`,
+  technica `atlas.json`) — rebuild them with `make index` /
+  `make search-index` / `make graph-index` / `make atlas-index` after a
+  fresh clone or any corpus edit; the Dockerfile rebuilds them at image
+  build so the image is self-contained.
 - `rg` can fail with "JSON record exceeded 65536 bytes" on huge single-file
   HTML pages (the catalog/viewer pages and the generated `*.json` indexes).
   Scope the include pattern or use `bash` + `rg` directly.

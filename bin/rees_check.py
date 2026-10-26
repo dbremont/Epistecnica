@@ -16,14 +16,15 @@ Contract (see src/note/README.md and the philosophia guide):
   - every leaf is an instance; kind/order values are from the fixed sets;
   - the declared stats match the tree.
 
-Usage: python3 src/note/bin/rees_check.py
+Usage: python3 bin/rees_check.py
 """
 
 import json
 import sys
 from pathlib import Path
 
-NOTE = Path(__file__).resolve().parent.parent
+REPO = Path(__file__).resolve().parent.parent
+NOTE = REPO / "src" / "note"
 REES = NOTE / "app" / "data" / "epistemica" / "rees.json"
 
 KINDS = {"root", "grouping", "instance"}

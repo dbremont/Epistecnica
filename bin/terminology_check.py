@@ -6,7 +6,7 @@ Validates src/note/app/data/epistemica/crimes/terminology.json: required
 fields, unique kebab ids, enum domains/crimes/severities, resolving related
 ids, existing note links, and well-formed sources. Stdlib only.
 
-Usage: python3 src/note/bin/terminology_check.py
+Usage: python3 bin/terminology_check.py
 """
 
 import json
@@ -14,7 +14,7 @@ import re
 import sys
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "src" / "note" / "app" / "data"
 STORE = DATA / "epistemica" / "crimes" / "terminology.json"
 

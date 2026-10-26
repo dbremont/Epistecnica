@@ -6,5 +6,16 @@
 __pycache__/
 *.pyc
 
+# Generated corpus indexes/snapshots — rebuilt by `make index`/`search-index`/
+# `graph-index`/`atlas-index` (and at image build); never hand-edit or commit
+src/note/app/data/index.json
+src/note/app/data/links.json
+src/course/app/data/index.json
+src/document/app/data/index.json
+src/app/data/search-index.json
+src/app/graph/data/universal-graph.json
+src/app/graph/data/universal-layout.json
+src/note/app/data/technica/meta/atlas.json
+
 # OS / editor noise
 .DS_Store

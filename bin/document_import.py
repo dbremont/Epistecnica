@@ -32,9 +32,9 @@ src/document/app/documents/{papers,articles,books}/.
   truth. Existing corpus files (e.g. hand-written seeds) are never
   overwritten: colliding slugs get a numeric suffix.
 
-Run the indexer afterwards: python3 src/document/bin/index.py
+Run the indexer afterwards: python3 bin/document_index.py
 
-Usage: python3 src/document/bin/import.py <notion-export-dir>
+Usage: python3 bin/document_import.py <notion-export-dir>
 """
 
 import argparse
@@ -44,7 +44,8 @@ import unicodedata
 from pathlib import Path
 from urllib.parse import unquote
 
-DOCUMENT = Path(__file__).resolve().parent.parent
+REPO = Path(__file__).resolve().parent.parent
+DOCUMENT = REPO / "src" / "document"
 CORPUS = DOCUMENT / "app" / "documents"
 
 UUID_SUFFIX_RE = re.compile(r"\s+[0-9a-f]{32}(?=\.md$)")

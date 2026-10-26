@@ -77,9 +77,9 @@ database configuration.
 | Store | Contents | Written by |
 |-------|----------|------------|
 | Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/note/app/index.html`); no server write |
-| `src/note/app/data/**` | Notes corpus, live notes, REES atlas, `changelog.json` | hand-authored; index via `src/note/bin/index.py` |
-| `src/course/app/**` | Courses corpus | hand-authored; index via `src/course/bin/index.py` |
-| `src/document/app/**` | Documents corpus | hand-authored; index via `src/document/bin/index.py` |
+| `src/note/app/data/**` | Notes corpus, live notes, REES atlas, `changelog.json` | hand-authored; index via `bin/notes_index.py` |
+| `src/course/app/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
+| `src/document/app/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
 | `src/app/data/search-index.json` | Universal search snapshot (corpus-only) | `bin/build_search_index.py` |
 | `src/app/graph/data/universal-graph.json` + `universal-layout.json` | Universal view graph + layout (corpus + REES) | `bin/build_universal_index.py` + `bin/layout.py` |
 

@@ -8,7 +8,6 @@
 ```
 src/course/
 ├── README.md        # this document
-├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /course/
     ├── index.html   # catalog: dir browse/files + @tag search
     ├── course.html  # course view (?c=<dir>): entry plus its lectures
@@ -91,8 +90,8 @@ full contract.
 One-off migration from the Notion "Histórico de Cursos" export:
 
 ```
-python3 src/course/bin/import.py <notion-export-dir>
-python3 src/course/bin/index.py
+python3 bin/course_import.py <notion-export-dir>
+python3 bin/course_index.py
 ```
 
 The importer strips Notion uuid suffixes and writes one directory per
@@ -112,6 +111,6 @@ Same rules as the notes corpus (see `src/note/README.md`): ASCII only,
 lowercase, kebab-case — for course directories, `.md` filenames
 (`readme.md` fixed for the entry), and tags.
 
-`bin/index.py` warns (never fails) on a misnamed course directory, a
+`bin/course_index.py` warns (never fails) on a misnamed course directory, a
 course missing `readme.md`, or any bad lecture/tag name. Keep the output
 warning-free.

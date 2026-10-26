@@ -1,22 +1,26 @@
 #!/usr/bin/env python3
 """
-Notes index builder.
+Courses index builder.
 
-Scans src/note/app/data/** for notes — markdown (*.md, kind "note") and
-self-contained HTML live notes (*.html, kind "live") — and emits
-src/note/app/data/index.json, the search corpus for the notes catalog
-(/note/). Stdlib only.
+Scans src/course/app/courses/*/ for courses — one directory per course
+with a readme.md entry plus lecture *.md files — and emits
+src/course/app/data/index.json, the search corpus for the courses
+catalog (/course/). Stdlib only.
 
-For each note it extracts: path (relative to data/), title (markdown:
-first "# " heading; html: <title>, else first <h1>; fallback: the
-filename), top-level section (first path component), h2/h3 headings,
-tags (optional `tags: [...]` front matter, `---` style), qa questions
-(optional `qa:` block-list front matter), lowercased plain text, and word
-count. Paths and tags are validated against the naming convention (see
-src/note/README.md); violations print as warnings and never fail the
-build.
+Standalone HTML pages anywhere under the corpus (*.html, kind "live",
+e.g. the atlas) are indexed as ordinary entries too: title from
+<title>, else the first <h1>.
 
-Usage: python3 src/note/bin/index.py
+For each course it emits one entry (kind "course", path "<dir>") and one
+entry per lecture (kind "lecture", path "<dir>/<file>", with a "course"
+parent field). Each entry extracts: title (first "# " heading;
+fallback: the filename), h2/h3 headings, tags (optional `tags: [...]`
+front matter, `---` style), qa questions (optional `qa:` block-list
+front matter), lowercased plain text, and word count. Paths and tags
+are validated against the naming convention (see src/course/README.md); violations print as
+warnings and never fail the build.
+
+Usage: python3 bin/course_index.py
 """
 
 import json
@@ -26,11 +30,13 @@ from datetime import date
 from html import unescape
 from pathlib import Path
 
-NOTE = Path(__file__).resolve().parent.parent
-APP = NOTE / "app"
-NOTES = APP / "data"
+REPO = Path(__file__).resolve().parent.parent
+COURSE = REPO / "src" / "course"
+APP = COURSE / "app"
+COURSES = APP / "courses"
 OUT = APP / "data" / "index.json"
-LINKS = APP / "data" / "links.json"
+
+ENTRY_FILE = "readme.md"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
@@ -127,10 +133,13 @@ def parse(path: Path, rel: Path, warnings: list) -> dict:
     if title is None:
         title = rel.stem.replace("-", " ")
     text = plain_text(md)
-    return entry(rel, title, headings, text, tags, qa, kind="note")
+    return entry(rel, title, headings, text, tags, qa, kind="lecture")
 
 
 def parse_html(path: Path, rel: Path, warnings: list) -> dict:
+    """Standalone HTML page (kind "live"): title from <title>, else the
+    first <h1>; headings from <h2>+; searchable text from the visible
+    markup with scripts/styles and tags stripped."""
     raw = path.read_text(encoding="utf-8", errors="replace")
     body = HTML_BLOCK_RE.sub(" ", raw)
 
@@ -151,19 +160,15 @@ def parse_html(path: Path, rel: Path, warnings: list) -> dict:
             headings.append({"level": level, "text": text})
     if title is None:
         title = rel.stem.replace("-", " ")
-
     text = unescape(HTML_TAG_RE.sub(" ", body))
     text = re.sub(r"\s+", " ", text).strip().lower()
     return entry(rel, title, headings, text, [], [], kind="live")
 
 
-def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str) -> dict:
-    parts = rel.parts
-    section = parts[0] if len(parts) > 1 else "root"
+def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str, course: str = None) -> dict:
     item = {
         "path": rel.as_posix(),
         "title": title,
-        "section": section,
         "kind": kind,
         "tags": tags,
     }
@@ -174,98 +179,63 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list
         "text": text,
         "words": len(text.split()),
     })
+    if course is not None:
+        item["course"] = course
     return item
 
 
-def load_links(index_paths: set, warnings: list) -> list:
-    """Read the links registry and return embedded {from, to, label, kind} pairs.
-
-    The registry is the single fixed file data/links.json (a special file: never
-    a note, never naming-validated). Each entry declares a directed support link;
-    `from` is a directory node, `to` is a directory or a note. A dir `from` stays
-    a directory node (embedded as {from: "<dir>/", ...}) — it is not expanded onto
-    its descendants; a dir `to` stays a scope link. Unknown endpoints warn and are
-    dropped, never failing the build.
-    """
-    if not LINKS.is_file():
-        return []
-    try:
-        raw = json.loads(LINKS.read_text(encoding="utf-8"))
-    except ValueError as exc:
-        warnings.append(f"links.json (invalid JSON: {exc})")
-        return []
-    declared = raw.get("links", []) if isinstance(raw, dict) else []
-    embedded = []
-    for e in declared:
-        if not isinstance(e, dict):
-            warnings.append("links.json (entry is not an object)")
-            continue
-        frm = e.get("from", "") or ""
-        to = e.get("to", "") or ""
-        label = e.get("label", "") or ""
-        kind = e.get("kind", "") or ""
-        if frm.endswith("/"):
-            if not (NOTES / frm).is_dir():
-                warnings.append(f"links.json (unknown dir: {frm})")
-                continue
-            sources = [frm]
-        elif frm in index_paths:
-            sources = [frm]
-        else:
-            warnings.append(f"links.json (unknown note: {frm})")
-            continue
-        if to.endswith("/"):
-            if not (NOTES / to).is_dir():
-                warnings.append(f"links.json (unknown dir: {to})")
-                continue
-            targets = [to]
-        elif to in index_paths:
-            targets = [to]
-        else:
-            warnings.append(f"links.json (unknown note: {to})")
-            continue
-        for s in sources:
-            for t in targets:
-                embedded.append({"from": s, "to": t, "label": label, "kind": kind})
-    return embedded
-
-
 def main() -> int:
-    if not NOTES.is_dir():
-        print(f"ERROR: notes data directory not found: {NOTES}", file=sys.stderr)
+    if not COURSES.is_dir():
+        print(f"ERROR: courses directory not found: {COURSES}", file=sys.stderr)
         return 1
 
     warnings: list = []
-    notes: list = []
-    for pattern, parser in (("*.md", parse), ("*.html", parse_html)):
-        for path in sorted(NOTES.rglob(pattern)):
-            rel = path.relative_to(NOTES)
-            check_name(rel, warnings)
-            notes.append(parser(path, rel, warnings))
+    entries: list = []
+    for course_dir in sorted(p for p in COURSES.iterdir() if p.is_dir()):
+        if not NAME_RE.match(course_dir.name):
+            warnings.append(f"{course_dir.name} (course directory)")
+            continue
+        entry_file = course_dir / ENTRY_FILE
+        if not entry_file.is_file():
+            warnings.append(f"{course_dir.name} (missing {ENTRY_FILE})")
+            continue
+        rel = Path(course_dir.name)
+        check_name(rel / ENTRY_FILE, warnings)
+        course = parse(entry_file, rel, warnings)
+        course["path"] = course_dir.name
+        course["kind"] = "course"
+        entries.append(course)
+        for path in sorted(course_dir.glob("*.md")):
+            if path.name == ENTRY_FILE:
+                continue
+            lecture_rel = Path(course_dir.name) / path.name
+            check_name(lecture_rel, warnings)
+            lecture = parse(path, lecture_rel, warnings)
+            lecture["course"] = course_dir.name
+            entries.append(lecture)
 
-    sections: dict = {}
-    for n in notes:
-        sections[n["section"]] = sections.get(n["section"], 0) + 1
-
-    links = load_links({n["path"] for n in notes}, warnings)
+    # standalone HTML pages anywhere in the corpus (kind "live")
+    for path in sorted(COURSES.rglob("*.html")):
+        rel = path.relative_to(COURSES)
+        check_name(rel, warnings)
+        entries.append(parse_html(path, rel, warnings))
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated": date.today().isoformat(),
-        "count": len(notes),
-        "sections": sections,
-        "links": links,
-        "notes": notes,
+        "count": len(entries),
+        "courses": sum(1 for n in entries if n["kind"] == "course"),
+        "lectures": sum(1 for n in entries if n["kind"] == "lecture"),
+        "live": sum(1 for n in entries if n["kind"] == "live"),
+        "entries": entries,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     kb = OUT.stat().st_size / 1024
-    tagged = sum(1 for n in notes if n["tags"])
-    print(f"notes-index: {len(notes)} notes ({tagged} tagged), {len(links)} links, {sum(n['words'] for n in notes)} words -> {OUT.relative_to(NOTE.parent.parent)} ({kb:.0f} KB)")
-    for section, count in sorted(sections.items()):
-        print(f"  {section}: {count}")
+    tagged = sum(1 for n in entries if n["tags"])
+    print(f"courses-index: {payload['courses']} courses, {payload['lectures']} lectures, {payload['live']} live ({tagged} tagged), {sum(n['words'] for n in entries)} words -> {OUT.relative_to(COURSE.parent.parent)} ({kb:.0f} KB)")
     if warnings:
-        print(f"naming warnings: {len(warnings)} (see src/note/README.md)")
+        print(f"naming warnings: {len(warnings)} (see src/course/README.md)")
         for w in warnings:
             print(f"  ! {w}")
     return 0

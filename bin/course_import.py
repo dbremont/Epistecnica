@@ -31,9 +31,9 @@ src/course/app/courses/<slug>/ holding the readme.md entry.
   touched: colliding slugs are skipped with a warning — the corpus
   becomes the source of truth.
 
-Run the indexer afterwards: python3 src/course/bin/index.py
+Run the indexer afterwards: python3 bin/course_index.py
 
-Usage: python3 src/course/bin/import.py <notion-export-dir>
+Usage: python3 bin/course_import.py <notion-export-dir>
 """
 
 import argparse
@@ -43,7 +43,8 @@ import unicodedata
 from pathlib import Path
 from urllib.parse import unquote
 
-COURSE = Path(__file__).resolve().parent.parent
+REPO = Path(__file__).resolve().parent.parent
+COURSE = REPO / "src" / "course"
 CORPUS = COURSE / "app" / "courses"
 ENTRY_FILE = "readme.md"
 

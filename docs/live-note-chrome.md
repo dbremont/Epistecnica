@@ -373,7 +373,7 @@ TeX in an attribute, never as raw delimiters:
 
 `renderTeX()` fills each `[data-tex]` / `[data-tex-display]` node with the
 matching delimiters and typesets it (defaults to the whole body). This keeps
-the TeX out of the rendered text so `bin/index.py` (which strips attributes)
+the TeX out of the rendered text so `bin/notes_index.py` (which strips attributes)
 never indexes LaTeX source. Corpus `.md` notes keep literal `$…$` / `$$…$$`,
 which MathJax renders in `note.html`; call `renderTeX(root)` again after any
 dynamic DOM update (viewer navigation, instance switch, parameter rebuild).

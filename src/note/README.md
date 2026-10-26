@@ -8,7 +8,6 @@
 ```
 src/note/
 ├── README.md        # this document
-├── bin/index.py     # search-index builder (stdlib only)
 └── app/             # served statically at /note/
     ├── index.html   # catalog: dir browse/files + @tag search (+ pins)
     ├── note.html    # single-note viewer (?n=<path>)
@@ -258,5 +257,5 @@ Examples: `vlc-media-player.md`, `ssh-config.md`, `apache-kafka.md`,
 may live beside notes and are exempt from the filename rule, but directories
 always follow it.
 
-`bin/index.py` validates every note path and prints warnings for violations;
+`bin/notes_index.py` validates every note path and prints warnings for violations;
 warnings never fail the build. Keep the output warning-free.

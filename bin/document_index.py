@@ -16,7 +16,7 @@ Paths and tags are validated against the naming convention (see
 src/document/README.md); violations print as warnings and never fail
 the build.
 
-Usage: python3 src/document/bin/index.py
+Usage: python3 bin/document_index.py
 """
 
 import json
@@ -25,7 +25,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
-DOCUMENT = Path(__file__).resolve().parent.parent
+REPO = Path(__file__).resolve().parent.parent
+DOCUMENT = REPO / "src" / "document"
 APP = DOCUMENT / "app"
 DOCUMENTS = APP / "documents"
 OUT = APP / "data" / "index.json"

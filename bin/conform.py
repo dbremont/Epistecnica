@@ -14,7 +14,7 @@ runtime from Naturgnosis:
 - instance paths are unique within a table;
 - no removed / non-structural / legacy-suffix type names.
 
-Usage: python3 src/note/bin/conform.py [file ...]
+Usage: python3 bin/conform.py [file ...]
 Default: all technical notes carrying decomposition tables.
 Exit 1 on any violation, 2 if the guide cannot be fetched. Stdlib only.
 """
@@ -25,7 +25,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-NOTE = Path(__file__).resolve().parent.parent
+REPO = Path(__file__).resolve().parent.parent
+NOTE = REPO / "src" / "note"
 GRAMMAR_URL = (
     "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/"
     "app/note/data/meta/philosophia-artium-technicarum-et-operis.md"
