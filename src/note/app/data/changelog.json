@@ -1300,7 +1300,8 @@
       {
         "date": "2026-10-26",
         "kind": "feat",
-        "summary": "Add the Computer Science discipline Aggregate note."
+        "summary": "Add the Computer Science discipline Aggregate note.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
       }
     ]
   },
@@ -1310,7 +1311,8 @@
       {
         "date": "2026-10-26",
         "kind": "feat",
-        "summary": "Add the Logic discipline Aggregate note."
+        "summary": "Add the Logic discipline Aggregate note.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
       }
     ]
   },
@@ -1320,7 +1322,8 @@
       {
         "date": "2026-10-26",
         "kind": "feat",
-        "summary": "Add the Mathematics discipline Aggregate note, folding in the retired mathematical.md."
+        "summary": "Add the Mathematics discipline Aggregate note, folding in the retired mathematical.md.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
       }
     ]
   },
@@ -1330,7 +1333,8 @@
       {
         "date": "2026-10-26",
         "kind": "feat",
-        "summary": "Add the Philosophy discipline Aggregate note."
+        "summary": "Add the Philosophy discipline Aggregate note.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
       }
     ]
   },
@@ -1345,7 +1349,8 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Fold the observational statistics framework note into this discipline Aggregate."
+        "summary": "Fold the observational statistics framework note into this discipline Aggregate.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
       }
     ]
   },
@@ -1518,7 +1523,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Fold into the Mathematics discipline note and retire this file."
+        "summary": "Fold into the Mathematics discipline note and retire this file.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
+        "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
       }
     ]
   },
@@ -5697,7 +5704,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Point the Statistics link at the discipline note."
+        "summary": "Point the Statistics link at the discipline note.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
+        "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
       }
     ]
   },
@@ -8063,7 +8072,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Retire; content folded into epistemica/discipline/statistics.md."
+        "summary": "Retire; content folded into epistemica/discipline/statistics.md.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
+        "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
       }
     ]
   },
@@ -8647,7 +8658,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Add the Disciplines root to the backbone and point the catalogue links at the discipline notes."
+        "summary": "Add the Disciplines root to the backbone and point the catalogue links at the discipline notes.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
+        "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
       }
     ]
   },
@@ -10191,7 +10204,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Point the Mathematical domain link at the mathematical catalogue folder."
+        "summary": "Point the Mathematical domain link at the mathematical catalogue folder.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
+        "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
       }
     ]
   },
