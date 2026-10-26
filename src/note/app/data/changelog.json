@@ -6094,7 +6094,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Point the Model Validation link at epistemica/validation/validation.md."
+        "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
@@ -7710,7 +7712,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Point the Model Validation link at epistemica/validation/validation.md."
+        "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
@@ -10325,7 +10329,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Point the Model Validation link at validation.md."
+        "summary": "Point the Model Validation link at validation.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
@@ -10335,7 +10341,8 @@
       {
         "date": "2026-10-26",
         "kind": "feat",
-        "summary": "Add the E-value note."
+        "summary": "Add the E-value note.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0"
       }
     ]
   },
@@ -10357,7 +10364,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Retire; replaced by e-value.md."
+        "summary": "Retire; replaced by e-value.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
@@ -10379,7 +10388,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Retire; the activities QA and references move into validation.md."
+        "summary": "Retire; the activities QA and references move into validation.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
@@ -10425,7 +10436,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Point the Model Validation link at validation.md."
+        "summary": "Point the Model Validation link at validation.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
@@ -10459,7 +10472,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Point the Model Validation and E-values links at validation.md and e-value.md."
+        "summary": "Point the Model Validation and E-values links at validation.md and e-value.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
@@ -10481,7 +10496,9 @@
       {
         "date": "2026-10-26",
         "kind": "refactor",
-        "summary": "Fold the model-validation activities QA and its references into Validation; drop the retired link."
+        "summary": "Fold the model-validation activities QA and its references into Validation; drop the retired link.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
       }
     ]
   },
