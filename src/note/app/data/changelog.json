@@ -7991,7 +7991,9 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Retarget the Model Validation and Statistical Hypothesis Testing links after the validation-scope move."
+        "summary": "Retarget the Model Validation and Statistical Hypothesis Testing links after the validation-scope move.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad",
+        "before": "a4d4bb1a22690c8f2daedb3d0e0784b182cba543"
       }
     ]
   },
@@ -10212,7 +10214,8 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Expand the calibration references: forecast verification, proper scoring and ML recalibration."
+        "summary": "Expand the calibration references: forecast verification, proper scoring and ML recalibration.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
       }
     ]
   },
@@ -10228,7 +10231,8 @@
       {
         "date": "2026-10-25",
         "kind": "refactor",
-        "summary": "Move to epistemica/validation/."
+        "summary": "Move to epistemica/validation/.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
       }
     ]
   },
@@ -10244,7 +10248,8 @@
       {
         "date": "2026-10-25",
         "kind": "refactor",
-        "summary": "Move to epistemica/validation/ and rewrite the relation line."
+        "summary": "Move to epistemica/validation/ and rewrite the relation line.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
       }
     ]
   },
@@ -10260,7 +10265,8 @@
       {
         "date": "2026-10-25",
         "kind": "refactor",
-        "summary": "Move to epistemica/validation/."
+        "summary": "Move to epistemica/validation/.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
       }
     ]
   },
@@ -10276,7 +10282,8 @@
       {
         "date": "2026-10-25",
         "kind": "refactor",
-        "summary": "Move to epistemica/validation/ and rewrite the relation line."
+        "summary": "Move to epistemica/validation/ and rewrite the relation line.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
       }
     ]
   },
@@ -10297,7 +10304,8 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Fill the references and the PhD-level QA set."
+        "summary": "Fill the references and the PhD-level QA set.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
       }
     ]
   },
@@ -10313,7 +10321,8 @@
       {
         "date": "2026-10-25",
         "kind": "refactor",
-        "summary": "Move to epistemica/validation/ and link the validation set."
+        "summary": "Move to epistemica/validation/ and link the validation set.",
+        "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
       }
     ]
   },
