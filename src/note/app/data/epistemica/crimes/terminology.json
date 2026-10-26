@@ -788,7 +788,7 @@
       "use_instead": "Reference standard / evaluation labels — state how they were produced.",
       "related": [],
       "notes": [
-        "epistemica/validation/model-validation.md",
+        "epistemica/validation/validation.md",
         "epistemica/observational/data.md"
       ],
       "sources": [

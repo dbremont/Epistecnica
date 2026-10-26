@@ -74,9 +74,9 @@ qa:
 
 ## References
 
-- [E-values](note.html?n=epistemica/validation/e-values.md)
+- [E-values](note.html?n=epistemica/validation/e-value.md)
 - [p-value](note.html?n=epistemica/validation/p-value.md)
-- [Model Validation](note.html?n=epistemica/validation/model-validation.md)
+- [Model Validation](note.html?n=epistemica/validation/validation.md)
 - [Calibration](note.html?n=epistemica/validation/calibration.md)
 
 - Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. *Journal of the Royal Statistical Society: Series B, 57*(1), 289–300.

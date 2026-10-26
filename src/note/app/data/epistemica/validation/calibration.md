@@ -145,7 +145,7 @@ tags: [calibration, identifiability, validation, estimation]
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - [Validation](note.html?n=epistemica/validation/validation.md)
-- [Model Validation](note.html?n=epistemica/validation/model-validation.md)
+- [Model Validation](note.html?n=epistemica/validation/validation.md)
 - [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md)
 - [Identification](note.html?n=epistemica/theory/practice/identification.md)
 - [Modelling](note.html?n=epistemica/theory/practice/modelling.md)

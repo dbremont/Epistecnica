@@ -668,7 +668,7 @@ The process typically follows these steps:
 
 ### Model Validation
 
-> See more in  & [Model Validation](model-validation.md) and [Probability Model Validation](probability-model-validation.md).
+> See more in  & [Model Validation](note.html?n=epistemica/validation/validation.md) and [Probability Model Validation](probability-model-validation.md).
 > 
 
 > See more in [Why do almost all types of real probability specifications need to be joint or conditional?](probability.md)

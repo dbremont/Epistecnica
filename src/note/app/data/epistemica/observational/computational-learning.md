@@ -481,7 +481,7 @@ Training - Evolution :  The general process involves:
 
 ### Validation
 
-> See more in [Model Validation](model-validation.md).
+> See more in [Model Validation](note.html?n=epistemica/validation/validation.md).
 > 
 
 ### Post-training Technique

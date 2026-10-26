@@ -6090,6 +6090,11 @@
         "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
         "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Model Validation link at epistemica/validation/validation.md."
       }
     ]
   },
@@ -7701,6 +7706,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Model Validation link at epistemica/validation/validation.md."
       }
     ]
   },
@@ -10311,6 +10321,21 @@
         "kind": "docs",
         "summary": "Expand the calibration references: forecast verification, proper scoring and ML recalibration.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Model Validation link at validation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/e-value.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "Add the E-value note."
       }
     ]
   },
@@ -10328,6 +10353,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/validation/.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Retire; replaced by e-value.md."
       }
     ]
   },
@@ -10345,6 +10375,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/validation/ and rewrite the relation line.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Retire; the activities QA and references move into validation.md."
       }
     ]
   },
@@ -10386,6 +10421,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/validation/ and rewrite the relation line.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Model Validation link at validation.md."
       }
     ]
   },
@@ -10415,6 +10455,11 @@
         "summary": "Rework the QA and references sections; trim the Related line.",
         "commit": "6fb8e123adfffcf231c2d234d15cd34d997cbdfe",
         "before": "e23cf6d58258e16dc8110015b5502b9ebe6064a0"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Model Validation and E-values links at validation.md and e-value.md."
       }
     ]
   },
@@ -10432,6 +10477,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/validation/ and link the validation set.",
         "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Fold the model-validation activities QA and its references into Validation; drop the retired link."
       }
     ]
   },

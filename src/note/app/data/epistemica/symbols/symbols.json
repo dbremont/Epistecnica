@@ -567,7 +567,7 @@
       "origins": "Capital sigma as the summation operator, standard since Euler's century; U+2211; TeX: \\sum with limits.",
       "usage": "∑ᵢ xᵢ — means, variances, losses and series; the discrete twin of ∫.",
       "related": ["integral", "sigma"],
-      "notes": ["epistemica/mathematical/serie.md", "epistemica/observational/statistics.md"],
+      "notes": ["epistemica/mathematical/serie.md", "epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Summation", "url": "https://en.wikipedia.org/wiki/Summation" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -729,7 +729,7 @@
       "origins": "The plus-over-minus of the French “plus ou moins”, standard for error and interval notation; U+00B1; TeX: \\pm.",
       "usage": "x ± σ — measurement uncertainty and confidence intervals; (a ± b)² — both signs in the expansion.",
       "related": ["approximate", "sigma"],
-      "notes": ["epistemica/observational/statistics.md"],
+      "notes": ["epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Plus-minus sign", "url": "https://en.wikipedia.org/wiki/Plus-minus_sign" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -747,7 +747,7 @@
       "origins": "The blackboard-bold E of the double-struck operator family (Mathematical Alphanumeric Symbols, Unicode 3.1, 2001); TeX: \\mathbb{E}.",
       "usage": "𝔼[X] — expectation behind estimators, variances and risks; 𝔼[X | Y] — conditional expectation.",
       "related": ["mu", "sigma", "conditional-bar"],
-      "notes": ["epistemica/observational/probability.md", "epistemica/observational/statistics.md"],
+      "notes": ["epistemica/observational/probability.md", "epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Expected value", "url": "https://en.wikipedia.org/wiki/Expected_value" },
         { "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference." }
@@ -909,7 +909,7 @@
       "origins": "Greek theta (Θ); Fisher's convention fixes Greek letters for parameters and Latin letters for the statistics computed from data; U+03B8; TeX: \\theta.",
       "usage": "θ — the true parameter, θ̂ — its estimate, L(θ) — the likelihood over it.",
       "related": ["mu", "sigma", "alpha"],
-      "notes": ["epistemica/observational/statistics.md"],
+      "notes": ["epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Estimator", "url": "https://en.wikipedia.org/wiki/Estimator" },
         { "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference." }
@@ -927,7 +927,7 @@
       "origins": "Greek mu (Μ); μ for the average and for the measure in Lebesgue's measure theory (1902); U+03BC; TeX: \\mu.",
       "usage": "μ = 𝔼[X] — location of a law; μ(A) — the measure of a set; μ in units (micrometre).",
       "related": ["expectation", "sigma", "theta"],
-      "notes": ["epistemica/mathematical/measure.md", "epistemica/observational/statistics.md"],
+      "notes": ["epistemica/mathematical/measure.md", "epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Measure (mathematics)", "url": "https://en.wikipedia.org/wiki/Measure_(mathematics)" },
         { "label": "Billingsley, P. (1995). Probability and Measure." }
@@ -945,7 +945,7 @@
       "origins": "Greek sigma (Σ); σ for the standard deviation of a normal law and for the σ-algebra of measurable sets (Lebesgue); U+03C3; TeX: \\sigma.",
       "usage": "σ² — variance, σ — standard deviation and SGD step size; σ-algebra — the family of sets a measure is defined on.",
       "related": ["mu", "theta", "summation"],
-      "notes": ["epistemica/mathematical/measure.md", "epistemica/observational/statistics.md"],
+      "notes": ["epistemica/mathematical/measure.md", "epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Standard deviation", "url": "https://en.wikipedia.org/wiki/Standard_deviation" },
         { "label": "Wikipedia: Sigma-algebra", "url": "https://en.wikipedia.org/wiki/Sigma-algebra" }
