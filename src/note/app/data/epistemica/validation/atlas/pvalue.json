@@ -1,0 +1,597 @@
+{
+  "title": "P-Value Atlas",
+  "abbr": "PV",
+  "version": "2026-10-27",
+  "intro": "From the z-statistic to the permutation cloud — the null law behind every p-value, its three tail formulas, and a lab that draws the law and the p-values it produces.",
+  "source": "hand-authored store; epistemica/validation/atlas/pvalue.json",
+  "families": {
+    "continuous": "Null laws with a continuous sample space: tail areas are exact integrals.",
+    "discrete": "Null laws on counts: tail sums include the observed point and p-values are conservative.",
+    "resampling": "Empirical nulls built by resampling the data: the p-value is a Monte Carlo tail proportion."
+  },
+  "distributions": [
+    {
+      "id": "normal",
+      "name": "Standard Normal",
+      "symbol": "Z",
+      "family": "continuous",
+      "support": "(-∞, ∞)",
+      "parameters": "μ ∈ ℝ, σ > 0",
+      "statistic": "z = (x̄ − μ₀) / (σ/√n)",
+      "definition": "The exact null law of the z-statistic when σ is known, and the large-sample limit of any standardized statistic whose null has finite variance.",
+      "engine": "normal",
+      "analytic": true,
+      "params": [
+        { "name": "mu", "label": "μ", "default": 0, "min": -5, "max": 5, "step": 0.1 },
+        { "name": "sigma", "label": "σ", "default": 1, "min": 0.1, "max": 10, "step": 0.1 }
+      ],
+      "formulas": {
+        "density": "\\varphi(t;\\mu,\\sigma)=\\frac{1}{\\sigma\\sqrt{2\\pi}}\\,e^{-\\frac{(t-\\mu)^2}{2\\sigma^2}}",
+        "cdf": "F(t)=\\Phi\\!\\left(\\frac{t-\\mu}{\\sigma}\\right)",
+        "p_left": "p_{\\mathrm{left}}=\\Phi\\!\\left(\\frac{t_{\\mathrm{obs}}-\\mu}{\\sigma}\\right)",
+        "p_right": "p_{\\mathrm{right}}=1-\\Phi\\!\\left(\\frac{t_{\\mathrm{obs}}-\\mu}{\\sigma}\\right)",
+        "p_two": "p_{\\mathrm{two}}=2\\left[1-\\Phi\\!\\left(\\frac{|t_{\\mathrm{obs}}-\\mu|}{\\sigma}\\right)\\right]"
+      },
+      "p_convention": "Symmetric null: the two-sided p doubles the smaller tail and is capped at 1. Under H₀ with a continuous statistic the p-value is Uniform(0,1).",
+      "tests": ["z-test for a mean with known σ", "Wald test", "score test (asymptotic)", "sign test (asymptotic)"],
+      "related": ["student-t", "cauchy"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md", "epistemica/observational/gaussian-distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: Normal distribution", "url": "https://en.wikipedia.org/wiki/Normal_distribution" },
+        { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
+      ]
+    },
+    {
+      "id": "student-t",
+      "name": "Student t",
+      "symbol": "t",
+      "family": "continuous",
+      "support": "(-∞, ∞)",
+      "parameters": "ν > 0 degrees of freedom",
+      "statistic": "t = (x̄ − μ₀) / (s/√n)",
+      "definition": "The null law of a standardized mean when the variance is estimated from the same sample, for normal data.",
+      "engine": "student-t",
+      "analytic": true,
+      "params": [
+        { "name": "df", "label": "ν", "default": 5, "min": 1, "max": 200, "step": 1 }
+      ],
+      "formulas": {
+        "density": "f(t;\\nu)=\\frac{\\Gamma\\!\\left(\\frac{\\nu+1}{2}\\right)}{\\sqrt{\\nu\\pi}\\,\\Gamma\\!\\left(\\frac{\\nu}{2}\\right)}\\left(1+\\frac{t^2}{\\nu}\\right)^{-\\frac{\\nu+1}{2}}",
+        "cdf": "F(t)=1-\\tfrac{1}{2}\\,I_{\\frac{\\nu}{\\nu+t^2}}\\!\\left(\\frac{\\nu}{2},\\frac{1}{2}\\right),\\quad t\\ge 0",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}})",
+        "p_two": "p_{\\mathrm{two}}=2\\left[1-F(|t_{\\mathrm{obs}}|)\\right]"
+      },
+      "p_convention": "Symmetric null; the two-sided p doubles the smaller tail. Heavier tails than the normal, so the same t gives a larger p at small ν.",
+      "tests": ["one-sample t-test", "two-sample t-test", "paired t-test", "regression coefficient t"],
+      "related": ["normal", "f"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md"],
+      "sources": [
+        { "label": "Wikipedia: Student's t-distribution", "url": "https://en.wikipedia.org/wiki/Student%27s_t-distribution" },
+        { "label": "Student (1908). The probable error of a mean. Biometrika, 6(1), 1–25.", "url": "https://doi.org/10.2307/2331554" }
+      ]
+    },
+    {
+      "id": "chi-square",
+      "name": "Chi-square",
+      "symbol": "χ²",
+      "family": "continuous",
+      "support": "[0, ∞)",
+      "parameters": "k > 0 degrees of freedom",
+      "statistic": "X² = Σ (Oᵢ − Eᵢ)² / Eᵢ",
+      "definition": "The null law of a sum of squared standard normals — the limit of Pearson's statistic and of twice a log-likelihood ratio.",
+      "engine": "chi-square",
+      "analytic": true,
+      "params": [
+        { "name": "k", "label": "k", "default": 3, "min": 1, "max": 100, "step": 1 }
+      ],
+      "formulas": {
+        "density": "f(t;k)=\\frac{t^{k/2-1}e^{-t/2}}{2^{k/2}\\,\\Gamma(k/2)},\\quad t>0",
+        "cdf": "F(t)=P\\!\\left(\\frac{k}{2},\\frac{t}{2}\\right)",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}})",
+        "p_two": "p_{\\mathrm{two}}=p_{\\mathrm{right}}\\ \\text{(upper-tail test)}"
+      },
+      "p_convention": "Chi-square tests reject only in the upper tail; the lower tail is not a rejection region. The two-sided entry repeats the upper tail instead of doubling it.",
+      "tests": ["Pearson goodness-of-fit", "test of independence", "variance test", "likelihood-ratio asymptotics"],
+      "related": ["gamma", "f"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/probability-model-validation.md", "epistemica/observational/chi-squared-distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: Chi-squared distribution", "url": "https://en.wikipedia.org/wiki/Chi-squared_distribution" },
+        { "label": "Pearson, K. (1900). On the criterion that a given system of deviations… Philosophical Magazine, 50(302), 157–175.", "url": "https://doi.org/10.1080/14786440009463897" }
+      ]
+    },
+    {
+      "id": "f",
+      "name": "F (Fisher–Snedecor)",
+      "symbol": "F",
+      "family": "continuous",
+      "support": "[0, ∞)",
+      "parameters": "d₁, d₂ > 0 degrees of freedom",
+      "statistic": "F = (S₁²/d₁) / (S₂²/d₂)",
+      "definition": "The null law of a ratio of two independent mean squares — the reference for variance-ratio and ANOVA tests.",
+      "engine": "f",
+      "analytic": true,
+      "params": [
+        { "name": "d1", "label": "d₁", "default": 5, "min": 1, "max": 100, "step": 1 },
+        { "name": "d2", "label": "d₂", "default": 10, "min": 1, "max": 200, "step": 1 }
+      ],
+      "formulas": {
+        "density": "f(t;d_1,d_2)=\\frac{\\Gamma\\!\\left(\\frac{d_1+d_2}{2}\\right)}{\\Gamma\\!\\left(\\frac{d_1}{2}\\right)\\Gamma\\!\\left(\\frac{d_2}{2}\\right)}\\left(\\frac{d_1}{d_2}\\right)^{\\frac{d_1}{2}}t^{\\frac{d_1}{2}-1}\\left(1+\\frac{d_1}{d_2}t\\right)^{-\\frac{d_1+d_2}{2}}",
+        "cdf": "F(t)=I_{\\frac{d_1t}{d_1t+d_2}}\\!\\left(\\frac{d_1}{2},\\frac{d_2}{2}\\right)",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}})",
+        "p_two": "p_{\\mathrm{two}}=p_{\\mathrm{right}}\\ \\text{(variance-ratio test)}"
+      },
+      "p_convention": "ANOVA and variance-ratio tests reject in the upper tail; a lower-tail F is a different, rarely used question. Two-sided doubling is not applied.",
+      "tests": ["one-way ANOVA", "variance-ratio test", "regression F-test", "likelihood-ratio (scaled)"],
+      "related": ["chi-square", "student-t"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md", "epistemica/observational/f-distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: F-distribution", "url": "https://en.wikipedia.org/wiki/F-distribution" },
+        { "label": "Fisher, R. A. (1925). Statistical Methods for Research Workers." }
+      ]
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "symbol": "Γ",
+      "family": "continuous",
+      "support": "(0, ∞)",
+      "parameters": "α > 0 shape, β > 0 rate",
+      "statistic": "T = Σᵢ Xᵢ with Xᵢ ~ Exp(β)",
+      "definition": "The waiting time to the α-th event of a Poisson process; the parent family of the chi-square and exponential nulls.",
+      "engine": "gamma",
+      "analytic": true,
+      "params": [
+        { "name": "shape", "label": "α", "default": 2, "min": 0.1, "max": 50, "step": 0.1 },
+        { "name": "rate", "label": "β", "default": 1, "min": 0.01, "max": 10, "step": 0.01 }
+      ],
+      "formulas": {
+        "density": "f(t;\\alpha,\\beta)=\\frac{\\beta^{\\alpha}}{\\Gamma(\\alpha)}\\,t^{\\alpha-1}e^{-\\beta t},\\quad t>0",
+        "cdf": "F(t)=P(\\alpha,\\beta t)",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}})",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Support starts at 0, so doubling the smaller tail is a convention rather than an exact inversion; waiting-time tests usually use the upper tail.",
+      "tests": ["waiting-time test", "Poisson rate test (Gamma–Poisson)", "gamma goodness-of-fit"],
+      "related": ["chi-square", "exponential", "poisson"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/observational/gamma-distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: Gamma distribution", "url": "https://en.wikipedia.org/wiki/Gamma_distribution" },
+        { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
+      ]
+    },
+    {
+      "id": "exponential",
+      "name": "Exponential",
+      "symbol": "Exp",
+      "family": "continuous",
+      "support": "[0, ∞)",
+      "parameters": "λ > 0 rate",
+      "statistic": "T = waiting time to the first event",
+      "definition": "The null law of a waiting time under a constant hazard — the α = 1 gamma, and the simplest survival null.",
+      "engine": "exponential",
+      "analytic": true,
+      "params": [
+        { "name": "rate", "label": "λ", "default": 1, "min": 0.01, "max": 10, "step": 0.01 }
+      ],
+      "formulas": {
+        "density": "f(t;\\lambda)=\\lambda e^{-\\lambda t},\\quad t\\ge 0",
+        "cdf": "F(t)=1-e^{-\\lambda t}",
+        "p_left": "p_{\\mathrm{left}}=1-e^{-\\lambda t_{\\mathrm{obs}}}",
+        "p_right": "p_{\\mathrm{right}}=e^{-\\lambda t_{\\mathrm{obs}}}",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Lifetime tests reject long waits (upper tail); doubling the smaller tail is a convention because the support is bounded below.",
+      "tests": ["mean lifetime test", "hazard-ratio test", "exponentiality test"],
+      "related": ["gamma", "poisson"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/calibration.md", "epistemica/observational/exponential-distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: Exponential distribution", "url": "https://en.wikipedia.org/wiki/Exponential_distribution" },
+        { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
+      ]
+    },
+    {
+      "id": "beta",
+      "name": "Beta",
+      "symbol": "B",
+      "family": "continuous",
+      "support": "[0, 1]",
+      "parameters": "a, b > 0 shape",
+      "statistic": "T = X / (X + Y) with X ~ Γ(a), Y ~ Γ(b)",
+      "definition": "The null law of an order statistic and of a proportion of a gamma total; its Uniform(0,1) special case is the law of a p-value.",
+      "engine": "beta",
+      "analytic": true,
+      "params": [
+        { "name": "a", "label": "a", "default": 2, "min": 0.1, "max": 20, "step": 0.1 },
+        { "name": "b", "label": "b", "default": 5, "min": 0.1, "max": 20, "step": 0.1 }
+      ],
+      "formulas": {
+        "density": "f(t;a,b)=\\frac{t^{a-1}(1-t)^{b-1}}{B(a,b)},\\quad 0\\le t\\le 1",
+        "cdf": "F(t)=I_t(a,b)",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}})",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Bounded support, so doubling the smaller tail is a convention. With a = b = 1 the law is Uniform(0,1), the null law of a continuous p-value.",
+      "tests": ["order-statistic test", "proportion test (exact, beta form)", "randomized test construction"],
+      "related": ["uniform", "gamma"],
+      "notes": ["epistemica/validation/p-value.md"],
+      "sources": [
+        { "label": "Wikipedia: Beta distribution", "url": "https://en.wikipedia.org/wiki/Beta_distribution" },
+        { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
+      ]
+    },
+    {
+      "id": "uniform",
+      "name": "Uniform (p under H₀)",
+      "symbol": "U",
+      "family": "continuous",
+      "support": "[a, b]",
+      "parameters": "a < b",
+      "statistic": "p = F(T) under a continuous null",
+      "definition": "The probability integral transform: under a continuous simple null, the p-value itself is Uniform(0,1). The lab's p-histogram is the empirical check of this law.",
+      "engine": "uniform",
+      "analytic": true,
+      "params": [
+        { "name": "a", "label": "a", "default": 0, "min": -5, "max": 5, "step": 0.1 },
+        { "name": "b", "label": "b", "default": 1, "min": -4, "max": 10, "step": 0.1 }
+      ],
+      "formulas": {
+        "density": "f(t;a,b)=\\frac{1}{b-a},\\quad a\\le t\\le b",
+        "cdf": "F(t)=\\frac{t-a}{b-a}",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}})",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "The calibration law tells us that requiring p ≤ α rejects a true continuous null with probability exactly α; that is the whole meaning of the threshold.",
+      "tests": ["probability integral transform", "calibration of p-values", "randomized decision rules"],
+      "related": ["beta"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/calibration.md"],
+      "sources": [
+        { "label": "Wikipedia: Probability integral transform", "url": "https://en.wikipedia.org/wiki/Probability_integral_transform" },
+        { "label": "Wikipedia: Uniform distribution (continuous)", "url": "https://en.wikipedia.org/wiki/Continuous_uniform_distribution" }
+      ]
+    },
+    {
+      "id": "cauchy",
+      "name": "Cauchy",
+      "symbol": "C",
+      "family": "continuous",
+      "support": "(-∞, ∞)",
+      "parameters": "x₀ ∈ ℝ location, γ > 0 scale",
+      "statistic": "T = tan(π(U − ½))",
+      "definition": "A heavy-tailed symmetric null with no mean: the reminder that a test statistic need not have finite moments for its p-value to be defined.",
+      "engine": "cauchy",
+      "analytic": true,
+      "params": [
+        { "name": "x0", "label": "x₀", "default": 0, "min": -5, "max": 5, "step": 0.1 },
+        { "name": "scale", "label": "γ", "default": 1, "min": 0.1, "max": 10, "step": 0.1 }
+      ],
+      "formulas": {
+        "density": "f(t;x_0,\\gamma)=\\frac{1}{\\pi\\gamma\\left[1+\\left(\\frac{t-x_0}{\\gamma}\\right)^2\\right]}",
+        "cdf": "F(t)=\\frac{1}{2}+\\frac{1}{\\pi}\\arctan\\!\\left(\\frac{t-x_0}{\\gamma}\\right)",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}})",
+        "p_two": "p_{\\mathrm{two}}=2\\left[1-F(|t_{\\mathrm{obs}}-x_0|)\\right]"
+      },
+      "p_convention": "Symmetric, so the two-sided p doubles the smaller tail. Mean and variance do not exist, so CLT-based asymptotics fail even though the exact tail p is well defined.",
+      "tests": ["heavy-tailed robustness check", "ratio of normals", "Lorentzian line-shape fit"],
+      "related": ["normal", "student-t"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/observational/distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: Cauchy distribution", "url": "https://en.wikipedia.org/wiki/Cauchy_distribution" },
+        { "label": "Wikipedia: Heavy-tailed distribution", "url": "https://en.wikipedia.org/wiki/Heavy-tailed_distribution" }
+      ]
+    },
+    {
+      "id": "kolmogorov-smirnov",
+      "name": "Kolmogorov–Smirnov",
+      "symbol": "Dₙ",
+      "family": "continuous",
+      "support": "[0, 1]",
+      "parameters": "n > 0 sample size",
+      "statistic": "Dₙ = supₓ |Fₙ(x) − F(x)|",
+      "definition": "The null law of the maximum distance between an empirical CDF and the model CDF; the reference for the KS goodness-of-fit test.",
+      "engine": "ks",
+      "analytic": true,
+      "params": [
+        { "name": "n", "label": "n", "default": 20, "min": 5, "max": 200, "step": 1 }
+      ],
+      "formulas": {
+        "density": "D_n=\\sup_x\\left|F_n(x)-F(x)\\right|\\quad\\text{(the exact finite-}n\\text{ law has no elementary density)}",
+        "cdf": "Q_{\\mathrm{KS}}(\\lambda)=2\\sum_{j=1}^{\\infty}(-1)^{j-1}e^{-2j^2\\lambda^2},\\quad \\lambda=\\sqrt{n}\\,t",
+        "p_left": "p_{\\mathrm{left}}=1-Q_{\\mathrm{KS}}\\!\\left(\\sqrt{n}\\,t_{\\mathrm{obs}}\\right)",
+        "p_right": "p_{\\mathrm{right}}=Q_{\\mathrm{KS}}\\!\\left(\\sqrt{n}\\,t_{\\mathrm{obs}}\\right)",
+        "p_two": "p_{\\mathrm{two}}=Q_{\\mathrm{KS}}\\!\\left(\\sqrt{n}\\,t_{\\mathrm{obs}}\\right)"
+      },
+      "p_convention": "The statistic is a distance, so only the upper tail rejects; the atlas uses the asymptotic Q_KS, and the exact finite-n p needs the Kolmogorov distribution with small-n corrections.",
+      "tests": ["one-sample KS goodness-of-fit", "two-sample KS (scaled variant)", "CDF-distance diagnostics"],
+      "related": ["chi-square", "uniform"],
+      "notes": ["epistemica/validation/probability-model-validation.md", "epistemica/validation/validation.md"],
+      "sources": [
+        { "label": "Wikipedia: Kolmogorov–Smirnov test", "url": "https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test" },
+        { "label": "Massey, F. J. (1951). The Kolmogorov–Smirnov test for goodness of fit. JASA, 46(253), 68–78.", "url": "https://doi.org/10.1080/01621459.1951.10500769" }
+      ]
+    },
+    {
+      "id": "binomial",
+      "name": "Binomial",
+      "symbol": "Bin",
+      "family": "discrete",
+      "support": "{0, 1, …, n}",
+      "parameters": "n ∈ ℕ, p ∈ [0, 1]",
+      "statistic": "T = number of successes in n independent trials",
+      "definition": "The null law of a success count — the exact reference for the sign test and the exact binomial test.",
+      "engine": "binomial",
+      "analytic": true,
+      "params": [
+        { "name": "n", "label": "n", "default": 20, "min": 1, "max": 500, "step": 1 },
+        { "name": "p", "label": "p", "default": 0.5, "min": 0.001, "max": 0.999, "step": 0.001 }
+      ],
+      "formulas": {
+        "density": "\\Pr(T=k)=\\binom{n}{k}p^k(1-p)^{n-k}",
+        "cdf": "F(t)=\\sum_{k=0}^{\\lfloor t\\rfloor}\\binom{n}{k}p^k(1-p)^{n-k}=I_{1-p}\\!\\left(n-\\lfloor t\\rfloor,\\lfloor t\\rfloor+1\\right)",
+        "p_left": "p_{\\mathrm{left}}=\\sum_{k=0}^{t_{\\mathrm{obs}}}\\binom{n}{k}p^k(1-p)^{n-k}",
+        "p_right": "p_{\\mathrm{right}}=\\sum_{k=t_{\\mathrm{obs}}}^{n}\\binom{n}{k}p^k(1-p)^{n-k}",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Discrete: the observed count is included in both tails, so p-values are conservative — the p-histogram spikes at 1 and the test rejects less often than α.",
+      "tests": ["exact binomial test", "sign test", "McNemar (exact form)", "proportion test (exact)"],
+      "related": ["poisson", "hypergeometric", "beta"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md"],
+      "sources": [
+        { "label": "Wikipedia: Binomial distribution", "url": "https://en.wikipedia.org/wiki/Binomial_distribution" },
+        { "label": "Clopper, C. J. & Pearson, E. S. (1934). The use of confidence or fiducial limits… Biometrika, 26(4), 404–413.", "url": "https://doi.org/10.1093/biomet/26.4.404" }
+      ]
+    },
+    {
+      "id": "poisson",
+      "name": "Poisson",
+      "symbol": "Poi",
+      "family": "discrete",
+      "support": "{0, 1, 2, …}",
+      "parameters": "λ > 0 rate",
+      "statistic": "T = count of events in a fixed exposure",
+      "definition": "The null law of a count under a constant rate; the reference for rate tests and count-model residuals.",
+      "engine": "poisson",
+      "analytic": true,
+      "params": [
+        { "name": "lambda", "label": "λ", "default": 4, "min": 0.01, "max": 100, "step": 0.1 }
+      ],
+      "formulas": {
+        "density": "\\Pr(T=k)=\\frac{e^{-\\lambda}\\lambda^k}{k!}",
+        "cdf": "F(t)=\\sum_{k=0}^{\\lfloor t\\rfloor}\\frac{e^{-\\lambda}\\lambda^k}{k!}=Q\\!\\left(\\lfloor t\\rfloor+1,\\lambda\\right)",
+        "p_left": "p_{\\mathrm{left}}=\\sum_{k=0}^{t_{\\mathrm{obs}}}\\frac{e^{-\\lambda}\\lambda^k}{k!}",
+        "p_right": "p_{\\mathrm{right}}=\\sum_{k=t_{\\mathrm{obs}}}^{\\infty}\\frac{e^{-\\lambda}\\lambda^k}{k!}",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Discrete and unbounded above; the observed count sits in both tails, so the p-value is conservative and the histogram spikes at 1.",
+      "tests": ["Poisson rate test", "exact count test", "standardized residuals", "dispersion check"],
+      "related": ["binomial", "gamma", "negative-binomial"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/calibration.md", "epistemica/observational/poisson-distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: Poisson distribution", "url": "https://en.wikipedia.org/wiki/Poisson_distribution" },
+        { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
+      ]
+    },
+    {
+      "id": "hypergeometric",
+      "name": "Hypergeometric",
+      "symbol": "Hyp",
+      "family": "discrete",
+      "support": "{max(0, n − (N − K)), …, min(n, K)}",
+      "parameters": "N population, K successes, n draws",
+      "statistic": "T = successes in n draws without replacement",
+      "definition": "The null law of a success count under sampling without replacement — the exact reference behind Fisher's exact test.",
+      "engine": "hypergeometric",
+      "analytic": true,
+      "params": [
+        { "name": "N", "label": "N", "default": 50, "min": 4, "max": 1000, "step": 1 },
+        { "name": "K", "label": "K", "default": 20, "min": 0, "max": 1000, "step": 1 },
+        { "name": "n", "label": "n", "default": 10, "min": 1, "max": 1000, "step": 1 }
+      ],
+      "formulas": {
+        "density": "\\Pr(T=k)=\\frac{\\binom{K}{k}\\binom{N-K}{n-k}}{\\binom{N}{n}}",
+        "cdf": "F(t)=\\sum_{k=k_{\\min}}^{\\lfloor t\\rfloor}\\Pr(T=k)",
+        "p_left": "p_{\\mathrm{left}}=\\sum_{k=k_{\\min}}^{t_{\\mathrm{obs}}}\\Pr(T=k)",
+        "p_right": "p_{\\mathrm{right}}=\\sum_{k=t_{\\mathrm{obs}}}^{k_{\\max}}\\Pr(T=k)",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Discrete with bounded support; the observed table contributes to both tails. Fisher's exact p sums the tables no more likely than the observed one, a different ordering.",
+      "tests": ["Fisher's exact test", "gene-set enrichment (over-representation)", "capture–recapture check"],
+      "related": ["binomial", "chi-square"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md"],
+      "sources": [
+        { "label": "Wikipedia: Hypergeometric distribution", "url": "https://en.wikipedia.org/wiki/Hypergeometric_distribution" },
+        { "label": "Fisher, R. A. (1935). The Design of Experiments." }
+      ]
+    },
+    {
+      "id": "negative-binomial",
+      "name": "Negative binomial",
+      "symbol": "NB",
+      "family": "discrete",
+      "support": "{0, 1, 2, …}",
+      "parameters": "r > 0 successes, p ∈ (0, 1]",
+      "statistic": "T = failures before the r-th success",
+      "definition": "The null law of over-dispersed counts — the reference when a Poisson null is too narrow.",
+      "engine": "negative-binomial",
+      "analytic": true,
+      "params": [
+        { "name": "r", "label": "r", "default": 5, "min": 1, "max": 100, "step": 1 },
+        { "name": "p", "label": "p", "default": 0.5, "min": 0.001, "max": 0.999, "step": 0.001 }
+      ],
+      "formulas": {
+        "density": "\\Pr(T=k)=\\binom{k+r-1}{k}(1-p)^k p^r",
+        "cdf": "F(t)=I_p\\!\\left(r,\\lfloor t\\rfloor+1\\right)",
+        "p_left": "p_{\\mathrm{left}}=F(t_{\\mathrm{obs}})",
+        "p_right": "p_{\\mathrm{right}}=1-F(t_{\\mathrm{obs}}-1)",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Discrete; the CDF jumps at integers, so the observed point is included and the p-value is conservative. The Poisson is the r → ∞ limit.",
+      "tests": ["over-dispersion test", "negative-binomial count model", "cluster-level rate test"],
+      "related": ["poisson", "binomial"],
+      "notes": ["epistemica/validation/p-value.md"],
+      "sources": [
+        { "label": "Wikipedia: Negative binomial distribution", "url": "https://en.wikipedia.org/wiki/Negative_binomial_distribution" },
+        { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
+      ]
+    },
+    {
+      "id": "geometric",
+      "name": "Geometric",
+      "symbol": "Geo",
+      "family": "discrete",
+      "support": "{1, 2, 3, …}",
+      "parameters": "p ∈ (0, 1]",
+      "statistic": "T = trials until the first success",
+      "definition": "The null law of a run length — the reference for first-passage and waiting-count tests.",
+      "engine": "geometric",
+      "analytic": true,
+      "params": [
+        { "name": "p", "label": "p", "default": 0.2, "min": 0.001, "max": 0.999, "step": 0.001 }
+      ],
+      "formulas": {
+        "density": "\\Pr(T=k)=(1-p)^{k-1}p",
+        "cdf": "F(t)=1-(1-p)^{\\lfloor t\\rfloor}",
+        "p_left": "p_{\\mathrm{left}}=1-(1-p)^{t_{\\mathrm{obs}}}",
+        "p_right": "p_{\\mathrm{right}}=(1-p)^{t_{\\mathrm{obs}}-1}",
+        "p_two": "p_{\\mathrm{two}}=\\min\\!\\left(1,\\,2\\min(p_{\\mathrm{left}},p_{\\mathrm{right}})\\right)"
+      },
+      "p_convention": "Discrete with unbounded support; the point mass at t_obs belongs to both tails, so the p-value is conservative.",
+      "tests": ["run-length test", "first-passage test", "waiting-time check"],
+      "related": ["negative-binomial", "exponential"],
+      "notes": ["epistemica/validation/p-value.md"],
+      "sources": [
+        { "label": "Wikipedia: Geometric distribution", "url": "https://en.wikipedia.org/wiki/Geometric_distribution" },
+        { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
+      ]
+    },
+    {
+      "id": "multinomial",
+      "name": "Multinomial (Pearson X²)",
+      "symbol": "X²",
+      "family": "discrete",
+      "support": "count vectors (n₁, …, n_k) with Σ nᵢ = N",
+      "parameters": "N trials, k ≥ 2 cells",
+      "statistic": "X² = Σᵢ (Oᵢ − Eᵢ)² / Eᵢ with Eᵢ = N pᵢ",
+      "definition": "The exact law of a count vector; its Pearson statistic is referred to the chi-square law with k − 1 degrees of freedom as the cell counts grow.",
+      "engine": "multinomial",
+      "analytic": true,
+      "params": [
+        { "name": "k", "label": "k", "default": 4, "min": 2, "max": 20, "step": 1 },
+        { "name": "N", "label": "N", "default": 100, "min": 10, "max": 2000, "step": 10 }
+      ],
+      "formulas": {
+        "density": "\\Pr(n_1,\\dots,n_k)=\\frac{N!}{n_1!\\cdots n_k!}\\,p_1^{n_1}\\cdots p_k^{n_k}",
+        "cdf": "X^2=\\sum_{i=1}^{k}\\frac{(O_i-E_i)^2}{E_i}\\ \\sim\\ \\chi^2_{k-1}\\quad\\text{(asymptotic)}",
+        "p_left": "p_{\\mathrm{left}}=\\Pr\\!\\left(\\chi^2_{k-1}\\le t_{\\mathrm{obs}}\\right)",
+        "p_right": "p_{\\mathrm{right}}=1-\\Pr\\!\\left(\\chi^2_{k-1}\\le t_{\\mathrm{obs}}\\right)",
+        "p_two": "p_{\\mathrm{two}}=p_{\\mathrm{right}}\\ \\text{(upper-tail test)}"
+      },
+      "p_convention": "Pearson's statistic is discrete, but the reference law is the continuous chi-square asymptote; small expected counts (Eᵢ < 5) invalidate the p-value.",
+      "tests": ["Pearson goodness-of-fit", "test of independence", "homogeneity across groups"],
+      "related": ["chi-square", "binomial"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/probability-model-validation.md", "epistemica/observational/multinomial-distribution.md"],
+      "sources": [
+        { "label": "Wikipedia: Multinomial distribution", "url": "https://en.wikipedia.org/wiki/Multinomial_distribution" },
+        { "label": "Cochran, W. G. (1952). The χ² test of goodness of fit. Annals of Mathematical Statistics, 23(3), 315–345.", "url": "https://doi.org/10.1214/aoms/1177729380" }
+      ]
+    },
+    {
+      "id": "permutation",
+      "name": "Permutation null",
+      "symbol": "Tᵦ",
+      "family": "resampling",
+      "support": "the B resampled statistics",
+      "parameters": "n₁, n₂ group sizes, B permutations",
+      "statistic": "T = x̄₁ − x̄₂",
+      "definition": "The empirical law of a statistic under random relabelling — exact when the labels are exchangeable, with no distributional family assumed.",
+      "engine": "permutation",
+      "analytic": false,
+      "params": [
+        { "name": "n1", "label": "n₁", "default": 10, "min": 2, "max": 100, "step": 1 },
+        { "name": "n2", "label": "n₂", "default": 10, "min": 2, "max": 100, "step": 1 }
+      ],
+      "formulas": {
+        "density": "\\hat{p}(t)=\\frac{1}{B}\\sum_{b=1}^{B}\\mathbf{1}\\{T_b=t\\}",
+        "cdf": "\\hat{F}(t)=\\frac{1}{B}\\sum_{b=1}^{B}\\mathbf{1}\\{T_b\\le t\\}",
+        "p_left": "p_{\\mathrm{left}}=\\frac{1+\\#\\{T_b\\le t_{\\mathrm{obs}}\\}}{B+1}",
+        "p_right": "p_{\\mathrm{right}}=\\frac{1+\\#\\{T_b\\ge t_{\\mathrm{obs}}\\}}{B+1}",
+        "p_two": "p_{\\mathrm{two}}=\\frac{1+\\#\\{|T_b|\\ge|t_{\\mathrm{obs}}|\\}}{B+1}"
+      },
+      "p_convention": "The +1 correction keeps the p-value from being exactly zero; the result is a Monte Carlo estimate whose resolution is 1/(B+1), not an analytic tail area.",
+      "tests": ["permutation test for a difference of means", "randomization test", "label-shuffle test"],
+      "related": ["mann-whitney", "bootstrap"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md"],
+      "sources": [
+        { "label": "Wikipedia: Permutation test", "url": "https://en.wikipedia.org/wiki/Permutation_test" },
+        { "label": "Good, P. (2005). Permutation, Parametric and Bootstrap Tests of Hypotheses, 3rd ed." }
+      ]
+    },
+    {
+      "id": "bootstrap",
+      "name": "Bootstrap null",
+      "symbol": "Tᵦ*",
+      "family": "resampling",
+      "support": "the B resampled statistics",
+      "parameters": "n sample size, B resamples",
+      "statistic": "t* = (x̄* − μ₀) / (s*/√n)",
+      "definition": "The empirical law of a statistic recomputed on with-replacement resamples — an approximation to the null built from the data rather than from an assumed family.",
+      "engine": "bootstrap",
+      "analytic": false,
+      "params": [
+        { "name": "n", "label": "n", "default": 15, "min": 3, "max": 200, "step": 1 }
+      ],
+      "formulas": {
+        "density": "\\hat{p}(t)=\\frac{1}{B}\\sum_{b=1}^{B}\\mathbf{1}\\{T_b^{*}=t\\}",
+        "cdf": "\\hat{F}(t)=\\frac{1}{B}\\sum_{b=1}^{B}\\mathbf{1}\\{T_b^{*}\\le t\\}",
+        "p_left": "p_{\\mathrm{left}}=\\frac{1+\\#\\{T_b^{*}\\le t_{\\mathrm{obs}}\\}}{B+1}",
+        "p_right": "p_{\\mathrm{right}}=\\frac{1+\\#\\{T_b^{*}\\ge t_{\\mathrm{obs}}\\}}{B+1}",
+        "p_two": "p_{\\mathrm{two}}=\\frac{1+\\#\\{|T_b^{*}|\\ge|t_{\\mathrm{obs}}|\\}}{B+1}"
+      },
+      "p_convention": "Resampling null: the observed sample is recentered at μ₀ and resampled with replacement. The p is an approximation, not an exact tail probability, and its resolution is 1/(B+1).",
+      "tests": ["bootstrap hypothesis test", "studentized bootstrap", "confidence-interval inversion"],
+      "related": ["permutation", "student-t"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/probability-model-validation.md"],
+      "sources": [
+        { "label": "Wikipedia: Bootstrapping (statistics)", "url": "https://en.wikipedia.org/wiki/Bootstrapping_(statistics)" },
+        { "label": "Efron, B. & Tibshirani, R. J. (1993). An Introduction to the Bootstrap." }
+      ]
+    },
+    {
+      "id": "mann-whitney",
+      "name": "Mann–Whitney U",
+      "symbol": "U",
+      "family": "resampling",
+      "support": "{0, 1, …, n₁n₂}",
+      "parameters": "n₁, n₂ group sizes, B permutations",
+      "statistic": "U = R₁ − n₁(n₁ + 1)/2",
+      "definition": "The rank-sum statistic whose permutation null compares two groups without assuming normality — the nonparametric counterpart of the two-sample t.",
+      "engine": "mann-whitney",
+      "analytic": false,
+      "params": [
+        { "name": "n1", "label": "n₁", "default": 8, "min": 2, "max": 100, "step": 1 },
+        { "name": "n2", "label": "n₂", "default": 8, "min": 2, "max": 100, "step": 1 }
+      ],
+      "formulas": {
+        "density": "\\Pr(U=u)\\ \\text{from the permutation null of the pooled ranks}",
+        "cdf": "\\hat{F}(u)=\\frac{1}{B}\\sum_{b=1}^{B}\\mathbf{1}\\{U_b\\le u\\}",
+        "p_left": "p_{\\mathrm{left}}=\\frac{1+\\#\\{U_b\\le u_{\\mathrm{obs}}\\}}{B+1}",
+        "p_right": "p_{\\mathrm{right}}=\\frac{1+\\#\\{U_b\\ge u_{\\mathrm{obs}}\\}}{B+1}",
+        "p_two": "p_{\\mathrm{two}}=\\frac{1+\\#\\{|U_b-\\mu_U|\\ge|u_{\\mathrm{obs}}-\\mu_U|\\}}{B+1}"
+      },
+      "p_convention": "The exact null is the permutation law of the pooled ranks; the analytic shortcut is the normal approximation U ≈ N(μ_U, σ_U²) with μ_U = n₁n₂/2.",
+      "tests": ["Wilcoxon rank-sum test", "Mann–Whitney U test", "rank-based two-group comparison"],
+      "related": ["permutation", "student-t"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md"],
+      "sources": [
+        { "label": "Wikipedia: Mann–Whitney U test", "url": "https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test" },
+        { "label": "Mann, H. B. & Whitney, D. R. (1947). On a test of whether one of two random variables is stochastically larger… Annals of Mathematical Statistics, 18(1), 50–60.", "url": "https://doi.org/10.1214/aoms/1177730491" }
+      ]
+    }
+  ]
+}

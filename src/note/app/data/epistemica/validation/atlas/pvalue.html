@@ -1,0 +1,2189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P-Value Atlas</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --accent-violet: #B48EF0;
+      --accent-violet-dim: rgba(180, 142, 240, 0.12);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --accent-violet: #6B4FA8;
+      --accent-violet-dim: rgba(107, 79, 168, 0.1);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg-void);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent-cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    #ambientCanvas {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      opacity: 0.55; width: 100%; height: 100%;
+    }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .theme-toggle {
+      background: transparent; border: 1px solid var(--border-subtle);
+      border-radius: 6px; color: var(--text-secondary); cursor: pointer;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
+      padding: 0.45rem 0.7rem; text-transform: uppercase;
+    }
+    .theme-toggle:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+
+    .layout { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem 3.5rem; }
+
+    .crumbs {
+      font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.1rem;
+    }
+    .crumbs a { color: var(--text-muted); }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.45rem; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display); font-weight: 300; font-size: clamp(2.2rem, 5vw, 3.4rem);
+      line-height: 1.05; letter-spacing: 0.01em; margin: 0 0 1rem;
+    }
+    .note-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.6rem; }
+    .chip {
+      display: inline-block; padding: 0.22rem 0.6rem;
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-secondary);
+    }
+    .chip.gold { color: var(--accent-gold); border-color: var(--accent-gold-dim); }
+
+    .lede { max-width: 80ch; color: var(--text-secondary); font-size: 1.02rem; margin: 0 0 1.2rem; }
+    .lede strong { color: var(--text-primary); font-weight: 500; }
+    .toc-row { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.6rem; }
+    .toc-row a {
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted); border: 1px solid var(--border-subtle);
+      border-radius: 999px; padding: 0.3rem 0.65rem;
+    }
+    .toc-row a:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); text-decoration: none; }
+
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin: 1.4rem 0 1.8rem; }
+    .stat { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 0.9rem 1rem; }
+    .stat .value { font-family: var(--font-display); font-size: 1.8rem; line-height: 1; color: var(--accent-gold); }
+    .stat .label {
+      display: block; margin-top: 0.35rem; font-family: var(--font-mono);
+      font-size: 0.55rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);
+    }
+
+    .glyph {
+      flex: 0 0 auto; min-width: 58px; height: 58px; padding: 0 0.5rem; border-radius: 10px;
+      display: grid; place-items: center;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      font-family: var(--font-mono); font-size: 1.35rem; line-height: 1;
+      color: var(--accent-gold); user-select: none;
+    }
+    .facts { display: grid; grid-template-columns: 5.5rem 1fr; gap: 0.18rem 0.6rem; margin: 0 0 0.85rem; font-size: 0.78rem; }
+    .facts dt {
+      font-family: var(--font-mono); font-size: 0.52rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted); padding-top: 0.18rem;
+    }
+    .facts dd { margin: 0; color: var(--text-secondary); }
+
+    .formula-row { display: grid; grid-template-columns: 6.2rem 1fr; gap: 0.6rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border-subtle); align-items: baseline; }
+    .formula-row:last-child { border-bottom: 0; }
+    .formula-label {
+      font-family: var(--font-mono); font-size: 0.5rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .formula-tex { font-size: 0.92rem; overflow-x: auto; overflow-y: hidden; }
+    .formula-tex svg { max-width: 100%; }
+    .p-convention {
+      font-size: 0.78rem; color: var(--text-secondary); border-left: 2px solid var(--accent-gold);
+      padding-left: 0.7rem; margin: 0 0 0.8rem;
+    }
+    .error { color: var(--accent-gold); font-size: 0.9rem; }
+
+    /* ---------- section blocks ---------- */
+    section.block { margin-top: 3rem; scroll-margin-top: 150px; }
+    section.block > h2 {
+      font-family: var(--font-display); font-weight: 400; font-size: 1.85rem;
+      margin: 0 0 0.5rem; line-height: 1.15;
+    }
+    section.block > .section-lede { color: var(--text-secondary); font-size: 0.92rem; max-width: 82ch; margin: 0 0 1.1rem; }
+
+    /* ---------- playground ---------- */
+    .playground { margin: 2.2rem 0 0; scroll-margin-top: 150px; }
+    .pg-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 0.8rem; margin-bottom: 1rem; }
+    .pg-head h2 { font-family: var(--font-display); font-weight: 400; font-size: 2rem; margin: 0 0 0.25rem; line-height: 1.1; }
+    .pg-head .section-lede { color: var(--text-secondary); font-size: 0.92rem; max-width: 78ch; margin: 0; }
+    .pg-jump { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); border: 1px solid var(--border-subtle); border-radius: 999px; padding: 0.32rem 0.7rem; white-space: nowrap; }
+    .pg-jump:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); text-decoration: none; }
+
+    .pick-row { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.9rem; }
+    .pick-group { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
+    .pick-label { min-width: 6.2rem; font-family: var(--font-mono); font-size: 0.5rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--text-muted); }
+    .pick-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .pick-chip {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 999px;
+      color: var(--text-secondary); cursor: pointer; padding: 0.28rem 0.6rem 0.28rem 0.4rem;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.02em;
+    }
+    .pick-chip .sym { display: inline-grid; place-items: center; min-width: 1.5rem; height: 1.5rem; padding: 0 0.25rem; border-radius: 999px; background: var(--bg-card); color: var(--accent-gold); font-size: 0.62rem; }
+    .pick-chip:hover { border-color: var(--accent-cyan); color: var(--text-primary); }
+    .pick-chip.active { border-color: var(--accent-gold); color: var(--accent-gold); background: var(--accent-gold-dim); }
+    .pick-chip.active .sym { background: var(--accent-gold-dim); }
+
+    .pg-details {
+      background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 12px;
+      padding: 0.95rem 1.1rem 0.9rem; margin-bottom: 0.9rem;
+    }
+    .pd-top { display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.4rem; }
+    .pd-top .glyph { min-width: 52px; height: 52px; font-size: 1.15rem; }
+    .pd-top h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; line-height: 1.1; margin: 0 0 0.15rem; }
+    .pd-meta { font-family: var(--font-mono); font-size: 0.52rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); }
+    .pd-def { color: var(--text-secondary); font-size: 0.86rem; margin: 0.15rem 0 0.55rem; }
+    .pd-grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr); gap: 1.1rem; align-items: start; }
+    .pd-main { min-width: 0; }
+    .pd-formulas { min-width: 0; border-left: 1px solid var(--border-subtle); padding-left: 1.1rem; }
+    .pd-h { font-family: var(--font-mono); font-size: 0.5rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.35rem; }
+    .pg-details .facts { margin-bottom: 0.55rem; }
+    .pg-formulas { display: grid; grid-template-columns: 1fr; gap: 0; }
+    .pg-formulas .formula-row { grid-template-columns: 6.4rem 1fr; }
+    .pg-details .p-convention { margin-bottom: 0; }
+    @media (max-width: 900px) {
+      .pd-grid { grid-template-columns: 1fr; }
+      .pd-formulas { border-left: 0; border-top: 1px solid var(--border-subtle); padding-left: 0; padding-top: 0.6rem; }
+    }
+
+    .pg-grid { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(330px, 0.88fr); gap: 0.9rem; align-items: start; }
+    .pg-stage { display: flex; flex-direction: column; gap: 0.8rem; }
+    .stage-card { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 0.8rem 0.9rem 0.65rem; }
+    .stage-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem; margin-bottom: 0.35rem; }
+    .stage-head h3 { margin: 0; font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); font-weight: 400; }
+    .stage-tag { font-family: var(--font-mono); font-size: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-gold); }
+    .stage-card canvas { display: block; width: 100%; height: 230px; }
+    .stage-note { font-size: 0.7rem; color: var(--text-muted); margin: 0.3rem 0 0; min-height: 1.1em; }
+
+    .pg-controls { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 0.95rem 1rem; }
+    .pg-block { border-top: 1px solid var(--border-subtle); margin-top: 0.8rem; padding-top: 0.8rem; }
+    .pg-block:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+    .pg-h { font-family: var(--font-mono); font-size: 0.52rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .slider-row { margin-bottom: 0.6rem; }
+    .slider-row:last-child { margin-bottom: 0; }
+    .slider-head { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; margin-bottom: 0.15rem; }
+    .slider-head label { font-family: var(--font-mono); font-size: 0.62rem; color: var(--text-secondary); }
+    .val-input {
+      width: 5.4rem; background: var(--bg-surface); color: var(--text-primary);
+      border: 1px solid var(--border-subtle); border-radius: 6px; padding: 0.18rem 0.3rem;
+      font-family: var(--font-mono); font-size: 0.64rem; text-align: right; outline: none;
+    }
+    .val-input:focus { border-color: var(--accent-cyan); }
+    .pg-range { width: 100%; accent-color: var(--accent-cyan); height: 1.25rem; margin: 0; cursor: pointer; }
+    .inline-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
+    .inline-row select, .inline-row input[type="number"] {
+      background: var(--bg-surface); color: var(--text-primary); border: 1px solid var(--border-subtle);
+      border-radius: 7px; padding: 0.4rem 0.5rem; font-family: var(--font-mono); font-size: 0.7rem; outline: none;
+    }
+    .inline-row select:focus, .inline-row input[type="number"]:focus { border-color: var(--accent-cyan); }
+    .alpha-label { display: inline-flex; align-items: center; gap: 0.35rem; font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); }
+    .alpha-label input { width: 4.6rem; }
+    .pg-btn {
+      background: var(--accent-cyan-dim); color: var(--accent-cyan); border: 1px solid var(--accent-cyan);
+      border-radius: 7px; cursor: pointer; font-family: var(--font-mono); font-size: 0.56rem;
+      letter-spacing: 0.1em; text-transform: uppercase; padding: 0.45rem 0.75rem;
+    }
+    .pg-btn:hover { background: var(--accent-cyan); color: var(--bg-void); }
+    .pg-btn:disabled { opacity: 0.45; cursor: default; }
+    .pg-btn.ghost { background: transparent; color: var(--text-secondary); border-color: var(--border-subtle); }
+    .pg-btn.ghost:hover { color: var(--accent-gold); border-color: var(--accent-gold-dim); background: transparent; }
+    #tObsInput { width: 6.4rem; }
+
+    .ro-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem; }
+    .ro-box { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 0.38rem 0.5rem; min-width: 0; }
+    .ro-box.wide { grid-column: 1 / -1; }
+    .ro-box .k { display: block; font-family: var(--font-mono); font-size: 0.46rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ro-box .v { display: block; font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; }
+    .ro-box.wide .v { white-space: pre-line; overflow: visible; text-overflow: clip; line-height: 1.5; }
+    .ro-box.wide .k { text-transform: none; letter-spacing: 0.08em; }
+    .pg-status { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.04em; color: var(--text-muted); margin: 0.55rem 0 0; min-height: 1.2em; }
+    .decision-rule {
+      margin: 0.55rem 0 0; padding: 0.38rem 0.55rem; border: 1px solid var(--border-subtle);
+      border-left: 2px solid var(--accent-gold); border-radius: 6px; background: var(--bg-surface);
+      font-family: var(--font-mono); font-size: 0.56rem; line-height: 1.65; color: var(--text-secondary);
+    }
+    .decision-rule .mono { color: var(--accent-gold); }
+    .decision-rule .dr-note { color: var(--text-muted); }
+
+    .mc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.8rem; }
+    .mc-compare { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--text-secondary); margin: 0.55rem 0 0; min-height: 1.2em; }
+
+    @media (max-width: 980px) {
+      .pg-grid { grid-template-columns: 1fr; }
+      .mc-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 720px) {
+      .pick-label { min-width: 100%; }
+      .pg-formulas { grid-template-columns: 1fr; }
+      .ro-grid { grid-template-columns: 1fr; }
+    }
+
+    .refs { list-style: none; padding: 0; margin: 0; }
+    .refs li { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.45rem; }
+    .refs a { color: var(--text-secondary); }
+
+    .site-footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid var(--border-subtle); background: var(--footer-bg);
+      padding: 1.4rem 2rem;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; display: flex; justify-content: space-between;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    @media (max-width: 720px) {
+      .layout { padding: 1.8rem 1.2rem 2.6rem; }
+      .site-nav .nav-inner { padding: 0.8rem 1.2rem; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .facts { grid-template-columns: 5rem 1fr; }
+    }
+  </style>
+  <link rel="stylesheet" href="../../../../../shared/usearch.css">
+</head>
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="crumbs">
+      <a href="../../../../index.html">notes</a><span class="sep">/</span>
+      <a href="../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span>
+      <a href="../../../../index.html?dir=epistemica/validation">validation</a><span class="sep">/</span>
+      <a href="../../../../index.html?dir=epistemica/validation/atlas">atlas</a><span class="sep">/</span>
+      <span class="here">pvalue</span>
+    </div>
+
+    <h1 class="note-title">P-Value Atlas</h1>
+    <div class="note-meta">
+      <span class="chip gold">atlas</span>
+      <span class="chip">live note</span>
+      <span class="chip">#validation</span>
+      <span class="chip">#statistics</span>
+      <span class="chip">#hypothesis-testing</span>
+    </div>
+
+    <p class="lede" id="lede">Every p-value is a tail area of a null law. <strong>Pick a law, move its parameters, park an observed statistic in it, and read the tail live</strong> — the definition, formulas, and convention travel with the selected law.</p>
+
+    <div class="toc-row">
+      <a href="#playground">playground</a>
+      <a href="#references">references</a>
+    </div>
+
+    <div class="stats" id="stats"></div>
+
+    <section class="playground" id="playground">
+      <div class="pg-head">
+        <div>
+          <h2>Playground</h2>
+          <p class="section-lede">Choose a null law, change its parameters, move the observed statistic, and read the tail area as it changes. The analytic values update on every slider move; the Monte Carlo strip below is the calibration check.</p>
+        </div>
+        <a class="pg-jump" href="#references">references ↓</a>
+      </div>
+
+      <div class="pick-row" id="pickRow" aria-label="Choose a distribution"></div>
+
+      <div class="pg-details" id="pgDetails"></div>
+
+      <div class="pg-grid">
+        <div class="pg-stage">
+          <div class="stage-card">
+            <div class="stage-head"><h3 id="lawTitle">density / mass</h3><span class="stage-tag" id="lawTag"></span></div>
+            <canvas id="lawCanvas" aria-label="Density or mass of the selected null law with the selected tail shaded"></canvas>
+            <p class="stage-note" id="lawNote">the selected tail is shaded over the observed statistic</p>
+          </div>
+          <div class="stage-card">
+            <div class="stage-head"><h3>tail area · CDF</h3><span class="stage-tag" id="cdfTag"></span></div>
+            <canvas id="cdfCanvas" aria-label="Cumulative distribution and tail area"></canvas>
+            <p class="stage-note" id="cdfNote">the horizontal guide is F(t obs); the bands mark the selected tail(s)</p>
+          </div>
+        </div>
+
+        <div class="pg-controls">
+          <div class="pg-block">
+            <div class="pg-h">parameters</div>
+            <div id="paramSliders"></div>
+          </div>
+          <div class="pg-block">
+            <div class="pg-h">observed statistic</div>
+            <div class="slider-row">
+              <div class="slider-head"><label for="tObsSlider">t<sub>obs</sub></label><span class="val" id="tObsVal">—</span></div>
+              <input type="range" class="pg-range" id="tObsSlider" min="0" max="1" step="0.001" value="0" aria-label="Observed statistic">
+            </div>
+            <div class="inline-row">
+              <input type="number" id="tObsInput" step="any" aria-label="Observed statistic value">
+              <button type="button" class="pg-btn" id="drawBtn">draw t<sub>obs</sub></button>
+            </div>
+          </div>
+          <div class="pg-block">
+            <div class="pg-h">tail &amp; decision</div>
+            <div class="inline-row">
+              <select id="tailSelect" aria-label="Tail">
+                <option value="right">right · P(T ≥ t)</option>
+                <option value="left">left · P(T ≤ t)</option>
+                <option value="two">two-sided</option>
+              </select>
+              <label class="alpha-label">α <input type="number" id="alphaInput" value="0.05" min="0.001" max="0.2" step="0.005"></label>
+            </div>
+            <p class="decision-rule"><span class="mono">α</span> = significance level · <span class="mono">p</span> = selected tail area<br><span class="mono">p ≤ α</span> → reject H₀ · <span class="mono">p &gt; α</span> → do not reject H₀ <span class="dr-note">(equality rejects)</span></p>
+          </div>
+          <div class="pg-block">
+            <div class="pg-h">live readout</div>
+            <div class="ro-grid">
+              <div class="ro-box"><span class="k">F(t obs)</span><span class="v" id="roF">—</span></div>
+              <div class="ro-box"><span class="k" id="roDLabel">f(t obs)</span><span class="v" id="roD">—</span></div>
+              <div class="ro-box"><span class="k">p left</span><span class="v" id="roPL">—</span></div>
+              <div class="ro-box"><span class="k">p right</span><span class="v" id="roPR">—</span></div>
+              <div class="ro-box"><span class="k">p two-sided</span><span class="v" id="roPT">—</span></div>
+              <div class="ro-box"><span class="k">mean (H₀)</span><span class="v" id="roMean">—</span></div>
+              <div class="ro-box"><span class="k">variance (H₀)</span><span class="v" id="roVar">—</span></div>
+              <div class="ro-box wide"><span class="k">α · p · decision</span><span class="v" id="roDec">—</span></div>
+            </div>
+          </div>
+          <div class="pg-block">
+            <div class="pg-h">Monte Carlo check</div>
+            <div class="inline-row">
+              <label class="alpha-label">B <input type="number" id="trialsInput" value="2000" min="200" max="20000" step="500"></label>
+              <button type="button" class="pg-btn" id="runBtn">run B trials</button>
+              <button type="button" class="pg-btn ghost" id="resetBtn">reset</button>
+            </div>
+            <p class="pg-status" id="pgStatus">ready</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mc-grid">
+        <div class="stage-card">
+          <div class="stage-head"><h3 id="nullTitle">null cloud of T</h3><span class="stage-tag">simulation</span></div>
+          <canvas id="nullCanvas" aria-label="Simulated null distribution of the test statistic"></canvas>
+          <p class="stage-note" id="nullNote">run B trials to draw the null cloud</p>
+        </div>
+        <div class="stage-card">
+          <div class="stage-head"><h3 id="pTitle">distribution of p</h3><span class="stage-tag">calibration</span></div>
+          <canvas id="pCanvas" aria-label="Histogram of simulated p-values"></canvas>
+          <p class="stage-note" id="pNote">under a continuous null this histogram is flat</p>
+        </div>
+      </div>
+      <p class="mc-compare" id="mcCompare"></p>
+      <div id="error" class="error" hidden></div>
+    </section>
+
+    <section class="block" id="references">
+      <h2>References</h2>
+      <ul class="refs">
+        <li>Casella, G. &amp; Berger, R. L. (2002). <em>Statistical Inference</em>, 2nd ed. Duxbury.</li>
+        <li>Fisher, R. A. (1925). <em>Statistical Methods for Research Workers</em>. Oliver and Boyd.</li>
+        <li>Neyman, J. &amp; Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses. <em>Philosophical Transactions of the Royal Society A</em>, 231, 289–337. <a href="https://doi.org/10.1098/rsta.1933.0009">doi</a></li>
+        <li>Good, P. (2005). <em>Permutation, Parametric and Bootstrap Tests of Hypotheses</em>, 3rd ed. Springer.</li>
+        <li>Efron, B. &amp; Tibshirani, R. J. (1993). <em>An Introduction to the Bootstrap</em>. Chapman &amp; Hall.</li>
+        <li>Wasserstein, R. L. &amp; Lazar, N. A. (2016). The ASA statement on p-values. <em>The American Statistician</em>, 70(2), 129–133. <a href="https://doi.org/10.1080/00031305.2016.1154108">doi</a></li>
+        <li>Epistecnica guides — <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a>, <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md">Philosophia Conceptuum et Operis</a>.</li>
+        <li>Corpus notes — <a href="../../../../note.html?n=epistemica/validation/p-value.md">P-Value</a>, <a href="../../../../note.html?n=epistemica/validation/statistical-hypothesis-testing.md">Statistical Hypothesis Testing</a>, <a href="../../../../note.html?n=epistemica/validation/probability-model-validation.md">Probability Model Validation</a>, <a href="../../../../note.html?n=epistemica/validation/calibration.md">Calibration</a>.</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; p-value atlas</div>
+      <a href="../../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script src="../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../vendor/mathjax/tex-svg-full.js"></script>
+
+  <script>
+  (function () {
+    'use strict';
+
+    /* ============================================================
+       Numeric helpers — regularized incomplete gamma / beta tails.
+       Series + continued fraction (Numerical Recipes form), double
+       precision; no external dependency.
+       ============================================================ */
+    var GAMMA_COF = [76.18009172947146, -86.50532032941677, 24.01409824083091,
+                     -1.231739572450155, 0.1208650973866179e-2, -0.5395239384953e-5];
+
+    function lgamma(x) {
+      var y = x, tmp = x + 5.5;
+      tmp -= (x + 0.5) * Math.log(tmp);
+      var ser = 1.000000000190015;
+      for (var j = 0; j < 6; j++) ser += GAMMA_COF[j] / ++y;
+      return -tmp + Math.log(2.5066282746310005 * ser / x);
+    }
+
+    function gser(a, x) {
+      var gln = lgamma(a), ap = a, sum = 1 / a, del = sum;
+      for (var n = 1; n < 1000; n++) {
+        ap += 1; del *= x / ap; sum += del;
+        if (Math.abs(del) < Math.abs(sum) * 1e-15) break;
+      }
+      return sum * Math.exp(-x + a * Math.log(x) - gln);
+    }
+
+    function gcf(a, x) {
+      var gln = lgamma(a), b = x + 1 - a, c = 1e300, d = 1 / b, h = d;
+      for (var i = 1; i < 1000; i++) {
+        var an = -i * (i - a);
+        b += 2;
+        d = an * d + b; if (Math.abs(d) < 1e-300) d = 1e-300;
+        c = b + an / c; if (Math.abs(c) < 1e-300) c = 1e-300;
+        d = 1 / d;
+        var del = d * c; h *= del;
+        if (Math.abs(del - 1) < 1e-15) break;
+      }
+      return Math.exp(-x + a * Math.log(x) - gln) * h;
+    }
+
+    function gammp(a, x) {
+      if (x <= 0) return 0;
+      return x < a + 1 ? gser(a, x) : 1 - gcf(a, x);
+    }
+    function gammq(a, x) {
+      if (x <= 0) return 1;
+      return x < a + 1 ? 1 - gser(a, x) : gcf(a, x);
+    }
+
+    function betacf(a, b, x) {
+      var qab = a + b, qap = a + 1, qam = a - 1;
+      var c = 1, d = 1 - qab * x / qap;
+      if (Math.abs(d) < 1e-300) d = 1e-300;
+      d = 1 / d;
+      var h = d;
+      for (var m = 1; m <= 300; m++) {
+        var m2 = 2 * m;
+        var aa = m * (b - m) * x / ((qam + m2) * (a + m2));
+        d = 1 + aa * d; if (Math.abs(d) < 1e-300) d = 1e-300;
+        c = 1 + aa / c; if (Math.abs(c) < 1e-300) c = 1e-300;
+        d = 1 / d; h *= d * c;
+        aa = -(a + m) * (qab + m) * x / ((a + m2) * (qap + m2));
+        d = 1 + aa * d; if (Math.abs(d) < 1e-300) d = 1e-300;
+        c = 1 + aa / c; if (Math.abs(c) < 1e-300) c = 1e-300;
+        d = 1 / d;
+        var del = d * c; h *= del;
+        if (Math.abs(del - 1) < 1e-15) break;
+      }
+      return h;
+    }
+
+    function betai(a, b, x) {
+      if (x <= 0) return 0;
+      if (x >= 1) return 1;
+      var bt = Math.exp(lgamma(a + b) - lgamma(a) - lgamma(b) + a * Math.log(x) + b * Math.log(1 - x));
+      return x < (a + 1) / (a + b + 2) ? bt * betacf(a, b, x) / a : 1 - bt * betacf(b, a, 1 - x) / b;
+    }
+
+    function clampP(p) { return Math.min(1, Math.max(0, p)); }
+    function twoSidedSym(left, right) { return clampP(2 * Math.min(left, right)); }
+
+    function normCdf(z) {
+      return z >= 0 ? 1 - 0.5 * gammq(0.5, z * z / 2) : 0.5 * gammq(0.5, z * z / 2);
+    }
+    function tCdf(t, df) {
+      if (t === 0) return 0.5;
+      var x = df / (df + t * t), ib = 0.5 * betai(df / 2, 0.5, x);
+      return t > 0 ? 1 - ib : ib;
+    }
+    function chi2Cdf(x, k) { return x <= 0 ? 0 : gammp(k / 2, x / 2); }
+    function fCdf(x, d1, d2) { return x <= 0 ? 0 : betai(d1 / 2, d2 / 2, d1 * x / (d1 * x + d2)); }
+    function binomCdf(k, n, p) {
+      if (k < 0) return 0;
+      if (k >= n) return 1;
+      return betai(n - k, k + 1, 1 - p);
+    }
+    function poissonCdf(k, lam) { return k < 0 ? 0 : gammq(k + 1, lam); }
+    function hyperCdf(k, N, K, n) {
+      var lo = Math.max(0, n - (N - K)), hi = Math.min(n, K);
+      if (k < lo) return 0;
+      if (k >= hi) return 1;
+      var logDen = lgamma(N + 1) - lgamma(n + 1) - lgamma(N - n + 1), sum = 0;
+      for (var i = lo; i <= k; i++) {
+        var lp = lgamma(K + 1) - lgamma(i + 1) - lgamma(K - i + 1)
+               + lgamma(N - K + 1) - lgamma(n - i + 1) - lgamma(N - K - n + i + 1) - logDen;
+        sum += Math.exp(lp);
+      }
+      return clampP(sum);
+    }
+    function negbinCdf(k, r, p) { return k < 0 ? 0 : betai(r, k + 1, p); }
+    function geoCdf(k, p) { return k < 1 ? 0 : 1 - Math.pow(1 - p, Math.floor(k)); }
+
+    function ksQ(lam) {
+      if (lam <= 0) return 1;
+      var s = 0, j;
+      if (lam < 0.2) {
+        for (j = 1; j < 30; j++) s += Math.exp(-Math.pow(2 * j - 1, 2) * Math.PI * Math.PI / (8 * lam * lam));
+        return clampP(1 - Math.sqrt(2 * Math.PI) / lam * s);
+      }
+      for (j = 1; j < 100; j++) {
+        var term = 2 * Math.pow(-1, j - 1) * Math.exp(-2 * j * j * lam * lam);
+        s += term;
+        if (Math.abs(term) < 1e-16) break;
+      }
+      return clampP(s);
+    }
+
+    /* ============================================================
+       Random draws and per-engine null laws.
+       ============================================================ */
+    function boxMuller() {
+      var u1 = Math.random() || 1e-12, u2 = Math.random();
+      return Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
+    }
+
+    function gammaSample(shape, scale) {
+      if (shape < 1) return gammaSample(shape + 1, scale) * Math.pow(Math.random(), 1 / shape);
+      var d = shape - 1 / 3, c = 1 / Math.sqrt(9 * d), x, v, u;
+      for (;;) {
+        do { x = boxMuller(); v = 1 + c * x; } while (v <= 0);
+        v = v * v * v;
+        u = Math.random();
+        if (u < 1 - 0.0331 * x * x * x * x) return d * v * scale;
+        if (Math.log(u) < 0.5 * x * x + d * (1 - v + Math.log(v))) return d * v * scale;
+      }
+    }
+
+    function chi2Sample(k) { return gammaSample(k / 2, 2); }
+
+    function shuffledMeans(n1, n2) {
+      var n = n1 + n2, x = [], i, tmp, j;
+      for (i = 0; i < n; i++) x.push(boxMuller());
+      for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); tmp = x[i]; x[i] = x[j]; x[j] = tmp; }
+      var s1 = 0, s2 = 0;
+      for (i = 0; i < n1; i++) s1 += x[i];
+      for (i = n1; i < n; i++) s2 += x[i];
+      return { a: s1 / n1, b: s2 / n2 };
+    }
+
+    function mannWhitneyU(n1, n2) {
+      var n = n1 + n2, x = [], i, j, tmp;
+      for (i = 0; i < n; i++) x.push(boxMuller());
+      var idx = x.map(function (v, k) { return k; }).sort(function (a, b) { return x[a] - x[b]; });
+      var rank = new Array(n);
+      i = 0;
+      while (i < n) {
+        j = i;
+        while (j + 1 < n && x[idx[j + 1]] === x[idx[i]]) j++;
+        for (var k = i; k <= j; k++) rank[idx[k]] = (i + j) / 2 + 1;
+        i = j + 1;
+      }
+      var r1 = 0;
+      for (i = 0; i < n1; i++) r1 += rank[i];
+      return r1 - n1 * (n1 + 1) / 2;
+    }
+
+    var ENGINES = {
+      'normal': {
+        draw: function (P) { return P.mu + P.sigma * boxMuller(); },
+        cdf: function (t, P) { return normCdf((t - P.mu) / P.sigma); },
+        pv: function (t, P) {
+          var left = normCdf((t - P.mu) / P.sigma);
+          var right = 1 - left;
+          return { left: left, right: right, two: clampP(2 * Math.min(left, right)) };
+        }
+      },
+      'student-t': {
+        draw: function (P) { return boxMuller() / Math.sqrt(chi2Sample(P.df) / P.df); },
+        cdf: function (t, P) { return tCdf(t, P.df); },
+        pv: function (t, P) {
+          var left = tCdf(t, P.df), right = 1 - left;
+          return { left: left, right: right, two: clampP(2 * Math.min(left, right)) };
+        }
+      },
+      'chi-square': {
+        draw: function (P) { return chi2Sample(P.k); },
+        cdf: function (t, P) { return chi2Cdf(t, P.k); },
+        pv: function (t, P) {
+          var left = chi2Cdf(t, P.k), right = 1 - left;
+          return { left: left, right: right, two: right };
+        }
+      },
+      'f': {
+        draw: function (P) { return (chi2Sample(P.d1) / P.d1) / (chi2Sample(P.d2) / P.d2); },
+        cdf: function (t, P) { return fCdf(t, P.d1, P.d2); },
+        pv: function (t, P) {
+          var left = fCdf(t, P.d1, P.d2), right = 1 - left;
+          return { left: left, right: right, two: right };
+        }
+      },
+      'gamma': {
+        draw: function (P) { return gammaSample(P.shape, 1 / P.rate); },
+        cdf: function (t, P) { return t <= 0 ? 0 : gammp(P.shape, P.rate * t); },
+        pv: function (t, P) {
+          var left = t <= 0 ? 0 : gammp(P.shape, P.rate * t);
+          return { left: left, right: 1 - left, two: clampP(2 * Math.min(left, 1 - left)) };
+        }
+      },
+      'exponential': {
+        draw: function (P) { return -Math.log(1 - Math.random()) / P.rate; },
+        cdf: function (t, P) { return t <= 0 ? 0 : 1 - Math.exp(-P.rate * t); },
+        pv: function (t, P) {
+          var left = t <= 0 ? 0 : 1 - Math.exp(-P.rate * t);
+          return { left: left, right: 1 - left, two: clampP(2 * Math.min(left, 1 - left)) };
+        }
+      },
+      'beta': {
+        draw: function (P) {
+          var x = gammaSample(P.a, 1), y = gammaSample(P.b, 1);
+          return x / (x + y);
+        },
+        cdf: function (t, P) { return betai(P.a, P.b, Math.min(1, Math.max(0, t))); },
+        pv: function (t, P) {
+          var left = betai(P.a, P.b, Math.min(1, Math.max(0, t)));
+          return { left: left, right: 1 - left, two: clampP(2 * Math.min(left, 1 - left)) };
+        }
+      },
+      'uniform': {
+        draw: function (P) { return P.a + (P.b - P.a) * Math.random(); },
+        cdf: function (t, P) { return Math.min(1, Math.max(0, (t - P.a) / (P.b - P.a))); },
+        pv: function (t, P) {
+          var left = Math.min(1, Math.max(0, (t - P.a) / (P.b - P.a)));
+          return { left: left, right: 1 - left, two: clampP(2 * Math.min(left, 1 - left)) };
+        }
+      },
+      'cauchy': {
+        draw: function (P) { return P.x0 + P.scale * Math.tan(Math.PI * (Math.random() - 0.5)); },
+        cdf: function (t, P) { return 0.5 + Math.atan((t - P.x0) / P.scale) / Math.PI; },
+        pv: function (t, P) {
+          var left = 0.5 + Math.atan((t - P.x0) / P.scale) / Math.PI;
+          return { left: left, right: 1 - left, two: clampP(2 * Math.min(left, 1 - left)) };
+        }
+      },
+      'ks': {
+        draw: function (P) {
+          var n = Math.max(1, Math.round(P.n)), u = [], i;
+          for (i = 0; i < n; i++) u.push(Math.random());
+          u.sort(function (a, b) { return a - b; });
+          var d = 0;
+          for (i = 0; i < n; i++) {
+            d = Math.max(d, (i + 1) / n - u[i], u[i] - i / n);
+          }
+          return d;
+        },
+        cdf: function (t, P) { return 1 - ksQ(Math.sqrt(P.n) * t); },
+        pv: function (t, P) {
+          var right = ksQ(Math.sqrt(P.n) * t);
+          return { left: 1 - right, right: right, two: right };
+        }
+      },
+      'binomial': {
+        draw: function (P) {
+          var n = Math.max(1, Math.round(P.n)), c = 0;
+          for (var i = 0; i < n; i++) if (Math.random() < P.p) c++;
+          return c;
+        },
+        cdf: function (t, P) { return binomCdf(Math.floor(t), Math.round(P.n), P.p); },
+        pv: function (t, P) {
+          var n = Math.round(P.n), k = Math.floor(t);
+          var left = binomCdf(k, n, P.p), right = 1 - binomCdf(k - 1, n, P.p);
+          return { left: left, right: clampP(right), two: twoSidedSym(left, right) };
+        }
+      },
+      'poisson': {
+        draw: function (P) {
+          var L = Math.exp(-P.lambda), k = 0, prod = 1;
+          do { k++; prod *= Math.random(); } while (prod > L);
+          return k - 1;
+        },
+        cdf: function (t, P) { return poissonCdf(Math.floor(t), P.lambda); },
+        pv: function (t, P) {
+          var k = Math.floor(t);
+          var left = poissonCdf(k, P.lambda), right = 1 - poissonCdf(k - 1, P.lambda);
+          return { left: left, right: clampP(right), two: twoSidedSym(left, right) };
+        }
+      },
+      'hypergeometric': {
+        draw: function (P) {
+          var N = Math.max(1, Math.round(P.N)), K = Math.min(N, Math.max(0, Math.round(P.K)));
+          var n = Math.min(N, Math.max(1, Math.round(P.n))), rem = N, succ = K, c = 0;
+          for (var i = 0; i < n; i++) {
+            if (Math.random() < succ / rem) { c++; succ--; }
+            rem--;
+          }
+          return c;
+        },
+        cdf: function (t, P) { return hyperCdf(Math.floor(t), Math.round(P.N), Math.round(P.K), Math.round(P.n)); },
+        pv: function (t, P) {
+          var N = Math.round(P.N), K = Math.round(P.K), n = Math.round(P.n), k = Math.floor(t);
+          var left = hyperCdf(k, N, K, n), right = 1 - hyperCdf(k - 1, N, K, n);
+          return { left: left, right: clampP(right), two: twoSidedSym(left, right) };
+        }
+      },
+      'negative-binomial': {
+        draw: function (P) {
+          var r = Math.round(P.r), f = 0;
+          for (var i = 0; i < r; i++) f += Math.floor(Math.log(1 - Math.random()) / Math.log(1 - P.p));
+          return f;
+        },
+        cdf: function (t, P) { return negbinCdf(Math.floor(t), P.r, P.p); },
+        pv: function (t, P) {
+          var k = Math.floor(t);
+          var left = negbinCdf(k, P.r, P.p), right = 1 - negbinCdf(k - 1, P.r, P.p);
+          return { left: left, right: clampP(right), two: twoSidedSym(left, right) };
+        }
+      },
+      'geometric': {
+        draw: function (P) { return Math.floor(Math.log(Math.random()) / Math.log(1 - P.p)) + 1; },
+        cdf: function (t, P) { return geoCdf(Math.floor(t), P.p); },
+        pv: function (t, P) {
+          var k = Math.floor(t), left = geoCdf(k, P.p), right = Math.pow(1 - P.p, k - 1);
+          return { left: left, right: clampP(right), two: twoSidedSym(left, right) };
+        }
+      },
+      'multinomial': {
+        draw: function (P) {
+          var k = Math.max(2, Math.round(P.k)), N = Math.max(2, Math.round(P.N));
+          var counts = new Array(k), i, c;
+          for (i = 0; i < k; i++) counts[i] = 0;
+          for (i = 0; i < N; i++) {
+            c = Math.floor(Math.random() * k);
+            counts[c]++;
+          }
+          var e = N / k, x2 = 0;
+          for (i = 0; i < k; i++) x2 += (counts[i] - e) * (counts[i] - e) / e;
+          return x2;
+        },
+        cdf: function (t, P) { return chi2Cdf(t, Math.max(1, Math.round(P.k) - 1)); },
+        pv: function (t, P) {
+          var df = Math.max(1, Math.round(P.k) - 1);
+          var left = chi2Cdf(t, df), right = 1 - left;
+          return { left: left, right: right, two: right };
+        }
+      },
+      'permutation': {
+        draw: function (P) {
+          var m = shuffledMeans(Math.round(P.n1), Math.round(P.n2));
+          return m.a - m.b;
+        }
+      },
+      'bootstrap': {
+        draw: function (P) {
+          var n = Math.max(2, Math.round(P.n)), base = [], i;
+          for (i = 0; i < n; i++) base.push(boxMuller());
+          var mean = 0, s = 0, mean2 = 0;
+          for (i = 0; i < n; i++) mean += base[i];
+          mean /= n;
+          for (i = 0; i < n; i++) s += (base[i] - mean) * (base[i] - mean);
+          s = Math.sqrt(s / (n - 1));
+          for (i = 0; i < n; i++) mean2 += base[Math.floor(Math.random() * n)];
+          mean2 = mean2 / n - mean; // recentre the resample at mu0 = 0
+          return mean2 / (s / Math.sqrt(n));
+        }
+      },
+      'mann-whitney': {
+        draw: function (P) { return mannWhitneyU(Math.round(P.n1), Math.round(P.n2)); },
+        center: function (P) { return Math.round(P.n1) * Math.round(P.n2) / 2; }
+      }
+    };
+
+    /* ============================================================
+       Self-test (append ?selftest to the URL)
+       ============================================================ */
+    function selfTest() {
+      var cases = [
+        ['Phi(1.96)', normCdf(1.96), 0.9750021049, 1e-8],
+        ['tCdf(2,10)', tCdf(2, 10), 0.9633060419, 1e-7],
+        ['chi2Cdf(3.841,1)', chi2Cdf(3.841, 1), 0.9500215, 1e-4],
+        ['fCdf(3,5,10)', fCdf(3, 5, 10), 0.9344424, 1e-6],
+        ['beta(0.5;2,3)', betai(2, 3, 0.5), 0.6875, 1e-10],
+        ['binom(10;20,.5)', binomCdf(10, 20, 0.5), 0.5880985, 1e-6],
+        ['pois(4;4)', poissonCdf(4, 4), 0.6288369, 1e-6],
+        ['ksQ(1.36)', ksQ(1.36), 0.0494, 5e-3],
+        ['normal pdf(0)', pdfOf({ engine: 'normal' }, 0, { mu: 0, sigma: 1 }), 0.3989423, 1e-7],
+        ['t pdf(0;5)', pdfOf({ engine: 'student-t' }, 0, { df: 5 }), 0.3796067, 1e-6],
+        ['binom pmf(5;10,.5)', pdfOf({ engine: 'binomial' }, 5, { n: 10, p: 0.5 }), 0.24609375, 1e-10]
+      ];
+      var bad = [];
+      cases.forEach(function (c) {
+        if (!isFinite(c[1]) || Math.abs(c[1] - c[2]) > c[3]) bad.push(c[0] + '=' + c[1] + ' expected ' + c[2]);
+      });
+      if (bad.length) console.error('pvalue selftest FAIL:', bad);
+      else console.log('pvalue selftest OK (' + cases.length + ' cases)');
+      var st = document.getElementById('pgStatus');
+      if (st) st.textContent = bad.length ? 'selftest FAIL — ' + bad[0] : 'selftest OK — ' + cases.length + ' numeric cases';
+    }
+    if (location.search.indexOf('selftest') !== -1) selfTest();
+
+    /* ============================================================
+       State
+       ============================================================ */
+    var DATA = null, BY_ID = {};
+    var state = {
+      entry: null, params: {}, tail: 'right', alpha: 0.05, trials: 2000,
+      tObs: null, T: [], pv: [], running: false, runId: 0
+    };
+    var errorEl = document.getElementById('error');
+    var statsEl = document.getElementById('stats');
+
+    function esc(s) {
+      return String(s).replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+    function fmt(x, d) {
+      if (x == null || !isFinite(x)) return '—';
+      if (x !== 0 && (Math.abs(x) >= 1e5 || Math.abs(x) < 1e-4)) return x.toExponential(2);
+      return x.toFixed(d == null ? 4 : d);
+    }
+    function fmtP(p) {
+      if (p == null || !isFinite(p)) return '—';
+      if (p < 1e-4) return p.toExponential(2);
+      return p.toFixed(4);
+    }
+    function typeset(el) {
+      if (window.renderTeX) window.renderTeX(el);
+    }
+
+    function formulaRow(label, tex) {
+      return '<div class="formula-row"><span class="formula-label">' + label + '</span>' +
+             '<span class="formula-tex" data-tex-display="' + esc(tex) + '"></span></div>';
+    }
+
+    function renderStats() {
+      var analytic = 0, n = DATA.distributions.length;
+      DATA.distributions.forEach(function (d) {
+        if (d.analytic) analytic++;
+      });
+      statsEl.innerHTML =
+        stat(n, 'distributions') +
+        stat(Object.keys(DATA.families).length, 'families') +
+        stat(analytic, 'analytic tails') +
+        stat(n - analytic, 'resampling tails');
+    }
+    function stat(v, label) {
+      return '<div class="stat"><div class="value">' + v + '</div><span class="label">' + esc(label) + '</span></div>';
+    }
+
+    /* ============================================================
+       Playground — pick a law, move its parameters, read the tail
+       ============================================================ */
+    var pg = {
+      picker: document.getElementById('pickRow'),
+      details: document.getElementById('pgDetails'),
+      sliders: document.getElementById('paramSliders'),
+      tSlider: document.getElementById('tObsSlider'),
+      tInput: document.getElementById('tObsInput'),
+      tVal: document.getElementById('tObsVal'),
+      tail: document.getElementById('tailSelect'),
+      alpha: document.getElementById('alphaInput'),
+      trials: document.getElementById('trialsInput'),
+      runBtn: document.getElementById('runBtn'),
+      drawBtn: document.getElementById('drawBtn'),
+      resetBtn: document.getElementById('resetBtn'),
+      status: document.getElementById('pgStatus'),
+      lawCanvas: document.getElementById('lawCanvas'),
+      cdfCanvas: document.getElementById('cdfCanvas'),
+      nullCanvas: document.getElementById('nullCanvas'),
+      pCanvas: document.getElementById('pCanvas'),
+      nullNote: document.getElementById('nullNote'),
+      pNote: document.getElementById('pNote'),
+      mcCompare: document.getElementById('mcCompare'),
+      lawTitle: document.getElementById('lawTitle'),
+      lawTag: document.getElementById('lawTag'),
+      lawNote: document.getElementById('lawNote'),
+      cdfTag: document.getElementById('cdfTag'),
+      ro: {
+        F: document.getElementById('roF'),
+        D: document.getElementById('roD'),
+        DLabel: document.getElementById('roDLabel'),
+        PL: document.getElementById('roPL'),
+        PR: document.getElementById('roPR'),
+        PT: document.getElementById('roPT'),
+        mean: document.getElementById('roMean'),
+        variance: document.getElementById('roVar'),
+        dec: document.getElementById('roDec')
+      }
+    };
+
+    function engineOf(d) { return d ? (ENGINES[d.engine] || null) : null; }
+
+    function chi2Pdf(x, k) {
+      if (x <= 0) return 0;
+      return Math.exp((k / 2 - 1) * Math.log(x) - x / 2 - (k / 2) * Math.log(2) - lgamma(k / 2));
+    }
+    function ksCdf(t, P) { return 1 - ksQ(Math.sqrt(Math.max(1, Math.round(P.n))) * t); }
+
+    function pdfOf(d, t, P) {
+      switch (d.engine) {
+        case 'normal':
+          return Math.exp(-0.5 * Math.pow((t - P.mu) / P.sigma, 2)) / (P.sigma * Math.sqrt(2 * Math.PI));
+        case 'student-t':
+          return Math.exp(lgamma((P.df + 1) / 2) - lgamma(P.df / 2)) / Math.sqrt(P.df * Math.PI) *
+            Math.pow(1 + t * t / P.df, -(P.df + 1) / 2);
+        case 'chi-square':
+          return chi2Pdf(t, Math.round(P.k));
+        case 'f': {
+          if (t <= 0) return 0;
+          var d1 = P.d1, d2 = P.d2;
+          return Math.exp(lgamma((d1 + d2) / 2) - lgamma(d1 / 2) - lgamma(d2 / 2) +
+            (d1 / 2) * Math.log(d1 / d2) + (d1 / 2 - 1) * Math.log(t) -
+            ((d1 + d2) / 2) * Math.log(1 + d1 * t / d2));
+        }
+        case 'gamma':
+          if (t <= 0) return 0;
+          return Math.exp(P.shape * Math.log(P.rate) + (P.shape - 1) * Math.log(t) - P.rate * t - lgamma(P.shape));
+        case 'exponential':
+          return t < 0 ? 0 : P.rate * Math.exp(-P.rate * t);
+        case 'beta': {
+          if (t < 0 || t > 1) return 0;
+          if (t === 0) return P.a < 1 ? Infinity : (P.a === 1 ? P.b : 0);
+          if (t === 1) return P.b < 1 ? Infinity : (P.b === 1 ? P.a : 0);
+          return Math.exp((P.a - 1) * Math.log(t) + (P.b - 1) * Math.log(1 - t) -
+            (lgamma(P.a) + lgamma(P.b) - lgamma(P.a + P.b)));
+        }
+        case 'uniform':
+          return (t >= P.a && t <= P.b) ? 1 / (P.b - P.a) : 0;
+        case 'cauchy':
+          return 1 / (Math.PI * P.scale * (1 + Math.pow((t - P.x0) / P.scale, 2)));
+        case 'ks': {
+          var h = 1e-6, a = Math.max(0, t - h), b = Math.min(1, t + h);
+          if (b <= a) return 0;
+          return (ksCdf(b, P) - ksCdf(a, P)) / (b - a);
+        }
+        case 'binomial': {
+          var n = Math.round(P.n), k = Math.round(t);
+          if (Math.abs(t - k) > 1e-7 || k < 0 || k > n) return 0;
+          if (P.p <= 0) return k === 0 ? 1 : 0;
+          if (P.p >= 1) return k === n ? 1 : 0;
+          return Math.exp(lgamma(n + 1) - lgamma(k + 1) - lgamma(n - k + 1) +
+            k * Math.log(P.p) + (n - k) * Math.log(1 - P.p));
+        }
+        case 'poisson': {
+          var kp = Math.round(t);
+          if (Math.abs(t - kp) > 1e-7 || kp < 0) return 0;
+          return Math.exp(kp * Math.log(P.lambda) - P.lambda - lgamma(kp + 1));
+        }
+        case 'hypergeometric': {
+          var N = Math.round(P.N), K = Math.min(N, Math.max(0, Math.round(P.K)));
+          var nn = Math.min(N, Math.max(1, Math.round(P.n)));
+          var kh = Math.round(t), lo = Math.max(0, nn - (N - K)), hi = Math.min(nn, K);
+          if (kh < lo || kh > hi) return 0;
+          var logDen = lgamma(N + 1) - lgamma(nn + 1) - lgamma(N - nn + 1);
+          return Math.exp(lgamma(K + 1) - lgamma(kh + 1) - lgamma(K - kh + 1) +
+            lgamma(N - K + 1) - lgamma(nn - kh + 1) - lgamma(N - K - nn + kh + 1) - logDen);
+        }
+        case 'negative-binomial': {
+          var r = Math.round(P.r), kn = Math.round(t);
+          if (Math.abs(t - kn) > 1e-7 || kn < 0) return 0;
+          return Math.exp(lgamma(kn + r) - lgamma(r) - lgamma(kn + 1) +
+            r * Math.log(P.p) + kn * Math.log(1 - P.p));
+        }
+        case 'geometric': {
+          var kg = Math.round(t);
+          if (Math.abs(t - kg) > 1e-7 || kg < 1) return 0;
+          return P.p * Math.pow(1 - P.p, kg - 1);
+        }
+        case 'multinomial':
+          return chi2Pdf(t, Math.max(1, Math.round(P.k) - 1));
+      }
+      return null;
+    }
+
+    function momentsOf(d, P) {
+      var nan = NaN;
+      switch (d.engine) {
+        case 'normal': return [P.mu, P.sigma * P.sigma];
+        case 'student-t': return [0, P.df > 2 ? P.df / (P.df - 2) : nan];
+        case 'chi-square': return [P.k, 2 * P.k];
+        case 'f':
+          return [P.d2 > 2 ? P.d2 / (P.d2 - 2) : nan,
+            P.d2 > 4 ? 2 * P.d2 * P.d2 * (P.d1 + P.d2 - 2) /
+              (P.d1 * (P.d2 - 2) * (P.d2 - 2) * (P.d2 - 4)) : nan];
+        case 'gamma': return [P.shape / P.rate, P.shape / (P.rate * P.rate)];
+        case 'exponential': return [1 / P.rate, 1 / (P.rate * P.rate)];
+        case 'beta':
+          return [P.a / (P.a + P.b),
+            P.a * P.b / (Math.pow(P.a + P.b, 2) * (P.a + P.b + 1))];
+        case 'uniform': return [(P.a + P.b) / 2, (P.b - P.a) * (P.b - P.a) / 12];
+        case 'cauchy': return [nan, nan];
+        case 'ks': return [nan, nan];
+        case 'binomial': return [P.n * P.p, P.n * P.p * (1 - P.p)];
+        case 'poisson': return [P.lambda, P.lambda];
+        case 'hypergeometric': {
+          var N = Math.round(P.N), K = Math.min(N, Math.round(P.K)), n = Math.min(N, Math.round(P.n));
+          var mean = n * K / N;
+          return [mean, N > 1 ? n * (K / N) * (1 - K / N) * (N - n) / (N - 1) : nan];
+        }
+        case 'negative-binomial':
+          return [Math.round(P.r) * (1 - P.p) / P.p, Math.round(P.r) * (1 - P.p) / (P.p * P.p)];
+        case 'geometric': return [1 / P.p, (1 - P.p) / (P.p * P.p)];
+        case 'multinomial': return [P.k - 1, 2 * (P.k - 1)];
+        case 'permutation': return [0, 1 / Math.round(P.n1) + 1 / Math.round(P.n2)];
+        case 'bootstrap': return [0, P.n > 3 ? (P.n - 1) / (P.n - 3) : nan];
+        case 'mann-whitney': {
+          var n1 = Math.round(P.n1), n2 = Math.round(P.n2);
+          return [n1 * n2 / 2, n1 * n2 * (n1 + n2 + 1) / 12];
+        }
+      }
+      return [nan, nan];
+    }
+
+    function hasDiscreteSupport(d) {
+      return d.engine === 'binomial' || d.engine === 'poisson' ||
+        d.engine === 'hypergeometric' || d.engine === 'negative-binomial' ||
+        d.engine === 'geometric' || d.engine === 'mann-whitney';
+    }
+    function isPositiveSupport(d) {
+      return d.engine === 'chi-square' || d.engine === 'f' || d.engine === 'gamma' ||
+        d.engine === 'exponential' || d.engine === 'ks' || d.engine === 'multinomial';
+    }
+    function centerOf(d, P) {
+      switch (d.engine) {
+        case 'normal': return P.mu;
+        case 'cauchy': return P.x0;
+        case 'uniform': return (P.a + P.b) / 2;
+        case 'mann-whitney': return Math.round(P.n1) * Math.round(P.n2) / 2;
+      }
+      return 0;
+    }
+
+    function quantile(d, p) {
+      var e = engineOf(d);
+      if (!e || !e.cdf) return null;
+      var lo = -1e6, hi = 1e6, i, mid;
+      for (i = 0; i < 80; i++) {
+        mid = (lo + hi) / 2;
+        if (e.cdf(mid, state.params) < p) lo = mid; else hi = mid;
+      }
+      return (lo + hi) / 2;
+    }
+
+    function rangeOf(d) {
+      var e = engineOf(d), lo, hi, i;
+      if (!d.analytic) {
+        if (state.T.length) {
+          lo = Infinity; hi = -Infinity;
+          for (i = 0; i < state.T.length; i++) {
+            if (state.T[i] < lo) lo = state.T[i];
+            if (state.T[i] > hi) hi = state.T[i];
+          }
+          if (!(hi > lo)) { lo -= 0.5; hi += 0.5; }
+          var pad = (hi - lo) * 0.04;
+          return { lo: lo - pad, hi: hi + pad, discrete: hasDiscreteSupport(d) };
+        }
+        if (d.engine === 'mann-whitney') {
+          return { lo: 0, hi: Math.max(1, Math.round(state.params.n1) * Math.round(state.params.n2)), discrete: true };
+        }
+        return { lo: -4, hi: 4, discrete: false };
+      }
+      if (d.engine === 'ks') return { lo: 0, hi: 1, discrete: false };
+      lo = quantile(d, 0.001);
+      hi = quantile(d, 0.999);
+      if (lo == null || !isFinite(lo)) lo = 0;
+      if (hi == null || !isFinite(hi)) hi = lo + 1;
+      var med = quantile(d, 0.5), q1 = quantile(d, 0.25), q3 = quantile(d, 0.75);
+      var iqr = q3 - q1;
+      if (!(iqr > 0)) iqr = Math.max(Math.abs(med) * 0.25, 0.5);
+      if (hi - lo > 80 * iqr) {
+        lo = Math.max(lo, med - 40 * iqr);
+        hi = Math.min(hi, med + 40 * iqr);
+      }
+      if (isPositiveSupport(d)) lo = Math.max(0, lo);
+      if (hasDiscreteSupport(d)) {
+        lo = Math.max(d.engine === 'geometric' ? 1 : 0, Math.floor(lo + 1e-9));
+        hi = Math.ceil(hi - 1e-9);
+        if (d.engine === 'binomial') {
+          if (Math.round(state.params.n) <= 160) { lo = 0; hi = Math.round(state.params.n); }
+        } else if (d.engine === 'hypergeometric') {
+          var hN = Math.round(state.params.N), hK = Math.min(hN, Math.max(0, Math.round(state.params.K)));
+          var hn = Math.min(hN, Math.max(1, Math.round(state.params.n)));
+          var hLo = Math.max(0, hn - (hN - hK)), hHi = Math.min(hn, hK);
+          if (hHi - hLo <= 160) { lo = hLo; hi = hHi; }
+        }
+        if (hi - lo > 200) {
+          var c = Math.round(med);
+          lo = Math.max(d.engine === 'geometric' ? 1 : 0, c - 100);
+          hi = c + 100;
+        }
+      }
+      if (!(hi > lo)) hi = lo + (hasDiscreteSupport(d) ? 1 : Math.max(1e-6, Math.abs(lo) * 0.1));
+      return { lo: lo, hi: hi, discrete: hasDiscreteSupport(d) };
+    }
+
+    function defaultTObs(d) {
+      if (!d.analytic) return null;
+      var q = quantile(d, 0.975);
+      if (q == null || !isFinite(q)) q = 0;
+      var r = rangeOf(d);
+      q = Math.min(r.hi, Math.max(r.lo, q));
+      if (hasDiscreteSupport(d)) q = Math.round(q);
+      return q;
+    }
+
+    function twoSidedIsRight(d) {
+      return d.id === 'chi-square' || d.id === 'f' ||
+        d.id === 'kolmogorov-smirnov' || d.id === 'multinomial';
+    }
+
+    function analyticP(t) {
+      var d = state.entry, e = engineOf(d);
+      if (!e || !d.analytic || !e.pv || t == null) return null;
+      return e.pv(t, state.params);
+    }
+
+    function cloudP(t) {
+      var d = state.entry, e = engineOf(d), T = state.T, B = T.length;
+      if (!B || t == null) return null;
+      var twoRight = twoSidedIsRight(d);
+      var center = twoRight ? 0 : centerOf(d, state.params);
+      var le = 0, ge = 0, two = 0;
+      for (var i = 0; i < B; i++) {
+        if (T[i] <= t) le++;
+        if (T[i] >= t) ge++;
+        if (twoRight ? T[i] >= t : Math.abs(T[i] - center) >= Math.abs(t - center)) two++;
+      }
+      return { left: (1 + le) / (B + 1), right: (1 + ge) / (B + 1), two: (1 + two) / (B + 1) };
+    }
+
+    function tailRegions() {
+      if (state.tObs == null) return [];
+      var d = state.entry, lo = state.range.lo, hi = state.range.hi, t = state.tObs;
+      if (state.tail === 'left') return [[lo, t]];
+      if (state.tail === 'right') return [[Math.min(t, hi), hi]];
+      if (twoSidedIsRight(d)) return [[Math.min(t, hi), hi]];
+      var e = engineOf(d), c = centerOf(d, state.params);
+      if (!e || !e.cdf) {
+        var m = Math.max(lo, Math.min(hi, 2 * c - t));
+        var a = Math.min(m, t), b = Math.max(m, t);
+        if (!(b > a)) return [[Math.max(lo, Math.min(hi, t)), hi]];
+        return [[lo, a], [b, hi]];
+      }
+      var left = e.cdf(t, state.params);
+      var right = hasDiscreteSupport(d) ? 1 - e.cdf(t - 1, state.params) : 1 - left;
+      var s = Math.min(left, right);
+      var other, lower, upper;
+      if (left <= right) {
+        lower = t;
+        other = hasDiscreteSupport(d) ? upperTailBoundary(d, s) : quantile(d, 1 - s);
+        upper = other;
+      } else {
+        upper = t;
+        other = hasDiscreteSupport(d) ? lowerTailBoundary(d, s) : quantile(d, s);
+        lower = other;
+      }
+      lower = Math.max(lo, Math.min(hi, lower));
+      upper = Math.max(lo, Math.min(hi, upper));
+      if (!(upper > lower)) return [[Math.min(t, hi), hi]];
+      return [[lo, lower], [upper, hi]];
+    }
+    function lowerTailBoundary(d, s) {
+      var e = engineOf(d), P = state.params, lo = state.range.lo, hi = state.range.hi;
+      var k = Math.max(lo, Math.ceil(quantile(d, s)) - 1);
+      while (k > lo && e.cdf(k, P) > s) k--;
+      while (k < hi && e.cdf(k + 1, P) <= s) k++;
+      return k;
+    }
+    function upperTailBoundary(d, s) {
+      var e = engineOf(d), P = state.params, lo = state.range.lo, hi = state.range.hi;
+      var k = Math.min(hi, Math.ceil(quantile(d, 1 - s)));
+      while (k > lo && 1 - e.cdf(k - 1, P) <= s) k--;
+      while (k < hi && 1 - e.cdf(k, P) > s) k++;
+      return k;
+    }
+    function tailBoundaries() {
+      var regs = tailRegions();
+      if (!regs.length) return [];
+      if (regs.length === 1) return [state.tail === 'left' ? regs[0][1] : regs[0][0]];
+      return [regs[0][1], regs[1][0]];
+    }
+    function inTail(t) {
+      var regs = tailRegions();
+      for (var i = 0; i < regs.length; i++) {
+        if (t >= regs[i][0] && t <= regs[i][1]) return true;
+      }
+      return false;
+    }
+
+    function setStatus(msg) { pg.status.textContent = msg; }
+
+    function buildPicker() {
+      var groups = {};
+      DATA.distributions.forEach(function (d) { (groups[d.family] = groups[d.family] || []).push(d); });
+      pg.picker.innerHTML = Object.keys(DATA.families).map(function (f) {
+        return '<div class="pick-group"><span class="pick-label">' + esc(f) + '</span><div class="pick-chips">' +
+          (groups[f] || []).map(function (d) {
+            return '<button type="button" class="pick-chip" data-play="' + esc(d.id) + '" aria-pressed="false">' +
+              '<span class="sym">' + esc(d.symbol) + '</span>' + esc(d.name) + '</button>';
+          }).join('') + '</div></div>';
+      }).join('');
+      Array.prototype.forEach.call(pg.picker.querySelectorAll('[data-play]'), function (b) {
+        b.addEventListener('click', function () { selectDistribution(b.getAttribute('data-play')); });
+      });
+    }
+    function markPicker(id) {
+      Array.prototype.forEach.call(pg.picker.querySelectorAll('[data-play]'), function (b) {
+        var on = b.getAttribute('data-play') === id;
+        b.setAttribute('aria-pressed', String(on));
+        b.classList.toggle('active', on);
+      });
+    }
+
+    function buildDetails(d) {
+      pg.details.innerHTML =
+        '<div class="pd-top"><div class="glyph">' + esc(d.symbol) + '</div>' +
+          '<div><h3>' + esc(d.name) + '</h3><div class="pd-meta">' + esc(d.family) + ' · ' +
+            (d.analytic ? 'analytic null law' : 'resampling null') + '</div></div>' +
+        '</div>' +
+        '<div class="pd-grid">' +
+          '<div class="pd-main">' +
+            '<p class="pd-def">' + esc(d.definition) + '</p>' +
+            '<dl class="facts">' +
+              '<dt>support</dt><dd>' + esc(d.support) + '</dd>' +
+              '<dt>parameters</dt><dd>' + esc(d.parameters) + '</dd>' +
+              '<dt>statistic</dt><dd>' + esc(d.statistic) + '</dd>' +
+            '</dl>' +
+            '<p class="p-convention">' + esc(d.p_convention) + '</p>' +
+          '</div>' +
+          '<div class="pd-formulas">' +
+            '<div class="pd-h">formulas · tail definitions</div>' +
+            '<div class="pg-formulas">' +
+              formulaRow('density / mass', d.formulas.density) +
+              formulaRow('CDF', d.formulas.cdf) +
+              formulaRow('left tail', d.formulas.p_left) +
+              formulaRow('right tail', d.formulas.p_right) +
+              formulaRow('two-sided', d.formulas.p_two) +
+            '</div>' +
+          '</div>' +
+        '</div>';
+      typeset(pg.details);
+    }
+
+    function specOf(name) {
+      return (state.entry && state.entry.params || []).filter(function (p) { return p.name === name; })[0];
+    }
+
+    function buildParams(d) {
+      pg.sliders.innerHTML = (d.params || []).map(function (p) {
+        var step = p.step || 1;
+        return '<div class="slider-row">' +
+          '<div class="slider-head"><label for="pr-' + esc(p.name) + '">' + esc(p.label || p.name) + '</label>' +
+            '<input class="val-input" type="number" data-param="' + esc(p.name) + '" id="pv-' + esc(p.name) + '"' +
+              ' min="' + p.min + '" max="' + p.max + '" step="' + step + '" value="' + p.default + '"></div>' +
+          '<input class="pg-range" type="range" data-param="' + esc(p.name) + '" id="pr-' + esc(p.name) + '"' +
+            ' min="' + p.min + '" max="' + p.max + '" step="' + step + '" value="' + p.default + '">' +
+        '</div>';
+      }).join('');
+      Array.prototype.forEach.call(pg.sliders.querySelectorAll('[data-param]'), function (inp) {
+        inp.addEventListener('input', function () {
+          onParamChange(inp.getAttribute('data-param'), parseFloat(inp.value));
+        });
+      });
+    }
+
+    function invalidateCloud() {
+      state.runId += 1;
+      state.running = false;
+      pg.runBtn.disabled = false;
+      pg.drawBtn.disabled = false;
+      state.T = [];
+      state.pv = [];
+    }
+
+    function refreshRange() {
+      var r = rangeOf(state.entry);
+      if (!(r.hi > r.lo)) r.hi = r.lo + 1;
+      state.range = r;
+      pg.tSlider.min = r.lo;
+      pg.tSlider.max = r.hi;
+      pg.tSlider.step = r.discrete ? 1 : Math.max((r.hi - r.lo) / 1000, 1e-9);
+    }
+
+    function syncT() {
+      if (state.tObs == null) {
+        pg.tVal.textContent = '—';
+        pg.tInput.value = '';
+        pg.tSlider.value = state.range.lo;
+        return;
+      }
+      pg.tVal.textContent = fmt(state.tObs, 4);
+      pg.tInput.value = String(+state.tObs.toFixed(6));
+      pg.tSlider.value = state.tObs;
+    }
+
+    function setTObs(value, typed) {
+      if (value == null || !isFinite(value)) return;
+      if (Math.abs(value) < 1e-12) value = 0;
+      if (state.range.discrete) value = Math.round(value);
+      if (!typed) value = Math.min(state.range.hi, Math.max(state.range.lo, value));
+      state.tObs = value;
+      syncT();
+      updateReadout();
+      drawStage();
+      drawNull();
+    }
+
+    function onParamChange(name, value) {
+      if (!isFinite(value)) return;
+      var spec = specOf(name);
+      if (spec) value = Math.min(spec.max, Math.max(spec.min, value));
+      state.params[name] = value;
+      var d = state.entry;
+      if (d.engine === 'uniform') {
+        var ua = specOf('a'), ub = specOf('b');
+        if (state.params.b <= state.params.a) {
+          if (name === 'a') state.params.b = Math.min(ub.max, state.params.a + (ub.step || 0.1));
+          else state.params.a = Math.max(ua.min, state.params.b - (ua.step || 0.1));
+        }
+      } else if (d.engine === 'hypergeometric') {
+        state.params.K = Math.min(state.params.N, Math.max(0, state.params.K));
+        state.params.n = Math.min(state.params.N, Math.max(1, state.params.n));
+      }
+      Array.prototype.forEach.call(pg.sliders.querySelectorAll('[data-param]'), function (el) {
+        var pname = el.getAttribute('data-param');
+        if (parseFloat(el.value) !== state.params[pname]) el.value = state.params[pname];
+      });
+      invalidateCloud();
+      refreshRange();
+      if (state.tObs != null) {
+        state.tObs = Math.min(state.range.hi, Math.max(state.range.lo, state.tObs));
+        if (state.range.discrete) state.tObs = Math.round(state.tObs);
+      }
+      syncT();
+      updateReadout();
+      drawStage();
+      drawNull();
+      drawP();
+      setStatus('parameters changed · analytic tails are live · run the cloud again for the simulation');
+    }
+
+    function updateReadout() {
+      var d = state.entry;
+      if (!d) return;
+      var e = engineOf(d), t = state.tObs;
+      var F = t != null && e.cdf ? e.cdf(t, state.params) : null;
+      var dens = t != null ? pdfOf(d, t, state.params) : null;
+      var a = analyticP(t);
+      var m = t != null && state.T.length ? cloudP(t) : null;
+
+      pg.ro.F.textContent = F == null ? '—' : fmt(F, 4);
+      pg.ro.DLabel.textContent = hasDiscreteSupport(d) ? 'P(T = t obs)' : 'f(t obs)';
+      pg.ro.D.textContent = dens == null ? '—' : (dens === Infinity ? '∞' : fmt(dens, 4));
+      pg.ro.PL.textContent = d.analytic ? (a ? fmtP(a.left) : '—') : (m ? fmtP(m.left) : '—');
+      pg.ro.PR.textContent = d.analytic ? (a ? fmtP(a.right) : '—') : (m ? fmtP(m.right) : '—');
+      pg.ro.PT.textContent = d.analytic ? (a ? fmtP(a.two) : '—') : (m ? fmtP(m.two) : '—');
+
+      var mom = momentsOf(d, state.params);
+      pg.ro.mean.textContent = mom && isFinite(mom[0]) ? fmt(mom[0], 3) : '—';
+      pg.ro.variance.textContent = mom && isFinite(mom[1]) ? fmt(mom[1], 3) : '—';
+
+      var p = null;
+      if (t != null) {
+        if (d.analytic) p = a ? a[state.tail] : null;
+        else p = m ? m[state.tail] : null;
+      }
+      if (p == null) {
+        pg.ro.dec.textContent = '—';
+      } else {
+        var eps = 1e-12;
+        var reject = p <= state.alpha + eps;
+        var op = p < state.alpha - eps ? '<' : (Math.abs(p - state.alpha) <= eps ? '=' : '>');
+        var pTxt = fmtP(p), aTxt = String(state.alpha);
+        pg.ro.dec.textContent = 'α = ' + aTxt + '\np = ' + pTxt + '\n' +
+          pTxt + ' ' + op + ' ' + aTxt + ' → ' +
+          (reject ? 'reject H₀' : 'do not reject H₀') +
+          (op === '=' ? ' (equality rejects)' : '');
+      }
+
+      pg.mcCompare.textContent = state.T.length
+        ? (d.analytic
+          ? 'B = ' + state.T.length + ' · MC  left ' + fmtP(m ? m.left : null) + ' · right ' + fmtP(m ? m.right : null) + ' · two ' + fmtP(m ? m.two : null) +
+            '   |   analytic  ' + fmtP(a ? a.left : null) + ' · ' + fmtP(a ? a.right : null) + ' · ' + fmtP(a ? a.two : null)
+          : 'B = ' + state.T.length + ' · empirical  left ' + fmtP(m ? m.left : null) + ' · right ' + fmtP(m ? m.right : null) + ' · two ' + fmtP(m ? m.two : null))
+        : (d.analytic
+          ? 'no cloud yet · run B trials to compare the simulation with the analytic tails'
+          : 'resampling null · run B trials, then move t obs');
+
+      pg.lawTitle.textContent = d.analytic
+        ? (hasDiscreteSupport(d) ? 'probability mass · P(T = t)' : 'probability density · f(t)')
+        : 'empirical law of T';
+      pg.lawTag.textContent = d.analytic ? 'analytic' : 'resampling';
+      pg.lawNote.textContent = !d.analytic
+        ? 'empirical law from the H₀ cloud · the shaded bars are the selected tail'
+        : d.engine === 'ks'
+          ? 'asymptotic Kolmogorov law · draws use the finite-n Dₙ statistic'
+          : d.engine === 'multinomial'
+            ? 'asymptotic χ² reference · draws use the finite-N Pearson statistic'
+            : hasDiscreteSupport(d)
+              ? (state.tail === 'two' && !twoSidedIsRight(d)
+                ? 'mass bars · both tails shaded; two-sided p doubles the smaller tail'
+                : 'mass bars · the observed count is included in both tails')
+              : (state.tail === 'two' && !twoSidedIsRight(d)
+                ? 'density · both tails shaded; two-sided p doubles the smaller tail'
+                : 'density · the shaded area is the selected tail');
+      pg.cdfTag.textContent = d.analytic ? 'F(t)' : 'empirical F';
+      if (state.tail === 'two' && twoSidedIsRight(d)) {
+        pg.lawNote.textContent = (hasDiscreteSupport(d) ? 'mass bars' : 'density') +
+          ' · two-sided = right tail for this statistic';
+      }
+      pg.nullNote.textContent = d.analytic
+        ? 'simulated T under H₀ · shaded bars are the selected tail'
+        : 'resampling cloud under H₀ · the empirical law';
+      pg.pNote.textContent = d.analytic
+        ? 'flat = calibrated under a continuous null; spikes = discrete'
+        : 'no analytic p histogram for a resampling null';
+    }
+
+    function canvasMessage(g, msg) {
+      g.ctx.fillStyle = colors().muted;
+      g.ctx.font = '12px ' + getComputedStyle(document.body).fontFamily;
+      g.ctx.textAlign = 'center';
+      g.ctx.fillText(msg, g.w / 2, g.h / 2);
+    }
+
+    function drawMarker(ctx, x, y0, y1, label, alignRight) {
+      var col = colors();
+      ctx.strokeStyle = col.gold;
+      ctx.setLineDash([4, 3]);
+      ctx.beginPath(); ctx.moveTo(x, y0); ctx.lineTo(x, y1); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = col.gold;
+      ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textAlign = alignRight ? 'right' : 'left';
+      ctx.fillText(label, x + (alignRight ? -4 : 4), y0 + 10);
+    }
+
+    function drawLaw() {
+      var d = state.entry, e = engineOf(d);
+      if (!d) return;
+      var g = setupCanvas(pg.lawCanvas), ctx = g.ctx, col = colors();
+      ctx.clearRect(0, 0, g.w, g.h);
+
+      if (!d.analytic) {
+        if (!state.T.length) { canvasMessage(g, 'run the cloud to draw the empirical law'); return; }
+        drawHistogram(pg.lawCanvas, state.T, {
+          label: 'T',
+          tObs: state.tObs,
+          tail: state.tail === 'two' && twoSidedIsRight(d) ? 'right' : state.tail,
+          center: centerOf(d, state.params)
+        });
+        return;
+      }
+
+      var r = state.range;
+      var pad = { l: 36, r: 12, t: 18, b: 24 };
+      var W = g.w - pad.l - pad.r, H = g.h - pad.t - pad.b;
+      var xOf = function (t) { return pad.l + W * (t - r.lo) / (r.hi - r.lo); };
+
+      ctx.strokeStyle = col.border; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(pad.l, pad.t + H); ctx.lineTo(pad.l + W, pad.t + H); ctx.stroke();
+
+      var pts = [], maxY = 0, i, t, y;
+      if (r.discrete) {
+        var lo = Math.ceil(r.lo), hi = Math.floor(r.hi);
+        if (hi - lo > 160) {
+          var mid = state.tObs != null ? Math.round(state.tObs) : Math.round((lo + hi) / 2);
+          lo = Math.max(lo, mid - 80); hi = Math.min(hi, mid + 80);
+        }
+        for (var k = lo; k <= hi; k++) {
+          y = pdfOf(d, k, state.params);
+          if (y == null || !isFinite(y) || y < 0) y = 0;
+          pts.push([k, y]);
+          if (y > maxY) maxY = y;
+        }
+        if (!(maxY > 0)) maxY = 1;
+        var bw = W / Math.max(1, pts.length);
+        for (i = 0; i < pts.length; i++) {
+          t = pts[i][0]; y = pts[i][1];
+          var bh = H * y / maxY;
+          var on = inTail(t);
+          ctx.fillStyle = on ? col.gold : col.cyan;
+          ctx.globalAlpha = on ? 0.8 : 0.45;
+          ctx.fillRect(xOf(t) - bw * 0.38, pad.t + H - bh, Math.max(1, bw * 0.76), bh);
+        }
+        ctx.globalAlpha = 1;
+      } else {
+        var N = 280;
+        for (i = 0; i <= N; i++) {
+          t = r.lo + (r.hi - r.lo) * i / N;
+          y = pdfOf(d, t, state.params);
+          if (y == null || !isFinite(y) || y < 0) y = 0;
+          pts.push([t, y]);
+          if (y > maxY) maxY = y;
+        }
+        if (!(maxY > 0)) maxY = 1;
+        ctx.beginPath();
+        ctx.moveTo(xOf(pts[0][0]), pad.t + H);
+        pts.forEach(function (p) { ctx.lineTo(xOf(p[0]), pad.t + H - H * p[1] / maxY); });
+        ctx.lineTo(xOf(pts[pts.length - 1][0]), pad.t + H);
+        ctx.closePath();
+        ctx.fillStyle = col.cyan; ctx.globalAlpha = 0.12; ctx.fill(); ctx.globalAlpha = 1;
+
+        var regs = tailRegions();
+        regs.forEach(function (reg) {
+          var xa = xOf(Math.max(r.lo, reg[0])), xb = xOf(Math.min(r.hi, reg[1]));
+          if (xb > xa) {
+            ctx.save();
+            ctx.beginPath(); ctx.rect(xa, pad.t, xb - xa, H); ctx.clip();
+            ctx.beginPath();
+            ctx.moveTo(xOf(pts[0][0]), pad.t + H);
+            pts.forEach(function (p) { ctx.lineTo(xOf(p[0]), pad.t + H - H * p[1] / maxY); });
+            ctx.lineTo(xOf(pts[pts.length - 1][0]), pad.t + H);
+            ctx.closePath();
+            ctx.fillStyle = col.gold; ctx.globalAlpha = 0.3; ctx.fill();
+            ctx.restore();
+          }
+        });
+
+        ctx.beginPath();
+        pts.forEach(function (p, idx) {
+          var X = xOf(p[0]), Y = pad.t + H - H * p[1] / maxY;
+          if (idx) ctx.lineTo(X, Y); else ctx.moveTo(X, Y);
+        });
+        ctx.strokeStyle = col.cyan; ctx.lineWidth = 1.6; ctx.stroke();
+      }
+
+      ctx.fillStyle = col.muted;
+      ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textAlign = 'left'; ctx.fillText(fmt(r.lo, 2), pad.l, g.h - 7);
+      ctx.textAlign = 'right'; ctx.fillText(fmt(r.hi, 2), pad.l + W, g.h - 7);
+
+      if (state.tObs != null) {
+        var bounds = tailBoundaries();
+        bounds.forEach(function (b) {
+          var mx = Math.min(pad.l + W - 1, Math.max(pad.l + 1, xOf(b)));
+          var isObs = Math.abs(b - state.tObs) < 1e-9;
+          drawMarker(ctx, mx, pad.t, pad.t + H,
+            isObs ? 't obs = ' + fmt(b, 3) : 'tail cut = ' + fmt(b, 3),
+            mx > pad.l + W * 0.7);
+        });
+      }
+
+      var a = analyticP(state.tObs);
+      if (a && state.tObs != null) {
+        var label = state.tail === 'left' ? 'p left ' + fmtP(a.left)
+          : state.tail === 'right' ? 'p right ' + fmtP(a.right)
+            : 'p two-sided ' + fmtP(a.two);
+        ctx.fillStyle = col.gold;
+        ctx.font = '11px ' + getComputedStyle(document.body).fontFamily;
+        ctx.textAlign = 'right';
+        ctx.fillText(label, pad.l + W, pad.t - 5);
+      }
+    }
+
+    function drawCdf() {
+      var d = state.entry, e = engineOf(d);
+      if (!d) return;
+      var g = setupCanvas(pg.cdfCanvas), ctx = g.ctx, col = colors();
+      ctx.clearRect(0, 0, g.w, g.h);
+
+      if (!d.analytic) {
+        if (!state.T.length) { canvasMessage(g, 'run the cloud — the empirical CDF appears here'); return; }
+        drawEmpiricalCdf(g, col);
+        return;
+      }
+
+      var r = state.range;
+      var pad = { l: 40, r: 12, t: 18, b: 24 };
+      var W = g.w - pad.l - pad.r, H = g.h - pad.t - pad.b;
+      var xOf = function (t) { return pad.l + W * (t - r.lo) / (r.hi - r.lo); };
+      var yOf = function (F) { return pad.t + H - H * F; };
+
+      ctx.strokeStyle = col.border; ctx.lineWidth = 1;
+      [0, 0.5, 1].forEach(function (f) {
+        ctx.beginPath(); ctx.moveTo(pad.l, yOf(f)); ctx.lineTo(pad.l + W, yOf(f)); ctx.stroke();
+      });
+
+      tailRegions().forEach(function (reg) {
+        var xa = xOf(Math.max(r.lo, reg[0])), xb = xOf(Math.min(r.hi, reg[1]));
+        ctx.fillStyle = col.gold; ctx.globalAlpha = 0.12;
+        ctx.fillRect(Math.min(xa, xb), pad.t, Math.abs(xb - xa), H);
+        ctx.globalAlpha = 1;
+      });
+
+      ctx.beginPath();
+      if (r.discrete) {
+        var lo = Math.ceil(r.lo), hi = Math.floor(r.hi);
+        if (hi - lo > 200) {
+          var mid = state.tObs != null ? Math.round(state.tObs) : Math.round((lo + hi) / 2);
+          lo = Math.max(lo, mid - 100); hi = Math.min(hi, mid + 100);
+        }
+        var prevY = null;
+        for (var k = lo; k <= hi; k++) {
+          var Fk = e.cdf(k, state.params), Y = yOf(Fk);
+          var x0 = Math.max(pad.l, xOf(k - 0.5)), x1 = Math.min(pad.l + W, xOf(k + 0.5));
+          if (prevY == null) ctx.moveTo(x0, Y);
+          else { ctx.lineTo(x0, prevY); ctx.lineTo(x0, Y); }
+          ctx.lineTo(x1, Y);
+          prevY = Y;
+        }
+      } else {
+        var N = 280;
+        for (var i = 0; i <= N; i++) {
+          var t = r.lo + (r.hi - r.lo) * i / N;
+          var Fv = Math.min(1, Math.max(0, e.cdf(t, state.params)));
+          var X = xOf(t), Y = yOf(Fv);
+          if (i) ctx.lineTo(X, Y); else ctx.moveTo(X, Y);
+        }
+      }
+      ctx.strokeStyle = col.cyan; ctx.lineWidth = 1.6; ctx.stroke();
+
+      if (state.tObs != null) {
+        var Ft = e.cdf(state.tObs, state.params);
+        ctx.strokeStyle = col.gold; ctx.setLineDash([4, 3]);
+        ctx.beginPath(); ctx.moveTo(pad.l, yOf(Ft)); ctx.lineTo(pad.l + W, yOf(Ft)); ctx.stroke();
+        tailBoundaries().forEach(function (b) {
+          var X = xOf(b);
+          if (X < pad.l || X > pad.l + W) return;
+          ctx.beginPath(); ctx.moveTo(X, pad.t); ctx.lineTo(X, pad.t + H); ctx.stroke();
+        });
+        ctx.setLineDash([]);
+        ctx.fillStyle = col.gold;
+        ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+        ctx.textAlign = 'right';
+        ctx.fillText('F(t obs) = ' + fmt(Ft, 3), pad.l + W, yOf(Ft) - 4);
+      }
+
+      ctx.fillStyle = col.muted;
+      ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textAlign = 'right';
+      ctx.fillText('0', pad.l - 5, yOf(0) + 3);
+      ctx.fillText('1', pad.l - 5, yOf(1) + 3);
+      ctx.textAlign = 'left'; ctx.fillText(fmt(r.lo, 2), pad.l, g.h - 7);
+      ctx.textAlign = 'right'; ctx.fillText(fmt(r.hi, 2), pad.l + W, g.h - 7);
+    }
+
+    function drawEmpiricalCdf(g, col) {
+      var ctx = g.ctx;
+      var T = state.T.slice().sort(function (a, b) { return a - b; });
+      var n = T.length, r = state.range;
+      var pad = { l: 40, r: 12, t: 18, b: 24 };
+      var W = g.w - pad.l - pad.r, H = g.h - pad.t - pad.b;
+      var xOf = function (t) { return pad.l + W * (t - r.lo) / (r.hi - r.lo); };
+      var yOf = function (F) { return pad.t + H - H * F; };
+
+      ctx.strokeStyle = col.border; ctx.lineWidth = 1;
+      [0, 0.5, 1].forEach(function (f) {
+        ctx.beginPath(); ctx.moveTo(pad.l, yOf(f)); ctx.lineTo(pad.l + W, yOf(f)); ctx.stroke();
+      });
+
+      tailRegions().forEach(function (reg) {
+        var xa = xOf(Math.max(r.lo, reg[0])), xb = xOf(Math.min(r.hi, reg[1]));
+        ctx.fillStyle = col.gold; ctx.globalAlpha = 0.12;
+        ctx.fillRect(Math.min(xa, xb), pad.t, Math.abs(xb - xa), H);
+        ctx.globalAlpha = 1;
+      });
+
+      ctx.beginPath();
+      ctx.moveTo(xOf(r.lo), yOf(0));
+      for (var i = 0; i < n; i++) {
+        var x = xOf(T[i]);
+        ctx.lineTo(x, yOf(i / n));
+        ctx.lineTo(x, yOf((i + 1) / n));
+      }
+      ctx.lineTo(xOf(r.hi), yOf(1));
+      ctx.strokeStyle = col.cyan; ctx.lineWidth = 1.6; ctx.stroke();
+
+      if (state.tObs != null) {
+        var m = cloudP(state.tObs);
+        var Ft = m ? m.left : null;
+        if (Ft != null) {
+          ctx.strokeStyle = col.gold; ctx.setLineDash([4, 3]);
+          ctx.beginPath(); ctx.moveTo(pad.l, yOf(Ft)); ctx.lineTo(pad.l + W, yOf(Ft)); ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.fillStyle = col.gold;
+          ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+          ctx.textAlign = 'right';
+          ctx.fillText('F(t obs) ≈ ' + fmt(Ft, 3), pad.l + W, yOf(Ft) - 4);
+        }
+        tailBoundaries().forEach(function (b) {
+          var mx = Math.min(pad.l + W - 1, Math.max(pad.l + 1, xOf(b)));
+          var isObs = Math.abs(b - state.tObs) < 1e-9;
+          drawMarker(ctx, mx, pad.t, pad.t + H,
+            isObs ? 't obs = ' + fmt(b, 3) : 'tail cut = ' + fmt(b, 3),
+            mx > pad.l + W * 0.7);
+        });
+      }
+
+      ctx.fillStyle = col.muted;
+      ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textAlign = 'right';
+      ctx.fillText('0', pad.l - 5, yOf(0) + 3);
+      ctx.fillText('1', pad.l - 5, yOf(1) + 3);
+      ctx.textAlign = 'left'; ctx.fillText(fmt(r.lo, 2), pad.l, g.h - 7);
+      ctx.textAlign = 'right'; ctx.fillText(fmt(r.hi, 2), pad.l + W, g.h - 7);
+    }
+
+    function drawStage() { drawLaw(); drawCdf(); }
+
+    function drawNull() {
+      var d = state.entry;
+      if (!d) return;
+      drawHistogram(pg.nullCanvas, state.T, {
+        label: 'T',
+        tObs: state.tObs,
+        tail: state.tail === 'two' && twoSidedIsRight(d) ? 'right' : state.tail,
+        center: centerOf(d, state.params)
+      });
+    }
+
+    function drawP() {
+      if (!state.entry) return;
+      if (!state.entry.analytic) {
+        var g = setupCanvas(pg.pCanvas);
+        g.ctx.clearRect(0, 0, g.w, g.h);
+        canvasMessage(g, 'resampling null — p is a tail proportion of the cloud');
+        return;
+      }
+      drawPHistogram(pg.pCanvas, state.pv, state.alpha);
+    }
+
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return {
+        text: s.getPropertyValue('--text-primary').trim(),
+        muted: s.getPropertyValue('--text-muted').trim(),
+        gold: s.getPropertyValue('--accent-gold').trim(),
+        cyan: s.getPropertyValue('--accent-cyan').trim(),
+        border: s.getPropertyValue('--border-subtle').trim(),
+        surface: s.getPropertyValue('--bg-surface').trim()
+      };
+    }
+
+    function setupCanvas(c) {
+      var dpr = window.devicePixelRatio || 1;
+      var w = c.clientWidth || 560, h = c.clientHeight || 230;
+      c.width = Math.max(1, Math.round(w * dpr));
+      c.height = Math.max(1, Math.round(h * dpr));
+      var ctx = c.getContext('2d');
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      return { ctx: ctx, w: w, h: h };
+    }
+
+    function drawHistogram(c, values, opt) {
+      var g = setupCanvas(c), ctx = g.ctx, col = colors();
+      ctx.clearRect(0, 0, g.w, g.h);
+      if (!values || !values.length) {
+        canvasMessage(g, 'no simulated statistics yet — run B trials');
+        return;
+      }
+      var pad = { l: 10, r: 10, t: 12, b: 26 };
+      var W = g.w - pad.l - pad.r, H = g.h - pad.t - pad.b;
+      var lo = Infinity, hi = -Infinity, i;
+      for (i = 0; i < values.length; i++) {
+        if (values[i] < lo) lo = values[i];
+        if (values[i] > hi) hi = values[i];
+      }
+      if (!(hi > lo)) { lo -= 0.5; hi += 0.5; }
+      var span = hi - lo, bins = 56, counts = new Array(bins);
+      for (i = 0; i < bins; i++) counts[i] = 0;
+      for (i = 0; i < values.length; i++) {
+        var b = Math.floor((values[i] - lo) / span * bins);
+        if (b < 0) b = 0; if (b >= bins) b = bins - 1;
+        counts[b]++;
+      }
+      var maxC = 1;
+      for (i = 0; i < bins; i++) if (counts[i] > maxC) maxC = counts[i];
+      for (i = 0; i < bins; i++) {
+        var x = pad.l + W * i / bins;
+        var w = Math.max(1, W / bins - 1);
+        var h = H * counts[i] / maxC;
+        var center = lo + span * (i + 0.5) / bins;
+        var shaded = false;
+        if (opt.tObs != null) {
+          if (opt.tail === 'right') shaded = center >= opt.tObs;
+          else if (opt.tail === 'left') shaded = center <= opt.tObs;
+          else shaded = Math.abs(center - opt.center) >= Math.abs(opt.tObs - opt.center);
+        }
+        ctx.fillStyle = shaded ? col.gold : col.cyan;
+        ctx.globalAlpha = shaded ? 0.75 : 0.5;
+        ctx.fillRect(x, pad.t + H - h, w, h);
+      }
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = col.border; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(pad.l, pad.t + H); ctx.lineTo(pad.l + W, pad.t + H); ctx.stroke();
+      ctx.fillStyle = col.muted;
+      ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textAlign = 'left'; ctx.fillText(fmt(lo, 2), pad.l, g.h - 8);
+      ctx.textAlign = 'right'; ctx.fillText(fmt(hi, 2), pad.l + W, g.h - 8);
+      if (opt.tObs != null) {
+        var marks = [opt.tObs];
+        if (opt.tail === 'two') marks.push(2 * opt.center - opt.tObs);
+        marks.forEach(function (v, idx) {
+          if (v < lo || v > hi) return;
+          var tx = pad.l + W * (v - lo) / span;
+          tx = Math.min(pad.l + W - 1, Math.max(pad.l + 1, tx));
+          ctx.strokeStyle = col.gold; ctx.setLineDash([4, 3]);
+          ctx.beginPath(); ctx.moveTo(tx, pad.t); ctx.lineTo(tx, pad.t + H); ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.fillStyle = col.gold;
+          ctx.textAlign = tx > pad.l + W * 0.7 ? 'right' : 'left';
+          ctx.fillText((idx === 0 ? 't obs' : 'tail cut') + ' = ' + fmt(v, 3),
+            tx + (ctx.textAlign === 'right' ? -4 : 4), pad.t + 10);
+        });
+      }
+    }
+
+    function drawPHistogram(c, values, alpha) {
+      var g = setupCanvas(c), ctx = g.ctx, col = colors();
+      ctx.clearRect(0, 0, g.w, g.h);
+      var pad = { l: 10, r: 10, t: 12, b: 26 };
+      var W = g.w - pad.l - pad.r, H = g.h - pad.t - pad.b;
+      var bins = 20, counts = new Array(bins), i;
+      for (i = 0; i < bins; i++) counts[i] = 0;
+      if (values && values.length) {
+        for (i = 0; i < values.length; i++) {
+          var b = Math.floor(values[i] * bins);
+          if (b < 0) b = 0; if (b >= bins) b = bins - 1;
+          counts[b]++;
+        }
+      }
+      var B = values ? values.length : 0;
+      var expected = B ? B / bins : 0;
+      var maxC = expected;
+      for (i = 0; i < bins; i++) if (counts[i] > maxC) maxC = counts[i];
+      if (!(maxC > 0)) maxC = 1;
+      for (i = 0; i < bins; i++) {
+        var x = pad.l + W * i / bins;
+        var w = Math.max(1, W / bins - 1);
+        var h = H * counts[i] / maxC;
+        ctx.fillStyle = i / bins < alpha ? col.gold : col.cyan;
+        ctx.globalAlpha = i / bins < alpha ? 0.75 : 0.45;
+        ctx.fillRect(x, pad.t + H - h, w, h);
+      }
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = col.border;
+      ctx.beginPath(); ctx.moveTo(pad.l, pad.t + H); ctx.lineTo(pad.l + W, pad.t + H); ctx.stroke();
+      if (B) {
+        var yE = pad.t + H - H * expected / maxC;
+        ctx.strokeStyle = col.gold; ctx.setLineDash([4, 3]);
+        ctx.beginPath(); ctx.moveTo(pad.l, yE); ctx.lineTo(pad.l + W, yE); ctx.stroke();
+        ctx.setLineDash([]);
+      }
+      var xa = pad.l + W * alpha;
+      ctx.strokeStyle = col.text; ctx.setLineDash([2, 3]);
+      ctx.beginPath(); ctx.moveTo(xa, pad.t); ctx.lineTo(xa, pad.t + H); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = col.muted;
+      ctx.font = '10px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textAlign = 'left'; ctx.fillText('0', pad.l, g.h - 8);
+      ctx.textAlign = 'right'; ctx.fillText('1', pad.l + W, g.h - 8);
+      ctx.textAlign = 'center'; ctx.fillText('α', xa, g.h - 8);
+      if (!B) {
+        ctx.fillStyle = col.muted;
+        ctx.font = '12px ' + getComputedStyle(document.body).fontFamily;
+        ctx.fillText('run the trials', pad.l + W / 2, g.h / 2);
+      }
+    }
+
+    function runTrials() {
+      if (state.running || !state.entry) return;
+      var d = state.entry, e = engineOf(d);
+      if (!e) return;
+      var B = Math.max(200, Math.min(20000, Math.round(parseFloat(pg.trials.value) || 2000)));
+      state.trials = B;
+      invalidateCloud();
+      state.running = true;
+      var runId = state.runId;
+      pg.runBtn.disabled = true;
+      pg.drawBtn.disabled = true;
+      setStatus('simulating 0 / ' + B + ' under H₀…');
+      var done = 0, chunk = Math.max(100, Math.min(500, Math.floor(B / 20)));
+      function step() {
+        if (runId !== state.runId) { pg.runBtn.disabled = false; pg.drawBtn.disabled = false; return; }
+        var end = Math.min(B, done + chunk);
+        for (; done < end; done++) {
+          var t = e.draw(state.params);
+          state.T.push(t);
+          if (d.analytic) {
+            var p = e.pv(t, state.params);
+            state.pv.push(state.tail === 'left' ? p.left : state.tail === 'right' ? p.right : p.two);
+          }
+        }
+        if (done < B) {
+          setStatus('simulating ' + done + ' / ' + B + ' under H₀…');
+          setTimeout(step, 0);
+        } else {
+          state.running = false;
+          pg.runBtn.disabled = false;
+          pg.drawBtn.disabled = false;
+          refreshRange();
+          if (state.tObs == null) state.tObs = e.draw(state.params);
+          if (state.range.discrete) state.tObs = Math.round(state.tObs);
+          syncT();
+          setStatus('B = ' + B + ' simulated under H₀ · ' +
+            (d.analytic ? 'analytic and Monte Carlo tails ready' : 'empirical tails ready'));
+          updateReadout();
+          drawStage();
+          drawNull();
+          drawP();
+        }
+      }
+      step();
+    }
+
+    function drawOne() {
+      var d = state.entry;
+      if (!d || state.running) return;
+      var t = engineOf(d).draw(state.params);
+      setTObs(t, true);
+      setStatus('drew t obs = ' + fmt(t, 4) + ' under H₀');
+    }
+
+    function resetPlayground() {
+      var d = state.entry;
+      if (!d) return;
+      invalidateCloud();
+      (d.params || []).forEach(function (p) { state.params[p.name] = p.default; });
+      Array.prototype.forEach.call(pg.sliders.querySelectorAll('[data-param]'), function (el) {
+        var p = specOf(el.getAttribute('data-param'));
+        if (p) el.value = p.default;
+      });
+      state.tail = 'right'; pg.tail.value = 'right';
+      state.alpha = 0.05; pg.alpha.value = '0.05';
+      pg.trials.value = '2000';
+      refreshRange();
+      state.tObs = defaultTObs(d);
+      syncT();
+      setStatus('reset · ' + (d.analytic ? 'analytic tails live' : 'run the cloud'));
+      updateReadout();
+      drawStage();
+      drawNull();
+      drawP();
+    }
+
+    function selectDistribution(id, opts) {
+      var d = BY_ID[id] || DATA.distributions[0];
+      if (!d) return;
+      opts = opts || {};
+      invalidateCloud();
+      state.entry = d;
+      state.params = {};
+      (d.params || []).forEach(function (p) { state.params[p.name] = p.default; });
+      state.tail = 'right'; pg.tail.value = 'right';
+      state.alpha = 0.05; pg.alpha.value = '0.05';
+      buildDetails(d);
+      buildParams(d);
+      refreshRange();
+      state.tObs = defaultTObs(d);
+      syncT();
+      updateReadout();
+      drawStage();
+      drawNull();
+      drawP();
+      markPicker(d.id);
+      setStatus('ready · ' + d.name + (d.analytic ? ' · analytic tails live' : ' · run the cloud for the empirical p'));
+      if (!opts.noHash) {
+        try { history.replaceState(null, '', '#play=' + d.id); }
+        catch (err) { location.hash = 'play=' + d.id; }
+      }
+      if (opts.scroll) {
+        var el = document.getElementById('playground');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function initPlayground() {
+      buildPicker();
+      pg.tail.addEventListener('change', function () {
+        state.tail = pg.tail.value;
+        if (state.T.length && state.entry.analytic) {
+          state.pv = state.T.map(function (t) {
+            var p = engineOf(state.entry).pv(t, state.params);
+            return state.tail === 'left' ? p.left : state.tail === 'right' ? p.right : p.two;
+          });
+        }
+        updateReadout(); drawStage(); drawNull(); drawP();
+      });
+      pg.alpha.addEventListener('input', function () {
+        var v = parseFloat(pg.alpha.value);
+        if (isFinite(v)) {
+          state.alpha = Math.min(0.2, Math.max(0.001, v));
+          updateReadout(); drawStage(); drawP();
+        }
+      });
+      pg.tSlider.addEventListener('input', function () {
+        setTObs(parseFloat(pg.tSlider.value), false);
+      });
+      pg.tInput.addEventListener('change', function () {
+        var v = parseFloat(pg.tInput.value);
+        if (isFinite(v)) { setTObs(v, true); setStatus('t obs = ' + fmt(state.tObs, 4)); }
+      });
+      pg.drawBtn.addEventListener('click', drawOne);
+      pg.runBtn.addEventListener('click', runTrials);
+      pg.resetBtn.addEventListener('click', resetPlayground);
+      window.addEventListener('epistecnica-theme', function () { drawStage(); drawNull(); drawP(); });
+      var resizeTimer = null;
+      window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () { drawStage(); drawNull(); drawP(); }, 120);
+      });
+
+      var m = location.hash.match(/^#play=([A-Za-z0-9_-]+)$/);
+      selectDistribution(m && BY_ID[m[1]] ? m[1] : 'normal', { noHash: !!m });
+      window.addEventListener('hashchange', function () {
+        var mm = location.hash.match(/^#play=([A-Za-z0-9_-]+)$/);
+        if (mm && BY_ID[mm[1]] && (!state.entry || state.entry.id !== mm[1])) {
+          selectDistribution(mm[1], { noHash: true });
+        }
+      });
+    }
+
+    /* ============================================================
+       Boot
+       ============================================================ */
+    fetch('pvalue.json').then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (d) {
+      DATA = d;
+      d.distributions.forEach(function (x) { BY_ID[x.id] = x; });
+      renderStats();
+      initPlayground();
+    }).catch(function (err) {
+      errorEl.hidden = false;
+      errorEl.textContent = 'Could not load pvalue.json: ' + err.message;
+    });
+  })();
+  </script>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+
+  <script>
+  (function () {
+    var c = document.getElementById('ambientCanvas');
+    if (!c) return;
+    var ctx = c.getContext('2d'), pts = [];
+    function resize() {
+      c.width = window.innerWidth; c.height = window.innerHeight;
+      pts = [];
+      for (var i = 0; i < 70; i++) {
+        pts.push({ x: Math.random() * c.width, y: Math.random() * c.height, r: Math.random() * 1.1 + 0.2, a: Math.random() * 0.35 + 0.08 });
+      }
+    }
+    function draw() {
+      var col = getComputedStyle(document.documentElement).getPropertyValue('--text-muted').trim();
+      ctx.clearRect(0, 0, c.width, c.height);
+      pts.forEach(function (p) {
+        ctx.globalAlpha = p.a; ctx.fillStyle = col;
+        ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+      });
+      ctx.globalAlpha = 1;
+    }
+    window.addEventListener('resize', function () { resize(); draw(); });
+    window.addEventListener('epistecnica-theme', draw);
+    resize(); draw();
+  })();
+  </script>
+
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+  <script src="../../../../../shared/usearch.js" data-root="../../../../../"></script>
+</body>
+</html>

@@ -34,7 +34,7 @@ bin/build_universal_index.py  universal-view graph builder (our corpus → graph
 bin/layout.py           universal-view layout pre-computer (sunflower + FR)
 bin/notes_index.py | bin/course_index.py | bin/document_index.py   corpus indexers (make *-index)
 bin/course_import.py | bin/document_import.py   bulk Notion-export importers
-bin/rees_check.py | bin/atlas_check.py | bin/terminology_check.py | bin/symbols_check.py   atlas/store validators (make *-check)
+bin/rees_check.py | bin/atlas_check.py | bin/terminology_check.py | bin/symbols_check.py | bin/pvalue_check.py   atlas/store validators (make *-check)
 bin/conform.py          technica table-grammar conformance; bin/build_technica_atlas.py atlas builder
 src/app/                hub page (index.html, served at /) + docs.html + graph/ (universal view) + shared/ (nav search + content viewer)
 src/note/…              notes corpus + catalog/viewer (app/ incl. app/data/ + live notes) + tags — see src/note/README.md
@@ -292,6 +292,19 @@ instance-decomposition table:
   origins, usage, related symbols, note links); `make symbols-check`
   validates the store (part of `make check`). The page is reached through
   the catalog's `epistemica/symbols/` folder, no promoted card.
+- **P-Value Atlas** — `epistemica/validation/atlas/pvalue.{json,html}` stores
+  the null-distribution inventory (normal, t, chi-square, F, gamma,
+  exponential, beta, uniform, Cauchy, Kolmogorov–Smirnov, binomial, Poisson,
+  hypergeometric, negative binomial, geometric, multinomial, permutation,
+  bootstrap, Mann–Whitney) and renders it as a **playground**: pick any law
+  from the family picker, read its support/parameters/statistic/definition/
+  formulas, move parameter sliders and `t_obs`, and see the density/mass with
+  the tail shaded, the CDF with the tail band, and live F(t), density/mass,
+  left/right/two-sided p, moments, and α decision. The Monte Carlo strip adds
+  the null cloud, the p-value histogram, and analytic-vs-simulated p.
+  `make pvalue-check` validates the store (part of `make check`). The page is a
+  live note reached through the catalog's `epistemica/validation/atlas/`
+  folder and linked from `p-value.md`, no promoted card.
 - **EES** (`epistemica/ees.md` + `ees.html` + `ees.json`) is the master
   epistemic inventory. The tree is stored canonically in `ees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
@@ -346,6 +359,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the canonical two-column decomposition tables of the technica corpus, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
 - Terminology crimes: `make terminology-check` (validates `src/note/app/data/epistemica/crimes/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/crimes/terminology.html`, reached in the catalog through the `epistemica/crimes/` folder (no promoted card)
 - Symbol atlas: `make symbols-check` (validates `src/note/app/data/epistemica/symbols/symbols.json` — unique ids, enum categories, non-empty symbol/description/origins/usage, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/symbols/symbols.html`, reached in the catalog through the `epistemica/symbols/` folder (no promoted card)
+- P-Value Atlas: `make pvalue-check` (validates `src/note/app/data/epistemica/validation/atlas/pvalue.json` — unique ids, known families/engines, complete density/CDF/left/right/two-sided formulas, parameter specs in range, resolving related ids and note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/validation/atlas/pvalue.html` (playground-first: family picker + parameter sliders + `t_obs` + density/CDF stages + live readouts + Monte Carlo strip; `?selftest` for the numeric cases), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `p-value.md` (no promoted card)
 - Universal search: `make search-index` (build-time snapshot → gitignored `src/app/data/search-index.json`, corpus-only; rebuilt locally or at image build) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → gitignored `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus; rebuilt locally or at image build) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`

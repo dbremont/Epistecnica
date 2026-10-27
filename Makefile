@@ -25,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -33,13 +33,14 @@ help: ## list targets
 run: ## local dev server, no docker (port DEV_PORT, default 8010)
 	python3 bin/serve.py --port $(DEV_PORT)
 
-check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + catalog literals
+check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + catalog literals
 	python3 -m py_compile bin/*.py
 	python3 bin/check_catalog_literals.py
 	python3 bin/ees_check.py
 	python3 bin/atlas_check.py
 	python3 bin/terminology_check.py
 	python3 bin/symbols_check.py
+	python3 bin/pvalue_check.py
 
 notes-index: ## rebuild the notes search index (after any corpus change)
 	python3 bin/notes_index.py
@@ -66,6 +67,9 @@ terminology-check: ## validate the terminology-crimes store (src/note/app/data/e
 
 symbols-check: ## validate the symbol-atlas store (src/note/app/data/epistemica/symbols/symbols.json)
 	python3 bin/symbols_check.py
+
+pvalue-check: ## validate the p-value atlas store (src/note/app/data/epistemica/validation/atlas/pvalue.json)
+	python3 bin/pvalue_check.py
 
 search-index: ## build the universal search snapshot (before build/deploy)
 	python3 bin/build_search_index.py

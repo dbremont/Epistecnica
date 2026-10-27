@@ -7,7 +7,9 @@ qa:
   - Which common tests produce p-values, and from which null distributions?
   - What are the alternatives and complements to the p-value?
   - **What are the problems with the following wording?** 'The p-value is the tail probability of a test statistic under the null model'.
-note: We need to get deeper into the scope, practice, case studies, etc.
+  - Why is hypothesis testing is a form of model validation?
+  
+  - I find it difficult to interpret what it means to have \(p > 0.05\). Does this mean that we cannot reject the null hypothesis? What exactly do the tails tell us? Why is having a larger proportion of observations in the tail a reason not to reject the null hypothesis? Is this about how surprising the observed result is? If so, why?
 ---
 
 # P-Value
@@ -22,21 +24,25 @@ note: We need to get deeper into the scope, practice, case studies, etc.
 
 > The intuitive, pre-formal idea behind p-values is the following.
 
-> Suppose we have a statistical model for a population and a set of parameters or properties associated with that model. Let us call this model \(M_p\).
+> Suppose we need to validate a `fitted statistical  model` (parameters, properties of the parameters) for a population. Let us call this model \(M_p\).
 
-> We want to evaluate a particular property or parameter by repeatedly recomputing its value from sample data. The resulting quantity is called a **test statistic**, denoted by \(T\). Its possible values are characterized by a probability distribution.
+> A sensible way to approach  to this -- is to draw multiple samples (subsets of the population) and recompute the parameters of interest for each sample. The resulting values form an **empirical** sampling **distribution** of the inference parameter (statistic), let's called  \(T\). In statistical terminology, each computed value is called a **test statistic**.
 
-> This is the fundamental building block of any p-value calculation procedure. The computation of the p-value in any specific formulation embodies a **a derivation from the distribution of \(T\)**.
+> This is the fundamental building block of any p-value calculation procedure. Computing a p-value involves **deriving a probability from the distribution of \(T\)**, typically by integrating over the **tails** - **extremes** (define relative to some **reference value**). In other words, it measures how unusual the tails are relative to the rest of the distribution. After this, we use a **decision threshold**, usually denoted by \(\alpha\), to determine whether the observed sample results are in accordance with the model or not.
+
+> Note: In statistics, we never definitively prove or disprove a hypothesis; we simply evaluate and summarize the available evidence. This is because statistical models are not substantive descriptions of reality; they are surface-level representations of the aspects of reality captured by the observed data.
+
+> Note: In  practice - the distribution is assume - and the value is just computed. So it's assumption after assumption.
 
 ### Which is the usual technical formulation of the p-value computation?
 
 > Note: For practical purposes, what we are interested in is the \(p\)-value of \(t_{\mathrm{obs}}\) derived from \(M_p\).
 
-> The usual technical formulation of this calculation is: \(p_{\mathrm{obs}} = \Pr(T < t_{\mathrm{obs}}) + \Pr(T > t_{\mathrm{obs}})\).
-
-> Intrpertion of (p_{\mathrm{obs}} - for thi swe will introduces the significance threshold / alpha level, 
+> Note: The specific formula for computing the `p-value` depends on the type of distribution, but it's always a measure of extremeness.How much do the elements differ from the common?
 
 > Note: The extreme - blah, blah cames from the >, <.
+
+> See [P-Value Atlas](data/epistemica/validation/atlas/pvalue.html) — the null distributions, their tail formulas, and a simulation lab.
 
 ![p-value](../assets/note/epistemica/validation/p-value.png)
 
@@ -144,36 +150,65 @@ note: We need to get deeper into the scope, practice, case studies, etc.
 
 ### What are the conventions for interpreting a p-value and determining the range of a p-value calculation procedure?
 
-> **Range.** The p-value lies in $[0,1]$. Under a simple null with a continuous statistic and a valid test, it is uniform on $(0,1)$ under $H_0$. A discrete statistic produces a countable set of possible p-values and conservative (stochastically larger) values; a composite null uses the supremum over $\Theta_0$; a randomized test can produce a continuous p-value.
+### What are the conventions for interpreting a p-value and determining the range of a p-value calculation procedure?
 
-> **Thresholds.** $0.05$, $0.01$, and $0.001$ are conventions, not laws of nature. Report the exact p-value, the test, the model, the sample size, and any multiplicity correction. "Statistically significant" is not "practically important".
+> **Range.** A p-value lies in the interval \([0,1]\). It is calculated from the observed test statistic and its reference distribution under the null hypothesis. For a continuous test statistic and a valid p-value, the p-value follows a uniform distribution on \([0,1]\) under \(H_0\). For discrete test statistics, the p-value generally has a discrete distribution and is conservative: \(P(p \leq \alpha \mid H_0) \leq \alpha\).
 
-> **Decision.** At a pre-specified level $\alpha$: $p \le \alpha$ means reject $H_0$; $p > \alpha$ means fail to reject $H_0$. The rule is a decision convention, not a proof. Failing to reject is not accepting: acceptance would require a prior, a loss function, and a power analysis.
+> **Interpretation.** The p-value measures how extreme the observed test statistic is relative to its reference distribution under \(H_0\). A small p-value indicates that the observed statistic falls in a region that would be relatively unusual if the null hypothesis were true. It does not measure the probability that \(H_0\) is true, nor does it measure the probability that the observed data arose by chance.
 
-> **Evidence.** A smaller p-value means greater incompatibility between the data and $H_0$ under the model. It is not the probability that $H_0$ is true, not the probability that the data arose by chance, not the probability of replication, not an effect size, not a posterior probability, and not a Bayes factor.
-
-> **Communication.** Use compatibility language: "the data are incompatible with the model at the $\alpha$ level", not "the result is significant, therefore the hypothesis is true". Report the p-value alongside an interval estimate and an effect size whenever the question is about magnitude rather than compatibility.
-
-> **Range of the calculation procedure.** The procedure's possible outputs are the p-values generated by the test's rejection regions. Its size is $\sup_{\theta \in \Theta_0} \mathbb{P}_\theta(\text{reject}) \le \alpha$; its power is $\mathbb{P}_{\theta_1}(\text{reject})$ for a chosen alternative. The p-value is the smallest $\alpha$ at which the test rejects, so the procedure's range and its rejection regions are two views of the same test.
-
-> The ASA statement's six principles are the standard communication conventions:
+> **Decision threshold.** The significance level \(\alpha\) is a threshold chosen before examining the results. Common choices are \(0.05\), \(0.01\), and \(0.001\), but these are conventions rather than universal rules. At a pre-specified significance level:
 >
-> 1. p-values can indicate how incompatible the data are with a specified statistical model;
-> 2. p-values do not measure the probability that the studied hypothesis is true, or the probability that the data were produced by random chance alone;
-> 3. scientific conclusions and decisions should not be based only on whether a p-value passes a specific threshold;
-> 4. proper inference requires full reporting and transparency;
-> 5. a p-value, or statistical significance, does not measure the size of an effect or the importance of a result;
-> 6. by itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.
+> - \(p \leq \alpha\): reject \(H_0\).
+> - \(p > \alpha\): fail to reject \(H_0\).
+>
+> The threshold determines the decision rule; it does not change the observed p-value. Failing to reject \(H_0\) does not establish that it is true.
+
+> **Statistical properties of the procedure.** The significance level controls the probability of rejecting \(H_0\) when it is true. For a composite null hypothesis with parameter space \(\Theta_0\), a test has level \(\alpha\) if
+>
+> \[
+> \sup_{\theta \in \Theta_0}
+> P_\theta(\text{reject } H_0) \leq \alpha.
+> \]
+>
+> The power of the test at a particular alternative parameter value \(\theta_1\) is
+>
+> \[
+> P_{\theta_1}(\text{reject } H_0).
+> \]
+>
+> These properties describe the behavior of the testing procedure across repeated samples, rather than the interpretation of an individual p-value.
+
+> **Reporting and communication.** Report the p-value alongside the test specification and, where relevant, an effect-size estimate and confidence interval. Statistical significance does not establish practical importance, and a p-value alone does not establish the truth of a hypothesis.
+
+**Key distinction:** The p-value is a measure of extremeness relative to a null distribution; \(\alpha\) is the decision threshold; and the significance level and power describe the testing procedure's long-run behavior.
+
+### What does surprise even means here?
+
+> ...
+
+### Are p-values about subsets (samples) of populations, or observations?
+
+> ...
+
+### Should the statistics computed from these samples have low variance?
+
+> ...
+
+### What is the underlying `logic` aroud p-values?
+
+> We have a model, a population, and samples drawn from that population. We compute a statistic for each sample and assume a theoretical sampling distribution that these statistics should follow under the model. We then compare the observed statistic with this theoretical distribution to assess how unusual it is.
+
+> Note: We usually do not construct the empirical distribution either. Instead, we use the parameters of the theoretical distribution to calculate the tail probabilities.
+
+> Unusualness means that the observed statistic falls in a region with a small probability under the theoretical distribution, resulting in a small p-value.
+
+> This seems crazy: we are assuming a theoretical distribution, its parameters, and so on. The method seems quite ungrounded. Following the procedure is relatively easy, but justifying its assumptions is much harder. It almost feels like an oracle.
 
 ### Is the p-value computed from the distribution of \(T\) or from \(M_p\), which determines the distribution of \(T\)?
 
 > **Note:** By \(M_p\), I mean the fitted model, not an estimator of its parameters.
 
 > The p-value depends on the distribution of \(T\). However, this distribution is determined by the statistical procedures used to estimate the parameters of \(M_p\), not by the specific parameter values contained in \(M_p\).
-
-> These procedures must account for the **form of the model**, but not necessarily its specific parameter values. We call such a procedure an *estimator*.
-
-> Note: That the p-value becomes a random variable - sort ot - and one report p for a $t_\text{obs}$, which  can be or p in $M_p$ if we want.
 
 ### Which common tests produce p-values, and from which null distributions?
 
@@ -184,6 +219,14 @@ note: We need to get deeper into the scope, practice, case studies, etc.
 | **Chi-square test** | $\chi^2 = \sum (O_i - E_i)^2 / E_i$ | chi-square with the appropriate degrees of freedom | upper-tail probability |
 | **F-test (ANOVA)** | $F = MS_{\text{between}}/MS_{\text{within}}$ | $F$ with the appropriate degrees of freedom | upper-tail probability |
 | **Permutation test** | any test statistic | permutation distribution under exchangeability | proportion of permuted statistics at least as extreme |
+
+### Why Is Hypothesis Testing a Form of Model Validation?
+
+> A model is a representation of a population. It has parameters, and we can define properties of those parameters.
+
+> A hypothesis is a statement about the model's parameters, a property of those parameters, or the parameters themselves. Hence, when we test a hypothesis, we are validating a claim about the model.
+
+> The problem lies in how the term *model* is used in statistics. It often refers to, or is conflated with, a class of procedures or methods rather than a concrete epistemic artifact: a representation of some aspect of reality that can be evaluated and validated.
 
 ### What are the alternatives and complements to the p-value?
 
@@ -204,6 +247,7 @@ note: We need to get deeper into the scope, practice, case studies, etc.
 - [Calibration](note.html?n=epistemica/validation/calibration.md)
 - [E-value](note.html?n=epistemica/validation/e-value.md)
 - [EES atlas](data/epistemica/ees.html)
+- [P-Value Atlas](data/epistemica/validation/atlas/pvalue.html) — the null distributions, their tail formulas, and a simulation lab
 - Goodman, S. (2008). A dirty dozen: Twelve p-value misconceptions. *Seminars in Hematology*, 45(3), 135–140.
 - Cohen, J. (1994). The earth is round (p < .05). *American Psychologist*, 49(12), 997–1003.
 - Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLoS Medicine*, 2(8), e124.

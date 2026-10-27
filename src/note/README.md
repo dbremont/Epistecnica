@@ -55,6 +55,11 @@ companion is `data/epistemica/ees.md`.
 - The validation scope lives in `epistemica/validation/`: `validation.md`
   (master), `model-validation.md`, `probability-model-validation.md`, and
   `calibration.md`.
+- The p-value atlas lives in `epistemica/validation/atlas/`:
+  `pvalue.json` (the null-distribution store) and `pvalue.html` (the
+  playground: pick a law, move its parameters and `t_obs`, read the live
+  density/CDF tails, readouts and Monte Carlo calibration strip);
+  `make pvalue-check` validates the store. Linked from `p-value.md`.
 - The terminology-crimes atlas lives in `epistemica/crimes/`:
   `terminology.json` (the store) and `terminology.html` (searchable cards and
   table over misnomers, legacy names and false friends in statistics,

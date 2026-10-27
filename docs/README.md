@@ -49,6 +49,7 @@ with the subprojects.
 | `/graph/` | Universal view: one read-only graph over notes + courses + documents + EES, generated from our corpus |
 | `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`data/**.md`) |
 | `/note/data/epistemica/ees.html` | The EES atlas (local companion to the guide) |
+| `/note/data/epistemica/validation/atlas/pvalue.html` | The P-Value Atlas: playground over the null laws — pick, parameterize, move `t_obs`, read the live tails and Monte Carlo calibration |
 | `/course/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
 | `/document/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
 | `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/ees.html` (graphs moved to Naturgnosis) |

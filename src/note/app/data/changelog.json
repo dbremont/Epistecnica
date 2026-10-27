@@ -10610,6 +10610,11 @@
         "summary": "Retarget the epistemic element set atlas link to EES and move the p-value image to the shared asset store.",
         "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
         "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Link the P-Value Atlas (null distributions, tail formulas, simulation lab) from the references."
       }
     ]
   },
