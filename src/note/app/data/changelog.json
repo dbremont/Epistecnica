@@ -10614,7 +10614,9 @@
       {
         "date": "2026-10-27",
         "kind": "docs",
-        "summary": "Link the P-Value Atlas (null distributions, tail formulas, simulation lab) from the references."
+        "summary": "Link the P-Value Atlas (null distributions, tail formulas, simulation lab) from the references.",
+        "commit": "59b3ff69afcf678a2a70300646f65a2c57558791",
+        "before": "683507a9cee4fadb481544f187601fd2b29af0f0"
       }
     ]
   },
