@@ -4,7 +4,7 @@
 
 The project's philosophia guides — *Artium Epistemicarum et Operis* and
 *Artium Technicarum et Operis* — are the canonical schema owners. Epistecnica
-foregrounds them, hosts the local **REES** atlas (Reality Epistemic Element
+foregrounds them, hosts the local **EES** atlas (Epistemic Element
 Set) as their local companion, and serves the written corpora: notes, courses,
 and documents, each a catalog + viewer over a local markdown corpus with a
 generated JSON index.
@@ -12,7 +12,7 @@ generated JSON index.
 The ontology graphs (**Epistemica**, **Tecnica**) no longer live here: they
 moved to the external **Naturgnosis** medium. The hub links to them from its
 index, and adds a **universal view** (`/graph/`) — one read-only graph
-over our own corpus (notes, courses, documents, REES).
+over our own corpus (notes, courses, documents, EES).
 
 ## Layout
 
@@ -46,12 +46,12 @@ with the subprojects.
 |-----|------|
 | `/` | Hub: a flat link index over the guide, the universal view, and the corpora |
 | `/docs` | Site documentation (this content, rendered) |
-| `/graph/` | Universal view: one read-only graph over notes + courses + documents + REES, generated from our corpus |
+| `/graph/` | Universal view: one read-only graph over notes + courses + documents + EES, generated from our corpus |
 | `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`data/**.md`) |
-| `/note/data/epistemica/rees.html` | The REES atlas (local companion to the guide) |
+| `/note/data/epistemica/ees.html` | The EES atlas (local companion to the guide) |
 | `/course/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
 | `/document/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
-| `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/rees.html` (graphs moved to Naturgnosis) |
+| `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/ees.html` (graphs moved to Naturgnosis) |
 | `/api/health` | Liveness probe for the service |
 
 ## Data backend

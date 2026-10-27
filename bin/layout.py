@@ -18,7 +18,7 @@ and pointless. Instead:
      in reserved territory beside the main disk instead.
 
   Grouping (--group-by source): each source surface (note / course / document /
-  rees) gets its own sunflower disk and the disks are arranged on a ring, so
+  ees) gets its own sunflower disk and the disks are arranged on a ring, so
   surfaces read as spatial clusters.
 
 Usage:

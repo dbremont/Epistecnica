@@ -13,7 +13,7 @@ The table form is the guide's canonical one:
 Paths split on `→`; backticked segments are type groupings, plain segments
 are instances typed by the nearest grouping ancestor.
 
-Node model (REEs-compatible, see epistemica/rees.json):
+Node model (EES-compatible, see epistemica/ees.json):
 
   root      - one synthetic `Technical Element` node, typed
               Technical Element Set; its children are the table roots

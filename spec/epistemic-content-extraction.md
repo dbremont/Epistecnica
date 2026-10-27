@@ -141,7 +141,7 @@ global offset.
 
 Use the canonical epistemic vocabulary, not an ad-hoc per-book vocabulary.
 
-- Types come from the canonical guide and the local REES inventory.
+- Types come from the canonical guide and the local EES inventory.
 - Store:
   - `types`: type name → branch + description;
   - `allowed_parent`: parent type → permitted child types.
@@ -470,8 +470,8 @@ replaceable.
 ## 12. References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- `src/note/app/data/epistemica/rees.md` — local companion and schema note.
-- `src/note/app/data/epistemica/rees.json` — REES tree store and type
+- `src/note/app/data/epistemica/ees.md` — local companion and schema note.
+- `src/note/app/data/epistemica/ees.json` — EES tree store and type
   vocabulary.
 - `spec/spec.md` — Epistecnica system spec.
 - `spec/design.md` — shared design system.

@@ -2,23 +2,23 @@
 tags: [epistemology, ontology, method]
 ---
 
-# Reality Epistemic Element Set (REES)
+# Epistemic Element Set (EES)
 
 > Reality is the total set of phenomena, entities, and processes that exist or occur, independently of an observer's perception or conceptualization, and which can, in principle, interact, change, or produce effects.
 
-> The Reality Epistemic Element Set is the primary catalog and entry point for the scaffolding and systematic investigation of the phenomenology of reality: the recursively typed inventory of the epistemic elements by which an inquirer orients, accesses, represents, constructs, operates on, evaluates, communicates, and sustains knowledge of reality — together with the reflexive elements by which that inventory turns back on the knowing it enables.
+> The Epistemic Element Set is the primary catalog and entry point for the scaffolding and systematic investigation of the phenomenology of reality: the recursively typed inventory of the epistemic elements by which an inquirer orients, accesses, represents, constructs, operates on, evaluates, communicates, and sustains knowledge of reality — together with the reflexive elements by which that inventory turns back on the knowing it enables.
 
 This note is the local companion of the canonical guide
 [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md),
 which owns the schema, the Permitted Link Forms table, and the worked
-Arithmetic case. REES applies that grammar across the whole of reality
+Arithmetic case. EES applies that grammar across the whole of reality
 rather than to one domain; it states the universal taxonomy and binds each
 type to at least one generic instance. Domain catalogues (causality,
 mathematical, observational, simulation, optimization, and their siblings)
 are recursive expansions of the branches below, not alternatives to them.
 
-The **complete decomposition** lives in the **[REES atlas](data/epistemica/rees.html)** — the
-viewer over the tree store [`rees.json`](data/epistemica/rees.json). This note states the
+The **complete decomposition** lives in the **[EES atlas](data/epistemica/ees.html)** — the
+viewer over the tree store [`ees.json`](data/epistemica/ees.json). This note states the
 schema, the formulation, and the backbone; the atlas carries the full,
 ever-expanding tree with outline, card, table, and node-inspector views.
 
@@ -26,7 +26,7 @@ ever-expanding tree with outline, card, table, and node-inspector views.
 
 ### What is this epistemic instance?
 
-> The Reality Epistemic Element Set is an organized inquiry system: the
+> The Epistemic Element Set is an organized inquiry system: the
 > typed inventory of the epistemic elements involved in the investigation,
 > representation, modeling, and explanation of phenomena of reality,
 > including the recursive examination of these elements and the nature,
@@ -83,8 +83,8 @@ Two recurring ambiguities are worth stating up front:
 > organized inquiry systems the other branches presuppose. The **complete,
 > ever-expanding decomposition** — every branch grown down to its generic
 > instances — is not held in this note: it is the tree store
-> [`rees.json`](data/epistemica/rees.json), rendered by the
-> **[REES atlas](data/epistemica/rees.html)**. Read the note for the schema and the
+> [`ees.json`](data/epistemica/ees.json), rendered by the
+> **[EES atlas](data/epistemica/ees.html)**. Read the note for the schema and the
 > backbone; open the atlas for the full tree and its views.
 
 | Instance Tree Path | Description |
@@ -112,7 +112,7 @@ Two recurring ambiguities are worth stating up front:
 
 ### What is a critical conceptual evaluation of this `epistemic element instance`?
 
-> REES is scaffolding, not a doctrine. It states the universal taxonomy and
+> EES is scaffolding, not a doctrine. It states the universal taxonomy and
 > binds each type to a generic instance; it does not decide any particular
 > decomposition.
 
@@ -127,12 +127,12 @@ Two recurring ambiguities are worth stating up front:
   flattened. The rule against branch-terminating type segments and the
   requirement that every leaf resolve to an instance are the guard.
 - **Boundary with the technical.** Inquiry is also work, and its tools,
-  protocols, and institutions are readable as technical elements. REES keeps
+  protocols, and institutions are readable as technical elements. EES keeps
   the epistemic reading primary and defers the technical reading to the
   technicarum grammar; the two must not be merged.
 - **Self-application.** The reflexive layer below is not an appendix: an
   inventory that cannot account for how it itself was assembled is
-  incomplete. REES therefore turns its branches back on inquiry as a target.
+  incomplete. EES therefore turns its branches back on inquiry as a target.
 
 ## The Two Orders
 
@@ -150,7 +150,7 @@ Two recurring ambiguities are worth stating up front:
 
 They are mutually constraining duals of the same act. Ontology constrains
 what can be known; epistemology constrains how the known is accessed and
-represented. REES roots the inquiry branches at `Aggregate` → Reality
+represented. EES roots the inquiry branches at `Aggregate` → Reality
 Inquiry and the Ontic Order under the `Ontic` branch, and licenses their
 exchange through the guide's `Permitted Link Forms` table: an
 `Epistemic Target` decomposes to a `Segment of Reality` and an
@@ -206,12 +206,12 @@ exchange through the guide's `Permitted Link Forms` table: an
 
 ## Entry Map
 
-> REES is the index; the domain catalogues are its recursive expansions, and
+> EES is the index; the domain catalogues are its recursive expansions, and
 > the philosophical guides are its schema.
 
-- **The full tree** — the [REES atlas](data/epistemica/rees.html) renders the complete, ever-expanding decomposition from the tree store [rees.json](data/epistemica/rees.json): outline, branch cards, an element search, and a node inspector.
+- **The full tree** — the [EES atlas](data/epistemica/ees.html) renders the complete, ever-expanding decomposition from the tree store [ees.json](data/epistemica/ees.json): outline, branch cards, an element search, and a node inspector.
 - **Guides** — [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner) and [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (the technical complement).
-- **Universal index** — Naturgnosis Epistemic Space at [http://localhost:8011/epistemica/](http://localhost:8011/epistemica/) carries the full instance graph; REES is the local mastery layer over it.
+- **Universal index** — Naturgnosis Epistemic Space at [http://localhost:8011/epistemica/](http://localhost:8011/epistemica/) carries the full instance graph; EES is the local mastery layer over it.
 - **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/theory/practice/modelling.md), [Causality](note.html?n=epistemica/causality.md), [Decision Making](note.html?n=epistemica/decision-making.md).
 - **Access & representation catalogues** — [Observational](note.html?n=epistemica/observational.md), [Signal Processing](note.html?n=epistemica/signal-processing.md), [System of Units of Measurement](note.html?n=epistemica/system-of-units-of-measurement.md).
 - **Discipline catalogues** — [Mathematics](note.html?n=epistemica/discipline/mathematics.md), [Statistics](note.html?n=epistemica/discipline/statistics.md), [Computer Science](note.html?n=epistemica/discipline/computer-science.md), [Logic](note.html?n=epistemica/discipline/logic.md), [Philosophy](note.html?n=epistemica/discipline/philosophy.md).
@@ -220,18 +220,18 @@ exchange through the guide's `Permitted Link Forms` table: an
 
 ## QA
 
-### Is REES a domain or an inventory?
+### Is EES a domain or an inventory?
 
 > An inventory. It names no segment of reality as its target; it names the
 > types of element any domain inquiry is built from. Targeted catalogues
 > are its recursive expansions.
 
-### How does REES differ from the philosophia guide?
+### How does EES differ from the philosophia guide?
 
 > The guide owns the grammar — the schema, the `Permitted Link Forms`
-> table, and the worked case. REES applies that grammar universally and
+> table, and the worked case. EES applies that grammar universally and
 > binds each type to generic instances. They are the same project read at
-> two levels, which is why the guide is cited as canonical and REES as the
+> two levels, which is why the guide is cited as canonical and EES as the
 > local companion.
 
 ### Why does it include the Ontic Order?
@@ -241,16 +241,16 @@ exchange through the guide's `Permitted Link Forms` table: an
 > in one inventory is what makes the schema a single instrument rather than
 > two.
 
-### How does REES relate to the technical?
+### How does EES relate to the technical?
 
 > An inquiry is also work. Its tools, protocols, and institutions are
-> readable as technical elements under the technicarum grammar. REES keeps
+> readable as technical elements under the technicarum grammar. EES keeps
 > the epistemic reading primary and records the technical reading as
 > `readable as …` prose; it does not merge the two trees.
 
 ## Relation to Naturgnosis
 
-> Naturgnosis holds the universal instance index across its spaces; REES
+> Naturgnosis holds the universal instance index across its spaces; EES
 > holds the local mastery scaffolding. Legitimate and useful to distinct
 > work.
 
@@ -259,19 +259,19 @@ The distinction is one of function:
 - **As a representation** (Naturgnosis): the complete graph is the better
   artifact — thousands of nodes, queryable, deep-linkable, cross-domain.
   Use it to look up, traverse, and cite instances.
-- **As a construction** (REES): hand-authored cognitive scaffolding — the
+- **As a construction** (EES): hand-authored cognitive scaffolding — the
   universal taxonomy with generic instances and the permitted-link grammar
   in one readable table — is what makes the schema legible and teachable.
   Use it to reason about the structure of inquiry and to grow a new
   catalogue consistently.
 - **Complementary sets.** Naturgnosis answers "which instances exist and
-  how are they related"; REES answers "what types must an inquiry
+  how are they related"; EES answers "what types must an inquiry
   instantiate, and in what order". The two share the philosophia grammar,
   so an instance named here can be resolved upstream and vice versa.
 
 ## References
 
-- [REES atlas](data/epistemica/rees.html) — the complete, ever-expanding decomposition (views over [rees.json](data/epistemica/rees.json))
+- [EES atlas](data/epistemica/ees.html) — the complete, ever-expanding decomposition (views over [ees.json](data/epistemica/ees.json))
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Naturgnosis Epistemic Space](http://localhost:8011/epistemica/)

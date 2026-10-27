@@ -247,7 +247,7 @@ tags: [space]
 - [Reference Frame](note.html?n=epistemica/computational-science/reference-frame.md)
 - [Quantum Framework](note.html?n=epistemica/computational-science/quantum-framework.md)
 - [Quantum Field Theory (QFT)](note.html?n=epistemica/computational-science/quantum-field-theory-qft.md)
-- [REES Atlas](note.html?n=epistemica/rees.md)
+- [EES Atlas](note.html?n=epistemica/ees.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 
 

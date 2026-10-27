@@ -10,12 +10,12 @@ content:
     notes      src/note/app/data/index.json      (+ the links registry)
     courses    src/course/app/data/index.json
     documents  src/document/app/data/index.json
-    rees       src/note/app/data/epistemica/rees.json
+    ees       src/note/app/data/epistemica/ees.json
 
 Nodes are namespaced ``uid = "{surface}:{id}"``. Edges are:
 
     structural   notes links.json "related" pairs (chained — its `from` is a
-                 directory, not a node), course -> lecture, REES parent -> child
+                 directory, not a node), course -> lecture, EES parent -> child
     shared tags  within each tag, members are chained (bounded, deterministic)
 
 Outputs (hub-owned, like app/data/search-index.json):
@@ -42,14 +42,14 @@ NOTE_INDEX = REPO / "src" / "note" / "app" / "data" / "index.json"
 LINKS_FILE = REPO / "src" / "note" / "app" / "data" / "links.json"
 COURSE_INDEX = REPO / "src" / "course" / "app" / "data" / "index.json"
 DOCUMENT_INDEX = REPO / "src" / "document" / "app" / "data" / "index.json"
-REES_TREE = REPO / "src" / "note" / "app" / "data" / "epistemica" / "rees.json"
+EES_TREE = REPO / "src" / "note" / "app" / "data" / "epistemica" / "ees.json"
 
 OUT_DIR = REPO / "src" / "app" / "graph" / "data"
 GRAPH_OUT = OUT_DIR / "universal-graph.json"
 
 EXCERPT_LEN = 500
 
-SOURCES = ("note", "course", "document", "rees")
+SOURCES = ("note", "course", "document", "ees")
 
 
 def excerpt(text):
@@ -127,16 +127,16 @@ def build_nodes():
             "targets": [],
         })
 
-    # ---- rees ------------------------------------------------------------
-    rees_edges = []
+    # ---- ees ------------------------------------------------------------
+    ees_edges = []
 
-    def walk_rees(node, parent_path):
+    def walk_ees(node, parent_path):
         path = parent_path + [node.get("label") or ""]
         path_str = " \u2192 ".join(path)
-        uid = "rees:" + path_str
+        uid = "ees:" + path_str
         nodes.append({
             "uid": uid,
-            "source": "rees",
+            "source": "ees",
             "source_id": path_str,
             "name": node.get("label") or path_str,
             "category": node.get("type") or "element",
@@ -144,16 +144,16 @@ def build_nodes():
             "tags": [],
             "description": excerpt(node.get("description")),
             "references": [],
-            "deep_link": "/note/data/epistemica/rees.html?node=" + quote(path_str),
+            "deep_link": "/note/data/epistemica/ees.html?node=" + quote(path_str),
             "targets": [],
         })
         for child in node.get("children", []):
-            child_uid = "rees:" + " \u2192 ".join(path + [child.get("label") or ""])
-            rees_edges.append((uid, child_uid))
-            walk_rees(child, path)
+            child_uid = "ees:" + " \u2192 ".join(path + [child.get("label") or ""])
+            ees_edges.append((uid, child_uid))
+            walk_ees(child, path)
 
-    for root in load(REES_TREE).get("roots", []):
-        walk_rees(root, [])
+    for root in load(EES_TREE).get("roots", []):
+        walk_ees(root, [])
 
     by_uid = {n["uid"]: n for n in nodes}
 
@@ -166,7 +166,7 @@ def build_nodes():
         src["targets"].append(b)
 
     # ---- structural edges ------------------------------------------------
-    for a, b in rees_edges:
+    for a, b in ees_edges:
         add_edge(a, b)
 
     # notes links.json: `from` is a directory; chain the `to` notes per `from`.
@@ -214,7 +214,7 @@ def main():
 
     graph = {
         "generated": date.today().isoformat(),
-        "snapshot_source": "epistecnica corpus (notes, courses, documents, rees)",
+        "snapshot_source": "epistecnica corpus (notes, courses, documents, ees)",
         "counts": counts,
         "edge_counts": edge_counts,
         "nodes": nodes,

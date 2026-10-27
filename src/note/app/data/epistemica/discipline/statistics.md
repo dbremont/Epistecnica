@@ -752,7 +752,7 @@ design and the honesty of the reader.
 - [p-value](note.html?n=epistemica/validation/p-value.md) · [e-value](note.html?n=epistemica/validation/e-value.md)
 - [Exploratory Data Analysis](note.html?n=epistemica/exploratory-data-analysis-eda.md)
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) — the parent formal discipline
-- [REES](note.html?n=epistemica/rees.md) — the inventory this discipline is indexed in
+- [EES](note.html?n=epistemica/ees.md) — the inventory this discipline is indexed in
 - [Statistics](https://en.wikipedia.org/wiki/Statistics)
 - [Statistical model](https://en.wikipedia.org/wiki/Statistical_model)
 - http://bactra.org/notebooks/statistics.html

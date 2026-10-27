@@ -1,71 +1,56 @@
 ---
-tags: [model-evaluation, statistics]
+tags: [validation, statistics]
 qa:
   - What are the conventions for interpreting a p-value and determining the range of a p-value calculation procedure?
   - Why a metric on rejecting a hypothesis and not a metric on accepting a hypothesis?
   - Do we have clearer or better definitions than "the probability of obtaining test results at least as extreme as the observed results, assuming H0 is true"?
   - Which common tests produce p-values, and from which null distributions?
   - What are the alternatives and complements to the p-value?
+  - **What are the problems with the following wording?** 'The p-value is the tail probability of a test statistic under the null model'.
+note: We need to get deeper into the scope, practice, case studies, etc.
 ---
 
 # P-Value
 
-> The **p-value** is a statistical quantity: for a specified model, null hypothesis $H_0$, test statistic $T$, and an ordering of the sample space by extremeness, it is the probability under $H_0$ of a statistic at least as extreme as the observed one. It represents the sample's compatibility with $H_0$; it is not the probability that $H_0$ is true.
+> In this note, we introduce the **p-value** as a mechanism for evaluating a model of the population by using sample data to assess its consistency with the model.
 
-> The note reads the p-value under two hierarchies — as a **representation** (a statistical quantity in a quantitative representation system) and as an **operation** (the calculation that produces it within hypothesis testing). Both are rooted in the shared `Epistemic Element` genus.
+> **Note:** Studying statistics is basically an exercise in fixing historically crappy terminology. Statistics is the field with the worst terminology: a huge pile of materialized, never-refactored definitions, terms, and conceptualizations. So, a huge amount of time is wasted trying to fit things into terrible conceptual frameworks instead of getting to the substance.
 
 ## Formulation
 
-### What is this epistemic instance?
+### What Is This Epistemic Instance?
 
-> The p-value is the tail probability of a test statistic under the null model. For a test statistic $T$ with observed value $t$, a null hypothesis $H_0$ with parameter set $\Theta_0$, and an ordering of the sample space by extremeness,
->
-> $$p(x) = \sup_{\theta \in \Theta_0} \mathbb{P}_\theta\{T(X) \text{ at least as extreme as } T(x)\}.$$
->
-> For a simple null and a continuous statistic, the p-value is uniformly distributed on $(0,1)$ under $H_0$:
->
-> $$p(X) \sim \mathrm{Uniform}(0,1) \quad \text{under } H_0.$$
->
-> Equivalently, for a valid level-$\alpha$ test $\psi_\alpha$, the p-value is the smallest $\alpha$ at which $\psi_\alpha$ rejects $H_0$. The golden rule is
->
-> $$p \le \alpha \iff \psi_\alpha \text{ rejects } H_0 \text{ at level } \alpha.$$
->
-> The asymptotic p-value of a test $\psi_\alpha$ is the smallest asymptotic level $\alpha$ at which $\psi_\alpha$ rejects $H_0$. It is random; it depends on the sample.
+> The intuitive, pre-formal idea behind p-values is the following.
 
-> The one-tailed and two-tailed forms follow from the ordering:
->
-> - right-tailed: $p = \mathbb{P}(T \ge t \mid H_0)$;
-> - left-tailed: $p = \mathbb{P}(T \le t \mid H_0)$;
-> - two-tailed: $p = 2\min\{\mathbb{P}(T \ge t \mid H_0), \mathbb{P}(T \le t \mid H_0)\}$ for a symmetric null distribution. For asymmetric nulls, use the likelihood-ratio ordering or the appropriate two-sided convention instead of doubling a tail.
+> Suppose we have a statistical model for a population and a set of parameters or properties associated with that model. Let us call this model \(M_p\).
 
-> The p-value is a random variable before the sample is drawn and a realized number after. It is a property of the test — model, $H_0$, statistic, and extremeness ordering — at the sample, not of $H_0$ alone. It is not $\mathbb{P}(H_0 \mid \text{data})$, not the probability of the exact data under $H_0$ (it is a tail probability), not the probability that the data arose by chance, not the probability of replication, not an effect size, not a posterior probability, and not a Bayes factor.
+> We want to evaluate a particular property or parameter by repeatedly recomputing its value from sample data. The resulting quantity is called a **test statistic**, denoted by \(T\). Its possible values are characterized by a probability distribution.
 
-> The **null as negation** reading: the null is the hypothesis of no effect or the status quo; the test is designed to falsify it. Rejecting $H_0$ is evidence against it, not proof of $H_1$. The alternative is supported only indirectly, relative to the test's severity and design.
+> This is the fundamental building block of any p-value calculation procedure. The computation of the p-value in any specific formulation embodies a **a derivation from the distribution of \(T\)**.
+
+### Which is the usual technical formulation of the p-value computation?
+
+> Note: For practical purposes, what we are interested in is the \(p\)-value of \(t_{\mathrm{obs}}\) derived from \(M_p\).
+
+> The usual technical formulation of this calculation is: \(p_{\mathrm{obs}} = \Pr(T < t_{\mathrm{obs}}) + \Pr(T > t_{\mathrm{obs}})\).
+
+> Intrpertion of (p_{\mathrm{obs}} - for thi swe will introduces the significance threshold / alpha level, 
+
+> Note: The extreme - blah, blah cames from the >, <.
+
+![p-value](../assets/note/epistemica/validation/p-value.png)
+
+### How to Interpret p-values?
+
+> To interpret \(p_{\mathrm{obs}}\), we introduce the significance threshold, or significance level, \(\alpha\). Comparing \(p_{\mathrm{obs}}\) with \(\alpha\) provides a decision criterion for evaluating the compatibility of \(t_{\mathrm{obs}}\) with the null hypothesis ($P_m$).
+
+> In research practice \(\alpha\) is set to 0.005.
 
 ### What epistemic element type does this epistemic instance belong to?
 
-> Primary type: **`Epistemic Representation`** — the p-value is a `Representation Element` in a **Quantitative Representation** system, read as a **Statistical Quantity**. Secondary type: **`Epistemic Operation`** — the p-value calculation is a **Statistical Operation** under **Statistical Inference** → **Hypothesis Testing**. The decomposition table roots both under the shared `Epistemic Element` genus, as the two hierarchies do.
+> Primary type: **`Epistemic Representation`** — the p-value is a `Representation Element` in a **Quantitative Representation** system, read as a **Statistical Quantity**. 
 
-> The two kind chains are:
->
-> ```text
-> Epistemic Element
-> └── Epistemic Representation
->     └── Quantitative Representation
->         └── Statistical Quantity
->             └── P-Value
-> ```
->
-> ```text
-> Epistemic Element
-> └── Epistemic Operation
->     └── Statistical Operation
->         └── Statistical Inference
->             └── Hypothesis Testing
->                 └── P-Value Calculation
-> ```
-
-> The table inserts the guide's licensed type groupings between the instance segments — `Representational System`, `Representation Element`, `Constitutive Substrate`, and `Property` on the representation branch; `Organization`, `Method`, `Procedure`, `Action`, and `Principle` on the operation branch. The instance chain is preserved; the groupings are what let each row be typed.
+> Secondary type: **`Epistemic Operation`** — the p-value calculation is a **Statistical Operation** under **Statistical Inference** → **Hypothesis Testing**. The decomposition table roots both under the shared `Epistemic Element` genus, as the two hierarchies do.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -146,8 +131,6 @@ qa:
 
 ### What is a critical conceptual evaluation of this `epistemic element instance`?
 
-> **Verdicts.** The p-value is conceptually well identified once the model, $H_0$, statistic, and ordering are declared: pass. Its definition is clear in the formal statement but systematically ambiguous in ordinary use: partial. Its determinacy is relative to a declared test; "at least as extreme" is not fixed by $H_0$ alone: partial. It is internally consistent once quantity, operation, and decision rule are kept apart: pass. Its representational adequacy is high for compatibility with $H_0$, low for truth, effect size, replication, and posterior probability: partial. Its purpose adequacy is high for test-based compatibility and decision rules, low as a standalone evidence measure: partial.
-
 | Criterion | Verdict | Diagnostic |
 | --- | --- | --- |
 | **Conceptual Identification** | Pass | The note distinguishes the p-value from $\alpha$, the test statistic, the decision rule, the posterior probability, the Bayes factor, and the effect size. |
@@ -182,27 +165,15 @@ qa:
 > 5. a p-value, or statistical significance, does not measure the size of an effect or the importance of a result;
 > 6. by itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.
 
-### Why a metric on rejecting a hypothesis and not a metric on accepting a hypothesis?
+### Is the p-value computed from the distribution of \(T\) or from \(M_p\), which determines the distribution of \(T\)?
 
-> Because a statistical test is asymmetric. It controls the false-positive rate under $H_0$, not the false-negative rate under $H_1$; the p-value measures compatibility with $H_0$, not support for $H_0$. Failing to reject $H_0$ can mean that $H_0$ is true, that the test is underpowered, or that the design cannot distinguish the two — the data alone do not decide which.
+> **Note:** By \(M_p\), I mean the fitted model, not an estimator of its parameters.
 
-> Accepting $H_0$ is a decision, not an inference: it requires a prior, a loss function, and a power analysis. The Neyman–Pearson framework makes the asymmetry explicit with $\alpha$ and $\beta$; Fisher's p-value is a continuous measure of evidence against $H_0$ without an alternative; NHST conflates the two. If the question is "which hypothesis is better supported?", the appropriate tools are Bayes factors, posterior probabilities, severity, replication, confidence intervals, effect sizes, or e-values — not a p-value read as an acceptance score.
+> The p-value depends on the distribution of \(T\). However, this distribution is determined by the statistical procedures used to estimate the parameters of \(M_p\), not by the specific parameter values contained in \(M_p\).
 
-### Do we have clearer or better definitions than "the probability of obtaining test results at least as extreme as the observed results, assuming $H_0$ is true"?
+> These procedures must account for the **form of the model**, but not necessarily its specific parameter values. We call such a procedure an *estimator*.
 
-> The standard definition is already the best short definition, but it is incomplete without four declarations: the model, $H_0$, the test statistic $T$, and the extremeness ordering. A more precise formulation is:
-
-> For a specified statistical model, null hypothesis $H_0$ with parameter set $\Theta_0$, test statistic $T$, and an ordering of the sample space by extremeness, the p-value is
->
-> $$p(x) = \sup_{\theta \in \Theta_0} \mathbb{P}_\theta\{T(X) \text{ at least as extreme as } T(x)\};$$
->
-> equivalently, it is the smallest significance level $\alpha$ at which a valid test rejects $H_0$.
-
-> Three improvements over the common phrasing:
->
-> - say "a statistic at least as extreme", not "the results" — the p-value is a tail probability, not the probability of the exact data;
-> - say "under the model and $H_0$", not just "assuming $H_0$ is true" — the model, the statistic, and the ordering are part of the definition;
-> - use the ASA's compatibility language: "the data are incompatible with the model and $H_0$ to this degree", not "the probability that $H_0$ is true".
+> Note: That the p-value becomes a random variable - sort ot - and one report p for a $t_\text{obs}$, which  can be or p in $M_p$ if we want.
 
 ### Which common tests produce p-values, and from which null distributions?
 
@@ -232,10 +203,7 @@ qa:
 - [Validation](note.html?n=epistemica/validation/validation.md)
 - [Calibration](note.html?n=epistemica/validation/calibration.md)
 - [E-value](note.html?n=epistemica/validation/e-value.md)
-- [REES atlas](data/epistemica/rees.html)
-- https://en.wikipedia.org/wiki/P-value
-- https://en.wikipedia.org/wiki/Misuse_of_p-values
-- https://www.youtube.com/watch?v=ncqcFNHmMoc
+- [EES atlas](data/epistemica/ees.html)
 - Goodman, S. (2008). A dirty dozen: Twelve p-value misconceptions. *Seminars in Hematology*, 45(3), 135–140.
 - Cohen, J. (1994). The earth is round (p < .05). *American Psychologist*, 49(12), 997–1003.
 - Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLoS Medicine*, 2(8), e124.
@@ -247,10 +215,14 @@ qa:
 - Neyman, J., & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses. *Philosophical Transactions of the Royal Society of London. Series A*, 231(694–706), 289–337.
 - Thiese, M. S., Ronna, B., & Ott, U. (2016). P value interpretations and considerations. *Journal of Thoracic Disease*, 8(9), E928.
 - Thisted, R. A. (1998). What is a P-value. Departments of Statistics and Health Studies.
-- https://www.youtube.com/watch?v=9jW9G8MO4PQ
-- https://en.wikipedia.org/wiki/Neyman%E2%80%93Pearson_lemma
-- https://news.ycombinator.com/item?id=9330076
-- https://news.ycombinator.com/item?id=7225739
-- https://news.ycombinator.com/item?id=16916145
-- https://news.ycombinator.com/item?id=5679707
-- https://news.ycombinator.com/item?id=9463806
+- Meehl, P. E. (1967). Theory-testing in psychology and physics: A methodological paradox. Philosophy of Science, 34(2), 103–115. http://www.jstor.org/stable/10.2307/186099
+- [p-value](https://en.wikipedia.org/wiki/P-value)
+- [Misuse of p-values](https://en.wikipedia.org/wiki/Misuse_of_p-values)
+- [p-Values and P-Value Hacking: a simplified lecture](https://www.youtube.com/watch?v=ncqcFNHmMoc)
+- [What is a p-value?](https://www.youtube.com/watch?v=9jW9G8MO4PQ)
+- [P values are not as reliable as many scientists assume](https://news.ycombinator.com/item?id=7225739&utm_source=chatgpt.com)
+- [Why I've lost faith in p values](https://news.ycombinator.com/item?id=16916145&utm_source=chatgpt.com)
+- [Don't calculate p-values without understanding them](https://news.ycombinator.com/item?id=5679707&utm_source=chatgpt.com)
+- [Statistics: P values are just the tip of the iceberg](https://news.ycombinator.com/item?id=9463806&utm_source=chatgpt.com)
+- [P-Values are not Error Probabilities](https://news.ycombinator.com/item?id=9330076)
+- [What is the meaning of p values and t values in statistical tests?](https://stats.stackexchange.com/questions/31/what-is-the-meaning-of-p-values-and-t-values-in-statistical-tests)

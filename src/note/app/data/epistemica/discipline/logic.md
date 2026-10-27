@@ -35,7 +35,7 @@ schema it instantiates is owned by the canonical
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
-> No at the root: logic is a structured collection of epistemic elements organized as one coherent epistemic whole, so `Aggregate` is its primary type. Two boundaries are worth stating. Against **mathematics**: logic supplies the inference rules mathematics uses, but mathematics asks *what follows within a theory* while logic asks *what licensing itself is* — the study of the rules, not their application. Against **epistemology** (the reflexive branch of REES): logic studies the *form* of warranted inference; epistemology studies the *nature, conditions, and limits of knowing* — adjacent, but the reflexive inquiry takes knowing as its target while logic takes consequence as its target. The boundary with **rhetoric and argumentation** is drawn by formality: logic's warrant is formal derivability, not persuasive effect.
+> No at the root: logic is a structured collection of epistemic elements organized as one coherent epistemic whole, so `Aggregate` is its primary type. Two boundaries are worth stating. Against **mathematics**: logic supplies the inference rules mathematics uses, but mathematics asks *what follows within a theory* while logic asks *what licensing itself is* — the study of the rules, not their application. Against **epistemology** (the reflexive branch of EES): logic studies the *form* of warranted inference; epistemology studies the *nature, conditions, and limits of knowing* — adjacent, but the reflexive inquiry takes knowing as its target while logic takes consequence as its target. The boundary with **rhetoric and argumentation** is drawn by formality: logic's warrant is formal derivability, not persuasive effect.
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -171,7 +171,7 @@ formalization and the consistency of the system.
 - [Boolean Algebra](note.html?n=epistemica/mathematical/boolean-algebra.md) — the algebraic reading of propositional logic
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) — the parent formal discipline
 - [Computer Science](note.html?n=epistemica/discipline/computer-science.md) — the discipline that executes logic
-- [REES](note.html?n=epistemica/rees.md) — the inventory this discipline is indexed in
+- [EES](note.html?n=epistemica/ees.md) — the inventory this discipline is indexed in
 - [Logic](https://en.wikipedia.org/wiki/Logic)
 - [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic)
 - [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems)

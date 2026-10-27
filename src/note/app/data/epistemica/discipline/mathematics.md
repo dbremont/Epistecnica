@@ -207,7 +207,7 @@ of the target and the consistency of the axioms in hand.
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Mathematical concepts catalogue](index.html?dir=epistemica/mathematical) — the domain catalogue this Aggregate expands
 - [Linear Algebra](note.html?n=epistemica/mathematical/linear-algebra.md) — a sub-discipline Aggregate under this one
-- [REES](note.html?n=epistemica/rees.md) — the inventory this discipline is indexed in
+- [EES](note.html?n=epistemica/ees.md) — the inventory this discipline is indexed in
 - [Pure mathematics](https://en.wikipedia.org/wiki/Pure_mathematics)
 - [Applied mathematics](https://en.wikipedia.org/wiki/Applied_mathematics)
 - [Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)

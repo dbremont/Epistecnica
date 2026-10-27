@@ -25,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check notes-index course-index document-index rees-check atlas-index atlas-check terminology-check symbols-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -33,10 +33,10 @@ help: ## list targets
 run: ## local dev server, no docker (port DEV_PORT, default 8010)
 	python3 bin/serve.py --port $(DEV_PORT)
 
-check: ## py_compile all servers + index builders + validate the REES tree + technica atlas + terminology crimes + symbol atlas + catalog literals
+check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + catalog literals
 	python3 -m py_compile bin/*.py
 	python3 bin/check_catalog_literals.py
-	python3 bin/rees_check.py
+	python3 bin/ees_check.py
 	python3 bin/atlas_check.py
 	python3 bin/terminology_check.py
 	python3 bin/symbols_check.py
@@ -50,8 +50,10 @@ course-index: ## rebuild the courses search index (after any corpus change)
 document-index: ## rebuild the documents search index (after any corpus change)
 	python3 bin/document_index.py
 
-rees-check: ## validate the REES tree store (src/note/app/data/epistemica/rees.json)
-	python3 bin/rees_check.py
+ees-check: ## validate the EES tree store (src/note/app/data/epistemica/ees.json)
+	python3 bin/ees_check.py
+
+rees-check: ees-check
 
 atlas-index: ## rebuild the technica atlas store (after any technica corpus change)
 	python3 bin/build_technica_atlas.py

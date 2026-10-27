@@ -217,7 +217,7 @@
     .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .site-footer a:hover { color: var(--accent-cyan); }
 
-    /* ---------- REES atlas ---------- */
+    /* ---------- EES atlas ---------- */
     .atlas-intro { font-size: 0.88rem; line-height: 1.6; color: var(--text-secondary); max-width: 68ch; margin: 0.2rem 0 0.5rem; }
     .atlas-lede { font-size: 0.88rem; line-height: 1.6; color: var(--text-muted); max-width: 68ch; margin: 0 0 1.4rem; }
     .atlas-stats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 1.6rem; }
@@ -370,7 +370,7 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><a href="../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><span class="here">rees</span></div>
+      <div class="crumbs"><a href="../../index.html">notes</a><span class="sep">/</span><a href="../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><span class="here">ees</span></div>
       <h1 class="note-title">Epistemic Element Set Atlas</h1>
       <div class="note-meta"><span class="chip">atlas</span><span class="chip">#epistemology</span><span class="chip">#ontology</span><span class="chip">#method</span></div>
     </div>
@@ -379,10 +379,10 @@
       <main class="note-main">
         <article class="note-card">
           <div class="markdown-body">
-            <p class="atlas-intro">The complete, ever-expanding decomposition of the Reality
-            Epistemic Element Set, rendered from the tree store
-            <a href="rees.json">rees.json</a>. The companion note
-            <a href="../../note.html?n=epistemica/rees.md">REES</a> states the schema and the
+            <p class="atlas-intro">The complete, ever-expanding decomposition of the Epistemic
+            Element Set, rendered from the tree store
+            <a href="ees.json">ees.json</a>. The companion note
+            <a href="../../note.html?n=epistemica/ees.md">EES</a> states the schema and the
             backbone; this atlas carries the full tree and the views over it.</p>
             <p class="atlas-lede">Types are named in the schemas of the canonical guide
             <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia
@@ -394,7 +394,7 @@
               <button type="button" class="viewtab" data-view="outline">Outline</button>
               <button type="button" class="viewtab" data-view="cards">Cards</button>
               <div class="atlas-search">
-                <input type="search" id="atlasSearch" class="atlas-search-input" placeholder="find an element…" aria-label="Search REES elements" aria-expanded="false" aria-controls="atlasSearchDrop" autocomplete="off">
+                <input type="search" id="atlasSearch" class="atlas-search-input" placeholder="find an element…" aria-label="Search EES elements" aria-expanded="false" aria-controls="atlasSearchDrop" autocomplete="off">
                 <div class="atlas-search-drop" id="atlasSearchDrop" hidden></div>
               </div>
               <span class="spacer"></span>
@@ -723,7 +723,7 @@
         '<div class="card ext-card">'
         + '<div class="card-formula"><span class="seg">→ Naturgnosis<br>Epistemic Space</span></div>'
         + '<div class="card-body"><div class="card-name">Instance Index</div>'
-        + '<div class="card-desc">The complete live graph of epistemic instances — the universal index REES is the local mastery layer over.</div>'
+        + '<div class="card-desc">The complete live graph of epistemic instances — the universal index EES is the local mastery layer over.</div>'
         + '<div class="card-foot"><a class="note-link" href="http://localhost:8011/epistemica/">open space →</a></div></div></div>';
       viewEl.appendChild(ext);
     }
@@ -938,11 +938,11 @@
       }
     }
 
-    fetch('rees.json')
+    fetch('ees.json')
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(init)
       .catch(function (err) {
-        viewEl.innerHTML = '<p class="atlas-error">Could not load rees.json: ' + esc(err.message) + '</p>';
+        viewEl.innerHTML = '<p class="atlas-error">Could not load ees.json: ' + esc(err.message) + '</p>';
       });
   })();
   </script>

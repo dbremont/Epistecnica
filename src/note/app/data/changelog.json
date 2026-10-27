@@ -1280,6 +1280,11 @@
         "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set inventory link to EES."
       }
     ]
   },
@@ -1316,6 +1321,11 @@
         "summary": "Remove the retired order label from the decomposition preamble.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set inventory link to EES."
       }
     ]
   },
@@ -1334,6 +1344,11 @@
         "summary": "Remove the retired order label from the decomposition preamble.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set inventory link and boundary reference to EES."
       }
     ]
   },
@@ -1352,6 +1367,11 @@
         "summary": "Remove the retired order label from the decomposition preamble.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set inventory link to EES."
       }
     ]
   },
@@ -1370,6 +1390,11 @@
         "summary": "Remove the retired order label from the decomposition preamble.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set inventory link and boundary reference to EES."
       }
     ]
   },
@@ -1393,6 +1418,11 @@
         "summary": "Remove the retired order label from the decomposition preamble.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set inventory link to EES."
       }
     ]
   },
@@ -5133,6 +5163,11 @@
         "kind": "feat",
         "summary": "Move into the mathematical/space/ scope, add the epistemic formulation and references, and reword the type-ambiguity question.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set atlas link to EES."
       }
     ]
   },
@@ -8714,7 +8749,7 @@
     ]
   },
   {
-    "file_path": "epistemica/rees.md",
+    "file_path": "epistemica/ees.md",
     "logs": [
       {
         "date": "2026-10-19",
@@ -8759,6 +8794,11 @@
         "summary": "Remove the retired order label from the REES note and describe the branches as inquiry branches.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "refactor",
+        "summary": "Rename the epistemic element set to EES and move the note, atlas, and tree store to ees.md, ees.html, and ees.json."
       }
     ]
   },
@@ -10455,6 +10495,11 @@
         "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set atlas link to EES."
       }
     ]
   },
@@ -10541,6 +10586,11 @@
         "summary": "Remove the retired order label from the decomposition wording and drop the order declaration.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set atlas link to EES and move the p-value image to the shared asset store."
       }
     ]
   },
@@ -35064,6 +35114,11 @@
         "summary": "Update the conform.py reference to its centralized repo-root bin/ path.",
         "commit": "86647eb05e80bdc1642b49e2b30880fe88a11ce0",
         "before": "75e0f81ad93464a79d7d871f067c6110fa681690"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set references to EES."
       }
     ]
   },

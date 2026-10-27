@@ -24,8 +24,12 @@ One stdlib HTTP server serving the local surfaces:
 The ontology graphs are no longer served here (they moved to Naturgnosis).
 Legacy prefixes redirect:
 
-  /epistemica/...       -> 302 /note/data/epistemica/rees.html
-  /tecnica/...          -> 302 /note/data/epistemica/rees.html
+  /epistemica/...       -> 302 /note/data/epistemica/ees.html
+  /tecnica/...          -> 302 /note/data/epistemica/ees.html
+
+Legacy REES paths redirect to their EES equivalents:
+
+  /note/data/epistemica/rees.* -> 302 /note/data/epistemica/ees.*
 
 and the service exposes one endpoint:
 
@@ -47,6 +51,7 @@ import json
 import sys
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
+from urllib.parse import parse_qs, urlencode
 
 REPO = Path(__file__).resolve().parent.parent
 
@@ -68,9 +73,17 @@ SHARED_PREFIX = "/shared"
 SHARED_MOUNT = "src/app/shared"
 
 # Retired dataset prefixes: the local graphs moved to Naturgnosis, so their
-# old URLs redirect to the local guide (the REES atlas).
+# old URLs redirect to the local guide (the EES atlas).
 LEGACY_REDIRECT_PREFIXES = ("/epistemica", "/tecnica")
-LEGACY_REDIRECT_TARGET = "/note/data/epistemica/rees.html"
+LEGACY_REDIRECT_TARGET = "/note/data/epistemica/ees.html"
+
+# The atlas, tree store, and note were renamed from REES to EES. Keep old
+# bookmarks working by redirecting the old paths to the new ones.
+LEGACY_NOTE_REDIRECTS = {
+    "/note/data/epistemica/rees.html": "/note/data/epistemica/ees.html",
+    "/note/data/epistemica/rees.json": "/note/data/epistemica/ees.json",
+    "/note/data/epistemica/rees.md": "/note/data/epistemica/ees.md",
+}
 
 # The browser probes /favicon.ico at the host root whenever a page has no
 # explicit icon link; only the hub and graph declare one, so route the probe
@@ -167,6 +180,9 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._handle_hub_health()
             return
 
+        if self._redirect_legacy_note(path):
+            return
+
         for prefix in LEGACY_REDIRECT_PREFIXES:
             if path == prefix or path.startswith(prefix + "/"):
                 self._redirect(LEGACY_REDIRECT_TARGET)
@@ -180,6 +196,9 @@ class HubHandler(SimpleHTTPRequestHandler):
 
     def do_HEAD(self):
         path = self.path.split("?", 1)[0].split("#", 1)[0]
+
+        if self._redirect_legacy_note(path):
+            return
 
         for prefix in LEGACY_REDIRECT_PREFIXES:
             if path == prefix or path.startswith(prefix + "/"):
@@ -202,6 +221,23 @@ class HubHandler(SimpleHTTPRequestHandler):
     # ------------------------------------------------------------------
     # Handlers
     # ------------------------------------------------------------------
+
+    def _redirect_legacy_note(self, path):
+        target = LEGACY_NOTE_REDIRECTS.get(path)
+        if target is not None:
+            query = self.path.split("?", 1)[1] if "?" in self.path else ""
+            self._redirect(target + ("?" + query if query else ""))
+            return True
+
+        if path == "/note/note.html":
+            query = self.path.split("?", 1)[1] if "?" in self.path else ""
+            params = parse_qs(query)
+            if params.get("n", [""])[0] == "epistemica/rees.md":
+                params["n"] = ["epistemica/ees.md"]
+                self._redirect("/note/note.html?" + urlencode(params, doseq=True))
+                return True
+
+        return False
 
     def _redirect(self, location):
         self.send_response(302)

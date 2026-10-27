@@ -358,7 +358,7 @@ qa:
 - [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md)
 - [Validation](note.html?n=epistemica/validation/validation.md)
 - [Calibration](note.html?n=epistemica/validation/calibration.md)
-- [REES atlas](data/epistemica/rees.html)
+- [EES atlas](data/epistemica/ees.html)
 - https://en.wikipedia.org/wiki/E-values
 - Vovk, V., & Wang, R. (2021). E-values: Calibration, combination and applications. *Annals of Statistics*, 49(3), 1736–1754. https://arxiv.org/abs/1912.06116
 - Grünwald, P., de Heide, R., & Koolen, W. M. (2024). Safe testing. *Journal of the Royal Statistical Society: Series B*, 86(5), 1091–1128. https://arxiv.org/abs/1906.07801

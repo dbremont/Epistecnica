@@ -17,7 +17,7 @@ analysis*; its warrant is argumentative adequacy — clarity, consistency, and
 explanatory reach — not proof within a fixed system and not measurement.
 
 This note is the discipline-level Aggregate; it is the reflexive neighbour of
-the [REES](../rees.md) inventory (which turns inquiry back on itself), and its
+the [EES](../ees.md) inventory (which turns inquiry back on itself), and its
 content is developed in the
 [Philosophy](note.html?n=epistemica/theory/philosophy.md) note and the
 [ontology](index.html?dir=epistemica/theory/ontology) folder. The schema it
@@ -36,7 +36,7 @@ instantiates is owned by the canonical
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
-> No at the root: philosophy is a structured collection of epistemic elements organized as one coherent epistemic whole, so `Aggregate` is its primary type. Three boundaries are worth stating. Against **logic**: logic is the formal study of consequence and has been carved out as its own discipline; philosophy uses logical form but its target is the framework, not the rule. Against **epistemology** (the reflexive branch of REES): epistemology is philosophy turned specifically on knowing; it is a sub-inquiry of this discipline, not a synonym for it. Against **the sciences**: a question migrates out of philosophy when it acquires an empirical or formal method that answers it — natural philosophy became physics, and the boundary is historical, not fixed. This migration is a feature of the discipline, not a defect: philosophy's role is to hold a question until a method exists to settle it.
+> No at the root: philosophy is a structured collection of epistemic elements organized as one coherent epistemic whole, so `Aggregate` is its primary type. Three boundaries are worth stating. Against **logic**: logic is the formal study of consequence and has been carved out as its own discipline; philosophy uses logical form but its target is the framework, not the rule. Against **epistemology** (the reflexive branch of EES): epistemology is philosophy turned specifically on knowing; it is a sub-inquiry of this discipline, not a synonym for it. Against **the sciences**: a question migrates out of philosophy when it acquires an empirical or formal method that answers it — natural philosophy became physics, and the boundary is historical, not fixed. This migration is a feature of the discipline, not a defect: philosophy's role is to hold a question until a method exists to settle it.
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -174,7 +174,7 @@ the quality of its own argumentation.
 - [Philosophia Naturalis](note.html?n=epistemica/theory/philosophia-naturalis.md)
 - [Logic](note.html?n=epistemica/discipline/logic.md) — the carved-out discipline of valid inference
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) · [Statistics](note.html?n=epistemica/discipline/statistics.md) · [Computer Science](note.html?n=epistemica/discipline/computer-science.md)
-- [REES](note.html?n=epistemica/rees.md) — the inventory this discipline is indexed in
+- [EES](note.html?n=epistemica/ees.md) — the inventory this discipline is indexed in
 - [Philosophy](https://en.wikipedia.org/wiki/Philosophy)
 - [Epistemology](https://en.wikipedia.org/wiki/Epistemology)
 - [Ontology](https://en.wikipedia.org/wiki/Ontology)

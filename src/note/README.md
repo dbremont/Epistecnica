@@ -38,7 +38,7 @@ instance decomposition, `## References`) owned by the canonical philosophia
 guide at
 `https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`;
 the guide's Arithmetic case study is the worked exemplar, and the local
-companion is `data/epistemica/rees.md`.
+companion is `data/epistemica/ees.md`.
 
 - The corpus was seeded from the Naturgnosis Notion *Modelado* export
   (one-off migration; the importer was removed after use — names

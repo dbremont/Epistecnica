@@ -45,7 +45,7 @@ Evaluated against the canonical
 
 | Criterion | Verdict | Diagnostic |
 | --- | --- | --- |
-| Conceptual Identification | **Pass** | The forest is explicitly distinguished from the file layout, from the guide's grammar, and from the epistemic REES atlas; its identity is "the merged decomposition tables". |
+| Conceptual Identification | **Pass** | The forest is explicitly distinguished from the file layout, from the guide's grammar, and from the epistemic EES atlas; its identity is "the merged decomposition tables". |
 | Definitional Clarity | **Qualified** | The merge rule (path-keyed trie, sources kept) and the type rules (fourth-column alignment, inline backticked segments) are stated; the resolution of conflicting duplicate types across notes is stated but left as a table defect rather than a forest rule. |
 | Conceptual Determinacy | **Qualified** | Membership is determinate — a node exists iff a table row names it — but the boundary is the corpus's table coverage, not the corpus: 11 of 1,962 technica notes carry a decomposition table today, so the forest is a thin spine over a large corpus. |
 | Internal Consistency | **Pass** | One synthetic root, unique sibling labels by construction, one type vocabulary, and `meta/` excluded so the atlas never indexes itself. |
@@ -92,7 +92,7 @@ two sources; the disagreement is invisible in the store.
 
 - **The full tree** — the [Technica atlas](data/technica/meta/atlas.html) renders the complete, ever-expanding decomposition from the store [atlas.json](data/technica/meta/atlas.json): outline, branch cards, a dendrogram, an element search, and a node inspector.
 - **Guide** — [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (schema owner).
-- **Epistemic complement** — [REES](note.html?n=epistemica/rees.md) and its [atlas](data/epistemica/rees.html): the same grammar applied to the epistemic corpus.
+- **Epistemic complement** — [EES](note.html?n=epistemica/ees.md) and its [atlas](data/epistemica/ees.html): the same grammar applied to the epistemic corpus.
 - **Catalog** — [technica](index.html?dir=technica) in the notes catalog browses the corpus that carries the tables.
 
 ## References
@@ -100,4 +100,4 @@ two sources; the disagreement is invisible in the store.
 - [Technica atlas](data/technica/meta/atlas.html) — the complete, ever-expanding decomposition (views over [atlas.json](data/technica/meta/atlas.json))
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) — the evaluation criteria
-- [REES](note.html?n=epistemica/rees.md) — the epistemic-element atlas this one mirrors
+- [EES](note.html?n=epistemica/ees.md) — the epistemic-element atlas this one mirrors

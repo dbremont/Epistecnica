@@ -178,7 +178,7 @@ machine model and the fidelity of the specification.
 - [Formal Concept Analysis](note.html?n=epistemica/formal-concept-analysis-fca.md)
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) — the parent formal discipline
 - [Logic](note.html?n=epistemica/discipline/logic.md) — the parent formal discipline of inference
-- [REES](note.html?n=epistemica/rees.md) — the inventory this discipline is indexed in
+- [EES](note.html?n=epistemica/ees.md) — the inventory this discipline is indexed in
 - [Computer science](https://en.wikipedia.org/wiki/Computer_science)
 - [Computability theory](https://en.wikipedia.org/wiki/Computability_theory)
 - [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-REES tree validator.
+EES tree validator.
 
-The Reality Epistemic Element Set (REES) tree is stored canonically in
-src/note/app/data/epistemica/rees.json and rendered by the REES atlas
-(rees.html). This script validates that store against the decomposition
+The Epistemic Element Set (EES) tree is stored canonically in
+src/note/app/data/epistemica/ees.json and rendered by the EES atlas
+(ees.html). This script validates that store against the decomposition
 contract and prints its statistics. Stdlib only.
 
 Contract (see src/note/README.md and the philosophia guide):
@@ -18,7 +18,7 @@ Contract (see src/note/README.md and the philosophia guide):
   - every leaf is an instance; kind/order values are from the fixed sets;
   - the declared stats match the tree.
 
-Usage: python3 bin/rees_check.py
+Usage: python3 bin/ees_check.py
 """
 
 import json
@@ -27,7 +27,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 NOTE = REPO / "src" / "note"
-REES = NOTE / "app" / "data" / "epistemica" / "rees.json"
+EES = NOTE / "app" / "data" / "epistemica" / "ees.json"
 
 KINDS = {"root", "grouping", "instance"}
 ORDERS = {"epistemic", "ontic", "reflexive"}
@@ -114,21 +114,21 @@ def check(data):
 
 
 def main():
-    if not REES.exists():
-        print("ERROR: %s not found" % REES, file=sys.stderr)
+    if not EES.exists():
+        print("ERROR: %s not found" % EES, file=sys.stderr)
         return 1
     try:
-        data = json.loads(REES.read_text(encoding="utf-8"))
+        data = json.loads(EES.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
-        print("ERROR: invalid JSON in %s: %s" % (REES, exc), file=sys.stderr)
+        print("ERROR: invalid JSON in %s: %s" % (EES, exc), file=sys.stderr)
         return 1
 
     errors, stats = check(data)
     for err in errors:
-        print("[rees] %s" % err, file=sys.stderr)
+        print("[ees] %s" % err, file=sys.stderr)
 
     print(
-        "[rees] ok: %d nodes (%d groupings, %d instances), %d branches, depth %d"
+        "[ees] ok: %d nodes (%d groupings, %d instances), %d branches, depth %d"
         % (
             stats["nodes"],
             stats["groupings"],

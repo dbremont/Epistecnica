@@ -11,15 +11,15 @@ guide-first entry page.
 
 - **The guide** — the project's philosophia guides (*Artium Epistemicarum et
   Operis*, *Artium Technicarum et Operis*) are the canonical schema owners.
-  Epistecnica foregrounds them and hosts the local **REES** atlas (Reality
-  Epistemic Element Set, `src/note/app/data/epistemica/rees.html`) as their
+  Epistecnica foregrounds them and hosts the local **EES** atlas (Epistemic
+  Element Set, `src/note/app/data/epistemica/ees.html`) as their
   local companion.
 - **The spaces** — the ontology graphs (**Epistemica**, **Tecnica**) and the
   lexical corpus (**Glossarium**) moved to the external **Naturgnosis** medium.
   The hub links to them from its index; the old local graph apps were
-  retired and their URLs now **302** to the REES atlas.
+  retired and their URLs now **302** to the EES atlas.
 - **The universal view** — one read-only graph over everything we hold (notes,
-  courses, documents, REES), generated from our own corpus and served at
+  courses, documents, EES), generated from our own corpus and served at
   `/graph/`.
 - **The corpora** — local markdown, one catalog + viewer each, with a generated
   JSON index.
@@ -53,11 +53,12 @@ guide-first entry page.
 |-------|---------|
 | `GET /` | Hub `src/app/index.html` — a flat link index over the guide, the universal view, and the corpora |
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface |
-| `GET /graph/<path>` | Universal view from `src/app/graph/`: Graphive viewer over the graph generated from our own corpus (notes + courses + documents + REES), plus `data/universal-graph.json` + `data/universal-layout.json`; no API routes |
+| `GET /graph/<path>` | Universal view from `src/app/graph/`: Graphive viewer over the graph generated from our own corpus (notes + courses + documents + EES), plus `data/universal-graph.json` + `data/universal-layout.json`; no API routes |
 | `GET /shared/<path>` | Shared nav assets from `src/app/shared/`: `usearch.css` + `usearch.js`, the universal search used by every surface's header |
 | `GET /assets/<path>` | Shared corpus-image store from `src/app/assets/` (every image referenced by corpus markdown) |
-| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/rees.html` (graphs moved to Naturgnosis) |
-| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), REES atlas (`data/epistemica/rees.html`), generated search index (`data/index.json`) |
+| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/ees.html` (graphs moved to Naturgnosis) |
+| `GET /note/data/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
+| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), EES atlas (`data/epistemica/ees.html`), generated search index (`data/index.json`) |
 | `GET /course/<path>` | Courses surface from `src/course/app/`: catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`), corpus |
 | `GET /document/<path>` | Documents surface from `src/document/app/`: catalog (`index.html`), viewer (`document.html?d=`), corpus |
 | `GET /glossarium/<path>` | **Not served here.** The lexical surface lives in the external Naturgnosis medium (`http://localhost:8013/glossarium/web/`); Epistecnica pages link out and the select-a-word popup loads its JS + index from there |
@@ -77,11 +78,11 @@ database configuration.
 | Store | Contents | Written by |
 |-------|----------|------------|
 | Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/note/app/index.html`); no server write |
-| `src/note/app/data/**` | Notes corpus, live notes, REES atlas, `changelog.json` | hand-authored; index via `bin/notes_index.py` |
+| `src/note/app/data/**` | Notes corpus, live notes, EES atlas, `changelog.json` | hand-authored; index via `bin/notes_index.py` |
 | `src/course/app/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
 | `src/document/app/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
 | `src/app/data/search-index.json` | Universal search snapshot (corpus-only) | `bin/build_search_index.py` |
-| `src/app/graph/data/universal-graph.json` + `universal-layout.json` | Universal view graph + layout (corpus + REES) | `bin/build_universal_index.py` + `bin/layout.py` |
+| `src/app/graph/data/universal-graph.json` + `universal-layout.json` | Universal view graph + layout (corpus + EES) | `bin/build_universal_index.py` + `bin/layout.py` |
 
 ## 4. Frontends
 

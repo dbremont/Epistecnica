@@ -1,10 +1,10 @@
 {
-  "title": "Reality Epistemic Element Set",
-  "abbr": "REES",
+  "title": "Epistemic Element Set",
+  "abbr": "EES",
   "generated": "2026-10-26",
-  "source": "converted from the rees.md decomposition table",
+  "source": "converted from the ees.md decomposition table",
   "guide": "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md",
-  "note": "epistemica/rees.md",
+  "note": "epistemica/ees.md",
   "orders": {
     "epistemic": "The inquiry order: orientation, agency, target, access, representation, construction, operation, evaluation, communication, infrastructure, context.",
     "ontic": "The parsed-reality order: segments, entities, processes, events, properties, relations, states, structures, causes.",
