@@ -53,7 +53,7 @@ Validation involves several complementary checks:
 
 | Category | Method | Description |
 | --- | --- | --- |
-| Goodness-of-Fit | Chi-square test, KS test, Anderson-Darling test | Compare empirical distribution of data to model-predicted distribution. |
+| [Goodness-of-Fit](note.html?n=epistemica/validation/goodness-of-fit.md) | Chi-square test, KS test, Cramér–von Mises, Anderson-Darling test | Compare empirical distribution of data to model-predicted distribution; the [atlas](data/epistemica/validation/atlas/gof.html) runs the measures live. |
 | Likelihood-Based | Log-likelihood, AIC, BIC | Evaluate how well the model explains data while penalizing complexity. |
 | Bayesian Checks | Posterior predictive checks | Simulate data from posterior predictive distribution and compare to observations. |
 | Cross-Validation | k-fold, train/test split | Assess predictive performance on data not used in model fitting. |

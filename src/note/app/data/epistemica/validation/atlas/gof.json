@@ -1,0 +1,545 @@
+{
+  "title": "Goodness-of-Fit Atlas",
+  "abbr": "GOF",
+  "version": "2026-10-27",
+  "intro": "Every goodness-of-fit verdict is a discrepancy, a reference model, and a null distribution. Pick a law, a discrepancy measure, a sample size, and a misspecification, and read the fit, the null cloud, the power curve, and the p-value calibration live.",
+  "source": "hand-authored store; epistemica/validation/atlas/gof.json",
+  "kinds": {
+    "continuous": "Laws with a continuous sample space: every EDF distance (KS, Cramér–von Mises, Anderson–Darling) applies, and binned statistics use equal-probability cells.",
+    "discrete": "Laws on counts: the EDF distances are not valid (the CDF is a step function), so the check is the binned Pearson or likelihood-ratio statistic on merged support cells."
+  },
+  "measures": [
+    {
+      "id": "pearson-chi-square",
+      "name": "Pearson Chi-Square",
+      "symbol": "X²",
+      "kind": "binned",
+      "definition": "Sum of squared standardized differences between observed and expected cell counts; the classical binned discrepancy.",
+      "statistic": "X² = Σ_k (O_k − E_k)² / E_k",
+      "formula": "X^2=\\sum_{k=1}^{K}\\frac{(O_k-E_k)^2}{E_k}",
+      "null": "chi-square",
+      "df": "K − 1 − m",
+      "notes": "Needs expected counts of about five or more; estimating m parameters costs m degrees of freedom, and the asymptotic reference fails when cells are sparse."
+    },
+    {
+      "id": "likelihood-ratio-g",
+      "name": "Likelihood-Ratio G",
+      "symbol": "G",
+      "kind": "binned",
+      "definition": "Twice the log-likelihood ratio between the observed cell frequencies and the model's expected frequencies; the binned deviance.",
+      "statistic": "G = 2 Σ_k O_k ln(O_k / E_k)",
+      "formula": "G=2\\sum_{k=1}^{K}O_k\\ln\\!\\frac{O_k}{E_k}",
+      "null": "chi-square",
+      "df": "K − 1 − m",
+      "notes": "Asymptotically equivalent to Pearson but additive across partitions; preferred when models are nested and likelihoods are compared."
+    },
+    {
+      "id": "kolmogorov-smirnov",
+      "name": "Kolmogorov–Smirnov",
+      "symbol": "D_n",
+      "kind": "edf",
+      "definition": "The largest vertical gap between the empirical and the model CDF; a supremum distance.",
+      "statistic": "D_n = sup_t |F_n(t) − F_θ(t)|",
+      "formula": "D_n=\\sup_{t}\\left|F_n(t)-F_\\theta(t)\\right|",
+      "null": "kolmogorov",
+      "df": "—",
+      "notes": "Distribution-free when the model is fully specified; with estimated parameters the classical critical values are conservative, and a Lilliefors table or a parametric bootstrap is required."
+    },
+    {
+      "id": "cramer-von-mises",
+      "name": "Cramér–von Mises",
+      "symbol": "ω²",
+      "kind": "edf",
+      "definition": "The n-weighted integral of the squared CDF gap; an L² distance that uses the whole curve rather than its worst point.",
+      "statistic": "ω² = n ∫ (F_n − F_θ)² dF_θ",
+      "formula": "\\omega^2=n\\int_{-\\infty}^{\\infty}\\left(F_n(t)-F_\\theta(t)\\right)^2 dF_\\theta(t)",
+      "null": "bootstrap",
+      "df": "—",
+      "notes": "More powerful than Kolmogorov–Smirnov against diffuse shape differences; the asymptotic null is delicate, so the atlas reads it against a resampled null."
+    },
+    {
+      "id": "anderson-darling",
+      "name": "Anderson–Darling",
+      "symbol": "A²",
+      "kind": "edf",
+      "definition": "The CDF gap weighted by 1/(F(1−F)); an L² distance that up-weights the tails.",
+      "statistic": "A² = n ∫ (F_n − F_θ)² / (F_θ(1 − F_θ)) dF_θ",
+      "formula": "A^2=n\\int_{-\\infty}^{\\infty}\\frac{\\left(F_n(t)-F_\\theta(t)\\right)^2}{F_\\theta(t)\\left(1-F_\\theta(t)\\right)}\\,dF_\\theta(t)",
+      "null": "anderson-darling",
+      "df": "—",
+      "notes": "Most sensitive of the three to tail departures; the fully specified null uses the D'Agostino–Stephens asymptotic formula, and the estimated-parameter case needs a bootstrap."
+    }
+  ],
+  "laws": [
+    {
+      "id": "normal",
+      "name": "Normal",
+      "symbol": "N(μ, σ²)",
+      "kind": "continuous",
+      "support": "(−∞, ∞)",
+      "engine": "normal",
+      "params": [
+        {
+          "name": "mu",
+          "label": "μ",
+          "default": 0,
+          "min": -5,
+          "max": 5,
+          "step": 0.1
+        },
+        {
+          "name": "sigma",
+          "label": "σ",
+          "default": 1,
+          "min": 0.2,
+          "max": 5,
+          "step": 0.05
+        }
+      ],
+      "density": "\\varphi(x;\\mu,\\sigma)=\\frac{1}{\\sigma\\sqrt{2\\pi}}\\,e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
+      "cdf": "F(x)=\\Phi\\!\\left(\\frac{x-\\mu}{\\sigma}\\right)",
+      "sampler": "x=\\mu+\\sigma\\,\\Phi^{-1}(u)",
+      "estimator": "\\hat\\mu=\\bar{x},\\; \\hat\\sigma^2=\\frac1n\\sum_{i=1}^n(x_i-\\bar{x})^2",
+      "m": 2,
+      "notes": "The reference case: the KS, Cramér–von Mises and Anderson–Darling nulls are all tabulated for it."
+    },
+    {
+      "id": "exponential",
+      "name": "Exponential",
+      "symbol": "Exp(λ)",
+      "kind": "continuous",
+      "support": "[0, ∞)",
+      "engine": "exponential",
+      "params": [
+        {
+          "name": "rate",
+          "label": "λ",
+          "default": 1,
+          "min": 0.1,
+          "max": 5,
+          "step": 0.05
+        }
+      ],
+      "density": "f(x;\\lambda)=\\lambda e^{-\\lambda x}",
+      "cdf": "F(x)=1-e^{-\\lambda x}",
+      "sampler": "x=-\\ln(1-u)/\\lambda",
+      "estimator": "\\hat\\lambda=1/\\bar{x}",
+      "m": 1,
+      "notes": "The classic Lilliefors case: estimating λ makes the Kolmogorov–Smirnov null conservative."
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "symbol": "Gamma(k, θ)",
+      "kind": "continuous",
+      "support": "(0, ∞)",
+      "engine": "gamma",
+      "params": [
+        {
+          "name": "shape",
+          "label": "k",
+          "default": 2,
+          "min": 0.5,
+          "max": 8,
+          "step": 0.1
+        },
+        {
+          "name": "scale",
+          "label": "θ",
+          "default": 1,
+          "min": 0.2,
+          "max": 4,
+          "step": 0.05
+        }
+      ],
+      "density": "f(x;k,\\theta)=\\frac{x^{k-1}e^{-x/\\theta}}{\\Gamma(k)\\,\\theta^{k}}",
+      "cdf": "F(x)=\\frac{\\gamma\\!\\left(k,\\,x/\\theta\\right)}{\\Gamma(k)}",
+      "sampler": "x=\\theta\\,G(k),\\; G \\sim \\mathrm{Gamma}(k,1)",
+      "estimator": "\\text{shape by Newton on } \\ln k-\\psi(k)=\\ln\\bar{x}-\\overline{\\ln x};\\; \\hat\\theta=\\bar{x}/\\hat k",
+      "m": 2,
+      "notes": "Shape and scale both estimated: two degrees of freedom, and no closed-form null for the EDF distances."
+    },
+    {
+      "id": "weibull",
+      "name": "Weibull",
+      "symbol": "Weibull(k, λ)",
+      "kind": "continuous",
+      "support": "[0, ∞)",
+      "engine": "weibull",
+      "params": [
+        {
+          "name": "shape",
+          "label": "k",
+          "default": 2,
+          "min": 0.4,
+          "max": 6,
+          "step": 0.05
+        },
+        {
+          "name": "scale",
+          "label": "λ",
+          "default": 1,
+          "min": 0.2,
+          "max": 4,
+          "step": 0.05
+        }
+      ],
+      "density": "f(x;k,\\lambda)=\\frac{k}{\\lambda}\\left(\\frac{x}{\\lambda}\\right)^{k-1}e^{-(x/\\lambda)^k}",
+      "cdf": "F(x)=1-e^{-(x/\\lambda)^k}",
+      "sampler": "x=\\lambda\\left(-\\ln(1-u)\\right)^{1/k}",
+      "estimator": "\\hat k \\text{ by Newton on } \\frac{\\sum x^k\\ln x}{\\sum x^k}-\\frac1k=\\overline{\\ln x};\\; \\hat\\lambda=\\left(\\frac{\\sum x^k}{n}\\right)^{1/k}",
+      "m": 2,
+      "notes": "The survival-analysis workhorse; small shape changes are hard to detect at n below a few hundred."
+    },
+    {
+      "id": "lognormal",
+      "name": "Log-Normal",
+      "symbol": "LN(μ, σ²)",
+      "kind": "continuous",
+      "support": "(0, ∞)",
+      "engine": "lognormal",
+      "params": [
+        {
+          "name": "mu",
+          "label": "μ",
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "step": 0.05
+        },
+        {
+          "name": "sigma",
+          "label": "σ",
+          "default": 0.6,
+          "min": 0.1,
+          "max": 2,
+          "step": 0.05
+        }
+      ],
+      "density": "f(x;\\mu,\\sigma)=\\frac{1}{x\\sigma\\sqrt{2\\pi}}\\,e^{-\\frac{(\\ln x-\\mu)^2}{2\\sigma^2}}",
+      "cdf": "F(x)=\\Phi\\!\\left(\\frac{\\ln x-\\mu}{\\sigma}\\right)",
+      "sampler": "x=e^{\\mu+\\sigma\\Phi^{-1}(u)}",
+      "estimator": "\\hat\\mu=\\overline{\\ln x},\\; \\hat\\sigma^2=\\frac1n\\sum_{i=1}^n(\\ln x_i-\\hat\\mu)^2",
+      "m": 2,
+      "notes": "Fitting is a normal fit in log space; a heavy right tail makes the Anderson–Darling weighting matter."
+    },
+    {
+      "id": "uniform",
+      "name": "Uniform",
+      "symbol": "U(a, b)",
+      "kind": "continuous",
+      "support": "[a, b]",
+      "engine": "uniform",
+      "params": [
+        {
+          "name": "a",
+          "label": "a",
+          "default": 0,
+          "min": -3,
+          "max": 1,
+          "step": 0.1
+        },
+        {
+          "name": "b",
+          "label": "b",
+          "default": 1,
+          "min": 0.5,
+          "max": 5,
+          "step": 0.1
+        }
+      ],
+      "density": "f(x;a,b)=\\frac{1}{b-a}\\;\\text{for } a \\le x \\le b",
+      "cdf": "F(x)=\\frac{x-a}{b-a}",
+      "sampler": "x=a+u\\,(b-a)",
+      "estimator": "\\hat a=\\min x,\\; \\hat b=\\max x",
+      "m": 2,
+      "notes": "Non-regular: the MLE sits on the boundary of the parameter space, so the degrees-of-freedom penalty is invalid and only the bootstrap null is honest."
+    },
+    {
+      "id": "beta",
+      "name": "Beta",
+      "symbol": "Beta(α, β)",
+      "kind": "continuous",
+      "support": "[0, 1]",
+      "engine": "beta",
+      "params": [
+        {
+          "name": "alpha",
+          "label": "α",
+          "default": 2,
+          "min": 0.3,
+          "max": 8,
+          "step": 0.1
+        },
+        {
+          "name": "beta",
+          "label": "β",
+          "default": 3,
+          "min": 0.3,
+          "max": 8,
+          "step": 0.1
+        }
+      ],
+      "density": "f(x;\\alpha,\\beta)=\\frac{x^{\\alpha-1}(1-x)^{\\beta-1}}{B(\\alpha,\\beta)}",
+      "cdf": "F(x)=I_x(\\alpha,\\beta)",
+      "sampler": "x=\\frac{G_1}{G_1+G_2},\\; G_1\\sim\\mathrm{Gamma}(\\alpha,1),\\; G_2\\sim\\mathrm{Gamma}(\\beta,1)",
+      "estimator": "\\text{method of moments: match } \\bar{x} \\text{ and } s^2 \\text{ to } \\alpha,\\beta",
+      "m": 2,
+      "notes": "A bounded law with two shape parameters; the atlas estimates by moments rather than MLE and says so."
+    },
+    {
+      "id": "poisson",
+      "name": "Poisson",
+      "symbol": "Poisson(λ)",
+      "kind": "discrete",
+      "support": "{0, 1, 2, …}",
+      "engine": "poisson",
+      "params": [
+        {
+          "name": "lambda",
+          "label": "λ",
+          "default": 4,
+          "min": 0.5,
+          "max": 20,
+          "step": 0.1
+        }
+      ],
+      "density": "P(X=k;\\lambda)=\\frac{\\lambda^k e^{-\\lambda}}{k!}",
+      "cdf": "F(k)=Q(k+1,\\lambda)",
+      "sampler": "\\text{Knuth product of uniforms for } \\lambda<30",
+      "estimator": "\\hat\\lambda=\\bar{x}",
+      "m": 1,
+      "notes": "Discrete: the EDF distances are invalid and the check is binned, with sparse tail cells merged until E ≥ 5."
+    },
+    {
+      "id": "binomial",
+      "name": "Binomial",
+      "symbol": "Bin(n₀, p)",
+      "kind": "discrete",
+      "support": "{0, …, n₀}",
+      "engine": "binomial",
+      "params": [
+        {
+          "name": "trials",
+          "label": "n₀",
+          "default": 10,
+          "min": 2,
+          "max": 40,
+          "step": 1,
+          "integer": true
+        },
+        {
+          "name": "prob",
+          "label": "p",
+          "default": 0.4,
+          "min": 0.02,
+          "max": 0.98,
+          "step": 0.01
+        }
+      ],
+      "density": "P(X=k;n_0,p)=\\binom{n_0}{k}p^{k}(1-p)^{n_0-k}",
+      "cdf": "F(k)=I_{1-p}(n_0-k,\\,k+1)",
+      "sampler": "\\text{sum of } n_0 \\text{ Bernoulli}(p) \\text{ draws}",
+      "estimator": "\\hat p=\\bar{x}/n_0 \\;\\text{(}n_0\\text{ known)}",
+      "m": 1,
+      "notes": "The trial count n₀ is treated as known; only p is estimated, so m = 1."
+    }
+  ],
+  "selftest": [
+    {
+      "id": "ks-normal",
+      "kind": "statistic",
+      "law": "normal",
+      "measure": "kolmogorov-smirnov",
+      "params": {
+        "mu": 0,
+        "sigma": 1
+      },
+      "sample": [
+        -1.2816,
+        -0.8416,
+        -0.5244,
+        -0.2533,
+        0,
+        0.2533,
+        0.5244,
+        0.8416,
+        1.2816
+      ],
+      "expected": 0.09999150009767521
+    },
+    {
+      "id": "cvm-normal",
+      "kind": "statistic",
+      "law": "normal",
+      "measure": "cramer-von-mises",
+      "params": {
+        "mu": 0,
+        "sigma": 1
+      },
+      "sample": [
+        -1.2816,
+        -0.8416,
+        -0.5244,
+        -0.2533,
+        0,
+        0.2533,
+        0.5244,
+        0.8416,
+        1.2816
+      ],
+      "expected": 0.1500009634616427
+    },
+    {
+      "id": "ad-normal",
+      "kind": "statistic",
+      "law": "normal",
+      "measure": "anderson-darling",
+      "params": {
+        "mu": 0,
+        "sigma": 1
+      },
+      "sample": [
+        -1.2816,
+        -0.8416,
+        -0.5244,
+        -0.2533,
+        0,
+        0.2533,
+        0.5244,
+        0.8416,
+        1.2816
+      ],
+      "expected": 0.1549384509673768
+    },
+    {
+      "id": "pearson-poisson",
+      "kind": "statistic",
+      "law": "poisson",
+      "measure": "pearson-chi-square",
+      "params": {
+        "lambda": 2
+      },
+      "edges": [
+        0.5,
+        1.5,
+        2.5
+      ],
+      "sample": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expected": 0.5420979924775782
+    },
+    {
+      "id": "g-poisson",
+      "kind": "statistic",
+      "law": "poisson",
+      "measure": "likelihood-ratio-g",
+      "params": {
+        "lambda": 2
+      },
+      "edges": [
+        0.5,
+        1.5,
+        2.5
+      ],
+      "sample": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expected": 0.5199611415220848
+    },
+    {
+      "id": "fit-normal",
+      "kind": "fit",
+      "law": "normal",
+      "sample": [
+        1.2,
+        2.4,
+        0.7,
+        3.1,
+        1.9,
+        2.2,
+        0.4,
+        2.8
+      ],
+      "expected": {
+        "mu": 1.8375,
+        "sigma": 0.9177928687890313
+      }
+    },
+    {
+      "id": "fit-exponential",
+      "kind": "fit",
+      "law": "exponential",
+      "sample": [
+        1.2,
+        2.4,
+        0.7,
+        3.1,
+        1.9,
+        2.2,
+        0.4,
+        2.8
+      ],
+      "expected": {
+        "rate": 0.54421768707483
+      }
+    },
+    {
+      "id": "fit-poisson",
+      "kind": "fit",
+      "law": "poisson",
+      "sample": [
+        2,
+        0,
+        3,
+        1,
+        4,
+        2,
+        2,
+        1,
+        0,
+        3
+      ],
+      "expected": {
+        "lambda": 1.8
+      }
+    },
+    {
+      "id": "fit-lognormal",
+      "kind": "fit",
+      "law": "lognormal",
+      "sample": [
+        0.8,
+        1.4,
+        2.1,
+        3.2,
+        0.6,
+        1.1,
+        1.8
+      ],
+      "expected": {
+        "mu": 0.312955437254645,
+        "sigma": 0.5340317957524319
+      }
+    }
+  ]
+}

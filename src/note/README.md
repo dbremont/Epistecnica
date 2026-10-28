@@ -54,14 +54,19 @@ companion is `data/epistemica/ees.md`.
   systems) stay in `mathematical/` and are reached through `links.json`.
 - The validation scope lives in `epistemica/validation/`: `validation.md`
   (master), `probability-model-validation.md`, `calibration.md`,
-  `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`, and
-  `confidence-interval.md` (the procedure-coverage reporting member, moved
-  out of the observational domain).
+  `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
+  `goodness-of-fit.md`, and `confidence-interval.md` (the procedure-coverage
+  reporting member, moved out of the observational domain).
 - The p-value atlas lives in `epistemica/validation/atlas/`:
   `pvalue.json` (the null-distribution store) and `pvalue.html` (the
   playground: pick a law, move its parameters and `t_obs`, read the live
   density/CDF tails, readouts and Monte Carlo calibration strip);
   `make pvalue-check` validates the store. Linked from `p-value.md`.
+- The goodness-of-fit atlas lives beside it: `gof.json` (the law and
+  discrepancy-measure store) and `gof.html` (the playground: pick a law and a
+  measure, set `n` and the contamination `δ`, and read the empirical fit, the
+  null cloud, the power curve and the p-value calibration); `make gof-check`
+  validates the store. Linked from `goodness-of-fit.md`.
 - The terminology-crimes atlas lives in `epistemica/crimes/`:
   `terminology.json` (the store) and `terminology.html` (searchable cards and
   table over misnomers, legacy names and false friends in statistics,

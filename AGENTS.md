@@ -280,10 +280,10 @@ instance-decomposition table:
   outstanding).
 - The validation notes live in `epistemica/validation/` — `validation.md`
   (master), `probability-model-validation.md`, `calibration.md`,
-  `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`, and
-  `confidence-interval.md` (procedure-coverage reporting, moved out of the
-  observational domain); calibration is a distinct practice, not a synonym for
-  validation.
+  `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
+  `goodness-of-fit.md`, and `confidence-interval.md` (procedure-coverage
+  reporting, moved out of the observational domain); calibration is a distinct
+  practice, not a synonym for validation.
 - **Terminology Crimes atlas** — `epistemica/crimes/terminology.{json,html}`
   stores and renders the misnomer/legacy/false-friend inventory (statistics,
   probability, measurement); `make terminology-check` validates the store
@@ -307,6 +307,23 @@ instance-decomposition table:
   `make pvalue-check` validates the store (part of `make check`). The page is a
   live note reached through the catalog's `epistemica/validation/atlas/`
   folder and linked from `p-value.md`, no promoted card.
+- **Goodness-of-Fit Atlas** — `epistemica/validation/atlas/gof.{json,html}`
+  stores the law inventory (normal, exponential, gamma, Weibull, log-normal,
+  uniform, beta, Poisson, binomial) and the discrepancy measures (Pearson χ²,
+  likelihood-ratio G, Kolmogorov–Smirnov, Cramér–von Mises, Anderson–Darling)
+  and renders a **playground**: pick a law and a measure, set `n` and the
+  contamination `δ` (the fraction of observations drawn from a distorted
+  version of the law), toggle parameter estimation, and read the empirical
+  CDF/PMF against the fitted model, the observed discrepancy against its null
+  cloud, the power curve over `n`, and the p-value calibration histogram.
+  Asymptotic nulls are used only where they hold (χ²/G and Kolmogorov with
+  fixed parameters, D'Agostino–Stephens Anderson–Darling when fully specified);
+  estimated parameters and Cramér–von Mises always use a resampled null.
+  `make gof-check` validates the store (part of `make check`); `?selftest`
+  runs the numeric cases and `?sweep` exercises every law × measure pair. The
+  page is a live note reached through the catalog's
+  `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md`,
+  no promoted card.
 - **EES** (`epistemica/ees.md` + `ees.html` + `ees.json`) is the master
   epistemic inventory. The tree is stored canonically in `ees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
@@ -362,6 +379,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Terminology crimes: `make terminology-check` (validates `src/note/app/data/epistemica/crimes/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/crimes/terminology.html`, reached in the catalog through the `epistemica/crimes/` folder (no promoted card)
 - Symbol atlas: `make symbols-check` (validates `src/note/app/data/epistemica/symbols/symbols.json` — unique ids, enum categories, non-empty symbol/description/origins/usage, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/symbols/symbols.html`, reached in the catalog through the `epistemica/symbols/` folder (no promoted card)
 - P-Value Atlas: `make pvalue-check` (validates `src/note/app/data/epistemica/validation/atlas/pvalue.json` — unique ids, known families/engines, complete density/CDF/left/right/two-sided formulas, parameter specs in range, resolving related ids and note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/validation/atlas/pvalue.html` (playground-first: family picker + parameter sliders + `t_obs` + density/CDF stages + live readouts + Monte Carlo strip; `?selftest` for the numeric cases), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `p-value.md` (no promoted card)
+- Goodness-of-Fit Atlas: `make gof-check` (validates `src/note/app/data/epistemica/validation/atlas/gof.json` — unique law/measure ids, known engines, complete formulas, parameter specs in range, `m` consistent with the parameters, selftest cases referencing existing laws/measures) — part of `make check`; page `curl -s :8000/note/data/epistemica/validation/atlas/gof.html` (playground-first: law + measure pickers, `n`/`δ` sliders, estimation toggle, empirical-vs-fitted, null cloud, power curve, p-value calibration; `?selftest` for the numeric cases, `?sweep` for every law × measure pair, `?law=…&measure=…&n=…&delta=…` deep links), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md` (no promoted card)
 - Universal search: `make search-index` (build-time snapshot → gitignored `src/app/data/search-index.json`, corpus-only; rebuilt locally or at image build) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → gitignored `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus; rebuilt locally or at image build) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`

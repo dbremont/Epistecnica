@@ -4,7 +4,7 @@ tags: [epistemology]
 
 # Validation
 
-Related: [Evaluation](note.html?n=epistemica/theory/practice/evaluation.md), [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md), [Calibration](note.html?n=epistemica/validation/calibration.md), [Confidence Interval](note.html?n=epistemica/validation/confidence-interval.md)
+Related: [Evaluation](note.html?n=epistemica/theory/practice/evaluation.md), [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md), [Calibration](note.html?n=epistemica/validation/calibration.md), [Confidence Interval](note.html?n=epistemica/validation/confidence-interval.md), [Goodness of Fit](note.html?n=epistemica/validation/goodness-of-fit.md)
 
 ## QA
 
@@ -17,7 +17,7 @@ Related: [Evaluation](note.html?n=epistemica/theory/practice/evaluation.md), [Pr
 | Cross-Validation | Assesses model performance and generalization using different partitions of the available data. Includes k-fold cross-validation, leave-one-out cross-validation, stratified sampling, and nested cross-validation. |
 | Uncertainty Quantification | Quantifies uncertainty in model inputs, parameters, and predictions. Includes Monte Carlo simulation, bootstrapping, uncertainty propagation, and confidence intervals. |
 | Sensitivity Analysis | Determines how variations in model inputs or parameters affect model outputs. Includes local and global sensitivity analysis, Sobol indices, and variance-based methods. |
-| Error Analysis and Residual Diagnostics | Examines discrepancies between model predictions and observations. Includes residual analysis, heteroscedasticity assessment, bias–variance decomposition, and goodness-of-fit metrics. |
+| Error Analysis and Residual Diagnostics | Examines discrepancies between model predictions and observations. Includes residual analysis, heteroscedasticity assessment, bias–variance decomposition, and [goodness-of-fit](note.html?n=epistemica/validation/goodness-of-fit.md) metrics. |
 | Hypothesis Testing | Evaluates statistical hypotheses concerning model assumptions, parameters, or discrepancies between predictions and observations. Includes chi-square tests, Kolmogorov–Smirnov tests, and likelihood ratio tests. |
 | Probabilistic Model Evaluation | Evaluates the probabilistic predictions produced by a model. Includes posterior predictive checks, calibration curves, and assessment of predictive distributions. |
 | Overfitting / Underfitting Analysis | Assesses whether model complexity is appropriate for the available data and whether the model generalizes to unseen observations. Includes regularization, learning curves, and model complexity assessment. |
