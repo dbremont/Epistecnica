@@ -2852,6 +2852,11 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "docs",
+        "summary": "Replace the placeholder BibTeX with the Clark, Coecke and Sadrzadeh (2008) QI-2008 entry and complete the title citation with the proceedings and pages. Add the epistemic/ontic element inventory for the paper: seven ontic phenomena (meaning, word and sentence meaning, context, semantic similarity, grammaticality, truth value) and the epistemic theories, models, formal systems, methods, dataset, evaluations and future-work method it deploys."
       }
     ]
   },
