@@ -10882,7 +10882,9 @@
       {
         "date": "2026-10-28",
         "kind": "docs",
-        "summary": "Disambiguate the Phenomenon reading in the decomposition: the across-episode regularity is a separate reading of the root, while the tree carries only the episode-local pattern (Episode Meaning)."
+        "summary": "Disambiguate the Phenomenon reading in the decomposition: the across-episode regularity is a separate reading of the root, while the tree carries only the episode-local pattern (Episode Meaning).",
+        "commit": "60fb6c7d1e033d2ba2c6607aaf9a7e20bc27e83a",
+        "before": "7bbf7525ffa17fb71ff98d002e80bc1e6e0d4ffa"
       }
     ]
   },
