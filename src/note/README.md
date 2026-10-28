@@ -53,8 +53,10 @@ companion is `data/epistemica/ees.md`.
   notes (structure, geometry, topology, order, measure, algebra, coordinate
   systems) stay in `mathematical/` and are reached through `links.json`.
 - The validation scope lives in `epistemica/validation/`: `validation.md`
-  (master), `model-validation.md`, `probability-model-validation.md`, and
-  `calibration.md`.
+  (master), `probability-model-validation.md`, `calibration.md`,
+  `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`, and
+  `confidence-interval.md` (the procedure-coverage reporting member, moved
+  out of the observational domain).
 - The p-value atlas lives in `epistemica/validation/atlas/`:
   `pvalue.json` (the null-distribution store) and `pvalue.html` (the
   playground: pick a law, move its parameters and `t_obs`, read the live

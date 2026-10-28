@@ -4,7 +4,7 @@ tags: [epistemology]
 
 # Validation
 
-Related: [Evaluation](note.html?n=epistemica/theory/practice/evaluation.md), [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md), [Calibration](note.html?n=epistemica/validation/calibration.md)
+Related: [Evaluation](note.html?n=epistemica/theory/practice/evaluation.md), [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md), [Calibration](note.html?n=epistemica/validation/calibration.md), [Confidence Interval](note.html?n=epistemica/validation/confidence-interval.md)
 
 ## QA
 

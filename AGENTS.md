@@ -279,8 +279,10 @@ instance-decomposition table:
   mechanical normalization only, the schema conversion is still
   outstanding).
 - The validation notes live in `epistemica/validation/` — `validation.md`
-  (master), `model-validation.md`, `probability-model-validation.md`, and
-  `calibration.md`; calibration is a distinct practice, not a synonym for
+  (master), `probability-model-validation.md`, `calibration.md`,
+  `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`, and
+  `confidence-interval.md` (procedure-coverage reporting, moved out of the
+  observational domain); calibration is a distinct practice, not a synonym for
   validation.
 - **Terminology Crimes atlas** — `epistemica/crimes/terminology.{json,html}`
   stores and renders the misnomer/legacy/false-friend inventory (statistics,

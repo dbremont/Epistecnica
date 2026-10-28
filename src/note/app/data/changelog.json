@@ -6199,17 +6199,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/confidence-interval.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Confidence Interval from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/conformal-prediction-inference.md",
     "logs": [
       {
@@ -10489,6 +10478,22 @@
     ]
   },
   {
+    "file_path": "epistemica/validation/confidence-interval.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Confidence Interval from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "refactor",
+        "summary": "Move to epistemica/validation/."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/validation/e-value.md",
     "logs": [
       {
@@ -10701,6 +10706,11 @@
         "summary": "Fold the model-validation activities QA and its references into Validation; drop the retired link.",
         "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
         "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "docs",
+        "summary": "Link the Confidence Interval note, moved into the validation scope."
       }
     ]
   },
