@@ -57,7 +57,7 @@ qa:
 
 > **Meaning** is, in this binding, a **`Natural System`**: the bounded set of interacting particulars — sign, referent, producer, interpreter — whose interaction *is* the interpretation episode. The type path is `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System`.
 
-> **Readable as …, never merged.** The instance answers to further readings, and each grows its own tree under its own root: readable as **`Phenomenon`** — the standing regularity over episodes that licenses talk of *the* meaning of a word (realized here as a row of the tree, predicated over this episode); readable as **`Complex System`** — a community's sign system at the macro level, whose collective behaviour resists component-level reduction; readable as **`Process`** — the episode considered as an occurrence, which is how it enters this tree, under `(→ Occurrence)`.
+> **Readable as …, never merged.** The instance answers to further readings, and each grows its own tree under its own root: readable as **`Phenomenon`** — the standing regularity over episodes that licenses talk of *the* meaning of a word; the episode-local pattern appears below as `Episode Meaning`, predicated over this episode, while the across-episode regularity is this separate reading; readable as **`Complex System`** — a community's sign system at the macro level, whose collective behaviour resists component-level reduction; readable as **`Process`** — the episode considered as an occurrence, which is how it enters this tree, under `(→ Occurrence)`.
 
 ### Is the type of this natural element instance ambiguous?
 
@@ -81,7 +81,7 @@ qa:
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System` `(→ Instance)` Meaning | The sign–referent–interpreter coupling of the cave utterance: bounded, interacting, feedback-coupled. Meso. Readable as `Phenomenon` and as `Complex System`; those readings are not rows of this tree. |
+| `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System` `(→ Instance)` Meaning | The sign–referent–interpreter coupling of the cave utterance: bounded, interacting, feedback-coupled. Meso. Readable across episodes as `Phenomenon` and at the macro level as `Complex System`; those readings are not rows of this tree — only the episode-local pattern is. |
 | `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System` `(→ Instance)` Meaning `(→ Part)` `Natural Object` | Grouping: the material particulars the coupling relates — the sign as a physical particular, and what it is about. |
 | `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System` `(→ Instance)` Meaning `(→ Part)` `Natural Object` `(→ Instance)` House Token Waveform | The acoustic particular produced by the speaker: a pressure pattern in air, measurable and consumed by the episode. Its sign-hood is relational; its substrate is not. |
 | `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System` `(→ Instance)` Meaning `(→ Part)` `Natural Object` `(→ Instance)` Cave Dwelling | The referent particular: the cave the speaker lived in, absent from the scene and carried by the listener's memory. Reference here is to a particular, not a class. |
