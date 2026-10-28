@@ -10659,7 +10659,9 @@
       {
         "date": "2026-10-28",
         "kind": "docs",
-        "summary": "Add the p-value properties table and the what-the-p-value-is-not table to the QA, with both questions in the front matter."
+        "summary": "Add the p-value properties table and the what-the-p-value-is-not table to the QA, with both questions in the front matter.",
+        "commit": "fe40f6461887cb3613a25ab242e58b0cee3984e9",
+        "before": "27ec5dbfa402d08ddeed9ce07e632d6010ed68b3"
       }
     ]
   },
