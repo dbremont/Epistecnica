@@ -10556,7 +10556,8 @@
       {
         "date": "2026-10-27",
         "kind": "feat",
-        "summary": "Add the Goodness of Fit note and its atlas playground."
+        "summary": "Add the Goodness of Fit note and its atlas playground.",
+        "commit": "f6da42d04530b6739bee85c2c1088ba9aeea9fd1"
       }
     ]
   },
@@ -10657,12 +10658,13 @@
         "summary": "Point the Model Validation link at validation.md.",
         "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
         "before": "c84e7da355fd7758f50a794090127267460e9c3e"
-      }
-,
+      },
       {
         "date": "2026-10-27",
         "kind": "docs",
-        "summary": "Link the Goodness of Fit note and its atlas from the methods table."
+        "summary": "Link the Goodness of Fit note and its atlas from the methods table.",
+        "commit": "f6da42d04530b6739bee85c2c1088ba9aeea9fd1",
+        "before": "1649a9a484019387c803897c760a9a8c6679ecd1"
       }
     ]
   },
@@ -10730,12 +10732,13 @@
         "summary": "Link the Confidence Interval note, moved into the validation scope.",
         "commit": "aa08d18e23f2fcd34a33b581df32c014dfbe04ae",
         "before": "794d4a9a9ae6f339eecbbfbc88ca72bfbf41d418"
-      }
-,
+      },
       {
         "date": "2026-10-27",
         "kind": "docs",
-        "summary": "Link the Goodness of Fit note from Related and from the error-analysis row."
+        "summary": "Link the Goodness of Fit note from Related and from the error-analysis row.",
+        "commit": "f6da42d04530b6739bee85c2c1088ba9aeea9fd1",
+        "before": "1649a9a484019387c803897c760a9a8c6679ecd1"
       }
     ]
   },
