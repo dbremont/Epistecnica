@@ -10489,7 +10489,8 @@
       {
         "date": "2026-10-27",
         "kind": "refactor",
-        "summary": "Move to epistemica/validation/."
+        "summary": "Move to epistemica/validation/.",
+        "commit": "aa08d18e23f2fcd34a33b581df32c014dfbe04ae"
       }
     ]
   },
@@ -10710,7 +10711,9 @@
       {
         "date": "2026-10-27",
         "kind": "docs",
-        "summary": "Link the Confidence Interval note, moved into the validation scope."
+        "summary": "Link the Confidence Interval note, moved into the validation scope.",
+        "commit": "aa08d18e23f2fcd34a33b581df32c014dfbe04ae",
+        "before": "794d4a9a9ae6f339eecbbfbc88ca72bfbf41d418"
       }
     ]
   },
