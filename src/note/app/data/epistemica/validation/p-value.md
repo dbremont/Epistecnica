@@ -7,6 +7,8 @@ qa:
   - Which common tests produce p-values, and from which null distributions?
   - What are the alternatives and complements to the p-value?
   - What is a significance-level (p-value) framework?
+  - What are the properties of a p-value?
+  - What the p-value is not?
   - **What are the problems with the following wording?** 'The p-value is the tail probability of a test statistic under the null model'.
   - Why is hypothesis testing is a form of model validation?
   - Why is this useful 'The p-value is the probability under the null hypothesis of obtaining a real-valued test statistic at least as extreme as the one obtained '?
@@ -243,6 +245,39 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 > **Reporting and communication.** Report the p-value alongside the test specification and, where relevant, an effect-size estimate and confidence interval. Statistical significance does not establish practical importance, and a p-value alone does not establish the truth of a hypothesis.
 
 **Key distinction:** The p-value is a measure of extremeness relative to a null distribution; \(\alpha\) is the decision threshold; and the significance level and power describe the testing procedure's long-run behavior.
+
+### What are the properties of a p-value?
+
+| Property | Description |
+| --- | --- |
+| **Range** | \(p(x) \in [0,1]\): it is a probability computed under \(H_0\). |
+| **Uniformity under a simple null** | For a continuous test statistic and a simple null, \(p(X) \sim U(0,1)\) under \(H_0\); hence \(P(p \le \alpha \mid H_0) = \alpha\) exactly. |
+| **Level validity** | For a composite null, the supremum construction gives \(P(p \le \alpha \mid \theta) \le \alpha\) for every \(\theta \in \Theta_0\); with discrete statistics the test is conservative. |
+| **Stochasticity** | Before the sample is drawn \(p(X)\) is a random variable with a null distribution; after, \(p(x)\) is a realized value. |
+| **Monotonicity in extremeness** | For a fixed test, \(p\) decreases as the observed statistic becomes more extreme under the declared ordering. |
+| **Sample-size dependence** | The null distribution of \(T\), and hence \(p\), changes with \(n\); at large \(n\) a trivial effect can produce a small p-value. |
+| **Model dependence** | \(p\) depends on the model, the statistic, and the extremeness ordering, not on \(H_0\) alone; the same data can yield different p-values under different tests. |
+| **Ordering dependence** | The one-sided / two-sided / likelihood-ratio convention fixes "at least as extreme" and therefore changes the number. |
+| **Sensitivity to the sampling plan** | \(p\) is not valid under optional stopping or data-dependent sampling; the stopping rule is part of the test (unlike e-values). |
+| **Not a property of \(H_0\)** | \(p\) is a property of the data relative to a test specification, not of the hypothesis. |
+
+> The decomposition files the structural ones as `Constitutive Substrate` → `Property`; the table adds level validity, monotonicity, ordering dependence, and sensitivity to the sampling plan.
+
+### What the P-Value Is Not?
+
+> The p-value is **not**:
+
+| Misinterpretation | Correct Statement |
+| --- | --- |
+| The probability that \(H_0\) is true | \(p(x) \neq P(H_0 \mid X)\). This would require a prior and Bayes' theorem. |
+| The probability that the data arose by chance | \(p(x)\) is computed **under** \(H_0\); it is not the probability of \(H_0\). |
+| The probability of rejecting \(H_0\) when it is true | That is \(\alpha\), not \(p\). \(\alpha\) is pre-specified; \(p\) is computed from the data. |
+| A measure of effect size | A small p-value does not imply a large effect; with large \(n\), trivial effects can yield small p-values. |
+| The probability of replication | \(p(x)\) is not \(P(\text{replication})\). Replication probabilities depend on power and the true effect size. |
+| A measure of the truth of \(H_0\) | The p-value is a measure of **compatibility** with \(H_0\), not a measure of truth. |
+| A property of \(H_0\) | The p-value is a property of the **data** (relative to a test specification), not of \(H_0\). |
+
+> The p-value is a measure of compatibility with \(H_0\) under a declared test, nothing more.
 
 ### What does surprise even means here?
 

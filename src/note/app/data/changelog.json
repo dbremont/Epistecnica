@@ -10655,6 +10655,11 @@
         "summary": "Point the common-tests table at the full procedure space in Statistical Hypothesis Testing and drop the duplicated conventions heading.",
         "commit": "f1a1b4674239cfba4898b1f33a859c8d6b8197a5",
         "before": "3f588c7f7a7215196a58ba0e55e66aef20d7c457"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "docs",
+        "summary": "Add the p-value properties table and the what-the-p-value-is-not table to the QA, with both questions in the front matter."
       }
     ]
   },
