@@ -10897,8 +10897,8 @@
         "date": "2026-10-28",
         "kind": "refactor",
         "summary": "Re-root the natural characterization at the cognitive system: the root is Listener's Cognitive System (Natural System, Complex System, weak-form kind Cognitive System); Meaning becomes a weak-form Part typed as Phenomenon, decomposed into its predicated trajectory, measurable properties, reference and sense as aspects, the sign token and referent as Association relata, and its constraints; the system's own branches carry the mechanisms, the comprehension episode with its events and state, neural substrate, utterance scene, working-memory bound and the six limitation factors. The sign and the referent stop being parts of meaning, the type/ambiguity answers are rewritten for the new root, and the evaluation records the cost of the choice (quorum sensing falls outside unless the population is a cognitive system). Adds the Conceptuum, Technicarum, Socialium and Epistemicarum guides to References.",
-        "commit": "78c742166aebb1b170ddaa556da224d9d538cfd1",
-        "before": "67fbadd2d367d4105b002507159bbea1f5d4f48b"
+        "commit": "69b9dd3745f09b753b55028f1ec5fb3db2c0153f",
+        "before": "0dda84050bac306fbc680bcf837a04d24ea3ba42"
       }
     ]
   },
