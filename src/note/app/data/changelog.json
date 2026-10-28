@@ -9800,6 +9800,11 @@
         "kind": "feat",
         "summary": "Import Quantum Mechanical Ontology Map from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "chore",
+        "summary": "Delete the placeholder quantum-mechanical ontology map note: the stub held only a title, an ellipsis and one dangling reference."
       }
     ]
   },
