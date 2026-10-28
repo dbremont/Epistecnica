@@ -10892,6 +10892,13 @@
         "summary": "Disambiguate the Phenomenon reading in the decomposition: the across-episode regularity is a separate reading of the root, while the tree carries only the episode-local pattern (Episode Meaning).",
         "commit": "60fb6c7d1e033d2ba2c6607aaf9a7e20bc27e83a",
         "before": "7bbf7525ffa17fb71ff98d002e80bc1e6e0d4ffa"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "refactor",
+        "summary": "Re-root the natural characterization at the cognitive system: the root is Listener's Cognitive System (Natural System, Complex System, weak-form kind Cognitive System); Meaning becomes a weak-form Part typed as Phenomenon, decomposed into its predicated trajectory, measurable properties, reference and sense as aspects, the sign token and referent as Association relata, and its constraints; the system's own branches carry the mechanisms, the comprehension episode with its events and state, neural substrate, utterance scene, working-memory bound and the six limitation factors. The sign and the referent stop being parts of meaning, the type/ambiguity answers are rewritten for the new root, and the evaluation records the cost of the choice (quorum sensing falls outside unless the population is a cognitive system). Adds the Conceptuum, Technicarum, Socialium and Epistemicarum guides to References.",
+        "commit": "78c742166aebb1b170ddaa556da224d9d538cfd1",
+        "before": "67fbadd2d367d4105b002507159bbea1f5d4f48b"
       }
     ]
   },
