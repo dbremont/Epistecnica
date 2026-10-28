@@ -10871,6 +10871,11 @@
         "summary": "Add the natural characterization: segment cut, meso level, the three Philosophia Naturalis formulation questions and the 44-row sign-mediated-interpretation decomposition (episode, sign substrate, referent, interpreter, interpretant, trajectory, properties, constraints, limitation factors); add the QA questions and the natural-semantics references.",
         "commit": "60bec6bb715023dd669ffab8c928d70b1b11690d",
         "before": "fc3252d444d7c031791e493b6eaf74cedf228644"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "refactor",
+        "summary": "Rewrite the natural characterization in the current Philosophia Naturalis form: a path-typed, link-labelled decomposition bound to the cave utterance, rooted at Natural System (59 rows: sign, referent, organisms with adaptation and living process, the two channel mechanisms, the episode with events, states, trajectory and its predicated meaning, measurable properties, reference and sense as aspects, environment, substrates, natural constraints and limitation factors). The bee, vervet, quorum-sensing and surveyor cases move to prose as separate bindings, and the type-ambiguity and level-of-organization questions are answered."
       }
     ]
   },
