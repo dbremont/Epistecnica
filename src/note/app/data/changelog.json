@@ -10641,6 +10641,11 @@
         "summary": "Add the Inference Framework node (Fisherian, Neyman–Pearson, NHST, Bayesian) to the decomposition and answer the framework question.",
         "commit": "479010f80c75e2a6691fa01cd00f4f913becc671",
         "before": "aec6a7587918a32c1422aba05dbb8f4a4636b612"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "refactor",
+        "summary": "Reorganize the operation branch under Statistical Significance Validation and name its four formulations (Fisherian, Neyman–Pearson, NHST, Bayesian)."
       }
     ]
   },

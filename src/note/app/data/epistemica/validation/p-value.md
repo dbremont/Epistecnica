@@ -122,7 +122,7 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 
 > **First, aspect.** The p-value is a quantity, the p-value calculation is an operation, the rule $p \le \alpha$ is a decision rule, and "evidence" is a role the quantity can play under a severity reading. Collapsing them into one type makes "p-value" equivocal.
 
-> **Second, framework.** Fisher's p-value is a continuous measure of evidence against $H_0$ without a specified alternative; the Neyman–Pearson framework uses a pre-specified $\alpha$, a power $\beta$, and a decision between $H_0$ and $H_1$; null-hypothesis significance testing (NHST) conflates the two; the Bayesian framework computes a posterior-predictive p-value and a Bayes factor against a posterior reference model. The note keeps the quantity and the decision rule separate, and files the four frameworks as instances of `Organization` → Inference Framework.
+> **Second, framework.** Fisher's p-value is a continuous measure of evidence against $H_0$ without a specified alternative; the Neyman–Pearson framework uses a pre-specified $\alpha$, a power $\beta$, and a decision between $H_0$ and $H_1$; null-hypothesis significance testing (NHST) conflates the two; the Bayesian framework computes a posterior-predictive p-value and a Bayes factor against a posterior reference model. The note keeps the quantity and the decision rule separate, and files the four frameworks as formulations of the statistical significance validation — `Organization` → Statistical Significance Validation → Formulation.
 
 > **Third, time.** $p(X)$ is a random variable with a null distribution; $p(x)$ is a realized value. A p-value is not a property of $H_0$ that exists before the sample.
 
@@ -132,7 +132,7 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
-> Boundary: the table decomposes the p-value element under two kind branches — the representation (the quantity) and the operation (its calculation). Stopping rule: a row is terminal when it names a concrete quantity, model component, procedure, act, principle, test, or framework; the branches are not decomposed further here. Identity: every path is unique; instance rows are Title Case; type groupings are backticked; no type terminates a branch. Typing: the root is `Epistemic Element`; the p-value branch is `Epistemic Representation`, the calculation branch is `Epistemic Operation`; both are read as elements of inquiry.
+> Boundary: the table decomposes the p-value element under two kind branches — the representation (the quantity) and the operation (the statistical significance validation that computes it). Stopping rule: a row is terminal when it names a concrete quantity, model component, procedure, act, principle, test, or formulation; the branches are not decomposed further here. Identity: every path is unique; instance rows are Title Case; type groupings are backticked; no type terminates a branch. Typing: the root is `Epistemic Element`; the p-value branch is `Epistemic Representation`, the calculation branch is `Epistemic Operation`, organized as the statistical significance validation; both are read as elements of inquiry.
 
 | Instance Tree Path | Description |
 | --- | --- |
@@ -162,41 +162,42 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 | `Epistemic Element` → `Epistemic Representation` → `Representational System` → Quantitative Representation → `Constitutive Substrate` → `Property` → Stochasticity | The p-value is a random variable before the sample is drawn. |
 | `Epistemic Element` → `Epistemic Representation` → `Representational System` → Quantitative Representation → `Constitutive Substrate` → `Property` → Sample-Size Dependence | The null distribution, and often the p-value, changes with the sample size. |
 | `Epistemic Element` → `Epistemic Representation` → `Representational System` → Quantitative Representation → `Constitutive Substrate` → `Property` → Model Dependence | The p-value depends on the model, the statistic, and the ordering, not on $H_0$ alone. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` | Grouping: the organized operation that produces the p-value — the frameworks that fix its reading, and the methods and principles that realize it. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework | The technical formulation that fixes how a p-value is read: reference model, role of $\alpha$, licensed output, evidence claim, and error guarantee. A framework, not a theory. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → Fisherian Framework | Null-reference tail probability read as graded evidence; $\alpha$ is a reporting grade; no alternative, no accept/reject. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → Neyman–Pearson Framework | Null-and-alternative reference with pre-set $\alpha$ and power $\beta$; the p-value serves a rejection rule whose currency is error rates. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → NHST Framework | Fisher's tail probability run through Neyman–Pearson's threshold: a decision without an alternative or power, an evidence claim without severity. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → Bayesian Framework | Posterior-predictive reference: the Bayesian p-value and the Bayes factor replace the null tail and $\alpha$; a peer framework whose reference model is the posterior, not $H_0$. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` | Grouping: generalized ways of performing the statistical operation. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation | The organized class of operations that infer from sample to population under a statistical model. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference | Inference from sample to population under a model. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing | The method that evaluates $H_0$ against $H_1$ by a test statistic and a rejection rule. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` | Grouping: ordered routines within hypothesis testing. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation | The procedure that computes the p-value from the observed statistic and its null distribution. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` | Grouping: the steps of the p-value calculation. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → Test Statistic Computation | Compute $T(x)$ on the sample. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → Tail Probability Computation | Integrate or sum the null distribution over the critical region. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → Decision Comparison | Compare $p$ with the pre-specified $\alpha$. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → P-Value Report | Report the value with the test, model, sample size, and multiplicity correction. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` | Grouping: the tests that realize hypothesis testing. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → Z-Test | Test a mean or other parameter with a standard normal null distribution. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → T-Test | Test a mean with a $t$ null distribution and an estimated variance. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → Chi-Square Test | Test categorical frequencies or model fit with a chi-square null distribution. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → F-Test | Test variance ratios or model terms with an $F$ null distribution. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → Permutation Test | Build the null distribution by permuting observations or assignments. |
-| `Epistemic Element` → `Epistemic Operation` → `Action` | Grouping: the primitive acts of the calculation. |
-| `Epistemic Element` → `Epistemic Operation` → `Action` → Specify Hypothesis Act | Fix $H_0$, $H_1$, the model, and the test statistic. |
-| `Epistemic Element` → `Epistemic Operation` → `Action` → Choose Significance Level Act | Fix $\alpha$ before looking at the data. |
-| `Epistemic Element` → `Epistemic Operation` → `Action` → Compute Test Statistic Act | Evaluate $T(x)$ on the sample. |
-| `Epistemic Element` → `Epistemic Operation` → `Action` → Compute Tail Probability Act | Evaluate the probability of a statistic at least as extreme. |
-| `Epistemic Element` → `Epistemic Operation` → `Action` → Compare To Threshold Act | Apply the golden rule $p \le \alpha$. |
-| `Epistemic Element` → `Epistemic Operation` → `Action` → Report P-Value Act | Report the value with its test, model, and multiplicity context. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Principle` | Grouping: rules guiding the calculation and its use. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Principle` → Significance Principle | Reject $H_0$ at level $\alpha$ iff $p \le \alpha$. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Principle` → Severity Principle | Read the p-value as evidence only relative to a test with a good chance of detecting a false $H_0$. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Principle` → Multiplicity Principle | Adjust $\alpha$ or the p-values for multiple comparisons. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` → `Principle` → Model-Checking Principle | Check the model assumptions before reading the p-value. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` | Grouping: the organized operation that validates a model by statistical significance. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation | The practice that validates a model by asking how surprising the observed data are under it. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → Formulation | The formulation the practice adopts: reference model, quantity, role of $\alpha$, licensed output, evidence claim, and error guarantee. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → Formulation → Fisherian Formulation | Null-reference tail probability read as graded evidence; $\alpha$ is a reporting grade; no alternative, no accept/reject. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → Formulation → Neyman–Pearson Formulation | Null-and-alternative reference with pre-set $\alpha$ and power $\beta$; the p-value serves a rejection rule whose currency is error rates. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → Formulation → NHST Formulation | Fisher's tail probability run through Neyman–Pearson's threshold: a decision without an alternative or power, an evidence claim without severity. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → Formulation → Bayesian Formulation | Posterior-predictive reference: the Bayesian p-value and the Bayes factor replace the null tail and $\alpha$; a peer formulation whose reference model is the posterior, not $H_0$. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` | Grouping: generalized ways of performing the validation. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation | The organized class of operations that infer from sample to population under a statistical model. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference | Inference from sample to population under a model. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing | The method that evaluates $H_0$ against $H_1$ by a test statistic and a rejection rule. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` | Grouping: ordered routines within hypothesis testing. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation | The procedure that computes the p-value from the observed statistic and its null distribution. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` | Grouping: the steps of the p-value calculation. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → Test Statistic Computation | Compute $T(x)$ on the sample. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → Tail Probability Computation | Integrate or sum the null distribution over the critical region. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → Decision Comparison | Compare $p$ with the pre-specified $\alpha$. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Procedure` → P-Value Calculation → `Procedure` → P-Value Report | Report the value with the test, model, sample size, and multiplicity correction. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` | Grouping: the tests that realize hypothesis testing. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → Z-Test | Test a mean or other parameter with a standard normal null distribution. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → T-Test | Test a mean with a $t$ null distribution and an estimated variance. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → Chi-Square Test | Test categorical frequencies or model fit with a chi-square null distribution. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → F-Test | Test variance ratios or model terms with an $F$ null distribution. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Method` → Statistical Operation → Statistical Inference → Hypothesis Testing → `Method` → Permutation Test | Build the null distribution by permuting observations or assignments. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Action` | Grouping: the primitive acts of the calculation. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Action` → Specify Hypothesis Act | Fix $H_0$, $H_1$, the model, and the test statistic. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Action` → Choose Significance Level Act | Fix $\alpha$ before looking at the data. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Action` → Compute Test Statistic Act | Evaluate $T(x)$ on the sample. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Action` → Compute Tail Probability Act | Evaluate the probability of a statistic at least as extreme. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Action` → Compare To Threshold Act | Apply the golden rule $p \le \alpha$. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Action` → Report P-Value Act | Report the value with its test, model, and multiplicity context. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Principle` | Grouping: rules guiding the calculation and its use. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Principle` → Significance Principle | Reject $H_0$ at level $\alpha$ iff $p \le \alpha$. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Principle` → Severity Principle | Read the p-value as evidence only relative to a test with a good chance of detecting a false $H_0$. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Principle` → Multiplicity Principle | Adjust $\alpha$ or the p-values for multiple comparisons. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Statistical Significance Validation → `Principle` → Model-Checking Principle | Check the model assumptions before reading the p-value. |
 
 ### What is a critical conceptual evaluation of this `epistemic element instance`?
 
@@ -312,9 +313,9 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 > 5. the **evidence claim** the number is allowed to support;
 > 6. the **error guarantee** it carries.
 
-> The quantity is framework-neutral; the reading is not. The four frameworks are peers, not stages: each is a complete way of organizing the operation, with its own reference model and its own licensed output.
+> The quantity is framework-neutral; the reading is not. The four formulations are peers, not stages: each is a complete way of organizing the validation, with its own reference model and its own licensed output.
 
-| Framework | Reference model | Quantity | Role of $\alpha$ | Licensed output | Error guarantee |
+| Formulation | Reference model | Quantity | Role of $\alpha$ | Licensed output | Error guarantee |
 | --- | --- | --- | --- | --- | --- |
 | **Fisherian** | null distribution only | tail probability $p$ | reporting grade ($0.05$, $0.01$) | graded evidence against $H_0$ | none — no alternative, no power |
 | **Neyman–Pearson** | null and alternative | critical region, $p$ instrumental | pre-set Type I rate, with power $\beta$ | accept or reject $H_0$ | Type I and Type II rates, power |
@@ -323,7 +324,7 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 
 > The same number reads differently under each. Take $p = 0.03$: moderate evidence against $H_0$ (Fisherian); a rejection at $\alpha = 0.05$ with a known Type I rate (Neyman–Pearson); a publishable "significant" result (NHST); and, for the Bayesian, a posterior-predictive check that may or may not flag the model — the quantity of interest there is $P(H_0 \mid x)$ or the Bayes factor, not the tail probability.
 
-> The note keeps the quantity and the calculation framework-neutral: the decomposition files the four frameworks as instances of `Organization` → Inference Framework, and where a reading is required it uses severity — a p-value is evidence only relative to a test with a good chance of detecting a false $H_0$ — while treating $\alpha$ as a decision convention, not a property of the data.
+> The note keeps the quantity and the calculation framework-neutral: the decomposition files the four formulations under `Organization` → Statistical Significance Validation → Formulation, and where a reading is required it uses severity — a p-value is evidence only relative to a test with a good chance of detecting a false $H_0$ — while treating $\alpha$ as a decision convention, not a property of the data.
 
 
 
