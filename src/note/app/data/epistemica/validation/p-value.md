@@ -6,13 +6,17 @@ qa:
   - Do we have clearer or better definitions than "the probability of obtaining test results at least as extreme as the observed results, assuming H0 is true"?
   - Which common tests produce p-values, and from which null distributions?
   - What are the alternatives and complements to the p-value?
+  - What is a significance-level (p-value) framework?
   - **What are the problems with the following wording?** 'The p-value is the tail probability of a test statistic under the null model'.
   - Why is hypothesis testing is a form of model validation?
+  - Why is this useful 'The p-value is the probability under the null hypothesis of obtaining a real-valued test statistic at least as extreme as the one obtained '?
   
   - I find it difficult to interpret what it means to have \(p > 0.05\). Does this mean that we cannot reject the null hypothesis? What exactly do the tails tell us? Why is having a larger proportion of observations in the tail a reason not to reject the null hypothesis? Is this about how surprising the observed result is? If so, why?
 ---
 
 # P-Value
+
+> aka. Significance Level.
 
 > In this note, we introduce the **p-value** as a mechanism for evaluating a model of the population by using sample data to assess its consistency with the model.
 
@@ -28,7 +32,9 @@ qa:
 
 > A sensible way to approach  to this -- is to draw multiple samples (subsets of the population) and recompute the parameters of interest for each sample. The resulting values form an **empirical** sampling **distribution** of the inference parameter (statistic), let's called  \(T\). In statistical terminology, each computed value is called a **test statistic**.
 
-> This is the fundamental building block of any p-value calculation procedure. Computing a p-value involves **deriving a probability from the distribution of \(T\)**, typically by integrating over the **tails** - **extremes** (define relative to some **reference value**). In other words, it measures how unusual the tails are relative to the rest of the distribution. After this, we use a **decision threshold**, usually denoted by \(\alpha\), to determine whether the observed sample results are in accordance with the model or not.
+> This is the fundamental building block of any p-value calculation procedure. Computing a p-value involves **deriving a probability from the distribution of \(T\)**, typically by integrating over the **tails** - **extremes** (define relative to some **reference value**) (**our observation**). In other words, it measures how unusual the tails are relative to the rest of theelements in the distribution. After this, we use a **decision threshold**, usually denoted by \(\alpha\), to determine whether the observed sample results are in accordance with the model or not.
+
+> Note: This makes seems like a paradox (at least to me) but thin tails, will have a small p-value, meanin less probably, that is less consistent with what the model overall entails.
 
 > Note: In statistics, we never definitively prove or disprove a hypothesis; we simply evaluate and summarize the available evidence. This is because statistical models are not substantive descriptions of reality; they are surface-level representations of the aspects of reality captured by the observed data.
 
@@ -44,13 +50,65 @@ qa:
 
 > See [P-Value Atlas](data/epistemica/validation/atlas/pvalue.html) — the null distributions, their tail formulas, and a simulation lab.
 
+> The p-value is the **largest** probability, over all parameter values consistent with the null hypothesis, of observing a test statistic **at least as extreme** as the one actually observed — where "at least as extreme" is defined by a pre-specified ordering \(\succeq\).
+
+> Let:
+> 
+> - \(X = (X_1, \dots, X_n)\) be a random sample from a distribution \(P_\theta\), where \(\theta \in \Theta\).
+> - \(\Theta_0 \subseteq \Theta\) be the **null parameter space** (the set of parameter values consistent with \(H_0\)).
+> - \(T: \mathcal{X} \to \mathbb{R}\) be a **test statistic** (a measurable function of the sample).
+> - \(\succeq\) be a **total preorder** on the range of \(T\) (the "at least as extreme as" ordering).
+> - \(x\) be the **observed** sample, and \(t_{\text{obs}} = T(x)\) the observed value of the statistic.
+>
+> The **p-value** is defined as:
+>
+> \[
+\boxed{
+p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}}\big)
+}
+\]
+
+### Which are the parts of the technical formulation?
+
+
+1. **Sample and sample space**  
+   - **Technical:** \(X=(X_1,\dots,X_n)\), sample space \(\mathcal{X}\), observed sample \(x\in\mathcal{X}\).  
+   - **Intuition:** This is the data you actually got, and all the data you could have gotten.
+
+2. **Statistical model**  
+   - **Technical:** A family \(\{P_\theta:\theta\in\Theta\}\) plus assumptions such as independence, normality, identical distribution, etc.  
+   - **Intuition:** This is the assumed data-generating machine. It says what kinds of data are plausible under different parameter values.
+
+3. **Null hypothesis / null parameter space**  
+   - **Technical:** \(H_0:\theta\in\Theta_0\), where \(\Theta_0\subseteq\Theta\). Simple null: \(\Theta_0=\{\theta_0\}\). Composite null: \(\Theta_0\) has more than one value.  
+   - **Intuition:** This is the claim you are testing — the “boring” or “no effect” model you want to check against the data.
+
+4. **Test statistic**  
+   - **Technical:** A measurable function \(T:\mathcal{X}\to\mathbb{R}\), with observed value \(t_{\text{obs}}=T(x)\).  
+   - **Intuition:** This is the single number that summarizes how far the data are from what the null model expects.
+
+5. **Extremeness ordering**  
+   - **Technical:** A total preorder \(\succeq\) on the range of \(T\), defining “at least as extreme as.” It is induced by the alternative hypothesis, the likelihood ratio, or a convention such as equal-tailed or shortest-interval.  
+   - **Intuition:** This says which outcomes count as “more surprising” or “more against \(H_0\)” than the observed one. Without it, “at least as extreme” is undefined.
+
+6. **Null distribution / probability computation**  
+   - **Technical:** Compute  
+     \[
+     p(x)=\sup_{\theta\in\Theta_0} P_\theta\big(T(X)\succeq T(x)\big).
+     \]
+     For a simple null, this is just \(P_{\theta_0}(T(X)\succeq t_{\text{obs}})\).  
+   - **Intuition:** This is the actual tail probability: how often the test statistic would be at least as extreme as what you observed, if the null model were true. The supremum makes the p-value valid for composite nulls.
+
+
+### How to find p-values for different distributions?
+
 ![p-value](../assets/note/epistemica/validation/p-value.png)
 
 ### How to Interpret p-values?
 
 > To interpret \(p_{\mathrm{obs}}\), we introduce the significance threshold, or significance level, \(\alpha\). Comparing \(p_{\mathrm{obs}}\) with \(\alpha\) provides a decision criterion for evaluating the compatibility of \(t_{\mathrm{obs}}\) with the null hypothesis ($P_m$).
 
-> In research practice \(\alpha\) is set to 0.005.
+> In research practice \(\alpha\) is set to 0.05.
 
 ### What epistemic element type does this epistemic instance belong to?
 
@@ -64,7 +122,7 @@ qa:
 
 > **First, aspect.** The p-value is a quantity, the p-value calculation is an operation, the rule $p \le \alpha$ is a decision rule, and "evidence" is a role the quantity can play under a severity reading. Collapsing them into one type makes "p-value" equivocal.
 
-> **Second, framework.** Fisher's p-value is a continuous measure of evidence against $H_0$ without a specified alternative; the Neyman–Pearson framework uses a pre-specified $\alpha$, a power $\beta$, and a decision between $H_0$ and $H_1$; null-hypothesis significance testing (NHST) conflates the two. The note keeps the quantity and the decision rule separate.
+> **Second, framework.** Fisher's p-value is a continuous measure of evidence against $H_0$ without a specified alternative; the Neyman–Pearson framework uses a pre-specified $\alpha$, a power $\beta$, and a decision between $H_0$ and $H_1$; null-hypothesis significance testing (NHST) conflates the two; the Bayesian framework computes a posterior-predictive p-value and a Bayes factor against a posterior reference model. The note keeps the quantity and the decision rule separate, and files the four frameworks as instances of `Organization` → Inference Framework.
 
 > **Third, time.** $p(X)$ is a random variable with a null distribution; $p(x)$ is a realized value. A p-value is not a property of $H_0$ that exists before the sample.
 
@@ -74,7 +132,7 @@ qa:
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
-> Boundary: the table decomposes the p-value element under two kind branches — the representation (the quantity) and the operation (its calculation). Stopping rule: a row is terminal when it names a concrete quantity, model component, procedure, act, principle, or test; the branches are not decomposed further here. Identity: every path is unique; instance rows are Title Case; type groupings are backticked; no type terminates a branch. Typing: the root is `Epistemic Element`; the p-value branch is `Epistemic Representation`, the calculation branch is `Epistemic Operation`; both are read as elements of inquiry.
+> Boundary: the table decomposes the p-value element under two kind branches — the representation (the quantity) and the operation (its calculation). Stopping rule: a row is terminal when it names a concrete quantity, model component, procedure, act, principle, test, or framework; the branches are not decomposed further here. Identity: every path is unique; instance rows are Title Case; type groupings are backticked; no type terminates a branch. Typing: the root is `Epistemic Element`; the p-value branch is `Epistemic Representation`, the calculation branch is `Epistemic Operation`; both are read as elements of inquiry.
 
 | Instance Tree Path | Description |
 | --- | --- |
@@ -104,7 +162,12 @@ qa:
 | `Epistemic Element` → `Epistemic Representation` → `Representational System` → Quantitative Representation → `Constitutive Substrate` → `Property` → Stochasticity | The p-value is a random variable before the sample is drawn. |
 | `Epistemic Element` → `Epistemic Representation` → `Representational System` → Quantitative Representation → `Constitutive Substrate` → `Property` → Sample-Size Dependence | The null distribution, and often the p-value, changes with the sample size. |
 | `Epistemic Element` → `Epistemic Representation` → `Representational System` → Quantitative Representation → `Constitutive Substrate` → `Property` → Model Dependence | The p-value depends on the model, the statistic, and the ordering, not on $H_0$ alone. |
-| `Epistemic Element` → `Epistemic Operation` → `Organization` | Grouping: the organized operation that produces the p-value. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` | Grouping: the organized operation that produces the p-value — the frameworks that fix its reading, and the methods and principles that realize it. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework | The technical formulation that fixes how a p-value is read: reference model, role of $\alpha$, licensed output, evidence claim, and error guarantee. A framework, not a theory. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → Fisherian Framework | Null-reference tail probability read as graded evidence; $\alpha$ is a reporting grade; no alternative, no accept/reject. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → Neyman–Pearson Framework | Null-and-alternative reference with pre-set $\alpha$ and power $\beta$; the p-value serves a rejection rule whose currency is error rates. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → NHST Framework | Fisher's tail probability run through Neyman–Pearson's threshold: a decision without an alternative or power, an evidence claim without severity. |
+| `Epistemic Element` → `Epistemic Operation` → `Organization` → Inference Framework → Bayesian Framework | Posterior-predictive reference: the Bayesian p-value and the Bayes factor replace the null tail and $\alpha$; a peer framework whose reference model is the posterior, not $H_0$. |
 | `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` | Grouping: generalized ways of performing the statistical operation. |
 | `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation | The organized class of operations that infer from sample to population under a statistical model. |
 | `Epistemic Element` → `Epistemic Operation` → `Organization` → `Method` → Statistical Operation → Statistical Inference | Inference from sample to population under a model. |
@@ -238,6 +301,32 @@ qa:
 > - **Replication and pre-registration** — the design features that make a significance claim credible.
 > - **Power analysis** — the probability of detecting an effect of a given size before the data are collected.
 
+### What is a significance-level (p-value) framework?
+
+> A framework is the **technical formulation** that fixes how a p-value is read. It is not a theory of inference — it claims no mechanism — and it is not the calculation either: the same tail probability can be produced under any of them. What a framework fixes is the bundle of conventions around the quantity:
+
+> 1. the **reference model** against which extremeness is judged — null distribution, null-and-alternative pair, or posterior predictive;
+> 2. the **quantity** computed and reported — tail probability, rejection indicator, Bayesian p-value, Bayes factor;
+> 3. the **role of $\alpha$** — reporting grade, pre-set error rate, decision threshold, or nothing;
+> 4. the **licensed output** — graded evidence, accept/reject, "significant", belief update;
+> 5. the **evidence claim** the number is allowed to support;
+> 6. the **error guarantee** it carries.
+
+> The quantity is framework-neutral; the reading is not. The four frameworks are peers, not stages: each is a complete way of organizing the operation, with its own reference model and its own licensed output.
+
+| Framework | Reference model | Quantity | Role of $\alpha$ | Licensed output | Error guarantee |
+| --- | --- | --- | --- | --- | --- |
+| **Fisherian** | null distribution only | tail probability $p$ | reporting grade ($0.05$, $0.01$) | graded evidence against $H_0$ | none — no alternative, no power |
+| **Neyman–Pearson** | null and alternative | critical region, $p$ instrumental | pre-set Type I rate, with power $\beta$ | accept or reject $H_0$ | Type I and Type II rates, power |
+| **NHST** | null only, with a threshold applied | Fisher's $p$ | decision threshold | "significant / not significant" | nominal $\alpha$ only, often not attained in practice |
+| **Bayesian** | posterior predictive | Bayesian p-value, Bayes factor | replaced by a posterior or loss threshold | posterior belief and evidence ratio | calibration to the declared prior |
+
+> The same number reads differently under each. Take $p = 0.03$: moderate evidence against $H_0$ (Fisherian); a rejection at $\alpha = 0.05$ with a known Type I rate (Neyman–Pearson); a publishable "significant" result (NHST); and, for the Bayesian, a posterior-predictive check that may or may not flag the model — the quantity of interest there is $P(H_0 \mid x)$ or the Bayes factor, not the tail probability.
+
+> The note keeps the quantity and the calculation framework-neutral: the decomposition files the four frameworks as instances of `Organization` → Inference Framework, and where a reading is required it uses severity — a p-value is evidence only relative to a test with a good chance of detecting a false $H_0$ — while treating $\alpha$ as a decision convention, not a property of the data.
+
+
+
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
@@ -257,6 +346,10 @@ qa:
 - Mayo, D. G. (2018). *Statistical Inference as Severe Testing: How to Get Beyond the Statistics Wars*. Cambridge University Press.
 - Fisher, R. A. (1925). *Statistical Methods for Research Workers*. Oliver and Boyd.
 - Neyman, J., & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses. *Philosophical Transactions of the Royal Society of London. Series A*, 231(694–706), 289–337.
+- Jeffreys, H. (1939). *Theory of Probability*. Oxford University Press.
+- Meng, X.-L. (1994). Posterior predictive p-values. *The Annals of Statistics*, 22(3), 1142–1160.
+- Kass, R. E., & Raftery, A. E. (1995). Bayes factors. *Journal of the American Statistical Association*, 90(430), 773–795.
+- Gelman, A. (2013). P values and statistical practice. *Epidemiology*, 24(1), 69–72.
 - Thiese, M. S., Ronna, B., & Ott, U. (2016). P value interpretations and considerations. *Journal of Thoracic Disease*, 8(9), E928.
 - Thisted, R. A. (1998). What is a P-value. Departments of Statistics and Health Studies.
 - Meehl, P. E. (1967). Theory-testing in psychology and physics: A methodological paradox. Philosophy of Science, 34(2), 103–115. http://www.jstor.org/stable/10.2307/186099
@@ -270,3 +363,9 @@ qa:
 - [Statistics: P values are just the tip of the iceberg](https://news.ycombinator.com/item?id=9463806&utm_source=chatgpt.com)
 - [P-Values are not Error Probabilities](https://news.ycombinator.com/item?id=9330076)
 - [What is the meaning of p values and t values in statistical tests?](https://stats.stackexchange.com/questions/31/what-is-the-meaning-of-p-values-and-t-values-in-statistical-tests)
+- [P-values and significance tests](https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-categorical-proportions/idea-significance-tests/v/p-values-and-significance-tests)
+- [Power](https://en.wikipedia.org/wiki/Power_(statistics))
+- [Lies, Damn Lies, and Statistics... P-Hacking](https://www.youtube.com/watch?v=Et9pORQHR2A)
+- [Fisher's exact test](https://en.wikipedia.org/wiki/Fisher%27s_exact_test)
+
+
