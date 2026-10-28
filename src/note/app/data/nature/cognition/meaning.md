@@ -36,7 +36,7 @@ qa:
 | **Contextual and pragmatic** | Meaning is **shaped by situational context, speaker intention, and cultural conventions**, making it flexible and interpretive. |
 | **Mental (Cognitive)** | Meaning exists in the **mind as mental representations, schemas, or interpretants**, linking signs to objects and experiences. |
 
-### What is this natural instance?
+### What is this ontic instance?
 
 > Naturally described, this is the listener's **cognitive system**: a self-maintaining organization of mechanisms — perception, memory, categorization, inference — that takes in a sign, resolves what it is about, and changes its own dispositions accordingly. The system is not a passive container: its states are what carry the content, and its mechanisms are what make the carrying non-accidental.
 
@@ -44,28 +44,111 @@ qa:
 
 > The bearer is the system; the sign and the referent are relata of its states, not materials of the standing. Reading them as parts is the category error this decomposition is built to avoid: a cave can be what a meaning is about, never what it is made of.
 
-### What natural element type does this natural instance belong to?
+### What ontic element type does this ontic instance belong to?
 
 > **`Natural System`**, specialized twice: `Natural System` `(→ Kind)` `Complex System` — content is a system-level regularity that resists component-level reduction, since no single mechanism carries it — and then `(→ Kind)` `Cognitive System`, a **weak-form kind** bound through the generic link form, because the guide's table has no row naming it. The bound instance is `Listener's Cognitive System`.
 
 > **Readable as …, never merged.** Further readings grow their own trees: readable as **`Organism`** — the system is realized by one organism, and that narrower tree decomposes the body that bears it; readable as **`Phenomenon`** — the standing regularity over many comprehension episodes, which is the macro reading of the same name; readable as **`Ontic Element Set`** — a distributed or collective cognitive system spanning persons and artefacts, a different node at a different level.
 
+### Which limitation factors bound this description?
+
+> Six, recorded as rows above: **partial observability** (states inferred from report), **non-repeatability** (no two episodes identical), **emergence** (the standing is in no single mechanism), **irreducibility** (episode and standing do not explain each other), **uncertainty** (absent or ambiguous referents), and **measurement disturbance** (elicitation changes the state). Complexity and nonlinearity enter with the system reading itself; they are not separate rows.
+
+###  Which are the definitions of the term meaning?
+
+| **Source** | **Definition** |
+|---|---|
+| General English | The sense, content, or idea conveyed by a word, expression, sign, symbol, action, or phenomenon. |
+| Lexicography | The sense or concept associated with a word or expression, as recorded in a dictionary. |
+| Linguistics | The content conventionally associated with a linguistic expression. |
+| Lexical semantics | The semantic content associated with a lexical item, such as a word or morpheme. |
+| Compositional semantics | The semantic content of a complex expression determined by the meanings of its constituent parts and the rules by which they combine. |
+| Sentence semantics | The semantic content expressed by a sentence, independently of particular circumstances of its utterance. |
+| Formal semantics | The semantic interpretation of linguistic expressions, characterized using formal structures, mathematical models, or interpretation functions. |
+| Truth-conditional semantics | The content of an expression characterized by the conditions under which it is true or false. |
+| Referential semantics | The relation between a linguistic expression and the entity, object, or state of affairs to which it refers. |
+| Fregean semantics | Meaning distinguished into *sense* (Sinn), the mode of presentation of a referent, and *reference* (Bedeutung), the entity or truth value associated with an expression. |
+| Millian semantics | The meaning or semantic contribution of a proper name is its referent, rather than a distinct descriptive sense. |
+| Intensional semantics | The content of an expression characterized in terms of its extension across possible worlds or circumstances of evaluation. |
+| Possible-worlds semantics | Semantic content analyzed through the possible worlds in which an expression is true or the entities it designates in those worlds. |
+| Structuralist linguistics | The value of a linguistic expression determined by its differences and relationships with other expressions within a linguistic system. |
+| Saussurean semiology | The linguistic sign understood through the association of a signifier (sound-image) with a signified (concept). |
+| Semiotics | Meaning understood through the relations among signs, what they signify, and their interpretation. |
+| Charles Sanders Peirce's semiotics | Signification understood through a triadic relation among a sign, its object, and its interpretant. |
+| Charles Morris's semiotics | Signification examined through relations among signs, their designata, and interpreters, with distinctions among syntactics, semantics, and pragmatics. |
+| Pragmatics | The content communicated by an utterance as determined by linguistic conventions and the context in which it is used. |
+| Paul Grice's theory of speaker meaning | The content a speaker intends an audience to recognize through the speaker's communicative intention. |
+| Gricean implicature | Additional content communicated through an utterance that is inferred from context, conversational principles, and the speaker's presumed intentions rather than encoded literally. |
+| Speech-act theory | The communicative force or action performed in uttering an expression, such as asserting, promising, requesting, or declaring. |
+| Use theory of meaning | The meaning of an expression understood in terms of how it is used within linguistic practices. |
+| Later Wittgenstein | Meaning understood through the use of an expression within language-games and forms of life. |
+| Inferentialism | The meaning of an expression determined by its role in inferential relations, including the commitments and consequences associated with using it. |
+| Conceptual-role semantics | Meaning determined by the role a representation plays within a system of concepts, beliefs, and cognitive processes. |
+| Cognitive semantics | Meaning understood through conceptualization, mental structures, embodied experience, and cognitive processes. |
+| Mentalist theories | Meaning associated with mental representations, concepts, or other cognitive states underlying linguistic expressions. |
+| Representational theories | Meaning understood in terms of what a representation represents, depicts, or stands for. |
+| Information-based theories | Meaning analyzed in terms of the information conveyed by a signal or representation relative to a receiver, system, or context. |
+| Shannon information theory | Information quantified as uncertainty reduction or the information content of possible signals; this is a technical notion of information, not a general theory of semantic meaning. |
+| Causal theories of reference | The reference of an expression explained through causal-historical chains connecting its use to the entity it designates. |
+| Referential theories of mental content | The content of a mental state understood partly in terms of the objects, properties, or states of affairs to which it relates. |
+| Verificationism | The meaning of a statement connected to the conditions or methods through which its truth could be verified or empirically confirmed. |
+| Logical positivism | The cognitive significance of a statement associated with its logical or empirical conditions of verification, subject to differences among individual formulations of the view. |
+| Inferential theories of logical meaning | The meaning of logical expressions characterized through the rules governing valid inferences involving them. |
+| Model-theoretic semantics | The interpretation of expressions specified relative to a mathematical structure or model. |
+| Dynamic semantics | Meaning characterized in terms of the potential of an expression to update a context or information state. |
+| Discourse representation theory | Discourse meaning represented through structures that track entities, conditions, and relations introduced or established across discourse. |
+| Contextualism | The content expressed by an utterance depends, in relevant cases, on contextual features that help determine what is said. |
+| Semantic minimalism | The proposition expressed by a sentence is determined by its linguistic meaning and relatively limited contextual contributions. |
+| Relativism about meaning or truth | The truth or interpretation of certain expressions or propositions is evaluated relative to a context, perspective, or parameter of assessment. |
+| Hermeneutics | Meaning understood as the content or significance disclosed through the interpretation of texts, actions, and other expressions within historical and cultural contexts. |
+| Literary criticism | Meaning understood as the significance or interpretation of a literary work, potentially involving authorial intention, textual structure, historical context, and reader response. |
+| Authorial intentionalism | The meaning of a text understood primarily through the author's communicative intentions. |
+| Reader-response theory | Meaning understood in terms of the interpretive activity through which readers engage with and make sense of a text. |
+| Social constructivism | Meaning understood as shaped or established through social practices, shared conventions, and collective processes of interpretation. |
+| Cultural anthropology | Meaning understood through the symbols, practices, values, and interpretive systems through which members of a culture make sense of their world. |
+| Psychological theories | Meaning understood as the significance, associations, or representations that a stimulus, word, event, or experience has for an individual. |
+| Developmental psychology | Meaning understood in terms of how individuals acquire, construct, and develop representations and interpretations of objects, words, events, and experiences. |
+| Neuroscience of semantics | Meaning investigated through the neural processes associated with semantic representation, retrieval, integration, and comprehension. |
+| Embodied cognition | Meaning understood partly through the perceptual, motor, bodily, and experiential systems involved in cognition. |
+| Connectionist theories | Meaning represented through patterns of activation and relationships within distributed networks of processing units. |
+| Pragmatism | Meaning or intellectual content understood through practical consequences, conceivable effects, or the role an idea plays in inquiry and action, depending on the particular theory. |
+| Charles Sanders Peirce's pragmatic maxim | The meaning of a conception is clarified by identifying the conceivable practical effects that its object could have. |
+| William James's pragmatism | The meaning or significance of an idea is examined through its practical bearings and consequences within experience. |
+| Existential philosophy | Meaning understood as purpose, significance, or value in human existence, often in relation to freedom, responsibility, and the construction or discovery of purpose. |
+| Philosophy of life | Meaning understood as the purpose, significance, or intelligible direction of an individual's life or existence. |
+| Ethics | The significance or moral meaning of an action, intention, practice, or state of affairs, including its moral implications and value. |
+| Axiology | Meaning related to the value or importance attributed to an object, action, experience, or state of affairs. |
+| Teleology | Meaning understood in terms of the purpose, end, or goal toward which an entity, process, or action is directed. |
+| Functional explanation | The significance of an element understood through the function it performs within a larger system. |
+| Biological teleosemantics | The semantic content of a representation explained partly through its biological function, evolutionary history, or role in an organism's regulatory systems. |
+| Biosemiotics | Meaning and sign processes studied in living systems, including communication, recognition, and the interpretation of biological signals. |
+| Organizational theory | Meaning understood as the significance assigned to events, actions, roles, and practices within an organization through interpretation and shared understandings. |
+| Sensemaking theory | Meaning understood as the interpretation and construction of a plausible account of events that enables people to orient themselves and act. |
+| Information systems research | Meaning understood as the interpretation or significance of information for users within particular tasks, organizational contexts, and decision processes. |
+| Communication theory | Meaning understood as the content, interpretation, or intended significance transmitted or negotiated through communication. |
+| Media studies | Meaning understood as the significance produced through the interaction of media texts, representational conventions, audiences, and social contexts. |
+| Information science | Meaning understood as the semantic content or interpreted significance of information in relation to a conceptual system, user, or task. |
+| Semiotic approaches to computation | Meaning understood through the interpretation of symbols or representations relative to a system's rules, operations, or interpreting agents. |
+| Artificial intelligence | Meaning understood, depending on the approach, as semantic content represented computationally, the interpretation of symbols, or the role representations play in inference and action. |
+| Database semantics | The interpretation of data in terms of the entities, properties, relationships, and constraints that the data represents within a specified domain. |
+| Ontology and knowledge representation | Meaning understood through the entities, properties, relations, and conceptual commitments associated with a term or representation in a specified domain. |
+| Mathematical semantics | The interpretation assigned to mathematical expressions, symbols, and formal languages under specified rules and structures. |
+| Legal interpretation | The meaning of a legal text or provision as determined through interpretive methods, linguistic conventions, legal context, institutional practices, and applicable doctrines. |
+| Religious studies | Meaning understood as the significance, purpose, or sacred interpretation attributed to texts, symbols, rituals, experiences, and existence within religious traditions. |
+| Music theory | Meaning understood as the expressive, structural, affective, or culturally interpreted significance of musical sounds and compositions. |
+| Art theory | Meaning understood as the significance or interpretation of an artwork in relation to its formal properties, production, context, and reception. |
+| General philosophical usage | The content, significance, or import of an expression, action, object, event, or experience. |
+| General usage: significance | The importance, consequence, or relevance of something. |
+| General usage: purpose | The end, aim, or objective that an action, activity, object, or process is intended to achieve. |
+| General usage: intention | The idea, message, or purpose that someone intends to convey or accomplish. |
+| General usage: implication | A consequence, inference, or additional proposition suggested or entailed by something. |
+| General usage: explanation | The underlying idea, rationale, or interpretation that makes an expression, action, or event intelligible. |
+| General usage: symbolization | The person, object, idea, or concept represented by a sign, symbol, image, or other representational form. |
+| General usage: interpretation | The understanding or account assigned to an expression, action, event, or object. |
+
 ### Is the type of this natural element instance ambiguous?
 
-> Yes, and the guide's own table settles most of the readings by what they can reach.
-
-| Reading | What it reaches | Why it is not the root |
-| --- | --- | --- |
-| `Natural System` → `Complex System` → `Cognitive System` | Parts, components, occurrences, attributes, situation, substrate, bounds — the whole furniture of one bearer | — chosen: the only reading that reaches mechanisms, processes, content-bearing states and their bounds in one tree |
-| `Organism` | Adaptation and living process, plus generic attributes, situation, substrate, bounds | A body is not a cognitive system: this reading loses the mechanisms and the content-bearing states, which sit at the system level |
-| `Phenomenon` | States and trajectories it is predicated over, plus attributes, situation, substrate, bounds | It is the standing over episodes, not the bearer; it enters this tree as the node `Meaning`, predicated over the trajectory, and as the macro reading |
-| `Ontic Element Set` | Members of any ontic type, plus attributes, situation, substrate, bounds | A distributed system is a different node at a different level; typing it here would merge two systems into one |
-
-> **The weak-form kind.** `Cognitive System` is not in the guide's type table. It is used here because the generic form binds parent, label and child slots, and because the alternative — calling the root only `Complex System` — would make the note's central claim invisible in its own type path. The two weak-form bindings in the tree (`Cognitive System` as a kind, `Meaning` as a part) are marked as such; adding `Cognitive System` to the guide's table upstream would remove the need for both.
-
-### At which level of organization does this instance sit?
-
-> **Meso** — one cognitive system, at the level of its mechanisms and content-bearing states. The micro level (neural population dynamics, synaptic plasticity) grows under its own roots and is cross-linked; the macro level (a community's shared repertoire, distributed cognition across persons and artefacts) is the `Ontic Element Set` reading. The same name at two levels denotes two nodes.
+> ...
 
 ### What is the recursive instance decomposition of this natural instance?
 
@@ -124,22 +207,9 @@ qa:
 | `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System` `(→ Kind)` `Complex System` `(→ Kind)` `Cognitive System` `(→ Instance)` Listener's Cognitive System `(→ Bound)` `Limitation Factor` `(→ Instance)` Uncertainty | Referent identification is probabilistic whenever the referent is absent, ambiguous, or fictional. |
 | `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Natural System` `(→ Kind)` `Complex System` `(→ Kind)` `Cognitive System` `(→ Instance)` Listener's Cognitive System `(→ Bound)` `Limitation Factor` `(→ Instance)` Measurement Disturbance | Eliciting an interpretation — asking what a word means — changes the state it reports. |
 
-> **The same type, bound elsewhere.** Each of these is its own decomposition root, not a part of the listener's system:
->
-> - **Forager's cognitive system** — mechanisms and states of a minimal nervous system; the standing is a flight vector, a state with no reportable content, only a motor consequence; the sign is a locomotor pattern on the comb, the referent a 400 m patch.
-> - **Vervet's cognitive system** — the referent is a predator *class* rather than a particular; the standing is a disposition (arboreal escape readiness), identified by what it readies, not by what it represents.
-> - **Surveyor's cognitive system** — the sign is an ink mark that outlives its producer, the referent a gauged reach with an official identifier, and the standing is stabilized by an institution; the institutional part is synontic and is cross-linked, not typed here.
-> - **Quorum-sensing population** — *not* a cognitive system under this typing. It has sign, covariance and behavioural effect, but no system-level states that carry content in the sense this tree requires. This is the boundary the re-rooting buys and its cost: the case that made meaning look independent of minds now falls outside the concept.
+### What is table of epistemic elements instances useful in the study of this ontic instance?
 
-> **What the decomposition does not claim.** It does not claim that semantic content is physical, nor that the content is a row of this tree: content is information, information is meta-ontic, and what the tree types is the bearer, its states, and the measurable covariance between those states and the world. The standing is a `Phenomenon` in the guide's sense — a pattern predicated over a state-trajectory — and the trajectory is a row, which is why the pattern is not an extra entity.
-
-> **Artificial systems.** An LLM's token use is a techno-natural hybrid: one root here (a candidate cognitive system with mechanisms and states, if the reading holds), one root under the [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (the model as a technical element). The table above does not claim it.
-
-### Which limitation factors bound this description?
-
-> Six, recorded as rows above: **partial observability** (states inferred from report), **non-repeatability** (no two episodes identical), **emergence** (the standing is in no single mechanism), **irreducibility** (episode and standing do not explain each other), **uncertainty** (absent or ambiguous referents), and **measurement disturbance** (elicitation changes the state). Complexity and nonlinearity enter with the system reading itself; they are not separate rows.
-
-### What is a critical conceptual evaluation of this natural element instance?
+### What is a critical conceptual evaluation of this ontic element instance?
 
 > Evaluated against the [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md): the concept under evaluation is **meaning as a content-bearing constituent of a cognitive system**, not the word *meaning* in its dictionary, Fregean, Tarskian or technical senses.
 
@@ -157,19 +227,6 @@ qa:
 
 > **What would strengthen it.** Add `Cognitive System` to the guide's type table upstream, with `Complex System (→ Kind) Cognitive System` and a licensed part or attribute link for content-bearing standings — that would remove both weak-form bindings. Add one non-circular criterion for the bearer (a system whose states are used by the system itself to regulate its own uptake) — that would decide the quorum case instead of stipulating it. Both are changes to the guide and the concept, not to the tree.
 
-## Definition
-
-> Which are the definitions of the term meaning?
->
-
-| **Source / Domain** | **Definition** |
-| --- | --- |
-| **Dictionary (general)** | The thing that a word, symbol, or sign represents or expresses. |
-| **Philosophy of Language** | The relation between linguistic expressions and the entities or states of affairs they stand for (*reference*), or the way expressions present their referents (*sense*). |
-| **Semiotics** | The signified content conveyed by a sign within a system of signs. |
-| **Cognitive Science / Psychology** | The mental representation or content associated with a symbol, concept, or perceptual experience. |
-| **Pragmatics** | The meaning derived from the context of use, speaker intention, and situational factors. |
-| **Computational / AI** | The formal or encoded content that allows systems to manipulate, reason, or act upon data. |
 
 ## Theory
 
