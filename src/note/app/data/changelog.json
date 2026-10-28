@@ -10652,7 +10652,9 @@
       {
         "date": "2026-10-28",
         "kind": "docs",
-        "summary": "Point the common-tests table at the full procedure space in Statistical Hypothesis Testing and drop the duplicated conventions heading."
+        "summary": "Point the common-tests table at the full procedure space in Statistical Hypothesis Testing and drop the duplicated conventions heading.",
+        "commit": "f1a1b4674239cfba4898b1f33a859c8d6b8197a5",
+        "before": "3f588c7f7a7215196a58ba0e55e66aef20d7c457"
       }
     ]
   },
@@ -10724,7 +10726,9 @@
       {
         "date": "2026-10-28",
         "kind": "docs",
-        "summary": "Add the statistical-test families section and the taxonomy question, and tie the choice of test to the p-value."
+        "summary": "Add the statistical-test families section and the taxonomy question, and tie the choice of test to the p-value.",
+        "commit": "f1a1b4674239cfba4898b1f33a859c8d6b8197a5",
+        "before": "3f588c7f7a7215196a58ba0e55e66aef20d7c457"
       }
     ]
   },
