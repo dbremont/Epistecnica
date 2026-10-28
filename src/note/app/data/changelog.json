@@ -10666,7 +10666,9 @@
       {
         "date": "2026-10-28",
         "kind": "docs",
-        "summary": "Move the decomposition note and the compatibility statement above their tables."
+        "summary": "Move the decomposition note and the compatibility statement above their tables.",
+        "commit": "d6ac66626223f7b1623de82372f046f1bd7bf57f",
+        "before": "c2238697a631c4061af60b2b36d53f457b251fc4"
       }
     ]
   },
