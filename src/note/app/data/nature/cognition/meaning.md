@@ -18,9 +18,6 @@ qa:
 >
 
 > How a mental entity related, it’s interpreted, refers to things (internal, external) to the mind, etc?
->
-
-## Index
 
 ## Formulation
 
@@ -38,14 +35,6 @@ qa:
 | **As a structured system** | Meaning involves **networks of concepts, properties, relations, and categories** that combine according to linguistic, cognitive, and social rules. |
 | **Contextual and pragmatic** | Meaning is **shaped by situational context, speaker intention, and cultural conventions**, making it flexible and interpretive. |
 | **Mental (Cognitive)** | Meaning exists in the **mind as mental representations, schemas, or interpretants**, linking signs to objects and experiences. |
-
-## Natural Characterization
-
-> **Segment cut.** The natural instance is a **cognitive system in its content-bearing work**: the organization whose states carry information about a referent and steer what the system does next. **Included:** the system, its mechanisms, the comprehension process, the states that bear content, the measurable properties of that bearing, the sign and the referent as *relata*, the substrate, the environment, and the bounds. **Excluded:** the content itself — information is meta-ontic and decomposes under the [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md), so this tree types the bearer and its states, not the proposition; the convention and the norm — synontic, under the [Philosophia Socialium et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-socialium-et-operis.md); truth-conditional value; and the technical model, under the [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md).
-
-> **Bound instance.** The tree is bound to **one listener's cognitive system** during the cave utterance — the note's worked case — so that every row names a particular of that system rather than a type that might occur in any system. The forager's and the vervet's cognitive systems are *separate decompositions of the same type*, not parts of this one; the quorum-sensing population is not a cognitive system under this typing at all, which is the cost of the choice and is recorded in the evaluation below.
-
-> **Path form.** Every path begins at `Ontic Element`, descends through `(→ Kind)` links to the instance's type, binds the root with `(→ Instance)`, and appends each child by exactly one labelled link. Rows whose pair is licensed by the generic link form `<<Ontic Element>> (→ <<Relationship Type>>) <<Ontic Element>>` rather than by a specific row of the `Permitted Link Forms` table are marked **weak form**: their slots are bound (parent type, relationship label, child type), which is what the template requires, and nothing more is claimed. Every other row conforms to a specific table row. No bare arrow appears and no type row terminates a branch. Every row is **meso**.
 
 ### What is this natural instance?
 
@@ -374,7 +363,3 @@ Let used a Case Study:
 - Skyrms, B. (2010). *Signals: Evolution, Learning, and Information*. Oxford University Press.
 - von Frisch, K. (1967). *The Dance Language and Orientation of Bees*. Harvard University Press.
 - Cheney, D. L., & Seyfarth, R. M. (1990). *How Monkeys See the World*. University of Chicago Press.
-
-## Provenance
-
-- Notion export: `Modelo/Human/Cognitive/Conceptual Model Cognition/Meaning acc31f47ef8c456e8c9e06493f3707bc.md`
