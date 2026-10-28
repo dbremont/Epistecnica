@@ -10648,6 +10648,11 @@
         "summary": "Reorganize the operation branch under Statistical Significance Validation and name its four formulations (Fisherian, Neyman–Pearson, NHST, Bayesian).",
         "commit": "04cea4019002cc9996637b39a59d5ee4c12c981e",
         "before": "a6590e82ae05d26672842be91ed733cf2b8d05a7"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "docs",
+        "summary": "Point the common-tests table at the full procedure space in Statistical Hypothesis Testing and drop the duplicated conventions heading."
       }
     ]
   },
@@ -10715,6 +10720,11 @@
         "summary": "Point the Model Validation and E-values links at validation.md and e-value.md.",
         "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
         "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "docs",
+        "summary": "Add the statistical-test families section and the taxonomy question, and tie the choice of test to the p-value."
       }
     ]
   },

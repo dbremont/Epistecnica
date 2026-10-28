@@ -214,8 +214,6 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 
 ### What are the conventions for interpreting a p-value and determining the range of a p-value calculation procedure?
 
-### What are the conventions for interpreting a p-value and determining the range of a p-value calculation procedure?
-
 > **Range.** A p-value lies in the interval \([0,1]\). It is calculated from the observed test statistic and its reference distribution under the null hypothesis. For a continuous test statistic and a valid p-value, the p-value follows a uniform distribution on \([0,1]\) under \(H_0\). For discrete test statistics, the p-value generally has a discrete distribution and is conservative: \(P(p \leq \alpha \mid H_0) \leq \alpha\).
 
 > **Interpretation.** The p-value measures how extreme the observed test statistic is relative to its reference distribution under \(H_0\). A small p-value indicates that the observed statistic falls in a region that would be relatively unusual if the null hypothesis were true. It does not measure the probability that \(H_0\) is true, nor does it measure the probability that the observed data arose by chance.
@@ -283,6 +281,8 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 | **Chi-square test** | $\chi^2 = \sum (O_i - E_i)^2 / E_i$ | chi-square with the appropriate degrees of freedom | upper-tail probability |
 | **F-test (ANOVA)** | $F = MS_{\text{between}}/MS_{\text{within}}$ | $F$ with the appropriate degrees of freedom | upper-tail probability |
 | **Permutation test** | any test statistic | permutation distribution under exchangeability | proportion of permuted statistics at least as extreme |
+
+> The full procedure space — parametric, rank-based, exact, resampling, survival — and the assumptions each type carries are in [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md).
 
 ### Why Is Hypothesis Testing a Form of Model Validation?
 
