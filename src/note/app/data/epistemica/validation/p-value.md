@@ -248,6 +248,8 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 
 ### What are the properties of a p-value?
 
+> The decomposition files the structural ones as `Constitutive Substrate` → `Property`; the table adds level validity, monotonicity, ordering dependence, and sensitivity to the sampling plan.
+
 | Property | Description |
 | --- | --- |
 | **Range** | \(p(x) \in [0,1]\): it is a probability computed under \(H_0\). |
@@ -261,9 +263,9 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 | **Sensitivity to the sampling plan** | \(p\) is not valid under optional stopping or data-dependent sampling; the stopping rule is part of the test (unlike e-values). |
 | **Not a property of \(H_0\)** | \(p\) is a property of the data relative to a test specification, not of the hypothesis. |
 
-> The decomposition files the structural ones as `Constitutive Substrate` → `Property`; the table adds level validity, monotonicity, ordering dependence, and sensitivity to the sampling plan.
-
 ### What the P-Value Is Not?
+
+> The p-value is a measure of compatibility with \(H_0\) under a declared test, nothing more.
 
 > The p-value is **not**:
 
@@ -277,7 +279,7 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 | A measure of the truth of \(H_0\) | The p-value is a measure of **compatibility** with \(H_0\), not a measure of truth. |
 | A property of \(H_0\) | The p-value is a property of the **data** (relative to a test specification), not of \(H_0\). |
 
-> The p-value is a measure of compatibility with \(H_0\) under a declared test, nothing more.
+
 
 ### What does surprise even means here?
 
