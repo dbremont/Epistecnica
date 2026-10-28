@@ -9804,7 +9804,9 @@
       {
         "date": "2026-10-28",
         "kind": "chore",
-        "summary": "Delete the placeholder quantum-mechanical ontology map note: the stub held only a title, an ellipsis and one dangling reference."
+        "summary": "Delete the placeholder quantum-mechanical ontology map note: the stub held only a title, an ellipsis and one dangling reference.",
+        "commit": "67fbadd2d367d4105b002507159bbea1f5d4f48b",
+        "before": "e677a9cbca51ea99e0aa6365f11efbbcac887ddb"
       }
     ]
   },
