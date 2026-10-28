@@ -10864,6 +10864,11 @@
         "kind": "feat",
         "summary": "Add the Meaning note, copied verbatim from Naturgnosis human/cognitive/conceptual-model-cognition/meaning.md.",
         "commit": "7a046fce9855bc41475d68fbe557894e1028b03c"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "feat",
+        "summary": "Add the natural characterization: segment cut, meso level, the three Philosophia Naturalis formulation questions and the 44-row sign-mediated-interpretation decomposition (episode, sign substrate, referent, interpreter, interpretant, trajectory, properties, constraints, limitation factors); add the QA questions and the natural-semantics references."
       }
     ]
   },
