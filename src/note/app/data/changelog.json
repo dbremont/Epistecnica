@@ -10857,6 +10857,16 @@
     ]
   },
   {
+    "file_path": "nature/cognition/meaning.md",
+    "logs": [
+      {
+        "date": "2026-10-28",
+        "kind": "feat",
+        "summary": "Add the Meaning note, copied verbatim from Naturgnosis human/cognitive/conceptual-model-cognition/meaning.md."
+      }
+    ]
+  },
+  {
     "file_path": "philosophia-naturalis/doctrina/rousseau-method.md",
     "logs": [
       {
