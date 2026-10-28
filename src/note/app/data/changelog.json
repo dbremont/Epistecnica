@@ -10862,7 +10862,8 @@
       {
         "date": "2026-10-28",
         "kind": "feat",
-        "summary": "Add the Meaning note, copied verbatim from Naturgnosis human/cognitive/conceptual-model-cognition/meaning.md."
+        "summary": "Add the Meaning note, copied verbatim from Naturgnosis human/cognitive/conceptual-model-cognition/meaning.md.",
+        "commit": "7a046fce9855bc41475d68fbe557894e1028b03c"
       }
     ]
   },
