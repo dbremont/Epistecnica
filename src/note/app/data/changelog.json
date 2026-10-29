@@ -6468,6 +6468,11 @@
         "summary": "Retarget the Probability link after its move to discipline/.",
         "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
         "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Shannon Information Content link to the section of the theory note after the content note was absorbed."
       }
     ]
   },
@@ -6676,6 +6681,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/observational/information/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Shannon Information Content link to the section of the theory note after the content note was absorbed."
       }
     ]
   },
@@ -7278,35 +7288,6 @@
         "kind": "feat",
         "summary": "Import Input Representation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/information/shannon-information-content.md",
-    "logs": [
-      {
-        "date": "2026-10-18",
-        "kind": "feat",
-        "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition.",
-        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Conform the type question to the guide's wording (ambiguous?)."
-      },
-      {
-        "date": "2026-10-26",
-        "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording.",
-        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
-        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move out of it/ into epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -8425,6 +8406,17 @@
         "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
       },
       {
+        "date": "2026-10-18",
+        "kind": "feat",
+        "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?)."
+      },
+      {
         "date": "2026-10-22",
         "kind": "refactor",
         "summary": "Move images to the shared /assets/ store and update the references.",
@@ -8432,10 +8424,38 @@
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
       },
       {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
         "date": "2026-10-29",
         "kind": "refactor",
         "summary": "Move to epistemica/observational/information/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move out of it/ into epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Absorb the Shannon information content note as a section of this note; the concept keeps its guide-conformant formulation and is reached at #sec-shannon-information-content."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Merge the theory and the Shannon information content into one five-question formulation with a single decomposition rooted at the theory."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "docs",
+        "summary": "Expand the references with the foundational papers, canonical texts, estimation methods, and semantic-gap sources; order them by kind and tidy the existing entries."
       }
     ]
   },

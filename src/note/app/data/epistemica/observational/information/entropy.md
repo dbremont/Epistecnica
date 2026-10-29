@@ -242,7 +242,7 @@ Interpretation:
 | **Perplexity** | Exponential of entropy: $2^H$, interpreted as the effective number of equally likely states. | Directly reflects **effective variety**; higher perplexity corresponds to higher uncertainty. |
 | **Kolmogorov Complexity** | Length of the shortest algorithm (program) that can generate a given state or string. | Related to entropy: states with higher Shannon entropy are less compressible and have higher algorithmic complexity. |
 
-> Shannon's [information theory](note.html?n=epistemica/observational/information/shannon-information-theory.md) supplies the canonical probabilistic realisation; the [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) collects its operational quantities, and [Shannon Information Content](note.html?n=epistemica/observational/information/shannon-information-content.md) is the single-outcome atom they build on.
+> Shannon's [information theory](note.html?n=epistemica/observational/information/shannon-information-theory.md) supplies the canonical probabilistic realisation; the [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) collects its operational quantities, and [Shannon Information Content](note.html?n=epistemica/observational/information/shannon-information-theory.md&toc-item=shannon-information-content) is the single-outcome atom they build on.
 
 ## ❓ QA
 
