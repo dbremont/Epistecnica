@@ -1314,7 +1314,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/decision/."
+        "summary": "Move to epistemica/observational/decision/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -5819,7 +5820,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Information Theory links after the move to observational/information/."
+        "summary": "Retarget the Information Theory links after the move to observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
       }
     ]
   },
@@ -5846,7 +5849,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6137,7 +6141,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6341,7 +6346,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/decision/."
+        "summary": "Move to epistemica/observational/decision/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6409,7 +6415,8 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Shannon Information Content link after its move to observational/information/."
+        "summary": "Retarget the Shannon Information Content link after its move to observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6582,7 +6589,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6598,7 +6606,9 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Fold into error-correcting-code.md and retire this file."
+        "summary": "Fold into error-correcting-code.md and retire this file.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
       }
     ]
   },
@@ -6614,7 +6624,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6751,7 +6762,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7012,7 +7024,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7090,7 +7103,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7113,7 +7127,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7152,7 +7167,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move out of it/ into epistemica/observational/information/."
+        "summary": "Move out of it/ into epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7366,7 +7382,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7803,7 +7820,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Information, Shannon Information Theory, Shannon Information Content, Entropy and Atlas links after the move to observational/information/."
+        "summary": "Retarget the Information, Shannon Information Theory, Shannon Information Content, Entropy and Atlas links after the move to observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
       }
     ]
   },
@@ -8132,7 +8151,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -8162,7 +8182,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/."
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -8251,7 +8272,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Fisher Information link after its move to observational/information/."
+        "summary": "Retarget the Fisher Information link after its move to observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
       }
     ]
   },
@@ -8912,7 +8935,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/"
+        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
       }
     ]
   },
@@ -10477,7 +10502,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/"
+        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
       }
     ]
   },
