@@ -360,7 +360,7 @@ Within this framework:
 > A fundamental concept that maps the sample space, outcomes, and events to a numerical domain, either simple or complex,  facilitating the certain numerical computations, like expectation etc.
 > 
 
-> See more [Distribution](distribution/distribution-2.md),  [Random Object](random-object.md) and [Statistical Function](statistical-function.md).
+> See more [Distribution](distribution/distribution.md),  [Random Object](random-object.md) and [Statistical Function](statistical-function.md).
 > 
 
 ### Join Probability
@@ -543,7 +543,7 @@ Building Blocks:
 > [Statistical Function](statistical-function.md):  A function or transformation that **acts on random objects or distributions**, producing new objects or modifying their properties (e.g., sum, scaling, convolution).
 > 
 
-> [Distribution](distribution/distribution-2.md):  A formal description of the **probabilistic behavior of a random object**, specifying the likelihood of different outcomes.
+> [Distribution](distribution/distribution.md):  A formal description of the **probabilistic behavior of a random object**, specifying the likelihood of different outcomes.
 > 
 
 **Model Taxonomy**
@@ -959,7 +959,7 @@ Formally, it involves:
 
 ### Why do so many probabilistic modeling methods in statistics and machine learning focus on learning the joint probability distribution of a system rather than just individual variables or conditional probabilities?
 
-> See more in [Distribution](distribution/distribution-2.md).
+> See more in [Distribution](distribution/distribution.md).
 > 
 - **Encodes all marginal and conditional distributions:** The joint distribution is like a master map of all the variables. From it, you can figure out the behavior of any single variable (marginals) or how one variable behaves given others (conditionals). Learning the joint gives you access to everything.
 - **Captures dependencies between variables:** Variables in a system often influence each other. By modeling the joint distribution, you naturally capture these relationships, correlations, and interactions, which you would miss if you only looked at variables individually.
@@ -1042,7 +1042,7 @@ Formally, it involves:
 - [](https://app.notion.com/p/245c0f5171ec80749daec722e73b8a81?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [](https://app.notion.com/p/24ac0f5171ec8020aec7f11bae9eb632?pvs=21)
-- [Distribution](distribution/distribution-2.md)
+- [Distribution](distribution/distribution.md)
 - [Enumeration (Counting)](../mathematical/enumeration-counting.md)
 - Davidson-Pilon, Cameron. *Bayesian methods for hackers: probabilistic programming and Bayesian inference*. Addison-Wesley Professional, 2015.
 - Bayes, Thomas. "An essay towards solving a problem in the doctrine of chances." *Biometrika* 45.3-4 (1958): 296-315.

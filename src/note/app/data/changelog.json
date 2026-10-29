@@ -6512,13 +6512,25 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/distribution-2.md",
+    "file_path": "epistemica/observational/distribution/distribution.md",
     "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       },
       {
         "date": "2026-10-29",
@@ -6530,23 +6542,16 @@
         "kind": "fix",
         "summary": "Retarget the Random Variable and Statistical Function links after the move (their targets stayed in observational/, one level up).",
         "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+        "summary": "Retire the stub note that held this name."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Rename from distribution-2.md to distribution.md, taking the name of the retired stub."
       }
     ]
   },
@@ -7201,6 +7206,16 @@
         "summary": "Retarget the Distribution link after its move to observational/distribution/.",
         "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353",
         "before": "ed68c96b41a728eda935cd9e51a1531414c5de37"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link to the renamed distribution.md."
       }
     ]
   },
@@ -8071,6 +8086,16 @@
         "summary": "Retarget the four Distribution links after the move to observational/distribution/.",
         "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353",
         "before": "ed68c96b41a728eda935cd9e51a1531414c5de37"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the four Distribution links to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the four Distribution links to the renamed distribution.md."
       }
     ]
   },
@@ -8133,6 +8158,16 @@
         "summary": "Retarget the Distribution link after its move to observational/distribution/.",
         "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353",
         "before": "ed68c96b41a728eda935cd9e51a1531414c5de37"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link to the renamed distribution.md."
       }
     ]
   },
@@ -8151,6 +8186,16 @@
         "summary": "Retarget the Distribution link after its move to observational/distribution/.",
         "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353",
         "before": "ed68c96b41a728eda935cd9e51a1531414c5de37"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link to the renamed distribution.md."
       }
     ]
   },

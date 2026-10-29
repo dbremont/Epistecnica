@@ -133,7 +133,7 @@ It is a triple:  $(\Omega, \mathcal{F}, P)$
 
 ## Distribution
 
-> Note: A random variable can be seen as a numerical representation of a sample space; here, we will classify random variables according to their ([Distribution](distribution/distribution-2.md)).
+> Note: A random variable can be seen as a numerical representation of a sample space; here, we will classify random variables according to their ([Distribution](distribution/distribution.md)).
 > 
 
 ## Discrete Random Variable
