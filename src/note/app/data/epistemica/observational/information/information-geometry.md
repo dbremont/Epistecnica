@@ -60,7 +60,7 @@ Manifold View
 
 - https://en.wikipedia.org/wiki/Information_geometry
 - [‣](https://app.notion.com/p/275598edb79080db98e5cc50af744331?pvs=21)
-- [Distribution](distribution-2.md)
+- [Distribution](../distribution/distribution-2.md)
 - https://differentialgeometri.wordpress.com/2022/07/07/information-geometry-and-optimal-transport/
 - https://www.youtube.com/playlist?list=PLvVaDdaHGtpesn2DHUo6ete-1pPhT1xzj
 - https://www.youtube.com/playlist?list=PLHZhjPByiV3L94AeJ9FcK1yrnRDOt3Vit

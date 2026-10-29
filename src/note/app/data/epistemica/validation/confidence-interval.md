@@ -134,7 +134,7 @@ Then the **procedure** can be expressed as:
 > Note: Each of the techniques make a lot of assumptions; still not capture in this small table; make sure to explore them.
 > 
 
-> See more in [**Gamma Distribution**](gamma-distribution.md), [**Chi-Squared Distribution**](chi-squared-distribution.md) and [***t-*distribution**](t-distribution.md).
+> See more in [**Gamma Distribution**](../observational/distribution/gamma-distribution.md), [**Chi-Squared Distribution**](../observational/distribution/chi-squared-distribution.md) and [***t-*distribution**](../observational/distribution/t-distribution.md).
 > 
 
 | **Technique** | **Assumptions** | **Notes** |
@@ -330,5 +330,5 @@ Case:
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [](https://app.notion.com/p/24ac0f5171ec8020aec7f11bae9eb632?pvs=21)
 - https://en.wikipedia.org/wiki/Confidence_interval
-- [**Chi-Squared Distribution**](chi-squared-distribution.md)
-- [***t-*distribution**](t-distribution.md)
+- [**Chi-Squared Distribution**](../observational/distribution/chi-squared-distribution.md)
+- [***t-*distribution**](../observational/distribution/t-distribution.md)

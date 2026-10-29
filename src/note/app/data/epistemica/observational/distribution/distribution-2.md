@@ -165,7 +165,7 @@ Property; Description; Value(s)
 > **Note:** This is a **key concept** because many problems are simply **compositions or derivations** based on a set of fundamental building blocks.
 > 
 
-> See more in [Random Variable](random-variable.md);  [Binomial Distribution](binomial-distribution.md);  [**Geometric Distribution**](geometric-distribution.md), …
+> See more in [Random Variable](../random-variable.md);  [Binomial Distribution](binomial-distribution.md);  [**Geometric Distribution**](geometric-distribution.md), …
 > 
 
 ## Asymptotic Distribution
@@ -271,7 +271,7 @@ They allow us to:
 - https://math.stackexchange.com/questions/384923/what-exactly-is-a-probability-measure-in-simple-words
 - https://en.wikipedia.org/wiki/Marginal_distribution
 - https://github.com/dbremont/algorithms/tree/main/om/prob/distribution
-- [Statistical Function](statistical-function.md)
+- [Statistical Function](../statistical-function.md)
 - https://en.wikipedia.org/wiki/Joint_probability_distribution
 - https://en.wikipedia.org/wiki/Marginal_distribution
 - https://en.wikipedia.org/wiki/Asymptotic_distribution

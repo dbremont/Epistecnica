@@ -37,7 +37,7 @@ tags: [probability]
 
 ## Random Variable
 
-> See [Distribution](distribution-2.md), [Random Variable](random-variable.md).
+> See [Distribution](distribution/distribution-2.md), [Random Variable](random-variable.md).
 > 
 
 > See this ([Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](probability.md) ) for the comparison between a **probability distribution** and  a **random variable**.

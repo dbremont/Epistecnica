@@ -35,7 +35,7 @@
       "p_convention": "Symmetric null: the two-sided p doubles the smaller tail and is capped at 1. Under H₀ with a continuous statistic the p-value is Uniform(0,1).",
       "tests": ["z-test for a mean with known σ", "Wald test", "score test (asymptotic)", "sign test (asymptotic)"],
       "related": ["student-t", "cauchy"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md", "epistemica/observational/gaussian-distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md", "epistemica/observational/distribution/gaussian-distribution.md"],
       "sources": [
         { "label": "Wikipedia: Normal distribution", "url": "https://en.wikipedia.org/wiki/Normal_distribution" },
         { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
@@ -95,7 +95,7 @@
       "p_convention": "Chi-square tests reject only in the upper tail; the lower tail is not a rejection region. The two-sided entry repeats the upper tail instead of doubling it.",
       "tests": ["Pearson goodness-of-fit", "test of independence", "variance test", "likelihood-ratio asymptotics"],
       "related": ["gamma", "f"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/probability-model-validation.md", "epistemica/observational/chi-squared-distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/probability-model-validation.md", "epistemica/observational/distribution/chi-squared-distribution.md"],
       "sources": [
         { "label": "Wikipedia: Chi-squared distribution", "url": "https://en.wikipedia.org/wiki/Chi-squared_distribution" },
         { "label": "Pearson, K. (1900). On the criterion that a given system of deviations… Philosophical Magazine, 50(302), 157–175.", "url": "https://doi.org/10.1080/14786440009463897" }
@@ -126,7 +126,7 @@
       "p_convention": "ANOVA and variance-ratio tests reject in the upper tail; a lower-tail F is a different, rarely used question. Two-sided doubling is not applied.",
       "tests": ["one-way ANOVA", "variance-ratio test", "regression F-test", "likelihood-ratio (scaled)"],
       "related": ["chi-square", "student-t"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md", "epistemica/observational/f-distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/statistical-hypothesis-testing.md", "epistemica/observational/distribution/f-distribution.md"],
       "sources": [
         { "label": "Wikipedia: F-distribution", "url": "https://en.wikipedia.org/wiki/F-distribution" },
         { "label": "Fisher, R. A. (1925). Statistical Methods for Research Workers." }
@@ -157,7 +157,7 @@
       "p_convention": "Support starts at 0, so doubling the smaller tail is a convention rather than an exact inversion; waiting-time tests usually use the upper tail.",
       "tests": ["waiting-time test", "Poisson rate test (Gamma–Poisson)", "gamma goodness-of-fit"],
       "related": ["chi-square", "exponential", "poisson"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/observational/gamma-distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/observational/distribution/gamma-distribution.md"],
       "sources": [
         { "label": "Wikipedia: Gamma distribution", "url": "https://en.wikipedia.org/wiki/Gamma_distribution" },
         { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
@@ -187,7 +187,7 @@
       "p_convention": "Lifetime tests reject long waits (upper tail); doubling the smaller tail is a convention because the support is bounded below.",
       "tests": ["mean lifetime test", "hazard-ratio test", "exponentiality test"],
       "related": ["gamma", "poisson"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/calibration.md", "epistemica/observational/exponential-distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/calibration.md", "epistemica/observational/distribution/exponential-distribution.md"],
       "sources": [
         { "label": "Wikipedia: Exponential distribution", "url": "https://en.wikipedia.org/wiki/Exponential_distribution" },
         { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
@@ -280,7 +280,7 @@
       "p_convention": "Symmetric, so the two-sided p doubles the smaller tail. Mean and variance do not exist, so CLT-based asymptotics fail even though the exact tail p is well defined.",
       "tests": ["heavy-tailed robustness check", "ratio of normals", "Lorentzian line-shape fit"],
       "related": ["normal", "student-t"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/observational/distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/observational/distribution/distribution.md"],
       "sources": [
         { "label": "Wikipedia: Cauchy distribution", "url": "https://en.wikipedia.org/wiki/Cauchy_distribution" },
         { "label": "Wikipedia: Heavy-tailed distribution", "url": "https://en.wikipedia.org/wiki/Heavy-tailed_distribution" }
@@ -371,7 +371,7 @@
       "p_convention": "Discrete and unbounded above; the observed count sits in both tails, so the p-value is conservative and the histogram spikes at 1.",
       "tests": ["Poisson rate test", "exact count test", "standardized residuals", "dispersion check"],
       "related": ["binomial", "gamma", "negative-binomial"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/calibration.md", "epistemica/observational/poisson-distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/calibration.md", "epistemica/observational/distribution/poisson-distribution.md"],
       "sources": [
         { "label": "Wikipedia: Poisson distribution", "url": "https://en.wikipedia.org/wiki/Poisson_distribution" },
         { "label": "Casella, G. & Berger, R. L. (2002). Statistical Inference, 2nd ed." }
@@ -495,7 +495,7 @@
       "p_convention": "Pearson's statistic is discrete, but the reference law is the continuous chi-square asymptote; small expected counts (Eᵢ < 5) invalidate the p-value.",
       "tests": ["Pearson goodness-of-fit", "test of independence", "homogeneity across groups"],
       "related": ["chi-square", "binomial"],
-      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/probability-model-validation.md", "epistemica/observational/multinomial-distribution.md"],
+      "notes": ["epistemica/validation/p-value.md", "epistemica/validation/probability-model-validation.md", "epistemica/observational/distribution/multinomial-distribution.md"],
       "sources": [
         { "label": "Wikipedia: Multinomial distribution", "url": "https://en.wikipedia.org/wiki/Multinomial_distribution" },
         { "label": "Cochran, W. G. (1952). The χ² test of goodness of fit. Annals of Mathematical Statistics, 23(3), 315–345.", "url": "https://doi.org/10.1214/aoms/1177729380" }

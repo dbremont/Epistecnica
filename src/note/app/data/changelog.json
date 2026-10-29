@@ -5998,24 +5998,34 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/bernoulli-distribution.md",
+    "file_path": "epistemica/observational/distribution/bernoulli-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Bernoulli Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/beta-distribution.md",
+    "file_path": "epistemica/observational/distribution/beta-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Beta Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6031,13 +6041,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/binomial-distribution.md",
+    "file_path": "epistemica/observational/distribution/binomial-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Binomial Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6075,13 +6090,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/cauchy-distribution.md",
+    "file_path": "epistemica/observational/distribution/cauchy-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Cauchy Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6108,13 +6128,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/chi-squared-distribution.md",
+    "file_path": "epistemica/observational/distribution/chi-squared-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Chi-Squared Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6443,13 +6468,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/dirichlet-distribution.md",
+    "file_path": "epistemica/observational/distribution/dirichlet-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Dirichlet Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6476,24 +6506,39 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution-2.md",
+    "file_path": "epistemica/observational/distribution/distribution-2.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Random Variable and Statistical Function links after the move (their targets stayed in observational/, one level up)."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution.md",
+    "file_path": "epistemica/observational/distribution/distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6674,13 +6719,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/exponential-distribution.md",
+    "file_path": "epistemica/observational/distribution/exponential-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Exponential Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6707,13 +6757,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/f-distribution.md",
+    "file_path": "epistemica/observational/distribution/f-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import F-Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6819,24 +6874,34 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/gamma-distribution.md",
+    "file_path": "epistemica/observational/distribution/gamma-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Gamma Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/gaussian-distribution.md",
+    "file_path": "epistemica/observational/distribution/gaussian-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Gaussian Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6896,13 +6961,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/geometric-distribution.md",
+    "file_path": "epistemica/observational/distribution/geometric-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Geometric Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -6929,13 +6999,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/gumbel-distribution.md",
+    "file_path": "epistemica/observational/distribution/gumbel-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Gumbel Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -7105,6 +7180,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/observational/information/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link after its move to observational/distribution/."
       }
     ]
   },
@@ -7338,13 +7418,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/log-normal-distribution.md",
+    "file_path": "epistemica/observational/distribution/log-normal-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Log-Normal Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -7581,13 +7666,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/multinomial-distribution.md",
+    "file_path": "epistemica/observational/distribution/multinomial-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Multinomial Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -7603,24 +7693,34 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/multivariate-normal-distribution.md",
+    "file_path": "epistemica/observational/distribution/multivariate-normal-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Multivariate Normal Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/negative-binomial-distribution.md",
+    "file_path": "epistemica/observational/distribution/negative-binomial-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Negative Binomial Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -7669,13 +7769,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/pareto-distribution.md",
+    "file_path": "epistemica/observational/distribution/pareto-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Pareto Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -7746,13 +7851,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/poisson-distribution.md",
+    "file_path": "epistemica/observational/distribution/poisson-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Poisson Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -7932,6 +8042,11 @@
         "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
         "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
         "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the four Distribution links after the move to observational/distribution/."
       }
     ]
   },
@@ -7987,6 +8102,11 @@
         "kind": "feat",
         "summary": "Import Random Object from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link after its move to observational/distribution/."
       }
     ]
   },
@@ -7998,6 +8118,11 @@
         "kind": "feat",
         "summary": "Import Random Variable from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Distribution link after its move to observational/distribution/."
       }
     ]
   },
@@ -8384,13 +8509,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/t-distribution.md",
+    "file_path": "epistemica/observational/distribution/t-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import t-distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -8508,13 +8638,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/uniform-distribution.md",
+    "file_path": "epistemica/observational/distribution/uniform-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Uniform Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -8614,13 +8749,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/weibull-distribution.md",
+    "file_path": "epistemica/observational/distribution/weibull-distribution.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Weibull Distribution from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/."
       }
     ]
   },
@@ -10640,6 +10780,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/validation/.",
         "commit": "aa08d18e23f2fcd34a33b581df32c014dfbe04ae"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Gamma, Chi-Squared and t Distribution links after their move to observational/distribution/."
       }
     ]
   },
