@@ -1450,7 +1450,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Probability link after its move to this directory."
+        "summary": "Retarget the Probability link after its move to this directory.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
       }
     ]
   },
@@ -5832,7 +5834,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Probability link after its move to discipline/."
+        "summary": "Retarget the Probability link after its move to discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
       }
     ]
   },
@@ -6461,7 +6465,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Probability link after its move to discipline/."
+        "summary": "Retarget the Probability link after its move to discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
       }
     ]
   },
@@ -6604,7 +6610,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/discipline/."
+        "summary": "Move to epistemica/discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
       }
     ]
   },
@@ -7994,7 +8001,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Probability link after its move to discipline/."
+        "summary": "Retarget the Probability link after its move to discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
       }
     ]
   },
@@ -8125,7 +8134,8 @@
       {
         "date": "2026-10-29",
         "kind": "refactor",
-        "summary": "Move to epistemica/discipline/. Its same-dir links to notes that stayed in observational/ gain the ../observational/ prefix, and the Statistical Mechanics and Validation links (absolute corpus paths) are unaffected."
+        "summary": "Move to epistemica/discipline/. Its same-dir links to notes that stayed in observational/ gain the ../observational/ prefix, and the Statistical Mechanics and Validation links (absolute corpus paths) are unaffected.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
       }
     ]
   },
@@ -8202,7 +8212,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the two Probability links after its move to discipline/."
+        "summary": "Retarget the two Probability links after its move to discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
       }
     ]
   },
@@ -8235,7 +8247,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Probability link after its move to discipline/."
+        "summary": "Retarget the Probability link after its move to discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
       }
     ]
   },
@@ -8842,7 +8856,9 @@
       {
         "date": "2026-10-29",
         "kind": "fix",
-        "summary": "Retarget the Probability link after its move to discipline/."
+        "summary": "Retarget the Probability link after its move to discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
       }
     ]
   },
