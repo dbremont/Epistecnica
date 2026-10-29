@@ -140,7 +140,7 @@ QA:
 
 - [Java](note.html?n=technica/computation/language-system/conceptual-model-language-system/java.md)
 - [**AspectJ**](note.html?n=technica/computation/language-system/conceptual-model-language-system/aspectj.md)
-- [Apache Maven](note.html?n=technica/computation/system/operation/operation-conceptual-model/apache-maven.md)
+- [Apache Maven](note.html?n=technica/general/pto/maven.md)
 - https://github.com/akullpp/awesome-java
 - https://docs.oracle.com/javase/8/docs/technotes/guides/jar/index.html
 - https://en.wikipedia.org/wiki/JAR_(file_format)

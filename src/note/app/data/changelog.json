@@ -17519,6 +17519,11 @@
         "kind": "feat",
         "summary": "Import AspectJ from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Retarget the Apache Maven link after the instance note moved to technica/general/pto/maven.md."
       }
     ]
   },
@@ -19671,6 +19676,11 @@
         "kind": "feat",
         "summary": "Import Java: 🎭 Miscelanea from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Retarget the Apache Maven link after the instance note moved to technica/general/pto/maven.md."
       }
     ]
   },
@@ -19803,6 +19813,11 @@
         "kind": "feat",
         "summary": "Import Java: 🛠️ Tooling & Ecosystem from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Retarget the Apache Maven link after the instance note moved to technica/general/pto/maven.md."
       }
     ]
   },
@@ -30478,17 +30493,6 @@
     ]
   },
   {
-    "file_path": "technica/computation/system/operation/operation-conceptual-model/apache-maven.md",
-    "logs": [
-      {
-        "date": "2026-10-20",
-        "kind": "feat",
-        "summary": "Import Apache Maven from the Computacion Notion export.",
-        "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
-      }
-    ]
-  },
-  {
     "file_path": "technica/computation/system/operation/operation-conceptual-model/apache-zookeeper.md",
     "logs": [
       {
@@ -30507,6 +30511,11 @@
         "kind": "feat",
         "summary": "Import Build System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Retarget the Apache Maven link after the instance note moved to technica/general/pto/maven.md."
       }
     ]
   },
@@ -35316,6 +35325,11 @@
         "summary": "Migrate the decomposition table to the canonical two-column form.",
         "commit": "7267021de9458ec7747e718daff0127813e7714b",
         "before": "e3cafd8ca2bc068a8f6697f98e1556441b6c8429"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Retarget the Apache Maven link after the instance note moved to technica/general/pto/maven.md."
       }
     ]
   },
@@ -35422,6 +35436,11 @@
         "kind": "refactor",
         "summary": "Move to technica/general/.",
         "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Absorb the Apache Maven operation-conceptual-model note into the PTO instance note; the build-system catalog and the Java/AspectJ/Eclipse references now point here."
       }
     ]
   },

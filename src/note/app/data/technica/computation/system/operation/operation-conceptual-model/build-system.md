@@ -4,7 +4,7 @@ tags: [build-system, tool]
 
 # Build System
 
-- [Make](note.html?n=technica/computation/system/operation/operation-conceptual-model/make.md), [Meson](note.html?n=technica/computation/system/operation/operation-conceptual-model/meson.md), [Ninja](note.html?n=technica/computation/system/operation/operation-conceptual-model/ninja.md), [CMake](note.html?n=technica/computation/system/operation/operation-conceptual-model/cmake.md), [GNU Autotools](note.html?n=technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md), [Apache Maven](note.html?n=technica/computation/system/operation/operation-conceptual-model/apache-maven.md), [Gradle](note.html?n=technica/computation/system/operation/operation-conceptual-model/gradle.md)
+- [Make](note.html?n=technica/computation/system/operation/operation-conceptual-model/make.md), [Meson](note.html?n=technica/computation/system/operation/operation-conceptual-model/meson.md), [Ninja](note.html?n=technica/computation/system/operation/operation-conceptual-model/ninja.md), [CMake](note.html?n=technica/computation/system/operation/operation-conceptual-model/cmake.md), [GNU Autotools](note.html?n=technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md), [Apache Maven](note.html?n=technica/general/pto/maven.md), [Gradle](note.html?n=technica/computation/system/operation/operation-conceptual-model/gradle.md)
 
 > In this note, we will explore **build systems**: the tools used to turn source code and its dependencies into software that can be executed, packaged, and delivered.
 > 

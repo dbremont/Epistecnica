@@ -153,7 +153,7 @@ TheOriginalJDTParserClass: AspectJ Extention made a few changes to increase acce
 - https://stackoverflow.com/questions/9248267/how-can-i-specify-the-encoding-of-java-source-files
 - [How does AspectJ work?](https://stackoverflow.com/questions/41974800/how-does-aspectj-work)
 - [https://bugs.eclipse.org/bugs/buglist.cgi?order=component%2Cresolution%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&product=AspectJ&query_format=advanced](https://bugs.eclipse.org/bugs/buglist.cgi?order=component%2Cresolution%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&product=AspectJ&query_format=advanced)
-- [Apache Maven](note.html?n=technica/computation/system/operation/operation-conceptual-model/apache-maven.md)
+- [Apache Maven](note.html?n=technica/general/pto/maven.md)
 - https://eclipse.dev/aspectj/
 - https://eclipse.dev/aspectj/doc/latest/devguide/ajc.html
 - https://eclipse.dev/aspectj/doc/released/progguide/index.html
