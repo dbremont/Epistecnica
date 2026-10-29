@@ -61,7 +61,7 @@
 
 ## Information Theory
 
-> See more in [Information](observational/information.md) — [Shannon Information Theory](observational/shannon-information-theory.md) —- [Algorithmic Information Theory (AIT)](observational/algorithmic-information-theory-ait.md) — [Compression](https://app.notion.com/p/Compression-7473c999c91f44fb8692e43a94ea0e32?pvs=21).
+> See more in [Information](observational/information/information.md) — [Shannon Information Theory](observational/information/shannon-information-theory.md) —- [Algorithmic Information Theory (AIT)](observational/information/algorithmic-information-theory-ait.md) — [Compression](https://app.notion.com/p/Compression-7473c999c91f44fb8692e43a94ea0e32?pvs=21).
 > 
 
 ## Statistical Mechanics

@@ -9,7 +9,7 @@
 > **Note:** Decision-making is an almost daily task for agents. This note should be viewed in tandem with related work on  [Problem](https://app.notion.com/p/Problem-1e8c0f5171ec80e59848c3449661c09f?pvs=21) and [Agency](https://app.notion.com/p/Agency-eebe9b5a15d84a3db7a1a1273fc29a2c?pvs=21).
 > 
 
-> See [Decision Theory](note.html?n=epistemica/observational/decision-theory/decision-theory.md) for the field-level entry: branches, methods, and links.
+> See [Decision Theory](note.html?n=epistemica/observational/decision/theory.md) for the field-level entry: branches, methods, and links.
 
 ## Glossary
 

@@ -414,7 +414,7 @@ $\text{Err}(x) = \underbrace{\big(\mathbb{E}[\hat{f}(x)] - f(x)\big)^2}_{\textbf
 > Quantifies how much a random variable tells you about a parameter $\theta$.
 > 
 
-> See more in [**Fisher Information**](fisher-information.md).
+> See more in [**Fisher Information**](information/fisher-information.md).
 > 
 
 ### **Cramér–Rao Lower Bound (CRLB)**

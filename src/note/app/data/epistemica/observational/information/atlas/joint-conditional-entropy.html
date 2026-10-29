@@ -475,14 +475,14 @@
     .it-note { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-top: 0.4rem; }
 
   </style>
-  <link rel="stylesheet" href="../../../../../shared/usearch.css">
+  <link rel="stylesheet" href="../../../../../../shared/usearch.css">
 </head>
 <body>
 
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
       <div class="nav-right">
         <div class="usearch-wrap">
           <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -497,7 +497,7 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/observational/it">information theory</a><span class="sep">/</span><span class="here">Joint &amp; Conditional Entropy</span></div>
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/observational/information/atlas">information theory</a><span class="sep">/</span><span class="here">Joint &amp; Conditional Entropy</span></div>
       <h1 class="note-title">Joint &amp; Conditional Entropy</h1>
       <div class="note-meta"><span class="chip">live note</span><span class="chip">playground</span><span class="chip">#information</span><span class="chip">#information-theory</span></div>
     </div>
@@ -537,7 +537,7 @@
 
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../note.html?n=epistemica/observational/entropy.md">Entropy</a></li><li><a href="../../../../note.html?n=epistemica/observational/shannon-information-theory.md">Shannon Information Theory</a></li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/observational/information/entropy.md">Entropy</a></li><li><a href="../../../../../note.html?n=epistemica/observational/information/shannon-information-theory.md">Shannon Information Theory</a></li></ul>
 
             <h2 id="references">References</h2>
             <ul><li>Cover, T. M. &amp; Thomas, J. A. (1999). <em>Elements of Information Theory</em>.</li></ul>
@@ -556,12 +556,12 @@
   <footer class="site-footer">
     <div class="foot-inner">
       <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
-      <a href="../../../../index.html">&larr; CATALOG</a>
+      <a href="../../../../../index.html">&larr; CATALOG</a>
     </div>
   </footer>
 
-  <script src="../../../../vendor/mathjax-setup.js"></script>
-  <script src="../../../../vendor/mathjax/tex-svg-full.js"></script>
+  <script src="../../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../../vendor/mathjax/tex-svg-full.js"></script>
 
 <script id="ambient">
   (function () {
@@ -719,7 +719,7 @@
       el('iiLaw').setAttribute('data-tex-display', cur.sub);
       el('iiDesc').textContent = cur.desc;
       el('iiDocs').innerHTML = (cur.docs || []).map(function (d) {
-        return '<a href="../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
+        return '<a href="../../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
       }).join('');
       if (window.renderTeX) renderTeX(el('instInfo'));
     }
@@ -784,6 +784,6 @@
   </script>
 
   <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
-  <script src="../../../../../shared/usearch.js" data-root="../../../../../"></script>
+  <script src="../../../../../../shared/usearch.js" data-root="../../../../../../"></script>
 </body>
 </html>

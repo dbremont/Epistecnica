@@ -174,9 +174,9 @@ The draft's term list, sorted into what belongs to possibility, what is a neighb
 - Dubois, D. & Prade, H. (1988). *Possibility Theory: An Approach to Computerized Processing of Uncertainty*.
 - [Probability](note.html?n=epistemica/observational/probability.md) — a probability space is a possibility space equipped with an additive measure; possibility is logically prior.
 - [Theory of Probability](note.html?n=epistemica/observational/theory-of-probability.md) and [Imprecise Probability](note.html?n=epistemica/observational/imprecise-probability.md) — the measure-theoretic and interval-valued treatments of the weighting layer.
-- [Information](note.html?n=epistemica/observational/information.md) and [Shannon Information Theory](note.html?n=epistemica/observational/shannon-information-theory.md) — information is the reduction of a possibility space.
-- [Shannon Information Content](note.html?n=epistemica/observational/it/shannon-information-content.md) and the [Information Theory Atlas](data/epistemica/observational/it/atlas.html) — the single-outcome atom and the operational quantities built on it.
-- [Entropy](note.html?n=epistemica/observational/entropy.md) — the expected uncertainty of the space, and its many realisations.
+- [Information](note.html?n=epistemica/observational/information/information.md) and [Shannon Information Theory](note.html?n=epistemica/observational/information/shannon-information-theory.md) — information is the reduction of a possibility space.
+- [Shannon Information Content](note.html?n=epistemica/observational/information/shannon-information-content.md) and the [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) — the single-outcome atom and the operational quantities built on it.
+- [Entropy](note.html?n=epistemica/observational/information/entropy.md) — the expected uncertainty of the space, and its many realisations.
 - [Random Variable](note.html?n=epistemica/observational/random-variable.md) and [Variance](note.html?n=epistemica/observational/variance.md) — the quantitative treatment of variation once a measure is fixed.
 - [Extreme Event](note.html?n=epistemica/complexity-science/extreme-event.md) and [Rare Events Modelling](note.html?n=epistemica/observational/rare-events-modelling.md) — applied possibility at the tails of a distribution.
 - [Aleatorio](https://etimologias.dechile.net/?aleatorio)

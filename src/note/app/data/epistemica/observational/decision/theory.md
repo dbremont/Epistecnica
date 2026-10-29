@@ -14,11 +14,11 @@ It has three readings that are often run together. **Normative** decision theory
 
 Decision theory is the organized theory of choice under uncertainty. Its canonical elements are the decision problem's alternatives, the states of the world, the outcome of each alternative in each state, the agent's belief over states, the agent's preference over outcomes, and the decision rule that maps beliefs and preferences to an action.
 
-Following [Decision Making](note.html?n=epistemica/decision-making.md), a decision problem can be written as
+Following [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md), a decision problem can be written as
 
 $$\mathcal{D} = (\mathcal{S}, \mathcal{A}, T, \mathcal{M}, \phi),$$
 
-where $\mathcal{S}$ is the state space, $\mathcal{A}$ the action space, $T$ the transition structure, $\mathcal{M}$ the evaluation metric set, and $\phi$ the decision rule. The special case of a single choice is the [Decision Problem](note.html?n=epistemica/observational/decision-problem.md); the sequential case adds dynamics and becomes a Markov decision process or an optimal-control problem.
+where $\mathcal{S}$ is the state space, $\mathcal{A}$ the action space, $T$ the transition structure, $\mathcal{M}$ the evaluation metric set, and $\phi$ the decision rule. The special case of a single choice is the [Decision Problem](note.html?n=epistemica/observational/decision/decision-problem.md); the sequential case adds dynamics and becomes a Markov decision process or an optimal-control problem.
 
 The field's centre of gravity is the pair (belief, preference): a probability distribution over states and a utility over outcomes. Expected utility combines them; Bayesian decision theory updates the belief before combining; prospect theory replaces the utility with a reference-dependent value function; bounded rationality replaces maximization with satisficing. Each is a different answer to the same structure.
 
@@ -117,8 +117,8 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 
 | Branch | Note | What it covers |
 | --- | --- | --- |
-| Decision making | [Decision Making](note.html?n=epistemica/decision-making.md) | The cognitive process, glossary, pathologies, and practical frameworks. |
-| Decision problem | [Decision Problem](note.html?n=epistemica/observational/decision-problem.md) | The formal $(S, E)$ structure: solution space and evaluation model. |
+| Decision making | [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md) | The cognitive process, glossary, pathologies, and practical frameworks. |
+| Decision problem | [Decision Problem](note.html?n=epistemica/observational/decision/decision-problem.md) | The formal $(S, E)$ structure: solution space and evaluation model. |
 | Expected value | [Expected Value](note.html?n=epistemica/observational/expected-value.md) | The probability-weighted average underlying expected utility. |
 | Trade-offs | [Trade-Off](note.html?n=epistemica/optimization/trade-off.md) | Competing criteria and the compromises between them. |
 | Uncertainty | [Probability](note.html?n=epistemica/observational/probability.md), [Possibility](note.html?n=epistemica/observational/possibility.md) | The belief-side foundations: graded uncertainty and the space of alternatives. |
@@ -131,7 +131,7 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 | Control | [Control Theory](note.html?n=epistemica/dynamical-intelligence/control-theory.md), [Optimal Control Theory](note.html?n=epistemica/dynamical-intelligence/optimal-control-theory.md), [Model Predictive Control (MPC)](note.html?n=epistemica/dynamical-intelligence/model-predictive-control-mpc.md) | Regulating a dynamical system, with and without an explicit objective. |
 | Computational decisions | [Combinatorial Optimization](note.html?n=epistemica/optimization/combinatorial-optimization.md), [Dynamic Programming](note.html?n=epistemica/optimization/dynamic-programming.md), [Knapsack Problem](note.html?n=epistemica/optimization/knapsack-problem.md) | Decision problems in the computer-science sense. |
 | Decision trees | [Decision Tree](note.html?n=technica/ais/synthesis/learning-method/decision-tree.md) | The trainable ML model — distinct from the decision-analysis tree. |
-| Information value | [Shannon Information Content](note.html?n=epistemica/observational/it/shannon-information-content.md) | The surprisal that information reduces; the atom of value-of-information reasoning. |
+| Information value | [Shannon Information Content](note.html?n=epistemica/observational/information/shannon-information-content.md) | The surprisal that information reduces; the atom of value-of-information reasoning. |
 
 ## QA
 
@@ -144,8 +144,8 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Decision Making](note.html?n=epistemica/decision-making.md)
-- [Decision Problem](note.html?n=epistemica/observational/decision-problem.md)
+- [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md)
+- [Decision Problem](note.html?n=epistemica/observational/decision/decision-problem.md)
 - von Neumann, J. & Morgenstern, O. (1944). *Theory of Games and Economic Behavior*.
 - Savage, L. J. (1954). *The Foundations of Statistics*.
 - Simon, H. A. (1955). A Behavioral Model of Rational Choice. *Quarterly Journal of Economics*.

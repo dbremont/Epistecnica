@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KL Divergence — Information Theory Playground</title>
+  <title>Cross-Entropy — Information Theory Playground</title>
   <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -475,14 +475,14 @@
     .it-note { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-top: 0.4rem; }
 
   </style>
-  <link rel="stylesheet" href="../../../../../shared/usearch.css">
+  <link rel="stylesheet" href="../../../../../../shared/usearch.css">
 </head>
 <body>
 
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
       <div class="nav-right">
         <div class="usearch-wrap">
           <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -497,8 +497,8 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/observational/it">information theory</a><span class="sep">/</span><span class="here">KL Divergence</span></div>
-      <h1 class="note-title">KL Divergence</h1>
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/observational/information/atlas">information theory</a><span class="sep">/</span><span class="here">Cross-Entropy</span></div>
+      <h1 class="note-title">Cross-Entropy</h1>
       <div class="note-meta"><span class="chip">live note</span><span class="chip">playground</span><span class="chip">#information</span><span class="chip">#information-theory</span></div>
     </div>
 
@@ -508,11 +508,11 @@
           <div class="markdown-body">
 
             <blockquote>
-              <p><strong>Kullback&ndash;Leibler divergence</strong> measures how much a model <span data-tex="q"></span> differs from a true distribution <span data-tex="p"></span>: <span data-tex="D(p\,\|\,q) = \sum_i p_i \log_2 (p_i/q_i)"></span>.</p><p>It is non-negative and zero only when p = q, but it is <em>asymmetric</em> &mdash; it is a directed cost, not a distance.</p>
+              <p><strong>Cross-entropy</strong> is the average code length when a model <span data-tex="q"></span> is used to encode data actually drawn from <span data-tex="p"></span>: <span data-tex="H(p,q) = -\sum_i p_i \log_2 q_i"></span>.</p><p>It splits cleanly into the true entropy plus the divergence &mdash; the unavoidable cost plus the penalty for being wrong. This is the loss behind most modern classifiers.</p>
             </blockquote>
 
             <h2 id="playground">Playground</h2>
-            <p>Set the true distribution with one slider and the model with another; compare the two directions of divergence.</p>
+            <p>Drive the model away from the truth and watch the cross-entropy penalty above the true entropy floor.</p>
 
             <div class="inst-row" id="instRow"></div>
 
@@ -525,22 +525,23 @@
 
 
 <div class="ctrl">
-  <label>True p <input id="p" type="range" min="1" max="999" value="500"></label>
-  <label>Model q <input id="q" type="range" min="1" max="999" value="900"></label>
+  <label>True p <input id="p" type="range" min="1" max="999" value="800"></label>
+  <label>Model q <input id="q" type="range" min="1" max="999" value="500"></label>
 </div>
 <canvas class="it-canvas" id="itCanvas"></canvas>
 <div class="readout">
-  <div class="ro"><span class="k">D(p||q)</span><span class="v" id="vDpq"></span></div>
-  <div class="ro alt"><span class="k">D(q||p)</span><span class="v" id="vDqp"></span></div>
+  <div class="ro"><span class="k">H(p,q)</span><span class="v" id="vCE"></span></div>
+  <div class="ro"><span class="k">H(p)</span><span class="v" id="vH"></span></div>
+  <div class="ro alt"><span class="k">D(p||q)</span><span class="v" id="vD"></span></div>
 </div>
-<div class="it-note">The curve fixes p at the slider and sweeps q; the two readouts make the asymmetry of KL divergence visible.</div>
+<div class="it-note">Cross-entropy decomposes into true entropy plus divergence: H(p,q) = H(p) + D(p&#8214;q). Watch the gold penalty grow as the model drifts from the truth.</div>
 
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../note.html?n=epistemica/observational/shannon-information-theory.md">Shannon Information Theory</a></li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/observational/information/entropy.md">Entropy</a></li><li><a href="../../../../../note.html?n=epistemica/observational/information/shannon-information-theory.md">Shannon Information Theory</a></li></ul>
 
             <h2 id="references">References</h2>
-            <ul><li>Kullback, S. &amp; Leibler, R. A. (1951). On Information and Sufficiency. <em>Annals of Mathematical Statistics</em>.</li></ul>
+            <ul><li>Goodfellow, I., Bengio, Y. &amp; Courville, A. (2016). <em>Deep Learning</em>, ch. 3.</li><li>Cover, T. M. &amp; Thomas, J. A. (1999). <em>Elements of Information Theory</em>.</li></ul>
 
           </div>
         </article>
@@ -556,12 +557,12 @@
   <footer class="site-footer">
     <div class="foot-inner">
       <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
-      <a href="../../../../index.html">&larr; CATALOG</a>
+      <a href="../../../../../index.html">&larr; CATALOG</a>
     </div>
   </footer>
 
-  <script src="../../../../vendor/mathjax-setup.js"></script>
-  <script src="../../../../vendor/mathjax/tex-svg-full.js"></script>
+  <script src="../../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../../vendor/mathjax/tex-svg-full.js"></script>
 
 <script id="ambient">
   (function () {
@@ -719,35 +720,43 @@
       el('iiLaw').setAttribute('data-tex-display', cur.sub);
       el('iiDesc').textContent = cur.desc;
       el('iiDocs').innerHTML = (cur.docs || []).map(function (d) {
-        return '<a href="../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
+        return '<a href="../../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
       }).join('');
       if (window.renderTeX) renderTeX(el('instInfo'));
     }
 
 
     var INSTS = [
-{domain:"Bernoulli",name:"Identical",tag:"no divergence",sub:"D(p\\,\\|\\,q) = 0\\ \\text{bits}",desc:"A distribution never diverges from itself: KL divergence is zero exactly when p = q.",p:0.5,q:0.5,docs:[]},
-{domain:"Bernoulli",name:"0.2 vs 0.8",tag:"reversed bias",sub:"D(p\\,\\|\\,q) = 1.2\\ \\text{bits}",desc:"Reversed biases are very far apart in the KL sense; note the divergence is large but finite.",p:0.2,q:0.8,docs:[]},
-{domain:"Bernoulli",name:"0.5 vs 0.9",tag:"asymmetric",sub:"D(p\\,\\|\\,q) = 0.737\\ \\text{bits}",desc:"KL divergence is asymmetric: using a confident model to predict a balanced source costs more than the reverse.",p:0.5,q:0.9,docs:[]},
-{domain:"Bernoulli",name:"0.9 vs 0.5",tag:"reverse direction",sub:"D(p\\,\\|\\,q) = 0.278\\ \\text{bits}",desc:"Swapping p and q changes the value &mdash; the divergence is not a distance.",p:0.9,q:0.5,docs:[]}
+{domain:"Model",name:"Model = truth",tag:"calibrated",sub:"H(p,q) = H(p) + D(p\\,\\|\\,q) = 1.0\\ \\text{bits}",desc:"A perfectly calibrated model matches the true entropy; the divergence term is zero.",p:0.5,q:0.5,docs:[]},
+{domain:"Model",name:"Uniform model",tag:"over-cautious",sub:"H(p,q) = 1.0\\ \\text{bits}",desc:"A uniform model over a biased source costs exactly one bit per symbol &mdash; the price of ignoring the bias.",p:0.8,q:0.5,docs:[]},
+{domain:"Model",name:"Over-confident model",tag:"miscalibrated",sub:"H(p,q) = 1.737\\ \\text{bits}",desc:"An over-confident wrong model pays a large penalty: cross-entropy exceeds the true entropy by the divergence.",p:0.5,q:0.9,docs:[]},
+{domain:"Model",name:"Reverse bias",tag:"inverted",sub:"H(p,q) = 3.170\\ \\text{bits}",desc:"A model that expects the opposite of the truth is worse than a uniform model &mdash; cross-entropy blows up.",p:0.9,q:0.1,docs:[]}
     ];
     var cv = el('itCanvas'), pEl = el('p'), qEl = el('q');
+    function H2(p) { if (p <= 0 || p >= 1) return 0; return -p * Math.log2(p) - (1 - p) * Math.log2(1 - p); }
     function kl(a, b) { var s = 0; if (a > 0) s += a * Math.log2(a / b); if (a < 1) s += (1 - a) * Math.log2((1 - a) / (1 - b)); return s; }
+    function ce(p, q) { var s = 0; if (p > 0) s += -p * Math.log2(q); if (p < 1) s += -(1 - p) * Math.log2(1 - q); return s; }
     function select(i) { var c = INSTS[i]; fillInstInfo(c); pEl.value = c.p * 1000; qEl.value = c.q * 1000; render(); }
     function render() {
       var p = +pEl.value / 1000, q = +qEl.value / 1000;
-      el('vDpq').textContent = fmt(kl(p, q));
-      el('vDqp').textContent = fmt(kl(q, p));
+      el('vCE').textContent = fmt(ce(p, q));
+      el('vH').textContent = fmt(H2(p));
+      el('vD').textContent = fmt(kl(p, q));
       var C = colors(), f = fitCanvas(cv), ctx = f.ctx, w = f.w, h = f.h;
       var pad = { l: 44, r: 18, t: 18, b: 34 };
       axes(ctx, w, h, pad, C);
       var M = makeMap(w, h, pad, 0, 1, 0, 5);
       ctx.fillStyle = C.muted; ctx.font = '11px ui-monospace, monospace'; ctx.textAlign = 'right';
       [0, 1, 2, 3, 4, 5].forEach(function (t) { ctx.fillText(t + '', pad.l - 8, M(0, 1)[1] - (t / 5) * (h - pad.t - pad.b) + 4); });
-      plotFn(ctx, w, h, pad, 0.001, 0.999, 0, 5, function (x) { return Math.min(5, kl(p, x)); }, C.cyan, 2);
-      dot(ctx, M, q, Math.min(5, kl(p, q)), C.gold, 5);
+      /* true entropy as a filled baseline, cross-entropy as a line */
+      var hp = H2(p);
+      ctx.fillStyle = C.cyan; ctx.globalAlpha = 0.18;
+      var yb = M(0, Math.min(5, hp))[1];
+      ctx.fillRect(pad.l, yb, w - pad.l - pad.r, (h - pad.b) - yb); ctx.globalAlpha = 1;
+      plotFn(ctx, w, h, pad, 0.005, 0.995, 0, 5, function (x) { return Math.min(5, ce(p, x)); }, C.cyan, 2);
+      dot(ctx, M, q, Math.min(5, ce(p, q)), C.gold, 5);
       ctx.fillStyle = C.muted; ctx.textAlign = 'left';
-      ctx.fillText('q', w - pad.r - 6, h - pad.b + 22);
+      ctx.fillText('model q', pad.l + 4, h - pad.b + 22);
     }
     buildPills(el('instRow'), INSTS, function (i) { setActivePill(el('instRow'), i); select(i); });
     pEl.addEventListener('input', render); qEl.addEventListener('input', render);
@@ -760,6 +769,6 @@
   </script>
 
   <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
-  <script src="../../../../../shared/usearch.js" data-root="../../../../../"></script>
+  <script src="../../../../../../shared/usearch.js" data-root="../../../../../../"></script>
 </body>
 </html>

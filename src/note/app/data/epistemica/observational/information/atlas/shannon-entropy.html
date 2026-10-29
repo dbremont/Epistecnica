@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mutual Information — Information Theory Playground</title>
+  <title>Shannon Entropy — Information Theory Playground</title>
   <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -475,14 +475,14 @@
     .it-note { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-top: 0.4rem; }
 
   </style>
-  <link rel="stylesheet" href="../../../../../shared/usearch.css">
+  <link rel="stylesheet" href="../../../../../../shared/usearch.css">
 </head>
 <body>
 
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
       <div class="nav-right">
         <div class="usearch-wrap">
           <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -497,8 +497,8 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><a href="../../../../index.html?dir=epistemica/observational/it">information theory</a><span class="sep">/</span><span class="here">Mutual Information</span></div>
-      <h1 class="note-title">Mutual Information</h1>
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/observational">observational</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/observational/information/atlas">information theory</a><span class="sep">/</span><span class="here">Shannon Entropy</span></div>
+      <h1 class="note-title">Shannon Entropy</h1>
       <div class="note-meta"><span class="chip">live note</span><span class="chip">playground</span><span class="chip">#information</span><span class="chip">#information-theory</span></div>
     </div>
 
@@ -508,11 +508,11 @@
           <div class="markdown-body">
 
             <blockquote>
-              <p><strong>Mutual information</strong> measures the reduction in uncertainty about X gained from knowing Y: <span data-tex="I(X;Y) = H(X) + H(Y) - H(X,Y)"></span>, equivalently <span data-tex="I(X;Y) = H(Y) - H(Y\mid X)"></span>.</p><p>It is symmetric, non-negative, and zero exactly when the variables are independent. For a binary symmetric channel it is <span data-tex="1 - H_2(q)"></span>.</p>
+              <p><strong>Shannon entropy</strong> is the average information content of a source: <span data-tex="H(X) = -\sum_i p_i \log_2 p_i\ ."></span> It is the number of bits needed, on average, to describe an outcome &mdash; the expected surprise.</p><p>It is maximal when outcomes are equiprobable and zero when one outcome is certain.</p>
             </blockquote>
 
             <h2 id="playground">Playground</h2>
-            <p>Raise the channel's crossover probability and watch the information actually transmitted fall from one bit to none.</p>
+            <p>Sweep the bias of a coin and watch its entropy rise to one bit at p = 0.5 and fall away on either side.</p>
 
             <div class="inst-row" id="instRow"></div>
 
@@ -525,22 +525,22 @@
 
 
 <div class="ctrl">
-  <label>Crossover probability q <input id="q" type="range" min="0" max="500" value="100"></label>
+  <label>P(X = heads) <input id="p" type="range" min="0" max="1000" value="500"></label>
 </div>
 <canvas class="it-canvas" id="itCanvas"></canvas>
 <div class="readout">
-  <div class="ro"><span class="k">q</span><span class="v" id="vQ"></span></div>
-  <div class="ro"><span class="k">I(X;Y) bits</span><span class="v" id="vI"></span></div>
-  <div class="ro alt"><span class="k">Capacity C</span><span class="v" id="vC"></span></div>
+  <div class="ro"><span class="k">p</span><span class="v" id="vP"></span></div>
+  <div class="ro"><span class="k">H(X) bits</span><span class="v" id="vH"></span></div>
+  <div class="ro alt"><span class="k">H max</span><span class="v">1.000</span></div>
 </div>
-<div class="it-note">For a binary symmetric channel with input X uniform, mutual information is I(X;Y) = 1 &minus; H&#8322;(q), maximized at q = 0.</div>
+<div class="it-note">The Bernoulli entropy H(p) peaks at p = 0.5 and vanishes at both certainties &mdash; uncertainty is maximal when the two outcomes are balanced.</div>
 
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../note.html?n=epistemica/observational/shannon-information-theory.md">Shannon Information Theory</a></li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/observational/information/shannon-entropy.md">Shannon Entropy</a></li><li><a href="../../../../../note.html?n=epistemica/observational/information/entropy.md">Entropy</a></li><li><a href="../../../../../note.html?n=epistemica/observational/information/shannon-information-theory.md">Shannon Information Theory</a></li></ul>
 
             <h2 id="references">References</h2>
-            <ul><li>Cover, T. M. &amp; Thomas, J. A. (1999). <em>Elements of Information Theory</em>.</li><li>Shannon, C. E. (1948). A Mathematical Theory of Communication.</li></ul>
+            <ul><li>Shannon, C. E. (1948). A Mathematical Theory of Communication.</li></ul>
 
           </div>
         </article>
@@ -556,12 +556,12 @@
   <footer class="site-footer">
     <div class="foot-inner">
       <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
-      <a href="../../../../index.html">&larr; CATALOG</a>
+      <a href="../../../../../index.html">&larr; CATALOG</a>
     </div>
   </footer>
 
-  <script src="../../../../vendor/mathjax-setup.js"></script>
-  <script src="../../../../vendor/mathjax/tex-svg-full.js"></script>
+  <script src="../../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../../vendor/mathjax/tex-svg-full.js"></script>
 
 <script id="ambient">
   (function () {
@@ -719,40 +719,40 @@
       el('iiLaw').setAttribute('data-tex-display', cur.sub);
       el('iiDesc').textContent = cur.desc;
       el('iiDocs').innerHTML = (cur.docs || []).map(function (d) {
-        return '<a href="../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
+        return '<a href="../../../../../note.html?n=' + d.n + '">' + d.label + '</a>';
       }).join('');
       if (window.renderTeX) renderTeX(el('instInfo'));
     }
 
 
     var INSTS = [
-{domain:"Channel",name:"Independent",tag:"no channel",sub:"I(X;Y) = 1 - H_2(0.5) = 0\\ \\text{bits}",desc:"A channel that ignores its input (crossover 0.5) conveys nothing: the mutual information is zero.",q:0.5,docs:[{n:"epistemica/observational/shannon-information-theory.md",label:"Shannon Information Theory"}]},
-{domain:"Channel",name:"Noiseless",tag:"perfect channel",sub:"I(X;Y) = 1 - H_2(0.0) = 1\\ \\text{bit}",desc:"A noiseless binary channel transmits one full bit per symbol &mdash; its capacity for a fair input.",q:0.0,docs:[]},
-{domain:"Channel",name:"BSC, crossover 0.1",tag:"slightly noisy",sub:"I(X;Y) = 1 - H_2(0.1) = 0.531\\ \\text{bits}",desc:"Small amounts of noise cost little: a channel that flips one bit in ten still carries about half a bit.",q:0.1,docs:[]},
-{domain:"Channel",name:"BSC, crossover 0.25",tag:"noisy",sub:"I(X;Y) = 1 - H_2(0.25) = 0.189\\ \\text{bits}",desc:"As the crossover probability rises toward 0.5, the information transmitted falls toward nothing.",q:0.25,docs:[]}
+{domain:"Coin",name:"Fair coin",tag:"maximum for a bit",sub:"H(X) = -0.5\\log_2 0.5 - 0.5\\log_2 0.5 = 1\\ \\text{bit}",desc:"The fair coin is the most uncertain binary source; its entropy is exactly one bit.",p:0.5,docs:[{n:"epistemica/observational/information/shannon-entropy.md",label:"Shannon Entropy"},{n:"epistemica/observational/information/entropy.md",label:"Entropy"}]},
+{domain:"Die",name:"Six-sided die",tag:"six-way uniform",sub:"H(X) = \\log_2 6 = 2.585\\ \\text{bits}",desc:"A uniform six-way source averages 2.585 bits of uncertainty per draw.",p:0.16666666666666666,docs:[]},
+{domain:"Coin",name:"Biased coin (0.9)",tag:"low uncertainty",sub:"H(X) = -0.9\\log_2 0.9 - 0.1\\log_2 0.1 = 0.469\\ \\text{bits}",desc:"Biasing a coin toward one outcome removes uncertainty: the entropy drops below one bit.",p:0.9,docs:[]},
+{domain:"Alphabet",name:"Eight symbols",tag:"octet uniform",sub:"H(X) = \\log_2 8 = 3\\ \\text{bits}",desc:"A uniform eight-symbol source costs exactly three bits per symbol on average.",p:0.125,docs:[]},
+{domain:"Degenerate",name:"Certain event (p=1)",tag:"zero uncertainty",sub:"H(X) = -1\\log_2 1 = 0\\ \\text{bits}",desc:"If the outcome is certain there is no uncertainty at all: entropy vanishes.",p:1.0,docs:[]}
     ];
-    var cv = el('itCanvas'), qEl = el('q');
+    var cv = el('itCanvas'), pEl = el('p');
     function H2(p) { if (p <= 0 || p >= 1) return 0; return -p * Math.log2(p) - (1 - p) * Math.log2(1 - p); }
-    function mi(q) { return 1 - H2(q); }
-    function select(i) { var c = INSTS[i]; fillInstInfo(c); qEl.value = c.q * 1000; render(); }
+    function select(i) { var c = INSTS[i]; fillInstInfo(c); pEl.value = c.p * 1000; render(); }
     function render() {
-      var q = +qEl.value / 1000, I = mi(q);
-      el('vQ').textContent = fmt(q);
-      el('vI').textContent = fmt(I);
-      el('vC').textContent = '1.000';
+      var p = +pEl.value / 1000, H = H2(p);
+      el('vP').textContent = fmt(p);
+      el('vH').textContent = fmt(H);
       var C = colors(), f = fitCanvas(cv), ctx = f.ctx, w = f.w, h = f.h;
       var pad = { l: 44, r: 18, t: 18, b: 34 };
       axes(ctx, w, h, pad, C);
-      var M = makeMap(w, h, pad, 0, 0.5, 0, 1);
+      var M = makeMap(w, h, pad, 0, 1, 0, 1);
       ctx.fillStyle = C.muted; ctx.font = '11px ui-monospace, monospace'; ctx.textAlign = 'right';
       [0, 0.25, 0.5, 0.75, 1].forEach(function (t) { ctx.fillText(t + '', pad.l - 8, M(0, 1)[1] - t * (h - pad.t - pad.b) + 4); });
-      plotFn(ctx, w, h, pad, 0, 0.5, 0, 1, function (x) { return mi(x); }, C.cyan, 2);
-      dot(ctx, M, q, I, C.gold, 5);
+      plotFn(ctx, w, h, pad, 0, 1, 0, 1, H2, C.cyan, 2);
+      dot(ctx, M, 0.5, 1, C.muted, 3);
+      dot(ctx, M, p, H, C.gold, 5);
       ctx.fillStyle = C.muted; ctx.textAlign = 'left';
-      ctx.fillText('crossover q', pad.l + 4, h - pad.b + 22);
+      ctx.fillText('p', w - pad.r - 6, h - pad.b + 22);
     }
     buildPills(el('instRow'), INSTS, function (i) { setActivePill(el('instRow'), i); select(i); });
-    qEl.addEventListener('input', render);
+    pEl.addEventListener('input', render);
     window.addEventListener('resize', render);
     window.addEventListener('epistecnica-theme', render);
     select(0);
@@ -762,6 +762,6 @@
   </script>
 
   <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
-  <script src="../../../../../shared/usearch.js" data-root="../../../../../"></script>
+  <script src="../../../../../../shared/usearch.js" data-root="../../../../../../"></script>
 </body>
 </html>

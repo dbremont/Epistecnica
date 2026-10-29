@@ -6,7 +6,7 @@ tags: [information]
 
 > Shannon information content — self-information or surprisal — is the amount of uncertainty removed when a single outcome is observed: the rarer the outcome, the more information it carries.
 
-It is the atom of Shannon's theory. Entropy averages it over a distribution; joint, conditional, and mutual information recombine it; divergence and cross-entropy price it under a wrong model. The [Information Theory Atlas](data/epistemica/observational/it/atlas.html) lets each of these quantities be played with directly.
+It is the atom of Shannon's theory. Entropy averages it over a distribution; joint, conditional, and mutual information recombine it; divergence and cross-entropy price it under a wrong model. The [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) lets each of these quantities be played with directly.
 
 ## Formulation
 
@@ -18,7 +18,7 @@ $$I(x) = -\log_b P(x).$$
 
 The minus sign turns the inverse relation between probability and surprise into a positive quantity; the logarithm makes information additive for independent events, since $P(x,y) = P(x)P(y)$ implies $I(x,y) = I(x) + I(y)$. The base $b$ chooses the unit: $b = 2$ gives bits, $b = e$ gives nats, $b = 10$ gives hartleys.
 
-The concept is a companion of [Shannon Information Theory](note.html?n=epistemica/observational/shannon-information-theory.md) and the probabilistic realisation of [Entropy](note.html?n=epistemica/observational/entropy.md); its averaged form is [Shannon Entropy](note.html?n=epistemica/observational/shannon-entropy.md).
+The concept is a companion of [Shannon Information Theory](note.html?n=epistemica/observational/information/shannon-information-theory.md) and the probabilistic realisation of [Entropy](note.html?n=epistemica/observational/information/entropy.md); its averaged form is [Shannon Entropy](note.html?n=epistemica/observational/information/shannon-entropy.md).
 
 ### What epistemic element type does this epistemic instance belong to?
 
@@ -59,9 +59,9 @@ Its limits are equally sharp. It is defined only for non-zero probabilities, so 
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Shannon Information Theory](note.html?n=epistemica/observational/shannon-information-theory.md)
-- [Shannon Entropy](note.html?n=epistemica/observational/shannon-entropy.md)
-- [Entropy](note.html?n=epistemica/observational/entropy.md)
-- [Information Theory Atlas](data/epistemica/observational/it/atlas.html)
+- [Shannon Information Theory](note.html?n=epistemica/observational/information/shannon-information-theory.md)
+- [Shannon Entropy](note.html?n=epistemica/observational/information/shannon-entropy.md)
+- [Entropy](note.html?n=epistemica/observational/information/entropy.md)
+- [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html)
 - Shannon, C. E. (1948). A Mathematical Theory of Communication. *Bell System Technical Journal*, 27, 379–423.
 - Cover, T. M. & Thomas, J. A. (1999). *Elements of Information Theory*. Wiley.

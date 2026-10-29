@@ -1291,7 +1291,7 @@
     ]
   },
   {
-    "file_path": "epistemica/decision-making.md",
+    "file_path": "epistemica/observational/decision/decision-making.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -1305,6 +1305,16 @@
         "summary": "Link the Decision Theory field entry and add the Luce-Raiffa archive reference.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
         "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Decision Theory link after its move to observational/decision/."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/decision/."
       }
     ]
   },
@@ -5805,6 +5815,11 @@
         "summary": "Point the Statistics link at the discipline note.",
         "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
         "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Information Theory links after the move to observational/information/."
       }
     ]
   },
@@ -5820,13 +5835,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/algorithmic-information-theory-ait.md",
+    "file_path": "epistemica/observational/information/algorithmic-information-theory-ait.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Algorithmic Information Theory (AIT) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -6106,13 +6126,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/coding.md",
+    "file_path": "epistemica/observational/information/coding.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Coding from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -6298,7 +6323,7 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/decision-problem.md",
+    "file_path": "epistemica/observational/decision/decision-problem.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -6312,11 +6337,16 @@
         "summary": "Link the Decision Theory field entry and fix the Trade-Off link.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
         "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/decision/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/decision-theory/decision-theory.md",
+    "file_path": "epistemica/observational/decision/theory.md",
     "logs": [
       {
         "date": "2026-10-18",
@@ -6370,6 +6400,16 @@
         "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/decision/ and rename to theory.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Shannon Information Content link after its move to observational/information/."
       }
     ]
   },
@@ -6524,7 +6564,7 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/entropy.md",
+    "file_path": "epistemica/observational/information/entropy.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -6538,6 +6578,11 @@
         "summary": "Link Shannon information theory and the information-theory atlas from the relation section.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
         "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -6549,17 +6594,27 @@
         "kind": "feat",
         "summary": "Import Error-Correcting Code from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Fold into error-correcting-code.md and retire this file."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/error-correcting-code.md",
+    "file_path": "epistemica/observational/information/error-correcting-code.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Error Correcting Code from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -6685,13 +6740,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/fisher-information.md",
+    "file_path": "epistemica/observational/information/fisher-information.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Fisher Information from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -6941,13 +7001,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/huffman-coding.md",
+    "file_path": "epistemica/observational/information/huffman-coding.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Huffman Coding from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -7014,18 +7079,23 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/information-geometry.md",
+    "file_path": "epistemica/observational/information/information-geometry.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Information Geometry from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/information.md",
+    "file_path": "epistemica/observational/information/information.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -7039,6 +7109,11 @@
         "summary": "Remove the leftover Notion reference line.",
         "commit": "878887d38bc4e8c76469d6caf700959f4fad1b4a",
         "before": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -7054,7 +7129,7 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/it/shannon-information-content.md",
+    "file_path": "epistemica/observational/information/shannon-information-content.md",
     "logs": [
       {
         "date": "2026-10-18",
@@ -7073,6 +7148,11 @@
         "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move out of it/ into epistemica/observational/information/."
       }
     ]
   },
@@ -7275,13 +7355,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/markov-blanket.md",
+    "file_path": "epistemica/observational/information/markov-blanket.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Markov Blanket from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -7714,6 +7799,11 @@
         "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Information, Shannon Information Theory, Shannon Information Content, Entropy and Atlas links after the move to observational/information/."
       }
     ]
   },
@@ -8031,18 +8121,23 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/shannon-entropy.md",
+    "file_path": "epistemica/observational/information/shannon-entropy.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Shannon Entropy from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/shannon-information-theory.md",
+    "file_path": "epistemica/observational/information/shannon-information-theory.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -8063,6 +8158,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/."
       }
     ]
   },
@@ -8147,6 +8247,11 @@
         "kind": "feat",
         "summary": "Import (Statistic) Estimator from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Fisher Information link after its move to observational/information/."
       }
     ]
   },
@@ -8803,6 +8908,11 @@
         "kind": "refactor",
         "summary": "Rename the epistemic element set to EES and move the note, atlas, and tree store to ees.md, ees.html, and ees.json.",
         "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/"
       }
     ]
   },
@@ -10363,6 +10473,11 @@
         "summary": "Remove the retired order label from the QA and type formulation.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/"
       }
     ]
   },

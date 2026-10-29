@@ -434,7 +434,7 @@ Aphorisms:
 [Optimization](note.html?n=epistemica/optimization.md)
 [Mathematical](index.html?dir=epistemica/mathematical)
 [Observational](note.html?n=epistemica/observational.md)
-[Decision Making](note.html?n=epistemica/decision-making.md)
+[Decision Making](note.html?n=epistemica/observational/decision/decision-making.md)
 [Signal Processing](note.html?n=epistemica/signal-processing.md)
 [Natural Computing](note.html?n=epistemica/natural-computing.md)
 [Complexity Science](note.html?n=epistemica/complexity-science.md)
