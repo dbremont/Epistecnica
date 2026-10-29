@@ -309,7 +309,7 @@ Formally: $\mathrm{Var}(X) = \mathbb{E}\big[(X - \mathbb{E}[X])^2\big] = \mathbb
 
 ### Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?
 
-> See [Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](probability.md)
+> See [Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](../discipline/probability.md)
 > 
 
 ### What does it mean to do operate (sum, multiply, etc.) two random variables?

@@ -50,7 +50,7 @@
         "standardized-normalized"
       ],
       "notes": [
-        "epistemica/observational/probability.md",
+        "epistemica/discipline/probability.md",
         "epistemica/discipline/statistics.md"
       ],
       "sources": [
@@ -192,7 +192,7 @@
         "central-limit-theorem"
       ],
       "notes": [
-        "epistemica/observational/probability.md"
+        "epistemica/discipline/probability.md"
       ],
       "sources": [
         {
@@ -226,7 +226,7 @@
         "expectation"
       ],
       "notes": [
-        "epistemica/observational/probability.md",
+        "epistemica/discipline/probability.md",
         "epistemica/discipline/statistics.md"
       ],
       "sources": [
@@ -405,7 +405,7 @@
         "expectation"
       ],
       "notes": [
-        "epistemica/observational/probability.md",
+        "epistemica/discipline/probability.md",
         "epistemica/discipline/statistics.md"
       ],
       "sources": [
@@ -444,7 +444,7 @@
         "normal-distribution"
       ],
       "notes": [
-        "epistemica/observational/probability.md"
+        "epistemica/discipline/probability.md"
       ],
       "sources": [
         {
@@ -849,7 +849,7 @@
         "random-sample"
       ],
       "notes": [
-        "epistemica/observational/probability.md",
+        "epistemica/discipline/probability.md",
         "epistemica/discipline/statistics.md"
       ],
       "sources": [

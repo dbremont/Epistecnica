@@ -403,7 +403,7 @@ design and the honesty of the reader.
 
 ### Representation Toolbox
 
-> See ([Trainable Computational System Space](note.html?n=epistemica/observational/computational-learning.md) ) for Cl and ([**Representation Toolbox**](note.html?n=epistemica/observational/probability.md)) for Probabilistic ones.
+> See ([Trainable Computational System Space](note.html?n=epistemica/observational/computational-learning.md) ) for Cl and ([**Representation Toolbox**](note.html?n=epistemica/discipline/probability.md)) for Probabilistic ones.
 > 
 
 > **Note:** A statistical model is basically a **trainable computational system, but here we will only cover the more traditional ones.**

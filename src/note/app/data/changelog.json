@@ -1446,6 +1446,11 @@
         "summary": "Retarget the epistemic element set inventory link to EES.",
         "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
         "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Probability link after its move to this directory."
       }
     ]
   },
@@ -5823,6 +5828,11 @@
         "summary": "Retarget the Information Theory links after the move to observational/information/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
         "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Probability link after its move to discipline/."
       }
     ]
   },
@@ -6447,6 +6457,11 @@
         "kind": "fix",
         "summary": "Retarget the Shannon Information Content link after its move to observational/information/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Probability link after its move to discipline/."
       }
     ]
   },
@@ -6578,13 +6593,18 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/econometrics.md",
+    "file_path": "epistemica/discipline/econometrics.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Econometrics from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/discipline/."
       }
     ]
   },
@@ -7970,6 +7990,11 @@
         "summary": "Retarget the Information, Shannon Information Theory, Shannon Information Content, Entropy and Atlas links after the move to observational/information/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
         "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Probability link after its move to discipline/."
       }
     ]
   },
@@ -8051,7 +8076,7 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/probability.md",
+    "file_path": "epistemica/discipline/probability.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -8096,6 +8121,11 @@
         "date": "2026-10-29",
         "kind": "fix",
         "summary": "Retarget the four Distribution links to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/discipline/. Its same-dir links to notes that stayed in observational/ gain the ../observational/ prefix, and the Statistical Mechanics and Validation links (absolute corpus paths) are unaffected."
       }
     ]
   },
@@ -8168,6 +8198,11 @@
         "date": "2026-10-29",
         "kind": "fix",
         "summary": "Retarget the Distribution link to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the two Probability links after its move to discipline/."
       }
     ]
   },
@@ -8196,6 +8231,11 @@
         "date": "2026-10-29",
         "kind": "fix",
         "summary": "Retarget the Distribution link to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Probability link after its move to discipline/."
       }
     ]
   },
@@ -8798,6 +8838,11 @@
         "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Probability link after its move to discipline/."
       }
     ]
   },

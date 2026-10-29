@@ -675,7 +675,7 @@
       "origins": "The tilde of similarity and distributional notation; U+223C; TeX: \\sim.",
       "usage": "X ∼ N(0, 1) — the distribution of X; A ∼ B — similar figures; f ∼ g — asymptotic equivalence of functions.",
       "related": ["approximate", "expectation", "mu"],
-      "notes": ["epistemica/observational/probability.md"],
+      "notes": ["epistemica/discipline/probability.md"],
       "sources": [
         { "label": "Wikipedia: Probability distribution", "url": "https://en.wikipedia.org/wiki/Probability_distribution" },
         { "label": "Billingsley, P. (1995). Probability and Measure." }
@@ -747,7 +747,7 @@
       "origins": "The blackboard-bold E of the double-struck operator family (Mathematical Alphanumeric Symbols, Unicode 3.1, 2001); TeX: \\mathbb{E}.",
       "usage": "𝔼[X] — expectation behind estimators, variances and risks; 𝔼[X | Y] — conditional expectation.",
       "related": ["mu", "sigma", "conditional-bar"],
-      "notes": ["epistemica/observational/probability.md", "epistemica/discipline/statistics.md"],
+      "notes": ["epistemica/discipline/probability.md", "epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Expected value", "url": "https://en.wikipedia.org/wiki/Expected_value" },
         { "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference." }
@@ -765,7 +765,7 @@
       "origins": "The up tack ⊥ of geometry, reused for statistical independence and orthogonality; U+22A5; TeX: \\perp.",
       "usage": "X ⊥ Y — independence (X ⊥ Y | Z conditional); v ⊥ w — perpendicular vectors; orthogonal parameters in a model.",
       "related": ["conditional-bar", "expectation"],
-      "notes": ["epistemica/observational/probability.md", "epistemica/mathematical/vector.md"],
+      "notes": ["epistemica/discipline/probability.md", "epistemica/mathematical/vector.md"],
       "sources": [
         { "label": "Wikipedia: Independence (probability theory)", "url": "https://en.wikipedia.org/wiki/Independence_(probability_theory)" },
         { "label": "Billingsley, P. (1995). Probability and Measure." }
@@ -783,7 +783,7 @@
       "origins": "The ASCII vertical bar (U+007C) taken over by 20th-century mathematics for “given” and “such that”; TeX: | and \\mid.",
       "usage": "P(A | B) — conditioning; {x | P(x)} — set-builder; a | b — “a divides b”; f|_A — restriction of a map.",
       "related": ["distributed-as", "expectation", "element-of"],
-      "notes": ["epistemica/observational/probability.md", "epistemica/mathematical/set.md"],
+      "notes": ["epistemica/discipline/probability.md", "epistemica/mathematical/set.md"],
       "sources": [
         { "label": "Wikipedia: Conditional probability", "url": "https://en.wikipedia.org/wiki/Conditional_probability" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }

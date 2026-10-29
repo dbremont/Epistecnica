@@ -32,7 +32,7 @@
 
 ## Probability
 
-> See more here [Probability](observational/probability.md).
+> See more here [Probability](discipline/probability.md).
 > 
 
 > The mathematical framework for modeling uncertainty and quantifying the likelihood of events.

@@ -40,7 +40,7 @@ tags: [probability]
 > See [Distribution](distribution/distribution.md), [Random Variable](random-variable.md).
 > 
 
-> See this ([Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](probability.md) ) for the comparison between a **probability distribution** and  a **random variable**.
+> See this ([Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](../discipline/probability.md) ) for the comparison between a **probability distribution** and  a **random variable**.
 > 
 
 > A random variable is a measurable function from a probability space to the **real numbers**, representing a numerical outcome of a random experiment.
@@ -120,7 +120,7 @@ tags: [probability]
 
 ### Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?
 
-> See [Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](probability.md)
+> See [Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](../discipline/probability.md)
 > 
 
 ## References
