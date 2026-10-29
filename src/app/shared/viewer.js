@@ -19,6 +19,15 @@
     var SEG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
     var REPO = 'https://github.com/dbremont/Epistecnica';
 
+    /* Section deep links: the browser's own scroll restoration races ours on
+       reload, so take it over — but only when a section is addressed, leaving
+       ordinary note navigation (and Back) with the default behavior. */
+    var deepLinkRequested = /^#sec-/.test(window.location.hash) ||
+        /[?&]toc-item=/.test(window.location.search);
+    if (deepLinkRequested) {
+        try { history.scrollRestoration = 'manual'; } catch (e) { /* older browser */ }
+    }
+
     /* ---------- ambient constellation ---------- */
 
     var canvas = document.getElementById('ambientCanvas');
@@ -427,35 +436,149 @@
         body.appendChild(ul);
     }
 
+    /* ---------- section scrolling (sticky-nav aware, reflow safe) ---------- */
+
+    function navHeight() {
+        var nav = document.querySelector('.nav');
+        return nav ? Math.round(nav.getBoundingClientRect().height) : 0;
+    }
+
+    function sectionMargin() { return navHeight() + 12; }
+
+    /* Jump without animating: the shells set `html { scroll-behavior: smooth }`,
+       which would fly through the whole document on a deep link. */
+    function instantScrollTo(y) {
+        var root = document.documentElement;
+        var prev = root.style.scrollBehavior;
+        root.style.scrollBehavior = 'auto';
+        window.scrollTo(0, Math.max(0, Math.round(y)));
+        window.requestAnimationFrame(function () { root.style.scrollBehavior = prev; });
+    }
+
+    /* Land a heading just below the sticky nav; smooth only for user clicks. */
+    function scrollToSection(h, smooth) {
+        var margin = sectionMargin();
+        h.style.scrollMarginTop = margin + 'px';
+        if (smooth) { h.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+        instantScrollTo(h.getBoundingClientRect().top + window.scrollY - margin);
+    }
+
+    /* Wait for everything that can reflow the page (MathJax typesetting,
+       webfonts, late images, an explicit promise), then one frame. */
+    function layoutSettled(extra) {
+        var waits = [];
+        if (window.MathJax && MathJax.startup && MathJax.startup.promise) waits.push(MathJax.startup.promise);
+        if (document.fonts && document.fonts.ready) waits.push(document.fonts.ready);
+        var imgs = document.querySelectorAll('#note-body img');
+        for (var i = 0; i < imgs.length; i++) (function (img) {
+            if (img.complete) return;
+            waits.push(new Promise(function (resolve) {
+                img.addEventListener('load', resolve, { once: true });
+                img.addEventListener('error', resolve, { once: true });
+            }));
+        })(imgs[i]);
+        if (extra) extra.forEach(function (p) { if (p && p.then) waits.push(p); });
+        var settled = Promise.all(waits).catch(function () { /* keep going */ });
+        /* Never hold the reader at the top: jump anyway after 1.5s, and let
+           the correction pass below absorb a still-running typeset. */
+        var cap = new Promise(function (resolve) { window.setTimeout(resolve, 1500); });
+        return Promise.race([settled, cap]).then(function () {
+            return new Promise(function (resolve) {
+                window.requestAnimationFrame(function () { window.requestAnimationFrame(resolve); });
+            });
+        });
+    }
+
+    /* Land on a heading, then correct if late reflow moved it. */
+    function jumpToSection(h) {
+        scrollToSection(h, false);
+        [400, 1400].forEach(function (delay) {
+            window.setTimeout(function () {
+                var off = h.getBoundingClientRect().top - sectionMargin();
+                if (Math.abs(off) > 2) instantScrollTo(window.scrollY + off);
+            }, delay);
+        });
+    }
+
+    /* Heading text → URL-safe section slug; collisions get -2, -3, … */
+    function slugify(text, used) {
+        var s = String(text == null ? '' : text).toLowerCase();
+        if (s.normalize) s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        s = s.replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'section';
+        var slug = s;
+        for (var n = 2; used[slug]; n++) slug = s + '-' + n;
+        used[slug] = true;
+        return slug;
+    }
+
+    /* Keep `toc-item=<slug>` in the URL so a section can be linked and copied. */
+    function setSectionParam(slug) {
+        try {
+            var url = new URL(window.location.href);
+            url.searchParams.set('toc-item', slug);
+            url.hash = '';
+            window.history.replaceState(null, '', url);
+        } catch (e) { /* no history API — the link still scrolls */ }
+    }
+
+    /* Builds the sidebar TOC. Returns a function that applies the deep link
+       (after layout has settled), or null when the URL names no section. */
     function buildToc() {
         var headings = document.querySelectorAll('#note-body h2, #note-body h3');
         var toc = document.getElementById('toc');
         toc.innerHTML = '';
-        if (!headings.length) { document.getElementById('sidebar').hidden = true; return; }
+        if (!headings.length) { document.getElementById('sidebar').hidden = true; return null; }
         document.getElementById('sidebar').hidden = false;
+        var used = Object.create(null);
+        var bySlug = Object.create(null);
+
         headings.forEach(function (h, i) {
-            h.id = 'sec-' + i;
+            var slug = slugify(h.textContent, used);
+            bySlug[slug] = { heading: h, index: i };
+            h.id = 'sec-' + slug;
             var a = document.createElement('a');
-            a.href = '#sec-' + i;
+            a.href = '#' + h.id;
             a.className = 'toc-item' + (h.tagName === 'H3' ? ' sub' : '');
             a.textContent = h.textContent;
+            a.setAttribute('data-slug', slug);
             a.addEventListener('click', function (e) {
                 e.preventDefault();
-                h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                markActive(i);
+                scrollToSection(h, true);
+                setSectionParam(slug);
             });
             toc.appendChild(a);
         });
 
         var items = toc.querySelectorAll('.toc-item');
+        function markActive(idx) {
+            items.forEach(function (it) { it.classList.remove('active'); });
+            if (items[idx]) items[idx].classList.add('active');
+        }
+
         var observer = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
                 if (!entry.isIntersecting) return;
-                var idx = Array.prototype.indexOf.call(headings, entry.target);
-                items.forEach(function (it) { it.classList.remove('active'); });
-                if (items[idx]) items[idx].classList.add('active');
+                markActive(Array.prototype.indexOf.call(headings, entry.target));
             });
         }, { rootMargin: '-10% 0px -60% 0px' });
         headings.forEach(function (h) { observer.observe(h); });
+
+        /* Deep link: ?toc-item=<slug>, or a plain #sec-<slug> hash. */
+        var q = new URLSearchParams(window.location.search);
+        var want = q.get('toc-item') || '';
+        var hash = window.location.hash.replace(/^#/, '');
+        if (!want && hash.indexOf('sec-') === 0) want = hash.slice(4);
+        var hit = want && bySlug[want];
+        if (!hit) return null;
+        markActive(hit.index);
+        setSectionParam(want);
+        return function (extra) {
+            layoutSettled(extra).then(function () {
+                markActive(hit.index);
+                jumpToSection(hit.heading);
+            });
+        };
     }
 
     /* ---------- load flow ---------- */
@@ -521,8 +644,9 @@
                 document.getElementById('loading').hidden = true;
                 document.getElementById('note-header').hidden = false;
                 document.getElementById('note-card').hidden = false;
-                buildToc();
-                if (kind.tex && window.renderTeX) renderTeX();
+                var restoreSection = buildToc();
+                var texPromise = (kind.tex && window.renderTeX) ? window.renderTeX() : null;
+                if (restoreSection) restoreSection([texPromise]);
             })
             .catch(function (err) {
                 fail(err.message === 'HTTP 404' ? 'The ' + kind.noun + ' "' + name + '" does not exist.' : 'Failed to load the ' + kind.noun + ' (' + err.message + ').');

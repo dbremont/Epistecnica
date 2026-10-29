@@ -47,7 +47,7 @@ with the subprojects.
 | `/` | Hub: a flat link index over the guide, the universal view, and the corpora |
 | `/docs` | Site documentation (this content, rendered) |
 | `/graph/` | Universal view: one read-only graph over notes + courses + documents + EES, generated from our corpus |
-| `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`), corpus (`data/**.md`) |
+| `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`, section deep link `&toc-item=<slug>`), corpus (`data/**.md`) |
 | `/note/data/epistemica/ees.html` | The EES atlas (local companion to the guide) |
 | `/note/data/epistemica/validation/atlas/pvalue.html` | The P-Value Atlas: playground over the null laws — pick, parameterize, move `t_obs`, read the live tails and Monte Carlo calibration |
 | `/course/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
@@ -124,6 +124,13 @@ files are **notes**; self-contained hand-authored HTML pages are **live notes**
 note (e.g. `/note/data/technica/cto/lib/concurrent-map.html`). Live notes use
 the same viewer frame and philosophia shell as regular notes (recipe in
 `docs/live-note-chrome.md` §7–§8).
+
+Every viewer builds its sidebar table of contents from the `h2`/`h3` headings
+and gives each one a stable slug id (`#sec-<slug>`). Picking a section writes
+`toc-item=<slug>` into the URL, so a section can be linked or copied directly:
+`/note/note.html?n=epistemica/ees.md&toc-item=formulation` (a plain
+`#sec-formulation` hash opens the same section). The parameter works the same
+way in the course, lecture, and document viewers.
 
 ## Specs & docs
 

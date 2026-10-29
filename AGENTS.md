@@ -483,6 +483,9 @@ when switching over.
   lecture|document"`). The script owns all viewer behavior (ambient
   background, theme toggle, markdown load/render, front-matter tags + QA,
   changelog history modal, crumbs, TOC); the shell owns the page frame.
+  Sections are linkable: every `h2`/`h3` gets a stable `#sec-<slug>` id and
+  picking a TOC entry writes `toc-item=<slug>` into the URL
+  (`note.html?n=…&toc-item=formulation`), which the viewer restores on load.
   When changing viewer behavior or DOM ids, change `viewer.js` — not the
   shells. Kind-specific config (query param, fetch URL, GitHub corpus
   prefix, crumbs style) lives in its `KINDS` table; adding a corpus means
