@@ -12912,6 +12912,11 @@
         "kind": "feat",
         "summary": "add physics/math books and RL agent papers",
         "commit": "dee3ed8780ec1563309d2c5dbb6cedfc31e0a1d5"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "add 469-element lectionis extraction of the book (prefaces and pp. 1-341)"
       }
     ]
   },
