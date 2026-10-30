@@ -12916,7 +12916,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "add 469-element lectionis extraction of the book (prefaces and pp. 1-341)"
+        "summary": "add 469-element lectionis extraction of the book (prefaces and pp. 1-341)",
+        "commit": "31e0c95713b25d41801e83d086fad6a75a0f110b",
+        "before": "0dade602520f2fb9ba20409a793ce1be0a4ced98"
       }
     ]
   },
