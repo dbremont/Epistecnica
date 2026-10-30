@@ -511,13 +511,27 @@
         return slug;
     }
 
-    /* Keep `toc-item=<slug>` in the URL so a section can be linked and copied. */
+    /* Keep `toc-item=<slug>` in the URL so a section can be linked and copied.
+       Only that pair is rewritten: every other query pair stays byte for byte
+       as it was typed (`n=technica/computation/representation.md` must not
+       come back as `n=technica%2F...`). */
     function setSectionParam(slug) {
         try {
-            var url = new URL(window.location.href);
-            url.searchParams.set('toc-item', slug);
-            url.hash = '';
-            window.history.replaceState(null, '', url);
+            var href = window.location.href.split('#')[0];
+            var cut = href.indexOf('?');
+            var base = cut === -1 ? href : href.slice(0, cut);
+            var query = cut === -1 ? '' : href.slice(cut + 1);
+            var parts = query ? query.split('&').filter(Boolean) : [];
+            var pair = 'toc-item=' + encodeURIComponent(slug);
+            var hit = false;
+            for (var i = 0; i < parts.length; i++) {
+                if (parts[i] === 'toc-item' || parts[i].indexOf('toc-item=') === 0) {
+                    parts[i] = pair;
+                    hit = true;
+                }
+            }
+            if (!hit) parts.push(pair);
+            window.history.replaceState(null, '', base + '?' + parts.join('&'));
         } catch (e) { /* no history API — the link still scrolls */ }
     }
 
