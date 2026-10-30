@@ -330,3 +330,5 @@ Focusing on **description length** or **encoding size** emphasizes **structural 
 - [Shannon, C.E. (1948). A Mathematical Theory of Communication.](https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication)
 - [Reznikova & Ryabko (1986). Ant Communication Experiment (RZ86).](https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms)
 - [Ashby, W. R. (1956). An Introduction to Cybernetics.](https://en.wikipedia.org/wiki/Variety_(cybernetics))
+- [Entropy fromn First Principles](https://www.lesswrong.com/s/t6KTt378yQHJSbDis)
+

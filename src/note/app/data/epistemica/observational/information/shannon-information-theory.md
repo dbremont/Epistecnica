@@ -1,7 +1,8 @@
 ---
 tags: [information]
 qa: 
- - 
+ - What is the nature of the term `theory`  on 'Shannon Information Theory'?
+ - ...
 ---
 
 # Shannon Information Theory
@@ -31,16 +32,12 @@ Doing:
 ## Problem Formulation
 
 > Data →  (**Encoding)** Representation → **(Decoding)** Recovered Data.
-> 
 
 > (**Reconstruction Fidelity**) Suppose we are given some data $d$ to transmit. What encoding $E_d$ of $d$ would ensure that $d$ can be reliably and unambiguously reconstructed from its encoded form ($E_d$) — that is, such that $\text{decoded}(E_d) ≈ d$?
-> 
 
 > (**Informational Content**) In other contexts, suppose the original data $d$ is unknown, but we are given its encoding $E_d$. How much information does $E_d$ convey? That is, how many distinct interpretations of $E_d$ are possible? The fewer the interpretations, the more informative $E_d$ it is.
-> 
 
 > **Data is transformed** into a **latent representation**. Through a sequence of Yes/No questions (a decision process), we aim to **uncover the set of possible values** that the **latent representation encodes** or corresponds to **upon materialization**.
-> 
 
 ## Formulation
 
@@ -48,7 +45,7 @@ Doing:
 
 Shannon information theory is the mathematical theory of the representation, transmission, and compression of messages. It abstracts away meaning and implementation: a source is a probability distribution over an alphabet of symbols, a channel is a conditional distribution over received symbols, and information is the reduction of uncertainty that an outcome or a message produces. From those two distributions it builds a tower of quantities — self-information, entropy, joint and conditional entropy, mutual information, channel capacity — and derives from them the limits that make the theory operational: the shortest average code a source admits, and the fastest rate a noisy channel carries reliably.
 
-This note develops the theory and its atom together. The atom — Shannon information content, the surprisal of a single outcome — is developed in [Shannon Information Content](#sec-shannon-information-content); its type, decomposition, and evaluation are answered here, in the shared formulation. The [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) makes every quantity in the tower playable.
+This note develops the theory and its atom together. The atom — Shannon information content, the surprisal of a single outcome — is developed in [Shannon Information Content](#sec-shannon-information); its type, decomposition, and evaluation are answered here, in the shared formulation. The [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) makes every quantity in the tower playable.
 
 ### What epistemic element type does this epistemic instance belong to?
 
@@ -154,10 +151,10 @@ Verdicts: Conceptual Identification **strong**; Definitional Clarity **strong**;
 | Representational Adequacy | Strong under a known model, weak under a contested one | The value is exact given the model; it inherits every defect of the probabilities fed to it. |
 | Purpose Adequacy | Strong for coding, inadequate for meaning | It measures surprise, not significance; reading it as semantic content is a category error. |
 
-## The Tower of Abstractions
+## Shannon Theory Toolbox
 
 > **Event → Shannon Information → Entropy → Mutual Information → Channel Capacity → Coding**
-> 
+
 
 > **Noise:** Uncertainty introduced by the channel that can corrupt messages.
 > 
@@ -191,26 +188,32 @@ Let the alphabet be: $\mathcal{A} = \{a_1, a_2, \dots, a_n\}$:
 ### **Event**
 
 > A specific outcome or set of outcomes from a random **process or source**.
-> 
 
 > In Shannon’s framework, an event is treated as a symbol or signal whose occurrence has a probability $P(x)$ and contributes Shannon information $I(x) = -\log P(x)$.
-> 
 
 > Events are the basic units from which entropy, mutual information, and other measures are calculated.
-> 
 
 ### Shannon Information
 
-> **Shannon information** (also called **self-information**) is a measure of the **amount of uncertainty reduced** when an event occurs. It is **quantitative**, not semantic—it doesn’t measure meaning —  **unpredictability** of an outcome.
-> 
+> **Shannon information** (also called **self-information**) (also called Shannon Information Content)  is a measure of the **amount of uncertainty reduced** when an event occurs. It is **quantitative**, not semantic—it doesn’t measure meaning —  **unpredictability** of an outcome.
 
 > Why it’s it called self-information?
-> 
 
 > Is surprisal → rarity? Why -logb and not log?   Why log at all? How to think about different measure of surprisal? Why not P(x)? Isn just surprisal an interpretation? P(x) high non surprising, P(x) small surprising.
-> 
 
-> The concept itself — its definition, its typing, its decomposition, and its evaluation — is developed in [Shannon Information Content](#sec-shannon-information-content). The [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) makes its operational quantities playable.
+> The concept itself — its definition, its typing, its decomposition, and its evaluation — is developed in [Shannon Information Content](#sec-shannon-information). The [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) makes its operational quantities playable.
+
+> Shannon information content — self-information or surprisal — is the amount of uncertainty removed when a single outcome is observed: the rarer the outcome, the more information it carries.
+
+It is the atom of Shannon's theory. Entropy averages it over a distribution; joint, conditional, and mutual information recombine it; divergence and cross-entropy price it under a wrong model. The [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) lets each of these quantities be played with directly.
+
+Given an outcome $x$ with probability $P(x)$, the information content is
+
+$$I(x) = -\log_b P(x).$$
+
+The minus sign turns the inverse relation between probability and surprise into a positive quantity; the logarithm makes information additive for independent events, since $P(x,y) = P(x)P(y)$ implies $I(x,y) = I(x) + I(y)$. The base $b$ chooses the unit: $b = 2$ gives bits, $b = e$ gives nats, $b = 10$ gives hartleys.
+
+The concept is the atom of the theory developed above: the probabilistic realisation of [Entropy](note.html?n=epistemica/observational/information/entropy.md), whose averaged form is [Shannon Entropy](note.html?n=epistemica/observational/information/shannon-entropy.md). Its type, decomposition, and evaluation are answered in the shared [Formulation](#sec-formulation): the concept is the `Epistemic Construction` path, its value the `Epistemic Representation` path, and its evaluation the second table under the critical-evaluation question.
 
 ![image.png](../assets/note/epistemica/observational/shannon-information-theory/image.png)
 
@@ -278,19 +281,7 @@ Where:
 > Sets the theoretical limit for error-free communication given channel noise.
 > 
 
-## Shannon Information Content
 
-> Shannon information content — self-information or surprisal — is the amount of uncertainty removed when a single outcome is observed: the rarer the outcome, the more information it carries.
-
-It is the atom of Shannon's theory. Entropy averages it over a distribution; joint, conditional, and mutual information recombine it; divergence and cross-entropy price it under a wrong model. The [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) lets each of these quantities be played with directly.
-
-Given an outcome $x$ with probability $P(x)$, the information content is
-
-$$I(x) = -\log_b P(x).$$
-
-The minus sign turns the inverse relation between probability and surprise into a positive quantity; the logarithm makes information additive for independent events, since $P(x,y) = P(x)P(y)$ implies $I(x,y) = I(x) + I(y)$. The base $b$ chooses the unit: $b = 2$ gives bits, $b = e$ gives nats, $b = 10$ gives hartleys.
-
-The concept is the atom of the theory developed above: the probabilistic realisation of [Entropy](note.html?n=epistemica/observational/information/entropy.md), whose averaged form is [Shannon Entropy](note.html?n=epistemica/observational/information/shannon-entropy.md). Its type, decomposition, and evaluation are answered in the shared [Formulation](#sec-formulation): the concept is the `Epistemic Construction` path, its value the `Epistemic Representation` path, and its evaluation the second table under the critical-evaluation question.
 
 ## Information System
 
@@ -314,12 +305,6 @@ The **main components of an information system** are:
 ## Compression
 
 > **Rate-Distortion Theory**: Studies the trade-off between the compression rate and the distortion (loss of information) in lossy data compression.
-> 
-
-## Uses
-
-> See [Entropy Realization](entropy.md).
-> 
 
 ## Limitations
 
@@ -328,7 +313,24 @@ The **main components of an information system** are:
 
 ## QA
 
-- Ho  do we get the probability distribution for the Alphabet of Symbols?
+### Why Is Shannon Information Called Self-Information?
+
+> Shannon information is called **Self-Information** because it quantifies the information associated with the occurrence of an individual outcome, based on the probability assigned to that outcome. It captures the information associated with the event \(X=x\), denoted by \(I(X=x)\).
+
+> Mathematically: $I(X=x)=-\log_2 P(X=x)$
+
+> The term *self* emphasizes that the quantity concerns an individual outcome rather than the relationship between two variables (as in mutual information).
+
+### How to Think about Shannon Information?
+
+| Intuitive Notion | Central Question | Relationship to Shannon Information |
+|---|---|---|
+| **Possible Worlds** | What are the possible states in which the world could be? | Defines the set of possible outcomes under consideration. |
+| **Possibility** | Which outcomes remain possible given the available constraints? | Establishes the space of alternatives that could occur. |
+| **Contingency** | What could have happened differently? | Captures the existence of alternative outcomes that could have occurred instead. |
+| **Variability** | How much do the possible outcomes differ or vary? | Concerns the distribution and dispersion of possible outcomes. |
+| **Unpredictability** | How difficult is it to anticipate which outcome will occur? | Relates to the uncertainty associated with the probability distribution. |
+| **Surprise** | How unexpected is a particular realized outcome? | Quantifies the information associated with an individual outcome through its probability. |
 
 ## References
 
@@ -348,7 +350,7 @@ The **main components of an information system** are:
 - Kullback, S., & Leibler, R. A. (1951). On information and sufficiency. *Annals of Mathematical Statistics*, 22(1), 79–86.
 - Shannon, C. E. (1951). Prediction and entropy of printed English. *Bell System Technical Journal*, 30(1), 50–64.
 - Huffman, D. A. (1952). A method for the construction of minimum-redundancy codes. *Proceedings of the IRE*, 40(9), 1098–1101.
-- Shannon, C. E. (1956). The bandwagon. *IRE Transactions on Information Theory*, 2(1), 3.
+- Shannon, C. E. (1956). The bandwagon. IRE Transactions on Information Theory, 2(1), 3. https://doi.org/10.1109/TIT.1956.1056774.
 - Jaynes, E. T. (1957). Information theory and statistical mechanics. *Physical Review*, 106(4), 620–630.
 - Shannon, C. E. (1959). Coding theorems for a discrete source with a fidelity criterion. *IRE National Convention Record*, 7(4), 142–163.
 - Ziv, J., & Lempel, A. (1977). A universal algorithm for sequential data compression. *IEEE Transactions on Information Theory*, 23(3), 337–343.
@@ -393,3 +395,13 @@ The **main components of an information system** are:
 - Adami, C. (2004). The physics of information. *arXiv:quant-ph/0405005*. https://arxiv.org/abs/quant-ph/0405005
 - Balduzzi, D. (2011). Information, learning and falsification. *arXiv:1110.3592*.
 - [Information theory — LessWrong](https://www.lesswrong.com/w/information-theory)
+- Golan, A., & Harte, J. (2022). Information theory: A foundation for complexity science. Proceedings of the National Academy of Sciences, 119(33), e2119089119. https://doi.org/10.1073/pnas.2119089119
+- Rhee, A., Cheong, R., & Levchenko, A. (2012). The application of information theory to biochemical signaling systems. Physical Biology, 9(4), 045011. https://doi.org/10.1088/1478-3975/9/4/045011
+- Timme, N. M., & Lapish, C. (2018). A tutorial for information theory in neuroscience. eNeuro, 5(3), ENEURO.0052-18.2018. https://doi.org/10.1523/ENEURO.0052-18.2018
+- Information theory: Deep ideas, wide perspectives, and various applications. (2021). https://pmc.ncbi.nlm.nih.gov/articles/PMC7922818/
+- [Variety](https://en.wikipedia.org/wiki/Variety_(cybernetics))
+- [Solomon Kullback](https://en.wikipedia.org/wiki/Solomon_Kullback)
+- Cover, T. M., & Thomas, J. A. (2006). *Elements of information theory* (2nd ed.). Wiley.
+- Kullback, S. (1959). *Information theory and statistics*. John Wiley & Sons.
+- Fisher, R. A. (1925). Theory of statistical estimation. Mathematical Proceedings of the Cambridge Philosophical Society, 22(5), 700–725. https://doi.org/10.1017/S0305004100009580 Cambridge University Press
+- [Bandwagon Effect](https://en.wikipedia.org/wiki/Bandwagon_effect)

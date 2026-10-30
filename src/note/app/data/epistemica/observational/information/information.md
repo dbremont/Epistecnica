@@ -7,10 +7,8 @@ tags: [framework]
 > In this note, we will explore the multi-aspect concept of “Information.”
 
 > **Information** is any distinguishable pattern, signal, or state that, when received or interpreted by a system, constrains its possible beliefs, states, or actions.
-> 
 
 > **Información** del latin informatio - “acción y efecto de dar una noticia”.
-> 
 
 ## Theory
 
@@ -41,6 +39,7 @@ tags: [framework]
 | **Relational** | Interconnections between pieces of information | Semantic Web, Relational Databases |
 | **Ethical & Privacy** | Ethical use, privacy, security | Information Ethics, Privacy, Surveillance |
 
+
 ## Space of Information Theory
 
 | **Theory** | **Focus** | **Key Contributors** | **Deals with meaning?** |
@@ -53,6 +52,17 @@ tags: [framework]
 | **Floridi’s Theory of Strongly Semantic Information** | Defines information as data + truthfulness | Luciano Floridi | ✅ Yes |
 | **Bar-Hillel & Carnap Semantic Theory** | Uses probability to define semantic information | Yehoshua Bar-Hillel, Rudolf Carnap | ✅ Yes |
 | **Quantum Information Theory** | Studies information in quantum systems (qubits, superposition) | John von Neumann, Charles Bennett | ❌ No |
+
+## Statistical-Mathematical Theory Space
+
+| Area | Central concern | Key concepts |
+|---|---|---|
+| **Shannon Information Theory** | Information associated with uncertain outcomes and communication | Entropy, self-information, mutual information, channel capacity |
+| **Statistical Information Theory** | Information associated with statistical models and inference | Fisher information, sufficient statistics, likelihood, KL divergence |
+| **Information Geometry** | Geometric structure of statistical models and probability distributions | Fisher metric, statistical manifolds, divergence |
+| **Algorithmic Information Theory** | Information associated with individual objects and their descriptions | Kolmogorov complexity, algorithmic randomness, compression |
+| **Information-Theoretic Statistics** | Applying information-theoretic quantities to statistical problems | Minimum description length, model selection, estimation |
+| **Information Theory and Learning** | Information-theoretic foundations of learning and generalization | Information bottleneck, mutual information, generalization bounds |
 
 ## It From Bit Claim
 

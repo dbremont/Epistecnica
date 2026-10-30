@@ -4143,6 +4143,11 @@
         "kind": "feat",
         "summary": "Import Normalization from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Rewrite the intro (drop the Notion export line, add the normalized-form definition) and add the concepts-carried-by-normalization table."
       }
     ]
   },
@@ -6794,6 +6799,11 @@
         "summary": "Retarget the Shannon Information Content link to the section of the theory note after the content note was absorbed.",
         "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
         "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Add the Entropy from First Principles reference."
       }
     ]
   },
@@ -7385,6 +7395,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/observational/information/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Add the statistical-mathematical theory space table (Shannon, statistical, geometric, algorithmic, statistics, learning)."
       }
     ]
   },
@@ -8566,6 +8581,11 @@
         "summary": "Expand the references with the foundational papers, canonical texts, estimation methods, and semantic-gap sources; order them by kind and tidy the existing entries.",
         "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
         "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Rename The Tower of Abstractions to Shannon Theory Toolbox, fold Shannon Information Content into the Shannon Information subsection with its formula and unit readings, add the how-to-think-about-surprisal table, extend the references, and retarget the moved anchors."
       }
     ]
   },
