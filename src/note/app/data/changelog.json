@@ -4147,7 +4147,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Rewrite the intro (drop the Notion export line, add the normalized-form definition) and add the concepts-carried-by-normalization table."
+        "summary": "Rewrite the intro (drop the Notion export line, add the normalized-form definition) and add the concepts-carried-by-normalization table.",
+        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
+        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
       }
     ]
   },
@@ -6803,7 +6805,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Add the Entropy from First Principles reference."
+        "summary": "Add the Entropy from First Principles reference.",
+        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
+        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
       }
     ]
   },
@@ -7399,7 +7403,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Add the statistical-mathematical theory space table (Shannon, statistical, geometric, algorithmic, statistics, learning)."
+        "summary": "Add the statistical-mathematical theory space table (Shannon, statistical, geometric, algorithmic, statistics, learning).",
+        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
+        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
       }
     ]
   },
@@ -8585,7 +8591,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Rename The Tower of Abstractions to Shannon Theory Toolbox, fold Shannon Information Content into the Shannon Information subsection with its formula and unit readings, add the how-to-think-about-surprisal table, extend the references, and retarget the moved anchors."
+        "summary": "Rename The Tower of Abstractions to Shannon Theory Toolbox, fold Shannon Information Content into the Shannon Information subsection with its formula and unit readings, add the how-to-think-about-surprisal table, extend the references, and retarget the moved anchors.",
+        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
+        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
       }
     ]
   },
