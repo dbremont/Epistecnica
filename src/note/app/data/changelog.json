@@ -186,7 +186,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -202,7 +203,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -218,7 +220,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -234,7 +237,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -250,7 +254,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -266,7 +271,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -282,7 +288,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -298,7 +305,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -314,7 +322,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -330,7 +339,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -346,7 +356,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -362,7 +373,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -392,7 +404,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -592,7 +606,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -783,7 +799,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -1608,7 +1626,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -1646,7 +1666,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -1816,7 +1838,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -2139,7 +2163,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -3790,7 +3816,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -4278,12 +4306,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint the Quantum Field Theory link after the note moved to epistemica/construction/."
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint the Quantum Field Theory link after the note moved to epistemica/science/.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea"
       }
     ]
   },
@@ -4530,12 +4555,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint the Quantum Field Theory link after the note moved to epistemica/construction/."
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint the Quantum Field Theory link after the note moved to epistemica/science/.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea"
       }
     ]
   },
@@ -4904,7 +4926,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -5216,7 +5240,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -8552,7 +8578,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8568,7 +8595,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8584,7 +8612,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8611,7 +8640,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8627,7 +8657,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8643,7 +8674,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8659,7 +8691,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8675,7 +8708,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8691,7 +8725,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8707,7 +8742,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8723,7 +8759,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8739,7 +8776,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8755,7 +8793,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8771,7 +8810,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8787,7 +8827,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8803,7 +8844,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8826,7 +8868,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8842,7 +8885,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8858,7 +8902,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8874,7 +8919,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8890,7 +8936,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8906,7 +8953,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8922,7 +8970,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8938,7 +8987,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8954,7 +9004,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8970,7 +9021,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -8993,7 +9045,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9009,7 +9062,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9025,7 +9079,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9041,7 +9096,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9057,7 +9113,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9094,7 +9151,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9110,7 +9168,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9126,7 +9185,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9142,7 +9202,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9158,7 +9219,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9174,7 +9236,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9190,7 +9253,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9206,7 +9270,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9222,7 +9287,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9238,7 +9304,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9254,7 +9321,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9324,7 +9392,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9340,7 +9409,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9356,7 +9426,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9372,7 +9443,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9388,7 +9460,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9404,7 +9477,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9420,7 +9494,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9436,7 +9511,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9452,7 +9528,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9475,12 +9552,8 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Add the five-question formulation and the recursive instance decomposition of the QFT framework: yielded theories, tasks and methods, and the observation, description, and evaluation elements."
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Add the five-question formulation and the recursive instance decomposition of the QFT framework (orientation, agency, access, representation, tools, constructions and the theories it yields, operations, tasks and methods, evaluation, infrastructure, communication, context), and move the note into the epistemica/science/ scope.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9496,7 +9569,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9512,7 +9586,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9528,7 +9603,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9551,7 +9627,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9567,7 +9644,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9583,7 +9661,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9599,7 +9678,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9615,7 +9695,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9631,7 +9712,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9647,7 +9729,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9663,7 +9746,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9735,7 +9819,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9751,7 +9836,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9767,7 +9853,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9783,7 +9870,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9799,7 +9887,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9826,7 +9915,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9842,7 +9932,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9858,7 +9949,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9874,7 +9966,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },
@@ -9912,7 +10005,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -11425,7 +11520,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split."
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
