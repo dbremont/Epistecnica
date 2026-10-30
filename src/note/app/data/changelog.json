@@ -2527,7 +2527,9 @@
       {
         "date": "2026-10-30",
         "kind": "fix",
-        "summary": "Point the Ratio reference and its see-more line at the new Ratio note."
+        "summary": "Point the Ratio reference and its see-more line at the new Ratio note.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
       }
     ]
   },
@@ -4288,7 +4290,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Rewrite the References in [title](url) form and add Ratio and Division references."
+        "summary": "Rewrite the References in [title](url) form and add Ratio and Division references.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
       }
     ]
   },
@@ -4499,7 +4503,8 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Fix the duplicated blockquote in the intro and add Ratio and Division references."
+        "summary": "Fix the duplicated blockquote in the intro and add Ratio and Division references.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
       }
     ]
   },
@@ -4537,7 +4542,9 @@
       {
         "date": "2026-10-30",
         "kind": "feat",
-        "summary": "Fill the Quantization note: formulation (five questions), 71-row typed decomposition of the quantization practice (orientation, target, access, quantized code, operations, evaluation, conditions), criteria-based conceptual evaluation, three QA entries, and references in [title](url) form."
+        "summary": "Fill the Quantization note: formulation (five questions), 71-row typed decomposition of the quantization practice (orientation, target, access, quantized code, operations, evaluation, conditions), criteria-based conceptual evaluation, three QA entries, and references in [title](url) form.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
       }
     ]
   },
@@ -4596,7 +4603,8 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Add the ratio-types question to the QA list and answer it: the unit family (unit-consequent, unit-antecedent, reduced, general), the other classification axes, and the addition of the normalized forms to the decomposition table."
+        "summary": "Add the ratio-types question to the QA list and answer it: the unit family (unit-consequent, unit-antecedent, reduced, general), the other classification axes, and the addition of the normalized forms to the decomposition table.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
       }
     ]
   },
@@ -4733,7 +4741,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/: scale is a mathematical element, not a general practice concept."
+        "summary": "Move to epistemica/mathematical/: scale is a mathematical element, not a general practice concept.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
       }
     ]
   },
@@ -5684,7 +5693,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move to epistemica/measurement/: measurement theory heads the measurement scope; rewrite the References in [title](url) form and link the units note."
+        "summary": "Move to epistemica/measurement/: measurement theory heads the measurement scope; rewrite the References in [title](url) form and link the units note.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
       }
     ]
   },
@@ -5700,7 +5710,8 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move to epistemica/measurement/: units of measurement belong to the measurement scope; rewrite the References in [title](url) form and link measurement theory."
+        "summary": "Move to epistemica/measurement/: units of measurement belong to the measurement scope; rewrite the References in [title](url) form and link measurement theory.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
       }
     ]
   },
@@ -9338,7 +9349,9 @@
       {
         "date": "2026-10-30",
         "kind": "fix",
-        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/."
+        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
       }
     ]
   },
@@ -10877,7 +10890,9 @@
       {
         "date": "2026-10-30",
         "kind": "fix",
-        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/."
+        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
       }
     ]
   },
@@ -11000,7 +11015,9 @@
       {
         "date": "2026-10-30",
         "kind": "fix",
-        "summary": "Retarget the Measurement Theory link after the note moved to epistemica/measurement/."
+        "summary": "Retarget the Measurement Theory link after the note moved to epistemica/measurement/.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
       }
     ]
   },
@@ -29100,7 +29117,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Add a References section pointing at the epistemica measurement scope (Measurement Theory, System of Units of Measurement) and the measurement folder."
+        "summary": "Add a References section pointing at the epistemica measurement scope (Measurement Theory, System of Units of Measurement) and the measurement folder.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
       }
     ]
   },
