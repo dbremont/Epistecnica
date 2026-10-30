@@ -26942,6 +26942,11 @@
         "summary": "Convert the note to the technica schema: the precising definition of computational representation, the mechanism typing, the recursive decomposition table, and the critical conceptual evaluation; the scheme, technique, and property catalogues stay as the model the decomposition points at.",
         "commit": "a47aae8e625b6371b90cf0fff6260eec4de03a29",
         "before": "7abaf1eb4bf362ca61805bcf595d9f22221922f0"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Re-type the instance as a Technical Element Set with a second Technical Mechanism root — the practice of building representations and the representations themselves keep separate, legitimate readings — and follow the guide's revised decomposition grammar: every path starts at Technical Element and every link names its relationship type (Kind, Instance, Has, Governed By, Constrained By, Evaluated By, Maintained By, Enables, Acts On, Evolves Through), with a row for every type segment."
       }
     ]
   },

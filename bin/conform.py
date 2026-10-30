@@ -47,6 +47,66 @@ DEFAULT_FILES = [
 HEADER = "| Instance Tree Path | Description |"
 TYPE_ROW = re.compile(r"^\|\s*`[^`]*\(→[^)]*\)\s*([^`]+)`")
 
+# The relationship types the guide licenses for labelling a link
+# ("Which relationship types can be used to explicitly label the → operator?").
+REL_TYPES = {
+    "Kind", "Part", "Has", "Instance", "Depends", "Interacts", "Produces",
+    "Enables", "Transforms", "Uses", "Acts On", "Implements",
+    "Constrained By", "Governed By", "Evaluated By", "Maintained By",
+    "Evolves Through", "Unspecified",
+}
+
+TOKEN = re.compile(r"`([^`]*)`|([^`]+)")
+LINK = re.compile(r"^\(\s*(?:→|->)\s*(.+?)\s*\)$")
+LINKED = re.compile(r"`\(\s*(?:→|->)")
+
+
+def parse_path(cell):
+    """[(name, kind, link)] for one path cell, in either accepted grammar.
+
+    Old form: `A` → B → `C` — links are bare, typing by backticks.
+    New form: `A` `(→ Kind)` `B` `(→ Instance)` C — every link is labelled;
+    the path starts at the root node `Technical Element`.
+
+    `kind` is root|grouping|instance; `link` is the relationship type
+    preceding the node, or None.
+    """
+    cell = cell.strip()
+    if not cell:
+        return []
+    if LINKED.search(cell):
+        segs, link = [], None
+        for match in TOKEN.finditer(cell):
+            code, plain = match.group(1), match.group(2)
+            if code is not None:
+                inner = code.strip()
+                label = LINK.match(inner)
+                if label:
+                    link = label.group(1).strip()
+                else:
+                    segs.append((inner, "grouping", link))
+                    link = None
+            else:
+                text = plain.strip()
+                if not text:
+                    continue
+                segs.append((text, "instance", link))
+                link = None
+        if segs and segs[0][0] == "Technical Element" and segs[0][2] is None:
+            segs[0] = ("Technical Element", "root", None)
+        return segs
+    segs = []
+    for raw in cell.split(" → "):
+        raw = raw.strip()
+        if not raw:
+            return []
+        if raw.startswith("`") and raw.endswith("`"):
+            segs.append((raw[1:-1].strip(), "grouping", None))
+        else:
+            segs.append((raw, "instance", None))
+    return segs
+
+
 REMOVED = {"Technical Knowledge": "removed type (see philosophia QA)"}
 NON_STRUCTURAL = {"Technical Activity": "operation, not structure (see philosophia QA)"}
 LEGACY_SUFFIX = re.compile(r"^(General|Operative|Constitutive) Technique Type$")
@@ -75,21 +135,23 @@ def load_types(text):
 
 def tables(lines):
     """Yield (start_lineno, [(lineno, cells), ...]) per decomposition table."""
-    block = []
+    block = None
     for i, line in enumerate(lines, 1):
         if line.strip() == HEADER:
             if block:
                 yield block
             block = []
             continue
-        if line.startswith("|") and block:
+        if block is None:
+            continue
+        if line.startswith("|"):
             cells = [c.strip() for c in line.strip().strip("|").split("|")]
             if len(cells) == 2 and set(cells) != {"---"}:
                 block.append((i, cells))
-        elif not line.startswith("|"):
+        else:
             if block:
                 yield block
-                block = []
+            block = None
     if block:
         yield block
 
@@ -103,14 +165,27 @@ def check_file(path, types):
         paths = set()
         for lineno, cells in block:
             full = cells[0]
-            segs = [s.strip() for s in full.split(" → ")]
-            if not full or any(not s for s in segs):
+            segs = parse_path(full)
+            if not segs:
                 errors.append(f"{lineno}: empty segment in path")
                 continue
-            for i, seg in enumerate(segs):
-                if not (seg.startswith("`") and seg.endswith("`")):
+            labelled = segs[0][2] is None and segs[0][1] == "root"
+            key = tuple(s[0] for s in segs)
+            for i, (name, kind, link) in enumerate(segs):
+                if kind == "root":
                     continue
-                name = seg[1:-1].strip()
+                if labelled:
+                    if link is None:
+                        errors.append(
+                            f"{lineno}: bare arrow before '{name}' — every "
+                            f"link must name its relationship type")
+                    elif link not in REL_TYPES:
+                        errors.append(
+                            f"{lineno}: unknown relationship type "
+                            f"`(→ {link})` (see the guide's relationship "
+                            f"table in QA)")
+                if kind != "grouping":
+                    continue
                 if name not in types:
                     errors.append(
                         f"{lineno}: unknown type segment `{name}`")
@@ -123,19 +198,17 @@ def check_file(path, types):
                     errors.append(
                         f"{lineno}: legacy suffix name "
                         f"(use '{name[:-5]}'): `{name}`")
-                if i == len(segs) - 1:
-                    errors.append(
-                        f"{lineno}: type segment `{name}` terminates a branch")
-                grouping_paths.add(" → ".join(segs[:i + 1]))
-            if full in seen:
+                grouping_paths.add(key[:i + 1])
+            if key in seen:
                 errors.append(
                     f"{lineno}: duplicate instance path '{full}' "
-                    f"(first at {seen[full]})")
-            seen.setdefault(full, lineno)
-            paths.add(full)
+                    f"(first at {seen[key]})")
+            seen.setdefault(key, lineno)
+            paths.add(key)
         for gp in grouping_paths:
-            if not any(p.startswith(gp + " → ") for p in paths):
-                errors.append(f"type segment with no children: '{gp}'")
+            if not any(p[:len(gp)] == gp and len(p) > len(gp) for p in paths):
+                errors.append(
+                    f"type segment with no children: '{' → '.join(gp)}'")
     return errors
 
 

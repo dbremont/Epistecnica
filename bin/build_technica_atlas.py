@@ -72,15 +72,51 @@ def cells(line):
     return [c.strip() for c in line.strip().strip('|').split('|')]
 
 
+SEG_TOKEN = re.compile(r'`([^`]*)`|([^`]+)')
+SEG_LINK = re.compile(r'^\(\s*(?:→|->)\s*(.+?)\s*\)$')
+SEG_LINKED = re.compile(r'`\(\s*(?:→|->)')
+
+
 def two_rows(text):
-    """Every two-column `→` decomposition row (all table blocks)."""
+    """Every two-column decomposition row (all table blocks)."""
     for line in text.splitlines():
         if not line.startswith('|'):
             continue
         c = cells(line)
-        if len(c) == 2 and ' → ' in c[0] \
-                and c[0] != 'Instance Tree Path':
+        if len(c) != 2 or c[0] == 'Instance Tree Path':
+            continue
+        if ' → ' in c[0] or SEG_LINKED.search(c[0]):
             yield c
+
+
+def segments(cell):
+    """[(label, kind)] for one path cell, in either accepted grammar.
+
+    Old form: `A` → B → `C`.
+    New form: `Technical Element` `(→ Kind)` `A` `(→ Instance)` B — the
+    leading root node and the relationship labels are dropped here: the
+    forest already roots at `Technical Element`, and typing reads from the
+    type segments.
+    """
+    cell = cell.strip()
+    if SEG_LINKED.search(cell):
+        segs = []
+        for match in SEG_TOKEN.finditer(cell):
+            code, plain = match.group(1), match.group(2)
+            if code is not None:
+                inner = code.strip()
+                if SEG_LINK.match(inner):
+                    continue  # relationship label, not a node
+                segs.append((inner, 'grouping'))
+            else:
+                text = plain.strip()
+                if text:
+                    segs.append((text, 'instance'))
+        if segs and segs[0] == ('Technical Element', 'grouping'):
+            segs = segs[1:]
+        return segs
+    return [segment(s) for s in cell.split(' → ')]
+
 
 
 def segment(raw):
@@ -209,10 +245,10 @@ def main():
     for path, text in table_files:
         source = 'technica/' + path.relative_to(TECH).as_posix()
         for row in two_rows(text):
-            segments = [segment(s) for s in row[0].split(' → ')]
-            groupings = [label for label, kind in segments[:-1]
+            segs = segments(row[0])
+            groupings = [label for label, kind in segs[:-1]
                          if kind == 'grouping']
-            forest.add(segments, source,
+            forest.add(segs, source,
                        terminal_type=(groupings[-1] if groupings else None),
                        description=strip_md(row[1]))
             rows += 1
