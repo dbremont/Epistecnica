@@ -26946,7 +26946,9 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Re-type the instance as a Technical Element Set with a second Technical Mechanism root — the practice of building representations and the representations themselves keep separate, legitimate readings — and follow the guide's revised decomposition grammar: every path starts at Technical Element and every link names its relationship type (Kind, Instance, Has, Governed By, Constrained By, Evaluated By, Maintained By, Enables, Acts On, Evolves Through), with a row for every type segment."
+        "summary": "Re-type the instance as a Technical Element Set with a second Technical Mechanism root — the practice of building representations and the representations themselves keep separate, legitimate readings — and follow the guide's revised decomposition grammar: every path starts at Technical Element and every link names its relationship type (Kind, Instance, Has, Governed By, Constrained By, Evaluated By, Maintained By, Enables, Acts On, Evolves Through), with a row for every type segment.",
+        "commit": "f5cdd6fe36f953bfc101a430eec28a313af2e872",
+        "before": "4507e18aa4cfc83da6d5c0de74ec3fd73c6f76c4"
       }
     ]
   },
