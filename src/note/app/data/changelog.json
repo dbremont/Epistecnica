@@ -738,17 +738,6 @@
     ]
   },
   {
-    "file_path": "epistemica/computational-science/measurement-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Measurement Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/computational-science/molecular-dynamics-md.md",
     "logs": [
       {
@@ -2529,6 +2518,16 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "fix",
+        "summary": "Replace the stray Notion-export link line under the title with proper Reference entries for Normalization and Multiplication, rewrite the References and see-more links to the working note.html?n= viewer form, and point Scale and Proportionality at their new mathematical/ location."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "fix",
+        "summary": "Point the Ratio reference and its see-more line at the new Ratio note."
       }
     ]
   },
@@ -4285,6 +4284,11 @@
         "kind": "feat",
         "summary": "Import Percentage from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Rewrite the References in [title](url) form and add Ratio and Division references."
       }
     ]
   },
@@ -4479,6 +4483,27 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/proportionality.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Proportionality from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/: proportionality is a mathematical element, not a general practice concept."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Fix the duplicated blockquote in the intro and add Ratio and Division references."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/pythagorean-theorem.md",
     "logs": [
       {
@@ -4508,6 +4533,11 @@
         "kind": "feat",
         "summary": "Import Quantization from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "feat",
+        "summary": "Fill the Quantization note: formulation (five questions), 71-row typed decomposition of the quantization practice (orientation, target, access, quantized code, operations, evaluation, conditions), criteria-based conceptual evaluation, three QA entries, and references in [title](url) form."
       }
     ]
   },
@@ -4552,6 +4582,21 @@
         "kind": "feat",
         "summary": "Import Ranking from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/ratio.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "feat",
+        "summary": "Add the Ratio note: formulation (five questions), typed decomposition (representational forms, constitutive rules, readings) and criteria-based conceptual evaluation."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Add the ratio-types question to the QA list and answer it: the unit family (unit-consequent, unit-antecedent, reduced, general), the other classification axes, and the addition of the normalized forms to the decomposition table."
       }
     ]
   },
@@ -4673,6 +4718,22 @@
         "kind": "feat",
         "summary": "Import Scalar Field from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/scale.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Import Scale from the Philosophia Naturalis Notion export.",
+        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/: scale is a mathematical element, not a general practice concept."
       }
     ]
   },
@@ -5608,6 +5669,38 @@
         "kind": "feat",
         "summary": "Import Zero Set from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/measurement/measurement-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Measurement Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move to epistemica/measurement/: measurement theory heads the measurement scope; rewrite the References in [title](url) form and link the units note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/measurement/system-of-units-of-measurement.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import System of Units of Measurement from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move to epistemica/measurement/: units of measurement belong to the measurement scope; rewrite the References in [title](url) form and link measurement theory."
       }
     ]
   },
@@ -9241,6 +9334,11 @@
         "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
         "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "fix",
+        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/."
       }
     ]
   },
@@ -9303,17 +9401,6 @@
         "summary": "Delete the empty topics stub with the observational-scope flatten.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
         "before": "f04515269778e88df2522ef36e067ec3427b02ff"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/system-of-units-of-measurement.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import System of Units of Measurement from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
   },
@@ -10220,17 +10307,6 @@
     ]
   },
   {
-    "file_path": "epistemica/theory/practice/general/proportionality.md",
-    "logs": [
-      {
-        "date": "2026-10-25",
-        "kind": "feat",
-        "summary": "Import Proportionality from the Philosophia Naturalis Notion export.",
-        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/theory/practice/general/quantum-mechanical-ontology-map.md",
     "logs": [
       {
@@ -10288,17 +10364,6 @@
         "date": "2026-10-25",
         "kind": "feat",
         "summary": "Import Reversible from the Philosophia Naturalis Notion export.",
-        "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/theory/practice/general/scale.md",
-    "logs": [
-      {
-        "date": "2026-10-25",
-        "kind": "feat",
-        "summary": "Import Scale from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
       }
     ]
@@ -10808,6 +10873,11 @@
         "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
         "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "fix",
+        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/."
       }
     ]
   },
@@ -10926,6 +10996,11 @@
         "summary": "Remove the retired order label from the type formulation.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "fix",
+        "summary": "Retarget the Measurement Theory link after the note moved to epistemica/measurement/."
       }
     ]
   },
@@ -29021,6 +29096,11 @@
         "kind": "feat",
         "summary": "Import Measure from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Add a References section pointing at the epistemica measurement scope (Measurement Theory, System of Units of Measurement) and the measurement folder."
       }
     ]
   },

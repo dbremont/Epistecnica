@@ -57,6 +57,12 @@ companion is `data/epistemica/ees.md`.
   `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
   `goodness-of-fit.md`, and `confidence-interval.md` (the procedure-coverage
   reporting member, moved out of the observational domain).
+- The measurement scope lives in `epistemica/measurement/`:
+  `measurement-theory.md` (measurement as a structure-preserving assignment of
+  numbers to attributes; the representation and procedure problems) and
+  `system-of-units-of-measurement.md` (units and non-SI units). Measurement
+  theory moved out of the computational-science scope with the first note of
+  this scope; the technica performance `measure.md` points here.
 - The p-value atlas lives in `epistemica/validation/atlas/`:
   `pvalue.json` (the null-distribution store) and `pvalue.html` (the
   playground: pick a law, move its parameters and `t_obs`, read the live

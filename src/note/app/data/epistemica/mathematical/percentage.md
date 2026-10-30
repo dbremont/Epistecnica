@@ -29,4 +29,6 @@ tags: [quantity]
 
 ## References
 
-- https://en.wikipedia.org/wiki/Percentage
+- [Percentage](https://en.wikipedia.org/wiki/Percentage)
+- [Ratio](note.html?n=epistemica/mathematical/ratio.md)
+- [Division](note.html?n=epistemica/mathematical/division.md)

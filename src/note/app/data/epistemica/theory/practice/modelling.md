@@ -442,7 +442,7 @@ Aphorisms:
 [Dynamical Intelligence](note.html?n=epistemica/dynamical-intelligence.md)
 [Computational Science](note.html?n=epistemica/computational-science.md)
 [Formal Concept Analysis (FCA)](note.html?n=epistemica/formal-concept-analysis-fca.md)
-[**System of Units of Measurement**](note.html?n=epistemica/system-of-units-of-measurement.md)
+[**System of Units of Measurement**](note.html?n=epistemica/measurement/system-of-units-of-measurement.md)
 [Exploratory Data Analysis (EDA)](note.html?n=epistemica/exploratory-data-analysis-eda.md)
 
 #### Relations among connectors

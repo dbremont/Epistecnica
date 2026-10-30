@@ -19,3 +19,9 @@ tags: [data-collection]
 - Create a dashboard
 - Do not remove instrumention
 - Presentation matters
+
+## References
+
+- [Measurement Theory](note.html?n=epistemica/measurement/measurement-theory.md)
+- [System of Units of Measurement](note.html?n=epistemica/measurement/system-of-units-of-measurement.md)
+- [Measurement (folder)](index.html?dir=epistemica/measurement)

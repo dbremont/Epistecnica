@@ -48,11 +48,12 @@ A **measurement** is a function $M: E \rightarrow N$, where:
 
 ## References
 
-- https://plato.stanford.edu/entries/measurement-science/
-- [https://fitelson.org/roberts_measurement_theory.pdf](https://fitelson.org/roberts_measurement_theory.pdf)
-- [https://web.stanford.edu/group/csli-suppes/techreports/IMSSS_45.pdf](https://web.stanford.edu/group/csli-suppes/techreports/IMSSS_45.pdf)
-- [https://sites.socsci.uci.edu/~johnsonk/CLASSES/MeasurementTheory/Hand1996.StatisticsAndTheTheoryOfMeasurement.pdf](https://sites.socsci.uci.edu/~johnsonk/CLASSES/MeasurementTheory/Hand1996.StatisticsAndTheTheoryOfMeasurement.pdf)
-- [https://www.wiley.com/en-us/Measurement+Theory+and+Practice%3A+The+World+Through+Quantification-p-9780470685679](https://www.wiley.com/en-us/Measurement+Theory+and+Practice%3A+The+World+Through+Quantification-p-9780470685679)
+- [Measurement in Science (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/measurement-science/)
+- [Roberts — Measurement Theory (PDF)](https://fitelson.org/roberts_measurement_theory.pdf)
+- [Suppes — Measurement Theory, IMSSS technical report (PDF)](https://web.stanford.edu/group/csli-suppes/techreports/IMSSS_45.pdf)
+- [Hand — Statistics and the Theory of Measurement (PDF)](https://sites.socsci.uci.edu/~johnsonk/CLASSES/MeasurementTheory/Hand1996.StatisticsAndTheTheoryOfMeasurement.pdf)
+- [Measurement Theory and Practice: The World Through Quantification (Wiley)](https://www.wiley.com/en-us/Measurement+Theory+and+Practice%3A+The+World+Through+Quantification-p-9780470685679)
+- [System of Units of Measurement](note.html?n=epistemica/measurement/system-of-units-of-measurement.md)
 - Hand, David J. (2004). *Measurement theory and practice: The world through quantification*. London: Hodder.
 - Matthews, Robert (2007). *The measure of mind: Propositional attitudes and their attribution.* Oxford: OUP.
 - Narens, Louis (1985). *Abstract measurement theory.* Cambridge, MA: MIT.
@@ -61,3 +62,5 @@ A **measurement** is a function $M: E \rightarrow N$, where:
 - Suppes, Patrick (2002). *Representation and invariance of scientific structures.* Stanford: CSLI.
 - Trout, J.D. (1998). *Measuring the intentional world: Realism, naturalism, and quantitative methods in the behavioral sciences.* Oxford: OUP.
 - Krantz, D. H., Luce, R. D., Suppes, P., and Tversky, A. (1971). Foundations of Measurement Volume 1: Additive and Polynomial Representations. Academic Press, Inc., San Diego.
+- [Level of measurement  (Type of Scale)](https://en.wikipedia.org/wiki/Level_of_measurement)
+

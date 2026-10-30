@@ -4,8 +4,6 @@ tags: [arithmetic, function, quantity]
 
 # Division
 
- : Normalization (Normalization%201acc0f5171ec803cb626c1c1949367b6.md), Multiplication (Multiplication%203f6c0f5171ec805280d5f3bbd97e5d6d.md)
-
 > A Note on the  analysis of the **`division functional (/)`**.
 > 
 
@@ -37,16 +35,20 @@ Mathematically, given: $a \div b = c$:
 
 - **Quotient as a Count (Measurement Interpretation)**: The result tells **how many times** the divisor fits into the dividend.
 - **Quotient as a Share (Partition Interpretation)**: The result represents **how much each group gets** when dividing equally.
-- **Quotient as a Ratio or Proportion**: Division expresses a relationship between two numbers.
+- **Quotient as a Ratio**: Division expresses a relationship between two numbers.
 - **Quotient as a Rate**: The result represents a rate of change or speed.
 - **Quotient as Scaling (Multiplicative Inverse Interpretation)**:  Division by a number is equivalent to multiplying by its reciprocal.
 - **Quotient as a Slope (Linear Interpretation)**: In graphs, division can represent a slope or rate of change.
 - **Quotient as a Conversion Factor**:  A **conversion factor** is a fraction that equals **1**, where the numerator and denominator are **equivalent quantities in different units**.
 
+> See more: [Scale](note.html?n=epistemica/mathematical/scale.md), [Percentage](note.html?n=epistemica/mathematical/percentage.md), [Slope](https://en.wikipedia.org/wiki/Slope) and [Conversion factor](https://en.wikipedia.org/wiki/Conversion_factor).
+
 ## Ratio (**Razón**)
 
 > **Ratio**: A ratio is a comparison of two quantities expressed as a fraction, showing how many times one quantity contains the other.
 > 
+
+> See more: [Ratio](note.html?n=epistemica/mathematical/ratio.md).
 
 > Note: A ratio usually does not have dimensions - or type  -  but this is almost by convention.
 > 
@@ -59,10 +61,14 @@ Mathematically, given: $a \div b = c$:
 > **Rate**: A rate is a measure of how one quantity changes relative to another, often expressed as a ratio per unit of time or space (e.g., speed as distance per time).
 > 
 
+> See more: [Rate (mathematics)](https://en.wikipedia.org/wiki/Rate_(mathematics)) and [Tasa (matemáticas)](https://es.wikipedia.org/wiki/Tasa_(matem%C3%A1ticas)).
+
 ## Proportion (**Proporción)**
 
 > **Proportion**: A proportion is an equation that expresses two ratios as being equal, showing the relative relationship between two sets of quantities.
 > 
+
+> See more: [Proportionality](note.html?n=epistemica/mathematical/proportionality.md).
 
 ## Connotation
 
@@ -137,8 +143,16 @@ How many eggs do you have?
 
 ## References
 
-- [Normalization](normalization.md)
-- https://es.wikipedia.org/wiki/Tasa_(matem%C3%A1ticas)
-- https://en.wikipedia.org/wiki/Rate_(mathematics)
-- https://en.wikipedia.org/wiki/Division_(mathematics)
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6800670/
+- [Normalization](note.html?n=epistemica/mathematical/normalization.md)
+- [Multiplication](note.html?n=epistemica/mathematical/multiplication.md)
+- [Scale](note.html?n=epistemica/mathematical/scale.md)
+- [Proportionality](note.html?n=epistemica/mathematical/proportionality.md)
+- [Percentage](note.html?n=epistemica/mathematical/percentage.md)
+- [Ratio](note.html?n=epistemica/mathematical/ratio.md)
+- [Tasa (matemáticas)](https://es.wikipedia.org/wiki/Tasa_(matem%C3%A1ticas))
+- [Rate (mathematics)](https://en.wikipedia.org/wiki/Rate_(mathematics))
+- [Slope](https://en.wikipedia.org/wiki/Slope)
+- [Quotient](https://en.wikipedia.org/wiki/Quotient)
+- [Conversion factor](https://en.wikipedia.org/wiki/Conversion_factor)
+- [Division (mathematics)](https://en.wikipedia.org/wiki/Division_(mathematics))
+- [The Bat-and-Ball Problem: Stronger evidence in support of a conscious error process](https://pmc.ncbi.nlm.nih.gov/articles/PMC6800670/)
