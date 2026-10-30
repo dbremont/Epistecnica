@@ -26935,6 +26935,11 @@
         "kind": "feat",
         "summary": "Import Representation from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "feat",
+        "summary": "Convert the note to the technica schema: the precising definition of computational representation, the mechanism typing, the recursive decomposition table, and the critical conceptual evaluation; the scheme, technique, and property catalogues stay as the model the decomposition points at."
       }
     ]
   },

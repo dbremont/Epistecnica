@@ -41,6 +41,7 @@ DEFAULT_FILES = [
     NOTE / "app/data/technica/general/pto/eclipse.md",
     NOTE / "app/data/technica/general/cto/es/multinode/energy-technology.md",
     NOTE / "app/data/technica/general/cto/es/multinode/physical-material-technology.md",
+    NOTE / "app/data/technica/computation/representation.md",
 ]
 
 HEADER = "| Instance Tree Path | Description |"

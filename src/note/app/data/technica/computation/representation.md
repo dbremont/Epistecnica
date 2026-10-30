@@ -1,48 +1,290 @@
+---
+tags: [representation, technique]
+qa:
+  - How do we represent “inner” elements — the system’s own structures, states, and processes?
+  - How do we represent “outer” elements — the environment, inputs, and entities beyond the system itself?
+  - What constraints do different representational schemes impose on what can be modeled or computed?
+  - Which is the “technique space” that aids Representation?
+  - How to think deeply about the representation–interaction agent (human, machine)?
+  - Is it better to have many functions operating over a small number of shared data structures, or fewer functions tied to many specialized data structures?
+---
+
 # Representation
 
-> This note explores one of the central ideas in computation: **representation**.
-> 
+> This note explores one of the central ideas in computation: **computational representation**.
 
-> **Representation** can be defined as the way data, objects, or processes are encoded, structured, and manipulated within a computational system. It is the bridge between abstract concepts and their concrete realization in symbols, data structures, or physical states.
-> 
+> **Representation** is the way data, objects, or processes are encoded, structured, and manipulated within a computational system. It is the bridge between abstract concepts and their concrete realization in symbols, data structures, or physical states.
 
-QA:
-
-- How do we represent “inner” elements — the system’s own structures, states, and processes?
-- How do we represent “outer” elements — the environment, inputs, and entities beyond the system itself?
-- What constraints do different representational schemes impose on what can be modeled or computed?
-- Which  is the “technique space”  that aids Representation?
-- How to think deeply about the representation - interaction agent (human, machine)?
-    - Is it better to have many functions operating over a **small number of shared data structures**, or fewer functions tied to many **specialized data structures**?
-    - Let’s clear the language a bit -  by  one **data structure** - we mean a type of data structure - and by specialized data structure we mean many types of data structures.
+> The note proceeds in the order the technica guide fixes: bind the instance, type it, test the typing, decompose it, evaluate the concept. The scheme inventory, the technique space, and the property catalogue below are the note's model, kept as catalogues that the decomposition points at.
 
 ## Formulation
 
-> How does representation function within a computational process?
-> 
+### What is this technical instance?
 
-> A **representation** is a central part of any **computational process**—it provides the structure through which information is encoded, manipulated, and interpreted.
-> 
+> A **computational representation** is a *structure-carrying encoding realized in a computationally manipulable carrier*: a triple ⟨domain *D*, carrier *C*, encoding *e: D → C*⟩ together with a decoding *d: C → D*, such that the operations the practice actually performs commute — for every operation *f* the practice needs on *D*, some operation *g* on *C* satisfies *d(g(e(x))) = f(x)*.
 
-> A **computational process** is guided by representations, which grant it a kind of operational awareness, and these representations transform as the process advances.
-> 
+> Fidelity is therefore operation-relative, never absolute. A representation is faithful exactly up to the diagrams it makes commute, and **lossy** names the squares that fail: JPEG drops detail the visual system is unlikely to miss, IEEE 754 drops exact reals beyond its significand, UTF-8 drops nothing but pays in code units. "Faithful" without a named operation set is not a claim but a slogan.
 
-> **Representations** may be permanent or ephemeral, existing either throughout the computation and beyond or only transiently.
-> 
+> The word *computational* does the scoping work: the carrier must admit effective operations — construction, storage, comparison, transformation — that a machine can perform. A painted portrait, a mental image, or a physical scale model becomes a computational representation only when it is inscribed in a computable carrier. The scope excludes exactly the cases that would otherwise make the term vacuous.
 
-> A **representation domain** is the *category or class of data/phenomena* that a representational system encodes, structures, and manipulates.
-> 
+> Four things are routinely called "a representation" and must be kept apart: the **scheme** (the rules: JSON, UTF-8, IEEE 754), the **artifact** (the encoded datum: this file, this byte string), the **map** (the encoder and decoder pair), and the **relation** (the commuting square that makes the other three a representation). The definition names the relation; the catalogues below name schemes and artifacts.
 
-> **Representation Systems** are used to encode a particular data from a given domain.
-> 
+> A **representation system** — the informal register for the scheme — is a set of rules, symbols, or formats used to encode information in a computational system; it fixes how data is structured, organized, and stored, and therefore what can be manipulated, compared, and interpreted. **Representations may be permanent or ephemeral**: a persisted file outlives the process, a stack frame does not, and persistence changes the cost of a fidelity failure but not its nature.
 
-- What’s the function of representation in “Computational Systems”?
-- Which used Representations?
+### What technical element type does this technical instance belong to?
+
+**Computational Representation belongs to the `Technical Mechanism` technical element type, readable as a `Technical Element Set` and, where a scheme is standardized, as a `Technical Standard`.**
+
+```text
+Technical Mechanism
+└── Computational Representation (structure-carrying encoding in a computable carrier)
+    readable as Technical Element Set (the family of computational schemes)
+    readable as Technical Standard (the standardized formats: IEEE 754, UTF-8, JSON)
+    readable as Technical Interface (the encode-decode boundary)
+```
+
+It is a mechanism because it is the logical arrangement — carrier, encoder, decoder — through which the function *structure survives transport and transformation* is produced. A scheme *implements* the mechanism; an encoded artifact *realizes* it; a published standard *specifies* it.
+
+> **Caution.** "Representation" is not a kind of object. Nothing is a representation intrinsically; a byte string is one only under an encoding relation. The type attribution is to the arrangement, never to the carrier alone.
+
+### Is the type of this `technical element instance` ambiguous?
+
+Yes, and the ambiguity is between genuinely different technical elements:
+
+- **Mechanism** — the arrangement: carrier plus encoder, decoder, and the operations that preserve the needed diagrams.
+- **Element Set** — the family of schemes and their ecosystem: JSON, XML, Protobuf, IEEE 754, UTF-8, and the data structures that carry them.
+- **Standard** — the normative documents that fix a scheme's grammar and canonical form (RFC 8259, IEEE 754-2019, RFC 3629).
+- **Interface** — the encode-decode boundary through which one practice hands structure to another.
+
+The guide's default for a multi-typed instance is multi-root decomposition. This note takes the **mechanism** root, because the mechanism is what a reader can name, build, and test; the family and standard readings appear as branches, and the interface reading stays prose. A reader concerned only with "which scheme should I choose" can read the `Technical Element Set` branch as a self-contained decomposition root.
+
+### What is the recursive instance decomposition of this technical instance?
+
+> Boundary: this table decomposes one vendor-neutral computational representation — its encoded domains, the principles it obeys, the constraints and parameters that fix a scheme, the interfaces and specifications that make it concrete, the standardized specimens, the scheme family, the carriers that realize it, the practice that produces it, and the evaluations that verify and validate it. Named formats and measured values appear only as leaves; the full scheme inventory and the property catalogue stay in the sections below.
+
+> Stopping rule: a row is terminal when it names a concrete scheme, a named standard, a carrier structure, a technique, or a check that a practice runs.
+
+> Identity: the Instance Tree Path is the stable identifier of each row; every path in this table is unique.
+
+> Verbs: a scheme *implements* the mechanism; an encoded artifact *realizes* it; a standard *specifies* it; a carrier *hosts* it.
+
+| Instance Tree Path | Description |
+| --- | --- |
+| `Technical Mechanism` → Computational Representation | Structure-carrying encoding in a computed carrier: a domain, a carrier, an encoder, a decoder, and the operations that survive the round trip. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` | Grouping: the domains whose structure is carried. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Numeric Domain | Reals, integers, and fixed-point quantities, encoded under a numeric format. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Textual Domain | Characters, strings, and documents, encoded under a character set and a markup. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Structural Domain | Records, collections, and hierarchies: the shapes a program manipulates. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Relational Domain | Entities and typed links, encoded as graphs, tables, or triples. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Spatial Domain | Images, geometry, and three-dimensional scenes. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Temporal Domain | Sequences, signals, and time series indexed by time or order. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Audio Domain | Sampled waveforms and symbolic musical events. |
+| `Technical Mechanism` → Computational Representation → `Technical Domain Reality Model` → Executable Domain | Programs and their instructions: source, bytecode, machine code. |
+| `Technical Mechanism` → Computational Representation → `Technical Principle` | Grouping: principles the mechanism obeys. |
+| `Technical Mechanism` → Computational Representation → `Technical Principle` → Structure Before Algorithm | Pike and Brooks: choose the carrier so the intended operations are cheap and the code becomes obvious. |
+| `Technical Mechanism` → Computational Representation → `Technical Principle` → Representation Invariance | Re-encoding without losing the needed operations leaves the practice unchanged; if it does not, the scheme was carrying semantics. |
+| `Technical Mechanism` → Computational Representation → `Technical Principle` → Compositional Closure | Encoded values compose into encoded values of the same scheme, so larger structures need no new mechanism. |
+| `Technical Mechanism` → Computational Representation → `Technical Principle` → Carrier and Interpretation Separation | The carrier fixes structure only; units, meaning, and permitted operations come from the consuming practice. |
+| `Technical Mechanism` → Computational Representation → `Technical Principle` → Canonical Equality | One value, one encoding, so equality on the carrier decides equality on the domain. |
+| `Technical Mechanism` → Computational Representation → `Technical Principle` → Representation Principle | Winston: describe the problem in the right representation and the solution is nearly given. |
+| `Technical Mechanism` → Computational Representation → `Technical Constraint` | Grouping: bounds the mechanism operates under. |
+| `Technical Mechanism` → Computational Representation → `Technical Constraint` → Information-Loss Bound | What the carrier's value set cannot express; every lossy scheme is lossy against this bound. |
+| `Technical Mechanism` → Computational Representation → `Technical Constraint` → Carrier Capacity | Bits, code units, or cells the carrier offers per element. |
+| `Technical Mechanism` → Computational Representation → `Technical Constraint` → Encoding Cost | Time and space paid by encoding, decoding, and comparison. |
+| `Technical Mechanism` → Computational Representation → `Technical Constraint` → Interpretation Requirement | Every scheme needs a reader; a carrier without a decoder carries nothing. |
+| `Technical Mechanism` → Computational Representation → `Technical Constraint` → Compatibility Window | Range of producer and consumer versions a scheme spans without transcoding. |
+| `Technical Mechanism` → Computational Representation → `Technical Parameter` | Grouping: parameters that fix a scheme's realization. |
+| `Technical Mechanism` → Computational Representation → `Technical Parameter` → Bit Width | Width of the numeric or code unit the scheme fixes. |
+| `Technical Mechanism` → Computational Representation → `Technical Parameter` → Byte Order | Byte sequence within a multi-byte unit, little- or big-endian. |
+| `Technical Mechanism` → Computational Representation → `Technical Parameter` → Precision Allocation | Split of a fixed budget between significand and exponent. |
+| `Technical Mechanism` → Computational Representation → `Technical Parameter` → Schema Version | Declared revision of the structure the carrier implements. |
+| `Technical Mechanism` → Computational Representation → `Technical Parameter` → Canonicalization Mode | Whether the encoder emits one canonical form or any equivalent form. |
+| `Technical Mechanism` → Computational Representation → `Technical Interface` | Grouping: boundaries of the mechanism. |
+| `Technical Mechanism` → Computational Representation → `Technical Interface` → Encode-Decode Boundary | Where domain structure becomes carrier structure and back. |
+| `Technical Mechanism` → Computational Representation → `Technical Interface` → Wire Boundary | Transmission boundary: framing, framing overhead, and the byte-level contract. |
+| `Technical Mechanism` → Computational Representation → `Technical Interface` → Human-Read Boundary | Where a human reads the carrier directly, as with markdown, LaTeX, or a JSON config file. |
+| `Technical Mechanism` → Computational Representation → `Technical Specification` | Grouping: specifications that fix a scheme. |
+| `Technical Mechanism` → Computational Representation → `Technical Specification` → Format Grammar | Productions deciding which carriers are well-formed. |
+| `Technical Mechanism` → Computational Representation → `Technical Specification` → Schema Definition | Declared shape of one payload: types, required fields, cardinality. |
+| `Technical Mechanism` → Computational Representation → `Technical Specification` → Canonical Encoding Rule | Rule selecting one representative among carriers that decode alike. |
+| `Technical Mechanism` → Computational Representation → `Technical Specification` → Round-Trip Contract | The guarantee that decoding an encoded value returns an equivalent value. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` | Grouping: standardized schemes. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → IEEE 754 | Binary floating-point interchange: sign, exponent, significand, and the rounding rules that make results reproducible. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → UTF-8 | Variable-width Unicode encoding whose code units never collide with ASCII. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → JavaScript Object Notation (JSON) | Textual hierarchical values with a small grammar and a wide implementation base. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → Extensible Markup Language (XML) | Tagged trees with attributes, namespaces, and schema languages. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → Protocol Buffers (Protobuf) | Schema-driven binary messages compiled into typed accessors. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → MessagePack | Compact binary object notation preserving the JSON data model. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → Apache Parquet | Columnar file format carrying schema, encodings, and column statistics. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → JPEG | Lossy image coding by block transform, quantization, and entropy coding. |
+| `Technical Mechanism` → Computational Representation → `Technical Standard` → WebP | Image coding offering lossy and lossless modes over the same container. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` | Grouping: the family reading of the mechanism. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set | The schemes and their ecosystem, read as one ensemble. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Data Encoding Scheme Set | Raw digital data: bits, notation, and transport alphabets. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Data Encoding Scheme Set → `Technical Mechanism` → Binary Encoding | Raw bits as the universal carrier underneath every other scheme. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Data Encoding Scheme Set → `Technical Mechanism` → Hexadecimal Notation | Two characters per byte for dumps, addresses, and debuggers. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Data Encoding Scheme Set → `Technical Mechanism` → Base64 Encoding | Six-bit alphabet carrying binary over text-only channels. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Textual Scheme Set | Characters and documents. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Textual Scheme Set → `Technical Mechanism` → ASCII | Seven-bit character set for basic Latin text. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Textual Scheme Set → `Technical Mechanism` → Unicode | Coded character set spanning the world's scripts. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Textual Scheme Set → `Technical Mechanism` → Markdown | Plain-text document markup readable as written. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Textual Scheme Set → `Technical Mechanism` → LaTeX | Typesetting markup for mathematical and structured documents. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set | Records, trees, and tables. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set → `Technical Mechanism` → JavaScript Object Notation (JSON) | Textual hierarchical values, the default interchange scheme. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set → `Technical Mechanism` → Extensible Markup Language (XML) | Tagged tree with attributes and namespaces. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set → `Technical Mechanism` → YAML | Indentation-based configuration data. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set → `Technical Mechanism` → Comma-Separated Values (CSV) | Delimited tabular rows with a header convention rather than a schema. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set → `Technical Mechanism` → Protocol Buffers (Protobuf) | Schema-driven binary messages with generated accessors. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set → `Technical Mechanism` → MessagePack | Compact binary object notation. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Structured Data Scheme Set → `Technical Mechanism` → Apache Avro | Schema-carrying record serialization for data pipelines. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Visual Data Scheme Set | Images and geometry. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Visual Data Scheme Set → `Technical Mechanism` → Raster Bitmap | Pixel grid with a colour model and a sampling lattice. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Visual Data Scheme Set → `Technical Mechanism` → Vector Graphics | Paths, shapes, and transforms, resolution-independent by construction. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Visual Data Scheme Set → `Technical Mechanism` → 3D Mesh | Vertices, faces, and materials describing a solid. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Mathematical Scheme Set | Formulas and arrays. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Mathematical Scheme Set → `Technical Mechanism` → Symbolic Notation | Expressions as trees of operators and operands. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Mathematical Scheme Set → `Technical Mechanism` → Numerical Array | Dense n-dimensional numbers with a dtype and a shape. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Mathematical Scheme Set → `Technical Mechanism` → Tensor Layout | Strided multidimensional storage, the carrier under array and array-like schemes. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Knowledge Scheme Set | Entities and relations. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Knowledge Scheme Set → `Technical Mechanism` → RDF Triple | Subject-predicate-object statements forming a graph. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Knowledge Scheme Set → `Technical Mechanism` → OWL Ontology | Class and property axioms supporting inference. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Knowledge Scheme Set → `Technical Mechanism` → Concept Map | Labelled concepts joined by typed relations. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Audio Scheme Set | Sound, sampled and symbolic. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Audio Scheme Set → `Technical Mechanism` → PCM | Sampled waveform: amplitude quantized on a fixed clock. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Audio Scheme Set → `Technical Mechanism` → MP3 | Perceptual audio coding discarding masked detail. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Audio Scheme Set → `Technical Mechanism` → MIDI | Symbolic musical events rather than a waveform. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Temporal Data Scheme Set | Time-indexed values. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Temporal Data Scheme Set → `Technical Mechanism` → Time Series | Ordered observations with a time index and a fixed sampling rule. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Temporal Data Scheme Set → `Technical Mechanism` → Sensor Signal | Sampled physical measurements with units and calibration. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Feature Scheme Set | Engineered and learned features. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Feature Scheme Set → `Technical Mechanism` → Dense Embedding | Fixed-width learned vector standing in for an object. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Feature Scheme Set → `Technical Mechanism` → Sparse Representation | Mostly-zero high-dimensional vector, cheap to store and compare. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Executable Scheme Set | Instructions. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Executable Scheme Set → `Technical Mechanism` → Source Code | Human-written program text. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Executable Scheme Set → `Technical Mechanism` → Bytecode | Portable instruction stream for a virtual machine. |
+| `Technical Mechanism` → Computational Representation → `Technical Element Set` → Computational Representation Scheme Set → `Technical Element Set` → Executable Scheme Set → `Technical Mechanism` → Machine Code | Native instruction encoding for a named instruction set. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier | Grouping: carriers realized in working memory. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Contiguous Array | Elements at a fixed stride, addressable by arithmetic. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Linked Structure | Nodes joined by references, cheap to splice and costly to scan. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Hash Table | Keyed buckets reached through a hash function. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Balanced Tree | Ordered nodes with bounded height, so search stays logarithmic. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Trie | Prefix-indexed characters or paths, sharing common beginnings. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Graph Structure | Vertices with arbitrary adjacency. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Succinct Data Structure | Compressed layout supporting rank and select without decompression. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Probabilistic Data Structure | Approximate membership or counts in bounded space. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Concurrent Map | Keyed access shared across threads under a stated consistency rule. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Iterator | Access discipline over a sequence, decoupled from its layout. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier → `Technical Mechanism` → Stream | Bounded-memory access over a sequence that may never end. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → Out-of-Memory Carrier | Grouping: carriers realized outside working memory. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → Out-of-Memory Carrier → `Technical Mechanism` → B-Tree Index | Block-aligned hierarchy minimizing reads from secondary storage. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → Out-of-Memory Carrier → `Technical Mechanism` → Write-Ahead Log | Append-only record of intended changes written before they land. |
+| `Technical Mechanism` → Computational Representation → `Technical Mechanism` → Out-of-Memory Carrier → `Technical Mechanism` → Log-Structured Store | Append-only segments compacted in the background. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice | Grouping: the organized work that produces and maintains representations. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Scheme Selection | Deciding which scheme a domain and an operation set call for. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Scheme Selection → `General Technique` → Candidate Scheme Comparison | Weighing fidelity, cost, readability, and interoperability before committing. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Encoding | Writing domain structure into the carrier. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Encoding → `General Technique` → Bit-Level Encoding | Placing values at fixed positions and widths. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Encoding → `General Technique` → Structural Encoding | Turning records, sequences, and links into layouts. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Encoding → `General Technique` → Symbolic Encoding | Naming values with discrete symbols and a grammar. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Encoding → `General Technique` → Sub-Symbolic Encoding | Distributing a value over continuous coordinates. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Decoding | Recovering domain structure from the carrier. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Decoding → `General Technique` → Parsing | Recognizing grammar and building structure from a token stream. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Decoding → `General Technique` → Deserialization | Materializing typed records from a carrier according to a schema. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Compaction | Buying footprint with compute or fidelity. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Compaction → `General Technique` → Run-Length Encoding | Replacing repeated values with counts. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Compaction → `General Technique` → Dictionary Coding | Replacing repeated tokens with short indexes. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Compaction → `General Technique` → Entropy Coding | Assigning shorter codes to likelier symbols. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Compaction → `General Technique` → Transform Coding | Decorrelating values before quantizing them. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Compaction → `General Technique` → Quantization | Discarding distinctions below a stated tolerance. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Indexing | Adding access structure over a carrier. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Indexing → `General Technique` → Hash Indexing | Building direct access through a hash function. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Indexing → `General Technique` → Tree Indexing | Building ordered access with logarithmic search. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Indexing → `General Technique` → Prefix Indexing | Sharing key prefixes to shorten lookup. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Augmentation | Adding structure that the payload would otherwise carry implicitly. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Augmentation → `General Technique` → Error Detection Coding | Adding redundancy that exposes corruption. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Augmentation → `General Technique` → Error Correction Coding | Adding redundancy that repairs corruption. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Interoperation | Moving structure between schemes and versions. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Interoperation → `General Technique` → Transcoding | Rewriting one carrier into another while preserving the operation set. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Interoperation → `General Technique` → Canonicalization | Reducing all equivalent carriers to one representative. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Technical Task` → Interoperation → `General Technique` → Version Negotiation | Choosing a mutually understood schema revision before exchanging carriers. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Constitutive Technique` → Round-Trip Discipline | Holding the encoder and decoder to the same operation set, so encode then decode is the identity where it must be. |
+| `Technical Mechanism` → Computational Representation → `Technical Practice` → Computational Representation Practice → `Constitutive Technique` → Invariance Maintenance | Keeping the scheme's semantics fixed while its carriers, versions, and implementations change. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` | Grouping: determinations about a representation. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Verification` | Grouping: conformance checks. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Verification` → Round-Trip Fidelity Check | Encoding and decoding returns an equivalent value over the declared operation set. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Verification` → Canonical Form Check | Every equivalent value maps to the one representative the scheme declares. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Verification` → Schema Conformance Check | The carrier satisfies the grammar and the declared schema. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Verification` → Cross-Decoder Parity Check | Independent decoders accept the carrier and agree on its value. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Validation` | Grouping: adequacy checks. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Validation` → Semantic Adequacy Assessment | The preserved operation set is the one the practice actually needs. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Validation` → Downstream Task Metric | The representation carries enough structure for the task that consumes it. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Validation` → Human Interpretability Assessment | A reader can recover the domain structure from the carrier unaided. |
+| `Technical Mechanism` → Computational Representation → `Technical Evaluation` → `Validation` → Interoperability Acceptance Test | Independent producers and consumers exchange carriers without transcoding. |
+| `Technical Mechanism` → Computational Representation → `Technical Trade-off` | Grouping: tensions the mechanism resolves. |
+| `Technical Mechanism` → Computational Representation → `Technical Trade-off` → Fidelity Versus Compactness | Exact carriers cost bits; cheap carriers drop distinctions. |
+| `Technical Mechanism` → Computational Representation → `Technical Trade-off` → Readability Versus Density | Textual schemes stay inspectable and pay in size and parse cost. |
+| `Technical Mechanism` → Computational Representation → `Technical Trade-off` → Generality Versus Efficiency | Shared general schemes compose widely and specialize poorly. |
+| `Technical Mechanism` → Computational Representation → `Technical Trade-off` → Stability Versus Evolvability | A frozen grammar keeps old readers working and blocks new structure. |
+| `Technical Mechanism` → Computational Representation → `Technical Trade-off` → Uniformity Versus Specialization | Few shared carriers with many operations, or many tailored carriers with few. |
+| `Technical Mechanism` → Computational Representation → `Technical Failure` | Grouping: states in which the representation does not deliver. |
+| `Technical Mechanism` → Computational Representation → `Technical Failure` → Information Loss | The carrier cannot express a distinction the domain has. |
+| `Technical Mechanism` → Computational Representation → `Technical Failure` → Precision Loss | A representable distinction is rounded away by a finite budget. |
+| `Technical Mechanism` → Computational Representation → `Technical Failure` → Encoding Ambiguity | Several carriers decode alike, so equality and hashing stop deciding. |
+| `Technical Mechanism` → Computational Representation → `Technical Failure` → Schema Drift | Producer and consumer disagree about the structure the carrier implements. |
+| `Technical Mechanism` → Computational Representation → `Technical Failure` → Decode Fault | The carrier is malformed or the decoder is wrong, and structure is not recovered. |
+| `Technical Mechanism` → Computational Representation → `Technical Property` | Grouping: characteristics attributable to a representation. |
+| `Technical Mechanism` → Computational Representation → `Technical Property` → Representational Fidelity | How much of the needed operation set survives the round trip. |
+| `Technical Mechanism` → Computational Representation → `Technical Property` → Compactness | Bits, bytes, or cells per unit of domain structure. |
+| `Technical Mechanism` → Computational Representation → `Technical Property` → Canonicality | Whether equivalent values share one carrier form. |
+| `Technical Mechanism` → Computational Representation → `Technical Property` → Portability | Whether the scheme survives a change of platform, language, or vendor. |
+| `Technical Mechanism` → Computational Representation → `Technical Property` → Schema Evolvability | Whether the structure can change without breaking existing carriers. |
+| `Technical Mechanism` → Computational Representation → `Technical Capability` | Grouping: what the mechanism makes possible. |
+| `Technical Mechanism` → Computational Representation → `Technical Capability` → Semantic Preservation Capability | Structure can cross a boundary — memory to disk, process to process, vendor to vendor — and remain operable on the far side. |
+| `Technical Mechanism` → Computational Representation → `Technical Maintenance` | Grouping: work that keeps representations usable. |
+| `Technical Mechanism` → Computational Representation → `Technical Maintenance` → Schema Migration | Moving stored carriers onto a new structure while preserving the operation set. |
+| `Technical Mechanism` → Computational Representation → `Technical Maintenance` → Format Migration | Replacing a scheme with its successor across an installed base. |
+| `Technical Mechanism` → Computational Representation → `Technical Maintenance` → Re-Encoding Pass | Rewriting carriers to restore canonical form or recover lost compaction. |
+| `Technical Mechanism` → Computational Representation → `Technical Evolution` | Grouping: historical change in schemes and carriers. |
+| `Technical Mechanism` → Computational Representation → `Technical Evolution` → Numeric Encoding Lineage | BCD to IEEE 754 to bfloat16 and the narrow floating formats, each trading range and precision for throughput. |
+| `Technical Mechanism` → Computational Representation → `Technical Evolution` → Character Encoding Lineage | ASCII to the ISO 8859 family to Unicode and UTF-8, each widening the repertoire and paying in code units. |
+| `Technical Mechanism` → Computational Representation → `Technical Evolution` → Exchange Format Lineage | CSV to XML to JSON to schema-driven binary formats, trading readability for size and typing. |
+| `Technical Mechanism` → Computational Representation → `Technical Evolution` → Learned Representation Shift | Hand-engineered feature schemes giving way to embeddings and latent vectors, where the encoding relation is fitted rather than specified. |
+
+### What is a critical conceptual evaluation of this `technical element instance`?
+
+> **Concept under evaluation:** *Computational Representation*, under the precising definition declared above — a structure-carrying encoding ⟨*D*, *C*, *e*, *d*⟩ over a computationally manipulable carrier, faithful exactly over the operations whose diagrams commute. Criteria and ratings follow the *Philosophia Conceptuum et Operis*.
+
+> **Verdict.** The scope word is the concept. Stripped of *computational*, "representation" is a role: anything can represent anything under some encoding, and the term then names the carrier, the scheme, the map, and the relation indifferently. With the scope and the commuting-square criterion the concept becomes checkable — a candidate is a computational representation of *D* exactly when a named operation set survives encoding and decoding.
+
+> **Verdict.** The definition is exact where the note's inherited tables are loose. The scheme inventory lists schemes and targets, the property catalogue lists carrier attributes; neither states the relation that makes them representations. The leakage follows: a data structure, a file format, a serialized record, a model's latent vector, and a JPEG all receive the same noun while carrying quite different guarantees.
+
+> **Verdict.** As a design primitive the concept is Purpose-adequate and operationally strong; as an account of meaning it is not. Encoding and decoding fix structure, never interpretation: bytes become a temperature only inside a practice that supplies units, permitted operations, and error tolerance. "Data dominates" compresses this into a heuristic — choose the carrier so the intended operations are the cheap ones — not into a law.
+
+| Criterion | Verdict | Diagnostic |
+| --- | --- | --- |
+| Conceptual Identification | Moderate | The scope word separates computational from painted or mental representations, but the noun still covers the scheme, the artifact, the map, and the relation, and the note must say which it means at each use. |
+| Definitional Clarity | Strong at the core | Domain, carrier, encoder, decoder, and the commuting-square criterion are explicit and checkable; the informal register ("the way data is encoded") is not. |
+| Conceptual Determinacy | Moderate | Membership is decided by an operation set: name the operations and borderline cases resolve — a cached object, a learned embedding, a compressed archive. Leave the operations unnamed and nothing resolves. |
+| Definitional Completeness | Moderate | The definition states what makes something a representation but not what disqualifies it; the exclusions — no decoder, no preserved operation — have to be supplied by the reader. |
+| Internal Consistency | Strong | The four components and the fidelity criterion do not compete; operation-relative fidelity follows from them rather than sitting beside them. |
+| Structural Coherence | Weak in the inherited model | The kept catalogues organise by medium and by property, the decomposition organises by technical role, and the same scheme appears in several registers. Only the decomposition is typed. |
+| Extensional Fidelity | Moderate | Canonical members are clean; leakage at compressed archives, at latent vectors, and at in-memory values, which are carriers rather than representations until an operation set is named. |
+| Intensional Adequacy | Strong | Carrier, encoding, and operation preservation are the properties that matter for computation; nothing essential to the concept is missing from them. |
+| Ontological Adequacy | Strong as mechanism, weak applied to the artifact | The concept denotes an arrangement, not an object; calling a file "a representation" names the artifact by one role it happens to play. |
+| Discriminative Power | Strong | Separates representation from data structure (the carrier), from format (the scheme's specification), and from meaning (the interpretation), which is the distinction the field keeps losing. |
+| Granularity Adequacy | Moderate | The mechanism level fits design and inspection; it is too coarse for "is this encoding faithful here", which needs the concrete operation set. |
+| Conceptual Distinctiveness | Moderate | Distinct from data structure and from format by the relation it names; not distinct from "encoding" or "model" in ordinary use. |
+| Boundary Differentiation | Moderate | Clear against a data structure and a file format; blurred against a *model*, since a model is a representation plus an interpretation and the two are usually named together. |
+| Ontological Parsimony | Strong | Four components and no new entities; scheme, artifact, and map are the ordinary vocabulary of the field. |
+| Operationalizability | Strong | Round-trip, canonical-form, and cross-decoder tests decide most membership questions mechanically. |
+| Purpose Adequacy | Split | Adequate as a design and verification primitive; inadequate as an explanation of meaning, which the concept deliberately refuses to fix. |
 
 ## Representation System
 
 > A **representation system** refers to a set of rules, symbols, or formats used to represent and encode information or knowledge in a computer or computational system. It defines how data is structured, organized, and stored, allowing the computer to manipulate, process, and interpret the represented information effectively.
 > 
+
+> This is the scheme inventory: each row names a scheme, the target domain it carries, and an implementation that realizes it. The typed reading is the decomposition above — the families here are the members of `Technical Element Set` → Computational Representation Scheme Set, and the standardized specimens appear under `Technical Standard`.
 
 | **Category** | **Representation System** | **Target** | **Implementation** |
 | --- | --- | --- | --- |
@@ -75,6 +317,8 @@ QA:
 |  | Machine Code | Represent CPU instructions | Executable binaries, CPU instruction sets |
 
 ## Technique Space
+
+> These are the techniques the practice branch types: `Technical Task` → Scheme Selection, Encoding, Decoding, Compaction, Indexing, Augmentation, Interoperation, each carrying the `General Technique`s that implement it.
 
 - Representation Invariant: …. Why not called it a Property? …
     - Constraint Technique
@@ -128,6 +372,8 @@ QA:
 
 > Which are the properties associated with representation of data?
 > 
+
+> The representation-specific subset is typed in the decomposition (`Technical Property` branch). This table is the full attribute inventory, and it deliberately reaches further: many of its rows describe the carrier — the data structure that hosts the representation — rather than the representation relation itself.
 
 | **Property** | **Description** | **Values** | **Tag(s)** |
 | --- | --- | --- | --- |
@@ -217,6 +463,8 @@ QA:
 ## In-Memory Data Structure
 
 > See more in [In-Memory Representation](note.html?n=technica/computation/representation/conceptual-model-computational-representation/in-memory-representation.md).
+>
+> Typed reading: `Technical Mechanism` → Computational Representation → `Technical Mechanism` → In-Memory Carrier.
 > 
 
 ## Disk Data Structure
@@ -237,11 +485,17 @@ QA:
 | **Log-Structured File Structure** | Treats the entire disk as an append-only log; writes are batched and sequential to minimize random I/O and simplify recovery. | Used in SSD-optimized systems like LFS and F2FS, improving write performance and durability. |
 | **File Format** | Structured layout defining how data, metadata, and relationships are stored within a single file. Determines parsing, portability, and I/O efficiency. | Used in document storage, media containers, and serialized database files (e.g., CSV, Parquet, SQLite file). |
 
-## Conceptual Model
-
-Conceptual Model: Computational Representation
-
 ## QA
+
+### Is a data structure a representation?
+
+> No, or only derivatively. A **data structure** is the carrier; a **representation** is the carrier together with the encoding relation and the domain it carries. The same array is a representation of temperatures, of pixels, or of nothing at all — the structure alone does not say which, and nothing follows about fidelity until an operation set is named.
+
+### Is a model’s latent vector a representation in the same sense as JSON?
+
+> Yes in form, no in access. Both are structure-carrying encodings in computable carriers. JSON’s relation is **specified** and public — a grammar, a schema, canonical forms; an embedding’s relation is **learned** and only partly inspectable — weights plus a decoder you must also trust. Both are representations; only one is specified, and that difference is what interpretability names.
+
+> A latent vector also fails the “what does it mean” question in a way JSON does not: the coordinates have no named domain, so the domain *D* has to be inferred rather than read off the scheme.
 
 ### How to think deeply about the representation - interaction agent (human, machine)?
 
@@ -269,4 +523,6 @@ Conceptual Model: Computational Representation
 - https://en.wikipedia.org/wiki/Computer_number_format
 - [Conflict-free Replicated Data Type (**CRDT**)](note.html?n=technica/computation/concurrency/conceptual-model-coordination/conflict-free-replicated-data-type-crdt.md)
 - https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - Piantadosi, S. T. (2021). The computational origin of representation. 31(1), 1.
