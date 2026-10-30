@@ -335,4 +335,4 @@ Simulation: Conceptual Model
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [Plato’s Dialectic Method](https://app.notion.com/p/Plato-s-Dialectic-Method-268c0f5171ec805cbb91d16158ae579e?pvs=21)
 - https://en.wikipedia.org/wiki/Simulation
-- [**Discrete-Event Simulation**](computational-science/discrete-event-simulation.md)
+- [**Discrete-Event Simulation**](../../../../../science/discrete-event-simulation.md)

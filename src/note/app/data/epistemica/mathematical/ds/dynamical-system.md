@@ -357,6 +357,6 @@ Where $x(t)$ is the state of the system at the time $t$.
 - [Self-Organized Criticality](../../natural-computing/self-organized-criticality.md)
 - [(HMM) Hidden Markov Model](../../observational/hmm-hidden-markov-model.md)
 - [Complex Adaptative Systems (CAS)](../../complexity-science/complex-adaptative-systems-cas.md)
-- [Stochastic Differential Equation  **(SDE)**](../../computational-science/stochastic-differential-equation-sde.md)
+- [Stochastic Differential Equation  **(SDE)**](../../../../../../../science/stochastic-differential-equation-sde.md)
 - [Hamiltonian System](https://en.wikipedia.org/wiki/Hamiltonian_system)
 - [Lagrangian System](https://en.wikipedia.org/wiki/Lagrangian_system)

@@ -133,7 +133,7 @@ Conceptual Model: Observational
 - [Cognitive](https://app.notion.com/p/Cognitive-8292b945586b49d3b3e2c3323d8bb53a?pvs=21)
 - [Observational](observational.md)
 - [Representation](https://app.notion.com/p/Representation-4afbffa763ec46eeb10d8c87c248edf1?pvs=21)
-- [**Branching Model**](computational-science/branching-model.md)
+- [**Branching Model**](../../../../../science/branching-model.md)
 - [‣](https://app.notion.com/p/193598edb790807b9cc1d17c9ba54773?pvs=21)
 - https://news.ycombinator.com/item?id=43125430
 - [ ]  [‣](https://app.notion.com/p/1be598edb79080a19a53dc2e0d4bc081?pvs=21)

@@ -891,7 +891,7 @@
       "origins": "Greek capital delta (Δ), its triangular shape read as “difference”; used for finite differences since the 18th century; U+0394; TeX: \\Delta.",
       "usage": "Δx — a finite increment; Δt — a time step; Δ — the Laplacian in physics notation, where mathematics writes ∇².",
       "related": ["delta", "nabla"],
-      "notes": ["epistemica/computational-science/finite-difference-method-fdm.md"],
+      "notes": ["epistemica/science/finite-difference-method-fdm.md"],
       "sources": [
         { "label": "Wikipedia: Finite difference", "url": "https://en.wikipedia.org/wiki/Finite_difference" },
         { "label": "Crowe, M. J. (1967). A History of Vector Analysis." }

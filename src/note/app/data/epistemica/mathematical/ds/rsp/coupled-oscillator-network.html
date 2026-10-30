@@ -548,7 +548,7 @@
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../../note.html?n=epistemica/complexity-science/collective-dynamics.md">Collective Dynamics</a> · <a href="../../../../../note.html?n=epistemica/complexity-science/coordination.md">Coordination</a></li><li><a href="../../../../../note.html?n=epistemica/computational-science/network-science.md">Network Science</a> · <a href="../../../../../note.html?n=epistemica/natural-computing/swarm-intelligence-collective-intelligence.md">Swarm Intelligence</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/complexity-science/collective-dynamics.md">Collective Dynamics</a> · <a href="../../../../../note.html?n=epistemica/complexity-science/coordination.md">Coordination</a></li><li><a href="../../../../../note.html?n=epistemica/science/network-science.md">Network Science</a> · <a href="../../../../../note.html?n=epistemica/natural-computing/swarm-intelligence-collective-intelligence.md">Swarm Intelligence</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
             <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Kuramoto, Y. (1975)</strong> — self-entrainment of a population of coupled non-linear oscillators</li><li><strong>Mirollo, R. &amp; Strogatz, S. (1990)</strong> — synchronisation of pulse-coupled biological oscillators</li><li><strong>Strogatz, S. (2003)</strong> — <em>Sync: The Emerging Science of Spontaneous Order</em></li></ul>
@@ -733,7 +733,7 @@
         id: 'power', domain: 'Engineering', name: 'Power Grid', model: 'swing', topo: 'ring', unit: 'rad/s', tag: 'second-order inertia',
         sub: '\\ddot\\theta_i=P-D\\dot\\theta_i-\\tfrac{K}{N}\\sum_j\\sin(\\theta_i-\\theta_j)',
         desc: 'Second-order oscillators: generators with inertia, damping and a power imbalance, coupled over a ring. When coupling is too weak for the spread in power, the network fragments into clusters \u2014 the mechanism behind cascading blackouts.',
-        docs: [{ label: 'Network science', n: 'epistemica/computational-science/network-science.md' }],
+        docs: [{ label: 'Network science', n: 'epistemica/science/network-science.md' }],
         params: [
           { key: 'K', label: 'coupling K', min: 0, max: 10, step: 0.2, value: 5 },
           { key: 'D', label: 'damping D', min: 0.05, max: 0.8, step: 0.05, value: 0.2 },
@@ -744,7 +744,7 @@
         id: 'neural', domain: 'Neuroscience', name: 'Neural Oscillators', model: 'kuramoto', topo: 'ring', unit: 'rad/s', tag: 'local coupling',
         sub: '\\dot\\theta_i=\\omega_i+\\tfrac{K}{N}\\sum_j w_{ij}\\sin(\\theta_j-\\theta_i)',
         desc: 'Neurons as relaxation oscillators coupled on a ring with distance-dependent weights. Local coupling lets travelling waves and partial synchrony persist \u2014 a model of cortical rhythms where order is a matter of degree.',
-        docs: [{ label: 'Network science', n: 'epistemica/computational-science/network-science.md' }],
+        docs: [{ label: 'Network science', n: 'epistemica/science/network-science.md' }],
         params: [
           { key: 'K', label: 'coupling K', min: 0, max: 8, step: 0.1, value: 3 },
           { key: 'sig', label: 'frequency spread σ', min: 0, max: 2, step: 0.05, value: 0.5 },

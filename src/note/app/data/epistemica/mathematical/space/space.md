@@ -241,12 +241,12 @@ tags: [space]
 - [Coordinate System](note.html?n=epistemica/mathematical/coordinate-system.md)
 
 
-- [Phase Space](note.html?n=epistemica/computational-science/phase-space.md)
-- [Configuration Space](note.html?n=epistemica/computational-science/configuration-space.md)
-- [State-Space Models](note.html?n=epistemica/computational-science/state-space-model.md)
-- [Reference Frame](note.html?n=epistemica/computational-science/reference-frame.md)
-- [Quantum Framework](note.html?n=epistemica/computational-science/quantum-framework.md)
-- [Quantum Field Theory (QFT)](note.html?n=epistemica/computational-science/quantum-field-theory-qft.md)
+- [Phase Space](note.html?n=epistemica/science/phase-space.md)
+- [Configuration Space](note.html?n=epistemica/science/configuration-space.md)
+- [State-Space Models](note.html?n=epistemica/construction/state-space-model.md)
+- [Reference Frame](note.html?n=epistemica/science/reference-frame.md)
+- [Quantum Framework](note.html?n=epistemica/science/quantum-framework.md)
+- [Quantum Field Theory (QFT)](note.html?n=epistemica/construction/quantum-field-theory-qft.md)
 - [EES Atlas](note.html?n=epistemica/ees.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 

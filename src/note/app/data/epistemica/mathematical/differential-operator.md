@@ -139,7 +139,7 @@ tags: [analytical, differential-operator, operator]
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [Linearization](linearization.md)
-- [**System Identification**](../computational-science/system-identification.md)
+- [**System Identification**](../../../../../../science/system-identification.md)
 - https://en.wikipedia.org/wiki/Derivative
 - https://en.wikipedia.org/wiki/It%C3%B4_calculus
 - https://en.wikipedia.org/wiki/Infinitesimal

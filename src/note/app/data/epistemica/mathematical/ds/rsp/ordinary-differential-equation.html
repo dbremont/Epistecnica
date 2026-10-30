@@ -671,7 +671,7 @@
         xlab: 'θ', ylab: 'ω', xtex: '\\theta', ytex: '\\omega',
         sub: '\\dot\\theta=\\omega,\\quad \\dot\\omega=-(g/L)\\sin\\theta-b\\,\\omega',
         desc: 'A rigid pendulum with friction. The angle θ and the angular velocity ω evolve under gravity (g/L) and a damping torque b. Released away from rest, the bob spirals into the downward equilibrium — an underdamped focus.',
-        docs: [{ label: 'Hamiltonian mechanics', n: 'epistemica/computational-science/hamiltonian-mechanics.md' }],
+        docs: [{ label: 'Hamiltonian mechanics', n: 'epistemica/science/hamiltonian-mechanics.md' }],
         params: [
           { key: 'a', label: '\\(g/L\\)', min: 0.5, max: 20, step: 0.1, value: 9.8 },
           { key: 'b', label: 'damping \\(b\\)', min: 0, max: 2, step: 0.01, value: 0.2 }
@@ -686,7 +686,7 @@
         xlab: 'v_C', ylab: 'i_L', xtex: 'v_C', ytex: 'i_L',
         sub: '\\dot{v}_C=i_L/C,\\quad \\dot{i}_L=(V-R\\,i_L-v_C)/L',
         desc: 'A series inductor–resistor–capacitor loop driven by a source V. The state is the capacitor voltage v_C and the loop current i_L; R, L and C set how the energy sloshes between the field and the charge and how fast it decays.',
-        docs: [{ label: 'State-space model', n: 'epistemica/computational-science/state-space-model.md' }],
+        docs: [{ label: 'State-space model', n: 'epistemica/construction/state-space-model.md' }],
         params: [
           { key: 'R', label: '\\(R\\)', min: 0.05, max: 3, step: 0.05, value: 0.4 },
           { key: 'L', label: '\\(L\\)', min: 0.3, max: 3, step: 0.05, value: 1 },
@@ -703,7 +703,7 @@
         xlab: 'S', ylab: 'I', xtex: 'S', ytex: 'I',
         sub: '\\dot{S}=-\\beta S I,\\quad \\dot{I}=\\beta S I-\\gamma I',
         desc: 'Susceptible and infectious fractions of a well-mixed population. Contacts (β) move individuals from S to I, recovery (γ) removes them. The infected fraction rises, peaks, then burns out — the epidemic progression the model predicts.',
-        docs: [{ label: 'System dynamics', n: 'epistemica/computational-science/system-dynamics.md' }],
+        docs: [{ label: 'System dynamics', n: 'epistemica/science/system-dynamics.md' }],
         params: [
           { key: 'b', label: '\\(\\beta\\) (contact)', min: 0.05, max: 2, step: 0.01, value: 0.6 },
           { key: 'g', label: '\\(\\gamma\\) (recovery)', min: 0.05, max: 2, step: 0.01, value: 0.3 }
@@ -718,7 +718,7 @@
         xlab: 'prey', ylab: 'predator', xtex: 'x', ytex: 'y',
         sub: '\\dot{x}=\\alpha x-\\beta x y,\\quad \\dot{y}=\\delta x y-\\gamma y',
         desc: 'Prey x and predator y coupled by consumption. Prey grow (α) and are eaten (β); predators convert the food (δ) and die (γ). The classic portrait is a family of closed orbits around a centre — predator–prey cycles that neither damp nor grow.',
-        docs: [{ label: 'Lotka–Volterra', n: 'epistemica/computational-science/lotka-volterra.md' }],
+        docs: [{ label: 'Lotka–Volterra', n: 'epistemica/construction/lotka-volterra.md' }],
         params: [
           { key: 'a', label: '\\(\\alpha\\) prey growth', min: 0.1, max: 2, step: 0.01, value: 1 },
           { key: 'b', label: '\\(\\beta\\) predation', min: 0.05, max: 1, step: 0.01, value: 0.4 },

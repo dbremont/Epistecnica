@@ -52,6 +52,16 @@ companion is `data/epistemica/ees.md`.
   scope, with `space/space.md` as the master note. Related foundational
   notes (structure, geometry, topology, order, measure, algebra, coordinate
   systems) stay in `mathematical/` and are reached through `links.json`.
+- The science scope lives in `epistemica/science/` (renamed from
+  `computational-science/`): the physical theories and frameworks (quantum
+  field theory, statistical mechanics, gauge theory, the classical field
+  theories, the mechanical formulations), the domain's spaces, systems, and
+  elements, and the numerical and simulation methods used on them.
+- The construction scope lives in `epistemica/construction/`: the named
+  constructions — the theories, laws, and models stated about particular
+  systems (Navier–Stokes, Fick's laws, Lotka–Volterra, general equilibrium,
+  DFT, molecular-orbital theory, the Mori–Zwanzig formalism, …) — split out of
+  the science scope.
 - The validation scope lives in `epistemica/validation/`: `validation.md`
   (master), `probability-model-validation.md`, `calibration.md`,
   `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
@@ -61,7 +71,7 @@ companion is `data/epistemica/ees.md`.
   `measurement-theory.md` (measurement as a structure-preserving assignment of
   numbers to attributes; the representation and procedure problems) and
   `system-of-units-of-measurement.md` (units and non-SI units). Measurement
-  theory moved out of the computational-science scope with the first note of
+  theory moved out of the science scope with the first note of
   this scope; the technica performance `measure.md` points here.
 - The p-value atlas lives in `epistemica/validation/atlas/`:
   `pvalue.json` (the null-distribution store) and `pvalue.html` (the

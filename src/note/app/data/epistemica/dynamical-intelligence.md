@@ -90,4 +90,4 @@ Conceptual Model: Dynamical Intelligence
 [https://news.ycombinator.com/item?id=39506420](https://news.ycombinator.com/item?id=39506420)
 - Algorithmic Foundations of Interactive Learning **-** [https://interactive-learning-algos.github.io/](https://interactive-learning-algos.github.io/)
 - Watkins, C. J., & Dayan, P. (1992). Q-learning. *Machine Learning*, *8*(3–4), 279–292.
-- [**System Identification**](computational-science/system-identification.md)
+- [**System Identification**](../../../../../science/system-identification.md)

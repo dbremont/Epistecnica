@@ -175,1136 +175,194 @@
     ]
   },
   {
-    "file_path": "epistemica/computational-science.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Computational Science from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/ab-initio-molecular-dynamics-aimd.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Ab initio Molecular Dynamics (AIMD) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/agent.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Agent from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/boolean-network.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Boolean Network from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/boundary-element-method-bem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Boundary Element Method (BEM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/branching-model.md",
+    "file_path": "epistemica/construction/branching-model.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Branching Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/chemical-space.md",
-    "logs": [
+      },
       {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Chemical Space from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/classical-field-theory-cft.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Classical Field Theory (CFT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/climate-modelling.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Climate Modelling from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/cluster-expansion-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cluster Expansion Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/computational-chemistry.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Computational Chemistry from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/computational-fluid-dynamics-cfd.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Computational Fluid Dynamics (CFD) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/computational-geometry.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Computational Geometry from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/configuration-space.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Configuration Space from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/conformal-field-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Conformal Field Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/continuum-mechanic-framework.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Continuum Mechanic Framework from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/density-functional-theory-dft-2.md",
+    "file_path": "epistemica/construction/density-functional-theory-dft-2.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Density Functional Theory (DFT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/density-functional-theory-dft.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Density Functional Theory (DFT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/discrete-element-method-dem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Discrete Element Method (DEM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/discrete-event-simulation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Discrete-Event Simulation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/durandkerner-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Durand–Kerner Method from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-22",
+        "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/electromagnetic-framework.md",
+    "file_path": "epistemica/construction/density-functional-theory-dft.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
-        "summary": "Import Electromagnetic Framework from the Modelado Notion export.",
+        "summary": "Import Density Functional Theory (DFT) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/electromagnetism.md",
-    "logs": [
+      },
       {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Electromagnetism from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/euler-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Euler Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/fast-fourier-transform-fft.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fast Fourier Transform (FFT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/fick-s-laws-of-diffusion.md",
+    "file_path": "epistemica/construction/fick-s-laws-of-diffusion.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Fick's Laws of Diffusion from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/finite-difference-method-fdm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Finite Difference Method (FDM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/finite-difference-time-domain-fdtd.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Finite-difference time-domain (FDTD) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/finite-element-method-fem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Finite Element Method (FEM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/fourier-decomposition-toolkit.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fourier Decomposition Toolkit from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/fourier-transform.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fourier Transform from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/functional-decomposition.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Functional Decomposition from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-20",
-        "kind": "docs",
-        "summary": "Update space links after the space-scope move.",
-        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
-        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/galerkin-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Galerkin Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/gauge-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gauge Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/general-equilibrium-theory.md",
+    "file_path": "epistemica/construction/general-equilibrium-theory.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import General Equilibrium Theory from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/genetic-modelling.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Genetic Modelling from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/geometric-quantization.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Geometric Quantization from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/graph-processing.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Graph Processing from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the Graph Neural Networks link after its move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
-        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
-        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/hamiltonian-mechanics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hamiltonian Mechanics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/input-output-modeling-iom.md",
+    "file_path": "epistemica/construction/input-output-modeling-iom.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Input-Output Modeling (IOM) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/kinetic-theory.md",
-    "logs": [
+      },
       {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Kinetic Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/lagrangian-mechanics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lagrangian Mechanics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/lattice-boltzmann-method-lbm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lattice Boltzmann Method (LBM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/lattice-boltzmann-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lattice Boltzmann Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/load-optimization.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Load Optimization from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/lotka-volterra.md",
+    "file_path": "epistemica/construction/lotka-volterra.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Lotka-Volterra from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/material-space.md",
-    "logs": [
+      },
       {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Material Space from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/maxwell-s-fundamental-electromagnetic-formulation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Maxwell's Fundamental Electromagnetic Formulation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/molecular-dynamics-md.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Molecular Dynamics (MD) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/molecular-orbital-theory.md",
+    "file_path": "epistemica/construction/molecular-orbital-theory.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Molecular Orbital Theory from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/mori-zwanzig-formalism.md",
+    "file_path": "epistemica/construction/mori-zwanzig-formalism.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Mori-Zwanzig Formalism from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/multibody-system.md",
-    "logs": [
+      },
       {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multibody System from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/navierstokes-equations.md",
+    "file_path": "epistemica/construction/navierstokes-equations.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Navier–Stokes Equations from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/network-effect.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Network Effect from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/network-flow.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Network Flow from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/network-science.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Network Science from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the Graph Neural Networks link after its move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
-        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
-        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/newton-raphson-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Newton-Raphson Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/newtonian-mechanics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Newtonian Mechanics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/numerical-relativity.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Numerical Relativity from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/osteology.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Osteology from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/path-integral.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Path Integral from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/phase-field-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Phase Field Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/phase-field-model.md",
+    "file_path": "epistemica/construction/phase-field-model.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Phase-field Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/phase-space.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Phase Space from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/physical-system.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Physical System from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/quantum-electrodynamics-qed.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Quantum Electrodynamics (QED) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/quantum-field-theory-qft.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Quantum Field Theory (QFT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-20",
-        "kind": "docs",
-        "summary": "Update space links after the space-scope move.",
-        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
-        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/computational-science/quantum-framework.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Quantum Framework from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/quantum-molecular-dynamics-qmd.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Quantum Molecular Dynamics (QMD) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/real-space-renormalization-group-rsrg.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Real-Space Renormalization Group (RSRG) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/reference-frame.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Reference Frame from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-20",
-        "kind": "docs",
-        "summary": "Update space links after the space-scope move.",
-        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
-        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/relativistic-quantum-framework.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Relativistic Quantum Framework from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/rigid-body-mechanics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Rigid Body Mechanics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/runge-kutta-toolbox.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Runge-Kutta Toolbox from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/smoothing.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Smoothing from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/space-filling-curves.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Space-Filling Curves from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/spectral-method-toolbox.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Spectral Method Toolbox from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/state-estimation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import State Estimation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/state-space-model.md",
+    "file_path": "epistemica/construction/state-space-model.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import State-Space Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/stochastic-differential-equation-sde.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Stochastic Differential Equation  (SDE) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/string-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import String Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/structural-analysis.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Structural Analysis from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/system-dynamics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import System Dynamics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/system-identification.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import System Identification from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/tessellation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Tessellation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/topic.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import topic from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/topological-quantum-field-theory-tqft.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Topological Quantum Field Theory (TQFT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/computational-science/visualizing-integrals.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Visualizing Integrals from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/construction/statistical-mechanics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Statistical Mechanics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Conform Statistical Mechanics to the epistemicarum note schema: five Formulation questions (Theory Family root typing) with a full recursive instance decomposition table; keep Signature, Mental Representation, Problem Space, Toolbox, Paradigm, and History as secondary sections; fix the duplicated Probability Distribution toolbox row and normalize internal links."
-      },
-      {
-        "date": "2026-10-21",
+        "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move into the epistemica/construction/ scope."
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Update Mean Field Theory and Renormalization Group links after the observational-scope flatten."
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Add the statistical-mechanics textbook references (Reif, Pathria & Beale, Landau & Lifshitz, Huang, Kardar x2), linking the four corpus documents.",
-        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the Boltzmann Machine link after its move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the boltzmann-machine link to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
-        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
-        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
-      },
-      {
-        "date": "2026-10-26",
-        "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording.",
-        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
-        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
-      },
-      {
-        "date": "2026-10-27",
-        "kind": "docs",
-        "summary": "Retarget the epistemic element set inventory link to EES.",
-        "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
-        "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/decision/decision-making.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Decision Making from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-18",
-        "kind": "docs",
-        "summary": "Link the Decision Theory field entry and add the Luce-Raiffa archive reference.",
-        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
-        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the Decision Theory link after its move to observational/decision/."
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/decision/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+        "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope."
       }
     ]
   },
@@ -1330,6 +388,28 @@
         "summary": "Retarget the epistemic element set inventory link to EES.",
         "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
         "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/econometrics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Econometrics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
       }
     ]
   },
@@ -1409,6 +489,61 @@
     ]
   },
   {
+    "file_path": "epistemica/discipline/probability.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probability from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
+        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the four Distribution links after the move to observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353",
+        "before": "ed68c96b41a728eda935cd9e51a1531414c5de37"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the four Distribution links to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the four Distribution links to the renamed distribution.md."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/discipline/. Its same-dir links to notes that stayed in observational/ gain the ../observational/ prefix, and the Statistical Mechanics and Validation links (absolute corpus paths) are unaffected.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/discipline/statistics.md",
     "logs": [
       {
@@ -1453,6 +588,11 @@
         "kind": "feat",
         "summary": "Import Dynamical Intelligence from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -1570,6 +710,80 @@
         "kind": "feat",
         "summary": "Import Viable System Model (VSM) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/ees.md",
+    "logs": [
+      {
+        "date": "2026-10-19",
+        "kind": "feat",
+        "summary": "Add REES, the Reality Epistemic Element Set: universal taxonomy and recursive decomposition of epistemic elements, with a paired atlas."
+      },
+      {
+        "date": "2026-10-19",
+        "kind": "refactor",
+        "summary": "Move the complete decomposition into the canonical rees.json tree store; the note keeps the schema and a branch backbone and points to the REES atlas (rees.html) for the full, ever-expanding tree.",
+        "commit": "4c98bec249dabd2f9f4648599c077939ef825682"
+      },
+      {
+        "date": "2026-10-19",
+        "kind": "docs",
+        "summary": "Update the REES atlas entry for the element search, replacing the searchable table and orders views.",
+        "commit": "6cc0fd2a30a9dcc2ac357de4aa1ef333745280cc",
+        "before": "51d70aa28dab6a43463b3cac65233c8883673bc6"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?) and flip the answer's opening polarity to match."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Update Statistical Mechanics links after the construction-scope move.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "refactor",
+        "summary": "Add the Disciplines root to the backbone and point the catalogue links at the discipline notes.",
+        "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
+        "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the REES note and describe the branches as inquiry branches.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-27",
+        "kind": "refactor",
+        "summary": "Rename the epistemic element set to EES and move the note, atlas, and tree store to ees.md, ees.html, and ees.json.",
+        "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "fix",
+        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/.",
+        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -2390,6 +1604,11 @@
         "kind": "feat",
         "summary": "Import Differential Equation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -2423,6 +1642,11 @@
         "kind": "feat",
         "summary": "Import Differential Operator from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -2588,6 +1812,11 @@
         "summary": "Expand the scope note: representation-system framing and reworked framework decomposition.",
         "commit": "6ee9afdf0414d8bcf7f5c5c1aa29fb599c3c96a6",
         "before": "26e67b8ddf537ba0135b360372e786dd679d3c5a"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -2906,6 +2135,11 @@
         "summary": "Update space links after the space-scope move.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
         "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -4552,6 +3786,11 @@
         "summary": "Fill the Quantization note: formulation (five questions), 71-row typed decomposition of the quantization practice (orientation, target, access, quantized code, operations, evaluation, conditions), criteria-based conceptual evaluation, three QA entries, and references in [title](url) form.",
         "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
         "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -5035,6 +4274,16 @@
         "kind": "fix",
         "summary": "Repair the Hilbert Space note and move it into the mathematical/space/ scope.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint the Quantum Field Theory link after the note moved to epistemica/construction/."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -5277,6 +4526,16 @@
         "summary": "Retarget the epistemic element set atlas link to EES.",
         "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
         "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint the Quantum Field Theory link after the note moved to epistemica/construction/."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -5641,6 +4900,11 @@
         "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -5948,6 +5212,11 @@
         "summary": "Retarget the Probability link after its move to discipline/.",
         "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
         "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -5959,23 +5228,6 @@
         "kind": "feat",
         "summary": "Import AIXI from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/information/algorithmic-information-theory-ait.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Algorithmic Information Theory (AIT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6123,40 +5375,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/bernoulli-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bernoulli Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/beta-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Beta Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/betting.md",
     "logs": [
       {
@@ -6164,23 +5382,6 @@
         "kind": "feat",
         "summary": "Import Betting from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/binomial-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Binomial Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -6218,23 +5419,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/cauchy-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cauchy Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/central-limit-theorem-clt.md",
     "logs": [
       {
@@ -6257,23 +5441,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/chi-squared-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Chi-Squared Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/chi-squared-test.md",
     "logs": [
       {
@@ -6281,23 +5448,6 @@
         "kind": "feat",
         "summary": "Import Chi-Squared Test from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/information/coding.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Coding from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6483,6 +5633,35 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/decision/decision-making.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decision Making from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Link the Decision Theory field entry and add the Luce-Raiffa archive reference.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Decision Theory link after its move to observational/decision/."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/decision/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/decision/decision-problem.md",
     "logs": [
       {
@@ -6612,23 +5791,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/dirichlet-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Dirichlet Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/dirichlet-process.md",
     "logs": [
       {
@@ -6647,6 +5809,108 @@
         "kind": "feat",
         "summary": "Import Discriminative Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/bernoulli-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bernoulli Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/beta-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Beta Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/binomial-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Binomial Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/cauchy-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cauchy Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/chi-squared-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chi-Squared Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/dirichlet-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dirichlet Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -6695,6 +5959,261 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/distribution/exponential-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exponential Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/f-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import F-Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/gamma-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gamma Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/gaussian-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/geometric-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Geometric Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/gumbel-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gumbel Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/log-normal-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Log-Normal Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/multinomial-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multinomial Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/multivariate-normal-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multivariate Normal Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/negative-binomial-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Negative Binomial Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/pareto-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Pareto Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/poisson-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poisson Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/t-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import t-distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/uniform-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Uniform Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/distribution/weibull-distribution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Weibull Distribution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/distribution/.",
+        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/document-term-matrix.md",
     "logs": [
       {
@@ -6713,23 +6232,6 @@
         "kind": "feat",
         "summary": "Import Dutch Book from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/discipline/econometrics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Econometrics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/discipline/.",
-        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
       }
     ]
   },
@@ -6774,44 +6276,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/information/entropy.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Entropy from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-18",
-        "kind": "docs",
-        "summary": "Link Shannon information theory and the information-theory atlas from the relation section.",
-        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
-        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the Shannon Information Content link to the section of the theory note after the content note was absorbed.",
-        "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
-        "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "docs",
-        "summary": "Add the Entropy from First Principles reference.",
-        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
-        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/error-correcting-code-2.md",
     "logs": [
       {
@@ -6826,23 +6290,6 @@
         "summary": "Fold into error-correcting-code.md and retire this file.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
         "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/information/error-correcting-code.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Error Correcting Code from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -6891,23 +6338,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/exponential-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Exponential Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/exponential-random-graph-model-ergm.md",
     "logs": [
       {
@@ -6926,23 +6356,6 @@
         "kind": "feat",
         "summary": "Import Exponential Smoothing (ETS) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/f-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import F-Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -6976,23 +6389,6 @@
         "kind": "feat",
         "summary": "Import Filtration from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/information/fisher-information.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fisher Information from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7044,40 +6440,6 @@
         "kind": "feat",
         "summary": "Import Galton–Watson Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/gamma-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gamma Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/gaussian-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gaussian Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -7137,23 +6499,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/geometric-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Geometric Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/gillespie-algorithm.md",
     "logs": [
       {
@@ -7172,23 +6517,6 @@
         "kind": "feat",
         "summary": "Import Glivenko–Cantelli Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/gumbel-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gumbel Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -7266,23 +6594,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/information/huffman-coding.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Huffman Coding from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/imprecise-probability.md",
     "logs": [
       {
@@ -7341,6 +6652,129 @@
         "kind": "feat",
         "summary": "Import Inductive Bias from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/algorithmic-information-theory-ait.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algorithmic Information Theory (AIT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/coding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Coding from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/entropy.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Entropy from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Link Shannon information theory and the information-theory atlas from the relation section.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Shannon Information Content link to the section of the theory note after the content note was absorbed.",
+        "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
+        "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Add the Entropy from First Principles reference.",
+        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
+        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/error-correcting-code.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Error Correcting Code from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/fisher-information.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fisher Information from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/huffman-coding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Huffman Coding from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7404,6 +6838,119 @@
         "date": "2026-10-30",
         "kind": "docs",
         "summary": "Add the statistical-mathematical theory space table (Shannon, statistical, geometric, algorithmic, statistics, learning).",
+        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
+        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/markov-blanket.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Markov Blanket from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/shannon-entropy.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Shannon Entropy from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/shannon-information-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Shannon Information Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Link the Shannon information content note and the information-theory atlas.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "feat",
+        "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?)."
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move to epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Move out of it/ into epistemica/observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Absorb the Shannon information content note as a section of this note; the concept keeps its guide-conformant formulation and is reached at #sec-shannon-information-content."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "refactor",
+        "summary": "Merge the theory and the Shannon information content into one five-question formulation with a single decomposition rooted at the theory."
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "docs",
+        "summary": "Expand the references with the foundational papers, canonical texts, estimation methods, and semantic-gap sources; order them by kind and tidy the existing entries.",
+        "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
+        "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Rename The Tower of Abstractions to Shannon Theory Toolbox, fold Shannon Information Content into the Shannon Information subsection with its formula and unit readings, add the how-to-think-about-surprisal table, extend the references, and retarget the moved anchors.",
         "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
         "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
       }
@@ -7586,23 +7133,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/log-normal-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Log-Normal Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/logistic-regression.md",
     "logs": [
       {
@@ -7621,23 +7151,6 @@
         "kind": "feat",
         "summary": "Import Marked Point Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/information/markov-blanket.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Markov Blanket from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
       }
     ]
   },
@@ -7835,23 +7348,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/multinomial-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multinomial Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/multivariate-adaptive-regression-splines-mars.md",
     "logs": [
       {
@@ -7859,40 +7355,6 @@
         "kind": "feat",
         "summary": "Import Multivariate Adaptive Regression Splines (MARS) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/multivariate-normal-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multivariate Normal Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/negative-binomial-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Negative Binomial Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -7937,23 +7399,6 @@
         "kind": "feat",
         "summary": "Import Ordinary Least Squares (OLS) Estimator from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/pareto-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Pareto Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -8020,23 +7465,6 @@
         "kind": "feat",
         "summary": "Import Point Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/poisson-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Poisson Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -8191,61 +7619,6 @@
         "kind": "feat",
         "summary": "Import Probability Representation Regime from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/discipline/probability.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Probability from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move.",
-        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
-        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      },
-      {
-        "date": "2026-10-26",
-        "kind": "refactor",
-        "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
-        "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
-        "before": "c84e7da355fd7758f50a794090127267460e9c3e"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the four Distribution links after the move to observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353",
-        "before": "ed68c96b41a728eda935cd9e51a1531414c5de37"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the four Distribution links to the renamed distribution.md."
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the four Distribution links to the renamed distribution.md."
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/discipline/. Its same-dir links to notes that stayed in observational/ gain the ../observational/ prefix, and the Statistical Mechanics and Validation links (absolute corpus paths) are unaffected.",
-        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
       }
     ]
   },
@@ -8502,102 +7875,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/information/shannon-entropy.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Shannon Entropy from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/information/shannon-information-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Shannon Information Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-18",
-        "kind": "docs",
-        "summary": "Link the Shannon information content note and the information-theory atlas.",
-        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
-        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
-      },
-      {
-        "date": "2026-10-18",
-        "kind": "feat",
-        "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition.",
-        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Conform the type question to the guide's wording (ambiguous?)."
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      },
-      {
-        "date": "2026-10-26",
-        "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording.",
-        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
-        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move out of it/ into epistemica/observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Absorb the Shannon information content note as a section of this note; the concept keeps its guide-conformant formulation and is reached at #sec-shannon-information-content."
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Merge the theory and the Shannon information content into one five-question formulation with a single decomposition rooted at the theory."
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "docs",
-        "summary": "Expand the references with the foundational papers, canonical texts, estimation methods, and semantic-gap sources; order them by kind and tidy the existing entries.",
-        "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
-        "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "docs",
-        "summary": "Rename The Tower of Abstractions to Shannon Theory Toolbox, fold Shannon Information Content into the Shannon Information subsection with its formula and unit readings, add the how-to-think-about-surprisal table, extend the references, and retarget the moved anchors.",
-        "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
-        "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/simple-linear-regression.md",
     "logs": [
       {
@@ -8794,23 +8071,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/t-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import t-distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/tendency.md",
     "logs": [
       {
@@ -8924,23 +8184,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/distribution/uniform-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Uniform Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/variability.md",
     "logs": [
       {
@@ -9039,23 +8282,6 @@
         "kind": "feat",
         "summary": "Import Visualization from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/distribution/weibull-distribution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Weibull Distribution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "refactor",
-        "summary": "Move to epistemica/observational/distribution/.",
-        "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353"
       }
     ]
   },
@@ -9315,71 +8541,1340 @@
     ]
   },
   {
-    "file_path": "epistemica/ees.md",
+    "file_path": "epistemica/science.md",
     "logs": [
       {
-        "date": "2026-10-19",
+        "date": "2026-10-17",
         "kind": "feat",
-        "summary": "Add REES, the Reality Epistemic Element Set: universal taxonomy and recursive decomposition of epistemic elements, with a paired atlas."
+        "summary": "Import Computational Science from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-19",
+        "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Move the complete decomposition into the canonical rees.json tree store; the note keeps the schema and a branch backbone and points to the REES atlas (rees.html) for the full, ever-expanding tree.",
-        "commit": "4c98bec249dabd2f9f4648599c077939ef825682"
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/ab-initio-molecular-dynamics-aimd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ab initio Molecular Dynamics (AIMD) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
-        "date": "2026-10-19",
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/agent.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Agent from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/boolean-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boolean Network from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/boundary-element-method-bem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boundary Element Method (BEM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/chemical-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chemical Space from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/classical-field-theory-cft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classical Field Theory (CFT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/climate-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Climate Modelling from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/cluster-expansion-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cluster Expansion Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/computational-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Chemistry from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/computational-fluid-dynamics-cfd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Fluid Dynamics (CFD) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/computational-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Geometry from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/configuration-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Configuration Space from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/conformal-field-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conformal Field Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/continuum-mechanic-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Continuum Mechanic Framework from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/discrete-element-method-dem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discrete Element Method (DEM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/discrete-event-simulation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discrete-Event Simulation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/durandkerner-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Durand–Kerner Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/electromagnetic-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Electromagnetic Framework from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/electromagnetism.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Electromagnetism from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/euler-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Euler Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/fast-fourier-transform-fft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fast Fourier Transform (FFT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/finite-difference-method-fdm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Finite Difference Method (FDM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/finite-difference-time-domain-fdtd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Finite-difference time-domain (FDTD) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/finite-element-method-fem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Finite Element Method (FEM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/fourier-decomposition-toolkit.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fourier Decomposition Toolkit from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/fourier-transform.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fourier Transform from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/functional-decomposition.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Functional Decomposition from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-20",
         "kind": "docs",
-        "summary": "Update the REES atlas entry for the element search, replacing the searchable table and orders views.",
-        "commit": "6cc0fd2a30a9dcc2ac357de4aa1ef333745280cc",
-        "before": "51d70aa28dab6a43463b3cac65233c8883673bc6"
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/galerkin-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Galerkin Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/gauge-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gauge Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/genetic-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Genetic Modelling from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/geometric-quantization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Geometric Quantization from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/graph-processing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Graph Processing from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Graph Neural Networks link after its move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
+        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/hamiltonian-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hamiltonian Mechanics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/kinetic-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kinetic Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/lagrangian-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lagrangian Mechanics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/lattice-boltzmann-method-lbm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lattice Boltzmann Method (LBM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/lattice-boltzmann-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lattice Boltzmann Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/load-optimization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Load Optimization from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/material-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Material Space from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/maxwell-s-fundamental-electromagnetic-formulation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Maxwell's Fundamental Electromagnetic Formulation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/molecular-dynamics-md.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Molecular Dynamics (MD) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/multibody-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multibody System from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/network-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Network Effect from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/network-flow.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Network Flow from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/network-science.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Network Science from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Graph Neural Networks link after its move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the gnn link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
+        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/newton-raphson-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Newton-Raphson Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/newtonian-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Newtonian Mechanics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/numerical-relativity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Numerical Relativity from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/osteology.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Osteology from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/path-integral.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Path Integral from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/phase-field-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Phase Field Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/phase-space.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Phase Space from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/physical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Physical System from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/quantum-electrodynamics-qed.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Electrodynamics (QED) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/quantum-field-theory-qft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Field Theory (QFT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Add the five-question formulation and the recursive instance decomposition of the QFT framework: yielded theories, tasks and methods, and the observation, description, and evaluation elements."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/quantum-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Framework from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/quantum-molecular-dynamics-qmd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantum Molecular Dynamics (QMD) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/real-space-renormalization-group-rsrg.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Real-Space Renormalization Group (RSRG) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/reference-frame.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Reference Frame from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/relativistic-quantum-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Relativistic Quantum Framework from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/rigid-body-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Rigid Body Mechanics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/runge-kutta-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Runge-Kutta Toolbox from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/smoothing.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Smoothing from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/space-filling-curves.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Space-Filling Curves from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/spectral-method-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Spectral Method Toolbox from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/state-estimation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import State Estimation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/statistical-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Statistical Mechanics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Conform the type question to the guide's wording (ambiguous?) and flip the answer's opening polarity to match."
+        "summary": "Conform Statistical Mechanics to the epistemicarum note schema: five Formulation questions (Theory Family root typing) with a full recursive instance decomposition table; keep Signature, Mental Representation, Problem Space, Toolbox, Paradigm, and History as secondary sections; fix the duplicated Probability Distribution toolbox row and normalize internal links."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/construction/ scope."
       },
       {
         "date": "2026-10-21",
         "kind": "docs",
-        "summary": "Update Statistical Mechanics links after the construction-scope move.",
-        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
-        "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+        "summary": "Update Mean Field Theory and Renormalization Group links after the observational-scope flatten."
       },
       {
-        "date": "2026-10-26",
-        "kind": "refactor",
-        "summary": "Add the Disciplines root to the backbone and point the catalogue links at the discipline notes.",
-        "commit": "1850a604a573854d75a8b9871d00767cb456dc32",
-        "before": "2e002e6c4b7de69835ac058d5b61fa3e9f2b1d70"
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Add the statistical-mechanics textbook references (Reif, Pathria & Beale, Landau & Lifshitz, Huang, Kardar x2), linking the four corpus documents.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Boltzmann Machine link after its move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the boltzmann-machine link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
+        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
       },
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Remove the retired order label from the REES note and describe the branches as inquiry branches.",
+        "summary": "Remove the retired order label from the decomposition wording.",
         "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
         "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
       },
       {
         "date": "2026-10-27",
-        "kind": "refactor",
-        "summary": "Rename the epistemic element set to EES and move the note, atlas, and tree store to ees.md, ees.html, and ees.json.",
-        "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the Decision Making link after its move to epistemica/observational/decision/",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
-        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
+        "kind": "docs",
+        "summary": "Retarget the epistemic element set inventory link to EES.",
+        "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
+        "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
       },
       {
         "date": "2026-10-30",
-        "kind": "fix",
-        "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/.",
-        "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
-        "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/stochastic-differential-equation-sde.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stochastic Differential Equation  (SDE) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/string-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import String Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/structural-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Structural Analysis from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/system-dynamics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import System Dynamics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/system-identification.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import System Identification from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/tessellation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Tessellation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/topological-quantum-field-theory-tqft.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Topological Quantum Field Theory (TQFT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/science/visualizing-integrals.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Visualizing Integrals from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/)."
       }
     ]
   },
@@ -9413,6 +9908,11 @@
         "kind": "feat",
         "summary": "Import Simulation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -10921,6 +11421,11 @@
         "summary": "Retarget the System of Units of Measurement link after the note moved to epistemica/measurement/.",
         "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
         "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split."
       }
     ]
   },
@@ -11407,35 +11912,6 @@
     ]
   },
   {
-    "file_path": "nature/construction/principle/compositionality.md",
-    "logs": [
-      {
-        "date": "2026-10-22",
-        "kind": "feat",
-        "summary": "Add Compositionality: the twofold principle of reality (ontic + cognitive) with its decomposition table — first note of the nature/ section.",
-        "commit": "40d72d07ffba1c6ceb6a74176009e1d0b5bd8aa5"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Rework the note around cognition: retag nature/cognition, add QA questions, replace the decomposition with a stub and expand the references (linguistics + ML compositionality).",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      }
-    ]
-  },
-  {
-    "file_path": "nature/construction/principle/minimal.md",
-    "logs": [
-      {
-        "date": "2026-10-22",
-        "kind": "feat",
-        "summary": "Add the Minimal Principle note (minimal-compositionality reading).",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
-      }
-    ]
-  },
-  {
     "file_path": "nature/cognition/meaning.md",
     "logs": [
       {
@@ -11483,6 +11959,35 @@
         "date": "2026-10-29",
         "kind": "refactor",
         "summary": "Re-root the decomposition at the standing: the root chain is Cognitive System (→ Has) Phenomenon (→ Instance) Meaning, with the bearer typed in the spine and no longer instantiated as a node (Listener's Cognitive System is dropped) and no longer reached through the Substantive/Complex System spine. Meaning is held by the system via the new Has link rather than typed as a Part of it, which dissolves the meaning-as-part inconsistency the evaluation recorded. The system branch is removed (the four mechanisms and Cave Trace Retrieval, the comprehension episode with its two events, and Working Memory Capacity); Cave Expectation State folds into the Interpretant Chain as its closing state; the neural substrate, the utterance scene, and the six limitation factors re-hang under Meaning through the generic attributive, situational and bound links. Rewire the epistemic table cross-references that pointed at the removed rows: Comprehension Model, Reference-Resolution Explanation, Cognitive/Conceptual Semantics, Prototype Theory, Pragmatic/Speech-Act Theory and the Cooperative Principle now cite the trajectory, states, coupling, aspects and chain. Record the two grammar extensions (the Cognitive System kind and the Has link) as one minimal appendix line."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/construction/principle/compositionality.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Add Compositionality: the twofold principle of reality (ontic + cognitive) with its decomposition table — first note of the nature/ section.",
+        "commit": "40d72d07ffba1c6ceb6a74176009e1d0b5bd8aa5"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Rework the note around cognition: retag nature/cognition, add QA questions, replace the decomposition with a stub and expand the references (linguistics + ML compositionality).",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/construction/principle/minimal.md",
+    "logs": [
+      {
+        "date": "2026-10-22",
+        "kind": "feat",
+        "summary": "Add the Minimal Principle note (minimal-compositionality reading).",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
       }
     ]
   },

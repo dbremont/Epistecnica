@@ -68,8 +68,8 @@ Completeness is what separates a Hilbert space from a mere inner product space; 
 - [Compact Operator](note.html?n=epistemica/mathematical/compact-operator.md)
 - [Spectrum](note.html?n=epistemica/mathematical/spectrum.md)
 - [Linear Functional](note.html?n=epistemica/mathematical/linear-functional.md)
-- [Quantum Framework](note.html?n=epistemica/computational-science/quantum-framework.md)
-- [Quantum Field Theory (QFT)](note.html?n=epistemica/computational-science/quantum-field-theory-qft.md)
+- [Quantum Framework](note.html?n=epistemica/science/quantum-framework.md)
+- [Quantum Field Theory (QFT)](note.html?n=epistemica/construction/quantum-field-theory-qft.md)
 
 - [Hilbert space - Wikipedia](https://en.wikipedia.org/wiki/Hilbert_space)
 - [Hilbert Space - Mathworld](https://mathworld.wolfram.com/HilbertSpace.html)

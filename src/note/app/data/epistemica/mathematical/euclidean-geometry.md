@@ -263,7 +263,7 @@ QA:
 - [Conformal map](conformal-map.md)
 - [Coordinate System](coordinate-system.md)
 - [**Differential Geometry**](differential-geometry.md)
-- [Computational Geometry](../computational-science/computational-geometry.md)
+- [Computational Geometry](../../../../../../science/computational-geometry.md)
 - https://www.youtube.com/watch?v=6s1CI3uuhko
 - [**Inner Product Space**](space/inner-product-space.md)
 - https://en.wikipedia.org/wiki/Euclidean_space

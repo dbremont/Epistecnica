@@ -48,7 +48,7 @@ qa:
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
-> Yes, in four ways the decomposition keeps apart. First, **which aspect**: "quantization" names the act (mapping a value), the code (the finite alphabet), and the apparatus (the quantizer: partition plus codebook). The note types the practice and keeps the act and the code as `readable as` prose. Second, **which sense**: the signal-processing and information-theoretic sense — replacing amplitudes by levels — is not the physicist's quantization of a classical theory into a quantum one (canonical, geometric, deformation). The shared word is a false friend; the physics construct is a theory-construction, not a value substitution, and it is not decomposed here (see [Geometric Quantization](note.html?n=epistemica/computational-science/geometric-quantization.md)). Third, **where the boundary with sampling lies**: the step is quantized in the codomain and sampled in the domain, and a chain that does both is not thereby a single construct. Fourth, **what the input is**: quantizing a signal, a model's parameters, and a table of measurements are the same operation applied to different relata — the practice is portable, the apparatus differs.
+> Yes, in four ways the decomposition keeps apart. First, **which aspect**: "quantization" names the act (mapping a value), the code (the finite alphabet), and the apparatus (the quantizer: partition plus codebook). The note types the practice and keeps the act and the code as `readable as` prose. Second, **which sense**: the signal-processing and information-theoretic sense — replacing amplitudes by levels — is not the physicist's quantization of a classical theory into a quantum one (canonical, geometric, deformation). The shared word is a false friend; the physics construct is a theory-construction, not a value substitution, and it is not decomposed here (see [Geometric Quantization](note.html?n=epistemica/science/geometric-quantization.md)). Third, **where the boundary with sampling lies**: the step is quantized in the codomain and sampled in the domain, and a chain that does both is not thereby a single construct. Fourth, **what the input is**: quantizing a signal, a model's parameters, and a table of measurements are the same operation applied to different relata — the practice is portable, the apparatus differs.
 
 > The ambiguity is resolved by declaring `Aggregate` primary and typing the branches as the practice's elements: the code under `Epistemic Representation`, the acts under `Epistemic Operation`, the distortion and its budget under `Epistemic Evaluation`. Calling quantization a representation would erase its lossy act; calling it an operation would erase the codebook it produces.
 
@@ -172,8 +172,8 @@ qa:
 - [Signal](note.html?n=epistemica/mathematical/signal.md)
 - [Scale](note.html?n=epistemica/mathematical/scale.md)
 - [Measurement Theory](note.html?n=epistemica/measurement/measurement-theory.md)
-- [Geometric Quantization](note.html?n=epistemica/computational-science/geometric-quantization.md)
-- [Quantum Framework](note.html?n=epistemica/computational-science/quantum-framework.md)
+- [Geometric Quantization](note.html?n=epistemica/science/geometric-quantization.md)
+- [Quantum Framework](note.html?n=epistemica/science/quantum-framework.md)
 - [Quantization (engineering treatment)](note.html?n=technica/ais/inference/quantization.md)
 - [Quantization (signal processing)](https://en.wikipedia.org/wiki/Quantization_(signal_processing))
 - [Vector quantization](https://en.wikipedia.org/wiki/Vector_quantization)

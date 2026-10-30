@@ -157,7 +157,7 @@ where:
 
 ### Computational Method
 
-- [ ]  [Euler Method](../computational-science/euler-method.md)
+- [ ]  [Euler Method](../../../../../../science/euler-method.md)
 
 ## **Boundary Value Problems (BVPs)**
 
