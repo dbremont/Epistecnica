@@ -183,5 +183,5 @@ Too small, and you'll get `EINVAL`.
 - x86: 🚀 Execution System
 - [Language Execution System](note.html?n=technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
 - 
-- [Linux Process Management Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-process-management-stack.md)
+- [Linux Process Management Stack](note.html?n=technica/computation/operating-system/linux/linux-process-management-stack.md)
 - x86: 📜 Language Specification

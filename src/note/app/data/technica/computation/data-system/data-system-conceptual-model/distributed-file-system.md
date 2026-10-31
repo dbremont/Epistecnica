@@ -6,6 +6,6 @@
 
 ## References
 
-[Self-* Storage Systems](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/self-storage-systems.md)
+[Self-* Storage Systems](note.html?n=technica/computation/operating-system/linux/self-storage-systems.md)
 
-[Linux  File Systems Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-file-systems-stack.md)
+[Linux  File Systems Stack](note.html?n=technica/computation/operating-system/linux/linux-file-systems-stack.md)

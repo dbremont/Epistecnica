@@ -148,7 +148,7 @@ Below is the approximate sequence:
 - [Guide to Observability Tools for C/C++ on Linux](https://app.notion.com/p/Guide-to-Observability-Tools-for-C-C-on-Linux-1c1c0f5171ec80ecabd2c048a1f861f5?pvs=21)
 - [ltrace](note.html?n=technica/computation/system/evaluation/performace/conceptual-model-performance/ltrace.md)
 - [strace](note.html?n=technica/computation/system/evaluation/performace/conceptual-model-performance/strace.md)
-- [ioctl](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-syscall-interface/list-of-syscall/ioctl.md)
+- [ioctl](note.html?n=technica/computation/operating-system/linux/syscall-interface/list-of-syscall/ioctl.md)
 - https://github.com/KhronosGroup/SPIRV-LLVM-Translator
 - https://clang.llvm.org/doxygen/group__CINDEX.html
 - https://github.com/intel/intel-graphics-compiler

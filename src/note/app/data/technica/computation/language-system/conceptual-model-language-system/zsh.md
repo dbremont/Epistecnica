@@ -178,7 +178,7 @@ CFLAGS="-g -O0 -fPIC"`
     - https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#zsh_custom
 - [AWK](note.html?n=technica/computation/language-system/conceptual-model-language-system/awk.md)
 - [A Collection of Bash Utilities for Everyday Tasks](https://app.notion.com/p/A-Collection-of-Bash-Utilities-for-Everyday-Tasks-195c0f5171ec805a8caed838d363d3e8?pvs=21)
-- [Linux](note.html?n=technica/computation/operating-system/linux.md)
+- [Linux](note.html?n=technica/computation/operating-system/linux/linux.md)
 - https://zsh.sourceforge.io/FAQ/
 - [**Build System**](note.html?n=technica/computation/system/operation/operation-conceptual-model/build-system.md)
 - [GNU Autotools](note.html?n=technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md)

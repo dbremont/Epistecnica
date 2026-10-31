@@ -60,7 +60,7 @@ Virtualization: Conceptual Model
 
 ## References
 
-- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-virtualization-stack.md)
+- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/linux-virtualization-stack.md)
 - https://en.wikipedia.org/wiki/OS-level_virtualization
 - Bellard, F. (n.d.). QEMU, a Fast and Portable Dynamic Translator.
 - Craig, I. D. (2011). Virtual Machines (2006th ed.). Springer.

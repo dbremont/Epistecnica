@@ -88,6 +88,6 @@ QA:
 - https://www.usenix.org/conference/hotstorage17/program/presentation/kathpal
 - https://dl.acm.org/doi/10.1145/1218063.1217957
 - [A Guide to Cloud Storage](https://app.notion.com/p/A-Guide-to-Cloud-Storage-1afc0f5171ec802b871ff365bf64a588?pvs=21)
-- [Storage System](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/storage-system.md)
+- [Storage System](note.html?n=technica/computation/operating-system/linux/storage-system.md)
 - [https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/backup-recovery/backup-recovery.pdf](https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/backup-recovery/backup-recovery.pdf)
 - [System](note.html?n=technica/computation/system.md)

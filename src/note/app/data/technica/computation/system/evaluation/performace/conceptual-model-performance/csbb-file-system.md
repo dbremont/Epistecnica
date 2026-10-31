@@ -39,7 +39,7 @@ mount /dev/sdb1 /mnt/test
 
 ## References
 
-- [File System](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/file-system.md)
+- [File System](note.html?n=technica/computation/operating-system/linux/file-system.md)
 - [On Benchmarking Popular File Systems](https://people.computing.clemson.edu/~jzwang/pub/fbench.pdf)
 - http://web.cs.ucla.edu/classes/winter13/cs111/scribe/10c/
 - https://en.wikipedia.org/wiki/High_Performance_File_System

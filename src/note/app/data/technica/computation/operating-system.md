@@ -9,7 +9,7 @@
 > A **conceptual map** for parsing the elements related to operations systems, production systems, and operational processes.
 > 
 
-> Our study of the **OS Systems** will be organized in terms of the study of ([Linux](note.html?n=technica/computation/operating-system/linux.md)).
+> Our study of the **OS Systems** will be organized in terms of the study of ([Linux](note.html?n=technica/computation/operating-system/linux/linux.md)).
 > 
 
 > **Note:** A useful way to study a computer system from the ground up is by using a virtualization system like [QEMU (Quick Emulator)](note.html?n=technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md).
@@ -52,7 +52,7 @@
 
 ## Firmware
 
-> Actually firmware ( [**Firmware**](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/firmware.md)) it’s the software that intermediates the interaction with the hardware.
+> Actually firmware ( [**Firmware**](note.html?n=technica/computation/operating-system/linux/firmware.md)) it’s the software that intermediates the interaction with the hardware.
 > 
 
 > Alongside firmware there are also the drivers.
@@ -213,7 +213,7 @@
 
 [seL4](note.html?n=technica/computation/operating-system/sel4.md)
 
-[Linux](note.html?n=technica/computation/operating-system/linux.md)
+[Linux](note.html?n=technica/computation/operating-system/linux/linux.md)
 
 [Mach](note.html?n=technica/computation/operating-system/mach.md)
 

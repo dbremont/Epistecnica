@@ -54,5 +54,5 @@
 ## References
 
 - [Computer Graphics](note.html?n=technica/computation/miscelanea/computer-graphics.md)
-- [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-graphics-stack.md)
+- [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/linux-graphics-stack.md)
 - https://en.wikipedia.org/wiki/OpenCL

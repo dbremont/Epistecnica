@@ -134,6 +134,6 @@ Conceptual Model: Firefox
 - [Javascript](note.html?n=technica/computation/language-system/conceptual-model-language-system/javascript.md)
 - [**WebAssembly**](note.html?n=technica/computation/language-system/conceptual-model-language-system/webassembly.md)
 - https://browser.engineering/
-- [X Window System (X11 Version)](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/x-window-system-x11-version.md)
+- [X Window System (X11 Version)](note.html?n=technica/computation/operating-system/linux/x-window-system-x11-version.md)
 - [Rendering](note.html?n=technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/rendering.md)
 - https://news.ycombinator.com/item?id=49522137

@@ -379,6 +379,6 @@ Here is a list of common media types, also known as MIME types (Multipurpose Int
 - [Improving Performance with HTTP Streaming (medium.com/airbnb-engineering)](https://news.ycombinator.com/item?id=35982732)
 - [Does Websocket use the same TCP connection that was used by the initial HTTP for the handshake?](https://stackoverflow.com/questions/53383042/does-websocket-use-the-same-tcp-connection-that-was-used-by-the-initial-http-for)
 - Popa, L., Ghodsi, A., & Stoica, I. (2010). HTTP as the Narrow Waist of the Future Internet. 1–6.
-- [Berkeley Socket](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/berkeley-socket.md)
-- [Linux Network Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-network-stack.md)
+- [Berkeley Socket](note.html?n=technica/computation/operating-system/linux/berkeley-socket.md)
+- [Linux Network Stack](note.html?n=technica/computation/operating-system/linux/linux-network-stack.md)
 - https://datatracker.ietf.org/doc/html/rfc3986

@@ -117,7 +117,7 @@ Summary:
 
 - https://en.wikipedia.org/wiki/OpenGL
 - [‣](https://app.notion.com/p/214598edb79080bea9f1c1de878e5896?pvs=21)
-- [X Window System (X11 Version)](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/x-window-system-x11-version.md)
+- [X Window System (X11 Version)](note.html?n=technica/computation/operating-system/linux/x-window-system-x11-version.md)
 - https://dri.freedesktop.org/wiki/libGL/
 - https://github.com/eug/awesome-opengl?tab=readme-ov-file
 - [OpenGL By Example] https://github.com/McNopper/OpenGL

@@ -12,7 +12,7 @@ tags: [technique]
 
 ## References
 
-- [Linux Process Management Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-process-management-stack.md)
+- [Linux Process Management Stack](note.html?n=technica/computation/operating-system/linux/linux-process-management-stack.md)
 - [**Thread**](note.html?n=technica/computation/language-system/conceptual-model-language-system/thread.md)
 - https://news.ycombinator.com/item?id=27883847
 - [https://news.ycombinator.com/item?id=15006430](https://news.ycombinator.com/item?id=15006430)

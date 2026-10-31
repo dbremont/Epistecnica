@@ -23,4 +23,4 @@
 
 ## References
 
-- [Linux Network Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-network-stack.md)
+- [Linux Network Stack](note.html?n=technica/computation/operating-system/linux/linux-network-stack.md)

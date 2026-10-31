@@ -129,5 +129,5 @@ A **layer** is a separate image plane that can contain:
 ## References
 
 - https://en.wikipedia.org/wiki/Raster_graphics
-- [X Window System (X11 Version)](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/x-window-system-x11-version.md)
+- [X Window System (X11 Version)](note.html?n=technica/computation/operating-system/linux/x-window-system-x11-version.md)
 - https://en.wikipedia.org/wiki/Photographic_composition

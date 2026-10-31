@@ -253,5 +253,5 @@ References
 
 ## References
 
-- [Linux Process Management Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-process-management-stack.md)
+- [Linux Process Management Stack](note.html?n=technica/computation/operating-system/linux/linux-process-management-stack.md)
 - [‣](https://app.notion.com/p/1cbc0f5171ec8054998ddf3212e4916b?pvs=21)

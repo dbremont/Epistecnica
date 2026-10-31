@@ -101,4 +101,4 @@ The timing file contains the delays between output events, allowing `scriptrepla
 
 ## References
 
-- [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-graphics-stack.md)
+- [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/linux-graphics-stack.md)

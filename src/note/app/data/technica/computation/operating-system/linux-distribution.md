@@ -425,7 +425,7 @@ cat /etc/X11/default-display-manager
 
 [Tiny Core Linux](note.html?n=technica/computation/operating-system/linux-distribution/tiny-core-linux.md)
 
-- [Linux](note.html?n=technica/computation/operating-system/linux.md)
+- [Linux](note.html?n=technica/computation/operating-system/linux/linux.md)
 - https://www.kernel.org/
-- [Hyprland](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/hyprland.md)
-- [Linux Security Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-security-stack.md)
+- [Hyprland](note.html?n=technica/computation/operating-system/linux/hyprland.md)
+- [Linux Security Stack](note.html?n=technica/computation/operating-system/linux/linux-security-stack.md)

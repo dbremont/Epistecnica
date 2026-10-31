@@ -123,7 +123,7 @@ where $G_U$ is the set of user goals.
 > How Linux Driver’s Models Work?
 > 
 
-> See [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-graphics-stack.md).
+> See [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/linux-graphics-stack.md).
 > 
 
 ## Conceptual Model

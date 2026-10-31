@@ -85,5 +85,5 @@
 - https://www.daytona.io/
 - https://github.com/firecracker-microvm/firecracker
 - [Virtualization](note.html?n=technica/computation/platform/virtualization.md)
-- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-virtualization-stack.md)
+- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/linux-virtualization-stack.md)
 - [Docker](note.html?n=technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)

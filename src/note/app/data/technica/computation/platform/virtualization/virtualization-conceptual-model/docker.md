@@ -265,5 +265,5 @@ docker network prune -f
     - [The tool that really runs your containers: deep dive into runc and OCI specifications](https://mkdev.me/posts/the-tool-that-really-runs-your-containers-deep-dive-into-runc-and-oci-specifications)
     - [runc](https://github.com/opencontainers/runc)
 - [Virtualization](note.html?n=technica/computation/platform/virtualization.md)
-- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-virtualization-stack.md)
+- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/linux-virtualization-stack.md)
 - [Philosophia Artium Technicarum et Operis](https://app.notion.com/p/Philosophia-Artium-Technicarum-et-Operis-355c0f5171ec808b82f8d7a85e8134cd?pvs=21)

@@ -492,8 +492,8 @@ QEMU Limit Set =
 - https://www.qemu.org/docs/master/devel/index-tcg.html
 - [xv6](note.html?n=technica/computation/operating-system/xv6.md)
 - [KVM](note.html?n=technica/computation/platform/virtualization/virtualization-conceptual-model/kvm.md)
-- [**Firmware**](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/firmware.md)
-- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-virtualization-stack.md)
+- [**Firmware**](note.html?n=technica/computation/operating-system/linux/firmware.md)
+- [Linux Virtualization Stack](note.html?n=technica/computation/operating-system/linux/linux-virtualization-stack.md)
 - [GDB (GNU Project Debugger)](note.html?n=technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
 - https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF
 - https://www.qemu.org/docs/master/user/main.html

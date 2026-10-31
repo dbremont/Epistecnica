@@ -10,7 +10,7 @@
 
 ## Storage Hierarchy
 
-> See more in [Storage System](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/storage-system.md).
+> See more in [Storage System](note.html?n=technica/computation/operating-system/linux/storage-system.md).
 > 
 
 > **Random access** on non-volatile storage is almost always slower than **sequential access**.

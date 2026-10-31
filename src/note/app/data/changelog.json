@@ -16819,6 +16819,11 @@
         "kind": "feat",
         "summary": "Import Data System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -16991,6 +16996,11 @@
         "kind": "feat",
         "summary": "Import Distributed File System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -17262,6 +17272,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -17401,6 +17416,11 @@
         "kind": "feat",
         "summary": "Import Very-Long Term Backup System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -17857,6 +17877,11 @@
         "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
         "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
         "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -18061,6 +18086,11 @@
         "kind": "feat",
         "summary": "Import Graphical Computing System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -18116,6 +18146,11 @@
         "kind": "feat",
         "summary": "Import Intel OpenCL from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -18138,6 +18173,11 @@
         "kind": "feat",
         "summary": "Import OpenGL from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -18171,6 +18211,11 @@
         "kind": "feat",
         "summary": "Import Raster Graphic from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -20051,6 +20096,11 @@
         "kind": "feat",
         "summary": "Import GCC : GNU Compiler Collection from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -22044,6 +22094,11 @@
         "kind": "feat",
         "summary": "Import Process from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -23858,6 +23913,11 @@
         "kind": "feat",
         "summary": "Import x86: 🚀 Execution System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -23953,6 +24013,11 @@
         "kind": "feat",
         "summary": "Import ZSH from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -24565,6 +24630,11 @@
         "kind": "feat",
         "summary": "Import Terminal Emulator from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -24576,6 +24646,11 @@
         "kind": "feat",
         "summary": "Import Terminal Session Recorder from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -24664,6 +24739,11 @@
         "kind": "feat",
         "summary": "Import Operating System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -24730,6 +24810,11 @@
         "kind": "feat",
         "summary": "Import FreeBSD from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -24752,6 +24837,11 @@
         "kind": "feat",
         "summary": "Import Linux Distribution from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -24774,6 +24864,11 @@
         "kind": "feat",
         "summary": "Import Arch Linux from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -24873,6 +24968,96 @@
         "kind": "feat",
         "summary": "Import Linux from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/advanced-linux-sound-architecture.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/alpine-linux.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/application-launch.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/asynchronous-i-o-aio.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/berkeley-socket.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/binary-representation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/blocking-i-o.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/boot-firmware-subsystem.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/booting-initialization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -26739,6 +26924,1606 @@
     ]
   },
   {
+    "file_path": "technica/computation/operating-system/linux/debian-file-deb.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/direct-rendering-infrastructure-dri.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/direct-rendering-manager-drm.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/display-manager.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/displayport-dp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/dmesg.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/endianness-byte-ordering.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/evtest.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/file-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/firmware.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/framebuffer.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/gnome.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/gnu-binutils.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/gnu-core-utilities.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/grub-gnu-grand-unified-bootloader.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/hyprland.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/i-o-event-notification.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/i-o-multiplexing.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/init-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/initramfs.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/initrd.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/kernel-monitoring-and-tracing-facilities.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-access-control.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-capabilities.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-documentation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-file-systems-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-graphics-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-i-o-model.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-ipc-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-localization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-memory-management-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-memory-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-module-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-multimedia-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-network-manager.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-network-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-power-management.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-process-management-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-security-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-system-introspection.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-virtualization-stack.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/login-manager.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/mmap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/mount.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/netlink.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/network-interface.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/network-packet-abstraction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/non-blocking-i-o.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/pipewire.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/pluggable-authentication-module.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/polybar.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/posix.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/privilege-authorization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/privilege-model.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/pseudoterminal.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/ram-based-file-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/routing-table.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/rs-485.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/self-storage-systems.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/signal-driven-i-o.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/signal.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/sigprof.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/squashfs.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/storage-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/sudo.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/linux-syscall-interface.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/accept4.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/bind.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/bpf.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/brk.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/capget.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/capset.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/clock-gettime.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/clone-2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/clone.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/close.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/connect.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/dup.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/dup2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/dup3.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/epoll-create.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/epoll-pwait.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/epoll-wait.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/eventfd.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/execve.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/exit.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/fanotify-init.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/fork.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/fstat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/futex.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/getpid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/getrandom.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/gettimeofday.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/getuid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/inotify-init.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/ioctl-2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/ioctl.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/kill.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/lseek.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/lstat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/mkdir.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/mlock.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/mmap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/mount.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/mprotect.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/mremap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/munlock.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/munmap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/nanosleep.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/open.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/openat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/pipe.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/pipe2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/pread.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/ptrace.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/pwrite.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/read.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/recv.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/recvmsg.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/rename.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/rmdir.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/rt-sigaction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/sched-setaffinity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/sched-yield.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/seccomp-unotify.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/seccomp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/sendmsg.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/setns.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/setresuid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/setuid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/sigaction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/socket.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/splice.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/stat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/statx.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/syscall.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/tee.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/timerfd-create.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/umount2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/uname.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/unshare.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/vfork.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/vmsplice.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/wait4.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/list-of-syscall/write.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/system-v-application-binary-interface.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/systemd.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/tty-subsystem.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/util-linux.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/video-memory-vram.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/virtual-file-system-vfs.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/virtual-memory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/virtual-network-interface-vni.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/wayland.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/window-manager.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/x-window-system-x11-version.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/x-window-system-x11-version/x11-opcodes.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/."
+      }
+    ]
+  },
+  {
     "file_path": "technica/computation/operating-system/mach.md",
     "logs": [
       {
@@ -26867,6 +28652,11 @@
         "kind": "feat",
         "summary": "Import x86 from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -27050,6 +28840,11 @@
         "kind": "feat",
         "summary": "Import GPU from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -27398,6 +29193,11 @@
         "kind": "feat",
         "summary": "Import Virtualization from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -27519,6 +29319,11 @@
         "kind": "feat",
         "summary": "Import Docker from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -27647,6 +29452,11 @@
         "kind": "feat",
         "summary": "Import QEMU (Quick Emulator) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -27669,6 +29479,11 @@
         "kind": "feat",
         "summary": "Import qemu-system-x86_64 from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -29618,6 +31433,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -29662,6 +31482,11 @@
         "kind": "feat",
         "summary": "Import CSBB: CPU from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -29684,6 +31509,11 @@
         "kind": "feat",
         "summary": "Import CSBB: File System from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -30149,6 +31979,11 @@
         "kind": "feat",
         "summary": "Import Technique from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -30255,6 +32090,11 @@
         "kind": "feat",
         "summary": "Import UI from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -30478,6 +32318,11 @@
         "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
         "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
         "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -30588,6 +32433,11 @@
         "kind": "feat",
         "summary": "Import GTK3 from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -32042,6 +33892,11 @@
         "kind": "feat",
         "summary": "Import Sandboxing (Isolation) from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -32738,6 +34593,11 @@
         "kind": "feat",
         "summary": "Import Networking from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -33163,6 +35023,11 @@
         "kind": "feat",
         "summary": "Import Thread Pool from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -33445,6 +35310,11 @@
         "kind": "refactor",
         "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
         "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },
@@ -34779,6 +36649,11 @@
         "kind": "refactor",
         "summary": "Move the Telecom landing note into telecom/ and pin it first with order: 0.",
         "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/."
       }
     ]
   },

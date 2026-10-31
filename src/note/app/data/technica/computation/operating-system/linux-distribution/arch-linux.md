@@ -229,8 +229,8 @@ qemu-system-x86_64 \
 - https://wiki.archlinux.org/title/Iwd
 - https://wiki.archlinux.org/title/Installation_guide
 - https://wiki.osdev.org/OVMF
-- [File System](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/file-system.md)
-- [Booting (Initialization)](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/booting-initialization.md)
-- [**Boot Firmware Subsystem**](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/boot-firmware-subsystem.md)
-- [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-graphics-stack.md)
-- [**TTY Subsystem**](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/tty-subsystem.md)
+- [File System](note.html?n=technica/computation/operating-system/linux/file-system.md)
+- [Booting (Initialization)](note.html?n=technica/computation/operating-system/linux/booting-initialization.md)
+- [**Boot Firmware Subsystem**](note.html?n=technica/computation/operating-system/linux/boot-firmware-subsystem.md)
+- [Linux Graphics Stack](note.html?n=technica/computation/operating-system/linux/linux-graphics-stack.md)
+- [**TTY Subsystem**](note.html?n=technica/computation/operating-system/linux/tty-subsystem.md)

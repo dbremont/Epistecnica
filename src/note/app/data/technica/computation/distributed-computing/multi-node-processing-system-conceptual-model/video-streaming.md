@@ -82,4 +82,4 @@ QA:
 - https://github.com/dbremont/video-stream-lab
 - https://github.com/jinyucn/Video-Streaming-Research-Papers/blob/main/Repository%20of%20papers.md
 - - [Representation Problem: Video (Data)]
-- [Linux Multimedia Stack](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/linux-multimedia-stack.md)
+- [Linux Multimedia Stack](note.html?n=technica/computation/operating-system/linux/linux-multimedia-stack.md)

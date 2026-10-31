@@ -229,7 +229,7 @@ Data System: Conceptual Model
 [https://news.ycombinator.com/item?id=40370613](https://news.ycombinator.com/item?id=40370613)
 - [https://en.wikipedia.org/wiki/DB-Engines_ranking](https://en.wikipedia.org/wiki/DB-Engines_ranking)
 - [Workload](note.html?n=technica/computation/system/design/computer-system-design-conceptual-model/workload.md)
-- [Storage System](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/storage-system.md)
+- [Storage System](note.html?n=technica/computation/operating-system/linux/storage-system.md)
 - OLTP Through the Looking Glass 16 Years Later: Communication is the New Bottleneck /  [https://www.vldb.org/cidrdb/papers/2025/p17-zhou.pdf](https://www.vldb.org/cidrdb/papers/2025/p17-zhou.pdf)z
 - Wang, Hao, et al. "LavaStore: ByteDance's Purpose-Built, High-Performance, Cost-Effective Local Storage Engine for Cloud Services." Proceedings of the VLDB Endowment 17.12 (2024): 3799-3812.
 - Colle, Romain, et al. "Oracle database replay." Proceedings of the VLDB Endowment 2.2 (2009): 1542-1545.

@@ -95,9 +95,9 @@ Without a terminal abstraction, each interactive application would need to:
 ## References
 
 - [Kitty](note.html?n=technica/computation/miscelanea/kitty.md)
-- [Linux](note.html?n=technica/computation/operating-system/linux.md)
+- [Linux](note.html?n=technica/computation/operating-system/linux/linux.md)
 - https://en.wikipedia.org/wiki/Pseudoterminal
 - https://en.wikipedia.org/wiki/Terminal_emulator
 - https://en.wikipedia.org/wiki/List_of_terminal_emulators
 - https://terminaltrove.com/terminals/
-- [**TTY Subsystem**](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/tty-subsystem.md)
+- [**TTY Subsystem**](note.html?n=technica/computation/operating-system/linux/tty-subsystem.md)

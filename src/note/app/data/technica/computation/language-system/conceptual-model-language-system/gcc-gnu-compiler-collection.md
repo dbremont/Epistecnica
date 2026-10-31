@@ -137,7 +137,7 @@ QA:
 References:
 
 - [gmon](note.html?n=technica/computation/language-system/conceptual-model-language-system/glibc.md)
-- [SIGPROF](note.html?n=technica/computation/operating-system/linux/conceptual-model-linux/sigprof.md) (Signal)
+- [SIGPROF](note.html?n=technica/computation/operating-system/linux/sigprof.md) (Signal)
 - https://github.com/lattera/glibc/blob/master/gmon/mcount.c
 - https://github.com/lattera/glibc/tree/master/gmon
 - https://gcc.gnu.org/onlinedocs/gcc-9.1.0/gcc/Instrumentation-Options.html
