@@ -761,7 +761,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the result links after the construction move"
+        "summary": "retarget the result links after the construction move",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
+        "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
       }
     ]
   },
@@ -1572,7 +1574,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the guidance principle scope: a directive, not a result"
+        "summary": "move into the guidance principle scope: a directive, not a result",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -1639,7 +1642,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the guidance principle scope: a directive, not a result"
+        "summary": "move into the guidance principle scope: a directive, not a result",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2646,7 +2650,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2662,7 +2667,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2678,7 +2684,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2694,7 +2701,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2710,7 +2718,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2726,7 +2735,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2742,7 +2752,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2758,7 +2769,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2774,7 +2786,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2790,7 +2803,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2806,7 +2820,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2822,7 +2837,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2838,7 +2854,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2854,7 +2871,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2870,7 +2888,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2886,7 +2905,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2902,7 +2922,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2918,7 +2939,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2934,7 +2956,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2950,7 +2973,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2966,7 +2990,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2982,7 +3007,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -2998,7 +3024,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3014,7 +3041,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3030,7 +3058,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3046,7 +3075,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice and fix the root links"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice and fix the root links",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3062,7 +3092,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3078,7 +3109,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3094,7 +3126,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3110,7 +3143,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3126,7 +3160,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -3142,7 +3177,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
       }
     ]
   },
@@ -4724,7 +4760,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the result links after the construction move"
+        "summary": "retarget the result links after the construction move",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
+        "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
       }
     ]
   },
@@ -10255,7 +10293,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the result links after the construction move"
+        "summary": "retarget the result links after the construction move",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
+        "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
       }
     ]
   },
@@ -18415,7 +18455,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the result links after the construction move"
+        "summary": "retarget the result links after the construction move",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
+        "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
       }
     ]
   },
