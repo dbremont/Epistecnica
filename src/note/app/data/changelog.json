@@ -2370,7 +2370,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
       }
     ]
   },
@@ -2386,7 +2387,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
       }
     ]
   },
@@ -2409,7 +2411,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
       }
     ]
   },
@@ -2432,7 +2435,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
       }
     ]
   },
@@ -2475,7 +2479,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Point the SDE reference at its note in this scope and drop the scope's links.json group."
+        "summary": "Point the SDE reference at its note in this scope and drop the scope's links.json group.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce",
+        "before": "9882b8f8b635ad714d065a8fc877303a6a90f046"
       }
     ]
   },
@@ -2627,7 +2633,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
       }
     ]
   },
@@ -2660,7 +2667,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
       }
     ]
   },
@@ -2716,7 +2724,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
       }
     ]
   },
@@ -5356,7 +5365,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint the Differential Equation link to the change scope."
+        "summary": "Repoint the Differential Equation link to the change scope.",
+        "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce",
+        "before": "9882b8f8b635ad714d065a8fc877303a6a90f046"
       }
     ]
   },
