@@ -595,7 +595,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename"
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
       }
     ]
   },
@@ -2111,7 +2113,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2121,7 +2124,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2131,7 +2135,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2141,7 +2146,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2151,7 +2157,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2161,7 +2168,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2171,7 +2179,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2181,7 +2190,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2191,7 +2201,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2201,7 +2212,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2211,7 +2223,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2221,7 +2234,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2231,7 +2245,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2241,7 +2256,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2251,7 +2267,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2261,7 +2278,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -2271,7 +2289,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
       }
     ]
   },
@@ -5379,7 +5398,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename"
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
       }
     ]
   },
@@ -8422,7 +8443,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename"
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
       }
     ]
   },
@@ -8504,7 +8527,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename"
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
       }
     ]
   },
@@ -9780,7 +9805,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename"
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
       }
     ]
   },
