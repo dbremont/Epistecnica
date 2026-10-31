@@ -26,10 +26,6 @@ tags: [physics]
 
 ## Element Set
 
-Extracted page by page from the Internet Archive text layer (`_djvu.xml`, OCR confidence 95.4): the prefaces and printed pages 1–341; pp. 342–353 (bibliography, name index, subject index) are excluded. Printed pages follow the book's running heads — the archive's own page map runs one page high from leaf 16 on. Each row types one element with the lectionis guide's families and the owning element guide's instance grammar, and cites the printed page and paragraph. Formulas are OCR-garbled and were not used as sources.
-
-**469 elements** — Epistemic 442, Natural 27; 455 from the body, 14 from the prefaces. 277 of the 341 content pages carry a first-citation row; the remaining 64 are derivation pages whose elements are cited where they are named.
-
 | Content (Epistemic, Technical, Normative) Type | Instance Path Tree | Description | Source (Page, Paragraph) |
 | --- | --- | --- | --- |
 | Epistemic · `Concept` | Epistemic Element (→ Kind) Epistemic Construction (→ Kind) Concept (→ Instance) Correspondence rules | The rules that turn a diagrammatic approximation into analytic expressions: once the technique has fixed the structure of an approximation, the required expressions are written down with their aid. | p. vi ¶2 |

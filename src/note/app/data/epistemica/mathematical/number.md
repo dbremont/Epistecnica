@@ -32,6 +32,8 @@ Representation Role: Quantitative Property, etc
    ├── Volume
    └── Magnitude
    └── Rotation
+   └── Probability
+   └── etc
    ↓
 Number (Abstract Quantitative Concept)
    ├── Natural Number
@@ -91,6 +93,34 @@ Notes:
 
 > Note: The differences between numbers arise from what they denote—such as magnitude, order, count, or other properties—while still sharing a common underlying concept.
 > 
+
+### Quantification
+
+> Quantification is the process of assigning or determining numerical values, quantities, or relations for objects, properties, phenomena, or structures.
+
+We can represent this generally as:
+\[
+f : X \rightarrow \mathbb{N}, \mathbb{R}, \ldots
+\]
+Where:
+- \(X\) is the domain of objects, phenomena, or structures.
+- \(f\) is a mapping or assignment procedure.
+- The codomain is a numerical system.
+- \(f(x)\) is the numerical representation obtained.
+
+### Quantification Procedure Space
+
+> **Note:** In order for an arithmetic operation or computation to be meaningful, it must be compatible with the mathematical structure and interpretation of the numbers involved. The mere fact that something is represented numerically does not guarantee that arithmetic operations can be meaningfully applied to it. Consider ordinal numbers, for example.
+
+| Procedure | Input | Numerical output |
+|---|---|---|
+| Counting | Collection of objects | Cardinality |
+| Measuring | Measurable property | Magnitude |
+| Ordering | Ordered elements | Ordinal position |
+| Comparing | Two or more quantities | Numerical relation |
+| Encoding | Object or category | Numerical code |
+| Calculating | Numerical operands | Derived numerical value |
+
 
 ### Why do humans use counting numbers instead of coarse-grained linguistic descriptions?
 
@@ -255,3 +285,12 @@ Philosophically, numbers pose intriguing questions:
 - [‣](https://app.notion.com/p/10e598edb79081b8820fe8d8bed966e9?pvs=21)
 - [‣](https://app.notion.com/p/362598edb7908042b237ed2d3b5b32c0?pvs=21)
 - https://en.wikipedia.org/wiki/Triangle_of_reference
+- https://en.wikipedia.org/wiki/Quantification_(science)
+- https://en.wikipedia.org/wiki/Measurement
+- https://en.wikipedia.org/wiki/Level_of_measurement
+- https://en.wikipedia.org/wiki/Scale_(ratio)
+- Mari, L., Maul, A., Torres Irribarra, D., & Wilson, M. (2017). Quantities, quantification, and the necessary and sufficient conditions for measurement.
+- Wolff, J. E. (2020). The Metaphysics of Quantities. Oxford University Press.
+- https://plato.stanford.edu/entries/measurement-science/index.html
+- note/note.html?n=epistemica/mathematical/arithmetic.md
+- 

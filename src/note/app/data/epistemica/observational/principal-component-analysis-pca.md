@@ -17,6 +17,7 @@ tags: [technique]
 
 ## References
 
+- [Interactive PCA notebook](data/epistemica/observational/playground/principal-component-analysis.html) — cast shadows, weigh variance against reconstruction error, and compress 64-dimensional digits.
 - [Principal component analysis](https://www.nature.com/articles/s43586-022-00184-w)
 - https://en.wikipedia.org/wiki/Principal_axis_theorem
 - https://en.wikipedia.org/wiki/Principal_component_analysis

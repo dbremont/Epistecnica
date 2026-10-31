@@ -3421,6 +3421,11 @@
         "kind": "feat",
         "summary": "Import Number from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the Quantification and Quantification Procedure Space sections to the Number note, with their references."
       }
     ]
   },
@@ -7579,6 +7584,11 @@
         "kind": "feat",
         "summary": "Import Principal Component Analysis (PCA) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Link the References to the interactive PCA notebook in the observational playground."
       }
     ]
   },

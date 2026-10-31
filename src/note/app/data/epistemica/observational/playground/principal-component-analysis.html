@@ -1,0 +1,1751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principal Component Analysis — Notebook</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.15);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+      --danger: #b3261e;
+      --danger-dim: rgba(179, 38, 30, 0.10);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+      overflow-wrap: anywhere;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.35em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin: 1.6em 0 0.5em;
+    }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body em { font-style: italic; }
+    .markdown-body ul { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body code, .font-mono { font-family: var(--font-mono); font-size: 0.85em; }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .theme-toggle {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-secondary);
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative; z-index: 1;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem 2rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* ---------------- the notebook ---------------- */
+    .nb-act { margin-top: 2.2rem; padding-top: 0.6rem; }
+    .nb-act + .nb-act { border-top: 1px solid var(--border-subtle); }
+    .nb-act h2 { margin-top: 0.5rem; }
+    .nb-kicker {
+      font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--accent-gold);
+    }
+
+    .nb-fig {
+      margin: 1.2rem 0 1.6rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 14px 14px 12px;
+    }
+    .nb-fig canvas { display: block; width: 100%; border-radius: 5px; }
+    .nb-cap { font-size: 0.74rem; line-height: 1.6; color: var(--text-muted); margin-top: 10px; }
+    .nb-subcap {
+      text-align: center; font-family: var(--font-mono); font-size: 0.54rem;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-top: 8px;
+    }
+
+    .nb-h110 { height: 110px; }
+    .nb-h200 { height: 200px; }
+    .nb-h250 { height: 250px; }
+    .nb-h340 { height: 340px; }
+    .nb-h480 { height: min(52vh, 480px); min-height: 320px; }
+
+    .nb-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    @media (max-width: 720px) { .nb-row { grid-template-columns: 1fr; } }
+
+    .nb-ctrl { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 12px; }
+    .nb-ctrl label {
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .nb-ctrl input[type=range] { flex: 1; min-width: 150px; accent-color: var(--accent-cyan); }
+    .nb-ro {
+      font-family: var(--font-mono); font-size: 0.62rem;
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      border-radius: 6px; padding: 4px 10px; color: var(--text-secondary);
+      min-width: 88px; text-align: center;
+    }
+    .nb-ro.gold { color: var(--accent-gold); }
+
+    .nb-formula {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-left: 2px solid var(--accent-gold);
+      border-radius: 6px;
+      padding: 10px 16px;
+      margin: 1.2rem 0;
+      overflow-x: auto;
+      color: var(--text-secondary);
+    }
+
+    ol.nb-steps { list-style: none; counter-reset: s; padding: 0; margin: 1.4em 0; }
+    ol.nb-steps li { counter-increment: s; position: relative; padding-left: 44px; margin-bottom: 16px; }
+    ol.nb-steps li::before {
+      content: counter(s); position: absolute; left: 0; top: 2px;
+      width: 27px; height: 27px; border-radius: 50%;
+      border: 1px solid var(--accent-gold); color: var(--accent-gold);
+      font-family: var(--font-mono); font-size: 12px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    ol.nb-steps b { display: block; color: var(--text-primary); font-weight: 500; margin-bottom: 2px; }
+
+    .nb-split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 1.4rem 0; }
+    @media (max-width: 720px) { .nb-split { grid-template-columns: 1fr; } }
+    .nb-panel { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 14px 16px; }
+    .nb-panel h3 {
+      margin: 0 0 8px; font-family: var(--font-mono); font-size: 0.56rem;
+      letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .nb-panel.good h3 { color: var(--accent-cyan); }
+    .nb-panel.bad h3 { color: var(--accent-gold); }
+    .nb-panel ul { margin: 0; padding-left: 18px; font-size: 0.85rem; }
+    .nb-panel li { margin-bottom: 4px; }
+
+    .nb-good { color: var(--accent-cyan); font-weight: 500; }
+    .nb-bad { color: var(--danger); font-weight: 500; }
+
+    .nb-legend {
+      display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px;
+      font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .nb-legend .k { display: inline-flex; align-items: center; gap: 5px; }
+    .nb-legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+    /* ---- 3-D lab ---- */
+    .nb-lab { display: grid; grid-template-columns: 1fr; gap: 1.1rem; margin: 0.6rem 0 0.4rem; align-items: start; }
+    @media (min-width: 1024px) { .nb-lab { grid-template-columns: 1.55fr 1fr; } }
+    .nb-stage {
+      position: relative; background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      border-radius: 8px; overflow: hidden; touch-action: none; cursor: grab;
+    }
+    .nb-stage:active { cursor: grabbing; }
+    #lab3d { display: block; width: 100%; height: 100%; }
+    .nb-stage .nb-overlay {
+      position: absolute; top: 10px; left: 12px; pointer-events: none; user-select: none;
+      font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .nb-stage .nb-overlay div + div { opacity: 0.7; margin-top: 2px; letter-spacing: 0.06em; }
+    .nb-stage .nb-legend { position: absolute; left: 12px; bottom: 10px; margin: 0; pointer-events: none; }
+    .nb-controls { display: flex; flex-direction: column; gap: 1.1rem; }
+    .nb-h {
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.55rem;
+    }
+    .nb-param { margin-bottom: 8px; }
+    .nb-param .pl {
+      display: flex; justify-content: space-between; gap: 10px;
+      font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 3px;
+    }
+    .nb-param .val { color: var(--text-secondary); }
+    .nb-rowBtns { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+    .nb-btn {
+      border: 1px solid var(--border-subtle); background: var(--bg-card); color: var(--text-secondary);
+      border-radius: 7px; padding: 7px 12px; font-family: var(--font-mono); font-size: 0.56rem;
+      letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+    .nb-btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .nb-btn.on { color: var(--accent-cyan); border-color: var(--accent-cyan); background: var(--accent-cyan-dim); }
+
+    .nb-readouts { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.8rem; margin: 0.9rem 0 0.4rem; }
+    .nb-panel-read { border: 1px solid var(--border-subtle); background: var(--bg-surface); border-radius: 8px; padding: 0.75rem 0.85rem; min-width: 0; }
+    .nb-panel-read .h {
+      font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.45rem;
+    }
+    .nb-panel-read pre { font-family: var(--font-mono); font-size: 10.5px; line-height: 1.65; color: var(--text-secondary); overflow-x: auto; }
+    .nb-spec { display: flex; flex-direction: column; gap: 3px; font-family: var(--font-mono); font-size: 10.5px; }
+    .nb-spec .row { display: flex; justify-content: space-between; gap: 8px; color: var(--text-secondary); }
+    .nb-spec .row .l { color: var(--text-muted); }
+    .nb-stat { display: flex; justify-content: space-between; gap: 8px; font-family: var(--font-mono); font-size: 10.5px; color: var(--text-secondary); padding: 3px 0; border-bottom: 1px solid var(--border-subtle); }
+    .nb-stat:last-of-type { border-bottom: 0; }
+    .nb-stat span { color: var(--text-muted); }
+    .nb-stat b { font-weight: 500; color: var(--text-primary); }
+    .nb-pick { font-family: var(--font-mono); font-size: 10px; line-height: 1.65; color: var(--text-secondary); margin-top: 6px; }
+
+    .nb-math { white-space: nowrap; }
+
+  </style>
+  <link rel="stylesheet" href="../../../../../shared/usearch.css">
+</head>
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="../../../../index.html">notes</a> <span class="sep">/</span> <a href="../../../../index.html?dir=epistemica">epistemica</a> <span class="sep">/</span> <a href="../../../../index.html?dir=epistemica/observational">observational</a> <span class="sep">/</span> <a href="../../../../index.html?dir=epistemica/observational/playground">playground</a> <span class="sep">/</span> <span class="here">principal component analysis</span></div>
+      <h1 class="note-title">Principal Component Analysis — Notebook</h1>
+      <div class="note-meta"><span class="chip">live note</span><span class="chip">notebook</span><span class="chip">#dimensionality-reduction</span><span class="chip">#technique</span></div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p><strong>Principal component analysis</strong> is the art of finding the best viewpoint.
+              Photograph a sculpture from the wrong angle and it looks like a jumble; from the right
+              angle the shape is instantly clear. PCA finds those angles for data:
+              <span data-tex="\Sigma = V\Lambda V^{\top}."></span> The first component carries as much
+              variance as any single direction can; the last carries the least.</p>
+              <p>Keeping <em>k</em> of them is a compression — and a claim that the discarded variance
+              was noise. The components are <em>synthetic</em> directions, not the original features.
+              Every shadow, axis, eigenvalue, score, and residual below is computed from the data on
+              screen.</p>
+            </blockquote>
+
+            <!-- ===================== ACT 1 ===================== -->
+            <section class="nb-act">
+              <div class="nb-kicker">Act 1</div>
+              <h2 id="act-1">The shadow problem</h2>
+              <p>Suppose you must describe a two-dimensional cloud using only <strong>one number</strong>
+              per point. You are forced to flatten the cloud into a one-dimensional
+              <em>shadow</em>. Which direction should you cast it from?</p>
+              <p>Cast it along a <span class="nb-bad">bad</span> direction and the shadow is tiny:
+              many different points collapse onto the same spot, and information is destroyed. Cast
+              it along a <span class="nb-good">good</span> direction and the shadow is long and spread
+              out: different points land in different places, and information survives.</p>
+              <p><strong>PCA is exactly this — finding the shadow direction that keeps the most
+              information.</strong></p>
+
+              <figure class="nb-fig">
+                <canvas id="act1" class="nb-h340" role="img" aria-label="A two-dimensional point cloud stretched along a diagonal"></canvas>
+                <figcaption class="nb-cap">A 2-D cloud, stretched along a diagonal. The interesting
+                structure is the long axis; the short axis is mostly wobble.</figcaption>
+              </figure>
+            </section>
+
+            <!-- ===================== ACT 2 ===================== -->
+            <section class="nb-act">
+              <div class="nb-kicker">Act 2</div>
+              <h2 id="act-2">Casting shadows</h2>
+              <p>A shadow is a <strong>projection</strong>. Pick a unit direction
+              <span data-tex="v"></span>; the shadow of a point <span data-tex="x"></span> is the part
+              of it that points along <span data-tex="v"></span> — everything perpendicular is thrown
+              away.</p>
+
+              <div class="nb-formula" data-tex-display="\operatorname{shadow}(x) = (x\cdot v)\,v"></div>
+
+              <p>Drag the angle. The dashed line is the direction we project onto; the cyan dots are
+              the data and the <span class="nb-good">gold dots are their shadows</span>.</p>
+
+              <figure class="nb-fig">
+                <canvas id="act2" class="nb-h340" role="img" aria-label="Projection of a point cloud onto a direction chosen by a slider"></canvas>
+                <div class="nb-ctrl">
+                  <label for="angleSlider">angle</label>
+                  <input id="angleSlider" type="range" min="0" max="180" step="1" value="30">
+                  <span class="nb-ro" id="angleLabel">30°</span>
+                  <span class="nb-ro gold" id="spreadLabel">spread 0.00</span>
+                </div>
+                <figcaption class="nb-cap">Drag toward the diagonal — the shadows fan out as far as
+                they can. That maximum-spread direction is the first principal component.</figcaption>
+              </figure>
+            </section>
+
+            <!-- ===================== ACT 3 ===================== -->
+            <section class="nb-act">
+              <div class="nb-kicker">Act 3</div>
+              <h2 id="act-3">Two ways to say “best”</h2>
+              <p>The best shadow direction can be described in two equivalent ways:</p>
+              <ol class="nb-steps">
+                <li><b>Maximize variance.</b> The shadow spreads out as much as possible.</li>
+                <li><b>Minimize reconstruction error.</b> Recovering the original points from their
+                shadows loses as little as possible.</li>
+              </ol>
+              <p>These are the same statement:
+              <em>total variance = variance along the shadow + error perpendicular to it</em>.
+              Sweep every angle and watch the two curves.</p>
+
+              <figure class="nb-fig">
+                <div class="nb-row">
+                  <canvas id="sweepVar" class="nb-h250" role="img" aria-label="Variance of the shadow as a function of projection angle"></canvas>
+                  <canvas id="sweepErr" class="nb-h250" role="img" aria-label="Reconstruction error as a function of projection angle"></canvas>
+                </div>
+                <div class="nb-ctrl"><span class="nb-ro" id="sweepFact">—</span></div>
+                <figcaption class="nb-cap">The peak of the variance curve sits at exactly the same
+                angle as the valley of the error curve. PCA is not two algorithms — it is one idea
+                seen from two sides.</figcaption>
+              </figure>
+            </section>
+
+            <!-- ===================== ACT 4 ===================== -->
+            <section class="nb-act">
+              <div class="nb-kicker">Act 4</div>
+              <h2 id="act-4">The algorithm, in three steps</h2>
+              <p>How do we find that direction without brute-force sweeping every angle?</p>
+
+              <ol class="nb-steps">
+                <li><b>Center the data.</b> Subtract the mean, so the cloud sits at the origin and
+                only its <em>shape</em> matters, not its location.</li>
+                <li><b>Compute the covariance matrix <span data-tex="\Sigma"></span>.</b> The diagonal
+                says how spread out each axis is; the off-diagonals say how tilted the cloud is.</li>
+                <li><b>Find the eigenvectors of <span data-tex="\Sigma"></span>.</b> These are the
+                principal directions; the matching <strong>eigenvalues</strong> are how much variance
+                lies along each one.</li>
+              </ol>
+
+              <p>That is the whole algorithm. We want a unit vector maximizing
+              <span data-tex="v^{\top}\Sigma v"></span>; a Lagrange multiplier for the constraint
+              <span data-tex="\|v\| = 1"></span> gives</p>
+
+              <div class="nb-formula" data-tex-display="\Sigma v = \lambda v"></div>
+
+              <p>— the definition of an <strong>eigenvector</strong>. The best directions are the
+              eigenvectors of the covariance matrix, and the variance along each one is its
+              eigenvalue. The largest gives <strong>PC1</strong>; the next largest, orthogonal to it,
+              gives <strong>PC2</strong>; and so on.</p>
+
+              <p>Try it on a cloud you can turn. Drag to rotate the view; move <em>k</em> to keep the
+              first <em>k</em> components and reconstruct.</p>
+
+              <div class="nb-lab">
+                <div class="nb-stage nb-h480" id="labStage">
+                  <canvas id="lab3d" role="img" aria-label="Rotatable three-feature point cloud with principal axes, 1-sigma ellipsoid, and k-component reconstruction"></canvas>
+                  <div class="nb-overlay"><div id="labOv">n = 180</div><div>drag to rotate</div></div>
+                  <div class="nb-legend">
+                    <span class="k"><span class="dot" style="background:var(--accent-cyan)"></span>PC1</span>
+                    <span class="k"><span class="dot" style="background:var(--accent-gold)"></span>PC2</span>
+                    <span class="k"><span class="dot" style="background:var(--danger)"></span>PC3</span>
+                    <span class="k"><span class="dot" style="background:var(--text-secondary)"></span>point</span>
+                  </div>
+                </div>
+
+                <div class="nb-controls">
+                  <div>
+                    <div class="nb-h">Notebook</div>
+                    <div class="nb-param"><div class="pl"><span>retained components k</span><span class="val" id="k3Val">1</span></div><input id="k3" type="range" min="0" max="3" step="1" value="1"></div>
+                    <div class="nb-rowBtns">
+                      <button type="button" class="nb-btn" id="btnStd" aria-pressed="false">standardize</button>
+                      <button type="button" class="nb-btn" id="btnResample">resample</button>
+                      <button type="button" class="nb-btn" id="btnView">reset view</button>
+                    </div>
+                    <p class="nb-cap" style="margin-top:10px">Gold segments are the residuals when
+                    <em>k</em> &lt; 3. Click a point to read its coordinates and scores.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="nb-readouts">
+                <div class="nb-panel-read">
+                  <div class="h">Covariance &#931;</div>
+                  <pre id="covOut"></pre>
+                </div>
+                <div class="nb-panel-read">
+                  <div class="h">Spectrum</div>
+                  <div class="nb-spec" id="specOut"></div>
+                </div>
+                <div class="nb-panel-read">
+                  <div class="h">Reconstruction</div>
+                  <div class="nb-stat"><span>retained k</span><b id="stK">1</b></div>
+                  <div class="nb-stat"><span>variance kept</span><b id="stRet">—</b></div>
+                  <div class="nb-stat"><span>MSE</span><b id="stMse">—</b></div>
+                  <div class="nb-pick" id="pickOut"></div>
+                </div>
+              </div>
+            </section>
+
+            <!-- ===================== ACT 5 ===================== -->
+            <section class="nb-act">
+              <div class="nb-kicker">Act 5</div>
+              <h2 id="act-5">Real structure: 64-dimensional digits</h2>
+              <p>Now the payoff. Below are 8×8 grayscale images of handwritten-style digits. Each is a
+              single point in <strong>64-dimensional space</strong> — one dimension per pixel. PCA knows
+              nothing about which digit is which; it only sees a cloud.</p>
+
+              <figure class="nb-fig">
+                <canvas id="dgSamples" class="nb-h110" role="img" aria-label="Eight 8 by 8 digit samples"></canvas>
+                <figcaption class="nb-cap">Eight samples. Each is a vector of 64 numbers.</figcaption>
+              </figure>
+
+              <h3>How many of the 64 dimensions do we actually need?</h3>
+              <p>Run PCA and look at the eigenvalues. Each bar is the fraction of total variance
+              captured by one component.</p>
+
+              <figure class="nb-fig">
+                <canvas id="dgScree" class="nb-h260" role="img" aria-label="Scree plot: fraction of variance for the first twenty components"></canvas>
+                <figcaption class="nb-cap"><span id="dgFact">A handful of the 64 directions carry
+                most of the variance.</span> This is why PCA is a workhorse for compression and
+                visualization: the first few components already describe the cloud.</figcaption>
+              </figure>
+
+              <h3>Projecting 64 → 2</h3>
+              <p>Keep only the first two components and plot every image as one dot, coloured by its
+              true digit label. PCA never saw the labels.</p>
+
+              <figure class="nb-fig">
+                <canvas id="dgScatter" class="nb-h340" role="img" aria-label="Samples projected onto the first two principal components, coloured by digit"></canvas>
+                <div class="nb-legend">
+                  <span class="k"><span class="dot" style="background:var(--accent-cyan)"></span>digit 0</span>
+                  <span class="k"><span class="dot" style="background:var(--accent-gold)"></span>digit 1</span>
+                  <span class="k"><span class="dot" style="background:var(--danger)"></span>digit 2</span>
+                  <span class="k"><span class="dot" style="background:var(--text-secondary)"></span>digit 3</span>
+                </div>
+                <figcaption class="nb-cap">Sixty-four numbers squeezed into two, and the digits still
+                form visible clusters. PCA only found the directions where the data was most spread
+                out — and those directions happen to separate the classes nicely.</figcaption>
+              </figure>
+
+              <h3>Reconstruction: compression in one picture</h3>
+              <p>Take one digit, project it onto the first <em>k</em> principal components, then
+              reconstruct it as <em>mean + Σ (projection onto component)</em>. Drag <em>k</em>.</p>
+
+              <figure class="nb-fig">
+                <div class="nb-row">
+                  <div>
+                    <canvas id="dgOrig" class="nb-h200" role="img" aria-label="Original digit"></canvas>
+                    <div class="nb-subcap">original (64 numbers)</div>
+                  </div>
+                  <div>
+                    <canvas id="dgRecon" class="nb-h200" role="img" aria-label="Reconstructed digit"></canvas>
+                    <div class="nb-subcap">reconstruction from <span class="nb-ro" id="dgKVal" style="min-width:0;padding:1px 8px">2</span> numbers</div>
+                  </div>
+                </div>
+                <div class="nb-ctrl">
+                  <label for="dgK">components k</label>
+                  <input id="dgK" type="range" min="1" max="20" step="1" value="2">
+                </div>
+                <figcaption class="nb-cap">At <em>k</em> = 2 you can already guess the digit. Storage
+                drops from 64 numbers to <em>k</em>: the reconstruction is a handful of coordinates
+                plus a fixed set of basis images.</figcaption>
+              </figure>
+            </section>
+
+            <!-- ===================== ACT 6 ===================== -->
+            <section class="nb-act">
+              <div class="nb-kicker">Act 6</div>
+              <h2 id="act-6">Takeaways</h2>
+              <p>PCA finds the <strong>best shadow</strong> — the direction along which the data
+              spreads out most. That direction is an <strong>eigenvector of the covariance
+              matrix</strong>, and the amount of spread is its <strong>eigenvalue</strong>. Rank the
+              eigenvectors by eigenvalue and you have a new coordinate system ordered from most to
+              least important. Keep the first few, throw away the rest, and you have compressed the
+              data while keeping most of what makes it interesting.</p>
+              <p><strong>That is PCA.</strong></p>
+
+              <div class="nb-split">
+                <div class="nb-panel good">
+                  <h3>PCA is great at</h3>
+                  <ul>
+                    <li><strong>Compression</strong> — keep the top <em>k</em> components instead of all features.</li>
+                    <li><strong>Visualization</strong> — squash high-dimensional data onto 2-D or 3-D.</li>
+                    <li><strong>Noise reduction</strong> — discard small-eigenvalue components.</li>
+                    <li><strong>Finding structure</strong> — reveal dominant directions of variation.</li>
+                  </ul>
+                </div>
+                <div class="nb-panel bad">
+                  <h3>PCA is not</h3>
+                  <ul>
+                    <li>A classifier — it never sees labels.</li>
+                    <li>Good at nonlinear structure — it only finds straight lines.</li>
+                    <li>Scale-invariant — standardize your features first if units differ.</li>
+                    <li>Directly interpretable — inspect the loadings to map back to features.</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <h2 id="diagnostics">Diagnostic questions</h2>
+            <blockquote><p>Why is the first principal component a direction found from the covariance
+            matrix, rather than one chosen from the original features?</p></blockquote>
+            <blockquote><p>The peak of the variance curve and the valley of the error curve sit at the
+            same angle. Why must they?</p></blockquote>
+            <blockquote><p>What changes when you standardize, and when is that the right thing to
+            do?</p></blockquote>
+            <blockquote><p>If <span data-tex="\lambda_3"></span> is nearly zero, what does the cloud
+            look like — and what does <em>k</em> = 2 lose?</p></blockquote>
+
+            <h2 id="references">References</h2>
+            <ul>
+              <li><a href="../../../../note.html?n=epistemica/observational/principal-component-analysis-pca.md">Principal Component Analysis (PCA)</a> — the corpus note this notebook runs.</li>
+              <li><a href="../../../../note.html?n=epistemica/mathematical/covariance-matrix.md">Covariance Matrix</a> and <a href="../../../../note.html?n=epistemica/mathematical/eigenvector.md">Eigenvector</a> — the two objects the notebook joins.</li>
+              <li>Pearson, K. (1901). On lines and planes of closest fit to systems of points in space.</li>
+              <li>Hotelling, H. (1933). Analysis of a complex of statistical variables into principal components.</li>
+              <li>Jolliffe, I. T. (2002). <em>Principal Component Analysis</em>. Springer.</li>
+              <li>Shlens, J. (2014). <a href="https://arxiv.org/abs/1404.1100">A tutorial on principal component analysis</a>.</li>
+            </ul>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#act-1">1 · Shadows</a>
+          <a class="toc-item" href="#act-2">2 · Projection</a>
+          <a class="toc-item" href="#act-3">3 · Best</a>
+          <a class="toc-item" href="#act-4">4 · Algorithm</a>
+          <a class="toc-item" href="#act-5">5 · Digits</a>
+          <a class="toc-item" href="#act-6">6 · Takeaways</a>
+          <a class="toc-item" href="#diagnostics">Diagnostic questions</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="../../../../index.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <script src="../../../../vendor/mathjax-setup.js"></script>
+  <script src="../../../../vendor/mathjax/tex-svg-full.js"></script>
+
+<script id="ambient">
+  (function () {
+    var cv = document.getElementById('ambientCanvas');
+    var ctx = cv.getContext('2d');
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var stars = [], W = 0, H = 0, raf = 0;
+
+    function colors() {
+      var s = getComputedStyle(document.documentElement);
+      return { gold: s.getPropertyValue('--accent-gold').trim(), cyan: s.getPropertyValue('--accent-cyan').trim() };
+    }
+    function resize() {
+      W = window.innerWidth; H = window.innerHeight;
+      cv.width = W * dpr; cv.height = H * dpr;
+      cv.style.width = W + 'px'; cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.min(150, Math.round((W * H) / 16000));
+      stars = [];
+      for (var i = 0; i < n; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, r: 0.4 + Math.random() * 1.1, p: Math.random() * Math.PI * 2, s: 0.4 + Math.random() * 0.8 });
+    }
+    function frame() {
+      var c = colors();
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < stars.length; i++) {
+        var st = stars[i];
+        st.p += 0.01 * st.s;
+        var a = 0.18 + 0.22 * (0.5 + 0.5 * Math.sin(st.p));
+        ctx.globalAlpha = a;
+        ctx.fillStyle = (i % 7 === 0) ? c.gold : c.cyan;
+        ctx.beginPath(); ctx.arc(st.x, st.y, st.r, 0, Math.PI * 2); ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      raf = requestAnimationFrame(frame);
+    }
+    window.addEventListener('resize', resize);
+    window.addEventListener('epistecnica-theme', function () {});
+    resize();
+    if (!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) frame();
+    else { var c = colors(); ctx.clearRect(0, 0, W, H); }
+  })();
+  </script>
+
+<script id="theme">
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+
+  <script id="app">
+    (function () {
+      "use strict";
+
+      function el(id) { return document.getElementById(id); }
+      function fit(canvas) {
+        var r = canvas.getBoundingClientRect();
+        var dpr = window.devicePixelRatio || 1;
+        var w = Math.max(1, r.width), h = Math.max(1, r.height);
+        canvas.width = Math.round(w * dpr);
+        canvas.height = Math.round(h * dpr);
+        var ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, w, h);
+        return { ctx: ctx, W: w, H: h };
+      }
+      function themeColors() {
+        var s = getComputedStyle(document.documentElement);
+        return {
+          primary: s.getPropertyValue('--text-primary').trim(),
+          secondary: s.getPropertyValue('--text-secondary').trim(),
+          muted: s.getPropertyValue('--text-muted').trim(),
+          gold: s.getPropertyValue('--accent-gold').trim(),
+          cyan: s.getPropertyValue('--accent-cyan').trim(),
+          border: s.getPropertyValue('--border-subtle').trim(),
+          surface: s.getPropertyValue('--bg-surface').trim(),
+          card: s.getPropertyValue('--bg-card').trim(),
+          danger: s.getPropertyValue('--danger').trim(),
+          mono: s.getPropertyValue('--font-mono').trim()
+        };
+      }
+      function mulberry32(a) {
+        return function () {
+          a |= 0; a = (a + 0x6D2B79F5) | 0;
+          var t = Math.imul(a ^ (a >>> 15), 1 | a);
+          t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+          return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+        };
+      }
+      function randn(r) {
+        var u = 0, v = 0;
+        while (u === 0) u = r();
+        while (v === 0) v = r();
+        return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+      }
+      function fmt(v, n) {
+        if (v === undefined || v === null || !isFinite(v)) return "\u2014";
+        n = (n === undefined) ? 3 : n;
+        return v.toFixed(n);
+      }
+
+      /* ---------- aspect-preserving camera ---------- */
+      function makeCam(W, H, xmin, xmax, ymin, ymax) {
+        var pad = 26;
+        var sx = (W - 2 * pad) / (xmax - xmin);
+        var sy = (H - 2 * pad) / (ymax - ymin);
+        var s = Math.max(0.0001, Math.min(sx, sy));
+        var cx = (xmin + xmax) / 2, cy = (ymin + ymax) / 2;
+        return {
+          s: s,
+          X: function (x) { return W / 2 + (x - cx) * s; },
+          Y: function (y) { return H / 2 - (y - cy) * s; }
+        };
+      }
+      function dot(ctx, x, y, r) { ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill(); }
+
+      /* =========================================================
+         The 2-D cloud (Acts 1–3)
+         ========================================================= */
+      var N = 220;
+      var cloud = [];
+      var rCloud = mulberry32(20261030);
+      for (var i = 0; i < N; i++) {
+        var a = randn(rCloud), b = randn(rCloud);
+        cloud.push({ x: 2.2 * a + 4.0, y: 1.0 * a + 0.7 * b + 2.5 });
+      }
+      var cMean = { x: 0, y: 0 };
+      for (var ci = 0; ci < N; ci++) { cMean.x += cloud[ci].x; cMean.y += cloud[ci].y; }
+      cMean.x /= N; cMean.y /= N;
+      var centered = cloud.map(function (p) { return { x: p.x - cMean.x, y: p.y - cMean.y }; });
+      var BOUNDS = (function () {
+        var xs = [], ys = [], i;
+        for (i = 0; i < cloud.length; i++) { xs.push(cloud[i].x); ys.push(cloud[i].y); }
+        var xmin = Math.min.apply(null, xs), xmax = Math.max.apply(null, xs);
+        var ymin = Math.min.apply(null, ys), ymax = Math.max.apply(null, ys);
+        var px = (xmax - xmin) * 0.10, py = (ymax - ymin) * 0.10;
+        return { xmin: xmin - px, xmax: xmax + px, ymin: ymin - py, ymax: ymax + py };
+      })();
+
+      function renderAct1() {
+        var f = fit(el('act1'));
+        var ctx = f.ctx, W = f.W, H = f.H, C = themeColors();
+        var cam = makeCam(W, H, BOUNDS.xmin, BOUNDS.xmax, BOUNDS.ymin, BOUNDS.ymax);
+
+        ctx.strokeStyle = C.border;
+        ctx.lineWidth = 1;
+        for (var gx = 0; gx <= 6; gx++) {
+          var xx = BOUNDS.xmin + (BOUNDS.xmax - BOUNDS.xmin) * gx / 6;
+          ctx.beginPath(); ctx.moveTo(cam.X(xx), 0); ctx.lineTo(cam.X(xx), H); ctx.stroke();
+        }
+        for (var gy = 0; gy <= 4; gy++) {
+          var yy = BOUNDS.ymin + (BOUNDS.ymax - BOUNDS.ymin) * gy / 4;
+          ctx.beginPath(); ctx.moveTo(0, cam.Y(yy)); ctx.lineTo(W, cam.Y(yy)); ctx.stroke();
+        }
+
+        ctx.fillStyle = C.cyan;
+        ctx.globalAlpha = 0.6;
+        for (var p = 0; p < cloud.length; p++) dot(ctx, cam.X(cloud[p].x), cam.Y(cloud[p].y), 3);
+        ctx.globalAlpha = 1;
+      }
+
+      /* =========================================================
+         Act 2 — projection
+         ========================================================= */
+      var angleDeg = 30;
+
+      function renderAct2() {
+        var f = fit(el('act2'));
+        var ctx = f.ctx, W = f.W, H = f.H, C = themeColors();
+        var cam = makeCam(W, H, BOUNDS.xmin, BOUNDS.xmax, BOUNDS.ymin, BOUNDS.ymax);
+
+        var t = angleDeg * Math.PI / 180;
+        var vx = Math.cos(t), vy = Math.sin(t);
+        var m = cMean;
+
+        var L = 18;
+        ctx.setLineDash([6, 6]);
+        ctx.strokeStyle = C.secondary;
+        ctx.globalAlpha = 0.8;
+        ctx.lineWidth = 1.4;
+        ctx.beginPath();
+        ctx.moveTo(cam.X(m.x - L * vx), cam.Y(m.y - L * vy));
+        ctx.lineTo(cam.X(m.x + L * vx), cam.Y(m.y + L * vy));
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        var variance = 0;
+        var shadows = [];
+        for (var i = 0; i < cloud.length; i++) {
+          var p = cloud[i];
+          var dx = p.x - m.x, dy = p.y - m.y;
+          var s = dx * vx + dy * vy;
+          variance += s * s;
+          shadows.push({ x: m.x + s * vx, y: m.y + s * vy });
+        }
+        variance /= cloud.length;
+
+        ctx.strokeStyle = C.muted;
+        ctx.globalAlpha = 0.18;
+        ctx.lineWidth = 1;
+        for (var j = 0; j < cloud.length; j += 5) {
+          ctx.beginPath();
+          ctx.moveTo(cam.X(cloud[j].x), cam.Y(cloud[j].y));
+          ctx.lineTo(cam.X(shadows[j].x), cam.Y(shadows[j].y));
+          ctx.stroke();
+        }
+
+        ctx.globalAlpha = 0.55;
+        ctx.fillStyle = C.cyan;
+        for (var k = 0; k < cloud.length; k++) dot(ctx, cam.X(cloud[k].x), cam.Y(cloud[k].y), 3);
+
+        ctx.globalAlpha = 0.95;
+        ctx.fillStyle = C.gold;
+        for (var q = 0; q < shadows.length; q++) dot(ctx, cam.X(shadows[q].x), cam.Y(shadows[q].y), 3.4);
+        ctx.globalAlpha = 1;
+
+        el('spreadLabel').textContent = 'spread ' + variance.toFixed(2);
+      }
+
+      /* =========================================================
+         Act 3 — variance vs reconstruction error
+         ========================================================= */
+      var sweep = (function () {
+        var xs = [], varY = [], errY = [];
+        var n = centered.length;
+        for (var deg = 0; deg <= 180; deg++) {
+          var t = deg * Math.PI / 180;
+          var vx = Math.cos(t), vy = Math.sin(t);
+          var mean = 0, proj = new Array(n), i;
+          for (i = 0; i < n; i++) { proj[i] = centered[i].x * vx + centered[i].y * vy; mean += proj[i]; }
+          mean /= n;
+          var vsum = 0, esum = 0;
+          for (i = 0; i < n; i++) {
+            var s = proj[i];
+            vsum += (s - mean) * (s - mean);
+            var rx = centered[i].x - s * vx, ry = centered[i].y - s * vy;
+            esum += rx * rx + ry * ry;
+          }
+          xs.push(deg); varY.push(vsum / n); errY.push(esum / n);
+        }
+        var best = 0;
+        for (var b = 1; b < varY.length; b++) if (varY[b] > varY[best]) best = b;
+        return { xs: xs, varY: varY, errY: errY, best: best };
+      })();
+
+      function plotCurve(id, xs, ys, color, mark, yLabel, C) {
+        var f = fit(el(id));
+        var ctx = f.ctx, W = f.W, H = f.H;
+        var pad = { l: 44, r: 12, t: 14, b: 42 };
+        var xmin = xs[0], xmax = xs[xs.length - 1];
+        var ymin = Math.min.apply(null, ys), ymax = Math.max.apply(null, ys);
+        ymax += (ymax - ymin) * 0.06;
+        var yr = (ymax - ymin) || 1;
+        var X = function (x) { return pad.l + (x - xmin) / (xmax - xmin) * (W - pad.l - pad.r); };
+        var Y = function (y) { return H - pad.b - (y - ymin) / yr * (H - pad.t - pad.b); };
+
+        ctx.strokeStyle = C.border;
+        ctx.lineWidth = 1;
+        for (var g = 0; g <= 4; g++) {
+          var yy = pad.t + (H - pad.t - pad.b) * g / 4;
+          ctx.beginPath(); ctx.moveTo(pad.l, yy); ctx.lineTo(W - pad.r, yy); ctx.stroke();
+        }
+
+        ctx.beginPath();
+        ctx.lineWidth = 2.2;
+        ctx.lineJoin = 'round';
+        ctx.strokeStyle = color;
+        for (var i = 0; i < xs.length; i++) {
+          var px = X(xs[i]), py = Y(ys[i]);
+          if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+        }
+        ctx.stroke();
+
+        ctx.setLineDash([5, 5]);
+        ctx.strokeStyle = C.muted;
+        ctx.lineWidth = 1.2;
+        ctx.beginPath(); ctx.moveTo(X(xs[mark]), pad.t); ctx.lineTo(X(xs[mark]), H - pad.b); ctx.stroke();
+        ctx.setLineDash([]);
+
+        ctx.beginPath(); dot(ctx, X(xs[mark]), Y(ys[mark]), 5);
+        ctx.fillStyle = color; ctx.fill();
+        ctx.strokeStyle = C.card; ctx.lineWidth = 2; ctx.stroke();
+
+        ctx.fillStyle = C.muted;
+        ctx.font = '10px ' + C.mono;
+        ctx.textAlign = 'center';
+        ctx.fillText('angle of v', (pad.l + W - pad.r) / 2, H - 4);
+        for (var deg = 0; deg <= 180; deg += 45) ctx.fillText(deg + '\u00b0', X(deg), H - pad.b + 13);
+        ctx.save();
+        ctx.translate(12, (pad.t + H - pad.b) / 2);
+        ctx.rotate(-Math.PI / 2);
+        ctx.fillText(yLabel, 0, 0);
+        ctx.restore();
+      }
+
+      function renderAct3() {
+        var C = themeColors();
+        plotCurve('sweepVar', sweep.xs, sweep.varY, C.gold, sweep.best, 'variance of shadow', C);
+        plotCurve('sweepErr', sweep.xs, sweep.errY, C.cyan, sweep.best, 'reconstruction error', C);
+        var v = sweep.varY[sweep.best], e = sweep.errY[sweep.best];
+        el('sweepFact').textContent = 'best angle ' + sweep.xs[sweep.best] + '\u00b0 \u00b7 variance ' + v.toFixed(2) + ' \u00b7 error ' + e.toFixed(2);
+      }
+
+      /* =========================================================
+         Linear algebra
+         ========================================================= */
+      function jacobiEigen(Ain) {
+        var n = Ain.length;
+        var A = Ain.map(function (r) { return r.slice(); });
+        var V = [];
+        for (var i = 0; i < n; i++) {
+          var row = [];
+          for (var j = 0; j < n; j++) row.push(i === j ? 1 : 0);
+          V.push(row);
+        }
+        for (var sweepI = 0; sweepI < 60; sweepI++) {
+          var off = 0;
+          for (var i2 = 0; i2 < n; i2++) for (var j2 = i2 + 1; j2 < n; j2++) off += A[i2][j2] * A[i2][j2];
+          if (off < 1e-12) break;
+          for (var p = 0; p < n - 1; p++) {
+            for (var q = p + 1; q < n; q++) {
+              if (Math.abs(A[p][q]) < 1e-14) continue;
+              var theta = (A[q][q] - A[p][p]) / (2 * A[p][q]);
+              var sgn = theta >= 0 ? 1 : -1;
+              var t = sgn / (Math.abs(theta) + Math.sqrt(theta * theta + 1));
+              var c = 1 / Math.sqrt(t * t + 1), s = t * c;
+              var k;
+              var colP = new Array(n), colQ = new Array(n);
+              for (k = 0; k < n; k++) { colP[k] = A[k][p]; colQ[k] = A[k][q]; }
+              for (k = 0; k < n; k++) { A[k][p] = c * colP[k] - s * colQ[k]; A[k][q] = s * colP[k] + c * colQ[k]; }
+              var rowP = new Array(n), rowQ = new Array(n);
+              for (k = 0; k < n; k++) { rowP[k] = A[p][k]; rowQ[k] = A[q][k]; }
+              for (k = 0; k < n; k++) { A[p][k] = c * rowP[k] - s * rowQ[k]; A[q][k] = s * rowP[k] + c * rowQ[k]; }
+              var vP = new Array(n), vQ = new Array(n);
+              for (k = 0; k < n; k++) { vP[k] = V[k][p]; vQ[k] = V[k][q]; }
+              for (k = 0; k < n; k++) { V[k][p] = c * vP[k] - s * vQ[k]; V[k][q] = s * vP[k] + c * vQ[k]; }
+            }
+          }
+        }
+        var vals = [], vecs = [];
+        for (var i3 = 0; i3 < n; i3++) vals.push(A[i3][i3]);
+        for (var k2 = 0; k2 < n; k2++) {
+          var col = [];
+          for (var j3 = 0; j3 < n; j3++) col.push(V[j3][k2]);
+          vecs.push(col);
+        }
+        return { vals: vals, vecs: vecs };
+      }
+
+      function pcaFromCov(C) {
+        var E = jacobiEigen(C);
+        var order = E.vals.map(function (_, i) { return i; })
+          .sort(function (a, b) { return E.vals[b] - E.vals[a]; });
+        var vals = order.map(function (i) { return Math.max(0, E.vals[i]); });
+        var vecs = order.map(function (i) { return E.vecs[i]; });
+        vecs.forEach(function (v) {
+          var im = 0;
+          for (var j = 1; j < v.length; j++) if (Math.abs(v[j]) > Math.abs(v[im])) im = j;
+          if (v[im] < 0) for (var k = 0; k < v.length; k++) v[k] = -v[k];
+        });
+        return { values: vals, vectors: vecs };
+      }
+
+      /* =========================================================
+         Act 4 — the 3-D lab
+         ========================================================= */
+      var L = { seed: 20261030, standardize: false, k: 1, pick: -1 };
+      var view = { az: -38, el: 18 };
+      var CENTER = [0.9, 0.35, -0.25];
+      var SPREAD = [2.2, 0.95, 0.32];
+      var lpts = [], lmean = [0, 0, 0], lcov = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+      var leig = { values: [0, 0, 0], vectors: [[1, 0, 0], [0, 1, 0], [0, 0, 1]] };
+      var lscores = [], lproj = [], lresid2 = [], lscreen = [];
+      var PC = ['', '', ''];
+
+      function rotData(g) {
+        var a = 32 * Math.PI / 180, t = 16 * Math.PI / 180;
+        var ca = Math.cos(a), sa = Math.sin(a), ct = Math.cos(t), st = Math.sin(t);
+        var x1 = ca * g[0] - sa * g[1];
+        var y1 = sa * g[0] + ca * g[1];
+        var y2 = ct * y1 - st * g[2];
+        var z2 = st * y1 + ct * g[2];
+        return [x1, y2, z2];
+      }
+      function meanOf(P) {
+        var m = [0, 0, 0];
+        for (var i = 0; i < P.length; i++) { m[0] += P[i][0]; m[1] += P[i][1]; m[2] += P[i][2]; }
+        var n = Math.max(1, P.length);
+        return [m[0] / n, m[1] / n, m[2] / n];
+      }
+      function covOf(P, m) {
+        var C = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+        var n = Math.max(2, P.length);
+        for (var i = 0; i < P.length; i++) {
+          var d0 = P[i][0] - m[0], d1 = P[i][1] - m[1], d2 = P[i][2] - m[2];
+          C[0][0] += d0 * d0; C[0][1] += d0 * d1; C[0][2] += d0 * d2;
+          C[1][1] += d1 * d1; C[1][2] += d1 * d2; C[2][2] += d2 * d2;
+        }
+        for (var a = 0; a < 3; a++) for (var b = a; b < 3; b++) { C[a][b] /= (n - 1); C[b][a] = C[a][b]; }
+        return C;
+      }
+      function dot3(a, b) { return a[0] * b[0] + a[1] * b[1] + a[2] * b[2]; }
+
+      function recomputeLabProjection() {
+        var k = L.k, vecs = leig.vectors;
+        lscores = []; lproj = []; lresid2 = [];
+        for (var i = 0; i < lpts.length; i++) {
+          var d = [lpts[i][0] - lmean[0], lpts[i][1] - lmean[1], lpts[i][2] - lmean[2]];
+          var sc = [dot3(d, vecs[0]), dot3(d, vecs[1]), dot3(d, vecs[2])];
+          lscores.push(sc);
+          var p = [lmean[0], lmean[1], lmean[2]];
+          for (var j = 0; j < k; j++) {
+            p[0] += sc[j] * vecs[j][0];
+            p[1] += sc[j] * vecs[j][1];
+            p[2] += sc[j] * vecs[j][2];
+          }
+          lproj.push(p);
+          var e0 = lpts[i][0] - p[0], e1 = lpts[i][1] - p[1], e2 = lpts[i][2] - p[2];
+          lresid2.push(e0 * e0 + e1 * e1 + e2 * e2);
+        }
+      }
+
+      function rebuildLab() {
+        var r = mulberry32(L.seed);
+        var raw = [];
+        for (var i = 0; i < 180; i++) {
+          var g = [SPREAD[0] * randn(r), SPREAD[1] * randn(r), SPREAD[2] * randn(r)];
+          var p = rotData(g);
+          raw.push([p[0] + CENTER[0], p[1] + CENTER[1], p[2] + CENTER[2]]);
+        }
+        var m = meanOf(raw);
+        if (L.standardize) {
+          var sd = [0, 0, 0];
+          for (var a = 0; a < raw.length; a++) {
+            sd[0] += (raw[a][0] - m[0]) * (raw[a][0] - m[0]);
+            sd[1] += (raw[a][1] - m[1]) * (raw[a][1] - m[1]);
+            sd[2] += (raw[a][2] - m[2]) * (raw[a][2] - m[2]);
+          }
+          var denom = Math.max(2, raw.length);
+          for (var b = 0; b < 3; b++) sd[b] = Math.sqrt(sd[b] / (denom - 1)) || 1;
+          for (var c = 0; c < raw.length; c++) {
+            raw[c][0] = (raw[c][0] - m[0]) / sd[0];
+            raw[c][1] = (raw[c][1] - m[1]) / sd[1];
+            raw[c][2] = (raw[c][2] - m[2]) / sd[2];
+          }
+          m = meanOf(raw);
+        }
+        lpts = raw; lmean = m;
+        lcov = covOf(lpts, lmean);
+        leig = pcaFromCov(lcov);
+        L.pick = -1;
+        recomputeLabProjection();
+        el('labOv').textContent = 'n = 180' + (L.standardize ? ' \u00b7 standardized' : '');
+        drawLab();
+        updateLabReadouts();
+      }
+
+      function makeLabProjector(W, H) {
+        var a = view.az * Math.PI / 180, e = view.el * Math.PI / 180;
+        var ca = Math.cos(a), sa = Math.sin(a), ce = Math.cos(e), se = Math.sin(e);
+        function vp(p) {
+          var x1 = ca * p[0] + sa * p[1];
+          var y1 = -sa * p[0] + ca * p[1];
+          var y2 = ce * y1 - se * p[2];
+          var z2 = se * y1 + ce * p[2];
+          return [x1, y2, z2];
+        }
+        var ext = 1e-6, i, v, j, sc, tip, vt;
+        for (i = 0; i < lpts.length; i++) {
+          v = vp(lpts[i]);
+          ext = Math.max(ext, Math.abs(v[0]), Math.abs(v[1]));
+        }
+        for (j = 0; j < 3; j++) {
+          sc = 2.3 * Math.sqrt(Math.max(leig.values[j], 0));
+          tip = [lmean[0] + sc * leig.vectors[j][0], lmean[1] + sc * leig.vectors[j][1], lmean[2] + sc * leig.vectors[j][2]];
+          vt = vp(tip);
+          ext = Math.max(ext, Math.abs(vt[0]), Math.abs(vt[1]));
+        }
+        var scale = Math.min(W, H) * 0.40 / ext;
+        return {
+          map: function (p) { var q = vp(p); return [W / 2 + q[0] * scale, H / 2 - q[1] * scale, q[2]]; }
+        };
+      }
+
+      function ring(ctx, P, i, j) {
+        var li = Math.sqrt(Math.max(leig.values[i], 0)), lj = Math.sqrt(Math.max(leig.values[j], 0));
+        var vi = leig.vectors[i], vj = leig.vectors[j];
+        ctx.beginPath();
+        for (var s = 0; s <= 96; s++) {
+          var t = s / 96 * Math.PI * 2, ct = Math.cos(t), st = Math.sin(t);
+          var p = [
+            lmean[0] + li * ct * vi[0] + lj * st * vj[0],
+            lmean[1] + li * ct * vi[1] + lj * st * vj[1],
+            lmean[2] + li * ct * vi[2] + lj * st * vj[2]
+          ];
+          var q = P.map(p);
+          if (s === 0) ctx.moveTo(q[0], q[1]); else ctx.lineTo(q[0], q[1]);
+        }
+        ctx.stroke();
+      }
+
+      function drawLab() {
+        var f = fit(el('lab3d'));
+        var ctx = f.ctx, W = f.W, H = f.H, C = themeColors();
+        PC = [C.cyan, C.gold, C.danger];
+        var P = makeLabProjector(W, H);
+        var i, q;
+
+        ctx.save();
+        ctx.globalAlpha = 0.30;
+        ctx.strokeStyle = C.gold;
+        ctx.lineWidth = 1.1;
+        ring(ctx, P, 0, 1); ring(ctx, P, 0, 2); ring(ctx, P, 1, 2);
+        ctx.restore();
+
+        if (L.k < 3) {
+          ctx.save();
+          ctx.strokeStyle = C.gold;
+          ctx.globalAlpha = 0.20;
+          ctx.lineWidth = 1;
+          for (i = 0; i < lpts.length; i++) {
+            if (i % 5 !== 0) continue;
+            var a = P.map(lpts[i]), b = P.map(lproj[i]);
+            ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke();
+          }
+          ctx.restore();
+        }
+
+        lscreen = [];
+        var dmin = 1e9, dmax = -1e9;
+        for (i = 0; i < lpts.length; i++) {
+          q = P.map(lpts[i]);
+          lscreen.push(q);
+          if (q[2] < dmin) dmin = q[2];
+          if (q[2] > dmax) dmax = q[2];
+        }
+        var span = Math.max(1e-6, dmax - dmin);
+        var order = lscreen.map(function (_, idx) { return idx; })
+          .sort(function (a2, b2) { return lscreen[a2][2] - lscreen[b2][2]; });
+
+        ctx.save();
+        for (var k = 0; k < order.length; k++) {
+          var idx = order[k], s = lscreen[idx];
+          var t = (s[2] - dmin) / span;
+          ctx.globalAlpha = 0.30 + 0.55 * t;
+          ctx.fillStyle = C.cyan;
+          dot(ctx, s[0], s[1], 1.5 + 1.4 * t);
+        }
+        if (L.pick >= 0 && lscreen[L.pick]) {
+          var sp = lscreen[L.pick];
+          ctx.globalAlpha = 1;
+          ctx.strokeStyle = C.gold;
+          ctx.lineWidth = 1.6;
+          ctx.beginPath(); ctx.arc(sp[0], sp[1], 6, 0, Math.PI * 2); ctx.stroke();
+          ctx.fillStyle = C.gold;
+          dot(ctx, sp[0], sp[1], 2.4);
+        }
+        ctx.restore();
+
+        ctx.save();
+        ctx.fillStyle = C.gold;
+        for (i = 0; i < lproj.length; i++) {
+          q = P.map(lproj[i]);
+          ctx.globalAlpha = 0.72;
+          dot(ctx, q[0], q[1], 1.7);
+        }
+        ctx.restore();
+
+        ctx.save();
+        ctx.lineWidth = 1.8;
+        ctx.font = '600 10px ' + C.mono;
+        for (var j = 0; j < 3; j++) {
+          var v = leig.vectors[j];
+          var len = 2.3 * Math.sqrt(Math.max(leig.values[j], 0));
+          if (len < 1e-6) continue;
+          var pa = P.map([lmean[0] - len * v[0], lmean[1] - len * v[1], lmean[2] - len * v[2]]);
+          var pb = P.map([lmean[0] + len * v[0], lmean[1] + len * v[1], lmean[2] + len * v[2]]);
+          var dx = pb[0] - pa[0], dy = pb[1] - pa[1];
+          var slen = Math.hypot(dx, dy);
+          ctx.strokeStyle = PC[j];
+          ctx.globalAlpha = 0.9;
+          ctx.beginPath(); ctx.moveTo(pa[0], pa[1]); ctx.lineTo(pb[0], pb[1]); ctx.stroke();
+          if (slen < 46) continue;
+          ctx.fillStyle = PC[j];
+          ctx.textAlign = 'center';
+          ctx.fillText('PC' + (j + 1), pb[0] - dy / slen * 9, pb[1] - 5 + dx / slen * 9);
+        }
+        ctx.restore();
+
+        var mp = P.map(lmean);
+        ctx.save();
+        ctx.strokeStyle = C.gold;
+        ctx.globalAlpha = 0.9;
+        ctx.lineWidth = 1.4;
+        ctx.beginPath(); ctx.moveTo(mp[0] - 6, mp[1]); ctx.lineTo(mp[0] + 6, mp[1]); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(mp[0], mp[1] - 6); ctx.lineTo(mp[0], mp[1] + 6); ctx.stroke();
+        ctx.restore();
+      }
+
+      function updateLabReadouts() {
+        var total = leig.values[0] + leig.values[1] + leig.values[2];
+        var ratios = leig.values.map(function (v) { return total > 1e-12 ? v / total : 0; });
+        var rows = [];
+        for (var i = 0; i < 3; i++) {
+          var r = [];
+          for (var j = 0; j < 3; j++) r.push(lcov[i][j].toFixed(3).padStart(7, ' '));
+          rows.push(r.join(''));
+        }
+        el('covOut').textContent = rows.join('\n');
+
+        var spec = '', cum = 0;
+        for (var c = 0; c < 3; c++) {
+          cum += ratios[c];
+          spec += '<div class="row"><span class="l">PC' + (c + 1) + '</span><span>\u03bb ' + fmt(leig.values[c], 3) + '</span><span>' + (ratios[c] * 100).toFixed(1) + '% \u00b7 ' + (cum * 100).toFixed(1) + '%</span></div>';
+        }
+        el('specOut').innerHTML = spec;
+
+        var kept = 0;
+        for (var k = 0; k < L.k; k++) kept += ratios[k];
+        var mse = 0;
+        for (var m = 0; m < lresid2.length; m++) mse += lresid2[m];
+        mse = lresid2.length ? mse / lresid2.length : 0;
+
+        el('stK').textContent = String(L.k);
+        el('stRet').textContent = (kept * 100).toFixed(1) + '%';
+        el('stMse').textContent = fmt(mse, 4);
+
+        if (L.pick >= 0 && lscores[L.pick]) {
+          var p = lpts[L.pick], sc = lscores[L.pick];
+          el('pickOut').innerHTML = 'point ' + (L.pick + 1) +
+            '<br>x = [' + fmt(p[0], 2) + ', ' + fmt(p[1], 2) + ', ' + fmt(p[2], 2) + ']' +
+            '<br>z = [' + fmt(sc[0], 2) + ', ' + fmt(sc[1], 2) + ', ' + fmt(sc[2], 2) + ']' +
+            '<br>error = ' + fmt(Math.sqrt(lresid2[L.pick]), 3);
+        } else {
+          el('pickOut').textContent = 'click a point to inspect it';
+        }
+      }
+
+      /* =========================================================
+         Act 5 — the 64-dimensional digits
+         ========================================================= */
+      var TPL = [
+        ["..####..", ".#....#.", ".#....#.", ".#....#.", ".#....#.", ".#....#.", ".#....#.", "..####.."],
+        ["...##...", "..#.#...", ".#..#...", "....#...", "....#...", "....#...", "....#...", "..#####."],
+        ["..####..", ".#....#.", "......#.", ".....#..", "....#...", "...#....", "..#.....", ".######."],
+        ["..####..", ".#....#.", "......#.", "...###..", "......#.", "......#.", ".#....#.", "..####.."]
+      ].map(function (t) {
+        return t.map(function (row) { return row.split('').map(function (ch) { return ch === '#' ? 1 : 0; }); });
+      });
+
+      var digit = (function () {
+        var r = mulberry32(90210);
+        var samples = [], labels = [];
+        var perClass = 40;
+        for (var c = 0; c < TPL.length; c++) {
+          for (var k = 0; k < perClass; k++) {
+            var gain = 1 + 0.18 * randn(r);
+            var img = new Float64Array(64);
+            for (var y = 0; y < 8; y++) {
+              for (var x = 0; x < 8; x++) {
+                var val = TPL[c][y][x];
+                img[y * 8 + x] = gain * val + 0.08 * randn(r);
+              }
+            }
+            samples.push(img);
+            labels.push(c);
+          }
+        }
+        return { samples: samples, labels: labels };
+      })();
+
+      var pcaD = (function () {
+        var X = digit.samples, n = X.length, d = 64, i, j, a, b;
+        var mean = new Float64Array(d);
+        for (i = 0; i < n; i++) for (j = 0; j < d; j++) mean[j] += X[i][j];
+        for (j = 0; j < d; j++) mean[j] /= n;
+
+        var cov = [];
+        for (a = 0; a < d; a++) { var row = []; for (b = 0; b < d; b++) row.push(0); cov.push(row); }
+        for (i = 0; i < n; i++) {
+          for (a = 0; a < d; a++) {
+            var ca = X[i][a] - mean[a];
+            if (ca === 0) continue;
+            for (b = a; b < d; b++) cov[a][b] += ca * (X[i][b] - mean[b]);
+          }
+        }
+        for (a = 0; a < d; a++) for (b = a; b < d; b++) { cov[a][b] /= (n - 1); cov[b][a] = cov[a][b]; }
+
+        var E = jacobiEigen(cov);
+        var order = E.vals.map(function (_, idx) { return idx; })
+          .sort(function (p, q) { return E.vals[q] - E.vals[p]; });
+        var eigvals = order.map(function (idx) { return Math.max(0, E.vals[idx]); });
+        var eigvecs = order.map(function (idx) {
+          var col = [];
+          for (var k2 = 0; k2 < d; k2++) col.push(E.vecs[idx][k2]);
+          return col;
+        });
+
+        var KEEP = 20;
+        var Z = [];
+        for (i = 0; i < n; i++) {
+          var z = [];
+          for (var c = 0; c < KEEP; c++) {
+            var s = 0, v = eigvecs[c];
+            for (j = 0; j < d; j++) s += (X[i][j] - mean[j]) * v[j];
+            z.push(s);
+          }
+          Z.push(z);
+        }
+        var total = 0;
+        for (var t = 0; t < eigvals.length; t++) total += eigvals[t];
+        return { mean: mean, eigvals: eigvals, eigvecs: eigvecs, Z: Z, total: total, n: n, d: d, keep: KEEP };
+      })();
+
+      function drawDigit(ctx, img, x, y, size, C) {
+        var cell = size / 8;
+        ctx.fillStyle = C.surface;
+        ctx.fillRect(x, y, size, size);
+        ctx.fillStyle = C.primary;
+        for (var j = 0; j < 8; j++) {
+          for (var i = 0; i < 8; i++) {
+            var v = Math.max(0, Math.min(1, img[j * 8 + i]));
+            if (v <= 0.002) continue;
+            ctx.globalAlpha = v;
+            ctx.fillRect(x + i * cell, y + j * cell, cell + 0.6, cell + 0.6);
+          }
+        }
+        ctx.globalAlpha = 1;
+        ctx.strokeStyle = C.border;
+        ctx.lineWidth = 1;
+        ctx.strokeRect(x + 0.5, y + 0.5, size - 1, size - 1);
+      }
+
+      function renderSamples() {
+        var f = fit(el('dgSamples'));
+        var ctx = f.ctx, W = f.W, H = f.H, C = themeColors();
+        var picks = [0, 40, 80, 120, 12, 52, 95, 145];
+        var n = picks.length;
+        var size = Math.min(84, (W - 24) / n);
+        var gap = (W - size * n) / (n + 1);
+        var y0 = (H - size) / 2;
+        for (var i = 0; i < n; i++) {
+          drawDigit(ctx, digit.samples[picks[i]], gap + i * (size + gap), y0, size, C);
+        }
+      }
+
+      function renderScree() {
+        var f = fit(el('dgScree'));
+        var ctx = f.ctx, W = f.W, H = f.H, C = themeColors();
+        var pad = { l: 44, r: 14, t: 14, b: 44 };
+        var K = 20;
+        var frac = pcaD.eigvals.slice(0, K).map(function (v) { return v / pcaD.total; });
+        var ymax = Math.max.apply(null, frac) * 1.15 || 1;
+        var innerH = H - pad.t - pad.b;
+
+        ctx.strokeStyle = C.border;
+        ctx.lineWidth = 1;
+        for (var g = 0; g <= 4; g++) {
+          var yy = pad.t + innerH * g / 4;
+          ctx.beginPath(); ctx.moveTo(pad.l, yy); ctx.lineTo(W - pad.r, yy); ctx.stroke();
+        }
+
+        var bw = (W - pad.l - pad.r) / K;
+        for (var i = 0; i < K; i++) {
+          var h = (frac[i] / ymax) * innerH;
+          var x = pad.l + i * bw + bw * 0.18;
+          var y = H - pad.b - h;
+          ctx.fillStyle = i === 0 ? C.gold : C.cyan;
+          ctx.globalAlpha = i === 0 ? 1 : 0.72;
+          ctx.fillRect(x, y, bw * 0.64, h);
+          ctx.globalAlpha = 1;
+        }
+
+        ctx.fillStyle = C.muted;
+        ctx.font = '10px ' + C.mono;
+        ctx.textAlign = 'center';
+        ctx.fillText('principal component index', (pad.l + W - pad.r) / 2, H - 4);
+        for (var t = 0; t < K; t += 4) ctx.fillText(String(t + 1), pad.l + t * bw + bw / 2, H - pad.b + 13);
+        ctx.save();
+        ctx.translate(12, (pad.t + H - pad.b) / 2);
+        ctx.rotate(-Math.PI / 2);
+        ctx.fillText('fraction of variance', 0, 0);
+        ctx.restore();
+
+        var cum = 0, k90 = 0, k95 = 0;
+        for (var e = 0; e < pcaD.eigvals.length; e++) {
+          cum += pcaD.eigvals[e] / pcaD.total;
+          if (!k90 && cum >= 0.90) k90 = e + 1;
+          if (!k95 && cum >= 0.95) k95 = e + 1;
+        }
+        el('dgFact').textContent = 'Just ' + k90 + ' of the 64 components carry 90% of the variance (' + k95 + ' for 95%).';
+      }
+
+      function renderScatter() {
+        var f = fit(el('dgScatter'));
+        var ctx = f.ctx, W = f.W, H = f.H, C = themeColors();
+        var pad = 34;
+        var xs = [], ys = [], i;
+        for (i = 0; i < pcaD.n; i++) { xs.push(pcaD.Z[i][0]); ys.push(pcaD.Z[i][1]); }
+        var xmin = Math.min.apply(null, xs), xmax = Math.max.apply(null, xs);
+        var ymin = Math.min.apply(null, ys), ymax = Math.max.apply(null, ys);
+        var xr = xmax - xmin || 1, yr = ymax - ymin || 1;
+        var X = function (v) { return pad + (v - xmin) / xr * (W - 2 * pad); };
+        var Y = function (v) { return H - pad - (v - ymin) / yr * (H - 2 * pad); };
+
+        ctx.strokeStyle = C.border;
+        ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(pad, pad); ctx.lineTo(pad, H - pad); ctx.lineTo(W - pad, H - pad); ctx.stroke();
+
+        var cols = [C.cyan, C.gold, C.danger, C.secondary];
+        ctx.globalAlpha = 0.75;
+        for (i = 0; i < pcaD.n; i++) {
+          ctx.fillStyle = cols[digit.labels[i] % cols.length];
+          dot(ctx, X(pcaD.Z[i][0]), Y(pcaD.Z[i][1]), 3.6);
+        }
+        ctx.globalAlpha = 1;
+
+        ctx.fillStyle = C.muted;
+        ctx.font = '10px ' + C.mono;
+        ctx.textAlign = 'center';
+        ctx.fillText('PC1', W / 2, H - 8);
+        ctx.save();
+        ctx.translate(12, H / 2);
+        ctx.rotate(-Math.PI / 2);
+        ctx.fillText('PC2', 0, 0);
+        ctx.restore();
+      }
+
+      function reconstruct(idx, k) {
+        var out = new Float64Array(64);
+        var x = digit.samples[idx], mean = pcaD.mean;
+        for (var j = 0; j < 64; j++) out[j] = mean[j];
+        for (var c = 0; c < k; c++) {
+          var v = pcaD.eigvecs[c], z = 0, j2;
+          for (j2 = 0; j2 < 64; j2++) z += (x[j2] - mean[j2]) * v[j2];
+          for (j2 = 0; j2 < 64; j2++) out[j2] += z * v[j2];
+        }
+        return out;
+      }
+
+      var RECON_IDX = digit.labels.indexOf(2) + 7;
+      var reconK = 2;
+
+      function renderRecon() {
+        var C = themeColors();
+        var a = fit(el('dgOrig'));
+        var sizeA = Math.min(a.W, a.H) - 12;
+        drawDigit(a.ctx, digit.samples[RECON_IDX], (a.W - sizeA) / 2, (a.H - sizeA) / 2, sizeA, C);
+
+        var b = fit(el('dgRecon'));
+        var sizeB = Math.min(b.W, b.H) - 12;
+        drawDigit(b.ctx, reconstruct(RECON_IDX, reconK), (b.W - sizeB) / 2, (b.H - sizeB) / 2, sizeB, C);
+      }
+
+      /* =========================================================
+         Wiring
+         ========================================================= */
+      function renderAll() {
+        renderAct1();
+        renderAct2();
+        renderAct3();
+        drawLab();
+        updateLabReadouts();
+        renderSamples();
+        renderScree();
+        renderScatter();
+        renderRecon();
+      }
+
+      el('angleSlider').addEventListener('input', function (ev) {
+        angleDeg = +ev.target.value;
+        el('angleLabel').textContent = angleDeg + '\u00b0';
+        renderAct2();
+      });
+
+      el('k3').addEventListener('input', function (ev) {
+        L.k = +ev.target.value;
+        el('k3Val').textContent = String(L.k);
+        recomputeLabProjection();
+        drawLab();
+        updateLabReadouts();
+      });
+
+      el('btnStd').addEventListener('click', function (ev) {
+        L.standardize = !L.standardize;
+        ev.currentTarget.classList.toggle('on', L.standardize);
+        ev.currentTarget.setAttribute('aria-pressed', L.standardize ? 'true' : 'false');
+        rebuildLab();
+      });
+
+      el('btnResample').addEventListener('click', function () {
+        L.seed = (L.seed + 7919) >>> 0;
+        rebuildLab();
+      });
+
+      el('btnView').addEventListener('click', function () {
+        view.az = -38; view.el = 18;
+        drawLab();
+      });
+
+      el('dgK').addEventListener('input', function (ev) {
+        reconK = +ev.target.value;
+        el('dgKVal').textContent = String(reconK);
+        renderRecon();
+      });
+
+      var labStage = el('labStage');
+      var drag = null;
+      labStage.addEventListener('pointerdown', function (ev) {
+        drag = { x: ev.clientX, y: ev.clientY, az: view.az, el: view.el, moved: 0 };
+        if (labStage.setPointerCapture) { try { labStage.setPointerCapture(ev.pointerId); } catch (e) {} }
+      });
+      labStage.addEventListener('pointermove', function (ev) {
+        if (!drag) return;
+        var dx = ev.clientX - drag.x, dy = ev.clientY - drag.y;
+        drag.moved = Math.max(drag.moved, Math.abs(dx) + Math.abs(dy));
+        view.az = drag.az + dx * 0.45;
+        view.el = Math.max(-85, Math.min(85, drag.el - dy * 0.35));
+        drawLab();
+      });
+      labStage.addEventListener('pointerup', function (ev) {
+        if (!drag) return;
+        var wasClick = drag.moved < 4;
+        drag = null;
+        if (!wasClick) return;
+        var r = el('lab3d').getBoundingClientRect();
+        var x = ev.clientX - r.left, y = ev.clientY - r.top;
+        var best = -1, bestD = 24 * 24;
+        for (var i = 0; i < lscreen.length; i++) {
+          var dx = lscreen[i][0] - x, dy = lscreen[i][1] - y, d = dx * dx + dy * dy;
+          if (d < bestD) { bestD = d; best = i; }
+        }
+        L.pick = best;
+        drawLab();
+        updateLabReadouts();
+      });
+      labStage.addEventListener('pointercancel', function () { drag = null; });
+
+      var resizeTick = 0;
+      window.addEventListener('resize', function () {
+        if (resizeTick) cancelAnimationFrame(resizeTick);
+        resizeTick = requestAnimationFrame(function () { resizeTick = 0; renderAll(); });
+      });
+      window.addEventListener('epistecnica-theme', function () { renderAll(); });
+
+      /* ---------- boot ---------- */
+      rebuildLab();
+      renderAll();
+      if (window.renderTeX) renderTeX(document.body);
+      if (window.MathJax && MathJax.startup) MathJax.startup.promise.then(function () { if (window.renderTeX) renderTeX(document.body); });
+    })();
+  </script>
+
+  <script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+  <script src="../../../../../shared/usearch.js" data-root="../../../../../"></script>
+</body>
+</html>

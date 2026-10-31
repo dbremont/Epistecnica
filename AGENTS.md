@@ -324,6 +324,17 @@ instance-decomposition table:
   page is a live note reached through the catalog's
   `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md`,
   no promoted card.
+- **Playground** — `epistemica/observational/playground/` is the interactive
+  notebook surface: `index.html` is the notebook index (one card per notebook,
+  the book icon opening the corpus note and `▶ play` opening the notebook), and
+  each notebook is a live note beside it (`principal-component-analysis.html`
+  is the first: a six-act narrative — the shadow problem, projection, the
+  variance/reconstruction-error duality, the centre → covariance → eigenvector
+  algorithm with a drag-rotatable 3-D lab, a 64-dimensional 8×8 digit PCA with
+  scree / 64→2 scatter / k-component reconstruction, and the takeaways — with
+  every figure computed in-browser from a seeded cloud). New notebooks add one
+  page plus one card; live HTML is out of changelog scope, and a corpus note
+  that links its notebook logs the edit like any other content change.
 - **EES** (`epistemica/ees.md` + `ees.html` + `ees.json`) is the master
   epistemic inventory. The tree is stored canonically in `ees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
@@ -359,6 +370,32 @@ instance-decomposition table:
   in notes. The directory is created with the first note (like the other
   sections, the top-level dir is the section); run `make notes-index`
   after any corpus edit.
+
+## On Extracting Content from a Document
+
+- When asked to extract the content of a document (a book, paper, report,
+  notebook source, or corpus entry), use the canonical reading guide at
+  `https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-lectionis-et-operis.md`
+  — it owns the extraction schema and the table form.
+- Produce the inventory as one table, one row per element, in the guide's
+  columns: `Content (Epistemic, Technical, Normative) Type | Instance Path
+  Tree | Description | Source (Page, Paragraph)`. Not prose, not a summary.
+- Characterise each element from the guide's references rather than
+  freehand: the content family selects the type vocabulary — epistemic per
+  *Philosophia Artium Epistemicarum et Operis*, technical per *Artium
+  Technicarum*, normative per *Socialium* / *Moralis*, concepts per
+  *Conceptuum*, natural elements per *Naturalis*; Dialectic, Principle, and
+  Ambiguity Resolution cover the in-between cases. Read the referenced guide
+  before typing a row, and cite the lectionis guide in the extraction's
+  references.
+- The `Instance Path Tree` follows the owning element guide (backticked
+  grouping segments, Title Case instances, no bare type terminating a
+  branch); every row carries its `Source` locator — no source, no row.
+- The guide is marked `unfinished`: state the edition/source artifact and
+  record gaps instead of silently widening the enum (natural and conceptual
+  elements are not among the three content families).
+- No fixed home for extraction artifacts yet — ask before writing one into a
+  corpus or under `spec/`.
 
 ## Run / Verify Locally
 
