@@ -12435,7 +12435,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "add the Change natural note"
+        "summary": "add the Change natural note",
+        "commit": "6ec265c74025b9e428343a23b4d5073f553120bf"
       }
     ]
   },
