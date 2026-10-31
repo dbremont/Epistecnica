@@ -2,7 +2,7 @@
 """
 Symbol-atlas store validator.
 
-Validates src/note/app/data/epistemica/symbols/symbols.json: required
+Validates src/note/app/data/epistemica/symbols.json: required
 fields, unique kebab ids, enum categories, non-empty symbol/description/
 origins/usage text, resolving related ids, existing note links, and
 well-formed sources. Stdlib only.
@@ -17,7 +17,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "src" / "note" / "app" / "data"
-STORE = DATA / "epistemica" / "symbols" / "symbols.json"
+STORE = DATA / "epistemica" / "symbols.json"
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 REQUIRED_TEXT = ("symbol", "name", "description", "origins", "usage")

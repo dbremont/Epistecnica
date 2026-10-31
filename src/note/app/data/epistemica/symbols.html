@@ -317,7 +317,7 @@
       .glyph { width: 54px; height: 54px; font-size: 1.5rem; }
     }
   </style>
-  <link rel="stylesheet" href="../../../../shared/usearch.css">
+  <link rel="stylesheet" href="../../../shared/usearch.css">
 </head>
 <body>
 
@@ -325,7 +325,7 @@
 
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="../../../../"><img class="nav-mark" src="../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <a class="nav-brand" href="../../../"><img class="nav-mark" src="../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
       <div class="nav-right">
         <div class="usearch-wrap">
           <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -340,9 +340,8 @@
 
   <div class="layout">
     <div class="crumbs">
-      <a href="../../../index.html">notes</a><span class="sep">/</span>
-      <a href="../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span>
-      <a href="../../../index.html?dir=epistemica/symbols">symbols</a><span class="sep">/</span>
+      <a href="../../index.html">notes</a><span class="sep">/</span>
+      <a href="../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span>
       <span class="here">symbols</span>
     </div>
 
@@ -384,7 +383,7 @@
   <footer class="site-footer">
     <div class="foot-inner">
       <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; symbol atlas</div>
-      <a href="../../../index.html">&larr; CATALOG</a>
+      <a href="../../index.html">&larr; CATALOG</a>
     </div>
   </footer>
 
@@ -416,7 +415,7 @@
     apply();
   })();
   </script>
-  <script src="../../../../shared/usearch.js" data-root="../../../../"></script>
+  <script src="../../../shared/usearch.js" data-root="../../../"></script>
 
   <script>
   (function () {
@@ -452,7 +451,7 @@
       return stem.replace(/-/g, ' ');
     }
 
-    function noteHref(path) { return '../../../note.html?n=' + path.split('/').map(encodeURIComponent).join('/'); }
+    function noteHref(path) { return '../../note.html?n=' + path.split('/').map(encodeURIComponent).join('/'); }
 
     function sourceLine(src) {
       if (src.url) {

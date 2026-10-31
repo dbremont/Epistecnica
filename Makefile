@@ -66,7 +66,7 @@ atlas-check: ## validate the technica atlas store (src/note/app/data/technica/me
 terminology-check: ## validate the terminology-crimes store (src/note/app/data/epistemica/horror/terminology.json)
 	python3 bin/terminology_check.py
 
-symbols-check: ## validate the symbol-atlas store (src/note/app/data/epistemica/symbols/symbols.json)
+symbols-check: ## validate the symbol-atlas store (src/note/app/data/epistemica/symbols.json)
 	python3 bin/symbols_check.py
 
 pvalue-check: ## validate the p-value atlas store (src/note/app/data/epistemica/validation/atlas/pvalue.json)

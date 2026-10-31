@@ -81,7 +81,7 @@
       "origins": "The rotated E descends from Peirce's existential quantifier (1880s) and settled into its modern form with Peano and the 20th-century tradition; U+2203; TeX: \\exists.",
       "usage": "∃x ∈ S: P(x) — existence claims: fixed points, witnesses, separating hyperplanes.",
       "related": ["for-all"],
-      "notes": ["epistemica/mathematical/set.md", "epistemica/mathematical/brouwer-fixed-point-theorem.md"],
+      "notes": ["epistemica/mathematical/set.md", "epistemica/mathematical/construction/brouwer-fixed-point-theorem.md"],
       "sources": [
         { "label": "Wikipedia: Quantifier (mathematics)", "url": "https://en.wikipedia.org/wiki/Quantifier_(mathematics)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -513,7 +513,7 @@
       "origins": "The inverted delta used by Hamilton (1830s) for vector operations, later named “nabla” after the harp-shaped Greek instrument; U+2207; TeX: \\nabla.",
       "usage": "∇f, ∇·F, ∇×F — gradient, divergence, curl; ∇L — the gradient step of backpropagation; Δ = ∇² in physics notation.",
       "related": ["partial", "capital-delta", "circled-dot-operator"],
-      "notes": ["epistemica/mathematical/divergence-operator.md", "epistemica/mathematical/gradient-theorem.md"],
+      "notes": ["epistemica/mathematical/divergence-operator.md", "epistemica/mathematical/construction/gradient-theorem.md"],
       "sources": [
         { "label": "Wikipedia: Del (operator)", "url": "https://en.wikipedia.org/wiki/Del_(operator)" },
         { "label": "Crowe, M. J. (1967). A History of Vector Analysis." }
