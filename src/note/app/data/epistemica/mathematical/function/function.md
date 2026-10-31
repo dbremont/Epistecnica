@@ -99,7 +99,7 @@ tags: [analytical]
 
 ### Activation Function
 
-> See more here ([Activation Function](activation-function.md)).
+> See more here ([Activation Function](../activation-function.md)).
 > 
 
 ## Representation

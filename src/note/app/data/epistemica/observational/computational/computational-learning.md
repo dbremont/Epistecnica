@@ -668,7 +668,7 @@ These operations **require numeric input** (real numbers, vectors, tensors).
 - [](https://app.notion.com/p/245c0f5171ec80749daec722e73b8a81?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [](https://app.notion.com/p/24ac0f5171ec8020aec7f11bae9eb632?pvs=21)
-- [Functional](../mathematical/functional.md)
+- [Functional](../../mathematical/functional.md)
 - [Decision Boundary](https://en.wikipedia.org/wiki/Decision_boundary)
 - [Decision boundary](https://en.wikipedia.org/wiki/Decision_boundary)
 - [Pattern Recognition](https://en.wikipedia.org/wiki/Pattern_recognition)

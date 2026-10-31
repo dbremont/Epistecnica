@@ -231,13 +231,13 @@ tags: [space]
 - [Mathematical Structure](note.html?n=epistemica/mathematical/mathematical-structure.md)
 - [Mathematical Object](note.html?n=epistemica/mathematical/mathematical-object.md)
 - [Geometry](note.html?n=epistemica/mathematical/geometry/geometry.md)
-- [Topology](note.html?n=epistemica/mathematical/topology.md)
+- [Topology](note.html?n=epistemica/mathematical/topology/topology.md)
 - [Order](note.html?n=epistemica/mathematical/order.md)
 - [Measure](note.html?n=epistemica/mathematical/measure.md)
-- [Algebra](note.html?n=epistemica/mathematical/algebra.md)
-- [Manifold](note.html?n=epistemica/mathematical/manifold.md)
+- [Algebra](note.html?n=epistemica/mathematical/algebra/algebra.md)
+- [Manifold](note.html?n=epistemica/mathematical/topology/manifold.md)
 - [Vector](note.html?n=epistemica/mathematical/vector.md)
-- [Linear Algebra](note.html?n=epistemica/mathematical/linear-algebra.md)
+- [Linear Algebra](note.html?n=epistemica/mathematical/algebra/linear/linear-algebra.md)
 - [Coordinate System](note.html?n=epistemica/mathematical/coordinate-system.md)
 
 

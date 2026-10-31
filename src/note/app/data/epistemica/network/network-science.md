@@ -393,7 +393,7 @@ qa:
 - **"Graph Convolutional Networks" by Thomas N. Kipf and Max Welling (2017):** Introduces graph convolutional networks, a powerful technique for deep learning on graph-structured data.
 - Dorogovtsev, Sergey N., Alexander V. Goltsev, and José FF Mendes. "Critical phenomena in complex networks." *Reviews of Modern Physics* 80.4 (2008): 1275.
 - https://trenton3983.github.io/posts/intro-network-analysis/
-- [Graph](../mathematical/graph.md)
+- [Graph](../mathematical/discrete/graph.md)
 - https://github.com/dbremont/algorithms
 - [Graph Data Model ](https://app.notion.com/p/Graph-Data-Model-1afc0f5171ec809fb444fd2da46e183f?pvs=21)
 - [Graph Neural Networks (GNN)](note.html?n=technica/ais/architecture/graph-neural-networks-gnn.md)

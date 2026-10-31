@@ -71,11 +71,11 @@ tags: [framework]
 
 ## References
 
-- [Inequality](../mathematical/inequality.md)
-- [**AM-GM Inequality**](../mathematical/construction/am-gm-inequality.md)
-- [**Jensen's Inequality**](../mathematical/construction/jensen-s-inequality.md)
-- [Chebyshev's Inequality](../mathematical/construction/chebyshev-s-inequality.md)
-- [Cauchy-Schwarz Inequality](../mathematical/construction/cauchy-schwarz-inequality.md)
+- [Inequality](../../mathematical/number/inequality.md)
+- [**AM-GM Inequality**](../../mathematical/construction/am-gm-inequality.md)
+- [**Jensen's Inequality**](../../mathematical/construction/jensen-s-inequality.md)
+- [Chebyshev's Inequality](../../mathematical/construction/chebyshev-s-inequality.md)
+- [Cauchy-Schwarz Inequality](../../mathematical/construction/cauchy-schwarz-inequality.md)
 - https://en.wikipedia.org/wiki/Slutsky%27s_theorem
 - https://en.wikipedia.org/wiki/Markov%27s_inequality
 - https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem

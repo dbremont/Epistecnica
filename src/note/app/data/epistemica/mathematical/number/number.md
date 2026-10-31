@@ -292,5 +292,5 @@ Philosophically, numbers pose intriguing questions:
 - Mari, L., Maul, A., Torres Irribarra, D., & Wilson, M. (2017). Quantities, quantification, and the necessary and sufficient conditions for measurement.
 - Wolff, J. E. (2020). The Metaphysics of Quantities. Oxford University Press.
 - https://plato.stanford.edu/entries/measurement-science/index.html
-- note/note.html?n=epistemica/mathematical/arithmetic.md
+- note/note.html?n=epistemica/mathematical/number/arithmetic.md
 - 

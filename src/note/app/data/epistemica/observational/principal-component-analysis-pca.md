@@ -33,10 +33,10 @@ tags: [technique]
 - [Principal Component Analysis (PCA)](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/resources/mit18_650f16_pca/)
 - [Understanding and Using Principal Component Analysis (PCA)](https://web.stanford.edu/class/cs168/l/l7.pdf)
 - [‣](https://app.notion.com/p/9850521bfef94a4faeea15fbf9e630d3?pvs=21)
-- [Eigenvector](../mathematical/eigenvector.md)
+- [Eigenvector](../mathematical/algebra/linear/eigenvector.md)
 - 
-- [Covariance Matrix](../mathematical/covariance-matrix.md)
-- [Singular Value Decomposition (SVD)](../mathematical/singular-value-decomposition-svd.md)
+- [Covariance Matrix](../mathematical/algebra/linear/covariance-matrix.md)
+- [Singular Value Decomposition (SVD)](../mathematical/algebra/linear/singular-value-decomposition-svd.md)
 - https://github.com/GeostatsGuy/DataScienceInteractivePython/blob/main/Interactive_PCA_Eigen.ipynb
 
 ```python

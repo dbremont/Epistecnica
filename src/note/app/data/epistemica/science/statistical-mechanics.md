@@ -291,7 +291,7 @@ A Statistical Mechanics tools signature is functional that takes a “Set” →
 
 > Note: We do not have a good terminology for the signatures. Each one is a function, but the term is too generic; we need something more specific.
 
-> See more in [Signature](note.html?n=epistemica/mathematical/function.md).
+> See more in [Signature](note.html?n=epistemica/mathematical/function/function.md).
 
 | **Category** | **Signature** | **Instance** | Descrition |
 | --- | --- | --- | --- |

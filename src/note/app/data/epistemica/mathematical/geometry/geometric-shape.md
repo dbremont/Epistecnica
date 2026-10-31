@@ -94,7 +94,7 @@ A figure may be a **shape set** rather than a single connected shape (an arrange
 | Connectedness | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Symmetry group type | ✓ | ✓ | ✓ | ✗ | ✗ |
 
-The bottom rows are the **topological invariants**: they survive every continuous deformation, which is why the same shape is studied by [topology](note.html?n=epistemica/mathematical/topology.md) as by geometry.
+The bottom rows are the **topological invariants**: they survive every continuous deformation, which is why the same shape is studied by [topology](note.html?n=epistemica/mathematical/topology/topology.md) as by geometry.
 
 ## Shape Space
 
@@ -113,9 +113,9 @@ This turns shape comparison into a metric question: two shapes are *close* when 
 - [Geometry](note.html?n=epistemica/mathematical/geometry/geometry.md) — the ambient framework; a geometry is the pair (points, model of space).
 - [Angle](note.html?n=epistemica/mathematical/geometry/angle.md), [Triangle](note.html?n=epistemica/mathematical/geometry/triangle.md), [Polygon](note.html?n=epistemica/mathematical/geometry/polygon.md) — elementary planar shapes and their invariants.
 - [Plane](note.html?n=epistemica/mathematical/geometry/plane.md), [Hyperplane](note.html?n=epistemica/mathematical/geometry/hyperplane.md) — the elemental shapes that bound and slice others.
-- [Topology](note.html?n=epistemica/mathematical/topology.md) — shape up to continuous deformation.
-- [Manifold](note.html?n=epistemica/mathematical/manifold.md) — the local model of shape spaces themselves.
-- [Symmetry Group](note.html?n=epistemica/mathematical/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
+- [Topology](note.html?n=epistemica/mathematical/topology/topology.md) — shape up to continuous deformation.
+- [Manifold](note.html?n=epistemica/mathematical/topology/manifold.md) — the local model of shape spaces themselves.
+- [Symmetry Group](note.html?n=epistemica/mathematical/algebra/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
 - [Convex Hull](note.html?n=epistemica/mathematical/convex-hull.md) — the smallest convex shape containing a figure.
 - [Coordinate System](note.html?n=epistemica/mathematical/coordinate-system.md) — the representation a shape is written in, which the shape itself does not fix.
 

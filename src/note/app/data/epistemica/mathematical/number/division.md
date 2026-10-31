@@ -41,14 +41,14 @@ Mathematically, given: $a \div b = c$:
 - **Quotient as a Slope (Linear Interpretation)**: In graphs, division can represent a slope or rate of change.
 - **Quotient as a Conversion Factor**:  A **conversion factor** is a fraction that equals **1**, where the numerator and denominator are **equivalent quantities in different units**.
 
-> See more: [Scale](note.html?n=epistemica/mathematical/scale.md), [Percentage](note.html?n=epistemica/mathematical/percentage.md), [Slope](https://en.wikipedia.org/wiki/Slope) and [Conversion factor](https://en.wikipedia.org/wiki/Conversion_factor).
+> See more: [Scale](note.html?n=epistemica/mathematical/scale.md), [Percentage](note.html?n=epistemica/mathematical/number/percentage.md), [Slope](https://en.wikipedia.org/wiki/Slope) and [Conversion factor](https://en.wikipedia.org/wiki/Conversion_factor).
 
 ## Ratio (**Razón**)
 
 > **Ratio**: A ratio is a comparison of two quantities expressed as a fraction, showing how many times one quantity contains the other.
 > 
 
-> See more: [Ratio](note.html?n=epistemica/mathematical/ratio.md).
+> See more: [Ratio](note.html?n=epistemica/mathematical/number/ratio.md).
 
 > Note: A ratio usually does not have dimensions - or type  -  but this is almost by convention.
 > 
@@ -68,7 +68,7 @@ Mathematically, given: $a \div b = c$:
 > **Proportion**: A proportion is an equation that expresses two ratios as being equal, showing the relative relationship between two sets of quantities.
 > 
 
-> See more: [Proportionality](note.html?n=epistemica/mathematical/proportionality.md).
+> See more: [Proportionality](note.html?n=epistemica/mathematical/number/proportionality.md).
 
 ## Connotation
 
@@ -143,12 +143,12 @@ How many eggs do you have?
 
 ## References
 
-- [Normalization](note.html?n=epistemica/mathematical/normalization.md)
-- [Multiplication](note.html?n=epistemica/mathematical/multiplication.md)
+- [Normalization](note.html?n=epistemica/mathematical/equation/normalization.md)
+- [Multiplication](note.html?n=epistemica/mathematical/number/multiplication.md)
 - [Scale](note.html?n=epistemica/mathematical/scale.md)
-- [Proportionality](note.html?n=epistemica/mathematical/proportionality.md)
-- [Percentage](note.html?n=epistemica/mathematical/percentage.md)
-- [Ratio](note.html?n=epistemica/mathematical/ratio.md)
+- [Proportionality](note.html?n=epistemica/mathematical/number/proportionality.md)
+- [Percentage](note.html?n=epistemica/mathematical/number/percentage.md)
+- [Ratio](note.html?n=epistemica/mathematical/number/ratio.md)
 - [Tasa (matemáticas)](https://es.wikipedia.org/wiki/Tasa_(matem%C3%A1ticas))
 - [Rate (mathematics)](https://en.wikipedia.org/wiki/Rate_(mathematics))
 - [Slope](https://en.wikipedia.org/wiki/Slope)

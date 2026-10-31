@@ -1043,7 +1043,7 @@ Formally, it involves:
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [](https://app.notion.com/p/24ac0f5171ec8020aec7f11bae9eb632?pvs=21)
 - [Distribution](../observational/distribution/distribution.md)
-- [Enumeration (Counting)](../mathematical/enumeration-counting.md)
+- [Enumeration (Counting)](../mathematical/discrete/enumeration-counting.md)
 - Davidson-Pilon, Cameron. *Bayesian methods for hackers: probabilistic programming and Bayesian inference*. Addison-Wesley Professional, 2015.
 - Bayes, Thomas. "An essay towards solving a problem in the doctrine of chances." *Biometrika* 45.3-4 (1958): 296-315.
 - Talbott, William J. "Two principles of Bayesian epistemology." *Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition* 62.2 (1991): 135-150.
@@ -1060,8 +1060,8 @@ Formally, it involves:
 - https://en.wikipedia.org/wiki/Large_deviations_theory
 - https://mathworld.wolfram.com/topics/Probability.html
 - [Set](../mathematical/set.md)
-- [Combinatorics](../mathematical/combinatorics.md)
-- [Enumeration (Counting)](../mathematical/enumeration-counting.md)
+- [Combinatorics](../mathematical/discrete/combinatorics.md)
+- [Enumeration (Counting)](../mathematical/discrete/enumeration-counting.md)
 - [Inclusion-Exclusion Principle](../guidance/principle/inclusion-exclusion-principle.md)
 - [‣](https://app.notion.com/p/10e598edb790813e9bc3e6df60b3011e?pvs=21)
 - https://brilliant.org/wiki/probability-rule-of-product/
@@ -1069,7 +1069,7 @@ Formally, it involves:
 - https://en.wikipedia.org/wiki/Chain_rule_(probability)
 - [A General Guide to Representation & Estimation](https://app.notion.com/p/A-General-Guide-to-Representation-Estimation-22dc0f5171ec8099a450f1d8f419a67f?pvs=21)
 - [Measure](../mathematical/measure.md)
-- [Enumeration (Counting)](../mathematical/enumeration-counting.md)
+- [Enumeration (Counting)](../mathematical/discrete/enumeration-counting.md)
 - https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)
 - https://en.wikipedia.org/wiki/Venn_diagram
 - https://www.youtube.com/playlist?list=PLY11JnnnTUCZSUk2xnombjwfg6z3-okP5

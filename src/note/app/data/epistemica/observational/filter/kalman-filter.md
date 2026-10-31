@@ -130,7 +130,7 @@ The system is described by the following **discrete-time linear stochastic model
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - …
 - https://en.wikipedia.org/wiki/Kalman_filter
-- [Covariance Matrix](../mathematical/covariance-matrix.md)
+- [Covariance Matrix](../../mathematical/algebra/linear/covariance-matrix.md)
 - https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
 - https://news.ycombinator.com/item?id=39343746
 - https://python.quantecon.org/kalman.html

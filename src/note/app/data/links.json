@@ -32,7 +32,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/topology.md",
+      "to": "epistemica/mathematical/topology/topology.md",
       "label": "Topology",
       "kind": "related"
     },
@@ -50,13 +50,13 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/algebra.md",
+      "to": "epistemica/mathematical/algebra/algebra.md",
       "label": "Algebra",
       "kind": "related"
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/manifold.md",
+      "to": "epistemica/mathematical/topology/manifold.md",
       "label": "Manifold",
       "kind": "related"
     },
@@ -74,7 +74,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/linear-algebra.md",
+      "to": "epistemica/mathematical/algebra/linear/linear-algebra.md",
       "label": "Linear Algebra",
       "kind": "related"
     },

@@ -168,7 +168,7 @@ qa:
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - [Discretization](note.html?n=epistemica/mathematical/method/discretization.md)
-- [Rounding](note.html?n=epistemica/mathematical/rounding.md)
+- [Rounding](note.html?n=epistemica/mathematical/number/rounding.md)
 - [Signal](note.html?n=epistemica/mathematical/signal.md)
 - [Scale](note.html?n=epistemica/mathematical/scale.md)
 - [Measurement Theory](note.html?n=epistemica/measurement/measurement-theory.md)

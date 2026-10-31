@@ -44,6 +44,17 @@ companion is `data/epistemica/ees.md`.
   (one-off migration; the importer was removed after use — names
   normalized, CSV tags as front matter, Notion noise stripped; content
   preserved). The corpus is now the source of truth.
+- The mathematical domain is filed by branch under
+  `epistemica/mathematical/`: `algebra/` (structures, with `linear/` for vector
+  spaces, matrices and operator maps), `number/` (numeral systems and the
+  arithmetic transformation rules), `discrete/` (combinatorics and discrete
+  structures), `topology/`, `function/` (functions as objects, special
+  functions and transforms), `equation/`, `change/` (dynamical representational
+  systems), `space/`, `geometry/`, `construction/` (stated results), `method/`
+  (routines), and `transformation.md` at the root — the catalogue of the
+  rewrite licences the representational systems carry. Notes that cut across
+  branches (`set`, `relation`, `order`, `operator`, `decomposition`, `scale`)
+  stay at the domain root.
 - The change notes live in the
   `epistemica/mathematical/change/` scope (the dynamical-systems
   sub-scope of the Mathematical domain): the dynamical representational

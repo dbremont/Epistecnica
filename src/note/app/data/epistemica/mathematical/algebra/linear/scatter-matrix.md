@@ -100,4 +100,4 @@ $S = \begin{bmatrix}
 ## References
 
 - https://en.wikipedia.org/wiki/Scatter_matrix
-- [Variance](../observational/variance.md)
+- [Variance](../../../observational/variance.md)

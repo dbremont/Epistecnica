@@ -14,5 +14,5 @@ tags: [probability]
 
 ## References
 
-- [σ-algebra](../mathematical/algebra-2.md)
+- [σ-algebra](../../mathematical/algebra-2.md)
 - https://en.wikipedia.org/wiki/Filtration_(probability_theory)

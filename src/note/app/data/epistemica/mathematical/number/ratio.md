@@ -51,7 +51,7 @@ qa:
 
 > **Boundary.** This table decomposes one epistemic instance — the ratio as a representational construct — into its written forms, its constitutive rules and properties, and its readings.
 >
-> **Stopping rule.** A row is terminal when it names a concrete form, rule, property, convention, or reading; the arithmetic of division itself is not decomposed here (see [Division](note.html?n=epistemica/mathematical/division.md)).
+> **Stopping rule.** A row is terminal when it names a concrete form, rule, property, convention, or reading; the arithmetic of division itself is not decomposed here (see [Division](note.html?n=epistemica/mathematical/number/division.md)).
 >
 > **Identity.** Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
@@ -121,11 +121,11 @@ qa:
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
-- [Division](note.html?n=epistemica/mathematical/division.md)
-- [Multiplication](note.html?n=epistemica/mathematical/multiplication.md)
-- [Normalization](note.html?n=epistemica/mathematical/normalization.md)
-- [Proportionality](note.html?n=epistemica/mathematical/proportionality.md)
-- [Percentage](note.html?n=epistemica/mathematical/percentage.md)
+- [Division](note.html?n=epistemica/mathematical/number/division.md)
+- [Multiplication](note.html?n=epistemica/mathematical/number/multiplication.md)
+- [Normalization](note.html?n=epistemica/mathematical/equation/normalization.md)
+- [Proportionality](note.html?n=epistemica/mathematical/number/proportionality.md)
+- [Percentage](note.html?n=epistemica/mathematical/number/percentage.md)
 - [Scale](note.html?n=epistemica/mathematical/scale.md)
 - [Ratio (mathematics)](https://en.wikipedia.org/wiki/Ratio)
 - [Proportionality (mathematics)](https://en.wikipedia.org/wiki/Proportionality_(mathematics))

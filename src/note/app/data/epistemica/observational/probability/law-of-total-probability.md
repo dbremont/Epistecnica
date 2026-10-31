@@ -17,4 +17,4 @@ tags: [probability, technique]
 ## References
 
 - https://en.wikipedia.org/wiki/Law_of_total_probability
-- [Normalization](../mathematical/normalization.md)
+- [Normalization](../../mathematical/equation/normalization.md)

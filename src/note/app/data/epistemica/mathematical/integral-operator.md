@@ -82,7 +82,7 @@ QA:
 |  | Path Integral (QFT) | $\int \mathcal{D}\phi \, e^{iS[\phi]}$ | Functional integral in quantum field theory. |
 |  | **…** | **…** | **…** |
 
-[Lebesgue Integral](lebesgue-integral.md)
+[Lebesgue Integral](function/lebesgue-integral.md)
 
 ## Integrability
 

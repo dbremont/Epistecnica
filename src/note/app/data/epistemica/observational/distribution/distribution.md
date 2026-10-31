@@ -264,7 +264,7 @@ They allow us to:
 - https://en.wikipedia.org/wiki/ProbOnto
 - https://rpubs.com/nayefahmad/additive-and-multiplicative-effects
 - https://www.jstor.org/stable/2096242
-- [Normalization](../mathematical/normalization.md)
+- [Normalization](../../mathematical/equation/normalization.md)
 - https://en.wikipedia.org/wiki/Probability_measure
 - https://en.wikipedia.org/wiki/Conditional_probability
 - https://stats.stackexchange.com/questions/563949/difference-in-probability-measure-vs-probability-distribution

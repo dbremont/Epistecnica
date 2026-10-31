@@ -82,7 +82,7 @@ Proof: [Perceptron Convergence Theorem](note.html?n=epistemica/mathematical/cons
 
 ## References
 
-- [Norm](note.html?n=epistemica/mathematical/norm.md)
+- [Norm](note.html?n=epistemica/mathematical/algebra/linear/norm.md)
 - https://en.wikipedia.org/wiki/Perceptron
 - [The Perceptron](https://jontysinai.github.io/jekyll/update/2017/11/11/the-perceptron.html)
 - 

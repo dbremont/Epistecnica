@@ -93,7 +93,7 @@ Setup:
 - https://stats.stackexchange.com/questions/472597/why-people-prefer-neural-network-to-kernel-methods
 - https://en.wikipedia.org/wiki/Fisher_kernel
 - [‣](https://app.notion.com/p/18e598edb79080ceb4fcfb5e2fe807a6?pvs=21) [Definition]
-- [Positive-definite Kernel](../mathematical/positive-definite-kernel.md) [Operator]
+- [Positive-definite Kernel](../../mathematical/positive-definite-kernel.md) [Operator]
 - https://www.youtube.com/watch?v=y_RjsDHl5Y4
 - https://www.youtube.com/playlist?list=PLD93kGj6_EdrkNj27AZMecbRlQ1SMkp_o
 - [Lagrange Multiplier](../optimization/lagrange-multiplier.md)

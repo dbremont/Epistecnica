@@ -154,5 +154,5 @@ Lee Rodgers, Joseph, and W. Alan Nicewander. "Thirteen ways to look at the corre
 - [What is the difference between an estimator and a statistic?](https://stats.stackexchange.com/questions/47728/what-is-the-difference-between-an-estimator-and-a-statistic)
 - [Variance](variance.md)
 - [Covariance](covariance.md)
-- [Covariance Matrix](../mathematical/covariance-matrix.md)
+- [Covariance Matrix](../mathematical/algebra/linear/covariance-matrix.md)
 - [Independence](independence.md)

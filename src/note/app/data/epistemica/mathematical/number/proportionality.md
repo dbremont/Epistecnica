@@ -5,5 +5,5 @@
 ## References
 
 - [Proportionality](https://en.m.wikipedia.org/wiki/Proportionality_(mathematics))
-- [Ratio](note.html?n=epistemica/mathematical/ratio.md)
-- [Division](note.html?n=epistemica/mathematical/division.md)
+- [Ratio](note.html?n=epistemica/mathematical/number/ratio.md)
+- [Division](note.html?n=epistemica/mathematical/number/division.md)

@@ -203,7 +203,7 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 - https://en.wikipedia.org/wiki/Frisch%E2%80%93Waugh%E2%80%93Lovell_theorem
 - https://news.ycombinator.com/item?id=12254098
 - [Covariance](../covariance.md)
-- [Covariance Matrix](../mathematical/covariance-matrix.md)
+- [Covariance Matrix](../../mathematical/algebra/linear/covariance-matrix.md)
 - 
 - [Backpropagation](../optimization/backpropagation.md)
 - [Gradient Descent (GD)](../optimization/gradient-descent-gd.md)
