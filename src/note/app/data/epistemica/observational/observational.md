@@ -1,3 +1,7 @@
+---
+order: 0
+---
+
 # Observational
 
 > In these notes, we will explore techniques for building models and drawing inferences from data (observations). Rather than adhering to arbitrary distinctions between fields, we adopt a unified approach, integrating concepts and methods across disciplines to create a cohesive framework for understanding and working with data. Our study will be guided by three key questions:
@@ -32,7 +36,7 @@
 
 ## Probability
 
-> See more here [Probability](discipline/probability.md).
+> See more here [Probability](note.html?n=epistemica/discipline/probability.md).
 > 
 
 > The mathematical framework for modeling uncertainty and quantifying the likelihood of events.
@@ -40,7 +44,7 @@
 
 ## Causality
 
-> See more in [Causality](causality.md).
+> See more in [Causality](note.html?n=epistemica/causality/causality.md).
 > 
 
 ## Statistics
@@ -56,12 +60,12 @@
 > Optimization: The process of finding the best solution or parameters by minimizing or maximizing an objective function under given constraints.
 > 
 
-> See more in [Optimization](optimization.md).
+> See more in [Optimization](note.html?n=epistemica/optimization/optimization.md).
 > 
 
 ## Information Theory
 
-> See more in [Information](observational/information/information.md) — [Shannon Information Theory](observational/information/shannon-information-theory.md) —- [Algorithmic Information Theory (AIT)](observational/information/algorithmic-information-theory-ait.md) — [Compression](https://app.notion.com/p/Compression-7473c999c91f44fb8692e43a94ea0e32?pvs=21).
+> See more in [Information](note.html?n=epistemica/observational/information/information.md) — [Shannon Information Theory](note.html?n=epistemica/observational/information/shannon-information-theory.md) —- [Algorithmic Information Theory (AIT)](note.html?n=epistemica/observational/information/algorithmic-information-theory-ait.md) — [Compression](https://app.notion.com/p/Compression-7473c999c91f44fb8692e43a94ea0e32?pvs=21).
 > 
 
 ## Statistical Mechanics
@@ -71,7 +75,7 @@
 
 ## Computational Learning System
 
-> See more in [Computational Learning](observational/computational-learning.md).
+> See more in [Computational Learning](note.html?n=epistemica/observational/computational-learning.md).
 > 
 
 ## Concept
@@ -91,9 +95,9 @@ Conceptual Model: Observational
 - https://en.wikipedia.org/wiki/Latent_variable_model
 - https://en.wikipedia.org/wiki/Smoothing
 - https://en.wikipedia.org/wiki/Curve_fitting
-- [Reproducing Kernel Hilbert Space](mathematical/space/reproducing-kernel-hilbert-space.md)
+- [Reproducing Kernel Hilbert Space](note.html?n=epistemica/mathematical/space/reproducing-kernel-hilbert-space.md)
 - https://en.wikipedia.org/wiki/Machine_learning
-- [Optimization](optimization.md)
+- [Optimization](note.html?n=epistemica/optimization/optimization.md)
 - Kernel
     - http://bactra.org/notebooks/kernel-methods.html
     - [Kernel Method](https://en.wikipedia.org/wiki/Kernel_method)
@@ -131,7 +135,7 @@ Conceptual Model: Observational
 - [Where is Noether's principle in machine learning?](https://cgad.ski/blog/where-is-noethers-principle-in-machine-learning.html) ([cgad.ski](https://news.ycombinator.com/from?site=cgad.ski))
 - https://writings.stephenwolfram.com/2024/08/whats-really-going-on-in-machine-learning-some-minimal-models/
 - [Cognitive](https://app.notion.com/p/Cognitive-8292b945586b49d3b3e2c3323d8bb53a?pvs=21)
-- [Observational](observational.md)
+- [Observational](note.html?n=epistemica/observational/observational.md)
 - [Representation](https://app.notion.com/p/Representation-4afbffa763ec46eeb10d8c87c248edf1?pvs=21)
 - [**Branching Model**](../../../../../science/branching-model.md)
 - [‣](https://app.notion.com/p/193598edb790807b9cc1d17c9ba54773?pvs=21)

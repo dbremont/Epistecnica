@@ -1,3 +1,7 @@
+---
+order: 0
+---
+
 # Causality
 
 > In this note we explore the deep concept of causation and causal models.
@@ -485,7 +489,7 @@ Conceptual Model: Causality
 - https://plato.stanford.edu/entries/causation-mani/
 - https://plato.stanford.edu/entries/leibniz-causation/
 - https://plato.stanford.edu/entries/determinism-causal/
-- [Correlation](observational/correlation.md)
+- [Correlation](note.html?n=epistemica/observational/correlation.md)
 - https://causalwizard.app/reading/
 - [‣](https://app.notion.com/p/10e598edb79081fd9d75cab7a7c3ac9c?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb79081b8b31cfc140b68e1a8?pvs=21)
@@ -494,7 +498,7 @@ Conceptual Model: Causality
 - [Judea Pearl Publications](https://bayes.cs.ucla.edu/csl_papers.html)
 - https://arxiv.org/abs/cs/0011012?utm_source=chatgpt.com
 - Hall, Ned, John Collins, and Laurie Paul. Two concepts of causation. MIT Press, Cambridge, MA, 2004.
-- [**Probabilistic Graphical Model** (**PGM**)](observational/probabilistic-graphical-model-pgm.md)
+- [**Probabilistic Graphical Model** (**PGM**)](note.html?n=epistemica/observational/probabilistic-graphical-model-pgm.md)
 - https://public.econ.duke.edu/~kdh9/Courses/Causality%20Course/ReadingList.htm [Duke Causation Course]
 - https://en.wikipedia.org/wiki/Swiss_cheese_model
 - [Root Cause Analysis (RCA)](https://app.notion.com/p/Root-Cause-Analysis-RCA-236c0f5171ec80df9aebee5c3f24f6f1?pvs=21)

@@ -57,7 +57,7 @@ tags: [framework]
 
 [**Particle Filter**](../observational/particle-filter.md)
 
-[Adaptative](../adaptative.md) 
+[Adaptative](note.html?n=epistemica/adaptative/adaptative.md) 
 
 [**System Identification**](system-identification.md) 
 

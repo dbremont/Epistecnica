@@ -72,5 +72,5 @@ Key concepts in second-order **cybernetics** include:
 - https://mises.org/mises-daily/order-vs-organization
 - [Complexity](https://app.notion.com/p/Complexity-2633ab7c5d5a46519593153880c13e57?pvs=21)
 - 
-- [Adaptative](../adaptative.md)
+- [Adaptative](note.html?n=epistemica/adaptative/adaptative.md)
 - [Complex Adaptative Systems (CAS)](../complexity-science/complex-adaptative-systems-cas.md)

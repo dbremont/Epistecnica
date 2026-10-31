@@ -585,7 +585,7 @@
       "origins": "The “or equal” inequality of 20th-century printing (an older cut is ⩽); U+2264; TeX: \\le.",
       "usage": "a ≤ b — bounds and constraints in optimisation, inequalities in analysis, and the ≤ of complexity upper bounds.",
       "related": ["greater-equal", "much-less"],
-      "notes": ["epistemica/optimization.md"],
+      "notes": ["epistemica/optimization/optimization.md"],
       "sources": [
         { "label": "Wikipedia: Inequality (mathematics)", "url": "https://en.wikipedia.org/wiki/Inequality_(mathematics)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -603,7 +603,7 @@
       "origins": "Companion of ≤ in the same printing convention; U+2265; TeX: \\ge.",
       "usage": "a ≥ b — lower bounds, non-negativity constraints (λ ≥ 0) and “at least n” claims.",
       "related": ["less-equal", "lambda"],
-      "notes": ["epistemica/optimization.md"],
+      "notes": ["epistemica/optimization/optimization.md"],
       "sources": [
         { "label": "Wikipedia: Inequality (mathematics)", "url": "https://en.wikipedia.org/wiki/Inequality_(mathematics)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -963,7 +963,7 @@
       "origins": "Greek lambda (Λ), the seventh letter, adopted for eigenvalues and multipliers in 19th–20th-century analysis; U+03BB; TeX: \\lambda.",
       "usage": "Av = λv — eigenvalues; λ ≥ 0 — the Lagrange multiplier or the regularisation strength; λ — Poisson arrival rate.",
       "related": ["rho", "beta", "greater-equal"],
-      "notes": ["epistemica/mathematical/eigenvector.md", "epistemica/optimization.md"],
+      "notes": ["epistemica/mathematical/eigenvector.md", "epistemica/optimization/optimization.md"],
       "sources": [
         { "label": "Wikipedia: Eigenvalues and eigenvectors", "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors" },
         { "label": "Wikipedia: Lagrange multiplier", "url": "https://en.wikipedia.org/wiki/Lagrange_multiplier" }

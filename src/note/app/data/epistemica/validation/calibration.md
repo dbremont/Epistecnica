@@ -149,7 +149,7 @@ tags: [calibration, identifiability, validation, estimation]
 - [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md)
 - [Identification](note.html?n=epistemica/theory/identification.md)
 - [Modelling](note.html?n=epistemica/theory/modelling.md)
-- [Simulation](note.html?n=epistemica/simulation.md)
+- [Simulation](note.html?n=epistemica/simulation/simulation.md)
 - [Measurement Theory](note.html?n=epistemica/measurement/measurement-theory.md)
 - Anstett-Collin, F., Denis-Vidal, L., & Millérioux, L. (2020). A priori identifiability: An overview on definitions and approaches. *Annual Reviews in Control*, 50, 139–149.
 - Gneiting, T., & Raftery, A. E. (2007). Strictly proper scoring rules, prediction, and estimation. *Journal of the American Statistical Association*, 102(477), 359–378.

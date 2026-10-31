@@ -1,3 +1,7 @@
+---
+order: 0
+---
+
 # Optimization
 
 > **Optimization models** are mathematical frameworks used to systematically find the best solution from a set of possible options, given specific constraints and objectives.

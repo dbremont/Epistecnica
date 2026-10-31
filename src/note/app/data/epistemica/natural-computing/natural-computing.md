@@ -1,3 +1,7 @@
+---
+order: 0
+---
+
 # Natural Computing
 
 > **Natural Computing** refers to computational techniques inspired by natural systems, processes, and phenomena. These methods often mimic biological, physical, or ecological systems to solve complex problems.

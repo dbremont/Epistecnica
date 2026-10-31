@@ -1,3 +1,7 @@
+---
+order: 0
+---
+
 # Adaptative
 
 > Adaptative intelligence is the capacity of a system to sustain its viability over time by adaptively regulating its state through feedback-driven perception, action, and learning within a dynamic environment.

@@ -22,6 +22,16 @@
     ]
   },
   {
+    "file_path": "epistemica/adaptative/adaptative.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/adaptative/control-theory.md",
     "logs": [
       {
@@ -146,6 +156,16 @@
         "kind": "feat",
         "summary": "Import Causal Discovery from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/causality/causality.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
       }
     ]
   },
@@ -292,6 +312,16 @@
         "summary": "Delete the complexity-science topics note.",
         "commit": "e4583b7a0137ab228ab6634675190adf2c671359",
         "before": "b58aeeca081c9636075f489266d9f8460f7ddaf1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity/complexity-science.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
       }
     ]
   },
@@ -528,6 +558,11 @@
         "summary": "Repoint links after the computational-science → science rename and the construction split.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
         "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the tucked scope notes"
       }
     ]
   },
@@ -958,6 +993,11 @@
         "summary": "retarget the adaptative scope links",
         "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
         "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the tucked scope notes"
       }
     ]
   },
@@ -6188,6 +6228,16 @@
     ]
   },
   {
+    "file_path": "epistemica/natural-computing/natural-computing.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/natural-computing/neuroevolution.md",
     "logs": [
       {
@@ -8484,6 +8534,16 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/observational.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/one-hot-encoding.md",
     "logs": [
       {
@@ -9921,6 +9981,16 @@
     ]
   },
   {
+    "file_path": "epistemica/optimization/optimization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/optimization/robust-decision-making-rdm.md",
     "logs": [
       {
@@ -11103,6 +11173,16 @@
     ]
   },
   {
+    "file_path": "epistemica/science/science.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/science/smoothing.md",
     "logs": [
       {
@@ -11420,6 +11500,16 @@
     ]
   },
   {
+    "file_path": "epistemica/signal/signal-processing.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/simulation.md",
     "logs": [
       {
@@ -11434,6 +11524,16 @@
         "summary": "Repoint links after the computational-science → science rename and the construction split.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
         "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/simulation/simulation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "tuck the scope note into its own folder"
       }
     ]
   },
@@ -13076,6 +13176,11 @@
         "summary": "retarget the flattened theory links",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde",
         "before": "56e6f43c11f0cf5a16d0551dcf1f7bdbd19f9c45"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the tucked scope notes"
       }
     ]
   },
@@ -15221,6 +15326,11 @@
         "summary": "retarget practice links after the theory flatten",
         "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6",
         "before": "a92075a24557a33ee5eea7e009f509f75d10f48d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the tucked scope notes"
       }
     ]
   },
@@ -15718,6 +15828,11 @@
         "summary": "retarget practice links after the theory flatten",
         "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6",
         "before": "a92075a24557a33ee5eea7e009f509f75d10f48d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the tucked scope notes"
       }
     ]
   },

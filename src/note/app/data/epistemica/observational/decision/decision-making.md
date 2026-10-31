@@ -550,10 +550,10 @@ See:
 - **Baron, J. (2007).** *Thinking and deciding* (4th ed.). Cambridge University Press.
 - **Peterson, M. (2017).** *An introduction to decision theory* (2nd ed.). Cambridge University Press.
 - [Control Theory](../../adaptative/control-theory.md)
-- [Simulation](simulation.md)
-- [Causality](causality.md)
-- [Observational](observational.md)
-- [Adaptative](../../adaptative.md)
+- [Simulation](note.html?n=epistemica/simulation/simulation.md)
+- [Causality](note.html?n=epistemica/causality/causality.md)
+- [Observational](note.html?n=epistemica/observational/observational.md)
+- [Adaptative](note.html?n=epistemica/adaptative/adaptative.md)
 - https://www.edx.org/learn/discrete-mathematics/ecole-polytechnique-federale-de-lausanne-introduction-to-discrete-choice-models
 - Ben-Akiva, Moshe and Steven R. Lerman (1985) Discrete Choice Analysis: Theory and Application to Travel Demand. Cambridge, Mass.: MIT Press.
 - https://bactra.org/notebooks/political-decision-making.html
