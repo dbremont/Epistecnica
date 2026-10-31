@@ -69,3 +69,4 @@ tags: [analytical, framework, geometry]
 - [Differential geometry](https://en.wikipedia.org/wiki/Differential_geometry)
 - [Gauss–Bonnet theorem](https://en.wikipedia.org/wiki/Gauss%E2%80%93Bonnet_theorem)
 - https://ghomi.math.gatech.edu/LectureNotes/index.html
+- Cannas da Silva, A. (2001). *Lectures on Symplectic Geometry* (Lecture Notes in Mathematics 1764). Springer — [PDF](https://people.math.ethz.ch/~acannas/Papers/lsg.pdf)

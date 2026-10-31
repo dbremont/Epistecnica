@@ -288,3 +288,4 @@ Automatum: Conceptual Model
 - https://news.ycombinator.com/item?id=22629023
 - https://news.ycombinator.com/item?id=41600177
 - https://en.wikipedia.org/wiki/Servomotor
+- McCarthy, J. M. (1990). *An Introduction to Theoretical Kinematics*. MIT Press — [archive.org](https://archive.org/details/introductiontoth0000mcca)

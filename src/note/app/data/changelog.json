@@ -2617,6 +2617,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/mathematical/geometry/.",
         "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references"
       }
     ]
   },
@@ -40910,6 +40915,11 @@
         "kind": "refactor",
         "summary": "Move to technica/robotics/.",
         "commit": "e4583b7a0137ab228ab6634675190adf2c671359"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references"
       }
     ]
   }

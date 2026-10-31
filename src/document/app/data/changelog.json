@@ -18211,6 +18211,16 @@
     ]
   },
   {
+    "file_path": "books/mccarthy-1990-introduction-theoretical-kinematics-mit.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add McCarthy theoretical kinematics and Cannas da Silva symplectic geometry references"
+      }
+    ]
+  },
+  {
     "file_path": "books/mcconnell-2004-code-complete-pearson-education.md",
     "logs": [
       {
@@ -22283,6 +22293,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "papers/cannas-da-silva-2001-lectures-symplectic-geometry-eth.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add McCarthy theoretical kinematics and Cannas da Silva symplectic geometry references"
       }
     ]
   },
