@@ -81,8 +81,9 @@ frontend-facing surface in the deployment; there is no database behind it
   never introduce absolute `/api/...` or `/data/...` paths in page code.
 - **Catalogs and viewers render data, never literals.** The notes, courses, and
   documents catalogs and the shared viewer are generic renderers over the
-  generated indexes (`data/index.json`, `data/links.json`, the search snapshot)
-  and the corpus files those name. Never hardcode a corpus entry, section
+  corpus indexes (`data/index.json`, the search snapshot), the hand-maintained
+  `data/links.json` registry, and the corpus files those name. Never hardcode
+  a corpus entry, section
   name, directory, note title, or href to a corpus artifact in page code — no
   promoted cards, no `state.dir === '<name>'` special cases, no literal
   `data/<corpus>/…` links. To surface something, put it in the data (the
