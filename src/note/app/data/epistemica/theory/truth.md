@@ -4,7 +4,7 @@ tags: [epistemology, tooling]
 
 # Truth
 
-Related: [Epistemology](note.html?n=epistemica/theory/general/epistemology.md), [Ontology](note.html?n=epistemica/theory/general/ontology.md), [Explanation](note.html?n=epistemica/theory/explanation.md)
+Related: [Epistemology](note.html?n=epistemica/theory/epistemology.md), [Ontology](note.html?n=epistemica/theory/ontology.md), [Explanation](note.html?n=epistemica/theory/explanation.md)
 
 > A statement is **true** if and only if it **corresponds** to a state of affairs in the world.
 > 

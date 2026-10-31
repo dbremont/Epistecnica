@@ -4,7 +4,7 @@ tags: [philosophical-system, tooling]
 
 # Kant’s Method
 
-Related: [Hegel’s Method](note.html?n=epistemica/theory/method/hegel-method.md), [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md), [Concept](note.html?n=epistemica/theory/general/concept.md), [Schopenhauer's Method](note.html?n=epistemica/theory/method/schopenhauer-method.md)
+Related: [Hegel’s Method](note.html?n=epistemica/theory/method/hegel-method.md), [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md), [Concept](note.html?n=epistemica/theory/concept.md), [Schopenhauer's Method](note.html?n=epistemica/theory/method/schopenhauer-method.md)
 
 > Grounded in Immanuel Kant’s philosophy, it explores the nature of human knowledge, ethics, and aesthetics, emphasizing the role of reason and duty. While this outline focuses on his epistemology and metaphysics, these themes are further developed in his Critique of Practical Reason (ethics) and Critique of Judgment (aesthetics).
 > 

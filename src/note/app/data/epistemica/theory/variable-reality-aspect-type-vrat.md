@@ -4,7 +4,7 @@ tags: [epistemology]
 
 # Variable–Reality Aspect Type (VRAT)
 
-Related: [Variable](note.html?n=epistemica/theory/variable.md), [State Descriptor](note.html?n=epistemica/theory/general/state-descriptor.md)
+Related: [Variable](note.html?n=epistemica/theory/variable.md), [State Descriptor](note.html?n=epistemica/theory/state-descriptor.md)
 
 > In this note, we explore the notion of **Variable–Reality Aspect Type (VRAT)** as an intellectual mechanism for separating the aspect of reality under investigation from its representation.
 > 

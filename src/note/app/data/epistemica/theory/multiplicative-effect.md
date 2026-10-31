@@ -1,6 +1,6 @@
 # Multiplicative Effect
 
-Related: [Compound Effect](note.html?n=epistemica/theory/general/compound-effect.md)
+Related: [Compound Effect](note.html?n=epistemica/theory/compound-effect.md)
 
 > 
 

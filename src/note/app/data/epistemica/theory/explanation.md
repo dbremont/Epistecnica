@@ -4,7 +4,7 @@ tags: [epistemology, tooling]
 
 # Explanation
 
-Related: [Truth](note.html?n=epistemica/theory/truth.md), [Reason](note.html?n=epistemica/theory/general/reason.md), [Evolutionary Explanation](note.html?n=epistemica/theory/evolutionary-explanation.md), [Causality](note.html?n=nature/theory/causality.md)
+Related: [Truth](note.html?n=epistemica/theory/truth.md), [Reason](note.html?n=epistemica/theory/reason.md), [Evolutionary Explanation](note.html?n=epistemica/theory/evolutionary-explanation.md), [Causality](note.html?n=nature/theory/causality.md)
 
 > In this note we will explain **explanations**—one of the most useful, if not the most useful, **epistemic praxis**.
 > 
@@ -343,7 +343,7 @@ Case:
 
 ## References
 
-- [Epistemology](note.html?n=epistemica/theory/general/epistemology.md)
+- [Epistemology](note.html?n=epistemica/theory/epistemology.md)
 - https://plato.stanford.edu/entries/scientific-explanation/
 - https://en.wikipedia.org/wiki/Explanation
 - https://en.wikipedia.org/wiki/Georg_Henrik_von_Wright
@@ -355,4 +355,4 @@ Case:
 - An Essay on Pattern, Prediction, Randomness and Explanation
 - Causality
 - https://www.lesswrong.com/posts/jcTsbaQ8hNc7qxwaQ/explanations-as-hard-to-vary-assertions
-- [Pattern](note.html?n=epistemica/theory/general/pattern.md)
+- [Pattern](note.html?n=epistemica/theory/pattern.md)

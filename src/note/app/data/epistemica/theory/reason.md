@@ -4,7 +4,7 @@ tags: [tooling]
 
 # Reason
 
-Related: [Concept](note.html?n=epistemica/theory/general/concept.md), [Epistemology](note.html?n=epistemica/theory/general/epistemology.md), [Explanation](note.html?n=epistemica/theory/explanation.md)
+Related: [Concept](note.html?n=epistemica/theory/concept.md), [Epistemology](note.html?n=epistemica/theory/epistemology.md), [Explanation](note.html?n=epistemica/theory/explanation.md)
 
 > aka.  Parsing and Altering Reality.
 > 

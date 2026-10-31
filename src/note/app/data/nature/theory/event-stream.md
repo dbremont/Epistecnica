@@ -4,7 +4,7 @@ tags: [ontology, phenomenology]
 
 # Event Stream
 
-Related: [Ontology](note.html?n=epistemica/theory/general/ontology.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
+Related: [Ontology](note.html?n=epistemica/theory/ontology.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
 
 > A ‘event stream’ is a  highly abstract notion that captures the **manifestation (i.e., events)** of a portion of reality (a system, ecosystem, etc.).
 > 

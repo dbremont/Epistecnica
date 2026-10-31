@@ -174,7 +174,7 @@ que totaliza, engloba o abarca una serie de partes individuales (hechos,  ideas,
 > A **state descriptor** is a (possibly many-to-one) mapping $d: \mathcal{S} \rightarrow \mathcal{Y}$  from the system’s state space $\mathcal{S}$ to a representation space $\mathcal{Y}$, such that $d(s)$ encodes selected, possibly lossy, structural or functional properties of the underlying state $s \in \mathcal{S}$ without constituting a generative coordinate of the system’s phase space dynamics; equivalently, it is an epistemic projection or feature functional over state space used to summarize, classify, compare, or control states with respect to analytically or normatively relevant criteria.
 > 
 
-> See more in [State Descriptor](note.html?n=epistemica/theory/general/state-descriptor.md).
+> See more in [State Descriptor](note.html?n=epistemica/theory/state-descriptor.md).
 > 
 
 ### Variable

@@ -20,7 +20,7 @@ qa:
 
 # Modelling
 
-Related: [Model](note.html?n=epistemica/theory/model.md), [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md), [Representation](note.html?n=epistemica/theory/general/representation.md), [Affirmation Space](note.html?n=epistemica/theory/affirmation-space.md), [Variable](note.html?n=epistemica/theory/variable.md), [State](note.html?n=epistemica/theory/state.md), [Activity](note.html?n=epistemica/theory/activity.md), [Reality](note.html?n=nature/theory/reality.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
+Related: [Model](note.html?n=epistemica/theory/model.md), [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md), [Representation](note.html?n=epistemica/theory/representation.md), [Affirmation Space](note.html?n=epistemica/theory/affirmation-space.md), [Variable](note.html?n=epistemica/theory/variable.md), [State](note.html?n=epistemica/theory/state.md), [Activity](note.html?n=epistemica/theory/activity.md), [Reality](note.html?n=nature/theory/reality.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
 
 > Let’s model modelling, a note on the theory modelling (that is the praxis of epistemology).
 > 
@@ -619,7 +619,7 @@ Aphorisms:
 - A General Guide to Representation & Estimation
 
 - **Model Theory**
-- [Epistemology](note.html?n=epistemica/theory/general/epistemology.md)
+- [Epistemology](note.html?n=epistemica/theory/epistemology.md)
 - (**Church–Turing Thesis**) Computationalism
 - Adaptative
 - https://en.wikipedia.org/wiki/Metamodeling
@@ -632,7 +632,7 @@ Aphorisms:
 - https://www.nature.com/articles/s41586-022-05543-x
 - Peer review is an honor-based system ([lemire.me](http://lemire.me/))
 [https://news.ycombinator.com/item?id=38982912](https://news.ycombinator.com/item?id=38982912)
-- [Ontology](note.html?n=epistemica/theory/general/ontology.md)
+- [Ontology](note.html?n=epistemica/theory/ontology.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - Anstett-Collin, F., Denis-Vidal, L., & Millérioux, L. (2020). A priori identifiability: An overview on definitions and approaches. *Annual Reviews in Control*, 50, 139–149.

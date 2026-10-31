@@ -4,7 +4,7 @@ tags: [epistemology]
 
 # Variable
 
-Related: [Modelling](note.html?n=epistemica/theory/modelling.md), [Variable–Reality Aspect Type (VRAT)](note.html?n=epistemica/theory/variable-reality-aspect-type-vrat.md), [State Descriptor](note.html?n=epistemica/theory/general/state-descriptor.md)
+Related: [Modelling](note.html?n=epistemica/theory/modelling.md), [Variable–Reality Aspect Type (VRAT)](note.html?n=epistemica/theory/variable-reality-aspect-type-vrat.md), [State Descriptor](note.html?n=epistemica/theory/state-descriptor.md)
 
 > A variable is an abstraction mechanism, technique  that formalized the platonic notion of **`Variable–Reality Aspect Type`**   - a identifiable dimension (aspect) in which a  piece of realty can vary.
 > 

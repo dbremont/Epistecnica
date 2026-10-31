@@ -116,7 +116,7 @@ The following principles summarize these features:
 > What is reality like? Which are the elements that makes up reality? How do we identify such elements?  How to think deeply about changed? How to think about changed as an element of reality itself?
 > 
 
-> See more in [Ontology](note.html?n=epistemica/theory/general/ontology.md).
+> See more in [Ontology](note.html?n=epistemica/theory/ontology.md).
 > 
 
 ### Level of Reality
@@ -138,7 +138,7 @@ The following principles summarize these features:
 > The templates of reality are not ontic concepts; rather, they are epistemic constructs that allow us to parse and structure reality.
 > 
 
-> See more in [Ontology Template](note.html?n=epistemica/theory/general/ontology.md) and [Segment](note.html?n=nature/theory/segment.md).
+> See more in [Ontology Template](note.html?n=epistemica/theory/ontology.md) and [Segment](note.html?n=nature/theory/segment.md).
 > 
 
 | **Category** | **Notion** | **Description** |
@@ -175,7 +175,7 @@ The following principles summarize these features:
 > **What constitutes an epistemic tool, and how does it mediate access to reality?**
 > 
 
-> See more in [Epistemology](note.html?n=epistemica/theory/general/epistemology.md), [Ontology](note.html?n=epistemica/theory/general/ontology.md), [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md) and Observer.
+> See more in [Epistemology](note.html?n=epistemica/theory/epistemology.md), [Ontology](note.html?n=epistemica/theory/ontology.md), [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md) and Observer.
 > 
 
 > Note:  For reality section -  and a abstract template to encoded - see Ontology.
@@ -450,6 +450,6 @@ On this setting to what do we attribute compression of observations? or What hum
 - https://en.wikipedia.org/wiki/Reality
 - Nature
 - [Reality](note.html?n=nature/theory/reality.md)
-- [Ontology](note.html?n=epistemica/theory/general/ontology.md)
+- [Ontology](note.html?n=epistemica/theory/ontology.md)
 
 [Philosophy](note.html?n=epistemica/theory/philosophy.md)

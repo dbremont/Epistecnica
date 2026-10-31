@@ -63,7 +63,7 @@
       "origins": "The inverted A for “all”, fixed in the quantifier notation that became standard in the 1930s logic literature; U+2200; TeX: \\forall.",
       "usage": "∀x ∈ S: P(x) — definitions, axioms and invariants throughout the corpus; always paired with ∃.",
       "related": ["there-exists", "element-of"],
-      "notes": ["epistemica/theory/general/definition.md", "epistemica/mathematical/set.md"],
+      "notes": ["epistemica/theory/definition.md", "epistemica/mathematical/set.md"],
       "sources": [
         { "label": "Wikipedia: Quantifier (mathematics)", "url": "https://en.wikipedia.org/wiki/Quantifier_(mathematics)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -999,7 +999,7 @@
       "origins": "The := of set theory and computer science (also ≔, U+2254); TeX writes it as :=, with \\coloneqq (mathtools) for the spaced form.",
       "usage": "f(x) := x² — a definition; kept distinct from = (a claim to be proved) and ≡ (identity).",
       "related": ["identical", "coloneqq", "maps-to"],
-      "notes": ["epistemica/theory/general/definition.md", "epistemica/theory/variable.md"],
+      "notes": ["epistemica/theory/definition.md", "epistemica/theory/variable.md"],
       "sources": [
         { "label": "Wikipedia: Assignment (computer science)", "url": "https://en.wikipedia.org/wiki/Assignment_(computer_science)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -1017,7 +1017,7 @@
       "origins": "U+225C, the delta-equal-to of engineering and physics typography; TeX: \\triangleq.",
       "usage": "A ≜ B — defining a quantity inline, common in the physics-flavoured notes where := would read as an assignment.",
       "related": ["defined-as", "identical"],
-      "notes": ["epistemica/theory/general/definition.md"],
+      "notes": ["epistemica/theory/definition.md"],
       "sources": [
         { "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)", "url": "https://www.unicode.org/charts/PDF/U2200.pdf" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }

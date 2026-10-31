@@ -33,4 +33,4 @@ In both cases, what emerges is **not just a cumulative sum of parts**, but a **n
 ## References
 
 - [Emergence](https://en.wikipedia.org/wiki/Emergence)
-- [Self-Organization](note.html?n=epistemica/theory/general/self-organization.md)
+- [Self-Organization](note.html?n=epistemica/theory/self-organization.md)
