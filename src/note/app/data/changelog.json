@@ -1351,7 +1351,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
+        "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
       }
     ]
   },
@@ -2397,7 +2399,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2407,7 +2410,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2417,7 +2421,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2427,7 +2432,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2437,7 +2443,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the Geometric Shape note to the geometry corpus."
+        "summary": "Add the Geometric Shape note to the geometry corpus.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2447,7 +2454,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/ and pin it first with order: 0."
+        "summary": "Move to epistemica/mathematical/geometry/ and pin it first with order: 0.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2457,7 +2465,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2467,7 +2476,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2477,7 +2487,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2487,7 +2498,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2497,7 +2509,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2507,7 +2520,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -2517,7 +2531,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/."
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
       }
     ]
   },
@@ -4704,7 +4719,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
+        "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
       }
     ]
   },
@@ -8066,7 +8083,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
+        "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
       }
     ]
   },
@@ -8547,7 +8566,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
+        "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
       }
     ]
   },
@@ -9174,7 +9195,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
+        "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
       }
     ]
   },
