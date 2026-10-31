@@ -109,9 +109,14 @@ notes, preserving the export's subcollection tree
 ## Theory corpus
 
 `data/epistemica/theory/` is the flattened epistemic-theory scope:
-`theory/philosophy.md`, the `theory/minimal.md` principle note, the
-identifiability note `theory/modelling.md`, and the former
-`theory/practice/` notes with their `general/` and `method/` subscopes.
+`theory/philosophy.md`, the identifiability note `theory/modelling.md`,
+and the former `theory/practice/` notes.
+
+`data/epistemica/guidance/` holds what grounds and guides inquiry: the
+ontic condition notes at its root (`equilibrium`, `stable`, …),
+`guidance/principles/` for rules of proceeding (`occam-razor`,
+`minimum-description-length-mdl`, …), and `guidance/method/` for the
+philosophical-method notes.
 
 `data/nature/theory/` holds the natural-ontology theory scope: the ontic
 element notes (event, causality, system, segment, reality, …), the local

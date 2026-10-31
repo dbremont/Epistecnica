@@ -110,9 +110,13 @@ frontend-facing surface in the deployment; there is no database behind it
   (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
   `src/persona/README.md`).
 - `data/epistemica/theory/` is the flattened epistemic-theory scope:
-  `theory/philosophy.md`, `theory/minimal.md`, the identifiability note
-  `theory/modelling.md` (epistemic-element schema), and the former
-  `theory/practice/` notes with their `general/` and `method/` subscopes.
+  `theory/philosophy.md`, the identifiability note `theory/modelling.md`
+  (epistemic-element schema), and the former `theory/practice/` notes.
+- `data/epistemica/guidance/` holds what grounds and guides inquiry: the
+  ontic condition notes at its root (`equilibrium`, `stable`, …),
+  `guidance/principles/` for rules of proceeding (`occam-razor`,
+  `minimum-description-length-mdl`, `least-action-principle`, …), and
+  `guidance/method/` for the philosophical-method notes.
 - `data/nature/theory/` holds the natural-ontology theory scope moved out of
   `epistemica/theory/ontology/`: the ontic element notes (event, causality,
   system, segment, reality, …), the local *Philosophia Naturalis* import

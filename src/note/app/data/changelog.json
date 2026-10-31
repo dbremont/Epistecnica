@@ -1471,6 +1471,76 @@
     ]
   },
   {
+    "file_path": "epistemica/guidance/principles/conservation-law.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "file the principle under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principles/falsifiability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "file the principle under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principles/least-action-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "file the principle under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principles/minimal.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "file the principle under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principles/minimum-description-length-mdl.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "file the principle under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principles/occam-razor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "file the principle under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principles/principle-of-sufficient-reason-psr.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "file the principle under guidance"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/guidance/recurrence.md",
     "logs": [
       {
@@ -12769,6 +12839,11 @@
         "kind": "refactor",
         "summary": "flatten the theory general scope",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the principles-scope link"
       }
     ]
   },
