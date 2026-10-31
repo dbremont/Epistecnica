@@ -425,7 +425,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -746,7 +748,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -776,7 +780,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -896,7 +902,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -1791,7 +1799,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -2052,7 +2062,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2068,7 +2079,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2084,7 +2096,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2100,7 +2113,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2116,7 +2130,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2132,7 +2147,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2148,7 +2164,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2164,7 +2181,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2180,7 +2198,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2196,7 +2215,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2212,7 +2232,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2228,7 +2249,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2251,7 +2273,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2267,7 +2290,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2283,7 +2307,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2299,7 +2324,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2315,7 +2341,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2331,7 +2358,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2347,7 +2375,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2363,7 +2392,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2379,7 +2409,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2395,7 +2426,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2411,7 +2443,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2427,7 +2460,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2443,7 +2477,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2459,7 +2494,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2475,7 +2511,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2491,7 +2528,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2507,7 +2545,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2523,7 +2562,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2539,7 +2579,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2555,7 +2596,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2599,7 +2641,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2636,7 +2679,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2652,7 +2696,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2668,7 +2713,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2684,7 +2730,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2700,7 +2747,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2723,7 +2771,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2739,7 +2788,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2755,7 +2805,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2771,7 +2822,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2787,7 +2839,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2803,7 +2856,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2819,7 +2873,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2835,7 +2890,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2851,7 +2907,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2867,7 +2924,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2883,7 +2941,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2899,7 +2958,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2915,7 +2975,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2931,7 +2992,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2947,7 +3009,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2963,7 +3026,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2979,7 +3043,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -2995,7 +3060,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3011,7 +3077,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3027,7 +3094,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3043,7 +3111,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3059,7 +3128,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3075,7 +3145,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3091,7 +3162,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3107,7 +3179,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3201,7 +3274,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3255,7 +3329,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3271,7 +3346,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3287,7 +3363,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3385,7 +3462,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3480,7 +3558,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3530,7 +3609,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3614,7 +3694,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3630,7 +3711,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3714,7 +3796,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -3828,7 +3911,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -3973,7 +4058,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the mathematical construction scope master note."
+        "summary": "Add the mathematical construction scope master note.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4318,7 +4404,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -4524,7 +4612,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4540,7 +4629,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4556,7 +4646,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4572,7 +4663,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4588,7 +4680,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4604,7 +4697,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4620,7 +4714,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4636,7 +4731,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4652,7 +4748,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4668,7 +4765,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4684,7 +4782,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4700,7 +4799,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4716,7 +4816,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4732,7 +4833,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4748,7 +4850,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -4764,7 +4867,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5094,7 +5198,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5110,7 +5215,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5133,7 +5239,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5149,7 +5256,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5165,7 +5273,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5188,7 +5297,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5204,7 +5314,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5220,7 +5331,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5236,7 +5348,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5252,7 +5365,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5349,7 +5463,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5365,7 +5480,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5381,7 +5497,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5397,7 +5514,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5413,7 +5531,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5429,7 +5548,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5445,7 +5565,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5461,7 +5582,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5477,7 +5599,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5493,7 +5616,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5509,7 +5633,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5525,7 +5650,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5541,7 +5667,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5564,7 +5691,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5580,7 +5708,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5596,7 +5725,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5612,7 +5742,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5628,7 +5759,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5644,7 +5776,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5660,7 +5793,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5676,7 +5810,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -5761,7 +5896,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -5777,7 +5914,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -5870,7 +6009,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -5974,7 +6115,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -6192,7 +6335,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the mathematical method scope master note."
+        "summary": "Add the mathematical method scope master note.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6318,7 +6462,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6341,7 +6486,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6357,7 +6503,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6392,7 +6539,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6408,7 +6556,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6424,7 +6573,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6440,7 +6590,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6456,7 +6607,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6472,7 +6624,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6488,7 +6641,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6511,7 +6665,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6527,7 +6682,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6543,7 +6699,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6566,7 +6723,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6593,7 +6751,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6614,7 +6773,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6630,7 +6790,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6646,7 +6807,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -6818,7 +6980,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -7143,7 +7307,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -7366,7 +7532,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -7409,7 +7577,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -7492,7 +7662,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -7530,7 +7702,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7546,7 +7719,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7562,7 +7736,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7578,7 +7753,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7594,7 +7770,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7610,7 +7787,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7626,7 +7804,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7642,7 +7821,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7665,7 +7845,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7681,7 +7862,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7697,7 +7879,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links."
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -7707,7 +7890,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the transformation-rule catalogue (rules are constitutive elements, not operators)."
+        "summary": "Add the transformation-rule catalogue (rules are constitutive elements, not operators).",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
       }
     ]
   },
@@ -8240,7 +8424,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -8599,7 +8785,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -8655,7 +8843,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -8677,7 +8867,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -9025,7 +9217,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -9286,7 +9480,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -9319,7 +9515,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -9689,7 +9887,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -9779,7 +9979,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -10213,7 +10415,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -10235,7 +10439,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -10975,7 +11181,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -10998,7 +11206,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -11201,7 +11411,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -11355,7 +11567,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -11445,7 +11659,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -11719,7 +11935,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -11860,7 +12078,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -12264,7 +12484,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -13421,7 +13643,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -13885,7 +14109,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
@@ -19742,7 +19968,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation."
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
       }
     ]
   },
