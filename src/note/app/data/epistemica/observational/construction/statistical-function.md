@@ -54,7 +54,7 @@ tags: [abstract-framework]
 > Variant(s):  Variations.
 > 
 
-> Random Variables - [Operator](random-variable.md).
+> Random Variables - [Operator](../probability/random-variable.md).
 > 
 
 | Category | Function | Function Spec | Description | Affirmation Space Encoding | Variant(s) | Tags |

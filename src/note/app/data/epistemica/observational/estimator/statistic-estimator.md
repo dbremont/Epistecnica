@@ -423,7 +423,7 @@ $\text{Err}(x) = \underbrace{\big(\mathbb{E}[\hat{f}(x)] - f(x)\big)^2}_{\textbf
 > The **Cramér–Rao Lower Bound (CRLB)** is a **fundamental result in statistics** that gives a **theoretical lower limit on the variance of any unbiased estimator** of a parameter.
 > 
 
-> See more in [Cramér–Rao Lower Bound (CRLB)](cramerrao-lower-bound-crlb.md).
+> See more in [Cramér–Rao Lower Bound (CRLB)](../construction/cramerrao-lower-bound-crlb.md).
 > 
 
 ### **Lehmann–Scheffé Theorem**

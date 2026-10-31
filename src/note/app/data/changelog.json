@@ -750,6 +750,11 @@
         "summary": "retarget the estimator links after the estimator move",
         "commit": "85f208c59904456b9885fefe4f705fea910dd121",
         "before": "823af59ec183e7716714739499a8d032ee047280"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the construction links after the theory move"
       }
     ]
   },
@@ -815,6 +820,11 @@
         "summary": "retarget the estimator links after the estimator move",
         "commit": "85f208c59904456b9885fefe4f705fea910dd121",
         "before": "823af59ec183e7716714739499a8d032ee047280"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the construction links after the theory move"
       }
     ]
   },
@@ -6694,17 +6704,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/central-limit-theorem-clt.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Central Limit Theorem (CLT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/characteristic-function.md",
     "logs": [
       {
@@ -7862,6 +7861,131 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/construction/central-limit-theorem-clt.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Central Limit Theorem (CLT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/construction scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/construction/construction/cramerrao-lower-bound-crlb.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cramér–Rao Lower Bound (CRLB) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope",
+        "commit": "85f208c59904456b9885fefe4f705fea910dd121"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/construction scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/construction/glivenkocantelli-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Glivenko–Cantelli Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/construction scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/construction/law-of-large-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Law of Large Number from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/construction scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/construction/law-of-the-iterated-logarithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Law of the Iterated Logarithm from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/construction scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/construction/statistical-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Statistical Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/construction scope and repair the random-variable link"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/construction/theory-of-statistics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Theory of Statistics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/construction scope as the scope note of the construction folder"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/correlation.md",
     "logs": [
       {
@@ -8568,23 +8692,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/estimator/cramerrao-lower-bound-crlb.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cramér–Rao Lower Bound (CRLB) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "move into the observational/estimator scope",
-        "commit": "85f208c59904456b9885fefe4f705fea910dd121"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/estimator/jamesstein-estimator.md",
     "logs": [
       {
@@ -8724,6 +8831,11 @@
         "kind": "refactor",
         "summary": "move into the observational/estimator scope and fix the root links",
         "commit": "85f208c59904456b9885fefe4f705fea910dd121"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the construction links after the theory move"
       }
     ]
   },
@@ -8830,17 +8942,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Free Probability Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/glivenkocantelli-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Glivenko–Cantelli Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9270,28 +9371,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Latent Semantic Analysis (LSA) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/law-of-large-number.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Law of Large Number from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/law-of-the-iterated-logarithm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Law of the Iterated Logarithm from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -10393,24 +10472,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/statistical-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Statistical Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-20",
-        "kind": "docs",
-        "summary": "Update space links after the space-scope move.",
-        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
-        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/statistics.md",
     "logs": [
       {
@@ -10493,17 +10554,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Theory of Probability from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/theory-of-statistics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Theory of Statistics from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]

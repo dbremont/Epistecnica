@@ -360,7 +360,7 @@ Within this framework:
 > A fundamental concept that maps the sample space, outcomes, and events to a numerical domain, either simple or complex,  facilitating the certain numerical computations, like expectation etc.
 > 
 
-> See more [Distribution](../observational/distribution/distribution.md),  [Random Object](../observational/random-object.md) and [Statistical Function](../observational/statistical-function.md).
+> See more [Distribution](../observational/distribution/distribution.md),  [Random Object](../observational/random-object.md) and [Statistical Function](../observational/construction/statistical-function.md).
 > 
 
 ### Join Probability
@@ -540,7 +540,7 @@ Building Blocks:
 > [Random Object](../observational/random-object.md): – An entity whose value is **not deterministic** but governed by a probability distribution; can be a variable, vector, or more complex structure.
 > 
 
-> [Statistical Function](../observational/statistical-function.md):  A function or transformation that **acts on random objects or distributions**, producing new objects or modifying their properties (e.g., sum, scaling, convolution).
+> [Statistical Function](../observational/construction/statistical-function.md):  A function or transformation that **acts on random objects or distributions**, producing new objects or modifying their properties (e.g., sum, scaling, convolution).
 > 
 
 > [Distribution](../observational/distribution/distribution.md):  A formal description of the **probabilistic behavior of a random object**, specifying the likelihood of different outcomes.
