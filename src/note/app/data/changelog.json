@@ -902,7 +902,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the EDA link after the observational move"
+        "summary": "retarget the EDA link after the observational move",
+        "commit": "10157e197438d0126738ae03b77a4dc872790316",
+        "before": "2975449d856b1de5edfd50854a446ff94f143c35"
       }
     ]
   },
@@ -1139,7 +1141,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the EDA link after the observational move"
+        "summary": "retarget the EDA link after the observational move",
+        "commit": "10157e197438d0126738ae03b77a4dc872790316",
+        "before": "2975449d856b1de5edfd50854a446ff94f143c35"
       }
     ]
   },
@@ -9292,7 +9296,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move up from the epistemica root into the observational scope"
+        "summary": "move up from the epistemica root into the observational scope",
+        "commit": "10157e197438d0126738ae03b77a4dc872790316"
       }
     ]
   },
@@ -10949,7 +10954,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/representation scope"
+        "summary": "move into the observational/representation scope",
+        "commit": "10157e197438d0126738ae03b77a4dc872790316"
       }
     ]
   },
@@ -10965,7 +10971,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/representation scope"
+        "summary": "move into the observational/representation scope",
+        "commit": "10157e197438d0126738ae03b77a4dc872790316"
       }
     ]
   },
@@ -13114,6 +13121,11 @@
         "summary": "retarget the flattened theory links",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde",
         "before": "56e6f43c11f0cf5a16d0551dcf1f7bdbd19f9c45"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "drop the link to the removed epistemic-system note"
       }
     ]
   },
@@ -13355,6 +13367,11 @@
         "kind": "refactor",
         "summary": "flatten the theory general scope",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "remove the superseded note"
       }
     ]
   },
@@ -14653,6 +14670,11 @@
         "summary": "retarget the tucked scope notes",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d",
         "before": "65a570eafea2191c3b73535a163a9c190a8b5c84"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "add the modelling-practice material to the theory note"
       }
     ]
   },
@@ -14719,6 +14741,11 @@
         "kind": "refactor",
         "summary": "flatten the theory general scope",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "remove the superseded note"
       }
     ]
   },

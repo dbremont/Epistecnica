@@ -4,7 +4,7 @@ tags: [epistemology, tooling]
 
 # Bayesian Epistemology
 
-Related: [Epistemology](note.html?n=epistemica/theory/epistemology.md), [The Problem of Induction](note.html?n=epistemica/theory/the-problem-of-induction.md), [Epistemic System](note.html?n=epistemica/theory/epistemic-system.md)
+Related: [Epistemology](note.html?n=epistemica/theory/epistemology.md), [The Problem of Induction](note.html?n=epistemica/theory/the-problem-of-induction.md)
 
 > **Bayesian epistemology** is the study of how individuals form, update, and justify beliefs using Bayesian probability theory, emphasizing belief revision based on evidence and rational consistency.
 > 

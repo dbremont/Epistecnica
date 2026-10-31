@@ -20,13 +20,10 @@ qa:
 
 # Modelling
 
-Related: [Model](note.html?n=epistemica/theory/model.md), [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md), [Representation](note.html?n=epistemica/theory/representation.md), [Affirmation Space](note.html?n=epistemica/theory/affirmation-space.md), [Variable](note.html?n=epistemica/theory/variable.md), [State](note.html?n=epistemica/theory/state.md), [Activity](note.html?n=epistemica/theory/activity.md), [Reality](note.html?n=nature/theory/reality.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
-
 > Let’s model modelling, a note on the theory modelling (that is the praxis of epistemology).
-> 
 
 > Note: This is a highly - abstraction framework - not  a guide -in research practice - there is feedback loop, and strategy (what, how, when?) are streamly relevant - for any practice project advances.
-> 
+
 
 > **Note:** A model of reality is, fundamentally, an **affirmation about reality** — often a **composite affirmation** built from more basic, fundamental affirmations. However, this is not always strictly the case: in **effective models**, some components of the model may **not correspond directly to affirmations about reality**, but serve as computational or conceptual tools. Still, in general, the **model as a whole represents an affirmation about reality**.
 > 
@@ -443,7 +440,7 @@ Aphorisms:
 [Computational Science](note.html?n=epistemica/science/science.md)
 [Formal Concept Analysis (FCA)](note.html?n=epistemica/formal-concept-analysis-fca.md)
 [**System of Units of Measurement**](note.html?n=epistemica/measurement/system-of-units-of-measurement.md)
-[Exploratory Data Analysis (EDA)](note.html?n=epistemica/exploratory-data-analysis-eda.md)
+[Exploratory Data Analysis (EDA)](note.html?n=epistemica/observational/exploratory-data-analysis-eda.md)
 
 #### Relations among connectors
 
@@ -610,7 +607,57 @@ Aphorisms:
 ### What is the nature of the ‘Variable Reality Aspect Type Abstraction’ as an epistemic element? What is its history?
 
 > This appears to be one of the greatest breakthroughs in human thought—especially the development of numerical variables.
-> 
+
+### What Are the Criteria for Evaluating a Model or Representation?
+
+| Criterion | Description |
+|---|---|
+| **Representational Adequacy (Semantic Adequacy)** | The extent to which the meaning, structure, and properties represented by the model correspond to those of the target phenomenon. |
+| **Empirical Adequacy** | The extent to which the model's representations and implications are consistent with empirical observations and measurements. |
+| **Accuracy** | The degree to which the model's represented quantities, relationships, or outputs approximate their corresponding values in the target phenomenon. |
+| **Completeness** | The extent to which the model includes all relevant elements, properties, relationships, and mechanisms required for its intended purpose. |
+| **Consistency** | The absence of contradictions among the model's assumptions, definitions, structures, relationships, and derived implications. |
+| **Structural Fidelity** | The extent to which the model preserves the relevant structural organization and relationships of the target phenomenon. |
+| **Explanatory Adequacy** | The extent to which the model accounts for the observed behavior, properties, or mechanisms of the target phenomenon. |
+| **Predictive Performance** | The extent to which the model produces reliable predictions about observations or outcomes not used in its construction or calibration. |
+| **Robustness** | The extent to which the model's conclusions and behavior remain reliable under reasonable variations in assumptions, parameters, inputs, or conditions. |
+| **Generalizability** | The extent to which the model remains applicable across different instances, conditions, populations, or domains beyond those used in its construction. |
+| **Precision** | The degree of specificity and resolution with which the model represents relevant properties or produces estimates. |
+| **Parsimony** | The extent to which the model represents the target adequately without unnecessary assumptions, parameters, components, or complexity. |
+| **Interpretability** | The extent to which the model's structure, assumptions, operations, and outputs can be understood and examined. |
+| **Operationality** | The extent to which the model can be effectively used to perform its intended operations, such as computation, simulation, estimation, or prediction. |
+| **Computational Tractability** | The extent to which the model can be constructed, evaluated, and operated within available computational and resource constraints. |
+| **Coherence** | The extent to which the model's components, assumptions, relationships, and implications form an intelligible and mutually compatible whole. |
+| **Plausibility** | The extent to which the model's assumptions, mechanisms, and implications are reasonable or credible given existing knowledge and understanding of the target phenomenon. |
+
+### What are the Deep Epistemic and Metaphysical Aspects of Something Like: "2 Turtles and 3 Seals Are Swimming. How Many Animals Are Swimming?"
+
+| Aspect | Description |
+|---|---|
+| **Ontological Commitment** | The presupposition that entities exist independently of their representation and can be identified as individual objects. |
+| **Individuation** | The identification and differentiation of individual entities, allowing each animal to be treated as a distinct entity. |
+| **Categorization** | The classification of entities into kinds or categories, such as turtles, seals, and animals. |
+| **Ontological Hierarchy** | The relationship between specific kinds and more general kinds: turtles and seals are both animals. |
+| **Property Attribution** | The attribution of properties or states to entities, such as being an animal and swimming. |
+| **Epistemic Access** | The acquisition of information about the entities and their properties, whether through observation, testimony, or a provided description. |
+| **Information Representation** | The encoding of the acquired information in a linguistic or symbolic form. |
+| **Semantic Interpretation** | The interpretation of linguistic expressions, establishing what entities, properties, quantities, and relationships they denote. |
+| **Problem Formulation** | The transformation of an informal question into a sufficiently well-defined problem with identifiable inputs, conditions, and an intended output. |
+| **Representational Adequacy** | The extent to which the chosen representation captures the relevant properties and relationships of the target for the intended purpose. |
+| **Abstraction** | The deliberate omission of irrelevant properties while retaining those necessary for solving the problem. Individual animal characteristics are discarded while category membership and cardinality are retained. |
+| **Semantic Compatibility** | The establishment that different represented quantities can meaningfully participate in a common operation. Turtle and seal cardinalities can be combined because both count members of the category Animal. |
+| **Operational Admissibility** | The establishment that a particular mathematical operation is legitimate given the meaning and constraints of its operands. |
+| **Mathematical Representation** | The transformation of the problem into mathematical objects, such as sets, elements, relations, and cardinal numbers. |
+| **Quantification** | The assignment or determination of numerical quantities associated with collections of entities. |
+| **Cardinality** | The mathematical characterization of the number of distinct elements in a collection. |
+| **Mathematical Structure** | The identification of the mathematical structures governing the problem, such as sets, subset relations, unions, and cardinality. |
+| **Mathematical Operation** | The application of an operation, in this case addition, to combine the cardinalities of two collections. |
+| **Inference** | The derivation of a conclusion from the available information, assumptions, and mathematical relationships. |
+| **Semantic Preservation** | The preservation of the intended interpretation when transforming the original problem into mathematical representations and manipulating them. |
+| **Result Interpretation** | The interpretation of the mathematical result in terms of the original problem: five animals. |
+| **Assumption Management** | The identification of assumptions required for the conclusion, including that the two groups are disjoint and exhaust the relevant swimming animals. |
+| **Uncertainty and Incompleteness** | Recognition that the available description might not provide all the information necessary for an unqualified conclusion. For example, other animals might also be swimming. |
+| **Truth and Correctness** | The distinction between the correctness of the mathematical derivation and the truth of the premises about the actual situation. |
 
 ## References
 
@@ -642,3 +689,5 @@ Aphorisms:
 - van der Linden, W. J., & Barrett, M. D. (2016). Linking item response model parameters. *Psychometrika*, 81(3), 650–673. https://doi.org/10.1007/s11336-015-9469-6
 - Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
 - Pearl, J. (2009). *Causality: Models, Reasoning, and Inference* (2nd ed.). Cambridge University Press.
+
+Related: [Model](note.html?n=epistemica/theory/model.md), [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md), [Representation](note.html?n=epistemica/theory/representation.md), [Affirmation Space](note.html?n=epistemica/theory/affirmation-space.md), [Variable](note.html?n=epistemica/theory/variable.md), [State](note.html?n=epistemica/theory/state.md), [Activity](note.html?n=epistemica/theory/activity.md), [Reality](note.html?n=nature/theory/reality.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
