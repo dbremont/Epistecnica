@@ -4,7 +4,7 @@ tags: [philosophical-system]
 
 # Spinoza’s Method
 
-Related: [Philosophical System](note.html?n=epistemica/theory/practice/method/philosophical-system.md), [Monism](note.html?n=epistemica/theory/ontology/monism.md)
+Related: [Philosophical System](note.html?n=epistemica/theory/practice/method/philosophical-system.md), [Monism](note.html?n=nature/theory/monism.md)
 
 > Spinoza is a **rationalist monist**, with a deterministic, geometric vision of reality. Substance is God/Nature; everything else is its mode. Human knowledge progresses from experience to reason to intuitive understanding, culminating in an intellectual love of God. Causality is necessary, and mind–body duality is only apparent: both are expressions of one substance.
 > 

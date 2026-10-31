@@ -20,7 +20,7 @@ qa:
 
 # Modelling
 
-Related: [Model](note.html?n=epistemica/theory/practice/model.md), [Epistemic Artifact](note.html?n=epistemica/theory/practice/epistemic-artifact.md), [Representation](note.html?n=epistemica/theory/practice/general/representation.md), [Affirmation Space](note.html?n=epistemica/theory/practice/affirmation-space.md), [Variable](note.html?n=epistemica/theory/practice/variable.md), [State](note.html?n=epistemica/theory/practice/state.md), [Activity](note.html?n=epistemica/theory/practice/activity.md), [Reality](note.html?n=epistemica/theory/ontology/reality.md), [Quasi-Open Interaction Field](note.html?n=epistemica/theory/ontology/quasi-open-interaction-field.md)
+Related: [Model](note.html?n=epistemica/theory/practice/model.md), [Epistemic Artifact](note.html?n=epistemica/theory/practice/epistemic-artifact.md), [Representation](note.html?n=epistemica/theory/practice/general/representation.md), [Affirmation Space](note.html?n=epistemica/theory/practice/affirmation-space.md), [Variable](note.html?n=epistemica/theory/practice/variable.md), [State](note.html?n=epistemica/theory/practice/state.md), [Activity](note.html?n=epistemica/theory/practice/activity.md), [Reality](note.html?n=nature/theory/reality.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
 
 > Let’s model modelling, a note on the theory modelling (that is the praxis of epistemology).
 > 

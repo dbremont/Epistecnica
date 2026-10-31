@@ -108,11 +108,15 @@ frontend-facing surface in the deployment; there is no database behind it
   heading. Per-corpus naming/tags rules live in their READMEs
   (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
   `src/persona/README.md`).
-- `data/epistemica/theory/` holds the cross-domain theory notes: the
-  *Philosophia Naturalis* conceptual model imported from its Notion export
-  (root guide + `Philosophy` + its concept notes, source template kept) and
-  the identifiability note `theory/practice/modelling.md` (epistemic-element
-  schema). The imported notes have no philosophia schema conversion.
+- `data/epistemica/theory/` holds the cross-domain epistemic theory notes:
+  `theory/philosophy.md`, the `theory/minimal.md` principle note, and the
+  `theory/practice/` notes — including the identifiability note
+  `theory/practice/modelling.md` (epistemic-element schema).
+- `data/nature/theory/` holds the natural-ontology theory scope moved out of
+  `epistemica/theory/ontology/`: the ontic element notes (event, causality,
+  system, segment, reality, …), the local *Philosophia Naturalis* import
+  (`theory/philosophia-naturalis.md`), and the Change note. The imported
+  notes keep the source template and have no philosophia schema conversion.
 - Regenerate the corpus index after any edit: `make index` (all of them),
   or individually `make notes-index`,
   `make course-index`, `make document-index`, `make persona-index`

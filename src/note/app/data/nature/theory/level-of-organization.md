@@ -4,7 +4,7 @@ tags: [reality]
 
 # Level of Organization
 
-Related: [System](note.html?n=epistemica/theory/ontology/system.md)
+Related: [System](note.html?n=nature/theory/system.md)
 
 > In highly technical terms, the **"Level of Organization"** of a system refers to the hierarchical stratification of its structural and functional components, ranging from fundamental microscopic interactions to emergent macroscopic behaviors. This concept is crucial in physics, biology, complexity science, and engineering when modeling systems with multiscale dynamics, memory, or adaptive laws.
 > 

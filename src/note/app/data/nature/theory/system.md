@@ -4,7 +4,7 @@ tags: [reality, segment]
 
 # System
 
-Related: [Level of Organization](note.html?n=epistemica/theory/ontology/level-of-organization.md)
+Related: [Level of Organization](note.html?n=nature/theory/level-of-organization.md)
 
 > In this note, we explore a highly abstract concept—a system—as a mechanism to organize reality into a comprehensible and manageable form, one that is representable and thus rendered tractable.
 > 

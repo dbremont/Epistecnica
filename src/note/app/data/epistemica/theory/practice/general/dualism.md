@@ -1,6 +1,6 @@
 # Dualism
 
-Related: [Monism](note.html?n=epistemica/theory/ontology/monism.md)
+Related: [Monism](note.html?n=nature/theory/monism.md)
 
 > It’s an ontological principle that states that reality consists of two fundamentally different components, typically the mind and the body.
 > 

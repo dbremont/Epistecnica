@@ -1,6 +1,6 @@
 # Compound Effect
 
-Related: [Multiplicative Effect](note.html?n=epistemica/theory/practice/general/multiplicative-effect.md), [Non Linear System](note.html?n=epistemica/theory/ontology/non-linear-system.md)
+Related: [Multiplicative Effect](note.html?n=epistemica/theory/practice/general/multiplicative-effect.md), [Non Linear System](note.html?n=nature/theory/non-linear-system.md)
 
 > What are the sources of nonlinearity in the system?
 > 

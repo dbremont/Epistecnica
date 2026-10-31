@@ -4,7 +4,7 @@ tags: [reality]
 
 # Reality
 
-Related: [Segment](note.html?n=epistemica/theory/ontology/segment.md), [State](note.html?n=epistemica/theory/practice/state.md), [Modelling](note.html?n=epistemica/theory/practice/modelling.md)
+Related: [Segment](note.html?n=nature/theory/segment.md), [State](note.html?n=epistemica/theory/practice/state.md), [Modelling](note.html?n=epistemica/theory/practice/modelling.md)
 
 > For now - see [Reality](note.html?n=epistemica/theory/philosophia-naturalis.md).
 > 

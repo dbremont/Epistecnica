@@ -108,11 +108,15 @@ notes, preserving the export's subcollection tree
 
 ## Theory corpus
 
-`data/epistemica/theory/` holds the cross-domain theory notes: the
-*Philosophia Naturalis* conceptual model imported from its Notion export —
-the root guide (`theory/philosophia-naturalis.md`), `theory/philosophy.md`,
-and its concept notes — together with the identifiability note
+`data/epistemica/theory/` holds the cross-domain epistemic theory notes:
+`theory/philosophy.md`, the `theory/minimal.md` principle note, and the
+`theory/practice/` notes — including the identifiability note
 `theory/practice/modelling.md`.
+
+`data/nature/theory/` holds the natural-ontology theory scope: the ontic
+element notes (event, causality, system, segment, reality, …), the local
+*Philosophia Naturalis* guide (`theory/philosophia-naturalis.md`), and the
+Change note.
 
 - The imported notes keep the source's own template
   (Meta/Evaluation/Signature/QA) and have not been converted to the

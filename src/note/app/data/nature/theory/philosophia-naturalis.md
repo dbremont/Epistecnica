@@ -65,7 +65,7 @@ apple's position, a person's anxiety, a market's volatility).
 
 ### Reality
 
-> See more in Nature and [Reality](note.html?n=epistemica/theory/ontology/reality.md).
+> See more in Nature and [Reality](note.html?n=nature/theory/reality.md).
 > 
 
 > **Reality** is the total set of phenomena, entities, and processes that exist or occur, **independently of an observer’s perception or conceptualization**, and which can, in principle, interact, change, or produce effects.
@@ -104,7 +104,7 @@ The following principles summarize these features:
 > In highly technical terms, the **"Level of Organization"** of a system refers to the hierarchical stratification of its structural and functional components, ranging from fundamental microscopic interactions to emergent macroscopic behaviors. This concept is crucial in physics, biology, complexity science, and engineering when modeling systems with multiscale dynamics, memory, or adaptive laws.
 > 
 
-> See more in [Level of Organization](note.html?n=epistemica/theory/ontology/level-of-organization.md).
+> See more in [Level of Organization](note.html?n=nature/theory/level-of-organization.md).
 > 
 - **Micro-level:** Individual elements and their local interactions.
 - **Meso-level:** Subsystems, modules, clusters of interactions.
@@ -130,7 +130,7 @@ The following principles summarize these features:
 > How new ontic entities arises  - from lower elements? How to they give rise to new pieces of reality?
 > 
 
-> See more in [Level of Organization](note.html?n=epistemica/theory/ontology/level-of-organization.md).
+> See more in [Level of Organization](note.html?n=nature/theory/level-of-organization.md).
 > 
 
 ### Template of Realty
@@ -138,7 +138,7 @@ The following principles summarize these features:
 > The templates of reality are not ontic concepts; rather, they are epistemic constructs that allow us to parse and structure reality.
 > 
 
-> See more in [Ontology Template](note.html?n=epistemica/theory/practice/general/ontology.md) and [Segment](note.html?n=epistemica/theory/ontology/segment.md).
+> See more in [Ontology Template](note.html?n=epistemica/theory/practice/general/ontology.md) and [Segment](note.html?n=nature/theory/segment.md).
 > 
 
 | **Category** | **Notion** | **Description** |
@@ -442,14 +442,14 @@ On this setting to what do we attribute compression of observations? or What hum
 - https://en.wikipedia.org/wiki/Reality
 - https://www.youtube.com/watch?v=X4PdPnQuwjY&t=19s
 - A Guide to Reading
-- [System](note.html?n=epistemica/theory/ontology/system.md)
+- [System](note.html?n=nature/theory/system.md)
 - Energy
 - [Epistemic Artifact](note.html?n=epistemica/theory/practice/epistemic-artifact.md)
 - [Philosophy](note.html?n=epistemica/theory/philosophy.md)
 - [Modelling](note.html?n=epistemica/theory/practice/modelling.md)
 - https://en.wikipedia.org/wiki/Reality
 - Nature
-- [Reality](note.html?n=epistemica/theory/ontology/reality.md)
+- [Reality](note.html?n=nature/theory/reality.md)
 - [Ontology](note.html?n=epistemica/theory/practice/general/ontology.md)
 
 [Philosophy](note.html?n=epistemica/theory/philosophy.md)

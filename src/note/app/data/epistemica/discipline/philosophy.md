@@ -20,7 +20,7 @@ This note is the discipline-level Aggregate; it is the reflexive neighbour of
 the [EES](../ees.md) inventory (which turns inquiry back on itself), and its
 content is developed in the
 [Philosophy](note.html?n=epistemica/theory/philosophy.md) note and the
-[ontology](index.html?dir=epistemica/theory/ontology) folder. The schema it
+[ontology](index.html?dir=nature/theory) folder. The schema it
 instantiates is owned by the canonical
 [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md).
 
@@ -170,7 +170,7 @@ the quality of its own argumentation.
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Philosophy](note.html?n=epistemica/theory/philosophy.md) — the domain note on natural philosophy
-- [Ontology](index.html?dir=epistemica/theory/ontology) — the ontology concept notes
+- [Ontology](index.html?dir=nature/theory) — the ontology concept notes
 - [Philosophia Naturalis](note.html?n=epistemica/theory/philosophia-naturalis.md)
 - [Logic](note.html?n=epistemica/discipline/logic.md) — the carved-out discipline of valid inference
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) · [Statistics](note.html?n=epistemica/discipline/statistics.md) · [Computer Science](note.html?n=epistemica/discipline/computer-science.md)

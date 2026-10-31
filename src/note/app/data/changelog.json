@@ -499,6 +499,11 @@
         "summary": "Retarget the epistemic element set inventory link and boundary reference to EES.",
         "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
         "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -10854,6 +10859,11 @@
         "kind": "feat",
         "summary": "Import Explanation from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -10953,6 +10963,11 @@
         "kind": "feat",
         "summary": "Import Compound Effect from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -11052,6 +11067,11 @@
         "kind": "feat",
         "summary": "Import Dualism from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -11283,6 +11303,11 @@
         "kind": "feat",
         "summary": "Import Ontology from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -11785,6 +11810,11 @@
         "kind": "feat",
         "summary": "Import Philosophical System from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -11840,6 +11870,11 @@
         "kind": "feat",
         "summary": "Import Spinoza’s Method from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -11944,6 +11979,11 @@
         "summary": "Repoint links after the computational-science → science rename and the construction split.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
         "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -11988,6 +12028,11 @@
         "kind": "feat",
         "summary": "Import State from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget ontology links under nature"
       }
     ]
   },
@@ -12430,17 +12475,6 @@
     ]
   },
   {
-    "file_path": "nature/change.md",
-    "logs": [
-      {
-        "date": "2026-10-31",
-        "kind": "feat",
-        "summary": "add the Change natural note",
-        "commit": "6ec265c74025b9e428343a23b4d5073f553120bf"
-      }
-    ]
-  },
-  {
     "file_path": "nature/cognition/meaning.md",
     "logs": [
       {
@@ -12517,6 +12551,232 @@
         "kind": "feat",
         "summary": "Add the Minimal Principle note (minimal-compositionality reading).",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/bifurcation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/causality.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/change.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add the Change natural note",
+        "commit": "6ec265c74025b9e428343a23b4d5073f553120bf"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/dynamic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/emergence.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/endogeneity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/epiphenomenon.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/event-stream.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/event.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/interaction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/irreversible-process.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/level-of-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/materialism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/monism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/non-linear-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/philosophia-naturalis.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/principle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/property.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/quasi-open-interaction-field.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/reality.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/segment.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/theory/system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontology theory under nature"
       }
     ]
   },

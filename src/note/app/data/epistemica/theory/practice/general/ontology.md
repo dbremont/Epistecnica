@@ -4,7 +4,7 @@ tags: [tooling]
 
 # Ontology
 
-Related: [Monism](note.html?n=epistemica/theory/ontology/monism.md), [Truth](note.html?n=epistemica/theory/practice/truth.md), [Property](note.html?n=epistemica/theory/ontology/property.md), [Materialism](note.html?n=epistemica/theory/ontology/materialism.md), [Category](note.html?n=epistemica/theory/practice/category.md), [Event Stream](note.html?n=epistemica/theory/ontology/event-stream.md), [Model](note.html?n=epistemica/theory/practice/model.md)
+Related: [Monism](note.html?n=nature/theory/monism.md), [Truth](note.html?n=epistemica/theory/practice/truth.md), [Property](note.html?n=nature/theory/property.md), [Materialism](note.html?n=nature/theory/materialism.md), [Category](note.html?n=epistemica/theory/practice/category.md), [Event Stream](note.html?n=nature/theory/event-stream.md), [Model](note.html?n=epistemica/theory/practice/model.md)
 
 > In this note, we will explore one of the two keys to the **comprehension of reality**: **Ontology**—the other being **Epistemology**.
 > 
@@ -117,7 +117,7 @@ QA (Working On):
 > **Note:** Using *phenomenology* to mean “manifestations” conflicts with its true sense—the study of phenomena. This usage risks miscommunication, so users must vigilantly correct and clarify its semantics.
 > 
 
-> See [Segment](note.html?n=epistemica/theory/ontology/segment.md).
+> See [Segment](note.html?n=nature/theory/segment.md).
 > 
 
 Notes:
@@ -267,7 +267,7 @@ Notes:
 > A property is a boolean function that maps an entity or system state to **true** or **false** depending on whether a specific condition, rule, or invariant holds. Note: A property can <u>**vary**</u> across **different states** — **subsets of states** of a system, etc.
 > 
 
-> See more in [Property](note.html?n=epistemica/theory/ontology/property.md).
+> See more in [Property](note.html?n=nature/theory/property.md).
 > 
 
 | **Type** | **Description** | Case(s) |
@@ -429,4 +429,4 @@ Notes:
 - https://en.wikipedia.org/wiki/The_System_of_Nature
 - https://plato.stanford.edu/entries/friedrich-lange/
 - Name
-- [Emergence](note.html?n=epistemica/theory/ontology/emergence.md)
+- [Emergence](note.html?n=nature/theory/emergence.md)
