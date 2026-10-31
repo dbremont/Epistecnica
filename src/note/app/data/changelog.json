@@ -17435,7 +17435,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
+        "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
       }
     ]
   },
@@ -17674,7 +17676,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
+        "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
       }
     ]
   },
@@ -25190,7 +25194,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
+        "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
       }
     ]
   },
@@ -27405,7 +27411,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
+        "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
       }
     ]
   },
@@ -30289,7 +30297,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
+        "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
       }
     ]
   },
@@ -32536,7 +32546,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
+        "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
       }
     ]
   },
@@ -33055,7 +33067,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33065,7 +33078,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33075,7 +33089,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33085,7 +33100,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33095,7 +33111,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33105,7 +33122,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33115,7 +33133,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33125,7 +33144,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33135,7 +33155,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33145,7 +33166,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33155,7 +33177,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33165,7 +33188,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33175,7 +33199,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33185,7 +33210,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33195,7 +33221,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33205,7 +33232,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33215,7 +33243,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33225,7 +33254,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33235,7 +33265,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33245,7 +33276,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33255,7 +33287,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33265,7 +33298,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33275,7 +33309,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33285,7 +33320,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33295,7 +33331,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33305,7 +33342,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33315,7 +33353,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33325,7 +33364,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33335,7 +33375,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33345,7 +33386,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33355,7 +33397,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33365,7 +33408,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33375,7 +33419,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33385,7 +33430,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33395,7 +33441,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33405,7 +33452,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33415,7 +33463,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33425,7 +33474,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33435,7 +33485,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33445,7 +33496,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33455,7 +33507,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33465,7 +33518,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33475,7 +33529,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33485,7 +33540,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33495,7 +33551,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33505,7 +33562,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33515,7 +33573,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33525,7 +33584,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33535,7 +33595,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33545,7 +33606,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33555,7 +33617,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33565,7 +33628,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33575,7 +33639,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33585,7 +33650,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33595,7 +33661,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33605,7 +33672,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33615,7 +33683,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33625,7 +33694,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -33635,7 +33705,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34528,7 +34599,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move the Telecom landing note into telecom/ and pin it first with order: 0."
+        "summary": "Move the Telecom landing note into telecom/ and pin it first with order: 0.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34538,7 +34610,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34548,7 +34621,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34558,7 +34632,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34568,7 +34643,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34578,7 +34654,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34588,7 +34665,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34598,7 +34676,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34608,7 +34687,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34618,7 +34698,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34628,7 +34709,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34638,7 +34720,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34648,7 +34731,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34658,7 +34742,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34668,7 +34753,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34678,7 +34764,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34688,7 +34775,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34698,7 +34786,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34708,7 +34797,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34718,7 +34808,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
@@ -34728,7 +34819,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/telecom/."
+        "summary": "Move to technica/computation/telecom/.",
+        "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
       }
     ]
   },
