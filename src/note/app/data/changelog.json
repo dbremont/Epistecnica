@@ -1347,6 +1347,11 @@
         "kind": "feat",
         "summary": "Import Complex Numbers (ℂ) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
       }
     ]
   },
@@ -2383,6 +2388,136 @@
         "summary": "Update space links after the space-scope move.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
         "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/algebraic-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/angle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/differential-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/euclidean-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/geometric-shape.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the Geometric Shape note to the geometry corpus."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/ and pin it first with order: 0."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/hyperplane.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/plane.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/polygon.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/projective-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/pythagorean-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/triangle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/trigonometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/."
       }
     ]
   },
@@ -4565,6 +4700,11 @@
         "summary": "Repoint the Quantum Field Theory link after the note moved to epistemica/science/.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
         "before": "70b22ea"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
       }
     ]
   },
@@ -7922,6 +8062,11 @@
         "kind": "feat",
         "summary": "Import Simple Linear Regression from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
       }
     ]
   },
@@ -8398,6 +8543,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
       }
     ]
   },
@@ -9020,6 +9170,11 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/."
       }
     ]
   },

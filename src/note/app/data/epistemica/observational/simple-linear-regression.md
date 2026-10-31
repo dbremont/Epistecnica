@@ -187,7 +187,7 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 
 - https://en.wikipedia.org/wiki/Linear_regression
 - https://en.wikipedia.org/wiki/Simple_linear_regression
-- [Hyperplane](../mathematical/hyperplane.md)
+- [Hyperplane](note.html?n=epistemica/mathematical/geometry/hyperplane.md)
 - https://github.com/dbremont/algorithms/tree/main/om
 - https://en.wikipedia.org/wiki/Least_squares
 - https://stats.stackexchange.com/questions/46151/how-to-derive-the-least-square-estimator-for-multiple-linear-regression

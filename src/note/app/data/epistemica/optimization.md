@@ -124,6 +124,6 @@ Conceptual Model: Optimization
 - Integer Programming. L.A. Wolsey. Wiley (1998).
 - Ren, Y., Lu, X., Guo, H., Xie, Z., Zhang, H., & Zhang, C. (2023). A review of combinatorial optimization problems in reverse logistics and remanufacturing for end-of-life products. Mathematics, 11(2), 298.
 - http://titan.princeton.edu/TestProblems/index.html
-- [Geometry](mathematical/geometry.md)
+- [Geometry](note.html?n=epistemica/mathematical/geometry/geometry.md)
 - https://en.wikipedia.org/wiki/Change-making_problem
 - [**M**AT 168 Optimization] [https://video.ucdavis.edu/channel/MAT+168+Optimization+(Matthias+Köppe%3B+Winter+2024)/329241352](https://video.ucdavis.edu/channel/MAT+168+Optimization+%28Matthias+K%C3%B6ppe%3B+Winter+2024%29/329241352)

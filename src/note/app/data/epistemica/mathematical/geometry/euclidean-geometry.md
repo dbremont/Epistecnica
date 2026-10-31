@@ -228,7 +228,7 @@ QA:
 
 > 
 
-> [TO BE PROVEN] This is the **Pythagorean theorem**, and it expresses the relationship between the side lengths of any **right** triangle. See more in  [Pythagorean Theorem](pythagorean-theorem.md).
+> [TO BE PROVEN] This is the **Pythagorean theorem**, and it expresses the relationship between the side lengths of any **right** triangle. See more in  [Pythagorean Theorem](note.html?n=epistemica/mathematical/geometry/pythagorean-theorem.md).
 > 
 
 ## Rhombus
@@ -258,12 +258,12 @@ QA:
 - https://en.wikipedia.org/wiki/Convex_polygon
 - https://en.wikipedia.org/wiki/Sphere
 - https://en.wikipedia.org/wiki/Angle
-- [Euclidean  Geometry](euclidean-geometry.md)
-- [Contour Map](contour-map.md)
-- [Conformal map](conformal-map.md)
-- [Coordinate System](coordinate-system.md)
-- [**Differential Geometry**](differential-geometry.md)
-- [Computational Geometry](../../../../../../science/computational-geometry.md)
+- [Euclidean  Geometry](note.html?n=epistemica/mathematical/geometry/euclidean-geometry.md)
+- [Contour Map](note.html?n=epistemica/mathematical/contour-map.md))
+- [Conformal map](note.html?n=epistemica/mathematical/conformal-map.md))
+- [Coordinate System](note.html?n=epistemica/mathematical/coordinate-system.md))
+- [**Differential Geometry**](note.html?n=epistemica/mathematical/geometry/differential-geometry.md)
+- [Computational Geometry](note.html?n=epistemica/science/computational-geometry.md)
 - https://www.youtube.com/watch?v=6s1CI3uuhko
-- [**Inner Product Space**](space/inner-product-space.md)
+- [**Inner Product Space**](note.html?n=epistemica/mathematical/space/inner-product-space.md)
 - https://en.wikipedia.org/wiki/Euclidean_space

@@ -515,7 +515,7 @@ If you want to go deeper, the next step is:
 ## References
 
 - [Wave](https://app.notion.com/p/Wave-abe8be3df7354f11a8e84fa436de2e0b?pvs=21)
-- [Angle](angle.md)
+- [Angle](note.html?n=epistemica/mathematical/geometry/angle.md)
 - [Rotation](https://app.notion.com/p/Rotation-335c0f5171ec8028972ce71a851ce6e9?pvs=21)
 - [Wavelet](wavelet.md)
 - https://en.wikipedia.org/wiki/Complex_number

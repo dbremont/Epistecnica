@@ -1,5 +1,6 @@
 ---
 tags: [framework, geometry]
+order: 0
 ---
 
 # Geometry
@@ -65,7 +66,7 @@ Where:
 > A measure of separation between points, which can define notions of length, metric properties, and geodesics. Examples include Euclidean distance, hyperbolic distance, and Manhattan distance.
 > 
 
-> See more in [Metric Space](space/metric-space.md).l
+> See more in [Metric Space](note.html?n=epistemica/mathematical/space/metric-space.md).l
 > 
 
 ### Angle
@@ -73,7 +74,7 @@ Where:
 > A measure of the rotation between intersecting lines or vectors, used to define congruence, orthogonality, and directional relationships.
 > 
 
-> See more here [Angle](angle.md).
+> See more here [Angle](note.html?n=epistemica/mathematical/geometry/angle.md).
 > 
 
 ### Metric Properties
@@ -131,7 +132,7 @@ Where:
 |  | Line | A straight one-dimensional figure extending infinitely in both directions. |
 |  | Plane | A flat two-dimensional surface extending infinitely in all directions. |
 |  | Space |  |
-| **Shape** | Circle | A set of points equidistant from a center point. |
+| **[Shape](note.html?n=epistemica/mathematical/geometry/geometric-shape.md)** | Circle | A set of points equidistant from a center point. |
 |  | Triangle | A three-sided polygon with three vertices and three angles. |
 |  | Polygon | A closed shape with straight sides (e.g., square, pentagon, hexagon). |
 | **Solid** | Cube | A three-dimensional shape with six square faces. |

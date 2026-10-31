@@ -230,7 +230,7 @@ tags: [space]
 - [Reproducing Kernel Hilbert Space](note.html?n=epistemica/mathematical/space/reproducing-kernel-hilbert-space.md)
 - [Mathematical Structure](note.html?n=epistemica/mathematical/mathematical-structure.md)
 - [Mathematical Object](note.html?n=epistemica/mathematical/mathematical-object.md)
-- [Geometry](note.html?n=epistemica/mathematical/geometry.md)
+- [Geometry](note.html?n=epistemica/mathematical/geometry/geometry.md)
 - [Topology](note.html?n=epistemica/mathematical/topology.md)
 - [Order](note.html?n=epistemica/mathematical/order.md)
 - [Measure](note.html?n=epistemica/mathematical/measure.md)

@@ -3457,6 +3457,16 @@
     ]
   },
   {
+    "file_path": "articles/diehl-1987-productivity-loss-brainstorming-groups-toward.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add Diehl & Stroebe (1987) reference entry"
+      }
+    ]
+  },
+  {
     "file_path": "articles/diehl-2000-abstract-machines-programming-language-implementation.md",
     "logs": [
       {
