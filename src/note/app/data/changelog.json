@@ -18165,6 +18165,11 @@
         "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/.",
         "commit": "4e63342f8340c15da7391389efbf4e8b95a3547f",
         "before": "098f29d6622b12217c8248f372a4dc39fca21357"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the syscall links after the move into syscall-interface/."
       }
     ]
   },
@@ -27708,6 +27713,326 @@
     ]
   },
   {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/accept4.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/bind.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/bpf.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/brk.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/capget.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/capset.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/clock-gettime.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/clone-2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/clone.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/close.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/connect.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/dup.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/dup2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/dup3.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/epoll-create.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/epoll-pwait.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/epoll-wait.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/eventfd.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/execve.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/exit.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/fanotify-init.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/fork.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/fstat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/futex.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/getpid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/getrandom.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/gettimeofday.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/getuid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/inotify-init.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/ioctl-2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/ioctl.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/kill.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
     "file_path": "technica/computation/operating-system/linux/syscall-interface/linux-syscall-interface.md",
     "logs": [
       {
@@ -28588,6 +28913,486 @@
     ]
   },
   {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/lseek.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/lstat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/mkdir.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/mlock.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/mmap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/mount.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/mprotect.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/mremap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/munlock.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/munmap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/nanosleep.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/open.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/openat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/pipe.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/pipe2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/pread.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/ptrace.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/pwrite.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/read.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/recv.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/recvmsg.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/rename.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/rmdir.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/rt-sigaction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/sched-setaffinity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/sched-yield.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/seccomp-unotify.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/seccomp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/sendmsg.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/setns.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/setresuid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/setuid.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/sigaction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/socket.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/splice.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/stat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/statx.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/syscall-interface.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Rename to syscall-interface.md and pin it first with order: 0."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/syscall.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/tee.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/timerfd-create.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/umount2.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/uname.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/unshare.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/vfork.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/vmsplice.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/wait4.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/syscall-interface/write.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+      }
+    ]
+  },
+  {
     "file_path": "technica/computation/operating-system/linux/system-v-application-binary-interface.md",
     "logs": [
       {
@@ -28866,6 +29671,11 @@
         "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/.",
         "commit": "4e63342f8340c15da7391389efbf4e8b95a3547f",
         "before": "098f29d6622b12217c8248f372a4dc39fca21357"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the syscall links after the move into syscall-interface/."
       }
     ]
   },
