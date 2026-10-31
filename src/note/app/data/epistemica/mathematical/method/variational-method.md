@@ -258,7 +258,7 @@ For any normalized $|\psi\rangle$ that is not the true ground state $|0\rangle$,
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Functional](note.html?n=epistemica/mathematical/functional.md)
-- [Differential Equation](note.html?n=epistemica/mathematical/differential-equation.md)
+- [Differential Equation](note.html?n=epistemica/mathematical/change/differential-equation.md)
 - [Sobolev Space](note.html?n=epistemica/mathematical/space/sobolev-space.md) — the admissible class and compactness engine of the direct method.
 - [Lagrangian Mechanics](note.html?n=epistemica/science/lagrangian-mechanics.md)
 - [Hamiltonian Mechanics](note.html?n=epistemica/science/hamiltonian-mechanics.md)

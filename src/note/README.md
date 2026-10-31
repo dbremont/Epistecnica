@@ -46,9 +46,13 @@ companion is `data/epistemica/ees.md`.
   preserved). The corpus is now the source of truth.
 - The change notes live in the
   `epistemica/mathematical/change/` scope (the dynamical-systems
-  sub-scope of the Mathematical domain); elements best kept
-  separate (differential/difference equations, operators, SDE, phase/state
-  space) are reached through `links.json` rather than moved into it.
+  sub-scope of the Mathematical domain): the dynamical representational
+  systems (differential, difference and recurrence equations, the
+  differentiation operators, stochastic differential equations) beside the
+  attractors, maps, and flows. Phase space (`science/phase-space.md`) and
+  state-space models (`construction/state-space-model.md`) stay in their own
+  scopes and are reached through note links — the scope no longer carries a
+  `links.json` group.
 - The mathematical spaces live in the `epistemica/mathematical/space/`
   scope, with `space/space.md` as the master note. Related foundational
   notes (structure, geometry, topology, order, measure, algebra, coordinate

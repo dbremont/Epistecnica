@@ -157,7 +157,7 @@ where:
 
 ### Computational Method
 
-- [ ]  [Euler Method](../../../../../../science/euler-method.md)
+- [ ]  [Euler Method](note.html?n=epistemica/science/euler-method.md)
 
 ## **Boundary Value Problems (BVPs)**
 

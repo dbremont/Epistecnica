@@ -2359,6 +2359,84 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/change/derivative-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Derivative Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/change/difference-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Difference Equation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/change/differential-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Differential Equation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/change/differential-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Differential Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/change/dynamical-system.md",
     "logs": [
       {
@@ -2393,6 +2471,11 @@
         "summary": "Repoint the Self-Organized Criticality link to the Complexity scope.",
         "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
         "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Point the SDE reference at its note in this scope and drop the scope's links.json group."
       }
     ]
   },
@@ -2533,6 +2616,22 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/change/partial-derivative-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Partial Derivative Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/change/poincare-map.md",
     "logs": [
       {
@@ -2546,6 +2645,22 @@
         "kind": "refactor",
         "summary": "rename the dynamical-systems scope to change",
         "commit": "bde39a998fe635eef26d40673a38fee96d911bee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/change/recurrence-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Recurrence Equation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
       }
     ]
   },
@@ -2580,6 +2695,28 @@
         "kind": "refactor",
         "summary": "rename the dynamical-systems scope to change",
         "commit": "bde39a998fe635eef26d40673a38fee96d911bee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/change/stochastic-differential-equation-sde.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stochastic Differential Equation  (SDE) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links."
       }
     ]
   },
@@ -3483,17 +3620,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/derivative-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Derivative Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/design-matrix.md",
     "logs": [
       {
@@ -3527,35 +3653,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/difference-equation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Difference Equation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/differential-equation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Differential Equation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split.",
-        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
-        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/differential-form.md",
     "logs": [
       {
@@ -3574,24 +3671,6 @@
         "kind": "feat",
         "summary": "Import Differential Geometry from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/differential-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Differential Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split.",
-        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
-        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
       }
     ]
   },
@@ -5273,6 +5352,11 @@
         "kind": "refactor",
         "summary": "move into the mathematical/method scope: a routine, not a result",
         "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint the Differential Equation link to the change scope."
       }
     ]
   },
@@ -5550,17 +5634,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import p-adic Number from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/partial-derivative-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Partial Derivative Operator from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -5873,17 +5946,6 @@
         "kind": "docs",
         "summary": "Add the ratio-types question to the QA list and answer it: the unit family (unit-consequent, unit-antecedent, reduced, general), the other classification axes, and the addition of the normalized forms to the decomposition table.",
         "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/recurrence-equation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Recurrence Equation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
   },
@@ -12853,23 +12915,6 @@
         "summary": "retarget the computational links after the computational move",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
         "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/science/stochastic-differential-equation-sde.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Stochastic Differential Equation  (SDE) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
-        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
       }
     ]
   },

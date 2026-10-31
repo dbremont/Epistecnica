@@ -495,7 +495,7 @@
       "origins": "The curly d of partial differentiation, in use among 18th–19th-century analysts (Legendre, Jacobi); U+2202; TeX: \\partial.",
       "usage": "∂f/∂x — partial derivatives and PDEs; ∂L/∂w — the gradients of the loss in the optimisation notes.",
       "related": ["nabla", "delta"],
-      "notes": ["epistemica/mathematical/differential-equation.md", "epistemica/optimization/backpropagation.md"],
+      "notes": ["epistemica/mathematical/change/differential-equation.md", "epistemica/optimization/backpropagation.md"],
       "sources": [
         { "label": "Wikipedia: Partial derivative", "url": "https://en.wikipedia.org/wiki/Partial_derivative" },
         { "label": "Crowe, M. J. (1967). A History of Vector Analysis." }
