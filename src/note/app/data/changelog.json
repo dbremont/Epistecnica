@@ -168,6 +168,11 @@
         "kind": "refactor",
         "summary": "tuck the scope note into its own folder",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the model links after the computational model move"
       }
     ]
   },
@@ -3047,6 +3052,11 @@
         "kind": "refactor",
         "summary": "rename mathematical/ds to mathematical/dynamical-systems",
         "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the model links after the computational model move"
       }
     ]
   },
@@ -4963,6 +4973,11 @@
         "kind": "feat",
         "summary": "Import Positive-definite Kernel from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the model links after the computational model move"
       }
     ]
   },
@@ -6657,17 +6672,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/bayesian-network.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bayesian Network from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/bayesian-structural-time-series.md",
     "logs": [
       {
@@ -6779,6 +6783,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/bayesian-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bayesian Network from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/bootstrapping.md",
     "logs": [
       {
@@ -6886,6 +6906,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/discriminative-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discriminative Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/expectation-maximization-em-algorithm.md",
     "logs": [
       {
@@ -6937,6 +6973,61 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/factor-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Factor Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/flow-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Flow Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/generative-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generative Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/gillespie-algorithm.md",
     "logs": [
       {
@@ -6950,6 +7041,45 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/hidden-variable.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hidden Variable from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/hmm-hidden-markov-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (HMM) Hidden Markov Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -6971,6 +7101,38 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/input-representation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Input Representation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/kernel-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kernel Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/laplace-s-approximation.md",
     "logs": [
       {
@@ -6984,6 +7146,54 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/latent-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Latent Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/markov-logic-network.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Markov Logic Network from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/markov-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Markov Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -7045,6 +7255,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/mixture-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mixture Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/monte-carlo-toolbox.md",
     "logs": [
       {
@@ -7058,6 +7284,38 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/probabilistic-graphical-model-pgm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Probabilistic Graphical Model (PGM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/representation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Representation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -7173,6 +7431,11 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope and retarget its EM links",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the model links after the computational model move"
       }
     ]
   },
@@ -7428,17 +7691,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Dimensionality Reduction from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/discriminative-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Discriminative Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7958,17 +8210,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/factor-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Factor Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/filter/filter.md",
     "logs": [
       {
@@ -8054,24 +8295,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/flow-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Flow Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/free-probability-theory.md",
     "logs": [
       {
@@ -8105,34 +8328,12 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/generative-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Generative Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/glivenkocantelli-theorem.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Glivenko–Cantelli Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/hidden-variable.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hidden Variable from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8156,24 +8357,6 @@
         "kind": "feat",
         "summary": "Import High Dimensional Probability from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/hmm-hidden-markov-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import (HMM) Hidden Markov Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
       }
     ]
   },
@@ -8541,17 +8724,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/input-representation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Input Representation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/jamesstein-estimator.md",
     "logs": [
       {
@@ -8574,17 +8746,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/kernel-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Kernel Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/kullbackleibler-divergence.md",
     "logs": [
       {
@@ -8602,17 +8763,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Laplace’s Rule of Succession from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/latent-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Latent Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8684,28 +8834,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/markov-logic-network.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Markov Logic Network from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/markov-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Markov Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/maximum-a-posteriori-estimation.md",
     "logs": [
       {
@@ -8756,17 +8884,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Minimum Mean Square Error (MMSE) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/mixture-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Mixture Model from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9023,17 +9140,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Principle of Maximum Entropy from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/probabilistic-graphical-model-pgm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Probabilistic Graphical Model (PGM) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9894,17 +10000,6 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/observational/ scope.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/representation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Representation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
   },
@@ -17572,6 +17667,11 @@
         "kind": "refactor",
         "summary": "Move to technica/ais/architecture/.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the model links after the computational model move"
       }
     ]
   },

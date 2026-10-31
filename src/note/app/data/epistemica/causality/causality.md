@@ -498,7 +498,7 @@ Conceptual Model: Causality
 - [Judea Pearl Publications](https://bayes.cs.ucla.edu/csl_papers.html)
 - https://arxiv.org/abs/cs/0011012?utm_source=chatgpt.com
 - Hall, Ned, John Collins, and Laurie Paul. Two concepts of causation. MIT Press, Cambridge, MA, 2004.
-- [**Probabilistic Graphical Model** (**PGM**)](note.html?n=epistemica/observational/probabilistic-graphical-model-pgm.md)
+- [**Probabilistic Graphical Model** (**PGM**)](note.html?n=epistemica/observational/computational/probabilistic-graphical-model-pgm.md)
 - https://public.econ.duke.edu/~kdh9/Courses/Causality%20Course/ReadingList.htm [Duke Causation Course]
 - https://en.wikipedia.org/wiki/Swiss_cheese_model
 - [Root Cause Analysis (RCA)](https://app.notion.com/p/Root-Cause-Analysis-RCA-236c0f5171ec80df9aebee5c3f24f6f1?pvs=21)

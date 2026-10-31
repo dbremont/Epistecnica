@@ -15,5 +15,5 @@ tags: [function]
 ## References
 
 - [‣](https://app.notion.com/p/18e598edb79080ceb4fcfb5e2fe807a6?pvs=21)
-- [Kernel Method](../observational/kernel-method.md)
+- [Kernel Method](../observational/computational/kernel-method.md)
 - https://en.wikipedia.org/wiki/Positive-definite_kernel

@@ -355,7 +355,7 @@ Where $x(t)$ is the state of the system at the time $t$.
 - [Bifurcation Theory](bifurcation-theory.md)
 - [Subshift of Finite Type](subshift-of-finite-type.md)
 - [Self-Organized Criticality](../../natural-computing/self-organized-criticality.md)
-- [(HMM) Hidden Markov Model](../../observational/hmm-hidden-markov-model.md)
+- [(HMM) Hidden Markov Model](../../observational/computational/hmm-hidden-markov-model.md)
 - [Complex Adaptative Systems (CAS)](../../complexity-science/complex-adaptative-systems-cas.md)
 - [Stochastic Differential Equation  **(SDE)**](../../../../../../../science/stochastic-differential-equation-sde.md)
 - [Hamiltonian System](https://en.wikipedia.org/wiki/Hamiltonian_system)

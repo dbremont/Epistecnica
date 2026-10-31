@@ -50,6 +50,6 @@ There are two separate tests:
 
 - Vafa, K., Chen, J. Y., Rambachan, A., Kleinberg, J., & Mullainathan, S. (2024). *Evaluating the World Model Implicit in a Generative Model*. arXiv:2406.03689. https://arxiv.org/abs/2406.03689
 - Shalizi, C. R., & Crutchfield, J. P. (2001). *Computational Mechanics: Pattern and Prediction, Structure and Simplicity*. Journal of Statistical Physics, 104, 817–879.
-- [Generative Model](../note/note.html?n=epistemica/observational/generative-model.md)
+- [Generative Model](../note/note.html?n=epistemica/observational/computational/generative-model.md)
 - [Computational Learning](../note/note.html?n=epistemica/observational/computational/computational-learning.md)
 - [Active Inference](../note/note.html?n=epistemica/adaptative/active-inference.md)

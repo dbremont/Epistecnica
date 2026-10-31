@@ -208,7 +208,7 @@ Prefer VI when the dataset is too large for MCMC mixing, when per-observation in
 - [Variational Method](note.html?n=epistemica/mathematical/variational-method.md) — the extremizing-functional ancestor of the pattern.
 - [Kullback–Leibler Divergence](note.html?n=epistemica/observational/kullbackleibler-divergence.md) — the divergence the family is projected in.
 - [Expectation–Maximization (EM) Algorithm](note.html?n=epistemica/observational/computational/expectation-maximization-em-algorithm.md) — the coordinate-ascent special case.
-- [Mixture Model](note.html?n=epistemica/observational/mixture-model.md) and [Generative Model](note.html?n=epistemica/observational/generative-model.md) — canonical model classes fitted by VI.
+- [Mixture Model](note.html?n=epistemica/observational/computational/mixture-model.md) and [Generative Model](note.html?n=epistemica/observational/computational/generative-model.md) — canonical model classes fitted by VI.
 - [Variational Autoencoder (VAE)](note.html?n=technica/ais/architecture/variational-autoencoder-vae.md) — the amortized auto-encoding realization.
 - [Bayes' Theorem](note.html?n=epistemica/observational/probability/bayes-theorem.md) and [Probability](note.html?n=epistemica/discipline/probability.md) — the posterior the method approximates.
 - [Jordan, M. I., Ghahramani, Z., Jaakkola, T. S., & Saul, L. K. (1999). An introduction to variational methods for graphical models. Machine Learning, 37, 183–233.](../document/document.html?d=articles/jordan-1999-introduction-variational-methods-graphical-models.md)

@@ -10800,6 +10800,11 @@
         "summary": "retarget the computational-learning link after the computational move",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
         "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the generative-model link after the computational model move"
       }
     ]
   },
@@ -26150,6 +26155,11 @@
         "summary": "retarget the computational-learning link after the computational move",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
         "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the generative-model link after the computational model move"
       }
     ]
   },
