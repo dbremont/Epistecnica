@@ -18169,7 +18169,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the syscall links after the move into syscall-interface/."
+        "summary": "Retarget the syscall links after the move into syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8",
+        "before": "a1ed7ff8135a46f079e2c9843f8012abc4e6f390"
       }
     ]
   },
@@ -27718,7 +27720,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27728,7 +27731,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27738,7 +27742,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27748,7 +27753,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27758,7 +27764,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27768,7 +27775,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27778,7 +27786,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27788,7 +27797,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27798,7 +27808,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27808,7 +27819,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27818,7 +27830,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27828,7 +27841,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27838,7 +27852,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27848,7 +27863,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27858,7 +27874,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27868,7 +27885,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27878,7 +27896,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27888,7 +27907,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27898,7 +27918,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27908,7 +27929,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27918,7 +27940,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27928,7 +27951,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27938,7 +27962,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27948,7 +27973,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27958,7 +27984,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27968,7 +27995,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27978,7 +28006,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27988,7 +28017,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -27998,7 +28028,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28008,7 +28039,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28018,7 +28050,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28028,7 +28061,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28918,7 +28952,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28928,7 +28963,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28938,7 +28974,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28948,7 +28985,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28958,7 +28996,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28968,7 +29007,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28978,7 +29018,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28988,7 +29029,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -28998,7 +29040,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29008,7 +29051,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29018,7 +29062,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29028,7 +29073,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29038,7 +29084,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29048,7 +29095,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29058,7 +29106,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29068,7 +29117,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29078,7 +29128,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29088,7 +29139,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29098,7 +29150,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29108,7 +29161,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29118,7 +29172,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29128,7 +29183,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29138,7 +29194,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29148,7 +29205,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29158,7 +29216,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29168,7 +29227,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29178,7 +29238,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29188,7 +29249,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29198,7 +29260,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29208,7 +29271,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29218,7 +29282,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29228,7 +29293,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29238,7 +29304,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29248,7 +29315,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29258,7 +29326,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29268,7 +29337,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29278,7 +29348,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29288,7 +29359,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Rename to syscall-interface.md and pin it first with order: 0."
+        "summary": "Rename to syscall-interface.md and pin it first with order: 0.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29298,7 +29370,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29308,7 +29381,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29318,7 +29392,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29328,7 +29403,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29338,7 +29414,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29348,7 +29425,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29358,7 +29436,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29368,7 +29447,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29378,7 +29458,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29388,7 +29469,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/."
+        "summary": "Move to technica/computation/operating-system/linux/syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8"
       }
     ]
   },
@@ -29675,7 +29757,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retarget the syscall links after the move into syscall-interface/."
+        "summary": "Retarget the syscall links after the move into syscall-interface/.",
+        "commit": "aacc966eaebf1e7c54066e2c85f6f3e8dc0c27f8",
+        "before": "a1ed7ff8135a46f079e2c9843f8012abc4e6f390"
       }
     ]
   },
