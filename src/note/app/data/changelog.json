@@ -1471,6 +1471,76 @@
     ]
   },
   {
+    "file_path": "epistemica/guidance/principle/conservation-law.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the principle folder to the singular"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principle/falsifiability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the principle folder to the singular"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principle/least-action-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the principle folder to the singular"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principle/minimal.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the principle folder to the singular"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principle/minimum-description-length-mdl.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the principle folder to the singular"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principle/occam-razor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the principle folder to the singular"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principle/principle-of-sufficient-reason-psr.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the principle folder to the singular"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/guidance/principles/conservation-law.md",
     "logs": [
       {
@@ -12853,6 +12923,11 @@
         "summary": "retarget the principles-scope link",
         "commit": "6d092ddf4c464ad156b847f0464320b7a2ce6b0b",
         "before": "40b87fa2258c3f6e992a85e71d20f11f95554e13"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the principle-folder link"
       }
     ]
   },

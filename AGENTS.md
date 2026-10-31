@@ -114,7 +114,7 @@ frontend-facing surface in the deployment; there is no database behind it
   (epistemic-element schema), and the former `theory/practice/` notes.
 - `data/epistemica/guidance/` holds what grounds and guides inquiry: the
   ontic condition notes at its root (`equilibrium`, `stable`, …),
-  `guidance/principles/` for rules of proceeding (`occam-razor`,
+  `guidance/principle/` for rules of proceeding (`occam-razor`,
   `minimum-description-length-mdl`, `least-action-principle`, …), and
   `guidance/method/` for the philosophical-method notes.
 - `data/nature/theory/` holds the natural-ontology theory scope moved out of

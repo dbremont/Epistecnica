@@ -114,7 +114,7 @@ and the former `theory/practice/` notes.
 
 `data/epistemica/guidance/` holds what grounds and guides inquiry: the
 ontic condition notes at its root (`equilibrium`, `stable`, …),
-`guidance/principles/` for rules of proceeding (`occam-razor`,
+`guidance/principle/` for rules of proceeding (`occam-razor`,
 `minimum-description-length-mdl`, …), and `guidance/method/` for the
 philosophical-method notes.
 
