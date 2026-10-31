@@ -112,7 +112,7 @@ QA:
 
 ## Computation Graph
 
-> What is the structure of the **[Trainable Computational System Space](note.html?n=epistemica/observational/computational-learning.md)?** What is the general structure of a neural network? What are its components, and what are the possible variations of these components?
+> What is the structure of the **[Trainable Computational System Space](note.html?n=epistemica/observational/computational/computational-learning.md)?** What is the general structure of a neural network? What are its components, and what are the possible variations of these components?
 > 
 
 ### Basic
@@ -537,7 +537,7 @@ In other words, a neural network generalizes because it abstracts and distills p
 - Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position
 [https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf](https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf)
 - [Feed Foward](https://www.wikiwand.com/en/Feedforward_neural_network)
-- [Computation Graph](note.html?n=epistemica/observational/computation-graph.md)
+- [Computation Graph](note.html?n=epistemica/observational/computational/computation-graph.md)
 - [Learning rate](https://en.wikipedia.org/wiki/Learning_rate)
 - [Setting the learning rate of your neural network](https://www.jeremyjordan.me/nn-learning-rate/)
 - https://en.wikipedia.org/wiki/History_of_artificial_neural_networks

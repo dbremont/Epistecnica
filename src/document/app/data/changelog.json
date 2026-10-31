@@ -10793,6 +10793,11 @@
         "kind": "feat",
         "summary": "add the Shalizi–Crutchfield computational mechanics paper",
         "commit": "b85286c540cab7859dd23d7a8deb211ae3c6c10e"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational-learning link after the computational move"
       }
     ]
   },
@@ -26136,6 +26141,11 @@
         "summary": "retarget the adaptative scope link",
         "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
         "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational-learning link after the computational move"
       }
     ]
   },

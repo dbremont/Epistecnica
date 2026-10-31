@@ -711,7 +711,7 @@ The process typically follows these steps:
 > This is a key procedure in **estimation** and **data selection**. We usually cannot operate on the entire dataset, because the data is generated according to an underlying probabilistic process (at least we assume this), which may itself change over time in **non-stationary** settings.
 > 
 
-> See more in [Sampling](../observational/sampling.md).
+> See more in [Sampling](../observational/computational/sampling.md).
 > 
 
 ## Simulation

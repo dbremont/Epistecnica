@@ -729,6 +729,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/discipline/. Its same-dir links to notes that stayed in observational/ gain the ../observational/ prefix, and the Statistical Mechanics and Validation links (absolute corpus paths) are unaffected.",
         "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational links after the computational move"
       }
     ]
   },
@@ -780,6 +785,11 @@
         "summary": "retarget probability links under observational",
         "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70",
         "before": "537b414df2c8466fc26e7841d16a2598b50cd7b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational links after the computational move"
       }
     ]
   },
@@ -6190,6 +6200,11 @@
         "summary": "Repoint links after the computational-science → science rename and the construction split.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
         "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational links after the computational move"
       }
     ]
   },
@@ -6548,34 +6563,12 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/approximate-bayesian-computation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Approximate Bayesian Computation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/attention.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Attention from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/automatic-differentiation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Automatic Differentiation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -6691,17 +6684,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/bootstrapping.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bootstrapping from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/burstiness-index.md",
     "logs": [
       {
@@ -6757,7 +6739,55 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/computation-graph.md",
+    "file_path": "epistemica/observational/computational/approximate-bayesian-computation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Approximate Bayesian Computation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/automatic-differentiation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Automatic Differentiation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/bootstrapping.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bootstrapping from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/computation-graph.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -6771,11 +6801,16 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
   {
-    "file_path": "epistemica/observational/computational-learning.md",
+    "file_path": "epistemica/observational/computational/computational-learning.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -6831,6 +6866,288 @@
         "summary": "retarget the adaptative scope links",
         "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
         "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/expectation-maximization-em-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expectation-Maximization (EM) Algorithm from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/expectation-propagation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expectation Propagation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/expectationmaximization-em-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Expectation–Maximization (EM) Algorithm from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/gillespie-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gillespie Algorithm from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/indirect-inference.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Indirect Inference from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/laplace-s-approximation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Laplace's Approximation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/mcmc-markov-chain-monte-carlo.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (MCMC) Markov Chain Monte Carlo from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/mean-field-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mean Field Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/observational/ scope.",
+        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/metropolis-hastings-algorithm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Metropolis-Hastings Algorithm from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/monte-carlo-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Monte Carlo Toolbox from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/resampling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Resampling from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/sampling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sampling from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/symbolic-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symbolic Regression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/variational-inference.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variational Inference from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "feat",
+        "summary": "Fill the stub with the canonical epistemic schema: Formulation, 114-row Aggregate decomposition under Variational Inference Theory, critical evaluation, target-domain table, QA, and links to the four catalogued VI papers."
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Variational Autoencoder links after its move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the variational-autoencoder links to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
+        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Probability link after its move to discipline/.",
+        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget probability links under observational",
+        "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70",
+        "before": "537b414df2c8466fc26e7841d16a2598b50cd7b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope and retarget its EM links"
       }
     ]
   },
@@ -7583,39 +7900,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/expectation-maximization-em-algorithm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Expectation-Maximization (EM) Algorithm from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/expectation-propagation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Expectation Propagation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/expectationmaximization-em-algorithm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Expectation–Maximization (EM) Algorithm from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/expected-value.md",
     "logs": [
       {
@@ -7807,17 +8091,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/gillespie-algorithm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gillespie Algorithm from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/glivenkocantelli-theorem.md",
     "logs": [
       {
@@ -7926,17 +8199,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Indicator Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/indirect-inference.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Indirect Inference from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8309,17 +8571,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/laplace-s-approximation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Laplace's Approximation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/laplaces-rule-of-succession.md",
     "logs": [
       {
@@ -8452,34 +8703,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/mcmc-markov-chain-monte-carlo.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import (MCMC) Markov Chain Monte Carlo from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/mean-field-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Mean Field Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "refactor",
-        "summary": "Move into the epistemica/observational/ scope.",
-        "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/mean.md",
     "logs": [
       {
@@ -8497,17 +8720,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Method of Moments (MoM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/metropolis-hastings-algorithm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Metropolis-Hastings Algorithm from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8552,17 +8764,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Moment-Generating Function (MGF) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/monte-carlo-toolbox.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Monte Carlo Toolbox from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8619,6 +8820,11 @@
         "kind": "refactor",
         "summary": "tuck the scope note into its own folder",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational links after the computational move"
       }
     ]
   },
@@ -9676,28 +9882,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/resampling.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Resampling from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/sampling.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Sampling from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/simple-linear-regression.md",
     "logs": [
       {
@@ -9868,17 +10052,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/symbolic-regression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Symbolic Regression from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/tendency.md",
     "logs": [
       {
@@ -10024,64 +10197,6 @@
         "kind": "feat",
         "summary": "Import Variance from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/variational-inference.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Variational Inference from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "feat",
-        "summary": "Fill the stub with the canonical epistemic schema: Formulation, 114-row Aggregate decomposition under Variational Inference Theory, critical evaluation, target-domain table, QA, and links to the four catalogued VI papers."
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the Variational Autoencoder links after its move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the variational-autoencoder links to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
-        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
-        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
-      },
-      {
-        "date": "2026-10-26",
-        "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording.",
-        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
-        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the Probability link after its move to discipline/.",
-        "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
-        "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget probability links under observational",
-        "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70",
-        "before": "537b414df2c8466fc26e7841d16a2598b50cd7b3"
       }
     ]
   },
@@ -11663,6 +11778,11 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational links after the computational move"
       }
     ]
   },
@@ -17459,6 +17579,11 @@
         "kind": "refactor",
         "summary": "Move to technica/ais/architecture/.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational links after the computational move"
       }
     ]
   },

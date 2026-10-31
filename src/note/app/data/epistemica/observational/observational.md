@@ -75,7 +75,7 @@ order: 0
 
 ## Computational Learning System
 
-> See more in [Computational Learning](note.html?n=epistemica/observational/computational-learning.md).
+> See more in [Computational Learning](note.html?n=epistemica/observational/computational/computational-learning.md).
 > 
 
 ## Concept

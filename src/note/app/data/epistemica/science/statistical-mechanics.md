@@ -510,8 +510,8 @@ Conceptual Model: Statistical Mechanics
 - [Phase Space](note.html?n=epistemica/science/phase-space.md)
 - [Statistical Mechanics](https://en.wikipedia.org/wiki/Statistical_mechanics)
 - [Boltzmann Machine](note.html?n=technica/ais/architecture/boltzmann-machine.md)
-- [Monte Carlo Toolbox](note.html?n=epistemica/observational/monte-carlo-toolbox.md)
-- [Mean Field Theory](note.html?n=epistemica/observational/mean-field-theory.md)
+- [Monte Carlo Toolbox](note.html?n=epistemica/observational/computational/monte-carlo-toolbox.md)
+- [Mean Field Theory](note.html?n=epistemica/observational/computational/mean-field-theory.md)
 - [Renormalization Group](note.html?n=epistemica/observational/renormalization-group.md)
 - https://en.wikipedia.org/wiki/Canonical_ensemble
 - https://en.wikipedia.org/wiki/Ensemble_(mathematical_physics)

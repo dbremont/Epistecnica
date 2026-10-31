@@ -32,7 +32,7 @@ An **`Aggregate`** — the organized method-system of variational analysis: its 
 
 No — the primary reading is unambiguous: the note documents the organized method-system as an **`Aggregate`**, with its constitutive theories an **Epistemic Construction** (the `Variational Theory` body). A legitimate secondary reading is **operative**: the method as a single routine under `Epistemic Operation` → `Organization` → `Method` — the concrete sequence formulate, vary, derive, solve, check. That reading is kept as `readable as …` prose, not as a second tree; the Operation branch of the table records the routine itself. A third reading is **ontic** — the claim that nature itself extremizes action — and it too stays prose: the note documents the epistemic method, not a metaphysical thesis about the world.
 
-What is *not* licensed is collapsing the method into its neighbours. Ordinary numerical optimization ranges over **parameters**; the variational method ranges over **functions**. The calculus of variations is the classical core of this aggregate, not a separate synonym. [Variational Inference](note.html?n=epistemica/observational/variational-inference.md) is a probabilistic application of the same extremizing pattern to approximate posteriors, and it has its own note. The finite element method is a discretization that realizes the Galerkin branch, not the whole method.
+What is *not* licensed is collapsing the method into its neighbours. Ordinary numerical optimization ranges over **parameters**; the variational method ranges over **functions**. The calculus of variations is the classical core of this aggregate, not a separate synonym. [Variational Inference](note.html?n=epistemica/observational/computational/variational-inference.md) is a probabilistic application of the same extremizing pattern to approximate posteriors, and it has its own note. The finite element method is a discretization that realizes the Galerkin branch, not the whole method.
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -264,7 +264,7 @@ For any normalized $|\psi\rangle$ that is not the true ground state $|0\rangle$,
 - [Hamiltonian Mechanics](note.html?n=epistemica/science/hamiltonian-mechanics.md)
 - [Galerkin Method](note.html?n=epistemica/science/galerkin-method.md)
 - [Finite Element Method (FEM)](note.html?n=epistemica/science/finite-element-method-fem.md)
-- [Variational Inference](note.html?n=epistemica/observational/variational-inference.md) — the probabilistic application of the extremizing pattern.
+- [Variational Inference](note.html?n=epistemica/observational/computational/variational-inference.md) — the probabilistic application of the extremizing pattern.
 - [Action (physics)](https://en.wikipedia.org/wiki/Action_(physics))
 - [Calculus of variations](https://en.wikipedia.org/wiki/Calculus_of_variations)
 - [Newton's minimal resistance problem](https://en.wikipedia.org/wiki/Newton%27s_minimal_resistance_problem)

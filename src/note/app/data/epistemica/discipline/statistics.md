@@ -403,7 +403,7 @@ design and the honesty of the reader.
 
 ### Representation Toolbox
 
-> See ([Trainable Computational System Space](note.html?n=epistemica/observational/computational-learning.md) ) for Cl and ([**Representation Toolbox**](note.html?n=epistemica/discipline/probability.md)) for Probabilistic ones.
+> See ([Trainable Computational System Space](note.html?n=epistemica/observational/computational/computational-learning.md) ) for Cl and ([**Representation Toolbox**](note.html?n=epistemica/discipline/probability.md)) for Probabilistic ones.
 > 
 
 > **Note:** A statistical model is basically a **trainable computational system, but here we will only cover the more traditional ones.**
@@ -646,7 +646,7 @@ design and the honesty of the reader.
 
 ## Sampling
 
-> Se more in [Sampling](note.html?n=epistemica/observational/sampling.md) and  [**Resampling**](note.html?n=epistemica/observational/resampling.md).
+> Se more in [Sampling](note.html?n=epistemica/observational/computational/sampling.md) and  [**Resampling**](note.html?n=epistemica/observational/computational/resampling.md).
 > 
 
 > In probability and statistics, **sampling** refers to the process of selecting a subset of elements from a larger **population** or **universe** in order to make inferences about the whole population. The main idea is that it is usually impractical or impossible to observe every member of a population, so we observe a sample and use it to estimate population properties.
