@@ -4,7 +4,7 @@ tags: [internetworking]
 
 # Network Connectivity
 
-- [Overlay Network](note.html?n=technica/computation/telecom/telecom-conceptual-model/overlay-network.md), [Relay Network](note.html?n=technica/computation/telecom/telecom-conceptual-model/relay-network.md), [Network Address Translation (NAT)](note.html?n=technica/computation/telecom/telecom-conceptual-model/network-address-translation-nat.md), [Interactive Connectivity Establishment (ICE)](note.html?n=technica/computation/telecom/telecom-conceptual-model/interactive-connectivity-establishment-ice.md)
+- [Overlay Network](note.html?n=technica/computation/telecom/overlay-network.md), [Relay Network](note.html?n=technica/computation/telecom/relay-network.md), [Network Address Translation (NAT)](note.html?n=technica/computation/telecom/network-address-translation-nat.md), [Interactive Connectivity Establishment (ICE)](note.html?n=technica/computation/telecom/interactive-connectivity-establishment-ice.md)
 
 > A General concept - to denote - a communication channel between two devices.
 > 

@@ -1,6 +1,6 @@
 # STUN (Session Traversal Utilities for NAT)
 
-- [TURN (Traversal Using Relays around NAT)](note.html?n=technica/computation/telecom/telecom-conceptual-model/turn-traversal-using-relays-around-nat.md), [Interactive Connectivity Establishment (ICE)](note.html?n=technica/computation/telecom/telecom-conceptual-model/interactive-connectivity-establishment-ice.md)
+- [TURN (Traversal Using Relays around NAT)](note.html?n=technica/computation/telecom/turn-traversal-using-relays-around-nat.md), [Interactive Connectivity Establishment (ICE)](note.html?n=technica/computation/telecom/interactive-connectivity-establishment-ice.md)
 
 > 
 

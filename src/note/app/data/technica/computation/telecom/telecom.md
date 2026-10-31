@@ -1,3 +1,7 @@
+---
+order: 0
+---
+
 # Telecom
 
 > In this note, we will dive a bit deeper into **Telecommunications**, especially **computer networking**.
@@ -205,7 +209,7 @@ QA:
 > Which are the implementation models? Relay, Virtual Circuit Model, Encapsulation (Tunneling Model),  Translation (Gateway Model),  Overlay Network Model, etc.
 > 
 
-> See [Network Connectivity](note.html?n=technica/computation/telecom/telecom-conceptual-model/network-connectivity.md).
+> See [Network Connectivity](note.html?n=technica/computation/telecom/network-connectivity.md).
 > 
 
 ## Communication (Interaction Through a Connectivity Mechanism)
@@ -493,7 +497,7 @@ Telecom: Conceptual Model
 - https://github.com/alex/what-happens-when
 - https://en.wikipedia.org/wiki/Telecommunications
 - [Electromagnetism](https://app.notion.com/p/Electromagnetism-ecb3d9ce10f0425a85326aa81634a0d9?pvs=21)
-- [**Antenna**](note.html?n=technica/computation/telecom/telecom-conceptual-model/antenna.md)
+- [**Antenna**](note.html?n=technica/computation/telecom/antenna.md)
 - [Solid State Phenomena](https://app.notion.com/p/Solid-State-Phenomena-1aec0f5171ec808eb99af6ab105bb046?pvs=21)
 - [**Optical Phenomena**](https://app.notion.com/p/Optical-Phenomena-1aec0f5171ec802fb93dcbff1f95a8a1?pvs=21)
 - [**Acoustics P**henomena](https://app.notion.com/p/Acoustics-Phenomena-1aec0f5171ec806fb1f2e35f9adfd2fb?pvs=21)

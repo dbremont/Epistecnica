@@ -1,6 +1,6 @@
 # Internet
 
-- [World Wide Web (WWW)](note.html?n=technica/computation/telecom/telecom-conceptual-model/world-wide-web-www.md)
+- [World Wide Web (WWW)](note.html?n=technica/computation/telecom/world-wide-web-www.md)
 
 > The **Internet** is a **global network of interconnected computer networks** that communicate using standardized protocols (mainly **TCP/IP**) to exchange data and provide various services, including the World Wide Web, email, file transfer, and more. Unlike the Web, the Internet is the **infrastructure**, while the Web is a service built on top of it.
 > 

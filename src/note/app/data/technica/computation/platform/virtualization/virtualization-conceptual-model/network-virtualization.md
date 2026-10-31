@@ -22,4 +22,4 @@ Here are some common types of virtual networks:
 - Al-Fares, M., Loukissas, A., & Vahdat, A. (2008). A scalable, commodity data center network architecture. 38(4), 63–74.
 - Cerf, V., & Kahn, R. (1974). A protocol for packet network intercommunication. 22(5), 637–648.
 - Tennenhouse, D. L., Smith, J. M., Sincoskie, W. D., Wetherall, D. J., & Minden, G. J. (1997). A survey of active network research. IEEE Communications Magazine, 35(1), 80–86.
-- [**Virtual Local Area Network** (**VLAN**) ](note.html?n=technica/computation/telecom/telecom-conceptual-model/virtual-local-area-network-vlan.md)
+- [**Virtual Local Area Network** (**VLAN**) ](note.html?n=technica/computation/telecom/virtual-local-area-network-vlan.md)

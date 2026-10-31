@@ -140,6 +140,12 @@ frontend-facing surface in the deployment; there is no database behind it
   bar that opens the question list. A body `## QA` section is rendered
   content, never the metadata source. See `src/note/README.md` §QA
   questions.
+- Notes front matter may also carry `order:` — a natural number giving the
+  note's render position among the files of its directory (lower first;
+  un-ordered notes follow in path order; folders always render before files
+  and are never ordered). The notes indexer copies it into the index
+  (`order` key), the notes catalog lists by it, and search uses it as the
+  relevance tie-break. Notes corpus only. See `src/note/README.md` §Order.
 - Live notes (`src/note/app/data/**/*.html`, co-located with their companion
   note) share the `note.html` frame
   (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)

@@ -4,7 +4,7 @@ tags: [internetworking]
 
 # Relay Network
 
-- [Network Connectivity](note.html?n=technica/computation/telecom/telecom-conceptual-model/network-connectivity.md)
+- [Network Connectivity](note.html?n=technica/computation/telecom/network-connectivity.md)
 
 > A **relay network** is a communication network architecture in which intermediate nodes—called *relays*—receive, process (optionally), and forward signals between a source and a destination, thereby extending coverage, improving reliability, or increasing throughput.
 > 

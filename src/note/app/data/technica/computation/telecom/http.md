@@ -4,7 +4,7 @@ tags: [computer-network, protocol]
 
 # HTTP
 
-- [Transmission Control Protocol (TCP)](note.html?n=technica/computation/telecom/telecom-conceptual-model/transmission-control-protocol-tcp.md), [QUIC](note.html?n=technica/computation/telecom/telecom-conceptual-model/quic.md)
+- [Transmission Control Protocol (TCP)](note.html?n=technica/computation/telecom/transmission-control-protocol-tcp.md), [QUIC](note.html?n=technica/computation/telecom/quic.md)
 
 > **HTTP (Hypertext Transfer Protocol)** is an application-layer protocol in the OSI model that facilitates stateless, text-based communication between networked clients and servers by defining a structured format for request and response messages, typically over TCP (HTTP/1.x, HTTP/2) or QUIC (HTTP/3), supporting extensible semantics, header-based metadata, and methods for content negotiation, caching, and resource manipulation via standardized verbs and status codes.
 > 
@@ -36,7 +36,7 @@ tags: [computer-network, protocol]
 > Slug: In web development, a “slug” refers to a human-readable, URL-friendly text string used to uniquely identify a resource, often in the context of URLs for articles, posts, or pages.
 > 
 
-![image.png](../assets/note/technica/computation/telecom/telecom-conceptual-model/http/image.png)
+![image.png](../assets/note/technica/computation/telecom/http/image.png)
 
 Request:
 

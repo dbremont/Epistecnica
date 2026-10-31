@@ -17431,6 +17431,11 @@
         "kind": "feat",
         "summary": "Import Distributed Computing from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
       }
     ]
   },
@@ -17665,6 +17670,11 @@
         "kind": "feat",
         "summary": "Import Video Streaming from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
       }
     ]
   },
@@ -25176,6 +25186,11 @@
         "kind": "feat",
         "summary": "Import Linux Network Stack from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
       }
     ]
   },
@@ -27386,6 +27401,11 @@
         "kind": "feat",
         "summary": "Import Network Virtualization from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
       }
     ]
   },
@@ -30265,6 +30285,11 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
       }
     ]
   },
@@ -32507,6 +32532,11 @@
         "kind": "feat",
         "summary": "Import Naming from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Telecom links after the move to technica/computation/telecom/."
       }
     ]
   },
@@ -33016,6 +33046,596 @@
         "summary": "Move images to the shared /assets/ store and update the references.",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
         "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/ajax.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/amqp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/antenna.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/arp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/bgp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/bluetooth.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/congestion-control.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/control-plane.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/coredns.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/data-plane.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/data-streaming.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/dccp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/domain-name-service-dns.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/esim.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/ethernet.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/file-transfer-protocol-ftp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/ftps.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/group-communication-networking.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/http.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/imap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/interactive-connectivity-establishment-ice.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/internet.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/ip.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/java-debug-wire-protocol.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/load-balancing.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/management-plane.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/mapping.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/mininet.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/mttq-mq-telemetry-transport.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/network-address-translation-nat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/network-connectivity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/network-discovery.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/network-flow-control.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/network-interface.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/network-time-protocol.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/network.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/networking-hardware.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/open-systems-interconnection-osi-model.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/ospf.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/overlay-network.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/peerjs.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/pop3.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/quic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/radio.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/rarp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/relay-network.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/remote-procedure-calls-rpc.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/rest-representational-state-transfer.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/routing.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/rsync.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/rtc-real-time-communication.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/server-send-events-sse.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/simple-object-access-protocol-soap.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/smtp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/socks.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/sparql-sparql-protocol-and-rdf-query-language.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/ssh-file-transfer-protocol-sftp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/ssh.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/stun-session-traversal-utilities-for-nat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
       }
     ]
   },
@@ -33899,6 +34519,216 @@
         "kind": "feat",
         "summary": "Import ZeroMQ from the Computacion Notion export.",
         "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/telecom.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move the Telecom landing note into telecom/ and pin it first with order: 0."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/telnet.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/tor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/transmission-control-protocol-tcp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/transport-layer-security-tls.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/tunneling-protocol.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/turn-traversal-using-relays-around-nat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/twisted-pair-cable.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/virtual-local-area-network-vlan.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/webdriver.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/webhook.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/webrtc.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/websocket.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/wi-fi.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/wifi.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/wire-data-transmission.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/wireless-data-transmission.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/world-wide-web-www.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/xmpp-extensible-messaging-and-presence-protocol.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/ and retarget its corpus links."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/zeromq.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to technica/computation/telecom/."
       }
     ]
   },

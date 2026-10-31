@@ -228,6 +228,28 @@ tags: [java, debugging, osgi]
   (`src/course/README.md`) and the documents corpus
   (`src/document/README.md`).
 
+## Order
+
+Front matter may carry `order:` — a **natural number** (0, 1, 2, …) that sets
+the note's render position among the files of its directory:
+
+```markdown
+---
+order: 0
+---
+
+# Title
+```
+
+- Lower numbers render first. Notes without `order:` come after every
+  ordered note and keep the index (path) order; folders always render before
+  files, and folders themselves are never ordered.
+- The indexer copies a valid value into `data/index.json` as `order`;
+  anything that is not a natural number warns and is dropped.
+- Search orders by relevance first; `order` (then title) breaks ties.
+- Notes corpus only for now — the documents, courses, and personas catalogs
+  do not read the field.
+
 ## QA questions
 
 Front matter may also carry `qa:` — a block list of open reflection

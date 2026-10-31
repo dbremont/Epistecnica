@@ -4,7 +4,7 @@ tags: [wireless-data-transmission]
 
 # Wireless Data Transmission
 
-- [Wire Data Transmission](note.html?n=technica/computation/telecom/telecom-conceptual-model/wire-data-transmission.md)
+- [Wire Data Transmission](note.html?n=technica/computation/telecom/wire-data-transmission.md)
 
 > Data transmission in a **wireless medium** relies on the use of **electromagnetic waves** to carry information through the air or vacuum without the need for physical cables.
 > 

@@ -128,7 +128,7 @@ Conceptual Model: Firefox
 
 - https://searchfox.org/
 - https://firefox-source-docs.mozilla.org/overview/index.html
-- [WebDriver](note.html?n=technica/computation/telecom/telecom-conceptual-model/webdriver.md)
+- [WebDriver](note.html?n=technica/computation/telecom/webdriver.md)
 - https://firefox-source-docs.mozilla.org/overview/gecko.html
 - [How Back/forward Cache Helped Yahoo! JAPAN News Increase Revenue by 9% on Mobile](https://web.dev/yahoo-japan-news-bfcache/)
 - [Javascript](note.html?n=technica/computation/language-system/conceptual-model-language-system/javascript.md)

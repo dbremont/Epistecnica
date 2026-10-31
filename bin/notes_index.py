@@ -10,8 +10,10 @@ src/note/app/data/index.json, the search corpus for the notes catalog
 For each note it extracts: path (relative to data/), title (markdown:
 first "# " heading; html: <title>, else first <h1>; fallback: the
 filename), top-level section (first path component), h2/h3 headings,
-tags (optional `tags: [...]` front matter, `---` style), qa questions
-(optional `qa:` block-list front matter), lowercased plain text, and word
+tags (optional `tags: [...]` front matter, `---` style), order
+(optional `order:` front-matter natural number — the note's render
+position among the files of its directory), qa questions (optional `qa:`
+block-list front matter), lowercased plain text, and word
 count. Paths and tags are validated against the naming convention (see
 src/note/README.md); violations print as warnings and never fail the
 build.
@@ -39,6 +41,7 @@ FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 TAGS_RE = re.compile(r"^tags:\s*\[(.*)\]\s*$")
 QA_KEY_RE = re.compile(r"^qa:\s*$")
 QA_ITEM_RE = re.compile(r"^-\s+(.+)$")
+ORDER_RE = re.compile(r"^order:\s*(\S+)\s*$")
 LINK_RE = re.compile(r"!?\[([^\]]*)\]\([^)]*\)")
 FENCE_RE = re.compile(r"```[^\n]*\n|```")
 HTML_BLOCK_RE = re.compile(r"<(script|style)\b.*?</\1>", re.IGNORECASE | re.DOTALL)
@@ -70,14 +73,16 @@ def plain_text(md: str) -> str:
 
 
 def parse_front_matter(md: str, rel: Path, warnings: list) -> tuple:
-    """Split optional `---` front matter off; return (body, tags, qa).
+    """Split optional `---` front matter off; return (body, tags, qa, order).
 
-    `tags: [...]` and a `qa:` block list (one open question per `- ` line)
-    are read; anything else in the fence is ignored. Invalid tags warn and
-    are dropped.
+    `tags: [...]`, a `qa:` block list (one open question per `- ` line), and
+    `order:` (a natural number: the note's render position among the files of
+    its directory) are read; anything else in the fence is ignored. Invalid
+    tags and orders warn and are dropped.
     """
     tags = []
     qa = []
+    order = None
     fm = FRONT_MATTER_RE.match(md)
     if fm:
         in_qa = False
@@ -107,13 +112,21 @@ def parse_front_matter(md: str, rel: Path, warnings: list) -> tuple:
                             tags.append(tag)
                     else:
                         warnings.append(f"{rel.as_posix()} (tag '{tag}')")
+                continue
+            m = ORDER_RE.match(stripped)
+            if m:
+                raw = m.group(1).strip().strip("'\"")
+                if raw.isdigit():
+                    order = int(raw)
+                else:
+                    warnings.append(f"{rel.as_posix()} (order '{raw}')")
         md = md[fm.end():]
-    return md, tags, qa
+    return md, tags, qa, order
 
 
 def parse(path: Path, rel: Path, warnings: list) -> dict:
     md = path.read_text(encoding="utf-8", errors="replace")
-    md, tags, qa = parse_front_matter(md, rel, warnings)
+    md, tags, qa, order = parse_front_matter(md, rel, warnings)
     title = None
     headings = []
     for line in md.splitlines():
@@ -128,7 +141,7 @@ def parse(path: Path, rel: Path, warnings: list) -> dict:
     if title is None:
         title = rel.stem.replace("-", " ")
     text = plain_text(md)
-    return entry(rel, title, headings, text, tags, qa, kind="note")
+    return entry(rel, title, headings, text, tags, qa, kind="note", order=order)
 
 
 def parse_html(path: Path, rel: Path, warnings: list) -> dict:
@@ -158,7 +171,7 @@ def parse_html(path: Path, rel: Path, warnings: list) -> dict:
     return entry(rel, title, headings, text, [], [], kind="live")
 
 
-def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str) -> dict:
+def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str, order: int = None) -> dict:
     parts = rel.parts
     section = parts[0] if len(parts) > 1 else "root"
     item = {
@@ -168,6 +181,8 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list
         "kind": kind,
         "tags": tags,
     }
+    if order is not None:
+        item["order"] = order
     if qa:
         item["qa"] = qa
     item.update({

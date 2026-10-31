@@ -1,6 +1,6 @@
 # FTPs
 
-- [File Transfer Protocol (FTP)](note.html?n=technica/computation/telecom/telecom-conceptual-model/file-transfer-protocol-ftp.md)
+- [File Transfer Protocol (FTP)](note.html?n=technica/computation/telecom/file-transfer-protocol-ftp.md)
 
 > 
 

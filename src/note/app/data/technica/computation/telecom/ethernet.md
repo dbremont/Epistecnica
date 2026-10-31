@@ -4,7 +4,7 @@ tags: [computer-network, standard]
 
 # Ethernet
 
-- [Open Systems Interconnection (OSI) Model](note.html?n=technica/computation/telecom/telecom-conceptual-model/open-systems-interconnection-osi-model.md), [Wire Data Transmission](note.html?n=technica/computation/telecom/telecom-conceptual-model/wire-data-transmission.md)
+- [Open Systems Interconnection (OSI) Model](note.html?n=technica/computation/telecom/open-systems-interconnection-osi-model.md), [Wire Data Transmission](note.html?n=technica/computation/telecom/wire-data-transmission.md)
 
 > **Ethernet** is a deterministic, contention-based, **packet-switched** networking technology defined by the IEEE 802.3 standard, operating at the data link (Layer 2) and physical (Layer 1) layers of the OSI model, utilizing MAC addresses for frame addressing, Carrier Sense Multiple Access with Collision Detection (CSMA/CD) for medium access control in half-duplex mode, and supporting full-duplex operation with switch-based point-to-point links.
 > 

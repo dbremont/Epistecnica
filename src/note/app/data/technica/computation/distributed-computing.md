@@ -251,7 +251,7 @@ Multi-Node Processing System: Conceptual Model
 - [Awesome Distributed Systems](https://github.com/theanalyst/awesome-distributed-systems)
 - [Distributed Systems Reading List](https://people.cs.rutgers.edu/~pxk/417/readinglist.html)
 - [Firefox](note.html?n=technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
-- [Data Streaming](note.html?n=technica/computation/telecom/telecom-conceptual-model/data-streaming.md)
+- [Data Streaming](note.html?n=technica/computation/telecom/data-streaming.md)
 - https://dancres.github.io/Pages/
 - https://ferd.ca/a-distributed-systems-reading-list.html
 - [Operating System](note.html?n=technica/computation/operating-system.md)

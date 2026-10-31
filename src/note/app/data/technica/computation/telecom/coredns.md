@@ -4,7 +4,7 @@ tags: [tool]
 
 # CoreDNS
 
-- [Domain Name Service (DNS)](note.html?n=technica/computation/telecom/telecom-conceptual-model/domain-name-service-dns.md)
+- [Domain Name Service (DNS)](note.html?n=technica/computation/telecom/domain-name-service-dns.md)
 
 > **CoreDNS** is a fast, flexible, and extensible **DNS server** written in Go, designed as both a **general-purpose authoritative and recursive DNS server** and a **DNS-based service discovery tool**, particularly in **cloud-native environments** like **Kubernetes**.
 > 

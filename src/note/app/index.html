@@ -817,8 +817,19 @@
 
         function sortScored(list, q) {
             return list.map(function (n) { return { n: n, s: score(n, q) }; })
-                .sort(function (a, b) { return a.s - b.s || a.n.title.localeCompare(b.n.title); })
+                .sort(function (a, b) { return a.s - b.s || orderLess(a.n, b.n) || a.n.title.localeCompare(b.n.title); })
                 .map(function (x) { return x.n; });
+        }
+
+        /* `order:` front matter — a natural number giving a note's render
+           position among the files of its directory. Ordered notes come
+           first (ascending), the rest keep the index order; folders always
+           render before files. */
+        function orderLess(a, b) {
+            var oa = a.order == null ? Infinity : a.order;
+            var ob = b.order == null ? Infinity : b.order;
+            if (oa === ob) return 0;
+            return oa < ob ? -1 : 1;
         }
 
         function isPinned(p) { return PINS.indexOf(p) >= 0; }
@@ -882,6 +893,7 @@
                 if (!q) return true;
                 return score(n, q) >= 0;
             });
+            if (!q) list.sort(orderLess);
             return q ? sortScored(list, q) : list;
         }
 
@@ -893,6 +905,7 @@
                 if (!q) return true;
                 return score(n, q) >= 0;
             });
+            if (!q) list.sort(orderLess);
             return q ? sortScored(list, q) : list;
         }
 
@@ -1042,7 +1055,7 @@
             });
             if (!dirs.length && !files.length) return '';
             dirs.sort(function (a, b) { return a.name.localeCompare(b.name); });
-            files.sort(function (a, b) { return a.title.localeCompare(b.title); });
+            files.sort(function (a, b) { return orderLess(a, b) || a.title.localeCompare(b.title); });
             function badgeFor(to) { return (labels[to] || []).join(' \u00b7 '); }
             return dirs.map(function (s) { return dirCard(s, q, badgeFor(s._to)); }).join('') +
                 files.map(function (n) { return fileCard(n, q, badgeFor(n.path)); }).join('');

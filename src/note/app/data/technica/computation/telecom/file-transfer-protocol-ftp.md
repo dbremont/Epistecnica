@@ -4,7 +4,7 @@ tags: [computer-network, protocol]
 
 # File Transfer Protocol (FTP)
 
-- [FTPs](note.html?n=technica/computation/telecom/telecom-conceptual-model/ftps.md)
+- [FTPs](note.html?n=technica/computation/telecom/ftps.md)
 
 > FTP (**File Transfer Protocol**) is a **stateful, application-layer protocol** used for transferring files between a client and a server over a network. It operates over **TCP** (Transmission Control Protocol) and follows a **client-server architecture**.
 > 

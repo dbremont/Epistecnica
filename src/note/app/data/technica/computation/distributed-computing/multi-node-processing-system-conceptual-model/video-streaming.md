@@ -52,7 +52,7 @@ QA:
 
 - [Firefox](note.html?n=technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
 - [‣](https://app.notion.com/p/65b8a74e2a474ef2b72983934b205626?pvs=21)
-- [Data Streaming](note.html?n=technica/computation/telecom/telecom-conceptual-model/data-streaming.md)
+- [Data Streaming](note.html?n=technica/computation/telecom/data-streaming.md)
 - [Video Processing](note.html?n=technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/video-processing.md)
 - https://bytebytego.com/courses/system-design-interview/design-youtube
 - https://news.ycombinator.com/item?id=22748247

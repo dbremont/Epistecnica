@@ -4,7 +4,7 @@ tags: [hardware]
 
 # Networking Hardware
 
-- [Antenna](note.html?n=technica/computation/telecom/telecom-conceptual-model/antenna.md)
+- [Antenna](note.html?n=technica/computation/telecom/antenna.md)
 
 > 
 

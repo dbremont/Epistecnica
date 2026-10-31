@@ -4,7 +4,7 @@ tags: [computer-network, protocol]
 
 # Domain Name Service (DNS)
 
-- [CoreDNS](note.html?n=technica/computation/telecom/telecom-conceptual-model/coredns.md)
+- [CoreDNS](note.html?n=technica/computation/telecom/coredns.md)
 
 > System that translates human-readable domain names, such as www.example.com, into IP addresses, which are used by computers to identify each other on the internet.
 > 

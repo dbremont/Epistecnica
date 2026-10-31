@@ -314,7 +314,7 @@ A naming foundation typically defines:
 - [Naming in Distributed Systems](https://dsg.tuwien.ac.at/linksites/teaching/courses/VerteilteSysteme/pdfs/ds-ws-2014-lecture4_naming_Truong.pdf)
 - Tanenbaum & Van Steen, Distributed Systems: Principles and
 - [Distributed Sequence Number Generation?](https://stackoverflow.com/questions/2671858/distributed-sequence-number-generation)
-- [Domain Name Service (DNS)](note.html?n=technica/computation/telecom/telecom-conceptual-model/domain-name-service-dns.md)
+- [Domain Name Service (DNS)](note.html?n=technica/computation/telecom/domain-name-service-dns.md)
 - [Reference](https://app.notion.com/p/Reference-1e4c0f5171ec80c5bb7bed49e387d528?pvs=21)
 - [Name](note.html?n=technica/computation/language-system/conceptual-model-language-system/name.md)
 - Cognition -  [Name](https://app.notion.com/p/Name-283c0f5171ec800ca9e0dce8f1f6b659?pvs=21)
