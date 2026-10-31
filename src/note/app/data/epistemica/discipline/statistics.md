@@ -683,7 +683,7 @@ design and the honesty of the reader.
 > What is the theoretical grounding of statistics? When should a **statistical procedure** be used?
 > 
 
-> See more in [Theory of Statistics](note.html?n=epistemica/observational/theory-of-statistics.md) and [Theory of Probability](note.html?n=epistemica/observational/theory-of-probability.md).
+> See more in [Theory of Statistics](note.html?n=epistemica/observational/theory-of-statistics.md) and [Theory of Probability](note.html?n=epistemica/observational/probability/theory-of-probability.md).
 > 
 
 ### Induction

@@ -605,6 +605,11 @@
         "summary": "retarget dynamical-systems links after the ds rename",
         "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
         "before": "82fb1246fd13d0cef208c58fff853e02185df257"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget probability links under observational"
       }
     ]
   },
@@ -6177,6 +6182,11 @@
         "summary": "Retarget the Shannon Information Content link to the section of the theory note after the content note was absorbed.",
         "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
         "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget probability links under observational"
       }
     ]
   },
@@ -8042,6 +8052,256 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/probability/bayes-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/bayes-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/betting.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/characteristic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/de-finetti-interpretation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/dutch-book.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/expected-value.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/free-probability-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/high-dimensional-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/imprecise-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/independence.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/kelly-criterion.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/laplaces-rule-of-succession.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/law-of-total-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/moment-generating-function-mgf.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/possibility.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/principle-of-maximum-entropy.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/probability-density-function-pdf.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/probability-generating-function-pgf.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/probability-mass-function-pmf.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/probability-representation-regime.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/random-object.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/random-variable.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/randomness-extractor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/theory-of-probability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/quantile.md",
     "logs": [
       {
@@ -8700,6 +8960,11 @@
         "summary": "Retarget the Probability link after its move to discipline/.",
         "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
         "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget probability links under observational"
       }
     ]
   },

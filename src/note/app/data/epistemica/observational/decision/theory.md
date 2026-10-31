@@ -119,12 +119,12 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 | --- | --- | --- |
 | Decision making | [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md) | The cognitive process, glossary, pathologies, and practical frameworks. |
 | Decision problem | [Decision Problem](note.html?n=epistemica/observational/decision/decision-problem.md) | The formal $(S, E)$ structure: solution space and evaluation model. |
-| Expected value | [Expected Value](note.html?n=epistemica/observational/expected-value.md) | The probability-weighted average underlying expected utility. |
+| Expected value | [Expected Value](note.html?n=epistemica/observational/probability/expected-value.md) | The probability-weighted average underlying expected utility. |
 | Trade-offs | [Trade-Off](note.html?n=epistemica/optimization/trade-off.md) | Competing criteria and the compromises between them. |
-| Uncertainty | [Probability](note.html?n=epistemica/discipline/probability.md), [Possibility](note.html?n=epistemica/observational/possibility.md) | The belief-side foundations: graded uncertainty and the space of alternatives. |
-| Belief updating | [Bayes' Theorem](note.html?n=epistemica/observational/bayes-theorem.md), [Bayes Estimator](note.html?n=epistemica/observational/bayes-estimator.md) | How evidence revises the belief that feeds a decision. |
-| Coherence | [Dutch Book](note.html?n=epistemica/observational/dutch-book.md), [Betting](note.html?n=epistemica/observational/betting.md) | Coherent probability as the avoidance of sure loss. |
-| Bet sizing | [Kelly Criterion](note.html?n=epistemica/observational/kelly-criterion.md) | Growth-optimal sizing of a repeated bet. |
+| Uncertainty | [Probability](note.html?n=epistemica/discipline/probability.md), [Possibility](note.html?n=epistemica/observational/probability/possibility.md) | The belief-side foundations: graded uncertainty and the space of alternatives. |
+| Belief updating | [Bayes' Theorem](note.html?n=epistemica/observational/probability/bayes-theorem.md), [Bayes Estimator](note.html?n=epistemica/observational/probability/bayes-estimator.md) | How evidence revises the belief that feeds a decision. |
+| Coherence | [Dutch Book](note.html?n=epistemica/observational/probability/dutch-book.md), [Betting](note.html?n=epistemica/observational/probability/betting.md) | Coherent probability as the avoidance of sure loss. |
+| Bet sizing | [Kelly Criterion](note.html?n=epistemica/observational/probability/kelly-criterion.md) | Growth-optimal sizing of a repeated bet. |
 | Multi-criteria | [Multiple-Criteria Decision-Making (MCDM)](note.html?n=epistemica/optimization/multiple-criteria-decision-making-mcdm.md) | Ranking alternatives against several conflicting criteria. |
 | Robustness | [Robust Decision-Making (RDM)](note.html?n=epistemica/optimization/robust-decision-making-rdm.md) | Strategies that perform acceptably across plausible futures. |
 | Sequential decisions | [Markov Decision Processes (MDP)](note.html?n=epistemica/dynamical-intelligence/markov-decision-processes-mdp.md) | States, actions, transitions, and rewards over time. |
