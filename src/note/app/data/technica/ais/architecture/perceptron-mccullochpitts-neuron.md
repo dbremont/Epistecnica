@@ -50,7 +50,7 @@ In this formula, $*w_i*$ represents the weight of the $*i_\text{th}*$ feature, *
 | **Probabilistic Proofs** | Bound the number of updates using probabilistic arguments. | Assume a probability distribution over data points and show convergence happens with high probability in a finite number of steps. | Useful for stochastic and non-deterministic cases. |
 | **Dual Representation and Convex Optimization** | Represent weight updates in terms of dual variables and link to convex optimization. | Express weights as a linear combination of inputs and show dual formulation enforces convergence under linear separability. | Connects to more advanced learning algorithms. |
 
-Proof: [Perceptron Convergence Theorem](note.html?n=epistemica/mathematical/perceptron-convergence-theorem.md)
+Proof: [Perceptron Convergence Theorem](note.html?n=epistemica/mathematical/construction/perceptron-convergence-theorem.md)
 
 ## Training
 

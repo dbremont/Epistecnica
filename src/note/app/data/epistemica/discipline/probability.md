@@ -1062,7 +1062,7 @@ Formally, it involves:
 - [Set](../mathematical/set.md)
 - [Combinatorics](../mathematical/combinatorics.md)
 - [Enumeration (Counting)](../mathematical/enumeration-counting.md)
-- [Inclusion-Exclusion Principle](../mathematical/inclusion-exclusion-principle.md)
+- [Inclusion-Exclusion Principle](../guidance/principle/inclusion-exclusion-principle.md)
 - [‣](https://app.notion.com/p/10e598edb790813e9bc3e6df60b3011e?pvs=21)
 - https://brilliant.org/wiki/probability-rule-of-product/
 - https://brilliant.org/wiki/rule-of-sum/

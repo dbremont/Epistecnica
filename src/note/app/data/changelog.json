@@ -757,6 +757,11 @@
         "summary": "retarget the construction links after the theory move",
         "commit": "e9d1049344d80aa156f080b3ded34e0718a25fa7",
         "before": "3cb08f96e06148f391d53d87e5998ac30e633372"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the result links after the construction move"
       }
     ]
   },
@@ -1556,6 +1561,22 @@
     ]
   },
   {
+    "file_path": "epistemica/guidance/principle/inclusion-exclusion-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inclusion-Exclusion Principle from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the guidance principle scope: a directive, not a result"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/guidance/principle/least-action-principle.md",
     "logs": [
       {
@@ -1596,6 +1617,29 @@
         "kind": "refactor",
         "summary": "rename the principle folder to the singular",
         "commit": "448baded3f77230748863ed867a26cec42593d90"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/principle/pigeonhole-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Pigeonhole Principle from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the guidance principle scope: a directive, not a result"
       }
     ]
   },
@@ -1944,17 +1988,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/am-gm-inequality.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import AM-GM Inequality from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/analytic-function.md",
     "logs": [
       {
@@ -2023,17 +2056,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Asymptotic Analysis from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/banach-fixed-point-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Banach Fixed-Point Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -2112,17 +2134,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/brouwer-fixed-point-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Brouwer Fixed-Point Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/canonical-form.md",
     "logs": [
       {
@@ -2156,17 +2167,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/cauchy-schwarz-inequality.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cauchy-Schwarz Inequality from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/cauchy-sequence.md",
     "logs": [
       {
@@ -2179,17 +2179,6 @@
   },
   {
     "file_path": "epistemica/mathematical/cayley-hamilton-theorem-2.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cayley-Hamilton Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/cayley-hamilton-theorem.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -2496,17 +2485,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/chebyshev-s-inequality.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Chebyshev's Inequality from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/classical-algebra.md",
     "logs": [
       {
@@ -2657,6 +2635,518 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/construction/am-gm-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import AM-GM Inequality from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/banach-fixed-point-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Banach Fixed-Point Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/brouwer-fixed-point-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Brouwer Fixed-Point Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/cauchy-schwarz-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cauchy-Schwarz Inequality from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/cayley-hamilton-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cayley-Hamilton Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/chebyshev-s-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Chebyshev's Inequality from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/de-moivres-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import De Moivre’s Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/divergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Divergence Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/euclids-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Euclid’s Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/fubinis-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fubini’s Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/fundamental-theorem-of-calculus-ftc.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fundamental Theorem of Calculus (FTC) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/fundamental-theory-of-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fundamental Theory of Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/gradient-descent-convergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gradient Descent Convergence Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/gradient-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gradient Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/green-s-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Green's Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/greens-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Green’s Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/hahn-banach-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hahn-Banach Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/heine-borel-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Heine-Borel Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/intermediate-value-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Intermediate Value Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/inverse-function-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inverse Function Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/jensen-s-inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Jensen's Inequality from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/l-hopital-s-rule.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import L'Hôpital's rule from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/lebesgues-dominated-convergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lebesgue’s Dominated Convergence Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/mean-value-theorem-mvt.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Mean Value Theorem (MVT) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/noethers-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Noether’s Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/perceptron-convergence-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Perceptron Convergence Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice and fix the root links"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/rieszfrechet-representation-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Riesz–Fréchet Representation Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/schurs-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Schur’s Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/stokes-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stokes’ Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/taylors-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Taylor’s Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/the-weierstrass-approximation-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import The Weierstrass Approximation Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/construction/universal-approximation-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Universal Approximation Theorem from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/construction scope as a result about mathematical practice"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/continuity.md",
     "logs": [
       {
@@ -2784,17 +3274,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Curl Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/de-moivres-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import De Moivre’s Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -2996,17 +3475,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Divergence Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/divergence-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Divergence Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -3432,17 +3900,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/euclids-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Euclid’s Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/eulermascheroni-constant.md",
     "logs": [
       {
@@ -3554,17 +4011,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/fubinis-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fubini’s Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/function.md",
     "logs": [
       {
@@ -3582,28 +4028,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Functional from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/fundamental-theorem-of-calculus-ftc.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fundamental Theorem of Calculus (FTC) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/fundamental-theory-of-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fundamental Theory of Algebra from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -3821,34 +4245,12 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/gradient-descent-convergence-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gradient Descent Convergence Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/gradient-operator.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Gradient Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/gradient-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gradient Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -3882,28 +4284,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Green's Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/green-s-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Green's Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/greens-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Green’s Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -3949,17 +4329,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/hahn-banach-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hahn-Banach Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/harmonic-analysis.md",
     "logs": [
       {
@@ -3977,17 +4346,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Heaviside Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/heine-borel-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Heine-Borel Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4114,17 +4472,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/inclusion-exclusion-principle.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Inclusion-Exclusion Principle from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/indo-arabic-numeral.md",
     "logs": [
       {
@@ -4187,34 +4534,12 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/intermediate-value-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Intermediate Value Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/invariant.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Invariant from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/inverse-function-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Inverse Function Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4264,17 +4589,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/jensen-s-inequality.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Jensen's Inequality from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/joint-probability-matrix.md",
     "logs": [
       {
@@ -4308,17 +4622,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/l-hopital-s-rule.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import L'Hôpital's rule from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/laplacian-matrix.md",
     "logs": [
       {
@@ -4347,17 +4650,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Lebesgue Integral from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/lebesgues-dominated-convergence-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lebesgue’s Dominated Convergence Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4428,6 +4720,11 @@
         "summary": "Update space links after the space-scope move.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
         "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the result links after the construction move"
       }
     ]
   },
@@ -4643,17 +4940,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/mean-value-theorem-mvt.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Mean Value Theorem (MVT) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/measure.md",
     "logs": [
       {
@@ -4770,17 +5056,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Network from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/noethers-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Noether’s Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4983,17 +5258,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/perceptron-convergence-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Perceptron Convergence Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/periodic-function.md",
     "logs": [
       {
@@ -5023,24 +5287,6 @@
         "kind": "feat",
         "summary": "Import Piecewise Function from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/pigeonhole-principle.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Pigeonhole Principle from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
       }
     ]
   },
@@ -5386,17 +5632,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/rieszfrechet-representation-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Riesz–Fréchet Representation Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/roman-numeric-system.md",
     "logs": [
       {
@@ -5453,17 +5688,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Scatter Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/schurs-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Schur’s Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -6084,17 +6308,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/stokes-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Stokes’ Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/sublinear-functional.md",
     "logs": [
       {
@@ -6139,34 +6352,12 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/taylors-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Taylor’s Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/tensor.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Tensor from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/the-weierstrass-approximation-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import The Weierstrass Approximation Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -6299,17 +6490,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Universal Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/universal-approximation-theorem.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Universal Approximation Theorem from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -10071,6 +10251,11 @@
         "kind": "refactor",
         "summary": "scope the probability notes under observational",
         "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the result links after the construction move"
       }
     ]
   },
@@ -18226,6 +18411,11 @@
         "kind": "refactor",
         "summary": "Move to technica/ais/architecture/.",
         "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the result links after the construction move"
       }
     ]
   },

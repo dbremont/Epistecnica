@@ -75,4 +75,4 @@ The PHP is inherently about **counting and inevitability**. Proof by contradicti
 ## References
 
 - https://en.wikipedia.org/wiki/Pigeonhole_principle
-- [**Division**](division.md)
+- [**Division**](../../mathematical/division.md)

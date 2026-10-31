@@ -346,7 +346,7 @@ Overall the instance is mature and heavily validated; what its warrant is condit
 - [Linear Functional](note.html?n=epistemica/mathematical/linear-functional.md)
 - [Eigenvector](note.html?n=epistemica/mathematical/eigenvector.md)
 - [Spectrum](note.html?n=epistemica/mathematical/spectrum.md)
-- [Cayley-Hamilton Theorem](note.html?n=epistemica/mathematical/cayley-hamilton-theorem.md)
+- [Cayley-Hamilton Theorem](note.html?n=epistemica/mathematical/construction/cayley-hamilton-theorem.md)
 - [LU Decomposition](note.html?n=epistemica/mathematical/lu-decomposition.md)
 - [Singular Value Decomposition (SVD)](note.html?n=epistemica/mathematical/singular-value-decomposition-svd.md)
 - [Iterative Method](note.html?n=epistemica/mathematical/iterative-method.md)
