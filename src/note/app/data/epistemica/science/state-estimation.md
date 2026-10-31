@@ -51,11 +51,11 @@ tags: [framework]
 - https://en.wikipedia.org/wiki/Filtering_problem_(stochastic_processes)
 - https://en.wikipedia.org/wiki/Zakai_equation
 
-[**Kalman Filter**](../observational/kalman-filter.md)
+[**Kalman Filter**](../observational/filter/kalman-filter.md)
 
-[**Wiener Filter**](../observational/wiener-filter.md)
+[**Wiener Filter**](../observational/filter/wiener-filter.md)
 
-[**Particle Filter**](../observational/particle-filter.md)
+[**Particle Filter**](../observational/filter/particle-filter.md)
 
 [Adaptative](note.html?n=epistemica/adaptative/adaptative.md) 
 

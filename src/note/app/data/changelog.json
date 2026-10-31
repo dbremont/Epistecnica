@@ -7660,13 +7660,82 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/filter.md",
+    "file_path": "epistemica/observational/filter/filter.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Filter from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/filter scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/filter/kalman-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Kalman Filter from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/filter scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/filter/particle-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Particle Filter from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/filter scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/filter/savitzkygolay-sg-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Savitzky–Golay (S–G) Filter from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/filter scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/filter/wiener-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Wiener Filter from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/filter scope"
       }
     ]
   },
@@ -8202,17 +8271,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/kalman-filter.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Kalman Filter from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/kelly-criterion.md",
     "logs": [
       {
@@ -8599,17 +8657,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Partial Least Squares Regression (PLS) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/particle-filter.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Particle Filter from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9646,17 +9693,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/savitzkygolay-sg-filter.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Savitzky–Golay (S–G) Filter from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/simple-linear-regression.md",
     "logs": [
       {
@@ -10062,17 +10098,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Visualization from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/wiener-filter.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Wiener Filter from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -11553,6 +11578,11 @@
         "summary": "retarget the adaptative scope links",
         "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
         "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the filter links after the filter move"
       }
     ]
   },
