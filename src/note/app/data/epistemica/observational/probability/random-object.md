@@ -86,7 +86,7 @@ tags: [probability]
 > A random process (or stochastic process) is a **collection of random variables** indexed by time or another parameter, describing the evolution of a system under uncertainty.
 > 
 
-> Se more in [**Stochastic Process**](stochastic-process.md).
+> Se more in [**Stochastic Process**](../process/stochastic-process.md).
 > 
 
 ## Random Function

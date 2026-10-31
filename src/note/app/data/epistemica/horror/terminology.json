@@ -301,7 +301,7 @@
         "expectation"
       ],
       "notes": [
-        "epistemica/observational/stochastic-process.md"
+        "epistemica/observational/process/stochastic-process.md"
       ],
       "sources": [
         {
@@ -981,7 +981,7 @@
         "stationary-process"
       ],
       "notes": [
-        "epistemica/observational/stochastic-process.md"
+        "epistemica/observational/process/stochastic-process.md"
       ],
       "sources": [
         {
@@ -1257,7 +1257,7 @@
         "stationary-process"
       ],
       "notes": [
-        "epistemica/observational/stochastic-process.md"
+        "epistemica/observational/process/stochastic-process.md"
       ],
       "sources": [
         {

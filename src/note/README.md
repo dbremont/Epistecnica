@@ -172,8 +172,8 @@ facet bars: sections are reached as folders and tags through the search box.
   marked with a `live` chip. Examples: `technica/general/cto/lib/concurrent-map.html`
   ("Concurrent Map"),
   `epistemica/observational/distribution/atlas/poisson-distribution.html` ("Poisson Distribution"),
-  `epistemica/observational/hawkes-process.html` ("Hawkes Process"),
-  `epistemica/observational/fokker-planck-equation.html`
+  `epistemica/observational/process/hawkes-process.html` ("Hawkes Process"),
+  `epistemica/observational/process/fokker-planck-equation.html`
   ("Fokker-Planck Equation").
 
 ## Changelog / history

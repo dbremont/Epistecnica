@@ -57,5 +57,5 @@
 - [Binomial Coefficient](../mathematical/binomial-coefficient.md)
 - https://en.wikipedia.org/wiki/Branching_process
 - https://github.com/csiglab/responsum/blob/main/praxis/src/datamatica/probability.md
-- [Galton–Watson Process](../observational/galtonwatson-process.md)
+- [Galton–Watson Process](../observational/process/galtonwatson-process.md)
 - https://archive.org/details/theoryofbranchin00harr/mode/1up?view=theater&ui=embed&wrapper=false

@@ -342,6 +342,11 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the Galton-Watson link after the process move"
       }
     ]
   },
@@ -6695,17 +6700,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/brownian-motion.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Brownian Motion from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/burstiness-index.md",
     "logs": [
       {
@@ -6889,17 +6883,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Cramér–Rao Lower Bound (CRLB) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/ctmc-continuous-time-markov-chain.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import (CTMC) Continuous-time Markov Chain from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7095,34 +7078,12 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/diffusion-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Diffusion Process from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/dimensionality-reduction.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Dimensionality Reduction from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/dirichlet-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Dirichlet Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7708,17 +7669,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/filtration.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Filtration from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/flow-model.md",
     "logs": [
       {
@@ -7737,56 +7687,12 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/fokker-planck-equation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Fokker-Planck Equation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/free-probability-theory.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Free Probability Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/galtonwatson-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Galton–Watson Process from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/gaussian-process-2.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gaussian Process from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/gaussian-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gaussian Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7842,17 +7748,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Glivenko–Cantelli Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/hawkes-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hawkes Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8294,17 +8189,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/ito-calculus.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Ito Calculus from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/jamesstein-estimator.md",
     "logs": [
       {
@@ -8437,17 +8321,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/levy-proces.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lévy Proces from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/linear-discriminant-analysis-lda.md",
     "logs": [
       {
@@ -8470,17 +8343,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/marked-point-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Marked Point Process from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/markov-logic-network.md",
     "logs": [
       {
@@ -8498,17 +8360,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Markov Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/martingale.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Martingale from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8790,28 +8641,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Persistent Homology from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/point-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Point Process from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/poisson-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Poisson Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9205,6 +9034,11 @@
         "kind": "refactor",
         "summary": "scope the probability notes under observational",
         "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "point the stochastic-process link at the process scope"
       }
     ]
   },
@@ -9238,6 +9072,333 @@
         "kind": "refactor",
         "summary": "scope the probability notes under observational",
         "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/brownian-motion.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Brownian Motion from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/ctmc-continuous-time-markov-chain.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (CTMC) Continuous-time Markov Chain from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/diffusion-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diffusion Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/dirichlet-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dirichlet Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/filtration.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Filtration from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/fokker-planck-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Fokker-Planck Equation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/galtonwatson-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Galton–Watson Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/gaussian-process-2.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/gaussian-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gaussian Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/hawkes-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hawkes Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/ito-calculus.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ito Calculus from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/levy-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lévy Proces from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope and fix the filename and title spelling"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/marked-point-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Marked Point Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/martingale.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Martingale from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/point-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Point Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/poisson-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poisson Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/random-walk-drunkard-s-walk.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Walk (Drunkard's Walk) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/renewal-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Renewal Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/stationary-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stationary Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/process/stochastic-process.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Stochastic Process from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/process scope"
       }
     ]
   },
@@ -9356,17 +9517,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/random-walk-drunkard-s-walk.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Random Walk (Drunkard's Walk) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/randomness-extractor.md",
     "logs": [
       {
@@ -9417,17 +9567,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Relative Efficiency from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/renewal-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Renewal Theory from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9563,17 +9702,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/stationary-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Stationary Process from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/statistic-estimator.md",
     "logs": [
       {
@@ -9649,24 +9777,6 @@
         "kind": "feat",
         "summary": "Import Stochastic Petri Nets from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/stochastic-process.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Stochastic Process from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename",
-        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
-        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
       }
     ]
   },

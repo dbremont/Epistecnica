@@ -555,7 +555,7 @@
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../../note.html?n=epistemica/observational/diffusion-process.md">Diffusion Process</a> · <a href="../../../../../note.html?n=technica/ais/system/diffusion-model.md">Diffusion Model</a> · <a href="../../../../../note.html?n=epistemica/construction/fick-s-laws-of-diffusion.md">Fick’s Laws</a></li><li><a href="../../../../../note.html?n=epistemica/science/system-dynamics.md">System Dynamics</a> · <a href="../../../../../note.html?n=epistemica/mathematical/dynamical-systems/dynamical-system.md">Dynamical System</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/observational/process/diffusion-process.md">Diffusion Process</a> · <a href="../../../../../note.html?n=technica/ais/system/diffusion-model.md">Diffusion Model</a> · <a href="../../../../../note.html?n=epistemica/construction/fick-s-laws-of-diffusion.md">Fick’s Laws</a></li><li><a href="../../../../../note.html?n=epistemica/science/system-dynamics.md">System Dynamics</a> · <a href="../../../../../note.html?n=epistemica/mathematical/dynamical-systems/dynamical-system.md">Dynamical System</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
             <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Turing, A. M. (1952)</strong> — <em>The Chemical Basis of Morphogenesis</em></li><li><strong>Pearson, J. E. (1993)</strong> — complex patterns in a simple system (Gray–Scott)</li><li><strong>FitzHugh, R. (1961)</strong> · <strong>Nagumo, J. et al. (1962)</strong> — excitable-media equations</li></ul>
@@ -725,7 +725,7 @@
         id: 'grayscott', domain: 'Chemistry', name: 'Gray\u2013Scott', reaction: 'gs', render: 'v', rng: [0, 0.4], tag: 'autocatalytic reactor',
         sub: '\\dot u=-uv^2+f(1-u),\\quad \\dot v=uv^2-(f+k)v',
         desc: 'The canonical autocatalytic reactor: u is fed in, v consumes u and decays. With the right feed and kill rates a uniform state breaks into self-maintaining spots and worms \u2014 therefore called "mitosis".',
-        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/process/diffusion-process.md' }],
         params: [
           { key: 'Du', label: 'diffusion Dᵤ', min: 0.05, max: 0.3, step: 0.01, value: 0.16 },
           { key: 'Dv', label: 'diffusion Dᵥ', min: 0.02, max: 0.15, step: 0.01, value: 0.08 },
@@ -737,7 +737,7 @@
         id: 'brusselator', domain: 'Chemistry', name: 'Brusselator', reaction: 'br', render: 'u', rng: [0, 4.5], tag: 'oscillating reaction',
         sub: '\\dot u=a-(b+1)u+u^2v,\\quad \\dot v=bu-u^2v',
         desc: 'A theoretical oscillating reaction. With diffusion, the uniform steady state loses stability and the field organises into stripes and rotating spirals \u2014 a Turing pattern from a limit-cycle chemistry.',
-        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/process/diffusion-process.md' }],
         params: [
           { key: 'Du', label: 'diffusion Dᵤ', min: 0.4, max: 1.4, step: 0.05, value: 0.9 },
           { key: 'Dv', label: 'diffusion Dᵥ', min: 0.2, max: 0.9, step: 0.05, value: 0.45 },
@@ -749,7 +749,7 @@
         id: 'schnakenberg', domain: 'Biology', name: 'Schnakenberg', reaction: 'sk', render: 'u', rng: [0.2, 1.2], tag: 'activator\u2013substrate',
         sub: '\\dot u=a-u+u^2v,\\quad \\dot v=b-u^2v',
         desc: 'A minimal activator\u2013substrate model of morphogenesis. A slowly diffusing activator u and a fast substrate v form regular spot arrays \u2014 the textbook picture of how a uniform embryo can decide where to grow.',
-        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/process/diffusion-process.md' }],
         params: [
           { key: 'Du', label: 'diffusion Dᵤ', min: 0.05, max: 0.4, step: 0.01, value: 0.16 },
           { key: 'Dv', label: 'diffusion Dᵥ', min: 0.4, max: 3, step: 0.05, value: 1.6 },
