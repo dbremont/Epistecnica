@@ -14020,6 +14020,11 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "chore",
+        "summary": "remove the book entry from the corpus"
       }
     ]
   },
