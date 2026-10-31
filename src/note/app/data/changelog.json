@@ -2621,7 +2621,9 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references"
+        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references",
+        "commit": "ce622cca5a84faecad277ee6c64bc7e82b216798",
+        "before": "ffb18ea9cff958bfc5fd8b1502d44cddd70fc422"
       }
     ]
   },
@@ -40919,7 +40921,9 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references"
+        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references",
+        "commit": "ce622cca5a84faecad277ee6c64bc7e82b216798",
+        "before": "ffb18ea9cff958bfc5fd8b1502d44cddd70fc422"
       }
     ]
   }
