@@ -62,7 +62,7 @@
     },
     {
       "from": "epistemica/",
-      "to": "nature/construction/principle/compositionality.md",
+      "to": "epistemica/construction/principle/compositionality.md",
       "label": "Compositionality",
       "kind": "related"
     },
