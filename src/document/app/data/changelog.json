@@ -12923,7 +12923,9 @@
       {
         "date": "2026-10-31",
         "kind": "docs",
-        "summary": "Drop the extraction summary paragraph from the Element Set section."
+        "summary": "Drop the extraction summary paragraph from the Element Set section.",
+        "commit": "af5ed99d2b540af93fa3f728f2958b841aaa1049",
+        "before": "fc20f39b63782634a8b748771492e838947725c0"
       }
     ]
   },
