@@ -2054,17 +2054,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/asymptotic-analysis.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Asymptotic Analysis from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/bell-number.md",
     "logs": [
       {
@@ -2094,24 +2083,6 @@
         "kind": "feat",
         "summary": "Import Beta Function from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/bijective-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bijective Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
       }
     ]
   },
@@ -3450,17 +3421,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/dimensional-analysis.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Dimensional Analysis from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/diophantine-equation.md",
     "logs": [
       {
@@ -3489,17 +3449,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Discrete Structure from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/discretization.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Discretization from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4603,17 +4552,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/iterative-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Iterative Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/jacobian-matrix.md",
     "logs": [
       {
@@ -4763,6 +4701,11 @@
         "summary": "retarget the result links after the construction move",
         "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
         "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the method link after the method move"
       }
     ]
   },
@@ -4827,17 +4770,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Linear Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/linearization.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Linearization from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4985,6 +4917,177 @@
         "kind": "feat",
         "summary": "Import Measure from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/asymptotic-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Asymptotic Analysis from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/bijective-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bijective Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/dimensional-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dimensional Analysis from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/discretization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discretization from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/iterative-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Iterative Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/linearization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linearization from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/perturbation-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Perturbation Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/variational-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Variational Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "feat",
+        "summary": "Fill the stub with the canonical epistemic schema: Formulation, 136-row Aggregate decomposition under Variational Theory, critical evaluation, target-domain table, and QA."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Conform the type question to the guide's wording (ambiguous?) and link the Newton and Voltaire books to their document-catalog entries."
+      },
+      {
+        "date": "2026-10-21",
+        "kind": "docs",
+        "summary": "Add the solved-problems question (Newton's minimal resistance through VQE), two benchmark exemplars in the tree, and the Newton resistance-problem reference."
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Remove the retired order label from the decomposition wording.",
+        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Repoint links after the computational-science → science rename and the construction split.",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
+        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the computational links after the computational move",
+        "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
+        "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result"
       }
     ]
   },
@@ -5307,17 +5410,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/perturbation-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Perturbation Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/piecewise-function.md",
     "logs": [
       {
@@ -5529,6 +5621,11 @@
         "summary": "Repoint links after the computational-science → science rename and the construction split.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
         "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the method link after the method move"
       }
     ]
   },
@@ -6540,53 +6637,6 @@
         "kind": "feat",
         "summary": "Import Universal Induction from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/variational-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Variational Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "feat",
-        "summary": "Fill the stub with the canonical epistemic schema: Formulation, 136-row Aggregate decomposition under Variational Theory, critical evaluation, target-domain table, and QA."
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Conform the type question to the guide's wording (ambiguous?) and link the Newton and Voltaire books to their document-catalog entries."
-      },
-      {
-        "date": "2026-10-21",
-        "kind": "docs",
-        "summary": "Add the solved-problems question (Newton's minimal resistance through VQE), two benchmark exemplars in the tree, and the Newton resistance-problem reference."
-      },
-      {
-        "date": "2026-10-26",
-        "kind": "docs",
-        "summary": "Remove the retired order label from the decomposition wording.",
-        "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
-        "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "docs",
-        "summary": "Repoint links after the computational-science → science rename and the construction split.",
-        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
-        "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget the computational links after the computational move",
-        "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
-        "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
       }
     ]
   },
@@ -8143,6 +8193,11 @@
         "summary": "retarget the model links after the computational model move",
         "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb",
         "before": "14ffe2e962f328e67dfebe5933334249c774cf3f"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the method link after the method move"
       }
     ]
   },

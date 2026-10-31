@@ -349,7 +349,7 @@ Overall the instance is mature and heavily validated; what its warrant is condit
 - [Cayley-Hamilton Theorem](note.html?n=epistemica/mathematical/construction/cayley-hamilton-theorem.md)
 - [LU Decomposition](note.html?n=epistemica/mathematical/lu-decomposition.md)
 - [Singular Value Decomposition (SVD)](note.html?n=epistemica/mathematical/singular-value-decomposition-svd.md)
-- [Iterative Method](note.html?n=epistemica/mathematical/iterative-method.md)
+- [Iterative Method](note.html?n=epistemica/mathematical/method/iterative-method.md)
 - [System of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations)
 - [Vandermonde matrix](https://en.wikipedia.org/wiki/Vandermonde_matrix)
 - [Lang, S. (1987). Linear algebra. Springer Science & Business Media.](../document/document.html?d=books/lang-1987-linear-algebra-springer-science-business.md)
