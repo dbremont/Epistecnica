@@ -26133,7 +26133,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the adaptative scope link"
+        "summary": "retarget the adaptative scope link",
+        "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
+        "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
       }
     ]
   },
