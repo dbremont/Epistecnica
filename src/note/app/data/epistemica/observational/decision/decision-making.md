@@ -549,11 +549,11 @@ See:
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement learning: An introduction* (2nd ed.). MIT Press.
 - **Baron, J. (2007).** *Thinking and deciding* (4th ed.). Cambridge University Press.
 - **Peterson, M. (2017).** *An introduction to decision theory* (2nd ed.). Cambridge University Press.
-- [Control Theory](dynamical-intelligence/control-theory.md)
+- [Control Theory](../../adaptative/control-theory.md)
 - [Simulation](simulation.md)
 - [Causality](causality.md)
 - [Observational](observational.md)
-- [Dynamical Intelligence](dynamical-intelligence.md)
+- [Adaptative](../../adaptative.md)
 - https://www.edx.org/learn/discrete-mathematics/ecole-polytechnique-federale-de-lausanne-introduction-to-discrete-choice-models
 - Ben-Akiva, Moshe and Steven R. Lerman (1985) Discrete Choice Analysis: Theory and Application to Travel Demand. Cambridge, Mass.: MIT Press.
 - https://bactra.org/notebooks/political-decision-making.html

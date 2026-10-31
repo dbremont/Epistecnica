@@ -1,11 +1,11 @@
-# Dynamical Intelligence
+# Adaptative
 
-> Dynamical intelligence is the capacity of a system to sustain its viability over time by adaptively regulating its state through feedback-driven perception, action, and learning within a dynamic environment.
+> Adaptative intelligence is the capacity of a system to sustain its viability over time by adaptively regulating its state through feedback-driven perception, action, and learning within a dynamic environment.
 > 
 
 ## Formulation
 
-> A **dynamical intelligence** is a system $S$ characterized by:
+> An **adaptative intelligence** is a system $S$ characterized by:
 > 
 
 **State Space**
@@ -61,7 +61,7 @@ This update law  $\mathcal{U}$ can be Bayesian (belief updating), gradient-based
 | **Dynamical Systems Approach to Cognition** | Treats cognition not as symbolic computation but as trajectories in a continuous state space, emphasizing embodiment and real-time interaction. |
 | **Viable System Model (VSM)** | A cybernetic organizational framework describing how complex systems remain viable through recursive regulation and adaptation. |
 
-Conceptual Model: Dynamical Intelligence
+Conceptual Model: Adaptative
 
 ## References
 

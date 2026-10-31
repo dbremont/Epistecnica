@@ -312,7 +312,7 @@ QA:
     - Weaver, W. (1948). Science and Complexity. American Scientist.
     - https://en.wikipedia.org/wiki/Scientific_modelling
  - Dynamical System
- - Dynamical Intelligence
+ - Adaptative
  - Modelado
  - Computacion
  - Formal System

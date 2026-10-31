@@ -57,7 +57,7 @@ tags: [framework]
 
 [**Particle Filter**](../observational/particle-filter.md)
 
-[Dynamical Intelligence](../dynamical-intelligence.md) 
+[Adaptative](../adaptative.md) 
 
 [**System Identification**](system-identification.md) 
 

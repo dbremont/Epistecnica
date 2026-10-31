@@ -1,5 +1,115 @@
 [
   {
+    "file_path": "epistemica/adaptative.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/active-inference.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/control-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/cybernetics.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/free-energy-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/markov-decision-processes-mdp.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/model-predictive-control-mpc.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/optimal-control-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/reinforcement-learning-rl.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/adaptative/viable-system-model-vsm.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename dynamical intelligence to adaptative"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/causality.md",
     "logs": [
       {
@@ -830,6 +940,11 @@
         "summary": "retarget practice links after the theory flatten",
         "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6",
         "before": "a92075a24557a33ee5eea7e009f509f75d10f48d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },
@@ -5949,6 +6064,11 @@
         "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
         "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
         "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },
@@ -6077,6 +6197,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/observational/decision/.",
         "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },
@@ -6191,6 +6316,11 @@
         "summary": "retarget probability links under observational",
         "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70",
         "before": "537b414df2c8466fc26e7841d16a2598b50cd7b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },
@@ -10479,6 +10609,11 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },
@@ -11142,6 +11277,11 @@
         "kind": "refactor",
         "summary": "flatten practice into the theory scope",
         "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },
@@ -11956,6 +12096,11 @@
         "kind": "refactor",
         "summary": "flatten practice into the theory scope",
         "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },
@@ -12227,6 +12372,11 @@
         "summary": "retarget practice links after the theory flatten",
         "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6",
         "before": "a92075a24557a33ee5eea7e009f509f75d10f48d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope links"
       }
     ]
   },

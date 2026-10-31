@@ -26129,6 +26129,11 @@
         "summary": "add the Shalizi–Crutchfield computational mechanics paper",
         "commit": "b85286c540cab7859dd23d7a8deb211ae3c6c10e",
         "before": "af15af763c8af7d0a3f317b12acbc505917d5340"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the adaptative scope link"
       }
     ]
   },

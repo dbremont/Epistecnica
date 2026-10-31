@@ -439,7 +439,7 @@ Aphorisms:
 [Natural Computing](note.html?n=epistemica/natural-computing.md)
 [Complexity Science](note.html?n=epistemica/complexity-science.md)
 [**Statistical Mechanics**](note.html?n=epistemica/construction/statistical-mechanics.md)
-[Dynamical Intelligence](note.html?n=epistemica/dynamical-intelligence.md)
+[Adaptative](note.html?n=epistemica/adaptative.md)
 [Computational Science](note.html?n=epistemica/science.md)
 [Formal Concept Analysis (FCA)](note.html?n=epistemica/formal-concept-analysis-fca.md)
 [**System of Units of Measurement**](note.html?n=epistemica/measurement/system-of-units-of-measurement.md)
@@ -621,7 +621,7 @@ Aphorisms:
 - **Model Theory**
 - [Epistemology](note.html?n=epistemica/theory/general/epistemology.md)
 - (**Church–Turing Thesis**) Computationalism
-- Dynamical Intelligence
+- Adaptative
 - https://en.wikipedia.org/wiki/Metamodeling
 - [Science, Mind, and Limits of Understanding](https://chomsky.info/201401__/)
 - [Intelligible Form](https://en.wikipedia.org/wiki/Intelligible_form)

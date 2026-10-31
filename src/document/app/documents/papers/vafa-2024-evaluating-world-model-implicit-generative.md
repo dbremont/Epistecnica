@@ -52,4 +52,4 @@ There are two separate tests:
 - Shalizi, C. R., & Crutchfield, J. P. (2001). *Computational Mechanics: Pattern and Prediction, Structure and Simplicity*. Journal of Statistical Physics, 104, 817–879.
 - [Generative Model](../note/note.html?n=epistemica/observational/generative-model.md)
 - [Computational Learning](../note/note.html?n=epistemica/observational/computational-learning.md)
-- [Active Inference](../note/note.html?n=epistemica/dynamical-intelligence/active-inference.md)
+- [Active Inference](../note/note.html?n=epistemica/adaptative/active-inference.md)

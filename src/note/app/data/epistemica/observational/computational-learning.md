@@ -190,7 +190,7 @@ Key Questions:
 > **Reinforcement Learning (RL)** is a type of machine learning where an *agent* learns to make decisions by interacting with an *environment*, receiving *rewards* for good actions and adjusting its strategy over time to maximize long-term success.
 > 
 
-> See more in [Dynamical Intelligence](../dynamical-intelligence.md).
+> See more in [Adaptative](../adaptative.md).
 > 
 
 ## Problem Encoding

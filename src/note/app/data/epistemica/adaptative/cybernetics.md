@@ -8,7 +8,7 @@
 > The art of governing or the science of government.
 > 
 
-![image.png](../assets/note/epistemica/dynamical-intelligence/cybernetics/image.png)
+![image.png](../assets/note/epistemica/adaptative/cybernetics/image.png)
 
 ## Conceptual Table
 
@@ -72,5 +72,5 @@ Key concepts in second-order **cybernetics** include:
 - https://mises.org/mises-daily/order-vs-organization
 - [Complexity](https://app.notion.com/p/Complexity-2633ab7c5d5a46519593153880c13e57?pvs=21)
 - 
-- [Dynamical Intelligence](../dynamical-intelligence.md)
+- [Adaptative](../adaptative.md)
 - [Complex Adaptative Systems (CAS)](../complexity-science/complex-adaptative-systems-cas.md)

@@ -323,7 +323,7 @@ A DEAS excludes:
 - [Theory of Knowledge (IB course)](https://www.wikiwand.com/en/Theory_of_knowledge_(IB_course))
 - [Epistemology](https://en.wikipedia.org/wiki/Epistemology)
 - https://en.wikipedia.org/wiki/Action_principles
-- Dynamical Intelligence
+- Adaptative
 - https://plato.stanford.edu/entries/formal-epistemology/
 - https://en.wikipedia.org/wiki/Formal_epistemology
 - Mental Model
