@@ -78,7 +78,7 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 > Do these preconditions change depending on the estimators used? Yes, but they are a combinations of this.
 > 
 
-> [](https://app.notion.com/p/248c0f5171ec80618455e4de9574f748?pvs=21),[(Statistic) Estimator](estimator/statistic-estimator.md),[Homoscedasticity](homoscedasticity.md)
+> [](https://app.notion.com/p/248c0f5171ec80618455e4de9574f748?pvs=21),[(Statistic) Estimator](../estimator/statistic-estimator.md),[Homoscedasticity](../homoscedasticity.md)
 > 
 
 | **Property** | **Description** |
@@ -132,7 +132,7 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 > Regularization is a technique used to **prevent overfitting** by adding a penalty term to the loss function during model training. This penalty discourages overly complex models by constraining or shrinking coefficient estimates, improving generalization on unseen data.
 > 
 
-> See more in [**Regularization**](regularization.md).
+> See more in [**Regularization**](../regularization.md).
 > 
 
 ### Common Regularization Method
@@ -193,7 +193,7 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 - https://stats.stackexchange.com/questions/46151/how-to-derive-the-least-square-estimator-for-multiple-linear-regression
 - https://economictheoryblog.com/2015/02/19/ols_estimator/
 - https://en.wikipedia.org/wiki/Gauss%E2%80%93Markov_theorem
-- [(Statistic) Estimator](estimator/statistic-estimator.md)
+- [(Statistic) Estimator](../estimator/statistic-estimator.md)
 - https://archive.org/details/bub_gb_ORUOAAAAQAAJs conicis solem ambientium
 - https://archive.org/details/nouvellesmthode00legegoog
 - https://arxiv.org/abs/2203.01425
@@ -202,11 +202,11 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 - https://news.ycombinator.com/item?id=12254098
 - https://en.wikipedia.org/wiki/Frisch%E2%80%93Waugh%E2%80%93Lovell_theorem
 - https://news.ycombinator.com/item?id=12254098
-- [Covariance](covariance.md)
+- [Covariance](../covariance.md)
 - [Covariance Matrix](../mathematical/covariance-matrix.md)
 - 
 - [Backpropagation](../optimization/backpropagation.md)
 - [Gradient Descent (GD)](../optimization/gradient-descent-gd.md)
 - [**Stochastic Gradient Descent (SGD)**](../optimization/stochastic-gradient-descent-sgd.md)
-- [(Statistic) Estimator](estimator/statistic-estimator.md)
+- [(Statistic) Estimator](../estimator/statistic-estimator.md)
 - [Exploratory Data Analysis (EDA)](../exploratory-data-analysis-eda.md)

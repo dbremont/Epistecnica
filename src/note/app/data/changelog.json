@@ -819,6 +819,29 @@
     ]
   },
   {
+    "file_path": "epistemica/discipline/time-series.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Time Series from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the discipline scope as a modelling domain"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/dynamical-intelligence.md",
     "logs": [
       {
@@ -6615,50 +6638,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/autoregressive-conditional-heteroscedasticity-arch-models.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Autoregressive Conditional Heteroscedasticity (ARCH) Models from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/autoregressive-integrated-moving-average-arima-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Autoregressive Integrated Moving Average (ARIMA) Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/autoregressive-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Autoregressive Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/autoregressivemoving-average-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Autoregressive–Moving-Average Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/bag-of-words-bow.md",
     "logs": [
       {
@@ -6687,17 +6666,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Bayes’ Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/bayesian-structural-time-series.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bayesian Structural Time Series from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -6803,6 +6771,70 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/autoregressive-conditional-heteroscedasticity-arch-models.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive Conditional Heteroscedasticity (ARCH) Models from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/autoregressive-integrated-moving-average-arima-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive Integrated Moving Average (ARIMA) Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/autoregressive-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/autoregressivemoving-average-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Autoregressive–Moving-Average Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/bayesian-network.md",
     "logs": [
       {
@@ -6816,6 +6848,22 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/bayesian-structural-time-series.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bayesian Structural Time Series from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -6927,6 +6975,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/cox-regression-proportional-hazards-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cox Regression (Proportional Hazards Model) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/discriminative-model.md",
     "logs": [
       {
@@ -6940,6 +7004,22 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/elastic-net-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Elastic Net Regression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -7457,6 +7537,70 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/multivariate-adaptive-regression-splines-mars.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multivariate Adaptive Regression Splines (MARS) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/partial-least-squares-regression-pls.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Partial Least Squares Regression (PLS) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/poisson-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Poisson Regression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/polynomial-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Polynomial Regression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/probabilistic-graphical-model-pgm.md",
     "logs": [
       {
@@ -7542,6 +7686,36 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/simple-linear-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Simple Linear Regression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
+        "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the estimator links after the estimator move",
+        "commit": "85f208c59904456b9885fefe4f705fea910dd121",
+        "before": "823af59ec183e7716714739499a8d032ee047280"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope and fix the root links"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/symbolic-regression.md",
     "logs": [
       {
@@ -7555,6 +7729,22 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/token.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Token from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -7630,6 +7820,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/vector-autoregression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Vector Autoregression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/conformal-prediction-inference.md",
     "logs": [
       {
@@ -7658,17 +7864,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Covariance from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/cox-regression-proportional-hazards-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cox Regression (Proportional Hazards Model) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8300,17 +8495,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Dutch Book from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/elastic-net-regression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Elastic Net Regression from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9153,17 +9337,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/multivariate-adaptive-regression-splines-mars.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multivariate Adaptive Regression Splines (MARS) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/non-parametric-tests.md",
     "logs": [
       {
@@ -9222,17 +9395,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/partial-least-squares-regression-pls.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Partial Least Squares Regression (PLS) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/pearson-correlation-coefficient.md",
     "logs": [
       {
@@ -9261,28 +9423,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Persistent Homology from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/poisson-regression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Poisson Regression from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/polynomial-regression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Polynomial Regression from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -10187,31 +10327,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/simple-linear-regression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Simple Linear Regression from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
-        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
-        "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget the estimator links after the estimator move",
-        "commit": "85f208c59904456b9885fefe4f705fea910dd121",
-        "before": "823af59ec183e7716714739499a8d032ee047280"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/singularity-theory.md",
     "logs": [
       {
@@ -10379,35 +10494,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/time-series.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Time Series from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename",
-        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
-        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/token.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Token from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/topic-2.md",
     "logs": [
       {
@@ -10490,17 +10576,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Variance from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/vector-autoregression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Vector Autoregression from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
