@@ -51,6 +51,11 @@
         "kind": "refactor",
         "summary": "rename dynamical intelligence to adaptative",
         "commit": "39ed185055e1a6e54082662bd88eea296c80e863"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the complexity link after the scope rename"
       }
     ]
   },
@@ -263,50 +268,6 @@
     ]
   },
   {
-    "file_path": "epistemica/complexity-science/collective-dynamics.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Collective Dynamics from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/complexity-science/complex-adaptative-systems-cas.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Complex Adaptative Systems (CAS) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/complexity-science/coordination.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Coordination from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/complexity-science/extreme-event.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Extreme Event from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/complexity-science/topics.md",
     "logs": [
       {
@@ -325,6 +286,38 @@
     ]
   },
   {
+    "file_path": "epistemica/complexity/collective-dynamics.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Collective Dynamics from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the scope folder to complexity"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity/complex-adaptative-systems-cas.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Complex Adaptative Systems (CAS) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the scope folder to complexity"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/complexity/complexity-science.md",
     "logs": [
       {
@@ -332,6 +325,38 @@
         "kind": "refactor",
         "summary": "tuck the scope note into its own folder",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity/coordination.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Coordination from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the scope folder to complexity"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity/extreme-event.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Extreme Event from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the scope folder to complexity"
       }
     ]
   },
@@ -2218,6 +2243,11 @@
         "kind": "refactor",
         "summary": "rename the dynamical-systems scope to change",
         "commit": "bde39a998fe635eef26d40673a38fee96d911bee"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the complexity link after the scope rename"
       }
     ]
   },
@@ -10252,6 +10282,11 @@
         "summary": "retarget the rare-events link after the practice move",
         "commit": "800012a713edae4cbd3f43055db332ef14c79c60",
         "before": "a2112e13f034a2a8699603faec98be9c1f5d7892"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the complexity link after the scope rename"
       }
     ]
   },
@@ -12843,17 +12878,6 @@
     ]
   },
   {
-    "file_path": "epistemica/signal-processing/topic.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import topic from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/signal/signal-processing.md",
     "logs": [
       {
@@ -12861,6 +12885,22 @@
         "kind": "refactor",
         "summary": "tuck the scope note into its own folder",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/signal/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import topic from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename the scope folder to signal"
       }
     ]
   },

@@ -178,5 +178,5 @@ The draft's term list, sorted into what belongs to possibility, what is a neighb
 - [Shannon Information Content](note.html?n=epistemica/observational/information/shannon-information-theory.md&toc-item=shannon-information-content) and the [Information Theory Atlas](data/epistemica/observational/information/atlas/atlas.html) — the single-outcome atom and the operational quantities built on it.
 - [Entropy](note.html?n=epistemica/observational/information/entropy.md) — the expected uncertainty of the space, and its many realisations.
 - [Random Variable](note.html?n=epistemica/observational/probability/random-variable.md) and [Variance](note.html?n=epistemica/observational/variance.md) — the quantitative treatment of variation once a measure is fixed.
-- [Extreme Event](note.html?n=epistemica/complexity-science/extreme-event.md) and [Rare Events Modelling](note.html?n=epistemica/observational/practice/rare-events-modelling.md) — applied possibility at the tails of a distribution.
+- [Extreme Event](note.html?n=epistemica/complexity/extreme-event.md) and [Rare Events Modelling](note.html?n=epistemica/observational/practice/rare-events-modelling.md) — applied possibility at the tails of a distribution.
 - [Aleatorio](https://etimologias.dechile.net/?aleatorio)
