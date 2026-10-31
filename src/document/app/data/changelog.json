@@ -14024,7 +14024,9 @@
       {
         "date": "2026-10-31",
         "kind": "chore",
-        "summary": "remove the book entry from the corpus"
+        "summary": "remove the book entry from the corpus",
+        "commit": "1c779193c8355c4b2ed27b79c7f50e2c97b4754c",
+        "before": "2a60a182bd9b028ae2d79c1a74fde27528f22757"
       }
     ]
   },
