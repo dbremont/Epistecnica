@@ -9681,7 +9681,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/practice scope: a modelling practice, not a construction"
+        "summary": "move into the observational/practice scope: a modelling practice, not a construction",
+        "commit": "800012a713edae4cbd3f43055db332ef14c79c60"
       }
     ]
   },
@@ -9717,7 +9718,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move out of the discipline domains into the observational/practice scope: an analysis practice"
+        "summary": "move out of the discipline domains into the observational/practice scope: an analysis practice",
+        "commit": "800012a713edae4cbd3f43055db332ef14c79c60"
       }
     ]
   },
@@ -9960,7 +9962,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the rare-events link after the practice move"
+        "summary": "retarget the rare-events link after the practice move",
+        "commit": "800012a713edae4cbd3f43055db332ef14c79c60",
+        "before": "a2112e13f034a2a8699603faec98be9c1f5d7892"
       }
     ]
   },
