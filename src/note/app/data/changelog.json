@@ -840,37 +840,6 @@
     ]
   },
   {
-    "file_path": "epistemica/discipline/time-series.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Time Series from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename",
-        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
-        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "move into the discipline scope as a modelling domain",
-        "commit": "7982557903f685d1a97cb7b44bf7089289fc1589"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget the change-scope link after the folder rename",
-        "commit": "bde39a998fe635eef26d40673a38fee96d911bee",
-        "before": "688b4a2087836c20f73e267508b160e50c0625e7"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/dynamical-intelligence.md",
     "logs": [
       {
@@ -9701,6 +9670,58 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/practice/rare-events-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Rare Events Modelling from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/practice scope: a modelling practice, not a construction"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/practice/time-series.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Time Series from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the discipline scope as a modelling domain",
+        "commit": "7982557903f685d1a97cb7b44bf7089289fc1589"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the change-scope link after the folder rename",
+        "commit": "bde39a998fe635eef26d40673a38fee96d911bee",
+        "before": "688b4a2087836c20f73e267508b160e50c0625e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move out of the discipline domains into the observational/practice scope: an analysis practice"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/principal-component-analysis-pca.md",
     "logs": [
       {
@@ -9935,6 +9956,11 @@
         "kind": "refactor",
         "summary": "scope the probability notes under observational",
         "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the rare-events link after the practice move"
       }
     ]
   },
@@ -10519,17 +10545,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Randomness Extractor from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/rare-events-modelling.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Rare Events Modelling from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
