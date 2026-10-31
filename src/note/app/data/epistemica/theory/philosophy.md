@@ -322,7 +322,7 @@ QA:
     - https://filosofia.net/piezas/index.htm
     - https://en.wikipedia.org/wiki/List_of_philosophical_problems
  - Concept
- - [Epistemology](note.html?n=epistemica/theory/practice/general/epistemology.md)
+ - [Epistemology](note.html?n=epistemica/theory/general/epistemology.md)
     - https://www.filosofia.org/enc/vtc/index.htm
     - https://plato.stanford.edu/entries/descartes-method/
  - A Guide to the Philosopher Toolbox

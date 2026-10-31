@@ -116,7 +116,7 @@ The following principles summarize these features:
 > What is reality like? Which are the elements that makes up reality? How do we identify such elements?  How to think deeply about changed? How to think about changed as an element of reality itself?
 > 
 
-> See more in [Ontology](note.html?n=epistemica/theory/practice/general/ontology.md).
+> See more in [Ontology](note.html?n=epistemica/theory/general/ontology.md).
 > 
 
 ### Level of Reality
@@ -138,7 +138,7 @@ The following principles summarize these features:
 > The templates of reality are not ontic concepts; rather, they are epistemic constructs that allow us to parse and structure reality.
 > 
 
-> See more in [Ontology Template](note.html?n=epistemica/theory/practice/general/ontology.md) and [Segment](note.html?n=nature/theory/segment.md).
+> See more in [Ontology Template](note.html?n=epistemica/theory/general/ontology.md) and [Segment](note.html?n=nature/theory/segment.md).
 > 
 
 | **Category** | **Notion** | **Description** |
@@ -175,7 +175,7 @@ The following principles summarize these features:
 > **What constitutes an epistemic tool, and how does it mediate access to reality?**
 > 
 
-> See more in [Epistemology](note.html?n=epistemica/theory/practice/general/epistemology.md), [Ontology](note.html?n=epistemica/theory/practice/general/ontology.md), [Epistemic Artifact](note.html?n=epistemica/theory/practice/epistemic-artifact.md) and Observer.
+> See more in [Epistemology](note.html?n=epistemica/theory/general/epistemology.md), [Ontology](note.html?n=epistemica/theory/general/ontology.md), [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md) and Observer.
 > 
 
 > Note:  For reality section -  and a abstract template to encoded - see Ontology.
@@ -241,7 +241,7 @@ The following principles summarize these features:
 > The term “epistemic activity” was formulated independently; while it is not widely used, it does have prior usage.
 > 
 
-> See [Activity](note.html?n=epistemica/theory/practice/activity.md), [Modelling](note.html?n=epistemica/theory/practice/modelling.md), etc.
+> See [Activity](note.html?n=epistemica/theory/activity.md), [Modelling](note.html?n=epistemica/theory/modelling.md), etc.
 > 
 
 ### Epistemic Tool
@@ -255,10 +255,10 @@ The following principles summarize these features:
 > **Note:** An epistemic tool is any element that participates in an epistemic activity, either as a guiding structure (e.g., concepts, assumptions, constraints) or as a resulting artifact.
 > 
 
-> This can include (notions like [State](note.html?n=epistemica/theory/practice/state.md)), procedures like ([Modelling](note.html?n=epistemica/theory/practice/modelling.md) → [Model](note.html?n=epistemica/theory/practice/model.md)), Modelado, Modelado, Formal System, etc.
+> This can include (notions like [State](note.html?n=epistemica/theory/state.md)), procedures like ([Modelling](note.html?n=epistemica/theory/modelling.md) → [Model](note.html?n=epistemica/theory/model.md)), Modelado, Modelado, Formal System, etc.
 > 
 
-> See more in [Epistemic Tool](note.html?n=epistemica/theory/practice/epistemic-tool.md).
+> See more in [Epistemic Tool](note.html?n=epistemica/theory/epistemic-tool.md).
 > 
 
 ### Epistemic Artifact
@@ -272,7 +272,7 @@ The following principles summarize these features:
 > An epistemic artifact - a very special kind of epistemic tool -  is an externalized construct that **embodies a description of reality**.
 > 
 
-> See more of them in [Epistemic Artifact](note.html?n=epistemica/theory/practice/epistemic-artifact.md).
+> See more of them in [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md).
 > 
 
 ### Epistemic Prior
@@ -283,7 +283,7 @@ The following principles summarize these features:
 > **Note:** This is term is a new re-used - not related with Bayesian Epistemology, but a useful bridge between practical epistemology and reality.
 > 
 
-> See more in [Epistemic Prior](note.html?n=epistemica/theory/practice/epistemic-prior.md).
+> See more in [Epistemic Prior](note.html?n=epistemica/theory/epistemic-prior.md).
 > 
 
 ### Epistemic Pathology
@@ -299,7 +299,7 @@ The following principles summarize these features:
 > An **Affirmation Space** is a powerful idea that attempts to capture the full set of possible affirmations that can be made about something.
 > 
 
-> See more in [Affirmation Space](note.html?n=epistemica/theory/practice/affirmation-space.md).
+> See more in [Affirmation Space](note.html?n=epistemica/theory/affirmation-space.md).
 > 
 
 ### Description
@@ -307,7 +307,7 @@ The following principles summarize these features:
 > 
 > 
 
-> See more in [Epistemic Artifact](note.html?n=epistemica/theory/practice/epistemic-artifact.md).
+> See more in [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md).
 > 
 
 ### Explanation
@@ -315,7 +315,7 @@ The following principles summarize these features:
 > An explanation is a very special form of description - maybe the ultimate form - this is why we need a special space for it.
 > 
 
-> See more in [Explanation](note.html?n=epistemica/theory/practice/explanation.md).
+> See more in [Explanation](note.html?n=epistemica/theory/explanation.md).
 > 
 
 ### Evaluation
@@ -329,7 +329,7 @@ The following principles summarize these features:
 > An evaluation is a comprehensive assessment of a description, encompassing its validity and other relevant criteria.
 > 
 
-> See more in [Evaluation](note.html?n=epistemica/theory/practice/evaluation.md).
+> See more in [Evaluation](note.html?n=epistemica/theory/evaluation.md).
 > 
 
 ### Validation
@@ -444,12 +444,12 @@ On this setting to what do we attribute compression of observations? or What hum
 - A Guide to Reading
 - [System](note.html?n=nature/theory/system.md)
 - Energy
-- [Epistemic Artifact](note.html?n=epistemica/theory/practice/epistemic-artifact.md)
+- [Epistemic Artifact](note.html?n=epistemica/theory/epistemic-artifact.md)
 - [Philosophy](note.html?n=epistemica/theory/philosophy.md)
-- [Modelling](note.html?n=epistemica/theory/practice/modelling.md)
+- [Modelling](note.html?n=epistemica/theory/modelling.md)
 - https://en.wikipedia.org/wiki/Reality
 - Nature
 - [Reality](note.html?n=nature/theory/reality.md)
-- [Ontology](note.html?n=epistemica/theory/practice/general/ontology.md)
+- [Ontology](note.html?n=epistemica/theory/general/ontology.md)
 
 [Philosophy](note.html?n=epistemica/theory/philosophy.md)

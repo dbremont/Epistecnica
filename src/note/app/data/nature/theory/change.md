@@ -77,7 +77,7 @@ qa:
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) — how inquiry targets the described element.
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) — the concept-evaluation grammar.
 - [Event](note.html?n=nature/theory/event.md) — the epistemic note on the event concept.
-- [State](note.html?n=epistemica/theory/practice/state.md) — the state a transition leaves and enters.
+- [State](note.html?n=epistemica/theory/state.md) — the state a transition leaves and enters.
 - [Causality](note.html?n=epistemica/causality.md) — why the transition occurs, decomposed separately.
 - Aristotle. (c. 350 BCE). *Physics*, III.1–3. https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0084:book=3:chapter=1
 - Arp, R., Smith, B., & Spear, A. D. (2015). *Building ontologies with Basic Formal Ontology*. MIT Press.

@@ -123,7 +123,7 @@ The "cut" (segmentation) defines the **domain and resolution**; the entities are
 ## References
 
 - [System](note.html?n=nature/theory/system.md)
-- [Ontology](note.html?n=epistemica/theory/practice/general/ontology.md)
+- [Ontology](note.html?n=epistemica/theory/general/ontology.md)
 - [Event Stream](note.html?n=nature/theory/event-stream.md)
-- [State](note.html?n=epistemica/theory/practice/state.md)
+- [State](note.html?n=epistemica/theory/state.md)
 - https://en.wikipedia.org/wiki/Commensurability_(philosophy_of_science)

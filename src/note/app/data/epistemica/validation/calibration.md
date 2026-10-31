@@ -147,8 +147,8 @@ tags: [calibration, identifiability, validation, estimation]
 - [Validation](note.html?n=epistemica/validation/validation.md)
 - [Model Validation](note.html?n=epistemica/validation/validation.md)
 - [Probability Model Validation](note.html?n=epistemica/validation/probability-model-validation.md)
-- [Identification](note.html?n=epistemica/theory/practice/identification.md)
-- [Modelling](note.html?n=epistemica/theory/practice/modelling.md)
+- [Identification](note.html?n=epistemica/theory/identification.md)
+- [Modelling](note.html?n=epistemica/theory/modelling.md)
 - [Simulation](note.html?n=epistemica/simulation.md)
 - [Measurement Theory](note.html?n=epistemica/measurement/measurement-theory.md)
 - Anstett-Collin, F., Denis-Vidal, L., & Millérioux, L. (2020). A priori identifiability: An overview on definitions and approaches. *Annual Reviews in Control*, 50, 139–149.

@@ -108,10 +108,10 @@ frontend-facing surface in the deployment; there is no database behind it
   heading. Per-corpus naming/tags rules live in their READMEs
   (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
   `src/persona/README.md`).
-- `data/epistemica/theory/` holds the cross-domain epistemic theory notes:
-  `theory/philosophy.md`, the `theory/minimal.md` principle note, and the
-  `theory/practice/` notes — including the identifiability note
-  `theory/practice/modelling.md` (epistemic-element schema).
+- `data/epistemica/theory/` is the flattened epistemic-theory scope:
+  `theory/philosophy.md`, `theory/minimal.md`, the identifiability note
+  `theory/modelling.md` (epistemic-element schema), and the former
+  `theory/practice/` notes with their `general/` and `method/` subscopes.
 - `data/nature/theory/` holds the natural-ontology theory scope moved out of
   `epistemica/theory/ontology/`: the ontic element notes (event, causality,
   system, segment, reality, …), the local *Philosophia Naturalis* import

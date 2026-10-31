@@ -18,7 +18,7 @@ src/note/
     │   ├── changelog.json        # per-note edit history (hand-edited)
     │   ├── changelog.schema.json # schema for changelog.json
     │   ├── epistemica/  # epistemical notes (Modelling domains + elements; theory/ scope)
-    │   ├── nature/      # natural notes (natural elements)
+    │   ├── nature/      # natural notes (natural elements; theory/ = ontology)
     │   └── technica/    # technical notes (cto/, pto/, op/, computation/)
 ```
 
@@ -108,10 +108,10 @@ notes, preserving the export's subcollection tree
 
 ## Theory corpus
 
-`data/epistemica/theory/` holds the cross-domain epistemic theory notes:
-`theory/philosophy.md`, the `theory/minimal.md` principle note, and the
-`theory/practice/` notes — including the identifiability note
-`theory/practice/modelling.md`.
+`data/epistemica/theory/` is the flattened epistemic-theory scope:
+`theory/philosophy.md`, the `theory/minimal.md` principle note, the
+identifiability note `theory/modelling.md`, and the former
+`theory/practice/` notes with their `general/` and `method/` subscopes.
 
 `data/nature/theory/` holds the natural-ontology theory scope: the ontic
 element notes (event, causality, system, segment, reality, …), the local
@@ -120,13 +120,13 @@ Change note.
 
 - The imported notes keep the source's own template
   (Meta/Evaluation/Signature/QA) and have not been converted to the
-  epistemical schema; `theory/practice/modelling.md` is authored in the
+  epistemical schema; `theory/modelling.md` is authored in the
   epistemic-element schema.
 - The imported conceptual model was migrated mechanically (a one-off
   migration; the importer was not kept): names normalized, CSV tags as front
   matter, relation properties rewritten as a `Related:` line, Notion noise
   stripped, images moved to the shared `/assets/` store; content preserved.
-- `theory/practice/modelling.md` frames modelling as an identification
+- `theory/modelling.md` frames modelling as an identification
   diagram — map, connectors, observational equivalence, identifiability.
 - Run `make notes-index` afterwards, as for any corpus edit.
 

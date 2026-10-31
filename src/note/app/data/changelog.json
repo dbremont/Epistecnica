@@ -816,6 +816,11 @@
         "summary": "Repoint links after the computational-science → science rename and the construction split.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578",
         "before": "70b22ea79d03d8dfffd17bcf6dac469cdeb859ae"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -10469,6 +10474,1096 @@
     ]
   },
   {
+    "file_path": "epistemica/theory/activity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/affirmation-space.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/approximation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/bayesian-epistemology.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/category.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/context-state-relation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/effective-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/empiricism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/epistemic-artifact.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/epistemic-prior.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/epistemic-tool.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/evaluation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/evolutionary-explanation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/explanation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/falsifiability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/adaptation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/additive-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/antifragility.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/argumentation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/chaotic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/closed.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/complexity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/compound-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/computational-irreducibility.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/concept.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/connectivity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/conservation-law.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/contingency.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/critical-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/definition.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/determinism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/dualism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/epistemic-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/epistemology.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/equilibrium.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/ergodicity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/escuela.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/hitting-time.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/indeterminism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/kolmogorov-complexity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/least-action-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/lebensphilosophie.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/lempel-ziv-complexity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/memory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/metastability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/minimum-description-length-mdl.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/monotonicity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/more-is-different.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/multiplicative-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/nominalism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/objectivity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/observer-epistemic-ontic-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/ontology.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/open.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/panpsychism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/path-dependency.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/pattern.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/phase-transition.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/philosophy-of-language.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/preferential-attachment.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/reason.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/recurrence.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/representation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/reversible.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/science.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/self-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/skepticism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/stable.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/state-descriptor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/static.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/stationary.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/steady-state.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/stoicism.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/survivorship-bias.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/synchronization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/general/threshold.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/identification.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/individuation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/lumped-element-model.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/aquinas-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/aristotle-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/bacon-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/berkeley-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/canterbury-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/cusa-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/descartes-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/hegel-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/heidegger-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/hume-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/husserl-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/ibn-al-haytham-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/kant-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/leibniz-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/mileto-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/nietzsche-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/ockham-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/philosophical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/plato-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/russell-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/schopenhauer-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/scotus-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/spinoza-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/whitehead-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/method/wittgenstein-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/model.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/occam-razor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/theory/ontology/bifurcation.md",
     "logs": [
       {
@@ -10689,6 +11784,16 @@
     ]
   },
   {
+    "file_path": "epistemica/theory/paradigm.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/theory/philosophia-naturalis.md",
     "logs": [
       {
@@ -10707,6 +11812,11 @@
         "kind": "feat",
         "summary": "Import Philosophy from the Philosophia Naturalis Notion export.",
         "commit": "8ae1b7ca1188f2ba89bca60c16185dc76687b054"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12099,6 +13209,66 @@
     ]
   },
   {
+    "file_path": "epistemica/theory/principle-of-sufficient-reason-psr.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/state.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/the-problem-of-induction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/truth.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/variable-reality-aspect-type-vrat.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/variable.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "flatten practice into the theory scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/validation/calibration.md",
     "logs": [
       {
@@ -12132,6 +13302,11 @@
         "summary": "Retarget the Measurement Theory link after the note moved to epistemica/measurement/.",
         "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
         "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12446,6 +13621,11 @@
         "summary": "Link the Goodness of Fit note from Related and from the error-analysis row.",
         "commit": "f6da42d04530b6739bee85c2c1088ba9aeea9fd1",
         "before": "1649a9a484019387c803897c760a9a8c6679ecd1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12591,6 +13771,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12608,6 +13793,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12630,6 +13820,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12663,6 +13858,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12674,6 +13874,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12718,6 +13923,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12729,6 +13939,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12740,6 +13955,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12751,6 +13971,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12773,6 +13998,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12784,6 +14014,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12795,6 +14030,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12806,6 +14046,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
@@ -12817,6 +14062,11 @@
         "kind": "refactor",
         "summary": "move the ontology theory under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget practice links after the theory flatten"
       }
     ]
   },
