@@ -378,7 +378,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -394,7 +395,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -485,7 +487,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -689,7 +692,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Replace the Natural Computing links with Optimization and the @natural-computing tag group."
+        "summary": "Replace the Natural Computing links with Optimization and the @natural-computing tag group.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+        "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
       }
     ]
   },
@@ -1201,7 +1206,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Point the operation-catalogue entry at the @natural-computing tag group instead of the retired scope note."
+        "summary": "Point the operation-catalogue entry at the @natural-computing tag group instead of the retired scope note.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+        "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
       }
     ]
   },
@@ -2346,7 +2353,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -2382,7 +2390,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint the Self-Organized Criticality link to the Complexity scope."
+        "summary": "Repoint the Self-Organized Criticality link to the Complexity scope.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+        "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
       }
     ]
   },
@@ -7894,7 +7904,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11268,7 +11279,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11284,7 +11296,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11311,7 +11324,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11338,7 +11352,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11387,7 +11402,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11403,7 +11419,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11430,7 +11447,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -11446,7 +11464,9 @@
       {
         "date": "2026-10-31",
         "kind": "docs",
-        "summary": "Add the nature-inspired methods index and point the family at the @natural-computing tag."
+        "summary": "Add the nature-inspired methods index and point the family at the @natural-computing tag.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+        "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
       }
     ]
   },
@@ -11462,7 +11482,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587"
       }
     ]
   },
@@ -12268,7 +12289,9 @@
       {
         "date": "2026-10-31",
         "kind": "docs",
-        "summary": "Merge the gloss of the deleted natural-computing duplicate."
+        "summary": "Merge the gloss of the deleted natural-computing duplicate.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+        "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
       }
     ]
   },
@@ -14733,7 +14756,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Drop Natural Computing from the Modelling Domains list; the scope is dissolved into its neighbour scopes."
+        "summary": "Drop Natural Computing from the Modelling Domains list; the scope is dissolved into its neighbour scopes.",
+        "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+        "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
       }
     ]
   },
