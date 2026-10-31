@@ -217,4 +217,4 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 - Boccara, N. (2004). *Modeling Complex Systems*. Springer. [PDF](https://ndl.ethernet.edu.et/server/api/core/bitstreams/160340ae-2d4d-492a-a3ee-c53629febfc6/content)
 - Kari, J. (2005). Theory of cellular automata: A survey. *Theoretical Computer Science*, 334(1–3), 3–33. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S030439750500054X)
 - http://bactra.org/notebooks/cellular-automata.html
-- [Subshift of Finite Type](note.html?n=epistemica/mathematical/dynamical-systems/subshift-of-finite-type.md)
+- [Subshift of Finite Type](note.html?n=epistemica/mathematical/change/subshift-of-finite-type.md)

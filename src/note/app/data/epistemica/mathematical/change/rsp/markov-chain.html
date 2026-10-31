@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coupled Oscillator Network Representational System</title>
+  <title>Markov Chain Representational System</title>
   <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -451,9 +451,9 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/dynamical-systems">dynamical-systems</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/dynamical-systems/rsp">rsp</a><span class="sep">/</span><span class="here">coupled-oscillator-network</span></div>
-      <h1 class="note-title">Coupled Oscillator Network Representational System</h1>
-      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#coupled-oscillators</span><span class="chip">#representation</span></div>
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change">change</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change/rsp">rsp</a><span class="sep">/</span><span class="here">markov-chain</span></div>
+      <h1 class="note-title">Markov Chain Representational System</h1>
+      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#markov-chain</span><span class="chip">#representation</span></div>
     </div>
 
     <div class="cols">
@@ -462,24 +462,24 @@
           <div class="markdown-body">
 
             <blockquote>
-              <p>A <strong>Coupled Oscillator Network</strong> representational system writes change
-              as <em>many local clocks coupled to their neighbours</em>. Each oscillator has a natural
-              frequency <span class="math" data-tex="\omega_i"></span> and a phase
-              <span class="math" data-tex="\theta_i"></span>; coupling pulls neighbours together,
-              <span class="math" data-tex="\dot\theta_i=\omega_i+\tfrac{K}{N}\sum_j\sin(\theta_j-\theta_i)"></span>.
-              It is how collective timing is stated, and the order parameter
-              <span class="math" data-tex="r\,e^{i\psi}=\tfrac1N\sum_j e^{i\theta_j}"></span> is the way
-              it is read.</p>
-              <p>Below, this one representation is instantiated in four domains. Pick an instance to load
-              it; its coupling and description appear above the lab. Then <strong>play</strong> — turn up
-              the coupling and watch a scattered crowd of phases lock into one.</p>
+              <p>A <strong>Markov Chain</strong> representational system writes change as
+              <em>a distribution of mass hopping between named states</em>. The whole model is one
+              transition matrix <span class="math" data-tex="P"></span>,
+              <span class="math" data-tex="\pi_{t+1}=\pi_t P"></span>, where
+              <span class="math" data-tex="P_{ij}"></span> is the probability of moving from state
+              <span class="math" data-tex="i"></span> to <span class="math" data-tex="j"></span>. It is
+              how probabilistic succession is stated, and the stationary distribution
+              <span class="math" data-tex="\pi^\star=\pi^\star P"></span> is the way it is read.</p>
+              <p>Below, this one representation is instantiated in four domains. Pick an instance to
+              load it; its transition rule and description appear above the lab. Then <strong>play</strong>
+              — release the mass, click a state to start over, and watch the distribution settle.</p>
             </blockquote>
 
             <h2 id="playground">Playground</h2>
-            <p>Pick an instance, then play with it. Each dot is one oscillator; its angle is its phase,
-            and the gold arrow is the mean phase whose length is the order parameter
-            <span class="math" data-tex="r"></span>. Drag a dot (or click the field) to kick the crowd,
-            and watch <span class="math" data-tex="r"></span> climb on the trace.</p>
+            <p>Pick an instance, then play with it. Nodes are states and edges are transitions, their
+            thickness proportional to <span class="math" data-tex="P_{ij}"></span>; node colour and the
+            bars show the current distribution <span class="math" data-tex="\pi"></span>. Click a node to
+            drop all the mass there and watch it spread.</p>
 
             <div class="inst-info" id="instInfo">
               <div class="ii-name" id="iiName"></div>
@@ -494,7 +494,7 @@
                   <div id="wrap"><canvas id="cv"></canvas></div>
                   <div class="lab-overlay"><div class="overlay-card">
                     <div id="ovName">—</div>
-                    <div class="law" id="ovSub">phase network</div>
+                    <div class="law" id="ovSub">state space</div>
                   </div></div>
                 </div>
 
@@ -511,8 +511,8 @@
                       <button class="btn" id="stepBtn">Step</button>
                       <button class="btn" id="resetBtn">Reset</button>
                     </div>
-                    <div class="speedRow" style="margin-top:12px"><span>steps / s</span><span class="val" id="speedLbl">120</span></div>
-                    <input type="range" id="speed" min="20" max="400" step="20" value="120" aria-label="Steps per second">
+                    <div class="speedRow" style="margin-top:12px"><span>steps / s</span><span class="val" id="speedLbl">3</span></div>
+                    <input type="range" id="speed" min="1" max="12" step="1" value="3" aria-label="Steps per second">
                   </section>
 
                   <section aria-label="Parameters">
@@ -528,10 +528,10 @@
                         <span class="pill idle" id="status">READY</span>
                       </div>
                       <div class="statGrid">
-                        <div class="box"><div class="k">order r</div><div class="v" id="vR">—</div></div>
-                        <div class="box"><div class="k">mean ⟨ω⟩</div><div class="v" id="vW">—</div></div>
+                        <div class="box"><div class="k">entropy H(π)</div><div class="v" id="vH">—</div></div>
+                        <div class="box"><div class="k">max P mix</div><div class="v" id="vT">—</div></div>
                       </div>
-                      <div class="ruleLine" id="ruleLine">coupling: —</div>
+                      <div class="ruleLine" id="ruleLine">chain: —</div>
                     </div>
                   </section>
                 </div>
@@ -540,18 +540,18 @@
               <div class="tsWrap"><canvas id="ts"></canvas><div class="tsTip" id="tsTip" hidden></div></div>
 
               <ol class="how">
-                <li>Each oscillator runs at its own frequency; coupling is the only thing that can make neighbours agree.</li>
-                <li>Below a critical coupling the phases stay scattered; above it a single cluster snaps into place — a phase transition.</li>
-                <li>The trace plots <span class="math" data-tex="r"></span>: near 0 means unsynchronised, near 1 means locked.</li>
+                <li>One matrix step pushes the whole distribution forward: each state's mass is shared out along its row of <span class="math" data-tex="P"></span>.</li>
+                <li>For an aperiodic, irreducible chain the distribution forgets where it started and converges to the stationary <span class="math" data-tex="\pi^\star"></span>.</li>
+                <li>The trace plots the entropy of <span class="math" data-tex="\pi"></span>: it rises from a point mass toward the entropy of the stationary state.</li>
               </ol>
-              <p class="fine">Nothing is fetched at runtime — the network, coupling and rendering all run in this page. Colours follow the light/dark theme.</p>
+              <p class="fine">Nothing is fetched at runtime — the matrix, iteration and rendering all run in this page. Colours follow the light/dark theme.</p>
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../../note.html?n=epistemica/complexity-science/collective-dynamics.md">Collective Dynamics</a> · <a href="../../../../../note.html?n=epistemica/complexity-science/coordination.md">Coordination</a></li><li><a href="../../../../../note.html?n=epistemica/science/network-science.md">Network Science</a> · <a href="../../../../../note.html?n=epistemica/natural-computing/swarm-intelligence-collective-intelligence.md">Swarm Intelligence</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/observational/computational/markov-model.md">Markov Model</a> · <a href="../../../../../note.html?n=epistemica/mathematical/transition-matrix.md">Transition Matrix</a></li><li><a href="../../../../../note.html?n=epistemica/observational/process/random-walk-drunkard-s-walk.md">Random Walk</a> · <a href="../../../../../note.html?n=epistemica/mathematical/ranking.md">Ranking</a> · <a href="../../../../../note.html?n=epistemica/mathematical/queueing-system.md">Queueing System</a></li><li><a href="../../../../../note.html?n=epistemica/observational/information/entropy.md">Entropy</a> · <a href="atlas.html">Atlas of Dynamical Representational Systems</a></li></ul>
 
             <h2 id="references">References</h2>
-            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Kuramoto, Y. (1975)</strong> — self-entrainment of a population of coupled non-linear oscillators</li><li><strong>Mirollo, R. &amp; Strogatz, S. (1990)</strong> — synchronisation of pulse-coupled biological oscillators</li><li><strong>Strogatz, S. (2003)</strong> — <em>Sync: The Emerging Science of Spontaneous Order</em></li></ul>
+            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Markov, A. A. (1906)</strong> — extension of the law of large numbers to dependent events</li><li><strong>Page, L. et al. (1999)</strong> — <em>The PageRank Citation Ranking</em></li><li><strong>Norris, J. R. (1997)</strong> — <em>Markov Chains</em></li></ul>
 
           </div>
         </article>
@@ -691,180 +691,225 @@
       if (window.renderTeX) { renderTeX(el('instInfo')); }
     }
 
-    var N = 64;
-    var th = new Float64Array(N), om = new Float64Array(N), om0 = new Float64Array(N);
-    var dth = new Float64Array(N), dom = new Float64Array(N);
-    var rHist = [];
-    var playing = false, speed = 120, lastT = 0, accT = 0, simT = 0;
+    var n = 0, P = null, pi = null, stat = null, labels = [], pos = [];
+    var hHist = [];
+    var playing = false, speed = 3, lastT = 0, accT = 0, iters = 0;
     var W = 0, H = 0, TW = 0, TH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var tsHover = -1, tsMap = null, hit = null, kickDot = -1;
-    var cur = null, P = {};
+    var tsHover = -1, tsMap = null, nodeHit = [], hot = -1;
+    var cur = null, pars = {}, stage = null;
 
     var els = {
       cv: el('cv'), wrap: el('wrap'), ts: el('ts'), tsTip: el('tsTip'),
       insts: el('insts'), params: el('params'), playBtn: el('playBtn'), stepBtn: el('stepBtn'),
       resetBtn: el('resetBtn'), speed: el('speed'), speedLbl: el('speedLbl'), status: el('status'),
-      vR: el('vR'), vW: el('vW'), ruleLine: el('ruleLine')
+      vH: el('vH'), vT: el('vT'), ruleLine: el('ruleLine')
     };
     var ctx = els.cv.getContext('2d'), tctx = els.ts.getContext('2d');
 
     var INSTS = [
       {
-        id: 'kuramoto', domain: 'Physics', name: 'Kuramoto', model: 'kuramoto', topo: 'all', unit: 'rad/s', tag: 'mean-field phases',
-        sub: '\\dot\\theta_i=\\omega_i+\\tfrac{K}{N}\\sum_{j}\\sin(\\theta_j-\\theta_i)',
-        desc: 'The mean-field model of synchronisation: every oscillator feels the average of the crowd. Turn up the coupling and the population passes from a scattered state to a single locked cluster at a sharp critical point.',
-        docs: [{ label: 'Collective dynamics', n: 'epistemica/complexity-science/collective-dynamics.md' }],
+        id: 'weather', domain: 'Mathematics', name: 'Weather', tag: 'three-state chain',
+        sub: '\\pi_{t+1}=\\pi_t P,\\qquad P=\\!\\begin{pmatrix}.8&.15&.05\\\\ .2&.6&.2\\\\ .25&.25&.5\\end{pmatrix}',
+        desc: 'The textbook three-state chain: tomorrow\u2019s weather depends only on today\u2019s. Over a long run the fraction of sunny days settles to the stationary distribution, however the chain started.',
+        docs: [{ label: 'Markov model', n: 'epistemica/observational/computational/markov-model.md' }],
         params: [
-          { key: 'K', label: 'coupling K', min: 0, max: 8, step: 0.1, value: 4 },
-          { key: 'sig', label: 'frequency spread σ', min: 0, max: 2, step: 0.05, value: 0.7 }
+          { key: 'sun', label: 'stay sunny', min: 0.3, max: 0.95, step: 0.01, value: 0.8 },
+          { key: 'clo', label: 'stay cloudy', min: 0.3, max: 0.95, step: 0.01, value: 0.6 },
+          { key: 'rai', label: 'stay rainy', min: 0.3, max: 0.95, step: 0.01, value: 0.5 }
         ]
       },
       {
-        id: 'fireflies', domain: 'Biology', name: 'Fireflies', model: 'pulse', topo: 'all', unit: 'Hz', tag: 'pulse-coupled',
-        sub: '\\phi_i\\!\\uparrow\\!1\\Rightarrow \\phi_i\\!=\\!0,\\; \\phi_j\\!\\leftarrow\\!\\min(1,\\phi_j+\\varepsilon)',
-        desc: 'Pulse-coupled oscillators, after Mirollo & Strogatz. Each firefly charges its lantern; when it flashes it nudges the phase of everyone it can see, until the whole mangrove blinks as one.',
-        docs: [{ label: 'Swarm intelligence', n: 'epistemica/natural-computing/swarm-intelligence-collective-intelligence.md' }],
+        id: 'walk', domain: 'Mathematics', name: 'Random Walk', tag: '1-D walk',
+        sub: '\\mathbb{P}(X_{t+1}=i\\pm1\\mid X_t=i)=p,\\,1-p',
+        desc: 'A drunkard on an integer line: each step goes right with probability p and left otherwise, with reflecting walls at the ends. The distribution of the walker spreads and settles toward uniform.',
+        docs: [{ label: 'Random walk', n: 'epistemica/observational/process/random-walk-drunkard-s-walk.md' }],
         params: [
-          { key: 'K', label: 'nudge ε', min: 0.002, max: 0.06, step: 0.002, value: 0.02 },
-          { key: 'sig', label: 'period spread σ', min: 0, max: 0.2, step: 0.005, value: 0.04 }
+          { key: 'p', label: 'p (step right)', min: 0.1, max: 0.9, step: 0.01, value: 0.5 },
+          { key: 'K', label: 'wall distance', min: 3, max: 12, step: 1, value: 8 }
         ]
       },
       {
-        id: 'power', domain: 'Engineering', name: 'Power Grid', model: 'swing', topo: 'ring', unit: 'rad/s', tag: 'second-order inertia',
-        sub: '\\ddot\\theta_i=P-D\\dot\\theta_i-\\tfrac{K}{N}\\sum_j\\sin(\\theta_i-\\theta_j)',
-        desc: 'Second-order oscillators: generators with inertia, damping and a power imbalance, coupled over a ring. When coupling is too weak for the spread in power, the network fragments into clusters \u2014 the mechanism behind cascading blackouts.',
-        docs: [{ label: 'Network science', n: 'epistemica/science/network-science.md' }],
+        id: 'pagerank', domain: 'Mathematics', name: 'PageRank', tag: 'web surfer',
+        sub: 'P=d\\,S+(1-d)\\tfrac1n\\mathbf{1},\\qquad \\pi^\\star P=\\pi^\\star',
+        desc: 'A random surfer who follows links with probability d and jumps to a random page otherwise. The stationary distribution is the ranking: a page matters when many important pages point to it.',
+        docs: [{ label: 'Ranking', n: 'epistemica/mathematical/ranking.md' }],
         params: [
-          { key: 'K', label: 'coupling K', min: 0, max: 10, step: 0.2, value: 5 },
-          { key: 'D', label: 'damping D', min: 0.05, max: 0.8, step: 0.05, value: 0.2 },
-          { key: 'sig', label: 'power spread σ', min: 0, max: 0.6, step: 0.02, value: 0.15 }
+          { key: 'd', label: 'damping d', min: 0.1, max: 0.98, step: 0.01, value: 0.85 }
         ]
       },
       {
-        id: 'neural', domain: 'Neuroscience', name: 'Neural Oscillators', model: 'kuramoto', topo: 'ring', unit: 'rad/s', tag: 'local coupling',
-        sub: '\\dot\\theta_i=\\omega_i+\\tfrac{K}{N}\\sum_j w_{ij}\\sin(\\theta_j-\\theta_i)',
-        desc: 'Neurons as relaxation oscillators coupled on a ring with distance-dependent weights. Local coupling lets travelling waves and partial synchrony persist \u2014 a model of cortical rhythms where order is a matter of degree.',
-        docs: [{ label: 'Network science', n: 'epistemica/science/network-science.md' }],
+        id: 'queue', domain: 'Engineering', name: 'Queue', tag: 'birth\u2013death',
+        sub: '\\lambda\\!\\to\\!i\\!+\\!1,\\quad \\mu\\!\\to\\!i\\!-\\!1,\\quad \\rho=\\lambda/\\mu',
+        desc: 'A single-server queue as a birth\u2013death chain: arrivals add a customer, services remove one. Below critical load the queue-length distribution settles; as \u03c1 \u2192 1 it flattens toward overload.',
+        docs: [{ label: 'Queueing system', n: 'epistemica/mathematical/queueing-system.md' }],
         params: [
-          { key: 'K', label: 'coupling K', min: 0, max: 8, step: 0.1, value: 3 },
-          { key: 'sig', label: 'frequency spread σ', min: 0, max: 2, step: 0.05, value: 0.5 },
-          { key: 'wig', label: 'range λ', min: 1, max: 32, step: 1, value: 6 }
+          { key: 'lam', label: 'arrival λ', min: 0.1, max: 1.4, step: 0.02, value: 0.6 },
+          { key: 'mu', label: 'service μ', min: 0.2, max: 1.6, step: 0.02, value: 1.0 },
+          { key: 'K', label: 'capacity K', min: 6, max: 20, step: 1, value: 12 }
         ]
       }
     ];
 
-    function gauss() { var s = 0; for (var i = 0; i < 4; i++) s += Math.random(); return (s / 4 - 0.5) * 3.464; }
-    function weight(i, j) {
-      if (cur.topo === 'all') return 1;
-      var d = Math.abs(i - j); d = Math.min(d, N - d);
-      return Math.exp(-d / (P.wig || 6));
-    }
-    function order() {
-      var x = 0, y = 0;
-      for (var i = 0; i < N; i++) { x += Math.cos(th[i]); y += Math.sin(th[i]); }
-      return { r: Math.sqrt(x * x + y * y) / N, psi: Math.atan2(y, x) };
-    }
-    function meanOmega() { var s = 0; for (var i = 0; i < N; i++) s += om[i]; return s / N; }
-
-    function stepSim(dt) {
-      if (cur.model === 'pulse') { stepPulse(dt); return; }
-      if (cur.model === 'swing') {
-        for (var i = 0; i < N; i++) {
-          var s = 0;
-          for (var j = 0; j < N; j++) if (j !== i) s += weight(i, j) * Math.sin(th[j] - th[i]);
-          dom[i] = (P.K / N) * s - P.D * om[i] + om0[i];
-          dth[i] = om[i];
+    function mat(nn) { var m = []; for (var i = 0; i < nn; i++) { m.push(new Array(nn).fill(0)); } return m; }
+    function build() {
+      var k, i, j;
+      if (cur.id === 'weather') {
+        labels = ['Sunny', 'Cloudy', 'Rainy']; n = 3;
+        pos = [[0.5, 0.16], [0.18, 0.72], [0.82, 0.72]];
+        P = mat(3);
+        var stays = [pars.sun, pars.clo, pars.rai];
+        for (i = 0; i < 3; i++) { P[i][i] = stays[i]; for (j = 0; j < 3; j++) if (j !== i) P[i][j] = (1 - stays[i]) / 2; }
+      } else if (cur.id === 'walk') {
+        var K = Math.round(pars.K); n = 2 * K + 1;
+        labels = []; pos = [];
+        for (i = 0; i < n; i++) { labels.push(String(i - K)); pos.push([0.06 + 0.88 * (i / (n - 1)), 0.5]); }
+        P = mat(n); var p = pars.p;
+        P[0][1] = 1; P[n - 1][n - 2] = 1;
+        for (i = 1; i < n - 1; i++) { P[i][i + 1] = p; P[i][i - 1] = 1 - p; }
+      } else if (cur.id === 'pagerank') {
+        var links = [[0, 1], [0, 2], [1, 2], [2, 0], [3, 0], [3, 2], [4, 3], [4, 5], [5, 2], [5, 4]];
+        n = 6; labels = ['A', 'B', 'C', 'D', 'E', 'F']; pos = [];
+        for (i = 0; i < n; i++) { var a = -Math.PI / 2 + i * 2 * Math.PI / n; pos.push([0.5 + 0.34 * Math.cos(a), 0.5 + 0.36 * Math.sin(a)]); }
+        var out = new Array(n).fill(0), adj = mat(n);
+        links.forEach(function (e) { adj[e[0]][e[1]] = 1; out[e[0]]++; });
+        P = mat(n);
+        for (i = 0; i < n; i++) for (j = 0; j < n; j++) {
+          var S = out[i] ? adj[i][j] / out[i] : 1 / n;
+          P[i][j] = pars.d * S + (1 - pars.d) / n;
         }
-        for (i = 0; i < N; i++) { om[i] += dom[i] * dt; th[i] += dth[i] * dt; }
-        return;
-      }
-      for (var i2 = 0; i2 < N; i2++) {
-        var f2 = 0;
-        for (var j2 = 0; j2 < N; j2++) if (j2 !== i2) f2 += weight(i2, j2) * Math.sin(th[j2] - th[i2]);
-        dth[i2] = om0[i2] + (P.K / N) * f2;
-      }
-      for (i2 = 0; i2 < N; i2++) th[i2] += dth[i2] * dt;
-      simT += dt;
-    }
-    function stepPulse(dt) {
-      for (var i = 0; i < N; i++) th[i] += om0[i] * dt;
-      var fired = [], changed = true, guard = 0;
-      while (changed && guard++ < 8) {
-        changed = false;
-        for (i = 0; i < N; i++) if (th[i] >= 1) { th[i] -= 1; fired.push(i); changed = true; }
-        if (!fired.length) break;
-        for (i = 0; i < N; i++) {
-          for (var k = 0; k < fired.length; k++) if (fired[k] !== i) th[i] = Math.min(1, th[i] + P.K);
+      } else {
+        var KK = Math.round(pars.K); n = KK + 1;
+        labels = []; pos = [];
+        for (i = 0; i < n; i++) { labels.push(String(i)); pos.push([0.06 + 0.88 * (i / (n - 1)), 0.5]); }
+        P = mat(n); var lam = Math.min(pars.lam, 0.95), mu = Math.min(pars.mu, 0.95);
+        for (i = 0; i < n; i++) {
+          var up = (i < n - 1) ? lam : 0, dn = (i > 0) ? mu : 0;
+          if (up + dn > 0.98) { var s = 0.98 / (up + dn); up *= s; dn *= s; }
+          P[i][i + 1] = up; P[i][i - 1] = dn; P[i][i] = 1 - up - dn;
         }
-        fired = [];
       }
-      simT += dt;
+      stat = stationary();
     }
-    function pushR() {
-      rHist.push(order().r);
-      if (rHist.length > 600) rHist.shift();
+    function stationary() {
+      var x = new Array(n).fill(1 / n);
+      for (var t = 0; t < 600; t++) x = advance(x);
+      return x;
     }
+    function advance(x) {
+      var y = new Array(n).fill(0);
+      for (var i = 0; i < n; i++) { var xi = x[i]; if (!xi) continue; for (var j = 0; j < n; j++) y[j] += xi * P[i][j]; }
+      return y;
+    }
+    function entropy(x) {
+      var h = 0; for (var i = 0; i < n; i++) if (x[i] > 1e-12) h -= x[i] * Math.log2(x[i]);
+      return h;
+    }
+    function tvmix(x) { var t = 0; for (var i = 0; i < n; i++) t += Math.abs(x[i] - stat[i]); return t / 2; }
     function reseed() {
-      simT = 0; rHist = [];
-      for (var i = 0; i < N; i++) {
-        var w = 1 + P.sig * gauss();
-        om0[i] = w; om[i] = w;
-        th[i] = cur.model === 'pulse' ? Math.random() : Math.random() * Math.PI * 2;
-      }
-      pushR(); draw();
+      iters = 0; hHist = [];
+      pi = new Array(n).fill(0); pi[0] = 1;
+      pushH(); draw();
     }
+    function pushH() { hHist.push(entropy(pi)); if (hHist.length > 600) hHist.shift(); }
 
+    function lerp(a, b, t) { return a + (b - a) * t; }
     function draw() {
       var c = colors();
       ctx.clearRect(0, 0, W, H);
-      var cx = W / 2, cy = H / 2, R = Math.min(W, H) * 0.36;
-      ctx.strokeStyle = c.border; ctx.lineWidth = 1;
-      ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2); ctx.stroke();
-      var o = order();
-      ctx.beginPath(); ctx.moveTo(cx, cy);
-      ctx.lineTo(cx + Math.cos(-o.psi) * R * o.r, cy + Math.sin(-o.psi) * R * o.r);
-      ctx.strokeStyle = c.gold; ctx.lineWidth = 2.4; ctx.stroke();
-      ctx.fillStyle = c.gold; ctx.beginPath();
-      ctx.arc(cx + Math.cos(-o.psi) * R * o.r, cy + Math.sin(-o.psi) * R * o.r, 4, 0, Math.PI * 2); ctx.fill();
-      for (var i = 0; i < N; i++) {
-        var ang = (th[i] % (Math.PI * 2)) + 0;
-        var x = cx + Math.cos(ang) * R, y = cy + Math.sin(ang) * R;
-        var hue = (i / N) * 360;
-        ctx.fillStyle = 'hsl(' + hue + ',70%,' + (i === kickDot ? 70 : 55) + '%)';
-        ctx.beginPath(); ctx.arc(x, y, i === kickDot ? 7 : 5, 0, Math.PI * 2); ctx.fill();
+      var stageW = W, stageH = H * 0.72;
+      var mx = 46, my = 34;
+      function px(p) { return [mx + p[0] * (stageW - 2 * mx), my + p[1] * (stageH - 2 * my)]; }
+      var mxpi = Math.max.apply(null, pi.concat([1e-9])), mxs = Math.max.apply(null, stat.concat([1e-9]));
+      nodeHit = [];
+      /* edges */
+      for (var i = 0; i < n; i++) for (var j = 0; j < n; j++) {
+        var w = P[i][j]; if (w < 0.02) continue;
+        var a = px(pos[i]), b = px(pos[j]);
+        if (i === j) {
+          var r = 12 + w * 26;
+          ctx.strokeStyle = c.border; ctx.lineWidth = 0.6 + w * 4;
+          ctx.beginPath(); ctx.arc(a[0], a[1] - 6, r, Math.PI * 0.15, Math.PI * 0.85, true); ctx.stroke();
+          continue;
+        }
+        var dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1;
+        var ux = dx / L, uy = dy / L, r1 = 16, r2 = 16;
+        var x1 = a[0] + ux * r1, y1 = a[1] + uy * r1, x2 = b[0] - ux * r2, y2 = b[1] - uy * r2;
+        var curve = (i < j) ? 12 : -12, cx = (x1 + x2) / 2 - uy * curve, cy = (y1 + y2) / 2 + ux * curve;
+        ctx.strokeStyle = c.border; ctx.lineWidth = 0.5 + w * 4; ctx.globalAlpha = 0.85;
+        ctx.beginPath(); ctx.moveTo(x1, y1); ctx.quadraticCurveTo(cx, cy, x2, y2); ctx.stroke(); ctx.globalAlpha = 1;
+        var ang = Math.atan2(y2 - cy, x2 - cx), hs = 5 + w * 3;
+        ctx.fillStyle = c.border;
+        ctx.beginPath();
+        ctx.moveTo(x2, y2);
+        ctx.lineTo(x2 - hs * Math.cos(ang - 0.4), y2 - hs * Math.sin(ang - 0.4));
+        ctx.lineTo(x2 - hs * Math.cos(ang + 0.4), y2 - hs * Math.sin(ang + 0.4));
+        ctx.closePath(); ctx.fill();
       }
-      hit = { cx: cx, cy: cy, R: R };
-      els.vR.textContent = o.r.toFixed(3);
-      els.vW.textContent = meanOmega().toFixed(3);
+      /* nodes */
+      for (i = 0; i < n; i++) {
+        var pt = px(pos[i]);
+        var t = Math.pow(pi[i] / mxpi, 0.5);
+        var rad = 10 + 12 * t;
+        nodeHit.push({ x: pt[0], y: pt[1], r: rad + 6, i: i });
+        ctx.beginPath(); ctx.arc(pt[0], pt[1], rad, 0, Math.PI * 2);
+        ctx.fillStyle = mix(c.surface, c.gold, 0.15 + 0.85 * t); ctx.fill();
+        ctx.strokeStyle = (i === hot) ? c.primary : c.border; ctx.lineWidth = 1.4; ctx.stroke();
+        ctx.fillStyle = c.primary; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
+        ctx.fillText(labels[i], pt[0], pt[1] + rad + 14);
+        ctx.fillStyle = c.muted; ctx.font = '9px monospace';
+        ctx.fillText((pi[i] * 100).toFixed(0) + '%', pt[0], pt[1] + 3);
+      }
+      /* bars */
+      var by = stageH + 14, bh = H - by - 18, bw = Math.min(40, (W - 80) / n);
+      var totalW = bw * n, x0 = (W - totalW) / 2;
+      for (i = 0; i < n; i++) {
+        var h = (pi[i] / (mxpi || 1)) * bh, x = x0 + i * bw;
+        ctx.fillStyle = c.gold; ctx.globalAlpha = 0.85;
+        ctx.fillRect(x + 2, by + (bh - h), bw - 4, h); ctx.globalAlpha = 1;
+        ctx.strokeStyle = c.border; ctx.lineWidth = 0.6;
+        ctx.strokeRect(x + 2, by + (bh - h), bw - 4, h);
+        var sy = by + bh - (stat[i] / (mxs || 1)) * bh;
+        ctx.strokeStyle = c.cyan; ctx.beginPath(); ctx.moveTo(x + 2, sy); ctx.lineTo(x + bw - 2, sy); ctx.stroke();
+      }
+      ctx.fillStyle = c.muted; ctx.font = '9px monospace'; ctx.textAlign = 'left';
+      ctx.fillText('\u03c0 distribution   \u2014 stationary', x0, by + bh + 12);
+      els.vH.textContent = entropy(pi).toFixed(3);
+      els.vT.textContent = tvmix(pi).toFixed(3);
       drawTS();
+    }
+    function mix(hex1, hex2, t) {
+      function parse(h) { h = h.replace('#', ''); if (h.length === 3) h = h.split('').map(function (ch) { return ch + ch; }).join(''); return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)]; }
+      var a = parse(hex1), b = parse(hex2);
+      return 'rgb(' + Math.round(lerp(a[0], b[0], t)) + ',' + Math.round(lerp(a[1], b[1], t)) + ',' + Math.round(lerp(a[2], b[2], t)) + ')';
     }
     function drawTS() {
       var c = colors();
       tctx.clearRect(0, 0, TW, TH);
-      if (rHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
+      if (hHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
+      var hi = Math.log2(n), lo = 0;
       var x0 = 44, x1 = TW - 10, y0 = 16, y1 = TH - 16;
-      function tx(i) { return x0 + (i / (rHist.length - 1)) * (x1 - x0); }
-      function ty(r) { return y1 - r * (y1 - y0); }
-      tsMap = { x0: x0, x1: x1, n: rHist.length };
+      function tx(i) { return x0 + (i / (hHist.length - 1)) * (x1 - x0); }
+      function ty(v) { return y1 - (v / hi) * (y1 - y0); }
+      tsMap = { x0: x0, x1: x1, n: hHist.length };
       tctx.font = '9px monospace';
       tctx.strokeStyle = c.border; tctx.lineWidth = 1;
       tctx.beginPath(); tctx.moveTo(x0, y0); tctx.lineTo(x0, y1); tctx.lineTo(x1, y1); tctx.stroke();
       tctx.fillStyle = c.muted; tctx.textAlign = 'right';
-      tctx.fillText('1.0', x0 - 4, y0 + 4); tctx.fillText('0.0', x0 - 4, y1);
+      tctx.fillText(hi.toFixed(2), x0 - 4, y0 + 4); tctx.fillText('0', x0 - 4, y1);
       tctx.textAlign = 'left';
       tctx.beginPath();
-      for (var i = 0; i < rHist.length; i++) { var X = tx(i), Y = ty(rHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
+      for (var i = 0; i < hHist.length; i++) { var X = tx(i), Y = ty(hHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
       tctx.strokeStyle = c.gold; tctx.lineWidth = 1.6; tctx.stroke();
-      tctx.fillStyle = c.gold; tctx.fillText('r', x0 + 2, 11);
-      if (tsHover >= 0 && tsHover < rHist.length) {
+      tctx.fillStyle = c.gold; tctx.fillText('H(\u03c0)', x0 + 2, 11);
+      if (tsHover >= 0 && tsHover < hHist.length) {
         var hx = tx(tsHover);
         tctx.strokeStyle = c.primary; tctx.globalAlpha = 0.5;
         tctx.beginPath(); tctx.moveTo(hx, y0); tctx.lineTo(hx, y1); tctx.stroke(); tctx.globalAlpha = 1;
-        tctx.fillStyle = c.gold; tctx.beginPath(); tctx.arc(hx, ty(rHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
+        tctx.fillStyle = c.gold; tctx.beginPath(); tctx.arc(hx, ty(hHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
       }
     }
 
-    function preset(inst) { P = {}; inst.params.forEach(function (p) { P[p.key] = p.value; }); }
+    function preset(inst) { pars = {}; inst.params.forEach(function (p) { pars[p.key] = p.value; }); }
     function buildParams() {
       els.params.innerHTML = '';
       cur.params.forEach(function (pm) {
@@ -873,7 +918,10 @@
         lab.innerHTML = '<span>' + pm.label + '</span><span class="val" id="pv_' + pm.key + '">' + pm.value + '</span>';
         var inp = document.createElement('input');
         inp.type = 'range'; inp.min = pm.min; inp.max = pm.max; inp.step = pm.step; inp.value = pm.value;
-        inp.addEventListener('input', function () { P[pm.key] = parseFloat(inp.value); el('pv_' + pm.key).textContent = inp.value; });
+        inp.addEventListener('input', function () {
+          pars[pm.key] = parseFloat(inp.value); el('pv_' + pm.key).textContent = inp.value;
+          build(); reseed();
+        });
         wrap.appendChild(lab); wrap.appendChild(inp); els.params.appendChild(wrap);
       });
     }
@@ -887,8 +935,9 @@
       preset(cur);
       playing = false; setStatus('idle');
       fillInstInfo(cur);
-      els.ruleLine.innerHTML = 'coupling: <b>' + cur.name + '</b>';
+      els.ruleLine.innerHTML = 'chain: <b>' + cur.name + '</b>';
       buildParams();
+      build();
       reseed();
     }
     function resizeAll() {
@@ -901,58 +950,48 @@
       els.ts.style.width = TW + 'px'; els.ts.style.height = TH + 'px';
       tctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
-    function pick(e) {
-      if (!hit) return -1;
-      var r = els.cv.getBoundingClientRect();
-      var x = e.clientX - r.left, y = e.clientY - r.top;
-      var best = -1, bd = 16 * 16;
-      for (var i = 0; i < N; i++) {
-        var ang = (th[i] % (Math.PI * 2));
-        var dx = x - (hit.cx + Math.cos(ang) * hit.R), dy = y - (hit.cy + Math.sin(ang) * hit.R);
-        var d = dx * dx + dy * dy;
-        if (d < bd) { bd = d; best = i; }
-      }
-      if (best < 0) {
-        var rx = x - hit.cx, ry = y - hit.cy;
-        if (rx * rx + ry * ry < hit.R * hit.R) {
-          var target = Math.atan2(ry, rx);
-          for (var k = 0; k < N; k++) if (Math.abs(Math.atan2(Math.sin(th[k] - target), Math.cos(th[k] - target))) < 0.25) { best = k; break; }
+    els.wrap.addEventListener('pointerdown', function (e) {
+      var r = els.cv.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+      for (var k = 0; k < nodeHit.length; k++) {
+        var h = nodeHit[k];
+        if ((x - h.x) * (x - h.x) + (y - h.y) * (y - h.y) < h.r * h.r) {
+          pi = new Array(n).fill(0); pi[h.i] = 1; pushH(); draw(); return;
         }
       }
-      return best;
-    }
-    els.wrap.addEventListener('pointerdown', function (e) {
-      kickDot = pick(e);
-      if (kickDot >= 0) { th[kickDot] += Math.PI * 0.9; draw(); }
     });
-    els.wrap.addEventListener('pointerup', function () { kickDot = -1; draw(); });
+    els.wrap.addEventListener('pointermove', function (e) {
+      var r = els.cv.getBoundingClientRect();
+      var x = e.clientX - r.left, y = e.clientY - r.top, found = -1;
+      for (var k = 0; k < nodeHit.length; k++) { var h = nodeHit[k]; if ((x - h.x) * (x - h.x) + (y - h.y) * (y - h.y) < h.r * h.r) { found = h.i; break; } }
+      if (found !== hot) { hot = found; draw(); }
+    });
 
     els.playBtn.addEventListener('click', function () { playing = !playing; setStatus(playing ? 'run' : 'idle'); lastT = performance.now(); });
-    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); for (var k = 0; k < 60; k++) stepSim(0.02); pushR(); draw(); });
+    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); pi = advance(pi); iters++; pushH(); draw(); });
     els.resetBtn.addEventListener('click', function () { playing = false; setStatus('idle'); reseed(); });
     els.speed.addEventListener('input', function () { speed = parseInt(els.speed.value, 10); els.speedLbl.textContent = speed; });
 
     els.ts.addEventListener('pointermove', function (e) {
       if (!tsMap) return;
       var r = els.ts.getBoundingClientRect();
-      var px = e.clientX - r.left, py = e.clientY - r.top;
-      var i = Math.round(((px - tsMap.x0) / (tsMap.x1 - tsMap.x0)) * (tsMap.n - 1));
+      var px2 = e.clientX - r.left, py2 = e.clientY - r.top;
+      var i = Math.round(((px2 - tsMap.x0) / (tsMap.x1 - tsMap.x0)) * (tsMap.n - 1));
       i = Math.max(0, Math.min(tsMap.n - 1, i));
       tsHover = i; drawTS();
       var hx = tsMap.x0 + (i / (tsMap.n - 1)) * (tsMap.x1 - tsMap.x0);
-      els.tsTip.innerHTML = 'r = <b>' + rHist[i].toFixed(3) + '</b>';
-      els.tsTip.style.left = hx + 'px'; els.tsTip.style.top = Math.max(26, py) + 'px'; els.tsTip.hidden = false;
+      els.tsTip.innerHTML = 'H(\u03c0) = <b>' + hHist[i].toFixed(3) + '</b>';
+      els.tsTip.style.left = hx + 'px'; els.tsTip.style.top = Math.max(26, py2) + 'px'; els.tsTip.hidden = false;
     });
     els.ts.addEventListener('pointerleave', function () { tsHover = -1; els.tsTip.hidden = true; drawTS(); });
 
     function tick(now) {
       if (playing) {
-        var dt = Math.min(0.25, (now - lastT) / 1000); lastT = now;
+        var dt = Math.min(0.5, (now - lastT) / 1000); lastT = now;
         accT += dt * speed;
-        var sub = Math.min(60, Math.floor(accT));
-        for (var k = 0; k < sub; k++) stepSim(0.02);
+        var sub = Math.min(20, Math.floor(accT));
+        for (var k = 0; k < sub; k++) { pi = advance(pi); iters++; }
         accT -= sub; if (accT > 2) accT = 0;
-        pushR(); draw();
+        pushH(); draw();
       } else { lastT = now; }
       requestAnimationFrame(tick);
     }

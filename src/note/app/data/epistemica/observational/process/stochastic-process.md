@@ -203,7 +203,7 @@ Which others affirmation can be made about the event stream?
 ## References
 
 - [Stochastic simulation](https://en.wikipedia.org/wiki/Stochastic_simulation)
-- [Dynamical System](../mathematical/dynamical-systems/dynamical-system.md)
+- [Dynamical System](../mathematical/change/dynamical-system.md)
 - https://en.wikipedia.org/wiki/Stochastic_process
 - https://en.wikipedia.org/wiki/Stationary_process
 - https://en.wikipedia.org/wiki/Cyclostationary_process

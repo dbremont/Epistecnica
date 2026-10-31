@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Markov Chain Representational System</title>
+  <title>Cellular Automaton Representational System</title>
   <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -428,6 +428,11 @@
     }
     .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .site-footer a:hover { color: var(--accent-cyan); }
+
+    .statGrid .box.wide { grid-column: span 2; }
+    .ruleLine { font-family: var(--font-mono); font-size: 11px; color: var(--text-secondary); margin-top: 8px; }
+    .ruleLine b { color: var(--accent-cyan); font-weight: 500; }
+
   </style>
   <link rel="stylesheet" href="../../../../../../shared/usearch.css">
 </head>
@@ -451,9 +456,9 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/dynamical-systems">dynamical-systems</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/dynamical-systems/rsp">rsp</a><span class="sep">/</span><span class="here">markov-chain</span></div>
-      <h1 class="note-title">Markov Chain Representational System</h1>
-      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#markov-chain</span><span class="chip">#representation</span></div>
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change">change</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change/rsp">rsp</a><span class="sep">/</span><span class="here">cellular-automaton</span></div>
+      <h1 class="note-title">Cellular Automaton Representational System</h1>
+      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#cellular-automata</span><span class="chip">#representation</span></div>
     </div>
 
     <div class="cols">
@@ -462,24 +467,19 @@
           <div class="markdown-body">
 
             <blockquote>
-              <p>A <strong>Markov Chain</strong> representational system writes change as
-              <em>a distribution of mass hopping between named states</em>. The whole model is one
-              transition matrix <span class="math" data-tex="P"></span>,
-              <span class="math" data-tex="\pi_{t+1}=\pi_t P"></span>, where
-              <span class="math" data-tex="P_{ij}"></span> is the probability of moving from state
-              <span class="math" data-tex="i"></span> to <span class="math" data-tex="j"></span>. It is
-              how probabilistic succession is stated, and the stationary distribution
-              <span class="math" data-tex="\pi^\star=\pi^\star P"></span> is the way it is read.</p>
-              <p>Below, this one representation is instantiated in four domains. Pick an instance to
-              load it; its transition rule and description appear above the lab. Then <strong>play</strong>
-              — release the mass, click a state to start over, and watch the distribution settle.</p>
+              <p>A <strong>Cellular Automaton (CA)</strong> representational system writes
+              change as a <em>local rule on a discrete lattice</em>: every cell holds a state, and at
+              each tick it updates from its own state and its neighbours. <span class="math"
+              data-tex="s_i^{t+1}=f(s_i^{t},\,s_{N(i)}^{t})"></span>. It is the canonical way
+              discrete, parallel computation is stated, and the spacetime diagram is the way it is read.</p>
+              <p>Below, this one representation is instantiated in five domains. Pick an instance to
+              load it; its rule and description appear above the lab. Then <strong>play</strong> — step
+              generation by generation, draw cells with the pointer, and watch the population graph.</p>
             </blockquote>
 
             <h2 id="playground">Playground</h2>
-            <p>Pick an instance, then play with it. Nodes are states and edges are transitions, their
-            thickness proportional to <span class="math" data-tex="P_{ij}"></span>; node colour and the
-            bars show the current distribution <span class="math" data-tex="\pi"></span>. Click a node to
-            drop all the mass there and watch it spread.</p>
+            <p>Pick an instance, then play with it. Scroll to zoom, drag to pan, click to draw or
+            toggle a cell. The rule line and the population graph update as generations advance.</p>
 
             <div class="inst-info" id="instInfo">
               <div class="ii-name" id="iiName"></div>
@@ -494,8 +494,13 @@
                   <div id="wrap"><canvas id="cv"></canvas></div>
                   <div class="lab-overlay"><div class="overlay-card">
                     <div id="ovName">—</div>
-                    <div class="law" id="ovSub">state space</div>
+                    <div class="law" id="ovSub">spacetime</div>
                   </div></div>
+                  <div class="zoomers">
+                    <button class="zbtn" id="zin" aria-label="Zoom in">+</button>
+                    <button class="zbtn" id="zout" aria-label="Zoom out">&minus;</button>
+                    <button class="zbtn small" id="zfit" aria-label="Fit view">&#x2922;</button>
+                  </div>
                 </div>
 
                 <div class="lab-controls">
@@ -511,8 +516,8 @@
                       <button class="btn" id="stepBtn">Step</button>
                       <button class="btn" id="resetBtn">Reset</button>
                     </div>
-                    <div class="speedRow" style="margin-top:12px"><span>steps / s</span><span class="val" id="speedLbl">3</span></div>
-                    <input type="range" id="speed" min="1" max="12" step="1" value="3" aria-label="Steps per second">
+                    <div class="speedRow" style="margin-top:12px"><span>speed</span><span class="val" id="speedLbl">12 gen/s</span></div>
+                    <input type="range" id="speed" min="1" max="60" step="1" value="12" aria-label="Generations per second">
                   </section>
 
                   <section aria-label="Parameters">
@@ -528,10 +533,10 @@
                         <span class="pill idle" id="status">READY</span>
                       </div>
                       <div class="statGrid">
-                        <div class="box"><div class="k">entropy H(π)</div><div class="v" id="vH">—</div></div>
-                        <div class="box"><div class="k">max P mix</div><div class="v" id="vT">—</div></div>
+                        <div class="box"><div class="k">generation</div><div class="v" id="vGen">0</div></div>
+                        <div class="box"><div class="k">active cells</div><div class="v" id="vLive">—</div></div>
                       </div>
-                      <div class="ruleLine" id="ruleLine">chain: —</div>
+                      <div class="ruleLine" id="ruleLine">rule: —</div>
                     </div>
                   </section>
                 </div>
@@ -540,18 +545,18 @@
               <div class="tsWrap"><canvas id="ts"></canvas><div class="tsTip" id="tsTip" hidden></div></div>
 
               <ol class="how">
-                <li>One matrix step pushes the whole distribution forward: each state's mass is shared out along its row of <span class="math" data-tex="P"></span>.</li>
-                <li>For an aperiodic, irreducible chain the distribution forgets where it started and converges to the stationary <span class="math" data-tex="\pi^\star"></span>.</li>
-                <li>The trace plots the entropy of <span class="math" data-tex="\pi"></span>: it rises from a point mass toward the entropy of the stationary state.</li>
+                <li>Every cell applies the same rule to its neighbourhood; a whole generation is computed at once, in parallel.</li>
+                <li>The population graph tracks the number of active cells against generation — waves, gliders and extinctions show as characteristic traces.</li>
+                <li>Excitable and wireworld instances use extra states (refractory, electron head/tail) — the legend lives in the rule line.</li>
               </ol>
-              <p class="fine">Nothing is fetched at runtime — the matrix, iteration and rendering all run in this page. Colours follow the light/dark theme.</p>
+              <p class="fine">Nothing is fetched at runtime — the lattice, rule and rendering all run in this page. Colours follow the light/dark theme.</p>
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../../note.html?n=epistemica/observational/computational/markov-model.md">Markov Model</a> · <a href="../../../../../note.html?n=epistemica/mathematical/transition-matrix.md">Transition Matrix</a></li><li><a href="../../../../../note.html?n=epistemica/observational/process/random-walk-drunkard-s-walk.md">Random Walk</a> · <a href="../../../../../note.html?n=epistemica/mathematical/ranking.md">Ranking</a> · <a href="../../../../../note.html?n=epistemica/mathematical/queueing-system.md">Queueing System</a></li><li><a href="../../../../../note.html?n=epistemica/observational/information/entropy.md">Entropy</a> · <a href="atlas.html">Atlas of Dynamical Representational Systems</a></li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/natural-computing/cellular-automata.md">Cellular Automata</a> — the element this playground instantiates</li><li><a href="../../../../../note.html?n=epistemica/science/boolean-network.md">Boolean Network</a> · <a href="../../../../../note.html?n=epistemica/science/agent.md">Agent Model</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
-            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Markov, A. A. (1906)</strong> — extension of the law of large numbers to dependent events</li><li><strong>Page, L. et al. (1999)</strong> — <em>The PageRank Citation Ranking</em></li><li><strong>Norris, J. R. (1997)</strong> — <em>Markov Chains</em></li></ul>
+            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Von Neumann, J. (1966)</strong> — <em>Theory of Self-Reproducing Automata</em></li><li><strong>Wolfram, S. (2002)</strong> — <em>A New Kind of Science</em> (elementary rules and complexity classes)</li><li><strong>Gardner, M. (1970)</strong> — the Game of Life; <strong>Greenberg &amp; Hastings (1978)</strong> — excitable media</li></ul>
 
           </div>
         </article>
@@ -691,227 +696,214 @@
       if (window.renderTeX) { renderTeX(el('instInfo')); }
     }
 
-    var n = 0, P = null, pi = null, stat = null, labels = [], pos = [];
-    var hHist = [];
-    var playing = false, speed = 3, lastT = 0, accT = 0, iters = 0;
+    /* ---------------- instances ---------------- */
+    var INSTS = [
+      {
+        id: 'life', domain: 'Computational science', name: 'Game of Life', kind: 'life', tag: 'life-like B3/S23',
+        B: [3], S: [2, 3], rule: 'B3/S23', density: 0.28,
+        sub: 'B=\\{3\\},\\quad S=\\{2,3\\}',
+        desc: 'Conway\u2019s binary rule: a dead cell is born with exactly 3 live neighbours; a live cell survives with 2 or 3 and dies otherwise. From random soup it produces gliders, blinkers and still lifes — the archetype of emergent computation.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.28 }]
+      },
+      {
+        id: 'seeds', domain: 'Mathematics', name: 'Seeds', kind: 'life', tag: 'life-like B2/S',
+        B: [2], S: [], rule: 'B2/S', density: 0.12,
+        sub: 'B=\\{2\\},\\quad S=\\varnothing',
+        desc: 'Every live cell dies each tick; a dead cell is born with exactly 2 live neighbours. The result is an explosive, ever-spreading pattern of expanding diamonds — a minimal rule with unbounded growth from almost any seed.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.12 }]
+      },
+      {
+        id: 'highlife', domain: 'Biology', name: 'HighLife', kind: 'life', tag: 'life-like B36/S23',
+        B: [3, 6], S: [2, 3], rule: 'B36/S23', density: 0.30,
+        sub: 'B=\\{3,6\\},\\quad S=\\{2,3\\}',
+        desc: 'Life with one extra birth condition (6 neighbours). It supports a self-replicating pattern, the replicator — put forward as a model of reproduction arising from a purely local rule.',
+        docs: [{ label: 'Boolean network', n: 'epistemica/science/boolean-network.md' }],
+        params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.30 }]
+      },
+      {
+        id: 'gh', domain: 'Physics', name: 'Greenberg\u2013Hastings', kind: 'gh', tag: 'excitable medium', rule: 'excitable',
+        sub: '\\#\\text{excited}\\ge n \\Rightarrow \\text{fire}',
+        desc: 'An excitable-medium automaton: a resting cell fires when at least n neighbours are excited, stays refractory for r ticks, then recovers. Waves travel across the medium and never cross — the discrete analogue of cardiac and neural tissue.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: [
+          { key: 'thresh', label: 'excitation threshold', min: 1, max: 8, step: 1, value: 3 },
+          { key: 'refrac', label: 'refractory steps', min: 2, max: 20, step: 1, value: 6 }
+        ]
+      },
+      {
+        id: 'ww', domain: 'Engineering', name: 'Wireworld', kind: 'ww', tag: 'electron flow', rule: 'electron flow',
+        sub: '\\text{head}\\!\\to\\!\\text{tail}\\!\\to\\!\\text{wire}',
+        desc: 'A four-state automaton modelling electron flow: empty, wire, electron head and electron tail. Heads become tails, tails become wire, and a wire next to one or two heads becomes a head — enough to build logic gates and clocks.',
+        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        params: []
+      }
+    ];
+
+    var N = 140;
+    var grid = new Uint8Array(N * N), next = new Uint8Array(N * N), timer = new Uint8Array(N * N);
+    var gen = 0, popHist = [];
+    var playing = false, speed = 12, lastT = 0, accT = 0;
+    var view = { zoom: 1, panx: 0, pany: 0 };
     var W = 0, H = 0, TW = 0, TH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var tsHover = -1, tsMap = null, nodeHit = [], hot = -1;
-    var cur = null, pars = {}, stage = null;
+    var tsHover = -1, tsMap = null;
+    var cur = null, P = {};
 
     var els = {
       cv: el('cv'), wrap: el('wrap'), ts: el('ts'), tsTip: el('tsTip'),
       insts: el('insts'), params: el('params'), playBtn: el('playBtn'), stepBtn: el('stepBtn'),
       resetBtn: el('resetBtn'), speed: el('speed'), speedLbl: el('speedLbl'), status: el('status'),
-      vH: el('vH'), vT: el('vT'), ruleLine: el('ruleLine')
+      vGen: el('vGen'), vLive: el('vLive'), ruleLine: el('ruleLine')
     };
     var ctx = els.cv.getContext('2d'), tctx = els.ts.getContext('2d');
 
-    var INSTS = [
-      {
-        id: 'weather', domain: 'Mathematics', name: 'Weather', tag: 'three-state chain',
-        sub: '\\pi_{t+1}=\\pi_t P,\\qquad P=\\!\\begin{pmatrix}.8&.15&.05\\\\ .2&.6&.2\\\\ .25&.25&.5\\end{pmatrix}',
-        desc: 'The textbook three-state chain: tomorrow\u2019s weather depends only on today\u2019s. Over a long run the fraction of sunny days settles to the stationary distribution, however the chain started.',
-        docs: [{ label: 'Markov model', n: 'epistemica/observational/computational/markov-model.md' }],
-        params: [
-          { key: 'sun', label: 'stay sunny', min: 0.3, max: 0.95, step: 0.01, value: 0.8 },
-          { key: 'clo', label: 'stay cloudy', min: 0.3, max: 0.95, step: 0.01, value: 0.6 },
-          { key: 'rai', label: 'stay rainy', min: 0.3, max: 0.95, step: 0.01, value: 0.5 }
-        ]
-      },
-      {
-        id: 'walk', domain: 'Mathematics', name: 'Random Walk', tag: '1-D walk',
-        sub: '\\mathbb{P}(X_{t+1}=i\\pm1\\mid X_t=i)=p,\\,1-p',
-        desc: 'A drunkard on an integer line: each step goes right with probability p and left otherwise, with reflecting walls at the ends. The distribution of the walker spreads and settles toward uniform.',
-        docs: [{ label: 'Random walk', n: 'epistemica/observational/process/random-walk-drunkard-s-walk.md' }],
-        params: [
-          { key: 'p', label: 'p (step right)', min: 0.1, max: 0.9, step: 0.01, value: 0.5 },
-          { key: 'K', label: 'wall distance', min: 3, max: 12, step: 1, value: 8 }
-        ]
-      },
-      {
-        id: 'pagerank', domain: 'Mathematics', name: 'PageRank', tag: 'web surfer',
-        sub: 'P=d\\,S+(1-d)\\tfrac1n\\mathbf{1},\\qquad \\pi^\\star P=\\pi^\\star',
-        desc: 'A random surfer who follows links with probability d and jumps to a random page otherwise. The stationary distribution is the ranking: a page matters when many important pages point to it.',
-        docs: [{ label: 'Ranking', n: 'epistemica/mathematical/ranking.md' }],
-        params: [
-          { key: 'd', label: 'damping d', min: 0.1, max: 0.98, step: 0.01, value: 0.85 }
-        ]
-      },
-      {
-        id: 'queue', domain: 'Engineering', name: 'Queue', tag: 'birth\u2013death',
-        sub: '\\lambda\\!\\to\\!i\\!+\\!1,\\quad \\mu\\!\\to\\!i\\!-\\!1,\\quad \\rho=\\lambda/\\mu',
-        desc: 'A single-server queue as a birth\u2013death chain: arrivals add a customer, services remove one. Below critical load the queue-length distribution settles; as \u03c1 \u2192 1 it flattens toward overload.',
-        docs: [{ label: 'Queueing system', n: 'epistemica/mathematical/queueing-system.md' }],
-        params: [
-          { key: 'lam', label: 'arrival λ', min: 0.1, max: 1.4, step: 0.02, value: 0.6 },
-          { key: 'mu', label: 'service μ', min: 0.2, max: 1.6, step: 0.02, value: 1.0 },
-          { key: 'K', label: 'capacity K', min: 6, max: 20, step: 1, value: 12 }
-        ]
+    /* ---------------- simulation ---------------- */
+    function idx(x, y) { return y * N + x; }
+    function neighborsCount(x, y) {
+      var n = 0;
+      for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) {
+        if (!dx && !dy) continue;
+        var nx = (x + dx + N) % N, ny = (y + dy + N) % N;
+        if (grid[idx(nx, ny)] === 1) n++;
       }
-    ];
-
-    function mat(nn) { var m = []; for (var i = 0; i < nn; i++) { m.push(new Array(nn).fill(0)); } return m; }
-    function build() {
-      var k, i, j;
-      if (cur.id === 'weather') {
-        labels = ['Sunny', 'Cloudy', 'Rainy']; n = 3;
-        pos = [[0.5, 0.16], [0.18, 0.72], [0.82, 0.72]];
-        P = mat(3);
-        var stays = [pars.sun, pars.clo, pars.rai];
-        for (i = 0; i < 3; i++) { P[i][i] = stays[i]; for (j = 0; j < 3; j++) if (j !== i) P[i][j] = (1 - stays[i]) / 2; }
-      } else if (cur.id === 'walk') {
-        var K = Math.round(pars.K); n = 2 * K + 1;
-        labels = []; pos = [];
-        for (i = 0; i < n; i++) { labels.push(String(i - K)); pos.push([0.06 + 0.88 * (i / (n - 1)), 0.5]); }
-        P = mat(n); var p = pars.p;
-        P[0][1] = 1; P[n - 1][n - 2] = 1;
-        for (i = 1; i < n - 1; i++) { P[i][i + 1] = p; P[i][i - 1] = 1 - p; }
-      } else if (cur.id === 'pagerank') {
-        var links = [[0, 1], [0, 2], [1, 2], [2, 0], [3, 0], [3, 2], [4, 3], [4, 5], [5, 2], [5, 4]];
-        n = 6; labels = ['A', 'B', 'C', 'D', 'E', 'F']; pos = [];
-        for (i = 0; i < n; i++) { var a = -Math.PI / 2 + i * 2 * Math.PI / n; pos.push([0.5 + 0.34 * Math.cos(a), 0.5 + 0.36 * Math.sin(a)]); }
-        var out = new Array(n).fill(0), adj = mat(n);
-        links.forEach(function (e) { adj[e[0]][e[1]] = 1; out[e[0]]++; });
-        P = mat(n);
-        for (i = 0; i < n; i++) for (j = 0; j < n; j++) {
-          var S = out[i] ? adj[i][j] / out[i] : 1 / n;
-          P[i][j] = pars.d * S + (1 - pars.d) / n;
-        }
-      } else {
-        var KK = Math.round(pars.K); n = KK + 1;
-        labels = []; pos = [];
-        for (i = 0; i < n; i++) { labels.push(String(i)); pos.push([0.06 + 0.88 * (i / (n - 1)), 0.5]); }
-        P = mat(n); var lam = Math.min(pars.lam, 0.95), mu = Math.min(pars.mu, 0.95);
-        for (i = 0; i < n; i++) {
-          var up = (i < n - 1) ? lam : 0, dn = (i > 0) ? mu : 0;
-          if (up + dn > 0.98) { var s = 0.98 / (up + dn); up *= s; dn *= s; }
-          P[i][i + 1] = up; P[i][i - 1] = dn; P[i][i] = 1 - up - dn;
-        }
+      return n;
+    }
+    function neighborsState(x, y, want) {
+      var n = 0;
+      for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) {
+        if (!dx && !dy) continue;
+        var nx = (x + dx + N) % N, ny = (y + dy + N) % N;
+        if (grid[idx(nx, ny)] === want) n++;
       }
-      stat = stationary();
+      return n;
     }
-    function stationary() {
-      var x = new Array(n).fill(1 / n);
-      for (var t = 0; t < 600; t++) x = advance(x);
-      return x;
+    function stepSim() {
+      var x, y;
+      if (cur.kind === 'life') {
+        for (y = 0; y < N; y++) for (x = 0; x < N; x++) {
+          var a = grid[idx(x, y)] === 1, c = neighborsCount(x, y);
+          next[idx(x, y)] = ((a && cur.S.indexOf(c) >= 0) || (!a && cur.B.indexOf(c) >= 0)) ? 1 : 0;
+        }
+        grid.set(next);
+      } else if (cur.kind === 'gh') {
+        var thr = P.thresh | 0, rf = P.refrac | 0;
+        for (y = 0; y < N; y++) for (x = 0; x < N; x++) {
+          var s = grid[idx(x, y)];
+          if (s === 1) { next[idx(x, y)] = 2; timer[idx(x, y)] = rf; }
+          else if (s === 2) { if (timer[idx(x, y)] > 1) { next[idx(x, y)] = 2; timer[idx(x, y)]--; } else { next[idx(x, y)] = 0; } }
+          else { next[idx(x, y)] = (neighborsState(x, y, 1) >= thr) ? 1 : 0; }
+        }
+        grid.set(next);
+      } else if (cur.kind === 'ww') {
+        for (y = 0; y < N; y++) for (x = 0; x < N; x++) {
+          var v = grid[idx(x, y)];
+          if (v === 2) next[idx(x, y)] = 3;
+          else if (v === 3) next[idx(x, y)] = 1;
+          else if (v === 1) {
+            var h = neighborsState(x, y, 2);
+            next[idx(x, y)] = (h === 1 || h === 2) ? 2 : 1;
+          } else next[idx(x, y)] = 0;
+        }
+        grid.set(next);
+      }
+      gen++;
+      popHist.push(activeCount());
+      if (popHist.length > 600) popHist.shift();
     }
-    function advance(x) {
-      var y = new Array(n).fill(0);
-      for (var i = 0; i < n; i++) { var xi = x[i]; if (!xi) continue; for (var j = 0; j < n; j++) y[j] += xi * P[i][j]; }
-      return y;
+    function activeCount() {
+      var n = 0;
+      for (var i = 0; i < grid.length; i++) if (grid[i] && (cur.kind !== 'ww' || grid[i] === 2 || grid[i] === 3)) n++;
+      return n;
     }
-    function entropy(x) {
-      var h = 0; for (var i = 0; i < n; i++) if (x[i] > 1e-12) h -= x[i] * Math.log2(x[i]);
-      return h;
+    function seedWW() {
+      grid.fill(0);
+      function hline(y, x0, x1) { for (var x = x0; x <= x1; x++) grid[idx(x, y)] = 1; }
+      function vline(x, y0, y1) { for (var y = y0; y <= y1; y++) grid[idx(x, y)] = 1; }
+      var c = N >> 1;
+      hline(c, 20, N - 21);
+      hline(c - 18, 20, 60); vline(20, c - 18, c - 8);
+      hline(c + 18, 40, N - 21); vline(N - 21, c + 8, c + 18);
+      grid[idx(24, c)] = 2; grid[idx(23, c)] = 3; grid[idx(22, c)] = 3;
+      grid[idx(N - 25, c + 18)] = 2; grid[idx(N - 24, c + 18)] = 3; grid[idx(N - 23, c + 18)] = 3;
     }
-    function tvmix(x) { var t = 0; for (var i = 0; i < n; i++) t += Math.abs(x[i] - stat[i]); return t / 2; }
     function reseed() {
-      iters = 0; hHist = [];
-      pi = new Array(n).fill(0); pi[0] = 1;
-      pushH(); draw();
+      gen = 0; popHist = [];
+      grid.fill(0); timer.fill(0);
+      if (cur.kind === 'ww') { seedWW(); }
+      else if (cur.kind === 'gh') {
+        for (var i = 0; i < grid.length; i++) if (Math.random() < 0.04) grid[i] = 1;
+      } else {
+        var d = (cur.params.length && cur.keyDensity) ? P.density : cur.density;
+        for (var j = 0; j < grid.length; j++) grid[j] = Math.random() < d ? 1 : 0;
+      }
+      gen = 0; popHist = [activeCount()];
     }
-    function pushH() { hHist.push(entropy(pi)); if (hHist.length > 600) hHist.shift(); }
 
-    function lerp(a, b, t) { return a + (b - a) * t; }
+    /* ---------------- colors / draw ---------------- */
+    function stateColor(c, v) {
+      if (cur.kind === 'life') return v ? c.cyan : c.surface;
+      if (cur.kind === 'gh') return v === 1 ? c.gold : (v === 2 ? c.muted : c.surface);
+      return v === 2 ? c.cyan : (v === 3 ? c.gold : (v === 1 ? c.muted : c.surface));
+    }
     function draw() {
       var c = colors();
       ctx.clearRect(0, 0, W, H);
-      var stageW = W, stageH = H * 0.72;
-      var mx = 46, my = 34;
-      function px(p) { return [mx + p[0] * (stageW - 2 * mx), my + p[1] * (stageH - 2 * my)]; }
-      var mxpi = Math.max.apply(null, pi.concat([1e-9])), mxs = Math.max.apply(null, stat.concat([1e-9]));
-      nodeHit = [];
-      /* edges */
-      for (var i = 0; i < n; i++) for (var j = 0; j < n; j++) {
-        var w = P[i][j]; if (w < 0.02) continue;
-        var a = px(pos[i]), b = px(pos[j]);
-        if (i === j) {
-          var r = 12 + w * 26;
-          ctx.strokeStyle = c.border; ctx.lineWidth = 0.6 + w * 4;
-          ctx.beginPath(); ctx.arc(a[0], a[1] - 6, r, Math.PI * 0.15, Math.PI * 0.85, true); ctx.stroke();
-          continue;
-        }
-        var dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1;
-        var ux = dx / L, uy = dy / L, r1 = 16, r2 = 16;
-        var x1 = a[0] + ux * r1, y1 = a[1] + uy * r1, x2 = b[0] - ux * r2, y2 = b[1] - uy * r2;
-        var curve = (i < j) ? 12 : -12, cx = (x1 + x2) / 2 - uy * curve, cy = (y1 + y2) / 2 + ux * curve;
-        ctx.strokeStyle = c.border; ctx.lineWidth = 0.5 + w * 4; ctx.globalAlpha = 0.85;
-        ctx.beginPath(); ctx.moveTo(x1, y1); ctx.quadraticCurveTo(cx, cy, x2, y2); ctx.stroke(); ctx.globalAlpha = 1;
-        var ang = Math.atan2(y2 - cy, x2 - cx), hs = 5 + w * 3;
-        ctx.fillStyle = c.border;
-        ctx.beginPath();
-        ctx.moveTo(x2, y2);
-        ctx.lineTo(x2 - hs * Math.cos(ang - 0.4), y2 - hs * Math.sin(ang - 0.4));
-        ctx.lineTo(x2 - hs * Math.cos(ang + 0.4), y2 - hs * Math.sin(ang + 0.4));
-        ctx.closePath(); ctx.fill();
+      var base = Math.min(W, H) / N;
+      var cell = base * view.zoom;
+      var gw = cell * N, gh = cell * N;
+      var ox = (W - gw) / 2 + view.panx, oy = (H - gh) / 2 + view.pany;
+      for (var y = 0; y < N; y++) for (var x = 0; x < N; x++) {
+        var v = grid[idx(x, y)];
+        if (cur.kind === 'life' && !v) continue;
+        if (cur.kind === 'gh' && v === 0) continue;
+        if (cur.kind === 'ww' && v === 0) continue;
+        ctx.fillStyle = stateColor(c, v);
+        ctx.globalAlpha = (cur.kind === 'gh' && v === 2) ? 0.5 : (cur.kind === 'ww' && v === 1 ? 0.45 : 1);
+        ctx.fillRect(ox + x * cell, oy + y * cell, Math.ceil(cell), Math.ceil(cell));
       }
-      /* nodes */
-      for (i = 0; i < n; i++) {
-        var pt = px(pos[i]);
-        var t = Math.pow(pi[i] / mxpi, 0.5);
-        var rad = 10 + 12 * t;
-        nodeHit.push({ x: pt[0], y: pt[1], r: rad + 6, i: i });
-        ctx.beginPath(); ctx.arc(pt[0], pt[1], rad, 0, Math.PI * 2);
-        ctx.fillStyle = mix(c.surface, c.gold, 0.15 + 0.85 * t); ctx.fill();
-        ctx.strokeStyle = (i === hot) ? c.primary : c.border; ctx.lineWidth = 1.4; ctx.stroke();
-        ctx.fillStyle = c.primary; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
-        ctx.fillText(labels[i], pt[0], pt[1] + rad + 14);
-        ctx.fillStyle = c.muted; ctx.font = '9px monospace';
-        ctx.fillText((pi[i] * 100).toFixed(0) + '%', pt[0], pt[1] + 3);
-      }
-      /* bars */
-      var by = stageH + 14, bh = H - by - 18, bw = Math.min(40, (W - 80) / n);
-      var totalW = bw * n, x0 = (W - totalW) / 2;
-      for (i = 0; i < n; i++) {
-        var h = (pi[i] / (mxpi || 1)) * bh, x = x0 + i * bw;
-        ctx.fillStyle = c.gold; ctx.globalAlpha = 0.85;
-        ctx.fillRect(x + 2, by + (bh - h), bw - 4, h); ctx.globalAlpha = 1;
-        ctx.strokeStyle = c.border; ctx.lineWidth = 0.6;
-        ctx.strokeRect(x + 2, by + (bh - h), bw - 4, h);
-        var sy = by + bh - (stat[i] / (mxs || 1)) * bh;
-        ctx.strokeStyle = c.cyan; ctx.beginPath(); ctx.moveTo(x + 2, sy); ctx.lineTo(x + bw - 2, sy); ctx.stroke();
-      }
-      ctx.fillStyle = c.muted; ctx.font = '9px monospace'; ctx.textAlign = 'left';
-      ctx.fillText('\u03c0 distribution   \u2014 stationary', x0, by + bh + 12);
-      els.vH.textContent = entropy(pi).toFixed(3);
-      els.vT.textContent = tvmix(pi).toFixed(3);
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = c.border; ctx.lineWidth = 1;
+      ctx.strokeRect(ox, oy, gw, gh);
+      els.vGen.textContent = gen;
+      els.vLive.textContent = activeCount();
       drawTS();
-    }
-    function mix(hex1, hex2, t) {
-      function parse(h) { h = h.replace('#', ''); if (h.length === 3) h = h.split('').map(function (ch) { return ch + ch; }).join(''); return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)]; }
-      var a = parse(hex1), b = parse(hex2);
-      return 'rgb(' + Math.round(lerp(a[0], b[0], t)) + ',' + Math.round(lerp(a[1], b[1], t)) + ',' + Math.round(lerp(a[2], b[2], t)) + ')';
     }
     function drawTS() {
       var c = colors();
       tctx.clearRect(0, 0, TW, TH);
-      if (hHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
-      var hi = Math.log2(n), lo = 0;
-      var x0 = 44, x1 = TW - 10, y0 = 16, y1 = TH - 16;
-      function tx(i) { return x0 + (i / (hHist.length - 1)) * (x1 - x0); }
-      function ty(v) { return y1 - (v / hi) * (y1 - y0); }
-      tsMap = { x0: x0, x1: x1, n: hHist.length };
+      if (popHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
+      var hi = 1;
+      for (var i = 0; i < popHist.length; i++) hi = Math.max(hi, popHist[i]);
+      var lo = 0;
+      var x0 = 40, x1 = TW - 10, y0 = 16, y1 = TH - 16;
+      function tx(i) { return x0 + (i / (popHist.length - 1)) * (x1 - x0); }
+      function ty(v) { return y1 - ((v - lo) / (hi - lo)) * (y1 - y0); }
+      tsMap = { x0: x0, x1: x1, y0: y0, y1: y1, n: popHist.length };
       tctx.font = '9px monospace';
       tctx.strokeStyle = c.border; tctx.lineWidth = 1;
       tctx.beginPath(); tctx.moveTo(x0, y0); tctx.lineTo(x0, y1); tctx.lineTo(x1, y1); tctx.stroke();
       tctx.fillStyle = c.muted; tctx.textAlign = 'right';
-      tctx.fillText(hi.toFixed(2), x0 - 4, y0 + 4); tctx.fillText('0', x0 - 4, y1);
+      tctx.fillText(String(Math.round(hi)), x0 - 4, y0 + 4);
+      tctx.fillText('0', x0 - 4, y1);
       tctx.textAlign = 'left';
       tctx.beginPath();
-      for (var i = 0; i < hHist.length; i++) { var X = tx(i), Y = ty(hHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
-      tctx.strokeStyle = c.gold; tctx.lineWidth = 1.6; tctx.stroke();
-      tctx.fillStyle = c.gold; tctx.fillText('H(\u03c0)', x0 + 2, 11);
-      if (tsHover >= 0 && tsHover < hHist.length) {
+      for (i = 0; i < popHist.length; i++) { var X = tx(i), Y = ty(popHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
+      tctx.strokeStyle = c.cyan; tctx.lineWidth = 1.6; tctx.stroke();
+      tctx.fillStyle = c.cyan; tctx.fillText('active cells', x0 + 2, 11);
+      if (tsHover >= 0 && tsHover < popHist.length) {
         var hx = tx(tsHover);
         tctx.strokeStyle = c.primary; tctx.globalAlpha = 0.5;
         tctx.beginPath(); tctx.moveTo(hx, y0); tctx.lineTo(hx, y1); tctx.stroke(); tctx.globalAlpha = 1;
-        tctx.fillStyle = c.gold; tctx.beginPath(); tctx.arc(hx, ty(hHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
+        tctx.fillStyle = c.cyan; tctx.beginPath(); tctx.arc(hx, ty(popHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
       }
     }
 
-    function preset(inst) { pars = {}; inst.params.forEach(function (p) { pars[p.key] = p.value; }); }
+    /* ---------------- params ---------------- */
+    function preset(inst) { P = {}; inst.params.forEach(function (p) { P[p.key] = p.value; }); }
     function buildParams() {
       els.params.innerHTML = '';
+      if (!cur.params.length) { els.params.innerHTML = '<div class="ruleLine">no parameters for this rule</div>'; return; }
       cur.params.forEach(function (pm) {
         var wrap = document.createElement('div'); wrap.className = 'param';
         var lab = document.createElement('div'); lab.className = 'pl';
@@ -919,27 +911,34 @@
         var inp = document.createElement('input');
         inp.type = 'range'; inp.min = pm.min; inp.max = pm.max; inp.step = pm.step; inp.value = pm.value;
         inp.addEventListener('input', function () {
-          pars[pm.key] = parseFloat(inp.value); el('pv_' + pm.key).textContent = inp.value;
-          build(); reseed();
+          P[pm.key] = parseFloat(inp.value);
+          el('pv_' + pm.key).textContent = pm.step < 1 ? P[pm.key] : String(P[pm.key]);
+          if (cur.kind === 'gh') { /* applies live */ } else { reseed(); }
+          draw();
         });
         wrap.appendChild(lab); wrap.appendChild(inp); els.params.appendChild(wrap);
       });
+      if (window.renderTeX) renderTeX(els.params);
     }
+
+    /* ---------------- UI ---------------- */
     function setStatus(state) {
       if (state === 'run') { els.status.textContent = 'PLAYING'; els.status.className = 'pill run'; els.playBtn.innerHTML = '&#10073;&#10073; Pause'; }
       else { els.status.textContent = 'READY'; els.status.className = 'pill idle'; els.playBtn.innerHTML = '&#9654; Play'; }
     }
     function select(i) {
       cur = INSTS[i];
+      cur.keyDensity = cur.params.some(function (p) { return p.key === 'density'; });
       setActivePill(els.insts, i);
       preset(cur);
-      playing = false; setStatus('idle');
+      gen = 0; playing = false; setStatus('idle');
       fillInstInfo(cur);
-      els.ruleLine.innerHTML = 'chain: <b>' + cur.name + '</b>';
+      els.ruleLine.innerHTML = 'rule: <b>' + cur.rule + '</b>';
       buildParams();
-      build();
-      reseed();
+      reseed(); draw();
     }
+
+    /* ---------------- interaction ---------------- */
     function resizeAll() {
       W = els.wrap.clientWidth; H = els.wrap.clientHeight;
       els.cv.width = W * dpr; els.cv.height = H * dpr;
@@ -950,48 +949,82 @@
       els.ts.style.width = TW + 'px'; els.ts.style.height = TH + 'px';
       tctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
+    var drag = null;
     els.wrap.addEventListener('pointerdown', function (e) {
-      var r = els.cv.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
-      for (var k = 0; k < nodeHit.length; k++) {
-        var h = nodeHit[k];
-        if ((x - h.x) * (x - h.x) + (y - h.y) * (y - h.y) < h.r * h.r) {
-          pi = new Array(n).fill(0); pi[h.i] = 1; pushH(); draw(); return;
-        }
-      }
+      drag = { x: e.clientX, y: e.clientY, moved: false, px: view.panx, py: view.pany, paint: e.shiftKey || e.detail === 0 };
+      els.wrap.setPointerCapture(e.pointerId);
+      if (e.shiftKey) paintAt(e);
     });
     els.wrap.addEventListener('pointermove', function (e) {
-      var r = els.cv.getBoundingClientRect();
-      var x = e.clientX - r.left, y = e.clientY - r.top, found = -1;
-      for (var k = 0; k < nodeHit.length; k++) { var h = nodeHit[k]; if ((x - h.x) * (x - h.x) + (y - h.y) * (y - h.y) < h.r * h.r) { found = h.i; break; } }
-      if (found !== hot) { hot = found; draw(); }
+      if (!drag) return;
+      var mx = e.clientX - drag.x, my = e.clientY - drag.y;
+      if (Math.abs(mx) + Math.abs(my) > 3) drag.moved = true;
+      if (drag.paint) { paintAt(e); return; }
+      view.panx = drag.px + mx; view.pany = drag.py + my; draw();
     });
+    els.wrap.addEventListener('pointerup', function (e) {
+      if (drag && !drag.moved && !drag.paint) toggleAt(e);
+      drag = null;
+    });
+    function cellAt(e) {
+      var r = els.cv.getBoundingClientRect();
+      var base = Math.min(W, H) / N, cell = base * view.zoom;
+      var ox = (W - cell * N) / 2 + view.panx, oy = (H - cell * N) / 2 + view.pany;
+      var x = Math.floor((e.clientX - r.left - ox) / cell), y = Math.floor((e.clientY - r.top - oy) / cell);
+      return { x: x, y: y };
+    }
+    function toggleAt(e) {
+      var p = cellAt(e);
+      if (p.x < 0 || p.y < 0 || p.x >= N || p.y >= N) return;
+      var i = idx(p.x, p.y);
+      if (cur.kind === 'ww') grid[i] = grid[i] === 1 ? 0 : 1;
+      else grid[i] = grid[i] ? 0 : 1;
+      draw();
+    }
+    function paintAt(e) {
+      var p = cellAt(e);
+      if (p.x < 0 || p.y < 0 || p.x >= N || p.y >= N) return;
+      grid[idx(p.x, p.y)] = cur.kind === 'ww' ? 1 : 1;
+      draw();
+    }
+    els.wrap.addEventListener('wheel', function (e) {
+      e.preventDefault();
+      view.zoom *= e.deltaY < 0 ? 1.12 : 1 / 1.12;
+      view.zoom = Math.max(0.4, Math.min(12, view.zoom));
+      draw();
+    }, { passive: false });
+    el('zin').addEventListener('click', function () { view.zoom *= 1.2; draw(); });
+    el('zout').addEventListener('click', function () { view.zoom /= 1.2; draw(); });
+    el('zfit').addEventListener('click', function () { view.zoom = 1; view.panx = 0; view.pany = 0; draw(); });
 
-    els.playBtn.addEventListener('click', function () { playing = !playing; setStatus(playing ? 'run' : 'idle'); lastT = performance.now(); });
-    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); pi = advance(pi); iters++; pushH(); draw(); });
-    els.resetBtn.addEventListener('click', function () { playing = false; setStatus('idle'); reseed(); });
-    els.speed.addEventListener('input', function () { speed = parseInt(els.speed.value, 10); els.speedLbl.textContent = speed; });
+    els.playBtn.addEventListener('click', function () {
+      playing = !playing; setStatus(playing ? 'run' : 'idle'); lastT = performance.now();
+    });
+    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); stepSim(); draw(); });
+    els.resetBtn.addEventListener('click', function () { playing = false; setStatus('idle'); reseed(); draw(); });
+    els.speed.addEventListener('input', function () { speed = parseInt(els.speed.value, 10); els.speedLbl.textContent = speed + ' gen/s'; });
 
     els.ts.addEventListener('pointermove', function (e) {
       if (!tsMap) return;
       var r = els.ts.getBoundingClientRect();
-      var px2 = e.clientX - r.left, py2 = e.clientY - r.top;
-      var i = Math.round(((px2 - tsMap.x0) / (tsMap.x1 - tsMap.x0)) * (tsMap.n - 1));
+      var px = e.clientX - r.left, py = e.clientY - r.top;
+      var i = Math.round(((px - tsMap.x0) / (tsMap.x1 - tsMap.x0)) * (tsMap.n - 1));
       i = Math.max(0, Math.min(tsMap.n - 1, i));
       tsHover = i; drawTS();
       var hx = tsMap.x0 + (i / (tsMap.n - 1)) * (tsMap.x1 - tsMap.x0);
-      els.tsTip.innerHTML = 'H(\u03c0) = <b>' + hHist[i].toFixed(3) + '</b>';
-      els.tsTip.style.left = hx + 'px'; els.tsTip.style.top = Math.max(26, py2) + 'px'; els.tsTip.hidden = false;
+      els.tsTip.innerHTML = 'generation <b>' + (gen - (tsMap.n - 1 - i)) + '</b><br>active = <b>' + popHist[i] + '</b>';
+      els.tsTip.style.left = hx + 'px';
+      els.tsTip.style.top = Math.max(26, py) + 'px';
+      els.tsTip.hidden = false;
     });
     els.ts.addEventListener('pointerleave', function () { tsHover = -1; els.tsTip.hidden = true; drawTS(); });
 
     function tick(now) {
       if (playing) {
-        var dt = Math.min(0.5, (now - lastT) / 1000); lastT = now;
+        var dt = Math.min(0.25, (now - lastT) / 1000); lastT = now;
         accT += dt * speed;
-        var sub = Math.min(20, Math.floor(accT));
-        for (var k = 0; k < sub; k++) { pi = advance(pi); iters++; }
-        accT -= sub; if (accT > 2) accT = 0;
-        pushH(); draw();
+        while (accT >= 1) { stepSim(); accT -= 1; }
+        draw();
       } else { lastT = now; }
       requestAnimationFrame(tick);
     }
