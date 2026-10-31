@@ -97,6 +97,29 @@ order: 0
 - https://en.wikipedia.org/wiki/Conjugate_gradient_method
 - https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms
 
+### Nature-inspired methods
+
+> Methods whose search operators are modelled on a natural process — evolution,
+> swarms, annealing, development. They are a cross-cutting family over the
+> methods above, gathered by the `@natural-computing` tag, and their notes sit
+> here rather than in a scope of their own: the family names the *inspiration*
+> of the method, not the operation it performs.
+
+- [Evolutionary Computation](note.html?n=epistemica/optimization/evolutionary-computation.md) — representation + evolutionary optimization algorithms (GA, GP, ES, EP, DE)
+- [Genetic Operator](note.html?n=epistemica/optimization/genetic-operator.md) — selection, crossover, mutation, elitism
+- [Island Model](note.html?n=epistemica/optimization/island-model.md) — parallel, distributed populations
+- [Memetic Algorithms](note.html?n=epistemica/optimization/memetic-algorithms.md) — evolution coupled with local search
+- [Multi-objective Evolutionary Algorithms (MOEA)](note.html?n=epistemica/optimization/multi-objective-evolutionary-algorithms-moea.md) — Pareto-based search
+- [Particle Swarm Optimization (PSO)](note.html?n=epistemica/optimization/particle-swarm-optimization-pso.md) — swarm search over a continuous landscape
+- [Grey Wolf Optimizer](note.html?n=epistemica/optimization/grey-wolf-optimizer.md) — pack-hierarchy search
+- [Neuroevolution](note.html?n=epistemica/optimization/neuroevolution.md) — evolving network weights and topologies
+
+> The remaining tagged members live in the scope that owns their target:
+> [Swarm Intelligence (Collective Intelligence)](note.html?n=epistemica/complexity/swarm-intelligence-collective-intelligence.md)
+> in Complexity Science and
+> [Cellular Automata](note.html?n=epistemica/mathematical/change/cellular-automata.md)
+> in the Change scope.
+
 ## Conceptual Model
 
 Conceptual Model: Optimization

@@ -1,5 +1,5 @@
 ---
-tags: [ec]
+tags: [ec, natural-computing]
 ---
 
 # Evolutionary Computation

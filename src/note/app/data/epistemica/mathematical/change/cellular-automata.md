@@ -1,3 +1,7 @@
+---
+tags: [natural-computing]
+---
+
 # Cellular Automata
 
 
@@ -9,7 +13,7 @@
 
 > Cellular Automata are a **parallel, spatially distributed model of computation**, where complex behavior emerges from simple local interactions. They offer insights into **emergence**, **computation in physical systems**, and **distributed algorithms**, and they challenge the notion that all computation must be sequential or centralized.
 > 
-- [ ]  Learn more about CA ([Cellular Automata](note.html?n=epistemica/natural-computing/cellular-automata.md) );  and Continue With Low Level Graphics (https://github.com/dbremont/visiotecnica-labs); Migrate the Results to Python-Matplotlib (No Real Time Updates) (https://github.com/dbremont/algorithms)
+- [ ]  Learn more about CA ([Cellular Automata](note.html?n=epistemica/mathematical/change/cellular-automata.md) );  and Continue With Low Level Graphics (https://github.com/dbremont/visiotecnica-labs); Migrate the Results to Python-Matplotlib (No Real Time Updates) (https://github.com/dbremont/algorithms)
 
 QA:
 

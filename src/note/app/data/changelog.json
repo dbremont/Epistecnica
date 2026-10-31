@@ -367,6 +367,38 @@
     ]
   },
   {
+    "file_path": "epistemica/complexity/self-organized-criticality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Self-Organized Criticality from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/complexity/swarm-intelligence-collective-intelligence.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Swarm Intelligence (Collective Intelligence) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/construction/branching-model.md",
     "logs": [
       {
@@ -438,6 +470,22 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/construction/ scope: a named construction about a particular system, split out of the science scope.",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/construction/flux-balance-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Flux Balance Analysis from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
       }
     ]
   },
@@ -637,6 +685,11 @@
         "summary": "retarget the tucked scope notes",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d",
         "before": "65a570eafea2191c3b73535a163a9c190a8b5c84"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Replace the Natural Computing links with Optimization and the @natural-computing tag group."
       }
     ]
   },
@@ -1144,6 +1197,11 @@
         "summary": "retarget the EDA link after the observational move",
         "commit": "10157e197438d0126738ae03b77a4dc872790316",
         "before": "2975449d856b1de5edfd50854a446ff94f143c35"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Point the operation-catalogue entry at the @natural-computing tag group instead of the retired scope note."
       }
     ]
   },
@@ -2256,6 +2314,43 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/change/cellular-automata.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cellular Automata from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Add CA book/survey references and fix internal note links.",
+        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename",
+        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the change-scope link after the folder rename",
+        "commit": "bde39a998fe635eef26d40673a38fee96d911bee",
+        "before": "688b4a2087836c20f73e267508b160e50c0625e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/change/dynamical-system.md",
     "logs": [
       {
@@ -2283,6 +2378,11 @@
         "summary": "retarget the complexity link after the scope rename",
         "commit": "5727077e658bdc9f9d542c993fe7421ca06171cc",
         "before": "d968bde8d0a088175a5b33f4e23a7d49b98ff06e"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint the Self-Organized Criticality link to the Complexity scope."
       }
     ]
   },
@@ -6796,214 +6896,6 @@
     ]
   },
   {
-    "file_path": "epistemica/natural-computing.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Natural Computing from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/cellular-automata.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cellular Automata from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-18",
-        "kind": "docs",
-        "summary": "Add CA book/survey references and fix internal note links.",
-        "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
-        "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget dynamical-systems links after the ds rename",
-        "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
-        "before": "82fb1246fd13d0cef208c58fff853e02185df257"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget the change-scope link after the folder rename",
-        "commit": "bde39a998fe635eef26d40673a38fee96d911bee",
-        "before": "688b4a2087836c20f73e267508b160e50c0625e7"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/evolutionary-computation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Evolutionary Computation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/flux-balance-analysis.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Flux Balance Analysis from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/genetic-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Genetic Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/grey-wolf-optimizer.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Grey Wolf Optimizer from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/island-model.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Island Model from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/memetic-algorithms.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Memetic Algorithms from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/molecular-dynamics-md.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Molecular Dynamics (MD) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/multi-objective-evolutionary-algorithms-moea.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multi-objective Evolutionary Algorithms (MOEA) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/natural-computing.md",
-    "logs": [
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "tuck the scope note into its own folder",
-        "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/neuroevolution.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Neuroevolution from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/neurosymbolic.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Neurosymbolic from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/particle-swarm-optimization-pso.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Particle Swarm Optimization (PSO) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/self-organized-criticality.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Self-Organized Criticality from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/swarm-intelligence-collective-intelligence.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Swarm Intelligence (Collective Intelligence) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/natural-computing/topic.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import topic from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational.md",
     "logs": [
       {
@@ -7987,6 +7879,22 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "7982557903f685d1a97cb7b44bf7089289fc1589"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/neurosymbolic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Neurosymbolic from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
       }
     ]
   },
@@ -11349,6 +11257,38 @@
     ]
   },
   {
+    "file_path": "epistemica/optimization/evolutionary-computation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Evolutionary Computation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/genetic-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Genetic Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/optimization/gradient-descent-gd.md",
     "logs": [
       {
@@ -11360,6 +11300,22 @@
     ]
   },
   {
+    "file_path": "epistemica/optimization/grey-wolf-optimizer.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Grey Wolf Optimizer from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/optimization/hamiltonian-optimization.md",
     "logs": [
       {
@@ -11367,6 +11323,22 @@
         "kind": "feat",
         "summary": "Import Hamiltonian Optimization from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/island-model.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Island Model from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
       }
     ]
   },
@@ -11404,6 +11376,38 @@
     ]
   },
   {
+    "file_path": "epistemica/optimization/memetic-algorithms.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Memetic Algorithms from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/multi-objective-evolutionary-algorithms-moea.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multi-objective Evolutionary Algorithms (MOEA) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/optimization/multiple-criteria-decision-making-mcdm.md",
     "logs": [
       {
@@ -11415,6 +11419,22 @@
     ]
   },
   {
+    "file_path": "epistemica/optimization/neuroevolution.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Neuroevolution from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/optimization/optimization.md",
     "logs": [
       {
@@ -11422,6 +11442,27 @@
         "kind": "refactor",
         "summary": "tuck the scope note into its own folder",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Add the nature-inspired methods index and point the family at the @natural-computing tag."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/particle-swarm-optimization-pso.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Particle Swarm Optimization (PSO) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the dissolved natural-computing scope and tag the note @natural-computing."
       }
     ]
   },
@@ -12223,6 +12264,11 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Merge the gloss of the deleted natural-computing duplicate."
       }
     ]
   },
@@ -14683,6 +14729,11 @@
         "summary": "add the modelling-practice material to the theory note",
         "commit": "2a60a182bd9b028ae2d79c1a74fde27528f22757",
         "before": "10157e197438d0126738ae03b77a4dc872790316"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Drop Natural Computing from the Modelling Domains list; the scope is dissolved into its neighbour scopes."
       }
     ]
   },

@@ -1,3 +1,7 @@
+---
+tags: [natural-computing]
+---
+
 # Particle Swarm Optimization (PSO)
 
 

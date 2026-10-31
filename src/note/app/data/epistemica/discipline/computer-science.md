@@ -18,7 +18,9 @@ measured behavior, not observation of nature.
 This note is the discipline-level Aggregate; the domain catalogues of
 computational practice live in
 [Computational Science](note.html?n=epistemica/science/science.md) and
-[Natural Computing](note.html?n=epistemica/natural-computing/natural-computing.md), and the schema
+[Optimization](note.html?n=epistemica/optimization/optimization.md) (which
+carries the nature-inspired methods as the `@natural-computing` tag group),
+and the schema
 it instantiates is owned by the canonical
 [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md).
 
@@ -174,7 +176,7 @@ machine model and the fidelity of the specification.
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Computational Science](note.html?n=epistemica/science/science.md) — computation as a method for studying other targets
-- [Natural Computing](note.html?n=epistemica/natural-computing/natural-computing.md) — computation inspired by natural processes
+- [Optimization](note.html?n=epistemica/optimization/optimization.md) — including the nature-inspired (`@natural-computing`) method family
 - [Formal Concept Analysis](note.html?n=epistemica/formal-concept-analysis-fca.md)
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) — the parent formal discipline
 - [Logic](note.html?n=epistemica/discipline/logic.md) — the parent formal discipline of inference

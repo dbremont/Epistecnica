@@ -553,7 +553,7 @@
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../../note.html?n=epistemica/natural-computing/cellular-automata.md">Cellular Automata</a> — the element this playground instantiates</li><li><a href="../../../../../note.html?n=epistemica/science/boolean-network.md">Boolean Network</a> · <a href="../../../../../note.html?n=epistemica/science/agent.md">Agent Model</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/mathematical/change/cellular-automata.md">Cellular Automata</a> — the element this playground instantiates</li><li><a href="../../../../../note.html?n=epistemica/science/boolean-network.md">Boolean Network</a> · <a href="../../../../../note.html?n=epistemica/science/agent.md">Agent Model</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
             <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Von Neumann, J. (1966)</strong> — <em>Theory of Self-Reproducing Automata</em></li><li><strong>Wolfram, S. (2002)</strong> — <em>A New Kind of Science</em> (elementary rules and complexity classes)</li><li><strong>Gardner, M. (1970)</strong> — the Game of Life; <strong>Greenberg &amp; Hastings (1978)</strong> — excitable media</li></ul>
@@ -703,7 +703,7 @@
         B: [3], S: [2, 3], rule: 'B3/S23', density: 0.28,
         sub: 'B=\\{3\\},\\quad S=\\{2,3\\}',
         desc: 'Conway\u2019s binary rule: a dead cell is born with exactly 3 live neighbours; a live cell survives with 2 or 3 and dies otherwise. From random soup it produces gliders, blinkers and still lifes — the archetype of emergent computation.',
-        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        docs: [{ label: 'Cellular automata', n: 'epistemica/mathematical/change/cellular-automata.md' }],
         params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.28 }]
       },
       {
@@ -711,7 +711,7 @@
         B: [2], S: [], rule: 'B2/S', density: 0.12,
         sub: 'B=\\{2\\},\\quad S=\\varnothing',
         desc: 'Every live cell dies each tick; a dead cell is born with exactly 2 live neighbours. The result is an explosive, ever-spreading pattern of expanding diamonds — a minimal rule with unbounded growth from almost any seed.',
-        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        docs: [{ label: 'Cellular automata', n: 'epistemica/mathematical/change/cellular-automata.md' }],
         params: [{ key: 'density', label: 'seed density', min: 0.05, max: 0.6, step: 0.01, value: 0.12 }]
       },
       {
@@ -726,7 +726,7 @@
         id: 'gh', domain: 'Physics', name: 'Greenberg\u2013Hastings', kind: 'gh', tag: 'excitable medium', rule: 'excitable',
         sub: '\\#\\text{excited}\\ge n \\Rightarrow \\text{fire}',
         desc: 'An excitable-medium automaton: a resting cell fires when at least n neighbours are excited, stays refractory for r ticks, then recovers. Waves travel across the medium and never cross — the discrete analogue of cardiac and neural tissue.',
-        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        docs: [{ label: 'Cellular automata', n: 'epistemica/mathematical/change/cellular-automata.md' }],
         params: [
           { key: 'thresh', label: 'excitation threshold', min: 1, max: 8, step: 1, value: 3 },
           { key: 'refrac', label: 'refractory steps', min: 2, max: 20, step: 1, value: 6 }
@@ -736,7 +736,7 @@
         id: 'ww', domain: 'Engineering', name: 'Wireworld', kind: 'ww', tag: 'electron flow', rule: 'electron flow',
         sub: '\\text{head}\\!\\to\\!\\text{tail}\\!\\to\\!\\text{wire}',
         desc: 'A four-state automaton modelling electron flow: empty, wire, electron head and electron tail. Heads become tails, tails become wire, and a wire next to one or two heads becomes a head — enough to build logic gates and clocks.',
-        docs: [{ label: 'Cellular automata', n: 'epistemica/natural-computing/cellular-automata.md' }],
+        docs: [{ label: 'Cellular automata', n: 'epistemica/mathematical/change/cellular-automata.md' }],
         params: []
       }
     ];

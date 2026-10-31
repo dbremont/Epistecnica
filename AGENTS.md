@@ -117,6 +117,14 @@ frontend-facing surface in the deployment; there is no database behind it
   `guidance/principle/` for rules of proceeding (`occam-razor`,
   `minimum-description-length-mdl`, `least-action-principle`, …), and
   `guidance/method/` for the philosophical-method notes.
+- A directory under `data/epistemica/` is a **target/operation scope**, not a
+  metaphor: a cross-cutting method family is a tag. The former
+  `natural-computing/` scope was dissolved on 2026-10-31 into the scopes that
+  own each note's operation (`optimization/` for the evolutionary and swarm
+  optimizers, `complexity/` for swarm intelligence and self-organized
+  criticality, `mathematical/change/` for cellular automata, `construction/` for
+  flux balance analysis) and its members carry `tags: [natural-computing]`; do
+  not reintroduce it.
 - `data/nature/theory/` holds the natural-ontology theory scope moved out of
   `epistemica/theory/ontology/`: the ontic element notes (event, causality,
   system, segment, reality, …), the local *Philosophia Naturalis* import

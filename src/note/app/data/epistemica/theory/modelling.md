@@ -433,7 +433,6 @@ Aphorisms:
 [Observational](note.html?n=epistemica/observational/observational.md)
 [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md)
 [Signal Processing](note.html?n=epistemica/signal/signal-processing.md)
-[Natural Computing](note.html?n=epistemica/natural-computing/natural-computing.md)
 [Complexity Science](note.html?n=epistemica/complexity/complexity-science.md)
 [**Statistical Mechanics**](note.html?n=epistemica/construction/statistical-mechanics.md)
 [Adaptative](note.html?n=epistemica/adaptative/adaptative.md)

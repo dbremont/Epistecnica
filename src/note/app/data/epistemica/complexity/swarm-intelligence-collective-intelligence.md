@@ -1,3 +1,7 @@
+---
+tags: [natural-computing]
+---
+
 # Swarm Intelligence (Collective Intelligence)
 
 

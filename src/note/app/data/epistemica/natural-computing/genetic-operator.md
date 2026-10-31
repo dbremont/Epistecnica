@@ -1,4 +1,0 @@
-# Genetic Operator
-
-
->

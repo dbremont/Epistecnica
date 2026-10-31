@@ -88,6 +88,14 @@ companion is `data/epistemica/ees.md`.
   `terminology.json` (the store) and `terminology.html` (searchable cards and
   table over misnomers, legacy names and false friends in statistics,
   probability and measurement); `make terminology-check` validates the store.
+- Cross-cutting method families are carried as tags, not scopes. The former
+  `natural-computing/` scope was dissolved into the scope that owns each note's
+  operation — the evolutionary and swarm optimizers into `optimization/`,
+  cellular automata into `mathematical/change/`, swarm intelligence and
+  self-organized criticality into `complexity/`, flux balance analysis into
+  `construction/` — and its members carry `tags: [natural-computing]`. A
+  metaphor for the method's inspiration is an attribute, not a target: give it
+  a tag instead of a directory.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Computation corpus
