@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Terminology-crimes store validator.
+Terminology store validator.
 
-Validates src/note/app/data/epistemica/crimes/terminology.json: required
+Validates src/note/app/data/epistemica/horror/terminology.json: required
 fields, unique kebab ids, enum domains/crimes/severities, resolving related
 ids, existing note links, and well-formed sources. Stdlib only.
 
@@ -16,7 +16,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "src" / "note" / "app" / "data"
-STORE = DATA / "epistemica" / "crimes" / "terminology.json"
+STORE = DATA / "epistemica" / "horror" / "terminology.json"
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 REQUIRED_TEXT = ("term", "crime", "severity", "damage", "sounds_like",

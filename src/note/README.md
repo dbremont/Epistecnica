@@ -84,7 +84,7 @@ companion is `data/epistemica/ees.md`.
   measure, set `n` and the contamination `δ`, and read the empirical fit, the
   null cloud, the power curve and the p-value calibration); `make gof-check`
   validates the store. Linked from `goodness-of-fit.md`.
-- The terminology-crimes atlas lives in `epistemica/crimes/`:
+- The terminology atlas lives in `epistemica/horror/`:
   `terminology.json` (the store) and `terminology.html` (searchable cards and
   table over misnomers, legacy names and false friends in statistics,
   probability and measurement); `make terminology-check` validates the store.

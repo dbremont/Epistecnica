@@ -299,11 +299,11 @@ instance-decomposition table:
   `goodness-of-fit.md`, and `confidence-interval.md` (procedure-coverage
   reporting, moved out of the observational domain); calibration is a distinct
   practice, not a synonym for validation.
-- **Terminology Crimes atlas** — `epistemica/crimes/terminology.{json,html}`
+- **Terminology atlas** — `epistemica/horror/terminology.{json,html}`
   stores and renders the misnomer/legacy/false-friend inventory (statistics,
   probability, measurement); `make terminology-check` validates the store
   (part of `make check`). The page is reached through the catalog's
-  `epistemica/crimes/` folder, no promoted card.
+  `epistemica/horror/` folder, no promoted card.
 - **Symbol atlas** — `epistemica/symbols/symbols.{json,html}` stores and
   renders the mathematical-notation inventory (glyph, category, description,
   origins, usage, related symbols, note links); `make symbols-check`
@@ -436,7 +436,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Catalog literals: `bin/check_catalog_literals.py` fails when a catalog page hardcodes a corpus entry, a directory special case, or a `data/<corpus>/…` href (part of `make check`)
 - EES tree: `make ees-check` (legacy alias: `make rees-check`; validates `src/note/app/data/epistemica/ees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
 - Technica atlas: `make atlas-index` (regenerates `src/note/app/data/technica/meta/atlas.json` from the canonical two-column decomposition tables of the technica corpus, `meta/` excluded — after any table edit under `src/note/app/data/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/note/data/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
-- Terminology crimes: `make terminology-check` (validates `src/note/app/data/epistemica/crimes/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/crimes/terminology.html`, reached in the catalog through the `epistemica/crimes/` folder (no promoted card)
+- Terminology crimes: `make terminology-check` (validates `src/note/app/data/epistemica/horror/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/horror/terminology.html`, reached in the catalog through the `epistemica/horror/` folder (no promoted card)
 - Symbol atlas: `make symbols-check` (validates `src/note/app/data/epistemica/symbols/symbols.json` — unique ids, enum categories, non-empty symbol/description/origins/usage, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/symbols/symbols.html`, reached in the catalog through the `epistemica/symbols/` folder (no promoted card)
 - P-Value Atlas: `make pvalue-check` (validates `src/note/app/data/epistemica/validation/atlas/pvalue.json` — unique ids, known families/engines, complete density/CDF/left/right/two-sided formulas, parameter specs in range, resolving related ids and note links, well-formed sources) — part of `make check`; page `curl -s :8000/note/data/epistemica/validation/atlas/pvalue.html` (playground-first: family picker + parameter sliders + `t_obs` + density/CDF stages + live readouts + Monte Carlo strip; `?selftest` for the numeric cases), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `p-value.md` (no promoted card)
 - Goodness-of-Fit Atlas: `make gof-check` (validates `src/note/app/data/epistemica/validation/atlas/gof.json` — unique law/measure ids, known engines, complete formulas, parameter specs in range, `m` consistent with the parameters, selftest cases referencing existing laws/measures) — part of `make check`; page `curl -s :8000/note/data/epistemica/validation/atlas/gof.html` (playground-first: law + measure pickers, `n`/`δ` sliders, estimation toggle, empirical-vs-fitted, null cloud, power curve, p-value calibration; `?selftest` for the numeric cases, `?sweep` for every law × measure pair, `?law=…&measure=…&n=…&delta=…` deep links), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md` (no promoted card)

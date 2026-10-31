@@ -1,9 +1,9 @@
 {
-  "title": "Terminology Crimes",
-  "abbr": "TC",
+  "title": "Terminology",
+  "abbr": "TERM",
   "version": "2026-10-25",
   "intro": "The words that cost hours. Misnomers, legacy names and false friends that make correct work sound wrong and wrong work sound obvious. Ranked by the damage they do.",
-  "source": "hand-authored store; epistemica/crimes/terminology.json",
+  "source": "hand-authored store; epistemica/horror/terminology.json",
   "domains": [
     "statistics",
     "probability",
