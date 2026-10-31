@@ -51,6 +51,7 @@ with the subprojects.
 | `/note/data/epistemica/ees.html` | The EES atlas (local companion to the guide) |
 | `/note/data/epistemica/validation/atlas/pvalue.html` | The P-Value Atlas: playground over the null laws — pick, parameterize, move `t_obs`, read the live tails and Monte Carlo calibration |
 | `/note/data/epistemica/observational/playground/index.html` | The observational playground: one card per interactive notebook (note icon + `▶ play`); the PCA notebook is a six-act narrative from the shadow problem to 64-dimensional digit PCA |
+| `/note/data/epistemica/mathematical/playground/index.html` | The mathematical playground: one card per interactive notebook; the rotation notebook turns a figure about the origin, its centre, a vertex, or a dragged point, with per-vertex arcs and live coordinates |
 | `/course/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
 | `/document/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
 | `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/ees.html` (graphs moved to Naturgnosis) |

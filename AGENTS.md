@@ -330,17 +330,22 @@ instance-decomposition table:
   page is a live note reached through the catalog's
   `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md`,
   no promoted card.
-- **Playground** — `epistemica/observational/playground/` is the interactive
-  notebook surface: `index.html` is the notebook index (one card per notebook,
-  the book icon opening the corpus note and `▶ play` opening the notebook), and
-  each notebook is a live note beside it (`principal-component-analysis.html`
-  is the first: a six-act narrative — the shadow problem, projection, the
-  variance/reconstruction-error duality, the centre → covariance → eigenvector
-  algorithm with a drag-rotatable 3-D lab, a 64-dimensional 8×8 digit PCA with
-  scree / 64→2 scatter / k-component reconstruction, and the takeaways — with
-  every figure computed in-browser from a seeded cloud). New notebooks add one
-  page plus one card; live HTML is out of changelog scope, and a corpus note
-  that links its notebook logs the edit like any other content change.
+- **Playgrounds** — one interactive notebook surface per domain,
+  `epistemica/<domain>/playground/`: `index.html` is the notebook index (one
+  card per notebook, the book icon opening the corpus note and `▶ play` opening
+  the notebook), and each notebook is a live note beside it. The observational
+  playground's `principal-component-analysis.html` is a six-act narrative — the
+  shadow problem, projection, the variance/reconstruction-error duality, the
+  centre → covariance → eigenvector algorithm with a drag-rotatable 3-D lab, a
+  64-dimensional 8×8 digit PCA with scree / 64→2 scatter / k-component
+  reconstruction, and the takeaways — with every figure computed in-browser
+  from a seeded cloud. The mathematical playground's
+  `rotation-playground.html` turns a point, segment, or polygon about the
+  origin, the figure's own centre, a vertex, or a dragged point, drawing each
+  vertex's arc and the live coordinates with a theme-aware canvas. New
+  notebooks add one page plus one card; live HTML is out of changelog scope,
+  and a corpus note that links its notebook logs the edit like any other
+  content change.
 - **EES** (`epistemica/ees.md` + `ees.html` + `ees.json`) is the master
   epistemic inventory. The tree is stored canonically in `ees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
