@@ -512,12 +512,15 @@ when switching over.
   keep their names). New scripts go in `bin/` with a corpus-qualified name;
   scripts locate their corpus via `REPO = Path(__file__).resolve().parent.parent`
   then `REPO / "src" / "<corpus>"` — not via their own directory depth.
-- **Generated corpus indexes are gitignored** (`index.json`, `links.json`,
+- **Generated corpus indexes are gitignored** (`index.json`,
   `search-index.json`, `universal-graph.json`/`universal-layout.json`,
   technica `atlas.json`) — rebuild them with `make index` /
   `make search-index` / `make graph-index` / `make atlas-index` after a
   fresh clone or any corpus edit; the Dockerfile rebuilds them at image
-  build so the image is self-contained.
+  build so the image is self-contained. The exception is
+  `src/note/app/data/links.json`: it is the hand-maintained support-link
+  registry (an input the indexer reads, not a generated index), so it is
+  tracked and must be committed with its edits.
 - `rg` can fail with "JSON record exceeded 65536 bytes" on huge single-file
   HTML pages (the catalog/viewer pages and the generated `*.json` indexes).
   Scope the include pattern or use `bash` + `rg` directly.

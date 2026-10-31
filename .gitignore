@@ -9,7 +9,6 @@ __pycache__/
 # Generated corpus indexes/snapshots — rebuilt by `make index`/`search-index`/
 # `graph-index`/`atlas-index` (and at image build); never hand-edit or commit
 src/note/app/data/index.json
-src/note/app/data/links.json
 src/course/app/data/index.json
 src/document/app/data/index.json
 src/app/data/search-index.json

@@ -951,6 +951,9 @@
             } else if (NOUN !== 'note' && n.kind) {
                 badge = '<span class="card-kind">' + esc(n.kind) + '</span>';
             }
+            if (linked && linkLabel) {
+                badge += '<span class="card-kind">' + esc(linkLabel) + '</span>';
+            }
             return '<div class="card ' + (live ? 'card-live' : 'card-file') + (linked ? ' card-linked' : '') + '">' +
                 '<a class="card-link" href="' + fileHref(n) + '">' +
                 '<div class="card-thumb">' + ICON_FILE + (linked ? linkMark() : '') + '</div>' +
@@ -973,7 +976,9 @@
                 '<div class="card-body">' +
                 '<div class="card-name">' + hl(s.name, q) + '</div>' +
                 (linked ? '<div class="card-sub">' + esc(s.path) + '</div>' : '') +
-                '<div class="card-meta"><span class="card-kind">dir</span>' +
+                '<div class="card-meta">' +
+                (linked && linkLabel ? '<span class="card-kind">' + esc(linkLabel) + '</span>' : '') +
+                '<span class="card-kind">dir</span>' +
                 '<span class="card-sub">' + s.count + ' ' + (s.count === 1 ? NOUN : NOUNS) + '</span></div>' +
                 '</div></a></div>';
         }

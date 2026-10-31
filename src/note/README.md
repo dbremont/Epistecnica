@@ -292,7 +292,8 @@ are note paths or `dir/` scopes (`from` a directory node, `to` a directory or
 a note). The builder validates every endpoint against the corpus (warn and
 drop dangling, never fail) and embeds the pairs as `index.json:links`; the
 catalog's browse view renders them as a linked group of cards with a link-mark
-overlay. Edit the registry, then rebuild and commit the index.
+overlay. The registry is tracked (unlike the generated indexes): edit it,
+then rebuild and commit the index.
 
 - The registry is a special file: never a note, never naming-validated.
 - `kind` is a free-form tag (`hierarchy`, `related`, …); `label` names the

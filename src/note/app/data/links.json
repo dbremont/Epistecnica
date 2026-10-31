@@ -1,0 +1,202 @@
+{
+  "links": [
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/mathematical/differential-equation.md",
+      "label": "Differential Equations",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/mathematical/difference-equation.md",
+      "label": "Difference Equations",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/mathematical/recurrence-equation.md",
+      "label": "Recurrence Equations",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/mathematical/derivative-operator.md",
+      "label": "Derivative Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/mathematical/differential-operator.md",
+      "label": "Differential Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/mathematical/partial-derivative-operator.md",
+      "label": "Partial Derivative Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/science/stochastic-differential-equation-sde.md",
+      "label": "Stochastic Differential Equation",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/science/phase-space.md",
+      "label": "Phase Space",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/construction/state-space-model.md",
+      "label": "State-Space Models",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/dynamical-systems/",
+      "to": "epistemica/science/system-dynamics.md",
+      "label": "System Dynamics",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/",
+      "to": "nature/construction/principle/compositionality.md",
+      "label": "Compositionality",
+      "kind": "related"
+    },
+    {
+      "from": "technica/ais/",
+      "to": "epistemica/observational/",
+      "label": "Observational",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/mathematical-structure.md",
+      "label": "Mathematical Structure",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/mathematical-object.md",
+      "label": "Mathematical Object",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/geometry/geometry.md",
+      "label": "Geometry",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/topology.md",
+      "label": "Topology",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/order.md",
+      "label": "Order",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/measure.md",
+      "label": "Measure",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/algebra.md",
+      "label": "Algebra",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/manifold.md",
+      "label": "Manifold",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/coordinate-system.md",
+      "label": "Coordinate System",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/vector.md",
+      "label": "Vector",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/linear-algebra.md",
+      "label": "Linear Algebra",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/mathematical/operator.md",
+      "label": "Operator",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/science/phase-space.md",
+      "label": "Phase Space",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/science/configuration-space.md",
+      "label": "Configuration Space",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/construction/state-space-model.md",
+      "label": "State-Space Models",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/science/reference-frame.md",
+      "label": "Reference Frame",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/science/quantum-framework.md",
+      "label": "Quantum Framework",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/mathematical/space/",
+      "to": "epistemica/science/quantum-field-theory-qft.md",
+      "label": "Quantum Field Theory",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/observational/",
+      "to": "technica/ais/architecture/transformer/transformer.md",
+      "label": "Transformer",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/observational/",
+      "to": "technica/ais/",
+      "label": "Active Inference System",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/theory/",
+      "to": "nature/theory/",
+      "label": "Theory of Nature",
+      "kind": "hierarchy"
+    }
+  ]
+}
