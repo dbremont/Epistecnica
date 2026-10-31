@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coupled Oscillator Network Representational System</title>
+  <title>Reaction–Diffusion Representational System</title>
   <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -428,6 +428,11 @@
     }
     .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .site-footer a:hover { color: var(--accent-cyan); }
+
+    #wrap { cursor: cell; }
+    .swatchRow { display: flex; gap: 6px; margin-top: 8px; }
+    .swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--border-subtle); }
+
   </style>
   <link rel="stylesheet" href="../../../../../../shared/usearch.css">
 </head>
@@ -451,9 +456,9 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds">ds</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/ds/rsp">rsp</a><span class="sep">/</span><span class="here">coupled-oscillator-network</span></div>
-      <h1 class="note-title">Coupled Oscillator Network Representational System</h1>
-      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#coupled-oscillators</span><span class="chip">#representation</span></div>
+      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/dynamical-systems">dynamical-systems</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/dynamical-systems/rsp">rsp</a><span class="sep">/</span><span class="here">reaction-diffusion</span></div>
+      <h1 class="note-title">Reaction–Diffusion Representational System</h1>
+      <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#reaction-diffusion</span><span class="chip">#representation</span></div>
     </div>
 
     <div class="cols">
@@ -462,24 +467,21 @@
           <div class="markdown-body">
 
             <blockquote>
-              <p>A <strong>Coupled Oscillator Network</strong> representational system writes change
-              as <em>many local clocks coupled to their neighbours</em>. Each oscillator has a natural
-              frequency <span class="math" data-tex="\omega_i"></span> and a phase
-              <span class="math" data-tex="\theta_i"></span>; coupling pulls neighbours together,
-              <span class="math" data-tex="\dot\theta_i=\omega_i+\tfrac{K}{N}\sum_j\sin(\theta_j-\theta_i)"></span>.
-              It is how collective timing is stated, and the order parameter
-              <span class="math" data-tex="r\,e^{i\psi}=\tfrac1N\sum_j e^{i\theta_j}"></span> is the way
-              it is read.</p>
-              <p>Below, this one representation is instantiated in four domains. Pick an instance to load
-              it; its coupling and description appear above the lab. Then <strong>play</strong> — turn up
-              the coupling and watch a scattered crowd of phases lock into one.</p>
+              <p>A <strong>Reaction–Diffusion</strong> representational system writes change
+              as <em>local reaction coupled to spatial diffusion</em>: two concentrations
+              <span class="math" data-tex="u(\mathbf{x},t),\,v(\mathbf{x},t)"></span> evolve under
+              <span class="math" data-tex="\partial_t u = D_u\nabla^2 u + f(u,v)"></span> and the same
+              for <span class="math" data-tex="v"></span>. It is how continuous fields are stated, and
+              the evolving pattern is the way it is read.</p>
+              <p>Below, this one representation is instantiated in four domains. Pick an instance to
+              load it; its kinetics and description appear above the lab. Then <strong>play</strong> —
+              let the field evolve, click to inject chemical, and watch the mean values.</p>
             </blockquote>
 
             <h2 id="playground">Playground</h2>
-            <p>Pick an instance, then play with it. Each dot is one oscillator; its angle is its phase,
-            and the gold arrow is the mean phase whose length is the order parameter
-            <span class="math" data-tex="r"></span>. Drag a dot (or click the field) to kick the crowd,
-            and watch <span class="math" data-tex="r"></span> climb on the trace.</p>
+            <p>Pick an instance, then play with it. The field is a two-species grid rendered through a
+            colour map; click to inject a blob, drag to pan, scroll to zoom. Mean concentrations and a
+            trace update as the pattern forms.</p>
 
             <div class="inst-info" id="instInfo">
               <div class="ii-name" id="iiName"></div>
@@ -494,8 +496,13 @@
                   <div id="wrap"><canvas id="cv"></canvas></div>
                   <div class="lab-overlay"><div class="overlay-card">
                     <div id="ovName">—</div>
-                    <div class="law" id="ovSub">phase network</div>
+                    <div class="law" id="ovSub">concentration field</div>
                   </div></div>
+                  <div class="zoomers">
+                    <button class="zbtn" id="zin" aria-label="Zoom in">+</button>
+                    <button class="zbtn" id="zout" aria-label="Zoom out">&minus;</button>
+                    <button class="zbtn small" id="zfit" aria-label="Fit view">&#x2922;</button>
+                  </div>
                 </div>
 
                 <div class="lab-controls">
@@ -511,8 +518,8 @@
                       <button class="btn" id="stepBtn">Step</button>
                       <button class="btn" id="resetBtn">Reset</button>
                     </div>
-                    <div class="speedRow" style="margin-top:12px"><span>steps / s</span><span class="val" id="speedLbl">120</span></div>
-                    <input type="range" id="speed" min="20" max="400" step="20" value="120" aria-label="Steps per second">
+                    <div class="speedRow" style="margin-top:12px"><span>iterations / s</span><span class="val" id="speedLbl">240</span></div>
+                    <input type="range" id="speed" min="30" max="600" step="30" value="240" aria-label="Iterations per second">
                   </section>
 
                   <section aria-label="Parameters">
@@ -528,10 +535,10 @@
                         <span class="pill idle" id="status">READY</span>
                       </div>
                       <div class="statGrid">
-                        <div class="box"><div class="k">order r</div><div class="v" id="vR">—</div></div>
-                        <div class="box"><div class="k">mean ⟨ω⟩</div><div class="v" id="vW">—</div></div>
+                        <div class="box"><div class="k">mean ⟨u⟩</div><div class="v" id="vU">—</div></div>
+                        <div class="box"><div class="k">mean ⟨v⟩</div><div class="v" id="vV">—</div></div>
                       </div>
-                      <div class="ruleLine" id="ruleLine">coupling: —</div>
+                      <div class="ruleLine" id="ruleLine">kinetics: —</div>
                     </div>
                   </section>
                 </div>
@@ -540,18 +547,18 @@
               <div class="tsWrap"><canvas id="ts"></canvas><div class="tsTip" id="tsTip" hidden></div></div>
 
               <ol class="how">
-                <li>Each oscillator runs at its own frequency; coupling is the only thing that can make neighbours agree.</li>
-                <li>Below a critical coupling the phases stay scattered; above it a single cluster snaps into place — a phase transition.</li>
-                <li>The trace plots <span class="math" data-tex="r"></span>: near 0 means unsynchronised, near 1 means locked.</li>
+                <li>Each cell runs the same reaction kinetics <span class="math" data-tex="f(u,v)"></span> locally and exchanges chemical with its neighbours by diffusion <span class="math" data-tex="D\nabla^2"></span>.</li>
+                <li>A diffusion-driven instability (Turing) can turn a uniform state into spots and stripes — order emerging from local rules alone.</li>
+                <li>The trace plots the mean of the <span class="math" data-tex="v"></span> field, which marks when a pattern has settled.</li>
               </ol>
-              <p class="fine">Nothing is fetched at runtime — the network, coupling and rendering all run in this page. Colours follow the light/dark theme.</p>
+              <p class="fine">Nothing is fetched at runtime — the field, kinetics and rendering all run in this page. Colours follow the light/dark theme.</p>
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="../../../../../note.html?n=epistemica/complexity-science/collective-dynamics.md">Collective Dynamics</a> · <a href="../../../../../note.html?n=epistemica/complexity-science/coordination.md">Coordination</a></li><li><a href="../../../../../note.html?n=epistemica/science/network-science.md">Network Science</a> · <a href="../../../../../note.html?n=epistemica/natural-computing/swarm-intelligence-collective-intelligence.md">Swarm Intelligence</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="../../../../../note.html?n=epistemica/observational/diffusion-process.md">Diffusion Process</a> · <a href="../../../../../note.html?n=technica/ais/system/diffusion-model.md">Diffusion Model</a> · <a href="../../../../../note.html?n=epistemica/construction/fick-s-laws-of-diffusion.md">Fick’s Laws</a></li><li><a href="../../../../../note.html?n=epistemica/science/system-dynamics.md">System Dynamics</a> · <a href="../../../../../note.html?n=epistemica/mathematical/dynamical-systems/dynamical-system.md">Dynamical System</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
-            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Kuramoto, Y. (1975)</strong> — self-entrainment of a population of coupled non-linear oscillators</li><li><strong>Mirollo, R. &amp; Strogatz, S. (1990)</strong> — synchronisation of pulse-coupled biological oscillators</li><li><strong>Strogatz, S. (2003)</strong> — <em>Sync: The Emerging Science of Spontaneous Order</em></li></ul>
+            <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Turing, A. M. (1952)</strong> — <em>The Chemical Basis of Morphogenesis</em></li><li><strong>Pearson, J. E. (1993)</strong> — complex patterns in a simple system (Gray–Scott)</li><li><strong>FitzHugh, R. (1961)</strong> · <strong>Nagumo, J. et al. (1962)</strong> — excitable-media equations</li></ul>
 
           </div>
         </article>
@@ -691,176 +698,175 @@
       if (window.renderTeX) { renderTeX(el('instInfo')); }
     }
 
-    var N = 64;
-    var th = new Float64Array(N), om = new Float64Array(N), om0 = new Float64Array(N);
-    var dth = new Float64Array(N), dom = new Float64Array(N);
-    var rHist = [];
-    var playing = false, speed = 120, lastT = 0, accT = 0, simT = 0;
+    var N = 150;
+    var u = new Float32Array(N * N), v = new Float32Array(N * N);
+    var u2 = new Float32Array(N * N), v2 = new Float32Array(N * N);
+    var meanHist = [];
+    var playing = false, speed = 240, lastT = 0, accT = 0, iters = 0;
+    var view = { zoom: 1, panx: 0, pany: 0 };
     var W = 0, H = 0, TW = 0, TH = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var tsHover = -1, tsMap = null, hit = null, kickDot = -1;
+    var tsHover = -1, tsMap = null;
     var cur = null, P = {};
+    var img = null, off = document.createElement('canvas');
+    off.width = N; off.height = N;
+    var octx = off.getContext('2d');
+    img = octx.createImageData(N, N);
 
     var els = {
       cv: el('cv'), wrap: el('wrap'), ts: el('ts'), tsTip: el('tsTip'),
       insts: el('insts'), params: el('params'), playBtn: el('playBtn'), stepBtn: el('stepBtn'),
       resetBtn: el('resetBtn'), speed: el('speed'), speedLbl: el('speedLbl'), status: el('status'),
-      vR: el('vR'), vW: el('vW'), ruleLine: el('ruleLine')
+      vU: el('vU'), vV: el('vV'), ruleLine: el('ruleLine')
     };
     var ctx = els.cv.getContext('2d'), tctx = els.ts.getContext('2d');
 
     var INSTS = [
       {
-        id: 'kuramoto', domain: 'Physics', name: 'Kuramoto', model: 'kuramoto', topo: 'all', unit: 'rad/s', tag: 'mean-field phases',
-        sub: '\\dot\\theta_i=\\omega_i+\\tfrac{K}{N}\\sum_{j}\\sin(\\theta_j-\\theta_i)',
-        desc: 'The mean-field model of synchronisation: every oscillator feels the average of the crowd. Turn up the coupling and the population passes from a scattered state to a single locked cluster at a sharp critical point.',
-        docs: [{ label: 'Collective dynamics', n: 'epistemica/complexity-science/collective-dynamics.md' }],
+        id: 'grayscott', domain: 'Chemistry', name: 'Gray\u2013Scott', reaction: 'gs', render: 'v', rng: [0, 0.4], tag: 'autocatalytic reactor',
+        sub: '\\dot u=-uv^2+f(1-u),\\quad \\dot v=uv^2-(f+k)v',
+        desc: 'The canonical autocatalytic reactor: u is fed in, v consumes u and decays. With the right feed and kill rates a uniform state breaks into self-maintaining spots and worms \u2014 therefore called "mitosis".',
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
         params: [
-          { key: 'K', label: 'coupling K', min: 0, max: 8, step: 0.1, value: 4 },
-          { key: 'sig', label: 'frequency spread σ', min: 0, max: 2, step: 0.05, value: 0.7 }
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.05, max: 0.3, step: 0.01, value: 0.16 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.02, max: 0.15, step: 0.01, value: 0.08 },
+          { key: 'f', label: 'feed f', min: 0.01, max: 0.08, step: 0.001, value: 0.035 },
+          { key: 'k', label: 'kill k', min: 0.03, max: 0.075, step: 0.001, value: 0.065 }
         ]
       },
       {
-        id: 'fireflies', domain: 'Biology', name: 'Fireflies', model: 'pulse', topo: 'all', unit: 'Hz', tag: 'pulse-coupled',
-        sub: '\\phi_i\\!\\uparrow\\!1\\Rightarrow \\phi_i\\!=\\!0,\\; \\phi_j\\!\\leftarrow\\!\\min(1,\\phi_j+\\varepsilon)',
-        desc: 'Pulse-coupled oscillators, after Mirollo & Strogatz. Each firefly charges its lantern; when it flashes it nudges the phase of everyone it can see, until the whole mangrove blinks as one.',
-        docs: [{ label: 'Swarm intelligence', n: 'epistemica/natural-computing/swarm-intelligence-collective-intelligence.md' }],
+        id: 'brusselator', domain: 'Chemistry', name: 'Brusselator', reaction: 'br', render: 'u', rng: [0, 4.5], tag: 'oscillating reaction',
+        sub: '\\dot u=a-(b+1)u+u^2v,\\quad \\dot v=bu-u^2v',
+        desc: 'A theoretical oscillating reaction. With diffusion, the uniform steady state loses stability and the field organises into stripes and rotating spirals \u2014 a Turing pattern from a limit-cycle chemistry.',
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
         params: [
-          { key: 'K', label: 'nudge ε', min: 0.002, max: 0.06, step: 0.002, value: 0.02 },
-          { key: 'sig', label: 'period spread σ', min: 0, max: 0.2, step: 0.005, value: 0.04 }
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.4, max: 1.4, step: 0.05, value: 0.9 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.2, max: 0.9, step: 0.05, value: 0.45 },
+          { key: 'a', label: 'a', min: 0.5, max: 2, step: 0.05, value: 1.0 },
+          { key: 'b', label: 'b', min: 1.5, max: 4, step: 0.05, value: 2.5 }
         ]
       },
       {
-        id: 'power', domain: 'Engineering', name: 'Power Grid', model: 'swing', topo: 'ring', unit: 'rad/s', tag: 'second-order inertia',
-        sub: '\\ddot\\theta_i=P-D\\dot\\theta_i-\\tfrac{K}{N}\\sum_j\\sin(\\theta_i-\\theta_j)',
-        desc: 'Second-order oscillators: generators with inertia, damping and a power imbalance, coupled over a ring. When coupling is too weak for the spread in power, the network fragments into clusters \u2014 the mechanism behind cascading blackouts.',
-        docs: [{ label: 'Network science', n: 'epistemica/science/network-science.md' }],
+        id: 'schnakenberg', domain: 'Biology', name: 'Schnakenberg', reaction: 'sk', render: 'u', rng: [0.2, 1.2], tag: 'activator\u2013substrate',
+        sub: '\\dot u=a-u+u^2v,\\quad \\dot v=b-u^2v',
+        desc: 'A minimal activator\u2013substrate model of morphogenesis. A slowly diffusing activator u and a fast substrate v form regular spot arrays \u2014 the textbook picture of how a uniform embryo can decide where to grow.',
+        docs: [{ label: 'Diffusion process', n: 'epistemica/observational/diffusion-process.md' }],
         params: [
-          { key: 'K', label: 'coupling K', min: 0, max: 10, step: 0.2, value: 5 },
-          { key: 'D', label: 'damping D', min: 0.05, max: 0.8, step: 0.05, value: 0.2 },
-          { key: 'sig', label: 'power spread σ', min: 0, max: 0.6, step: 0.02, value: 0.15 }
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.05, max: 0.4, step: 0.01, value: 0.16 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.4, max: 3, step: 0.05, value: 1.6 },
+          { key: 'a', label: 'a', min: 0.02, max: 0.4, step: 0.01, value: 0.1 },
+          { key: 'b', label: 'b', min: 0.4, max: 1.4, step: 0.02, value: 0.9 }
         ]
       },
       {
-        id: 'neural', domain: 'Neuroscience', name: 'Neural Oscillators', model: 'kuramoto', topo: 'ring', unit: 'rad/s', tag: 'local coupling',
-        sub: '\\dot\\theta_i=\\omega_i+\\tfrac{K}{N}\\sum_j w_{ij}\\sin(\\theta_j-\\theta_i)',
-        desc: 'Neurons as relaxation oscillators coupled on a ring with distance-dependent weights. Local coupling lets travelling waves and partial synchrony persist \u2014 a model of cortical rhythms where order is a matter of degree.',
-        docs: [{ label: 'Network science', n: 'epistemica/science/network-science.md' }],
+        id: 'fhn', domain: 'Neuroscience', name: 'FitzHugh\u2013Nagumo', reaction: 'fhn', render: 'u', rng: [-2, 2], tag: 'excitable medium',
+        sub: '\\dot u=u-\\tfrac{u^3}{3}-v+I,\\quad \\dot v=\\epsilon(u+a-bv)',
+        desc: 'An excitable medium: below threshold it stays quiet, at threshold it fires a wave that sweeps the tissue and leaves a refractory trail. Diffusion couples the cells so the pulse travels as a travelling front.',
+        docs: [{ label: 'Diffusion model', n: 'technica/ais/system/diffusion-model.md' }],
         params: [
-          { key: 'K', label: 'coupling K', min: 0, max: 8, step: 0.1, value: 3 },
-          { key: 'sig', label: 'frequency spread σ', min: 0, max: 2, step: 0.05, value: 0.5 },
-          { key: 'wig', label: 'range λ', min: 1, max: 32, step: 1, value: 6 }
+          { key: 'Du', label: 'diffusion Dᵤ', min: 0.4, max: 2, step: 0.05, value: 1.0 },
+          { key: 'Dv', label: 'diffusion Dᵥ', min: 0.1, max: 1, step: 0.05, value: 0.4 },
+          { key: 'I', label: 'stimulus I', min: -0.2, max: 0.8, step: 0.02, value: 0.05 },
+          { key: 'e', label: 'time-scale ε', min: 0.02, max: 0.2, step: 0.005, value: 0.08 }
         ]
       }
     ];
 
-    function gauss() { var s = 0; for (var i = 0; i < 4; i++) s += Math.random(); return (s / 4 - 0.5) * 3.464; }
-    function weight(i, j) {
-      if (cur.topo === 'all') return 1;
-      var d = Math.abs(i - j); d = Math.min(d, N - d);
-      return Math.exp(-d / (P.wig || 6));
+    function idx(x, y) { return ((y + N) % N) * N + ((x + N) % N); }
+    function lap(f, x, y) {
+      return f[idx(x - 1, y)] + f[idx(x + 1, y)] + f[idx(x, y - 1)] + f[idx(x, y + 1)] - 4 * f[idx(x, y)];
     }
-    function order() {
-      var x = 0, y = 0;
-      for (var i = 0; i < N; i++) { x += Math.cos(th[i]); y += Math.sin(th[i]); }
-      return { r: Math.sqrt(x * x + y * y) / N, psi: Math.atan2(y, x) };
+    function reactions(a, b, p) {
+      if (cur.reaction === 'gs') { var uvv = a * b * b; return [-uvv + p.f * (1 - a), uvv - (p.f + p.k) * b]; }
+      if (cur.reaction === 'br') { var u2v = a * a * b; return [p.a - (p.b + 1) * a + u2v, p.b * a - u2v]; }
+      if (cur.reaction === 'sk') { var u2v2 = a * a * b; return [p.a - a + u2v2, p.b - u2v2]; }
+      return [a - a * a * a / 3 - b + p.I, p.e * (a + 0.7 - 0.8 * b)];
     }
-    function meanOmega() { var s = 0; for (var i = 0; i < N; i++) s += om[i]; return s / N; }
-
-    function stepSim(dt) {
-      if (cur.model === 'pulse') { stepPulse(dt); return; }
-      if (cur.model === 'swing') {
-        for (var i = 0; i < N; i++) {
-          var s = 0;
-          for (var j = 0; j < N; j++) if (j !== i) s += weight(i, j) * Math.sin(th[j] - th[i]);
-          dom[i] = (P.K / N) * s - P.D * om[i] + om0[i];
-          dth[i] = om[i];
-        }
-        for (i = 0; i < N; i++) { om[i] += dom[i] * dt; th[i] += dth[i] * dt; }
-        return;
+    function stepSim() {
+      var Du = P.Du, Dv = P.Dv;
+      for (var y = 0; y < N; y++) for (var x = 0; x < N; x++) {
+        var i = y * N + x, r = reactions(u[i], v[i], P);
+        u2[i] = u[i] + Du * lap(u, x, y) + r[0];
+        v2[i] = v[i] + Dv * lap(v, x, y) + r[1];
       }
-      for (var i2 = 0; i2 < N; i2++) {
-        var f2 = 0;
-        for (var j2 = 0; j2 < N; j2++) if (j2 !== i2) f2 += weight(i2, j2) * Math.sin(th[j2] - th[i2]);
-        dth[i2] = om0[i2] + (P.K / N) * f2;
-      }
-      for (i2 = 0; i2 < N; i2++) th[i2] += dth[i2] * dt;
-      simT += dt;
-    }
-    function stepPulse(dt) {
-      for (var i = 0; i < N; i++) th[i] += om0[i] * dt;
-      var fired = [], changed = true, guard = 0;
-      while (changed && guard++ < 8) {
-        changed = false;
-        for (i = 0; i < N; i++) if (th[i] >= 1) { th[i] -= 1; fired.push(i); changed = true; }
-        if (!fired.length) break;
-        for (i = 0; i < N; i++) {
-          for (var k = 0; k < fired.length; k++) if (fired[k] !== i) th[i] = Math.min(1, th[i] + P.K);
-        }
-        fired = [];
-      }
-      simT += dt;
-    }
-    function pushR() {
-      rHist.push(order().r);
-      if (rHist.length > 600) rHist.shift();
+      u.set(u2); v.set(v2);
+      iters++;
     }
     function reseed() {
-      simT = 0; rHist = [];
-      for (var i = 0; i < N; i++) {
-        var w = 1 + P.sig * gauss();
-        om0[i] = w; om[i] = w;
-        th[i] = cur.model === 'pulse' ? Math.random() : Math.random() * Math.PI * 2;
-      }
-      pushR(); draw();
+      iters = 0; meanHist = [];
+      for (var i = 0; i < u.length; i++) { u[i] = 1; v[i] = 0; }
+      var c = N >> 1, s = Math.max(4, N >> 4);
+      for (var y = -s; y <= s; y++) for (var x = -s; x <= s; x++) { u[idx(c + x, c + y)] = 0.5; v[idx(c + x, c + y)] = 0.25; }
+      if (cur.reaction === 'br') { for (i = 0; i < u.length; i++) { u[i] = 0.5 + Math.random() * 0.1; v[i] = 1.5; } for (y = -s; y <= s; y++) for (x = -s; x <= s; x++) u[idx(c + x, c + y)] = 1 + Math.random(); }
+      if (cur.reaction === 'sk') { for (i = 0; i < u.length; i++) { u[i] = 0.5; v[i] = 0.5; } for (y = -s; y <= s; y++) for (x = -s; x <= s; x++) u[idx(c + x, c + y)] = 0.7 + Math.random() * 0.4; }
+      if (cur.reaction === 'fhn') { for (i = 0; i < u.length; i++) { u[i] = -1.2; v[i] = 0; } for (y = -3; y <= 3; y++) for (x = -3; x <= 3; x++) u[idx(c + x, c + y)] = 1.5; }
+      pushMean(); draw();
+    }
+    function pushMean() {
+      var su = 0, sv = 0;
+      for (var i = 0; i < u.length; i++) { su += u[i]; sv += v[i]; }
+      meanHist.push(sv / u.length);
+      if (meanHist.length > 600) meanHist.shift();
     }
 
+    /* palette: concentration -> rgb */
+    function palette(t) {
+      t = Math.max(0, Math.min(1, t));
+      var stops = [[4, 8, 24], [20, 90, 140], [0, 200, 200], [230, 190, 90], [250, 245, 235]];
+      var x = t * (stops.length - 1), i = Math.min(stops.length - 2, Math.floor(x)), f = x - i;
+      var a = stops[i], b = stops[i + 1];
+      return [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f, a[2] + (b[2] - a[2]) * f];
+    }
     function draw() {
       var c = colors();
       ctx.clearRect(0, 0, W, H);
-      var cx = W / 2, cy = H / 2, R = Math.min(W, H) * 0.36;
-      ctx.strokeStyle = c.border; ctx.lineWidth = 1;
-      ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2); ctx.stroke();
-      var o = order();
-      ctx.beginPath(); ctx.moveTo(cx, cy);
-      ctx.lineTo(cx + Math.cos(-o.psi) * R * o.r, cy + Math.sin(-o.psi) * R * o.r);
-      ctx.strokeStyle = c.gold; ctx.lineWidth = 2.4; ctx.stroke();
-      ctx.fillStyle = c.gold; ctx.beginPath();
-      ctx.arc(cx + Math.cos(-o.psi) * R * o.r, cy + Math.sin(-o.psi) * R * o.r, 4, 0, Math.PI * 2); ctx.fill();
-      for (var i = 0; i < N; i++) {
-        var ang = (th[i] % (Math.PI * 2)) + 0;
-        var x = cx + Math.cos(ang) * R, y = cy + Math.sin(ang) * R;
-        var hue = (i / N) * 360;
-        ctx.fillStyle = 'hsl(' + hue + ',70%,' + (i === kickDot ? 70 : 55) + '%)';
-        ctx.beginPath(); ctx.arc(x, y, i === kickDot ? 7 : 5, 0, Math.PI * 2); ctx.fill();
+      var field = (cur.render === 'v') ? v : u;
+      var lo = Infinity, hi = -Infinity;
+      for (var i = 0; i < field.length; i++) { if (field[i] < lo) lo = field[i]; if (field[i] > hi) hi = field[i]; }
+      if (cur.rng && cur.rng.length) { lo = cur.rng[0]; hi = cur.rng[1]; }
+      var span = (hi - lo) || 1, d = img.data;
+      for (i = 0; i < field.length; i++) {
+        var col = palette((field[i] - lo) / span);
+        var o = i * 4;
+        d[o] = col[0]; d[o + 1] = col[1]; d[o + 2] = col[2]; d[o + 3] = 255;
       }
-      hit = { cx: cx, cy: cy, R: R };
-      els.vR.textContent = o.r.toFixed(3);
-      els.vW.textContent = meanOmega().toFixed(3);
+      octx.putImageData(img, 0, 0);
+      var base = Math.min(W, H) / N, cell = base * view.zoom, gw = cell * N, gh = cell * N;
+      var ox = (W - gw) / 2 + view.panx, oy = (H - gh) / 2 + view.pany;
+      ctx.imageSmoothingEnabled = true;
+      ctx.drawImage(off, ox, oy, gw, gh);
+      ctx.strokeStyle = c.border; ctx.lineWidth = 1; ctx.strokeRect(ox, oy, gw, gh);
+      var su = 0, sv = 0;
+      for (i = 0; i < u.length; i++) { su += u[i]; sv += v[i]; }
+      els.vU.textContent = (su / u.length).toFixed(3);
+      els.vV.textContent = (sv / u.length).toFixed(3);
       drawTS();
     }
     function drawTS() {
       var c = colors();
       tctx.clearRect(0, 0, TW, TH);
-      if (rHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
+      if (meanHist.length < 2) { tsMap = null; els.tsTip.hidden = true; return; }
+      var lo = Infinity, hi = -Infinity;
+      for (var i = 0; i < meanHist.length; i++) { lo = Math.min(lo, meanHist[i]); hi = Math.max(hi, meanHist[i]); }
+      var pad = (hi - lo) * 0.15 || 1; lo -= pad; hi += pad;
       var x0 = 44, x1 = TW - 10, y0 = 16, y1 = TH - 16;
-      function tx(i) { return x0 + (i / (rHist.length - 1)) * (x1 - x0); }
-      function ty(r) { return y1 - r * (y1 - y0); }
-      tsMap = { x0: x0, x1: x1, n: rHist.length };
+      function tx(i) { return x0 + (i / (meanHist.length - 1)) * (x1 - x0); }
+      function ty(val) { return y1 - ((val - lo) / (hi - lo)) * (y1 - y0); }
+      tsMap = { x0: x0, x1: x1, n: meanHist.length };
       tctx.font = '9px monospace';
       tctx.strokeStyle = c.border; tctx.lineWidth = 1;
       tctx.beginPath(); tctx.moveTo(x0, y0); tctx.lineTo(x0, y1); tctx.lineTo(x1, y1); tctx.stroke();
       tctx.fillStyle = c.muted; tctx.textAlign = 'right';
-      tctx.fillText('1.0', x0 - 4, y0 + 4); tctx.fillText('0.0', x0 - 4, y1);
+      tctx.fillText(hi.toFixed(2), x0 - 4, y0 + 4); tctx.fillText(lo.toFixed(2), x0 - 4, y1);
       tctx.textAlign = 'left';
       tctx.beginPath();
-      for (var i = 0; i < rHist.length; i++) { var X = tx(i), Y = ty(rHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
+      for (i = 0; i < meanHist.length; i++) { var X = tx(i), Y = ty(meanHist[i]); if (i === 0) tctx.moveTo(X, Y); else tctx.lineTo(X, Y); }
       tctx.strokeStyle = c.gold; tctx.lineWidth = 1.6; tctx.stroke();
-      tctx.fillStyle = c.gold; tctx.fillText('r', x0 + 2, 11);
-      if (tsHover >= 0 && tsHover < rHist.length) {
+      tctx.fillStyle = c.gold; tctx.fillText('\u27e8v\u27e9', x0 + 2, 11);
+      if (tsHover >= 0 && tsHover < meanHist.length) {
         var hx = tx(tsHover);
         tctx.strokeStyle = c.primary; tctx.globalAlpha = 0.5;
         tctx.beginPath(); tctx.moveTo(hx, y0); tctx.lineTo(hx, y1); tctx.stroke(); tctx.globalAlpha = 1;
-        tctx.fillStyle = c.gold; tctx.beginPath(); tctx.arc(hx, ty(rHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
+        tctx.fillStyle = c.gold; tctx.beginPath(); tctx.arc(hx, ty(meanHist[tsHover]), 3, 0, Math.PI * 2); tctx.fill();
       }
     }
 
@@ -876,7 +882,9 @@
         inp.addEventListener('input', function () { P[pm.key] = parseFloat(inp.value); el('pv_' + pm.key).textContent = inp.value; });
         wrap.appendChild(lab); wrap.appendChild(inp); els.params.appendChild(wrap);
       });
+      if (window.renderTeX) renderTeX(els.params);
     }
+
     function setStatus(state) {
       if (state === 'run') { els.status.textContent = 'PLAYING'; els.status.className = 'pill run'; els.playBtn.innerHTML = '&#10073;&#10073; Pause'; }
       else { els.status.textContent = 'READY'; els.status.className = 'pill idle'; els.playBtn.innerHTML = '&#9654; Play'; }
@@ -887,10 +895,11 @@
       preset(cur);
       playing = false; setStatus('idle');
       fillInstInfo(cur);
-      els.ruleLine.innerHTML = 'coupling: <b>' + cur.name + '</b>';
+      els.ruleLine.innerHTML = 'kinetics: <b>' + cur.name + '</b>';
       buildParams();
       reseed();
     }
+
     function resizeAll() {
       W = els.wrap.clientWidth; H = els.wrap.clientHeight;
       els.cv.width = W * dpr; els.cv.height = H * dpr;
@@ -901,34 +910,46 @@
       els.ts.style.width = TW + 'px'; els.ts.style.height = TH + 'px';
       tctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
-    function pick(e) {
-      if (!hit) return -1;
-      var r = els.cv.getBoundingClientRect();
-      var x = e.clientX - r.left, y = e.clientY - r.top;
-      var best = -1, bd = 16 * 16;
-      for (var i = 0; i < N; i++) {
-        var ang = (th[i] % (Math.PI * 2));
-        var dx = x - (hit.cx + Math.cos(ang) * hit.R), dy = y - (hit.cy + Math.sin(ang) * hit.R);
-        var d = dx * dx + dy * dy;
-        if (d < bd) { bd = d; best = i; }
-      }
-      if (best < 0) {
-        var rx = x - hit.cx, ry = y - hit.cy;
-        if (rx * rx + ry * ry < hit.R * hit.R) {
-          var target = Math.atan2(ry, rx);
-          for (var k = 0; k < N; k++) if (Math.abs(Math.atan2(Math.sin(th[k] - target), Math.cos(th[k] - target))) < 0.25) { best = k; break; }
-        }
-      }
-      return best;
-    }
+    var drag = null;
     els.wrap.addEventListener('pointerdown', function (e) {
-      kickDot = pick(e);
-      if (kickDot >= 0) { th[kickDot] += Math.PI * 0.9; draw(); }
+      drag = { x: e.clientX, y: e.clientY, moved: false, px: view.panx, py: view.pany };
+      els.wrap.setPointerCapture(e.pointerId);
     });
-    els.wrap.addEventListener('pointerup', function () { kickDot = -1; draw(); });
+    els.wrap.addEventListener('pointermove', function (e) {
+      if (!drag) return;
+      var mx = e.clientX - drag.x, my = e.clientY - drag.y;
+      if (Math.abs(mx) + Math.abs(my) > 3) drag.moved = true;
+      view.panx = drag.px + mx; view.pany = drag.py + my; draw();
+    });
+    els.wrap.addEventListener('pointerup', function (e) {
+      if (drag && !drag.moved) inject(e);
+      drag = null;
+    });
+    els.wrap.addEventListener('wheel', function (e) {
+      e.preventDefault();
+      view.zoom *= e.deltaY < 0 ? 1.12 : 1 / 1.12;
+      view.zoom = Math.max(0.5, Math.min(10, view.zoom)); draw();
+    }, { passive: false });
+    function inject(e) {
+      var r = els.cv.getBoundingClientRect();
+      var base = Math.min(W, H) / N, cell = base * view.zoom, gw = cell * N;
+      var ox = (W - gw) / 2 + view.panx, oy = (H - gw) / 2 + view.pany;
+      var cx = Math.round((e.clientX - r.left - ox) / cell), cy = Math.round((e.clientY - r.top - oy) / cell);
+      var rad = 12;
+      for (var dy = -rad; dy <= rad; dy++) for (var dx = -rad; dx <= rad; dx++) {
+        if (dx * dx + dy * dy > rad * rad) continue;
+        var i = idx(cx + dx, cy + dy);
+        if (cur.reaction === 'fhn') u[i] = 2;
+        else v[i] = (cur.reaction === 'br') ? 3 : 0.9;
+      }
+      draw();
+    }
+    el('zin').addEventListener('click', function () { view.zoom *= 1.2; draw(); });
+    el('zout').addEventListener('click', function () { view.zoom /= 1.2; draw(); });
+    el('zfit').addEventListener('click', function () { view.zoom = 1; view.panx = 0; view.pany = 0; draw(); });
 
     els.playBtn.addEventListener('click', function () { playing = !playing; setStatus(playing ? 'run' : 'idle'); lastT = performance.now(); });
-    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); for (var k = 0; k < 60; k++) stepSim(0.02); pushR(); draw(); });
+    els.stepBtn.addEventListener('click', function () { playing = false; setStatus('idle'); for (var k = 0; k < 20; k++) stepSim(); pushMean(); draw(); });
     els.resetBtn.addEventListener('click', function () { playing = false; setStatus('idle'); reseed(); });
     els.speed.addEventListener('input', function () { speed = parseInt(els.speed.value, 10); els.speedLbl.textContent = speed; });
 
@@ -940,7 +961,7 @@
       i = Math.max(0, Math.min(tsMap.n - 1, i));
       tsHover = i; drawTS();
       var hx = tsMap.x0 + (i / (tsMap.n - 1)) * (tsMap.x1 - tsMap.x0);
-      els.tsTip.innerHTML = 'r = <b>' + rHist[i].toFixed(3) + '</b>';
+      els.tsTip.innerHTML = '\u27e8v\u27e9 = <b>' + meanHist[i].toFixed(4) + '</b>';
       els.tsTip.style.left = hx + 'px'; els.tsTip.style.top = Math.max(26, py) + 'px'; els.tsTip.hidden = false;
     });
     els.ts.addEventListener('pointerleave', function () { tsHover = -1; els.tsTip.hidden = true; drawTS(); });
@@ -949,10 +970,10 @@
       if (playing) {
         var dt = Math.min(0.25, (now - lastT) / 1000); lastT = now;
         accT += dt * speed;
-        var sub = Math.min(60, Math.floor(accT));
-        for (var k = 0; k < sub; k++) stepSim(0.02);
-        accT -= sub; if (accT > 2) accT = 0;
-        pushR(); draw();
+        var budget = Math.min(speed, 60);
+        for (var k = 0; k < budget && accT >= 1; k++) { stepSim(); accT -= 1; }
+        if (accT > 2) accT = 0;
+        pushMean(); draw();
       } else { lastT = now; }
       requestAnimationFrame(tick);
     }

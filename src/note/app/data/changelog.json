@@ -591,6 +591,11 @@
         "summary": "Retarget the Probability link after its move to this directory.",
         "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
         "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename"
       }
     ]
   },
@@ -2097,6 +2102,176 @@
         "kind": "feat",
         "summary": "Import Dual Number from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/attractor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/bifurcation-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/dynamical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/fixed-point.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/flow.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/graph-dynamical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/henon-map.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/logistic-map.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/lorenz-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/lyapunov-function.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/mandelbrot-set.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/poincare-map.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/rossler-attractor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/stability-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/subshift-of-finite-type.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/subshift.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/dynamical-systems/vector-field.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "rename mathematical/ds to mathematical/dynamical-systems"
       }
     ]
   },
@@ -5200,6 +5375,11 @@
         "summary": "Add CA book/survey references and fix internal note links.",
         "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
         "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename"
       }
     ]
   },
@@ -8238,6 +8418,11 @@
         "kind": "feat",
         "summary": "Import Stochastic Process from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename"
       }
     ]
   },
@@ -8315,6 +8500,11 @@
         "kind": "feat",
         "summary": "Import Time Series from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename"
       }
     ]
   },
@@ -9586,6 +9776,11 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
         "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget dynamical-systems links after the ds rename"
       }
     ]
   },

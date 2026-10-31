@@ -44,8 +44,9 @@ companion is `data/epistemica/ees.md`.
   (one-off migration; the importer was removed after use — names
   normalized, CSV tags as front matter, Notion noise stripped; content
   preserved). The corpus is now the source of truth.
-- The dynamical-systems notes live in the `epistemica/mathematical/ds/`
-  scope (the *ds* sub-scope of the Mathematical domain); elements best kept
+- The dynamical-systems notes live in the
+  `epistemica/mathematical/dynamical-systems/` scope (the dynamical-systems
+  sub-scope of the Mathematical domain); elements best kept
   separate (differential/difference equations, operators, SDE, phase/state
   space) are reached through `links.json` rather than moved into it.
 - The mathematical spaces live in the `epistemica/mathematical/space/`
