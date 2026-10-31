@@ -362,7 +362,7 @@ This large gap between the two projected classes confirms that **Fisher's Linear
 
 - [Matrix](../mathematical/matrix.md)
 - [Vector](../mathematical/vector.md)
-- [Variance](variance.md)
+- [Variance](../variance.md)
 - [Scatter Matrix](../mathematical/scatter-matrix.md)
 - [Linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)
 - [Linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis#cite_note-cohen-9)

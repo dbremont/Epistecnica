@@ -743,6 +743,11 @@
         "summary": "retarget the computational links after the computational move",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
         "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the estimator links after the estimator move"
       }
     ]
   },
@@ -801,6 +806,11 @@
         "summary": "retarget the computational links after the computational move",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
         "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the estimator links after the estimator move"
       }
     ]
   },
@@ -6930,6 +6940,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/embedding.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Embedding from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/expectation-maximization-em-algorithm.md",
     "logs": [
       {
@@ -6981,6 +7007,38 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/exponential-random-graph-model-ergm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exponential Random Graph Model (ERGM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/exponential-smoothing-ets.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exponential Smoothing (ETS) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/factor-model.md",
     "logs": [
       {
@@ -7018,6 +7076,38 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/generalized-additive-models-gam.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generalized Additive Models (GAM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/generalized-linear-models-glm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generalized Linear Models (GLM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -7182,6 +7272,38 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/linear-discriminant-analysis-lda.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Discriminant Analysis (LDA) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/logistic-regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Logistic Regression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/markov-logic-network.md",
     "logs": [
       {
@@ -7307,6 +7429,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/multilinear-subspace-learning-msl.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multilinear Subspace Learning (MSL) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/probabilistic-graphical-model-pgm.md",
     "logs": [
       {
@@ -7320,6 +7458,22 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/regression.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Regression from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/computational scope"
       }
     ]
   },
@@ -7502,17 +7656,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Cox Regression (Proportional Hazards Model) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/cramerrao-lower-bound-crlb.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Cramér–Rao Lower Bound (CRLB) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7704,6 +7847,11 @@
         "summary": "retarget the adaptative scope links",
         "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
         "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the estimator links after the estimator move"
       }
     ]
   },
@@ -8153,17 +8301,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/embedding.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Embedding from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/ensemble-method.md",
     "logs": [
       {
@@ -8200,34 +8337,179 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/estimator/bayes-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "scope the probability notes under observational",
+        "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/cramerrao-lower-bound-crlb.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Cramér–Rao Lower Bound (CRLB) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/jamesstein-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import James–Stein Estimator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/maximum-a-posteriori-estimation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Maximum a Posteriori Estimation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/maximum-likelihood-estimation-mle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Maximum Likelihood Estimation (MLE) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/method-of-moments-mom.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Method of Moments (MoM) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/minimum-mean-square-error-mmse.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Minimum Mean Square Error (MMSE) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/ordinary-least-squares-ols-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ordinary Least Squares (OLS) Estimator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope and fix the root links"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/relative-efficiency.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Relative Efficiency from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/estimator/statistic-estimator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import (Statistic) Estimator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "fix",
+        "summary": "Retarget the Fisher Information link after its move to observational/information/.",
+        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
+        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/estimator scope and fix the root links"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/expected-value.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Expected Value from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/exponential-random-graph-model-ergm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Exponential Random Graph Model (ERGM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/exponential-smoothing-ets.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Exponential Smoothing (ETS) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8324,28 +8606,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Free Probability Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/generalized-additive-models-gam.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Generalized Additive Models (GAM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/generalized-linear-models-glm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Generalized Linear Models (GLM) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8747,17 +9007,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/jamesstein-estimator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import James–Stein Estimator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/kelly-criterion.md",
     "logs": [
       {
@@ -8835,78 +9084,12 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/linear-discriminant-analysis-lda.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Linear Discriminant Analysis (LDA) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/logistic-regression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Logistic Regression from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/maximum-a-posteriori-estimation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Maximum a Posteriori Estimation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/maximum-likelihood-estimation-mle.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Maximum Likelihood Estimation (MLE) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/mean.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Mean from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/method-of-moments-mom.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Method of Moments (MoM) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/minimum-mean-square-error-mmse.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Minimum Mean Square Error (MMSE) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -8940,17 +9123,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Multicollinearity from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/multilinear-subspace-learning-msl.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multilinear Subspace Learning (MSL) from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -9014,17 +9186,11 @@
         "kind": "feat",
         "summary": "Import Operator from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/ordinary-least-squares-ols-estimator.md",
-    "logs": [
+      },
       {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Ordinary Least Squares (OLS) Estimator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the estimator links after the estimator move"
       }
     ]
   },
@@ -9208,17 +9374,6 @@
         "kind": "feat",
         "summary": "Import Probability Representation Regime from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/probability/bayes-estimator.md",
-    "logs": [
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "scope the probability notes under observational",
-        "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
       }
     ]
   },
@@ -9977,34 +10132,12 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/regression.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Regression from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/regularization.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Regularization from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/relative-efficiency.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Relative Efficiency from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -10041,6 +10174,11 @@
         "summary": "Retarget the Geometry links after the move to epistemica/mathematical/geometry/.",
         "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337",
         "before": "24b83d8c036909c2f117c26d39484b346bbdda8b"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the estimator links after the estimator move"
       }
     ]
   },
@@ -10092,24 +10230,6 @@
         "kind": "feat",
         "summary": "Import State Estimation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/statistic-estimator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import (Statistic) Estimator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-29",
-        "kind": "fix",
-        "summary": "Retarget the Fisher Information link after its move to observational/information/.",
-        "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9",
-        "before": "6f0e9467b7080236a65c8233dc0b2be9e3c12a2f"
       }
     ]
   },

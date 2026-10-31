@@ -480,7 +480,7 @@ Then, for any event $A$:
 > What is the representation capacity of a **probabilistic**  **model** $L_m$?   A **probabilistic model** is a **representation** of a **stochastic system** — i.e., a system whose behavior involves inherent randomness — using **probability distributions** over possible outcomes, states, or events.
 > 
 
-> See: [(Statistic) Estimator](../observational/statistic-estimator.md) and  [Operator](../observational/operator.md).
+> See: [(Statistic) Estimator](../observational/estimator/statistic-estimator.md) and  [Operator](../observational/operator.md).
 > 
 
 > See [Probability is a **formal framework** that enables the representation of systems—whether influenced by the **observer (subject)** or  **inherent stochasticity**—through (model building tools - or description building tools)  , to support, in the most **abstract sense**,  **forecasting** (What is the next state of the system likely to be?) - **prediction** (now-casting) (asociation) (relation) part (predict unknown part from known parts in the current state), **retrodiction or backcasting** (How did we get here? Why are we here?), and **simulation** (How can we generate possible new states or sequences of states?). ](probability.md)
@@ -648,7 +648,7 @@ Building Blocks:
 > **Note:** Estimation is as much an art as a science; it always involves some degree of error. If the underlying system exhibits fat-tailed distributions, estimation becomes particularly challenging due to the increased likelihood of extreme events and greater variability.
 > 
 
-> See more in [(Statistic) Estimator](../observational/statistic-estimator.md).
+> See more in [(Statistic) Estimator](../observational/estimator/statistic-estimator.md).
 > 
 
 The process typically follows these steps:

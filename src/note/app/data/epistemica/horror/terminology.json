@@ -85,7 +85,7 @@
         "maximum-likelihood-estimator"
       ],
       "notes": [
-        "epistemica/observational/regression.md"
+        "epistemica/observational/computational/regression.md"
       ],
       "sources": [
         {
@@ -758,7 +758,7 @@
         "regression"
       ],
       "notes": [
-        "epistemica/observational/regression.md",
+        "epistemica/observational/computational/regression.md",
         "epistemica/discipline/statistics.md"
       ],
       "sources": [

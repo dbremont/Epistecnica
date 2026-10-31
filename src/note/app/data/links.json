@@ -181,13 +181,13 @@
       "kind": "related"
     },
     {
-      "from": "epistemica/observational/",
+      "from": "epistemica/observational/computational/",
       "to": "technica/ais/architecture/transformer/transformer.md",
       "label": "Transformer",
       "kind": "related"
     },
     {
-      "from": "epistemica/observational/",
+      "from": "epistemica/observational/computational/",
       "to": "technica/ais/",
       "label": "Active Inference System",
       "kind": "related"

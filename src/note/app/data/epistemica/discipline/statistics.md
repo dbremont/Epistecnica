@@ -477,7 +477,7 @@ design and the honesty of the reader.
 > What inferences can we make from a statistical representation or from raw pieces of reality? What are the tools used to make these inferences?
 > 
 
-> See [Problem Space](note.html?n=epistemica/discipline/statistics.md), [Statistical Function](note.html?n=epistemica/observational/statistical-function.md),  [(Statistic) Estimator](note.html?n=epistemica/observational/statistic-estimator.md), …
+> See [Problem Space](note.html?n=epistemica/discipline/statistics.md), [Statistical Function](note.html?n=epistemica/observational/statistical-function.md),  [(Statistic) Estimator](note.html?n=epistemica/observational/estimator/statistic-estimator.md), …
 > 
 
 | **Category** | **Inference** | **Description** |
@@ -495,7 +495,7 @@ design and the honesty of the reader.
 
 ### Description
 
-> See more in [(Statistic) Estimator](note.html?n=epistemica/observational/statistic-estimator.md) and [Statistical Function](note.html?n=epistemica/observational/statistical-function.md).
+> See more in [(Statistic) Estimator](note.html?n=epistemica/observational/estimator/statistic-estimator.md) and [Statistical Function](note.html?n=epistemica/observational/statistical-function.md).
 > 
 
 ### Principle

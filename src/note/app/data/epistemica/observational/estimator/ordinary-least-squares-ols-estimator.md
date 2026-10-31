@@ -79,7 +79,7 @@ $\hat{\boldsymbol{\beta}} = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{
 - https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares
 - https://en.wikipedia.org/wiki/Least_squares
 - [(Statistic) Estimator](statistic-estimator.md)
-- [Theory of Statistics](theory-of-statistics.md)
+- [Theory of Statistics](../theory-of-statistics.md)
 - [Theory of Probability](theory-of-probability.md)
 - https://en.wikipedia.org/wiki/Least_squares
 - https://en.wikipedia.org/wiki/Polynomial_regression

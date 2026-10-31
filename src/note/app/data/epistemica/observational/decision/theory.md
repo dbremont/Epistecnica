@@ -122,7 +122,7 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 | Expected value | [Expected Value](note.html?n=epistemica/observational/probability/expected-value.md) | The probability-weighted average underlying expected utility. |
 | Trade-offs | [Trade-Off](note.html?n=epistemica/optimization/trade-off.md) | Competing criteria and the compromises between them. |
 | Uncertainty | [Probability](note.html?n=epistemica/discipline/probability.md), [Possibility](note.html?n=epistemica/observational/probability/possibility.md) | The belief-side foundations: graded uncertainty and the space of alternatives. |
-| Belief updating | [Bayes' Theorem](note.html?n=epistemica/observational/probability/bayes-theorem.md), [Bayes Estimator](note.html?n=epistemica/observational/probability/bayes-estimator.md) | How evidence revises the belief that feeds a decision. |
+| Belief updating | [Bayes' Theorem](note.html?n=epistemica/observational/probability/bayes-theorem.md), [Bayes Estimator](note.html?n=epistemica/observational/estimator/bayes-estimator.md) | How evidence revises the belief that feeds a decision. |
 | Coherence | [Dutch Book](note.html?n=epistemica/observational/probability/dutch-book.md), [Betting](note.html?n=epistemica/observational/probability/betting.md) | Coherent probability as the avoidance of sure loss. |
 | Bet sizing | [Kelly Criterion](note.html?n=epistemica/observational/probability/kelly-criterion.md) | Growth-optimal sizing of a repeated bet. |
 | Multi-criteria | [Multiple-Criteria Decision-Making (MCDM)](note.html?n=epistemica/optimization/multiple-criteria-decision-making-mcdm.md) | Ranking alternatives against several conflicting criteria. |

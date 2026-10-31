@@ -1,4 +1,5 @@
 ---
+order: 0
 tags: [estimator]
 ---
 
@@ -140,7 +141,7 @@ where:
 > What is the space of all possible statistics?
 > 
 
-> See more in [Statistical Function](statistical-function.md).
+> See more in [Statistical Function](../statistical-function.md).
 > 
 
 ## Evaluation
@@ -299,7 +300,7 @@ $\text{MSE}(\hat{\theta}) = \underbrace{\text{Var}(\hat{\theta})}{\text{variance
 > See  estimation procedures - that yield estimators [**Maximum Likelihood Estimation (MLE)**](maximum-likelihood-estimation-mle.md),  [Method of Moments (MoM)](method-of-moments-mom.md), etc.
 > 
 
-> See more in [Statistical Function](statistical-function.md).
+> See more in [Statistical Function](../statistical-function.md).
 > 
 
 | **Estimator** | **Estimate (What Estimates?)** | **Description** | **Tags** |
@@ -397,13 +398,13 @@ $\text{Err}(x) = \underbrace{\big(\mathbb{E}[\hat{f}(x)] - f(x)\big)^2}_{\textbf
 > Which is the meta-theory about Estimator?  *What is the overarching theoretical framework that explains what estimators are, how they behave, and how we reason about them?*
 > 
 
-> See more in [Theory of Statistics](theory-of-statistics.md) and [Theory of Probability](theory-of-probability.md).
+> See more in [Theory of Statistics](../theory-of-statistics.md) and [Theory of Probability](theory-of-probability.md).
 > 
 
 > Large Sample Theory studies the behavior of estimators and test statistics as the sample size grows, providing asymptotic results like consistency, normality, and efficiency that approximate their finite-sample properties.
 > 
 
-> See more in [Law of Large Number](law-of-large-number.md),  [**Central Limit Theorem (CLT)**](central-limit-theorem-clt.md)
+> See more in [Law of Large Number](../law-of-large-number.md),  [**Central Limit Theorem (CLT)**](../central-limit-theorem-clt.md)
 > 
 
 ### Fisher Information
@@ -414,7 +415,7 @@ $\text{Err}(x) = \underbrace{\big(\mathbb{E}[\hat{f}(x)] - f(x)\big)^2}_{\textbf
 > Quantifies how much a random variable tells you about a parameter $\theta$.
 > 
 
-> See more in [**Fisher Information**](information/fisher-information.md).
+> See more in [**Fisher Information**](../information/fisher-information.md).
 > 
 
 ### **Cramér–Rao Lower Bound (CRLB)**
@@ -476,7 +477,7 @@ $\text{Err}(x) = \underbrace{\big(\mathbb{E}[\hat{f}(x)] - f(x)\big)^2}_{\textbf
 > Or, equivalently: How can we compute the expected value, variance, and other moments of an estimator’s output?
 > 
 
-> See more in  [**Expected Value**](expected-value.md),  [Variance](variance.md), [Standard Deviation](standard-deviation.md), etc.
+> See more in  [**Expected Value**](expected-value.md),  [Variance](../variance.md), [Standard Deviation](../standard-deviation.md), etc.
 > 
 - **Analytical**: Direct integration (if distribution is simple).
 - **Using properties**: Linearity of expectation, variance decomposition, independence assumptions.
