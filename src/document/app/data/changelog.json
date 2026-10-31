@@ -10804,7 +10804,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the generative-model link after the computational model move"
+        "summary": "retarget the generative-model link after the computational model move",
+        "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb",
+        "before": "14ffe2e962f328e67dfebe5933334249c774cf3f"
       }
     ]
   },
@@ -26159,7 +26161,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the generative-model link after the computational model move"
+        "summary": "retarget the generative-model link after the computational model move",
+        "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb",
+        "before": "14ffe2e962f328e67dfebe5933334249c774cf3f"
       }
     ]
   },
