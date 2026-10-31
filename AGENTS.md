@@ -368,15 +368,18 @@ instance-decomposition table:
   the three questions — what natural element type does this natural
   instance belong to, what is this natural instance, what is the recursive
   instance decomposition of this natural instance — and `## References`)
-  and the decomposition table contract: a single 4-column
-  `Instance Tree Path | Description | Natural Category | Natural Element
-  Type Tree Path` table; type paths are `(root) := <<Natural Element>> ->
-  ...` grammar paths with branch order never skipped; instances are
-  `**bold**`, bare grouping types `` `code` ``; every leaf resolves to a
-  natural instance and no type terminates a branch; the root's own type is
-  never re-expressed through an intermediate. Declare the level of
-  organization (micro/meso/macro) in the formulation and record the
-  Limitation checklist items the instance exhibits.
+  and the decomposition table contract: a single 2-column
+  `Instance Tree Path | Description` table whose paths begin at
+  `Ontic Element`, descend through the licensed kind chain, then take one
+  labelled link per step (`(→ Kind)`, `(→ Part)`, `(→ Attribute)`, … —
+  a bare `→` is never allowed); grouping types are `` `code` ``, instances
+  are Title Case plain text; every leaf resolves to a natural instance and
+  no type terminates a branch; the root's own type is never re-expressed
+  through an intermediate. Declare the level of organization
+  (micro/meso/macro) on each instance row and record the Limitation
+  checklist items the instance exhibits. The retired 4-column table with
+  `Natural Category` and `Natural Element Type Tree Path` is not used for
+  new notes.
 - The guide is canonical at the Naturgnosis raw URL above — cite that URL
   in notes. The directory is created with the first note (like the other
   sections, the top-level dir is the section); run `make notes-index`

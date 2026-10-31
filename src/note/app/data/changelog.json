@@ -12430,6 +12430,16 @@
     ]
   },
   {
+    "file_path": "nature/change.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add the Change natural note"
+      }
+    ]
+  },
+  {
     "file_path": "nature/cognition/meaning.md",
     "logs": [
       {
