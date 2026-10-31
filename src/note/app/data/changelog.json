@@ -579,7 +579,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the epistemica construction scope"
+        "summary": "move into the epistemica construction scope",
+        "commit": "2975449d856b1de5edfd50854a446ff94f143c35"
       }
     ]
   },
@@ -897,6 +898,11 @@
         "summary": "retarget the change-scope link after the folder rename",
         "commit": "bde39a998fe635eef26d40673a38fee96d911bee",
         "before": "688b4a2087836c20f73e267508b160e50c0625e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the EDA link after the observational move"
       }
     ]
   },
@@ -1129,17 +1135,11 @@
         "summary": "retarget the tucked scope notes",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d",
         "before": "65a570eafea2191c3b73535a163a9c190a8b5c84"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/exploratory-data-analysis-eda.md",
-    "logs": [
+      },
       {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Exploratory Data Analysis (EDA) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the EDA link after the observational move"
       }
     ]
   },
@@ -7086,17 +7086,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/bag-of-words-bow.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bag of Words (BoW) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/bayes-estimator.md",
     "logs": [
       {
@@ -9067,17 +9056,6 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/document-term-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Document-Term Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/observational/dutch-book.md",
     "logs": [
       {
@@ -9299,6 +9277,22 @@
         "kind": "feat",
         "summary": "Import Expected Value from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/exploratory-data-analysis-eda.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Exploratory Data Analysis (EDA) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move up from the epistemica root into the observational scope"
       }
     ]
   },
@@ -10940,6 +10934,38 @@
         "kind": "refactor",
         "summary": "Move into the epistemica/observational/ scope.",
         "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/representation/bag-of-words-bow.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bag of Words (BoW) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/representation scope"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/representation/document-term-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Document-Term Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the observational/representation scope"
       }
     ]
   },

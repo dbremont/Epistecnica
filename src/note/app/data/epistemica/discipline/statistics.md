@@ -750,7 +750,7 @@ design and the honesty of the reader.
 - [Calibration](note.html?n=epistemica/validation/calibration.md) — a distinct practice, not a synonym for validation
 - [Statistical Hypothesis Testing](note.html?n=epistemica/validation/statistical-hypothesis-testing.md)
 - [p-value](note.html?n=epistemica/validation/p-value.md) · [e-value](note.html?n=epistemica/validation/e-value.md)
-- [Exploratory Data Analysis](note.html?n=epistemica/exploratory-data-analysis-eda.md)
+- [Exploratory Data Analysis](note.html?n=epistemica/observational/exploratory-data-analysis-eda.md)
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) — the parent formal discipline
 - [EES](note.html?n=epistemica/ees.md) — the inventory this discipline is indexed in
 - [Statistics](https://en.wikipedia.org/wiki/Statistics)
