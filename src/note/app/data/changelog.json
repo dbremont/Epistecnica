@@ -346,7 +346,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "retarget the Galton-Watson link after the process move"
+        "summary": "retarget the Galton-Watson link after the process move",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201",
+        "before": "c2bf5bfdd01ecd02bf7fe97705350c6fccde7c0f"
       }
     ]
   },
@@ -9038,7 +9040,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "point the stochastic-process link at the process scope"
+        "summary": "point the stochastic-process link at the process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201",
+        "before": "c2bf5bfdd01ecd02bf7fe97705350c6fccde7c0f"
       }
     ]
   },
@@ -9087,7 +9091,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9103,7 +9108,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9119,7 +9125,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9135,7 +9142,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9151,7 +9159,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9167,7 +9176,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9183,7 +9193,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9199,7 +9210,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9215,7 +9227,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9231,7 +9244,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9247,7 +9261,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9263,7 +9278,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope and fix the filename and title spelling"
+        "summary": "move into the observational/process scope and fix the filename and title spelling",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9279,7 +9295,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9295,7 +9312,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9311,7 +9329,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9327,7 +9346,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9343,7 +9363,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9359,7 +9380,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9375,7 +9397,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
@@ -9398,7 +9421,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the observational/process scope"
+        "summary": "move into the observational/process scope",
+        "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
       }
     ]
   },
