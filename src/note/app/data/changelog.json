@@ -984,6 +984,496 @@
     ]
   },
   {
+    "file_path": "epistemica/guidance/adaptation.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/antifragility.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/chaotic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/closed.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/complexity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/connectivity.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/equilibrium.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/memory.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/metastability.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/aquinas-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/aristotle-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/bacon-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/berkeley-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/canterbury-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/cusa-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/descartes-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/hegel-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/heidegger-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/hume-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/husserl-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/ibn-al-haytham-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/kant-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/leibniz-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/mileto-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/nietzsche-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/ockham-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/philosophical-system.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/plato-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/russell-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/schopenhauer-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/scotus-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/spinoza-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/whitehead-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/method/wittgenstein-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/more-is-different.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/open.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/path-dependency.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/phase-transition.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/preferential-attachment.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/recurrence.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/reversible.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/self-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/stable.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/static.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/stationary.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/steady-state.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/synchronization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/guidance/threshold.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move the ontic grounds and methods under guidance"
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical.md",
     "logs": [
       {
@@ -11103,6 +11593,11 @@
         "kind": "refactor",
         "summary": "flatten the theory general scope",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the guidance-scope links"
       }
     ]
   },
@@ -11169,6 +11664,11 @@
         "kind": "refactor",
         "summary": "flatten the theory general scope",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the guidance-scope links"
       }
     ]
   },
@@ -11268,6 +11768,11 @@
         "kind": "refactor",
         "summary": "flatten the theory general scope",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the guidance-scope links"
       }
     ]
   },
@@ -15194,6 +15699,11 @@
         "summary": "retarget the flattened theory links",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde",
         "before": "56e6f43c11f0cf5a16d0551dcf1f7bdbd19f9c45"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the guidance-scope links"
       }
     ]
   },
@@ -15266,6 +15776,11 @@
         "summary": "retarget the flattened theory links",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde",
         "before": "56e6f43c11f0cf5a16d0551dcf1f7bdbd19f9c45"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the guidance-scope links"
       }
     ]
   },
@@ -15349,6 +15864,11 @@
         "summary": "retarget the flattened theory links",
         "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde",
         "before": "56e6f43c11f0cf5a16d0551dcf1f7bdbd19f9c45"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the guidance-scope links"
       }
     ]
   },

@@ -4,7 +4,7 @@ tags: [ontology, tooling]
 
 # Monism
 
-Related: [Ontology](note.html?n=epistemica/theory/ontology.md), [Spinoza’s Method](note.html?n=epistemica/theory/method/spinoza-method.md), [Dualism](note.html?n=epistemica/theory/dualism.md)
+Related: [Ontology](note.html?n=epistemica/theory/ontology.md), [Spinoza’s Method](note.html?n=epistemica/guidance/method/spinoza-method.md), [Dualism](note.html?n=epistemica/theory/dualism.md)
 
 > In philosophical terms, **monism** is the ontological view that reality is fundamentally unified and composed of one substance or principle. It opposes **dualism**, which posits two distinct and separate substances (e.g., mind and body, or the material and the immaterial). Monism asserts that everything that exists can ultimately be reduced to a single essence or underlying substance. This view can be further categorized into different types, depending on the nature of the substance or principle proposed.
 > 

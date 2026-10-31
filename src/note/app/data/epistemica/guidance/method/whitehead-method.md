@@ -4,7 +4,7 @@ tags: [philosophical-system]
 
 # Whitehead’s  Method
 
-Related: [Leibniz Method](note.html?n=epistemica/theory/method/leibniz-method.md)
+Related: [Leibniz Method](note.html?n=epistemica/guidance/method/leibniz-method.md)
 
 > aka: Philosophy of Organism.
 > 

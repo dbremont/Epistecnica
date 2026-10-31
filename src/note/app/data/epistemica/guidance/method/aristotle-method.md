@@ -4,7 +4,7 @@ tags: [epistemology]
 
 # Aristotle's Method
 
-Related: [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md), [Plato’s Method](note.html?n=epistemica/theory/method/plato-method.md)
+Related: [Philosophical System](note.html?n=epistemica/guidance/method/philosophical-system.md), [Plato’s Method](note.html?n=epistemica/guidance/method/plato-method.md)
 
 > Aristotle’s philosophical system is a hylomorphic, teleological, empirically grounded framework in which reality consists of individual substances composed of matter and form, explained through a four-cause ontology, organized into a geocentric cosmos, and integrated with an epistemology that derives universal knowledge from sensory experience via abstraction and demonstrative reasoning.
 > 

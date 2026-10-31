@@ -4,7 +4,7 @@ tags: [philosophical-system]
 
 # Schopenhauer's Method
 
-Related: [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md), [Kant’s Method](note.html?n=epistemica/theory/method/kant-method.md), [Plato’s Method](note.html?n=epistemica/theory/method/plato-method.md)
+Related: [Philosophical System](note.html?n=epistemica/guidance/method/philosophical-system.md), [Kant’s Method](note.html?n=epistemica/guidance/method/kant-method.md), [Plato’s Method](note.html?n=epistemica/guidance/method/plato-method.md)
 
 > Schopenhauer’s system is a monistic, transcendental-idealist metaphysics in which the phenomenal world is representation structured by the a priori forms of space, time, and causality, underpinned by a single, blind, and ceaselessly striving noumenal reality—the Will—partially knowable through inner experience, yielding an epistemology that blends empirical perception with a priori structuring, an ontology of hierarchical objectifications of Will, an aesthetics of will-less contemplation, and an ethics grounded in compassion and the ascetic negation of the Will-to-live.
 > 

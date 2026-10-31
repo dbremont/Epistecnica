@@ -174,5 +174,5 @@ In a formal sense:
 - A Guide to Study
 - A Guide to Language and Cognition
 - [Concept](note.html?n=epistemica/theory/concept.md)
-- [Hegel’s Method](note.html?n=epistemica/theory/method/hegel-method.md)
+- [Hegel’s Method](note.html?n=epistemica/guidance/method/hegel-method.md)
 - https://www.lesswrong.com/s/SGB7Y5WERh4skwtnb/p/HsznWM9A7NiuGsp28

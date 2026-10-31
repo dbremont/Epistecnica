@@ -4,7 +4,7 @@ tags: [ontology]
 
 # Event
 
-Related: [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
+Related: [Philosophical System](note.html?n=epistemica/guidance/method/philosophical-system.md), [Quasi-Open Interaction Field](note.html?n=nature/theory/quasi-open-interaction-field.md)
 
 > In this note we will analyze the conceptual category of an event.
 > 

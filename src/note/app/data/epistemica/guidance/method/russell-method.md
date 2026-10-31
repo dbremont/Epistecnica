@@ -4,7 +4,7 @@ tags: [tooling]
 
 # Russell’s Method
 
-Related: [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md)
+Related: [Philosophical System](note.html?n=epistemica/guidance/method/philosophical-system.md)
 
 > `PHILOSOPHICAL SYSTEM CHARACTERIZATION`
 > 

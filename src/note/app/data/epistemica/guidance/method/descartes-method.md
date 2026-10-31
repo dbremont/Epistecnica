@@ -4,7 +4,7 @@ tags: [tooling]
 
 # Descartes’s Method
 
-Related: [Epistemology](note.html?n=epistemica/theory/epistemology.md), [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md)
+Related: [Epistemology](note.html?n=epistemica/theory/epistemology.md), [Philosophical System](note.html?n=epistemica/guidance/method/philosophical-system.md)
 
 > **Rationalism**
 > 

@@ -4,7 +4,7 @@ tags: [philosophical-system]
 
 # Leibniz Method
 
-Related: [Whitehead’s  Method](note.html?n=epistemica/theory/method/whitehead-method.md), [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md)
+Related: [Whitehead’s  Method](note.html?n=epistemica/guidance/method/whitehead-method.md), [Philosophical System](note.html?n=epistemica/guidance/method/philosophical-system.md)
 
 > Leibniz’s philosophical system is one of the most ambitious, intricate, and internally coherent metaphysical systems in the history of philosophy. It combines logic, metaphysics, theology, epistemology, and science into a grand, rationalist vision of reality.
 > 

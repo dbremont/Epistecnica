@@ -4,7 +4,7 @@ tags: [philosophical-system]
 
 # Mileto’s Method
 
-Related: [Philosophical System](note.html?n=epistemica/theory/method/philosophical-system.md)
+Related: [Philosophical System](note.html?n=epistemica/guidance/method/philosophical-system.md)
 
 > Thales of Miletus's philosophical system posits that water is the fundamental substance (arche) underlying all reality, marking a revolutionary shift from mythological to naturalistic explanations of the cosmos.
 > 
