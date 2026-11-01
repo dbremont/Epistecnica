@@ -2996,17 +2996,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/configuration.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Configuration from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/construction/am-gm-inequality.md",
     "logs": [
       {
@@ -3712,6 +3701,16 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/discrete/configuration.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
       }
     ]
   },
@@ -4540,6 +4539,11 @@
         "kind": "feat",
         "summary": "Add the note.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a tensor link after the tensor scope was opened."
       }
     ]
   },
@@ -4755,17 +4759,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Gibbs Free Energy from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/godel-machine.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gödel Machine from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -6615,17 +6608,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/ricci-tensor.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Ricci Tensor from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/scalar-field.md",
     "logs": [
       {
@@ -7810,6 +7792,11 @@
         "kind": "feat",
         "summary": "Add the note.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a tensor link after the tensor scope was opened."
       }
     ]
   },
@@ -8896,7 +8883,125 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/structure/tensor.md",
+    "file_path": "epistemica/mathematical/sublinear-functional.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Sublinear Functional from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/symmetry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symmetry from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/einstein-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/electromagnetic-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/metric-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/moment-of-inertia-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/ricci-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ricci Tensor from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the tensor scope and give the stub its content."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/riemann-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/stress-energy-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/stress-tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/tensor-field.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the tensor-field note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/tensor/tensor.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -8922,28 +9027,21 @@
         "kind": "refactor",
         "summary": "Move into the structure scope and repoint links.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move out of the structure scope into the tensor scope, where the tensor fields join it."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/sublinear-functional.md",
+    "file_path": "epistemica/mathematical/tensor/weyl-tensor.md",
     "logs": [
       {
-        "date": "2026-10-17",
+        "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Import Sublinear Functional from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/symmetry.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Symmetry from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+        "summary": "Add the tensor-field note."
       }
     ]
   },
@@ -11938,6 +12036,22 @@
         "kind": "feat",
         "summary": "Import Free Probability Theory from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/godel-machine.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gödel Machine from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to the observational scope."
       }
     ]
   },

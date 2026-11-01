@@ -47,7 +47,9 @@ companion is `data/epistemica/ees.md`.
 - The mathematical domain is filed by branch under
   `epistemica/mathematical/`: `structure/` (the algebraic and linear frame:
   `algebra/` for structures, `linear/` for vector spaces, matrices and operator
-  maps, `category.md` for the language of structures, `tensor.md`, `duality.md`),
+  maps, `category.md` for the language of structures, `duality.md`), `tensor/`
+  (the tensor and the tensor fields built on it: metric, Riemann, Ricci,
+  Einstein, Weyl, stress-energy, electromagnetic, stress, inertia),
   `number/` (numeral systems and the
   arithmetic transformation rules), `discrete/` (combinatorics and discrete
   structures), `topology/`, `complex/` (the numeral system ℂ and the functions

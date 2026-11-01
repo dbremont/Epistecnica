@@ -126,8 +126,9 @@ frontend-facing surface in the deployment; there is no database behind it
   flux balance analysis) and its members carry `tags: [natural-computing]`; do
   not reintroduce it.
 - The mathematical domain is filed by branch: `structure/` (`algebra/`,
-  `linear/`, `category.md`, `tensor.md`, `duality.md`), `number/`, `discrete/`,
-  `topology/`, `complex/`, `mapping/`, `equation/`, `change/`, `space/`,
+  `linear/`, `category.md`, `duality.md`), `tensor/` (tensor and tensor
+  fields), `number/`, `discrete/`, `topology/`, `complex/`, `mapping/`,
+  `equation/`, `change/`, `space/`,
   `geometry/`, `construction/`, `method/` (filed by what a routine does to the
   problem: `proof/`, `reduction/`, `approximation/`, `transform/`, `certify/`),
   with `transformation.md` at the domain root. A new mathematical note goes in

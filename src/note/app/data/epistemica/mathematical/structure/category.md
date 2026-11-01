@@ -23,7 +23,7 @@ tags: [structure, algebraic, framework]
 | **Universal Property** | A characterization of an object by the arrows into or out of it | Defines free objects, products, quotients and tensor products without choosing a construction |
 | **Adjunction** | A pair of functors with a natural bijection of hom-sets | The general form of "free construction is left adjoint to forgetting"; it generates monads |
 | **Monad** | An endofunctor with unit and multiplication | The algebraic structure of a computation or an effect; the bridge to type theory and programming |
-| **Monoidal Category** | A category with a tensor product and unit | The setting for [tensor](tensor.md) products, quantum mechanics, and linear logic |
+| **Monoidal Category** | A category with a tensor product and unit | The setting for [tensor](../tensor/tensor.md) products, quantum mechanics, and linear logic |
 
 ## Key results
 
@@ -39,4 +39,4 @@ The corpus already *uses* category-theoretic language without naming it: [Map](.
 ## References
 
 - https://en.wikipedia.org/wiki/Category_theory
-- [Map](../mapping/map.md) · [Duality](duality.md) · [Tensor](tensor.md) · [Algebra](algebra/algebra.md) · [Homology](../topology/homology.md)
+- [Map](../mapping/map.md) · [Duality](duality.md) · [Tensor](../tensor/tensor.md) · [Algebra](algebra/algebra.md) · [Homology](../topology/homology.md)

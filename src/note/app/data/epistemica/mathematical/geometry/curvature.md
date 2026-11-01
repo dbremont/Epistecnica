@@ -25,4 +25,4 @@ tags: [geometry, differentialgeometrical]
 ## References
 
 - https://en.wikipedia.org/wiki/Curvature_of_Riemannian_manifolds
-- [Connection](connection.md) · [Geodesic](geodesic.md) · [Ricci Tensor](../ricci-tensor.md) · [Ricci Flow](../ricci-flow.md)
+- [Connection](connection.md) · [Geodesic](geodesic.md) · [Ricci Tensor](../tensor/ricci-tensor.md) · [Ricci Flow](../ricci-flow.md)
