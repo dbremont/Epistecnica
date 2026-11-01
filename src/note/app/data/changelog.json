@@ -3130,7 +3130,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Refile under algebra and name the note after what it is: a σ-algebra."
+        "summary": "Refile under algebra and name the note after what it is: a σ-algebra.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -3917,7 +3918,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -3945,7 +3947,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -3982,7 +3985,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the new complex scope as its master (order 0): the numeral system ℂ."
+        "summary": "Move into the new complex scope as its master (order 0): the numeral system ℂ.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -3998,7 +4002,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -4014,7 +4019,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -4030,7 +4036,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -4058,7 +4065,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -4074,7 +4082,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -4090,7 +4099,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -4106,7 +4116,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the complex scope as part of the ℝ → ℂ → ℍ → 𝕆 family."
+        "summary": "Move into the complex scope as part of the ℝ → ℂ → ℍ → 𝕆 family.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -5641,7 +5652,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the geometry scope."
+        "summary": "Move into the geometry scope.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -5689,7 +5701,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a link after the mathematical re-filing."
+        "summary": "Repoint a link after the mathematical re-filing.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07",
+        "before": "15288cd346911bc0c98fa594b43dacba05b6ec29"
       }
     ]
   },
@@ -6526,7 +6540,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method scope."
+        "summary": "Move into the method scope.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -6838,7 +6853,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -6997,7 +7013,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -7065,7 +7082,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -14110,7 +14128,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -14518,7 +14537,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into its branch scope; repoint links."
+        "summary": "Move into its branch scope; repoint links.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
@@ -14573,7 +14593,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the signal scope."
+        "summary": "Move into the signal scope.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
       }
     ]
   },
