@@ -49,5 +49,5 @@ Criterion 	Verdict 	Diagnostic
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) — the `Concept` construction kind and the §Kind Trees rule
-- [Function](function.md) · [Functional](functional.md) · [Operator](operator.md) · [Linear Map](../algebra/linear/linear-map.md) · [Multilinear Map](../algebra/linear/multilinear-map.md)
+- [Function](function.md) · [Functional](functional.md) · [Operator](operator.md) · [Linear Map](../structure/linear/linear-map.md) · [Multilinear Map](../structure/linear/multilinear-map.md)
 - [Transformation Rule](../transformation.md) — the rewrite licence, a different element from the map

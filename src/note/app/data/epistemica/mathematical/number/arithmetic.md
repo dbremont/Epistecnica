@@ -316,7 +316,7 @@ Reasons:
 
 ## 📚 References
 
-[Algebra](../algebra/algebra.md)
+[Algebra](../structure/algebra/algebra.md)
 
 - [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)
 - [Dual Number](https://en.m.wikipedia.org/wiki/Dual_number)

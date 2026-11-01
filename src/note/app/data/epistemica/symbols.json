@@ -27,7 +27,7 @@
       "origins": "From the logical notation of Peirce and the early-20th-century proof theory that followed Principia Mathematica; encoded as U+22A2 in the Unicode Mathematical Operators block (1993); TeX: \\vdash.",
       "usage": "Γ ⊢ φ — an inference step of a calculus; the syntactic twin of ⊨, and the judgment behind Curry–Howard in type theory.",
       "related": ["models", "therefore"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Turnstile (symbol)", "url": "https://en.wikipedia.org/wiki/Turnstile_(symbol)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -45,7 +45,7 @@
       "origins": "The double turnstile of mid-20th-century model theory, marking the syntax/semantics split it encodes; U+22A8; TeX: \\models.",
       "usage": "M ⊨ φ — satisfaction; Γ ⊨ φ — semantic consequence, set against Γ ⊢ φ — syntactic derivability.",
       "related": ["turnstile"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Model theory", "url": "https://en.wikipedia.org/wiki/Model_theory" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -99,7 +99,7 @@
       "origins": "The typographic “not sign” of 20th-century logic, carried in ISO Latin-1 (U+00AC) before Unicode; TeX: \\neg.",
       "usage": "¬φ — negation, kept apart from the tilde ~ of informal logic and the ! of programming.",
       "related": ["conjunction", "disjunction"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Negation", "url": "https://en.wikipedia.org/wiki/Negation" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -117,7 +117,7 @@
       "origins": "The wedge for conjunction, standardised in the early-20th-century logical notation; U+2227; TeX: \\wedge (\\land).",
       "usage": "φ ∧ ψ — compound conditions; the same glyph is the meet/infimum in orders and lattices.",
       "related": ["disjunction", "negation"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Logical conjunction", "url": "https://en.wikipedia.org/wiki/Logical_conjunction" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -135,7 +135,7 @@
       "origins": "Companion of the wedge in the same logical-notation family; U+2228; TeX: \\vee (\\lor).",
       "usage": "φ ∨ ψ — alternatives and case splits; join/supremum in lattice theory.",
       "related": ["conjunction", "union"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Logical disjunction", "url": "https://en.wikipedia.org/wiki/Logical_disjunction" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -153,7 +153,7 @@
       "origins": "The double arrow of 20th-century logical typography, in the same family as → and ⇔; U+21D2; TeX: \\implies (amsmath), \\Rightarrow.",
       "usage": "P ⇒ Q — theorem statements; deliberately distinct from the function and limit arrow →.",
       "related": ["biconditional", "arrow"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Material conditional", "url": "https://en.wikipedia.org/wiki/Material_conditional" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -171,7 +171,7 @@
       "origins": "The double-headed arrow for logical equivalence, standard in 20th-century texts; U+21D4; TeX: \\iff (amsmath).",
       "usage": "φ ⇔ ψ — definitional equivalences and the biconditional form of a criterion.",
       "related": ["implication", "identical"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Biconditional", "url": "https://en.wikipedia.org/wiki/Biconditional" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -189,7 +189,7 @@
       "origins": "The three-dot conclusion mark of 17th-century algebraic writing, abbreviating the Latin ergo; U+2234; TeX: \\therefore (amsmath).",
       "usage": "P, P ⇒ Q ∴ Q — the informal end of a derivation; its mirror is ∵ (“because”).",
       "related": ["turnstile"],
-      "notes": ["epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Therefore sign", "url": "https://en.wikipedia.org/wiki/Therefore_sign" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -369,7 +369,7 @@
       "origins": "The ringed binary-operator convention that separates algebraic products from ordinary ones; U+2295; TeX: \\oplus.",
       "usage": "G ⊕ H — direct sum of groups and modules; a ⊕ b — XOR in Boolean algebra and error-correcting codes.",
       "related": ["tensor-product", "circled-dot-operator"],
-      "notes": ["epistemica/mathematical/algebra/abelian-group.md", "epistemica/mathematical/algebra/boolean-algebra.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/abelian-group.md", "epistemica/mathematical/structure/algebra/boolean-algebra.md"],
       "sources": [
         { "label": "Wikipedia: Direct sum", "url": "https://en.wikipedia.org/wiki/Direct_sum" },
         { "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)", "url": "https://www.unicode.org/charts/PDF/U2200.pdf" }
@@ -387,7 +387,7 @@
       "origins": "The ringed times of multilinear algebra, encoding a product “larger” than the ordinary one; U+2297; TeX: \\otimes.",
       "usage": "V ⊗ W — tensor product of spaces; |ψ⟩ ⊗ |φ⟩ — composite quantum states; A ⊗ B — Kronecker product of matrices.",
       "related": ["circled-plus", "circled-dot-operator", "cartesian-product"],
-      "notes": ["epistemica/mathematical/tensor/tensor.md", "epistemica/mathematical/algebra/linear/density-matrix.md"],
+      "notes": ["epistemica/mathematical/structure/tensor.md", "epistemica/mathematical/structure/linear/density-matrix.md"],
       "sources": [
         { "label": "Wikipedia: Tensor product", "url": "https://en.wikipedia.org/wiki/Tensor_product" },
         { "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)", "url": "https://www.unicode.org/charts/PDF/U2200.pdf" }
@@ -423,7 +423,7 @@
       "origins": "U+22C5, the dot operator that displaced the middle dot · of older typography; TeX: \\cdot.",
       "usage": "a ⋅ b — scalar and dot products, field multiplication; also the “per” of units, written m⋅s⁻¹.",
       "related": ["circled-dot-operator", "cartesian-product"],
-      "notes": ["epistemica/mathematical/vector.md", "epistemica/mathematical/algebra/field.md"],
+      "notes": ["epistemica/mathematical/vector.md", "epistemica/mathematical/structure/algebra/field.md"],
       "sources": [
         { "label": "Wikipedia: Dot product", "url": "https://en.wikipedia.org/wiki/Dot_product" },
         { "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)", "url": "https://www.unicode.org/charts/PDF/U2200.pdf" }
@@ -441,7 +441,7 @@
       "origins": "U+2245; TeX: \\cong; shared by algebra (isomorphism), geometry (congruence) and number theory (modular congruence).",
       "usage": "G ≅ H — groups, spaces or models that differ only in naming; ≅ says the map, not the elements, is what matters.",
       "related": ["identical", "angle-brackets"],
-      "notes": ["epistemica/mathematical/algebra/group-theory.md", "epistemica/mathematical/algebra/lie-group.md"],
+      "notes": ["epistemica/mathematical/structure/algebra/group-theory.md", "epistemica/mathematical/structure/algebra/lie-group.md"],
       "sources": [
         { "label": "Wikipedia: Isomorphism", "url": "https://en.wikipedia.org/wiki/Isomorphism" },
         { "label": "Artin, M. (2010). Algebra." }
@@ -459,7 +459,7 @@
       "origins": "The Mathematical Angle Brackets of Unicode 3.1 (2001), fixing ⟨⟩ as a pair distinct from < >; TeX: \\langle, \\rangle.",
       "usage": "⟨x, y⟩ — inner products; ⟨g⟩ — the subgroup generated by g; the bra-ket ⟨ψ|φ⟩ of quantum notation uses the same family.",
       "related": ["dot-operator", "tensor-product"],
-      "notes": ["epistemica/mathematical/vector.md", "epistemica/mathematical/algebra/group.md"],
+      "notes": ["epistemica/mathematical/vector.md", "epistemica/mathematical/structure/algebra/group.md"],
       "sources": [
         { "label": "Wikipedia: Inner product space", "url": "https://en.wikipedia.org/wiki/Inner_product_space" },
         { "label": "Unicode: Miscellaneous Mathematical Symbols-A chart (U+27E8–U+27FF)", "url": "https://www.unicode.org/charts/PDF/U27E8.pdf" }
@@ -963,7 +963,7 @@
       "origins": "Greek lambda (Λ), the seventh letter, adopted for eigenvalues and multipliers in 19th–20th-century analysis; U+03BB; TeX: \\lambda.",
       "usage": "Av = λv — eigenvalues; λ ≥ 0 — the Lagrange multiplier or the regularisation strength; λ — Poisson arrival rate.",
       "related": ["rho", "beta", "greater-equal"],
-      "notes": ["epistemica/mathematical/algebra/linear/eigenvector.md", "epistemica/optimization/optimization.md"],
+      "notes": ["epistemica/mathematical/structure/linear/eigenvector.md", "epistemica/optimization/optimization.md"],
       "sources": [
         { "label": "Wikipedia: Eigenvalues and eigenvectors", "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors" },
         { "label": "Wikipedia: Lagrange multiplier", "url": "https://en.wikipedia.org/wiki/Lagrange_multiplier" }

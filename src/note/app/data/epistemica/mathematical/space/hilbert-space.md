@@ -51,7 +51,7 @@ Completeness is what separates a Hilbert space from a mere inner product space; 
 ## References
 
 - [Space](note.html?n=epistemica/mathematical/space/space.md)
-- [Inner Product](note.html?n=epistemica/mathematical/algebra/linear/inner-product.md)
+- [Inner Product](note.html?n=epistemica/mathematical/structure/linear/inner-product.md)
 - [Inner Product Space](note.html?n=epistemica/mathematical/space/inner-product-space.md)
 - [Metric Space](note.html?n=epistemica/mathematical/space/metric-space.md)
 - [Cauchy Sequence](note.html?n=epistemica/mathematical/change/cauchy-sequence.md)
@@ -62,10 +62,10 @@ Completeness is what separates a Hilbert space from a mere inner product space; 
 - [Hardy Space](note.html?n=epistemica/mathematical/space/hardy-space.md)
 - [Reproducing Kernel Hilbert Space](note.html?n=epistemica/mathematical/space/reproducing-kernel-hilbert-space.md)
 - [Operator](note.html?n=epistemica/mathematical/mapping/operator.md)
-- [Linear Operator](note.html?n=epistemica/mathematical/algebra/linear/linear-operator.md)
-- [Adjoint Operator](note.html?n=epistemica/mathematical/algebra/linear/adjoint-operator.md)
-- [Self-adjoint Operator](note.html?n=epistemica/mathematical/algebra/linear/self-adjoint-operator.md)
-- [Compact Operator](note.html?n=epistemica/mathematical/algebra/linear/compact-operator.md)
+- [Linear Operator](note.html?n=epistemica/mathematical/structure/linear/linear-operator.md)
+- [Adjoint Operator](note.html?n=epistemica/mathematical/structure/linear/adjoint-operator.md)
+- [Self-adjoint Operator](note.html?n=epistemica/mathematical/structure/linear/self-adjoint-operator.md)
+- [Compact Operator](note.html?n=epistemica/mathematical/structure/linear/compact-operator.md)
 - [Spectrum](note.html?n=epistemica/mathematical/spectrum.md)
 - [Linear Functional](note.html?n=epistemica/mathematical/linear-functional.md)
 - [Quantum Framework](note.html?n=epistemica/science/quantum-framework.md)

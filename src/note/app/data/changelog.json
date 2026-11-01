@@ -751,6 +751,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -790,6 +795,11 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -2032,1157 +2042,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/algebra/abelian-group.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Abelian Group from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/associative-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Associative Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/boolean-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Boolean Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/classical-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Classical Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/clifford-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Clifford Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/commutative.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Commutative from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/coset.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Coset from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/field-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Field Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/field.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Field from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/group-action.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Group Action from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/group-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Group Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/group.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Group from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/jordan-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Jordan Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/lie-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lie Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/lie-group.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lie Group from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/adjoin-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Adjoin Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/adjoint-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Adjoint Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/compact-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Compact Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/composition-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Composition Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/correlation-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Correlation Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/covariance-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Covariance Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/density-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Density Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/design-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Design Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/diagonal-argument.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Diagonal Argument from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/eigenvector.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Eigenvector from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/gram-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gram Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/hermitian-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hermitian Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/hessian-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hessian Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/inner-product.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Inner Product from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/jacobian-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Jacobian Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/joint-probability-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Joint Probability Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/linear-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Linear  Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-20",
-        "kind": "docs",
-        "summary": "Add the epistemic Formulation shell and a deep instance decomposition to Linear Algebra.",
-        "commit": "1a932b9c87f449213d52d463958279eaf5608603",
-        "before": "afba2aead84ef4a1b2b7e18192e85d144e72b5aa"
-      },
-      {
-        "date": "2026-10-20",
-        "kind": "docs",
-        "summary": "Update space links after the space-scope move.",
-        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
-        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget the result links after the construction move",
-        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
-        "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "retarget the method link after the method move",
-        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8",
-        "before": "4f1096edecbb166f457d524d947b5e123dfcec42"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/linear-combination.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Linear Combination from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the Neural Network link after its move to technica/ais/system/.",
-        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
-        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the neural-network link to technica/ais/system/architecture/.",
-        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
-        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
-      },
-      {
-        "date": "2026-10-24",
-        "kind": "fix",
-        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
-        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
-        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/linear-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Linear Map from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/linear-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Linear Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/lu-decomposition.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import LU Decomposition from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/matrix-factorization.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Matrix Factorization from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/moment-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Moment Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/multilinear-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Multilinear Map from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/norm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Norm from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/observed-information-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Observed Information Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/positive-definite-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Positive Definite Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/precision-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Precision Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/projection-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Projection Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/random-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Random Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/scatter-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Scatter Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/self-adjoint-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Self-adjoint Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/seminorm.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Seminorm from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/shift-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Shift Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/singular-value-decomposition-svd.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Singular Value Decomposition (SVD) from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/span.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Span from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/state-transition-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import State-Transition Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/symmetric-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Symmetric Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/linear/transition-matrix.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Transition Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/monoid.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Monoid from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/operator-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Operator Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/orthogonal-group.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Orthogonal Group from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/representation-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Representation Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/sigma-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import σ-algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Refile under algebra and name the note after what it is: a σ-algebra.",
-        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/special-linear-group.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Special Linear Group from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/symmetry-group.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Symmetry Group from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra/universal-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Universal Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/algebraic-geometry.md",
     "logs": [
       {
@@ -3329,6 +2188,16 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/change/convergence-modes.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
       }
     ]
   },
@@ -4592,6 +3461,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -5644,6 +4518,36 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/geometry/bundle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/connection.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/curvature.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/geometry/diagonal.md",
     "logs": [
       {
@@ -5711,6 +4615,16 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/geometry/geodesic.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/geometry/geometric-shape.md",
     "logs": [
       {
@@ -5725,6 +4639,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -6096,6 +5015,16 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/mapping/fourier-series.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/mapping/function.md",
     "logs": [
       {
@@ -6360,6 +5289,11 @@
         "summary": "Restructure the map catalogue: kind tree retitled, role and origin sections opened.",
         "commit": "b2638bb93ae9d63452ec1920ff90ce38fdd02bdd",
         "before": "d397df9f1663965b6fc1827e1e06627660ff4c59"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -6506,6 +5440,16 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/measure/measurable-function.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/measure/measure.md",
     "logs": [
       {
@@ -6564,6 +5508,16 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/method/convex-duality.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/method/decomposition.md",
     "logs": [
       {
@@ -6611,6 +5565,16 @@
         "kind": "refactor",
         "summary": "move into the mathematical/method scope: a routine, not a result",
         "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/generating-function.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
       }
     ]
   },
@@ -6673,6 +5637,16 @@
         "kind": "refactor",
         "summary": "move into the mathematical/method scope: a routine, not a result",
         "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/probabilistic-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
       }
     ]
   },
@@ -6814,6 +5788,11 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -7459,6 +6438,16 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/space/complete-space.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/space/de-sitter-space.md",
     "logs": [
       {
@@ -7595,6 +6584,11 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -7629,6 +6623,16 @@
         "kind": "refactor",
         "summary": "Move into the mathematical/space/ scope.",
         "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/space/isometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
       }
     ]
   },
@@ -7886,6 +6890,11 @@
         "summary": "Repoint the Measure link into the measure scope.",
         "commit": "b2638bb93ae9d63452ec1920ff90ce38fdd02bdd",
         "before": "d397df9f1663965b6fc1827e1e06627660ff4c59"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -7924,6 +6933,16 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/space/weak-convergence.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/spectrum.md",
     "logs": [
       {
@@ -7931,6 +6950,1606 @@
         "kind": "feat",
         "summary": "Import Spectrum from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/abelian-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Abelian Group from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/associative-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Associative Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/boolean-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Boolean Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/classical-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classical Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/clifford-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Clifford Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/commutative.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Commutative from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/coset.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Coset from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/field-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Field Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/field.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Field from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/group-action.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Group Action from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/group-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Group Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Group from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/jordan-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Jordan Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/lie-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lie Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/lie-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lie Group from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/monoid.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Monoid from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/operator-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Operator Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/orthogonal-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Orthogonal Group from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/representation-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Representation Theory from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/sigma-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import σ-algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Refile under algebra and name the note after what it is: a σ-algebra.",
+        "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/special-linear-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Special Linear Group from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/symmetry-group.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symmetry Group from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/universal-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Universal Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/category.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/duality.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/adjoin-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Adjoin Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/adjoint-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Adjoint Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/basis.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/characteristic-polynomial.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/compact-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Compact Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/composition-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Composition Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/correlation-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Correlation Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/covariance-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Covariance Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/density-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Density Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/design-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Design Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/determinant.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/diagonal-argument.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diagonal Argument from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/dimension.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/eigenvalue.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/eigenvector.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Eigenvector from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/gram-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gram Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/hermitian-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hermitian Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/hessian-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hessian Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/inner-product.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inner Product from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/jacobian-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Jacobian Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/joint-probability-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Joint Probability Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/linear-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear  Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Add the epistemic Formulation shell and a deep instance decomposition to Linear Algebra.",
+        "commit": "1a932b9c87f449213d52d463958279eaf5608603",
+        "before": "afba2aead84ef4a1b2b7e18192e85d144e72b5aa"
+      },
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Update space links after the space-scope move.",
+        "commit": "c6de98299ac94fc1e4e1947d9217c967e0401e1d",
+        "before": "a052bcaf1ac75adf0412c65322dd0a368096f802"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the result links after the construction move",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
+        "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "retarget the method link after the method move",
+        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8",
+        "before": "4f1096edecbb166f457d524d947b5e123dfcec42"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/linear-combination.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Combination from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the Neural Network link after its move to technica/ais/system/.",
+        "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+        "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the neural-network link to technica/ais/system/architecture/.",
+        "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+        "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+      },
+      {
+        "date": "2026-10-24",
+        "kind": "fix",
+        "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
+        "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
+        "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/linear-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/linear-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Linear Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/lu-decomposition.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import LU Decomposition from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/matrix-factorization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Matrix Factorization from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/moment-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Moment Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/multilinear-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Multilinear Map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/norm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Norm from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/observed-information-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Observed Information Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/positive-definite-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Positive Definite Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/precision-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Precision Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/projection-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Projection Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/random-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Random Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/rank.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/scatter-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Scatter Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/self-adjoint-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Self-adjoint Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/seminorm.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Seminorm from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/shift-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Shift Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/singular-value-decomposition-svd.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Singular Value Decomposition (SVD) from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/span.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Span from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/spectral-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/state-transition-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import State-Transition Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/symmetric-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Symmetric Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/trace.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/transition-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Transition Matrix from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/tensor.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Tensor from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the tensor scope.",
+        "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links."
       }
     ]
   },
@@ -7953,30 +8572,6 @@
         "kind": "feat",
         "summary": "Import Symmetry from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/tensor/tensor.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Tensor from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
-        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the tensor scope.",
-        "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67"
       }
     ]
   },
@@ -8032,6 +8627,16 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/topology/chain-complex.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/topology/cohomology.md",
     "logs": [
       {
@@ -8049,6 +8654,26 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/topology/covering-space.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/topology/exact-sequence.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/topology/foliation.md",
     "logs": [
       {
@@ -8062,6 +8687,16 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/topology/fundamental-group.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
       }
     ]
   },
@@ -8189,6 +8824,11 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -9185,6 +9825,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -9566,6 +10211,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -9871,6 +10521,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -10802,6 +11457,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -11576,6 +12236,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -12448,6 +13113,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -12854,6 +13524,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },
@@ -15234,6 +15909,56 @@
         "kind": "refactor",
         "summary": "flatten practice into the theory scope",
         "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/foundation/axiom-of-choice.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/foundation/incompleteness-theorem.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/foundation/ordinal.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/foundation/peano-axioms.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/foundation/zfc.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note."
       }
     ]
   },
@@ -20417,6 +21142,11 @@
         "summary": "Repoint the Activation Function link into the activation scope.",
         "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67",
         "before": "c768eb5d1781c241bdb6dff4b245156f15bec59d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the structure/ reorganisation."
       }
     ]
   },

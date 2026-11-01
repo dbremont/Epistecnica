@@ -19,7 +19,7 @@ This note is the discipline-level Aggregate; it is the formal parent of
 [Mathematics](note.html?n=epistemica/discipline/mathematics.md) and
 [Computer Science](note.html?n=epistemica/discipline/computer-science.md), and
 its concepts appear across the mathematical catalogue (e.g.
-[Boolean Algebra](note.html?n=epistemica/mathematical/algebra/boolean-algebra.md)). The
+[Boolean Algebra](note.html?n=epistemica/mathematical/structure/algebra/boolean-algebra.md)). The
 schema it instantiates is owned by the canonical
 [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md).
 
@@ -168,7 +168,7 @@ formalization and the consistency of the system.
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Boolean Algebra](note.html?n=epistemica/mathematical/algebra/boolean-algebra.md) — the algebraic reading of propositional logic
+- [Boolean Algebra](note.html?n=epistemica/mathematical/structure/algebra/boolean-algebra.md) — the algebraic reading of propositional logic
 - [Mathematics](note.html?n=epistemica/discipline/mathematics.md) — the parent formal discipline
 - [Computer Science](note.html?n=epistemica/discipline/computer-science.md) — the discipline that executes logic
 - [EES](note.html?n=epistemica/ees.md) — the inventory this discipline is indexed in

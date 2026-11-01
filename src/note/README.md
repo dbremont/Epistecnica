@@ -45,8 +45,10 @@ companion is `data/epistemica/ees.md`.
   normalized, CSV tags as front matter, Notion noise stripped; content
   preserved). The corpus is now the source of truth.
 - The mathematical domain is filed by branch under
-  `epistemica/mathematical/`: `algebra/` (structures, with `linear/` for vector
-  spaces, matrices and operator maps), `number/` (numeral systems and the
+  `epistemica/mathematical/`: `structure/` (the algebraic and linear frame:
+  `algebra/` for structures, `linear/` for vector spaces, matrices and operator
+  maps, `category.md` for the language of structures, `tensor.md`, `duality.md`),
+  `number/` (numeral systems and the
   arithmetic transformation rules), `discrete/` (combinatorics and discrete
   structures), `topology/`, `complex/` (the numeral system ℂ and the functions
   defined over it), `mapping/` (the kinds of map — `map.md` — and the

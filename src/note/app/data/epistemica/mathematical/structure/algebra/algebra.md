@@ -136,7 +136,7 @@ tags: [algebraic, framework]
 
 ### Equation
 
-> See more in [Equation](../equation/equation.md).
+> See more in [Equation](../../equation/equation.md).
 > 
 
 ### Technique
@@ -170,7 +170,7 @@ tags: [algebraic, framework]
 > **Elementary algebra** studies the manipulation and solution of polynomial equations over fields (typically the real or complex numbers), while **abstract algebra** generalizes these structures by examining algebraic systems such as groups, rings, and fields axiomatically, with elementary algebra serving as a concrete instance of the broader framework provided by abstract algebra.
 > 
 
-> See more in [Equation](../equation/equation.md), [Classical Algebra](classical-algebra.md), etc.
+> See more in [Equation](../../equation/equation.md), [Classical Algebra](classical-algebra.md), etc.
 > 
 
 | **Component** | **Description** |
@@ -215,7 +215,7 @@ tags: [algebraic, framework]
 
 ## Linear Algebra
 
-> See more in [Linear  Algebra](linear/linear-algebra.md).
+> See more in [Linear  Algebra](../linear/linear-algebra.md).
 > 
 
 ## ❓ QA

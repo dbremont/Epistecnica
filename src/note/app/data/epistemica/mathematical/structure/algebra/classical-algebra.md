@@ -79,7 +79,7 @@ tags: [algebraic, framework]
 > An **algebraic expression** is a combination of **numbers, variables, and operations** (such as addition, subtraction, multiplication, division, and exponentiation) that represents a value.
 > 
 
-> See more in [Expression](../expression.md), [Number](../number/number.md).
+> See more in [Expression](../../expression.md), [Number](../../number/number.md).
 > 
 
 | Category | Expression | Description |
@@ -97,7 +97,7 @@ tags: [algebraic, framework]
 
 ## Equation
 
-> See more in [Equation](../equation/equation.md), [**Polynomial**](../equation/polynomial.md), …
+> See more in [Equation](../../equation/equation.md), [**Polynomial**](../../equation/polynomial.md), …
 > 
 
 > A **statement asserting** the equality of two expressions.

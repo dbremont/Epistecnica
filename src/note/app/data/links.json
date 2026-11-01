@@ -50,7 +50,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/algebra/algebra.md",
+      "to": "epistemica/mathematical/structure/algebra/algebra.md",
       "label": "Algebra",
       "kind": "related"
     },
@@ -74,7 +74,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/algebra/linear/linear-algebra.md",
+      "to": "epistemica/mathematical/structure/linear/linear-algebra.md",
       "label": "Linear Algebra",
       "kind": "related"
     },

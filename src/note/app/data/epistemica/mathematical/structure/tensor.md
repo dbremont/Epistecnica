@@ -135,5 +135,5 @@ A^{i_1}{k_1} \dots A^{i_n}{k_n} (A^{-1})^{l_1}{j_1} \dots (A^{-1})^{l_m}{j_m} T^
 - [](https://app.notion.com/p/24ac0f5171ec8020aec7f11bae9eb632?pvs=21)
 - [Tensor](https://en.wikipedia.org/wiki/Tensor)
 - [What, Exactly, Is a Tensor?](https://math.stackexchange.com/questions/657494/what-exactly-is-a-tensor)
-- [Norm](algebra/linear/norm.md)
+- [Norm](linear/norm.md)
 - [**Representation Problem: Tensor**](https://app.notion.com/p/Representation-Problem-Tensor-3bf10e509aeb46088ba27c4a17cd31d9?pvs=21)

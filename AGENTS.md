@@ -125,10 +125,11 @@ frontend-facing surface in the deployment; there is no database behind it
   criticality, `mathematical/change/` for cellular automata, `construction/` for
   flux balance analysis) and its members carry `tags: [natural-computing]`; do
   not reintroduce it.
-- The mathematical domain is filed by branch: `algebra/` (+ `algebra/linear/`),
-  `number/`, `discrete/`, `topology/`, `complex/`, `mapping/`, `equation/`,
-  `change/`, `space/`, `geometry/`, `construction/`, `method/`, with
-  `transformation.md` at the domain root. A new mathematical note goes in the
+- The mathematical domain is filed by branch: `structure/` (`algebra/`,
+  `linear/`, `category.md`, `tensor.md`, `duality.md`), `number/`, `discrete/`,
+  `topology/`, `complex/`, `mapping/`, `equation/`, `change/`, `space/`,
+  `geometry/`, `construction/`, `method/`, with `transformation.md` at the
+  domain root. A new mathematical note goes in the
   branch that owns the object it is about — a *rule* (multiplication,
   differentiation) is a `Transformation Rule` of a representational system,
   never an "operator" note and never an act; see `mathematical/transformation.md`.

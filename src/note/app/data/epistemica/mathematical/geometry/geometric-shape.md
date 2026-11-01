@@ -115,7 +115,7 @@ This turns shape comparison into a metric question: two shapes are *close* when 
 - [Plane](note.html?n=epistemica/mathematical/geometry/plane.md), [Hyperplane](note.html?n=epistemica/mathematical/geometry/hyperplane.md) — the elemental shapes that bound and slice others.
 - [Topology](note.html?n=epistemica/mathematical/topology/topology.md) — shape up to continuous deformation.
 - [Manifold](note.html?n=epistemica/mathematical/topology/manifold.md) — the local model of shape spaces themselves.
-- [Symmetry Group](note.html?n=epistemica/mathematical/algebra/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
+- [Symmetry Group](note.html?n=epistemica/mathematical/structure/algebra/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
 - [Convex Hull](note.html?n=epistemica/mathematical/convex-hull.md) — the smallest convex shape containing a figure.
 - [Coordinate System](note.html?n=epistemica/mathematical/coordinate-system.md) — the representation a shape is written in, which the shape itself does not fix.
 

@@ -130,9 +130,9 @@ Where each column represents a valid combination (e.g., the first column represe
 - https://en.wikipedia.org/wiki/Change-making_problem
 - https://en.wikipedia.org/wiki/Coin_problem
 - https://github.com/dbremont/algorithms
-- [Matrix](../mathematical/algebra/linear/matrix.md)
+- [Matrix](../mathematical/structure/linear/matrix.md)
 - 
-- [Linear Combination](../mathematical/algebra/linear/linear-combination.md)
+- [Linear Combination](../mathematical/structure/linear/linear-combination.md)
 - [Diophantine Equation](../mathematical/equation/diophantine-equation.md)
 - [Dynamic Programming](dynamic-programming.md)
 - [**Computational Complexity Theory**](https://app.notion.com/p/Computational-Complexity-Theory-1afc20d36374431dad13a8ec4e8ab849?pvs=21)

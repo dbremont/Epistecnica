@@ -360,10 +360,10 @@ This large gap between the two projected classes confirms that **Fisher's Linear
 
 ## References
 
-- [Matrix](../../mathematical/algebra/linear/matrix.md)
+- [Matrix](../../mathematical/structure/linear/matrix.md)
 - [Vector](../../mathematical/vector.md)
 - [Variance](../variance.md)
-- [Scatter Matrix](../../mathematical/algebra/linear/scatter-matrix.md)
+- [Scatter Matrix](../../mathematical/structure/linear/scatter-matrix.md)
 - [Linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)
 - [Linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis#cite_note-cohen-9)
 - [An illustrative introduction to Fisher's Linear Discriminant](https://sthalles.github.io/fisher-linear-discriminant/)

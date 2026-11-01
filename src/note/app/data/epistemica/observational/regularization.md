@@ -34,7 +34,7 @@ tags: [technique]
 
 ## References
 
-- [Norm](../mathematical/algebra/linear/norm.md)
+- [Norm](../mathematical/structure/linear/norm.md)
 - [Regularization](https://en.wikipedia.org/wiki/Regularization_(mathematics))
 - https://en.wikipedia.org/wiki/Lasso_(statistics)
 - https://en.wikipedia.org/wiki/Ridge_regression
