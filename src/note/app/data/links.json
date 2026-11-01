@@ -44,7 +44,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/measure.md",
+      "to": "epistemica/mathematical/measure/measure.md",
       "label": "Measure",
       "kind": "related"
     },

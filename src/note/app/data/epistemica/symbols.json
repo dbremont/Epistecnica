@@ -477,7 +477,7 @@
       "origins": "Drawn by Leibniz (1675) for the integral of the calculus; U+222B; TeX: \\int; the closed variant ∮ (U+222E) adds “around a contour”.",
       "usage": "∫ f dx — areas, probabilities and expectations as integrals; ∮ for contour integrals in the theorems of vector calculus.",
       "related": ["partial", "summation"],
-      "notes": ["epistemica/mathematical/mapping/lebesgue-integral.md", "epistemica/mathematical/measure.md"],
+      "notes": ["epistemica/mathematical/mapping/lebesgue-integral.md", "epistemica/mathematical/measure/measure.md"],
       "sources": [
         { "label": "Wikipedia: Integral", "url": "https://en.wikipedia.org/wiki/Integral" },
         { "label": "Rudin, W. (1976). Principles of Mathematical Analysis." }
@@ -927,7 +927,7 @@
       "origins": "Greek mu (Μ); μ for the average and for the measure in Lebesgue's measure theory (1902); U+03BC; TeX: \\mu.",
       "usage": "μ = 𝔼[X] — location of a law; μ(A) — the measure of a set; μ in units (micrometre).",
       "related": ["expectation", "sigma", "theta"],
-      "notes": ["epistemica/mathematical/measure.md", "epistemica/discipline/statistics.md"],
+      "notes": ["epistemica/mathematical/measure/measure.md", "epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Measure (mathematics)", "url": "https://en.wikipedia.org/wiki/Measure_(mathematics)" },
         { "label": "Billingsley, P. (1995). Probability and Measure." }
@@ -945,7 +945,7 @@
       "origins": "Greek sigma (Σ); σ for the standard deviation of a normal law and for the σ-algebra of measurable sets (Lebesgue); U+03C3; TeX: \\sigma.",
       "usage": "σ² — variance, σ — standard deviation and SGD step size; σ-algebra — the family of sets a measure is defined on.",
       "related": ["mu", "theta", "summation"],
-      "notes": ["epistemica/mathematical/measure.md", "epistemica/discipline/statistics.md"],
+      "notes": ["epistemica/mathematical/measure/measure.md", "epistemica/discipline/statistics.md"],
       "sources": [
         { "label": "Wikipedia: Standard deviation", "url": "https://en.wikipedia.org/wiki/Standard_deviation" },
         { "label": "Wikipedia: Sigma-algebra", "url": "https://en.wikipedia.org/wiki/Sigma-algebra" }

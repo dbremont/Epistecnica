@@ -43,7 +43,7 @@ A **measure space** is a triple $(X, \mathcal{F}, \mu)$ where:
 
 ### Instances(s)
 
-> See more in [**Integral Operator**](integral-operator.md).
+> See more in [**Integral Operator**](../integral-operator.md).
 > 
 
 | Space | Measure | Description |

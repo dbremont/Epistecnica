@@ -115,7 +115,7 @@ and corresponding norm:  $\|f\|_{L^2} := \left( \int_0^1 |f(x)|^2 \, dx \right)^
 - [Linear Space](note.html?n=epistemica/mathematical/space/linear-space.md)
 - [Lebesgue Integral](note.html?n=epistemica/mathematical/mapping/lebesgue-integral.md)
 - [Generalized Function](note.html?n=epistemica/mathematical/mapping/generalized-function.md)
-- [Measure](note.html?n=epistemica/mathematical/measure.md)
+- [Measure](note.html?n=epistemica/mathematical/measure/measure.md)
 - [Sobolev Space](https://en.wikipedia.org/wiki/Sobolev_space)
 - Levi, B. (1906). Sul principio di Dirichlet. *Rendiconti del Circolo Matematico di Palermo, 22*, 293–360.
 - Sobolev, S. L. (1936). On some estimates related to families of functions having derivatives which are square integrable. *Doklady Akademii Nauk SSSR, 1*, 267–270.

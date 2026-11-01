@@ -1068,7 +1068,7 @@ Formally, it involves:
 - https://brilliant.org/wiki/rule-of-sum/
 - https://en.wikipedia.org/wiki/Chain_rule_(probability)
 - [A General Guide to Representation & Estimation](https://app.notion.com/p/A-General-Guide-to-Representation-Estimation-22dc0f5171ec8099a450f1d8f419a67f?pvs=21)
-- [Measure](../mathematical/measure.md)
+- [Measure](../mathematical/measure/measure.md)
 - [Enumeration (Counting)](../mathematical/discrete/enumeration-counting.md)
 - https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)
 - https://en.wikipedia.org/wiki/Venn_diagram

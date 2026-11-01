@@ -912,6 +912,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Repoint the Measure link into the measure scope."
       }
     ]
   },
@@ -6341,6 +6346,16 @@
         "kind": "feat",
         "summary": "Add the map catalogue: the kinds of map (function, functional, operator, transformation, morphism, relation) as a kind tree.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Restructure the map catalogue: kind tree retitled, role and origin sections opened."
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Restructure the map catalogue: kind tree retitled, role and origin sections opened."
       }
     ]
   },
@@ -6487,13 +6502,18 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/measure.md",
+    "file_path": "epistemica/mathematical/measure/measure.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Measure from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the measure scope; the placeholder stub that stood in for it is superseded."
       }
     ]
   },
@@ -6715,6 +6735,16 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/metric/metric.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Open the metric scope with its master note."
       }
     ]
   },
@@ -7791,6 +7821,11 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Repoint the Measure link into the measure scope."
       }
     ]
   },
@@ -7836,6 +7871,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Repoint the Measure link into the measure scope."
       }
     ]
   },
