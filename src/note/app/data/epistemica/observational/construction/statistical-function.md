@@ -146,7 +146,7 @@ tags: [abstract-framework]
 
 ## References
 
-- [Function](../../mathematical/function/function.md)
+- [Function](../../mathematical/mapping/function.md)
 - [Variance](https://en.wikipedia.org/wiki/Variance)
 - https://en.wikipedia.org/wiki/Decile
 - https://en.wikipedia.org/wiki/Metric

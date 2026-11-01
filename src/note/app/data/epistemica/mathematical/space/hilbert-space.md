@@ -61,7 +61,7 @@ Completeness is what separates a Hilbert space from a mere inner product space; 
 - [Sobolev Space](note.html?n=epistemica/mathematical/space/sobolev-space.md)
 - [Hardy Space](note.html?n=epistemica/mathematical/space/hardy-space.md)
 - [Reproducing Kernel Hilbert Space](note.html?n=epistemica/mathematical/space/reproducing-kernel-hilbert-space.md)
-- [Operator](note.html?n=epistemica/mathematical/operator.md)
+- [Operator](note.html?n=epistemica/mathematical/mapping/operator.md)
 - [Linear Operator](note.html?n=epistemica/mathematical/algebra/linear/linear-operator.md)
 - [Adjoint Operator](note.html?n=epistemica/mathematical/algebra/linear/adjoint-operator.md)
 - [Self-adjoint Operator](note.html?n=epistemica/mathematical/algebra/linear/self-adjoint-operator.md)

@@ -10,4 +10,4 @@ tags: [inference, regression]
 
 ## References
 
-- [Logistic Function](../../mathematical/function/logistic-function.md)
+- [Logistic Function](../../mathematical/mapping/logistic-function.md)

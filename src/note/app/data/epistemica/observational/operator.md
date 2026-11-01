@@ -11,4 +11,4 @@ tags: [operator]
 
 ## References
 
-- [**Operator**](../mathematical/operator.md)
+- [**Operator**](../mathematical/mapping/operator.md)

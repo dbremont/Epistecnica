@@ -291,7 +291,7 @@ A Statistical Mechanics tools signature is functional that takes a “Set” →
 
 > Note: We do not have a good terminology for the signatures. Each one is a function, but the term is too generic; we need something more specific.
 
-> See more in [Signature](note.html?n=epistemica/mathematical/function/function.md).
+> See more in [Signature](note.html?n=epistemica/mathematical/mapping/function.md).
 
 | **Category** | **Signature** | **Instance** | Descrition |
 | --- | --- | --- | --- |
@@ -516,7 +516,7 @@ Conceptual Model: Statistical Mechanics
 - https://en.wikipedia.org/wiki/Canonical_ensemble
 - https://en.wikipedia.org/wiki/Ensemble_(mathematical_physics)
 - Li, Qianyi, and Haim Sompolinsky. "Statistical mechanics of deep linear neural networks: The backpropagating kernel renormalization." Physical Review X 11.3 (2021): 031059.
-- [**Operator**](note.html?n=epistemica/mathematical/operator.md)
+- [**Operator**](note.html?n=epistemica/mathematical/mapping/operator.md)
 - https://web.stanford.edu/~peastman/statmech/
 - https://www.damtp.cam.ac.uk/user/tong/statphys.html
 - [https://www.phys.ens.fr/~lbocquet/Lecture-Notes-Stat-Phys-L3-Bocquet.pdf](https://www.phys.ens.fr/~lbocquet/Lecture-Notes-Stat-Phys-L3-Bocquet.pdf)

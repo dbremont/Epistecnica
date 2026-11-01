@@ -198,4 +198,4 @@ Every filter involves trade-offs.
 
 ## References
 
-- [**Operator**](../../mathematical/operator.md)
+- [**Operator**](../../mathematical/mapping/operator.md)

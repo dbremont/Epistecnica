@@ -259,7 +259,7 @@ QA:
 - https://en.wikipedia.org/wiki/Sphere
 - https://en.wikipedia.org/wiki/Angle
 - [Euclidean  Geometry](note.html?n=epistemica/mathematical/geometry/euclidean-geometry.md)
-- [Contour Map](note.html?n=epistemica/mathematical/function/contour-map.md))
+- [Contour Map](note.html?n=epistemica/mathematical/mapping/contour-map.md))
 - [Conformal map](note.html?n=epistemica/mathematical/conformal-map.md))
 - [Coordinate System](note.html?n=epistemica/mathematical/coordinate-system.md))
 - [**Differential Geometry**](note.html?n=epistemica/mathematical/geometry/differential-geometry.md)

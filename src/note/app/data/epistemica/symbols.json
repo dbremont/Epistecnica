@@ -351,7 +351,7 @@
       "origins": "The maplet arrow of the Bourbaki school's function notation; U+21A6; TeX: \\mapsto.",
       "usage": "x ↦ f(x) — the rule itself, against the type declaration f: A → B that names it.",
       "related": ["arrow", "element-of"],
-      "notes": ["epistemica/mathematical/function/function.md"],
+      "notes": ["epistemica/mathematical/mapping/function.md"],
       "sources": [
         { "label": "Wikipedia: Function (mathematics)", "url": "https://en.wikipedia.org/wiki/Function_(mathematics)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }
@@ -477,7 +477,7 @@
       "origins": "Drawn by Leibniz (1675) for the integral of the calculus; U+222B; TeX: \\int; the closed variant ∮ (U+222E) adds “around a contour”.",
       "usage": "∫ f dx — areas, probabilities and expectations as integrals; ∮ for contour integrals in the theorems of vector calculus.",
       "related": ["partial", "summation"],
-      "notes": ["epistemica/mathematical/function/lebesgue-integral.md", "epistemica/mathematical/measure.md"],
+      "notes": ["epistemica/mathematical/mapping/lebesgue-integral.md", "epistemica/mathematical/measure.md"],
       "sources": [
         { "label": "Wikipedia: Integral", "url": "https://en.wikipedia.org/wiki/Integral" },
         { "label": "Rudin, W. (1976). Principles of Mathematical Analysis." }
@@ -873,7 +873,7 @@
       "origins": "Greek delta (Δ/δ), the fourth letter, used for differences since the 18th century; U+03B4; TeX: \\delta.",
       "usage": "δᴸ — the backpropagation error signal; δ(x) — the Dirac delta; ε–δ limits — the small increment.",
       "related": ["epsilon", "capital-delta", "nabla", "partial"],
-      "notes": ["epistemica/optimization/backpropagation.md", "epistemica/mathematical/function/dirac-delta-function.md"],
+      "notes": ["epistemica/optimization/backpropagation.md", "epistemica/mathematical/mapping/dirac-delta-function.md"],
       "sources": [
         { "label": "Wikipedia: Dirac delta function", "url": "https://en.wikipedia.org/wiki/Dirac_delta_function" },
         { "label": "Wikipedia: Limit of a function", "url": "https://en.wikipedia.org/wiki/Limit_of_a_function" }
@@ -1035,7 +1035,7 @@
       "origins": "The right arrow of set-theoretic function notation, standard in the 20th century; U+2192; TeX: \\to.",
       "usage": "f: A → B — the type of a function; xₙ → x — convergence; P → Q — informal implication, weaker in feel than ⇒.",
       "related": ["maps-to", "implication", "biconditional"],
-      "notes": ["epistemica/mathematical/function/function.md", "epistemica/mathematical/change/limit.md"],
+      "notes": ["epistemica/mathematical/mapping/function.md", "epistemica/mathematical/change/limit.md"],
       "sources": [
         { "label": "Wikipedia: Function (mathematics)", "url": "https://en.wikipedia.org/wiki/Function_(mathematics)" },
         { "label": "Cajori, F. (1928–29). A History of Mathematical Notations." }

@@ -17,7 +17,7 @@ QA:
 
 ## References
 
-- [Zero Set](../mathematical/function/zero-set.md)
+- [Zero Set](../mathematical/mapping/zero-set.md)
 - [Fixed Point](../mathematical/change/fixed-point.md)
 - https://en.wikipedia.org/wiki/Newton%27s_method
 - https://patrickwalls.github.io/mathematicalpython/root-finding/newton/

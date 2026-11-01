@@ -783,6 +783,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -3914,6 +3919,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -5452,381 +5462,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/function/analytic-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Analytic Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/bessel-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Bessel Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/beta-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Beta Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/complex-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Complex Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/contour-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Contour Map from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/convolution-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Convolution Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/dirac-delta-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Dirac Delta Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/gamma-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Gamma Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/generalized-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Generalized Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/harmonic-analysis.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Harmonic Analysis from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/heaviside-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Heaviside Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/holomorphic-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Holomorphic Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/integral-transform.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Integral Transform from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-22",
-        "kind": "refactor",
-        "summary": "Move images to the shared /assets/ store and update the references.",
-        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
-        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/lebesgue-integral.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lebesgue Integral from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/level-set.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Level Set from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/logistic-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Logistic Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/periodic-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Periodic Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/piecewise-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Piecewise Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/wavelet.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Wavelet from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/function/zero-set.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Zero Set from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/functional.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Functional from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/geometry.md",
     "logs": [
       {
@@ -5899,6 +5534,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -6118,6 +5758,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -6173,6 +5818,517 @@
         "kind": "feat",
         "summary": "Import Linear Functional from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/analytic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Analytic Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/bessel-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Bessel Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/beta-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Beta Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/complex-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Complex Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/contour-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Contour Map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/convolution-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Convolution Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/dirac-delta-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dirac Delta Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/functional.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Functional from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/gamma-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Gamma Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/generalized-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Generalized Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/harmonic-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Harmonic Analysis from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/heaviside-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Heaviside Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/holomorphic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Holomorphic Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/integral-transform.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Integral Transform from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-22",
+        "kind": "refactor",
+        "summary": "Move images to the shared /assets/ store and update the references.",
+        "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+        "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/lebesgue-integral.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lebesgue Integral from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/level-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Level Set from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/logistic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Logistic Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/map.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the map catalogue: the kinds of map (function, functional, operator, transformation, morphism, relation) as a kind tree."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/periodic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Periodic Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/piecewise-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Piecewise Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/wavelet.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Wavelet from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/zero-set.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Zero Set from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links."
       }
     ]
   },
@@ -6414,6 +6570,11 @@
         "summary": "Repoint the Differential Equation link to the change scope.",
         "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce",
         "before": "9882b8f8b635ad714d065a8fc877303a6a90f046"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -6819,17 +6980,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Octonions from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Operator from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7310,6 +7460,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -7535,6 +7690,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -7892,6 +8052,11 @@
         "kind": "feat",
         "summary": "Add the transformation-rule catalogue (rules are constitutive elements, not operators).",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -8427,6 +8592,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -8870,6 +9040,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -9483,6 +9658,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -10418,6 +10598,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -11046,6 +11231,11 @@
         "summary": "retarget the estimator links after the estimator move",
         "commit": "85f208c59904456b9885fefe4f705fea910dd121",
         "before": "823af59ec183e7716714739499a8d032ee047280"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -13646,6 +13836,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },
@@ -14112,6 +14307,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename."
       }
     ]
   },

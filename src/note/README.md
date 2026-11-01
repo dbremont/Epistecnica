@@ -48,8 +48,9 @@ companion is `data/epistemica/ees.md`.
   `epistemica/mathematical/`: `algebra/` (structures, with `linear/` for vector
   spaces, matrices and operator maps), `number/` (numeral systems and the
   arithmetic transformation rules), `discrete/` (combinatorics and discrete
-  structures), `topology/`, `function/` (functions as objects, special
-  functions and transforms), `equation/`, `change/` (dynamical representational
+  structures), `topology/`, `mapping/` (the kinds of map — `map.md` — and the
+  functions they define: special functions and transforms), `equation/`,
+  `change/` (dynamical representational
   systems), `space/`, `geometry/`, `construction/` (stated results), `method/`
   (routines), and `transformation.md` at the root — the catalogue of the
   rewrite licences the representational systems carry. Notes that cut across

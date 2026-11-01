@@ -212,3 +212,14 @@ of the target and the consistency of the axioms in hand.
 - [Applied mathematics](https://en.wikipedia.org/wiki/Applied_mathematics)
 - [Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
 - [History of mathematical notation](https://en.wikipedia.org/wiki/History_of_mathematical_notation)
+- Richard Dedekind â€” What are numbers and what should they be? (1888)
+- Bertrand Russell â€” Introduction to Mathematical Philosophy (1919)
+- Charles Parsons â€” Mathematical Thought and Its Objects (2008)
+- Rafael NÃºÃ±ez & George Lakoff â€” Where Mathematics Comes From (2000)
+- Benacerraf, Paul â€” "What Numbers Could Not Be" (1965)
+- Shapiro, Stewart â€” "Mathematical Structuralism" (1997)
+- https://plato.stanford.edu/entries/structuralism-mathematics/
+- Charles Parsons â€” Mathematical Thought and Its Objects (2008)
+- Nicolas Bourbaki â€” Theory of Sets (1968)
+- George Boolos â€” Logic, Logic, and Logic (1998)
+

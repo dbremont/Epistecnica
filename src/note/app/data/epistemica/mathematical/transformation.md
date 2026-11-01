@@ -39,7 +39,7 @@
 | Field representation | gradient, divergence, curl, laplacian | [Gradient Operator](change/gradient-operator.md) · [Divergence Operator](change/divergence-operator.md) · [Curl Operator](change/curl-operator.md) · [Nabla Operator](change/nabla-operator.md) |
 | Equational system | factorization, canonical form, solving | [Factorization](equation/factorization.md) · [Canonical Form](equation/canonical-form.md) · [Equation](equation/equation.md) |
 
-> The glyphs that mark these rules live with the notes that use them; the methods that order them live in the [method scope](method/method.md); the acts that fire them are `Computation`s, not notes.
+> The glyphs that mark these rules live with the notes that use them; the methods that order them live in the [method scope](method/method.md); the acts that fire them are `Computation`s, not notes. A rule is not a map: the kinds of map — function, functional, operator, transformation, morphism, relation — are catalogued in [Map](mapping/map.md).
 
 ## References
 

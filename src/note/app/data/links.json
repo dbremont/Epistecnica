@@ -80,7 +80,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/operator.md",
+      "to": "epistemica/mathematical/mapping/operator.md",
       "label": "Operator",
       "kind": "related"
     },

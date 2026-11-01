@@ -126,7 +126,7 @@ frontend-facing surface in the deployment; there is no database behind it
   flux balance analysis) and its members carry `tags: [natural-computing]`; do
   not reintroduce it.
 - The mathematical domain is filed by branch: `algebra/` (+ `algebra/linear/`),
-  `number/`, `discrete/`, `topology/`, `function/`, `equation/`, `change/`,
+  `number/`, `discrete/`, `topology/`, `mapping/`, `equation/`, `change/`,
   `space/`, `geometry/`, `construction/`, `method/`, with `transformation.md`
   at the domain root. A new mathematical note goes in the branch that owns the
   object it is about — a *rule* (multiplication, differentiation) is a
