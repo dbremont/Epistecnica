@@ -6119,7 +6119,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint the Activation Function link into the activation scope."
+        "summary": "Repoint the Activation Function link into the activation scope.",
+        "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67",
+        "before": "c768eb5d1781c241bdb6dff4b245156f15bec59d"
       }
     ]
   },
@@ -7923,7 +7925,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the tensor scope."
+        "summary": "Move into the tensor scope.",
+        "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67"
       }
     ]
   },
@@ -8431,7 +8434,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the activation scope and lead it (order 0)."
+        "summary": "Move into the activation scope and lead it (order 0).",
+        "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67"
       }
     ]
   },
@@ -8453,7 +8457,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the activation scope beside the function it composes."
+        "summary": "Move into the activation scope beside the function it composes.",
+        "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67"
       }
     ]
   },
@@ -20359,7 +20364,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint the Activation Function link into the activation scope."
+        "summary": "Repoint the Activation Function link into the activation scope.",
+        "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67",
+        "before": "c768eb5d1781c241bdb6dff4b245156f15bec59d"
       }
     ]
   },
