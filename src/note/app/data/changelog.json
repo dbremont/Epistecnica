@@ -3980,7 +3980,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Lead the scope with the ℂ master (order 0) and fix the Wavelet link."
+        "summary": "Lead the scope with the ℂ master (order 0) and fix the Wavelet link.",
+        "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9",
+        "before": "1a9bab21be48d345c3d185f90d55f99cfb636b03"
       }
     ]
   },
@@ -6110,7 +6112,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint the Activation Function link to the computational scope."
+        "summary": "Repoint the Activation Function link to the computational scope.",
+        "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9",
+        "before": "1a9bab21be48d345c3d185f90d55f99cfb636b03"
       }
     ]
   },
@@ -8411,7 +8415,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the computational-learning scope: the note is a neural-network taxonomy, not a pure-mathematics element."
+        "summary": "Move into the computational-learning scope: the note is a neural-network taxonomy, not a pure-mathematics element.",
+        "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9"
       }
     ]
   },
@@ -9429,7 +9434,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move beside the activation function it composes and give the stub its definition (f(x) = g(Wx))."
+        "summary": "Move beside the activation function it composes and give the stub its definition (f(x) = g(Wx)).",
+        "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9"
       }
     ]
   },
@@ -20326,7 +20332,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint the Activation Function link to the computational scope."
+        "summary": "Repoint the Activation Function link to the computational scope.",
+        "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9",
+        "before": "1a9bab21be48d345c3d185f90d55f99cfb636b03"
       }
     ]
   },
