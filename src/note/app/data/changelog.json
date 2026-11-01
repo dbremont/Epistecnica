@@ -6115,6 +6115,11 @@
         "summary": "Repoint the Activation Function link to the computational scope.",
         "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9",
         "before": "1a9bab21be48d345c3d185f90d55f99cfb636b03"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint the Activation Function link into the activation scope."
       }
     ]
   },
@@ -7900,7 +7905,7 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/tensor.md",
+    "file_path": "epistemica/mathematical/tensor/tensor.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -7914,6 +7919,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the tensor scope."
       }
     ]
   },
@@ -8404,7 +8414,7 @@
     ]
   },
   {
-    "file_path": "epistemica/observational/computational/activation-function.md",
+    "file_path": "epistemica/observational/computational/activation/activation-function.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -8417,6 +8427,33 @@
         "kind": "refactor",
         "summary": "Move into the computational-learning scope: the note is a neural-network taxonomy, not a pure-mathematics element.",
         "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the activation scope and lead it (order 0)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/activation/ridge-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ridge Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move beside the activation function it composes and give the stub its definition (f(x) = g(Wx)).",
+        "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the activation scope beside the function it composes."
       }
     ]
   },
@@ -9419,23 +9456,6 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/observational/computational/ridge-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Ridge Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move beside the activation function it composes and give the stub its definition (f(x) = g(Wx)).",
-        "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9"
       }
     ]
   },
@@ -20335,6 +20355,11 @@
         "summary": "Repoint the Activation Function link to the computational scope.",
         "commit": "045717c0362ddc2da044672a1b1d0cdbfa9265e9",
         "before": "1a9bab21be48d345c3d185f90d55f99cfb636b03"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint the Activation Function link into the activation scope."
       }
     ]
   },

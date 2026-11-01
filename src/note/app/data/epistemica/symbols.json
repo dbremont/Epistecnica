@@ -387,7 +387,7 @@
       "origins": "The ringed times of multilinear algebra, encoding a product “larger” than the ordinary one; U+2297; TeX: \\otimes.",
       "usage": "V ⊗ W — tensor product of spaces; |ψ⟩ ⊗ |φ⟩ — composite quantum states; A ⊗ B — Kronecker product of matrices.",
       "related": ["circled-plus", "circled-dot-operator", "cartesian-product"],
-      "notes": ["epistemica/mathematical/tensor.md", "epistemica/mathematical/algebra/linear/density-matrix.md"],
+      "notes": ["epistemica/mathematical/tensor/tensor.md", "epistemica/mathematical/algebra/linear/density-matrix.md"],
       "sources": [
         { "label": "Wikipedia: Tensor product", "url": "https://en.wikipedia.org/wiki/Tensor_product" },
         { "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)", "url": "https://www.unicode.org/charts/PDF/U2200.pdf" }
