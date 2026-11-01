@@ -2025,34 +2025,12 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/abstract-reference-system.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Abstract Reference System from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/activation-function.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Activation Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/algebra-2.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import σ-algebra from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -3141,6 +3119,22 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/algebra/sigma-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import σ-algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Refile under algebra and name the note after what it is: a σ-algebra."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/algebra/special-linear-group.md",
     "logs": [
       {
@@ -3900,7 +3894,63 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/complex-numbers-c.md",
+    "file_path": "epistemica/mathematical/complex/analytic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Analytic Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
+        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/complex-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Complex Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
+        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/complex-numbers-c.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -3928,6 +3978,135 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the new complex scope as its master (order 0): the numeral system ℂ."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/conformal-map.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conformal map from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/conjugate.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Conjugate from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/dual-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Dual Number from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/holomorphic-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Holomorphic Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
+        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/modular-form.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Modular Form from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/octonions.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Octonions from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/complex/quaternion.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quaternions from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the complex scope as part of the ℝ → ℂ → ℍ → 𝕆 family."
       }
     ]
   },
@@ -3938,28 +4117,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Configuration from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/conformal-map.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Conformal map from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/conjugate.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Conjugate from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -4571,28 +4728,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/decomposition.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Decomposition from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/diagonal.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Diagonal from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/differential-form.md",
     "logs": [
       {
@@ -5190,17 +5325,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/dual-number.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Dual Number from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/equation/canonical-form.md",
     "logs": [
       {
@@ -5506,6 +5630,22 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/geometry/diagonal.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Diagonal from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the geometry scope."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/geometry/differential-geometry.md",
     "logs": [
       {
@@ -5545,6 +5685,11 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mathematical re-filing."
       }
     ]
   },
@@ -5717,17 +5862,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/hyperreal-number.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Hyperreal Number from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/identity-operator.md",
     "logs": [
       {
@@ -5830,29 +5964,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/mapping/analytic-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Analytic Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
-        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/mapping/bessel-function.md",
     "logs": [
       {
@@ -5882,29 +5993,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Beta Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
-        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/mapping/complex-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Complex Function from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
@@ -6106,29 +6194,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Heaviside Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
-        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/mapping/holomorphic-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Holomorphic Function from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
@@ -6450,6 +6515,22 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/method/decomposition.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Decomposition from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method scope."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/method/dimensional-analysis.md",
     "logs": [
       {
@@ -6624,17 +6705,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/modular-form.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Modular Form from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/non-linear-operator.md",
     "logs": [
       {
@@ -6753,6 +6823,22 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number/hyperreal-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Hyperreal Number from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
       }
     ]
   },
@@ -6900,6 +6986,22 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/number/p-adic-number.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import p-adic Number from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/number/percentage.md",
     "logs": [
       {
@@ -6948,6 +7050,22 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number/quantitative-property.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Quantitative Property from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
       }
     ]
   },
@@ -7008,34 +7126,12 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/octonions.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Octonions from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/order.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Order from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/p-adic-number.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import p-adic Number from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7099,34 +7195,12 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/promise-theory.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Promise Theory from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/pythagorean-theorem.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Pythagorean Theorem from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/quantitative-property.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Quantitative Property from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7167,28 +7241,6 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/quaternions.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Quaternions from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/queueing-system.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Queueing System from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
   },
@@ -7315,17 +7367,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Set from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/signal.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Signal from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7867,28 +7908,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/topic-2.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import topic from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/topic.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import topic from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/topology/algebraic-set.md",
     "logs": [
       {
@@ -8097,17 +8116,6 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/transportation-system.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Transportation System from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
   },
@@ -14091,6 +14099,22 @@
     ]
   },
   {
+    "file_path": "epistemica/science/queueing-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Queueing System from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/science/real-space-renormalization-group-rsrg.md",
     "logs": [
       {
@@ -14483,6 +14507,22 @@
     ]
   },
   {
+    "file_path": "epistemica/science/transportation-system.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Transportation System from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into its branch scope; repoint links."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/science/visualizing-integrals.md",
     "logs": [
       {
@@ -14518,6 +14558,22 @@
         "kind": "refactor",
         "summary": "tuck the scope note into its own folder",
         "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/signal/signal.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Signal from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the signal scope."
       }
     ]
   },

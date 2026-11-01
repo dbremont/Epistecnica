@@ -126,12 +126,12 @@ frontend-facing surface in the deployment; there is no database behind it
   flux balance analysis) and its members carry `tags: [natural-computing]`; do
   not reintroduce it.
 - The mathematical domain is filed by branch: `algebra/` (+ `algebra/linear/`),
-  `number/`, `discrete/`, `topology/`, `mapping/`, `equation/`, `change/`,
-  `space/`, `geometry/`, `construction/`, `method/`, with `transformation.md`
-  at the domain root. A new mathematical note goes in the branch that owns the
-  object it is about — a *rule* (multiplication, differentiation) is a
-  `Transformation Rule` of a representational system, never an "operator"
-  note and never an act; see `mathematical/transformation.md`.
+  `number/`, `discrete/`, `topology/`, `complex/`, `mapping/`, `equation/`,
+  `change/`, `space/`, `geometry/`, `construction/`, `method/`, with
+  `transformation.md` at the domain root. A new mathematical note goes in the
+  branch that owns the object it is about — a *rule* (multiplication,
+  differentiation) is a `Transformation Rule` of a representational system,
+  never an "operator" note and never an act; see `mathematical/transformation.md`.
 - `data/nature/theory/` holds the natural-ontology theory scope moved out of
   `epistemica/theory/ontology/`: the ontic element notes (event, causality,
   system, segment, reality, …), the local *Philosophia Naturalis* import

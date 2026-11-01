@@ -1,8 +1,0 @@
-# topic
-
-
-> 
-
-## References
-
-- …
