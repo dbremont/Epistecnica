@@ -1,4 +1,5 @@
 ---
+order: 0
 tags: [type]
 ---
 
@@ -517,5 +518,5 @@ If you want to go deeper, the next step is:
 - [Wave](https://app.notion.com/p/Wave-abe8be3df7354f11a8e84fa436de2e0b?pvs=21)
 - [Angle](note.html?n=epistemica/mathematical/geometry/angle.md)
 - [Rotation](https://app.notion.com/p/Rotation-335c0f5171ec8028972ce71a851ce6e9?pvs=21)
-- [Wavelet](mapping/wavelet.md)
+- [Wavelet](../mapping/wavelet.md)
 - https://en.wikipedia.org/wiki/Complex_number

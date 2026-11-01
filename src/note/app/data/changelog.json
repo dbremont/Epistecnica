@@ -2025,17 +2025,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/activation-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Activation Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/algebra/abelian-group.md",
     "logs": [
       {
@@ -3987,6 +3976,11 @@
         "kind": "refactor",
         "summary": "Move into the new complex scope as its master (order 0): the numeral system ℂ.",
         "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Lead the scope with the ℂ master (order 0) and fix the Wavelet link."
       }
     ]
   },
@@ -6112,6 +6106,11 @@
         "kind": "refactor",
         "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint the Activation Function link to the computational scope."
       }
     ]
   },
@@ -7318,17 +7317,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/ridge-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Ridge Function from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/scalar-field.md",
     "logs": [
       {
@@ -8412,6 +8400,22 @@
     ]
   },
   {
+    "file_path": "epistemica/observational/computational/activation-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Activation Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the computational-learning scope: the note is a neural-network taxonomy, not a pure-mathematics element."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/observational/computational/approximate-bayesian-computation.md",
     "logs": [
       {
@@ -9410,6 +9414,22 @@
         "kind": "refactor",
         "summary": "move into the observational/computational scope",
         "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/ridge-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Ridge Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move beside the activation function it composes and give the stub its definition (f(x) = g(Wx))."
       }
     ]
   },
@@ -20302,6 +20322,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint the Activation Function link to the computational scope."
       }
     ]
   },

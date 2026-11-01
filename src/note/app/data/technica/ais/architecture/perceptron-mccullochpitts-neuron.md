@@ -86,7 +86,7 @@ Proof: [Perceptron Convergence Theorem](note.html?n=epistemica/mathematical/cons
 - https://en.wikipedia.org/wiki/Perceptron
 - [The Perceptron](https://jontysinai.github.io/jekyll/update/2017/11/11/the-perceptron.html)
 - 
-- [Activation Function](note.html?n=epistemica/mathematical/activation-function.md)
+- [Activation Function](note.html?n=epistemica/observational/computational/activation-function.md)
 - [Understanding the Perceptron](https://www.bobbywlindsey.com/2019/10/06/understanding-the-perceptron/)
 - [Perceptron Learning Rule Convergence Theorem](http://www.cs.ubbcluj.ro/~csatol/kozgaz_mestint/4_neuronhalo/PerceptConvProof.pdf)
 - [Perceptrons - The Most Basic Form of a Neural Network](https://news.ycombinator.com/item?id=11890000)
