@@ -3710,7 +3710,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -4543,7 +4544,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a tensor link after the tensor scope was opened."
+        "summary": "Repoint a tensor link after the tensor scope was opened.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c",
+        "before": "c04c4a3b27898eee3e2a14826ee3d491555c031f"
       }
     ]
   },
@@ -7796,7 +7799,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint a tensor link after the tensor scope was opened."
+        "summary": "Repoint a tensor link after the tensor scope was opened.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c",
+        "before": "c04c4a3b27898eee3e2a14826ee3d491555c031f"
       }
     ]
   },
@@ -8910,7 +8915,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8920,7 +8926,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8930,7 +8937,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8940,7 +8948,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8956,7 +8965,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the tensor scope and give the stub its content."
+        "summary": "Move into the tensor scope and give the stub its content.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8966,7 +8976,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8976,7 +8987,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8986,7 +8998,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -8996,7 +9009,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -9031,7 +9045,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move out of the structure scope into the tensor scope, where the tensor fields join it."
+        "summary": "Move out of the structure scope into the tensor scope, where the tensor fields join it.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -9041,7 +9056,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the tensor-field note."
+        "summary": "Add the tensor-field note.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
@@ -12051,7 +12067,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move to the observational scope."
+        "summary": "Move to the observational scope.",
+        "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
       }
     ]
   },
