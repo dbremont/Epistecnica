@@ -937,7 +937,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -2311,7 +2313,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -4618,7 +4622,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -5477,7 +5483,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5499,7 +5506,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5521,7 +5529,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5531,7 +5540,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5553,7 +5563,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5563,7 +5574,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5579,7 +5591,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5595,7 +5608,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -5624,7 +5639,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5634,7 +5650,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5644,7 +5661,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5654,7 +5672,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5664,7 +5683,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5674,7 +5694,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5696,7 +5717,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5706,7 +5728,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5716,7 +5739,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5732,7 +5756,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5742,7 +5767,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5752,7 +5778,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5768,7 +5795,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5790,7 +5818,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5812,7 +5841,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5834,7 +5864,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5844,7 +5875,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5854,7 +5886,8 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the method note."
+        "summary": "Add the method note.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5926,7 +5959,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5942,7 +5976,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -5958,7 +5993,8 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Move into the method family that names its principal move."
+        "summary": "Move into the method family that names its principal move.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
       }
     ]
   },
@@ -7789,7 +7825,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -9470,7 +9508,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -10116,7 +10156,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -10574,7 +10616,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -11767,7 +11811,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -12929,7 +12975,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
@@ -12945,7 +12993,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Repoint links after the method-scope reorganisation."
+        "summary": "Repoint links after the method-scope reorganisation.",
+        "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+        "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
       }
     ]
   },
