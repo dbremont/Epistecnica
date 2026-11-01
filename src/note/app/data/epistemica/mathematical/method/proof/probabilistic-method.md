@@ -25,4 +25,4 @@ tags: [method, technique, probability]
 ## References
 
 - https://en.wikipedia.org/wiki/Probabilistic_method
-- [Combinatorics](../discrete/combinatorics.md) · [Expectation](../../observational/probability/expected-value.md) · [Concentration Inequality](../construction/chebyshev-s-inequality.md) · [Generating Function](generating-function.md)
+- [Combinatorics](../../discrete/combinatorics.md) · [Expectation](../../../observational/probability/expected-value.md) · [Concentration Inequality](../../construction/chebyshev-s-inequality.md) · [Generating Function](../transform/generating-function.md)

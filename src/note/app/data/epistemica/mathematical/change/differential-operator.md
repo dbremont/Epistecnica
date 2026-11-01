@@ -138,7 +138,7 @@ tags: [analytical, differential-operator, operator]
 - [General Topic Note Template](https://app.notion.com/p/General-Topic-Note-Template-1cec0f5171ec801e86e6c894702cfe23?pvs=21)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
-- [Linearization](../method/linearization.md)
+- [Linearization](../method/reduction/linearization.md)
 - [**System Identification**](note.html?n=epistemica/science/system-identification.md)
 - https://en.wikipedia.org/wiki/Derivative
 - https://en.wikipedia.org/wiki/It%C3%B4_calculus

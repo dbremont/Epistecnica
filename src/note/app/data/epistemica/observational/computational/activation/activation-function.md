@@ -57,4 +57,4 @@ tags: [function, operator]
 - [Activation function](https://en.wikipedia.org/wiki/Activation_function)
 - [Step function](https://en.wikipedia.org/wiki/Step_function)
 
-[Indicator Function](../indicator-function.md)
+[Indicator Function](../../indicator-function.md)

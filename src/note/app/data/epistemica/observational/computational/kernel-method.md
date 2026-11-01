@@ -96,4 +96,4 @@ Setup:
 - [Positive-definite Kernel](../../mathematical/positive-definite-kernel.md) [Operator]
 - https://www.youtube.com/watch?v=y_RjsDHl5Y4
 - https://www.youtube.com/playlist?list=PLD93kGj6_EdrkNj27AZMecbRlQ1SMkp_o
-- [Lagrange Multiplier](../optimization/lagrange-multiplier.md)
+- [Lagrange Multiplier](../../optimization/lagrange-multiplier.md)

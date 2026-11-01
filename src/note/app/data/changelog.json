@@ -933,6 +933,11 @@
         "summary": "Repoint the Measure link into the measure scope.",
         "commit": "b2638bb93ae9d63452ec1920ff90ce38fdd02bdd",
         "before": "d397df9f1663965b6fc1827e1e06627660ff4c59"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -1742,23 +1747,6 @@
     ]
   },
   {
-    "file_path": "epistemica/guidance/principle/inclusion-exclusion-principle.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Inclusion-Exclusion Principle from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "move into the guidance principle scope: a directive, not a result",
-        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/guidance/principle/least-action-principle.md",
     "logs": [
       {
@@ -2319,6 +2307,11 @@
         "kind": "refactor",
         "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
         "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -3579,17 +3572,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/contraction-mapping.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Contraction Mapping from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/convex-hull.md",
     "logs": [
       {
@@ -4632,6 +4614,11 @@
         "kind": "feat",
         "summary": "Add the note.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -4773,17 +4760,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Gödel Machine from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/green-s-function.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Green's Function from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -5484,7 +5460,7 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/asymptotic-analysis.md",
+    "file_path": "epistemica/mathematical/method/approximation/asymptotic-analysis.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -5497,11 +5473,134 @@
         "kind": "refactor",
         "summary": "move into the mathematical/method scope: a routine, not a result",
         "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/bijective-method.md",
+    "file_path": "epistemica/mathematical/method/approximation/discretization.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Discretization from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result",
+        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/approximation/iterative-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Iterative Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result",
+        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/approximation/laplace-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/approximation/perturbation-method.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Perturbation Method from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the mathematical/method scope: a routine, not a result",
+        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/approximation/stationary-phase.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/certify/convex-duality.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note.",
+        "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the mathematical method scope master note.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/bijective-method.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -5521,22 +5620,160 @@
         "kind": "refactor",
         "summary": "move into the mathematical/method scope: a routine, not a result",
         "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/convex-duality.md",
+    "file_path": "epistemica/mathematical/method/proof/contradiction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/descent.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/diagonalization.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/double-counting.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/extremal-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/inclusion-exclusion.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inclusion-Exclusion Principle from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "move into the guidance principle scope: a directive, not a result",
+        "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/induction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/invariant-method.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/probabilistic-method.md",
     "logs": [
       {
         "date": "2026-10-31",
         "kind": "feat",
         "summary": "Add the note.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/decomposition.md",
+    "file_path": "epistemica/mathematical/method/reduction/change-of-variables.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/reduction/compactness-argument.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/reduction/contraction-mapping.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Contraction Mapping from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/reduction/decomposition.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -5549,11 +5786,16 @@
         "kind": "refactor",
         "summary": "Move into the method scope.",
         "commit": "6407c4e60614d72110770a0341be4c1d913ace07"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/dimensional-analysis.md",
+    "file_path": "epistemica/mathematical/method/reduction/dimensional-analysis.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -5566,56 +5808,16 @@
         "kind": "refactor",
         "summary": "move into the mathematical/method scope: a routine, not a result",
         "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/method/discretization.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Discretization from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/method scope: a routine, not a result",
-        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+        "summary": "Move into the method family that names its principal move."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/generating-function.md",
-    "logs": [
-      {
-        "date": "2026-10-31",
-        "kind": "feat",
-        "summary": "Add the note.",
-        "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/method/iterative-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Iterative Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "move into the mathematical/method scope: a routine, not a result",
-        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/method/linearization.md",
+    "file_path": "epistemica/mathematical/method/reduction/linearization.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -5628,50 +5830,36 @@
         "kind": "refactor",
         "summary": "move into the mathematical/method scope: a routine, not a result",
         "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/method/method.md",
-    "logs": [
-      {
-        "date": "2026-10-31",
-        "kind": "feat",
-        "summary": "Add the mathematical method scope master note.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/method/perturbation-method.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Perturbation Method from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "move into the mathematical/method scope: a routine, not a result",
-        "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+        "summary": "Move into the method family that names its principal move."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/probabilistic-method.md",
+    "file_path": "epistemica/mathematical/method/reduction/separation-of-variables.md",
     "logs": [
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Add the note.",
-        "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+        "summary": "Add the method note."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/method/variational-method.md",
+    "file_path": "epistemica/mathematical/method/reduction/symmetry-reduction.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the method note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/reduction/variational-method.md",
     "logs": [
       {
         "date": "2026-10-17",
@@ -5734,6 +5922,43 @@
         "summary": "Repoint a link after the mapping-scope rename.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
         "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/transform/generating-function.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "Add the note.",
+        "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/transform/green-s-function.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Green's Function from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the method family that names its principal move."
       }
     ]
   },
@@ -7560,6 +7785,11 @@
         "kind": "feat",
         "summary": "Add the note.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -9236,6 +9466,11 @@
         "kind": "refactor",
         "summary": "Move into the activation scope and lead it (order 0).",
         "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -9877,6 +10112,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -10330,6 +10570,11 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -11518,6 +11763,11 @@
         "kind": "refactor",
         "summary": "move up from the epistemica root into the observational scope",
         "commit": "10157e197438d0126738ae03b77a4dc872790316"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -12675,6 +12925,11 @@
         "summary": "point the stochastic-process link at the process scope",
         "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201",
         "before": "c2bf5bfdd01ecd02bf7fe97705350c6fccde7c0f"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },
@@ -12686,6 +12941,11 @@
         "kind": "refactor",
         "summary": "scope the probability notes under observational",
         "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint links after the method-scope reorganisation."
       }
     ]
   },

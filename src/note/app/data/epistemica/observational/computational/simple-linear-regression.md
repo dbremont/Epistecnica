@@ -111,7 +111,7 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 
 ## Evaluation
 
-> See more in [Loss Function](../optimization/loss-function.md).
+> See more in [Loss Function](../../optimization/loss-function.md).
 > 
 
 | **Name** | **Description** | **Formula** |
@@ -205,8 +205,8 @@ The **model assumes** the form: $Y = X^T \beta + \varepsilon$ where:
 - [Covariance](../covariance.md)
 - [Covariance Matrix](../../mathematical/structure/linear/covariance-matrix.md)
 - 
-- [Backpropagation](../optimization/backpropagation.md)
-- [Gradient Descent (GD)](../optimization/gradient-descent-gd.md)
-- [**Stochastic Gradient Descent (SGD)**](../optimization/stochastic-gradient-descent-sgd.md)
+- [Backpropagation](../../optimization/backpropagation.md)
+- [Gradient Descent (GD)](../../optimization/gradient-descent-gd.md)
+- [**Stochastic Gradient Descent (SGD)**](../../optimization/stochastic-gradient-descent-sgd.md)
 - [(Statistic) Estimator](../estimator/statistic-estimator.md)
 - [Exploratory Data Analysis (EDA)](../exploratory-data-analysis-eda.md)

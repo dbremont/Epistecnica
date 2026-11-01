@@ -20,7 +20,7 @@ tags: [structure, algebraic]
 | --- | --- | --- | --- |
 | Linear algebra | vector space $V$ | $V^* = \mathrm{Hom}(V, k)$ | Coordinates as functionals; the [dual basis](../structure/linear/basis.md) |
 | Analysis | function space | its dual of measures/distributions | [Weak convergence](../space/weak-convergence.md), [distributions](../mapping/generalized-function.md) |
-| Optimization | primal problem | [dual problem](../method/convex-duality.md) | Certificates of optimality; strong duality for convex problems |
+| Optimization | primal problem | [dual problem](../method/certify/convex-duality.md) | Certificates of optimality; strong duality for convex problems |
 | Category theory | category $C$ | $C^{op}$ | Every statement has a free dual — see [category](category.md) |
 | Projective geometry | points | hyperplanes | Theorems about incidence come in pairs |
 | Logic | formula | its negation | De Morgan, quantifier duality |
@@ -35,4 +35,4 @@ tags: [structure, algebraic]
 ## References
 
 - https://en.wikipedia.org/wiki/Duality_(mathematics)
-- [Dual Vector Space](../space/dual-vector-space.md) · [Category](category.md) · [Convex Duality](../method/convex-duality.md) · [Weak Convergence](../space/weak-convergence.md)
+- [Dual Vector Space](../space/dual-vector-space.md) · [Category](category.md) · [Convex Duality](../method/certify/convex-duality.md) · [Weak Convergence](../space/weak-convergence.md)

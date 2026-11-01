@@ -133,7 +133,7 @@ It is a triple:  $(\Omega, \mathcal{F}, P)$
 
 ## Distribution
 
-> Note: A random variable can be seen as a numerical representation of a sample space; here, we will classify random variables according to their ([Distribution](distribution/distribution.md)).
+> Note: A random variable can be seen as a numerical representation of a sample space; here, we will classify random variables according to their ([Distribution](../distribution/distribution.md)).
 > 
 
 ## Discrete Random Variable
@@ -187,7 +187,7 @@ It is a triple:  $(\Omega, \mathcal{F}, P)$
 > Note: Some functions defined in terms of a random variable — such as the **Moment Generating Function** — are not just arbitrary constructions. They are designed to **aid analysis and computation** by transforming the distribution into a more tractable mathematical object. For instance, the MGF encodes all the moments of a distribution, making it easier to compute expectations, variances, and higher-order moments using differentiation. Similarly, characteristic functions, survival functions, and generating functions provide compact representations that simplify proofs, help derive distributions of sums, and make certain probability problems more manageable.
 > 
 
-> See more in [Operator](operator.md) & [Statistical Function](statistical-function.md).
+> See more in [Operator](../operator.md) & [Statistical Function](statistical-function.md).
 > 
 
 > **Note:** The operation on random variables is defined pointwise: it applies to every possible outcome $(X = x, Y = y)$, producing the value $x \,\text{op}\, y$.
@@ -205,10 +205,10 @@ It is a triple:  $(\Omega, \mathcal{F}, P)$
 |  | General Transform | $Z = g(X)$ | $(X,g)\mapsto Z$ | Deterministic mapping (log, square, etc.). |
 |  | Linear Combination | $Z = aX + bY$ | $(X,Y,a,b)\mapsto Z$ | Weighted mixture; core of regression & Gaussian models. |
 | **Statistical** | Expectation ([**Expected Value**](expected-value.md)) | ${E}[X]=\sum x\,p(x)$ or $\int x\,f(x)\,dx$ | $X\mapsto\mu\in\mathbb{R}$ | Center of mass of the distribution. |
-|  | Variance ([Variance](variance.md)) | $\mathrm{Var}(X)=\mathbb{E}[(X-\mu)^{2}]$ | $X\mapsto\sigma^{2}\in\mathbb{R}_{\ge 0}$ | Spread / uncertainty. |
-|  | Standard Deviation ([Standard Deviation](standard-deviation.md)) | $\sigma_X = \sqrt{\mathrm{Var}(X)}$ | $X\mapsto\sigma\in\mathbb{R}_{\ge 0}$ | Spread in original units. |
-|  | Covariance ([Covariance](covariance.md)) | $\operatorname{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]$ | $(X,Y)\mapsto c\in\mathbb{R}$ | Joint variability. |
-|  | Correlation ([Correlation](correlation.md)) | $\rho(X,Y)=\dfrac{\mathrm{Cov}(X,Y)}{\sigma_X\sigma_Y}$ | $(X,Y)\mapsto\rho\in[-1,1]$ | Normalized dependence measure. |
+|  | Variance ([Variance](../variance.md)) | $\mathrm{Var}(X)=\mathbb{E}[(X-\mu)^{2}]$ | $X\mapsto\sigma^{2}\in\mathbb{R}_{\ge 0}$ | Spread / uncertainty. |
+|  | Standard Deviation ([Standard Deviation](../standard-deviation.md)) | $\sigma_X = \sqrt{\mathrm{Var}(X)}$ | $X\mapsto\sigma\in\mathbb{R}_{\ge 0}$ | Spread in original units. |
+|  | Covariance ([Covariance](../covariance.md)) | $\operatorname{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]$ | $(X,Y)\mapsto c\in\mathbb{R}$ | Joint variability. |
+|  | Correlation ([Correlation](../correlation.md)) | $\rho(X,Y)=\dfrac{\mathrm{Cov}(X,Y)}{\sigma_X\sigma_Y}$ | $(X,Y)\mapsto\rho\in[-1,1]$ | Normalized dependence measure. |
 |  | k-th Moment | $\mu'_k=\mathbb{E}[X^{k}]$ | $X\mapsto\mu'_k\in\mathbb{R}$ | Higher-order shape measure. |
 |  | Central Moment | $\mu_k=\mathbb{E}[(X-\mu)^{k}]$ | $X\mapsto\mu_k\in\mathbb{R}$ | Variance ($k=2$), skewness ($k=3$), kurtosis ($k=4$). |
 |  | Mean | $\mu=\mathbb{E}[X]$ | $X\mapsto \mu$ | Average value of the random variable. |
@@ -266,19 +266,19 @@ Formally, for a random variable $X$:
 > The variance of a random variable measures **how much its values spread around the expected value (mean)**. It is the expected squared deviation from the mean.
 > 
 
-> See more in [Variance](variance.md).
+> See more in [Variance](../variance.md).
 > 
 
 Formally: $\mathrm{Var}(X) = \mathbb{E}\big[(X - \mathbb{E}[X])^2\big] = \mathbb{E}[X^2] - (\mathbb{E}[X])^2$
 
 ### Covariance
 
-> See more in [Covariance](covariance.md).
+> See more in [Covariance](../covariance.md).
 > 
 
 ### Correlation
 
-> See more here [Correlation](correlation.md).
+> See more here [Correlation](../correlation.md).
 > 
 
 ### Characteristic Function
@@ -309,7 +309,7 @@ Formally: $\mathrm{Var}(X) = \mathbb{E}\big[(X - \mathbb{E}[X])^2\big] = \mathbb
 
 ### Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?
 
-> See [Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](../discipline/probability.md)
+> See [Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?](../../discipline/probability.md)
 > 
 
 ### What does it mean to do operate (sum, multiply, etc.) two random variables?

@@ -36,4 +36,4 @@
 - https://pythonplot.com/
 - https://harvard-iacs.github.io/2018-CS109A/labs/lecture-3/notebook/
 - https://bayesball.github.io/EDA/
-- [Correlation](observational/correlation.md)
+- [Correlation](../observational/correlation.md)

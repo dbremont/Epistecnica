@@ -24,4 +24,4 @@ tags: [geometry, differentialgeometrical]
 ## References
 
 - https://en.wikipedia.org/wiki/Geodesic
-- [Connection](connection.md) · [Curvature](curvature.md) · [Manifold](../topology/manifold.md) · [Variational Method](../method/variational-method.md)
+- [Connection](connection.md) · [Curvature](curvature.md) · [Manifold](../topology/manifold.md) · [Variational Method](../method/reduction/variational-method.md)

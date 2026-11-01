@@ -55,7 +55,9 @@ companion is `data/epistemica/ees.md`.
   functions they define: special functions and transforms), `equation/`,
   `change/` (dynamical representational
   systems), `space/`, `geometry/`, `construction/` (stated results), `method/`
-  (routines), and `transformation.md` at the root — the catalogue of the
+  (routines, filed by what they do to the problem: `proof/`, `reduction/`,
+  `approximation/`, `transform/`, `certify/`), and `transformation.md` at the
+  root — the catalogue of the
   rewrite licences the representational systems carry. Notes that cut across
   branches (`set`, `relation`, `order`, `operator`, `decomposition`, `scale`)
   stay at the domain root.
