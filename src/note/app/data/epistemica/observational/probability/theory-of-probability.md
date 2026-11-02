@@ -71,7 +71,7 @@ tags: [framework]
 
 ## References
 
-- [Inequality](../../mathematical/number/inequality.md)
+- [Inequality](../../mathematical/relation/inequality.md)
 - [**AM-GM Inequality**](../../mathematical/construction/am-gm-inequality.md)
 - [**Jensen's Inequality**](../../mathematical/construction/jensen-s-inequality.md)
 - [Chebyshev's Inequality](../../mathematical/construction/chebyshev-s-inequality.md)

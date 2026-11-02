@@ -38,7 +38,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/order.md",
+      "to": "epistemica/mathematical/relation/order.md",
       "label": "Order",
       "kind": "related"
     },

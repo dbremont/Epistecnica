@@ -4390,17 +4390,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/equivalence-relation.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Equivalence Relation from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/euclidean-geometry.md",
     "logs": [
       {
@@ -4864,17 +4853,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Laplacian Matrix from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/lattice.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Lattice from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -6198,23 +6176,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/number/inequality.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Inequality from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/number/logarithm.md",
     "logs": [
       {
@@ -6485,17 +6446,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/order.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Order from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/plane.md",
     "logs": [
       {
@@ -6604,24 +6554,104 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/ranking.md",
+    "file_path": "epistemica/mathematical/relation/equivalence-relation.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Equivalence Relation from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Move into the new relation/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/relation/inequality.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Inequality from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Move into the new relation/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/relation/lattice.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Lattice from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Move into the new relation/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/relation/order.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Order from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Move into the new relation/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/relation/ranking.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Ranking from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Move into the new relation/ scope."
       }
     ]
   },
   {
-    "file_path": "epistemica/mathematical/relation.md",
+    "file_path": "epistemica/mathematical/relation/relation.md",
     "logs": [
       {
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Relation from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Move into the new relation/ scope."
       }
     ]
   },
@@ -7206,6 +7236,11 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Repoint the Order reference at the new relation/ scope."
       }
     ]
   },
@@ -13200,6 +13235,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Repoint the Inequality reference at the new relation/ scope."
       }
     ]
   },
@@ -16544,6 +16584,11 @@
         "kind": "feat",
         "summary": "Add the note.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "refactor",
+        "summary": "Repoint the Order reference at the new relation/ scope."
       }
     ]
   },

@@ -25,4 +25,4 @@ tags: [foundation, relation]
 ## References
 
 - https://en.wikipedia.org/wiki/Ordinal_number
-- [Axiom of Choice](axiom-of-choice.md) · [Well-ordering](axiom-of-choice.md) · [Cardinality](../../mathematical/number/cardinality.md) · [Order](../../mathematical/order.md)
+- [Axiom of Choice](axiom-of-choice.md) · [Well-ordering](axiom-of-choice.md) · [Cardinality](../../mathematical/number/cardinality.md) · [Order](../../mathematical/relation/order.md)

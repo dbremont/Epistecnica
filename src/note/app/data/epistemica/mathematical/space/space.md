@@ -232,7 +232,7 @@ tags: [space]
 - [Mathematical Object](note.html?n=epistemica/mathematical/mathematical-object.md)
 - [Geometry](note.html?n=epistemica/mathematical/geometry/geometry.md)
 - [Topology](note.html?n=epistemica/mathematical/topology/topology.md)
-- [Order](note.html?n=epistemica/mathematical/order.md)
+- [Order](note.html?n=epistemica/mathematical/relation/order.md)
 - [Measure](note.html?n=epistemica/mathematical/measure/measure.md)
 - [Algebra](note.html?n=epistemica/mathematical/structure/algebra/algebra.md)
 - [Manifold](note.html?n=epistemica/mathematical/topology/manifold.md)
