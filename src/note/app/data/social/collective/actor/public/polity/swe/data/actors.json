@@ -1,0 +1,970 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Swedish actors (organizations and institutions) since 1400.",
+    "country": "Sweden",
+    "region": "Northern Europe",
+    "flag": "🇸🇪",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Sweden. This dataset traces the formation, transformation, and significant milestones of estate, folkhemmet, and innovation entities, from ironworks to engineering multinationals and startup ecosystems.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Riksdag",
+      "type": "public",
+      "role": "Parliament",
+      "regionOfActivity": "Stockholm",
+      "description": "Four-estate diet turned unicameral legislature.",
+      "events": [
+        {
+          "date": "1435-01-15",
+          "category": "birth",
+          "description": "Arboga meeting convenes the estates"
+        },
+        {
+          "date": "1866-01-01",
+          "category": "transformation",
+          "description": "Bicameral representation reform"
+        },
+        {
+          "date": "1971-01-11",
+          "category": "founding",
+          "description": "Unicameral Riksdag inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Swedish Crown and monarchy",
+      "type": "public",
+      "role": "Monarchy",
+      "regionOfActivity": "Stockholm",
+      "description": "Vasa-centralized kingdom turned ceremonial Bernadotte monarchy.",
+      "events": [
+        {
+          "date": "1523-06-06",
+          "category": "milestone",
+          "description": "Gustav Vasa elected; national day origin"
+        },
+        {
+          "date": "1809-06-06",
+          "category": "transformation",
+          "description": "Instrument of Government constitutionalizes rule"
+        },
+        {
+          "date": "1975-01-01",
+          "category": "milestone",
+          "description": "Stripped of residual executive powers"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Sveriges Riksbank",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Stockholm",
+      "description": "World's oldest central bank and inflation targeter.",
+      "events": [
+        {
+          "date": "1668-09-17",
+          "category": "birth",
+          "description": "Riksens Ständers Bank chartered"
+        },
+        {
+          "date": "1897-01-01",
+          "category": "milestone",
+          "description": "Note-issue monopoly granted"
+        },
+        {
+          "date": "1999-01-01",
+          "category": "transformation",
+          "description": "Price-stability mandate act"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Swedbank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Stockholm",
+      "description": "Savings-bank movement consolidated into a Baltic-spanning group.",
+      "events": [
+        {
+          "date": "1820-10-28",
+          "category": "birth",
+          "description": "Göteborg savings bank founded"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "founding",
+          "description": "Sparbanken Sverige formed"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "milestone",
+          "description": "Swedbank brand adopted"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "SEB",
+      "type": "private",
+      "role": "Corporate bank",
+      "regionOfActivity": "Stockholm",
+      "description": "Wallenberg sphere bank for large corporates.",
+      "events": [
+        {
+          "date": "1856-01-01",
+          "category": "birth",
+          "description": "Stockholms Enskilda Bank founded"
+        },
+        {
+          "date": "1972-01-01",
+          "category": "founding",
+          "description": "Skandinaviska Banken merger forms SEB"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Svenska Handelsbanken",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Stockholm",
+      "description": "Decentralized branch-banking model exporter.",
+      "events": [
+        {
+          "date": "1871-07-01",
+          "category": "birth",
+          "description": "Stockholms Handelsbank founded"
+        },
+        {
+          "date": "1970-01-01",
+          "category": "transformation",
+          "description": "Wallenberg-era decentralization under Wallander"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Nordea Sweden",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Stockholm",
+      "description": "Postgirot-Nordbanken lineage inside the pan-Nordic group.",
+      "events": [
+        {
+          "date": "1925-01-01",
+          "category": "birth",
+          "description": "Postgirot system launches"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "founding",
+          "description": "Merita-Nordbanken merger"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Folksam",
+      "type": "hybrid",
+      "role": "Mutual insurer",
+      "regionOfActivity": "Stockholm",
+      "description": "Customer-owned insurance group.",
+      "events": [
+        {
+          "date": "1908-01-01",
+          "category": "birth",
+          "description": "Kooperativa Förbundet insurance arm founded"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "founding",
+          "description": "Folksam-LO merger era"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Skandia",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Stockholm",
+      "description": "1855 fire insurer turned pension specialist.",
+      "events": [
+        {
+          "date": "1855-01-01",
+          "category": "birth",
+          "description": "Skandia founded"
+        },
+        {
+          "date": "2006-02-03",
+          "category": "transformation",
+          "description": "Old Mutual takeover; later Skandia Liv buyback"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Investor AB",
+      "type": "private",
+      "role": "Investment company",
+      "regionOfActivity": "Stockholm",
+      "description": "Wallenberg family holding steering Swedish industry.",
+      "events": [
+        {
+          "date": "1916-10-26",
+          "category": "birth",
+          "description": "Investor founded to hold Enskilda participations"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Industrivärden",
+      "type": "private",
+      "role": "Investment company",
+      "regionOfActivity": "Stockholm",
+      "description": "Handelsbanken-sphere long-term owner.",
+      "events": [
+        {
+          "date": "1944-01-01",
+          "category": "birth",
+          "description": "AB Industrivärden founded"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Ericsson",
+      "type": "private",
+      "role": "Telecom-equipment maker",
+      "regionOfActivity": "Stockholm",
+      "description": "Telegraph workshop grown into 5G infrastructure leader.",
+      "events": [
+        {
+          "date": "1876-04-01",
+          "category": "birth",
+          "description": "L.M. Ericsson & Co. founded"
+        },
+        {
+          "date": "1981-01-01",
+          "category": "technical",
+          "description": "AXE digital exchanges globalize"
+        },
+        {
+          "date": "2001-10-01",
+          "category": "transformation",
+          "description": "Sony Ericsson joint venture; networks focus follows"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Telia Company Sweden",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Stockholm",
+      "description": "State Televerket privatized into a Nordic-Baltic operator.",
+      "events": [
+        {
+          "date": "1853-11-01",
+          "category": "birth",
+          "description": "Kongl. Elektriska Telegraf-Werket founded"
+        },
+        {
+          "date": "1993-07-01",
+          "category": "transformation",
+          "description": "Telia AB corporatized; listing 2000"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Tele2",
+      "type": "private",
+      "role": "Telecom challenger",
+      "regionOfActivity": "Stockholm",
+      "description": "Kinnevik-backed liberalization challenger.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Comviq GSM era; Tele2 brand consolidates"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Saab",
+      "type": "private",
+      "role": "Defense and aerospace group",
+      "regionOfActivity": "Stockholm",
+      "description": "Wartime aircraft maker turned Gripen and sensors house.",
+      "events": [
+        {
+          "date": "1937-04-02",
+          "category": "birth",
+          "description": "Svenska Aeroplan AB founded"
+        },
+        {
+          "date": "1988-12-09",
+          "category": "technical",
+          "description": "Gripen first flight"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "transformation",
+          "description": "Automobile division sold to GM; defense focus"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Volvo Group",
+      "type": "private",
+      "role": "Truck and equipment maker",
+      "regionOfActivity": "Gothenburg",
+      "description": "SKF ball-bearing spinoff leading heavy trucks.",
+      "events": [
+        {
+          "date": "1927-04-14",
+          "category": "birth",
+          "description": "First ÖV4 rolls out of Gothenburg"
+        },
+        {
+          "date": "1999-01-29",
+          "category": "transformation",
+          "description": "Car division sold to Ford; trucks retained"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Volvo Cars",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Gothenburg",
+      "description": "Safety-brand carmaker under Geely ownership.",
+      "events": [
+        {
+          "date": "2010-08-02",
+          "category": "transformation",
+          "description": "Geely acquisition completes"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Scania",
+      "type": "private",
+      "role": "Truck maker",
+      "regionOfActivity": "Södertälje",
+      "description": "Vabis-Scania lineage inside Traton.",
+      "events": [
+        {
+          "date": "1891-01-01",
+          "category": "birth",
+          "description": "Vabis founded in Södertälje"
+        },
+        {
+          "date": "1969-01-01",
+          "category": "founding",
+          "description": "Saab-Scania merger era"
+        },
+        {
+          "date": "2014-06-13",
+          "category": "transformation",
+          "description": "Volkswagen full control via Traton"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "SKF",
+      "type": "private",
+      "role": "Bearing manufacturer",
+      "regionOfActivity": "Gothenburg",
+      "description": "Self-aligning-bearing inventor equipping world industry.",
+      "events": [
+        {
+          "date": "1907-02-16",
+          "category": "birth",
+          "description": "Sven Wingquist founds SKF"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Sandvik",
+      "type": "private",
+      "role": "Engineering group",
+      "regionOfActivity": "Stockholm",
+      "description": "Bessemer-steel lineage in mining and machining.",
+      "events": [
+        {
+          "date": "1862-01-01",
+          "category": "birth",
+          "description": "Sandvikens Jernverk founded"
+        },
+        {
+          "date": "2022-06-01",
+          "category": "transformation",
+          "description": "Alleima materials-technology spin-off"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Atlas Copco",
+      "type": "private",
+      "role": "Industrial tools group",
+      "regionOfActivity": "Stockholm",
+      "description": "Railway-workshop lineage leading compressors and vacuum.",
+      "events": [
+        {
+          "date": "1873-02-21",
+          "category": "birth",
+          "description": "AB Atlas founded"
+        },
+        {
+          "date": "2018-06-29",
+          "category": "transformation",
+          "description": "Epiroc mining spin-off"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Alfa Laval",
+      "type": "private",
+      "role": "Process-equipment group",
+      "regionOfActivity": "Lund",
+      "description": "Separator inventor serving food, marine and energy.",
+      "events": [
+        {
+          "date": "1883-01-01",
+          "category": "birth",
+          "description": "AB Separator founded by de Laval"
+        },
+        {
+          "date": "1991-01-01",
+          "category": "transformation",
+          "description": "Tetra Pak era ends; Alfa Laval relisted 2002"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Electrolux",
+      "type": "private",
+      "role": "Appliance maker",
+      "regionOfActivity": "Stockholm",
+      "description": "Vacuum-cleaner pioneer turned global white-goods group.",
+      "events": [
+        {
+          "date": "1919-01-01",
+          "category": "birth",
+          "description": "AB Arctic-separator lineage; Lux founded 1901, merger forms Electrolux"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "expansion",
+          "description": "AEG Hausgeräte acquisition"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Husqvarna",
+      "type": "private",
+      "role": "Outdoor-products group",
+      "regionOfActivity": "Stockholm",
+      "description": "Muskets-to-chainsaws lineage split from Electrolux.",
+      "events": [
+        {
+          "date": "1689-01-01",
+          "category": "birth",
+          "description": "Jönköping rifle factory chartered"
+        },
+        {
+          "date": "1959-01-01",
+          "category": "technical",
+          "description": "First motorized chainsaw era"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "IKEA",
+      "type": "private",
+      "role": "Furniture retailer",
+      "regionOfActivity": "Älmhult",
+      "description": "Småland mail-order firm flattening global furniture.",
+      "events": [
+        {
+          "date": "1943-07-01",
+          "category": "birth",
+          "description": "Ingvar Kamprad founds IKEA"
+        },
+        {
+          "date": "1956-01-01",
+          "category": "technical",
+          "description": "Flat-pack concept born"
+        },
+        {
+          "date": "1982-01-01",
+          "category": "founding",
+          "description": "Stichting INGKA ownership settled"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "H&M",
+      "type": "private",
+      "role": "Fashion retailer",
+      "regionOfActivity": "Stockholm",
+      "description": "Single womenswear shop grown into fast-fashion giant.",
+      "events": [
+        {
+          "date": "1947-10-04",
+          "category": "birth",
+          "description": "Hennes opens in Västerås"
+        },
+        {
+          "date": "1968-01-01",
+          "category": "founding",
+          "description": "Mauritz Widforss merger forms H&M"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Tetra Pak",
+      "type": "private",
+      "role": "Packaging group",
+      "regionOfActivity": "Lund",
+      "description": "Aseptic-carton inventor inside Tetra Laval.",
+      "events": [
+        {
+          "date": "1951-01-01",
+          "category": "birth",
+          "description": "AB Tetra Pak founded"
+        },
+        {
+          "date": "1993-01-01",
+          "category": "founding",
+          "description": "Tetra Laval group formed"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "AstraZeneca Sweden",
+      "type": "private",
+      "role": "Pharmaceutical group",
+      "regionOfActivity": "Gothenburg",
+      "description": "Astra lineage inside the Anglo-Swedish merger.",
+      "events": [
+        {
+          "date": "1913-01-01",
+          "category": "birth",
+          "description": "AB Astra founded"
+        },
+        {
+          "date": "1999-04-06",
+          "category": "founding",
+          "description": "Zeneca merger forms AstraZeneca"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Getinge",
+      "type": "private",
+      "role": "Medtech group",
+      "regionOfActivity": "Gothenburg",
+      "description": "Agricultural-machinery roots turned sterilization leader.",
+      "events": [
+        {
+          "date": "1904-01-01",
+          "category": "birth",
+          "description": "Getinge mechanical workshop founded"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Elekta",
+      "type": "private",
+      "role": "Radiation-therapy group",
+      "regionOfActivity": "Stockholm",
+      "description": "Leksell Gamma Knife lineage.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Elekta founded around the Leksell Gamma Knife"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Vattenfall",
+      "type": "public",
+      "role": "Energy utility",
+      "regionOfActivity": "Stockholm",
+      "description": "State hydropower board turned European multi-utility.",
+      "events": [
+        {
+          "date": "1909-01-01",
+          "category": "birth",
+          "description": "Kungliga Vattenfallsstyrelsen created"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "transformation",
+          "description": "Corporatized as Vattenfall AB"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "German HEW-VEW acquisitions"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "LKAB",
+      "type": "public",
+      "role": "Iron-ore miner",
+      "regionOfActivity": "Luleå",
+      "description": "State Kiruna-Gällivare miner feeding European steel.",
+      "events": [
+        {
+          "date": "1890-01-01",
+          "category": "birth",
+          "description": "Gällivare company era; LKAB formed 1890"
+        },
+        {
+          "date": "1957-01-01",
+          "category": "transformation",
+          "description": "State takes majority control"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "SSAB",
+      "type": "hybrid",
+      "role": "Steel producer",
+      "regionOfActivity": "Stockholm",
+      "description": "State-mill merger turned special-steels leader.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Svenskt Stål formed from state mills"
+        },
+        {
+          "date": "2014-07-22",
+          "category": "expansion",
+          "description": "Rautaruukki merger; HYBRIT fossil-free pilot follows"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "SJ",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Stockholm",
+      "description": "Passenger operator of the X2000 network.",
+      "events": [
+        {
+          "date": "1856-01-01",
+          "category": "birth",
+          "description": "Statens Järnvägar era begins"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "transformation",
+          "description": "SJ AB corporatized; Green Cargo split"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "PostNord Sweden",
+      "type": "hybrid",
+      "role": "Postal operator",
+      "regionOfActivity": "Stockholm",
+      "description": "1636 postal roots merged with Denmark's Post.",
+      "events": [
+        {
+          "date": "1636-02-20",
+          "category": "birth",
+          "description": "Queen Christina's postal ordinance"
+        },
+        {
+          "date": "2009-06-24",
+          "category": "transformation",
+          "description": "Posten-Post Danmark merger forms PostNord"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Swedavia",
+      "type": "public",
+      "role": "Airport operator",
+      "regionOfActivity": "Stockholm",
+      "description": "State airport network operator.",
+      "events": [
+        {
+          "date": "2010-04-01",
+          "category": "birth",
+          "description": "LFV split creates Swedavia"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Spotify",
+      "type": "private",
+      "role": "Audio-streaming platform",
+      "regionOfActivity": "Stockholm",
+      "description": "Piracy-era startup turned global streaming standard.",
+      "events": [
+        {
+          "date": "2006-04-23",
+          "category": "birth",
+          "description": "Spotify founded"
+        },
+        {
+          "date": "2018-04-03",
+          "category": "milestone",
+          "description": "Direct NYSE listing"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Klarna",
+      "type": "private",
+      "role": "Fintech group",
+      "regionOfActivity": "Stockholm",
+      "description": "Buy-now-pay-later pioneer.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "Kreditor founded; Klarna brand follows"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "King",
+      "type": "private",
+      "role": "Game developer",
+      "regionOfActivity": "Stockholm",
+      "description": "Browser-games portal turned Candy Crush empire.",
+      "events": [
+        {
+          "date": "2003-01-01",
+          "category": "birth",
+          "description": "Midasplayer founded"
+        },
+        {
+          "date": "2012-04-12",
+          "category": "technical",
+          "description": "Candy Crush Saga launches on Facebook"
+        },
+        {
+          "date": "2016-02-23",
+          "category": "transformation",
+          "description": "Activision Blizzard acquisition"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Truecaller",
+      "type": "private",
+      "role": "Caller-ID platform",
+      "regionOfActivity": "Stockholm",
+      "description": "Spam-blocking directory with emerging-markets scale.",
+      "events": [
+        {
+          "date": "2009-10-01",
+          "category": "birth",
+          "description": "True Software founded"
+        },
+        {
+          "date": "2021-10-08",
+          "category": "milestone",
+          "description": "Nasdaq Stockholm listing"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Uppsala University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Uppsala",
+      "description": "Papal-bull university of the Swedish realm.",
+      "events": [
+        {
+          "date": "1477-02-27",
+          "category": "birth",
+          "description": "Sixtus IV bull founds the studium"
+        },
+        {
+          "date": "1624-01-01",
+          "category": "expansion",
+          "description": "Gustavianum era; Celsius and Linnaeus follow"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Lund University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Lund",
+      "description": "Danish-era studium turned research university.",
+      "events": [
+        {
+          "date": "1666-12-19",
+          "category": "birth",
+          "description": "Caroline Academy chartered after Roskilde"
+        },
+        {
+          "date": "2009-01-01",
+          "category": "research",
+          "description": "MAX IV and ESS era begins"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "KTH",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Stockholm",
+      "description": "Craft-school lineage leading Nordic engineering.",
+      "events": [
+        {
+          "date": "1827-01-01",
+          "category": "birth",
+          "description": "Teknologiska Institutet founded"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Karolinska Institutet",
+      "type": "public",
+      "role": "Medical university",
+      "regionOfActivity": "Stockholm",
+      "description": "Nobel Assembly home and medical research hub.",
+      "events": [
+        {
+          "date": "1810-12-13",
+          "category": "birth",
+          "description": "Chartered to train army surgeons"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Royal Swedish Academy of Sciences",
+      "type": "hybrid",
+      "role": "Science academy",
+      "regionOfActivity": "Stockholm",
+      "description": "Linnaeus-era academy awarding the Nobel prizes in science.",
+      "events": [
+        {
+          "date": "1739-06-02",
+          "category": "birth",
+          "description": "Vetenskapsakademien founded"
+        },
+        {
+          "date": "1901-12-10",
+          "category": "milestone",
+          "description": "First Nobel Prizes awarded"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "SVT and Sveriges Radio",
+      "type": "public",
+      "role": "Public broadcasters",
+      "regionOfActivity": "Stockholm",
+      "description": "Licence-funded radio-television twins.",
+      "events": [
+        {
+          "date": "1925-01-01",
+          "category": "birth",
+          "description": "Radiotjänst starts"
+        },
+        {
+          "date": "1956-09-04",
+          "category": "milestone",
+          "description": "Television service launches"
+        },
+        {
+          "date": "1979-07-01",
+          "category": "transformation",
+          "description": "Radio-TV split into SR, SVT, UR"
+        }
+      ]
+    },
+    {
+      "id": "a47",
+      "name": "LO Sweden",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Stockholm",
+      "description": "Blue-collar central of the Saltsjöbaden spirit.",
+      "events": [
+        {
+          "date": "1898-08-07",
+          "category": "birth",
+          "description": "LO founded"
+        },
+        {
+          "date": "1938-12-20",
+          "category": "milestone",
+          "description": "Saltsjöbaden Agreement founds the Swedish model"
+        }
+      ]
+    },
+    {
+      "id": "a48",
+      "name": "Svenskt Näringsliv",
+      "type": "private",
+      "role": "Employers' confederation",
+      "regionOfActivity": "Stockholm",
+      "description": "SAF-industry voice of the model.",
+      "events": [
+        {
+          "date": "2001-03-29",
+          "category": "birth",
+          "description": "SAF-Industriförbundet merger"
+        }
+      ]
+    }
+  ]
+}

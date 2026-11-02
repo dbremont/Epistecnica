@@ -1,0 +1,840 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Israeli actors (organizations and institutions) since 1900.",
+    "country": "Israel",
+    "region": "Middle East",
+    "flag": "🇮🇱",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Israel. This dataset traces the formation, transformation, and significant milestones of pre-state, statist, and startup-nation entities, from the Jewish Agency to cybersecurity and semiconductor leaders.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Jewish Agency and pre-state institutions",
+      "type": "hybrid",
+      "role": "Nation-building agency",
+      "regionOfActivity": "Jerusalem",
+      "description": "Zionist executive turned quasi-governmental immigrant absorber.",
+      "events": [
+        {
+          "date": "1929-08-11",
+          "category": "birth",
+          "description": "Jewish Agency constituted at Zurich"
+        },
+        {
+          "date": "1948-05-14",
+          "category": "transformation",
+          "description": "Provisional government succeeds its departments"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Histadrut",
+      "type": "hybrid",
+      "role": "Labor federation",
+      "regionOfActivity": "Tel Aviv",
+      "description": "General workers' organization owning enterprises and health funds.",
+      "events": [
+        {
+          "date": "1920-12-01",
+          "category": "birth",
+          "description": "Histadrut founded in Haifa"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "transformation",
+          "description": "New Histadrut refounded; enterprises divested"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Bank of Israel",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Jerusalem",
+      "description": "1954-chartered inflation-targeting bank.",
+      "events": [
+        {
+          "date": "1954-08-24",
+          "category": "birth",
+          "description": "Bank of Israel Law passed"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "policy",
+          "description": "Inflation-targeting framework adopted"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Bank Leumi",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Anglo-Palestine Bank lineage leading domestic credit.",
+      "events": [
+        {
+          "date": "1902-02-27",
+          "category": "birth",
+          "description": "Anglo-Palestine Company founded in London"
+        },
+        {
+          "date": "1951-05-01",
+          "category": "founding",
+          "description": "Bank Leumi le-Israel established"
+        },
+        {
+          "date": "2005-11-07",
+          "category": "transformation",
+          "description": "State shares sold; private control era"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Bank Hapoalim",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Histadrut workers' bank privatized in the 1990s.",
+      "events": [
+        {
+          "date": "1921-11-30",
+          "category": "birth",
+          "description": "Workers Bank founded"
+        },
+        {
+          "date": "1997-03-31",
+          "category": "transformation",
+          "description": "Privatization completed"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Israel Discount Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Recanati-family bank with IDB group history.",
+      "events": [
+        {
+          "date": "1935-04-05",
+          "category": "birth",
+          "description": "Eretz Yisrael Discount Bank founded"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Mizrahi-Tefahot",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Mizrahi-Hapoel Hamizrachi merger turned mortgage leader.",
+      "events": [
+        {
+          "date": "1923-01-01",
+          "category": "birth",
+          "description": "Mizrahi Bank founded"
+        },
+        {
+          "date": "2005-01-01",
+          "category": "founding",
+          "description": "Tefahot merger forms the group"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Tel Aviv Stock Exchange",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "Tel Aviv",
+      "description": "1935 bureau de change lineage demutualized.",
+      "events": [
+        {
+          "date": "1935-01-01",
+          "category": "birth",
+          "description": "Securities trading bureau opens"
+        },
+        {
+          "date": "2019-08-01",
+          "category": "transformation",
+          "description": "Demutualized listing"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Israel Electric Corporation",
+      "type": "hybrid",
+      "role": "Electric utility",
+      "regionOfActivity": "Haifa",
+      "description": "Rutenberg-concession utility electrifying the state.",
+      "events": [
+        {
+          "date": "1923-03-29",
+          "category": "birth",
+          "description": "Jaffa Electric Company concession granted"
+        },
+        {
+          "date": "2020-01-01",
+          "category": "transformation",
+          "description": "Structural reform splits generation"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Mekorot",
+      "type": "public",
+      "role": "Water utility",
+      "regionOfActivity": "Tel Aviv",
+      "description": "National carrier builder and desalination procurer.",
+      "events": [
+        {
+          "date": "1937-01-01",
+          "category": "birth",
+          "description": "Mekorot founded"
+        },
+        {
+          "date": "1964-01-01",
+          "category": "technical",
+          "description": "National Water Carrier inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "IDE Technologies",
+      "type": "private",
+      "role": "Desalination group",
+      "regionOfActivity": "Kadima",
+      "description": "Sorek-plant builder exporting desalination worldwide.",
+      "events": [
+        {
+          "date": "1965-01-01",
+          "category": "birth",
+          "description": "IDE founded"
+        },
+        {
+          "date": "2013-08-01",
+          "category": "technical",
+          "description": "Sorek, then the largest RO plant, commissioned"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Israel Aerospace Industries",
+      "type": "hybrid",
+      "role": "Aerospace and defense group",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Bedek-maintenance lineage building jets, drones and satellites.",
+      "events": [
+        {
+          "date": "1953-01-01",
+          "category": "birth",
+          "description": "Bedek Aviation founded"
+        },
+        {
+          "date": "1969-10-19",
+          "category": "technical",
+          "description": "Araba first flight"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "founding",
+          "description": "IAI government-company status"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Rafael",
+      "type": "hybrid",
+      "role": "Defense-technology company",
+      "regionOfActivity": "Haifa",
+      "description": "Science-corps lineage behind Iron Dome and Spike.",
+      "events": [
+        {
+          "date": "1948-01-01",
+          "category": "birth",
+          "description": "HEMED science corps founded"
+        },
+        {
+          "date": "2002-01-01",
+          "category": "transformation",
+          "description": "Government-company status"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Elbit Systems",
+      "type": "private",
+      "role": "Defense-electronics group",
+      "regionOfActivity": "Haifa",
+      "description": "Elron computer lineage turned sensor-weapon house.",
+      "events": [
+        {
+          "date": "1966-01-01",
+          "category": "birth",
+          "description": "Elbit Computers founded"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "founding",
+          "description": "El-Op merger forms Elbit Systems"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Israel Shipyards",
+      "type": "private",
+      "role": "Shipbuilder",
+      "regionOfActivity": "Haifa",
+      "description": "Naval-base yard privatized.",
+      "events": [
+        {
+          "date": "1959-01-01",
+          "category": "birth",
+          "description": "Israel Shipyards founded"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "transformation",
+          "description": "Privatization completed"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Teva Pharmaceutical",
+      "type": "private",
+      "role": "Generics giant",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Jerusalem drug wholesalers grown into the top generics maker.",
+      "events": [
+        {
+          "date": "1901-01-01",
+          "category": "birth",
+          "description": "S.L.E. wholesaler founded; Teva era 1976"
+        },
+        {
+          "date": "1976-01-01",
+          "category": "founding",
+          "description": "Assia-Zori merger forms Teva"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "transformation",
+          "description": "Actavis writedown forces restructuring"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Check Point",
+      "type": "private",
+      "role": "Cybersecurity group",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Unit 8200 alumni defining commercial firewalls.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Check Point founded"
+        },
+        {
+          "date": "1996-06-28",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Nice",
+      "type": "private",
+      "role": "Enterprise-software group",
+      "regionOfActivity": "Ra'anana",
+      "description": "Recording-analytics house turned CX cloud.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Neptune Intelligence Computer Engineering founded"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Wix",
+      "type": "private",
+      "role": "Web platform",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Template website builder listed on Nasdaq.",
+      "events": [
+        {
+          "date": "2006-01-01",
+          "category": "birth",
+          "description": "Wix founded"
+        },
+        {
+          "date": "2013-11-06",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Monday.com",
+      "type": "private",
+      "role": "Work software group",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Project-board SaaS unicorn.",
+      "events": [
+        {
+          "date": "2012-01-01",
+          "category": "birth",
+          "description": "dapulse founded; monday.com brand 2017"
+        },
+        {
+          "date": "2021-06-10",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Mobileye",
+      "type": "private",
+      "role": "Autonomous-driving group",
+      "regionOfActivity": "Jerusalem",
+      "description": "Hebrew University vision research turned Intel division.",
+      "events": [
+        {
+          "date": "1999-01-01",
+          "category": "birth",
+          "description": "Mobileye founded"
+        },
+        {
+          "date": "2014-07-31",
+          "category": "milestone",
+          "description": "NYSE listing; Intel buys 2017, relists 2022"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Ormat",
+      "type": "private",
+      "role": "Geothermal group",
+      "regionOfActivity": "Yavne",
+      "description": "Bronicki Ormat Turbines lineage in geothermal plants.",
+      "events": [
+        {
+          "date": "1965-01-01",
+          "category": "birth",
+          "description": "Ormat founded"
+        },
+        {
+          "date": "2004-11-11",
+          "category": "milestone",
+          "description": "NYSE listing"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "El Al",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Tel Aviv",
+      "description": "1948 flag carrier privatized and Kanfei Nesharim-controlled.",
+      "events": [
+        {
+          "date": "1948-11-15",
+          "category": "birth",
+          "description": "El Al founded"
+        },
+        {
+          "date": "2003-06-12",
+          "category": "transformation",
+          "description": "Privatization begins; Kanfei Nesharim era 2020"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Israel Railways",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Mandate-lineage operator electrifying the network.",
+      "events": [
+        {
+          "date": "1948-01-01",
+          "category": "birth",
+          "description": "Palestine Railways taken over"
+        },
+        {
+          "date": "2003-04-01",
+          "category": "transformation",
+          "description": "Government-company status"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Egged",
+      "type": "hybrid",
+      "role": "Bus cooperative",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Driver-owned cooperative turned transport group.",
+      "events": [
+        {
+          "date": "1933-01-01",
+          "category": "birth",
+          "description": "Egged cooperative founded"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Bezeq",
+      "type": "private",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Ministry-lineage carrier privatized.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Bezeq corporation created"
+        },
+        {
+          "date": "2005-10-11",
+          "category": "transformation",
+          "description": "Apax-Saban takeover; state exits"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Cellcom",
+      "type": "private",
+      "role": "Mobile operator",
+      "regionOfActivity": "Netanya",
+      "description": "First cellular entrant breaking the Bezeq-Pelephone order.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Cellcom licence awarded"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Partner Communications",
+      "type": "private",
+      "role": "Mobile operator",
+      "regionOfActivity": "Rosh HaAyin",
+      "description": "Orange-franchise challenger.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "Partner licence awarded; Orange brand 1998"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Hebrew University of Jerusalem",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Jerusalem",
+      "description": "1918-founded research university on Mount Scopus.",
+      "events": [
+        {
+          "date": "1918-07-24",
+          "category": "birth",
+          "description": "Cornerstone laid on Mount Scopus"
+        },
+        {
+          "date": "1925-04-01",
+          "category": "founding",
+          "description": "University opened"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Technion",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Haifa",
+      "description": "Technikum lineage leading engineering research.",
+      "events": [
+        {
+          "date": "1912-01-01",
+          "category": "birth",
+          "description": "Technikum decided; War of Languages follows"
+        },
+        {
+          "date": "1924-12-14",
+          "category": "founding",
+          "description": "Technion opened"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Weizmann Institute",
+      "type": "hybrid",
+      "role": "Research institute",
+      "regionOfActivity": "Rehovot",
+      "description": "Sieff-Institute lineage of basic science.",
+      "events": [
+        {
+          "date": "1934-01-01",
+          "category": "birth",
+          "description": "Daniel Sieff Institute founded"
+        },
+        {
+          "date": "1949-11-02",
+          "category": "founding",
+          "description": "Weizmann Institute chartered"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Israel Innovation Authority",
+      "type": "public",
+      "role": "Innovation agency",
+      "regionOfActivity": "Jerusalem",
+      "description": "Chief Scientist office empowering startup grants.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Office of the Chief Scientist created"
+        },
+        {
+          "date": "2016-01-01",
+          "category": "transformation",
+          "description": "Innovation Authority established"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Yad Vashem",
+      "type": "public",
+      "role": "Holocaust memorial",
+      "regionOfActivity": "Jerusalem",
+      "description": "1953-chartered remembrance authority.",
+      "events": [
+        {
+          "date": "1953-08-19",
+          "category": "birth",
+          "description": "Yad Vashem law passed"
+        },
+        {
+          "date": "2005-03-15",
+          "category": "expansion",
+          "description": "Safdie museum complex opened"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Israel Museum",
+      "type": "public",
+      "role": "National museum",
+      "regionOfActivity": "Jerusalem",
+      "description": "Bezalel-lineage encyclopedic museum with the Shrine of the Book.",
+      "events": [
+        {
+          "date": "1965-05-11",
+          "category": "birth",
+          "description": "Israel Museum inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Hadassah Medical Organization",
+      "type": "hybrid",
+      "role": "Hospital network",
+      "regionOfActivity": "Jerusalem",
+      "description": "Women's Zionist hospitals including Ein Kerem.",
+      "events": [
+        {
+          "date": "1918-01-01",
+          "category": "birth",
+          "description": "Hadassah Medical Organization founded"
+        },
+        {
+          "date": "1961-01-01",
+          "category": "expansion",
+          "description": "Ein Kerem campus inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Clalit",
+      "type": "hybrid",
+      "role": "Health fund",
+      "regionOfActivity": "Tel Aviv",
+      "description": "Histadrut sick fund turned managed-care giant.",
+      "events": [
+        {
+          "date": "1911-01-01",
+          "category": "birth",
+          "description": "Kupat Holim founded"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "transformation",
+          "description": "National Health Insurance era begins"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Tower Semiconductor",
+      "type": "private",
+      "role": "Chipmaker",
+      "regionOfActivity": "Migdal HaEmek",
+      "description": "National Semiconductor fab turned specialty foundry.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Tower founded"
+        },
+        {
+          "date": "2022-02-15",
+          "category": "transformation",
+          "description": "Intel takeover agreed; terminated 2023"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Mellanox and Nvidia Israel",
+      "type": "private",
+      "role": "Chip group",
+      "regionOfActivity": "Yokneam",
+      "description": "InfiniBand pioneer absorbed by Nvidia.",
+      "events": [
+        {
+          "date": "1999-01-01",
+          "category": "birth",
+          "description": "Mellanox founded"
+        },
+        {
+          "date": "2020-04-27",
+          "category": "transformation",
+          "description": "Nvidia takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "CyberArk",
+      "type": "private",
+      "role": "Cybersecurity group",
+      "regionOfActivity": "Petah Tikva",
+      "description": "Privileged-access security leader.",
+      "events": [
+        {
+          "date": "1999-01-01",
+          "category": "birth",
+          "description": "Cyber-Ark founded"
+        },
+        {
+          "date": "2014-09-24",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "SolarEdge",
+      "type": "private",
+      "role": "Solar-inverter group",
+      "regionOfActivity": "Herzliya",
+      "description": "DC-optimized inverter leader.",
+      "events": [
+        {
+          "date": "2006-01-01",
+          "category": "birth",
+          "description": "SolarEdge founded"
+        },
+        {
+          "date": "2015-03-26",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Strauss Group",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Petah Tikva",
+      "description": "Elite-chocolate lineage in coffee and dairy.",
+      "events": [
+        {
+          "date": "1934-01-01",
+          "category": "birth",
+          "description": "Elite founded in Ramat Gan"
+        },
+        {
+          "date": "2004-01-01",
+          "category": "founding",
+          "description": "Elite-Strauss merger forms the group"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Tnuva",
+      "type": "private",
+      "role": "Dairy cooperative",
+      "regionOfActivity": "Rehovot",
+      "description": "1926 cooperative turned Bright Food-owned dairy.",
+      "events": [
+        {
+          "date": "1926-01-01",
+          "category": "birth",
+          "description": "Tnuva cooperative founded"
+        },
+        {
+          "date": "2014-07-01",
+          "category": "transformation",
+          "description": "Bright Food takes control"
+        }
+      ]
+    }
+  ]
+}

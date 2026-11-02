@@ -1,0 +1,1867 @@
+{
+  "meta": {
+    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize. Seven concrete root problems replace the single abstract 'middle-income trap' root. Each root is directly mappable to policy instruments.",
+    "version": 2
+  },
+  "problems": [
+    {
+      "id": 1,
+      "parent": null,
+      "name": "Low Enterprise Productivity and Quality",
+      "statement": "Domestic firms, especially SMEs, operate with low productivity and poor quality, limiting their ability to compete and upgrade.",
+      "description": "Weak firm-level capability is a root cause of failed industrial upgrading. SMEs lack management, technical, and quality control capabilities, and cannot absorb technology effectively.",
+      "goals": [
+        "Upgrade SME management and technology",
+        "Improve quality and reduce defects",
+        "Increase productivity",
+        "Build technology absorption capability"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Enterprise Development",
+      "targetGroup": "Domestic Firms, SMEs",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": null,
+      "name": "Missing Supporting Industries and Weak FDI Linkages",
+      "statement": "Domestic supporting industries are too weak to supply core firms, and FDI operates in enclaves with few local linkages.",
+      "description": "Without supplier development and local absorptive capacity, FDI generates limited spillovers. Supporting industries are essential for clustering and value chain integration.",
+      "goals": [
+        "Develop supporting industries",
+        "Increase local content",
+        "Integrate local firms into value chains",
+        "Maximize learning from FDI"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Industrial Structure and Linkage",
+      "targetGroup": "SMEs, Suppliers, MNCs",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": null,
+      "name": "Shortage of Industrial Human Resources",
+      "statement": "There is a critical shortage of engineers, technicians, managers, and skilled workers needed for industrial upgrading.",
+      "description": "Industrialization requires a critical mass of capable people who can absorb, adapt, and create technology. TVET systems are disconnected from industry needs, and skill mismatch is widespread.",
+      "goals": [
+        "Build industrial human resources",
+        "Improve technical and vocational training",
+        "Link skills to industry needs",
+        "Develop industrial managers"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Human Capital Development",
+      "targetGroup": "Engineers, Technicians, Managers, Workers",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": null,
+      "name": "Financial Constraints for Industrial Investment",
+      "statement": "Firms, especially SMEs, cannot obtain adequate finance for equipment, technology, and working capital.",
+      "description": "Financial constraints prevent firms from upgrading. Collateral requirements, weak credit information, and lack of long-term finance are key obstacles.",
+      "goals": [
+        "Improve access to industrial finance",
+        "Reduce lending risk for SMEs",
+        "Build credit information systems",
+        "Provide long-term finance"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Industrial Finance",
+      "targetGroup": "SMEs, Targeted Industries",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "parent": null,
+      "name": "Weak Policy Process and Governance",
+      "statement": "Government lacks the capability to design, implement, and adapt industrial policies suited to local conditions.",
+      "description": "Policy capacity includes diagnosis, dialogue with the private sector, learning from international experience, coordination across agencies, and implementation discipline.",
+      "goals": [
+        "Build policy-making capability",
+        "Establish policy dialogue",
+        "Ensure coordination and implementation",
+        "Adapt policies to local context"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Policy Process and Governance",
+      "targetGroup": "Policy Makers, Bureaucrats",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 6-7). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "parent": null,
+      "name": "Infrastructure and Business Environment Bottlenecks",
+      "statement": "Poor infrastructure, logistics, and administrative burden raise costs and reduce industrial competitiveness.",
+      "description": "Reliable power, transport, industrial parks, and efficient administration are necessary for industrial investment and cluster development.",
+      "goals": [
+        "Provide reliable industrial infrastructure",
+        "Reduce logistics costs",
+        "Develop quality industrial parks",
+        "Reduce administrative burden"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Infrastructure and Business Environment",
+      "targetGroup": "Firms, Investors",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "parent": null,
+      "name": "Dependence on Given Growth Sources",
+      "statement": "Growth depends on externally given advantages—resources, aid, big projects, or FDI enclaves—rather than on created value.",
+      "description": "Given growth arises from FDI, aid, resource rents, or large public projects. It can produce temporary growth but does not build endogenous industrial capability.",
+      "goals": [
+        "Reduce dependence on exogenous growth sources",
+        "Convert given advantages into created advantages",
+        "Diversify away from resource rents",
+        "Balance big projects with broad industrial support"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Structural Change",
+      "targetGroup": "National Economy",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 1-2). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "parent": 1,
+      "name": "Weak SME Management and Technology Capability",
+      "statement": "SMEs lack management, technical, and quality control capabilities.",
+      "description": "SME upgrading is central to industrial deepening. Without it, domestic firms cannot supply MNCs or compete in export markets.",
+      "goals": [
+        "Upgrade SME management",
+        "Improve technology use",
+        "Raise productivity"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "SME Development",
+      "targetGroup": "SMEs",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "parent": 1,
+      "name": "Poor Quality and Productivity",
+      "statement": "Firms produce low-quality goods with high defect rates and low productivity.",
+      "description": "Quality and productivity problems limit market access and upgrading.",
+      "goals": [
+        "Improve quality",
+        "Reduce defects",
+        "Increase productivity"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Enterprise Development",
+      "targetGroup": "Manufacturing Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "parent": 1,
+      "name": "Low Technology Absorption",
+      "statement": "Firms cannot absorb, adapt, and improve imported technology.",
+      "description": "Technology absorption requires technical skills, enterprise effort, and supporting institutions.",
+      "goals": [
+        "Improve technology absorption",
+        "Adapt foreign technology to local conditions",
+        "Move toward innovation"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Technology and Innovation",
+      "targetGroup": "Firms, Engineers",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 4-5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "parent": 2,
+      "name": "Missing Supporting Industries",
+      "statement": "Domestic supporting industries are too weak to supply core firms.",
+      "description": "Supporting industries are essential for clustering and FDI linkage. Their absence raises import dependence and limits spillovers.",
+      "goals": [
+        "Develop supporting industries",
+        "Increase local content",
+        "Build supplier clusters"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Industrial Structure",
+      "targetGroup": "SMEs, Suppliers",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "parent": 2,
+      "name": "Local Suppliers Cannot Meet MNC Standards",
+      "statement": "Local firms cannot meet the quality, cost, and delivery standards of multinational buyers.",
+      "description": "This blocks FDI-local linkage and limits spillovers.",
+      "goals": [
+        "Upgrade local suppliers",
+        "Meet MNC standards",
+        "Increase local sourcing"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Supplier Development",
+      "targetGroup": "Local Suppliers",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "parent": 2,
+      "name": "Weak Linkage Programs",
+      "statement": "There are few effective programs to connect FDI with local firms.",
+      "description": "Linkage requires systematic matching, supplier development, and monitoring.",
+      "goals": [
+        "Create effective linkage programs",
+        "Match MNCs with local suppliers",
+        "Monitor linkage outcomes"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Investment Linkage",
+      "targetGroup": "MNCs, Local Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "parent": 2,
+      "name": "Low Local Absorptive Capacity",
+      "statement": "Local firms and workers cannot absorb knowledge transferred from FDI.",
+      "description": "Absorptive capacity depends on skills, management, and technology capability.",
+      "goals": [
+        "Raise absorptive capacity",
+        "Improve learning from FDI",
+        "Strengthen technical skills"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Technology and Skills",
+      "targetGroup": "Local Firms, Workers",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 3 and 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "parent": 2,
+      "name": "FDI Enclave Economy",
+      "statement": "FDI operates in enclaves with few links to the domestic economy.",
+      "description": "Without supplier development and local absorptive capacity, FDI generates limited spillovers.",
+      "goals": [
+        "Increase FDI-local linkages",
+        "Develop local suppliers",
+        "Raise local absorptive capacity"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Investment and Linkage",
+      "targetGroup": "MNCs, Local Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "parent": 3,
+      "name": "Shortage of Engineers and Technicians",
+      "statement": "There are too few engineers and technicians for industrial upgrading.",
+      "description": "Engineering and technical skills are prerequisites for technology absorption and high-value production.",
+      "goals": [
+        "Increase engineering graduates",
+        "Expand technician training",
+        "Improve practical skills"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Human Capital",
+      "targetGroup": "Students, Technicians",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "parent": 3,
+      "name": "Weak TVET System",
+      "statement": "Technical and vocational education is disconnected from industry needs.",
+      "description": "TVET systems often lack equipment, qualified instructors, and industry participation.",
+      "goals": [
+        "Reform TVET",
+        "Link TVET to industry",
+        "Increase training quality"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Vocational Education",
+      "targetGroup": "TVET Institutions, Students",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "parent": 3,
+      "name": "Shortage of Industrial Managers",
+      "statement": "Firms lack managers with industrial and quality management skills.",
+      "description": "Management capability is critical for productivity, quality, and technology adoption.",
+      "goals": [
+        "Train industrial managers",
+        "Improve management practices",
+        "Diffuse modern production systems"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Management Development",
+      "targetGroup": "Managers, Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "parent": 3,
+      "name": "Skill Mismatch",
+      "statement": "Workers' skills do not match the needs of growing industries.",
+      "description": "Skill mismatch reduces productivity and increases unemployment among graduates.",
+      "goals": [
+        "Align training with industry demand",
+        "Improve labor market information",
+        "Strengthen certification"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Labor and Skills",
+      "targetGroup": "Workers, Employers",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "parent": 4,
+      "name": "Collateral Constraints",
+      "statement": "SMEs cannot provide sufficient collateral for bank loans.",
+      "description": "Collateral requirements exclude many viable SMEs from credit.",
+      "goals": [
+        "Reduce collateral requirements",
+        "Share credit risk",
+        "Enable SME investment"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "SME Finance",
+      "targetGroup": "SMEs",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "parent": 4,
+      "name": "Weak Credit Information",
+      "statement": "Banks lack reliable information to assess SME creditworthiness.",
+      "description": "Information asymmetry raises lending costs and reduces credit access.",
+      "goals": [
+        "Build credit information systems",
+        "Improve SME credit assessment",
+        "Reduce information asymmetry"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Financial Infrastructure",
+      "targetGroup": "Banks, SMEs",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "parent": 4,
+      "name": "Lack of Long-Term Industrial Finance",
+      "statement": "Firms cannot obtain long-term finance for capital investment.",
+      "description": "Long-term finance is needed for equipment, technology, and industrial upgrading.",
+      "goals": [
+        "Provide long-term finance",
+        "Support capital investment",
+        "Reduce maturity mismatch"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Industrial Finance",
+      "targetGroup": "Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "parent": 4,
+      "name": "SME Finance Gap",
+      "statement": "SMEs face a persistent gap in access to affordable credit.",
+      "description": "SME finance gaps constrain upgrading and job creation.",
+      "goals": [
+        "Expand SME credit",
+        "Lower borrowing costs",
+        "Support SME growth"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "SME Finance",
+      "targetGroup": "SMEs",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "parent": 5,
+      "name": "Random Policy Copying",
+      "statement": "Policies are copied from abroad without adaptation to local conditions.",
+      "description": "Policy copying without local diagnosis and ownership leads to poor implementation and weak results.",
+      "goals": [
+        "Adapt policies to local context",
+        "Build local policy ownership",
+        "Use comparative learning carefully"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Policy Process",
+      "targetGroup": "Policy Makers",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 6-7). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "parent": 5,
+      "name": "Weak Coordination Across Agencies",
+      "statement": "Ministries and agencies pursue inconsistent industrial policies.",
+      "description": "Coordination failure causes duplication, inconsistent incentives, and weak implementation.",
+      "goals": [
+        "Improve inter-agency coordination",
+        "Align policies",
+        "Create a central policy framework"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Governance",
+      "targetGroup": "Government Agencies",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 6). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "parent": 5,
+      "name": "Weak Implementation Capacity",
+      "statement": "Policies are announced but not implemented effectively.",
+      "description": "Implementation requires administrative capacity, monitoring, and feedback.",
+      "goals": [
+        "Strengthen implementation",
+        "Improve monitoring and evaluation",
+        "Build administrative capacity"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Public Administration",
+      "targetGroup": "Bureaucrats",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 7). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "parent": 5,
+      "name": "Weak Public-Private Dialogue",
+      "statement": "Government and private sector do not communicate effectively on industrial policy.",
+      "description": "Without dialogue, policies may not address real constraints and firms may not support implementation.",
+      "goals": [
+        "Establish regular public-private dialogue",
+        "Identify real constraints",
+        "Build trust and shared ownership"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Governance",
+      "targetGroup": "Government, Private Sector",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 6). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "parent": 6,
+      "name": "Unreliable Power Supply",
+      "statement": "Firms face power outages and high energy costs.",
+      "description": "Unreliable power disrupts production and raises costs.",
+      "goals": [
+        "Provide reliable power",
+        "Reduce energy costs",
+        "Support industrial investment"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Energy Infrastructure",
+      "targetGroup": "Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "parent": 6,
+      "name": "High Logistics Costs",
+      "statement": "Poor transport and logistics raise export and input costs.",
+      "description": "High logistics costs reduce competitiveness and discourage investment.",
+      "goals": [
+        "Reduce logistics costs",
+        "Improve transport infrastructure",
+        "Facilitate trade"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Logistics and Trade",
+      "targetGroup": "Exporters, Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "parent": 6,
+      "name": "Poor Industrial Parks",
+      "statement": "Industrial parks lack infrastructure, services, and effective management.",
+      "description": "Well-managed parks reduce investment costs and facilitate clustering.",
+      "goals": [
+        "Develop quality industrial parks",
+        "Provide one-stop services",
+        "Promote clustering"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Industrial Estates",
+      "targetGroup": "Investors, Firms",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "parent": 6,
+      "name": "Administrative Burden",
+      "statement": "Complex regulations and procedures raise costs and delay investment.",
+      "description": "Administrative burden discourages formal investment and firm growth.",
+      "goals": [
+        "Reduce administrative burden",
+        "Simplify procedures",
+        "Improve regulatory quality"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Regulatory Reform",
+      "targetGroup": "Firms, Investors",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "parent": 7,
+      "name": "Resource Dependence",
+      "statement": "The economy relies on natural resource rents rather than productive value creation.",
+      "description": "Resource dependence can weaken incentives for industrial learning and diversify poorly into manufacturing.",
+      "goals": [
+        "Diversify away from resource rents",
+        "Use resource revenues for industrial capability",
+        "Promote non-resource tradables"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Structural Change",
+      "targetGroup": "Resource Sector, Government",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 1). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "parent": 7,
+      "name": "Aid Dependence",
+      "statement": "Development aid substitutes for domestic policy effort and private investment.",
+      "description": "Aid can help but may also create dependency if it does not build local capability and policy ownership.",
+      "goals": [
+        "Use aid to build capability",
+        "Strengthen domestic policy ownership",
+        "Gradually reduce aid dependence"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Development Finance",
+      "targetGroup": "Government, Donors",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 6). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "parent": 7,
+      "name": "Big Project Bias",
+      "statement": "Policy favors large showcase projects over broad-based firm and skill development.",
+      "description": "Big projects can be politically attractive but may not generate widespread industrial learning or SME upgrading.",
+      "goals": [
+        "Balance big projects with broad industrial support",
+        "Link large projects to local suppliers",
+        "Prioritize capability building"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Public Investment",
+      "targetGroup": "Government, Large Projects",
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 1 and 6). Routledge."
+        }
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "id": 1,
+      "name": "Continuous Improvement",
+      "description": "Continuous improvement of productivity and quality through small, incremental changes involving all workers.",
+      "mechanism": "Hands-on training and practice on the factory floor, often supported by national movements and foreign experts.",
+      "hue": "#2E8B57",
+      "icon": "⚙️",
+      "caseStudies": [
+        {
+          "label": "Ethiopia Kaizen Movement",
+          "note": "JICA-supported Kaizen unit in Ethiopia led to productivity improvements in pilot firms and was scaled into a national movement."
+        },
+        {
+          "label": "Japan Toyota Production System",
+          "note": "Kaizen is a core element of Japanese industrial competitiveness."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Shindan / Enterprise Diagnosis",
+      "description": "A systematic enterprise evaluation and advice system where consultants diagnose management and technical problems and recommend improvements.",
+      "mechanism": "Institutionalized diagnostic service provided by government or accredited consultants, often linked to SME finance.",
+      "hue": "#4682B4",
+      "icon": "📋",
+      "caseStudies": [
+        {
+          "label": "Japan Shindan System",
+          "note": "Japan's SME diagnosis system has been a model for many East Asian economies for enterprise upgrading."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Credit Guarantee System",
+      "description": "A scheme where the government or a public entity guarantees a portion of loans made by commercial banks to SMEs, reducing lender risk.",
+      "mechanism": "Risk-sharing between government and banks, often combined with enterprise evaluation.",
+      "hue": "#DAA520",
+      "icon": "🛡️",
+      "caseStudies": [
+        {
+          "label": "Taiwan SME Credit Guarantee Fund",
+          "note": "Taiwan's credit guarantee fund has been instrumental in supporting SME development."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Two-Step Loans",
+      "description": "Government funds are channeled through commercial banks to targeted firms at subsidized rates, with banks responsible for appraisal and monitoring.",
+      "mechanism": "Wholesale funds from a development financial institution to retail banks for on-lending to priority sectors.",
+      "hue": "#8B0000",
+      "icon": "🏦",
+      "caseStudies": [
+        {
+          "label": "Japan Two-Step Loan",
+          "note": "Used extensively in post-war Japan to direct credit to strategic industries."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Investment Incentives",
+      "description": "Fiscal and non-fiscal incentives such as tax holidays, duty exemptions, and subsidies targeted at priority activities.",
+      "mechanism": "A list of priority activities linked to a system of incentives, often administered by investment promotion agencies.",
+      "hue": "#FF8C00",
+      "icon": "💲",
+      "caseStudies": [
+        {
+          "label": "Singapore Economic Development Board",
+          "note": "Singapore's EDB used targeted incentives to attract high-value FDI."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Industrial Parks",
+      "description": "Dedicated estates with sufficient infrastructure and administrative services to facilitate industrial clustering and FDI.",
+      "mechanism": "Provision of serviced land and facilities, often including one-stop administrative services.",
+      "hue": "#6A5ACD",
+      "icon": "🏭",
+      "caseStudies": [
+        {
+          "label": "Taiwan Export Processing Zones",
+          "note": "Taiwan's EPZs were pioneers in providing integrated infrastructure and services for export-oriented industrialization."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Technical and Vocational Education and Training",
+      "description": "Formal and non-formal training programs to build technical skills for new or current workers, often linked to industry needs.",
+      "mechanism": "Curricula development, training delivery, skill certification, and industry partnerships.",
+      "hue": "#20B2AA",
+      "icon": "🎓",
+      "caseStudies": [
+        {
+          "label": "Singapore Vocational Training",
+          "note": "Singapore's ITE and polytechnic system is a key pillar of its industrial human resource strategy."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Policy Dialogue",
+      "description": "Structured, continuous dialogue between government, private sector, and foreign experts to diagnose problems and formulate concrete policies.",
+      "mechanism": "Regular meetings, joint working groups, study tours, and coaching by experts.",
+      "hue": "#B22222",
+      "icon": "💬",
+      "caseStudies": [
+        {
+          "label": "Ethiopia-Japan Policy Dialogue",
+          "note": "The dialogue led to concrete proposals on Kaizen, public-private cooperation, and action plan making."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 6). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Human Resource Development Fund",
+      "description": "A dedicated fund to finance training, technology transfer, and skill certification.",
+      "mechanism": "Pooled resources from levies on firms or government budget used to subsidize training costs.",
+      "hue": "#556B2F",
+      "icon": "👛",
+      "caseStudies": [
+        {
+          "label": "Malaysia Human Resource Development Fund",
+          "note": "Malaysia's HRDF mandates contributions from employers to fund training."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Anchor Firm Attraction",
+      "description": "Targeted attraction of a large, globally competitive firm to catalyze local supplier development.",
+      "mechanism": "Customized incentives and infrastructure provision for a single large investor, followed by supplier development.",
+      "hue": "#8A2BE2",
+      "icon": "⚓",
+      "caseStudies": [
+        {
+          "label": "Malaysia Penang Cluster",
+          "note": "Attracting Intel and other MNCs catalyzed Penang's electronics cluster."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Supplier Development Program",
+      "description": "Programs to upgrade local suppliers to meet the quality, cost, and delivery standards of large buyers.",
+      "mechanism": "Diagnosis, training, technical assistance, and matching with MNCs.",
+      "hue": "#CD5C5C",
+      "icon": "🔗",
+      "caseStudies": [
+        {
+          "label": "Malaysia Vendor Development",
+          "note": "Malaysia used vendor development to link local firms with MNCs."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Export Processing Zones",
+      "description": "Special zones with infrastructure and incentives for export-oriented manufacturing.",
+      "mechanism": "Duty-free inputs, serviced land, and streamlined administration.",
+      "hue": "#3CB371",
+      "icon": "🌐",
+      "caseStudies": [
+        {
+          "label": "Taiwan Export Processing Zones",
+          "note": "Taiwan's EPZs helped launch export-led industrialization."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Policy Learning Unit",
+      "description": "A dedicated government unit for comparative policy analysis, diagnosis, and policy adaptation.",
+      "mechanism": "Research, study tours, expert networks, and policy experimentation.",
+      "hue": "#8B4513",
+      "icon": "📖",
+      "caseStudies": [
+        {
+          "label": "Ethiopia Policy Learning",
+          "note": "Policy learning helped Ethiopia formulate concrete industrial policy actions."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 7). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Technical Extension Services",
+      "description": "Public or publicly supported services that provide firms with technical advice and problem-solving support.",
+      "mechanism": "Visits by engineers and consultants, demonstrations, and joint problem-solving.",
+      "hue": "#1E90FF",
+      "icon": "🔧",
+      "caseStudies": [
+        {
+          "label": "Japan Kogyo Shikenjo",
+          "note": "Japan's industrial research institutes provided technical extension to SMEs."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "SME Credit Information System",
+      "description": "A system to collect and share credit information on SMEs, reducing information asymmetry.",
+      "mechanism": "Databases, credit scoring, and sharing among banks.",
+      "hue": "#5F9EA0",
+      "icon": "🗄️",
+      "caseStudies": [
+        {
+          "label": "Japan Credit Information",
+          "note": "Japan developed credit information systems to support SME lending."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "One-Stop Investment and Administrative Service",
+      "description": "A single agency or office that handles permits, licenses, and administrative procedures for investors.",
+      "mechanism": "Co-location of officials, simplified procedures, and time-bound approvals.",
+      "hue": "#FF6347",
+      "icon": "🏢",
+      "caseStudies": [
+        {
+          "label": "Singapore EDB One-Stop Service",
+          "note": "Singapore's EDB provided integrated investor services."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Industrial Infrastructure Provision",
+      "description": "Public investment in power, water, transport, and other infrastructure needed by industry.",
+      "mechanism": "Direct public investment or public-private partnerships.",
+      "hue": "#B8860B",
+      "icon": "🔌",
+      "caseStudies": [
+        {
+          "label": "East Asian Infrastructure",
+          "note": "East Asian economies invested heavily in industrial infrastructure."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Industrial Cluster Development",
+      "description": "Policies to promote geographic concentration and interaction among firms, suppliers, and institutions.",
+      "mechanism": "Infrastructure, shared services, supplier networks, and cluster governance.",
+      "hue": "#9932CC",
+      "icon": "🕸️",
+      "caseStudies": [
+        {
+          "label": "Penang Electronics Cluster",
+          "note": "Penang developed a successful electronics cluster through FDI and supplier development."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Trade Logistics Improvement",
+      "description": "Measures to reduce logistics costs and improve transport and trade facilitation.",
+      "mechanism": "Ports, roads, customs reform, and logistics services.",
+      "hue": "#2F4F4F",
+      "icon": "🚚",
+      "caseStudies": [
+        {
+          "label": "Singapore Logistics",
+          "note": "Singapore's world-class logistics supported its industrial and trade competitiveness."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Industrial Master Plan",
+      "description": "A strategic document that sets industrial priorities, targets, and policy measures.",
+      "mechanism": "Diagnosis, vision, prioritized sectors, action plans, and monitoring.",
+      "hue": "#A0522D",
+      "icon": "🗺️",
+      "caseStudies": [
+        {
+          "label": "Malaysia Industrial Master Plan",
+          "note": "Malaysia used industrial master plans to guide structural change."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 6). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Business Law and Regulatory Reform",
+      "description": "Reform of laws and regulations to reduce administrative burden and improve the business environment.",
+      "mechanism": "Simplification, transparency, and legal modernization.",
+      "hue": "#708090",
+      "icon": "⚖️",
+      "caseStudies": [
+        {
+          "label": "Vietnam Business Law Reform",
+          "note": "Vietnam reformed business laws to encourage private enterprise."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Quality Control Circles",
+      "description": "Small groups of workers who meet regularly to solve quality and productivity problems.",
+      "mechanism": "Worker participation, problem-solving, and continuous improvement.",
+      "hue": "#00CED1",
+      "icon": "👥",
+      "caseStudies": [
+        {
+          "label": "Japan QC Circles",
+          "note": "QC circles became widespread in Japanese manufacturing."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Public-Private Policy Council",
+      "description": "A formal council for dialogue and coordination between government and private sector.",
+      "mechanism": "Regular meetings, working groups, and joint policy recommendations.",
+      "hue": "#DC143C",
+      "icon": "👥",
+      "caseStudies": [
+        {
+          "label": "Japan Industrial Policy Councils",
+          "note": "Japan used councils to coordinate industrial policy with the private sector."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 6). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Skill Certification",
+      "description": "A system to assess and certify workers' skills, improving labor market information and training incentives.",
+      "mechanism": "Standards, testing, and certification bodies.",
+      "hue": "#FFD700",
+      "icon": "📜",
+      "caseStudies": [
+        {
+          "label": "Singapore Skill Certification",
+          "note": "Singapore developed skill certification to support its workforce upgrading."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Development Financial Institution",
+      "description": "A public or semi-public financial institution that provides long-term industrial finance.",
+      "mechanism": "Direct lending, wholesale funds, and policy-based finance.",
+      "hue": "#8B008B",
+      "icon": "🏦",
+      "caseStudies": [
+        {
+          "label": "Japan Development Bank",
+          "note": "Japan's Development Bank provided long-term finance for industrial upgrading."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Equipment Leasing",
+      "description": "Leasing arrangements that allow firms to use equipment without large upfront collateral.",
+      "mechanism": "Lease finance, tax incentives, and specialized leasing companies.",
+      "hue": "#6B8E23",
+      "icon": "🚚",
+      "caseStudies": [
+        {
+          "label": "East Asian Leasing",
+          "note": "Equipment leasing helped SMEs invest in machinery."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Targeted FDI Marketing",
+      "description": "Proactive targeting of specific foreign investors to fill gaps in the industrial structure.",
+      "mechanism": "Investment promotion, customized incentives, and aftercare.",
+      "hue": "#FF4500",
+      "icon": "🎯",
+      "caseStudies": [
+        {
+          "label": "Singapore EDB Targeting",
+          "note": "Singapore targeted high-value MNCs to build new industries."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Technology Transfer Program",
+      "description": "Programs to facilitate the transfer of technology from foreign firms, research institutes, or experts to local firms.",
+      "mechanism": "Technical cooperation, licensing support, and joint projects.",
+      "hue": "#4169E1",
+      "icon": "🔄",
+      "caseStudies": [
+        {
+          "label": "Japan Technology Transfer",
+          "note": "Japan absorbed and adapted foreign technology during industrialization."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 4-5). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Export Promotion",
+      "description": "Measures to help firms enter export markets and meet international standards.",
+      "mechanism": "Export financing, trade fairs, market information, and quality certification.",
+      "hue": "#00FA9A",
+      "icon": "🚢",
+      "caseStudies": [
+        {
+          "label": "East Asian Export Promotion",
+          "note": "Export promotion was central to East Asian industrialization."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Local Supplier Database",
+      "description": "A database of local suppliers that helps MNCs identify and source from domestic firms.",
+      "mechanism": "Supplier registration, capability profiling, and matching services.",
+      "hue": "#9ACD32",
+      "icon": "📃",
+      "caseStudies": [
+        {
+          "label": "Malaysia Supplier Database",
+          "note": "Malaysia used supplier databases to promote FDI-local linkage."
+        }
+      ],
+      "references": [
+        {
+          "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "problem": 7,
+      "instrument": 20,
+      "role": "primary",
+      "strength": 5,
+      "name": "Provides strategic framework for structural change",
+      "conditions": ["Political commitment", "Diagnostic capacity"],
+      "functions": ["Shifting from given growth to value creation"]
+    },
+    {
+      "problem": 5,
+      "instrument": 8,
+      "role": "primary",
+      "strength": 5,
+      "name": "Enables policy learning and adaptation",
+      "conditions": ["Trust between government and private sector"],
+      "functions": ["Formulating concrete policies based on international experience"]
+    },
+    {
+      "problem": 7,
+      "instrument": 5,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Directs investment toward priority activities",
+      "conditions": ["Effective administration", "Avoidance of rent-seeking"],
+      "functions": ["Attracting investment in targeted industries"]
+    },
+    {
+      "problem": 1,
+      "instrument": 14,
+      "role": "primary",
+      "strength": 4,
+      "name": "Builds firm-level value-creating capability",
+      "conditions": ["Qualified technical staff", "Sustained follow-up"],
+      "functions": ["Helping firms improve processes and products"]
+    },
+    {
+      "problem": 1,
+      "instrument": 1,
+      "role": "primary",
+      "strength": 5,
+      "name": "Directly improves enterprise productivity",
+      "conditions": ["Hands-on, gemba-oriented training", "Sustained follow-up"],
+      "functions": ["SME upgrading in manufacturing"]
+    },
+    {
+      "problem": 1,
+      "instrument": 2,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Diagnoses firm-level constraints",
+      "conditions": ["Institutionalized diagnostic system"],
+      "functions": ["Identifying management and technical problems"]
+    },
+    {
+      "problem": 3,
+      "instrument": 7,
+      "role": "primary",
+      "strength": 5,
+      "name": "Builds technical skills",
+      "conditions": ["Industry participation", "Qualified instructors"],
+      "functions": ["Creating a pipeline of engineers and technicians"]
+    },
+    {
+      "problem": 3,
+      "instrument": 9,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Finances human capital development",
+      "conditions": ["Mandatory employer contributions or budget allocation"],
+      "functions": ["Scaling up training for existing workers"]
+    },
+    {
+      "problem": 5,
+      "instrument": 13,
+      "role": "primary",
+      "strength": 4,
+      "name": "Builds policy analysis and adaptation capacity",
+      "conditions": ["Skilled staff", "Access to international experience"],
+      "functions": ["Comparative policy analysis and adaptation"]
+    },
+    {
+      "problem": 4,
+      "instrument": 3,
+      "role": "primary",
+      "strength": 5,
+      "name": "Reduces credit risk for banks",
+      "conditions": ["Credit information system", "Bank participation"],
+      "functions": ["Enabling SMEs without sufficient collateral to obtain loans"]
+    },
+    {
+      "problem": 4,
+      "instrument": 4,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Channels subsidized credit",
+      "conditions": ["Clear targeting criteria", "Monitoring capacity"],
+      "functions": ["Directing credit to priority industries"]
+    },
+    {
+      "problem": 2,
+      "instrument": 10,
+      "role": "primary",
+      "strength": 5,
+      "name": "Attracts anchor firms to create linkages",
+      "conditions": ["Ability to provide customized infrastructure and incentives"],
+      "functions": ["Building clusters around a large MNC"]
+    },
+    {
+      "problem": 2,
+      "instrument": 11,
+      "role": "primary",
+      "strength": 5,
+      "name": "Upgrades local suppliers for MNC linkage",
+      "conditions": ["MNC commitment", "Supplier absorptive capacity"],
+      "functions": ["Integrating local firms into global value chains"]
+    },
+    {
+      "problem": 6,
+      "instrument": 6,
+      "role": "primary",
+      "strength": 5,
+      "name": "Provides serviced industrial land and facilities",
+      "conditions": ["Effective park management", "Reliable utilities"],
+      "functions": ["Attracting industrial investment"]
+    },
+    {
+      "problem": 6,
+      "instrument": 17,
+      "role": "primary",
+      "strength": 5,
+      "name": "Provides essential industrial infrastructure",
+      "conditions": ["Public investment capacity"],
+      "functions": ["Reducing production costs and improving reliability"]
+    },
+    {
+      "problem": 7,
+      "instrument": 5,
+      "role": "primary",
+      "strength": 4,
+      "name": "Diversifies investment toward non-resource activities",
+      "conditions": ["Clear priority sectors"],
+      "functions": ["Using resource revenues to build manufacturing"]
+    },
+    {
+      "problem": 7,
+      "instrument": 18,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Builds non-resource industrial clusters",
+      "conditions": ["Infrastructure and skills"],
+      "functions": ["Promoting new industrial sectors"]
+    },
+    {
+      "problem": 7,
+      "instrument": 20,
+      "role": "primary",
+      "strength": 4,
+      "name": "Integrates aid into a capability-building strategy",
+      "conditions": ["Country ownership"],
+      "functions": ["Using aid to support industrial policy"]
+    },
+    {
+      "problem": 7,
+      "instrument": 20,
+      "role": "primary",
+      "strength": 4,
+      "name": "Balances big projects with broad industrial support",
+      "conditions": ["Political discipline"],
+      "functions": ["Linking large projects to local suppliers"]
+    },
+    {
+      "problem": 7,
+      "instrument": 8,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Ensures broad stakeholder input",
+      "conditions": ["Inclusive dialogue"],
+      "functions": ["Avoiding bias toward showcase projects"]
+    },
+    {
+      "problem": 2,
+      "instrument": 11,
+      "role": "primary",
+      "strength": 5,
+      "name": "Breaks FDI enclave by developing local suppliers",
+      "conditions": ["MNC sourcing policy", "Supplier upgrading"],
+      "functions": ["Increasing local content"]
+    },
+    {
+      "problem": 2,
+      "instrument": 10,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Uses anchor firms to catalyze linkages",
+      "conditions": ["Targeted attraction"],
+      "functions": ["Building clusters around MNCs"]
+    },
+    {
+      "problem": 1,
+      "instrument": 1,
+      "role": "primary",
+      "strength": 5,
+      "name": "Improves SME management and productivity",
+      "conditions": ["Hands-on training", "Management commitment"],
+      "functions": ["SME upgrading"]
+    },
+    {
+      "problem": 1,
+      "instrument": 2,
+      "role": "primary",
+      "strength": 4,
+      "name": "Diagnoses SME weaknesses",
+      "conditions": ["Institutionalized diagnosis"],
+      "functions": ["Tailored SME support"]
+    },
+    {
+      "problem": 1,
+      "instrument": 1,
+      "role": "primary",
+      "strength": 5,
+      "name": "Improves quality and reduces defects",
+      "conditions": ["Worker involvement"],
+      "functions": ["Quality upgrading"]
+    },
+    {
+      "problem": 1,
+      "instrument": 22,
+      "role": "primary",
+      "strength": 4,
+      "name": "Engages workers in quality problem-solving",
+      "conditions": ["Training and facilitation"],
+      "functions": ["Continuous quality improvement"]
+    },
+    {
+      "problem": 2,
+      "instrument": 11,
+      "role": "primary",
+      "strength": 5,
+      "name": "Develops supporting industries",
+      "conditions": ["Anchor firm demand", "Supplier capability building"],
+      "functions": ["Local content development"]
+    },
+    {
+      "problem": 2,
+      "instrument": 18,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Promotes supplier clusters",
+      "conditions": ["Infrastructure and coordination"],
+      "functions": ["Building industrial clusters"]
+    },
+    {
+      "problem": 1,
+      "instrument": 14,
+      "role": "primary",
+      "strength": 5,
+      "name": "Builds technology absorption capability",
+      "conditions": ["Technical staff", "Firm commitment"],
+      "functions": ["Adapting imported technology"]
+    },
+    {
+      "problem": 1,
+      "instrument": 28,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Facilitates technology transfer",
+      "conditions": ["Partner willingness", "Absorptive capacity"],
+      "functions": ["Learning from foreign firms"]
+    },
+    {
+      "problem": 3,
+      "instrument": 7,
+      "role": "primary",
+      "strength": 5,
+      "name": "Expands engineering and technician training",
+      "conditions": ["Industry-relevant curricula"],
+      "functions": ["Building technical manpower"]
+    },
+    {
+      "problem": 3,
+      "instrument": 24,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Certifies technical skills",
+      "conditions": ["National standards"],
+      "functions": ["Improving labor market signaling"]
+    },
+    {
+      "problem": 3,
+      "instrument": 7,
+      "role": "primary",
+      "strength": 5,
+      "name": "Reforms and expands TVET",
+      "conditions": ["Industry participation", "Qualified instructors"],
+      "functions": ["Strengthening vocational education"]
+    },
+    {
+      "problem": 3,
+      "instrument": 9,
+      "role": "primary",
+      "strength": 4,
+      "name": "Finances TVET and training",
+      "conditions": ["Sustainable funding"],
+      "functions": ["Scaling up training programs"]
+    },
+    {
+      "problem": 3,
+      "instrument": 2,
+      "role": "primary",
+      "strength": 4,
+      "name": "Improves management practices",
+      "conditions": ["Qualified consultants"],
+      "functions": ["Management upgrading"]
+    },
+    {
+      "problem": 3,
+      "instrument": 7,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Provides management-related training",
+      "conditions": ["Curriculum relevance"],
+      "functions": ["Developing industrial managers"]
+    },
+    {
+      "problem": 3,
+      "instrument": 24,
+      "role": "primary",
+      "strength": 4,
+      "name": "Aligns skills with industry needs",
+      "conditions": ["Employer participation"],
+      "functions": ["Reducing skill mismatch"]
+    },
+    {
+      "problem": 3,
+      "instrument": 23,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Identifies skill needs through dialogue",
+      "conditions": ["Regular meetings"],
+      "functions": ["Labor market information"]
+    },
+    {
+      "problem": 5,
+      "instrument": 8,
+      "role": "primary",
+      "strength": 5,
+      "name": "Adapts policies to local context",
+      "conditions": ["Local ownership"],
+      "functions": ["Avoiding random policy copying"]
+    },
+    {
+      "problem": 5,
+      "instrument": 13,
+      "role": "primary",
+      "strength": 4,
+      "name": "Analyzes and adapts international best practices",
+      "conditions": ["Analytical capacity"],
+      "functions": ["Comparative policy analysis"]
+    },
+    {
+      "problem": 5,
+      "instrument": 23,
+      "role": "primary",
+      "strength": 5,
+      "name": "Coordinates policies across agencies and private sector",
+      "conditions": ["High-level participation"],
+      "functions": ["Policy coherence"]
+    },
+    {
+      "problem": 5,
+      "instrument": 20,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Provides a common policy framework",
+      "conditions": ["Clear priorities"],
+      "functions": ["Aligning agency actions"]
+    },
+    {
+      "problem": 5,
+      "instrument": 13,
+      "role": "primary",
+      "strength": 4,
+      "name": "Improves policy implementation through learning",
+      "conditions": ["Feedback mechanisms"],
+      "functions": ["Monitoring and adjustment"]
+    },
+    {
+      "problem": 5,
+      "instrument": 16,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Streamlines administrative implementation",
+      "conditions": ["Agency co-location"],
+      "functions": ["Investor facilitation"]
+    },
+    {
+      "problem": 5,
+      "instrument": 8,
+      "role": "primary",
+      "strength": 5,
+      "name": "Establishes regular public-private dialogue",
+      "conditions": ["Trust and commitment"],
+      "functions": ["Identifying real constraints"]
+    },
+    {
+      "problem": 5,
+      "instrument": 23,
+      "role": "primary",
+      "strength": 4,
+      "name": "Institutionalizes public-private coordination",
+      "conditions": ["Formal mandate"],
+      "functions": ["Joint policy formulation"]
+    },
+    {
+      "problem": 4,
+      "instrument": 3,
+      "role": "primary",
+      "strength": 5,
+      "name": "Reduces collateral requirements",
+      "conditions": ["Bank participation"],
+      "functions": ["SME lending"]
+    },
+    {
+      "problem": 4,
+      "instrument": 26,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Provides equipment without collateral",
+      "conditions": ["Leasing market development"],
+      "functions": ["Equipment investment"]
+    },
+    {
+      "problem": 4,
+      "instrument": 15,
+      "role": "primary",
+      "strength": 5,
+      "name": "Improves credit information",
+      "conditions": ["Data sharing", "Privacy rules"],
+      "functions": ["SME credit assessment"]
+    },
+    {
+      "problem": 4,
+      "instrument": 3,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Links credit information to risk sharing",
+      "conditions": ["Integrated systems"],
+      "functions": ["Reducing information asymmetry"]
+    },
+    {
+      "problem": 4,
+      "instrument": 25,
+      "role": "primary",
+      "strength": 5,
+      "name": "Provides long-term industrial finance",
+      "conditions": ["Sound governance"],
+      "functions": ["Capital investment"]
+    },
+    {
+      "problem": 4,
+      "instrument": 4,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Channels long-term funds through banks",
+      "conditions": ["Bank capacity"],
+      "functions": ["Priority sector lending"]
+    },
+    {
+      "problem": 4,
+      "instrument": 4,
+      "role": "primary",
+      "strength": 4,
+      "name": "Expands SME credit",
+      "conditions": ["Targeting criteria"],
+      "functions": ["SME finance"]
+    },
+    {
+      "problem": 4,
+      "instrument": 3,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Reduces SME lending risk",
+      "conditions": ["Guarantee fund sustainability"],
+      "functions": ["SME access to credit"]
+    },
+    {
+      "problem": 2,
+      "instrument": 11,
+      "role": "primary",
+      "strength": 5,
+      "name": "Upgrades local suppliers to MNC standards",
+      "conditions": ["MNC demand", "Technical assistance"],
+      "functions": ["Local sourcing"]
+    },
+    {
+      "problem": 2,
+      "instrument": 30,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Matches local suppliers with buyers",
+      "conditions": ["Accurate supplier data"],
+      "functions": ["Supplier identification"]
+    },
+    {
+      "problem": 2,
+      "instrument": 11,
+      "role": "primary",
+      "strength": 5,
+      "name": "Creates systematic linkage programs",
+      "conditions": ["Program management"],
+      "functions": ["FDI-local linkage"]
+    },
+    {
+      "problem": 2,
+      "instrument": 10,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Uses anchor firms to anchor linkage programs",
+      "conditions": ["Anchor firm cooperation"],
+      "functions": ["Cluster development"]
+    },
+    {
+      "problem": 2,
+      "instrument": 28,
+      "role": "primary",
+      "strength": 5,
+      "name": "Raises local absorptive capacity",
+      "conditions": ["Local partner capability"],
+      "functions": ["Learning from FDI"]
+    },
+    {
+      "problem": 2,
+      "instrument": 7,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Builds skills for absorption",
+      "conditions": ["Industry-relevant training"],
+      "functions": ["Workforce upgrading"]
+    },
+    {
+      "problem": 6,
+      "instrument": 17,
+      "role": "primary",
+      "strength": 5,
+      "name": "Provides reliable power",
+      "conditions": ["Investment in generation and grid"],
+      "functions": ["Industrial production"]
+    },
+    {
+      "problem": 6,
+      "instrument": 19,
+      "role": "primary",
+      "strength": 5,
+      "name": "Reduces logistics costs",
+      "conditions": ["Port and road efficiency"],
+      "functions": ["Export competitiveness"]
+    },
+    {
+      "problem": 6,
+      "instrument": 6,
+      "role": "primary",
+      "strength": 5,
+      "name": "Develops quality industrial parks",
+      "conditions": ["Infrastructure and management"],
+      "functions": ["Industrial clustering"]
+    },
+    {
+      "problem": 6,
+      "instrument": 16,
+      "role": "secondary",
+      "strength": 4,
+      "name": "Provides one-stop services in parks",
+      "conditions": ["Agency coordination"],
+      "functions": ["Investor facilitation"]
+    },
+    {
+      "problem": 6,
+      "instrument": 16,
+      "role": "primary",
+      "strength": 5,
+      "name": "Reduces administrative burden",
+      "conditions": ["Process simplification"],
+      "functions": ["Investment approval"]
+    },
+    {
+      "problem": 6,
+      "instrument": 21,
+      "role": "primary",
+      "strength": 4,
+      "name": "Reforms business laws and regulations",
+      "conditions": ["Legal capacity"],
+      "functions": ["Improving business environment"]
+    }
+  ]
+}

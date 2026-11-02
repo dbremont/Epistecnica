@@ -1,0 +1,107 @@
+{
+  "id": "swe",
+  "name": "Sweden",
+  "tags": [
+    "Nordic",
+    "European Union",
+    "High-Income Economy",
+    "Welfare State",
+    "Export-Oriented",
+    "Constitutional Monarchy"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Sweden is a constitutional monarchy in Northern Europe characterized by a high-income, export-oriented economy and a comprehensive welfare state. Historically transitioning from agrarian society to industrial power in the late 19th and early 20th centuries, Sweden developed globally competitive firms in engineering, automotive, telecommunications, and life sciences, supported by strong institutions, human capital formation, and social partnership models.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Konungariket Sverige",
+    "flagEmoji": "🇸🇪",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "10.5 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 10500000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 650 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 650000000000
+      },
+      {
+        "id": "area",
+        "value": "450,295 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 450295
+      },
+      {
+        "id": "capital",
+        "value": "Stockholm",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Constitutional Monarchy with Parliamentary System",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Sweden’s actor space from agrarian estates and monarchy to industrial conglomerates, labor unions, welfare-state institutions, and innovation-driven enterprises.",
+        "link": "rep/actor.html?code=swe"
+      },
+      {
+        "id": "industrial_and_innovation_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Industrial and Innovation Network Structure",
+        "description": "Network analysis of Sweden’s engineering firms, automotive and telecom sectors, research institutions, and integration into European and global value chains.",
+        "link": null
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of counties, metropolitan regions, transport infrastructure, and spatial concentration of industrial and knowledge clusters.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "SWE",
+      "region": "Northern Europe",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

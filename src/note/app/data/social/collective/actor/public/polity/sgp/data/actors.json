@@ -1,0 +1,855 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Singaporean actors (organizations and institutions) since 1819.",
+    "country": "Singapore",
+    "region": "Southeast Asia",
+    "flag": "🇸🇬",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Singapore. This dataset traces the formation, transformation, and significant milestones of entrepot, developmental-state, and financial entities, from Raffles to sovereign funds and the port-airport complex.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Straits Settlements and Raffles",
+      "type": "public",
+      "role": "Colonial foundation",
+      "regionOfActivity": "Singapore",
+      "description": "1819 treaty port grown into the Empire's eastern exchange.",
+      "events": [
+        {
+          "date": "1819-01-29",
+          "category": "birth",
+          "description": "Raffles lands; treaty with the Temenggong follows"
+        },
+        {
+          "date": "1867-04-01",
+          "category": "transformation",
+          "description": "Crown colony status granted"
+        },
+        {
+          "date": "1942-02-15",
+          "category": "milestone",
+          "description": "Fall to Japan; return 1945"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "People's Action Party state",
+      "type": "public",
+      "role": "Governing system",
+      "regionOfActivity": "Singapore",
+      "description": "1959-elected party building the developmental state.",
+      "events": [
+        {
+          "date": "1954-11-21",
+          "category": "birth",
+          "description": "PAP founded"
+        },
+        {
+          "date": "1959-06-05",
+          "category": "founding",
+          "description": "Self-government election won"
+        },
+        {
+          "date": "1965-08-09",
+          "category": "transformation",
+          "description": "Independence; republic proclaimed"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Monetary Authority of Singapore",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Singapore",
+      "description": "Currency-board lineage turned integrated financial supervisor.",
+      "events": [
+        {
+          "date": "1971-01-01",
+          "category": "birth",
+          "description": "MAS Act creates the authority"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "policy",
+          "description": "Managed-float exchange-rate regime centered"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "DBS Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Singapore",
+      "description": "Development bank turned Southeast Asian champion.",
+      "events": [
+        {
+          "date": "1968-07-16",
+          "category": "birth",
+          "description": "Development Bank of Singapore founded"
+        },
+        {
+          "date": "1998-06-01",
+          "category": "expansion",
+          "description": "POSBank merger; regional acquisitions follow"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "OCBC Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Singapore",
+      "description": "Oversea-Chinese lineage from three Hokkien banks.",
+      "events": [
+        {
+          "date": "1932-10-31",
+          "category": "birth",
+          "description": "Oversea-Chinese Banking Corporation merger"
+        },
+        {
+          "date": "2003-01-01",
+          "category": "expansion",
+          "description": "Keppel TatLee takeover"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "UOB",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Singapore",
+      "description": "Wee-family bank expanded across ASEAN.",
+      "events": [
+        {
+          "date": "1935-08-06",
+          "category": "birth",
+          "description": "United Chinese Bank founded"
+        },
+        {
+          "date": "2001-07-01",
+          "category": "expansion",
+          "description": "OUB takeover"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Temasek",
+      "type": "hybrid",
+      "role": "Sovereign investor",
+      "regionOfActivity": "Singapore",
+      "description": "State-company holder turned global portfolio owner.",
+      "events": [
+        {
+          "date": "1974-06-25",
+          "category": "birth",
+          "description": "Temasek incorporated under the companies act"
+        },
+        {
+          "date": "2002-01-01",
+          "category": "transformation",
+          "description": "Professional board; charter published 2009"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "GIC",
+      "type": "public",
+      "role": "Sovereign fund",
+      "regionOfActivity": "Singapore",
+      "description": "Reserve manager investing worldwide.",
+      "events": [
+        {
+          "date": "1981-05-22",
+          "category": "birth",
+          "description": "Government of Singapore Investment Corporation formed"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Central Provident Fund",
+      "type": "public",
+      "role": "Pension agency",
+      "regionOfActivity": "Singapore",
+      "description": "Compulsory-savings pillar funding housing and health.",
+      "events": [
+        {
+          "date": "1955-07-01",
+          "category": "birth",
+          "description": "CPF Ordinance takes effect"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Singapore Exchange",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "Singapore",
+      "description": "SES-SIMEX merger demutualized.",
+      "events": [
+        {
+          "date": "1973-06-04",
+          "category": "birth",
+          "description": "Stock Exchange of Singapore incorporated"
+        },
+        {
+          "date": "1999-12-01",
+          "category": "founding",
+          "description": "SES-SIMEX merger forms SGX"
+        },
+        {
+          "date": "2000-11-23",
+          "category": "transformation",
+          "description": "Demutualized listing"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "PSA International",
+      "type": "hybrid",
+      "role": "Port operator",
+      "regionOfActivity": "Singapore",
+      "description": "Port authority corporatized into a global terminal network.",
+      "events": [
+        {
+          "date": "1964-04-01",
+          "category": "birth",
+          "description": "Port of Singapore Authority formed"
+        },
+        {
+          "date": "1997-10-01",
+          "category": "transformation",
+          "description": "PSA Corporation corporatized"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "expansion",
+          "description": "Hutchison port assets bid era"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Changi Airport Group",
+      "type": "hybrid",
+      "role": "Airport operator",
+      "regionOfActivity": "Singapore",
+      "description": "CAAS corporatized hub operator.",
+      "events": [
+        {
+          "date": "1981-07-01",
+          "category": "birth",
+          "description": "Changi Airport opens"
+        },
+        {
+          "date": "2009-07-01",
+          "category": "transformation",
+          "description": "Corporatization creates CAG"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Singapore Airlines",
+      "type": "hybrid",
+      "role": "Flag carrier",
+      "regionOfActivity": "Singapore",
+      "description": "MSA split-off turned premium global carrier.",
+      "events": [
+        {
+          "date": "1972-10-01",
+          "category": "birth",
+          "description": "Malaysia-Singapore Airlines split creates SIA"
+        },
+        {
+          "date": "2004-01-01",
+          "category": "technical",
+          "description": "A380 launch-customer era"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "SATS",
+      "type": "private",
+      "role": "Ground-handler",
+      "regionOfActivity": "Singapore",
+      "description": "SIA ground-services arm listed separately.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "SATS division formed inside SIA"
+        },
+        {
+          "date": "2009-09-01",
+          "category": "transformation",
+          "description": "In-flight catering split; SATS listed"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "SMRT and SBS Transit",
+      "type": "private",
+      "role": "Transit operators",
+      "regionOfActivity": "Singapore",
+      "description": "MRT duopoly under the New Rail Financing Framework.",
+      "events": [
+        {
+          "date": "1987-11-07",
+          "category": "birth",
+          "description": "MRT service begins"
+        },
+        {
+          "date": "2000-07-26",
+          "category": "transformation",
+          "description": "SMRT listing"
+        },
+        {
+          "date": "2016-09-15",
+          "category": "policy",
+          "description": "Rail assets transfer to the state"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Singtel",
+      "type": "hybrid",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Singapore",
+      "description": "Telecoms Authority corporatized into a regional associate empire.",
+      "events": [
+        {
+          "date": "1992-04-01",
+          "category": "birth",
+          "description": "Singapore Telecom privatized from TAS"
+        },
+        {
+          "date": "1993-10-18",
+          "category": "milestone",
+          "description": "Listing; Optus takeover follows 2001"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "StarHub",
+      "type": "private",
+      "role": "Telecom challenger",
+      "regionOfActivity": "Singapore",
+      "description": "1998 duopoly entrant with cable roots.",
+      "events": [
+        {
+          "date": "1998-04-01",
+          "category": "birth",
+          "description": "Licences awarded to StarHub consortium"
+        },
+        {
+          "date": "2005-01-14",
+          "category": "transformation",
+          "description": "Listing completes"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "SP Group",
+      "type": "hybrid",
+      "role": "Grid operator",
+      "regionOfActivity": "Singapore",
+      "description": "PUB electricity-gas networks unbundled.",
+      "events": [
+        {
+          "date": "1995-10-01",
+          "category": "birth",
+          "description": "Singapore Power formed from PUB split"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "transformation",
+          "description": "Temasek ownership; market liberalization follows"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Keppel Corporation",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Singapore",
+      "description": "Harbour-board shipyard turned rig-builder and developer.",
+      "events": [
+        {
+          "date": "1968-06-28",
+          "category": "birth",
+          "description": "Keppel Shipyard corporatized"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "founding",
+          "description": "Keppel Corporation holding formed"
+        },
+        {
+          "date": "2023-01-01",
+          "category": "transformation",
+          "description": "Offshore-marine merger with Sembcorp Marine"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Sembcorp Industries",
+      "type": "hybrid",
+      "role": "Energy and urban group",
+      "regionOfActivity": "Singapore",
+      "description": "Jurong-engineered utilities and marine group.",
+      "events": [
+        {
+          "date": "1963-06-01",
+          "category": "birth",
+          "description": "Jurong Shipyard founded"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "founding",
+          "description": "Sembcorp Industries formed"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "ST Engineering",
+      "type": "hybrid",
+      "role": "Defense-technology group",
+      "regionOfActivity": "Singapore",
+      "description": "Chartered-industries lineage serving SAF and export markets.",
+      "events": [
+        {
+          "date": "1967-12-01",
+          "category": "birth",
+          "description": "Chartered Industries founded"
+        },
+        {
+          "date": "1990-12-11",
+          "category": "transformation",
+          "description": "Listing; ST Engineering brand 1997"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Creative Technology",
+      "type": "private",
+      "role": "Audio company",
+      "regionOfActivity": "Singapore",
+      "description": "Sound Blaster maker that defined PC audio.",
+      "events": [
+        {
+          "date": "1981-07-01",
+          "category": "birth",
+          "description": "Creative founded"
+        },
+        {
+          "date": "1992-08-04",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Sea Limited",
+      "type": "private",
+      "role": "Internet group",
+      "regionOfActivity": "Singapore",
+      "description": "Garena-gaming roots grown into Shopee and Monee.",
+      "events": [
+        {
+          "date": "2009-01-01",
+          "category": "birth",
+          "description": "Garena founded"
+        },
+        {
+          "date": "2017-10-20",
+          "category": "milestone",
+          "description": "NYSE listing as Sea"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Grab",
+      "type": "private",
+      "role": "Superapp group",
+      "regionOfActivity": "Singapore",
+      "description": "Malaysian taxi app relocated and SPAC-listed.",
+      "events": [
+        {
+          "date": "2012-06-01",
+          "category": "birth",
+          "description": "MyTeksi founded in Kuala Lumpur"
+        },
+        {
+          "date": "2019-01-01",
+          "category": "milestone",
+          "description": "Headquarters moved to Singapore"
+        },
+        {
+          "date": "2021-12-02",
+          "category": "transformation",
+          "description": "Nasdaq SPAC listing"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Razer",
+      "type": "private",
+      "role": "Gaming-hardware brand",
+      "regionOfActivity": "Singapore",
+      "description": "Boomslang-mouse lineage listed in Hong Kong.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "Razer founded"
+        },
+        {
+          "date": "2017-11-13",
+          "category": "milestone",
+          "description": "Hong Kong listing"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "National University of Singapore",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Singapore",
+      "description": "Straits medical school grown into a global research university.",
+      "events": [
+        {
+          "date": "1905-07-03",
+          "category": "birth",
+          "description": "Straits and Federated Malay States medical school founded"
+        },
+        {
+          "date": "1980-08-08",
+          "category": "founding",
+          "description": "NUS-Nanyang merger forms the university"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Nanyang Technological University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Singapore",
+      "description": "Nantah-NTI lineage turned engineering powerhouse.",
+      "events": [
+        {
+          "date": "1955-01-01",
+          "category": "birth",
+          "description": "Nanyang University founded"
+        },
+        {
+          "date": "1991-01-01",
+          "category": "founding",
+          "description": "NTI merger forms NTU"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "A*STAR",
+      "type": "public",
+      "role": "Research agency",
+      "regionOfActivity": "Singapore",
+      "description": "Science-council engine of the biomedical hub.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "birth",
+          "description": "National Science and Technology Board founded"
+        },
+        {
+          "date": "2002-01-11",
+          "category": "transformation",
+          "description": "A*STAR rebrand"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Economic Development Board",
+      "type": "public",
+      "role": "Investment agency",
+      "regionOfActivity": "Singapore",
+      "description": "Jurong-era agency courting multinationals.",
+      "events": [
+        {
+          "date": "1961-08-01",
+          "category": "birth",
+          "description": "EDB established"
+        },
+        {
+          "date": "1968-01-01",
+          "category": "expansion",
+          "description": "Jurong Town Corporation split off"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "JTC Corporation",
+      "type": "public",
+      "role": "Industrial landlord",
+      "regionOfActivity": "Singapore",
+      "description": "Jurong estate developer turned industrial-space manager.",
+      "events": [
+        {
+          "date": "1968-06-01",
+          "category": "birth",
+          "description": "JTC Act creates the corporation"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Housing and Development Board",
+      "type": "public",
+      "role": "Housing agency",
+      "regionOfActivity": "Singapore",
+      "description": "Builder of homes for four-fifths of residents.",
+      "events": [
+        {
+          "date": "1960-02-01",
+          "category": "birth",
+          "description": "HDB established"
+        },
+        {
+          "date": "1964-02-12",
+          "category": "policy",
+          "description": "Home Ownership Scheme launched"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Mediacorp",
+      "type": "hybrid",
+      "role": "Broadcaster",
+      "regionOfActivity": "Singapore",
+      "description": "State-linked commercial radio-television group.",
+      "events": [
+        {
+          "date": "1936-01-01",
+          "category": "birth",
+          "description": "Radio broadcasting begins; SBC era follows"
+        },
+        {
+          "date": "1994-10-01",
+          "category": "transformation",
+          "description": "Privatized as Singapore International Media"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "SPH Media",
+      "type": "private",
+      "role": "Newspaper group",
+      "regionOfActivity": "Singapore",
+      "description": "Straits Times lineage turned nonprofit media trust.",
+      "events": [
+        {
+          "date": "1845-07-15",
+          "category": "birth",
+          "description": "The Straits Times founded"
+        },
+        {
+          "date": "2021-12-01",
+          "category": "transformation",
+          "description": "Nonprofit company limited by guarantee"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "NTUC",
+      "type": "hybrid",
+      "role": "Labor movement",
+      "regionOfActivity": "Singapore",
+      "description": "PAP-aligned confederation running supermarkets and insurance.",
+      "events": [
+        {
+          "date": "1961-09-06",
+          "category": "birth",
+          "description": "NTUC founded after the SATU split"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Singapore Business Federation",
+      "type": "private",
+      "role": "Business chamber",
+      "regionOfActivity": "Singapore",
+      "description": "Apex business voice.",
+      "events": [
+        {
+          "date": "2002-04-01",
+          "category": "birth",
+          "description": "SBF established by statute"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "CapitaLand",
+      "type": "private",
+      "role": "Property group",
+      "regionOfActivity": "Singapore",
+      "description": "Pidemco-DBS Land merger turned Asian developer-investment manager.",
+      "events": [
+        {
+          "date": "2000-11-28",
+          "category": "birth",
+          "description": "Pidemco Land-DBS Land merger forms CapitaLand"
+        },
+        {
+          "date": "2021-09-20",
+          "category": "transformation",
+          "description": "Development arm privatized; investment manager listed"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Wilmar International",
+      "type": "private",
+      "role": "Agribusiness group",
+      "regionOfActivity": "Singapore",
+      "description": "Kuok-family palm-oil refiner grown into a global trader.",
+      "events": [
+        {
+          "date": "1991-04-01",
+          "category": "birth",
+          "description": "Wilmar founded"
+        },
+        {
+          "date": "2007-07-14",
+          "category": "expansion",
+          "description": "PPB Oil Palms merger"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Olam Group",
+      "type": "private",
+      "role": "Food trader",
+      "regionOfActivity": "Singapore",
+      "description": "Kewalram cashew trader turned food-ingredients major.",
+      "events": [
+        {
+          "date": "1989-01-01",
+          "category": "birth",
+          "description": "Olam founded to export Nigerian cashews"
+        },
+        {
+          "date": "2022-03-01",
+          "category": "transformation",
+          "description": "Olam Food Ingredients demerger track"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Fraser and Neave",
+      "type": "private",
+      "role": "Food and property group",
+      "regionOfActivity": "Singapore",
+      "description": "1883 soft-drinks house turned TCC-asset property group.",
+      "events": [
+        {
+          "date": "1883-01-01",
+          "category": "birth",
+          "description": "Singapore and Straits Aerated Water Company founded"
+        },
+        {
+          "date": "2013-01-29",
+          "category": "transformation",
+          "description": "ThaiBev takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "ComfortDelGro",
+      "type": "private",
+      "role": "Transport group",
+      "regionOfActivity": "Singapore",
+      "description": "Taxi-bus merger operating on three continents.",
+      "events": [
+        {
+          "date": "2003-03-29",
+          "category": "birth",
+          "description": "Comfort-DelGro merger"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "M1",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Singapore",
+      "description": "Third mobile entrant absorbed by Keppel-SPH venture.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "MobileOne licence awarded"
+        },
+        {
+          "date": "2019-04-24",
+          "category": "transformation",
+          "description": "Keppel-SPH takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "ST Telemedia",
+      "type": "hybrid",
+      "role": "Tech investor",
+      "regionOfActivity": "Singapore",
+      "description": "Temasek telecom-technology holding.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Singapore Technologies Telemedia formed"
+        }
+      ]
+    }
+  ]
+}

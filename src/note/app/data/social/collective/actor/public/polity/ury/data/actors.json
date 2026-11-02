@@ -1,0 +1,760 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Uruguayan actors (organizations and institutions) since 1800.",
+    "country": "Uruguay",
+    "region": "South America",
+    "flag": "🇺🇾",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Uruguay. This dataset traces the formation, transformation, and significant milestones of buffer-state, Batllista, and services entities, from Artigas to pulp mills and fintech.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Artigas and the federal league",
+      "type": "public",
+      "role": "Founding leadership",
+      "regionOfActivity": "Montevideo",
+      "description": "Protector of the Free Peoples seeding Uruguayan statehood.",
+      "events": [
+        {
+          "date": "1815-06-29",
+          "category": "milestone",
+          "description": "Congress of Oriente proclaims federal league"
+        },
+        {
+          "date": "1820-09-05",
+          "category": "death",
+          "description": "Artigas exiled; Portuguese occupation follows"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "1830 Constitution and the state",
+      "type": "public",
+      "role": "Constitutional order",
+      "regionOfActivity": "Montevideo",
+      "description": "First constitution of the Oriental Republic.",
+      "events": [
+        {
+          "date": "1830-07-18",
+          "category": "birth",
+          "description": "Constitution sworn; independence consolidated 1828 treaty"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Banco de la República Oriental",
+      "type": "public",
+      "role": "State bank",
+      "regionOfActivity": "Montevideo",
+      "description": "1896-founded witness bank dominating domestic credit.",
+      "events": [
+        {
+          "date": "1896-08-24",
+          "category": "birth",
+          "description": "BROU law creates the bank"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Banco Hipotecario del Uruguay",
+      "type": "public",
+      "role": "Mortgage bank",
+      "regionOfActivity": "Montevideo",
+      "description": "Housing-finance arm of the state.",
+      "events": [
+        {
+          "date": "1892-03-24",
+          "category": "birth",
+          "description": "BHU founded"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Banco Itaú Uruguay lineage",
+      "type": "private",
+      "role": "Banking history",
+      "regionOfActivity": "Montevideo",
+      "description": "Branch-banking lineage in a dollarized plaza.",
+      "events": [
+        {
+          "date": "1880-01-01",
+          "category": "birth",
+          "description": "Banco Italiano del Uruguay era opens foreign banking"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Bolsa de Valores de Montevideo",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "Montevideo",
+      "description": "1867 bourse of a small open capital market.",
+      "events": [
+        {
+          "date": "1867-01-01",
+          "category": "birth",
+          "description": "Bolsa de Comercio founded"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "UTE",
+      "type": "public",
+      "role": "Electric utility",
+      "regionOfActivity": "Montevideo",
+      "description": "1912 state powerhouse running on hydro and wind.",
+      "events": [
+        {
+          "date": "1912-10-21",
+          "category": "birth",
+          "description": "Usinas Eléctricas del Estado created"
+        },
+        {
+          "date": "2015-01-01",
+          "category": "technical",
+          "description": "Wind share passes one-third of generation"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "ANCAP",
+      "type": "public",
+      "role": "Oil company",
+      "regionOfActivity": "Montevideo",
+      "description": "Batllista state refiner and cement producer.",
+      "events": [
+        {
+          "date": "1931-10-15",
+          "category": "birth",
+          "description": "ANCAP law creates the monopoly"
+        },
+        {
+          "date": "1937-01-01",
+          "category": "expansion",
+          "description": "La Teja refinery inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "ANTEL",
+      "type": "public",
+      "role": "Telecom operator",
+      "regionOfActivity": "Montevideo",
+      "description": "State carrier with mobile arm and fiber lead.",
+      "events": [
+        {
+          "date": "1974-07-25",
+          "category": "birth",
+          "description": "Administración Nacional de Telecomunicaciones created"
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "Fifth-generation services launch first in region"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "OSE",
+      "type": "public",
+      "role": "Water utility",
+      "regionOfActivity": "Montevideo",
+      "description": "State water and sanitation monopoly.",
+      "events": [
+        {
+          "date": "1952-12-19",
+          "category": "birth",
+          "description": "OSE law creates the obras sanitarias"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Aeronáutica and PLUNA lineage",
+      "type": "public",
+      "role": "Airline history",
+      "regionOfActivity": "Montevideo",
+      "description": "1936 flag carrier liquidated 2012.",
+      "events": [
+        {
+          "date": "1936-11-20",
+          "category": "birth",
+          "description": "PLUNA founded"
+        },
+        {
+          "date": "2012-07-05",
+          "category": "death",
+          "description": "Operations cease; liquidation follows"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Ferrocarriles del Uruguay",
+      "type": "public",
+      "role": "Railway administration",
+      "regionOfActivity": "Montevideo",
+      "description": "British-built network nationalized mid-century.",
+      "events": [
+        {
+          "date": "1869-01-01",
+          "category": "birth",
+          "description": "First line opens to Las Piedras"
+        },
+        {
+          "date": "1949-01-01",
+          "category": "transformation",
+          "description": "AFE nationalizes the British railways"
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "Central Railway PPP for UPM pulp trains"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "UPM Uruguay",
+      "type": "private",
+      "role": "Pulp producer",
+      "regionOfActivity": "Montevideo",
+      "description": "Finnish pulp mills anchoring export growth.",
+      "events": [
+        {
+          "date": "2007-11-08",
+          "category": "birth",
+          "description": "Fray Bentos mill starts; ICJ case follows"
+        },
+        {
+          "date": "2023-04-01",
+          "category": "expansion",
+          "description": "Paso de los Toros mill inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Montes del Plata",
+      "type": "private",
+      "role": "Pulp producer",
+      "regionOfActivity": "Colonia",
+      "description": "Stora Enso-Arauco joint venture at Punta Pereira.",
+      "events": [
+        {
+          "date": "2009-01-01",
+          "category": "birth",
+          "description": "Joint venture formed"
+        },
+        {
+          "date": "2014-06-01",
+          "category": "technical",
+          "description": "Mill commissioned"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Conaprole",
+      "type": "hybrid",
+      "role": "Dairy cooperative",
+      "regionOfActivity": "Montevideo",
+      "description": "Farmer-owned dairy exporter.",
+      "events": [
+        {
+          "date": "1936-01-01",
+          "category": "birth",
+          "description": "Cooperativa Nacional de Productores de Leche founded"
+        },
+        {
+          "date": "2021-01-01",
+          "category": "expansion",
+          "description": "Villa Rodríguez powder plant commissioned"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Frigorífico Nacional lineage",
+      "type": "public",
+      "role": "Meatpacking history",
+      "regionOfActivity": "Montevideo",
+      "description": "Batllista meat trust privatized and closed.",
+      "events": [
+        {
+          "date": "1928-01-01",
+          "category": "birth",
+          "description": "Frigorífico Nacional created"
+        },
+        {
+          "date": "1978-01-01",
+          "category": "death",
+          "description": "Dictatorship closes the plant"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Marfrig Uruguay plants",
+      "type": "private",
+      "role": "Meatpacker",
+      "regionOfActivity": "Montevideo",
+      "description": "Brazilian group running Uruguayan beef plants.",
+      "events": [
+        {
+          "date": "2006-01-01",
+          "category": "birth",
+          "description": "Marfrig enters Uruguay"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Zonamerica",
+      "type": "private",
+      "role": "Free-trade zone",
+      "regionOfActivity": "Montevideo",
+      "description": "Services free zone hosting shared-service centers.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Zonamerica law enables the park"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "Tata Consultancy anchor arrives"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Mercado Libre Uruguay",
+      "type": "private",
+      "role": "E-commerce history",
+      "regionOfActivity": "Montevideo",
+      "description": "Early MercadoLibre engineering hub.",
+      "events": [
+        {
+          "date": "2002-01-01",
+          "category": "birth",
+          "description": "Montevideo development center opens"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "dLocal",
+      "type": "private",
+      "role": "Payments platform",
+      "regionOfActivity": "Montevideo",
+      "description": "Emerging-markets pay-in fintech unicorn.",
+      "events": [
+        {
+          "date": "2016-01-01",
+          "category": "birth",
+          "description": "dLocal founded"
+        },
+        {
+          "date": "2021-06-03",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "GeneXus",
+      "type": "private",
+      "role": "Software company",
+      "regionOfActivity": "Montevideo",
+      "description": "AI-assisted low-code platform pioneer.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "GeneXus founded; ARTech lineage begins"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "CUTI",
+      "type": "private",
+      "role": "IT chamber",
+      "regionOfActivity": "Montevideo",
+      "description": "Software-industry guild behind tax-free zones.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Cámara Uruguaya de TI founded"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Universidad de la República",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Montevideo",
+      "description": "Dámaso-founded free public mega-university.",
+      "events": [
+        {
+          "date": "1833-06-11",
+          "category": "birth",
+          "description": "Casa de Estudios Generales founded"
+        },
+        {
+          "date": "1849-07-18",
+          "category": "founding",
+          "description": "Universidad de la República chartered"
+        },
+        {
+          "date": "1958-10-14",
+          "category": "transformation",
+          "description": "Organic law grants co-government"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Universidad ORT",
+      "type": "private",
+      "role": "University",
+      "regionOfActivity": "Montevideo",
+      "description": "ORT-world technical university.",
+      "events": [
+        {
+          "date": "1942-01-01",
+          "category": "birth",
+          "description": "ORT schools founded; university era 1996"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "LATU",
+      "type": "public",
+      "role": "Technology laboratory",
+      "regionOfActivity": "Montevideo",
+      "description": "Industrial technology and quality institute.",
+      "events": [
+        {
+          "date": "1965-04-12",
+          "category": "birth",
+          "description": "Laboratorio Tecnológico del Uruguay created"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "INIA",
+      "type": "public",
+      "role": "Agricultural institute",
+      "regionOfActivity": "Montevideo",
+      "description": "Alberto Boerger lineage in crops and livestock.",
+      "events": [
+        {
+          "date": "1914-01-01",
+          "category": "birth",
+          "description": "La Estanzuela experimental station founded; INIA era 1989"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Institut Pasteur de Montevideo",
+      "type": "hybrid",
+      "role": "Biomedical institute",
+      "regionOfActivity": "Montevideo",
+      "description": "Franco-Uruguayan infectious-disease institute.",
+      "events": [
+        {
+          "date": "2006-01-01",
+          "category": "birth",
+          "description": "Institut Pasteur de Montevideo inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "PIT-CNT",
+      "type": "private",
+      "role": "Labor confederation",
+      "regionOfActivity": "Montevideo",
+      "description": "Unified labor central of the democratic era.",
+      "events": [
+        {
+          "date": "1983-05-01",
+          "category": "birth",
+          "description": "Plenario Intersindical founded; PIT-CNT 1984"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Cámara de Industrias",
+      "type": "private",
+      "role": "Industry chamber",
+      "regionOfActivity": "Montevideo",
+      "description": "Manufacturers' voice since 1898.",
+      "events": [
+        {
+          "date": "1898-11-07",
+          "category": "birth",
+          "description": "Unión Industrial Uruguaya founded"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "El País and El Observador",
+      "type": "private",
+      "role": "Newspapers",
+      "regionOfActivity": "Montevideo",
+      "description": "Blanco-leaning daily and modern competitor.",
+      "events": [
+        {
+          "date": "1918-09-14",
+          "category": "birth",
+          "description": "El País founded"
+        },
+        {
+          "date": "1991-10-22",
+          "category": "founding",
+          "description": "El Observador launched"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Canal 10 and Teledoce",
+      "type": "private",
+      "role": "Broadcasters",
+      "regionOfActivity": "Montevideo",
+      "description": "Historic commercial channels.",
+      "events": [
+        {
+          "date": "1956-12-01",
+          "category": "birth",
+          "description": "Canal 10 first broadcast"
+        },
+        {
+          "date": "1962-05-02",
+          "category": "founding",
+          "description": "Teledoce launched"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Punta del Este tourism complex",
+      "type": "hybrid",
+      "role": "Tourism cluster",
+      "regionOfActivity": "Punta del Este",
+      "description": "Playa-resort economy of casinos, ports and festivals.",
+      "events": [
+        {
+          "date": "1907-07-05",
+          "category": "birth",
+          "description": "Punta del Este founded as resort town"
+        },
+        {
+          "date": "1997-11-14",
+          "category": "expansion",
+          "description": "Conrad casino-hotel inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Forestación and FSC certification",
+      "type": "hybrid",
+      "role": "Forestry system",
+      "regionOfActivity": "Rivera",
+      "description": "Pine-eucalyptus plantation economy.",
+      "events": [
+        {
+          "date": "1987-12-16",
+          "category": "birth",
+          "description": "Forestry Law subsidizes plantations"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Canelones wine route",
+      "type": "private",
+      "role": "Wine cluster",
+      "regionOfActivity": "Canelones",
+      "description": "Tannat wineries of the south.",
+      "events": [
+        {
+          "date": "1830-01-01",
+          "category": "birth",
+          "description": "Basque immigrants plant Tannat; Varela era follows"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Ceibal",
+      "type": "public",
+      "role": "Edtech program",
+      "regionOfActivity": "Montevideo",
+      "description": "One-laptop-per-child national deployment.",
+      "events": [
+        {
+          "date": "2007-05-10",
+          "category": "birth",
+          "description": "Plan Ceibal decreed"
+        },
+        {
+          "date": "2009-10-01",
+          "category": "milestone",
+          "description": "Full primary coverage declared"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Banco de Seguros del Estado",
+      "type": "public",
+      "role": "State insurer",
+      "regionOfActivity": "Montevideo",
+      "description": "1911 state insurance monopoly, partially opened 1990s.",
+      "events": [
+        {
+          "date": "1911-12-27",
+          "category": "birth",
+          "description": "BSE law creates the monopoly"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "República AFAP",
+      "type": "hybrid",
+      "role": "Pension fund manager",
+      "regionOfActivity": "Montevideo",
+      "description": "BROU-owned manager of individual accounts.",
+      "events": [
+        {
+          "date": "1996-04-01",
+          "category": "birth",
+          "description": "AFAP system launches; República AFAP leads"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "UCUDAL",
+      "type": "private",
+      "role": "University",
+      "regionOfActivity": "Montevideo",
+      "description": "Catholic university of Uruguay.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "Universidad Católica del Uruguay founded"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Universidad de Montevideo",
+      "type": "private",
+      "role": "University",
+      "regionOfActivity": "Montevideo",
+      "description": "Opus Dei-linked private university.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "IEEM business school founded; UM follows 1997"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "CUTCSA",
+      "type": "private",
+      "role": "Bus operator",
+      "regionOfActivity": "Montevideo",
+      "description": "Worker-owned bus cooperative of the capital.",
+      "events": [
+        {
+          "date": "1937-08-13",
+          "category": "birth",
+          "description": "Cooperativa Uruguaya de Transporte Colectivo founded"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Puerta del Sur",
+      "type": "private",
+      "role": "Airport concession",
+      "regionOfActivity": "Canelones",
+      "description": "Carrasco terminal concessionaire.",
+      "events": [
+        {
+          "date": "2003-02-19",
+          "category": "birth",
+          "description": "Carrasco concession awarded"
+        },
+        {
+          "date": "2009-12-29",
+          "category": "technical",
+          "description": "Viñoly terminal inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Terminal Cuenca del Plata",
+      "type": "hybrid",
+      "role": "Port terminal",
+      "regionOfActivity": "Montevideo",
+      "description": "Katoen Natie-ANP container terminal.",
+      "events": [
+        {
+          "date": "2001-08-16",
+          "category": "birth",
+          "description": "TCP concession signed"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Cámara de Comercio",
+      "type": "private",
+      "role": "Trade chamber",
+      "regionOfActivity": "Montevideo",
+      "description": "1867 merchant guild voice.",
+      "events": [
+        {
+          "date": "1867-11-13",
+          "category": "birth",
+          "description": "Cámara Nacional de Comercio founded"
+        }
+      ]
+    }
+  ]
+}

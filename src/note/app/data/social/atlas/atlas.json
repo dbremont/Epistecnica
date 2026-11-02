@@ -1,0 +1,1642 @@
+{
+  "meta": {
+    "description": "The Social Element type tree from Philosophia Socialium et Operis: rooted at the abstract Social Element — whose type of order is the Social Order — and expanded into agents, agencies, intentions, actions, relations, norms, coordinators, structures and dynamics.",
+    "version": 1
+  },
+  "categories": [
+    {
+      "id": "root",
+      "label": "Social Element",
+      "plural": "Social Element",
+      "color": "#C4B998"
+    },
+    {
+      "id": "agent",
+      "label": "Agent",
+      "plural": "Agents",
+      "color": "#c9956c"
+    },
+    {
+      "id": "cognitive",
+      "label": "Cognitive",
+      "plural": "Cognitive",
+      "color": "#9b7eb0"
+    },
+    {
+      "id": "normative",
+      "label": "Normative",
+      "plural": "Normative",
+      "color": "#d4a857"
+    },
+    {
+      "id": "action",
+      "label": "Action",
+      "plural": "Action",
+      "color": "#c47d8a"
+    },
+    {
+      "id": "relation",
+      "label": "Relation",
+      "plural": "Relations",
+      "color": "#7ba388"
+    },
+    {
+      "id": "structural",
+      "label": "Structural",
+      "plural": "Structural",
+      "color": "#6b8caa"
+    },
+    {
+      "id": "dynamic",
+      "label": "Dynamic",
+      "plural": "Dynamics",
+      "color": "#4dd4c4"
+    },
+    {
+      "id": "coordinator",
+      "label": "Coordinator",
+      "plural": "Coordinators",
+      "color": "#dbb08a"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "social-element",
+      "name": "Social Element",
+      "type": "root",
+      "parent": null,
+      "def": "A concept denoting an element participating in the association-oriented and coordination-oriented dimension of collective life experienced by humans or other purposeful agents. The organized association side: units, agencies, actions, relations, norms, coordinators, structures, and dynamics through which agents hang together.",
+      "ex": []
+    },
+    {
+      "id": "interaction-unit",
+      "name": "Interaction Unit",
+      "type": "agent",
+      "parent": "social-element",
+      "def": "Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying.",
+      "ex": [
+        "Person",
+        "household",
+        "firm",
+        "party",
+        "nation-state",
+        "virtual community"
+      ]
+    },
+    {
+      "id": "social-actor",
+      "name": "Social Actor",
+      "type": "agent",
+      "parent": "interaction-unit",
+      "def": "An interaction unit considered as a participant in collective life under common authority; every instance resolves to exactly one side of the partition. `Social` names the interactional dimension; `Societal` below names of-society-as-opposed-to-state.",
+      "ex": [
+        "A ministry as actor",
+        "a household as actor"
+      ]
+    },
+    {
+      "id": "state-actor",
+      "name": "State Actor",
+      "type": "agent",
+      "parent": "social-actor",
+      "def": "Actor constituted by public authority, wielding delegated sovereign power or executing a public mandate.",
+      "ex": [
+        "Ministry",
+        "court",
+        "central bank",
+        "state laboratory",
+        "municipality"
+      ]
+    },
+    {
+      "id": "societal-actor",
+      "name": "Societal Actor",
+      "type": "agent",
+      "parent": "social-actor",
+      "def": "Actor constituted outside public authority.",
+      "ex": [
+        "Person",
+        "household",
+        "firm",
+        "association",
+        "party",
+        "movement"
+      ]
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "type": "agent",
+      "parent": "interaction-unit",
+      "def": "Structured capacity to form intentions, select actions, control execution, and integrate feedback.",
+      "ex": [
+        "Deliberative council",
+        "automated policy engine",
+        "charismatic leadership"
+      ]
+    },
+    {
+      "id": "individual-agency",
+      "name": "Individual Agency",
+      "type": "agent",
+      "parent": "agency",
+      "def": "Agency exercised by a single interaction unit: the locus of personal intention and choice.",
+      "ex": [
+        "A manager's hiring decision",
+        "a voter's ballot"
+      ]
+    },
+    {
+      "id": "joint-agency",
+      "name": "Joint Agency",
+      "type": "agent",
+      "parent": "agency",
+      "def": "Agency constituted by two or more units jointly committed to a shared intention: irreducibly plural, never the sum of individual agencies.",
+      "ex": [
+        "A bargaining pair",
+        "co-signing ministers",
+        "a crew's shared commitment"
+      ]
+    },
+    {
+      "id": "collective-agency",
+      "name": "Collective Agency",
+      "type": "agent",
+      "parent": "agency",
+      "def": "Agency exercised by a compound unit through its decision architecture.",
+      "ex": [
+        "A board's decision",
+        "a legislature's vote",
+        "a firm's market entry"
+      ]
+    },
+    {
+      "id": "intention",
+      "name": "Intention",
+      "type": "cognitive",
+      "parent": "agency",
+      "def": "Intentional structure: the formation and holding of goals, ends, and commitments directing agency.",
+      "ex": [
+        "A firm's expansion commitment",
+        "a worker's intent to strike"
+      ]
+    },
+    {
+      "id": "problematization",
+      "name": "Problematization",
+      "type": "cognitive",
+      "parent": "intention",
+      "def": "Apprehended gap between conditions and a norm, and the process of forming it; the social form of problematization (cf. the epistemic process).",
+      "ex": [
+        "Inflation framed as monetary vs supply-driven",
+        "a harbor safety deficit"
+      ]
+    },
+    {
+      "id": "deliberation",
+      "name": "Deliberation",
+      "type": "cognitive",
+      "parent": "intention",
+      "def": "Weighing of ends, means, and alternatives toward a commitment.",
+      "ex": [
+        "Cabinet debate",
+        "board deliberation"
+      ]
+    },
+    {
+      "id": "decision-choice",
+      "name": "Decision / Choice",
+      "type": "cognitive",
+      "parent": "intention",
+      "def": "Punctual resolution of deliberation into an owned commitment.",
+      "ex": [
+        "Vote to acquire",
+        "decision to hire"
+      ]
+    },
+    {
+      "id": "goal",
+      "name": "Goal",
+      "type": "normative",
+      "parent": "intention",
+      "def": "Desired future state coordinating effort: the object an intention takes.",
+      "ex": [
+        "Profit",
+        "full employment",
+        "carbon neutrality"
+      ]
+    },
+    {
+      "id": "objective-target",
+      "name": "Objective / Target",
+      "type": "normative",
+      "parent": "intention",
+      "def": "Formalized, measurable specification of a goal.",
+      "ex": [
+        "20% market share",
+        "50% emissions cut"
+      ]
+    },
+    {
+      "id": "collective-organization",
+      "name": "Collective / Organization",
+      "type": "agent",
+      "parent": "social-element",
+      "def": "Compound unit with identity, membership, and rules.",
+      "ex": [
+        "Corporation",
+        "trade union",
+        "congregation",
+        "platform cooperative"
+      ]
+    },
+    {
+      "id": "organizational-unit",
+      "name": "Organizational Unit",
+      "type": "agent",
+      "parent": "collective-organization",
+      "def": "Structured actor with internal rules and identity, scoping departments within a collective.",
+      "ex": [
+        "Ministry department",
+        "factory division"
+      ]
+    },
+    {
+      "id": "social-action",
+      "name": "Social Action",
+      "type": "action",
+      "parent": "intention",
+      "def": "Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective.",
+      "ex": [
+        "Transaction",
+        "vote",
+        "strike",
+        "treaty signature",
+        "meme cascade"
+      ]
+    },
+    {
+      "id": "activity",
+      "name": "Activity",
+      "type": "action",
+      "parent": "social-action",
+      "def": "Coarse bundle of granular social actions performed as one situated doing.",
+      "ex": [
+        "Auditing",
+        "commuting",
+        "trade negotiation",
+        "teaching a course"
+      ]
+    },
+    {
+      "id": "technical-activity",
+      "name": "Technical Activity",
+      "type": "action",
+      "parent": "activity",
+      "def": "Coarse bundle of granular technical actions: research, development, transfer, operation, maintenance.",
+      "ex": [
+        "Technology development",
+        "plant commissioning"
+      ]
+    },
+    {
+      "id": "action-guidance",
+      "name": "Action Guidance",
+      "type": "normative",
+      "parent": "social-action",
+      "def": "Guidance structure: coordinators that orient, license, and constrain subsequent action.",
+      "ex": [
+        "Strategy",
+        "Policy",
+        "Principle",
+        "Rule",
+        "Doctrine"
+      ]
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "type": "normative",
+      "parent": "action-guidance",
+      "def": "Deliberate selection of ends and means over a horizon, coordinating action across agents.",
+      "ex": [
+        "Industrial strategy",
+        "market-entry strategy"
+      ]
+    },
+    {
+      "id": "policy",
+      "name": "Policy",
+      "type": "normative",
+      "parent": "action-guidance",
+      "def": "Deliberate course of action adopted by an authority, guiding subsequent decisions.",
+      "ex": [
+        "Tax policy",
+        "language policy"
+      ]
+    },
+    {
+      "id": "principle",
+      "name": "Principle",
+      "type": "normative",
+      "parent": "action-guidance",
+      "def": "General rule or standard guiding and evaluating action.",
+      "ex": [
+        "Precautionary principle",
+        "subsidiarity"
+      ]
+    },
+    {
+      "id": "rule",
+      "name": "Rule",
+      "type": "normative",
+      "parent": "action-guidance",
+      "def": "Explicitly codified constraint prescribing or prohibiting conduct.",
+      "ex": [
+        "Quorum rule",
+        "eligibility rule"
+      ]
+    },
+    {
+      "id": "doctrine",
+      "name": "Doctrine",
+      "type": "cognitive",
+      "parent": "action-guidance",
+      "def": "Authoritative body of guiding tenets orienting action in a domain.",
+      "ex": [
+        "Monroe Doctrine",
+        "counterinsurgency doctrine"
+      ]
+    },
+    {
+      "id": "framework",
+      "name": "Framework",
+      "type": "cognitive",
+      "parent": "action-guidance",
+      "def": "Organizing lens and architecture structuring perception and action in a domain; operative (transformation designs) or analytic (grammars for reading change).",
+      "ex": [
+        "TP-SF-ATF",
+        "Social Region Change Toolkit Foundation"
+      ]
+    },
+    {
+      "id": "action-organization",
+      "name": "Action Organization",
+      "type": "action",
+      "parent": "social-action",
+      "def": "Organization structure: forms arranging actions into coordinated wholes across agents and time.",
+      "ex": [
+        "Plan",
+        "Program",
+        "Project",
+        "Workflow",
+        "Schedule",
+        "Initiative",
+        "Roadmap",
+        "Charter",
+        "Agenda"
+      ]
+    },
+    {
+      "id": "plan",
+      "name": "Plan",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Deliberate arrangement of future actions specifying ends, means, and sequence.",
+      "ex": [
+        "Evacuation plan",
+        "business plan"
+      ]
+    },
+    {
+      "id": "program",
+      "name": "Program",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Coordinated set of projects pursued under one objective.",
+      "ex": [
+        "Vaccination program",
+        "electrification program"
+      ]
+    },
+    {
+      "id": "project",
+      "name": "Project",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Time-bounded organized effort toward a defined outcome.",
+      "ex": [
+        "Bridge construction project",
+        "ERP rollout"
+      ]
+    },
+    {
+      "id": "workflow",
+      "name": "Workflow",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Defined sequence of steps routing work among actors and roles.",
+      "ex": [
+        "Approval workflow",
+        "clinical workflow"
+      ]
+    },
+    {
+      "id": "schedule",
+      "name": "Schedule",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Temporal allocation sequencing actions, agents, and resources.",
+      "ex": [
+        "Production schedule",
+        "class timetable"
+      ]
+    },
+    {
+      "id": "initiative",
+      "name": "Initiative",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Bounded undertaking launched to pursue a new objective.",
+      "ex": [
+        "Open-data initiative",
+        "reform initiative"
+      ]
+    },
+    {
+      "id": "roadmap",
+      "name": "Roadmap",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Sequenced long-range outlook aligning planned moves with milestones.",
+      "ex": [
+        "Product roadmap",
+        "decarbonization roadmap"
+      ]
+    },
+    {
+      "id": "charter",
+      "name": "Charter",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Founding instrument constituting an organized effort and its mandate.",
+      "ex": [
+        "Project charter",
+        "team charter"
+      ]
+    },
+    {
+      "id": "agenda",
+      "name": "Agenda",
+      "type": "action",
+      "parent": "action-organization",
+      "def": "Prioritized set of actions and initiatives ordered for collective attention and pursuit.",
+      "ex": [
+        "2030 Agenda",
+        "industrial agenda"
+      ]
+    },
+    {
+      "id": "action-instrumentation",
+      "name": "Action Instrumentation",
+      "type": "action",
+      "parent": "social-action",
+      "def": "Instrumentation structure: operative means coordinating and controlling execution — instruments wielded by agencies to steer, monitor, and enforce organized action.",
+      "ex": [
+        "Inspection",
+        "audit visit",
+        "permit issuance",
+        "sanction",
+        "monitoring dashboard",
+        "enforcement order"
+      ]
+    },
+    {
+      "id": "interaction-pattern",
+      "name": "Interaction Pattern",
+      "type": "action",
+      "parent": "social-action",
+      "def": "Recurring relational sequences shaped by protocols, scoping repeated exchanges.",
+      "ex": [
+        "Patronage cycle",
+        "rotation system",
+        "bargaining round"
+      ]
+    },
+    {
+      "id": "allocation",
+      "name": "Allocation",
+      "type": "action",
+      "parent": "social-action",
+      "def": "Distribution of scarce goods by rule, scoping who receives what.",
+      "ex": [
+        "Rationing",
+        "spectrum auction",
+        "quota assignment"
+      ]
+    },
+    {
+      "id": "behavior",
+      "name": "Behavior",
+      "type": "action",
+      "parent": "social-element",
+      "def": "Observable pattern of actions over time, scoping an agent's conduct.",
+      "ex": [
+        "Consumer behavior",
+        "voting behavior",
+        "firm behavior"
+      ]
+    },
+    {
+      "id": "social-relation-network",
+      "name": "Social Relation / Network",
+      "type": "relation",
+      "parent": "social-element",
+      "def": "Structured tie between units; kinship, alliance, exchange, hierarchy.",
+      "ex": [
+        "Supply chain",
+        "patronage web",
+        "kinship system"
+      ]
+    },
+    {
+      "id": "institution",
+      "name": "Institution",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Stabilized configuration of roles and rules.",
+      "ex": [
+        "Central bank",
+        "marriage",
+        "land registry"
+      ]
+    },
+    {
+      "id": "social-role",
+      "name": "Social Role",
+      "type": "relation",
+      "parent": "institution",
+      "def": "Expectation-tag binding actor, context, and interpretation to behavior.",
+      "ex": [
+        "Teacher role",
+        "fiduciary role",
+        "citizenship"
+      ]
+    },
+    {
+      "id": "power-relation",
+      "name": "Power Relation",
+      "type": "relation",
+      "parent": "social-element",
+      "def": "Asymmetric dependence stabilized into positional advantage.",
+      "ex": [
+        "Creditor–debtor",
+        "platform–complementor",
+        "metropole–colony"
+      ]
+    },
+    {
+      "id": "link",
+      "name": "Link",
+      "type": "relation",
+      "parent": "social-relation-network",
+      "def": "Minimal dyadic connection composing a network.",
+      "ex": [
+        "Kinship link",
+        "trade link"
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "name": "Supply Chain",
+      "type": "relation",
+      "parent": "social-relation-network",
+      "def": "Chain of exchange ties from source to sale.",
+      "ex": [
+        "Coffee chain",
+        "chip chain"
+      ]
+    },
+    {
+      "id": "pair",
+      "name": "Pair",
+      "type": "relation",
+      "parent": "social-element",
+      "def": "Minimal dyad stabilized by mutual recognition.",
+      "ex": [
+        "Patron–client pair",
+        "mentor–mentee pair"
+      ]
+    },
+    {
+      "id": "norm-regulation",
+      "name": "Norm / Regulation",
+      "type": "normative",
+      "parent": "social-role",
+      "def": "Shared protocol stabilizing interaction: building-block and emergent.",
+      "ex": [
+        "Queuing norm",
+        "accounting standard",
+        "ceasefire"
+      ]
+    },
+    {
+      "id": "right-obligation",
+      "name": "Right / Obligation",
+      "type": "normative",
+      "parent": "norm-regulation",
+      "def": "Deontic positions allocating claims and duties.",
+      "ex": [
+        "Property right",
+        "duty of disclosure",
+        "franchise"
+      ]
+    },
+    {
+      "id": "legitimacy",
+      "name": "Legitimacy",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Recognized warrant of authority.",
+      "ex": [
+        "Electoral mandate",
+        "expert accreditation"
+      ]
+    },
+    {
+      "id": "authority",
+      "name": "Authority",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Legitimated power to command and be obeyed.",
+      "ex": [
+        "Judicial authority",
+        "episcopal authority"
+      ]
+    },
+    {
+      "id": "convention",
+      "name": "Convention",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Stable coordination pattern sustained by mutual expectation, not enforcement.",
+      "ex": [
+        "Driving side",
+        "citation practices",
+        "handshake"
+      ]
+    },
+    {
+      "id": "cultural-script",
+      "name": "Cultural Script",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Semantically rich behavior protocol.",
+      "ex": [
+        "Wedding script",
+        "courtroom script",
+        "bargaining script"
+      ]
+    },
+    {
+      "id": "symbolic-system",
+      "name": "Symbolic System",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Full set of labels and interpretive frames used by a collective.",
+      "ex": [
+        "Heraldry",
+        "liturgical calendar",
+        "scientific nomenclature"
+      ]
+    },
+    {
+      "id": "status",
+      "name": "Status",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Relative standing recognized by a collective.",
+      "ex": [
+        "Prestige",
+        "rank",
+        "seniority"
+      ]
+    },
+    {
+      "id": "jurisdiction",
+      "name": "Jurisdiction",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Bounded domain of legitimate authority.",
+      "ex": [
+        "Municipality",
+        "court district",
+        "diocese"
+      ]
+    },
+    {
+      "id": "polity",
+      "name": "Polity",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Political community organized under a common authority.",
+      "ex": [
+        "City-state",
+        "tribal confederation"
+      ]
+    },
+    {
+      "id": "regime",
+      "name": "Regime",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Stable pattern of political rule.",
+      "ex": [
+        "Democracy",
+        "monarchy",
+        "one-party rule"
+      ]
+    },
+    {
+      "id": "governance-structure",
+      "name": "Governance Structure",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Arrangement through which authority and coordination are exercised.",
+      "ex": [
+        "Hierarchy",
+        "federalism",
+        "collegial board"
+      ]
+    },
+    {
+      "id": "collective-decision-mechanism",
+      "name": "Collective Decision Mechanism",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Procedure for making collective choices.",
+      "ex": [
+        "Election",
+        "consensus conference",
+        "sortition"
+      ]
+    },
+    {
+      "id": "interest",
+      "name": "Interest",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Stake in an outcome attributed to a unit.",
+      "ex": [
+        "Political interest",
+        "vested interest"
+      ]
+    },
+    {
+      "id": "constraint",
+      "name": "Constraint",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Limitation on action recognized in coordination.",
+      "ex": [
+        "Regulation",
+        "scarcity",
+        "quota"
+      ]
+    },
+    {
+      "id": "incentive",
+      "name": "Incentive",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Arrangement shaping behavior toward an outcome.",
+      "ex": [
+        "Wage",
+        "tax benefit",
+        "bonus"
+      ]
+    },
+    {
+      "id": "habitus",
+      "name": "Habitus",
+      "type": "normative",
+      "parent": "social-element",
+      "def": "Durable dispositions shaping perception and action.",
+      "ex": [
+        "Bureaucratic habitus",
+        "entrepreneurial habitus"
+      ]
+    },
+    {
+      "id": "belief-expectation",
+      "name": "Belief / Expectation",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Shared anticipations coordinating behavior.",
+      "ex": [
+        "Inflation expectations",
+        "eligibility beliefs"
+      ]
+    },
+    {
+      "id": "value-ideology",
+      "name": "Value / Ideology",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Evaluative coordinators binding collectives.",
+      "ex": [
+        "Developmentalism",
+        "meritocracy",
+        "nationalism"
+      ]
+    },
+    {
+      "id": "collective-representation",
+      "name": "Collective Representation",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Symbolically carried image of the group to itself.",
+      "ex": [
+        "Flag",
+        "anthem",
+        "founding myth"
+      ]
+    },
+    {
+      "id": "collective-identity",
+      "name": "Collective Identity",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Shared interpretive frame binding actors into a we.",
+      "ex": [
+        "Diaspora identity",
+        "professional identity"
+      ]
+    },
+    {
+      "id": "collective-mental-model",
+      "name": "Collective Mental Model",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Shared stabilized schema guiding perception and action.",
+      "ex": [
+        "Safety culture model",
+        "growth doctrine of a firm"
+      ]
+    },
+    {
+      "id": "discourse",
+      "name": "Discourse",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "System of statements shaping perception and action.",
+      "ex": [
+        "Development discourse",
+        "security discourse"
+      ]
+    },
+    {
+      "id": "narrative",
+      "name": "Narrative",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Structured interpretation of events over time.",
+      "ex": [
+        "Progress narrative",
+        "decline narrative"
+      ]
+    },
+    {
+      "id": "symbol",
+      "name": "Symbol",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Meaning-bearing sign coordinating recognition.",
+      "ex": [
+        "Logo",
+        "uniform",
+        "seal"
+      ]
+    },
+    {
+      "id": "language",
+      "name": "Language",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Communication system enabling coordination.",
+      "ex": [
+        "Spanish",
+        "sign language",
+        "legalese"
+      ]
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Channel through which coordination flows.",
+      "ex": [
+        "Gazette",
+        "broadcast",
+        "platform feed"
+      ]
+    },
+    {
+      "id": "knowledge",
+      "name": "Knowledge",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Validated information used by actors in coordination.",
+      "ex": [
+        "Engineering knowledge",
+        "agronomic calendar"
+      ]
+    },
+    {
+      "id": "tagging-system",
+      "name": "Tagging System",
+      "type": "cognitive",
+      "parent": "social-element",
+      "def": "Semantic labeling rendering states legible; the Noetic primitive.",
+      "ex": [
+        "Credit ratings",
+        "industry codes",
+        "diagnostic labels"
+      ]
+    },
+    {
+      "id": "social-compound",
+      "name": "Social Compound",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Bounded collective scoping a decomposition; the generic compound type.",
+      "ex": [
+        "Port city labor market",
+        "river basin community"
+      ]
+    },
+    {
+      "id": "social-structure",
+      "name": "Social Structure",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Constraint topology delimiting the admissible region of collective state space.",
+      "ex": [
+        "Class structure",
+        "core–periphery layout"
+      ]
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Fundamental (geography, resources) and derivative layers conditioning action.",
+      "ex": [
+        "River basin",
+        "spectrum commons",
+        "diaspora network"
+      ]
+    },
+    {
+      "id": "region",
+      "name": "Region",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Spatially bounded zone of dense recurrent interaction.",
+      "ex": [
+        "Port city",
+        "borderland",
+        "special economic zone"
+      ]
+    },
+    {
+      "id": "city",
+      "name": "City",
+      "type": "structural",
+      "parent": "region",
+      "def": "Spatially and institutionally organized local nexus.",
+      "ex": [
+        "Capital city",
+        "port city"
+      ]
+    },
+    {
+      "id": "province",
+      "name": "Province",
+      "type": "structural",
+      "parent": "region",
+      "def": "Higher-order territorial aggregation with coordination functions.",
+      "ex": [
+        "Province",
+        "canton",
+        "territorial department"
+      ]
+    },
+    {
+      "id": "class",
+      "name": "Class",
+      "type": "structural",
+      "parent": "social-structure",
+      "def": "Positional differentiation by access to resources.",
+      "ex": [
+        "Working class",
+        "rentier class"
+      ]
+    },
+    {
+      "id": "hierarchy",
+      "name": "Hierarchy",
+      "type": "structural",
+      "parent": "social-structure",
+      "def": "Ranked ordering of positions.",
+      "ex": [
+        "Bureaucratic hierarchy",
+        "caste order"
+      ]
+    },
+    {
+      "id": "social-field",
+      "name": "Social Field",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Arena of interaction governed by specific logics.",
+      "ex": [
+        "Scientific field",
+        "political field",
+        "artistic field"
+      ]
+    },
+    {
+      "id": "domain",
+      "name": "Domain",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Functional sphere of social activity.",
+      "ex": [
+        "Education",
+        "defense",
+        "health"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Foundational enabling system.",
+      "ex": [
+        "Roads",
+        "power grid",
+        "payment rails"
+      ]
+    },
+    {
+      "id": "resource",
+      "name": "Resource",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Asset usable by actors.",
+      "ex": [
+        "Land",
+        "water rights",
+        "spectrum"
+      ]
+    },
+    {
+      "id": "property",
+      "name": "Property",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Attribute used for description, classification, and comparison.",
+      "ex": [
+        "Wealth",
+        "population size",
+        "centrality"
+      ]
+    },
+    {
+      "id": "wealth",
+      "name": "Wealth",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Accumulated stock of valued resources.",
+      "ex": [
+        "Household wealth",
+        "sovereign wealth"
+      ]
+    },
+    {
+      "id": "rent",
+      "name": "Rent",
+      "type": "structural",
+      "parent": "social-element",
+      "def": "Economic return from a position or asset.",
+      "ex": [
+        "Land rent",
+        "monopoly rent",
+        "data rent"
+      ]
+    },
+    {
+      "id": "process-event",
+      "name": "Process / Event",
+      "type": "dynamic",
+      "parent": "social-element",
+      "def": "Temporally extended transformation or punctual occurrence.",
+      "ex": [
+        "Urbanization",
+        "bank run",
+        "election",
+        "schism"
+      ]
+    },
+    {
+      "id": "mechanism-phenomenon",
+      "name": "Mechanism / Phenomenon",
+      "type": "dynamic",
+      "parent": "social-element",
+      "def": "Emergence-to-collapse trajectories: diffusion, escalation, stabilization, realignment.",
+      "ex": [
+        "Norm emergence",
+        "trust consolidation",
+        "legitimacy crisis"
+      ]
+    },
+    {
+      "id": "state",
+      "name": "State",
+      "type": "dynamic",
+      "parent": "social-element",
+      "def": "Complete relevant-variable snapshot of a configuration at a moment.",
+      "ex": [
+        "Fiscal stance",
+        "coalition map",
+        "readiness posture"
+      ]
+    },
+    {
+      "id": "social-event",
+      "name": "Social Event",
+      "type": "dynamic",
+      "parent": "process-event",
+      "def": "Significant occurrence involving actors.",
+      "ex": [
+        "Summit",
+        "festival",
+        "funeral"
+      ]
+    },
+    {
+      "id": "systemic-transformation",
+      "name": "Systemic Transformation",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Structural change of an order via interactions.",
+      "ex": [
+        "Revolution",
+        "market liberalization"
+      ]
+    },
+    {
+      "id": "crisis",
+      "name": "Crisis",
+      "type": "dynamic",
+      "parent": "process-event",
+      "def": "Rupture threatening reproduction of an order.",
+      "ex": [
+        "Financial crisis",
+        "cabinet crisis"
+      ]
+    },
+    {
+      "id": "cycle",
+      "name": "Cycle",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Recurrent expansion–contraction trajectory.",
+      "ex": [
+        "Business cycle",
+        "electoral cycle"
+      ]
+    },
+    {
+      "id": "corruption",
+      "name": "Corruption",
+      "type": "dynamic",
+      "parent": "process-event",
+      "def": "Conversion of office into private gain.",
+      "ex": [
+        "Bribery ring",
+        "procurement kickback"
+      ]
+    },
+    {
+      "id": "crime",
+      "name": "Crime",
+      "type": "dynamic",
+      "parent": "process-event",
+      "def": "Norm-violating act processed by control institutions.",
+      "ex": [
+        "Theft wave",
+        "fraud scheme"
+      ]
+    },
+    {
+      "id": "violence",
+      "name": "Violence",
+      "type": "dynamic",
+      "parent": "process-event",
+      "def": "Coercive harm between units.",
+      "ex": [
+        "Riot",
+        "pogrom"
+      ]
+    },
+    {
+      "id": "polarization",
+      "name": "Polarization",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Sorting of a collective into opposed camps.",
+      "ex": [
+        "Party polarization",
+        "confessional split"
+      ]
+    },
+    {
+      "id": "globalization",
+      "name": "Globalization",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Extension of ties and flows beyond borders.",
+      "ex": [
+        "Supply-chain globalization",
+        "financial integration"
+      ]
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility",
+      "type": "dynamic",
+      "parent": "process-event",
+      "def": "Movement of units across positions and places.",
+      "ex": [
+        "Rural–urban migration",
+        "social mobility"
+      ]
+    },
+    {
+      "id": "movement",
+      "name": "Movement",
+      "type": "dynamic",
+      "parent": "collective-organization",
+      "def": "Collective effort pursuing social or political change.",
+      "ex": [
+        "Labor movement",
+        "temperance movement"
+      ]
+    },
+    {
+      "id": "work",
+      "name": "Work",
+      "type": "dynamic",
+      "parent": "process-event",
+      "def": "Purposive effort transforming inputs.",
+      "ex": [
+        "Harvest",
+        "shift work"
+      ]
+    },
+    {
+      "id": "socialization",
+      "name": "Socialization",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Induction of newcomers into norms.",
+      "ex": [
+        "Schooling",
+        "onboarding"
+      ]
+    },
+    {
+      "id": "segregation",
+      "name": "Segregation",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Sorting of units into homogeneous zones.",
+      "ex": [
+        "Residential segregation",
+        "occupational segregation"
+      ]
+    },
+    {
+      "id": "competition",
+      "name": "Competition",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Rivalry for scarce goods or positions.",
+      "ex": [
+        "Price war",
+        "electoral race"
+      ]
+    },
+    {
+      "id": "technical-change",
+      "name": "Technical Change",
+      "type": "dynamic",
+      "parent": "mechanism-phenomenon",
+      "def": "Diffusion and adoption of techniques.",
+      "ex": [
+        "Electrification",
+        "mechanization"
+      ]
+    },
+    {
+      "id": "synontic-element",
+      "name": "Synontic Element",
+      "type": "coordinator",
+      "parent": "social-element",
+      "def": "Recognition-constituted coordinator persisting through shared interpretation.",
+      "ex": [
+        "Fiat currency",
+        "border",
+        "stop sign",
+        "reputation score"
+      ]
+    },
+    {
+      "id": "capital-labor",
+      "name": "Capital / Labor",
+      "type": "coordinator",
+      "parent": "social-element",
+      "def": "Multi-layer economic operators (potentiality and actuality of productive capacity).",
+      "ex": [
+        "Venture pool",
+        "care labor",
+        "data asset"
+      ]
+    },
+    {
+      "id": "price-asset",
+      "name": "Price / Asset",
+      "type": "coordinator",
+      "parent": "social-element",
+      "def": "Scalar coordination variables and claim-objects.",
+      "ex": [
+        "Spot price",
+        "license",
+        "quota"
+      ]
+    },
+    {
+      "id": "trust",
+      "name": "Trust",
+      "type": "coordinator",
+      "parent": "synontic-element",
+      "def": "Willingness to be vulnerable based on expectations of another.",
+      "ex": [
+        "Consumer trust",
+        "institutional trust"
+      ]
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "type": "coordinator",
+      "parent": "synontic-element",
+      "def": "Medium of exchange and store of value constituted by recognition.",
+      "ex": [
+        "Fiat currency",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "id": "label",
+      "name": "Label",
+      "type": "coordinator",
+      "parent": "synontic-element",
+      "def": "Tagging that reclassifies its bearer.",
+      "ex": [
+        "Credit rating",
+        "certification mark"
+      ]
+    },
+    {
+      "id": "technique",
+      "name": "Technique",
+      "type": "coordinator",
+      "parent": "synontic-element",
+      "def": "Shared know-how coordinating production.",
+      "ex": [
+        "Double-entry bookkeeping",
+        "lean method"
+      ]
+    },
+    {
+      "id": "economic-activity",
+      "name": "Economic Activity",
+      "type": "action",
+      "parent": "activity",
+      "def": "Recurrent organized doings provisioning goods and services (Ontic).",
+      "ex": [
+        "Farming",
+        "mining",
+        "manufacturing",
+        "transport",
+        "retail",
+        "care"
+      ]
+    },
+    {
+      "id": "producer",
+      "name": "Producer",
+      "type": "agent",
+      "parent": "economic-activity",
+      "def": "Acting unit or role performing economic activity (Ontic).",
+      "ex": [
+        "Farm",
+        "factory",
+        "workshop",
+        "carrier",
+        "shop",
+        "utility"
+      ]
+    },
+    {
+      "id": "producer-type",
+      "name": "Producer Type",
+      "type": "cognitive",
+      "parent": "producer",
+      "def": "Kind of producer by dominant activity (Noetic tag).",
+      "ex": [
+        "Primary producer",
+        "processor",
+        "assembler",
+        "distributor",
+        "service provider"
+      ]
+    },
+    {
+      "id": "industry",
+      "name": "Industry",
+      "type": "cognitive",
+      "parent": "producer-type",
+      "def": "Classified aggregate of producer types under a common activity (Noetic).",
+      "ex": [
+        "Agriculture",
+        "steel",
+        "retail",
+        "software"
+      ]
+    },
+    {
+      "id": "sector",
+      "name": "Sector",
+      "type": "cognitive",
+      "parent": "industry",
+      "def": "Coarse activity group (Noetic).",
+      "ex": [
+        "Primary",
+        "secondary",
+        "tertiary",
+        "quaternary"
+      ]
+    },
+    {
+      "id": "producer-taxonomy",
+      "name": "Producer Taxonomy",
+      "type": "cognitive",
+      "parent": "economic-activity",
+      "def": "Descriptive instrument ranking producer types (Noetic).",
+      "ex": [
+        "ISIC",
+        "NAICS",
+        "GICS"
+      ]
+    },
+    {
+      "id": "market",
+      "name": "Market",
+      "type": "coordinator",
+      "parent": "social-element",
+      "def": "Arena where offers meet demand and prices coordinate (Multi).",
+      "ex": [
+        "Fish market",
+        "labor market",
+        "stock exchange"
+      ]
+    },
+    {
+      "id": "market-segment",
+      "name": "Market Segment",
+      "type": "cognitive",
+      "parent": "market",
+      "def": "Slice of a market by demand characteristics (Noetic).",
+      "ex": [
+        "Premium",
+        "rural",
+        "SME"
+      ]
+    },
+    {
+      "id": "subsegment",
+      "name": "Subsegment",
+      "type": "cognitive",
+      "parent": "market-segment",
+      "def": "Finer slice within a segment (Noetic).",
+      "ex": [
+        "Luxury sedan",
+        "entry sedan"
+      ]
+    },
+    {
+      "id": "niche",
+      "name": "Niche",
+      "type": "cognitive",
+      "parent": "subsegment",
+      "def": "Narrow slice served by a specialized offer (Noetic).",
+      "ex": [
+        "Vintage typewriter repair"
+      ]
+    },
+    {
+      "id": "market-taxonomy",
+      "name": "Market Taxonomy",
+      "type": "cognitive",
+      "parent": "market",
+      "def": "Descriptive instrument classifying markets (Noetic).",
+      "ex": [
+        "B2B/B2C",
+        "geographic",
+        "demographic"
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Product",
+      "type": "coordinator",
+      "parent": "social-element",
+      "def": "Exchangeable outcome of economic activity offered into a market; a good or service (Multi).",
+      "ex": [
+        "Lemon",
+        "cheese",
+        "insurance policy"
+      ]
+    },
+    {
+      "id": "product-type",
+      "name": "Product Type",
+      "type": "cognitive",
+      "parent": "product",
+      "def": "Kind of product, narrowest rank above the concrete product (Noetic).",
+      "ex": [
+        "Beverage",
+        "footwear"
+      ]
+    },
+    {
+      "id": "product-family",
+      "name": "Product Family",
+      "type": "cognitive",
+      "parent": "product-type",
+      "def": "Family grouping related types (Noetic).",
+      "ex": [
+        "Soft drinks"
+      ]
+    },
+    {
+      "id": "product-category",
+      "name": "Product Category",
+      "type": "cognitive",
+      "parent": "product-family",
+      "def": "Market-facing category (Noetic).",
+      "ex": [
+        "Carbonated drinks"
+      ]
+    },
+    {
+      "id": "product-class",
+      "name": "Product Class",
+      "type": "cognitive",
+      "parent": "product-category",
+      "def": "Broadest rank (Noetic).",
+      "ex": [
+        "Beverages"
+      ]
+    },
+    {
+      "id": "product-taxonomy",
+      "name": "Product Taxonomy",
+      "type": "cognitive",
+      "parent": "product",
+      "def": "Descriptive instrument ranking product kinds (Noetic).",
+      "ex": [
+        "UNSPSC",
+        "HS",
+        "own nomenclature"
+      ]
+    }
+  ]
+}

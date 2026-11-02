@@ -1,0 +1,930 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Australian actors (organizations and institutions) since 1788.",
+    "country": "Australia",
+    "region": "Oceania",
+    "flag": "🇦🇺",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Australia. This dataset traces the formation, transformation, and significant milestones of penal-colony, federal, and resources entities, from the First Fleet to diversified miners and superannuation giants.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "First Fleet and the colonies",
+      "type": "public",
+      "role": "Colonial foundations",
+      "regionOfActivity": "Sydney",
+      "description": "1788 penal settlement seeding six self-governing colonies.",
+      "events": [
+        {
+          "date": "1788-01-26",
+          "category": "birth",
+          "description": "Phillip raises the flag at Sydney Cove"
+        },
+        {
+          "date": "1850-08-05",
+          "category": "policy",
+          "description": "Australian Colonies Government Act grants legislatures"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Commonwealth of Australia",
+      "type": "public",
+      "role": "Federal order",
+      "regionOfActivity": "Canberra",
+      "description": "1901 federation of six colonies under the Crown.",
+      "events": [
+        {
+          "date": "1901-01-01",
+          "category": "birth",
+          "description": "Commonwealth inaugurated"
+        },
+        {
+          "date": "1986-03-03",
+          "category": "transformation",
+          "description": "Australia Acts sever residual British legislative power"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Reserve Bank of Australia",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Sydney",
+      "description": "Commonwealth Bank central-banking arm split off in 1960.",
+      "events": [
+        {
+          "date": "1960-01-14",
+          "category": "birth",
+          "description": "Reserve Bank Act separates the central bank"
+        },
+        {
+          "date": "1993-01-01",
+          "category": "policy",
+          "description": "Inflation targeting adopted"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "transformation",
+          "description": "Operational independence formalized"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Commonwealth Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Sydney",
+      "description": "1911 state bank privatized into the largest lender.",
+      "events": [
+        {
+          "date": "1911-12-22",
+          "category": "birth",
+          "description": "Commonwealth Bank Act creates the bank"
+        },
+        {
+          "date": "1991-09-17",
+          "category": "transformation",
+          "description": "Fully privatized"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Westpac",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Sydney",
+      "description": "1817 Bank of New South Wales lineage.",
+      "events": [
+        {
+          "date": "1817-04-08",
+          "category": "birth",
+          "description": "Bank of New South Wales founded"
+        },
+        {
+          "date": "1982-10-01",
+          "category": "founding",
+          "description": "Commercial Bank of Australia merger forms Westpac"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "ANZ",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Melbourne",
+      "description": "1835 Sydney-London bank grown across the Pacific.",
+      "events": [
+        {
+          "date": "1835-03-02",
+          "category": "birth",
+          "description": "Bank of Australasia chartered"
+        },
+        {
+          "date": "1970-10-01",
+          "category": "founding",
+          "description": "ES&A merger forms ANZ"
+        },
+        {
+          "date": "2009-01-01",
+          "category": "expansion",
+          "description": "ING Australia and Asian stakes era"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "National Australia Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Melbourne",
+      "description": "1858 Melbourne bank with UK forays.",
+      "events": [
+        {
+          "date": "1858-10-21",
+          "category": "birth",
+          "description": "National Bank of Australasia founded"
+        },
+        {
+          "date": "1981-01-01",
+          "category": "founding",
+          "description": "Sydney Commercial Banking merger forms NAB"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Macquarie Group",
+      "type": "private",
+      "role": "Investment bank",
+      "regionOfActivity": "Sydney",
+      "description": "Hill Samuel Australia turned infrastructure-asset manager.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "birth",
+          "description": "Hill Samuel Australia founded"
+        },
+        {
+          "date": "1996-07-29",
+          "category": "transformation",
+          "description": "ASX listing; Macquarie brand 2006"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "QBE Insurance",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Sydney",
+      "description": "Burns-Philp marine roots grown into a global insurer.",
+      "events": [
+        {
+          "date": "1886-01-01",
+          "category": "birth",
+          "description": "North Queensland Insurance founded"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "expansion",
+          "description": "General Accident Australian portfolio bought"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "AMP",
+      "type": "private",
+      "role": "Wealth manager",
+      "regionOfActivity": "Sydney",
+      "description": "Mutual provident society demutualized into wealth management.",
+      "events": [
+        {
+          "date": "1849-01-01",
+          "category": "birth",
+          "description": "Australian Mutual Provident Society founded"
+        },
+        {
+          "date": "1998-06-22",
+          "category": "transformation",
+          "description": "Demutualization and listing"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Future Fund",
+      "type": "public",
+      "role": "Sovereign fund",
+      "regionOfActivity": "Canberra",
+      "description": "Costello-era fund covering public pensions.",
+      "events": [
+        {
+          "date": "2006-04-03",
+          "category": "birth",
+          "description": "Future Fund Act creates the fund"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "AustralianSuper",
+      "type": "hybrid",
+      "role": "Pension fund",
+      "regionOfActivity": "Melbourne",
+      "description": "Industry-fund giant of compulsory superannuation.",
+      "events": [
+        {
+          "date": "1992-07-01",
+          "category": "birth",
+          "description": "Superannuation Guarantee starts; fund consolidation follows"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "BHP",
+      "type": "private",
+      "role": "Mining major",
+      "regionOfActivity": "Melbourne",
+      "description": "Broken Hill silver-lead mine grown into the top diversified miner.",
+      "events": [
+        {
+          "date": "1885-06-13",
+          "category": "birth",
+          "description": "BHP incorporated for the Broken Hill lode"
+        },
+        {
+          "date": "2001-06-29",
+          "category": "founding",
+          "description": "Billiton dual listing forms BHP Billiton"
+        },
+        {
+          "date": "2022-01-31",
+          "category": "transformation",
+          "description": "Unification on an Australian parent"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Rio Tinto Australia",
+      "type": "private",
+      "role": "Mining major",
+      "regionOfActivity": "Melbourne",
+      "description": "Spanish-pyrites lineage running Pilbara iron ore.",
+      "events": [
+        {
+          "date": "1873-03-29",
+          "category": "birth",
+          "description": "Rio Tinto Company formed for Spanish mines"
+        },
+        {
+          "date": "1962-12-01",
+          "category": "expansion",
+          "description": "CRA merger builds the Australian arm"
+        },
+        {
+          "date": "1966-01-01",
+          "category": "technical",
+          "description": "Pilbara shipments begin"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Fortescue",
+      "type": "private",
+      "role": "Iron-ore miner",
+      "regionOfActivity": "Perth",
+      "description": "Forrest-founded third force in the Pilbara.",
+      "events": [
+        {
+          "date": "2003-07-01",
+          "category": "birth",
+          "description": "Fortescue Metals Group founded"
+        },
+        {
+          "date": "2008-05-15",
+          "category": "technical",
+          "description": "First ore on ship from Cloudbreak"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Woodside Energy",
+      "type": "private",
+      "role": "LNG producer",
+      "regionOfActivity": "Perth",
+      "description": "North West Shelf operator turned global LNG major.",
+      "events": [
+        {
+          "date": "1954-07-15",
+          "category": "birth",
+          "description": "Woodside Petroleum founded"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "technical",
+          "description": "Domestic gas era; LNG exports 1989"
+        },
+        {
+          "date": "2022-06-01",
+          "category": "founding",
+          "description": "BHP petroleum merger"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Santos",
+      "type": "private",
+      "role": "Gas producer",
+      "regionOfActivity": "Adelaide",
+      "description": "Cooper Basin gas house expanding into PNG LNG.",
+      "events": [
+        {
+          "date": "1954-03-18",
+          "category": "birth",
+          "description": "South Australian Cooper Basin venture founded"
+        },
+        {
+          "date": "2018-08-22",
+          "category": "expansion",
+          "description": "Quadrant Energy takeover"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Origin Energy",
+      "type": "private",
+      "role": "Energy retailer",
+      "regionOfActivity": "Sydney",
+      "description": "Boral energy demerger in power and gas.",
+      "events": [
+        {
+          "date": "2000-02-01",
+          "category": "birth",
+          "description": "Boral demerger creates Origin"
+        },
+        {
+          "date": "2023-11-01",
+          "category": "transformation",
+          "description": "Brookfield takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "AGL Energy",
+      "type": "private",
+      "role": "Energy retailer",
+      "regionOfActivity": "Sydney",
+      "description": "1837 gas-light company turned renewables pivoter.",
+      "events": [
+        {
+          "date": "1837-01-01",
+          "category": "birth",
+          "description": "Australian Gas Light Company founded"
+        },
+        {
+          "date": "2006-10-25",
+          "category": "founding",
+          "description": "Alinta demerger forms modern AGL"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Telstra",
+      "type": "private",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Melbourne",
+      "description": "PMG-Telecom privatized into the dominant carrier.",
+      "events": [
+        {
+          "date": "1975-07-01",
+          "category": "birth",
+          "description": "Telecom Australia created"
+        },
+        {
+          "date": "1997-11-17",
+          "category": "transformation",
+          "description": "Partial privatization begins; full sale 2006"
+        },
+        {
+          "date": "2011-01-01",
+          "category": "policy",
+          "description": "NBN structural separation deal"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Optus",
+      "type": "private",
+      "role": "Telecom challenger",
+      "regionOfActivity": "Sydney",
+      "description": "1992 duopoly entrant under Singtel ownership.",
+      "events": [
+        {
+          "date": "1992-01-01",
+          "category": "birth",
+          "description": "Optus licence awarded"
+        },
+        {
+          "date": "2001-09-17",
+          "category": "transformation",
+          "description": "Singtel takeover"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Qantas",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Sydney",
+      "description": "Outback air service privatized into a global group.",
+      "events": [
+        {
+          "date": "1920-11-16",
+          "category": "birth",
+          "description": "Queensland and Northern Territory Aerial Services founded"
+        },
+        {
+          "date": "1992-12-01",
+          "category": "transformation",
+          "description": "Full privatization"
+        },
+        {
+          "date": "2011-10-29",
+          "category": "policy",
+          "description": "Fleet grounding ends the industrial dispute"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Virgin Australia",
+      "type": "private",
+      "role": "Airline",
+      "regionOfActivity": "Brisbane",
+      "description": "Branson-backed challenger through Bain renewal.",
+      "events": [
+        {
+          "date": "2000-08-31",
+          "category": "birth",
+          "description": "Virgin Blue founded"
+        },
+        {
+          "date": "2020-11-17",
+          "category": "transformation",
+          "description": "Bain Capital takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Sydney Airport",
+      "type": "private",
+      "role": "Airport operator",
+      "regionOfActivity": "Sydney",
+      "description": "Kingsford Smith airport leased for 99 years.",
+      "events": [
+        {
+          "date": "1920-01-01",
+          "category": "birth",
+          "description": "Mascot aerodrome opens"
+        },
+        {
+          "date": "2002-06-28",
+          "category": "transformation",
+          "description": "Southern Cross consortium lease begins"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Aurizon",
+      "type": "private",
+      "role": "Rail freight operator",
+      "regionOfActivity": "Brisbane",
+      "description": "Queensland Rail coal-hauler privatized.",
+      "events": [
+        {
+          "date": "2010-07-01",
+          "category": "birth",
+          "description": "QR National split created"
+        },
+        {
+          "date": "2010-11-22",
+          "category": "transformation",
+          "description": "Listing; Aurizon brand follows 2012"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Woolworths Group",
+      "type": "private",
+      "role": "Grocery group",
+      "regionOfActivity": "Sydney",
+      "description": "1924 variety store grown into supermarket duopolist.",
+      "events": [
+        {
+          "date": "1924-09-05",
+          "category": "birth",
+          "description": "Woolworths Stupendous Bargain Basement opens"
+        },
+        {
+          "date": "1989-01-01",
+          "category": "founding",
+          "description": "Safeway merger forms the modern group"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Coles Group",
+      "type": "private",
+      "role": "Grocery group",
+      "regionOfActivity": "Melbourne",
+      "description": "1914 variety store through Wesfarmers and demerger.",
+      "events": [
+        {
+          "date": "1914-04-09",
+          "category": "birth",
+          "description": "Coles Variety Store opens in Collingwood"
+        },
+        {
+          "date": "2007-11-23",
+          "category": "transformation",
+          "description": "Wesfarmers takeover"
+        },
+        {
+          "date": "2018-11-21",
+          "category": "policy",
+          "description": "Demerger relists Coles"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Wesfarmers",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Perth",
+      "description": "Farmers' cooperative turned Bunnings-and-retail empire.",
+      "events": [
+        {
+          "date": "1914-06-27",
+          "category": "birth",
+          "description": "Westralian Farmers co-op founded"
+        },
+        {
+          "date": "1984-11-08",
+          "category": "transformation",
+          "description": "Listing completes demutualization"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "expansion",
+          "description": "Bunnings takeover"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "CSL",
+      "type": "private",
+      "role": "Biotech group",
+      "regionOfActivity": "Melbourne",
+      "description": "Commonwealth serum labs privatized into a plasma giant.",
+      "events": [
+        {
+          "date": "1916-01-01",
+          "category": "birth",
+          "description": "Commonwealth Serum Laboratories established"
+        },
+        {
+          "date": "1994-06-01",
+          "category": "transformation",
+          "description": "Full privatization"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "ZLB Behring takeover builds plasma scale"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Cochlear",
+      "type": "private",
+      "role": "Medtech group",
+      "regionOfActivity": "Sydney",
+      "description": "Bionic-ear spin-off from public research.",
+      "events": [
+        {
+          "date": "1981-01-01",
+          "category": "birth",
+          "description": "Cochlear founded to commercialize the implant"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Atlassian",
+      "type": "private",
+      "role": "Software group",
+      "regionOfActivity": "Sydney",
+      "description": "Bootstrapped issue-tracker turned collaboration cloud.",
+      "events": [
+        {
+          "date": "2002-01-01",
+          "category": "birth",
+          "description": "Atlassian founded"
+        },
+        {
+          "date": "2015-12-10",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Canva",
+      "type": "private",
+      "role": "Design platform",
+      "regionOfActivity": "Sydney",
+      "description": "Yearbook startup turned design democratizer.",
+      "events": [
+        {
+          "date": "2013-01-01",
+          "category": "birth",
+          "description": "Canva founded"
+        },
+        {
+          "date": "2021-09-14",
+          "category": "milestone",
+          "description": "$40B valuation round"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "WiseTech Global",
+      "type": "private",
+      "role": "Logistics software group",
+      "regionOfActivity": "Sydney",
+      "description": "CargoWise platform for global forwarders.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "WiseTech founded"
+        },
+        {
+          "date": "2016-04-11",
+          "category": "milestone",
+          "description": "ASX listing"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "University of Sydney",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Sydney",
+      "description": "1850 sandstone university of the colonies.",
+      "events": [
+        {
+          "date": "1850-10-01",
+          "category": "birth",
+          "description": "University incorporated by colonial act"
+        },
+        {
+          "date": "1859-01-01",
+          "category": "milestone",
+          "description": "Quadrangle era opens"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "CSIRO",
+      "type": "public",
+      "role": "Research agency",
+      "regionOfActivity": "Canberra",
+      "description": "Advisory-council lineage behind Wi-Fi and polymer notes.",
+      "events": [
+        {
+          "date": "1926-01-01",
+          "category": "birth",
+          "description": "Council for Scientific and Industrial Research founded"
+        },
+        {
+          "date": "1949-05-19",
+          "category": "founding",
+          "description": "CSIRO Act creates the organization"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "ABC",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Sydney",
+      "description": "Commission-model public media.",
+      "events": [
+        {
+          "date": "1929-07-01",
+          "category": "birth",
+          "description": "Australian Broadcasting Company contracted"
+        },
+        {
+          "date": "1983-07-01",
+          "category": "transformation",
+          "description": "Corporation status granted"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "News Corp Australia lineage",
+      "type": "private",
+      "role": "Media history",
+      "regionOfActivity": "Sydney",
+      "description": "Adelaide News roots of the Murdoch empire.",
+      "events": [
+        {
+          "date": "1923-01-01",
+          "category": "birth",
+          "description": "Keith Murdoch takes the Adelaide News helm"
+        },
+        {
+          "date": "1964-07-14",
+          "category": "expansion",
+          "description": "The Australian national daily launched"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "ACTU",
+      "type": "private",
+      "role": "Labor confederation",
+      "regionOfActivity": "Melbourne",
+      "description": "1927 craft-council lineage coordinating the movement.",
+      "events": [
+        {
+          "date": "1927-05-01",
+          "category": "birth",
+          "description": "Australasian Council of Trade Unions founded"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Business Council of Australia",
+      "type": "private",
+      "role": "Business lobby",
+      "regionOfActivity": "Melbourne",
+      "description": "CEO forum of the largest companies.",
+      "events": [
+        {
+          "date": "1983-09-01",
+          "category": "birth",
+          "description": "BCA founded"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Fairfax and Nine",
+      "type": "private",
+      "role": "Media group",
+      "regionOfActivity": "Sydney",
+      "description": "Herald lineage merged into television-led Nine.",
+      "events": [
+        {
+          "date": "1831-04-18",
+          "category": "birth",
+          "description": "Sydney Herald founded"
+        },
+        {
+          "date": "2018-12-10",
+          "category": "transformation",
+          "description": "Nine takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "SBS",
+      "type": "public",
+      "role": "Multicultural broadcaster",
+      "regionOfActivity": "Sydney",
+      "description": "Multilingual radio-television service.",
+      "events": [
+        {
+          "date": "1978-01-09",
+          "category": "birth",
+          "description": "2EA/3EA ethnic radio starts; television 1980"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Australia Post",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Melbourne",
+      "description": "1809 postal service turned parcels government business.",
+      "events": [
+        {
+          "date": "1809-12-01",
+          "category": "birth",
+          "description": "First postmaster appointed in Sydney"
+        },
+        {
+          "date": "1989-01-01",
+          "category": "transformation",
+          "description": "Corporatized as Australian Postal Corporation"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Afterpay and Block Australia",
+      "type": "private",
+      "role": "Fintech history",
+      "regionOfActivity": "Sydney",
+      "description": "Pay-after-delivery pioneer absorbed by Block.",
+      "events": [
+        {
+          "date": "2014-10-01",
+          "category": "birth",
+          "description": "Afterpay founded"
+        },
+        {
+          "date": "2022-01-31",
+          "category": "transformation",
+          "description": "Block takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Seek",
+      "type": "private",
+      "role": "Employment platform",
+      "regionOfActivity": "Melbourne",
+      "description": "Job-board turned Asian online-employment leader.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "Seek founded"
+        },
+        {
+          "date": "2005-04-06",
+          "category": "milestone",
+          "description": "ASX listing"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "REA Group",
+      "type": "private",
+      "role": "Property portal",
+      "regionOfActivity": "Melbourne",
+      "description": "News Corp-backed realestate.com.au operator.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "realestate.com.au founded"
+        }
+      ]
+    }
+  ]
+}

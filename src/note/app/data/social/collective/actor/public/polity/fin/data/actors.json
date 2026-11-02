@@ -1,0 +1,890 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Finnish actors (organizations and institutions) since 1400.",
+    "country": "Finland",
+    "region": "Northern Europe",
+    "flag": "🇫🇮",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Finland. This dataset traces the formation, transformation, and significant milestones of imperial, welfare-state, and innovation entities, from forestry dependence to ICT and engineering exporters.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Diet of Porvoo and Finnish statehood",
+      "type": "public",
+      "role": "Constitutional assembly",
+      "regionOfActivity": "Porvoo",
+      "description": "1809 diet elevating Finland to autonomous Grand Duchy under the Tsar.",
+      "events": [
+        {
+          "date": "1809-03-28",
+          "category": "milestone",
+          "description": "Alexander I pledges the constitutional order"
+        },
+        {
+          "date": "1917-12-06",
+          "category": "founding",
+          "description": "Parliament declares independence"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Parliament of Finland",
+      "type": "public",
+      "role": "Parliament",
+      "regionOfActivity": "Helsinki",
+      "description": "Unicameral Eduskunta with early universal suffrage.",
+      "events": [
+        {
+          "date": "1906-06-01",
+          "category": "birth",
+          "description": "Parliament Act creates a unicameral legislature"
+        },
+        {
+          "date": "1907-03-15",
+          "category": "milestone",
+          "description": "First elections with women's full suffrage"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Bank of Finland",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Helsinki",
+      "description": "Fourth-oldest central bank, now Eurosystem member.",
+      "events": [
+        {
+          "date": "1812-03-01",
+          "category": "birth",
+          "description": "Exchange office founded in Turku"
+        },
+        {
+          "date": "1999-01-01",
+          "category": "milestone",
+          "description": "Euro adoption transfers monetary authority"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Nordea Finland",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Helsinki",
+      "description": "Union-bank lineage inside the pan-Nordic group.",
+      "events": [
+        {
+          "date": "1862-02-11",
+          "category": "birth",
+          "description": "Suomen Yhdyspankki founded"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "founding",
+          "description": "Merita-Nordbanken merger"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "OP Financial Group",
+      "type": "hybrid",
+      "role": "Cooperative bank",
+      "regionOfActivity": "Helsinki",
+      "description": "Farmer-owned cooperative banking and insurance group.",
+      "events": [
+        {
+          "date": "1902-01-01",
+          "category": "birth",
+          "description": "First cooperative credit societies formed"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "founding",
+          "description": "OKO-OKO Bank merger shapes the group"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Sampo",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Helsinki",
+      "description": "State-insurer turned Nordic financial investor.",
+      "events": [
+        {
+          "date": "1909-01-01",
+          "category": "birth",
+          "description": "State Insurance Institution founded"
+        },
+        {
+          "date": "1988-01-01",
+          "category": "transformation",
+          "description": "Sampo privatized"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "expansion",
+          "description": "Mandatum and If stakes consolidated"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Varma",
+      "type": "hybrid",
+      "role": "Pension insurer",
+      "regionOfActivity": "Helsinki",
+      "description": "Mutual earnings-related pension giant.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Eläke-Varma founded"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "founding",
+          "description": "Sampo pension arm merger forms Varma-Sampo"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Nokia",
+      "type": "private",
+      "role": "Telecom-equipment company",
+      "regionOfActivity": "Espoo",
+      "description": "Paper-mill conglomerate turned mobile-phone icon, now networks vendor.",
+      "events": [
+        {
+          "date": "1865-05-12",
+          "category": "birth",
+          "description": "Fredrik Idestam founds the Nokia paper mill"
+        },
+        {
+          "date": "1987-11-10",
+          "category": "technical",
+          "description": "Mobira Cityman launch; NMT era opens"
+        },
+        {
+          "date": "2014-04-25",
+          "category": "transformation",
+          "description": "Devices sale to Microsoft; networks focus follows"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Ericsson Finland lineage and Elcoteq",
+      "type": "private",
+      "role": "Electronics manufacturer",
+      "regionOfActivity": "Lohja",
+      "description": "Contract-manufacturing boom and bust of the Nokia era.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "Lohja microelectronics unit spun toward EMS"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "Elcoteq becomes a top global EMS provider"
+        },
+        {
+          "date": "2011-10-06",
+          "category": "death",
+          "description": "Bankruptcy ends the Elcoteq era"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Kone",
+      "type": "private",
+      "role": "Elevator group",
+      "regionOfActivity": "Espoo",
+      "description": "Family lift and escalator multinational.",
+      "events": [
+        {
+          "date": "1910-10-27",
+          "category": "birth",
+          "description": "Kone Osakeyhtiö founded"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "technical",
+          "description": "Machine-room-less MonoSpace launched"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Wärtsilä",
+      "type": "private",
+      "role": "Marine-power group",
+      "regionOfActivity": "Helsinki",
+      "description": "Sawmill lineage converted to ship engines and power plants.",
+      "events": [
+        {
+          "date": "1834-04-12",
+          "category": "birth",
+          "description": "Värtsilä sawmill founded"
+        },
+        {
+          "date": "1938-01-01",
+          "category": "transformation",
+          "description": "Diesel-engine pivot begins"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "milestone",
+          "description": "Marine-services network globalized"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Metso and Valmet",
+      "type": "private",
+      "role": "Industrial machinery groups",
+      "regionOfActivity": "Helsinki",
+      "description": "State metalworks split into process-technology twins.",
+      "events": [
+        {
+          "date": "1910-01-01",
+          "category": "birth",
+          "description": "Valtion Tykkitehdas state gun factory founded"
+        },
+        {
+          "date": "1999-07-01",
+          "category": "founding",
+          "description": "Valmet-Rauma merger forms Metso"
+        },
+        {
+          "date": "2013-12-31",
+          "category": "transformation",
+          "description": "Demerger recreates Valmet and Metso"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "UPM-Kymmene",
+      "type": "private",
+      "role": "Forest-products group",
+      "regionOfActivity": "Helsinki",
+      "description": "Paper-mill mergers forming a biofore frontrunner.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "birth",
+          "description": "Kymmene paper mill era begins"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "founding",
+          "description": "Repola-Kymmene merger forms UPM-Kymmene"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Stora Enso Finland",
+      "type": "private",
+      "role": "Forest-products group",
+      "regionOfActivity": "Helsinki",
+      "description": "Swedish-Finnish paper merger with 700-year roots.",
+      "events": [
+        {
+          "date": "1998-12-29",
+          "category": "founding",
+          "description": "Stora-Enso merger completed"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Metsä Group",
+      "type": "hybrid",
+      "role": "Forest cooperative",
+      "regionOfActivity": "Helsinki",
+      "description": "Forest-owner cooperative running mills and board plants.",
+      "events": [
+        {
+          "date": "1934-01-01",
+          "category": "birth",
+          "description": "Metsäliitto cooperative founded"
+        },
+        {
+          "date": "2012-01-01",
+          "category": "founding",
+          "description": "M-real restructuring forms Metsä Board"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Outokumpu",
+      "type": "private",
+      "role": "Stainless-steel producer",
+      "regionOfActivity": "Helsinki",
+      "description": "State copper mine lineage turned stainless leader.",
+      "events": [
+        {
+          "date": "1910-01-01",
+          "category": "birth",
+          "description": "Outokumpu copper deposit discovered; company follows"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "transformation",
+          "description": "AvestaPolarit merger; stainless focus"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Fortum",
+      "type": "hybrid",
+      "role": "Energy utility",
+      "regionOfActivity": "Espoo",
+      "description": "State-anchored generator pivoting to Nordic clean power.",
+      "events": [
+        {
+          "date": "1998-06-11",
+          "category": "founding",
+          "description": "IVO-Neste Power merger forms Fortum"
+        },
+        {
+          "date": "2022-09-21",
+          "category": "transformation",
+          "description": "Uniper nationalization by Germany exits the position"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Neste",
+      "type": "hybrid",
+      "role": "Refiner and renewables group",
+      "regionOfActivity": "Espoo",
+      "description": "State oil refiner reinvented in renewable diesel.",
+      "events": [
+        {
+          "date": "1948-03-24",
+          "category": "birth",
+          "description": "Neste founded to secure oil supply"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "technical",
+          "description": "Porvoo NEXBTL plant pioneers renewable diesel"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Finnair",
+      "type": "hybrid",
+      "role": "Flag carrier",
+      "regionOfActivity": "Helsinki",
+      "description": "State-anchored carrier bridging Europe and Asia.",
+      "events": [
+        {
+          "date": "1923-11-01",
+          "category": "birth",
+          "description": "Aero O/Y founded"
+        },
+        {
+          "date": "1983-04-22",
+          "category": "technical",
+          "description": "First nonstop Europe-Japan polar routings"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "VR Group",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Helsinki",
+      "description": "National passenger and freight rail operator.",
+      "events": [
+        {
+          "date": "1862-03-17",
+          "category": "birth",
+          "description": "Helsinki-Hämeenlinna line opens"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "transformation",
+          "description": "Corporatized as VR-Yhtymä"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Finavia",
+      "type": "public",
+      "role": "Airport operator",
+      "regionOfActivity": "Helsinki",
+      "description": "State airport network operator.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "birth",
+          "description": "Civil aviation administration corporatized"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Elisa",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Helsinki",
+      "description": "Telephone cooperative turned Nordic digital operator.",
+      "events": [
+        {
+          "date": "1882-01-31",
+          "category": "birth",
+          "description": "Helsingin Puhelinyhdistys founded"
+        },
+        {
+          "date": "2000-07-03",
+          "category": "transformation",
+          "description": "Elisa listing; cooperative era ends"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Telia Finland",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Helsinki",
+      "description": "Sonera lineage inside the Telia group.",
+      "events": [
+        {
+          "date": "1917-09-01",
+          "category": "birth",
+          "description": "State telegraph administration corporatized later as Telecom Finland"
+        },
+        {
+          "date": "2002-12-09",
+          "category": "founding",
+          "description": "Sonera-Telia merger"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Supercell",
+      "type": "private",
+      "role": "Game developer",
+      "regionOfActivity": "Helsinki",
+      "description": "Tablet-first studio behind Clash of Clans.",
+      "events": [
+        {
+          "date": "2010-05-14",
+          "category": "birth",
+          "description": "Supercell founded"
+        },
+        {
+          "date": "2016-06-21",
+          "category": "expansion",
+          "description": "Tencent takes majority stake"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Rovio",
+      "type": "private",
+      "role": "Game developer",
+      "regionOfActivity": "Espoo",
+      "description": "Angry Birds studio acquired by Sega.",
+      "events": [
+        {
+          "date": "2003-01-01",
+          "category": "birth",
+          "description": "Relude founded by students"
+        },
+        {
+          "date": "2009-12-11",
+          "category": "technical",
+          "description": "Angry Birds released"
+        },
+        {
+          "date": "2023-08-18",
+          "category": "transformation",
+          "description": "Sega acquisition completes"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "F-Secure and WithSecure",
+      "type": "private",
+      "role": "Cybersecurity group",
+      "regionOfActivity": "Helsinki",
+      "description": "Antivirus pioneer split into consumer and enterprise arms.",
+      "events": [
+        {
+          "date": "1988-05-16",
+          "category": "birth",
+          "description": "Data Fellows founded"
+        },
+        {
+          "date": "2022-03-31",
+          "category": "transformation",
+          "description": "WithSecure demerger"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Qt Group",
+      "type": "private",
+      "role": "Software framework company",
+      "regionOfActivity": "Espoo",
+      "description": "Cross-platform framework vendor.",
+      "events": [
+        {
+          "date": "1994-03-04",
+          "category": "birth",
+          "description": "Trolltech founded in Oslo; Qt lineage begins"
+        },
+        {
+          "date": "2016-05-18",
+          "category": "transformation",
+          "description": "Qt Group listing after Digia split"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "University of Helsinki",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Helsinki",
+      "description": "Royal Academy of Turku refounded in the capital.",
+      "events": [
+        {
+          "date": "1640-03-26",
+          "category": "birth",
+          "description": "Royal Academy of Turku chartered"
+        },
+        {
+          "date": "1828-10-21",
+          "category": "milestone",
+          "description": "Great Fire relocates the university to Helsinki"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Aalto University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Espoo",
+      "description": "Merger of technology, business and art schools.",
+      "events": [
+        {
+          "date": "2010-01-01",
+          "category": "founding",
+          "description": "TKK-HSE-TaiK merger forms Aalto"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "VTT",
+      "type": "public",
+      "role": "Research institute",
+      "regionOfActivity": "Espoo",
+      "description": "State technical research centre.",
+      "events": [
+        {
+          "date": "1942-01-16",
+          "category": "birth",
+          "description": "VTT founded"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Sitra",
+      "type": "public",
+      "role": "Innovation fund",
+      "regionOfActivity": "Helsinki",
+      "description": "Parliamentary fund seeding Nokia-era and circular-economy bets.",
+      "events": [
+        {
+          "date": "1967-01-01",
+          "category": "birth",
+          "description": "Bank of Finland jubilee fund created"
+        },
+        {
+          "date": "1991-01-01",
+          "category": "transformation",
+          "description": "Parliamentary fund status"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Business Finland",
+      "type": "public",
+      "role": "Trade and innovation agency",
+      "regionOfActivity": "Helsinki",
+      "description": "Tekes-Finpro merger promoting exports and R&D.",
+      "events": [
+        {
+          "date": "2018-01-01",
+          "category": "founding",
+          "description": "Tekes-Finpro merger"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "SAK",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Helsinki",
+      "description": "Blue-collar central organization of the incomes-policy era.",
+      "events": [
+        {
+          "date": "1907-10-01",
+          "category": "birth",
+          "description": "SAJ founded"
+        },
+        {
+          "date": "1969-01-01",
+          "category": "founding",
+          "description": "SAK reunification forms the modern confederation"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Confederation of Finnish Industries",
+      "type": "private",
+      "role": "Employers' confederation",
+      "regionOfActivity": "Helsinki",
+      "description": "Peak business lobby of the consensus model.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "TT-STK merger forms the confederation"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "S Group",
+      "type": "hybrid",
+      "role": "Retail cooperative",
+      "regionOfActivity": "Helsinki",
+      "description": "Cooperative grocery, fuel and hospitality giant.",
+      "events": [
+        {
+          "date": "1904-05-22",
+          "category": "birth",
+          "description": "SOK founded"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Kesko",
+      "type": "private",
+      "role": "Trading group",
+      "regionOfActivity": "Helsinki",
+      "description": "K-retailer network spanning grocery, building and car trade.",
+      "events": [
+        {
+          "date": "1940-10-01",
+          "category": "birth",
+          "description": "Kesko founded"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Kone Foundation lineage arts",
+      "type": "hybrid",
+      "role": "Cultural foundation",
+      "regionOfActivity": "Helsinki",
+      "description": "Herlin-family philanthropy in arts and research.",
+      "events": [
+        {
+          "date": "1956-01-01",
+          "category": "birth",
+          "description": "Kone Foundation established"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Yle",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Helsinki",
+      "description": "Parliamentary-supervised public media company.",
+      "events": [
+        {
+          "date": "1926-05-29",
+          "category": "birth",
+          "description": "OY Suomen Yleisradio founded"
+        },
+        {
+          "date": "1958-01-01",
+          "category": "milestone",
+          "description": "Television broadcasts begin"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Orion",
+      "type": "private",
+      "role": "Pharmaceutical company",
+      "regionOfActivity": "Espoo",
+      "description": "Domestic drugmaker behind Parkinson's therapies.",
+      "events": [
+        {
+          "date": "1917-09-21",
+          "category": "birth",
+          "description": "Orion founded"
+        },
+        {
+          "date": "1988-01-01",
+          "category": "technical",
+          "description": "Entacapone development begins"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Vaisala",
+      "type": "private",
+      "role": "Measurement instruments group",
+      "regionOfActivity": "Vantaa",
+      "description": "Radiosonde inventor serving meteorology worldwide.",
+      "events": [
+        {
+          "date": "1936-01-01",
+          "category": "birth",
+          "description": "Vilho Väisälä founds the company"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Tietoevry",
+      "type": "private",
+      "role": "IT services group",
+      "regionOfActivity": "Espoo",
+      "description": "Nordic software and outsourcing major.",
+      "events": [
+        {
+          "date": "1968-01-01",
+          "category": "birth",
+          "description": "Tietotehdas founded"
+        },
+        {
+          "date": "2019-06-18",
+          "category": "founding",
+          "description": "Evry merger forms Tietoevry"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Fazer",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Helsinki",
+      "description": "Family bakery-confectionery house of the Blue chocolate.",
+      "events": [
+        {
+          "date": "1891-09-17",
+          "category": "birth",
+          "description": "Karl Fazer opens café in Helsinki"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Kela",
+      "type": "public",
+      "role": "Social insurance agency",
+      "regionOfActivity": "Helsinki",
+      "description": "Administrator of residence-based benefits.",
+      "events": [
+        {
+          "date": "1937-12-16",
+          "category": "birth",
+          "description": "National Pensions Act creates Kela"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Marimekko",
+      "type": "private",
+      "role": "Design house",
+      "regionOfActivity": "Helsinki",
+      "description": "Poppy-print textile and fashion icon.",
+      "events": [
+        {
+          "date": "1951-05-25",
+          "category": "birth",
+          "description": "Viljo and Armi Ratia found Marimekko"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Stockmann",
+      "type": "private",
+      "role": "Department-store group",
+      "regionOfActivity": "Helsinki",
+      "description": "Historic retailer refocused on Lindex fashion.",
+      "events": [
+        {
+          "date": "1862-02-01",
+          "category": "birth",
+          "description": "G.F. Stockmann opens shop in Helsinki"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Ilmarinen",
+      "type": "hybrid",
+      "role": "Pension insurer",
+      "regionOfActivity": "Helsinki",
+      "description": "Mutual earnings-related pension company.",
+      "events": [
+        {
+          "date": "1961-12-14",
+          "category": "birth",
+          "description": "Ilmarinen founded"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Italian actors (organizations and institutions) since 1400.",
+    "country": "Italy",
+    "region": "Southern Europe",
+    "flag": "🇮🇹",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Italy. This dataset traces the formation, transformation, and significant milestones of communal, papal, and industrial entities, from merchant banks to industrial districts and family-owned multinationals.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Papacy and the Vatican",
+      "type": "public",
+      "role": "Sovereign religious institution",
+      "regionOfActivity": "Rome",
+      "description": "Universal Catholic government; Lateran Treaties (1929) restore temporal sovereignty.",
+      "events": [
+        {
+          "date": "1417-11-11",
+          "category": "milestone",
+          "description": "Martin V elected at Constance ends the Western Schism"
+        },
+        {
+          "date": "1870-09-20",
+          "category": "transformation",
+          "description": "Capture of Rome ends the Papal States"
+        },
+        {
+          "date": "1929-02-11",
+          "category": "founding",
+          "description": "Lateran Treaties create Vatican City State"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Republic of Venice",
+      "type": "public",
+      "role": "Maritime republic",
+      "regionOfActivity": "Venice",
+      "description": "Aristocratic trading empire dominating eastern Mediterranean routes.",
+      "events": [
+        {
+          "date": "1404-11-22",
+          "category": "expansion",
+          "description": "Padua annexed; terraferma expansion begins"
+        },
+        {
+          "date": "1509-05-14",
+          "category": "milestone",
+          "description": "Agnadello defeat checks mainland ambitions"
+        },
+        {
+          "date": "1797-05-12",
+          "category": "death",
+          "description": "Great Council votes its own dissolution"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Banco di San Giorgio",
+      "type": "private",
+      "role": "Merchant bank",
+      "regionOfActivity": "Genoa",
+      "description": "Genoese public-debt bank managing colonies and customs.",
+      "events": [
+        {
+          "date": "1407-04-23",
+          "category": "birth",
+          "description": "Casa di San Giorgio chartered"
+        },
+        {
+          "date": "1440-01-01",
+          "category": "expansion",
+          "description": "Assumes administration of Corsica and Gazaria"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Monte dei Paschi di Siena",
+      "type": "private",
+      "role": "Bank",
+      "regionOfActivity": "Siena",
+      "description": "Pious mount turned commercial bank, world's oldest operating.",
+      "events": [
+        {
+          "date": "1472-03-04",
+          "category": "birth",
+          "description": "Magistrature founds the Monte Pio"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "transformation",
+          "description": "Banking-foundation split; joint-stock bank"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Banca d'Italia",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Rome",
+      "description": "Note-issuing bank turned Eurosystem member.",
+      "events": [
+        {
+          "date": "1893-08-10",
+          "category": "birth",
+          "description": "Law merges four note-issuing banks"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "milestone",
+          "description": "ECB era begins; lira pegged"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Cassa Depositi e Prestiti",
+      "type": "public",
+      "role": "Development bank",
+      "regionOfActivity": "Rome",
+      "description": "State savings and infrastructure financier.",
+      "events": [
+        {
+          "date": "1850-11-18",
+          "category": "birth",
+          "description": "Sardinian law creates the Cassa"
+        },
+        {
+          "date": "2003-12-12",
+          "category": "transformation",
+          "description": "Joint-stock company with foundations as shareholders"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Intesa Sanpaolo",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Turin",
+      "description": "Cariplo-Ambroveneto lineage merged with Sanpaolo IMI in 2007.",
+      "events": [
+        {
+          "date": "2007-01-01",
+          "category": "founding",
+          "description": "Banca Intesa-Sanpaolo IMI merger"
+        },
+        {
+          "date": "2017-06-01",
+          "category": "expansion",
+          "description": "Veneto banks resolution absorbs assets"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "UniCredit",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Milan",
+      "description": "Credito Italiano-Unicredito lineage expanded across central Europe.",
+      "events": [
+        {
+          "date": "1998-10-26",
+          "category": "founding",
+          "description": "Unicredito Italiano formed"
+        },
+        {
+          "date": "2005-06-12",
+          "category": "expansion",
+          "description": "HVB takeover extends into Germany and CEE"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Assicurazioni Generali",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Trieste",
+      "description": "Habsburg-era insurer grown into a European group.",
+      "events": [
+        {
+          "date": "1831-12-26",
+          "category": "birth",
+          "description": "Assicurazioni Generali Austro-Italiche founded"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "expansion",
+          "description": "INA acquisition consolidates domestic lead"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Ente Nazionale Idrocarburi",
+      "type": "hybrid",
+      "role": "Energy major",
+      "regionOfActivity": "Rome",
+      "description": "Mattei's state oil company turned listed multi-energy group.",
+      "events": [
+        {
+          "date": "1953-02-10",
+          "category": "birth",
+          "description": "ENI law creates the ente"
+        },
+        {
+          "date": "1962-12-27",
+          "category": "milestone",
+          "description": "Mattei dies; 75-25 formula legacy continues"
+        },
+        {
+          "date": "1992-07-11",
+          "category": "transformation",
+          "description": "Conversion to joint-stock company"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Enel",
+      "type": "hybrid",
+      "role": "Electric utility",
+      "regionOfActivity": "Rome",
+      "description": "Nationalized generator privatized into a renewables giant.",
+      "events": [
+        {
+          "date": "1962-12-06",
+          "category": "birth",
+          "description": "Nationalization law creates ENEL"
+        },
+        {
+          "date": "1999-11-02",
+          "category": "transformation",
+          "description": "Listing begins privatization"
+        },
+        {
+          "date": "2009-06-25",
+          "category": "expansion",
+          "description": "Endesa control consolidated in Spain"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Snam",
+      "type": "private",
+      "role": "Gas grid operator",
+      "regionOfActivity": "Milan",
+      "description": "ENI pipeline arm spun into Europe's gas-grid leader.",
+      "events": [
+        {
+          "date": "1941-10-30",
+          "category": "birth",
+          "description": "Società Nazionale Metanodotti founded"
+        },
+        {
+          "date": "2001-12-06",
+          "category": "transformation",
+          "description": "Listing; ENI stake reduced"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Terna",
+      "type": "private",
+      "role": "Grid operator",
+      "regionOfActivity": "Rome",
+      "description": "Enel transmission arm turned independent TSO.",
+      "events": [
+        {
+          "date": "1999-05-31",
+          "category": "birth",
+          "description": "Terna carved out of Enel"
+        },
+        {
+          "date": "2004-06-23",
+          "category": "transformation",
+          "description": "Listing completes unbundling"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Edison",
+      "type": "private",
+      "role": "Energy company",
+      "regionOfActivity": "Milan",
+      "description": "Historic electricity pioneer turned EDF-owned multi-utility.",
+      "events": [
+        {
+          "date": "1884-01-06",
+          "category": "birth",
+          "description": "Società Generale Italiana di Elettricità founded"
+        },
+        {
+          "date": "2012-01-01",
+          "category": "milestone",
+          "description": "EDF takes control via Transalpina"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "FIAT and Stellantis Italy",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Turin",
+      "description": "Agnelli-founded mass motorization engine, now Stellantis pillar.",
+      "events": [
+        {
+          "date": "1899-07-11",
+          "category": "birth",
+          "description": "Fabbrica Italiana Automobili Torino founded"
+        },
+        {
+          "date": "1969-01-01",
+          "category": "expansion",
+          "description": "Lancia and Ferrari stakes acquired"
+        },
+        {
+          "date": "2014-01-29",
+          "category": "transformation",
+          "description": "Chrysler merger forms FCA; Stellantis follows in 2021"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Ferrari",
+      "type": "private",
+      "role": "Sports carmaker",
+      "regionOfActivity": "Maranello",
+      "description": "Racing-team turned luxury-performance marque.",
+      "events": [
+        {
+          "date": "1947-03-12",
+          "category": "birth",
+          "description": "First Ferrari-badged car completed"
+        },
+        {
+          "date": "1969-06-01",
+          "category": "milestone",
+          "description": "FIAT takes strategic stake"
+        },
+        {
+          "date": "2016-01-04",
+          "category": "transformation",
+          "description": "Spin-off listing completes independence"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Pirelli",
+      "type": "private",
+      "role": "Tire and cables group",
+      "regionOfActivity": "Milan",
+      "description": "Rubber pioneer turned premium-tire specialist.",
+      "events": [
+        {
+          "date": "1872-01-28",
+          "category": "birth",
+          "description": "G.B. Pirelli & C. founded"
+        },
+        {
+          "date": "2005-01-01",
+          "category": "transformation",
+          "description": "Telecom Italia control era; tire focus follows"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Leonardo",
+      "type": "hybrid",
+      "role": "Aerospace and defense group",
+      "regionOfActivity": "Rome",
+      "description": "Finmeccanica restructured into helicopters, electronics and aerostructures.",
+      "events": [
+        {
+          "date": "1948-03-18",
+          "category": "birth",
+          "description": "Finmeccanica holding created"
+        },
+        {
+          "date": "2016-01-01",
+          "category": "transformation",
+          "description": "One-company Leonardo rebrand"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Fincantieri",
+      "type": "hybrid",
+      "role": "Shipbuilder",
+      "regionOfActivity": "Trieste",
+      "description": "Naval-civil yard group leading cruise-ship construction.",
+      "events": [
+        {
+          "date": "1959-12-29",
+          "category": "birth",
+          "description": "Fincantieri cantieri navali founded"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "milestone",
+          "description": "IRI folds eight yards into the group"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Ansaldo",
+      "type": "private",
+      "role": "Heavy engineering group",
+      "regionOfActivity": "Genoa",
+      "description": "Perrone-era mechanical giant seeding Italian electromechanics.",
+      "events": [
+        {
+          "date": "1853-01-01",
+          "category": "birth",
+          "description": "Gio. Ansaldo & C. founded"
+        },
+        {
+          "date": "1993-01-01",
+          "category": "transformation",
+          "description": "Finmeccanica reorganization disperses the divisions"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Benetton Group",
+      "type": "private",
+      "role": "Apparel group",
+      "regionOfActivity": "Treviso",
+      "description": "Knitwear franchising model gone global.",
+      "events": [
+        {
+          "date": "1965-01-01",
+          "category": "birth",
+          "description": "Benetton brothers found the knitwear firm"
+        },
+        {
+          "date": "1986-01-01",
+          "category": "expansion",
+          "description": "Formula 1 team boosts the brand worldwide"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Luxottica",
+      "type": "private",
+      "role": "Eyewear group",
+      "regionOfActivity": "Milan",
+      "description": "Agordo workshop grown into the EssilorLuxottica empire.",
+      "events": [
+        {
+          "date": "1961-01-01",
+          "category": "birth",
+          "description": "Leonardo Del Vecchio founds Luxottica"
+        },
+        {
+          "date": "2018-10-01",
+          "category": "transformation",
+          "description": "Essilor merger forms EssilorLuxottica"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Giorgio Armani",
+      "type": "private",
+      "role": "Fashion house",
+      "regionOfActivity": "Milan",
+      "description": "Designer-led independent luxury house.",
+      "events": [
+        {
+          "date": "1975-07-24",
+          "category": "birth",
+          "description": "Armani founded with Sergio Galeotti"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Prada",
+      "type": "private",
+      "role": "Luxury house",
+      "regionOfActivity": "Milan",
+      "description": "Leather-goods house reinvented by Miuccia Prada.",
+      "events": [
+        {
+          "date": "1913-01-01",
+          "category": "birth",
+          "description": "Fratelli Prada opens in Galleria Vittorio Emanuele"
+        },
+        {
+          "date": "1978-01-01",
+          "category": "transformation",
+          "description": "Miuccia Prada takes creative direction"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Gucci",
+      "type": "private",
+      "role": "Luxury house",
+      "regionOfActivity": "Florence",
+      "description": "Florentine saddler turned Kering flagship.",
+      "events": [
+        {
+          "date": "1921-01-01",
+          "category": "birth",
+          "description": "Guccio Gucci opens luggage shop"
+        },
+        {
+          "date": "1999-03-19",
+          "category": "transformation",
+          "description": "Kering group takes control"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Versace",
+      "type": "private",
+      "role": "Fashion house",
+      "regionOfActivity": "Milan",
+      "description": "Baroque-glamour house sold to Capri Holdings.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Gianni Versace founds the maison"
+        },
+        {
+          "date": "2018-09-25",
+          "category": "transformation",
+          "description": "Michael Kors acquisition"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Barilla",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Parma",
+      "description": "Family pasta maker turned global food group.",
+      "events": [
+        {
+          "date": "1877-09-28",
+          "category": "birth",
+          "description": "Pietro Barilla opens bakery in Parma"
+        },
+        {
+          "date": "1971-01-01",
+          "category": "expansion",
+          "description": "Wasa acquisition starts internationalization"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Ferrero",
+      "type": "private",
+      "role": "Confectionery group",
+      "regionOfActivity": "Alba",
+      "description": "Hazelnut-cream workshop grown into Nutella empire.",
+      "events": [
+        {
+          "date": "1946-01-01",
+          "category": "birth",
+          "description": "Pietro Ferrero founds the workshop"
+        },
+        {
+          "date": "1964-04-20",
+          "category": "technical",
+          "description": "Nutella launched"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Lavazza",
+      "type": "private",
+      "role": "Coffee group",
+      "regionOfActivity": "Turin",
+      "description": "Family coffee roaster with global capsule reach.",
+      "events": [
+        {
+          "date": "1895-01-01",
+          "category": "birth",
+          "description": "Luigi Lavazza opens grocery in Turin"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Campari Group",
+      "type": "private",
+      "role": "Spirits group",
+      "regionOfActivity": "Milan",
+      "description": "Bitter-aperitivo house turned global spirits acquirer.",
+      "events": [
+        {
+          "date": "1860-01-01",
+          "category": "birth",
+          "description": "Gaspare Campari opens café in Novara"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "expansion",
+          "description": "International acquisition spree begins"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "RAI",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Rome",
+      "description": "Monopoly broadcaster turned mixed-system public service.",
+      "events": [
+        {
+          "date": "1924-08-27",
+          "category": "birth",
+          "description": "URI radio concession granted"
+        },
+        {
+          "date": "1954-01-03",
+          "category": "milestone",
+          "description": "Regular television service begins"
+        },
+        {
+          "date": "1975-04-14",
+          "category": "transformation",
+          "description": "RAI reform pluralizes governance"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Mediaset and MFE",
+      "type": "private",
+      "role": "Commercial broadcaster",
+      "regionOfActivity": "Milan",
+      "description": "Berlusconi commercial-TV empire turned pan-European MFE.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Telemilano launches"
+        },
+        {
+          "date": "1996-07-15",
+          "category": "transformation",
+          "description": "Mediaset listing"
+        },
+        {
+          "date": "2021-01-01",
+          "category": "expansion",
+          "description": "MFE cross-border merger project"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Corriere della Sera",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "Milan",
+      "description": "Bourgeois daily of record since 1876.",
+      "events": [
+        {
+          "date": "1876-03-05",
+          "category": "birth",
+          "description": "First issue published"
+        },
+        {
+          "date": "1974-01-01",
+          "category": "milestone",
+          "description": "Rizzoli group takes control"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Olivetti",
+      "type": "private",
+      "role": "Office-machines company",
+      "regionOfActivity": "Ivrea",
+      "description": "Typewriter-computer pioneer of Adriano Olivetti's community model.",
+      "events": [
+        {
+          "date": "1908-10-20",
+          "category": "birth",
+          "description": "Ing. C. Olivetti & C. founded"
+        },
+        {
+          "date": "1959-01-01",
+          "category": "expansion",
+          "description": "Underwood acquisition; Elea computer line"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "TIM",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Milan",
+      "description": "Monopoly SIP privatized into a debt-laden incumbent.",
+      "events": [
+        {
+          "date": "1964-01-01",
+          "category": "birth",
+          "description": "SIP unifies telephone concessions"
+        },
+        {
+          "date": "1997-10-20",
+          "category": "transformation",
+          "description": "Privatization via Olivetti takeover"
+        },
+        {
+          "date": "2024-07-01",
+          "category": "milestone",
+          "description": "Netco sale to KKR splits the network"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Cinecittà",
+      "type": "public",
+      "role": "Film studios",
+      "regionOfActivity": "Rome",
+      "description": "Fascist-era dream factory behind neorealism and Hollywood-on-Tiber.",
+      "events": [
+        {
+          "date": "1937-04-28",
+          "category": "birth",
+          "description": "Cinecittà inaugurated"
+        },
+        {
+          "date": "1957-01-01",
+          "category": "milestone",
+          "description": "Ben-Hur era peak production years"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Teatro alla Scala",
+      "type": "hybrid",
+      "role": "Opera house",
+      "regionOfActivity": "Milan",
+      "description": "Habsburg-founded lyric temple with foundation governance.",
+      "events": [
+        {
+          "date": "1778-08-03",
+          "category": "birth",
+          "description": "Inaugurated with Salieri's Europa riconosciuta"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Gallerie degli Uffizi",
+      "type": "public",
+      "role": "Art museum",
+      "regionOfActivity": "Florence",
+      "description": "Medici offices turned first modern museum.",
+      "events": [
+        {
+          "date": "1581-01-01",
+          "category": "birth",
+          "description": "Francesco I opens the gallery to visitors"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Consiglio Nazionale delle Ricerche",
+      "type": "public",
+      "role": "Research agency",
+      "regionOfActivity": "Rome",
+      "description": "National multidisciplinary research council.",
+      "events": [
+        {
+          "date": "1923-11-18",
+          "category": "birth",
+          "description": "CNR founded"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Accademia Nazionale dei Lincei",
+      "type": "public",
+      "role": "Science academy",
+      "regionOfActivity": "Rome",
+      "description": "Cesi's academy, among the world's oldest scientific societies.",
+      "events": [
+        {
+          "date": "1603-08-17",
+          "category": "birth",
+          "description": "Federico Cesi founds the academy"
+        },
+        {
+          "date": "1611-04-25",
+          "category": "milestone",
+          "description": "Galileo admitted as sixth member"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Università di Bologna",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Bologna",
+      "description": "Alma mater studiorum claiming 1088 origins.",
+      "events": [
+        {
+          "date": "1404-01-01",
+          "category": "milestone",
+          "description": "Theological faculty added by papal bull"
+        },
+        {
+          "date": "1561-01-01",
+          "category": "expansion",
+          "description": "Palazzo dell'Archiginnasio built"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "CGIL",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Rome",
+      "description": "Largest labor confederation refounded after fascism.",
+      "events": [
+        {
+          "date": "1944-06-03",
+          "category": "birth",
+          "description": "Pact of Rome reunites the unions"
+        },
+        {
+          "date": "1948-07-14",
+          "category": "transformation",
+          "description": "Split births CISL and UIL"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Confindustria",
+      "type": "private",
+      "role": "Employers' federation",
+      "regionOfActivity": "Rome",
+      "description": "Peak industry lobby since the Giolitti era.",
+      "events": [
+        {
+          "date": "1910-05-05",
+          "category": "birth",
+          "description": "Confederazione Italiana dell'Industria founded"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Istituto per la Ricostruzione Industriale",
+      "type": "public",
+      "role": "State holding company",
+      "regionOfActivity": "Rome",
+      "description": "Beneduce's rescue holding turned postwar development engine.",
+      "events": [
+        {
+          "date": "1933-01-23",
+          "category": "birth",
+          "description": "IRI created to rescue banks and industry"
+        },
+        {
+          "date": "2002-06-27",
+          "category": "death",
+          "description": "Liquidation closes the IRI era"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Ferrovie dello Stato",
+      "type": "hybrid",
+      "role": "Railway group",
+      "regionOfActivity": "Rome",
+      "description": "Nationalized railways turned joint-stock group.",
+      "events": [
+        {
+          "date": "1905-04-22",
+          "category": "birth",
+          "description": "Fortis law nationalizes the railways"
+        },
+        {
+          "date": "1992-08-12",
+          "category": "transformation",
+          "description": "Conversion to S.p.A."
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Poste Italiane",
+      "type": "hybrid",
+      "role": "Postal and financial group",
+      "regionOfActivity": "Rome",
+      "description": "Postal operator turned bancassurance giant.",
+      "events": [
+        {
+          "date": "1862-05-05",
+          "category": "birth",
+          "description": "Postal reform law unifies the service"
+        },
+        {
+          "date": "2015-10-27",
+          "category": "transformation",
+          "description": "Listing begins privatization"
+        }
+      ]
+    },
+    {
+      "id": "a47",
+      "name": "ITA Airways and Alitalia",
+      "type": "public",
+      "role": "Flag carrier",
+      "regionOfActivity": "Rome",
+      "description": "Perennially rescued flag carrier reborn as ITA.",
+      "events": [
+        {
+          "date": "1946-09-16",
+          "category": "birth",
+          "description": "Alitalia founded"
+        },
+        {
+          "date": "2020-10-15",
+          "category": "transformation",
+          "description": "ITA Airways succeeds bankrupt Alitalia"
+        }
+      ]
+    },
+    {
+      "id": "a48",
+      "name": "Ducati",
+      "type": "private",
+      "role": "Motorcycle maker",
+      "regionOfActivity": "Bologna",
+      "description": "Radio-component firm turned racing motorcycle icon.",
+      "events": [
+        {
+          "date": "1926-07-04",
+          "category": "birth",
+          "description": "Ducati brothers found the radio firm"
+        },
+        {
+          "date": "1954-01-01",
+          "category": "transformation",
+          "description": "Cucciolo success pivots to motorcycles"
+        }
+      ]
+    },
+    {
+      "id": "a49",
+      "name": "Piaggio",
+      "type": "private",
+      "role": "Scooter manufacturer",
+      "regionOfActivity": "Pontedera",
+      "description": "Aeronautical firm reinvented by the Vespa.",
+      "events": [
+        {
+          "date": "1884-01-01",
+          "category": "birth",
+          "description": "Rinaldo Piaggio founds the company"
+        },
+        {
+          "date": "1946-04-23",
+          "category": "technical",
+          "description": "Vespa patent filed"
+        }
+      ]
+    }
+  ]
+}

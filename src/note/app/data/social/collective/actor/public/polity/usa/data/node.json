@@ -1,0 +1,107 @@
+{
+  "id": "usa",
+  "name": "United States",
+  "tags": [
+    "North America",
+    "Federal Republic",
+    "Presidential System",
+    "Largest Economy",
+    "Technological Leader",
+    "Global Reserve Currency"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "The United States is a federal presidential republic and the world's largest economy, spanning North America from the Atlantic to the Pacific. Founded on constitutional federalism with separation of powers, it became the center of twentieth-century industrial, financial and technological power. Its economy leads in technology, capital markets, higher education and defense industries, with the dollar as the global reserve currency.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "United States of America",
+    "flagEmoji": "🇺🇸",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "340 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 340000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 29 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 29000000000000
+      },
+      {
+        "id": "area",
+        "value": "9,833,520 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 9833520
+      },
+      {
+        "id": "capital",
+        "value": "Washington, D.C.",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Presidential Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of the American actor space from founding constitutional institutions and industrial trusts through New Deal agencies to platform-technology firms, federal laboratories, and the modern administrative state.",
+        "link": "rep/actor.html?code=usa"
+      },
+      {
+        "id": "tech_capital_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Technology and Capital Markets Network",
+        "description": "Network analysis of venture funding, public listings, research universities and platform ecosystems linking innovation clusters to Wall Street allocation.",
+        "link": null
+      },
+      {
+        "id": "federal_territorial",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Federal Territorial-Administrative Structure",
+        "description": "Geospatial representation of fifty states, federal districts and territories, interstate infrastructure, and the fiscal division of labor between Washington and state capitals.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "USA",
+      "region": "North America",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

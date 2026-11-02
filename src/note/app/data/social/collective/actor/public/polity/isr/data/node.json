@@ -1,0 +1,107 @@
+{
+  "id": "isr",
+  "name": "Israel",
+  "tags": [
+    "Middle East",
+    "Parliamentary Republic",
+    "Startup Nation",
+    "Defense Technology",
+    "Water Innovation",
+    "Disputed Borders"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Israel is a unitary parliamentary republic in the Middle East known for its technology and defense sectors. Founded in 1948, it built a startup-nation economy on R&D intensity, venture capital and military-civilian technology transfer, alongside strengths in water, agriculture and diamonds. Regional conflict and disputed borders remain central to its political economy.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Israel / Yisra'el",
+    "flagEmoji": "🇮🇱",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "10 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 10000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 540 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 540000000000
+      },
+      {
+        "id": "area",
+        "value": "22,072 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 22072
+      },
+      {
+        "id": "capital",
+        "value": "Jerusalem (disputed)",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Unitary Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Israel's actor space from pre-state institutions and Histadrut enterprises through defense-led R&D to venture-backed technology firms, desalination utilities, and coalition parliamentary governance.",
+        "link": "rep/actor.html?code=isr"
+      },
+      {
+        "id": "startup_defense_tech",
+        "type": "Network",
+        "status": "pending",
+        "title": "Startup and Defense Technology Network",
+        "description": "Network analysis of military R&D spillovers, venture funds, multinational R&D centers and incubators binding Tel Aviv's ecosystem to Nasdaq exits.",
+        "link": null
+      },
+      {
+        "id": "territorial_admin",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Territorial-Administrative Structure",
+        "description": "Geospatial representation of districts, development towns, contested boundaries, and infrastructure arbitrating water, land and security.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "ISR",
+      "region": "Middle East",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

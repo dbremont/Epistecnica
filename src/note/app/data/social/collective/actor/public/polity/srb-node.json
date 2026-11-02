@@ -1,0 +1,107 @@
+{
+  "id": "srb",
+  "name": "Serbia",
+  "tags": [
+    "Balkans",
+    "Southeastern Europe",
+    "EU Candidate",
+    "Upper-Middle-Income Economy",
+    "Parliamentary Republic",
+    "Engineering Tradition"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Serbia is a parliamentary republic in Southeastern Europe, successor of the Yugoslav federation, with Belgrade at the confluence of the Danube and Sava. It is an upper-middle-income economy reorienting from state industry toward automotive components, food processing, and ICT services, carried by a deep engineering tradition: the Mihajlo Pupin Institute's automation and computing lineage, the VINCA nuclear institute, and a university system anchored by the University of Belgrade. EU candidacy frames its regulatory convergence; demographic contraction and brain drain are its binding constraints.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Republika Srbija",
+    "flagEmoji": "🇷🇸",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "6.6 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 6600000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 81 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 81000000000
+      },
+      {
+        "id": "area",
+        "value": "88,361 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 88361
+      },
+      {
+        "id": "capital",
+        "value": "Belgrade",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Serbia's actor space from Yugoslav self-management and federal institutions to the republic's ministries, public research institutes, university, science funds, and export-oriented firms.",
+        "link": "rep/actor.html?code=srb"
+      },
+      {
+        "id": "industrial_and_innovation_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Industrial and Innovation Network Structure",
+        "description": "Network analysis of Serbia's engineering institutes, automotive and food sectors, ICT services, and integration into European value chains.",
+        "link": null
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of districts, the Belgrade-Novi Sad corridor, transport infrastructure, and spatial concentration of research and industrial clusters.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "SRB",
+      "region": "Southern Europe",
+      "lastRevised": "2026-10-03",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "manual",
+    "imported": "2026-10-03"
+  },
+  "references": []
+}

@@ -1,0 +1,1080 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of French actors (organizations and institutions) since 1400.",
+    "country": "France",
+    "region": "Western Europe",
+    "flag": "🇫🇷",
+    "introduction": "A granular representation of the evolution of key actors within the social region of France. This dataset traces the formation, transformation, and significant milestones of monarchical, republican, corporate, and scientific entities, from royal manufactures to EU-integrated multinationals.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "French Crown and Monarchy",
+      "type": "public",
+      "role": "Monarchy",
+      "regionOfActivity": "Paris",
+      "description": "Hereditary monarchy ruling France from medieval kingship to the 1848 revolution.",
+      "events": [
+        {
+          "date": "1429-07-17",
+          "category": "milestone",
+          "description": "Coronation of Charles VII at Reims consolidates Valois legitimacy"
+        },
+        {
+          "date": "1789-07-14",
+          "category": "transformation",
+          "description": "Fall of the Bastille opens the revolutionary sequence"
+        },
+        {
+          "date": "1792-09-21",
+          "category": "death",
+          "description": "Abolition of the monarchy; First Republic proclaimed"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Estates-General",
+      "type": "public",
+      "role": "Representative assembly",
+      "regionOfActivity": "Versailles",
+      "description": "Assembly of the three estates, convened irregularly by the Crown (first 1302).",
+      "events": [
+        {
+          "date": "1789-05-05",
+          "category": "milestone",
+          "description": "Estates-General convenes at Versailles after 175 years"
+        },
+        {
+          "date": "1789-06-17",
+          "category": "transformation",
+          "description": "Third Estate declares itself the National Assembly"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Parlement of Paris",
+      "type": "public",
+      "role": "Sovereign court",
+      "regionOfActivity": "Paris",
+      "description": "Premier sovereign court registering royal edicts with remonstrance rights.",
+      "events": [
+        {
+          "date": "1771-04-13",
+          "category": "policy",
+          "description": "Maupeou reform exiles the parlementaires"
+        },
+        {
+          "date": "1790-09-06",
+          "category": "death",
+          "description": "Revolutionary assembly suppresses the parlements"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Sorbonne and University of Paris",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Paris",
+      "description": "Medieval university corporation refounded by Napoleon; split into thirteen universities in 1971.",
+      "events": [
+        {
+          "date": "1806-05-10",
+          "category": "transformation",
+          "description": "Napoleonic Imperial University refounds the faculties"
+        },
+        {
+          "date": "1971-01-01",
+          "category": "transformation",
+          "description": "Faure law splits the university into thirteen institutions"
+        },
+        {
+          "date": "2018-01-01",
+          "category": "milestone",
+          "description": "Sorbonne University merger reunites science, medicine and humanities"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Académie française",
+      "type": "public",
+      "role": "Language academy",
+      "regionOfActivity": "Paris",
+      "description": "Guardian of the French language under Institut de France patronage.",
+      "events": [
+        {
+          "date": "1635-01-01",
+          "category": "birth",
+          "description": "Letters patent found the Academy"
+        },
+        {
+          "date": "1793-08-08",
+          "category": "death",
+          "description": "Revolutionary convention suppresses the academies"
+        },
+        {
+          "date": "1803-01-23",
+          "category": "milestone",
+          "description": "Institut de France restoration revives the Academy"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Banque de France",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Paris",
+      "description": "Note-issuing bank turned national central bank inside the Eurosystem.",
+      "events": [
+        {
+          "date": "1800-01-18",
+          "category": "birth",
+          "description": "Founded by Napoleonic decree with note-issue privilege"
+        },
+        {
+          "date": "1945-12-02",
+          "category": "transformation",
+          "description": "Nationalization makes it the state's central bank"
+        },
+        {
+          "date": "1998-06-01",
+          "category": "milestone",
+          "description": "Monetary authority transfers to the European Central Bank"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Caisse des Dépôts",
+      "type": "public",
+      "role": "Public investor",
+      "regionOfActivity": "Paris",
+      "description": "State-owned long-term investor managing regulated savings and pensions.",
+      "events": [
+        {
+          "date": "1816-04-28",
+          "category": "birth",
+          "description": "Royal ordinance creates the Caisse"
+        },
+        {
+          "date": "2008-01-01",
+          "category": "expansion",
+          "description": "Sovereign-fund mandates widen under crisis management"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Société Générale",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Paris",
+      "description": "Universal bank founded under Second Empire industrial sponsorship.",
+      "events": [
+        {
+          "date": "1864-05-04",
+          "category": "birth",
+          "description": "Imperial decree authorizes the bank"
+        },
+        {
+          "date": "1987-06-01",
+          "category": "transformation",
+          "description": "Privatization returns it to private ownership"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "BNP Paribas",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Paris",
+      "description": "Product of successive mergers from the 1848 Comptoir d'Escompte.",
+      "events": [
+        {
+          "date": "1848-03-07",
+          "category": "birth",
+          "description": "Comptoir National d'Escompte de Paris founded"
+        },
+        {
+          "date": "1966-01-01",
+          "category": "milestone",
+          "description": "CNEP-BNCI merger forms Banque Nationale de Paris"
+        },
+        {
+          "date": "2000-05-23",
+          "category": "transformation",
+          "description": "BNP-Paribas merger creates a eurozone champion"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Crédit Agricole",
+      "type": "hybrid",
+      "role": "Cooperative bank",
+      "regionOfActivity": "Paris",
+      "description": "Mutualist banking group turned listed company with cooperative anchor.",
+      "events": [
+        {
+          "date": "1894-11-05",
+          "category": "birth",
+          "description": "Law authorizes local agricultural credit societies"
+        },
+        {
+          "date": "2001-12-14",
+          "category": "transformation",
+          "description": "Stock-market listing of Crédit Agricole S.A."
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "AXA",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Paris",
+      "description": "Mutual-insurance roots grown into a global insurance group.",
+      "events": [
+        {
+          "date": "1817-01-01",
+          "category": "birth",
+          "description": "Mutuelle de L'assurance contre L'incendie founded in Rouen"
+        },
+        {
+          "date": "1985-01-01",
+          "category": "milestone",
+          "description": "AXA name adopted ahead of international expansion"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Compagnie de Saint-Gobain",
+      "type": "private",
+      "role": "Materials manufacturer",
+      "regionOfActivity": "Paris",
+      "description": "Royal mirror manufacture turned construction-materials multinational.",
+      "events": [
+        {
+          "date": "1665-10-15",
+          "category": "birth",
+          "description": "Colbert charters the Manufacture des Glaces"
+        },
+        {
+          "date": "1970-06-01",
+          "category": "transformation",
+          "description": "Pont-à-Mousson merger forms the modern group"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Michelin",
+      "type": "private",
+      "role": "Tire manufacturer",
+      "regionOfActivity": "Clermont-Ferrand",
+      "description": "Family tire maker pioneering the radial tire and restaurant guides.",
+      "events": [
+        {
+          "date": "1889-05-28",
+          "category": "birth",
+          "description": "Michelin et Cie founded"
+        },
+        {
+          "date": "1946-06-04",
+          "category": "technical",
+          "description": "Radial tire patent filed"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Renault",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Boulogne-Billancourt",
+      "description": "Automaker nationalized in 1945, privatized in 1996, allied with Nissan in 1999.",
+      "events": [
+        {
+          "date": "1899-02-25",
+          "category": "birth",
+          "description": "Société Renault Frères founded"
+        },
+        {
+          "date": "1945-01-16",
+          "category": "policy",
+          "description": "Nationalization creates the Régie Nationale"
+        },
+        {
+          "date": "1999-03-27",
+          "category": "milestone",
+          "description": "Renault-Nissan alliance signed"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Peugeot and Stellantis France",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Paris",
+      "description": "Bicycle-to-auto dynasty culminating in the 2021 Stellantis merger.",
+      "events": [
+        {
+          "date": "1810-01-01",
+          "category": "birth",
+          "description": "Peugeot Frères steel business begins"
+        },
+        {
+          "date": "1976-06-24",
+          "category": "expansion",
+          "description": "Peugeot takes over Citroën"
+        },
+        {
+          "date": "2021-01-16",
+          "category": "transformation",
+          "description": "PSA-FCA merger creates Stellantis"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Citroën",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Paris",
+      "description": "Mass-production pioneer absorbed by Peugeot in 1976.",
+      "events": [
+        {
+          "date": "1919-06-04",
+          "category": "birth",
+          "description": "André Citroën founds the automobile company"
+        },
+        {
+          "date": "1934-04-01",
+          "category": "technical",
+          "description": "Traction Avant launches front-wheel-drive era"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "TotalEnergies",
+      "type": "private",
+      "role": "Energy major",
+      "regionOfActivity": "Paris",
+      "description": "Oil major rebranded around multi-energy transition.",
+      "events": [
+        {
+          "date": "1924-03-28",
+          "category": "birth",
+          "description": "Compagnie Française des Pétroles founded"
+        },
+        {
+          "date": "1985-06-21",
+          "category": "milestone",
+          "description": "Total name adopted group-wide"
+        },
+        {
+          "date": "2021-05-28",
+          "category": "transformation",
+          "description": "TotalEnergies rebrand commits to transition"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Électricité de France",
+      "type": "public",
+      "role": "Electric utility",
+      "regionOfActivity": "Paris",
+      "description": "Nationalized electricity monopoly operator of the nuclear fleet.",
+      "events": [
+        {
+          "date": "1946-04-08",
+          "category": "birth",
+          "description": "Nationalization law creates EDF"
+        },
+        {
+          "date": "2005-11-21",
+          "category": "transformation",
+          "description": "Partial stock-market listing"
+        },
+        {
+          "date": "2023-06-08",
+          "category": "policy",
+          "description": "Full renationalization completed"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "SNCF",
+      "type": "public",
+      "role": "Railway operator",
+      "regionOfActivity": "Paris",
+      "description": "National railway company builder of the TGV network.",
+      "events": [
+        {
+          "date": "1938-01-01",
+          "category": "birth",
+          "description": "Five companies merged into the SNCF"
+        },
+        {
+          "date": "1981-09-27",
+          "category": "technical",
+          "description": "First TGV service Paris-Lyon opens"
+        },
+        {
+          "date": "2020-01-01",
+          "category": "policy",
+          "description": "Rail reform converts EPIC into joint-stock group"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Air France",
+      "type": "hybrid",
+      "role": "Flag carrier",
+      "regionOfActivity": "Paris",
+      "description": "Flag carrier merged with KLM in 2004 under state anchor shareholding.",
+      "events": [
+        {
+          "date": "1933-08-30",
+          "category": "birth",
+          "description": "Air France founded from five airlines"
+        },
+        {
+          "date": "2004-05-05",
+          "category": "transformation",
+          "description": "Air France-KLM merger completed"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Airbus",
+      "type": "hybrid",
+      "role": "Aerospace manufacturer",
+      "regionOfActivity": "Toulouse",
+      "description": "European aerospace consortium turned listed group.",
+      "events": [
+        {
+          "date": "1970-12-18",
+          "category": "birth",
+          "description": "Airbus Industrie consortium formed"
+        },
+        {
+          "date": "2000-07-10",
+          "category": "transformation",
+          "description": "EADS integration creates a unified company"
+        },
+        {
+          "date": "2014-01-02",
+          "category": "milestone",
+          "description": "Airbus Group rebrand simplifies governance"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Dassault Aviation",
+      "type": "private",
+      "role": "Aircraft manufacturer",
+      "regionOfActivity": "Paris",
+      "description": "Family-owned combat and business aircraft maker.",
+      "events": [
+        {
+          "date": "1929-01-01",
+          "category": "birth",
+          "description": "Marcel Bloch founds the aircraft company"
+        },
+        {
+          "date": "1986-07-04",
+          "category": "technical",
+          "description": "Rafale first flight"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Thales",
+      "type": "hybrid",
+      "role": "Defense electronics group",
+      "regionOfActivity": "Paris",
+      "description": "State-anchored defense, avionics and security group.",
+      "events": [
+        {
+          "date": "1893-01-01",
+          "category": "birth",
+          "description": "Compagnie Française Thomson-Houston founded"
+        },
+        {
+          "date": "2000-12-06",
+          "category": "transformation",
+          "description": "Thomson-CSF renamed Thales"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Safran",
+      "type": "hybrid",
+      "role": "Aero-engine manufacturer",
+      "regionOfActivity": "Paris",
+      "description": "SNECMA-SAGEM merger product dominating narrow-body engines via CFM.",
+      "events": [
+        {
+          "date": "1945-05-29",
+          "category": "birth",
+          "description": "SNECMA national engine company created"
+        },
+        {
+          "date": "2005-05-11",
+          "category": "transformation",
+          "description": "SAGEM merger forms Safran"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "L'Oréal",
+      "type": "private",
+      "role": "Cosmetics group",
+      "regionOfActivity": "Paris",
+      "description": "World's largest cosmetics company from a hair-dye startup.",
+      "events": [
+        {
+          "date": "1909-07-30",
+          "category": "birth",
+          "description": "Eugène Schueller founds the company"
+        },
+        {
+          "date": "1974-01-01",
+          "category": "milestone",
+          "description": "Nestlé takes strategic stake"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "LVMH",
+      "type": "private",
+      "role": "Luxury conglomerate",
+      "regionOfActivity": "Paris",
+      "description": "Louis Vuitton-Moët Hennessy merger turned luxury empire.",
+      "events": [
+        {
+          "date": "1854-01-01",
+          "category": "birth",
+          "description": "Louis Vuitton trunk-maker founded"
+        },
+        {
+          "date": "1987-06-03",
+          "category": "founding",
+          "description": "LVMH merger creates the luxury group"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Hermès",
+      "type": "private",
+      "role": "Luxury house",
+      "regionOfActivity": "Paris",
+      "description": "Family-controlled harness-maker turned luxury maison.",
+      "events": [
+        {
+          "date": "1837-01-01",
+          "category": "birth",
+          "description": "Thierry Hermès harness workshop opens"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Chanel",
+      "type": "private",
+      "role": "Luxury house",
+      "regionOfActivity": "Paris",
+      "description": "Couture house defining twentieth-century fashion.",
+      "events": [
+        {
+          "date": "1910-01-01",
+          "category": "birth",
+          "description": "Coco Chanel opens millinery at 21 rue Cambon"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Kering",
+      "type": "private",
+      "role": "Luxury group",
+      "regionOfActivity": "Paris",
+      "description": "Pinault trading house converted into luxury group around Gucci.",
+      "events": [
+        {
+          "date": "1963-01-01",
+          "category": "birth",
+          "description": "François Pinault founds timber trading firm"
+        },
+        {
+          "date": "1999-03-19",
+          "category": "expansion",
+          "description": "Gucci Group control acquired"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Carrefour",
+      "type": "private",
+      "role": "Retailer",
+      "regionOfActivity": "Paris",
+      "description": "Hypermarket inventor turned multinational grocer.",
+      "events": [
+        {
+          "date": "1959-01-01",
+          "category": "birth",
+          "description": "Carrefour founded in Annecy"
+        },
+        {
+          "date": "1963-06-15",
+          "category": "technical",
+          "description": "First hypermarket opens at Sainte-Geneviève-des-Bois"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Danone",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Paris",
+      "description": "Yogurt maker grown into dairy, waters and nutrition group.",
+      "events": [
+        {
+          "date": "1919-01-01",
+          "category": "birth",
+          "description": "First Danone yogurt sold in Barcelona"
+        },
+        {
+          "date": "1973-01-01",
+          "category": "transformation",
+          "description": "BSN merger pivots the group to food"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Bouygues",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Paris",
+      "description": "Construction group expanded into telecoms and media.",
+      "events": [
+        {
+          "date": "1952-01-01",
+          "category": "birth",
+          "description": "Francis Bouygues founds the building firm"
+        },
+        {
+          "date": "1986-04-04",
+          "category": "expansion",
+          "description": "TF1 privatization awarded to Bouygues"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Vinci",
+      "type": "private",
+      "role": "Concessions and construction group",
+      "regionOfActivity": "Paris",
+      "description": "Motorway-concession and construction leader.",
+      "events": [
+        {
+          "date": "1899-01-01",
+          "category": "birth",
+          "description": "Grands Travaux de Marseille founded"
+        },
+        {
+          "date": "2000-07-19",
+          "category": "transformation",
+          "description": "GTM merger; Vinci name adopted"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Orange",
+      "type": "hybrid",
+      "role": "Telecom operator",
+      "regionOfActivity": "Paris",
+      "description": "Former monopoly operator privatized around the Orange brand.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "France Télécom operator created"
+        },
+        {
+          "date": "1997-10-20",
+          "category": "policy",
+          "description": "Partial privatization begins"
+        },
+        {
+          "date": "2005-07-01",
+          "category": "milestone",
+          "description": "Orange brand adopted group-wide"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "La Poste",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Paris",
+      "description": "Universal postal operator expanded into banking and logistics.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "transformation",
+          "description": "Autonomous public operator status granted"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "expansion",
+          "description": "La Banque Postale launched"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "CNRS",
+      "type": "public",
+      "role": "Research agency",
+      "regionOfActivity": "Paris",
+      "description": "National basic-research agency and Europe's largest.",
+      "events": [
+        {
+          "date": "1939-10-19",
+          "category": "birth",
+          "description": "CNRS created by decree"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Commissariat à l'énergie atomique",
+      "type": "public",
+      "role": "Nuclear research agency",
+      "regionOfActivity": "Paris",
+      "description": "Atomic-energy commission behind the civil nuclear program.",
+      "events": [
+        {
+          "date": "1945-10-18",
+          "category": "birth",
+          "description": "CEA founded by de Gaulle ordinance"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Institut Pasteur",
+      "type": "private",
+      "role": "Biomedical institute",
+      "regionOfActivity": "Paris",
+      "description": "Private nonprofit foundation for infectious-disease research.",
+      "events": [
+        {
+          "date": "1887-06-04",
+          "category": "birth",
+          "description": "Institut founded by national subscription"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "École Polytechnique",
+      "type": "public",
+      "role": "Engineering school",
+      "regionOfActivity": "Paris",
+      "description": "Elite engineering school of the French state technocracy.",
+      "events": [
+        {
+          "date": "1794-09-28",
+          "category": "birth",
+          "description": "École Centrale des Travaux Publics founded"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Musée du Louvre",
+      "type": "public",
+      "role": "Museum",
+      "regionOfActivity": "Paris",
+      "description": "Royal palace converted into the world's most-visited museum.",
+      "events": [
+        {
+          "date": "1793-08-10",
+          "category": "birth",
+          "description": "Muséum Central des Arts opens"
+        },
+        {
+          "date": "1989-03-30",
+          "category": "milestone",
+          "description": "Ieoh Ming Pei pyramid inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Bibliothèque nationale de France",
+      "type": "public",
+      "role": "National library",
+      "regionOfActivity": "Paris",
+      "description": "Legal-deposit library with Richelieu and Tolbiac sites.",
+      "events": [
+        {
+          "date": "1537-12-28",
+          "category": "policy",
+          "description": "Montpellier ordinance institutes legal deposit"
+        },
+        {
+          "date": "1996-12-20",
+          "category": "milestone",
+          "description": "François-Mitterrand site opens"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Comédie-Française",
+      "type": "public",
+      "role": "National theatre",
+      "regionOfActivity": "Paris",
+      "description": "State theatre troupe in continuous operation.",
+      "events": [
+        {
+          "date": "1680-08-21",
+          "category": "birth",
+          "description": "Louis XIV merges the Parisian troupes"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Confédération Générale du Travail",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Paris",
+      "description": "Historic labor confederation of the French left.",
+      "events": [
+        {
+          "date": "1895-09-23",
+          "category": "birth",
+          "description": "CGT founded at Limoges congress"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Conseil d'État",
+      "type": "public",
+      "role": "Supreme administrative court",
+      "regionOfActivity": "Paris",
+      "description": "Top administrative jurisdiction advising the government.",
+      "events": [
+        {
+          "date": "1799-12-13",
+          "category": "birth",
+          "description": "Constitution of Year VIII creates the Council"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Cour des comptes",
+      "type": "public",
+      "role": "Audit court",
+      "regionOfActivity": "Paris",
+      "description": "Supreme audit institution for public finances.",
+      "events": [
+        {
+          "date": "1807-09-16",
+          "category": "birth",
+          "description": "Napoleonic law institutes the Court"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Institut national de la statistique",
+      "type": "public",
+      "role": "Statistics agency",
+      "regionOfActivity": "Paris",
+      "description": "National statistics institute (INSEE).",
+      "events": [
+        {
+          "date": "1946-04-27",
+          "category": "birth",
+          "description": "INSEE created to replace the wartime service"
+        }
+      ]
+    },
+    {
+      "id": "a47",
+      "name": "Mistral AI",
+      "type": "private",
+      "role": "AI laboratory",
+      "regionOfActivity": "Paris",
+      "description": "Open-weight foundation-model startup.",
+      "events": [
+        {
+          "date": "2023-05-01",
+          "category": "birth",
+          "description": "Founded by former DeepMind and Meta researchers"
+        },
+        {
+          "date": "2024-06-01",
+          "category": "expansion",
+          "description": "Series B funds European AI infrastructure"
+        }
+      ]
+    },
+    {
+      "id": "a48",
+      "name": "Ubisoft",
+      "type": "private",
+      "role": "Video-game publisher",
+      "regionOfActivity": "Paris",
+      "description": "Family-controlled AAA game publisher.",
+      "events": [
+        {
+          "date": "1986-03-28",
+          "category": "birth",
+          "description": "Guillemot brothers found Ubisoft"
+        }
+      ]
+    },
+    {
+      "id": "a49",
+      "name": "Capgemini",
+      "type": "private",
+      "role": "IT services group",
+      "regionOfActivity": "Paris",
+      "description": "Consulting and outsourcing multinational.",
+      "events": [
+        {
+          "date": "1967-10-01",
+          "category": "birth",
+          "description": "Sogeti founded in Grenoble"
+        }
+      ]
+    },
+    {
+      "id": "a50",
+      "name": "Sanofi",
+      "type": "private",
+      "role": "Pharmaceutical group",
+      "regionOfActivity": "Paris",
+      "description": "Vaccines and specialty-care drugmaker.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "Elf Aquitaine creates the Sanofi pharma arm"
+        },
+        {
+          "date": "2004-08-20",
+          "category": "transformation",
+          "description": "Aventis merger forms Sanofi-Aventis"
+        }
+      ]
+    },
+    {
+      "id": "a51",
+      "name": "Air Liquide",
+      "type": "private",
+      "role": "Industrial gases group",
+      "regionOfActivity": "Paris",
+      "description": "World leader in gases for industry and health.",
+      "events": [
+        {
+          "date": "1902-11-08",
+          "category": "birth",
+          "description": "Air Liquide founded on Claude's liquefaction patents"
+        }
+      ]
+    },
+    {
+      "id": "a52",
+      "name": "Veolia",
+      "type": "private",
+      "role": "Environmental services group",
+      "regionOfActivity": "Paris",
+      "description": "Water, waste and energy services multinational.",
+      "events": [
+        {
+          "date": "1853-12-14",
+          "category": "birth",
+          "description": "Compagnie Générale des Eaux chartered"
+        },
+        {
+          "date": "2000-07-01",
+          "category": "transformation",
+          "description": "Vivendi split spins out Vivendi Environnement"
+        }
+      ]
+    },
+    {
+      "id": "a53",
+      "name": "Engie",
+      "type": "hybrid",
+      "role": "Energy utility",
+      "regionOfActivity": "Paris",
+      "description": "Gas-electricity utility with state anchor stake.",
+      "events": [
+        {
+          "date": "1946-04-08",
+          "category": "birth",
+          "description": "Gaz de France created by nationalization"
+        },
+        {
+          "date": "2008-07-22",
+          "category": "transformation",
+          "description": "GDF-Suez merger forms the group"
+        }
+      ]
+    },
+    {
+      "id": "a54",
+      "name": "RATP",
+      "type": "public",
+      "role": "Paris transit operator",
+      "regionOfActivity": "Paris",
+      "description": "Operator of the Paris metro, bus and tram networks.",
+      "events": [
+        {
+          "date": "1949-03-21",
+          "category": "birth",
+          "description": "RATP replaces CMP and STCRP"
+        }
+      ]
+    }
+  ]
+}

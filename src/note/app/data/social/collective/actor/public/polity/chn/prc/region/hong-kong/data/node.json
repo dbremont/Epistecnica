@@ -1,0 +1,107 @@
+{
+  "id": "hkg",
+  "name": "Hong Kong",
+  "tags": [
+    "East Asia",
+    "Global Financial Hub",
+    "High-Income",
+    "Service-Oriented",
+    "Special Administrative Region",
+    "Innovation and Technology"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Hong Kong is a Special Administrative Region of the People’s Republic of China, located on the southern coast of China. It has a highly developed, service-oriented economy, historically rooted in trade, finance, and logistics. Hong Kong is a major global financial center and port, with strong legal and regulatory institutions inherited from its colonial history under the United Kingdom. In recent years, there has been a push to develop technology and innovation sectors alongside traditional finance and professional services.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "香港特別行政區 (Heung Kong Dak Bit Hang Jing Keui) / Hong Kong SAR",
+    "flagEmoji": "🇭🇰",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "7.5 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 7500000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 440 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 440000000000
+      },
+      {
+        "id": "area",
+        "value": "1,106 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 1106
+      },
+      {
+        "id": "capital",
+        "value": "Hong Kong Island / Central",
+        "label": "Administrative Center",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Special Administrative Region (Under ‘One Country, Two Systems’)",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Hong Kong’s actor space from colonial administration and trade networks to financial institutions, multinational corporates, and contemporary regulatory authorities.",
+        "link": "rep/actor.html?code=hkg"
+      },
+      {
+        "id": "industrial_and_trade_network",
+        "type": "Network",
+        "status": "active",
+        "title": "Industrial and Trade Network Structure",
+        "description": "Network analysis of Hong Kong’s financial, logistics, and emerging technology sectors, including integration into regional and global production and trade networks.",
+        "link": "pending.html?back=entry.html%3Fcode%3Dhkg"
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of Hong Kong’s administrative districts, urban centers, ports, technology parks, and transport infrastructure.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "HKG",
+      "region": "East Asia",
+      "lastRevised": "2026-03-29",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

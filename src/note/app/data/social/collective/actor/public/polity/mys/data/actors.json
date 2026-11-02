@@ -1,0 +1,3525 @@
+{
+  "metadata": {
+    "source": "Historical archives, Malaysian Government Gazettes, corporate annual reports, and economic development plans (Dasar Ekonomi Baru to MyDIGITAL)",
+    "lastUpdated": "2026-02-16",
+    "description": "Comprehensive dataset of Malaysian actors driving technical change. Batch 1 of 5.",
+    "country": "Malaysia",
+    "region": "Southeast Asia",
+    "flag": "🇲🇾",
+    "introduction": "A granular view of the dynamics structuring technical change in Malaysia. This batch covers foundational state apparatus, key research institutes, major universities, and strategic industrial conglomerates. Events detail the evolution from an agriculture-based economy to an industrialized nation and a digital economy hub.",
+    "evidenceConfidence": "Provisional",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": 1,
+      "name": "Ministry of Science, Technology and Innovation (MOSTI)",
+      "type": "public",
+      "role": "Policy & Strategy",
+      "regionOfActivity": "National",
+      "description": "Principal government body for science, technology, and innovation policy.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "Established as Ministry of Technology, Research and Local Government."
+        },
+        {
+          "date": "1976-01-01",
+          "category": "reorganization",
+          "description": "Redesignated as Ministry of Science, Technology and Environment (MOSTE)."
+        },
+        {
+          "date": "2004-03-27",
+          "category": "restructuring",
+          "description": "Renamed Ministry of Science, Technology and Innovation (MOSTI)."
+        },
+        {
+          "date": "2016-07-24",
+          "category": "transformation",
+          "description": "Split scope; redefined focus on science and technology research."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Malaysian Investment Development Authority (MIDA)",
+      "type": "public",
+      "role": "Investment Promotion",
+      "regionOfActivity": "National",
+      "description": "Principal agency for promoting investment in manufacturing and services.",
+      "events": [
+        {
+          "date": "1967-01-01",
+          "category": "birth",
+          "description": "Established as Federal Industrial Development Authority (FIDA)."
+        },
+        {
+          "date": "1985-01-01",
+          "category": "rebranding",
+          "description": "Renamed Malaysian Industrial Development Authority (MIDA)."
+        },
+        {
+          "date": "2011-04-21",
+          "category": "transformation",
+          "description": "Rebranded as Malaysian Investment Development Authority to cover services."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "PETRONAS (Petroliam Nasional Berhad)",
+      "type": "public",
+      "role": "Energy & Petrochemicals",
+      "regionOfActivity": "National",
+      "description": "National oil company driving downstream industrialization and R&D.",
+      "events": [
+        {
+          "date": "1974-08-17",
+          "category": "birth",
+          "description": "Incorporated under the Petroleum Development Act."
+        },
+        {
+          "date": "1985-01-01",
+          "category": "technical",
+          "description": "Commissioned the first polypropylene plant, entering petrochemicals."
+        },
+        {
+          "date": "1999-05-01",
+          "category": "milestone",
+          "description": "Launched the PETRONAS Twin Towers, symbolizing technological ambition."
+        },
+        {
+          "date": "2017-09-25",
+          "category": "innovation",
+          "description": "Established PETRONAS Digital to accelerate digital transformation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SIRIM Berhad",
+      "type": "public",
+      "role": "Standards & Research",
+      "regionOfActivity": "National",
+      "description": "National standards and industrial research institute.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Established as Standards and Industrial Research Institute of Malaysia (SIRIM)."
+        },
+        {
+          "date": "1996-09-01",
+          "category": "corporatization",
+          "description": "Corporatised as SIRIM Berhad under Ministry of Finance."
+        },
+        {
+          "date": "2004-01-01",
+          "category": "technical",
+          "description": "Launched the Auto-Cooker project for small-medium enterprises."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "MIMOS Berhad",
+      "type": "public",
+      "role": "R&D (Semiconductors & IT)",
+      "regionOfActivity": "National",
+      "description": "National R&D centre for semiconductors, microelectronics, and ICT.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "Established as Malaysian Institute of Microelectronic Systems."
+        },
+        {
+          "date": "1990-01-01",
+          "category": "technical",
+          "description": "Developed the first Malaysia-made microchip."
+        },
+        {
+          "date": "2008-01-01",
+          "category": "innovation",
+          "description": "Launched the 'Wi-Fi Mesh' technology for rural connectivity."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Universiti Malaya (UM)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "Malaysia's oldest university, a key producer of technical elites.",
+      "events": [
+        {
+          "date": "1905-01-01",
+          "category": "birth",
+          "description": "Founded as King Edward VII College of Medicine in Singapore."
+        },
+        {
+          "date": "1962-01-01",
+          "category": "milestone",
+          "description": "Established as Universiti Malaya in Kuala Lumpur."
+        },
+        {
+          "date": "2017-01-01",
+          "category": "research",
+          "description": "Ranked among world's top 100 for Engineering & Technology."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Universiti Teknologi Malaysia (UTM)",
+      "type": "public",
+      "role": "Engineering Education",
+      "regionOfActivity": "Johor/Kuala Lumpur",
+      "description": "Premier public technical university focusing on engineering and technology.",
+      "events": [
+        {
+          "date": "1904-01-01",
+          "category": "birth",
+          "description": "Origins traced to Technical School in Kuala Lumpur."
+        },
+        {
+          "date": "1975-01-01",
+          "category": "milestone",
+          "description": "Upgraded to Universiti Teknologi Malaysia."
+        },
+        {
+          "date": "2005-01-01",
+          "category": "infrastructure",
+          "description": "Relocated main campus to Skudai, Johor, creating a massive tech hub."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Tenaga Nasional Berhad (TNB)",
+      "type": "public",
+      "role": "Power Infrastructure",
+      "regionOfActivity": "National",
+      "description": "State-owned utility responsible for power generation and transmission.",
+      "events": [
+        {
+          "date": "1949-09-01",
+          "category": "birth",
+          "description": "Predecessor Central Electricity Board established."
+        },
+        {
+          "date": "1990-09-01",
+          "category": "privatization",
+          "description": "Corporatised as Tenaga Nasional Berhad."
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "Launched large-scale smart meter deployment."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ministry of International Trade and Industry (MITI)",
+      "type": "public",
+      "role": "Trade & Industry Governance",
+      "regionOfActivity": "National",
+      "description": "Leads Malaysia's industrialization strategy and trade policies.",
+      "events": [
+        {
+          "date": "1956-04-01",
+          "category": "birth",
+          "description": "Established as Ministry of Commerce and Industry."
+        },
+        {
+          "date": "1972-01-01",
+          "category": "reorganization",
+          "description": "Renamed Ministry of Trade and Industry."
+        },
+        {
+          "date": "1990-10-14",
+          "category": "policy",
+          "description": "Launched the Second Industrial Master Plan (IMP2)."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Malaysian Digital Economy Corporation (MDEC)",
+      "type": "public",
+      "role": "Digital Economy Promotion",
+      "regionOfActivity": "National",
+      "description": "Lead agency driving digital adoption and tech startup ecosystem.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Established as Multimedia Development Corporation (MDeC) to manage MSC Malaysia."
+        },
+        {
+          "date": "2016-01-01",
+          "category": "rebranding",
+          "description": "Rebranded as Malaysia Digital Economy Corporation."
+        },
+        {
+          "date": "2020-06-01",
+          "category": "policy",
+          "description": "Launched MyDIGITAL initiative to transform Malaysia into a digitally-driven economy."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Proton Holdings Berhad",
+      "type": "public",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Malaysia's first national car manufacturer, symbol of industrialization.",
+      "events": [
+        {
+          "date": "1983-05-07",
+          "category": "birth",
+          "description": "Incorporated as Perusahaan Otomobil Nasional."
+        },
+        {
+          "date": "1985-07-09",
+          "category": "technical",
+          "description": "Launched the Proton Saga, the first Malaysian car."
+        },
+        {
+          "date": "2017-06-23",
+          "category": "partnership",
+          "description": "DRB-HICOM signed deal with Geely for strategic partnership and tech transfer."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Sime Darby Plantation",
+      "type": "private",
+      "role": "Agro-Technology",
+      "regionOfActivity": "National",
+      "description": "World's largest palm oil producer, driving agricultural mechanization.",
+      "events": [
+        {
+          "date": "1910-10-28",
+          "category": "birth",
+          "description": "Founded as Sime, Darby & Co."
+        },
+        {
+          "date": "2007-11-27",
+          "category": "merger",
+          "description": "Merger of Sime Darby, Golden Hope, and Kumpulan Guthrie."
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "Implemented drone technology for plantation mapping and aerial spraying."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Top Glove Corporation Berhad",
+      "type": "private",
+      "role": "Manufacturing (Medical)",
+      "regionOfActivity": "National",
+      "description": "World's largest manufacturer of gloves, critical for medical technology.",
+      "events": [
+        {
+          "date": "1991-03-18",
+          "category": "birth",
+          "description": "Founded in Klang."
+        },
+        {
+          "date": "2016-05-01",
+          "category": "expansion",
+          "description": "Expanded into surgical gloves production with higher technical specs."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Telekom Malaysia Berhad (TM)",
+      "type": "public",
+      "role": "Telecom Infrastructure",
+      "regionOfActivity": "National",
+      "description": "National telecommunications company driving broadband connectivity.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "Established as Syarikat Telekom Malaysia."
+        },
+        {
+          "date": "2008-04-03",
+          "category": "technical",
+          "description": "Launched 'UniFi' high-speed broadband service."
+        },
+        {
+          "date": "2016-04-07",
+          "category": "restructuring",
+          "description": "Completed demerger of mobile arm (Axiata)."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cyberjaya",
+      "type": "public",
+      "role": "Tech Hub (Infrastructure)",
+      "regionOfActivity": "Selangor",
+      "description": "Malaysia's first cyber city and tech pioneer hub.",
+      "events": [
+        {
+          "date": "1997-05-17",
+          "category": "birth",
+          "description": "Launched by Prime Minister Mahathir Mohamad."
+        },
+        {
+          "date": "2000-01-01",
+          "category": "infrastructure",
+          "description": "Opened the Cyberview Lodge and Data Center cluster."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Malaysian Rubber Board (MRB)",
+      "type": "public",
+      "role": "Research (Rubber)",
+      "regionOfActivity": "National",
+      "description": "R&D agency for the rubber industry, focusing on biotechnology and engineering.",
+      "events": [
+        {
+          "date": "1925-01-01",
+          "category": "birth",
+          "description": "Established as Rubber Research Institute of Malaya."
+        },
+        {
+          "date": "1998-01-01",
+          "category": "reorganization",
+          "description": "Reformed as Malaysian Rubber Board."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Malaysian Palm Oil Board (MPOB)",
+      "type": "public",
+      "role": "Research (Palm Oil)",
+      "regionOfActivity": "National",
+      "description": "R&D agency driving palm oil downstream processing and biofuel technology.",
+      "events": [
+        {
+          "date": "1979-05-01",
+          "category": "birth",
+          "description": "Established as Palm Oil Research Institute of Malaysia (PORIM)."
+        },
+        {
+          "date": "2000-05-01",
+          "category": "merger",
+          "description": "Merged with Palm Oil Registration and Licensing Authority (PORLA) to form MPOB."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Malaysian Agricultural Research and Development Institute (MARDI)",
+      "type": "public",
+      "role": "Research (Agriculture)",
+      "regionOfActivity": "National",
+      "description": "Leading agency for food and agricultural technology research.",
+      "events": [
+        {
+          "date": "1969-10-27",
+          "category": "birth",
+          "description": "Incorporated under MARDI Act."
+        },
+        {
+          "date": "1985-01-01",
+          "category": "technical",
+          "description": "Developed high-yield paddy varieties."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Forest Research Institute Malaysia (FRIM)",
+      "type": "public",
+      "role": "Research (Forestry)",
+      "regionOfActivity": "Selangor",
+      "description": "Leading institute for tropical forestry research and timber technology.",
+      "events": [
+        {
+          "date": "1929-01-01",
+          "category": "birth",
+          "description": "Established as Forest Research Institute."
+        },
+        {
+          "date": "1985-10-12",
+          "category": "transformation",
+          "description": "Became an autonomous agency."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Bank Negara Malaysia (BNM)",
+      "type": "public",
+      "role": "Central Banking & FinTech Regulation",
+      "regionOfActivity": "National",
+      "description": "Central bank overseeing financial stability and FinTech innovation.",
+      "events": [
+        {
+          "date": "1959-01-26",
+          "category": "birth",
+          "description": "Central Bank of Malaya Ordinance enacted."
+        },
+        {
+          "date": "2016-06-30",
+          "category": "policy",
+          "description": "Issued Financial Technology Regulatory Sandbox Framework."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Securities Commission Malaysia (SC)",
+      "type": "public",
+      "role": "Capital Market Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulates the capital market and equity crowdfunding platforms.",
+      "events": [
+        {
+          "date": "1993-03-01",
+          "category": "birth",
+          "description": "Established under the Securities Commission Act 1993."
+        },
+        {
+          "date": "2015-01-01",
+          "category": "policy",
+          "description": "Registered first peer-to-peer financing operators."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Bursa Malaysia Berhad",
+      "type": "public",
+      "role": "Capital Market",
+      "regionOfActivity": "National",
+      "description": "Stock exchange operator facilitating capital for technology firms.",
+      "events": [
+        {
+          "date": "1930-01-01",
+          "category": "birth",
+          "description": "Predecessor Singapore Stockbrokers' Association formed."
+        },
+        {
+          "date": "2004-03-18",
+          "category": "privatization",
+          "description": "Demutualised and listed on its own exchange."
+        },
+        {
+          "date": "2017-01-01",
+          "category": "strategy",
+          "description": "Launched 'Leading Entrepreneur Accelerator Platform (LEAP) Market' for SMEs."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Intel Malaysia",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Penang/Kulim",
+      "description": "Major semiconductor assembly and test facility, anchor of the E&E sector.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Established first offshore assembly plant in Penang."
+        },
+        {
+          "date": "1995-01-01",
+          "category": "expansion",
+          "description": "Opened design center for chip architecture."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Inari Amertron Berhad",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Leading Malaysian contract electronics manufacturer.",
+      "events": [
+        {
+          "date": "2010-05-31",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "2012-07-11",
+          "category": "milestone",
+          "description": "Listed on Bursa Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Western Digital (Malaysia)",
+      "type": "private",
+      "role": "Disk Drive Manufacturing",
+      "regionOfActivity": "Selangor/Penang",
+      "description": "Major manufacturer of hard drives, key component of local tech ecosystem.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "Established operations in Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Infineon Technologies (Malaysia)",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Melaka/Kulim",
+      "description": "Key facility for automotive and industrial electronics.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "Established as Siemens Components."
+        },
+        {
+          "date": "1999-04-01",
+          "category": "rebranding",
+          "description": "Spun off as Infineon Technologies."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Perodua (Perusahaan Otomobil Kedua)",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Second national car manufacturer, strong in engine manufacturing.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "1994-08-01",
+          "category": "technical",
+          "description": "Launched Perodua Kancil."
+        },
+        {
+          "date": "2014-01-01",
+          "category": "infrastructure",
+          "description": "Opened new manufacturing plant in Rawang."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Khazanah Nasional Berhad",
+      "type": "public",
+      "role": "Strategic Investment",
+      "regionOfActivity": "National",
+      "description": "Sovereign wealth fund investing in strategic high-tech sectors.",
+      "events": [
+        {
+          "date": "1993-09-03",
+          "category": "birth",
+          "description": "Incorporated under Companies Act."
+        },
+        {
+          "date": "2015-01-01",
+          "category": "strategy",
+          "description": "Launched Khazanah Impact Programme for social tech."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Employees Provident Fund (EPF)",
+      "type": "public",
+      "role": "Investment",
+      "regionOfActivity": "National",
+      "description": "Major investor in technology infrastructure and startups.",
+      "events": [
+        {
+          "date": "1951-01-01",
+          "category": "birth",
+          "description": "Established under the EPF Ordinance."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Penang Skills Development Centre (PSDC)",
+      "type": "nonprofit",
+      "role": "Technical Education",
+      "regionOfActivity": "Penang",
+      "description": "First tri-partite skills training centre in Malaysia (Gov, Industry, Academia).",
+      "events": [
+        {
+          "date": "1989-07-01",
+          "category": "birth",
+          "description": "Established to support the electronics cluster."
+        },
+        {
+          "date": "2010-01-01",
+          "category": "technical",
+          "description": "Introduced Advanced Manufacturing curriculum."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Universiti Kebangsaan Malaysia (UKM)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Selangor",
+      "description": "National university with strong focus on environmental and biotech research.",
+      "events": [
+        {
+          "date": "1970-05-18",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2005-01-01",
+          "category": "research",
+          "description": "Established Institute of Systems Biology."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Universiti Sains Malaysia (USM)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Penang",
+      "description": "Premier research university, leader in sustainability and microelectronics.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Established as second university in Malaysia."
+        },
+        {
+          "date": "2008-01-01",
+          "category": "milestone",
+          "description": "Conferred APEX University status for transformation."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Universiti Putra Malaysia (UPM)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Selangor",
+      "description": "Leading university for agricultural and forestry technology.",
+      "events": [
+        {
+          "date": "1931-01-01",
+          "category": "birth",
+          "description": "Founded as School of Agriculture."
+        },
+        {
+          "date": "1973-01-01",
+          "category": "transformation",
+          "description": "Renamed Universiti Pertanian Malaysia."
+        },
+        {
+          "date": "1997-01-01",
+          "category": "rebranding",
+          "description": "Renamed Universiti Putra Malaysia to reflect broader scope."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Universiti Teknologi PETRONAS (UTP)",
+      "type": "private",
+      "role": "Education (Engineering)",
+      "regionOfActivity": "Perak",
+      "description": "Specialized engineering university funded by PETRONAS.",
+      "events": [
+        {
+          "date": "1997-01-10",
+          "category": "birth",
+          "description": "Established by PETRONAS."
+        },
+        {
+          "date": "2004-01-01",
+          "category": "infrastructure",
+          "description": "Moved to iconic campus in Bandar Seri Iskandar."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Multimedia University (MMU)",
+      "type": "private",
+      "role": "Education (ICT)",
+      "regionOfActivity": "Selangor/Melaka",
+      "description": "First private university focused on ICT and multimedia.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Established as University Telekom."
+        },
+        {
+          "date": "1999-01-01",
+          "category": "expansion",
+          "description": "Renamed Multimedia University."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Taylor's University",
+      "type": "private",
+      "role": "Education",
+      "regionOfActivity": "Selangor",
+      "description": "Leading private university in hospitality and engineering technology.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Founded as a tuition center."
+        },
+        {
+          "date": "2006-01-01",
+          "category": "milestone",
+          "description": "Awarded University College status."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Sunway University",
+      "type": "private",
+      "role": "Education",
+      "regionOfActivity": "Selangor",
+      "description": "Private university with strong links to Jeffrey Cheah Foundation and tech research.",
+      "events": [
+        {
+          "date": "1987-01-01",
+          "category": "birth",
+          "description": "Founded as Sunway College."
+        },
+        {
+          "date": "2011-01-01",
+          "category": "milestone",
+          "description": "Upgraded to University status."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Malaysian Communications and Multimedia Commission (MCMC)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulatory body for communications and multimedia.",
+      "events": [
+        {
+          "date": "1998-11-01",
+          "category": "birth",
+          "description": "Established under the Communications and Multimedia Act 1998."
+        },
+        {
+          "date": "2016-01-01",
+          "category": "policy",
+          "description": "Implemented Mandatory Standards on Access Pricing (MSAP)."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Maxis Berhad",
+      "type": "private",
+      "role": "Telecom",
+      "regionOfActivity": "National",
+      "description": "Leading integrated communications provider.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Launched mobile services."
+        },
+        {
+          "date": "2009-11-19",
+          "category": "privatization",
+          "description": "Listed on Bursa Malaysia."
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "Launched 5G demonstration projects."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "CelcomDigi Berhad",
+      "type": "private",
+      "role": "Telecom",
+      "regionOfActivity": "National",
+      "description": "Largest mobile operator by subscriber base, formed by merger.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Celcom established as first mobile operator."
+        },
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Digi established."
+        },
+        {
+          "date": "2022-12-01",
+          "category": "merger",
+          "description": "Completed merger of Celcom and Digi."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Grab Malaysia",
+      "type": "private",
+      "role": "Super App / Fintech",
+      "regionOfActivity": "National",
+      "description": "Southeast Asian tech giant originating from Malaysia, driving digital payments.",
+      "events": [
+        {
+          "date": "2012-01-01",
+          "category": "birth",
+          "description": "Founded as MyTeksi in Malaysia."
+        },
+        {
+          "date": "2018-01-01",
+          "category": "expansion",
+          "description": "Launched GrabPay and fintech services regionally."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "AirAsia Group",
+      "type": "private",
+      "role": "Aviation & Digital",
+      "regionOfActivity": "National",
+      "description": "Pioneer of low-cost travel, pivoting to digital travel tech.",
+      "events": [
+        {
+          "date": "1993-12-20",
+          "category": "birth",
+          "description": "Founded as a government-owned airline."
+        },
+        {
+          "date": "2001-12-08",
+          "category": "turnaround",
+          "description": "Acquired by Tony Fernandes, revolutionized low-cost model."
+        },
+        {
+          "date": "2020-01-01",
+          "category": "transformation",
+          "description": "Announced pivot to digital platform (Teleport, BigPay)."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Touch 'n Go Group",
+      "type": "private",
+      "role": "Fintech",
+      "regionOfActivity": "National",
+      "description": "Key player in digital payments and transit solutions.",
+      "events": [
+        {
+          "date": "1997-03-18",
+          "category": "birth",
+          "description": "Launched smart card for toll payment."
+        },
+        {
+          "date": "2017-03-21",
+          "category": "milestone",
+          "description": "Launched TNG eWallet."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Maybank",
+      "type": "private",
+      "role": "Financial Services",
+      "regionOfActivity": "National/Regional",
+      "description": "Largest bank in Malaysia, leading in digital banking transformation.",
+      "events": [
+        {
+          "date": "1960-05-31",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2016-01-01",
+          "category": "technical",
+          "description": "Launched MAE (Maybank Anywhere Everyone) virtual banking."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "CIMB Group",
+      "type": "private",
+      "role": "Financial Services",
+      "regionOfActivity": "National/Regional",
+      "description": "Major ASEAN bank driving digital trade finance.",
+      "events": [
+        {
+          "date": "1974-01-01",
+          "category": "birth",
+          "description": "Founded as Bank Bumiputra."
+        },
+        {
+          "date": "2006-01-01",
+          "category": "expansion",
+          "description": "Acquired Southern Bank, expanding tech capabilities."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Malaysia Airlines Berhad",
+      "type": "public",
+      "role": "Aviation",
+      "regionOfActivity": "National",
+      "description": "National carrier, hub for aviation engineering and maintenance.",
+      "events": [
+        {
+          "date": "1947-05-01",
+          "category": "birth",
+          "description": "Founded as Malayan Airways."
+        },
+        {
+          "date": "2015-09-01",
+          "category": "restructuring",
+          "description": "Reincorporated as Malaysia Airlines Berhad (NewCo)."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Malaysia Aerospace Industry Association (MAIA)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Promotes the development of the aerospace manufacturing ecosystem.",
+      "events": [
+        {
+          "date": "1998-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Spirit AeroSystems (Malaysia)",
+      "type": "private",
+      "role": "Aerospace Manufacturing",
+      "regionOfActivity": "Pulau Pinang",
+      "description": "Key manufacturer of aerostructures.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Established as Techspace Aviation."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "DRB-HICOM Berhad",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "National",
+      "description": "Major player in automotive, banking, and infrastructure.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Formed from the merger of Diversified Resources and Heavy Industries Corp."
+        },
+        {
+          "date": "2012-01-01",
+          "category": "acquisition",
+          "description": "Acquired Proton Holdings."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Axiata Group Berhad",
+      "type": "private",
+      "role": "Telecom (Regional)",
+      "regionOfActivity": "National",
+      "description": "Telecoms conglomerate with operations across ASEAN and South Asia.",
+      "events": [
+        {
+          "date": "1992-01-01",
+          "category": "birth",
+          "description": "Founded as TM International (TMI)."
+        },
+        {
+          "date": "2008-04-02",
+          "category": "rebranding",
+          "description": "Rebranded as Axiata Group."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Time dotCom Berhad",
+      "type": "private",
+      "role": "Telecom (Fixed Line)",
+      "regionOfActivity": "National",
+      "description": "Provider of fixed line and data services, focusing on fiber.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Founded as TimedotCom."
+        },
+        {
+          "date": "2009-01-01",
+          "category": "technical",
+          "description": "Launched Malaysia's first 100Gbps fiber network."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Globetronics Technology Berhad",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Contract manufacturer for semiconductor and optoelectronics.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2001-11-27",
+          "category": "milestone",
+          "description": "Listed on Bursa Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Unisem (M) Berhad",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Perak",
+      "description": "Provider of semiconductor assembly and test services.",
+      "events": [
+        {
+          "date": "1989-06-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1998-01-01",
+          "category": "expansion",
+          "description": "Listed on Bursa Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Hartalega Holdings Berhad",
+      "type": "private",
+      "role": "Manufacturing (Medical)",
+      "regionOfActivity": "National",
+      "description": "Global leader in nitrile glove manufacturing technology.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2002-01-01",
+          "category": "technical",
+          "description": "Introduced first lightweight nitrile glove."
+        },
+        {
+          "date": "2008-04-28",
+          "category": "milestone",
+          "description": "Listed on Bursa Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Kossan Rubber Industries Berhad",
+      "type": "private",
+      "role": "Manufacturing (Medical)",
+      "regionOfActivity": "National",
+      "description": "Technical rubber and glove manufacturer.",
+      "events": [
+        {
+          "date": "1979-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1994-01-01",
+          "category": "expansion",
+          "description": "Entered glove manufacturing segment."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Petroliam Nasional Berhad (Petronas) - MLNG",
+      "type": "public",
+      "role": "Energy Infrastructure",
+      "regionOfActivity": "Sarawak",
+      "description": "Operator of LNG complexes, critical for gas processing tech.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Malaysia LNG Sdn Bhd incorporated."
+        },
+        {
+          "date": "1983-01-01",
+          "category": "milestone",
+          "description": "First LNG cargo shipped to Japan."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Sarawak Energy Berhad",
+      "type": "public",
+      "role": "Power Infrastructure",
+      "regionOfActivity": "Sarawak",
+      "description": "Leading provider of renewable energy (hydropower) in the region.",
+      "events": [
+        {
+          "date": "1921-01-01",
+          "category": "birth",
+          "description": "Established as Sarawak Electricity Supply Company."
+        },
+        {
+          "date": "1996-01-01",
+          "category": "corporatization",
+          "description": "Corporatised as Sarawak Enterprise Corporation Berhad."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Sapura Energy Berhad",
+      "type": "private",
+      "role": "Oil & Gas Services",
+      "regionOfActivity": "National",
+      "description": "Global integrated oil and gas services provider.",
+      "events": [
+        {
+          "date": "1992-01-01",
+          "category": "birth",
+          "description": "Founded as Sapura Telecommunications."
+        },
+        {
+          "date": "2012-01-01",
+          "category": "acquisition",
+          "description": "Acquired Seadrill's tender rig business."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Dialog Group Berhad",
+      "type": "private",
+      "role": "Oil & Gas Services",
+      "regionOfActivity": "National",
+      "description": "Technical services provider to the oil and gas industry.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1996-01-01",
+          "category": "milestone",
+          "description": "Listed on Bursa Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Ibraco Berhad",
+      "type": "private",
+      "role": "Construction Tech",
+      "regionOfActivity": "Sarawak",
+      "description": "Construction and property developer with technical civil engineering focus.",
+      "events": [
+        {
+          "date": "1974-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Gamuda Berhad",
+      "type": "private",
+      "role": "Infrastructure Tech",
+      "regionOfActivity": "National",
+      "description": "Engineering and construction leader, pioneer in tunneling technology.",
+      "events": [
+        {
+          "date": "1976-10-06",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2017-01-01",
+          "category": "technical",
+          "description": "Deployed tunnel boring machines (TBMs) for MRT project."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "IJM Corporation Berhad",
+      "type": "private",
+      "role": "Construction Tech",
+      "regionOfActivity": "National",
+      "description": "Construction and property conglomerate with infrastructure capabilities.",
+      "events": [
+        {
+          "date": "1983-01-01",
+          "category": "birth",
+          "description": "Formed from merger of IGB and Jurutama."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Institut Latihan Perindustrian (ILP) - Network",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "National",
+      "description": "Network of industrial training institutes under HRD Corp.",
+      "events": [
+        {
+          "date": "1960-01-01",
+          "category": "birth",
+          "description": "First ILP established."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "German-Malaysian Institute (GMI)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Selangor",
+      "description": "Advanced technology training center based on German dual-system model.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "birth",
+          "description": "Established as a joint project between Malaysia and Germany."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Japan-Malaysia Technical Institute (JMTI)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Penang",
+      "description": "Training center focused on Japanese manufacturing technologies.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Established under Look East Policy."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Politeknik Ungku Omar (PUO)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Perak",
+      "description": "Premier polytechnic producing engineering assistants.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Politeknik Sultan Salahuddin Abdul Aziz Shah (PSA)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Selangor",
+      "description": "Major polytechnic in the central region.",
+      "events": [
+        {
+          "date": "1992-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Ministry of Higher Education (MOHE)",
+      "type": "public",
+      "role": "Policy",
+      "regionOfActivity": "National",
+      "description": "Oversees universities and technical education policies.",
+      "events": [
+        {
+          "date": "2004-03-27",
+          "category": "birth",
+          "description": "Split from Ministry of Education."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Malaysian Qualifications Agency (MQA)",
+      "type": "public",
+      "role": "Quality Assurance",
+      "regionOfActivity": "National",
+      "description": "Sets standards for higher education qualifications.",
+      "events": [
+        {
+          "date": "2007-11-01",
+          "category": "birth",
+          "description": "Established under Malaysian Qualifications Agency Act 2007."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Technology Park Malaysia (TPM)",
+      "type": "public",
+      "role": "Tech Hub",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "Premier technology incubator and park.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "2003-01-01",
+          "category": "infrastructure",
+          "description": "Developed incubation centers for biotech and ICT."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Kulim Hi-Tech Park (KHTP)",
+      "type": "public",
+      "role": "Industrial Estate (High Tech)",
+      "regionOfActivity": "Kedah",
+      "description": "First high-tech industrial park in Malaysia.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Launched."
+        },
+        {
+          "date": "2000-01-01",
+          "category": "milestone",
+          "description": "Attracted major solar and microelectronics firms."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Penang Science Park",
+      "type": "private",
+      "role": "Industrial Estate (High Tech)",
+      "regionOfActivity": "Penang",
+      "description": "Key industrial zone for electronics R&D.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Development of Bayan Lepas Free Industrial Zone began."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Bioeconomy Corporation",
+      "type": "public",
+      "role": "Biotech Promotion",
+      "regionOfActivity": "National",
+      "description": "Lead development agency for the biotechnology industry.",
+      "events": [
+        {
+          "date": "2005-04-25",
+          "category": "birth",
+          "description": "Established as Malaysian Biotechnology Corporation (BiotechCorp)."
+        },
+        {
+          "date": "2018-01-01",
+          "category": "rebranding",
+          "description": "Rebranded as Bioeconomy Corporation."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Pharmaniaga Berhad",
+      "type": "public",
+      "role": "Pharmaceutical Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Leading pharmaceutical company, critical for vaccine tech.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2021-01-01",
+          "category": "technical",
+          "description": "Involved in fill-and-finish technology transfer for vaccines."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Duopharma Biotech Berhad",
+      "type": "public",
+      "role": "Pharmaceutical Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Pharmaceutical manufacturer specializing in small molecules.",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Sime Darby Technology Centre (SDTC)",
+      "type": "private",
+      "role": "R&D",
+      "regionOfActivity": "Selangor",
+      "description": "R&D center for agriculture and engine testing.",
+      "events": [
+        {
+          "date": "2013-01-01",
+          "category": "birth",
+          "description": "Launched."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Federation of Malaysian Manufacturers (FMM)",
+      "type": "nonprofit",
+      "role": "Industry Advocacy",
+      "regionOfActivity": "National",
+      "description": "Leading voice for the manufacturing sector.",
+      "events": [
+        {
+          "date": "1968-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Malaysian Industry-Government Group for High Technology (MIGHT)",
+      "type": "nonprofit",
+      "role": "Think Tank",
+      "regionOfActivity": "National",
+      "description": "Industry-government partnership for high-tech policy foresight.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Academy of Sciences Malaysia (ASM)",
+      "type": "public",
+      "role": "Think Tank",
+      "regionOfActivity": "National",
+      "description": "Scientific advisory body to the government.",
+      "events": [
+        {
+          "date": "1995-02-01",
+          "category": "birth",
+          "description": "Established under the Academy of Sciences Act 1994."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Petronas Research Sdn Bhd (PRSB)",
+      "type": "private",
+      "role": "R&D",
+      "regionOfActivity": "Selangor",
+      "description": "Corporate R&D arm of Petronas.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2014-01-01",
+          "category": "infrastructure",
+          "description": "Opened new research facility in Bangi."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "TNB Research Sdn Bhd",
+      "type": "private",
+      "role": "R&D",
+      "regionOfActivity": "Selangor",
+      "description": "R&D arm of Tenaga Nasional, focusing on power generation.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Incorporated."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "UMW Holdings Berhad",
+      "type": "private",
+      "role": "Conglomerate (Automotive/Equipment)",
+      "regionOfActivity": "National",
+      "description": "Key player in automotive assembly and heavy equipment.",
+      "events": [
+        {
+          "date": "1917-01-01",
+          "category": "birth",
+          "description": "Founded as United Motor Works."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Tan Chong Motor Holdings Berhad",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Assembles Nissan vehicles, key industrial player.",
+      "events": [
+        {
+          "date": "1957-01-01",
+          "category": "birth",
+          "description": "Founded as Tan Chong Motor Company."
+        },
+        {
+          "date": "1976-01-01",
+          "category": "technical",
+          "description": "Started assembly operations in Segambut."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "MBM Resources Berhad",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Manufacturer of automotive parts and distributor.",
+      "events": [
+        {
+          "date": "1975-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1993-01-01",
+          "category": "milestone",
+          "description": "Listed on Bursa Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "PMB Technology Berhad",
+      "type": "private",
+      "role": "Aluminium Tech",
+      "regionOfActivity": "National",
+      "description": "Specialist in aluminium extrusion and construction materials.",
+      "events": [
+        {
+          "date": "1979-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2014-01-01",
+          "category": "technical",
+          "description": "Expanded into solar mounting structures."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Press Metal Aluminium Holdings Berhad",
+      "type": "private",
+      "role": "Heavy Industry",
+      "regionOfActivity": "Sarawak",
+      "description": "Largest aluminum smelter in Southeast Asia.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2009-01-01",
+          "category": "expansion",
+          "description": "Commissioned Mukah smelting plant."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Malaysian Steel Institute (MSI)",
+      "type": "public",
+      "role": "Policy & Research",
+      "regionOfActivity": "National",
+      "description": "Agency to develop the domestic steel industry.",
+      "events": [
+        {
+          "date": "2007-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Malaysia Steel Works (Masteel)",
+      "type": "private",
+      "role": "Steel Manufacturing",
+      "regionOfActivity": "Selangor",
+      "description": "Producer of steel bars and billets.",
+      "events": [
+        {
+          "date": "1971-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Ann Joo Resources Berhad",
+      "type": "private",
+      "role": "Steel Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Integrated steel manufacturer.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "YTL Corporation Berhad",
+      "type": "private",
+      "role": "Infrastructure & Utilities",
+      "regionOfActivity": "National",
+      "description": "Global infrastructure conglomerate (Power, Water, Telecom).",
+      "events": [
+        {
+          "date": "1955-01-01",
+          "category": "birth",
+          "description": "Founded by Yeoh Tiong Lay."
+        },
+        {
+          "date": "2014-01-01",
+          "category": "technical",
+          "description": "Launched Yes 4G LTE service."
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Malakoff Corporation Berhad",
+      "type": "public",
+      "role": "Power Generation",
+      "regionOfActivity": "National",
+      "description": "Largest independent power producer in Malaysia.",
+      "events": [
+        {
+          "date": "1975-10-09",
+          "category": "birth",
+          "description": "Incorporated as Malakoff Berhad."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Cypark Resources Berhad",
+      "type": "private",
+      "role": "Renewable Energy",
+      "regionOfActivity": "National",
+      "description": "Specialist in environmental engineering and renewable energy.",
+      "events": [
+        {
+          "date": "2003-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2015-01-01",
+          "category": "technical",
+          "description": "Developed large-scale solar park in Pajam."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Seda Malaysia (Sustainable Energy Development Authority)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulator for the sustainable energy industry.",
+      "events": [
+        {
+          "date": "2011-01-01",
+          "category": "birth",
+          "description": "Established under the Sustainable Energy Development Authority Act 2011."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Malaysian Green Technology and Climate Change Centre (MGTC)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Promotes green technology adoption.",
+      "events": [
+        {
+          "date": "2009-01-01",
+          "category": "birth",
+          "description": "Established as Malaysia Green Technology Corporation."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Lembaga Getah Malaysia (LGM) - R&D",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Selangor",
+      "description": "Research division focused on rubber engineering.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "technical",
+          "description": "Developed Standard Malaysian Rubber (SMR) scheme."
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "MRB Rubber Research Institute of Malaysia (RRIM)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Selangor",
+      "description": "Pioneering research center for rubber cultivation and technology.",
+      "events": [
+        {
+          "date": "1925-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Malaysian Timber Industry Board (MTIB)",
+      "type": "public",
+      "role": "Regulatory Body",
+      "regionOfActivity": "National",
+      "description": "Oversees the development of the timber industry.",
+      "events": [
+        {
+          "date": "1973-06-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Malaysian Timber Certification Council (MTCC)",
+      "type": "nonprofit",
+      "role": "Standards",
+      "regionOfActivity": "National",
+      "description": "Operates the Malaysian Timber Certification Scheme.",
+      "events": [
+        {
+          "date": "1998-10-23",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Latexx Partners Berhad",
+      "type": "private",
+      "role": "Manufacturing",
+      "regionOfActivity": "Perak",
+      "description": "Manufacturer of medical gloves.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Comfort Glove Berhad",
+      "type": "private",
+      "role": "Manufacturing",
+      "regionOfActivity": "Kedah",
+      "description": "Manufacturer of latex examination gloves.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Malaysian Automotive, Robotics and IoT Institute (MARii)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Lead agency for the automotive industry's technological transformation.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Established as Malaysia Automotive Institute (MAI)."
+        },
+        {
+          "date": "2018-04-25",
+          "category": "rebranding",
+          "description": "Rebranded as MARii to include robotics and IoT."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Perusahaan Otomobil Kedua Sdn Bhd (Perodua) - R&D",
+      "type": "private",
+      "role": "R&D",
+      "regionOfActivity": "Selangor",
+      "description": "R&D center focused on engine and transmission.",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "milestone",
+          "description": "Started local engine assembly."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Proton Centre of Excellence",
+      "type": "private",
+      "role": "R&D",
+      "regionOfActivity": "Selangor",
+      "description": "Advanced engineering center for Proton.",
+      "events": [
+        {
+          "date": "2007-01-01",
+          "category": "birth",
+          "description": "Opened in Shah Alam."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "HICOM-Teck See Manufacturing Malaysia Sdn Bhd",
+      "type": "private",
+      "role": "Auto Parts",
+      "regionOfActivity": "Pahang",
+      "description": "Manufacturer of automotive aluminum alloy wheels.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Malaysia Aircraft Manufacturing (MAM)",
+      "type": "private",
+      "role": "Aerospace",
+      "regionOfActivity": "Selangor",
+      "description": "Historic light aircraft manufacturer.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Mofaz Air Sdn Bhd",
+      "type": "private",
+      "role": "Aviation Services",
+      "regionOfActivity": "Selangor",
+      "description": "Flight training and charter services.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "MIMOS Semiconductor (M) Sdn Bhd",
+      "type": "public",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Selangor",
+      "description": "Commercialization arm of MIMOS chip technology.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Silterra Malaysia Sdn Bhd",
+      "type": "public",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Kedah",
+      "description": "Wafer fabrication foundry.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2000-01-01",
+          "category": "milestone",
+          "description": "Commenced operations in Kulim."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Nexsil Sdn Bhd",
+      "type": "private",
+      "role": "Microelectronics",
+      "regionOfActivity": "Penang",
+      "description": "Provider of wafer bumping services.",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Jabil Circuit Sdn Bhd",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Electronic manufacturing services provider.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Established operations in Penang."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Flextronics (Malaysia)",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Selangor",
+      "description": "Major EMS provider.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Established presence."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Robert Bosch (Malaysia)",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Manufacturing site for automotive electronics.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Osram Opto Semiconductors (Malaysia)",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "LED chip manufacturing.",
+      "events": [
+        {
+          "date": "1999-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Avago Technologies (Malaysia)",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Legacy HP/Agilent spinoff, now Broadcom.",
+      "events": [
+        {
+          "date": "1960-01-01",
+          "category": "birth",
+          "description": "HP established presence."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Lam Research (Malaysia)",
+      "type": "private",
+      "role": "Semiconductor Equipment",
+      "regionOfActivity": "Penang",
+      "description": "Equipment manufacturer for semiconductor industry.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Entegris (Malaysia)",
+      "type": "private",
+      "role": "Materials Science",
+      "regionOfActivity": "Penang",
+      "description": "Specialty materials for microelectronics.",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "ViTrox Corporation Berhad",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Automated inspection equipment manufacturer.",
+      "events": [
+        {
+          "date": "1999-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2005-01-01",
+          "category": "milestone",
+          "description": "Listed on Bursa Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Pentamaster Corporation Berhad",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Automated test equipment manufacturer.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Notion VTec Berhad",
+      "type": "private",
+      "role": "Precision Engineering",
+      "regionOfActivity": "Selangor",
+      "description": "Manufacturer of precision components for HDD and automotive.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "KESM Industries Berhad",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Selangor",
+      "description": "Burn-in and test services provider.",
+      "events": [
+        {
+          "date": "1974-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "DataStorage (Malaysia)",
+      "type": "private",
+      "role": "Disk Drive Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Contract manufacturer for data storage.",
+      "events": [
+        {
+          "date": "1999-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "NationGate Solution Berhad",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Penang",
+      "description": "Contract manufacturer for IoT devices.",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "MS Hightech Sdn Bhd",
+      "type": "private",
+      "role": "Precision Engineering",
+      "regionOfActivity": "Penang",
+      "description": "Focus on semiconductor parts manufacturing.",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "NanoMalaysia Institute for Innovative Technology (NM Institute)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Selangor",
+      "description": "Focus on nanotechnology commercialization.",
+      "events": [
+        {
+          "date": "2011-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "NanoMalaysia Berhad",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Agency under MOSTI for nanotechnology development.",
+      "events": [
+        {
+          "date": "2011-01-01",
+          "category": "birth",
+          "description": "Incorporated."
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Malaysia Genome and Vaccine Institute (MGVI)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Selangor",
+      "description": "Research institute for genomics and biotechnology.",
+      "events": [
+        {
+          "date": "2014-01-01",
+          "category": "birth",
+          "description": "Established under MOSTI."
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Agensi Nuklear Malaysia",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Selangor",
+      "description": "Promotes nuclear science and technology for development.",
+      "events": [
+        {
+          "date": "1972-09-19",
+          "category": "birth",
+          "description": "Established as Centre for Application of Nuclear Energy."
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "National Cancer Council (MAKNA)",
+      "type": "nonprofit",
+      "role": "Medical Research Support",
+      "regionOfActivity": "National",
+      "description": "Funds cancer research and technology.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Institute for Medical Research (IMR)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "Oldest medical research institute in Malaysia.",
+      "events": [
+        {
+          "date": "1900-08-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Clinical Research Malaysia (CRM)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Supports clinical trials and biotech research.",
+      "events": [
+        {
+          "date": "2011-01-01",
+          "category": "birth",
+          "description": "Established under MOH."
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Malaysia Digital Innovation Hub (MDIH)",
+      "type": "public",
+      "role": "Tech Hub",
+      "regionOfActivity": "National",
+      "description": "Initiative to support digital startups.",
+      "events": [
+        {
+          "date": "2020-01-01",
+          "category": "birth",
+          "description": "Concept introduced under MyDIGITAL."
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Malaysia Global Innovation & Creativity Centre (MaGIC)",
+      "type": "public",
+      "role": "Startup Ecosystem",
+      "regionOfActivity": "Selangor",
+      "description": "Accelerator for startups and social enterprises.",
+      "events": [
+        {
+          "date": "2014-04-27",
+          "category": "birth",
+          "description": "Launched."
+        },
+        {
+          "date": "2021-01-01",
+          "category": "merger",
+          "description": "Merged with MDEC (rebranding to MRANTI)."
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Malaysian Research Accelerator for Technology and Innovation (MRANTI)",
+      "type": "public",
+      "role": "R&D Commercialization",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "Merger of MaGIC and TPM to bridge R&D and market.",
+      "events": [
+        {
+          "date": "2021-04-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Cradle Fund Sdn Bhd",
+      "type": "public",
+      "role": "Venture Capital",
+      "regionOfActivity": "National",
+      "description": "Provides early-stage funding for tech startups.",
+      "events": [
+        {
+          "date": "2003-07-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Malaysian Technology Development Corporation (MTDC)",
+      "type": "public",
+      "role": "Venture Capital",
+      "regionOfActivity": "National",
+      "description": "Invests in technology-based companies.",
+      "events": [
+        {
+          "date": "1992-09-21",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Permodalan Nasional Berhad (PNB)",
+      "type": "public",
+      "role": "Investment",
+      "regionOfActivity": "National",
+      "description": "Large fund manager investing in strategic tech assets.",
+      "events": [
+        {
+          "date": "1978-03-17",
+          "category": "birth",
+          "description": "Incorporated."
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Lembaga Tabung Haji",
+      "type": "public",
+      "role": "Investment",
+      "regionOfActivity": "National",
+      "description": "Pilgrims fund board with investments in technology firms.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Kumpulan Wang Persaraan (Diperbadankan) (KWAP)",
+      "type": "public",
+      "role": "Investment",
+      "regionOfActivity": "National",
+      "description": "Retirement fund with tech investment portfolio.",
+      "events": [
+        {
+          "date": "2007-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Fintech Association of Malaysia (FAOM)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Promotes fintech adoption and regulation.",
+      "events": [
+        {
+          "date": "2016-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Malaysian Global Business Forum (MGBF)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Platform for tech business advocacy.",
+      "events": [
+        {
+          "date": "2010-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Malaysian-American Electronics Industry (MAEI)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Penang",
+      "description": "Association representing American electronics firms.",
+      "events": [
+        {
+          "date": "1979-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Electrical and Electronics Association of Malaysia (TEEAM)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Represents electrical contractors and engineers.",
+      "events": [
+        {
+          "date": "1952-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Malaysian Photovoltaic Industry Association (MPIA)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Promotes solar technology adoption.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Malaysia Oil & Gas Services Council (MOGSC)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Represents oil and gas service providers.",
+      "events": [
+        {
+          "date": "2003-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Malaysia Aerospace Industry Association (MAIA)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Represents aerospace manufacturers.",
+      "events": [
+        {
+          "date": "1998-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Technological Association of Malaysia (TAM)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "National",
+      "description": "Association for technologists and engineers.",
+      "events": [
+        {
+          "date": "1947-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Board of Engineers Malaysia (BEM)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulates engineering practice and standards.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Established under Registration of Engineers Act."
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Board of Technologists Malaysia (MBOT)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "National",
+      "description": "Recognizes and registers technologists and technicians.",
+      "events": [
+        {
+          "date": "2015-11-25",
+          "category": "birth",
+          "description": "Established under Technologists and Technicians Act."
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Intellectual Property Corporation of Malaysia (MyIPO)",
+      "type": "public",
+      "role": "IP Regulation",
+      "regionOfActivity": "National",
+      "description": "Agency responsible for intellectual property rights.",
+      "events": [
+        {
+          "date": "2003-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Companies Commission of Malaysia (SSM)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulates companies and businesses, including tech startups.",
+      "events": [
+        {
+          "date": "2002-04-16",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "CyberSecurity Malaysia",
+      "type": "public",
+      "role": "Cybersecurity Agency",
+      "regionOfActivity": "National",
+      "description": "National cybersecurity specialist agency.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "Established as NISER."
+        },
+        {
+          "date": "2007-01-01",
+          "category": "rebranding",
+          "description": "Rebranded as CyberSecurity Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Malaysian Administrative Modernisation and Management Planning Unit (MAMPU)",
+      "type": "public",
+      "role": "Digital Government",
+      "regionOfActivity": "National",
+      "description": "Drives public sector modernization and ICT adoption.",
+      "events": [
+        {
+          "date": "1977-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Pengurusan Danaharta Nasional Berhad",
+      "type": "public",
+      "role": "Asset Management",
+      "regionOfActivity": "National",
+      "description": "National asset management company (tech legacy in financial restructuring).",
+      "events": [
+        {
+          "date": "1998-01-01",
+          "category": "birth",
+          "description": "Established during financial crisis."
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Perbadanan Usahawan Nasional Berhad (PUNB)",
+      "type": "public",
+      "role": "Entrepreneur Development",
+      "regionOfActivity": "National",
+      "description": "Develops Bumiputera entrepreneurs in strategic sectors including tech.",
+      "events": [
+        {
+          "date": "1991-07-16",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Majlis Amanah Rakyat (MARA)",
+      "type": "public",
+      "role": "Education & Entrepreneurship",
+      "regionOfActivity": "National",
+      "description": "Trust council for Bumiputera development, runs technical colleges.",
+      "events": [
+        {
+          "date": "1966-03-01",
+          "category": "birth",
+          "description": "Established under MARA Act."
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Kolej Universiti Poly-Tech Malaysia (KUPTM)",
+      "type": "private",
+      "role": "Technical Education",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "University college focusing on technology and business.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Universiti Kuala Lumpur (UniKL)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "National",
+      "description": "Technical university network specializing in engineering technology.",
+      "events": [
+        {
+          "date": "2002-08-20",
+          "category": "birth",
+          "description": "Established as a university college."
+        },
+        {
+          "date": "2006-09-01",
+          "category": "upgrade",
+          "description": "Upgraded to university status."
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Universiti Teknologi MARA (UiTM)",
+      "type": "public",
+      "role": "Higher Education",
+      "regionOfActivity": "National",
+      "description": "Largest university in Malaysia by enrollment, strong engineering faculty.",
+      "events": [
+        {
+          "date": "1956-08-14",
+          "category": "birth",
+          "description": "Founded as Dewan Latihan RIDA."
+        },
+        {
+          "date": "1967-10-14",
+          "category": "transformation",
+          "description": "Became Institut Teknologi MARA."
+        },
+        {
+          "date": "1999-08-26",
+          "category": "upgrade",
+          "description": "Upgraded to Universiti Teknologi MARA."
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Universiti Malaysia Perlis (UniMAP)",
+      "type": "public",
+      "role": "Engineering Education",
+      "regionOfActivity": "Perlis",
+      "description": "Focuses on electronic engineering and semiconductor research.",
+      "events": [
+        {
+          "date": "2001-07-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Universiti Malaysia Pahang (UMP)",
+      "type": "public",
+      "role": "Engineering Education",
+      "regionOfActivity": "Pahang",
+      "description": "Focuses on mechanical and manufacturing engineering.",
+      "events": [
+        {
+          "date": "2002-02-16",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Universiti Malaysia Terengganu (UMT)",
+      "type": "public",
+      "role": "Research (Marine)",
+      "regionOfActivity": "Terengganu",
+      "description": "Focuses on marine science and ocean technology.",
+      "events": [
+        {
+          "date": "1979-01-01",
+          "category": "birth",
+          "description": "Origins as Fisheries Training Centre."
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Universiti Malaysia Sabah (UMS)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Sabah",
+      "description": "Key research university in East Malaysia (Borneo).",
+      "events": [
+        {
+          "date": "1994-11-24",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Universiti Malaysia Sarawak (UNIMAS)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Sarawak",
+      "description": "Research university focusing on biodiversity and ICT.",
+      "events": [
+        {
+          "date": "1992-12-24",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Universiti Tun Hussein Onn Malaysia (UTHM)",
+      "type": "public",
+      "role": "Engineering Education",
+      "regionOfActivity": "Johor",
+      "description": "Focuses on civil and structural engineering.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Established as a teaching college."
+        },
+        {
+          "date": "2007-01-01",
+          "category": "upgrade",
+          "description": "Became a university."
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Universiti Teknikal Malaysia Melaka (UTeM)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Melaka",
+      "description": "Focuses on practical engineering and ICT.",
+      "events": [
+        {
+          "date": "2000-12-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Universiti Sultan Zainal Abidin (UniSZA)",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Terengganu",
+      "description": "University with focus on aerospace and computing.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Universiti Pertahanan Nasional Malaysia (UPNM)",
+      "type": "public",
+      "role": "Education (Defense)",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "Defense university focusing on engineering and technology.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Established as Akademi Tentera Malaysia."
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Universiti Sains Islam Malaysia (USIM)",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Negeri Sembilan",
+      "description": "Integrates Islamic studies with modern science and technology.",
+      "events": [
+        {
+          "date": "1998-03-13",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "International Islamic University Malaysia (IIUM)",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Selangor",
+      "description": "International university with strong engineering faculty.",
+      "events": [
+        {
+          "date": "1983-05-20",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Universiti Brunei Darussalam (Global Discovery Park)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Borneo",
+      "description": "Cross-border research initiative (Darussalam).",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "MyGDI (Malaysian Grid for Learning)",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Network infrastructure for higher education research.",
+      "events": [
+        {
+          "date": "2006-01-01",
+          "category": "birth",
+          "description": "Launched."
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "name": "National Library of Malaysia (PNM)",
+      "type": "public",
+      "role": "Knowledge Repository",
+      "regionOfActivity": "National",
+      "description": "Digitization of national knowledge assets.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Malaysian Institute of Accountants (MIA)",
+      "type": "public",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Regulates accounting profession, relevant for FinTech.",
+      "events": [
+        {
+          "date": "1967-12-06",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Malaysian Institute of Management (MIM)",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Promotes management science and leadership.",
+      "events": [
+        {
+          "date": "1966-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Institut Jantung Negara (IJN)",
+      "type": "public",
+      "role": "Medical Tech",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "National Heart Institute, pioneer in cardiac medical technology.",
+      "events": [
+        {
+          "date": "1992-08-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Kementerian Kesihatan Malaysia (MOH) - Health Tech",
+      "type": "public",
+      "role": "Policy",
+      "regionOfActivity": "National",
+      "description": "Ministry of Health overseeing medical tech adoption.",
+      "events": [
+        {
+          "date": "1957-01-01",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2020-01-01",
+          "category": "technical",
+          "description": "Rolled out MySejahtera contact tracing app."
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Malaysian Eximbank",
+      "type": "public",
+      "role": "Finance",
+      "regionOfActivity": "National",
+      "description": "Finances export of high-tech goods.",
+      "events": [
+        {
+          "date": "1999-08-16",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "name": "SME Bank",
+      "type": "public",
+      "role": "Finance",
+      "regionOfActivity": "National",
+      "description": "Finances small and medium enterprises in technology.",
+      "events": [
+        {
+          "date": "2005-12-15",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Bank Pembangunan Malaysia Berhad (BPMB)",
+      "type": "public",
+      "role": "Development Finance",
+      "regionOfActivity": "National",
+      "description": "Finances infrastructure and maritime tech.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Golden Hope Research Sdn Bhd",
+      "type": "private",
+      "role": "Research (Agri)",
+      "regionOfActivity": "Selangor",
+      "description": "Plantation research center.",
+      "events": [
+        {
+          "date": "1905-01-01",
+          "category": "birth",
+          "description": "Origins in Harrisons & Crosfield."
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "name": "RISDA (Rubber Industry Smallholders Development Authority)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Develops smallholders and rubber technology adoption.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "name": "FELDA (Federal Land Development Authority)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Land development agency managing vast agricultural tech.",
+      "events": [
+        {
+          "date": "1956-07-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "FELCRA Berhad",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Develops rural areas with modern agricultural tech.",
+      "events": [
+        {
+          "date": "1966-09-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Muda Agricultural Development Authority (MADA)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "Kedah",
+      "description": "Manages rice bowl irrigation and technology.",
+      "events": [
+        {
+          "date": "1970-06-30",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Kemubu Agricultural Development Authority (KADA)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "Kelantan",
+      "description": "Agricultural development for paddy tech.",
+      "events": [
+        {
+          "date": "1972-03-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Malaysian Pepper Board (MPB)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "Sarawak",
+      "description": "Develops pepper processing technology.",
+      "events": [
+        {
+          "date": "1971-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Malaysian Cocoa Board (MCB)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "Sabah",
+      "description": "Research and development for cocoa grinding.",
+      "events": [
+        {
+          "date": "1975-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "Fisheries Development Authority of Malaysia (LKIM)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Develops fisheries technology and deep-sea fishing.",
+      "events": [
+        {
+          "date": "1971-11-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "name": "Lembaga Kemajuan Ikan Malaysia (LKIM) - Tech",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Fish landing complexes with cold chain tech.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "infrastructure",
+          "description": "Developed modern fishing jetties."
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "Telekom Malaysia (TM) - R&D",
+      "type": "public",
+      "role": "R&D",
+      "regionOfActivity": "Selangor",
+      "description": "Telecommunication research arm.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "name": "DRB-HICOM Defence Technologies (DefTech)",
+      "type": "private",
+      "role": "Defense Tech",
+      "regionOfActivity": "Pahang",
+      "description": "Manufacturer of military vehicles.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "name": "THALES (Malaysia)",
+      "type": "private",
+      "role": "Defense & Aerospace",
+      "regionOfActivity": "Selangor",
+      "description": "Electronic systems for defense and aviation.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "name": "BAE Systems (Malaysia)",
+      "type": "private",
+      "role": "Defense Tech",
+      "regionOfActivity": "National",
+      "description": "Defense contractor involved in tech transfer.",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "birth",
+          "description": "Expanded operations."
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "name": "PLUS Expressways Berhad",
+      "type": "public",
+      "role": "Infrastructure Tech",
+      "regionOfActivity": "National",
+      "description": "Operator of the North-South Expressway, ITS implementation.",
+      "events": [
+        {
+          "date": "1988-05-15",
+          "category": "birth",
+          "description": "Project highway launched."
+        },
+        {
+          "date": "2016-01-01",
+          "category": "technical",
+          "description": "Fully implemented electronic toll collection (Touch 'n Go)."
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Prasarana Malaysia Berhad",
+      "type": "public",
+      "role": "Public Transport Tech",
+      "regionOfActivity": "National",
+      "description": "Operator of LRT, MRT, and buses.",
+      "events": [
+        {
+          "date": "1998-01-01",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2017-07-17",
+          "category": "technical",
+          "description": "Opened MRT Line 1 (Kajang Line)."
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Mass Rapid Transit Corporation (MRT Corp)",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "Kuala Lumpur",
+      "description": "Developer of the Klang Valley MRT system.",
+      "events": [
+        {
+          "date": "2011-09-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "name": "Malaysia Airports Holdings Berhad (MAHB)",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Operator of airports, driving airport tech.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "1998-06-27",
+          "category": "technical",
+          "description": "Opened KL International Airport (KLIA)."
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Port Klang Authority (PKA)",
+      "type": "public",
+      "role": "Logistics Tech",
+      "regionOfActivity": "Selangor",
+      "description": "Regulator of Port Klang, driving port digitization.",
+      "events": [
+        {
+          "date": "1963-07-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "name": "Westports Holdings Berhad",
+      "type": "private",
+      "role": "Logistics Tech",
+      "regionOfActivity": "Selangor",
+      "description": "Container terminal operator with advanced port technology.",
+      "events": [
+        {
+          "date": "1994-03-06",
+          "category": "birth",
+          "description": "Commenced operations."
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Malaysian Maritime Enforcement Agency (MMEA)",
+      "type": "public",
+      "role": "Agency",
+      "regionOfActivity": "National",
+      "description": "Coast guard utilizing maritime surveillance technology.",
+      "events": [
+        {
+          "date": "2005-03-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    }
+  ]
+}

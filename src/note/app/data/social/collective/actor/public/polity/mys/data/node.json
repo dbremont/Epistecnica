@@ -1,0 +1,107 @@
+{
+  "id": "mys",
+  "name": "Malaysia",
+  "tags": [
+    "Southeast Asia",
+    "ASEAN",
+    "Upper-Middle-Income",
+    "Export-Oriented",
+    "Electronics Manufacturing",
+    "Multicultural Federation"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Malaysia is a federal constitutional monarchy in Southeast Asia composed of Peninsular Malaysia and East Malaysian states on the island of Borneo. Since independence, it has transitioned from a commodity-based economy to an export-oriented manufacturing and services hub, with strong specialization in electronics, palm oil, and petroleum, supported by industrial policy and integration into regional and global value chains.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Malaysia",
+    "flagEmoji": "🇲🇾",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "34 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 34000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 450 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 450000000000
+      },
+      {
+        "id": "area",
+        "value": "330,803 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 330803
+      },
+      {
+        "id": "capital",
+        "value": "Kuala Lumpur (administrative: Putrajaya)",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Malaysia’s actor space from colonial administration and resource extraction to post-independence federal consolidation, New Economic Policy reforms, and export-oriented industrialization.",
+        "link": "rep/actor.html?code=mys"
+      },
+      {
+        "id": "industrial_and_trade_structure",
+        "type": "Network",
+        "status": "pending",
+        "title": "Industrial and Trade Network Structure",
+        "description": "Network representation of Malaysia’s electronics clusters, palm oil value chains, energy sector, and integration into ASEAN and global production networks.",
+        "link": null
+      },
+      {
+        "id": "federal_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Federal Spatial-Administrative Structure",
+        "description": "Geospatial analysis of Peninsular and East Malaysian states, economic corridors, port infrastructure, and regional development differentials.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "MYS",
+      "region": "Southeast Asia",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

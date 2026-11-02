@@ -1,0 +1,875 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Dutch actors (organizations and institutions) since 1400.",
+    "country": "Netherlands",
+    "region": "Western Europe",
+    "flag": "🇳🇱",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the Netherlands. This dataset traces the formation, transformation, and significant milestones of republican, trading, and logistics entities, from the VOC to semiconductor and pension-fund capitalism.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "States General and Dutch parliament",
+      "type": "public",
+      "role": "Parliament",
+      "regionOfActivity": "The Hague",
+      "description": "Burgundian estates turned bicameral legislature of the Kingdom.",
+      "events": [
+        {
+          "date": "1464-01-09",
+          "category": "birth",
+          "description": "First States General convened at Bruges"
+        },
+        {
+          "date": "1815-08-24",
+          "category": "transformation",
+          "description": "United Kingdom constitution institutes bicameralism"
+        },
+        {
+          "date": "1917-01-01",
+          "category": "milestone",
+          "description": "Universal male suffrage; passive women's vote follows in 1919"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Dutch East India Company",
+      "type": "hybrid",
+      "role": "Chartered trading company",
+      "regionOfActivity": "Amsterdam",
+      "description": "First joint-stock company ruling an Asian empire.",
+      "events": [
+        {
+          "date": "1602-03-20",
+          "category": "birth",
+          "description": "States General charters the VOC"
+        },
+        {
+          "date": "1619-05-30",
+          "category": "expansion",
+          "description": "Batavia founded as Asian headquarters"
+        },
+        {
+          "date": "1799-12-31",
+          "category": "death",
+          "description": "Charter expires; possessions revert to the state"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Dutch West India Company",
+      "type": "hybrid",
+      "role": "Chartered trading company",
+      "regionOfActivity": "Amsterdam",
+      "description": "Atlantic counterpart in Brazil, Caribbean and New Netherland.",
+      "events": [
+        {
+          "date": "1621-06-03",
+          "category": "birth",
+          "description": "WIC chartered"
+        },
+        {
+          "date": "1626-01-01",
+          "category": "expansion",
+          "description": "Manhattan purchase founds New Amsterdam"
+        },
+        {
+          "date": "1674-01-01",
+          "category": "death",
+          "description": "First WIC dissolved after Anglo-Dutch wars"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Amsterdam Stock Exchange",
+      "type": "hybrid",
+      "role": "Securities exchange",
+      "regionOfActivity": "Amsterdam",
+      "description": "VOC-share trading floor ancestor of Euronext Amsterdam.",
+      "events": [
+        {
+          "date": "1602-01-01",
+          "category": "birth",
+          "description": "VOC shares begin trading"
+        },
+        {
+          "date": "1611-01-01",
+          "category": "milestone",
+          "description": "Hendrick de Keyser Exchange opens"
+        },
+        {
+          "date": "2000-09-22",
+          "category": "transformation",
+          "description": "Euronext merger"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "De Nederlandsche Bank",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Amsterdam",
+      "description": "Kingdom-chartered bank inside the Eurosystem.",
+      "events": [
+        {
+          "date": "1814-03-25",
+          "category": "birth",
+          "description": "Sovereign decree founds DNB"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "milestone",
+          "description": "ECB era begins"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "ING Group",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Amsterdam",
+      "description": "Postbank-NMB merger turned bancassurance group, later split.",
+      "events": [
+        {
+          "date": "1991-03-04",
+          "category": "founding",
+          "description": "NMB Postbank-Nationale Nederlanden merger forms ING"
+        },
+        {
+          "date": "2009-01-01",
+          "category": "transformation",
+          "description": "State aid forces insurance separation; NN spun off"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Rabobank",
+      "type": "hybrid",
+      "role": "Cooperative bank",
+      "regionOfActivity": "Utrecht",
+      "description": "Rural credit cooperatives merged into a global food-and-agri lender.",
+      "events": [
+        {
+          "date": "1898-01-01",
+          "category": "birth",
+          "description": "First Boerenleenbanken founded"
+        },
+        {
+          "date": "1972-01-01",
+          "category": "founding",
+          "description": "Utrecht-Eindhoven merger forms Rabobank Nederland"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "ABN AMRO",
+      "type": "hybrid",
+      "role": "Universal bank",
+      "regionOfActivity": "Amsterdam",
+      "description": "Twice-merged bank nationalized in the 2008 crisis.",
+      "events": [
+        {
+          "date": "1824-01-01",
+          "category": "birth",
+          "description": "Nederlandsche Handel-Maatschappij founded"
+        },
+        {
+          "date": "1991-09-22",
+          "category": "founding",
+          "description": "ABN-AMRO merger"
+        },
+        {
+          "date": "2008-10-03",
+          "category": "transformation",
+          "description": "Dutch state nationalizes the domestic parts"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Aegon",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "The Hague",
+      "description": "Enschede burial-fund lineage turned global life insurer.",
+      "events": [
+        {
+          "date": "1844-01-01",
+          "category": "birth",
+          "description": "Algemeene Friesche founded"
+        },
+        {
+          "date": "1983-11-30",
+          "category": "founding",
+          "description": "AGO-Ennia merger forms Aegon"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Philips",
+      "type": "private",
+      "role": "Health-technology group",
+      "regionOfActivity": "Amsterdam",
+      "description": "Eindhoven lamp factory reinvented in medical systems.",
+      "events": [
+        {
+          "date": "1891-05-15",
+          "category": "birth",
+          "description": "Philips & Co. founded in Eindhoven"
+        },
+        {
+          "date": "1927-01-01",
+          "category": "expansion",
+          "description": "Radio valve production; lighting globalized"
+        },
+        {
+          "date": "2006-09-01",
+          "category": "transformation",
+          "description": "Semiconductors spun as NXP"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "ASML",
+      "type": "private",
+      "role": "Lithography monopolist",
+      "regionOfActivity": "Veldhoven",
+      "description": "Philips spin-off patterning every advanced chip.",
+      "events": [
+        {
+          "date": "1984-04-01",
+          "category": "birth",
+          "description": "ASM Lithography joint venture founded"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "transformation",
+          "description": "Full independence and listing"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "technical",
+          "description": "EUV volume production begins"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "NXP Semiconductors",
+      "type": "private",
+      "role": "Chipmaker",
+      "regionOfActivity": "Eindhoven",
+      "description": "Philips semiconductor arm in automotive and secure ID.",
+      "events": [
+        {
+          "date": "1953-01-01",
+          "category": "birth",
+          "description": "Philips semiconductor activity begins"
+        },
+        {
+          "date": "2006-09-01",
+          "category": "founding",
+          "description": "Private-equity carve-out creates NXP"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Shell Netherlands",
+      "type": "private",
+      "role": "Energy major",
+      "regionOfActivity": "The Hague",
+      "description": "Royal Dutch half of the Shell combine, simplified 2022.",
+      "events": [
+        {
+          "date": "1890-01-01",
+          "category": "birth",
+          "description": "Koninklijke Nederlandsche Petroleum Maatschappij founded"
+        },
+        {
+          "date": "1907-04-01",
+          "category": "founding",
+          "description": "Royal Dutch-Shell Transport merger"
+        },
+        {
+          "date": "2022-01-21",
+          "category": "transformation",
+          "description": "Single share class; HQ consolidated in London"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Unilever Netherlands",
+      "type": "private",
+      "role": "Consumer-goods group",
+      "regionOfActivity": "Rotterdam",
+      "description": "Margarine trust turned foods-and-personal-care giant.",
+      "events": [
+        {
+          "date": "1929-09-02",
+          "category": "founding",
+          "description": "Margarine Unie-Lever Brothers merger forms Unilever"
+        },
+        {
+          "date": "2020-11-30",
+          "category": "transformation",
+          "description": "Unification on a single UK parent"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "AkzoNobel",
+      "type": "private",
+      "role": "Paints and coatings group",
+      "regionOfActivity": "Amsterdam",
+      "description": "Salt-chemical lineage focused on Dulux paints.",
+      "events": [
+        {
+          "date": "1792-01-01",
+          "category": "birth",
+          "description": "Bofors gunpowder roots; Nobel era follows"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "founding",
+          "description": "Akzo-Nobel merger"
+        },
+        {
+          "date": "2018-01-01",
+          "category": "transformation",
+          "description": "Specialty chemicals spun as Nouryon"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "DSM-Firmenich",
+      "type": "private",
+      "role": "Nutrition group",
+      "regionOfActivity": "Maastricht",
+      "description": "State-mines chemistry converted to vitamins and fragrances.",
+      "events": [
+        {
+          "date": "1902-01-01",
+          "category": "birth",
+          "description": "Dutch State Mines founded"
+        },
+        {
+          "date": "2023-05-08",
+          "category": "founding",
+          "description": "Firmenich merger forms DSM-Firmenich"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Heineken",
+      "type": "private",
+      "role": "Brewer",
+      "regionOfActivity": "Amsterdam",
+      "description": "Family brewer built into the world's second-largest.",
+      "events": [
+        {
+          "date": "1864-02-15",
+          "category": "birth",
+          "description": "Gerard Heineken buys De Hooiberg brewery"
+        },
+        {
+          "date": "1968-01-01",
+          "category": "expansion",
+          "description": "Amstel acquisition consolidates domestic lead"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "KLM",
+      "type": "hybrid",
+      "role": "Flag carrier",
+      "regionOfActivity": "Amsterdam",
+      "description": "World's oldest operating airline inside Air France-KLM.",
+      "events": [
+        {
+          "date": "1919-10-07",
+          "category": "birth",
+          "description": "Koninklijke Luchtvaart Maatschappij founded"
+        },
+        {
+          "date": "2004-05-05",
+          "category": "transformation",
+          "description": "Air France merger"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "NS",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Utrecht",
+      "description": "Dense-network passenger operator.",
+      "events": [
+        {
+          "date": "1938-01-01",
+          "category": "birth",
+          "description": "NS formed from HSM-SS merger"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "transformation",
+          "description": "Corporatized as NV"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Port of Rotterdam Authority",
+      "type": "hybrid",
+      "role": "Port authority",
+      "regionOfActivity": "Rotterdam",
+      "description": "Landlord of Europe's largest seaport.",
+      "events": [
+        {
+          "date": "1932-01-01",
+          "category": "birth",
+          "description": "Municipal port administration modernized"
+        },
+        {
+          "date": "2004-01-01",
+          "category": "transformation",
+          "description": "Corporatized Havenbedrijf"
+        },
+        {
+          "date": "2013-01-01",
+          "category": "expansion",
+          "description": "Maasvlakte 2 opens"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Schiphol Group",
+      "type": "hybrid",
+      "role": "Airport operator",
+      "regionOfActivity": "Amsterdam",
+      "description": "State-owned hub operator of the airport city.",
+      "events": [
+        {
+          "date": "1916-09-19",
+          "category": "birth",
+          "description": "Schiphol military airfield opens"
+        },
+        {
+          "date": "1967-04-28",
+          "category": "milestone",
+          "description": "New terminal inaugurated; hub era begins"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "PostNL",
+      "type": "private",
+      "role": "Postal operator",
+      "regionOfActivity": "The Hague",
+      "description": "Liberalized postal incumbent with parcels growth.",
+      "events": [
+        {
+          "date": "1799-01-15",
+          "category": "birth",
+          "description": "French-era postal administration founded"
+        },
+        {
+          "date": "2011-05-31",
+          "category": "transformation",
+          "description": "TNT demerger creates PostNL"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "TNT and FedEx Benelux lineage",
+      "type": "private",
+      "role": "Express carrier",
+      "regionOfActivity": "Amsterdam",
+      "description": "KPN express arm sold onward to FedEx via TNT Express.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "KPN consolidates PTT Post-TNT"
+        },
+        {
+          "date": "2016-05-25",
+          "category": "transformation",
+          "description": "FedEx completes TNT Express takeover"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "VodafoneZiggo",
+      "type": "private",
+      "role": "Telecom joint venture",
+      "regionOfActivity": "Utrecht",
+      "description": "Liberty-Vodafone cable-mobile convergence.",
+      "events": [
+        {
+          "date": "2017-01-01",
+          "category": "founding",
+          "description": "Ziggo-Vodafone Netherlands merger"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Ahold Delhaize",
+      "type": "private",
+      "role": "Grocery group",
+      "regionOfActivity": "Zaandam",
+      "description": "1887 grocer merged with Delhaize into a transatlantic retailer.",
+      "events": [
+        {
+          "date": "1887-05-27",
+          "category": "birth",
+          "description": "Albert Heijn opens first shop in Oostzaan"
+        },
+        {
+          "date": "2016-07-23",
+          "category": "founding",
+          "description": "Delhaize merger forms Ahold Delhaize"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Jumbo",
+      "type": "private",
+      "role": "Grocery chain",
+      "regionOfActivity": "Veghel",
+      "description": "Family challenger to Albert Heijn.",
+      "events": [
+        {
+          "date": "1979-10-13",
+          "category": "birth",
+          "description": "First Jumbo supermarket opens"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "FrieslandCampina",
+      "type": "hybrid",
+      "role": "Dairy cooperative",
+      "regionOfActivity": "Amersfoort",
+      "description": "Farmer-owned dairy multinational.",
+      "events": [
+        {
+          "date": "1871-01-01",
+          "category": "birth",
+          "description": "First cooperative creameries formed"
+        },
+        {
+          "date": "2008-12-31",
+          "category": "founding",
+          "description": "Friesland-Campina merger"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "VION",
+      "type": "private",
+      "role": "Meat group",
+      "regionOfActivity": "Boxtel",
+      "description": "Farmer-rooted pork and beef processor.",
+      "events": [
+        {
+          "date": "1930-01-01",
+          "category": "birth",
+          "description": "Zevenaar cooperative slaughterhouse era begins"
+        },
+        {
+          "date": "2003-01-01",
+          "category": "founding",
+          "description": "Bestmeat-Sovion merger forms VION"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Boskalis",
+      "type": "private",
+      "role": "Dredging group",
+      "regionOfActivity": "Papendrecht",
+      "description": "Harbour-deepening specialist of the delta works.",
+      "events": [
+        {
+          "date": "1910-01-01",
+          "category": "birth",
+          "description": "Kraaijeveld dredging firm lineage begins"
+        },
+        {
+          "date": "2010-01-01",
+          "category": "expansion",
+          "description": "Smit Internationale takeover"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Van Oord",
+      "type": "private",
+      "role": "Dredging contractor",
+      "regionOfActivity": "Rotterdam",
+      "description": "Family marine contractor of land-reclamation fame.",
+      "events": [
+        {
+          "date": "1868-01-01",
+          "category": "birth",
+          "description": "Govert van Oord starts earthmoving"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Arcadis",
+      "type": "private",
+      "role": "Engineering consultancy",
+      "regionOfActivity": "Amsterdam",
+      "description": "Heathland-reclamation society turned global design firm.",
+      "events": [
+        {
+          "date": "1888-01-01",
+          "category": "birth",
+          "description": "Nederlandsche Heidemaatschappij founded"
+        },
+        {
+          "date": "1995-10-19",
+          "category": "transformation",
+          "description": "Listing; Arcadis brand adopted"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Fugro",
+      "type": "private",
+      "role": "Geo-data group",
+      "regionOfActivity": "Leidschendam",
+      "description": "Seabed-survey specialist.",
+      "events": [
+        {
+          "date": "1962-01-01",
+          "category": "birth",
+          "description": "Fugro founded"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Delft University of Technology",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Delft",
+      "description": "Royal academy turned Europe's design-engineering school.",
+      "events": [
+        {
+          "date": "1842-01-08",
+          "category": "birth",
+          "description": "Royal Academy founded"
+        },
+        {
+          "date": "1986-01-01",
+          "category": "transformation",
+          "description": "University status granted"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "TNO",
+      "type": "public",
+      "role": "Applied-research institute",
+      "regionOfActivity": "The Hague",
+      "description": "State applied-science organization.",
+      "events": [
+        {
+          "date": "1932-01-01",
+          "category": "birth",
+          "description": "TNO Act creates the organization"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "NWO",
+      "type": "public",
+      "role": "Research council",
+      "regionOfActivity": "The Hague",
+      "description": "Science funder of the Dutch knowledge system.",
+      "events": [
+        {
+          "date": "1950-01-01",
+          "category": "birth",
+          "description": "ZWO founded; NWO name follows in 1988"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Rijksmuseum",
+      "type": "public",
+      "role": "National museum",
+      "regionOfActivity": "Amsterdam",
+      "description": "Hague gallery moved to Cuypers palace.",
+      "events": [
+        {
+          "date": "1800-05-31",
+          "category": "birth",
+          "description": "Nationale Konst-Gallerij opens in The Hague"
+        },
+        {
+          "date": "1885-07-13",
+          "category": "milestone",
+          "description": "Cuypers building inaugurated"
+        },
+        {
+          "date": "2013-04-13",
+          "category": "expansion",
+          "description": "Renovation reopens to record crowds"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "NPO",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Hilversum",
+      "description": "Pillarized broadcasters coordinated under one roof.",
+      "events": [
+        {
+          "date": "1923-01-01",
+          "category": "birth",
+          "description": "Hilversum radio transmissions begin"
+        },
+        {
+          "date": "1951-10-02",
+          "category": "milestone",
+          "description": "Television service launches"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "transformation",
+          "description": "NPO umbrella formalized"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "FNV",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Utrecht",
+      "description": "Merger-built labor central of the polder model.",
+      "events": [
+        {
+          "date": "1976-01-01",
+          "category": "founding",
+          "description": "NVV-NKV merger forms the Federatie"
+        },
+        {
+          "date": "1982-11-24",
+          "category": "milestone",
+          "description": "Wassenaar Agreement seals wage moderation"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "VNO-NCW",
+      "type": "private",
+      "role": "Employers' confederation",
+      "regionOfActivity": "The Hague",
+      "description": "Industry voice in polder consultations.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "VNO-NCW merger forms the confederation"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Gasunie",
+      "type": "public",
+      "role": "Gas grid operator",
+      "regionOfActivity": "Groningen",
+      "description": "Groningen-field transporter turned hydrogen aspirant.",
+      "events": [
+        {
+          "date": "1963-04-05",
+          "category": "birth",
+          "description": "Gasunie founded to market Slochteren gas"
+        },
+        {
+          "date": "2005-07-01",
+          "category": "transformation",
+          "description": "Unbundling splits GasTerra trading off"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "TenneT Netherlands",
+      "type": "public",
+      "role": "Grid operator",
+      "regionOfActivity": "Arnhem",
+      "description": "State transmission operator reaching into Germany.",
+      "events": [
+        {
+          "date": "1998-01-01",
+          "category": "birth",
+          "description": "TenneT carved out of SEP"
+        },
+        {
+          "date": "2010-01-01",
+          "category": "expansion",
+          "description": "E.ON high-voltage grid takeover"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Dutch East India archives and VOC sites",
+      "type": "public",
+      "role": "Heritage complex",
+      "regionOfActivity": "Amsterdam",
+      "description": "Yards, weigh houses and archives of the company era.",
+      "events": [
+        {
+          "date": "1606-01-01",
+          "category": "milestone",
+          "description": "Oost-Indisch Huis headquarters completed"
+        }
+      ]
+    }
+  ]
+}

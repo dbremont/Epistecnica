@@ -1,0 +1,107 @@
+{
+  "id": "tha",
+  "name": "Thailand",
+  "tags": [
+    "Southeast Asia",
+    "ASEAN",
+    "Upper-Middle-Income",
+    "Export-Oriented",
+    "Constitutional Monarchy",
+    "Manufacturing Hub"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Thailand is a constitutional monarchy in Southeast Asia with a diversified, export-oriented economy. Historically the Kingdom of Siam, it avoided formal colonization and underwent gradual modernization in the late 19th and early 20th centuries. Since the late 20th century, Thailand has developed strong manufacturing sectors—particularly automotive and electronics—alongside tourism and agro-industrial exports, integrated into regional and global value chains.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "ราชอาณาจักรไทย (Ratcha-anachak Thai) / Kingdom of Thailand",
+    "flagEmoji": "🇹🇭",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "71 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 71000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 540 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 540000000000
+      },
+      {
+        "id": "area",
+        "value": "513,120 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 513120
+      },
+      {
+        "id": "capital",
+        "value": "Bangkok",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Thailand’s actor space from monarchical-administrative structures and military influence to export-oriented industrialization, business conglomerates, and contemporary regulatory institutions.",
+        "link": "rep/actor.html?code=tha"
+      },
+      {
+        "id": "industrial_and_trade_network",
+        "type": "Network",
+        "status": "active",
+        "title": "Industrial and Trade Network Structure",
+        "description": "Network analysis of Thailand’s automotive clusters, electronics manufacturing, agro-industrial exports, and integration into ASEAN and global production networks.",
+        "link": "pending.html?back=entry.html%3Fcode%3Dtha"
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of provinces, economic corridors (including the Eastern Economic Corridor), infrastructure systems, and regional development patterns.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "THA",
+      "region": "Southeast Asia",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

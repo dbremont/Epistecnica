@@ -1,0 +1,107 @@
+{
+  "id": "nld",
+  "name": "Netherlands",
+  "tags": [
+    "Western Europe",
+    "European Union",
+    "Eurozone",
+    "Trade-Oriented",
+    "Logistics Hub",
+    "Constitutional Monarchy"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "The Netherlands is a constitutional monarchy in Western Europe known for its advanced, trade-oriented economy and long-standing maritime and commercial tradition. Historically central to early modern global trade and finance, it remains a major logistics and distribution hub within Europe, with strong sectors in agriculture, chemicals, high-tech manufacturing, and financial services.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Nederland",
+    "flagEmoji": "🇳🇱",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "18 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 18000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 1.1 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1100000000000
+      },
+      {
+        "id": "area",
+        "value": "41,865 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 41865
+      },
+      {
+        "id": "capital",
+        "value": "Amsterdam (government seat: The Hague)",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Constitutional Monarchy with Parliamentary System",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of the Netherlands’ actor space from merchant republic institutions and chartered trading companies to modern parliamentary governance, multinational corporations, and EU-integrated regulatory bodies.",
+        "link": "rep/actor.html?code=nld"
+      },
+      {
+        "id": "trade_and_logistics_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Trade and Logistics Network Structure",
+        "description": "Network analysis of ports, shipping routes, distribution centers, and integration into European and global value chains.",
+        "link": null
+      },
+      {
+        "id": "spatial_water_management",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Spatial and Water Management Structure",
+        "description": "Geospatial representation of provinces, delta works, reclaimed land (polders), and infrastructure systems supporting flood control and urban-economic concentration.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "NLD",
+      "region": "Western Europe",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

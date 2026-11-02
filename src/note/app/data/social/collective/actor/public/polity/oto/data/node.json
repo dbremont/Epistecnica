@@ -1,0 +1,100 @@
+{
+  "id": "oto",
+  "name": "Ottoman Empire",
+  "tags": [
+    "Historical Empire",
+    "Defunct State",
+    "Islamic Caliphate",
+    "Balkan-Anatolian Core",
+    "Tributary Economy",
+    "Early Modern Great Power"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "The Ottoman Empire (1299–1922) was a transcontinental Islamic empire centered on Anatolia, the Balkans and the Middle East, ruled by a sultan-caliph from Constantinople. At its early modern peak it commanded major Eurasian trade routes and a tributary provincial order. Military defeat, nationalist secessions and World War I reduced it to Anatolia, ending with the Turkish Republic's proclamation in 1923. Figures below are a c.1914 snapshot.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Ottoman Empire / Devlet-i Aliyye",
+    "flagEmoji": "",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "18 million (c.1914)",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 18000000
+      },
+      {
+        "id": "area",
+        "value": "1.8 million km² (c.1914)",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 1800000
+      },
+      {
+        "id": "capital",
+        "value": "Constantinople (Istanbul)",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Absolute Monarchy (Sultanate, 1299–1922)",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of the Ottoman actor space from frontier ghazi retinues and Janissary-administrator cadres through Tanzimat ministries and Hamidian centralization to Committee of Union and Progress rule and dissolution.",
+        "link": "rep/actor.html?code=oto"
+      },
+      {
+        "id": "tributary_trade_routes",
+        "type": "Network",
+        "status": "pending",
+        "title": "Tributary and Trade Route Network",
+        "description": "Network analysis of Silk Road termini, capitulatory trade privileges, tax-farming circuits and foreign debt administration binding provinces to Istanbul and European creditors.",
+        "link": null
+      },
+      {
+        "id": "vilayet_provinces",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Vilayet Provincial Structure",
+        "description": "Geospatial representation of vilayet-sanjak administration, millet communal autonomy, railway penetration, and the empire's contraction to its Anatolian core.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "OTO",
+      "region": "Eastern Mediterranean",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

@@ -1,0 +1,107 @@
+{
+  "id": "esp",
+  "name": "Spain",
+  "tags": [
+    "Southern Europe",
+    "European Union",
+    "Eurozone",
+    "Parliamentary Monarchy",
+    "Tourism Powerhouse",
+    "Decentralized State"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Spain is a parliamentary constitutional monarchy in Southern Europe and one of the eurozone's largest economies. Restored to democracy after Franco's death in 1975 and an EU member since 1986, it is organized as a highly decentralized state of autonomous communities. Tourism, automotive manufacturing, banking and renewable energy anchor an open, services-led economy.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "España",
+    "flagEmoji": "🇪🇸",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "48.6 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 48600000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 1.7 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1700000000000
+      },
+      {
+        "id": "area",
+        "value": "505,990 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 505990
+      },
+      {
+        "id": "capital",
+        "value": "Madrid",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Parliamentary Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Spain's actor space from imperial-era institutions through Francoist corporatism and democratic transition to autonomous-community governments, IBEX multinationals, and EU-integrated regulators.",
+        "link": "rep/actor.html?code=esp"
+      },
+      {
+        "id": "tourism_auto_chains",
+        "type": "Network",
+        "status": "pending",
+        "title": "Tourism and Automotive Value Chains",
+        "description": "Network analysis of visitor-economy circuits, assembly plants and supplier parks, and banking groups connecting domestic demand to European markets.",
+        "link": null
+      },
+      {
+        "id": "autonomous_communities",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Autonomous Communities Structure",
+        "description": "Geospatial representation of seventeen autonomous communities and two autonomous cities, fiscal asymmetries, and infrastructure radiating from the Madrid hub.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "ESP",
+      "region": "Southern Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

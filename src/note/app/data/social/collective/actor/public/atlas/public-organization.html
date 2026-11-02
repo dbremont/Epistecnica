@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Organizations Compared</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Oxford Common Room tokens — keep identical to app/shared/theme.css */
+            --bg-void: #0b0e14;
+            --bg-surface: #11151e;
+            --bg-card: #161b26;
+            --bg-elevated: #1d2330;
+            --bg-hover: rgba(255, 255, 255, 0.04);
+            --gilt: #C4B998;
+            --parchment: #D6D1C4;
+            --thread: #4a4a4a;
+            --text-primary: #f4f3f1;
+            --text-secondary: #a8a5b0;
+            --text-muted: #9290aa;
+            --text-ghost: #82809a;
+            --accent-copper: #c9956c;
+            --accent-sage: #7ba388;
+            --accent-plum: #9b7eb0;
+            --accent-rose: #c47d8a;
+            --accent-amber: #d4a857;
+            --accent-steel: #6b8caa;
+            --accent-gold: #c9956c;
+            --accent-cyan: #4dd4c4;
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --border-medium: rgba(255, 255, 255, 0.08);
+            --border-strong: rgba(255, 255, 255, 0.12);
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+            --card-bg: rgba(22, 27, 38, 0.72);
+            --nav-bg: rgba(11, 14, 20, 0.85);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        html[data-theme="light"] {
+            --bg-void: #f5f2ea;
+            --bg-surface: #efe9dc;
+            --bg-card: #fffdf8;
+            --bg-elevated: #ffffff;
+            --bg-hover: rgba(20, 22, 30, 0.04);
+            --gilt: #9a7b3f;
+            --parchment: #2b2620;
+            --thread: rgba(43, 38, 32, 0.25);
+            --text-primary: #1a1d24;
+            --text-secondary: #4a4f5e;
+            --text-muted: #7a7f8e;
+            --text-ghost: #9aa0ae;
+            --accent-copper: #9a7b3f;
+            --accent-sage: #4e7a5e;
+            --accent-plum: #7a5f8c;
+            --accent-rose: #a55a68;
+            --accent-amber: #9a742f;
+            --accent-steel: #4e6e8c;
+            --accent-gold: #9a7b3f;
+            --accent-cyan: #0e7c72;
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --border-medium: rgba(20, 22, 30, 0.14);
+            --border-strong: rgba(20, 22, 30, 0.22);
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+            --card-bg: rgba(255, 253, 248, 0.72);
+            --nav-bg: rgba(245, 242, 234, 0.85);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
+        body { background: var(--bg-void); color: var(--text-primary); font-family: var(--font-body);
+            min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
+        #ambientCanvas { position: fixed; top: 0; left: 0; z-index: 0; opacity: 0.5; pointer-events: none; }
+        .nav { position: sticky; top: 0; z-index: 10; background: var(--nav-bg);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-medium); }
+        .nav-inner { max-width: 1280px; margin: 0 auto; padding: 15px 32px; display: flex;
+            align-items: center; justify-content: space-between; gap: 16px; }
+        .nav-brand { font-family: var(--font-display); font-style: italic; font-size: 1.05rem;
+            color: var(--text-primary); text-decoration: none; }
+        .nav-right { display: flex; align-items: center; gap: 12px; }
+        .nav-links a { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.18em;
+            text-transform: uppercase; color: var(--text-secondary); text-decoration: none; }
+        .nav-links a:hover { color: var(--accent-cyan); }
+        .theme-toggle { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.18em;
+            background: transparent; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);
+            color: var(--text-secondary); padding: 0.4rem 0.7rem; cursor: pointer; }
+        .layout { position: relative; z-index: 1; flex: 1; width: 100%; max-width: 1280px;
+            margin: 0 auto; padding: 0 32px 2.5rem; }
+        header { padding: 44px 0 8px; }
+        .crumbs { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.12em;
+            text-transform: uppercase; color: var(--text-ghost); margin-bottom: 1rem; }
+        .crumbs a { color: var(--text-muted); text-decoration: none; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+        .crumbs .sep { margin: 0 0.5rem; }
+        .crumbs .here { color: var(--text-primary); }
+        h1 { font-family: var(--font-display); font-style: italic; font-weight: 300;
+            font-size: clamp(2rem, 4.5vw, 3.2rem); line-height: 1.05; }
+        h1 em { font-style: italic; color: var(--accent-copper); }
+        .lede { margin-top: 1.2rem; max-width: 46rem; font-size: 1rem; font-weight: 300;
+            line-height: 1.7; color: var(--text-secondary); border-left: 1px solid var(--accent-copper);
+            padding-left: 20px; }
+        .lede a { color: var(--accent-cyan); text-decoration: none; }
+        .lede a:hover { text-decoration: underline; }
+        h2 { font-family: var(--font-display); font-style: italic; font-weight: 400;
+            font-size: 1.5rem; margin: 2.2rem 0 0.4rem; }
+        h2 em { color: var(--accent-copper); }
+        .section-desc { color: var(--text-secondary); max-width: 74ch; font-size: 0.9rem; }
+        .panel { background: var(--card-bg); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md); padding: 1.1rem 1.25rem; margin-top: 1rem; }
+        .countries { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.9rem; }
+        .country { border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+            padding: 0.8rem 0.95rem; background: var(--bg-surface); }
+        .country h3 { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.14em;
+            text-transform: uppercase; color: var(--text-muted); font-weight: 400; margin-bottom: 0.25rem; }
+        .country .band { font-family: var(--font-mono); font-size: 0.58rem; color: var(--text-ghost);
+            letter-spacing: 0.1em; text-transform: uppercase; }
+        .country label { display: flex; gap: 0.5rem; align-items: baseline; font-size: 0.85rem;
+            color: var(--text-secondary); padding: 0.25rem 0; cursor: pointer; }
+        .country label:hover { color: var(--text-primary); }
+        .country input { accent-color: var(--accent-cyan); }
+        .lowconf { font-family: var(--font-mono); font-size: 0.56rem; color: var(--accent-amber);
+            border: 1px solid var(--accent-amber); border-radius: 999px; padding: 0.05rem 0.4rem;
+            margin-left: 0.4rem; white-space: nowrap; }
+        .tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+        .tab { font-family: var(--font-mono); font-size: 0.68rem; background: var(--bg-surface);
+            border: 1px solid var(--border-subtle); border-radius: 999px; color: var(--text-secondary);
+            padding: 0.45rem 0.95rem; cursor: pointer; }
+        .tab[aria-selected="true"] { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .tab .n { color: var(--text-ghost); }
+        table.cmp { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.82rem; }
+        table.cmp th, table.cmp td { text-align: left; vertical-align: top; padding: 0.55rem 0.7rem;
+            border-bottom: 1px solid var(--border-subtle); }
+        table.cmp th { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em;
+            text-transform: uppercase; color: var(--text-muted); font-weight: 400; }
+        table.cmp tr.cat td { position: sticky; top: 3.4rem; background: var(--bg-surface);
+            font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
+            color: var(--accent-copper); font-weight: 400; border-bottom: 1px solid var(--border-strong); }
+        table.cmp tr.cat td .n { color: var(--text-ghost); letter-spacing: 0.04em; }
+        table.cmp td.el { color: var(--text-primary); font-weight: 500; }
+        table.cmp td.el .rule { display: block; font-weight: 300; font-size: 0.72rem;
+            color: var(--text-muted); margin-top: 0.2rem; }
+        table.cmp td.val { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-secondary); }
+        table.cmp td.diff { color: var(--accent-amber); }
+        table.cmp td.na { color: var(--text-ghost); }
+        .empty { color: var(--text-muted); font-style: italic; margin: 1.5rem 0; }
+        .hint { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.6rem; }
+        footer { position: relative; z-index: 1; border-top: 1px solid var(--border-subtle); margin-top: 3rem; }
+        .foot-inner { max-width: 1280px; margin: 0 auto; padding: 1.5rem 32px; display: flex;
+            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem;
+            font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+            text-transform: uppercase; color: var(--text-muted); }
+        .foot-inner a { color: var(--text-muted); text-decoration: none; }
+        .foot-inner a:hover { color: var(--accent-cyan); }
+        .foot-meta { width: 100%; flex-basis: 100%; letter-spacing: 0.06em; }
+        .foot-meta a { text-transform: none; letter-spacing: 0.02em; }
+        #error { color: var(--accent-rose); margin: 1rem 0; }
+        .hidden { display: none !important; }
+        @media (max-width: 640px) {
+            .nav-inner, .foot-inner { padding: 0.95rem 1rem; }
+            .layout { padding: 0 1rem 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+<canvas id="ambientCanvas" aria-hidden="true"></canvas>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../../../web/index.html">Naturgnosis</a>
+        <div class="nav-right">
+            <div class="nav-links"><a href="../../../../../../web/index.html">Catalog</a></div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+<div class="layout">
+<header>
+    <nav class="crumbs" aria-label="Breadcrumbs">
+        <a href="../../../../../../web/index.html">notes</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social">social</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/collective/actor">actor</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/collective/actor/public">public</a><span class="sep">/</span><span class="here">Compared</span>
+    </nav>
+    <h1>Public Organizations Compared<em>.</em></h1>
+    <p class="lede" id="lede">Seventeen public bodies from eight countries and territories — top performers large,
+    medium, and small, plus strained states — each profiled under the four
+    <a href="public-organization-characterization-systems.html">comparative representation systems</a>.
+</header>
+
+<section id="pickerSection">
+    <h2>Pick organizations<em>.</em></h2>
+    <p class="section-desc">Up to four at once; disagreeing elements highlight.</p>
+    <div class="panel"><div class="countries" id="countries"></div>
+    <p class="hint" id="pickHint"></p></div>
+</section>
+
+<section id="modelSection" class="hidden">
+    <h2>Pick a model<em>.</em></h2>
+    <div class="tabs" id="tabs" role="tablist"></div>
+</section>
+
+<section id="resultSection" class="hidden">
+    <h2>Comparison<em>.</em></h2>
+    <div class="panel" style="overflow-x:auto"><table class="cmp" id="cmpTable"></table></div>
+</section>
+<div id="error" hidden></div>
+</div>
+<footer>
+    <div class="foot-inner">
+        <div class="foot-meta"><span id="footMeta"></span>Systems:
+        <a href="public-organization-characterization-systems.html">characterization systems</a> ·
+        <a href="../../../../../../web/note.html?n=social/collective/actor/public/public-organization.md">Public Organization</a> ·
+        <a href="public-organization-profiles.json">profiles.json</a></div>
+        <div>Naturgnosis &middot; notes</div>
+        <a href="../../../../../../web/index.html">&larr; CATALOG</a>
+    </div>
+</footer>
+<script>
+(function () {
+    "use strict";
+    var MAX_ORGS = 4;
+    var state = { systems: null, orgs: null, countries: null, selected: [], active: null };
+
+    function $(sel) { return document.querySelector(sel); }
+
+    /* ---------- theme toggle + ambient constellation (as in note.html) ---------- */
+    var themeBtn = $("#themeToggle"), themeLabel = $("#themeLabel"), themeFading = false;
+    function applyThemeLabel() {
+        themeLabel.textContent = document.documentElement.dataset.theme === "light" ? "DARK" : "LIGHT";
+    }
+    themeBtn.addEventListener("click", function () {
+        if (themeFading) return;
+        themeFading = true;
+        var r = document.documentElement;
+        var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var swap = function () {
+            r.dataset.theme = r.dataset.theme === "light" ? "dark" : "light";
+            try { localStorage.setItem("naturgnosis-theme", r.dataset.theme); } catch (e) {}
+            applyThemeLabel();
+            r.classList.remove("theme-fading");
+            themeFading = false;
+        };
+        if (reduced) { swap(); return; }
+        r.classList.add("theme-fading");
+        setTimeout(swap, 190);
+    });
+    applyThemeLabel();
+    (function ambient() {
+        var canvas = document.getElementById("ambientCanvas");
+        if (!canvas) return;
+        var ctx = canvas.getContext("2d");
+        var pts = [];
+        var LINK_DIST = 130;
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+            pts = [];
+            for (var i = 0; i < count; i++) {
+                pts.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.22, vy: (Math.random() - 0.5) * 0.22, r: Math.random() * 1.4 + 0.4 });
+            }
+        }
+        function tick() {
+            var light = document.documentElement.dataset.theme === "light";
+            var dotRGB = light ? "26, 29, 36" : "226, 228, 235";
+            var linkRGB = light ? "154, 123, 63" : "201, 149, 108";
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (var i = 0; i < pts.length; i++) {
+                var p = pts[i];
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                ctx.fillStyle = "rgba(" + dotRGB + ", 0.5)";
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            window.requestAnimationFrame(tick);
+        }
+        window.addEventListener("resize", resize);
+        resize();
+        window.requestAnimationFrame(tick);
+    })();
+
+    function esc(s) {
+        return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+    function escAttr(s) { return esc(s).replace(/'/g, "&#39;"); }
+    function orgById(id) {
+        for (var i = 0; i < state.orgs.length; i++) {
+            if (state.orgs[i].id === id) return state.orgs[i];
+        }
+        return null;
+    }
+    function sysByName(name) {
+        for (var i = 0; i < state.systems.length; i++) {
+            if (state.systems[i].name === name) return state.systems[i];
+        }
+        return null;
+    }
+    function countryName(code) {
+        for (var i = 0; i < state.countries.length; i++) {
+            if (state.countries[i].code === code) return state.countries[i];
+        }
+        return { name: code, band: "" };
+    }
+
+    function renderPicker() {
+        var box = $("#countries");
+        box.innerHTML = "";
+        state.countries.forEach(function (c) {
+            var div = document.createElement("div");
+            div.className = "country";
+            var html = "<h3>" + esc(c.name) + '</h3><div class="band">' + esc(c.band) + "</div>";
+            state.orgs.forEach(function (o) {
+                if (o.country !== c.code) return;
+                var checked = state.selected.indexOf(o.id) >= 0 ? " checked" : "";
+                html += '<label><input type="checkbox" data-id="' + escAttr(o.id) + '"' + checked + ">" +
+                    "<span>" + esc(o.name) +
+                    (o.confidence === "lower" ? '<span class="lowconf">lower confidence</span>' : "") +
+                    "</span></label>";
+            });
+            div.innerHTML = html;
+            box.appendChild(div);
+        });
+        box.querySelectorAll("input[data-id]").forEach(function (cb) {
+            cb.addEventListener("change", function () {
+                var id = cb.getAttribute("data-id");
+                var ix = state.selected.indexOf(id);
+                if (cb.checked && ix < 0) {
+                    if (state.selected.length >= MAX_ORGS) {
+                        cb.checked = false;
+                        $("#pickHint").textContent = "Up to four organizations at once — uncheck one first.";
+                        return;
+                    }
+                    state.selected.push(id);
+                } else if (!cb.checked && ix >= 0) {
+                    state.selected.splice(ix, 1);
+                }
+                $("#pickHint").textContent = "";
+                sync();
+            });
+        });
+    }
+
+    function renderTabs() {
+        var tabs = $("#tabs");
+        tabs.innerHTML = "";
+        state.systems.forEach(function (s) {
+            var b = document.createElement("button");
+            b.className = "tab"; b.type = "button"; b.setAttribute("role", "tab");
+            b.setAttribute("aria-selected", s.name === state.active ? "true" : "false");
+            b.innerHTML = esc(s.title) + ' <span class="n">(' + s.characteristic_element_set.length + ")</span>";
+            b.title = s.description;
+            b.addEventListener("click", function () { state.active = s.name; sync(); });
+            tabs.appendChild(b);
+        });
+    }
+
+    function renderTable() {
+        var sys = sysByName(state.active);
+        var tbl = $("#cmpTable");
+        if (!sys || !state.selected.length) {
+            $("#resultSection").classList.add("hidden");
+            return;
+        }
+        var orgs = state.selected.map(orgById).filter(Boolean);
+        var nmodel = orgs.length + 1;
+        var html = "<thead><tr><th>Characteristic element</th>" + orgs.map(function (o) {
+            return "<th>" + esc(o.name) + "<br><span style='font-weight:300;text-transform:none;letter-spacing:0'>" +
+                esc(countryName(o.country).name) + "</span></th>";
+        }).join("") + "</tr></thead><tbody>";
+        function rowFor(e) {
+            var vals = orgs.map(function (o) {
+                var p = (o.profiles && o.profiles[sys.name]) || {};
+                return Object.prototype.hasOwnProperty.call(p, e.name) ? p[e.name] : null;
+            });
+            var differ = false;
+            for (var i = 1; i < vals.length; i++) {
+                if (vals[i] !== vals[0]) { differ = true; break; }
+            }
+            var row = "<tr><td class='el'>" + esc(e.name) +
+                '<span class="rule">' + esc(e.assignment_rule) + "</span></td>";
+            vals.forEach(function (v) {
+                if (v == null) {
+                    row += "<td class='val na'>—</td>";
+                } else {
+                    row += "<td class='val" + (differ ? " diff" : "") + "'>" + esc(v) + "</td>";
+                }
+            });
+            return row + "</tr>";
+        }
+        var groups = sys.groups || sys.submodels || [];
+        if (groups.length) {
+            groups.forEach(function (g) {
+                var els = sys.characteristic_element_set.filter(function (e) { return e.category === g.name; });
+                if (!els.length) return;
+                html += '<tr class="cat"><td colspan="' + nmodel + '">' + esc(g.name) +
+                    ' <span class="n">· ' + els.length + "</span></td></tr>" + els.map(rowFor).join("");
+            });
+            html += sys.characteristic_element_set.filter(function (e) { return !e.category; }).map(rowFor).join("");
+        } else {
+            html += sys.characteristic_element_set.map(rowFor).join("");
+        }
+        tbl.innerHTML = html;
+        $("#resultSection").classList.remove("hidden");
+    }
+
+    function sync() {
+        var hasOrgs = state.selected.length > 0;
+        $("#modelSection").classList.toggle("hidden", !hasOrgs);
+        if (hasOrgs && !sysByName(state.active)) state.active = state.systems[0].name;
+        renderTabs();
+        renderTable();
+        try {
+            var h = "#cmp/" + state.selected.join("+");
+            if (state.active) h += "/" + state.active;
+            history.replaceState(null, "", hasOrgs ? h : location.pathname);
+        } catch (e) {}
+    }
+
+    function fromHash() {
+        var h = (location.hash || "").replace(/^#cmp\//, "");
+        if (!h || location.hash.indexOf("#cmp/") !== 0) return;
+        var parts = h.split("/");
+        var sys = parts.pop();
+        var ids = parts.join("/").split("+").filter(Boolean);
+        var ok = ids.filter(orgById);
+        if (!ok.length) return;
+        state.selected = ok.slice(0, MAX_ORGS).map(function (o) { return o.id; });
+        if (sysByName(sys)) state.active = sys;
+        renderPicker();
+        sync();
+    }
+    window.addEventListener("hashchange", fromHash);
+
+    Promise.all([
+        fetch("public-organization.json", { cache: "no-cache" }).then(function (r) {
+            if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
+        }),
+        fetch("public-organization-profiles.json", { cache: "no-cache" }).then(function (r) {
+            if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
+        })
+    ]).then(function (res) {
+        state.systems = res[0].systems;
+        state.orgs = res[1].organizations;
+        state.countries = res[1].meta.countries;
+        state.active = state.systems[0].name;
+        $("#footMeta").textContent = state.orgs.length + " organizations · " +
+            state.countries.length + " countries · " + state.systems.length + " models. ";
+        renderPicker();
+        sync();
+        fromHash();
+    }).catch(function (err) {
+        var el = $("#error");
+        el.hidden = false;
+        el.textContent = "Failed to load comparison data: " + err.message;
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+{
+  "id": "prt",
+  "name": "Portugal",
+  "tags": [
+    "Southern Europe",
+    "European Union",
+    "Eurozone",
+    "Portuguese-Speaking",
+    "Atlantic Economy",
+    "Semi-Presidential Republic"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Portugal is a unitary semi-presidential republic on the Iberian Peninsula's Atlantic edge and one of Europe's oldest nation-states. Pioneer of the Age of Discovery with a deep seafaring and mercantile tradition, it moved from dictatorship to democracy with the 1974 Carnation Revolution and joined the European Communities in 1986. Its open economy leans on services, tourism, cork, wine and olive oil, with fast-growing technology and renewable-energy sectors.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Portugal / República Portuguesa",
+    "flagEmoji": "🇵🇹",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "10.6 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 10600000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 300 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 300000000000
+      },
+      {
+        "id": "area",
+        "value": "92,090 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 92090
+      },
+      {
+        "id": "capital",
+        "value": "Lisbon",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Unitary Republic with Semi-Presidential System",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Portugal's actor space from Age of Discovery maritime institutions and colonial trading networks through the Estado Novo corporatist state to democratic governance, EU-integrated regulatory bodies, and contemporary firms and public institutions.",
+        "link": "rep/actor.html?code=prt"
+      },
+      {
+        "id": "lusophone_economic_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Lusophone Economic Network Structure",
+        "description": "Network analysis of trade, investment, migration and energy ties binding Portugal to Brazil, Angola, Mozambique and the wider Community of Portuguese Language Countries, alongside integration into EU value chains.",
+        "link": null
+      },
+      {
+        "id": "coastal_energy_territory",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Coastal and Energy Transition Structure",
+        "description": "Geospatial representation of coastal demographic concentration, Atlantic ports and fisheries, and the build-out of wind, solar and hydro capacity supporting decarbonization and territorial cohesion.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "PRT",
+      "region": "Southern Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

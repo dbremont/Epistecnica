@@ -1,0 +1,865 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of United States actors (organizations and institutions) since 1600.",
+    "country": "United States",
+    "region": "North America",
+    "flag": "🇺🇸",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the United States. This dataset traces the formation, transformation, and significant milestones of constitutional, industrial, and technological entities, from the founding charter to platform-scale corporations.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Federal government and the Constitution",
+      "type": "public",
+      "role": "Constitutional order",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "1787 constitutional frame with separated powers and federal division.",
+      "events": [
+        {
+          "date": "1788-06-21",
+          "category": "milestone",
+          "description": "Ratification threshold reached; Constitution takes effect"
+        },
+        {
+          "date": "1791-12-15",
+          "category": "policy",
+          "description": "Bill of Rights ratified"
+        },
+        {
+          "date": "1861-04-12",
+          "category": "transformation",
+          "description": "Civil War tests federal supremacy; Union preserved 1865"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Congress",
+      "type": "public",
+      "role": "Legislature",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Bicameral legislature of House and Senate.",
+      "events": [
+        {
+          "date": "1789-03-04",
+          "category": "birth",
+          "description": "First Congress convenes in New York"
+        },
+        {
+          "date": "1913-04-08",
+          "category": "transformation",
+          "description": "Seventeenth Amendment mandates direct Senate election"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Federal Reserve System",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Quasi-public central bank created after panic-era reforms.",
+      "events": [
+        {
+          "date": "1913-12-23",
+          "category": "birth",
+          "description": "Federal Reserve Act signed"
+        },
+        {
+          "date": "1977-11-16",
+          "category": "policy",
+          "description": "Dual mandate codified"
+        },
+        {
+          "date": "2008-09-15",
+          "category": "transformation",
+          "description": "Crisis facilities remake the balance sheet"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "First and Second Banks of the United States",
+      "type": "public",
+      "role": "Banking history",
+      "regionOfActivity": "Philadelphia",
+      "description": "Hamiltonian central-banking experiments killed by Jacksonian politics.",
+      "events": [
+        {
+          "date": "1791-02-25",
+          "category": "birth",
+          "description": "First Bank chartered for twenty years"
+        },
+        {
+          "date": "1816-04-10",
+          "category": "founding",
+          "description": "Second Bank chartered"
+        },
+        {
+          "date": "1832-07-10",
+          "category": "death",
+          "description": "Jackson vetoes recharter"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "U.S. Treasury",
+      "type": "public",
+      "role": "Finance ministry",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Hamilton-founded department managing debt, currency and sanctions.",
+      "events": [
+        {
+          "date": "1789-09-02",
+          "category": "birth",
+          "description": "Treasury Department established"
+        },
+        {
+          "date": "1862-02-25",
+          "category": "policy",
+          "description": "Legal Tender Act issues greenbacks"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Supreme Court",
+      "type": "public",
+      "role": "Supreme court",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Judicial-review apex of the federal judiciary.",
+      "events": [
+        {
+          "date": "1790-02-02",
+          "category": "birth",
+          "description": "First session convenes"
+        },
+        {
+          "date": "1803-02-24",
+          "category": "milestone",
+          "description": "Marbury v. Madison asserts judicial review"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Department of Defense lineage",
+      "type": "public",
+      "role": "Defense establishment",
+      "regionOfActivity": "Arlington",
+      "description": "War-Navy departments unified into the Pentagon system.",
+      "events": [
+        {
+          "date": "1789-08-07",
+          "category": "birth",
+          "description": "Department of War established"
+        },
+        {
+          "date": "1947-07-26",
+          "category": "founding",
+          "description": "National Security Act unifies the services"
+        },
+        {
+          "date": "1949-08-10",
+          "category": "transformation",
+          "description": "Department of Defense named"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "DARPA",
+      "type": "public",
+      "role": "Research agency",
+      "regionOfActivity": "Arlington",
+      "description": "High-risk R&D agency behind ARPANET, GPS and stealth.",
+      "events": [
+        {
+          "date": "1958-02-07",
+          "category": "birth",
+          "description": "ARPA founded after Sputnik"
+        },
+        {
+          "date": "1969-10-29",
+          "category": "technical",
+          "description": "ARPANET first message sent"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "NASA",
+      "type": "public",
+      "role": "Space agency",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Civilian space agency of Apollo and shuttle eras.",
+      "events": [
+        {
+          "date": "1958-07-29",
+          "category": "birth",
+          "description": "National Aeronautics and Space Act signed"
+        },
+        {
+          "date": "1969-07-20",
+          "category": "milestone",
+          "description": "Apollo 11 lands on the Moon"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "National Science Foundation",
+      "type": "public",
+      "role": "Research funder",
+      "regionOfActivity": "Alexandria",
+      "description": "Bush-report basic-science funder.",
+      "events": [
+        {
+          "date": "1950-05-10",
+          "category": "birth",
+          "description": "NSF Act signed"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "National Institutes of Health",
+      "type": "public",
+      "role": "Biomedical agency",
+      "regionOfActivity": "Bethesda",
+      "description": "Hygienic Laboratory grown into the biomedical colossus.",
+      "events": [
+        {
+          "date": "1887-08-01",
+          "category": "birth",
+          "description": "Hygienic Laboratory founded"
+        },
+        {
+          "date": "1953-01-01",
+          "category": "founding",
+          "description": "NIH institutes consolidated at Bethesda"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Library of Congress",
+      "type": "public",
+      "role": "National library",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Jefferson-core collection turned copyright deposit giant.",
+      "events": [
+        {
+          "date": "1800-04-24",
+          "category": "birth",
+          "description": "Appropriation act creates the Library"
+        },
+        {
+          "date": "1815-01-30",
+          "category": "expansion",
+          "description": "Jefferson's library purchased"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Smithsonian Institution",
+      "type": "hybrid",
+      "role": "Museum and research complex",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Smithson bequest funding museums and research.",
+      "events": [
+        {
+          "date": "1846-08-10",
+          "category": "birth",
+          "description": "Smithsonian Act signed"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Tennessee Valley Authority",
+      "type": "public",
+      "role": "Regional utility",
+      "regionOfActivity": "Knoxville",
+      "description": "New Deal multipurpose dam and power authority.",
+      "events": [
+        {
+          "date": "1933-05-18",
+          "category": "birth",
+          "description": "TVA Act signed"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Social Security Administration",
+      "type": "public",
+      "role": "Welfare agency",
+      "regionOfActivity": "Baltimore",
+      "description": "Old-age insurance pillar of the New Deal.",
+      "events": [
+        {
+          "date": "1935-08-14",
+          "category": "birth",
+          "description": "Social Security Act signed"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Interstate Highway System",
+      "type": "public",
+      "role": "Infrastructure program",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Eisenhower-era limited-access network reshaping the continent.",
+      "events": [
+        {
+          "date": "1956-06-29",
+          "category": "birth",
+          "description": "Federal-Aid Highway Act signed"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "General Electric",
+      "type": "private",
+      "role": "Industrial conglomerate",
+      "regionOfActivity": "Boston",
+      "description": "Edison lineage electrifying and financing the century, later broken up.",
+      "events": [
+        {
+          "date": "1892-04-15",
+          "category": "birth",
+          "description": "Edison General Electric-Thomson-Houston merger"
+        },
+        {
+          "date": "1986-01-01",
+          "category": "expansion",
+          "description": "RCA/NBC acquisition builds media arm"
+        },
+        {
+          "date": "2024-04-02",
+          "category": "transformation",
+          "description": "Split into GE Aerospace, Vernova and HealthCare"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "General Motors",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Detroit",
+      "description": "Durant roll-up turned world's largest automaker, bankrupt 2009.",
+      "events": [
+        {
+          "date": "1908-09-16",
+          "category": "birth",
+          "description": "GM founded"
+        },
+        {
+          "date": "2009-06-01",
+          "category": "transformation",
+          "description": "Chapter 11; government rescue restructures"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Ford Motor Company",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Dearborn",
+      "description": "Moving-assembly-line pioneer surviving without bailout.",
+      "events": [
+        {
+          "date": "1903-06-16",
+          "category": "birth",
+          "description": "Ford incorporated"
+        },
+        {
+          "date": "1913-10-07",
+          "category": "technical",
+          "description": "Highland Park moving assembly line starts"
+        },
+        {
+          "date": "1914-01-05",
+          "category": "policy",
+          "description": "Five-dollar day announced"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "U.S. Steel",
+      "type": "private",
+      "role": "Steel producer",
+      "regionOfActivity": "Pittsburgh",
+      "description": "Morgan-assembled first billion-dollar corporation.",
+      "events": [
+        {
+          "date": "1901-02-25",
+          "category": "birth",
+          "description": "U.S. Steel incorporated"
+        },
+        {
+          "date": "2023-12-18",
+          "category": "transformation",
+          "description": "Nippon Steel takeover agreed"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Standard Oil lineage",
+      "type": "private",
+      "role": "Oil history",
+      "regionOfActivity": "New York",
+      "description": "Rockefeller trust broken into ExxonMobil, Chevron and kin.",
+      "events": [
+        {
+          "date": "1870-01-10",
+          "category": "birth",
+          "description": "Standard Oil Company of Ohio formed"
+        },
+        {
+          "date": "1911-05-15",
+          "category": "death",
+          "description": "Supreme Court dissolves the trust into 34 firms"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "ExxonMobil",
+      "type": "private",
+      "role": "Oil major",
+      "regionOfActivity": "Houston",
+      "description": "Jersey Standard-Esso lineage leading global oil.",
+      "events": [
+        {
+          "date": "1999-11-30",
+          "category": "founding",
+          "description": "Exxon-Mobil merger completed"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Chevron",
+      "type": "private",
+      "role": "Oil major",
+      "regionOfActivity": "San Ramon",
+      "description": "Pacific Coast Standard Oil descendant.",
+      "events": [
+        {
+          "date": "1879-09-10",
+          "category": "birth",
+          "description": "Pacific Coast Oil founded"
+        },
+        {
+          "date": "1984-04-16",
+          "category": "expansion",
+          "description": "Gulf Oil takeover"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "AT&T",
+      "type": "private",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Dallas",
+      "description": "Bell monopoly broken up 1984, reassembled via SBC.",
+      "events": [
+        {
+          "date": "1877-01-01",
+          "category": "birth",
+          "description": "Bell Telephone Company founded"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "death",
+          "description": "Divestiture splits the Bell System"
+        },
+        {
+          "date": "2005-11-18",
+          "category": "founding",
+          "description": "SBC adopts the AT&T name"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "IBM",
+      "type": "private",
+      "role": "Computing company",
+      "regionOfActivity": "Armonk",
+      "description": "Tabulating-machine trust turned mainframe and services giant.",
+      "events": [
+        {
+          "date": "1911-06-16",
+          "category": "birth",
+          "description": "Computing-Tabulating-Recording Company formed"
+        },
+        {
+          "date": "1981-08-12",
+          "category": "technical",
+          "description": "IBM PC launched"
+        },
+        {
+          "date": "2005-05-01",
+          "category": "transformation",
+          "description": "PC division sold to Lenovo"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Microsoft",
+      "type": "private",
+      "role": "Software platform",
+      "regionOfActivity": "Redmond",
+      "description": "Operating-system monopoly turned cloud leader.",
+      "events": [
+        {
+          "date": "1975-04-04",
+          "category": "birth",
+          "description": "Microsoft founded in Albuquerque"
+        },
+        {
+          "date": "1986-03-13",
+          "category": "milestone",
+          "description": "IPO funds the Windows era"
+        },
+        {
+          "date": "2014-02-04",
+          "category": "transformation",
+          "description": "Nadella pivots to cloud"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Apple",
+      "type": "private",
+      "role": "Technology company",
+      "regionOfActivity": "Cupertino",
+      "description": "Garage startup defining personal computing, music and phones.",
+      "events": [
+        {
+          "date": "1976-04-01",
+          "category": "birth",
+          "description": "Apple Computer founded"
+        },
+        {
+          "date": "2007-01-09",
+          "category": "technical",
+          "description": "iPhone announced"
+        },
+        {
+          "date": "2011-08-24",
+          "category": "transformation",
+          "description": "Cook succeeds Jobs"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Intel",
+      "type": "private",
+      "role": "Chipmaker",
+      "regionOfActivity": "Santa Clara",
+      "description": "Memory startup that owned the microprocessor era.",
+      "events": [
+        {
+          "date": "1968-07-18",
+          "category": "birth",
+          "description": "Intel founded"
+        },
+        {
+          "date": "1971-11-15",
+          "category": "technical",
+          "description": "4004 microprocessor released"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Google and Alphabet",
+      "type": "private",
+      "role": "Technology group",
+      "regionOfActivity": "Mountain View",
+      "description": "Search engine turned advertising and AI conglomerate.",
+      "events": [
+        {
+          "date": "1998-09-04",
+          "category": "birth",
+          "description": "Google founded"
+        },
+        {
+          "date": "2004-08-19",
+          "category": "milestone",
+          "description": "IPO funds expansion"
+        },
+        {
+          "date": "2015-10-02",
+          "category": "transformation",
+          "description": "Alphabet holding formed"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Amazon",
+      "type": "private",
+      "role": "E-commerce and cloud group",
+      "regionOfActivity": "Seattle",
+      "description": "Bookstore turned AWS-powered commerce empire.",
+      "events": [
+        {
+          "date": "1994-07-05",
+          "category": "birth",
+          "description": "Amazon founded"
+        },
+        {
+          "date": "2006-03-14",
+          "category": "technical",
+          "description": "AWS launches with S3"
+        },
+        {
+          "date": "2017-06-16",
+          "category": "expansion",
+          "description": "Whole Foods acquisition"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Meta Platforms",
+      "type": "private",
+      "role": "Social-media group",
+      "regionOfActivity": "Menlo Park",
+      "description": "Dorm-room network turned attention empire.",
+      "events": [
+        {
+          "date": "2004-02-04",
+          "category": "birth",
+          "description": "TheFacebook launched at Harvard"
+        },
+        {
+          "date": "2012-05-18",
+          "category": "milestone",
+          "description": "IPO values the network"
+        },
+        {
+          "date": "2021-10-28",
+          "category": "transformation",
+          "description": "Meta rebrand bets on VR"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Tesla",
+      "type": "private",
+      "role": "EV and energy company",
+      "regionOfActivity": "Austin",
+      "description": "Electric-vehicle disruptor scaling gigafactories.",
+      "events": [
+        {
+          "date": "2003-07-01",
+          "category": "birth",
+          "description": "Tesla Motors founded"
+        },
+        {
+          "date": "2008-01-01",
+          "category": "technical",
+          "description": "Roadster deliveries begin"
+        },
+        {
+          "date": "2020-12-21",
+          "category": "milestone",
+          "description": "S&P 500 inclusion"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Boeing",
+      "type": "private",
+      "role": "Aerospace manufacturer",
+      "regionOfActivity": "Arlington",
+      "description": "Seaplane shop grown into jet-age duopolist, crisis-hit.",
+      "events": [
+        {
+          "date": "1916-07-15",
+          "category": "birth",
+          "description": "Pacific Aero Products founded"
+        },
+        {
+          "date": "1958-10-26",
+          "category": "technical",
+          "description": "707 service opens the jet age"
+        },
+        {
+          "date": "1997-08-01",
+          "category": "expansion",
+          "description": "McDonnell Douglas merger"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Lockheed Martin",
+      "type": "private",
+      "role": "Defense prime",
+      "regionOfActivity": "Bethesda",
+      "description": "Skunk Works house leading fighters and space.",
+      "events": [
+        {
+          "date": "1995-03-15",
+          "category": "founding",
+          "description": "Lockheed-Martin Marietta merger"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Walmart",
+      "type": "private",
+      "role": "Retailer",
+      "regionOfActivity": "Bentonville",
+      "description": "Arkansas discounter grown into the world's largest retailer.",
+      "events": [
+        {
+          "date": "1962-07-02",
+          "category": "birth",
+          "description": "First Walmart opens in Rogers"
+        },
+        {
+          "date": "1970-10-01",
+          "category": "milestone",
+          "description": "Listing funds the supercenter era"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "JPMorgan Chase",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "New York",
+      "description": "Morgan-Bank of Manhattan lineage leading US banking.",
+      "events": [
+        {
+          "date": "1799-04-01",
+          "category": "birth",
+          "description": "Bank of the Manhattan Company chartered"
+        },
+        {
+          "date": "2000-12-01",
+          "category": "founding",
+          "description": "Chase-Manhattan-J.P. Morgan merger"
+        },
+        {
+          "date": "2008-09-25",
+          "category": "expansion",
+          "description": "Washington Mutual takeover in crisis"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Goldman Sachs",
+      "type": "private",
+      "role": "Investment bank",
+      "regionOfActivity": "New York",
+      "description": "Commercial-paper house turned global dealmaker.",
+      "events": [
+        {
+          "date": "1869-01-01",
+          "category": "birth",
+          "description": "Marcus Goldman starts the firm"
+        },
+        {
+          "date": "1999-05-04",
+          "category": "transformation",
+          "description": "IPO ends partnership era"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "New York Stock Exchange",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "New York",
+      "description": "Buttonwood agreement grown into the listing venue of record.",
+      "events": [
+        {
+          "date": "1792-05-17",
+          "category": "birth",
+          "description": "Buttonwood Agreement signed"
+        },
+        {
+          "date": "2006-03-08",
+          "category": "transformation",
+          "description": "Demutualized listing; ICE takeover 2013"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "AFL-CIO",
+      "type": "private",
+      "role": "Labor federation",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Merger-built house of labor.",
+      "events": [
+        {
+          "date": "1955-12-05",
+          "category": "founding",
+          "description": "AFL-CIO merger completed"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "U.S. Chamber of Commerce",
+      "type": "private",
+      "role": "Business lobby",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Taft-era peak business voice.",
+      "events": [
+        {
+          "date": "1912-04-22",
+          "category": "birth",
+          "description": "Chamber founded at presidential urging"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "National Academy of Sciences",
+      "type": "hybrid",
+      "role": "Science academy",
+      "regionOfActivity": "Washington, D.C.",
+      "description": "Lincoln-chartered adviser on scientific matters.",
+      "events": [
+        {
+          "date": "1863-03-03",
+          "category": "birth",
+          "description": "Congressional charter signed"
+        }
+      ]
+    }
+  ]
+}

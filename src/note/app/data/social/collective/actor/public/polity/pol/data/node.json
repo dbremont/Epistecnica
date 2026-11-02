@@ -1,0 +1,107 @@
+{
+  "id": "pol",
+  "name": "Poland",
+  "tags": [
+    "Central Europe",
+    "European Union",
+    "NATO",
+    "Parliamentary Republic",
+    "Post-Communist Transition",
+    "Visegrad Group"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Poland is a parliamentary republic in Central Europe and the largest economy in the Visegrad Group, known for one of the fastest sustained growth records in the European Union. Its post-1989 transition from a centrally planned to a market economy produced a diversified industrial base in automotive, machinery, chemicals and food processing, deep integration into European and German-led value chains, and a growing business-services sector.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Rzeczpospolita Polska",
+    "flagEmoji": "🇵🇱",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "37.6 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 37600000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 850 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 850000000000
+      },
+      {
+        "id": "area",
+        "value": "312,696 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 312696
+      },
+      {
+        "id": "capital",
+        "value": "Warsaw",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "pending",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Poland’s actor space from partitions and statehood through communist rule to post-1989 market transition and EU integration.",
+        "link": null
+      },
+      {
+        "id": "industrial_technology_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Industrial and Technology Network Structure",
+        "description": "Network analysis of Poland’s automotive and machinery clusters, special economic zones, business-services sector and integration into European value chains.",
+        "link": null
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of voivodeships, metropolitan regions, transport corridors and the spatial concentration of industrial clusters.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "POL",
+      "region": "Central Europe",
+      "lastRevised": "2026-10-06",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "manual curation",
+    "imported": "2026-10-06"
+  },
+  "references": []
+}

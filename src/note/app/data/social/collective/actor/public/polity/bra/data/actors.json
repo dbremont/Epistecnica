@@ -1,0 +1,945 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Brazilian actors (organizations and institutions) since 1500.",
+    "country": "Brazil",
+    "region": "South America",
+    "flag": "🇧🇷",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Brazil. This dataset traces the formation, transformation, and significant milestones of colonial, developmental, and democratic entities, from captaincies to deep-water oil and global meatpackers.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Crown captaincies and colonial order",
+      "type": "public",
+      "role": "Colonial administration",
+      "regionOfActivity": "Salvador",
+      "description": "Hereditary captaincies and governor-generalship organizing sugar Brazil.",
+      "events": [
+        {
+          "date": "1534-01-01",
+          "category": "birth",
+          "description": "Hereditary captaincies donated"
+        },
+        {
+          "date": "1549-03-29",
+          "category": "founding",
+          "description": "Tomé de Sousa founds Salvador; governor-generalship begins"
+        },
+        {
+          "date": "1808-03-08",
+          "category": "transformation",
+          "description": "Court transfers to Rio; colony elevated 1815"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Banco do Brasil",
+      "type": "hybrid",
+      "role": "Universal bank",
+      "regionOfActivity": "Brasília",
+      "description": "1808-founded bank with state anchor shareholding.",
+      "events": [
+        {
+          "date": "1808-10-12",
+          "category": "birth",
+          "description": "Prince Regent charters the bank"
+        },
+        {
+          "date": "1853-07-05",
+          "category": "founding",
+          "description": "Mauá-era merger refounds the bank"
+        },
+        {
+          "date": "1996-03-15",
+          "category": "transformation",
+          "description": "Capitalization and modernization program"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "BNDES",
+      "type": "public",
+      "role": "Development bank",
+      "regionOfActivity": "Rio de Janeiro",
+      "description": "Vargas-era industrial lender behind national champions.",
+      "events": [
+        {
+          "date": "1952-06-20",
+          "category": "birth",
+          "description": "BNDE created"
+        },
+        {
+          "date": "1982-01-01",
+          "category": "milestone",
+          "description": "Social mandate added; BNDES name follows"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Caixa Econômica Federal",
+      "type": "public",
+      "role": "State bank",
+      "regionOfActivity": "Brasília",
+      "description": "Savings-and-lottery bank funding housing.",
+      "events": [
+        {
+          "date": "1861-01-12",
+          "category": "birth",
+          "description": "Caixa Econômica e Monte de Socorro founded"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Itaú Unibanco",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "São Paulo",
+      "description": "1945 São Paulo bank merged into the national leader.",
+      "events": [
+        {
+          "date": "1945-01-02",
+          "category": "birth",
+          "description": "Banco Itaú founded"
+        },
+        {
+          "date": "2008-11-03",
+          "category": "founding",
+          "description": "Unibanco merger forms Itaú Unibanco"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Bradesco",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Osasco",
+      "description": "Marília banker grown into branch-network giant.",
+      "events": [
+        {
+          "date": "1943-03-10",
+          "category": "birth",
+          "description": "Banco Brasileiro de Descontos founded"
+        },
+        {
+          "date": "2016-07-01",
+          "category": "expansion",
+          "description": "HSBC Brazil takeover"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "BTG Pactual",
+      "type": "private",
+      "role": "Investment bank",
+      "regionOfActivity": "São Paulo",
+      "description": "Partnership-model investment bank.",
+      "events": [
+        {
+          "date": "1983-01-01",
+          "category": "birth",
+          "description": "Banco Pactual founded"
+        },
+        {
+          "date": "2009-09-01",
+          "category": "founding",
+          "description": "Esteves buyback forms BTG Pactual"
+        },
+        {
+          "date": "2010-12-01",
+          "category": "expansion",
+          "description": "International consortium invests $1.8B"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Petrobras",
+      "type": "hybrid",
+      "role": "Oil major",
+      "regionOfActivity": "Rio de Janeiro",
+      "description": "Monopoly driller turned deep-water leader, Lava Jato epicenter.",
+      "events": [
+        {
+          "date": "1953-10-03",
+          "category": "birth",
+          "description": "Petrobras law creates the monopoly"
+        },
+        {
+          "date": "2006-04-21",
+          "category": "technical",
+          "description": "Self-sufficiency declared; pre-salt era opens"
+        },
+        {
+          "date": "2014-03-17",
+          "category": "transformation",
+          "description": "Lava Jato probe erupts; governance overhaul follows"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Vale",
+      "type": "private",
+      "role": "Mining major",
+      "regionOfActivity": "Rio de Janeiro",
+      "description": "State iron miner privatized into a global diversified miner.",
+      "events": [
+        {
+          "date": "1942-06-01",
+          "category": "birth",
+          "description": "Companhia Vale do Rio Doce created"
+        },
+        {
+          "date": "1997-05-06",
+          "category": "transformation",
+          "description": "Privatization auction"
+        },
+        {
+          "date": "2006-10-24",
+          "category": "expansion",
+          "description": "Inco takeover builds nickel arm"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Eletrobras",
+      "type": "hybrid",
+      "role": "Electric utility",
+      "regionOfActivity": "Rio de Janeiro",
+      "description": "State hydro holding privatized in 2022.",
+      "events": [
+        {
+          "date": "1962-06-11",
+          "category": "birth",
+          "description": "Centrais Elétricas Brasileiras created"
+        },
+        {
+          "date": "2022-06-14",
+          "category": "transformation",
+          "description": "Privatization completed"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Embraer",
+      "type": "private",
+      "role": "Aircraft manufacturer",
+      "regionOfActivity": "São José dos Campos",
+      "description": "State-promoted regional-jet champion privatized 1994.",
+      "events": [
+        {
+          "date": "1969-08-19",
+          "category": "birth",
+          "description": "Embraer founded as state company"
+        },
+        {
+          "date": "1994-12-07",
+          "category": "transformation",
+          "description": "Privatization auction"
+        },
+        {
+          "date": "2013-01-01",
+          "category": "technical",
+          "description": "E-Jet E2 program launched"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Gerdau",
+      "type": "private",
+      "role": "Steel producer",
+      "regionOfActivity": "Porto Alegre",
+      "description": "Nail-factory lineage leading long steel in the Americas.",
+      "events": [
+        {
+          "date": "1901-01-16",
+          "category": "birth",
+          "description": "Pontas de Paris nail factory founded"
+        },
+        {
+          "date": "1980-01-01",
+          "category": "expansion",
+          "description": "Mini-mill acquisitions begin across the Americas"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "CSN",
+      "type": "private",
+      "role": "Steel producer",
+      "regionOfActivity": "Volta Redonda",
+      "description": "Vargas-era flagship mill privatized 1993.",
+      "events": [
+        {
+          "date": "1941-04-09",
+          "category": "birth",
+          "description": "Companhia Siderúrgica Nacional created"
+        },
+        {
+          "date": "1993-04-02",
+          "category": "transformation",
+          "description": "Privatization auction"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Usiminas",
+      "type": "private",
+      "role": "Steel producer",
+      "regionOfActivity": "Belo Horizonte",
+      "description": "Japanese-cooperation mill of Minas Gerais.",
+      "events": [
+        {
+          "date": "1956-04-25",
+          "category": "birth",
+          "description": "Usiminas founded with Japanese technical aid"
+        },
+        {
+          "date": "1991-10-24",
+          "category": "transformation",
+          "description": "Privatization auction"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "JBS",
+      "type": "private",
+      "role": "Meatpacker",
+      "regionOfActivity": "São Paulo",
+      "description": "Goiás butcher shop grown into the world's largest meat company.",
+      "events": [
+        {
+          "date": "1953-01-01",
+          "category": "birth",
+          "description": "Casa de Carnes Mineira founded"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "expansion",
+          "description": "Swift acquisition enters the US"
+        },
+        {
+          "date": "2017-05-17",
+          "category": "transformation",
+          "description": "Plea-bargain era forces governance reset"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "BRF",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "São Paulo",
+      "description": "Perdigão-Sadia merger in poultry and pork.",
+      "events": [
+        {
+          "date": "2009-05-19",
+          "category": "founding",
+          "description": "Perdigão-Sadia merger forms BRF"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Ambev",
+      "type": "private",
+      "role": "Brewer",
+      "regionOfActivity": "São Paulo",
+      "description": "Brahma-Antarctica merger inside AB InBev.",
+      "events": [
+        {
+          "date": "1999-07-01",
+          "category": "founding",
+          "description": "Ambev merger"
+        },
+        {
+          "date": "2004-08-27",
+          "category": "transformation",
+          "description": "Interbrew combination forms InBev"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Natura &Co",
+      "type": "private",
+      "role": "Cosmetics group",
+      "regionOfActivity": "São Paulo",
+      "description": "Direct-sales beauty house acquiring Avon and Body Shop.",
+      "events": [
+        {
+          "date": "1969-08-28",
+          "category": "birth",
+          "description": "Natura founded"
+        },
+        {
+          "date": "2013-01-01",
+          "category": "expansion",
+          "description": "Aesop acquisition"
+        },
+        {
+          "date": "2020-01-03",
+          "category": "transformation",
+          "description": "Avon takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "WEG",
+      "type": "private",
+      "role": "Electrical-equipment maker",
+      "regionOfActivity": "Jaraguá do Sul",
+      "description": "Motor manufacturer exporting worldwide.",
+      "events": [
+        {
+          "date": "1961-09-16",
+          "category": "birth",
+          "description": "Eletromotores Jaraguá founded"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Globo",
+      "type": "private",
+      "role": "Media group",
+      "regionOfActivity": "Rio de Janeiro",
+      "description": "Marinho newspaper turned television hegemon.",
+      "events": [
+        {
+          "date": "1925-07-29",
+          "category": "birth",
+          "description": "O Globo newspaper founded"
+        },
+        {
+          "date": "1965-04-26",
+          "category": "milestone",
+          "description": "TV Globo launches"
+        },
+        {
+          "date": "1969-09-01",
+          "category": "expansion",
+          "description": "Jornal Nacional unifies prime time"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Folha de S.Paulo",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "São Paulo",
+      "description": "1960s modernization model for Brazilian press.",
+      "events": [
+        {
+          "date": "1921-02-19",
+          "category": "birth",
+          "description": "Folha da Noite founded"
+        },
+        {
+          "date": "1962-01-01",
+          "category": "founding",
+          "description": "Folha de S.Paulo merger"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Estadão",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "São Paulo",
+      "description": "1875 republican daily of record.",
+      "events": [
+        {
+          "date": "1875-01-04",
+          "category": "birth",
+          "description": "A Província de São Paulo founded"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "University of São Paulo",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "São Paulo",
+      "description": "1930s paulista elite project turned research giant.",
+      "events": [
+        {
+          "date": "1934-01-25",
+          "category": "birth",
+          "description": "USP founded"
+        },
+        {
+          "date": "1968-01-01",
+          "category": "transformation",
+          "description": "University reform departmentalizes faculties"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Unicamp",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Campinas",
+      "description": "Zeferino Vaz project linking labs to industry.",
+      "events": [
+        {
+          "date": "1966-10-05",
+          "category": "birth",
+          "description": "Unicamp founded"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Oswaldo Cruz Foundation",
+      "type": "public",
+      "role": "Biomedical institute",
+      "regionOfActivity": "Rio de Janeiro",
+      "description": "Serum institute turned public-health backbone.",
+      "events": [
+        {
+          "date": "1900-05-25",
+          "category": "birth",
+          "description": "Instituto Soroterápico Federal founded"
+        },
+        {
+          "date": "1970-05-19",
+          "category": "founding",
+          "description": "Fiocruz foundation status"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Embrapa",
+      "type": "public",
+      "role": "Agricultural research agency",
+      "regionOfActivity": "Brasília",
+      "description": "Cerrado-conquering tropical-agriculture science.",
+      "events": [
+        {
+          "date": "1973-04-26",
+          "category": "birth",
+          "description": "Embrapa created"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "technical",
+          "description": "No-till and soy-tropicalization breakthroughs scale"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Aeronautics institutes CTA-ITA",
+      "type": "public",
+      "role": "Aerospace institutes",
+      "regionOfActivity": "São José dos Campos",
+      "description": "Casimiro Montenegro institutes seeding Embraer.",
+      "events": [
+        {
+          "date": "1950-01-01",
+          "category": "birth",
+          "description": "CTA and ITA founded"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "São Paulo Stock Exchange and B3",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "São Paulo",
+      "description": "1890 bourse merged and demutualized into B3.",
+      "events": [
+        {
+          "date": "1890-08-23",
+          "category": "birth",
+          "description": "Bolsa Livre founded"
+        },
+        {
+          "date": "2008-03-26",
+          "category": "founding",
+          "description": "Bovespa-BM&F merger forms BM&FBovespa"
+        },
+        {
+          "date": "2017-03-30",
+          "category": "milestone",
+          "description": "B3 brand adopted; Cetip absorbed"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Correios",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Brasília",
+      "description": "Colonial correio-mor lineage in logistics.",
+      "events": [
+        {
+          "date": "1663-01-01",
+          "category": "birth",
+          "description": "Correio-mor das Cartas do Mar created"
+        },
+        {
+          "date": "1969-03-20",
+          "category": "transformation",
+          "description": "ECT public-company status"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Infraero",
+      "type": "public",
+      "role": "Airport operator",
+      "regionOfActivity": "Brasília",
+      "description": "State airport network steward amid concessions.",
+      "events": [
+        {
+          "date": "1973-05-31",
+          "category": "birth",
+          "description": "Infraero created"
+        },
+        {
+          "date": "2011-01-01",
+          "category": "transformation",
+          "description": "Concession wave begins with Guarulhos"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "LATAM Brasil and Varig lineage",
+      "type": "private",
+      "role": "Airline history",
+      "regionOfActivity": "São Paulo",
+      "description": "Varig flag-carrier era succeeded by LATAM Brasil.",
+      "events": [
+        {
+          "date": "1927-05-07",
+          "category": "birth",
+          "description": "Varig founded in Porto Alegre"
+        },
+        {
+          "date": "2006-07-20",
+          "category": "death",
+          "description": "Varig collapse; Gol and TAM divide the market"
+        },
+        {
+          "date": "2012-06-22",
+          "category": "founding",
+          "description": "TAM-LAN merger forms LATAM"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "CUT",
+      "type": "private",
+      "role": "Labor confederation",
+      "regionOfActivity": "São Paulo",
+      "description": "New-unionism central born of ABC strikes.",
+      "events": [
+        {
+          "date": "1983-08-28",
+          "category": "birth",
+          "description": "CUT founded"
+        },
+        {
+          "date": "1978-05-12",
+          "category": "milestone",
+          "description": "Scania strikes ignite novo sindicalismo"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "FIESP",
+      "type": "private",
+      "role": "Industry federation",
+      "regionOfActivity": "São Paulo",
+      "description": "Paulista industry lobby on Avenida Paulista.",
+      "events": [
+        {
+          "date": "1949-01-01",
+          "category": "birth",
+          "description": "FIESP federation era begins"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Mackenzie and PUC universities",
+      "type": "hybrid",
+      "role": "Universities",
+      "regionOfActivity": "São Paulo",
+      "description": "Confessional research universities.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "birth",
+          "description": "Mackenzie College founded"
+        },
+        {
+          "date": "1946-12-20",
+          "category": "founding",
+          "description": "PUC-SP recognized"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "São Paulo Research Foundation",
+      "type": "public",
+      "role": "Research funder",
+      "regionOfActivity": "São Paulo",
+      "description": "Constitutional 1% funding world-class science.",
+      "events": [
+        {
+          "date": "1962-01-01",
+          "category": "birth",
+          "description": "FAPESP created"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "expansion",
+          "description": "Genome project puts São Paulo on the map"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Carnaval samba schools leagues",
+      "type": "hybrid",
+      "role": "Cultural leagues",
+      "regionOfActivity": "Rio de Janeiro",
+      "description": "LIESA/LIGA-SP organizing the parade economy.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "LIESA founded; Sambódromo inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Klabin",
+      "type": "private",
+      "role": "Paper group",
+      "regionOfActivity": "São Paulo",
+      "description": "Family paper maker turned pulp exporter.",
+      "events": [
+        {
+          "date": "1899-01-01",
+          "category": "birth",
+          "description": "Klabin & Irmãos founded"
+        },
+        {
+          "date": "2016-03-01",
+          "category": "technical",
+          "description": "Puma pulp mill inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Suzano",
+      "type": "private",
+      "role": "Pulp producer",
+      "regionOfActivity": "São Paulo",
+      "description": "Feffer-family group leading eucalyptus pulp.",
+      "events": [
+        {
+          "date": "1924-01-01",
+          "category": "birth",
+          "description": "Suzano trading house founded"
+        },
+        {
+          "date": "2019-01-14",
+          "category": "expansion",
+          "description": "Fibria merger creates the pulp leader"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Votorantim",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "São Paulo",
+      "description": "Ermírio de Moraes group in cement, metals and finance.",
+      "events": [
+        {
+          "date": "1918-01-08",
+          "category": "birth",
+          "description": "Sociedade Anonyma Fábrica Votorantim founded"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Odebrecht and Novonor",
+      "type": "private",
+      "role": "Contractor",
+      "regionOfActivity": "Salvador",
+      "description": "Bahian builder turned Lava Jato symbol, renamed Novonor.",
+      "events": [
+        {
+          "date": "1944-01-01",
+          "category": "birth",
+          "description": "Construtora Norberto Odebrecht founded"
+        },
+        {
+          "date": "2016-03-22",
+          "category": "transformation",
+          "description": "Leniency deal; Novonor rebrand follows 2020"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Alpargatas",
+      "type": "private",
+      "role": "Footwear group",
+      "regionOfActivity": "São Paulo",
+      "description": "Havaianas maker exporting Brazilian design.",
+      "events": [
+        {
+          "date": "1907-04-03",
+          "category": "birth",
+          "description": "São Paulo Alpargatas founded"
+        },
+        {
+          "date": "1962-01-01",
+          "category": "technical",
+          "description": "Havaianas launched"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Cosan and Raízen",
+      "type": "private",
+      "role": "Sugar-energy group",
+      "regionOfActivity": "São Paulo",
+      "description": "Costa Pinto mill lineage joint-ventured with Shell.",
+      "events": [
+        {
+          "date": "1936-01-01",
+          "category": "birth",
+          "description": "Costa Pinto mill founded"
+        },
+        {
+          "date": "2011-06-01",
+          "category": "founding",
+          "description": "Shell joint venture forms Raízen"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Gol Linhas Aéreas",
+      "type": "private",
+      "role": "Low-cost airline",
+      "regionOfActivity": "São Paulo",
+      "description": "Constantino-family low-cost carrier.",
+      "events": [
+        {
+          "date": "2000-08-01",
+          "category": "birth",
+          "description": "Gol founded"
+        },
+        {
+          "date": "2024-01-25",
+          "category": "transformation",
+          "description": "Chapter 11 filing; Abra Group era"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Azul",
+      "type": "private",
+      "role": "Airline",
+      "regionOfActivity": "São Paulo",
+      "description": "Neeleman-founded carrier connecting the interior.",
+      "events": [
+        {
+          "date": "2008-05-05",
+          "category": "birth",
+          "description": "Azul founded"
+        },
+        {
+          "date": "2012-05-28",
+          "category": "expansion",
+          "description": "Trip merger"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "TOTVS",
+      "type": "private",
+      "role": "Software group",
+      "regionOfActivity": "São Paulo",
+      "description": "Microsiga lineage leading Latin American ERP.",
+      "events": [
+        {
+          "date": "1983-09-01",
+          "category": "birth",
+          "description": "Microsiga founded"
+        },
+        {
+          "date": "2006-03-09",
+          "category": "milestone",
+          "description": "Bovespa listing; TOTVS brand follows"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Magazine Luiza",
+      "type": "private",
+      "role": "Retailer",
+      "regionOfActivity": "Franca",
+      "description": "Family magazine-store turned e-commerce platform.",
+      "events": [
+        {
+          "date": "1957-11-16",
+          "category": "birth",
+          "description": "A Cristaleira founded"
+        },
+        {
+          "date": "2011-04-28",
+          "category": "milestone",
+          "description": "Listing funds the digital pivot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,870 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Swiss actors (organizations and institutions) since 1400.",
+    "country": "Switzerland",
+    "region": "Western Europe",
+    "flag": "🇨🇭",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Switzerland. This dataset traces the formation, transformation, and significant milestones of cantonal, federal, and financial entities, from the Confederation pact to banking, pharma, and precision-industry leaders.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Federal Charter and the Confederation",
+      "type": "public",
+      "role": "Constitutional pact",
+      "regionOfActivity": "Schwyz",
+      "description": "Alliance of cantons evolving from 1291 pact to the 1848 federal state.",
+      "events": [
+        {
+          "date": "1415-01-01",
+          "category": "expansion",
+          "description": "Aargau conquered; eight-canton Confederation takes shape"
+        },
+        {
+          "date": "1848-09-12",
+          "category": "founding",
+          "description": "Federal Constitution creates modern Switzerland"
+        },
+        {
+          "date": "1971-02-07",
+          "category": "milestone",
+          "description": "Women's federal suffrage approved by referendum"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Swiss National Bank",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Zurich",
+      "description": "Independent note-issuing central bank and franc guardian.",
+      "events": [
+        {
+          "date": "1907-01-01",
+          "category": "birth",
+          "description": "Federal law creates the SNB"
+        },
+        {
+          "date": "2015-01-15",
+          "category": "policy",
+          "description": "Franc cap abandoned; turmoil follows"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "UBS",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Zurich",
+      "description": "Bankverein-SBC lineage merged, crisis-rescued Credit Suisse in 2023.",
+      "events": [
+        {
+          "date": "1862-01-01",
+          "category": "birth",
+          "description": "Bank in Winterthur founded; SBC roots in 1872"
+        },
+        {
+          "date": "1998-06-29",
+          "category": "founding",
+          "description": "SBC-Union Bank merger forms UBS"
+        },
+        {
+          "date": "2023-06-12",
+          "category": "expansion",
+          "description": "Credit Suisse takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Credit Suisse",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Zurich",
+      "description": "Escher's railway bank, collapsed 2023 and absorbed by UBS.",
+      "events": [
+        {
+          "date": "1856-07-16",
+          "category": "birth",
+          "description": "Alfred Escher founds Schweizerische Kreditanstalt"
+        },
+        {
+          "date": "2023-03-19",
+          "category": "death",
+          "description": "Emergency UBS takeover ends independence"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Julius Bär",
+      "type": "private",
+      "role": "Private bank",
+      "regionOfActivity": "Zurich",
+      "description": "Pure-play wealth manager from a money-changing house.",
+      "events": [
+        {
+          "date": "1890-01-01",
+          "category": "birth",
+          "description": "Julius Bär money-changer established"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Swiss Re",
+      "type": "private",
+      "role": "Reinsurer",
+      "regionOfActivity": "Zurich",
+      "description": "Reinsurance pioneer born of the Glarus fire shock.",
+      "events": [
+        {
+          "date": "1863-12-19",
+          "category": "birth",
+          "description": "Schweizerische Rückversicherung founded"
+        },
+        {
+          "date": "1868-01-01",
+          "category": "expansion",
+          "description": "Glarus fire loss seeds reinsurance demand"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Zurich Insurance",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Zurich",
+      "description": "Accident insurer turned global composite group.",
+      "events": [
+        {
+          "date": "1872-01-01",
+          "category": "birth",
+          "description": "Versicherungsgesellschaft Zürich founded"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Nestlé",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Vevey",
+      "description": "Farine lactée startup grown into the world's largest food company.",
+      "events": [
+        {
+          "date": "1866-01-01",
+          "category": "birth",
+          "description": "Anglo-Swiss condensed milk company founded"
+        },
+        {
+          "date": "1905-01-01",
+          "category": "founding",
+          "description": "Nestlé merger; Henri Nestlé's 1866 roots continue"
+        },
+        {
+          "date": "1974-01-01",
+          "category": "expansion",
+          "description": "Alcon and L'Oréal stakes diversify the group"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Roche",
+      "type": "private",
+      "role": "Pharmaceutical group",
+      "regionOfActivity": "Basel",
+      "description": "Family-controlled diagnostics and oncology leader.",
+      "events": [
+        {
+          "date": "1896-10-01",
+          "category": "birth",
+          "description": "Fritz Hoffmann-La Roche founded"
+        },
+        {
+          "date": "1963-01-01",
+          "category": "technical",
+          "description": "Valium launch funds research expansion"
+        },
+        {
+          "date": "2009-03-26",
+          "category": "expansion",
+          "description": "Genentech full takeover"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Novartis",
+      "type": "private",
+      "role": "Pharmaceutical group",
+      "regionOfActivity": "Basel",
+      "description": "Ciba-Geigy-Sandoz merger focused on innovative medicines.",
+      "events": [
+        {
+          "date": "1758-01-01",
+          "category": "birth",
+          "description": "Geigy trading house founded; roots deepen"
+        },
+        {
+          "date": "1996-12-20",
+          "category": "founding",
+          "description": "Ciba-Geigy-Sandoz merger forms Novartis"
+        },
+        {
+          "date": "2023-10-04",
+          "category": "transformation",
+          "description": "Sandoz spin-off completes innovative-medicines pivot"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Swatch Group",
+      "type": "private",
+      "role": "Watch group",
+      "regionOfActivity": "Biel",
+      "description": "Hayek's ASUAG-SSIH merger rescuing Swiss watchmaking.",
+      "events": [
+        {
+          "date": "1983-01-01",
+          "category": "founding",
+          "description": "SMH merger answers the quartz crisis"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "milestone",
+          "description": "Swatch Group name adopted"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Rolex",
+      "type": "private",
+      "role": "Watch manufacturer",
+      "regionOfActivity": "Geneva",
+      "description": "Wilsdorf foundation-owned luxury watch icon.",
+      "events": [
+        {
+          "date": "1905-01-01",
+          "category": "birth",
+          "description": "Wilsdorf & Davis founded in London"
+        },
+        {
+          "date": "1919-01-01",
+          "category": "milestone",
+          "description": "Geneva base established"
+        },
+        {
+          "date": "1945-01-01",
+          "category": "expansion",
+          "description": "Hans Wilsdorf Foundation ownership set"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Patek Philippe",
+      "type": "private",
+      "role": "Watch manufacturer",
+      "regionOfActivity": "Geneva",
+      "description": "Family haute-horlogerie maison since 1839.",
+      "events": [
+        {
+          "date": "1839-05-01",
+          "category": "birth",
+          "description": "Patek, Czapek & Cie founded"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "ABB",
+      "type": "private",
+      "role": "Electrification and automation group",
+      "regionOfActivity": "Zurich",
+      "description": "Brown Boveri-ASEA merger electrifying industry worldwide.",
+      "events": [
+        {
+          "date": "1891-01-01",
+          "category": "birth",
+          "description": "Brown, Boveri & Cie founded in Baden"
+        },
+        {
+          "date": "1988-01-01",
+          "category": "founding",
+          "description": "ASEA merger forms ABB"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Siemens Switzerland and Landis+Gyr",
+      "type": "private",
+      "role": "Building-technology group",
+      "regionOfActivity": "Zug",
+      "description": "Metering pioneer turned Siemens smart-infrastructure arm.",
+      "events": [
+        {
+          "date": "1896-01-01",
+          "category": "birth",
+          "description": "Landis & Gyr founded in Zug"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "SBB CFF FFS",
+      "type": "public",
+      "role": "Federal railways",
+      "regionOfActivity": "Bern",
+      "description": "Federal railway operator of the densest network in Europe.",
+      "events": [
+        {
+          "date": "1902-01-01",
+          "category": "birth",
+          "description": "Federal law nationalizes the major private railways"
+        },
+        {
+          "date": "2016-06-01",
+          "category": "technical",
+          "description": "Gotthard Base Tunnel opens"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Swiss International Air Lines",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Zurich",
+      "description": "Crossair-based successor to collapsed Swissair inside Lufthansa.",
+      "events": [
+        {
+          "date": "1931-03-26",
+          "category": "birth",
+          "description": "Swissair founded"
+        },
+        {
+          "date": "2001-10-02",
+          "category": "death",
+          "description": "Swissair grounded; Crossair-based Swiss follows in 2002"
+        },
+        {
+          "date": "2005-03-22",
+          "category": "transformation",
+          "description": "Lufthansa takeover"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "ETH Zurich",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Zurich",
+      "description": "Federal polytechnic anchoring Swiss science and startups.",
+      "events": [
+        {
+          "date": "1855-02-07",
+          "category": "birth",
+          "description": "Federal law founds the Polytechnikum"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "EPFL",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Lausanne",
+      "description": "Romandie federal institute and innovation campus.",
+      "events": [
+        {
+          "date": "1853-01-01",
+          "category": "birth",
+          "description": "École spéciale de Lausanne founded"
+        },
+        {
+          "date": "1969-01-01",
+          "category": "transformation",
+          "description": "Federal institute status granted"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "CERN",
+      "type": "hybrid",
+      "role": "Particle-physics laboratory",
+      "regionOfActivity": "Geneva",
+      "description": "Intergovernmental collider laboratory on Franco-Swiss soil.",
+      "events": [
+        {
+          "date": "1954-09-29",
+          "category": "birth",
+          "description": "CERN convention enters into force"
+        },
+        {
+          "date": "2008-09-10",
+          "category": "technical",
+          "description": "Large Hadron Collider first beams"
+        },
+        {
+          "date": "2012-07-04",
+          "category": "research",
+          "description": "Higgs boson discovery announced"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Paul Scherrer Institute",
+      "type": "public",
+      "role": "Research institute",
+      "regionOfActivity": "Villigen",
+      "description": "Federal large-facility institute for matter and energy.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "EIR-Würenlingen merger forms PSI"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Swissmedic",
+      "type": "public",
+      "role": "Therapeutics regulator",
+      "regionOfActivity": "Bern",
+      "description": "Authorization and supervision authority for drugs and devices.",
+      "events": [
+        {
+          "date": "2002-01-01",
+          "category": "birth",
+          "description": "Therapeutic Products Act creates Swissmedic"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Holcim",
+      "type": "private",
+      "role": "Building-materials group",
+      "regionOfActivity": "Zug",
+      "description": "Holderbank cement lineage merged with Lafarge.",
+      "events": [
+        {
+          "date": "1912-01-01",
+          "category": "birth",
+          "description": "Holderbank founded in Holderbank"
+        },
+        {
+          "date": "2015-07-10",
+          "category": "transformation",
+          "description": "Lafarge merger forms LafargeHolcim"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Sika",
+      "type": "private",
+      "role": "Specialty chemicals group",
+      "regionOfActivity": "Baar",
+      "description": "Waterproofing pioneer turned construction-chemicals leader.",
+      "events": [
+        {
+          "date": "1910-01-01",
+          "category": "birth",
+          "description": "Kaspar Winkler founds Sika"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Lonza",
+      "type": "private",
+      "role": "Life-sciences manufacturer",
+      "regionOfActivity": "Basel",
+      "description": "Alpine electrochemical works converted to pharma CDMO.",
+      "events": [
+        {
+          "date": "1897-01-01",
+          "category": "birth",
+          "description": "Lonza founded in Gampel"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Straumann",
+      "type": "private",
+      "role": "Dental-implant group",
+      "regionOfActivity": "Basel",
+      "description": "Metallurgy institute spin-off leading implantology.",
+      "events": [
+        {
+          "date": "1954-01-01",
+          "category": "birth",
+          "description": "Reinhard Straumann founds the research institute"
+        },
+        {
+          "date": "1980-01-01",
+          "category": "technical",
+          "description": "ITI implant system launched"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Sonova",
+      "type": "private",
+      "role": "Hearing-care group",
+      "regionOfActivity": "Stäfa",
+      "description": "Phonak-rooted hearing-aid world leader.",
+      "events": [
+        {
+          "date": "1947-07-01",
+          "category": "birth",
+          "description": "AG für Elektroakustik founded"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "milestone",
+          "description": "Sonova name adopted"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Logitech",
+      "type": "private",
+      "role": "Computer-peripherals group",
+      "regionOfActivity": "Lausanne",
+      "description": "Mouse maker turned gaming and video-collaboration brand.",
+      "events": [
+        {
+          "date": "1981-10-02",
+          "category": "birth",
+          "description": "Logitech founded in Apples, Vaud"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Temenos",
+      "type": "private",
+      "role": "Banking-software group",
+      "regionOfActivity": "Geneva",
+      "description": "Core-banking software exporter.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Temenos founded in Geneva"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "MSC",
+      "type": "private",
+      "role": "Container-shipping group",
+      "regionOfActivity": "Geneva",
+      "description": "Aponte family line grown into the world's largest container carrier.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "birth",
+          "description": "Mediterranean Shipping Company founded"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Glencore",
+      "type": "private",
+      "role": "Commodity trader and miner",
+      "regionOfActivity": "Baar",
+      "description": "Marc Rich lineage turned diversified resources giant.",
+      "events": [
+        {
+          "date": "1974-01-01",
+          "category": "birth",
+          "description": "Marc Rich + Co founded"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "transformation",
+          "description": "Management buyout renames it Glencore"
+        },
+        {
+          "date": "2011-05-24",
+          "category": "milestone",
+          "description": "London-Hong Kong listing"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Trafigura",
+      "type": "private",
+      "role": "Commodity trader",
+      "regionOfActivity": "Geneva",
+      "description": "Employee-owned oil and metals trader.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Founded by former Marc Rich traders"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Gunvor",
+      "type": "private",
+      "role": "Energy trader",
+      "regionOfActivity": "Geneva",
+      "description": "Employee-owned oil and LNG trader.",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "birth",
+          "description": "Gunvor founded"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Lindt & Sprüngli",
+      "type": "private",
+      "role": "Chocolate group",
+      "regionOfActivity": "Kilchberg",
+      "description": "Conching inventor turned premium chocolate house.",
+      "events": [
+        {
+          "date": "1845-01-01",
+          "category": "birth",
+          "description": "Sprüngli confectionery founded"
+        },
+        {
+          "date": "1879-01-01",
+          "category": "technical",
+          "description": "Rodolphe Lindt invents conching"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Richemont",
+      "type": "private",
+      "role": "Luxury group",
+      "regionOfActivity": "Geneva",
+      "description": "Rupert-family vehicle for Cartier, Vacheron and jewellers.",
+      "events": [
+        {
+          "date": "1988-09-20",
+          "category": "birth",
+          "description": "Compagnie Financière Richemont spun out"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "expansion",
+          "description": "Cartier world integration completed"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Swiss Post",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Bern",
+      "description": "Universal postal, banking and bus operator.",
+      "events": [
+        {
+          "date": "1849-01-01",
+          "category": "birth",
+          "description": "Federal postal administration created"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "transformation",
+          "description": "Autonomous public-law institution"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "SRF SSR",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Bern",
+      "description": "Multilingual public radio-television society.",
+      "events": [
+        {
+          "date": "1931-02-24",
+          "category": "birth",
+          "description": "SRG SSR founded"
+        },
+        {
+          "date": "1968-01-01",
+          "category": "milestone",
+          "description": "Television licence fee era begins color era in 1968"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Helvetia",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "St. Gallen",
+      "description": "Transport insurer turned all-lines group.",
+      "events": [
+        {
+          "date": "1858-01-01",
+          "category": "birth",
+          "description": "Helvetia fire insurer founded"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Bâloise",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Basel",
+      "description": "Basel insurer with banking arm.",
+      "events": [
+        {
+          "date": "1863-01-01",
+          "category": "birth",
+          "description": "Basler Versicherung founded"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Schindler",
+      "type": "private",
+      "role": "Elevator group",
+      "regionOfActivity": "Lucerne",
+      "description": "Family lift and escalator multinational.",
+      "events": [
+        {
+          "date": "1874-01-01",
+          "category": "birth",
+          "description": "Robert Schindler founds the workshop"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Bühler",
+      "type": "private",
+      "role": "Food-processing technology group",
+      "regionOfActivity": "Uzwil",
+      "description": "Family mill-engineering house feeding the world.",
+      "events": [
+        {
+          "date": "1860-02-10",
+          "category": "birth",
+          "description": "Bühler iron foundry founded"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Tetra Pak lineage and SIG",
+      "type": "private",
+      "role": "Packaging group",
+      "regionOfActivity": "Neuhausen",
+      "description": "Aseptic-carton technology from Lund industrialized via Swiss base.",
+      "events": [
+        {
+          "date": "1908-01-01",
+          "category": "birth",
+          "description": "SIG founded as wagon factory; packaging era follows"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Migros",
+      "type": "hybrid",
+      "role": "Retail cooperative",
+      "regionOfActivity": "Zurich",
+      "description": "Duttweiler cooperative movement dominating Swiss grocery.",
+      "events": [
+        {
+          "date": "1925-08-15",
+          "category": "birth",
+          "description": "Gottlieb Duttweiler starts with five Ford trucks"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Coop",
+      "type": "hybrid",
+      "role": "Retail cooperative",
+      "regionOfActivity": "Basel",
+      "description": "Consumer cooperative and Migros rival.",
+      "events": [
+        {
+          "date": "1890-01-01",
+          "category": "birth",
+          "description": "Union Schweizerischer Konsumvereine founded"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Fenaco",
+      "type": "hybrid",
+      "role": "Agri-cooperative",
+      "regionOfActivity": "Bern",
+      "description": "Farmer-owned food and agri-supply federation.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Six regional federations merge"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Red Cross and ICRC",
+      "type": "hybrid",
+      "role": "Humanitarian organization",
+      "regionOfActivity": "Geneva",
+      "description": "Dunant-founded movement headquartered in Geneva.",
+      "events": [
+        {
+          "date": "1863-02-17",
+          "category": "birth",
+          "description": "Committee of Five founds the ICRC"
+        },
+        {
+          "date": "1864-08-22",
+          "category": "milestone",
+          "description": "First Geneva Convention signed"
+        }
+      ]
+    }
+  ]
+}

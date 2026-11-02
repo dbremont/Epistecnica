@@ -1,0 +1,107 @@
+{
+  "id": "jpn",
+  "name": "Japan",
+  "tags": [
+    "East Asia",
+    "Island Nation",
+    "Parliamentary Monarchy",
+    "Advanced Manufacturing",
+    "Robotics Leader",
+    "Aging Society"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Japan is a parliamentary constitutional monarchy and one of the world's largest economies. Postwar industrial policy produced global leaders in automotive, electronics and robotics, organized around keiretsu networks and coordinated business-government councils. It now navigates rapid demographic aging, high public debt and energy import dependence while leading in automation and materials science.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Japan / Nihon",
+    "flagEmoji": "🇯🇵",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "124 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 124000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 4.0 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 4000000000000
+      },
+      {
+        "id": "area",
+        "value": "377,975 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 377975
+      },
+      {
+        "id": "capital",
+        "value": "Tokyo",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Constitutional Monarchy with Parliamentary System",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Japan's actor space from Meiji-era zaibatsu and MITI-guided industrialization through post-bubble restructuring to keiretsu successor groups, trading houses, and robotics-led manufacturers.",
+        "link": "rep/actor.html?code=jpn"
+      },
+      {
+        "id": "keiretsu_supply",
+        "type": "Network",
+        "status": "pending",
+        "title": "Keiretsu and Supply-Chain Network",
+        "description": "Network analysis of cross-shareholdings, tiered suppliers, and trading-company intermediation linking assembly hubs to Asian production networks.",
+        "link": null
+      },
+      {
+        "id": "prefectural_metro",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Prefectural and Metropolitan Structure",
+        "description": "Geospatial representation of forty-seven prefectures, the Tokyo Bay megaregion's demographic weight, and Shinkansen-integrated industrial corridors.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "JPN",
+      "region": "East Asia",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

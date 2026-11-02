@@ -1,0 +1,835 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Argentine actors (organizations and institutions) since 1500.",
+    "country": "Argentina",
+    "region": "South America",
+    "flag": "🇦🇷",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Argentina. This dataset traces the formation, transformation, and significant milestones of viceregal, agro-export, and industrial entities, from the Primera Junta to software exporters.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Viceroyalty of the Río de la Plata",
+      "type": "public",
+      "role": "Colonial administration",
+      "regionOfActivity": "Buenos Aires",
+      "description": "1776 viceroyalty organizing the southern cone around Buenos Aires.",
+      "events": [
+        {
+          "date": "1776-08-01",
+          "category": "birth",
+          "description": "Royal decree creates the viceroyalty"
+        },
+        {
+          "date": "1810-05-25",
+          "category": "death",
+          "description": "May Revolution deposes Cisneros; Primera Junta rules"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Congress of Tucumán",
+      "type": "public",
+      "role": "Founding assembly",
+      "regionOfActivity": "San Miguel de Tucumán",
+      "description": "1816 independence declaration of the United Provinces.",
+      "events": [
+        {
+          "date": "1816-07-09",
+          "category": "birth",
+          "description": "Independence declared from Spain"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Banco de la Nación Argentina",
+      "type": "public",
+      "role": "State bank",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Pellegrini-founded witness bank of 1891.",
+      "events": [
+        {
+          "date": "1891-10-18",
+          "category": "birth",
+          "description": "Banco de la Nación founded"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "transformation",
+          "description": "Autarchic entity under convertibility era"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Banco de la Provincia de Buenos Aires",
+      "type": "public",
+      "role": "Provincial bank",
+      "regionOfActivity": "La Plata",
+      "description": "1822-founded provincial lender.",
+      "events": [
+        {
+          "date": "1822-09-06",
+          "category": "birth",
+          "description": "Banco de Buenos Aires founded; provincial era follows"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Banco Galicia",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Escasany-family bank leading private credit.",
+      "events": [
+        {
+          "date": "1905-10-06",
+          "category": "birth",
+          "description": "Banco de Galicia y Buenos Aires founded"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Banco Macro",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Brito-built acquirer of privatized provincials.",
+      "events": [
+        {
+          "date": "1976-01-01",
+          "category": "birth",
+          "description": "Financiera Macro founded"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "expansion",
+          "description": "Provincial-bank privatization wave ridden"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Grupo Clarín",
+      "type": "private",
+      "role": "Media group",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Noble-family newspaper turned cable-multimedia empire.",
+      "events": [
+        {
+          "date": "1945-08-28",
+          "category": "birth",
+          "description": "Clarín newspaper founded"
+        },
+        {
+          "date": "2007-10-19",
+          "category": "milestone",
+          "description": "London listing funds Cablevisión expansion"
+        },
+        {
+          "date": "2009-10-10",
+          "category": "policy",
+          "description": "Media Law battle opens Kirchner-era confrontation"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "La Nación",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Mitre-founded daily of record.",
+      "events": [
+        {
+          "date": "1870-01-04",
+          "category": "birth",
+          "description": "La Nación founded by Bartolomé Mitre"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Telefónica de Argentina lineage",
+      "type": "private",
+      "role": "Telecom history",
+      "regionOfActivity": "Buenos Aires",
+      "description": "ENTel privatization split between Telefónica and Telecom Italia.",
+      "events": [
+        {
+          "date": "1948-01-01",
+          "category": "birth",
+          "description": "Empresa Nacional de Telecomunicaciones created"
+        },
+        {
+          "date": "1990-11-08",
+          "category": "transformation",
+          "description": "Privatization splits north-south concessions"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Aerolíneas Argentinas",
+      "type": "public",
+      "role": "Flag carrier",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Perón-era flag carrier renationalized in 2008.",
+      "events": [
+        {
+          "date": "1950-12-07",
+          "category": "birth",
+          "description": "Aerolíneas created from four companies"
+        },
+        {
+          "date": "1990-11-21",
+          "category": "transformation",
+          "description": "Iberia-led privatization"
+        },
+        {
+          "date": "2008-12-17",
+          "category": "policy",
+          "description": "Renationalization law passed"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "YPF",
+      "type": "hybrid",
+      "role": "Oil company",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Mosconi's state oil firm privatized 1993, renationalized 2012.",
+      "events": [
+        {
+          "date": "1922-06-03",
+          "category": "birth",
+          "description": "Yacimientos Petrolíferos Fiscales created"
+        },
+        {
+          "date": "1993-07-01",
+          "category": "transformation",
+          "description": "Menem-era privatization"
+        },
+        {
+          "date": "2012-05-04",
+          "category": "policy",
+          "description": "Repsol expropriation; state retakes 51%"
+        },
+        {
+          "date": "2013-01-01",
+          "category": "technical",
+          "description": "Vaca Muerta shale era opens"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Pampa Energía",
+      "type": "private",
+      "role": "Energy group",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Mindlin-built generator-transmitter.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "Pampa Holding founded"
+        },
+        {
+          "date": "2016-01-01",
+          "category": "expansion",
+          "description": "Petrobras Argentina assets absorbed"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Techint",
+      "type": "private",
+      "role": "Steel and engineering group",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Rocca-group seamless-tube and construction multinational.",
+      "events": [
+        {
+          "date": "1945-01-01",
+          "category": "birth",
+          "description": "Compagnia Tecnica Internazionale founded in Milan; Argentine base follows"
+        },
+        {
+          "date": "1986-01-01",
+          "category": "expansion",
+          "description": "Siderca privatization anchors steel"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "founding",
+          "description": "Ternium listing consolidates flat steel"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Aluar",
+      "type": "private",
+      "role": "Aluminium producer",
+      "regionOfActivity": "Puerto Madryn",
+      "description": "State-promoted smelter privatized 1994.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "birth",
+          "description": "Aluar founded under military-era promotion"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "transformation",
+          "description": "Privatization completed"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Arcor",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Arroyito",
+      "description": "Pagani-family candy and packaging multinational.",
+      "events": [
+        {
+          "date": "1951-07-05",
+          "category": "birth",
+          "description": "Arcor founded in Córdoba"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Molinos Río de la Plata",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Bunge-born miller under Pérez Companc control.",
+      "events": [
+        {
+          "date": "1902-01-01",
+          "category": "birth",
+          "description": "Molinos founded; Bunge era begins"
+        },
+        {
+          "date": "1999-01-01",
+          "category": "transformation",
+          "description": "Pérez Companc group takes control"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Bunge Argentina lineage",
+      "type": "private",
+      "role": "Agribusiness history",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Weber-family grain house seeding Argentine agribusiness.",
+      "events": [
+        {
+          "date": "1884-01-01",
+          "category": "birth",
+          "description": "Bunge & Born founded in Argentina"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Cargill Argentina lineage",
+      "type": "private",
+      "role": "Agribusiness history",
+      "regionOfActivity": "Rosario",
+      "description": "Agribusiness footprint on the Paraná elevators and crush plants.",
+      "events": [
+        {
+          "date": "1947-01-01",
+          "category": "birth",
+          "description": "Cargill enters Argentina"
+        },
+        {
+          "date": "2002-01-01",
+          "category": "expansion",
+          "description": "Rosario crush complex expanded"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "La Serenísima and Mastellone",
+      "type": "private",
+      "role": "Dairy group",
+      "regionOfActivity": "General Rodríguez",
+      "description": "Mastellone-family dairy leader.",
+      "events": [
+        {
+          "date": "1929-10-29",
+          "category": "birth",
+          "description": "La Serenísima founded"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Quilmes",
+      "type": "private",
+      "role": "Brewer",
+      "regionOfActivity": "Quilmes",
+      "description": "Bemberg brewery absorbed into AB InBev.",
+      "events": [
+        {
+          "date": "1888-10-31",
+          "category": "birth",
+          "description": "Cervecería Argentina founded by Bemberg"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "transformation",
+          "description": "Ambev merger folds Quilmes in"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Mercado Libre",
+      "type": "private",
+      "role": "E-commerce platform",
+      "regionOfActivity": "Buenos Aires",
+      "description": "eBay-inspired marketplace turned fintech ecosystem.",
+      "events": [
+        {
+          "date": "1999-08-02",
+          "category": "birth",
+          "description": "MercadoLibre founded"
+        },
+        {
+          "date": "2007-08-10",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "expansion",
+          "description": "Mercado Pago spin-out scales fintech"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Globant",
+      "type": "private",
+      "role": "Software services group",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Four-founders IT outsourcer listed in New York.",
+      "events": [
+        {
+          "date": "2003-12-01",
+          "category": "birth",
+          "description": "Globant founded"
+        },
+        {
+          "date": "2014-07-18",
+          "category": "milestone",
+          "description": "NYSE listing"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "INVAP",
+      "type": "public",
+      "role": "Nuclear and space company",
+      "regionOfActivity": "Bariloche",
+      "description": "Rioenegrino technology firm exporting reactors and satellites.",
+      "events": [
+        {
+          "date": "1976-09-01",
+          "category": "birth",
+          "description": "INVAP created by Río Negro province"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "technical",
+          "description": "OPAL reactor export to Australia"
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "SAOCOM satellites launched"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Comisión Nacional de Energía Atómica",
+      "type": "public",
+      "role": "Nuclear agency",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Perón-era commission behind Embalse and research reactors.",
+      "events": [
+        {
+          "date": "1950-05-31",
+          "category": "birth",
+          "description": "CNEA created"
+        },
+        {
+          "date": "1974-01-20",
+          "category": "technical",
+          "description": "Atucha I grid-connected"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "CONICET",
+      "type": "public",
+      "role": "Research council",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Houssay-inspired researcher-career system.",
+      "events": [
+        {
+          "date": "1958-02-05",
+          "category": "birth",
+          "description": "CONICET created"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "INTA",
+      "type": "public",
+      "role": "Agricultural institute",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Pampas agronomy engine.",
+      "events": [
+        {
+          "date": "1956-12-04",
+          "category": "birth",
+          "description": "INTA created"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Universidad de Buenos Aires",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Rivadavia-founded mega-university of free tuition.",
+      "events": [
+        {
+          "date": "1821-08-12",
+          "category": "birth",
+          "description": "UBA founded by Rivadavia decree"
+        },
+        {
+          "date": "1958-01-01",
+          "category": "transformation",
+          "description": "Reform era restores autonomy"
+        },
+        {
+          "date": "1966-07-29",
+          "category": "policy",
+          "description": "Night of the Long Batons purges faculties"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Universidad Nacional de Córdoba",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Córdoba",
+      "description": "Jesuit studium turned reform cradle.",
+      "events": [
+        {
+          "date": "1613-06-19",
+          "category": "birth",
+          "description": "Colegio Máximo founded"
+        },
+        {
+          "date": "1918-06-15",
+          "category": "transformation",
+          "description": "University Reform proclaimed"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Sociedad Rural Argentina",
+      "type": "private",
+      "role": "Rural association",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Landowner lobby of the agro-export model.",
+      "events": [
+        {
+          "date": "1866-07-10",
+          "category": "birth",
+          "description": "SRA founded"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Unión Industrial Argentina",
+      "type": "private",
+      "role": "Industry association",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Manufacturers' voice since 1887.",
+      "events": [
+        {
+          "date": "1887-02-07",
+          "category": "birth",
+          "description": "UIA founded"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "CGT Argentina",
+      "type": "private",
+      "role": "Labor confederation",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Peronist labor central.",
+      "events": [
+        {
+          "date": "1930-09-27",
+          "category": "birth",
+          "description": "CGT founded"
+        },
+        {
+          "date": "1945-10-17",
+          "category": "milestone",
+          "description": "Loyalty Day seals Peronist-union pact"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Correo Argentino",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Rivadavia-era post renationalized after Macri-era privatization.",
+      "events": [
+        {
+          "date": "1826-01-01",
+          "category": "birth",
+          "description": "Dirección de Correos organized"
+        },
+        {
+          "date": "1997-03-24",
+          "category": "transformation",
+          "description": "Privatized as Correo Argentino"
+        },
+        {
+          "date": "2003-11-19",
+          "category": "policy",
+          "description": "Renationalization decreed"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Ferrocarriles Argentinos lineage",
+      "type": "public",
+      "role": "Railway history",
+      "regionOfActivity": "Buenos Aires",
+      "description": "British-built network nationalized by Perón, fragmented by Menem.",
+      "events": [
+        {
+          "date": "1857-08-30",
+          "category": "birth",
+          "description": "Western Railway opens first line"
+        },
+        {
+          "date": "1948-03-01",
+          "category": "transformation",
+          "description": "British railways nationalized"
+        },
+        {
+          "date": "2015-05-20",
+          "category": "founding",
+          "description": "Ferrocarriles Argentinos SE refounded"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Museo de La Plata lineage",
+      "type": "public",
+      "role": "Natural-history museum",
+      "regionOfActivity": "La Plata",
+      "description": "Moreno-founded museum of Patagonian paleontology.",
+      "events": [
+        {
+          "date": "1888-11-19",
+          "category": "birth",
+          "description": "Museo de La Plata inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Teatro Colón",
+      "type": "public",
+      "role": "Opera house",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Acoustically famed lyric theatre.",
+      "events": [
+        {
+          "date": "1908-05-25",
+          "category": "birth",
+          "description": "Current Colón inaugurated with Aida"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Biblioteca Nacional",
+      "type": "public",
+      "role": "National library",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Moreno-founded public library.",
+      "events": [
+        {
+          "date": "1810-09-13",
+          "category": "birth",
+          "description": "Moreno creates the public library"
+        },
+        {
+          "date": "1992-04-10",
+          "category": "milestone",
+          "description": "Brutalist headquarters inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Mercado Libre",
+      "type": "private",
+      "role": "E-commerce platform",
+      "regionOfActivity": "Buenos Aires",
+      "description": "eBay-inspired marketplace turned Latin American fintech ecosystem.",
+      "events": [
+        {
+          "date": "1999-08-02",
+          "category": "birth",
+          "description": "MercadoLibre founded"
+        },
+        {
+          "date": "2007-08-10",
+          "category": "milestone",
+          "description": "Nasdaq listing"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "expansion",
+          "description": "Mercado Pago spin-out scales fintech"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Globant",
+      "type": "private",
+      "role": "Software services group",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Four-founders IT outsourcer listed in New York.",
+      "events": [
+        {
+          "date": "2003-12-01",
+          "category": "birth",
+          "description": "Globant founded"
+        },
+        {
+          "date": "2014-07-18",
+          "category": "milestone",
+          "description": "NYSE listing"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Siderca and Tenaris",
+      "type": "private",
+      "role": "Steel-tube maker",
+      "regionOfActivity": "Campana",
+      "description": "Techint seamless-tube arm globalized as Tenaris.",
+      "events": [
+        {
+          "date": "1948-06-01",
+          "category": "birth",
+          "description": "Siderca founded in Campana"
+        },
+        {
+          "date": "2002-12-16",
+          "category": "founding",
+          "description": "Tenaris listing consolidates the tube makers"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Banco Hipotecario",
+      "type": "private",
+      "role": "Mortgage bank",
+      "regionOfActivity": "Buenos Aires",
+      "description": "1886 mortgage bank privatized in the 1990s.",
+      "events": [
+        {
+          "date": "1886-09-24",
+          "category": "birth",
+          "description": "Banco Hipotecario Nacional founded"
+        },
+        {
+          "date": "1999-02-02",
+          "category": "transformation",
+          "description": "Privatization completed"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "ANSES",
+      "type": "public",
+      "role": "Social security agency",
+      "regionOfActivity": "Buenos Aires",
+      "description": "Administrator of pensions and family allowances.",
+      "events": [
+        {
+          "date": "1991-10-18",
+          "category": "birth",
+          "description": "ANSES created"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "La Anónima",
+      "type": "private",
+      "role": "Retailer",
+      "regionOfActivity": "Patagonia",
+      "description": "Patagonian general-store chain turned supermarket group.",
+      "events": [
+        {
+          "date": "1908-01-01",
+          "category": "birth",
+          "description": "Sociedad Anónima Importadora y Exportadora founded"
+        }
+      ]
+    }
+  ]
+}

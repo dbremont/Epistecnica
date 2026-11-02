@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas of Public Organization Comparative Representation Systems</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Oxford Common Room tokens — keep identical to app/shared/theme.css */
+            --bg-void: #0b0e14;
+            --bg-surface: #11151e;
+            --bg-card: #161b26;
+            --bg-elevated: #1d2330;
+            --bg-hover: rgba(255, 255, 255, 0.04);
+            --gilt: #C4B998;
+            --parchment: #D6D1C4;
+            --thread: #4a4a4a;
+            --text-primary: #f4f3f1;
+            --text-secondary: #a8a5b0;
+            --text-muted: #9290aa;
+            --text-ghost: #82809a;
+            --accent-copper: #c9956c;
+            --accent-sage: #7ba388;
+            --accent-plum: #9b7eb0;
+            --accent-rose: #c47d8a;
+            --accent-amber: #d4a857;
+            --accent-steel: #6b8caa;
+            --accent-gold: #c9956c;
+            --accent-cyan: #4dd4c4;
+            --accent-blue: #6ea8ff;
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --border-medium: rgba(255, 255, 255, 0.08);
+            --border-strong: rgba(255, 255, 255, 0.12);
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+            --card-bg: rgba(22, 27, 38, 0.72);
+            --nav-bg: rgba(11, 14, 20, 0.85);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        html[data-theme="light"] {
+            --bg-void: #f5f2ea;
+            --bg-surface: #efe9dc;
+            --bg-card: #fffdf8;
+            --bg-elevated: #ffffff;
+            --bg-hover: rgba(20, 22, 30, 0.04);
+            --gilt: #9a7b3f;
+            --parchment: #2b2620;
+            --thread: rgba(43, 38, 32, 0.25);
+            --text-primary: #1a1d24;
+            --text-secondary: #4a4f5e;
+            --text-muted: #7a7f8e;
+            --text-ghost: #9aa0ae;
+            --accent-copper: #9a7b3f;
+            --accent-sage: #4e7a5e;
+            --accent-plum: #7a5f8c;
+            --accent-rose: #a55a68;
+            --accent-amber: #9a742f;
+            --accent-steel: #4e6e8c;
+            --accent-gold: #9a7b3f;
+            --accent-cyan: #0e7c72;
+            --accent-blue: #1f5fd6;
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --border-medium: rgba(20, 22, 30, 0.14);
+            --border-strong: rgba(20, 22, 30, 0.22);
+            --card-bg: rgba(255, 253, 248, 0.72);
+            --nav-bg: rgba(245, 242, 234, 0.85);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
+        body { background: var(--bg-void); color: var(--text-primary); font-family: var(--font-body);
+            font-size: 14px; line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column;
+            transition: opacity 180ms ease; }
+        html.theme-fading body { opacity: 0; }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            body { transition: none; }
+        }
+        #ambientCanvas { position: fixed; top: 0; left: 0; z-index: 0; opacity: 0.4; pointer-events: none; }
+        .nav, footer { background: var(--nav-bg);
+            backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+        .nav { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--border-subtle); }
+        .nav-inner, .foot-inner { max-width: 1100px; margin: 0 auto; padding: 0.95rem 2rem; display: flex;
+            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem; min-height: 3.75rem; }
+        .nav-brand { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--font-display);
+            font-size: 1.2rem; font-weight: 400; letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none; }
+        .nav-links { display: flex; gap: 1.2rem; }
+        .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+        .theme-toggle { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase;
+            color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem; cursor: pointer; transition: color 0.3s ease, border-color 0.3s ease; }
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .nav-links a { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase;
+            color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--accent-cyan); }
+        .layout { position: relative; z-index: 1; flex: 1; width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 2rem 3rem; }
+        header { position: relative; padding: 1.5rem 0 2rem; }
+        .header-engraving { position: absolute; top: 0; right: 0; height: 100%; width: auto; max-width: 45%;
+            object-fit: contain; object-position: right center; opacity: 0.4; pointer-events: none; user-select: none; z-index: 0; }
+        html[data-theme="light"] .header-engraving { opacity: 0.6; }
+        .crumbs { position: relative; z-index: 1; font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em;
+            text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.2rem; }
+        .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+        .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+        .crumbs .here { color: var(--accent-gold); }
+        h1 { position: relative; z-index: 1; font-family: var(--font-display); font-weight: 300;
+            font-size: clamp(2.2rem, 4.5vw, 3.4rem); line-height: 1.08; max-width: 16em; }
+        h1 em { font-style: italic; color: var(--accent-gold); }
+        .lede { position: relative; z-index: 1; margin-top: 1.4rem; max-width: 46rem; font-size: 1rem; font-weight: 300;
+            line-height: 1.7; color: var(--text-secondary); border-left: 1px solid var(--accent-gold); padding-left: 1.25rem; }
+        .lede strong { font-weight: 500; color: var(--text-primary); }
+        .lede a { color: var(--accent-cyan); text-decoration: none; }
+        .lede a:hover { text-decoration: underline; }
+        h2 { font-family: var(--font-display); font-weight: 400; font-size: 1.6rem; margin: 2.6rem 0 0.5rem; }
+        h2 em { font-style: italic; color: var(--accent-gold); }
+        h3 { font-size: 0.72rem; font-family: var(--font-mono); letter-spacing: 0.14em; text-transform: uppercase;
+            color: var(--accent-copper); margin: 1.8rem 0 0.8rem; }
+        h3 .count { color: var(--text-ghost); letter-spacing: 0.04em; }
+        .section-desc { color: var(--text-secondary); max-width: 74ch; }
+        .section-desc a { color: var(--accent-cyan); text-decoration: none; }
+        .section-desc a:hover { text-decoration: underline; }
+        .panel { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg);
+            padding: 1.1rem 1.25rem; box-shadow: var(--shadow-sm); margin-top: 1rem; }
+        .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.7rem; }
+        .chip { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.04em; color: var(--text-secondary);
+            background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 999px;
+            padding: 0.18rem 0.6rem; }
+        .chip .k { color: var(--text-ghost); margin-right: 0.35rem; text-transform: uppercase; letter-spacing: 0.08em; }
+        .chip a { color: var(--accent-steel); text-decoration: none; }
+        .chip a:hover { text-decoration: underline; }
+        table.grid { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin-top: 1rem; }
+        table.grid th { font-family: var(--font-mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em;
+            color: var(--text-muted); text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--border-strong); }
+        table.grid td { padding: 0.6rem; border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary);
+            vertical-align: top; line-height: 1.55; }
+        table.grid td.sys { color: var(--text-primary); font-weight: 600; }
+        table.grid tbody tr { cursor: pointer; }
+        table.grid tbody tr:hover { background: var(--bg-hover); }
+        table.grid tbody tr.active td.sys { color: var(--accent-cyan); }
+        .origin { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase;
+            border: 1px solid var(--border-medium); border-radius: 999px; padding: 0.12rem 0.55rem; white-space: nowrap; }
+        .origin.note { color: var(--accent-plum); border-color: var(--accent-plum); }
+        .origin.authored { color: var(--accent-sage); border-color: var(--accent-sage); }
+        .origin.wwbi { color: var(--accent-amber); border-color: var(--accent-amber); }
+        .steps { counter-reset: step; list-style: none; margin-top: 0.8rem; }
+        .steps li { counter-increment: step; position: relative; padding: 0.5rem 0 0.5rem 2.6rem; color: var(--text-secondary);
+            font-size: 0.88rem; line-height: 1.65; max-width: 74ch; }
+        .steps li::before { content: counter(step); position: absolute; left: 0; top: 0.55rem; width: 1.7rem; height: 1.7rem;
+            border: 1px solid var(--accent-gold); border-radius: 50%; color: var(--accent-gold);
+            font-family: var(--font-mono); font-size: 0.7rem; display: flex; align-items: center; justify-content: center; }
+        .steps strong { color: var(--text-primary); font-weight: 600; }
+        .steps code, .coords code { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-cyan);
+            background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);
+            padding: 0.05rem 0.4rem; white-space: nowrap; }
+        .coords { margin-top: 0.9rem; border-left: 2px solid var(--accent-gold); padding: 0.2rem 0 0.2rem 1rem;
+            color: var(--text-secondary); font-size: 0.88rem; max-width: 74ch; }
+        .toolbar { display: flex; gap: 0.8rem; flex-wrap: wrap; align-items: center; margin: 2.2rem 0 0.4rem; }
+        #search { flex: 1 1 16rem; background: var(--bg-card); border: 1px solid var(--border-medium);
+            color: var(--text-primary); border-radius: var(--radius-md); padding: 0.55rem 0.8rem 0.55rem 2rem; font-size: 0.85rem;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%237a87a0' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: 0.6rem center; }
+        #search::placeholder { color: var(--text-ghost); }
+        .counts { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); }
+        .tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0 0.4rem; }
+        .tab { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.04em; background: var(--bg-card);
+            color: var(--text-secondary); border: 1px solid var(--border-subtle); border-radius: 999px;
+            padding: 0.45rem 0.9rem; cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease; }
+        .tab:hover { border-color: var(--accent-cyan); color: var(--text-primary); }
+        .tab[aria-selected="true"] { background: var(--accent-cyan); border-color: var(--accent-cyan); color: #0b0e14; }
+        html[data-theme="light"] .tab[aria-selected="true"] { color: #fff; }
+        .tab .n { opacity: 0.65; font-size: 0.62rem; }
+        .sys-head { margin-top: 1.2rem; }
+        .sys-head h2 { margin-top: 0; }
+        .sys-desc { color: var(--text-secondary); max-width: 74ch; margin-top: 0.3rem; }
+        .groupnav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.6rem; padding: 0.55rem 0.65rem;
+            background: var(--nav-bg); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+            position: sticky; top: 3.75rem; z-index: 5; max-height: 42vh; overflow-y: auto; }
+        .groupnav a { font-family: var(--font-mono); font-size: 0.64rem; color: var(--accent-steel); text-decoration: none;
+            border: 1px solid var(--border-subtle); border-radius: 999px; padding: 0.2rem 0.65rem; white-space: nowrap; }
+        .groupnav a:hover { border-color: var(--accent-steel); color: var(--text-primary); }
+        .groupnav a .n { color: var(--text-ghost); margin-left: 0.3rem; }
+        h3[id^="grp-"] { scroll-margin-top: 8rem; }
+        .axis { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+            padding: 0.9rem 1.1rem 1rem; margin: 0.6rem 0; box-shadow: var(--shadow-sm);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; }
+        .axis.scale-nominal { box-shadow: inset 2px 0 0 rgba(107, 140, 170, 0.45), var(--shadow-sm); }
+        .axis.scale-ordinal { box-shadow: inset 2px 0 0 rgba(212, 168, 87, 0.55), var(--shadow-sm); }
+        .axis:hover { border-color: var(--border-strong); transform: translateY(-1px); }
+        .axis:target { border-color: var(--accent-cyan); }
+        .legend { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+            font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em;
+            text-transform: uppercase; color: var(--text-muted); }
+        .legend .badge { cursor: default; }
+        .axis-head { display: flex; gap: 0.55rem; align-items: baseline; flex-wrap: wrap; }
+        .axis-name { font-weight: 600; font-size: 0.95rem; }
+        .badge { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase;
+            border: 1px solid var(--border-medium); border-radius: 999px; padding: 0.12rem 0.55rem; color: var(--text-muted); }
+        .badge.scale-nominal { color: var(--accent-steel); border-color: var(--accent-steel); }
+        .badge.scale-ordinal { color: var(--accent-amber); border-color: var(--accent-amber); }
+        .axis-desc { color: var(--text-secondary); margin-top: 0.35rem; font-size: 0.88rem; }
+        .axis-desc .axis-label { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
+            text-transform: uppercase; color: var(--text-ghost); margin-right: 0.2rem; }
+        .values { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.55rem; align-items: center; }
+        .values .axis-label { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
+            text-transform: uppercase; color: var(--text-ghost); margin-right: 0.2rem; }
+        .value { font-family: var(--font-mono); font-size: 0.7rem; background: var(--bg-elevated);
+            border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 0.2rem 0.55rem;
+            color: var(--text-secondary); }
+        .value.ordinal::after { content: ""; }
+        .anchor { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-ghost); text-decoration: none;
+            margin-left: auto; }
+        .anchor:hover { color: var(--accent-cyan); }
+        mark { background: var(--accent-amber); color: #11151e; border-radius: 2px; padding: 0 1px; }
+        .empty { color: var(--text-muted); font-style: italic; margin: 1.5rem 0; }
+        .hit { margin: 0.4rem 0; font-size: 0.85rem; }
+        .hit a { color: var(--accent-cyan); text-decoration: none; }
+        .hit a:hover { text-decoration: underline; }
+        .hit .where { font-family: var(--font-mono); font-size: 0.62rem; color: var(--text-ghost); margin-left: 0.5rem; }
+        footer { position: relative; z-index: 1; border-top: 1px solid var(--border-subtle); margin-top: 3rem; }
+        .foot-inner { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase;
+            color: var(--text-muted); }
+        .foot-inner a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .foot-inner a:hover { color: var(--accent-cyan); }
+        #error { color: var(--accent-rose); margin: 1rem 0; }
+        .hidden { display: none !important; }
+        @media (max-width: 640px) {
+            .nav-inner, .foot-inner { padding: 0.95rem 1rem; }
+            .layout { padding: 0 1rem 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+<canvas id="ambientCanvas" aria-hidden="true"></canvas>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../../../web/index.html">Naturgnosis</a>
+        <div class="nav-right">
+            <div class="nav-links"><a href="../../../../../../web/index.html">Catalog</a></div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+<div class="layout">
+<header>
+    <nav class="crumbs" aria-label="Breadcrumbs">
+        <a href="../../../../../../web/index.html">notes</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social">social</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/collective/actor">actor</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/collective/actor/public">public</a><span class="sep">/</span><span class="here">Atlas</span>
+    </nav>
+    <h1>Atlas of Public Organization Comparative Representation Systems<em>.</em></h1>
+    <p class="lede" id="lede">A set of <strong>comparative representation systems for
+    comparing public organizations across polities and periods</strong> — each system states
+    its own <strong>universe</strong>, purpose, and version, and is a set of
+    <strong>characteristic elements</strong>, each with its <strong>value set</strong> and
+    <strong>assignment rule</strong>: assign one value per element and you have the
+    <strong>comparative profile</strong> of a concrete instance. The systems name no
+    verdicts; evaluation uses the elements, never a single rank. Sixteen sample organizations
+    stand compared in <a href="public-organization.html">Public Organizations Compared</a>.
+    Canonical tables live in the
+    <a id="ledeOrg" href="../../../../../../web/note.html?n=social/collective/actor/public/public-organization.md">Public Organization</a>
+    note; this atlas is an explorer, not a fork.</p>
+    <img class="header-engraving" src="/shared/img/naturgnosis_architectural_engraving.png" alt="" aria-hidden="true">
+
+</header>
+
+<section id="spaceSection" class="hidden">
+    <h2>The space, and the systems<em>.</em></h2>
+    <p class="section-desc" id="spaceDesc"></p>
+    <div class="panel"><div class="chips" id="spaceChips"></div></div>
+</section>
+
+<section id="gridSection" class="hidden">
+    <h2>The representation systems<em>.</em></h2>
+    <p class="section-desc">Each system profiles the same space through different characteristic
+    elements. Select a row to inspect its elements. <span class="origin note">note</span> marks
+    systems drawn directly from corpus notes; <span class="origin authored">authored</span>
+    systems are synthesized here from corpus bases.</p>
+    <div class="panel"><div style="overflow-x:auto"><table class="grid" id="gridTable">
+        <thead><tr><th>Comparative representation system</th><th>Origin</th><th>Basis</th><th>Elements</th></tr></thead>
+        <tbody></tbody>
+    </table></div></div>
+</section>
+
+<section id="explorerSection">
+    <h2>Inspect the systems<em>.</em></h2>
+    <div class="toolbar">
+        <input id="search" type="search" placeholder="Search elements, value sets, rules across all systems…" autocomplete="off">
+        <span class="counts" id="counts"></span>
+    </div>
+    <p class="legend"><span class="badge scale-nominal">nominal</span> unordered categories
+        <span class="badge scale-ordinal">ordinal</span> ranked values</p>
+    <div id="globalHits" class="hidden panel"></div>
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div id="error" hidden></div>
+    <section id="system"></section>
+</section>
+</div>
+<footer>
+    <div class="foot-inner">
+        <div>Naturgnosis &middot; notes</div>
+        <a href="../../../../../../web/index.html">&larr; CATALOG</a>
+    </div>
+</footer>
+<script>
+(function () {
+    "use strict";
+    var WEB = "../../../../../web/";
+    var state = { meta: null, systems: [], active: null, query: "", queryRaw: "", loaded: {} };
+
+    function $(sel) { return document.querySelector(sel); }
+
+    /* ---------- theme toggle + ambient constellation (as in note.html) ---------- */
+    var themeBtn = $("#themeToggle"), themeLabel = $("#themeLabel"), themeFading = false;
+    function applyThemeLabel() {
+        themeLabel.textContent = document.documentElement.dataset.theme === "light" ? "DARK" : "LIGHT";
+    }
+    themeBtn.addEventListener("click", function () {
+        if (themeFading) return;
+        themeFading = true;
+        var r = document.documentElement;
+        var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var swap = function () {
+            r.dataset.theme = r.dataset.theme === "light" ? "dark" : "light";
+            try { localStorage.setItem("naturgnosis-theme", r.dataset.theme); } catch (e) {}
+            applyThemeLabel();
+            r.classList.remove("theme-fading");
+            themeFading = false;
+        };
+        if (reduced) { swap(); return; }
+        r.classList.add("theme-fading");
+        setTimeout(swap, 190);
+    });
+    applyThemeLabel();
+    (function ambient() {
+        var canvas = document.getElementById("ambientCanvas");
+        if (!canvas) return;
+        var ctx = canvas.getContext("2d");
+        var pts = [];
+        var LINK_DIST = 130;
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+            pts = [];
+            for (var i = 0; i < count; i++) {
+                pts.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.22, vy: (Math.random() - 0.5) * 0.22, r: Math.random() * 1.4 + 0.4 });
+            }
+        }
+        function tick() {
+            var light = document.documentElement.dataset.theme === "light";
+            var dotRGB = light ? "26, 29, 36" : "226, 228, 235";
+            var linkRGB = light ? "154, 123, 63" : "201, 149, 108";
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (var i = 0; i < pts.length; i++) {
+                var p = pts[i];
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fillStyle = "rgba(" + dotRGB + ", 0.5)";
+                ctx.fill();
+                for (var j = i + 1; j < pts.length; j++) {
+                    var m = pts[j];
+                    var dx = p.x - m.x, dy = p.y - m.y;
+                    var dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < LINK_DIST) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(m.x, m.y);
+                        ctx.strokeStyle = "rgba(" + linkRGB + ", " + (0.10 * (1 - dist / LINK_DIST)) + ")";
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(tick);
+        }
+        window.addEventListener("resize", resize);
+        resize();
+        requestAnimationFrame(tick);
+    })();
+
+    function esc(s) {
+        return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+    function escAttr(s) { return esc(s).replace(/'/g, "&#39;"); }
+    function noteUrl(path) { return WEB + "note.html?n=" + path; }
+    function shortLabel(path) {
+        return String(path).split("/").pop().replace(/\.md$/, "").split("-").map(function (w) {
+            return w.charAt(0).toUpperCase() + w.slice(1);
+        }).join(" ");
+    }
+    function originKind(sys) {
+        if (sys.provenance.indexOf("note:") === 0) return "note";
+        return "authored";
+    }
+    function originLabel(sys) {
+        return originKind(sys) === "note" ? "note" : "authored";
+    }
+    function highlightAll(text, q) {
+        text = String(text);
+        if (!q) return esc(text);
+        var lower = text.toLowerCase();
+        var out = "", i = 0, k;
+        while ((k = lower.indexOf(q, i)) >= 0) {
+            out += esc(text.slice(i, k)) + "<mark>" + esc(text.slice(k, k + q.length)) + "</mark>";
+            i = k + q.length;
+        }
+        return out + esc(text.slice(i));
+    }
+    function elementMatches(e, q) {
+        if (!q) return true;
+        return (e.name + " " + e.description + " " + (e.value_set || []).join(" ") + " " + (e.value_type || "") + " " + e.assignment_rule)
+            .toLowerCase().indexOf(q) >= 0;
+    }
+    function slug(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
+    function elementId(sysName, name) { return sysName + "--" + slug(name); }
+    function sysStats(sys) {
+        var nominal = 0, ordinal = 0;
+        sys.characteristic_element_set.forEach(function (e) { if (e.scale === "ordinal") ordinal += 1; else nominal += 1; });
+        return { characteristic_element_set: sys.characteristic_element_set.length, nominal: nominal, ordinal: ordinal };
+    }
+
+    function renderSpace() {
+        var meta = state.meta, space = meta.space;
+        if (!space) return;
+        $("#spaceSection").classList.remove("hidden");
+        $("#spaceDesc").textContent = space.description;
+        var nSystems = state.systems.length, nElements = 0;
+        state.systems.forEach(function (s) { nElements += s.characteristic_element_set.length; });
+        function chip(k, v) {
+            return '<span class="chip"><span class="k">' + esc(k) + "</span>" + esc(v) + "</span>";
+        }
+        $("#spaceChips").innerHTML =
+            chip("Space", space.name) +
+            chip("Systems", nSystems + " comparative representation systems · " + nElements + " characteristic elements") +
+            chip("Atlas", "v" + meta.version);
+    }
+
+    function renderGrid() {
+        var tb = document.querySelector("#gridTable tbody");
+        tb.innerHTML = "";
+        $("#gridSection").classList.remove("hidden");
+        state.systems.forEach(function (sys) {
+            var tr = document.createElement("tr");
+            if (sys.name === state.active) tr.className = "active";
+            tr.innerHTML = '<td class="sys">' + esc(sys.title) + "</td>" +
+                '<td><span class="origin ' + escAttr(originKind(sys)) + '">' + esc(originLabel(sys)) + "</span></td>" +
+                "<td>" + esc(sys.frame_basis) + "</td>" +
+                '<td style="font-family:var(--font-mono);font-size:0.72rem">' + sys.characteristic_element_set.length + "</td>";
+            tr.addEventListener("click", function () { setActive(sys.name, true); });
+            tb.appendChild(tr);
+        });
+    }
+
+    function renderTabs() {
+        var tabs = $("#tabs");
+        tabs.innerHTML = "";
+        state.systems.forEach(function (sys) {
+            var b = document.createElement("button");
+            b.className = "tab"; b.type = "button"; b.setAttribute("role", "tab");
+            b.setAttribute("aria-selected", sys.name === state.active ? "true" : "false");
+            b.innerHTML = esc(sys.title) + ' <span class="n">(' + sys.characteristic_element_set.length + ")</span>";
+            b.title = sys.description;
+            b.addEventListener("click", function () { setActive(sys.name, true); });
+            tabs.appendChild(b);
+        });
+    }
+
+    function renderSystem(sys) {
+        var box = $("#system");
+        if (!sys) { box.innerHTML = ""; return; }
+        var st = sysStats(sys), q = state.query;
+        var html = '<div class="sys-head"><h2>' + esc(sys.title) + "</h2>" +
+            '<p class="sys-desc">' + esc(sys.description) + "</p>" +
+            '<div class="chips">' +
+            '<span class="chip"><span class="k">Origin</span>' + esc(originLabel(sys)) + "</span>" +
+            '<span class="chip"><span class="k">Basis</span>' + esc(sys.frame_basis) + "</span>" +
+            '<span class="chip"><span class="k">Elements</span>' + st.characteristic_element_set +
+            " (" + st.nominal + " nominal · " + st.ordinal + " ordinal)</span>" +
+            '<span class="chip"><span class="k">Provenance</span>' + esc(sys.provenance) + "</span>" +
+            '<span class="chip"><span class="k">Version</span>v' + esc(sys.version) + "</span>";
+        if (sys.universe) {
+            html += '<span class="chip"><span class="k">Universe</span>' + esc(sys.universe) + "</span>";
+        }
+        if (sys.purpose) {
+            html += '<span class="chip"><span class="k">Purpose</span>' + esc(sys.purpose) + "</span>";
+        }
+        if (sys.related_notes && sys.related_notes.length) {
+            html += '<span class="chip"><span class="k">Related</span>' + sys.related_notes.map(function (p) {
+                return '<a href="' + escAttr(noteUrl(p)) + '">' + esc(shortLabel(p)) + "</a>";
+            }).join(" · ") + "</span>";
+        }
+        html += "</div>";
+        html += '<p class="section-desc">Assigning every element a value gives the ' +
+            "comparative profile of an instance.</p>";
+
+        var total = 0, shown = 0;
+        function cardFor(e) {
+            total += 1;
+            if (!elementMatches(e, q)) return "";
+            shown += 1;
+            var id = elementId(sys.name, e.name);
+            var card = '<article class="axis scale-' + (e.scale || "nominal") + '" id="' + escAttr(id) + '">' +
+                '<div class="axis-head"><span class="badge scale-' + (e.scale || "nominal") + '">' +
+                esc(e.scale || "nominal") + "</span>" +
+                '<span class="axis-name">' + highlightAll(e.name, q) + "</span>" +
+                '<a class="anchor" href="#' + escAttr(id) + '">§</a></div>' +
+                '<p class="axis-desc">' + highlightAll(e.description, q) + "</p>" +
+                '<div class="values"><span class="axis-label">value set</span>' +
+                (e.value_set
+                    ? e.value_set.map(function (v) { return '<span class="value">' + highlightAll(v, q) + "</span>"; }).join("")
+                    : '<span class="value">' + highlightAll(e.value_type || "descriptive", q) + "</span>") +
+                "</div>";
+            if (e.assignment_rule) {
+                card += '<p class="axis-desc"><span class="axis-label">assignment rule — </span>' +
+                    highlightAll(e.assignment_rule, q) + "</p>";
+            }
+            return card + "</article>";
+        }
+        var groups = sys.groups || sys.submodels || [];
+        var body = "";
+        if (groups.length) {
+            var nav = groups.map(function (g) {
+                var n = sys.characteristic_element_set.filter(function (e) { return e.category === g.name; }).length;
+                if (!n) return "";
+                return '<a href="#' + escAttr("grp-" + sys.name + "--" + slug(g.name)) + '">' +
+                    esc(g.name) + ' <span class="n">' + n + "</span></a>";
+            }).join("");
+            if (nav) {
+                body += '<nav class="groupnav" aria-label="Categories">' + nav + "</nav>";
+            }
+            groups.forEach(function (g) {
+                var els = sys.characteristic_element_set.filter(function (e) { return e.category === g.name; });
+                var cards = els.map(cardFor).join("");
+                if (cards) {
+                    var gid = "grp-" + sys.name + "--" + slug(g.name);
+                    var gdesc = g.description || g.question;
+                    body += '<h3 id="' + escAttr(gid) + '">' + esc(g.name) +
+                        ' <span class="count">· ' + els.length + " elements</span>" +
+                        ' <a class="anchor" href="#' + escAttr(gid) + '" title="Link to this category">§</a></h3>' +
+                        (gdesc ? '<p class="section-desc" style="font-size:0.85rem">' + esc(gdesc) + "</p>" : "") +
+                        cards;
+                }
+            });
+            var loose = sys.characteristic_element_set.filter(function (e) { return !e.category; }).map(cardFor).join("");
+            body += loose;
+        } else {
+            body = sys.characteristic_element_set.map(cardFor).join("");
+        }
+        html += body;
+        if (q && !shown) {
+            html += '<p class="empty">No elements in “' + esc(sys.title) + '” match “' + esc(state.queryRaw || q) +
+                "”. Try the global search above.</p>";
+        }
+        box.innerHTML = html;
+        $("#counts").textContent = q ?
+            shown + " / " + total + " elements match in " + sys.title :
+            st.characteristic_element_set + " characteristic elements";
+    }
+
+    function renderGlobalHits() {
+        var panel = $("#globalHits"), q = state.query;
+        if (!q) { panel.classList.add("hidden"); panel.innerHTML = ""; return; }
+        var html = "";
+        state.systems.forEach(function (sys) {
+            if (sys.name === state.active || !state.loaded[sys.name]) return;
+            var hits = state.loaded[sys.name].filter(function (e) { return elementMatches(e, q); });
+            if (!hits.length) return;
+            html += '<p class="section-desc" style="margin-top:0.6rem"><strong style="color:var(--text-primary)">' +
+                esc(sys.title) + "</strong> — " + hits.length + " element" + (hits.length === 1 ? "" : "s") + "</p>";
+            hits.slice(0, 8).forEach(function (e) {
+                html += '<div class="hit"><a href="#' + escAttr(elementId(sys.name, e.name)) + '" data-sys="' +
+                    escAttr(sys.name) + '">' + highlightAll(e.name, q) +
+                    '</a><span class="where">' + esc(e.scale || "nominal") + "</span></div>";
+            });
+            if (hits.length > 8) {
+                html += '<div class="hit"><a href="#' + escAttr(sys.name) + '" data-sys="' + escAttr(sys.name) +
+                    '">… ' + (hits.length - 8) + " more in " + esc(sys.title) + "</a></div>";
+            }
+        });
+        if (!html) html = '<p class="empty">No matches outside ' + esc(state.active) + ".</p>";
+        panel.innerHTML = html;
+        panel.classList.remove("hidden");
+        panel.querySelectorAll("a[data-sys]").forEach(function (a) {
+            a.addEventListener("click", function () { setActive(a.getAttribute("data-sys"), false); });
+        });
+    }
+
+    function setActive(name, push) {
+        state.active = name;
+        renderTabs(); renderGrid();
+        if (push) { try { history.replaceState(null, "", "#" + name); } catch (e) {} }
+        if (state.loaded[name]) { renderSystem(state.loaded[name]); renderGlobalHits(); return; }
+        var sys = state.systems.filter(function (s) { return s.name === name; })[0];
+        if (!sys) { $("#system").innerHTML = ""; return; }
+        $("#system").innerHTML = '<p class="empty">Loading ' + esc(name) + "…</p>";
+        Promise.all(sys.characteristic_element_set.map(function (fn) {
+            return fetch(name + "/" + fn, { cache: "no-cache" }).then(function (r) {
+                if (!r.ok) throw new Error("HTTP " + r.status + " " + fn);
+                return r.json();
+            });
+        })).then(function (els) {
+            sys.characteristic_element_set = els;
+            state.loaded[name] = sys;
+            if (state.active === name) { renderSystem(sys); renderGlobalHits(); }
+        }).catch(function (err) {
+            if (state.active === name) {
+                $("#system").innerHTML = '<p class="empty">Failed to load ' + esc(name) + ": " + esc(err.message) + "</p>";
+            }
+        });
+    }
+
+    $("#search").addEventListener("input", function (ev) {
+        state.queryRaw = ev.target.value;
+        state.query = ev.target.value.trim().toLowerCase();
+        if (state.loaded[state.active]) renderSystem(state.loaded[state.active]);
+        renderGlobalHits();
+    });
+
+    function fromHash() {
+        var h = (location.hash || "").replace(/^#/, "");
+        if (!h || !state.systems.length) return;
+        var head = h.split("--")[0];
+        var found = null;
+        state.systems.forEach(function (s) { if (s.name === head) found = s.name; });
+        if (found) setActive(found, false);
+    }
+    window.addEventListener("hashchange", fromHash);
+
+    fetch("public-organization.json", { cache: "no-cache" }).then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+    }).then(function (data) {
+        state.meta = data.meta;
+        state.systems = data.systems;
+        data.systems.forEach(function (s) { state.loaded[s.name] = s; });
+        var names = data.systems.map(function (s) { return s.name; });
+        var head = (location.hash || "").replace(/^#/, "").split("--")[0];
+        var initial = names.indexOf(head) >= 0 ? head : names[0];
+        renderSpace(); renderGrid(); renderTabs();
+        setActive(initial, false);
+        fromHash();
+    }).catch(function (err) {
+        var el = $("#error");
+        el.hidden = false;
+        el.textContent = "Failed to load atlas: " + err.message;
+    });
+})();
+</script>
+</body>
+</html>

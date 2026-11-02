@@ -1,0 +1,120 @@
+Element,Earth Mass %,Group,Symbol
+Lithium,0.00002,Alkali Metal,Li
+Hydrogen,0.014,Nonmetal,H
+Helium,0.0000001,Noble Gas,He
+Boron,0.0009,Metalloid,B
+Aluminum,1,Post-Transition Metal,Al
+Nitrogen,0.002,Nonmetal,N
+Beryllium,0.00019,Alkaline Earth Metal,Be
+Magnesium,13,Alkaline Earth Metal,Mg
+Sodium,0.25,Alkali Metal,Na
+Oxygen,30,Nonmetal,O
+Neon,0.0000001,Noble Gas,Ne
+Fluorine,0.054,Halogen,F
+Carbon,0.015,Nonmetal,C
+Argon,0.00015,Noble Gas,Ar
+Chlorine,0.01,Halogen,Cl
+Potassium,0.03,Alkali Metal,K
+Phosphorus,0.07,Nonmetal,P
+Sulfur,2,Nonmetal,S
+Vanadium,0.006,Transition Metal,V
+Calcium,1.1,Alkaline Earth Metal,Ca
+Silicon,15,Metalloid,Si
+Titanium,0.04,Transition Metal,Ti
+Scandium,0.00003,Transition Metal,Sc
+Manganese,0.05,Transition Metal,Mn
+Bromine,0.0003,Halogen,Br
+Gallium,0.00002,Post-Transition Metal,Ga
+Chromium,0.21,Transition Metal,Cr
+Germanium,0.00007,Metalloid,Ge
+Krypton,0.0000001,Noble Gas,Kr
+Copper,0.0068,Transition Metal,Cu
+Iron,35,Transition Metal,Fe
+Zinc,0.007,Transition Metal,Zn
+Cobalt,0.003,Transition Metal,Co
+Nickel,1.9,Transition Metal,Ni
+Arsenic,0.00018,Metalloid,As
+Selenium,0.00005,Nonmetal,Se
+Cadmium,0.0001,Transition Metal,Cd
+Ruthenium,0.000001,Transition Metal,Ru
+Molybdenum,0.0007,Transition Metal,Mo
+Strontium,0.034,Alkaline Earth Metal,Sr
+Silver,0.00008,Transition Metal,Ag
+Palladium,0.000006,Transition Metal,Pd
+Yttrium,0.0003,Transition Metal,Y
+Tin,0.0017,Post-Transition Metal,Sn
+Niobium,0.0017,Transition Metal,Nb
+Rubidium,0.0003,Alkali Metal,Rb
+Zirconium,0.02,Transition Metal,Zr
+Technetium,0,Transition Metal,Tc
+Indium,0.00005,Post-Transition Metal,In
+Rhodium,0.000001,Transition Metal,Rh
+Iodine,0.00005,Halogen,I
+Tellurium,0.000001,Metalloid,Te
+Antimony,0.0002,Metalloid,Sb
+Barium,0.042,Alkaline Earth Metal,Ba
+Neodymium,0.001,Lanthanide,Nd
+Samarium,0.0003,Lanthanide,Sm
+Cerium,0.0065,Lanthanide,Ce
+Europium,0.00005,Lanthanide,Eu
+Dysprosium,0.0003,Lanthanide,Dy
+Lanthanum,0.0034,Lanthanide,La
+Gadolinium,0.0006,Lanthanide,Gd
+Xenon,0.0000001,Noble Gas,Xe
+Cesium,0.0002,Alkali Metal,Cs
+Terbium,0.0001,Lanthanide,Tb
+Promethium,0,Lanthanide,Pm
+Praseodymium,0.0005,Lanthanide,Pr
+Rhenium,0.0000005,Transition Metal,Re
+Lutetium,0.00003,Lanthanide,Lu
+Iridium,0.000001,Transition Metal,Ir
+Platinum,0.000005,Transition Metal,Pt
+Osmium,0.000001,Transition Metal,Os
+Thallium,,Post-Transition Metal,Tl
+Thulium,0.00003,Lanthanide,Tm
+Tantalum,0.0002,Transition Metal,Ta
+Mercury,,Transition Metal,Hg
+Ytterbium,0.0002,Lanthanide,Yb
+Tungsten,0.0001,Transition Metal,W
+Holmium,0.00005,Lanthanide,Ho
+Gold,0.000004,Transition Metal,Au
+Erbium,0.0002,Lanthanide,Er
+Hafnium,0.0003,Transition Metal,Hf
+Lead,0.001,Post-Transition Metal,Pb
+Radon,,Noble Gas,Rn
+Radium,,Alkaline Earth Metal,Ra
+Actinium,,Actinide,Ac
+Polonium,,Post-Transition Metal,Po
+Bismuth,,Post-Transition Metal,Bi
+Astatine,,Halogen,At
+Francium,,Alkali Metal,Fr
+Thorium,0.0001,Actinide,Th
+Nobelium,,Actinide,No
+Seaborgium,,Transition Metal,Sg
+Rutherfordium,,Transition Metal,Rf
+Americium,,Actinide,Am
+Curium,,Actinide,Cm
+Meitnerium,,Transition Metal,Mt
+Fermium,,Actinide,Fm
+Darmstadtium,,Transition Metal,Ds
+Lawrencium,,Actinide,Lr
+Plutonium,,Actinide,Pu
+Einsteinium,,Actinide,Es
+Mendelevium,,Actinide,Md
+Berkelium,,Actinide,Bk
+Protactinium,,Actinide,Pa
+Neptunium,,Actinide,Np
+Dubnium,,Transition Metal,Db
+Bohrium,,Transition Metal,Bh
+Uranium,0.00018,Actinide,U
+Californium,,Actinide,Cf
+Hassium,,Transition Metal,Hs
+Oganesson,,Noble Gas,Og
+Nihonium,,Post-Transition Metal,Nh
+Livermorium,,Post-Transition Metal,Lv
+Tennessine,,Halogen,Ts
+Roentgenium,,Transition Metal,Rg
+Flerovium,,Post-Transition Metal,Fl
+Moscovium,,Post-Transition Metal,Mc
+Copernicium,,Transition Metal,Cn
+,,,

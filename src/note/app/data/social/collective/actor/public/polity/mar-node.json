@@ -1,0 +1,118 @@
+{
+  "id": "mar",
+  "name": "Morocco",
+  "tags": [
+    "North Africa",
+    "MENA",
+    "Arab League",
+    "African Union",
+    "Phosphate Economy",
+    "Constitutional Monarchy"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Morocco is a parliamentary constitutional monarchy in North Africa, ruled by the Alaouite dynasty, independent since 1956 after French and Spanish protectorates. It is a lower-middle-income economy diversifying from phosphates and agriculture toward automotive manufacturing, aeronautics, and offshoring services, anchored by the Tanger Med port complex and the state phosphate group OCP. Area and mapping follow UN figures (446,550 km², excluding Western Sahara): sovereignty over Western Sahara is disputed between Morocco and the Polisario Front and the territory is UN-listed as non-self-governing; see References.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "المملكة المغربية / Royaume du Maroc",
+    "flagEmoji": "🇲🇦",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "37.4 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 37400000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 155 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 155000000000
+      },
+      {
+        "id": "area",
+        "value": "446,550 km² *",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 446550
+      },
+      {
+        "id": "capital",
+        "value": "Rabat",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Morocco's actor space from Makhzen and protectorate administrations through independence ministries and the central bank to industrial-acceleration agencies, public research bodies, universities, and export-oriented firms.",
+        "link": "rep/actor.html?code=mar"
+      },
+      {
+        "id": "industrial_and_trade_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Industrial and Trade Network Structure",
+        "description": "Network analysis of Morocco's phosphate value chain, automotive and aeronautics clusters, banking groups, and trade integration with the European Union and West Africa.",
+        "link": null
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of regions, the Casablanca-Rabat corridor and Tanger Med, industrial zones, and the spatial concentration of research and training clusters.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "MAR",
+      "region": "North Africa",
+      "lastRevised": "2026-10-14",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "manual curation",
+    "imported": "2026-10-14"
+  },
+  "references": [
+    {
+      "title": "Western Sahara — territorial dispute note",
+      "link": "https://en.wikipedia.org/wiki/Western_Sahara",
+      "description": "UN-listed non-self-governing territory; sovereignty contested between Morocco and the Polisario Front. Entry area (446,550 km²) follows UN figures excluding Western Sahara (~266,000 km²)."
+    },
+    {
+      "title": "IMF Morocco 2025 Article IV (Country Report No. 25/87)",
+      "link": "https://www.imf.org/en/Publications/CR/Issues/2025/02/28/Morocco-2025-Article-IV-Consultation-and-Third-Review-Under-the-Arrangement-Under-the-562142",
+      "description": "Macro indicators: population 36.8 million, 2024 nominal GDP USD 155 billion, main exports automobiles and phosphates."
+    }
+  ]
+}

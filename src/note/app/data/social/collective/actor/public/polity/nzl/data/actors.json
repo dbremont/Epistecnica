@@ -1,0 +1,3167 @@
+{
+  "metadata": {
+    "source": "Historical records, public archives, and biographical sources",
+    "lastUpdated": "2026-02-16",
+    "description": "Comprehensive dataset of New Zealand actors (organizations and individuals) in a social region with key events since 1800.",
+    "country": "New Zealand",
+    "region" : "Oceania",
+    "flag": "🇳🇿",
+    "introduction": "A representation of the evolution of key actors and their principal events within the social region known as New Zealand. This study aims to develop a highly granular view of the dynamics structuring that social region, tracing the formation, transformation, and dissolution of sovereign, corporate, and cultural entities across two centuries.",
+    "evidenceConfidence": "Provisional",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "New Zealand Company",
+      "type": "private",
+      "role": "Colonization",
+      "regionOfActivity": "Wellington",
+      "description": "Private British company instrumental in the early colonization.",
+      "events": [
+        {
+          "date": "1839-05-02",
+          "category": "birth",
+          "description": "Established in London"
+        },
+        {
+          "date": "1841-01-22",
+          "category": "expansion",
+          "description": "Wellington settlement founded"
+        },
+        {
+          "date": "1858-12-31",
+          "category": "death",
+          "description": "Dissolution"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Parliament of New Zealand",
+      "type": "public",
+      "role": "Legislature",
+      "regionOfActivity": "Wellington",
+      "description": "The supreme legislative body of New Zealand.",
+      "events": [
+        {
+          "date": "1854-05-24",
+          "category": "birth",
+          "description": "First parliament convened"
+        },
+        {
+          "date": "1893-09-19",
+          "category": "milestone",
+          "description": "Women's suffrage granted"
+        },
+        {
+          "date": "1996-10-12",
+          "category": "transformation",
+          "description": "MMP system adopted"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "University of Otago",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Dunedin",
+      "description": "Oldest university in New Zealand.",
+      "events": [
+        {
+          "date": "1869-01-01",
+          "category": "birth",
+          "description": "Founded"
+        },
+        {
+          "date": "1871-07-05",
+          "category": "expansion",
+          "description": "First classes began"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Bank of New Zealand",
+      "type": "private",
+      "role": "Finance",
+      "regionOfActivity": "Auckland",
+      "description": "One of New Zealand's largest banks.",
+      "events": [
+        {
+          "date": "1861-07-29",
+          "category": "birth",
+          "description": "Founded in Auckland"
+        },
+        {
+          "date": "1945-01-01",
+          "category": "milestone",
+          "description": "Largest bank by assets"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "New Zealand Railways",
+      "type": "public",
+      "role": "Transport",
+      "regionOfActivity": "National",
+      "description": "National railway system.",
+      "events": [
+        {
+          "date": "1863-12-31",
+          "category": "birth",
+          "description": "First railway opened"
+        },
+        {
+          "date": "1993-07-01",
+          "category": "privatization",
+          "description": "Privatized"
+        },
+        {
+          "date": "2008-07-01",
+          "category": "renationalization",
+          "description": "Renationalized"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Air New Zealand",
+      "type": "hybrid",
+      "role": "Aviation",
+      "regionOfActivity": "National",
+      "description": "National airline carrier.",
+      "events": [
+        {
+          "date": "1940-04-26",
+          "category": "birth",
+          "description": "TEAL formed"
+        },
+        {
+          "date": "1989-01-01",
+          "category": "privatization",
+          "description": "Privatized"
+        },
+        {
+          "date": "2001-09-13",
+          "category": "renationalization",
+          "description": "Government bailout"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Waitangi Tribunal",
+      "type": "public",
+      "role": "Justice",
+      "regionOfActivity": "National",
+      "description": "Permanent commission of inquiry on Treaty claims.",
+      "events": [
+        {
+          "date": "1975-10-10",
+          "category": "birth",
+          "description": "Established by Act"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Fonterra",
+      "type": "hybrid",
+      "role": "Dairy",
+      "regionOfActivity": "National",
+      "description": "New Zealand's largest dairy cooperative.",
+      "events": [
+        {
+          "date": "2001-10-16",
+          "category": "birth",
+          "description": "Merger formed Fonterra"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Māori King Movement",
+      "type": "hybrid",
+      "role": "Cultural Leadership",
+      "regionOfActivity": "Waikato",
+      "description": "Māori sovereignty movement.",
+      "events": [
+        {
+          "date": "1858-06-02",
+          "category": "birth",
+          "description": "First Māori King installed"
+        },
+        {
+          "date": "1863-07-12",
+          "category": "conflict",
+          "description": "Waikato War invasion"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Reserve Bank of New Zealand",
+      "type": "public",
+      "role": "Finance",
+      "regionOfActivity": "National",
+      "description": "Central bank responsible for monetary policy.",
+      "events": [
+        {
+          "date": "1934-08-01",
+          "category": "birth",
+          "description": "Established under Reserve Bank Act"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "William Hobson",
+      "type": "individual",
+      "role": "Governor",
+      "regionOfActivity": "Nationwide",
+      "description": "First Governor of New Zealand and co-author of the Treaty of Waitangi.",
+      "events": [
+        {
+          "date": "1840-02-06",
+          "category": "treaty",
+          "description": "Signed Treaty of Waitangi"
+        },
+        {
+          "date": "1842-09-10",
+          "category": "death",
+          "description": "Died in office"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Kate Sheppard",
+      "type": "individual",
+      "role": "Activist",
+      "regionOfActivity": "Nationwide",
+      "description": "Leader of the women's suffrage movement.",
+      "events": [
+        {
+          "date": "1893-09-19",
+          "category": "milestone",
+          "description": "Women's suffrage achieved"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Ernest Rutherford",
+      "type": "individual",
+      "role": "Scientist",
+      "regionOfActivity": "National/International",
+      "description": "Physicist known as the father of nuclear physics.",
+      "events": [
+        {
+          "date": "1908-01-01",
+          "category": "milestone",
+          "description": "Nobel Prize in Chemistry"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Richard Seddon",
+      "type": "individual",
+      "role": "Prime Minister",
+      "regionOfActivity": "Nationwide",
+      "description": "Longest-serving Prime Minister of New Zealand (1893–1906).",
+      "events": [
+        {
+          "date": "1893-01-01",
+          "category": "office",
+          "description": "Became Prime Minister"
+        },
+        {
+          "date": "1906-06-10",
+          "category": "death",
+          "description": "Died in office"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "James Busby",
+      "type": "individual",
+      "role": "British Resident",
+      "regionOfActivity": "Nationwide",
+      "description": "Official representative of the British Crown prior to full colonization.",
+      "events": [
+        {
+          "date": "1833-05-16",
+          "category": "office",
+          "description": "Appointed British Resident"
+        },
+        {
+          "date": "1841-05-03",
+          "category": "milestone",
+          "description": "Resigned"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Marsden Mission",
+      "type": "private",
+      "role": "Religion",
+      "regionOfActivity": "Bay of Islands",
+      "description": "Early Christian mission to Māori communities.",
+      "events": [
+        {
+          "date": "1814-12-25",
+          "category": "birth",
+          "description": "Mission established by Samuel Marsden"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "name": "Kororāreka Settlement",
+      "type": "hybrid",
+      "role": "Trading Port",
+      "regionOfActivity": "Bay of Islands",
+      "description": "Major port and site of early conflicts between Māori and settlers.",
+      "events": [
+        {
+          "date": "1845-03-11",
+          "category": "conflict",
+          "description": "Flagstaff War incident"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "name": "Thomas Russell",
+      "type": "individual",
+      "role": "Entrepreneur",
+      "regionOfActivity": "Auckland",
+      "description": "Industrialist and co-founder of Bank of New Zealand.",
+      "events": [
+        {
+          "date": "1861-07-29",
+          "category": "milestone",
+          "description": "Co-founded BNZ"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "name": "Provincial Governments",
+      "type": "public",
+      "role": "Regional Administration",
+      "regionOfActivity": "Nationwide",
+      "description": "Sub-national governance bodies for early administrative organization.",
+      "events": [
+        {
+          "date": "1853-11-01",
+          "category": "birth",
+          "description": "Established"
+        },
+        {
+          "date": "1876-10-01",
+          "category": "death",
+          "description": "Abolished in centralization reform"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "name": "Ngāti Whātua Leadership",
+      "type": "individual",
+      "role": "Tribal Leadership",
+      "regionOfActivity": "Auckland",
+      "description": "Key Māori leadership during urban expansion and land negotiations.",
+      "events": [
+        {
+          "date": "1840-01-01",
+          "category": "milestone",
+          "description": "Land negotiations with British settlers"
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "University of Auckland",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Auckland",
+      "description": "Major research and educational institution, expanding in early 20th century.",
+      "events": [
+        {
+          "date": "1883-01-01",
+          "category": "birth",
+          "description": "Founded as Auckland University College"
+        },
+        {
+          "date": "1900-01-01",
+          "category": "expansion",
+          "description": "Science and Engineering faculties established"
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "New Zealand Labour Party",
+      "type": "public",
+      "role": "Political Organization",
+      "regionOfActivity": "Nationwide",
+      "description": "Political party advocating labor rights, social welfare, and state reforms.",
+      "events": [
+        {
+          "date": "1916-07-07",
+          "category": "birth",
+          "description": "Founded"
+        },
+        {
+          "date": "1935-12-01",
+          "category": "milestone",
+          "description": "First elected government with social reforms"
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "name": "Auckland Harbour Board",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "Auckland",
+      "description": "Responsible for development and management of ports, supporting trade.",
+      "events": [
+        {
+          "date": "1900-01-01",
+          "category": "milestone",
+          "description": "Major port expansion"
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "name": "William Massey",
+      "type": "individual",
+      "role": "Prime Minister",
+      "regionOfActivity": "Nationwide",
+      "description": "Prime Minister (1912–1925), led during WWI and post-war reconstruction.",
+      "events": [
+        {
+          "date": "1912-05-10",
+          "category": "office",
+          "description": "Became Prime Minister"
+        },
+        {
+          "date": "1925-05-10",
+          "category": "death",
+          "description": "Died in office"
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "name": "KiwiRail (predecessor rail authorities)",
+      "type": "public",
+      "role": "Transport",
+      "regionOfActivity": "National",
+      "description": "National railway system modernization and expansion.",
+      "events": [
+        {
+          "date": "1908-01-01",
+          "category": "expansion",
+          "description": "North Island Main Trunk completed"
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "name": "Māori Women's Welfare League",
+      "type": "public",
+      "role": "Social Organization",
+      "regionOfActivity": "Nationwide",
+      "description": "Founded to improve health, education, and welfare for Māori communities.",
+      "events": [
+        {
+          "date": "1951-07-01",
+          "category": "birth",
+          "description": "Founded"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "name": "Helen Clark",
+      "type": "individual",
+      "role": "Politician",
+      "regionOfActivity": "Nationwide",
+      "description": "Prime Minister (1999–2008), influential in social, economic, and foreign policy reforms.",
+      "events": [
+        {
+          "date": "1981-11-01",
+          "category": "office",
+          "description": "Entered Parliament"
+        },
+        {
+          "date": "1999-12-05",
+          "category": "office",
+          "description": "Became Prime Minister"
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "name": "Rutherford Regional Research Institute",
+      "type": "public",
+      "role": "Science and Research",
+      "regionOfActivity": "Wellington",
+      "description": "Advanced research facility named after Rutherford, focusing on nuclear and physics research.",
+      "events": [
+        {
+          "date": "1950-01-01",
+          "category": "birth",
+          "description": "Established"
+        }
+      ]
+    },
+    {
+      "id": "i1",
+      "name": "Small Workshop Industries",
+      "type": "sector",
+      "role": "Manufacturing base",
+      "regionOfActivity": "Nationwide",
+      "description": "Network of small craft and workshop industries (tailors, mills, furniture makers, local manufacturers) forming the backbone of early industrial development.",
+      "events": [
+        {
+          "date": "1800-1850",
+          "category": "growth",
+          "description": "Emergence of local workshops prevalent in early New Zealand manufacturing"
+        },
+        {
+          "date": "1880-1900",
+          "category": "expansion",
+          "description": "Workshops proliferate in goods production across towns"
+        }
+      ]
+    },
+    {
+      "id": "i2",
+      "name": "Phoenix Foundry",
+      "type": "private",
+      "role": "Engineering & fabrication",
+      "regionOfActivity": "Auckland",
+      "description": "Large engineering works supplying machinery and iron products (1861–1952); pivotal in early heavy industrial fabrication in NZ. :contentReference[oaicite:0]{index=0}",
+      "events": [
+        {
+          "date": "1861-01-01",
+          "category": "birth",
+          "description": "Founded in Auckland"
+        },
+        {
+          "date": "1952-01-01",
+          "category": "death",
+          "description": "Ceased operations"
+        }
+      ]
+    },
+    {
+      "id": "i3",
+      "name": "A & G Price Limited",
+      "type": "private",
+      "role": "Heavy engineering & locomotive manufacturer",
+      "regionOfActivity": "Thames & Auckland",
+      "description": "Engineering firm producing locomotives, milling machinery and heavy equipment since 1868. :contentReference[oaicite:1]{index=1}",
+      "events": [
+        {
+          "date": "1868-01-01",
+          "category": "birth",
+          "description": "Founded by Alfred & George Price"
+        },
+        {
+          "date": "1907-01-01",
+          "category": "transformation",
+          "description": "Incorporated as limited liability company"
+        }
+      ]
+    },
+    {
+      "id": "i4",
+      "name": "Ross & Glendining",
+      "type": "private",
+      "role": "Textile & wholesale manufacturing",
+      "regionOfActivity": "Dunedin",
+      "description": "Major textile manufacturer and importer in the late 19th century, growing into large‐scale operations. :contentReference[oaicite:2]{index=2}",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "expansion",
+          "description": "Roslyn Woollen Mill established"
+        }
+      ]
+    },
+    {
+      "id": "i5",
+      "name": "New Zealand Sugar Company",
+      "type": "private",
+      "role": "Agricultural processing",
+      "regionOfActivity": "Auckland",
+      "description": "Sugar refining company formed in 1882, part of the early processing industry. :contentReference[oaicite:3]{index=3}",
+      "events": [
+        {
+          "date": "1882-01-01",
+          "category": "birth",
+          "description": "Formed by partnership with Colonial Sugar Refining Co."
+        }
+      ]
+    },
+    {
+      "id": "i6",
+      "name": "Northern Steam Ship Company Ltd",
+      "type": "private",
+      "role": "Transport & logistics",
+      "regionOfActivity": "North Island coastal routes",
+      "description": "Major steamship company connecting ports and enabling industrial transport (1881–1974). :contentReference[oaicite:4]{index=4}",
+      "events": [
+        {
+          "date": "1881-01-10",
+          "category": "birth",
+          "description": "Founded in Auckland"
+        },
+        {
+          "date": "1974-01-01",
+          "category": "death",
+          "description": "Ceased operations"
+        }
+      ]
+    },
+    {
+      "id": "i7",
+      "name": "Wright Stephenson & Co Limited",
+      "type": "private",
+      "role": "Stock & station agency",
+      "regionOfActivity": "Nationwide",
+      "description": "Major stock & station agency founded in 1861, pivotal in agricultural/industrial trade; later part of larger corporate groups. :contentReference[oaicite:5]{index=5}",
+      "events": [
+        {
+          "date": "1861-01-01",
+          "category": "birth",
+          "description": "Founded in Dunedin"
+        },
+        {
+          "date": "1973-01-01",
+          "category": "merger",
+          "description": "Merged into larger conglomerates"
+        }
+      ]
+    },
+    {
+      "id": "i8",
+      "name": "Auckland Chamber of Commerce",
+      "type": "private",
+      "role": "Business advocacy",
+      "regionOfActivity": "Auckland",
+      "description": "Local chamber supporting businesses and industrial actors since mid‑19th century. :contentReference[oaicite:6]{index=6}",
+      "events": [
+        {
+          "date": "1856-01-01",
+          "category": "birth",
+          "description": "Founded to support commerce & industry"
+        }
+      ]
+    },
+    {
+      "id": "i9",
+      "name": "Association of New Zealand Chambers of Commerce",
+      "type": "private",
+      "role": "Umbrella business organisation",
+      "regionOfActivity": "National",
+      "description": "National federation of local chambers established in 1915. :contentReference[oaicite:7]{index=7}",
+      "events": [
+        {
+          "date": "1915-01-01",
+          "category": "birth",
+          "description": "National association formed"
+        }
+      ]
+    },
+    {
+      "id": "i10",
+      "name": "New Zealand Manufacturers’ Federation",
+      "type": "private",
+      "role": "Industry association",
+      "regionOfActivity": "National",
+      "description": "National manufacturing association formed in 1927 representing manufacturing firms. :contentReference[oaicite:8]{index=8}",
+      "events": [
+        {
+          "date": "1927-01-01",
+          "category": "birth",
+          "description": "Manufacturers' national body established"
+        }
+      ]
+    },
+    {
+      "id": "i11",
+      "name": "Employers’ Federation",
+      "type": "private",
+      "role": "Employer association",
+      "regionOfActivity": "National",
+      "description": "National employers’ organisation from early 20th century advocating for employer interests. :contentReference[oaicite:9]{index=9}",
+      "events": [
+        {
+          "date": "1902-01-01",
+          "category": "birth",
+          "description": "Founded to represent employers"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "merger",
+          "description": "Merged into Business New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "i12",
+      "name": "Business New Zealand",
+      "type": "private",
+      "role": "National business body",
+      "regionOfActivity": "National",
+      "description": "Successor to historic employers and manufacturer federations, representing multiple industry associations. :contentReference[oaicite:10]{index=10}",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "birth",
+          "description": "Formed by merger of Employers’ Federation & others"
+        }
+      ]
+    },
+    {
+      "id": "i13",
+      "name": "New Zealand Federation of Labour",
+      "type": "public",
+      "role": "Trade union federation",
+      "regionOfActivity": "National",
+      "description": "Syndicalist union federation active in early 20th century labour struggles. :contentReference[oaicite:11]{index=11}",
+      "events": [
+        {
+          "date": "1908-01-01",
+          "category": "birth",
+          "description": "Founded as NZ Federation of Miners and renamed"
+        },
+        {
+          "date": "1913-12-01",
+          "category": "conflict",
+          "description": "Involved in Great Strike of 1913"
+        }
+      ]
+    },
+    {
+      "id": "i14",
+      "name": "National Distribution Union (NDU)",
+      "type": "public",
+      "role": "Trade union",
+      "regionOfActivity": "National",
+      "description": "Union formed from mergers representing distribution, transport, and retail sectors; later converted into FIRST Union. :contentReference[oaicite:12]{index=12}",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Formed by merger of regional unions"
+        },
+        {
+          "date": "2011-01-01",
+          "category": "merger",
+          "description": "Merged into Workers First Union"
+        }
+      ]
+    },
+    {
+      "id": "i15",
+      "name": "Workers First Union",
+      "type": "public",
+      "role": "Trade union",
+      "regionOfActivity": "National",
+      "description": "National union formed in 2011 representing multiple industrial sectors. :contentReference[oaicite:13]{index=13}",
+      "events": [
+        {
+          "date": "2011-10-01",
+          "category": "birth",
+          "description": "Established as First Union"
+        }
+      ]
+    },
+    {
+      "id": "i16",
+      "name": "New Zealand Brewers (Lion)",
+      "type": "private",
+      "role": "Beverage manufacturing",
+      "regionOfActivity": "National",
+      "description": "Brewery formed by consolidation of regional breweries in 1923, later becoming major national brewer. :contentReference[oaicite:14]{index=14}",
+      "events": [
+        {
+          "date": "1923-01-01",
+          "category": "birth",
+          "description": "Formed by merger of ten breweries"
+        }
+      ]
+    },
+    {
+      "id": "i17",
+      "name": "Dominion Breweries (DB)",
+      "type": "private",
+      "role": "Beverage manufacturing",
+      "regionOfActivity": "National",
+      "description": "Major brewery established in the 1930s, becoming one of the dominant players in NZ beer. :contentReference[oaicite:15]{index=15}",
+      "events": [
+        {
+          "date": "1930-01-01",
+          "category": "birth",
+          "description": "Dominion Breweries emerges as significant brewer"
+        }
+      ]
+    },
+    {
+      "id": "i18",
+      "name": "New Zealand Forest Products",
+      "type": "private",
+      "role": "Forestry & wood products manufacturing",
+      "regionOfActivity": "Nationwide",
+      "description": "Largest industrial company mid‑20th century focused on timber, pulp and paper. :contentReference[oaicite:16]{index=16}",
+      "events": [
+        {
+          "date": "1936-01-01",
+          "category": "birth",
+          "description": "Formed from consolidation of timber milling sector"
+        }
+      ]
+    },
+    {
+      "id": "i19",
+      "name": "Bremworth Limited",
+      "type": "private",
+      "role": "Textile manufacturing",
+      "regionOfActivity": "Auckland",
+      "description": "Wool carpet manufacturer with origins in late 20th century, representing industrial textiles. :contentReference[oaicite:17]{index=17}",
+      "events": [
+        {
+          "date": "1959-01-01",
+          "category": "birth",
+          "description": "Bremworth Carpet Company founded"
+        }
+      ]
+    },
+    {
+      "id": "r1",
+      "name": "Department of Scientific and Industrial Research (DSIR)",
+      "type": "public",
+      "role": "National R&D Institution",
+      "regionOfActivity": "Nationwide",
+      "description": "Government research department (1926–1992) that conducted fundamental and applied research across primary industries, natural science, soil, materials, and industrial technology before being restructured into Crown Research Institutes.",
+      "events": [
+        {
+          "date": "1926-01-01",
+          "category": "birth",
+          "description": "Established by NZ government"
+        },
+        {
+          "date": "1992-04-01",
+          "category": "transformation",
+          "description": "DSIR reorganised into Crown Research Institutes"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Crown Research Institutes (CRIs)",
+      "type": "public",
+      "role": "Network of Government Science Institutions",
+      "regionOfActivity": "Nationwide",
+      "description": "Group of publicly‑owned research organisations established in 1992 to carry out science and innovation aligned with sectoral needs, technology development, and knowledge diffusion. :contentReference[oaicite:0]{index=0}",
+      "events": [
+        {
+          "date": "1992-04-01",
+          "category": "birth",
+          "description": "Seven core CRIs established"
+        },
+        {
+          "date": "2025-07-01",
+          "category": "transformation",
+          "description": "Major reform merges CRIs into new Public Research Organisations"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "AgResearch",
+      "type": "public",
+      "role": "Agritech & Bioeconomy R&D",
+      "regionOfActivity": "Nationwide",
+      "description": "One of New Zealand’s largest research bodies focused on agricultural science, biotechnology and food‑related research; integrated into the Bioeconomy Science Institute in 2025. :contentReference[oaicite:1]{index=1}",
+      "events": [
+        {
+          "date": "1992-04-01",
+          "category": "birth",
+          "description": "Established as a Crown Research Institute"
+        },
+        {
+          "date": "2025-07-01",
+          "category": "transformation",
+          "description": "Merged into Bioeconomy Science Institute"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "name": "Institute of Environmental Science and Research (ESR)",
+      "type": "public",
+      "role": "Environmental & Public Health Science R&D",
+      "regionOfActivity": "Nationwide",
+      "description": "CRI that conducted environmental science, public health, forensic and food safety research; restructured in 2025 into a public health and forensic science organisation. :contentReference[oaicite:2]{index=2}",
+      "events": [
+        {
+          "date": "1992-04-01",
+          "category": "birth",
+          "description": "Established as CRI"
+        },
+        {
+          "date": "2025-07-01",
+          "category": "transformation",
+          "description": "Reorganisation into new public entity"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "name": "GNS Science",
+      "type": "public",
+      "role": "Earth & Nuclear Science R&D",
+      "regionOfActivity": "Nationwide",
+      "description": "Major research institute in geology, geophysics, nuclear science, and natural hazards, merging into Earth Sciences New Zealand in 2025. :contentReference[oaicite:3]{index=3}",
+      "events": [
+        {
+          "date": "1865-01-01",
+          "category": "birth",
+          "description": "Founded as New Zealand Geological Survey"
+        },
+        {
+          "date": "2025-07-01",
+          "category": "transformation",
+          "description": "Merged into Earth Sciences New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "name": "National Institute of Water and Atmospheric Research (NIWA)",
+      "type": "public",
+      "role": "Environmental & Climate R&D",
+      "regionOfActivity": "Nationwide",
+      "description": "Environmental research institute focusing on water, climate, and marine science; merged into Earth Sciences New Zealand in 2025. :contentReference[oaicite:4]{index=4}",
+      "events": [
+        {
+          "date": "1992-04-01",
+          "category": "birth",
+          "description": "Established as CRI"
+        },
+        {
+          "date": "2025-07-01",
+          "category": "transformation",
+          "description": "Merged into Earth Sciences New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "name": "Plant & Food Research",
+      "type": "public",
+      "role": "Food & Bioscience R&D",
+      "regionOfActivity": "Nationwide",
+      "description": "CRI focused on agricultural, horticultural and food science research; part of the Bioeconomy Science Institute from 2025. :contentReference[oaicite:5]{index=5}",
+      "events": [
+        {
+          "date": "2008-12-01",
+          "category": "birth",
+          "description": "Formed from Crop & Food and HortResearch"
+        },
+        {
+          "date": "2025-07-01",
+          "category": "transformation",
+          "description": "Merged into Bioeconomy Science Institute"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "name": "Scion",
+      "type": "public",
+      "role": "Forestry & Biomaterials R&D",
+      "regionOfActivity": "Nationwide",
+      "description": "Forest and biomaterials research institute founded in 1947, integrated into Bioeconomy Science Institute in 2025. :contentReference[oaicite:6]{index=6}",
+      "events": [
+        {
+          "date": "1947-04-01",
+          "category": "birth",
+          "description": "Established as NZ Forest Research Institute"
+        },
+        {
+          "date": "2025-07-01",
+          "category": "transformation",
+          "description": "Merged into Bioeconomy Science Institute"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "name": "Callaghan Innovation",
+      "type": "public",
+      "role": "Innovation & R&D Commercialisation",
+      "regionOfActivity": "Nationwide",
+      "description": "Crown entity aimed at supporting business R&D, technology diffusion and commercialisation; established from Industrial Research Ltd in 2013 and slated for disestablishment, with functions reallocated in 2025. :contentReference[oaicite:7]{index=7}",
+      "events": [
+        {
+          "date": "2013-02-01",
+          "category": "birth",
+          "description": "Established, merging Industrial Research Limited"
+        },
+        {
+          "date": "2025-01-23",
+          "category": "transformation",
+          "description": "Announced for disestablishment and function transfer"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "name": "Industrial Research Limited (IRL)",
+      "type": "public",
+      "role": "Industrial R&D",
+      "regionOfActivity": "Nationwide",
+      "description": "Crown research institute providing R&D services for industry (1992–2013), predecessor to Callaghan Innovation. :contentReference[oaicite:8]{index=8}",
+      "events": [
+        {
+          "date": "1992-04-01",
+          "category": "birth",
+          "description": "Established following DSIR restructuring"
+        },
+        {
+          "date": "2013-02-01",
+          "category": "transformation",
+          "description": "Merged into Callaghan Innovation"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "name": "Bioeconomy Science Institute",
+      "type": "public",
+      "role": "Advanced R&D Institution",
+      "regionOfActivity": "Nationwide",
+      "description": "Public research organisation formed in 2025 by merging AgResearch, Landcare Research, Plant & Food Research, and Scion to advance innovation in biotechnology, agriculture, forestry, manufacturing and bioeconomy. :contentReference[oaicite:9]{index=9}",
+      "events": [
+        {
+          "date": "2025-07-01",
+          "category": "birth",
+          "description": "Created through CRI consolidation"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "name": "Royal Society Te Apārangi",
+      "type": "nonprofit",
+      "role": "Scientific Society & Knowledge Diffusion",
+      "regionOfActivity": "Nationwide",
+      "description": "Membership society promoting scientific research, publishing journals, hosting conferences, and supporting science education and technique diffusion across disciplines in New Zealand. :contentReference[oaicite:10]{index=10}",
+      "events": [
+        {
+          "date": "1867-01-01",
+          "category": "birth",
+          "description": "Founded as NZ Institute (later Royal Society)"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "name": "Cawthron Institute",
+      "type": "private",
+      "role": "Independent Scientific Research",
+      "regionOfActivity": "Nelson & Nationwide",
+      "description": "Long‑standing independent research organisation focused on aquaculture, freshwater science, and applied research for industry and environment. :contentReference[oaicite:11]{index=11}",
+      "events": [
+        {
+          "date": "1919-01-01",
+          "category": "birth",
+          "description": "Founded through philanthropic endowment"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "name": "University Technology Transfer & Innovation Units",
+      "type": "academic",
+      "role": "Diffusion & Commercialisation",
+      "regionOfActivity": "Nationwide",
+      "description": "Collective label for university‑based innovation units (e.g., UniServices at University of Auckland) that help commercialise research and link university R&D to industry and start‑ups. :contentReference[oaicite:12]{index=12}",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "growth",
+          "description": "Expansion of university innovation & tech transfer units"
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "name": "Auckland Technical School",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Auckland",
+      "description": "Founded in the late 19th century to provide vocational training in engineering, mechanics, and applied sciences.",
+      "events": [
+        {
+          "date": "1895-01-01",
+          "category": "birth",
+          "description": "Established to provide technical and vocational education"
+        },
+        {
+          "date": "1960-01-01",
+          "category": "transformation",
+          "description": "Became Auckland Technical Institute (later part of Auckland University of Technology)"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "name": "Wellington Technical School",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Wellington",
+      "description": "Provided industrial and trade education including engineering, carpentry, and applied sciences; instrumental in workforce development.",
+      "events": [
+        {
+          "date": "1903-01-01",
+          "category": "birth",
+          "description": "Founded as a municipal technical school"
+        },
+        {
+          "date": "1970-01-01",
+          "category": "transformation",
+          "description": "Integrated into Wellington Polytechnic"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "name": "New Zealand Manufacturers’ Association",
+      "type": "private",
+      "role": "Industry Association",
+      "regionOfActivity": "National",
+      "description": "Represented manufacturers across New Zealand, promoting industrial standards, knowledge sharing, and lobbying government.",
+      "events": [
+        {
+          "date": "1927-01-01",
+          "category": "birth",
+          "description": "Formed as national body for manufacturers"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "transformation",
+          "description": "Merged into Business New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "name": "New Zealand Wool Board",
+      "type": "public",
+      "role": "Producer Association / Technique Diffusion",
+      "regionOfActivity": "National",
+      "description": "Government-supported board coordinating wool production, marketing, and diffusion of processing techniques; crucial for agricultural-industrial linkages.",
+      "events": [
+        {
+          "date": "1944-01-01",
+          "category": "birth",
+          "description": "Established to support wool industry"
+        },
+        {
+          "date": "2002-01-01",
+          "category": "transformation",
+          "description": "Merged into Wool Research Organisation"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "name": "Federation of New Zealand Fruitgrowers",
+      "type": "private",
+      "role": "Producer Association / Knowledge Diffusion",
+      "regionOfActivity": "National",
+      "description": "Association promoting best practices, technological diffusion, and coordination among fruit growers.",
+      "events": [
+        {
+          "date": "1916-01-01",
+          "category": "birth",
+          "description": "Founded to unify fruit growers and promote research"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "name": "Auckland Chamber of Commerce – Industrial Committee",
+      "type": "private",
+      "role": "Technical Knowledge & Diffusion",
+      "regionOfActivity": "Auckland",
+      "description": "Subcommittee supporting industrial firms with technical information, standards adoption, and diffusion of best practices.",
+      "events": [
+        {
+          "date": "1880-01-01",
+          "category": "birth",
+          "description": "Formed to assist industrial firms"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "name": "Otago School of Mines",
+      "type": "public",
+      "role": "Technical Education & R&D",
+      "regionOfActivity": "Otago",
+      "description": "School of Mines providing specialized training in mining, metallurgy, and industrial geology; contributed to technical knowledge diffusion in early 20th century.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "birth",
+          "description": "Established as mining school"
+        },
+        {
+          "date": "1966-01-01",
+          "category": "transformation",
+          "description": "Integrated into University of Otago School of Engineering"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "name": "New Zealand Dairy Board",
+      "type": "public",
+      "role": "Producer Association / Technology Diffusion",
+      "regionOfActivity": "National",
+      "description": "Cooperative board coordinating dairy producers, introducing modern processing techniques and export practices; precursor to Fonterra.",
+      "events": [
+        {
+          "date": "1923-01-01",
+          "category": "birth",
+          "description": "Established to standardize and export dairy products"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "transformation",
+          "description": "Merged to form Fonterra"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "name": "Federation of New Zealand Manufacturers (Regional Chapters)",
+      "type": "private",
+      "role": "Industry Networking & Diffusion",
+      "regionOfActivity": "National",
+      "description": "Local/regional chapters facilitated the diffusion of techniques, industrial standards, and innovation best practices among manufacturers.",
+      "events": [
+        {
+          "date": "1930-01-01",
+          "category": "birth",
+          "description": "Regional chapters established"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "name": "Polytechnics & Technical Institutes",
+      "type": "public",
+      "role": "Applied Technical Education & Diffusion",
+      "regionOfActivity": "Nationwide",
+      "description": "Network of institutions providing applied technical education, vocational training, and technology transfer; many were merged into modern institutes of technology or universities.",
+      "events": [
+        {
+          "date": "1900-1950",
+          "category": "growth",
+          "description": "Multiple technical institutes formed across NZ to train workforce and diffuse applied techniques"
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "name": "Textile Industry Training Board",
+      "type": "public/private hybrid",
+      "role": "Worker Training & Technique Adoption",
+      "regionOfActivity": "Nationwide",
+      "description": "Coordinated apprenticeships, certified workers, and promoted modern weaving, spinning, and dyeing techniques in the textile industry.",
+      "events": [
+        {
+          "date": "1930-01-01",
+          "category": "birth",
+          "description": "Established to organize textile apprenticeships and technical training"
+        },
+        {
+          "date": "1980-01-01",
+          "category": "transformation",
+          "description": "Merged or integrated into broader manufacturing training initiatives"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "name": "New Zealand Metal Trades Advisory Council",
+      "type": "public/private hybrid",
+      "role": "Industrial Standards & Technical Training",
+      "regionOfActivity": "Nationwide",
+      "description": "Advised firms on machine tools, welding, and mechanical engineering standards; organized training programs for metal trades workers.",
+      "events": [
+        {
+          "date": "1920-01-01",
+          "category": "birth",
+          "description": "Formed to standardize metal trades training and support industrial development"
+        },
+        {
+          "date": "1965-01-01",
+          "category": "transformation",
+          "description": "Integrated into national industrial skill councils"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "name": "Engineering Apprenticeship Boards",
+      "type": "public/private hybrid",
+      "role": "Apprentice Coordination & Industrial Training",
+      "regionOfActivity": "Nationwide",
+      "description": "Coordinated engineering apprenticeships across heavy industry and public works, aligning training with industrial needs.",
+      "events": [
+        {
+          "date": "1910-01-01",
+          "category": "birth",
+          "description": "Established to formalize engineering apprenticeship programs"
+        },
+        {
+          "date": "1960-01-01",
+          "category": "transformation",
+          "description": "Merged into national vocational and polytechnic training system"
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "name": "National Advisory Council on Vocational Education (NAVCE)",
+      "type": "public",
+      "role": "Vocational Policy & Technical Guidance",
+      "regionOfActivity": "Nationwide",
+      "description": "Advised the government on vocational education policy, recommended curricula for polytechnics, and monitored industrial skill needs.",
+      "events": [
+        {
+          "date": "1940-01-01",
+          "category": "birth",
+          "description": "Established to coordinate vocational training nationally"
+        },
+        {
+          "date": "1970-01-01",
+          "category": "transformation",
+          "description": "Functions absorbed into Ministry of Education and polytechnic advisory structures"
+        }
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "William Mein Smith",
+      "type": "public/private hybrid",
+      "role": "Surveyor & Engineering Advisor",
+      "regionOfActivity": "Wellington",
+      "description": "Chief Surveyor for the New Zealand Company, instrumental in planning settlements and public works; key knowledge broker in civil engineering.",
+      "events": [
+        {
+          "date": "1839-05-01",
+          "category": "birth",
+          "description": "Arrived in New Zealand as surveyor for NZ Company"
+        },
+        {
+          "date": "1840-1845",
+          "category": "contribution",
+          "description": "Designed Wellington settlement and infrastructure layout"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "William Fox",
+      "type": "public",
+      "role": "Industrial & Political Promoter",
+      "regionOfActivity": "Wellington",
+      "description": "Politician and early promoter of industrial development, infrastructure, and technical knowledge diffusion in the Wellington region.",
+      "events": [
+        {
+          "date": "1841-01-01",
+          "category": "activity",
+          "description": "Promoted early infrastructure and industrial policy"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "James Hector",
+      "type": "public",
+      "role": "Scientist & Geological Researcher",
+      "regionOfActivity": "National",
+      "description": "Pioneer geologist and chemist, founder of the Geological Survey; contributed technical knowledge critical for mining and industrial development.",
+      "events": [
+        {
+          "date": "1865-01-01",
+          "category": "birth",
+          "description": "Appointed founding director of Geological Survey of NZ"
+        },
+        {
+          "date": "1875-01-01",
+          "category": "contribution",
+          "description": "Published surveys informing mining and industrial projects"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Edward Gibbon Wakefield",
+      "type": "private",
+      "role": "Colonization Entrepreneur & Industrial Planner",
+      "regionOfActivity": "Wellington",
+      "description": "Architect of the New Zealand Company settlement schemes; indirectly facilitated early industrial and technical knowledge flows through planned settlements.",
+      "events": [
+        {
+          "date": "1839-05-02",
+          "category": "activity",
+          "description": "Influenced Wellington and Nelson settlements"
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "name": "Duncan McGregor",
+      "type": "private",
+      "role": "Industrial Entrepreneur",
+      "regionOfActivity": "Otago",
+      "description": "Early industrialist in mining and machinery; introduced new mechanical techniques to gold and mineral processing in Otago.",
+      "events": [
+        {
+          "date": "1861-01-01",
+          "category": "activity",
+          "description": "Founded engineering workshops supporting gold mining operations"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "John Turnbull Thomson",
+      "type": "public",
+      "role": "Surveyor & Engineer",
+      "regionOfActivity": "Otago & South Island",
+      "description": "Surveyor and civil engineer responsible for early South Island infrastructure and town planning; introduced advanced surveying and construction methods.",
+      "events": [
+        {
+          "date": "1856-01-01",
+          "category": "activity",
+          "description": "Mapped South Island settlements and planned public works"
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "name": "Robert Graham",
+      "type": "private",
+      "role": "Industrialist & Entrepreneur",
+      "regionOfActivity": "Auckland",
+      "description": "Major figure in timber, shipping, and early manufacturing; invested in industrial infrastructure and imported new machinery.",
+      "events": [
+        {
+          "date": "1840-01-01",
+          "category": "activity",
+          "description": "Established timber mills and shipping enterprises in Auckland"
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "name": "Thomas Henry Smith",
+      "type": "public/private hybrid",
+      "role": "Industrial Engineer & Inventor",
+      "regionOfActivity": "Christchurch",
+      "description": "Worked on mechanical innovations in milling, agricultural machinery, and small-scale manufacturing; contributed to technique adoption.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "activity",
+          "description": "Designed improved milling machinery and advised local workshops"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "name": "John Ballance",
+      "type": "public",
+      "role": "Political Advocate for Industrial Development",
+      "regionOfActivity": "Wanganui / National",
+      "description": "Politician advocating for technical education, industrial training, and infrastructure investment; supported engineering and research networks.",
+      "events": [
+        {
+          "date": "1880-01-01",
+          "category": "activity",
+          "description": "Promoted technical colleges and industrial workforce training"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "name": "Charles Heaphy",
+      "type": "public",
+      "role": "Surveyor & Knowledge Broker",
+      "regionOfActivity": "National",
+      "description": "Explorer, engineer, and surveyor; contributed knowledge for infrastructure projects, mapping, and resource development.",
+      "events": [
+        {
+          "date": "1840-1850",
+          "category": "activity",
+          "description": "Mapped Wellington and Auckland regions, supporting public works and industrial planning"
+        }
+      ]
+    },
+    {
+      "id": "bhof1",
+      "name": "New Zealand Business Hall of Fame",
+      "type": "public/private hybrid",
+      "role": "Business Leadership Recognition & Knowledge Legacy",
+      "regionOfActivity": "Nationwide",
+      "description": "Established in 1994 by Young Enterprise to recognise and celebrate individuals who have made significant contributions to New Zealand’s economic and social development. The Hall highlights business achievement, innovation, and entrepreneurial leadership across sectors and preserves legacies that influence industrial, commercial, and community capacity. Inductees are honoured annually at a formal gala dinner. :contentReference[oaicite:1]{index=1}",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Founded by Young Enterprise to honour outstanding New Zealand business leaders and contributors."
+        },
+        {
+          "date": "2025-08-20",
+          "category": "milestone",
+          "description": "Annual induction ceremony held in Auckland featuring the 2025 class of laureates. :contentReference[oaicite:2]{index=2}"
+        },
+        {
+          "date": "2026-08-06",
+          "category": "milestone",
+          "description": "Scheduled annual induction ceremony celebrating 32 years of the Hall’s recognitions. :contentReference[oaicite:3]{index=3}"
+        }
+      ]
+    },
+    {
+      "id": "i1",
+      "name": "Frederick Wollaston Hutton",
+      "type": "individual",
+      "role": "Scientist & Engineer / Knowledge Broker",
+      "regionOfActivity": "National",
+      "description": "Geologist, zoologist, and engineer; instrumental in applying scientific knowledge to industrial and agricultural development in New Zealand.",
+      "events": [
+        {
+          "date": "1836-04-27",
+          "category": "birth",
+          "description": "Born in England"
+        },
+        {
+          "date": "1866-01-01",
+          "category": "migration",
+          "description": "Arrived in New Zealand and began geological work"
+        },
+        {
+          "date": "1905-01-01",
+          "category": "milestone",
+          "description": "Published major scientific works informing industrial and agricultural applications"
+        },
+        {
+          "date": "1905-09-15",
+          "category": "death",
+          "description": "Died in New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "i2",
+      "name": "William Larnach",
+      "type": "individual",
+      "role": "Entrepreneur & Industrial Investor",
+      "regionOfActivity": "Otago",
+      "description": "Banker and industrial investor; funded early industrial enterprises, shipping, and agricultural projects in Otago.",
+      "events": [
+        {
+          "date": "1833-01-01",
+          "category": "birth",
+          "description": "Born in Australia"
+        },
+        {
+          "date": "1862-01-01",
+          "category": "migration",
+          "description": "Moved to New Zealand and began business ventures"
+        },
+        {
+          "date": "1898-10-12",
+          "category": "death",
+          "description": "Died in Dunedin"
+        }
+      ]
+    },
+    {
+      "id": "i3",
+      "name": "Royal Society of New Zealand",
+      "type": "institution",
+      "role": "Scientific & Knowledge Advancement",
+      "regionOfActivity": "National",
+      "description": "Supports applied research, scientific advice, and dissemination of knowledge to promote technological and industrial development.",
+      "events": [
+        {
+          "date": "1867-11-06",
+          "category": "birth",
+          "description": "Founded as New Zealand Institute"
+        },
+        {
+          "date": "1933-01-01",
+          "category": "milestone",
+          "description": "Renamed Royal Society of New Zealand; expanded research and advisory roles"
+        }
+      ]
+    },
+    {
+      "id": "i4",
+      "name": "Sir Ian Taylor",
+      "type": "individual",
+      "role": "Technology Entrepreneur / Industrial Innovator",
+      "regionOfActivity": "National",
+      "description": "Introduced robotics, automation, and high-tech industrial processes to New Zealand industries.",
+      "events": [
+        {
+          "date": "1950-07-28",
+          "category": "birth",
+          "description": "Born in New Zealand"
+        },
+        {
+          "date": "1980-01-01",
+          "category": "milestone",
+          "description": "Founded technology companies applying robotics and automation to industrial processes"
+        }
+      ]
+    },
+    {
+      "id": "i5",
+      "name": "Amy Maria Hellaby",
+      "type": "individual",
+      "role": "Industrial Entrepreneur",
+      "regionOfActivity": "Auckland / National",
+      "description": "Early female business leader in New Zealand; founded meat processing and industrial enterprises influencing domestic production.",
+      "events": [
+        {
+          "date": "1864-01-01",
+          "category": "birth",
+          "description": "Born in New Zealand"
+        },
+        {
+          "date": "1927-01-01",
+          "category": "milestone",
+          "description": "Expanded meat processing enterprises, creating industrial-scale production"
+        },
+        {
+          "date": "1938-01-01",
+          "category": "death",
+          "description": "Died in New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "g1",
+      "name": "New Zealand Company Administration",
+      "type": "government / public-private hybrid",
+      "role": "Colonial Administration & Settlement Planning",
+      "regionOfActivity": "Wellington, Nelson, New Plymouth",
+      "description": "Managed early European settlements, land distribution, and infrastructure development; foundational for industrial development in early New Zealand.",
+      "events": [
+        {
+          "date": "1839-05-01",
+          "category": "birth",
+          "description": "Established to organize colonization and settlements"
+        },
+        {
+          "date": "1850-01-01",
+          "category": "death",
+          "description": "Dissolved and settlements transferred to Crown authority"
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "name": "Public Works Department (PWD)",
+      "type": "government",
+      "role": "Infrastructure & Industrial Capacity Building",
+      "regionOfActivity": "Nationwide",
+      "description": "Oversaw construction of roads, railways, ports, and public buildings; central to workforce training and diffusion of engineering techniques.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "birth",
+          "description": "PWD established to manage nationwide public works"
+        },
+        {
+          "date": "1988-01-01",
+          "category": "transformation",
+          "description": "Reorganized into multiple departments and corporatized entities"
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "name": "Department of Industries and Commerce",
+      "type": "government",
+      "role": "Industrial Policy & Export Promotion",
+      "regionOfActivity": "National",
+      "description": "Promoted industrial development, exports, and innovation; provided guidance to manufacturers and exporters.",
+      "events": [
+        {
+          "date": "1894-01-01",
+          "category": "birth",
+          "description": "Established to support industries and trade"
+        },
+        {
+          "date": "1972-01-01",
+          "category": "transformation",
+          "description": "Merged into Ministry of Commerce and Industry"
+        },
+        {
+          "date": "1930-01-01",
+          "category": "policy",
+          "description": "Administered import licensing and technical advisory programs"
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "name": "Ministry of Works and Development",
+      "type": "government",
+      "role": "Public Infrastructure & Industrial Projects",
+      "regionOfActivity": "Nationwide",
+      "description": "Managed civil and industrial construction projects, including dams, roads, ports, and housing; trained engineers and technicians.",
+      "events": [
+        {
+          "date": "1946-01-01",
+          "category": "birth",
+          "description": "Established to centralize public works after WWII"
+        },
+        {
+          "date": "1988-01-01",
+          "category": "transformation",
+          "description": "Corporatized and disbanded"
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "name": "Ministry of Agriculture and Fisheries",
+      "type": "government",
+      "role": "Agricultural Development & Knowledge Diffusion",
+      "regionOfActivity": "Nationwide",
+      "description": "Guided agricultural policy, research, and extension services; instrumental in technique adoption and productivity growth in farming.",
+      "events": [
+        {
+          "date": "1892-01-01",
+          "category": "birth",
+          "description": "Established to promote agricultural development and innovation"
+        }
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "New Zealand Liberal Party",
+      "type": "political party",
+      "role": "Policy-making & Economic Reform",
+      "regionOfActivity": "National",
+      "description": "Political party (1891–1936) that implemented major social and economic reforms, including land redistribution, labor regulation, and infrastructure development to promote industrial and agricultural growth.",
+      "events": [
+        {
+          "date": "1891-01-01",
+          "category": "birth",
+          "description": "Founded as New Zealand's first organized political party"
+        },
+        {
+          "date": "1936-01-01",
+          "category": "death",
+          "description": "Merged into United Party"
+        },
+        {
+          "date": "1893-09-19",
+          "category": "policy",
+          "description": "Passed progressive legislation including women's suffrage and labor reforms"
+        }
+      ]
+    },
+      {
+    "id": "mbie",
+    "name": "Ministry of Business, Innovation & Employment",
+    "type": "government ministry",
+    "role": "Industrial and economic policy, innovation support",
+    "regionOfActivity": "National",
+    "description": "Government ministry responsible for business regulation, innovation, employment policy, and industrial growth in New Zealand.",
+    "events": [
+      {
+        "date": "2012-07-01",
+        "category": "institutional",
+        "description": "Formation of MBIE, merging several government departments to streamline business and innovation policy."
+      }
+    ]
+  },
+  {
+    "id": "epa",
+    "name": "Environmental Protection Authority",
+    "type": "regulatory agency",
+    "role": "Environmental regulation for industry",
+    "regionOfActivity": "National",
+    "description": "Agency overseeing environmental compliance for industrial and agricultural activities.",
+    "events": [
+      {
+        "date": "2011-07-01",
+        "category": "institutional",
+        "description": "EPA established to centralize environmental regulation and industrial compliance."
+      }
+    ]
+  },
+  {
+    "id": "lincoln_univ",
+    "name": "Lincoln University",
+    "type": "university",
+    "role": "Agricultural research and technical education",
+    "regionOfActivity": "Canterbury",
+    "description": "University specializing in agriculture, applied sciences, and technical training for productive industries.",
+    "events": [
+      {
+        "date": "1878-03-01",
+        "category": "founding",
+        "description": "Founded as Lincoln Agricultural College to provide education and research in agriculture."
+      }
+    ]
+  },
+  {
+    "id": "massey_univ",
+    "name": "Massey University",
+    "type": "university",
+    "role": "Agricultural and veterinary research, technical education",
+    "regionOfActivity": "Palmerston North",
+    "description": "University focusing on agriculture, veterinary science, and applied technical research supporting industrial development.",
+    "events": [
+      {
+        "date": "1927-01-01",
+        "category": "founding",
+        "description": "Established as Massey Agricultural College, providing agricultural and technical education."
+      }
+    ]
+  },
+  {
+    "id": "victoria_univ",
+    "name": "Victoria University of Wellington",
+    "type": "university",
+    "role": "Scientific and technical education",
+    "regionOfActivity": "Wellington",
+    "description": "University providing scientific, engineering, and applied technical education.",
+    "events": [
+      {
+        "date": "1897-07-01",
+        "category": "founding",
+        "description": "Founded to offer higher education and support scientific and technical development in Wellington."
+      }
+    ]
+  },
+  {
+    "id": "nzas",
+    "name": "New Zealand Aluminium Smelters",
+    "type": "industrial company",
+    "role": "Aluminium production",
+    "regionOfActivity": "South Island",
+    "description": "Large-scale industrial facility producing aluminium and supporting heavy industry in New Zealand.",
+    "events": [
+      {
+        "date": "1960-03-01",
+        "category": "founding",
+        "description": "Commenced aluminium production at the South Island smelter to support industrial growth."
+      }
+    ]
+  },
+  {
+    "id": "sanford",
+    "name": "Sanford Ltd",
+    "type": "industrial company",
+    "role": "Fisheries and food processing",
+    "regionOfActivity": "National",
+    "description": "Company specializing in fisheries, seafood processing, and export, supporting early food industry development.",
+    "events": [
+      {
+        "date": "1881-01-01",
+        "category": "founding",
+        "description": "Founded to develop New Zealand's fisheries industry and food exports."
+      }
+    ]
+  },
+  {
+    "id": "fletcher_holdings",
+    "name": "Fletcher Holdings",
+    "type": "industrial company",
+    "role": "Construction and industrial services",
+    "regionOfActivity": "National",
+    "description": "Major industrial and construction company, providing infrastructure and industrial materials across New Zealand.",
+    "events": [
+      {
+        "date": "1909-01-01",
+        "category": "founding",
+        "description": "Established to provide building materials and industrial construction services across New Zealand."
+      }
+    ]
+  },
+  {
+    "id": "nz_shipping",
+    "name": "New Zealand Shipping Company",
+    "type": "transport company",
+    "role": "Shipping and logistics",
+    "regionOfActivity": "National & international",
+    "description": "Shipping company enabling transport of goods and industrial materials, critical for trade and export.",
+    "events": [
+      {
+        "date": "1873-01-01",
+        "category": "founding",
+        "description": "Founded to facilitate shipping of industrial and agricultural goods internationally."
+      }
+    ]
+  },
+  {
+    "id": "engineers_nz",
+    "name": "Engineers New Zealand",
+    "type": "professional organization",
+    "role": "Engineering standards and professional development",
+    "regionOfActivity": "National",
+    "description": "Professional body providing accreditation, standards, and training for engineers across New Zealand.",
+    "events": [
+      {
+        "date": "1914-01-01",
+        "category": "founding",
+        "description": "Established to standardize engineering practice and provide professional development."
+      }
+    ]
+  },
+  {
+    "id": "nz_institute_chemistry",
+    "name": "New Zealand Institute of Chemistry",
+    "type": "professional organization",
+    "role": "Chemical research and standards",
+    "regionOfActivity": "National",
+    "description": "Organization supporting chemical science, research, and industrial applications.",
+    "events": [
+      {
+        "date": "1931-01-01",
+        "category": "founding",
+        "description": "Formed to promote chemistry research and professional standards for chemical industries."
+      }
+    ]
+  },
+  {
+    "id": "charles_knapp",
+    "name": "Charles Knapp",
+    "type": "entrepreneur",
+    "role": "Early trade and industrial investment",
+    "regionOfActivity": "Auckland",
+    "description": "Entrepreneur involved in small-scale manufacturing, shipping, and trade in early colonial Auckland.",
+    "events": [
+      {
+        "date": "1850-01-01",
+        "category": "entrepreneurial",
+        "description": "Began trading and investing in small-scale workshops and shipping enterprises in Auckland."
+      }
+    ]
+  },
+  {
+    "id": "thomas_ball",
+    "name": "Thomas Ball",
+    "type": "entrepreneur",
+    "role": "Industrial and trade activities",
+    "regionOfActivity": "Christchurch",
+    "description": "Early industrialist and merchant contributing to local manufacturing and commerce.",
+    "events": [
+      {
+        "date": "1860-01-01",
+        "category": "entrepreneurial",
+        "description": "Established workshops and trading operations in Christchurch to support early industrial development."
+      }
+    ]
+  },
+  {
+    "id": "ernest_marsden",
+    "name": "Ernest Marsden",
+    "type": "scientist",
+    "role": "Physics research and industrial instrumentation",
+    "regionOfActivity": "Wellington",
+    "description": "Physicist contributing to applied scientific knowledge, instrumentation, and technical development in NZ.",
+    "events": [
+      {
+        "date": "1920-01-01",
+        "category": "scientific",
+        "description": "Conducted applied physics research contributing to instrumentation for industry."
+      }
+    ]
+  },
+  {
+    "id": "sir_william_pickering",
+    "name": "Sir William Pickering",
+    "type": "scientist / engineer",
+    "role": "Engineering and technical innovation",
+    "regionOfActivity": "Wellington / international",
+    "description": "Engineer and technical innovator contributing to early scientific and industrial knowledge transfer.",
+    "events": [
+      {
+        "date": "1955-01-01",
+        "category": "scientific",
+        "description": "Contributed to engineering projects advancing technical innovation in New Zealand and abroad."
+      }
+    ]
+  },
+  {
+    "id": "john_logan_campbell",
+    "name": "John Logan Campbell",
+    "type": "entrepreneur / settler",
+    "role": "Urban and industrial development",
+    "regionOfActivity": "Auckland",
+    "description": "Early settler and entrepreneur instrumental in urban planning, small workshops, and industrial growth.",
+    "events": [
+      {
+        "date": "1840-01-01",
+        "category": "entrepreneurial",
+        "description": "Participated in urban development and supported establishment of early industrial workshops in Auckland."
+      }
+    ]
+  },
+  {
+    "id": "sir_woolf_fisher",
+    "name": "Sir Woolf Fisher",
+    "type": "entrepreneur",
+    "role": "Industrial investment and innovation",
+    "regionOfActivity": "Auckland",
+    "description": "Industrialist and investor in manufacturing and technical innovation in New Zealand.",
+    "events": [
+      {
+        "date": "1936-01-01",
+        "category": "entrepreneurial",
+        "description": "Invested in industrial and manufacturing enterprises to support technical innovation in New Zealand."
+      }
+    ]
+  },
+  {
+    "id": "christchurch_tech_college",
+    "name": "Christchurch Technical College",
+    "type": "technical school",
+    "role": "Technical education",
+    "regionOfActivity": "Christchurch",
+    "description": "Institution providing vocational and technical training for industrial and productive sectors.",
+    "events": [
+      {
+        "date": "1900-01-01",
+        "category": "founding",
+        "description": "Opened to provide vocational and technical education for local industry."
+      }
+    ]
+  },
+  {
+    "id": "victoria_tech_school",
+    "name": "Victoria Technical School",
+    "type": "technical school",
+    "role": "Vocational training",
+    "regionOfActivity": "Wellington",
+    "description": "Early technical school offering training in mechanics, engineering, and industrial skills.",
+    "events": [
+      {
+        "date": "1905-01-01",
+        "category": "founding",
+        "description": "Founded to offer vocational training in mechanical and industrial skills in Wellington."
+      }
+    ]
+  },
+  {
+    "id": "john_mclaren",
+    "name": "John McLaren",
+    "type": "entrepreneur / miller",
+    "role": "Flour milling and agricultural processing",
+    "regionOfActivity": "Otago",
+    "description": "Early flour mill operator contributing to local food production and mechanization.",
+    "events": [
+      {
+        "date": "1865-01-01",
+        "category": "entrepreneurial",
+        "description": "Operated flour mills and mechanized agricultural processing in Otago."
+      }
+    ]
+  },
+  {
+    "id": "james_farmer",
+    "name": "James Farmer",
+    "type": "entrepreneur / small manufacturer",
+    "role": "Small-scale industrial activity",
+    "regionOfActivity": "Otago",
+    "description": "Early settler involved in small manufacturing, machinery repair, and farm equipment trade.",
+    "events": [
+      {
+        "date": "1870-01-01",
+        "category": "entrepreneurial",
+        "description": "Ran small workshops producing farm machinery and repairs for local settlers."
+      }
+    ]
+  },
+  {
+    "id": "phoenix_foundry",
+    "name": "Phoenix Foundry",
+    "type": "industrial workshop",
+    "role": "Machine fabrication and industrial repair",
+    "regionOfActivity": "Dunedin",
+    "description": "Small foundry producing machinery, steam engines, and equipment for early industrial development.",
+    "events": [
+      {
+        "date": "1875-01-01",
+        "category": "founding",
+        "description": "Established to fabricate machinery and provide repair services to local industry."
+      }
+    ]
+  },
+  {
+    "id": "dunedin_woollen_workshop",
+    "name": "Dunedin Woollen Workshop",
+    "type": "industrial workshop",
+    "role": "Textile production",
+    "regionOfActivity": "Dunedin",
+    "description": "Family-run textile workshop producing wool products for local and regional markets.",
+    "events": [
+      {
+        "date": "1880-01-01",
+        "category": "founding",
+        "description": "Started producing woollen goods to supply local and regional markets."
+      }
+    ]
+  },
+  {
+    "id": "henderson_co",
+    "name": "Henderson & Co.",
+    "type": "shipbuilding workshop",
+    "role": "Coastal shipbuilding",
+    "regionOfActivity": "Auckland",
+    "description": "Small-scale shipbuilder constructing coastal vessels and ferries, supporting trade and transportation.",
+    "events": [
+      {
+        "date": "1860-01-01",
+        "category": "founding",
+        "description": "Founded to build small coastal vessels for trade and ferry transport in Auckland."
+      }
+    ]
+  },
+  {
+    "id": "caversham_mill",
+    "name": "Caversham Mill",
+    "type": "flour mill",
+    "role": "Food production and mechanization",
+    "regionOfActivity": "Otago",
+    "description": "Family-run flour mill supplying local communities and contributing to early industrial mechanization.",
+    "events": [
+      {
+        "date": "1868-01-01",
+        "category": "founding",
+        "description": "Opened to process flour and support mechanized food production in Otago."
+      }
+    ]
+  },
+  {
+    "id": "auckland_council",
+    "name": "Auckland City Council",
+    "type": "local government",
+    "role": "Urban planning and industrial facilitation",
+    "regionOfActivity": "Auckland",
+    "description": "Oversaw infrastructure, ports, and urban development enabling early industrial workshops and trade.",
+    "events": [
+      {
+        "date": "1871-01-01",
+        "category": "institutional",
+        "description": "Managed urban infrastructure to facilitate early industrial and trade activities."
+      }
+    ]
+  },
+  {
+    "id": "wellington_council",
+    "name": "Wellington City Council",
+    "type": "local government",
+    "role": "Infrastructure and industrial planning",
+    "regionOfActivity": "Wellington",
+    "description": "Managed ports, roads, and early urban infrastructure to support workshops, trade, and small industry.",
+    "events": [
+      {
+        "date": "1870-01-01",
+        "category": "institutional",
+        "description": "Oversaw early port development and municipal infrastructure supporting industry."
+      }
+    ]
+  },
+  {
+    "id": "christchurch_council",
+    "name": "Christchurch City Council",
+    "type": "local government",
+    "role": "Urban planning and industrial facilitation",
+    "regionOfActivity": "Christchurch",
+    "description": "Directed land allocation, water, and power infrastructure supporting early workshops and mills.",
+    "events": [
+      {
+        "date": "1868-01-01",
+        "category": "institutional",
+        "description": "Managed land, water, and early infrastructure for industrial development in Christchurch."
+      }
+    ]
+  },
+  {
+    "id": "dunedin_council",
+    "name": "Dunedin City Council",
+    "type": "local government",
+    "role": "Infrastructure and industrial facilitation",
+    "regionOfActivity": "Dunedin",
+    "description": "Oversaw roads, wharves, and municipal services enabling small industry and workshops.",
+    "events": [
+      {
+        "date": "1865-01-01",
+        "category": "institutional",
+        "description": "Directed municipal services and infrastructure supporting early workshops and small industry."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_council",
+    "name": "Hamilton Borough Council",
+    "type": "local government",
+    "role": "Urban and industrial planning",
+    "regionOfActivity": "Hamilton",
+    "description": "Managed early infrastructure supporting workshops, mills, and small-scale industry.",
+    "events": [
+      {
+        "date": "1878-01-01",
+        "category": "institutional",
+        "description": "Oversaw infrastructure enabling early industrial and workshop activity."
+      }
+    ]
+  },
+  {
+    "id": "napier_council",
+    "name": "Napier Borough Council",
+    "type": "local government",
+    "role": "Port and urban planning",
+    "regionOfActivity": "Napier",
+    "description": "Oversaw early port development and municipal infrastructure for industrial activity.",
+    "events": [
+      {
+        "date": "1874-01-01",
+        "category": "institutional",
+        "description": "Directed port development and urban infrastructure supporting early industry."
+      }
+    ]
+  },
+  {
+    "id": "nelson_council",
+    "name": "Nelson City Council",
+    "type": "local government",
+    "role": "Urban and industrial planning",
+    "regionOfActivity": "Nelson",
+    "description": "Directed land allocation, water, and small industrial support in early settlement.",
+    "events": [
+      {
+        "date": "1867-01-01",
+        "category": "institutional",
+        "description": "Managed early settlement infrastructure and small industrial facilitation."
+      }
+    ]
+  },
+  {
+    "id": "john_smith_blacksmith",
+    "name": "John Smith",
+    "type": "artisan / mechanic",
+    "role": "Blacksmithing and workshop support",
+    "regionOfActivity": "Dunedin",
+    "description": "Produced and repaired agricultural implements and machinery supporting local industry.",
+    "events": [
+      {
+        "date": "1866-01-01",
+        "category": "entrepreneurial",
+        "description": "Operated blacksmith workshop producing and repairing tools and machinery."
+      }
+    ]
+  },
+  {
+    "id": "james_anderson",
+    "name": "James Anderson",
+    "type": "artisan / mechanic",
+    "role": "Carpentry and mechanical work",
+    "regionOfActivity": "Christchurch",
+    "description": "Built workshop structures and assisted small foundries and mills.",
+    "events": [
+      {
+        "date": "1872-01-01",
+        "category": "entrepreneurial",
+        "description": "Provided carpentry and mechanical work supporting workshops and small industry."
+      }
+    ]
+  },
+  {
+    "id": "thomas_white",
+    "name": "Thomas White",
+    "type": "artisan / mechanic",
+    "role": "Settlement mechanic",
+    "regionOfActivity": "Wellington",
+    "description": "Worked in workshops enabling ship repairs and early machinery fabrication.",
+    "events": [
+      {
+        "date": "1869-01-01",
+        "category": "entrepreneurial",
+        "description": "Operated workshops supporting settlement machinery and ship repairs."
+      }
+    ]
+  },
+  {
+    "id": "henry_phillips",
+    "name": "Henry B. Phillips",
+    "type": "lab technician",
+    "role": "Chemical analysis for agriculture and industry",
+    "regionOfActivity": "Wellington",
+    "description": "Early DSIR laboratory assistant providing chemical support for agriculture and small-scale industry.",
+    "events": [
+      {
+        "date": "1901-01-01",
+        "category": "scientific",
+        "description": "Joined DSIR labs providing chemical analyses for agriculture and industry."
+      }
+    ]
+  },
+  {
+    "id": "james_hector",
+    "name": "Dr. James Hector",
+    "type": "chemist / metallurgist",
+    "role": "Mining and industrial assays",
+    "regionOfActivity": "Dunedin",
+    "description": "Conducted chemical and metallurgical analyses supporting mining, wool, and flour production.",
+    "events": [
+      {
+        "date": "1867-01-01",
+        "category": "scientific",
+        "description": "Conducted chemical and metallurgical analyses for local industry and mining."
+      }
+    ]
+  },
+  {
+    "id": "edward_bailey",
+    "name": "Edward Battersby Bailey",
+    "type": "chemist / metallurgist",
+    "role": "Industrial chemical support",
+    "regionOfActivity": "Christchurch",
+    "description": "Provided chemical assays for wool and flour processing industries.",
+    "events": [
+      {
+        "date": "1910-01-01",
+        "category": "scientific",
+        "description": "Worked on chemical assays supporting industrial processes in Christchurch."
+      }
+    ]
+  },
+  {
+    "id": "john_mckenzie",
+    "name": "John McKenzie",
+    "type": "instrument maker",
+    "role": "Precision instruments",
+    "regionOfActivity": "Auckland",
+    "description": "Crafted mechanical measuring devices for milling, shipping, and agricultural machinery.",
+    "events": [
+      {
+        "date": "1875-01-01",
+        "category": "entrepreneurial",
+        "description": "Produced precision mechanical instruments for industry and agriculture."
+      }
+    ]
+  },
+  {
+    "id": "canterbury_agri_bureau",
+    "name": "Canterbury Agricultural Bureau",
+    "type": "extension / advisory service",
+    "role": "Agricultural technical advisory",
+    "regionOfActivity": "Canterbury",
+    "description": "Provided advice on crop rotation, irrigation, and early farm machinery adoption.",
+    "events": [
+      {
+        "date": "1885-01-01",
+        "category": "institutional",
+        "description": "Established to advise farmers on agricultural techniques and machinery adoption."
+      }
+    ]
+  },
+  {
+    "id": "otago_agri_bureau",
+    "name": "Otago Agricultural Bureau",
+    "type": "extension / advisory service",
+    "role": "Agricultural technical advisory",
+    "regionOfActivity": "Otago",
+    "description": "Supported sheep farming, wool quality improvement, and small mechanized farming equipment adoption.",
+    "events": [
+      {
+        "date": "1890-01-01",
+        "category": "institutional",
+        "description": "Founded to provide advisory services to farmers on wool, sheep, and mechanized farming."
+      }
+    ]
+  },
+  {
+    "id": "christchurch_industrial_exhibition",
+    "name": "Christchurch Industrial Exhibition Workshops",
+    "type": "industrial demonstration workshop",
+    "role": "Industrial and mechanical demonstrations",
+    "regionOfActivity": "Christchurch",
+    "description": "Demonstrated agricultural machinery, industrial tools, and mechanical processes for knowledge transfer.",
+    "events": [
+      {
+        "date": "1880-01-01",
+        "category": "event",
+        "description": "Hosted industrial exhibition workshops demonstrating machinery and tools to farmers and manufacturers."
+      }
+    ]
+  },
+
+  
+  {
+    "id": "new_zealand_land_company",
+    "name": "New Zealand Land Company",
+    "type": "colonial enterprise",
+    "role": "Land settlement and colonization",
+    "regionOfActivity": "National",
+    "description": "Organized early land purchases and settlement schemes, facilitating colonization distinct from the New Zealand Company.",
+    "events": [
+      {
+        "date": "1841-01-01",
+        "category": "founding",
+        "description": "Established to manage land sales and settlement projects across New Zealand."
+      }
+    ]
+  },
+  {
+    "id": "wakefield_trust",
+    "name": "Wakefield-related Trusts",
+    "type": "colonial governance entity",
+    "role": "Land administration and settlement planning",
+    "regionOfActivity": "National",
+    "description": "Managed settlement planning and land allocation in line with Edward Gibbon Wakefield's colonization principles.",
+    "events": [
+      {
+        "date": "1840-01-01",
+        "category": "establishment",
+        "description": "Created to oversee land sales and systematic settlement programs."
+      }
+    ]
+  },
+  {
+    "id": "waitaki_hydro_board",
+    "name": "Waitaki Hydro Board",
+    "type": "energy infrastructure",
+    "role": "Electricity generation and distribution",
+    "regionOfActivity": "Canterbury / Otago",
+    "description": "Constructed and operated hydroelectric power stations to supply electricity to industrial and urban areas.",
+    "events": [
+      {
+        "date": "1920-01-01",
+        "category": "construction",
+        "description": "Began construction of hydroelectric facilities along the Waitaki River."
+      }
+    ]
+  },
+  {
+    "id": "dunedin_foundry",
+    "name": "Dunedin Foundry Company",
+    "type": "industrial manufacturer",
+    "role": "Mechanical and metalwork production",
+    "regionOfActivity": "Dunedin",
+    "description": "Produced industrial machinery components, supporting regional manufacturing and transport sectors.",
+    "events": [
+      {
+        "date": "1875-01-01",
+        "category": "founding",
+        "description": "Founded as a small-scale foundry to serve local industrial needs."
+      }
+    ]
+  },
+  {
+    "id": "dunedin_gasworks",
+    "name": "Dunedin Gasworks",
+    "type": "industrial facility",
+    "role": "Gas production and machinery supply",
+    "regionOfActivity": "Dunedin",
+    "description": "Produced gas for urban lighting and supplied mechanical equipment to industries.",
+    "events": [
+      {
+        "date": "1863-01-01",
+        "category": "operational",
+        "description": "Started operations providing gas and industrial machinery services."
+      }
+    ]
+  },
+  {
+    "id": "huxley_correspondence",
+    "name": "Thomas Henry Huxley Correspondence",
+    "type": "scientific influence",
+    "role": "Naturalist guidance and scientific correspondence",
+    "regionOfActivity": "National",
+    "description": "Provided advice and correspondence influencing early naturalists and scientific work in New Zealand.",
+    "events": [
+      {
+        "date": "1860-01-01",
+        "category": "scientific_influence",
+        "description": "Huxley exchanged letters and guidance with New Zealand naturalists, including Frederick Wollaston Hutton."
+      }
+    ]
+  },
+  {
+    "id": "niwa_precursor",
+    "name": "Meteorological and Geological Survey Units",
+    "type": "scientific research",
+    "role": "Environmental and geoscience data collection",
+    "regionOfActivity": "National",
+    "description": "Precursor units to NIWA and GNS Science conducting surveys of climate, water, and geological resources.",
+    "events": [
+      {
+        "date": "1900-01-01",
+        "category": "establishment",
+        "description": "Formed to systematically gather meteorological and geological data across New Zealand."
+      }
+    ]
+  },
+  {
+    "id": "wellington_polytechnic",
+    "name": "Wellington Polytechnic",
+    "type": "vocational education institution",
+    "role": "Technical and applied training",
+    "regionOfActivity": "Wellington",
+    "description": "Provided technical education and vocational training for industrial and service sectors.",
+    "events": [
+      {
+        "date": "1880-01-01",
+        "category": "establishment",
+        "description": "Founded to provide technical education in Wellington, predecessor to WelTec."
+      }
+    ]
+  },
+  {
+    "id": "hawkes_bay_ag_college",
+    "name": "Hawke’s Bay Agricultural College",
+    "type": "educational institution",
+    "role": "Agricultural education",
+    "regionOfActivity": "Hawke’s Bay",
+    "description": "Provided agricultural education and training for regional farmers, precursor to Lincoln University programs.",
+    "events": [
+      {
+        "date": "1895-01-01",
+        "category": "establishment",
+        "description": "Opened to train students in modern agricultural techniques."
+      }
+    ]
+  },
+  {
+    "id": "industrial_training_board",
+    "name": "Industrial Training Board",
+    "type": "vocational training entity",
+    "role": "Apprenticeship and skills development",
+    "regionOfActivity": "National",
+    "description": "Oversaw vocational education standards, apprenticeships, and industrial skills training in various sectors.",
+    "events": [
+      {
+        "date": "1908-01-01",
+        "category": "establishment",
+        "description": "Formed to improve workforce skills and industrial productivity."
+      }
+    ]
+  },
+  {
+    "id": "te_puea_herangi",
+    "name": "Te Puea Herangi",
+    "type": "Māori economic leader",
+    "role": "Economic development and land management",
+    "regionOfActivity": "Waikato",
+    "description": "Key Māori leader who promoted economic development, land management, and social programs for the Waikato-Tainui people.",
+    "events": [
+      {
+        "date": "1929-01-01",
+        "category": "leadership",
+        "description": "Began leadership initiatives focusing on economic self-sufficiency and land development."
+      }
+    ]
+  },
+  {
+    "id": "union_steam_ship_company",
+    "name": "Union Steam Ship Company",
+    "type": "transport enterprise",
+    "role": "Coastal and international shipping",
+    "regionOfActivity": "National / International",
+    "description": "Provided shipping services linking New Zealand ports and overseas trade, supporting industrial and agricultural distribution.",
+    "events": [
+      {
+        "date": "1875-01-01",
+        "category": "founding",
+        "description": "Established to operate steamship services across New Zealand and to international markets."
+      }
+    ]
+  },
+  {
+    "id": "ici_new_zealand",
+    "name": "ICI New Zealand / Ciba-Geigy",
+    "type": "chemical industrial company",
+    "role": "Chemical and pharmaceutical production",
+    "regionOfActivity": "National",
+    "description": "Produced chemicals and pharmaceuticals for industrial, agricultural, and medical use.",
+    "events": [
+      {
+        "date": "1920-01-01",
+        "category": "establishment",
+        "description": "Began operations supplying chemical products to New Zealand industries."
+      }
+    ]
+  },
+
+  
+  {
+    "id": "new_zealand_steel_glenbrook",
+    "name": "New Zealand Steel / Glenbrook Steel Mill",
+    "type": "industrial enterprise",
+    "role": "Steel production and industrial development",
+    "regionOfActivity": "National",
+    "description": "Central facility for steel production, supporting New Zealand’s industrial growth.",
+    "events": [
+      {
+        "date": "1969-01-01",
+        "category": "founding",
+        "description": "Glenbrook Steel Mill established, forming the backbone of New Zealand steel production."
+      }
+    ]
+  },
+  {
+    "id": "todd_corporation",
+    "name": "Todd Corporation",
+    "type": "conglomerate",
+    "role": "Energy and industrial development",
+    "regionOfActivity": "National",
+    "description": "Major energy and industrial conglomerate shaping infrastructure, energy markets, and industrial investment.",
+    "events": [
+      {
+        "date": "1929-01-01",
+        "category": "founding",
+        "description": "Established as a diversified industrial and energy company."
+      }
+    ]
+  },
+  {
+    "id": "fletcher_construction",
+    "name": "Fletcher Construction",
+    "type": "construction company",
+    "role": "Industrial and infrastructure projects",
+    "regionOfActivity": "National",
+    "description": "Primary industrial arm of Fletcher Holdings, responsible for major construction and industrial projects.",
+    "events": [
+      {
+        "date": "1909-01-01",
+        "category": "founding",
+        "description": "Founded to undertake construction and industrial engineering projects across New Zealand."
+      }
+    ]
+  },
+  {
+    "id": "nelson_foundries_engineering",
+    "name": "Nelson Foundries & Engineering Works",
+    "type": "manufacturing enterprise",
+    "role": "Engineering and industrial manufacturing",
+    "regionOfActivity": "Nelson",
+    "description": "Early manufacturing and engineering works supporting industrial development in the region.",
+    "events": [
+      {
+        "date": "1870-01-01",
+        "category": "founding",
+        "description": "Established to provide engineering services and manufacturing capabilities."
+      }
+    ]
+  },
+  {
+    "id": "hawkes_bay_experimental_farm",
+    "name": "Hawkes Bay Experimental Farm",
+    "type": "research institution",
+    "role": "Agricultural research and crop trials",
+    "regionOfActivity": "Hawke’s Bay",
+    "description": "Regional experimental farm conducting agricultural research and testing crop varieties.",
+    "events": [
+      {
+        "date": "1889-01-01",
+        "category": "founding",
+        "description": "Set up to trial crops and advance agricultural science in the Hawke’s Bay region."
+      }
+    ]
+  },
+  {
+    "id": "university_of_canterbury_engineering",
+    "name": "University of Canterbury Faculty of Engineering",
+    "type": "university faculty",
+    "role": "Industrial education and research",
+    "regionOfActivity": "Christchurch",
+    "description": "Key institution providing engineering education and industrial research capabilities.",
+    "events": [
+      {
+        "date": "1923-01-01",
+        "category": "founding",
+        "description": "Faculty established to train engineers for New Zealand’s industrial sector."
+      }
+    ]
+  },
+  {
+    "id": "victoria_university_engineering_industrial",
+    "name": "Victoria University Faculty of Engineering & Industrial Sciences",
+    "type": "university faculty",
+    "role": "Technical education and workforce development",
+    "regionOfActivity": "Wellington",
+    "description": "Faculty providing industrial science and technical education, contributing to workforce training.",
+    "events": [
+      {
+        "date": "1919-01-01",
+        "category": "founding",
+        "description": "Established to support technical education and industrial research."
+      }
+    ]
+  },
+  {
+    "id": "plant_food_research_stations",
+    "name": "Plant & Food Research Regional Stations",
+    "type": "research institution",
+    "role": "Agricultural and horticultural experimentation",
+    "regionOfActivity": "National",
+    "description": "Regional branches conducting agricultural experiments and crop research beyond the main center.",
+    "events": [
+      {
+        "date": "1926-01-01",
+        "category": "establishment",
+        "description": "Branches established to conduct regional agricultural research."
+      }
+    ]
+  },
+  {
+    "id": "nz_oceanographic_institute",
+    "name": "New Zealand Oceanographic Institute",
+    "type": "research institution",
+    "role": "Marine science research",
+    "regionOfActivity": "Wellington",
+    "description": "Focused on marine research, precursor to parts of NIWA.",
+    "events": [
+      {
+        "date": "1962-01-01",
+        "category": "founding",
+        "description": "Institute established to advance oceanographic and marine science research."
+      }
+    ]
+  },
+  {
+    "id": "nz_railways_engineers",
+    "name": "New Zealand Railways Department Engineers",
+    "type": "government technical staff",
+    "role": "Rail infrastructure engineering",
+    "regionOfActivity": "National",
+    "description": "Engineers responsible for designing and maintaining New Zealand’s railway infrastructure.",
+    "events": [
+      {
+        "date": "1870-01-01",
+        "category": "organization",
+        "description": "Technical staff formed to manage railway engineering and development projects."
+      }
+    ]
+  },
+  {
+    "id": "union_steam_ship_engineers",
+    "name": "Union Steam Ship Co Engineers & Technical Staff",
+    "type": "technical staff",
+    "role": "Shipping infrastructure and operations",
+    "regionOfActivity": "National",
+    "description": "Engineers and technical operators managing steamship operations and maintenance.",
+    "events": [
+      {
+        "date": "1875-01-01",
+        "category": "organization",
+        "description": "Technical staff established to operate shipping and support trade networks."
+      }
+    ]
+  },
+  {
+    "id": "lyttelton_port_authority",
+    "name": "Lyttelton Port Authority",
+    "type": "government agency",
+    "role": "Port management and trade facilitation",
+    "regionOfActivity": "Lyttelton",
+    "description": "Managed port operations, critical for industrial and trade development.",
+    "events": [
+      {
+        "date": "1877-01-01",
+        "category": "founding",
+        "description": "Port authority established to oversee shipping and harbor operations."
+      }
+    ]
+  },
+  {
+    "id": "napier_port_authority",
+    "name": "Napier Port Authority",
+    "type": "government agency",
+    "role": "Port management and trade facilitation",
+    "regionOfActivity": "Napier",
+    "description": "Oversaw port infrastructure, supporting regional industrial growth.",
+    "events": [
+      {
+        "date": "1874-01-01",
+        "category": "founding",
+        "description": "Authority established to manage port activities and trade."
+      }
+    ]
+  },
+  {
+    "id": "wellington_port_authority",
+    "name": "Wellington Port Authority",
+    "type": "government agency",
+    "role": "Port management and industrial support",
+    "regionOfActivity": "Wellington",
+    "description": "Managed port operations, enabling trade and industrial expansion.",
+    "events": [
+      {
+        "date": "1880-01-01",
+        "category": "founding",
+        "description": "Established to oversee port facilities and industrial logistics."
+      }
+    ]
+  },
+  {
+    "id": "henry_greenslade",
+    "name": "Henry Greenslade",
+    "type": "individual",
+    "role": "Industrialist and agricultural entrepreneur",
+    "regionOfActivity": "National",
+    "description": "Prominent in wool and farming industries, contributing to agricultural industrialization.",
+    "events": [
+      {
+        "date": "1880-01-01",
+        "category": "career",
+        "description": "Active in promoting agricultural innovation and industrialization."
+      }
+    ]
+  },
+  {
+    "id": "josiah_hanan",
+    "name": "Josiah Hanan",
+    "type": "individual",
+    "role": "Industrial education promoter",
+    "regionOfActivity": "Dunedin",
+    "description": "Promoted technical education and industrial innovation.",
+    "events": [
+      {
+        "date": "1905-01-01",
+        "category": "career",
+        "description": "Contributed to workforce development and industrial technical training."
+      }
+    ]
+  },
+  {
+    "id": "alfred_bankart",
+    "name": "Alfred Bankart",
+    "type": "individual",
+    "role": "Industrialist and manufacturer",
+    "regionOfActivity": "Wellington",
+    "description": "Early industrialist contributing to manufacturing and technical development.",
+    "events": [
+      {
+        "date": "1880-01-01",
+        "category": "career",
+        "description": "Engaged in manufacturing and industrial innovation."
+      }
+    ]
+  },
+  {
+    "id": "percy_avery",
+    "name": "Percy Avery",
+    "type": "individual",
+    "role": "Engineering entrepreneur",
+    "regionOfActivity": "National",
+    "description": "Entrepreneur advancing engineering projects and technical enterprises.",
+    "events": [
+      {
+        "date": "1890-01-01",
+        "category": "career",
+        "description": "Contributed to industrial and engineering entrepreneurship."
+      }
+    ]
+  },
+  {
+    "id": "lincoln_agricultural_college",
+    "name": "Lincoln Agricultural College / Experiment Stations",
+    "type": "educational institution",
+    "role": "Agricultural research and vocational training",
+    "regionOfActivity": "Canterbury",
+    "description": "Provided agricultural education and operated experimental farms for crop and livestock research.",
+    "events": [
+      {
+        "date": "1878-01-01",
+        "category": "founding",
+        "description": "Established to train farmers and conduct agricultural experiments."
+      }
+    ]
+  },
+  {
+    "id": "hawkes_bay_fruitgrowers_societies",
+    "name": "Hawke’s Bay Fruitgrowers & Viticultural Societies",
+    "type": "industry association",
+    "role": "Agricultural innovation and trade",
+    "regionOfActivity": "Hawke’s Bay",
+    "description": "Organized fruit and wine growers to promote experimentation and trade.",
+    "events": [
+      {
+        "date": "1890-01-01",
+        "category": "founding",
+        "description": "Formed to coordinate innovation in horticulture and viticulture."
+      }
+    ]
+  },
+  {
+    "id": "nz_meat_producers_board",
+    "name": "New Zealand Meat Producers Board",
+    "type": "industry board",
+    "role": "Meat processing and export regulation",
+    "regionOfActivity": "National",
+    "description": "Oversaw meat production standards and export procedures, shaping the industry.",
+    "events": [
+      {
+        "date": "1922-01-01",
+        "category": "founding",
+        "description": "Established to coordinate meat production and export operations."
+      }
+    ]
+  },
+  {
+    "id": "wellington_technical_institute",
+    "name": "Wellington Technical Institute",
+    "type": "educational institution",
+    "role": "Technical and vocational education",
+    "regionOfActivity": "Wellington",
+    "description": "Provided industrial apprenticeships and technical training separate from Wellington Technical School.",
+    "events": [
+      {
+        "date": "1890-01-01",
+        "category": "founding",
+        "description": "Founded to provide vocational and technical education for industrial workforce."
+      }
+    ]
+  },
+  {
+    "id": "cpit",
+    "name": "Christchurch Polytechnic Institute of Technology (CPIT)",
+    "type": "educational institution",
+    "role": "Regional technical education",
+    "regionOfActivity": "Christchurch",
+    "description": "Major center for vocational training and industrial apprenticeship programs.",
+    "events": [
+      {
+        "date": "1906-01-01",
+        "category": "founding",
+        "description": "Established to provide industrial and technical education in the region."
+      }
+    ]
+  },
+  {
+    "id": "otago_polytechnic",
+    "name": "Otago Polytechnic",
+    "type": "educational institution",
+    "role": "Technical training and industrial apprenticeships",
+    "regionOfActivity": "Dunedin",
+    "description": "Focused on vocational and industrial education, supporting workforce development.",
+    "events": [
+      {
+        "date": "1870-01-01",
+        "category": "founding",
+        "description": "Established to provide apprenticeships and vocational training for industrial skills."
+      }
+    ]
+  },
+  {
+    "id": "sir_william_martin",
+    "name": "Sir William Martin",
+    "type": "individual",
+    "role": "Legal and scientific contributor",
+    "regionOfActivity": "National",
+    "description": "First Chief Justice of New Zealand and active in scientific societies promoting technical knowledge.",
+    "events": [
+      {
+        "date": "1841-01-01",
+        "category": "career",
+        "description": "Promoted scientific inquiry alongside legal career."
+      }
+    ]
+  },
+  {
+    "id": "sir_george_grey",
+    "name": "Sir George Grey",
+    "type": "individual",
+    "role": "Promoter of technical institutions and industrial exhibitions",
+    "regionOfActivity": "National",
+    "description": "Governor and statesman supporting industrial education and exhibitions to encourage innovation.",
+    "events": [
+      {
+        "date": "1845-01-01",
+        "category": "career",
+        "description": "Advocated for technical education and industrial promotion."
+      }
+    ]
+  },
+  {
+    "id": "thomas_cawthron",
+    "name": "Thomas Cawthron",
+    "type": "individual",
+    "role": "Industrial philanthropist and scientific founder",
+    "regionOfActivity": "Nelson",
+    "description": "Philanthropist behind Cawthron Institute, influential in scientific and technical development.",
+    "events": [
+      {
+        "date": "1875-01-01",
+        "category": "career",
+        "description": "Founded Cawthron Institute and supported scientific research."
+      }
+    ]
+  },
+  {
+    "id": "industrial_exhibitions_committees",
+    "name": "Industrial Exhibitions Committees",
+    "type": "committee",
+    "role": "Technology promotion and industrial exhibition organization",
+    "regionOfActivity": "Regional (Canterbury, Auckland, Wellington)",
+    "description": "Organized regional exhibitions facilitating adoption of industrial technologies.",
+    "events": [
+      {
+        "date": "1880-01-01",
+        "category": "organization",
+        "description": "Established to promote industrial knowledge and technology via exhibitions."
+      }
+    ]
+  },
+  {
+    "id": "vocational_education_boards",
+    "name": "Vocational Education Boards",
+    "type": "government board",
+    "role": "Regional workforce development",
+    "regionOfActivity": "Regional",
+    "description": "Boards responsible for technical and vocational education across regions.",
+    "events": [
+      {
+        "date": "1910-01-01",
+        "category": "organization",
+        "description": "Regional boards formed to oversee industrial and technical workforce training."
+      }
+    ]
+  },
+  {
+    "id": "wellington_electricity_supply",
+    "name": "Wellington Electricity Supply",
+    "type": "utility company",
+    "role": "Industrial power provision",
+    "regionOfActivity": "Wellington",
+    "description": "Provided electricity to support industrial growth and urban development.",
+    "events": [
+      {
+        "date": "1904-01-01",
+        "category": "founding",
+        "description": "Established to supply electricity to the city and industrial users."
+      }
+    ]
+  },
+  {
+    "id": "dunedin_gas_electric_board",
+    "name": "Dunedin Gas and Electric Board",
+    "type": "utility company",
+    "role": "Industrial energy supply",
+    "regionOfActivity": "Dunedin",
+    "description": "Managed gas and electricity provision enabling industrialization of Dunedin.",
+    "events": [
+      {
+        "date": "1905-01-01",
+        "category": "founding",
+        "description": "Formed to provide power and energy to industry and residents."
+      }
+    ]
+  },
+
+  
+  {
+    "id": "a100",
+    "name": "Malaghan Institute of Medical Research",
+    "type": "research institute",
+    "role": "Biomedical Research & Innovation",
+    "regionOfActivity": "Wellington",
+    "description": "Independent medical research institute focused on immunology, cancer, and infectious disease research.",
+    "events": [
+      { "date": "1967", "type": "founding", "description": "Institute established in Wellington to conduct medical research." },
+      { "date": "1990", "type": "research breakthrough", "description": "Developed pioneering immunotherapy techniques for cancer treatment." },
+      { "date": "2000", "type": "expansion", "description": "Opened new research facilities and expanded focus on infectious diseases." }
+    ]
+  },
+  {
+    "id": "a101",
+    "name": "Immigration Board",
+    "type": "government agency",
+    "role": "Immigration Regulation",
+    "regionOfActivity": "National",
+    "description": "Government body responsible for reviewing and approving immigration applications and policies.",
+    "events": [
+      { "date": "1891", "type": "establishment", "description": "Immigration Board created to manage and regulate settler arrivals." },
+      { "date": "1900", "type": "policy change", "description": "Introduced stricter immigration controls and eligibility criteria." },
+      { "date": "1950", "type": "reorganization", "description": "Board functions merged into central Department of Internal Affairs for improved administration." }
+    ]
+  },
+  {
+    "id": "a102",
+    "name": "Provincial Government Immigration Offices",
+    "type": "government office",
+    "role": "Regional Immigration Administration",
+    "regionOfActivity": "Provincial",
+    "description": "Local offices of provincial governments managing immigration administration, applications, and regional settlement.",
+    "events": [
+      { "date": "1853", "type": "establishment", "description": "Provincial immigration offices set up under provincial government system." },
+      { "date": "1860s", "type": "settler support", "description": "Facilitated arrival and settlement of British and European immigrants in provincial towns." },
+      { "date": "1876", "type": "abolishment", "description": "Provincial offices abolished after the centralization of government functions." }
+    ]
+  },
+  {
+    "id": "a103",
+    "name": "Kauri Gum Commission",
+    "type": "government agency",
+    "role": "Natural Resource Management & Trade",
+    "regionOfActivity": "Northland",
+    "description": "Government body overseeing kauri gum extraction, trade, and regulation in New Zealand’s Northland region.",
+    "events": [
+      { "date": "1898", "type": "founding", "description": "Commission established to regulate kauri gum harvesting and sales." },
+      { "date": "1910", "type": "policy implementation", "description": "Introduced licenses and standards for gum extraction and export." },
+      { "date": "1930", "type": "decline", "description": "Commission operations declined as gum industry shrank due to alternative materials." }
+    ]
+  },
+  {
+    "id": "a104",
+    "name": "Isaac Featherston",
+    "type": "individual",
+    "role": "Political Leadership & Provincial Administration",
+    "regionOfActivity": "Wellington / Provincial",
+    "description": "Colonial administrator and politician involved in the development of Wellington province and provincial government reforms.",
+    "events": [
+      { "date": "1840", "type": "arrival", "description": "Arrived in Wellington as colonial administrator." },
+      { "date": "1853", "type": "political office", "description": "Elected Superintendent of Wellington Province, influencing settlement and infrastructure." },
+      { "date": "1860", "type": "policy reform", "description": "Implemented initiatives to improve immigration and provincial governance." }
+    ]
+  }
+
+  ]
+}

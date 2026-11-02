@@ -1,0 +1,107 @@
+{
+  "id": "sgp",
+  "name": "Singapore",
+  "tags": [
+    "Southeast Asia",
+    "City-State",
+    "Trade Hub",
+    "Financial Centre",
+    "Port Economy",
+    "Parliamentary Republic"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Singapore is a sovereign city-state at the southern tip of the Malay Peninsula and one of the world's leading trade and financial hubs. Independent since 1965 after separation from Malaysia, it built prosperity on its strategic strait-side port, rule of law, and openness to capital and talent. Its advanced economy centers on shipping and logistics, financial services, electronics and petrochemicals, with a state-guided development model.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Singapore / Singapura",
+    "flagEmoji": "🇸🇬",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "6.1 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 6100000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 550 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 550000000000
+      },
+      {
+        "id": "area",
+        "value": "735 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 735
+      },
+      {
+        "id": "capital",
+        "value": "Singapore",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Unitary Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Singapore's actor space from colonial entrepot and post-independence industrialization agencies to sovereign wealth funds, multinational regional headquarters, and integrated port-finance governance.",
+        "link": "rep/actor.html?code=sgp"
+      },
+      {
+        "id": "port_finance_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Port and Financial Network Structure",
+        "description": "Network analysis of container terminals, shipping lanes, commodity trading desks, and banking linkages binding the strait-side hub to regional and global value chains.",
+        "link": null
+      },
+      {
+        "id": "city_state_spatial",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "City-State Spatial Structure",
+        "description": "Geospatial representation of port-industrial zones, public housing estates, water reclamation, and land-use intensification on a constrained island territory.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "SGP",
+      "region": "Southeast Asia",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

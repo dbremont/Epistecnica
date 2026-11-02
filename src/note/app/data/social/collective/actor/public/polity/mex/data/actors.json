@@ -1,0 +1,875 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Mexican actors (organizations and institutions) since 1500.",
+    "country": "Mexico",
+    "region": "North America",
+    "flag": "🇲🇽",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Mexico. This dataset traces the formation, transformation, and significant milestones of viceregal, revolutionary, and integration-era entities, from the Casa de Moneda to USMCA supply-chain manufacturers.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Viceroyalty of New Spain",
+      "type": "public",
+      "role": "Colonial administration",
+      "regionOfActivity": "Mexico City",
+      "description": "Silver-economy viceroyalty minting the peso de ocho.",
+      "events": [
+        {
+          "date": "1535-11-08",
+          "category": "birth",
+          "description": "Mendoza takes office as first viceroy"
+        },
+        {
+          "date": "1776-01-01",
+          "category": "transformation",
+          "description": "Bourbon intendancy reform recentralizes rule"
+        },
+        {
+          "date": "1821-09-27",
+          "category": "death",
+          "description": "Trigarante entry ends viceregal rule"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Casa de Moneda de México",
+      "type": "public",
+      "role": "Mint",
+      "regionOfActivity": "Mexico City",
+      "description": "1535 mint striking the first American coinage.",
+      "events": [
+        {
+          "date": "1535-05-11",
+          "category": "birth",
+          "description": "Royal cédula authorizes the mint"
+        },
+        {
+          "date": "1905-03-25",
+          "category": "transformation",
+          "description": "Gold-standard monetary law modernizes coinage"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Banco de México",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Mexico City",
+      "description": "Revolutionary-era central bank inflation-targeting.",
+      "events": [
+        {
+          "date": "1925-08-25",
+          "category": "birth",
+          "description": "Banxico law creates the central bank"
+        },
+        {
+          "date": "1994-04-01",
+          "category": "transformation",
+          "description": "Autonomy granted"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Banamex",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Mexico City",
+      "description": "1884 merger bank sold to Citigroup in 2001.",
+      "events": [
+        {
+          "date": "1884-06-02",
+          "category": "birth",
+          "description": "Banco Nacional Mexicano merger"
+        },
+        {
+          "date": "2001-05-17",
+          "category": "transformation",
+          "description": "Citigroup takeover"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "BBVA México",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Mexico City",
+      "description": "Bancomer lineage leading domestic banking.",
+      "events": [
+        {
+          "date": "1932-10-26",
+          "category": "birth",
+          "description": "Banco de Comercio founded"
+        },
+        {
+          "date": "2000-07-01",
+          "category": "transformation",
+          "description": "BBVA takes control; Bancomer brand follows"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Banorte",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Monterrey",
+      "description": "Regiomontano bank grown into the largest Mexican-owned lender.",
+      "events": [
+        {
+          "date": "1899-07-27",
+          "category": "birth",
+          "description": "Banco Mercantil de Monterrey founded"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "milestone",
+          "description": "Privatization auction won by Garza Laguera group"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Santander México",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Mexico City",
+      "description": "Serfin lineage inside the Spanish group.",
+      "events": [
+        {
+          "date": "1932-01-01",
+          "category": "birth",
+          "description": "Banco de Londres y México Sudamérica era begins"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "transformation",
+          "description": "Santander-Serfin merger"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Nacional Financiera",
+      "type": "public",
+      "role": "Development bank",
+      "regionOfActivity": "Mexico City",
+      "description": "State industrial-finance institution.",
+      "events": [
+        {
+          "date": "1934-07-02",
+          "category": "birth",
+          "description": "Nafin founded"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Pemex",
+      "type": "public",
+      "role": "Oil company",
+      "regionOfActivity": "Mexico City",
+      "description": "1938 expropriation product dominating fiscal oil rents.",
+      "events": [
+        {
+          "date": "1938-03-18",
+          "category": "birth",
+          "description": "Cárdenas decrees expropriation; Pemex formed June 7"
+        },
+        {
+          "date": "1976-01-01",
+          "category": "expansion",
+          "description": "Cantarell supergiant discovered"
+        },
+        {
+          "date": "2013-12-20",
+          "category": "transformation",
+          "description": "Energy reform ends the monopoly"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Comisión Federal de Electricidad",
+      "type": "public",
+      "role": "Electric utility",
+      "regionOfActivity": "Mexico City",
+      "description": "State generator electrifying the republic.",
+      "events": [
+        {
+          "date": "1937-08-14",
+          "category": "birth",
+          "description": "CFE created"
+        },
+        {
+          "date": "1960-09-27",
+          "category": "expansion",
+          "description": "Nationalization of the industry completes"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Telmex and América Móvil",
+      "type": "private",
+      "role": "Telecom group",
+      "regionOfActivity": "Mexico City",
+      "description": "Privatized monopoly turned Slim's continental carrier.",
+      "events": [
+        {
+          "date": "1947-01-01",
+          "category": "birth",
+          "description": "Teléfonos de México founded"
+        },
+        {
+          "date": "1990-12-10",
+          "category": "transformation",
+          "description": "Privatization to Grupo Carso"
+        },
+        {
+          "date": "2000-09-25",
+          "category": "founding",
+          "description": "América Móvil spun off; continental expansion follows"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Televisa",
+      "type": "private",
+      "role": "Media group",
+      "regionOfActivity": "Mexico City",
+      "description": "Azcárraga television empire shaping Spanish-language media.",
+      "events": [
+        {
+          "date": "1951-03-21",
+          "category": "birth",
+          "description": "Canal 2 XEW-TV launches"
+        },
+        {
+          "date": "1973-01-08",
+          "category": "founding",
+          "description": "Telesistema-TIM merger forms Televisa"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "TV Azteca",
+      "type": "private",
+      "role": "Broadcaster",
+      "regionOfActivity": "Mexico City",
+      "description": "Privatized state channels turned Salinas media arm.",
+      "events": [
+        {
+          "date": "1993-07-18",
+          "category": "transformation",
+          "description": "Imevisión auction creates TV Azteca"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Grupo Bimbo",
+      "type": "private",
+      "role": "Bakery group",
+      "regionOfActivity": "Mexico City",
+      "description": "Family bakery grown into the world's largest baker.",
+      "events": [
+        {
+          "date": "1945-12-02",
+          "category": "birth",
+          "description": "Panificación Bimbo founded"
+        },
+        {
+          "date": "2011-01-01",
+          "category": "expansion",
+          "description": "Sara Lee North America takeover"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "FEMSA",
+      "type": "private",
+      "role": "Beverage and retail group",
+      "regionOfActivity": "Monterrey",
+      "description": "Cuauhtémoc brewery lineage owning OXXO and Coca-Cola FEMSA.",
+      "events": [
+        {
+          "date": "1890-11-08",
+          "category": "birth",
+          "description": "Cervecería Cuauhtémoc founded"
+        },
+        {
+          "date": "1978-01-01",
+          "category": "milestone",
+          "description": "OXXO stores launch"
+        },
+        {
+          "date": "1993-01-01",
+          "category": "founding",
+          "description": "Coca-Cola FEMSA joint venture"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Grupo Modelo",
+      "type": "private",
+      "role": "Brewer",
+      "regionOfActivity": "Mexico City",
+      "description": "Corona brewer absorbed into AB InBev.",
+      "events": [
+        {
+          "date": "1925-10-25",
+          "category": "birth",
+          "description": "Cervecería Modelo founded"
+        },
+        {
+          "date": "2013-06-04",
+          "category": "transformation",
+          "description": "AB InBev takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Arca Continental",
+      "type": "private",
+      "role": "Bottler",
+      "regionOfActivity": "Monterrey",
+      "description": "Topo Chico bottler turned Coca-Cola major.",
+      "events": [
+        {
+          "date": "1895-01-01",
+          "category": "birth",
+          "description": "Topo Chico water company founded"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "founding",
+          "description": "Procor-Argos merger forms Embotelladoras Arca"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Cemex",
+      "type": "private",
+      "role": "Cement group",
+      "regionOfActivity": "Monterrey",
+      "description": "Regiomontano cement maker gone global.",
+      "events": [
+        {
+          "date": "1906-05-31",
+          "category": "birth",
+          "description": "Cementos Hidalgo founded"
+        },
+        {
+          "date": "1976-01-01",
+          "category": "founding",
+          "description": "Cementos Mexicanos merger forms Cemex"
+        },
+        {
+          "date": "2007-09-18",
+          "category": "expansion",
+          "description": "Rinker takeover extends into Australia"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Grupo México",
+      "type": "private",
+      "role": "Mining group",
+      "regionOfActivity": "Mexico City",
+      "description": "Larrea copper empire with US railroads.",
+      "events": [
+        {
+          "date": "1942-01-01",
+          "category": "birth",
+          "description": "Asarco Mexicana roots; Grupo México era follows"
+        },
+        {
+          "date": "2005-03-31",
+          "category": "expansion",
+          "description": "Southern Copper control consolidated"
+        },
+        {
+          "date": "2023-01-01",
+          "category": "transformation",
+          "description": "Rail division IPO funds expansion"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Industrias Peñoles",
+      "type": "private",
+      "role": "Mining group",
+      "regionOfActivity": "Mexico City",
+      "description": "Baillères silver-zinc balance-sheet anchor.",
+      "events": [
+        {
+          "date": "1887-03-01",
+          "category": "birth",
+          "description": "Compañía Minera de Peñoles founded"
+        },
+        {
+          "date": "1968-01-01",
+          "category": "founding",
+          "description": "Fresnillo spin-off; Peñoles holding era"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Fresnillo",
+      "type": "private",
+      "role": "Silver miner",
+      "regionOfActivity": "Mexico City",
+      "description": "London-listed primary-silver producer.",
+      "events": [
+        {
+          "date": "2008-05-09",
+          "category": "birth",
+          "description": "Fresnillo listing on the LSE"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Alfa",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Monterrey",
+      "description": "HYLSA steel lineage split into food, pellets and telecom parts.",
+      "events": [
+        {
+          "date": "1943-01-01",
+          "category": "birth",
+          "description": "Hojalata y Lámina founded"
+        },
+        {
+          "date": "1974-01-01",
+          "category": "founding",
+          "description": "Grupo Alfa holding formed"
+        },
+        {
+          "date": "2020-01-01",
+          "category": "transformation",
+          "description": "Nemak spin-off begins the breakup"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Vitro",
+      "type": "private",
+      "role": "Glassmaker",
+      "regionOfActivity": "Monterrey",
+      "description": "Vidriera Monterrey lineage in glass containers.",
+      "events": [
+        {
+          "date": "1909-01-01",
+          "category": "birth",
+          "description": "Vidriera Monterrey founded"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Grupo Carso",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Mexico City",
+      "description": "Slim holding from retail to telecoms and infrastructure.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Grupo Galas-Carso Inversiones formed"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "expansion",
+          "description": "Telmex privatization anchors the empire"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Aeroméxico",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Mexico City",
+      "description": "Privatized flag carrier through bankruptcy renewal.",
+      "events": [
+        {
+          "date": "1934-09-14",
+          "category": "birth",
+          "description": "Aeronaves de México founded"
+        },
+        {
+          "date": "2007-10-17",
+          "category": "transformation",
+          "description": "Banamex-led privatization"
+        },
+        {
+          "date": "2022-03-17",
+          "category": "milestone",
+          "description": "Chapter 11 exit completes"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Ferromex",
+      "type": "private",
+      "role": "Railway concession",
+      "regionOfActivity": "Mexico City",
+      "description": "Grupo México railroad concession.",
+      "events": [
+        {
+          "date": "1998-02-19",
+          "category": "birth",
+          "description": "Ferrocarril Mexicano concession granted"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Liverpool",
+      "type": "private",
+      "role": "Department-store group",
+      "regionOfActivity": "Mexico City",
+      "description": "J.B. Ebrard lineage leading Mexican retail.",
+      "events": [
+        {
+          "date": "1847-01-01",
+          "category": "birth",
+          "description": "El Puerto de Liverpool shop founded"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Walmex",
+      "type": "private",
+      "role": "Retailer",
+      "regionOfActivity": "Mexico City",
+      "description": "Cifra lineage turned Walmart's largest foreign unit.",
+      "events": [
+        {
+          "date": "1958-01-01",
+          "category": "birth",
+          "description": "Aurrerá founded"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "transformation",
+          "description": "Walmart takes control; Walmex era"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "OXXO",
+      "type": "private",
+      "role": "Convenience chain",
+      "regionOfActivity": "Monterrey",
+      "description": "FEMSA proximity-retail empire and fintech springboard.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "First OXXO opens in Monterrey"
+        },
+        {
+          "date": "2019-01-01",
+          "category": "expansion",
+          "description": "Spin by OXXO fintech launched"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "El Universal",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "Mexico City",
+      "description": "Revolutionary-era daily of record.",
+      "events": [
+        {
+          "date": "1916-10-01",
+          "category": "birth",
+          "description": "El Universal founded by Palavicini"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Excélsior",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "Mexico City",
+      "description": "Cooperative daily turned Imagen media arm.",
+      "events": [
+        {
+          "date": "1917-03-18",
+          "category": "birth",
+          "description": "Excélsior founded"
+        },
+        {
+          "date": "1976-07-08",
+          "category": "transformation",
+          "description": "Scherer ouster; cooperative era begins"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "UNAM",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Mexico City",
+      "description": "1551 studium turned Latin America's mega-university.",
+      "events": [
+        {
+          "date": "1551-09-21",
+          "category": "birth",
+          "description": "Real y Pontificia Universidad chartered"
+        },
+        {
+          "date": "1929-07-26",
+          "category": "transformation",
+          "description": "Autonomy granted"
+        },
+        {
+          "date": "1954-01-01",
+          "category": "expansion",
+          "description": "Ciudad Universitaria inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Instituto Politécnico Nacional",
+      "type": "public",
+      "role": "Technical institute",
+      "regionOfActivity": "Mexico City",
+      "description": "Cárdenas-era polytechnic for industrialization.",
+      "events": [
+        {
+          "date": "1936-01-02",
+          "category": "birth",
+          "description": "IPN founded"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "CONAHCYT",
+      "type": "public",
+      "role": "Science agency",
+      "regionOfActivity": "Mexico City",
+      "description": "Post-revolutionary science council, renamed 2023.",
+      "events": [
+        {
+          "date": "1970-12-29",
+          "category": "birth",
+          "description": "CONACYT created"
+        },
+        {
+          "date": "2023-05-08",
+          "category": "transformation",
+          "description": "CONAHCYT law adds humanities mandate"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Colegio de México",
+      "type": "hybrid",
+      "role": "Research college",
+      "regionOfActivity": "Mexico City",
+      "description": "Casa de España exile lineage turned elite college.",
+      "events": [
+        {
+          "date": "1940-10-08",
+          "category": "birth",
+          "description": "Casa de España founded; Colmex follows"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "CTM",
+      "type": "private",
+      "role": "Labor confederation",
+      "regionOfActivity": "Mexico City",
+      "description": "PRI-era labor central.",
+      "events": [
+        {
+          "date": "1936-02-24",
+          "category": "birth",
+          "description": "CTM founded under Lombardo Toledano"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "CCE",
+      "type": "private",
+      "role": "Business council",
+      "regionOfActivity": "Mexico City",
+      "description": "Peak private-sector coordinator.",
+      "events": [
+        {
+          "date": "1975-08-05",
+          "category": "birth",
+          "description": "Consejo Coordinador Empresarial founded"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Nacional Monte de Piedad",
+      "type": "hybrid",
+      "role": "Pawnshop charity",
+      "regionOfActivity": "Mexico City",
+      "description": "Tereros-founded microcredit charity.",
+      "events": [
+        {
+          "date": "1775-02-25",
+          "category": "birth",
+          "description": "Sacro y Real Monte de Piedad founded"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "José Cuervo and Becle",
+      "type": "private",
+      "role": "Spirits group",
+      "regionOfActivity": "Tequila",
+      "description": "1758 tequila lineage listed as Becle.",
+      "events": [
+        {
+          "date": "1758-01-01",
+          "category": "birth",
+          "description": "Cuervo family land grant; distilling begins"
+        },
+        {
+          "date": "2017-02-09",
+          "category": "transformation",
+          "description": "Becle IPO"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Grupo Lala",
+      "type": "private",
+      "role": "Dairy group",
+      "regionOfActivity": "Gómez Palacio",
+      "description": "Laguna cooperative turned listed dairy leader.",
+      "events": [
+        {
+          "date": "1949-01-01",
+          "category": "birth",
+          "description": "Unión de Productores de Leche founded"
+        },
+        {
+          "date": "2013-10-16",
+          "category": "transformation",
+          "description": "Listing on the BMV"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Volaris",
+      "type": "private",
+      "role": "Low-cost airline",
+      "regionOfActivity": "Mexico City",
+      "description": "Discovery-backed ultra-low-cost carrier.",
+      "events": [
+        {
+          "date": "2005-08-23",
+          "category": "birth",
+          "description": "Vuela Airlines founded; Volaris brand 2006"
+        },
+        {
+          "date": "2013-09-18",
+          "category": "milestone",
+          "description": "NYSE-BMV dual listing"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Orbia",
+      "type": "private",
+      "role": "Chemicals group",
+      "regionOfActivity": "Mexico City",
+      "description": "Mexichem fluor-polymer lineage rebranded for sustainability.",
+      "events": [
+        {
+          "date": "1953-01-01",
+          "category": "birth",
+          "description": "Mexichem founded as chemical producer"
+        },
+        {
+          "date": "2019-09-05",
+          "category": "transformation",
+          "description": "Orbia rebrand"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Inbursa",
+      "type": "private",
+      "role": "Financial group",
+      "regionOfActivity": "Mexico City",
+      "description": "Slim insurance-banking arm.",
+      "events": [
+        {
+          "date": "1965-01-01",
+          "category": "birth",
+          "description": "Seguros de México lineage begins; Inbursa era follows"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "founding",
+          "description": "Grupo Financiero Inbursa formed"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Banobras",
+      "type": "public",
+      "role": "Development bank",
+      "regionOfActivity": "Mexico City",
+      "description": "Public-works and municipal lender.",
+      "events": [
+        {
+          "date": "1933-02-20",
+          "category": "birth",
+          "description": "Banco Nacional Hipotecario founded; Banobras era follows"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "irl",
+  "name": "Ireland",
+  "tags": [
+    "Western Europe",
+    "European Union",
+    "Small Open Economy",
+    "FDI-Driven",
+    "Eurozone",
+    "Common Law"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Ireland is a sovereign parliamentary republic in Western Europe occupying most of the island of Ireland. Since the late 20th century, it has transformed into a high-income, small open economy characterized by strong foreign direct investment inflows, a competitive corporate tax regime, and specialization in pharmaceuticals, information technology, and financial services within the European Union framework.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Éire / Ireland",
+    "flagEmoji": "🇮🇪",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "5.3 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 5300000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 550 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 550000000000
+      },
+      {
+        "id": "area",
+        "value": "70,273 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 70273
+      },
+      {
+        "id": "capital",
+        "value": "Dublin",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Ireland’s actor space from colonial administration and independence to state-led development, EU integration, and FDI-driven multinational clustering.",
+        "link": "rep/actor.html?code=irl"
+      },
+      {
+        "id": "economic_transformation",
+        "type": "Temporal",
+        "status": "pending",
+        "title": "Economic Transformation Dynamics",
+        "description": "Structured timeline of Ireland’s shift from agrarian economy to export-oriented, knowledge-intensive sectors during the Celtic Tiger period and beyond.",
+        "link": null
+      },
+      {
+        "id": "multinational_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Multinational Corporate Network Structure",
+        "description": "Network analysis of multinational enterprises operating in Ireland, sectoral concentration patterns, and integration into EU and global value chains.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "IRL",
+      "region": "Western Europe",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}
