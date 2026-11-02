@@ -25,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check index-status index-list index-background notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -56,6 +56,12 @@ ees-check: ## validate the EES tree store (src/note/app/data/epistemica/ees.json
 	python3 bin/ees_check.py
 
 rees-check: ees-check
+
+glossarium-index: ## rebuild the lexical corpus index (after any terms.json change)
+	python3 bin/build_glossarium_index.py
+
+qa-index: ## rebuild the Q/A log index (after any qa.json change)
+	python3 bin/build_qa_index.py
 
 atlas-index: ## rebuild the technica atlas store (after any technica corpus change)
 	python3 bin/build_technica_atlas.py

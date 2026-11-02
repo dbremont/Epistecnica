@@ -95,6 +95,34 @@ def corpus_entries() -> list:
             "excerpt": excerpt(n.get("text", "")),
         })
 
+    # Optional corpora: indexed when present, skipped otherwise (a partial
+    # `make index --only search` still works).
+    gloss = app / "glossarium" / "app" / "data" / "index.json"
+    if gloss.is_file():
+        for t in json.loads(gloss.read_text(encoding="utf-8")).get("terms", []):
+            entries.append({
+                "surface": "glossarium",
+                "kind": "term",
+                "type": "term",
+                "title": t.get("name", ""),
+                "path": t.get("slug", ""),
+                "tags": [],
+                "excerpt": t.get("excerpt", ""),
+            })
+
+    qa = app / "qa" / "app" / "data" / "qa-index.json"
+    if qa.is_file():
+        for e in json.loads(qa.read_text(encoding="utf-8")).get("entries", []):
+            entries.append({
+                "surface": "qa",
+                "kind": "qa",
+                "type": e.get("status", "open"),
+                "title": e.get("question", ""),
+                "path": e.get("id", ""),
+                "tags": e.get("tags", []),
+                "excerpt": e.get("excerpt", ""),
+            })
+
     return entries
 
 

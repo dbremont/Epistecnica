@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q/A Log · Epistecnica</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="description" content="Search and read the agent Q/A log.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/shared/theme.css">
+    <style>
+        body { max-width: 960px; margin: 0 auto; padding: 24px 20px 48px; }
+        header { margin-bottom: 20px; }
+        header h1 { font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: 2rem; color: var(--text-primary); }
+        header p { color: var(--text-secondary); font-size: 0.9rem; }
+        .controls { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+        .controls input, .controls select { flex: 1 1 160px; }
+        .stats { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 12px; }
+        .card { display: block; padding: 14px 16px; margin-bottom: 10px; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); color: inherit; text-decoration: none; }
+        .card:hover { border-color: rgba(201,149,108,0.35); text-decoration: none; }
+        .card .q { color: var(--text-primary); font-size: 0.95rem; }
+        .card .meta { margin-top: 6px; font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted); }
+        .tag { display: inline-block; margin-right: 6px; padding: 1px 8px; border: 1px solid var(--border-medium); border-radius: 20px; font-size: 0.68rem; color: var(--accent-cyan); }
+        .status-open { color: var(--accent-amber); }
+        .status-answered { color: var(--accent-sage); }
+        nav.top { margin-bottom: 16px; font-size: 0.8rem; }
+        .pager { display: flex; gap: 12px; align-items: center; margin-top: 16px; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <nav class="top"><a href="/">Epistecnica</a> · Q/A Log</nav>
+    <header>
+        <span class="ng-eyebrow">Laboratorium · Interrogation log</span>
+        <h1>Q/A Log</h1>
+        <p>Every question the agents worked through — searchable. Open an entry to read the answer.</p>
+    </header>
+    <div class="stats" id="stats">loading…</div>
+    <div class="controls">
+        <input class="ng-search" id="q" type="search" placeholder="search questions…  ( / )" autocomplete="off">
+        <select class="ng-search" id="f-agent"><option value="">all agents</option></select>
+        <select class="ng-search" id="f-run"><option value="">all runs</option></select>
+        <select class="ng-search" id="f-status"><option value="">open + answered</option><option value="open">open</option><option value="answered">answered</option><option value="deferred">deferred</option></select>
+    </div>
+    <div id="tags"></div>
+    <main id="list"></main>
+    <div class="pager">
+        <button class="ng-button" id="prev">← prev</button>
+        <span id="page"></span>
+        <button class="ng-button" id="next">next →</button>
+    </div>
+    <script>
+    (function () {
+        'use strict';
+        var entries = [], filtered = [], page = 0, PER = 50;
+        var $ = function (id) { return document.getElementById(id); };
+        var params = new URLSearchParams(location.search);
+        var activeTag = params.get('tag') || '';
+
+        function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
+        function hl(text, q) {
+            var e = esc(text);
+            if (!q) return e;
+            var i = String(text).toLowerCase().indexOf(q);
+            if (i < 0) return e;
+            return esc(String(text).slice(0, i)) + '<mark>' + esc(String(text).slice(i, i + q.length)) + '</mark>' + esc(String(text).slice(i + q.length));
+        }
+        function apply() {
+            var q = $('q').value.trim().toLowerCase();
+            var ag = $('f-agent').value, run = $('f-run').value, st = $('f-status').value;
+            filtered = entries.filter(function (e) {
+                if (ag && e.agent !== ag) return false;
+                if (run && e.run !== run) return false;
+                if (st && e.status !== st) return false;
+                if (activeTag && (e.tags || []).indexOf(activeTag) < 0) return false;
+                if (q && (e.text || '').indexOf(q) < 0) return false;
+                return true;
+            });
+            page = 0;
+            render();
+        }
+        function render() {
+            var q = $('q').value.trim().toLowerCase();
+            var total = Math.max(1, Math.ceil(filtered.length / PER));
+            page = Math.min(page, total - 1);
+            var slice = filtered.slice(page * PER, page * PER + PER);
+            $('stats').textContent = filtered.length + ' / ' + entries.length + ' questions';
+            $('page').textContent = 'page ' + (page + 1) + ' / ' + total;
+            $('list').innerHTML = slice.map(function (e) {
+                var tags = (e.tags || []).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('');
+                return '<a class="card" href="entry.html?id=' + encodeURIComponent(e.id) + '">' +
+                    '<div class="q">' + hl(e.question, q) + '</div>' +
+                    '<div class="meta"><span class="status-' + esc(e.status || 'open') + '">' + esc(e.status || 'open') + '</span>' +
+                    ' · ' + esc(e.id) + ' · ' + esc(e.agent || '') + ' · ' + esc(e.run || '') + ' · ' + esc(e.date || '') + '</div>' +
+                    (tags ? '<div style="margin-top:6px">' + tags + '</div>' : '') + '</a>';
+            }).join('') || '<p><em>No matches.</em></p>';
+        }
+        fetch('data/qa-index.json', { headers: { Accept: 'application/json' } })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (idx) {
+                entries = idx.entries || [];
+                var agents = {}, runs = {}, tags = {};
+                entries.forEach(function (e) {
+                    if (e.agent) agents[e.agent] = 1;
+                    if (e.run) runs[e.run] = 1;
+                    (e.tags || []).forEach(function (t) { tags[t] = (tags[t] || 0) + 1; });
+                });
+                Object.keys(agents).sort().forEach(function (a) {
+                    var o = document.createElement('option'); o.value = a; o.textContent = a; $('f-agent').appendChild(o);
+                });
+                Object.keys(runs).sort().forEach(function (r) {
+                    var o = document.createElement('option'); o.value = r; o.textContent = r; $('f-run').appendChild(o);
+                });
+                $('tags').innerHTML = Object.keys(tags).sort().map(function (t) {
+                    return '<a class="tag" href="?tag=' + encodeURIComponent(t) + '"' + (t === activeTag ? ' style="border-color:var(--accent-copper)"' : '') + '>' + esc(t) + ' (' + tags[t] + ')</a>';
+                }).join(' ') + (activeTag ? ' <a href="./">clear</a>' : '');
+                var pq = params.get('q'); if (pq) $('q').value = pq;
+                apply();
+            })
+            .catch(function () { $('stats').textContent = 'index unavailable — run: python bin/build_qa_index.py'; });
+        $('q').addEventListener('input', function () { apply(); });
+        $('f-agent').addEventListener('change', apply);
+        $('f-run').addEventListener('change', apply);
+        $('f-status').addEventListener('change', apply);
+        $('prev').addEventListener('click', function () { if (page > 0) { page--; render(); } });
+        $('next').addEventListener('click', function () { page++; render(); });
+        document.addEventListener('keydown', function (e) {
+            var el = document.activeElement;
+            var typing = !!el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.tagName === 'SELECT');
+            if (e.key === '/' && !typing) { e.preventDefault(); $('q').focus(); }
+        });
+    })();
+    </script>
+</body>
+</html>

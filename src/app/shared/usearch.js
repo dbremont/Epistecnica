@@ -44,7 +44,9 @@
     var UGROUPS = [
         ['note', 'Notes'],
         ['course', 'Courses & lectures'],
-        ['document', 'Documents']
+        ['document', 'Documents'],
+        ['glossarium', 'Glossarium'],
+        ['qa', 'Q/A log']
     ];
 
     function uesc(s) {
@@ -67,6 +69,8 @@
             return e.kind === 'course' ? root + 'course/course.html?c=' + p : root + 'course/lecture.html?l=' + p;
         }
         if (e.surface === 'document') return root + 'document/document.html?d=' + p;
+        if (e.surface === 'glossarium') return root + 'glossarium/?t=' + encodeURIComponent(e.path);
+        if (e.surface === 'qa') return root + 'qa/entry.html?id=' + encodeURIComponent(e.path);
         return '#';
     }
 

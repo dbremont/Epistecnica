@@ -5,6 +5,8 @@ COPY src/app/ src/app/
 COPY src/note/ src/note/
 COPY src/course/ src/course/
 COPY src/document/ src/document/
+COPY src/glossarium/ src/glossarium/
+COPY src/qa/ src/qa/
 COPY img/ img/
 ENV PYTHONUNBUFFERED=1
 # The generated corpus indexes are gitignored — build them into the image.

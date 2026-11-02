@@ -16,6 +16,10 @@ One stdlib HTTP server serving the local surfaces:
   /document/...         -> static files from src/document/app/ (documents
                            catalog, viewer, corpus, generated search
                            index)
+  /glossarium/...       -> static files from src/glossarium/app/ (the lexical
+                           corpus: catalog, term view, select-a-word lookup)
+  /qa/...               -> static files from src/qa/app/ (the Q/A log: catalog
+                           and single-entry viewer over data/qa.json)
   /shared/...           -> static files from src/app/shared/ (the nav search
                            included by every surface)
   /assets/...           -> static files from src/app/assets/ (the shared
@@ -78,6 +82,12 @@ COURSE_MOUNT = "src/course/app"
 
 DOCUMENT_PREFIX = "/document"
 DOCUMENT_MOUNT = "src/document/app"
+
+GLOSSARIUM_PREFIX = "/glossarium"
+GLOSSARIUM_MOUNT = "src/glossarium/app"
+
+QA_PREFIX = "/qa"
+QA_MOUNT = "src/qa/app"
 
 GRAPH_PREFIX = "/graph"
 GRAPH_MOUNT = "src/app/graph"
@@ -149,6 +159,8 @@ class HubHandler(SimpleHTTPRequestHandler):
             (NOTES_PREFIX, NOTES_MOUNT),
             (COURSE_PREFIX, COURSE_MOUNT),
             (DOCUMENT_PREFIX, DOCUMENT_MOUNT),
+            (GLOSSARIUM_PREFIX, GLOSSARIUM_MOUNT),
+            (QA_PREFIX, QA_MOUNT),
         ):
             if clean == prefix or clean == prefix + "/":
                 rel = mount + "/"
@@ -389,6 +401,8 @@ def main():
         ("shared", SHARED_MOUNT),
         ("course", COURSE_MOUNT),
         ("document", DOCUMENT_MOUNT),
+        ("glossarium", GLOSSARIUM_MOUNT),
+        ("qa", QA_MOUNT),
     ):
         app_dir = REPO / mount
         if not app_dir.is_dir():

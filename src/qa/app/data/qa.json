@@ -1,0 +1,65 @@
+[
+  {
+    "id": "qa-00001",
+    "question": "In what material forms do chemical elements naturally occur? To what extent do they exist as isolated elements versus being chemically or structurally incorporated into higher-order substances and systems such as compounds, minerals, rocks, fluids, and biological matter?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-001",
+    "date": "2026-09-30",
+    "source": "manual",
+    "tags": [
+      "nature",
+      "chemical-elements",
+      "material-forms"
+    ],
+    "status": "open"
+  },
+  {
+    "id": "qa-00002",
+    "question": "Why does Singapore use the GIC?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-002",
+    "date": "2026-10-07",
+    "source": "manual",
+    "tags": [
+      "singapore",
+      "gic",
+      "sovereign-wealth",
+      "economic"
+    ],
+    "status": "open"
+  },
+  {
+    "id": "qa-00003",
+    "question": "How do currency markets work in Singapore?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-003",
+    "date": "2026-10-07",
+    "source": "manual",
+    "tags": [
+      "singapore",
+      "currency",
+      "monetary-authority",
+      "economic"
+    ],
+    "status": "open"
+  },
+  {
+    "id": "qa-00004",
+    "question": "How does Singapore's external economic interaction happen?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-004",
+    "date": "2026-10-07",
+    "source": "manual",
+    "tags": [
+      "singapore",
+      "trade",
+      "external-economic",
+      "economic"
+    ],
+    "status": "open"
+  }
+]
