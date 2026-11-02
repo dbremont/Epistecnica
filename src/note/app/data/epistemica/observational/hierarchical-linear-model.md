@@ -2,7 +2,7 @@
 tags: [probability]
 ---
 
-# Hierarchical Linear Models
+# Hierarchical Linear Model
 
 
 > Models that account for data with nested structures or multiple levels of variation.

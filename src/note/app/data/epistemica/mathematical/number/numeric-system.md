@@ -49,11 +49,23 @@ tags: [quantity]
 | **Quinary Numerals** | A base-5 numeral system used in various ancient cultures. | Positional, base-5 |
 | **Duodecimal Numerals** | A base-12 numeral system used in multiple ancient cultures. | Positional, base-12 |
 
+## Which Number Construction Principles Ground Non-Positional Numeral Systems?
+
+| Principle | Description | Case |
+|---|---|---|
+| **Additive** | A numeral is constructed by combining symbols whose numerical values are summed. | Egyptian, Hebrew, Greek alphabetic numerals |
+| **Subtractive** | A symbol's value is subtracted from the value of a subsequent, larger-valued symbol. | Roman: IV = 5 − 1 = 4 |
+| **Multiplicative** | A coefficient symbol is multiplied by a symbol representing a numerical magnitude. | Chinese: 三百 = 3 × 100 |
+| **Additive-Multiplicative** | Multiplication constructs magnitude groups, which are subsequently combined through addition. | Chinese: 三百二十五 = 3 × 100 + 2 × 10 + 5 |
+| **Repetitive (Unary)** | A quantity is represented through the repetition of a symbol or mark representing one unit. | Tally marks: |||| = 4 |
+| **Grouping** | Individual units are organized into groups, with distinct symbols or marks representing particular group sizes. | Egyptian numerals; tally marks grouped in fives |
+
 ## References
 
-- https://en.wikipedia.org/wiki/Numeral_system
-- https://es.wikipedia.org/wiki/Numeraci%C3%B3n_romana
-- https://en.wikipedia.org/wiki/List_of_numeral_systems
-- https://en.wikipedia.org/wiki/List_of_numeral_system_topics
-- https://en.wikipedia.org/wiki/History_of_ancient_numeral_systems
-- https://en.wikipedia.org/wiki/Non-standard_positional_numeral_systems
+- [Numeral system](https://en.wikipedia.org/wiki/Numeral_system)
+- [List of numeral systems](https://en.wikipedia.org/wiki/List_of_numeral_systems)
+- [Roman numeral system (Spanish)](https://es.wikipedia.org/wiki/Numeraci%C3%B3n_romana)
+- [History of ancient numeral systems](https://en.wikipedia.org/wiki/History_of_ancient_numeral_systems)
+- [Non-standard positional numeral systems](https://en.wikipedia.org/wiki/Non-standard_positional_numeral_systems)
+- [List of numeral system topics](https://en.wikipedia.org/wiki/List_of_numeral_system_topics)
+

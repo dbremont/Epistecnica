@@ -1,5 +1,5 @@
 ---
-tags: [epistemology, representation, modelling, identifiability]
+tags: [epistemology, representation, modelling, identifiability, todo]
 qa:
   - What is the modelling instance — the map $f_\theta: X \to Y$, the model artifact, the practice, or the identification problem that binds them?
   - Why is $Y$ a datum in inverse problems and the unknown in forward problems, and what stays invariant across the problem types?
