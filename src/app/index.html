@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epistecnica</title>
     <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
-    <meta name="description" content="Epistecnica is a guide to the two fundamental dimensions of human agency — knowing and acting — with personal notes and a corpus extending the Naturgnosis universal index.">
+    <meta name="description" content="Epistecnica is a guide to the two fundamental dimensions of human agency — knowing and acting — with personal notes and a corpus inside Autoregia, the Personal Knowledge System.">
     <link rel="icon" href="img/favicon.ico">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <meta property="og:title" content="Epistecnica">
-    <meta property="og:description" content="A guide to knowing and acting: personal notes and a corpus extending the Naturgnosis universal index.">
+    <meta property="og:description" content="A guide to knowing and acting: personal notes and a corpus inside Autoregia, the Personal Knowledge System.">
     <meta property="og:image" content="img/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -196,6 +196,14 @@
             color: var(--accent-gold);
         }
 
+        .lede a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-medium);
+        }
+
+        .lede a:hover { border-bottom-color: var(--accent-cyan); }
+
         /* ---------- index ---------- */
 
         .index { padding: 0; }
@@ -226,12 +234,20 @@
 
         .groups {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 2.25rem 0;
         }
 
-        .group { padding-right: 2.5rem; }
-        .group + .group { padding-right: 0; padding-left: 2.5rem; border-left: 1px solid var(--border-subtle); }
+        .group { padding-right: 2.5rem; min-width: 0; }
+        .group:nth-child(even) {
+            padding-right: 0;
+            padding-left: 2.5rem;
+            border-left: 1px solid var(--border-subtle);
+        }
+        .group:nth-child(n + 3) {
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
 
         .group-label {
             font-family: var(--font-mono);
@@ -374,9 +390,13 @@
         }
 
         @media (max-width: 860px) {
-            .groups { grid-template-columns: 1fr; }
+            .groups { grid-template-columns: 1fr; gap: 2rem 0; }
             .group { padding-right: 0; }
-            .group + .group { padding-left: 0; border-left: none; margin-top: 2rem; }
+            .group:nth-child(even) { padding-left: 0; border-left: none; }
+            .group:nth-child(n + 2) {
+                padding-top: 2rem;
+                border-top: 1px solid var(--border-subtle);
+            }
             .entry { grid-template-columns: 7.5rem 1fr auto; }
             .foot-inner { flex-direction: column; align-items: flex-start; }
             .nav-inner { flex-wrap: wrap; row-gap: 0.6rem; }
@@ -410,7 +430,8 @@
             <p class="lede">
                 Epistecnica is a guide to two coupled modes of human agency:
                 <em>world modelling</em> (epistemic practice, representation) and <em>acting</em>. These are personal notes &mdash; useful for my practice.
-                This project is an extension of the universal index &mdash; that is, Naturgnosis.
+                It is one corpus inside <em>Autoregia</em>, the Personal Knowledge System,
+                whose own index lives at <a href="http://localhost:8088/pks/">localhost:8088/pks/</a>.
             </p>
         </header>
 
@@ -420,13 +441,15 @@
                 <span class="rule"></span>
             </div>
 
+            <!-- The external index lives in Autoregia (the Personal Knowledge
+                 System); change the base here and in the footer together. -->
             <nav class="groups" aria-label="Index of surfaces">
-                <section class="group" aria-labelledby="group-here">
-                    <h2 class="group-label" id="group-here">Here</h2>
+                <section class="group" aria-labelledby="group-corpus">
+                    <h2 class="group-label" id="group-corpus">Corpus</h2>
                     <div class="group-list">
                         <div class="entry">
                             <a class="name" href="note/">Notes</a>
-                            <span class="gloss">the markdown corpus</span>
+                            <span class="gloss">the markdown corpus, eight sections</span>
                             <span class="arrow" aria-hidden="true">&rarr;</span>
                         </div>
                         <div class="entry">
@@ -439,34 +462,59 @@
                             <span class="gloss">entries and lectures</span>
                             <span class="arrow" aria-hidden="true">&rarr;</span>
                         </div>
+                    </div>
+                </section>
+                <section class="group" aria-labelledby="group-reference">
+                    <h2 class="group-label" id="group-reference">Reference</h2>
+                    <div class="group-list">
+                        <div class="entry">
+                            <a class="name" href="glossarium/">Glossarium</a>
+                            <span class="gloss">the lexical corpus, with select-a-word lookup</span>
+                            <span class="arrow" aria-hidden="true">&rarr;</span>
+                        </div>
+                        <div class="entry">
+                            <a class="name" href="qa/">Q/A log</a>
+                            <span class="gloss">the open questions behind the corpus</span>
+                            <span class="arrow" aria-hidden="true">&rarr;</span>
+                        </div>
                         <div class="entry">
                             <a class="name" href="graph/">Universal view</a>
                             <span class="gloss">one graph over the whole corpus</span>
                             <span class="arrow" aria-hidden="true">&rarr;</span>
                         </div>
+                        <div class="entry">
+                            <a class="name" href="docs">Docs</a>
+                            <span class="gloss">how the system is built</span>
+                            <span class="arrow" aria-hidden="true">&rarr;</span>
+                        </div>
                     </div>
                 </section>
-                <section class="group" aria-labelledby="group-naturgnosis">
-                    <h2 class="group-label" id="group-naturgnosis">Naturgnosis</h2>
+                <section class="group" aria-labelledby="group-atlases">
+                    <h2 class="group-label" id="group-atlases">Atlases</h2>
                     <div class="group-list">
                         <div class="entry">
-                            <a class="name" href="http://localhost:8011/epistemica/">Epistemica</a>
-                            <span class="gloss">the ontology of knowing</span>
-                            <span class="arrow" aria-hidden="true">&nearr;</span>
+                            <a class="name" href="note/data/epistemica/ees.html">Epistemic Element Set</a>
+                            <span class="gloss">the master epistemic inventory</span>
+                            <span class="arrow" aria-hidden="true">&rarr;</span>
                         </div>
                         <div class="entry">
-                            <a class="name" href="http://localhost:8011/technique/">Tecnica</a>
-                            <span class="gloss">the ontology of acting</span>
-                            <span class="arrow" aria-hidden="true">&nearr;</span>
+                            <a class="name" href="note/data/technica/meta/atlas.html">Technical Element Forest</a>
+                            <span class="gloss">the technica decomposition tree</span>
+                            <span class="arrow" aria-hidden="true">&rarr;</span>
                         </div>
                         <div class="entry">
-                            <a class="name" href="http://localhost:8011/nature/">Nature</a>
-                            <span class="gloss">observer-independent reality, as a graph</span>
-                            <span class="arrow" aria-hidden="true">&nearr;</span>
+                            <a class="name" href="course/courses/atlas.html">Courses atlas</a>
+                            <span class="gloss">the course catalogue as a map</span>
+                            <span class="arrow" aria-hidden="true">&rarr;</span>
                         </div>
+                    </div>
+                </section>
+                <section class="group" aria-labelledby="group-autoregia">
+                    <h2 class="group-label" id="group-autoregia">Autoregia</h2>
+                    <div class="group-list">
                         <div class="entry">
-                            <a class="name" href="glossarium/">Glossarium</a>
-                            <span class="gloss">the lexical corpus</span>
+                            <a class="name" href="http://localhost:8088/pks/">Personal Knowledge System</a>
+                            <span class="gloss">the index this corpus belongs to</span>
                             <span class="arrow" aria-hidden="true">&nearr;</span>
                         </div>
                     </div>
@@ -490,6 +538,7 @@
                 <a href="document/">DOCUMENTS</a>
                 <a href="glossarium/">GLOSSARIUM</a>
                 <a href="qa/">Q/A</a>
+                <a href="http://localhost:8088/pks/">AUTOREGIA &nearr;</a>
                 <a href="docs">DOCS</a>
             </div>
         </div>

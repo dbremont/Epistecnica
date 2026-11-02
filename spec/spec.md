@@ -14,10 +14,11 @@ guide-first entry page.
   Epistecnica foregrounds them and hosts the local **EES** atlas (Epistemic
   Element Set, `src/note/app/data/epistemica/ees.html`) as their
   local companion.
-- **The spaces** — the ontology graphs (**Epistemica**, **Tecnica**) and the
-  lexical corpus (**Glossarium**) moved to the external **Naturgnosis** medium.
-  The hub links to them from its index; the old local graph apps were
-  retired and their URLs now **302** to the EES atlas.
+- **The index** — the ontology graphs and the master index live in the
+  external **Autoregia Personal Knowledge System** (`http://localhost:8088/pks/`).
+  The hub links to it; the old local graph apps were retired and their URLs
+  now **302** to the EES atlas. The lexical corpus (**Glossarium**, at
+  `/glossarium/`) and the **Q/A log** (`/qa/`) are served here again.
 - **The universal view** — one read-only graph over everything we hold (notes,
   courses, documents, EES), generated from our own corpus and served at
   `/graph/`.
@@ -56,12 +57,13 @@ guide-first entry page.
 | `GET /graph/<path>` | Universal view from `src/app/graph/`: Graphive viewer over the graph generated from our own corpus (notes + courses + documents + EES), plus `data/universal-graph.json` + `data/universal-layout.json`; no API routes |
 | `GET /shared/<path>` | Shared nav assets from `src/app/shared/`: `usearch.css` + `usearch.js`, the universal search used by every surface's header |
 | `GET /assets/<path>` | Shared corpus-image store from `src/app/assets/` (every image referenced by corpus markdown) |
-| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/ees.html` (graphs moved to Naturgnosis) |
+| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
 | `GET /note/data/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
 | `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), EES atlas (`data/epistemica/ees.html`), generated search index (`data/index.json`) |
 | `GET /course/<path>` | Courses surface from `src/course/app/`: catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`), corpus |
 | `GET /document/<path>` | Documents surface from `src/document/app/`: catalog (`index.html`), viewer (`document.html?d=`), corpus |
-| `GET /glossarium/<path>` | **Not served here.** The lexical surface lives in the external Naturgnosis medium (`http://localhost:8013/glossarium/web/`); Epistecnica pages link out and the select-a-word popup loads its JS + index from there |
+| `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog + term view (`?t=<slug>`), generated lookup index, select-a-word popup |
+| `GET /qa/<path>` | Q/A log from `src/qa/app/`: catalog + entry viewer (`?id=<qa-id>`) |
 | `GET /api/health` | Liveness probe: `{"status":"ok","service":"epistecnica"}` |
 
 The old `/{ds}/api/{health,nodes,layout,graph/save}` endpoints and their
@@ -122,9 +124,8 @@ the browser. The backend has no AI endpoints and must never hold keys.
 
 - Hub-level search across the corpora (client-side over the committed
   `search-index.json` is already feasible at this scale).
-- Cross-space navigation from the universal view into the Naturgnosis spaces
-  when a local node and an external graph node describe the same
-  practice/technique.
+- Cross-space navigation from the universal view into the Autoregia index
+  when a local node and a PKS node describe the same practice/technique.
 - Overview statistics strip (corpus counts, tags, entropies) computed
   client-side.
 

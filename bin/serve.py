@@ -25,7 +25,8 @@ One stdlib HTTP server serving the local surfaces:
   /assets/...           -> static files from src/app/assets/ (the shared
                            corpus-image store)
 
-The ontology graphs are no longer served here (they moved to Naturgnosis).
+The ontology graphs are no longer served here (they moved to the
+Autoregia Personal Knowledge System, http://localhost:8088/pks/).
 Legacy prefixes redirect:
 
   /epistemica/...       -> 302 /note/data/epistemica/ees.html
@@ -95,7 +96,7 @@ GRAPH_MOUNT = "src/app/graph"
 SHARED_PREFIX = "/shared"
 SHARED_MOUNT = "src/app/shared"
 
-# Retired dataset prefixes: the local graphs moved to Naturgnosis, so their
+# Retired dataset prefixes: the local graphs moved to the Autoregia PKS, so their
 # old URLs redirect to the local guide (the EES atlas).
 LEGACY_REDIRECT_PREFIXES = ("/epistemica", "/tecnica")
 LEGACY_REDIRECT_TARGET = "/note/data/epistemica/ees.html"

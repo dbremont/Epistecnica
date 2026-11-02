@@ -10,9 +10,10 @@ and documents, each a catalog + viewer over a local markdown corpus with a
 generated JSON index.
 
 The ontology graphs (**Epistemica**, **Tecnica**) no longer live here: they
-moved to the external **Naturgnosis** medium. The hub links to them from its
-index, and adds a **universal view** (`/graph/`) — one read-only graph
-over our own corpus (notes, courses, documents, EES).
+moved to the external **Autoregia Personal Knowledge System**
+(`http://localhost:8088/pks/`). The hub links to it from its index, and adds a
+**universal view** (`/graph/`) — one read-only graph over our own corpus
+(notes, courses, documents, EES).
 
 ## Layout
 
@@ -54,7 +55,9 @@ with the subprojects.
 | `/note/data/epistemica/mathematical/playground/index.html` | The mathematical playground: one card per interactive notebook; the rotation notebook turns a figure about the origin, its centre, a vertex, or a dragged point, with per-vertex arcs and live coordinates |
 | `/course/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
 | `/document/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
-| `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/ees.html` (graphs moved to Naturgnosis) |
+| `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
+| `/glossarium/` | Lexical corpus: catalog, term view (`?t=<slug>`), lookup index and select-a-word popup |
+| `/qa/` | Q/A log: catalog and entry viewer (`?id=<qa-id>`) |
 | `/api/health` | Liveness probe for the service |
 
 ## Data backend
@@ -75,13 +78,12 @@ python3 bin/serve.py        # same server directly, port 8000
 `make check` runs the verification battery (py_compile all servers + index
 builders).
 
-## External spaces
+## External index
 
-The ontology graphs are served by Naturgnosis; the lexical corpus and the Q/A
-log are served locally:
+The master index lives in **Autoregia**, the Personal Knowledge System; the
+lexical corpus and the Q/A log are served locally:
 
-- Epistemica space — `http://localhost:8011/epistemica/`
-- Technique space — `http://localhost:8011/technique/`
+- Autoregia / PKS — `http://localhost:8088/pks/`
 - Glossarium — `/glossarium/` (local)
 - Q/A log — `/qa/` (local)
 
