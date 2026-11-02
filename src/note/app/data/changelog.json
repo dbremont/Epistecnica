@@ -1276,7 +1276,9 @@
       {
         "date": "2026-11-02",
         "kind": "docs",
-        "summary": "Point the universal-index entry at Autoregia, the Personal Knowledge System, replacing the retired Naturgnosis Epistemic Space."
+        "summary": "Point the universal-index entry at Autoregia, the Personal Knowledge System, replacing the retired Naturgnosis Epistemic Space.",
+        "commit": "fb3698ea34d9825fe4ca9652eae8f1bc9abb6cfe",
+        "before": "ce721adf76b7084db6f49f0ca83c862d736190e3"
       }
     ]
   },
