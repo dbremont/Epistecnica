@@ -6138,6 +6138,11 @@
         "kind": "feat",
         "summary": "Add the Fraction note: the epistemic schema with its five formulation questions, the decomposition into forms, elements, rules, conventions, and readings, and the conceptual evaluation.",
         "commit": "a280281d335049499d128fe7570349046c080f3d"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "docs",
+        "summary": "Point the interpretation question at the moved part-whole figure and correct its counts to match the picture (1:2 part-to-part, 1 x 1/3, and 3/3 = 1)."
       }
     ]
   },

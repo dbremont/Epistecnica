@@ -138,6 +138,15 @@ qa:
 
 > Because the fraction is defined as the quotient $a \cdot b^{-1}$, and zero has no multiplicative inverse in any field: no number $x$ satisfies $0 \cdot x = 1$. The prohibition is not an arbitrary addition to the notation but a consequence of what the fraction denotes, and the formation rule records that consequence. A limit such as $\lim_{b \to 0} a/b$ diverges or is undefined, which is why the notation is not extended by a convention assigning $a/0$ a value.
 
+### Which are the possible interpretations of the following situation?
+
+![Two circles cut in thirds: one third shaded, and all three thirds shaded](../assets/note/epistemica/mathematical/fraction/fraction-part-whole.png)
+
+1. **Part-to-Part Comparison:** Relate the number of colored parts to the number of non-colored parts (1 : 2).
+2. **Fractional Representation:** Represent the number of colored parts as \(1 \times \frac{1}{3}\).
+3. **Whole as Unity:** The fully shaded circle is \(\frac{3}{3} = 1\) — three thirds make one whole.
+
+
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
