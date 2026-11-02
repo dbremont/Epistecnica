@@ -208,7 +208,7 @@ Philosophically, numbers pose intriguing questions:
 | **Hexadecimal positional system** | Natural, integer, rational numbers | Base-16 notation using `0–9,A–F`; common in computing. |
 | **Other positional systems (base-*b*)** | Natural, integer, rational, real numbers | General positional representation in any base `b ≥ 2`. |
 | **Signed numeral system** | Integers | Extends magnitude notation with a sign, e.g. `+7`, `−7`. |
-| **Fractional notation** | Rational numbers | Represents a rational number as a ratio of integers: `3/4`, `−7/2`. |
+| **[Fractional notation](fraction.md)** | Rational numbers | Represents a rational number as a ratio of integers: `3/4`, `−7/2`. |
 | **Decimal-fraction notation** | Rational, real numbers | Represents fractions using a decimal point: `0.75`, `−2.125`. |
 | **Repeating-decimal notation** | Rational numbers | Represents rational numbers whose decimal expansion repeats: `1/3 = 0.333…`. |
 | **Scientific notation** | Real numbers | Represents numbers as `a × 10ⁿ`, e.g. `6.02 × 10²³`. |

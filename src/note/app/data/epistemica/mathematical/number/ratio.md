@@ -122,6 +122,7 @@ qa:
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - [Division](note.html?n=epistemica/mathematical/number/division.md)
+- [Fraction](note.html?n=epistemica/mathematical/number/fraction.md)
 - [Multiplication](note.html?n=epistemica/mathematical/number/multiplication.md)
 - [Normalization](note.html?n=epistemica/mathematical/equation/normalization.md)
 - [Proportionality](note.html?n=epistemica/mathematical/number/proportionality.md)

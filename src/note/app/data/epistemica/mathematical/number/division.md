@@ -149,6 +149,7 @@ How many eggs do you have?
 - [Proportionality](note.html?n=epistemica/mathematical/number/proportionality.md)
 - [Percentage](note.html?n=epistemica/mathematical/number/percentage.md)
 - [Ratio](note.html?n=epistemica/mathematical/number/ratio.md)
+- [Fraction](note.html?n=epistemica/mathematical/number/fraction.md)
 - [Tasa (matemáticas)](https://es.wikipedia.org/wiki/Tasa_(matem%C3%A1ticas))
 - [Rate (mathematics)](https://en.wikipedia.org/wiki/Rate_(mathematics))
 - [Slope](https://en.wikipedia.org/wiki/Slope)

@@ -6125,6 +6125,11 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "docs",
+        "summary": "Add the Fraction note to the references."
       }
     ]
   },
@@ -6142,6 +6147,16 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number/fraction.md",
+    "logs": [
+      {
+        "date": "2026-11-02",
+        "kind": "feat",
+        "summary": "Add the Fraction note: the epistemic schema with its five formulation questions, the decomposition into forms, elements, rules, conventions, and readings, and the conceptual evaluation."
       }
     ]
   },
@@ -6268,6 +6283,11 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "docs",
+        "summary": "Link the Fractional notation row of the numeral-system table to the new Fraction note."
       }
     ]
   },
@@ -6410,6 +6430,11 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "docs",
+        "summary": "Add the Fraction note to the references."
       }
     ]
   },
@@ -6444,6 +6469,11 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-11-01",
+        "kind": "feat",
+        "summary": "Answer the Formulation type question (Transformation Rule) and add the recursive instance decomposition."
       }
     ]
   },
