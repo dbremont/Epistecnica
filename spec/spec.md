@@ -19,9 +19,6 @@ guide-first entry page.
   The hub links to it; the old local graph apps were retired and their URLs
   now **302** to the EES atlas. The lexical corpus (**Glossarium**, at
   `/glossarium/`) and the **Q/A log** (`/qa/`) are served here again.
-- **The universal view** — one read-only graph over everything we hold (notes,
-  courses, documents, EES), generated from our own corpus and served at
-  `/graph/`.
 - **The corpora** — local markdown, one catalog + viewer each, with a generated
   JSON index.
 
@@ -31,7 +28,6 @@ guide-first entry page.
                     ┌──────────────────────────────┐
    browser ────────►│  bin/serve.py (stdlib HTTP)  │
                     │  /             src/app/…      │
-                    │  /graph/*      universal view │
                     │  /shared/*     nav search     │
                     │  /assets/*     shared images  │
                     │  /note/*       notes statics  │
@@ -45,16 +41,14 @@ guide-first entry page.
   notes-catalog pins are browser-local (`localStorage`). Everything else is
   static file serving.
 - **No build step.** Python 3.12 stdlib server; vanilla JS. Vendored runtime
-  bundles: the notes MathJax (`src/note/app/vendor/mathjax/`) and the
-  universal-view renderer (`src/app/graph/vendor/`, deck.gl + socio-graph).
+  bundle: the notes MathJax (`src/note/app/vendor/mathjax/`).
 
 ### Surfaces & endpoints (✅)
 
 | Route | Purpose |
 |-------|---------|
-| `GET /` | Hub `src/app/index.html` — a flat link index over the guide, the universal view, and the corpora |
+| `GET /` | Hub `src/app/index.html` — a flat link index over the corpora and the reference surfaces |
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface |
-| `GET /graph/<path>` | Universal view from `src/app/graph/`: Graphive viewer over the graph generated from our own corpus (notes + courses + documents + EES), plus `data/universal-graph.json` + `data/universal-layout.json`; no API routes |
 | `GET /shared/<path>` | Shared nav assets from `src/app/shared/`: `usearch.css` + `usearch.js`, the universal search used by every surface's header |
 | `GET /assets/<path>` | Shared corpus-image store from `src/app/assets/` (every image referenced by corpus markdown) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
@@ -84,7 +78,6 @@ database configuration.
 | `src/course/app/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
 | `src/document/app/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
 | `src/app/data/search-index.json` | Universal search snapshot (corpus-only) | `bin/build_search_index.py` |
-| `src/app/graph/data/universal-graph.json` + `universal-layout.json` | Universal view graph + layout (corpus + EES) | `bin/build_universal_index.py` + `bin/layout.py` |
 
 ## 4. Frontends
 
@@ -92,7 +85,6 @@ database configuration.
 |------|----------|-----------|
 | `src/app/index.html` (hub) | Ambient Canvas2D constellation only | No |
 | `src/app/docs.html` | Site documentation, live corpus stats | No |
-| `src/app/graph/index.html` (universal view) | Vendored deck.gl renderer over the generated universal graph (surface filters, search, node records, deep links) | No |
 | `note/index.html` (catalog) | Client-side dir browse/files + `@tag` search over generated `app/data/index.json` (`make notes-index`) | No |
 | `note/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-note `history` modal over `data/changelog.json` | No |
 | `course/index.html`, `course.html`, `lecture.html` | Catalog + course/lecture views over `data/index.json` | No |
@@ -124,8 +116,8 @@ the browser. The backend has no AI endpoints and must never hold keys.
 
 - Hub-level search across the corpora (client-side over the committed
   `search-index.json` is already feasible at this scale).
-- Cross-space navigation from the universal view into the Autoregia index
-  when a local node and a PKS node describe the same practice/technique.
+- Cross-space navigation into the Autoregia index when a local note and a
+  PKS node describe the same practice/technique.
 - Overview statistics strip (corpus counts, tags, entropies) computed
   client-side.
 

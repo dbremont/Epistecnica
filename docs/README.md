@@ -12,8 +12,8 @@ generated JSON index.
 The ontology graphs (**Epistemica**, **Tecnica**) no longer live here: they
 moved to the external **Autoregia Personal Knowledge System**
 (`http://localhost:8088/pks/`). The hub links to it from its index, and adds a
-**universal view** (`/graph/`) — one read-only graph over our own corpus
-(notes, courses, documents, EES).
+**autoregia index** (`http://localhost:8088/pks/`) — the master index the
+corpus belongs to.
 
 ## Layout
 
@@ -21,16 +21,15 @@ moved to the external **Autoregia Personal Knowledge System**
 Epistecnica/
 ├── src/app/index.html    # The hub — guide-first entry page (served at /)
 ├── src/app/docs.html     # Site documentation (served at /docs)
-├── src/app/graph/        # Universal view (served at /graph/) — Graphive over our corpus
-├── bin/serve.py          # Combined server: hub + /graph/ + /note/ + /course/ + /document/
-├── bin/build_universal_index.py  # Universal-view graph builder (our corpus → graph JSON)
-├── bin/layout.py         # Universal-view layout pre-computer (sunflower + FR)
+├── bin/serve.py          # Combined server: hub + /note/ + /course/ + /document/ + /glossarium/ + /qa/
 ├── bin/envutil.py        # .env loader
 ├── spec/                 # General spec + shared design system
 ├── docs/                 # Documentation hub (README mirrors this file)
 ├── src/note/             # Notes corpus + catalog/viewer (served at /note/)
 ├── src/course/           # Courses corpus + catalog/views (served at /course/)
-└── src/document/         # Documents corpus + catalog/viewer (served at /document/)
+├── src/document/         # Documents corpus + catalog/viewer (served at /document/)
+├── src/glossarium/       # Lexical corpus + catalog/term view (served at /glossarium/)
+└── src/qa/               # Q/A log + catalog/entry view (served at /qa/)
 ```
 
 ## Architecture in one paragraph
@@ -45,9 +44,8 @@ with the subprojects.
 
 | URL | What |
 |-----|------|
-| `/` | Hub: a flat link index over the guide, the universal view, and the corpora |
+| `/` | Hub: a flat link index over the corpora and the reference surfaces |
 | `/docs` | Site documentation (this content, rendered) |
-| `/graph/` | Universal view: one read-only graph over notes + courses + documents + EES, generated from our corpus |
 | `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`, section deep link `&toc-item=<slug>`), corpus (`data/**.md`) |
 | `/note/data/epistemica/ees.html` | The EES atlas (local companion to the guide) |
 | `/note/data/epistemica/validation/atlas/pvalue.html` | The P-Value Atlas: playground over the null laws — pick, parameterize, move `t_obs`, read the live tails and Monte Carlo calibration |

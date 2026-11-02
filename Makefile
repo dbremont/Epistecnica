@@ -25,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check search-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -92,10 +92,6 @@ index-list: ## list the registered index builders and their dependencies
 
 index-background: ## queue every index build in the background and return at once
 	python3 bin/index_jobs.py --background
-
-graph-index: ## rebuild the universal view graph + layout (after any corpus change)
-	python3 bin/build_universal_index.py
-	python3 bin/layout.py --group-by source
 
 index: ## rebuild every index (chunked, dependency order, progress reported)
 	python3 bin/index_jobs.py

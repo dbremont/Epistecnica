@@ -1272,6 +1272,11 @@
         "summary": "Point the operation-catalogue entry at the @natural-computing tag group instead of the retired scope note.",
         "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
         "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
+      },
+      {
+        "date": "2026-11-02",
+        "kind": "docs",
+        "summary": "Point the universal-index entry at Autoregia, the Personal Knowledge System, replacing the retired Naturgnosis Epistemic Space."
       }
     ]
   },

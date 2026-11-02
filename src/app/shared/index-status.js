@@ -34,8 +34,6 @@
         qa: "Q/A",
         atlas: "atlas",
         search: "search",
-        universal: "graph",
-        layout: "layout",
     };
 
     function ensureChip() {

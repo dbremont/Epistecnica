@@ -6,8 +6,6 @@ One stdlib HTTP server serving the local surfaces:
 
   /                     -> the hub (src/app/index.html)
   /docs                 -> site-wide documentation (src/app/docs.html)
-  /graph/...            -> the universal view (src/app/graph/: Graphive viewer
-                           over the graph generated from our own corpus)
   /note/...             -> static files from src/note/app/ (notes catalog,
                            viewer, corpus, generated search index)
   /course/...           -> static files from src/course/app/ (courses
@@ -90,9 +88,6 @@ GLOSSARIUM_MOUNT = "src/glossarium/app"
 QA_PREFIX = "/qa"
 QA_MOUNT = "src/qa/app"
 
-GRAPH_PREFIX = "/graph"
-GRAPH_MOUNT = "src/app/graph"
-
 SHARED_PREFIX = "/shared"
 SHARED_MOUNT = "src/app/shared"
 
@@ -127,7 +122,6 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         /              -> <repo>/src/app/index.html (the hub)
         /docs[.html]   -> <repo>/src/app/docs.html (site documentation)
-        /graph/x        -> <repo>/src/app/graph/x
         /note/x         -> <repo>/src/note/app/x
         /course/x       -> <repo>/src/course/app/x
         /document/x     -> <repo>/src/document/app/x
@@ -155,7 +149,6 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         rel = None
         for prefix, mount in (
-            (GRAPH_PREFIX, GRAPH_MOUNT),
             (SHARED_PREFIX, SHARED_MOUNT),
             (NOTES_PREFIX, NOTES_MOUNT),
             (COURSE_PREFIX, COURSE_MOUNT),
@@ -398,7 +391,6 @@ def main():
         print("ERROR: notes static dir not found: %s" % notes_app, file=sys.stderr)
         return 1
     for prefix, mount in (
-        ("graph", GRAPH_MOUNT),
         ("shared", SHARED_MOUNT),
         ("course", COURSE_MOUNT),
         ("document", DOCUMENT_MOUNT),
@@ -424,7 +416,8 @@ def main():
     print("  Epistecnica Server")
     print("──────────────────────────────────────────────")
     print("  Hub:     http://%s:%d/" % (display_host, args.port))
-    print("  Graph:   http://%s:%d%s/" % (display_host, args.port, GRAPH_PREFIX))
+    print("  Glossary:http://%s:%d%s/" % (display_host, args.port, GLOSSARIUM_PREFIX))
+    print("  Q/A:     http://%s:%d%s/" % (display_host, args.port, QA_PREFIX))
     print("  Health:  http://%s:%d%s" % (display_host, args.port, HUB_HEALTH_ENDPOINT))
     print("  Notes:   http://%s:%d%s/" % (display_host, args.port, NOTES_PREFIX))
     print("  Courses: http://%s:%d%s/" % (display_host, args.port, COURSE_PREFIX))

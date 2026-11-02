@@ -211,7 +211,7 @@ exchange through the guide's `Permitted Link Forms` table: an
 
 - **The full tree** — the [EES atlas](data/epistemica/ees.html) renders the complete, ever-expanding decomposition from the tree store [ees.json](data/epistemica/ees.json): outline, branch cards, an element search, and a node inspector.
 - **Guides** — [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner) and [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (the technical complement).
-- **Universal index** — Naturgnosis Epistemic Space at [http://localhost:8011/epistemica/](http://localhost:8011/epistemica/) carries the full instance graph; EES is the local mastery layer over it.
+- **Universal index** — [Autoregia, the Personal Knowledge System](http://localhost:8088/pks/) carries the master index; EES is the local mastery layer over it.
 - **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/theory/modelling.md), [Causality](note.html?n=epistemica/causality/causality.md), [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md).
 - **Access & representation catalogues** — [Observational](note.html?n=epistemica/observational/observational.md), [Signal Processing](note.html?n=epistemica/signal/signal-processing.md), [System of Units of Measurement](note.html?n=epistemica/measurement/system-of-units-of-measurement.md).
 - **Discipline catalogues** — [Mathematics](note.html?n=epistemica/discipline/mathematics.md), [Statistics](note.html?n=epistemica/discipline/statistics.md), [Computer Science](note.html?n=epistemica/discipline/computer-science.md), [Logic](note.html?n=epistemica/discipline/logic.md), [Philosophy](note.html?n=epistemica/discipline/philosophy.md).
@@ -274,7 +274,7 @@ The distinction is one of function:
 - [EES atlas](data/epistemica/ees.html) — the complete, ever-expanding decomposition (views over [ees.json](data/epistemica/ees.json))
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
-- [Naturgnosis Epistemic Space](http://localhost:8011/epistemica/)
+- [Autoregia — Personal Knowledge System](http://localhost:8088/pks/)
 - [Modelado](note.html?n=epistemica/theory/modelling.md)
 - [Causality](note.html?n=epistemica/causality/causality.md)
 - [Observational](note.html?n=epistemica/observational/observational.md)

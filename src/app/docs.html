@@ -492,25 +492,6 @@
                         <a href="http://localhost:8088/pks/">Autoregia</a>.
                     </p>
 
-                    <h2 id="universal-view">The Universal View</h2>
-                    <p>
-                        The <a href="graph/">universal view</a> is one read-only canvas over
-                        everything we hold: the <a href="note/">notes</a>, the
-                        <a href="course/">courses</a>, the <a href="document/">documents</a>, and
-                        the <a href="note/data/epistemica/ees.html">EES</a> epistemic elements,
-                        wired by their links and shared tags. Filter by surface, search every
-                        node, read its minimal record, and open any node in its own viewer.
-                    </p>
-                    <p>
-                        Unlike the external graph spaces, this view is generated from our own
-                        corpus: <code>bin/build_universal_index.py</code> aggregates the four
-                        indexes into <code>graph/data/universal-graph.json</code>,
-                        <code>bin/layout.py</code> computes the positions
-                        (<code>graph/data/universal-layout.json</code>), and the vendored
-                        deck.gl renderer draws them. Rebuild both with <code>make graph-index</code>
-                        after any corpus change.
-                    </p>
-
                     <h2 id="notes">Notes &amp; Glossarium</h2>
                     <p>
                         The written corpus lives in the <a href="note/">notes catalog</a>:
@@ -609,11 +590,11 @@
             <div class="foot-links" style="display:flex;gap:1.2rem">
                 <a href="../">&larr; HUB</a>
                 <a href="note/">NOTES</a>
-                <a href="course/">COURSES</a>
                 <a href="document/">DOCUMENTS</a>
+                <a href="course/">COURSES</a>
                 <a href="glossarium/">GLOSSARIUM</a>
                 <a href="qa/">Q/A</a>
-                <a href="api/health">HEALTH</a>
+                <a href="http://localhost:8088/pks/">AUTOREGIA &nearr;</a>
             </div>
         </div>
     </footer>

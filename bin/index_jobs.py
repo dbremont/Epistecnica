@@ -8,7 +8,7 @@ progress through src/app/data/index-status.json (read by
 GET /api/index/status and the browser chip).
 
 Dependency-safe subsetting: asking for `search` also queues the corpus
-builders it reads, asking for `layout` queues `universal`, and so on.
+builders it reads (asking for `search` queues the corpus builders it reads).
 Builders added by a later module (glossarium, qa) register only when their
 script exists, so the runner works before and after those corpora land.
 
@@ -45,17 +45,6 @@ BUILDERS = {
         "module": "build_search_index",
         "requires": ["notes", "courses", "documents", "glossarium", "qa"],
         "label": "universal search snapshot",
-    },
-    "universal": {
-        "module": "build_universal_index",
-        "requires": ["notes", "courses", "documents"],
-        "label": "universal graph",
-    },
-    "layout": {
-        "module": "layout",
-        "requires": ["universal"],
-        "label": "universal graph layout",
-        "argv": ["--group-by", "source"],
     },
 }
 
