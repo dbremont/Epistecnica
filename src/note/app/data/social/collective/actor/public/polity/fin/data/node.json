@@ -1,0 +1,107 @@
+{
+  "id": "fin",
+  "name": "Finland",
+  "tags": [
+    "Northern Europe",
+    "European Union",
+    "Eurozone",
+    "Parliamentary Republic",
+    "Education Leader",
+    "Forestry and ICT"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Finland is a unitary parliamentary republic in Northern Europe and a global reference for education. Independent since 1917, it transformed from forestry dependence into an ICT and engineering economy led by Nokia-era successors, while retaining strong welfare institutions. EU and eurozone membership, plus 2023 NATO accession, frame its open, innovation-driven economy.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Finland / Suomi",
+    "flagEmoji": "🇫🇮",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "5.6 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 5600000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 310 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 310000000000
+      },
+      {
+        "id": "area",
+        "value": "338,455 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 338455
+      },
+      {
+        "id": "capital",
+        "value": "Helsinki",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Unitary Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Finland's actor space from forest companies and Nokia's industrial rise through startup-ecosystem policy to gaming studios, clean-tech engineering, and comprehensive-school human capital.",
+        "link": "rep/actor.html?code=fin"
+      },
+      {
+        "id": "forest_ict_clusters",
+        "type": "Network",
+        "status": "pending",
+        "title": "Forestry and ICT Cluster Network",
+        "description": "Network analysis of pulp-paper biorefineries, mobile-era engineering talent, and gaming and software clusters funded by patient public-private capital.",
+        "link": null
+      },
+      {
+        "id": "regional_state",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional State Structure",
+        "description": "Geospatial representation of regional state agencies, municipal service provision, eastern-border security geography, and Arctic logistical interests.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "FIN",
+      "region": "Northern Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

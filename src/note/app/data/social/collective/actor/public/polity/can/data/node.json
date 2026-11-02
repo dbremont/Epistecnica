@@ -1,0 +1,107 @@
+{
+  "id": "can",
+  "name": "Canada",
+  "tags": [
+    "North America",
+    "Federation",
+    "Commonwealth Realm",
+    "Resource Economy",
+    "Bilingual State",
+    "Parliamentary Monarchy"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Canada is a federal parliamentary constitutional monarchy and the world's second-largest country by area. A Commonwealth realm with English-French bilingualism, it combines vast natural-resource endowments with an advanced services economy deeply integrated with the United States. Key sectors include energy, mining, forestry, banking and technology, under a decentralized federal system.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Canada",
+    "flagEmoji": "🇨🇦",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "41 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 41000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 2.2 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 2200000000000
+      },
+      {
+        "id": "area",
+        "value": "9,984,670 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 9984670
+      },
+      {
+        "id": "capital",
+        "value": "Ottawa",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Parliamentary Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Canada's actor space from Hudson's Bay fur-trade enterprise and railway nation-building through crown corporations to energy majors, chartered banks, and provincial innovation agencies.",
+        "link": "rep/actor.html?code=can"
+      },
+      {
+        "id": "resource_trade_corridors",
+        "type": "Network",
+        "status": "pending",
+        "title": "Resource and Trade Corridor Network",
+        "description": "Network analysis of oil sands, mining flows, rail-port corridors and cross-border supply chains tying provincial resource basins to US and Asian markets.",
+        "link": null
+      },
+      {
+        "id": "federal_provincial",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Federal Provincial Structure",
+        "description": "Geospatial representation of ten provinces and three territories, equalization transfers, and the jurisdictional split over resources, health and education.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "CAN",
+      "region": "North America",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

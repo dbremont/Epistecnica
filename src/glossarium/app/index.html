@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossarium · Epistecnica</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+    <meta name="description" content="The lexical corpus behind Epistecnica — terms, definitions, and select-a-word lookup.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="glossarium.css">
+    <script src="vendor/marked.min.js"></script>
+    <style>
+        :root {
+            /* Oxford Common Room tokens — keep identical to app/shared/theme.css
+               (plus glossarium-specific extras below). */
+            --bg-void: #0b0e14;
+            --bg-surface: #11151e;
+            --bg-card: #161b26;
+            --bg-elevated: #1d2330;
+            --bg-hover: rgba(255, 255, 255, 0.04);
+            --gilt: #C4B998;
+            --parchment: #D6D1C4;
+            --thread: #4a4a4a;
+            --text-primary: #f4f3f1;
+            --text-secondary: #a8a5b0;
+            --text-muted: #9290aa;
+            --text-ghost: #82809a;
+            --accent-copper: #c9956c;
+            --accent-copper-light: #dbb08a;
+            --accent-sage: #7ba388;
+            --accent-plum: #9b7eb0;
+            --accent-rose: #c47d8a;
+            --accent-amber: #d4a857;
+            --accent-steel: #6b8caa;
+            --accent-gold: #c9956c;
+            --accent-gold-dim: rgba(201, 149, 108, 0.14);
+            --accent-cyan: #4dd4c4;
+            --accent-cyan-dim: rgba(77, 212, 196, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --border-medium: rgba(255, 255, 255, 0.08);
+            --border-strong: rgba(255, 255, 255, 0.12);
+            --card-bg: rgba(22, 27, 38, 0.72);
+            --nav-bg: rgba(11, 14, 20, 0.85);
+            --footer-bg: rgba(11, 14, 20, 0.7);
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+            --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html[data-theme="light"] {
+            --bg-void: #f5f2ea;
+            --bg-surface: #efe9dc;
+            --bg-card: #fffdf8;
+            --bg-elevated: #ffffff;
+            --bg-hover: rgba(20, 22, 30, 0.04);
+            --gilt: #9a7b3f;
+            --parchment: #2b2620;
+            --thread: rgba(43, 38, 32, 0.25);
+            --text-primary: #1a1d24;
+            --text-secondary: #4a4f5e;
+            --text-muted: #7a7f8e;
+            --text-ghost: #9aa0ae;
+            --accent-copper: #9a7b3f;
+            --accent-copper-light: #7a6132;
+            --accent-sage: #4e7a5e;
+            --accent-plum: #7a5f8c;
+            --accent-rose: #a55a68;
+            --accent-amber: #9a742f;
+            --accent-steel: #4e6e8c;
+            --accent-gold: #9a7b3f;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0e7c72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --border-medium: rgba(20, 22, 30, 0.14);
+            --border-strong: rgba(20, 22, 30, 0.22);
+            --card-bg: rgba(255, 253, 248, 0.72);
+            --nav-bg: rgba(245, 242, 234, 0.85);
+            --footer-bg: rgba(245, 242, 234, 0.75);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
+
+        body {
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            transition: opacity 180ms ease;
+        }
+
+        html.theme-fading body { opacity: 0; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            body { transition: none; }
+        }
+
+        #ambientCanvas {
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 0;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .nav-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.95rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav-brand em { font-style: italic; color: var(--accent-gold); }
+
+        .nav-links { display: flex; gap: 1.2rem; }
+
+        .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover { color: var(--accent-cyan); }
+
+        .theme-toggle {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+        }
+
+        .page {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 3.5rem;
+        }
+
+        header { padding: 3.5rem 0 2.5rem; }
+
+        h1 {
+            font-family: var(--font-display);
+            font-weight: 300;
+            font-size: clamp(2.6rem, 5vw, 4.2rem);
+            line-height: 1.05;
+        }
+
+        h1 em { font-style: italic; color: var(--accent-gold); }
+
+        .lede {
+            margin-top: 1.6rem;
+            max-width: 44rem;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            border-left: 1px solid var(--accent-gold);
+            padding-left: 1.25rem;
+        }
+
+        .lede strong { font-weight: 500; color: var(--text-primary); }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            margin-top: 2rem;
+        }
+
+        .stat { background: var(--bg-void); padding: 0.85rem 0.9rem; }
+
+        .stat .value {
+            font-family: var(--font-mono);
+            font-size: 1.4rem;
+            color: var(--accent-cyan);
+        }
+
+        .stat .value.pending { color: var(--text-muted); }
+
+        .stat .label {
+            margin-top: 0.3rem;
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .toolbar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-bottom: 1.6rem;
+        }
+
+        .search-wrap { position: relative; }
+
+        #search {
+            width: 100%;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            padding: 0.9rem 1rem 0.9rem 2.6rem;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #search::placeholder { color: var(--text-muted); }
+
+        #search:focus {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 15px rgba(77, 212, 196, 0.08);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.95rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        .facets {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        .facet {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.9rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .facet:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .facet.active {
+            color: var(--text-primary);
+            border-color: var(--accent-gold);
+        }
+
+        .facet .count { color: var(--text-muted); margin-left: 0.4rem; }
+        .facet.active .count { color: var(--accent-gold); }
+
+        .results {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+        }
+
+        a.row {
+            display: block;
+            background: var(--bg-void);
+            padding: 1.1rem 1.3rem;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        a.row:hover { background: var(--bg-surface); }
+
+        .row-top {
+            display: flex;
+            align-items: baseline;
+            gap: 0.9rem;
+            flex-wrap: wrap;
+        }
+
+        .row-title {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        a.row:hover .row-title { color: var(--accent-cyan); }
+
+        .row-alias {
+            font-family: var(--font-mono);
+            font-size: 0.56rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            border: 1px solid var(--accent-gold);
+            border-radius: 2px;
+            padding: 0.1rem 0.4rem;
+        }
+
+        .row-snippet {
+            margin-top: 0.45rem;
+            font-size: 0.8rem;
+            font-weight: 300;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .row-snippet mark, .row-title mark {
+            background: var(--accent-cyan-dim);
+            color: var(--accent-cyan);
+            padding: 0 0.1em;
+        }
+
+        .empty {
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-void);
+            padding: 3rem 2rem;
+            text-align: center;
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.05rem;
+            color: var(--text-muted);
+        }
+
+        .pager {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.1rem;
+            margin-top: 1.2rem;
+        }
+
+        .page-btn {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.9rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .page-btn:hover:not([disabled]) { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .page-btn[disabled] { opacity: 0.35; cursor: default; }
+
+        .page-ind {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        /* ---------- term view (?t=<slug>) ---------- */
+
+        .layout {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2.5rem 2rem 3.5rem;
+        }
+
+        .crumbs {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+        }
+
+        .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+        .crumbs .sep { margin: 0 0.5em; color: var(--text-muted); opacity: 0.5; }
+        .crumbs .here { color: var(--accent-gold); }
+
+        h1.term-title {
+            font-family: var(--font-display);
+            font-weight: 300;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
+        }
+
+        .term-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin: -1.2rem 0 2rem;
+            position: relative;
+            top: 0.8rem;
+        }
+
+        .chip {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.35rem 0.7rem;
+            text-decoration: none;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        a.chip:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .note-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2.5rem;
+            backdrop-filter: blur(6px);
+        }
+
+        .state {
+            text-align: center;
+            padding: 5rem 2rem;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-void);
+        }
+
+        .state .title {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.6rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .state .msg { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.6rem; }
+
+        .state a.back {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.9rem;
+            text-decoration: none;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .state a.back:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        footer {
+            position: relative;
+            z-index: 1;
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+        }
+
+        .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .foot-inner a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .foot-inner a:hover { color: var(--accent-cyan); }
+
+        @media (max-width: 860px) {
+            .stats { grid-template-columns: 1fr; }
+            .note-card { padding: 1.5rem; }
+            .nav-inner { flex-wrap: wrap; row-gap: 0.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="/">Natur<em>gnosis</em></a>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="/note/">Notes</a>
+                    <a href="/glossarium/">Glossarium</a>
+                </div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- catalog mode -->
+    <div class="page" id="catalog">
+        <header>
+            <h1>Glossarium<em>.</em></h1>
+            <p class="lede">
+                The lexical corpus behind <strong>Epistecnica</strong> &mdash; terms
+                and definitions behind the ontologies. Select any word on the
+                note pages to see its definition here.
+            </p>
+            <div class="stats">
+                <div class="stat"><div class="value pending" id="stat-terms">&mdash;</div><div class="label">Terms</div></div>
+                <div class="stat"><div class="value pending" id="stat-aliases">&mdash;</div><div class="label">Aliases</div></div>
+                <div class="stat"><div class="value pending" id="stat-words">&mdash;</div><div class="label">Words</div></div>
+            </div>
+        </header>
+
+        <div class="toolbar">
+            <div class="search-wrap">
+                <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="search" placeholder="search the glossarium&hellip;  ( ctrl + / )" aria-label="Search terms" autocomplete="off">
+            </div>
+            <div class="facets" id="facets" role="group" aria-label="Letter filters"></div>
+        </div>
+
+        <div class="results" id="results"></div>
+        <div class="empty" id="empty" hidden>no terms match.</div>
+        <div class="pager" id="pager" hidden>
+            <button type="button" class="page-btn" id="page-prev">&larr; prev</button>
+            <span class="page-ind" id="page-ind">page 1 / 1</span>
+            <button type="button" class="page-btn" id="page-next">next &rarr;</button>
+        </div>
+    </div>
+
+    <!-- term mode -->
+    <div class="layout" id="terminus" hidden>
+        <div id="term-header" hidden>
+            <div class="crumbs"><a href="./">glossarium</a><span class="sep">/</span><span class="here" id="crumb-slug"></span></div>
+            <h1 class="term-title" id="term-title"></h1>
+            <div class="term-meta" id="term-meta"></div>
+        </div>
+
+        <div class="state" id="loading">
+            <div class="title">Loading&hellip;</div>
+        </div>
+
+        <div class="state" id="error" hidden>
+            <div class="title">Term not found.</div>
+            <div class="msg" id="errorMsg"></div>
+            <a class="back" href="./">&larr; Glossarium</a>
+        </div>
+
+        <article class="note-card" id="term-card" hidden>
+            <div class="markdown-body" id="term-body"></div>
+        </article>
+    </div>
+
+    <footer>
+        <div class="foot-inner">
+            <div>Epistecnica &middot; glossarium</div>
+            <div><span id="foot-date">&mdash;</span></div>
+            <div><a href="/note/">&larr; NOTES</a></div>
+        </div>
+    </footer>
+
+    <script src="js/glossarium-lookup.js" data-glossarium="data/index.json" defer></script>
+    <script>
+    (function () {
+        'use strict';
+
+        var TERMS = [];
+        var state = { q: '', letter: 'all', page: 1, pageSize: 20 };
+        var rowH = 66;
+        var lastTotalPages = 1;
+        var resultsEl = document.getElementById('results');
+        var emptyEl = document.getElementById('empty');
+        var pagerEl = document.getElementById('pager');
+        var prevBtn = document.getElementById('page-prev');
+        var nextBtn = document.getElementById('page-next');
+        var indEl = document.getElementById('page-ind');
+
+        /* ---------- ambient constellation ---------- */
+
+        var canvas = document.getElementById('ambientCanvas');
+        var ctx = canvas.getContext('2d');
+        var pts = [];
+        var LINK_DIST = 130;
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var count = Math.max(20, Math.floor((canvas.width * canvas.height) / 38000));
+            pts = [];
+            for (var i = 0; i < count; i++) {
+                pts.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.22,
+                    vy: (Math.random() - 0.5) * 0.22,
+                    r: Math.random() * 1.4 + 0.4
+                });
+            }
+        }
+
+        function tick() {
+            var light = document.documentElement.dataset.theme === 'light';
+            var dotRGB = light ? '26, 29, 36' : '226, 228, 235';
+            var linkRGB = light ? '154, 123, 63' : '201, 149, 108';
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (var i = 0; i < pts.length; i++) {
+                var p = pts[i];
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(' + dotRGB + ', 0.5)';
+                ctx.fill();
+                for (var j = i + 1; j < pts.length; j++) {
+                    var m = pts[j];
+                    var dx = p.x - m.x, dy = p.y - m.y;
+                    var dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < LINK_DIST) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(m.x, m.y);
+                        ctx.strokeStyle = 'rgba(' + linkRGB + ', ' + (0.10 * (1 - dist / LINK_DIST)) + ')';
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(tick);
+        }
+
+        window.addEventListener('resize', resize);
+        resize();
+        requestAnimationFrame(tick);
+
+        /* ---------- theme toggle (shared with the hub) ---------- */
+
+        var themeToggle = document.getElementById('themeToggle');
+        var themeLabel = document.getElementById('themeLabel');
+        var themeFading = false;
+
+        function applyThemeLabel() {
+            themeLabel.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        }
+
+        themeToggle.addEventListener('click', function () {
+            if (themeFading) return;
+            themeFading = true;
+            var root = document.documentElement;
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var swap = function () {
+                root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                try { localStorage.setItem('naturgnosis-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                applyThemeLabel();
+                root.classList.remove('theme-fading');
+                themeFading = false;
+            };
+            if (reduced) { swap(); return; }
+            root.classList.add('theme-fading');
+            setTimeout(swap, 190);
+        });
+
+        applyThemeLabel();
+
+        /* ---------- helpers ---------- */
+
+        function esc(s) {
+            var d = document.createElement('div');
+            d.textContent = s == null ? '' : String(s);
+            return d.innerHTML;
+        }
+
+        function hl(text, q) {
+            var e = esc(text);
+            if (!q) return e;
+            var i = text.toLowerCase().indexOf(q.toLowerCase());
+            if (i < 0) return e;
+            return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
+        }
+
+        function letterOf(name) {
+            var c = (name || '?').charAt(0).toLowerCase();
+            return (c >= 'a' && c <= 'z') ? c.toUpperCase() : '#';
+        }
+
+        function score(t, q) {
+            var n = t.name.toLowerCase();
+            if (n.indexOf(q) === 0) return 0;
+            if (n.indexOf(q) > 0) return 1;
+            for (var i = 0; i < t.aliases.length; i++) {
+                if (t.aliases[i].toLowerCase().indexOf(q) >= 0) return 2;
+            }
+            if (t.text.indexOf(q) >= 0) return 3;
+            return -1;
+        }
+
+        /* ---------- catalog ---------- */
+
+        function filteredList() {
+            var q = state.q.trim().toLowerCase();
+            var list = TERMS.filter(function (t) {
+                if (state.letter !== 'all' && letterOf(t.name) !== state.letter) return false;
+                if (!q) return true;
+                return score(t, q) >= 0;
+            });
+            if (q) {
+                list = list.map(function (t) { return { t: t, s: score(t, q) }; })
+                    .sort(function (a, b) { return a.s - b.s || a.t.name.toLowerCase().localeCompare(b.t.name.toLowerCase()); })
+                    .map(function (x) { return x.t; });
+            }
+            return list;
+        }
+
+        function sizeFor() {
+            var top = resultsEl.getBoundingClientRect().top;
+            var foot = document.querySelector('footer').offsetHeight;
+            var avail = window.innerHeight - top - foot - 112;
+            return Math.max(3, Math.min(60, Math.floor(Math.max(avail, 200) / rowH)));
+        }
+
+        function buildRows(list) {
+            var q = state.q.trim().toLowerCase();
+            var start = (state.page - 1) * state.pageSize;
+            var slice = list.slice(start, start + state.pageSize);
+            var out = [];
+            for (var i = 0; i < slice.length; i++) {
+                var t = slice[i];
+                var excerpt = t.excerpt || '';
+                out.push(
+                    '<a class="row" href="?t=' + encodeURIComponent(t.slug) + '">' +
+                    '<div class="row-top"><span class="row-title">' + hl(t.name, q) + '</span>' +
+                    t.aliases.map(function (a) { return '<span class="row-alias">' + esc(a) + '</span>'; }).join('') +
+                    '</div>' +
+                    '<div class="row-snippet">' + hl(excerpt, q) + '</div>' +
+                    '</a>'
+                );
+            }
+            resultsEl.innerHTML = out.join('');
+        }
+
+        function updatePager(count, totalPages) {
+            emptyEl.hidden = count > 0;
+            pagerEl.hidden = totalPages <= 1;
+            if (totalPages <= 1) return;
+            indEl.textContent = 'page ' + state.page + ' / ' + totalPages;
+            indEl.title = count + ' terms · ' + state.pageSize + ' per page';
+            prevBtn.disabled = state.page <= 1;
+            nextBtn.disabled = state.page >= totalPages;
+        }
+
+        function render() {
+            var list = filteredList();
+            var s = sizeFor();
+            if (s !== state.pageSize) state.pageSize = s;
+            var totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
+            if (state.page > totalPages) state.page = totalPages;
+            if (state.page < 1) state.page = 1;
+            buildRows(list);
+
+            var row0 = resultsEl.querySelector('.row');
+            if (row0) {
+                var h = row0.offsetHeight + 1;
+                if (Math.abs(h - rowH) > 2) {
+                    rowH = h;
+                    s = sizeFor();
+                    if (s !== state.pageSize) {
+                        state.pageSize = s;
+                        totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
+                        if (state.page > totalPages) state.page = totalPages;
+                        buildRows(list);
+                    }
+                }
+            }
+            lastTotalPages = totalPages;
+            updatePager(list.length, totalPages);
+        }
+
+        function goToPage(p) {
+            if (p < 1 || p > lastTotalPages || p === state.page) return;
+            state.page = p;
+            render();
+            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        prevBtn.addEventListener('click', function () { goToPage(state.page - 1); });
+        nextBtn.addEventListener('click', function () { goToPage(state.page + 1); });
+
+        function renderFacets() {
+            var counts = { all: TERMS.length };
+            TERMS.forEach(function (t) {
+                var l = letterOf(t.name);
+                counts[l] = (counts[l] || 0) + 1;
+            });
+            var order = Object.keys(counts).sort(function (a, b) {
+                if (a === 'all') return -1;
+                if (b === 'all') return 1;
+                if (a === '#') return 1;
+                if (b === '#') return -1;
+                return a.localeCompare(b);
+            });
+            document.getElementById('facets').innerHTML = order.map(function (l) {
+                return '<button type="button" class="facet' + (state.letter === l ? ' active' : '') + '" data-letter="' + esc(l) + '">' +
+                    esc(l) + '<span class="count">' + counts[l] + '</span></button>';
+            }).join('');
+        }
+
+        /* ---------- term view ---------- */
+
+        function fail(msg) {
+            document.getElementById('loading').hidden = true;
+            document.getElementById('errorMsg').textContent = msg;
+            document.getElementById('error').hidden = false;
+        }
+
+        /* Term bodies come from data/terms.json, keyed by slug (the term
+           code). The per-term .md files are regeneration sources only and are
+           never fetched by the viewer. */
+        var termsPromise = null;
+        function loadTerms() {
+            if (!termsPromise) {
+                termsPromise = fetch('data/terms.json', { headers: { 'Accept': 'application/json' } })
+                    .then(function (r) {
+                        if (!r.ok) throw new Error('HTTP ' + r.status);
+                        return r.json();
+                    })
+                    .then(function (idx) {
+                        var bySlug = {};
+                        (idx.terms || []).forEach(function (t) { bySlug[t.slug] = t; });
+                        return bySlug;
+                    });
+            }
+            return termsPromise;
+        }
+
+        function showTerm(slug) {
+            loadTerms()
+                .then(function (bySlug) {
+                    var entry = bySlug[slug];
+                    if (!entry) {
+                        fail('The term "' + slug + '" does not exist.');
+                        return;
+                    }
+                    document.title = entry.name + ' — Glossarium';
+                    document.getElementById('crumb-slug').textContent = slug;
+                    document.getElementById('term-title').textContent = entry.name;
+                    document.getElementById('term-meta').innerHTML = (entry.aliases || []).map(function (a) {
+                        return '<span class="chip">' + esc(a) + '</span>';
+                    }).join('');
+                    document.getElementById('term-body').innerHTML = marked.parse(entry.body || '');
+                    document.getElementById('loading').hidden = true;
+                    document.getElementById('term-header').hidden = false;
+                    document.getElementById('term-card').hidden = false;
+                })
+                .catch(function (err) {
+                    fail('Failed to load the term (' + err.message + ').');
+                });
+        }
+
+        /* ---------- boot ---------- */
+
+        var params = new URLSearchParams(window.location.search);
+        var slug = params.get('t') || '';
+
+        if (slug) {
+            document.getElementById('catalog').hidden = true;
+            document.getElementById('terminus').hidden = false;
+            showTerm(slug);
+            return;
+        }
+
+        fetch('data/index.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (idx) {
+                TERMS = idx.terms || [];
+                document.getElementById('stat-terms').textContent = String(idx.count);
+                var aliases = 0;
+                TERMS.forEach(function (t) { aliases += t.aliases.length; });
+                document.getElementById('stat-aliases').textContent = String(aliases);
+                var words = 0;
+                TERMS.forEach(function (t) { words += t.words; });
+                document.getElementById('stat-words').textContent = words > 999 ? (words / 1000).toFixed(1) + 'k' : String(words);
+                document.getElementById('foot-date').textContent = idx.generated;
+
+                renderFacets();
+                render();
+            })
+            .catch(function () {
+                document.getElementById('empty').hidden = false;
+                document.getElementById('empty').textContent = 'index unavailable — run: make glossarium-index';
+            });
+
+        var input = document.getElementById('search');
+        var timer = null;
+        input.addEventListener('input', function () {
+            clearTimeout(timer);
+            timer = setTimeout(function () {
+                state.q = input.value;
+                state.page = 1;
+                render();
+            }, 120);
+        });
+
+        document.getElementById('facets').addEventListener('click', function (e) {
+            var btn = e.target.closest('.facet');
+            if (!btn) return;
+            state.letter = btn.dataset.letter;
+            state.page = 1;
+            renderFacets();
+            render();
+        });
+
+        var resizeTimer = null;
+        window.addEventListener('resize', function () {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(render, 150);
+        });
+
+        document.addEventListener('keydown', function (e) {
+            var el = document.activeElement;
+            var typing = !!el && (el === input || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
+            if (e.key === 'Escape' && document.activeElement === input) { input.blur(); return; }
+            if (e.key === '/' && (e.ctrlKey || e.metaKey) && !e.altKey) { e.preventDefault(); input.focus(); return; }
+            if (!typing && !e.ctrlKey && !e.metaKey && !e.altKey) {
+                if (e.key === 'ArrowLeft') { e.preventDefault(); goToPage(state.page - 1); }
+                if (e.key === 'ArrowRight') { e.preventDefault(); goToPage(state.page + 1); }
+            }
+        });
+    })();
+    </script>
+</body>
+</html>

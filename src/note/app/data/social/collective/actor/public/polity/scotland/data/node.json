@@ -1,0 +1,107 @@
+{
+  "id": "scotland",
+  "name": "Scotland",
+  "tags": [
+    "Northern Europe",
+    "United Kingdom",
+    "Devolved Nation",
+    "North Sea Energy",
+    "Financial Services",
+    "Whisky Exports"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Scotland is a devolved nation within the United Kingdom with its own parliament, legal system and distinct cultural identity. Center of the Enlightenment and nineteenth-century heavy industry, it now blends North Sea energy, whisky and food exports, financial services in Edinburgh, and growing renewables. Devolution since 1999 gives Holyrood powers over health, education and justice.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Scotland / Alba",
+    "flagEmoji": "",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "5.5 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 5500000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "GBP 210 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 210000000000
+      },
+      {
+        "id": "area",
+        "value": "77,933 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 77933
+      },
+      {
+        "id": "capital",
+        "value": "Edinburgh",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Devolved Parliament within Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Scotland's actor space from Enlightenment institutions and imperial-era shipbuilding through nationalized industries to the devolved parliament, energy operators, and Edinburgh's fund-management cluster.",
+        "link": "rep/actor.html?code=sct"
+      },
+      {
+        "id": "north_sea_exports",
+        "type": "Network",
+        "status": "pending",
+        "title": "North Sea Energy and Export Network",
+        "description": "Network analysis of offshore oil, gas and wind assets, distilling and food-export supply chains, and their fiscal and employment linkages across the UK.",
+        "link": null
+      },
+      {
+        "id": "devolved_territory",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Devolved Territorial Structure",
+        "description": "Geospatial representation of council areas, island authorities, and the reserved-devolved boundary shaping infrastructure, energy consenting and public services.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "SCT",
+      "region": "Northern Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

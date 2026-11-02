@@ -1,0 +1,107 @@
+{
+  "id": "ita",
+  "name": "Italy",
+  "tags": [
+    "Southern Europe",
+    "European Union",
+    "Eurozone",
+    "Parliamentary Republic",
+    "Manufacturing Heartland",
+    "Cultural Heritage"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Italy is a unitary parliamentary republic and a founding member of the European Communities. Its economy pairs northern industrial districts — machinery, automotive, fashion — with a vast cultural-heritage tourism sector and persistent southern structural challenges. A G7 economy in the eurozone, it balances manufacturing excellence with high public debt and demographic aging.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Italia",
+    "flagEmoji": "🇮🇹",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "59 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 59000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 2.4 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 2400000000000
+      },
+      {
+        "id": "area",
+        "value": "302,073 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 302073
+      },
+      {
+        "id": "capital",
+        "value": "Rome",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Unitary Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Italy's actor space from city-state mercantile networks and IRI state holdings through postwar industrial districts to family-owned multinationals and EU fiscal supervision.",
+        "link": "rep/actor.html?code=ita"
+      },
+      {
+        "id": "industrial_districts",
+        "type": "Network",
+        "status": "pending",
+        "title": "Industrial District Network Structure",
+        "description": "Network analysis of machinery, textile and food clusters, cooperative banks, and export consortia binding small-firm districts to global buyers.",
+        "link": null
+      },
+      {
+        "id": "regional_autonomy",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Autonomy Structure",
+        "description": "Geospatial representation of twenty regions with asymmetric autonomy, the north-south productivity divide, and logistics corridors to central Europe.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "ITA",
+      "region": "Southern Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

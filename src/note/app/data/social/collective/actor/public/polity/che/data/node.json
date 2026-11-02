@@ -1,0 +1,107 @@
+{
+  "id": "che",
+  "name": "Switzerland",
+  "tags": [
+    "Western Europe",
+    "Neutral State",
+    "Financial Centre",
+    "Direct Democracy",
+    "Alpine Economy",
+    "Pharma Hub"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Switzerland is a neutral federal republic renowned for direct democracy, banking and precision industries. Its consensus-driven cantonal federalism underpins political stability and openness, hosting global finance, pharmaceuticals, watchmaking and commodity trading. Outside the EU but deeply integrated via bilateral accords, it runs persistent surpluses on high-value services and manufacturing.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Schweiz / Suisse / Svizzera",
+    "flagEmoji": "🇨🇭",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "9 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 9000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 1.0 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1000000000000
+      },
+      {
+        "id": "area",
+        "value": "41,285 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 41285
+      },
+      {
+        "id": "capital",
+        "value": "Bern (de facto)",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Republic with Direct Democracy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Switzerland's actor space from cantonal leagues and mercenary entrepreneurship through railway-era banks to Basel pharma groups, commodity traders, and referendum-constrained federal governance.",
+        "link": "rep/actor.html?code=che"
+      },
+      {
+        "id": "banking_pharma_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Banking and Pharma Network Structure",
+        "description": "Network analysis of universal banks, private wealth managers, pharmaceutical pipelines and trading houses linking Alpine headquarters to global capital flows.",
+        "link": null
+      },
+      {
+        "id": "cantonal_federal",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Cantonal Federal Structure",
+        "description": "Geospatial representation of twenty-six cantons, fiscal competition, Alpine transit corridors, and the urban triangle of Zurich, Basel and Geneva.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "CHE",
+      "region": "Western Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

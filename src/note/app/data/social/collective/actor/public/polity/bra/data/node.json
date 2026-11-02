@@ -1,0 +1,107 @@
+{
+  "id": "bra",
+  "name": "Brazil",
+  "tags": [
+    "South America",
+    "Federation",
+    "Emerging Economy",
+    "BRICS",
+    "Portuguese-Speaking",
+    "Amazon Basin"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Brazil is a federal presidential republic in South America and the largest country in both area and population in the region. It possesses a diversified economy spanning agriculture, mining, manufacturing, and services, and plays a central geopolitical and ecological role due to the Amazon rainforest and its membership in major multilateral groupings.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "República Federativa do Brasil",
+    "flagEmoji": "🇧🇷",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "203 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 203000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 2.1 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 2100000000000
+      },
+      {
+        "id": "area",
+        "value": "8.5 million km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 8516000
+      },
+      {
+        "id": "capital",
+        "value": "Brasília",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Presidential Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal visualization of Brazil’s public, private, and civil actors from independence to the present, highlighting structural transformations in the state, industrial sector, and financial system.",
+        "link": "rep/actor.html?code=bra"
+      },
+      {
+        "id": "product_space",
+        "type": "Network",
+        "status": "active",
+        "title": "Product Space Mapping",
+        "description": "Network representation of Brazil’s export structure and industrial diversification patterns, with emphasis on commodities, agribusiness, energy, and advanced manufacturing.",
+        "link": null
+      },
+      {
+        "id": "territorial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Spatial-Administrative Structure",
+        "description": "Geospatial representation of federal units, metropolitan regions, and economic corridors, including Amazonian, coastal, and southern industrial zones.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "BRA",
+      "region": "Latin America & Caribbean",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

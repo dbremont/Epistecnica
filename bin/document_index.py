@@ -25,6 +25,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
+from indexlib import Progress, atomic_write_text, run_builder
+
 REPO = Path(__file__).resolve().parent.parent
 DOCUMENT = REPO / "src" / "document"
 APP = DOCUMENT / "app"
@@ -145,17 +147,26 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list
     return item
 
 
-def main() -> int:
+def build(progress=None) -> bool:
     if not DOCUMENTS.is_dir():
         print(f"ERROR: documents directory not found: {DOCUMENTS}", file=sys.stderr)
-        return 1
+        return False
 
     warnings: list = []
     documents: list = []
-    for path in sorted(DOCUMENTS.rglob("*.md")):
+    paths = sorted(DOCUMENTS.rglob("*.md"))
+    if progress is not None:
+        progress.set_total(len(paths))
+        progress.start(f"indexing {len(paths)} documents")
+    for path in paths:
         rel = path.relative_to(DOCUMENTS)
         check_name(rel, warnings)
         documents.append(parse(path, rel, warnings))
+        if progress is not None:
+            progress.step(message=rel.as_posix())
+
+    if progress is not None:
+        progress.stage(f"writing {OUT.name}")
 
     sections: dict = {}
     for n in documents:
@@ -168,7 +179,7 @@ def main() -> int:
         "sections": sections,
         "documents": documents,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    atomic_write_text(OUT, json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
 
     kb = OUT.stat().st_size / 1024
     tagged = sum(1 for n in documents if n["tags"])
@@ -179,7 +190,13 @@ def main() -> int:
         print(f"naming warnings: {len(warnings)} (see src/document/README.md)")
         for w in warnings:
             print(f"  ! {w}")
-    return 0
+    if progress is not None:
+        progress.finish(f"{len(documents)} documents")
+    return True
+
+
+def main() -> int:
+    return run_builder("documents", build)
 
 
 if __name__ == "__main__":

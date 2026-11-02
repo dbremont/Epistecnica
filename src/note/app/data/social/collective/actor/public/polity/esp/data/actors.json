@@ -1,0 +1,1070 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Spanish actors (organizations and institutions) since 1400.",
+    "country": "Spain",
+    "region": "Southern Europe",
+    "flag": "🇪🇸",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Spain. This dataset traces the formation, transformation, and significant milestones of imperial, corporatist, and democratic entities, from the Casa de Contratación to autonomous-community governance and IBEX multinationals.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Catholic Monarchs and the Crown",
+      "type": "public",
+      "role": "Monarchy",
+      "regionOfActivity": "Toledo",
+      "description": "Dynastic union of Castile and Aragon founding the Spanish monarchy.",
+      "events": [
+        {
+          "date": "1469-10-19",
+          "category": "milestone",
+          "description": "Marriage of Isabella and Ferdinand"
+        },
+        {
+          "date": "1492-01-02",
+          "category": "expansion",
+          "description": "Granada falls; peninsular unification completed"
+        },
+        {
+          "date": "1516-01-23",
+          "category": "transformation",
+          "description": "Charles I inherits a global composite monarchy"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Casa de Contratación",
+      "type": "public",
+      "role": "Trade regulator",
+      "regionOfActivity": "Seville",
+      "description": "Crown agency licensing and taxing American trade.",
+      "events": [
+        {
+          "date": "1503-01-20",
+          "category": "birth",
+          "description": "Royal ordinances found the Casa in Seville"
+        },
+        {
+          "date": "1717-01-01",
+          "category": "milestone",
+          "description": "Casa transferred to Cádiz"
+        },
+        {
+          "date": "1790-06-18",
+          "category": "death",
+          "description": "Casa abolished under Bourbon reform"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Cortes and Congress of Deputies",
+      "type": "public",
+      "role": "Parliament",
+      "regionOfActivity": "Madrid",
+      "description": "Medieval estates reborn as the democratic lower house.",
+      "events": [
+        {
+          "date": "1810-09-24",
+          "category": "milestone",
+          "description": "Cortes of Cádiz proclaims national sovereignty"
+        },
+        {
+          "date": "1977-06-15",
+          "category": "founding",
+          "description": "Democratic Cortes elected after Franco"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Banco de España",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Madrid",
+      "description": "Note-issuing bank turned Eurosystem national central bank.",
+      "events": [
+        {
+          "date": "1782-06-02",
+          "category": "birth",
+          "description": "Banco Nacional de San Carlos chartered"
+        },
+        {
+          "date": "1874-03-19",
+          "category": "milestone",
+          "description": "Note-issue monopoly granted"
+        },
+        {
+          "date": "1994-06-01",
+          "category": "transformation",
+          "description": "Autonomy law aligns it with the ECB"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Banco Santander",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Santander",
+      "description": "Cantabrian bank grown into a eurozone-Santander group.",
+      "events": [
+        {
+          "date": "1857-05-15",
+          "category": "birth",
+          "description": "Banco de Santander founded"
+        },
+        {
+          "date": "1999-01-15",
+          "category": "transformation",
+          "description": "BCH merger forms BSCH"
+        },
+        {
+          "date": "2004-07-01",
+          "category": "expansion",
+          "description": "Abbey acquisition anchors UK retail"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "BBVA",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Bilbao",
+      "description": "Basque-rooted bank built by domestic and Latin American mergers.",
+      "events": [
+        {
+          "date": "1857-05-28",
+          "category": "birth",
+          "description": "Banco de Bilbao founded"
+        },
+        {
+          "date": "1988-01-01",
+          "category": "milestone",
+          "description": "Bilbao-Vizcaya merger forms BBV"
+        },
+        {
+          "date": "1999-10-18",
+          "category": "transformation",
+          "description": "Argentaria merger creates BBVA"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "CaixaBank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Valencia",
+      "description": "Catalan savings-bank turned listed group after the Bankia merger.",
+      "events": [
+        {
+          "date": "1904-04-05",
+          "category": "birth",
+          "description": "Caja de Pensiones founded in Barcelona"
+        },
+        {
+          "date": "2011-07-01",
+          "category": "transformation",
+          "description": "Banking business transferred to listed CaixaBank"
+        },
+        {
+          "date": "2021-03-26",
+          "category": "expansion",
+          "description": "Bankia merger forms the domestic leader"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Banco de Sabadell",
+      "type": "private",
+      "role": "Commercial bank",
+      "regionOfActivity": "Alicante",
+      "description": "Catalan industrial bank expanded through UK TSB purchase.",
+      "events": [
+        {
+          "date": "1881-12-31",
+          "category": "birth",
+          "description": "Founded by Sabadell industrialists"
+        },
+        {
+          "date": "2015-07-01",
+          "category": "expansion",
+          "description": "TSB acquisition extends into Britain"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Bankinter",
+      "type": "private",
+      "role": "Commercial bank",
+      "regionOfActivity": "Madrid",
+      "description": "Technology-led bank split from Bank of America partnership.",
+      "events": [
+        {
+          "date": "1965-06-04",
+          "category": "birth",
+          "description": "Banco Intercontinental founded"
+        },
+        {
+          "date": "1972-01-01",
+          "category": "milestone",
+          "description": "Full Spanish ownership achieved"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Instituto de Crédito Oficial",
+      "type": "public",
+      "role": "State finance agency",
+      "regionOfActivity": "Madrid",
+      "description": "State development-finance and crisis-lending agency.",
+      "events": [
+        {
+          "date": "1971-07-19",
+          "category": "birth",
+          "description": "ICO created to coordinate official credit"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Telefónica",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Madrid",
+      "description": "Former monopoly privatized into a Europe-Latin America operator.",
+      "events": [
+        {
+          "date": "1924-04-19",
+          "category": "birth",
+          "description": "CTNE founded with ITT participation"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "transformation",
+          "description": "Full privatization completed"
+        },
+        {
+          "date": "2005-01-01",
+          "category": "expansion",
+          "description": "O2 acquisition extends into Britain and Germany"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Iberdrola",
+      "type": "private",
+      "role": "Electric utility",
+      "regionOfActivity": "Bilbao",
+      "description": "Hydro-rooted utility turned wind-power world leader.",
+      "events": [
+        {
+          "date": "1901-07-19",
+          "category": "birth",
+          "description": "Hidroeléctrica Ibérica founded"
+        },
+        {
+          "date": "1992-11-01",
+          "category": "founding",
+          "description": "Hidrola-Iberduero merger forms Iberdrola"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "expansion",
+          "description": "ScottishPower acquisition starts anglophone growth"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Endesa",
+      "type": "private",
+      "role": "Electric utility",
+      "regionOfActivity": "Madrid",
+      "description": "State-founded generator privatized into Enel ownership.",
+      "events": [
+        {
+          "date": "1944-11-18",
+          "category": "birth",
+          "description": "Empresa Nacional de Electricidad created"
+        },
+        {
+          "date": "1998-06-01",
+          "category": "transformation",
+          "description": "Privatization completed"
+        },
+        {
+          "date": "2009-06-25",
+          "category": "milestone",
+          "description": "Enel takes full control"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Repsol",
+      "type": "private",
+      "role": "Oil and gas company",
+      "regionOfActivity": "Madrid",
+      "description": "State hydrocarbon monopoly converted to listed multi-energy firm.",
+      "events": [
+        {
+          "date": "1927-06-28",
+          "category": "birth",
+          "description": "CAMPSA monopoly established"
+        },
+        {
+          "date": "1987-10-08",
+          "category": "founding",
+          "description": "INH reorganized as Repsol"
+        },
+        {
+          "date": "1999-06-16",
+          "category": "expansion",
+          "description": "YPF acquisition extends into Argentina"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Iberia",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Madrid",
+      "description": "Flag carrier merged into International Airlines Group.",
+      "events": [
+        {
+          "date": "1927-06-28",
+          "category": "birth",
+          "description": "Iberia founded"
+        },
+        {
+          "date": "2001-04-03",
+          "category": "transformation",
+          "description": "Privatization completed"
+        },
+        {
+          "date": "2011-01-21",
+          "category": "milestone",
+          "description": "IAG merger with British Airways"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Renfe",
+      "type": "public",
+      "role": "Railway operator",
+      "regionOfActivity": "Madrid",
+      "description": "National railway operator of the AVE high-speed network.",
+      "events": [
+        {
+          "date": "1941-01-24",
+          "category": "birth",
+          "description": "RENFE nationalizes the broad-gauge network"
+        },
+        {
+          "date": "1992-04-21",
+          "category": "technical",
+          "description": "Madrid-Seville AVE opens"
+        },
+        {
+          "date": "2005-01-01",
+          "category": "transformation",
+          "description": "Renfe-Operadora split from Adif"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "SEAT and Cupra",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Barcelona",
+      "description": "State-founded carmaker turned Volkswagen volume brand.",
+      "events": [
+        {
+          "date": "1950-05-09",
+          "category": "birth",
+          "description": "SEAT founded with Fiat licence"
+        },
+        {
+          "date": "1986-06-18",
+          "category": "transformation",
+          "description": "Volkswagen takes majority control"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Inditex",
+      "type": "private",
+      "role": "Fashion retailer",
+      "regionOfActivity": "Arteixo",
+      "description": "Fast-fashion group built around Zara's vertical model.",
+      "events": [
+        {
+          "date": "1975-05-09",
+          "category": "birth",
+          "description": "First Zara store opens in A Coruña"
+        },
+        {
+          "date": "1985-01-01",
+          "category": "founding",
+          "description": "Inditex holding formed"
+        },
+        {
+          "date": "2001-05-23",
+          "category": "milestone",
+          "description": "Stock-market listing"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Mango",
+      "type": "private",
+      "role": "Fashion retailer",
+      "regionOfActivity": "Barcelona",
+      "description": "Family fast-fashion chain with global franchising.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "First Mango store opens in Barcelona"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "El Corte Inglés",
+      "type": "private",
+      "role": "Department-store group",
+      "regionOfActivity": "Madrid",
+      "description": "Family department-store empire anchoring Spanish retail.",
+      "events": [
+        {
+          "date": "1940-06-02",
+          "category": "birth",
+          "description": "Department store opens on Preciados street"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Mercadona",
+      "type": "private",
+      "role": "Grocery retailer",
+      "regionOfActivity": "Valencia",
+      "description": "Family-owned supermarket leader with integrated suppliers.",
+      "events": [
+        {
+          "date": "1977-01-18",
+          "category": "birth",
+          "description": "Mercadona founded in Valencia"
+        },
+        {
+          "date": "1993-01-01",
+          "category": "technical",
+          "description": "Everyday-low-price model adopted"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Ferrovial",
+      "type": "private",
+      "role": "Infrastructure group",
+      "regionOfActivity": "Madrid",
+      "description": "Railway builder turned airport and toll-road concessionaire.",
+      "events": [
+        {
+          "date": "1952-12-18",
+          "category": "birth",
+          "description": "Ferrovial founded"
+        },
+        {
+          "date": "2006-06-06",
+          "category": "expansion",
+          "description": "BAA airports acquisition"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "ACS",
+      "type": "private",
+      "role": "Construction group",
+      "regionOfActivity": "Madrid",
+      "description": "Merger-built contractor controlling Hochtief and Abertis stakes.",
+      "events": [
+        {
+          "date": "1997-07-01",
+          "category": "founding",
+          "description": "OCP-Dragados merger forms ACS"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "expansion",
+          "description": "Hochtief stake builds German bridgehead"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Acciona",
+      "type": "private",
+      "role": "Infrastructure and renewables group",
+      "regionOfActivity": "Madrid",
+      "description": "Constructor pivoted to wind and water concessions.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "founding",
+          "description": "Entrecanales y Távora merger forms the group"
+        },
+        {
+          "date": "2004-01-01",
+          "category": "expansion",
+          "description": "Wind-power build-out accelerates"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Sacyr",
+      "type": "private",
+      "role": "Concessions group",
+      "regionOfActivity": "Madrid",
+      "description": "Mid-size contractor known for the Panama Canal expansion.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Sacyr founded"
+        },
+        {
+          "date": "2009-01-01",
+          "category": "milestone",
+          "description": "Panama Canal locks consortium role"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "FCC",
+      "type": "private",
+      "role": "Construction and services group",
+      "regionOfActivity": "Barcelona",
+      "description": "Century-old contractor with cement and environmental arms.",
+      "events": [
+        {
+          "date": "1900-01-01",
+          "category": "birth",
+          "description": "Fomento de Obras y Construcciones founded"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "founding",
+          "description": "FOCSA merger forms FCC"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Mapfre",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Madrid",
+      "description": "Mutual insurer grown into a Latin American leader.",
+      "events": [
+        {
+          "date": "1933-05-16",
+          "category": "birth",
+          "description": "Mutualidad de la Agrupación de Fincas Rústicas founded"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "transformation",
+          "description": "Listed-corporation restructuring"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Museo del Prado",
+      "type": "public",
+      "role": "Art museum",
+      "regionOfActivity": "Madrid",
+      "description": "Royal collection opened as national pinacoteca.",
+      "events": [
+        {
+          "date": "1819-11-19",
+          "category": "birth",
+          "description": "Museo Real opens to the public"
+        },
+        {
+          "date": "2007-10-30",
+          "category": "expansion",
+          "description": "Moneo extension inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Museo Reina Sofía",
+      "type": "public",
+      "role": "Modern-art museum",
+      "regionOfActivity": "Madrid",
+      "description": "Contemporary counterpart housing Guernica.",
+      "events": [
+        {
+          "date": "1990-09-10",
+          "category": "birth",
+          "description": "Centro de Arte Reina Sofía inaugurated"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "milestone",
+          "description": "Guernica transferred from the Prado"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Consejo Superior de Investigaciones Científicas",
+      "type": "public",
+      "role": "Research agency",
+      "regionOfActivity": "Madrid",
+      "description": "National multidisciplinary research council.",
+      "events": [
+        {
+          "date": "1939-11-24",
+          "category": "birth",
+          "description": "CSIC created"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Real Academia Española",
+      "type": "public",
+      "role": "Language academy",
+      "regionOfActivity": "Madrid",
+      "description": "Norm-setter for the Spanish language worldwide.",
+      "events": [
+        {
+          "date": "1713-10-03",
+          "category": "birth",
+          "description": "Royal charter founds the Academy"
+        },
+        {
+          "date": "1780-01-01",
+          "category": "milestone",
+          "description": "First Diccionario de Autoridades completed"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Instituto Cervantes",
+      "type": "public",
+      "role": "Cultural institute",
+      "regionOfActivity": "Madrid",
+      "description": "Global network promoting Spanish language and culture.",
+      "events": [
+        {
+          "date": "1991-03-21",
+          "category": "birth",
+          "description": "Law creates the Instituto"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "PRISA and El País",
+      "type": "private",
+      "role": "Media group",
+      "regionOfActivity": "Madrid",
+      "description": "Democratic-transition newspaper turned multimedia group.",
+      "events": [
+        {
+          "date": "1976-05-04",
+          "category": "birth",
+          "description": "El País first edition published"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "expansion",
+          "description": "Santillana and radio assets consolidated"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "RTVE",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Madrid",
+      "description": "State radio-television corporation.",
+      "events": [
+        {
+          "date": "1937-01-19",
+          "category": "birth",
+          "description": "Radio Nacional de España starts"
+        },
+        {
+          "date": "1956-10-28",
+          "category": "milestone",
+          "description": "TVE television service launches"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Unión General de Trabajadores",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Madrid",
+      "description": "Historic socialist union central.",
+      "events": [
+        {
+          "date": "1888-08-12",
+          "category": "birth",
+          "description": "UGT founded in Barcelona"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Confederación Española de Organizaciones Empresariales",
+      "type": "private",
+      "role": "Employers' confederation",
+      "regionOfActivity": "Madrid",
+      "description": "Peak business organization of the democratic era.",
+      "events": [
+        {
+          "date": "1977-06-29",
+          "category": "birth",
+          "description": "CEOE founded during the transition"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Guardia Civil",
+      "type": "public",
+      "role": "Gendarmerie",
+      "regionOfActivity": "Madrid",
+      "description": "Military-status rural police force.",
+      "events": [
+        {
+          "date": "1844-03-28",
+          "category": "birth",
+          "description": "Royal decree creates the corps"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "AENA",
+      "type": "hybrid",
+      "role": "Airport operator",
+      "regionOfActivity": "Madrid",
+      "description": "State-anchored operator of the Spanish airport network.",
+      "events": [
+        {
+          "date": "1991-06-19",
+          "category": "birth",
+          "description": "AENA created"
+        },
+        {
+          "date": "2015-02-11",
+          "category": "transformation",
+          "description": "Partial privatization and listing"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Correos",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Madrid",
+      "description": "Universal postal operator with banking alliances.",
+      "events": [
+        {
+          "date": "1716-07-12",
+          "category": "birth",
+          "description": "Bourbon postal reform centralizes the service"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "transformation",
+          "description": "State-owned company status"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Navantia",
+      "type": "public",
+      "role": "Shipbuilder",
+      "regionOfActivity": "Cádiz",
+      "description": "Naval shipbuilder from the royal arsenals tradition.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "founding",
+          "description": "IZAR split creates Navantia"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "expansion",
+          "description": "Australian destroyer program exports begin"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Talgo",
+      "type": "private",
+      "role": "Train manufacturer",
+      "regionOfActivity": "Madrid",
+      "description": "Articulated-train specialist exporting worldwide.",
+      "events": [
+        {
+          "date": "1942-10-28",
+          "category": "birth",
+          "description": "Patentes Talgo founded"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "CAF",
+      "type": "private",
+      "role": "Train manufacturer",
+      "regionOfActivity": "Beasain",
+      "description": "Basque rolling-stock maker with global metro contracts.",
+      "events": [
+        {
+          "date": "1917-01-01",
+          "category": "birth",
+          "description": "Compañía Auxiliar de Ferrocarriles founded"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Amadeus",
+      "type": "private",
+      "role": "Travel technology company",
+      "regionOfActivity": "Madrid",
+      "description": "Airline-booking GDS turned travel-platform leader.",
+      "events": [
+        {
+          "date": "1987-01-01",
+          "category": "birth",
+          "description": "Founded by Air France, Iberia, Lufthansa and SAS"
+        },
+        {
+          "date": "2005-01-01",
+          "category": "transformation",
+          "description": "Private-equity buyout; relisting in 2010"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Cellnex",
+      "type": "private",
+      "role": "Telecom-tower operator",
+      "regionOfActivity": "Barcelona",
+      "description": "Abertis spin-off grown into Europe's largest tower company.",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "birth",
+          "description": "Acesa Telecom founded"
+        },
+        {
+          "date": "2015-05-07",
+          "category": "transformation",
+          "description": "Cellnex listing; Abertis demerger"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Grifols",
+      "type": "private",
+      "role": "Plasma pharmaceuticals group",
+      "regionOfActivity": "Barcelona",
+      "description": "Family plasma-derivatives leader.",
+      "events": [
+        {
+          "date": "1940-01-01",
+          "category": "birth",
+          "description": "Laboratorios Grifols founded"
+        },
+        {
+          "date": "2003-01-01",
+          "category": "expansion",
+          "description": "US plasma-center acquisitions begin"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Técnicas Reunidas",
+      "type": "private",
+      "role": "Engineering contractor",
+      "regionOfActivity": "Madrid",
+      "description": "Oil, gas and power-plant EPC contractor.",
+      "events": [
+        {
+          "date": "1960-01-01",
+          "category": "birth",
+          "description": "Founded in Madrid"
+        }
+      ]
+    },
+    {
+      "id": "a47",
+      "name": "Abengoa",
+      "type": "private",
+      "role": "Engineering and solar group",
+      "regionOfActivity": "Seville",
+      "description": "Family engineering house, solar pioneer, restructured after 2015 debt crisis.",
+      "events": [
+        {
+          "date": "1941-01-04",
+          "category": "birth",
+          "description": "Abengoa founded in Seville"
+        },
+        {
+          "date": "2007-03-30",
+          "category": "technical",
+          "description": "Solúcar solar platform inaugurated"
+        },
+        {
+          "date": "2015-11-25",
+          "category": "transformation",
+          "description": "Pre-bankruptcy proceedings open"
+        }
+      ]
+    },
+    {
+      "id": "a48",
+      "name": "Siemens Gamesa",
+      "type": "private",
+      "role": "Wind-turbine manufacturer",
+      "regionOfActivity": "Zamudio",
+      "description": "Basque wind pioneer merged into Siemens Energy.",
+      "events": [
+        {
+          "date": "1976-01-01",
+          "category": "birth",
+          "description": "Gamesa founded"
+        },
+        {
+          "date": "2017-04-03",
+          "category": "transformation",
+          "description": "Siemens Wind Power merger"
+        }
+      ]
+    },
+    {
+      "id": "a49",
+      "name": "Red Eléctrica",
+      "type": "private",
+      "role": "Grid operator",
+      "regionOfActivity": "Madrid",
+      "description": "Transmission-system operator with state golden stake past.",
+      "events": [
+        {
+          "date": "1985-01-29",
+          "category": "birth",
+          "description": "Red Eléctrica de España created"
+        },
+        {
+          "date": "1999-07-01",
+          "category": "transformation",
+          "description": "Privatization and listing"
+        }
+      ]
+    },
+    {
+      "id": "a50",
+      "name": "Enagás",
+      "type": "private",
+      "role": "Gas grid operator",
+      "regionOfActivity": "Madrid",
+      "description": "Regasification and pipeline system operator.",
+      "events": [
+        {
+          "date": "1972-09-13",
+          "category": "birth",
+          "description": "Empresa Nacional del Gas founded"
+        },
+        {
+          "date": "2002-06-26",
+          "category": "transformation",
+          "description": "Listing; Gas Natural reduces stake"
+        }
+      ]
+    },
+    {
+      "id": "a51",
+      "name": "Sociedad Estatal de Participaciones Industriales",
+      "type": "public",
+      "role": "State holding company",
+      "regionOfActivity": "Madrid",
+      "description": "Heir of INI managing residual state industry.",
+      "events": [
+        {
+          "date": "1941-09-25",
+          "category": "birth",
+          "description": "Instituto Nacional de Industria created"
+        },
+        {
+          "date": "1995-06-16",
+          "category": "transformation",
+          "description": "SEPI succeeds INI and INH"
+        }
+      ]
+    },
+    {
+      "id": "a52",
+      "name": "Universidad Complutense de Madrid",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Madrid",
+      "description": "Historic studium refounded in Madrid from Alcalá.",
+      "events": [
+        {
+          "date": "1499-05-20",
+          "category": "birth",
+          "description": "Cisneros founds the Colegio Mayor de San Ildefonso"
+        },
+        {
+          "date": "1836-10-29",
+          "category": "milestone",
+          "description": "Transfer to Madrid completed"
+        }
+      ]
+    }
+  ]
+}

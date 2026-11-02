@@ -25,13 +25,13 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check search-index graph-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
 
-run: ## local dev server, no docker (port DEV_PORT, default 8010)
-	python3 bin/serve.py --port $(DEV_PORT)
+run: ## local dev server, no docker (port DEV_PORT, default 8010; index API on)
+	EPISTECNICA_ALLOW_INDEX_API=1 python3 bin/serve.py --port $(DEV_PORT)
 
 check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + goodness-of-fit atlas + catalog literals
 	python3 -m py_compile bin/*.py
@@ -57,6 +57,12 @@ ees-check: ## validate the EES tree store (src/note/app/data/epistemica/ees.json
 
 rees-check: ees-check
 
+glossarium-index: ## rebuild the lexical corpus index (after any terms.json change)
+	python3 bin/build_glossarium_index.py
+
+qa-index: ## rebuild the Q/A log index (after any qa.json change)
+	python3 bin/build_qa_index.py
+
 atlas-index: ## rebuild the technica atlas store (after any technica corpus change)
 	python3 bin/build_technica_atlas.py
 
@@ -78,11 +84,21 @@ gof-check: ## validate the goodness-of-fit atlas store (src/note/app/data/episte
 search-index: ## build the universal search snapshot (before build/deploy)
 	python3 bin/build_search_index.py
 
+index-status: ## print the last known index-build progress (no build)
+	python3 bin/index_jobs.py --status
+
+index-list: ## list the registered index builders and their dependencies
+	python3 bin/index_jobs.py --list
+
+index-background: ## queue every index build in the background and return at once
+	python3 bin/index_jobs.py --background
+
 graph-index: ## rebuild the universal view graph + layout (after any corpus change)
 	python3 bin/build_universal_index.py
 	python3 bin/layout.py --group-by source
 
-index: notes-index course-index document-index search-index ## rebuild all search indexes (corpora first, universal snapshot last)
+index: ## rebuild every index (chunked, dependency order, progress reported)
+	python3 bin/index_jobs.py
 
 changelog-link: ## stamp commit links on corpus changelog logs introduced by HEAD
 	python3 bin/link_changelog_commits.py

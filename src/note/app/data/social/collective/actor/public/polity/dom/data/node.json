@@ -1,0 +1,107 @@
+{
+  "id": "dom",
+  "name": "Dominican Republic",
+  "tags": [
+    "Caribbean",
+    "CARICOM Associate",
+    "Upper-Middle-Income",
+    "Tourism & Agro-Export",
+    "Renewable Energy Potential",
+    "Presidential Republic"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "The Dominican Republic is a sovereign presidential republic on the island of Hispaniola in the Caribbean, sharing its territory with Haiti. Historically shaped by sugarcane, mining, and tourism, it has evolved into a dynamic economy with strong remittance inflows, diversified services and industrial sectors, and growing investments in renewable energy and infrastructure.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "República Dominicana",
+    "flagEmoji": "🇩🇴",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "11.3 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 11300000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 153 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 153000000000
+      },
+      {
+        "id": "area",
+        "value": "48,670 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 48670
+      },
+      {
+        "id": "capital",
+        "value": "Santo Domingo",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Presidential Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of the Dominican Republic’s actor space from colonial-era plantation elites and early independence movements to Trujillo dictatorship, democratic transitions, and contemporary institutional consolidation.",
+        "link": "rep/actor.html?code=dom"
+      },
+      {
+        "id": "agro_export_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Agro-Export and Energy Network Structure",
+        "description": "Network analysis of sugar, cacao, coffee, and free-trade zone exports, alongside renewable energy infrastructure and integration into Caribbean and global trade flows.",
+        "link": null
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of provinces, agricultural zones, urban concentration, port infrastructure, and tourism hubs.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "DOM",
+      "region": "Latin America & Caribbean",
+      "lastRevised": "2026-02-27",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

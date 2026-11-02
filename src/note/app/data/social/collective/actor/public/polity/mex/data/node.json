@@ -1,0 +1,107 @@
+{
+  "id": "mex",
+  "name": "Mexico",
+  "tags": [
+    "North America",
+    "Federation",
+    "Presidential Republic",
+    "Manufacturing Hub",
+    "Oil Economy",
+    "Spanish-Speaking"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Mexico is a federal presidential republic and Latin America's second-largest economy. Deeply integrated with the United States through USMCA supply chains, it is a manufacturing hub for automotive, electronics and aerospace alongside oil, mining and massive remittance inflows. Thirty-one states plus Mexico City share power in a democratic federal system consolidated since 2000.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "México",
+    "flagEmoji": "🇲🇽",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "130 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 130000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 1.9 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1900000000000
+      },
+      {
+        "id": "area",
+        "value": "1,964,375 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 1964375
+      },
+      {
+        "id": "capital",
+        "value": "Mexico City",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Presidential Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Mexico's actor space from Porfirian railways and post-revolutionary state enterprises through maquiladora industrialization and NAFTA integration to nearshoring manufacturers and fintech entrants.",
+        "link": "rep/actor.html?code=mex"
+      },
+      {
+        "id": "maquila_remittance",
+        "type": "Network",
+        "status": "pending",
+        "title": "Maquiladora and Remittance Network",
+        "description": "Network analysis of border assembly plants, auto-electronics suppliers, and household remittance circuits binding US labor markets to Mexican regions.",
+        "link": null
+      },
+      {
+        "id": "federal_states",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Federal State Structure",
+        "description": "Geospatial representation of thirty-one states and the capital, fiscal centralization, and the north-center-south development gradient.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "MEX",
+      "region": "North America",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

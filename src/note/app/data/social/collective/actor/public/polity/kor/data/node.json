@@ -1,0 +1,107 @@
+{
+  "id": "kor",
+  "name": "South Korea",
+  "tags": [
+    "East Asia",
+    "OECD",
+    "High-Income Economy",
+    "Export-Oriented",
+    "Technology-Driven",
+    "G20"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "South Korea is a sovereign presidential republic in East Asia located on the southern portion of the Korean Peninsula. Following the Korean War, it transitioned from a low-income agrarian economy to a high-income, export-oriented industrial and technological power. Its development model combined state-led industrial policy, chaebol-centered conglomerate growth, human capital accumulation, and deep integration into global value chains.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "대한민국 (Daehan Minguk) / Republic of Korea",
+    "flagEmoji": "🇰🇷",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "51 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 51000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 1.8 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1800000000000
+      },
+      {
+        "id": "area",
+        "value": "100,210 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 100210
+      },
+      {
+        "id": "capital",
+        "value": "Seoul",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Presidential Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of South Korea’s actor space from post-war military governance and state-led industrialization to democratization, chaebol consolidation, and contemporary regulatory and innovation ecosystems.",
+        "link": "rep/actor.html?code=kor"
+      },
+      {
+        "id": "industrial_policy_dynamics",
+        "type": "Temporal",
+        "status": "pending",
+        "title": "Industrial Policy and Structural Transformation",
+        "description": "Structured timeline of heavy and chemical industry drives, export promotion strategies, technology upgrading, and transition toward advanced manufacturing and digital sectors.",
+        "link": null
+      },
+      {
+        "id": "chaebol_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Chaebol and Innovation Network Structure",
+        "description": "Network analysis of major conglomerates, supplier ecosystems, research institutions, and integration into global semiconductor, automotive, and electronics value chains.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "KOR",
+      "region": "East Asia",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

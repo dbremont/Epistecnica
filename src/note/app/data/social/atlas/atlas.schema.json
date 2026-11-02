@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://naturgnosis.org/schemas/atlas.schema.json",
+  "title": "Atlas of Social Reality",
+  "description": "The Social Element type tree from Philosophia Socialium et Operis: rooted at the abstract Social Element and expanded through the Social Order.",
+  "$comment": "Data objects in atlas.json must keep their object key order identical to this schema's property order.",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "$ref": "#/$defs/meta"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    }
+  },
+  "required": [
+    "meta",
+    "categories",
+    "nodes"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "description",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "category": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "plural": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "plural",
+        "color"
+      ],
+      "additionalProperties": false
+    },
+    "node": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "root",
+            "meta",
+            "agent",
+            "cognitive",
+            "normative",
+            "action",
+            "relation",
+            "structural",
+            "dynamic",
+            "coordinator"
+          ]
+        },
+        "parent": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "def": {
+          "type": "string"
+        },
+        "ex": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "parent",
+        "def",
+        "ex"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

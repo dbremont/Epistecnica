@@ -1,0 +1,107 @@
+{
+  "id": "are",
+  "name": "United Arab Emirates",
+  "tags": [
+    "Middle East",
+    "Gulf Monarchies",
+    "Federation of Emirates",
+    "Oil and Finance Hub",
+    "Logistics Crossroads",
+    "Diversification Drive"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "The United Arab Emirates is a federal monarchy of seven emirates on the Arabian Gulf's southern shore. Since federation in 1971, oil wealth has funded diversification into finance, aviation, logistics and tourism, with Dubai and Abu Dhabi as global hubs. Its open, expatriate-majority economy pairs sovereign-wealth investment with ambitious technology and energy-transition bets.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "UAE / Al-Imārāt",
+    "flagEmoji": "🇦🇪",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "11 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 11000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 550 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 550000000000
+      },
+      {
+        "id": "area",
+        "value": "83,600 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 83600
+      },
+      {
+        "id": "capital",
+        "value": "Abu Dhabi",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Monarchy of Seven Emirates",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of the Emirati actor space from pearling and trading dhow networks through oil-concession state-building to sovereign wealth funds, flag carriers, and free-zone regulators.",
+        "link": "rep/actor.html?code=are"
+      },
+      {
+        "id": "oil_finance_diversification",
+        "type": "Network",
+        "status": "pending",
+        "title": "Oil-to-Finance Diversification Network",
+        "description": "Network analysis of national oil companies, sovereign portfolios, aviation groups and fintech licensing drawing Gulf surpluses into global assets.",
+        "link": null
+      },
+      {
+        "id": "emirate_federal",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Emirate Federal Structure",
+        "description": "Geospatial representation of seven emirates' uneven endowments, federal-supreme-council bargaining, and port-airport urbanism along the Gulf coast.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "ARE",
+      "region": "Middle East",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

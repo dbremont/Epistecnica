@@ -1,0 +1,3609 @@
+{
+  "metadata": {
+    "source": "Historical archives, Government of India Gazettes, corporate histories, and economic surveys of India",
+    "lastUpdated": "2026-02-16",
+    "description": "Comprehensive dataset of Indian actors driving technical change. Batch 1 of 5.",
+    "country": "India",
+    "region": "South Asia",
+    "flag": "🇮🇳",
+    "introduction": "A granular view of the dynamics structuring technical change in India. This batch covers foundational state apparatus, key research institutes, premier educational institutions, and strategic industrial entities. Events detail the evolution from post-independence nation-building and the Green Revolution to the IT boom and the 'Make in India' era.",
+    "evidenceConfidence": "Provisional",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": 1,
+      "name": "Department of Science and Technology (DST)",
+      "type": "public",
+      "role": "Policy & Funding",
+      "regionOfActivity": "National",
+      "description": "Key government body for promoting scientific research and innovation.",
+      "events": [
+        {
+          "date": "1971-05-03",
+          "category": "birth",
+          "description": "Established under the Ministry of Science and Technology."
+        },
+        {
+          "date": "2000-01-01",
+          "category": "policy",
+          "description": "Launched the 'Science and Technology Policy 2003' to double R&D investment."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Indian Space Research Organisation (ISRO)",
+      "type": "public",
+      "role": "Space Research & Technology",
+      "regionOfActivity": "National",
+      "description": "National space agency driving satellite launch and remote sensing technology.",
+      "events": [
+        {
+          "date": "1969-08-15",
+          "category": "birth",
+          "description": "Established under the Department of Atomic Energy."
+        },
+        {
+          "date": "1980-07-18",
+          "category": "milestone",
+          "description": "Successfully placed Rohini satellite in orbit using SLV-3."
+        },
+        {
+          "date": "2014-09-24",
+          "category": "technical",
+          "description": "Mars Orbiter Mission (Mangalyaan) entered Mars orbit, first Asian nation to succeed."
+        },
+        {
+          "date": "2023-08-23",
+          "category": "achievement",
+          "description": "Chandrayaan-3 successfully landed on the lunar south pole."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Indian Institutes of Technology (IIT System)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "National",
+      "description": "Premier autonomous public technical universities, backbone of India's engineering prowess.",
+      "events": [
+        {
+          "date": "1951-05-18",
+          "category": "birth",
+          "description": "IIT Kharagpur inaugurated as the first IIT."
+        },
+        {
+          "date": "1961-12-15",
+          "category": "legislation",
+          "description": "Institutes of Technology Act declared them 'Institutions of National Importance'."
+        },
+        {
+          "date": "2001-01-01",
+          "category": "expansion",
+          "description": "IIT Roorkee converted to an IIT."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Council of Scientific and Industrial Research (CSIR)",
+      "type": "public",
+      "role": "Research & Development",
+      "regionOfActivity": "National",
+      "description": "Umbrella organization for 37 national laboratories.",
+      "events": [
+        {
+          "date": "1942-09-26",
+          "category": "birth",
+          "description": "Established as an autonomous body."
+        },
+        {
+          "date": "1958-01-01",
+          "category": "technical",
+          "description": "Developed the first Indian drug, 'Sintamil' (anti-TB)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tata Consultancy Services (TCS)",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Global",
+      "description": "Largest Indian IT services company, pioneer of the software export industry.",
+      "events": [
+        {
+          "date": "1968-04-01",
+          "category": "birth",
+          "description": "Established as a division of Tata Sons."
+        },
+        {
+          "date": "1974-09-01",
+          "category": "milestone",
+          "description": "Secured first international project for Interbank Transfer System."
+        },
+        {
+          "date": "2004-08-25",
+          "category": "milestone",
+          "description": "Became first Indian company to cross $1B annual revenue in IT services."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Reliance Industries Limited (RIL)",
+      "type": "private",
+      "role": "Conglomerate & Digital",
+      "regionOfActivity": "National",
+      "description": "Major player in energy, petrochemicals, and telecommunications (Jio).",
+      "events": [
+        {
+          "date": "1966-12-08",
+          "category": "birth",
+          "description": "Founded as Reliance Textiles Engineers Pvt Ltd."
+        },
+        {
+          "date": "2008-12-31",
+          "category": "technical",
+          "description": "Commissioned the world's largest refinery complex in Jamnagar."
+        },
+        {
+          "date": "2016-09-05",
+          "category": "transformation",
+          "description": "Launched Reliance Jio, triggering a 4G data revolution in India."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Defence Research and Development Organisation (DRDO)",
+      "type": "public",
+      "role": "Defense R&D",
+      "regionOfActivity": "National",
+      "description": "Agency responsible for military research and development.",
+      "events": [
+        {
+          "date": "1958-01-01",
+          "category": "birth",
+          "description": "Formed by merger of Technical Development Establishment and Directorate of Technical Development."
+        },
+        {
+          "date": "2004-06-09",
+          "category": "technical",
+          "description": "Tested the BrahMos supersonic cruise missile."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Indian Council of Agricultural Research (ICAR)",
+      "type": "public",
+      "role": "Agricultural Research",
+      "regionOfActivity": "National",
+      "description": "Apex body for coordinating agricultural education and research.",
+      "events": [
+        {
+          "date": "1929-07-16",
+          "category": "birth",
+          "description": "Established as Imperial Council of Agricultural Research."
+        },
+        {
+          "date": "1965-01-01",
+          "category": "technical",
+          "description": "Played pivotal role in launching the Green Revolution (Wheat varieties)."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Infosys Limited",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Global",
+      "description": "Global leader in next-generation digital services.",
+      "events": [
+        {
+          "date": "1981-07-02",
+          "category": "birth",
+          "description": "Founded by N.R. Narayana Murthy and six others in Pune."
+        },
+        {
+          "date": "1999-03-11",
+          "category": "milestone",
+          "description": "Became the first Indian company to list on NASDAQ."
+        },
+        {
+          "date": "2015-01-01",
+          "category": "technical",
+          "description": "Launched 'Infosys Aikido' for AI and automation services."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Department of Atomic Energy (DAE)",
+      "type": "public",
+      "role": "Nuclear Energy",
+      "regionOfActivity": "National",
+      "description": "Governs nuclear energy research and applications.",
+      "events": [
+        {
+          "date": "1954-08-03",
+          "category": "birth",
+          "description": "Established under the direct charge of the Prime Minister."
+        },
+        {
+          "date": "1969-05-01",
+          "category": "infrastructure",
+          "description": "Commissioned Tarapur Atomic Power Station."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Bhabha Atomic Research Centre (BARC)",
+      "type": "public",
+      "role": "Nuclear Research",
+      "regionOfActivity": "Mumbai",
+      "description": "India's premier nuclear research facility.",
+      "events": [
+        {
+          "date": "1954-01-01",
+          "category": "birth",
+          "description": "Established as Atomic Energy Establishment, Trombay."
+        },
+        {
+          "date": "1967-01-12",
+          "category": "renaming",
+          "description": "Renamed after Homi J. Bhabha."
+        },
+        {
+          "date": "2018-09-17",
+          "category": "technical",
+          "description": "Developed 'Bhabha Kavach' bulletproof jacket."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Indian Institute of Science (IISc)",
+      "type": "public",
+      "role": "Research & Education",
+      "regionOfActivity": "Bangalore",
+      "description": "Premier institute for advanced scientific and technological research.",
+      "events": [
+        {
+          "date": "1909-05-27",
+          "category": "birth",
+          "description": "Established by Jamsetji Tata and the Mysore government."
+        },
+        {
+          "date": "2015-12-01",
+          "category": "achievement",
+          "description": "Ranked as India's top university in QS rankings."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Bharat Heavy Electricals Limited (BHEL)",
+      "type": "public",
+      "role": "Heavy Engineering",
+      "regionOfActivity": "National",
+      "description": "Largest engineering and manufacturing enterprise in India's energy sector.",
+      "events": [
+        {
+          "date": "1964-01-01",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "1976-01-01",
+          "category": "expansion",
+          "description": "Merged with Bharat Heavy Plates & Vessels."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Wipro Limited",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Global",
+      "description": "Leading global information technology, consulting and business process services company.",
+      "events": [
+        {
+          "date": "1945-12-29",
+          "category": "birth",
+          "description": "Founded as Western India Vegetable Products Limited."
+        },
+        {
+          "date": "1980-01-01",
+          "category": "pivot",
+          "description": "Entered the IT industry under Azim Premji."
+        },
+        {
+          "date": "2013-01-01",
+          "category": "technical",
+          "description": "Launched Wipro Holmes AI and automation platform."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "National Informatics Centre (NIC)",
+      "type": "public",
+      "role": "E-Governance Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Premier science and technology organization for informatics services.",
+      "events": [
+        {
+          "date": "1976-01-01",
+          "category": "birth",
+          "description": "Established under the Department of Electronics."
+        },
+        {
+          "date": "1990-01-01",
+          "category": "infrastructure",
+          "description": "Launched NICNET, the satellite-based computer network."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Unique Identification Authority of India (UIDAI)",
+      "type": "public",
+      "role": "Digital Identity",
+      "regionOfActivity": "National",
+      "description": "Created Aadhaar, the world's largest biometric ID system.",
+      "events": [
+        {
+          "date": "2009-01-28",
+          "category": "birth",
+          "description": "Established under Planning Commission."
+        },
+        {
+          "date": "2010-02-12",
+          "category": "milestone",
+          "description": "Issued the first Aadhaar number to a resident of Maharashtra."
+        },
+        {
+          "date": "2016-07-12",
+          "category": "legislation",
+          "description": "Aadhaar Act passed by Parliament."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Indian Institute of Technology Madras (IITM)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Chennai",
+      "description": "Top-ranked engineering institute known for deep-tech startups.",
+      "events": [
+        {
+          "date": "1959-07-31",
+          "category": "birth",
+          "description": "Inaugurated with technical assistance from West Germany."
+        },
+        {
+          "date": "2016-11-01",
+          "category": "innovation",
+          "description": "Incubated Agnikul Cosmos, a private space startup."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Larsen & Toubro (L&T)",
+      "type": "private",
+      "role": "Engineering & Construction",
+      "regionOfActivity": "National",
+      "description": "Major Indian multinational engaged in technology, engineering, construction.",
+      "events": [
+        {
+          "date": "1946-01-01",
+          "category": "birth",
+          "description": "Founded by Henning Holck-Larsen and Soren Kristian Toubro."
+        },
+        {
+          "date": "2015-04-01",
+          "category": "technical",
+          "description": "Built the indigenous nuclear steam generator for Kakrapar plant."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "HCL Technologies",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Global",
+      "description": "Pioneer in modern computing and IT services.",
+      "events": [
+        {
+          "date": "1976-11-11",
+          "category": "birth",
+          "description": "Founded as Hindustan Computers Limited."
+        },
+        {
+          "date": "1978-01-01",
+          "category": "technical",
+          "description": "Designed and produced the first indigenous microcomputer."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "National Payments Corporation of India (NPCI)",
+      "type": "nonprofit",
+      "role": "Financial Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Umbrella organization for retail payments and settlement systems.",
+      "events": [
+        {
+          "date": "2008-12-03",
+          "category": "birth",
+          "description": "Founded with support from RBI and IBA."
+        },
+        {
+          "date": "2016-04-11",
+          "category": "transformation",
+          "description": "Launched Unified Payments Interface (UPI), revolutionizing digital payments."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Indian Council of Medical Research (ICMR)",
+      "type": "public",
+      "role": "Medical Research",
+      "regionOfActivity": "National",
+      "description": "Apex body for formulation, coordination and promotion of biomedical research.",
+      "events": [
+        {
+          "date": "1911-11-15",
+          "category": "birth",
+          "description": "Established as Indian Research Fund Association."
+        },
+        {
+          "date": "2020-05-09",
+          "category": "technical",
+          "description": "Validated first indigenous COVID-19 RT-PCR kit."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Oil and Natural Gas Corporation (ONGC)",
+      "type": "public",
+      "role": "Energy",
+      "regionOfActivity": "National",
+      "description": "Largest government-owned oil and gas explorer.",
+      "events": [
+        {
+          "date": "1956-08-14",
+          "category": "birth",
+          "description": "Incorporated under the Oil and Natural Gas Commission Act."
+        },
+        {
+          "date": "1961-02-17",
+          "category": "technical",
+          "description": "Discovered oil in Ankleshvar, Gujarat."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Indian Institute of Technology Bombay (IITB)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Mumbai",
+      "description": "Leading institute known for computer science and engineering.",
+      "events": [
+        {
+          "date": "1958-02-10",
+          "category": "birth",
+          "description": "Established with assistance from UNESCO and Soviet Union."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Maruti Suzuki India Limited",
+      "type": "hybrid",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Largest automobile manufacturer in India, catalyst for auto component industry.",
+      "events": [
+        {
+          "date": "1981-02-24",
+          "category": "birth",
+          "description": "Founded as Maruti Udyog Limited."
+        },
+        {
+          "date": "1983-12-14",
+          "category": "technical",
+          "description": "Launched the Maruti 800, modernizing Indian roads."
+        },
+        {
+          "date": "2007-05-10",
+          "category": "privatization",
+          "description": "Turned into a private limited company under Suzuki Motor Corporation."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Bharat Electronics Limited (BEL)",
+      "type": "public",
+      "role": "Defense Electronics",
+      "regionOfActivity": "National",
+      "description": "State-owned aerospace and defense electronics company.",
+      "events": [
+        {
+          "date": "1954-04-21",
+          "category": "birth",
+          "description": "Established in Bangalore."
+        },
+        {
+          "date": "2018-01-01",
+          "category": "technical",
+          "description": "Delivered Akash missile systems to Indian Air Force."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Steel Authority of India Limited (SAIL)",
+      "type": "public",
+      "role": "Heavy Industry",
+      "regionOfActivity": "National",
+      "description": "Government-owned steel making company.",
+      "events": [
+        {
+          "date": "1954-01-19",
+          "category": "birth",
+          "description": "Established as Hindustan Steel Private Limited."
+        },
+        {
+          "date": "1973-01-24",
+          "category": "reorganization",
+          "description": "Reconstituted as SAIL."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Biocon Limited",
+      "type": "private",
+      "role": "Biopharmaceuticals",
+      "regionOfActivity": "Bangalore",
+      "description": "India's largest biopharmaceutical company.",
+      "events": [
+        {
+          "date": "1978-11-01",
+          "category": "birth",
+          "description": "Founded by Kiran Mazumdar-Shaw as an enzyme manufacturing company."
+        },
+        {
+          "date": "2004-03-29",
+          "category": "milestone",
+          "description": "IPO oversubscribed 33 times, marking biotech arrival in India."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Hindustan Aeronautics Limited (HAL)",
+      "type": "public",
+      "role": "Aerospace Manufacturing",
+      "regionOfActivity": "National",
+      "description": "State-owned aerospace and defence company.",
+      "events": [
+        {
+          "date": "1940-12-23",
+          "category": "birth",
+          "description": "Incorporated as Hindustan Aircraft Limited by Walchand Hirachand."
+        },
+        {
+          "date": "1963-01-01",
+          "category": "nationalization",
+          "description": "Taken over by the Government of India."
+        },
+        {
+          "date": "2016-02-23",
+          "category": "technical",
+          "description": "First successful flight of Light Combat Helicopter."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Centre for Development of Advanced Computing (C-DAC)",
+      "type": "public",
+      "role": "R&D",
+      "regionOfActivity": "Pune/National",
+      "description": "Premier R&D organization for IT, electronics, and supercomputing.",
+      "events": [
+        {
+          "date": "1988-03-01",
+          "category": "birth",
+          "description": "Established to build India's first supercomputer after US denial."
+        },
+        {
+          "date": "1991-01-01",
+          "category": "technical",
+          "description": "Delivered PARAM 8000, India's first supercomputer."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Mahindra & Mahindra Limited",
+      "type": "private",
+      "role": "Automotive & Farm Tech",
+      "regionOfActivity": "National",
+      "description": "Major manufacturer of utility vehicles and tractors.",
+      "events": [
+        {
+          "date": "1945-10-02",
+          "category": "birth",
+          "description": "Founded as Mahindra & Mohammed."
+        },
+        {
+          "date": "1963-01-01",
+          "category": "technical",
+          "description": "Produced first utility vehicle for the Indian market."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Flipkart",
+      "type": "private",
+      "role": "E-commerce",
+      "regionOfActivity": "National",
+      "description": "Leading e-commerce platform that pioneered online retail in India.",
+      "events": [
+        {
+          "date": "2007-10-01",
+          "category": "birth",
+          "description": "Founded by Sachin Bansal and Binny Bansal."
+        },
+        {
+          "date": "2010-10-15",
+          "category": "technical",
+          "description": "Launched 'Cash on Delivery' model, adapting tech to Indian market."
+        },
+        {
+          "date": "2018-08-18",
+          "category": "acquisition",
+          "description": "Acquired by Walmart for $16 billion."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Indian Institute of Technology Delhi (IITD)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "New Delhi",
+      "description": "Premier engineering institute with strong ties to policy.",
+      "events": [
+        {
+          "date": "1961-08-17",
+          "category": "birth",
+          "description": "Declared an Institution of National Importance."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Tata Motors",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Largest Indian automobile manufacturer by revenue.",
+      "events": [
+        {
+          "date": "1945-09-01",
+          "category": "birth",
+          "description": "Founded as Tata Engineering and Locomotive Co. Ltd."
+        },
+        {
+          "date": "2008-03-26",
+          "category": "acquisition",
+          "description": "Acquired Jaguar Land Rover from Ford."
+        },
+        {
+          "date": "2021-01-04",
+          "category": "technical",
+          "description": "Tested Altroz EV, pushing electric vehicle transition."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "National Thermal Power Corporation (NTPC)",
+      "type": "public",
+      "role": "Power Generation",
+      "regionOfActivity": "National",
+      "description": "India's largest power utility company.",
+      "events": [
+        {
+          "date": "1975-11-07",
+          "category": "birth",
+          "description": "Incorporated under the Companies Act."
+        },
+        {
+          "date": "1997-03-01",
+          "category": "status",
+          "description": "Conferred 'Navratna' status."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Digital India Corporation (DIC)",
+      "type": "public",
+      "role": "Digital Governance",
+      "regionOfActivity": "National",
+      "description": "Implementing agency for the Digital India programme.",
+      "events": [
+        {
+          "date": "2015-07-01",
+          "category": "birth",
+          "description": "Launched by Prime Minister Narendra Modi."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Serum Institute of India (SII)",
+      "type": "private",
+      "role": "Biotechnology",
+      "regionOfActivity": "Pune",
+      "description": "World's largest vaccine manufacturer by number of doses produced.",
+      "events": [
+        {
+          "date": "1966-06-03",
+          "category": "birth",
+          "description": "Founded by Cyrus Poonawalla."
+        },
+        {
+          "date": "2021-01-16",
+          "category": "milestone",
+          "description": "Supplied Covishield vaccine for India's COVID-19 vaccination drive."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Indian Institute of Technology Kanpur (IITK)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Kanpur",
+      "description": "Institute known for aeronautical engineering and computer science.",
+      "events": [
+        {
+          "date": "1959-12-03",
+          "category": "birth",
+          "description": "Established with assistance from a consortium of US universities."
+        },
+        {
+          "date": "1963-08-01",
+          "category": "technical",
+          "description": "Started the first Computer Science education program in India."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Tech Mahindra",
+      "type": "private",
+      "role": "IT Services & Telecom",
+      "regionOfActivity": "Global",
+      "description": "Provider of IT and networking technology solutions.",
+      "events": [
+        {
+          "date": "1986-10-24",
+          "category": "birth",
+          "description": "Founded as Mahindra-British Telecom."
+        },
+        {
+          "date": "2010-06-25",
+          "category": "acquisition",
+          "description": "Acquired Satyam Computer Services."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "National Dairy Development Board (NDDB)",
+      "type": "public",
+      "role": "Agri-Tech (Dairy)",
+      "regionOfActivity": "National",
+      "description": "Promoted Operation Flood and created AMUL model.",
+      "events": [
+        {
+          "date": "1965-10-16",
+          "category": "birth",
+          "description": "Established under an Act of Parliament."
+        },
+        {
+          "date": "1970-01-26",
+          "category": "technical",
+          "description": "Launched 'Operation Flood', the world's largest dairy development program."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Bharat Biotech",
+      "type": "private",
+      "role": "Biotechnology",
+      "regionOfActivity": "Hyderabad",
+      "description": "Leading biotechnology company focused on vaccine innovation.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Founded by Krishna Ella."
+        },
+        {
+          "date": "2021-01-03",
+          "category": "technical",
+          "description": "Developed India's first indigenous COVID-19 vaccine, Covaxin."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Antrix Corporation",
+      "type": "public",
+      "role": "Space Commerce",
+      "regionOfActivity": "Bangalore",
+      "description": "Commercial arm of ISRO.",
+      "events": [
+        {
+          "date": "1992-09-28",
+          "category": "birth",
+          "description": "Incorporated as a government-owned company."
+        },
+        {
+          "date": "2015-07-06",
+          "category": "milestone",
+          "description": "Launched 5 UK satellites on a single PSLV rocket."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Rashtriya Swayamsevak Sangh (RSS) - Swadeshi Jagran Manch",
+      "type": "nonprofit",
+      "role": "Policy Advocacy",
+      "regionOfActivity": "National",
+      "description": "Advocates for swadeshi (indigenous) technology and economic policies.",
+      "events": [
+        {
+          "date": "1991-11-22",
+          "category": "birth",
+          "description": "Swadeshi Jagran Manch formed."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Hindustan Petroleum Corporation Limited (HPCL)",
+      "type": "public",
+      "role": "Energy",
+      "regionOfActivity": "National",
+      "description": "Major oil and natural gas company.",
+      "events": [
+        {
+          "date": "1974-07-01",
+          "category": "birth",
+          "description": "Formed by merger of Esso and Caltex."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Indian Institute of Technology Kharagpur (IITKGP)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Kharagpur",
+      "description": "First IIT, established to train engineers for nation-building.",
+      "events": [
+        {
+          "date": "1951-05-18",
+          "category": "birth",
+          "description": "Inaugurated in the Hijli Detention Camp."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Bajaj Auto Limited",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "Pune/Global",
+      "description": "World's largest three-wheeler manufacturer.",
+      "events": [
+        {
+          "date": "1945-11-29",
+          "category": "birth",
+          "description": "Founded as Bachraj Trading Corporation."
+        },
+        {
+          "date": "2001-01-01",
+          "category": "milestone",
+          "description": "Became India's second-largest two-wheeler manufacturer."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Sun Pharmaceutical Industries Limited",
+      "type": "private",
+      "role": "Pharmaceuticals",
+      "regionOfActivity": "Mumbai/Global",
+      "description": "Largest pharma company in India by market capitalization.",
+      "events": [
+        {
+          "date": "1983-03-01",
+          "category": "birth",
+          "description": "Founded with just 5 products."
+        },
+        {
+          "date": "2014-04-07",
+          "category": "acquisition",
+          "description": "Acquired Ranbaxy Laboratories."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Indian Institute of Technology Roorkee (IITR)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Roorkee",
+      "description": "Oldest technical institution in Asia.",
+      "events": [
+        {
+          "date": "1847-11-25",
+          "category": "birth",
+          "description": "Founded as College of Civil Engineering."
+        },
+        {
+          "date": "2001-09-21",
+          "category": "transformation",
+          "description": "Converted to an IIT."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Ministry of Electronics and Information Technology (MeitY)",
+      "type": "public",
+      "role": "Governance",
+      "regionOfActivity": "National",
+      "description": "Executive agency for IT policy and electronics manufacturing.",
+      "events": [
+        {
+          "date": "2016-07-19",
+          "category": "birth",
+          "description": "Carved out of the Department of Electronics and IT."
+        },
+        {
+          "date": "2019-10-01",
+          "category": "policy",
+          "description": "Released National Policy on Electronics 2019."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Coal India Limited (CIL)",
+      "type": "public",
+      "role": "Mining",
+      "regionOfActivity": "National",
+      "description": "World's largest coal-producing company.",
+      "events": [
+        {
+          "date": "1975-11-01",
+          "category": "birth",
+          "description": "Nationalized and formed as Coal India Limited."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Pharmaceuticals Export Promotion Council of India (Pharmexcil)",
+      "type": "nonprofit",
+      "role": "Trade Promotion",
+      "regionOfActivity": "National",
+      "description": "Promotes pharma exports and technology transfer.",
+      "events": [
+        {
+          "date": "2004-05-12",
+          "category": "birth",
+          "description": "Established by the Ministry of Commerce."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "RedBus (Ibibo Group)",
+      "type": "private",
+      "role": "Tech Startup",
+      "regionOfActivity": "Bangalore",
+      "description": "Pioneer in online bus ticketing aggregation.",
+      "events": [
+        {
+          "date": "2006-08-01",
+          "category": "birth",
+          "description": "Founded by Phanindra Sama."
+        },
+        {
+          "date": "2013-06-01",
+          "category": "acquisition",
+          "description": "Acquired by Ibibo Group."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Bharat Dynamics Limited (BDL)",
+      "type": "public",
+      "role": "Defense Manufacturing",
+      "regionOfActivity": "Hyderabad",
+      "description": "Manufacturer of guided missile systems.",
+      "events": [
+        {
+          "date": "1970-07-16",
+          "category": "birth",
+          "description": "Established under Ministry of Defence."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Larsen & Toubro Infotech (LTI)",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Global",
+      "description": "Global IT solutions and services company.",
+      "events": [
+        {
+          "date": "1996-12-23",
+          "category": "birth",
+          "description": "Spun off from L&T's IT division."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "MakeMyTrip",
+      "type": "private",
+      "role": "Travel Tech",
+      "regionOfActivity": "National",
+      "description": "Leading online travel company.",
+      "events": [
+        {
+          "date": "2000-04-01",
+          "category": "birth",
+          "description": "Founded by Deep Kalra."
+        },
+        {
+          "date": "2010-08-12",
+          "category": "milestone",
+          "description": "Listed on NASDAQ."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Indian Agricultural Research Institute (IARI)",
+      "type": "public",
+      "role": "Agricultural Research",
+      "regionOfActivity": "New Delhi",
+      "description": "Premier national institute for agriculture research.",
+      "events": [
+        {
+          "date": "1905-04-01",
+          "category": "birth",
+          "description": "Established in Pusa, Bihar."
+        },
+        {
+          "date": "1965-01-01",
+          "category": "technical",
+          "description": "Developed high-yielding wheat varieties instrumental in Green Revolution."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Intel India",
+      "type": "private",
+      "role": "Semiconductor R&D",
+      "regionOfActivity": "Bangalore",
+      "description": "Largest non-manufacturing R&D center for Intel outside US.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Established operations in India."
+        },
+        {
+          "date": "2014-01-01",
+          "category": "infrastructure",
+          "description": "Opened new silicon design center in Bangalore."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Tata Steel",
+      "type": "private",
+      "role": "Heavy Industry",
+      "regionOfActivity": "Jamshedpur",
+      "description": "Asia's first private steel company.",
+      "events": [
+        {
+          "date": "1907-08-26",
+          "category": "birth",
+          "description": "Founded by Jamsetji Tata."
+        },
+        {
+          "date": "2018-06-01",
+          "category": "technical",
+          "description": "Commissioned India's first plant to extract methane from coal mines."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Microland",
+      "type": "private",
+      "role": "IT Infrastructure",
+      "regionOfActivity": "Bangalore",
+      "description": "Pioneer in remote infrastructure management services.",
+      "events": [
+        {
+          "date": "1989-01-01",
+          "category": "birth",
+          "description": "Founded by Pradeep Kar."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "IIT Madras Research Park",
+      "type": "public",
+      "role": "Innovation Hub",
+      "regionOfActivity": "Chennai",
+      "description": "First of its kind research park in India promoting industry-academia collaboration.",
+      "events": [
+        {
+          "date": "2010-01-01",
+          "category": "birth",
+          "description": "Inaugurated."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Godrej & Boyce Manufacturing Company",
+      "type": "private",
+      "role": "Engineering & Consumer Tech",
+      "regionOfActivity": "Mumbai",
+      "description": "Diversified engineering conglomerate.",
+      "events": [
+        {
+          "date": "1897-03-01",
+          "category": "birth",
+          "description": "Founded by Ardeshir Godrej."
+        },
+        {
+          "date": "1951-01-01",
+          "category": "technical",
+          "description": "Manufactured India's first indigenous typewriter."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Nasscom (National Association of Software and Service Companies)",
+      "type": "nonprofit",
+      "role": "Industry Association",
+      "regionOfActivity": "National",
+      "description": "Apex body for the IT-BPM industry.",
+      "events": [
+        {
+          "date": "1988-03-25",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2000-01-01",
+          "category": "policy",
+          "description": "Played key role in liberalizing telecom policy."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Zomato",
+      "type": "private",
+      "role": "Food Tech",
+      "regionOfActivity": "Global",
+      "description": "Restaurant aggregator and food delivery platform.",
+      "events": [
+        {
+          "date": "2008-07-01",
+          "category": "birth",
+          "description": "Founded as 'Foodiebay' by Deepinder Goyal."
+        },
+        {
+          "date": "2021-07-23",
+          "category": "milestone",
+          "description": "Listed on stock exchanges with massive IPO."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "NewSpace Research and Technologies",
+      "type": "private",
+      "role": "Aerospace Startup",
+      "regionOfActivity": "Bangalore",
+      "description": "Private player in aerospace and defense R&D.",
+      "events": [
+        {
+          "date": "2017-01-01",
+          "category": "birth",
+          "description": "Founded by Sameer Joshi."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Railway Recruitment Board (RRB)",
+      "type": "public",
+      "role": "HR Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Manages technical manpower for Indian Railways.",
+      "events": [
+        {
+          "date": "1942-01-01",
+          "category": "birth",
+          "description": "Established as Railway Service Commission."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Amul (Gujarat Co-operative Milk Marketing Federation)",
+      "type": "cooperative",
+      "role": "Food Processing Tech",
+      "regionOfActivity": "National",
+      "description": "Pioneered the cooperative model for dairy technology distribution.",
+      "events": [
+        {
+          "date": "1946-12-14",
+          "category": "birth",
+          "description": "Registered as a cooperative union."
+        },
+        {
+          "date": "1973-07-01",
+          "category": "milestone",
+          "description": "Created the 'Amul Girl' campaign, innovating rural marketing."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "BharatPe",
+      "type": "private",
+      "role": "Fintech",
+      "regionOfActivity": "National",
+      "description": "Offline UPI QR code payment provider for merchants.",
+      "events": [
+        {
+          "date": "2018-03-01",
+          "category": "birth",
+          "description": "Founded by Ashneer Grover."
+        },
+        {
+          "date": "2019-08-01",
+          "category": "technical",
+          "description": "Launched zero-fee payment services for merchants."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "NITI Aayog",
+      "type": "public",
+      "role": "Policy Think Tank",
+      "regionOfActivity": "National",
+      "description": "Premier policy think tank replacing the Planning Commission.",
+      "events": [
+        {
+          "date": "2015-01-01",
+          "category": "birth",
+          "description": "Established by the NDA government."
+        },
+        {
+          "date": "2018-06-01",
+          "category": "strategy",
+          "description": "Published 'National Strategy for Artificial Intelligence'."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Bajaj Finserv",
+      "type": "private",
+      "role": "Financial Tech",
+      "regionOfActivity": "Pune",
+      "description": "Pioneer in EMI financing on consumer goods.",
+      "events": [
+        {
+          "date": "2007-04-30",
+          "category": "birth",
+          "description": "Demerged from Bajaj Auto."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Mindtree",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Global",
+      "description": "Larsen & Toubro Group company focusing on digital transformation.",
+      "events": [
+        {
+          "date": "1999-08-18",
+          "category": "birth",
+          "description": "Founded by ten IT professionals."
+        },
+        {
+          "date": "2019-06-16",
+          "category": "acquisition",
+          "description": "Acquired by L&T."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Indian Railways",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Fourth largest railway network in the world.",
+      "events": [
+        {
+          "date": "1853-04-16",
+          "category": "birth",
+          "description": "First passenger train ran between Bombay and Thane."
+        },
+        {
+          "date": "2017-04-05",
+          "category": "technical",
+          "description": "Launched 'Train 18' (Vande Bharat), India's first engineless train."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Dr. Reddy's Laboratories",
+      "type": "private",
+      "role": "Pharmaceuticals",
+      "regionOfActivity": "Hyderabad",
+      "description": "First Indian pharma company to be listed on NYSE.",
+      "events": [
+        {
+          "date": "1984-02-24",
+          "category": "birth",
+          "description": "Founded by Anji Reddy."
+        },
+        {
+          "date": "2001-04-11",
+          "category": "milestone",
+          "description": "Listed on NYSE."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "AICTE (All India Council for Technical Education)",
+      "type": "public",
+      "role": "Accreditation",
+      "regionOfActivity": "National",
+      "description": "Statutory body for planning and coordinating technical education.",
+      "events": [
+        {
+          "date": "1945-11-01",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "1987-03-29",
+          "category": "legislation",
+          "description": "Constituted as a statutory body via AICTE Act."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "ISRO Telemetry, Tracking and Command Network (ISTRAC)",
+      "type": "public",
+      "role": "Space Infrastructure",
+      "regionOfActivity": "Bangalore/National",
+      "description": "Provides mission support for launch vehicles and satellites.",
+      "events": [
+        {
+          "date": "1976-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Myntra",
+      "type": "private",
+      "role": "Fashion Tech",
+      "regionOfActivity": "National",
+      "description": "Leading fashion e-commerce platform.",
+      "events": [
+        {
+          "date": "2007-01-01",
+          "category": "birth",
+          "description": "Founded by Mukesh Bansal."
+        },
+        {
+          "date": "2014-05-22",
+          "category": "acquisition",
+          "description": "Acquired by Flipkart."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Indian Institute of Technology Guwahati (IITG)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Guwahati",
+      "description": "Key institution for technology development in the Northeast.",
+      "events": [
+        {
+          "date": "1994-09-01",
+          "category": "birth",
+          "description": "Established under the Assam Accord."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Telecom Regulatory Authority of India (TRAI)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulator of the telecommunications sector.",
+      "events": [
+        {
+          "date": "1997-02-20",
+          "category": "birth",
+          "description": "Established by Telecom Regulatory Authority of India Act."
+        },
+        {
+          "date": "2017-09-28",
+          "category": "policy",
+          "description": "Reduced interconnection usage charges, boosting competition."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Swiggy",
+      "type": "private",
+      "role": "Food Tech",
+      "regionOfActivity": "National",
+      "description": "Online food ordering and delivery platform.",
+      "events": [
+        {
+          "date": "2014-08-01",
+          "category": "birth",
+          "description": "Founded by Sriharsha Majety."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "National Institute of Technology, Trichy (NITT)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Tiruchirappalli",
+      "description": "One of the top NITs in India.",
+      "events": [
+        {
+          "date": "1964-01-01",
+          "category": "birth",
+          "description": "Established as Regional Engineering College."
+        },
+        {
+          "date": "2003-01-01",
+          "category": "transformation",
+          "description": "Declared an Institute of National Importance."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Zerodha",
+      "type": "private",
+      "role": "Fintech",
+      "regionOfActivity": "Bangalore",
+      "description": "India's largest stock broker by active clients.",
+      "events": [
+        {
+          "date": "2010-08-15",
+          "category": "birth",
+          "description": "Founded by Nithin Kamath."
+        },
+        {
+          "date": "2015-01-01",
+          "category": "technical",
+          "description": "Launched 'Kite' trading platform with real-time data analytics."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Jio Platforms",
+      "type": "private",
+      "role": "Digital Services",
+      "regionOfActivity": "National",
+      "description": "Holding company for Reliance's digital businesses.",
+      "events": [
+        {
+          "date": "2019-11-01",
+          "category": "birth",
+          "description": "Reorganized as a separate entity."
+        },
+        {
+          "date": "2020-04-22",
+          "category": "investment",
+          "description": "Facebook acquired 9.99% stake."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Centre for Artificial Intelligence and Robotics (CAIR)",
+      "type": "public",
+      "role": "Defense R&D",
+      "regionOfActivity": "Bangalore",
+      "description": "Key lab of DRDO for AI and robotics.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2001-01-01",
+          "category": "technical",
+          "description": "Developed 'Daksh' robot for bomb disposal."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "TVS Motor Company",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "Chennai",
+      "description": "Third largest two-wheeler manufacturer in India.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Incorporated."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Mphasis",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Global",
+      "description": "IT services company focusing on cloud and cognitive services.",
+      "events": [
+        {
+          "date": "1998-06-01",
+          "category": "birth",
+          "description": "Founded by Jerry Rao."
+        },
+        {
+          "date": "2016-04-04",
+          "category": "acquisition",
+          "description": "Acquired by Blackstone."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Bhabhaha Atomic Research Centre (BARC) - Nuclear Agriculture",
+      "type": "public",
+      "role": "Agri-Research",
+      "regionOfActivity": "Mumbai",
+      "description": "Develops radiation-processed agricultural products.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "milestone",
+          "description": "Developed the 'Trombay' groundnut varieties."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Paytm (One97 Communications)",
+      "type": "private",
+      "role": "Fintech",
+      "regionOfActivity": "National",
+      "description": "Leading digital payments and financial services company.",
+      "events": [
+        {
+          "date": "2000-08-01",
+          "category": "birth",
+          "description": "Founded by Vijay Shekhar Sharma as One97 Communications."
+        },
+        {
+          "date": "2016-11-01",
+          "category": "technical",
+          "description": "Launched Paytm Payments Bank."
+        },
+        {
+          "date": "2021-11-18",
+          "category": "milestone",
+          "description": "India's largest IPO."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Hindalco Industries Limited",
+      "type": "private",
+      "role": "Materials",
+      "regionOfActivity": "Mumbai",
+      "description": "Aditya Birla Group flagship, metals powerhouse.",
+      "events": [
+        {
+          "date": "1958-12-15",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "2007-02-16",
+          "category": "acquisition",
+          "description": "Acquired Novelis, becoming the world's largest aluminium rolling company."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Hero MotoCorp",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "World's largest two-wheeler manufacturer.",
+      "events": [
+        {
+          "date": "1984-01-19",
+          "category": "birth",
+          "description": "Joint venture formed as Hero Honda."
+        },
+        {
+          "date": "2011-03-30",
+          "category": "transformation",
+          "description": "Split from Honda; rebranded as Hero MotoCorp."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Indian Institute of Technology Hyderabad (IITH)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Hyderabad",
+      "description": "Top new IIT with focus on AI and data science.",
+      "events": [
+        {
+          "date": "2008-08-20",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Ather Energy",
+      "type": "private",
+      "role": "Electric Vehicles",
+      "regionOfActivity": "Bangalore",
+      "description": "Electric two-wheeler manufacturer and charging infrastructure pioneer.",
+      "events": [
+        {
+          "date": "2013-10-21",
+          "category": "birth",
+          "description": "Founded by Tarun Mehta and Swapnil Jain."
+        },
+        {
+          "date": "2018-07-01",
+          "category": "technical",
+          "description": "Launched Ather 450, India's first smart electric scooter."
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Software Technology Parks of India (STPI)",
+      "type": "public",
+      "role": "Tech Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Provides infrastructure and incentives for software exports.",
+      "events": [
+        {
+          "date": "1991-06-05",
+          "category": "birth",
+          "description": "Established under MeitY."
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Dr. A.P.J. Abdul Kalam Missile Complex",
+      "type": "public",
+      "role": "Defense Manufacturing",
+      "regionOfActivity": "Hyderabad",
+      "description": "Cluster of DRDO labs for missile development.",
+      "events": [
+        {
+          "date": "2008-09-27",
+          "category": "naming",
+          "description": "Renamed after the former President."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "PhonePe",
+      "type": "private",
+      "role": "Fintech",
+      "regionOfActivity": "National",
+      "description": "Leader in UPI transactions.",
+      "events": [
+        {
+          "date": "2015-08-01",
+          "category": "birth",
+          "description": "Founded by Sameer Nigam."
+        },
+        {
+          "date": "2016-04-01",
+          "category": "technical",
+          "description": "First non-banking app to launch UPI."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Ashok Leyland",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "Chennai",
+      "description": "Second largest commercial vehicle manufacturer in India.",
+      "events": [
+        {
+          "date": "1948-09-07",
+          "category": "birth",
+          "description": "Founded as Ashok Motors."
+        },
+        {
+          "date": "1994-01-01",
+          "category": "technical",
+          "description": "Developed India's first CNG bus."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "National Aerospace Laboratories (NAL)",
+      "type": "public",
+      "role": "Aerospace Research",
+      "regionOfActivity": "Bangalore",
+      "description": "CSIR lab focused on civil aerospace technologies.",
+      "events": [
+        {
+          "date": "1959-01-01",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2004-02-04",
+          "category": "technical",
+          "description": "Hansa-3 aircraft certified."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Byju's (Think and Learn Pvt Ltd)",
+      "type": "private",
+      "role": "EdTech",
+      "regionOfActivity": "Global",
+      "description": "World's largest edtech company.",
+      "events": [
+        {
+          "date": "2011-08-01",
+          "category": "birth",
+          "description": "Founded by Byju Raveendran."
+        },
+        {
+          "date": "2019-01-01",
+          "category": "expansion",
+          "description": "Acquired Osmo for $120 million."
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Power Grid Corporation of India Limited (POWERGRID)",
+      "type": "public",
+      "role": "Power Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Central transmission utility of India.",
+      "events": [
+        {
+          "date": "1989-10-23",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "2006-01-01",
+          "category": "technical",
+          "description": "Commissioned +/- 800 kV HVDC transmission line."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Myntra-Jabong",
+      "type": "private",
+      "role": "Fashion Tech",
+      "regionOfActivity": "National",
+      "description": "Fashion aggregator platform.",
+      "events": [
+        {
+          "date": "2016-07-01",
+          "category": "acquisition",
+          "description": "Myntra acquired Jabong."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "IRCTC (Indian Railway Catering and Tourism Corporation)",
+      "type": "public",
+      "role": "Railway Tech",
+      "regionOfActivity": "National",
+      "description": "Handles online ticketing and tourism for Indian Railways.",
+      "events": [
+        {
+          "date": "1999-09-27",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "2002-08-03",
+          "category": "technical",
+          "description": "Launched online rail ticket booking."
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Bosch India",
+      "type": "private",
+      "role": "Auto Components & Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Largest development center of Bosch outside Germany.",
+      "events": [
+        {
+          "date": "1951-03-12",
+          "category": "birth",
+          "description": "Established as Motor Industries Company Ltd."
+        },
+        {
+          "date": "2008-01-01",
+          "category": "technical",
+          "description": "Developed common rail diesel injection systems for Indian market."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Ola Cabs (ANI Technologies)",
+      "type": "private",
+      "role": "Mobility Tech",
+      "regionOfActivity": "National",
+      "description": "Ride-hailing platform expanding into EVs.",
+      "events": [
+        {
+          "date": "2010-12-03",
+          "category": "birth",
+          "description": "Founded by Bhavish Aggarwal."
+        },
+        {
+          "date": "2021-08-15",
+          "category": "technical",
+          "description": "Opened Ola Futurefactory for electric scooters."
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Central Electronics Limited (CEL)",
+      "type": "public",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Ghaziabad",
+      "description": "Pioneer in solar photovoltaics in India.",
+      "events": [
+        {
+          "date": "1974-06-26",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "1980-01-01",
+          "category": "technical",
+          "description": "Started production of solar PV cells."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Freshworks",
+      "type": "private",
+      "role": "SaaS",
+      "regionOfActivity": "Chennai/Global",
+      "description": "First Indian SaaS company to list on NASDAQ.",
+      "events": [
+        {
+          "date": "2010-06-01",
+          "category": "birth",
+          "description": "Founded as Freshdesk by Girish Mathrubootham."
+        },
+        {
+          "date": "2021-09-22",
+          "category": "milestone",
+          "description": "Listed on NASDAQ."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Indian Institute of Science Education and Research (IISER) System",
+      "type": "public",
+      "role": "Science Education",
+      "regionOfActivity": "National",
+      "description": "Institutes dedicated to research in basic sciences.",
+      "events": [
+        {
+          "date": "2006-07-01",
+          "category": "birth",
+          "description": "First IISER established in Kolkata."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Dabur India Ltd",
+      "type": "private",
+      "role": "FMCG & Biotech",
+      "regionOfActivity": "National",
+      "description": "Science-based Ayurveda company.",
+      "events": [
+        {
+          "date": "1884-01-01",
+          "category": "birth",
+          "description": "Founded by Dr. S.K. Burman."
+        },
+        {
+          "date": "2006-04-01",
+          "category": "technical",
+          "description": "Set up Dabur Research Foundation for pharma research."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Razorpay",
+      "type": "private",
+      "role": "Fintech",
+      "regionOfActivity": "Bangalore",
+      "description": "Payment gateway for online businesses.",
+      "events": [
+        {
+          "date": "2014-01-01",
+          "category": "birth",
+          "description": "Founded by Harshil Mathur."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Indian Institute of Technology Bhubaneswar (IITBBS)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Bhubaneswar",
+      "description": "Focus on climate tech and infrastructure.",
+      "events": [
+        {
+          "date": "2008-07-22",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Maruti Suzuki Vendor Development",
+      "type": "aggregate",
+      "role": "Industrial Cluster",
+      "regionOfActivity": "Gurgaon",
+      "description": "Ecosystem of auto component manufacturers.",
+      "events": [
+        {
+          "date": "1983-01-01",
+          "category": "milestone",
+          "description": "Creation of the Gurgaon-Manesar industrial belt."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Britannia Industries",
+      "type": "private",
+      "role": "Food Tech",
+      "regionOfActivity": "National",
+      "description": "Food company with modern processing technology.",
+      "events": [
+        {
+          "date": "1918-03-21",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "1997-01-01",
+          "category": "technical",
+          "description": "Commissioned fully automated bakery in Uttaranchal."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Cognizant Technology Solutions (India)",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Chennai/Global",
+      "description": "Major IT services firm with massive India operations.",
+      "events": [
+        {
+          "date": "1994-11-01",
+          "category": "birth",
+          "description": "Established Indian operations in Chennai."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Physical Research Laboratory (PRL)",
+      "type": "public",
+      "role": "Space Research",
+      "regionOfActivity": "Ahmedabad",
+      "description": "Leading institute for space sciences and planetary exploration.",
+      "events": [
+        {
+          "date": "1947-11-11",
+          "category": "birth",
+          "description": "Founded by Vikram Sarabhai."
+        },
+        {
+          "date": "1969-01-01",
+          "category": "integration",
+          "description": "Came under Department of Space."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "PolicyBazaar",
+      "type": "private",
+      "role": "InsurTech",
+      "regionOfActivity": "Gurgaon",
+      "description": "Largest insurance aggregator in India.",
+      "events": [
+        {
+          "date": "2008-06-01",
+          "category": "birth",
+          "description": "Founded by Yashish Dahiya."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Hindustan Zinc Limited",
+      "type": "public",
+      "role": "Mining & Metallurgy",
+      "regionOfActivity": "Rajasthan",
+      "description": "World's second largest zinc producer.",
+      "events": [
+        {
+          "date": "1966-01-10",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "2002-04-01",
+          "category": "privatization",
+          "description": "Disinvested to Sterlite (Vedanta)."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Zensar Technologies",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Pune",
+      "description": "Part of RPG Group, focusing on digital solutions.",
+      "events": [
+        {
+          "date": "1991-01-01",
+          "category": "birth",
+          "description": "Incorporated."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "IIT Madras Pravartak Technologies",
+      "type": "public",
+      "role": "Technology Transfer",
+      "regionOfActivity": "Chennai",
+      "description": "Technology innovation hub for defense and aerospace.",
+      "events": [
+        {
+          "date": "2020-01-01",
+          "category": "birth",
+          "description": "Established as a Section 8 company."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Nykaa (FSN E-Commerce Ventures)",
+      "type": "private",
+      "role": "Beauty Tech",
+      "regionOfActivity": "National",
+      "description": "Online marketplace for beauty and wellness.",
+      "events": [
+        {
+          "date": "2012-04-01",
+          "category": "birth",
+          "description": "Founded by Falguni Nayar."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Panasonic India",
+      "type": "private",
+      "role": "Electronics",
+      "regionOfActivity": "National",
+      "description": "Manufacturing hub for Panasonic's global supply chain.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Established operations."
+        },
+        {
+          "date": "2012-04-23",
+          "category": "infrastructure",
+          "description": "Opened 'Technopark' in Haryana."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Insurance Regulatory and Development Authority (IRDAI)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "Hyderabad",
+      "description": "Regulator for insurance, enabling InsurTech.",
+      "events": [
+        {
+          "date": "1999-12-19",
+          "category": "birth",
+          "description": "Established under IRDA Act."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Cipla Limited",
+      "type": "private",
+      "role": "Pharmaceuticals",
+      "regionOfActivity": "Mumbai",
+      "description": "Pioneer in affordable HIV/AIDS drugs.",
+      "events": [
+        {
+          "date": "1935-08-22",
+          "category": "birth",
+          "description": "Founded by Khwaja Abdul Hamied."
+        },
+        {
+          "date": "2001-02-06",
+          "category": "milestone",
+          "description": "Offered HIV drugs at less than $1 a day to African countries."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Unacademy",
+      "type": "private",
+      "role": "EdTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Learning platform for competitive exams.",
+      "events": [
+        {
+          "date": "2015-01-01",
+          "category": "birth",
+          "description": "Founded by Gaurav Munjal."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Mahatma Gandhi Institute for Rural Industrialization (MGIRI)",
+      "type": "public",
+      "role": "Rural Tech",
+      "regionOfActivity": "Wardha",
+      "description": "Promotes rural industrialization through technology.",
+      "events": [
+        {
+          "date": "1956-12-11",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "UST Global",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Trivandrum/Global",
+      "description": "Digital transformation partner for global MNCs.",
+      "events": [
+        {
+          "date": "1999-02-01",
+          "category": "birth",
+          "description": "Founded by G.A. Menon."
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "National Institute of Pharmaceutical Education and Research (NIPER)",
+      "type": "public",
+      "role": "Pharma Education",
+      "regionOfActivity": "Mohali",
+      "description": "Institute of national importance for pharma research.",
+      "events": [
+        {
+          "date": "1998-09-26",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Centrum Capital Ltd",
+      "type": "private",
+      "role": "Financial Services",
+      "regionOfActivity": "Mumbai",
+      "description": "Financial services company adopting digital platforms.",
+      "events": [
+        {
+          "date": "1977-06-24",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Sansera Engineering",
+      "type": "private",
+      "role": "Precision Engineering",
+      "regionOfActivity": "Bangalore",
+      "description": "Supplier of complex components to automotive and aerospace.",
+      "events": [
+        {
+          "date": "1981-07-18",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Nokia Networks India",
+      "type": "private",
+      "role": "Telecom Infrastructure",
+      "regionOfActivity": "Gurgaon",
+      "description": "Major manufacturer of telecom equipment.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Established manufacturing in India."
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "BharatPe (Resilient Innovations)",
+      "type": "private",
+      "role": "Fintech",
+      "regionOfActivity": "Delhi",
+      "description": "Merchant payment solutions.",
+      "events": [
+        {
+          "date": "2018-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Asteria Aerospace",
+      "type": "private",
+      "role": "Drone Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Drone manufacturing and data analytics.",
+      "events": [
+        {
+          "date": "2014-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Vistara (Tata-SIA Airlines)",
+      "type": "private",
+      "role": "Aviation",
+      "regionOfActivity": "National",
+      "description": "Airline bringing next-gen aviation tech.",
+      "events": [
+        {
+          "date": "2013-10-11",
+          "category": "birth",
+          "description": "Founded as a joint venture."
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Wadia Group (Bombay Burmah Trading)",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Mumbai",
+      "description": "Oldest conglomerate with interests in aerospace (GOCL) and textiles.",
+      "events": [
+        {
+          "date": "1736-01-01",
+          "category": "birth",
+          "description": "Founded by Lovji Nusserwanjee Wadia."
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Kalyani Group (Bharat Forge)",
+      "type": "private",
+      "role": "Manufacturing & Defense",
+      "regionOfActivity": "Pune",
+      "description": "World's largest forging company, diversifying into defense.",
+      "events": [
+        {
+          "date": "1961-06-19",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2018-01-01",
+          "category": "technical",
+          "description": "Developed artillery systems for Indian Army."
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Infibeam Avenues",
+      "type": "private",
+      "role": "E-commerce",
+      "regionOfActivity": "Gandhinagar",
+      "description": "First e-commerce company to list on Indian stock exchange.",
+      "events": [
+        {
+          "date": "2007-02-01",
+          "category": "birth",
+          "description": "Founded by Vishal Mehta."
+        },
+        {
+          "date": "2016-04-04",
+          "category": "milestone",
+          "description": "IPO listed."
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "LG India",
+      "type": "private",
+      "role": "Consumer Electronics",
+      "regionOfActivity": "National",
+      "description": "Largest consumer electronics brand in India.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "Entered Indian market."
+        },
+        {
+          "date": "2005-01-01",
+          "category": "technical",
+          "description": "Established R&D center for localized products."
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Nokia India",
+      "type": "private",
+      "role": "Telecom",
+      "regionOfActivity": "Chennai",
+      "description": "Symbol of the mobile revolution in India.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Manufacturing plant setup in Sriperumbudur."
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Ericsson India",
+      "type": "private",
+      "role": "Telecom Infrastructure",
+      "regionOfActivity": "Gurgaon",
+      "description": "Key partner for 4G/5G rollout.",
+      "events": [
+        {
+          "date": "1900-01-01",
+          "category": "birth",
+          "description": "Started operations with manual exchanges."
+        },
+        {
+          "date": "2018-01-01",
+          "category": "technical",
+          "description": "Conducted first 5G demo in India."
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Adani Ports and Special Economic Zone (APSEZ)",
+      "type": "private",
+      "role": "Logistics Tech",
+      "regionOfActivity": "Gujarat",
+      "description": "Largest private port operator, digitizing logistics.",
+      "events": [
+        {
+          "date": "1998-05-26",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "Implemented 'Vishwam' port community system."
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "UpGrad",
+      "type": "private",
+      "role": "EdTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Online higher education platform.",
+      "events": [
+        {
+          "date": "2015-03-01",
+          "category": "birth",
+          "description": "Founded by Ronnie Screwvala."
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Prestige Group",
+      "type": "private",
+      "role": "Construction Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Real estate developer adopting modern construction technologies.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Droom Technology",
+      "type": "private",
+      "role": "Auto Tech",
+      "regionOfActivity": "Gurgaon",
+      "description": "Online marketplace for used automobiles.",
+      "events": [
+        {
+          "date": "2014-04-01",
+          "category": "birth",
+          "description": "Founded by Sandeep Aggarwal."
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Tracxn Technologies",
+      "type": "private",
+      "role": "Data Analytics",
+      "regionOfActivity": "Bangalore",
+      "description": "Market intelligence platform for private equity and venture capital.",
+      "events": [
+        {
+          "date": "2012-01-01",
+          "category": "birth",
+          "description": "Founded by Abhishek Goyal."
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Mu Sigma",
+      "type": "private",
+      "role": "Data Science",
+      "regionOfActivity": "Bangalore",
+      "description": "First pure-play data analytics unicorn in India.",
+      "events": [
+        {
+          "date": "2004-08-01",
+          "category": "birth",
+          "description": "Founded by Dhiraj Rajaram."
+        },
+        {
+          "date": "2013-01-01",
+          "category": "milestone",
+          "description": "Achieved unicorn status."
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Vedanta Limited",
+      "type": "private",
+      "role": "Mining & Energy",
+      "regionOfActivity": "Mumbai",
+      "description": "Diversified natural resources company.",
+      "events": [
+        {
+          "date": "1979-03-25",
+          "category": "birth",
+          "description": "Founded as Sterlite Industries."
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Apex Cluster Development Services",
+      "type": "nonprofit",
+      "role": "SME Support",
+      "regionOfActivity": "National",
+      "description": "Facilitates technology adoption in industrial clusters.",
+      "events": [
+        {
+          "date": "2004-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Lava International",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Noida",
+      "description": "Indian mobile handset company.",
+      "events": [
+        {
+          "date": "2009-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Micromax Informatics",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Gurgaon",
+      "description": "Pioneer in low-cost smartphone revolution in India.",
+      "events": [
+        {
+          "date": "2000-03-29",
+          "category": "birth",
+          "description": "Founded by Rajesh Agarwal."
+        },
+        {
+          "date": "2014-01-01",
+          "category": "milestone",
+          "description": "Became India's largest mobile phone vendor."
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Sikka Software",
+      "type": "private",
+      "role": "Software",
+      "regionOfActivity": "Noida",
+      "description": "Developer of dental practice software.",
+      "events": [
+        {
+          "date": "2004-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Wildcraft India",
+      "type": "private",
+      "role": "Outdoor Gear",
+      "regionOfActivity": "Bangalore",
+      "description": "Manufactures outdoor gear using advanced materials.",
+      "events": [
+        {
+          "date": "1998-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Eureka Forbes",
+      "type": "private",
+      "role": "Appliance Tech",
+      "regionOfActivity": "Mumbai",
+      "description": "Pioneer in water purification technology in India.",
+      "events": [
+        {
+          "date": "1982-01-01",
+          "category": "birth",
+          "description": "Founded as part of Shapoorji Pallonji Group."
+        },
+        {
+          "date": "1998-01-01",
+          "category": "technical",
+          "description": "Launched 'Aquaguard' with UV technology."
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "IFB Industries",
+      "type": "private",
+      "role": "Appliance Tech",
+      "regionOfActivity": "Kolkata",
+      "description": "Pioneer in washing machine technology in India.",
+      "events": [
+        {
+          "date": "1974-09-12",
+          "category": "birth",
+          "description": "Incorporated."
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "CEAT Limited",
+      "type": "private",
+      "role": "Tyre Manufacturing",
+      "regionOfActivity": "Mumbai",
+      "description": "Tyre manufacturer investing in R&D for high-performance tyres.",
+      "events": [
+        {
+          "date": "1958-03-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "JK Tyre & Industries",
+      "type": "private",
+      "role": "Tyre Manufacturing",
+      "regionOfActivity": "Delhi",
+      "description": "Pioneer in steel radial technology in India.",
+      "events": [
+        {
+          "date": "1974-02-14",
+          "category": "birth",
+          "description": "Incorporated."
+        },
+        {
+          "date": "1997-01-01",
+          "category": "technical",
+          "description": "Introduced steel radials for cars."
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "MRF Limited",
+      "type": "private",
+      "role": "Tyre Manufacturing",
+      "regionOfActivity": "Chennai",
+      "description": "Largest tyre manufacturer in India.",
+      "events": [
+        {
+          "date": "1946-11-26",
+          "category": "birth",
+          "description": "Founded as Madras Rubber Factory."
+        },
+        {
+          "date": "1973-01-01",
+          "category": "technical",
+          "description": "Developed nylon tyres for Indian roads."
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Cardekho",
+      "type": "private",
+      "role": "Auto Tech",
+      "regionOfActivity": "Jaipur",
+      "description": "Platform for car research and used car sales.",
+      "events": [
+        {
+          "date": "2008-03-01",
+          "category": "birth",
+          "description": "Founded by Amit Jain."
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "RailYatri",
+      "type": "private",
+      "role": "Travel Tech",
+      "regionOfActivity": "Noida",
+      "description": "Data platform for train travelers.",
+      "events": [
+        {
+          "date": "2011-05-01",
+          "category": "birth",
+          "description": "Founded by Manish Rathi."
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Ixigo",
+      "type": "private",
+      "role": "Travel Tech",
+      "regionOfActivity": "Gurgaon",
+      "description": "AI-based travel platform.",
+      "events": [
+        {
+          "date": "2007-06-01",
+          "category": "birth",
+          "description": "Founded by Aloke Bajpai."
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Zivame",
+      "type": "private",
+      "role": "Fashion Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Online lingerie retailer.",
+      "events": [
+        {
+          "date": "2011-08-01",
+          "category": "birth",
+          "description": "Founded by Richa Kar."
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "BigBasket",
+      "type": "private",
+      "role": "Grocery Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Online grocery platform.",
+      "events": [
+        {
+          "date": "2011-12-01",
+          "category": "birth",
+          "description": "Founded by V.S. Sudhakar."
+        },
+        {
+          "date": "2021-05-28",
+          "category": "acquisition",
+          "description": "Acquired by Tata Digital."
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Dunzo",
+      "type": "private",
+      "role": "Hyperlocal Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Delivery and concierge platform.",
+      "events": [
+        {
+          "date": "2014-07-01",
+          "category": "birth",
+          "description": "Founded by Kabeer Biswas."
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Bluedart Express",
+      "type": "private",
+      "role": "Logistics Tech",
+      "regionOfActivity": "Mumbai",
+      "description": "Leading logistics and courier company.",
+      "events": [
+        {
+          "date": "1983-12-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Delhivery",
+      "type": "private",
+      "role": "Logistics Tech",
+      "regionOfActivity": "Gurgaon",
+      "description": "E-commerce logistics unicorn.",
+      "events": [
+        {
+          "date": "2011-05-01",
+          "category": "birth",
+          "description": "Founded by Sahil Barua."
+        },
+        {
+          "date": "2019-01-01",
+          "category": "technical",
+          "description": "Automated sortation centers."
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Xpressbees",
+      "type": "private",
+      "role": "Logistics Tech",
+      "regionOfActivity": "Pune",
+      "description": "E-commerce logistics provider.",
+      "events": [
+        {
+          "date": "2015-09-01",
+          "category": "birth",
+          "description": "Spun off from Firstcry."
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "BlackBuck",
+      "type": "private",
+      "role": "Logistics Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Truck rental marketplace.",
+      "events": [
+        {
+          "date": "2015-04-01",
+          "category": "birth",
+          "description": "Founded by Rajesh Yabaji."
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Udaan",
+      "type": "private",
+      "role": "B2B Commerce",
+      "regionOfActivity": "Bangalore",
+      "description": "B2B e-commerce unicorn.",
+      "events": [
+        {
+          "date": "2016-01-01",
+          "category": "birth",
+          "description": "Founded by Vaibhav Gupta."
+        },
+        {
+          "date": "2018-09-01",
+          "category": "milestone",
+          "description": "Fastest Indian startup to reach unicorn status."
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "OfBusiness",
+      "type": "private",
+      "role": "B2B Commerce",
+      "regionOfActivity": "Gurgaon",
+      "description": "B2B raw material procurement platform.",
+      "events": [
+        {
+          "date": "2015-08-01",
+          "category": "birth",
+          "description": "Founded by Asish Mohapatra."
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Zetwerk",
+      "type": "private",
+      "role": "Manufacturing Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "B2B marketplace for custom manufacturing.",
+      "events": [
+        {
+          "date": "2018-01-01",
+          "category": "birth",
+          "description": "Founded by Amrit Acharya."
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Infra.Market",
+      "type": "private",
+      "role": "Construction Tech",
+      "regionOfActivity": "Thane",
+      "description": "B2B marketplace for construction materials.",
+      "events": [
+        {
+          "date": "2016-01-01",
+          "category": "birth",
+          "description": "Founded by Aaditya Sharda."
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "name": "PharmEasy",
+      "type": "private",
+      "role": "HealthTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Online pharmacy and diagnostics aggregator.",
+      "events": [
+        {
+          "date": "2015-01-01",
+          "category": "birth",
+          "description": "Founded by Dharmil Sheth."
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Netmeds",
+      "type": "private",
+      "role": "HealthTech",
+      "regionOfActivity": "Chennai",
+      "description": "Online pharmacy, acquired by Reliance.",
+      "events": [
+        {
+          "date": "2010-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2020-08-18",
+          "category": "acquisition",
+          "description": "Acquired by Reliance Retail."
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Practo",
+      "type": "private",
+      "role": "HealthTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Healthcare appointment booking platform.",
+      "events": [
+        {
+          "date": "2008-08-01",
+          "category": "birth",
+          "description": "Founded by Shashank ND."
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Portea Medical",
+      "type": "private",
+      "role": "HealthTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Home healthcare provider.",
+      "events": [
+        {
+          "date": "2013-07-01",
+          "category": "birth",
+          "description": "Founded by Meena Ganesh."
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Cure.fit",
+      "type": "private",
+      "role": "HealthTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Fitness and wellness platform.",
+      "events": [
+        {
+          "date": "2016-01-01",
+          "category": "birth",
+          "description": "Founded by Mukesh Bansal."
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Groww",
+      "type": "private",
+      "role": "WealthTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Investment platform for millennials.",
+      "events": [
+        {
+          "date": "2016-04-01",
+          "category": "birth",
+          "description": "Founded by Lalit Keshre."
+        },
+        {
+          "date": "2021-10-01",
+          "category": "milestone"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Upstox",
+      "type": "private",
+      "role": "WealthTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Discount brokerage firm.",
+      "events": [
+        {
+          "date": "2011-01-01",
+          "category": "birth",
+          "description": "Founded by Shrini Viswanath."
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "name": "CoinSwitch Kuber",
+      "type": "private",
+      "role": "CryptoTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Cryptocurrency exchange.",
+      "events": [
+        {
+          "date": "2017-01-01",
+          "category": "birth",
+          "description": "Founded by Ashish Singhal."
+        },
+        {
+          "date": "2021-06-01",
+          "category": "milestone",
+          "description": "Became India's most valued crypto unicorn."
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "CoinDCX",
+      "type": "private",
+      "role": "CryptoTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Cryptocurrency exchange.",
+      "events": [
+        {
+          "date": "2018-04-01",
+          "category": "birth",
+          "description": "Founded by Sumit Gupta."
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Unacademy (Relevel)",
+      "type": "private",
+      "role": "EdTech/HRTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Hiring platform connecting talent to employers.",
+      "events": [
+        {
+          "date": "2021-05-01",
+          "category": "birth",
+          "description": "Launched."
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Vedantu",
+      "type": "private",
+      "role": "EdTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Live online tutoring platform.",
+      "events": [
+        {
+          "date": "2011-10-01",
+          "category": "birth",
+          "description": "Founded by Vamsi Krishna."
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Eruditus",
+      "type": "private",
+      "role": "EdTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Higher education platform partnering with top universities.",
+      "events": [
+        {
+          "date": "2010-08-01",
+          "category": "birth",
+          "description": "Founded by Ashwin Damera."
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Scaler Academy",
+      "type": "private",
+      "role": "EdTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Tech upskilling platform.",
+      "events": [
+        {
+          "date": "2014-01-01",
+          "category": "birth",
+          "description": "Founded by Abhimanyu Saxena."
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Cars24",
+      "type": "private",
+      "role": "Auto Tech",
+      "regionOfActivity": "Gurgaon",
+      "description": "Used car transaction platform.",
+      "events": [
+        {
+          "date": "2015-01-01",
+          "category": "birth",
+          "description": "Founded by Vikram Chopra."
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Spinny",
+      "type": "private",
+      "role": "Auto Tech",
+      "regionOfActivity": "Gurgaon",
+      "description": "Used car retail platform.",
+      "events": [
+        {
+          "date": "2015-01-01",
+          "category": "birth",
+          "description": "Founded by Niraj Singh."
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Droom",
+      "type": "private",
+      "role": "Auto Tech",
+      "regionOfActivity": "Gurgaon",
+      "description": "Automobile marketplace.",
+      "events": [
+        {
+          "date": "2014-04-01",
+          "category": "birth",
+          "description": "Founded by Sandeep Aggarwal."
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "name": "Lenskart",
+      "type": "private",
+      "role": "Optical Tech",
+      "regionOfActivity": "Faridabad",
+      "description": "Eyewear retailer using technology for vision tests.",
+      "events": [
+        {
+          "date": "2010-11-01",
+          "category": "birth",
+          "description": "Founded by Peyush Bansal."
+        },
+        {
+          "date": "2020-01-01",
+          "category": "technical",
+          "description": "Deployed 3D try-on technology."
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Urban Company",
+      "type": "private",
+      "role": "Service Tech",
+      "regionOfActivity": "Gurgaon",
+      "description": "Marketplace for home services.",
+      "events": [
+        {
+          "date": "2014-11-01",
+          "category": "birth",
+          "description": "Founded by Abhiraj Bhal."
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Housejoy",
+      "type": "private",
+      "role": "Service Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Home services marketplace.",
+      "events": [
+        {
+          "date": "2014-01-01",
+          "category": "birth",
+          "description": "Founded by Saran Chatterjee."
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Stanza Living",
+      "type": "private",
+      "role": "PropTech",
+      "regionOfActivity": "Delhi",
+      "description": "Managed accommodation for students.",
+      "events": [
+        {
+          "date": "2017-01-01",
+          "category": "birth",
+          "description": "Founded by Anindya Dutta."
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "ZoloStays",
+      "type": "private",
+      "role": "PropTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Co-living spaces.",
+      "events": [
+        {
+          "date": "2015-01-01",
+          "category": "birth",
+          "description": "Founded by Nikhil Sikri."
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "NoBroker",
+      "type": "private",
+      "role": "PropTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Real estate platform without brokers.",
+      "events": [
+        {
+          "date": "2014-03-01",
+          "category": "birth",
+          "description": "Founded by Amit Kumar Agarwal."
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "Housing.com",
+      "type": "private",
+      "role": "PropTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Real estate search portal.",
+      "events": [
+        {
+          "date": "2012-06-01",
+          "category": "birth",
+          "description": "Founded by Rahul Yadav."
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "name": "MagicBricks",
+      "type": "private",
+      "role": "PropTech",
+      "regionOfActivity": "Noida",
+      "description": "Real estate portal by Times Group.",
+      "events": [
+        {
+          "date": "2006-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "99acres",
+      "type": "private",
+      "role": "PropTech",
+      "regionOfActivity": "Noida",
+      "description": "Real estate portal by Info Edge.",
+      "events": [
+        {
+          "date": "2005-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "name": "Naukri.com (Info Edge)",
+      "type": "private",
+      "role": "HR Tech",
+      "regionOfActivity": "Noida",
+      "description": "India's largest job portal.",
+      "events": [
+        {
+          "date": "1997-03-01",
+          "category": "birth",
+          "description": "Founded by Sanjeev Bikhchandani."
+        },
+        {
+          "date": "2006-11-21",
+          "category": "milestone",
+          "description": "IPO listed."
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "name": "Monster India",
+      "type": "private",
+      "role": "HR Tech",
+      "regionOfActivity": "Hyderabad",
+      "description": "Job portal.",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "birth",
+          "description": "Launched."
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Freshworks Inc. (Freshdesk)",
+      "type": "private",
+      "role": "SaaS",
+      "regionOfActivity": "Chennai",
+      "description": "Customer engagement software.",
+      "events": [
+        {
+          "date": "2010-06-01",
+          "category": "birth",
+          "description": "Founded by Girish Mathrubootham."
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Zoho Corporation",
+      "type": "private",
+      "role": "SaaS",
+      "regionOfActivity": "Chennai",
+      "description": "Web-based business tools suite.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Founded by Sridhar Vembu as AdventNet."
+        },
+        {
+          "date": "2009-01-01",
+          "category": "rebranding",
+          "description": "Renamed to Zoho Corporation."
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "name": "BrowserStack",
+      "type": "private",
+      "role": "SaaS",
+      "regionOfActivity": "Mumbai",
+      "description": "Cloud web and mobile testing platform.",
+      "events": [
+        {
+          "date": "2011-01-01",
+          "category": "birth",
+          "description": "Founded by Ritesh Arora."
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Postman",
+      "type": "private",
+      "role": "SaaS",
+      "regionOfActivity": "Bangalore",
+      "description": "API development platform.",
+      "events": [
+        {
+          "date": "2014-01-01",
+          "category": "birth",
+          "description": "Founded by Abhinav Asthana."
+        },
+        {
+          "date": "2020-06-01",
+          "category": "milestone",
+          "description": "Valued at $2 billion."
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "name": "Amagi Media Labs",
+      "type": "private",
+      "role": "Media Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Cloud-based broadcast and targeted advertising.",
+      "events": [
+        {
+          "date": "2008-01-01",
+          "category": "birth",
+          "description": "Founded by Baskar Subramanian."
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "name": "InMobi",
+      "type": "private",
+      "role": "AdTech",
+      "regionOfActivity": "Bangalore",
+      "description": "Mobile advertising platform.",
+      "events": [
+        {
+          "date": "2007-01-01",
+          "category": "birth",
+          "description": "Founded by Naveen Tewari."
+        },
+        {
+          "date": "2011-09-01",
+          "category": "milestone",
+          "description": "Became India's first unicorn."
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "name": "HackerRank",
+      "type": "private",
+      "role": "HR Tech",
+      "regionOfActivity": "Bangalore",
+      "description": "Platform for competitive coding and hiring.",
+      "events": [
+        {
+          "date": "2009-01-01",
+          "category": "birth",
+          "description": "Founded by Vivek Ravisankar."
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Crexi",
+      "type": "private",
+      "role": "PropTech",
+      "regionOfActivity": "Mumbai",
+      "description": "Commercial real estate tech platform (Global footprint).",
+      "events": [
+        {
+          "date": "2015-12-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    }
+  ]
+}

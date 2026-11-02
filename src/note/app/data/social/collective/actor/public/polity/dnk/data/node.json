@@ -1,0 +1,107 @@
+{
+  "id": "dnk",
+  "name": "Denmark",
+  "tags": [
+    "Northern Europe",
+    "European Union",
+    "Parliamentary Monarchy",
+    "Wind Energy Pioneer",
+    "Nordic Welfare Model",
+    "Design and Pharma"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Denmark is a parliamentary constitutional monarchy in Northern Europe and a pioneer of wind energy. Its Nordic welfare model pairs flexible labor markets with broad social protection, while the economy specializes in pharmaceuticals, shipping, food and design. An EU member outside the eurozone, it anchors the Realm community with Greenland and the Faroe Islands.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Danmark",
+    "flagEmoji": "🇩🇰",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "6 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 6000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 430 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 430000000000
+      },
+      {
+        "id": "area",
+        "value": "43,094 km² (excl. Greenland and Faroe Islands)",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 43094
+      },
+      {
+        "id": "capital",
+        "value": "Copenhagen",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Constitutional Monarchy with Parliamentary System",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Denmark's actor space from cooperative dairies and shipping lines through flexicurity labor-market institutions to wind-turbine manufacturers, Novo-group pharma, and Realm-wide governance.",
+        "link": "rep/actor.html?code=dnk"
+      },
+      {
+        "id": "wind_pharma_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Wind Energy and Pharma Network",
+        "description": "Network analysis of turbine OEMs, offshore wind farms, insulin and enzyme pipelines, and cooperative ownership models exporting worldwide.",
+        "link": null
+      },
+      {
+        "id": "realm_municipal",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Realm and Municipal Structure",
+        "description": "Geospatial representation of five regions and ninety-eight municipalities alongside Greenland-Faroe Realm ties, straits geography and island interconnectors.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "DNK",
+      "region": "Northern Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

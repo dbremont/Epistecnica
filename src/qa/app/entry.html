@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry · Q/A Log · Epistecnica</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/shared/theme.css">
+    <style>
+        body { max-width: 760px; margin: 0 auto; padding: 24px 20px 48px; }
+        nav.top { margin-bottom: 16px; font-size: 0.8rem; }
+        h1 { font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: 1.6rem; color: var(--text-primary); line-height: 1.35; }
+        .meta { margin: 12px 0 20px; font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); }
+        .tag { display: inline-block; margin-right: 6px; padding: 1px 8px; border: 1px solid var(--border-medium); border-radius: 20px; font-size: 0.68rem; color: var(--accent-cyan); }
+        .answer { margin-top: 20px; padding: 16px; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); white-space: pre-wrap; color: var(--text-secondary); }
+        .empty { font-family: var(--font-display); font-style: italic; color: var(--accent-amber); }
+        .pager { display: flex; justify-content: space-between; margin-top: 24px; }
+    </style>
+</head>
+<body>
+    <nav class="top"><a href="/">Epistecnica</a> · <a href="./">Q/A Log</a></nav>
+    <main id="entry"><p><em>loading…</em></p></main>
+    <div class="pager"><a class="ng-button" id="prev" href="./">← catalog</a><span><a class="ng-button" id="pprev" href="./">← prev</a> <a class="ng-button" id="pnext" href="./">next →</a></span></div>
+    <script>
+    (function () {
+        'use strict';
+        var id = new URLSearchParams(location.search).get('id') || '';
+        function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
+        fetch('data/qa.json', { headers: { Accept: 'application/json' } })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (rows) {
+                var i = rows.findIndex(function (e) { return e.id === id; });
+                if (i < 0 && rows.length) i = 0;
+                var e = rows[i];
+                if (!e) { document.getElementById('entry').innerHTML = '<p><em>Empty log.</em></p>'; return; }
+                document.title = e.id + ' · Q/A Log · Epistecnica';
+                var tags = (e.tags || []).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('');
+                document.getElementById('entry').innerHTML =
+                    '<span class="ng-eyebrow">' + esc(e.id) + ' · ' + esc(e.status || 'open') + '</span>' +
+                    '<h1>' + esc(e.question) + '</h1>' +
+                    '<div class="meta">' + esc(e.agent || '') + ' · ' + esc(e.run || '') + ' · ' + esc(e.date || '') + ' · source: ' + esc(e.source || '') + '</div>' +
+                    (tags ? '<div>' + tags + '</div>' : '') +
+                    (e.answer ? '<div class="answer">' + esc(e.answer) + '</div>' : '<p class="empty">awaiting answer.</p>');
+                var prev = rows[i - 1], next = rows[i + 1];
+                if (prev) document.getElementById('pprev').href = 'entry.html?id=' + encodeURIComponent(prev.id);
+                if (next) document.getElementById('pnext').href = 'entry.html?id=' + encodeURIComponent(next.id);
+            })
+            .catch(function () { document.getElementById('entry').innerHTML = '<p><em>Data unavailable.</em></p>'; });
+    })();
+    </script>
+</body>
+</html>

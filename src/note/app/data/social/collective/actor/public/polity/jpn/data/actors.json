@@ -1,0 +1,960 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Japanese actors (organizations and institutions) since 1600.",
+    "country": "Japan",
+    "region": "East Asia",
+    "flag": "🇯🇵",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Japan. This dataset traces the formation, transformation, and significant milestones of shogunal, developmental, and postwar entities, from zaibatsu to keiretsu networks and robotics leaders.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Tokugawa shogunate",
+      "type": "public",
+      "role": "Military government",
+      "regionOfActivity": "Edo",
+      "description": "Bakuhan order ruling a unified Japan to 1868.",
+      "events": [
+        {
+          "date": "1603-03-24",
+          "category": "birth",
+          "description": "Ieyasu appointed Seii Taishogun"
+        },
+        {
+          "date": "1639-01-01",
+          "category": "policy",
+          "description": "Sakoku edicts close the country"
+        },
+        {
+          "date": "1868-01-03",
+          "category": "death",
+          "description": "Imperial restoration proclaimed"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Meiji government",
+      "type": "public",
+      "role": "Modernizing state",
+      "regionOfActivity": "Tokyo",
+      "description": "Oligarchic regime building a rich-country strong-army order.",
+      "events": [
+        {
+          "date": "1868-04-06",
+          "category": "founding",
+          "description": "Charter Oath proclaimed"
+        },
+        {
+          "date": "1889-02-11",
+          "category": "policy",
+          "description": "Meiji Constitution promulgated"
+        },
+        {
+          "date": "1947-05-03",
+          "category": "transformation",
+          "description": "Postwar constitution takes effect"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Bank of Japan",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Tokyo",
+      "description": "1882-founded note issuer now pinning yield curves.",
+      "events": [
+        {
+          "date": "1882-10-10",
+          "category": "birth",
+          "description": "Bank of Japan opens"
+        },
+        {
+          "date": "1998-04-01",
+          "category": "transformation",
+          "description": "New Bank of Japan Act grants independence"
+        },
+        {
+          "date": "2016-01-29",
+          "category": "policy",
+          "description": "Negative rates adopted"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Mitsubishi UFJ Financial Group",
+      "type": "private",
+      "role": "Megabank",
+      "regionOfActivity": "Tokyo",
+      "description": "Iwasaki-group bank merged into Japan's largest lender.",
+      "events": [
+        {
+          "date": "1880-01-01",
+          "category": "birth",
+          "description": "Mitsubishi Exchange Office founded"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "founding",
+          "description": "Mitsubishi Tokyo-UFJ merger"
+        },
+        {
+          "date": "2008-11-14",
+          "category": "expansion",
+          "description": "Morgan Stanley strategic investment"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Sumitomo Mitsui Financial Group",
+      "type": "private",
+      "role": "Megabank",
+      "regionOfActivity": "Tokyo",
+      "description": "Sumitomo-Sakura merger product.",
+      "events": [
+        {
+          "date": "2001-04-01",
+          "category": "founding",
+          "description": "Sumitomo-Sakura merger forms SMFG"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Mizuho Financial Group",
+      "type": "private",
+      "role": "Megabank",
+      "regionOfActivity": "Tokyo",
+      "description": "Dai-Ichi Kangyo-Fuji-IBJ triple merger.",
+      "events": [
+        {
+          "date": "2000-09-29",
+          "category": "founding",
+          "description": "Mizuho Holdings formed"
+        },
+        {
+          "date": "2003-01-01",
+          "category": "transformation",
+          "description": "Mizuho Corporate Bank era"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Japan Post Bank",
+      "type": "hybrid",
+      "role": "Postal bank",
+      "regionOfActivity": "Tokyo",
+      "description": "Postal-savings giant listed after privatization.",
+      "events": [
+        {
+          "date": "1875-05-02",
+          "category": "birth",
+          "description": "Postal savings system starts"
+        },
+        {
+          "date": "2007-10-01",
+          "category": "transformation",
+          "description": "Privatization; listing 2015"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Nomura Holdings",
+      "type": "private",
+      "role": "Securities house",
+      "regionOfActivity": "Tokyo",
+      "description": "Osaka currency-broker lineage leading Asian wholesale banking.",
+      "events": [
+        {
+          "date": "1925-12-25",
+          "category": "birth",
+          "description": "Nomura Securities spun from the bank"
+        },
+        {
+          "date": "2008-10-13",
+          "category": "expansion",
+          "description": "Lehman Asian-European businesses bought"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Tokyo Stock Exchange and JPX",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "Tokyo",
+      "description": "Shibusawa-founded bourse merged with Osaka.",
+      "events": [
+        {
+          "date": "1878-05-15",
+          "category": "birth",
+          "description": "Tokyo Kabushiki Torihikijo founded"
+        },
+        {
+          "date": "2013-01-01",
+          "category": "founding",
+          "description": "TSE-OSE merger forms JPX"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Toyota Motor",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Toyota City",
+      "description": "Loom-maker turned world's top-selling car company.",
+      "events": [
+        {
+          "date": "1937-08-28",
+          "category": "birth",
+          "description": "Toyota Motor Company incorporated"
+        },
+        {
+          "date": "1950-01-01",
+          "category": "transformation",
+          "description": "Labor dispute births Toyota Production System"
+        },
+        {
+          "date": "1997-12-01",
+          "category": "technical",
+          "description": "Prius launches the hybrid era"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Honda",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Tokyo",
+      "description": "Piston-ring startup turned motorcycle-car-robotics maker.",
+      "events": [
+        {
+          "date": "1948-09-24",
+          "category": "birth",
+          "description": "Honda Motor founded"
+        },
+        {
+          "date": "1963-10-01",
+          "category": "expansion",
+          "description": "First automobiles; US Ohio plants follow 1982"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Nissan",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Yokohama",
+      "description": "DAT lineage allied with Renault then rebalanced.",
+      "events": [
+        {
+          "date": "1933-12-26",
+          "category": "birth",
+          "description": "Jidosha-Seizo founded; Nissan name 1934"
+        },
+        {
+          "date": "1999-03-27",
+          "category": "transformation",
+          "description": "Renault alliance and Ghosn revival"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Sony Group",
+      "type": "private",
+      "role": "Electronics and entertainment group",
+      "regionOfActivity": "Tokyo",
+      "description": "Morita-Ibuka radio shop grown into games-music-sensors empire.",
+      "events": [
+        {
+          "date": "1946-05-07",
+          "category": "birth",
+          "description": "Tokyo Tsushin Kogyo founded"
+        },
+        {
+          "date": "1979-07-01",
+          "category": "technical",
+          "description": "Walkman launched"
+        },
+        {
+          "date": "1994-12-03",
+          "category": "expansion",
+          "description": "PlayStation released; games pillar follows"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Panasonic",
+      "type": "private",
+      "role": "Electronics group",
+      "regionOfActivity": "Osaka",
+      "description": "Matsushita socket-maker turned battery and housing giant.",
+      "events": [
+        {
+          "date": "1918-03-07",
+          "category": "birth",
+          "description": "Matsushita Electric founded"
+        },
+        {
+          "date": "2008-10-01",
+          "category": "milestone",
+          "description": "Panasonic brand unified"
+        },
+        {
+          "date": "2022-04-01",
+          "category": "transformation",
+          "description": "Holdings structure adopted"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Nintendo",
+      "type": "private",
+      "role": "Game company",
+      "regionOfActivity": "Kyoto",
+      "description": "Playing-card maker that saved the console industry.",
+      "events": [
+        {
+          "date": "1889-09-23",
+          "category": "birth",
+          "description": "Nintendo Koppai founded"
+        },
+        {
+          "date": "1983-07-15",
+          "category": "technical",
+          "description": "Famicom launched"
+        },
+        {
+          "date": "2017-03-03",
+          "category": "technical",
+          "description": "Switch hybrid console released"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Hitachi",
+      "type": "private",
+      "role": "Industrial conglomerate",
+      "regionOfActivity": "Tokyo",
+      "description": "Hitachi-shi repair shop turned infrastructure-IT group.",
+      "events": [
+        {
+          "date": "1910-01-01",
+          "category": "birth",
+          "description": "Hitachi founded by Odaira"
+        },
+        {
+          "date": "2009-01-01",
+          "category": "transformation",
+          "description": "Post-crisis portfolio refocus begins"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Toshiba",
+      "type": "private",
+      "role": "Industrial group",
+      "regionOfActivity": "Tokyo",
+      "description": "Shibaura-Tokyo Electric lineage through accounting scandal to buyout.",
+      "events": [
+        {
+          "date": "1939-01-01",
+          "category": "founding",
+          "description": "Shibaura-Tokyo Denki merger forms Toshiba"
+        },
+        {
+          "date": "2015-07-21",
+          "category": "transformation",
+          "description": "Accounting scandal erupts; restructuring follows"
+        },
+        {
+          "date": "2023-12-20",
+          "category": "policy",
+          "description": "JIP-led delisting takes it private"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Mitsubishi Electric",
+      "type": "private",
+      "role": "Electrical group",
+      "regionOfActivity": "Tokyo",
+      "description": "Mitsubishi-shipbuilding electrical spin-off.",
+      "events": [
+        {
+          "date": "1921-01-15",
+          "category": "birth",
+          "description": "Mitsubishi Electric spun from shipbuilding"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "NEC",
+      "type": "private",
+      "role": "IT and network group",
+      "regionOfActivity": "Tokyo",
+      "description": "Western Electric joint venture turned computer-telecom house.",
+      "events": [
+        {
+          "date": "1899-07-17",
+          "category": "birth",
+          "description": "Nippon Electric Company founded with Western Electric"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Fujitsu",
+      "type": "private",
+      "role": "IT services group",
+      "regionOfActivity": "Tokyo",
+      "description": "Fuji Electric communications arm turned services major.",
+      "events": [
+        {
+          "date": "1935-06-20",
+          "category": "birth",
+          "description": "Fuji Tsushinki founded"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "NTT",
+      "type": "private",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Tokyo",
+      "description": "Public corporation privatized into a regional holding.",
+      "events": [
+        {
+          "date": "1952-08-01",
+          "category": "birth",
+          "description": "Nippon Telegraph and Telephone Public Corporation created"
+        },
+        {
+          "date": "1985-04-01",
+          "category": "transformation",
+          "description": "Privatization; NTT Data listed 1995"
+        },
+        {
+          "date": "1999-07-01",
+          "category": "founding",
+          "description": "Holding-company reorganization"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "SoftBank Group",
+      "type": "private",
+      "role": "Investment group",
+      "regionOfActivity": "Tokyo",
+      "description": "Software distributor turned Vision Fund allocator.",
+      "events": [
+        {
+          "date": "1981-09-03",
+          "category": "birth",
+          "description": "SoftBank founded"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "Alibaba investment seeds the model"
+        },
+        {
+          "date": "2017-05-20",
+          "category": "founding",
+          "description": "Vision Fund closes at nearly $100B"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Rakuten",
+      "type": "private",
+      "role": "E-commerce and fintech group",
+      "regionOfActivity": "Tokyo",
+      "description": "Marketplace challenger with banking and mobile arms.",
+      "events": [
+        {
+          "date": "1997-02-07",
+          "category": "birth",
+          "description": "Rakuten founded"
+        },
+        {
+          "date": "2000-04-19",
+          "category": "milestone",
+          "description": "JASDAQ listing"
+        },
+        {
+          "date": "2020-04-08",
+          "category": "expansion",
+          "description": "MNO mobile service launches"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Keyence",
+      "type": "private",
+      "role": "Factory-automation group",
+      "regionOfActivity": "Osaka",
+      "description": "Direct-sales sensor maker with extreme margins.",
+      "events": [
+        {
+          "date": "1974-05-27",
+          "category": "birth",
+          "description": "Lead Electric founded; Keyence era follows"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Fanuc",
+      "type": "private",
+      "role": "Robotics group",
+      "regionOfActivity": "Oshino",
+      "description": "Fujitsu NC spinoff dominating factory robots.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Fujitsu Fanuc spun off"
+        },
+        {
+          "date": "2011-01-01",
+          "category": "technical",
+          "description": "ROBODRILL-Robodrill era; yellow-robot ubiquity"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Murata",
+      "type": "private",
+      "role": "Components maker",
+      "regionOfActivity": "Kyoto",
+      "description": "Ceramic-capacitor leader inside every phone.",
+      "events": [
+        {
+          "date": "1944-10-01",
+          "category": "birth",
+          "description": "Murata Manufacturing founded"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Nippon Steel",
+      "type": "private",
+      "role": "Steel producer",
+      "regionOfActivity": "Tokyo",
+      "description": "Yawata state works privatized into the national champion.",
+      "events": [
+        {
+          "date": "1901-01-01",
+          "category": "birth",
+          "description": "Yawata state works blow in"
+        },
+        {
+          "date": "1970-03-31",
+          "category": "founding",
+          "description": "Yawata-Fuji merger forms Nippon Steel"
+        },
+        {
+          "date": "2012-10-01",
+          "category": "founding",
+          "description": "Sumitomo merger forms Nippon Steel & Sumitomo Metal"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "JFE Holdings",
+      "type": "private",
+      "role": "Steel group",
+      "regionOfActivity": "Tokyo",
+      "description": "Kawasaki-NKK merger product.",
+      "events": [
+        {
+          "date": "2002-09-27",
+          "category": "founding",
+          "description": "NKK-Kawasaki Steel merger forms JFE"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Mitsubishi Heavy Industries",
+      "type": "private",
+      "role": "Heavy-industry group",
+      "regionOfActivity": "Tokyo",
+      "description": "Shipyard-aircraft lineage building rockets and plants.",
+      "events": [
+        {
+          "date": "1884-01-01",
+          "category": "birth",
+          "description": "Mitsubishi shipbuilding leased from the state"
+        },
+        {
+          "date": "1934-01-01",
+          "category": "founding",
+          "description": "Mitsubishi Heavy Industries formed; split 1950, reunited 1964"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Kawasaki Heavy Industries",
+      "type": "private",
+      "role": "Heavy-industry group",
+      "regionOfActivity": "Tokyo",
+      "description": "Ship-repair yard turned motorcycles and rolling stock.",
+      "events": [
+        {
+          "date": "1896-10-15",
+          "category": "birth",
+          "description": "Kawasaki Dockyard founded"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "IHI",
+      "type": "private",
+      "role": "Heavy-industry group",
+      "regionOfActivity": "Tokyo",
+      "description": "Ishikawajima shipyard lineage in aero-engines and bridges.",
+      "events": [
+        {
+          "date": "1853-12-05",
+          "category": "birth",
+          "description": "Ishikawajima shipyard founded"
+        },
+        {
+          "date": "1960-01-01",
+          "category": "founding",
+          "description": "Harima merger forms IHI"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Japan Airlines",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Tokyo",
+      "description": "State-founded flag carrier through bankruptcy renewal.",
+      "events": [
+        {
+          "date": "1951-08-01",
+          "category": "birth",
+          "description": "Japan Air Lines founded"
+        },
+        {
+          "date": "1987-11-18",
+          "category": "transformation",
+          "description": "Full privatization"
+        },
+        {
+          "date": "2010-01-19",
+          "category": "policy",
+          "description": "Corporate rehabilitation; relisting 2012"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "ANA Holdings",
+      "type": "private",
+      "role": "Airline group",
+      "regionOfActivity": "Tokyo",
+      "description": "Helicopter startup turned global carrier.",
+      "events": [
+        {
+          "date": "1952-12-27",
+          "category": "birth",
+          "description": "Japan Helicopter and Aeroplane founded"
+        },
+        {
+          "date": "1958-03-01",
+          "category": "founding",
+          "description": "Far East Airlines merger forms ANA"
+        },
+        {
+          "date": "2013-04-01",
+          "category": "transformation",
+          "description": "Holdings structure adopted"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "JR Central",
+      "type": "private",
+      "role": "Railway company",
+      "regionOfActivity": "Nagoya",
+      "description": "JNR privatization winner running the Tokaido Shinkansen.",
+      "events": [
+        {
+          "date": "1987-04-01",
+          "category": "birth",
+          "description": "JNR split privatizes JR Central"
+        },
+        {
+          "date": "1997-10-01",
+          "category": "milestone",
+          "description": "Nozomi 300 km/h service begins"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "JR East",
+      "type": "private",
+      "role": "Railway company",
+      "regionOfActivity": "Tokyo",
+      "description": "Largest JNR successor with Suica ecosystem.",
+      "events": [
+        {
+          "date": "1987-04-01",
+          "category": "birth",
+          "description": "JR East incorporated"
+        },
+        {
+          "date": "2001-11-18",
+          "category": "technical",
+          "description": "Suica IC cards launch"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Tokyo Metro and Toei lineage",
+      "type": "hybrid",
+      "role": "Urban transit",
+      "regionOfActivity": "Tokyo",
+      "description": "1927 Asia-first subway grown into twin networks.",
+      "events": [
+        {
+          "date": "1927-12-30",
+          "category": "birth",
+          "description": "Ueno-Asakusa subway opens"
+        },
+        {
+          "date": "2004-04-01",
+          "category": "transformation",
+          "description": "Teito Rapid Transit privatized as Tokyo Metro"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Japan Post",
+      "type": "hybrid",
+      "role": "Postal and financial group",
+      "regionOfActivity": "Tokyo",
+      "description": "Meiji postal system privatized with bank and insurance.",
+      "events": [
+        {
+          "date": "1871-04-20",
+          "category": "birth",
+          "description": "Postal service founded"
+        },
+        {
+          "date": "2007-10-01",
+          "category": "transformation",
+          "description": "Privatization begins; listings 2015"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Seven & i Holdings",
+      "type": "private",
+      "role": "Retail group",
+      "regionOfActivity": "Tokyo",
+      "description": "Ito-Yokado lineage owning 7-Eleven Japan and world.",
+      "events": [
+        {
+          "date": "1920-01-01",
+          "category": "birth",
+          "description": "Ito-Yokado cloth store founded"
+        },
+        {
+          "date": "2005-09-01",
+          "category": "founding",
+          "description": "Holding formed; 7-Eleven taken private 2005"
+        },
+        {
+          "date": "2024-01-01",
+          "category": "transformation",
+          "description": "Takeover battle era with Couche-Tard bid"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Fast Retailing",
+      "type": "private",
+      "role": "Apparel group",
+      "regionOfActivity": "Yamaguchi",
+      "description": "Yanai tailoring shop grown into Uniqlo empire.",
+      "events": [
+        {
+          "date": "1949-03-01",
+          "category": "birth",
+          "description": "Fast Retailing predecessor founded"
+        },
+        {
+          "date": "1984-06-02",
+          "category": "technical",
+          "description": "First Uniqlo opens in Hiroshima"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "University of Tokyo",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Tokyo",
+      "description": "Shoheizaka-Kaiseijo lineage heading Japanese academia.",
+      "events": [
+        {
+          "date": "1877-04-12",
+          "category": "birth",
+          "description": "University of Tokyo established"
+        },
+        {
+          "date": "1949-05-31",
+          "category": "transformation",
+          "description": "New-system university under the School Education Act"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Kyoto University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Kyoto",
+      "description": "Second imperial university with free-atmosphere ethos.",
+      "events": [
+        {
+          "date": "1897-06-18",
+          "category": "birth",
+          "description": "Kyoto Imperial University founded"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "RIKEN",
+      "type": "public",
+      "role": "Research institute",
+      "regionOfActivity": "Wako",
+      "description": "Rikagaku Kenkyusho lineage in physics and AI.",
+      "events": [
+        {
+          "date": "1917-03-20",
+          "category": "birth",
+          "description": "RIKEN founded with imperial donation"
+        },
+        {
+          "date": "1958-01-01",
+          "category": "founding",
+          "description": "Special public corporation re-established"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "AIST",
+      "type": "public",
+      "role": "Industrial research institute",
+      "regionOfActivity": "Tokyo",
+      "description": "MITI laboratories consolidated.",
+      "events": [
+        {
+          "date": "2001-04-01",
+          "category": "founding",
+          "description": "Fifteen MITI institutes merge into AIST"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "NHK",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Tokyo",
+      "description": "Licence-fee broadcasting colossus.",
+      "events": [
+        {
+          "date": "1925-03-22",
+          "category": "birth",
+          "description": "Radio broadcasting begins"
+        },
+        {
+          "date": "1953-02-01",
+          "category": "milestone",
+          "description": "Television service starts"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Keidanren",
+      "type": "private",
+      "role": "Business federation",
+      "regionOfActivity": "Tokyo",
+      "description": "Peak business lobby of the iron triangle.",
+      "events": [
+        {
+          "date": "1946-08-16",
+          "category": "birth",
+          "description": "Federation of Economic Organizations founded"
+        },
+        {
+          "date": "2002-05-28",
+          "category": "founding",
+          "description": "Nikkeiren merger forms Nippon Keidanren"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Rengo",
+      "type": "private",
+      "role": "Labor confederation",
+      "regionOfActivity": "Tokyo",
+      "description": "Private-public union central of the post-Domei era.",
+      "events": [
+        {
+          "date": "1989-11-21",
+          "category": "birth",
+          "description": "Rengo confederation formed"
+        }
+      ]
+    }
+  ]
+}

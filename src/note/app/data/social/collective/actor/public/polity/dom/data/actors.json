@@ -1,0 +1,745 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Dominican actors (organizations and institutions) since 1500.",
+    "country": "Dominican Republic",
+    "region": "North America",
+    "flag": "🇩🇴",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the Dominican Republic. This dataset traces the formation, transformation, and significant milestones of colonial, caudillo, and tourism-era entities, from the first audiencia to free zones and resorts.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Captaincy and Audiencia of Santo Domingo",
+      "type": "public",
+      "role": "Colonial administration",
+      "regionOfActivity": "Santo Domingo",
+      "description": "First audiencia and primate city of the Indies.",
+      "events": [
+        {
+          "date": "1511-10-05",
+          "category": "birth",
+          "description": "Real Audiencia erected"
+        },
+        {
+          "date": "1586-01-01",
+          "category": "milestone",
+          "description": "Drake sacks the city; decline follows"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Universidad Santo Tomás de Aquino",
+      "type": "public",
+      "role": "University history",
+      "regionOfActivity": "Santo Domingo",
+      "description": "1538 studium claiming first-university status; UASD heir.",
+      "events": [
+        {
+          "date": "1538-10-28",
+          "category": "birth",
+          "description": "Papal bull founds the studium"
+        },
+        {
+          "date": "1914-11-16",
+          "category": "founding",
+          "description": "Universidad Autónoma de Santo Domingo refounded"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Banco Central de la República Dominicana",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Trujillo-era central bank managing the peso.",
+      "events": [
+        {
+          "date": "1947-10-09",
+          "category": "birth",
+          "description": "Central Bank law passed"
+        },
+        {
+          "date": "2003-05-01",
+          "category": "transformation",
+          "description": "Baninter crisis forces bank resolution overhaul"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Banco de Reservas",
+      "type": "public",
+      "role": "State bank",
+      "regionOfActivity": "Santo Domingo",
+      "description": "1941 state bank dominating domestic credit.",
+      "events": [
+        {
+          "date": "1941-10-24",
+          "category": "birth",
+          "description": "Banreservas founded"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Banco Popular Dominicano",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Grullón-family bank leading private credit.",
+      "events": [
+        {
+          "date": "1963-08-23",
+          "category": "birth",
+          "description": "Banco Popular founded"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Baninter lineage",
+      "type": "private",
+      "role": "Banking history",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Báez-group bank collapsed 2003 in fraud.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Banco Intercontinental modern era begins"
+        },
+        {
+          "date": "2003-04-07",
+          "category": "death",
+          "description": "Intervention reveals $2.2B hole"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Banco BHD",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Santo Domingo",
+      "description": "1972 bank merged with León in 2016.",
+      "events": [
+        {
+          "date": "1972-07-24",
+          "category": "birth",
+          "description": "Banco Hipotecario Dominicano founded"
+        },
+        {
+          "date": "2016-01-01",
+          "category": "founding",
+          "description": "BHD-León merger"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Central Romana",
+      "type": "private",
+      "role": "Sugar and tourism group",
+      "regionOfActivity": "La Romana",
+      "description": "Fanjul-Gulf+Western sugar estate turned Casa de Campo resort.",
+      "events": [
+        {
+          "date": "1911-04-12",
+          "category": "birth",
+          "description": "South Porto Rico Sugar era; Central Romana founded"
+        },
+        {
+          "date": "1974-01-01",
+          "category": "expansion",
+          "description": "Casa de Campo resort opens"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Grupo Vicini",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Italian-immigrant sugar lineage diversified.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "birth",
+          "description": "Vicini family arrives; ingenios follow"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "founding",
+          "description": "Grupo Financiero León era; Vicini holding follows"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Grupo Corripio",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Media-to-industry family group.",
+      "events": [
+        {
+          "date": "1930-01-01",
+          "category": "birth",
+          "description": "Manuel Corripio arrives; commercial empire begins"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Grupo Ramos and La Sirena",
+      "type": "private",
+      "role": "Retailer",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Department-store chain turned multicomercio.",
+      "events": [
+        {
+          "date": "1965-01-01",
+          "category": "birth",
+          "description": "La Sirena founded"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Grupo Punta Cana",
+      "type": "private",
+      "role": "Tourism group",
+      "regionOfActivity": "Punta Cana",
+      "description": "Rainieri-Fanjul resort complex inventing the destination.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Frank Rainieri acquires the land"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "milestone",
+          "description": "Punta Cana airport opens"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Barceló Dominican lineage",
+      "type": "private",
+      "role": "Tourism history",
+      "regionOfActivity": "Bávaro",
+      "description": "Spanish chains' beachhead in the Americas.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "Barceló Bávaro opens"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Falconbridge Dominicana",
+      "type": "private",
+      "role": "Nickel miner",
+      "regionOfActivity": "Bonao",
+      "description": "Canadian ferronickel operation at Loma Miranda.",
+      "events": [
+        {
+          "date": "1956-01-01",
+          "category": "birth",
+          "description": "Falconbridge concession era begins"
+        },
+        {
+          "date": "2015-01-01",
+          "category": "transformation",
+          "description": "Glencore portfolio; care-and-maintenance cycles"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Barrick Pueblo Viejo",
+      "type": "private",
+      "role": "Gold miner",
+      "regionOfActivity": "Cotuí",
+      "description": "Rosario-era mine redeveloped as a top gold asset.",
+      "events": [
+        {
+          "date": "1975-01-01",
+          "category": "birth",
+          "description": "Rosario Dominicana state mine opens"
+        },
+        {
+          "date": "2013-01-01",
+          "category": "technical",
+          "description": "Pueblo Viejo restart commissioned"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Cemento Cibao and Argos Dominicana",
+      "type": "private",
+      "role": "Cement group",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Cibao mills consolidated under Argos.",
+      "events": [
+        {
+          "date": "1964-01-01",
+          "category": "birth",
+          "description": "Cemento Cibao founded"
+        },
+        {
+          "date": "2014-01-01",
+          "category": "transformation",
+          "description": "Argos takes control"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Refinería Dominicana and Refidomsa",
+      "type": "hybrid",
+      "role": "Refinery",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Shell-built refinery turned PDVSA partnership.",
+      "events": [
+        {
+          "date": "1973-02-14",
+          "category": "birth",
+          "description": "Refinería Dominicana inaugurated"
+        },
+        {
+          "date": "2010-01-01",
+          "category": "transformation",
+          "description": "PDVSA takes 49% under Petrocaribe"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "EGE Haina",
+      "type": "private",
+      "role": "Power generator",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Privatized hydro-thermal generator.",
+      "events": [
+        {
+          "date": "1999-08-28",
+          "category": "birth",
+          "description": "Capitalization creates EGE Haina"
+        },
+        {
+          "date": "2011-01-01",
+          "category": "technical",
+          "description": "Los Cocos wind farm commissioned"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "AES Dominicana",
+      "type": "private",
+      "role": "Power generator",
+      "regionOfActivity": "Santo Domingo",
+      "description": "US entrant converting to gas.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "AES enters the Dominican market"
+        },
+        {
+          "date": "2021-01-01",
+          "category": "technical",
+          "description": "Andrés LNG-to-power conversion advances"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Claro Dominicana",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Santo Domingo",
+      "description": "CODETEL lineage inside América Móvil.",
+      "events": [
+        {
+          "date": "1930-11-11",
+          "category": "birth",
+          "description": "Compañía Dominicana de Teléfonos chartered"
+        },
+        {
+          "date": "2000-04-03",
+          "category": "transformation",
+          "description": "Verizon-GTE era; Claro brand follows 2006"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Altice Dominicana",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Tricom-Orange merger under Altice.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Tricom founded as long-distance challenger"
+        },
+        {
+          "date": "2014-03-26",
+          "category": "transformation",
+          "description": "Altice takes control; Orange merged 2017"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Listín Diario",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "Santo Domingo",
+      "description": "1889 decano of Dominican press.",
+      "events": [
+        {
+          "date": "1889-08-01",
+          "category": "birth",
+          "description": "Listín Diario founded by Arturo Pellerano"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Grupo Corripio media",
+      "type": "private",
+      "role": "Media history",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Hoy-Telesistema-El Nacional cluster.",
+      "events": [
+        {
+          "date": "1981-09-11",
+          "category": "birth",
+          "description": "Hoy newspaper founded; Telesistema era 1974"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "INTEC",
+      "type": "private",
+      "role": "University",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Nonprofit tech institute.",
+      "events": [
+        {
+          "date": "1972-10-09",
+          "category": "birth",
+          "description": "INTEC founded"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "PUCMM",
+      "type": "private",
+      "role": "University",
+      "regionOfActivity": "Santiago",
+      "description": "Catholic university of the Cibao.",
+      "events": [
+        {
+          "date": "1962-09-09",
+          "category": "birth",
+          "description": "PUCMM founded"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Zona Franca San Isidro",
+      "type": "hybrid",
+      "role": "Free-trade zone",
+      "regionOfActivity": "Santo Domingo",
+      "description": "1973 pioneer zone for apparel and devices.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "San Isidro free zone created"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "expansion",
+          "description": "Las Américas zone wave follows"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Junta Agroempresarial Dominicana",
+      "type": "private",
+      "role": "Agribusiness board",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Export-crop coordination body.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "JAD founded"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Asociación de Industrias",
+      "type": "private",
+      "role": "Industry association",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Manufacturers' voice.",
+      "events": [
+        {
+          "date": "1962-01-01",
+          "category": "birth",
+          "description": "AIRD founded"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Museo del Hombre Dominicano",
+      "type": "public",
+      "role": "Anthropology museum",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Taíno-heritage museum of the Plaza de la Cultura.",
+      "events": [
+        {
+          "date": "1973-10-12",
+          "category": "birth",
+          "description": "Museum inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Teatro Nacional",
+      "type": "public",
+      "role": "National theatre",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Trujillo-era lyric house.",
+      "events": [
+        {
+          "date": "1973-08-16",
+          "category": "birth",
+          "description": "Teatro Nacional inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Faro a Colón",
+      "type": "public",
+      "role": "Memorial complex",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Columbus lighthouse memorial.",
+      "events": [
+        {
+          "date": "1992-10-06",
+          "category": "birth",
+          "description": "Faro a Colón inaugurated for the quincentenary"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Cervecería Nacional Dominicana",
+      "type": "private",
+      "role": "Brewer",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Presidente brewer inside AB InBev.",
+      "events": [
+        {
+          "date": "1912-01-01",
+          "category": "birth",
+          "description": "Cervecería Nacional founded"
+        },
+        {
+          "date": "2012-04-13",
+          "category": "transformation",
+          "description": "Ambev takes control"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Brugal",
+      "type": "private",
+      "role": "Rum distiller",
+      "regionOfActivity": "Puerto Plata",
+      "description": "Family rum house with global reach.",
+      "events": [
+        {
+          "date": "1888-01-01",
+          "category": "birth",
+          "description": "Andrés Brugal starts distilling"
+        },
+        {
+          "date": "2008-02-06",
+          "category": "transformation",
+          "description": "Edrington takes majority"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Barceló Export",
+      "type": "private",
+      "role": "Rum distiller",
+      "regionOfActivity": "San Pedro de Macorís",
+      "description": "Ron Barceló house.",
+      "events": [
+        {
+          "date": "1929-01-01",
+          "category": "birth",
+          "description": "Julián Barceló founds the distillery"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Grupo León Jimenes",
+      "type": "private",
+      "role": "Tobacco group",
+      "regionOfActivity": "Santiago",
+      "description": "La Aurora cigar lineage.",
+      "events": [
+        {
+          "date": "1903-10-03",
+          "category": "birth",
+          "description": "La Aurora factory founded"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "transformation",
+          "description": "BAT partnership era; cigar focus follows"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "INAPA",
+      "type": "public",
+      "role": "Water agency",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Potable-water and sewerage institute.",
+      "events": [
+        {
+          "date": "1962-08-11",
+          "category": "birth",
+          "description": "INAPA created"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Edesur Dominicana",
+      "type": "private",
+      "role": "Power distributor",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Capitalized distributor of the south.",
+      "events": [
+        {
+          "date": "1999-08-24",
+          "category": "birth",
+          "description": "CDEEE capitalization creates Edesur"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "APAP",
+      "type": "hybrid",
+      "role": "Thrift association",
+      "regionOfActivity": "Santiago",
+      "description": "Savings-and-loan association.",
+      "events": [
+        {
+          "date": "1962-05-17",
+          "category": "birth",
+          "description": "Asociación Popular de Ahorros founded"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Banco Ademi",
+      "type": "private",
+      "role": "Microfinance bank",
+      "regionOfActivity": "Santo Domingo",
+      "description": "NGO-born microcredit bank.",
+      "events": [
+        {
+          "date": "1982-01-01",
+          "category": "birth",
+          "description": "ADEMI NGO founded; bank licensed 1998"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Banco Santa Cruz",
+      "type": "private",
+      "role": "Commercial bank",
+      "regionOfActivity": "Santiago",
+      "description": "Cibao-rooted commercial bank.",
+      "events": [
+        {
+          "date": "1999-11-16",
+          "category": "birth",
+          "description": "Banco Santa Cruz founded"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "UNPHU",
+      "type": "private",
+      "role": "University",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Pedro Henríquez Ureña university.",
+      "events": [
+        {
+          "date": "1966-04-21",
+          "category": "birth",
+          "description": "UNPHU founded"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Viva",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Santo Domingo",
+      "description": "Trilogy-backed mobile challenger.",
+      "events": [
+        {
+          "date": "2008-01-01",
+          "category": "birth",
+          "description": "Trilogy Dominicana launches Viva"
+        }
+      ]
+    }
+  ]
+}

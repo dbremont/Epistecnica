@@ -548,17 +548,25 @@
                     <p>
                         Universal search lives in every surface's header: one box
                         over a pre-deployment snapshot (<code>make
-                        search-index</code>) covering the three corpora —
-                        notes, courses, and documents — grouped by surface
-                        and deep-linking into each viewer. The ontology
-                        graphs are external and are not indexed here.
+                        search-index</code>) covering the corpora — notes,
+                        courses, documents, the glossarium and the Q/A log —
+                        grouped by surface and deep-linking into each viewer.
+                        The ontology graphs are external and are not indexed
+                        here.
                     </p>
                     <p>
-                        The <a href="http://localhost:8013/glossarium/web/">glossarium</a> is the lexical corpus:
+                        The <a href="glossarium/">glossarium</a> is the lexical corpus:
                         <span id="stat-terms-inline">&mdash;</span> terms and definitions, browsable
                         alphabetically or by search. Selecting a word on the note pages pops its
                         definition in place — <em>consistencia</em>, <em>telos</em>,
                         <em>technique</em> — with a link to the full entry.
+                    </p>
+                    <p>
+                        The <a href="qa/">Q/A log</a> keeps the open questions behind the
+                        corpus: <span id="stat-qa-inline">&mdash;</span> entries, each with its
+                        question, the answer where there is one, and the tags that place it.
+                        Corpus notes carry their own <code>QA</code> list in the metadata bar;
+                        this surface is the cross-corpus log.
                     </p>
 
                     <h2 id="architecture">Architecture, for the Curious</h2>
@@ -575,6 +583,8 @@
                         <thead><tr><th>Endpoint</th><th>Purpose</th></tr></thead>
                         <tbody>
                             <tr><td><code>GET /api/health</code></td><td>Liveness probe for the service</td></tr>
+                            <tr><td><code>GET /api/index/status</code></td><td>Live index-build progress (opt-in)</td></tr>
+                            <tr><td><code>POST /api/index/build</code></td><td>Queue a chunked background index rebuild (opt-in)</td></tr>
                         </tbody>
                     </table>
 
@@ -604,7 +614,8 @@
                 <a href="note/">NOTES</a>
                 <a href="course/">COURSES</a>
                 <a href="document/">DOCUMENTS</a>
-                <a href="http://localhost:8013/glossarium/web/">GLOSSARIUM</a>
+                <a href="glossarium/">GLOSSARIUM</a>
+                <a href="qa/">Q/A</a>
                 <a href="api/health">HEALTH</a>
             </div>
         </div>
@@ -726,7 +737,8 @@
         countStats('note/data/index.json', 'stat-notes', 'stat-notes-inline');
         countStats('course/data/index.json', 'stat-courses', null, 'courses');
         countStats('document/data/index.json', 'stat-documents', null);
-        countStats('http://localhost:8013/glossarium/data/index.json', 'stat-terms', 'stat-terms-inline');
+        countStats('glossarium/data/index.json', 'stat-terms', 'stat-terms-inline');
+        countStats('qa/data/qa-index.json', 'stat-qa', 'stat-qa-inline');
 
         /* ---------- table of contents + scrollspy ---------- */
 
@@ -761,5 +773,6 @@
     })();
     </script>
     <script src="shared/usearch.js" data-root=""></script>
+    <script src="shared/index-status.js" data-root="" defer></script>
 </body>
 </html>

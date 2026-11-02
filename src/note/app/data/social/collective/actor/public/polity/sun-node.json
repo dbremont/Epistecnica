@@ -1,0 +1,107 @@
+{
+  "id": "sun",
+  "name": "Soviet Union",
+  "tags": [
+    "Historical Superpower",
+    "Defunct State",
+    "Eurasia",
+    "Socialist Federal State",
+    "Cold War",
+    "Command Economy",
+    "One-Party State"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "The Soviet Union (USSR, 1922–1991) was a federal Marxist–Leninist one-party socialist state spanning Eurasia, built on a command economy and ruled by the Communist Party from Moscow until its dissolution into fifteen sovereign republics.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Союз Советских Социалистических Республик (USSR)",
+    "flagEmoji": "☭",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "293 million (1991)",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 293000000
+      },
+      {
+        "id": "area",
+        "value": "22,402,200 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 22402200
+      },
+      {
+        "id": "capital",
+        "value": "Moscow",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Marxist–Leninist one-party socialist state (1922–1991)",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of the Soviet actor space from Bolshevik party organs and revolutionary councils through Stalinist ministries, the security apparatus and Gosplan to perestroika-era institutions and dissolution.",
+        "link": "rep/actor.html?code=sun"
+      },
+      {
+        "id": "command_economy_planning",
+        "type": "Network",
+        "status": "pending",
+        "title": "Command Economy Planning Structure",
+        "description": "Network analysis of Gosplan five-year plans, Gosbank credit allocation and ministerial production chains binding the republics to the centre.",
+        "link": null
+      },
+      {
+        "id": "union_republics",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Union Republic Structure",
+        "description": "Geospatial representation of the fifteen union republics, autonomous areas and the federal hierarchy from 1922 to 1991.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "SUN",
+      "region": "Eurasia",
+      "lastRevised": "2026-10-06",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "Wikipedia: Soviet Union",
+    "imported": "2026-10-06"
+  },
+  "references": [
+    {
+      "title": "Soviet Union — Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Soviet_Union",
+      "description": "History, government, economy, dissolution."
+    }
+  ]
+}

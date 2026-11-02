@@ -30,6 +30,8 @@ from datetime import date
 from html import unescape
 from pathlib import Path
 
+from indexlib import Progress, atomic_write_text, run_builder
+
 REPO = Path(__file__).resolve().parent.parent
 COURSE = REPO / "src" / "course"
 APP = COURSE / "app"
@@ -184,14 +186,19 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list
     return item
 
 
-def main() -> int:
+def build(progress=None) -> bool:
     if not COURSES.is_dir():
         print(f"ERROR: courses directory not found: {COURSES}", file=sys.stderr)
-        return 1
+        return False
 
     warnings: list = []
     entries: list = []
-    for course_dir in sorted(p for p in COURSES.iterdir() if p.is_dir()):
+    course_dirs = sorted(p for p in COURSES.iterdir() if p.is_dir())
+    live_pages = sorted(COURSES.rglob("*.html"))
+    if progress is not None:
+        progress.set_total(len(course_dirs) + len(live_pages))
+        progress.start(f"indexing {len(course_dirs)} courses, {len(live_pages)} live pages")
+    for course_dir in course_dirs:
         if not NAME_RE.match(course_dir.name):
             warnings.append(f"{course_dir.name} (course directory)")
             continue
@@ -213,12 +220,19 @@ def main() -> int:
             lecture = parse(path, lecture_rel, warnings)
             lecture["course"] = course_dir.name
             entries.append(lecture)
+        if progress is not None:
+            progress.step(message=course_dir.name)
 
     # standalone HTML pages anywhere in the corpus (kind "live")
-    for path in sorted(COURSES.rglob("*.html")):
+    for path in live_pages:
         rel = path.relative_to(COURSES)
         check_name(rel, warnings)
         entries.append(parse_html(path, rel, warnings))
+        if progress is not None:
+            progress.step(message=rel.as_posix())
+
+    if progress is not None:
+        progress.stage(f"writing {OUT.name}")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -229,7 +243,7 @@ def main() -> int:
         "live": sum(1 for n in entries if n["kind"] == "live"),
         "entries": entries,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    atomic_write_text(OUT, json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
 
     kb = OUT.stat().st_size / 1024
     tagged = sum(1 for n in entries if n["tags"])
@@ -238,7 +252,13 @@ def main() -> int:
         print(f"naming warnings: {len(warnings)} (see src/course/README.md)")
         for w in warnings:
             print(f"  ! {w}")
-    return 0
+    if progress is not None:
+        progress.finish(f"{payload['courses']} courses, {payload['lectures']} lectures")
+    return True
+
+
+def main() -> int:
+    return run_builder("courses", build)
 
 
 if __name__ == "__main__":

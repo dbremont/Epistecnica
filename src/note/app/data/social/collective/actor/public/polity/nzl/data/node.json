@@ -1,0 +1,107 @@
+{
+  "id": "nzl",
+  "name": "New Zealand",
+  "tags": [
+    "Oceania",
+    "Island Nation",
+    "Common Law",
+    "Agricultural Exporter",
+    "OECD",
+    "Parliamentary Democracy"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "New Zealand is a sovereign island nation in Oceania composed primarily of the North and South Islands. It operates as a parliamentary democracy and constitutional monarchy. Historically shaped by Māori settlement and later British colonization, New Zealand developed a high-income, export-oriented economy centered on agriculture, agri-technology, tourism, and services, with strong institutional quality and regulatory transparency.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "New Zealand · Aotearoa",
+    "flagEmoji": "🇳🇿",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "5.2 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 5200000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 250 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 250000000000
+      },
+      {
+        "id": "area",
+        "value": "268,838 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 268838
+      },
+      {
+        "id": "capital",
+        "value": "Wellington",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Parliamentary Democracy and Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of New Zealand’s actor space from Māori polities and colonial administration to welfare-state expansion, economic liberalization (post-1984 reforms), and contemporary regulatory institutions.",
+        "link": "rep/actor.html?code=nzl"
+      },
+      {
+        "id": "product_space",
+        "type": "Network",
+        "status": "pending",
+        "title": "Product Space Evolution",
+        "description": "Network analysis of dairy, meat, forestry, and agri-technology sectors, including export linkages to Asia-Pacific markets.",
+        "link": "pending.html?back=entry.html%3Fcode%3Dnzl"
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of regions, major urban centers, infrastructure networks, and environmental management systems.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "NZL",
+      "region": "Oceania",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

@@ -1,0 +1,900 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Indonesian actors (organizations and institutions) since 1600.",
+    "country": "Indonesia",
+    "region": "Southeast Asia",
+    "flag": "🇮🇩",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Indonesia. This dataset traces the formation, transformation, and significant milestones of company-state, colonial, and republican entities, from Batavia to conglomerates and superapps.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "VOC Batavia administration",
+      "type": "public",
+      "role": "Colonial government",
+      "regionOfActivity": "Jakarta",
+      "description": "Company-state ruling Java to 1799.",
+      "events": [
+        {
+          "date": "1619-05-30",
+          "category": "birth",
+          "description": "Coen founds Batavia"
+        },
+        {
+          "date": "1799-12-31",
+          "category": "death",
+          "description": "VOC charter expires; Dutch state takes over"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Netherlands Indies government",
+      "type": "public",
+      "role": "Colonial state",
+      "regionOfActivity": "Jakarta",
+      "description": "Cultivation-system state turned ethical-policy administration.",
+      "events": [
+        {
+          "date": "1800-01-01",
+          "category": "birth",
+          "description": "Dutch state assumes the possessions"
+        },
+        {
+          "date": "1830-01-01",
+          "category": "policy",
+          "description": "Cultivation System imposed"
+        },
+        {
+          "date": "1949-12-27",
+          "category": "death",
+          "description": "Sovereignty transferred to Indonesia"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Proclamation and the Republic",
+      "type": "public",
+      "role": "Founding order",
+      "regionOfActivity": "Jakarta",
+      "description": "1945 proclamation and revolutionary republic.",
+      "events": [
+        {
+          "date": "1945-08-17",
+          "category": "birth",
+          "description": "Sukarno-Hatta proclaim independence"
+        },
+        {
+          "date": "1949-12-27",
+          "category": "founding",
+          "description": "Round Table sovereignty recognized"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Bank Indonesia",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Jakarta",
+      "description": "De Javasche Bank lineage turned inflation-targeting bank.",
+      "events": [
+        {
+          "date": "1828-01-24",
+          "category": "birth",
+          "description": "De Javasche Bank founded"
+        },
+        {
+          "date": "1953-07-01",
+          "category": "founding",
+          "description": "Bank Indonesia nationalized era"
+        },
+        {
+          "date": "1999-05-17",
+          "category": "transformation",
+          "description": "Independence act passed"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Bank Mandiri",
+      "type": "hybrid",
+      "role": "Universal bank",
+      "regionOfActivity": "Jakarta",
+      "description": "Crisis-merged state banks turned listed champion.",
+      "events": [
+        {
+          "date": "1998-10-02",
+          "category": "birth",
+          "description": "Four state banks merged under IBRA"
+        },
+        {
+          "date": "2003-07-14",
+          "category": "transformation",
+          "description": "Listing completes"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Bank Rakyat Indonesia",
+      "type": "hybrid",
+      "role": "Microfinance bank",
+      "regionOfActivity": "Jakarta",
+      "description": "Village-credit lineage serving MSMEs.",
+      "events": [
+        {
+          "date": "1895-12-16",
+          "category": "birth",
+          "description": "Purwokerto village bank founded"
+        },
+        {
+          "date": "2003-11-10",
+          "category": "transformation",
+          "description": "Listing; state retains control"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Bank Negara Indonesia",
+      "type": "hybrid",
+      "role": "Universal bank",
+      "regionOfActivity": "Jakarta",
+      "description": "1946 circulation bank turned listed lender.",
+      "events": [
+        {
+          "date": "1946-07-05",
+          "category": "birth",
+          "description": "BNI founded as circulation bank"
+        },
+        {
+          "date": "1996-11-25",
+          "category": "transformation",
+          "description": "Listing"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Telkom Indonesia",
+      "type": "hybrid",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Jakarta",
+      "description": "State post-telecom split into listed operator.",
+      "events": [
+        {
+          "date": "1856-10-23",
+          "category": "birth",
+          "description": "Batavia-Singapore telegraph line opens"
+        },
+        {
+          "date": "1995-11-14",
+          "category": "transformation",
+          "description": "Listing; state retains control"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "expansion",
+          "description": "Telkomsel control consolidated"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Garuda Indonesia",
+      "type": "hybrid",
+      "role": "Flag carrier",
+      "regionOfActivity": "Jakarta",
+      "description": "KLM-interisland lineage flag carrier.",
+      "events": [
+        {
+          "date": "1949-01-26",
+          "category": "birth",
+          "description": "Garuda Indonesian Airways founded"
+        },
+        {
+          "date": "2011-02-11",
+          "category": "transformation",
+          "description": "Listing after debt restructuring"
+        },
+        {
+          "date": "2022-12-23",
+          "category": "policy",
+          "description": "PKPU settlement completes"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Kereta Api Indonesia",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Jakarta",
+      "description": "Japanese-era railway administration turned state company.",
+      "events": [
+        {
+          "date": "1945-09-28",
+          "category": "birth",
+          "description": "Railway workers seize the network"
+        },
+        {
+          "date": "1999-06-01",
+          "category": "transformation",
+          "description": "Persero status granted"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Pelindo",
+      "type": "hybrid",
+      "role": "Port operator",
+      "regionOfActivity": "Jakarta",
+      "description": "Four Pelindos merged into a holding.",
+      "events": [
+        {
+          "date": "1992-01-01",
+          "category": "birth",
+          "description": "Perum Pelabuhan split into four Pelindos"
+        },
+        {
+          "date": "2021-10-01",
+          "category": "founding",
+          "description": "Holding merger creates Pelindo"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "PLN",
+      "type": "public",
+      "role": "Electric utility",
+      "regionOfActivity": "Jakarta",
+      "description": "State electricity monopoly electrifying the archipelago.",
+      "events": [
+        {
+          "date": "1945-10-27",
+          "category": "birth",
+          "description": "Electricity and Gas Bureau seizes utilities"
+        },
+        {
+          "date": "1961-01-01",
+          "category": "founding",
+          "description": "PLN formed"
+        },
+        {
+          "date": "2009-01-01",
+          "category": "technical",
+          "description": "Fast-track coal program adds capacity"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Pertamina",
+      "type": "public",
+      "role": "Oil company",
+      "regionOfActivity": "Jakarta",
+      "description": "Three-firm merger dominating hydrocarbons.",
+      "events": [
+        {
+          "date": "1968-08-20",
+          "category": "founding",
+          "description": "Pertamin-Permina-Permigan merger forms Pertamina"
+        },
+        {
+          "date": "2003-06-18",
+          "category": "transformation",
+          "description": "Persero status; liberalization begins"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Aneka Tambang",
+      "type": "hybrid",
+      "role": "Diversified miner",
+      "regionOfActivity": "Jakarta",
+      "description": "State nickel-bauxite-gold miner.",
+      "events": [
+        {
+          "date": "1968-07-05",
+          "category": "birth",
+          "description": "PN Aneka Tambang formed"
+        },
+        {
+          "date": "1997-11-27",
+          "category": "transformation",
+          "description": "Listing"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Bukit Asam",
+      "type": "hybrid",
+      "role": "Coal miner",
+      "regionOfActivity": "Jakarta",
+      "description": "Ombilin-mine lineage supplying domestic power.",
+      "events": [
+        {
+          "date": "1981-01-01",
+          "category": "birth",
+          "description": "PT Bukit Asam formed"
+        },
+        {
+          "date": "2002-12-23",
+          "category": "transformation",
+          "description": "Listing"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Freeport Indonesia lineage",
+      "type": "private",
+      "role": "Mining history",
+      "regionOfActivity": "Jakarta",
+      "description": "Ertsberg-Grasberg copper-gold complex under divestment.",
+      "events": [
+        {
+          "date": "1967-04-07",
+          "category": "birth",
+          "description": "First Contract of Work signed"
+        },
+        {
+          "date": "2018-12-21",
+          "category": "transformation",
+          "description": "Inalum takes 51%; divestment era"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Inalum and MIND ID",
+      "type": "public",
+      "role": "Mining holding",
+      "regionOfActivity": "Jakarta",
+      "description": "Asahan-aluminium lineage holding state mineral stakes.",
+      "events": [
+        {
+          "date": "1976-01-06",
+          "category": "birth",
+          "description": "Inalum joint venture with Japanese consortium"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "founding",
+          "description": "MIND ID holding formed"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Semen Indonesia",
+      "type": "hybrid",
+      "role": "Cement group",
+      "regionOfActivity": "Jakarta",
+      "description": "Gresik-state cement multinational.",
+      "events": [
+        {
+          "date": "1957-08-07",
+          "category": "birth",
+          "description": "Semen Gresik founded"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "founding",
+          "description": "Holding merger forms Semen Indonesia Group"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Indofood",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Jakarta",
+      "description": "Salim-group noodle empire.",
+      "events": [
+        {
+          "date": "1968-01-01",
+          "category": "birth",
+          "description": "Sarimi-flour era; Indofood brand 1990"
+        },
+        {
+          "date": "1994-07-14",
+          "category": "milestone",
+          "description": "Listing"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Sinar Mas lineage",
+      "type": "private",
+      "role": "Conglomerate history",
+      "regionOfActivity": "Jakarta",
+      "description": "Widjaja-group pulp, property and finance empire.",
+      "events": [
+        {
+          "date": "1938-01-01",
+          "category": "birth",
+          "description": "Oei Ek Tjhong trading era begins"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "expansion",
+          "description": "APP pulp expansion in Sumatra"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "transformation",
+          "description": "Crisis debt restructuring era"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Astra International",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Jakarta",
+      "description": "Shoe-trader turned Toyota-assembly and finance group.",
+      "events": [
+        {
+          "date": "1957-02-20",
+          "category": "birth",
+          "description": "Astra founded"
+        },
+        {
+          "date": "1990-04-04",
+          "category": "milestone",
+          "description": "Listing"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Lippo Group",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Jakarta",
+      "description": "Riady-group banking-property-healthcare empire.",
+      "events": [
+        {
+          "date": "1950-01-01",
+          "category": "birth",
+          "description": "Lippo trading era begins"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "expansion",
+          "description": "Lippo Karawaci township era"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "CT Corp",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Jakarta",
+      "description": "Salim-era financier turned Bank Mega and Trans media owner.",
+      "events": [
+        {
+          "date": "1987-01-01",
+          "category": "birth",
+          "description": "Para Group founded by Chairul Tanjung"
+        },
+        {
+          "date": "2011-09-01",
+          "category": "milestone",
+          "description": "CT Corp brand adopted"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Gojek and GoTo",
+      "type": "private",
+      "role": "Superapp group",
+      "regionOfActivity": "Jakarta",
+      "description": "Ojek-call-center turned decacorn superapp.",
+      "events": [
+        {
+          "date": "2010-01-01",
+          "category": "birth",
+          "description": "Gojek founded"
+        },
+        {
+          "date": "2022-04-11",
+          "category": "founding",
+          "description": "Tokopedia merger forms GoTo; listing follows"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Traveloka",
+      "type": "private",
+      "role": "Travel platform",
+      "regionOfActivity": "Jakarta",
+      "description": "Online travel unicorn.",
+      "events": [
+        {
+          "date": "2012-02-29",
+          "category": "birth",
+          "description": "Traveloka founded"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Bukalapak",
+      "type": "private",
+      "role": "E-commerce platform",
+      "regionOfActivity": "Jakarta",
+      "description": "MSME marketplace listed in Jakarta.",
+      "events": [
+        {
+          "date": "2010-01-10",
+          "category": "birth",
+          "description": "Bukalapak founded"
+        },
+        {
+          "date": "2021-08-06",
+          "category": "milestone",
+          "description": "IDX listing raises $1.5B"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Universitas Indonesia",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Depok",
+      "description": "Colonial medical-law schools turned national university.",
+      "events": [
+        {
+          "date": "1851-01-01",
+          "category": "birth",
+          "description": "Dokter-Djawa School founded"
+        },
+        {
+          "date": "1950-02-02",
+          "category": "founding",
+          "description": "Universiteit Indonesia chartered"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Gadjah Mada University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Yogyakarta",
+      "description": "Revolutionary-era national university.",
+      "events": [
+        {
+          "date": "1949-12-19",
+          "category": "birth",
+          "description": "UGM founded"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Bandung Institute of Technology",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Bandung",
+      "description": "1920 Technische Hoogeschool turned research institute.",
+      "events": [
+        {
+          "date": "1920-07-03",
+          "category": "birth",
+          "description": "Technische Hoogeschool te Bandoeng opens"
+        },
+        {
+          "date": "1959-03-02",
+          "category": "founding",
+          "description": "ITB name adopted"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "LIPI and BRIN lineage",
+      "type": "public",
+      "role": "Research agencies",
+      "regionOfActivity": "Jakarta",
+      "description": "1967 research council consolidated into BRIN 2021.",
+      "events": [
+        {
+          "date": "1967-08-23",
+          "category": "birth",
+          "description": "LIPI founded"
+        },
+        {
+          "date": "2021-09-01",
+          "category": "transformation",
+          "description": "BRIN absorbs LIPI, LAPAN, BPPT and BATAN"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Kompas Gramedia",
+      "type": "private",
+      "role": "Media group",
+      "regionOfActivity": "Jakarta",
+      "description": "Catholic-magazine lineage turned multimedia group.",
+      "events": [
+        {
+          "date": "1963-06-28",
+          "category": "birth",
+          "description": "Intisari magazine founded; Kompas daily 1965"
+        },
+        {
+          "date": "1971-01-01",
+          "category": "expansion",
+          "description": "Gramedia bookstores and publishing scale"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Tempo",
+      "type": "private",
+      "role": "News magazine",
+      "regionOfActivity": "Jakarta",
+      "description": "Banned-then-reborn investigative weekly.",
+      "events": [
+        {
+          "date": "1971-03-06",
+          "category": "birth",
+          "description": "Tempo founded"
+        },
+        {
+          "date": "1994-06-21",
+          "category": "policy",
+          "description": "New Order bans the magazine"
+        },
+        {
+          "date": "1998-10-06",
+          "category": "founding",
+          "description": "Post-Suharto relaunch"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "TVRI",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Jakarta",
+      "description": "State television of the Games era.",
+      "events": [
+        {
+          "date": "1962-08-24",
+          "category": "birth",
+          "description": "TVRI launches for the Asian Games"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Nahdlatul Ulama",
+      "type": "hybrid",
+      "role": "Islamic organization",
+      "regionOfActivity": "Jakarta",
+      "description": "Traditionalist mass Muslim organization.",
+      "events": [
+        {
+          "date": "1926-01-31",
+          "category": "birth",
+          "description": "NU founded in Surabaya"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Muhammadiyah",
+      "type": "hybrid",
+      "role": "Islamic organization",
+      "regionOfActivity": "Yogyakarta",
+      "description": "Modernist Muslim movement running universities and hospitals.",
+      "events": [
+        {
+          "date": "1912-11-18",
+          "category": "birth",
+          "description": "Muhammadiyah founded"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "KADIN",
+      "type": "private",
+      "role": "Business chamber",
+      "regionOfActivity": "Jakarta",
+      "description": "New Order corporatist business peak body.",
+      "events": [
+        {
+          "date": "1968-09-24",
+          "category": "birth",
+          "description": "KADIN founded"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Serikat Pekerja lineage unions",
+      "type": "private",
+      "role": "Labor history",
+      "regionOfActivity": "Jakarta",
+      "description": "Fragmented post-Suharto union landscape.",
+      "events": [
+        {
+          "date": "1973-02-20",
+          "category": "birth",
+          "description": "FBSI corporatist central founded"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "transformation",
+          "description": "Reformasi union-pluralism era"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Pos Indonesia",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Jakarta",
+      "description": "1746 Batavia post lineage in logistics.",
+      "events": [
+        {
+          "date": "1746-08-26",
+          "category": "birth",
+          "description": "Batavia post office established"
+        },
+        {
+          "date": "1995-06-06",
+          "category": "transformation",
+          "description": "Persero status granted"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Krakatau Steel",
+      "type": "hybrid",
+      "role": "Steel producer",
+      "regionOfActivity": "Cilegon",
+      "description": "Trikora-era flagship mill.",
+      "events": [
+        {
+          "date": "1970-08-31",
+          "category": "birth",
+          "description": "PT Krakatau Steel incorporated"
+        },
+        {
+          "date": "2010-11-10",
+          "category": "transformation",
+          "description": "Listing completes"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Bank Central Asia",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Jakarta",
+      "description": "Salim-group bank turned Djarum-controlled leader.",
+      "events": [
+        {
+          "date": "1955-01-01",
+          "category": "birth",
+          "description": "NV Perseroan Dagang Dan Industrie Semarang Knitting Factory era; bank charter 1955"
+        },
+        {
+          "date": "1998-05-29",
+          "category": "transformation",
+          "description": "IBRA takeover; Djarum group wins 2002 bid"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Gudang Garam",
+      "type": "private",
+      "role": "Kretek maker",
+      "regionOfActivity": "Kediri",
+      "description": "Tjoa-family clove-cigarette giant.",
+      "events": [
+        {
+          "date": "1958-06-26",
+          "category": "birth",
+          "description": "Gudang Garam founded"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Djarum",
+      "type": "private",
+      "role": "Kretek group",
+      "regionOfActivity": "Kudus",
+      "description": "Hartono-family cigarette and banking empire.",
+      "events": [
+        {
+          "date": "1951-04-21",
+          "category": "birth",
+          "description": "Djarum Gramophon founded"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Kalbe Farma",
+      "type": "private",
+      "role": "Pharmaceutical group",
+      "regionOfActivity": "Jakarta",
+      "description": "Boenyamin-family drugmaker.",
+      "events": [
+        {
+          "date": "1966-09-10",
+          "category": "birth",
+          "description": "Kalbe Farma founded"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Sampoerna",
+      "type": "private",
+      "role": "Kretek maker",
+      "regionOfActivity": "Surabaya",
+      "description": "Liem-family Dji Sam Soe house inside Philip Morris.",
+      "events": [
+        {
+          "date": "1913-01-01",
+          "category": "birth",
+          "description": "Sampoerna founded"
+        },
+        {
+          "date": "2005-03-15",
+          "category": "transformation",
+          "description": "Philip Morris takeover"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Mayora",
+      "type": "private",
+      "role": "Food group",
+      "regionOfActivity": "Jakarta",
+      "description": "Kopiko and Roma-biscuit maker.",
+      "events": [
+        {
+          "date": "1948-01-01",
+          "category": "birth",
+          "description": "Mayora predecessor biscuit factory founded"
+        }
+      ]
+    }
+  ]
+}

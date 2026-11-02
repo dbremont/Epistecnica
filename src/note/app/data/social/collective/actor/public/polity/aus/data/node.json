@@ -1,0 +1,107 @@
+{
+  "id": "aus",
+  "name": "Australia",
+  "tags": [
+    "Oceania",
+    "Federation",
+    "Commonwealth Realm",
+    "Resource Exporter",
+    "Services Economy",
+    "Indo-Pacific Anchor"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Australia is a federal parliamentary constitutional monarchy and the only country that is also a continent. A resource-exporting powerhouse deeply tied to Indo-Pacific demand, it combines mining and agriculture with advanced services, education exports and a large pension-capital pool. Six states and two territories share power under a stable federal system.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Australia",
+    "flagEmoji": "🇦🇺",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "27 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 27000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 1.8 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1800000000000
+      },
+      {
+        "id": "area",
+        "value": "7,692,024 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 7692024
+      },
+      {
+        "id": "capital",
+        "value": "Canberra",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Parliamentary Constitutional Monarchy",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Australia's actor space from colonial pastoral companies and gold-rush banks through tariff-era manufacturers to diversified miners, Big Four banks, and superannuation asset owners.",
+        "link": "rep/actor.html?code=aus"
+      },
+      {
+        "id": "mining_export_corridors",
+        "type": "Network",
+        "status": "pending",
+        "title": "Mining Export Corridor Network",
+        "description": "Network analysis of Pilbara iron ore, Bowen Basin coal and LNG trains flowing through dedicated rail-port corridors to Asian steel mills and utilities.",
+        "link": null
+      },
+      {
+        "id": "state_territory",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "State and Territory Federal Structure",
+        "description": "Geospatial representation of six states and two territories, GST redistribution, and the coastal concentration of population against an empty interior.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "AUS",
+      "region": "Oceania",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

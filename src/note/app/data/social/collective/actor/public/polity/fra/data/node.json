@@ -1,0 +1,107 @@
+{
+  "id": "fra",
+  "name": "France",
+  "tags": [
+    "Western Europe",
+    "European Union",
+    "Eurozone",
+    "Semi-Presidential Republic",
+    "Nuclear Energy",
+    "Aerospace and Luxury"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "France is a unitary semi-presidential republic and the European Union's second-largest economy. Combining a strong central state with global cultural influence, it leads in aerospace, luxury goods, nuclear energy and agriculture. EU integration, high public investment and a large welfare state shape its coordinated market economy.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "France / République française",
+    "flagEmoji": "🇫🇷",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "68.4 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 68400000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 3.2 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 3200000000000
+      },
+      {
+        "id": "area",
+        "value": "551,695 km² (metropolitan)",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 551695
+      },
+      {
+        "id": "capital",
+        "value": "Paris",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Unitary Semi-Presidential Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of France's actor space from royal manufactures and Napoleonic administration through postwar planning commissions and national champions to EU-embedded regulators and CAC 40 groups.",
+        "link": "rep/actor.html?code=fra"
+      },
+      {
+        "id": "aerospace_luxury_chains",
+        "type": "Network",
+        "status": "pending",
+        "title": "Aerospace and Luxury Value Chains",
+        "description": "Network analysis of aircraft assembly, defense procurement, and luxury conglomerates linking provincial production basins to Parisian finance and global retail.",
+        "link": null
+      },
+      {
+        "id": "metro_regional",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Metropolitan-Regional Structure",
+        "description": "Geospatial representation of metropolitan France's regions, high-speed rail radials, nuclear fleet siting, and the Paris-province economic gradient.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "FRA",
+      "region": "Western Europe",
+      "lastRevised": "2026-09-20",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "naturgnosis",
+    "imported": "2026-09-20"
+  },
+  "references": []
+}

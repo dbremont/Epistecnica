@@ -1,0 +1,7 @@
+---
+tags: [unfinished]
+---
+# Authority
+
+> ...
+

@@ -1,0 +1,106 @@
+{
+  "id": "gbr",
+  "name": "England",
+  "tags": [
+    "United Kingdom",
+    "Western Europe",
+    "Industrial Revolution",
+    "Common Law",
+    "Maritime Power",
+    "Financial Center"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "England is a constituent country of the United Kingdom located in Western Europe. It was the core territorial and institutional base of the early modern English state and later the British Empire. England played a central role in the Industrial Revolution, the development of parliamentary governance, common law traditions, and the formation of modern financial and industrial capitalism.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "England",
+    "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "56 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 56000000
+      },
+      {
+        "id": "area",
+        "value": "130,279 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 130279
+      },
+      {
+        "id": "capital",
+        "value": "London",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "sovereign_state",
+        "value": "United Kingdom",
+        "label": "Sovereign State",
+        "hasIndicator": false
+      },
+      {
+        "id": "legal_tradition",
+        "value": "Common Law",
+        "label": "Legal Tradition",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal analysis of England’s evolving actor space from medieval monarchy and landed aristocracy to industrial capitalists, financial institutions, parliamentary structures, and modern regulatory bodies.",
+        "link": "rep/actor.html?code=grb"
+      },
+      {
+        "id": "industrial_transformation",
+        "type": "Temporal",
+        "status": "pending",
+        "title": "Industrial Transformation Dynamics",
+        "description": "Structured timeline of England’s transition from agrarian economy to industrial capitalism, including textile mechanization, coal-energy systems, rail infrastructure, and urbanization.",
+        "link": null
+      },
+      {
+        "id": "financial_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Financial and Commercial Network Structure",
+        "description": "Network representation of merchant banks, trading companies, insurance markets, and global commercial linkages centered in London.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "ENG",
+      "region": "Western Europe",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

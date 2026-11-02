@@ -1,0 +1,905 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of South Korean actors (organizations and institutions) since 1400.",
+    "country": "South Korea",
+    "region": "East Asia",
+    "flag": "🇰🇷",
+    "introduction": "A granular representation of the evolution of key actors within the social region of South Korea. This dataset traces the formation, transformation, and significant milestones of dynastic, colonial, and developmental entities, from Joseon bureaucracy to chaebol and cultural exporters.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Joseon dynasty state",
+      "type": "public",
+      "role": "Dynastic order",
+      "regionOfActivity": "Seoul",
+      "description": "Confucian bureaucracy ruling Korea to 1910.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Taejong consolidates royal authority; civil-service order matures"
+        },
+        {
+          "date": "1446-01-01",
+          "category": "technical",
+          "description": "Hangul promulgated"
+        },
+        {
+          "date": "1910-08-29",
+          "category": "death",
+          "description": "Annexation treaty ends the dynasty"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Japanese Government-General",
+      "type": "public",
+      "role": "Colonial administration",
+      "regionOfActivity": "Seoul",
+      "description": "1910-1945 colonial state industrializing the peninsula.",
+      "events": [
+        {
+          "date": "1910-08-29",
+          "category": "birth",
+          "description": "Government-General established"
+        },
+        {
+          "date": "1945-08-15",
+          "category": "death",
+          "description": "Liberation ends colonial rule"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Republic of Korea state",
+      "type": "public",
+      "role": "Constitutional order",
+      "regionOfActivity": "Seoul",
+      "description": "1948 republic through developmental and democratic eras.",
+      "events": [
+        {
+          "date": "1948-08-15",
+          "category": "birth",
+          "description": "Republic proclaimed"
+        },
+        {
+          "date": "1961-05-16",
+          "category": "transformation",
+          "description": "Military coup opens the developmental era"
+        },
+        {
+          "date": "1987-06-29",
+          "category": "founding",
+          "description": "Democratization declaration; Sixth Republic follows"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Bank of Korea",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Seoul",
+      "description": "1950-founded inflation-targeting bank.",
+      "events": [
+        {
+          "date": "1950-06-12",
+          "category": "birth",
+          "description": "Bank of Korea Act creates the bank"
+        },
+        {
+          "date": "1998-04-01",
+          "category": "transformation",
+          "description": "Independence act passed"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Shinhan Financial Group",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Seoul",
+      "description": "1982 Hanil-lineage bank grown by Chohung merger.",
+      "events": [
+        {
+          "date": "1982-07-07",
+          "category": "birth",
+          "description": "Shinhan Bank founded"
+        },
+        {
+          "date": "2003-08-01",
+          "category": "founding",
+          "description": "Chohung merger forms the group"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "KB Financial Group",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Seoul",
+      "description": "Housing-bank lineage leading domestic credit.",
+      "events": [
+        {
+          "date": "1963-04-01",
+          "category": "birth",
+          "description": "Korea Housing Bank founded"
+        },
+        {
+          "date": "2001-04-02",
+          "category": "founding",
+          "description": "Kookmin-Housing merger forms KB"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Hana Financial Group",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Seoul",
+      "description": "1971 Korea Investment Finance lineage.",
+      "events": [
+        {
+          "date": "1971-07-01",
+          "category": "birth",
+          "description": "Korea Investment Finance founded"
+        },
+        {
+          "date": "2005-12-01",
+          "category": "founding",
+          "description": "Hana holding formed; KEB merger 2015"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Korea Development Bank",
+      "type": "public",
+      "role": "Policy bank",
+      "regionOfActivity": "Seoul",
+      "description": "1954 industrial-finance engine of the developmental state.",
+      "events": [
+        {
+          "date": "1954-04-01",
+          "category": "birth",
+          "description": "KDB Act creates the bank"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Samsung Electronics",
+      "type": "private",
+      "role": "Technology conglomerate",
+      "regionOfActivity": "Suwon",
+      "description": "Noodle-trader turned semiconductor-smartphone leader.",
+      "events": [
+        {
+          "date": "1938-03-01",
+          "category": "birth",
+          "description": "Samsung Sanghoe founded in Daegu"
+        },
+        {
+          "date": "1969-01-13",
+          "category": "founding",
+          "description": "Samsung Electronics established"
+        },
+        {
+          "date": "1992-08-01",
+          "category": "technical",
+          "description": "World's top DRAM maker era begins"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "SK hynix",
+      "type": "private",
+      "role": "Chipmaker",
+      "regionOfActivity": "Icheon",
+      "description": "Hyundai Electronics lineage in memory.",
+      "events": [
+        {
+          "date": "1983-01-01",
+          "category": "birth",
+          "description": "Hyundai Electronics founded"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "founding",
+          "description": "Hynix spin-off; SK takeover 2012"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Hyundai Motor",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Seoul",
+      "description": "Construction-firm spinoff grown into a top global carmaker.",
+      "events": [
+        {
+          "date": "1967-12-29",
+          "category": "birth",
+          "description": "Hyundai Motor Company founded"
+        },
+        {
+          "date": "1975-12-01",
+          "category": "technical",
+          "description": "Pony, first Korean car, launched"
+        },
+        {
+          "date": "1998-12-01",
+          "category": "expansion",
+          "description": "Kia takeover"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Kia",
+      "type": "private",
+      "role": "Automaker",
+      "regionOfActivity": "Seoul",
+      "description": "Bicycle-parts maker inside Hyundai Motor Group.",
+      "events": [
+        {
+          "date": "1944-12-11",
+          "category": "birth",
+          "description": "Kyungsung Precision founded"
+        },
+        {
+          "date": "1974-10-01",
+          "category": "technical",
+          "description": "Brisa passenger car launched"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "LG Electronics",
+      "type": "private",
+      "role": "Electronics group",
+      "regionOfActivity": "Seoul",
+      "description": "GoldStar plastics lineage in displays and appliances.",
+      "events": [
+        {
+          "date": "1958-01-05",
+          "category": "birth",
+          "description": "GoldStar founded"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "milestone",
+          "description": "LG brand adopted group-wide"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "POSCO",
+      "type": "hybrid",
+      "role": "Steel producer",
+      "regionOfActivity": "Pohang",
+      "description": "Trial-mill project turned world-class steelmaker.",
+      "events": [
+        {
+          "date": "1968-04-01",
+          "category": "birth",
+          "description": "Pohang Iron and Steel founded"
+        },
+        {
+          "date": "1973-07-03",
+          "category": "technical",
+          "description": "First blast furnace blown in"
+        },
+        {
+          "date": "2000-10-04",
+          "category": "transformation",
+          "description": "Full privatization completed"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Hyundai Heavy Industries",
+      "type": "private",
+      "role": "Shipbuilder",
+      "regionOfActivity": "Ulsan",
+      "description": "1972 yard grown into the world's largest shipbuilder.",
+      "events": [
+        {
+          "date": "1972-03-23",
+          "category": "birth",
+          "description": "Hyundai Shipbuilding founded"
+        },
+        {
+          "date": "2019-06-01",
+          "category": "founding",
+          "description": "KSOE holding formed; Hanwha Ocean era follows 2023"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "KEPCO",
+      "type": "hybrid",
+      "role": "Electric utility",
+      "regionOfActivity": "Naju",
+      "description": "Three-company merger dominating generation and grid.",
+      "events": [
+        {
+          "date": "1961-07-01",
+          "category": "birth",
+          "description": "Korea Electric Company formed"
+        },
+        {
+          "date": "1982-01-01",
+          "category": "founding",
+          "description": "KEPCO integrated structure"
+        },
+        {
+          "date": "2001-04-02",
+          "category": "transformation",
+          "description": "Generation split into six gencos"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Korea Gas Corporation",
+      "type": "public",
+      "role": "Gas utility",
+      "regionOfActivity": "Daegu",
+      "description": "LNG importer underpinning the gas grid.",
+      "events": [
+        {
+          "date": "1983-01-01",
+          "category": "birth",
+          "description": "KOGAS founded"
+        },
+        {
+          "date": "1986-10-01",
+          "category": "technical",
+          "description": "Pyeongtaek LNG terminal commissioned"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Korean Air",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Seoul",
+      "description": "Hanjin-acquired flag carrier merging Asiana.",
+      "events": [
+        {
+          "date": "1969-03-01",
+          "category": "birth",
+          "description": "Korean Air Lines privatized to Hanjin"
+        },
+        {
+          "date": "2024-12-12",
+          "category": "expansion",
+          "description": "Asiana merger completes"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Korail",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Daejeon",
+      "description": "1905 railway lineage running the KTX network.",
+      "events": [
+        {
+          "date": "1899-09-18",
+          "category": "birth",
+          "description": "Gyeongin line opens"
+        },
+        {
+          "date": "2004-04-01",
+          "category": "technical",
+          "description": "KTX high-speed service launches"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "KT Corporation",
+      "type": "private",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Seongnam",
+      "description": "Ministry-lineage carrier privatized.",
+      "events": [
+        {
+          "date": "1981-12-10",
+          "category": "birth",
+          "description": "Korea Telecom Authority created"
+        },
+        {
+          "date": "2002-05-20",
+          "category": "transformation",
+          "description": "Full privatization completed"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "SK Telecom",
+      "type": "private",
+      "role": "Mobile operator",
+      "regionOfActivity": "Seoul",
+      "description": "Korea Mobile Telecom lineage leading 5G.",
+      "events": [
+        {
+          "date": "1984-03-29",
+          "category": "birth",
+          "description": "Korea Mobile Telecommunications founded"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "transformation",
+          "description": "SK takeover"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Naver",
+      "type": "private",
+      "role": "Internet platform",
+      "regionOfActivity": "Seongnam",
+      "description": "Search-engine champion turned commerce-fintech group.",
+      "events": [
+        {
+          "date": "1999-06-02",
+          "category": "birth",
+          "description": "Naver Com launched"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "expansion",
+          "description": "Line merger era; LY merger 2019"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Kakao",
+      "type": "private",
+      "role": "Superapp group",
+      "regionOfActivity": "Jeju",
+      "description": "Messaging app grown into bank-taxi-commerce empire.",
+      "events": [
+        {
+          "date": "2010-03-29",
+          "category": "birth",
+          "description": "KakaoTalk released"
+        },
+        {
+          "date": "2014-10-01",
+          "category": "founding",
+          "description": "Daum merger forms Daum Kakao"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Coupang",
+      "type": "private",
+      "role": "E-commerce group",
+      "regionOfActivity": "Seoul",
+      "description": "Rocket-dawn delivery platform listed in New York.",
+      "events": [
+        {
+          "date": "2010-08-10",
+          "category": "birth",
+          "description": "Coupang founded"
+        },
+        {
+          "date": "2021-03-11",
+          "category": "milestone",
+          "description": "NYSE listing raises $4.6B"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "HYBE",
+      "type": "private",
+      "role": "Entertainment group",
+      "regionOfActivity": "Seoul",
+      "description": "BTS label turned multi-label platform.",
+      "events": [
+        {
+          "date": "2005-02-01",
+          "category": "birth",
+          "description": "Big Hit Entertainment founded"
+        },
+        {
+          "date": "2020-10-15",
+          "category": "milestone",
+          "description": "IPO values the label"
+        },
+        {
+          "date": "2021-03-30",
+          "category": "transformation",
+          "description": "HYBE rebrand"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "CJ Group",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Seoul",
+      "description": "Samsung sugar-flour spinoff in food, bio and entertainment.",
+      "events": [
+        {
+          "date": "1953-08-01",
+          "category": "birth",
+          "description": "Cheil Jedang founded inside Samsung"
+        },
+        {
+          "date": "1993-01-01",
+          "category": "transformation",
+          "description": "CJ independence from Samsung"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Lotte Group",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Seoul",
+      "description": "Chewing-gum startup spanning retail and chemicals.",
+      "events": [
+        {
+          "date": "1948-06-28",
+          "category": "birth",
+          "description": "Lotte founded in Tokyo; Korean expansion 1967"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Hanwha Group",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Seoul",
+      "description": "Explosives maker turned defense-solar-finance group.",
+      "events": [
+        {
+          "date": "1952-01-01",
+          "category": "birth",
+          "description": "Korea Explosives founded"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "GS Group",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Seoul",
+      "description": "LG-split energy-retail-construction group.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "GS Holdings split from LG"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Korea Exchange",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "Busan",
+      "description": "KOSPI-KOSDAQ merger under one roof.",
+      "events": [
+        {
+          "date": "1956-03-03",
+          "category": "birth",
+          "description": "Korea Stock Exchange opens"
+        },
+        {
+          "date": "2005-01-19",
+          "category": "founding",
+          "description": "KRX merger forms the exchange"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Seoul National University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Seoul",
+      "description": "Gyeongseong Imperial University refounded as national flagship.",
+      "events": [
+        {
+          "date": "1895-01-01",
+          "category": "birth",
+          "description": "Keijo Medical roots; imperial university 1924"
+        },
+        {
+          "date": "1946-08-22",
+          "category": "founding",
+          "description": "Seoul National University chartered"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "KAIST",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Daejeon",
+      "description": "Park-era graduate institute seeding the science town.",
+      "events": [
+        {
+          "date": "1971-02-16",
+          "category": "birth",
+          "description": "KAIST founded"
+        },
+        {
+          "date": "1989-01-01",
+          "category": "expansion",
+          "description": "Daedeok campus era"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "ETRI",
+      "type": "public",
+      "role": "Electronics research institute",
+      "regionOfActivity": "Daejeon",
+      "description": "Switching-system R&D behind TDX and CDMA.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "ETRI formed from KETRI lineage"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "technical",
+          "description": "CDMA commercialization transfers to industry"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "KBS",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Seoul",
+      "description": "Licence-fee radio-television institution.",
+      "events": [
+        {
+          "date": "1927-02-16",
+          "category": "birth",
+          "description": "Gyeongseong Broadcasting starts"
+        },
+        {
+          "date": "1961-12-31",
+          "category": "milestone",
+          "description": "Television service launches"
+        },
+        {
+          "date": "1973-03-24",
+          "category": "founding",
+          "description": "KBS public-corporation status"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "MBC",
+      "type": "hybrid",
+      "role": "Commercial-public broadcaster",
+      "regionOfActivity": "Seoul",
+      "description": "Foundation-owned commercial network.",
+      "events": [
+        {
+          "date": "1961-12-02",
+          "category": "birth",
+          "description": "MBC radio launches; television 1969"
+        },
+        {
+          "date": "1988-12-26",
+          "category": "transformation",
+          "description": "Foundation ownership settled"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "FKTU",
+      "type": "private",
+      "role": "Labor federation",
+      "regionOfActivity": "Seoul",
+      "description": "1961 corporatist central turned democratic federation.",
+      "events": [
+        {
+          "date": "1961-01-01",
+          "category": "birth",
+          "description": "FKTU predecessor founded"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "transformation",
+          "description": "Democratic reorganization era"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "FKI",
+      "type": "private",
+      "role": "Business lobby",
+      "regionOfActivity": "Seoul",
+      "description": "Chaebol peak body of the developmental era.",
+      "events": [
+        {
+          "date": "1961-07-19",
+          "category": "birth",
+          "description": "Federation of Korean Industries founded"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Korea Post",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Sejong",
+      "description": "1884 postal roots in logistics and banking.",
+      "events": [
+        {
+          "date": "1884-11-18",
+          "category": "birth",
+          "description": "Postal administration founded"
+        },
+        {
+          "date": "2000-07-01",
+          "category": "transformation",
+          "description": "Korea Post office established"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Hyundai Steel",
+      "type": "private",
+      "role": "Steel producer",
+      "regionOfActivity": "Incheon",
+      "description": "Scrap-mill lineage integrated into blast furnaces.",
+      "events": [
+        {
+          "date": "1953-06-10",
+          "category": "birth",
+          "description": "Korea Iron and Steel founded"
+        },
+        {
+          "date": "2010-01-08",
+          "category": "technical",
+          "description": "Dangjin blast furnace blown in"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "LG Chem",
+      "type": "private",
+      "role": "Chemicals group",
+      "regionOfActivity": "Seoul",
+      "description": "Lucky-Honam refinery lineage in batteries and materials.",
+      "events": [
+        {
+          "date": "1947-01-05",
+          "category": "birth",
+          "description": "Lak-Hui Chemical founded"
+        },
+        {
+          "date": "2020-12-01",
+          "category": "transformation",
+          "description": "LG Energy Solution split off"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "NCSOFT",
+      "type": "private",
+      "role": "Game developer",
+      "regionOfActivity": "Seongnam",
+      "description": "Lineage-MMORPG pioneer.",
+      "events": [
+        {
+          "date": "1997-03-11",
+          "category": "birth",
+          "description": "NCSOFT founded"
+        },
+        {
+          "date": "1998-09-01",
+          "category": "technical",
+          "description": "Lineage launched"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Nexon",
+      "type": "private",
+      "role": "Game developer",
+      "regionOfActivity": "Seongnam",
+      "description": "MapleStory publisher turned Tokyo-listed group.",
+      "events": [
+        {
+          "date": "1994-12-01",
+          "category": "birth",
+          "description": "Nexon founded"
+        },
+        {
+          "date": "2011-12-14",
+          "category": "milestone",
+          "description": "Tokyo listing"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Celltrion",
+      "type": "private",
+      "role": "Biopharma group",
+      "regionOfActivity": "Incheon",
+      "description": "Biosimilar pioneer of Songdo biocluster.",
+      "events": [
+        {
+          "date": "2002-02-27",
+          "category": "birth",
+          "description": "Celltrion founded"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Toss and Viva Republica",
+      "type": "private",
+      "role": "Fintech group",
+      "regionOfActivity": "Seoul",
+      "description": "P2P-transfer startup turned superapp bank.",
+      "events": [
+        {
+          "date": "2013-04-08",
+          "category": "birth",
+          "description": "Viva Republica founded"
+        },
+        {
+          "date": "2021-06-09",
+          "category": "expansion",
+          "description": "Toss Bank launched"
+        }
+      ]
+    }
+  ]
+}

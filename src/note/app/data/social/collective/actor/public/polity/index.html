@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas</title>
+<link rel="icon" href="/img/favicon.ico">
+<script>
+(function () {
+  var t = null;
+  try { t = localStorage.getItem("naturgnosis-theme"); } catch (e) {}
+  document.documentElement.dataset.theme = (t === "light") ? "light" : "dark";
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Oxford Common Room tokens — keep identical to app/shared/theme.css
+       (plus note-specific extras below). */
+    --bg-void: #0b0e14;
+    --bg-surface: #11151e;
+    --bg-card: #161b26;
+    --bg-elevated: #1d2330;
+    --bg-hover: rgba(255, 255, 255, 0.04);
+    --gilt: #C4B998;
+    --parchment: #D6D1C4;
+    --thread: #4a4a4a;
+    --text-primary: #f4f3f1;
+    --text-secondary: #a8a5b0;
+    --text-muted: #9290aa;
+    --text-ghost: #82809a;
+    --accent-copper: #c9956c;
+    --accent-copper-light: #dbb08a;
+    --accent-sage: #7ba388;
+    --accent-plum: #9b7eb0;
+    --accent-rose: #c47d8a;
+    --accent-amber: #d4a857;
+    --accent-steel: #6b8caa;
+    --accent-gold: #c9956c;
+    --accent-gold-dim: rgba(201, 149, 108, 0.14);
+    --accent-cyan: #4dd4c4;
+    --accent-cyan-dim: rgba(77, 212, 196, 0.1);
+    --border-subtle: rgba(255, 255, 255, 0.05);
+    --border-medium: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.12);
+    --radius-sm: 5px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
+    --card-bg: rgba(22, 27, 38, 0.72);
+    --nav-bg: rgba(11, 14, 20, 0.85);
+    --footer-bg: rgba(11, 14, 20, 0.7);
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html[data-theme="light"] {
+    --bg-void: #f5f2ea;
+    --bg-surface: #efe9dc;
+    --bg-card: #fffdf8;
+    --bg-elevated: #ffffff;
+    --bg-hover: rgba(20, 22, 30, 0.04);
+    --gilt: #9a7b3f;
+    --parchment: #2b2620;
+    --thread: rgba(43, 38, 32, 0.25);
+    --text-primary: #1a1d24;
+    --text-secondary: #4a4f5e;
+    --text-muted: #5f6572;
+    --text-ghost: #63697a;
+    --accent-copper: #7c622f;
+    --accent-copper-light: #7a6132;
+    --accent-sage: #4e7a5e;
+    --accent-plum: #7a5f8c;
+    --accent-rose: #a55a68;
+    --accent-amber: #9a742f;
+    --accent-steel: #4e6e8c;
+    --accent-gold: #7c622f;
+    --accent-gold-dim: rgba(124, 98, 47, 0.12);
+    --accent-cyan: #0e7c72;
+    --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+    --border-subtle: rgba(20, 22, 30, 0.10);
+    --border-medium: rgba(20, 22, 30, 0.14);
+    --border-strong: rgba(20, 22, 30, 0.22);
+    --radius-sm: 5px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
+    --card-bg: rgba(255, 253, 248, 0.72);
+    --nav-bg: rgba(245, 242, 234, 0.85);
+    --footer-bg: rgba(245, 242, 234, 0.75);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; background: var(--bg-void); }
+
+  body {
+    background: var(--bg-void);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    transition: opacity 180ms ease;
+  }
+
+  html.theme-fading body { opacity: 0; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    body { transition: none; }
+  }
+
+  #ambientCanvas {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 0;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  /* ---------- chrome (as in note.html) ---------- */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--nav-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .nav-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.95rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+  }
+
+  .nav-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+
+  .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+  .nav-links { display: flex; gap: 1.2rem; }
+
+  .nav-links a {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover { color: var(--accent-cyan); }
+
+  .theme-toggle {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 0.45rem 0.75rem;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+  .layout {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 3.5rem;
+  }
+
+  header { padding-bottom: 0.5rem; }
+
+  .crumbs {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+  }
+
+  .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+  .crumbs a:hover { color: var(--accent-cyan); }
+  .crumbs .sep { margin: 0 0.5em; color: var(--text-muted); }
+  .crumbs .here { color: var(--accent-gold); }
+
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.1;
+  }
+
+  h1 em { font-style: italic; color: var(--accent-gold); }
+
+  .lede {
+    margin-top: 1.2rem;
+    max-width: 46rem;
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.7;
+    color: var(--text-secondary);
+  }
+
+  .lede strong { font-weight: 500; color: var(--text-primary); }
+  .lede a { color: var(--accent-cyan); text-decoration: none; border-bottom: 1px solid var(--border-subtle); }
+  .lede a:hover { border-bottom-color: var(--accent-cyan); }
+  .lede code {
+    font-family: var(--font-mono);
+    font-size: 0.82em;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 3px;
+    padding: 0.15em 0.4em;
+    color: var(--accent-cyan);
+  }
+
+  .toolbar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0 0.5rem;
+  }
+
+  #search {
+    flex: 1 1 16rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-medium);
+    color: var(--text-primary);
+    border-radius: var(--radius-md);
+    padding: 0.55rem 0.8rem 0.55rem 2rem;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%239290aa' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 0.6rem center;
+  }
+
+  html[data-theme="light"] #search {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235f6572' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+  }
+
+  #search:focus { outline: none; border-color: var(--accent-cyan); box-shadow: 0 0 0 3px var(--accent-cyan-dim); }
+
+  .flag-card:focus-visible, .theme-toggle:focus-visible, .nav-links a:focus-visible {
+    outline: 2px solid var(--accent-copper);
+    outline-offset: 2px;
+  }
+
+  .counts {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  h2 .counts {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: none;
+    color: var(--text-ghost);
+  }
+
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 1.55rem;
+    line-height: 1.25;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--border-subtle);
+    margin: 2.75rem 0 0.25rem;
+  }
+
+  h2 em { font-style: italic; color: var(--accent-gold); }
+
+  .section-desc { color: var(--text-muted); font-size: 0.85rem; margin: 0.75rem 0 1.2rem; }
+
+  .flags {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    gap: 0.7rem;
+  }
+
+  .flag-card {
+    display: block;
+    background: var(--card-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: 1rem 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .flag-card:hover { border-color: var(--accent-cyan); transform: translateY(-2px); }
+  .flag-card .flag { font-size: 2rem; line-height: 1.2; }
+  .flag-card .name {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-top: 0.4rem;
+  }
+  .flag-card .meta {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+  }
+  .flag-card.dim { border-style: dashed; }
+  .flag-card.dim .flag { font-size: 1.5rem; }
+  .flag-card.dim .name { color: var(--text-secondary); }
+  .flag-card.dim .meta { color: var(--text-muted); }
+
+  .empty { color: var(--text-muted); font-style: italic; padding: 2rem 0; }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid var(--border-subtle);
+    background: var(--footer-bg);
+  }
+
+  .foot-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .foot-inner a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+  .foot-inner a:hover { color: var(--accent-cyan); }
+
+  @media (max-width: 600px) {
+    .layout { padding: 1.75rem 1.25rem 3rem; }
+    .nav-inner, .foot-inner { padding-left: 1.25rem; padding-right: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+<canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../../../../../../web/index.html">Naturgnosis</a>
+    <div class="nav-right">
+      <div class="nav-links"><a href="../../../../../../web/index.html">Catalog</a></div>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="layout">
+<header>
+  <nav class="crumbs" aria-label="Breadcrumbs">
+    <a href="../../../../../../web/index.html">notes</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social">social</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/collective/actor/public">public</a><span class="sep">/</span><span class="here">Polity Index</span>
+  </nav>
+  <h1>Polity Index<em>.</em></h1>
+  <p class="lede" id="lede">The <strong>Polity Index</strong> serves as an entry point to a
+  curated collection of polities — a representative set selected for the systematic study of
+  <strong>collective agency</strong>, <strong>institutional arrangements</strong>, and
+  <strong>forms of social organization</strong>. Each polity has a dedicated space containing
+  visual representations and explanatory notes that support its examination, comparison, and
+  theoretical analysis. Together, these materials provide a foundation for investigating how
+  collective agency is organized and exercised across different political and institutional
+  contexts.</p>
+  <p class="lede" id="lede-cta"><strong>Select a flag to explore a polity.</strong></p>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search nations by name or code…" autocomplete="off" aria-label="Search nations">
+  </div>
+</header>
+
+<section id="flagSection">
+  <h2>Polity Set<em>.</em> <span class="counts" id="counts"></span></h2>
+  <p class="section-desc">Each card opens that polity's page.</p>
+  <div class="flags" id="flags"></div>
+</section>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div>Naturgnosis &middot; notes</div>
+    <a href="../../../../../../web/index.html">&larr; CATALOG</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  var state = { data: null, query: "" };
+
+  function $(sel) { return document.querySelector(sel); }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function polityHref(code) { return code + "/index.html"; }
+
+  /* ---------- theme toggle (as in note.html) ---------- */
+  var themeBtn = $("#themeToggle"), themeLabel = $("#themeLabel");
+  var themeFading = false;
+  function applyThemeLabel() {
+    themeLabel.textContent = document.documentElement.dataset.theme === "light" ? "DARK" : "LIGHT";
+  }
+  themeBtn.addEventListener("click", function () {
+    if (themeFading) return;
+    themeFading = true;
+    var root = document.documentElement;
+    var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var swap = function () {
+      root.dataset.theme = root.dataset.theme === "light" ? "dark" : "light";
+      try { localStorage.setItem("naturgnosis-theme", root.dataset.theme); } catch (e) {}
+      applyThemeLabel();
+      root.classList.remove("theme-fading");
+      themeFading = false;
+    };
+    if (reduced) { swap(); return; }
+    root.classList.add("theme-fading");
+    setTimeout(swap, 190);
+  });
+  applyThemeLabel();
+
+  /* ---------- ambient constellation (as in note.html) ---------- */
+  (function ambient() {
+    var canvas = document.getElementById("ambientCanvas");
+    if (!canvas) return;
+    var ctx = canvas.getContext("2d");
+    var pts = [];
+    var LINK_DIST = 130;
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      var count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
+      pts = [];
+      for (var i = 0; i < count; i++) {
+        pts.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+          vx: (Math.random() - 0.5) * 0.22, vy: (Math.random() - 0.5) * 0.22, r: Math.random() * 1.4 + 0.4 });
+      }
+    }
+    function tick() {
+      var light = document.documentElement.dataset.theme === "light";
+      var dotRGB = light ? "26, 29, 36" : "226, 228, 235";
+      var linkRGB = light ? "154, 123, 63" : "201, 149, 108";
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (var i = 0; i < pts.length; i++) {
+        var p = pts[i];
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(" + dotRGB + ", 0.5)";
+        ctx.fill();
+        for (var j = i + 1; j < pts.length; j++) {
+          var m = pts[j];
+          var dx = p.x - m.x, dy = p.y - m.y;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < LINK_DIST) {
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(m.x, m.y);
+            ctx.strokeStyle = "rgba(" + linkRGB + ", " + (0.10 * (1 - dist / LINK_DIST)) + ")";
+            ctx.lineWidth = 1;
+            ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(tick);
+    }
+    window.addEventListener("resize", resize);
+    resize();
+    requestAnimationFrame(tick);
+  })();
+
+  /* ---------- filtering ---------- */
+  function match(code, meta) {
+    if (!state.query) return true;
+    var q = state.query;
+    return code.indexOf(q) !== -1
+      || (meta.name || "").toLowerCase().indexOf(q) !== -1
+      || (meta.native || "").toLowerCase().indexOf(q) !== -1;
+  }
+
+  function render() {
+    var data = state.data;
+    var codes = Object.keys(data.codes);
+    var shown = codes.filter(function (c) { return match(c, data.codes[c]); });
+
+    $("#counts").textContent = shown.length + " / " + codes.length + " polities";
+
+    // flags: registry nations first (by name), then corpus-only dirs
+    var inReg = shown.filter(function (c) { return data.codes[c].has_node; })
+      .sort(function (a, b) { return data.codes[a].name.localeCompare(data.codes[b].name); });
+    var extra = shown.filter(function (c) { return !data.codes[c].has_node; }).sort();
+    var order = inReg.concat(extra);
+    $("#flags").innerHTML = order.length ? order.map(function (c) {
+      var m = data.codes[c];
+      var cls = "flag-card" + (m.has_node ? "" : " dim");
+      return '<a class="' + cls + '" href="' + esc(polityHref(c)) + '" title="' + esc(m.name) + '">' +
+        '<div class="flag">' + esc(m.flag) + '</div>' +
+        '<div class="name">' + esc(m.name) + '</div>' +
+        '<div class="meta">' + esc(c) + ' · ' +
+        (m.counts.explanation + m.counts.representation) + '</div></a>';
+    }).join("") : '<p class="empty">No polity matches.</p>';
+  }
+
+  /* ---------- init ---------- */
+  fetch("data.json", { cache: "no-cache" }).then(function (r) {
+    if (!r.ok) throw new Error("data.json unavailable (HTTP " + r.status + ")");
+    return r.json();
+  }).then(function (data) {
+    state.data = data;
+    var params = new URLSearchParams(window.location.search);
+    var code = (params.get("code") || "").toLowerCase();
+    if (code && data.codes[code]) {
+      $("#search").value = code;
+      state.query = code;
+    }
+    render();
+  }).catch(function (e) {
+    $("#counts").textContent = "manifest unavailable";
+    $("#flags").innerHTML = '<p class="empty">Could not load data.json (' +
+      esc(e.message) + ').</p>';
+  });
+
+  $("#search").addEventListener("input", function (e) {
+    state.query = e.target.value.trim().toLowerCase();
+    render();
+  });
+})();
+</script>
+</body>
+</html>

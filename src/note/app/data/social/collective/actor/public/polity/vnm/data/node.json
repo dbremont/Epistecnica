@@ -1,0 +1,107 @@
+{
+  "id": "vnm",
+  "name": "Vietnam",
+  "tags": [
+    "Southeast Asia",
+    "One-Party State",
+    "Emerging Economy",
+    "Rice Exporter",
+    "One-Party State",
+    "ASEAN"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Vietnam is a One-Party State polity located in Southeast Asia, bordered by China, Laos, and Cambodia, with an extensive coastline along the South China Sea. It operates under a one-party system led by the Communist Party of Vietnam. Historically shaped by Chinese rule, French colonization, and the Vietnam War, the country has transitioned into a rapidly growing emerging economy with key sectors including agriculture, manufacturing, electronics, and services. Institutional development and regulatory frameworks remain evolving, with strong state involvement in strategic economic sectors.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Việt Nam",
+    "flagEmoji": "🇻🇳",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "100.5 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 100500000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 450 billion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 450000000000
+      },
+      {
+        "id": "area",
+        "value": "331,212 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 331212
+      },
+      {
+        "id": "capital",
+        "value": "Hanoi",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Socialist Republic, One-Party State",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Vietnam’s political and economic actors, from traditional dynasties and colonial administration to socialist state structures, Doi Moi reforms, and contemporary governance institutions.",
+        "link": "rep/actor.html?code=vnm"
+      },
+      {
+        "id": "product_space",
+        "type": "Network",
+        "status": "pending",
+        "title": "Product Space Evolution",
+        "description": "Network analysis of rice, coffee, electronics, and manufacturing sectors, including trade linkages within ASEAN and global markets.",
+        "link": "pending.html?back=entry.html%3Fcode%3Dvnm"
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of provinces, major urban centers, transport infrastructure, and economic zones.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "VNM",
+      "region": "Southeast Asia",
+      "lastRevised": "2026-03-22",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

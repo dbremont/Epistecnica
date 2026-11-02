@@ -15,6 +15,10 @@ src/app/data/search-index.json
 src/app/graph/data/universal-graph.json
 src/app/graph/data/universal-layout.json
 src/note/app/data/technica/meta/atlas.json
+src/glossarium/app/data/index.json
+src/qa/app/data/qa-index.json
+src/app/data/index-status.json
+src/app/data/index-build.lock
 
 # OS / editor noise
 .DS_Store

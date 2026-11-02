@@ -1,0 +1,312 @@
+[
+  {
+    "desc": "Widest grouping: components and devices of the electronics field.",
+    "id": "cat-electronics",
+    "label": "Electronic Components & Devices",
+    "level": "category",
+    "parent": null
+  },
+  {
+    "desc": "Technical family: semiconductor substrates, logic, and memory.",
+    "id": "sub-semi-logic",
+    "label": "Semiconductor Base & Logic",
+    "level": "subcategory",
+    "parent": "cat-electronics"
+  },
+  {
+    "desc": "Class sharing silicon-substrate materiality.",
+    "id": "cls-substrates",
+    "label": "Substrates",
+    "level": "class",
+    "parent": "sub-semi-logic"
+  },
+  {
+    "desc": "Thin slices of semiconductor base material.",
+    "hs": "2804.61",
+    "id": "p001",
+    "label": "Silicon Wafers",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p001",
+    "parent": "cls-substrates",
+    "social": "p001"
+  },
+  {
+    "desc": "Class sharing computation and signal-processing use case.",
+    "id": "cls-intlogic",
+    "label": "Integrated Logic",
+    "level": "class",
+    "parent": "sub-semi-logic"
+  },
+  {
+    "desc": "Computation and signal-processing units.",
+    "hs": "8542.31",
+    "id": "p002",
+    "label": "Integrated Circuits",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p002",
+    "parent": "cls-intlogic",
+    "social": "p002"
+  },
+  {
+    "desc": "Control-logic execution units.",
+    "hs": "8542.31",
+    "id": "p004",
+    "label": "Microprocessors",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p004",
+    "parent": "cls-intlogic",
+    "social": "p004"
+  },
+  {
+    "desc": "Class sharing data-storage use case.",
+    "id": "cls-memory",
+    "label": "Memory",
+    "level": "class",
+    "parent": "sub-semi-logic"
+  },
+  {
+    "desc": "Data-storage and memory-buffering modules.",
+    "hs": "8542.32",
+    "id": "p005",
+    "label": "Memory Modules",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p005",
+    "parent": "cls-memory",
+    "social": "p005"
+  },
+  {
+    "desc": "Technical family: passive components and electrical interconnect.",
+    "id": "sub-pass-inter",
+    "label": "Passives & Interconnect",
+    "level": "subcategory",
+    "parent": "cat-electronics"
+  },
+  {
+    "desc": "Class sharing energy-storage and current-limitation use cases.",
+    "id": "cls-passives",
+    "label": "Passive Components",
+    "level": "class",
+    "parent": "sub-pass-inter"
+  },
+  {
+    "desc": "Energy-storage and signal-smoothing components.",
+    "hs": "8532.21",
+    "id": "p006",
+    "label": "Capacitors",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p006",
+    "parent": "cls-passives",
+    "social": "p006"
+  },
+  {
+    "desc": "Current-limitation and voltage-division components.",
+    "hs": "8533.21",
+    "id": "p007",
+    "label": "Resistors",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p007",
+    "parent": "cls-passives",
+    "social": "p007"
+  },
+  {
+    "desc": "Class sharing electrical-interconnect and mechanical-support use case.",
+    "id": "cls-intercon",
+    "label": "Interconnect",
+    "level": "class",
+    "parent": "sub-pass-inter"
+  },
+  {
+    "desc": "Electrical interconnect and mechanical support.",
+    "hs": "8534.00",
+    "id": "p003",
+    "label": "Printed Circuit Boards",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p003",
+    "parent": "cls-intercon",
+    "social": "p003"
+  },
+  {
+    "desc": "Widest grouping: finished computing devices for communication and productivity.",
+    "id": "cat-computing",
+    "label": "Computing End-Products",
+    "level": "category",
+    "parent": null
+  },
+  {
+    "desc": "Technical family: mobile and portable computing devices.",
+    "id": "sub-mob-port",
+    "label": "Mobile & Portable",
+    "level": "subcategory",
+    "parent": "cat-computing"
+  },
+  {
+    "desc": "Class sharing mobile-communication use case.",
+    "id": "cls-mobile",
+    "label": "Mobile Devices",
+    "level": "class",
+    "parent": "sub-mob-port"
+  },
+  {
+    "desc": "Communication and mobile-computing devices.",
+    "hs": "8517.12",
+    "id": "p008",
+    "label": "Smartphones",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p008",
+    "parent": "cls-mobile",
+    "social": "p008"
+  },
+  {
+    "desc": "Portable multifunctional computing and communication device. No HS code in Social Space.",
+    "hs": "",
+    "id": "N1",
+    "label": "Smartphone (N1)",
+    "level": "product",
+    "link": "../../../../../social/web/?node=N1",
+    "parent": "cls-mobile",
+    "social": "N1"
+  },
+  {
+    "desc": "Class sharing general-computing and content-consumption use case.",
+    "id": "cls-portcomp",
+    "label": "Portable Computing",
+    "level": "class",
+    "parent": "sub-mob-port"
+  },
+  {
+    "desc": "General-computing productivity platforms.",
+    "hs": "8471.30",
+    "id": "p009",
+    "label": "Laptops",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p009",
+    "parent": "cls-portcomp",
+    "social": "p009"
+  },
+  {
+    "desc": "Mobile-computing content-consumption devices.",
+    "hs": "8471.30",
+    "id": "p010",
+    "label": "Tablets",
+    "level": "product",
+    "link": "../../../../../social/web/?node=p010",
+    "parent": "cls-portcomp",
+    "social": "p010"
+  },
+  {
+    "desc": "Widest grouping: agricultural and food goods traded fresh and processed.",
+    "id": "cat-agrifood",
+    "label": "Agri-Food Goods",
+    "level": "category",
+    "parent": null
+  },
+  {
+    "desc": "Technical family: citrus, dairy, and fermented-beverage goods.",
+    "id": "sub-fdb",
+    "label": "Fresh, Dairy & Beverage",
+    "level": "subcategory",
+    "parent": "cat-agrifood"
+  },
+  {
+    "desc": "Class sharing fresh and processed citrus materiality.",
+    "id": "cls-citrus",
+    "label": "Citrus",
+    "level": "class",
+    "parent": "sub-fdb"
+  },
+  {
+    "desc": "Citrus fruit good traded fresh and processed. No HS code in Social Space.",
+    "hs": "",
+    "id": "good-lemon",
+    "label": "Lemon",
+    "level": "product",
+    "link": "../../../../../social/web/?node=good-lemon",
+    "parent": "cls-citrus",
+    "social": "good-lemon"
+  },
+  {
+    "desc": "Class sharing dairy materiality.",
+    "id": "cls-dairy",
+    "label": "Dairy",
+    "level": "class",
+    "parent": "sub-fdb"
+  },
+  {
+    "desc": "Dairy good traded fresh and aged. No HS code in Social Space.",
+    "hs": "",
+    "id": "good-cheese",
+    "label": "Cheese",
+    "level": "product",
+    "link": "../../../../../social/web/?node=good-cheese",
+    "parent": "cls-dairy",
+    "social": "good-cheese"
+  },
+  {
+    "desc": "Class sharing fermented-beverage materiality.",
+    "id": "cls-fermbev",
+    "label": "Fermented Beverage",
+    "level": "class",
+    "parent": "sub-fdb"
+  },
+  {
+    "desc": "Fermented beverage good traded bottled and bulk. No HS code in Social Space.",
+    "hs": "",
+    "id": "good-wine",
+    "label": "Wine",
+    "level": "product",
+    "link": "../../../../../social/web/?node=good-wine",
+    "parent": "cls-fermbev",
+    "social": "good-wine"
+  },
+  {
+    "desc": "Boundary grouping: the generic product, the firm portfolio position, and the adjacent production process — closes the 17-node population.",
+    "id": "cat-boundary",
+    "label": "Portfolio & Process (boundary)",
+    "level": "category",
+    "parent": null
+  },
+  {
+    "desc": "Technical family: the product as such and the firm's portfolio position.",
+    "id": "sub-gen-port",
+    "label": "Generic & Portfolio",
+    "level": "subcategory",
+    "parent": "cat-boundary"
+  },
+  {
+    "desc": "The exchangeable outcome of production as such. No HS code in Social Space.",
+    "hs": "",
+    "id": "product",
+    "label": "Product (generic)",
+    "level": "product",
+    "link": "../../../../../social/web/?node=product",
+    "parent": "sub-gen-port",
+    "social": "product"
+  },
+  {
+    "desc": "The portfolio position from which offers are made. No HS code in Social Space.",
+    "hs": "",
+    "id": "firm-product-portfolio",
+    "label": "Firm Product Portfolio",
+    "level": "product",
+    "link": "../../../../../social/web/?node=firm-product-portfolio",
+    "parent": "sub-gen-port",
+    "social": "firm-product-portfolio"
+  },
+  {
+    "desc": "Boundary family: the one ProductionProcess node in the population — value-chain continuity, not ranked as a product.",
+    "id": "sub-adjproc",
+    "label": "Adjacent Process",
+    "level": "subcategory",
+    "parent": "cat-boundary"
+  },
+  {
+    "desc": "Energy-storage component fabrication feeding device classes. No HS code in Social Space.",
+    "hs": "",
+    "id": "N2",
+    "label": "Lithium Battery Assembly",
+    "level": "product",
+    "link": "../../../../../social/web/?node=N2",
+    "parent": "sub-adjproc",
+    "social": "N2"
+  }
+]

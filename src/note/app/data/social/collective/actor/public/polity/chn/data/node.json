@@ -1,0 +1,117 @@
+{
+  "id": "chn",
+  "name": "China",
+  "tags": [
+    "East Asia",
+    "Upper-Middle-Income",
+    "Industrial & Manufacturing Powerhouse",
+    "Export-Oriented Economy",
+    "Party-State",
+    "Technological Superpower"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "China is Party-State polity in East Asia and the world's most populous major state. Governed by a single-party system under the Chinese Communist Party, it has transformed over the past four decades from a largely agrarian economy into a global industrial and technological power. China plays a central role in global manufacturing, trade, infrastructure development, and emerging technologies.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "中华人民共和国",
+    "flagEmoji": "🇨🇳",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "1.41 billion",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1410000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 17.7 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 17700000000000
+      },
+      {
+        "id": "area",
+        "value": "9,596,961 km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 9596961
+      },
+      {
+        "id": "capital",
+        "value": "Beijing",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Single-Party State",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of China’s actor space from imperial dynasties and bureaucratic elites to revolutionary transformation under the Chinese Communist Party, followed by reform-era technocratic governance and contemporary state-capitalist institutional structures.",
+        "link": "rep/actor.html?code=chn"
+      },
+      {
+        "id": "industrial_technology_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Industrial and Technology Network Structure",
+        "description": "Network analysis of China’s manufacturing clusters, state-owned enterprises, private technology firms, export logistics networks, and global infrastructure initiatives such as the Belt and Road.",
+        "link": null
+      },
+      {
+        "id": "regional_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Regional Spatial-Administrative Structure",
+        "description": "Geospatial representation of China's provinces, major metropolitan clusters, industrial corridors, port systems, and internal economic zones.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "CHN",
+      "region": "East Asia",
+      "lastRevised": "2026-03-08",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12",
+    "auditTrail": [
+      "manual curation 2026-10-06: reference link follows note rename to china.md",
+      "manual curation 2026-10-07: reference link follows note move to social/state/china.md"
+    ]
+  },
+  "references": [
+    {
+      "title": "China",
+      "link": "/note/note.html?n=social/state/china.md",
+      "description": "Internal Guiding Note."
+    }
+  ]
+}

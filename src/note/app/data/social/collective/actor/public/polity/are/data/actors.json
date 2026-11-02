@@ -1,0 +1,825 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Emirati actors (organizations and institutions) since 1800.",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "flag": "🇦🇪",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the United Arab Emirates. This dataset traces the formation, transformation, and significant milestones of trucial, federation, and diversification-era entities, from pearling to sovereign funds and aviation hubs.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Trucial States and British treaties",
+      "type": "public",
+      "role": "Protectorate order",
+      "regionOfActivity": "Sharjah",
+      "description": "1820-1892 treaties creating the Trucial Coast sheikhdoms.",
+      "events": [
+        {
+          "date": "1820-01-08",
+          "category": "birth",
+          "description": "General Maritime Treaty signed"
+        },
+        {
+          "date": "1892-03-01",
+          "category": "policy",
+          "description": "Exclusive Agreements bind foreign relations"
+        },
+        {
+          "date": "1971-12-01",
+          "category": "death",
+          "description": "British protection ends; treaties lapse"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Federation of the UAE",
+      "type": "public",
+      "role": "Federal order",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "1971 union of six emirates, Ras Al Khaimah joining 1972.",
+      "events": [
+        {
+          "date": "1971-12-02",
+          "category": "birth",
+          "description": "Federation proclaimed; Zayed president"
+        },
+        {
+          "date": "1972-02-10",
+          "category": "expansion",
+          "description": "Ras Al Khaimah accedes"
+        },
+        {
+          "date": "1996-05-20",
+          "category": "transformation",
+          "description": "Provisional constitution made permanent"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Central Bank of the UAE",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Currency-board lineage managing the dollar peg.",
+      "events": [
+        {
+          "date": "1980-12-11",
+          "category": "birth",
+          "description": "Central Bank law passed"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "policy",
+          "description": "Dirham peg formalized at 3.6725"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "First Abu Dhabi Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "NBAD-FGB merger forming the national champion.",
+      "events": [
+        {
+          "date": "1968-05-13",
+          "category": "birth",
+          "description": "National Bank of Abu Dhabi chartered"
+        },
+        {
+          "date": "2017-04-01",
+          "category": "founding",
+          "description": "FGB merger forms FAB"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Emirates NBD",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Dubai",
+      "description": "National Bank of Dubai-Emirates Bank merger.",
+      "events": [
+        {
+          "date": "1963-06-19",
+          "category": "birth",
+          "description": "National Bank of Dubai founded"
+        },
+        {
+          "date": "2007-10-16",
+          "category": "founding",
+          "description": "Emirates Bank merger forms Emirates NBD"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Mashreq",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Dubai",
+      "description": "Al-Ghurair bank, among the oldest private lenders.",
+      "events": [
+        {
+          "date": "1967-01-01",
+          "category": "birth",
+          "description": "Bank of Oman founded; Mashreq brand 1993"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Abu Dhabi Commercial Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "1985 merger grown by Union National takeover.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "ADCB formed from Emirates Commercial Bank merger"
+        },
+        {
+          "date": "2019-05-01",
+          "category": "founding",
+          "description": "Union National-Al Hilal merger"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Abu Dhabi Investment Authority",
+      "type": "public",
+      "role": "Sovereign fund",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "1976 oil-surplus manager among the world's largest funds.",
+      "events": [
+        {
+          "date": "1976-03-21",
+          "category": "birth",
+          "description": "ADIA established"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Mubadala",
+      "type": "public",
+      "role": "Sovereign investor",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Offset-program investor turned strategic holding.",
+      "events": [
+        {
+          "date": "2002-10-01",
+          "category": "birth",
+          "description": "Mubadala Development Company formed"
+        },
+        {
+          "date": "2017-03-21",
+          "category": "founding",
+          "description": "IPIC merger creates the enlarged Mubadala"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Investment Corporation of Dubai",
+      "type": "public",
+      "role": "Sovereign holding",
+      "regionOfActivity": "Dubai",
+      "description": "Government portfolio from Emirates to Emaar stakes.",
+      "events": [
+        {
+          "date": "2006-05-03",
+          "category": "birth",
+          "description": "ICD established by decree"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Dubai Holding",
+      "type": "public",
+      "role": "Conglomerate",
+      "regionOfActivity": "Dubai",
+      "description": "Ruler's-office vehicle across real estate and media.",
+      "events": [
+        {
+          "date": "2004-10-01",
+          "category": "birth",
+          "description": "Dubai Holding formed"
+        },
+        {
+          "date": "2009-01-01",
+          "category": "transformation",
+          "description": "Crisis-era debt restructuring"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "ADNOC",
+      "type": "public",
+      "role": "Oil company",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "1971 national oil company opening concessions to partners.",
+      "events": [
+        {
+          "date": "1971-11-27",
+          "category": "birth",
+          "description": "ADNOC established"
+        },
+        {
+          "date": "1988-01-01",
+          "category": "expansion",
+          "description": "Ruwais refining complex commissioned"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "transformation",
+          "description": "Downstream partnerships and listings begin"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Emirates National Oil Company",
+      "type": "hybrid",
+      "role": "Energy group",
+      "regionOfActivity": "Dubai",
+      "description": "1975 downstream group turned Dragon Oil owner.",
+      "events": [
+        {
+          "date": "1975-01-01",
+          "category": "birth",
+          "description": "ENOC moulded from Caltex assets; group era 1993"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "TAQA",
+      "type": "hybrid",
+      "role": "Energy utility",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Water-electricity authority corporatized and listed.",
+      "events": [
+        {
+          "date": "1998-04-21",
+          "category": "birth",
+          "description": "Abu Dhabi Water and Electricity Authority corporatization lineage; TAQA listed 2005"
+        },
+        {
+          "date": "2020-07-01",
+          "category": "transformation",
+          "description": "ADPower merger creates the enlarged TAQA"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Masdar",
+      "type": "public",
+      "role": "Clean-energy company",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Mubadala clean-tech vehicle behind Masdar City.",
+      "events": [
+        {
+          "date": "2006-04-01",
+          "category": "birth",
+          "description": "Masdar Initiative launched"
+        },
+        {
+          "date": "2022-12-08",
+          "category": "transformation",
+          "description": "ADNOC-TAQA joint venture refounds Masdar"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Emirates Airline",
+      "type": "public",
+      "role": "Flag carrier",
+      "regionOfActivity": "Dubai",
+      "description": "$10M startup grown into the long-haul super-connector.",
+      "events": [
+        {
+          "date": "1985-10-25",
+          "category": "birth",
+          "description": "First flights to Karachi and Mumbai"
+        },
+        {
+          "date": "2008-07-27",
+          "category": "technical",
+          "description": "A380 service begins"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Etihad Airways",
+      "type": "public",
+      "role": "Flag carrier",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "2003-founded carrier retrenched to mid-size ambition.",
+      "events": [
+        {
+          "date": "2003-11-05",
+          "category": "birth",
+          "description": "Etihad established by royal decree"
+        },
+        {
+          "date": "2016-01-01",
+          "category": "transformation",
+          "description": "Equity-alliance writedowns force retrenchment"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "DP World",
+      "type": "hybrid",
+      "role": "Port operator",
+      "regionOfActivity": "Dubai",
+      "description": "Jebel Ali authority turned global terminal network.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Rashid port era; Jebel Ali commissioned 1979"
+        },
+        {
+          "date": "2006-03-01",
+          "category": "expansion",
+          "description": "P&O takeover goes global"
+        },
+        {
+          "date": "2020-02-17",
+          "category": "transformation",
+          "description": "Delisting returns it to state hands"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Jebel Ali Free Zone",
+      "type": "hybrid",
+      "role": "Free-trade zone",
+      "regionOfActivity": "Dubai",
+      "description": "1985 zone seeding Dubai's logistics model.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "JAFZA established"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Emaar Properties",
+      "type": "private",
+      "role": "Developer",
+      "regionOfActivity": "Dubai",
+      "description": "1997 developer behind Burj Khalifa and Dubai Mall.",
+      "events": [
+        {
+          "date": "1997-06-23",
+          "category": "birth",
+          "description": "Emaar founded"
+        },
+        {
+          "date": "2010-01-04",
+          "category": "milestone",
+          "description": "Burj Khalifa inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "DAMAC",
+      "type": "private",
+      "role": "Developer",
+      "regionOfActivity": "Dubai",
+      "description": "Private luxury developer of Akoya oxygen.",
+      "events": [
+        {
+          "date": "2002-01-01",
+          "category": "birth",
+          "description": "DAMAC founded"
+        },
+        {
+          "date": "2015-05-01",
+          "category": "milestone",
+          "description": "London listing"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Etisalat and e&",
+      "type": "hybrid",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "1976 monopoly internationalized as e&.",
+      "events": [
+        {
+          "date": "1976-08-30",
+          "category": "birth",
+          "description": "Emirates Telecommunications Corporation founded"
+        },
+        {
+          "date": "2022-02-24",
+          "category": "transformation",
+          "description": "e& rebrand; Vodafone and tech stakes era"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "du",
+      "type": "private",
+      "role": "Telecom challenger",
+      "regionOfActivity": "Dubai",
+      "description": "2005 duopoly entrant.",
+      "events": [
+        {
+          "date": "2005-12-21",
+          "category": "birth",
+          "description": "du licence awarded; service 2007"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "United Arab Emirates University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Al Ain",
+      "description": "1976 federal flagship university.",
+      "events": [
+        {
+          "date": "1976-11-09",
+          "category": "birth",
+          "description": "UAEU law passed"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Khalifa University",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Etisalat-college lineage merged into a research university.",
+      "events": [
+        {
+          "date": "2007-02-13",
+          "category": "birth",
+          "description": "Khalifa University chartered"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "founding",
+          "description": "Masdar Institute-PI merger"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "MBRSC",
+      "type": "public",
+      "role": "Space agency",
+      "regionOfActivity": "Dubai",
+      "description": "EIAST lineage behind Hope Probe and astronaut program.",
+      "events": [
+        {
+          "date": "2006-02-06",
+          "category": "birth",
+          "description": "EIAST established"
+        },
+        {
+          "date": "2015-04-18",
+          "category": "founding",
+          "description": "MBRSC remit formalized"
+        },
+        {
+          "date": "2021-02-09",
+          "category": "technical",
+          "description": "Hope Probe enters Mars orbit"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Department of Culture and Tourism",
+      "type": "public",
+      "role": "Culture agency",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "ADACH-Tourism lineage behind Saadiyat museums.",
+      "events": [
+        {
+          "date": "2012-02-01",
+          "category": "birth",
+          "description": "TCA Abu Dhabi formed"
+        },
+        {
+          "date": "2017-11-11",
+          "category": "milestone",
+          "description": "Louvre Abu Dhabi opens"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Dubai Culture",
+      "type": "public",
+      "role": "Culture agency",
+      "regionOfActivity": "Dubai",
+      "description": "Heritage-district custodian.",
+      "events": [
+        {
+          "date": "2008-03-08",
+          "category": "birth",
+          "description": "Dubai Culture established"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Dubai Media Incorporated",
+      "type": "public",
+      "role": "Broadcaster",
+      "regionOfActivity": "Dubai",
+      "description": "State television-radio-print cluster.",
+      "events": [
+        {
+          "date": "2003-01-01",
+          "category": "birth",
+          "description": "DMI formed from government media arms"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Abu Dhabi Media",
+      "type": "public",
+      "role": "Broadcaster",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Emirates Media lineage.",
+      "events": [
+        {
+          "date": "1999-06-01",
+          "category": "birth",
+          "description": "Emirates Media Incorporated formed"
+        },
+        {
+          "date": "2008-01-01",
+          "category": "transformation",
+          "description": "Abu Dhabi Media Company era"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Al Ittihad and Emirati press",
+      "type": "hybrid",
+      "role": "Newspaper history",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "1969 press lineage in Arabic dailies.",
+      "events": [
+        {
+          "date": "1969-10-20",
+          "category": "birth",
+          "description": "Al Ittihad founded"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Abu Dhabi Chamber",
+      "type": "hybrid",
+      "role": "Business chamber",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "1969 merchant voice.",
+      "events": [
+        {
+          "date": "1969-01-01",
+          "category": "birth",
+          "description": "Chamber established by law"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "DIFC",
+      "type": "public",
+      "role": "Financial free zone",
+      "regionOfActivity": "Dubai",
+      "description": "2004 common-law financial centre.",
+      "events": [
+        {
+          "date": "2004-09-01",
+          "category": "birth",
+          "description": "DIFC law enacted"
+        },
+        {
+          "date": "2011-01-01",
+          "category": "expansion",
+          "description": "Gate Village era; regional fund domicile"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "ADGM",
+      "type": "public",
+      "role": "Financial free zone",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Al Maryah Island common-law centre.",
+      "events": [
+        {
+          "date": "2013-10-01",
+          "category": "birth",
+          "description": "ADGM established"
+        },
+        {
+          "date": "2015-10-25",
+          "category": "milestone",
+          "description": "Courts and registration bureau open"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Aldar Properties",
+      "type": "private",
+      "role": "Developer",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Government-linked developer of Yas Island.",
+      "events": [
+        {
+          "date": "2004-01-01",
+          "category": "birth",
+          "description": "Aldar founded"
+        },
+        {
+          "date": "2009-11-01",
+          "category": "milestone",
+          "description": "Yas Marina Circuit and Ferrari World open"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Rotana Hotels",
+      "type": "private",
+      "role": "Hotel group",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Homegrown hospitality chain across the region.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Rotana founded"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "milestone",
+          "description": "Beach Rotana opens"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Jumeirah Group",
+      "type": "hybrid",
+      "role": "Hotel group",
+      "regionOfActivity": "Dubai",
+      "description": "Dubai Holding luxury hotels from Burj Al Arab.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "Jumeirah founded"
+        },
+        {
+          "date": "1999-12-01",
+          "category": "milestone",
+          "description": "Burj Al Arab opens"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Air Arabia",
+      "type": "private",
+      "role": "Low-cost airline",
+      "regionOfActivity": "Sharjah",
+      "description": "Region's first low-cost carrier.",
+      "events": [
+        {
+          "date": "2003-02-03",
+          "category": "birth",
+          "description": "Air Arabia established by Amiri decree"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "flydubai",
+      "type": "public",
+      "role": "Low-cost airline",
+      "regionOfActivity": "Dubai",
+      "description": "Government-owned budget carrier feeding Emirates.",
+      "events": [
+        {
+          "date": "2008-03-19",
+          "category": "birth",
+          "description": "Decree establishes flydubai"
+        },
+        {
+          "date": "2009-06-01",
+          "category": "milestone",
+          "description": "Operations begin"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Roads and Transport Authority",
+      "type": "public",
+      "role": "Transport agency",
+      "regionOfActivity": "Dubai",
+      "description": "Metro-building transport authority.",
+      "events": [
+        {
+          "date": "2005-11-01",
+          "category": "birth",
+          "description": "RTA established"
+        },
+        {
+          "date": "2009-09-09",
+          "category": "technical",
+          "description": "Red Line metro opens"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "DEWA",
+      "type": "public",
+      "role": "Water-power utility",
+      "regionOfActivity": "Dubai",
+      "description": "Merged utility running the solar park.",
+      "events": [
+        {
+          "date": "1992-01-01",
+          "category": "birth",
+          "description": "DEWA formed by merger"
+        },
+        {
+          "date": "2022-04-06",
+          "category": "transformation",
+          "description": "Listing on the DFM"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "AD Ports Group",
+      "type": "public",
+      "role": "Port operator",
+      "regionOfActivity": "Abu Dhabi",
+      "description": "Khalifa Port operator listed in 2022.",
+      "events": [
+        {
+          "date": "2006-03-04",
+          "category": "birth",
+          "description": "Abu Dhabi Ports Company formed"
+        },
+        {
+          "date": "2012-12-12",
+          "category": "technical",
+          "description": "Khalifa Port inaugurated"
+        },
+        {
+          "date": "2022-02-08",
+          "category": "transformation",
+          "description": "AD Ports listing"
+        }
+      ]
+    }
+  ]
+}

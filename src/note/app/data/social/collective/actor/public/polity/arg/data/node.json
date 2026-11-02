@@ -1,0 +1,97 @@
+{
+  "id": "arg",
+  "name": "Argentina",
+  "tags": [
+    "Sovereign State",
+    "Federal Republic",
+    "South America"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "A federal presidential republic and the second-largest country in South America. Defined by its immigrant heritage, complex federal structure, and oscillation between developmentalist and neoliberal economic models.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "República Argentina",
+    "flagEmoji": "🇦🇷",
+    "statistics": [
+      {
+        "id": "iso",
+        "value": "ARG",
+        "label": "ISO Code",
+        "hasIndicator": false
+      },
+      {
+        "id": "population",
+        "value": "46M",
+        "label": "Population",
+        "hasIndicator": true,
+        "indicatorValue": 65
+      },
+      {
+        "id": "independence",
+        "value": "1816",
+        "label": "Independence",
+        "hasIndicator": false
+      },
+      {
+        "id": "area",
+        "value": "2.8M",
+        "label": "Area km²",
+        "hasIndicator": true,
+        "indicatorValue": 33
+      }
+    ],
+    "works": [
+      {
+        "id": "actor-evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "From Viceroyalty to Confederation and Peronist era transitions, 1816 to present.",
+        "link": "rep/actor.html?code=arg"
+      },
+      {
+        "id": "institutional-map",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Institutional Map",
+        "description": "Province and autonomous city distribution across the federal structure.",
+        "link": null
+      },
+      {
+        "id": "inter-agency-graph",
+        "type": "Network",
+        "status": "pending",
+        "title": "Inter-Agency Graph",
+        "description": "Federal-provincial fiscal relations and co-participation dynamics.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "ARG-001",
+      "region": "South America",
+      "lastRevised": "2025-01-16",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

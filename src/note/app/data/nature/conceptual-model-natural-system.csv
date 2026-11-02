@@ -1,0 +1,307 @@
+Name,Property," ","  ",tags
+Cell,4,"Chromosome (Nature/Conceptual%20Model%20Natural%20System/Chromosome%2017cc0f5171ec8053a607ecc7117702a4.md), Human (Nature/Conceptual%20Model%20Natural%20System/Human%2020bc0f5171ec804499ccd7b830f5f5ec.md), Cardiovascular System (Nature/Conceptual%20Model%20Natural%20System/Cardiovascular%20System%20227c0f5171ec80cab4f3d5f337980c07.md), Nutrition (Nature/Conceptual%20Model%20Natural%20System/Nutrition%2018ec0f5171ec8044997bcd41e03b3a33.md), Hormone (Nature/Conceptual%20Model%20Natural%20System/Hormone%200eaa83da0c0a4a279d6d409383ec5893.md), Protein (Nature/Conceptual%20Model%20Natural%20System/Protein%2010cc0f5171ec801baf1edb1f7fadb809.md), Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md)",,"Biology, System"
+Electrochemistry,16,,,Chemistry
+Nucleic Acid,12,,,
+Bioenergy,9,,,"Biology, System"
+Metabolism,10,Human (Nature/Conceptual%20Model%20Natural%20System/Human%2020bc0f5171ec804499ccd7b830f5f5ec.md),,"Biology, Process"
+Signal Transduction,19,,,"Biophysis, Phenomena"
+Enzyme,6,Protein (Nature/Conceptual%20Model%20Natural%20System/Protein%2010cc0f5171ec801baf1edb1f7fadb809.md),,"Biology, Biomaterial, Matter"
+Catalysis,9,,,"Chemistry, System"
+Brain,5,"Neuron (Nature/Conceptual%20Model%20Natural%20System/Neuron%2095cc41fef358466386d0c7967d6e74ec.md), Organ (Nature/Conceptual%20Model%20Natural%20System/Organ%20227c0f5171ec80edb18bf7362cc8713d.md), Human Memory (Nature/Conceptual%20Model%20Natural%20System/Human%20Memory%2092d56eeafc4343d0bf9004c8e923fa2f.md)",,"Neuroscience, System"
+Neuron,6,"Brain (Nature/Conceptual%20Model%20Natural%20System/Brain%20a0dba22360494722a05b837c34806772.md), Human Memory (Nature/Conceptual%20Model%20Natural%20System/Human%20Memory%2092d56eeafc4343d0bf9004c8e923fa2f.md)",,"Neuroscience, System"
+Motor System,12,,,
+Receptive Fields,16,,,
+Electromagnetic Radiation (EMR),31,"Spectroscopy (Nature/Conceptual%20Model%20Natural%20System/Spectroscopy%2017dc0f5171ec807da308f7fddfb92079.md), Electromagnetic Field (EM) (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20Field%20(EM)%201b1c0f5171ec8075a79dcae4c75d5848.md), Wave (Nature/Conceptual%20Model%20Natural%20System/Wave%20abe8be3df7354f11a8e84fa436de2e0b.md), Light (Nature/Conceptual%20Model%20Natural%20System/Light%20e0d655c5935d41958eaa78e721588c27.md), Radio Wave (Nature/Conceptual%20Model%20Natural%20System/Radio%20Wave%201b9c0f5171ec80c8a312c0d49a882aef.md)",,Phenomena
+Chemical Processes,18,,,Chemical Reaction
+Chemical Synthesis,18,,,Chemical Reaction
+Atmosphere,10,,,"Chemistry, Earth System, System"
+Molecule,8,"Atom (Nature/Conceptual%20Model%20Natural%20System/Atom%2010cc0f5171ec8083b1baf8f9d2d99620.md), Chemical Bond (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Bond%20144c0f5171ec807589c1cd04c1b54973.md)",,"Chemistry, Matter, System"
+Diffusion,9,,,Matter
+Molecular Assembly,18,,,"Materials Science, Phenomena"
+Gravity,7,,,"Phenomena, Physics"
+Time,4,Time Dilation (Nature/Conceptual%20Model%20Natural%20System/Time%20Dilation%20203c0f5171ec805c9af6ebff1bf2356b.md),,"Phenomena, Physics"
+Inertia,7,,,"Physics, Property"
+Heat,4,Temperature (Nature/Conceptual%20Model%20Natural%20System/Temperature%2014ec0f5171ec806ca59ef84506bee100.md),,"Phenomena, Thermodynamics"
+Energy,6,"Force (Nature/Conceptual%20Model%20Natural%20System/Force%20ef6d9b72ed2b497d84cdaa0bb2212dc7.md), Energy/Force (Nature/Conceptual%20Model%20Natural%20System/Energy%20Force%2016dc0f5171ec80dbaea1ed15847d1885.md), Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md), Electromagnetic System (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20System%20225c0f5171ec8041b3eec1564b45c5dc.md), Mass (Nature/Conceptual%20Model%20Natural%20System/Mass%2016cc0f5171ec806189b9c2b8fbdad920.md), Electric Current (Nature/Conceptual%20Model%20Natural%20System/Electric%20Current%2010cc0f5171ec809b883fcd91de073375.md)",,"Physics, Property, System"
+Concentration,13,,,
+Ion Channel,11,,,
+Ionophore,9,,,
+Chemical Solution,17,"Suspension (Nature/Conceptual%20Model%20Natural%20System/Suspension%201f7c0f5171ec803f89c4e9cb6040dda9.md), Mixture (Nature/Conceptual%20Model%20Natural%20System/Mixture%201f7c0f5171ec800a935ffd5fef9f1c9b.md)",,"Chemistry, Matter, System"
+Wave,4,"Electromagnetic Radiation (EMR) (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20Radiation%20(EMR)%20387dd6894b604dfc9b9640f2be0f769c.md), Radio Wave (Nature/Conceptual%20Model%20Natural%20System/Radio%20Wave%201b9c0f5171ec80c8a312c0d49a882aef.md)",,"Phenomena, Physics"
+Light,5,Electromagnetic Radiation (EMR) (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20Radiation%20(EMR)%20387dd6894b604dfc9b9640f2be0f769c.md),,"Phenomena, Physics"
+Force,5,"Energy (Nature/Conceptual%20Model%20Natural%20System/Energy%2039f21c7cc02545e289e03578281bd13f.md), Energy/Force (Nature/Conceptual%20Model%20Natural%20System/Energy%20Force%2016dc0f5171ec80dbaea1ed15847d1885.md), Momentum (Nature/Conceptual%20Model%20Natural%20System/Momentum%2010cc0f5171ec80caa4ffc60578747f9e.md), Fundamental Molecular Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Molecular%20Interaction%201b1c0f5171ec800d9e62ecd4457342a1.md), Interaction (Nature/Conceptual%20Model%20Natural%20System/Interaction%201b1c0f5171ec8063889eef7f94da9698.md)",,"Interaction, Physics, Property"
+Matter,6,"Interaction (Nature/Conceptual%20Model%20Natural%20System/Interaction%201b1c0f5171ec8063889eef7f94da9698.md), Fundamental Molecular Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Molecular%20Interaction%201b1c0f5171ec800d9e62ecd4457342a1.md), Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md), Electric Charge (Nature/Conceptual%20Model%20Natural%20System/Electric%20Charge%201b0c0f5171ec80e98af5c745a32f391b.md), Heisenberg Uncertainty Principle (Nature/Conceptual%20Model%20Natural%20System/Heisenberg%20Uncertainty%20Principle%20675242bd3bf844a1bbc22728735a3665.md)",,Matter
+Chemical Substance,18,Chemical Element (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Element%2016cc0f5171ec80819c22dc5852e3fe06.md),,"Chemistry, Matter, System"
+Composite,9,,,
+Polymer,7,"RNA (Nature/Conceptual%20Model%20Natural%20System/RNA%20142c0f5171ec80a7a190c86587835a66.md), Biopolymer (Nature/Conceptual%20Model%20Natural%20System/Biopolymer%2017dc0f5171ec80e3a315fd3a1e7369a6.md)",,Matter
+Isomorphism,11,,,Matter
+Symmetry,8,,,Matter
+Action Potential,16,,,
+Feedback,8,,,Matter
+Autopoiesis,11,,,"Biology, System"
+Nitrogen,8,,,"Chemical Element, Chemistry, System"
+Isotope,7,,,"Physics, System"
+Oxygen,6,,,"Chemical Element, Chemistry, System"
+Symmetry,8,,,"Physics, Principle"
+Superconductivity,17,,,"Materials Science, Matter, Phenomena, Physics"
+Magnetism,9,,,"Phenomena, Physics"
+First Passage Time,18,,,Matter
+Stability,9,,,Matter
+Carbohydrate,12,,,"Biology, Building Block, System"
+Lipid,5,,,"Biology, Building Block"
+Metabolite,10,,,"Biology, Building Block"
+Hormone,7,"Endocrine System (Nature/Conceptual%20Model%20Natural%20System/Endocrine%20System%20142c0f5171ec809d9a30efa438d511b5.md), Cell (Nature/Conceptual%20Model%20Natural%20System/Cell%20ef6d9f1dc6db4599a17f9095f126569f.md), Cell Signaling (Nature/Conceptual%20Model%20Natural%20System/Cell%20Signaling%20221c0f5171ec80d29626dfac0f59baad.md)",,"Biology, Building Block, System"
+Virus,5,Microorganism (Nature/Conceptual%20Model%20Natural%20System/Microorganism%2017cc0f5171ec800ebd9be75efbb5c8c3.md),,"Biology, System"
+Archaea,7,,,"Biology, System"
+Protists,8,,,"Biology, System"
+Fungi,5,,,"Biology, System"
+Plant,5,,,"Biology, System"
+Biome,5,,,"Biology, System"
+Microbiome,10,,,"Biology, System"
+Rainforest,10,,,"Biology, System"
+Tundra,6,,,"Biology, System"
+Microbiota,10,,,"Biology, System"
+Self-Preservation,17,,,"Biology, Principle"
+Replication,11,,,"Biology, Principle"
+Cooperation,11,,,"Biology, Principle"
+DNA,3,"Gene (Nature/Conceptual%20Model%20Natural%20System/Gene%20115c0f5171ec80abb2e2d855b7a787b0.md), RNA (Nature/Conceptual%20Model%20Natural%20System/RNA%20142c0f5171ec80a7a190c86587835a66.md), Chromosome (Nature/Conceptual%20Model%20Natural%20System/Chromosome%2017cc0f5171ec8053a607ecc7117702a4.md), Genetic Material (Nature/Conceptual%20Model%20Natural%20System/Genetic%20Material%2017cc0f5171ec8014b558dab0929c4f25.md), Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md)",,"Biology, Building Block, Genetics, Matter, System"
+Pollination,11,,,"Biology, Phenomena, Process"
+Anthropic Principle,19,,,"Physics, Principle"
+Pauli Exclusion Principle,25,,,"Physics, Principle"
+Principle of Relativity,23,Time Dilation (Nature/Conceptual%20Model%20Natural%20System/Time%20Dilation%20203c0f5171ec805c9af6ebff1bf2356b.md),,"Physics, Principle, Technique"
+Heisenberg Uncertainty Principle,32,Matter (Nature/Conceptual%20Model%20Natural%20System/Matter%20209b4646856a413186ebc5b793910b2b.md),,"Physics, Principle"
+Schrodinger Equation,20,,,"Physics, Principle"
+Principle of Superposition,26,,,"Physics, Principle"
+Gauge Symmetry,14,,,"Physics, Principle"
+Higgs Mechanism,15,,,"Physics, Principle"
+Wave-Particle Duality,21,,,"Physics, Principle"
+Power Law,9,,,Matter
+Linear System,13,,,Matter
+Fragility,9,,,Matter
+Hierarchy,9,,,Matter
+Critical State,14,,,Matter
+Evolution,9,,,Matter
+Coupling,8,,,Matter
+Isolated,8,,,Matter
+Unstable,8,,,Matter
+Transient,9,,,Matter
+Adiabatic,9,,,Matter
+Discrete,8,,,Matter
+Boundary,8,,,Matter
+Homophily,9,,,Matter
+Ingestor,8,,,Matter
+Converter,9,,,Matter
+Producer,8,,,Matter
+Extruder,8,,,Matter
+Supporter,9,,,Matter
+Periodic,8,,,Matter
+Reaction,8,Transformation of Matter (Nature/Conceptual%20Model%20Natural%20System/Transformation%20of%20Matter%2022cc0f5171ec80a28804ca8ac3a248e8.md),,"Chemical Reaction, Chemistry"
+Human Memory,12,"Brain (Nature/Conceptual%20Model%20Natural%20System/Brain%20a0dba22360494722a05b837c34806772.md), Neuron (Nature/Conceptual%20Model%20Natural%20System/Neuron%2095cc41fef358466386d0c7967d6e74ec.md), Human Nervous System (Nature/Conceptual%20Model%20Natural%20System/Human%20Nervous%20System%201e6c0f5171ec80c8ba22c19af51ac75f.md)",,"Neuroscience, Phenomena"
+Electron,8,Chemical Element (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Element%2016cc0f5171ec80819c22dc5852e3fe06.md),,"Materials Science, Matter, Particle Physics, Physics"
+Quantum Entanglement,20,,,"Phenomena, Physics"
+Observer Effect,15,,,"Measurement, Physics"
+Wave Function,13,,,Physics
+Corrosion,9,Material Failure (Nature/Conceptual%20Model%20Natural%20System/Material%20Failure%201edc0f5171ec80b49ef8f706cf407cd2.md),,"Chemistry, Phenomena"
+Ant,3,,,"Biology, Complex System, System"
+Stem Cell,9,,,Technology
+Cloning,7,,,
+Phase Change Materials (PCMs),29,,,"Phenomena, Physics"
+Microencapsulation,18,,,"Phenomena, Physics"
+Fluid,5,"Static Fluid System (Nature/Conceptual%20Model%20Natural%20System/Static%20Fluid%20System%20202c0f5171ec80bd8e1be24b3c501e82.md), Vortex (Nature/Conceptual%20Model%20Natural%20System/Vortex%20204c0f5171ec80f88a06dd937c106110.md), Floating (Nature/Conceptual%20Model%20Natural%20System/Floating%20205c0f5171ec800ab1d0ee7ffd39ba59.md), Gas (Nature/Conceptual%20Model%20Natural%20System/Gas%201bac0f5171ec803d8072e7bf9b5c96ff.md), Liquid (Nature/Conceptual%20Model%20Natural%20System/Liquid%2021bc0f5171ec80fba418dc54bd3385ef.md)",,"Matter, Physical"
+Incompressible flow,19,,,"Phenomena, Physics"
+Kinematics,10,,,
+Kinetics,8,,,
+Hydraulics,10,,,
+Physical Change,15,,,
+Physical Property,17,,,Building Block
+Chemical Property,17,,,"Chemistry, Property"
+Porosity,8,,,"Materials Science, Property, System"
+Combustion,10,Chemical Decomposition (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Decomposition%20144c0f5171ec80a3874dfb20cec04973.md),,"Chemical Reaction, Chemistry, Phenomena, Physics"
+Radiation,9,Radio Wave (Nature/Conceptual%20Model%20Natural%20System/Radio%20Wave%201b9c0f5171ec80c8a312c0d49a882aef.md),,"Phenomena, Physics"
+Atom,4,"Molecule (Nature/Conceptual%20Model%20Natural%20System/Molecule%20bc08298992d54d68b06dc78ffb18095f.md), Chemical Element (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Element%2016cc0f5171ec80819c22dc5852e3fe06.md), Interaction (Nature/Conceptual%20Model%20Natural%20System/Interaction%201b1c0f5171ec8063889eef7f94da9698.md), Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md), Spin (Nature/Conceptual%20Model%20Natural%20System/Spin%2017cc0f5171ec80cb9a94ce4acc2a953d.md)",,"Physics, System"
+Electric Current,16,"Energy (Nature/Conceptual%20Model%20Natural%20System/Energy%2039f21c7cc02545e289e03578281bd13f.md), Electrical Circuit (Nature/Conceptual%20Model%20Natural%20System/Electrical%20Circuit%2029cc0f5171ec8028ac83c4d3303b44eb.md), Radio Wave (Nature/Conceptual%20Model%20Natural%20System/Radio%20Wave%201b9c0f5171ec80c8a312c0d49a882aef.md)",,"Phenomena, Physics, Property"
+Momentum,8,"Energy/Force (Nature/Conceptual%20Model%20Natural%20System/Energy%20Force%2016dc0f5171ec80dbaea1ed15847d1885.md), Force (Nature/Conceptual%20Model%20Natural%20System/Force%20ef6d9b72ed2b497d84cdaa0bb2212dc7.md), Motion (Nature/Conceptual%20Model%20Natural%20System/Motion%2032ac0f5171ec80dca1b8fd42eaaf5f1c.md)",,"Phenomena, Physics, Property"
+Biomolecule,11,"Protein (Nature/Conceptual%20Model%20Natural%20System/Protein%2010cc0f5171ec801baf1edb1f7fadb809.md), Chemical Bond (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Bond%20144c0f5171ec807589c1cd04c1b54973.md)",,"Biology, Chemistry, Matter"
+Protein,7,"Enzyme (Nature/Conceptual%20Model%20Natural%20System/Enzyme%20331ea6325f5d42dc90b9ab27b1371ff3.md), Biomolecule (Nature/Conceptual%20Model%20Natural%20System/Biomolecule%2010cc0f5171ec80ad83f3f742f2928a16.md), Prion (Nature/Conceptual%20Model%20Natural%20System/Prion%2017cc0f5171ec80aebf6cc1357982e377.md), Cell (Nature/Conceptual%20Model%20Natural%20System/Cell%20ef6d9f1dc6db4599a17f9095f126569f.md), Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md)",,"Bio Universal, Biology, Chemistry, Matter, Molecule, System"
+Genetic Recombination,21,,,"Biology, Genetics"
+Action,6,,,
+Standard Model,14,Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md),,Particle Physics
+Graviton,8,,,"Physics, System, Theoretical"
+Quantization,12,,,
+Gene,4,"DNA (Nature/Conceptual%20Model%20Natural%20System/DNA%2037824bcfbfa7434c9ef326b92e36a48d.md), Heredity (Nature/Conceptual%20Model%20Natural%20System/Heredity%2016fc0f5171ec80149cd3e84f6d25b0c3.md), Genome (Nature/Conceptual%20Model%20Natural%20System/Genome%201a1c0f5171ec807eab03e14fd9d92da8.md), Leptospira (Nature/Conceptual%20Model%20Natural%20System/Leptospira%201a1c0f5171ec80569a1dda6e97691f19.md), Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md)",,"Biology, Matter, System"
+Microscopy,10,,,Observation
+Gamma function,14,,,
+Microorganism,13,,,
+Equivalence Principle,21,,,"Biology, Principle, Technique"
+Viscous Liquid,14,,,Matter
+Quasiparticle,13,Electron Hole (Nature/Conceptual%20Model%20Natural%20System/Electron%20Hole%201b0c0f5171ec806caae4e1f48dbe8f5a.md),,"Conceptual Tool, Physical"
+Constitutive Equation,21,,,Technique
+Recombinant DNA,15,,,"Genetics, System, Technology"
+Molecular Motor,15,,,"Biology, Biophysis, Cell Biology, Engine"
+Stigmergy,9,,,"Coordination, Ecology"
+Electromagnet,13,,,"Electromagnetism, Physical, System"
+Chemical Formula,16,,,"Chemistry, Representation, Technique"
+Chemical Representation,23,,,"Chemistry, Representation, Technique"
+Multicellular Organism,22,Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md),,"Biology, Organism, System"
+Organism,8,,,"Biology, Organism"
+Extracellular Matrix,20,,,"Biology, Cell Biology, System"
+Unicellular Organism,20,Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md),,"Biology, Organism, System"
+Muscle,6,"Tissue (Nature/Conceptual%20Model%20Natural%20System/Tissue%20221c0f5171ec80928b45c11f5f596af8.md), Human (Nature/Conceptual%20Model%20Natural%20System/Human%2020bc0f5171ec804499ccd7b830f5f5ec.md)",,"Animal, Biology, Tissue"
+Hydrosphere,11,,,"Earth System, System"
+Endocrine System,16,"Hormone (Nature/Conceptual%20Model%20Natural%20System/Hormone%200eaa83da0c0a4a279d6d409383ec5893.md), Cardiovascular System (Nature/Conceptual%20Model%20Natural%20System/Cardiovascular%20System%20227c0f5171ec80cab4f3d5f337980c07.md)",,"Biology, System"
+Gland,5,,,"Biology, System"
+Regulation,10,,,"Biology, Phenomena"
+RNA,3,"DNA (Nature/Conceptual%20Model%20Natural%20System/DNA%2037824bcfbfa7434c9ef326b92e36a48d.md), RNA Sequencing (Nature/Conceptual%20Model%20Natural%20System/RNA%20Sequencing%2017cc0f5171ec80e5aaa1e8e7b3a2c462.md), Polymer (Nature/Conceptual%20Model%20Natural%20System/Polymer%20cacb5bcdde1d4cbaa077573a628c6d65.md), Genetic Material (Nature/Conceptual%20Model%20Natural%20System/Genetic%20Material%2017cc0f5171ec8014b558dab0929c4f25.md)",,"Biology, System"
+Epigenome,9,"Genome (Nature/Conceptual%20Model%20Natural%20System/Genome%201a1c0f5171ec807eab03e14fd9d92da8.md), Leptospira (Nature/Conceptual%20Model%20Natural%20System/Leptospira%201a1c0f5171ec80569a1dda6e97691f19.md)",,"Process, System"
+Pyrolysis,9,Chemical Decomposition (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Decomposition%20144c0f5171ec80a3874dfb20cec04973.md),,"Chemistry, Phenomena"
+Chemical Decomposition,22,"Combustion (Nature/Conceptual%20Model%20Natural%20System/Combustion%2010cc0f5171ec80a59130feab2f0c401c.md), Pyrolysis (Nature/Conceptual%20Model%20Natural%20System/Pyrolysis%20144c0f5171ec80f6af74d28f47d2a948.md)",,"Chemical Reaction, Chemistry, Phenomena"
+Propulsion,10,,,"Phenomena, Physics"
+Gravitational Wave,18,,,"Physics, System"
+Interferometry,14,Perturbation Testing (Nature/Conceptual%20Model%20Natural%20System/Perturbation%20Testing%20144c0f5171ec80f3869ffd71f492f876.md),,Technique
+Perturbation Testing,20,Interferometry (Nature/Conceptual%20Model%20Natural%20System/Interferometry%20144c0f5171ec80b387d8c5d46148e8ba.md),,Technique
+Chemical Bond,13,"Molecule (Nature/Conceptual%20Model%20Natural%20System/Molecule%20bc08298992d54d68b06dc78ffb18095f.md), Biomolecule (Nature/Conceptual%20Model%20Natural%20System/Biomolecule%2010cc0f5171ec80ad83f3f742f2928a16.md), Chemical Element (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Element%2016cc0f5171ec80819c22dc5852e3fe06.md)",,"Building Block, Chemistry, Phenomena"
+Electron Configuration,22,,,"Chemistry, Physics, System"
+Temperature,11,Heat (Nature/Conceptual%20Model%20Natural%20System/Heat%202b1adfcb49e64b2fad0cd21fc07259ac.md),,"System, Thermodynamics"
+Black Body,10,,,"Physics, System"
+Action at a distance,20,,,Technique
+Photoelectric Effect,20,Evolution (Nature/Conceptual%20Model%20Natural%20System/Evolution%201a1c0f5171ec80118600d99270355a5e.md),,"Chemistry, Phenomena, Physics"
+Black-body radiation,20,,,"Phenomena, Physics"
+Ocean Current,13,,,"Earth Science, Earth System, System"
+Liquid Crystal (LC),19,,,System
+Optical Filter,14,,,"Optics, Physics, System"
+Semiconductor,13,,,"Chemical Element, Materials Science, Matter"
+Biomaterial,11,,,"Chemical Element, Materials Science, Matter"
+Material,8,,,"Biomaterial, Chemical Element, Materials Science, Matter"
+Limulus amebocyte lysate,24,,,"Biomaterial, Materials Science, Matter"
+Clotting,8,,,"Biology, Blood, Phenomena"
+Molecular Binding,17,,,"Biology, Chemistry, Phenomena"
+Niobium,7,,,"Materials Science, Matter"
+Photon,6,Particle (Nature/Conceptual%20Model%20Natural%20System/Particle%2016dc0f5171ec80ec8134f6b34bf2b3b3.md),,"Materials Science, Matter"
+Mass,4,"Mass Transport (Nature/Conceptual%20Model%20Natural%20System/Mass%20Transport%20229c0f5171ec804591edef6165c55a1a.md), Particle (Nature/Conceptual%20Model%20Natural%20System/Particle%2016dc0f5171ec80ec8134f6b34bf2b3b3.md), Weight (Nature/Conceptual%20Model%20Natural%20System/Weight%2022dc0f5171ec808e9b72d32c3280dac1.md), Energy (Nature/Conceptual%20Model%20Natural%20System/Energy%2039f21c7cc02545e289e03578281bd13f.md)",,Property
+Chemical Element,16,"Chemical Substance (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Substance%2062f6d71632334efbb32fa3ad6b9a582b.md), Chemical Bond (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Bond%20144c0f5171ec807589c1cd04c1b54973.md), Atom (Nature/Conceptual%20Model%20Natural%20System/Atom%2010cc0f5171ec8083b1baf8f9d2d99620.md), Electron (Nature/Conceptual%20Model%20Natural%20System/Electron%204a58d4f541064542a3a7ca2a62efd4de.md)",,"Materials Science, Matter"
+Property,8,,,Property
+Charge carrier,14,,,Property
+Composite,9,,,"Materials Science, Matter"
+Particle,8,"Photon (Nature/Conceptual%20Model%20Natural%20System/Photon%2016cc0f5171ec80a19cbdda0aa0a9947f.md), Mass (Nature/Conceptual%20Model%20Natural%20System/Mass%2016cc0f5171ec806189b9c2b8fbdad920.md), Field (Nature/Conceptual%20Model%20Natural%20System/Field%20231c0f5171ec80f392cffddd44dd5cf5.md), Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md)",,"Materials Science, Matter"
+Body (Object),13,,,"Materials Science, Matter"
+Energy/Force,12,"Energy (Nature/Conceptual%20Model%20Natural%20System/Energy%2039f21c7cc02545e289e03578281bd13f.md), Force (Nature/Conceptual%20Model%20Natural%20System/Force%20ef6d9b72ed2b497d84cdaa0bb2212dc7.md), Momentum (Nature/Conceptual%20Model%20Natural%20System/Momentum%2010cc0f5171ec80caa4ffc60578747f9e.md)",,Property
+Fundamental Interaction,23,"Standard Model (Nature/Conceptual%20Model%20Natural%20System/Standard%20Model%20114c0f5171ec80e1a308d797b3aa3236.md), Energy (Nature/Conceptual%20Model%20Natural%20System/Energy%2039f21c7cc02545e289e03578281bd13f.md), Fundamental Molecular Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Molecular%20Interaction%201b1c0f5171ec800d9e62ecd4457342a1.md), Interaction (Nature/Conceptual%20Model%20Natural%20System/Interaction%201b1c0f5171ec8063889eef7f94da9698.md), Atom (Nature/Conceptual%20Model%20Natural%20System/Atom%2010cc0f5171ec8083b1baf8f9d2d99620.md), Electromagnetic System (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20System%20225c0f5171ec8041b3eec1564b45c5dc.md), Matter (Nature/Conceptual%20Model%20Natural%20System/Matter%20209b4646856a413186ebc5b793910b2b.md), Particle (Nature/Conceptual%20Model%20Natural%20System/Particle%2016dc0f5171ec80ec8134f6b34bf2b3b3.md)",,"Interaction, Physics, Property"
+Fine Chemicals,14,,,"Materials Science, Matter"
+Active ingredient,17,,,"Chemistry, Materials Science, Matter"
+Catalysis,9,,,"Chemistry, Materials Science, Matter"
+Emulsion,8,,,"Materials Science, Matter"
+Californium,11,,,"Materials Science, Matter"
+Heredity,8,Gene (Nature/Conceptual%20Model%20Natural%20System/Gene%20115c0f5171ec80abb2e2d855b7a787b0.md),,"Biology, Phenomena"
+Morphogenesis,13,,,"Biology, Phenomena"
+Industrial Enzyme,17,,,"Biology, Biomaterial, Matter, System"
+Soil,4,Earth Crust (Nature/Conceptual%20Model%20Natural%20System/Earth%20Crust%20295c0f5171ec8048b585dbbed48fe3d8.md),,"Materials Science, Matter"
+pH,2,,,Property
+Spin,4,Atom (Nature/Conceptual%20Model%20Natural%20System/Atom%2010cc0f5171ec8083b1baf8f9d2d99620.md),,Property
+Electrophoresis,15,,,Technique
+Chromosome,10,"DNA (Nature/Conceptual%20Model%20Natural%20System/DNA%2037824bcfbfa7434c9ef326b92e36a48d.md), Cell (Nature/Conceptual%20Model%20Natural%20System/Cell%20ef6d9f1dc6db4599a17f9095f126569f.md)",,"Genetics, Materials Science, Matter"
+Nucleotide,10,,,"Materials Science, Matter"
+RNA Sequencing,14,RNA (Nature/Conceptual%20Model%20Natural%20System/RNA%20142c0f5171ec80a7a190c86587835a66.md),,Technique
+Genetic Material,16,"RNA (Nature/Conceptual%20Model%20Natural%20System/RNA%20142c0f5171ec80a7a190c86587835a66.md), DNA (Nature/Conceptual%20Model%20Natural%20System/DNA%2037824bcfbfa7434c9ef326b92e36a48d.md)",,"Materials Science, Matter"
+Pathogen,8,Virulence Factor (Nature/Conceptual%20Model%20Natural%20System/Virulence%20Factor%201a1c0f5171ec80e9a269c4b7bbe4f37e.md),,System
+Living System,13,"Cell (Nature/Conceptual%20Model%20Natural%20System/Cell%20ef6d9f1dc6db4599a17f9095f126569f.md), Microorganism (Nature/Conceptual%20Model%20Natural%20System/Microorganism%2017cc0f5171ec800ebd9be75efbb5c8c3.md), Unicellular Organism (Nature/Conceptual%20Model%20Natural%20System/Unicellular%20Organism%20140c0f5171ec80b5b18bd57970ea85cf.md), Multicellular Organism (Nature/Conceptual%20Model%20Natural%20System/Multicellular%20Organism%20140c0f5171ec805c938ddac0f611f910.md), Genome (Nature/Conceptual%20Model%20Natural%20System/Genome%201a1c0f5171ec807eab03e14fd9d92da8.md), Gene (Nature/Conceptual%20Model%20Natural%20System/Gene%20115c0f5171ec80abb2e2d855b7a787b0.md), DNA (Nature/Conceptual%20Model%20Natural%20System/DNA%2037824bcfbfa7434c9ef326b92e36a48d.md), Protein (Nature/Conceptual%20Model%20Natural%20System/Protein%2010cc0f5171ec801baf1edb1f7fadb809.md)",,"Biology, Phenomena, System"
+Microorganism,13,"Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md), Virus (Nature/Conceptual%20Model%20Natural%20System/Virus%2093323d9872204280bf46d15156a58615.md)",,System
+Toxin,5,,,"Biology, System"
+Prion,5,Protein (Nature/Conceptual%20Model%20Natural%20System/Protein%2010cc0f5171ec801baf1edb1f7fadb809.md),,"Biology, System"
+Allergen,8,,,System
+Antigen,7,,,"Biology, System"
+Parasitism,10,,,"Biology, Phenomena"
+Fungus,6,,,"Biology, System"
+Peptide,7,,,"Materials Science, Matter"
+Amine,5,,,"Materials Science, Matter"
+Acid,4,,,"Materials Science, Matter"
+Base,4,,,"Materials Science, Matter"
+Circulatory System,18,,,System
+Respiratory System,18,,,System
+Organic Matter,14,Cellulose (Nature/Conceptual%20Model%20Natural%20System/Cellulose%2017dc0f5171ec80d7a71ec1053b6fd688.md),,"Chemistry, Materials Science, Matter"
+Biopolymer,10,"Polymer (Nature/Conceptual%20Model%20Natural%20System/Polymer%20cacb5bcdde1d4cbaa077573a628c6d65.md), Cellulose (Nature/Conceptual%20Model%20Natural%20System/Cellulose%2017dc0f5171ec80d7a71ec1053b6fd688.md)",,"Materials Science, Matter"
+Cellulose,9,"Biopolymer (Nature/Conceptual%20Model%20Natural%20System/Biopolymer%2017dc0f5171ec80e3a315fd3a1e7369a6.md), Organic Matter (Nature/Conceptual%20Model%20Natural%20System/Organic%20Matter%2017dc0f5171ec8065af0cf4e9520cf407.md)",,"Materials Science, Matter"
+Separation Process (Purification) (Isolation),45,,,"Chemistry, Technique"
+Spectroscopy,12,Electromagnetic Radiation (EMR) (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20Radiation%20(EMR)%20387dd6894b604dfc9b9640f2be0f769c.md),,Technique
+Work,4,,,"System, Thermodynamics"
+Animal Locomotion,17,,,"Biology, Phenomena"
+Nutrition,9,"Cell (Nature/Conceptual%20Model%20Natural%20System/Cell%20ef6d9f1dc6db4599a17f9095f126569f.md), Nutrient (Nature/Conceptual%20Model%20Natural%20System/Nutrient%20227c0f5171ec80a48022c8698e1b5552.md)",,Phenomena
+entry,5,,,Matter
+Cyanide,7,,,"Materials Science, Matter"
+Pathogenesis,12,"Leptospira (Nature/Conceptual%20Model%20Natural%20System/Leptospira%201a1c0f5171ec80569a1dda6e97691f19.md), Virulence Factor (Nature/Conceptual%20Model%20Natural%20System/Virulence%20Factor%201a1c0f5171ec80e9a269c4b7bbe4f37e.md)",,"Biology, Phenomena"
+Leptospira,10,"Bacteria (Nature/Conceptual%20Model%20Natural%20System/Bacteria%201a1c0f5171ec8035ac82fda7262b73ca.md), Epigenome (Nature/Conceptual%20Model%20Natural%20System/Epigenome%20142c0f5171ec8025ab3bc314795c97d2.md), Pathogenesis (Nature/Conceptual%20Model%20Natural%20System/Pathogenesis%201a1c0f5171ec80e5a8fcd87fe61e1cd6.md), Genome (Nature/Conceptual%20Model%20Natural%20System/Genome%201a1c0f5171ec807eab03e14fd9d92da8.md), Gene (Nature/Conceptual%20Model%20Natural%20System/Gene%20115c0f5171ec80abb2e2d855b7a787b0.md)",,"Biology, Materials Science, Matter"
+Bacteria,8,Leptospira (Nature/Conceptual%20Model%20Natural%20System/Leptospira%201a1c0f5171ec80569a1dda6e97691f19.md),,"Biology, Materials Science, Matter"
+Genome,6,"Gene (Nature/Conceptual%20Model%20Natural%20System/Gene%20115c0f5171ec80abb2e2d855b7a787b0.md), Epigenome (Nature/Conceptual%20Model%20Natural%20System/Epigenome%20142c0f5171ec8025ab3bc314795c97d2.md), Leptospira (Nature/Conceptual%20Model%20Natural%20System/Leptospira%201a1c0f5171ec80569a1dda6e97691f19.md), Human Genome (Nature/Conceptual%20Model%20Natural%20System/Human%20Genome%20378c0f5171ec80c19535cc9bb6072e56.md), Living System (Nature/Conceptual%20Model%20Natural%20System/Living%20System%2017cc0f5171ec8093b664fbee6a672b0e.md)",,"Biology, System"
+Virulence Factor,16,"Pathogen (Nature/Conceptual%20Model%20Natural%20System/Pathogen%2017cc0f5171ec8055be7cca4580afb42b.md), Pathogenesis (Nature/Conceptual%20Model%20Natural%20System/Pathogenesis%201a1c0f5171ec80e5a8fcd87fe61e1cd6.md)",,"Biology, System"
+Evolution,9,"Photoelectric Effect (Nature/Conceptual%20Model%20Natural%20System/Photoelectric%20Effect%2015dc0f5171ec8011aca7f5a694ebdc71.md), Adaptation (Nature/Conceptual%20Model%20Natural%20System/Adaptation%201e4c0f5171ec80b99c7ef278d3eff07c.md)",,"Biology, Phenomena"
+Scopolamine,11,,,"Materials Science, Matter, Molecule"
+Drug,4,Human (Nature/Conceptual%20Model%20Natural%20System/Human%2020bc0f5171ec804499ccd7b830f5f5ec.md),,"Materials Science, Matter"
+Optical Phenomena,17,,,Phenomena
+Acoustics Phenomena,19,Human Auditory System (Nature/Conceptual%20Model%20Natural%20System/Human%20Auditory%20System%201bbc0f5171ec8056b2a4e2aed7638fa7.md),,Phenomena
+Solid State Phenomena,21,Condensed Matter Phenomena (Nature/Conceptual%20Model%20Natural%20System/Condensed%20Matter%20Phenomena%201aec0f5171ec806f8666fb6b41c2996b.md),,"Materials Science, Phenomena, Physics"
+Condensed Matter Phenomena,26,Solid State Phenomena (Nature/Conceptual%20Model%20Natural%20System/Solid%20State%20Phenomena%201aec0f5171ec808eb99af6ab105bb046.md),,
+Human Vision System,19,,,System
+Phenomena,9,Universe (Nature/Conceptual%20Model%20Natural%20System/Universe%20220c0f5171ec805a8364f633cac5ce87.md),,Phenomena
+Electric Charge,15,"Matter (Nature/Conceptual%20Model%20Natural%20System/Matter%20209b4646856a413186ebc5b793910b2b.md), Electrical Circuit (Nature/Conceptual%20Model%20Natural%20System/Electrical%20Circuit%2029cc0f5171ec8028ac83c4d3303b44eb.md)",,Property
+Electrical Conductor,20,,,"Materials Science, Matter"
+Free Particle,13,,,"Materials Science, Matter, Physics"
+Electron Hole,13,Quasiparticle (Nature/Conceptual%20Model%20Natural%20System/Quasiparticle%20115c0f5171ec8011b2bee6f408f58510.md),,"Electromagnetism, Materials Science, Matter, Property"
+Electromagnetic Field (EM),26,Electromagnetic Radiation (EMR) (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20Radiation%20(EMR)%20387dd6894b604dfc9b9640f2be0f769c.md),,
+Fundamental Molecular Interaction,33,"Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md), Force (Nature/Conceptual%20Model%20Natural%20System/Force%20ef6d9b72ed2b497d84cdaa0bb2212dc7.md), Interaction (Nature/Conceptual%20Model%20Natural%20System/Interaction%201b1c0f5171ec8063889eef7f94da9698.md), Matter (Nature/Conceptual%20Model%20Natural%20System/Matter%20209b4646856a413186ebc5b793910b2b.md)",,"Interaction, Materials Science, Matter, Molecule"
+Interaction,11,"Force (Nature/Conceptual%20Model%20Natural%20System/Force%20ef6d9b72ed2b497d84cdaa0bb2212dc7.md), Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md), Fundamental Molecular Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Molecular%20Interaction%201b1c0f5171ec800d9e62ecd4457342a1.md), Atom (Nature/Conceptual%20Model%20Natural%20System/Atom%2010cc0f5171ec8083b1baf8f9d2d99620.md), Matter (Nature/Conceptual%20Model%20Natural%20System/Matter%20209b4646856a413186ebc5b793910b2b.md)",,Interaction
+Radio Wave,10,"Electromagnetic Radiation (EMR) (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20Radiation%20(EMR)%20387dd6894b604dfc9b9640f2be0f769c.md), Frequency (Periodicity) (Nature/Conceptual%20Model%20Natural%20System/Frequency%20(Periodicity)%201c3c0f5171ec80c79de4e2520c7f3e51.md), Electric Current (Nature/Conceptual%20Model%20Natural%20System/Electric%20Current%2010cc0f5171ec809b883fcd91de073375.md), Radiation (Nature/Conceptual%20Model%20Natural%20System/Radiation%2010cc0f5171ec80049f25f1bf83bc6389.md), Wave (Nature/Conceptual%20Model%20Natural%20System/Wave%20abe8be3df7354f11a8e84fa436de2e0b.md)",,"Phenomena, Physics"
+Gas,3,Fluid (Nature/Conceptual%20Model%20Natural%20System/Fluid%2010cc0f5171ec809b98d9f7a1b292dba4.md),,"Materials Science, Matter"
+Human Auditory System,21,Acoustics Phenomena (Nature/Conceptual%20Model%20Natural%20System/Acoustics%20Phenomena%201aec0f5171ec806fb1f2e35f9adfd2fb.md),,"Biology, System"
+Earth,5,"Earth Water System (Nature/Conceptual%20Model%20Natural%20System/Earth%20Water%20System%20204c0f5171ec80d68043fe75ba36b7ef.md), Earth Crust (Nature/Conceptual%20Model%20Natural%20System/Earth%20Crust%20295c0f5171ec8048b585dbbed48fe3d8.md)",,System
+Frequency (Periodicity),23,Radio Wave (Nature/Conceptual%20Model%20Natural%20System/Radio%20Wave%201b9c0f5171ec80c8a312c0d49a882aef.md),,Property
+Solar System,12,,,System
+Death,5,,,Biology
+Process,7,,,Matter
+Adaptation,10,Evolution (Nature/Conceptual%20Model%20Natural%20System/Evolution%201a1c0f5171ec80118600d99270355a5e.md),,"Biology, Phenomena"
+Steam,5,,,"Phenomena, Thermodynamics"
+Kinetic Energy,14,,,Energy
+Potential Energy,16,Electromagnetic System (Nature/Conceptual%20Model%20Natural%20System/Electromagnetic%20System%20225c0f5171ec8041b3eec1564b45c5dc.md),,"Energy, Phenomena"
+Human Nervous System,20,Human Memory (Nature/Conceptual%20Model%20Natural%20System/Human%20Memory%2092d56eeafc4343d0bf9004c8e923fa2f.md),,"Biology, System"
+Material Failure,16,"Corrosion (Nature/Conceptual%20Model%20Natural%20System/Corrosion%20be90af87ed4d4cbfb4b3a8d7a43fe8b1.md), Material Structure (Nature/Conceptual%20Model%20Natural%20System/Material%20Structure%201edc0f5171ec8007b5dacbc6f1cf4c2d.md)",,"Materials Science, Matter, Phenomena"
+Material Structure,18,Material Failure (Nature/Conceptual%20Model%20Natural%20System/Material%20Failure%201edc0f5171ec80b49ef8f706cf407cd2.md),,"Materials Science, Matter, System"
+Suspension,10,Chemical Solution (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Solution%20ab2b9a2df8e646549967ef2e7f675e73.md),,"Materials Science, Matter"
+Mixture,7,Chemical Solution (Nature/Conceptual%20Model%20Natural%20System/Chemical%20Solution%20ab2b9a2df8e646549967ef2e7f675e73.md),,"Materials Science, Matter"
+Vacuum,6,,,System
+Static Fluid System,19,Fluid (Nature/Conceptual%20Model%20Natural%20System/Fluid%2010cc0f5171ec809b98d9f7a1b292dba4.md),,System
+Time Dilation,13,"Principle of Relativity (Nature/Conceptual%20Model%20Natural%20System/Principle%20of%20Relativity%2014fc71eba9814cbd8cda7fc90accf46b.md), Time (Nature/Conceptual%20Model%20Natural%20System/Time%20213eb01488b24cc6ad65e7f1cdac322a.md)",,Phenomena
+Turbulence,10,,,Physics
+Quantum  System,15,,,"Physics, System"
+Vortex,6,"Fluid (Nature/Conceptual%20Model%20Natural%20System/Fluid%2010cc0f5171ec809b98d9f7a1b292dba4.md), Earth Water System (Nature/Conceptual%20Model%20Natural%20System/Earth%20Water%20System%20204c0f5171ec80d68043fe75ba36b7ef.md)",,"Physics, System"
+Earth Water System,18,"Vortex (Nature/Conceptual%20Model%20Natural%20System/Vortex%20204c0f5171ec80f88a06dd937c106110.md), Earth (Nature/Conceptual%20Model%20Natural%20System/Earth%201bfc0f5171ec8021893ad56b46fe2044.md)",,System
+Floating,8,Fluid (Nature/Conceptual%20Model%20Natural%20System/Fluid%2010cc0f5171ec809b98d9f7a1b292dba4.md),,"Phenomena, Physics"
+Human,5,"Drug (Nature/Conceptual%20Model%20Natural%20System/Drug%201a4c0f5171ec804cb3b1e5e46a3143d8.md), Cell (Nature/Conceptual%20Model%20Natural%20System/Cell%20ef6d9f1dc6db4599a17f9095f126569f.md), Tissue (Nature/Conceptual%20Model%20Natural%20System/Tissue%20221c0f5171ec80928b45c11f5f596af8.md), Muscle (Nature/Conceptual%20Model%20Natural%20System/Muscle%20140c0f5171ec80d69d5cc77318256fe7.md), Adipose Tissue (Nature/Conceptual%20Model%20Natural%20System/Adipose%20Tissue%20225c0f5171ec80cb9adad6acacf8a9aa.md), Cardiovascular System (Nature/Conceptual%20Model%20Natural%20System/Cardiovascular%20System%20227c0f5171ec80cab4f3d5f337980c07.md), Metabolism (Nature/Conceptual%20Model%20Natural%20System/Metabolism%207d21780dc490459c96366df8f171cd76.md)",,"Biology, System"
+Steel,5,,,"Materials Science, Matter"
+Alloy,5,,,"Materials Science, Matter"
+Metal,5,,,"Materials Science, Matter"
+Liquid,6,Fluid (Nature/Conceptual%20Model%20Natural%20System/Fluid%2010cc0f5171ec809b98d9f7a1b292dba4.md),,"Materials Science, Matter"
+Universe,8,Phenomena (Nature/Conceptual%20Model%20Natural%20System/Phenomena%201b0c0f5171ec80b3a178d89177fa478d.md),,System
+Cell Signaling,14,"Hormone (Nature/Conceptual%20Model%20Natural%20System/Hormone%200eaa83da0c0a4a279d6d409383ec5893.md), Neurotransmitter (Nature/Conceptual%20Model%20Natural%20System/Neurotransmitter%20227c0f5171ec80b08ffdc3f12e7be1fd.md)",,"Biology, Phenomena"
+Tissue,6,"Human (Nature/Conceptual%20Model%20Natural%20System/Human%2020bc0f5171ec804499ccd7b830f5f5ec.md), Muscle (Nature/Conceptual%20Model%20Natural%20System/Muscle%20140c0f5171ec80d69d5cc77318256fe7.md), Adipose Tissue (Nature/Conceptual%20Model%20Natural%20System/Adipose%20Tissue%20225c0f5171ec80cb9adad6acacf8a9aa.md), Organ (Nature/Conceptual%20Model%20Natural%20System/Organ%20227c0f5171ec80edb18bf7362cc8713d.md)",,"Biology, Biomaterial"
+Electromagnetic System,22,"Energy (Nature/Conceptual%20Model%20Natural%20System/Energy%2039f21c7cc02545e289e03578281bd13f.md), Potential Energy (Nature/Conceptual%20Model%20Natural%20System/Potential%20Energy%201e5c0f5171ec8095b657effcb6b353e2.md), Fundamental Interaction (Nature/Conceptual%20Model%20Natural%20System/Fundamental%20Interaction%2016dc0f5171ec807cb855fab0666eb952.md)",,System
+Adipose Tissue,14,"Human (Nature/Conceptual%20Model%20Natural%20System/Human%2020bc0f5171ec804499ccd7b830f5f5ec.md), Tissue (Nature/Conceptual%20Model%20Natural%20System/Tissue%20221c0f5171ec80928b45c11f5f596af8.md)",,"Biology, Materials Science, Matter"
+Cardiovascular System,21,"Human (Nature/Conceptual%20Model%20Natural%20System/Human%2020bc0f5171ec804499ccd7b830f5f5ec.md), Cell (Nature/Conceptual%20Model%20Natural%20System/Cell%20ef6d9f1dc6db4599a17f9095f126569f.md), Endocrine System (Nature/Conceptual%20Model%20Natural%20System/Endocrine%20System%20142c0f5171ec809d9a30efa438d511b5.md)",,"Biology, System"
+Nutrient,8,Nutrition (Nature/Conceptual%20Model%20Natural%20System/Nutrition%2018ec0f5171ec8044997bcd41e03b3a33.md),,"Biology, Materials Science, Matter"
+Neurotransmitter,16,Cell Signaling (Nature/Conceptual%20Model%20Natural%20System/Cell%20Signaling%20221c0f5171ec80d29626dfac0f59baad.md),,"Biology, Materials Science, Matter, Neuroscience"
+Organ,5,"Tissue (Nature/Conceptual%20Model%20Natural%20System/Tissue%20221c0f5171ec80928b45c11f5f596af8.md), Organ System (Nature/Conceptual%20Model%20Natural%20System/Organ%20System%20227c0f5171ec801aa1d0e66513311ee3.md), Brain (Nature/Conceptual%20Model%20Natural%20System/Brain%20a0dba22360494722a05b837c34806772.md)",,System
+Organ System,12,Organ (Nature/Conceptual%20Model%20Natural%20System/Organ%20227c0f5171ec80edb18bf7362cc8713d.md),,System
+Transport Phenomena,19,Mass Transport (Nature/Conceptual%20Model%20Natural%20System/Mass%20Transport%20229c0f5171ec804591edef6165c55a1a.md),,"Phenomena, Transport Phenomena"
+Mass Transport,14,"Transport Phenomena (Nature/Conceptual%20Model%20Natural%20System/Transport%20Phenomena%20229c0f5171ec80d28fead32c33e8058d.md), Mass (Nature/Conceptual%20Model%20Natural%20System/Mass%2016cc0f5171ec806189b9c2b8fbdad920.md)",,"Phenomena, Transport Phenomena"
+Rock,4,Mineral (Nature/Conceptual%20Model%20Natural%20System/Mineral%2022bc0f5171ec80fab296d6f843d27c49.md),,"Geoscience, Materials Science, Matter"
+Mineral,7,Rock (Nature/Conceptual%20Model%20Natural%20System/Rock%2022bc0f5171ec8095ba40e9370d3f0b6f.md),,"Geoscience, Materials Science, Matter"
+Transformation of Matter,24,Reaction (Nature/Conceptual%20Model%20Natural%20System/Reaction%20606ee2a758e94b0386a7054430918e35.md),,Phenomena
+Gravitational System,20,,,System
+Interface,9,,,Surface
+Weight,6,Mass (Nature/Conceptual%20Model%20Natural%20System/Mass%2016cc0f5171ec806189b9c2b8fbdad920.md),,Property
+Field,5,Particle (Nature/Conceptual%20Model%20Natural%20System/Particle%2016dc0f5171ec80ec8134f6b34bf2b3b3.md),,Surface
+Earth Crust,11,"Earth (Nature/Conceptual%20Model%20Natural%20System/Earth%201bfc0f5171ec8021893ad56b46fe2044.md), Soil (Nature/Conceptual%20Model%20Natural%20System/Soil%2017cc0f5171ec809abc69ee3960a03205.md)",,System
+Electrical Circuit,18,"Electric Charge (Nature/Conceptual%20Model%20Natural%20System/Electric%20Charge%201b0c0f5171ec80e98af5c745a32f391b.md), Electric Current (Nature/Conceptual%20Model%20Natural%20System/Electric%20Current%2010cc0f5171ec809b883fcd91de073375.md)",,System
+Energy Level,12,,,"Materials Science, Matter"
+Material,8,,,"Materials Science, Matter"
+Galilean Relativity Principle,29,,,"Description, Principle"
+Motion,6,Momentum (Nature/Conceptual%20Model%20Natural%20System/Momentum%2010cc0f5171ec80caa4ffc60578747f9e.md),,"Physics, Process"
+Rotation,8,,,Phenomena
+Human Genome,12,Genome (Nature/Conceptual%20Model%20Natural%20System/Genome%201a1c0f5171ec807eab03e14fd9d92da8.md),,System

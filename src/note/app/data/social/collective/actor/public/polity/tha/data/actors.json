@@ -1,0 +1,6795 @@
+{
+  "metadata": {
+    "source": "Historical archives, Royal Thai Government Gazettes, corporate histories, and economic development reports of Thailand",
+    "lastUpdated": "2026-02-16",
+    "description": "Comprehensive dataset of Thai actors driving technical change. Batch 1 of 5.",
+    "country": "Thailand",
+    "region": "Southeast Asia",
+    "flag": "🇹🇭",
+    "introduction": "A granular view of the dynamics structuring technical change in Thailand. This batch covers foundational state apparatus, key research institutes, major universities, and strategic industrial conglomerates. Events are detailed to show strategic evolution from the Rattanakosin modernization era to Industry 4.0.",
+    "evidenceConfidence": "Provisional",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": 1,
+      "name": "Ministry of Higher Education, Science, Research and Innovation (MHESI)",
+      "type": "public",
+      "role": "Policy & Strategy",
+      "regionOfActivity": "National",
+      "description": "Principal government body integrating higher education, science, research, and innovation policy.",
+      "events": [
+        {
+          "date": "1979-03-24",
+          "category": "birth",
+          "description": "Predecessor Ministry of Science, Technology and Energy established."
+        },
+        {
+          "date": "1992-09-30",
+          "category": "reorganization",
+          "description": "Renamed Ministry of Science, Technology and Environment (MOSTE)."
+        },
+        {
+          "date": "2002-10-03",
+          "category": "restructuring",
+          "description": "Reorganized into Ministry of Science and Technology (MOST)."
+        },
+        {
+          "date": "2019-04-30",
+          "category": "transformation",
+          "description": "Royal Decree established MHESI, merging science and higher education mandates."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "National Science and Technology Development Agency (NSTDA)",
+      "type": "public",
+      "role": "Research & Development",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Umbrella organization for national research centers (BIOTEC, MTEC, NECTEC, etc.).",
+      "events": [
+        {
+          "date": "1986-12-30",
+          "category": "birth",
+          "description": "Established initially as the Science and Technology Development Board."
+        },
+        {
+          "date": "1991-12-09",
+          "category": "milestone",
+          "description": "Formally inaugurated as NSTDA under MOSTE."
+        },
+        {
+          "date": "2001-11-20",
+          "category": "infrastructure",
+          "description": "Relocated to Thailand Science Park, creating a dedicated R&D cluster."
+        },
+        {
+          "date": "2013-09-05",
+          "category": "expansion",
+          "description": "Launched TSP Phase 2 to expand laboratory and incubation space."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chulalongkorn University",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Bangkok",
+      "description": "Thailand's oldest and most prestigious university, central to technical elite production.",
+      "events": [
+        {
+          "date": "1899-04-01",
+          "category": "birth",
+          "description": "Founded as the Royal Pages School (Civil Service Training)."
+        },
+        {
+          "date": "1917-03-26",
+          "category": "milestone",
+          "description": "Formally established as Chulalongkorn University, named after King Rama V."
+        },
+        {
+          "date": "1935-06-15",
+          "category": "technical",
+          "description": "Established the Faculty of Engineering, formalizing technical education."
+        },
+        {
+          "date": "1967-09-18",
+          "category": "research",
+          "description": "Established the Institute of Science and Technology for Research."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Siam Cement Group (SCG)",
+      "type": "public",
+      "role": "Heavy Industry & Conglomerate",
+      "regionOfActivity": "National/Regional",
+      "description": "Thailand's largest industrial conglomerate, driving construction and chemical technology.",
+      "events": [
+        {
+          "date": "1913-05-16",
+          "category": "birth",
+          "description": "Established by Royal Decree of King Rama VI to produce domestic cement."
+        },
+        {
+          "date": "1975-09-10",
+          "category": "expansion",
+          "description": "Diversified into petrochemicals, founding Thai Plastic Industrial."
+        },
+        {
+          "date": "1994-10-15",
+          "category": "technical",
+          "description": "Established the SCG Training Center to elevate technical skills in manufacturing."
+        },
+        {
+          "date": "2017-06-20",
+          "category": "innovation",
+          "description": "Launched 'SCG Innovation Hub' to scout and invest in deep-tech startups."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PTT Public Company Limited",
+      "type": "public",
+      "role": "Energy & Petrochemicals",
+      "regionOfActivity": "National",
+      "description": "State-owned energy giant driving downstream industrialization and refining.",
+      "events": [
+        {
+          "date": "1978-12-29",
+          "category": "birth",
+          "description": "Established as Petroleum Authority of Thailand."
+        },
+        {
+          "date": "1990-03-05",
+          "category": "infrastructure",
+          "description": "Commissioned the first Natural Gas Separation Plant in Rayong."
+        },
+        {
+          "date": "2001-12-17",
+          "category": "privatization",
+          "description": "Successfully listed on the Stock Exchange of Thailand (SET)."
+        },
+        {
+          "date": "2017-09-22",
+          "category": "strategy",
+          "description": "Announced 'PTT Synergy' strategy, pivoting to electric mobility infrastructure."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Board of Investment (BOI)",
+      "type": "public",
+      "role": "Investment Promotion",
+      "regionOfActivity": "National",
+      "description": "Key agency for attracting FDI and shaping industrial technology policy through incentives.",
+      "events": [
+        {
+          "date": "1954-10-17",
+          "category": "birth",
+          "description": "Established under the 'Investment Promotion Act'."
+        },
+        {
+          "date": "1972-10-17",
+          "category": "reform",
+          "description": "Passed new Investment Promotion Act, shifting focus to export-oriented industries."
+        },
+        {
+          "date": "2006-01-01",
+          "category": "policy",
+          "description": "Introduced specific incentives for 'High Technology' projects and R&D."
+        },
+        {
+          "date": "2015-12-01",
+          "category": "strategy",
+          "description": "Launched 'Cluster Development' policy targeting 10 strategic industries including robotics and aviation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "King Mongkut's University of Technology Thonburi (KMUTT)",
+      "type": "public",
+      "role": "Engineering Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading technical university focusing on engineering and industrial technology.",
+      "events": [
+        {
+          "date": "1960-02-04",
+          "category": "birth",
+          "description": "Founded as Thonburi Technical College."
+        },
+        {
+          "date": "1972-02-19",
+          "category": "transformation",
+          "description": "Upgraded to 'King Mongkut's Institute of Technology Thonburi'."
+        },
+        {
+          "date": "1998-03-15",
+          "category": "research",
+          "description": "Established the 'Theoretical and Applied Science Research Center'."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Electricity Generating Authority of Thailand (EGAT)",
+      "type": "public",
+      "role": "Power Infrastructure",
+      "regionOfActivity": "National",
+      "description": "State-owned utility responsible for power generation and transmission grid.",
+      "events": [
+        {
+          "date": "1969-05-01",
+          "category": "birth",
+          "description": "Established under the 'Yankee' power development plan."
+        },
+        {
+          "date": "1974-11-15",
+          "category": "infrastructure",
+          "description": "Commissioned Bhumibol Dam, a major hydroelectric power source."
+        },
+        {
+          "date": "2014-03-15",
+          "category": "technical",
+          "description": "Piloted the 'Pang Khon' wind power plant, entering renewable energy era."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Advanced Info Service (AIS)",
+      "type": "private",
+      "role": "Telecom & Digital",
+      "regionOfActivity": "National",
+      "description": "Thailand's largest mobile network operator, driving digital adoption.",
+      "events": [
+        {
+          "date": "1986-04-27",
+          "category": "birth",
+          "description": "Founded as IT services provider under Shinawatra Computer."
+        },
+        {
+          "date": "1991-11-01",
+          "category": "technical",
+          "description": "Launched analogue mobile phone service (NMT 900)."
+        },
+        {
+          "date": "2002-09-16",
+          "category": "milestone",
+          "description": "Launched nationwide GSM 1800 network."
+        },
+        {
+          "date": "2019-02-24",
+          "category": "technical",
+          "description": "Launched commercial 5G service at SEA Games."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "National Economic and Social Development Council (NESDC)",
+      "type": "public",
+      "role": "Strategic Planning",
+      "regionOfActivity": "National",
+      "description": "Architect of the National Economic and Social Development Plans.",
+      "events": [
+        {
+          "date": "1950-01-01",
+          "category": "birth",
+          "description": "Established as the National Economic Council."
+        },
+        {
+          "date": "1961-01-01",
+          "category": "policy",
+          "description": "Launched the First National Economic Development Plan."
+        },
+        {
+          "date": "2018-10-11",
+          "category": "reorganization",
+          "description": "Renamed to NESDC to emphasize social aspects."
+        },
+        {
+          "date": "2019-09-01",
+          "category": "strategy",
+          "description": "Published 'Thailand 4.0' strategy alignment report."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Charoen Pokphand Group (CP Group)",
+      "type": "private",
+      "role": "Agro-Industry & Telecom",
+      "regionOfActivity": "National/Global",
+      "description": "Leading conglomerate integrating agro-industrial technology and telecommunications (True).",
+      "events": [
+        {
+          "date": "1921-01-01",
+          "category": "birth",
+          "description": "Founded as a small seed shop in Bangkok's Chinatown."
+        },
+        {
+          "date": "1969-05-15",
+          "category": "technical",
+          "description": "Introduced contract farming, revolutionizing agricultural supply chains."
+        },
+        {
+          "date": "1990-11-05",
+          "category": "diversification",
+          "description": "Entered telecom sector, founding TelecomAsia (now True)."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Thailand Institute of Scientific and Technological Research (TISTR)",
+      "type": "public",
+      "role": "Applied Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Applied research institute focusing on industrial standards and testing.",
+      "events": [
+        {
+          "date": "1963-05-25",
+          "category": "birth",
+          "description": "Established as the Applied Scientific Research Corporation of Thailand."
+        },
+        {
+          "date": "1979-03-23",
+          "category": "reorganization",
+          "description": "Transformed into a state enterprise under MOSTE."
+        },
+        {
+          "date": "2003-09-10",
+          "category": "technical",
+          "description": "Achieved ISO/IEC 17025 accreditation for testing labs."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Asian Institute of Technology (AIT)",
+      "type": "international",
+      "role": "Postgraduate Education",
+      "regionOfActivity": "Pathum Thani",
+      "description": "International institute for engineering and technology education.",
+      "events": [
+        {
+          "date": "1959-01-15",
+          "category": "birth",
+          "description": "Founded as SEATO Graduate School of Engineering."
+        },
+        {
+          "date": "1967-11-10",
+          "category": "transformation",
+          "description": "Renamed Asian Institute of Technology."
+        },
+        {
+          "date": "2011-07-01",
+          "category": "research",
+          "description": "Launched 'Geoinformatics Center' for regional spatial technology."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Software Park Thailand",
+      "type": "public",
+      "role": "Cluster & Incubation",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Government agency promoting software industry development.",
+      "events": [
+        {
+          "date": "1997-09-20",
+          "category": "birth",
+          "description": "Established under NECTEC."
+        },
+        {
+          "date": "2002-05-15",
+          "category": "infrastructure",
+          "description": "Opened the main building in Chaeng Watthana."
+        },
+        {
+          "date": "2019-03-10",
+          "category": "program",
+          "description": "Launched 'Startup Thailand' initiative support."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Mahidol University",
+      "type": "public",
+      "role": "Medical & Science Research",
+      "regionOfActivity": "Bangkok",
+      "description": "Premier institution for medical and life sciences research.",
+      "events": [
+        {
+          "date": "1888-07-02",
+          "category": "birth",
+          "description": "Founded as Siriraj Hospital."
+        },
+        {
+          "date": "1943-02-21",
+          "category": "milestone",
+          "description": "Established University of Medical Sciences."
+        },
+        {
+          "date": "1969-06-18",
+          "category": "rebranding",
+          "description": "Renamed Mahidol University in honor of Prince Mahidol."
+        },
+        {
+          "date": "2015-08-15",
+          "category": "research",
+          "description": "Opened the 'Mahidol Medical Genomics Center' for precision medicine."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Thai Airways International",
+      "type": "public",
+      "role": "Aviation",
+      "regionOfActivity": "National",
+      "description": "National flag carrier, driving tourism and aviation maintenance standards.",
+      "events": [
+        {
+          "date": "1959-05-01",
+          "category": "birth",
+          "description": "Founded as a joint venture between domestic carrier and SAS."
+        },
+        {
+          "date": "1971-07-12",
+          "category": "technical",
+          "description": "Received first Douglas DC-10 aircraft, modernizing fleet."
+        },
+        {
+          "date": "1991-06-25",
+          "category": "privatization",
+          "description": "Listed on the Stock Exchange of Thailand."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "National Broadcasting and Telecommunications Commission (NBTC)",
+      "type": "public",
+      "role": "Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulatory body for broadcasting and telecommunications spectrum.",
+      "events": [
+        {
+          "date": "2010-12-17",
+          "category": "birth",
+          "description": "Established under the Frequency Allocation Act."
+        },
+        {
+          "date": "2012-10-16",
+          "category": "policy",
+          "description": "Conducted first 3G spectrum auction, ending state monopoly."
+        },
+        {
+          "date": "2018-02-12",
+          "category": "technical",
+          "description": "Released spectrum for 5G trials."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Siam Commercial Bank (SCB)",
+      "type": "private",
+      "role": "Financial Services",
+      "regionOfActivity": "National",
+      "description": "Thailand's first bank, driving digital banking innovation.",
+      "events": [
+        {
+          "date": "1906-01-30",
+          "category": "birth",
+          "description": "Established as the 'Book Club' before formal banking license."
+        },
+        {
+          "date": "1907-04-04",
+          "category": "milestone",
+          "description": "Formally registered as Siam Commercial Bank."
+        },
+        {
+          "date": "2017-04-20",
+          "category": "digital",
+          "description": "Launched SCB Easy version 8.0, a leading digital banking platform."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Bangkok Bank",
+      "type": "private",
+      "role": "Financial Services",
+      "regionOfActivity": "National/Regional",
+      "description": "Thailand's largest bank by assets, financing industrial growth.",
+      "events": [
+        {
+          "date": "1944-11-20",
+          "category": "birth",
+          "description": "Founded by Chin Sophonpanich."
+        },
+        {
+          "date": "1963-10-01",
+          "category": "expansion",
+          "description": "Opened first overseas branch in Hong Kong."
+        },
+        {
+          "date": "2012-04-12",
+          "category": "technical",
+          "description": "Implemented core banking system upgrade for regional integration."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Thai Summit Group",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Leading manufacturer of automotive parts and assemblies.",
+      "events": [
+        {
+          "date": "1977-01-01",
+          "category": "birth",
+          "description": "Founded by Patamas Prapass."
+        },
+        {
+          "date": "1988-06-15",
+          "category": "partnership",
+          "description": "Joint venture with Honda for motorcycle frame manufacturing."
+        },
+        {
+          "date": "2005-03-10",
+          "category": "technical",
+          "description": "Adopted robotic welding lines for chassis production."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Synchrotron Light Research Institute (SLRI)",
+      "type": "public",
+      "role": "Advanced Research Infrastructure",
+      "regionOfActivity": "Nakhon Ratchasima",
+      "description": "Operator of Thailand's synchrotron light source facility.",
+      "events": [
+        {
+          "date": "1996-06-18",
+          "category": "birth",
+          "description": "Project approved by the cabinet."
+        },
+        {
+          "date": "2004-12-01",
+          "category": "technical",
+          "description": "First light achieved at the Siam Photon Source."
+        },
+        {
+          "date": "2015-07-10",
+          "category": "expansion",
+          "description": "Initiated project to upgrade storage ring for higher brightness."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "National Institute of Metrology (Thailand) (NIMT)",
+      "type": "public",
+      "role": "Standards & Metrology",
+      "regionOfActivity": "Pathum Thani",
+      "description": "National measurement institute ensuring industrial standardization.",
+      "events": [
+        {
+          "date": "1998-01-26",
+          "category": "birth",
+          "description": "Established under NECTEC."
+        },
+        {
+          "date": "2004-06-15",
+          "category": "milestone",
+          "description": "Became a member of the Meter Convention (CIPM MRA)."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Industrial Estate Authority of Thailand (IEAT)",
+      "type": "public",
+      "role": "Industrial Infrastructure",
+      "regionOfActivity": "National",
+      "description": "State enterprise responsible for developing and managing industrial estates.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Established to organize industrial land use."
+        },
+        {
+          "date": "1979-12-20",
+          "category": "infrastructure",
+          "description": "Launched Bangchan Industrial Estate, the first in Thailand."
+        },
+        {
+          "date": "2006-08-15",
+          "category": "policy",
+          "description": "Introduced IEAT Free Zone incentives for export industries."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Amata Corporation",
+      "type": "private",
+      "role": "Industrial Estate Developer",
+      "regionOfActivity": "Eastern Seaboard",
+      "description": "Largest private developer of industrial estates.",
+      "events": [
+        {
+          "date": "1989-01-12",
+          "category": "birth",
+          "description": "Founded by Vikrom Kromadit."
+        },
+        {
+          "date": "1994-06-10",
+          "category": "expansion",
+          "description": "Developed Amata Nakorn Industrial Estate in Chonburi."
+        },
+        {
+          "date": "2015-11-20",
+          "category": "technical",
+          "description": "Initiated 'Amata Smart City' concept for industrial digitization."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "King Mongkut's University of Technology North Bangkok (KMUTNB)",
+      "type": "public",
+      "role": "Engineering Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Technical university originating from Thai-German technical cooperation.",
+      "events": [
+        {
+          "date": "1959-02-01",
+          "category": "birth",
+          "description": "Founded as Thai-German Technical School."
+        },
+        {
+          "date": "1964-05-20",
+          "category": "expansion",
+          "description": "Upgraded to North Bangkok Technical College."
+        },
+        {
+          "date": "2005-08-15",
+          "category": "research",
+          "description": "Established 'Institute of Nuclear Technology' application."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Thai Oil Public Company Limited",
+      "type": "public",
+      "role": "Refining",
+      "regionOfActivity": "Si Racha",
+      "description": "Thailand's largest oil refinery, critical for energy security.",
+      "events": [
+        {
+          "date": "1961-12-21",
+          "category": "birth",
+          "description": "Founded as Thai Oil Refinery Co., Ltd."
+        },
+        {
+          "date": "1989-01-01",
+          "category": "reform",
+          "description": "Became a subsidiary of PTT."
+        },
+        {
+          "date": "2001-11-01",
+          "category": "technical",
+          "description": "Completed Clean Fuel Project to produce Euro IV standard fuels."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Federation of Thai Industries (FTI)",
+      "type": "nonprofit",
+      "role": "Industry Advocacy",
+      "regionOfActivity": "National",
+      "description": "Umbrella organization representing industrial manufacturers.",
+      "events": [
+        {
+          "date": "1967-05-01",
+          "category": "birth",
+          "description": "Founded to represent the manufacturing sector."
+        },
+        {
+          "date": "2017-03-15",
+          "category": "policy",
+          "description": "Launched 'Thailand 4.0' industry transformation roadmap."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Thailand Automotive Institute (TAI)",
+      "type": "public",
+      "role": "Policy & Research",
+      "regionOfActivity": "Bangkok",
+      "description": "Policy think tank for the automotive industry.",
+      "events": [
+        {
+          "date": "1998-07-10",
+          "category": "birth",
+          "description": "Established under Ministry of Industry."
+        },
+        {
+          "date": "2012-11-20",
+          "category": "policy",
+          "description": "Published 'Master Plan for Automotive Industry 2012-2016'."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Delta Electronics (Thailand)",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading manufacturer of power electronics and automation components.",
+      "events": [
+        {
+          "date": "1988-08-01",
+          "category": "birth",
+          "description": "Established as Delta Electronics (Thailand) Pcl."
+        },
+        {
+          "date": "1995-09-15",
+          "category": "expansion",
+          "description": "Listed on the Stock Exchange of Thailand."
+        },
+        {
+          "date": "2010-06-20",
+          "category": "technical",
+          "description": "Expanded EV charger manufacturing lines."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "King Mongkut's Institute of Technology Ladkrabang (KMITL)",
+      "type": "public",
+      "role": "Engineering Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Premier engineering institute, strong in telecommunications and electronics.",
+      "events": [
+        {
+          "date": "1960-06-01",
+          "category": "birth",
+          "description": "Established as Ladkraburi Technical College."
+        },
+        {
+          "date": "1971-11-16",
+          "category": "transformation",
+          "description": "Merged into KMIT system."
+        },
+        {
+          "date": "2012-08-01",
+          "category": "research",
+          "description": "Established the 'Satellite Communication Laboratory'."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Digital Economy Promotion Agency (DEPA)",
+      "type": "public",
+      "role": "Digital Promotion",
+      "regionOfActivity": "National",
+      "description": "Agency driving digital economy transformation.",
+      "events": [
+        {
+          "date": "2017-01-16",
+          "category": "birth",
+          "description": "Established under the Ministry of Digital Economy and Society."
+        },
+        {
+          "date": "2018-04-10",
+          "category": "program",
+          "description": "Launched 'Digital Transformation Fund' for SMEs."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Hana Microelectronics",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Bangkok/Lamphun",
+      "description": "Leading semiconductor assembly and test service provider.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "Founded in Thailand."
+        },
+        {
+          "date": "1998-04-20",
+          "category": "technical",
+          "description": "Completed construction of Lamphun facility."
+        },
+        {
+          "date": "2014-07-10",
+          "category": "expansion",
+          "description": "Invested in MEMS sensor manufacturing."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Office of the National Economic and Social Development Board (NESDB)",
+      "type": "public",
+      "role": "Planning",
+      "regionOfActivity": "National",
+      "description": "Predecessor to NESDC, key in drafting 5-year plans.",
+      "events": [
+        {
+          "date": "1959-02-15",
+          "category": "birth",
+          "description": "Established by Prime Minister Sarit Thanarat."
+        },
+        {
+          "date": "1972-10-12",
+          "category": "policy",
+          "description": "Integrated social development into economic planning."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Bangkok Expressway and Metro (BEM)",
+      "type": "private",
+      "role": "Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Major operator of expressways and metro systems.",
+      "events": [
+        {
+          "date": "1979-03-12",
+          "category": "birth",
+          "description": "Founded as Expressway and Rapid Transit Authority (ETA)."
+        },
+        {
+          "date": "2019-08-09",
+          "category": "reorganization",
+          "description": "Restructured as BEM (Bangkok Expressway and Metro)."
+        },
+        {
+          "date": "2004-07-03",
+          "category": "technical",
+          "description": "Opened Blue Line MRT, Thailand's first underground rail."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Bank of Thailand (BOT)",
+      "type": "public",
+      "role": "Central Banking & FinTech",
+      "regionOfActivity": "National",
+      "description": "Central bank overseeing financial stability and FinTech innovation.",
+      "events": [
+        {
+          "date": "1942-12-10",
+          "category": "birth",
+          "description": "Founded under the Bank of Thailand Act."
+        },
+        {
+          "date": "2018-03-19",
+          "category": "policy",
+          "description": "Established 'Regulatory Sandbox' for FinTech startups."
+        },
+        {
+          "date": "2021-11-15",
+          "category": "technical",
+          "description": "Launched retail Central Bank Digital Currency (CBDC) pilot."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Thai Union Group",
+      "type": "private",
+      "role": "Food Technology",
+      "regionOfActivity": "Bangkok",
+      "description": "Global leader in seafood processing and innovation.",
+      "events": [
+        {
+          "date": "1977-01-01",
+          "category": "birth",
+          "description": "Founded as Thai Union Manufacturing Co., Ltd."
+        },
+        {
+          "date": "1994-06-30",
+          "category": "expansion",
+          "description": "Listed on SET."
+        },
+        {
+          "date": "2015-10-15",
+          "category": "innovation",
+          "description": "Opened Global Innovation Incubator (GII) in Bangkok."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "True Corporation",
+      "type": "private",
+      "role": "Telecom & Media",
+      "regionOfActivity": "National",
+      "description": "Integrated telecom and media provider (CP Group).",
+      "events": [
+        {
+          "date": "1990-11-05",
+          "category": "birth",
+          "description": "Founded as TelecomAsia."
+        },
+        {
+          "date": "2001-02-15",
+          "category": "technical",
+          "description": "Launched broadband internet services over ADSL."
+        },
+        {
+          "date": "2013-11-05",
+          "category": "merger",
+          "description": "Merged with True Move to form True Corporation."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Suranaree University of Technology (SUT)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Nakhon Ratchasima",
+      "description": "First public autonomous university, focused on science and technology.",
+      "events": [
+        {
+          "date": "1990-07-30",
+          "category": "birth",
+          "description": "Established as the first autonomous university outside Bangkok."
+        },
+        {
+          "date": "2002-08-01",
+          "category": "research",
+          "description": "Hosts the 'Institute of Engineering' emphasizing cooperative education."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Geo-Informatics and Space Technology Development Agency (GISTDA)",
+      "type": "public",
+      "role": "Space Technology",
+      "regionOfActivity": "Pathum Thani",
+      "description": "National space agency for remote sensing and GIS.",
+      "events": [
+        {
+          "date": "2000-11-20",
+          "category": "birth",
+          "description": "Established under Ministry of Science and Technology."
+        },
+        {
+          "date": "2008-10-18",
+          "category": "technical",
+          "description": "Launched THEOS-1 (Thaichote), Thailand's first earth observation satellite."
+        },
+        {
+          "date": "2020-09-25",
+          "category": "milestone",
+          "description": "Initiated development of THEOS-2 satellite system."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Chiang Mai University (CMU)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Chiang Mai",
+      "description": "First provincial university, hub for Northern Thailand's technology.",
+      "events": [
+        {
+          "date": "1964-01-21",
+          "category": "birth",
+          "description": "Founded under the National Education Plan."
+        },
+        {
+          "date": "2016-09-20",
+          "category": "research",
+          "description": "Opened 'Center of Excellence in Materials Science and Nanotechnology'."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "WHA Corporation",
+      "type": "private",
+      "role": "Industrial Estate & Logistics",
+      "regionOfActivity": "Eastern Seaboard",
+      "description": "Leading developer of industrial estates and logistics hubs.",
+      "events": [
+        {
+          "date": "1989-01-12",
+          "category": "birth",
+          "description": "Founded as Warehouse & Habit Co., Ltd."
+        },
+        {
+          "date": "2012-06-20",
+          "category": "expansion",
+          "description": "Developed WHA Eastern Industrial Estate."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "National Metal and Materials Technology Center (MTEC)",
+      "type": "public",
+      "role": "Materials Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Research center under NSTDA for advanced materials.",
+      "events": [
+        {
+          "date": "1986-11-25",
+          "category": "birth",
+          "description": "Established as a national center."
+        },
+        {
+          "date": "2006-08-15",
+          "category": "technical",
+          "description": "Developed lightweight magnesium alloy for automotive industry."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "National Center for Genetic Engineering and Biotechnology (BIOTEC)",
+      "type": "public",
+      "role": "Biotechnology Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Pioneering biotech research center under NSTDA.",
+      "events": [
+        {
+          "date": "1983-09-20",
+          "category": "birth",
+          "description": "Established under Ministry of Science."
+        },
+        {
+          "date": "2007-02-10",
+          "category": "technical",
+          "description": "Developed diagnostic kits for shrimp viruses (white spot syndrome)."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "National Electronics and Computer Technology Center (NECTEC)",
+      "type": "public",
+      "role": "IT & Electronics Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Core driver of Thailand's IT and computer technology policy.",
+      "events": [
+        {
+          "date": "1986-09-16",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "1995-11-15",
+          "category": "infrastructure",
+          "description": "Launched 'ThaiSarn' (Thai Social/Scientific Academic Network), early internet."
+        },
+        {
+          "date": "2008-06-20",
+          "category": "technical",
+          "description": "Developed 'Chula Nakhon' rice sensor for moisture detection."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Kasetsart University",
+      "type": "public",
+      "role": "Agricultural Science & Engineering",
+      "regionOfActivity": "Bangkok",
+      "description": "Premier university for agriculture and applied sciences.",
+      "events": [
+        {
+          "date": "1943-02-02",
+          "category": "birth",
+          "description": "Founded as University of Agriculture."
+        },
+        {
+          "date": "1966-09-15",
+          "category": "technical",
+          "description": "Established the Engineering Faculty."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Irámu Technology Company (Iramutech)",
+      "type": "public",
+      "role": "Mineral Processing",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading company in mining and metallurgical technology.",
+      "events": [
+        {
+          "date": "1978-05-10",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1992-08-20",
+          "category": "technical",
+          "description": "Adopted flotation technology for potassium separation."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Mitre Mall Group",
+      "type": "private",
+      "role": "Consumer & Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Early pioneer in electronics distribution.",
+      "events": [
+        {
+          "date": "1963-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1985-06-15",
+          "category": "expansion",
+          "description": "Expanded into computer distribution."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Office of the Civil Service Commission (OCSC)",
+      "type": "public",
+      "role": "Human Resources",
+      "regionOfActivity": "National",
+      "description": "Regulates civil service, key in technical manpower planning.",
+      "events": [
+        {
+          "date": "1959-06-26",
+          "category": "birth",
+          "description": "Established by the Civil Service Act."
+        },
+        {
+          "date": "1975-08-12",
+          "category": "policy",
+          "description": "Initiated overseas scholarship programs for technical disciplines."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Electronics Transactions Development Agency (ETDA)",
+      "type": "public",
+      "role": "E-Commerce Regulation",
+      "regionOfActivity": "National",
+      "description": "Promotes and regulates electronic transactions.",
+      "events": [
+        {
+          "date": "2011-12-27",
+          "category": "birth",
+          "description": "Established under Ministry of ICT."
+        },
+        {
+          "date": "2019-05-10",
+          "category": "policy",
+          "description": "Enforced data protection compliance standards."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Ministry of Industry",
+      "type": "public",
+      "role": "Industrial Governance",
+      "regionOfActivity": "National",
+      "description": "Regulates factories, industrial standards, and SMEs.",
+      "events": [
+        {
+          "date": "1942-05-05",
+          "category": "birth",
+          "description": "Established as Ministry of Industry."
+        },
+        {
+          "date": "1979-11-15",
+          "category": "policy",
+          "description": "Promulgated the Factory Act, modernizing industrial regulation."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Thai Meteorological Department (TMD)",
+      "type": "public",
+      "role": "Weather Technology",
+      "regionOfActivity": "National",
+      "description": "National agency for weather forecasting and climate monitoring.",
+      "events": [
+        {
+          "date": "1923-09-23",
+          "category": "birth",
+          "description": "Established as Meteorological and Hydrological Service."
+        },
+        {
+          "date": "1997-06-01",
+          "category": "technical",
+          "description": "Installed Doppler radar system for improved storm tracking."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Department of Mineral Resources",
+      "type": "public",
+      "role": "Geology & Mining",
+      "regionOfActivity": "National",
+      "description": "Manages mineral resources and geological survey.",
+      "events": [
+        {
+          "date": "1891-01-01",
+          "category": "birth",
+          "description": "Founded as Royal Department of Mines."
+        },
+        {
+          "date": "1979-01-15",
+          "category": "technical",
+          "description": "Mapped potash deposits in the Northeast."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Siam Kubota Corporation",
+      "type": "hybrid",
+      "role": "Agricultural Machinery",
+      "regionOfActivity": "National",
+      "description": "Joint venture for tractor and combine harvester manufacturing.",
+      "events": [
+        {
+          "date": "1978-02-01",
+          "category": "birth",
+          "description": "Established as Siam Kubota Industry Co., Ltd."
+        },
+        {
+          "date": "1995-08-15",
+          "category": "technical",
+          "description": "Localized production of diesel engines for tractors."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Thailand Research Fund (TRF)",
+      "type": "public",
+      "role": "Funding Agency",
+      "regionOfActivity": "National",
+      "description": "Primary funding body for basic and applied research.",
+      "events": [
+        {
+          "date": "1992-10-01",
+          "category": "birth",
+          "description": "Established under the Ministry of Science."
+        },
+        {
+          "date": "2019-10-01",
+          "category": "merger",
+          "description": "Merged into Thailand Science Research and Innovation (TSRI)."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "National Nanotechnology Center (NANOTEC)",
+      "type": "public",
+      "role": "Nanotechnology Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Specialized research center for nanoscale technologies.",
+      "events": [
+        {
+          "date": "2003-08-04",
+          "category": "birth",
+          "description": "Established under NSTDA."
+        },
+        {
+          "date": "2010-03-20",
+          "category": "technical",
+          "description": "Developed nano-coatings for textile industry."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Thai Airways Technics",
+      "type": "public",
+      "role": "MRO Services",
+      "regionOfActivity": "Bangkok",
+      "description": "Maintenance, repair, and overhaul center for aviation.",
+      "events": [
+        {
+          "date": "1960-03-01",
+          "category": "birth",
+          "description": "Established as engineering division of THAI."
+        },
+        {
+          "date": "2010-07-15",
+          "category": "technical",
+          "description": "Achieved capability to service GE90 engines."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Bangkok Industrial Gas (BIG)",
+      "type": "private",
+      "role": "Industrial Gases",
+      "regionOfActivity": "National",
+      "description": "Supplier of industrial gases critical for manufacturing.",
+      "events": [
+        {
+          "date": "1974-01-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1998-05-10",
+          "category": "technical",
+          "description": "Built Air Separation Unit in Map Ta Phut."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Siam Yamaha Motor",
+      "type": "hybrid",
+      "role": "Motorcycle Manufacturing",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading motorcycle manufacturer driving engine technology.",
+      "events": [
+        {
+          "date": "1964-08-20",
+          "category": "birth",
+          "description": "Founded as Siam Yamaha Co., Ltd."
+        },
+        {
+          "date": "1986-03-15",
+          "category": "technical",
+          "description": "Began local production of engine components."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Rayong Refinery",
+      "type": "public",
+      "role": "Petrochemicals",
+      "regionOfActivity": "Rayong",
+      "description": "Major refinery and petrochemical complex.",
+      "events": [
+        {
+          "date": "1994-12-15",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2005-05-10",
+          "category": "merger",
+          "description": "Merged with Aromatics Thailand to form PTT Global Chemical."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Silpakorn University",
+      "type": "public",
+      "role": "Arts & Technology",
+      "regionOfActivity": "Bangkok",
+      "description": "University integrating arts with technology (e.g., architectural tech).",
+      "events": [
+        {
+          "date": "1943-10-12",
+          "category": "birth",
+          "description": "Founded as the University of Fine Arts."
+        },
+        {
+          "date": "2005-09-01",
+          "category": "research",
+          "description": "Established 'Faculty of Information and Communication Technology'."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Stock Exchange of Thailand (SET)",
+      "type": "public",
+      "role": "Capital Market",
+      "regionOfActivity": "Bangkok",
+      "description": "Facilitates capital for technology companies.",
+      "events": [
+        {
+          "date": "1975-04-30",
+          "category": "birth",
+          "description": "Officially inaugurated."
+        },
+        {
+          "date": "1999-11-15",
+          "category": "technical",
+          "description": "Launched internet trading system."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Thailand Convention and Exhibition Bureau (TCEB)",
+      "type": "public",
+      "role": "MICE Industry",
+      "regionOfActivity": "National",
+      "description": "Promotes business events and technology trade shows.",
+      "events": [
+        {
+          "date": "2004-09-27",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2015-06-10",
+          "category": "event",
+          "description": "Supported 'Meta Morphosis' tech exhibition."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Thailand Institute of Nuclear Technology (TINT)",
+      "type": "public",
+      "role": "Nuclear Research",
+      "regionOfActivity": "Nakhon Nayok",
+      "description": "Research center for nuclear science applications.",
+      "events": [
+        {
+          "date": "2006-12-20",
+          "category": "birth",
+          "description": "Established as a public organization."
+        },
+        {
+          "date": "2010-07-15",
+          "category": "technical",
+          "description": "Commissioned the TRR-1/M1 research reactor."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Airport Authority of Thailand (AOT)",
+      "type": "public",
+      "role": "Airport Infrastructure",
+      "regionOfActivity": "National",
+      "description": "Operator of major international airports.",
+      "events": [
+        {
+          "date": "1979-09-05",
+          "category": "birth",
+          "description": "Established as AAT."
+        },
+        {
+          "date": "2001-05-24",
+          "category": "privatization",
+          "description": "Converted to Airports of Thailand Pcl. (AOT)."
+        },
+        {
+          "date": "2006-09-15",
+          "category": "infrastructure",
+          "description": "Opened Suvarnabhumi Airport with advanced automated baggage systems."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Thailand Textile Institute (THTI)",
+      "type": "nonprofit",
+      "role": "Industry Support",
+      "regionOfActivity": "Bangkok",
+      "description": "Supports textile and garment industry upgrades.",
+      "events": [
+        {
+          "date": "1996-10-01",
+          "category": "birth",
+          "description": "Established under Ministry of Industry."
+        },
+        {
+          "date": "2012-08-20",
+          "category": "technical",
+          "description": "Implemented 'Thai Textile Fiber' identification technology."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Khon Kaen University",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Khon Kaen",
+      "description": "Leading university in the Northeast, focusing on agriculture and engineering.",
+      "events": [
+        {
+          "date": "1964-01-25",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2009-11-15",
+          "category": "research",
+          "description": "Established the 'Mekong Health Science Research Institute'."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Prince of Songkla University (PSU)",
+      "type": "public",
+      "role": "Education & Research",
+      "regionOfActivity": "Southern Thailand",
+      "description": "Leading research university in Southern Thailand.",
+      "events": [
+        {
+          "date": "1967-09-22",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2005-03-10",
+          "category": "technical",
+          "description": "Established 'Energy System Research Institute' for rubber biomass."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Bangkok Mass Transit System (BTS)",
+      "type": "private",
+      "role": "Transport Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Operator of the Bangkok Skytrain.",
+      "events": [
+        {
+          "date": "1992-05-15",
+          "category": "birth",
+          "description": "Founded as Tanayong."
+        },
+        {
+          "date": "1999-12-05",
+          "category": "milestone",
+          "description": "Official opening of the Skytrain (BTS)."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Provincial Electricity Authority (PEA)",
+      "type": "public",
+      "role": "Power Distribution",
+      "regionOfActivity": "Provincial",
+      "description": "Distributes electricity to provincial areas.",
+      "events": [
+        {
+          "date": "1960-09-28",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2015-05-15",
+          "category": "technical",
+          "description": "Initiated 'Smart Grid' pilot project in Pattaya."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Metropolitan Electricity Authority (MEA)",
+      "type": "public",
+      "role": "Power Distribution",
+      "regionOfActivity": "Bangkok",
+      "description": "Distributes electricity to Bangkok and surrounding provinces.",
+      "events": [
+        {
+          "date": "1954-08-15",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2012-06-01",
+          "category": "digital",
+          "description": "Implemented AMI (Advanced Metering Infrastructure) pilots."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Eastern Economic Corridor Office (EECO)",
+      "type": "public",
+      "role": "Special Economic Zone",
+      "regionOfActivity": "Eastern Seaboard",
+      "description": "Governance body for the Eastern Economic Corridor (EEC).",
+      "events": [
+        {
+          "date": "2018-05-14",
+          "category": "birth",
+          "description": "Established by the Eastern Special Development Zone Act."
+        },
+        {
+          "date": "2019-03-15",
+          "category": "policy",
+          "description": "Approved high-speed rail link connecting three airports."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Indorama Ventures",
+      "type": "private",
+      "role": "Petrochemicals",
+      "regionOfActivity": "Bangkok",
+      "description": "World's largest producer of PET resin.",
+      "events": [
+        {
+          "date": "1994-09-12",
+          "category": "birth",
+          "description": "Founded by Aloke Lohia."
+        },
+        {
+          "date": "2010-11-18",
+          "category": "expansion",
+          "description": "Listed on SET."
+        },
+        {
+          "date": "2015-03-10",
+          "category": "technical",
+          "description": "Invested in PET recycling technology."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Chulabhorn Research Institute (CRI)",
+      "type": "public",
+      "role": "Applied Research",
+      "regionOfActivity": "Bangkok",
+      "description": "Research institute focusing on chemistry and medicine.",
+      "events": [
+        {
+          "date": "1987-12-05",
+          "category": "birth",
+          "description": "Established by Princess Chulabhorn."
+        },
+        {
+          "date": "2005-11-20",
+          "category": "technical",
+          "description": "Developed 'Chulabhorn Nanocarbon' material."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Thailand Institute of Directors (IOD)",
+      "type": "nonprofit",
+      "role": "Corporate Governance",
+      "regionOfActivity": "National",
+      "description": "Promotes corporate governance and tech adoption in boards.",
+      "events": [
+        {
+          "date": "1999-12-20",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Mines and Geosciences Bureau",
+      "type": "public",
+      "role": "Mining Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulates mineral extraction.",
+      "events": [
+        {
+          "date": "1891-04-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Thailand Creative & Design Center (TCDC)",
+      "type": "public",
+      "role": "Design & Innovation",
+      "regionOfActivity": "Bangkok",
+      "description": "Promotes design thinking and innovation in industry.",
+      "events": [
+        {
+          "date": "2004-11-05",
+          "category": "birth",
+          "description": "Established under the Office of Knowledge Management."
+        },
+        {
+          "date": "2017-05-10",
+          "category": "infrastructure",
+          "description": "Moved to Grand Postal Building, expanding resources."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Srinakharinwirot University",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Bangkok",
+      "description": "University focusing on teacher education and science.",
+      "events": [
+        {
+          "date": "1949-04-28",
+          "category": "birth",
+          "description": "Founded as the Higher Teacher Training School."
+        },
+        {
+          "date": "1974-06-16",
+          "category": "transformation",
+          "description": "Gained university status."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Sahaviriya Steel Industries",
+      "type": "private",
+      "role": "Steel Manufacturing",
+      "regionOfActivity": "Bangkok",
+      "description": "Major steel producer (History).",
+      "events": [
+        {
+          "date": "1988-09-21",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1992-06-15",
+          "category": "technical",
+          "description": "Commissioned first HRC (Hot Rolled Coil) plant in Bang Saphan."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Thai Motor Corporation",
+      "type": "private",
+      "role": "Automotive Assembly",
+      "regionOfActivity": "Bangkok",
+      "description": "Early automotive assembler.",
+      "events": [
+        {
+          "date": "1967-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Toyota Motor Thailand",
+      "type": "private",
+      "role": "Automotive Manufacturing",
+      "regionOfActivity": "National",
+      "description": "Largest automotive manufacturer in Thailand.",
+      "events": [
+        {
+          "date": "1962-04-01",
+          "category": "birth",
+          "description": "Founded as Thai Motor Industry Co., Ltd."
+        },
+        {
+          "date": "1989-05-15",
+          "category": "technical",
+          "description": "Established production line for Hilux Vigo."
+        },
+        {
+          "date": "2005-11-15",
+          "category": "expansion",
+          "description": "Opened Ban Pho plant, largest Toyota plant in ASEAN."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "True Digital Park",
+      "type": "private",
+      "role": "Tech Hub",
+      "regionOfActivity": "Bangkok",
+      "description": "Largest tech and startup hub in Southeast Asia.",
+      "events": [
+        {
+          "date": "2018-06-15",
+          "category": "birth",
+          "description": "Opened by True Corporation."
+        },
+        {
+          "date": "2019-10-20",
+          "category": "partnership",
+          "description": "Partnered with Google for startup training."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Bitkub",
+      "type": "private",
+      "role": "Fintech/Blockchain",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading cryptocurrency exchange and blockchain developer.",
+      "events": [
+        {
+          "date": "2018-02-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2019-01-15",
+          "category": "milestone",
+          "description": "Received Digital Asset Exchange license from SEC."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Flash Group",
+      "type": "private",
+      "role": "Logistics Tech",
+      "regionOfActivity": "National",
+      "description": "E-commerce logistics provider driven by technology.",
+      "events": [
+        {
+          "date": "2008-06-01",
+          "category": "birth",
+          "description": "Founded by Komsan Lee."
+        },
+        {
+          "date": "2019-09-15",
+          "category": "expansion",
+          "description": "Automated sorting hub in Rangsit."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "SPD Company Limited",
+      "type": "private",
+      "role": "3D Printing",
+      "regionOfActivity": "Bangkok",
+      "description": "Pioneer in additive manufacturing services.",
+      "events": [
+        {
+          "date": "2015-05-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Office of Atoms for Peace (OAP)",
+      "type": "public",
+      "role": "Nuclear Regulation",
+      "regionOfActivity": "Bangkok",
+      "description": "Regulatory body for nuclear energy.",
+      "events": [
+        {
+          "date": "1961-04-25",
+          "category": "birth",
+          "description": "Established as Office of Atomic Energy for Peace."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Thai Credit Bank",
+      "type": "private",
+      "role": "Finance",
+      "regionOfActivity": "National",
+      "description": "Focus on SME lending and digital banking.",
+      "events": [
+        {
+          "date": "2005-07-04",
+          "category": "birth",
+          "description": "Converted to Thai Credit Retail Bank."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Hospital for Tropical Diseases",
+      "type": "public",
+      "role": "Medical Research",
+      "regionOfActivity": "Bangkok",
+      "description": "Specializes in tropical disease technology.",
+      "events": [
+        {
+          "date": "1961-01-12",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Bangkok Glass Industry",
+      "type": "private",
+      "role": "Materials Manufacturing",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading manufacturer of glass containers.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Thai Plastic Industrial (1979) Co",
+      "type": "private",
+      "role": "Petrochemicals",
+      "regionOfActivity": "Rayong",
+      "description": "Producer of plastic resins.",
+      "events": [
+        {
+          "date": "1979-05-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "The Talk",
+      "type": "private",
+      "role": "Translation Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Start-up in language translation technology.",
+      "events": [
+        {
+          "date": "2018-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Thailand Office of the Securities and Exchange Commission",
+      "type": "public",
+      "role": "Financial Regulation",
+      "regionOfActivity": "National",
+      "description": "Regulates capital markets.",
+      "events": [
+        {
+          "date": "1992-05-16",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Designated Areas for Sustainable Tourism Administration (DASTA)",
+      "type": "public",
+      "role": "Tourism Tech",
+      "regionOfActivity": "National",
+      "description": "Promotes sustainable tourism technology.",
+      "events": [
+        {
+          "date": "2003-09-22",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Techsauce Media",
+      "type": "private",
+      "role": "Tech Media",
+      "regionOfActivity": "Bangkok",
+      "description": "Media platform for the Thai startup ecosystem.",
+      "events": [
+        {
+          "date": "2017-01-01",
+          "category": "birth",
+          "description": "Rebranded from Thumbsup."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Oil Fuel Fund Office",
+      "type": "public",
+      "role": "Energy Policy",
+      "regionOfActivity": "Bangkok",
+      "description": "Manages the national oil fund.",
+      "events": [
+        {
+          "date": "2019-06-12",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Transport Co., Ltd.",
+      "type": "public",
+      "role": "Transport Logistics",
+      "regionOfActivity": "National",
+      "description": "State enterprise for bus transport.",
+      "events": [
+        {
+          "date": "1938-12-26",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Thai Airways International (Public) Limited",
+      "type": "public",
+      "role": "Aviation",
+      "regionOfActivity": "National",
+      "description": "National carrier.",
+      "events": [
+        {
+          "date": "1959-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Digital Identity Institute",
+      "type": "public",
+      "role": "Digital Identity",
+      "regionOfActivity": "Bangkok",
+      "description": "Research in digital identity tech.",
+      "events": [
+        {
+          "date": "2020-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Thai Health Promotion Foundation",
+      "type": "public",
+      "role": "Health Tech",
+      "regionOfActivity": "National",
+      "description": "Funds health technology programs.",
+      "events": [
+        {
+          "date": "2001-08-08",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Thailand Science Research and Innovation (TSRI)",
+      "type": "public",
+      "role": "Funding Agency",
+      "regionOfActivity": "National",
+      "description": "Merged entity of TRF and NRCT.",
+      "events": [
+        {
+          "date": "2019-10-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "National Research Council of Thailand (NRCT)",
+      "type": "public",
+      "role": "Research Policy",
+      "regionOfActivity": "National",
+      "description": "Historic research policy body.",
+      "events": [
+        {
+          "date": "1959-04-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Thailand Board of Investment (BOI) - Eastern Economic Corridor Division",
+      "type": "public",
+      "role": "Investment Promotion",
+      "regionOfActivity": "Eastern Seaboard",
+      "description": "Specific division targeting high-tech investment in EEC.",
+      "events": [
+        {
+          "date": "2018-07-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Bumrungrad International Hospital",
+      "type": "private",
+      "role": "Medical Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Pioneer in medical tourism technology adoption.",
+      "events": [
+        {
+          "date": "1980-09-25",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2005-01-01",
+          "category": "technical",
+          "description": "Implemented fully integrated hospital information system (HIS)."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Tao Kae Noi",
+      "type": "private",
+      "role": "Food Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Innovative seaweed snack manufacturer.",
+      "events": [
+        {
+          "date": "2004-01-01",
+          "category": "birth",
+          "description": "Founded by Itthipat Peeradechapan."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Singha Corporation",
+      "type": "private",
+      "role": "Beverage Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Beverage giant investing in bio-tech and water tech.",
+      "events": [
+        {
+          "date": "1933-01-01",
+          "category": "birth",
+          "description": "Founded as Boon Rawd Brewery."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Thai Beverage",
+      "type": "private",
+      "role": "Beverage Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Major F&B player investing in production technology.",
+      "events": [
+        {
+          "date": "2003-10-29",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Pruksa Holding",
+      "type": "private",
+      "role": "Construction Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Real estate developer adopting pre-fab technology.",
+      "events": [
+        {
+          "date": "1993-04-20",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2018-05-10",
+          "category": "technical",
+          "description": "Adopted Pre-D technology for rapid construction."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Sansiri",
+      "type": "private",
+      "role": "Property Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Real estate developer investing in PropTech.",
+      "events": [
+        {
+          "date": "1984-07-11",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "PTT Global Chemical (GC)",
+      "type": "public",
+      "role": "Petrochemicals",
+      "regionOfActivity": "Rayong",
+      "description": "Major player in chemicals and polymers.",
+      "events": [
+        {
+          "date": "2005-12-21",
+          "category": "birth",
+          "description": "Formed from merger."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "PTT Exploration and Production (PTTEP)",
+      "type": "public",
+      "role": "Oil & Gas Exploration",
+      "regionOfActivity": "National",
+      "description": "Exploration arm of PTT.",
+      "events": [
+        {
+          "date": "1985-06-20",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "IRPC",
+      "type": "public",
+      "role": "Refining & Petrochemicals",
+      "regionOfActivity": "Rayong",
+      "description": "Integrated petrochemical complex.",
+      "events": [
+        {
+          "date": "1978-03-13",
+          "category": "birth",
+          "description": "Founded as TPI."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Thai Oil",
+      "type": "public",
+      "role": "Refining",
+      "regionOfActivity": "Rayong",
+      "description": "Refining company.",
+      "events": [
+        {
+          "date": "1961-12-21",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Bangchak Corporation",
+      "type": "public",
+      "role": "Energy",
+      "regionOfActivity": "Bangkok",
+      "description": "Green energy innovator.",
+      "events": [
+        {
+          "date": "1984-09-28",
+          "category": "birth",
+          "description": "Founded as Bangchak Petroleum."
+        },
+        {
+          "date": "2015-05-12",
+          "category": "technical",
+          "description": "Launched bio-based jet fuel initiative."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Gulf Energy Development",
+      "type": "private",
+      "role": "Power Generation",
+      "regionOfActivity": "Bangkok",
+      "description": "Major independent power producer.",
+      "events": [
+        {
+          "date": "1994-12-20",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Global Power Synergy (GPSC)",
+      "type": "public",
+      "role": "Power Generation",
+      "regionOfActivity": "National",
+      "description": "Holding company for PTT's power assets.",
+      "events": [
+        {
+          "date": "2013-09-10",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Banpu",
+      "type": "private",
+      "role": "Energy & Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Coal miner shifting to renewable energy and tech.",
+      "events": [
+        {
+          "date": "1983-04-08",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Ernst & Young Thailand",
+      "type": "private",
+      "role": "Advisory",
+      "regionOfActivity": "Bangkok",
+      "description": "Consulting for tech adoption.",
+      "events": [
+        {
+          "date": "1989-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "KPMG Thailand",
+      "type": "private",
+      "role": "Advisory",
+      "regionOfActivity": "Bangkok",
+      "description": "Consulting for tech adoption.",
+      "events": [
+        {
+          "date": "1975-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "PwC Thailand",
+      "type": "private",
+      "role": "Advisory",
+      "regionOfActivity": "Bangkok",
+      "description": "Consulting for tech adoption.",
+      "events": [
+        {
+          "date": "1957-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Deloitte Thailand",
+      "type": "private",
+      "role": "Advisory",
+      "regionOfActivity": "Bangkok",
+      "description": "Consulting for tech adoption.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "McKinsey Thailand",
+      "type": "private",
+      "role": "Advisory",
+      "regionOfActivity": "Bangkok",
+      "description": "Strategy consulting for digital transformation.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Boston Consulting Group Thailand",
+      "type": "private",
+      "role": "Advisory",
+      "regionOfActivity": "Bangkok",
+      "description": "Strategy consulting for digital transformation.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Bain & Company Thailand",
+      "type": "private",
+      "role": "Advisory",
+      "regionOfActivity": "Bangkok",
+      "description": "Strategy consulting.",
+      "events": [
+        {
+          "date": "2008-01-01",
+          "category": "birth",
+          "description": "Established local presence."
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Seagate Technology (Thailand)",
+      "type": "private",
+      "role": "Disk Drive Manufacturing",
+      "regionOfActivity": "Teparak",
+      "description": "Major manufacturer of hard drives.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Opened manufacturing facility."
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Western Digital (Thailand)",
+      "type": "private",
+      "role": "Disk Drive Manufacturing",
+      "regionOfActivity": "Bang Pa-in",
+      "description": "Major manufacturer of hard drives.",
+      "events": [
+        {
+          "date": "1997-01-01",
+          "category": "birth",
+          "description": "Expanded operations to Thailand."
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "MinebeaMitsumi (Thailand)",
+      "type": "private",
+      "role": "Precision Engineering",
+      "regionOfActivity": "Bangkok",
+      "description": "Manufacturer of precision components.",
+      "events": [
+        {
+          "date": "1972-03-01",
+          "category": "birth",
+          "description": "Established operations."
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Rohm Integrated Systems (Thailand)",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Bangkok",
+      "description": "Semiconductor assembly plant.",
+      "events": [
+        {
+          "date": "1989-12-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "name": "ON Semiconductor (Thailand)",
+      "type": "private",
+      "role": "Semiconductor Manufacturing",
+      "regionOfActivity": "Bangkok",
+      "description": "Semiconductor assembly plant.",
+      "events": [
+        {
+          "date": "2000-08-01",
+          "category": "birth",
+          "description": "Acquired facility."
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Panasonic (Thailand)",
+      "type": "private",
+      "role": "Electronics Manufacturing",
+      "regionOfActivity": "Bangkok",
+      "description": "Consumer electronics manufacturer.",
+      "events": [
+        {
+          "date": "1960-06-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Samsung Electronics (Thailand)",
+      "type": "private",
+      "role": "Electronics Sales & Mfg",
+      "regionOfActivity": "Bangkok",
+      "description": "Electronics giant.",
+      "events": [
+        {
+          "date": "1989-03-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "LG Electronics (Thailand)",
+      "type": "private",
+      "role": "Electronics Sales & Mfg",
+      "regionOfActivity": "Bangkok",
+      "description": "Electronics giant.",
+      "events": [
+        {
+          "date": "1990-07-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Cisco Systems (Thailand)",
+      "type": "private",
+      "role": "Networking Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Networking infrastructure provider.",
+      "events": [
+        {
+          "date": "1995-09-01",
+          "category": "birth",
+          "description": "Established office."
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Microsoft (Thailand)",
+      "type": "private",
+      "role": "Software & Cloud",
+      "regionOfActivity": "Bangkok",
+      "description": "Software and cloud services provider.",
+      "events": [
+        {
+          "date": "1993-03-01",
+          "category": "birth",
+          "description": "Established subsidiary."
+        },
+        {
+          "date": "2019-04-10",
+          "category": "policy",
+          "description": "Partnered with government for 'Digital Thailand' skills."
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Google Thailand",
+      "type": "private",
+      "role": "Internet & Cloud",
+      "regionOfActivity": "Bangkok",
+      "description": "Search, ads, and cloud infrastructure.",
+      "events": [
+        {
+          "date": "2006-01-01",
+          "category": "birth",
+          "description": "Established office."
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Amazon Web Services (Thailand)",
+      "type": "private",
+      "role": "Cloud Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Cloud services provider.",
+      "events": [
+        {
+          "date": "2020-01-01",
+          "category": "birth",
+          "description": "Established local entity."
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Huawei Technologies (Thailand)",
+      "type": "private",
+      "role": "Telecom Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Network equipment provider.",
+      "events": [
+        {
+          "date": "1999-09-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "ZTE (Thailand)",
+      "type": "private",
+      "role": "Telecom Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Network equipment provider.",
+      "events": [
+        {
+          "date": "2004-06-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Nokia Solutions and Networks (Thailand)",
+      "type": "private",
+      "role": "Telecom Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Network equipment provider.",
+      "events": [
+        {
+          "date": "1988-01-01",
+          "category": "birth",
+          "description": "Established (as Siemens/Nokia)."
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Ericsson (Thailand)",
+      "type": "private",
+      "role": "Telecom Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Network equipment provider.",
+      "events": [
+        {
+          "date": "1987-10-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Oracle Corporation (Thailand)",
+      "type": "private",
+      "role": "Enterprise Software",
+      "regionOfActivity": "Bangkok",
+      "description": "Database and cloud solutions.",
+      "events": [
+        {
+          "date": "1988-05-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "SAP Thailand",
+      "type": "private",
+      "role": "Enterprise Software",
+      "regionOfActivity": "Bangkok",
+      "description": "ERP software provider.",
+      "events": [
+        {
+          "date": "1992-08-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "IBM Thailand",
+      "type": "private",
+      "role": "IT Services & Hardware",
+      "regionOfActivity": "Bangkok",
+      "description": "Technology giant, present for decades.",
+      "events": [
+        {
+          "date": "1950-01-01",
+          "category": "birth",
+          "description": "Opened office (initially as Tabulating Machine)."
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Dell Technologies (Thailand)",
+      "type": "private",
+      "role": "Hardware",
+      "regionOfActivity": "Bangkok",
+      "description": "PC and server provider.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Hewlett-Packard (Thailand)",
+      "type": "private",
+      "role": "Hardware",
+      "regionOfActivity": "Bangkok",
+      "description": "PC and printer provider.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Accenture (Thailand)",
+      "type": "private",
+      "role": "IT Consulting",
+      "regionOfActivity": "Bangkok",
+      "description": "Technology consulting services.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "DXC Technology (Thailand)",
+      "type": "private",
+      "role": "IT Services",
+      "regionOfActivity": "Bangkok",
+      "description": "Enterprise IT services.",
+      "events": [
+        {
+          "date": "2017-04-01",
+          "category": "birth",
+          "description": "Formed from CSC and HPE spin-off."
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "CP Foods (CPF)",
+      "type": "private",
+      "role": "Agro-Industrial",
+      "regionOfActivity": "Bangkok",
+      "description": "Feed and livestock technology.",
+      "events": [
+        {
+          "date": "1978-09-17",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Betagro Group",
+      "type": "private",
+      "role": "Agro-Industrial",
+      "regionOfActivity": "Bangkok",
+      "description": "Food and agricultural technology.",
+      "events": [
+        {
+          "date": "1967-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Mitr Phol Sugar Corp",
+      "type": "private",
+      "role": "Sugar & Biomass",
+      "regionOfActivity": "Bangkok",
+      "description": "Biomass energy and sugar technology.",
+      "events": [
+        {
+          "date": "1946-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Mae Moh Power Plant",
+      "type": "public",
+      "role": "Power Generation",
+      "regionOfActivity": "Lampang",
+      "description": "Lignite-fired power plant, focus on clean coal tech.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Commissioned."
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Ratchaburi Power Plant",
+      "type": "public",
+      "role": "Power Generation",
+      "regionOfActivity": "Ratchaburi",
+      "description": "Combined cycle power plant.",
+      "events": [
+        {
+          "date": "1970-01-01",
+          "category": "birth",
+          "description": "Commissioned."
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Laem Chabang Port",
+      "type": "public",
+      "role": "Logistics Infrastructure",
+      "regionOfActivity": "Chonburi",
+      "description": "Deep-sea port with automation.",
+      "events": [
+        {
+          "date": "1991-01-21",
+          "category": "birth",
+          "description": "Official opening."
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Map Ta Phut Industrial Estate",
+      "type": "public",
+      "role": "Industrial Zone",
+      "regionOfActivity": "Rayong",
+      "description": "Hub for petrochemical and heavy industry.",
+      "events": [
+        {
+          "date": "1981-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Bangchan Industrial Estate",
+      "type": "public",
+      "role": "Industrial Zone",
+      "regionOfActivity": "Bangkok",
+      "description": "First industrial estate.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Bang Na-Trat Road",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Major highway for industrial logistics.",
+      "events": [
+        {
+          "date": "1970-03-31",
+          "category": "birth",
+          "description": "Construction completed."
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Motorway No. 7",
+      "type": "public",
+      "role": "Infrastructure",
+      "regionOfActivity": "Bangkok-Chonburi",
+      "description": "High-speed motorway.",
+      "events": [
+        {
+          "date": "1984-12-01",
+          "category": "birth",
+          "description": "Opened."
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Sriracha Tiger Zoo",
+      "type": "private",
+      "role": "Tourism Tech",
+      "regionOfActivity": "Chonburi",
+      "description": "Early adopter of conservation breeding technology.",
+      "events": [
+        {
+          "date": "1997-04-20",
+          "category": "birth",
+          "description": "Opened."
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "King Mongkut (Rama IV)",
+      "type": "individual",
+      "role": "Monarch/Scientist",
+      "regionOfActivity": "Bangkok",
+      "description": "Father of Thai science and technology; introduced modern astronomy and calculation.",
+      "events": [
+        {
+          "date": "1851-04-02",
+          "category": "milestone",
+          "description": "Ascended throne, initiated modernization."
+        },
+        {
+          "date": "1868-08-18",
+          "category": "technical",
+          "description": "Calculated and observed solar eclipse in Prachuap Khiri Khan."
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "name": "King Chulalongkorn (Rama V)",
+      "type": "individual",
+      "role": "Monarch/Reformer",
+      "regionOfActivity": "National",
+      "description": "Modernizer of infrastructure (railways, telegraph).",
+      "events": [
+        {
+          "date": "1893-03-26",
+          "category": "infrastructure",
+          "description": "Inaugurated the first railway line (Bangkok-Nakhon Ratchasima)."
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "King Bhumibol Adulyadej (Rama IX)",
+      "type": "individual",
+      "role": "Monarch/Inventor",
+      "regionOfActivity": "National",
+      "description": "Held patents for engineering projects; focused on rural development technology.",
+      "events": [
+        {
+          "date": "1988-02-02",
+          "category": "technical",
+          "description": "Patented the 'Chaipattana Aerator' for water treatment."
+        },
+        {
+          "date": "2009-05-26",
+          "category": "milestone",
+          "description": "First member of royalty to receive WIPO Global Leader Award."
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Prayut Chan-o-cha",
+      "type": "individual",
+      "role": "Political Leader",
+      "regionOfActivity": "National",
+      "description": "PM during launch of Thailand 4.0 policy.",
+      "events": [
+        {
+          "date": "2016-06-03",
+          "category": "policy",
+          "description": "Launched 'Thailand 4.0' vision at foreign press center."
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Thaksin Shinawatra",
+      "type": "individual",
+      "role": "Entrepreneur/PM",
+      "regionOfActivity": "National",
+      "description": "Founded Shin Corp (AIS); promoted ICT policies.",
+      "events": [
+        {
+          "date": "1986-04-27",
+          "category": "milestone",
+          "description": "Founded Advanced Info Service."
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Dhanin Chearavanont",
+      "type": "individual",
+      "role": "Industrialist",
+      "regionOfActivity": "National",
+      "description": "Senior Chairman of CP Group, driving agro-tech and telecom.",
+      "events": [
+        {
+          "date": "1989-01-01",
+          "category": "expansion",
+          "description": "Pioneered entry into telecom sector with TelecomAsia."
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Kosit Suvinijjit",
+      "type": "individual",
+      "role": "Technocrat",
+      "regionOfActivity": "Bangkok",
+      "description": "Key figure in establishing NECTEC and early IT policy.",
+      "events": [
+        {
+          "date": "1986-09-16",
+          "category": "contribution",
+          "description": "Instrumental in formation of NECTEC."
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Puey Ungphakorn",
+      "type": "individual",
+      "role": "Economist/Educator",
+      "regionOfActivity": "Bangkok",
+      "description": "Modernized Thai banking and education.",
+      "events": [
+        {
+          "date": "1959-01-01",
+          "category": "policy",
+          "description": "Appointed Governor of Bank of Thailand, modernizing financial systems."
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Siam Society",
+      "type": "nonprofit",
+      "role": "Knowledge Preservation",
+      "regionOfActivity": "Bangkok",
+      "description": "Promotes knowledge of science and culture.",
+      "events": [
+        {
+          "date": "1904-02-26",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "name": "National Science Museum (NSM)",
+      "type": "public",
+      "role": "Science Communication",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Organization managing science museums.",
+      "events": [
+        {
+          "date": "1995-01-15",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Hydro and Agro Informatics Institute (HAII)",
+      "type": "public",
+      "role": "Water Management Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Researches water resource management technology.",
+      "events": [
+        {
+          "date": "2002-07-05",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "National Institute of Development Administration (NIDA)",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Graduate school for development policy.",
+      "events": [
+        {
+          "date": "1966-04-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Thai-Nichi Institute of Technology",
+      "type": "private",
+      "role": "Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Vocational education with Japanese industrial standards.",
+      "events": [
+        {
+          "date": "1993-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Sripatum University",
+      "type": "private",
+      "role": "Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Private university with engineering focus.",
+      "events": [
+        {
+          "date": "1970-05-28",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Assumption University",
+      "type": "private",
+      "role": "Education",
+      "regionOfActivity": "Bangkok",
+      "description": "International curriculum, IT focus.",
+      "events": [
+        {
+          "date": "1969-06-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Rangsit University",
+      "type": "private",
+      "role": "Education",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Private university with strong medical and engineering faculties.",
+      "events": [
+        {
+          "date": "1986-03-24",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Shinawatra University",
+      "type": "private",
+      "role": "Education",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Private university founded by Thaksin Shinawatra.",
+      "events": [
+        {
+          "date": "1999-04-14",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Walailak University",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Nakhon Si Thammarat",
+      "description": "Public university in the South.",
+      "events": [
+        {
+          "date": "1992-09-03",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Ubon Ratchathani University",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Ubon Ratchathani",
+      "description": "Public university in the Northeast.",
+      "events": [
+        {
+          "date": "1987-09-29",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Mae Fah Luang University",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Chiang Rai",
+      "description": "Autonomous university in the North.",
+      "events": [
+        {
+          "date": "1998-09-25",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "King Mongkut's University of Technology Thonburi (Ratchaburi Campus)",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Ratchaburi",
+      "description": "Extension campus for engineering.",
+      "events": [
+        {
+          "date": "2005-08-01",
+          "category": "birth",
+          "description": "Opened."
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Chiang Mai Rajabhat University",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Chiang Mai",
+      "description": "Teacher training to technical education transformation.",
+      "events": [
+        {
+          "date": "2004-06-15",
+          "category": "transformation",
+          "description": "Gained university status."
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Phranakhon Rajabhat University",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Technical education focus.",
+      "events": [
+        {
+          "date": "2004-06-15",
+          "category": "transformation",
+          "description": "Gained university status."
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Office of the Vocational Education Commission (OVEC)",
+      "type": "public",
+      "role": "Vocational Education Management",
+      "regionOfActivity": "National",
+      "description": "Manages technical colleges nationwide.",
+      "events": [
+        {
+          "date": "2003-10-09",
+          "category": "birth",
+          "description": "Established as separate agency."
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Rajamangala University of Technology Lanna",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Chiang Mai",
+      "description": "Northern technical university.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "name": "Rajamangala University of Technology Srivijaya",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Songkhla",
+      "description": "Southern technical university.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Rajamangala University of Technology Rattanakosin",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Central technical university.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Rajamangala University of Technology Isan",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Nakhon Ratchasima",
+      "description": "Northeastern technical university.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Rajamangala University of Technology Thanyaburi",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Leading technical university.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Pathumthani Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Vocational college near tech hub.",
+      "events": [
+        {
+          "date": "1975-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Bangkok Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Historic technical college.",
+      "events": [
+        {
+          "date": "1904-01-01",
+          "category": "birth",
+          "description": "Founded as Thai Mission School for Mechanics."
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "Don Bosco Technical College",
+      "type": "private",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Private technical education.",
+      "events": [
+        {
+          "date": "1987-01-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "name": "Officine Meccaniche Reggiane (Thailand)",
+      "type": "private",
+      "role": "Automotive",
+      "regionOfActivity": "Bangkok",
+      "description": "Historical technology transfer partner.",
+      "events": [
+        {
+          "date": "1960-01-01",
+          "category": "partnership",
+          "description": "Joint venture for assembly."
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "Thai Television Channel 3",
+      "type": "private",
+      "role": "Media Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Pioneer in broadcast technology.",
+      "events": [
+        {
+          "date": "1970-03-16",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "name": "Royal Thai Army Television Channel 5",
+      "type": "public",
+      "role": "Media Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "State broadcaster.",
+      "events": [
+        {
+          "date": "1955-06-24",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "name": "Thai Public Broadcasting Service (Thai PBS)",
+      "type": "public",
+      "role": "Media Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Public broadcaster with digital focus.",
+      "events": [
+        {
+          "date": "2008-01-15",
+          "category": "birth",
+          "description": "Established replacing iTV."
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Daily News",
+      "type": "private",
+      "role": "Media",
+      "regionOfActivity": "Bangkok",
+      "description": "Newspaper digitization.",
+      "events": [
+        {
+          "date": "1964-03-28",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Thairath",
+      "type": "private",
+      "role": "Media",
+      "regionOfActivity": "Bangkok",
+      "description": "Media group digitization.",
+      "events": [
+        {
+          "date": "1962-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Wongnai",
+      "type": "private",
+      "role": "Tech Startup",
+      "regionOfActivity": "Bangkok",
+      "description": "Restaurant review and booking platform.",
+      "events": [
+        {
+          "date": "2010-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Pantip.com",
+      "type": "private",
+      "role": "Internet Forum",
+      "regionOfActivity": "Bangkok",
+      "description": "Thailand's largest online community.",
+      "events": [
+        {
+          "date": "1997-08-05",
+          "category": "birth",
+          "description": "Founded by Wanchat Padungrat."
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "name": "Sanook",
+      "type": "private",
+      "role": "Portal",
+      "regionOfActivity": "Bangkok",
+      "description": "Early internet portal.",
+      "events": [
+        {
+          "date": "1998-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Thai Farmer Bank (KBank)",
+      "type": "private",
+      "role": "Finance",
+      "regionOfActivity": "National",
+      "description": "Innovation in banking tech (ATMs).",
+      "events": [
+        {
+          "date": "1945-06-08",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1983-05-20",
+          "category": "technical",
+          "description": "Introduced first ATM service."
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "name": "Siam Commercial Bank (SCB)",
+      "type": "private",
+      "role": "Finance",
+      "regionOfActivity": "National",
+      "description": "Early adopter of digital banking.",
+      "events": [
+        {
+          "date": "1906-01-30",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Krungthai Bank",
+      "type": "public",
+      "role": "Finance",
+      "regionOfActivity": "National",
+      "description": "State bank for government tech projects.",
+      "events": [
+        {
+          "date": "1966-03-14",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    }
+    ,{
+      "id": 401,
+      "name": "Mahidol Wittayanusorn School",
+      "type": "public",
+      "role": "Science Education (Pipeline)",
+      "regionOfActivity": "Nakhon Pathom",
+      "description": "Thailand's first and premier public science school, exclusively for gifted students.",
+      "events": [
+        {
+          "date": "1990-05-28",
+          "category": "birth",
+          "description": "Established as Princess Sirindhorn's project for gifted science students."
+        },
+        {
+          "date": "1999-11-15",
+          "category": "curriculum",
+          "description": "Adopted specialized curriculum developed with IPST (Institute for the Promotion of Teaching Science and Technology)."
+        },
+        {
+          "date": "2008-06-10",
+          "category": "technical",
+          "description": "Opened advanced research labs accessible to high school students."
+        },
+        {
+          "date": "2015-07-20",
+          "category": "achievement",
+          "description": "Students won gold medals at International Olympiad on Astronomy and Astrophysics."
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "name": "Kamnoetvidya Science Academy (KVIS)",
+      "type": "private",
+      "role": "Science Education (Pipeline)",
+      "regionOfActivity": "Rayong",
+      "description": "Top-tier residential science academy founded by PTT Group.",
+      "events": [
+        {
+          "date": "2015-05-15",
+          "category": "birth",
+          "description": "Founded by PTT Group to create a 'Silicon Valley' pipeline in the East."
+        },
+        {
+          "date": "2017-08-01",
+          "category": "partnership",
+          "description": "Established academic collaboration with foreign universities for student research."
+        },
+        {
+          "date": "2020-09-10",
+          "category": "technical",
+          "description": "Inaugurated 'Innovation Center' for robotics and AI student projects."
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "name": "Triam Udom Suksa School",
+      "type": "public",
+      "role": "General Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Most prestigious high school in Thailand, primary feeder for Chulalongkorn University engineering.",
+      "events": [
+        {
+          "date": "1948-01-10",
+          "category": "birth",
+          "description": "Founded as a preparatory school for Chulalongkorn University."
+        },
+        {
+          "date": "1985-04-20",
+          "category": "technical",
+          "description": "Established 'Science and Mathematics Gifted Program'."
+        },
+        {
+          "date": "2010-12-15",
+          "category": "infrastructure",
+          "description": "Constructed new science laboratory building."
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "name": "Suankularb Wittayalai School",
+      "type": "public",
+      "role": "General Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Historic boys' school with strong emphasis on engineering and technical disciplines.",
+      "events": [
+        {
+          "date": "1881-03-08",
+          "category": "birth",
+          "description": "Founded by King Chulalongkorn (Rama V)."
+        },
+        {
+          "date": "2008-07-10",
+          "category": "curriculum",
+          "description": "Launched 'Sci-Math' excellence program."
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "name": "Princess Chulabhorn Science High Schools (Network)",
+      "type": "public",
+      "role": "Science Education (Pipeline)",
+      "regionOfActivity": "Provincial",
+      "description": "Network of regional science high schools established to decentralize tech talent development.",
+      "events": [
+        {
+          "date": "1994-06-03",
+          "category": "birth",
+          "description": "First school established in Chonburi."
+        },
+        {
+          "date": "2015-08-15",
+          "category": "expansion",
+          "description": "Expanded network to 12 schools nationwide."
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "name": "Samsenwittayalai School",
+      "type": "public",
+      "role": "Technical Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "High school with a strong technical and vocational stream alongside academic tracks.",
+      "events": [
+        {
+          "date": "1937-05-10",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "1992-11-20",
+          "category": "technical",
+          "description": "Integrated computer science as a core subject for all levels."
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Yothinburana School",
+      "type": "public",
+      "role": "Science Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading state school with a World Class Standard School designation for science.",
+      "events": [
+        {
+          "date": "1936-04-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2012-03-10",
+          "category": "policy",
+          "description": "Designated as a 'World Class Standard School' by OBEC."
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "name": "Triam Udom Suksa Nomklao School",
+      "type": "public",
+      "role": "Science Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Sister school to Triam Udom, focusing on science and technology.",
+      "events": [
+        {
+          "date": "2002-05-06",
+          "category": "birth",
+          "description": "Established to expand science education capacity."
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "name": "Kasetsart University Laboratory School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Demonstration school focusing on agriculture and science.",
+      "events": [
+        {
+          "date": "1971-05-15",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2000-08-10",
+          "category": "technical",
+          "description": "Piloted hydroponics curriculum for secondary students."
+        }
+      ]
+    },
+    {
+      "id": 410,
+      "name": "Chulalongkorn University Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Primary feeder for Chula engineering, testing ground for new curricula.",
+      "events": [
+        {
+          "date": "1958-05-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 411,
+      "name": "Thai-German Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phra Nakhon Si Ayutthaya",
+      "description": "Leading vocational college focusing on automotive and mechatronics.",
+      "events": [
+        {
+          "date": "1960-08-15",
+          "category": "birth",
+          "description": "Established with German development aid."
+        },
+        {
+          "date": "1988-04-10",
+          "category": "partnership",
+          "description": "Certified as a training center for Mercedes-Benz mechanics."
+        },
+        {
+          "date": "2015-09-01",
+          "category": "technical",
+          "description": "Upgraded to Thai-German Pre-Engineering School status."
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "name": "Bangkok Technical College (BTK)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Historic institution for technical trades.",
+      "events": [
+        {
+          "date": "1936-06-24",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2005-03-15",
+          "category": "technical",
+          "description": "Opened CNC machining training center."
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "name": "Thonburi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Major provider of mechanics and electrical technicians.",
+      "events": [
+        {
+          "date": "1939-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "name": "North Bangkok Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Key feeder for KMUTNB.",
+      "events": [
+        {
+          "date": "1959-01-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "name": "Samutprakarn Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Samut Prakan",
+      "description": "Serves the industrial belt of Samut Prakan.",
+      "events": [
+        {
+          "date": "1947-03-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2010-06-10",
+          "category": "partnership",
+          "description": "Dual education program with nearby auto parts manufacturers."
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "name": "Ratchaburi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Ratchaburi",
+      "description": "Technical hub for Western Thailand.",
+      "events": [
+        {
+          "date": "1977-06-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "name": "Chonburi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chonburi",
+      "description": "Feeder for the Eastern Economic Corridor industries.",
+      "events": [
+        {
+          "date": "1973-02-01",
+          "category": "birth",
+          "description": "Founded."
+        },
+        {
+          "date": "2017-11-20",
+          "category": "technical",
+          "description": "Launched robotics and automation technician course."
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "name": "Rayong Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Rayong",
+      "description": "Vital supplier of technicians for petrochemical and auto industries.",
+      "events": [
+        {
+          "date": "1978-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 419,
+      "name": "Nakhon Ratchasima Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nakhon Ratchasima",
+      "description": "Largest technical college in the Northeast.",
+      "events": [
+        {
+          "date": "1975-01-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "name": "Khon Kaen Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Khon Kaen",
+      "description": "Key technical institution in the Northeast.",
+      "events": [
+        {
+          "date": "1973-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "name": "Surat Thani Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Surat Thani",
+      "description": "Technical hub for Southern Thailand.",
+      "events": [
+        {
+          "date": "1978-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 422,
+      "name": "Songkhla Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Songkhla",
+      "description": "Supports the industrial zone in the deep South.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "name": "Chiang Mai Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chiang Mai",
+      "description": "Historic college serving Northern industries.",
+      "events": [
+        {
+          "date": "1956-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "name": "Phitsanulok Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phitsanulok",
+      "description": "Technical hub for the Lower North.",
+      "events": [
+        {
+          "date": "1976-08-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "name": "Udon Thani Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Udon Thani",
+      "description": "Vocational hub for the Upper Northeast.",
+      "events": [
+        {
+          "date": "1979-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "name": "Pattaya Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chonburi",
+      "description": "Supports tourism tech and hospitality engineering.",
+      "events": [
+        {
+          "date": "1980-05-20",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 427,
+      "name": "Thai-Austrian Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Surat Thani",
+      "description": "Specialized in hospitality and tourism technology.",
+      "events": [
+        {
+          "date": "1986-03-10",
+          "category": "birth",
+          "description": "Founded with Austrian cooperation."
+        }
+      ]
+    },
+    {
+      "id": 428,
+      "name": "Thai-Japanese Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Focuses on electronics and automotive technology.",
+      "events": [
+        {
+          "date": "1995-09-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "name": "Sri Ayutthaya Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Ayutthaya",
+      "description": "Feeder for the electronics cluster in Ayutthaya.",
+      "events": [
+        {
+          "date": "1969-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "name": "Saraburi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Saraburi",
+      "description": "Supports heavy industry and ceramics manufacturing.",
+      "events": [
+        {
+          "date": "1976-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "name": "Prachinburi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Prachinburi",
+      "description": "Feeder for the Eastern Economic Corridor expansion.",
+      "events": [
+        {
+          "date": "1980-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "name": "Chachoengsao Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chachoengsao",
+      "description": "Supports automotive and food processing industries.",
+      "events": [
+        {
+          "date": "1978-01-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "name": "Rajamangala University of Technology Suvarnabhumi",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Ayutthaya",
+      "description": "University focusing on applied technology.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "name": "Rajamangala University of Technology Phra Nakhon Si Ayutthaya",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Ayutthaya",
+      "description": "Technical university for heritage and engineering.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "name": "Rajamangala University of Technology Rattanakosin (Salaya Campus)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Nakhon Pathom",
+      "description": "Focus on engineering and architecture.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "name": "Rajamangala University of Technology Srijan (Northern Campus)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Chiang Rai",
+      "description": "Technical education for the Northern border region.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "name": "Rajamangala University of Technology Krungthep",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Urban technical university.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "name": "Rajamangala University of Technology Tawan-ok (Uthenthawai Campus)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Historic engineering campus.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Integrated into RMUT system."
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "name": "Pathumthani Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Feeder for the Thailand Science Park ecosystem.",
+      "events": [
+        {
+          "date": "1979-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "name": "Lopburi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Lopburi",
+      "description": "Supports agro-industry and electronics.",
+      "events": [
+        {
+          "date": "1977-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "name": "Nakhon Pathom Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nakhon Pathom",
+      "description": "Serves the western industrial corridor.",
+      "events": [
+        {
+          "date": "1975-02-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "name": "Ratchamongkol University of Technology Lanna (Tak Campus)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Tak",
+      "description": "Supports logistics and cross-border trade tech.",
+      "events": [
+        {
+          "date": "2013-06-01",
+          "category": "birth",
+          "description": "Campus opened."
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "name": "Piboonbumpen Demonstration School (Burapha University)",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Chonburi",
+      "description": "Key science school in the Eastern region.",
+      "events": [
+        {
+          "date": "1955-07-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "name": "Surin Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Surin",
+      "description": "Technical college for the lower Northeast.",
+      "events": [
+        {
+          "date": "1978-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "name": "Ubon Ratchathani Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Ubon Ratchathani",
+      "description": "Technical education for the Mun River basin.",
+      "events": [
+        {
+          "date": "1976-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "name": "Nakhon Si Thammarat Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nakhon Si Thammarat",
+      "description": "Major technical college in the South.",
+      "events": [
+        {
+          "date": "1971-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 447,
+      "name": "Phuket Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phuket",
+      "description": "Focuses on hospitality technology and marine engineering.",
+      "events": [
+        {
+          "date": "1977-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "name": "Hat Yai Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Songkhla",
+      "description": "Feeder for the rubber and food processing industries.",
+      "events": [
+        {
+          "date": "1968-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "name": "Ranong Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Ranong",
+      "description": "Focus on fisheries and port technology.",
+      "events": [
+        {
+          "date": "1979-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "name": "Chumphon Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chumphon",
+      "description": "Supports agriculture and transport logistics.",
+      "events": [
+        {
+          "date": "1979-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "name": "Narathiwat Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Narathiwat",
+      "description": "Technical education in the deep South.",
+      "events": [
+        {
+          "date": "1980-02-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "name": "Pattani Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Pattani",
+      "description": "Technical college serving the Southern border.",
+      "events": [
+        {
+          "date": "1979-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 453,
+      "name": "Yala Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Yala",
+      "description": "Technical training in the deep South.",
+      "events": [
+        {
+          "date": "1977-11-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "name": "Satun Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Satun",
+      "description": "Supports fisheries and tourism tech.",
+      "events": [
+        {
+          "date": "1980-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "name": "Trang Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Trang",
+      "description": "Supports rubber and palm oil industries.",
+      "events": [
+        {
+          "date": "1977-10-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "name": "Krabi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Krabi",
+      "description": "Focus on tourism and palm oil tech.",
+      "events": [
+        {
+          "date": "1979-07-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "name": "Nong Khai Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nong Khai",
+      "description": "Cross-border trade logistics tech.",
+      "events": [
+        {
+          "date": "1979-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "name": "Mukdahan Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Mukdahan",
+      "description": "Mekong cross-border logistics and trade tech.",
+      "events": [
+        {
+          "date": "1980-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "name": "Bueng Kan Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bueng Kan",
+      "description": "Newest provincial technical college.",
+      "events": [
+        {
+          "date": "2013-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "name": "Loei Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Loei",
+      "description": "Agriculture and eco-tourism tech.",
+      "events": [
+        {
+          "date": "1979-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 461,
+      "name": "Chaiyaphum Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chaiyaphum",
+      "description": "Cassava and tapioca processing tech.",
+      "events": [
+        {
+          "date": "1978-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "name": "Sisaket Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Sisaket",
+      "description": "Agricultural machinery maintenance.",
+      "events": [
+        {
+          "date": "1978-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "name": "Yasothon Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Yasothon",
+      "description": "Rice and agro-processing tech.",
+      "events": [
+        {
+          "date": "1979-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "name": "Amnat Charoen Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Amnat Charoen",
+      "description": "Rural development technology.",
+      "events": [
+        {
+          "date": "1980-10-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "name": "Roi Et Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Roi Et",
+      "description": "Agricultural and electronics tech.",
+      "events": [
+        {
+          "date": "1977-07-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "name": "Maha Sarakham Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Maha Sarakham",
+      "description": "Education hub of the Northeast.",
+      "events": [
+        {
+          "date": "1976-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "name": "Kalasin Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Kalasin",
+      "description": "Supports the silk and agricultural industry.",
+      "events": [
+        {
+          "date": "1978-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "name": "Sakon Nakhon Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Sakon Nakhon",
+      "description": "Indigo and agricultural tech.",
+      "events": [
+        {
+          "date": "1978-11-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 469,
+      "name": "Nakhon Phanom Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nakhon Phanom",
+      "description": "Mekong trade logistics tech.",
+      "events": [
+        {
+          "date": "1978-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 470,
+      "name": "Lamphun Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Lamphun",
+      "description": "Feeder for the Northern Industrial Estate.",
+      "events": [
+        {
+          "date": "1977-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "name": "Lampang Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Lampang",
+      "description": "Mining and power generation tech support.",
+      "events": [
+        {
+          "date": "1975-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 472,
+      "name": "Phrae Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phrae",
+      "description": "Teak and forestry industry tech.",
+      "events": [
+        {
+          "date": "1978-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 473,
+      "name": "Nan Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nan",
+      "description": "Agriculture and border trade tech.",
+      "events": [
+        {
+          "date": "1978-12-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 474,
+      "name": "Phayao Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phayao",
+      "description": "Supports emerging tech industries in the North.",
+      "events": [
+        {
+          "date": "1979-11-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 475,
+      "name": "Chiang Rai Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chiang Rai",
+      "description": "Logistics and border trade hub.",
+      "events": [
+        {
+          "date": "1977-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 476,
+      "name": "Mae Hong Son Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Mae Hong Son",
+      "description": "Remote technical education.",
+      "events": [
+        {
+          "date": "1980-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 477,
+      "name": "Tak Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Tak",
+      "description": "Border trade logistics.",
+      "events": [
+        {
+          "date": "1978-07-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "name": "Kamphaeng Phet Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Kamphaeng Phet",
+      "description": "Agriculture and food processing.",
+      "events": [
+        {
+          "date": "1979-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 479,
+      "name": "Phichit Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phichit",
+      "description": "Rice milling and agriculture tech.",
+      "events": [
+        {
+          "date": "1979-02-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "name": "Phetchabun Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phetchabun",
+      "description": "Agriculture and cold storage tech.",
+      "events": [
+        {
+          "date": "1978-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 481,
+      "name": "Sukhothai Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Sukhothai",
+      "description": "Ceramics and agriculture.",
+      "events": [
+        {
+          "date": "1977-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 482,
+      "name": "Uttaradit Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Uttaradit",
+      "description": "Agriculture and logistics.",
+      "events": [
+        {
+          "date": "1977-12-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "name": "Prachuap Khiri Khan Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Prachuap Khiri Khan",
+      "description": "Tourism and fishery tech.",
+      "events": [
+        {
+          "date": "1978-02-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "name": "Chumphon Technical College (Fishery)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chumphon",
+      "description": "Specialized in marine technology.",
+      "events": [
+        {
+          "date": "1976-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 485,
+      "name": "Surat Thani Technical College (Fishery)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Surat Thani",
+      "description": "Specialized in aquaculture tech.",
+      "events": [
+        {
+          "date": "1975-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 486,
+      "name": "Songkhla Technical College (Fishery)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Songkhla",
+      "description": "Deep sea fishing technology.",
+      "events": [
+        {
+          "date": "1974-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 487,
+      "name": "Pattani Technical College (Fishery)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Pattani",
+      "description": "Aquaculture and coastal fishery tech.",
+      "events": [
+        {
+          "date": "1975-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 488,
+      "name": "Rayong Technical College (Fishery)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Rayong",
+      "description": "Marine engineering and aquaculture.",
+      "events": [
+        {
+          "date": "1976-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 489,
+      "name": "Samut Prakan Technical College (Fishery)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Samut Prakan",
+      "description": "Shrimp farming technology.",
+      "events": [
+        {
+          "date": "1976-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 490,
+      "name": "Phang Nga Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Phang Nga",
+      "description": "Tourism and marine tech.",
+      "events": [
+        {
+          "date": "1979-10-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 491,
+      "name": "Krabi Technical College (Fishery)",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Krabi",
+      "description": "Coastal aquaculture.",
+      "events": [
+        {
+          "date": "1977-02-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 492,
+      "name": "Trat Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Trat",
+      "description": "Border trade and fishery.",
+      "events": [
+        {
+          "date": "1978-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 493,
+      "name": "Chanthaburi Technical College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chanthaburi",
+      "description": "Gem processing and fruit tech.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 494,
+      "name": "Rayong Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Rayong",
+      "description": "Advanced technical skills for EEC.",
+      "events": [
+        {
+          "date": "1995-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 495,
+      "name": "Chonburi Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chonburi",
+      "description": "Heavy machinery and construction tech.",
+      "events": [
+        {
+          "date": "1995-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "name": "Samut Prakan Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Samut Prakan",
+      "description": "Electronics and precision engineering.",
+      "events": [
+        {
+          "date": "1995-07-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 497,
+      "name": "Ayutthaya Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Ayutthaya",
+      "description": "Industrial maintenance.",
+      "events": [
+        {
+          "date": "1995-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 498,
+      "name": "Nakhon Pathom Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nakhon Pathom",
+      "description": "Mechatronics and automation.",
+      "events": [
+        {
+          "date": "1995-11-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "name": "Saraburi Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Saraburi",
+      "description": "Construction materials and heavy industry.",
+      "events": [
+        {
+          "date": "1995-02-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "name": "Khon Kaen Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Khon Kaen",
+      "description": "Automotive and metal works.",
+      "events": [
+        {
+          "date": "1995-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "name": "Nakhon Ratchasima Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Nakhon Ratchasima",
+      "description": "Industrial technology hub.",
+      "events": [
+        {
+          "date": "1995-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "name": "Surat Thani Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Surat Thani",
+      "description": "Construction and mechanics.",
+      "events": [
+        {
+          "date": "1995-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "name": "Chiang Mai Polytechnic College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Chiang Mai",
+      "description": "Lanna industrial tech.",
+      "events": [
+        {
+          "date": "1995-10-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Bangkok Commercial College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Focus on business tech.",
+      "events": [
+        {
+          "date": "1940-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "name": "Dusit Commercial College",
+      "type": "public",
+      "role": "Vocational Training",
+      "regionOfActivity": "Bangkok",
+      "description": "Business and retail tech.",
+      "events": [
+        {
+          "date": "1939-05-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 506,
+      "name": "Suan Dusit University",
+      "type": "public",
+      "role": "Hospitality & Tech",
+      "regionOfActivity": "Bangkok",
+      "description": "Former vocational college, now university.",
+      "events": [
+        {
+          "date": "1934-05-17",
+          "category": "birth",
+          "description": "Founded as Home Economics School."
+        },
+        {
+          "date": "2015-07-20",
+          "category": "transformation",
+          "description": "Upgraded to University status."
+        }
+      ]
+    },
+    {
+      "id": 507,
+      "name": "Rajamangala University of Technology Krungthep (Dusit)",
+      "type": "public",
+      "role": "Technical Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Focus on printing and packaging technology.",
+      "events": [
+        {
+          "date": "2005-01-18",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "name": "Satit Pathumwan Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Leading demonstration school for technical pedagogy.",
+      "events": [
+        {
+          "date": "1965-05-18",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "name": "Satit Ratchamongkol Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Demonstration school for technical university.",
+      "events": [
+        {
+          "date": "1995-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 510,
+      "name": "Satit Ayutthaya Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Ayutthaya",
+      "description": "Demonstration school for Rajamangala Ayutthaya.",
+      "events": [
+        {
+          "date": "2000-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "name": "Satit Surin Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Surin",
+      "description": "Regional demonstration school.",
+      "events": [
+        {
+          "date": "2002-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "name": "Satit Chiang Mai Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Chiang Mai",
+      "description": "Demonstration school for Rajamangala Lanna.",
+      "events": [
+        {
+          "date": "1998-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "name": "Satit Ratchaburi Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Ratchaburi",
+      "description": "Regional tech pipeline.",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "name": "Satit Nakhon Ratchasima Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Nakhon Ratchasima",
+      "description": "Key feeder for technical university.",
+      "events": [
+        {
+          "date": "1999-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "name": "Satit Songkhla Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Songkhla",
+      "description": "Feeder for Southern technical university.",
+      "events": [
+        {
+          "date": "1996-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 516,
+      "name": "Satit Khon Kaen Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Khon Kaen",
+      "description": "Science focus in the Northeast.",
+      "events": [
+        {
+          "date": "1982-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "name": "Satit Ubon Ratchathani Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Ubon Ratchathani",
+      "description": "Regional science school.",
+      "events": [
+        {
+          "date": "2003-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "name": "Srinakharinwirot University Prasarnmit Demonstration School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Highly competitive school for technical talent.",
+      "events": [
+        {
+          "date": "1953-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "name": "Benchamarachutis School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Chonburi",
+      "description": "Premier school in the East.",
+      "events": [
+        {
+          "date": "1899-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 520,
+      "name": "Sri Ayudhya School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Strong science and math program.",
+      "events": [
+        {
+          "date": "1938-05-05",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "name": "Taweethapisek School",
+      "type": "public",
+      "role": "Education (Pipeline)",
+      "regionOfActivity": "Bangkok",
+      "description": "Technical and vocational focus.",
+      "events": [
+        {
+          "date": "1895-07-11",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 522,
+      "name": "Kamnoetvidya Science Academy (Research Center)",
+      "type": "private",
+      "role": "Research",
+      "regionOfActivity": "Rayong",
+      "description": "Research arm of the science academy.",
+      "events": [
+        {
+          "date": "2017-06-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 523,
+      "name": "Mahidol Wittayanusorn (Science Research Center)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Nakhon Pathom",
+      "description": "Student-led research hub.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 524,
+      "name": "Triam Udom Suksa (Science Center)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Bangkok",
+      "description": "Advanced science labs for students.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 525,
+      "name": "Institute for the Promotion of Teaching Science and Technology (IPST)",
+      "type": "public",
+      "role": "Policy & Curriculum",
+      "regionOfActivity": "Bangkok",
+      "description": "Develops science and math curriculum for schools.",
+      "events": [
+        {
+          "date": "1972-01-07",
+          "category": "birth",
+          "description": "Established."
+        },
+        {
+          "date": "2005-08-15",
+          "category": "curriculum",
+          "description": "Revised national science curriculum to include project-based learning."
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "name": "The Institute for the Promotion of Teaching Science and Technology (IPST) - Olympiad",
+      "type": "public",
+      "role": "Competition",
+      "regionOfActivity": "National",
+      "description": "Organizes science olympiads.",
+      "events": [
+        {
+          "date": "1989-04-10",
+          "category": "birth",
+          "description": "First national Physics Olympiad held."
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "name": "Office of the Basic Education Commission (OBEC)",
+      "type": "public",
+      "role": "Policy",
+      "regionOfActivity": "National",
+      "description": "Manages basic education, including science streams.",
+      "events": [
+        {
+          "date": "2003-07-08",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 528,
+      "name": "Office of the Private Education Commission (OPEC)",
+      "type": "public",
+      "role": "Policy",
+      "regionOfActivity": "National",
+      "description": "Regulates private technical colleges.",
+      "events": [
+        {
+          "date": "2003-07-08",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 529,
+      "name": "Teachers' Council of Thailand",
+      "type": "public",
+      "role": "Professional Standards",
+      "regionOfActivity": "National",
+      "description": "Sets standards for technical teachers.",
+      "events": [
+        {
+          "date": "1975-06-17",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "name": "Thai Society of Mechanical Engineers",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Professional development.",
+      "events": [
+        {
+          "date": "1989-06-20",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "name": "Thai Society of Electrical Engineers",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Professional development.",
+      "events": [
+        {
+          "date": "1988-07-15",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 532,
+      "name": "Thai Society of Civil Engineers",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Professional development.",
+      "events": [
+        {
+          "date": "1987-05-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 533,
+      "name": "Thai Society of Chemical Engineers",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Professional development.",
+      "events": [
+        {
+          "date": "1990-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 534,
+      "name": "Engineering Institute of Thailand under H.M. The King's Patronage",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Umbrella organization for engineers.",
+      "events": [
+        {
+          "date": "1943-11-11",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 535,
+      "name": "Science Society of Thailand",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "National",
+      "description": "Promotes science and technology culture.",
+      "events": [
+        {
+          "date": "1948-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 536,
+      "name": "National Science Museum (NSM) - Educational Services",
+      "type": "public",
+      "role": "Science Communication",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Engages schools in technical learning.",
+      "events": [
+        {
+          "date": "2000-06-01",
+          "category": "birth",
+          "description": "Educational division established."
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "name": "National Science and Technology Development Agency (NSTDA) - Youth Program",
+      "type": "public",
+      "role": "Youth Engagement",
+      "regionOfActivity": "National",
+      "description": "Connects researchers with high schools.",
+      "events": [
+        {
+          "date": "2010-03-15",
+          "category": "birth",
+          "description": "Launched 'Young Scientist Competition'."
+        }
+      ]
+    },
+    {
+      "id": 538,
+      "name": "Bangkok Science Center for Education",
+      "type": "public",
+      "role": "Science Communication",
+      "regionOfActivity": "Bangkok",
+      "description": "Planetarium and science learning.",
+      "events": [
+        {
+          "date": "1964-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 539,
+      "name": "National Astronomical Research Institute of Thailand (Public Organization)",
+      "type": "public",
+      "role": "Research & Education",
+      "regionOfActivity": "Chiang Mai",
+      "description": "Engages schools in astronomy tech.",
+      "events": [
+        {
+          "date": "2009-03-12",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 540,
+      "name": "Thailand Institute of Nuclear Technology (TINT) - Education",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Nuclear science training for teachers.",
+      "events": [
+        {
+          "date": "2008-05-01",
+          "category": "birth",
+          "description": "Education division established."
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "name": "Synchrotron Light Research Institute (SLRI) - Education",
+      "type": "public",
+      "role": "Education",
+      "regionOfActivity": "Nakhon Ratchasima",
+      "description": "Teaches synchrotron applications to university students.",
+      "events": [
+        {
+          "date": "2006-04-01",
+          "category": "birth",
+          "description": "Established training program."
+        }
+      ]
+    },
+    {
+      "id": 542,
+      "name": "Software Park Thailand - University Collaboration",
+      "type": "public",
+      "role": "Industry-Academia",
+      "regionOfActivity": "Bangkok",
+      "description": "Links universities with software industry.",
+      "events": [
+        {
+          "date": "2000-09-01",
+          "category": "birth",
+          "description": "Collaboration arm launched."
+        }
+      ]
+    },
+    {
+      "id": 543,
+      "name": "Digital Economy Promotion Agency (DEPA) - Digital Startup",
+      "type": "public",
+      "role": "Startup Support",
+      "regionOfActivity": "Bangkok",
+      "description": "Supports university startups.",
+      "events": [
+        {
+          "date": "2017-01-16",
+          "category": "birth",
+          "description": "Startup department created."
+        }
+      ]
+    },
+    {
+      "id": 544,
+      "name": "National Innovation Agency (NIA) - Student Innovation",
+      "type": "public",
+      "role": "Innovation Support",
+      "regionOfActivity": "Bangkok",
+      "description": "Funds student prototypes.",
+      "events": [
+        {
+          "date": "2005-06-01",
+          "category": "birth",
+          "description": "Student innovation fund established."
+        }
+      ]
+    },
+    {
+      "id": 545,
+      "name": "Thailand Research Fund (TRF) - New Researcher",
+      "type": "public",
+      "role": "Funding",
+      "regionOfActivity": "Bangkok",
+      "description": "Grants for young researchers.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "New Researcher Project launched."
+        }
+      ]
+    },
+    {
+      "id": 546,
+      "name": "Thailand Science Research and Innovation (TSRI) - Human Resource",
+      "type": "public",
+      "role": "Funding",
+      "regionOfActivity": "Bangkok",
+      "description": "Manpower development grants.",
+      "events": [
+        {
+          "date": "2019-10-01",
+          "category": "birth",
+          "description": "Merged HR functions."
+        }
+      ]
+    },
+    {
+      "id": 547,
+      "name": "Office of the Civil Service Commission (OCSC) - Scholarship",
+      "type": "public",
+      "role": "Human Resources",
+      "regionOfActivity": "Bangkok",
+      "description": "Overseas scholarships for technical fields.",
+      "events": [
+        {
+          "date": "1959-06-26",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 548,
+      "name": "Development and Promotion of Science and Technology Talents Project (DPST)",
+      "type": "public",
+      "role": "Talent Development",
+      "regionOfActivity": "National",
+      "description": "Scholarship program for gifted students.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "Initiated by IPST and TRF."
+        }
+      ]
+    },
+    {
+      "id": 549,
+      "name": "Royal Initiative Discovery Institute",
+      "type": "public",
+      "role": "Research & Education",
+      "regionOfActivity": "Bangkok",
+      "description": "Promotes innovation in royal projects.",
+      "events": [
+        {
+          "date": "2017-12-05",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "name": "Chaipattana Foundation",
+      "type": "nonprofit",
+      "role": "Technology Deployment",
+      "regionOfActivity": "National",
+      "description": "Deploys technology for rural development.",
+      "events": [
+        {
+          "date": "1988-06-14",
+          "category": "birth",
+          "description": "Founded by King Rama IX."
+        },
+        {
+          "date": "2005-08-20",
+          "category": "technical",
+          "description": "Deployed 'Chaipattana Aerator' in polluted canals."
+        }
+      ]
+    },
+    {
+      "id": 551,
+      "name": "Mae Fah Luang Foundation",
+      "type": "nonprofit",
+      "role": "Sustainable Tech",
+      "regionOfActivity": "Chiang Rai",
+      "description": "Technology for sustainable development.",
+      "events": [
+        {
+          "date": "1972-10-27",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 552,
+      "name": "Thailand Convention and Exhibition Bureau (Public Organization) - Tech Events",
+      "type": "public",
+      "role": "Events",
+      "regionOfActivity": "Bangkok",
+      "description": "Attracts tech trade shows.",
+      "events": [
+        {
+          "date": "2004-09-27",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "name": "Impact Exhibition Management Co",
+      "type": "private",
+      "role": "Events Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Hosts Thailand Tech Expo.",
+      "events": [
+        {
+          "date": "1999-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "name": "BITEC (Bangkok International Trade & Exhibition Centre)",
+      "type": "private",
+      "role": "Events Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Hosts manufacturing tech expos.",
+      "events": [
+        {
+          "date": "1997-09-01",
+          "category": "birth",
+          "description": "Opened."
+        }
+      ]
+    },
+    {
+      "id": 555,
+      "name": "Queen Sirikit National Convention Center",
+      "type": "public",
+      "role": "Events Infrastructure",
+      "regionOfActivity": "Bangkok",
+      "description": "Hosts academic and tech conferences.",
+      "events": [
+        {
+          "date": "1991-08-29",
+          "category": "birth",
+          "description": "Opened."
+        },
+        {
+          "date": "2022-09-12",
+          "category": "renovation",
+          "description": "Reopened after major expansion."
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "name": "True Digital Park",
+      "type": "private",
+      "role": "Startup Hub",
+      "regionOfActivity": "Bangkok",
+      "description": "Largest tech startup hub in SE Asia.",
+      "events": [
+        {
+          "date": "2018-06-20",
+          "category": "birth",
+          "description": "Opened."
+        }
+      ]
+    },
+    {
+      "id": 557,
+      "name": "Samyan Co-Op",
+      "type": "private",
+      "role": "Startup Hub",
+      "regionOfActivity": "Bangkok",
+      "description": "Community-run tech co-working.",
+      "events": [
+        {
+          "date": "2015-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 558,
+      "name": "HUBBA",
+      "type": "private",
+      "role": "Startup Hub",
+      "regionOfActivity": "Bangkok",
+      "description": "Pioneer co-working space.",
+      "events": [
+        {
+          "date": "2012-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 559,
+      "name": "Punspace",
+      "type": "private",
+      "role": "Startup Hub",
+      "regionOfActivity": "Chiang Mai",
+      "description": "Tech hub in the North.",
+      "events": [
+        {
+          "date": "2014-02-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 560,
+      "name": "Launchpad",
+      "type": "private",
+      "role": "Startup Hub",
+      "regionOfActivity": "Bangkok",
+      "description": "Tech incubator.",
+      "events": [
+        {
+          "date": "2013-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 561,
+      "name": "Techsauce Media",
+      "type": "private",
+      "role": "Tech Media",
+      "regionOfActivity": "Bangkok",
+      "description": "Voice of the startup ecosystem.",
+      "events": [
+        {
+          "date": "2017-01-01",
+          "category": "birth",
+          "description": "Rebranded from Thumbsup."
+        }
+      ]
+    },
+    {
+      "id": 562,
+      "name": "Thai Fintech Association",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Advocacy for fintech.",
+      "events": [
+        {
+          "date": "2016-07-28",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "name": "Thailand Startup Ecosystem",
+      "type": "aggregate",
+      "role": "Concept",
+      "regionOfActivity": "National",
+      "description": "The aggregate of all startup actors.",
+      "events": [
+        {
+          "date": "2016-01-01",
+          "category": "milestone",
+          "description": "Recognized as a key economic driver in Thailand 4.0 policy."
+        }
+      ]
+    },
+    {
+      "id": 564,
+      "name": "Global Entrepreneurship Network Thailand",
+      "type": "nonprofit",
+      "role": "Network",
+      "regionOfActivity": "Bangkok",
+      "description": "Connects Thai startups globally.",
+      "events": [
+        {
+          "date": "2017-03-01",
+          "category": "birth",
+          "description": "Chapter established."
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "name": "American Chamber of Commerce in Thailand (Tech Group)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Advocacy for US tech companies.",
+      "events": [
+        {
+          "date": "1994-01-01",
+          "category": "birth",
+          "description": "Tech committee formed."
+        }
+      ]
+    },
+    {
+      "id": 566,
+      "name": "European Association for Business and Commerce (EABC) - Tech",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Advocacy for EU tech.",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "birth",
+          "description": "Tech committee formed."
+        }
+      ]
+    },
+    {
+      "id": 567,
+      "name": "Japanese Chamber of Commerce (Bangkok) - IT Committee",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Advocacy for Japanese IT firms.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "IT committee formed."
+        }
+      ]
+    },
+    {
+      "id": 568,
+      "name": "Korean Chamber of Commerce - Tech Division",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Advocacy for Korean tech.",
+      "events": [
+        {
+          "date": "1995-01-01",
+          "category": "birth",
+          "description": "Tech division formed."
+        }
+      ]
+    },
+    {
+      "id": 569,
+      "name": "Thailand Information Security Association",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Cybersecurity professionals.",
+      "events": [
+        {
+          "date": "2012-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 570,
+      "name": "Cloud Security Alliance Thailand Chapter",
+      "type": "nonprofit",
+      "role": "Professional Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Cloud security standards.",
+      "events": [
+        {
+          "date": "2015-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 571,
+      "name": "Thailand Internet Governance Forum",
+      "type": "nonprofit",
+      "role": "Policy Forum",
+      "regionOfActivity": "Bangkok",
+      "description": "Internet policy discussion.",
+      "events": [
+        {
+          "date": "2010-07-01",
+          "category": "birth",
+          "description": "First forum held."
+        }
+      ]
+    },
+    {
+      "id": 572,
+      "name": "Thai E-Commerce Association",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "E-commerce tech standards.",
+      "events": [
+        {
+          "date": "2012-09-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 573,
+      "name": "Thai Digital Marketing Association",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Marketing tech.",
+      "events": [
+        {
+          "date": "2012-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 574,
+      "name": "Advertising Association of Thailand (Tech)",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Ad-tech standards.",
+      "events": [
+        {
+          "date": "1957-06-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 575,
+      "name": "Content Marketing Association Thailand",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Digital content tech.",
+      "events": [
+        {
+          "date": "2015-08-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 576,
+      "name": "Association of Thai ICT Industry",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Umbrella for ICT.",
+      "events": [
+        {
+          "date": "1998-04-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 577,
+      "name": "Thai Computer Emergency Response Team (ThaiCERT)",
+      "type": "public",
+      "role": "Cybersecurity",
+      "regionOfActivity": "Pathum Thani",
+      "description": "Incident response.",
+      "events": [
+        {
+          "date": "2004-07-01",
+          "category": "birth",
+          "description": "Established under NECTEC."
+        }
+      ]
+    },
+    {
+      "id": 578,
+      "name": "Electronic Transactions Development Agency (ETDA) - Standards",
+      "type": "public",
+      "role": "Standards",
+      "regionOfActivity": "Bangkok",
+      "description": "Sets e-transaction standards.",
+      "events": [
+        {
+          "date": "2011-12-27",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "name": "Thailand 4.0 Policy (Execution)",
+      "type": "public",
+      "role": "Strategy",
+      "regionOfActivity": "National",
+      "description": "The implementation arm of the policy.",
+      "events": [
+        {
+          "date": "2016-06-03",
+          "category": "birth",
+          "description": "Policy announced."
+        }
+      ]
+    },
+    {
+      "id": 580,
+      "name": "Digital Thailand Initiative",
+      "type": "public",
+      "role": "Strategy",
+      "regionOfActivity": "National",
+      "description": "Specific digital economy roadmap.",
+      "events": [
+        {
+          "date": "2016-11-15",
+          "category": "birth",
+          "description": "Announced by Ministry of Digital Economy."
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "name": "Pracharat (People's State) Initiative",
+      "type": "public",
+      "role": "PPP Mechanism",
+      "regionOfActivity": "National",
+      "description": "Mechanism for private sector to help develop tech in rural areas.",
+      "events": [
+        {
+          "date": "2015-12-01",
+          "category": "birth",
+          "description": "Initiated."
+        }
+      ]
+    },
+    {
+      "id": 582,
+      "name": "Siam Cement Group (SCG) Foundation",
+      "type": "nonprofit",
+      "role": "Human Resources",
+      "regionOfActivity": "Bangkok",
+      "description": "Scholarships for engineering.",
+      "events": [
+        {
+          "date": "1979-08-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 583,
+      "name": "PTT Foundation",
+      "type": "nonprofit",
+      "role": "Human Resources",
+      "regionOfActivity": "Bangkok",
+      "description": "Scholarships for energy tech.",
+      "events": [
+        {
+          "date": "2002-03-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "name": "True Corporation Foundation",
+      "type": "nonprofit",
+      "role": "Human Resources",
+      "regionOfActivity": "Bangkok",
+      "description": "Scholarships for IT.",
+      "events": [
+        {
+          "date": "2008-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 585,
+      "name": "AIS Foundation",
+      "type": "nonprofit",
+      "role": "Human Resources",
+      "regionOfActivity": "Bangkok",
+      "description": "Scholarships for telecom.",
+      "events": [
+        {
+          "date": "2005-01-01",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 586,
+      "name": "King Rama IX Energy Award",
+      "type": "public",
+      "role": "Award",
+      "regionOfActivity": "Bangkok",
+      "description": "Award for energy innovation.",
+      "events": [
+        {
+          "date": "2000-12-05",
+          "category": "birth",
+          "description": "First award ceremony."
+        }
+      ]
+    },
+    {
+      "id": 587,
+      "name": "National Innovation Award",
+      "type": "public",
+      "role": "Award",
+      "regionOfActivity": "Bangkok",
+      "description": "Award for innovation.",
+      "events": [
+        {
+          "date": "2004-02-15",
+          "category": "birth",
+          "description": "First award ceremony."
+        }
+      ]
+    },
+    {
+      "id": 588,
+      "name": "Prime Minister's Industry Award",
+      "type": "public",
+      "role": "Award",
+      "regionOfActivity": "Bangkok",
+      "description": "Award for industrial excellence.",
+      "events": [
+        {
+          "date": "1993-03-10",
+          "category": "birth",
+          "description": "First award ceremony."
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "name": "Thailand Board of Investment (BOI) - BOI Fair",
+      "type": "public",
+      "role": "Event",
+      "regionOfActivity": "Bangkok",
+      "description": "Showcase of investment and technology.",
+      "events": [
+        {
+          "date": "1995-11-01",
+          "category": "birth",
+          "description": "First BOI Fair."
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "name": "National Science and Technology Fair",
+      "type": "public",
+      "role": "Event",
+      "regionOfActivity": "Bangkok",
+      "description": "Largest science fair in Thailand.",
+      "events": [
+        {
+          "date": "1975-08-01",
+          "category": "birth",
+          "description": "First fair held."
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "name": "Engineering Expo",
+      "type": "nonprofit",
+      "role": "Event",
+      "regionOfActivity": "Bangkok",
+      "description": "Engineering Institute of Thailand expo.",
+      "events": [
+        {
+          "date": "1990-05-01",
+          "category": "birth",
+          "description": "First expo."
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "name": "TCEP (Thailand Computer Emergency Response Team) - Collaboration",
+      "type": "public",
+      "role": "Cybersecurity",
+      "regionOfActivity": "Bangkok",
+      "description": "Sectoral CERTs.",
+      "events": [
+        {
+          "date": "2016-06-01",
+          "category": "birth",
+          "description": "Banking sector CERT established."
+        }
+      ]
+    },
+    {
+      "id": 593,
+      "name": "Thailand Data Governance Committee",
+      "type": "public",
+      "role": "Policy",
+      "regionOfActivity": "Bangkok",
+      "description": "Regulates data use.",
+      "events": [
+        {
+          "date": "2018-05-20",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 594,
+      "name": "Thailand AI Ethics Committee",
+      "type": "public",
+      "role": "Ethics",
+      "regionOfActivity": "Bangkok",
+      "description": "Ethics guidelines for AI.",
+      "events": [
+        {
+          "date": "2020-07-15",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "name": "Center for AI Technology (CAT)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "National AI research center.",
+      "events": [
+        {
+          "date": "2019-03-01",
+          "category": "birth",
+          "description": "Established under NSTDA."
+        }
+      ]
+    },
+    {
+      "id": 596,
+      "name": "Big Data Center (BDC)",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "National big data center.",
+      "events": [
+        {
+          "date": "2018-04-01",
+          "category": "birth",
+          "description": "Established under NSTDA."
+        }
+      ]
+    },
+    {
+      "id": 597,
+      "name": "Thailand Space Consortium",
+      "type": "hybrid",
+      "role": "Strategy",
+      "regionOfActivity": "Bangkok",
+      "description": "Consortium for space industry.",
+      "events": [
+        {
+          "date": "2020-01-20",
+          "category": "birth",
+          "description": "Formed to drive space tech."
+        }
+      ]
+    },
+    {
+      "id": 598,
+      "name": "GISTDA (Space Agency) - Geo-Informatics",
+      "type": "public",
+      "role": "Research",
+      "regionOfActivity": "Pathum Thani",
+      "description": "GIS application.",
+      "events": [
+        {
+          "date": "2000-11-20",
+          "category": "birth",
+          "description": "Established."
+        }
+      ]
+    },
+    {
+      "id": 599,
+      "name": "Thai Space Industry Association",
+      "type": "nonprofit",
+      "role": "Industry Body",
+      "regionOfActivity": "Bangkok",
+      "description": "Private space companies.",
+      "events": [
+        {
+          "date": "2021-03-10",
+          "category": "birth",
+          "description": "Founded."
+        }
+      ]
+    },
+    {
+      "id": 600,
+      "name": "Ministry of Digital Economy and Society (DES)",
+      "type": "public",
+      "role": "Governance",
+      "regionOfActivity": "National",
+      "description": "Overarching ministry for digital tech.",
+      "events": [
+        {
+          "date": "2002-10-03",
+          "category": "birth",
+          "description": "Established as Ministry of ICT."
+        },
+        {
+          "date": "2016-09-01",
+          "category": "reorganization",
+          "description": "Renamed Ministry of Digital Economy and Society."
+        },
+        {
+          "date": "2019-12-05",
+          "category": "policy",
+          "description": "Launched Digital Government Development Plan."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1650 @@
+{
+  "meta": {
+    "space": {
+      "name": "Public Organization Space",
+      "description": "Organizations wielding delegated public authority under law: ministries, councils, delivery and research bodies, task groups, arm's-length agencies, state-owned enterprises, municipalities, and public-private hybrids."
+    },
+    "universe": {
+      "description": "Public organizations wielding delegated public authority over a population or territory, in any polity and any period, under constitutional, statutory, customary, dynastic, party, military, colonial, feudal, or treaty-based arrangements.",
+      "includes": [
+        "ministries",
+        "councils",
+        "implementation (delivery) bodies",
+        "policy research bodies",
+        "task groups",
+        "arm's-length public agencies",
+        "state-owned enterprises",
+        "municipal organizations",
+        "public-private hybrids",
+        "royal and imperial household offices",
+        "provincial governorships",
+        "military-fiscal bodies",
+        "tributary and colonial offices",
+        "chartered-company organs",
+        "party organs",
+        "hereditary offices",
+        "indigenous and customary councils",
+        "supranational bodies",
+        "courts exercising administrative authority"
+      ],
+      "excludes": [
+        "private firms without delegated authority",
+        "informal groups without a constituting order",
+        "purely domestic or household units"
+      ]
+    },
+    "description": "Four comparative representation systems for comparing public organizations across polities and periods: ontological, functional, purpose-driven, and model-derived.",
+    "version": 5
+  },
+  "systems": [
+    {
+      "name": "ontological",
+      "title": "Ontological Set",
+      "description": "Profiles what public bodies are: their legal standing, institutional kind, composition, resources, permanence, and spatial definition. Derived by ontological analysis - enumerating the entities, kinds, and modes of existence the domain contains. Use it to compare bodies as entities before asking what they do or how they relate.",
+      "frame_basis": "Ontological analysis of the domain",
+      "provenance": "authored for this atlas from the organization decomposition and agency-form comparison",
+      "related_notes": [
+        "social/collective/actor/public/public-organization.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, dynastic, party, military, colonial, feudal, or treaty.",
+      "purpose": "Compare what bodies are: existence, kind, composition, and permanence.",
+      "version": 4,
+      "groups": [
+        {
+          "name": "Existence & Standing",
+          "description": "What the body is as a legal or institutional entity."
+        },
+        {
+          "name": "Composition & Maintenance",
+          "description": "How the body is staffed and how its post-holders are sustained."
+        },
+        {
+          "name": "Resources & Financing",
+          "description": "The material resources the body commands and how its operation is financed."
+        },
+        {
+          "name": "Authority & Continuity",
+          "description": "The basis of its authority and how permanently it is constituted."
+        },
+        {
+          "name": "Jurisdiction & Reach",
+          "description": "The territory, persons, or activities its authority runs over."
+        }
+      ],
+      "characteristic_element_set": [
+        {
+          "name": "Institutional Standing",
+          "category": "Existence & Standing",
+          "description": "Whether the body holds legal personality, is a dependent public body, or is an office without personhood.",
+          "value_set": [
+            "independent legal person",
+            "dependent public body",
+            "office without personhood",
+            "unincorporated state unit"
+          ],
+          "assignment_rule": "Code independent where it owns property and litigates in its own name; dependent where it is a distinct public body lacking full personhood; office where the holder, not the body, holds the legal position.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Organizational Form",
+          "category": "Existence & Standing",
+          "description": "The recognized kind of public body or governing institution.",
+          "value_set": [
+            "ministry",
+            "council",
+            "implementation body",
+            "research body",
+            "task group",
+            "public agency",
+            "state-owned enterprise",
+            "municipal organization",
+            "public-private hybrid",
+            "royal / imperial household office",
+            "provincial governorship",
+            "military-fiscal body",
+            "feudal lordship",
+            "tributary office",
+            "colonial office",
+            "chartered-company organ",
+            "party organ",
+            "hereditary office",
+            "indigenous / customary council",
+            "supranational body",
+            "court exercising administrative authority",
+            "other / hybrid"
+          ],
+          "assignment_rule": "Code by constituting order and institutional function jointly. Use feudal lordship for a lordship exercising public or governing authority through a feudal tenure relationship; a private landholding alone is insufficient. Hybrids take public-private hybrid only under mixed control. Bodies chartered by more than one polity take supranational body.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Recruitment Mode",
+          "category": "Composition & Maintenance",
+          "description": "The dominant mode by which members or post-holders are installed.",
+          "value_set": [
+            "examination / merit",
+            "patronage",
+            "hereditary succession",
+            "election",
+            "purchase / venality",
+            "co-optation",
+            "appointment by institutional authority",
+            "military commission",
+            "party assignment",
+            "mixed"
+          ],
+          "assignment_rule": "Code the mode filling the majority of the deciding membership or relevant posts. Use mixed where no mode predominates. Appointment by institutional authority describes the appointing mechanism; record the appointing actor separately where relevant.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Office Maintenance",
+          "category": "Composition & Maintenance",
+          "description": "How the post-holder is materially sustained.",
+          "value_set": [
+            "salary",
+            "benefice / prebend",
+            "fief / feudal tenure",
+            "land / estate income",
+            "fees",
+            "tribute share",
+            "none",
+            "mixed"
+          ],
+          "assignment_rule": "Code the dominant material basis of the office. Use fief / feudal tenure where maintenance derives from tenure carrying feudal obligations; distinguish this from simple ownership or rental income.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Resource Base",
+          "category": "Resources & Financing",
+          "description": "The largest class of resources the body commands.",
+          "value_set": [
+            "none (pure secretariat)",
+            "operational assets",
+            "infrastructure and estate",
+            "financial holdings",
+            "land / domain",
+            "fief / feudal domain",
+            "tribute claims",
+            "benefice revenues",
+            "in-kind dues",
+            "mixed"
+          ],
+          "assignment_rule": "Code by the dominant resource commanded by the body; bodies without holdings take none. Use fief / feudal domain only where land or rights are held within a feudal tenure relationship.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Financing Mode",
+          "category": "Resources & Financing",
+          "description": "The revenue base financing the body's operation.",
+          "value_set": [
+            "appropriation / vote",
+            "fees",
+            "commercial revenue",
+            "tribute",
+            "feudal dues",
+            "benefice / land revenue",
+            "in-kind",
+            "mixed"
+          ],
+          "assignment_rule": "Code by the largest revenue share over the body's operating period. Feudal dues are obligations attached to feudal tenure; ordinary land rents are coded as benefice / land revenue.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Authority Basis",
+          "category": "Authority & Continuity",
+          "description": "The basis on which the body's authority rests.",
+          "value_set": [
+            "constitutional",
+            "statutory",
+            "executive decree",
+            "customary",
+            "dynastic / hereditary",
+            "feudal tenure / vassalic obligation",
+            "party directive",
+            "military command",
+            "colonial charter",
+            "treaty",
+            "mixed"
+          ],
+          "assignment_rule": "Code the principal basis supporting the body's authority, not merely its source of income. Where authority rests on several inseparable bases, use mixed. Feudal tenure / vassalic obligation applies where authority and duties derive from a feudal relationship.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Permanence",
+          "category": "Authority & Continuity",
+          "description": "How permanently the body is constituted.",
+          "value_set": [
+            "task-bound (dissolves on delivery)",
+            "fixed-term",
+            "renewable mandate",
+            "permanent"
+          ],
+          "assignment_rule": "Read the constituting order: a dissolution clause gives task-bound; a fixed end date gives fixed-term; a renewal term gives renewable mandate; otherwise permanent.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Jurisdictional Extent",
+          "category": "Jurisdiction & Reach",
+          "description": "The scale at which the body's authority runs.",
+          "value_set": [
+            "municipal",
+            "provincial / regional",
+            "national",
+            "imperial",
+            "colonial / dependency",
+            "confederal",
+            "city-state",
+            "supranational",
+            "functional (non-territorial)",
+            "multi-territory"
+          ],
+          "assignment_rule": "Code by the polity that constitutes it and the reach of its remit, not solely by where it operates.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Territorial Basis",
+          "category": "Jurisdiction & Reach",
+          "description": "Whether authority runs over people, land, function, or beyond territory.",
+          "value_set": [
+            "personal (over persons)",
+            "territorial (over land)",
+            "functional (over an activity)",
+            "extra-territorial",
+            "mixed"
+          ],
+          "assignment_rule": "Code personal where the remit follows persons or status; territorial where it follows bounded land; functional where it follows an activity or regulated domain.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Mandate Scope",
+          "category": "Jurisdiction & Reach",
+          "description": "How wide the constituting remit runs.",
+          "value_set": [
+            "single task",
+            "single program",
+            "policy domain",
+            "multi-domain",
+            "household / royal domain",
+            "provincial remit",
+            "universal / general government"
+          ],
+          "assignment_rule": "Count the domains named in the constituting order, not those grown by practice.",
+          "scale": "nominal"
+        }
+      ]
+    },
+    {
+      "name": "functional",
+      "title": "Functional Set",
+      "description": "Profiles what public bodies do: the task families they perform, coded by exercised activity rather than charter rhetoric. Derived by functional analysis - enumerating the functions and activities of the domain. Use it to compare workloads and task portfolios across bodies with different legal forms.",
+      "frame_basis": "Functional analysis of the domain",
+      "provenance": "authored for this atlas from the function taxonomy and agency mandates",
+      "related_notes": [
+        "social/collective/actor/public/public-organization.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, dynastic, party, military, colonial, feudal, or treaty.",
+      "purpose": "Compare what bodies do: task families by exercised activity.",
+      "version": 4,
+      "groups": [
+        {
+          "name": "Provision & Service",
+          "description": "Delivering services, protection, or provision to end users."
+        },
+        {
+          "name": "Regulation & Enforcement",
+          "description": "Forming binding rules and compelling compliance."
+        },
+        {
+          "name": "Extraction & Commerce",
+          "description": "Drawing resources from, or trading with, the governed."
+        },
+        {
+          "name": "Knowledge & Symbol",
+          "description": "Producing knowledge, records, and symbolic or ideological output."
+        },
+        {
+          "name": "Force & Representation",
+          "description": "Raising organized force and aggregating constituencies."
+        },
+        {
+          "name": "Coordination & Emergency",
+          "description": "Coordinating other bodies and holding extraordinary powers."
+        }
+      ],
+      "characteristic_element_set": [
+        {
+          "name": "Service & Provision",
+          "category": "Provision & Service",
+          "description": "Whether the body delivers services, protection, or provision to end users.",
+          "value_set": [
+            "direct delivery",
+            "commissioned provision",
+            "poor relief",
+            "grain / provisioning",
+            "public works",
+            "protection",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant provision; commissioned where it funds or compels others to deliver; none for bodies that only rule or extract.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Regulation",
+          "category": "Regulation & Enforcement",
+          "description": "Whether the body forms binding rules, licenses, or authoritative counsel.",
+          "value_set": [
+            "rule-making",
+            "licensing",
+            "advisory",
+            "none"
+          ],
+          "assignment_rule": "Code rule-making where it issues binding rules in its own right; licensing where its only binding act is granting or refusing permissions; advisory where it only counsels; none otherwise.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Enforcement",
+          "category": "Regulation & Enforcement",
+          "description": "Whether the body compels compliance.",
+          "value_set": [
+            "inspection",
+            "sanctioning",
+            "coercive force",
+            "none"
+          ],
+          "assignment_rule": "Code the highest exercised in its operating period; inspection without sanction stays inspection.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Adjudication",
+          "category": "Regulation & Enforcement",
+          "description": "Whether the body decides individual cases with binding effect.",
+          "value_set": [
+            "binding decisions",
+            "advisory opinions",
+            "none"
+          ],
+          "assignment_rule": "Code binding only where decisions are enforceable without further approval.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Resource Extraction",
+          "category": "Extraction & Commerce",
+          "description": "Whether the body draws resources from the population or governed entities.",
+          "value_set": [
+            "taxation",
+            "tribute",
+            "feudal dues",
+            "dues / fees",
+            "corvée / labour levy",
+            "rents",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant mode by which it draws resources; feudal dues apply to obligations attached to feudal tenure; bodies that only spend take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Knowledge and Record",
+          "category": "Knowledge & Symbol",
+          "description": "Whether the body produces knowledge, records, or evidence.",
+          "value_set": [
+            "in-house inquiry",
+            "record-keeping / census",
+            "commissioned research",
+            "specialized institutional knowledge",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant knowledge and record function; distinguish internal production from commissioned work and routine record-keeping.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Ideological and Symbolic Administration",
+          "category": "Knowledge & Symbol",
+          "description": "Whether the body performs ideological propagation, public symbolism, or institutional legitimation as an administrative function.",
+          "value_set": [
+            "ideological propagation",
+            "civic / state ceremony",
+            "symbolic representation",
+            "institutional legitimation",
+            "none"
+          ],
+          "assignment_rule": "Code a function only where it is an identifiable organizational activity; classify other activities by their substantive function. Do not infer this function merely from an organization's historical association or symbols.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Military Mobilization",
+          "category": "Force & Representation",
+          "description": "Whether the body raises, commands, or supplies organized force.",
+          "value_set": [
+            "command",
+            "recruitment",
+            "logistics / supply",
+            "fortification / military works",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant military function; bodies with no force function take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Representation",
+          "category": "Force & Representation",
+          "description": "Whether the body aggregates estates, communities, or constituencies.",
+          "value_set": [
+            "assembly",
+            "estates / orders",
+            "petition",
+            "council representation",
+            "constituency representation",
+            "none"
+          ],
+          "assignment_rule": "Code where the body's dominant function is to voice or aggregate constituencies or recognized social bodies.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Coordination & Oversight",
+          "category": "Coordination & Emergency",
+          "description": "Whether the body coordinates or supervises other bodies.",
+          "value_set": [
+            "lead coordinator",
+            "participant",
+            "supervisory mandate",
+            "inspection of other bodies",
+            "none"
+          ],
+          "assignment_rule": "Code lead coordinator where it convenes and sets the agenda of a standing coordination arrangement; supervisory only with a formal oversight mandate over named bodies.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Commercial Operation",
+          "category": "Extraction & Commerce",
+          "description": "Whether the body operates commercially or by trading monopoly.",
+          "value_set": [
+            "profit-seeking",
+            "cost-recovery",
+            "monopoly trade",
+            "state commercial operation",
+            "none"
+          ],
+          "assignment_rule": "Code by the pricing rule and purpose of its trading activity; bodies with no trading activity take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Emergency Powers",
+          "category": "Coordination & Emergency",
+          "description": "Whether the body holds extraordinary powers.",
+          "value_set": [
+            "standing emergency powers",
+            "activated only",
+            "none"
+          ],
+          "assignment_rule": "Code standing where powers are exercisable without fresh authorization.",
+          "scale": "ordinal"
+        }
+      ]
+    },
+    {
+      "name": "purpose-driven",
+      "title": "Purpose-Driven Set",
+      "description": "Profiles what decision-makers need to know: answerability, changeability, rationalization, centralization, embeddedness, fidelity of performance signals, and risk. Derived by purpose-driven analysis - starting from the questions, decisions, and analytical tasks the comparison must support, then selecting the elements that answer them. Use it when a decision, not a description, is the output.",
+      "frame_basis": "Purpose-driven analysis from canonical comparison questions",
+      "provenance": "authored for this atlas from the evaluation and governance questions",
+      "related_notes": [
+        "social/collective/actor/public/public-organization.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, dynastic, party, military, colonial, feudal, or treaty.",
+      "purpose": "Answer decisions: answerability, changeability, rationalization, centralization, embeddedness, risk.",
+      "version": 4,
+      "groups": [
+        {
+          "name": "Answerability",
+          "description": "Whether and how the body is answerable and observable."
+        },
+        {
+          "name": "Adaptability & Structure",
+          "description": "How the body can be changed and how authority is distributed."
+        },
+        {
+          "name": "Administrative Model",
+          "description": "The dominant basis of authority and administration."
+        },
+        {
+          "name": "Mandate Specification",
+          "description": "How precisely the mandate defines success."
+        },
+        {
+          "name": "Exposure & Loss",
+          "description": "Exposure to capture and who bears residual loss."
+        }
+      ],
+      "characteristic_element_set": [
+        {
+          "name": "Accountability Depth",
+          "category": "Answerability",
+          "description": "Whether answerability carries consequences.",
+          "value_set": [
+            "full (consequences attach)",
+            "reporting only",
+            "none"
+          ],
+          "assignment_rule": "Code full where an accountability cycle can trigger and has credible capacity to trigger leadership, financial, legal, or operational consequences; reporting alone is reporting only.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Changeability",
+          "category": "Adaptability & Structure",
+          "description": "How the body can be reorganized or abolished.",
+          "value_set": [
+            "by executive action",
+            "by law",
+            "by custom",
+            "by dynastic settlement",
+            "by revolution / force",
+            "by treaty or inter-polity agreement",
+            "entrenched"
+          ],
+          "assignment_rule": "Code by the instrument or force needed for abolition or fundamental reorganization in the body's institutional order.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Rationalization Degree",
+          "category": "Administrative Model",
+          "description": "The dominant basis of organizational authority and administration, distinguishing rule-bound office from personal, patrimonial, charismatic, and customary arrangements.",
+          "value_set": [
+            "rational-legal bureaucracy",
+            "rule-bound non-bureaucratic",
+            "patrimonial",
+            "feudal",
+            "charismatic",
+            "traditional / customary",
+            "mixed"
+          ],
+          "assignment_rule": "Code rational-legal bureaucracy where offices are rule-defined and administration is impersonal and career-based; patrimonial where offices are personal extensions of a ruler's household; feudal where authority and obligations are organized through feudal tenure and personal bonds; use mixed where no form dominates.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Centralization",
+          "category": "Adaptability & Structure",
+          "description": "How decision-making authority is distributed across levels and units.",
+          "value_set": [
+            "centralized",
+            "deconcentrated",
+            "devolved",
+            "federated / shared",
+            "locally autonomous",
+            "fragmented",
+            "mixed"
+          ],
+          "assignment_rule": "Code by the location of effective decision rights, distinguishing local execution under central control from delegated or autonomous local authority.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Loss Bearer",
+          "category": "Exposure & Loss",
+          "description": "Who bears the financial or material residual loss.",
+          "value_set": [
+            "sovereign / treasury",
+            "organization's own account",
+            "community",
+            "personal / patrimonial holder",
+            "contractor / provider",
+            "shared"
+          ],
+          "assignment_rule": "Code by who absorbs deficits or losses in practice, not merely who is formally liable.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Performance Visibility",
+          "category": "Answerability",
+          "description": "How observable the body's performance is to outsiders.",
+          "value_set": [
+            "published indicators",
+            "public records and reports",
+            "external inspection",
+            "internal only",
+            "none"
+          ],
+          "assignment_rule": "Code the strongest regular mechanism available to external observers; distinguish published performance measures from records or inspection.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Mandate Clarity",
+          "category": "Mandate Specification",
+          "description": "How precisely the mandate states what success looks like.",
+          "value_set": [
+            "quantified targets",
+            "specified outputs or outcomes",
+            "broad objectives",
+            "vague / open-ended"
+          ],
+          "assignment_rule": "Code from the constituting order and binding directives, not from observed performance.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Capture Exposure",
+          "category": "Exposure & Loss",
+          "description": "Exposure to capture by concentrated interests or insiders.",
+          "value_set": [
+            "low",
+            "medium",
+            "high",
+            "unknown"
+          ],
+          "assignment_rule": "Assess safeguards, concentration of beneficiaries or regulated parties, transparency, appointment arrangements, and conflicts of interest. Do not infer low exposure from tenure protection alone.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Patron-Client Position",
+          "category": "Administrative Model",
+          "description": "The body's position within patronage, faction, or personal-dependence networks.",
+          "value_set": [
+            "central patron",
+            "client",
+            "factional broker",
+            "dependent client",
+            "relatively autonomous",
+            "not applicable / unknown"
+          ],
+          "assignment_rule": "Code central patron where the body dispenses offices or resources through a dependent network; code client where its own position depends on another patron; distinguish evidence of autonomy from lack of evidence.",
+          "scale": "nominal"
+        }
+      ]
+    },
+    {
+      "name": "model-derived",
+      "title": "Model-Derived Set",
+      "description": "Derives characteristics from an overarching model of public organization as an institutional operating system: constitution, mandate, authority, governance, organization, operations, resources and capabilities, accountability and control, and institutional ecology. Each submodel contributes elements to a composite profile. Formal arrangements and observed practice should be distinguished where they differ.",
+      "frame_basis": "Composite-model approach: Public Organization Model in nine submodels",
+      "provenance": "revised model decomposition for this atlas; enriched to represent authority relationships, internal organization, operating arrangements, capabilities, control, and institutional ecology",
+      "related_notes": [
+        "social/collective/actor/public/public-organization.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under constitutional, statutory, customary, dynastic, party, military, colonial, feudal, or treaty-based arrangements.",
+      "purpose": "Reconstruct how the organization is constituted, authorized, governed, organized, operated, resourced, controlled, and embedded in a wider institutional system.",
+      "version": 4,
+      "submodels": [
+        {
+          "name": "Constitution",
+          "question": "How does the organization come into existence?",
+          "elements": [
+            "Constituting Instrument",
+            "Institutional Standing",
+            "Institutional Origin",
+            "Permanence"
+          ]
+        },
+        {
+          "name": "Mandate",
+          "question": "What is the organization authorized and expected to accomplish?",
+          "elements": [
+            "Mandate Scope",
+            "Mandate Orientation",
+            "Jurisdictional Extent",
+            "Target Population",
+            "Mandate Precision",
+            "Reserved Powers"
+          ]
+        },
+        {
+          "name": "Authority",
+          "question": "From whom does its authority derive, and to whom is it answerable?",
+          "elements": [
+            "Political Principal",
+            "Appointment Authority",
+            "Direction Authority",
+            "Dismissal Authority",
+            "Delegation Regime",
+            "Operational Autonomy"
+          ]
+        },
+        {
+          "name": "Governance",
+          "question": "How is the organization directed and how are decisions made?",
+          "elements": [
+            "Governing Structure",
+            "Decision Procedure",
+            "Decision Rights",
+            "Leadership Tenure",
+            "Conflict Resolution"
+          ]
+        },
+        {
+          "name": "Organization",
+          "question": "How is work and authority divided and coordinated internally?",
+          "elements": [
+            "Organizational Structure",
+            "Functional Specialization",
+            "Territorial Deployment Structure",
+            "Internal Coordination",
+            "Shared Services Arrangement"
+          ]
+        },
+        {
+          "name": "Operations",
+          "question": "How does the organization turn its mandate into action and results?",
+          "elements": [
+            "Functions",
+            "Operating Mode",
+            "Instruments of Action",
+            "Operational Deployment",
+            "Process Standardization",
+            "Service or Decision Interface"
+          ]
+        },
+        {
+          "name": "Resources and Capabilities",
+          "question": "What enables the organization to operate?",
+          "elements": [
+            "Funding Regime",
+            "Personnel Regime",
+            "Resource Control",
+            "Asset Base",
+            "Knowledge Capability",
+            "Technical Capability"
+          ]
+        },
+        {
+          "name": "Accountability and Control",
+          "question": "How are conduct, expenditure, and results monitored and corrected?",
+          "elements": [
+            "Accountability Line",
+            "Reporting Regime",
+            "Financial Control",
+            "Performance Control",
+            "Corrective Authority",
+            "Sanction Regime"
+          ]
+        },
+        {
+          "name": "Institutional Ecology",
+          "question": "How does the organization interact with its surrounding institutional environment?",
+          "elements": [
+            "Interorganizational Position",
+            "Coordination Regime",
+            "External Dependency",
+            "Provision Relationship",
+            "Institutional Adaptation",
+            "Institutional Succession"
+          ]
+        }
+      ],
+      "representation_rules": {
+        "formal_and_observed": "Where materially different, record formal arrangements and observed practice separately, each with evidence and a reference period.",
+        "cardinality": "Use single values for exclusive characteristics, multiple values for coexisting functions or mechanisms, quantitative values for measurable shares, and relationship records for interorganizational relations.",
+        "unknown_states": [
+          "unknown",
+          "not_applicable",
+          "not_established",
+          "contested",
+          "partially_known"
+        ],
+        "temporal_validity": "Record valid_from and valid_to for characteristics and relationships that change over time.",
+        "evidence": "Each coded observation should retain source, date, confidence, and a concise rationale where available."
+      },
+      "relationship_schema": {
+        "description": "Represent authority and institutional ecology relationships explicitly rather than collapsing them into a single categorical field.",
+        "fields": [
+          "subject",
+          "relationship",
+          "object",
+          "authority_scope",
+          "valid_from",
+          "valid_to",
+          "evidence",
+          "confidence"
+        ],
+        "relationship_values": [
+          "appointed_by",
+          "directed_by",
+          "reports_to",
+          "accountable_to",
+          "can_dismiss",
+          "delegates_authority_to",
+          "coordinates_with",
+          "depends_on",
+          "provides_for",
+          "supervises",
+          "succeeds",
+          "feudal_overlord_of",
+          "owes_service_to",
+          "holds_fief_from"
+        ]
+      },
+      "characteristic_element_set": [
+        {
+          "name": "Constituting Instrument",
+          "category": "Constitution",
+          "description": "The instrument or institutional order through which the organization is established.",
+          "value_set": [
+            "constitution",
+            "statute",
+            "charter",
+            "executive decree",
+            "compact",
+            "treaty",
+            "customary order",
+            "oral constituting tradition",
+            "feudal grant / investiture",
+            "other",
+            "multiple"
+          ],
+          "assignment_rule": "Cite the constituting instrument or institutional evidence. Use multiple where the organization rests on several instruments.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Institutional Standing",
+          "category": "Constitution",
+          "description": "The organization's institutional or legal status.",
+          "value_set": [
+            "independent legal person",
+            "dependent public body",
+            "office without personhood",
+            "unincorporated state unit"
+          ],
+          "assignment_rule": "Code the legal or historically evidenced institutional status; do not infer legal personality from operational independence.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Institutional Origin",
+          "category": "Constitution",
+          "description": "The process through which the organization was established.",
+          "value_set": [
+            "new establishment",
+            "separation",
+            "merger",
+            "transformation",
+            "succession",
+            "delegation",
+            "other"
+          ],
+          "assignment_rule": "Code the event or process that directly produced the organization in its present institutional form.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Permanence",
+          "category": "Constitution",
+          "description": "The intended duration of the organization.",
+          "value_set": [
+            "task-bound",
+            "fixed-term",
+            "renewable mandate",
+            "permanent"
+          ],
+          "assignment_rule": "Use the constituting order and subsequent valid amendments; distinguish a permanent body from a fixed-term mandate.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Mandate Scope",
+          "category": "Mandate",
+          "description": "The breadth of the organization's assigned responsibilities.",
+          "value_set": [
+            "single task",
+            "single program",
+            "policy domain",
+            "multi-domain",
+            "general government"
+          ],
+          "assignment_rule": "Code the breadth of the formal mandate, not every activity later assumed in practice.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Mandate Orientation",
+          "category": "Mandate",
+          "description": "The principal kind of result the organization is expected to produce.",
+          "value_set": [
+            "policy direction",
+            "regulation",
+            "service provision",
+            "resource management",
+            "knowledge production",
+            "coordination",
+            "representation",
+            "mixed"
+          ],
+          "assignment_rule": "Code the orientation emphasized by the mandate; use mixed where multiple orientations are materially coequal.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Jurisdictional Extent",
+          "category": "Mandate",
+          "description": "The geographic or jurisdictional reach of its authority.",
+          "value_set": [
+            "municipal",
+            "regional",
+            "national",
+            "multi-territory",
+            "supranational",
+            "functional / non-territorial",
+            "imperial",
+            "colonial / dependency",
+            "city-state"
+          ],
+          "assignment_rule": "Code the formal jurisdiction and reach, not merely the physical location of headquarters.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Target Population",
+          "category": "Mandate",
+          "description": "The population or entities toward which the mandate is directed.",
+          "value_set": [
+            "general population",
+            "territorial community",
+            "specific occupational group",
+            "regulated entities",
+            "eligible beneficiaries",
+            "public organizations",
+            "other",
+            "mixed"
+          ],
+          "assignment_rule": "Code the intended subjects, clients, beneficiaries, or regulated entities named in the mandate.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Mandate Precision",
+          "category": "Mandate",
+          "description": "How explicitly the mandate defines expected results.",
+          "value_set": [
+            "specified outputs",
+            "specified outcomes",
+            "broad objectives",
+            "open-ended mandate"
+          ],
+          "assignment_rule": "Code the formal degree of specification, not whether the organization actually meets the mandate.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Reserved Powers",
+          "category": "Mandate",
+          "description": "Powers expressly retained by the principal or another authority rather than assigned to the organization.",
+          "value_type": "descriptive",
+          "assignment_rule": "Record the reserved powers and the authority retaining them, citing the relevant instrument.",
+          "scale": "text"
+        },
+        {
+          "name": "Political Principal",
+          "category": "Authority",
+          "description": "The authority to which the organization's leadership is ultimately answerable.",
+          "value_set": [
+            "monarch / emperor",
+            "dynastic house",
+            "feudal overlord / suzerain",
+            "head of government",
+            "line minister",
+            "collective government",
+            "council of state",
+            "parliament",
+            "party",
+            "metropole / colonial office",
+            "governing board",
+            "foreign sovereign",
+            "multiple principals",
+            "other"
+          ],
+          "assignment_rule": "Code the authority with effective appointment, direction, or dismissal powers; if these are divided, use multiple principals and record each relationship separately. A feudal overlord / suzerain applies only where the organization participates in a feudal authority relationship.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Appointment Authority",
+          "category": "Authority",
+          "description": "The actor empowered to appoint the organization's leadership.",
+          "value_set": [
+            "head of state",
+            "head of government",
+            "minister",
+            "collective government",
+            "parliament",
+            "governing board",
+            "electorate",
+            "hereditary succession",
+            "internal selection",
+            "feudal grant / investiture",
+            "other",
+            "multiple"
+          ],
+          "assignment_rule": "Code the formal appointing actor or mechanism; use multiple where appointments are shared or differ by office.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Direction Authority",
+          "category": "Authority",
+          "description": "The actor authorized to issue binding instructions to the organization.",
+          "value_set": [
+            "political principal",
+            "minister",
+            "governing board",
+            "executive leadership",
+            "feudal overlord / suzerain",
+            "shared authority",
+            "no external direction",
+            "other",
+            "multiple"
+          ],
+          "assignment_rule": "Code the actor with formal or evidenced authority to issue binding instructions; distinguish influence from direction authority.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Dismissal Authority",
+          "category": "Authority",
+          "description": "The actor empowered to remove the organization's leadership.",
+          "value_set": [
+            "political principal",
+            "executive",
+            "minister",
+            "governing board",
+            "legislature",
+            "court",
+            "electorate",
+            "hereditary succession rules",
+            "feudal overlord / suzerain",
+            "multiple",
+            "other"
+          ],
+          "assignment_rule": "Code the actor or mechanism with authority to remove or replace leadership; distinguish formal power from practical influence.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Delegation Regime",
+          "category": "Authority",
+          "description": "How authority is transferred to the organization.",
+          "value_set": [
+            "revocable delegation",
+            "statutory delegation",
+            "constitutionally protected delegation",
+            "contractual delegation",
+            "customary delegation",
+            "feudal grant / investiture",
+            "mixed"
+          ],
+          "assignment_rule": "Code the principal mechanism by which authority is conferred; feudal grant / investiture applies where authority and tenure are linked through a feudal relationship.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Operational Autonomy",
+          "category": "Authority",
+          "description": "The organization's discretion in executing its mandate.",
+          "value_set": [
+            "directly controlled",
+            "bounded discretion",
+            "substantial autonomy",
+            "independent within jurisdiction"
+          ],
+          "assignment_rule": "Code observed discretion in routine operations separately from formal autonomy where the two differ.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Governing Structure",
+          "category": "Governance",
+          "description": "The arrangement responsible for organizational direction.",
+          "value_set": [
+            "monarch-led",
+            "single executive",
+            "minister-led",
+            "commissioner-led",
+            "board-governed",
+            "council-led",
+            "party committee",
+            "assembly",
+            "committee-governed",
+            "collegial",
+            "mixed"
+          ],
+          "assignment_rule": "Code the arrangement that can settle direction and overrule the chief executive; record formal and observed arrangements separately where needed.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Decision Procedure",
+          "category": "Governance",
+          "description": "How contested authoritative decisions are reached.",
+          "value_set": [
+            "unilateral decision",
+            "decree",
+            "collegial vote",
+            "assembly decision",
+            "consensus",
+            "deliberation followed by decision",
+            "delegated decision",
+            "mixed"
+          ],
+          "assignment_rule": "Test with a contested decision and identify the procedure that settles it; distinguish the procedure from the body's governing structure.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Decision Rights",
+          "category": "Governance",
+          "description": "How decision authority is distributed across leadership and internal units.",
+          "value_set": [
+            "centralized",
+            "delegated hierarchy",
+            "distributed",
+            "collegial",
+            "mixed"
+          ],
+          "assignment_rule": "Code the observed distribution of consequential decision rights, not merely the organization chart.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Leadership Tenure",
+          "category": "Governance",
+          "description": "The formal basis and duration of leadership tenure.",
+          "value_set": [
+            "at pleasure",
+            "fixed term",
+            "renewable term",
+            "career appointment",
+            "hereditary",
+            "elected term",
+            "feudal tenure",
+            "other"
+          ],
+          "assignment_rule": "Code the principal tenure rule for the chief leadership role; use mixed where leadership offices differ materially.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Conflict Resolution",
+          "category": "Governance",
+          "description": "How internal disagreements over authority or decisions are resolved.",
+          "value_set": [
+            "superior override",
+            "executive arbitration",
+            "collegial vote",
+            "formal appeal",
+            "independent adjudication",
+            "negotiated settlement",
+            "customary settlement",
+            "other",
+            "mixed"
+          ],
+          "assignment_rule": "Code the established mechanism used to resolve consequential internal disputes.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Organizational Structure",
+          "category": "Organization",
+          "description": "The dominant arrangement of internal units and reporting relationships.",
+          "value_set": [
+            "hierarchical",
+            "functional",
+            "divisional",
+            "territorial",
+            "matrix",
+            "networked",
+            "project-based",
+            "household / personal retinue",
+            "feudal layered hierarchy",
+            "hybrid"
+          ],
+          "assignment_rule": "Code the dominant structure through which work and authority are divided; use feudal layered hierarchy only where authority is organized through layered lordship or tenure relationships.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Functional Specialization",
+          "category": "Organization",
+          "description": "How work is divided among organizational units.",
+          "value_set": [
+            "generalist",
+            "function-specialized",
+            "domain-specialized",
+            "territorially specialized",
+            "mixed"
+          ],
+          "assignment_rule": "Code the principal basis of work division across units.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Territorial Deployment Structure",
+          "category": "Organization",
+          "description": "How organizational units are distributed across jurisdiction.",
+          "value_set": [
+            "central headquarters",
+            "regional offices",
+            "local offices",
+            "field network",
+            "itinerant",
+            "distributed network",
+            "territorial lordship network",
+            "hybrid"
+          ],
+          "assignment_rule": "Code the structural distribution of units or authority; distinguish formal unit structure from where work is actually performed.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Internal Coordination",
+          "category": "Organization",
+          "description": "How organizational units coordinate interdependent work.",
+          "value_set": [
+            "hierarchical direction",
+            "standardized procedures",
+            "planning and scheduling",
+            "liaison offices",
+            "committees",
+            "shared information systems",
+            "market / contractual coordination",
+            "personal allegiance / reciprocal obligation",
+            "mixed"
+          ],
+          "assignment_rule": "Code the dominant coordination mechanism; use personal allegiance / reciprocal obligation only where these are evidenced operating mechanisms rather than general social context.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Shared Services Arrangement",
+          "category": "Organization",
+          "description": "How common administrative capabilities are provided.",
+          "value_set": [
+            "internally duplicated",
+            "centralized internal services",
+            "shared services",
+            "outsourced services",
+            "external public-service provider",
+            "mixed"
+          ],
+          "assignment_rule": "Code the dominant arrangement for common functions such as finance, personnel, procurement, and information technology.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Functions",
+          "category": "Operations",
+          "description": "The task families performed by the organization in practice.",
+          "value_set": [
+            "policy direction",
+            "operation and delivery",
+            "regulation and enforcement",
+            "adjudication",
+            "research and evidence",
+            "coordination",
+            "representation",
+            "military",
+            "commercial enterprise",
+            "resource extraction",
+            "ideological and symbolic administration",
+            "other",
+            "mixed"
+          ],
+          "assignment_rule": "Use multiple values when several functions are materially present; identify the dominant function only where a summary value is required. Classify substantive activity rather than institutional identity or historical association.",
+          "scale": "nominal; multi-valued"
+        },
+        {
+          "name": "Operating Mode",
+          "category": "Operations",
+          "description": "How the organization produces or secures intended results.",
+          "value_set": [
+            "direct execution",
+            "delegated execution",
+            "contracted provision",
+            "regulated provision",
+            "coordinated network",
+            "feudal / intermediary rule",
+            "mixed"
+          ],
+          "assignment_rule": "Code who actually performs or secures the work; use feudal / intermediary rule where authority is exercised through subordinate lords or other intermediaries.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Instruments of Action",
+          "category": "Operations",
+          "description": "The principal means through which the organization attempts to achieve its objectives.",
+          "value_set": [
+            "authority and command",
+            "rules and standards",
+            "financial transfers",
+            "taxes and fees",
+            "feudal dues and service obligations",
+            "contracts",
+            "information and persuasion",
+            "direct provision",
+            "asset ownership",
+            "coercive force",
+            "mixed"
+          ],
+          "assignment_rule": "Code instruments actually used, allowing multiple values where the organization relies on more than one materially important instrument.",
+          "scale": "nominal; multi-valued"
+        },
+        {
+          "name": "Operational Deployment",
+          "category": "Operations",
+          "description": "Where and through what arrangement activities are performed.",
+          "value_set": [
+            "headquarters-based",
+            "field-based",
+            "regional network",
+            "nationwide network",
+            "itinerant",
+            "partner-delivered",
+            "territorial lordship network",
+            "hybrid"
+          ],
+          "assignment_rule": "Map where activities are performed and through what delivery arrangement, not merely where staff sit.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Process Standardization",
+          "category": "Operations",
+          "description": "How consistently work is performed across cases and units.",
+          "value_set": [
+            "case-specific discretion",
+            "documented procedures",
+            "standardized workflows",
+            "rigid procedural control",
+            "customary / negotiated procedure",
+            "mixed"
+          ],
+          "assignment_rule": "Code the dominant actual operating procedure; distinguish written rules from practice where evidence permits.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Service or Decision Interface",
+          "category": "Operations",
+          "description": "How the organization interacts with the population, clients, or entities subject to its authority.",
+          "value_set": [
+            "direct individual interface",
+            "institutional interface",
+            "intermediary-based",
+            "digital self-service",
+            "representative / collective interface",
+            "personal / feudal dependency relationship",
+            "mixed",
+            "not applicable"
+          ],
+          "assignment_rule": "Code the principal interface through which subjects, beneficiaries, or regulated entities interact with the organization.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Funding Regime",
+          "category": "Resources and Capabilities",
+          "description": "The principal basis of financing.",
+          "value_set": [
+            "general appropriation",
+            "earmarked appropriation",
+            "fees",
+            "commercial revenue",
+            "tribute",
+            "feudal dues / domain revenue",
+            "benefice / land revenue",
+            "in-kind contributions",
+            "own-source revenue",
+            "mixed"
+          ],
+          "assignment_rule": "Code by the largest revenue share over the operating period; use mixed where no source predominates or sources are structurally inseparable.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Personnel Regime",
+          "category": "Resources and Capabilities",
+          "description": "How personnel are recruited, retained, and managed.",
+          "value_set": [
+            "career-based",
+            "position-based",
+            "patronage",
+            "hereditary",
+            "venal",
+            "military",
+            "contract-based",
+            "feudal tenure / personal service obligation",
+            "hybrid"
+          ],
+          "assignment_rule": "Code the dominant installation and tenure mode. Feudal tenure / personal service obligation applies to offices or service obligations embedded in a feudal relationship, not merely to inherited employment.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Resource Control",
+          "category": "Resources and Capabilities",
+          "description": "The organization's effective control over its resources.",
+          "value_set": [
+            "centrally controlled",
+            "delegated budget",
+            "own budget",
+            "own-source revenue",
+            "independent asset control",
+            "tenure-bound domain control",
+            "mixed"
+          ],
+          "assignment_rule": "Code the degree and form of effective control over funds and assets; tenure-bound domain control applies where rights are constrained by feudal obligations.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Asset Base",
+          "category": "Resources and Capabilities",
+          "description": "The principal physical and financial assets available to the organization.",
+          "value_set": [
+            "minimal administrative assets",
+            "operational equipment",
+            "infrastructure",
+            "land and estates",
+            "fief / feudal domain",
+            "financial assets",
+            "mixed"
+          ],
+          "assignment_rule": "Code the largest class of assets materially supporting the organization; distinguish a feudal domain from ordinary property ownership.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Knowledge Capability",
+          "category": "Resources and Capabilities",
+          "description": "The organization's ability to produce, acquire, retain, and apply knowledge.",
+          "value_set": [
+            "limited internal capability",
+            "specialized internal expertise",
+            "dedicated research capacity",
+            "external knowledge dependence",
+            "customary / tacit institutional knowledge",
+            "mixed"
+          ],
+          "assignment_rule": "Code demonstrated organizational capability rather than presumed expertise based on institutional status.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Technical Capability",
+          "category": "Resources and Capabilities",
+          "description": "The organization's capacity to execute work through established methods, equipment, and technical systems.",
+          "value_set": [
+            "manual / customary methods",
+            "standardized technical procedures",
+            "specialized technical systems",
+            "integrated information systems",
+            "advanced operational infrastructure",
+            "mixed"
+          ],
+          "assignment_rule": "Code the capabilities materially used in operations, not technology merely owned but unused.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Accountability Line",
+          "category": "Accountability and Control",
+          "description": "The actor or institution to which the organization must account.",
+          "value_set": [
+            "political principal",
+            "minister",
+            "government",
+            "legislature",
+            "governing board",
+            "independent oversight body",
+            "feudal overlord / suzerain",
+            "multiple authorities",
+            "other"
+          ],
+          "assignment_rule": "Code each material accountability relationship where possible; distinguish reporting recipients from authorities able to impose consequences.",
+          "scale": "nominal; multi-valued"
+        },
+        {
+          "name": "Reporting Regime",
+          "category": "Accountability and Control",
+          "description": "The formal arrangement for reporting organizational activity.",
+          "value_set": [
+            "ad hoc",
+            "periodic internal reporting",
+            "executive reporting",
+            "legislative reporting",
+            "public reporting",
+            "customary / personal reporting",
+            "multiple"
+          ],
+          "assignment_rule": "Code the recurring reporting arrangement; customary or personal reporting requires evidence of a recognized obligation or practice.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Financial Control",
+          "category": "Accountability and Control",
+          "description": "The arrangement controlling expenditure and financial integrity.",
+          "value_set": [
+            "ex ante authorization",
+            "internal financial control",
+            "external audit",
+            "continuous financial oversight",
+            "customary / principal review",
+            "mixed",
+            "minimal"
+          ],
+          "assignment_rule": "Code the strongest regularly operating financial control mechanism supported by evidence; distinguish formal requirements from observed operation.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Performance Control",
+          "category": "Accountability and Control",
+          "description": "The arrangement used to assess organizational results and compliance.",
+          "value_set": [
+            "procedural compliance",
+            "output monitoring",
+            "outcome evaluation",
+            "performance audit",
+            "principal inspection",
+            "customary review",
+            "mixed",
+            "none"
+          ],
+          "assignment_rule": "Code the principal mechanism used to assess results; do not equate routine reporting with evaluation.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Corrective Authority",
+          "category": "Accountability and Control",
+          "description": "The actor empowered to require changes when deficiencies are identified.",
+          "value_set": [
+            "organizational leadership",
+            "governing board",
+            "political principal",
+            "external supervisor",
+            "court",
+            "feudal overlord / suzerain",
+            "multiple",
+            "none"
+          ],
+          "assignment_rule": "Code the actor able to compel a corrective response, not merely recommend one.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Sanction Regime",
+          "category": "Accountability and Control",
+          "description": "The consequences available for misconduct or failure.",
+          "value_set": [
+            "administrative sanction",
+            "financial sanction",
+            "leadership removal",
+            "legal liability",
+            "political sanction",
+            "loss of tenure / fief",
+            "reputational consequence",
+            "multiple",
+            "none"
+          ],
+          "assignment_rule": "Code sanctions institutionally available and evidenced; loss of tenure / fief applies where tenure rights can be withdrawn for breach of obligations.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Interorganizational Position",
+          "category": "Institutional Ecology",
+          "description": "The organization's position relative to other bodies.",
+          "value_set": [
+            "parent authority",
+            "subordinate unit",
+            "peer organization",
+            "coordinating authority",
+            "specialized provider",
+            "independent regulator",
+            "network participant",
+            "feudal superior",
+            "feudal subordinate",
+            "mixed"
+          ],
+          "assignment_rule": "Code position in relation to named organizations or authorities; where relations vary, store them as separate relationships rather than forcing one overall value.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Coordination Regime",
+          "category": "Institutional Ecology",
+          "description": "How the organization coordinates with other institutions.",
+          "value_set": [
+            "hierarchical",
+            "interministerial",
+            "intergovernmental",
+            "contractual",
+            "network-based",
+            "joint governance",
+            "personal allegiance / reciprocal obligation",
+            "mixed"
+          ],
+          "assignment_rule": "Code the dominant mechanism for coordinating interorganizational activity, not merely the presence of contacts.",
+          "scale": "nominal"
+        },
+        {
+          "name": "External Dependency",
+          "category": "Institutional Ecology",
+          "description": "Dependence on other organizations for essential capabilities or inputs.",
+          "value_set": [
+            "low",
+            "moderate",
+            "high",
+            "critical dependency",
+            "unknown"
+          ],
+          "assignment_rule": "Assess whether interruption of an external input, authority, provider, or relationship would materially impair core functions.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Provision Relationship",
+          "category": "Institutional Ecology",
+          "description": "How services or outputs relate to external providers.",
+          "value_set": [
+            "internal provision",
+            "shared public provision",
+            "contracted private provision",
+            "regulated external provision",
+            "public-private partnership",
+            "intermediary / lordship-based provision",
+            "mixed",
+            "not applicable"
+          ],
+          "assignment_rule": "Code who actually provides or enables the output; do not infer private provision solely from a public-private legal form.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Institutional Adaptation",
+          "category": "Institutional Ecology",
+          "description": "How the organization can change its arrangements in response to its environment.",
+          "value_set": [
+            "rigid",
+            "executive-directed change",
+            "internally managed adaptation",
+            "negotiated adaptation",
+            "statutorily constrained adaptation",
+            "customary adaptation",
+            "mixed"
+          ],
+          "assignment_rule": "Code the observed capacity and mechanism for changing structure or operations, distinguishing formal constraints from practice.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Institutional Succession",
+          "category": "Institutional Ecology",
+          "description": "How functions and assets are treated when the organization is reorganized or abolished.",
+          "value_set": [
+            "functions transferred",
+            "functions dispersed",
+            "functions terminated",
+            "successor organization",
+            "tenure / domain reassigned",
+            "case-dependent",
+            "not applicable"
+          ],
+          "assignment_rule": "Code the rule or observed process governing transfer of functions, assets, obligations, or tenure at dissolution or reorganization.",
+          "scale": "nominal"
+        }
+      ]
+    }
+  ]
+}

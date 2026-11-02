@@ -1,0 +1,107 @@
+{
+  "id": "idn",
+  "name": "Indonesia",
+  "tags": [
+    "Southeast Asia",
+    "Archipelagic State",
+    "Emerging Economy",
+    "ASEAN",
+    "G20",
+    "Resource-Rich"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "Indonesia is a sovereign archipelagic republic in Southeast Asia composed of more than 17,000 islands. It is the world’s largest Muslim-majority country and one of the most populous nations globally. Indonesia has a diversified economy based on natural resources, manufacturing, and services, and plays a central geopolitical role within ASEAN and the broader Indo-Pacific region.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Republik Indonesia",
+    "flagEmoji": "🇮🇩",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "277 million",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 277000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 1.4 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1400000000000
+      },
+      {
+        "id": "area",
+        "value": "1.9 million km²",
+        "label": "Total Land Area",
+        "hasIndicator": true,
+        "indicatorValue": 1904569
+      },
+      {
+        "id": "capital",
+        "value": "Jakarta (transitioning to Nusantara)",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Unitary Presidential Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of Indonesia’s actor space from colonial administration and independence-era leadership to the New Order regime, post-1998 reforms, decentralization, and contemporary political-economic coalitions.",
+        "link": "rep/actor.html?code=idn"
+      },
+      {
+        "id": "archipelagic_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Archipelagic Spatial-Administrative Structure",
+        "description": "Geospatial representation of Indonesia’s provinces, maritime corridors, resource basins, and inter-island economic integration patterns.",
+        "link": null
+      },
+      {
+        "id": "commodity_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Commodity and Industrial Network Structure",
+        "description": "Network analysis of Indonesia’s commodity exports (coal, palm oil, nickel), downstream industrialization strategies, and integration into global value chains.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "IDN",
+      "region": "Southeast Asia",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

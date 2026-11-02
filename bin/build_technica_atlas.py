@@ -34,6 +34,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
+from indexlib import Progress, atomic_write_text, run_builder
+
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / 'src' / 'note' / 'app' / 'data'
 TECH = DATA / 'technica'
@@ -221,18 +223,23 @@ def note_links(notes):
     return resolve
 
 
-def main():
+def build(progress=None) -> bool:
     if not TECH.is_dir():
         print('atlas: technica corpus missing', file=sys.stderr)
-        return 1
+        return False
+
+    md_files = [p for p in sorted(TECH.rglob('*.md')) if 'meta' not in p.relative_to(TECH).parts]
+    if progress is not None:
+        progress.set_total(len(md_files))
+        progress.start("scanning %d technica notes" % len(md_files))
 
     notes = []
     table_files = []
-    for path in sorted(TECH.rglob('*.md')):
+    for path in md_files:
         rel = path.relative_to(TECH)
-        if 'meta' in rel.parts:
-            continue  # meta/ holds the atlas itself, not elements
         text = read(path)
+        if progress is not None:
+            progress.step(message=rel.as_posix())
         title = TITLE.search(text)
         notes.append(('technica/' + rel.as_posix(),
                       title.group(1).strip() if title else path.stem,
@@ -240,6 +247,8 @@ def main():
         if TWO in text:
             table_files.append((path, text))
 
+    if progress is not None:
+        progress.stage("merging %d decomposition tables" % len(table_files))
     forest = Forest()
     rows = 0
     for path, text in table_files:
@@ -256,7 +265,7 @@ def main():
     if not forest.root['children']:
         print('atlas: no decomposition tables found under technica/',
               file=sys.stderr)
-        return 1
+        return False
 
     forest.finish()
 
@@ -293,16 +302,19 @@ def main():
         'stats': stats,
         'roots': [forest.root],
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT, 'w', encoding='utf-8') as f:
-        json.dump(store, f, indent=1, ensure_ascii=False)
-        f.write('\n')
+    atomic_write_text(OUT, json.dumps(store, indent=1, ensure_ascii=False) + '\n')
     print(f"atlas: {stats['rows']} table rows from {stats['tables']} tables "
           f"-> {stats['nodes']} nodes ({stats['groupings']} groupings, "
           f"{stats['instances']} instances), {stats['branches']} branches, "
           f"depth {stats['maxDepth']}, {linked} note links -> "
           f"{OUT.relative_to(REPO)}")
-    return 0
+    if progress is not None:
+        progress.finish("%d rows, %d nodes" % (stats['rows'], stats['nodes']))
+    return True
+
+
+def main() -> int:
+    return run_builder("atlas", build)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,107 @@
+{
+  "id": "ind",
+  "name": "India",
+  "tags": [
+    "South Asia",
+    "Federal Republic",
+    "Emerging Economy",
+    "BRICS",
+    "G20",
+    "Civilizational State"
+  ],
+  "layer": "Ontic",
+  "category": "Polity",
+  "description": "India is a sovereign federal parliamentary republic in South Asia and the world’s most populous country. It combines a long civilizational history with modern constitutional governance established in 1950. India has a structurally diversified economy spanning agriculture, manufacturing, and a globally competitive services and technology sector, and plays an increasingly central role in Indo-Pacific geopolitics and multilateral institutions.",
+  "longDescription": "",
+  "chronology": {},
+  "relationships": [],
+  "specific": {
+    "nativeName": "Bhārat (भारत) / Republic of India",
+    "flagEmoji": "🇮🇳",
+    "statistics": [
+      {
+        "id": "population",
+        "value": "1.43 billion",
+        "label": "Population (approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 1430000000
+      },
+      {
+        "id": "gdp_nominal",
+        "value": "USD 3.7 trillion",
+        "label": "GDP (Nominal, approx.)",
+        "hasIndicator": true,
+        "indicatorValue": 3700000000000
+      },
+      {
+        "id": "area",
+        "value": "3.29 million km²",
+        "label": "Total Area",
+        "hasIndicator": true,
+        "indicatorValue": 3287263
+      },
+      {
+        "id": "capital",
+        "value": "New Delhi",
+        "label": "Capital City",
+        "hasIndicator": false
+      },
+      {
+        "id": "government_type",
+        "value": "Federal Parliamentary Republic",
+        "label": "System of Government",
+        "hasIndicator": false
+      }
+    ],
+    "works": [
+      {
+        "id": "actor_set_evolution",
+        "type": "Temporal",
+        "status": "active",
+        "title": "Actor Set Evolution",
+        "description": "Temporal mapping of India’s actor space from colonial administration and nationalist movements to post-independence state-building, economic liberalization (post-1991), and contemporary public-private institutional configurations.",
+        "link": "rep/actor.html?code=ind"
+      },
+      {
+        "id": "federal_spatial_structure",
+        "type": "Spatial",
+        "status": "pending",
+        "title": "Federal Spatial-Administrative Structure",
+        "description": "Geospatial representation of states and union territories, demographic density gradients, industrial corridors, and regional development asymmetries.",
+        "link": "pending.html?back=entry.html%3Fcode%3Dind"
+      },
+      {
+        "id": "technology_and_services_network",
+        "type": "Network",
+        "status": "pending",
+        "title": "Technology and Services Network Structure",
+        "description": "Network analysis of India’s IT services, pharmaceutical production, startup ecosystems, and integration into global value chains.",
+        "link": null
+      }
+    ],
+    "footer": {
+      "entityCode": "IND",
+      "region": "South Asia",
+      "lastRevised": "2026-02-15",
+      "links": [
+        {
+          "label": "About",
+          "href": "/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/csiglab/Naturgnosis"
+        },
+        {
+          "label": "Editor",
+          "href": "/nation/edit.html"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "research-CountryIndex",
+    "imported": "2026-09-12"
+  },
+  "references": []
+}

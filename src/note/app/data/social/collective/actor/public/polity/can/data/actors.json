@@ -1,0 +1,870 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Canadian actors (organizations and institutions) since 1600.",
+    "country": "Canada",
+    "region": "North America",
+    "flag": "🇨🇦",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Canada. This dataset traces the formation, transformation, and significant milestones of fur-trade, federal, and financial entities, from the Hudson's Bay charter to pension-fund capitalism.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Hudson's Bay Company",
+      "type": "private",
+      "role": "Trading company",
+      "regionOfActivity": "Toronto",
+      "description": "1668 fur-trade charter grown into a retail group.",
+      "events": [
+        {
+          "date": "1670-05-02",
+          "category": "birth",
+          "description": "Royal charter grants Rupert's Land"
+        },
+        {
+          "date": "1821-03-26",
+          "category": "expansion",
+          "description": "North West Company merger ends the fur wars"
+        },
+        {
+          "date": "1869-11-19",
+          "category": "transformation",
+          "description": "Deed of Surrender transfers the West to Canada"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Canadian Pacific Railway",
+      "type": "private",
+      "role": "Railway group",
+      "regionOfActivity": "Calgary",
+      "description": "National-dream railway turned conglomerate.",
+      "events": [
+        {
+          "date": "1881-02-16",
+          "category": "birth",
+          "description": "CPR incorporated"
+        },
+        {
+          "date": "1885-11-07",
+          "category": "technical",
+          "description": "Last spike driven at Craigellachie"
+        },
+        {
+          "date": "2001-10-01",
+          "category": "transformation",
+          "description": "Five-company split spins off the railway"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Bank of Canada",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Ottawa",
+      "description": "Depression-era central bank inflation-targeting.",
+      "events": [
+        {
+          "date": "1934-07-03",
+          "category": "birth",
+          "description": "Bank of Canada Act passed"
+        },
+        {
+          "date": "1991-02-26",
+          "category": "policy",
+          "description": "Inflation targets adopted with the government"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Bank of Montreal",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Montreal",
+      "description": "First permanent bank turned Big Five member.",
+      "events": [
+        {
+          "date": "1817-06-23",
+          "category": "birth",
+          "description": "Montreal Bank founded"
+        },
+        {
+          "date": "1984-01-01",
+          "category": "expansion",
+          "description": "Harris Bank stake builds US bridgehead"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Royal Bank of Canada",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Toronto",
+      "description": "Halifax merchants' bank grown into the national leader.",
+      "events": [
+        {
+          "date": "1864-05-03",
+          "category": "birth",
+          "description": "Merchants Bank of Halifax founded"
+        },
+        {
+          "date": "1907-01-01",
+          "category": "milestone",
+          "description": "Head office moves to Montreal; Toronto era follows"
+        },
+        {
+          "date": "2015-11-02",
+          "category": "expansion",
+          "description": "City National takeover extends into the US"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Toronto-Dominion Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Toronto",
+      "description": "1955 Dominion-Provincial merger grown continent-wide.",
+      "events": [
+        {
+          "date": "1955-02-01",
+          "category": "founding",
+          "description": "Bank of Toronto-Dominion merger"
+        },
+        {
+          "date": "2008-01-01",
+          "category": "expansion",
+          "description": "Commerce Bancorp takeover builds US East Coast"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Scotiabank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Toronto",
+      "description": "Maritime bank with Latin American reach.",
+      "events": [
+        {
+          "date": "1832-03-30",
+          "category": "birth",
+          "description": "Bank of Nova Scotia founded"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "expansion",
+          "description": "Latin American acquisition wave begins"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "CIBC",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Toronto",
+      "description": "Commerce-Imperial merger product.",
+      "events": [
+        {
+          "date": "1961-06-01",
+          "category": "founding",
+          "description": "Canadian Bank of Commerce-Imperial merger"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Manulife",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Toronto",
+      "description": "Temperance insurer turned Asian-expanding group.",
+      "events": [
+        {
+          "date": "1887-06-23",
+          "category": "birth",
+          "description": "Manufacturers Life founded"
+        },
+        {
+          "date": "2004-04-28",
+          "category": "expansion",
+          "description": "John Hancock takeover"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Sun Life",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Toronto",
+      "description": "Montreal insurer with Philippine-American roots.",
+      "events": [
+        {
+          "date": "1865-01-01",
+          "category": "birth",
+          "description": "Sun Insurance Company of Montreal founded"
+        },
+        {
+          "date": "2000-03-23",
+          "category": "transformation",
+          "description": "Demutualization and listing"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Canada Pension Plan Investment Board",
+      "type": "public",
+      "role": "Sovereign investor",
+      "regionOfActivity": "Toronto",
+      "description": "Maple-revolution manager of national retirement assets.",
+      "events": [
+        {
+          "date": "1997-12-31",
+          "category": "birth",
+          "description": "CPPIB Act creates the board"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "expansion",
+          "description": "Active-management mandate broadens assets"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Caisse de dépôt",
+      "type": "hybrid",
+      "role": "Pension investor",
+      "regionOfActivity": "Montreal",
+      "description": "Quebec savings manager and infrastructure owner.",
+      "events": [
+        {
+          "date": "1965-07-15",
+          "category": "birth",
+          "description": "Caisse created to manage the QPP"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "Ivanhoé Cambridge property arm globalized"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Ontario Teachers' Pension Plan",
+      "type": "hybrid",
+      "role": "Pension investor",
+      "regionOfActivity": "Toronto",
+      "description": "Teachers' capital behind private-equity direct investing.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "OTPP administration begins"
+        },
+        {
+          "date": "1991-01-01",
+          "category": "expansion",
+          "description": "Private-investing arm launched"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Bell Canada",
+      "type": "private",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "Montreal",
+      "description": "National Telephone lineage inside BCE.",
+      "events": [
+        {
+          "date": "1880-04-29",
+          "category": "birth",
+          "description": "Bell Telephone Company of Canada chartered"
+        },
+        {
+          "date": "1983-04-29",
+          "category": "founding",
+          "description": "BCE holding formed"
+        },
+        {
+          "date": "2008-12-11",
+          "category": "transformation",
+          "description": "Failed privatization; dividend era follows"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Rogers Communications",
+      "type": "private",
+      "role": "Telecom and media group",
+      "regionOfActivity": "Toronto",
+      "description": "FM-radio licence grown into wireless-cable empire.",
+      "events": [
+        {
+          "date": "1960-01-01",
+          "category": "birth",
+          "description": "Ted Rogers buys CHFI"
+        },
+        {
+          "date": "2023-04-03",
+          "category": "expansion",
+          "description": "Shaw takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "TELUS",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Vancouver",
+      "description": "Alberta-BC telephone merger turned health-tech investor.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "Alberta Government Telephones privatized"
+        },
+        {
+          "date": "1999-01-31",
+          "category": "founding",
+          "description": "BC Tel merger forms TELUS"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "CBC/Radio-Canada",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Ottawa",
+      "description": "Bilingual public radio-television institution.",
+      "events": [
+        {
+          "date": "1936-11-02",
+          "category": "birth",
+          "description": "CBC created by broadcasting act"
+        },
+        {
+          "date": "1952-09-06",
+          "category": "milestone",
+          "description": "Television service launches in Montreal and Toronto"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Air Canada",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "Montreal",
+      "description": "Trans-Canada Air Lines privatized into a global carrier.",
+      "events": [
+        {
+          "date": "1937-04-10",
+          "category": "birth",
+          "description": "Trans-Canada Air Lines founded"
+        },
+        {
+          "date": "1989-01-01",
+          "category": "transformation",
+          "description": "Privatization completed"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "Canadian Airlines merger"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Bombardier",
+      "type": "private",
+      "role": "Train and former plane maker",
+      "regionOfActivity": "Montreal",
+      "description": "Snowmobile inventor turned rail-and-jet group, then rail seller.",
+      "events": [
+        {
+          "date": "1942-01-01",
+          "category": "birth",
+          "description": "L'Auto-Neige Bombardier founded"
+        },
+        {
+          "date": "1986-05-01",
+          "category": "expansion",
+          "description": "Canadair takeover builds aerospace arm"
+        },
+        {
+          "date": "2021-01-29",
+          "category": "transformation",
+          "description": "Alstom buys the rail division; business jets remain"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "CAE",
+      "type": "private",
+      "role": "Simulator maker",
+      "regionOfActivity": "Montreal",
+      "description": "Former avionics repair shop leading flight simulation.",
+      "events": [
+        {
+          "date": "1947-03-17",
+          "category": "birth",
+          "description": "Canadian Aviation Electronics founded"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Magna International",
+      "type": "private",
+      "role": "Auto-parts group",
+      "regionOfActivity": "Aurora",
+      "description": "Tool-and-die shop grown into a global supplier.",
+      "events": [
+        {
+          "date": "1957-01-01",
+          "category": "birth",
+          "description": "Multimatic lineage; Magna founded"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "expansion",
+          "description": "Steyr-Daimler-Puch acquisition adds assembly"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Alcan and Rio Tinto Alcan",
+      "type": "private",
+      "role": "Aluminium group",
+      "regionOfActivity": "Montreal",
+      "description": "Northern smelters absorbed into Rio Tinto.",
+      "events": [
+        {
+          "date": "1902-01-01",
+          "category": "birth",
+          "description": "Northern Aluminium Company founded"
+        },
+        {
+          "date": "1925-01-01",
+          "category": "founding",
+          "description": "Aluminium Company of Canada formed"
+        },
+        {
+          "date": "2007-10-25",
+          "category": "transformation",
+          "description": "Rio Tinto takeover"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Barrick Gold",
+      "type": "private",
+      "role": "Gold miner",
+      "regionOfActivity": "Toronto",
+      "description": "Prospecting shell grown into the top gold producer.",
+      "events": [
+        {
+          "date": "1983-01-01",
+          "category": "birth",
+          "description": "Barrick Resources founded"
+        },
+        {
+          "date": "2006-01-20",
+          "category": "expansion",
+          "description": "Placer Dome takeover"
+        },
+        {
+          "date": "2019-01-01",
+          "category": "founding",
+          "description": "Randgold merger forms Barrick Gold Corp"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Teck Resources",
+      "type": "private",
+      "role": "Diversified miner",
+      "regionOfActivity": "Vancouver",
+      "description": "Cominco-Teck merger in copper, zinc and steelmaking coal.",
+      "events": [
+        {
+          "date": "2001-07-23",
+          "category": "founding",
+          "description": "Teck-Cominco merger"
+        },
+        {
+          "date": "2024-01-01",
+          "category": "transformation",
+          "description": "Glencore buys the coal business"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Suncor Energy",
+      "type": "private",
+      "role": "Oil-sands producer",
+      "regionOfActivity": "Calgary",
+      "description": "Great Canadian Oil Sands lineage leading bitumen extraction.",
+      "events": [
+        {
+          "date": "1967-01-01",
+          "category": "birth",
+          "description": "GCOS plant approved"
+        },
+        {
+          "date": "1979-01-01",
+          "category": "founding",
+          "description": "Suncor name adopted"
+        },
+        {
+          "date": "2009-08-01",
+          "category": "expansion",
+          "description": "Petro-Canada merger"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Canadian Natural Resources",
+      "type": "private",
+      "role": "Oil and gas producer",
+      "regionOfActivity": "Calgary",
+      "description": "Aikins-founded acquirer of oil-sands majors.",
+      "events": [
+        {
+          "date": "1989-01-01",
+          "category": "birth",
+          "description": "Canadian Natural Resources founded"
+        },
+        {
+          "date": "2017-06-01",
+          "category": "expansion",
+          "description": "Shell Albian mines takeover"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Enbridge",
+      "type": "private",
+      "role": "Pipeline operator",
+      "regionOfActivity": "Calgary",
+      "description": "Interprovincial pipe lineage carrying continental crude.",
+      "events": [
+        {
+          "date": "1949-04-30",
+          "category": "birth",
+          "description": "Interprovincial Pipe Line founded"
+        },
+        {
+          "date": "1998-10-30",
+          "category": "milestone",
+          "description": "Enbridge name adopted"
+        },
+        {
+          "date": "2017-02-27",
+          "category": "expansion",
+          "description": "Spectra Energy merger"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "TC Energy",
+      "type": "private",
+      "role": "Pipeline operator",
+      "regionOfActivity": "Calgary",
+      "description": "TransCanada PipeLines turned continental gas carrier.",
+      "events": [
+        {
+          "date": "1951-03-21",
+          "category": "birth",
+          "description": "TransCanada PipeLines incorporated"
+        },
+        {
+          "date": "2019-05-03",
+          "category": "milestone",
+          "description": "TC Energy name adopted"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Hydro-Québec",
+      "type": "public",
+      "role": "Electric utility",
+      "regionOfActivity": "Montreal",
+      "description": "Nationalized hydro giant exporting clean power.",
+      "events": [
+        {
+          "date": "1944-04-14",
+          "category": "birth",
+          "description": "Hydro-Québec Act nationalizes the utilities"
+        },
+        {
+          "date": "1963-01-01",
+          "category": "expansion",
+          "description": "Shawinigan takeover completes the monopoly"
+        },
+        {
+          "date": "1971-01-01",
+          "category": "technical",
+          "description": "James Bay project launched"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Ontario Power Generation",
+      "type": "public",
+      "role": "Electric utility",
+      "regionOfActivity": "Toronto",
+      "description": "Hydro-Electric Commission lineage running nuclear and hydro.",
+      "events": [
+        {
+          "date": "1906-06-14",
+          "category": "birth",
+          "description": "Hydro-Electric Power Commission created"
+        },
+        {
+          "date": "1999-04-01",
+          "category": "transformation",
+          "description": "Ontario Hydro split; OPG formed"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Loblaw Companies",
+      "type": "private",
+      "role": "Grocery group",
+      "regionOfActivity": "Brampton",
+      "description": "Weston-family grocer dominating Canadian food retail.",
+      "events": [
+        {
+          "date": "1919-01-01",
+          "category": "birth",
+          "description": "First Loblaw Groceteria opens"
+        },
+        {
+          "date": "2014-03-28",
+          "category": "expansion",
+          "description": "Shoppers Drug Mart takeover"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Canadian Tire",
+      "type": "private",
+      "role": "Retailer",
+      "regionOfActivity": "Toronto",
+      "description": "Tire shop turned general-merchandise and banking group.",
+      "events": [
+        {
+          "date": "1922-09-24",
+          "category": "birth",
+          "description": "Hamilton Tire and Garage founded"
+        },
+        {
+          "date": "1927-01-01",
+          "category": "milestone",
+          "description": "Canadian Tire name adopted"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Shopify",
+      "type": "private",
+      "role": "E-commerce platform",
+      "regionOfActivity": "Ottawa",
+      "description": "Snowboard-shop software turned global commerce cloud.",
+      "events": [
+        {
+          "date": "2006-01-01",
+          "category": "birth",
+          "description": "Shopify founded"
+        },
+        {
+          "date": "2015-05-21",
+          "category": "milestone",
+          "description": "New York listing"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "BlackBerry",
+      "type": "private",
+      "role": "Device and software company",
+      "regionOfActivity": "Waterloo",
+      "description": "Pager maker that defined the smartphone, then secured software.",
+      "events": [
+        {
+          "date": "1984-03-07",
+          "category": "birth",
+          "description": "Research In Motion founded"
+        },
+        {
+          "date": "2003-01-01",
+          "category": "technical",
+          "description": "BlackBerry Quark smartphone era opens"
+        },
+        {
+          "date": "2013-11-04",
+          "category": "transformation",
+          "description": "Fairfax rescue pivots to software"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Nortel",
+      "type": "private",
+      "role": "Telecom-equipment history",
+      "regionOfActivity": "Mississauga",
+      "description": "Bell manufacturing arm that rode and broke the optical bubble.",
+      "events": [
+        {
+          "date": "1895-01-01",
+          "category": "birth",
+          "description": "Northern Electric founded"
+        },
+        {
+          "date": "2000-07-01",
+          "category": "milestone",
+          "description": "Peak valuation atop the bubble"
+        },
+        {
+          "date": "2009-01-14",
+          "category": "death",
+          "description": "Bankruptcy protection filed"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "University of Toronto",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Toronto",
+      "description": "King's College charter grown into a research powerhouse.",
+      "events": [
+        {
+          "date": "1827-03-15",
+          "category": "birth",
+          "description": "King's College chartered"
+        },
+        {
+          "date": "1850-01-01",
+          "category": "transformation",
+          "description": "Secularized as the University of Toronto"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "McGill University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Montreal",
+      "description": "Fur-trade bequest funding a research university.",
+      "events": [
+        {
+          "date": "1821-03-31",
+          "category": "birth",
+          "description": "Royal charter founds the Montreal school"
+        },
+        {
+          "date": "1885-01-01",
+          "category": "milestone",
+          "description": "Royal Victoria College admits women"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "National Research Council",
+      "type": "public",
+      "role": "Research agency",
+      "regionOfActivity": "Ottawa",
+      "description": "Wartime science council turned innovation organization.",
+      "events": [
+        {
+          "date": "1916-06-06",
+          "category": "birth",
+          "description": "Honorary Advisory Council created"
+        },
+        {
+          "date": "2013-01-01",
+          "category": "transformation",
+          "description": "Concierge business model adopted"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "VIA Rail",
+      "type": "public",
+      "role": "Passenger rail operator",
+      "regionOfActivity": "Montreal",
+      "description": "Crown corporation running the Corridor and transcontinentals.",
+      "events": [
+        {
+          "date": "1977-01-12",
+          "category": "birth",
+          "description": "VIA incorporated"
+        },
+        {
+          "date": "1990-01-15",
+          "category": "policy",
+          "description": "Service cuts halve the network"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Canada Post",
+      "type": "public",
+      "role": "Postal operator",
+      "regionOfActivity": "Ottawa",
+      "description": "Crown postal service with Purolator stake.",
+      "events": [
+        {
+          "date": "1867-07-01",
+          "category": "birth",
+          "description": "Post Office Department created at Confederation"
+        },
+        {
+          "date": "1981-10-16",
+          "category": "transformation",
+          "description": "Crown corporation status"
+        }
+      ]
+    }
+  ]
+}

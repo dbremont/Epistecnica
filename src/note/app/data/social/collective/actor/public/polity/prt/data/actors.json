@@ -1,0 +1,860 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Portuguese actors (organizations and institutions) since 1400.",
+    "country": "Portugal",
+    "region": "Southern Europe",
+    "flag": "🇵🇹",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Portugal. This dataset traces the formation, transformation, and significant milestones of seafaring, corporatist, and democratic entities, from the Casa da Índia to EU-integrated utilities and cork-paper exporters.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Order of Christ",
+      "type": "hybrid",
+      "role": "Military order",
+      "regionOfActivity": "Tomar",
+      "description": "Templar successor funding Atlantic exploration.",
+      "events": [
+        {
+          "date": "1417-01-01",
+          "category": "milestone",
+          "description": "Prince Henry becomes governor; exploration era opens"
+        },
+        {
+          "date": "1494-06-07",
+          "category": "expansion",
+          "description": "Tordesillas line divides the oceans"
+        },
+        {
+          "date": "1834-05-30",
+          "category": "death",
+          "description": "Religious orders dissolved"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Casa da Índia",
+      "type": "public",
+      "role": "Trade house",
+      "regionOfActivity": "Lisbon",
+      "description": "Crown clearinghouse for spice-trade monopoly.",
+      "events": [
+        {
+          "date": "1500-01-01",
+          "category": "birth",
+          "description": "Casa da Índia organized in Lisbon"
+        },
+        {
+          "date": "1505-01-01",
+          "category": "expansion",
+          "description": "Estado da Índia viceroyalty systematizes the enterprise"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Mesa da Consciência e Ordens",
+      "type": "public",
+      "role": "Crown council",
+      "regionOfActivity": "Lisbon",
+      "description": "Conscience-and-orders tribunal overseeing empire and patronage.",
+      "events": [
+        {
+          "date": "1532-01-01",
+          "category": "birth",
+          "description": "John III founds the Mesa"
+        },
+        {
+          "date": "1833-01-01",
+          "category": "death",
+          "description": "Liberal regime extinguishes the tribunal"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "University of Coimbra",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Coimbra",
+      "description": "Studium generale fixed at Coimbra after Lisbon itinerancy.",
+      "events": [
+        {
+          "date": "1537-01-01",
+          "category": "milestone",
+          "description": "Definitive transfer to Coimbra"
+        },
+        {
+          "date": "1772-01-01",
+          "category": "transformation",
+          "description": "Pombaline statutes modernize the faculties"
+        },
+        {
+          "date": "2013-06-22",
+          "category": "milestone",
+          "description": "UNESCO World Heritage inscription"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Santa Casa da Misericórdia",
+      "type": "hybrid",
+      "role": "Charitable brotherhood",
+      "regionOfActivity": "Lisbon",
+      "description": "Crown-sponsored welfare network spanning the empire.",
+      "events": [
+        {
+          "date": "1498-08-15",
+          "category": "birth",
+          "description": "Queen Leonor founds the Lisbon Misericórdia"
+        },
+        {
+          "date": "1783-01-01",
+          "category": "expansion",
+          "description": "Lottery concession granted; welfare funding follows"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Banco de Portugal",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Lisbon",
+      "description": "Note-issuing bank turned Eurosystem member.",
+      "events": [
+        {
+          "date": "1846-11-19",
+          "category": "birth",
+          "description": "Royal charter founds the bank"
+        },
+        {
+          "date": "1887-01-01",
+          "category": "milestone",
+          "description": "Note-issue monopoly granted"
+        },
+        {
+          "date": "1998-01-01",
+          "category": "transformation",
+          "description": "ECB era begins"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Caixa Geral de Depósitos",
+      "type": "public",
+      "role": "State bank",
+      "regionOfActivity": "Lisbon",
+      "description": "State savings bank and domestic-market anchor.",
+      "events": [
+        {
+          "date": "1876-04-10",
+          "category": "birth",
+          "description": "CGD founded"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "transformation",
+          "description": "Recapitalization and restructuring plan"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Banco Comercial Português",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Porto",
+      "description": "Millennium-branded challenger built by acquisitions.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "BCP founded after liberalization"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "expansion",
+          "description": "Atlântico, Mello and SottoMayor absorbed"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Novo Banco",
+      "type": "private",
+      "role": "Bridge bank",
+      "regionOfActivity": "Lisbon",
+      "description": "BES resolution vehicle sold to Lone Star.",
+      "events": [
+        {
+          "date": "2014-08-04",
+          "category": "birth",
+          "description": "Resolution creates Novo Banco from BES"
+        },
+        {
+          "date": "2017-10-18",
+          "category": "transformation",
+          "description": "Lone Star takes majority control"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Banco Espírito Santo lineage",
+      "type": "private",
+      "role": "Banking history",
+      "regionOfActivity": "Lisbon",
+      "description": "Family bank collapsed 2014 in the group's fall.",
+      "events": [
+        {
+          "date": "1869-01-01",
+          "category": "birth",
+          "description": "Lottery-exchange house founded; bank follows"
+        },
+        {
+          "date": "2014-07-30",
+          "category": "death",
+          "description": "BES failure triggers resolution"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Fidelidade",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Lisbon",
+      "description": "Bonança-rooted insurer under Fosun ownership.",
+      "events": [
+        {
+          "date": "1808-01-01",
+          "category": "birth",
+          "description": "Bonança seguradora founded"
+        },
+        {
+          "date": "2014-05-15",
+          "category": "transformation",
+          "description": "Fosun takes control"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "EDP",
+      "type": "hybrid",
+      "role": "Energy utility",
+      "regionOfActivity": "Lisbon",
+      "description": "State generator privatized into a wind-power multinational.",
+      "events": [
+        {
+          "date": "1976-06-30",
+          "category": "birth",
+          "description": "Electricidade de Portugal created by nationalization"
+        },
+        {
+          "date": "1997-06-18",
+          "category": "transformation",
+          "description": "Privatization begins in tranches"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "expansion",
+          "description": "Horizon Wind acquisition; EDP Renováveis listed 2008"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Galp",
+      "type": "private",
+      "role": "Energy company",
+      "regionOfActivity": "Lisbon",
+      "description": "Refining-marketing group from the Sacor-Petrogal lineage.",
+      "events": [
+        {
+          "date": "1937-01-01",
+          "category": "birth",
+          "description": "SACOR refinery company founded"
+        },
+        {
+          "date": "1999-01-01",
+          "category": "founding",
+          "description": "Petrogal-Gás de Portugal merger forms Galp"
+        },
+        {
+          "date": "2024-01-01",
+          "category": "expansion",
+          "description": "Namibia Mopane discovery transforms upstream"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "REN",
+      "type": "private",
+      "role": "Grid operator",
+      "regionOfActivity": "Lisbon",
+      "description": "Unbundled electricity-gas transmission operator.",
+      "events": [
+        {
+          "date": "1994-08-26",
+          "category": "birth",
+          "description": "REN carved out of EDP"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "transformation",
+          "description": "Privatization completes unbundling"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "TAP Air Portugal",
+      "type": "hybrid",
+      "role": "Flag carrier",
+      "regionOfActivity": "Lisbon",
+      "description": "Flag carrier renationalized after Atlantic Gateway interlude.",
+      "events": [
+        {
+          "date": "1945-03-14",
+          "category": "birth",
+          "description": "Transportes Aéreos Portugueses founded"
+        },
+        {
+          "date": "2015-11-12",
+          "category": "transformation",
+          "description": "Atlantic Gateway privatization"
+        },
+        {
+          "date": "2020-07-02",
+          "category": "policy",
+          "description": "State retakes control during the pandemic"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Comboios de Portugal",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Lisbon",
+      "description": "National passenger operator of the narrow peninsula network.",
+      "events": [
+        {
+          "date": "1860-05-09",
+          "category": "birth",
+          "description": "Companhia Real starts Lisbon-Carregado line"
+        },
+        {
+          "date": "1997-04-29",
+          "category": "transformation",
+          "description": "REFER split; CP operator created"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "ANA Aeroportos",
+      "type": "private",
+      "role": "Airport operator",
+      "regionOfActivity": "Lisbon",
+      "description": "State airports concessioned to Vinci.",
+      "events": [
+        {
+          "date": "1998-12-18",
+          "category": "birth",
+          "description": "ANA EP created"
+        },
+        {
+          "date": "2013-09-01",
+          "category": "transformation",
+          "description": "Vinci concession begins"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "CTT",
+      "type": "private",
+      "role": "Postal operator",
+      "regionOfActivity": "Lisbon",
+      "description": "Five-century postal service privatized with banking arm.",
+      "events": [
+        {
+          "date": "1520-11-06",
+          "category": "birth",
+          "description": "Manuel I creates the public post"
+        },
+        {
+          "date": "2013-12-05",
+          "category": "transformation",
+          "description": "Listing completes privatization"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "NOS",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Lisbon",
+      "description": "ZON-Sonaecom merger challenging MEO.",
+      "events": [
+        {
+          "date": "2013-08-27",
+          "category": "founding",
+          "description": "ZON-Optimus merger forms NOS"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Altice Portugal and MEO",
+      "type": "private",
+      "role": "Telecom operator",
+      "regionOfActivity": "Lisbon",
+      "description": "Portugal Telecom lineage under Altice ownership.",
+      "events": [
+        {
+          "date": "1992-06-23",
+          "category": "birth",
+          "description": "Portugal Telecom created from CTT split"
+        },
+        {
+          "date": "2015-06-02",
+          "category": "transformation",
+          "description": "Altice takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "CTT Banco lineage banking",
+      "type": "private",
+      "role": "Postal bank",
+      "regionOfActivity": "Lisbon",
+      "description": "Postal savings converted into Banco CTT.",
+      "events": [
+        {
+          "date": "2015-03-27",
+          "category": "birth",
+          "description": "Banco CTT licensed"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Sonae",
+      "type": "private",
+      "role": "Conglomerate",
+      "regionOfActivity": "Maia",
+      "description": "Laminates maker turned retail-telecom holding.",
+      "events": [
+        {
+          "date": "1959-01-01",
+          "category": "birth",
+          "description": "Sonae founded"
+        },
+        {
+          "date": "1985-01-01",
+          "category": "expansion",
+          "description": "Continente hypermarkets launch modern grocery"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Jerónimo Martins",
+      "type": "private",
+      "role": "Grocery group",
+      "regionOfActivity": "Lisbon",
+      "description": "Pingo Doce owner expanded into Poland's Biedronka.",
+      "events": [
+        {
+          "date": "1792-01-01",
+          "category": "birth",
+          "description": "Jerónimo Martins shop founded in Lisbon"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "expansion",
+          "description": "Biedronka acquisition seeds Polish growth"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "The Navigator Company",
+      "type": "private",
+      "role": "Paper producer",
+      "regionOfActivity": "Setúbal",
+      "description": "Portucel-Soporcel merger leading uncoated fine paper.",
+      "events": [
+        {
+          "date": "1953-11-25",
+          "category": "birth",
+          "description": "Companhia Portuguesa de Celulose founded"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "founding",
+          "description": "Portucel-Soporcel merger"
+        },
+        {
+          "date": "2016-01-01",
+          "category": "milestone",
+          "description": "Navigator brand adopted"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Altri",
+      "type": "private",
+      "role": "Pulp producer",
+      "regionOfActivity": "Porto",
+      "description": "Cofina spin-off in eucalyptus pulp.",
+      "events": [
+        {
+          "date": "2005-03-01",
+          "category": "birth",
+          "description": "Cofina demerger creates Altri"
+        },
+        {
+          "date": "2006-01-01",
+          "category": "expansion",
+          "description": "Celbi acquisition"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Corticeira Amorim",
+      "type": "private",
+      "role": "Cork group",
+      "regionOfActivity": "Santa Maria da Feira",
+      "description": "Family cork-stopper world leader.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "birth",
+          "description": "Amorim cork factory founded"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "expansion",
+          "description": "Twin-top technical stoppers answer TCA crisis"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Vista Alegre",
+      "type": "private",
+      "role": "Porcelain group",
+      "regionOfActivity": "Ílhavo",
+      "description": "Royal-factory porcelain house.",
+      "events": [
+        {
+          "date": "1824-01-01",
+          "category": "birth",
+          "description": "Fábrica da Vista Alegre founded"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "founding",
+          "description": "Atlantis merger forms the group"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "CIMPOR",
+      "type": "private",
+      "role": "Cement group",
+      "regionOfActivity": "Lisbon",
+      "description": "State cement holding privatized into InterCement.",
+      "events": [
+        {
+          "date": "1976-05-26",
+          "category": "birth",
+          "description": "CIMPOR holding nationalizes the cement works"
+        },
+        {
+          "date": "2012-01-01",
+          "category": "transformation",
+          "description": "Camargo Corrêa takeover completes"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Mota-Engil",
+      "type": "private",
+      "role": "Construction group",
+      "regionOfActivity": "Porto",
+      "description": "Family contractor across Lusophone Africa and Latin America.",
+      "events": [
+        {
+          "date": "1946-06-27",
+          "category": "birth",
+          "description": "Mota & Companhia founded"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "founding",
+          "description": "Engil merger forms Mota-Engil"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Teixeira Duarte",
+      "type": "private",
+      "role": "Construction group",
+      "regionOfActivity": "Lisbon",
+      "description": "Century contractor with African concessions.",
+      "events": [
+        {
+          "date": "1921-12-31",
+          "category": "birth",
+          "description": "Teixeira Duarte founded"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "EFACEC",
+      "type": "private",
+      "role": "Electrical-equipment maker",
+      "regionOfActivity": "Matosinhos",
+      "description": "Transformer and mobility-systems exporter.",
+      "events": [
+        {
+          "date": "1948-12-12",
+          "category": "birth",
+          "description": "EFACEC founded"
+        },
+        {
+          "date": "2015-01-01",
+          "category": "transformation",
+          "description": "Winterfell acquisition and restructuring"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "OGMA",
+      "type": "hybrid",
+      "role": "Aeronautical maintenance group",
+      "regionOfActivity": "Alverca",
+      "description": "Air-force workshops turned Embraer-partnered MRO.",
+      "events": [
+        {
+          "date": "1918-06-29",
+          "category": "birth",
+          "description": "Parque de Material Aeronáutico founded"
+        },
+        {
+          "date": "2005-03-04",
+          "category": "transformation",
+          "description": "Embraer-EADS takeover; Air Force retains stake"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "INESC TEC",
+      "type": "hybrid",
+      "role": "Research institute",
+      "regionOfActivity": "Porto",
+      "description": "University-enterprise R&D network in robotics and energy.",
+      "events": [
+        {
+          "date": "1985-01-01",
+          "category": "birth",
+          "description": "INESC Porto delegation founded"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "founding",
+          "description": "INESC TEC status formalized"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Champalimaud Foundation",
+      "type": "private",
+      "role": "Biomedical foundation",
+      "regionOfActivity": "Lisbon",
+      "description": "Biomedical foundation for cancer and neuroscience research.",
+      "events": [
+        {
+          "date": "2004-01-01",
+          "category": "birth",
+          "description": "António Champalimaud endows the foundation"
+        },
+        {
+          "date": "2011-10-05",
+          "category": "milestone",
+          "description": "Centre for the Unknown inaugurated"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Gulbenkian Foundation",
+      "type": "private",
+      "role": "Philanthropic foundation",
+      "regionOfActivity": "Lisbon",
+      "description": "Oil-five-percent fortune funding arts and science.",
+      "events": [
+        {
+          "date": "1956-07-18",
+          "category": "birth",
+          "description": "Calouste Gulbenkian will creates the foundation"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "RTP",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Lisbon",
+      "description": "State radio-television service.",
+      "events": [
+        {
+          "date": "1935-08-01",
+          "category": "birth",
+          "description": "Emissora Nacional starts regular broadcasts"
+        },
+        {
+          "date": "1957-03-07",
+          "category": "milestone",
+          "description": "RTP television launches"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Impresa and SIC",
+      "type": "private",
+      "role": "Media group",
+      "regionOfActivity": "Lisbon",
+      "description": "Balsemão publishing house turned commercial-TV leader.",
+      "events": [
+        {
+          "date": "1972-01-01",
+          "category": "birth",
+          "description": "Impresa founded; Expresso follows in 1973"
+        },
+        {
+          "date": "1992-10-06",
+          "category": "milestone",
+          "description": "SIC breaks the RTP monopoly"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "UGT and CGTP unions",
+      "type": "private",
+      "role": "Trade union confederations",
+      "regionOfActivity": "Lisbon",
+      "description": "Democratic-era labor centrals of the concertation system.",
+      "events": [
+        {
+          "date": "1974-10-19",
+          "category": "birth",
+          "description": "Intersindical founded; CGTP follows in 1975"
+        },
+        {
+          "date": "1978-10-28",
+          "category": "founding",
+          "description": "UGT founded at the democratic refoundation"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "CIP employers",
+      "type": "private",
+      "role": "Employers' confederation",
+      "regionOfActivity": "Lisbon",
+      "description": "Industry voice in social concertation.",
+      "events": [
+        {
+          "date": "1974-01-01",
+          "category": "birth",
+          "description": "CIP founded after the revolution"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Assembly of the Republic",
+      "type": "public",
+      "role": "Parliament",
+      "regionOfActivity": "Lisbon",
+      "description": "Unicameral legislature of the Third Republic.",
+      "events": [
+        {
+          "date": "1976-06-02",
+          "category": "birth",
+          "description": "Constituent process yields the Assembly"
+        },
+        {
+          "date": "1982-09-30",
+          "category": "transformation",
+          "description": "Council of the Revolution abolished"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Lisbon Stock Exchange and Euronext",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "Lisbon",
+      "description": "Bourse lineage integrated into Euronext.",
+      "events": [
+        {
+          "date": "1769-01-01",
+          "category": "birth",
+          "description": "Assembleia dos Homens de Negócio chartered"
+        },
+        {
+          "date": "2002-01-01",
+          "category": "transformation",
+          "description": "Euronext Lisbon integration"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Turismo de Portugal",
+      "type": "public",
+      "role": "Tourism agency",
+      "regionOfActivity": "Lisbon",
+      "description": "State tourism promotion and school network.",
+      "events": [
+        {
+          "date": "1986-01-01",
+          "category": "birth",
+          "description": "Tourism secretariat modernized for EU era"
+        }
+      ]
+    }
+  ]
+}
