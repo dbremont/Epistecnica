@@ -28,6 +28,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
+from indexlib import Progress, atomic_write_text, run_builder
+
 REPO = Path(__file__).resolve().parent.parent
 OUT = REPO / "src" / "app" / "data" / "search-index.json"
 
@@ -96,26 +98,40 @@ def corpus_entries() -> list:
     return entries
 
 
-def main() -> int:
+def build(progress=None) -> bool:
+    if progress is not None:
+        progress.start("merging the corpus indexes")
     entries = corpus_entries()
+    if progress is not None:
+        progress.set_total(len(entries))
+        progress.step(len(entries), message="entries merged")
 
     counts = {}
     for e in entries:
         counts[e["surface"]] = counts.get(e["surface"], 0) + 1
 
+    if progress is not None:
+        progress.stage(f"writing {OUT.name}")
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps({
+    atomic_write_text(OUT, json.dumps({
         "generated": date.today().isoformat(),
         "counts": counts,
         "entries": entries,
-    }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    }, ensure_ascii=False, separators=(",", ":")))
 
     kb = OUT.stat().st_size / 1024
     print(f"search-index: {len(entries)} entries -> "
           f"src/app/data/search-index.json ({kb:.0f} KB)")
     for surface, count in sorted(counts.items()):
         print(f"  {surface}: {count}")
-    return 0
+    if progress is not None:
+        progress.finish(f"{len(entries)} entries")
+    return True
+
+
+def main() -> int:
+    return run_builder("search", build)
 
 
 if __name__ == "__main__":

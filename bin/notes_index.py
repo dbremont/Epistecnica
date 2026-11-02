@@ -28,6 +28,8 @@ from datetime import date
 from html import unescape
 from pathlib import Path
 
+from indexlib import atomic_write_text, run_builder
+
 REPO = Path(__file__).resolve().parent.parent
 NOTE = REPO / "src" / "note"
 APP = NOTE / "app"
@@ -246,18 +248,32 @@ def load_links(index_paths: set, warnings: list) -> list:
     return embedded
 
 
-def main() -> int:
+def build(progress=None) -> bool:
     if not NOTES.is_dir():
         print(f"ERROR: notes data directory not found: {NOTES}", file=sys.stderr)
-        return 1
+        return False
+
+    files = []
+    for pattern, parser in (("*.md", parse), ("*.html", parse_html)):
+        for path in sorted(NOTES.rglob(pattern)):
+            files.append((path, parser))
+    files.sort(key=lambda item: item[0])
+
+    if progress is not None:
+        progress.set_total(len(files))
+        progress.start(f"indexing {len(files)} notes")
 
     warnings: list = []
     notes: list = []
-    for pattern, parser in (("*.md", parse), ("*.html", parse_html)):
-        for path in sorted(NOTES.rglob(pattern)):
-            rel = path.relative_to(NOTES)
-            check_name(rel, warnings)
-            notes.append(parser(path, rel, warnings))
+    for path, parser in files:
+        rel = path.relative_to(NOTES)
+        check_name(rel, warnings)
+        notes.append(parser(path, rel, warnings))
+        if progress is not None:
+            progress.step(message=rel.as_posix())
+
+    if progress is not None:
+        progress.stage(f"writing {OUT.name}")
 
     sections: dict = {}
     for n in notes:
@@ -273,7 +289,7 @@ def main() -> int:
         "links": links,
         "notes": notes,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    atomic_write_text(OUT, json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
 
     kb = OUT.stat().st_size / 1024
     tagged = sum(1 for n in notes if n["tags"])
@@ -284,7 +300,13 @@ def main() -> int:
         print(f"naming warnings: {len(warnings)} (see src/note/README.md)")
         for w in warnings:
             print(f"  ! {w}")
-    return 0
+    if progress is not None:
+        progress.finish(f"{len(notes)} notes")
+    return True
+
+
+def main() -> int:
+    return run_builder("notes", build)
 
 
 if __name__ == "__main__":

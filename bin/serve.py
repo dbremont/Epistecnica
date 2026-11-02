@@ -31,9 +31,15 @@ Legacy REES paths redirect to their EES equivalents:
 
   /note/data/epistemica/rees.* -> 302 /note/data/epistemica/ees.*
 
-and the service exposes one endpoint:
+and the service exposes these endpoints:
 
-  GET  /api/health      -> liveness probe for the service
+  GET  /api/health       -> liveness probe for the service
+  GET  /api/index/status -> live index-build progress (see bin/index_jobs.py)
+  POST /api/index/build  -> queue an index build (opt-in, see INDEX_API_ENV)
+
+Index builds are chunked and asynchronous: the POST returns at once, the
+build runs in a background thread, and the status endpoint reports
+done/total/pct per builder so no page has to wait for a rebuild.
 
 Notes-catalog pins are browser-local (localStorage); there is no pins API.
 
@@ -48,6 +54,7 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
@@ -56,6 +63,12 @@ from urllib.parse import parse_qs, urlencode
 REPO = Path(__file__).resolve().parent.parent
 
 HUB_HEALTH_ENDPOINT = "/api/health"
+
+# Index-build API. Off by default so a public deployment cannot be pushed
+# into a CPU-heavy rebuild from the internet; `make run` turns it on for dev.
+INDEX_API_ENV = "EPISTECNICA_ALLOW_INDEX_API"
+INDEX_STATUS_ENDPOINT = "/api/index/status"
+INDEX_BUILD_ENDPOINT = "/api/index/build"
 
 NOTES_PREFIX = "/note"
 NOTES_MOUNT = "src/note/app"
@@ -180,6 +193,10 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._handle_hub_health()
             return
 
+        if path == INDEX_STATUS_ENDPOINT:
+            self._handle_index_status()
+            return
+
         if self._redirect_legacy_note(path):
             return
 
@@ -216,6 +233,12 @@ class HubHandler(SimpleHTTPRequestHandler):
     # ------------------------------------------------------------------
 
     def do_POST(self):
+        path = self.path.split("?", 1)[0].split("#", 1)[0]
+
+        if path == INDEX_BUILD_ENDPOINT:
+            self._handle_index_build()
+            return
+
         self.send_error(404, "Not Found")
 
     # ------------------------------------------------------------------
@@ -246,6 +269,72 @@ class HubHandler(SimpleHTTPRequestHandler):
 
     def _handle_hub_health(self):
         self._send_json({"status": "ok", "service": "epistecnica"})
+
+    # -- index build API -------------------------------------------------
+
+    def _index_api_enabled(self):
+        return os.environ.get(INDEX_API_ENV) == "1"
+
+    def _handle_index_status(self):
+        if not self._index_api_enabled():
+            self.send_error(404, "Not Found")
+            return
+        import index_jobs
+        from indexlib import read_status
+
+        state = read_status()
+        self._send_json({
+            "enabled": True,
+            "busy": index_jobs.busy(),
+            "job": state.get("job") or {"state": "idle"},
+            "builders": state.get("builders") or {},
+            "updated": state.get("updated"),
+            "available": index_jobs.available(),
+        })
+
+    def _handle_index_build(self):
+        if not self._index_api_enabled():
+            self.send_error(404, "Not Found")
+            return
+
+        import index_jobs
+
+        length = int(self.headers.get("Content-Length") or 0)
+        raw = self.rfile.read(length) if length else b""
+        wanted = None
+        if raw:
+            try:
+                payload = json.loads(raw.decode("utf-8"))
+            except (ValueError, UnicodeDecodeError):
+                self._send_json({"error": "invalid JSON body"}, code=400)
+                return
+            if isinstance(payload, dict) and payload.get("builders"):
+                wanted = payload["builders"]
+                if not isinstance(wanted, list) or not all(isinstance(n, str) for n in wanted):
+                    self._send_json({"error": "builders must be a list of names"}, code=400)
+                    return
+
+        have = index_jobs.available()
+        unknown = [n for n in (wanted or []) if n not in have]
+        if unknown:
+            self._send_json({"error": "unknown builder(s): " + ", ".join(unknown),
+                             "available": have}, code=400)
+            return
+
+        queued = index_jobs.expand(wanted or have)
+        if not index_jobs.run(wanted):
+            current = (self._last_status() or {}).get("job") or {}
+            self._send_json({"status": "busy", "running": current.get("builders", [])},
+                            code=409)
+            return
+
+        self._send_json({"status": "started", "builders": queued,
+                         "status_url": INDEX_STATUS_ENDPOINT}, code=202)
+
+    @staticmethod
+    def _last_status():
+        from indexlib import read_status
+        return read_status()
 
     # ------------------------------------------------------------------
     # Helpers

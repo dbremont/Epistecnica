@@ -36,6 +36,8 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import quote
 
+from indexlib import Progress, atomic_write_text, run_builder
+
 REPO = Path(__file__).resolve().parent.parent
 
 NOTE_INDEX = REPO / "src" / "note" / "app" / "data" / "index.json"
@@ -68,11 +70,18 @@ def load(path):
         return json.load(fh)
 
 
-def build_nodes():
+def build_nodes(progress=None):
     nodes = []
 
+    note_items = load(NOTE_INDEX).get("notes", [])
+    course_items = load(COURSE_INDEX).get("entries", [])
+    document_items = load(DOCUMENT_INDEX).get("documents", [])
+    if progress is not None:
+        progress.set_total(len(note_items) + len(course_items) + len(document_items))
+        progress.start("collecting nodes")
+
     # ---- notes -----------------------------------------------------------
-    for n in load(NOTE_INDEX).get("notes", []):
+    for n in note_items:
         path = n["path"]
         nodes.append({
             "uid": "note:" + path,
@@ -87,9 +96,11 @@ def build_nodes():
             "deep_link": "/note/note.html?n=" + quote(path, safe="/"),
             "targets": [],
         })
+        if progress is not None:
+            progress.step(message="note " + path)
 
     # ---- courses / lectures ---------------------------------------------
-    for e in load(COURSE_INDEX).get("entries", []):
+    for e in course_items:
         path = e["path"]
         kind = e.get("kind") or "course"
         nodes.append({
@@ -109,9 +120,11 @@ def build_nodes():
             else ("/course/course.html?c=" + quote(path, safe="/")),
             "targets": [],
         })
+        if progress is not None:
+            progress.step(message="course " + path)
 
     # ---- documents -------------------------------------------------------
-    for d in load(DOCUMENT_INDEX).get("documents", []):
+    for d in document_items:
         path = d["path"]
         nodes.append({
             "uid": "document:" + path,
@@ -126,6 +139,8 @@ def build_nodes():
             "deep_link": "/document/document.html?d=" + quote(path, safe="/"),
             "targets": [],
         })
+        if progress is not None:
+            progress.step(message="document " + path)
 
     # ---- ees ------------------------------------------------------------
     ees_edges = []
@@ -203,8 +218,10 @@ def build_nodes():
     return nodes
 
 
-def main():
-    nodes = build_nodes()
+def build(progress=None) -> bool:
+    nodes = build_nodes(progress)
+    if progress is not None:
+        progress.stage("linking nodes")
 
     counts = {s: 0 for s in SOURCES}
     edge_counts = {s: 0 for s in SOURCES}
@@ -221,8 +238,7 @@ def main():
     }
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    with open(GRAPH_OUT, "w", encoding="utf-8") as fh:
-        json.dump(graph, fh, ensure_ascii=False, separators=(",", ":"))
+    atomic_write_text(GRAPH_OUT, json.dumps(graph, ensure_ascii=False, separators=(",", ":")))
 
     total_edges = sum(edge_counts.values())
     size_kb = GRAPH_OUT.stat().st_size / 1024
@@ -236,7 +252,13 @@ def main():
             size_kb,
         )
     )
-    return 0
+    if progress is not None:
+        progress.finish("%d nodes" % len(nodes))
+    return True
+
+
+def main() -> int:
+    return run_builder("universal", build)
 
 
 if __name__ == "__main__":

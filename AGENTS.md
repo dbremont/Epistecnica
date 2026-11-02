@@ -30,6 +30,8 @@ index.html              hub (served at /)
 bin/                    every repo script lives here (centralized — never under src/; see Tooling notes)
 bin/serve.py            combined server — the only frontend-facing surface; owns all routes below
 bin/envutil.py          .env loader
+bin/indexlib.py         shared index-build plumbing (chunked progress, atomic writes, status file)
+bin/index_jobs.py       index-build runner (dependency order, single-flight, background jobs)
 bin/build_universal_index.py  universal-view graph builder (our corpus → graph JSON)
 bin/layout.py           universal-view layout pre-computer (sunflower + FR)
 bin/notes_index.py | bin/course_index.py | bin/document_index.py   corpus indexers (make *-index)
@@ -76,6 +78,18 @@ frontend-facing surface in the deployment; there is no database behind it
     lookup index `…/glossarium/data/index.json`); pages link to it and the
     select-a-word popup loads its JS + index from there
   - `/api/health` → liveness probe for the service
+  - `/api/index/status` → live index-build progress (`{busy, job, builders}`);
+    served only when `EPISTECNICA_ALLOW_INDEX_API=1`
+  - `/api/index/build` → `POST` queues a chunked background rebuild and returns
+    `202` at once (`409` when one is already running); same opt-in gate
+- **Index builds are asynchronous.** `bin/index_jobs.py` runs the builders in
+  dependency order in one background thread, each one chunked and reporting
+  `done/total/pct` into the gitignored `src/app/data/index-status.json`. No
+  surface waits for a rebuild: pages keep serving the last index and the shared
+  `src/app/shared/index-status.js` chip shows progress while a job runs. The
+  route is opt-in (`EPISTECNICA_ALLOW_INDEX_API=1`, set by `make run`) so the
+  public deployment cannot be pushed into CPU-heavy rebuilds; the image still
+  ships prebuilt indexes (`Dockerfile` runs the runner).
 - Frontend pages fetch **relatively** (`api/…`, `data/…`) — that is what makes
   prefix mounting work without touching the huge HTML files. Keep it that way:
   never introduce absolute `/api/...` or `/data/...` paths in page code.
@@ -464,6 +478,11 @@ Verification (no test suite exists; `make check` covers the first):
 - Universal search: `make search-index` (build-time snapshot → gitignored `src/app/data/search-index.json`, corpus-only; rebuilt locally or at image build) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers)
 - Universal view: `make graph-index` (build-time snapshot → gitignored `src/app/graph/data/universal-graph.json` + `universal-layout.json`, generated from our corpus; rebuilt locally or at image build) → hub `/graph/`
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`
+- Index jobs: `make index` (all, chunked, dependency order) · `make index-status`
+  (last known `done/total/pct` per builder, no build) · `make index-list` ·
+  `make index-background`; with `make run`, `curl -s :8010/api/index/status`
+  and `curl -s -X POST -d '{"builders":["notes"]}' :8010/api/index/build`
+  (`202` started, `409` busy, `400` unknown builder)
 - Legacy graphs: `curl -sI :8000/epistemica/` and `:8000/tecnica/` → `302` → `/note/data/epistemica/ees.html`
 - Notes: `curl -s :8000/note/` (catalog), `/note/note.html?n=technica/general/pto/zsh.md` (viewer), `/note/data/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/note/data/index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/note/README.md`)
 - EES atlas: `curl -s :8000/note/data/epistemica/ees.html` (the multi-view atlas) and `/note/data/epistemica/ees.json` (the canonical tree store it renders)
@@ -540,10 +559,11 @@ when switching over.
   then `REPO / "src" / "<corpus>"` — not via their own directory depth.
 - **Generated corpus indexes are gitignored** (`index.json`,
   `search-index.json`, `universal-graph.json`/`universal-layout.json`,
-  technica `atlas.json`) — rebuild them with `make index` /
-  `make search-index` / `make graph-index` / `make atlas-index` after a
-  fresh clone or any corpus edit; the Dockerfile rebuilds them at image
-  build so the image is self-contained. The exception is
+  technica `atlas.json`, `index-status.json`, `index-build.lock`) — rebuild
+  them with `make index` (the chunked runner; the per-builder `make
+  notes-index` / `search-index` / `graph-index` / `atlas-index` targets still
+  exist) after a fresh clone or any corpus edit; the Dockerfile rebuilds them
+  at image build so the image is self-contained. The exception is
   `src/note/app/data/links.json`: it is the hand-maintained support-link
   registry (an input the indexer reads, not a generated index), so it is
   tracked and must be committed with its edits.

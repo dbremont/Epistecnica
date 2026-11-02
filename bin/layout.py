@@ -39,6 +39,8 @@ import sys
 import tempfile
 from pathlib import Path
 
+from indexlib import Progress, atomic_write_text, run_builder
+
 GOLDEN_ANGLE = math.pi * (3.0 - math.sqrt(5.0))
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -247,7 +249,7 @@ def group_key_of(node, group_by, group_fallback):
     return None
 
 
-def compute_layout(data, group_by=None, group_fallback=None):
+def compute_layout(data, group_by=None, group_fallback=None, progress=None):
     """Return {id: [x, y]} for every node in data."""
     ids = []
     id_index = {}
@@ -267,6 +269,10 @@ def compute_layout(data, group_by=None, group_fallback=None):
     n = len(ids)
     if n == 0:
         return {}
+
+    if progress is not None:
+        progress.set_total(n)
+        progress.start("%d nodes" % n)
 
     if group_by:
         grouped = {}
@@ -319,6 +325,8 @@ def compute_layout(data, group_by=None, group_fallback=None):
     if group_by:
         # Blossoms go beside the grouped ring, not inside it.
         cursor = max(max(abs(p[0]), abs(p[1])) for p in base) + SPACING * 2.0
+    if progress is not None:
+        progress.stage("placing %d oversized components" % len(large))
     for comp in large:
         size = len(comp)
         local_span = max(SPACING, SPACING * math.sqrt(size))
@@ -328,9 +336,10 @@ def compute_layout(data, group_by=None, group_fallback=None):
         for i, nid in enumerate(comp):
             px, py = sunflower(i, size, r)
             out[nid] = [cx + px, py]
-    for comp in comps:
-        if len(comp) < 2 or len(comp) > MAX_FR_COMPONENT:
-            continue
+    fr_components = [c for c in comps if 2 <= len(c) <= MAX_FR_COMPONENT]
+    if progress is not None:
+        progress.stage("tightening %d connected components" % len(fr_components))
+    for comp in fr_components:
         size = len(comp)
         cx = sum(base[id_index[nid]][0] for nid in comp) / size
         cy = sum(base[id_index[nid]][1] for nid in comp) / size
@@ -350,6 +359,8 @@ def compute_layout(data, group_by=None, group_fallback=None):
 
         for k, nid in enumerate(members):
             out[nid] = [cx + pos[k][0] * scale, cy + pos[k][1] * scale]
+        if progress is not None:
+            progress.step(size, message="%d-node component" % size)
 
     # 3. Isolated nodes keep their sunflower slot.
     for i, nid in enumerate(ids):
@@ -363,6 +374,8 @@ def compute_layout(data, group_by=None, group_fallback=None):
     for i, nid in enumerate(ids):
         out[nid] = pts[i]
 
+    if progress is not None:
+        progress.step(max(0, n - progress.done), message="placed")
     return out
 
 
@@ -383,7 +396,7 @@ def write_layout_atomically(layout, layout_path):
         raise
 
 
-def recompute(data_file, layout_file, group_by=None, group_fallback=None):
+def recompute(data_file, layout_file, group_by=None, group_fallback=None, progress=None):
     """Load data_file, compute layout, write layout_file atomically.
 
     Returns (node_count, elapsed_seconds). Used by sync.py after each save.
@@ -392,12 +405,13 @@ def recompute(data_file, layout_file, group_by=None, group_fallback=None):
 
     start = time.time()
     data = load_data(data_file)
-    layout = compute_layout(data, group_by=group_by, group_fallback=group_fallback)
+    layout = compute_layout(data, group_by=group_by, group_fallback=group_fallback,
+                            progress=progress)
     write_layout_atomically(layout, Path(layout_file))
     return len(layout), time.time() - start
 
 
-def main(argv=None):
+def build(progress=None, argv=None) -> bool:
     parser = argparse.ArgumentParser(
         prog="layout.py",
         description="Pre-compute the Epistecnica universal graph layout (sunflower + per-component FR).",
@@ -426,7 +440,8 @@ def main(argv=None):
     layout_file = Path(args.layout_file).resolve()
 
     node_count, elapsed = recompute(
-        data_file, layout_file, group_by=args.group_by, group_fallback=args.group_fallback
+        data_file, layout_file, group_by=args.group_by, group_fallback=args.group_fallback,
+        progress=progress,
     )
     size_kb = layout_file.stat().st_size / 1024
     print(
@@ -434,7 +449,14 @@ def main(argv=None):
         f"({size_kb:.1f} KB) in {elapsed * 1000:.0f} ms",
         file=sys.stderr,
     )
+    if progress is not None:
+        progress.finish("%d nodes" % node_count)
+    return True
+
+
+def main() -> int:
+    return run_builder("layout", build)
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
