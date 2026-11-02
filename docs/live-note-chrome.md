@@ -301,11 +301,11 @@ Content order follows the philosophia shell: intro `>` quote, `## Index`
 (link list), `## Formulation` (the three `###` questions as quotes),
 `## Recursive instance decomposition` (plain `.markdown-body` table),
 lab section(s), `## Diagnostic questions` (`###` + quotes),
-`## References`. Include the glossarium lookup script, loaded from the
-external Naturgnosis medium (absolute URL):
+`## References`. Include the local glossarium lookup script, with both paths
+relative to the page (so prefix mounting keeps working):
 
 ```html
-<script src="http://localhost:8013/glossarium/web/js/glossarium-lookup.js" data-glossarium="http://localhost:8013/glossarium/data/index.json" defer></script>
+<script src="../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../glossarium/data/index.json" defer></script>
 ```
 
 ## 8. Conversion record (live notes unified, Sept 2026)

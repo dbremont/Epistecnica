@@ -77,11 +77,13 @@ builders).
 
 ## External spaces
 
-The ontology graphs and the lexical corpus are served by Naturgnosis:
+The ontology graphs are served by Naturgnosis; the lexical corpus and the Q/A
+log are served locally:
 
 - Epistemica space — `http://localhost:8011/epistemica/`
 - Technique space — `http://localhost:8011/technique/`
-- Glossarium — `http://localhost:8013/glossarium/web/`
+- Glossarium — `/glossarium/` (local)
+- Q/A log — `/qa/` (local)
 
 ## Deployment
 

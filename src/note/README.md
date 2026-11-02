@@ -19,13 +19,42 @@ src/note/
     │   ├── changelog.schema.json # schema for changelog.json
     │   ├── epistemica/  # epistemical notes (Modelling domains + elements; theory/ scope)
     │   ├── nature/      # natural notes (natural elements; theory/ = ontology)
-    │   └── technica/    # technical notes (cto/, pto/, op/, computation/)
+    │   ├── technica/    # technical notes (cto/, pto/, op/, computation/, industry/, formation/)
+    │   ├── social/      # social-reality notes (the Naturgnosis social space corpus)
+    │   ├── human/       # human cognition + behaviour notes
+    │   ├── history/     # historical notes (polities, eras, technology history)
+    │   ├── essays/      # essays and case studies (former general/ + miscellanea/)
+    │   └── meta/        # the philosophia guides, mirrored from Naturgnosis
 ```
 
 - Regenerate the search index after any corpus change: `make notes-index`.
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
-  section (`epistemica`, `nature`, `technica`).
+  section (`epistemica`, `nature`, `technica`, `social`, `human`, `history`,
+  `essays`, `meta`).
+
+## Merged Naturgnosis corpus
+
+The Naturgnosis note space was merged into this corpus (2026-11-02). The
+filing rules that shaped it:
+
+- `nature/` and `epistemica/` merge in place; `social/`, `human/`,
+  `history/` and `meta/` are their own sections.
+- `technique/` became `technica/`: industrial, material, energy and
+  production notes live under `technica/general/cto/industry/`, technical
+  domain sets under `technica/general/cto/es/multinode/`, and formation
+  institutions (schools, universities) under
+  `technica/general/op/formation/`.
+- `general/` and `miscellanea/` became `essays/`.
+- `data-collection/` moved under `epistemica/observational/data-collection/`.
+- On collisions the Epistecnica note was kept and the incoming file skipped
+  (same destination path, or same section + title). Links were rewritten
+  through the resulting path map, so no note carries a stale Naturgnosis
+  path; corpus images moved to the shared asset store as usual.
+- The import appended no changelog logs: it is provenance, not an edit, so
+  migrated notes have no history entries of their own until their next change.
+- `meta/` mirrors the canonical philosophia guides locally; the raw
+  Naturgnosis URLs stay the canonical citations in prose.
 
 ## Epistemica corpus
 
