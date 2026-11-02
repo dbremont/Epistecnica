@@ -6142,7 +6142,9 @@
       {
         "date": "2026-11-02",
         "kind": "docs",
-        "summary": "Point the interpretation question at the moved part-whole figure and correct its counts to match the picture (1:2 part-to-part, 1 x 1/3, and 3/3 = 1)."
+        "summary": "Point the interpretation question at the moved part-whole figure and correct its counts to match the picture (1:2 part-to-part, 1 x 1/3, and 3/3 = 1).",
+        "commit": "12a209b59ac7c3954c0554fcd473eb9632a15274",
+        "before": "b28e4ef76c78ea473f85dcdf11c62ee237d98dbf"
       }
     ]
   },
