@@ -6129,7 +6129,9 @@
       {
         "date": "2026-11-02",
         "kind": "docs",
-        "summary": "Add the Fraction note to the references."
+        "summary": "Add the Fraction note to the references.",
+        "commit": "a280281d335049499d128fe7570349046c080f3d",
+        "before": "58dec66c90c37c32eab15e197ed35ea8af6954db"
       }
     ]
   },
@@ -6156,7 +6158,8 @@
       {
         "date": "2026-11-02",
         "kind": "feat",
-        "summary": "Add the Fraction note: the epistemic schema with its five formulation questions, the decomposition into forms, elements, rules, conventions, and readings, and the conceptual evaluation."
+        "summary": "Add the Fraction note: the epistemic schema with its five formulation questions, the decomposition into forms, elements, rules, conventions, and readings, and the conceptual evaluation.",
+        "commit": "a280281d335049499d128fe7570349046c080f3d"
       }
     ]
   },
@@ -6287,7 +6290,9 @@
       {
         "date": "2026-11-02",
         "kind": "docs",
-        "summary": "Link the Fractional notation row of the numeral-system table to the new Fraction note."
+        "summary": "Link the Fractional notation row of the numeral-system table to the new Fraction note.",
+        "commit": "a280281d335049499d128fe7570349046c080f3d",
+        "before": "58dec66c90c37c32eab15e197ed35ea8af6954db"
       }
     ]
   },
@@ -6434,7 +6439,9 @@
       {
         "date": "2026-11-02",
         "kind": "docs",
-        "summary": "Add the Fraction note to the references."
+        "summary": "Add the Fraction note to the references.",
+        "commit": "a280281d335049499d128fe7570349046c080f3d",
+        "before": "58dec66c90c37c32eab15e197ed35ea8af6954db"
       }
     ]
   },
