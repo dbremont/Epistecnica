@@ -25,3 +25,4 @@ tags: [chemistry]
 ## References
 
 - [Internet Archive](https://archive.org/details/glinkageneralchemistryvol1mir1986)
+- [Internet Archive (1958 edition)](https://archive.org/details/glinka-general-chemistry)

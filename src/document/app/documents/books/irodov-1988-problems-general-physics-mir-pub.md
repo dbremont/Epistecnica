@@ -1,4 +1,4 @@
-# Irodov, I. (1988). Problems in General Physics. Mir Pub.
+# Irodov, I. E. (1988). Problems in general physics. Mir Publishers.
 
 
 ```python
@@ -17,4 +17,5 @@
 
 ## References
 
+- [Internet Archive](https://archive.org/details/IrodovProblemsInGeneralPhysics)
 - [Irodov — Problems in General Physics (PDF)](https://dn710308.ca.archive.org/0/items/IrodovProblemsInGeneralPhysics/Irodov-Problems_in_General_Physics.pdf)

@@ -1,4 +1,4 @@
-# Shklarsky, D. O. (1993). The USSR Olympiad problem book. Dover Publications.
+# Shklarsky, D. O., Chentzov, N. N., & Yaglom, I. M. (1993). The USSR Olympiad problem book. Dover Publications.
 
 
 ```python
@@ -23,4 +23,5 @@
 
 ## References
 
-- https://www.amazon.com/USSR-Olympiad-Problem-Book-Mathematics/dp/0486277097
+- [Internet Archive](https://archive.org/details/shklarsky-chentzov-yaglom-the-ussr-olympiad-problem-book)
+- [Amazon](https://www.amazon.com/USSR-Olympiad-Problem-Book-Mathematics/dp/0486277097)

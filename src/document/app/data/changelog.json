@@ -12955,6 +12955,16 @@
     ]
   },
   {
+    "file_path": "books/abrikosov-1988-fundamentals-theory-metals.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/acar-2005-self-adjusting-computation-overview-carnegie.md",
     "logs": [
       {
@@ -13061,6 +13071,16 @@
     ]
   },
   {
+    "file_path": "books/aizerman-1963-theory-automatic-control.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/akenine-2019-real-time-rendering-peters-crc.md",
     "logs": [
       {
@@ -13068,6 +13088,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/akhiezer-1969-theory-linear-operators-hilbert-space-vol-2-ungar.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -13134,6 +13164,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/amann-1977-technological-level-soviet-industry-yale.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/amelkin-1990-differential-equations-applications-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -13270,6 +13320,16 @@
     ]
   },
   {
+    "file_path": "books/antropov-1972-theoretical-electrochemistry.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/araral-2015-routledge-handbook-public-policy-routledge.md",
     "logs": [
       {
@@ -13353,6 +13413,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/aston-1990-principles-biomedical-instrumentation-merrill.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -13599,6 +13669,16 @@
     ]
   },
   {
+    "file_path": "books/bazhanov-1930-i-was-stalins-secretary.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/beebee-2012-oxford-handbook-causation-oup-oxford.md",
     "logs": [
       {
@@ -13632,6 +13712,26 @@
     ]
   },
   {
+    "file_path": "books/begunov-1988-optical-instrumentation-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/belikov-1989-general-methods-solving-physics-problems-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/bellman-1957-dynamic-programming-princeton-university-press.md",
     "logs": [
       {
@@ -13650,6 +13750,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/beloussov-1980-geotectonics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/benjamin-1872-american-handbook-chemical-physical-apparatus.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -13709,6 +13829,16 @@
     ]
   },
   {
+    "file_path": "books/bergson-1964-economics-soviet-planning-yale.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/berlinski-1976-system-analysis-essay-concerning-limitations.md",
     "logs": [
       {
@@ -13716,6 +13846,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/berman-1980-problem-book-mathematical-analysis-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -13826,6 +13966,16 @@
     ]
   },
   {
+    "file_path": "books/bioinstrumentation-research-1990-butterworths.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/bisang-2017-arte-aprender-innovar-mundo-globalizado.md",
     "logs": [
       {
@@ -13844,6 +13994,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/bitsadze-1980-equations-mathematical-physics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -13954,6 +14114,36 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/boesman-1987-world-inventory-big-science.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/bogoliubov-1959-introduction-theory-quantized-fields.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/bogolyubov-1986-engineering-drawing-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -14192,6 +14382,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/butenin-1965-elements-theory-nonlinear-oscillations.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/bykhovsky-1972-fundamentals-vibration-engineering-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -14782,6 +14992,16 @@
     ]
   },
   {
+    "file_path": "books/davies-1980-industrialisation-soviet-russia-macmillan.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/davies-2007-science-looking-glass-scientists-really.md",
     "logs": [
       {
@@ -14969,6 +15189,16 @@
     ]
   },
   {
+    "file_path": "books/demidovich-1970-problems-mathematical-analysis-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/derry-1960-short-history-technology-earliest-times.md",
     "logs": [
       {
@@ -15024,6 +15254,16 @@
     ]
   },
   {
+    "file_path": "books/dobb-1948-soviet-economic-development-since-1917.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/dobb-1975-theories-value-distribution-since-adam.md",
     "logs": [
       {
@@ -15031,6 +15271,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/dorofeev-1982-elementary-mathematics-selected-topics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -15101,6 +15351,16 @@
     ]
   },
   {
+    "file_path": "books/dupree-1957-science-federal-government.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/durlauf-2016-palgrave-dictionary-economics-springer.md",
     "logs": [
       {
@@ -15108,6 +15368,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/dynkin-1961-theory-markov-processes-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/eddington-1928-nature-physical-world-macmillan.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -15141,6 +15421,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/efimov-1985-mathematical-analysis-advanced-topics-part-2-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -15185,6 +15475,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/elsgolts-1977-differential-equations-calculus-variations.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -15266,6 +15566,16 @@
     ]
   },
   {
+    "file_path": "books/ewing-1969-instrumental-methods-chemical-analysis-mcgraw-hill.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/fagan-2009-german-cambridge-university-press.md",
     "logs": [
       {
@@ -15328,6 +15638,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/feodosyev-1977-selected-problems-strength-materials-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -15574,6 +15894,16 @@
     ]
   },
   {
+    "file_path": "books/fresenius-1870-system-instruction-quantitative-chemical-analysis-wiley.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/fukuyama-1996-trust-social-virtues-creation-prosperity.md",
     "logs": [
       {
@@ -15614,6 +15944,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/gantmacher-1975-lectures-analytical-mechanics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -15669,6 +16009,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/geiger-1986-to-advance-knowledge-oxford.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/gelfand-1961-lectures-linear-algebra-interscience.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -15823,6 +16183,11 @@
         "kind": "feat",
         "summary": "add physics/math books and RL agent papers",
         "commit": "dee3ed8780ec1563309d2c5dbb6cedfc31e0a1d5"
+      },
+      {
+        "date": "2026-11-05",
+        "kind": "docs",
+        "summary": "add Internet Archive reference link"
       }
     ]
   },
@@ -15922,6 +16287,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/goode-1890-origin-national-scientific-institutions.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -16164,6 +16539,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/gurskii-1987-elementary-physics-problems-solutions-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/gusev-1988-solving-problems-geometry-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -16806,6 +17201,16 @@
     ]
   },
   {
+    "file_path": "books/instrumental-methods-analysis-1988-wadsworth.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/intarakumnerd-2011-enhance-innovation-capability-internal-extern.md",
     "logs": [
       {
@@ -16842,6 +17247,21 @@
         "summary": "add physics/math books and RL agent papers",
         "commit": "dee3ed8780ec1563309d2c5dbb6cedfc31e0a1d5",
         "before": "40288b4315853ea966dd99b2fa358b3ad6f2eb53"
+      },
+      {
+        "date": "2026-11-05",
+        "kind": "docs",
+        "summary": "add Internet Archive reference link"
+      }
+    ]
+  },
+  {
+    "file_path": "books/ivanov-1989-fundamentals-physics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17143,6 +17563,16 @@
     ]
   },
   {
+    "file_path": "books/karapetyants-1979-examples-problems-chemical-thermodynamics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/kardar-2007-statistical-physics-fields-cambridge-university.md",
     "logs": [
       {
@@ -17319,6 +17749,26 @@
     ]
   },
   {
+    "file_path": "books/khinchin-1960-course-mathematical-analysis.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/kikoin-1978-molecular-physics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/kim-1997-imitation-innovation-dynamics-korea-technological.md",
     "logs": [
       {
@@ -17352,6 +17802,16 @@
     ]
   },
   {
+    "file_path": "books/kinasoshvili-1978-strength-materials-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/kincaid-2012-oxford-handbook-philosophy-social-science.md",
     "logs": [
       {
@@ -17370,6 +17830,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/kireev-1978-semiconductor-physics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17396,6 +17866,16 @@
     ]
   },
   {
+    "file_path": "books/kobranova-1989-petrophysics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/kolmogorov-1975-introductory-real-analysis-courier-corporation.md",
     "logs": [
       {
@@ -17403,6 +17883,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/kopchenova-1981-computational-mathematics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/korshunov-1990-mathematical-methods-cybernetics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17458,6 +17958,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/krasnov-1984-functions-complex-variable-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17528,6 +18038,16 @@
     ]
   },
   {
+    "file_path": "books/kudryavtsev-1981-brief-course-higher-mathematics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/kuphaldt-2008-lessons-industrial-instrumentation-creative-common.md",
     "logs": [
       {
@@ -17535,6 +18055,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/kurosh-1963-lectures-general-algebra.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17583,6 +18113,86 @@
     ]
   },
   {
+    "file_path": "books/lakhtin-1965-engineering-physical-metallurgy-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landau-1975-classical-theory-fields-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landau-1976-mechanics-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landau-1977-quantum-mechanics-non-relativistic-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landau-1980-statistical-physics-part-1-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landau-1981-physical-kinetics-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landau-1984-electrodynamics-continuous-media-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landau-1987-fluid-mechanics-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/landau-2013-course-theoretical-physics-elsevier.md",
     "logs": [
       {
@@ -17590,6 +18200,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/landsberg-1988-elementary-textbook-physics-vol-1-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17693,6 +18313,16 @@
     ]
   },
   {
+    "file_path": "books/lebedev-1965-worked-problems-applied-mathematics.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/lecuyer-2022-makers-microchip-documentary-history-fairchild.md",
     "logs": [
       {
@@ -17744,6 +18374,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/leitenberg-2012-soviet-biological-weapons-program-harvard.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17814,6 +18454,16 @@
     ]
   },
   {
+    "file_path": "books/lieven-2000-empire-russian-empire-rivals-yale.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/lim-1999-technology-productivity-korean-way-learning.md",
     "logs": [
       {
@@ -17847,6 +18497,16 @@
     ]
   },
   {
+    "file_path": "books/lion-1959-instrumentation-scientific-research-mcgraw-hill.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/list-1856-national-system-political-economy-lippincott.md",
     "logs": [
       {
@@ -17854,6 +18514,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/litvinenko-1987-solving-problems-algebra-trigonometry-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -17909,6 +18579,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/luikov-1980-heat-mass-transfer-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -18078,6 +18758,16 @@
     ]
   },
   {
+    "file_path": "books/marcus-2015-science-as-service-alabama.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/marder-2010-condensed-matter-physics-john-wiley.md",
     "logs": [
       {
@@ -18096,6 +18786,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/markov-1958-antennas-progress.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -18173,6 +18873,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/matveev-1986-electricity-magnetism-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/matveev-1989-mechanics-theory-relativity-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -18650,6 +19370,16 @@
     ]
   },
   {
+    "file_path": "books/nalimov-1981-faces-science-isi.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/narlikar-2012-oxford-handbook-world-trade-organization.md",
     "logs": [
       {
@@ -18756,6 +19486,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/nemchinov-1964-use-mathematics-economics-mit.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -18925,6 +19665,16 @@
     ]
   },
   {
+    "file_path": "books/novozhilov-1970-problems-cost-benefit-analysis-optimal-planning.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/nowak-2006-evolutionary-dynamics-exploring-equations-life.md",
     "logs": [
       {
@@ -18983,6 +19733,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/obrine-1889-laboratory-guide-chemical-analysis-wiley.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -19229,6 +19989,16 @@
     ]
   },
   {
+    "file_path": "books/pekelis-1974-cybernetics-a-z-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/perez-2003-technological-revolutions-financial-capital-dynamics.md",
     "logs": [
       {
@@ -19372,6 +20142,36 @@
     ]
   },
   {
+    "file_path": "books/pinsky-1980-problems-physics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/piskunov-1969-differential-integral-calculus-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/pogorelov-1987-geometry-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/poincare-2003-science-method-courier-corporation.md",
     "logs": [
       {
@@ -19390,6 +20190,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/polivanov-1983-theory-electromagnetic-field-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/popov-1962-dynamics-automatic-control-systems.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -19460,6 +20280,16 @@
     ]
   },
   {
+    "file_path": "books/posner-1989-foundations-cognitive-science-mit.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/press-2007-numerical-recipes-edition-art-scientific.md",
     "logs": [
       {
@@ -19500,6 +20330,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/proskuryakov-1978-problems-linear-algebra-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -19625,6 +20465,16 @@
     ]
   },
   {
+    "file_path": "books/robertson-1980-science-policy-usa-ussr-nsf.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/robin-1978-theory-type-polymorphism-programming-academic.md",
     "logs": [
       {
@@ -19698,6 +20548,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/roschin-2019-country-lost-empathy-eksmo.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -19790,6 +20650,16 @@
     ]
   },
   {
+    "file_path": "books/rozman-1987-chinese-debate-soviet-socialism-princeton.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/rudin-1987-real-complex-analysis-mcgraw-hill.md",
     "logs": [
       {
@@ -19852,6 +20722,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/sagdeev-1994-making-soviet-scientist-wiley.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -20103,6 +20983,16 @@
     ]
   },
   {
+    "file_path": "books/science-technology-ussr-1988-longman.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/scott-1970-outline-mathematical-theory-computation-oxford.md",
     "logs": [
       {
@@ -20297,6 +21187,11 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      },
+      {
+        "date": "2026-11-05",
+        "kind": "docs",
+        "summary": "add Internet Archive reference link"
       }
     ]
   },
@@ -20396,6 +21291,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/smirnov-1978-studies-mineral-deposits-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -20528,6 +21433,26 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/steinel-1926-history-agriculture-colorado.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/stepanenko-1982-fundamentals-microelectronics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -20741,6 +21666,26 @@
     ]
   },
   {
+    "file_path": "books/switzer-1999-experimental-biochemistry-freeman.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/syrkin-1964-structure-molecules-chemical-bond.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/tainter-1988-collapse-complex-societies-cambridge-university.md",
     "logs": [
       {
@@ -20873,6 +21818,26 @@
     ]
   },
   {
+    "file_path": "books/titov-1981-foundry-practice-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/tolstov-1962-fourier-series-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/train-2009-discrete-choice-methods-simulation-cambridge.md",
     "logs": [
       {
@@ -20913,6 +21878,26 @@
     ]
   },
   {
+    "file_path": "books/trotsky-1930-my-life.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
+    "file_path": "books/trotsky-1946-stalin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/tulving-2005-oxford-handbook-memory-oxford-university.md",
     "logs": [
       {
@@ -20920,6 +21905,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/turkevich-1963-soviet-men-science-van-nostrand.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -21154,6 +22149,16 @@
     ]
   },
   {
+    "file_path": "books/vlasov-1961-many-particle-theory-plasma.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/voit-2017-first-course-systems-biology-garland.md",
     "logs": [
       {
@@ -21161,6 +22166,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/volkenshtein-1983-biophysics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -21209,6 +22224,16 @@
     ]
   },
   {
+    "file_path": "books/vucinich-2022-empire-knowledge-academy-sciences-ussr.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/vuillemin-1986-philosophical-systems-cambridge-university-press.md",
     "logs": [
       {
@@ -21227,6 +22252,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/wainstein-1962-extraction-signals-noise.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -21326,6 +22361,16 @@
     ]
   },
   {
+    "file_path": "books/webster-2003-bioinstrumentation-wiley.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/wedderburn-1934-lectures-matrices-vol-american-mathematical.md",
     "logs": [
       {
@@ -21421,6 +22466,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/wentzel-1986-applied-problems-probability-theory-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
@@ -21652,6 +22707,16 @@
     ]
   },
   {
+    "file_path": "books/yavorsky-1982-modern-handbook-physics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/yonekura-1990-japanese-iron-steel-industry-continuity.md",
     "logs": [
       {
@@ -21707,6 +22772,16 @@
     ]
   },
   {
+    "file_path": "books/zaitsev-1978-elementary-mathematics-review-course-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/zeldovich-1976-elements-applied-mathematics.md",
     "logs": [
       {
@@ -21740,6 +22815,16 @@
     ]
   },
   {
+    "file_path": "books/zherebtsov-1963-fundamentals-radio.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/zhirkov-2017-low-level-programming-springer.md",
     "logs": [
       {
@@ -21765,6 +22850,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/zubov-1985-problems-physics-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add MIR/Soviet science and history-of-science book entries"
       }
     ]
   },
