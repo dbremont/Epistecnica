@@ -1,12 +1,11 @@
 ---
 type: person
-tags: [actor, person, computer-science, mathematics, physics]
+tags: [actor, person, scientist, computer-science, mathematics, physics]
 ---
 
 # Andrey Nikolaevich Kolmogorov
 
-
-> 
+> Soviet mathematician who founded modern probability theory on an axiomatic basis and made foundational contributions to topology, turbulence, and algorithmic complexity.
 
 Here's a table summarizing the major contributions of **Andrey Nikolaevich Kolmogorov**, a prominent Russian mathematician known for his foundational work in probability theory, topology, and turbulence:
 

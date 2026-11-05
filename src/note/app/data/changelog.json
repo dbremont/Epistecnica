@@ -660,6 +660,26 @@
     ]
   },
   {
+    "file_path": "epistemica/discipline/biological-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "feat",
+        "summary": "Add the Biological Sciences family note: the shared scaffolding typed once at the root and the biological disciplines — from molecular and cell biology through genetics, physiology, and ecology to neuroscience, bioinformatics, and conservation biology — as member practices."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/chemical-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "feat",
+        "summary": "Add the Chemical Sciences family note: the shared bench, assay, and structural-formula scaffolding typed once at the root and the chemical disciplines — inorganic, organic, physical, analytical, polymer, materials, electrochemistry, spectroscopy, catalysis, and the rest — as member practices."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/discipline/computer-science.md",
     "logs": [
       {
@@ -836,6 +856,16 @@
         "summary": "retarget ontology links under nature",
         "commit": "c84292307044d65b8c01097db5a07ac5b098bed7",
         "before": "4c66c844bb42511add25de19ff6f0d573a66aaf5"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/physical-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "feat",
+        "summary": "Add the Physical Sciences family note: the shared measurement scaffolding typed once at the root and the physical disciplines — mechanics, optics with its geometric, physical, quantum, nonlinear, and photonic sub-fields, electromagnetism, thermodynamics, quantum physics, relativity, and the rest — as member practices."
       }
     ]
   },
@@ -2474,6 +2504,36 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/change/integral-operator.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Integral Operator from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mathematical branch reorganisation.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Repoint a link after the mapping-scope rename.",
+        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
+        "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Move into the change scope."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/change/limit.md",
     "logs": [
       {
@@ -3466,6 +3526,11 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Repoint the norm link after the norm scope opened."
       }
     ]
   },
@@ -4653,6 +4718,16 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-11-03",
+        "kind": "feat",
+        "summary": "Add the recursive instance decomposition: the figure forms the geometric shape admits — elemental, one-dimensional, planar, spherical, hyperbolic, solid, higher-dimensional, and arranged — including the conic sections, roulettes, knot and link shapes, the polyhedron families and star polyhedra, the quadric and minimal surfaces, the regular 4-polytopes, and the fractal and tiling figures."
+      },
+      {
+        "date": "2026-11-03",
+        "kind": "feat",
+        "summary": "Grow the shape's predicated features as `(→ Has Property)` instances — dimension, convexity, regularity, self-intersection, orientability, boundedness, connectedness, complexity — replacing the described-attribute reading."
       }
     ]
   },
@@ -4664,6 +4739,11 @@
         "kind": "refactor",
         "summary": "Move to epistemica/mathematical/geometry/ and pin it first with order: 0.",
         "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
+      },
+      {
+        "date": "2026-11-03",
+        "kind": "feat",
+        "summary": "Add the recursive instance decomposition: the representation elements, the constitutive substrate (foundations, transformation rules, interpretations, conventions, formation rules), the geometries that realize the system with their distinguishing axiom, and the properties it carries."
       }
     ]
   },
@@ -4803,31 +4883,6 @@
         "kind": "feat",
         "summary": "Import Identity from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/integral-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Integral Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Repoint a link after the mathematical branch reorganisation.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
-        "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Repoint a link after the mapping-scope rename.",
-        "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
-        "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
       }
     ]
   },
@@ -5443,6 +5498,11 @@
         "kind": "refactor",
         "summary": "Move into the measure scope; the placeholder stub that stood in for it is superseded.",
         "commit": "b2638bb93ae9d63452ec1920ff90ce38fdd02bdd"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "feat",
+        "summary": "Rewrite against the epistemic schema: the measure as an epistemic representation, decomposed into its measure notation (measurable space, sigma-algebra, measurable set, measure value, null set, atom), foundations (the three axioms, sigma-algebra closure, Carathéodory measurability), conventions (codomain, normalization, Lebesgue normalization, translation invariance, sigma-finiteness, completion), formation rules, transformation rules (restriction, pushforward, product, scaling, normalization, Carathéodory restriction, completion), interpretations, ten kinds of measure, and ten predicates, with the distinctions from quantification, measurement, metric, outer measure, content, and signed measures."
       }
     ]
   },
@@ -6013,6 +6073,56 @@
     ]
   },
   {
+    "file_path": "epistemica/mathematical/norm/asymmetric-norm.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Move into the norm scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/norm/minkowski-functional.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Move into the norm scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/norm/norm.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Move into the norm scope with order: 0, and add the Variants and Neighbours block that places the seminorm, the asymmetric norm, the sublinear functional, the Minkowski functional, the normed vector space, the inner product, and the metric relative to the norm."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/norm/seminorm.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Move into the norm scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/norm/sublinear-functional.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Move into the norm scope."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/mathematical/number/absolute-value.md",
     "logs": [
       {
@@ -6057,6 +6167,16 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "feat",
+        "summary": "Fill the Arithmetic System Set section: twenty systems as number set bound to operation set, with the use each serves — the classical number systems, the algebraic ones (modular, finite field, boolean, polynomial, matrix, ordinal, cardinal), the non-Archimedean and non-standard ones (p-adic, hyperreal, tropical), and the computational ones (floating point, fixed point, interval, arbitrary precision, computable)."
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "feat",
+        "summary": "Fill the Operator section: every operator given a description and a meaning, the broken symbol cells repaired, the section split into operators (which compose) and comparisons (which terminate an expression), and ten operations added — nth root, reciprocal, factorial, binomial coefficient, summation and product, minimum and maximum, signum, complex conjugate, exponential function, and congruence modulo n."
       }
     ]
   },
@@ -6371,6 +6491,16 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number/quantification.md",
+    "logs": [
+      {
+        "date": "2026-11-04",
+        "kind": "feat",
+        "summary": "Fill the note against the epistemic schema: the quantification scheme as an epistemic representation, decomposed into its quantity notation, foundations (dimensional basis, commensurability, additivity), scale-level and unit conventions, formation rules (dimensional homogeneity, scale admissibility), transformation rules (conversion, rescaling, nondimensionalization, dimensional analysis, normalization), interpretations, and ten predicates, with the distinctions from quantization, measurement, counting, measure, and logical quantification."
       }
     ]
   },
@@ -8388,6 +8518,11 @@
         "kind": "refactor",
         "summary": "Move into the structure scope and repoint links.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Repoint the norm link after the norm scope opened."
       }
     ]
   },
@@ -9141,6 +9276,11 @@
         "kind": "refactor",
         "summary": "Move out of the structure scope into the tensor scope, where the tensor fields join it.",
         "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Repoint the norm link after the norm scope opened."
       }
     ]
   },
@@ -13782,6 +13922,11 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Repoint the norm link after the norm scope opened."
       }
     ]
   },
@@ -20363,6 +20508,16 @@
     ]
   },
   {
+    "file_path": "meta/philosophia-artium-epistemicarum-et-operis.md",
+    "logs": [
+      {
+        "date": "2026-11-03",
+        "kind": "feat",
+        "summary": "Reinstate `Property` as a predication type: add the `Has Property` relationship and the `Epistemic Element (→ Has Property) Property` link form, narrow `Has` to elements and features, and retype the Arithmetic case's constructions by kind, moving Evenness under Number."
+      }
+    ]
+  },
+  {
     "file_path": "nature/cognition/meaning.md",
     "logs": [
       {
@@ -20895,6 +21050,516 @@
         "date": "2026-10-25",
         "kind": "feat",
         "summary": "Import topic from the Philosophia Naturalis Notion export."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexander-alexandrovich-friedmann.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexander-ivanovich-oparin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexander-mikhailovich-prokhorov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexander-nikolaevich-nesmeyanov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexander-vasilyevich-chayanov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexei-alexeyevich-abrikosov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexei-nikolaevich-krylov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/andrei-dmitrievich-sakharov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/andrei-nikolayevich-tupolev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/andrey-nikolaevich-kolmogorov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "expand persona note with a description and references"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/boris-nikolaevich-delaunay.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/bruno-pontecorvo.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/dmitri-vladimirovich-skobeltsyn.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/igor-vasilyevich-kurchatov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/igor-yevgenyevich-tamm.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/isaak-yakovlevich-pomeranchuk.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/israel-moiseevich-gelfand.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/ivan-matveyevich-vinogradov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/ivan-pavlov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "expand persona note with a description and references"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/konstantin-eduardovich-tsiolkovsky.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/leonid-vitaliyevich-kantorovich.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/lev-andreevich-artsimovich.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/lev-davidovich-landau.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/lev-semyonovich-pontryagin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/mikhail-alekseyevich-lavrentyev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/mikhail-petrovich-chumakov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolai-dmitriyevich-kondratiev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolai-ivanovich-vavilov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolai-nikolaevich-luzin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolay-dmitrievich-zelinsky.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolay-gennadiyevich-basov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolay-nikolaevich-semyonov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolay-nikolayevich-bogolyubov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolay-nilovich-burdenko.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolay-vladimirovich-timofeev-ressovsky.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/pavel-sergeevich-alexandrov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/pyotr-leonidovich-kapitsa.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/sergei-ivanovich-vavilov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/sergei-lvovich-sobolev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/sergei-pavlovich-korolev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/sergei-petrovich-novikov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/valentin-petrovich-glushko.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vitaly-lazarevich-ginzburg.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vladimir-aleksandrovich-fock.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vladimir-igorevich-arnold.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "expand persona note with a description and references"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vladimir-ivanovich-vernadsky.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vladimir-nikolayevich-chelomey.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/wassily-leontief.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/yakov-borisovich-zeldovich.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/yulii-borisovich-khariton.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/zinaida-vissarionovna-yermolyeva.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet-era scientist persona note"
       }
     ]
   },
@@ -21827,6 +22492,11 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "refactor",
+        "summary": "Repoint the norm link after the norm scope opened."
       }
     ]
   },
