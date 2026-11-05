@@ -12908,6 +12908,16 @@
     ]
   },
   {
+    "file_path": "books/abanov-2019-landau-theoretical-minimum-quantum-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Landau-school book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/abelson-1985-structure-interpretation-computer-programs-mit.md",
     "logs": [
       {
@@ -21250,6 +21260,16 @@
     ]
   },
   {
+    "file_path": "books/shifman-2013-under-spell-landau-world-scientific.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Landau-school book entries"
+      }
+    ]
+  },
+  {
     "file_path": "books/shigley-2004-standard-handbook-machine-design-mcgraw.md",
     "logs": [
       {
@@ -21836,6 +21856,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/ter-haar-1965-collected-papers-landau-pergamon.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Landau-school book entries"
       }
     ]
   },
