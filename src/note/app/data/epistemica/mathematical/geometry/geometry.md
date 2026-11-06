@@ -119,7 +119,7 @@ Where:
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
-> **Boundary.** This table decomposes one epistemic instance — Geometry as the representational system the geometrical corpus is written in — into the elements its inscriptions are built from, the constitutive substrate that decides what a geometry is (the note's *Model of Space*), the geometries that realize the system, and the properties the system carries. The first row declares the path; every other row extends it. The frameworks the note lists — differential, algebraic, discrete, computational, analytic, synthetic, convex, conformal, topological — are `Epistemic Framework` elements read over several geometries, not parts of this system, so they stay in `## Framework` and are linked rather than grown. The probabilistic lane (measure and integration, random fields, ergodicity) belongs to the probability corpus and is reached the same way.
+> **Boundary.** This table decomposes one epistemic instance — Geometry as the representational system the geometrical corpus is written in — into the elements its inscriptions are built from, the constitutive substrate that decides what a geometry is (the note's *Model of Space*), the geometries that realize the system, and the properties the system carries. The first row declares the path; every other row extends it. The frameworks the note lists — differential, algebraic, discrete, computational, analytic, synthetic, convex, conformal, topological — are `Epistemic Framework` elements read over several geometries, not parts of this system, so they stay in `## Framework` (under `geometry/framework/`) and are linked rather than grown. The probabilistic lane (measure and integration, random fields, ergodicity) belongs to the probability corpus and is reached the same way.
 
 > **Stopping rule.** A row is terminal when it names a concrete element, axiom system, transformation, coordinate assignment, convention, formation rule, geometry, or property. No geometry is decomposed into its own theorems, and no framework is grown here.
 
@@ -278,11 +278,11 @@ Where:
 
 | **Framework** | **Description** | Geometry(s) |
 | --- | --- | --- |
-| **Differential Geometry** | Uses calculus to study smooth curves, surfaces, and manifolds. | Riemannian Geometry, Lorentzian Geometry, Classical Euclidean Geometry (smooth version) |
-| **Algebraic Geometry** | Studies solutions to polynomial equations using algebraic methods. | Affine Geometry, Projective Geometry, Complex Geometry |
+| [**Differential Geometry**](note.html?n=epistemica/mathematical/geometry/framework/differential-geometry.md) | Uses calculus to study smooth curves, surfaces, and manifolds. | Riemannian Geometry, Lorentzian Geometry, Classical Euclidean Geometry (smooth version) |
+| [**Algebraic Geometry**](note.html?n=epistemica/mathematical/geometry/framework/algebraic-geometry.md) | Studies solutions to polynomial equations using algebraic methods. | Affine Geometry, Projective Geometry, Complex Geometry |
 | **Discrete Geometry** | Studies combinatorial properties of discrete sets of geometric objects. | Combinatorial Geometry, Lattice Geometry, Polyhedral Geometry |
-| **Computational Geometry** | Focuses on algorithms to solve geometric problems. | Euclidean Geometry, Convex Geometry, Graph Drawing Geometry |
-| **Analytic Geometry** | Represents geometric objects using coordinates and equations. | Euclidean Geometry, Affine Geometry, Coordinate-Based Geometries |
+| [**Computational Geometry**](note.html?n=epistemica/mathematical/geometry/framework/computational-geometry.md) | Focuses on algorithms to solve geometric problems. | Euclidean Geometry, Convex Geometry, Graph Drawing Geometry |
+| [**Analytic Geometry**](note.html?n=epistemica/mathematical/geometry/framework/analytical-geometry.md) | Represents geometric objects using coordinates and equations. | Euclidean Geometry, Affine Geometry, Coordinate-Based Geometries |
 | **Synthetic Geometry** | Studies geometry based on axioms and logical reasoning rather than coordinates. | Euclidean Geometry, Projective Geometry, Hyperbolic Geometry |
 | **Convex Geometry** | Studies convex sets and their properties. | Euclidean Geometry (Convex subsets), Affine Geometry, Functional Analysis Geometry |
 | **Conformal Geometry** | Studies transformations preserving angles. | Complex Geometry, Riemannian Geometry, Möbius Geometry |

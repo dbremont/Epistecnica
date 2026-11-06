@@ -6773,17 +6773,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/geometry/algebraic-geometry.md",
-    "logs": [
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/.",
-        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/geometry/angle.md",
     "logs": [
       {
@@ -6852,24 +6841,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/geometry/differential-geometry.md",
-    "logs": [
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move to epistemica/mathematical/geometry/.",
-        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "feat",
-        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references",
-        "commit": "ce622cca5a84faecad277ee6c64bc7e82b216798",
-        "before": "ffb18ea9cff958bfc5fd8b1502d44cddd70fc422"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/geometry/euclidean-geometry.md",
     "logs": [
       {
@@ -6905,6 +6876,88 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point the differential and computational geometry links after the framework move."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/framework/algebraic-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from epistemica/mathematical/geometry/algebraic-geometry.md into the geometry framework scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/framework/analytical-geometry.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Create the analytical-geometry framework note."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/framework/computational-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Computational Geometry from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from epistemica/science/computational-geometry.md to epistemica/singular/computational-geometry.md in the corpus reorganisation.",
+        "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from epistemica/singular/computational-geometry.md into the geometry framework scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/framework/differential-geometry.md",
+    "logs": [
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move to epistemica/mathematical/geometry/.",
+        "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "feat",
+        "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references",
+        "commit": "ce622cca5a84faecad277ee6c64bc7e82b216798",
+        "before": "ffb18ea9cff958bfc5fd8b1502d44cddd70fc422"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from epistemica/mathematical/geometry/differential-geometry.md into the geometry framework scope."
       }
     ]
   },
@@ -6988,6 +7041,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Link the framework notes under geometry/framework/ in the Framework table."
       }
     ]
   },
@@ -17609,29 +17667,6 @@
         "date": "2026-11-06",
         "kind": "refactor",
         "summary": "Move from epistemica/science/computational-fluid-dynamics-cfd.md to epistemica/singular/computational-fluid-dynamics-cfd.md in the corpus reorganisation.",
-        "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/singular/computational-geometry.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Computational Geometry from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-30",
-        "kind": "refactor",
-        "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
-        "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
-      },
-      {
-        "date": "2026-11-06",
-        "kind": "refactor",
-        "summary": "Move from epistemica/science/computational-geometry.md to epistemica/singular/computational-geometry.md in the corpus reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
       }
     ]
