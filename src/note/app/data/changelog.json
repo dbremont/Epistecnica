@@ -16146,6 +16146,11 @@
         "kind": "refactor",
         "summary": "move into the observational/process scope",
         "commit": "9d25adc05b14dbc64784756e6f6f2ca83d879201"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Document the martingale concept in the epistemic schema: five Formulation questions, recursive decomposition, conceptual evaluation, and references."
       }
     ]
   },
@@ -16269,6 +16274,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Link the Martingale note and replace the imported Notion relation line."
       }
     ]
   },

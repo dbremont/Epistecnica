@@ -5,7 +5,7 @@ tags: [probability, stochastic-process]
 
 # Stochastic Process
 
- : Lévy Proces (L%C3%A9vy%20Proces%2015fc0f5171ec808895a7d1e75b525ff5.md), Martingale (Martingale%207b5a50c6c4c042b99e85cc9a1c5d643c.md), Filtration (Filtration%2015fc0f5171ec8000a310e17a381d06de.md), Hawkes Process (Hawkes%20Process%20336c0f5171ec802b9302e1fbd7e6066e.md), Marked Point Process (Marked%20Point%20Process%20336c0f5171ec80ca9e39f6f3bbee3493.md)
+Related: [Lévy Process](note.html?n=epistemica/observational/process/levy-process.md), [Martingale](note.html?n=epistemica/observational/process/martingale.md), [Filtration](note.html?n=epistemica/observational/process/filtration.md), [Hawkes Process](note.html?n=epistemica/observational/process/hawkes-process.md), [Marked Point Process](note.html?n=epistemica/observational/process/marked-point-process.md).
 
 > A **stochastic process** is formally defined as a **family of random variables** ${X_t}_{t \in T}$ indexed by a parameter (t) (often representing time), which models the evolution of a system under uncertainty - defined  by a given **probability space**.
 > 
@@ -141,7 +141,7 @@ Guiding questions:
 | **Structural / Generative** | Markov Property | Conditional independence structure | Given ($X_t$), the future is independent of the past |
 |  | Self-Similarity / Scaling | Scale invariance or fractal property | Fractional Brownian motion: $(X_{ct} \overset{d}{=} c^H X_t)$ |
 |  | Exchangeability | Invariance under permutation of indices | Dirichlet process: order of draws does not matter |
-| **Stochastic Calculus / Functional** | Martingale Property | Expected future equals current value |  |
+| **Stochastic Calculus / Functional** | [Martingale Property](note.html?n=epistemica/observational/process/martingale.md) | Expected future equals current value |  |
 |  | Quadratic Variation | Pathwise second-order increment | $[X]_t = t$ for Brownian motion |
 |  | Covariation / Cross-Correlation | Relation between two processes | $[X,Y]_t = \int_0^t \rho_s ds$ |
 | **Asymptotic / Limit** | Law of Large Numbers | Time or ensemble averages converge | $(\frac{1}{T} \int_0^T X_t dt \to E[X])$ |
