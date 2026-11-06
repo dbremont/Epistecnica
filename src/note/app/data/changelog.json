@@ -14642,7 +14642,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point links after the epistemica/singular/ move."
+        "summary": "Re-point links after the epistemica/singular/ move.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+        "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
       }
     ]
   },
@@ -16258,7 +16260,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move the particular element note into the epistemica/singular/ scope."
+        "summary": "Move the particular element note into the epistemica/singular/ scope.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
       }
     ]
   },
@@ -16268,7 +16271,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move the particular element note into the epistemica/singular/ scope."
+        "summary": "Move the particular element note into the epistemica/singular/ scope.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
       }
     ]
   },
@@ -16278,7 +16282,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move the particular element note into the epistemica/singular/ scope."
+        "summary": "Move the particular element note into the epistemica/singular/ scope.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
       }
     ]
   },
@@ -16288,7 +16293,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move the particular element note into the epistemica/singular/ scope."
+        "summary": "Move the particular element note into the epistemica/singular/ scope.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
       }
     ]
   },
@@ -16298,7 +16304,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move the particular element note into the epistemica/singular/ scope."
+        "summary": "Move the particular element note into the epistemica/singular/ scope.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
       }
     ]
   },
@@ -16308,7 +16315,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move the particular element note into the epistemica/singular/ scope."
+        "summary": "Move the particular element note into the epistemica/singular/ scope.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
       }
     ]
   },
@@ -20540,7 +20548,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point links after the epistemica/singular/ move."
+        "summary": "Re-point links after the epistemica/singular/ move.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+        "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
       }
     ]
   },
@@ -20550,7 +20560,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point links after the epistemica/singular/ move."
+        "summary": "Re-point links after the epistemica/singular/ move.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+        "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
       }
     ]
   },
@@ -20613,7 +20625,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point links after the epistemica/singular/ move."
+        "summary": "Re-point links after the epistemica/singular/ move.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+        "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
       }
     ]
   },
@@ -23587,7 +23601,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point links after the epistemica/singular/ move."
+        "summary": "Re-point links after the epistemica/singular/ move.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+        "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
       }
     ]
   },
@@ -23597,7 +23613,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point links after the epistemica/singular/ move."
+        "summary": "Re-point links after the epistemica/singular/ move.",
+        "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+        "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
       }
     ]
   },
