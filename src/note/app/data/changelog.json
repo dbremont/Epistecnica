@@ -20523,7 +20523,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -20533,7 +20535,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -20594,7 +20598,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -20604,7 +20610,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -20625,7 +20633,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -20635,7 +20645,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point the learning and Bloom taxonomy links into nature/."
+        "summary": "Re-point the learning and Bloom taxonomy links into nature/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -20645,7 +20657,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -20655,7 +20669,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20665,7 +20680,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20675,7 +20691,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20685,7 +20702,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20695,7 +20713,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20705,7 +20724,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20715,7 +20735,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20725,7 +20746,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20735,7 +20757,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20745,7 +20768,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20755,7 +20779,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20765,7 +20790,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20775,7 +20801,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20785,7 +20812,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20795,7 +20823,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20805,7 +20834,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20815,7 +20845,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20825,7 +20856,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20835,7 +20867,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20845,7 +20878,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20855,7 +20889,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20865,7 +20900,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20875,7 +20911,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20885,7 +20922,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20895,7 +20933,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20905,7 +20944,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20915,7 +20955,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20925,7 +20966,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20935,7 +20977,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20945,7 +20988,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20955,7 +20999,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20965,7 +21010,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20975,7 +21021,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20985,7 +21032,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -20995,7 +21043,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21005,7 +21054,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21015,7 +21065,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21025,7 +21076,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21035,7 +21087,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21045,7 +21098,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21055,7 +21109,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21065,7 +21120,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21075,7 +21131,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21085,7 +21142,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21095,7 +21153,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21105,7 +21164,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21115,7 +21175,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21125,7 +21186,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21135,7 +21197,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21145,7 +21208,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21155,7 +21219,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21165,7 +21230,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21175,7 +21241,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21185,7 +21252,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21195,7 +21263,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21205,7 +21274,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21215,7 +21285,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21225,7 +21296,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21235,7 +21307,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21245,7 +21318,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21255,7 +21329,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21265,7 +21340,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21275,7 +21351,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21285,7 +21362,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21295,7 +21373,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21305,7 +21384,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21315,7 +21395,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21325,7 +21406,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21335,7 +21417,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21345,7 +21428,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21355,7 +21439,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21365,7 +21450,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21375,7 +21461,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21385,7 +21472,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21395,7 +21483,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21405,7 +21494,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21415,7 +21505,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21425,7 +21516,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21435,7 +21527,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21445,7 +21538,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21455,7 +21549,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21465,7 +21560,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21475,7 +21571,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21485,7 +21582,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21495,7 +21593,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21505,7 +21604,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21515,7 +21615,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21525,7 +21626,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21535,7 +21637,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21545,7 +21648,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21555,7 +21659,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21565,7 +21670,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21575,7 +21681,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21585,7 +21692,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21595,7 +21703,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21605,7 +21714,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21615,7 +21725,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21625,7 +21736,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21635,7 +21747,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21645,7 +21758,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21655,7 +21769,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21665,7 +21780,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21675,7 +21791,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21685,7 +21802,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21695,7 +21813,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21705,7 +21824,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21715,7 +21835,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from the retired human section into nature/human/."
+        "summary": "Move from the retired human section into nature/human/.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
       }
     ]
   },
@@ -21725,7 +21846,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -21735,7 +21858,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -21745,7 +21870,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -21755,7 +21882,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -21765,7 +21894,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -21775,7 +21906,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
@@ -21785,7 +21918,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Merge the retired human section note into this nature note and re-point its links."
+        "summary": "Merge the retired human section note into this nature note and re-point its links.",
+        "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054",
+        "before": "312b0a519dc965b20ee4c0dd9e5213393c579964"
       }
     ]
   },
