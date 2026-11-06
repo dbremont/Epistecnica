@@ -21054,6 +21054,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/party/general-german-workers-association.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add General German Workers' Association note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/party/russian-social-democratic-labour-party.md",
     "logs": [
       {
@@ -21264,6 +21274,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/david-riazanov.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add Marxologist persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/dmitri-vladimirovich-skobeltsyn.md",
     "logs": [
       {
@@ -21286,6 +21306,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/eduard-bernstein.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add revisionist theorist persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/eduard-shevardnadze.md",
     "logs": [
       {
@@ -21304,6 +21334,16 @@
         "kind": "feat",
         "summary": "add Soviet political leader persona note",
         "commit": "9b51f58b16f929de3bf3a4be73c92c7d1ef24e1e"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/ferdinand-lassalle.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add ADAV founder persona note"
       }
     ]
   },
@@ -21526,6 +21566,16 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/leszek-kolakowski.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add philosopher persona note"
       }
     ]
   },
@@ -21805,6 +21855,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/rosa-luxemburg.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add Marxist theorist persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/sergei-ivanovich-vavilov.md",
     "logs": [
       {
@@ -22056,6 +22116,16 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/polity/fra/paris-commune.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add Paris Commune polity note pointing to the history note"
       }
     ]
   },
