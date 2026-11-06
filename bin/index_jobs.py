@@ -50,6 +50,9 @@ BUILDERS = {
 
 LOCK = REPO / "src" / "app" / "data" / "index-build.lock"
 LOCK_STALE_SECONDS = 6 * 3600
+# A lock file is created before its PID is written; give that write time to
+# land before treating an unreadable lock as abandoned.
+LOCK_WRITE_GRACE_SECONDS = 60
 
 _state_lock = threading.Lock()
 _thread = None
@@ -83,13 +86,53 @@ def expand(names) -> list:
 # Lock (one build at a time, across processes)
 # ----------------------------------------------------------------------------
 
+def _lock_pid():
+    """PID recorded in the lock file, or None when it is missing/unreadable."""
+    try:
+        pid = int(LOCK.read_text(encoding="ascii").strip())
+    except (OSError, ValueError):
+        return None
+    return pid if pid > 0 else None
+
+
+def _pid_alive(pid: int) -> bool:
+    """True when `pid` names a live process."""
+    try:
+        os.kill(pid, 0)
+    except ProcessLookupError:
+        return False
+    except PermissionError:
+        # The process exists but belongs to another user.
+        return True
+    return True
+
+
+def _lock_stale() -> bool:
+    """True when the lock is too old or its owning process is gone."""
+    try:
+        age = time.time() - LOCK.stat().st_mtime
+    except OSError:
+        return True
+    pid = _lock_pid()
+    if pid == os.getpid():
+        # Our own lock is stale when no build thread is alive.
+        with _state_lock:
+            return _thread is None or not _thread.is_alive()
+    if pid is None:
+        # Created but not yet written (or corrupt): allow the writer a moment.
+        return age > LOCK_WRITE_GRACE_SECONDS
+    if not _pid_alive(pid):
+        return True
+    return age > LOCK_STALE_SECONDS
+
+
 def _acquire_lock() -> bool:
     LOCK.parent.mkdir(parents=True, exist_ok=True)
-    try:
-        if LOCK.exists() and time.time() - LOCK.stat().st_mtime > LOCK_STALE_SECONDS:
+    if LOCK.exists() and _lock_stale():
+        try:
             LOCK.unlink()
-    except OSError:
-        pass
+        except OSError:
+            pass
     try:
         fd = os.open(str(LOCK), os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o644)
     except FileExistsError:
@@ -100,6 +143,9 @@ def _acquire_lock() -> bool:
 
 
 def _release_lock() -> None:
+    # Only remove our own lock: a newer build may have replaced it.
+    if _lock_pid() != os.getpid():
+        return
     try:
         LOCK.unlink()
     except OSError:
@@ -113,12 +159,7 @@ def busy() -> bool:
             return True
     if not LOCK.exists():
         return False
-    try:
-        if time.time() - LOCK.stat().st_mtime > LOCK_STALE_SECONDS:
-            return False
-    except OSError:
-        return False
-    return True
+    return not _lock_stale()
 
 
 # ----------------------------------------------------------------------------
@@ -191,28 +232,30 @@ def run(names=None, wait=False) -> bool:
         return False
 
     def work():
-        update_status(job={
-            "state": "running",
-            "builders": builders,
-            "started": time.strftime("%Y-%m-%dT%H:%M:%S"),
-            "finished": None,
-            "error": "",
-        })
-        ok = True
-        for name in builders:
-            if not _run_one(name):
-                ok = False
-                break
-        update_status(job={
-            "state": "done" if ok else "error",
-            "builders": builders,
-            "started": read_status().get("job", {}).get("started"),
-            "finished": time.strftime("%Y-%m-%dT%H:%M:%S"),
-            "error": "" if ok else "builder failed — see server log",
-        }, running=None)
-        _release_lock()
-        print("[jobs] %s: %s" % ("done" if ok else "failed", ", ".join(builders)),
-              flush=True)
+        try:
+            update_status(job={
+                "state": "running",
+                "builders": builders,
+                "started": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                "finished": None,
+                "error": "",
+            })
+            ok = True
+            for name in builders:
+                if not _run_one(name):
+                    ok = False
+                    break
+            update_status(job={
+                "state": "done" if ok else "error",
+                "builders": builders,
+                "started": read_status().get("job", {}).get("started"),
+                "finished": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                "error": "" if ok else "builder failed — see server log",
+            }, running=None)
+            print("[jobs] %s: %s" % ("done" if ok else "failed", ", ".join(builders)),
+                  flush=True)
+        finally:
+            _release_lock()
 
     _thread = threading.Thread(target=work, name="index-jobs", daemon=True)
     _thread.start()
@@ -243,7 +286,10 @@ def start_background(names=None) -> bool:
 def _print_status() -> int:
     state = read_status()
     job = state.get("job") or {}
-    print("job: %s%s" % (job.get("state") or "idle",
+    job_state = job.get("state") or "idle"
+    if job_state == "running" and not busy():
+        job_state = "interrupted (no live build)"
+    print("job: %s%s" % (job_state,
                          " (%s)" % ", ".join(job.get("builders") or []) if job.get("builders") else ""))
     builders = state.get("builders") or {}
     for name in available():
