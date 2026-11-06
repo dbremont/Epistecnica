@@ -17982,6 +17982,16 @@
     ]
   },
   {
+    "file_path": "books/kolakowski-2005-main-currents-marxism-norton.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "feat",
+        "summary": "add Main Currents of Marxism bibliographic entry"
+      }
+    ]
+  },
+  {
     "file_path": "books/kolmogorov-1975-introductory-real-analysis-courier-corporation.md",
     "logs": [
       {
