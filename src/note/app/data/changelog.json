@@ -21120,6 +21120,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/alexei-kosygin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/alexei-nikolaevich-krylov.md",
     "logs": [
       {
@@ -21127,6 +21137,26 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/alexei-rykov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/anastas-mikoyan.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
@@ -21142,6 +21172,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/andrei-gromyko.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/andrei-nikolayevich-tupolev.md",
     "logs": [
       {
@@ -21149,6 +21189,16 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/andrei-zhdanov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
@@ -21194,6 +21244,86 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/dmitry-yazov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/eduard-shevardnadze.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/felix-dzerzhinsky.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/gennady-yanayev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/georgy-malenkov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/georgy-zhukov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/grigory-ordzhonikidze.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/grigory-zinoviev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
@@ -21265,6 +21395,36 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/joseph-vissarionovich-stalin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "expand persona note with a description and references"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/kliment-voroshilov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/konstantin-chernenko.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/konstantin-eduardovich-tsiolkovsky.md",
     "logs": [
       {
@@ -21272,6 +21432,46 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/lavrentiy-beria.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/lazar-kaganovich.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/leon-trotsky.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/leonid-brezhnev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
@@ -21309,6 +21509,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/lev-kamenev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/lev-semyonovich-pontryagin.md",
     "logs": [
       {
@@ -21331,6 +21541,26 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/mikhail-gorbachev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/mikhail-kalinin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/mikhail-petrovich-chumakov.md",
     "logs": [
       {
@@ -21338,6 +21568,46 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/mikhail-suslov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikita-khrushchev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolai-bukharin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolai-bulganin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
@@ -21371,6 +21641,26 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolai-podgorny.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nikolai-ryzhkov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
@@ -21474,6 +21764,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/sergei-kirov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/sergei-lvovich-sobolev.md",
     "logs": [
       {
@@ -21563,6 +21863,26 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/vladimir-kryuchkov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vladimir-lenin.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "expand persona note with a description and references"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/vladimir-nikolayevich-chelomey.md",
     "logs": [
       {
@@ -21570,6 +21890,16 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vyacheslav-molotov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
@@ -21596,6 +21926,26 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/yakov-sverdlov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/yegor-ligachev.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/yulii-borisovich-khariton.md",
     "logs": [
       {
@@ -21603,6 +21953,16 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/yuri-andropov.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political leader persona note"
       }
     ]
   },
