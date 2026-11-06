@@ -17987,7 +17987,8 @@
       {
         "date": "2026-11-06",
         "kind": "feat",
-        "summary": "add Main Currents of Marxism bibliographic entry"
+        "summary": "add Main Currents of Marxism bibliographic entry",
+        "commit": "d5e518bdf0b1521cbe3f96da336556609b4ec398"
       }
     ]
   },
