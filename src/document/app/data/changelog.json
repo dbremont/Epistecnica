@@ -5444,6 +5444,16 @@
     ]
   },
   {
+    "file_path": "articles/harrison-1998-prices-planners-producers-soviet-industry-jeh.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet economic history articles"
+      }
+    ]
+  },
+  {
     "file_path": "articles/harrod-1939-essay-dynamic-theory-economic-journal.md",
     "logs": [
       {
@@ -11632,6 +11642,16 @@
     ]
   },
   {
+    "file_path": "articles/tarschys-1977-soviet-political-system-three-models-ejpr.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet political system article"
+      }
+    ]
+  },
+  {
     "file_path": "articles/tavares-1991-japao-caso-exemplar-capitalismo-organizado.md",
     "logs": [
       {
@@ -12123,6 +12143,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "articles/voskoboynikov-2021-accounting-growth-ussr-russia-jes.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet economic history articles"
       }
     ]
   },
@@ -13661,6 +13691,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/battelle-1963-directory-selected-scientific-institutions-ussr.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet science reference and economics entries"
       }
     ]
   },
@@ -19771,6 +19811,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "books/nutter-1962-growth-industrial-production-soviet-union-princeton.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet science reference and economics entries"
       }
     ]
   },
