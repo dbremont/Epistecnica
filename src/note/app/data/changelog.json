@@ -22016,6 +22016,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/yuliy-osipovich-tsederbaum.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Menshevik leader persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/yuri-andropov.md",
     "logs": [
       {
