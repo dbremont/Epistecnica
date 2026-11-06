@@ -21059,7 +21059,8 @@
       {
         "date": "2026-11-05",
         "kind": "feat",
-        "summary": "add Russian Social Democratic Labour Party note"
+        "summary": "add Russian Social Democratic Labour Party note",
+        "commit": "1c826c57771a0019f4928abf5c20ca7ad2181720"
       }
     ]
   },
