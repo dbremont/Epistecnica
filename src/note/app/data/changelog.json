@@ -21054,6 +21054,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/abram-fyodorovich-ioffe.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet physicist persona note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/alexander-alexandrovich-friedmann.md",
     "logs": [
       {
@@ -21957,6 +21967,16 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/yakov-ilich-frenkel.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Soviet physicist persona note"
       }
     ]
   },
