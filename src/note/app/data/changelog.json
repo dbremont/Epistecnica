@@ -6880,7 +6880,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Re-point the differential and computational geometry links after the framework move."
+        "summary": "Re-point the differential and computational geometry links after the framework move.",
+        "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba",
+        "before": "a995f328ad13ee28247e1e05ff6123c2a947d5b2"
       }
     ]
   },
@@ -6896,7 +6898,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from epistemica/mathematical/geometry/algebraic-geometry.md into the geometry framework scope."
+        "summary": "Move from epistemica/mathematical/geometry/algebraic-geometry.md into the geometry framework scope.",
+        "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba"
       }
     ]
   },
@@ -6906,7 +6909,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Create the analytical-geometry framework note."
+        "summary": "Create the analytical-geometry framework note.",
+        "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba"
       }
     ]
   },
@@ -6934,7 +6938,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from epistemica/singular/computational-geometry.md into the geometry framework scope."
+        "summary": "Move from epistemica/singular/computational-geometry.md into the geometry framework scope.",
+        "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba"
       }
     ]
   },
@@ -6957,7 +6962,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from epistemica/mathematical/geometry/differential-geometry.md into the geometry framework scope."
+        "summary": "Move from epistemica/mathematical/geometry/differential-geometry.md into the geometry framework scope.",
+        "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba"
       }
     ]
   },
@@ -7045,7 +7051,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Link the framework notes under geometry/framework/ in the Framework table."
+        "summary": "Link the framework notes under geometry/framework/ in the Framework table.",
+        "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba",
+        "before": "a995f328ad13ee28247e1e05ff6123c2a947d5b2"
       }
     ]
   },
