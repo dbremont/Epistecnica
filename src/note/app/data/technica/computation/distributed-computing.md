@@ -255,7 +255,7 @@ Multi-Node Processing System: Conceptual Model
 - https://dancres.github.io/Pages/
 - https://ferd.ca/a-distributed-systems-reading-list.html
 - [Operating System](note.html?n=technica/computation/operating-system.md)
-- [Telecom](note.html?n=technica/computation/telecom.md)
+- [Telecom](note.html?n=technica/computation/telecom/telecom.md)
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
 - [Concurrency](note.html?n=technica/computation/concurrency.md)
 - https://github.com/dbremont/documentorum/tree/main/component/multinode

@@ -363,7 +363,7 @@ Computer System Design: Conceptual Model
 - [Operating System](note.html?n=technica/computation/operating-system.md)
 - [Design](note.html?n=technica/computation/system/design.md)
 - [Operation](note.html?n=technica/computation/system/operation.md)
-- [Telecom](note.html?n=technica/computation/telecom.md)
+- [Telecom](note.html?n=technica/computation/telecom/telecom.md)
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
 - [Verification](note.html?n=technica/computation/dependability/verification.md)
 - [Data System](note.html?n=technica/computation/data-system.md)

@@ -886,47 +886,60 @@
             document.getElementById('error').hidden = false;
         }
 
-        /* Term bodies come from data/terms.json, keyed by slug (the term
-           code). The per-term .md files are regeneration sources only and are
-           never fetched by the viewer. */
-        var termsPromise = null;
-        function loadTerms() {
-            if (!termsPromise) {
-                termsPromise = fetch('data/terms.json', { headers: { 'Accept': 'application/json' } })
-                    .then(function (r) {
-                        if (!r.ok) throw new Error('HTTP ' + r.status);
-                        return r.json();
-                    })
-                    .then(function (idx) {
-                        var bySlug = {};
-                        (idx.terms || []).forEach(function (t) { bySlug[t.slug] = t; });
-                        return bySlug;
-                    });
+        /* A term is one markdown file, terms/<slug>.md — the slug is the
+           filename stem, the name is the first `# ` heading, and `aliases:
+           [...]` front matter carries the alternative spellings. The view
+           reads that file directly, so it needs no generated index. */
+        var FRONT_MATTER_RE = /^---\n([\s\S]*?)\n---\n/;
+        var ALIASES_RE = /^aliases:\s*\[(.*)\]\s*$/;
+
+        function parseTerm(md) {
+            var aliases = [];
+            var fm = md.match(FRONT_MATTER_RE);
+            if (fm) {
+                fm[1].split('\n').forEach(function (line) {
+                    var m = line.trim().match(ALIASES_RE);
+                    if (m) {
+                        aliases = m[1].split(',').map(function (a) {
+                            return a.trim().replace(/^['"]|['"]$/g, '');
+                        }).filter(Boolean);
+                    }
+                });
+                md = md.slice(fm[0].length);
             }
-            return termsPromise;
+            var name = '';
+            md.split('\n').some(function (line) {
+                var m = line.match(/^#\s+(.*?)\s*#*\s*$/);
+                if (m) { name = m[1]; return true; }
+                return false;
+            });
+            return { name: name, aliases: aliases, body: md };
         }
 
         function showTerm(slug) {
-            loadTerms()
-                .then(function (bySlug) {
-                    var entry = bySlug[slug];
-                    if (!entry) {
-                        fail('The term "' + slug + '" does not exist.');
-                        return;
-                    }
-                    document.title = entry.name + ' — Glossarium';
+            fetch('terms/' + encodeURIComponent(slug) + '.md', { headers: { 'Accept': 'text/markdown' } })
+                .then(function (r) {
+                    if (!r.ok) throw new Error('HTTP ' + r.status);
+                    return r.text();
+                })
+                .then(function (md) {
+                    var entry = parseTerm(md);
+                    var name = entry.name || slug;
+                    document.title = name + ' — Glossarium';
                     document.getElementById('crumb-slug').textContent = slug;
-                    document.getElementById('term-title').textContent = entry.name;
-                    document.getElementById('term-meta').innerHTML = (entry.aliases || []).map(function (a) {
+                    document.getElementById('term-title').textContent = name;
+                    document.getElementById('term-meta').innerHTML = entry.aliases.map(function (a) {
                         return '<span class="chip">' + esc(a) + '</span>';
-                    }).join('');
-                    document.getElementById('term-body').innerHTML = marked.parse(entry.body || '');
+                    }).join('') + '<a class="chip" href="terms/' + encodeURIComponent(slug) + '.md">view raw</a>';
+                    document.getElementById('term-body').innerHTML = marked.parse(entry.body);
                     document.getElementById('loading').hidden = true;
                     document.getElementById('term-header').hidden = false;
                     document.getElementById('term-card').hidden = false;
                 })
                 .catch(function (err) {
-                    fail('Failed to load the term (' + err.message + ').');
+                    fail(err.message === 'HTTP 404'
+                        ? 'The term "' + slug + '" does not exist.'
+                        : 'Failed to load the term (' + err.message + ').');
                 });
         }
 

@@ -107,7 +107,7 @@ Programming: Computational Mental Model ↔ Concrete Reification in a Given Lang
 
 [Platform](note.html?n=technica/computation/platform.md)
 
-[Telecom](note.html?n=technica/computation/telecom.md)
+[Telecom](note.html?n=technica/computation/telecom/telecom.md)
 
 [Algorithm](note.html?n=technica/computation/algorithm.md)
 

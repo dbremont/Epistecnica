@@ -1,69 +1,39 @@
 #!/usr/bin/env python3
 """
-Add one glossarium term to the Epistecnica lexical corpus.
+Add or replace one glossarium term in the Epistecnica lexical corpus.
 
-Reads a markdown file, parses it with the glossarium conventions — the term
-name from the first `# ` heading, optional `aliases: [...]` front matter, the
-rest as the body — and upserts `{slug, name, aliases, body}` into
-src/glossarium/app/data/terms.json (the source of truth, keyed by slug). The file
-is re-sorted by name. Stdlib only.
+The corpus is one markdown file per term: src/glossarium/app/terms/<slug>.md.
+The file is the term — the slug is the filename stem, the name is the first
+`# ` heading, `aliases: [...]` front matter carries the alternative spellings,
+and the rest is the body, served as-is at /glossarium/terms/<slug>.md.
 
-The slug (term code) defaults to the markdown filename stem and must be
-kebab-case; pass --slug to set it explicitly. After adding, run
-`make glossarium-index` to regenerate the derived index.
+This helper copies a markdown file into the corpus under its slug (default:
+the source filename stem), validating the kebab-case slug and the `# ` heading
+first, so a malformed term never lands in the corpus. Stdlib only.
+
+After adding, run `make glossarium-index` to regenerate the derived index.
 
 Usage:
     python3 bin/add_glossarium_term.py path/to/term.md [--slug <code>]
 """
 
 import argparse
-import json
 import re
+import shutil
 import sys
-from datetime import date
 from pathlib import Path
 
-from indexlib import atomic_write_text
-
 REPO = Path(__file__).resolve().parent.parent
-SRC = REPO / "src" / "glossarium" / "app" / "data" / "terms.json"
+TERMS = REPO / "src" / "glossarium" / "app" / "terms"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
-HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
-FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
-ALIASES_RE = re.compile(r"^aliases:\s*\[(.*)\]\s*$")
-
-
-def parse(md: str, slug: str):
-    """Return (name, aliases, body) per the glossarium conventions."""
-    aliases = []
-    fm = FRONT_MATTER_RE.match(md)
-    if fm:
-        for line in fm.group(1).splitlines():
-            m = ALIASES_RE.match(line.strip())
-            if m:
-                aliases = [
-                    a.strip().strip("'\"")
-                    for a in m.group(1).split(",")
-                    if a.strip()
-                ]
-        md = md[fm.end():]
-
-    name = None
-    for line in md.splitlines():
-        m = HEADING_RE.match(line)
-        if m and len(m.group(1)) == 1:
-            name = m.group(2).strip()
-            break
-    if name is None:
-        name = slug.replace("-", " ")
-    return name, aliases, md
+H1_RE = re.compile(r"^#\s+(.*?)\s*#*\s*$", re.MULTILINE)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
         prog="add_glossarium_term.py",
-        description="Add/replace one term in src/glossarium/app/data/terms.json.",
+        description="Add/replace one term in src/glossarium/app/terms/.",
     )
     parser.add_argument("file", help="Markdown file for the term.")
     parser.add_argument(
@@ -88,37 +58,24 @@ def main() -> int:
         return 1
 
     md = path.read_text(encoding="utf-8", errors="replace")
-    name, aliases, body = parse(md, slug)
-    entry = {"slug": slug, "name": name, "aliases": aliases, "body": body}
+    heading = H1_RE.search(md)
+    if not heading:
+        print(
+            f"ERROR: {path} has no `# ` heading — the first one is the term name.",
+            file=sys.stderr,
+        )
+        return 1
 
-    if SRC.is_file():
-        try:
-            data = json.loads(SRC.read_text(encoding="utf-8"))
-        except ValueError as exc:
-            print(f"ERROR: invalid JSON in {SRC}: {exc}", file=sys.stderr)
-            return 1
-    else:
-        data = {}
-    if not isinstance(data, dict):
-        data = {}
-    terms = data.get("terms") if isinstance(data.get("terms"), list) else []
+    TERMS.mkdir(parents=True, exist_ok=True)
+    dest = TERMS / f"{slug}.md"
+    replaced = dest.exists()
+    if not (dest.exists() and dest.resolve() == path.resolve()):
+        shutil.copyfile(path, dest)
 
-    replaced = any(isinstance(t, dict) and t.get("slug") == slug for t in terms)
-    terms = [t for t in terms if not (isinstance(t, dict) and t.get("slug") == slug)]
-    terms.append(entry)
-    terms.sort(key=lambda t: (t.get("name") or "").lower())
-
-    payload = {
-        "generated": date.today().isoformat(),
-        "count": len(terms),
-        "terms": terms,
-    }
-    atomic_write_text(SRC, json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
-
-    action = "replaced" if replaced else "added"
     print(
-        f"glossarium-add: {action} '{name}' ({slug}) ->"
-        f" {SRC.relative_to(REPO)} ({len(terms)} terms)"
+        f"glossarium-add: {'replaced' if replaced else 'added'} "
+        f"'{heading.group(1)}' ({slug}) -> {dest.relative_to(REPO)}"
+        f" ({len(list(TERMS.glob('*.md')))} terms)"
     )
     print("run: make glossarium-index")
     return 0

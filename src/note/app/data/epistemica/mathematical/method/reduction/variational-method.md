@@ -260,10 +260,10 @@ For any normalized $|\psi\rangle$ that is not the true ground state $|0\rangle$,
 - [Functional](note.html?n=epistemica/mathematical/mapping/functional.md)
 - [Differential Equation](note.html?n=epistemica/mathematical/change/differential-equation.md)
 - [Sobolev Space](note.html?n=epistemica/mathematical/space/sobolev-space.md) — the admissible class and compactness engine of the direct method.
-- [Lagrangian Mechanics](note.html?n=epistemica/science/lagrangian-mechanics.md)
-- [Hamiltonian Mechanics](note.html?n=epistemica/science/hamiltonian-mechanics.md)
-- [Galerkin Method](note.html?n=epistemica/science/galerkin-method.md)
-- [Finite Element Method (FEM)](note.html?n=epistemica/science/finite-element-method-fem.md)
+- [Lagrangian Mechanics](note.html?n=epistemica/singular/lagrangian-mechanics.md)
+- [Hamiltonian Mechanics](note.html?n=epistemica/singular/hamiltonian-mechanics.md)
+- [Galerkin Method](note.html?n=epistemica/singular/galerkin-method.md)
+- [Finite Element Method (FEM)](note.html?n=epistemica/singular/finite-element-method-fem.md)
 - [Variational Inference](note.html?n=epistemica/observational/computational/variational-inference.md) — the probabilistic application of the extremizing pattern.
 - [Action (physics)](https://en.wikipedia.org/wiki/Action_(physics))
 - [Calculus of variations](https://en.wikipedia.org/wiki/Calculus_of_variations)

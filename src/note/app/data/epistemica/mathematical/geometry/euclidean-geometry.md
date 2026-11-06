@@ -263,7 +263,7 @@ QA:
 - [Conformal map](note.html?n=epistemica/mathematical/complex/conformal-map.md))
 - [Coordinate System](note.html?n=epistemica/mathematical/coordinate-system.md))
 - [**Differential Geometry**](note.html?n=epistemica/mathematical/geometry/differential-geometry.md)
-- [Computational Geometry](note.html?n=epistemica/science/computational-geometry.md)
+- [Computational Geometry](note.html?n=epistemica/singular/computational-geometry.md)
 - https://www.youtube.com/watch?v=6s1CI3uuhko
 - [**Inner Product Space**](note.html?n=epistemica/mathematical/space/inner-product-space.md)
 - https://en.wikipedia.org/wiki/Euclidean_space

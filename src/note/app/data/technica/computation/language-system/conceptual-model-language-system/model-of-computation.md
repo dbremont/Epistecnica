@@ -290,7 +290,7 @@ It encompasses both:
 > In computational systems, **Interaction & Communication** among units of computation—such as processes, threads, tasks, or distributed nodes—refers to the set of mechanisms, protocols, and patterns enabling these discrete entities to exchange data, synchronize execution, and coordinate behavior, while preserving system correctness and performance.
 > 
 
-> See more in [Telecom](note.html?n=technica/computation/telecom.md) and [Distributed Computing](note.html?n=technica/computation/distributed-computing.md).
+> See more in [Telecom](note.html?n=technica/computation/telecom/telecom.md) and [Distributed Computing](note.html?n=technica/computation/distributed-computing.md).
 > 
 
 Formally, it involves:

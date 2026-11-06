@@ -25,4 +25,4 @@ tags: [method, technique, numerical]
 ## References
 
 - https://en.wikipedia.org/wiki/Iterative_method
-- [Contraction Mapping](../reduction/contraction-mapping.md) · [Discretization](discretization.md) · [Newton–Raphson Method](../../../science/newton-raphson-method.md) · [Fixed Point](../../change/fixed-point.md)
+- [Contraction Mapping](../reduction/contraction-mapping.md) · [Discretization](discretization.md) · [Newton–Raphson Method](note.html?n=epistemica/singular/newton-raphson-method.md) · [Fixed Point](../../change/fixed-point.md)

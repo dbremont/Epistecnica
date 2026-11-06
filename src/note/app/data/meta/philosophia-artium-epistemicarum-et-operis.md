@@ -84,6 +84,7 @@ Epistemic Element (parent)
 | `Epistemic Element Set (→ Member) <<Epistemic Element>>` | Identifies a member of the aggregate; membership, not composition. | Composition; Set |
 | `Epistemic Element Set (→ Kind) Epistemic Practice` | Classifies a set as an organized pattern of inquiry carried on by agents — the doing. | Classification; Set |
 | `Epistemic Element Set (→ Kind) Epistemic Framework` | Classifies a set as a group of epistemic elements read together as one lens. | Classification; Set |
+| `Epistemic Element (→ Has Property) Property` | Identifies a predicated feature of the parent element; the type binds to its instances. | Predication; Property |
 | `Epistemic Element (→ Kind) Epistemic Activity` | Classifies a situated bundle of inquiry doings, read as a root in its own right. | Classification; Activity |
 | `Epistemic Practice (→ Member) Epistemic Practice` | Identifies a sub-practice as a member of the aggregate: field, sub-field, laboratory, school, tradition, or specialty. | Composition; Member |
 | `Epistemic Practice (→ Has) Epistemic Activity` | Identifies a situated bundle of inquiry doings that applies one or more methods. | Composition; Activity |
@@ -218,8 +219,6 @@ Epistemic Element (parent)
 
 - **Form of the Table:** `Instance Tree Path | Description`.
 - **Instance Tree Path**: A unique, recursively extended path identifying an instance within the decomposition tree. It begins at the root node `Epistemic Element`, descends the licensed kind chain to the instance's type, and appends each successive child through an explicitly labeled relationship, using the form Parent Instance (→ Relationship Type) Child Instance. Each successive path must preserve the complete path from the root to the current instance.
-- **Root**: Every path begins at `Epistemic Element`; an inquiry whole binds `Epistemic Element Set → Kind → Epistemic Practice` and names the whole it binds as the root. A framework, being a set rather than a whole, opens `Epistemic Element Set → Kind → Epistemic Framework` when the tree is about the lens; any other element opens `Epistemic Element (→ Kind) <its type>` directly and grows from there.
-- **Root Types:** Any type the table licenses may open a tree. The `Epistemic Element (→ Kind) …` rows record the ordinary descents, not the exclusive set of admissible roots — a `Method`, an `Agent`, an `Observable`, an `Interface`, or an `Institution` roots its own tree the same way, which is what makes any row usable as a recursive root.
 - **Relationship Labeling:** Every link between a parent and child names its relationship type, styled `(→ Kind)`, `(→ Has)`, `(→ Part)`, `(→ Instance)`, `(→ Addresses)`, `(→ Produces)`, or another label from the relationship table. A bare arrow is not permitted. Typing reads from grouping segments, never from the link: an instance resolves to its nearest enclosing grouping segment's type, with the decomposition root's type declared once.
 - **Grouping Segments:** Every backticked grouping segment names a type licensed by the `Permitted Link Forms` table. A type that is not a row there may not appear in a tree, even when the relationship itself is permitted.
 - **One Type per Distinction:** Do not type the same distinction twice. A discipline is an `Epistemic Practice`, never an `Epistemic Discipline` row. A set disaggregates by `Member` for the members it is a group of, or by `Has` for what it carries and associates; `Part` is reserved for structured wholes — a method's steps, a construction's constituents.
@@ -343,9 +342,19 @@ Epistemic Element (parent)
 
 > Because `Method` and `Procedure` were one distinction seen from two sides — general versus situated — and the situated side is the `Epistemic Activity`. Once activity is defined as the bundle that *applies* a method, "the same method, run here and there" is two activities sharing a method, and no procedure type is needed. What a procedure nested — steps and sub-routines — the method nests as sub-methods.
 
-### Why is there no separate `Property` type?
+### Why does `Property` return as a predication type?
 
-> Because `Observable` already names a feature of a segment that can be registered, and the `Constitutive Substrate` names its own constituents through the `<<Constitutive Element>>` slot: convention, formation, transformation rule, foundation, interpretation. A bare `Property` row carried no type of its own and would have duplicated the observable under a weaker name.
+> Because the retirement answered a different question than the one a decomposition asks. `Observable` names a feature of a **segment of reality**, registered through an interface; `Epistemic Criterion` names the property a **judgment** turns on. Neither can carry a predicate that a construction asserts of its own instances — that a number is even, that a shape is convex, that a model is linear — because such a predicate is asserted by the grammar that carries the element, not measured off a segment and not used to judge an artifact. The three positions are disjoint:
+
+| Type | What it names | Side |
+| --- | --- | --- |
+| `Observable` | A feature of a segment of reality, registered through an interface. | Ontic / access |
+| `Epistemic Criterion` | The property a judgment turns on. | Evaluation |
+| `Property` | A predicate asserted of an element by the grammar that carries it. | Predication |
+
+> The type takes its own link, `Epistemic Element (→ Has Property) Property`, and `Has` was narrowed to elements and features so that the two labels do not overlap. A property binds to its instances — `Evenness`, `Convexity`, `Complexity` — and may be had by any element the table licenses, not only by a construction.
+
+> The retired answer is kept as the history of the decision: `Property` was refused while it only restated the observable under a weaker name. It returns because a construction's own predicates had no home at all — the gap was real, and the reinstated type fills it rather than renaming what `Observable` already carried.
 
 ### Why is `Epistemic Blueprint` no longer a type?
 
@@ -361,7 +370,7 @@ Epistemic Element (parent)
 
 ### How is a type retired?
 
-> In one change set, in five steps: remove every `Permitted Link Form` row that names it; retype the trees that used it, so no orphan grouping segment survives; add a QA answer naming the retired type, what it meant, and where its work now lives; leave the name out of the vocabulary, since a grouping segment must be a licensed type; and never reuse the name for a new meaning. The guide carries its own history this way — `Epistemic Task`, `Epistemic Procedure`, `Epistemic Operation`, `Epistemic Action`, `Epistemic Blueprint`, and `Property` are all retired by this procedure.
+> In one change set, in five steps: remove every `Permitted Link Form` row that names it; retype the trees that used it, so no orphan grouping segment survives; add a QA answer naming the retired type, what it meant, and where its work now lives; leave the name out of the vocabulary, since a grouping segment must be a licensed type; and never reuse the name for a new meaning. The guide carries its own history this way — `Epistemic Task`, `Epistemic Procedure`, `Epistemic Operation`, `Epistemic Action`, and `Epistemic Blueprint` are all retired by this procedure. `Property` was retired and later reinstated as a predication type (see "Why does `Property` return as a predication type?"); that is not a reuse of the retired meaning — the retired row named an element of a tree, the reinstated type names a predicate a tree asserts.
 
 ### Where do guidance and organization decompose?
 
@@ -402,7 +411,8 @@ Epistemic Element (parent)
 | Classification | `Kind` | Establishes a taxonomic relationship in which the child specifies what kind of element the parent is. | Classifying an element under a more specific type. |
 | Composition | `Part` | Identifies a constituent that forms part of the parent element. | Decomposing a system, structure, or aggregate into its constituent elements. |
 | Composition | `Member` | Identifies an element belonging to a set or aggregate, without asserting that it forms part of another element. | Disaggregating an aggregate — an `Epistemic Element Set`, a practice, a framework. |
-| Composition | `Has` | Identifies an element, property, or feature belonging to or associated with the parent. | Identifying components, attributes, properties, or associated elements. |
+| Composition | `Has` | Identifies an element or feature belonging to or associated with the parent. | Identifying components, attributes, or associated elements. |
+| Predication | `Has Property` | Identifies a predicated feature the parent element carries or lacks — asserted of the element, not registered from it. | Asserting a characteristic of any element: a number is even, a shape is convex, a model is linear, a tool is deterministic. |
 | Composition | `Instance` | Identifies a realization of a generalized type: a situated occurrence, a particular artifact, an exemplar notation, or a tool. | Connecting a type to what realizes it — a method to the activity that applies it, a system to the notation that embodies it. |
 | Composition | `Addresses` | Identifies the domain a practice works on. | Connecting an `Epistemic Practice` to the cut it targets. |
 | Composition | `Produces` | Identifies the construction a practice or act leaves behind. | Connecting an `Epistemic Practice` to its constructions. |
@@ -418,7 +428,7 @@ Epistemic Element (parent)
 | Association | `Related To` | Establishes an association between elements when no more specific relationship applies. | Representing a relevant relationship that cannot be classified more specifically. |
 | General | `Unspecified` | Establishes a relationship between two elements when the nature of their connection is relevant but has not yet been identified or classified. | Representing a known or suspected connection whose specific relationship type remains undetermined. |
 
-> **Properties of the relationship types.** `Kind`, `Part`, `Depends On`, and `Derived From` are transitive; `Member` and `Instance` are not — a member of a member is not a member, and an instance of an instance is not an instance. No pair in this table is declared inverse: `Addresses` is asserted one way only, from practice to segment, and the realization relation carries one label, `Instance`, because a path runs from type to instance and never back. `Represents`, `Produces`, `Transforms`, `Causes`, `Regulates`, `Governed By`, and `Evaluated By` are irreflexive; `Governed By` and `Evaluated By` are not transitive. No label is symmetric. `Related To` and `Unspecified` assert no properties at all; use them only when a more determinate label cannot be established.
+> **Properties of the relationship types.** `Kind`, `Part`, `Depends On`, and `Derived From` are transitive; `Member` and `Instance` are not — a member of a member is not a member, and an instance of an instance is not an instance. No pair in this table is declared inverse: `Addresses` is asserted one way only, from practice to segment, and the realization relation carries one label, `Instance`, because a path runs from type to instance and never back. `Represents`, `Produces`, `Transforms`, `Causes`, `Regulates`, `Has Property`, `Governed By`, and `Evaluated By` are irreflexive; `Governed By` and `Evaluated By` are not transitive. No label is symmetric. `Related To` and `Unspecified` assert no properties at all; use them only when a more determinate label cannot be established.
 
 
 ### (Case Study) What is the recursively decomposed instance tree of Arithmetic?
@@ -504,12 +514,12 @@ Epistemic Element (parent)
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` (→ Has) `Epistemic Schedule` | Grouping: arrangements of reckoning work in time. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` (→ Has) `Epistemic Schedule` (→ Instance) Recitation Rota | Rotation assigning pupils to recitation turns. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` | Grouping: the constructions arithmetic produces about discrete quantity — what the DESA does not leave unrecorded. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Sum Statement | A description: seven times eight are fifty-six, carried as a claim about the segment. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Evenness | A concept: the constructed property a number carries when it divides into two exact halves. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Number | A concept: the constructed discriminator of discrete multitude, order, and ratio — what the numerals denote. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Zero | A concept: the empty count constituted as a number, the addend that leaves every sum unchanged. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Multiplication Table | A dataset: products indexed by factor, consulted instead of recomputed. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Carrying Explanation | An explanation: why regrouping ten ones into one ten preserves the sum. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Kind) `Concept` (→ Instance) Number | A concept: the constructed discriminator of discrete multitude, order, and ratio — what the numerals denote. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Kind) `Concept` (→ Instance) Zero | A concept: the empty count constituted as a number, the addend that leaves every sum unchanged. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Kind) `Concept` (→ Instance) Number (→ Has Property) `Property` (→ Instance) Evenness | A property: the predicate a number carries when it divides into two exact halves. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Kind) `Description` (→ Instance) Sum Statement | A description: seven times eight are fifty-six, carried as a claim about the segment. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Kind) `Dataset` (→ Instance) Multiplication Table | A dataset: products indexed by factor, consulted instead of recomputed. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Kind) `Explanation` (→ Instance) Carrying Explanation | An explanation: why regrouping ten ones into one ten preserves the sum. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` | Grouping: assessments of reckoning. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Standard` | Grouping: standards judging arithmetic. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Standard` (→ Instance) Correctness Standard | A computation stands only if independent recomputation agrees. |

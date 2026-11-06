@@ -121,7 +121,7 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 | Decision problem | [Decision Problem](note.html?n=epistemica/observational/decision/decision-problem.md) | The formal $(S, E)$ structure: solution space and evaluation model. |
 | Expected value | [Expected Value](note.html?n=epistemica/observational/probability/expected-value.md) | The probability-weighted average underlying expected utility. |
 | Trade-offs | [Trade-Off](note.html?n=epistemica/optimization/trade-off.md) | Competing criteria and the compromises between them. |
-| Uncertainty | [Probability](note.html?n=epistemica/discipline/probability.md), [Possibility](note.html?n=epistemica/observational/probability/possibility.md) | The belief-side foundations: graded uncertainty and the space of alternatives. |
+| Uncertainty | [Probability](note.html?n=epistemica/epistemic/discipline/probability.md), [Possibility](note.html?n=epistemica/observational/probability/possibility.md) | The belief-side foundations: graded uncertainty and the space of alternatives. |
 | Belief updating | [Bayes' Theorem](note.html?n=epistemica/observational/probability/bayes-theorem.md), [Bayes Estimator](note.html?n=epistemica/observational/estimator/bayes-estimator.md) | How evidence revises the belief that feeds a decision. |
 | Coherence | [Dutch Book](note.html?n=epistemica/observational/probability/dutch-book.md), [Betting](note.html?n=epistemica/observational/probability/betting.md) | Coherent probability as the avoidance of sure loss. |
 | Bet sizing | [Kelly Criterion](note.html?n=epistemica/observational/probability/kelly-criterion.md) | Growth-optimal sizing of a repeated bet. |

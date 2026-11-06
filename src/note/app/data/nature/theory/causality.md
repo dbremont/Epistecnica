@@ -4,7 +4,7 @@ tags: [ontology]
 
 # Causality
 
-Related: [Explanation](note.html?n=epistemica/theory/explanation.md)
+Related: [Explanation](note.html?n=epistemica/epistemic/theory/explanation.md)
 
 > See more in Causality.
 >

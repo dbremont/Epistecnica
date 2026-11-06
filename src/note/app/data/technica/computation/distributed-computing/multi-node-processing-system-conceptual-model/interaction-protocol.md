@@ -54,7 +54,7 @@ QA:
 
 ## References
 
-- [Telecom](note.html?n=technica/computation/telecom.md)
+- [Telecom](note.html?n=technica/computation/telecom/telecom.md)
 - [ ]  https://blog.bytebytego.com/p/api-protocols-101-a-guide-to-choose?utm_source=substack&utm_medium=email
 - [ ]  https://github.com/dbremont/system-design-labs
 - [ ]  https://github.com/csiglab/networking-labs

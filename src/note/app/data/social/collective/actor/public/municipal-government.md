@@ -24,7 +24,7 @@ tags: [municipal-government, local-government, collective, social-element, actor
 
 Its layer is **Ontic** where the municipal government exists extra-mentally (office-holders, municipal offices, premises, budgets, service fleets) with **Synontic** aspects (local authority, legitimacy, and jurisdiction exist through shared recognition and statutory warrant).
 
-It is not the `Municipio` (the historical and territorial unit — see the study at [Municipio](note.html?n=history/castilla/municipio.md)), not the `Municipality` (the locality and corporate entity it governs), not a [Mancomunidad](note.html?n=social/normative/institution/institution/mancomunidad.md) (an inter-municipal association), not the `Municipal Organization` (the wielding body — decompose the body where authority is wielded), and not the higher-tier [Government](note.html?n=social/collective/actor/public/government.md) (national or regional) from which its competence is delegated.
+It is not the `Municipio` (the historical and territorial unit — see the study at [Municipio](note.html?n=social/history/castilla/municipio.md)), not the `Municipality` (the locality and corporate entity it governs), not a [Mancomunidad](note.html?n=social/normative/institution/institution/mancomunidad.md) (an inter-municipal association), not the `Municipal Organization` (the wielding body — decompose the body where authority is wielded), and not the higher-tier [Government](note.html?n=social/collective/actor/public/government.md) (national or regional) from which its competence is delegated.
 
 ### Is the type of this `social element instance` unambiguous?
 
@@ -161,7 +161,7 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 - [Mancomunidad](note.html?n=social/normative/institution/institution/mancomunidad.md) (inter-municipal association)
 - [Collective](note.html?n=social/collective/collective.md)
 - [Actor](note.html?n=social/collective/actor/actor.md)
-- [Municipio](note.html?n=history/castilla/municipio.md) (historical and territorial unit)
+- [Municipio](note.html?n=social/history/castilla/municipio.md) (historical and territorial unit)
 - [Facet](note.html?n=social/framework/facet.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)

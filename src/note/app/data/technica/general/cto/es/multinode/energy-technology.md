@@ -156,6 +156,6 @@ Lineage: waterwheels and windmills → steam engine and dynamo → AC transmissi
 ## References
 
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
-- [Biotechnology (companion domain pattern)](note.html?n=technica/cto/es/multinode/biotechnology.md)
+- [Biotechnology (companion domain pattern)](note.html?n=technica/general/cto/es/multinode/biotechnology.md)
 - https://www.iea.org/reports/world-energy-outlook
 - https://www.entsoe.eu/

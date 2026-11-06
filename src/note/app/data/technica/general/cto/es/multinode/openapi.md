@@ -239,5 +239,5 @@ These options can be set when configuring Swagger UI in your ASP.NET Core or Nod
 - [JSON Schema](https://json-schema.org/)
 - [Enhance Swagger Documentation with Annotations in ASP.NET core](https://medium.com/@niteshsinghal85/enhance-swagger-documentation-with-annotations-in-asp-net-core-d2981803e299)
 - [Documenting Additional API endpoints in Swagger in ASP.Net Core](https://medium.com/@niteshsinghal85/documenting-additional-api-endpoints-in-swagger-in-asp-net-core-59da9c84e4ba)
-- [GraphQL](note.html?n=technica/cto/es/multinode/graphql.md)
+- [GraphQL](note.html?n=technica/general/cto/es/multinode/graphql.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

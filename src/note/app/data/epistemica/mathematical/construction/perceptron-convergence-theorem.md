@@ -10,7 +10,7 @@ tags: [theorem]
 
 ## References
 
-- [Norm](../structure/linear/norm.md)
+- [Norm](../norm/norm.md)
 - [‣](https://app.notion.com/p/3a846094fd8b48748eee91ca6e7b6967?pvs=21)
 - https://youtu.be/fHDouTKwfXw
 - [5-859(B) Machine Learning Theory - The Perceptron Algorithm](https://www.cs.cmu.edu/~avrim/ML10/lect0125.pdf)

@@ -29,13 +29,13 @@ The `Technical Element Set` grouping below the root is admitted by the No-repeti
 
 Secondary readings, kept as prose rather than compromise typing: an orchard, a nursery, or a greenhouse read as a `Production Technical System`; a tractor or a sprayer reads as a `Production Technical Object`; the field itself — soil, climate, water availability, biotic pressure — reads as a `Technical Domain Reality Model`. Each of these takes its own root in its own decomposition; no row here carries two types.
 
-Cross-space boundaries: growers, cooperatives, seed merchants, and buyers are social elements and stay in `social`/`actor`; the plant as a living system — organs, tissues, physiology, growth — is natural and is decomposed under the naturalis grammar; agricultural science, the inquiry that warrants knowing the plant, is epistemic scaffolding and lives in [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md).
+Cross-space boundaries: growers, cooperatives, seed merchants, and buyers are social elements and stay in `social`/`actor`; the plant as a living system — organs, tissues, physiology, growth — is natural and is decomposed under the naturalis grammar; agricultural science, the inquiry that warrants knowing the plant, is epistemic scaffolding and lives in [Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md).
 
 ### What is this technical instance?
 
 > The Plant Cultivation Technical Domain Set is a raise-and-take ensemble instance: growers, agronomists, nursery workers, and equipment operators working seed lots, rooting media, soil profiles, water regimes, protection practices, protected houses, harvesting equipment, trial plots, and certification bodies, so that a specified plant population is established, kept growing, and harvested as an admissible product, under genotype, climate, soil, water, labor, and regulatory constraints.
 
-Boundary: cultivation is the deliberate growing of plants for a useful product. It **excludes** post-harvest transformation into manufactured goods (the post-harvest Food Value Chain side), the sector-of-industries container that frames crop and animal production together (Agriculture Production), the inquiry into the plant ([Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md)), and the social organization of cultivation. Genetic engineering of crops is admitted only as an instrument the improvement sub-domain calls on; it is decomposed in its own right.
+Boundary: cultivation is the deliberate growing of plants for a useful product. It **excludes** post-harvest transformation into manufactured goods (the post-harvest Food Value Chain side), the sector-of-industries container that frames crop and animal production together (Agriculture Production), the inquiry into the plant ([Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md)), and the social organization of cultivation. Genetic engineering of crops is admitted only as an instrument the improvement sub-domain calls on; it is decomposed in its own right.
 
 Lineage: seed gathering and shifting cultivation → vegetative propagation and the walled garden → systematic selection and the four-field rotation → the greenhouse and the synthetic fertilizer → hybrid and later recombinant breeding → controlled-environment and precision cultivation, sensors, and site-specific management.
 
@@ -138,7 +138,7 @@ Lineage: seed gathering and shifting cultivation → vegetative propagation and 
 ## References
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; middle depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
-- [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md) (counterpart note: the inquiry this ensemble acts on)
+- [Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md) (counterpart note: the inquiry this ensemble acts on)
 - Agriculture Production (the sector-of-industries container this set is a member of; note removed, sector view lives in the social and production spaces)
 - Food Value Chain (what the harvest becomes after cultivation ends; note removed, post-harvest side)
 - [Remote Sensing](note.html?n=technica/general/cto/industry/remote-sensing.md) (the canopy and stand readings the field set consumes)

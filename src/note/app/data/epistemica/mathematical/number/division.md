@@ -78,7 +78,22 @@ Mathematically, given: $a \div b = c$:
 
 ## Unitizing
 
-> 
+>
+
+# Which methods are used to compute a division expression?
+
+| Method | Description | Principle | Origin |
+|---|---|---|---|
+| **Repeated Subtraction** | Repeatedly subtract the divisor from the dividend until the remainder is smaller than the divisor. Count the number of subtractions. | Subtraction; division as repeated removal of equal quantities. | Ancient mathematics; used in Egyptian and Greek arithmetic. |
+| **Repeated Addition** | Repeatedly add the divisor until reaching the dividend or exceeding it. Count the additions. | Addition; division as the inverse of multiplication. | Ancient arithmetic. |
+| **Multiplication by the Reciprocal** | Multiply the dividend by the reciprocal of the divisor. | Multiplicative inverse: \(a \div b = a \times \frac{1}{b}\). | Ancient Greek mathematics; systematically developed in fractional arithmetic. |
+| **Long Division** | Process the digits of the dividend sequentially, determining quotient digits through multiplication and subtraction. | Place-value decomposition; quotient construction through successive estimation. | Indian mathematics; developed and transmitted through medieval Arabic mathematics and Europe. |
+| **Short Division** | Perform division digit by digit, keeping track of remainders without writing out all intermediate subtraction steps. | Place-value arithmetic and successive quotient estimation. | Traditional European arithmetic; developed from positional division algorithms. |
+| **Partial Quotients** | Subtract convenient multiples of the divisor from the dividend, accumulating the corresponding quotient values. | Quotient decomposition; distributive property of multiplication. | Historical arithmetic method; also known as chunking or quotient accumulation. |
+| **Binary Division** | Perform division using binary digits, typically through successive shifts, comparisons, and subtractions. | Binary positional arithmetic and integer division algorithms. | Developed with binary arithmetic and modern computing. |
+| **Logarithmic Division** | Convert division into subtraction of logarithms, then use an antilogarithm to recover the result. | Logarithmic identity: \(\log(a/b)=\log a-\log b\). | Developed following the invention of logarithms by John Napier (1614). |
+| **Numerical Approximation** | Approximate the quotient through iterative numerical procedures, such as Newton–Raphson iteration. | Iterative approximation of the reciprocal or quotient. | Newton–Raphson method developed in the 17th century; modern numerical analysis. |
+| **Synthetic Division** | A specialized procedure for dividing polynomials by linear expressions of the form \(x-c\). | Polynomial algebra; remainder theorem and coefficient manipulation. | Developed in 19th-century algebra. |
 
 ## Case Studies
 

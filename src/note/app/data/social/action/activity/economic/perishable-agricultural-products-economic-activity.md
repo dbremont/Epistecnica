@@ -266,7 +266,7 @@ $$
 
 ### How is the production function of the industry operationalized?
 
-> The perishable function is an instance of the [Production Function](note.html?n=epistemica/production-function.md) epistemic blueprint whose operational reading is fixed by what rots. The table below states the choices that matter to this industry's content.
+> The perishable function is an instance of the [Production Function](note.html?n=epistemica/singular/production-function.md) epistemic blueprint whose operational reading is fixed by what rots. The table below states the choices that matter to this industry's content.
 
 | Decision | The choice that matters | Perishable reading |
 | --- | --- | --- |
@@ -595,8 +595,8 @@ $$
 - https://onlinelibrary.wiley.com/doi/10.1111/jbl.12367
 - [Economic Activity](note.html?n=social/action/activity/economic/economic-activity.md)
 - [Commerce Economic Activity](note.html?n=social/action/activity/economic/commerce-economic-activity.md)
-- [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md)
-- [Production Function](note.html?n=epistemica/production-function.md)
+- [Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md)
+- [Production Function](note.html?n=epistemica/singular/production-function.md)
 - [Retail Supply–Demand Matching](note.html?n=technica/general/cto/industry/retail-supply-demand-matching.md)
 - [Logistics System](note.html?n=technica/general/cto/industry/logistics-system.md)
 - [Plant Cultivation Technical Domain Set](note.html?n=technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md)

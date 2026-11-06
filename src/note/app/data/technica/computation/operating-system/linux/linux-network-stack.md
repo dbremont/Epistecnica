@@ -288,7 +288,7 @@ Here’s a table that summarizes the primary protocols within each layer of the 
 - [Measurement, Measurement, Modeling Modeling and Analysis Analysis of the Internet](https://pages.cs.wisc.edu/~pb/ima_tutorial.pdf)
 - [Linux Network Stack](note.html?n=technica/computation/operating-system/linux/linux-network-stack.md)
 - [Berkeley Socket](note.html?n=technica/computation/operating-system/linux/berkeley-socket.md)
-- [Telecom](note.html?n=technica/computation/telecom.md)
+- [Telecom](note.html?n=technica/computation/telecom/telecom.md)
 - https://github.com/kbandla/dpkt
 - https://man7.org/linux/man-pages/man8/tc.8.html
 - https://friskfrysefrugt.github.io/awesome-networking/

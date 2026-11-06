@@ -17,12 +17,12 @@ tags: [method, technique, foundation]
 ## Key results
 
 - **Cantor (1891).** The reals are uncountable: given any list of sequences, flip the diagonal and obtain a sequence not on the list. The origin of [cardinality](../../number/cardinality.md) as a comparison of sizes.
-- **Russell's paradox.** The set of all sets not containing themselves leads to contradiction by the same diagonal move — the reason naive comprehension was abandoned (see [ZFC](../../../theory/foundation/zfc.md)).
-- **Gödel.** Arithmetization turns "this sentence is unprovable" into a diagonal construction inside a formal system — the engine of the [incompleteness theorem](../../../theory/foundation/incompleteness-theorem.md).
+- **Russell's paradox.** The set of all sets not containing themselves leads to contradiction by the same diagonal move — the reason naive comprehension was abandoned (see [ZFC](note.html?n=epistemica/epistemic/theory/foundation/zfc.md)).
+- **Gödel.** Arithmetization turns "this sentence is unprovable" into a diagonal construction inside a formal system — the engine of the [incompleteness theorem](note.html?n=epistemica/epistemic/theory/foundation/incompleteness-theorem.md).
 - **Turing.** The halting problem is undecidable: assume a decider, build the machine that does the opposite of what it predicts, contradict.
 - **The pattern.** A diagonal argument always needs: an enumeration hypothesis, an encoding of the list into its own members, and a negation step.
 
 ## References
 
 - https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument
-- [Cardinality](../../number/cardinality.md) · [Incompleteness Theorem](../../../theory/foundation/incompleteness-theorem.md) · [Contradiction](contradiction.md) · [Induction](induction.md)
+- [Cardinality](../../number/cardinality.md) · [Incompleteness Theorem](note.html?n=epistemica/epistemic/theory/foundation/incompleteness-theorem.md) · [Contradiction](contradiction.md) · [Induction](induction.md)

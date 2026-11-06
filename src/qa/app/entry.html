@@ -28,14 +28,30 @@
     (function () {
         'use strict';
         var id = new URLSearchParams(location.search).get('id') || '';
+        var ID_RE = /^qa-\d{5}$/;
         function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
-        fetch('data/qa.json', { headers: { Accept: 'application/json' } })
+        function notFound(msg) {
+            document.title = (id || 'entry') + ' · Q/A Log · Epistecnica';
+            document.getElementById('entry').innerHTML =
+                '<span class="ng-eyebrow">' + esc(id || 'no id') + '</span>' +
+                '<h1>Entry not found</h1>' +
+                '<p class="empty">' + esc(msg) + '</p>' +
+                '<p><a class="ng-button" href="./">&larr; back to the log</a></p>';
+        }
+        fetch('data/qa.json', { cache: 'no-cache', headers: { Accept: 'application/json' } })
             .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
             .then(function (rows) {
+                if (!rows.length) { notFound('The log is empty.'); return; }
+                if (!ID_RE.test(id)) {
+                    notFound('An entry id looks like qa-00001. Pick an entry from the catalog.');
+                    return;
+                }
                 var i = rows.findIndex(function (e) { return e.id === id; });
-                if (i < 0 && rows.length) i = 0;
+                if (i < 0) {
+                    notFound('No entry with that id is in the log. It may have been added after this page cached its data.');
+                    return;
+                }
                 var e = rows[i];
-                if (!e) { document.getElementById('entry').innerHTML = '<p><em>Empty log.</em></p>'; return; }
                 document.title = e.id + ' · Q/A Log · Epistecnica';
                 var tags = (e.tags || []).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('');
                 document.getElementById('entry').innerHTML =

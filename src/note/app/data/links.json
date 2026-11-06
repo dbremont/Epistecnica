@@ -20,7 +20,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/mathematical-structure.md",
+      "to": "epistemica/mathematical/structure/mathematical-structure.md",
       "label": "Mathematical Structure",
       "kind": "related"
     },
@@ -92,13 +92,13 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/science/phase-space.md",
+      "to": "epistemica/singular/phase-space.md",
       "label": "Phase Space",
       "kind": "related"
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/science/configuration-space.md",
+      "to": "epistemica/singular/configuration-space.md",
       "label": "Configuration Space",
       "kind": "related"
     },
@@ -110,19 +110,19 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/science/reference-frame.md",
+      "to": "epistemica/singular/reference-frame.md",
       "label": "Reference Frame",
       "kind": "related"
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/science/quantum-framework.md",
+      "to": "epistemica/singular/quantum-framework.md",
       "label": "Quantum Framework",
       "kind": "related"
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/science/quantum-field-theory-qft.md",
+      "to": "epistemica/singular/quantum-field-theory-qft.md",
       "label": "Quantum Field Theory",
       "kind": "related"
     },

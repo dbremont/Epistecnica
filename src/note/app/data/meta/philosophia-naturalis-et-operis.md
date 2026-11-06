@@ -429,4 +429,4 @@ Case:
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
 - [Quarry](note.html?n=nature/quarry.md)
-- [Physical Ontology Map](note.html?n=essays/physical-ontology-map.md)
+- [Physical Ontology Map](note.html?n=unclassified/physical-ontology-map.md)

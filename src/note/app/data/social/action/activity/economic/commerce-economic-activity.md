@@ -792,7 +792,7 @@ $$
 
 ### How is the production function of commerce operationalized?
 
-> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](note.html?n=epistemica/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/epistemica/?node=production-function).
+> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](note.html?n=epistemica/singular/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/epistemica/?node=production-function).
 
 | Decision | The choice that matters | Commerce reading |
 | --- | --- | --- |
@@ -1491,7 +1491,7 @@ $$
 - Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
 - [Economic Activity](note.html?n=social/action/activity/economic/economic-activity.md)
 - [Perishable Agricultural Products Industry](note.html?n=social/action/activity/economic/perishable-agricultural-products-economic-activity.md)
-- [Production Function](note.html?n=epistemica/production-function.md)
+- [Production Function](note.html?n=epistemica/singular/production-function.md)
 - [Market](note.html?n=social/coordinator/market/market.md)
 - [Retail Supply–Demand Matching](note.html?n=technica/general/cto/industry/retail-supply-demand-matching.md)
 - [Logistics System](note.html?n=technica/general/cto/industry/logistics-system.md)

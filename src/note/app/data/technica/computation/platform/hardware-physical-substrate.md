@@ -327,5 +327,5 @@ Conceptual Model: Hardware
 - [‣](https://app.notion.com/p/289598edb79080359cb0e8e7f900da96?pvs=21)
 - https://en.wikipedia.org/wiki/Optical_computing
 - [‣](https://app.notion.com/p/10e598edb790815f897cd8ad952c6e93?pvs=21)
-- [Telecom](note.html?n=technica/computation/telecom.md)
+- [Telecom](note.html?n=technica/computation/telecom/telecom.md)
 - Renting GPU’s https://www.reddit.com/r/LocalLLaMA/comments/1na3f1s/renting_gpus_is_hilariously_cheap/

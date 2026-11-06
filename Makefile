@@ -57,7 +57,7 @@ ees-check: ## validate the EES tree store (src/note/app/data/epistemica/ees.json
 
 rees-check: ees-check
 
-glossarium-index: ## rebuild the lexical corpus index (after any terms.json change)
+glossarium-index: ## rebuild the lexical corpus index (after any terms/*.md change)
 	python3 bin/build_glossarium_index.py
 
 qa-index: ## rebuild the Q/A log index (after any qa.json change)

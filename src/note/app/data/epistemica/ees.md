@@ -212,11 +212,11 @@ exchange through the guide's `Permitted Link Forms` table: an
 - **The full tree** — the [EES atlas](data/epistemica/ees.html) renders the complete, ever-expanding decomposition from the tree store [ees.json](data/epistemica/ees.json): outline, branch cards, an element search, and a node inspector.
 - **Guides** — [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner) and [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (the technical complement).
 - **Universal index** — [Autoregia, the Personal Knowledge System](http://localhost:8088/pks/) carries the master index; EES is the local mastery layer over it.
-- **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/theory/modelling.md), [Causality](note.html?n=epistemica/causality/causality.md), [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md).
+- **Orientation & target catalogues** — [Modelado](note.html?n=epistemica/epistemic/theory/modelling.md), [Causality](note.html?n=epistemica/causality/causality.md), [Decision Making](note.html?n=epistemica/observational/decision/decision-making.md).
 - **Access & representation catalogues** — [Observational](note.html?n=epistemica/observational/observational.md), [Signal Processing](note.html?n=epistemica/signal/signal-processing.md), [System of Units of Measurement](note.html?n=epistemica/measurement/system-of-units-of-measurement.md).
-- **Discipline catalogues** — [Mathematics](note.html?n=epistemica/discipline/mathematics.md), [Statistics](note.html?n=epistemica/discipline/statistics.md), [Computer Science](note.html?n=epistemica/discipline/computer-science.md), [Logic](note.html?n=epistemica/discipline/logic.md), [Philosophy](note.html?n=epistemica/discipline/philosophy.md).
-- **Operation & construction catalogues** — [Mathematical](index.html?dir=epistemica/mathematical), [Computational Science](note.html?n=epistemica/science/science.md), [Simulation](note.html?n=epistemica/simulation/simulation.md), [Optimization](note.html?n=epistemica/optimization/optimization.md) (incl. the [nature-inspired methods](index.html?q=@natural-computing)), [Statistical Mechanics](note.html?n=epistemica/construction/statistical-mechanics.md).
-- **Evaluation & reflexive catalogues** — [Exploratory Data Analysis](note.html?n=epistemica/observational/exploratory-data-analysis-eda.md), [Formal Concept Analysis](note.html?n=epistemica/formal-concept-analysis-fca.md), [Complexity Science](note.html?n=epistemica/complexity/complexity-science.md), [Adaptative](note.html?n=epistemica/adaptative/adaptative.md).
+- **Discipline catalogues** — [Mathematics](note.html?n=epistemica/epistemic/discipline/mathematics.md), [Statistics](note.html?n=epistemica/epistemic/discipline/statistics.md), [Computer Science](note.html?n=epistemica/epistemic/discipline/computer-science.md), [Logic](note.html?n=epistemica/epistemic/discipline/logic.md), [Philosophy](note.html?n=epistemica/epistemic/discipline/philosophy.md).
+- **Operation & construction catalogues** — [Mathematical](index.html?dir=epistemica/mathematical), [Computational Science](note.html?n=epistemica/singular/science.md), [Simulation](note.html?n=epistemica/simulation/simulation.md), [Optimization](note.html?n=epistemica/optimization/optimization.md) (incl. the [nature-inspired methods](index.html?q=@natural-computing)), [Statistical Mechanics](note.html?n=epistemica/singular/statistical-mechanics.md).
+- **Evaluation & reflexive catalogues** — [Exploratory Data Analysis](note.html?n=epistemica/observational/exploratory-data-analysis-eda.md), [Formal Concept Analysis](note.html?n=epistemica/singular/formal-concept-analysis-fca.md), [Complexity Science](note.html?n=epistemica/complexity/complexity-science.md), [Adaptative](note.html?n=epistemica/adaptative/adaptative.md).
 
 ## QA
 
@@ -275,12 +275,12 @@ The distinction is one of function:
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Autoregia — Personal Knowledge System](http://localhost:8088/pks/)
-- [Modelado](note.html?n=epistemica/theory/modelling.md)
+- [Modelado](note.html?n=epistemica/epistemic/theory/modelling.md)
 - [Causality](note.html?n=epistemica/causality/causality.md)
 - [Observational](note.html?n=epistemica/observational/observational.md)
-- [Mathematics](note.html?n=epistemica/discipline/mathematics.md)
-- [Statistics](note.html?n=epistemica/discipline/statistics.md)
-- [Computer Science](note.html?n=epistemica/discipline/computer-science.md)
-- [Logic](note.html?n=epistemica/discipline/logic.md)
-- [Philosophy](note.html?n=epistemica/discipline/philosophy.md)
+- [Mathematics](note.html?n=epistemica/epistemic/discipline/mathematics.md)
+- [Statistics](note.html?n=epistemica/epistemic/discipline/statistics.md)
+- [Computer Science](note.html?n=epistemica/epistemic/discipline/computer-science.md)
+- [Logic](note.html?n=epistemica/epistemic/discipline/logic.md)
+- [Philosophy](note.html?n=epistemica/epistemic/discipline/philosophy.md)
 - Reality, Ontology, Observer, Nature — no dedicated note yet; see the Formulation questions above

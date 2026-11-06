@@ -6,7 +6,7 @@ tags: [probability, technique]
 
 > **Variational inference** is a family of algorithms that approximate an intractable posterior distribution with a simpler, tractable one by **optimization** — turning a probability question into the extremization of a bound.
 
-> Where sampling methods (MCMC) explore the posterior, variational inference *fits* it: choose a family of candidate distributions, pick the member closest to the true posterior in KL divergence, and reach it by gradient or coordinate ascent on the evidence lower bound. The pattern is the probabilistic application of the [variational method](note.html?n=epistemica/mathematical/method/variational-method.md): extremize a functional — here the ELBO — over an admissible class of distributions.
+> Where sampling methods (MCMC) explore the posterior, variational inference *fits* it: choose a family of candidate distributions, pick the member closest to the true posterior in KL divergence, and reach it by gradient or coordinate ascent on the evidence lower bound. The pattern is the probabilistic application of the [variational method](note.html?n=epistemica/mathematical/method/reduction/variational-method.md): extremize a functional — here the ELBO — over an admissible class of distributions.
 
 ## Formulation
 
@@ -28,7 +28,7 @@ An **`Aggregate`** — the organized method-system of approximate-posterior infe
 
 No — the primary reading is unambiguous: the note documents the organized method-system as an **`Aggregate`**, with its constitutive theories an **Epistemic Construction** (the `Variational Inference Theory` body). A legitimate secondary reading is **operative**: the method as a single routine under `Epistemic Operation` → `Organization` → `Method` — formulate family, evaluate bound, ascend, certify. That reading is kept as `readable as …` prose, not as a second tree; the Operation branch records the routine itself.
 
-What is *not* licensed is collapsing the method into its neighbours. MCMC **samples** the posterior; variational inference **optimizes** toward it — different warrants (asymptotically exact vs. a certified bound), different failure modes (mixing vs. family mismatch). The generic [variational method](note.html?n=epistemica/mathematical/method/variational-method.md) is the extremizing-functional ancestor of this pattern, not a synonym; this note is the probabilistic instantiation. [Expectation–Maximization](note.html?n=epistemica/observational/computational/expectation-maximization-em-algorithm.md) is the coordinate-ascent special case with the posterior family tied to the model's complete-data structure — a neighbour with its own note.
+What is *not* licensed is collapsing the method into its neighbours. MCMC **samples** the posterior; variational inference **optimizes** toward it — different warrants (asymptotically exact vs. a certified bound), different failure modes (mixing vs. family mismatch). The generic [variational method](note.html?n=epistemica/mathematical/method/reduction/variational-method.md) is the extremizing-functional ancestor of this pattern, not a synonym; this note is the probabilistic instantiation. [Expectation–Maximization](note.html?n=epistemica/observational/computational/expectation-maximization-em-algorithm.md) is the coordinate-ascent special case with the posterior family tied to the model's complete-data structure — a neighbour with its own note.
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -205,12 +205,12 @@ Prefer VI when the dataset is too large for MCMC mixing, when per-observation in
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Variational Method](note.html?n=epistemica/mathematical/method/variational-method.md) — the extremizing-functional ancestor of the pattern.
+- [Variational Method](note.html?n=epistemica/mathematical/method/reduction/variational-method.md) — the extremizing-functional ancestor of the pattern.
 - [Kullback–Leibler Divergence](note.html?n=epistemica/observational/kullbackleibler-divergence.md) — the divergence the family is projected in.
 - [Expectation–Maximization (EM) Algorithm](note.html?n=epistemica/observational/computational/expectation-maximization-em-algorithm.md) — the coordinate-ascent special case.
 - [Mixture Model](note.html?n=epistemica/observational/computational/mixture-model.md) and [Generative Model](note.html?n=epistemica/observational/computational/generative-model.md) — canonical model classes fitted by VI.
 - [Variational Autoencoder (VAE)](note.html?n=technica/ais/architecture/variational-autoencoder-vae.md) — the amortized auto-encoding realization.
-- [Bayes' Theorem](note.html?n=epistemica/observational/probability/bayes-theorem.md) and [Probability](note.html?n=epistemica/discipline/probability.md) — the posterior the method approximates.
+- [Bayes' Theorem](note.html?n=epistemica/observational/probability/bayes-theorem.md) and [Probability](note.html?n=epistemica/epistemic/discipline/probability.md) — the posterior the method approximates.
 - [Jordan, M. I., Ghahramani, Z., Jaakkola, T. S., & Saul, L. K. (1999). An introduction to variational methods for graphical models. Machine Learning, 37, 183–233.](../document/document.html?d=articles/jordan-1999-introduction-variational-methods-graphical-models.md)
 - [Wainwright, M. J., & Jordan, M. I. (2008). Graphical models, exponential families, and variational inference. Foundations and Trends in Machine Learning, 1(1–2), 1–305.](../document/document.html?d=articles/wainwright-2008-graphical-models-exponential-families-variational.md)
 - [Blei, D. M., Kucukelbir, A., & McAuliffe, J. D. (2017). Variational inference: A review for statisticians. Journal of the American Statistical Association, 112(518), 859–877.](../document/document.html?d=articles/blei-2017-variational-inference-review-statisticians.md)

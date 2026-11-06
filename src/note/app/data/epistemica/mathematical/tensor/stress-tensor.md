@@ -25,4 +25,4 @@ tags: [analytical, type, physical]
 ## References
 
 - https://en.wikipedia.org/wiki/Cauchy_stress_tensor
-- [Strain tensor](stress-tensor.md) · [Stress-Energy Tensor](stress-energy-tensor.md) · [Continuum Mechanics](../../science/continuum-mechanic-framework.md) · [Eigenvalue](../structure/linear/eigenvalue.md)
+- [Strain tensor](stress-tensor.md) · [Stress-Energy Tensor](stress-energy-tensor.md) · [Continuum Mechanics](note.html?n=epistemica/singular/continuum-mechanic-framework.md) · [Eigenvalue](../structure/linear/eigenvalue.md)

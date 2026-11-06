@@ -34,9 +34,9 @@ bin/serve.py            combined server — the only frontend-facing surface; ow
 bin/envutil.py          .env loader
 bin/indexlib.py         shared index-build plumbing (chunked progress, atomic writes, status file)
 bin/index_jobs.py       index-build runner (dependency order, single-flight, background jobs)
-bin/build_glossarium_index.py  glossarium lookup/search index (terms.json → index.json)
+bin/build_glossarium_index.py  glossarium lookup/search index (terms/*.md → index.json)
+bin/add_glossarium_term.py     add/replace one glossarium term (copies into terms/)
 bin/build_qa_index.py  Q/A log search index (qa.json → qa-index.json)
-bin/add_glossarium_term.py     add/replace one glossarium term
 bin/notes_index.py | bin/course_index.py | bin/document_index.py   corpus indexers (make *-index)
 bin/course_import.py | bin/document_import.py   bulk Notion-export importers
 bin/rees_check.py | bin/atlas_check.py | bin/terminology_check.py | bin/symbols_check.py | bin/pvalue_check.py   atlas/store validators (make *-check)
@@ -128,14 +128,16 @@ frontend-facing surface in the deployment; there is no database behind it
   heading. Per-corpus naming/tags rules live in their READMEs
   (`src/note/README.md`, `src/course/README.md`, `src/document/README.md`,
   `src/glossarium/README.md`, `src/qa/README.md`).
-- `data/epistemica/theory/` is the flattened epistemic-theory scope:
+- `data/epistemica/epistemic/theory/` is the flattened epistemic-theory scope:
   `theory/philosophy.md`, the identifiability note `theory/modelling.md`
   (epistemic-element schema), and the former `theory/practice/` notes.
-- `data/epistemica/guidance/` holds what grounds and guides inquiry: the
-  ontic condition notes at its root (`equilibrium`, `stable`, …),
+- `data/epistemica/epistemic/guidance/` holds what grounds and guides inquiry:
+  the ontic condition notes at its root (`equilibrium`, `stable`, …),
   `guidance/principle/` for rules of proceeding (`occam-razor`,
   `minimum-description-length-mdl`, `least-action-principle`, …), and
   `guidance/method/` for the philosophical-method notes.
+- `data/epistemica/epistemic/discipline/` holds the discipline catalogues
+  (mathematics, statistics, computer science, …).
 - A directory under `data/epistemica/` is a **target/operation scope**, not a
   metaphor: a cross-cutting method family is a tag. The former
   `natural-computing/` scope was dissolved on 2026-10-31 into the scopes that
@@ -150,7 +152,8 @@ frontend-facing surface in the deployment; there is no database behind it
   (functions and maps — the functional relations), `relation/` (relations that
   are not functional: `relation`, `order`, `equivalence-relation`, `lattice`,
   `ranking`, `inequality`),
-  `equation/`, `change/`, `space/`,
+  `equation/`, `change/`, `space/`, `metric/`, `measure/`, `norm/` (the norm
+  family, with `norm.md` as its central note and `order: 0`),
   `geometry/`, `construction/`, `method/` (filed by what a routine does to the
   problem: `proof/`, `reduction/`, `approximation/`, `transform/`, `certify/`),
   with `transformation.md` at the domain root. A new mathematical note goes in
@@ -337,12 +340,12 @@ instance-decomposition table:
   `goodness-of-fit.md`, and `confidence-interval.md` (procedure-coverage
   reporting, moved out of the observational domain); calibration is a distinct
   practice, not a synonym for validation.
-- The **singular scope** lives in `epistemica/singular/`: the notes that bind
-  one particular epistemic-element instance rather than a domain —
-  `firm-clustering`, `firm-profiling`, `industry-analysis`, `profile-templates`,
-  `swe-productivity`, `problematization`. The `epistemica/` root keeps the
-  domain catalogues, the master `ees.md`, and the general forms such as
-  `production-function`.
+- The **singular scope** lives in `epistemica/singular/`: the former
+  `science/` notes together with the notes that bind one particular
+  epistemic-element instance rather than a domain — `firm-clustering`,
+  `firm-profiling`, `industry-analysis`, `swe-productivity`,
+  `problematization`, …. The `epistemica/` root keeps the domain catalogues,
+  the master `ees.md`, and the general forms such as `production-function`.
 - **Terminology atlas** — `epistemica/horror/terminology.{json,html}`
   stores and renders the misnomer/legacy/false-friend inventory (statistics,
   probability, measurement); `make terminology-check` validates the store

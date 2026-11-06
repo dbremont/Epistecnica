@@ -86,6 +86,6 @@ Lineage: surface gathering and shallow digging → prospecting by outcrop and fl
 - [Technical Core Catalog](note.html?n=technica/general/cto/industry/technical-core-catalog.md) (the corpus precedent for a set whose members are sets)
 - Members: [Well Logging](note.html?n=technica/general/cto/industry/well-logging.md) · [Mining System](note.html?n=technica/general/cto/industry/mining-system.md) · [Metals Production](note.html?n=technica/general/cto/industry/metals-production.md) · [Nonmetallic Production](note.html?n=technica/general/cto/industry/nonmetallic-production.md)
 - Boundary, deliberately not members: Petroleum Oil (a resource, not a technique) · Metalworking (downstream fabrication) · Materiotecnia (knowledge scaffolding for the processing member)
-- Knowledge: [Earth Science](note.html?n=epistemica/discipline/earth-science.md) (the production-side science the exploration member consumes)
+- Knowledge: [Earth Science](note.html?n=epistemica/epistemic/discipline/earth-science.md) (the production-side science the exploration member consumes)
 - Ground: [Quarry](note.html?n=nature/quarry.md) (the worked landform as observer-independent furniture; the instrument here, the formation there)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (the instrument technically, the formation naturally; well logging's dual reading)

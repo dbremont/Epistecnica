@@ -48,6 +48,29 @@ qa:
 | **Combinatorial structure** | The number of possible configurations is obtained by multiplying the number of choices at successive stages. | Counting paths through a decision tree. |
 | **Measure-product structure** | A multidimensional measure is obtained from the product of measures along independent dimensions. | Rectangle area = length × width. |
 
+## What are the methods for computing a multiplication expression?
+
+| Method | Description | Principle | Origin |
+|---|---|---|---|
+| Repeated addition | Computes a product by adding one factor repeatedly. | Repeated addition | Ancient arithmetic |
+| Direct multiplication | Uses memorized multiplication facts to calculate products directly. | Multiplication tables | Ancient Babylonian and other civilizations |
+| Long multiplication | Multiplies individual digits, produces partial products, and combines them according to place value. | Place-value decomposition | Medieval Indian arithmetic; transmitted through Arabic mathematics |
+| Short multiplication | Performs digit-by-digit multiplication while handling intermediate carries compactly. | Place value and carrying | Traditional arithmetic |
+| Egyptian multiplication | Decomposes a factor into powers of two and adds the corresponding multiples of the other factor. | Binary decomposition; doubling and addition | Ancient Egypt |
+| Russian peasant multiplication | Repeatedly halves one factor, doubles the other, and sums selected products. | Binary decomposition; parity | Ancient Egyptian roots; Russian arithmetic tradition |
+| Lattice multiplication | Organizes digit products in a grid and adds partial products along diagonals. | Positional decomposition and diagonal summation | Medieval Islamic mathematics; European adoption through Fibonacci |
+| Distributive multiplication | Decomposes factors into sums and applies the distributive property. | Distributive law | Classical mathematics |
+| Polynomial expansion | Expands products of algebraic expressions into sums of simpler products. | Distributivity and polynomial algebra | Ancient and medieval algebra |
+| Vedic multiplication | Applies crosswise and vertically organized partial products. | Structured partial-product decomposition | Modern Vedic mathematics literature |
+| Karatsuba multiplication | Divides large integers into smaller parts and reduces four multiplications to three. | Divide and conquer; algebraic identities | Anatoly Karatsuba, 1960–1962 |
+| Toom–Cook multiplication | Splits integers into blocks, evaluates them at selected points, multiplies, and interpolates. | Polynomial evaluation and interpolation | Andrei Toom, 1963; Stephen Cook, 1966 |
+| FFT multiplication | Uses Fourier transforms to convert multiplication into convolution-based computation. | Fourier transform and convolution | Cooley and Tukey, 1965 |
+| NTT multiplication | Uses number-theoretic transforms to compute polynomial and integer products. | Modular arithmetic and convolution | 20th-century computational mathematics |
+| Schönhage–Strassen | Uses fast Fourier-transform techniques to multiply extremely large integers. | Fast convolution and transform methods | Schönhage and Strassen, 1971 |
+| Standard matrix multiplication | Computes each output element as the sum of pairwise products of a row and a column. | Dot products and linear algebra | Classical linear algebra |
+| Strassen's multiplication | Reduces the number of block multiplications in matrix multiplication from eight to seven. | Divide and conquer; algebraic identities | Volker Strassen, 1969 |
+| Coppersmith–Winograd | Uses algebraic constructions to improve the asymptotic complexity of matrix multiplication. | Algebraic complexity theory | Coppersmith and Winograd, 1990 |
+
 ## References
 
 - [Khan Academy — Multiplication and division](https://www.khanacademy.org/math/arithmetic)
@@ -60,5 +83,4 @@ qa:
 - [Multiplication Table](https://en.wikipedia.org/wiki/Multiplication_table)
 - [Tsinghua Bamboo Slips](https://en.wikipedia.org/wiki/Tsinghua_Bamboo_Slips)
 - [Mathematical table](https://en.wikipedia.org/wiki/Mathematical_table)
-- 
 

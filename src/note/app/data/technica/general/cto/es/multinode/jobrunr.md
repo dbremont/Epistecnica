@@ -261,6 +261,6 @@ public void processOrder(UUID orderId, JobContext context) {
 - [JobRunr Documentation — Introduction](https://www.jobrunr.io/en/documentation/)
 - [jobrunr/jobrunr on GitHub](https://github.com/jobrunr/jobrunr)
 - [JobRunr compared (alternatives)](https://www.jobrunr.io/en/documentation/alternatives/)
-- [Spring Boot](note.html?n=technica/cto/es/multinode/spring-boot.md)
-- [Sidekiq](note.html?n=technica/cto/es/multinode/sidekiq.md)
+- [Spring Boot](note.html?n=technica/general/cto/es/multinode/spring-boot.md)
+- [Sidekiq](note.html?n=technica/general/cto/es/multinode/sidekiq.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

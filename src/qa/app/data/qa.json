@@ -61,5 +61,37 @@
       "economic"
     ],
     "status": "open"
+  },
+  {
+    "id": "qa-00005",
+    "question": "What is the relation between a mathematical norm and a metric?",
+    "answer": "A norm is a size on a vector space; a metric is a distance on a bare set. Every norm induces a metric by d(x,y) = ‖x − y‖, and that induced metric carries two marks an arbitrary metric need not carry: it is translation-invariant, d(x+z, y+z) = d(x,y), and homogeneous, d(λx, λy) = |λ| d(x,y). A metric induces a norm only when the carrier is a vector space and both marks hold — then ‖x‖ = d(x,0) is a norm and d is recovered from it.\n\nWithout both marks the converse fails: the discrete metric, and any bounded metric such as min(d,1), satisfy the metric axioms and produce no norm. So the implication runs one way, and it is a chain of losses — inner product → norm → metric → topology. An inner product adds angles, a norm adds linear structure to lengths, a metric keeps distances but forgets addition and scaling, a topology keeps only openness. Two norms that induce the same metric are equal; two norms that induce the same topology may differ on every vector, which is why equivalence of norms is weaker than equality.",
+    "agent": "human",
+    "run": "derived-001",
+    "date": "2026-11-04",
+    "source": "manual",
+    "tags": [
+      "mathematical",
+      "norm",
+      "metric",
+      "space"
+    ],
+    "status": "answered"
+  },
+  {
+    "id": "qa-00006",
+    "question": "What is the relation of quantification and a measure in mathematics?",
+    "answer": "They are siblings with different relata. Quantification binds a magnitude to an item under a declared unit and scale; a measure binds a size to a set under an internal normalization. That is why the unit is external in the one and absent in the other: 3.2 m names the metre, while μ(A) names nothing — the unit cube is worth one because the scheme says so.\n\nThe relation is a generalisation in the second argument: a measure assigns its value to a whole collection, so how much becomes defined for sets that are not items at all. They meet in three places. The counting measure is cardinality read as a measure — the counting quantification with its implicit unit made explicit. A probability measure is the measure an event algebra carries, and the one fitted to observations rather than declared. The Lebesgue measure is what makes length, area and volume quantified attributes in the first place, the mathematical object standing behind the unit.\n\nThe test that separates them in a sentence: ask whether the value attaches to an item or to a set, and whether the unit is external or internal. Applied to a finite collection the two coincide — which is why counting sits on the boundary; applied to a single body's mass, only quantification applies.",
+    "agent": "human",
+    "run": "derived-001",
+    "date": "2026-11-04",
+    "source": "manual",
+    "tags": [
+      "mathematical",
+      "quantification",
+      "measure",
+      "quantity"
+    ],
+    "status": "answered"
   }
 ]

@@ -96,7 +96,7 @@
                     (tags ? '<div style="margin-top:6px">' + tags + '</div>' : '') + '</a>';
             }).join('') || '<p><em>No matches.</em></p>';
         }
-        fetch('data/qa-index.json', { headers: { Accept: 'application/json' } })
+        fetch('data/qa-index.json', { cache: 'no-cache', headers: { Accept: 'application/json' } })
             .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
             .then(function (idx) {
                 entries = idx.entries || [];

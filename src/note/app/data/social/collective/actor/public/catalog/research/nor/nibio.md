@@ -8,7 +8,7 @@ tags: [actor, research-institute, state-agency, norway, bioeconomy]
 
 > It is the instrument through which Norwegian agricultural research became one body rather than five. Before the merger, plant genetics, forest, agricultural economics, and applied agricultural research sat in separate institutes with separate mandates and separate relationships to the state. After it, they answer to one board, under one ministry, from one site at Ås. The institute defines the bioeconomy it serves in its own words: an economy that exploits biological resources from land and sea, and waste, as inputs for food, energy, and other goods and services.
 
-> Framed per [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md). The science it produces is decomposed as [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md) and [Earth Science](note.html?n=epistemica/discipline/earth-science.md); the instruments it runs are technique; the farming economy it serves is production.
+> Framed per [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md). The science it produces is decomposed as [Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md) and [Earth Science](note.html?n=epistemica/epistemic/discipline/earth-science.md); the instruments it runs are technique; the farming economy it serves is production.
 
 ## Formulation
 
@@ -112,5 +112,5 @@ Lineage: scattered agricultural experiment stations and forestry research under 
 - [Brønnøysundregistrene — organization 988983837](https://virksomhet.brreg.no/nb/oppslag/enheter/988983837) (legal identity)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md) (decomposition schema; layer and facet test)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (the science this institute produces)
-- [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md) · [Earth Science](note.html?n=epistemica/discipline/earth-science.md) (the domains NIBIO's output enters)
+- [Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md) · [Earth Science](note.html?n=epistemica/epistemic/discipline/earth-science.md) (the domains NIBIO's output enters)
 - [Plant Genetic Improvement](note.html?n=technica/general/cto/es/multinode/plant-genetic-improvement.md) (the activity its gene bank and breeding division feed)

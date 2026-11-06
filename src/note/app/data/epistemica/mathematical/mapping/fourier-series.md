@@ -10,7 +10,7 @@ tags: [analytical, function, representation]
 
 > **What it is.** The periodic case of the Fourier transform, and the oldest instance of an orthonormal expansion: the functions $e^{inx}$ form an orthogonal basis of $L^2$ on a period, so a function is its list of coefficients in that basis.
 >
-> **Type.** A `Concept` — a representational construction. The [Fourier transform](../../science/fourier-transform.md) is its non-periodic limit; the [integral transform](integral-transform.md) is the general frame.
+> **Type.** A `Concept` — a representational construction. The [Fourier transform](note.html?n=epistemica/singular/fourier-transform.md) is its non-periodic limit; the [integral transform](integral-transform.md) is the general frame.
 >
 > **Boundary.** Pointwise convergence is delicate (Gibbs phenomenon, Dirichlet conditions); $L^2$ convergence is the clean statement, because there the harmonics really are a basis of a [Hilbert space](../space/hilbert-space.md).
 
@@ -24,4 +24,4 @@ tags: [analytical, function, representation]
 ## References
 
 - https://en.wikipedia.org/wiki/Fourier_series
-- [Fourier Transform](../../science/fourier-transform.md) · [Harmonic Analysis](harmonic-analysis.md) · [Hilbert Space](../space/hilbert-space.md) · [Wavelet](wavelet.md)
+- [Fourier Transform](note.html?n=epistemica/singular/fourier-transform.md) · [Harmonic Analysis](harmonic-analysis.md) · [Hilbert Space](../space/hilbert-space.md) · [Wavelet](wavelet.md)

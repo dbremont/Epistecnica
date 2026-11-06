@@ -10,7 +10,7 @@ tags: [method, technique]
 
 > **What it is.** The routine of *reductio ad absurdum*. Assume $\lnot P$, derive a formula and its negation (or a falsehood), conclude $P$. Its close relative, proof by contrapositive, proves $P \Rightarrow Q$ by proving $\lnot Q \Rightarrow \lnot P$; the two are often conflated and are not the same move.
 >
-> **Type.** An `Epistemic Method`; in the [ZFC](../../../theory/foundation/zfc.md) setting it is licensed by classical logic, and its validity is exactly the law of excluded middle.
+> **Type.** An `Epistemic Method`; in the [ZFC](note.html?n=epistemica/epistemic/theory/foundation/zfc.md) setting it is licensed by classical logic, and its validity is exactly the law of excluded middle.
 >
 > **Boundary.** In constructive mathematics a proof by contradiction proves only $\lnot\lnot P$, never $P$ — this is the line between classical and intuitionistic logic, and the reason some existence proofs are non-constructive.
 
@@ -25,4 +25,4 @@ tags: [method, technique]
 ## References
 
 - https://en.wikipedia.org/wiki/Proof_by_contradiction
-- [Diagonalization](diagonalization.md) · [Descent](descent.md) · [ZFC](../../../theory/foundation/zfc.md) · [Extremal Principle](extremal-principle.md)
+- [Diagonalization](diagonalization.md) · [Descent](descent.md) · [ZFC](note.html?n=epistemica/epistemic/theory/foundation/zfc.md) · [Extremal Principle](extremal-principle.md)

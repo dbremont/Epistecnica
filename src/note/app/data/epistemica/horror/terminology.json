@@ -50,8 +50,8 @@
         "standardized-normalized"
       ],
       "notes": [
-        "epistemica/discipline/probability.md",
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/probability.md",
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -192,7 +192,7 @@
         "central-limit-theorem"
       ],
       "notes": [
-        "epistemica/discipline/probability.md"
+        "epistemica/epistemic/discipline/probability.md"
       ],
       "sources": [
         {
@@ -226,8 +226,8 @@
         "expectation"
       ],
       "notes": [
-        "epistemica/discipline/probability.md",
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/probability.md",
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -262,7 +262,7 @@
         "maximum-likelihood-estimator"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md",
+        "epistemica/epistemic/discipline/statistics.md",
         "epistemica/validation/calibration.md"
       ],
       "sources": [
@@ -335,7 +335,7 @@
         "likelihood-vs-probability"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md",
+        "epistemica/epistemic/discipline/statistics.md",
         "epistemica/validation/calibration.md"
       ],
       "sources": [
@@ -370,7 +370,7 @@
         "normal-distribution"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -405,8 +405,8 @@
         "expectation"
       ],
       "notes": [
-        "epistemica/discipline/probability.md",
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/probability.md",
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -444,7 +444,7 @@
         "normal-distribution"
       ],
       "notes": [
-        "epistemica/discipline/probability.md"
+        "epistemica/epistemic/discipline/probability.md"
       ],
       "sources": [
         {
@@ -590,7 +590,7 @@
         "expectation"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -623,7 +623,7 @@
         "standard-error"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -690,7 +690,7 @@
         "maximum-likelihood-estimator"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -759,7 +759,7 @@
       ],
       "notes": [
         "epistemica/observational/computational/regression.md",
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -849,8 +849,8 @@
         "random-sample"
       ],
       "notes": [
-        "epistemica/discipline/probability.md",
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/probability.md",
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -881,7 +881,7 @@
         "iid"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -913,7 +913,7 @@
         "prior-posterior"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -948,7 +948,7 @@
         "likelihood-vs-probability"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -1014,7 +1014,7 @@
         "bias"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -1050,7 +1050,7 @@
         "maximum-likelihood-estimator"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -1083,7 +1083,7 @@
         "bias"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -1118,7 +1118,7 @@
         "bias"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -1153,7 +1153,7 @@
         "endogeneity"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md",
+        "epistemica/epistemic/discipline/statistics.md",
         "epistemica/causality/causality.md"
       ],
       "sources": [
@@ -1188,7 +1188,7 @@
         "instrumental-variable"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md",
+        "epistemica/epistemic/discipline/statistics.md",
         "epistemica/causality/causality.md"
       ],
       "sources": [
@@ -1222,7 +1222,7 @@
         "standard-error"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {
@@ -1290,7 +1290,7 @@
         "nonparametric"
       ],
       "notes": [
-        "epistemica/discipline/statistics.md"
+        "epistemica/epistemic/discipline/statistics.md"
       ],
       "sources": [
         {

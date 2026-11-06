@@ -124,7 +124,7 @@ It is distinct from `Strategy` (the ends/means selection over a horizon), from `
 
 ### Why use the term `Gubernata`?
 
-> Spanish *política* means both policy and politics: the purposeful, instrumental course of action and the contestation for power. Where the language fuses them, the instrument is read as partisanship and the contest as strategy — see [The Policy-Politics Conflation Hypothesis](note.html?n=essays/the-policy-politics-conflation-hypothesis-language-structure-and-development-outcomes.md). *Gubernata* — Latin neuter plural of *gubernare*, to steer; the things steered — names only the policy side: the authorized course operationalized through instruments, binding on action regardless of who contests power. Use it wherever Spanish would force the ambiguous *política*, and keep `Politics` for the contestation itself.
+> Spanish *política* means both policy and politics: the purposeful, instrumental course of action and the contestation for power. Where the language fuses them, the instrument is read as partisanship and the contest as strategy — see [The Policy-Politics Conflation Hypothesis](note.html?n=unclassified/the-policy-politics-conflation-hypothesis-language-structure-and-development-outcomes.md). *Gubernata* — Latin neuter plural of *gubernare*, to steer; the things steered — names only the policy side: the authorized course operationalized through instruments, binding on action regardless of who contests power. Use it wherever Spanish would force the ambiguous *política*, and keep `Politics` for the contestation itself.
 
 ### What Is the Relationship Between Implementation and Instrumentalization?
 

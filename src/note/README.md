@@ -29,24 +29,26 @@ src/note/
 - Regenerate the search index after any corpus change: `make notes-index`.
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
-  section (`epistemica`, `nature`, `technica`, `social`, `history`,
-  `essays`, `meta`). The former `human/` section is now `nature/human/`.
+  section (`epistemica`, `nature`, `technica`, `social`, `unclassified`,
+  `meta`). The former `human/` section is now `nature/human/`, the former
+  `history/` section is now `social/history/`, and the former `essays/`
+  section is now `unclassified/`.
 
 ## Merged Naturgnosis corpus
 
 The Naturgnosis note space was merged into this corpus (2026-11-02). The
 filing rules that shaped it:
 
-- `nature/` and `epistemica/` merge in place; `social/`, `history/` and
-  `meta/` are their own sections. The former `human/` section was later
-  folded into `nature/human/` (2026-11-06).
+- `nature/` and `epistemica/` merge in place; `social/` (including
+  `social/history/`), `unclassified/` and `meta/` are their own sections. The
+  former `human/` section was later folded into `nature/human/` (2026-11-06).
 - `technique/` became `technica/`: industrial, material, energy and
   production notes live under `technica/general/cto/industry/`, technical
   domain sets under `technica/general/cto/es/multinode/`, and formation
   institutions (schools, universities) under
   `technica/general/op/formation/`.
-- `general/` and `miscellanea/` became `essays/`.
-- `data-collection/` moved under `epistemica/observational/data-collection/`.
+- `general/` and `miscellanea/` became `unclassified/` (initially `essays/`).
+- `data-collection/` moved under `epistemica/data/`.
 - On collisions the Epistecnica note was kept and the incoming file skipped
   (same destination path, or same section + title). Links were rewritten
   through the resulting path map, so no note carries a stale Naturgnosis
@@ -105,11 +107,16 @@ companion is `data/epistemica/ees.md`.
   scope, with `space/space.md` as the master note. Related foundational
   notes (structure, geometry, topology, order, measure, algebra, coordinate
   systems) stay in `mathematical/` and are reached through `links.json`.
-- The science scope lives in `epistemica/science/` (renamed from
-  `computational-science/`): the physical theories and frameworks (quantum
-  field theory, statistical mechanics, gauge theory, the classical field
-  theories, the mechanical formulations), the domain's spaces, systems, and
-  elements, and the numerical and simulation methods used on them.
+- The singular scope lives in `epistemica/singular/`: the former `science/`
+  scope (renamed from `computational-science/`) — the physical theories and
+  frameworks (quantum field theory, statistical mechanics, gauge theory, the
+  classical field theories, the mechanical formulations), the domain's
+  spaces, systems, and elements, and the numerical and simulation methods used
+  on them — together with the notes that bind one particular epistemic-element
+  instance (`firm-clustering`, `firm-profiling`, `industry-analysis`,
+  `swe-productivity`, `problematization`, …). The root keeps the domain
+  catalogues, the master `ees.md`, and the general forms such as
+  `production-function`.
 - The construction scope lives in `epistemica/construction/`: the named
   constructions — the theories, laws, and models stated about particular
   systems (Navier–Stokes, Fick's laws, Lotka–Volterra, general equilibrium,
@@ -140,11 +147,6 @@ companion is `data/epistemica/ees.md`.
   `terminology.json` (the store) and `terminology.html` (searchable cards and
   table over misnomers, legacy names and false friends in statistics,
   probability and measurement); `make terminology-check` validates the store.
-- The singular scope lives in `epistemica/singular/`: the notes that bind one
-  particular epistemic-element instance rather than a domain —
-  `firm-clustering`, `firm-profiling`, `industry-analysis`, `profile-templates`,
-  `swe-productivity`, `problematization`. The root keeps the domain catalogues,
-  the master `ees.md`, and the general forms such as `production-function`.
 - Cross-cutting method families are carried as tags, not scopes. The former
   `natural-computing/` scope was dissolved into the scope that owns each note's
   operation — the evolutionary and swarm optimizers into `optimization/`,
@@ -194,15 +196,18 @@ is the human natural system; the subsection keeps the source's collection tree
 
 ## Theory corpus
 
-`data/epistemica/theory/` is the flattened epistemic-theory scope:
+`data/epistemica/epistemic/theory/` is the flattened epistemic-theory scope:
 `theory/philosophy.md`, the identifiability note `theory/modelling.md`,
 and the former `theory/practice/` notes.
 
-`data/epistemica/guidance/` holds what grounds and guides inquiry: the
-ontic condition notes at its root (`equilibrium`, `stable`, …),
+`data/epistemica/epistemic/guidance/` holds what grounds and guides inquiry:
+the ontic condition notes at its root (`equilibrium`, `stable`, …),
 `guidance/principle/` for rules of proceeding (`occam-razor`,
 `minimum-description-length-mdl`, …), and `guidance/method/` for the
 philosophical-method notes.
+
+`data/epistemica/epistemic/discipline/` holds the discipline catalogues
+(mathematics, statistics, computer science, …).
 
 `data/nature/theory/` holds the natural-ontology theory scope: the ontic
 element notes (event, causality, system, segment, reality, …), the local

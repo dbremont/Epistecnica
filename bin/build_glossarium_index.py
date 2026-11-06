@@ -2,17 +2,18 @@
 """
 Glossarium index builder.
 
-Reads the hand-maintained term corpus src/glossarium/app/data/terms.json
-(`{generated, count, terms: [{slug, name, aliases, body}]}`) and emits
-src/glossarium/app/data/index.json — the lookup corpus for the glossarium
-catalog (/glossarium/), the term search and the select-a-word popup on the
-note pages. Stdlib only.
+Scans the hand-maintained term corpus src/glossarium/app/terms/*.md — one
+markdown file per term — and emits src/glossarium/app/data/index.json, the
+lookup corpus for the glossarium catalog (/glossarium/), the term search and
+the select-a-word popup on the note pages. Stdlib only.
 
-terms.json is the source of truth and is left untouched; index.json is the
-only derived artifact (slug, name, aliases, excerpt, lowercased plain text,
-word count). Slugs are validated against the naming convention (see
-src/glossarium/README.md); violations print as warnings and never fail the
-build.
+Each file is the term: the slug is the filename stem, the name is the first
+`# ` heading, `aliases: [...]` front matter carries the alternative spellings,
+and the rest is the body. The markdown is the source of truth and is served
+as-is at /glossarium/terms/<slug>.md; index.json is the only derived artifact
+(slug, name, aliases, excerpt, lowercased plain text, word count). Slugs are
+validated against the naming convention (see src/glossarium/README.md);
+violations print as warnings and never fail the build.
 
 The build is chunked and progress-aware (bin/indexlib.py), so
 bin/index_jobs.py can run it in the background like every other builder.
@@ -30,11 +31,13 @@ from indexlib import atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
 APP = REPO / "src" / "glossarium" / "app"
-SRC = APP / "data" / "terms.json"
+SRC = APP / "terms"
 OUT = APP / "data" / "index.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
+FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
+ALIASES_RE = re.compile(r"^aliases:\s*\[(.*)\]\s*$")
 MARKUP_RE = re.compile(r"[*_>`|]")
 
 EXCERPT_LEN = 240
@@ -58,33 +61,53 @@ def excerpt(text: str) -> str:
     return cut
 
 
+def parse(path: Path):
+    """Return (name, aliases, body) per the glossarium conventions."""
+    md = path.read_text(encoding="utf-8", errors="replace")
+
+    aliases = []
+    fm = FRONT_MATTER_RE.match(md)
+    if fm:
+        for line in fm.group(1).splitlines():
+            m = ALIASES_RE.match(line.strip())
+            if m:
+                aliases = [
+                    a.strip().strip("'\"")
+                    for a in m.group(1).split(",")
+                    if a.strip()
+                ]
+        md = md[fm.end():]
+
+    name = None
+    for line in md.splitlines():
+        m = HEADING_RE.match(line)
+        if m and len(m.group(1)) == 1:
+            name = m.group(2).strip()
+            break
+    if name is None:
+        name = path.stem.replace("-", " ")
+    return name, aliases, md
+
+
 def build(progress=None) -> bool:
-    if not SRC.is_file():
-        print(f"ERROR: terms file not found: {SRC}", file=sys.stderr)
+    if not SRC.is_dir():
+        print(f"ERROR: terms directory not found: {SRC}", file=sys.stderr)
         return False
 
-    try:
-        src = json.loads(SRC.read_text(encoding="utf-8"))
-    except ValueError as exc:
-        print(f"ERROR: invalid JSON in {SRC}: {exc}", file=sys.stderr)
-        return False
-
-    raw_terms = src.get("terms", []) if isinstance(src, dict) else []
+    files = sorted(SRC.glob("*.md"))
     if progress is not None:
-        progress.set_total(len(raw_terms))
-        progress.start(f"indexing {len(raw_terms)} terms")
+        progress.set_total(len(files))
+        progress.start(f"indexing {len(files)} terms")
 
     warnings = []
     terms = []
-    for t in raw_terms:
-        if not isinstance(t, dict):
-            continue
-        slug = t.get("slug", "")
-        name = t.get("name", "") or slug.replace("-", " ")
-        aliases = [a for a in (t.get("aliases") or []) if isinstance(a, str)]
-        body = t.get("body", "") or ""
+    for path in files:
+        slug = path.stem
+        name, aliases, body = parse(path)
         if not NAME_RE.match(slug):
-            warnings.append(slug or "(missing slug)")
+            warnings.append(f"{slug} (not kebab-case)")
+        if not body.lstrip().startswith("# "):
+            warnings.append(f"{slug} (no `# ` heading; name falls back to the slug)")
         text = plain_text(body)
         terms.append({
             "slug": slug,

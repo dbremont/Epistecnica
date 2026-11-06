@@ -6,7 +6,7 @@ tags: [plant, breeding, genetics, genome-editing]
 
 > **Plant Genetic Improvement** is the set of practices that turns germplasm into a new variety. It is not one method: breeding, marker and genomic tooling, transformation, genome editing, testing, seed production, and the regulation that admits the lot are separate practices held together by one purpose, and any of them alone yields no sellable variety. Framing: the Spanish encyclopedia article [Mejoramiento genético](https://es.wikipedia.org/wiki/Mejoramiento_gen%C3%A9tico) — increase productivity, resistance, adaptation and product quality by modifying the genotype, managing genetic resources by selection, and conserving long-term variability. That article carries a maintenance banner for missing published references, so it is used here as orientation and every technical claim is anchored in the literature listed in [References](#references); its bibliography is the source of the historical works below.
 >
-> The plant half of the article's scope is the cut: animal breeding is out. What is also out: the crop regime the variety is planted into ([Plant Cultivation](note.html?n=technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md)), the inquiry that warrants knowing the genotype and the phenotype ([Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md)), and the institutions that own and certify the seed (social, not technical here). The plant as a living system is natural; this note decomposes the apparatus that changes it, not the organism (Ambiguity Resolution (`guideline/ambiguity_resolution.md`)).
+> The plant half of the article's scope is the cut: animal breeding is out. What is also out: the crop regime the variety is planted into ([Plant Cultivation](note.html?n=technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md)), the inquiry that warrants knowing the genotype and the phenotype ([Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md)), and the institutions that own and certify the seed (social, not technical here). The plant as a living system is natural; this note decomposes the apparatus that changes it, not the organism (Ambiguity Resolution (`guideline/ambiguity_resolution.md`)).
 
 ## Formulation
 
@@ -385,8 +385,8 @@ Entries above are in APA style. Historical works and the well-known papers are g
 ## Related notes
 
 - [Plant Cultivation Technical Domain Set](note.html?n=technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) — the regime the improved variety is planted into; its Varietal Improvement Set is this note's container
-- [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md) — the inquiry behind QTL estimation, genomic prediction, and trial design
-- [Earth Science](note.html?n=epistemica/discipline/earth-science.md) — the G × E structure and the climate and soils that set the adaptation range
+- [Agricultural Science](note.html?n=epistemica/epistemic/discipline/agricultural-science.md) — the inquiry behind QTL estimation, genomic prediction, and trial design
+- [Earth Science](note.html?n=epistemica/epistemic/discipline/earth-science.md) — the G × E structure and the climate and soils that set the adaptation range
 - [Biotechnology](note.html?n=technica/general/cto/es/multinode/biotechnology.md) — the wider ensemble this set sits in
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) — the instrument technically, the organism naturally
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
