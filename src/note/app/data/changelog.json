@@ -22021,7 +22021,8 @@
       {
         "date": "2026-11-05",
         "kind": "feat",
-        "summary": "add Menshevik leader persona note"
+        "summary": "add Menshevik leader persona note",
+        "commit": "eb55f6849c3ba43e150e2300e7fdfb1e069ae959"
       }
     ]
   },
