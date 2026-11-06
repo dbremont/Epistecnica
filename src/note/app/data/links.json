@@ -139,7 +139,7 @@
       "kind": "related"
     },
     {
-      "from": "epistemica/theory/",
+      "from": "epistemica/epistemic/",
       "to": "nature/theory/",
       "label": "Theory of Nature",
       "kind": "hierarchy"
