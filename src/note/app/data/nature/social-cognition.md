@@ -1,5 +1,5 @@
 ---
-tags: [nature, natural-system]
+tags: [nature, natural-system, human, cognition, system]
 ---
 
 # Social Cognition
@@ -14,7 +14,8 @@ tags: [nature, natural-system]
 
 ### What is this natural instance?
 
-**Social Cognition**: natural instance imported from the Notion export; definition not yet worked.
+> The cognitive system is involved in understanding and interpreting social information, including theory of mind, empathy, perspective-taking, and attribution of mental states to others.
+>
 
 ### What is the recursive instance decomposition of this natural instance?
 
@@ -39,3 +40,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Brain a0dba22360494722a05b837c34806772.md`
+- Notion export: `Modelo/Human/Cognitive/Conceptual Model Cognition/Social Cognition bb3753bc12e94143951a6b5a24c32b83.md`

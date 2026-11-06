@@ -1,5 +1,5 @@
 ---
-tags: [nature, substance-matter]
+tags: [nature, substance-matter, human, cognition, linguistics, unfinished]
 ---
 
 # Linguistics
@@ -14,7 +14,8 @@ tags: [nature, substance-matter]
 
 ### What is this natural instance?
 
-**Linguistics**: natural instance imported from the Notion export; definition not yet worked.
+> …
+>
 
 ### What is the recursive instance decomposition of this natural instance?
 
@@ -39,3 +40,8 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Power Law b3b74b36ef5d410dae3b1ad0a2b9fd52.md`
+- [Applied linguistics](https://en.wikipedia.org/wiki/Applied_linguistics)
+- https://en.wikipedia.org/wiki/Philology
+- https://en.wikipedia.org/wiki/Linguistics
+- https://plato.stanford.edu/entries/computational-linguistics/
+- Notion export: `Modelo/Human/Cognitive/Conceptual Model Cognition/Linguistics d251e291664c4d029bf423814e957760.md`

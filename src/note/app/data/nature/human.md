@@ -1,5 +1,5 @@
 ---
-tags: [nature, natural-system, biology, system]
+tags: [nature, natural-system, biology, system, human, behavior, unfinished]
 ---
 
 # Human
@@ -8,6 +8,9 @@ tags: [nature, natural-system, biology, system]
 >
 
 ## Index
+
+- [Cognitive](note.html?n=nature/cognitive.md)
+- [Behavioral](note.html?n=nature/behavioral.md)
 
 ## Systems Catalog
 
@@ -159,3 +162,4 @@ tags: [nature, natural-system, biology, system]
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Human 20bc0f5171ec804499ccd7b830f5f5ec.md`
+- Notion export: `Modelo/Human 24cc0f5171ec8037924cc34bde27159a.md`

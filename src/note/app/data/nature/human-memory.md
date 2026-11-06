@@ -290,7 +290,7 @@ The human memory system can be broadly divided into three main components: senso
 > “Typical Time Scale” refers to how long the learner usually remains in that cognitive state **before transitioning to the next one, assuming normal practice and no major disruptions**.
 >
 
-> See more in [Learning ](note.html?n=human/cognitive/conceptual-model-cognition/learning.md).
+> See more in [Learning ](note.html?n=nature/learning.md).
 >
 
 > Note:  Cognitive States in the column - row (metrics).
@@ -324,10 +324,10 @@ The human memory system can be broadly divided into three main components: senso
 
 ## References
 
-- [Learning ](note.html?n=human/cognitive/conceptual-model-cognition/learning.md)
+- [Learning ](note.html?n=nature/learning.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - https://en.wikipedia.org/wiki/Memory
-- [Bloom’s Taxonomy](note.html?n=human/cognitive/conceptual-model-cognition/blooms-taxonomy.md)
+- [Bloom’s Taxonomy](note.html?n=nature/human/cognitive/conceptual-model-cognition/blooms-taxonomy.md)
 - https://en.wikipedia.org/wiki/Neuropsychology
 - [https://gist.github.com/dbremont/fd5a44f3d064ad23ac8e3612f828e216#neuroscience](https://gist.github.com/dbremont/fd5a44f3d064ad23ac8e3612f828e216#neuroscience)
 - [‣](https://app.notion.com/p/170598edb79080339583c31477a73faa?pvs=21)

@@ -17,7 +17,8 @@ and the hub points at it.
   graphs; the hub links to it from its entry index, and the old local graph
   apps were retired (their URLs 302). The lexical corpus (glossarium) and the
   Q/A log are served locally next to the note corpus (`/glossarium/`, `/qa/`),
-  which now also carries the natural, social, human, historical and essay
+  which now also carries the natural material (including the human cognition
+  and behaviour corpus under `nature/human/`), social, historical and essay
   material migrated from the Naturgnosis note space.
 - **Corpora** — `src/note/`, `src/course/`, `src/document/`: catalogs + viewers
   over a local markdown corpus, with generated JSON indexes.
@@ -430,6 +431,12 @@ instance-decomposition table:
   in notes. The directory is created with the first note (like the other
   sections, the top-level dir is the section); run `make notes-index`
   after any corpus edit.
+- `nature/human/` is the human cognition and behaviour corpus (the former
+  top-level `human/` section, folded in on 2026-11-06). It is filed under
+  `nature/` because its object is the human natural system; its masters
+  (`human`, `cognitive`, `behavioral`) and the element notes that duplicated a
+  natural note were merged into the `nature/` notes of the same name and are
+  not present twice. Links use `n=nature/human/…`.
 
 ## On Extracting Content from a Document
 

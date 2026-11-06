@@ -1,5 +1,5 @@
 ---
-tags: [nature, natural-system]
+tags: [nature, natural-system, human, cognition, system]
 ---
 
 # Motor Control
@@ -14,7 +14,8 @@ tags: [nature, natural-system]
 
 ### What is this natural instance?
 
-**Motor Control**: natural instance imported from the Notion export; definition not yet worked.
+> The cognitive system is responsible for planning, coordinating, and executing voluntary movements involving motor planning, sequencing, and learning.
+>
 
 ### What is the recursive instance decomposition of this natural instance?
 
@@ -39,3 +40,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Brain a0dba22360494722a05b837c34806772.md`
+- Notion export: `Modelo/Human/Cognitive/Conceptual Model Cognition/Motor Control 5bf536b41b804753b9e05b2f7b072cb8.md`

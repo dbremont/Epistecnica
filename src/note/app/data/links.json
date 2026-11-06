@@ -187,7 +187,7 @@
       "kind": "hierarchy"
     },
     {
-      "from": "human/cognitive/conceptual-model-cognition/",
+      "from": "nature/human/cognitive/conceptual-model-cognition/",
       "to": "nature/cognition/meaning.md",
       "label": "Meaning",
       "kind": "related"

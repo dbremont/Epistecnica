@@ -18,10 +18,9 @@ src/note/
     │   ├── changelog.json        # per-note edit history (hand-edited)
     │   ├── changelog.schema.json # schema for changelog.json
     │   ├── epistemica/  # epistemical notes (Modelling domains + elements; theory/ scope)
-    │   ├── nature/      # natural notes (natural elements; theory/ = ontology)
+    │   ├── nature/      # natural notes (natural elements; theory/ = ontology; human/ = cognition + behaviour)
     │   ├── technica/    # technical notes (cto/, pto/, op/, computation/, industry/, formation/)
     │   ├── social/      # social-reality notes (the Naturgnosis social space corpus)
-    │   ├── human/       # human cognition + behaviour notes
     │   ├── history/     # historical notes (polities, eras, technology history)
     │   ├── essays/      # essays and case studies (former general/ + miscellanea/)
     │   └── meta/        # the philosophia guides, mirrored from Naturgnosis
@@ -30,16 +29,17 @@ src/note/
 - Regenerate the search index after any corpus change: `make notes-index`.
 - Notes are plain markdown with zero required metadata: title comes from the
   first `# ` heading (else the filename); the top-level directory is the
-  section (`epistemica`, `nature`, `technica`, `social`, `human`, `history`,
-  `essays`, `meta`).
+  section (`epistemica`, `nature`, `technica`, `social`, `history`,
+  `essays`, `meta`). The former `human/` section is now `nature/human/`.
 
 ## Merged Naturgnosis corpus
 
 The Naturgnosis note space was merged into this corpus (2026-11-02). The
 filing rules that shaped it:
 
-- `nature/` and `epistemica/` merge in place; `social/`, `human/`,
-  `history/` and `meta/` are their own sections.
+- `nature/` and `epistemica/` merge in place; `social/`, `history/` and
+  `meta/` are their own sections. The former `human/` section was later
+  folded into `nature/human/` (2026-11-06).
 - `technique/` became `technica/`: industrial, material, energy and
   production notes live under `technica/general/cto/industry/`, technical
   domain sets under `technica/general/cto/es/multinode/`, and formation
@@ -164,6 +164,27 @@ notes, preserving the export's subcollection tree
   corpus is now the source of truth.
 - The import is mechanical: the notes have not yet been converted to the
   technical schema owned by the canonical philosophia guide.
+- Run `make notes-index` afterwards, as for any corpus edit.
+
+## Human corpus
+
+`data/nature/human/` holds the human cognition and behaviour notes migrated
+from the Notion *Human* space. They live under `nature/` because their object
+is the human natural system; the subsection keeps the source's collection tree
+(`nature/human/cognitive/conceptual-model-cognition/...`).
+
+- The section masters (`human`, `cognitive`, `behavioral`) and the element
+  notes whose natural counterpart already existed (`attention`, `emotion`,
+  `language`, `learning`, `linguistics`, `motor-control`, `perception`,
+  `reference`, `social-cognition`, `connectome`) were merged into the
+  `nature/` notes of the same name (2026-11-06). The merged notes keep the
+  naturalis schema shell — title, intro quote, `## Formulation` with the three
+  questions, `## References` — with the imported sections following
+  `Formulation` and the human definition replacing the "not yet worked"
+  placeholder.
+- The rest of the subtree was moved verbatim and its links re-pointed from
+  `human/…` to `nature/human/…`; every moved note carries a `refactor`
+  changelog log for the move.
 - Run `make notes-index` afterwards, as for any corpus edit.
 
 ## Theory corpus

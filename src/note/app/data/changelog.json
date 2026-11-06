@@ -20518,6 +20518,26 @@
     ]
   },
   {
+    "file_path": "nature/attention.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/behavioral.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
     "file_path": "nature/cognition/meaning.md",
     "logs": [
       {
@@ -20569,6 +20589,26 @@
     ]
   },
   {
+    "file_path": "nature/cognitive.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/construction/connectome.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
     "file_path": "nature/construction/principle/minimal.md",
     "logs": [
       {
@@ -20576,6 +20616,1176 @@
         "kind": "feat",
         "summary": "Add the Minimal Principle note (minimal-compositionality reading).",
         "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/emotion.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human-memory.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point the learning and Bloom taxonomy links into nature/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/behavior.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/biobehavior.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/decision-maker.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/herding-behavior.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/incentive-structure.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/incentive.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/mental-health.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/personal-behavioral-pathology.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/personality.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/behavioral/conceptual-model-behavioral/social-behavioral-pathology.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/abstraction.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/analogies.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/belief.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/categorization.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/abbreviation.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/abductive-reasoning.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/abstraction.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/act-r-adaptive-control-of-thought-rational.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/addiction.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/auditory-system.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/barnum-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/blooms-taxonomy.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/bystander-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/castellano.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/categorization.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/central-nervous-system-cns.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/circle-of-competence.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/cognition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/cognitive-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/cognitive-development.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/collective-cognition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/concept.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/connectionism.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/consciouses.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/distributed-cognition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/dunning-kruger-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/english.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/familiarity.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/flynn-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/frame.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/french.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/german.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/golem-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/grammar.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/grammatical-tense.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/greek.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/halo-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/hawthorne-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/hebrew.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/horn-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/human-language-origin.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/idea.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/information-search.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/intelligence.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/intelligibility.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/interleaved-practice.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/iq.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/kolb-s-experiential-learning-cycle.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/language-acquisition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/latin.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/lexicology.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/mental-image.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/mental-model.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/mere-exposure-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/metacognition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/mind-body-dualism.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/mind.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/morphology.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/motivation.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/name.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/neuroplasticity.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/nocebo-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/numerical-cognition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/object.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/phonetics.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/phonology.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/polish.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/practice.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/pragmatics.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/priming.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/pygmalion-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/reasoning.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/representation.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/rosenthal-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/skill.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/sleep.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/soar-state-operator-and-result.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/space-repetition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/stimulus.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/swedish.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/symbol.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/syntax.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/theory-of-mind.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/thinking.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/visual-system.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/conceptual-model-cognition/zeigarnik-effect.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/heuristics.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/intuition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/mental-imagery.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/metaphors.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/narratives.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/notation.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/reference-system.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/schemas.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/serendipity.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/syllogisms.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/cognitive/thinking.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from the retired human section into nature/human/."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/language.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/learning.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/linguistics.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/motor-control.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/perception.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/reference.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/social-cognition.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Merge the retired human section note into this nature note and re-point its links."
       }
     ]
   },
