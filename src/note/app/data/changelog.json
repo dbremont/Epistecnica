@@ -21054,6 +21054,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/party/russian-social-democratic-labour-party.md",
+    "logs": [
+      {
+        "date": "2026-11-05",
+        "kind": "feat",
+        "summary": "add Russian Social Democratic Labour Party note"
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/abram-fyodorovich-ioffe.md",
     "logs": [
       {
