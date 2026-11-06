@@ -166,7 +166,7 @@ Social Element (parent)
 
 ### Where do goals, intentions, and problematization decompose?
 
-> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/problematization.md), documented as an element at [Problem](note.html?n=social/problem/problem.md) and specialized for policy at [Problem](note.html?n=social/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
+> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/singular/problematization.md), documented as an element at [Problem](note.html?n=social/problem/problem.md) and specialized for policy at [Problem](note.html?n=social/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
 
 ### Where does joint agency decompose?
 
@@ -285,7 +285,7 @@ Social Element (parent)
 - [Charter](note.html?n=social/action/organization/charter.md)
 - [Agency](note.html?n=social/action/public/agency.md)
 - [Problem](note.html?n=social/problem/policy-problem.md)
-- [Problematization](note.html?n=epistemica/problematization.md)
+- [Problematization](note.html?n=epistemica/singular/problematization.md)
 - [The Collective Action Problem](note.html?n=essays/collective-action-problem.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 - [Synontic](note.html?n=social/synontic/synontic.md)

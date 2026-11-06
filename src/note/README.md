@@ -140,6 +140,11 @@ companion is `data/epistemica/ees.md`.
   `terminology.json` (the store) and `terminology.html` (searchable cards and
   table over misnomers, legacy names and false friends in statistics,
   probability and measurement); `make terminology-check` validates the store.
+- The singular scope lives in `epistemica/singular/`: the notes that bind one
+  particular epistemic-element instance rather than a domain —
+  `firm-clustering`, `firm-profiling`, `industry-analysis`, `profile-templates`,
+  `swe-productivity`, `problematization`. The root keeps the domain catalogues,
+  the master `ees.md`, and the general forms such as `production-function`.
 - Cross-cutting method families are carried as tags, not scopes. The former
   `natural-computing/` scope was dissolved into the scope that owns each note's
   operation — the evolutionary and swarm optimizers into `optimization/`,

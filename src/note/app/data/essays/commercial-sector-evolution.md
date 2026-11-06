@@ -31,7 +31,7 @@ tags: [commercial-sector, commerce, business-model, firm, evolution, economic, g
 > Readable, secondarily, as technique (the retail matching apparatus,
 > [Retail Supply–Demand Matching](note.html?n=technica/general/cto/industry/retail-supply-demand-matching.md)) and as
 > epistemic (demand estimates, market taxonomies — see
-> [Profile Templates](note.html?n=epistemica/profile-templates.md)). Those readings are
+> [Profile Templates](note.html?n=epistemica/singular/profile-templates.md)). Those readings are
 > cross-links here, not second trees.
 
 ### What are the business-model space and the firm space?
@@ -142,7 +142,7 @@ tags: [commercial-sector, commerce, business-model, firm, evolution, economic, g
 
 - [Commerce](note.html?n=social/action/activity/economic/commerce-economic-activity.md) — problem space, interaction models, business-model space, evaluation and evolution metrics
 - [Firm](note.html?n=social/collective/actor/firm.md) — firm as `Collective / Organization`
-- [Profile Templates](note.html?n=epistemica/profile-templates.md) — production and industry profiling blueprints, incl. firm-space tables
+- [Profile Templates](note.html?n=epistemica/singular/profile-templates.md) — production and industry profiling blueprints, incl. firm-space tables
 - [Perishable Agricultural Products Industry](note.html?n=social/action/activity/economic/perishable-agricultural-products-economic-activity.md) — spot-markets-to-contracts trajectory
 - [Retail Supply–Demand Matching](note.html?n=technica/general/cto/industry/retail-supply-demand-matching.md) — canonical multi-root case (technical primary; social and epistemic secondary)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md) — decomposition workflow, type table, social-element note schema

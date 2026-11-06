@@ -14637,6 +14637,16 @@
     ]
   },
   {
+    "file_path": "epistemica/production-function.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point links after the epistemica/singular/ move."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/science.md",
     "logs": [
       {
@@ -16239,6 +16249,66 @@
         "kind": "feat",
         "summary": "Import topic from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/singular/firm-clustering.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move the particular element note into the epistemica/singular/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/singular/firm-profiling.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move the particular element note into the epistemica/singular/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/singular/industry-analysis.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move the particular element note into the epistemica/singular/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/singular/problematization.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move the particular element note into the epistemica/singular/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/singular/profile-templates.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move the particular element note into the epistemica/singular/ scope."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/singular/swe-productivity.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move the particular element note into the epistemica/singular/ scope."
       }
     ]
   },
@@ -20465,6 +20535,26 @@
     ]
   },
   {
+    "file_path": "essays/agent-social-reality-reflection-problem.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point links after the epistemica/singular/ move."
+      }
+    ]
+  },
+  {
+    "file_path": "essays/commercial-sector-evolution.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point links after the epistemica/singular/ move."
+      }
+    ]
+  },
+  {
     "file_path": "general/financial-sector.md",
     "logs": [
       {
@@ -20514,6 +20604,16 @@
         "date": "2026-11-03",
         "kind": "feat",
         "summary": "Reinstate `Property` as a predication type: add the `Has Property` relationship and the `Epistemic Element (→ Has Property) Property` link form, narrow `Has` to elements and features, and retype the Arithmetic case's constructions by kind, moving Evenness under Number."
+      }
+    ]
+  },
+  {
+    "file_path": "meta/philosophia-socialium-et-operis.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point links after the epistemica/singular/ move."
       }
     ]
   },
@@ -23478,6 +23578,26 @@
         "kind": "feat",
         "summary": "add Paris Commune polity note pointing to the history note",
         "commit": "c97f1be2daf18013a4cc3669bc3513155f1370d7"
+      }
+    ]
+  },
+  {
+    "file_path": "social/problem/policy-problem.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point links after the epistemica/singular/ move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/problem/problem.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Re-point links after the epistemica/singular/ move."
       }
     ]
   },

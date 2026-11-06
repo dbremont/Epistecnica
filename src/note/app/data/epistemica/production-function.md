@@ -104,7 +104,7 @@ It is a form, not an instance: `y = AK^αL^β` with fitted coefficients is a `Co
 - Uzawa, H. (1962). Production functions with constant elasticities of substitution. *The Review of Economic Studies*, *29*(4), 291–299. https://doi.org/10.2307/2296305
 - Young, A. (2013). Inequality, the urban–rural gap and migration. *The Quarterly Journal of Economics*, *128*(4), 1727–1785. https://doi.org/10.1093/qje/qjt025
 - [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md) (consumer: crop-yield mappings are production-function instances)
-- [SWE Productivity](note.html?n=epistemica/swe-productivity.md) (sectoral measurement sibling)
-- [Industry Analysis](note.html?n=epistemica/industry-analysis.md) (industry-level application)
-- [Firm Profiling](note.html?n=epistemica/firm-profiling.md) (microeconomic cut uses production mappings)
+- [SWE Productivity](note.html?n=epistemica/singular/swe-productivity.md) (sectoral measurement sibling)
+- [Industry Analysis](note.html?n=epistemica/singular/industry-analysis.md) (industry-level application)
+- [Firm Profiling](note.html?n=epistemica/singular/firm-profiling.md) (microeconomic cut uses production mappings)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)

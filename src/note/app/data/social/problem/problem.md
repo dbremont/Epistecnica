@@ -53,7 +53,7 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Agency](note.html?n=social/action/public/agency.md)
-- [Problematization](note.html?n=epistemica/problematization.md)
+- [Problematization](note.html?n=epistemica/singular/problematization.md)
 - [Problem](note.html?n=social/problem/policy-problem.md)
 - [Dimension](note.html?n=social/problem/dimension/domain.md)
 - [The Collective Action Problem](note.html?n=essays/collective-action-problem.md)

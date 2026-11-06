@@ -337,6 +337,12 @@ instance-decomposition table:
   `goodness-of-fit.md`, and `confidence-interval.md` (procedure-coverage
   reporting, moved out of the observational domain); calibration is a distinct
   practice, not a synonym for validation.
+- The **singular scope** lives in `epistemica/singular/`: the notes that bind
+  one particular epistemic-element instance rather than a domain —
+  `firm-clustering`, `firm-profiling`, `industry-analysis`, `profile-templates`,
+  `swe-productivity`, `problematization`. The `epistemica/` root keeps the
+  domain catalogues, the master `ees.md`, and the general forms such as
+  `production-function`.
 - **Terminology atlas** — `epistemica/horror/terminology.{json,html}`
   stores and renders the misnomer/legacy/false-friend inventory (statistics,
   probability, measurement); `make terminology-check` validates the store

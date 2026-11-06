@@ -9,7 +9,7 @@
 > Problematization formulates the problem; [Policy](note.html?n=social/action/public/guidance/policy.md)
 > answers it with a course; the [Dimension](note.html?n=social/problem/dimension/domain.md)
 > index scopes in which domain of social reality it sits. See
-> [Problematization](note.html?n=epistemica/problematization.md) for the process,
+> [Problematization](note.html?n=epistemica/singular/problematization.md) for the process,
 > [Problem](note.html?n=social/problem/problem.md) for the general element (problem as intentional
 > structure), and
 > [The Collective Action Problem](note.html?n=essays/collective-action-problem.md) for
@@ -51,6 +51,6 @@
 
 - [Problem](note.html?n=social/problem/problem.md)
 - [Policy](note.html?n=social/action/public/guidance/policy.md)
-- [Problematization](note.html?n=epistemica/problematization.md)
+- [Problematization](note.html?n=epistemica/singular/problematization.md)
 - [Dimension](note.html?n=social/problem/dimension/domain.md)
 - [The Collective Action Problem](note.html?n=essays/collective-action-problem.md)
