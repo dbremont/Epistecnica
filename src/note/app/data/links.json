@@ -2,9 +2,15 @@
   "links": [
     {
       "from": "epistemica/",
-      "to": "epistemica/construction/principle/compositionality.md",
-      "label": "Compositionality",
-      "kind": "related"
+      "to": "epistemica/epistemic/guidance/",
+      "label": "Guidance",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "epistemica/",
+      "to": "epistemica/epistemic/discipline/",
+      "label": "Discipline",
+      "kind": "hierarchy"
     },
     {
       "from": "technica/ais/",
