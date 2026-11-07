@@ -12671,7 +12671,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add Woodward and Silverwood's article on dual industrial policy under the Thatcher governments, with citation, abstract, argument, and implications."
+        "summary": "Add Woodward and Silverwood's article on dual industrial policy under the Thatcher governments, with citation, abstract, argument, and implications.",
+        "commit": "136f5c68d0ab3f5ef932f3703a73a91da192d892"
       }
     ]
   },

@@ -25772,7 +25772,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the Margaret Thatcher persona note: life, premiership, economic and industrial policy, Europe, fall, legacy, and references."
+        "summary": "Add the Margaret Thatcher persona note: life, premiership, economic and industrial policy, Europe, fall, legacy, and references.",
+        "commit": "136f5c68d0ab3f5ef932f3703a73a91da192d892"
       }
     ]
   },
