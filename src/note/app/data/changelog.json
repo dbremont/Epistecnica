@@ -7411,7 +7411,9 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Expand the property table with the full function-property inventory and document elementary functions as a class of construction."
+        "summary": "Expand the property table with the full function-property inventory and document elementary functions as a class of construction.",
+        "commit": "f7b18b2d8628c7fad16f7b5d146e617f5b72184a",
+        "before": "ec0ca3a2bc08882135deacff7a7ba990cc645b01"
       }
     ]
   },
@@ -26055,6 +26057,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/research/cze/royal-bohemian-society-of-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Royal Bohemian Society of Sciences learned-society note."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/public/catalog/research/aus/geoscience-australia.md",
     "logs": [
       {
@@ -26129,6 +26141,16 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/research.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Link the Royal Bohemian Society of Sciences from the research actor hub."
       }
     ]
   },

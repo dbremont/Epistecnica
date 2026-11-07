@@ -106,3 +106,4 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 - [Defense Advanced Research Projects Agency (DARPA)](note.html?n=social/collective/actor/public/catalog/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
 - [U.S. National Science Foundation (NSF)](note.html?n=social/collective/actor/public/catalog/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
 - [ITRI](note.html?n=social/collective/actor/public/catalog/research/twn/itri.md) (`twn/`)
+- [Royal Bohemian Society of Sciences](note.html?n=social/collective/actor/private/research/cze/royal-bohemian-society-of-sciences.md) (learned society, `cze/`)
