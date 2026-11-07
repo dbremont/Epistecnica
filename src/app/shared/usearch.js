@@ -52,7 +52,7 @@
     var UENTRIES = [];
     var UTAGS = [];                 /* [{tag, count}] built from the index */
     var UTAGSET = Object.create(null);  /* tag -> count */
-    var uflat = [];   /* visible rows for keyboard nav ({e}|{tag}|{random}) */
+    var uflat = [];   /* visible rows for keyboard nav ({e}|{tag}) */
     var ukb = -1;
     var utimer = null;
 
@@ -293,17 +293,6 @@
             out.push('<div class="urow-hint">nothing found.</div>');
         }
 
-        if (matches.length) {
-            var ridx = uflat.length;
-            uflat.push({ random: true });
-            out.push(
-                '<button type="button" class="urow urandom-row" role="option" id="usearch-opt-' + ridx + '" data-idx="' + ridx + '" aria-selected="false">' +
-                '<div class="urow-title">Random from these ' + matches.length + ' matches</div>' +
-                '<div class="urow-sub">click the dice, or Enter on this row</div>' +
-                '</button>'
-            );
-        }
-
         udrop.innerHTML = out.join('');
         udrop.hidden = false;
         uinput.setAttribute('aria-expanded', 'true');
@@ -313,7 +302,6 @@
     function uact(row) {
         if (!row) return;
         if (row.tag != null) { ucompleteTag(row.tag); return; }
-        if (row.random) { ugoRandom(); return; }
         if (row.e) window.location.href = uurl(row.e);
     }
 
@@ -388,11 +376,6 @@
             e.stopPropagation();
             ucompleteTag(tagRow.getAttribute('data-tag'));
             return;
-        }
-        if (e.target.closest('.urandom-row')) {
-            e.preventDefault();
-            e.stopPropagation();
-            ugoRandom();
         }
     });
 

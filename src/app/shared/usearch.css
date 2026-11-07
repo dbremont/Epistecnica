@@ -97,7 +97,7 @@
 
 .urow:hover, .urow.kb-focus { background: var(--bg-surface); }
 
-/* Tag suggestions and the random-match action are buttons, not links. */
+/* Tag suggestions are buttons, not links. */
 button.urow {
     width: 100%;
     text-align: left;
@@ -110,16 +110,6 @@ button.urow {
 .utag-row .urow-title {
     font-family: var(--font-mono);
     font-size: 0.78rem;
-}
-
-.urandom-row {
-    border-top: 1px solid var(--border-subtle);
-}
-
-.urandom-row .urow-title {
-    color: var(--accent-cyan);
-    font-size: 0.78rem;
-    letter-spacing: 0.02em;
 }
 
 .usearch-summary {
