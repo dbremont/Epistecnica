@@ -26003,7 +26003,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Improve the Pieter de la Court persona note: biography, authorship of the De la Court corpus, the positions table, political economy, republican theory, toleration, reception, and annotated references."
+        "summary": "Improve the Pieter de la Court persona note: biography, authorship of the De la Court corpus, the positions table, political economy, republican theory, toleration, reception, and annotated references.",
+        "commit": "29f6df6df96ff216207f2032a0055bc190d449d3",
+        "before": "1dc37942d3a1ecaa32ecb5abea42210d69c15a4a"
       }
     ]
   },
