@@ -25362,7 +25362,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "expand the biography and add an annotated bibliography"
+        "summary": "expand the biography and add an annotated bibliography",
+        "commit": "3852d699e42ff66a72c0ddc6b01d97c76d601583",
+        "before": "6475e9577d6cc29f15f219b97d0eb901c85d3844"
       }
     ]
   },
