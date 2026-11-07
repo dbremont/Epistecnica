@@ -26217,7 +26217,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the Moyssén paper on Sebastián de Arteaga (Anales del IIE 59, 1988) from the journal article page."
+        "summary": "Add the Moyssén paper on Sebastián de Arteaga (Anales del IIE 59, 1988) from the journal article page.",
+        "commit": "b4a86a6af9ba9b487b128103c4256d94a04867ac"
       }
     ]
   },
