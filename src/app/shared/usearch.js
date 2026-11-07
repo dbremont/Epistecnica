@@ -22,10 +22,32 @@
     var root = (script && script.getAttribute('data-root')) || '';
     if (root && root.charAt(root.length - 1) !== '/') root += '/';
 
+    /* The query (free text plus @tag tokens) survives navigation within the
+       tab, so a tag filter is not retyped on every page. Per-tab on purpose:
+       the catalogs own their own `?q=`/`?dir=` URL state. */
+    var USTORE = 'epistecnica-usearch-query';
+
+    function uread() {
+        try {
+            var v = sessionStorage.getItem(USTORE);
+            return v ? v.slice(0, 200) : '';
+        } catch (e) { return ''; }
+    }
+
+    function usave(v) {
+        try {
+            if (v && v.trim()) sessionStorage.setItem(USTORE, v.slice(0, 200));
+            else sessionStorage.removeItem(USTORE);
+        } catch (e) { /* private mode */ }
+    }
+
     var uinput = document.getElementById('usearch');
     var udrop = document.getElementById('usearch-drop');
     var usurprise = document.getElementById('usurprise');
     if (!uinput || !udrop || !usurprise) return;
+
+    var urestored = uread();
+    if (urestored) uinput.value = urestored;
 
     var UENTRIES = [];
     var UTAGS = [];                 /* [{tag, count}] built from the index */
@@ -304,6 +326,7 @@
             v = (v.trim() ? v.replace(/\s+$/, '') + ' ' : '') + '@' + tag + ' ';
         }
         uinput.value = v;
+        usave(v);
         uinput.focus();
         urender();
     }
@@ -341,6 +364,7 @@
     }
 
     uinput.addEventListener('input', function () {
+        usave(uinput.value);
         clearTimeout(utimer);
         utimer = setTimeout(urender, 120);
     });
@@ -361,17 +385,19 @@
         var tagRow = e.target.closest('.utag-row');
         if (tagRow) {
             e.preventDefault();
+            e.stopPropagation();
             ucompleteTag(tagRow.getAttribute('data-tag'));
             return;
         }
         if (e.target.closest('.urandom-row')) {
             e.preventDefault();
+            e.stopPropagation();
             ugoRandom();
         }
     });
 
     document.addEventListener('click', function (e) {
-        if (!e.target.closest('.usearch-wrap')) uhide();
+        if (!e.target.isConnected || !e.target.closest('.usearch-wrap')) uhide();
     });
 
     document.addEventListener('keydown', function (e) {
