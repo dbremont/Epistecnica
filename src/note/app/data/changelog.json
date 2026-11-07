@@ -25257,7 +25257,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Fill the Antonio de León y Gama persona note: biography, astronomy, the 1790 stone discoveries, Mexican antiquarianism, selected works, and an annotated bibliography."
+        "summary": "Fill the Antonio de León y Gama persona note: biography, astronomy, the 1790 stone discoveries, Mexican antiquarianism, selected works, and an annotated bibliography.",
+        "commit": "7fa59628be4455dc059d28f78a9fc4bd9ba85ac3",
+        "before": "e5d309da614a1ab854f094cc7eb76ec8881711a3"
       }
     ]
   },
