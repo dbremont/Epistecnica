@@ -58172,7 +58172,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the SEP frame and school map, expand the statecraft table with mercantilist, cameralist, Iberian, Scandinavian and Russian figures, and link existing persona notes."
+        "summary": "Add the SEP frame and school map, expand the statecraft table with mercantilist, cameralist, Iberian, Scandinavian and Russian figures, and link existing persona notes.",
+        "commit": "b88c07d17dc3b74c51f5705af64bd8edccc76bdb",
+        "before": "f3977a4ac97c936d6f4aca713da97a7615bacc3b"
       }
     ]
   },
