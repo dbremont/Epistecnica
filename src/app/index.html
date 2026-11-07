@@ -338,6 +338,198 @@
             .group-list .entry { animation: none; }
         }
 
+
+        /* ---------- unified entry ---------- */
+
+        .nav-link {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.45rem 0.25rem;
+        }
+        .nav-link:hover { color: var(--accent-cyan); }
+
+        .hero-search {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            margin-top: 1.8rem;
+            max-width: 42rem;
+            padding: 0.75rem 1rem;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+        }
+        .hero-search input {
+            flex: 1;
+            min-width: 0;
+            border: 0;
+            background: transparent;
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            outline: none;
+        }
+        .hero-search input::placeholder { color: var(--text-muted); }
+        .hero-search kbd {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            color: var(--text-muted);
+            border: 1px solid var(--border-subtle);
+            border-radius: 2px;
+            padding: 0.15rem 0.35rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 1.6rem;
+            flex-wrap: wrap;
+            margin-top: 1.8rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+        .stats strong {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            font-weight: 400;
+            letter-spacing: 0;
+            text-transform: none;
+            color: var(--text-primary);
+            margin-right: 0.35rem;
+        }
+
+        .section { margin-top: 3rem; }
+        .section-head {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        .section-head h2 {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            font-weight: 400;
+            letter-spacing: 0.24em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            white-space: nowrap;
+        }
+        .section-head .rule { flex: 1; height: 1px; background: var(--border-subtle); }
+        .reroll {
+            border: 1px solid var(--border-subtle);
+            background: transparent;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            padding: 0.3rem 0.5rem;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .reroll:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            gap: 0.55rem;
+            padding: 1.25rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            transition: border-color 0.25s ease, background 0.25s ease;
+        }
+        .card:hover { border-color: var(--accent-gold); background: var(--bg-surface); }
+        .card-kicker {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+        }
+        .card-count {
+            font-family: var(--font-display);
+            font-size: 2.3rem;
+            font-weight: 300;
+            line-height: 1;
+            color: var(--text-primary);
+        }
+        .card-desc { flex: 1; color: var(--text-secondary); font-size: 0.86rem; line-height: 1.55; }
+        .card-link {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+        .card:hover .card-link { color: var(--accent-cyan); }
+
+        .random-list {
+            list-style: none;
+            display: grid;
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+        }
+        .random-list li {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1.2rem;
+            padding: 0.8rem 1rem;
+            background: var(--bg-void);
+        }
+        .random-list a { color: var(--text-primary); font-size: 0.9rem; }
+        .random-list a:hover { color: var(--accent-cyan); }
+        .random-list .meta {
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.06em;
+            white-space: nowrap;
+        }
+
+        .split { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
+
+        .domain-list, .ref-list {
+            display: grid;
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+        }
+        .domain-list a, .ref-list a {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 0.75rem 1rem;
+            background: var(--bg-void);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        .domain-list a:hover, .ref-list a:hover { background: var(--bg-surface); color: var(--text-primary); }
+        .domain-list .count, .ref-list .count {
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 900px) {
+            .cards { grid-template-columns: 1fr; }
+            .split { grid-template-columns: 1fr; gap: 2rem; }
+            .random-list li { flex-direction: column; gap: 0.2rem; }
+        }
+
         /* ---------- footer ---------- */
 
         footer {
@@ -413,6 +605,7 @@
         <div class="nav-inner">
             <a class="nav-brand" href="./"><img class="nav-mark" src="img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
             <div class="nav-right">
+                <a class="nav-link" href="library/">Library</a>
                 <div class="usearch-wrap">
                     <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                     <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
@@ -425,66 +618,86 @@
     </nav>
 
     <main class="page">
-        <header>
+        <header class="hero">
             <h1>Episte<em>cnica</em></h1>
             <p class="lede">
-                Epistecnica is a guide to two coupled modes of human agency:
-                <em>world modelling</em> (epistemic practice, representation) and <em>acting</em>. These are personal notes &mdash; useful for my practice.
-                This project is an extension of the universal index &mdash; that is, Naturgnosis (now Autoregia).
+                One library for the whole corpus: <em>notes</em>, <em>documents</em> and
+                <em>courses</em> in a single index, with a lexical reference and an open
+                Q/A log. This is the working extension of the Autoregia Personal
+                Knowledge System &mdash; local, linked, and searchable.
             </p>
+
+            <form class="hero-search" action="library/" method="get">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" name="q" placeholder="Search the library: titles, tags, paths…" aria-label="Search the unified library">
+                <kbd>enter</kbd>
+            </form>
+
+            <div class="stats" id="stats">
+                <span><strong data-stat="note">—</strong> notes</span>
+                <span><strong data-stat="document">—</strong> documents</span>
+                <span><strong data-stat="course">—</strong> courses</span>
+                <span><strong data-stat="words">—</strong> words</span>
+            </div>
         </header>
 
-        <div class="index">
-            <div class="prompt">
-                <span class="ask">Where to begin?</span>
+        <section class="section" aria-labelledby="corpora-head">
+            <div class="section-head">
+                <h2 id="corpora-head">The three corpora</h2>
                 <span class="rule"></span>
             </div>
+            <div class="cards">
+                <a class="card" href="library/?kind=note">
+                    <span class="card-kicker">Notes</span>
+                    <strong class="card-count" data-stat="note">—</strong>
+                    <span class="card-desc">Concepts, arguments, methods &mdash; the epistemic, natural, social and technical branches.</span>
+                    <span class="card-link">Open the unified library &rarr;</span>
+                </a>
+                <a class="card" href="library/?kind=document">
+                    <span class="card-kicker">Documents</span>
+                    <strong class="card-count" data-stat="document">—</strong>
+                    <span class="card-desc">Books, papers and articles, with their extracted notes and references.</span>
+                    <span class="card-link">Open the unified library &rarr;</span>
+                </a>
+                <a class="card" href="library/?kind=course">
+                    <span class="card-kicker">Courses</span>
+                    <strong class="card-count" data-stat="course">—</strong>
+                    <span class="card-desc">Structured courses, lectures and study material, filed with the rest of the corpus.</span>
+                    <span class="card-link">Open the unified library &rarr;</span>
+                </a>
+            </div>
+        </section>
 
-            <!-- The external index lives in Autoregia (the Personal Knowledge
-                 System); change the base here and in the footer together. -->
-            <nav class="groups" aria-label="Index of surfaces">
-                <section class="group" aria-labelledby="group-corpus">
-                    <h2 class="group-label" id="group-corpus">Corpus</h2>
-                    <div class="group-list">
-                        <div class="entry">
-                            <a class="name" href="notes/">Notes</a>
-                            <span class="gloss">the markdown corpus, eight sections</span>
-                            <span class="arrow" aria-hidden="true">&rarr;</span>
-                        </div>
-                        <div class="entry">
-                            <a class="name" href="documents/">Documents</a>
-                            <span class="gloss">papers, articles, and books</span>
-                            <span class="arrow" aria-hidden="true">&rarr;</span>
-                        </div>
-                        <div class="entry">
-                            <a class="name" href="courses/">Courses</a>
-                            <span class="gloss">entries and lectures</span>
-                            <span class="arrow" aria-hidden="true">&rarr;</span>
-                        </div>
-                    </div>
-                </section>
-                <section class="group" aria-labelledby="group-reference">
-                    <h2 class="group-label" id="group-reference">Reference</h2>
-                    <div class="group-list">
-                        <div class="entry">
-                            <a class="name" href="glossarium/">Glossarium</a>
-                            <span class="gloss">the lexical corpus, with select-a-word lookup</span>
-                            <span class="arrow" aria-hidden="true">&rarr;</span>
-                        </div>
-                        <div class="entry">
-                            <a class="name" href="qa/">Q/A log</a>
-                            <span class="gloss">the open questions behind the corpus</span>
-                            <span class="arrow" aria-hidden="true">&rarr;</span>
-                        </div>
-                        <div class="entry">
-                            <a class="name" href="docs">Docs</a>
-                            <span class="gloss">how the system is built</span>
-                            <span class="arrow" aria-hidden="true">&rarr;</span>
-                        </div>
-                    </div>
-                </section>
-            </nav>
-        </div>
+        <section class="section" aria-labelledby="random-head">
+            <div class="section-head">
+                <h2 id="random-head">Five documents at random</h2>
+                <button type="button" class="reroll" id="reroll">reroll</button>
+                <span class="rule"></span>
+            </div>
+            <ol class="random-list" id="randomDocs"><li><span>Loading the library index…</span></li></ol>
+        </section>
+
+        <section class="section split">
+            <div>
+                <div class="section-head">
+                    <h2>Notes by domain</h2>
+                    <span class="rule"></span>
+                </div>
+                <div class="domain-list" id="domains"></div>
+            </div>
+            <div>
+                <div class="section-head">
+                    <h2>Reference</h2>
+                    <span class="rule"></span>
+                </div>
+                <div class="ref-list">
+                    <a href="glossarium/"><span>Glossarium</span><span class="count">terms &amp; definitions</span></a>
+                    <a href="qa/"><span>Q/A log</span><span class="count">open questions</span></a>
+                    <a href="docs"><span>Guide</span><span class="count">how it is built</span></a>
+                    <a href="http://localhost:8088/pks/"><span>Autoregia PKS</span><span class="count">external index &nearr;</span></a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -494,6 +707,7 @@
                 <div class="foot-colophon">KNOWING &middot; ACTING &middot; ONE FRAMEWORK</div>
             </div>
             <div class="foot-links">
+                <a href="library/">LIBRARY</a>
                 <a href="notes/">NOTES</a>
                 <a href="documents/">DOCUMENTS</a>
                 <a href="courses/">COURSES</a>
@@ -623,6 +837,69 @@
 
     })();
     </script>
+    <script>
+    (function () {
+        'use strict';
+        function esc(s) {
+            return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+            });
+        }
+        function encPath(p) { return String(p).split('/').map(encodeURIComponent).join('/'); }
+        function fmt(n) { return Number(n || 0).toLocaleString(); }
+        function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+        fetch('data/library-index.json', { headers: { 'Accept': 'application/json' }, cache: 'no-cache' })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (d) {
+                var entries = d.entries || [];
+                var kinds = d.kinds || {};
+                var words = entries.reduce(function (a, e) { return a + (e.words || 0); }, 0);
+                var courseCount = entries.filter(function (e) { return e.corpus === 'course' && e.kind === 'course'; }).length;
+                var stats = { note: kinds.note || 0, document: kinds.document || 0, course: courseCount || kinds.course || 0, words: words };
+                document.querySelectorAll('[data-stat]').forEach(function (el) {
+                    el.textContent = fmt(stats[el.getAttribute('data-stat')]);
+                });
+
+                var sections = (d.sections && d.sections.note) || {};
+                var order = ['epistemica', 'nature', 'social', 'technica'];
+                var extra = Object.keys(sections).filter(function (s) { return order.indexOf(s) < 0; }).sort();
+                order = order.filter(function (s) { return sections[s]; }).concat(extra);
+                var dom = document.getElementById('domains');
+                dom.innerHTML = order.filter(function (s) { return sections[s]; }).map(function (s) {
+                    return '<a href="library/?section=' + encodeURIComponent(s) + '"><span>' + cap(s) + '</span><span class="count">' + fmt(sections[s]) + '</span></a>';
+                }).join('');
+
+                var docs = entries.filter(function (e) { return e.corpus === 'document'; });
+                var list = document.getElementById('randomDocs');
+                function reroll() {
+                    var picked = [];
+                    var seen = {};
+                    while (picked.length < 5 && Object.keys(seen).length < docs.length) {
+                        var i = Math.floor(Math.random() * docs.length);
+                        if (seen[i]) continue;
+                        seen[i] = true;
+                        picked.push(docs[i]);
+                    }
+                    if (!picked.length) {
+                        list.innerHTML = '<li><span>No documents indexed.</span></li>';
+                        return;
+                    }
+                    list.innerHTML = picked.map(function (e) {
+                        return '<li><a href="documents/document.html?d=' + encPath(e.path) + '">' + esc(e.title) + '</a>' +
+                            '<span class="meta">' + esc(e.section || '') + '</span></li>';
+                    }).join('');
+                }
+                document.getElementById('reroll').addEventListener('click', reroll);
+                reroll();
+            })
+            .catch(function (err) {
+                document.getElementById('randomDocs').innerHTML =
+                    '<li><span>Could not load the library index (' + esc(err.message) + '). Run <code>make index</code>.</span></li>';
+            });
+    })();
+    </script>
+
     <script src="shared/usearch.js" data-root=""></script>
     <script src="shared/index-status.js" data-root="" defer></script>
 </body>

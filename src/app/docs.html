@@ -492,6 +492,18 @@
                         <a href="http://localhost:8088/pks/">Autoregia</a>.
                     </p>
 
+                    <h2 id="library">Unified library</h2>
+                    <p>
+                        The <a href="../library/">library</a> is the single entry point across the
+                        three corpora. One generated index
+                        (<code>make library-index</code>) merges notes, documents and courses;
+                        on top of it the library offers a section tree, kind filters,
+                        title/tag/path search, and a random-document picker. The dedicated
+                        <a href="../notes/">notes</a>, <a href="../documents/">documents</a> and
+                        <a href="../courses/">courses</a> catalogs remain available for
+                        directory browsing and their own viewers.
+                    </p>
+
                     <h2 id="notes">Notes &amp; Glossarium</h2>
                     <p>
                         The written corpus lives in the <a href="../notes/">notes catalog</a>:
@@ -500,7 +512,7 @@
                         <a href="../notes/note.html?n=technica/general/cto/es/readme.md">viewer</a> for any note,
                         self-contained <em>live notes</em> (interactive, hand-authored pages), and
                         <strong>pins</strong> — star any note in the catalog to keep it at hand;
-                        pins persist server-side for everyone. Search is free text plus
+                        pins are browser-local. Search is free text plus
                         <code>@tag</code> tokens (<code>@</code> opens a tag menu); notes,
                         courses, and documents all accept optional <code>tags: [...]</code>
                         front matter, which surfaces as those <code>@tag</code> tokens and as
@@ -597,6 +609,7 @@
             <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; docs</div>
             <div class="foot-links" style="display:flex;gap:1.2rem">
                 <a href="../">&larr; HUB</a>
+                <a href="../library/">LIBRARY</a>
                 <a href="../notes/">NOTES</a>
                 <a href="../documents/">DOCUMENTS</a>
                 <a href="../courses/">COURSES</a>

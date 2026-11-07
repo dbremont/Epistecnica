@@ -145,6 +145,10 @@ class HubHandler(SimpleHTTPRequestHandler):
         if clean in ("/docs", "/docs/", "/docs.html"):
             return super().translate_path("src/app/docs.html")
 
+        # Unified library: /library, /library/, /library.html -> src/app/library.html.
+        if clean in ("/library", "/library/", "/library.html"):
+            return super().translate_path("src/app/library.html")
+
         # Hub-owned data (the universal search snapshot): /data/... ->
         # <repo>/src/app/data/...
         if clean == "/data" or clean == "/data/":

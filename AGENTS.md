@@ -41,7 +41,7 @@ bin/notes_index.py | bin/course_index.py | bin/document_index.py   corpus indexe
 bin/course_import.py | bin/document_import.py   bulk Notion-export importers
 bin/rees_check.py | bin/atlas_check.py | bin/terminology_check.py | bin/symbols_check.py | bin/pvalue_check.py   atlas/store validators (make *-check)
 bin/conform.py          technica table-grammar conformance; bin/build_technica_atlas.py atlas builder
-src/app/                hub page (index.html, served at /) + docs.html + shared/ (nav search + content viewer + index chip)
+src/app/                hub page (index.html, served at /) + library.html (unified catalog) + docs.html + shared/ (nav search + content viewer + index chip)
 src/notes/…              notes corpus + catalog/viewer (app/ incl. app/data/ + live notes) + tags — see src/notes/README.md
 src/courses/…            courses corpus + catalog/course+lecture views (app/courses/<dir>/readme.md + lectures) — see src/courses/README.md
 src/documents/…          documents corpus + catalog/viewer (papers/articles/books) — see src/documents/README.md
@@ -62,6 +62,7 @@ frontend-facing surface in the deployment; there is no database behind it
 - Routes served by `bin/serve.py`:
   - `/` → hub `src/app/index.html`
   - `/docs` (also `/docs/`, `/docs.html`) → site documentation `src/app/docs.html` — the single user-facing docs surface (theory + guide, live stats from the APIs); the old per-subproject docs pages were deleted
+  - `/library` (also `/library/`, `/library.html`) → unified library `src/app/library.html` — one catalog over notes + documents + courses, built from `src/app/data/library-index.json`, with a section tree, kind filters, search, and a random-document picker
   - `/shared/<path>` → static from `src/app/shared/<path>` (the universal nav search — `usearch.css` + `usearch.js` — included by every surface; plus the universal content-viewer script `viewer.js` that powers the four viewer shells below)
   - `/assets/<path>` → static from `src/app/assets/<path>` (the shared corpus-image store: every image referenced by corpus markdown lives here — `note/…`, `course/…`, `document/…` subtrees mirroring the corpus paths, plus a few generic diagrams at the root — never beside the notes)
   - `/notes/<path>` → static from `src/notes/app/<path>` (notes catalog + viewer + corpus)
@@ -501,6 +502,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Goodness-of-Fit Atlas: `make gof-check` (validates `src/notes/app/data/epistemica/validation/atlas/gof.json` — unique law/measure ids, known engines, complete formulas, parameter specs in range, `m` consistent with the parameters, selftest cases referencing existing laws/measures) — part of `make check`; page `curl -s :8000/notes/data/epistemica/validation/atlas/gof.html` (playground-first: law + measure pickers, `n`/`δ` sliders, estimation toggle, empirical-vs-fitted, null cloud, power curve, p-value calibration; `?selftest` for the numeric cases, `?sweep` for every law × measure pair, `?law=…&measure=…&n=…&delta=…` deep links), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md` (no promoted card)
 - Universal search: `make search-index` (build-time snapshot → gitignored `src/app/data/search-index.json`, corpus-only; rebuilt locally or at image build) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers). Query syntax is free text plus `@tag` filters (AND across multiple tags, e.g. `@person @mathematics`); a bare `@` suggests the tag vocabulary from the loaded index. The query (text and tags) persists per tab in `sessionStorage` so it survives navigation — not in the URL, which the catalogs own. The dice button and `r` shortcut sample from the active filter, so `@person` + dice opens a random persona.
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`
+- Unified library index: `make library-index` (merges the three corpus indexes into gitignored `src/app/data/library-index.json`; part of `make index`) → `curl -s :8000/library/`
 - Index jobs: `make index` (all, chunked, dependency order) · `make index-status`
   (last known `done/total/pct` per builder, no build) · `make index-list` ·
   `make index-background`; with `make run`, `curl -s :8010/api/index/status`

@@ -38,6 +38,11 @@ BUILDERS = {
     "notes": {"module": "notes_index", "requires": [], "label": "notes corpus"},
     "courses": {"module": "course_index", "requires": [], "label": "courses corpus"},
     "documents": {"module": "document_index", "requires": [], "label": "documents corpus"},
+    "library": {
+        "module": "build_library_index",
+        "requires": ["notes", "courses", "documents"],
+        "label": "unified library index",
+    },
     "glossarium": {"module": "build_glossarium_index", "requires": [], "label": "glossarium terms"},
     "qa": {"module": "build_qa_index", "requires": [], "label": "Q/A log"},
     "atlas": {"module": "build_technica_atlas", "requires": [], "label": "technica atlas"},

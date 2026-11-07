@@ -53,6 +53,9 @@ course-index: ## rebuild the courses search index (after any corpus change)
 document-index: ## rebuild the documents search index (after any corpus change)
 	python3 bin/document_index.py
 
+library-index: ## rebuild the unified library index (notes + documents + courses)
+	python3 bin/build_library_index.py
+
 ees-check: ## validate the EES tree store (src/notes/app/data/epistemica/ees.json)
 	python3 bin/ees_check.py
 

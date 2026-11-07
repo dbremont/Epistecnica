@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library — Epistecnica</title>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-void: #04050A;
+            --bg-surface: #0B0D14;
+            --bg-card: #11141D;
+            --text-primary: #E2E4EB;
+            --text-secondary: #8A8FA6;
+            --text-muted: #737891;
+            --accent-gold: #C5A467;
+            --accent-cyan: #5BF0E7;
+            --border-subtle: rgba(255, 255, 255, 0.07);
+            --border-medium: rgba(255, 255, 255, 0.12);
+            --nav-bg: rgba(4, 5, 10, 0.86);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0;
+            --bg-surface: #F1EEE7;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1D24;
+            --text-secondary: #4A4F5E;
+            --text-muted: #696E7D;
+            --accent-gold: #84682F;
+            --accent-cyan: #0E7C72;
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --border-medium: rgba(20, 22, 30, 0.18);
+            --nav-bg: rgba(247, 245, 240, 0.88);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
+        body {
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            transition: opacity 180ms ease;
+        }
+        html.theme-fading body { opacity: 0; }
+        a { color: inherit; text-decoration: none; }
+        a:focus-visible, button:focus-visible, input:focus-visible {
+            outline: 1px solid var(--accent-cyan); outline-offset: 3px;
+        }
+        .top {
+            position: sticky; top: 0; z-index: 20;
+            display: grid;
+            grid-template-columns: auto minmax(0, 1fr) auto auto;
+            gap: 1rem;
+            align-items: center;
+            padding: 0.85rem 2rem;
+            background: var(--nav-bg);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .brand {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            letter-spacing: 0.02em;
+            white-space: nowrap;
+        }
+        .brand em { color: var(--accent-gold); font-style: italic; }
+        .searchbox {
+            display: flex; align-items: center; gap: 0.6rem;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 0.55rem 0.8rem;
+            min-width: 0;
+        }
+        .searchbox input {
+            width: 100%; border: 0; background: transparent;
+            color: var(--text-primary); font-family: var(--font-body);
+            font-size: 0.85rem; outline: none;
+        }
+        .searchbox input::placeholder { color: var(--text-muted); }
+        .tabs { display: flex; gap: 0.25rem; }
+        .tabs button {
+            border: 1px solid var(--border-subtle);
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            padding: 0.45rem 0.6rem;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .tabs button[aria-pressed="true"] {
+            color: var(--bg-void);
+            background: var(--accent-gold);
+            border-color: var(--accent-gold);
+        }
+        .theme {
+            border: 1px solid var(--border-subtle);
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.12em;
+            padding: 0.45rem 0.6rem;
+            border-radius: 3px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .shell {
+            display: grid;
+            grid-template-columns: 300px minmax(0, 1fr);
+            gap: 2.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 2rem 4rem;
+        }
+        .tree {
+            position: sticky; top: 4.2rem; align-self: start;
+            max-height: calc(100vh - 5.5rem);
+            overflow: auto;
+            border-right: 1px solid var(--border-subtle);
+            padding-right: 1rem;
+        }
+        .tree h2, .content h2 {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            font-weight: 400;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 0.8rem;
+        }
+        .tree details { margin-bottom: 0.15rem; }
+        .tree summary, .tree button.leaf {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5rem;
+            width: 100%;
+            padding: 0.32rem 0.4rem;
+            border: 0;
+            border-radius: 3px;
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: var(--font-body);
+            font-size: 0.82rem;
+            text-align: left;
+        }
+        .tree summary::-webkit-details-marker { display: none; }
+        .tree summary:hover, .tree button.leaf:hover, .tree button.leaf.active {
+            background: var(--bg-surface);
+            color: var(--text-primary);
+        }
+        .tree .count {
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+        }
+        .tree .children { padding-left: 0.8rem; border-left: 1px solid var(--border-subtle); margin-left: 0.45rem; }
+        .content { min-width: 0; }
+        .result-head {
+            display: flex; justify-content: space-between; align-items: baseline;
+            gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem;
+        }
+        .result-head h1 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 400;
+        }
+        .result-head p { color: var(--text-muted); font-size: 0.8rem; }
+        .actions { display: flex; gap: 0.5rem; }
+        .btn {
+            border: 1px solid var(--border-medium);
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            padding: 0.5rem 0.7rem;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .random-panel {
+            display: none;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-surface);
+            padding: 1rem 1.1rem;
+            margin-bottom: 1.2rem;
+            border-radius: 4px;
+        }
+        .random-panel.open { display: block; }
+        .random-panel h3 {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 0.6rem;
+        }
+        .random-panel ol { margin-left: 1.1rem; display: grid; gap: 0.45rem; }
+        .random-panel li { color: var(--text-secondary); font-size: 0.85rem; }
+        .random-panel a:hover { color: var(--accent-cyan); }
+        .list { border-top: 1px solid var(--border-subtle); }
+        .item {
+            display: grid;
+            grid-template-columns: 5.5rem minmax(0, 1fr) auto;
+            gap: 1rem;
+            align-items: baseline;
+            padding: 0.75rem 0.4rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .item:hover { background: var(--bg-surface); }
+        .badge {
+            font-family: var(--font-mono);
+            font-size: 0.56rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            border: 1px solid var(--border-subtle);
+            border-radius: 2px;
+            padding: 0.15rem 0.3rem;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .badge-note { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .badge-document { color: var(--accent-gold); border-color: var(--accent-gold); }
+        .badge-course { color: #B48CE0; border-color: #B48CE0; }
+        .badge-live { color: var(--text-muted); }
+        .item-title { font-size: 0.95rem; color: var(--text-primary); }
+        .item-sub { display: block; margin-top: 0.15rem; font-size: 0.72rem; color: var(--text-muted); }
+        .item-tags { font-family: var(--font-mono); font-size: 0.62rem; color: var(--text-muted); text-align: right; }
+        .more {
+            display: block; margin: 1.4rem auto 0;
+            border: 1px solid var(--border-medium);
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            padding: 0.6rem 1rem;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .more:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .empty { padding: 2rem 0; color: var(--text-muted); font-style: italic; }
+        footer {
+            border-top: 1px solid var(--border-subtle);
+            padding: 1.5rem 2rem;
+            display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+        footer a:hover { color: var(--accent-cyan); }
+        @media (max-width: 900px) {
+            .top { grid-template-columns: 1fr auto; }
+            .searchbox { grid-column: 1 / -1; order: 3; }
+            .tabs { order: 4; grid-column: 1 / -1; }
+            .shell { grid-template-columns: 1fr; padding: 1.2rem; }
+            .tree { position: static; max-height: none; border-right: 0; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1rem; }
+            .item { grid-template-columns: 4.5rem minmax(0, 1fr); }
+            .item-tags { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <a class="brand" href="../">Episte<em>cnica</em></a>
+        <div class="searchbox">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input id="q" type="search" placeholder="Filter titles, tags, paths…" autocomplete="off">
+        </div>
+        <div class="tabs" id="tabs">
+            <button type="button" data-kind="all" aria-pressed="true">All</button>
+            <button type="button" data-kind="note" aria-pressed="false">Notes</button>
+            <button type="button" data-kind="document" aria-pressed="false">Documents</button>
+            <button type="button" data-kind="course" aria-pressed="false">Courses</button>
+        </div>
+        <button type="button" class="theme" id="themeToggle">◐ <span id="themeLabel">LIGHT</span></button>
+    </header>
+
+    <main class="shell">
+        <aside class="tree">
+            <h2>Library tree</h2>
+            <div id="tree"></div>
+        </aside>
+        <section class="content">
+            <div class="result-head">
+                <div>
+                    <h1 id="title">Library</h1>
+                    <p id="meta">Loading…</p>
+                </div>
+                <div class="actions">
+                    <button type="button" class="btn" id="randomBtn">Random 5 documents</button>
+                    <button type="button" class="btn" id="clearBtn">Clear filters</button>
+                </div>
+            </div>
+            <div class="random-panel" id="randomPanel">
+                <h3>Five documents at random</h3>
+                <ol id="randomList"></ol>
+            </div>
+            <div class="list" id="list"></div>
+            <button type="button" class="more" id="more" hidden>Load more</button>
+        </section>
+    </main>
+
+    <footer>
+        <span>Epistecnica · unified library</span>
+        <span><a href="../">home</a> · <a href="../notes/">notes</a> · <a href="../documents/">documents</a> · <a href="../courses/">courses</a></span>
+    </footer>
+
+    <script>
+    (function () {
+        'use strict';
+        var ENTRIES = [];
+        var state = { kind: 'all', corpus: '', section: '', dir: '', course: '', q: '', page: 1, size: 80 };
+        var listEl = document.getElementById('list');
+        var metaEl = document.getElementById('meta');
+        var titleEl = document.getElementById('title');
+        var moreEl = document.getElementById('more');
+        var treeEl = document.getElementById('tree');
+
+        function esc(s) {
+            return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+            });
+        }
+        function encPath(p) {
+            return String(p).split('/').map(encodeURIComponent).join('/');
+        }
+        function href(e) {
+            if (e.corpus === 'note') {
+                return e.kind === 'live'
+                    ? '../notes/data/' + encPath(e.path)
+                    : '../notes/note.html?n=' + encPath(e.path);
+            }
+            if (e.corpus === 'document') return '../documents/document.html?d=' + encPath(e.path);
+            if (e.corpus === 'course') {
+                if (e.kind === 'course') return '../courses/course.html?c=' + encPath(e.path);
+                if (e.kind === 'lecture') return '../courses/lecture.html?l=' + encPath(e.path);
+                return '../courses/courses/' + encPath(e.path);
+            }
+            return '#';
+        }
+        function label(e) {
+            if (e.kind === 'live') return e.corpus === 'course' ? 'live course' : 'live note';
+            return e.kind || e.corpus;
+        }
+        function badgeClass(e) {
+            if (e.kind === 'live') return 'badge badge-live';
+            return 'badge badge-' + (e.corpus || 'note');
+        }
+        function matches(e) {
+            if (state.kind !== 'all' && e.corpus !== state.kind) return false;
+            if (state.section && e.section !== state.section) return false;
+            if (state.dir && (e.path !== state.dir && e.path.indexOf(state.dir + '/') !== 0)) return false;
+            if (state.course && e.course !== state.course && e.path !== state.course) return false;
+            if (!state.q) return true;
+            var q = state.q.toLowerCase();
+            return (e.title || '').toLowerCase().indexOf(q) >= 0 ||
+                (e.path || '').toLowerCase().indexOf(q) >= 0 ||
+                (e.tags || []).some(function (t) { return t.toLowerCase().indexOf(q) >= 0; });
+        }
+        function filtered() { return ENTRIES.filter(matches); }
+
+        function renderList(reset) {
+            var rows = filtered();
+            if (reset) { listEl.innerHTML = ''; state.page = 1; }
+            var shown = Math.min(rows.length, state.page * state.size);
+            var start = (state.page - 1) * state.size;
+            if (state.page === 1) listEl.innerHTML = '';
+            rows.slice(start, shown).forEach(function (e) {
+                var item = document.createElement('a');
+                item.className = 'item';
+                item.href = href(e);
+                item.innerHTML =
+                    '<span class="' + badgeClass(e) + '">' + esc(label(e)) + '</span>' +
+                    '<span><span class="item-title">' + esc(e.title) + '</span>' +
+                    '<span class="item-sub">' + esc(e.section || e.course || '') +
+                    ((e.words || 0) ? ' · ' + e.words.toLocaleString() + ' words' : '') + '</span></span>' +
+                    '<span class="item-tags">' + (e.tags || []).slice(0, 3).map(function (t) { return '#' + esc(t); }).join(' ') + '</span>';
+                listEl.appendChild(item);
+            });
+            if (!rows.length) {
+                listEl.innerHTML = '<div class="empty">Nothing matches those filters.</div>';
+            }
+            metaEl.textContent = rows.length.toLocaleString() + ' entr' + (rows.length === 1 ? 'y' : 'ies') +
+                (shown < rows.length ? ' · showing ' + shown.toLocaleString() : '');
+            moreEl.hidden = shown >= rows.length;
+            var labelText = state.kind === 'all' ? 'Library' : state.kind.charAt(0).toUpperCase() + state.kind.slice(1) + 's';
+            titleEl.textContent = labelText;
+        }
+
+        function node(label, count, action, active, children) {
+            var wrap = document.createElement(children ? 'details' : 'div');
+            if (children) {
+                var sum = document.createElement('summary');
+                sum.innerHTML = '<span>' + esc(label) + '</span><span class="count">' + count.toLocaleString() + '</span>';
+                wrap.appendChild(sum);
+                var box = document.createElement('div');
+                box.className = 'children';
+                children.forEach(function (c) { box.appendChild(c); });
+                wrap.appendChild(box);
+            } else {
+                var btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'leaf' + (active ? ' active' : '');
+                btn.innerHTML = '<span>' + esc(label) + '</span><span class="count">' + count.toLocaleString() + '</span>';
+                btn.addEventListener('click', action);
+                wrap.appendChild(btn);
+            }
+            return wrap;
+        }
+
+        function buildTree() {
+            var byCorpus = { note: [], document: [], course: [] };
+            ENTRIES.forEach(function (e) { (byCorpus[e.corpus] || []).push(e); });
+            treeEl.innerHTML = '';
+
+            function setFilter(kind, section, dir, course) {
+                state.kind = kind;
+                state.corpus = kind;
+                state.section = section || '';
+                state.dir = dir || '';
+                state.course = course || '';
+                state.page = 1;
+                syncTabs();
+                renderList(true);
+            }
+
+            // Notes: section -> first subdirectory
+            var noteSections = {};
+            byCorpus.note.forEach(function (e) {
+                noteSections[e.section] = noteSections[e.section] || { count: 0, dirs: {} };
+                noteSections[e.section].count++;
+                var parts = e.path.split('/');
+                if (parts.length > 2) {
+                    var d = parts[0] + '/' + parts[1];
+                    noteSections[e.section].dirs[d] = (noteSections[e.section].dirs[d] || 0) + 1;
+                }
+            });
+            var noteChildren = [
+                node('all notes', byCorpus.note.length, function () { setFilter('note'); },
+                    state.kind === 'note' && !state.section && !state.dir)
+            ];
+            Object.keys(noteSections).sort(function (a, b) { return noteSections[b].count - noteSections[a].count; }).forEach(function (sec) {
+                var info = noteSections[sec];
+                var dirs = Object.keys(info.dirs).sort(function (a, b) { return info.dirs[b] - info.dirs[a]; }).slice(0, 18);
+                var kids = [
+                    node('all ' + sec, info.count, function () { setFilter('note', sec); },
+                        state.kind === 'note' && state.section === sec && !state.dir)
+                ];
+                dirs.forEach(function (d) {
+                    kids.push(node(d.split('/')[1], info.dirs[d], function () { setFilter('note', sec, d); },
+                        state.kind === 'note' && state.section === sec && state.dir === d));
+                });
+                noteChildren.push(node(sec, info.count, null, false, kids));
+            });
+            treeEl.appendChild(node('Notes', byCorpus.note.length, null, false, noteChildren));
+
+            // Documents: section
+            var docSections = {};
+            byCorpus.document.forEach(function (e) { docSections[e.section] = (docSections[e.section] || 0) + 1; });
+            var docChildren = [
+                node('all documents', byCorpus.document.length, function () { setFilter('document'); },
+                    state.kind === 'document' && !state.section)
+            ];
+            Object.keys(docSections).sort().forEach(function (sec) {
+                docChildren.push(node(sec, docSections[sec], function () { setFilter('document', sec); },
+                    state.kind === 'document' && state.section === sec));
+            });
+            treeEl.appendChild(node('Documents', byCorpus.document.length, null, false, docChildren));
+
+            // Courses: course entries
+            var courses = byCorpus.course.filter(function (e) { return e.kind === 'course'; });
+            var courseChildren = [
+                node('all courses', courses.length, function () { setFilter('course'); },
+                    state.kind === 'course' && !state.course)
+            ];
+            courses.sort(function (a, b) { return a.title.localeCompare(b.title); }).forEach(function (e) {
+                courseChildren.push(node(e.title, 1, function () { setFilter('course', '', '', e.path); },
+                    state.kind === 'course' && state.course === e.path));
+            });
+            treeEl.appendChild(node('Courses', courses.length, null, false, courseChildren));
+
+            var first = treeEl.querySelector('details');
+            if (first) first.open = true;
+        }
+
+        function syncTabs() {
+            document.querySelectorAll('#tabs button').forEach(function (b) {
+                b.setAttribute('aria-pressed', String(b.getAttribute('data-kind') === state.kind));
+            });
+        }
+
+        function renderRandom() {
+            var docs = ENTRIES.filter(function (e) { return e.corpus === 'document'; });
+            var picked = [];
+            var used = {};
+            while (picked.length < 5 && docs.length) {
+                var i = Math.floor(Math.random() * docs.length);
+                if (used[i]) { continue; }
+                used[i] = true; picked.push(docs[i]);
+            }
+            var ol = document.getElementById('randomList');
+            ol.innerHTML = picked.map(function (e) {
+                return '<li><a href="' + href(e) + '">' + esc(e.title) + '</a> <span class="count">' + esc(e.section) + '</span></li>';
+            }).join('');
+            document.getElementById('randomPanel').classList.add('open');
+        }
+
+        function applyParams() {
+            var p = new URLSearchParams(location.search);
+            if (p.get('kind')) state.kind = p.get('kind');
+            if (p.get('section')) { state.section = p.get('section'); state.kind = 'note'; }
+            if (p.get('dir')) { state.dir = p.get('dir'); state.kind = 'note'; }
+            if (p.get('q')) { state.q = p.get('q'); document.getElementById('q').value = state.q; }
+            if (state.kind !== 'all') state.corpus = state.kind;
+            syncTabs();
+        }
+
+        document.getElementById('q').addEventListener('input', function (e) {
+            state.q = e.target.value.trim();
+            renderList(true);
+        });
+        document.querySelectorAll('#tabs button').forEach(function (b) {
+            b.addEventListener('click', function () {
+                state.kind = b.getAttribute('data-kind');
+                state.corpus = state.kind === 'all' ? '' : state.kind;
+                state.section = ''; state.dir = ''; state.course = '';
+                syncTabs(); renderList(true);
+            });
+        });
+        document.getElementById('clearBtn').addEventListener('click', function () {
+            state = { kind: 'all', corpus: '', section: '', dir: '', course: '', q: '', page: 1, size: 80 };
+            document.getElementById('q').value = '';
+            syncTabs(); buildTree(); renderList(true);
+        });
+        document.getElementById('randomBtn').addEventListener('click', renderRandom);
+        moreEl.addEventListener('click', function () { state.page++; renderList(false); });
+
+        var themeBtn = document.getElementById('themeToggle');
+        function applyTheme() {
+            var t = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+            document.documentElement.dataset.theme = t;
+            localStorage.setItem('epistecnica-theme', t);
+            document.getElementById('themeLabel').textContent = t === 'light' ? 'DARK' : 'LIGHT';
+        }
+        document.getElementById('themeLabel').textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        themeBtn.addEventListener('click', function () {
+            document.documentElement.classList.add('theme-fading');
+            setTimeout(function () {
+                applyTheme();
+                document.documentElement.classList.remove('theme-fading');
+            }, 180);
+        });
+
+        fetch('../data/library-index.json', { headers: { 'Accept': 'application/json' }, cache: 'no-cache' })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (d) {
+                ENTRIES = d.entries || [];
+                applyParams();
+                buildTree();
+                renderList(true);
+            })
+            .catch(function (err) {
+                metaEl.textContent = 'Could not load the library index (' + err.message + '). Run make index.';
+            });
+    })();
+    </script>
+</body>
+</html>
