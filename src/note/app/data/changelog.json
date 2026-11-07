@@ -24985,6 +24985,26 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/education/hkg/hong-kong-academy-for-gifted-education.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Hong Kong Academy for Gifted Education note."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/education/usa/center-for-talented-youth.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Johns Hopkins Center for Talented Youth note."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/party/general-german-workers-association.md",
     "logs": [
       {
