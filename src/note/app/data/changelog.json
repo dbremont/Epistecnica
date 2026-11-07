@@ -24990,7 +24990,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Add the Hong Kong Academy for Gifted Education note."
+        "summary": "Add the Hong Kong Academy for Gifted Education note.",
+        "commit": "6f5bab8005267a41e5f65d5abadbb00da0d83be6"
       }
     ]
   },
@@ -25000,7 +25001,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Add the Johns Hopkins Center for Talented Youth note."
+        "summary": "Add the Johns Hopkins Center for Talented Youth note.",
+        "commit": "6f5bab8005267a41e5f65d5abadbb00da0d83be6"
       }
     ]
   },
