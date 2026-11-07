@@ -124,7 +124,7 @@ A **linux** **security triple** is a 4-tuple **(Layer, Security Object, Security
 
 ## File Permisions(s)
 
-![image.png](../assets/notes/technica/computation/operating-system/linux/linux-security-stack/image.png)
+![image.png](../assets/note/technica/computation/operating-system/linux/linux-security-stack/image.png)
 
 ## Linux Security Tool(s)
 

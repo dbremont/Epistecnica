@@ -9,7 +9,7 @@ tags: [note, query-language]
 > SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases.
 > 
 
-![Untitled](../assets/notes/technica/computation/data-system/data-system-conceptual-model/sql/untitled.png)
+![Untitled](../assets/note/technica/computation/data-system/data-system-conceptual-model/sql/untitled.png)
 
 ## Language Specification
 

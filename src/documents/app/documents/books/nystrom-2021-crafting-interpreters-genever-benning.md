@@ -35,7 +35,7 @@ tags: [document]
 > **Note:** The pedagogy involves teaching language system concepts while developing two systems: an interpreter and a bytecode virtual machine.
 > 
 
-![image.png](../assets/documents/books/nystrom-2021-crafting-interpreters-genever-benning/image.png)
+![image.png](../assets/document/books/nystrom-2021-crafting-interpreters-genever-benning/image.png)
 
 ### A Map of the Territory
 
@@ -45,11 +45,11 @@ tags: [document]
 > Though a map simplifies and omits, it enables effective orientation within complex terrain.
 > 
 
-![A Map of the Language System Mountain.](../assets/documents/books/nystrom-2021-crafting-interpreters-genever-benning/image-1.png)
+![A Map of the Language System Mountain.](../assets/document/books/nystrom-2021-crafting-interpreters-genever-benning/image-1.png)
 
 A Map of the Language System Mountain.
 
-![image.png](../assets/documents/books/nystrom-2021-crafting-interpreters-genever-benning/image-2.png)
+![image.png](../assets/document/books/nystrom-2021-crafting-interpreters-genever-benning/image-2.png)
 
 The Parts of a Language:
 

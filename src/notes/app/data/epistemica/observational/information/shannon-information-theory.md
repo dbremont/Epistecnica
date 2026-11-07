@@ -215,7 +215,7 @@ The minus sign turns the inverse relation between probability and surprise into 
 
 The concept is the atom of the theory developed above: the probabilistic realisation of [Entropy](note.html?n=epistemica/observational/information/entropy.md), whose averaged form is [Shannon Entropy](note.html?n=epistemica/observational/information/shannon-entropy.md). Its type, decomposition, and evaluation are answered in the shared [Formulation](#sec-formulation): the concept is the `Epistemic Construction` path, its value the `Epistemic Representation` path, and its evaluation the second table under the critical-evaluation question.
 
-![image.png](../assets/notes/epistemica/observational/shannon-information-theory/image.png)
+![image.png](../assets/note/epistemica/observational/shannon-information-theory/image.png)
 
 ### Entropy
 

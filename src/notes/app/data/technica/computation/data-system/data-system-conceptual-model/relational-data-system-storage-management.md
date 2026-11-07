@@ -20,9 +20,9 @@ tags: [note]
 > **Random access** on non-volatile storage is almost always slower than **sequential access**.
 > 
 
-![image.png](../assets/notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image.png)
+![image.png](../assets/note/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image.png)
 
-![image.png](../assets/notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image-1.png)
+![image.png](../assets/note/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image-1.png)
 
 ## File Storage
 

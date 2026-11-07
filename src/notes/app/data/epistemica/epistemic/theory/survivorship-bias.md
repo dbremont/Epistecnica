@@ -12,7 +12,7 @@ Survivorship Bias: A significant problem with historiography – our interpretat
 > Population / Sample ?
 > 
 
-![Untitled](../assets/notes/philosophia-naturalis/survivorship-bias/survivorship-bias.png)
+![Untitled](../assets/note/philosophia-naturalis/survivorship-bias/survivorship-bias.png)
 
 ## References
 

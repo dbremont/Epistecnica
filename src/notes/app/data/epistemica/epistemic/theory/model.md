@@ -15,7 +15,7 @@ Related: [Computational Irreducibility](note.html?n=epistemica/epistemic/theory/
 > **Note:** A model of reality is, fundamentally, an **affirmation about reality** — often a **composite affirmation** built from more basic, fundamental affirmations. However, this is not always strictly the case: in **effective models**, some components of the model may **not correspond directly to affirmations about reality**, but serve as computational or conceptual tools. Still, in general, the **model as a whole represents an affirmation about reality**.
 > 
 
-![Untitled](../assets/notes/philosophia-naturalis/model/what-is-a-model.png)
+![Untitled](../assets/note/philosophia-naturalis/model/what-is-a-model.png)
 
 ![](https://i.imgur.com/nsNmIw4.png)
 

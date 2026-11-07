@@ -15,7 +15,7 @@ tags: [note, computer-network, protocol]
 > TCP is stateful, maintaining **per-connection state** in the form of **Transmission Control Blocks (TCBs)**, which store all relevant connection parameters (e.g., sequence numbers, window sizes, timers).
 > 
 
-![image.png](../assets/notes/technica/computation/telecom/transmission-control-protocol-tcp/image.png)
+![image.png](../assets/note/technica/computation/telecom/transmission-control-protocol-tcp/image.png)
 
 QA:
 

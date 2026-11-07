@@ -14,7 +14,7 @@ tags: [note, miscellanea, model, electromagnetism]
 > Electromagnetic phenomena are governed by **Maxwell's Equations**, which are the foundation of all electromagnetic modeling.
 >
 
-![image.png](../assets/notes/essays/how-to-simulate-and-model-electromagnetic-phenomen/image.png)
+![image.png](../assets/note/essays/how-to-simulate-and-model-electromagnetic-phenomen/image.png)
 
 See  [Maxwell's Fundamental Electromagnetic Formulation](https://app.notion.com/p/Maxwell-s-Fundamental-Electromagnetic-Formulation-1bac0f5171ec8008aa65fcb024e9cfb1?pvs=21).
 

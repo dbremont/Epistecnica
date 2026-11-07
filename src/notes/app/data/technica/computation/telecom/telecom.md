@@ -32,7 +32,7 @@ QA:
 > A **telecom system** is a network of hardware, software, and protocols designed to transmit voice, data, and multimedia over distances using wired, wireless, or optical technologies.
 > 
 
-![image.png](../assets/notes/technica/computation/telecom/image.png)
+![image.png](../assets/note/technica/computation/telecom/image.png)
 
 ### Characterize a Computer Network
 

@@ -104,7 +104,7 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 
 ### How to find p-values for different distributions?
 
-![p-value](../assets/notes/epistemica/validation/p-value.png)
+![p-value](../assets/note/epistemica/validation/p-value.png)
 
 ### How to Interpret p-values?
 

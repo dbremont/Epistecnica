@@ -38,7 +38,7 @@ QA:
 - **Bivariant** means both covariant and contravariant.
 - **Invariant** means neither covariant nor contravariant.
 
-![Covariance vs Contra-Variance](../assets/notes/technica/computation/language-system/conceptual-model-language-system/type-variance/image.png)
+![Covariance vs Contra-Variance](../assets/note/technica/computation/language-system/conceptual-model-language-system/type-variance/image.png)
 
 Covariance vs Contra-Variance
 
@@ -62,7 +62,7 @@ Covariance vs Contra-Variance
 > Function types with different argument or return types can exhibit these variances, enhancing flexibility in how functions can be assigned and used.
 > 
 
-![**Contra-variance** allows more general argument types in function signatures.](../assets/notes/technica/computation/language-system/conceptual-model-language-system/type-variance/image-1.png)
+![**Contra-variance** allows more general argument types in function signatures.](../assets/note/technica/computation/language-system/conceptual-model-language-system/type-variance/image-1.png)
 
 **Contra-variance** allows more general argument types in function signatures.
 

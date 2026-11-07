@@ -28049,5 +28049,135 @@
         "commit": "a592847dc34bd9118b591609e28193986c0b8998"
       }
     ]
+  },
+  {
+    "file_path": "articles/alvarez-2020-desempeno-relativo-productividad-sica-ganader.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "articles/feynman-1963-lectures-physics.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "articles/liu-2024-deepseek-technical-report-arxiv-preprint.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/agarwal-2005-foundations-analog-digital-electronic-circuits.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bertsekas-2008-introduction-probability-athena-scientific.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/corbet-2005-linux-device-drivers-reilly-media.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dasgupta-2007-partha-economics-short-introduction-oup.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/nystrom-2021-crafting-interpreters-genever-benning.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/trask-2019-grokking-deep-learning-simon.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/van-2012-read-book-classic-guide-intelligent.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wang-2020-central-banking-joseph.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "books/zhirkov-2017-low-level-programming-springer.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "papers/vaswani-2023-attention-all-you-need-https.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
   }
 ]

@@ -58783,5 +58783,815 @@
         "before": "f9ac81d9047aad64a8b280b3d0bd49d26dbc05e1"
       }
     ]
+  },
+  {
+    "file_path": "epistemica/adaptative/cybernetics.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/discipline/mathematics.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/discipline/probability.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/discipline/statistics.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/guidance/principle/pigeonhole-principle.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/theory/model.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/theory/modelling.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/theory/survivorship-bias.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/equation/equation.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/polygon.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/integral-transform.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/method/proof/bijective-method.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number/arithmetic.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number/division.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/number/fraction.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/algebra/group.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/structure/linear/matrix.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/computation-graph.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/computational-learning.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/flow-model.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/computational/hmm-hidden-markov-model.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/information/shannon-information-theory.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/probability/independence.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observational/standard-deviation.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/backpropagation.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/optimization.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/optimization/trade-off.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/singular/durandkerner-method.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/validation/p-value.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/cell.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/electron-hole.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/heat.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/molecule.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/organ-system.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/particle.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/ais/system/computational-learning-system.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/algorithm.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/computacion.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/computational-complexity-theory.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/data-system/data-system-conceptual-model/buffer-manager.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/data-system/data-system-conceptual-model/sql.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/data-visualization.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/dependability.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/dependability/consistency.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/distributed-counter.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/information-systems-integration.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/model-of-computation.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/nodejs.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/petri-net.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/python.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/type-variance.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/language-system/conceptual-model-language-system/x86-isa/x86-language-specification.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/miscelanea/calendar.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/miscelanea/retrieval-system-search-system.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/miscelanea/search-engine-optimization-seo.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/operating-system/linux/linux-security-stack.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/universal-serial-bus-usb.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/design.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/evaluation/performace.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/evaluation/performace/conceptual-model-performance/tracing.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/interface/ui/conceptual-model-computing-system-interface/network-diagram.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/interface/ui/conceptual-model-computing-system-interface/progress-bar.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/conceptual-model-git/git-rebase.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/operation/operation-conceptual-model/jenkins-code-reading.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/programming/conceptual-model-programming/computational-system-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/system/programming/conceptual-model-programming/solid.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/http.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/telecom.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/computation/telecom/transmission-control-protocol-tcp.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "technica/general/cto/es/multinode/apache-kafka.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "unclassified/einstein-field-equations.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
+  },
+  {
+    "file_path": "unclassified/how-to-simulate-and-model-electromagnetic-phenomen.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename."
+      }
+    ]
   }
 ]

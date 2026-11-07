@@ -48,7 +48,7 @@ tags: [document]
 > **Firmware**: …
 > 
 
-![image.png](../assets/documents/books/corbet-2005-linux-device-drivers-reilly-media/image.png)
+![image.png](../assets/document/books/corbet-2005-linux-device-drivers-reilly-media/image.png)
 
 QA:
 

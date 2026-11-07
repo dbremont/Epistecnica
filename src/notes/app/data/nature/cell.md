@@ -39,7 +39,7 @@ tags: [note, nature, natural-system, biology, system]
 
 ## Cell Structure
 
-![Note. Incomplete Model of an Animal Cell.](../assets/notes/nature/cell/image.png)
+![Note. Incomplete Model of an Animal Cell.](../assets/note/nature/cell/image.png)
 
 Note. Incomplete Model of an Animal Cell.
 
@@ -123,7 +123,7 @@ Note. Incomplete Model of an Animal Cell.
 > Plant Cell vs Animal Cell.
 >
 
-![image.png](../assets/notes/nature/cell/image-1.png)
+![image.png](../assets/note/nature/cell/image-1.png)
 
 | **Feature** | **Plant Cell** | **Animal Cell** |
 | --- | --- | --- |

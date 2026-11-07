@@ -79,7 +79,7 @@ qa:
 \text{Epistemic Judgement}$.
 > 
 
-![Ontic state should be understood as a snapshot.](../assets/notes/philosophia-naturalis/modelling/ontic-representation-observed-state.png)
+![Ontic state should be understood as a snapshot.](../assets/note/philosophia-naturalis/modelling/ontic-representation-observed-state.png)
 
 Ontic state should be understood as a snapshot.
 
@@ -398,7 +398,7 @@ Aphorisms:
 > **Statistics** is the art of describing phenomena without delving into their underlying mechanisms.
 > 
 
-![Untitled](../assets/notes/epistemica/modelado/untitled.png)
+![Untitled](../assets/note/epistemica/modelado/untitled.png)
 
 #### Systems
 

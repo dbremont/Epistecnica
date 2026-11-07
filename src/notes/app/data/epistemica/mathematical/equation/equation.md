@@ -50,7 +50,7 @@ tags: [note, mathematics, relation]
 > The equals sign is the symbolic bridge between appearance and essence, between expression and truth, between transformation and identity.
 > 
 
-![image.png](../assets/notes/epistemica/mathematical/equation/image.png)
+![image.png](../assets/note/epistemica/mathematical/equation/image.png)
 
 💡 At its core:
 

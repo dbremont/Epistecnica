@@ -18,7 +18,7 @@ tags: [note]
 > Leep Second / Year: See more in [Leap Second](note.html?n=technica/computation/miscelanea/time.md).
 > 
 
-![Periodic Events](../assets/notes/technica/computation/miscelanea/calendar/image.png)
+![Periodic Events](../assets/note/technica/computation/miscelanea/calendar/image.png)
 
 Periodic Events
 

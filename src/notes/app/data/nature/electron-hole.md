@@ -7,7 +7,7 @@ tags: [note, nature, property, electromagnetism, materials-science, matter]
 > An **electron hole** is a **quasiparticle** representing the absence of an electron in the valence band of a semiconductor, acting as a positively charged carrier with properties analogous to a positively charged particle.
 >
 
-![image.png](../assets/notes/nature/electron-hole/image.png)
+![image.png](../assets/note/nature/electron-hole/image.png)
 
 ## References
 

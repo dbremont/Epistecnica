@@ -7,7 +7,7 @@ tags: [note]
 > A note that explores the **tree of knowledge called *algorithm*** (Algorithm: Problem → Solution Recipe) in the section of the **knowledge section called *Computation***. An algorithm can be thought of as a systematic procedure that defines the rules for state evolution, transforming an initial state into a desired outcome—whether it be a solution, an optimization, or a classification.
 > 
 
-![**Computation** is the **evolution** of states under a governing **dynamic law**.](../assets/notes/technica/computation/algorithm/image.png)
+![**Computation** is the **evolution** of states under a governing **dynamic law**.](../assets/note/technica/computation/algorithm/image.png)
 
 **Computation** is the **evolution** of states under a governing **dynamic law**.
 

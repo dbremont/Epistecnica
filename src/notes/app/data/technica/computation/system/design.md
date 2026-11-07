@@ -49,9 +49,9 @@ tags: [note]
 > Note: For System  Space  -see in Miscellanea.
 > 
 
-![image.png](../assets/notes/technica/computation/system/design/image.png)
+![image.png](../assets/note/technica/computation/system/design/image.png)
 
-![image.png](../assets/notes/technica/computation/system/design/image-1.png)
+![image.png](../assets/note/technica/computation/system/design/image-1.png)
 
 QA:
 

@@ -7,7 +7,7 @@ tags: [note, nature, natural-system, system]
 > An **organ system** is a group of organs that work together to carry out complex tasks in the body.
 >
 
-![image.png](../assets/notes/nature/organ-system/image.png)
+![image.png](../assets/note/nature/organ-system/image.png)
 
 ## References
 

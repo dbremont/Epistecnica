@@ -142,7 +142,7 @@ Guiding Questions:
 
 ### Instruction Encoding
 
-![…](../assets/notes/technica/computation/language-system/conceptual-model-language-system/x86-isa/x86-language-specification/image.png)
+![…](../assets/note/technica/computation/language-system/conceptual-model-language-system/x86-isa/x86-language-specification/image.png)
 
 …
 

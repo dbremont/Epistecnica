@@ -7,7 +7,7 @@ tags: [note]
 
 > 
 
-![Untitled](../assets/notes/epistemica/science/durandkerner-method/untitled.png)
+![Untitled](../assets/note/epistemica/science/durandkerner-method/untitled.png)
 
 ## References
 

@@ -17,7 +17,7 @@ tags: [note]
 > `cloc .`
 > 
 
-![image.png](../assets/notes/technica/computation/system/operation/operation-conceptual-model/jenkins-code-reading/image.png)
+![image.png](../assets/note/technica/computation/system/operation/operation-conceptual-model/jenkins-code-reading/image.png)
 
 ## Building
 

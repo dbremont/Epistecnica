@@ -20,7 +20,7 @@ tags: [note]
 
 ### Which are the instances of the abstract consistency property?
 
-![image.png](../assets/notes/technica/computation/dependability/consistency/image.png)
+![image.png](../assets/note/technica/computation/dependability/consistency/image.png)
 
 | Category | Domain | **Concrete Consistency Property** | Description | **Formulation — Object Set** | **Formulation — Criteria Set** | **Consistency Model (If Any)** | **Computer System Instance Set** |
 | --- | --- | --- | --- | --- | --- | --- | --- |

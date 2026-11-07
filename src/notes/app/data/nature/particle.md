@@ -54,7 +54,7 @@ Guiding Questions:
 > **Neutrinos** have not being observed …
 >
 
-![image.png](../assets/notes/nature/particle/image.png)
+![image.png](../assets/note/nature/particle/image.png)
 
 | **Category** | **Particle** | **Description** | **Observation Status** |
 | --- | --- | --- | --- |

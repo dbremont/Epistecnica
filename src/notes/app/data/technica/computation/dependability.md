@@ -97,7 +97,7 @@ tags: [note]
 > What are the **possible states related** to the dependability properties that a given system can be in?
 > 
 
-![image.png](../assets/notes/technica/computation/dependability/image.png)
+![image.png](../assets/note/technica/computation/dependability/image.png)
 
 | State | Meaning |
 | --- | --- |

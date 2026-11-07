@@ -26,17 +26,17 @@ tags: [note, language-system]
 
 Parts of Writing a new Language
 
-![**Eval** bridges the gap between representation (code) and execution, while **Apply** executes that representation within a specific environment.](../assets/notes/technica/computation/language-system/image.png)
+![**Eval** bridges the gap between representation (code) and execution, while **Apply** executes that representation within a specific environment.](../assets/note/technica/computation/language-system/image.png)
 
 **Eval** bridges the gap between representation (code) and execution, while **Apply** executes that representation within a specific environment.
 
-![**Metacomputation** empowers **computation** by enabling it to reflect upon, manipulate, and evolve itself.](../assets/notes/technica/computation/language-system/image-1.png)
+![**Metacomputation** empowers **computation** by enabling it to reflect upon, manipulate, and evolve itself.](../assets/note/technica/computation/language-system/image-1.png)
 
 **Metacomputation** empowers **computation** by enabling it to reflect upon, manipulate, and evolve itself.
 
-![image.png](../assets/notes/technica/computation/language-system/image-2.png)
+![image.png](../assets/note/technica/computation/language-system/image-2.png)
 
-![image.png](../assets/notes/technica/computation/language-system/image-3.png)
+![image.png](../assets/note/technica/computation/language-system/image-3.png)
 
 ## Model of Computation
 

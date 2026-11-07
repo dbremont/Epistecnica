@@ -32,7 +32,7 @@ Uses:
 
 ## Buffer Pool Manager
 
-![image.png](../assets/notes/technica/computation/data-system/data-system-conceptual-model/buffer-manager/image.png)
+![image.png](../assets/note/technica/computation/data-system/data-system-conceptual-model/buffer-manager/image.png)
 
 ### Page Directory
 

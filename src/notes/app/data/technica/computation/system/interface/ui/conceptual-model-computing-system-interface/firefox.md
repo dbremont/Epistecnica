@@ -15,9 +15,9 @@ Source Code:
 - **comment:** 6663746
 - **code:** 40720305
 
-![image.png](../assets/notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image.png)
+![image.png](../assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image.png)
 
-![image.png](../assets/notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image-1.png)
+![image.png](../assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image-1.png)
 
 ## Building
 

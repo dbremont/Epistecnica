@@ -342,7 +342,7 @@ tags: [note]
 > But how do you know the proper data layout? You do not, at least not at first. But you also do not know how your logic should be organized at first. You learn.
 > 
 
-![image.png](../assets/notes/technica/computation/system/evaluation/performace/image.png)
+![image.png](../assets/note/technica/computation/system/evaluation/performace/image.png)
 
 ## Case Study
 

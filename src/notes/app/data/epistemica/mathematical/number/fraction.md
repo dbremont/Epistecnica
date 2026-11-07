@@ -140,7 +140,7 @@ qa:
 
 ### Which are the possible interpretations of the following situation?
 
-![Two circles cut in thirds: one third shaded, and all three thirds shaded](../assets/notes/epistemica/mathematical/fraction/fraction-part-whole.png)
+![Two circles cut in thirds: one third shaded, and all three thirds shaded](../assets/note/epistemica/mathematical/fraction/fraction-part-whole.png)
 
 1. **Part-to-Part Comparison:** Relate the number of colored parts to the number of non-colored parts (1 : 2).
 2. **Fractional Representation:** Represent the number of colored parts as \(1 \times \frac{1}{3}\).

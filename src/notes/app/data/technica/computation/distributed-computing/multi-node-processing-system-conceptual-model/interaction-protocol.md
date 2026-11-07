@@ -50,7 +50,7 @@ QA:
 
 > 
 
-![image.png](../assets/notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol/image.png)
+![image.png](../assets/note/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol/image.png)
 
 ## References
 

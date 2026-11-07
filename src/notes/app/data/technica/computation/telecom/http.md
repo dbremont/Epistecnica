@@ -36,7 +36,7 @@ tags: [note, computer-network, protocol]
 > Slug: In web development, a “slug” refers to a human-readable, URL-friendly text string used to uniquely identify a resource, often in the context of URLs for articles, posts, or pages.
 > 
 
-![image.png](../assets/notes/technica/computation/telecom/http/image.png)
+![image.png](../assets/note/technica/computation/telecom/http/image.png)
 
 Request:
 

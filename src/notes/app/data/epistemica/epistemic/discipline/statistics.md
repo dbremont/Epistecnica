@@ -43,11 +43,11 @@ instantiates is owned by the canonical
 > Note: A superficial understanding of statistics can be more misleading than having no knowledge at all.
 > 
 
-![modelling.jpeg](../assets/notes/epistemica/discipline/statistics/modelling.jpeg)
+![modelling.jpeg](../assets/note/epistemica/discipline/statistics/modelling.jpeg)
 
 [https://pbs.twimg.com/media/GPFHPSCWwAAvrXq?format=jpg&name=large](https://pbs.twimg.com/media/GPFHPSCWwAAvrXq?format=jpg&name=large)
 
-![Untitled](../assets/notes/epistemica/discipline/statistics/untitled.png)
+![Untitled](../assets/note/epistemica/discipline/statistics/untitled.png)
 
 ## Formulation
 
