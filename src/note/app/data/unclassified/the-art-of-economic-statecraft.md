@@ -36,6 +36,27 @@ TODO
 - Developmental State
 - [Indicative Planning](https://en.wikipedia.org/wiki/Indicative_planning) - [Dirigisme](https://en.wikipedia.org/wiki/Dirigisme)
 
+## Schools of early modern economic thought
+
+Margaret Schabas's Stanford Encyclopedia of Philosophy entry "Economics in Early Modern Philosophy" (Spring 2026) is the best single orientation to the literature indexed below. It distinguishes several overlapping schools and traditions:
+
+- **Cameralists** — the Germanic, Scandinavian, and Italian writers on the economics of the chamber (*Kameralwissenschaft*), from Becher and Justi to Sonnenfels and the Swedish cameralist-adjacent Linnaeus. Their concerns were resource extraction, mining, forestry, autarky, and fiscal administration.
+- **Mercantilists** — the loose body of writings later grouped by Adam Smith under the "mercantile system": Malynes, Misselden, Mun, Child, Fortrey, Cary, Pollexfen, and Barbon. They analysed trade balances, money, employment, and national power, and were not uniformly crude bullionists.
+- **Salamanca school** — the sixteenth-century Spanish scholastics (Molina, Azpilcueta, Suárez) on money, exchange, and the quantity theory.
+- **Natural-law writers** — Grotius and Pufendorf on property, contracts, and commercial obligations.
+- **Dutch commercial republicanism** — De Witt, Huygens, and the De la Court brothers.
+- **English political arithmetic** — Petty, Graunt, and Halley on population, money, and measurement.
+- **Scottish stadialists** — Kames, Ferguson, Millar, and Steuart on the four stages and economic development.
+- **French Colbertistes, Gournay circle, and Physiocrats** — Colbert, Gournay, Quesnay, Turgot, and Boisguilbert.
+- **Italian *economia civile*** — Genovesi, Beccaria, Verri, and Galiani.
+- **Iberian arbitristas and reformers** — Ortiz, Moncada, Navarrete, Uztáriz, Campillo, Ulloa, and Campomanes.
+- **Swedish and Danish improvement writers** — Risingh, Nordencrantz, Berch, Salander, Kryger, Chydenius, Fischerström, Pontoppidan, Pihl, and the Lütkens.
+- **Russian state-developmental writers** — Pososhkov and Tatishchev.
+
+The entry also stresses that early modern economics was a mature inquiry: price theory, monetary theory, the quantity theory, the specie-flow mechanism, and the beginnings of statistical and model-based reasoning were already in place before Adam Smith. The table below is a country-by-country index to that literature, not a list of isolated "great men."
+
+> **Note on links.** Thinker names link to corpus persona notes where one exists. Entries without a link are pending notes in the same series.
+
 ## State Economist Strategist
 
 > Note: This List Was Generated with ChatGPT;  The Contribution of Deng is Exagerated;  look at the true ideas man in that change.
@@ -55,47 +76,78 @@ TODO
 |                          | 20th c.      | Roberto Cochrane Simonsen                      | Industrial historian and strategist.                              |
 | 🇨🇿 Czechia               | 19th c.      | František Palacký                              | Czech national revival linked to industry.                        |
 |                          | 20th c.      | Tomáš Baťa                                     | Industrialist; systems innovator and factory town planner.        |
+| 🇩🇰 Denmark               | 18th c.      | Erik Pontoppidan                               | *Eutropii Philadelphi Oeconomiske Balance* (1759); domestic raw materials, Danish labour and self-sufficiency. |
+|                          | 18th c.      | Erik Pontoppidan (editor)                      | *Danmarks og Norges oeconomiske Magazin* (1757–1764); agricultural improvement, industry and natural resources. |
+|                          | 18th c.      | Ole Stockfleth Pihl                            | *Oeconomisk Journal* (1757–1758); economic policy and fiscal questions. |
+|                          | 18th c.      | Otto Diderik Lütken                            | *Undersøgninger* (1760); national economy, production and circulation. |
+|                          | 18th c.      | Frederik Christian Lütken                      | Economic and agricultural writings; agriculture and improvement.  |
 | 🏴 England               | 15th c.      | Henry VII                                      | Supported textile industry and merchant fleet.                    |
-|                          | 17th c.      | Thomas Mun                                     | Mercantilist theorist of trade surpluses.                         |
-| 🇫🇷 France                | 17th c.      | Jean-Baptiste Colbert                          | Colbertism: state-directed manufacturing & protectionism.         |
-|                          | 17th c.      | Antoine de Montchrestien                       | *Traicté d’Économie Politique* (1615); proto-political economist. |
-|                          | 18th c.      | Jean-Baptiste Colbert (relisted)               | Seminal influence on European mercantilism.                       |
-| 🇩🇪 Germany               | 17th c.      | Philipp von Hörnigk                            | *Austria Over All If She Only Will*; 9 mercantilist principles.   |
-|                          | 19th c.      | Friedrich List                                 | *The National System of Political Economy* (1841).                |
-| 🇭🇺 Hungary               | 19th c.      | István Széchenyi                               | Industrialization, banking, transport reform.                     |
-|                          | 19th c.      | Károly Kautz                                   | National political economy and industrial development.            |
-| 🇮🇪 Ireland               | 18th c.      | Jonathan Swift                                 | *Drapier’s Letters*, *Modest Proposal*; economic autonomy satire. |
-|                          | 20th c.      | Arthur Griffith                                | Sinn Féin leader; economic nationalism.                           |
-|                          | 20th c.      | T. K. Whitaker                                 | *Economic Development* (1958); industrial strategy shift.         |
-| 🇮🇹 Italy                 | 17th c.      | Antonio Serra                                  | First treatise defending manufacturing for national wealth.       |
-|                          | 19th c.      | Camillo Benso di Cavour                        | Railways and modernization in Piedmont.                           |
-|                          | 20th c.      | Vilfredo Pareto                                | Theory of elites and industrial-capitalist transition.            |
-| 🇳🇱 Netherlands           | 17th c.      | Pieter de la Court                             | Republican industrial trade theorist.                             |
-|                          | 17th c.      | Johan de Witt                                  | Maritime-industrial power advocate.                               |
-| 🇳🇴 Norway                | 19th c.      | Anton Martin Schweigaard                       | Legal/economic modernizer; pro-industry.                          |
-|                          | 21st c.      | Erik S. Reinert                                | *How Rich Countries Got Rich…*; neo-Listian critique.             |
-| 🇵🇱 Poland                | 18th c.      | Stanisław Staszic                              | Mining, engineering, and education for development.               |
-|                          | 20th c.      | Eugeniusz Kwiatkowski                          | Central Industrial Region planner (1930s).                        |
-| 🇵🇹 Portugal              | 17th c.      | Duarte Ribeiro de Macedo                       | Proto-arbitrista for manufacturing.                               |
-|                          | 18th c.      | Marquês de Pombal                              | Bourbon-style state-led reformer.                                 |
-| 🇷🇺 Russia                | 19th c.      | Sergei Witte                                   | Railway industrialization and finance modernization.              |
-| 🏴 Scotland              | 18th c.      | James Steuart                                  | *Principles of Political Economy* (1767); pre-Smithian planner.   |
-|                          | 19th c.      | Patrick Geddes                                 | Regional planning and urban-industrial revitalization.            |
-| 🇰🇷 South Korea           | 21st c.      | Ha-Joon Chang                                  | *Kicking Away the Ladder*; critic of free-market dogma.           |
-| 🇪🇸 Spain                 | 16th c.      | Luis Ortiz                                     | *Memorial* (1558); import substitution and industry.              |
-|                          | 17th c.      | Sancho Moncada                                 | *Restablecimiento de España*; proto-industrial planning.          |
-|                          | 17th c.      | Pedro Fernández de Navarrete                   | *Conservación de Monarquías*; productivity via reform.            |
-|                          | 18th c.      | Gerónimo de Uztáriz                            | *Teórica y Práctica de Comercio y Marina*.                        |
-|                          | 18th c.      | José del Campillo y Cossío                     | Fiscal-industrial reform strategies.                              |
-| 🇸🇪 Sweden                | 18th c.      | Anders Chydenius                               | Early liberal; free trade and productivity advocate.              |
-| 🇺🇸 USA                   | 18th c.      | Alexander Hamilton                             | *Report on Manufactures*; infant industry protection.             |
-|                          | 19th c.      | Henry Carey                                    | Protectionist; national development theorist.                     |
-|                          | 20th c.      | Nathan Rosenberg                               | Innovation systems and industrial dynamics.                       |
-|                          | 21st c.      | César Hidalgo                                  | *The Atlas of Economic Complexity*.                               |
-|                          | 21st c.      | Ricardo Hausmann                               | Economic complexity and capabilities theory.                      |
-|                          | 21st c.      | Michael Porter                                 | *Competitive Advantage of Nations*.                               |
-|                          | 21st c.      | Paul Romer                                     | Endogenous growth theory.                                         |
-| 🇻🇪 / 🇬🇧 Venezuela / UK   | 21st c.      | Carlota Pérez                                  | *Technological Revolutions and Financial Capital*.                |
+|                          | 17th c.      | [Thomas Mun](note.html?n=social/collective/actor/private/persona/thomas-mun.md) | Mercantilist theorist of trade surpluses.                         |
+|                          | 17th c.      | Samuel Fortrey                                 | *England's Interest and Improvement* (1663); manufactures, employment and trade. |
+|                          | 17th c.      | [Josiah Child](note.html?n=social/collective/actor/private/persona/josiah-child.md) | *A New Discourse of Trade* (1668/1693); interest rates, navigation and commercial policy. |
+|                          | 17th c.      | Nicholas Barbon                                | *A Discourse of Trade* (1690); value, consumption, free trade and economic expansion. |
+|                          | 17th c.      | [John Cary](note.html?n=social/collective/actor/private/persona/john-cary.md) | *An Essay on the State of England* (1695); manufactures, employment and ports. |
+|                          | 17th c.      | John Pollexfen                                 | *A Discourse of Trade, Coyn, and Paper Credit* (1697); trade, money and credit. |
+| 🇫🇷 France                | 16th c.      | Barthélemy de Laffemas                        | *Règlement général pour dresser les manufactures* (1597); manufactures, employment and protection. |
+|                          | 17th c.      | [Antoine de Montchrestien](note.html?n=social/collective/actor/private/persona/antoine-de-montchrestien.md) | *Traicté de l'œconomie politique* (1615); national production and state policy. |
+|                          | 17th c.      | [Jean-Baptiste Colbert](note.html?n=social/collective/actor/private/persona/jean-baptiste-colbert.md) | Colbertism: state-directed manufacturing and protectionism.       |
+|                          | 17th c.      | Pierre Le Pesant de Boisguilbert               | *Le Détail de la France* (1695); agriculture, taxation and internal commerce. |
+| 🇩🇪 Germany               | 17th c.      | Veit Ludwig von Seckendorff                    | *Teutscher Fürstenstaat* (1656); state administration, agriculture and commerce. |
+|                          | 17th c.      | [Johann Joachim Becher](note.html?n=social/collective/actor/private/persona/johann-joachim-becher.md) | *Politischer Discurs* (1668); manufactures, population and economic improvement. |
+|                          | 17th c.      | [Wilhelm von Schröder](note.html?n=social/collective/actor/private/persona/wilhelm-von-schroder.md) | *Fürstliche Schatz- und Rentkammer* (1686); public finance and manufactures. |
+|                          | 17th c.      | Philipp von Hörnigk                            | *Austria Over All If She Only Will*; nine mercantilist principles. |
+|                          | 18th c.      | [Johann Heinrich Gottlob von Justi](note.html?n=social/collective/actor/private/persona/johann-heinrich-gottlob-von-justi.md) | *Staatswirtschaft* (1755); cameralist state science, population and industry. |
+|                          | 19th c.      | Friedrich List                                  | *The National System of Political Economy* (1841).                |
+| 🇭🇺 Hungary               | 19th c.      | István Széchenyi                               | Industrialization, banking and transport reform.                  |
+|                          | 19th c.      | Károly Kautz                                    | National political economy and industrial development.            |
+| 🇮🇪 Ireland               | 17th c.      | [William Petty](note.html?n=social/collective/actor/private/persona/william-petty.md) | *Political Arithmetick* (1690); population, production and economic measurement. |
+|                          | 18th c.      | Jonathan Swift                                  | *Drapier's Letters*, *Modest Proposal*; economic autonomy satire. |
+|                          | 20th c.      | Arthur Griffith                                 | Sinn Féin leader; economic nationalism.                           |
+|                          | 20th c.      | T. K. Whitaker                                  | *Economic Development* (1958); industrial strategy shift.         |
+| 🇮🇹 Italy                 | 17th c.      | Antonio Serra                                   | First treatise defending manufacturing for national wealth.       |
+|                          | 19th c.      | Camillo Benso di Cavour                         | Railways and modernization in Piedmont.                           |
+|                          | 20th c.      | Vilfredo Pareto                                 | Theory of elites and industrial-capitalist transition.            |
+| 🇳🇱 Netherlands           | 17th c.      | [Pieter de la Court](note.html?n=social/collective/actor/private/persona/pieter-de-la-court.md) | Republican industrial trade theorist.                             |
+|                          | 17th c.      | [Johan de Witt](note.html?n=social/collective/actor/private/persona/johan-de-witt.md) | Maritime-industrial power advocate.                               |
+| 🇳🇴 Norway                | 19th c.      | Anton Martin Schweigaard                        | Legal and economic modernizer; pro-industry.                      |
+|                          | 21st c.      | Erik S. Reinert                                 | *How Rich Countries Got Rich…*; neo-Listian critique.             |
+| 🇵🇱 Poland                | 18th c.      | Stanisław Staszic                               | Mining, engineering and education for development.                |
+|                          | 20th c.      | Eugeniusz Kwiatkowski                           | Central Industrial Region planner (1930s).                        |
+| 🇵🇱 Poland-Lithuania      | 18th c.      | Stanisław Leszczyński                           | *Głos wolny wolność ubezpieczający* (1749); agriculture, taxation and reform. |
+| 🇵🇹 Portugal              | 17th c.      | Duarte Ribeiro de Macedo                        | Proto-arbitrista for manufacturing.                               |
+|                          | 18th c.      | Marquês de Pombal                               | Bourbon-style state-led reformer.                                 |
+| 🇷🇺 Russia                | 18th c.      | Ivan Pososhkov                                  | *Book of Poverty and Wealth* (1724); manufactures, commerce, money and taxation. |
+|                          | 18th c.      | Vasily Tatishchev                               | *History of Russia* and administrative writings; mining, industry and territorial development. |
+|                          | 19th c.      | Sergei Witte                                    | Railway industrialization and finance modernization.              |
+| 🏴 Scotland              | 18th c.      | James Steuart                                    | *An Inquiry into the Principles of Political Oeconomy* (1767); pre-Smithian planner. |
+|                          | 19th c.      | Patrick Geddes                                  | Regional planning and urban-industrial revitalization.            |
+| 🇰🇷 South Korea           | 21st c.      | Ha-Joon Chang                                   | *Kicking Away the Ladder*; critic of free-market dogma.           |
+| 🇪🇸 Spain                 | 16th c.      | Luis Ortiz                                      | *Memorial* (1558); import substitution and industry.              |
+|                          | 17th c.      | Sancho Moncada                                  | *Restablecimiento de España*; proto-industrial planning.          |
+|                          | 17th c.      | Pedro Fernández de Navarrete                    | *Conservación de Monarquías*; productivity via reform.            |
+|                          | 18th c.      | [Jerónimo de Uztáriz y Hermiaga](note.html?n=social/collective/actor/private/persona/jeronimo-de-uztariz-y-hermiaga.md) | *Theórica y práctica de comercio y de marina* (1724); manufacturing, navigation and trade. |
+|                          | 18th c.      | José del Campillo y Cossío                      | *Nuevo sistema de gobierno económico para la América* (1743); colonial reform and productive development. |
+|                          | 18th c.      | Bernardo de Ulloa                               | *Restablecimiento de las fábricas y comercio español* (1740); domestic manufactures. |
+|                          | 18th c.      | [Pedro Rodríguez de Campomanes](note.html?n=social/collective/actor/private/persona/pedro-rodriguez-de-campomanes.md) | *Discurso sobre el fomento de la industria popular* (1774); popular industry and employment. |
+| 🇸🇪 Sweden                | 17th c.      | Johan Risingh                                   | *Itt swenskt crönings- och förmyndare-regemente* and economic writings; commerce and manufactures. |
+|                          | 17th–18th c. | [Christopher Polhem](note.html?n=social/collective/actor/private/persona/christopher-polhem.md) | Mechanical engineering, mining machinery and industrial infrastructure. |
+|                          | 17th–18th c. | Urban Hiärne                                    | Mining, metallurgy, mineralogy and natural-resource exploitation. |
+|                          | 18th c.      | Anders Nordencrantz                             | *Arcana oeconomiae et commercii* (1730); commerce and manufacture. |
+|                          | 18th c.      | Anders Berch                                    | *Inledning til almänna hushållningen* (1747); economic administration. |
+|                          | 18th c.      | Eric Salander                                   | *Tal, om slögder* (1754); crafts and industrial organization.     |
+|                          | 18th c.      | Johan Fredrik Kryger                            | *Tankar om swenske fabriquerne* (1755); manufacture policy.       |
+|                          | 18th c.      | Anders Chydenius                                | *Källan Til Rikets Wan-Magt* (1765); commercial freedom and national weakness. |
+|                          | 18th c.      | Johan Fischerström                              | Agriculture, natural resources and economic improvement.         |
+|                          | 18th c.      | Carl Linnaeus                                   | Agricultural improvement, economic botany and import substitution. |
+| 🇨🇭 Switzerland           | 18th c.      | Johann Jakob Scheuchzer                         | *Physica Sacra* (1731–1735); natural resources and natural knowledge. |
+| 🇺🇸 USA                   | 18th c.      | Alexander Hamilton                              | *Report on Manufactures*; infant industry protection.             |
+|                          | 19th c.      | Henry Carey                                     | Protectionist; national development theorist.                     |
+|                          | 20th c.      | Nathan Rosenberg                                | Innovation systems and industrial dynamics.                       |
+|                          | 21st c.      | César Hidalgo                                   | *The Atlas of Economic Complexity*.                               |
+|                          | 21st c.      | Ricardo Hausmann                                | Economic complexity and capabilities theory.                      |
+|                          | 21st c.      | Michael Porter                                  | *Competitive Advantage of Nations*.                               |
+|                          | 21st c.      | Paul Romer                                      | Endogenous growth theory.                                         |
+| 🇻🇪 / 🇬🇧 Venezuela / UK   | 21st c.      | Carlota Pérez                                   | *Technological Revolutions and Financial Capital*.                |
 
 | **Country**    | **Agent**                     | **Description**                                                                                                                                                    | **Era**     |
 | -------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
@@ -113,6 +165,7 @@ TODO
 
 ## References
 
+- Schabas, Margaret. "Economics in Early Modern Philosophy." *The Stanford Encyclopedia of Philosophy*, Spring 2026 Edition, edited by Edward N. Zalta and Uri Nodelman. https://plato.stanford.edu/archives/spr2026/entries/economics-early-modern/. — The frame for the schools, chronology, and pre-Smithian themes above.
 - [Bolsa Família](https://es.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia)
 - Eisenhardt, Kathleen M. 1989. “Agency Theory: An Assessment and Review.” Academy of Management Review 14:57–74.
 - Jensen, Michael C., and William Meckling. 1976. “Theory of the Firm: Managerial Behavior, Agency Costs, and Ownership Structure.” Journal of Financial Economics 3:305–60.

@@ -58168,6 +58168,11 @@
         "kind": "refactor",
         "summary": "Move from essays/the-art-of-economic-statecraft.md to unclassified/the-art-of-economic-statecraft.md in the corpus reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the SEP frame and school map, expand the statecraft table with mercantilist, cameralist, Iberian, Scandinavian and Russian figures, and link existing persona notes."
       }
     ]
   },
