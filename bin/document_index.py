@@ -2,9 +2,9 @@
 """
 Documents index builder.
 
-Scans src/documents/app/documents/** for documents — markdown (*.md,
+Scans src/corpus/documents/** for documents — markdown (*.md,
 kind "document": papers, articles, books) — and emits
-src/documents/app/data/index.json, the search corpus for the documents
+src/corpus/app/data/documents-index.json, the search corpus for the documents
 catalog (/documents/). Stdlib only.
 
 For each document it extracts: path (relative to documents/), title
@@ -13,7 +13,7 @@ path component: papers, articles, books, …), h2/h3 headings, tags
 (optional `tags: [...]` front matter, `---` style), lowercased plain
 text, and word count, plus the optional `qa:` front-matter questions.
 Paths and tags are validated against the naming convention (see
-src/documents/README.md); violations print as warnings and never fail
+src/corpus/README-documents.md); violations print as warnings and never fail
 the build.
 
 Usage: python3 bin/document_index.py
@@ -28,10 +28,10 @@ from pathlib import Path
 from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-DOCUMENT = REPO / "src" / "documents"
-APP = DOCUMENT / "app"
-DOCUMENTS = APP / "documents"
-OUT = APP / "data" / "index.json"
+DOCUMENT = REPO / "src" / "corpus" / "documents"
+APP = REPO / "src" / "corpus" / "app"
+DOCUMENTS = DOCUMENT
+OUT = APP / "data" / "documents-index.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
@@ -187,7 +187,7 @@ def build(progress=None) -> bool:
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:
-        print(f"naming warnings: {len(warnings)} (see src/documents/README.md)")
+        print(f"naming warnings: {len(warnings)} (see src/corpus/README-documents.md)")
         for w in warnings:
             print(f"  ! {w}")
     if progress is not None:

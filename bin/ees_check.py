@@ -3,7 +3,7 @@
 EES tree validator.
 
 The Epistemic Element Set (EES) tree is stored canonically in
-src/notes/app/data/epistemica/ees.json and rendered by the EES atlas
+src/corpus/notes/epistemica/ees.json and rendered by the EES atlas
 (ees.html). This script validates that store against the decomposition
 contract and prints its statistics. Stdlib only.
 
@@ -26,8 +26,8 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-NOTE = REPO / "src" / "notes"
-EES = NOTE / "app" / "data" / "epistemica" / "ees.json"
+NOTE = REPO / "src" / "corpus" / "notes"
+EES = NOTE / "epistemica" / "ees.json"
 
 KINDS = {"root", "grouping", "instance"}
 ORDERS = {"epistemic", "ontic", "reflexive"}

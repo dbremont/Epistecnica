@@ -12,7 +12,7 @@ guide-first entry page.
 - **The guide** — the project's philosophia guides (*Artium Epistemicarum et
   Operis*, *Artium Technicarum et Operis*) are the canonical schema owners.
   Epistecnica foregrounds them and hosts the local **EES** atlas (Epistemic
-  Element Set, `src/notes/app/data/epistemica/ees.html`) as their
+  Element Set, `src/corpus/notes/epistemica/ees.html`) as their
   local companion.
 - **The index** — the ontology graphs and the master index live in the
   external **Autoregia Personal Knowledge System** (`http://localhost:8088/pks/`).
@@ -30,9 +30,9 @@ guide-first entry page.
                     │  /             src/app/…      │
                     │  /shared/*     nav search     │
                     │  /assets/*     shared images  │
-                    │  /notes/*       notes statics  │
-                    │  /courses/*     course statics │
-                    │  /documents/*   doc statics    │
+                    │  /corpus/notes*       notes statics  │
+                    │  /corpus/courses*     course statics │
+                    │  /corpus/documents*   doc statics    │
                     └──────────────────────────────┘
 ```
 
@@ -41,7 +41,7 @@ guide-first entry page.
   notes-catalog pins are browser-local (`localStorage`). Everything else is
   static file serving.
 - **No build step.** Python 3.12 stdlib server; vanilla JS. Vendored runtime
-  bundle: the notes MathJax (`src/notes/app/vendor/mathjax/`).
+  bundle: the notes MathJax (`src/corpus/app/vendor/mathjax/`).
 
 ### Surfaces & endpoints (✅)
 
@@ -51,11 +51,11 @@ guide-first entry page.
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface |
 | `GET /shared/<path>` | Shared nav assets from `src/app/shared/`: `usearch.css` + `usearch.js`, the universal search used by every surface's header |
 | `GET /assets/<path>` | Shared corpus-image store from `src/app/assets/` (every image referenced by corpus markdown) |
-| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/notes/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
-| `GET /notes/data/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
-| `GET /notes/<path>` | Notes surface from `src/notes/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), EES atlas (`data/epistemica/ees.html`), generated search index (`data/index.json`) |
-| `GET /courses/<path>` | Courses surface from `src/courses/app/`: catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`), corpus |
-| `GET /documents/<path>` | Documents surface from `src/documents/app/`: catalog (`index.html`), viewer (`document.html?d=`), corpus |
+| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/corpus/notes/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
+| `GET /corpus/notes/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
+| `GET /corpus` (also `/corpus/`) | Unified catalog `src/corpus/app/index.html`: directory browser + section tree over notes, documents and courses; search; random-document picker |
+| `GET /corpus/note.html?p=<notes|documents|courses>/<path>` | One global markdown viewer for every `.md` file (course readmes also list their lectures); per-file `history` modal from the matching `data/changelog.*.json` |
+| `GET /corpus/notes/<path>`, `/corpus/documents/<path>`, `/corpus/courses/<path>` | The three content trees under `src/corpus/<tree>/`, served as-is (live notes included) |
 | `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog + term view (`?t=<slug>`), generated lookup index, select-a-word popup |
 | `GET /qa/<path>` | Q/A log from `src/qa/app/`: catalog + entry viewer (`?id=<qa-id>`) |
 | `GET /api/health` | Liveness probe: `{"status":"ok","service":"epistecnica"}` |
@@ -73,10 +73,12 @@ database configuration.
 
 | Store | Contents | Written by |
 |-------|----------|------------|
-| Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/notes/app/index.html`); no server write |
-| `src/notes/app/data/**` | Notes corpus, live notes, EES atlas, `changelog.json` | hand-authored; index via `bin/notes_index.py` |
-| `src/courses/app/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
-| `src/documents/app/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
+| Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/corpus/app/index.html`); no server write |
+| `src/corpus/notes/**` | Notes corpus, live notes, EES atlas | hand-authored; index via `bin/notes_index.py` |
+| `src/corpus/documents/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
+| `src/corpus/courses/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
+| `src/corpus/app/data/*-index.json`, `library-index.json` | Generated per-corpus and unified indexes | `make index` (gitignored) |
+| `src/corpus/app/data/changelog.*.json` | Per-corpus edit history | hand-edited, then stamped by `bin/link_changelog_commits.py` |
 | `src/app/data/search-index.json` | Universal search snapshot (corpus-only) | `bin/build_search_index.py` |
 
 ## 4. Frontends
@@ -85,10 +87,8 @@ database configuration.
 |------|----------|-----------|
 | `src/app/index.html` (hub) | Ambient Canvas2D constellation only | No |
 | `src/app/docs.html` | Site documentation, live corpus stats | No |
-| `note/index.html` (catalog) | Client-side dir browse/files + `@tag` search over generated `app/data/index.json` (`make notes-index`) | No |
-| `note/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-note `history` modal over `data/changelog.json` | No |
-| `course/index.html`, `course.html`, `lecture.html` | Catalog + course/lecture views over `data/index.json` | No |
-| `document/index.html`, `document.html` | Catalog + viewer over `data/index.json` | No |
+| `src/corpus/app/index.html` (catalog) | Client-side directory browser + section tree over generated `data/library-index.json` | No |
+| `src/corpus/app/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-file `history` modal over `data/changelog.*.json` | No |
 
 AI (DeepSeek) is called browser-direct in the editors; the token lives only in
 the browser. The backend has no AI endpoints and must never hold keys.

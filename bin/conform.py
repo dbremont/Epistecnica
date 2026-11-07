@@ -26,7 +26,7 @@ import urllib.request
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-NOTE = REPO / "src" / "notes"
+NOTE = REPO / "src" / "corpus" / "notes"
 GRAMMAR_URL = (
     "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/"
     "app/notes/data/meta/philosophia-artium-technicarum-et-operis.md"

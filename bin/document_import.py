@@ -6,7 +6,7 @@ One-off migration tool. Reads a Notion database export (the "Catalogus
 Documentorum" folder: per-document markdown files named "<Citation>
 <32-hex-uuid>.md", plus per-entry asset folders holding images) and
 writes the documents corpus: one <slug>.md per document under
-src/documents/app/documents/{papers,articles,books}/.
+src/corpus/documents/{papers,articles,books}/.
 
 - The citation is preserved as the markdown H1 (fallback: the filename
   without the uuid suffix).
@@ -45,8 +45,8 @@ from pathlib import Path
 from urllib.parse import unquote
 
 REPO = Path(__file__).resolve().parent.parent
-DOCUMENT = REPO / "src" / "documents"
-CORPUS = DOCUMENT / "app" / "documents"
+DOCUMENT = REPO / "src" / "corpus" / "documents"
+CORPUS = DOCUMENT
 
 UUID_SUFFIX_RE = re.compile(r"\s+[0-9a-f]{32}(?=\.md$)")
 BIBTEX_RE = re.compile(r"^@([a-zA-Z]+)\s*[{]")

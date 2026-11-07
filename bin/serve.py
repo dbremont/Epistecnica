@@ -6,14 +6,10 @@ One stdlib HTTP server serving the local surfaces:
 
   /                     -> the hub (src/app/index.html)
   /docs                 -> site-wide documentation (src/app/docs.html)
-  /notes/...             -> static files from src/notes/app/ (notes catalog,
-                           viewer, corpus, generated search index)
-  /courses/...           -> static files from src/courses/app/ (courses
-                           catalog, course + lecture views, corpus,
-                           generated search index)
-  /documents/...         -> static files from src/documents/app/ (documents
-                           catalog, viewer, corpus, generated search
-                           index)
+  /corpus/...           -> the unified corpus (src/corpus/):
+                           the catalog + global viewer + generated indexes
+                           (app/), and the notes/, documents/ and courses/
+                           content trees
   /glossarium/...       -> static files from src/glossarium/app/ (the lexical
                            corpus: catalog, term view, select-a-word lookup)
   /qa/...               -> static files from src/qa/app/ (the Q/A log: catalog
@@ -27,12 +23,12 @@ The ontology graphs are no longer served here (they moved to the
 Autoregia Personal Knowledge System, http://localhost:8088/pks/).
 Legacy prefixes redirect:
 
-  /epistemica/...       -> 302 /notes/data/epistemica/ees.html
-  /tecnica/...          -> 302 /notes/data/epistemica/ees.html
+  /epistemica/...       -> 302 /corpus/notes/epistemica/ees.html
+  /tecnica/...          -> 302 /corpus/notes/epistemica/ees.html
 
 Legacy REES paths redirect to their EES equivalents:
 
-  /notes/data/epistemica/rees.* -> 302 /notes/data/epistemica/ees.*
+  /corpus/notes/epistemica/rees.* -> 302 /corpus/notes/epistemica/ees.*
 
 and the service exposes these endpoints:
 
@@ -46,8 +42,9 @@ done/total/pct per builder so no page has to wait for a rebuild.
 
 Notes-catalog pins are browser-local (localStorage); there is no pins API.
 
-The pages fetch everything relative, so corpus data (data/index.json etc.)
-under /notes/data/... resolves to src/notes/app/data/... automatically.
+The pages fetch everything relative, so the catalog app at /corpus/
+fetches data/library-index.json from src/corpus/app/data/, and the global
+viewer fetches notes/, documents/ and courses/ from src/corpus/.
 
 Usage:
 
@@ -73,23 +70,9 @@ INDEX_API_ENV = "EPISTECNICA_ALLOW_INDEX_API"
 INDEX_STATUS_ENDPOINT = "/api/index/status"
 INDEX_BUILD_ENDPOINT = "/api/index/build"
 
-NOTES_PREFIX = "/notes"
-NOTES_MOUNT = "src/notes/app"
-
-COURSE_PREFIX = "/courses"
-COURSE_MOUNT = "src/courses/app"
-
-DOCUMENT_PREFIX = "/documents"
-DOCUMENT_MOUNT = "src/documents/app"
-
-# The three corpora were pluralized so the serving root reads
-# Notes / Documents / Courses. Keep the old singular prefixes as
-# permanent redirects.
-LEGACY_CORPUS_PREFIXES = {
-    "/note": "/notes",
-    "/course": "/courses",
-    "/document": "/documents",
-}
+CORPUS_PREFIX = "/corpus"
+CORPUS_APP = "src/corpus/app"
+CORPUS_DATA = "src/corpus"
 
 GLOSSARIUM_PREFIX = "/glossarium"
 GLOSSARIUM_MOUNT = "src/glossarium/app"
@@ -103,17 +86,20 @@ SHARED_MOUNT = "src/app/shared"
 # Retired dataset prefixes: the local graphs moved to the Autoregia PKS, so their
 # old URLs redirect to the local guide (the EES atlas).
 LEGACY_REDIRECT_PREFIXES = ("/epistemica", "/tecnica")
-LEGACY_REDIRECT_TARGET = "/notes/data/epistemica/ees.html"
+LEGACY_REDIRECT_TARGET = "/corpus/notes/epistemica/ees.html"
 
 # The atlas, tree store, and note were renamed from REES to EES. Keep old
 # bookmarks working by redirecting the old paths to the new ones.
 LEGACY_NOTE_REDIRECTS = {
-    "/note/data/epistemica/rees.html": "/notes/data/epistemica/ees.html",
-    "/note/data/epistemica/rees.json": "/notes/data/epistemica/ees.json",
-    "/note/data/epistemica/rees.md": "/notes/data/epistemica/ees.md",
-    "/notes/data/epistemica/rees.html": "/notes/data/epistemica/ees.html",
-    "/notes/data/epistemica/rees.json": "/notes/data/epistemica/ees.json",
-    "/notes/data/epistemica/rees.md": "/notes/data/epistemica/ees.md",
+    "/note/data/epistemica/rees.html": "/corpus/notes/epistemica/ees.html",
+    "/note/data/epistemica/rees.json": "/corpus/notes/epistemica/ees.json",
+    "/note/data/epistemica/rees.md": "/corpus/notes/epistemica/ees.md",
+    "/notes/data/epistemica/rees.html": "/corpus/notes/epistemica/ees.html",
+    "/notes/data/epistemica/rees.json": "/corpus/notes/epistemica/ees.json",
+    "/notes/data/epistemica/rees.md": "/corpus/notes/epistemica/ees.md",
+    "/corpus/notes/epistemica/rees.html": "/corpus/notes/epistemica/ees.html",
+    "/corpus/notes/epistemica/rees.json": "/corpus/notes/epistemica/ees.json",
+    "/corpus/notes/epistemica/rees.md": "/corpus/notes/epistemica/ees.md",
 }
 
 # The browser probes /favicon.ico at the host root whenever a page has no
@@ -132,12 +118,15 @@ class HubHandler(SimpleHTTPRequestHandler):
     def translate_path(self, path):
         """Map URL prefixes onto on-disk directories.
 
-        /              -> <repo>/src/app/index.html (the hub)
-        /docs[.html]   -> <repo>/src/app/docs.html (site documentation)
-        /notes/x         -> <repo>/src/notes/app/x
-        /courses/x       -> <repo>/src/courses/app/x
-        /documents/x     -> <repo>/src/documents/app/x
-        anything else   -> <repo>/x
+        /                -> <repo>/src/app/index.html (the hub)
+        /docs[.html]     -> <repo>/src/app/docs.html
+        /corpus[/]       -> <repo>/src/corpus/app/index.html (the catalog)
+        /corpus/note.html-> <repo>/src/corpus/app/note.html (global viewer)
+        /corpus/data/...  -> <repo>/src/corpus/app/data/...
+        /corpus/notes/... -> <repo>/src/corpus/notes/...
+        /corpus/documents/... -> <repo>/src/corpus/documents/...
+        /corpus/courses/... -> <repo>/src/corpus/courses/...
+        anything else    -> <repo>/x
         """
         clean = path.split("?", 1)[0].split("#", 1)[0]
 
@@ -145,9 +134,15 @@ class HubHandler(SimpleHTTPRequestHandler):
         if clean in ("/docs", "/docs/", "/docs.html"):
             return super().translate_path("src/app/docs.html")
 
-        # Unified library: /library, /library/, /library.html -> src/app/library.html.
-        if clean in ("/library", "/library/", "/library.html"):
-            return super().translate_path("src/app/library.html")
+        # The unified corpus: one app plus the three content folders.
+        if clean in ("/corpus", "/corpus/"):
+            return super().translate_path(CORPUS_APP + "/index.html")
+        if clean.startswith(CORPUS_PREFIX + "/"):
+            rest = clean[len(CORPUS_PREFIX):]
+            for folder in ("/notes", "/documents", "/courses"):
+                if rest == folder or rest.startswith(folder + "/"):
+                    return super().translate_path(CORPUS_DATA + rest)
+            return super().translate_path(CORPUS_APP + rest)
 
         # Hub-owned data (the universal search snapshot): /data/... ->
         # <repo>/src/app/data/...
@@ -166,9 +161,6 @@ class HubHandler(SimpleHTTPRequestHandler):
         rel = None
         for prefix, mount in (
             (SHARED_PREFIX, SHARED_MOUNT),
-            (NOTES_PREFIX, NOTES_MOUNT),
-            (COURSE_PREFIX, COURSE_MOUNT),
-            (DOCUMENT_PREFIX, DOCUMENT_MOUNT),
             (GLOSSARIUM_PREFIX, GLOSSARIUM_MOUNT),
             (QA_PREFIX, QA_MOUNT),
         ):
@@ -268,25 +260,70 @@ class HubHandler(SimpleHTTPRequestHandler):
     # ------------------------------------------------------------------
 
     def _redirect_legacy_note(self, path):
+        query = self.path.split("?", 1)[1] if "?" in self.path else ""
+        params = parse_qs(query)
+
         target = LEGACY_NOTE_REDIRECTS.get(path)
         if target is not None:
-            query = self.path.split("?", 1)[1] if "?" in self.path else ""
             self._redirect(target + ("?" + query if query else ""))
             return True
 
-        if path in ("/notes/note.html", "/note/note.html"):
-            query = self.path.split("?", 1)[1] if "?" in self.path else ""
-            params = parse_qs(query)
-            if params.get("n", [""])[0] == "epistemica/rees.md":
-                params["n"] = ["epistemica/ees.md"]
-                self._redirect("/notes/note.html?" + urlencode(params, doseq=True))
+        # Old per-corpus viewers -> the one global viewer.
+        if path in ("/note/note.html", "/notes/note.html"):
+            n = params.get("n", [""])[0]
+            if n:
+                if n == "epistemica/rees.md":
+                    n = "epistemica/ees.md"
+                self._redirect("/corpus/note.html?" + urlencode({"p": "notes/" + n}))
                 return True
 
-        for old, new in LEGACY_CORPUS_PREFIXES.items():
-            if path == old or path.startswith(old + "/"):
-                query = self.path.split("?", 1)[1] if "?" in self.path else ""
-                target = new + path[len(old):]
-                self._redirect(target + ("?" + query if query else ""))
+        if path in ("/document/document.html", "/documents/document.html"):
+            d = params.get("d", [""])[0]
+            if d:
+                self._redirect("/corpus/note.html?" + urlencode({"p": "documents/" + d}))
+                return True
+
+        if path in ("/course/course.html", "/courses/course.html"):
+            c = params.get("c", [""])[0]
+            if c:
+                self._redirect("/corpus/note.html?" + urlencode({"p": "courses/" + c + "/readme.md"}))
+                return True
+
+        if path in ("/course/lecture.html", "/courses/lecture.html"):
+            l = params.get("l", [""])[0]
+            if l:
+                self._redirect("/corpus/note.html?" + urlencode({"p": "courses/" + l}))
+                return True
+
+        # The old unified library page now lives at the corpus root.
+        if path in ("/library", "/library/", "/library.html"):
+            self._redirect("/corpus/")
+            return True
+
+        # Bare content-tree roots open the catalog at that subtree.
+        for sub in ("notes", "documents", "courses"):
+            if path == "/corpus/" + sub:
+                self._redirect("/corpus/?dir=" + sub)
+                return True
+
+        # Old corpus roots -> the directory browser at that subtree.
+        for old, sub in (
+            ("/note", "notes"), ("/notes", "notes"),
+            ("/document", "documents"), ("/documents", "documents"),
+            ("/course", "courses"), ("/courses", "courses"),
+        ):
+            if path == old or path == old + "/":
+                self._redirect("/corpus/?dir=" + sub)
+                return True
+
+        # Old raw data paths -> the new corpus tree.
+        for old, new in (
+            ("/notes/data/", "/corpus/notes/"),
+            ("/documents/documents/", "/corpus/documents/"),
+            ("/courses/courses/", "/corpus/courses/"),
+        ):
+            if path.startswith(old):
+                self._redirect(new + path[len(old):] + ("?" + query if query else ""))
                 return True
 
         return False
@@ -409,14 +446,12 @@ def main():
 
     args = parser.parse_args()
 
-    notes_app = REPO / NOTES_MOUNT
-    if not notes_app.is_dir():
-        print("ERROR: notes static dir not found: %s" % notes_app, file=sys.stderr)
+    corpus_app = REPO / CORPUS_APP
+    if not corpus_app.is_dir():
+        print("ERROR: corpus app dir not found: %s" % corpus_app, file=sys.stderr)
         return 1
     for prefix, mount in (
         ("shared", SHARED_MOUNT),
-        ("course", COURSE_MOUNT),
-        ("document", DOCUMENT_MOUNT),
         ("glossarium", GLOSSARIUM_MOUNT),
         ("qa", QA_MOUNT),
     ):
@@ -442,9 +477,8 @@ def main():
     print("  Glossary:http://%s:%d%s/" % (display_host, args.port, GLOSSARIUM_PREFIX))
     print("  Q/A:     http://%s:%d%s/" % (display_host, args.port, QA_PREFIX))
     print("  Health:  http://%s:%d%s" % (display_host, args.port, HUB_HEALTH_ENDPOINT))
-    print("  Notes:   http://%s:%d%s/" % (display_host, args.port, NOTES_PREFIX))
-    print("  Courses: http://%s:%d%s/" % (display_host, args.port, COURSE_PREFIX))
-    print("  Docs:    http://%s:%d%s/" % (display_host, args.port, DOCUMENT_PREFIX))
+    print("  Corpus:  http://%s:%d%s/" % (display_host, args.port, CORPUS_PREFIX))
+    print("  Docs:    http://%s:%d/docs" % (display_host, args.port))
     print("══════════════════════════════════════════════")
     print()
 

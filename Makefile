@@ -56,7 +56,7 @@ document-index: ## rebuild the documents search index (after any corpus change)
 library-index: ## rebuild the unified library index (notes + documents + courses)
 	python3 bin/build_library_index.py
 
-ees-check: ## validate the EES tree store (src/notes/app/data/epistemica/ees.json)
+ees-check: ## validate the EES tree store (src/corpus/corpus/?dir=notesepistemica/ees.json)
 	python3 bin/ees_check.py
 
 rees-check: ees-check
@@ -70,19 +70,19 @@ qa-index: ## rebuild the Q/A log index (after any qa.json change)
 atlas-index: ## rebuild the technica atlas store (after any technica corpus change)
 	python3 bin/build_technica_atlas.py
 
-atlas-check: ## validate the technica atlas store (src/notes/app/data/technica/meta/atlas.json)
+atlas-check: ## validate the technica atlas store (src/corpus/corpus/?dir=notestechnica/meta/atlas.json)
 	python3 bin/atlas_check.py
 
-terminology-check: ## validate the terminology-crimes store (src/notes/app/data/epistemica/horror/terminology.json)
+terminology-check: ## validate the terminology-crimes store (src/corpus/corpus/?dir=notesepistemica/horror/terminology.json)
 	python3 bin/terminology_check.py
 
-symbols-check: ## validate the symbol-atlas store (src/notes/app/data/epistemica/symbols.json)
+symbols-check: ## validate the symbol-atlas store (src/corpus/corpus/?dir=notesepistemica/symbols.json)
 	python3 bin/symbols_check.py
 
-pvalue-check: ## validate the p-value atlas store (src/notes/app/data/epistemica/validation/atlas/pvalue.json)
+pvalue-check: ## validate the p-value atlas store (src/corpus/corpus/?dir=notesepistemica/validation/atlas/pvalue.json)
 	python3 bin/pvalue_check.py
 
-gof-check: ## validate the goodness-of-fit atlas store (src/notes/app/data/epistemica/validation/atlas/gof.json)
+gof-check: ## validate the goodness-of-fit atlas store (src/corpus/corpus/?dir=notesepistemica/validation/atlas/gof.json)
 	python3 bin/gof_check.py
 
 search-index: ## build the universal search snapshot (before build/deploy)

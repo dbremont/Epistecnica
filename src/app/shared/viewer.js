@@ -1,15 +1,15 @@
-/* Universal content viewer — one script, four thin shells.
+/* Universal content viewer — one script, one shell.
  *
- * The note / course / lecture / document viewers are the same page frame;
- * each shell includes this script with its kind:
+ * The single corpus viewer at /corpus/note.html renders every markdown file
+ * under notes/, documents/ and courses/:
  *
- *     <script src="../shared/viewer.js" data-kind="note"></script>
+ *     <script src="../shared/viewer.js" data-kind="corpus"></script>
  *
  * The shell owns the DOM skeleton (shared ids: ambientCanvas, themeToggle,
  * note-header / crumbs / note-title / note-meta chips, loading / error /
  * note-card / note-body, sidebar / toc, qa-* and hist-* modals). This
- * script owns behavior; kind-specific bits live in the KINDS table below.
- * Add a corpus by adding a table entry and a thin shell page. */
+ * script owns behavior; the path prefix selects the corpus and the
+ * per-corpus changelog. */
 (function () {
     'use strict';
 
@@ -252,12 +252,30 @@
         if (e.key === 'Escape') closeQa();
     });
 
-    /* ---------- per-file changelog history (data/changelog.json) ---------- */
+    /* ---------- per-file changelog history ---------- */
 
-    var histPromise = fetch('data/changelog.json', { headers: { 'Accept': 'application/json' } })
-        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-        .then(function (d) { return Array.isArray(d) ? d : []; })
-        .catch(function () { return []; });
+    var histCache = {};
+
+    function corpusOf(p) { return p.split('/')[0]; }
+
+    function changelogUrl(p) {
+        return 'data/changelog.' + corpusOf(p) + '.json';
+    }
+
+    function historyKey(p) {
+        return p.replace(/^(notes|documents|courses)\//, '');
+    }
+
+    function getChangelog(p) {
+        var url = changelogUrl(p);
+        if (!histCache[url]) {
+            histCache[url] = fetch(url, { headers: { 'Accept': 'application/json' } })
+                .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .then(function (d) { return Array.isArray(d) ? d : []; })
+                .catch(function () { return []; });
+        }
+        return histCache[url];
+    }
 
     function historyLinks(kind, name, l) {
         if (!l.commit) return '';
@@ -313,44 +331,22 @@
         if (e.key === 'Escape') closeHistory();
     });
 
-    /* ---------- crumbs (per kind) ---------- */
+    /* ---------- crumbs ---------- */
 
-    /* Path crumbs under a corpus root; intermediate segments link to the
-       catalog dir browser when linkDirs (notes) or stay plain (documents). */
-    function crumbsPath(root, linkDirs) {
-        return function (path) {
-            var parts = path.split('/');
-            var html = '<a href="index.html">' + root + '</a>';
-            var prefix = [];
-            for (var i = 0; i < parts.length; i++) {
-                html += '<span class="sep">/</span>';
-                if (i === parts.length - 1) {
-                    html += '<span class="here">' + esc(parts[i].replace(/\.md$/, '')) + '</span>';
-                } else if (linkDirs) {
-                    prefix.push(parts[i]);
-                    html += '<a href="index.html?dir=' + prefix.map(encodeURIComponent).join('/') + '">' + esc(parts[i]) + '</a>';
-                } else {
-                    html += '<span>' + esc(parts[i]) + '</span>';
-                }
+    function crumbsCorpus(path) {
+        var parts = path.split('/');
+        var html = '<a href="index.html">corpus</a>';
+        var prefix = [];
+        for (var i = 0; i < parts.length; i++) {
+            html += '<span class="sep">/</span>';
+            if (i === parts.length - 1) {
+                html += '<span class="here">' + esc(parts[i].replace(/\.md$/, '')) + '</span>';
+            } else {
+                prefix.push(parts[i]);
+                html += '<a href="index.html?dir=' + prefix.map(encodeURIComponent).join('/') + '">' + esc(parts[i]) + '</a>';
             }
-            document.getElementById('crumbs').innerHTML = html;
-        };
-    }
-
-    function crumbsCourse(course) {
-        document.getElementById('crumbs').innerHTML =
-            '<a href="index.html">courses</a><span class="sep">/</span>' +
-            '<span class="here">' + esc(course) + '</span>';
-    }
-
-    function crumbsLecture(name) {
-        var course = name.split('/')[0];
-        var file = name.split('/')[1];
-        document.getElementById('crumbs').innerHTML =
-            '<a href="index.html">courses</a><span class="sep">/</span>' +
-            '<a href="course.html?c=' + encodeURIComponent(course) + '">' + esc(course) + '</a>' +
-            '<span class="sep">/</span>' +
-            '<span class="here">' + esc(file.replace(/\.md$/, '')) + '</span>';
+        }
+        document.getElementById('crumbs').innerHTML = html;
     }
 
     /* ---------- kind table ---------- */
@@ -360,58 +356,23 @@
     }
 
     var KINDS = {
-        note: {
-            param: 'n',
-            noun: 'note',
-            usage: 'note.html?n=&lt;path&gt;',
-            titleSuffix: ' — Notes',
-            corpusDir: 'src/notes/app/data/',
+        corpus: {
+            param: 'p',
+            noun: 'file',
+            usage: 'note.html?p=&lt;notes|documents|courses&gt;/&lt;path&gt;',
+            titleSuffix: ' — Corpus',
+            corpusDir: 'src/corpus/',
             tex: true,
-            valid: validMdPath,
-            fetchUrl: function (name) { return 'data/' + encPath(name); },
+            valid: function (p) {
+                return validMdPath(p) && /^(notes|documents|courses)\//.test(p);
+            },
+            fetchUrl: function (name) { return encPath(name); },
             titleFallback: fileTitleFallback,
-            crumbs: crumbsPath('notes', true),
-            historyPath: function (name) { return name; }
-        },
-        course: {
-            param: 'c',
-            noun: 'course',
-            usage: 'course.html?c=&lt;course&gt;',
-            titleSuffix: ' — Courses',
-            corpusDir: 'src/courses/app/courses/',
-            tex: false,
-            valid: validCourse,
-            fetchUrl: function (name) { return 'courses/' + encPath(name) + '/readme.md'; },
-            titleFallback: function (name) { return name.replace(/-/g, ' '); },
-            crumbs: crumbsCourse,
-            historyPath: function (name) { return name + '/readme.md'; },
-            withLectures: true
-        },
-        lecture: {
-            param: 'l',
-            noun: 'lecture',
-            usage: 'lecture.html?l=&lt;course&gt;/&lt;lecture&gt;',
-            titleSuffix: ' — Courses',
-            corpusDir: 'src/courses/app/courses/',
-            tex: false,
-            valid: function (p) { return validMdPath(p) && p.split('/').length === 2; },
-            fetchUrl: function (name) { return 'courses/' + encPath(name); },
-            titleFallback: fileTitleFallback,
-            crumbs: crumbsLecture,
-            historyPath: function (name) { return name; }
-        },
-        document: {
-            param: 'd',
-            noun: 'document',
-            usage: 'document.html?d=&lt;path&gt;',
-            titleSuffix: ' — Documents',
-            corpusDir: 'src/documents/app/documents/',
-            tex: false,
-            valid: validMdPath,
-            fetchUrl: function (name) { return 'documents/' + encPath(name); },
-            titleFallback: fileTitleFallback,
-            crumbs: crumbsPath('documents', false),
-            historyPath: function (name) { return name; }
+            crumbs: crumbsCorpus,
+            historyPath: historyKey,
+            withLectures: function (p) { return /^courses\/.+\/readme\.md$/.test(p); },
+            courseDir: function (p) { return p.split('/')[1]; },
+            courseIndex: 'data/courses-index.json'
         }
     };
 
@@ -425,7 +386,7 @@
         lectures.forEach(function (l) {
             var li = document.createElement('li');
             var a = document.createElement('a');
-            a.href = 'lecture.html?l=' + encPath(l.path);
+            a.href = 'note.html?p=courses/' + encPath(l.path);
             a.textContent = l.title;
             li.appendChild(a);
             if (l.tags && l.tags.length) {
@@ -434,165 +395,6 @@
             ul.appendChild(li);
         });
         body.appendChild(ul);
-    }
-
-    /* ---------- section scrolling (sticky-nav aware, reflow safe) ---------- */
-
-    function navHeight() {
-        var nav = document.querySelector('.nav');
-        return nav ? Math.round(nav.getBoundingClientRect().height) : 0;
-    }
-
-    function sectionMargin() { return navHeight() + 12; }
-
-    /* Jump without animating: the shells set `html { scroll-behavior: smooth }`,
-       which would fly through the whole document on a deep link. */
-    function instantScrollTo(y) {
-        var root = document.documentElement;
-        var prev = root.style.scrollBehavior;
-        root.style.scrollBehavior = 'auto';
-        window.scrollTo(0, Math.max(0, Math.round(y)));
-        window.requestAnimationFrame(function () { root.style.scrollBehavior = prev; });
-    }
-
-    /* Land a heading just below the sticky nav; smooth only for user clicks. */
-    function scrollToSection(h, smooth) {
-        var margin = sectionMargin();
-        h.style.scrollMarginTop = margin + 'px';
-        if (smooth) { h.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
-        instantScrollTo(h.getBoundingClientRect().top + window.scrollY - margin);
-    }
-
-    /* Wait for everything that can reflow the page (MathJax typesetting,
-       webfonts, late images, an explicit promise), then one frame. */
-    function layoutSettled(extra) {
-        var waits = [];
-        if (window.MathJax && MathJax.startup && MathJax.startup.promise) waits.push(MathJax.startup.promise);
-        if (document.fonts && document.fonts.ready) waits.push(document.fonts.ready);
-        var imgs = document.querySelectorAll('#note-body img');
-        for (var i = 0; i < imgs.length; i++) (function (img) {
-            if (img.complete) return;
-            waits.push(new Promise(function (resolve) {
-                img.addEventListener('load', resolve, { once: true });
-                img.addEventListener('error', resolve, { once: true });
-            }));
-        })(imgs[i]);
-        if (extra) extra.forEach(function (p) { if (p && p.then) waits.push(p); });
-        var settled = Promise.all(waits).catch(function () { /* keep going */ });
-        /* Never hold the reader at the top: jump anyway after 1.5s, and let
-           the correction pass below absorb a still-running typeset. */
-        var cap = new Promise(function (resolve) { window.setTimeout(resolve, 1500); });
-        return Promise.race([settled, cap]).then(function () {
-            return new Promise(function (resolve) {
-                window.requestAnimationFrame(function () { window.requestAnimationFrame(resolve); });
-            });
-        });
-    }
-
-    /* Land on a heading, then correct if late reflow moved it. */
-    function jumpToSection(h) {
-        scrollToSection(h, false);
-        [400, 1400].forEach(function (delay) {
-            window.setTimeout(function () {
-                var off = h.getBoundingClientRect().top - sectionMargin();
-                if (Math.abs(off) > 2) instantScrollTo(window.scrollY + off);
-            }, delay);
-        });
-    }
-
-    /* Heading text → URL-safe section slug; collisions get -2, -3, … */
-    function slugify(text, used) {
-        var s = String(text == null ? '' : text).toLowerCase();
-        if (s.normalize) s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-        s = s.replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'section';
-        var slug = s;
-        for (var n = 2; used[slug]; n++) slug = s + '-' + n;
-        used[slug] = true;
-        return slug;
-    }
-
-    /* Keep `toc-item=<slug>` in the URL so a section can be linked and copied.
-       Only that pair is rewritten: every other query pair stays byte for byte
-       as it was typed (`n=technica/computation/representation.md` must not
-       come back as `n=technica%2F...`). */
-    function setSectionParam(slug) {
-        try {
-            var href = window.location.href.split('#')[0];
-            var cut = href.indexOf('?');
-            var base = cut === -1 ? href : href.slice(0, cut);
-            var query = cut === -1 ? '' : href.slice(cut + 1);
-            var parts = query ? query.split('&').filter(Boolean) : [];
-            var pair = 'toc-item=' + encodeURIComponent(slug);
-            var hit = false;
-            for (var i = 0; i < parts.length; i++) {
-                if (parts[i] === 'toc-item' || parts[i].indexOf('toc-item=') === 0) {
-                    parts[i] = pair;
-                    hit = true;
-                }
-            }
-            if (!hit) parts.push(pair);
-            window.history.replaceState(null, '', base + '?' + parts.join('&'));
-        } catch (e) { /* no history API — the link still scrolls */ }
-    }
-
-    /* Builds the sidebar TOC. Returns a function that applies the deep link
-       (after layout has settled), or null when the URL names no section. */
-    function buildToc() {
-        var headings = document.querySelectorAll('#note-body h2, #note-body h3');
-        var toc = document.getElementById('toc');
-        toc.innerHTML = '';
-        if (!headings.length) { document.getElementById('sidebar').hidden = true; return null; }
-        document.getElementById('sidebar').hidden = false;
-        var used = Object.create(null);
-        var bySlug = Object.create(null);
-
-        headings.forEach(function (h, i) {
-            var slug = slugify(h.textContent, used);
-            bySlug[slug] = { heading: h, index: i };
-            h.id = 'sec-' + slug;
-            var a = document.createElement('a');
-            a.href = '#' + h.id;
-            a.className = 'toc-item' + (h.tagName === 'H3' ? ' sub' : '');
-            a.textContent = h.textContent;
-            a.setAttribute('data-slug', slug);
-            a.addEventListener('click', function (e) {
-                e.preventDefault();
-                markActive(i);
-                scrollToSection(h, true);
-                setSectionParam(slug);
-            });
-            toc.appendChild(a);
-        });
-
-        var items = toc.querySelectorAll('.toc-item');
-        function markActive(idx) {
-            items.forEach(function (it) { it.classList.remove('active'); });
-            if (items[idx]) items[idx].classList.add('active');
-        }
-
-        var observer = new IntersectionObserver(function (entries) {
-            entries.forEach(function (entry) {
-                if (!entry.isIntersecting) return;
-                markActive(Array.prototype.indexOf.call(headings, entry.target));
-            });
-        }, { rootMargin: '-10% 0px -60% 0px' });
-        headings.forEach(function (h) { observer.observe(h); });
-
-        /* Deep link: ?toc-item=<slug>, or a plain #sec-<slug> hash. */
-        var q = new URLSearchParams(window.location.search);
-        var want = q.get('toc-item') || '';
-        var hash = window.location.hash.replace(/^#/, '');
-        if (!want && hash.indexOf('sec-') === 0) want = hash.slice(4);
-        var hit = want && bySlug[want];
-        if (!hit) return null;
-        markActive(hit.index);
-        setSectionParam(want);
-        return function (extra) {
-            layoutSettled(extra).then(function () {
-                markActive(hit.index);
-                jumpToSection(hit.heading);
-            });
-        };
     }
 
     /* ---------- load flow ---------- */
@@ -636,25 +438,25 @@
                 document.getElementById('meta-raw').setAttribute('href', kind.fetchUrl(name));
                 renderTags(fm.tags);
                 wireQa(title, fm.qa);
-                histPromise.then(function (list) { wireHistory(kind, kind.historyPath(name), list); });
+                getChangelog(name).then(function (list) { wireHistory(kind, kind.historyPath(name), list); });
 
                 document.getElementById('note-body').innerHTML = kind.tex ? renderMd(md) : marked.parse(md);
-                if (kind.withLectures) {
-                    return fetch('data/index.json', { headers: { 'Accept': 'application/json' } })
+                if (kind.withLectures && kind.withLectures(name)) {
+                    return fetch(kind.courseIndex, { headers: { 'Accept': 'application/json' } })
                         .then(function (r) {
                             if (!r.ok) throw new Error('HTTP ' + r.status);
                             return r.json();
                         })
                         .then(function (idx) {
                             return (idx.entries || []).filter(function (e) {
-                                return e.kind === 'lecture' && e.course === name;
+                                return e.kind === 'lecture' && e.course === kind.courseDir(name);
                             });
                         })
                         .catch(function () { return []; });
                 }
             })
             .then(function (lectures) {
-                if (kind.withLectures && Array.isArray(lectures)) renderLectures(name, lectures);
+                if (kind.withLectures && kind.withLectures(name) && Array.isArray(lectures)) renderLectures(name, lectures);
                 document.getElementById('loading').hidden = true;
                 document.getElementById('note-header').hidden = false;
                 document.getElementById('note-card').hidden = false;

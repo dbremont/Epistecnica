@@ -2,7 +2,7 @@
 """
 P-value atlas store validator.
 
-Validates src/notes/app/data/epistemica/validation/atlas/pvalue.json: required
+Validates src/corpus/notes/epistemica/validation/atlas/pvalue.json: required
 top-level keys, unique kebab-case distribution ids, known families and
 engines, complete tail formulas (density/mass, CDF, left, right, two-sided,
 free of `$`), parameter specs, resolving related ids and note links, and
@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-DATA = REPO / "src" / "notes" / "app" / "data"
+DATA = REPO / "src" / "corpus" / "notes"
 STORE = DATA / "epistemica" / "validation" / "atlas" / "pvalue.json"
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")

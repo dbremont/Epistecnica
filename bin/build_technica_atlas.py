@@ -37,7 +37,7 @@ from pathlib import Path
 from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-DATA = REPO / 'src' / 'notes' / 'app' / 'data'
+DATA = REPO / 'src' / 'corpus' / 'notes'
 TECH = DATA / 'technica'
 OUT = TECH / 'meta' / 'atlas.json'
 
@@ -296,7 +296,7 @@ def build(progress=None) -> bool:
         'abbr': 'TEF',
         'generated': date.today().isoformat(),
         'source': 'generated from the decomposition tables of the technica '
-                  'corpus (src/notes/app/data/technica, meta/ excluded)',
+                  'corpus (src/corpus/notes/technica, meta/ excluded)',
         'guide': GUIDE,
         'note': 'technica/meta/atlas.md',
         'stats': stats,

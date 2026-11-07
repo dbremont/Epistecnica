@@ -2,7 +2,7 @@
 """Build the unified library index.
 
 Merges the three corpus indexes into one lightweight metadata file,
-src/app/data/library-index.json, consumed by the hub and the unified
+src/corpus/app/data/library-index.json, consumed by the hub and the unified
 library page. Each entry keeps {corpus, kind, path, title, section,
 tags, words}; full text stays in the per-corpus indexes.
 
@@ -17,12 +17,12 @@ from pathlib import Path
 from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-OUT = REPO / "src" / "app" / "data" / "library-index.json"
+OUT = REPO / "src" / "corpus" / "app" / "data" / "library-index.json"
 
 SOURCES = [
-    ("note", REPO / "src" / "notes" / "app" / "data" / "index.json", "notes"),
-    ("document", REPO / "src" / "documents" / "app" / "data" / "index.json", "documents"),
-    ("course", REPO / "src" / "courses" / "app" / "data" / "index.json", "entries"),
+    ("note", REPO / "src" / "corpus" / "app" / "data" / "notes-index.json", "notes"),
+    ("document", REPO / "src" / "corpus" / "app" / "data" / "documents-index.json", "documents"),
+    ("course", REPO / "src" / "corpus" / "app" / "data" / "courses-index.json", "entries"),
 ]
 
 
@@ -41,17 +41,18 @@ def build(progress=None) -> bool:
     for corpus, path, key in SOURCES:
         items = load(path, key)
         for item in items:
+            prefix = {"note": "notes", "document": "documents", "course": "courses"}[corpus]
             entry = {
                 "corpus": corpus,
                 "kind": item.get("kind", corpus),
-                "path": item.get("path", ""),
+                "path": prefix + "/" + item.get("path", ""),
                 "title": item.get("title", ""),
-                "section": item.get("section", ""),
+                "section": item.get("section") or corpus,
                 "tags": item.get("tags", []),
                 "words": item.get("words", 0),
             }
             if item.get("course"):
-                entry["course"] = item["course"]
+                entry["course"] = prefix + "/" + item["course"]
             if item.get("order") is not None:
                 entry["order"] = item["order"]
             entries.append(entry)
@@ -78,7 +79,7 @@ def build(progress=None) -> bool:
     }, ensure_ascii=False, separators=(",", ":")))
 
     kb = OUT.stat().st_size / 1024
-    print(f"library-index: {len(entries)} entries -> src/app/data/library-index.json ({kb:.0f} KB)")
+    print(f"library-index: {len(entries)} entries -> src/corpus/app/data/library-index.json ({kb:.0f} KB)")
     for corpus, count in sorted(counts.items()):
         print(f"  {corpus}: {count}")
     if progress is not None:

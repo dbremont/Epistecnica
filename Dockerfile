@@ -2,9 +2,7 @@ FROM python:3.12-slim
 WORKDIR /srv
 COPY bin/ bin/
 COPY src/app/ src/app/
-COPY src/notes/ src/notes/
-COPY src/courses/ src/courses/
-COPY src/documents/ src/documents/
+COPY src/corpus/ src/corpus/
 COPY src/glossarium/ src/glossarium/
 COPY src/qa/ src/qa/
 COPY img/ img/

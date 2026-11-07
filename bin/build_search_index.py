@@ -56,7 +56,7 @@ def corpus_entries() -> list:
     entries = []
     app = REPO / "src"
 
-    notes = load_index(app / "notes" / "app" / "data" / "index.json",
+    notes = load_index(app / "corpus" / "app" / "data" / "notes-index.json",
                        "make notes-index")
     for n in notes.get("notes", []):
         entries.append({
@@ -69,7 +69,7 @@ def corpus_entries() -> list:
             "excerpt": excerpt(n.get("text", "")),
         })
 
-    courses = load_index(app / "courses" / "app" / "data" / "index.json",
+    courses = load_index(app / "corpus" / "app" / "data" / "courses-index.json",
                          "make course-index")
     for n in courses.get("entries", []):
         entries.append({
@@ -82,7 +82,7 @@ def corpus_entries() -> list:
             "excerpt": excerpt(n.get("text", "")),
         })
 
-    documents = load_index(app / "documents" / "app" / "data" / "index.json",
+    documents = load_index(app / "corpus" / "app" / "data" / "documents-index.json",
                            "make document-index")
     for n in documents.get("documents", []):
         entries.append({

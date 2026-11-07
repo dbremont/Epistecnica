@@ -8,12 +8,12 @@ __pycache__/
 
 # Generated corpus indexes/snapshots — rebuilt by `make index`/`search-index`/
 # `atlas-index` (and at image build); never hand-edit or commit
-src/notes/app/data/index.json
-src/courses/app/data/index.json
-src/documents/app/data/index.json
+src/corpus/app/data/notes-index.json
+src/corpus/app/data/documents-index.json
+src/corpus/app/data/courses-index.json
 src/app/data/search-index.json
-src/app/data/library-index.json
-src/notes/app/data/technica/meta/atlas.json
+src/corpus/app/data/library-index.json
+src/corpus/notes/technica/meta/atlas.json
 src/glossarium/app/data/index.json
 src/qa/app/data/qa-index.json
 src/app/data/index-status.json

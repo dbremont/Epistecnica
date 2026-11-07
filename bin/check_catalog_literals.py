@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Fail when a catalog page hardcodes corpus content.
 
-The three catalogs (notes, courses, documents) are generic renderers over
-the generated corpus indexes: every card, directory, and link they show
+The catalog is a generic renderer over
+the generated corpus index: every card, directory, and link they show
 must come from `data/index.json`, `data/links.json`, or the corpus files
 those name. A literal corpus entry, a per-directory special case, or a
 baked-in artifact href means the listing has stopped reflecting the data —
 the defect this check exists to prevent (e.g. the retired hardcoded atlas
 card in the notes catalog).
 
-Forbidden in src/{notes,courses,documents}/app/index.html:
+Forbidden in src/corpus/app/index.html:
 
 - per-directory special cases:  state.dir === '<name>'
 - literal corpus artifact paths: 'data/<corpus>/...' or "data/<corpus>/..."
@@ -28,9 +28,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 PAGES = [
-    REPO / 'src' / 'notes' / 'app' / 'index.html',
-    REPO / 'src' / 'courses' / 'app' / 'index.html',
-    REPO / 'src' / 'documents' / 'app' / 'index.html',
+    REPO / 'src' / 'corpus' / 'app' / 'index.html',
 ]
 
 DIR_SPECIAL = re.compile(r"state\.dir\s*===?\s*['\"][^'\"]+['\"]")

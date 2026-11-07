@@ -6,7 +6,7 @@ One-off migration tool. Reads a Notion database export (the "Histórico
 de Cursos" folder: per-course markdown files named "<Course name>
 <32-hex-uuid>.md", plus per-entry asset folders holding images) and
 writes the courses corpus: one directory per course under
-src/courses/app/courses/<slug>/ holding the readme.md entry.
+src/corpus/courses/<slug>/ holding the readme.md entry.
 
 - Every file becomes an entry-only course (readme.md, no lectures):
   the export holds whole-course single pages, so no lecture structure
@@ -44,8 +44,8 @@ from pathlib import Path
 from urllib.parse import unquote
 
 REPO = Path(__file__).resolve().parent.parent
-COURSE = REPO / "src" / "courses"
-CORPUS = COURSE / "app" / "courses"
+COURSE = REPO / "src" / "corpus" / "courses"
+CORPUS = COURSE
 ENTRY_FILE = "readme.md"
 
 UUID_SUFFIX_RE = re.compile(r"\s+[0-9a-f]{32}(?=\.md$)")

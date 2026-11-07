@@ -470,8 +470,8 @@ replaceable.
 ## 12. References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- `src/notes/app/data/epistemica/ees.md` — local companion and schema note.
-- `src/notes/app/data/epistemica/ees.json` — EES tree store and type
+- `src/corpus/notes/epistemica/ees.md` — local companion and schema note.
+- `src/corpus/notes/epistemica/ees.json` — EES tree store and type
   vocabulary.
 - `spec/spec.md` — Epistecnica system spec.
 - `spec/design.md` — shared design system.

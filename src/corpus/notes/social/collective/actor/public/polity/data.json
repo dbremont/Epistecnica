@@ -1,0 +1,3254 @@
+{
+  "generated": "2026-11-01",
+  "root": "social/collective/actor/public/polity",
+  "count": 174,
+  "codes": {
+    "abb": {
+      "name": "Abbasid Caliphate",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "abbasid-caliphate",
+          "type": "note",
+          "status": "active",
+          "title": "Abbasid Caliphate",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/abb/abbasid-caliphate.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/abb/abbasid-caliphate.md",
+          "title": "Abbasid Caliphate",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "ach": {
+      "name": "Achaemenid Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "achaemenid-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Achaemenid Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ach/achaemenid-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ach/achaemenid-empire.md",
+          "title": "Achaemenid Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "are": {
+      "name": "United Arab Emirates",
+      "native": "UAE / Al-Imārāt",
+      "flag": "🇦🇪",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇦🇪 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "united-arab-emirates-uae",
+          "type": "note",
+          "status": "active",
+          "title": "🇦🇪 United Arab Emirates (UAE)",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/are/united-arab-emirates-uae.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/are/united-arab-emirates-uae.md",
+          "title": "🇦🇪 United Arab Emirates (UAE)",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/are/actor.html",
+          "title": "🇦🇪 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "arg": {
+      "name": "Argentina",
+      "native": "República Argentina",
+      "flag": "🇦🇷",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇦🇷 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "argentina",
+          "type": "note",
+          "status": "active",
+          "title": "Argentina",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/arg/argentina.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/arg/argentina.md",
+          "title": "Argentina",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/arg/actor.html",
+          "title": "🇦🇷 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "ath": {
+      "name": "Athenian Republic",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "athenian-republic",
+          "type": "note",
+          "status": "active",
+          "title": "Athenian Republic",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ath/athenian-republic.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ath/athenian-republic.md",
+          "title": "Athenian Republic",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "aus": {
+      "name": "Australia",
+      "native": "Australia",
+      "flag": "🇦🇺",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇦🇺 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "australia",
+          "type": "note",
+          "status": "active",
+          "title": "Australia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/aus/australia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/aus/australia.md",
+          "title": "Australia",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/aus/actor.html",
+          "title": "🇦🇺 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "aut": {
+      "name": "Austria",
+      "native": "",
+      "flag": "🇦🇹",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "austria",
+          "type": "note",
+          "status": "active",
+          "title": "Austria",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/aut/austria.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/aut/austria.md",
+          "title": "Austria",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "bel": {
+      "name": "Belgium",
+      "native": "",
+      "flag": "🇧🇪",
+      "has_node": false,
+      "counts": {
+        "explanation": 2,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "belgium",
+          "type": "note",
+          "status": "active",
+          "title": "Belgium",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/bel/belgium.md"
+        },
+        {
+          "id": "flanders",
+          "type": "note",
+          "status": "active",
+          "title": "Flanders",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/bel/region/flanders.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/bel/belgium.md",
+          "title": "Belgium",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/bel/region/flanders.md",
+          "title": "Flanders",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "bhr": {
+      "name": "Bahrain",
+      "native": "",
+      "flag": "🇧🇭",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "bahrain",
+          "type": "note",
+          "status": "active",
+          "title": "Bahrain",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/bhr/bahrain.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/bhr/bahrain.md",
+          "title": "Bahrain",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "bol": {
+      "name": "Bolivia",
+      "native": "",
+      "flag": "🇧🇴",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "bolivia",
+          "type": "note",
+          "status": "active",
+          "title": "Bolivia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/bol/bolivia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/bol/bolivia.md",
+          "title": "Bolivia",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "bra": {
+      "name": "Brazil",
+      "native": "República Federativa do Brasil",
+      "flag": "🇧🇷",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇧🇷 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "brazil",
+          "type": "note",
+          "status": "active",
+          "title": "Brazil",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/bra/brazil.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/bra/brazil.md",
+          "title": "Brazil",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/bra/actor.html",
+          "title": "🇧🇷 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "bwa": {
+      "name": "Botswana",
+      "native": "",
+      "flag": "🇧🇼",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "botswana",
+          "type": "note",
+          "status": "active",
+          "title": "Botswana",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/bwa/botswana.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/bwa/botswana.md",
+          "title": "Botswana",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "byz": {
+      "name": "Eastern Roman Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "eastern-roman-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Eastern Roman Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/byz/eastern-roman-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/byz/eastern-roman-empire.md",
+          "title": "Eastern Roman Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "can": {
+      "name": "Canada",
+      "native": "Canada",
+      "flag": "🇨🇦",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇨🇦 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "canada",
+          "type": "note",
+          "status": "active",
+          "title": "Canada",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/can/canada.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/can/canada.md",
+          "title": "Canada",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/can/actor.html",
+          "title": "🇨🇦 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "che": {
+      "name": "Switzerland",
+      "native": "Schweiz / Suisse / Svizzera",
+      "flag": "🇨🇭",
+      "has_node": true,
+      "counts": {
+        "explanation": 2,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇨🇭 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "state",
+          "type": "note",
+          "status": "active",
+          "title": "Case Study: Switzerland’s Government and Institutional Architecture",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/che/state.md"
+        },
+        {
+          "id": "switzerland",
+          "type": "note",
+          "status": "active",
+          "title": "Switzerland",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/che/switzerland.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/che/state.md",
+          "title": "Case Study: Switzerland’s Government and Institutional Architecture",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/che/switzerland.md",
+          "title": "Switzerland",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/che/actor.html",
+          "title": "🇨🇭 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "chl": {
+      "name": "Chile",
+      "native": "",
+      "flag": "🇨🇱",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "chile",
+          "type": "note",
+          "status": "active",
+          "title": "Chile",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chl/chile.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/chl/chile.md",
+          "title": "Chile",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "chn": {
+      "name": "China",
+      "native": "中华人民共和国",
+      "flag": "🇨🇳",
+      "has_node": true,
+      "counts": {
+        "explanation": 12,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇨🇳 Actor Space",
+          "link": "prc/actor.html"
+        },
+        {
+          "id": "han",
+          "type": "note",
+          "status": "active",
+          "title": "Han dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/han/han.md"
+        },
+        {
+          "id": "ming",
+          "type": "note",
+          "status": "active",
+          "title": "Ming dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/ming/ming.md"
+        },
+        {
+          "id": "china",
+          "type": "note",
+          "status": "active",
+          "title": "China",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/prc/china.md"
+        },
+        {
+          "id": "hong-kong-social-region-dynamics-1900-2025",
+          "type": "note",
+          "status": "active",
+          "title": "Hong Kong - Social Region Dynamics 1900 - 2025",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md"
+        },
+        {
+          "id": "civil-service",
+          "type": "note",
+          "status": "active",
+          "title": "Hong Hong Civil Service",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/civil-service.md"
+        },
+        {
+          "id": "hong-kong",
+          "type": "note",
+          "status": "active",
+          "title": "🇭🇰 Hong Kong",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md"
+        },
+        {
+          "id": "qin",
+          "type": "note",
+          "status": "active",
+          "title": "Qin dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/qin/qin.md"
+        },
+        {
+          "id": "qing",
+          "type": "note",
+          "status": "active",
+          "title": "Qing dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/qing/qing.md"
+        },
+        {
+          "id": "song",
+          "type": "note",
+          "status": "active",
+          "title": "Song dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/song/song.md"
+        },
+        {
+          "id": "tang",
+          "type": "note",
+          "status": "active",
+          "title": "Tang dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/tang/tang.md"
+        },
+        {
+          "id": "yuan",
+          "type": "note",
+          "status": "active",
+          "title": "Yuan dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/yuan/yuan.md"
+        },
+        {
+          "id": "zhou",
+          "type": "note",
+          "status": "active",
+          "title": "Zhou dynasty",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/chn/zhou/zhou.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/chn/han/han.md",
+          "title": "Han dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/ming/ming.md",
+          "title": "Ming dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/prc/china.md",
+          "title": "China",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md",
+          "title": "Hong Kong - Social Region Dynamics 1900 - 2025",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/prc/region/hong-kong/civil-service.md",
+          "title": "Hong Hong Civil Service",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md",
+          "title": "🇭🇰 Hong Kong",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/qin/qin.md",
+          "title": "Qin dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/qing/qing.md",
+          "title": "Qing dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/song/song.md",
+          "title": "Song dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/tang/tang.md",
+          "title": "Tang dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/yuan/yuan.md",
+          "title": "Yuan dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/zhou/zhou.md",
+          "title": "Zhou dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/chn/prc/actor.html",
+          "title": "🇨🇳 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "cho": {
+      "name": "Chola Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "chola-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Chola Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/cho/chola-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/cho/chola-empire.md",
+          "title": "Chola Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "col": {
+      "name": "Colombia",
+      "native": "",
+      "flag": "🇨🇴",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "colombia",
+          "type": "note",
+          "status": "active",
+          "title": "Colombia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/col/colombia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/col/colombia.md",
+          "title": "Colombia",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "cri": {
+      "name": "Costa Rica",
+      "native": "",
+      "flag": "🇨🇷",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "costa-rica",
+          "type": "note",
+          "status": "active",
+          "title": "Costa Rica",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/cri/costa-rica.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/cri/costa-rica.md",
+          "title": "Costa Rica",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "crt": {
+      "name": "Carthage",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "carthage",
+          "type": "note",
+          "status": "active",
+          "title": "Carthage",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/crt/carthage.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/crt/carthage.md",
+          "title": "Carthage",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "cub": {
+      "name": "Cuba",
+      "native": "",
+      "flag": "🇨🇺",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "cuba",
+          "type": "note",
+          "status": "active",
+          "title": "Cuba",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/cub/cuba.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/cub/cuba.md",
+          "title": "Cuba",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "cze": {
+      "name": "Czech Republic",
+      "native": "",
+      "flag": "🇨🇿",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "czech",
+          "type": "note",
+          "status": "active",
+          "title": "Czech Republic",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/cze/czech.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/cze/czech.md",
+          "title": "Czech Republic",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "deu": {
+      "name": "Germany",
+      "native": "",
+      "flag": "🇩🇪",
+      "has_node": false,
+      "counts": {
+        "explanation": 2,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "tte",
+          "type": "note",
+          "status": "active",
+          "title": "Germany Technical Training Ecosystem (TTE)",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/deu/education/tte.md"
+        },
+        {
+          "id": "germany",
+          "type": "note",
+          "status": "active",
+          "title": "Germany",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/deu/germany.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/deu/education/tte.md",
+          "title": "Germany Technical Training Ecosystem (TTE)",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/deu/germany.md",
+          "title": "Germany",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "dnk": {
+      "name": "Denmark",
+      "native": "Danmark",
+      "flag": "🇩🇰",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇩🇰 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "denmark",
+          "type": "note",
+          "status": "active",
+          "title": "Denmark",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dnk/denmark.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/dnk/denmark.md",
+          "title": "Denmark",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dnk/actor.html",
+          "title": "🇩🇰 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "dom": {
+      "name": "Dominican Republic",
+      "native": "República Dominicana",
+      "flag": "🇩🇴",
+      "has_node": true,
+      "counts": {
+        "explanation": 26,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇩🇴 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "rd-1-0-dominican-state-capacity",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican State Capacity",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/breviarium/rd-1-0-dominican-state-capacity.md"
+        },
+        {
+          "id": "rd-1-0-dominican-demographics",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Demographics",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/demographic/rd-1-0-dominican-demographics.md"
+        },
+        {
+          "id": "digital",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Digital Infrastructure System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/economy/digital.md"
+        },
+        {
+          "id": "history",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Economy History",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/economy/history.md"
+        },
+        {
+          "id": "labor",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Labor Markets",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/economy/labor.md"
+        },
+        {
+          "id": "rd-1-0-dominican-educational-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Educational System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/education/rd-1-0-dominican-educational-system.md"
+        },
+        {
+          "id": "rd-1-0-dominican-energy-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Energy System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/energy/rd-1-0-dominican-energy-system.md"
+        },
+        {
+          "id": "rd-1-0-dominican-financial-markets",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Financial Markets",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/finance/rd-1-0-dominican-financial-markets.md"
+        },
+        {
+          "id": "rd-1-0-dominican-land-and-natural-resources",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Land and Natural Resources",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md"
+        },
+        {
+          "id": "rd-1-0-ontology-model-dominican-public-institutions",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Ontology Model: Dominican Public Institutions",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md"
+        },
+        {
+          "id": "rd-1-0-dominican-tributary-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Tributary System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/hacienda/rd-1-0-dominican-tributary-system.md"
+        },
+        {
+          "id": "rd-1-0-dominican-healthcare-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Healthcare System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/health/rd-1-0-dominican-healthcare-system.md"
+        },
+        {
+          "id": "rd-1-0-dominican-infrastructure-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Infrastructure System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md"
+        },
+        {
+          "id": "rd-1-0-innovation-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Innovation System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/kps/rd-1-0-innovation-system.md"
+        },
+        {
+          "id": "constitution",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Constitution",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/legal/constitution.md"
+        },
+        {
+          "id": "governance",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Legislative System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/legal/governance.md"
+        },
+        {
+          "id": "legal",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Laws",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/legal/legal.md"
+        },
+        {
+          "id": "rd-1-0-dominican-monetary-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Monetary System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/monetary/rd-1-0-dominican-monetary-system.md"
+        },
+        {
+          "id": "rd-1-0-dominican-political-system",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Political System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/politics/rd-1-0-dominican-political-system.md"
+        },
+        {
+          "id": "ppi",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Public/Private Sector Interaction",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/public/ppi.md"
+        },
+        {
+          "id": "rd-1-0-dominican-public-opinion-information-landscape",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Public Opinion & Information Landscape",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md"
+        },
+        {
+          "id": "rd-1-0-dominix",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominix",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/rd-1-0-dominix.md"
+        },
+        {
+          "id": "risk",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Risk Management System",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/security/risk.md"
+        },
+        {
+          "id": "security",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Security",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/security/security.md"
+        },
+        {
+          "id": "rd-1-0-dominican-socioeconomics",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Socioeconomics",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/social/rd-1-0-dominican-socioeconomics.md"
+        },
+        {
+          "id": "rd-1-0-dominican-urbanism",
+          "type": "note",
+          "status": "active",
+          "title": "RD 1.0 Dominican Urbanism",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dom/urbanism/rd-1-0-dominican-urbanism.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/dom/breviarium/rd-1-0-dominican-state-capacity.md",
+          "title": "RD 1.0 Dominican State Capacity",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/demographic/rd-1-0-dominican-demographics.md",
+          "title": "RD 1.0 Dominican Demographics",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/economy/digital.md",
+          "title": "RD 1.0 Dominican Digital Infrastructure System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/economy/history.md",
+          "title": "RD 1.0 Dominican Economy History",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/economy/labor.md",
+          "title": "RD 1.0 Dominican Labor Markets",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/education/rd-1-0-dominican-educational-system.md",
+          "title": "RD 1.0 Dominican Educational System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/energy/rd-1-0-dominican-energy-system.md",
+          "title": "RD 1.0 Dominican Energy System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/finance/rd-1-0-dominican-financial-markets.md",
+          "title": "RD 1.0 Dominican Financial Markets",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md",
+          "title": "RD 1.0 Dominican Land and Natural Resources",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md",
+          "title": "RD 1.0 Ontology Model: Dominican Public Institutions",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/hacienda/rd-1-0-dominican-tributary-system.md",
+          "title": "RD 1.0 Dominican Tributary System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/health/rd-1-0-dominican-healthcare-system.md",
+          "title": "RD 1.0 Dominican Healthcare System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md",
+          "title": "RD 1.0 Dominican Infrastructure System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/kps/rd-1-0-innovation-system.md",
+          "title": "RD 1.0 Innovation System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/legal/constitution.md",
+          "title": "RD 1.0 Dominican Constitution",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/legal/governance.md",
+          "title": "RD 1.0 Dominican Legislative System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/legal/legal.md",
+          "title": "RD 1.0 Dominican Laws",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/monetary/rd-1-0-dominican-monetary-system.md",
+          "title": "RD 1.0 Dominican Monetary System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/politics/rd-1-0-dominican-political-system.md",
+          "title": "RD 1.0 Dominican Political System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/public/ppi.md",
+          "title": "RD 1.0 Dominican Public/Private Sector Interaction",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md",
+          "title": "RD 1.0 Dominican Public Opinion & Information Landscape",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/rd-1-0-dominix.md",
+          "title": "RD 1.0 Dominix",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/security/risk.md",
+          "title": "RD 1.0 Dominican Risk Management System",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/security/security.md",
+          "title": "RD 1.0 Dominican Security",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/social/rd-1-0-dominican-socioeconomics.md",
+          "title": "RD 1.0 Dominican Socioeconomics",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/urbanism/rd-1-0-dominican-urbanism.md",
+          "title": "RD 1.0 Dominican Urbanism",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/dom/actor.html",
+          "title": "🇩🇴 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "dut": {
+      "name": "Dutch Republic",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "dutch-republic",
+          "type": "note",
+          "status": "active",
+          "title": "Dutch Republic",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/dut/dutch-republic.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/dut/dutch-republic.md",
+          "title": "Dutch Republic",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "ecu": {
+      "name": "Ecuador",
+      "native": "",
+      "flag": "🇪🇨",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ecuador",
+          "type": "note",
+          "status": "active",
+          "title": "Ecuador",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ecu/ecuador.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ecu/ecuador.md",
+          "title": "Ecuador",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "esp": {
+      "name": "Spain",
+      "native": "España",
+      "flag": "🇪🇸",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇪🇸 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "spain",
+          "type": "note",
+          "status": "active",
+          "title": "España",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/esp/spain.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/esp/spain.md",
+          "title": "España",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/esp/actor.html",
+          "title": "🇪🇸 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "est": {
+      "name": "Estonia",
+      "native": "",
+      "flag": "🇪🇪",
+      "has_node": false,
+      "counts": {
+        "explanation": 2,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "estonia",
+          "type": "note",
+          "status": "active",
+          "title": "Estonia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/est/estonia.md"
+        },
+        {
+          "id": "state",
+          "type": "note",
+          "status": "active",
+          "title": "Case Study: Estonia’s Government and Institutional Architecture",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/est/state.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/est/estonia.md",
+          "title": "Estonia",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/est/state.md",
+          "title": "Case Study: Estonia’s Government and Institutional Architecture",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "eth": {
+      "name": "Ethiopia",
+      "native": "",
+      "flag": "🇪🇹",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ethiopia",
+          "type": "note",
+          "status": "active",
+          "title": "Ethiopia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/eth/ethiopia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/eth/ethiopia.md",
+          "title": "Ethiopia",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "fin": {
+      "name": "Finland",
+      "native": "Finland / Suomi",
+      "flag": "🇫🇮",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇫🇮 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "finland",
+          "type": "note",
+          "status": "active",
+          "title": "Finland",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/fin/finland.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/fin/finland.md",
+          "title": "Finland",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/fin/actor.html",
+          "title": "🇫🇮 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "fra": {
+      "name": "France",
+      "native": "France / République française",
+      "flag": "🇫🇷",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇫🇷 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "france",
+          "type": "note",
+          "status": "active",
+          "title": "France",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/fra/france.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/fra/france.md",
+          "title": "France",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/fra/actor.html",
+          "title": "🇫🇷 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "gbr": {
+      "name": "England",
+      "native": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "uk",
+          "type": "note",
+          "status": "active",
+          "title": "UK",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/gbr/uk.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/gbr/uk.md",
+          "title": "UK",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "gen": {
+      "name": "Republic of Genoa",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "republic-of-genoa",
+          "type": "note",
+          "status": "active",
+          "title": "Republic of Genoa",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/gen/republic-of-genoa.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/gen/republic-of-genoa.md",
+          "title": "Republic of Genoa",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "gha": {
+      "name": "Ghana",
+      "native": "",
+      "flag": "🇬🇭",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ghana",
+          "type": "note",
+          "status": "active",
+          "title": "Ghana",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/gha/ghana.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/gha/ghana.md",
+          "title": "Ghana",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "grc": {
+      "name": "Grecia",
+      "native": "",
+      "flag": "🇬🇷",
+      "has_node": false,
+      "counts": {
+        "explanation": 4,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "grecia",
+          "type": "note",
+          "status": "active",
+          "title": "Grecia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/grc/grecia.md"
+        },
+        {
+          "id": "athens",
+          "type": "note",
+          "status": "active",
+          "title": "Athens",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/grc/region/athens.md"
+        },
+        {
+          "id": "patras",
+          "type": "note",
+          "status": "active",
+          "title": "Patras",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/grc/region/patras.md"
+        },
+        {
+          "id": "thessaloniki",
+          "type": "note",
+          "status": "active",
+          "title": "Thessaloniki",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/grc/region/thessaloniki.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/grc/grecia.md",
+          "title": "Grecia",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/grc/region/athens.md",
+          "title": "Athens",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/grc/region/patras.md",
+          "title": "Patras",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/grc/region/thessaloniki.md",
+          "title": "Thessaloniki",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "hkg": {
+      "name": "Hong Kong",
+      "native": "",
+      "flag": "🇭🇰",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "hong-kong",
+          "type": "note",
+          "status": "active",
+          "title": "Hong Kong",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/hkg/hong-kong.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/hkg/hong-kong.md",
+          "title": "Hong Kong",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "hsa": {
+      "name": "Hanseatic League",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "hanseatic-league",
+          "type": "note",
+          "status": "active",
+          "title": "Hanseatic League",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/hsa/hanseatic-league.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/hsa/hanseatic-league.md",
+          "title": "Hanseatic League",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "hti": {
+      "name": "Haiti",
+      "native": "",
+      "flag": "🇭🇹",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "haiti",
+          "type": "note",
+          "status": "active",
+          "title": "Haiti",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/hti/haiti.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/hti/haiti.md",
+          "title": "Haiti",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "hun": {
+      "name": "Hungary",
+      "native": "",
+      "flag": "🇭🇺",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "hungary",
+          "type": "note",
+          "status": "active",
+          "title": "Hungary",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/hun/hungary.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/hun/hungary.md",
+          "title": "Hungary",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "idn": {
+      "name": "Indonesia",
+      "native": "Republik Indonesia",
+      "flag": "🇮🇩",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇮🇩 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "indonesia",
+          "type": "note",
+          "status": "active",
+          "title": "Indonesia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/idn/indonesia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/idn/indonesia.md",
+          "title": "Indonesia",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/idn/actor.html",
+          "title": "🇮🇩 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "ind": {
+      "name": "India",
+      "native": "Bhārat (भारत) / Republic of India",
+      "flag": "🇮🇳",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇮🇳 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "india",
+          "type": "note",
+          "status": "active",
+          "title": "India",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ind/india.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ind/india.md",
+          "title": "India",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/ind/actor.html",
+          "title": "🇮🇳 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "irl": {
+      "name": "Ireland",
+      "native": "Éire / Ireland",
+      "flag": "🇮🇪",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇮🇪 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "ireland",
+          "type": "note",
+          "status": "active",
+          "title": "Ireland",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/irl/ireland.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/irl/ireland.md",
+          "title": "Ireland",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/irl/actor.html",
+          "title": "🇮🇪 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "irn": {
+      "name": "Iran",
+      "native": "",
+      "flag": "🇮🇷",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "iran",
+          "type": "note",
+          "status": "active",
+          "title": "Iran",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/irn/iran.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/irn/iran.md",
+          "title": "Iran",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "isr": {
+      "name": "Israel",
+      "native": "Israel / Yisra'el",
+      "flag": "🇮🇱",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇮🇱 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "israel",
+          "type": "note",
+          "status": "active",
+          "title": "Israel",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/isr/israel.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/isr/israel.md",
+          "title": "Israel",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/isr/actor.html",
+          "title": "🇮🇱 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "ita": {
+      "name": "Italy",
+      "native": "Italia",
+      "flag": "🇮🇹",
+      "has_node": true,
+      "counts": {
+        "explanation": 4,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇮🇹 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "italy",
+          "type": "note",
+          "status": "active",
+          "title": "Italy",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ita/italy.md"
+        },
+        {
+          "id": "network",
+          "type": "note",
+          "status": "active",
+          "title": "Italy Industrial Cluster Model",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ita/production/network.md"
+        },
+        {
+          "id": "piamonte",
+          "type": "note",
+          "status": "active",
+          "title": "Piamonte",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ita/region/piamonte.md"
+        },
+        {
+          "id": "venice",
+          "type": "note",
+          "status": "active",
+          "title": "Venice",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ita/region/venice.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ita/italy.md",
+          "title": "Italy",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/ita/production/network.md",
+          "title": "Italy Industrial Cluster Model",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/ita/region/piamonte.md",
+          "title": "Piamonte",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/ita/region/venice.md",
+          "title": "Venice",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/ita/actor.html",
+          "title": "🇮🇹 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "jpn": {
+      "name": "Japan",
+      "native": "Japan / Nihon",
+      "flag": "🇯🇵",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇯🇵 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "japan",
+          "type": "note",
+          "status": "active",
+          "title": "Japan",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/jpn/japan.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/jpn/japan.md",
+          "title": "Japan",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/jpn/actor.html",
+          "title": "🇯🇵 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "kor": {
+      "name": "South Korea",
+      "native": "대한민국 (Daehan Minguk) / Republic of Korea",
+      "flag": "🇰🇷",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇰🇷 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "south-korea",
+          "type": "note",
+          "status": "active",
+          "title": "South Korea",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/kor/south-korea.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/kor/south-korea.md",
+          "title": "South Korea",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/kor/actor.html",
+          "title": "🇰🇷 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "mau": {
+      "name": "Maurya Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "maurya-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Maurya Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/mau/maurya-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/mau/maurya-empire.md",
+          "title": "Maurya Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "mex": {
+      "name": "Mexico",
+      "native": "México",
+      "flag": "🇲🇽",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇲🇽 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "mexico",
+          "type": "note",
+          "status": "active",
+          "title": "México",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/mex/mexico.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/mex/mexico.md",
+          "title": "México",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/mex/actor.html",
+          "title": "🇲🇽 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "mha": {
+      "name": "Maratha Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "maratha-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Maratha Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/mha/maratha-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/mha/maratha-empire.md",
+          "title": "Maratha Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "mug": {
+      "name": "Mughal Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "mughal-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Mughal Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/mug/mughal-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/mug/mughal-empire.md",
+          "title": "Mughal Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "mus": {
+      "name": "Mauritius",
+      "native": "",
+      "flag": "🇲🇺",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "mauritius",
+          "type": "note",
+          "status": "active",
+          "title": "Mauritius",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/mus/mauritius.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/mus/mauritius.md",
+          "title": "Mauritius",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "mys": {
+      "name": "Malaysia",
+      "native": "Malaysia",
+      "flag": "🇲🇾",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇲🇾 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "malaysia",
+          "type": "note",
+          "status": "active",
+          "title": "🇲🇾 Malaysia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/mys/malaysia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/mys/malaysia.md",
+          "title": "🇲🇾 Malaysia",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/mys/actor.html",
+          "title": "🇲🇾 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "nld": {
+      "name": "Netherlands",
+      "native": "Nederland",
+      "flag": "🇳🇱",
+      "has_node": true,
+      "counts": {
+        "explanation": 3,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇳🇱 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "netherlands",
+          "type": "note",
+          "status": "active",
+          "title": "Netherlands",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/nld/netherlands.md"
+        },
+        {
+          "id": "production",
+          "type": "note",
+          "status": "active",
+          "title": "Productive Structure Evolution",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/nld/production.md"
+        },
+        {
+          "id": "state",
+          "type": "note",
+          "status": "active",
+          "title": "Kingdom of the Netherlands",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/nld/state.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/nld/netherlands.md",
+          "title": "Netherlands",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/nld/production.md",
+          "title": "Productive Structure Evolution",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/nld/state.md",
+          "title": "Kingdom of the Netherlands",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/nld/actor.html",
+          "title": "🇳🇱 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "nor": {
+      "name": "Norway",
+      "native": "",
+      "flag": "🇳🇴",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "norway",
+          "type": "note",
+          "status": "active",
+          "title": "Norway",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/nor/norway.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/nor/norway.md",
+          "title": "Norway",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "nzl": {
+      "name": "New Zealand",
+      "native": "New Zealand · Aotearoa",
+      "flag": "🇳🇿",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇳🇿 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "new-zealand",
+          "type": "note",
+          "status": "active",
+          "title": "🇳🇿 New Zealand",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/nzl/new-zealand.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/nzl/new-zealand.md",
+          "title": "🇳🇿 New Zealand",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/nzl/actor.html",
+          "title": "🇳🇿 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "oto": {
+      "name": "Ottoman Empire",
+      "native": "Ottoman Empire / Devlet-i Aliyye",
+      "flag": "",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ottoman-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Ottoman Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/oto/ottoman-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/oto/ottoman-empire.md",
+          "title": "Ottoman Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "phl": {
+      "name": "Philippines",
+      "native": "",
+      "flag": "🇵🇭",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "philippines",
+          "type": "note",
+          "status": "active",
+          "title": "Philippines",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/phl/philippines.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/phl/philippines.md",
+          "title": "Philippines",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "plc": {
+      "name": "Polish-Lithuanian Commonwealth",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "polish-lithuanian-commonwealth",
+          "type": "note",
+          "status": "active",
+          "title": "Polish-Lithuanian Commonwealth",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/plc/polish-lithuanian-commonwealth.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/plc/polish-lithuanian-commonwealth.md",
+          "title": "Polish-Lithuanian Commonwealth",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "pol": {
+      "name": "Poland",
+      "native": "Rzeczpospolita Polska",
+      "flag": "🇵🇱",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "poland",
+          "type": "note",
+          "status": "active",
+          "title": "Poland",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/pol/poland.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/pol/poland.md",
+          "title": "Poland",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "pri": {
+      "name": "Puerto Rico",
+      "native": "",
+      "flag": "🇵🇷",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "puerto-rico",
+          "type": "note",
+          "status": "active",
+          "title": "Puerto Rico",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/pri/puerto-rico.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/pri/puerto-rico.md",
+          "title": "Puerto Rico",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "prt": {
+      "name": "Portugal",
+      "native": "Portugal / República Portuguesa",
+      "flag": "🇵🇹",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇵🇹 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "portugal",
+          "type": "note",
+          "status": "active",
+          "title": "Portugal",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/prt/portugal.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/prt/portugal.md",
+          "title": "Portugal",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/prt/actor.html",
+          "title": "🇵🇹 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "pry": {
+      "name": "Paraguay",
+      "native": "",
+      "flag": "🇵🇾",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "paraguay",
+          "type": "note",
+          "status": "active",
+          "title": "Paraguay",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/pry/paraguay.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/pry/paraguay.md",
+          "title": "Paraguay",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "qat": {
+      "name": "Qatar",
+      "native": "",
+      "flag": "🇶🇦",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "qatar",
+          "type": "note",
+          "status": "active",
+          "title": "Qatar",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/qat/qatar.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/qat/qatar.md",
+          "title": "Qatar",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "rag": {
+      "name": "Republic of Ragusa",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ragusa",
+          "type": "note",
+          "status": "active",
+          "title": "Republic of Ragusa",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/rag/ragusa.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/rag/ragusa.md",
+          "title": "Republic of Ragusa",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "rom": {
+      "name": "Roman Republic",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "roman-republic",
+          "type": "note",
+          "status": "active",
+          "title": "Roman Republic",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/rom/roman-republic.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/rom/roman-republic.md",
+          "title": "Roman Republic",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "rou": {
+      "name": "Romania",
+      "native": "",
+      "flag": "🇷🇴",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "romania",
+          "type": "note",
+          "status": "active",
+          "title": "Romania",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/rou/romania.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/rou/romania.md",
+          "title": "Romania",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "rus": {
+      "name": "Russia",
+      "native": "",
+      "flag": "🇷🇺",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "russia",
+          "type": "note",
+          "status": "active",
+          "title": "Russia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/rus/russia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/rus/russia.md",
+          "title": "Russia",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "sau": {
+      "name": "Saudi Arabia",
+      "native": "",
+      "flag": "🇸🇦",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "saudi-arabia",
+          "type": "note",
+          "status": "active",
+          "title": "Saudi Arabia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/sau/saudi-arabia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/sau/saudi-arabia.md",
+          "title": "Saudi Arabia",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "scotland": {
+      "name": "Scotland",
+      "native": "Scotland / Alba",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "scotland",
+          "type": "note",
+          "status": "active",
+          "title": "Scotland",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/scotland/scotland.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/scotland/scotland.md",
+          "title": "Scotland",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "sgp": {
+      "name": "Singapore",
+      "native": "Singapore / Singapura",
+      "flag": "🇸🇬",
+      "has_node": true,
+      "counts": {
+        "explanation": 3,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇸🇬 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "hr",
+          "type": "note",
+          "status": "active",
+          "title": "HR",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/sgp/hr/hr.md"
+        },
+        {
+          "id": "singapore",
+          "type": "note",
+          "status": "active",
+          "title": "Singapore",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/sgp/singapore.md"
+        },
+        {
+          "id": "state",
+          "type": "note",
+          "status": "active",
+          "title": "Case Study: Singapore’s Government and Institutional Architecture",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/sgp/state.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/sgp/hr/hr.md",
+          "title": "HR",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/sgp/singapore.md",
+          "title": "Singapore",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/sgp/state.md",
+          "title": "Case Study: Singapore’s Government and Institutional Architecture",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/sgp/actor.html",
+          "title": "🇸🇬 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "slj": {
+      "name": "Seljuk Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "seljuk-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Seljuk Empire",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/slj/seljuk-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/slj/seljuk-empire.md",
+          "title": "Seljuk Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "swe": {
+      "name": "Sweden",
+      "native": "Konungariket Sverige",
+      "flag": "🇸🇪",
+      "has_node": true,
+      "counts": {
+        "explanation": 2,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇸🇪 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "tte",
+          "type": "note",
+          "status": "active",
+          "title": "Sweden Technical Training Ecosystem (TTE)",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/swe/education/tte.md"
+        },
+        {
+          "id": "sweden",
+          "type": "note",
+          "status": "active",
+          "title": "Sweden",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/swe/sweden.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/swe/education/tte.md",
+          "title": "Sweden Technical Training Ecosystem (TTE)",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/swe/sweden.md",
+          "title": "Sweden",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/swe/actor.html",
+          "title": "🇸🇪 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "tha": {
+      "name": "Thailand",
+      "native": "ราชอาณาจักรไทย (Ratcha-anachak Thai) / Kingdom of Thailand",
+      "flag": "🇹🇭",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇹🇭 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "thailand",
+          "type": "note",
+          "status": "active",
+          "title": "🇹🇭 Thailand",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/tha/thailand.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/tha/thailand.md",
+          "title": "🇹🇭 Thailand",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/tha/actor.html",
+          "title": "🇹🇭 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "tur": {
+      "name": "Turkey",
+      "native": "",
+      "flag": "🇹🇷",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "turkey",
+          "type": "note",
+          "status": "active",
+          "title": "Turkey",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/tur/turkey.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/tur/turkey.md",
+          "title": "Turkey",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "twn": {
+      "name": "Taiwan",
+      "native": "",
+      "flag": "🇹🇼",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "taiwan",
+          "type": "note",
+          "status": "active",
+          "title": "Taiwan",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/twn/taiwan.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/twn/taiwan.md",
+          "title": "Taiwan",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "ugt": {
+      "name": "Ugarit",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ugarit",
+          "type": "note",
+          "status": "active",
+          "title": "Ugarit",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ugt/ugarit.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ugt/ugarit.md",
+          "title": "Ugarit",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "ukr": {
+      "name": "Ukraine",
+      "native": "",
+      "flag": "🇺🇦",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ukraine",
+          "type": "note",
+          "status": "active",
+          "title": "Ukraine",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ukr/ukraine.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ukr/ukraine.md",
+          "title": "Ukraine",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "umy": {
+      "name": "Umayyad Caliphate",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "umayyad-caliphate",
+          "type": "note",
+          "status": "active",
+          "title": "Umayyad Caliphate",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/umy/umayyad-caliphate.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/umy/umayyad-caliphate.md",
+          "title": "Umayyad Caliphate",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "ury": {
+      "name": "Uruguay",
+      "native": "República Oriental del Uruguay",
+      "flag": "🇺🇾",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇺🇾 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "uruguay",
+          "type": "note",
+          "status": "active",
+          "title": "Uruguay",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ury/uruguay.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ury/uruguay.md",
+          "title": "Uruguay",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/ury/actor.html",
+          "title": "🇺🇾 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "usa": {
+      "name": "United States",
+      "native": "United States of America",
+      "flag": "🇺🇸",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇺🇸 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "united-states-of-america-usa",
+          "type": "note",
+          "status": "active",
+          "title": "United States of America (USA)",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/usa/united-states-of-america-usa.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/usa/united-states-of-america-usa.md",
+          "title": "United States of America (USA)",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/usa/actor.html",
+          "title": "🇺🇸 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    },
+    "ven": {
+      "name": "Venezuela",
+      "native": "",
+      "flag": "🇻🇪",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "venezuela",
+          "type": "note",
+          "status": "active",
+          "title": "Venezuela",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/ven/venezuela.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/ven/venezuela.md",
+          "title": "Venezuela",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "venetia": {
+      "name": "Venetia",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "venetia",
+          "type": "note",
+          "status": "active",
+          "title": "Venetia",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/venetia/venetia.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/venetia/venetia.md",
+          "title": "Venetia",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "vnm": {
+      "name": "Vietnam",
+      "native": "Việt Nam",
+      "flag": "🇻🇳",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 1
+      },
+      "works": [
+        {
+          "id": "actor",
+          "type": "Temporal",
+          "status": "active",
+          "title": "🇻🇳 Actor Space",
+          "link": "actor.html"
+        },
+        {
+          "id": "vietnam",
+          "type": "note",
+          "status": "active",
+          "title": "🇻🇳 Vietnam",
+          "link": "../../../../../../web/note.html?p=notes/social/collective/actor/public/polity/vnm/vietnam.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/vnm/vietnam.md",
+          "title": "🇻🇳 Vietnam",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/collective/actor/public/polity/vnm/actor.html",
+          "title": "🇻🇳 Actor Space",
+          "kind": "representation"
+        }
+      ]
+    }
+  },
+  "world": [
+    {
+      "path": "social/collective/actor/public/polity/world.md",
+      "title": "Planet Earth",
+      "kind": "explanation"
+    }
+  ],
+  "international": [
+    {
+      "path": "social/collective/actor/public/polity/international/comision-economica-para-america-latina-y-el-caribe.md",
+      "title": "CEPAL: Comisión Económica para América Latina y el Caribe",
+      "kind": "explanation"
+    },
+    {
+      "path": "social/collective/actor/public/polity/international/international.md",
+      "title": "International",
+      "kind": "explanation"
+    },
+    {
+      "path": "social/collective/actor/public/polity/international/nordic-council-of-ministers.md",
+      "title": "Nordic Council of Ministers",
+      "kind": "explanation"
+    },
+    {
+      "path": "social/collective/actor/public/polity/international/oecd.md",
+      "title": "Organisation for Economic Co-operation and Development (OECD)",
+      "kind": "explanation"
+    },
+    {
+      "path": "social/collective/actor/public/polity/international/onu/onu.md",
+      "title": "ONU",
+      "kind": "explanation"
+    },
+    {
+      "path": "social/collective/actor/public/polity/international/onu/wto.md",
+      "title": "World Trade Organization (WTO)",
+      "kind": "explanation"
+    }
+  ]
+}

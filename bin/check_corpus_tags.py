@@ -4,9 +4,9 @@
 Every markdown file under the three corpora must carry its top-level corpus
 tag as the first front-matter tag:
 
-  src/notes/app/data/**/*.md       -> note
-  src/documents/app/documents/**   -> document
-  src/courses/app/courses/**/*.md  -> course
+  src/corpus/notes/**/*.md       -> note
+  src/corpus/documents/**   -> document
+  src/corpus/courses/**/*.md  -> course
 
 Metadata-only: this checker never writes.
 """
@@ -16,9 +16,9 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 CORPORA = [
-    ("note", REPO / "src" / "notes" / "app" / "data"),
-    ("document", REPO / "src" / "documents" / "app" / "documents"),
-    ("course", REPO / "src" / "courses" / "app" / "courses"),
+    ("note", REPO / "src" / "corpus" / "notes"),
+    ("document", REPO / "src" / "corpus" / "documents"),
+    ("course", REPO / "src" / "corpus" / "courses"),
 ]
 TAG_RE = re.compile(r"^tags:\s*\[([^\]]*)\]\s*$", re.M)
 
