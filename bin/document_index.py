@@ -2,10 +2,10 @@
 """
 Documents index builder.
 
-Scans src/document/app/documents/** for documents — markdown (*.md,
+Scans src/documents/app/documents/** for documents — markdown (*.md,
 kind "document": papers, articles, books) — and emits
-src/document/app/data/index.json, the search corpus for the documents
-catalog (/document/). Stdlib only.
+src/documents/app/data/index.json, the search corpus for the documents
+catalog (/documents/). Stdlib only.
 
 For each document it extracts: path (relative to documents/), title
 (first "# " heading; fallback: the filename), top-level section (first
@@ -13,7 +13,7 @@ path component: papers, articles, books, …), h2/h3 headings, tags
 (optional `tags: [...]` front matter, `---` style), lowercased plain
 text, and word count, plus the optional `qa:` front-matter questions.
 Paths and tags are validated against the naming convention (see
-src/document/README.md); violations print as warnings and never fail
+src/documents/README.md); violations print as warnings and never fail
 the build.
 
 Usage: python3 bin/document_index.py
@@ -28,7 +28,7 @@ from pathlib import Path
 from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-DOCUMENT = REPO / "src" / "document"
+DOCUMENT = REPO / "src" / "documents"
 APP = DOCUMENT / "app"
 DOCUMENTS = APP / "documents"
 OUT = APP / "data" / "index.json"
@@ -187,7 +187,7 @@ def build(progress=None) -> bool:
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:
-        print(f"naming warnings: {len(warnings)} (see src/document/README.md)")
+        print(f"naming warnings: {len(warnings)} (see src/documents/README.md)")
         for w in warnings:
             print(f"  ! {w}")
     if progress is not None:

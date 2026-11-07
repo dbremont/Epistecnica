@@ -1,5 +1,0 @@
----
-tags: [problem]
----
-
-# Knapsack Problem

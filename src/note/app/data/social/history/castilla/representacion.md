@@ -1,5 +1,0 @@
----
-tags: [politica, unfinished]
----
-
-# Representacion

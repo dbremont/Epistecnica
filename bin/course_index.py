@@ -2,10 +2,10 @@
 """
 Courses index builder.
 
-Scans src/course/app/courses/*/ for courses — one directory per course
+Scans src/courses/app/courses/*/ for courses — one directory per course
 with a readme.md entry plus lecture *.md files — and emits
-src/course/app/data/index.json, the search corpus for the courses
-catalog (/course/). Stdlib only.
+src/courses/app/data/index.json, the search corpus for the courses
+catalog (/courses/). Stdlib only.
 
 Standalone HTML pages anywhere under the corpus (*.html, kind "live",
 e.g. the atlas) are indexed as ordinary entries too: title from
@@ -17,7 +17,7 @@ parent field). Each entry extracts: title (first "# " heading;
 fallback: the filename), h2/h3 headings, tags (optional `tags: [...]`
 front matter, `---` style), qa questions (optional `qa:` block-list
 front matter), lowercased plain text, and word count. Paths and tags
-are validated against the naming convention (see src/course/README.md); violations print as
+are validated against the naming convention (see src/courses/README.md); violations print as
 warnings and never fail the build.
 
 Usage: python3 bin/course_index.py
@@ -33,7 +33,7 @@ from pathlib import Path
 from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-COURSE = REPO / "src" / "course"
+COURSE = REPO / "src" / "courses"
 APP = COURSE / "app"
 COURSES = APP / "courses"
 OUT = APP / "data" / "index.json"
@@ -249,7 +249,7 @@ def build(progress=None) -> bool:
     tagged = sum(1 for n in entries if n["tags"])
     print(f"courses-index: {payload['courses']} courses, {payload['lectures']} lectures, {payload['live']} live ({tagged} tagged), {sum(n['words'] for n in entries)} words -> {OUT.relative_to(COURSE.parent.parent)} ({kb:.0f} KB)")
     if warnings:
-        print(f"naming warnings: {len(warnings)} (see src/course/README.md)")
+        print(f"naming warnings: {len(warnings)} (see src/courses/README.md)")
         for w in warnings:
             print(f"  ! {w}")
     if progress is not None:

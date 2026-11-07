@@ -1,7 +1,0 @@
-# Lisp: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

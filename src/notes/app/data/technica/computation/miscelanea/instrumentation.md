@@ -1,0 +1,5 @@
+---
+tags: [note, technique]
+---
+
+# Instrumentation

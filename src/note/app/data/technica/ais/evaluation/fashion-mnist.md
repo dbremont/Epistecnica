@@ -1,5 +1,0 @@
----
-tags: [benchmark]
----
-
-# Fashion-MNIST

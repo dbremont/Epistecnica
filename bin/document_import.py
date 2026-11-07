@@ -6,7 +6,7 @@ One-off migration tool. Reads a Notion database export (the "Catalogus
 Documentorum" folder: per-document markdown files named "<Citation>
 <32-hex-uuid>.md", plus per-entry asset folders holding images) and
 writes the documents corpus: one <slug>.md per document under
-src/document/app/documents/{papers,articles,books}/.
+src/documents/app/documents/{papers,articles,books}/.
 
 - The citation is preserved as the markdown H1 (fallback: the filename
   without the uuid suffix).
@@ -20,13 +20,13 @@ src/document/app/documents/{papers,articles,books}/.
 - The Notion `Tags:` property line is removed from the body and
   embedded as `tags: [...]` front matter (normalized to the corpus
   naming rules; the `Unread` status marker is dropped). Slugs follow
-  the corpus naming rules (see src/document/README.md): ASCII,
+  the corpus naming rules (see src/documents/README.md): ASCII,
   lowercase, kebab-case; accent-folded; uuid suffixes removed;
   collisions get a numeric suffix.
 - Referenced images are copied beside their document into
   documents/<section>/<slug>/ with rewritten section-qualified links
   (`documents/<section>/<slug>/<file>` — qualified because the viewer
-  renders at /document/ while entries live under documents/), and never
+  renders at /documents/ while entries live under documents/), and never
   overwrites existing files (colliding slugs get a numeric suffix).
 - Everything else is kept verbatim — the corpus becomes the source of
   truth. Existing corpus files (e.g. hand-written seeds) are never
@@ -45,7 +45,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 REPO = Path(__file__).resolve().parent.parent
-DOCUMENT = REPO / "src" / "document"
+DOCUMENT = REPO / "src" / "documents"
 CORPUS = DOCUMENT / "app" / "documents"
 
 UUID_SUFFIX_RE = re.compile(r"\s+[0-9a-f]{32}(?=\.md$)")

@@ -1,7 +1,0 @@
-# C++: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

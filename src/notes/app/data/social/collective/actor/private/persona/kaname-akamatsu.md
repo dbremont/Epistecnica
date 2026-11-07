@@ -1,0 +1,13 @@
+---
+tags: [note, unfinished, actor, person]
+type: person
+---
+
+# Kaname Akamatsu
+
+
+> 
+
+## References
+
+- [Flying Geese Paradigm](https://en.wikipedia.org/wiki/Flying_geese_paradigm)

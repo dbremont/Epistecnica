@@ -2,14 +2,14 @@ Cavendish, H. (1766). Three papers, containing experiments on factitious air. *P
 
 https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences
 
-./app/note/data/social/collective/framework/program.md
+./app/notes/data/social/collective/framework/program.md
 i
 
 Study 
 
 - Governance Model of  — Hong Kong Microelectronics Research and Development Institute (MRDI)
 - Incentive Structure’s
-- http://localhost:8013/note/web/note.html?n=social/actor/public-organization.md
+- http://localhost:8013/notes/web/note.html?n=social/actor/public-organization.md
 - Top Leadership — Appointment Process
     - Board →
     - …

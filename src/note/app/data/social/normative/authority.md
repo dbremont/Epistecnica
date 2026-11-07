@@ -1,7 +1,0 @@
----
-tags: [unfinished]
----
-# Authority
-
-> ...
-

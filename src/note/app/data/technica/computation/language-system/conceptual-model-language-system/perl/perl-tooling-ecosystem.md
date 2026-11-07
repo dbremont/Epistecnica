@@ -1,7 +1,0 @@
-# Perl: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

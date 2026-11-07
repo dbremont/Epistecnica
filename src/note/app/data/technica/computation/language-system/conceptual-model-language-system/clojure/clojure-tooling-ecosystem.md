@@ -1,7 +1,0 @@
-# Clojure: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

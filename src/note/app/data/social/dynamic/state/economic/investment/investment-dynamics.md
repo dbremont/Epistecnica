@@ -1,4 +1,0 @@
----
-tags: [unfinished]
----
-# Investment Dynamics

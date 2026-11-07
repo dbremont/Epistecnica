@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good-Producing Technical Element Catalog</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Oxford Common Room tokens — keep identical to app/shared/theme.css
+               (mirrors app/notes/note.html). */
+            --bg-void: #0b0e14;
+            --bg-surface: #11151e;
+            --bg-card: #161b26;
+            --bg-elevated: #1d2330;
+            --bg-hover: rgba(255, 255, 255, 0.04);
+            --gilt: #C4B998;
+            --parchment: #D6D1C4;
+            --text-primary: #f4f3f1;
+            --text-secondary: #a8a5b0;
+            --text-muted: #9290aa;
+            --text-ghost: #82809a;
+            --accent-copper: #c9956c;
+            --accent-copper-light: #dbb08a;
+            --accent-sage: #7ba388;
+            --accent-plum: #9b7eb0;
+            --accent-rose: #c47d8a;
+            --accent-amber: #d4a857;
+            --accent-steel: #6b8caa;
+            --accent-gold: #c9956c;
+            --accent-gold-dim: rgba(201, 149, 108, 0.14);
+            --accent-cyan: #4dd4c4;
+            --accent-cyan-dim: rgba(77, 212, 196, 0.1);
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --border-medium: rgba(255, 255, 255, 0.08);
+            --border-strong: rgba(255, 255, 255, 0.12);
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+            --card-bg: rgba(22, 27, 38, 0.72);
+            --nav-bg: rgba(11, 14, 20, 0.85);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        html[data-theme="light"] {
+            --bg-void: #f5f2ea;
+            --bg-surface: #efe9dc;
+            --bg-card: #fffdf8;
+            --bg-elevated: #ffffff;
+            --bg-hover: rgba(20, 22, 30, 0.04);
+            --gilt: #9a7b3f;
+            --parchment: #2b2620;
+            --text-primary: #1a1d24;
+            --text-secondary: #4a4f5e;
+            --text-muted: #7a7f8e;
+            --text-ghost: #9aa0ae;
+            --accent-copper: #9a7b3f;
+            --accent-copper-light: #7a6132;
+            --accent-sage: #4e7a5e;
+            --accent-plum: #7a5f8c;
+            --accent-rose: #a55a68;
+            --accent-amber: #9a742f;
+            --accent-steel: #4e6e8c;
+            --accent-gold: #9a7b3f;
+            --accent-gold-dim: rgba(154, 123, 63, 0.12);
+            --accent-cyan: #0e7c72;
+            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+            --border-subtle: rgba(20, 22, 30, 0.10);
+            --border-medium: rgba(20, 22, 30, 0.14);
+            --border-strong: rgba(20, 22, 30, 0.22);
+            --card-bg: rgba(255, 253, 248, 0.72);
+            --nav-bg: rgba(245, 242, 234, 0.85);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
+        body {
+            background: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            transition: opacity 180ms ease;
+        }
+        html.theme-fading body { opacity: 0; }
+        @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+        .layout { max-width: 1320px; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
+
+        .crumbs {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+        }
+        .crumbs a { color: var(--text-muted); text-decoration: none; }
+        .crumbs a:hover { color: var(--accent-cyan); }
+        .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
+        .crumbs .here { color: var(--accent-gold); }
+
+        h1.note-title {
+            font-family: var(--font-display);
+            font-weight: 300;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .subtitle { color: var(--text-secondary); margin: 1rem 0 1.4rem; max-width: 70ch; line-height: 1.6; }
+        .subtitle code { font-family: var(--font-mono); font-size: 0.85em; color: var(--accent-gold); }
+
+        .rule {
+            border: 1px solid var(--border-subtle);
+            border-left: 3px solid var(--accent-copper);
+            border-radius: var(--radius-sm);
+            background: var(--card-bg);
+            padding: 0.9rem 1.1rem;
+            margin: 0 0 1.6rem;
+            color: var(--text-secondary);
+            font-size: 0.86rem;
+            line-height: 1.55;
+            max-width: 90ch;
+        }
+        .rule strong { color: var(--text-primary); }
+
+        /* toolbar */
+        .toolbar {
+            position: sticky; top: 0; z-index: 20;
+            background: var(--nav-bg);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 0.9rem 1rem;
+            margin-bottom: 1.4rem;
+            display: flex; flex-wrap: wrap; gap: 0.8rem 1.2rem; align-items: center;
+        }
+        .search {
+            flex: 1 1 220px; min-width: 180px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-medium);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            padding: 0.5rem 0.7rem;
+        }
+        .search::placeholder { color: var(--text-ghost); }
+        .facet { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+        .facet-label {
+            font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em;
+            text-transform: uppercase; color: var(--text-ghost); margin-right: 0.2rem;
+        }
+        .chip {
+            font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.04em;
+            border: 1px solid var(--border-medium);
+            background: transparent; color: var(--text-secondary);
+            border-radius: 999px; padding: 0.25rem 0.7rem; cursor: pointer;
+            transition: all 120ms ease;
+        }
+        .chip:hover { border-color: var(--border-strong); color: var(--text-primary); }
+        .chip.active { color: var(--bg-void); background: var(--accent-gold); border-color: var(--accent-gold); }
+        select.sort {
+            background: var(--bg-elevated); color: var(--text-secondary);
+            border: 1px solid var(--border-medium); border-radius: var(--radius-sm);
+            font-family: var(--font-mono); font-size: 0.68rem; padding: 0.3rem 0.5rem;
+        }
+
+        .stats { display: flex; flex-wrap: wrap; gap: 1.4rem; margin-bottom: 1.2rem; }
+        .stat .n { font-family: var(--font-display); font-size: 1.6rem; color: var(--accent-gold); }
+        .stat .l { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-ghost); }
+
+        .result-count { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); margin-bottom: 1rem; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; }
+
+        .card {
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            background: var(--card-bg);
+            overflow: hidden;
+            display: flex; flex-direction: column;
+            transition: border-color 140ms ease, transform 140ms ease;
+        }
+        .card:hover { border-color: var(--border-strong); transform: translateY(-1px); }
+        .card.flash { border-color: var(--accent-gold); box-shadow: 0 0 0 2px var(--accent-gold); }
+        .card .thumb {
+            height: 132px; display: flex; align-items: center; justify-content: center;
+            background: var(--bg-surface); border-bottom: 1px solid var(--border-subtle);
+            overflow: hidden;
+        }
+        .card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+        .glyph {
+            width: 54px; height: 54px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-display); font-size: 1.6rem; color: var(--bg-void);
+            border: 1px solid var(--border-strong);
+        }
+        .card .body { padding: 0.75rem 0.85rem 0.9rem; display: flex; flex-direction: column; gap: 0.45rem; flex: 1; }
+        .card .name { font-family: var(--font-display); font-size: 1.18rem; line-height: 1.15; }
+        .card .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+        .tag {
+            font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.06em;
+            text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 999px;
+            border: 1px solid var(--border-medium); color: var(--text-secondary);
+        }
+        .card .desc { color: var(--text-secondary); font-size: 0.8rem; line-height: 1.5; flex: 1; }
+        .card .links { display: flex; gap: 0.6rem; align-items: center; }
+        .card .links a { color: var(--accent-cyan); text-decoration: none; font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.06em; }
+        .card .links a:hover { text-decoration: underline; }
+
+        .pager { display: flex; gap: 0.8rem; align-items: center; justify-content: center; margin-top: 1.8rem; }
+        .pager button {
+            background: var(--bg-elevated); color: var(--text-secondary);
+            border: 1px solid var(--border-medium); border-radius: var(--radius-sm);
+            font-family: var(--font-mono); font-size: 0.68rem; padding: 0.4rem 0.9rem; cursor: pointer;
+        }
+        .pager button:disabled { opacity: 0.35; cursor: default; }
+        .pager .page { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); }
+
+        .empty { color: var(--text-muted); padding: 3rem 0; text-align: center; font-family: var(--font-mono); font-size: 0.8rem; }
+        .err { color: var(--accent-rose); }
+
+        footer { border-top: 1px solid var(--border-subtle); margin-top: 3rem; padding-top: 1.2rem; color: var(--text-muted); font-size: 0.72rem; line-height: 1.6; }
+        footer a { color: var(--text-secondary); }
+
+        #themeToggle {
+            position: fixed; top: 1rem; right: 1rem; z-index: 50;
+            background: var(--nav-bg); border: 1px solid var(--border-medium);
+            color: var(--text-secondary); border-radius: 999px;
+            font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em;
+            padding: 0.4rem 0.8rem; cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<button id="themeToggle" type="button" aria-label="Toggle theme"><span id="themeLabel">LIGHT</span></button>
+<div class="layout">
+    <nav class="crumbs">
+        <a href="../../web/index.html">Naturgnosis</a><span class="sep">/</span>
+        <a href="../../web/index.html?view=browse&dir=technique">Technique</a><span class="sep">/</span>
+        <a href="../../web/note.html?n=meta/philosophia-artium-technicarum-et-operis.md">Philosophia Artium Technicarum</a><span class="sep">/</span>
+        <span class="here">Good-Producing Technical Element</span>
+    </nav>
+
+    <h1 class="note-title">Good-Producing Technical Element Catalog</h1>
+    <p class="subtitle">
+        Market-offered <em>types</em> of technical elements whose primary function is to transform reality itself,
+        yielding a Good, organised by the kind of Good they deliver and their implement role. Generated from the
+        <code>Good-Producing Technical Element</code> branch of
+        <a href="../../web/note.html?n=meta/philosophia-artium-technicarum-et-operis.md" style="color:var(--accent-cyan)">Philosophia Artium Technicarum et Operis</a>.
+    </p>
+
+    <div class="rule">
+        <strong>The test.</strong> An element is a producer when the transformation <em>is</em> the delivered Good.
+        A conveyor that relocates goods it delivers is a producer (material/service good); the same belt moving another
+        producer's output to the next station is a support implement, not a producer. <strong>Kinds:</strong>
+        material, energy, information, service. <strong>Roles:</strong> machine, equipment, tool, facility, instrument, system.
+    </div>
+
+    <div class="toolbar">
+        <input id="search" class="search" type="text" placeholder="Search types, descriptions, domains…" autocomplete="off">
+        <div class="facet" id="kindFacet"><span class="facet-label">Kind</span></div>
+        <div class="facet" id="roleFacet"><span class="facet-label">Role</span></div>
+        <div class="facet" id="domainFacet"><span class="facet-label">Domain</span></div>
+        <select id="sort" class="sort">
+            <option value="name">sort: name</option>
+            <option value="kind">sort: kind</option>
+            <option value="role">sort: role</option>
+            <option value="domain">sort: domain</option>
+        </select>
+    </div>
+
+    <div class="stats" id="stats"></div>
+    <div class="result-count" id="resultCount"></div>
+    <div class="grid" id="grid"></div>
+    <div class="pager" id="pager"></div>
+
+    <footer id="footer">
+        <p>Dataset: <code>entries.json</code> — the catalog, projected into Technique Space by a one-time migration (see the technique graph); every card links its <code>?node=</code> deep link. Enumeration base Wikidata (CC0).</p>
+        <p id="credits">Images: none vendored yet — cards render a role glyph.</p>
+    </footer>
+</div>
+
+<script>
+(function () {
+    "use strict";
+    var DATA_URL = "good-producers-entries.json";
+    var PAGE_SIZE = 60;
+
+    var KIND_COLORS = {
+        material: "var(--accent-copper)",
+        energy: "var(--accent-amber)",
+        information: "var(--accent-cyan)",
+        service: "var(--accent-sage)"
+    };
+    var KINDS = ["material", "energy", "information", "service"];
+    var ROLES = ["machine", "equipment", "tool", "facility", "instrument", "system"];
+    var state = { entries: [], kind: "all", role: "all", domain: "all", q: "", sort: "name", page: 1 };
+
+    function el(id) { return document.getElementById(id); }
+    function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
+    function slug(s) { return String(s == null ? "" : s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
+    function roleGlyph(role, kind) {
+        var color = KIND_COLORS[kind] || "var(--accent-gold)";
+        return '<div class="glyph" style="background:' + color + '">' + esc((role || "?").charAt(0).toUpperCase()) + "</div>";
+    }
+    function wikiLink(e) {
+        if (e.wikidata) return "https://www.wikidata.org/wiki/" + encodeURIComponent(e.wikidata);
+        return (e.sources && e.sources[0]) || "";
+    }
+
+    function filtered() {
+        var q = state.q.trim().toLowerCase();
+        return state.entries.filter(function (e) {
+            if (state.kind !== "all" && e.kind !== state.kind) return false;
+            if (state.role !== "all" && e.role !== state.role) return false;
+            if (state.domain !== "all" && e.domain !== state.domain) return false;
+            if (!q) return true;
+            return (e.name + " " + e.description + " " + e.domain + " " + e.kind + " " + e.role).toLowerCase().indexOf(q) !== -1;
+        });
+    }
+    function sorted(rows) {
+        var key = state.sort;
+        return rows.slice().sort(function (a, b) {
+            if (key === "name") return a.name.localeCompare(b.name);
+            return (a[key] + " " + a.name).localeCompare(b[key] + " " + b.name);
+        });
+    }
+
+    function renderFacet(container, values, current, onPick, counts) {
+        container.querySelectorAll(".chip").forEach(function (n) { n.remove(); });
+        var all = document.createElement("button");
+        all.className = "chip" + (current === "all" ? " active" : "");
+        all.textContent = "all";
+        all.onclick = function () { onPick("all"); };
+        container.appendChild(all);
+        values.forEach(function (v) {
+            var b = document.createElement("button");
+            b.className = "chip" + (current === v ? " active" : "");
+            b.textContent = v + (counts && counts[v] ? " (" + counts[v] + ")" : "");
+            b.onclick = function () { onPick(v); };
+            container.appendChild(b);
+        });
+    }
+
+    function countsBy(field) {
+        var c = {};
+        state.entries.forEach(function (e) { c[e[field]] = (c[e[field]] || 0) + 1; });
+        return c;
+    }
+
+    function render() {
+        var rows = sorted(filtered());
+        var pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+        if (state.page > pages) state.page = pages;
+        var start = (state.page - 1) * PAGE_SIZE;
+        var slice = rows.slice(start, start + PAGE_SIZE);
+
+        el("resultCount").textContent = rows.length + " of " + state.entries.length + " types" +
+            (state.kind !== "all" ? " · kind: " + state.kind : "") +
+            (state.role !== "all" ? " · role: " + state.role : "") +
+            (state.domain !== "all" ? " · domain: " + state.domain : "");
+
+        var grid = el("grid");
+        if (!slice.length) {
+            grid.innerHTML = '<div class="empty">no entries match — clear a filter or search</div>';
+        } else {
+            grid.innerHTML = slice.map(function (e) {
+                var img = (e.image && e.image.file)
+                    ? '<div class="thumb"><img loading="lazy" src="images/' + encodeURIComponent(e.image.file) + '" alt="' + esc(e.name) + '"></div>'
+                    : '<div class="thumb">' + roleGlyph(e.role, e.kind) + "</div>";
+                var repo = (e.repo && e.repo.note)
+                    ? '<a href="../../web/note.html?n=' + encodeURIComponent(e.repo.note) + '">note</a>' : "";
+                var node = '<a href="/notes/?view=browse&dir=technica' + encodeURIComponent('gpe_' + e.kind + '_' + slug(e.name)) + '">node</a>';
+                var wd = wikiLink(e);
+                var links = '<div class="links">' + (wd ? '<a href="' + esc(wd) + '" target="_blank" rel="noopener">source</a>' : "") + node + repo + "</div>";
+                return '<article class="card" id="card-' + esc(e.id || slug(e.name)) + '">' + img +
+                    '<div class="body">' +
+                    '<div class="name">' + esc(e.name) + "</div>" +
+                    '<div class="tags">' +
+                    '<span class="tag" style="color:' + (KIND_COLORS[e.kind] || "inherit") + '">' + esc(e.kind) + "</span>" +
+                    '<span class="tag">' + esc(e.role) + "</span>" +
+                    '<span class="tag">' + esc(e.domain) + "</span>" +
+                    "</div>" +
+                    '<div class="desc">' + esc(e.description) + "</div>" +
+                    links +
+                    "</div></article>";
+            }).join("");
+        }
+
+        var pager = el("pager");
+        pager.innerHTML = "";
+        if (pages > 1) {
+            var prev = document.createElement("button");
+            prev.textContent = "← prev";
+            prev.disabled = state.page <= 1;
+            prev.onclick = function () { state.page--; render(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+            var next = document.createElement("button");
+            next.textContent = "next →";
+            next.disabled = state.page >= pages;
+            next.onclick = function () { state.page++; render(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+            var label = document.createElement("span");
+            label.className = "page";
+            label.textContent = "page " + state.page + " / " + pages;
+            pager.appendChild(prev); pager.appendChild(label); pager.appendChild(next);
+        }
+    }
+
+    function renderStats() {
+        var byKind = countsBy("kind");
+        var s = [["total", state.entries.length]];
+        KINDS.forEach(function (k) { s.push([k, byKind[k] || 0]); });
+        el("stats").innerHTML = s.map(function (p) {
+            var color = p[0] === "total" ? "var(--accent-gold)" : (KIND_COLORS[p[0]] || "var(--accent-gold)");
+            return '<div class="stat"><div class="n" style="color:' + color + '">' + p[1] + '</div><div class="l">' + esc(p[0]) + "</div></div>";
+        }).join("");
+    }
+
+    function rebuildFacets() {
+        renderFacet(el("kindFacet"), KINDS, state.kind, function (v) { state.kind = v; state.page = 1; rebuildFacets(); render(); }, countsBy("kind"));
+        renderFacet(el("roleFacet"), ROLES, state.role, function (v) { state.role = v; state.page = 1; rebuildFacets(); render(); }, countsBy("role"));
+        var domains = Array.from(new Set(state.entries.map(function (e) { return e.domain; }))).sort();
+        renderFacet(el("domainFacet"), domains, state.domain, function (v) { state.domain = v; state.page = 1; rebuildFacets(); render(); }, countsBy("domain"));
+    }
+
+    function bind() {
+        el("search").addEventListener("input", function (ev) { state.q = ev.target.value; state.page = 1; render(); });
+        el("sort").addEventListener("change", function (ev) { state.sort = ev.target.value; render(); });
+    }
+
+    function themeToggle() {
+        var btn = el("themeToggle"), label = el("themeLabel");
+        function paint() { label.textContent = document.documentElement.dataset.theme === "light" ? "DARK" : "LIGHT"; }
+        paint();
+        btn.addEventListener("click", function () {
+            var root = document.documentElement;
+            root.classList.add("theme-fading");
+            setTimeout(function () {
+                root.dataset.theme = root.dataset.theme === "light" ? "dark" : "light";
+                try { localStorage.setItem("naturgnosis-theme", root.dataset.theme); } catch (e) {}
+                paint();
+                root.classList.remove("theme-fading");
+            }, 120);
+        });
+    }
+
+    function deepLink() {
+        var id = null;
+        try { id = new URLSearchParams(window.location.search).get("id"); } catch (e) { id = null; }
+        if (!id) return;
+        var idx = -1;
+        for (var i = 0; i < state.entries.length; i++) {
+            if (state.entries[i].id === id) { idx = i; break; }
+        }
+        if (idx < 0) return;
+        var target = state.entries[idx];
+        state.kind = "all"; state.role = "all"; state.domain = "all"; state.q = ""; state.sort = "name";
+        rebuildFacets();
+        var rows = sorted(filtered());
+        var pos = rows.indexOf(target);
+        if (pos >= 0) state.page = Math.floor(pos / PAGE_SIZE) + 1;
+        render();
+        var card = document.getElementById("card-" + target.id);
+        if (card) {
+            card.classList.add("flash");
+            card.scrollIntoView({ block: "center" });
+            setTimeout(function () { card.classList.remove("flash"); }, 2400);
+        }
+    }
+
+    function boot() {
+        themeToggle();
+        bind();
+        fetch(DATA_URL, { cache: "no-cache" })
+            .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+            .then(function (data) {
+                state.entries = data.entries || [];
+                var withImg = state.entries.filter(function (e) { return e.image && e.image.file; }).length;
+                el("credits").textContent = withImg
+                    ? "Images: " + withImg + " vendored thumbnails (see credits.txt); remaining cards render a role glyph."
+                    : "Images: none vendored yet — cards render a role glyph.";
+                renderStats();
+                rebuildFacets();
+                render();
+                deepLink();
+            })
+            .catch(function (err) {
+                el("grid").innerHTML = '<div class="empty err">could not load ' + DATA_URL + " (" + esc(err.message) + ")</div>";
+            });
+    }
+    boot();
+})();
+</script>
+</body>
+</html>

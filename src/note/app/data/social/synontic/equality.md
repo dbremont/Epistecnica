@@ -1,4 +1,0 @@
-# Equality
-
-- [ ]  Equality
-- [ ]  Japanese Equality

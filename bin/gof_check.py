@@ -2,7 +2,7 @@
 """
 Goodness-of-fit atlas store validator.
 
-Validates src/note/app/data/epistemica/validation/atlas/gof.json: required
+Validates src/notes/app/data/epistemica/validation/atlas/gof.json: required
 top-level keys, unique kebab-case law and measure ids, known law engines and
 measure kinds, complete LaTeX formulas (free of `$`), parameter specs in
 range, an estimation count consistent with the parameters, and a selftest
@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-DATA = REPO / "src" / "note" / "app" / "data"
+DATA = REPO / "src" / "notes" / "app" / "data"
 STORE = DATA / "epistemica" / "validation" / "atlas" / "gof.json"
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")

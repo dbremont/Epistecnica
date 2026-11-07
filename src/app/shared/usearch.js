@@ -86,13 +86,13 @@
     function uurl(e) {
         var p = uencPath(e.path);
         if (e.surface === 'note') {
-            return e.kind === 'live' ? root + 'note/data/' + p : root + 'note/note.html?n=' + p;
+            return e.kind === 'live' ? root + 'notes/data/' + p : root + 'notes/note.html?n=' + p;
         }
         if (e.surface === 'course') {
-            if (e.kind === 'live') return root + 'course/courses/' + p;
-            return e.kind === 'course' ? root + 'course/course.html?c=' + p : root + 'course/lecture.html?l=' + p;
+            if (e.kind === 'live') return root + 'courses/courses/' + p;
+            return e.kind === 'course' ? root + 'courses/course.html?c=' + p : root + 'courses/lecture.html?l=' + p;
         }
-        if (e.surface === 'document') return root + 'document/document.html?d=' + p;
+        if (e.surface === 'document') return root + 'documents/document.html?d=' + p;
         if (e.surface === 'glossarium') return root + 'glossarium/?t=' + encodeURIComponent(e.path);
         if (e.surface === 'qa') return root + 'qa/entry.html?id=' + encodeURIComponent(e.path);
         return '#';

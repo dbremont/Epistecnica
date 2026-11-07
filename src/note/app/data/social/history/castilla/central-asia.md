@@ -1,5 +1,0 @@
----
-tags: [unfinished]
----
-
-# Central Asia

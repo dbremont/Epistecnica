@@ -37,12 +37,12 @@ from pathlib import Path
 from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-DATA = REPO / 'src' / 'note' / 'app' / 'data'
+DATA = REPO / 'src' / 'notes' / 'app' / 'data'
 TECH = DATA / 'technica'
 OUT = TECH / 'meta' / 'atlas.json'
 
 GUIDE = ('https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/'
-         'main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md')
+         'main/app/notes/data/meta/philosophia-artium-technicarum-et-operis.md')
 
 TWO = '| Instance Tree Path | Description |'
 ROOT_LABEL = 'Technical Element'
@@ -296,7 +296,7 @@ def build(progress=None) -> bool:
         'abbr': 'TEF',
         'generated': date.today().isoformat(),
         'source': 'generated from the decomposition tables of the technica '
-                  'corpus (src/note/app/data/technica, meta/ excluded)',
+                  'corpus (src/notes/app/data/technica, meta/ excluded)',
         'guide': GUIDE,
         'note': 'technica/meta/atlas.md',
         'stats': stats,

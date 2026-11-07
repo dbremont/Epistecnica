@@ -1,8 +1,0 @@
-# Fiber
-
-
-> 
-
-## References
-
-- https://en.wikipedia.org/wiki/Fiber_(computer_science)

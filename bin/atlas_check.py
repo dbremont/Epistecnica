@@ -22,7 +22,7 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-DATA = REPO / 'src' / 'note' / 'app' / 'data'
+DATA = REPO / 'src' / 'notes' / 'app' / 'data'
 STORE = DATA / 'technica' / 'meta' / 'atlas.json'
 
 KINDS = {'root', 'grouping', 'instance'}

@@ -12,7 +12,7 @@ guide-first entry page.
 - **The guide** — the project's philosophia guides (*Artium Epistemicarum et
   Operis*, *Artium Technicarum et Operis*) are the canonical schema owners.
   Epistecnica foregrounds them and hosts the local **EES** atlas (Epistemic
-  Element Set, `src/note/app/data/epistemica/ees.html`) as their
+  Element Set, `src/notes/app/data/epistemica/ees.html`) as their
   local companion.
 - **The index** — the ontology graphs and the master index live in the
   external **Autoregia Personal Knowledge System** (`http://localhost:8088/pks/`).
@@ -30,9 +30,9 @@ guide-first entry page.
                     │  /             src/app/…      │
                     │  /shared/*     nav search     │
                     │  /assets/*     shared images  │
-                    │  /note/*       notes statics  │
-                    │  /course/*     course statics │
-                    │  /document/*   doc statics    │
+                    │  /notes/*       notes statics  │
+                    │  /courses/*     course statics │
+                    │  /documents/*   doc statics    │
                     └──────────────────────────────┘
 ```
 
@@ -41,7 +41,7 @@ guide-first entry page.
   notes-catalog pins are browser-local (`localStorage`). Everything else is
   static file serving.
 - **No build step.** Python 3.12 stdlib server; vanilla JS. Vendored runtime
-  bundle: the notes MathJax (`src/note/app/vendor/mathjax/`).
+  bundle: the notes MathJax (`src/notes/app/vendor/mathjax/`).
 
 ### Surfaces & endpoints (✅)
 
@@ -51,11 +51,11 @@ guide-first entry page.
 | `GET /docs` (also `/docs/`, `/docs.html`) | Site-wide documentation `src/app/docs.html` — theory + guide with live corpus stats; the only docs surface |
 | `GET /shared/<path>` | Shared nav assets from `src/app/shared/`: `usearch.css` + `usearch.js`, the universal search used by every surface's header |
 | `GET /assets/<path>` | Shared corpus-image store from `src/app/assets/` (every image referenced by corpus markdown) |
-| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/note/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
-| `GET /note/data/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
-| `GET /note/<path>` | Notes surface from `src/note/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), EES atlas (`data/epistemica/ees.html`), generated search index (`data/index.json`) |
-| `GET /course/<path>` | Courses surface from `src/course/app/`: catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`), corpus |
-| `GET /document/<path>` | Documents surface from `src/document/app/`: catalog (`index.html`), viewer (`document.html?d=`), corpus |
+| `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/notes/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
+| `GET /notes/data/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
+| `GET /notes/<path>` | Notes surface from `src/notes/app/`: catalog (`index.html`, dir browse/files + `@tag` search + pins), viewer (`note.html?n=<path>`, with a `history` modal from `data/changelog.json`), corpus (`data/**.md`), EES atlas (`data/epistemica/ees.html`), generated search index (`data/index.json`) |
+| `GET /courses/<path>` | Courses surface from `src/courses/app/`: catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`), corpus |
+| `GET /documents/<path>` | Documents surface from `src/documents/app/`: catalog (`index.html`), viewer (`document.html?d=`), corpus |
 | `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog + term view (`?t=<slug>`), generated lookup index, select-a-word popup |
 | `GET /qa/<path>` | Q/A log from `src/qa/app/`: catalog + entry viewer (`?id=<qa-id>`) |
 | `GET /api/health` | Liveness probe: `{"status":"ok","service":"epistecnica"}` |
@@ -73,10 +73,10 @@ database configuration.
 
 | Store | Contents | Written by |
 |-------|----------|------------|
-| Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/note/app/index.html`); no server write |
-| `src/note/app/data/**` | Notes corpus, live notes, EES atlas, `changelog.json` | hand-authored; index via `bin/notes_index.py` |
-| `src/course/app/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
-| `src/document/app/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
+| Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/notes/app/index.html`); no server write |
+| `src/notes/app/data/**` | Notes corpus, live notes, EES atlas, `changelog.json` | hand-authored; index via `bin/notes_index.py` |
+| `src/courses/app/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
+| `src/documents/app/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
 | `src/app/data/search-index.json` | Universal search snapshot (corpus-only) | `bin/build_search_index.py` |
 
 ## 4. Frontends

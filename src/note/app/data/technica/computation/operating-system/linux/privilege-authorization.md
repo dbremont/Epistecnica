@@ -1,5 +1,0 @@
----
-tags: [security]
----
-
-# Privilege Authorization

@@ -1,5 +1,0 @@
----
-tags: [framework]
----
-
-# Path Integral

@@ -1,0 +1,14 @@
+---
+tags: [note, unfinished, actor, person]
+type: person
+---
+
+# Julio Meinvielle
+
+
+> 
+
+## References
+
+- [Julio Meinvielle](https://es.wikipedia.org/wiki/Julio_Meinvielle)
+- …

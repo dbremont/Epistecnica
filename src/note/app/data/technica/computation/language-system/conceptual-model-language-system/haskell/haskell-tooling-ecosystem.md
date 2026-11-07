@@ -1,7 +1,0 @@
-# Haskell: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

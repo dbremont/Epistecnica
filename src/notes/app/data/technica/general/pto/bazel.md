@@ -1,0 +1,6 @@
+---
+tags: [note]
+---
+
+# Bazel
+

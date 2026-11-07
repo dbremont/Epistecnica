@@ -6,7 +6,7 @@ One-off migration tool. Reads a Notion database export (the "Histórico
 de Cursos" folder: per-course markdown files named "<Course name>
 <32-hex-uuid>.md", plus per-entry asset folders holding images) and
 writes the courses corpus: one directory per course under
-src/course/app/courses/<slug>/ holding the readme.md entry.
+src/courses/app/courses/<slug>/ holding the readme.md entry.
 
 - Every file becomes an entry-only course (readme.md, no lectures):
   the export holds whole-course single pages, so no lecture structure
@@ -15,7 +15,7 @@ src/course/app/courses/<slug>/ holding the readme.md entry.
 - The Notion `Tags:` property line is removed from the body and
   embedded as `tags: [...]` front matter (normalized to the corpus
   naming rules). Slugs follow the corpus naming rules (see
-  src/course/README.md): ASCII, lowercase, kebab-case;
+  src/courses/README.md): ASCII, lowercase, kebab-case;
   accent-folded; uuid suffixes removed; collisions get a numeric
   suffix.
 - Notion noise is stripped: bare `: <number>` property lines,
@@ -25,7 +25,7 @@ src/course/app/courses/<slug>/ holding the readme.md entry.
 - Referenced images are copied into the course directory (spaces
   lowercased to hyphens) and their links are rewritten to qualified
   relative paths (`courses/<slug>/<file>` — qualified because the
-  course view renders at /course/ while entries live under courses/).
+  course view renders at /courses/ while entries live under courses/).
   Missing image files print as warnings.
 - Existing course directories (e.g. hand-written seeds) are never
   touched: colliding slugs are skipped with a warning — the corpus
@@ -44,7 +44,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 REPO = Path(__file__).resolve().parent.parent
-COURSE = REPO / "src" / "course"
+COURSE = REPO / "src" / "courses"
 CORPUS = COURSE / "app" / "courses"
 ENTRY_FILE = "readme.md"
 

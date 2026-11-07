@@ -2,7 +2,7 @@
 """
 Terminology store validator.
 
-Validates src/note/app/data/epistemica/horror/terminology.json: required
+Validates src/notes/app/data/epistemica/horror/terminology.json: required
 fields, unique kebab ids, enum domains/crimes/severities, resolving related
 ids, existing note links, and well-formed sources. Stdlib only.
 
@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-DATA = REPO / "src" / "note" / "app" / "data"
+DATA = REPO / "src" / "notes" / "app" / "data"
 STORE = DATA / "epistemica" / "horror" / "terminology.json"
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")

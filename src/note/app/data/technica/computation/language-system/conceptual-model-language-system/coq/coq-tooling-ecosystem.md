@@ -1,7 +1,0 @@
-# Coq: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

@@ -21,13 +21,13 @@ corpus belongs to.
 Epistecnica/
 ├── src/app/index.html    # The hub — guide-first entry page (served at /)
 ├── src/app/docs.html     # Site documentation (served at /docs)
-├── bin/serve.py          # Combined server: hub + /note/ + /course/ + /document/ + /glossarium/ + /qa/
+├── bin/serve.py          # Combined server: hub + /notes/ + /courses/ + /documents/ + /glossarium/ + /qa/
 ├── bin/envutil.py        # .env loader
 ├── spec/                 # General spec + shared design system
 ├── docs/                 # Documentation hub (README mirrors this file)
-├── src/note/             # Notes corpus + catalog/viewer (served at /note/)
-├── src/course/           # Courses corpus + catalog/views (served at /course/)
-├── src/document/         # Documents corpus + catalog/viewer (served at /document/)
+├── src/notes/             # Notes corpus + catalog/viewer (served at /notes/)
+├── src/courses/           # Courses corpus + catalog/views (served at /courses/)
+├── src/documents/         # Documents corpus + catalog/viewer (served at /documents/)
 ├── src/glossarium/       # Lexical corpus + catalog/term view (served at /glossarium/)
 └── src/qa/               # Q/A log + catalog/entry view (served at /qa/)
 ```
@@ -46,14 +46,14 @@ with the subprojects.
 |-----|------|
 | `/` | Hub: a flat link index over the corpora and the reference surfaces |
 | `/docs` | Site documentation (this content, rendered) |
-| `/note/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`, section deep link `&toc-item=<slug>`), corpus (`data/**.md`) |
-| `/note/data/epistemica/ees.html` | The EES atlas (local companion to the guide) |
-| `/note/data/epistemica/validation/atlas/pvalue.html` | The P-Value Atlas: playground over the null laws — pick, parameterize, move `t_obs`, read the live tails and Monte Carlo calibration |
-| `/note/data/epistemica/observational/playground/index.html` | The observational playground: one card per interactive notebook (note icon + `▶ play`); the PCA notebook is a six-act narrative from the shadow problem to 64-dimensional digit PCA |
-| `/note/data/epistemica/mathematical/playground/index.html` | The mathematical playground: one card per interactive notebook; the rotation notebook turns a figure about the origin, its centre, a vertex, or a dragged point, with per-vertex arcs and live coordinates |
-| `/course/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
-| `/document/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
-| `/epistemica/`, `/tecnica/` | **302** → `/note/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
+| `/notes/` | Notes: searchable catalog (`index.html`), markdown viewer (`note.html?n=<path>`, section deep link `&toc-item=<slug>`), corpus (`data/**.md`) |
+| `/notes/data/epistemica/ees.html` | The EES atlas (local companion to the guide) |
+| `/notes/data/epistemica/validation/atlas/pvalue.html` | The P-Value Atlas: playground over the null laws — pick, parameterize, move `t_obs`, read the live tails and Monte Carlo calibration |
+| `/notes/data/epistemica/observational/playground/index.html` | The observational playground: one card per interactive notebook (note icon + `▶ play`); the PCA notebook is a six-act narrative from the shadow problem to 64-dimensional digit PCA |
+| `/notes/data/epistemica/mathematical/playground/index.html` | The mathematical playground: one card per interactive notebook; the rotation notebook turns a figure about the origin, its centre, a vertex, or a dragged point, with per-vertex arcs and live coordinates |
+| `/courses/` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
+| `/documents/` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
+| `/epistemica/`, `/tecnica/` | **302** → `/notes/data/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
 | `/glossarium/` | Lexical corpus: catalog, term view (`?t=<slug>`), lookup index and select-a-word popup |
 | `/qa/` | Q/A log: catalog and entry viewer (`?id=<qa-id>`) |
 | `/api/health` | Liveness probe for the service |
@@ -113,26 +113,26 @@ Both targets run the same container (`make help` lists all targets):
 
 ## Notes
 
-The written corpus lives in `src/note/app/data/` — plain markdown, kebab-case
-filenames (convention in `src/note/README.md`). Rebuild the search index after
+The written corpus lives in `src/notes/app/data/` — plain markdown, kebab-case
+filenames (convention in `src/notes/README.md`). Rebuild the search index after
 any corpus edit:
 
 ```sh
 make notes-index
 ```
 
-Browse at `/note/` (catalog: search + section facets) and
-`/note/note.html?n=technica/pto/zsh.md` (viewer, rendered on the fly). Markdown
+Browse at `/notes/` (catalog: search + section facets) and
+`/notes/note.html?n=technica/pto/zsh.md` (viewer, rendered on the fly). Markdown
 files are **notes**; self-contained hand-authored HTML pages are **live notes**
 — indexed and searchable, linked directly and co-located with their companion
-note (e.g. `/note/data/technica/cto/lib/concurrent-map.html`). Live notes use
+note (e.g. `/notes/data/technica/cto/lib/concurrent-map.html`). Live notes use
 the same viewer frame and philosophia shell as regular notes (recipe in
 `docs/live-note-chrome.md` §7–§8).
 
 Every viewer builds its sidebar table of contents from the `h2`/`h3` headings
 and gives each one a stable slug id (`#sec-<slug>`). Picking a section writes
 `toc-item=<slug>` into the URL, so a section can be linked or copied directly:
-`/note/note.html?n=epistemica/ees.md&toc-item=formulation` (a plain
+`/notes/note.html?n=epistemica/ees.md&toc-item=formulation` (a plain
 `#sec-formulation` hash opens the same section). The parameter works the same
 way in the course, lecture, and document viewers.
 

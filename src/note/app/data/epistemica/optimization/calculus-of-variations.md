@@ -1,5 +1,0 @@
-# Calculus of Variations
-
-
-> ..
->

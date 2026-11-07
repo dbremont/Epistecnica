@@ -9,7 +9,7 @@ baked-in artifact href means the listing has stopped reflecting the data —
 the defect this check exists to prevent (e.g. the retired hardcoded atlas
 card in the notes catalog).
 
-Forbidden in src/{note,course,document}/app/index.html:
+Forbidden in src/{notes,courses,documents}/app/index.html:
 
 - per-directory special cases:  state.dir === '<name>'
 - literal corpus artifact paths: 'data/<corpus>/...' or "data/<corpus>/..."
@@ -28,9 +28,9 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 PAGES = [
-    REPO / 'src' / 'note' / 'app' / 'index.html',
-    REPO / 'src' / 'course' / 'app' / 'index.html',
-    REPO / 'src' / 'document' / 'app' / 'index.html',
+    REPO / 'src' / 'notes' / 'app' / 'index.html',
+    REPO / 'src' / 'courses' / 'app' / 'index.html',
+    REPO / 'src' / 'documents' / 'app' / 'index.html',
 ]
 
 DIR_SPECIAL = re.compile(r"state\.dir\s*===?\s*['\"][^'\"]+['\"]")

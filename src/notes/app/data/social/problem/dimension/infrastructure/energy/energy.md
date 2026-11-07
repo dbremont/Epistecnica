@@ -1,0 +1,6 @@
+---
+tags: [note, unfinished]
+---
+# Energy
+
+> ...

@@ -396,7 +396,7 @@
                         <strong>Epistecnica</strong> is a guide to the two halves of purposeful human
                         practice — knowing and acting — and a corpus that grows from that guide.
                         Its spine is the pair of canonical philosophical guides, and its local
-                        catalog is the <a href="note/data/epistemica/ees.html">Epistemic
+                        catalog is the <a href="../notes/data/epistemica/ees.html">Epistemic
                         Element Set</a>. The two ontologies it once hosted — <em>Epistemica</em>, the
                         onto-epistemic structure of <strong>knowing</strong>, and <em>Tecnica</em>,
                         the structure of <strong>doing</strong> — are now carried by the local notes
@@ -455,17 +455,17 @@
                     <h3>From theory to the guide</h3>
                     <p>
                         The full development of both philosophies lives in the
-                        <a href="note/">notes corpus</a>, most directly in
+                        <a href="../notes/">notes corpus</a>, most directly in
                         <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md">Philosophia
                         Artium Technicarum et Operis</a> and
                         <a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia
                         Artium Epistemicarum et Operis</a>. The local
-                        <a href="note/data/epistemica/ees.html">Epistemic Element Set</a>
+                        <a href="../notes/data/epistemica/ees.html">Epistemic Element Set</a>
                         applies the epistemic guide's grammar across the whole of reality: the
                         complete, ever-expanding decomposition of epistemic elements, rendered from
-                        the tree store <a href="note/data/epistemica/ees.json">ees.json</a> in
+                        the tree store <a href="../notes/data/epistemica/ees.json">ees.json</a> in
                         outline, card, table, and order views, with the schema and backbone in its
-                        <a href="note/note.html?n=epistemica/ees.md">note</a>.
+                        <a href="../notes/note.html?n=epistemica/ees.md">note</a>.
                     </p>
 
                     <h2 id="ontologies">The Spaces</h2>
@@ -478,7 +478,7 @@
                         constraints, standards, agents, tools, infrastructure, frameworks) and the
                         <em>Ontic Order</em> (the layered order of what <em>is</em>), connected by typed
                         relationships. The notes are served here
-                        (<a href="note/?dir=epistemica">epistemica</a>); the index over them lives
+                        (<a href="../notes/?dir=epistemica">epistemica</a>); the index over them lives
                         in <a href="http://localhost:8088/pks/">Autoregia</a>.
                     </p>
 
@@ -488,16 +488,16 @@
                         capability, execution, artifact, governance,</em> and <em>evolution</em> — with
                         rich per-node specifications (functional roles, interfaces, implementations,
                         failure modes, lifecycles). The notes are served here
-                        (<a href="note/?dir=technica">technica</a>); the index over them lives in
+                        (<a href="../notes/?dir=technica">technica</a>); the index over them lives in
                         <a href="http://localhost:8088/pks/">Autoregia</a>.
                     </p>
 
                     <h2 id="notes">Notes &amp; Glossarium</h2>
                     <p>
-                        The written corpus lives in the <a href="note/">notes catalog</a>:
+                        The written corpus lives in the <a href="../notes/">notes catalog</a>:
                         <span id="stat-notes-inline">&mdash;</span> searchable markdown notes behind
                         both ontologies, browsable by directory or as a flat file list, with a
-                        <a href="note/note.html?n=technica/general/cto/es/readme.md">viewer</a> for any note,
+                        <a href="../notes/note.html?n=technica/general/cto/es/readme.md">viewer</a> for any note,
                         self-contained <em>live notes</em> (interactive, hand-authored pages), and
                         <strong>pins</strong> — star any note in the catalog to keep it at hand;
                         pins persist server-side for everyone. Search is free text plus
@@ -511,13 +511,13 @@
                         chip opens its changelog, with linked commits.
                     </p>
                     <p>
-                        The <a href="course/">courses catalog</a> holds one directory
+                        The <a href="../courses/">courses catalog</a> holds one directory
                         per course: a <code>readme.md</code> entry plus a set of
                         lecture files. The course view renders the entry with its
                         lectures; each lecture reads on its own page.
                     </p>
                     <p>
-                        The <a href="document/">documents catalog</a> holds papers,
+                        The <a href="../documents/">documents catalog</a> holds papers,
                         articles, and books as markdown entries with summary,
                         formulation, and references — the same catalog-plus-viewer
                         shape as the notes.
@@ -540,7 +540,7 @@
                         are not indexed here.
                     </p>
                     <p>
-                        The <a href="glossarium/">glossarium</a> is the lexical corpus:
+                        The <a href="../glossarium/">glossarium</a> is the lexical corpus:
                         <span id="stat-terms-inline">&mdash;</span> terms and definitions, browsable
                         alphabetically or by search. Selecting a word on the note pages pops its
                         definition in place — <em>consistencia</em>, <em>telos</em>,
@@ -597,10 +597,10 @@
             <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; docs</div>
             <div class="foot-links" style="display:flex;gap:1.2rem">
                 <a href="../">&larr; HUB</a>
-                <a href="note/">NOTES</a>
-                <a href="document/">DOCUMENTS</a>
-                <a href="course/">COURSES</a>
-                <a href="glossarium/">GLOSSARIUM</a>
+                <a href="../notes/">NOTES</a>
+                <a href="../documents/">DOCUMENTS</a>
+                <a href="../courses/">COURSES</a>
+                <a href="../glossarium/">GLOSSARIUM</a>
                 <a href="qa/">Q/A</a>
                 <a href="http://localhost:8088/pks/">AUTOREGIA &nearr;</a>
             </div>
@@ -720,11 +720,11 @@
                 .catch(function () { /* keep the em-dash placeholder */ });
         }
 
-        countStats('note/data/index.json', 'stat-notes', 'stat-notes-inline');
-        countStats('course/data/index.json', 'stat-courses', null, 'courses');
-        countStats('document/data/index.json', 'stat-documents', null);
-        countStats('glossarium/data/index.json', 'stat-terms', 'stat-terms-inline');
-        countStats('qa/data/qa-index.json', 'stat-qa', 'stat-qa-inline');
+        countStats('../notes/data/index.json', 'stat-notes', 'stat-notes-inline');
+        countStats('../courses/data/index.json', 'stat-courses', null, 'courses');
+        countStats('../documents/data/index.json', 'stat-documents', null);
+        countStats('../glossarium/data/index.json', 'stat-terms', 'stat-terms-inline');
+        countStats('../qa/data/qa-index.json', 'stat-qa', 'stat-qa-inline');
 
         /* ---------- table of contents + scrollspy ---------- */
 

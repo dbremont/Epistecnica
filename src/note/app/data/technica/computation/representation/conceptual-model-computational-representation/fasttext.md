@@ -1,5 +1,0 @@
----
-tags: [encoding]
----
-
-# FastText

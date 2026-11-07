@@ -1,0 +1,11 @@
+---
+tags: [note, unfinished, actor, formation]
+---
+
+# Academia de Atenas
+
+> …
+
+## References
+
+- https://es.wikipedia.org/wiki/Academia_de_Atenas

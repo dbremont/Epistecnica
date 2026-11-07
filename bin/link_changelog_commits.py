@@ -18,9 +18,9 @@ only: entries created before this tool are left unlinked.
 
 Covers the corpora that keep an authored changelog:
 
-    note      src/note/app/data/changelog.json      (data/ prefix)
-    document  src/document/app/data/changelog.json  (documents/ prefix)
-    course    src/course/app/data/changelog.json    (courses/ prefix)
+    note      src/notes/app/data/changelog.json      (data/ prefix)
+    document  src/documents/app/data/changelog.json  (documents/ prefix)
+    course    src/courses/app/data/changelog.json    (courses/ prefix)
 
     python bin/link_changelog_commits.py                     # HEAD, all corpora
     python bin/link_changelog_commits.py --corpus document
@@ -40,16 +40,16 @@ REPO = Path(__file__).resolve().parent.parent
 
 CORPORA = {
     "note": {
-        "data": "src/note/app/data/",
-        "changelog": "src/note/app/data/changelog.json",
+        "data": "src/notes/app/data/",
+        "changelog": "src/notes/app/data/changelog.json",
     },
     "document": {
-        "data": "src/document/app/documents/",
-        "changelog": "src/document/app/data/changelog.json",
+        "data": "src/documents/app/documents/",
+        "changelog": "src/documents/app/data/changelog.json",
     },
     "course": {
-        "data": "src/course/app/courses/",
-        "changelog": "src/course/app/data/changelog.json",
+        "data": "src/courses/app/courses/",
+        "changelog": "src/courses/app/data/changelog.json",
     },
 }
 

@@ -1,7 +1,0 @@
-# Elixir: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

@@ -1,5 +1,0 @@
----
-tags: [integration]
----
-
-# WhatsApp Business

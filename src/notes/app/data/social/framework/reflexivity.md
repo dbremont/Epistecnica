@@ -1,0 +1,4 @@
+---
+tags: [note, unfinished]
+---
+# Reflexivity

@@ -1,7 +1,0 @@
-# Vala: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

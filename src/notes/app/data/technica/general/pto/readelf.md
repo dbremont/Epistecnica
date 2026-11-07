@@ -1,0 +1,6 @@
+---
+tags: [note]
+---
+
+# readelf
+

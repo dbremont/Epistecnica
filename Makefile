@@ -33,9 +33,10 @@ help: ## list targets
 run: ## local dev server, no docker (port DEV_PORT, default 8010; index API on)
 	EPISTECNICA_ALLOW_INDEX_API=1 python3 bin/serve.py --port $(DEV_PORT)
 
-check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + goodness-of-fit atlas + catalog literals
+check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + goodness-of-fit atlas + catalog literals + corpus tags
 	python3 -m py_compile bin/*.py
 	python3 bin/check_catalog_literals.py
+	python3 bin/check_corpus_tags.py
 	python3 bin/ees_check.py
 	python3 bin/atlas_check.py
 	python3 bin/terminology_check.py
@@ -52,7 +53,7 @@ course-index: ## rebuild the courses search index (after any corpus change)
 document-index: ## rebuild the documents search index (after any corpus change)
 	python3 bin/document_index.py
 
-ees-check: ## validate the EES tree store (src/note/app/data/epistemica/ees.json)
+ees-check: ## validate the EES tree store (src/notes/app/data/epistemica/ees.json)
 	python3 bin/ees_check.py
 
 rees-check: ees-check
@@ -66,19 +67,19 @@ qa-index: ## rebuild the Q/A log index (after any qa.json change)
 atlas-index: ## rebuild the technica atlas store (after any technica corpus change)
 	python3 bin/build_technica_atlas.py
 
-atlas-check: ## validate the technica atlas store (src/note/app/data/technica/meta/atlas.json)
+atlas-check: ## validate the technica atlas store (src/notes/app/data/technica/meta/atlas.json)
 	python3 bin/atlas_check.py
 
-terminology-check: ## validate the terminology-crimes store (src/note/app/data/epistemica/horror/terminology.json)
+terminology-check: ## validate the terminology-crimes store (src/notes/app/data/epistemica/horror/terminology.json)
 	python3 bin/terminology_check.py
 
-symbols-check: ## validate the symbol-atlas store (src/note/app/data/epistemica/symbols.json)
+symbols-check: ## validate the symbol-atlas store (src/notes/app/data/epistemica/symbols.json)
 	python3 bin/symbols_check.py
 
-pvalue-check: ## validate the p-value atlas store (src/note/app/data/epistemica/validation/atlas/pvalue.json)
+pvalue-check: ## validate the p-value atlas store (src/notes/app/data/epistemica/validation/atlas/pvalue.json)
 	python3 bin/pvalue_check.py
 
-gof-check: ## validate the goodness-of-fit atlas store (src/note/app/data/epistemica/validation/atlas/gof.json)
+gof-check: ## validate the goodness-of-fit atlas store (src/notes/app/data/epistemica/validation/atlas/gof.json)
 	python3 bin/gof_check.py
 
 search-index: ## build the universal search snapshot (before build/deploy)

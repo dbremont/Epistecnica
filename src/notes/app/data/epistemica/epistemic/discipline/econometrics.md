@@ -1,0 +1,8 @@
+---
+tags: [note, framework]
+---
+
+# Econometrics
+
+
+>

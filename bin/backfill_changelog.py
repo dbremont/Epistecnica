@@ -3,7 +3,7 @@
 Backfill a corpus changelog from git history.
 
 Builds the per-file changelog for a corpus that does not have one yet
-(src/document/app/data/changelog.json, src/course/app/data/changelog.json)
+(src/documents/app/data/changelog.json, src/courses/app/data/changelog.json)
 by walking the commits that touched the corpus documents and recording one
 log per changed markdown file. Unlike the note corpus changelog (authored
 by hand per change set), these logs are generated: every entry already
@@ -31,12 +31,12 @@ REPO = Path(__file__).resolve().parent.parent
 
 CORPORA = {
     "document": {
-        "docs": "src/document/app/documents/",
-        "out": "src/document/app/data/changelog.json",
+        "docs": "src/documents/app/documents/",
+        "out": "src/documents/app/data/changelog.json",
     },
     "course": {
-        "docs": "src/course/app/courses/",
-        "out": "src/course/app/data/changelog.json",
+        "docs": "src/courses/app/courses/",
+        "out": "src/courses/app/data/changelog.json",
     },
 }
 

@@ -1,8 +1,0 @@
----
-tags: [metalinguistic-abstraction]
----
-
-# Environment
-
-
->

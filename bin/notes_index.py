@@ -2,10 +2,10 @@
 """
 Notes index builder.
 
-Scans src/note/app/data/** for notes — markdown (*.md, kind "note") and
+Scans src/notes/app/data/** for notes — markdown (*.md, kind "note") and
 self-contained HTML live notes (*.html, kind "live") — and emits
-src/note/app/data/index.json, the search corpus for the notes catalog
-(/note/). Stdlib only.
+src/notes/app/data/index.json, the search corpus for the notes catalog
+(/notes/). Stdlib only.
 
 For each note it extracts: path (relative to data/), title (markdown:
 first "# " heading; html: <title>, else first <h1>; fallback: the
@@ -15,7 +15,7 @@ tags (optional `tags: [...]` front matter, `---` style), order
 position among the files of its directory), qa questions (optional `qa:`
 block-list front matter), lowercased plain text, and word
 count. Paths and tags are validated against the naming convention (see
-src/note/README.md); violations print as warnings and never fail the
+src/notes/README.md); violations print as warnings and never fail the
 build.
 
 Usage: python3 bin/notes_index.py
@@ -31,7 +31,7 @@ from pathlib import Path
 from indexlib import atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-NOTE = REPO / "src" / "note"
+NOTE = REPO / "src" / "notes"
 APP = NOTE / "app"
 NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
@@ -297,7 +297,7 @@ def build(progress=None) -> bool:
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:
-        print(f"naming warnings: {len(warnings)} (see src/note/README.md)")
+        print(f"naming warnings: {len(warnings)} (see src/notes/README.md)")
         for w in warnings:
             print(f"  ! {w}")
     if progress is not None:

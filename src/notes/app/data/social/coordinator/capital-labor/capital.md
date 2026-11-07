@@ -1,0 +1,99 @@
+---
+tags: [note, unfinished]
+---
+# Capital
+
+> Wealth !!!
+
+
+> **Capital** is any *reusable structure* that amplifies or enables the creation of value.
+
+
+> **Capital** = function, not form. An unused land is not capital itself (it does not genrate value).
+
+
+> **Note**:. Esta palabra tiene una etimologia realmetne compleja.
+
+
+- **Reusable** – It’s not consumed in one use (unlike raw materials).
+- **Value-generating** – It enhances productivity, capability, or effectiveness.
+- **Structured** – It has some order or configuration (not just a pile of stuff).
+- **Temporal** – It operates **over time**, often increasing or decaying.
+
+## Capital Good
+
+> ...
+
+## Term
+
+> What has the term denoted over time?
+
+> Note: We must distinguish concepts from reality: the different denotations of capital existed in practice long before they were conceptually articulated.
+
+| **Period**                                      | **Denotation**                             | **Note**                                                                                                |
+| ----------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| **Antiquity (Latin usage)**                     | Head, principal, chief amount (*capitale*) | Refers to the principal or stock, often in legal and accounting contexts; not yet an economic category. |
+| **Medieval Europe**                             | Movable wealth, money, livestock           | Capital denotes wealth used in trade; strongly linked to mercantile activity and commercial risk.       |
+| **Mercantilist Era (16th–18th c.)**             | Money invested in commerce                 | Emphasis on trade finance, bullion accumulation, and circulation rather than production.                |
+| **Early Classical Economics (late 18th c.)**    | Accumulated wealth used productively       | Shift from money to productive assets (tools, machinery, materials).                                    |
+| **Classical Political Economy (Smith–Ricardo)** | Produced means of production               | Capital distinguished from land and labor; central to productivity and distribution.                     |
+| **Marxian Political Economy (mid-19th c.)**     | Self-expanding value; social relation      | Capital is not a thing but a dynamic relation enabling surplus extraction.                              |
+| **Neoclassical Economics (late 19th–20th c.)**  | Factor of production                       | Capital abstracted into a measurable stock contributing to output via marginal productivity.             |
+| **Keynesian / Monetary Economics (20th c.)**    | Financial assets enabling investment       | Focus on capital as money and financial claims influencing aggregate demand.                             |
+| **Late 20th–21st c. Economics**                 | Physical, human, and intellectual assets   | Concept broadens to include skills, knowledge, and intangible productive capacities.                     |
+
+## Classification
+
+### Classification Criteria Space
+
+> What criteria can be used to classify different forms of capital?
+
+| **Criterion**                            | **Description**                                                              | **Option(s)**                                                                                | **Instance(s)**                                                                   |
+| ---------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Risk Profile**                         | Degree and nature of uncertainty affecting asset value                       | Low · Moderate · High · Irreversible                                                         | Treasury bills → Low; Equity → High; Nuclear plant → Irreversible                 |
+| **Time Horizon**                         | Expected service life, maturity, or temporal commitment                      | Short-term / Immediate (<1yr) · Medium-term (1–10yr) · Long-term / Perpetual                 | Inventory → Short-term; Vehicles → Medium-term; Infrastructure → Long-term        |
+| **Spatial Fixity**                       | Degree to which the asset is geographically mobile                           | Mobile / Portable · Semi-fixed / Relocatable · Fixed / Immobile                              | Vehicles → Mobile; Factory → Semi-fixed; Dam/Mine → Fixed                         |
+| **Property Regime**                      | Dominant ownership and control structure                                     | Private · Public / State · Cooperative / Collective · Mixed                                  | Private factory → Private; Power grid → Public; Cooperative plant → Cooperative   |
+| **Economic Function**                    | Role in the circuit of value and economic reproduction                       | Productive · Commercial · Financial · Administrative                                         | Machine tool → Productive; Inventory → Commercial; Bank loan → Financial         |
+| **Material Embodiment**                  | Tangibility of the asset’s useful form                                       | Physical · Non-physical / Intangible                                                         | Factory → Physical; Patent → Intangible; Software → Intangible                    |
+| **Accounting Treatment**                 | Standard balance-sheet classification derived from function + durability      | Current asset · Fixed asset · Financial asset · Intangible / Off-balance                     | Inventory → Current; Machinery → Fixed; Bonds → Financial; Brand → Intangible     |
+| **Institutional Encoding**               | Mechanism through which value is legally or socially recognized              | Legal title · Contractual claim · Informal control · Political privilege                     | Share → Legal title; Debt → Contract; Family firm → Informal                      |
+| **Value Transmission Mode**              | How embodied value is transferred or recovered through output                | Immediate / Full incorporation · Gradual / Amortized · None / Zero direct                    | Energy → Immediate; Buildings → Gradual; Brand equity → None                      |
+| **Liquidity (Convertibility)**           | Ease of conversion into money without major loss                             | Highly liquid / Fungible · Semi-liquid · Illiquid / Idiosyncratic                            | Cash → Highly liquid; Public stock → Semi-liquid; Custom machinery → Illiquid     |
+| **Redeployability (Specificity)**        | Degree of loss when redeployed to alternative uses                           | General-purpose / Generic · Sector-specific · Firm-specific · Site-specific                  | Truck → General; Refinery → Specialized; Custom ERP → Firm-specific               |
+| **Mode of Use Across Production Cycles** | Relationship between asset use and production cycles                         | Circulating / Single-use · Fixed / Durable                                                   | Raw materials → Circulating; Machinery → Fixed                                    |
+
+### Option Set
+
+> Which are the definitions of the options?
+
+| **Option**              | **Definition**                                                                                                                                                                        |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fixed Capital**       | Capital whose **use-value is deployed repeatedly across multiple production cycles** while its **value is transferred gradually** to output via depreciation. It remains functionally intact after each cycle, though progressively degraded. |
+| **Circulating Capital** | Capital whose **use-value is fully consumed within a single production cycle**, with its **entire value transferred immediately** to the output or realized through sale. It must be replenished for each new cycle.                |
+
+### Theory Space
+
+> Which are the conceptions of capital?
+
+| **Theory**                                       | **Capital Conception**                                                           | **Note**                                                                                  |
+| ------------------------------------------------ | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Classical Political Economy (Smith, Ricardo)** | Produced means of production used to generate future output                      | Emphasis on physical capital and accumulation; weak separation between capital and profit |
+| **Marxian Political Economy**                    | Value in motion: self-expanding value embedded in social relations of production | Capital defined relationally, not materially; fixed vs circulating emerges here           |
+| **Neoclassical Economics**                       | A factor of production yielding marginal returns                                 | Abstracted, homogeneous “K”; time, power, and institutions largely suppressed             |
+| **Austrian Economics**                           | Time-structured, heterogeneous capital goods enabling roundabout production      | Strong focus on time, structure, and complementarity of capital                           |
+| **Keynesian Economics**                          | Durable investment subject to uncertainty and expectations                       | Capital formation governed by animal spirits and macro uncertainty                        |
+| **Post-Keynesian Economics**                     | Financialized stock of assets shaped by institutions and effective demand         | Capital inseparable from finance and credit structures                                    |
+| **Institutional Economics**                      | Assets embedded in legal, organizational, and social institutions                 | Capital depends on property rights, governance, and norms                                 |
+| **Accounting / Financial Theory**                | Balance-sheet assets generating future economic benefits                         | Operational definition; ignores social and dynamic dimensions                             |
+| **Development Economics**                        | Productive capacities enabling structural transformation                         | Focus on capital deepening, capability building, and sectoral change                      |
+| **Human Capital Theory**                         | Embodied skills and knowledge yielding productivity gains                        | Extends “capital” metaphor beyond produced means; analytically controversial              |
+| **Social Capital Theory**                        | Networks and trust facilitating coordinated action                               | Non-rival, non-depletable; departs strongly from classical capital logic                  |
+| **Cultural Capital (Bourdieu)**                  | Symbolic resources conferring social power and status                            | Capital generalized into social reproduction theory                                       |
+| **Systems / Cybernetic Theory**                  | Stored capacity for action within a system                                       | Capital treated as a state variable enabling future system transitions                    |
+
+## References
+
+- https://www.etymonline.com/es/word/capital
+- https://en.wikipedia.org/wiki/Capital_(economics)
+- Mill, J. S. (1848). Principles of Political Economy with Some of Their Applications to Social Philosophy. John W. Parker.

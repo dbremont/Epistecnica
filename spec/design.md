@@ -175,5 +175,5 @@ implementation. Do not invent per-page variants.
   page body, not in the nav.
 - Themes, persistence, boot script, and the curtain fade per §2.
 
-Surfaces are one directory deep (`/note/`, …): reference shared root
+Surfaces are one directory deep (`/notes/`, …): reference shared root
 assets relatively (`../img/mark-alpha.png`).

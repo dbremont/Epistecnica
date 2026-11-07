@@ -1,5 +1,0 @@
----
-tags: [aclaratorio, unfinished]
----
-
-# Mita

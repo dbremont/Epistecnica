@@ -1,8 +1,0 @@
----
-tags: [framework]
----
-
-# Econometrics
-
-
->

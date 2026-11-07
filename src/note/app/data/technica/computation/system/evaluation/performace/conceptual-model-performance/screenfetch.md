@@ -1,5 +1,0 @@
----
-tags: [analysis, tool]
----
-
-# screenfetch

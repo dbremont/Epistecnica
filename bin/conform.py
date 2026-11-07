@@ -26,10 +26,10 @@ import urllib.request
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-NOTE = REPO / "src" / "note"
+NOTE = REPO / "src" / "notes"
 GRAMMAR_URL = (
     "https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/"
-    "app/note/data/meta/philosophia-artium-technicarum-et-operis.md"
+    "app/notes/data/meta/philosophia-artium-technicarum-et-operis.md"
 )
 
 DEFAULT_FILES = [

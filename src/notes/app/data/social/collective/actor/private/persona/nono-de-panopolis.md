@@ -1,0 +1,13 @@
+---
+tags: [note, unfinished, actor, person]
+type: person
+---
+
+# Nono de Panópolis
+
+
+> 
+
+## References
+
+- https://es.wikipedia.org/wiki/Nono_de_Panópolis

@@ -6,12 +6,12 @@ One stdlib HTTP server serving the local surfaces:
 
   /                     -> the hub (src/app/index.html)
   /docs                 -> site-wide documentation (src/app/docs.html)
-  /note/...             -> static files from src/note/app/ (notes catalog,
+  /notes/...             -> static files from src/notes/app/ (notes catalog,
                            viewer, corpus, generated search index)
-  /course/...           -> static files from src/course/app/ (courses
+  /courses/...           -> static files from src/courses/app/ (courses
                            catalog, course + lecture views, corpus,
                            generated search index)
-  /document/...         -> static files from src/document/app/ (documents
+  /documents/...         -> static files from src/documents/app/ (documents
                            catalog, viewer, corpus, generated search
                            index)
   /glossarium/...       -> static files from src/glossarium/app/ (the lexical
@@ -27,12 +27,12 @@ The ontology graphs are no longer served here (they moved to the
 Autoregia Personal Knowledge System, http://localhost:8088/pks/).
 Legacy prefixes redirect:
 
-  /epistemica/...       -> 302 /note/data/epistemica/ees.html
-  /tecnica/...          -> 302 /note/data/epistemica/ees.html
+  /epistemica/...       -> 302 /notes/data/epistemica/ees.html
+  /tecnica/...          -> 302 /notes/data/epistemica/ees.html
 
 Legacy REES paths redirect to their EES equivalents:
 
-  /note/data/epistemica/rees.* -> 302 /note/data/epistemica/ees.*
+  /notes/data/epistemica/rees.* -> 302 /notes/data/epistemica/ees.*
 
 and the service exposes these endpoints:
 
@@ -47,7 +47,7 @@ done/total/pct per builder so no page has to wait for a rebuild.
 Notes-catalog pins are browser-local (localStorage); there is no pins API.
 
 The pages fetch everything relative, so corpus data (data/index.json etc.)
-under /note/data/... resolves to src/note/app/data/... automatically.
+under /notes/data/... resolves to src/notes/app/data/... automatically.
 
 Usage:
 
@@ -73,14 +73,23 @@ INDEX_API_ENV = "EPISTECNICA_ALLOW_INDEX_API"
 INDEX_STATUS_ENDPOINT = "/api/index/status"
 INDEX_BUILD_ENDPOINT = "/api/index/build"
 
-NOTES_PREFIX = "/note"
-NOTES_MOUNT = "src/note/app"
+NOTES_PREFIX = "/notes"
+NOTES_MOUNT = "src/notes/app"
 
-COURSE_PREFIX = "/course"
-COURSE_MOUNT = "src/course/app"
+COURSE_PREFIX = "/courses"
+COURSE_MOUNT = "src/courses/app"
 
-DOCUMENT_PREFIX = "/document"
-DOCUMENT_MOUNT = "src/document/app"
+DOCUMENT_PREFIX = "/documents"
+DOCUMENT_MOUNT = "src/documents/app"
+
+# The three corpora were pluralized so the serving root reads
+# Notes / Documents / Courses. Keep the old singular prefixes as
+# permanent redirects.
+LEGACY_CORPUS_PREFIXES = {
+    "/note": "/notes",
+    "/course": "/courses",
+    "/document": "/documents",
+}
 
 GLOSSARIUM_PREFIX = "/glossarium"
 GLOSSARIUM_MOUNT = "src/glossarium/app"
@@ -94,14 +103,17 @@ SHARED_MOUNT = "src/app/shared"
 # Retired dataset prefixes: the local graphs moved to the Autoregia PKS, so their
 # old URLs redirect to the local guide (the EES atlas).
 LEGACY_REDIRECT_PREFIXES = ("/epistemica", "/tecnica")
-LEGACY_REDIRECT_TARGET = "/note/data/epistemica/ees.html"
+LEGACY_REDIRECT_TARGET = "/notes/data/epistemica/ees.html"
 
 # The atlas, tree store, and note were renamed from REES to EES. Keep old
 # bookmarks working by redirecting the old paths to the new ones.
 LEGACY_NOTE_REDIRECTS = {
-    "/note/data/epistemica/rees.html": "/note/data/epistemica/ees.html",
-    "/note/data/epistemica/rees.json": "/note/data/epistemica/ees.json",
-    "/note/data/epistemica/rees.md": "/note/data/epistemica/ees.md",
+    "/note/data/epistemica/rees.html": "/notes/data/epistemica/ees.html",
+    "/note/data/epistemica/rees.json": "/notes/data/epistemica/ees.json",
+    "/note/data/epistemica/rees.md": "/notes/data/epistemica/ees.md",
+    "/notes/data/epistemica/rees.html": "/notes/data/epistemica/ees.html",
+    "/notes/data/epistemica/rees.json": "/notes/data/epistemica/ees.json",
+    "/notes/data/epistemica/rees.md": "/notes/data/epistemica/ees.md",
 }
 
 # The browser probes /favicon.ico at the host root whenever a page has no
@@ -122,9 +134,9 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         /              -> <repo>/src/app/index.html (the hub)
         /docs[.html]   -> <repo>/src/app/docs.html (site documentation)
-        /note/x         -> <repo>/src/note/app/x
-        /course/x       -> <repo>/src/course/app/x
-        /document/x     -> <repo>/src/document/app/x
+        /notes/x         -> <repo>/src/notes/app/x
+        /courses/x       -> <repo>/src/courses/app/x
+        /documents/x     -> <repo>/src/documents/app/x
         anything else   -> <repo>/x
         """
         clean = path.split("?", 1)[0].split("#", 1)[0]
@@ -258,12 +270,19 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._redirect(target + ("?" + query if query else ""))
             return True
 
-        if path == "/note/note.html":
+        if path in ("/notes/note.html", "/note/note.html"):
             query = self.path.split("?", 1)[1] if "?" in self.path else ""
             params = parse_qs(query)
             if params.get("n", [""])[0] == "epistemica/rees.md":
                 params["n"] = ["epistemica/ees.md"]
-                self._redirect("/note/note.html?" + urlencode(params, doseq=True))
+                self._redirect("/notes/note.html?" + urlencode(params, doseq=True))
+                return True
+
+        for old, new in LEGACY_CORPUS_PREFIXES.items():
+            if path == old or path.startswith(old + "/"):
+                query = self.path.split("?", 1)[1] if "?" in self.path else ""
+                target = new + path[len(old):]
+                self._redirect(target + ("?" + query if query else ""))
                 return True
 
         return False

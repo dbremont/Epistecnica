@@ -1,7 +1,0 @@
-# OCaml: 🛠️ Tooling & Ecosystem
-
-> 
-
-## References
-
--

@@ -1,12 +1,12 @@
 # Live-note chrome — standardized container for corpus HTML
 
-Live notes (`src/note/app/data/**/*.html`) are self-contained pages, but
+Live notes (`src/notes/app/data/**/*.html`) are self-contained pages, but
 they share the Epistecnica container so they read as part of the site. This
 document holds the canonical copy-paste blocks (there is no shared runtime
 file by design — each live note stays self-contained). When the chrome
 changes, update it here and in every live note.
 
-Design tokens live in the block below; they mirror `src/note/app/note.html`
+Design tokens live in the block below; they mirror `src/notes/app/note.html`
 and `spec/` (dark default + light via `epistecnica-theme`).
 
 ## Path prefixes
@@ -249,12 +249,12 @@ function themeColors() {
 
 Listen for `epistecnica-theme` (section 5) and redraw when practical.
 
-## 7. Body container (mirrors `src/note/app/note.html`)
+## 7. Body container (mirrors `src/notes/app/note.html`)
 
 Live notes render inside the same frame as the markdown viewer — ambient
 constellation background, 1280px layout, crumbs + title + meta chips, card,
 and sticky `Contents` sidebar. No grid/gradient background divs, no second
-footer. Exemplar: `src/note/app/data/epistemica/observational/playground/burstiness-index.html`.
+footer. Exemplar: `src/notes/app/data/epistemica/observational/playground/burstiness-index.html`.
 
 ```html
 <body>
@@ -339,7 +339,7 @@ Rules applied beyond §7:
 ## Rules
 
 - No CDN `<script>`/`<link>` tags — runtime dependencies are vendored under
-  `src/note/app/vendor/` and referenced relatively (see below). Vanilla JS +
+  `src/notes/app/vendor/` and referenced relatively (see below). Vanilla JS +
   Canvas2D/SVG otherwise; math helpers are a few stdlib lines.
 - The page's own interactivity stays as authored; the container (§7) wraps
   and tokenizes it. Content order follows the philosophia shell (§7).
@@ -348,7 +348,7 @@ Rules applied beyond §7:
 
 ## Vendored runtime dependencies
 
-Runtime libraries live in `src/note/app/vendor/`, version-pinned, referenced
+Runtime libraries live in `src/notes/app/vendor/`, version-pinned, referenced
 from live notes with a relative path (e.g. `../../vendor/alpine.min.js` from
 `data/epistemica/*.html`; adjust the prefix to the file's depth). To add one:
 download the exact version, record its size and sha256 in the commit message,
