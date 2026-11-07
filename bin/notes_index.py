@@ -170,7 +170,7 @@ def parse_html(path: Path, rel: Path, warnings: list) -> dict:
 
     text = unescape(HTML_TAG_RE.sub(" ", body))
     text = re.sub(r"\s+", " ", text).strip().lower()
-    return entry(rel, title, headings, text, [], [], kind="live")
+    return entry(rel, title, headings, text, ["note"], [], kind="live")
 
 
 def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str, order: int = None) -> dict:
