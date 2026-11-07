@@ -25582,7 +25582,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add Alejandro del Cura's 1973 article on Ramírez's doctrine of analogy as a context reference."
+        "summary": "Add Alejandro del Cura's 1973 article on Ramírez's doctrine of analogy as a context reference.",
+        "commit": "7e30a14594bb9d363d5a348fefdd50a5073144be",
+        "before": "fb4d2f1cb1576f1982348bf9d75d59661090211b"
       }
     ]
   },
