@@ -26080,6 +26080,56 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/public/catalog/research/aut/austrian-academy-of-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Austrian Academy of Sciences note."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/deu/german-national-academy-of-sciences-leopoldina.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the German National Academy of Sciences Leopoldina note."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/deu/goettingen-academy-of-sciences-and-humanities.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Göttingen Academy of Sciences and Humanities note."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/fra/french-academy-of-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the French Academy of Sciences note."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/fra/institut-de-france.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Institut de France note."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/public/catalog/research/nor/nibio.md",
     "logs": [
       {
@@ -26112,6 +26162,16 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/rus/russian-academy-of-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Russian Academy of Sciences note."
       }
     ]
   },
