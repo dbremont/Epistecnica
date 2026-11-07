@@ -58221,5 +58221,515 @@
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
       }
     ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/erik-pontoppidan.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Erik Pontoppidan persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/ole-stockfleth-pihl.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Ole Stockfleth Pihl persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/otto-diderik-lutken.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Otto Diderik Lütken persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/frederik-christian-lutken.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Frederik Christian Lütken persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/johan-risingh.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Johan Risingh persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/urban-hiarne.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Urban Hiärne persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/anders-nordencrantz.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Anders Nordencrantz persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/anders-berch.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Anders Berch persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/eric-salander.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Eric Salander persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/johan-fredrik-kryger.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Johan Fredrik Kryger persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/anders-chydenius.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Anders Chydenius persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/johan-fischerstrom.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Johan Fischerström persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/carl-linnaeus.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Carl Linnaeus persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/luis-ortiz.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Luis Ortiz persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/sancho-moncada.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Sancho de Moncada persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/pedro-fernandez-de-navarrete.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Pedro Fernández de Navarrete persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/jose-del-campillo-y-cossio.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the José del Campillo y Cossío persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/bernardo-de-ulloa.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Bernardo de Ulloa persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/duarte-ribeiro-de-macedo.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Duarte Ribeiro de Macedo persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/marques-de-pombal.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Marquês de Pombal persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/samuel-fortrey.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Samuel Fortrey persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/nicholas-barbon.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Nicholas Barbon persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/john-pollexfen.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the John Pollexfen persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/pierre-le-pesant-de-boisguilbert.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Pierre Le Pesant de Boisguilbert persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/veit-ludwig-von-seckendorff.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Veit Ludwig von Seckendorff persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/friedrich-list.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Friedrich List persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/henry-carey.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Henry Carey persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/jean-baptiste-nothomb.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Jean-Baptiste Nothomb persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/leon-faucher.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Léon Faucher persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/eugen-bohm-bawerk.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Eugen Böhm-Bawerk persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/istvan-szechenyi.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the István Széchenyi persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/karoly-kautz.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Károly Kautz persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/frantisek-palacky.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the František Palacký persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/tomas-bata.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Tomáš Baťa persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/stanislaw-staszic.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Stanisław Staszic persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/eugeniusz-kwiatkowski.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Eugeniusz Kwiatkowski persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/stanislaw-leszczynski.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Stanisław Leszczyński persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/irineu-evangelista-de-sousa.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Irineu Evangelista de Sousa, Viscount of Mauá persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/anton-martin-schweigaard.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Anton Martin Schweigaard persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/jonathan-swift.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Jonathan Swift persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/arthur-griffith.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Arthur Griffith persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/t-k-whitaker.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the T. K. Whitaker persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/camillo-benso-di-cavour.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Camillo Benso di Cavour persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vilfredo-pareto.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Vilfredo Pareto persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/ivan-pososhkov.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Ivan Pososhkov persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/vasily-tatishchev.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Vasily Tatishchev persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/sergei-witte.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Sergei Witte persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/james-steuart.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the James Steuart persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/patrick-geddes.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Patrick Geddes persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/johann-jakob-scheuchzer.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Johann Jakob Scheuchzer persona note for the economic statecraft table."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/barthelemy-de-laffemas.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Fill the Barthélemy de Laffemas persona note for the economic statecraft table."
+      }
+    ]
   }
 ]
