@@ -15,7 +15,7 @@ Gambra began his teaching career in secondary education: in 1976 he was appointe
 
 ## Academic work
 
-Gambra's philosophical formation was Thomist and Aristotelian. His teacher Leopoldo Eulogio Palacios introduced him to the scholastic tradition of logic, and his early research on Santiago María Ramírez's *De analogia* remained a lifelong point of reference. His published work combines technical history of logic with systematic argument: he has written on Aristotle's theory of predication and categories, on the medieval logic of Walter Burley and Petrus Hispanus, on the analogy of being, on the nature of number, on Hilbert's philosophy of mathematics, and on the distinction between demonstrative and dialectical reasoning.
+Gambra's philosophical formation was Thomist and Aristotelian. His teacher Leopoldo Eulogio Palacios introduced him to the scholastic tradition of logic, and his early research on Santiago María Ramírez's *De analogia* remained a lifelong point of reference. An earlier synthesis of Ramírez's doctrine is Alejandro del Cura's 1973 article "Sobre la analogía", a useful background to Gambra's dissertation and later book. His published work combines technical history of logic with systematic argument: he has written on Aristotle's theory of predication and categories, on the medieval logic of Walter Burley and Petrus Hispanus, on the analogy of being, on the nature of number, on Hilbert's philosophy of mathematics, and on the distinction between demonstrative and dialectical reasoning.
 
 With Manuel Oriol Salgado he published *Lógica aristotélica* (2008) and *Ejercicios de lógica aristotélica* (2008), teaching texts that present the Aristotelian Organon in the Thomist tradition. He also translated Pierre Thibaud's study of Charles Sanders Peirce's logic (1982), edited a commented Spanish edition of Aristotle's *Categorías* (2016), and prepared a corrected and expanded edition of his father's *Curso elemental de filosofía* (2022). His articles have appeared in *Anuario Filosófico*, *Thémata*, *Tópicos*, *Philosophie Antique*, *Vivarium*, *Revista de Filosofía*, and *Verbo*.
 
@@ -64,6 +64,10 @@ Gambra's logic manuals are teaching texts designed for philosophy students, and 
 - Biblioteca Nacional de España. Authority record XX937347. https://datos.bne.es/persona/XX937347.html. — Bibliographic authority record.
 - Universidad Complutense de Madrid. "José Miguel Gambra Gutiérrez." Producción científica. https://produccioncientifica.ucm.es/investigadores/163655/publicaciones. — Institutional publication record.
 - "José Miguel Gambra Gutiérrez." Wikipedia (Spanish). https://es.wikipedia.org/wiki/José_Miguel_Gambra_Gutiérrez. — A tertiary overview used for the 2021 resignation and current offices; checked against the profiles and primary works above.
+
+### Sources on Ramírez and analogy
+
+- Del Cura, Alejandro. "Sobre la analogía. Síntesis del pensamiento del padre Santiago Ramírez." *Estudios Filosóficos* 22, no. 59 (1973): 79–119. https://estudiosfilosoficos.dominicos.org/ojs/article/view/225 · [PDF](https://estudiosfilosoficos.dominicos.org/ojs/article/view/225/1145). — An earlier synthesis of Ramírez's doctrine of analogy, published four years before Gambra's doctoral thesis; useful for reconstructing the background of *La analogía en general*.
 
 ### Reviews and reception
 

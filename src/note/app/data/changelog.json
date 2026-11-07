@@ -25578,6 +25578,11 @@
         "summary": "Fill the José Miguel Gambra Gutiérrez persona note: biography, academic work on Aristotelian logic and analogy, traditionalist political thought, selected works, and an annotated bibliography.",
         "commit": "09bb1c97ea8a5a13a08798b1430a500fab6c6887",
         "before": "cc120551019bbea7b873f5dd7e9be2de346e39ab"
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add Alejandro del Cura's 1973 article on Ramírez's doctrine of analogy as a context reference."
       }
     ]
   },
