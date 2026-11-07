@@ -25767,6 +25767,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/margaret-thatcher.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Margaret Thatcher persona note: life, premiership, economic and industrial policy, Europe, fall, legacy, and references."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/mikhail-alekseyevich-lavrentyev.md",
     "logs": [
       {
