@@ -35,7 +35,7 @@ From the mid-1640s his palette became lighter and he moved away from his initial
 ## References
 
 - https://es.wikipedia.org/wiki/Sebasti%C3%A1n_L%C3%B3pez_de_Arteaga
-- Moyssen, Xavier. «Sebastián de Arteaga (1610–1652)». *Anales del Instituto de Investigaciones Estéticas* (1998): 17–34. https://doi.org/10.22201/iie.18703062e.1988.59.1390
+- Moyssen, Xavier. «Sebastián de Arteaga (1610–1652)». *Anales del Instituto de Investigaciones Estéticas* 59 (1988): 17–34. [document](../document/document.html?d=papers/moyssen-1988-sebastian-de-arteaga.md) · https://doi.org/10.22201/iie.18703062e.1988.59.1390
 - Codding, Mitchell A., ed. *Tesoros de la Hispanic Society of America. Visiones del mundo hispánico*. Madrid: Museo Nacional del Prado, 2017, pp. 267–269.
 - Sebastián, Santiago. *El barroco iberoamericano. Mensaje iconográfico*. Madrid: Encuentro, 1990, p. 133.
 - Mesa, José, and Teresa Gisbert. «La pintura mexicana del siglo XVII». *Summa Artis* VIII. Madrid: Espasa Calpe, 2004.

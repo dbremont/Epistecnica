@@ -25977,6 +25977,11 @@
         "kind": "docs",
         "summary": "Add the Sebastián López de Arteaga persona note: the Sevillian Baroque painter in New Spain, his Caravaggesque work, and his death in 1652.",
         "commit": "8ec1c0f15df940ec86e96446be1a38899d5bf940"
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Link the Moyssén 1988 paper to its local document entry and correct the citation year."
       }
     ]
   },

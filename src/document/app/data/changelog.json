@@ -26212,6 +26212,16 @@
     ]
   },
   {
+    "file_path": "papers/moyssen-1988-sebastian-de-arteaga.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Moyssén paper on Sebastián de Arteaga (Anales del IIE 59, 1988) from the journal article page."
+      }
+    ]
+  },
+  {
     "file_path": "papers/mueller-1993-library-implementation-posix-threads-unix.md",
     "logs": [
       {
