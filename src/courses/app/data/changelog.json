@@ -596,7 +596,9 @@
       {
         "date": "2026-11-07",
         "kind": "fix",
-        "summary": "Restore the singular assets/ image path after the corpus rename."
+        "summary": "Restore the singular assets/ image path after the corpus rename.",
+        "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
+        "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
       }
     ]
   },
@@ -606,7 +608,9 @@
       {
         "date": "2026-11-07",
         "kind": "fix",
-        "summary": "Restore the singular assets/ image path after the corpus rename."
+        "summary": "Restore the singular assets/ image path after the corpus rename.",
+        "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
+        "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
       }
     ]
   }
