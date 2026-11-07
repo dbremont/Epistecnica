@@ -25358,6 +25358,11 @@
         "kind": "feat",
         "summary": "add Soviet political leader persona note",
         "commit": "9b51f58b16f929de3bf3a4be73c92c7d1ef24e1e"
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "expand the biography and add an annotated bibliography"
       }
     ]
   },
