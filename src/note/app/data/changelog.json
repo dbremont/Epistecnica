@@ -27060,7 +27060,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Link the six guild-examination papers as references."
+        "summary": "Link the six guild-examination papers as references.",
+        "commit": "2567ce41c06945eff52199aaf0cdf268f1daaf08",
+        "before": "d39524b1d9f333eebeca9c9593b4cd7831db5f20"
       }
     ]
   },
