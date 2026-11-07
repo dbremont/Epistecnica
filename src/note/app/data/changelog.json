@@ -25268,7 +25268,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Add the Christian Wolff persona note: the Leibnizian system, the mathematical method, the Halle controversy, and the Kantian legacy."
+        "summary": "Add the Christian Wolff persona note: the Leibnizian system, the mathematical method, the Halle controversy, and the Kantian legacy.",
+        "commit": "2eb057c389bdf653872f10b232ef73095d886925"
       }
     ]
   },
