@@ -25539,6 +25539,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/jose-de-paez.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Fill the José de Páez persona note from the Spanish Wikipedia article: life, Marian religious work, the five-work list, and the corrected source link."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/joseph-fourier.md",
     "logs": [
       {
