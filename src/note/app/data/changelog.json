@@ -26062,7 +26062,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Add the Royal Bohemian Society of Sciences learned-society note."
+        "summary": "Add the Royal Bohemian Society of Sciences learned-society note.",
+        "commit": "afe91adca585249ff3517707e58a92486dbb785c"
       }
     ]
   },
@@ -26150,7 +26151,9 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Link the Royal Bohemian Society of Sciences from the research actor hub."
+        "summary": "Link the Royal Bohemian Society of Sciences from the research actor hub.",
+        "commit": "afe91adca585249ff3517707e58a92486dbb785c",
+        "before": "f7b18b2d8628c7fad16f7b5d146e617f5b72184a"
       }
     ]
   },
