@@ -513,7 +513,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Documents: `curl -s :8000/documents/` (catalog), `/documents/document.html?d=books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/documents/data/index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/documents/README.md`; bulk import via `bin/document_import.py <notion-export-dir>`), `/documents/data/changelog.json` (per-file history)
 - Glossarium: `make glossarium-index` (chunked; `src/glossarium/app/data/index.json`, gitignored) → `curl -s :8000/glossarium/` (catalog), `/glossarium/?t=<slug>` (term view), `/glossarium/data/index.json` (lookup index); every note page loads `glossarium/js/glossarium-lookup.js` relatively with `data-glossarium`
 - Q/A log: `make qa-index` (chunked; `src/qa/app/data/qa-index.json`, gitignored) → `curl -s :8000/qa/` (catalog) and `/qa/entry.html?id=qa-00001` (entry)
-- Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the `/docs` + `note/` pages (check stderr for Uncaught errors)
+- Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the `/docs` + `notes/` + `documents/` + `courses/` pages (check stderr for Uncaught errors)
 - Image: `make build` (`docker build -t epistecnica:local .`) then run it (`make deploy-local`)
 
 ## Git — conventions & gotchas (global hooks apply to this repo)
