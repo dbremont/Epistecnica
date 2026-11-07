@@ -28212,7 +28212,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Remove the Efimov, Zolotarev & Terpigoreva analysis entry, superseded by Ilyin & Poznyak."
+        "summary": "Remove the Efimov, Zolotarev & Terpigoreva analysis entry, superseded by Ilyin & Poznyak.",
+        "commit": "071be0da6d92cccec1c6536468d9937084ad637b",
+        "before": "e3cf344234d990109c2ee59e654095f8956f60c8"
       }
     ]
   },
@@ -28222,7 +28224,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add Ilyin & Poznyak, Fundamentals of Mathematical Analysis, part 1 (Mir, 1982), with the archive.org record."
+        "summary": "Add Ilyin & Poznyak, Fundamentals of Mathematical Analysis, part 1 (Mir, 1982), with the archive.org record.",
+        "commit": "071be0da6d92cccec1c6536468d9937084ad637b"
       }
     ]
   },
@@ -28232,7 +28235,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add Ilyin & Poznyak, Fundamentals of Mathematical Analysis, part 2 (Mir, 1982), with the archive.org record."
+        "summary": "Add Ilyin & Poznyak, Fundamentals of Mathematical Analysis, part 2 (Mir, 1982), with the archive.org record.",
+        "commit": "071be0da6d92cccec1c6536468d9937084ad637b"
       }
     ]
   },
@@ -28242,7 +28246,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add Ilyin & Poznyak, Linear Algebra (Mir, 1986), with the archive.org record."
+        "summary": "Add Ilyin & Poznyak, Linear Algebra (Mir, 1986), with the archive.org record.",
+        "commit": "071be0da6d92cccec1c6536468d9937084ad637b"
       }
     ]
   }
