@@ -97,6 +97,40 @@
 
 .urow:hover, .urow.kb-focus { background: var(--bg-surface); }
 
+/* Tag suggestions and the random-match action are buttons, not links. */
+button.urow {
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.utag-row .urow-title {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+}
+
+.urandom-row {
+    border-top: 1px solid var(--border-subtle);
+}
+
+.urandom-row .urow-title {
+    color: var(--accent-cyan);
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+}
+
+.usearch-summary {
+    padding: 0.55rem 1rem 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
 .urow-title { font-size: 0.85rem; font-weight: 500; color: var(--text-primary); }
 
 .urow:hover .urow-title, .urow.kb-focus .urow-title { color: var(--accent-cyan); }

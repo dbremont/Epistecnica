@@ -28,7 +28,9 @@
     if (!uinput || !udrop || !usurprise) return;
 
     var UENTRIES = [];
-    var uflat = [];   /* visible rows for keyboard nav */
+    var UTAGS = [];                 /* [{tag, count}] built from the index */
+    var UTAGSET = Object.create(null);  /* tag -> count */
+    var uflat = [];   /* visible rows for keyboard nav ({e}|{tag}|{random}) */
     var ukb = -1;
     var utimer = null;
 
@@ -83,6 +85,97 @@
         return bits.join(' · ');
     }
 
+    function utags(e) {
+        return (e.tags || []).map(function (t) { return String(t).toLowerCase(); });
+    }
+
+    function ucleanTag(t) {
+        return String(t).replace(/^@+/, '').replace(/[.,;:!?]+$/, '');
+    }
+
+    function uindexTags() {
+        var counts = Object.create(null);
+        UENTRIES.forEach(function (e) {
+            e._utags = utags(e);
+            e._utags.forEach(function (t) {
+                if (t) counts[t] = (counts[t] || 0) + 1;
+            });
+        });
+        UTAGS = Object.keys(counts).map(function (t) {
+            return { tag: t, count: counts[t] };
+        });
+        UTAGS.sort(function (a, b) { return a.tag.localeCompare(b.tag); });
+        UTAGSET = Object.create(null);
+        UTAGS.forEach(function (t) { UTAGSET[t.tag] = t.count; });
+    }
+
+    function usuggestTags(prefix) {
+        var out = [];
+        for (var i = 0; i < UTAGS.length; i++) {
+            if (!prefix || UTAGS[i].tag.indexOf(prefix) === 0) out.push(UTAGS[i]);
+        }
+        out.sort(function (a, b) { return b.count - a.count || a.tag.localeCompare(b.tag); });
+        return out.slice(0, 8);
+    }
+
+    /* Parse `@tag` filters out of the query. The trailing token is a
+       suggestion prefix while it is still being typed — unless it already is
+       an exact tag, in which case it filters immediately. */
+    function uparse(raw) {
+        var src = String(raw || '');
+        var toks = src.toLowerCase().split(/\s+/);
+        var endsSpace = /\s$/.test(src);
+        var tags = [];
+        var words = [];
+        var partial = null;
+        for (var i = 0; i < toks.length; i++) {
+            var t = toks[i];
+            if (!t) continue;
+            if (t.charAt(0) === '@') {
+                var tag = ucleanTag(t);
+                if (i === toks.length - 1 && !endsSpace && UTAGSET[tag] === undefined) {
+                    partial = tag;
+                } else if (tag) {
+                    tags.push(tag);
+                }
+            } else {
+                words.push(t);
+            }
+        }
+        return { text: words.join(' '), tags: tags, partial: partial };
+    }
+
+    function uhasTags(e, tags) {
+        var have = e._utags || utags(e);
+        for (var i = 0; i < tags.length; i++) {
+            if (have.indexOf(tags[i]) < 0) return false;
+        }
+        return true;
+    }
+
+    function ufilter(p) {
+        var out = [];
+        for (var i = 0; i < UENTRIES.length; i++) {
+            var e = UENTRIES[i];
+            if (p.tags.length && !uhasTags(e, p.tags)) continue;
+            var s = p.text ? uscore(e, p.text) : 0;
+            if (s < 0) continue;
+            out.push({ e: e, s: s });
+        }
+        out.sort(function (a, b) {
+            return a.s - b.s || a.e.title.localeCompare(b.e.title);
+        });
+        return out;
+    }
+
+    /* Entries the dice should sample: the current filter when one is typed,
+       otherwise the whole index. */
+    function uactiveList() {
+        var p = uparse(uinput.value);
+        if (!p.text && !p.tags.length) return UENTRIES;
+        return ufilter(p).map(function (x) { return x.e; });
+    }
+
     function uscore(e, q) {
         var title = (e.title || '').toLowerCase();
         if (title.indexOf(q) === 0) return 0;
@@ -104,45 +197,115 @@
             uesc(String(text).slice(i + q.length));
     }
 
+    function uentryRow(e, q) {
+        var idx = uflat.length;
+        uflat.push({ e: e });
+        return '<a class="urow" role="option" id="usearch-opt-' + idx + '" data-idx="' + idx + '" aria-selected="false" href="' + uurl(e) + '">' +
+            '<div class="urow-title">' + uhl(e.title, q) + '</div>' +
+            '<div class="urow-sub">' + uhl(usub(e), q) + '</div>' +
+            '</a>';
+    }
+
     function urender() {
-        var q = uinput.value.trim().toLowerCase();
-        if (!q || !UENTRIES.length) { uhide(); return; }
-        var scored = [];
-        for (var i = 0; i < UENTRIES.length; i++) {
-            var s = uscore(UENTRIES[i], q);
-            if (s >= 0) scored.push({ e: UENTRIES[i], s: s });
+        var p = uparse(uinput.value);
+        var active = !!(p.text || p.tags.length || p.partial !== null);
+        if (!active || !UENTRIES.length) {
+            usurprise.title = 'Surprise me — open a random entry (r)';
+            uhide();
+            return;
         }
-        scored.sort(function (a, b) { return a.s - b.s || a.e.title.localeCompare(b.e.title); });
+        usurprise.title = (p.text || p.tags.length)
+            ? 'Open a random match (r)'
+            : 'Surprise me — open a random entry (r)';
+
+        var matches = (p.text || p.tags.length) ? ufilter(p) : [];
+        var suggestions = p.partial !== null ? usuggestTags(p.partial) : [];
+
         var byGroup = {};
-        scored.forEach(function (x) {
+        matches.forEach(function (x) {
             var g = x.e.surface;
             if (!byGroup[g]) byGroup[g] = [];
             if (byGroup[g].length < 6) byGroup[g].push(x.e);
         });
-        var out = [];
+
         uflat = [];
-        if (!scored.length) {
-            out.push('<div class="urow-hint">nothing found.</div>');
+        var out = [];
+        var shown = 0;
+
+        if (suggestions.length) {
+            out.push('<div class="ugroup-label">Tags</div>');
+            suggestions.forEach(function (t) {
+                var idx = uflat.length;
+                uflat.push({ tag: t.tag });
+                out.push(
+                    '<button type="button" class="urow utag-row" role="option" id="usearch-opt-' + idx + '" data-idx="' + idx + '" data-tag="' + uesc(t.tag) + '" aria-selected="false">' +
+                    '<div class="urow-title">@' + uesc(t.tag) + '</div>' +
+                    '<div class="urow-sub">' + t.count + (t.count === 1 ? ' entry' : ' entries') + '</div>' +
+                    '</button>'
+                );
+            });
         }
+
+        var groupsHtml = [];
         UGROUPS.forEach(function (g) {
             var list = byGroup[g[0]];
             if (!list || !list.length) return;
-            out.push('<div class="ugroup-label">' + uesc(g[1]) + '</div>');
+            groupsHtml.push('<div class="ugroup-label">' + uesc(g[1]) + '</div>');
             list.forEach(function (e) {
-                var idx = uflat.length;
-                uflat.push(e);
-                out.push(
-                    '<a class="urow" role="option" id="usearch-opt-' + idx + '" data-idx="' + idx + '" aria-selected="false" href="' + uurl(e) + '">' +
-                    '<div class="urow-title">' + uhl(e.title, q) + '</div>' +
-                    '<div class="urow-sub">' + uhl(usub(e), q) + '</div>' +
-                    '</a>'
-                );
+                groupsHtml.push(uentryRow(e, p.text));
+                shown++;
             });
         });
+
+        if (matches.length > shown) {
+            var label = p.tags.length
+                ? '@' + p.tags.join(' @')
+                : p.text;
+            out.push('<div class="usearch-summary">' + matches.length + ' matches for ' +
+                uesc(label) + ' · showing ' + shown + '</div>');
+        }
+
+        out = out.concat(groupsHtml);
+
+        if (!suggestions.length && !matches.length) {
+            out.push('<div class="urow-hint">nothing found.</div>');
+        }
+
+        if (matches.length) {
+            var ridx = uflat.length;
+            uflat.push({ random: true });
+            out.push(
+                '<button type="button" class="urow urandom-row" role="option" id="usearch-opt-' + ridx + '" data-idx="' + ridx + '" aria-selected="false">' +
+                '<div class="urow-title">Random from these ' + matches.length + ' matches</div>' +
+                '<div class="urow-sub">click the dice, or Enter on this row</div>' +
+                '</button>'
+            );
+        }
+
         udrop.innerHTML = out.join('');
         udrop.hidden = false;
         uinput.setAttribute('aria-expanded', 'true');
         ukb = -1;
+    }
+
+    function uact(row) {
+        if (!row) return;
+        if (row.tag != null) { ucompleteTag(row.tag); return; }
+        if (row.random) { ugoRandom(); return; }
+        if (row.e) window.location.href = uurl(row.e);
+    }
+
+    function ucompleteTag(tag) {
+        var v = uinput.value;
+        var m = v.match(/(^|\s)@[^\s]*$/);
+        if (m) {
+            v = v.slice(0, m.index + m[1].length) + '@' + tag + ' ';
+        } else {
+            v = (v.trim() ? v.replace(/\s+$/, '') + ' ' : '') + '@' + tag + ' ';
+        }
+        uinput.value = v;
+        uinput.focus();
+        urender();
     }
 
     function umove(d) {
@@ -162,18 +325,18 @@
         }
     }
 
-    function upick() {
-        if (!UENTRIES.length) return null;
+    function upick(list) {
+        if (!list || !list.length) return null;
         if (window.crypto && window.crypto.getRandomValues) {
             var buf = new Uint32Array(1);
             window.crypto.getRandomValues(buf);
-            return UENTRIES[buf[0] % UENTRIES.length];
+            return list[buf[0] % list.length];
         }
-        return UENTRIES[Math.floor(Math.random() * UENTRIES.length)];
+        return list[Math.floor(Math.random() * list.length)];
     }
 
     function ugoRandom() {
-        var e = upick();
+        var e = upick(uactiveList());
         if (e) window.location.href = uurl(e);
     }
 
@@ -190,7 +353,20 @@
         if (e.key === 'ArrowUp') { e.preventDefault(); umove(-1); return; }
         if (e.key === 'Enter' && ukb >= 0 && uflat[ukb]) {
             e.preventDefault();
-            window.location.href = uurl(uflat[ukb]);
+            uact(uflat[ukb]);
+        }
+    });
+
+    udrop.addEventListener('click', function (e) {
+        var tagRow = e.target.closest('.utag-row');
+        if (tagRow) {
+            e.preventDefault();
+            ucompleteTag(tagRow.getAttribute('data-tag'));
+            return;
+        }
+        if (e.target.closest('.urandom-row')) {
+            e.preventDefault();
+            ugoRandom();
         }
     });
 
@@ -214,6 +390,7 @@
         })
         .then(function (idx) {
             UENTRIES = idx.entries || [];
+            uindexTags();
             usurprise.disabled = !UENTRIES.length;
         })
         .catch(function () {
