@@ -25544,7 +25544,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Fill the José de Páez persona note from the Spanish Wikipedia article: life, Marian religious work, the five-work list, and the corrected source link."
+        "summary": "Fill the José de Páez persona note from the Spanish Wikipedia article: life, Marian religious work, the five-work list, and the corrected source link.",
+        "commit": "0ef3ffd3f195a14b60b80288270c37a70ce936e5",
+        "before": "be4e558929b0c07f527d008478142f6f95b5f90f"
       }
     ]
   },
