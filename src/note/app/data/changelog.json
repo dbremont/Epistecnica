@@ -25351,6 +25351,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/francois-viete.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the François Viète persona note: the new symbolic algebra, the logic of species, Viète's formulas, the Spanish cipher, and Viète's formula for pi."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/gennady-yanayev.md",
     "logs": [
       {
@@ -25469,6 +25479,16 @@
         "summary": "expand persona note with a description and references",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578",
         "before": "543b5f24063fe6b41218849517f061a97f41006c"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/johann-heinrich-alsted.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Johann Heinrich Alsted persona note: the Herborn Academy, the Encyclopaedia, Ramism and Lullism, Calvinist millenarianism, and the Transylvanian academy."
       }
     ]
   },
