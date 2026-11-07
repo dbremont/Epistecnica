@@ -1,5 +1,5 @@
 ---
-tags: [quantity]
+tags: [quantity, mathematics]
 ---
 
 # Number

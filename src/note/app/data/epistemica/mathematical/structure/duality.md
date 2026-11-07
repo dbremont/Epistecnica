@@ -1,5 +1,5 @@
 ---
-tags: [structure, algebraic]
+tags: [structure, algebraic, mathematics]
 ---
 
 # Duality

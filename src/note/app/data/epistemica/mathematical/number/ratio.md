@@ -1,5 +1,5 @@
 ---
-tags: [arithmetic, relation, quantity]
+tags: [arithmetic, relation, quantity, mathematics]
 qa:
   - "Which are the types of ratios: unit ratio, numerator-unit ratio, denominator-unit ratio, etc.?"
 ---

@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Non-linear Operator
 
  : Composition Operator (Composition%20Operator%20207c0f5171ec8091b771cdfaba3a12d6.md), Linear Operator (Linear%20Operator%20171c0f5171ec80e88b2fd6f9c6fae223.md)

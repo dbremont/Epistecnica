@@ -1,5 +1,5 @@
 ---
-tags: [analytical]
+tags: [analytical, mathematics]
 ---
 
 # Difference Equation

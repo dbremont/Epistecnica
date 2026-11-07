@@ -1,5 +1,5 @@
 ---
-tags: [technique]
+tags: [technique, mathematics]
 ---
 
 # Decomposition

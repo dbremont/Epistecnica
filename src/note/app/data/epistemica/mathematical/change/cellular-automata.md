@@ -1,5 +1,5 @@
 ---
-tags: [natural-computing]
+tags: [natural-computing, mathematics]
 ---
 
 # Cellular Automata

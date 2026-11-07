@@ -1,5 +1,5 @@
 ---
-tags: [geometry, topology]
+tags: [geometry, topology, mathematics]
 ---
 
 # Bundle

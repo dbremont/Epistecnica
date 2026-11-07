@@ -1,5 +1,5 @@
 ---
-tags: [quantity, representation]
+tags: [quantity, representation, mathematics]
 qa:
   - "Why does a ratio scale license 'twice as much' while an interval scale does not?"
   - "Is counting a measurement?"

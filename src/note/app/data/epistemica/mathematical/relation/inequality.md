@@ -1,5 +1,5 @@
 ---
-tags: [inequality, relation]
+tags: [inequality, relation, mathematics]
 ---
 
 # Inequality

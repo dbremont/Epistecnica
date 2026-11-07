@@ -1,5 +1,5 @@
 ---
-tags: [abstract-symbolic-system, quantity]
+tags: [abstract-symbolic-system, quantity, mathematics]
 ---
 
 # Arithmetic

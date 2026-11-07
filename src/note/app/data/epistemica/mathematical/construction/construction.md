@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Mathematical Construction
 
 > A **mathematical construction** is an artifact mathematics leaves behind: a stated result carried by a representational system and standing about a target — a theorem, an inequality, a representation, or a fixed-point condition.

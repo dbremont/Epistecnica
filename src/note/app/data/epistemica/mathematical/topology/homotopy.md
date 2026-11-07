@@ -1,5 +1,5 @@
 ---
-tags: [topology]
+tags: [topology, mathematics]
 ---
 
 # Homotopy

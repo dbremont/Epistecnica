@@ -1,5 +1,5 @@
 ---
-tags: [theorem]
+tags: [theorem, mathematics]
 ---
 
 # Pythagorean Theorem

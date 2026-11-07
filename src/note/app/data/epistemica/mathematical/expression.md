@@ -1,5 +1,5 @@
 ---
-tags: [building-block]
+tags: [building-block, mathematics]
 ---
 
 # Expression

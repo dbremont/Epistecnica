@@ -1,4 +1,5 @@
 ---
+tags: [mathematics]
 qa:
  - What kind of epistemic element is a mathematical rotation?
 ---

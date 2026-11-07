@@ -1,5 +1,5 @@
 ---
-tags: [inference, linear-algebra]
+tags: [inference, linear-algebra, mathematics]
 ---
 
 # Covariance Matrix

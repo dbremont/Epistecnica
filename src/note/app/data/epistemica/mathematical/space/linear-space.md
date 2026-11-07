@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, space]
+tags: [linear-algebra, space, mathematics]
 ---
 
 # Linear Space

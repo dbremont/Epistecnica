@@ -1,5 +1,5 @@
 ---
-tags: [geometry, space, topology]
+tags: [geometry, space, topology, mathematics]
 ---
 
 # Manifold

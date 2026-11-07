@@ -1,5 +1,5 @@
 ---
-tags: [structure]
+tags: [structure, mathematics]
 ---
 
 # Boolean Algebra

@@ -1,5 +1,5 @@
 ---
-tags: [framework]
+tags: [framework, mathematics]
 ---
 
 # Harmonic Analysis

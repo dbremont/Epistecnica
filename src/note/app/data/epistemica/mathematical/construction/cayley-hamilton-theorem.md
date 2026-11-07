@@ -1,5 +1,5 @@
 ---
-tags: [theorem]
+tags: [theorem, mathematics]
 ---
 
 # Cayley-Hamilton Theorem

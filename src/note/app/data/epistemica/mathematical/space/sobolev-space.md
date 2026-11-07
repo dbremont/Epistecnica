@@ -1,5 +1,5 @@
 ---
-tags: [analytical, space]
+tags: [analytical, space, mathematics]
 ---
 
 # Sobolev Space

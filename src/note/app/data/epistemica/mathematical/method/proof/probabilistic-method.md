@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, probability]
+tags: [method, technique, probability, mathematics]
 ---
 
 # Probabilistic Method

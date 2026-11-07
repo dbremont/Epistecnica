@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, operator]
+tags: [linear-algebra, operator, mathematics]
 ---
 
 # Multilinear Map

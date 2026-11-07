@@ -1,4 +1,5 @@
 ---
+tags: [mathematics]
 order: 0
 ---
 
@@ -6,6 +7,14 @@ order: 0
 
 > A **map** is a rule that assigns to every element of a domain exactly one element of a codomain. Mathematics names the same assignment *function*, *functional*, *operator*, *transformation*, or *morphism* depending on what the assignment is being used to emphasise — the value, the scalar result, the space it acts on, the state it changes, or the structure it preserves.
 
+> Note: Terminology is non standard - in maths.
+
+| Domain | Codomain | Classification |
+|---|---|---|
+| Non-map object | Non-map object | Object-valued function |
+| Non-map object | Map object | Map-valued function |
+| Map object | Non-map object | Functional |
+| Map object | Map object | Operator |
 
 ### What is this epistemic instance?
 

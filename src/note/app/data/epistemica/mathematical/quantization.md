@@ -1,5 +1,5 @@
 ---
-tags: [analytical, discrete]
+tags: [analytical, discrete, mathematics]
 qa:
   - "Why does one extra bit buy about 6 dB of signal-to-quantization-noise ratio?"
   - "Why does dithering help when it only adds noise?"

@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Functional
 
  : Operator (Operator%2096b9329acc2b493388cda715c8e66caa.md), Function (Function%20049537a4fd564eaaac4bae443839b0c0.md), Representation (Representation%20262c0f5171ec8021a535fc9111fd1ed5.md)

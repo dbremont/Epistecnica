@@ -1,5 +1,5 @@
 ---
-tags: [algebraic, linear-algebra]
+tags: [algebraic, linear-algebra, mathematics]
 ---
 
 # Span

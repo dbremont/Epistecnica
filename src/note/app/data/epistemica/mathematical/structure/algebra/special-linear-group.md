@@ -1,5 +1,5 @@
 ---
-tags: [algebraic]
+tags: [algebraic, mathematics]
 ---
 
 # Special Linear Group

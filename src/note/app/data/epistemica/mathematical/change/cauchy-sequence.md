@@ -1,5 +1,5 @@
 ---
-tags: [sequence, specific]
+tags: [sequence, specific, mathematics]
 ---
 
 # Cauchy Sequence

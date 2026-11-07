@@ -1,5 +1,5 @@
 ---
-tags: [arithmetic, quantity]
+tags: [arithmetic, quantity, mathematics]
 qa:
   - "Which are the types of fractions: proper, improper, mixed, unit, decimal, complex, continued, algebraic?"
   - "Is a fraction a number or an expression?"

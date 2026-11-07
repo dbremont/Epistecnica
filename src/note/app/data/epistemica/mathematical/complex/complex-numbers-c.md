@@ -1,6 +1,6 @@
 ---
 order: 0
-tags: [type]
+tags: [type, mathematics]
 ---
 
 # Complex Numbers (ℂ)

@@ -1,5 +1,5 @@
 ---
-tags: [space]
+tags: [space, mathematics]
 ---
 
 # Pseudometric Space

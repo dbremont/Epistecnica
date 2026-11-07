@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, geometry]
+tags: [method, technique, geometry, mathematics]
 ---
 
 # Symmetry Reduction

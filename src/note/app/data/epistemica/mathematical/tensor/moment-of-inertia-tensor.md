@@ -1,5 +1,5 @@
 ---
-tags: [analytical, type, physical]
+tags: [analytical, type, physical, mathematics]
 ---
 
 # Moment of Inertia Tensor

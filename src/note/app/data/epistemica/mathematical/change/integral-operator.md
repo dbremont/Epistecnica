@@ -1,5 +1,5 @@
 ---
-tags: [analytical, operator]
+tags: [analytical, operator, mathematics]
 ---
 
 # Integral Operator

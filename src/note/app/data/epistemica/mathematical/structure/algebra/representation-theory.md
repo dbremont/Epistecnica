@@ -1,5 +1,5 @@
 ---
-tags: [toolbox]
+tags: [toolbox, mathematics]
 ---
 
 # Representation Theory

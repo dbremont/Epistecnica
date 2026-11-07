@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Adjoint Operator
 
  : Hermitian Matrix (Hermitian%20Matrix%20207c0f5171ec80cab327ff0d0be438c9.md), Self-adjoint Operator (Self-adjoint%20Operator%20172c0f5171ec80228e56caf24b8e3a56.md), Linear Operator (Linear%20Operator%20171c0f5171ec80e88b2fd6f9c6fae223.md), Hilbert Space (Hilbert%20Space%20bae2e35aecc54cec8ea6e2de5ae11e3b.md)

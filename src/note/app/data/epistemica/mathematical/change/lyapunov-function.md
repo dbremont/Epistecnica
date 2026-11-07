@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Lyapunov Function
 
 

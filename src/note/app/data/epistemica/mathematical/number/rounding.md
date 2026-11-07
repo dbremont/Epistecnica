@@ -1,5 +1,5 @@
 ---
-tags: [rule, number]
+tags: [rule, number, mathematics]
 ---
 
 # Rounding

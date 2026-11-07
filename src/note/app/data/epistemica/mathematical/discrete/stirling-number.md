@@ -1,5 +1,5 @@
 ---
-tags: [discrete, sequence, specific]
+tags: [discrete, sequence, specific, mathematics]
 ---
 
 # Stirling Number

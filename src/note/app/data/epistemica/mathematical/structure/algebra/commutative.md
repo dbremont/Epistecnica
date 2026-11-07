@@ -1,5 +1,5 @@
 ---
-tags: [property]
+tags: [property, mathematics]
 ---
 
 # Commutative

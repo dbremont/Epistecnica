@@ -1,6 +1,6 @@
 ---
 order: 0
-tags: [analytical, type]
+tags: [analytical, type, mathematics]
 ---
 
 # Tensor

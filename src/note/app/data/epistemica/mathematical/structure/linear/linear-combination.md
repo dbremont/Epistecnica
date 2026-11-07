@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Linear Combination
 
  : Linear Space (Linear%20Space%20b935942a1a064729b3f2be42d174923a.md), Vector (Vector%20171c0f5171ec80ad8609e882652c59be.md)

@@ -1,5 +1,5 @@
 ---
-tags: [analytical, geometry, type]
+tags: [analytical, geometry, type, mathematics]
 ---
 
 # Tensor Field

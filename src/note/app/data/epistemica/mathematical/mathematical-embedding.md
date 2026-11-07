@@ -1,5 +1,5 @@
 ---
-tags: [geometry, space]
+tags: [geometry, space, mathematics]
 ---
 
 # Mathematical Embedding

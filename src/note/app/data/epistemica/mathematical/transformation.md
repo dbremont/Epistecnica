@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Transformation Rule
 
 > A **transformation rule** is a constituting element of a representational system: the licence that rewrites one well-formed expression into another well-formed expression. It is not the act that fires it, not the method that orders acts, and not the glyph that marks it.

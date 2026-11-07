@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, spectrum]
+tags: [linear-algebra, spectrum, mathematics]
 ---
 
 # Eigenvalue

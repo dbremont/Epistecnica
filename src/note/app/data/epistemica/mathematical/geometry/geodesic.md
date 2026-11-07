@@ -1,5 +1,5 @@
 ---
-tags: [geometry, differentialgeometrical]
+tags: [geometry, differentialgeometrical, mathematics]
 ---
 
 # Geodesic

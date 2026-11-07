@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Set
 
  : Boolean Algebra (Boolean%20Algebra%2029a6a469a6714ad89edc85c8ffbe2d57.md), σ-algebra (%CF%83-algebra%2015fc0f5171ec80f392e8ffbf11d4cf84.md), Configuration (Configuration%201d6c0f5171ec80c79c32ebd7ed9a1a24.md), Catalan Number (Catalan%20Number%201d6c0f5171ec80a68b9bd8773d4da78b.md), Discrete Structure (Discrete%20Structure%201d6c0f5171ec8003b425f870f463a807.md), Combinatorics (Combinatorics%20231c0f5171ec8005bd62f206032ece34.md), Enumeration (Counting) (Enumeration%20(Counting)%20256c0f5171ec80ec80dfdcb8bc82d1e6.md), Measure (Measure%20273c0f5171ec80ae812dc3c73aad95dc.md), Vitali Set (Vitali%20Set%20273c0f5171ec80b89ebbf64e1c55fa26.md), Order (Order%2027ac0f5171ec80faabcbdc8078658589.md)

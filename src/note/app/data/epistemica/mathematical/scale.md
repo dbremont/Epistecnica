@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Scale
 
 > In this note, we will explore the highly polysemous term *scale*, examining its different meanings, conceptual dimensions, and contexts of use. We will also investigate the common themes and underlying relationships across the concepts denoted by this term,  with a focus on the mathematical uses.

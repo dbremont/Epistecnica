@@ -1,5 +1,5 @@
 ---
-tags: [relation]
+tags: [relation, mathematics]
 ---
 
 # Identity

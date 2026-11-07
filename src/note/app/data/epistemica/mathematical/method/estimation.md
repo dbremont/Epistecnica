@@ -1,4 +1,5 @@
 ---
+tags: [mathematics]
 qa:
    - What is the relation between estimation vs approximation?
 ---

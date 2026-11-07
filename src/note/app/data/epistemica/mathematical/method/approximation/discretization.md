@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, numerical]
+tags: [method, technique, numerical, mathematics]
 ---
 
 # Discretization

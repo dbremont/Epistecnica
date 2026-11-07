@@ -1,5 +1,5 @@
 ---
-tags: [dynamical-system]
+tags: [dynamical-system, mathematics]
 ---
 
 # Subshift of Finite Type

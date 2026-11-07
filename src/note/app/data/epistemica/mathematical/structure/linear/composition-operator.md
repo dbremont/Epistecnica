@@ -1,5 +1,5 @@
 ---
-tags: [operator]
+tags: [operator, mathematics]
 ---
 
 # Composition Operator

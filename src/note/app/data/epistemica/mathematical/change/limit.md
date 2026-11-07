@@ -1,5 +1,5 @@
 ---
-tags: [analytical, functional]
+tags: [analytical, functional, mathematics]
 ---
 
 # Limit

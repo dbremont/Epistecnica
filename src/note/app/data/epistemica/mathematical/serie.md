@@ -1,5 +1,5 @@
 ---
-tags: [type]
+tags: [type, mathematics]
 ---
 
 # Serie

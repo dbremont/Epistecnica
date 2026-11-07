@@ -1,5 +1,5 @@
 ---
-tags: [function]
+tags: [function, mathematics]
 ---
 
 # Bessel Function

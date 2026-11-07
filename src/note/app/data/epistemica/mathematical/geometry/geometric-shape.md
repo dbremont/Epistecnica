@@ -1,5 +1,5 @@
 ---
-tags: [geometry]
+tags: [geometry, mathematics]
 ---
 
 # Geometric Shape

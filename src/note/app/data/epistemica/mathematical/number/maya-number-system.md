@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Maya Number System
 
  : Indo-Arabic Numeral (Indo-Arabic%20Numeral%20a3d9c8f22c444f89a7daf097cc1d29d3.md), Numeric System (Numeric%20System%201d6c0f5171ec80899160d6587a6a9e3e.md)

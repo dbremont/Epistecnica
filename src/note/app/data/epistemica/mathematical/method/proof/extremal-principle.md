@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, discrete]
+tags: [method, technique, discrete, mathematics]
 ---
 
 # Extremal Principle

@@ -1,5 +1,5 @@
 ---
-tags: [analytical, geometry]
+tags: [analytical, geometry, mathematics]
 ---
 
 # Flow

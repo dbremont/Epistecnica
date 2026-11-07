@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Logistic Function
 
  : Function (Function%20049537a4fd564eaaac4bae443839b0c0.md)

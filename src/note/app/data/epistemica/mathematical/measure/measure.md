@@ -1,5 +1,5 @@
 ---
-tags: [analytical, measure-theory]
+tags: [analytical, measure-theory, mathematics]
 qa:
   - "Why is countable additivity the axiom that carries the whole theory?"
   - "Why does a set of measure zero license the phrase 'almost everywhere'?"

@@ -1,4 +1,5 @@
 ---
+tags: [mathematics]
 order: 0
 ---
 

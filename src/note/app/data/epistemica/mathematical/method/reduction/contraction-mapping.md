@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, analytical]
+tags: [method, technique, analytical, mathematics]
 ---
 
 # Contraction Mapping

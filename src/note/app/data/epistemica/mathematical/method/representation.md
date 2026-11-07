@@ -1,5 +1,5 @@
 ---
-tags: [representation, technique]
+tags: [representation, technique, mathematics]
 ---
 
 # Representation

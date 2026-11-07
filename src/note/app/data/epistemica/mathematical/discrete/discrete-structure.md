@@ -1,5 +1,5 @@
 ---
-tags: [discrete, structure]
+tags: [discrete, structure, mathematics]
 ---
 
 # Discrete Structure

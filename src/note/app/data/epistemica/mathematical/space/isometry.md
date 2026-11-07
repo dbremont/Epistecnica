@@ -1,5 +1,5 @@
 ---
-tags: [geometry, function, space]
+tags: [geometry, function, space, mathematics]
 ---
 
 # Isometry

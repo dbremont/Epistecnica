@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Subshift
 
  : Subshift of Finite Type (Subshift%20of%20Finite%20Type%20273c370f795e4ba8a79b6fd9cf33f4ab.md)

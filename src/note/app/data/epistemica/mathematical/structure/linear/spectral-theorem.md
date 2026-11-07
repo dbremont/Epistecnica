@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, theorem, operator]
+tags: [linear-algebra, theorem, operator, mathematics]
 ---
 
 # Spectral Theorem

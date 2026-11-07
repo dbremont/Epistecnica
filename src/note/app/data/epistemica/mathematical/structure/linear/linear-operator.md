@@ -1,5 +1,5 @@
 ---
-tags: [function, functional, linear-algebra, operator]
+tags: [function, functional, linear-algebra, operator, mathematics]
 ---
 
 # Linear Operator

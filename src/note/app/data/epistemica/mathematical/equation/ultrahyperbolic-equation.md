@@ -1,5 +1,5 @@
 ---
-tags: [differential-operator]
+tags: [differential-operator, mathematics]
 ---
 
 # Ultrahyperbolic Equation

@@ -1,5 +1,5 @@
 ---
-tags: [analytical, technique]
+tags: [analytical, technique, mathematics]
 ---
 
 # Variational Method

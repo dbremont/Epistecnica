@@ -1,5 +1,5 @@
 ---
-tags: [topology, algebraic]
+tags: [topology, algebraic, mathematics]
 ---
 
 # Fundamental Group

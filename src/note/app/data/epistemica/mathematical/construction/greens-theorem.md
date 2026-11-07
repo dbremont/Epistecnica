@@ -1,5 +1,5 @@
 ---
-tags: [analytical, theorem]
+tags: [analytical, theorem, mathematics]
 ---
 
 # Green’s Theorem

@@ -1,5 +1,5 @@
 ---
-tags: [algebraic, framework]
+tags: [algebraic, framework, mathematics]
 ---
 
 # Algebra

@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra]
+tags: [linear-algebra, mathematics]
 ---
 
 # LU Decomposition

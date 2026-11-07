@@ -1,5 +1,5 @@
 ---
-tags: [algebraic, geometry]
+tags: [algebraic, geometry, mathematics]
 ---
 
 # Algebraic Set

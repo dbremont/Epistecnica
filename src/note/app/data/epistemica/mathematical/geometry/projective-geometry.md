@@ -1,5 +1,5 @@
 ---
-tags: [framework, geometry]
+tags: [framework, geometry, mathematics]
 ---
 
 # Projective Geometry

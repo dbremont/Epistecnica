@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Proportionality
 
 > Proportionality refers to a relationship between two or more quantities that maintain the same ratio.

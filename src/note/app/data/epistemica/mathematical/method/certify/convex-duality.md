@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, optimization]
+tags: [method, technique, optimization, mathematics]
 ---
 
 # Convex Duality

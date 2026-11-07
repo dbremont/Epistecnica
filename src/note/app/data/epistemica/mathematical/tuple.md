@@ -1,3 +1,7 @@
+---
+tags: [mathematics]
+---
+
 # Tuple
 
  : Combinatorics (Combinatorics%20231c0f5171ec8005bd62f206032ece34.md)

@@ -1,5 +1,5 @@
 ---
-tags: [inequality]
+tags: [inequality, mathematics]
 ---
 
 # AM-GM Inequality

@@ -1,5 +1,5 @@
 ---
-tags: [discrete]
+tags: [discrete, mathematics]
 ---
 
 # Recurrence Equation
