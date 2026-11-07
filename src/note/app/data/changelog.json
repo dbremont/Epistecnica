@@ -25356,7 +25356,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the François Viète persona note: the new symbolic algebra, the logic of species, Viète's formulas, the Spanish cipher, and Viète's formula for pi."
+        "summary": "Add the François Viète persona note: the new symbolic algebra, the logic of species, Viète's formulas, the Spanish cipher, and Viète's formula for pi.",
+        "commit": "2f0df8dd7600f42a838365d537dd38ce70c3f95f"
       }
     ]
   },
@@ -25488,7 +25489,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the Johann Heinrich Alsted persona note: the Herborn Academy, the Encyclopaedia, Ramism and Lullism, Calvinist millenarianism, and the Transylvanian academy."
+        "summary": "Add the Johann Heinrich Alsted persona note: the Herborn Academy, the Encyclopaedia, Ramism and Lullism, Calvinist millenarianism, and the Transylvanian academy.",
+        "commit": "2f0df8dd7600f42a838365d537dd38ce70c3f95f"
       }
     ]
   },
