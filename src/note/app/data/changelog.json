@@ -7407,6 +7407,11 @@
         "summary": "Repoint the Activation Function link into the activation scope.",
         "commit": "6c7ae2bff134d1c2c604f9a7213f54b5bc417b67",
         "before": "c768eb5d1781c241bdb6dff4b245156f15bec59d"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Expand the property table with the full function-property inventory and document elementary functions as a class of construction."
       }
     ]
   },

@@ -19,21 +19,39 @@ tags: [analytical]
 
 | **Property** | **Description** |
 | --- | --- |
-| **Domain** | The set of all possible input values for which the function is defined. |
-| **Range** | The set of all possible output values of the function. |
-| **Injective (One-to-One)** | A function is injective if each element of the domain maps to a unique element in the range. |
-| **Surjective (Onto)** | A function is surjective if every element in the codomain is mapped by at least one element in the domain. |
-| **Bijective** | A function is bijective if it is both injective and surjective. |
-| **Even** | A function $f(x)$ is even if $f(-x)=f(x)$. |
-| **Odd** | A function $f(x)$ is odd if $f(-x)=-f(x)$. |
-| **Periodic** | A function is periodic if $f(x+T)=f(x)$ for some $T > 0$ (the period). |
-| **Continuous** | A function is continuous if there are no abrupt changes or breaks in its graph. |
-| **Differentiable** | A function is differentiable if it has a defined derivative at every point in its domain. |
-| **Bounded** | A function is bounded if its range is contained within a finite interval. |
-| **Monotonic** | A function is monotonic if it is either entirely non-increasing or non-decreasing. |
-| **Convex** | A function $f(x)$ is convex if $f(\lambda x_1+(1-\lambda)x_2)\leq \lambda f(x_1)+(1-\lambda)f(x_2)$ for all $x_1,x_2$ and $\lambda\in[0,1]$. |
-| **Concave** | A function $f(x)$ is concave if $f(\lambda x_1+(1-\lambda)x_2)\geq \lambda f(x_1)+(1-\lambda)f(x_2)$ for all $x_1,x_2$ and $\lambda\in[0,1]$. |
-| **Lipschitz Continuous** | A function is Lipschitz continuous if there exists a constant \(L\) such that \( |
+| **Domain** | The set of all admissible input values for which the function is defined. |
+| **Codomain** | The set in which the function's output values are declared to lie. |
+| **Range (Image)** | The set of output values actually produced by the function (the image of the domain). |
+| **Injective (One-to-One)** | A function is injective if each element of the domain maps to a unique element in the codomain; distinct inputs produce distinct outputs. |
+| **Surjective (Onto)** | A function is surjective if every element of the codomain is mapped to by at least one element of the domain. |
+| **Bijective** | A function is bijective if it is both injective and surjective; it establishes a one-to-one correspondence between domain and codomain. |
+| **Bounded** | A function is bounded if its outputs remain within some finite bounds. |
+| **Continuous** | A function is continuous if its output changes without jumps or discontinuities as its input varies. |
+| **Differentiable** | A function is differentiable if it has a derivative at a given point or throughout a specified domain. |
+| **Integrable** | A function is integrable if it can be integrated over a specified domain under a particular integration theory. |
+| **Monotonic** | A function is monotonic if it is either entirely non-increasing or non-decreasing: it consistently preserves or reverses order. |
+| **Strictly Monotonic** | A function is strictly monotonic if it is strictly increasing or strictly decreasing. |
+| **Periodic** | A function is periodic if it repeats its values at regular intervals: $f(x+T)=f(x)$ for some period $T>0$. |
+| **Even** | A function is even if it is symmetric about the vertical axis: $f(-x)=f(x)$. |
+| **Odd** | A function is odd if it is symmetric about the origin: $f(-x)=-f(x)$. |
+| **Convex** | A function $f(x)$ is convex if $f(\lambda x_1+(1-\lambda)x_2)\leq \lambda f(x_1)+(1-\lambda)f(x_2)$ for all $x_1,x_2$ and $\lambda\in[0,1]$; its graph lies below or on the line segments connecting any two of its points. |
+| **Concave** | A function $f(x)$ is concave if $f(\lambda x_1+(1-\lambda)x_2)\geq \lambda f(x_1)+(1-\lambda)f(x_2)$ for all $x_1,x_2$ and $\lambda\in[0,1]$; its graph lies above or on the line segments connecting any two of its points. |
+| **Smooth** | A function is smooth if it has derivatives up to a specified order, often continuously differentiable. |
+| **Differentiability Class** | Classification according to the number and continuity of derivatives, such as $C^1$, $C^2$, or $C^\infty$. |
+| **Analytic** | A function is analytic if it can be locally represented by a convergent power series. |
+| **Linear** | A function is linear if it preserves addition and scalar multiplication: $f(ax+by)=af(x)+bf(y)$. |
+| **Homogeneous** | A function is homogeneous if it scales according to a specified degree: $f(\lambda x)=\lambda^k f(x)$. |
+| **Symmetric** | A function is symmetric if it remains invariant under a specified transformation of its input. |
+| **Invertible** | A function is invertible if it admits an inverse function that recovers its input from its output. |
+| **Composable** | A function is composable if it can be composed with another function when their domains and codomains are compatible. |
+| **Asymptotic Behavior** | How the function behaves as its input approaches a particular value or infinity. |
+| **Zeros (Roots)** | The input values for which the function evaluates to zero. |
+| **Extrema** | The points where the function attains a local or global maximum or minimum value. |
+| **Stationary Points** | The points where the derivative is zero. |
+| **Lipschitz Continuous** | A function is Lipschitz continuous if there exists a constant $L$ such that $|f(x)-f(y)|\le L|x-y|$ for all $x,y$ in the domain. |
+| **Uniformly Continuous** | A function is uniformly continuous if a single input-distance threshold works across the entire domain. |
+| **Total Variation** | The cumulative magnitude of changes in the function over an interval. |
+| **Measurable** | A function is measurable if the preimage of every measurable set is measurable. |
 | **Injective at Points** | A function is locally injective if it is injective within a neighborhood around each point. |
 | **Idempotent** | A function $f(x)$ is idempotent if $f(f(x))=f(x)$. |
 
@@ -96,6 +114,8 @@ tags: [analytical]
 | **Implicit Functions** | Defined by relation | $x^2 + y^2 = 1$ | Geometry, multivariable analysis |
 | **Parametric Functions** | Parametric curves/surfaces | $x(t), y(t)$ | Graphics, physics |
 | **Stochastic Functions** | Random variables, Processes | $X(\omega), B(t)$ | Statistics, stochastic modeling |
+
+> **Elementary functions** are the class generated from finitely many basic algebraic, exponential, logarithmic, trigonometric, and inverse-trigonometric functions by addition, multiplication, division, and composition. *Elementary* is a class of construction, not a pointwise property, so it stays out of `## Property`.
 
 ### Activation Function
 
