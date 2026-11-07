@@ -25540,7 +25540,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Rewrite the Johan de Witt persona note: biography, the True Freedom, war and diplomacy, finance and learning, the Rampjaar, and an annotated bibliography."
+        "summary": "Rewrite the Johan de Witt persona note: biography, the True Freedom, war and diplomacy, finance and learning, the Rampjaar, and an annotated bibliography.",
+        "commit": "bea391d7e8c0d2e2238fbb51f81197e772b81e75",
+        "before": "7a3a676fac42d461c5dccb07b6b0abf667026a5f"
       }
     ]
   },
