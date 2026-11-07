@@ -4,7 +4,7 @@ tags: [note, nature, substance-matter, human, cognition, linguistics, unfinished
 
 # Linguistics
 
-> A natural element read per [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -37,8 +37,8 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## References
 
-- [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Power Law b3b74b36ef5d410dae3b1ad0a2b9fd52.md`
 - [Applied linguistics](https://en.wikipedia.org/wiki/Applied_linguistics)
 - https://en.wikipedia.org/wiki/Philology

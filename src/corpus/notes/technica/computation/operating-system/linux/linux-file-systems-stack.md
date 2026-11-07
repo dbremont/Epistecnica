@@ -4,7 +4,7 @@ tags: [note, storage]
 
 # Linux  File Systems Stack
 
-- [Storage System](note.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
+- [Storage System](/note.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
 
 > The **Linux File Systems Stack** is a modular and hierarchical system that facilitates file operations, from user-space requests down to physical disk I/O. It includes the **VFS**, **file system drivers**, **block layer**, **page cache**, and **storage device drivers**, each responsible for specific aspects of file management, storage access, and performance optimization. The stack ensures that different file systems can coexist and interact seamlessly within the Linux environment.
 > 
@@ -87,7 +87,7 @@ tags: [note, storage]
 > In Linux, a **File System** is a **structured method and set of data structures used by the kernel to manage how data is stored, organized, and accessed on storage devices**.
 > 
 
-> See more in [File System](note.html?p=notes/technica/computation/operating-system/linux/file-system.md).
+> See more in [File System](/note.html?p=notes/technica/computation/operating-system/linux/file-system.md).
 > 
 
 A **File System in Linux** is a **kernel-managed abstraction layer** that:
@@ -221,7 +221,7 @@ A **File System in Linux** is a **kernel-managed abstraction layer** that:
 - What is really a file system from the **`os/kernel`** standpoint? Data Representation + Interaction.
     - How does the kernel choose the correct file system to handle a **file system** operation?
 - How to explore the content of a **storage device** without mounting it? Question answer in `Hardware Storage System`.
-- How the **root file system** is mounted? [How to root file system is mounted?](note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)
+- How the **root file system** is mounted? [How to root file system is mounted?](/note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)
 - Which are the disk units of storage?
 - Which  are the disk cluster units of storage?
 - How can I trace a file's data directly to the disk sectors and read those sectors from my `/dev/sda` disk?
@@ -424,6 +424,6 @@ The **root file system** is mounted during the **boot process** of a Linux or Un
 - Lee, Eunji, et al. "Shortcut-JFS: A write efficient journaling file system for phase change memory." *2012 IEEE 28th Symposium on Mass Storage Systems and Technologies (MSST)*. IEEE, 2012.
 - https://github.com/deepseek-ai/3FS
 - https://notes.eatonphil.com/2025-03-27-things-that-go-wrong-with-disk-io.html
-- [Berkeley Socket](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- [Berkeley Socket](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
 
-[Recovery](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/recovery.md)
+[Recovery](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/recovery.md)

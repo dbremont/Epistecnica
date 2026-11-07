@@ -10,7 +10,7 @@ tags: [note, nature, natural-system, biology, matter, system]
 > **Note**: The author of the central dogma in molecular biology claims that their ideas have been misinterpreted.
 >
 
-> Note: Gene Processes  Go to [DNA](note.html?p=notes/nature/dna.md).
+> Note: Gene Processes  Go to [DNA](/note.html?p=notes/nature/dna.md).
 >
 
 > A Module;  or Function.
@@ -115,11 +115,11 @@ QA:
 
 ## Related
 
-- [DNA](note.html?p=notes/nature/dna.md)
-- [Heredity](note.html?p=notes/nature/heredity.md)
-- [Genome](note.html?p=notes/nature/genome.md)
-- [Leptospira](note.html?p=notes/nature/leptospira.md)
-- [Living System](note.html?p=notes/nature/living-system.md)
+- [DNA](/note.html?p=notes/nature/dna.md)
+- [Heredity](/note.html?p=notes/nature/heredity.md)
+- [Genome](/note.html?p=notes/nature/genome.md)
+- [Leptospira](/note.html?p=notes/nature/leptospira.md)
+- [Living System](/note.html?p=notes/nature/living-system.md)
 
 ## Provenance
 

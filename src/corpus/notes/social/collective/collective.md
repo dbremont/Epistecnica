@@ -12,11 +12,11 @@ tags: [note, collective, social-compound, social-element, actor]
 
 **Collective belongs to the `Social Compound` social element type (Structural category)** — the generic bounded collective scoping a decomposition: a plurality of agents bound by constitutive relations into an identifiable social entity.
 
-It is not `Collective / Organization` as such (that is its organized subtype — the deliberate actor with identity, membership, and rules; see [Organization](note.html?p=notes/social/collective/actor/organization.md)); the genus also covers unorganized aggregates (Population), recognition-constituted communities, and compounds. Its layer is **Ontic** where the collective exists extra-mentally (populations, organizations, polities) and **Synontic** where it exists through shared recognition (nations-as-peoples, imagined communities). Its facet is social-general: the dominant causal mechanism is plural association as such, prior to economic, political, or ideational scoping. It is typed under [Actor](note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology.
+It is not `Collective / Organization` as such (that is its organized subtype — the deliberate actor with identity, membership, and rules; see [Organization](/note.html?p=notes/social/collective/actor/organization.md)); the genus also covers unorganized aggregates (Population), recognition-constituted communities, and compounds. Its layer is **Ontic** where the collective exists extra-mentally (populations, organizations, polities) and **Synontic** where it exists through shared recognition (nations-as-peoples, imagined communities). Its facet is social-general: the dominant causal mechanism is plural association as such, prior to economic, political, or ideational scoping. It is typed under [Actor](/note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology.
 
 Readable secondarily as an `Interaction Unit` (a bounded entity capable of interaction), as an `Institution` (where the collective just is its stabilized rules), and as a `Polity` (where bound by authority). Those readings are prose, not second trees; the tree below is typed once.
 
-On terms: **Collective** is the genus and instance term. **Organization** names the organized subtype. **Institution** names the stabilized rules a collective hosts, never the actor itself. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](note.html?p=notes/social/collective/actor/private/group/group.md)). **Association**, **Union**, **Cooperative**, **Party** name organization subtypes.
+On terms: **Collective** is the genus and instance term. **Organization** names the organized subtype. **Institution** names the stabilized rules a collective hosts, never the actor itself. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](/note.html?p=notes/social/collective/actor/private/group/group.md)). **Association**, **Union**, **Cooperative**, **Party** name organization subtypes.
 
 ### What is this social instance?
 
@@ -59,7 +59,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Movement | A collective mobilized around a shared cause, identity, demand, or project, often through distributed and changing participation. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Population | An aggregation defined by a specified membership criterion, such as residence, age, occupation, language, or another attribute; collective agency is not implied. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Economic Collective | A collective constituted around economic production, exchange, ownership, work, consumption, or economic interests. |
-| `Social Compound` `(→ Part)` Collective `(→ Kind)` Social Class | An aggregate defined by shared position in relations of production and access to resources; see [Social Class](note.html?p=notes/social/structural/social-class.md). |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Social Class | An aggregate defined by shared position in relations of production and access to resources; see [Social Class](/note.html?p=notes/social/structural/social-class.md). |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective | A collective constituted around political membership, authority, governance, power, or common political affairs. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Polity | A political collective organized around governing authority over a political community, territory, or jurisdiction. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Electorate | A collective defined by eligibility to participate in a specified electoral process. |
@@ -317,7 +317,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 
 ### What is the identification mechanism?
 
-> A collective is identified by the tie that counts one as belonging: a charter or register for membership organizations, mutual recognition for communities, jurisdiction or census for populations and polities. The mechanism is always a constitutive relation — membership, recognition, or authority — never mere co-location. See [Membership Tie](note.html?p=notes/social/collective/actor/actor.md) as typed in the actor hub.
+> A collective is identified by the tie that counts one as belonging: a charter or register for membership organizations, mutual recognition for communities, jurisdiction or census for populations and polities. The mechanism is always a constitutive relation — membership, recognition, or authority — never mere co-location. See [Membership Tie](/note.html?p=notes/social/collective/actor/actor.md) as typed in the actor hub.
 
 ### What Grounds a Social Collective? or How Does a Collection of Social Participants Become a Collective?
 
@@ -346,16 +346,16 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Actor](note.html?p=notes/social/collective/actor/actor.md)
-- [Organization](note.html?p=notes/social/collective/actor/organization.md)
-- [Social Group](note.html?p=notes/social/collective/actor/private/group/group.md)
-- [Family](note.html?p=notes/social/collective/actor/family.md)
-- [Firm](note.html?p=notes/social/collective/actor/firm.md)
-- [Social Ontology](note.html?p=notes/social/framework/social-ontology.md)
-- [Facet](note.html?p=notes/social/framework/facet.md)
-- [Polity](note.html?p=notes/social/collective/polity.md)
-- [The Collective Action Problem](note.html?p=notes/unclassified/collective-action-problem.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Actor](/note.html?p=notes/social/collective/actor/actor.md)
+- [Organization](/note.html?p=notes/social/collective/actor/organization.md)
+- [Social Group](/note.html?p=notes/social/collective/actor/private/group/group.md)
+- [Family](/note.html?p=notes/social/collective/actor/family.md)
+- [Firm](/note.html?p=notes/social/collective/actor/firm.md)
+- [Social Ontology](/note.html?p=notes/social/framework/social-ontology.md)
+- [Facet](/note.html?p=notes/social/framework/facet.md)
+- [Polity](/note.html?p=notes/social/collective/polity.md)
+- [The Collective Action Problem](/note.html?p=notes/unclassified/collective-action-problem.md)
 - [Imperialism](https://en.wikipedia.org/wiki/Imperialism)
 - [Romanitas](https://es.wikipedia.org/wiki/Romanitas)
 - [Polity](https://en.wikipedia.org/wiki/Polity)

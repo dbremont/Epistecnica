@@ -58,6 +58,6 @@ tags: [note, data-collection, tool]
 - https://github.com/wolfpld/tracy
 - https://davespace.xyz/blog/building-tracy-profiler-on-linux
 - https://news.ycombinator.com/item?id=34559993
-- [GDB (GNU Project Debugger)](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
+- [GDB (GNU Project Debugger)](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
 - - [GCC : GNU Compiler Collection]
 - https://www.youtube.com/watch?v=ghXk3Bk5F2U

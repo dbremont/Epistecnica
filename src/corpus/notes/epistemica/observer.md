@@ -92,4 +92,4 @@ tags: [note]
 ## References
 
 - [Cognition](https://en.wikipedia.org/wiki/Cognition)
-- [Developmentalism](note.html?p=notes/social/synontic/ideational/developmentalism.md)
+- [Developmentalism](/note.html?p=notes/social/synontic/ideational/developmentalism.md)

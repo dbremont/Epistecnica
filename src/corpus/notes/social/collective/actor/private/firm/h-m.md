@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, sweden, brand-owned, omnichannel]
 ## References
 
 - Wikipedia — H&M (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

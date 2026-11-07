@@ -19,7 +19,7 @@ tags: [note, nature, interaction-derived-quantity, phenomena, thermodynamics]
 > Heat is an emergent property;  and some molecular movement does not produce any heat at all; so it’s a property of some specific ‘configurations’ of those movements. Look more in this line.
 >
 
-![image.png](../assets/note/nature/heat/image.png)
+![image.png](/assets/note/nature/heat/image.png)
 
 Actions:
 
@@ -47,7 +47,7 @@ Types:
 
 ## Related
 
-- [Temperature](note.html?p=notes/nature/temperature.md)
+- [Temperature](/note.html?p=notes/nature/temperature.md)
 
 ## Provenance
 

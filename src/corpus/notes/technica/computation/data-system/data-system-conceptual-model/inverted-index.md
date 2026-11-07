@@ -4,7 +4,7 @@ tags: [note, index]
 
 # Inverted Index
 
-- [Data Maps (Index)](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-maps-index.md)
+- [Data Maps (Index)](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-maps-index.md)
 
 > An **inverted index is a data structure** used to map content, such as words or terms, to their locations in a database, document, or set of documents, facilitating fast full-text search.
 > 

@@ -15,7 +15,7 @@ tags: [note]
 > **The External-Memory Model (EMM) of Computation** is an organizing model for computation in data systems in which algorithms that are straightforward to express when their data fits in RAM must be **reformulated for execution over data that exceeds RAM capacity**. The computation is realized through a sequence of operations over **bounded portions of the data resident in RAM**, together with transfers of data between RAM and external memory.
 > 
 
-> See more in [External Memory Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/external-memory-model-of-computation.md).
+> See more in [External Memory Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/external-memory-model-of-computation.md).
 > 
 
 ## Data System Space
@@ -162,7 +162,7 @@ tags: [note]
 > How to store the data for the long term?
 > 
 
-> See [Representation](note.html?p=notes/technica/computation/representation.md), [Apache Parquet](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/apache-parquet.md),  [Data File Format](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/data-file-format.md).
+> See [Representation](/note.html?p=notes/technica/computation/representation.md), [Apache Parquet](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/apache-parquet.md),  [Data File Format](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/data-file-format.md).
 > 
 
 ## World Simplest Data System
@@ -193,7 +193,7 @@ Data System: Conceptual Model
 > Databases use **external-memory algorithms**, partitioning, streaming, buffering, and temporary disk-based structures so computation can proceed over data larger than available RAM.
 > 
 
-> See more in [External Memory Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/external-memory-model-of-computation.md).
+> See more in [External Memory Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/external-memory-model-of-computation.md).
 > 
 
 ### Which operations are particularly difficult to perform when the data exceeds available working memory? Are there any operations that cannot be performed under these conditions?
@@ -207,7 +207,7 @@ Data System: Conceptual Model
 
 ### Which are the `Models of Computation`  that grounds computation descriptions in a `data system`?
 
-> See more in [Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> See more in [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
 > 
 
 ## References
@@ -232,8 +232,8 @@ Data System: Conceptual Model
 - An Empirical Evaluation of Columnar Storage Formats [pdf] ([vldb.org](http://vldb.org/))
 [https://news.ycombinator.com/item?id=40370613](https://news.ycombinator.com/item?id=40370613)
 - [https://en.wikipedia.org/wiki/DB-Engines_ranking](https://en.wikipedia.org/wiki/DB-Engines_ranking)
-- [Workload](note.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/workload.md)
-- [Storage System](note.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
+- [Workload](/note.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/workload.md)
+- [Storage System](/note.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
 - OLTP Through the Looking Glass 16 Years Later: Communication is the New Bottleneck /  [https://www.vldb.org/cidrdb/papers/2025/p17-zhou.pdf](https://www.vldb.org/cidrdb/papers/2025/p17-zhou.pdf)z
 - Wang, Hao, et al. "LavaStore: ByteDance's Purpose-Built, High-Performance, Cost-Effective Local Storage Engine for Cloud Services." Proceedings of the VLDB Endowment 17.12 (2024): 3799-3812.
 - Colle, Romain, et al. "Oracle database replay." Proceedings of the VLDB Endowment 2.2 (2009): 1542-1545.

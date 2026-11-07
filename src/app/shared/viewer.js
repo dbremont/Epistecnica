@@ -1,6 +1,6 @@
 /* Universal content viewer — one script, one shell.
  *
- * The single corpus viewer at /corpus/note.html renders every markdown file
+ * The single corpus viewer at /note.html renders every markdown file
  * under notes/, documents/ and courses/:
  *
  *     <script src="../shared/viewer.js" data-kind="corpus"></script>
@@ -213,7 +213,7 @@
         tags.forEach(function (t) {
             var a = document.createElement('a');
             a.className = 'chip';
-            a.href = 'index.html?q=' + encodeURIComponent('@' + t);
+            a.href = 'explorer.html?q=' + encodeURIComponent('@' + t);
             a.textContent = '#' + t;
             meta.appendChild(a);
         });
@@ -335,7 +335,7 @@
 
     function crumbsCorpus(path) {
         var parts = path.split('/');
-        var html = '<a href="index.html">corpus</a>';
+        var html = '<a href="explorer.html">corpus</a>';
         var prefix = [];
         for (var i = 0; i < parts.length; i++) {
             html += '<span class="sep">/</span>';
@@ -343,7 +343,7 @@
                 html += '<span class="here">' + esc(parts[i].replace(/\.md$/, '')) + '</span>';
             } else {
                 prefix.push(parts[i]);
-                html += '<a href="index.html?dir=' + prefix.map(encodeURIComponent).join('/') + '">' + esc(parts[i]) + '</a>';
+                html += '<a href="explorer.html?dir=' + prefix.map(encodeURIComponent).join('/') + '">' + esc(parts[i]) + '</a>';
             }
         }
         document.getElementById('crumbs').innerHTML = html;
@@ -366,7 +366,7 @@
             valid: function (p) {
                 return validMdPath(p) && /^(notes|documents|courses)\//.test(p);
             },
-            fetchUrl: function (name) { return encPath(name); },
+            fetchUrl: function (name) { return 'corpus/' + encPath(name); },
             titleFallback: fileTitleFallback,
             crumbs: crumbsCorpus,
             historyPath: historyKey,
@@ -395,6 +395,165 @@
             ul.appendChild(li);
         });
         body.appendChild(ul);
+    }
+
+    /* ---------- section scrolling (sticky-nav aware, reflow safe) ---------- */
+
+    function navHeight() {
+        var nav = document.querySelector('.nav');
+        return nav ? Math.round(nav.getBoundingClientRect().height) : 0;
+    }
+
+    function sectionMargin() { return navHeight() + 12; }
+
+    /* Jump without animating: the shells set `html { scroll-behavior: smooth }`,
+       which would fly through the whole document on a deep link. */
+    function instantScrollTo(y) {
+        var root = document.documentElement;
+        var prev = root.style.scrollBehavior;
+        root.style.scrollBehavior = 'auto';
+        window.scrollTo(0, Math.max(0, Math.round(y)));
+        window.requestAnimationFrame(function () { root.style.scrollBehavior = prev; });
+    }
+
+    /* Land a heading just below the sticky nav; smooth only for user clicks. */
+    function scrollToSection(h, smooth) {
+        var margin = sectionMargin();
+        h.style.scrollMarginTop = margin + 'px';
+        if (smooth) { h.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+        instantScrollTo(h.getBoundingClientRect().top + window.scrollY - margin);
+    }
+
+    /* Wait for everything that can reflow the page (MathJax typesetting,
+       webfonts, late images, an explicit promise), then one frame. */
+    function layoutSettled(extra) {
+        var waits = [];
+        if (window.MathJax && MathJax.startup && MathJax.startup.promise) waits.push(MathJax.startup.promise);
+        if (document.fonts && document.fonts.ready) waits.push(document.fonts.ready);
+        var imgs = document.querySelectorAll('#note-body img');
+        for (var i = 0; i < imgs.length; i++) (function (img) {
+            if (img.complete) return;
+            waits.push(new Promise(function (resolve) {
+                img.addEventListener('load', resolve, { once: true });
+                img.addEventListener('error', resolve, { once: true });
+            }));
+        })(imgs[i]);
+        if (extra) extra.forEach(function (p) { if (p && p.then) waits.push(p); });
+        var settled = Promise.all(waits).catch(function () { /* keep going */ });
+        /* Never hold the reader at the top: jump anyway after 1.5s, and let
+           the correction pass below absorb a still-running typeset. */
+        var cap = new Promise(function (resolve) { window.setTimeout(resolve, 1500); });
+        return Promise.race([settled, cap]).then(function () {
+            return new Promise(function (resolve) {
+                window.requestAnimationFrame(function () { window.requestAnimationFrame(resolve); });
+            });
+        });
+    }
+
+    /* Land on a heading, then correct if late reflow moved it. */
+    function jumpToSection(h) {
+        scrollToSection(h, false);
+        [400, 1400].forEach(function (delay) {
+            window.setTimeout(function () {
+                var off = h.getBoundingClientRect().top - sectionMargin();
+                if (Math.abs(off) > 2) instantScrollTo(window.scrollY + off);
+            }, delay);
+        });
+    }
+
+    /* Heading text → URL-safe section slug; collisions get -2, -3, … */
+    function slugify(text, used) {
+        var s = String(text == null ? '' : text).toLowerCase();
+        if (s.normalize) s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        s = s.replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'section';
+        var slug = s;
+        for (var n = 2; used[slug]; n++) slug = s + '-' + n;
+        used[slug] = true;
+        return slug;
+    }
+
+    /* Keep `toc-item=<slug>` in the URL so a section can be linked and copied.
+       Only that pair is rewritten: every other query pair stays byte for byte
+       as it was typed (`n=technica/computation/representation.md` must not
+       come back as `n=technica%2F...`). */
+    function setSectionParam(slug) {
+        try {
+            var href = window.location.href.split('#')[0];
+            var cut = href.indexOf('?');
+            var base = cut === -1 ? href : href.slice(0, cut);
+            var query = cut === -1 ? '' : href.slice(cut + 1);
+            var parts = query ? query.split('&').filter(Boolean) : [];
+            var pair = 'toc-item=' + encodeURIComponent(slug);
+            var hit = false;
+            for (var i = 0; i < parts.length; i++) {
+                if (parts[i] === 'toc-item' || parts[i].indexOf('toc-item=') === 0) {
+                    parts[i] = pair;
+                    hit = true;
+                }
+            }
+            if (!hit) parts.push(pair);
+            window.history.replaceState(null, '', base + '?' + parts.join('&'));
+        } catch (e) { /* no history API — the link still scrolls */ }
+    }
+
+    /* Builds the sidebar TOC. Returns a function that applies the deep link
+       (after layout has settled), or null when the URL names no section. */
+    function buildToc() {
+        var headings = document.querySelectorAll('#note-body h2, #note-body h3');
+        var toc = document.getElementById('toc');
+        toc.innerHTML = '';
+        if (!headings.length) { document.getElementById('sidebar').hidden = true; return null; }
+        document.getElementById('sidebar').hidden = false;
+        var used = Object.create(null);
+        var bySlug = Object.create(null);
+
+        headings.forEach(function (h, i) {
+            var slug = slugify(h.textContent, used);
+            bySlug[slug] = { heading: h, index: i };
+            h.id = 'sec-' + slug;
+            var a = document.createElement('a');
+            a.href = '#' + h.id;
+            a.className = 'toc-item' + (h.tagName === 'H3' ? ' sub' : '');
+            a.textContent = h.textContent;
+            a.setAttribute('data-slug', slug);
+            a.addEventListener('click', function (e) {
+                e.preventDefault();
+                markActive(i);
+                scrollToSection(h, true);
+                setSectionParam(slug);
+            });
+            toc.appendChild(a);
+        });
+
+        var items = toc.querySelectorAll('.toc-item');
+        function markActive(idx) {
+            items.forEach(function (it) { it.classList.remove('active'); });
+            if (items[idx]) items[idx].classList.add('active');
+        }
+
+        var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (!entry.isIntersecting) return;
+                markActive(Array.prototype.indexOf.call(headings, entry.target));
+            });
+        }, { rootMargin: '-10% 0px -60% 0px' });
+        headings.forEach(function (h) { observer.observe(h); });
+
+        /* Deep link: ?toc-item=<slug>, or a plain #sec-<slug> hash. */
+        var q = new URLSearchParams(window.location.search);
+        var want = q.get('toc-item') || '';
+        var hash = window.location.hash.replace(/^#/, '');
+        if (!want && hash.indexOf('sec-') === 0) want = hash.slice(4);
+        var hit = want && bySlug[want];
+        if (!hit) return null;
+        markActive(hit.index);
+        setSectionParam(want);
+        return function (extra) {
+            layoutSettled(extra).then(function () {
+                markActive(hit.index);
+                jumpToSection(hit.heading);
+            });
+        };
     }
 
     /* ---------- load flow ---------- */

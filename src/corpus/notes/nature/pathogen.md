@@ -13,7 +13,7 @@ tags: [note, nature, natural-system, system]
 
 ## Related
 
-- [Virulence Factor](note.html?p=notes/nature/virulence-factor.md)
+- [Virulence Factor](/note.html?p=notes/nature/virulence-factor.md)
 
 ## Provenance
 

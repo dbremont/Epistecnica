@@ -53,7 +53,7 @@ DOING:
     - Speakign of this - can you post train a smal model 27b - or something in  a narrow complex task - let say write article - like hackdr news types - to surpass trrillosn param models - [https://xcancel.com/i/article/2075619939780874440](https://xcancel.com/i/article/2075619939780874440)
         - How is tiis possible? is the ianblity - to learn procedure (task pability) from let;s say non task oriented - and descriptiosn - that big?
         
-        ![image.png](../assets/hy3-announcement-tweet.png)
+        ![image.png](/assets/hy3-announcement-tweet.png)
         
 - …
 - A **logistic regression probe** is a technique used in machine learning and mechanistic interpretability to determine whether specific concepts, traits, or information are encoded in the internal representations (hidden states or activations) of a complex neural network.

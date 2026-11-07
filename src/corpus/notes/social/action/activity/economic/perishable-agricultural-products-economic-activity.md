@@ -266,7 +266,7 @@ $$
 
 ### How is the production function of the industry operationalized?
 
-> The perishable function is an instance of the [Production Function](note.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint whose operational reading is fixed by what rots. The table below states the choices that matter to this industry's content.
+> The perishable function is an instance of the [Production Function](/note.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint whose operational reading is fixed by what rots. The table below states the choices that matter to this industry's content.
 
 | Decision | The choice that matters | Perishable reading |
 | --- | --- | --- |
@@ -593,13 +593,13 @@ $$
 - https://pubsonline.informs.org/doi/10.1287/moor.2025.1115?utm_source=chatgpt.com
 - https://www.sciencedirect.com/science/article/abs/pii/S0925527312004215?utm_source=chatgpt.com
 - https://onlinelibrary.wiley.com/doi/10.1111/jbl.12367
-- [Economic Activity](note.html?p=notes/social/action/activity/economic/economic-activity.md)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
-- [Agricultural Science](note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md)
-- [Production Function](note.html?p=notes/epistemica/singular/production-function.md)
-- [Retail Supply–Demand Matching](note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)
-- [Logistics System](note.html?p=notes/technica/general/cto/industry/logistics-system.md)
-- [Plant Cultivation Technical Domain Set](note.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md)
-- [Product](note.html?p=notes/social/coordinator/good/product.md)
-- [Market](note.html?p=notes/social/coordinator/market/market.md)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Economic Activity](/note.html?p=notes/social/action/activity/economic/economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Agricultural Science](/note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md)
+- [Production Function](/note.html?p=notes/epistemica/singular/production-function.md)
+- [Retail Supply–Demand Matching](/note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)
+- [Logistics System](/note.html?p=notes/technica/general/cto/industry/logistics-system.md)
+- [Plant Cultivation Technical Domain Set](/note.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md)
+- [Product](/note.html?p=notes/social/coordinator/good/product.md)
+- [Market](/note.html?p=notes/social/coordinator/market/market.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)

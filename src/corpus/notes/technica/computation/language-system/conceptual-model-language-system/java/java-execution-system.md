@@ -136,10 +136,10 @@ Guiding Questions:
 
 ## References
 
-- [Evaluation Model](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Memory  Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
-- [Runtime Representation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
-- [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
+- [Runtime Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
+- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
 - 
 - Bruns, Daniel. "Formal Semantics for the Java Modeling Language." *Informatiktage*. 2010.
 - https://shipilev.net/blog/2014/jmm-pragmatics/
@@ -156,7 +156,7 @@ Guiding Questions:
 - [Java - Is binary code the same as ByteCode?](https://stackoverflow.com/questions/4841083/java-is-binary-code-the-same-as-bytecode)
 - …
 
-> [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md),[Evaluation Model](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md),[Memory  Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md),[Runtime Representation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md),[Linker](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md),[Loader](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md)
+> [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md),[Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md),[Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md),[Runtime Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md),[Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md),[Loader](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md)
 > 
 
 Guiding Questions:

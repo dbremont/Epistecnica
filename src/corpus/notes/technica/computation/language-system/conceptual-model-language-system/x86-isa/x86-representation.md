@@ -66,6 +66,6 @@ Guiding Questions:
 
 ## 🔗 References
 
-- [Intermediate Representation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
-- [Linker](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
-- [ELF (Executable and Linkable Format)](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)
+- [Intermediate Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
+- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [ELF (Executable and Linkable Format)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)

@@ -18,7 +18,7 @@ tags: [note, axiom, discrete]
 > Note: The key in applying the Pigeonhole Principle is to learn to recognize problems in terms of assignments or mappings. This does not necessarily require thinking about the assignment directly; often it is done through transformations, logical reformulations, or other indirect approaches that eventually produce a form amenable to the principle.
 > 
 
-![image.png](../assets/note/epistemica/mathematical/pigeonhole-principle/image.png)
+![image.png](/assets/note/epistemica/mathematical/pigeonhole-principle/image.png)
 
 ## Formalism
 
@@ -75,4 +75,4 @@ The PHP is inherently about **counting and inevitability**. Proof by contradicti
 ## References
 
 - https://en.wikipedia.org/wiki/Pigeonhole_principle
-- [**Division**](note.html?p=notes/epistemica/mathematical/number/division.md)
+- [**Division**](/note.html?p=notes/epistemica/mathematical/number/division.md)

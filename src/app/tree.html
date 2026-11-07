@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree — Epistecnica</title>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="shared/usearch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-void: #04050A; --bg-surface: #0B0D14; --bg-card: #11141D;
+            --text-primary: #E2E4EB; --text-secondary: #8A8FA6; --text-muted: #737891;
+            --accent-gold: #C5A467; --accent-cyan: #5BF0E7;
+            --border-subtle: rgba(255,255,255,0.07); --border-medium: rgba(255,255,255,0.12);
+            --nav-bg: rgba(4,5,10,0.86); --footer-bg: rgba(4,5,10,0.70);
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        html[data-theme="light"] {
+            --bg-void: #F7F5F0; --bg-surface: #F1EEE7; --bg-card: #FFFFFF;
+            --text-primary: #1A1D24; --text-secondary: #4A4F5E; --text-muted: #696E7D;
+            --accent-gold: #84682F; --accent-cyan: #0E7C72;
+            --border-subtle: rgba(20,22,30,0.10); --border-medium: rgba(20,22,30,0.18);
+            --nav-bg: rgba(247,245,240,0.88); --footer-bg: rgba(247,245,240,0.75);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; background: var(--bg-void); }
+        body { background: var(--bg-void); color: var(--text-primary); font-family: var(--font-body); min-height: 100vh; display: flex; flex-direction: column; transition: opacity 180ms ease; }
+        .main-wrap { flex: 1; }
+        html.theme-fading body { opacity: 0; }
+        a { color: inherit; text-decoration: none; }
+        a:focus-visible, button:focus-visible, input:focus-visible { outline: 1px solid var(--accent-cyan); outline-offset: 3px; }
+        .nav {
+            position: sticky; top: 0; z-index: 10;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .nav-inner {
+            max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .nav-brand {
+            display: inline-flex; align-items: center; gap: 0.55rem;
+            font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+            letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+        }
+        .nav-mark { height: 26px; width: auto; }
+        .nav-brand em { font-style: italic; color: var(--accent-gold); }
+        .nav-right { display: flex; align-items: center; gap: 0.8rem; }
+        .theme-toggle {
+            font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+            text-transform: uppercase; color: var(--text-secondary);
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            padding: 0.45rem 0.75rem; cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        footer {
+            position: relative; z-index: 1;
+            border-top: 1px solid var(--border-subtle);
+            background: var(--footer-bg);
+        }
+        .foot-inner {
+            max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem;
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 1rem 2rem;
+            font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+            text-transform: uppercase; color: var(--text-muted);
+        }
+        .foot-brand {
+            font-family: var(--font-display); font-size: 1.05rem; letter-spacing: 0.03em;
+            text-transform: none; color: var(--text-secondary);
+        }
+        .foot-brand em { font-style: italic; color: var(--accent-gold); }
+        .foot-links { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+        footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        footer a:hover { color: var(--accent-cyan); }
+
+        .shell {
+            display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 2.5rem;
+            max-width: 1400px; margin: 0 auto; padding: 2rem 2rem 4rem;
+        }
+        .tree {
+            position: sticky; top: 4.2rem; align-self: start;
+            max-height: calc(100vh - 5.5rem); overflow: auto;
+            border-right: 1px solid var(--border-subtle); padding-right: 1rem;
+        }
+        .tree h2, .content h2 {
+            font-family: var(--font-mono); font-size: 0.62rem; font-weight: 400;
+            letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent-gold); margin-bottom: 0.8rem;
+        }
+        .tree-tools { display: flex; gap: 0.35rem; margin-bottom: 0.7rem; }
+        .tree-tools button {
+            flex: 1; border: 1px solid var(--border-subtle); background: transparent;
+            color: var(--text-muted); font-family: var(--font-mono); font-size: 0.54rem;
+            letter-spacing: 0.1em; text-transform: uppercase; padding: 0.3rem 0.2rem;
+            border-radius: 3px; cursor: pointer;
+        }
+        .tree-tools button:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .tree node { display: block; }
+        .tree details[hidden], .tree .leaf-file[hidden] { display: none; }
+        .tree .root.fixed { margin-bottom: 0.35rem; }
+        .tree .root-head {
+            display: flex; align-items: baseline; justify-content: space-between;
+            gap: 0.5rem; padding: 0.32rem 0.4rem 0.4rem;
+            border-bottom: 1px solid var(--border-subtle); margin-bottom: 0.3rem;
+        }
+        .tree .root-head .node-name { color: var(--accent-gold); letter-spacing: 0.04em; }
+        .tree .root-head .count { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); }
+        .tree details { margin-bottom: 0.15rem; }
+        .tree details > summary {
+            cursor: pointer; list-style: none; display: flex; align-items: baseline;
+            gap: 0.4rem; padding: 0.3rem 0.4rem; border-radius: 3px;
+            color: var(--text-secondary); font-size: 0.82rem;
+        }
+        .tree details > summary::-webkit-details-marker { display: none; }
+        .tree details > summary:hover { background: var(--bg-surface); color: var(--text-primary); }
+        .tree details > summary .tw { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.6rem; width: 0.7rem; }
+        .tree details[open] > summary .tw { transform: rotate(90deg); display: inline-block; }
+        .tree .node-name { cursor: pointer; flex: 1; }
+        .tree .node-name:hover { color: var(--accent-cyan); }
+        .tree .node-name.active { color: var(--accent-cyan); font-weight: 500; }
+        .tree .count { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.68rem; }
+        .tree .kids { margin-left: 0.75rem; border-left: 1px solid var(--border-subtle); padding-left: 0.35rem; }
+        .tree .leaf-file {
+            display: flex; align-items: baseline; justify-content: space-between;
+            gap: 0.5rem; padding: 0.22rem 0.4rem; border-radius: 3px;
+            color: var(--text-muted); font-size: 0.78rem;
+        }
+        .tree .leaf-file:hover { background: var(--bg-surface); color: var(--text-primary); }
+        .tree .leaf-file.dim { opacity: 0.4; }
+        .tree .leaf-file .fname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .tree .leaf-file .fk {
+            display: inline-flex; align-items: center;
+            opacity: 0.55; flex-shrink: 0;
+        }
+        .tree .leaf-file .fk svg { width: 11px; height: 11px; }
+        .content { min-width: 0; }
+        .result-head {
+            display: flex; justify-content: space-between; align-items: baseline;
+            gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem;
+        }
+        .result-head h1 { font-family: var(--font-display); font-size: 2rem; font-weight: 400; }
+        .result-head p { color: var(--text-muted); font-size: 0.8rem; }
+        .actions { display: flex; gap: 0.5rem; }
+        .btn {
+            border: 1px solid var(--border-medium); background: transparent;
+            color: var(--text-secondary); font-family: var(--font-mono);
+            font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase;
+            padding: 0.5rem 0.7rem; border-radius: 3px; cursor: pointer;
+        }
+        .btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .list { border-top: 1px solid var(--border-subtle); }
+        .item {
+            display: grid; grid-template-columns: 1.8rem minmax(0, 1fr) auto;
+            gap: 1rem; align-items: baseline; padding: 0.75rem 0.4rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .item:hover { background: var(--bg-surface); }
+        .badge {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 1.55rem; height: 1.35rem;
+            color: var(--text-muted);
+            border: 1px solid var(--border-subtle); border-radius: 2px;
+            flex-shrink: 0;
+        }
+        .badge svg { width: 13px; height: 13px; }
+        .badge-note { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .badge-document { color: var(--accent-gold); border-color: var(--accent-gold); }
+        .badge-course, .badge-lecture { color: #B48CE0; border-color: #B48CE0; }
+        .badge-live { color: var(--text-muted); }
+        .badge-dir { color: var(--text-secondary); border-color: var(--border-medium); }
+        .item-title { font-size: 0.95rem; color: var(--text-primary); }
+        .item-sub { display: block; margin-top: 0.15rem; font-size: 0.72rem; color: var(--text-muted); }
+        .item-tags { font-family: var(--font-mono); font-size: 0.62rem; color: var(--text-muted); text-align: right; }
+        .empty { padding: 2rem 0; color: var(--text-muted); font-style: italic; }
+        .pager { display: flex; align-items: center; justify-content: center; gap: 0.8rem; padding: 1.2rem 0 0; }
+        .page-btn {
+            border: 1px solid var(--border-medium); background: transparent;
+            color: var(--text-secondary); font-family: var(--font-mono);
+            font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
+            padding: 0.45rem 0.7rem; border-radius: 3px; cursor: pointer;
+        }
+        .page-btn:hover:not([disabled]) { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .page-btn[disabled] { opacity: 0.35; cursor: default; }
+        .page-ind { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--text-muted); }
+        footer {
+            border-top: 1px solid var(--border-subtle); padding: 1.5rem 2rem;
+            display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+            color: var(--text-muted); font-family: var(--font-mono);
+            font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
+        }
+        footer a:hover { color: var(--accent-cyan); }
+        @media (max-width: 900px) {
+            .top { grid-template-columns: 1fr auto; }
+            .shell { grid-template-columns: 1fr; padding: 1.2rem; }
+            .tree { position: static; max-height: none; border-right: 0; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1rem; }
+            .item { grid-template-columns: 1.8rem minmax(0, 1fr); }
+            .item-tags { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a class="nav-brand" href="./"><img class="nav-mark" src="img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+            <div class="nav-right">
+                <div class="usearch-wrap">
+                    <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                    <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                    <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+                </div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-wrap">
+    <main class="shell">
+        <aside class="tree">
+            <h2>Corpus tree</h2>
+            <div class="tree-tools">
+                <button type="button" id="resetTree">top</button>
+            </div>
+            <div id="tree"></div>
+        </aside>
+        <section class="content">
+            <div class="result-head">
+                <div>
+                    <h1 id="title">Corpus</h1>
+                    <p id="meta">Loading…</p>
+                </div>
+            </div>
+            <div class="list" id="list"></div>
+            <div class="pager" id="pager" hidden>
+                <button type="button" class="page-btn" id="page-prev">&larr; prev</button>
+                <span class="page-ind" id="page-ind">page 1 / 1</span>
+                <button type="button" class="page-btn" id="page-next">next &rarr;</button>
+            </div>
+        </section>
+    </main>
+    </div>
+
+    <footer>
+        <div class="foot-inner">
+            <div class="foot-brand">Episte<em>cnica</em></div>
+            <div>CORPUS &middot; TREE &middot; <span id="foot-date">&mdash;</span></div>
+            <div class="foot-links">
+                <a href="./">HUB</a>
+                <a href="explorer.html?view=browse&amp;dir=courses">COURSES</a>
+                <a href="explorer.html?view=browse&amp;dir=documents">DOCUMENTS</a>
+                <a href="explorer.html?view=browse&amp;dir=notes">NOTES</a>
+                <a href="glossarium/">GLOSSARIUM</a>
+                <a href="qa/">Q/A</a>
+                <a href="http://localhost:8088/pks/">AUTOREGIA &nearr;</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function () {
+        'use strict';
+        var DIRS = {};
+        var COUNTS = {};
+        var state = { dir: '', q: '', page: 1 };
+        var ROWS = [];        /* flattened rows for the current dir+query */
+        ROWS.key = null;
+        var PAGE_SIZE = 100;
+        var listEl = document.getElementById('list');
+        var pagerEl = document.getElementById('pager');
+        var pagerPrev = document.getElementById('page-prev');
+        var pagerNext = document.getElementById('page-next');
+        var pagerInd = document.getElementById('page-ind');
+        var metaEl = document.getElementById('meta');
+        var titleEl = document.getElementById('title');
+        var treeEl = document.getElementById('tree');
+
+        function esc(s) {
+            return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+            });
+        }
+        function encPath(p) { return String(p).split('/').map(encodeURIComponent).join('/'); }
+        function fmt(n) { return Number(n || 0).toLocaleString(); }
+        function labelFor(e) {
+            if (e.kind === 'live') return 'live';
+            if (e.kind === 'lecture') return 'lecture';
+            return e.kind || e.corpus || 'file';
+        }
+        function badgeClass(e) {
+            if (e.kind === 'live') return 'badge badge-live';
+            return 'badge badge-' + (e.corpus || 'note');
+        }
+        function viewerHref(e) {
+            if (e.kind === 'live') return 'corpus/' + encPath(e.path);
+            if (e.corpus === 'course' && e.kind === 'course') {
+                var p = /readme\.md$/.test(e.path) ? e.path : e.path + '/readme.md';
+                return 'note.html?p=' + encPath(p);
+            }
+            return 'note.html?p=' + encPath(e.path);
+        }
+
+        var ICON = {
+            dir: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>',
+            note: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h4"/></svg>',
+            document: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
+            course: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>',
+            lecture: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+            live: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>'
+        };
+
+        function kindIcon(kind) {
+            return ICON[kind] || ICON.note;
+        }
+
+        function fileHref(f) {
+            if (f.k === 'live') return 'corpus/' + encPath(f.p);
+            if (f.k === 'course') return 'note.html?p=' + encPath(/readme\.md$/.test(f.p) ? f.p : f.p + '/readme.md');
+            return 'note.html?p=' + encPath(f.p);
+        }
+
+        function fileRowHtml(f, q) {
+            var term = q ? q.text : '';
+            var sub = f.p;
+            if (f.w) sub += ' · ' + fmt(f.w) + ' words';
+            return '<a class="item" href="' + fileHref(f) + '">' +
+                '<span class="badge badge-' + esc(f.c || 'note') + '" title="' + esc(f.k || f.c || 'file') + '">' + kindIcon(f.k || f.c || 'note') + '</span>' +
+                '<span><span class="item-title">' + hl(f.t || f.p.split('/').pop(), term) + '</span>' +
+                '<span class="item-sub">' + hl(sub, term) + '</span></span>' +
+                '<span class="item-tags">' + ((f.g || []).slice(0, 2).map(function (x) { return '#' + esc(x); }).join(' ')) + '</span></a>';
+        }
+
+        function dirRowHtml(path, count, q) {
+            var name = path.split('/').pop();
+            return '<a class="item dir" href="?dir=' + encodeURIComponent(path) + '" data-dir="' + esc(path) + '">' +
+                '<span class="badge badge-dir" title="directory">' + kindIcon('dir') + '</span>' +
+                '<span><span class="item-title">' + hl(name, q ? q.text : '') + '</span>' +
+                '<span class="item-sub">directory</span></span>' +
+                '<span class="item-tags">' + fmt(count) + '</span></a>';
+        }
+
+        function renderHint() {
+            listEl.innerHTML = '<div class="empty">No match. Type in the search box to filter the tree.</div>';
+            pagerEl.hidden = true;
+            titleEl.textContent = 'Corpus';
+            metaEl.textContent = '';
+        }
+
+        function renderDir() {
+            var node = NODES[state.dir] || { dirs: [], files: [] };
+            var html = '';
+            (node.d || []).forEach(function (name) {
+                var child = state.dir ? state.dir + '/' + name : name;
+                html += dirRowHtml(child, matchCount(child), null);
+            });
+            (BYDIR[state.dir] || []).forEach(function (f) { html += fileRowHtml(f, null); });
+            listEl.innerHTML = html || '<div class="empty">This directory is empty.</div>';
+            pagerEl.hidden = true;
+            titleEl.textContent = state.dir ? state.dir.split('/').pop() : 'Corpus';
+            metaEl.textContent = fmt((node.d || []).length + (BYDIR[state.dir] || []).length) + ' items' +
+                (state.dir ? ' · ' + state.dir : '');
+        }
+
+        var NODES = {};        /* dir path -> {n, p, d[], c} */
+        var FILES = [];        /* {p, n, t, k, e}, sorted by n */
+        var ROOTS = [];
+        var BYDIR = {};        /* dir path -> [file records] */
+        var MATCHDIR = {};     /* dir path -> true when the name matches */
+        var MATCHFILE = {};    /* file path -> true when the title matches */
+        var DIRHITS = {};      /* dir path -> matching files at or below */
+        var TOTAL = 0;
+        var FILEBYKEY = {};
+        var OPEN = {};         /* dir path -> expanded */
+        var CLOSED = {};       /* dir path -> explicitly collapsed */
+        var PRE_SEARCH_OPEN = null;
+
+        function loadTree(d) {
+            NODES = d.nodes || {};
+            FILES = d.files || [];
+            ROOTS = d.roots || [];
+            TOTAL = d.count || 0;
+            BYDIR = {};
+            FILEBYKEY = {};
+            FILES.forEach(function (f) {
+                FILEBYKEY[f.p] = f;
+                var i = f.p.lastIndexOf('/');
+                var dir = i < 0 ? '' : f.p.slice(0, i);
+                (BYDIR[dir] = BYDIR[dir] || []).push(f);
+            });
+        }
+
+        function fileOf(path) {
+            var i = FILES.findIndex ? FILES.findIndex(function (f) { return f.p === path; }) : -1;
+            return i >= 0 ? FILES[i] : null;
+        }
+
+        function parseQuery(raw) {
+            var tags = [], words = [];
+            String(raw || '').trim().toLowerCase().split(/\s+/).filter(Boolean).forEach(function (tok) {
+                if (tok.charAt(0) === '@' && tok.length > 1) tags.push(tok.slice(1));
+                else words.push(tok);
+            });
+            return { tags: tags, text: words.join(' ') };
+        }
+
+        function hl(text, q) {
+            text = String(text == null ? '' : text);
+            if (!q) return esc(text);
+            var i = text.toLowerCase().indexOf(q);
+            if (i < 0) return esc(text);
+            return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
+        }
+
+        /* Name search only: file titles and directory names. Neither tags nor
+           paths nor content take part. Prefix hits rank before inner hits. */
+        function computeMatches(q) {
+            MATCHDIR = {};
+            MATCHFILE = {};
+            DIRHITS = {};
+            if (!q) return;
+            var term = q.text;
+            if (!term) return;
+
+            Object.keys(NODES).forEach(function (dir) {
+                if (dir && (NODES[dir].n || '').toLowerCase().indexOf(term) >= 0) MATCHDIR[dir] = true;
+            });
+            for (var i = 0; i < FILES.length; i++) {
+                if (FILES[i].n.indexOf(term) < 0) continue;
+                MATCHFILE[FILES[i].p] = true;
+                var d = FILES[i].p.slice(0, FILES[i].p.lastIndexOf('/'));
+                while (true) {
+                    DIRHITS[d] = (DIRHITS[d] || 0) + 1;
+                    var node = NODES[d];
+                    if (!node || node.p === null || node.p === undefined) break;
+                    d = node.p;
+                }
+            }
+        }
+
+        function parseQuery(raw) {
+            var tags = [], words = [];
+            String(raw || '').trim().toLowerCase().split(/\s+/).filter(Boolean).forEach(function (tok) {
+                if (tok.charAt(0) === '@' && tok.length > 1) tags.push(tok.slice(1));
+                else words.push(tok);
+            });
+            return { tags: tags, text: words.join(' ') };
+        }
+
+        function hl(text, q) {
+            text = String(text == null ? '' : text);
+            if (!q) return esc(text);
+            var i = text.toLowerCase().indexOf(q);
+            if (i < 0) return esc(text);
+            return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
+        }
+
+        /* Name search only: file titles and directory names. Neither tags nor
+           paths nor content take part. Prefix hits rank before inner hits. */
+        function computeMatches(q) {
+            MATCHDIR = {};
+            MATCHFILE = {};
+            DIRHITS = {};
+            if (!q) return;
+            var term = q.text;
+            if (!term) return;
+
+            Object.keys(NODES).forEach(function (dir) {
+                if (dir && (NODES[dir].n || '').toLowerCase().indexOf(term) >= 0) MATCHDIR[dir] = true;
+            });
+            for (var i = 0; i < FILES.length; i++) {
+                if (FILES[i].n.indexOf(term) < 0) continue;
+                MATCHFILE[FILES[i].p] = true;
+                var d = FILES[i].p.slice(0, FILES[i].p.lastIndexOf('/'));
+                while (true) {
+                    DIRHITS[d] = (DIRHITS[d] || 0) + 1;
+                    var node = NODES[d];
+                    if (!node || node.p === null || node.p === undefined) break;
+                    d = node.p;
+                }
+            }
+        }
+
+        function dirMatches(path) {
+            if (!state.q) return true;
+            return !!MATCHDIR[path] || (DIRHITS[path] || 0) > 0;
+        }
+
+        function matchCount(path) {
+            if (!state.q) return (NODES[path] || {}).c || 0;
+            return (DIRHITS[path] || 0) + (MATCHDIR[path] ? 1 : 0);
+        }
+
+        function fileMatches(f) {
+            if (!state.q) return true;
+            return !!MATCHFILE[f.p];
+        }
+
+        /* Walk the whole matching subtree under state.dir: every matching
+           directory (indented by depth) and its matching files as leaves. */
+        function flattenSearch() {
+            var rows = [];
+            function walk(dir, depth) {
+                var node = NODES[dir];
+                if (!node) return;
+                if (depth > 0) rows.push({ t: 'dir', dir: dir, depth: depth, count: matchCount(dir) });
+                (BYDIR[dir] || []).forEach(function (f) {
+                    if (fileMatches(f)) rows.push({ t: 'file', f: f, depth: depth });
+                });
+                (node.d || []).forEach(function (name) {
+                    var child = dir ? dir + '/' + name : name;
+                    if (dirMatches(child)) walk(child, depth + 1);
+                });
+            }
+            if (state.dir) walk(state.dir, 0);
+            else ROOTS.forEach(function (r) { if (dirMatches(r)) walk(r, 0); });
+            return rows;
+        }
+
+        function renderSearch() {
+            var q = parseQuery(state.q);
+            var key = state.dir + '|' + state.q;
+            if (ROWS.key !== key) {
+                ROWS = flattenSearch();
+                ROWS.key = key;
+                LIST_CACHE = {};
+            }
+            var pages = Math.max(1, Math.ceil(ROWS.length / PAGE_SIZE));
+            if (state.page > pages) state.page = pages;
+            if (state.page < 1) state.page = 1;
+            var start = (state.page - 1) * PAGE_SIZE;
+            var pageKey = key + '|' + state.page;
+            if (LIST_CACHE[pageKey]) {
+                listEl.innerHTML = LIST_CACHE[pageKey];
+                paintMeta(pages);
+                return;
+            }
+            var slice = ROWS.slice(start, start + PAGE_SIZE);
+
+            var html = '';
+            slice.forEach(function (r) {
+                var pad = (0.4 + r.depth * 1.1) + 'rem';
+                if (r.t === 'dir') {
+                    var n = NODES[r.dir] || {};
+                    html += '<a class="item dir nested" style="padding-left:' + pad + '" ' +
+                        'href="?dir=' + encodeURIComponent(r.dir) + '" data-dir="' + esc(r.dir) + '">' +
+                        '<span class="badge badge-dir" title="directory">' + kindIcon('dir') + '</span>' +
+                        '<span><span class="item-title">' + hl(n.n || r.dir.split('/').pop(), q.text) + '</span>' +
+                        '<span class="item-sub">' + esc(r.dir) + '</span></span>' +
+                        '<span class="item-tags">' + fmt(r.count) + '</span></a>';
+                } else {
+                    var f = r.f;
+                    html += '<a class="item file nested" style="padding-left:' + pad + '" href="' + fileHref(f) + '">' +
+                        '<span class="badge badge-' + esc(f.c || 'note') + '" title="' + esc(f.k || f.c || 'file') + '">' + kindIcon(f.k || f.c || 'note') + '</span>' +
+                        '<span><span class="item-title">' + hl(f.t || f.p.split('/').pop(), q.text) + '</span>' +
+                        '<span class="item-sub">' + esc(f.p) + '</span></span>' +
+                        '<span class="item-tags">' + (f.w ? fmt(f.w) + ' w' : '') + '</span></a>';
+                }
+            });
+
+            var out = html || ('<div class="empty">' + (state.q ? 'Nothing matches in this part of the tree.' : 'This directory is empty.') + '</div>');
+            LIST_CACHE[pageKey] = out;
+            listEl.innerHTML = out;
+            paintMeta(pages);
+        }
+
+        function paintMeta(pages) {
+            titleEl.textContent = state.dir ? state.dir.split('/').pop() : 'Corpus';
+            var total = ROWS.length;
+            metaEl.textContent = fmt(total) + ' row' + (total === 1 ? '' : 's') +
+                (state.dir ? ' \u00b7 ' + state.dir : '') +
+                (pages > 1 ? ' \u00b7 page ' + state.page + ' / ' + pages : '');
+            pagerEl.hidden = pages <= 1;
+            if (pages > 1) {
+                pagerInd.textContent = 'page ' + state.page + ' / ' + pages;
+                pagerPrev.disabled = state.page <= 1;
+                pagerNext.disabled = state.page >= pages;
+            }
+        }
+
+        var lastSig = null;
+        var LIST_CACHE = {};
+
+        function render() {
+            var q = parseQuery(state.q || '');
+            computeMatches(state.q ? q : null);
+            var sig = state.dir + '|' + state.q + '|' + state.page;
+            if (sig !== lastSig) {
+                lastSig = sig;
+                if (state.q) renderSearch(); else renderHint();
+            }
+            paintTree();
+        }
+
+        function ancestors(path) {
+            var out = [];
+            if (!path) return out;
+            var parts = path.split('/');
+            var acc = '';
+            parts.forEach(function (p) { acc = acc ? acc + '/' + p : p; out.push(acc); });
+            return out;
+        }
+
+        /* The tree is built ONCE and then only toggled/marked. Rebuilding the
+           DOM per keystroke was the freeze: hundreds of nodes and listeners
+           re-created on every query. Nodes carry their own key so we can
+           move/hide them without re-creating anything. */
+        /* Lazy tree: a node is created with an empty children container and
+           filled the first time it opens. No global cap — painting depth is
+           what matters, so notes (588 dirs) no longer starves documents and
+           courses. */
+        var TREE_NODES = {};   /* dir path -> { el, nameEl, countEl, box, built, ... } */
+        var TREE_ROOT = null;
+        var TREE_BUILT = false;
+
+        function fileLeaf(f, depth) {
+            var a = document.createElement('a');
+            a.className = 'leaf-file';
+            a.href = fileHref(f);
+            a.style.paddingLeft = (0.55 + depth * 0.9) + 'rem';
+            a.innerHTML = '<span class="fname">' + esc(f.t || f.p.split('/').pop()) + '</span>' +
+                '<span class="fk" title="' + esc(f.k || '') + '">' + kindIcon(f.k || 'note') + '</span>';
+            return a;
+        }
+
+        function makeNode(path, depth) {
+            if (TREE_NODES[path]) return TREE_NODES[path].el;
+            var node = NODES[path];
+            if (!node) return null;
+
+            var details = document.createElement('details');
+            details.dataset.path = path;
+
+            var summary = document.createElement('summary');
+            summary.innerHTML = '<span class="tw">\u25b8</span>' +
+                '<span class="node-name">' + esc(node.n || path.split('/').pop()) + '</span>' +
+                '<span class="count">' + fmt(node.c || 0) + '</span>';
+            var nameEl = summary.querySelector('.node-name');
+            var countEl = summary.querySelector('.count');
+            nameEl.addEventListener('click', function (ev) {
+                ev.preventDefault();
+                ev.stopPropagation();
+                /* plain disclosure: show this node's immediate children */
+                if (!details.open) details.open = true; else details.open = false;
+            });
+            details.appendChild(summary);
+
+            var box = document.createElement('div');
+            box.className = 'kids';
+            details.appendChild(box);
+
+            var rec = {
+                el: details, nameEl: nameEl, countEl: countEl, box: box,
+                depth: depth, built: false, open: false, hidden: false, active: false, count: null
+            };
+            TREE_NODES[path] = rec;
+
+            details.addEventListener('toggle', function () {
+                OPEN[path] = details.open;
+                if (details.open) { delete CLOSED[path]; fillNode(path); }
+                else CLOSED[path] = true;
+                rec.open = details.open;
+            });
+            return details;
+        }
+
+        function fillNode(path) {
+            var rec = TREE_NODES[path];
+            if (!rec || rec.built) return;
+            rec.built = true;
+            var node = NODES[path] || { d: [] };
+            var frag = document.createDocumentFragment();
+            (node.d || []).forEach(function (name) {
+                var child = makeNode(path + '/' + name, rec.depth + 1);
+                if (child) frag.appendChild(child);
+            });
+            (BYDIR[path] || []).forEach(function (f) {
+                var el = fileLeaf(f, rec.depth + 1);
+                el.dataset.fpath = f.p;
+                frag.appendChild(el);
+            });
+            rec.box.appendChild(frag);
+        }
+
+        function buildTreeOnce() {
+            if (TREE_BUILT) return;
+            TREE_BUILT = true;
+
+            var root = document.createElement('div');
+            root.className = 'root fixed';
+            var head = document.createElement('div');
+            head.className = 'root-head';
+            head.innerHTML = '<span class="node-name">corpus</span>' +
+                '<span class="count">' + fmt(NODES[''].c || 0) + '</span>';
+            root.appendChild(head);
+            var box = document.createElement('div');
+            box.className = 'kids';
+            root.appendChild(box);
+            treeEl.appendChild(root);
+
+            TREE_ROOT = { el: root, countEl: head.querySelector('.count'), count: null };
+
+            ROOTS.forEach(function (r) {
+                var el = makeNode(r, 1);
+                if (el) box.appendChild(el);
+            });
+        }
+
+        /* Repaint what has been built: cached refs, write only on change. */
+        function paintTree() {
+            buildTreeOnce();
+            var filtering = !!state.q;
+            var chain = {};
+            ancestors(state.dir).forEach(function (a) { chain[a] = true; });
+
+            for (var path in TREE_NODES) {
+                var rec = TREE_NODES[path];
+                var visible = !filtering || dirMatches(path);
+                if (rec.hidden !== !visible) { rec.el.hidden = !visible; rec.hidden = !visible; }
+                var active = state.dir === path;
+                if (rec.active !== active) { rec.nameEl.classList.toggle('active', active); rec.active = active; }
+                var count = fmt(matchCount(path));
+                if (rec.count !== count) { rec.countEl.textContent = count; rec.count = count; }
+
+                var open = CLOSED[path] ? false
+                    : (!!OPEN[path] || !!chain[path] || (filtering && visible));
+                if (rec.open !== open) {
+                    rec.el.open = open;
+                    rec.open = open;
+                    if (open) fillNode(path);
+                }
+            }
+
+            /* leaves live inside their folder's box: hide/show via CSS class on
+               the folder, no per-leaf loop over the whole corpus */
+            var leaves = treeEl.querySelectorAll('.leaf-file');
+            for (var i = 0; i < leaves.length; i++) {
+                var el = leaves[i];
+                var f = FILEBYKEY[el.dataset.fpath];
+                if (!f) continue;
+                var ok = !filtering || fileMatches(f);
+                el.hidden = !ok;
+            }
+
+            if (TREE_ROOT) {
+                var c = fmt(matchCount(''));
+                if (TREE_ROOT.count !== c) { TREE_ROOT.countEl.textContent = c; TREE_ROOT.count = c; }
+            }
+        }
+
+        function resetTree() {
+            buildTreeOnce();
+            CLOSED = {};
+            Object.keys(TREE_NODES).forEach(function (k) {
+                delete OPEN[k];
+                CLOSED[k] = true;
+                var rec = TREE_NODES[k];
+                if (rec.el.open) { rec.el.open = false; rec.open = false; }
+            });
+            treeEl.scrollTop = 0;
+            state.dir = '';
+            state.page = 1;
+            var us = document.getElementById('usearch');
+            if (us && us.value) { us.value = ''; }
+            state.q = '';
+            PRE_SEARCH_OPEN = null;
+            lastSig = null;
+            try { history.replaceState(null, '', location.pathname); } catch (e) { /* ignore */ }
+            render();
+        }
+
+        var searchTimer = null;
+        document.addEventListener('epistecnica-search', function (e) {
+            var next = (e.detail && e.detail.query ? e.detail.query : '').trim();
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(function () {
+                if (next === state.q) return;
+                if (!state.q && next) PRE_SEARCH_OPEN = Object.assign({}, OPEN);
+                if (state.q && !next && PRE_SEARCH_OPEN) {
+                    OPEN = Object.assign({}, PRE_SEARCH_OPEN);
+                    CLOSED = {};
+                    PRE_SEARCH_OPEN = null;
+                }
+                state.q = next;
+                state.page = 1;
+                try {
+                    var url = new URL(location.href);
+                    if (state.q) url.searchParams.set('q', state.q);
+                    else url.searchParams.delete('q');
+                    history.replaceState(null, '', url.pathname + url.search);
+                } catch (err) { /* ignore */ }
+                render();
+            }, 130);
+        });
+
+        pagerPrev.addEventListener('click', function () { setPage(state.page - 1); });
+        pagerNext.addEventListener('click', function () { setPage(state.page + 1); });
+
+        function setPage(p) {
+            var pages = Math.max(1, Math.ceil(ROWS.length / PAGE_SIZE));
+            if (p < 1 || p > pages || p === state.page) return;
+            state.page = p;
+            render();
+            listEl.scrollIntoView({ block: 'start', behavior: 'smooth' });
+        }
+
+        document.getElementById('resetTree').addEventListener('click', resetTree);
+
+        function goUp() {
+            if (!state.dir) return;
+            var parts = state.dir.split('/');
+            parts.pop();
+            go(parts.join('/'));
+        }
+
+        function randomOpen() {
+            var pool = [];
+            (function walk(dir) {
+                var n = NODES[dir];
+                if (!n) return;
+                (BYDIR[dir] || []).forEach(function (f) { if (fileMatches(f)) pool.push(f); });
+                (n.d || []).forEach(function (name) {
+                    var child = dir ? dir + '/' + name : name;
+                    if (dirMatches(child)) walk(child);
+                });
+            })(state.dir);
+            if (!pool.length) return;
+            window.location.href = fileHref(pool[Math.floor(Math.random() * pool.length)]);
+        }
+
+        document.addEventListener('keydown', function (e) {
+            var typing = !!document.activeElement && document.activeElement.id === 'usearch';
+            if (typing) return;
+            if (e.key === 'Backspace' || (e.altKey && e.key === 'ArrowLeft')) {
+                e.preventDefault();
+                goUp();
+            } else if (e.key === 'r') {
+                e.preventDefault();
+                randomOpen();
+            }
+        });
+
+        var themeBtn = document.getElementById('themeToggle');
+        function applyTheme() {
+            var t = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+            document.documentElement.dataset.theme = t;
+            localStorage.setItem('epistecnica-theme', t);
+            document.getElementById('themeLabel').textContent = t === 'light' ? 'DARK' : 'LIGHT';
+        }
+        document.getElementById('themeLabel').textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+        themeBtn.addEventListener('click', function () {
+            document.documentElement.classList.add('theme-fading');
+            setTimeout(function () { applyTheme(); document.documentElement.classList.remove('theme-fading'); }, 190);
+        });
+
+        var p = new URLSearchParams(location.search);
+        if (p.get('dir')) state.dir = p.get('dir');
+        if (p.get('q')) {
+            state.q = p.get('q');
+            var us = document.getElementById('usearch');
+            if (us) us.value = state.q;
+        }
+
+        fetch('data/tree-index.json', { headers: { 'Accept': 'application/json' }, cache: 'no-cache' })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (d) {
+                loadTree(d);
+                var fd = document.getElementById('foot-date');
+                if (fd && d.generated) fd.textContent = d.generated;
+                render();
+            })
+            .catch(function (err) {
+                metaEl.textContent = 'Could not load the corpus index (' + err.message + '). Run make index.';
+            });
+    })();
+    </script>
+    <script src="shared/usearch.js" data-root="" data-mode="filter"></script>
+</body>
+</html>

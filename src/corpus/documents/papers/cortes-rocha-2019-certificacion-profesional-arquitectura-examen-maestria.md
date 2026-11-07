@@ -24,7 +24,7 @@ tags: [document, history, architecture, new-spain, guilds, paper]
 
 > [**Relevance**] Very high. It reconstructs the certification requirements and the rights acquired by master builders, and situates the guild examination within the wider regulation of architecture in New Spain.
 
-Read the corpus note: [Gremios](note.html?p=notes/social/history/castilla/gremios.md).
+Read the corpus note: [Gremios](/note.html?p=notes/social/history/castilla/gremios.md).
 
 ## References
 

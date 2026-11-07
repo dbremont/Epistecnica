@@ -34,4 +34,4 @@ tags: [note, cooking, domestic]
 ## References
 
 - Produceologia `docs/Production/Technique/Breviarium/Cooking/`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

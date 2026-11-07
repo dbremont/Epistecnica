@@ -29,8 +29,8 @@ tags: [document, physical]
 - arXiv:cond-mat/9907176 — https://arxiv.org/abs/cond-mat/9907176
 - Santa Fe Institute Working Paper 99-07-044.
 - https://bactra.org/research/cmppss.pdf
-- [Vafa et al. — Evaluating the World Model Implicit in a Generative Model](note.html?p=documents/papers/vafa-2024-evaluating-world-model-implicit-generative.md)
-- [Generative Model](note.html?p=notes/epistemica/observational/computational/generative-model.md)
-- [Computational Learning](note.html?p=notes/epistemica/observational/computational/computational-learning.md)
-- [Probability Model Validation](note.html?p=notes/epistemica/observational/probability-model-validation.md)
+- [Vafa et al. — Evaluating the World Model Implicit in a Generative Model](/note.html?p=documents/papers/vafa-2024-evaluating-world-model-implicit-generative.md)
+- [Generative Model](/note.html?p=notes/epistemica/observational/computational/generative-model.md)
+- [Computational Learning](/note.html?p=notes/epistemica/observational/computational/computational-learning.md)
+- [Probability Model Validation](/note.html?p=notes/epistemica/observational/probability-model-validation.md)
 

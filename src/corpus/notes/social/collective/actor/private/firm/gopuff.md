@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, united-states, on-demand, automated-fulfillm
 ## References
 
 - Wikipedia — Gopuff (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

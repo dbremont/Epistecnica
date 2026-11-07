@@ -49,7 +49,7 @@ Status: Not started
 
 ## References
 
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the functional actor family this host unit belongs to)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the functional actor family this host unit belongs to)
 - https://en.wikipedia.org/wiki/Laboratory
 - Hamberg, Daniel. "Invention in the industrial research laboratory." Journal of Political Economy 71.2 (1963): 95-115.
 - Holt, Charles A. "Industrial organization: A survey of laboratory research." The handbook of experimental economics 349 (1995): 402-03.

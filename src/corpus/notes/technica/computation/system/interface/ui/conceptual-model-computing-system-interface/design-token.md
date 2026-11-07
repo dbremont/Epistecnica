@@ -4,7 +4,7 @@ tags: [note, system]
 
 # Design Token
 
-- [Beauty](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/beauty.md)
+- [Beauty](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/beauty.md)
 
 > A **design token** is a **named, platform-agnostic value** that represents a design decision such as a color, spacing, typography, or other visual style property. Design tokens are used to **ensure consistency** and **enable scalability** across different platforms and products by centralizing design choices in a **machine-readable format** (usually JSON, YAML, or SCSS variables).
 > 

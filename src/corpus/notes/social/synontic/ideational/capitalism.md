@@ -45,7 +45,7 @@ GQ:
 
 * [Value](../value.md)
 * [Capital](https://en.wikipedia.org/wiki/Capital_(economics))
-* [Capital](note.html?p=notes/social/coordinator/capital-labor/capital.md)
+* [Capital](/note.html?p=notes/social/coordinator/capital-labor/capital.md)
 * [Capital * Etymology](https://www.etymonline.com/word/capital)
 * [Capitalism Ngram](https://books.google.com/ngrams/graph?content=capitalism&year_start=1800&year_end=2022&corpus=en&smoothing=3#)
 * [Did Marx use the word "capitalism"?](https://skeptics.stackexchange.com/questions/47854/did-marx-use-the-word-capitalism)

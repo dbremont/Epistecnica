@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # Flex
 
-- [GNU Bison](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gnu-bison.md)
+- [GNU Bison](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gnu-bison.md)
 
 > Flex is a program that takes a Grammar Spec and generates a Lexical Analyzer.
 > 

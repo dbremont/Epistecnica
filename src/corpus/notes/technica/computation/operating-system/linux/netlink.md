@@ -4,7 +4,7 @@ tags: [note, network]
 
 # Netlink
 
-- [Linux Network Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
+- [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
 
 > Netlink is a communication protocol in the Linux kernel that provides an interface between the kernel and user-space processes for managing networking-related tasks. It allows user-space applications to send and receive messages to and from the kernel, facilitating interactions with various networking subsystems such as routing, network configuration, and firewall management. Netlink supports different protocol families, each designed for specific purposes, such as `NETLINK_ROUTE` for routing and interface management, `NETLINK_INET_DIAG` for socket diagnostics, and more. This flexibility enables developers to create robust networking applications that can communicate directly with the kernel and handle various network events efficiently.
 > 

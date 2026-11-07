@@ -4,7 +4,7 @@ tags: [note, initialization]
 
 # GRUB: GNU GRand Unified Bootloader
 
-- [Booting (Initialization)](note.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
+- [Booting (Initialization)](/note.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
 
 > **GRUB (GNU GRand Unified Bootloader)** is a versatile **bootloader** program used to manage and boot multiple operating systems on a computer.
 > 

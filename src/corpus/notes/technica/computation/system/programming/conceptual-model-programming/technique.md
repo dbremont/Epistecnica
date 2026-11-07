@@ -4,7 +4,7 @@ tags: [note, technique]
 
 # Technique
 
-- [Indirection](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/indirection.md), [Circuit Breaker](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/circuit-breaker.md)
+- [Indirection](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/indirection.md), [Circuit Breaker](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/circuit-breaker.md)
 
 > A **programming technique** is a method, strategy, or approach used by programmers to design, implement, or optimize code in order to solve a problem efficiently, clearly, and correctly.
 > 

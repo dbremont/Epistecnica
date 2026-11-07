@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # Terminal Session Recorder
 
-- [Terminal Emulator](note.html?p=notes/technica/computation/miscelanea/terminal-emulator.md)
+- [Terminal Emulator](/note.html?p=notes/technica/computation/miscelanea/terminal-emulator.md)
 
 > In this note, we will explore a class of systems called **Terminal Session Recorders**—systems that capture, store, and replay the interaction between a user and a terminal session.
 > 
@@ -101,4 +101,4 @@ The timing file contains the delays between output events, allowing `scriptrepla
 
 ## References
 
-- [Linux Graphics Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)
+- [Linux Graphics Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)

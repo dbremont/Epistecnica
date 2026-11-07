@@ -4,7 +4,7 @@ tags: [note]
 
 # Probability Model Validation
 
-Related: [Model Validation](note.html?p=notes/epistemica/validation/validation.md)
+Related: [Model Validation](/note.html?p=notes/epistemica/validation/validation.md)
 
 > **Probability model validation** is the process of assessing whether a probabilistic model **adequately represents the system or phenomenon it is intended to describe**, capturing both the **structural dependencies** and the **stochastic behavior** of the variables of interest. The goal is to ensure that predictions, inferences, or decisions based on the model are **reliable** and **consistent with observed data**.
 > 
@@ -57,7 +57,7 @@ Validation involves several complementary checks:
 
 | Category | Method | Description |
 | --- | --- | --- |
-| [Goodness-of-Fit](note.html?p=notes/epistemica/validation/goodness-of-fit.md) | Chi-square test, KS test, Cramér–von Mises, Anderson-Darling test | Compare empirical distribution of data to model-predicted distribution; the [atlas](data/epistemica/validation/atlas/gof.html) runs the measures live. |
+| [Goodness-of-Fit](/note.html?p=notes/epistemica/validation/goodness-of-fit.md) | Chi-square test, KS test, Cramér–von Mises, Anderson-Darling test | Compare empirical distribution of data to model-predicted distribution; the [atlas](/corpus/notes/epistemica/validation/atlas/gof.html) runs the measures live. |
 | Likelihood-Based | Log-likelihood, AIC, BIC | Evaluate how well the model explains data while penalizing complexity. |
 | Bayesian Checks | Posterior predictive checks | Simulate data from posterior predictive distribution and compare to observations. |
 | Cross-Validation | k-fold, train/test split | Assess predictive performance on data not used in model fitting. |

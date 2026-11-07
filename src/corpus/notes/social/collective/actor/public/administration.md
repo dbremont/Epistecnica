@@ -28,7 +28,7 @@ tags: [note, administration, collective, social-element, actor]
 
 ### What type of social element does this instance belong to?
 
-**Public Administration belongs primarily to `Social Compound` as an `Administrative Collective`** — an organized political collective (`Collective (→ Kind) Administrative Collective`); see [Collective](note.html?p=notes/social/collective/collective.md). It is typed under [Actor](note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology, and its operating units are [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) instances directed by a [Government](note.html?p=notes/social/collective/actor/public/government.md).
+**Public Administration belongs primarily to `Social Compound` as an `Administrative Collective`** — an organized political collective (`Collective (→ Kind) Administrative Collective`); see [Collective](/note.html?p=notes/social/collective/collective.md). It is typed under [Actor](/note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology, and its operating units are [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) instances directed by a [Government](/note.html?p=notes/social/collective/actor/public/government.md).
 
 Its layer is **Ontic** where the administration exists extra-mentally (staff, offices, premises, budgets, systems) with **Synontic** aspects (authority, jurisdiction, legitimacy exist through shared recognition and legal warrant).
 
@@ -40,7 +40,7 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### Which facet does this element belong to, if applicable?
 
-> Administrative first (coordination of heterogeneous agents into coherent operation is the dominant causal mechanism); political where it wields delegated public authority; legal-constitutional where mandate, competencies, and limits are defined; economic where it allocates budgets and procures. See [Facet](note.html?p=notes/social/framework/facet.md).
+> Administrative first (coordination of heterogeneous agents into coherent operation is the dominant causal mechanism); political where it wields delegated public authority; legal-constitutional where mandate, competencies, and limits are defined; economic where it allocates budgets and procures. See [Facet](/note.html?p=notes/social/framework/facet.md).
 
 ### What is the recursive instance decomposition of this instance under collective?
 
@@ -132,7 +132,7 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, determinacy, and misuse resistance. The administration/institution conflation reads here as parsimony plus fidelity failures: the architecture composing agents into an operating unit is not the rules it operates within — merging the two rows types the builder and the blueprint as one.
 
@@ -193,11 +193,11 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### Is government-wide administration a single system?
 
-> No. The public sector is not a unitary administrable object but a heterogeneous assemblage of agencies with distinct mandates, goal functions, and professional logics. What is conventionally called Public Administration at that scale is better understood as meta-administration: coordination mechanisms, standards, shared services, and oversight architectures under which differentiated administrative regimes coexist. System detail lives in [Government-Wide Administrative System](note.html?p=notes/social/collective/actor/public/gov-wide-administration.md).
+> No. The public sector is not a unitary administrable object but a heterogeneous assemblage of agencies with distinct mandates, goal functions, and professional logics. What is conventionally called Public Administration at that scale is better understood as meta-administration: coordination mechanisms, standards, shared services, and oversight architectures under which differentiated administrative regimes coexist. System detail lives in [Government-Wide Administrative System](/note.html?p=notes/social/collective/actor/public/gov-wide-administration.md).
 
 ### Where do workforce, civil service, and HR units decompose?
 
-> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](note.html?p=notes/social/collective/actor/public/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](note.html?p=notes/social/collective/actor/public/catalog/hru.md). Individual employment positions decompose in [Public Employee](note.html?p=notes/social/collective/actor/public/catalog/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](note.html?p=notes/social/collective/actor/public/informe/mandarinate.md) and [Course of Honors](note.html?p=notes/social/collective/actor/public/informe/course-of-honors.md).
+> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](/note.html?p=notes/social/collective/actor/public/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](/note.html?p=notes/social/collective/actor/public/catalog/hru.md). Individual employment positions decompose in [Public Employee](/note.html?p=notes/social/collective/actor/public/catalog/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](/note.html?p=notes/social/collective/actor/public/informe/mandarinate.md) and [Course of Honors](/note.html?p=notes/social/collective/actor/public/informe/course-of-honors.md).
 
 ### Is there an overarching abstraction that allows us to classify and cluster government-wide administrative systems along a single dimension, such as an administrative model, administrative paradigm, administrative philosophy, or system type? What else?
 
@@ -366,22 +366,22 @@ See
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
-- [Collective](note.html?p=notes/social/collective/collective.md)
-- [Actor](note.html?p=notes/social/collective/actor/actor.md)
-- [Government](note.html?p=notes/social/collective/actor/public/government.md)
-- [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md)
-- [Organization](note.html?p=notes/social/collective/actor/organization.md)
-- [Facet](note.html?p=notes/social/framework/facet.md)
-- [Public Policy](note.html?p=notes/social/action/public/guidance/policy.md)
-- [Plan](note.html?p=notes/social/action/organization/plan.md)
-- [Program](note.html?p=notes/social/action/organization/program.md)
-- [Government-Wide Administrative System](note.html?p=notes/social/collective/actor/public/gov-wide-administration.md)
-- [Civil Service](note.html?p=notes/social/collective/actor/public/civil-service.md)
-- [Public Employee](note.html?p=notes/social/collective/actor/public/catalog/employee.md)
-- [Human Resource Unit](note.html?p=notes/social/collective/actor/public/catalog/hru.md)
+- [Collective](/note.html?p=notes/social/collective/collective.md)
+- [Actor](/note.html?p=notes/social/collective/actor/actor.md)
+- [Government](/note.html?p=notes/social/collective/actor/public/government.md)
+- [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md)
+- [Organization](/note.html?p=notes/social/collective/actor/organization.md)
+- [Facet](/note.html?p=notes/social/framework/facet.md)
+- [Public Policy](/note.html?p=notes/social/action/public/guidance/policy.md)
+- [Plan](/note.html?p=notes/social/action/organization/plan.md)
+- [Program](/note.html?p=notes/social/action/organization/program.md)
+- [Government-Wide Administrative System](/note.html?p=notes/social/collective/actor/public/gov-wide-administration.md)
+- [Civil Service](/note.html?p=notes/social/collective/actor/public/civil-service.md)
+- [Public Employee](/note.html?p=notes/social/collective/actor/public/catalog/employee.md)
+- [Human Resource Unit](/note.html?p=notes/social/collective/actor/public/catalog/hru.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)
 - [Public Administration: Journal Rankings](https://ooir.org/journals.php?category=Public%20Administration&field=Social%20Sciences&metric=jif)

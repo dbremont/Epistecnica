@@ -4,7 +4,7 @@ tags: [note, cluster-management, container, iaas]
 
 # Kubernetes
 
-- Related Virtualization: Conceptual Model: k3s: [Lightweight Kubernetes](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/k3s-lightweight-kubernetes.md)
+- Related Virtualization: Conceptual Model: k3s: [Lightweight Kubernetes](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/k3s-lightweight-kubernetes.md)
 
 > **Kubernetes**:  { Management of Nodes + Resources, Pods (Containerized Workloads) }
 > 

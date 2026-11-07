@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, united-states, convenience, franchise]
 ## References
 
 - Wikipedia — 7-Eleven (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

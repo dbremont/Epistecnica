@@ -36,9 +36,9 @@ Guiding questions:
 
 ## References
 
-- [Coq](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/coq.md)
+- [Coq](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/coq.md)
 - [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic)
-- [Verification](note.html?p=notes/technica/computation/dependability/verification.md)
+- [Verification](/note.html?p=notes/technica/computation/dependability/verification.md)
 - [Formal System](https://app.notion.com/p/Formal-System-41d02881d0544314b0e7ad3e6ada608a?pvs=21)
 - https://www.sqlite.org/testing.html
 - https://en.wikipedia.org/wiki/Formal_verification

@@ -34,4 +34,4 @@ tags: [note, dairy, food]
 ## References
 
 - Produceologia `docs/Production/Industry/Food/Diary.md`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

@@ -13,7 +13,7 @@ tags: [note]
 > **Note:** Decision-making is an almost daily task for agents. This note should be viewed in tandem with related work on  [Problem](https://app.notion.com/p/Problem-1e8c0f5171ec80e59848c3449661c09f?pvs=21) and [Agency](https://app.notion.com/p/Agency-eebe9b5a15d84a3db7a1a1273fc29a2c?pvs=21).
 > 
 
-> See [Decision Theory](note.html?p=notes/epistemica/observational/decision/theory.md) for the field-level entry: branches, methods, and links.
+> See [Decision Theory](/note.html?p=notes/epistemica/observational/decision/theory.md) for the field-level entry: branches, methods, and links.
 
 ## Glossary
 
@@ -554,10 +554,10 @@ See:
 - **Baron, J. (2007).** *Thinking and deciding* (4th ed.). Cambridge University Press.
 - **Peterson, M. (2017).** *An introduction to decision theory* (2nd ed.). Cambridge University Press.
 - [Control Theory](../../adaptative/control-theory.md)
-- [Simulation](note.html?p=notes/epistemica/simulation/simulation.md)
-- [Causality](note.html?p=notes/epistemica/causality/causality.md)
-- [Observational](note.html?p=notes/epistemica/observational/observational.md)
-- [Adaptative](note.html?p=notes/epistemica/adaptative/adaptative.md)
+- [Simulation](/note.html?p=notes/epistemica/simulation/simulation.md)
+- [Causality](/note.html?p=notes/epistemica/causality/causality.md)
+- [Observational](/note.html?p=notes/epistemica/observational/observational.md)
+- [Adaptative](/note.html?p=notes/epistemica/adaptative/adaptative.md)
 - https://www.edx.org/learn/discrete-mathematics/ecole-polytechnique-federale-de-lausanne-introduction-to-discrete-choice-models
 - Ben-Akiva, Moshe and Steven R. Lerman (1985) Discrete Choice Analysis: Theory and Application to Travel Demand. Cambridge, Mass.: MIT Press.
 - https://bactra.org/notebooks/political-decision-making.html

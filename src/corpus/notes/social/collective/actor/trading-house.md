@@ -36,4 +36,4 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 ## References
 
 - Produceologia `docs/Production/Industry/Commerce/Trading.md`
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)

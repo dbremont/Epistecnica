@@ -4,11 +4,11 @@ tags: [note, animal, husbandry, livestock, production]
 
 # Animal Husbandry Technical Set
 
-> The **Animal Husbandry Technical Set** is the system, where [Dairy Husbandry Set](note.html?p=notes/technica/general/cto/es/multinode/dairy-husbandry.md) is one of its specialisms. It holds the animal side of [Food Production Technical Domain](note.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md): everything an animal-production enterprise must do to turn an animal into a product while the animal remains alive, and to replace the animals it uses.
+> The **Animal Husbandry Technical Set** is the system, where [Dairy Husbandry Set](/note.html?p=notes/technica/general/cto/es/multinode/dairy-husbandry.md) is one of its specialisms. It holds the animal side of [Food Production Technical Domain](/note.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md): everything an animal-production enterprise must do to turn an animal into a product while the animal remains alive, and to replace the animals it uses.
 >
-> It is the mirror of [Plant Cultivation Technical Domain Set](note.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md), and the mirror is exact enough to be useful and inexact enough to matter. The crop stands in the field for its season and is sown again; the animal is a long-lived individual, it must be fed and housed and kept in health continuously, it reproduces or it does not, and the system's output is bounded by how fast it can replace itself. That single difference — continuous holding and self-replacement, rather than seasonal growth and annual sowing — is what makes animal technique a discipline of systems rather than of operations.
+> It is the mirror of [Plant Cultivation Technical Domain Set](/note.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md), and the mirror is exact enough to be useful and inexact enough to matter. The crop stands in the field for its season and is sown again; the animal is a long-lived individual, it must be fed and housed and kept in health continuously, it reproduces or it does not, and the system's output is bounded by how fast it can replace itself. That single difference — continuous holding and self-replacement, rather than seasonal growth and annual sowing — is what makes animal technique a discipline of systems rather than of operations.
 >
-> Worked per [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> Worked per [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -24,7 +24,7 @@ It is a set and not a single `Production Technical System` because housing, rati
 
 **The constraint that makes animal technique different.** A plant is a factory that gets rebuilt every season; a herd is not. The animal is a capital asset with a fixed productive life, and the enterprise is a pipeline. So the decisive figures are not the output of the best animal but the output of the average animal over its life, the age at which a female enters the herd, and the proportion that leaves involuntarily. Production technique here is mostly the technique of not losing the animals.
 
-**The three member sets that carry the biology.** Breeding decides what the next generation is and is decomposed in the [Livestock Breeding And Genetics Set](note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md). Health decides whether the animal is still there, and is decomposed in the [Animal Health Technical Set](note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md). Feeding decides what the animal can convert, and is held here, because the ration and the pasture are husbandry rather than health. The species systems — the lactating herd, the meat and egg flock, the fish farm — are the members through which the whole set reaches an actual animal.
+**The three member sets that carry the biology.** Breeding decides what the next generation is and is decomposed in the [Livestock Breeding And Genetics Set](/note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md). Health decides whether the animal is still there, and is decomposed in the [Animal Health Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md). Feeding decides what the animal can convert, and is held here, because the ration and the pasture are husbandry rather than health. The species systems — the lactating herd, the meat and egg flock, the fish farm — are the members through which the whole set reaches an actual animal.
 
 **Welfare is a stated objective, not a by-product.** The welfare domains are separately measurable, the standards are audit criteria, and the market now prices access to them. This is a change in the system's purpose, not a change in sentiment about it, and it is why welfare practice sits inside the technical decomposition rather than beside it.
 
@@ -136,18 +136,18 @@ Lineage: pastoral animals moved with the seasons → fixed housing and hand feed
 | `Technical Element Set` → Animal Husbandry Technical Set → `Technical Parameter` → Herd Replacement Index | The culling, mortality, and replacement figures read together, which say whether the flock renews itself. |
 | `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` | Grouping: the member sets of this domain. |
 | `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` → Husbandry Infrastructure Set | The physical and record-keeping system every other member runs on: housing, handling, feed, water, identification, and manure. |
-| `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` → Breeding And Genetics Set | What changes the next generation: mating systems, selection, and the records that make selection possible. Decomposed in [Livestock Breeding And Genetics Set](note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md). |
-| `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` → Health And Disease Set | Disease, injury, and metabolic failure: diagnostics, surveillance, treatment, biosecurity, and culling. Decomposed in [Animal Health Technical Set](note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md). |
+| `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` → Breeding And Genetics Set | What changes the next generation: mating systems, selection, and the records that make selection possible. Decomposed in [Livestock Breeding And Genetics Set](/note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md). |
+| `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` → Health And Disease Set | Disease, injury, and metabolic failure: diagnostics, surveillance, treatment, biosecurity, and culling. Decomposed in [Animal Health Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md). |
 | `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` → Feeding And Nutrition Set | The ration, the pasture, the water, and the body condition, which together decide what the animal can convert. |
 | `Technical Element Set` → Animal Husbandry Technical Set → `Technical Element Set` → Species Production Set | The production system of each species: the lactating herd, the meat and egg flock, the wool clip, the fish farm. |
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
-- [Food Production Technical Domain](note.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md) (the domain this system belongs to)
-- [Livestock Breeding And Genetics Set](note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) (the member that decides the next generation)
-- [Animal Health Technical Set](note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) (the member that decides whether the animal is still there)
-- [Dairy Husbandry Set](note.html?p=notes/technica/general/cto/es/multinode/dairy-husbandry.md) (the lactating-herd member, fully decomposed)
-- [Plant Cultivation Technical Domain Set](note.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) (the crop-side counterpart, and the contrast that defines this set)
-- [Plant Health Technical Set](note.html?p=notes/technica/general/cto/es/multinode/plant-health-technical-set.md) (the plant-side mirror of the health member)
-- [Plant Genetic Improvement](note.html?p=notes/technica/general/cto/es/multinode/plant-genetic-improvement.md) (the plant-side mirror of the breeding member)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
+- [Food Production Technical Domain](/note.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md) (the domain this system belongs to)
+- [Livestock Breeding And Genetics Set](/note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) (the member that decides the next generation)
+- [Animal Health Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) (the member that decides whether the animal is still there)
+- [Dairy Husbandry Set](/note.html?p=notes/technica/general/cto/es/multinode/dairy-husbandry.md) (the lactating-herd member, fully decomposed)
+- [Plant Cultivation Technical Domain Set](/note.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) (the crop-side counterpart, and the contrast that defines this set)
+- [Plant Health Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/plant-health-technical-set.md) (the plant-side mirror of the health member)
+- [Plant Genetic Improvement](/note.html?p=notes/technica/general/cto/es/multinode/plant-genetic-improvement.md) (the plant-side mirror of the breeding member)

@@ -60,14 +60,14 @@ tags: [note, human, cognition]
 
 ## References
 
-- [Brain](note.html?p=notes/nature/brain.md)
+- [Brain](/note.html?p=notes/nature/brain.md)
 - https://en.wikipedia.org/wiki/Mind
 - https://en.wikipedia.org/wiki/Philosophy_of_mind
 - https://en.wikipedia.org/wiki/Conatus
 
 ## Related
 
-- [Theory of Mind](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/theory-of-mind.md)
+- [Theory of Mind](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/theory-of-mind.md)
 
 ## Provenance
 

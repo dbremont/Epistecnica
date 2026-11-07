@@ -36,7 +36,7 @@ tags: [note, nature, natural-system, biology, system]
 
 ## Related
 
-- [Human Memory](note.html?p=notes/nature/human-memory.md)
+- [Human Memory](/note.html?p=notes/nature/human-memory.md)
 
 ## Provenance
 

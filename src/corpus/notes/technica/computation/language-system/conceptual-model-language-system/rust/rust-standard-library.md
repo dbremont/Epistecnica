@@ -38,7 +38,7 @@ Guiding Questions:
 
 ## References
 
-- [Representation](note.html?p=notes/technica/computation/representation.md)
+- [Representation](/note.html?p=notes/technica/computation/representation.md)
 - https://en.wikipedia.org/wiki/Standard_library
 - Rust: **🏷️** Type System
 - **Rust:  🔀** Representation

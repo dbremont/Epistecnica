@@ -7,7 +7,7 @@ tags: [note, learning-system]
 
 > 
 
-![image.png](../assets/note/epistemica/observational/computational/flow-model/image.png)
+![image.png](/assets/note/epistemica/observational/computational/flow-model/image.png)
 
 ## References
 

@@ -41,7 +41,7 @@ guide-first entry page.
   notes-catalog pins are browser-local (`localStorage`). Everything else is
   static file serving.
 - **No build step.** Python 3.12 stdlib server; vanilla JS. Vendored runtime
-  bundle: the notes MathJax (`src/corpus/app/vendor/mathjax/`).
+  bundle: the notes MathJax (`src/app/vendor/mathjax/`).
 
 ### Surfaces & endpoints (✅)
 
@@ -53,8 +53,8 @@ guide-first entry page.
 | `GET /assets/<path>` | Shared corpus-image store from `src/app/assets/` (every image referenced by corpus markdown) |
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/corpus/notes/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
 | `GET /corpus/notes/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
-| `GET /corpus` (also `/corpus/`) | Unified catalog `src/corpus/app/index.html`: directory browser + section tree over notes, documents and courses; search; random-document picker |
-| `GET /corpus/note.html?p=<notes|documents|courses>/<path>` | One global markdown viewer for every `.md` file (course readmes also list their lectures); per-file `history` modal from the matching `data/changelog.*.json` |
+| `GET /corpus` (also `/explorer.html`) | Unified catalog `src/app/explorer.html`: directory browser + section tree over notes, documents and courses; search; random-document picker |
+| `GET /note.html?p=<notes|documents|courses>/<path>` | One global markdown viewer for every `.md` file (course readmes also list their lectures); per-file `history` modal from the matching `data/changelog.*.json` |
 | `GET /corpus/notes/<path>`, `/corpus/documents/<path>`, `/corpus/courses/<path>` | The three content trees under `src/corpus/<tree>/`, served as-is (live notes included) |
 | `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog + term view (`?t=<slug>`), generated lookup index, select-a-word popup |
 | `GET /qa/<path>` | Q/A log from `src/qa/app/`: catalog + entry viewer (`?id=<qa-id>`) |
@@ -73,12 +73,12 @@ database configuration.
 
 | Store | Contents | Written by |
 |-------|----------|------------|
-| Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/corpus/app/index.html`); no server write |
+| Browser `localStorage` | Notes-catalog pins (`epistecnica.note-pins`) | the notes catalog (`src/app/explorer.html`); no server write |
 | `src/corpus/notes/**` | Notes corpus, live notes, EES atlas | hand-authored; index via `bin/notes_index.py` |
 | `src/corpus/documents/**` | Documents corpus | hand-authored; index via `bin/document_index.py` |
 | `src/corpus/courses/**` | Courses corpus | hand-authored; index via `bin/course_index.py` |
-| `src/corpus/app/data/*-index.json`, `library-index.json` | Generated per-corpus and unified indexes | `make index` (gitignored) |
-| `src/corpus/app/data/changelog.*.json` | Per-corpus edit history | hand-edited, then stamped by `bin/link_changelog_commits.py` |
+| `src/app/data/*-index.json`, `library-index.json` | Generated per-corpus and unified indexes | `make index` (gitignored) |
+| `src/app/data/changelog.*.json` | Per-corpus edit history | hand-edited, then stamped by `bin/link_changelog_commits.py` |
 | `src/app/data/search-index.json` | Universal search snapshot (corpus-only) | `bin/build_search_index.py` |
 
 ## 4. Frontends
@@ -87,8 +87,8 @@ database configuration.
 |------|----------|-----------|
 | `src/app/index.html` (hub) | Ambient Canvas2D constellation only | No |
 | `src/app/docs.html` | Site documentation, live corpus stats | No |
-| `src/corpus/app/index.html` (catalog) | Client-side directory browser + section tree over generated `data/library-index.json` | No |
-| `src/corpus/app/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-file `history` modal over `data/changelog.*.json` | No |
+| `src/app/explorer.html` (catalog) | Client-side directory browser + section tree over generated `data/library-index.json` | No |
+| `src/app/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-file `history` modal over `data/changelog.*.json` | No |
 
 AI (DeepSeek) is called browser-direct in the editors; the token lives only in
 the browser. The backend has no AI endpoints and must never hold keys.

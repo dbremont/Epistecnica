@@ -7,4 +7,4 @@ tags: [note, dinastia, politica, unfinished]
 
 …
 
-[Reformas Borbonicas](note.html?p=notes/social/history/castilla/borbones/reformas-borbonicas.md)
+[Reformas Borbonicas](/note.html?p=notes/social/history/castilla/borbones/reformas-borbonicas.md)

@@ -32,4 +32,4 @@ tags: [note, firm, profiling, method]
 
 - Produceologia `docs/Firm/README.md` (three analytical layers)
 - Produceologia `docs/Toolkit/Data/SEC/form-k.md` (filing as data source)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)

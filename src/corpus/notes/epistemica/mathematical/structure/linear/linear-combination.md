@@ -89,6 +89,6 @@ where $\phi_i(x)$ are basis functions.
 ## References
 
 - [**Inner Product**](inner-product.md)
-- [Neural Network (NN)](note.html?p=notes/technica/ais/architecture/neural-network-nn.md)
+- [Neural Network (NN)](/note.html?p=notes/technica/ais/architecture/neural-network-nn.md)
 - https://en.wikipedia.org/wiki/Weight_function
 - https://en.wikipedia.org/wiki/Linear_combination

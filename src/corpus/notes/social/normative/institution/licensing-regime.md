@@ -37,4 +37,4 @@ Its layer is **Synontic**: licenses exist through recognized rights and recorded
 ## References
 
 - Produceologia `docs/Production/Industry/Licensing/README.md`
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)

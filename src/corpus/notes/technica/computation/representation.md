@@ -490,7 +490,7 @@ The guide's default for a multi-typed instance is multi-root decomposition, and 
 
 ## In-Memory Data Structure
 
-> See more in [In-Memory Representation](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/in-memory-representation.md).
+> See more in [In-Memory Representation](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/in-memory-representation.md).
 >
 > Typed reading: `Technical Element` `(→ Kind)` `Technical Element Set` `(→ Instance)` Computational Representation Set `(→ Has)` `Technical Mechanism` `(→ Instance)` In-Memory Carrier.
 > 
@@ -500,7 +500,7 @@ The guide's default for a multi-typed instance is multi-root decomposition, and 
 > How to represent data outside memory?
 > 
 
-> See more in [Out-Memory Data Structure](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/out-memory-data-structure.md).
+> See more in [Out-Memory Data Structure](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/out-memory-data-structure.md).
 > 
 
 > See https://en.wikipedia.org/wiki/External_memory_algorithm
@@ -549,7 +549,7 @@ The guide's default for a multi-typed instance is multi-root decomposition, and 
 - https://en.wikipedia.org/wiki/Data_structure
 - https://gist.github.com/dbremont/914cdbcf861238742ea1d41c7bf0d08e#file-courses-md
 - https://en.wikipedia.org/wiki/Computer_number_format
-- [Conflict-free Replicated Data Type (**CRDT**)](note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/conflict-free-replicated-data-type-crdt.md)
+- [Conflict-free Replicated Data Type (**CRDT**)](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/conflict-free-replicated-data-type-crdt.md)
 - https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)

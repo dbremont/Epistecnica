@@ -4,7 +4,7 @@ tags: [note, container]
 
 # Container
 
-- Related Virtualization: Conceptual Model: [Docker](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
+- Related Virtualization: Conceptual Model: [Docker](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
 
 > A **container** is an isolated execution environment that encapsulates an application and its dependencies, enabling it to run consistently across different computing environments. Technically, it is a user-space process that leverages kernel-level features to provide isolation, resource control, and process management, all while sharing the host system’s kernel. Containers are constructed from **container images**, which are layered filesystems designed to provide lightweight and portable application execution.
 > 

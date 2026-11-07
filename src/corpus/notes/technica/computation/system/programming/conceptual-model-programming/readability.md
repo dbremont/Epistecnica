@@ -4,7 +4,7 @@ tags: [note, principle]
 
 # Readability
 
-- [Code Reading](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/code-reading.md)
+- [Code Reading](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/code-reading.md)
 
 > **Understanding** is a **cognitive process** involving acquiring knowledge or comprehending a particular concept or idea. It typically consists of interpreting information, connecting different pieces, and forming a mental model of the concept or idea.
 > 

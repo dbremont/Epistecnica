@@ -4,7 +4,7 @@ tags: [note, principle, technique]
 
 # Abstraction
 
-- [Indirection](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/indirection.md)
+- [Indirection](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/indirection.md)
 
 > Abstraction is the cognitive and/or formal process of systematically constructing a simplified representation or generalized concept by applying a context-dependent mapping from a complex, detailed domain to an abstract domain. This mapping selectively omits or suppresses inessential details while preserving and highlighting the essential properties, behaviors, or relationships necessary for a specific purpose such as reasoning, analysis, communication, or computation.
 > 

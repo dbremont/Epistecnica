@@ -84,6 +84,6 @@ QA:
 - https://docs.kernel.org/driver-api/driver-model/overview.html
 - https://lwn.net/Articles/645810/
 - https://linux-kernel-labs.github.io/refs/heads/master/labs/device_model.html
-- [Bus](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/bus.md)
-- [**Interconnect**](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/interconnect.md)
-- [(Hardware) Physical Substrate](note.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)
+- [Bus](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/bus.md)
+- [**Interconnect**](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/interconnect.md)
+- [(Hardware) Physical Substrate](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)

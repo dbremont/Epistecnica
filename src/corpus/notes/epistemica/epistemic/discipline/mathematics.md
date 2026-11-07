@@ -8,7 +8,7 @@ tags: [note, epistemology, mathematics, discipline]
 
 > **Mathematics** is the activity dedicated to the **creation, exploration, and discovery** of formal symbolic systems whose **abstract mathematical elements** (objects, structures, and relations) **mediate** the representation, reasoning, and computation **over aspects** of the real, hypothetical, or fictional worlds. This is **achieved** through the **encoding, by abstract mathematical elements**, of **formally characterizable aspects** of entities, processes, and systems — including their quantitative, structural, spatial, relational, transformational, informational, probabilistic, and other **formalizable characteristics — providing** rigorous deduction, computation, prediction, and the discovery of fundamental truths. Reality inspires our tools, and through those tools we describe, understand, and gain power over it.
 
-![Mathematics is the recursive process by which humans encode the regular dimension (space, quantity, measure) into abstract formal systems, and use those systems to expand their capacity to understand, predict, and transform reality.](../assets/note/epistemica/mathematical/image.png)
+![Mathematics is the recursive process by which humans encode the regular dimension (space, quantity, measure) into abstract formal systems, and use those systems to expand their capacity to understand, predict, and transform reality.](/assets/note/epistemica/mathematical/image.png)
 
 Mathematics is the recursive process by which humans encode the regular dimension (space, quantity, measure) into abstract formal systems, and use those systems to expand their capacity to understand, predict, and transform reality. Reality informs the creation of mathematical symbols, and we use those symbols to reason about reality.
 
@@ -17,7 +17,7 @@ Mathematics is the recursive process by which humans encode the regular dimensio
 > **Mathematical application** = the mapping of mathematical structures onto phenomena in the world.
 
 This note is the discipline-level Aggregate; the domain catalogue of mathematical
-concepts lives in the [`mathematical/`](index.html?dir=epistemica/mathematical) folder,
+concepts lives in the [`mathematical/`](/explorer.html?dir=epistemica/mathematical) folder,
 and the schema it instantiates is owned by the canonical
 [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md).
 
@@ -205,9 +205,9 @@ of the target and the consistency of the axioms in hand.
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Mathematical concepts catalogue](index.html?dir=epistemica/mathematical) — the domain catalogue this Aggregate expands
-- [Linear Algebra](note.html?p=notes/epistemica/mathematical/structure/linear/linear-algebra.md) — a sub-discipline Aggregate under this one
-- [EES](note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
+- [Mathematical concepts catalogue](/explorer.html?dir=epistemica/mathematical) — the domain catalogue this Aggregate expands
+- [Linear Algebra](/note.html?p=notes/epistemica/mathematical/structure/linear/linear-algebra.md) — a sub-discipline Aggregate under this one
+- [EES](/note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - [Pure mathematics](https://en.wikipedia.org/wiki/Pure_mathematics)
 - [Applied mathematics](https://en.wikipedia.org/wiki/Applied_mathematics)
 - [Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)

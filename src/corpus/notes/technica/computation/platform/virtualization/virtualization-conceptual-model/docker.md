@@ -4,7 +4,7 @@ tags: [note, container]
 
 # Docker
 
-- Related Virtualization: Conceptual Model: [Docker Compose](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker-compose.md), [Docker Image](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker-image.md), [Docker Network](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker-network.md), [Container Registry](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/container-registry.md), [Container Orchestration](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/container-orchestration.md), [Container](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/container.md)
+- Related Virtualization: Conceptual Model: [Docker Compose](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker-compose.md), [Docker Image](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker-image.md), [Docker Network](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker-network.md), [Container Registry](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/container-registry.md), [Container Orchestration](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/container-orchestration.md), [Container](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/container.md)
 
 > TODO:  NOW THAT THE NOTE IS SORT OF ORGANIZE - LET’S CONTINUE WORKING ON IT.
 > 
@@ -264,6 +264,6 @@ docker network prune -f
     - [How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management)
     - [The tool that really runs your containers: deep dive into runc and OCI specifications](https://mkdev.me/posts/the-tool-that-really-runs-your-containers-deep-dive-into-runc-and-oci-specifications)
     - [runc](https://github.com/opencontainers/runc)
-- [Virtualization](note.html?p=notes/technica/computation/platform/virtualization.md)
-- [Linux Virtualization Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-virtualization-stack.md)
+- [Virtualization](/note.html?p=notes/technica/computation/platform/virtualization.md)
+- [Linux Virtualization Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-virtualization-stack.md)
 - [Philosophia Artium Technicarum et Operis](https://app.notion.com/p/Philosophia-Artium-Technicarum-et-Operis-355c0f5171ec808b82f8d7a85e8134cd?pvs=21)

@@ -30,10 +30,10 @@ tags: [note, nature, substance-matter, interaction, materials-science, matter, m
 
 ## Related
 
-- [Fundamental Interaction](note.html?p=notes/nature/fundamental-interaction.md)
-- [Force](note.html?p=notes/nature/force.md)
-- [Interaction](note.html?p=notes/nature/theory/interaction.md)
-- [Matter](note.html?p=notes/nature/matter.md)
+- [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
+- [Force](/note.html?p=notes/nature/force.md)
+- [Interaction](/note.html?p=notes/nature/theory/interaction.md)
+- [Matter](/note.html?p=notes/nature/matter.md)
 
 ## Provenance
 

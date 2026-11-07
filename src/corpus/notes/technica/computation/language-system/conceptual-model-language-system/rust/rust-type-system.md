@@ -155,7 +155,7 @@ Guiding Questions:
 ## References
 
 - [Type system](https://doc.rust-lang.org/reference/type-system.html#type-system)
-- [Type System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 - [Type system](https://doc.rust-lang.org/reference/type-system.html#type-system)
 - [Special types and traits](https://doc.rust-lang.org/reference/special-types-and-traits.html)
 - [Rust's Type System Is Turing-Complete: Type-Level Programming in Rust](https://news.ycombinator.com/item?id=13843288) ([sdleffler.github.io](http://sdleffler.github.io/))
@@ -169,5 +169,5 @@ Guiding Questions:
 - [Common Collections](https://doc.rust-lang.org/book/ch08-00-common-collections.html)
 - [Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
 - - [Appendix C: [Derivable Traits]](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html)
-- [Resource Lifetime](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-lifetime.md)
-- [Resource Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)
+- [Resource Lifetime](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-lifetime.md)
+- [Resource Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)

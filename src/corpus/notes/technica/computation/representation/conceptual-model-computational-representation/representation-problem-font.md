@@ -19,4 +19,4 @@ defining the aesthetic style of the characters.
 
 - https://en.wikipedia.org/wiki/Font
 - https://en.wikipedia.org/wiki/Typeface
-- [**Computational Typography**](note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
+- [**Computational Typography**](/note.html?p=notes/technica/computation/miscelanea/computational-typography.md)

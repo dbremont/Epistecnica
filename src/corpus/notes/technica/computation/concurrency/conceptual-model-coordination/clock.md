@@ -22,4 +22,4 @@ coordination despite the absence of a global physical clock.
 
 ## References
 
-- [Time](note.html?p=notes/technica/computation/miscelanea/time.md)
+- [Time](/note.html?p=notes/technica/computation/miscelanea/time.md)

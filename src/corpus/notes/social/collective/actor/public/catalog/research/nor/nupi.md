@@ -6,7 +6,7 @@ tags: [note, actor, research-institute, norway, foreign-policy]
 
 > **NUPI** is a state research body that studies international affairs for Norwegian foreign policy: security and war, economy and development, and diplomacy and global governance. The Norwegian Parliament created it in 1959, explicitly on the model of Chatham House, and it has run on that logic ever since — a body inside the state whose professional work is kept independent of the government's position.
 
-> That is the institute's whole design. It is answerable to the Ministry of Education and Research, its board is appointed by that ministry, and its findings are published whether or not they suit the government that funds it. Framed per [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> That is the institute's whole design. It is answerable to the Ministry of Education and Research, its board is appointed by that ministry, and its findings are published whether or not they suit the government that funds it. Framed per [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -95,5 +95,5 @@ Lineage: post-war European institution-building in the study of international af
 - [NUPI's history](https://www.nupi.no/en/about-nupi/facts-about-nupi/nupi-s-history) (1959 founding, the Chatham House model, first director)
 - [NUPI — Organisation](https://www.nupi.no/en/about-nupi/organisation) (research groups, departments, board)
 - [Norwegian Institute of International Affairs — NUPI](https://www.nupi.no/en/about-nupi/norwegian-institute-of-international-affairs) (the institute's own profile)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Materials Genome Initiative](note.html?p=notes/social/action/public/informe/policy/materials-genome-initiative.md) (companion decomposition of a state-run research coordination scope)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Materials Genome Initiative](/note.html?p=notes/social/action/public/informe/policy/materials-genome-initiative.md) (companion decomposition of a state-run research coordination scope)

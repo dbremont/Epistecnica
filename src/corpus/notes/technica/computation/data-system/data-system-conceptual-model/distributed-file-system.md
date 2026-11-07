@@ -10,6 +10,6 @@ tags: [note]
 
 ## References
 
-[Self-* Storage Systems](note.html?p=notes/technica/computation/operating-system/linux/self-storage-systems.md)
+[Self-* Storage Systems](/note.html?p=notes/technica/computation/operating-system/linux/self-storage-systems.md)
 
-[Linux  File Systems Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)
+[Linux  File Systems Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)

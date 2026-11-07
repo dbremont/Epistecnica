@@ -4,7 +4,7 @@ tags: [note, reality, segment]
 
 # Segment
 
-Related: [Reality](note.html?p=notes/nature/theory/reality.md), [Quasi-Open Interaction Field](note.html?p=notes/nature/theory/quasi-open-interaction-field.md)
+Related: [Reality](/note.html?p=notes/nature/theory/reality.md), [Quasi-Open Interaction Field](/note.html?p=notes/nature/theory/quasi-open-interaction-field.md)
 
 > In this note, we define an **epistemic-strategic**  concept that organizes the grounding of our descriptions of reality.
 > 
@@ -122,8 +122,8 @@ The "cut" (segmentation) defines the **domain and resolution**; the entities are
 
 ## References
 
-- [System](note.html?p=notes/nature/theory/system.md)
-- [Ontology](note.html?p=notes/epistemica/epistemic/theory/ontology.md)
-- [Event Stream](note.html?p=notes/nature/theory/event-stream.md)
-- [State](note.html?p=notes/epistemica/epistemic/theory/state.md)
+- [System](/note.html?p=notes/nature/theory/system.md)
+- [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md)
+- [Event Stream](/note.html?p=notes/nature/theory/event-stream.md)
+- [State](/note.html?p=notes/epistemica/epistemic/theory/state.md)
 - https://en.wikipedia.org/wiki/Commensurability_(philosophy_of_science)

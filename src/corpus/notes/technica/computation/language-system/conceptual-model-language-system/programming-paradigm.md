@@ -4,7 +4,7 @@ tags: [note, programming-paradigm]
 
 # Programming Paradigm
 
-- [Map/Reduce (MapReduce) Paradigm](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/map-reduce-mapreduce-paradigm.md)
+- [Map/Reduce (MapReduce) Paradigm](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/map-reduce-mapreduce-paradigm.md)
 
 > **Programming Paradigm:** A programming paradigm is a fundamental style or approach to programming that shapes how problems are conceptualized and how solutions are expressed. It defines the structure, patterns, and techniques used in writing and organizing code.
 > 

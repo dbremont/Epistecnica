@@ -4,7 +4,7 @@ tags: [note, code-generation, language-system]
 
 # Code Generation
 
-- [Program Modification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-modification.md), [Compiler System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md), [Grammar](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
+- [Program Modification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-modification.md), [Compiler System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md), [Grammar](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
 
 > Why did the programmer quit his job at the code generation company? Because he didn’t like working on the assembly line.
 > 

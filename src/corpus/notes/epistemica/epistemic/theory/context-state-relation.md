@@ -4,7 +4,7 @@ tags: [note, epistemology]
 
 # Context-State Relation
 
-Related: [Epistemic Artifact](note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
+Related: [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
 
 > The *Context–State Relation* denotes the representation of a snapshot of a piece of reality as a **state**, where this state is explicitly indexed by a specific **context**.
 > 

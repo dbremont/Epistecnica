@@ -25,6 +25,6 @@ Questions:
 
 ## References
 
-- [Metaprogramming](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)
+- [Metaprogramming](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)
 - [Macros](https://doc.rust-lang.org/book/ch19-06-macros.html)
 - [Macros Spec](https://doc.rust-lang.org/reference/macros.html)

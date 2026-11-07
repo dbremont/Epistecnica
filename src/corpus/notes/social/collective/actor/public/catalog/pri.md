@@ -110,7 +110,7 @@ These goals are not mutually exclusive, and many technology labs pursue a combin
 
 ## References
 
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the functional actor family this public-research subtype belongs to)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the functional actor family this public-research subtype belongs to)
 - [Applied Research in Low-Income Countries: Why and How?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8028400/)
 - Freeman, C. (1987). Technology and economic performance: Lessons from Japan. Pinter.
 - Bailyn, Lotte. "Autonomy in the industrial R&D lab." Human resource management 24.2 (1985): 129-146.

@@ -4,7 +4,7 @@ tags: [note, shell-interpreter]
 
 # Shell Interpreter
 
-- [Terminal Emulator](note.html?p=notes/technica/computation/miscelanea/terminal-emulator.md)
+- [Terminal Emulator](/note.html?p=notes/technica/computation/miscelanea/terminal-emulator.md)
 
 > **Shell Interpreter:** A program that interprets shell commands, expands them, executes programs, manages processes, and provides an interactive command-line environment.
 > 

@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, canada, discount]
 ## References
 
 - Wikipedia — Dollarama (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

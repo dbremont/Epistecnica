@@ -4,7 +4,7 @@ tags: [note, initialization, storage]
 
 # initramfs
 
-- [Ram Based File System](note.html?p=notes/technica/computation/operating-system/linux/ram-based-file-system.md)
+- [Ram Based File System](/note.html?p=notes/technica/computation/operating-system/linux/ram-based-file-system.md)
 
 > Note: initramfs despide it’s name, is not a file system.
 > 

@@ -153,7 +153,7 @@ Here is a table of common **Linux kernel threads**, along with their functions a
 
 ## Linux File Systems Stack
 
-> See more in [Linux  File Systems Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md).
+> See more in [Linux  File Systems Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md).
 > 
 
 > The **Linux File Systems Stack** is a modular and hierarchical system that facilitates file operations, from user-space requests down to physical disk I/O. It includes the **VFS**, **file system drivers**, **block layer**, **page cache**, and **storage device drivers**, each responsible for specific aspects of file management, storage access, and performance optimization. The stack ensures that different file systems can coexist and interact seamlessly within the Linux environment.
@@ -194,7 +194,7 @@ Here is a table of common **Linux kernel threads**, along with their functions a
 
 ## Linux Multimedia Stack
 
-> See more in [Linux Multimedia Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md).
+> See more in [Linux Multimedia Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md).
 > 
 
 ## Linux System Introspection
@@ -207,7 +207,7 @@ Here is a table of common **Linux kernel threads**, along with their functions a
 
 ## Linux Distribution
 
-See more in [Linux Distribution](note.html?p=notes/technica/computation/operating-system/linux-distribution.md).
+See more in [Linux Distribution](/note.html?p=notes/technica/computation/operating-system/linux-distribution.md).
 
 ---
 

@@ -52,7 +52,7 @@ Meanwhile, modern language models and agentic AIs routinely outperform humans on
 
 ## Related
 
-- [Mind](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/mind.md)
+- [Mind](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/mind.md)
 
 ## Provenance
 

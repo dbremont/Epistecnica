@@ -41,4 +41,4 @@ Guiding questions:
 
 ## References
 
-- [**Connection Pool**](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/connection-pool.md)
+- [**Connection Pool**](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/connection-pool.md)

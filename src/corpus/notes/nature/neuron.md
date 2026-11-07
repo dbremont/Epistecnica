@@ -61,8 +61,8 @@ Here’s a table outlining key **neuronal models** commonly used in neuroscience
 
 ## Related
 
-- [Brain](note.html?p=notes/nature/brain.md)
-- [Human Memory](note.html?p=notes/nature/human-memory.md)
+- [Brain](/note.html?p=notes/nature/brain.md)
+- [Human Memory](/note.html?p=notes/nature/human-memory.md)
 
 ## Provenance
 

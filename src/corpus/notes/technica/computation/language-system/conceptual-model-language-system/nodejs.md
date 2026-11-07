@@ -4,7 +4,7 @@ tags: [note, javascript, language-system, tool]
 
 # NodeJS
 
-- [V8 JavaScript Engine](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/v8-javascript-engine.md)
+- [V8 JavaScript Engine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/v8-javascript-engine.md)
 
 > **Node.js** is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.
 > 
@@ -15,7 +15,7 @@ tags: [note, javascript, language-system, tool]
 > Node.js architecture uses a non-blocking, event-driven model powered by the V8 JavaScript engine, enabling efficient handling of I/O-heavy operations through asynchronous callbacks and a single-threaded event loop.
 > 
 
-![Untitled](../assets/note/technica/computation/language-system/conceptual-model-language-system/nodejs/untitled.png)
+![Untitled](/assets/note/technica/computation/language-system/conceptual-model-language-system/nodejs/untitled.png)
 
 ## Parsing
 

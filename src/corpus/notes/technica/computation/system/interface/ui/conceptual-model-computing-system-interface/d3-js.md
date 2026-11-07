@@ -55,7 +55,7 @@ The main abstractions include:
 - [Data Visualization with D3](https://datavis.tech/datavis-2020/)
 - [D3: Data-Driven Documents](http://vis.stanford.edu/papers/d3)
 
-[Scalable Vector Graphic (SVG)](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/scalable-vector-graphic-svg.md)
+[Scalable Vector Graphic (SVG)](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/scalable-vector-graphic-svg.md)
 
 - [Learn D3.js from the ground up](https://www.d3indepth.com/)
 - [D3 is not a Data Visualization Library](https://medium.com/@Elijah_Meeks/d3-is-not-a-data-visualization-library-67ba549e8520)

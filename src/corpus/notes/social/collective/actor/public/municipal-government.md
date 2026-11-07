@@ -6,7 +6,7 @@ tags: [note, municipal-government, local-government, collective, social-element,
 
 > A **Municipal Government** is the government of a bounded urban locality — the **Local Government** kind that is constituted to exercise public power over a municipality and the local services attached to it, under the legal order of a higher-tier state.
 
-> **Note:** This note documents the generic municipal kind. It is a specialization of [Local Government](note.html?p=notes/social/collective/actor/public/government.md), itself a kind of [Government](note.html?p=notes/social/collective/actor/public/government.md). Named municipal governments (a city, a capital district, a particular council) are instances, not kinds, and are documented as case studies.
+> **Note:** This note documents the generic municipal kind. It is a specialization of [Local Government](/note.html?p=notes/social/collective/actor/public/government.md), itself a kind of [Government](/note.html?p=notes/social/collective/actor/public/government.md). Named municipal governments (a city, a capital district, a particular council) are instances, not kinds, and are documented as case studies.
 
 ## Formulation
 
@@ -18,13 +18,13 @@ tags: [note, municipal-government, local-government, collective, social-element,
 
 ### What type of social element does this instance belong to?
 
-**Municipal Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](note.html?p=notes/social/collective/collective.md). It is typed under [Actor](note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](note.html?p=notes/social/collective/actor/organization.md); its operating units are [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) instances, notably the `Municipal Organization` kind.
+**Municipal Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/note.html?p=notes/social/collective/collective.md). It is typed under [Actor](/note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/note.html?p=notes/social/collective/actor/organization.md); its operating units are [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) instances, notably the `Municipal Organization` kind.
 
-> Its type path is nested: `Government (→ Kind) Local Government (→ Kind) Municipal Government`. **Local Government** is the sub-type of [Government](note.html?p=notes/social/collective/actor/public/government.md); **Municipal Government** is its urban-locality kind, beside the district and metropolitan variants.
+> Its type path is nested: `Government (→ Kind) Local Government (→ Kind) Municipal Government`. **Local Government** is the sub-type of [Government](/note.html?p=notes/social/collective/actor/public/government.md); **Municipal Government** is its urban-locality kind, beside the district and metropolitan variants.
 
 Its layer is **Ontic** where the municipal government exists extra-mentally (office-holders, municipal offices, premises, budgets, service fleets) with **Synontic** aspects (local authority, legitimacy, and jurisdiction exist through shared recognition and statutory warrant).
 
-It is not the `Municipio` (the historical and territorial unit — see the study at [Municipio](note.html?p=notes/social/history/castilla/municipio.md)), not the `Municipality` (the locality and corporate entity it governs), not a [Mancomunidad](note.html?p=notes/social/normative/institution/institution/mancomunidad.md) (an inter-municipal association), not the `Municipal Organization` (the wielding body — decompose the body where authority is wielded), and not the higher-tier [Government](note.html?p=notes/social/collective/actor/public/government.md) (national or regional) from which its competence is delegated.
+It is not the `Municipio` (the historical and territorial unit — see the study at [Municipio](/note.html?p=notes/social/history/castilla/municipio.md)), not the `Municipality` (the locality and corporate entity it governs), not a [Mancomunidad](/note.html?p=notes/social/normative/institution/institution/mancomunidad.md) (an inter-municipal association), not the `Municipal Organization` (the wielding body — decompose the body where authority is wielded), and not the higher-tier [Government](/note.html?p=notes/social/collective/actor/public/government.md) (national or regional) from which its competence is delegated.
 
 ### Is the type of this `social element instance` unambiguous?
 
@@ -32,7 +32,7 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ### Which facet does this element belong to, if applicable?
 
-> Political first (authoritative rule-execution over a locality is the dominant causal mechanism); administrative where it operates through municipal departments and the local civil service; legal-constitutional where its mandate, competencies, and limits are defined; fiscal where local revenue, transfers, and budget autonomy are at issue. See [Facet](note.html?p=notes/social/framework/facet.md).
+> Political first (authoritative rule-execution over a locality is the dominant causal mechanism); administrative where it operates through municipal departments and the local civil service; legal-constitutional where its mandate, competencies, and limits are defined; fiscal where local revenue, transfers, and budget autonomy are at issue. See [Facet](/note.html?p=notes/social/framework/facet.md).
 
 ### What is the recursive instance decomposition of this social instance?
 
@@ -98,7 +98,7 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, determinacy, and misuse resistance. The municipal/local/government conflation reads here as parsimony plus fidelity failures: the urban-locality kind is not the whole local tier, and neither is the governing collective the locality it governs — merging the rows would type the kind, the tier, and the governed entity as one.
 
@@ -137,15 +137,15 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ### Is a municipal government the same as a local government?
 
-> No — it is a kind of it. **Local Government** is the sub-type of [Government](note.html?p=notes/social/collective/actor/public/government.md) covering the subnational level below regional and national tiers; **Municipal Government** is its urban-locality kind, beside district and metropolitan kinds. A rural district council is local government but not municipal; a metropolitan authority is municipal in scale but not bounded to a single city.
+> No — it is a kind of it. **Local Government** is the sub-type of [Government](/note.html?p=notes/social/collective/actor/public/government.md) covering the subnational level below regional and national tiers; **Municipal Government** is its urban-locality kind, beside district and metropolitan kinds. A rural district council is local government but not municipal; a metropolitan authority is municipal in scale but not bounded to a single city.
 
 ### Where do the municipal body, its staff, and its administration decompose?
 
-> The wielding body decomposes as a [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) — the `Municipal Organization` kind. The administrative architecture through which it operates decomposes as [Public Administration](note.html?p=notes/social/collective/actor/public/administration.md). Municipal staff are the administered workforce, not the government; decompose the office where the mandate lives and the person where the capability lives.
+> The wielding body decomposes as a [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) — the `Municipal Organization` kind. The administrative architecture through which it operates decomposes as [Public Administration](/note.html?p=notes/social/collective/actor/public/administration.md). Municipal staff are the administered workforce, not the government; decompose the office where the mandate lives and the person where the capability lives.
 
 ### Where do inter-municipal arrangements decompose?
 
-> As their own social elements, by reference — a [Mancomunidad](note.html?p=notes/social/normative/institution/institution/mancomunidad.md) is an institution associating municipalities; a metropolitan authority is a distinct government body. They associate the municipal government; they are not parts of it. Link them from the Association branch rather than nesting them.
+> As their own social elements, by reference — a [Mancomunidad](/note.html?p=notes/social/normative/institution/institution/mancomunidad.md) is an institution associating municipalities; a metropolitan authority is a distinct government body. They associate the municipal government; they are not parts of it. Link them from the Association branch rather than nesting them.
 
 ### How can a municipality act as a local public-service aggregator, coordinating a market of specialized providers?
 
@@ -155,16 +155,16 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ## References
 
-- [Government](note.html?p=notes/social/collective/actor/public/government.md) (parent kind; Local Government is its sub-type)
-- [Public Administration](note.html?p=notes/social/collective/actor/public/administration.md)
-- [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) (the wielding body; carries the Municipal Organization kind)
-- [Mancomunidad](note.html?p=notes/social/normative/institution/institution/mancomunidad.md) (inter-municipal association)
-- [Collective](note.html?p=notes/social/collective/collective.md)
-- [Actor](note.html?p=notes/social/collective/actor/actor.md)
-- [Municipio](note.html?p=notes/social/history/castilla/municipio.md) (historical and territorial unit)
-- [Facet](note.html?p=notes/social/framework/facet.md)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Government](/note.html?p=notes/social/collective/actor/public/government.md) (parent kind; Local Government is its sub-type)
+- [Public Administration](/note.html?p=notes/social/collective/actor/public/administration.md)
+- [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) (the wielding body; carries the Municipal Organization kind)
+- [Mancomunidad](/note.html?p=notes/social/normative/institution/institution/mancomunidad.md) (inter-municipal association)
+- [Collective](/note.html?p=notes/social/collective/collective.md)
+- [Actor](/note.html?p=notes/social/collective/actor/actor.md)
+- [Municipio](/note.html?p=notes/social/history/castilla/municipio.md) (historical and territorial unit)
+- [Facet](/note.html?p=notes/social/framework/facet.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
 - [Tampere Council Model](https://www.tampere.fi/en/city-and-decision-making/decision-makers-and-decisions?utm_source=chatgpt.com)
 - [How to Make Inter‑Municipal Co‑operation Work](https://www.oecd.org/en/publications/how-to-make-inter-municipal-co-operation-work_44d03db6-en/full-report/why-engage-in-inter-municipal-co-operation-drivers-benefits-and-challenges_be24ebbb.html?utm_source=chatgpt.com)
 

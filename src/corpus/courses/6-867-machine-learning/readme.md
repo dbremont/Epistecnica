@@ -11,9 +11,9 @@ tags: [course, ml]
 ## References
 
 - https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/
-- [6.036 Introduction to Machine Learning](note.html?p=courses/6-036-introduction-to-machine-learning/readme.md) — the undergraduate counterpart
-- [6.034 Artificial Intelligence](note.html?p=courses/6-034-artificial-intelligence/readme.md) — the AI course around it
+- [6.036 Introduction to Machine Learning](/note.html?p=courses/6-036-introduction-to-machine-learning/readme.md) — the undergraduate counterpart
+- [6.034 Artificial Intelligence](/note.html?p=courses/6-034-artificial-intelligence/readme.md) — the AI course around it
 - [6.438 Algorithms for Inference](https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/) — the inference-first treatment
 - [15.097 Prediction: Machine Learning and Statistics](https://ocw.mit.edu/courses/15-097-prediction-machine-learning-and-statistics-spring-2012/)
-- [15.773 Hands-On Deep Learning](note.html?p=courses/15-773-hands-on-deep-learning/readme.md) — where the deep learning track leads
-- [Atlas of courses](courses/atlas.html)
+- [15.773 Hands-On Deep Learning](/note.html?p=courses/15-773-hands-on-deep-learning/readme.md) — where the deep learning track leads
+- [Atlas of courses](/corpus/courses/atlas.html)

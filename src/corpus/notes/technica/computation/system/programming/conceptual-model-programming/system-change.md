@@ -4,7 +4,7 @@ tags: [note, problem]
 
 # System Change
 
-- [Adaptation](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/adaptation.md), [Extension](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/extension.md)
+- [Adaptation](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/adaptation.md), [Extension](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/extension.md)
 
 ```bash
 System Change
@@ -20,4 +20,4 @@ System Change
 
 ## References
 
-- [Program Modification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-modification.md)
+- [Program Modification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-modification.md)

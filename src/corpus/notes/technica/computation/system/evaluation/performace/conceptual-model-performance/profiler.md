@@ -4,7 +4,7 @@ tags: [note, data-collection]
 
 # Profiler
 
-- [Perf](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/perf.md), [Valgrind](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/valgrind.md), [gprof](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gprof.md), [LTTng](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/lttng.md)
+- [Perf](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/perf.md), [Valgrind](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/valgrind.md), [gprof](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gprof.md), [LTTng](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/lttng.md)
 
 > A **profiler** is a **performance analysis tool** that dynamically monitors a program’s execution to collect detailed runtime statistics about **function calls, execution time, memory usage, and system interactions**. It operates by injecting instrumentation or utilizing hardware and OS-level facilities to **record execution behavior**, allowing developers to analyze performance bottlenecks and optimize system efficiency.
 > 
@@ -43,4 +43,4 @@ tags: [note, data-collection]
 ## References
 
 - https://en.wikipedia.org/wiki/Profiling_(computer_programming)
-- [GCC Instrumentation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)
+- [GCC Instrumentation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)

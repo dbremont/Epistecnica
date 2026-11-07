@@ -4,7 +4,7 @@ tags: [note, nature, substance-matter]
 
 # Solid
 
-> A natural element read per [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -38,6 +38,6 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## References
 
-- [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Matter 209b4646856a413186ebc5b793910b2b.md`; `Mineral 22bc0f5171ec80fab296d6f843d27c49.md`; `Acoustics Phenomena 1aec0f5171ec806fb1f2e35f9adfd2fb.md`

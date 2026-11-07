@@ -18,9 +18,9 @@ qa:
 
 > A goodness-of-fit judgement is a statement about a *model relative to a sample*, not about reality. Rejecting the model says the data are improbable under it; failing to reject says only that this test, at this sample size, did not detect the misspecification it is powered to detect.
 
-> Goodness of fit is one activity inside [Validation](note.html?p=notes/epistemica/validation/validation.md) — the model-checking step — and must be kept apart from **calibration** (fixing parameters against a reference), from **model selection** (ranking candidates by a penalized criterion), and from **predictive validation** (judging forecasts on held-out data).
+> Goodness of fit is one activity inside [Validation](/note.html?p=notes/epistemica/validation/validation.md) — the model-checking step — and must be kept apart from **calibration** (fixing parameters against a reference), from **model selection** (ranking candidates by a penalized criterion), and from **predictive validation** (judging forecasts on held-out data).
 
-> See the [Goodness-of-Fit Atlas](data/epistemica/validation/atlas/gof.html) — the discrepancy measures, their null distributions, and a simulation lab that draws the fit, the null cloud, the power curve, and the p-value calibration.
+> See the [Goodness-of-Fit Atlas](/corpus/notes/epistemica/validation/atlas/gof.html) — the discrepancy measures, their null distributions, and a simulation lab that draws the fit, the null cloud, the power curve, and the p-value calibration.
 
 ## Formulation
 
@@ -226,7 +226,7 @@ $$D_{\mathrm{obs}} = D\big(F_n,\; F_{\hat\theta}\big), \qquad p = \Pr_{\theta \i
 
 > Under a fixed alternative, the non-centrality of the $\chi^2$ grows linearly in $n$, so for any fixed departure the rejection probability tends to one as $n \to \infty$. Conversely, at small $n$ a large departure can go undetected.
 
-> A significant result at $n = 10^6$ may correspond to a misfit far too small to matter for the intended use, and a non-significant result at $n = 20$ may hide a gross one. This is why the report needs the effect size and the detectable-effect calculation alongside the p-value — the same lesson as in [Statistical Hypothesis Testing](note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md), applied to model checking.
+> A significant result at $n = 10^6$ may correspond to a misfit far too small to matter for the intended use, and a non-significant result at $n = 20$ may hide a gross one. This is why the report needs the effect size and the detectable-effect calculation alongside the p-value — the same lesson as in [Statistical Hypothesis Testing](/note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md), applied to model checking.
 
 ## References
 

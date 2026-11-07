@@ -103,10 +103,10 @@ tags: [note, task]
 - Parnas, David Lorge. "On the criteria to be used in decomposing systems into modules." *Communications of the ACM* 15.12 (1972): 1053-1058.
 - Parnas, David Lorge, Paul C. Clements, and David M. Weiss. "The modular structure of complex systems." *IEEE Transactions on software Engineering* 3 (2006): 259-266.
 - Sullivan, Kevin J., et al. "The structure and value of modularity in software design." *ACM SIGSOFT Software Engineering Notes* 26.5 (2001): 99-108.
-- [Program](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md)
-- [Abstraction](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
+- [Program](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md)
+- [Abstraction](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
 - [Problem](https://app.notion.com/p/Problem-1e8c0f5171ec80e59848c3449661c09f?pvs=21)
-- [Cohesion](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/cohesion.md)
-- [Coupling](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/coupling.md)
+- [Cohesion](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/cohesion.md)
+- [Coupling](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/coupling.md)
 - https://sidhion.com/blog/oberon_notes/
 - [‣](https://app.notion.com/p/15f598edb7908187a28bea3fc54ad64e?pvs=21)

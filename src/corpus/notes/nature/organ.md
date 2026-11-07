@@ -54,9 +54,9 @@ tags: [note, nature, natural-system, system]
 
 ## Related
 
-- [Tissue](note.html?p=notes/nature/tissue.md)
-- [Organ System](note.html?p=notes/nature/organ-system.md)
-- [Brain](note.html?p=notes/nature/brain.md)
+- [Tissue](/note.html?p=notes/nature/tissue.md)
+- [Organ System](/note.html?p=notes/nature/organ-system.md)
+- [Brain](/note.html?p=notes/nature/brain.md)
 
 ## Provenance
 

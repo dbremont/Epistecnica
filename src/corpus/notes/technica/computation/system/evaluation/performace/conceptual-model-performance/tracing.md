@@ -19,7 +19,7 @@ tags: [note, data-collection]
 > This can be model using a “Phylogenetic Trees“.
 > 
 
-![image.png](../assets/note/technica/computation/system/evaluation/performace/conceptual-model-performance/tracing/image.png)
+![image.png](/assets/note/technica/computation/system/evaluation/performace/conceptual-model-performance/tracing/image.png)
 
 ## Tracing Model
 

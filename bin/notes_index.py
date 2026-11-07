@@ -32,7 +32,7 @@ from indexlib import atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
 NOTE = REPO / "src" / "corpus" / "notes"
-APP = REPO / "src" / "corpus" / "app"
+APP = REPO / "src" / "app"
 NOTES = NOTE
 OUT = APP / "data" / "notes-index.json"
 LINKS = APP / "data" / "links.json"

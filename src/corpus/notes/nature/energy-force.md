@@ -19,9 +19,9 @@ tags: [note, nature, property]
 
 ## Related
 
-- [Energy](note.html?p=notes/nature/energy.md)
-- [Force](note.html?p=notes/nature/force.md)
-- [Momentum](note.html?p=notes/nature/momentum.md)
+- [Energy](/note.html?p=notes/nature/energy.md)
+- [Force](/note.html?p=notes/nature/force.md)
+- [Momentum](/note.html?p=notes/nature/momentum.md)
 
 ## Provenance
 

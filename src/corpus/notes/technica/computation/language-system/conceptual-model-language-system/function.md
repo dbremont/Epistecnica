@@ -4,7 +4,7 @@ tags: [note, computational-entity, linguistic-abstraction]
 
 # Function
 
-- [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
 
 > The **function mechanism** enables the construction of a new **computational entity**, a ***function***, which packages a fragment of program description into a reusable abstraction. This entity defines a contract over inputs and outputs, hides internal state transitions, and generates a well-specified computational evolution each time it is applied.
 > 
@@ -59,7 +59,7 @@ Different models specify how arguments are bound to parameters and how evaluatio
 
 ### Local Environment
 
-> See more in [Language Specification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md).
+> See more in [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md).
 > 
 
 The local environment determines the internal state configuration of a function:
@@ -124,5 +124,5 @@ Cases:
 ## References
 
 - https://en.wikipedia.org/wiki/Function_(computer_programming)
-- [Recursion](note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/recursion.md)
+- [Recursion](/note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/recursion.md)
 - https://en.wikipedia.org/wiki/Tail_call

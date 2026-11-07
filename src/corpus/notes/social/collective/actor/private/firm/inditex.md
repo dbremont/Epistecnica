@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, spain, brand-owned, omnichannel, fast-fashio
 ## References
 
 - Wikipedia — Inditex (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

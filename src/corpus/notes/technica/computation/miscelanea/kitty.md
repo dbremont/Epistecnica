@@ -4,7 +4,7 @@ tags: [note]
 
 # Kitty
 
-- [Terminal Emulator](note.html?p=notes/technica/computation/miscelanea/terminal-emulator.md)
+- [Terminal Emulator](/note.html?p=notes/technica/computation/miscelanea/terminal-emulator.md)
 
 > 
 

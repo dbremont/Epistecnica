@@ -9,7 +9,7 @@
 src/corpus/
 ├── README-notes.md      # this document
 ├── app/                 # shared catalog + global viewer + generated data
-│   ├── index.html       # directory browser + section tree
+│   ├── /explorer.html       # directory browser + section tree
 │   ├── note.html        # global markdown viewer (?p=notes|documents|courses/…)
 │   ├── corpus.css
 │   ├── vendor/
@@ -57,7 +57,7 @@ filing rules that shaped it:
 
 ## Epistemica corpus
 
-`data/epistemica/` holds the epistemical notes — the *Modelling* (Modelado)
+`/corpus/notes/epistemica/` holds the epistemical notes — the *Modelling* (Modelado)
 domains (`causality.md`, `mathematical.md`, `observational.md`, …) and their
 element notes, one directory per domain (`epistemica/mathematical/group.md`).
 They document epistemic elements and must follow the epistemical schema (title,
@@ -66,7 +66,7 @@ instance decomposition, `## References`) owned by the canonical philosophia
 guide at
 `https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`;
 the guide's Arithmetic case study is the worked exemplar, and the local
-companion is `data/epistemica/ees.md`.
+companion is `/corpus/notes/epistemica/ees.md`.
 
 - The corpus was seeded from the Naturgnosis Notion *Modelado* export
   (one-off migration; the importer was removed after use — names
@@ -195,17 +195,17 @@ is the human natural system; the subsection keeps the source's collection tree
 
 ## Theory corpus
 
-`data/epistemica/epistemic/theory/` is the flattened epistemic-theory scope:
+`/corpus/notes/epistemica/epistemic/theory/` is the flattened epistemic-theory scope:
 `theory/philosophy.md`, the identifiability note `theory/modelling.md`,
 and the former `theory/practice/` notes.
 
-`data/epistemica/epistemic/guidance/` holds what grounds and guides inquiry:
+`/corpus/notes/epistemica/epistemic/guidance/` holds what grounds and guides inquiry:
 the ontic condition notes at its root (`equilibrium`, `stable`, …),
 `guidance/principle/` for rules of proceeding (`occam-razor`,
 `minimum-description-length-mdl`, …), and `guidance/method/` for the
 philosophical-method notes.
 
-`data/epistemica/epistemic/discipline/` holds the discipline catalogues
+`/corpus/notes/epistemica/epistemic/discipline/` holds the discipline catalogues
 (mathematics, statistics, computer science, …).
 
 `data/nature/theory/` holds the natural-ontology theory scope: the ontic
@@ -227,7 +227,7 @@ Change note.
 
 ## Catalog
 
-`index.html` follows the Naturgnosis catalog model (the same engine is
+`/explorer.html` follows the Naturgnosis catalog model (the same engine is
 mirrored in the courses and documents catalogs). There are no section/tag
 facet bars: sections are reached as folders and tags through the search box.
 
@@ -246,7 +246,7 @@ facet bars: sections are reached as folders and tags through the search box.
 ## Notes vs live notes
 
 - A **note** is a markdown file (`*.md`): rendered on the fly by
-  `note.html?p=notes/<path>`. The bulk of the corpus.
+  `/note.html?p=notes/<path>`. The bulk of the corpus.
 - A **live note** is a self-contained, hand-authored HTML page (`*.html`),
   co-located with its companion markdown note — bespoke interactivity, its
   own scripts. Served as-is; never rendered through the viewer. Every live

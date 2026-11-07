@@ -92,7 +92,7 @@ This table provides an overview of the data representation of various types in R
 > Rust pointers, including safe references (`&T` and `&mut T`), unsafe raw pointers (`*const T` and `*mut T`), and smart pointers like `Box<T>`, `Rc<T>`, and `Arc<T>`, provide diverse mechanisms for memory access and management, ensuring safety and efficiency in system-level programming.
 > 
 
-[Rust Pointers](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/typescript/typescript-type-system/rust-pointers.md)
+[Rust Pointers](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/typescript/typescript-type-system/rust-pointers.md)
 
 ## Type Coercions
 

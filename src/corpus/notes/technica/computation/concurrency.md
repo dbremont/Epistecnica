@@ -505,12 +505,12 @@ Guiding questions:
 
 ### Hardware Substrate
 
-> See [Hardware Substrate](note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/hardware-substrate.md).
+> See [Hardware Substrate](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/hardware-substrate.md).
 > 
 
 ### **Implicit Coordination Mechanism**
 
-> See more in [Implicit Coordination Mechanism](note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/implicit-coordination-mechanism.md).
+> See more in [Implicit Coordination Mechanism](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/implicit-coordination-mechanism.md).
 > 
 
 ## Intrisic Technical Problem
@@ -518,7 +518,7 @@ Guiding questions:
 > Which are the technical problems introduced by concurrent execution, and which concurrency coordination techniques can be introduced to address them?
 > 
 
-> See more in [Intrisic Technical Problem](note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/intrisic-technical-problem.md).
+> See more in [Intrisic Technical Problem](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/intrisic-technical-problem.md).
 > 
 
 ## Concurrency Paradigm(s)
@@ -585,7 +585,7 @@ Guiding questions:
 
 ### **Units of Computation**
 
-> See more in [Unit of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md).
+> See more in [Unit of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md).
 > 
 
 | **Unit** | **Description** | **Type** | **Use Case** |
@@ -637,7 +637,7 @@ Guiding questions:
 > Correctness in a concurrency system is typically defined by the following properties:
 > 
 
-> See [Consistency](note.html?p=notes/technica/computation/dependability/consistency.md).
+> See [Consistency](/note.html?p=notes/technica/computation/dependability/consistency.md).
 > 
 
 ### Specification
@@ -672,7 +672,7 @@ safety (e.g., no deadlocks) and liveness (e.g., eventual progress).
 
 ## Concurrency Theory
 
-> See more in [Concurrency Theory](note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/concurrency-theory.md).
+> See more in [Concurrency Theory](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/concurrency-theory.md).
 > 
 
 ## **Practice**
@@ -689,7 +689,7 @@ Design Principles
 
 ### **Fault Tolerance**
 
-> See more in [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21) and [Fault-Tolerant Design](note.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md)
+> See more in [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21) and [Fault-Tolerant Design](/note.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md)
 > 
 - Checkpointing
 - Consensus Protocols
@@ -819,17 +819,17 @@ Conceptual Model: Coordination
 - https://news.ycombinator.com/item?id=35684232
 - https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html
 - https://en.wikipedia.org/wiki/Multiversion_concurrency_control
-- [x86](note.html?p=notes/technica/computation/operating-system/x86.md)
+- [x86](/note.html?p=notes/technica/computation/operating-system/x86.md)
 - [‣](https://app.notion.com/p/fe6e9732f0ce4104b49c95bc3e106a70?pvs=21)
-- [Instruction Set Architecture (ISA)](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/instruction-set-architecture-isa.md)
-- [Reduced Instruction Set Computer (RISC-V)](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/reduced-instruction-set-computer-risc-v.md)
+- [Instruction Set Architecture (ISA)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/instruction-set-architecture-isa.md)
+- [Reduced Instruction Set Computer (RISC-V)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/reduced-instruction-set-computer-risc-v.md)
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
-- [Distributed Computing](note.html?p=notes/technica/computation/distributed-computing.md)
-- [Real-Time Computing](note.html?p=notes/technica/computation/miscelanea/real-time-computing.md)
-- [Language System](note.html?p=notes/technica/computation/language-system.md)
-- [Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
-- [Distributed Computing](note.html?p=notes/technica/computation/distributed-computing.md)
-- [**Message Delivery Guarantee**](note.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-delivery-guarantee.md)
+- [Distributed Computing](/note.html?p=notes/technica/computation/distributed-computing.md)
+- [Real-Time Computing](/note.html?p=notes/technica/computation/miscelanea/real-time-computing.md)
+- [Language System](/note.html?p=notes/technica/computation/language-system.md)
+- [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
+- [Distributed Computing](/note.html?p=notes/technica/computation/distributed-computing.md)
+- [**Message Delivery Guarantee**](/note.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-delivery-guarantee.md)
 - https://en.wikipedia.org/wiki/Cache_coherence
 - https://stackoverflow.com/questions/10989403/how-is-x86-instruction-cache-synchronized
 - https://stackoverflow.com/questions/2368164/how-is-thread-synchronization-implemented-at-the-assembly-language-level

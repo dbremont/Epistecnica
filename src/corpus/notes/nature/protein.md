@@ -228,11 +228,11 @@ QA:
 
 ## Related
 
-- [Enzyme](note.html?p=notes/nature/enzyme.md)
-- [Biomolecule](note.html?p=notes/nature/biomolecule.md)
-- [Prion](note.html?p=notes/nature/prion.md)
-- [Cell](note.html?p=notes/nature/cell.md)
-- [Living System](note.html?p=notes/nature/living-system.md)
+- [Enzyme](/note.html?p=notes/nature/enzyme.md)
+- [Biomolecule](/note.html?p=notes/nature/biomolecule.md)
+- [Prion](/note.html?p=notes/nature/prion.md)
+- [Cell](/note.html?p=notes/nature/cell.md)
+- [Living System](/note.html?p=notes/nature/living-system.md)
 
 ## Provenance
 

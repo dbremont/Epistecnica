@@ -69,8 +69,8 @@ The endocrine system often works through **negative feedback** mechanisms:
 
 ## Related
 
-- [Hormone](note.html?p=notes/nature/hormone.md)
-- [Cardiovascular System](note.html?p=notes/nature/cardiovascular-system.md)
+- [Hormone](/note.html?p=notes/nature/hormone.md)
+- [Cardiovascular System](/note.html?p=notes/nature/cardiovascular-system.md)
 
 ## Provenance
 

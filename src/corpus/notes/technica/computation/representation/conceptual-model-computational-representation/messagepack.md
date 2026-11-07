@@ -146,18 +146,18 @@ Although **MessagePack** is a highly efficient binary serialization format, it h
 ## References
 
 - https://msgpack.org/index.html
-- [UTF-8](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/utf-8.md)
+- [UTF-8](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/utf-8.md)
 - https://github.com/dbremont/snippets
 - - [Python: Type System]
 - https://github.com/csiglab/language-system-labs
 - - [Representation Problem: Text (String)]
 - https://news.ycombinator.com/item?id=42663047
 - See https://github.com/pydantic/pydantic
-- [How to conduct a performance evaluation?](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/how-to-conduct-a-performance-evaluation.md)
+- [How to conduct a performance evaluation?](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/how-to-conduct-a-performance-evaluation.md)
 - https://github.com/fabianoriccardi/benchmark-json-messagepack/blob/master/data_analysis.ipynb
 - https://jsonjoy.com/blog/json-codec-benchmarks
 - [‣](https://app.notion.com/p/b0a2a8d65e9d46d3b9ccfe1614c1bd73?pvs=21)
-- [Performace](note.html?p=notes/technica/computation/system/evaluation/performace.md)
+- [Performace](/note.html?p=notes/technica/computation/system/evaluation/performace.md)
 - 
 - https://en.wikipedia.org/wiki/Speedup
 - [https://acg.cis.upenn.edu/milom/cis501-Fall12/lectures/04_performance.pdf](https://acg.cis.upenn.edu/milom/cis501-Fall12/lectures/04_performance.pdf)

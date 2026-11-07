@@ -37,4 +37,4 @@ Its layer is **Ontic**: the firm exists with staff, codebases, and accounts. Its
 ## References
 
 - Produceologia `docs/Production/Industry/Software/Firm/README.md`
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)

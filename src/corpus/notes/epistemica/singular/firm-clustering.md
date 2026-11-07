@@ -31,4 +31,4 @@ tags: [note, clustering, firms, 10-k]
 
 - Produceologia `docs/Toolkit/Method/Clustering.md`
 - Produceologia `docs/Toolkit/Data/SEC/README.md` (filing categories)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)

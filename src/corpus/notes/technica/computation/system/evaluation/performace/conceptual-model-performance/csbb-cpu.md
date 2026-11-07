@@ -66,7 +66,7 @@ tags: [note, system]
 
 ### **Performance Counters**
 
-> See more in [Kernel Monitoring and Tracing Facilities](note.html?p=notes/technica/computation/operating-system/linux/kernel-monitoring-and-tracing-facilities.md).
+> See more in [Kernel Monitoring and Tracing Facilities](/note.html?p=notes/technica/computation/operating-system/linux/kernel-monitoring-and-tracing-facilities.md).
 > 
 
 | **Event Name** | **Description** | **Counter Type** | **Usage** |

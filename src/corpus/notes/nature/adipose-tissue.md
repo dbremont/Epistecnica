@@ -29,8 +29,8 @@ tags: [note, nature, substance-matter, biology, materials-science, matter]
 
 ## Related
 
-- [Human](note.html?p=notes/nature/human.md)
-- [Tissue](note.html?p=notes/nature/tissue.md)
+- [Human](/note.html?p=notes/nature/human.md)
+- [Tissue](/note.html?p=notes/nature/tissue.md)
 
 ## Provenance
 

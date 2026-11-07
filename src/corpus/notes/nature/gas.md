@@ -56,7 +56,7 @@ tags: [note, nature, substance-matter, materials-science, matter]
 
 ## Related
 
-- [Fluid](note.html?p=notes/nature/fluid.md)
+- [Fluid](/note.html?p=notes/nature/fluid.md)
 
 ## Provenance
 

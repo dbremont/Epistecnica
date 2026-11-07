@@ -179,13 +179,13 @@ Too small, and you'll get `EINVAL`.
 
 ## References
 
-- [Linker](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
-- [Loader](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
-- [Evaluation Model](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Memory  Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
-- [Runtime Representation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
+- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Loader](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
+- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
+- [Runtime Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
 - x86: 🚀 Execution System
-- [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
 - 
-- [Linux Process Management Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
+- [Linux Process Management Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
 - x86: 📜 Language Specification

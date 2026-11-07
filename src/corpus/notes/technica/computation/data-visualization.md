@@ -14,11 +14,11 @@ tags: [note]
 > **Autovisualization** is the process of automatically generating visual representations of data or information to enhance understanding and analysis.
 > 
 
-![Untitled](../assets/note/technica/computation/data-visualization/untitled.png)
+![Untitled](/assets/note/technica/computation/data-visualization/untitled.png)
 
 ## Multidimensional Data Visualization
 
-[Multidimensional Data Visualization](note.html?p=notes/technica/computation/data-visualization/multidimensional-data-visualization.md)
+[Multidimensional Data Visualization](/note.html?p=notes/technica/computation/data-visualization/multidimensional-data-visualization.md)
 
 ## References
 

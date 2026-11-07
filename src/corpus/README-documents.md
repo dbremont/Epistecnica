@@ -10,7 +10,7 @@
 src/corpus/
 ├── README-documents.md  # this document
 ├── app/                 # shared catalog + global viewer + generated data
-│   ├── index.html
+│   ├── /explorer.html
 │   ├── note.html        # global markdown viewer (?p=documents/<path>)
 │   ├── corpus.css
 │   └── data/            # generated indexes, changelogs

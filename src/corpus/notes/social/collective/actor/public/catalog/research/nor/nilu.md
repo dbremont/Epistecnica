@@ -6,7 +6,7 @@ tags: [note, actor, research-institute, research-foundation, norway, environment
 
 > **NILU** is an independent Norwegian research foundation founded in 1969 to study air pollution, and now a climate and environmental research institute measuring the atmosphere, the contaminants in it, and the health effects of both. It runs observatories in the Arctic, Antarctica, and Norway, holds the national responsibility for air-pollution research, and is consulted by the World Bank, the WHO, and the WMO.
 
-> It is not a state agency. NILU is a private non-profit foundation that holds a public basic grant and competes for the rest of its income, and that distinction is the reason it sits here rather than beside NIBIO as one more state institute. Framed per [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> It is not a state agency. NILU is a private non-profit foundation that holds a public basic grant and competes for the rest of its income, and that distinction is the reason it sits here rather than beside NIBIO as one more state institute. Framed per [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -101,5 +101,5 @@ Lineage: an institute created in 1969 for air-pollution research, when smog and 
 - [NILU — Organisation](https://nilu.com/about-nilu/organisation) (organizational structure)
 - [Norwegian Institute for Air Research — Wikipedia](https://en.wikipedia.org/wiki/Norwegian_Institute_for_Air_Research) (history, first director, national responsibility, expert use by international bodies)
 - [NILU at Ny-Ålesund Research Station](https://nyalesundresearch.no/members/norwegian-institute-for-air-research-nilu-norway) (polar presence and the Zeppelin observatory)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [NIBIO (companion note)](note.html?p=notes/social/collective/actor/public/catalog/research/nor/nibio.md) (the state-agency form against which this foundation stands)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [NIBIO (companion note)](/note.html?p=notes/social/collective/actor/public/catalog/research/nor/nibio.md) (the state-agency form against which this foundation stands)

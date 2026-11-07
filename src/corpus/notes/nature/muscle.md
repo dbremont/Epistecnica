@@ -40,8 +40,8 @@ tags: [note, nature, natural-system, animal, biology, tissue]
 
 ## Related
 
-- [Tissue](note.html?p=notes/nature/tissue.md)
-- [Human](note.html?p=notes/nature/human.md)
+- [Tissue](/note.html?p=notes/nature/tissue.md)
+- [Human](/note.html?p=notes/nature/human.md)
 
 ## Provenance
 

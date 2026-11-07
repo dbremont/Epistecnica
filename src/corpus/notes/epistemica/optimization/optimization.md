@@ -11,7 +11,7 @@ order: 0
 > New Geometry → New Theory of Optimization !!!
 > 
 
-![image.png](../assets/note/epistemica/optimization/image.png)
+![image.png](/assets/note/epistemica/optimization/image.png)
 
 ## Catalog of Optimization Problems
 
@@ -106,19 +106,19 @@ order: 0
 > here rather than in a scope of their own: the family names the *inspiration*
 > of the method, not the operation it performs.
 
-- [Evolutionary Computation](note.html?p=notes/epistemica/optimization/evolutionary-computation.md) — representation + evolutionary optimization algorithms (GA, GP, ES, EP, DE)
-- [Genetic Operator](note.html?p=notes/epistemica/optimization/genetic-operator.md) — selection, crossover, mutation, elitism
-- [Island Model](note.html?p=notes/epistemica/optimization/island-model.md) — parallel, distributed populations
-- [Memetic Algorithms](note.html?p=notes/epistemica/optimization/memetic-algorithms.md) — evolution coupled with local search
-- [Multi-objective Evolutionary Algorithms (MOEA)](note.html?p=notes/epistemica/optimization/multi-objective-evolutionary-algorithms-moea.md) — Pareto-based search
-- [Particle Swarm Optimization (PSO)](note.html?p=notes/epistemica/optimization/particle-swarm-optimization-pso.md) — swarm search over a continuous landscape
-- [Grey Wolf Optimizer](note.html?p=notes/epistemica/optimization/grey-wolf-optimizer.md) — pack-hierarchy search
-- [Neuroevolution](note.html?p=notes/epistemica/optimization/neuroevolution.md) — evolving network weights and topologies
+- [Evolutionary Computation](/note.html?p=notes/epistemica/optimization/evolutionary-computation.md) — representation + evolutionary optimization algorithms (GA, GP, ES, EP, DE)
+- [Genetic Operator](/note.html?p=notes/epistemica/optimization/genetic-operator.md) — selection, crossover, mutation, elitism
+- [Island Model](/note.html?p=notes/epistemica/optimization/island-model.md) — parallel, distributed populations
+- [Memetic Algorithms](/note.html?p=notes/epistemica/optimization/memetic-algorithms.md) — evolution coupled with local search
+- [Multi-objective Evolutionary Algorithms (MOEA)](/note.html?p=notes/epistemica/optimization/multi-objective-evolutionary-algorithms-moea.md) — Pareto-based search
+- [Particle Swarm Optimization (PSO)](/note.html?p=notes/epistemica/optimization/particle-swarm-optimization-pso.md) — swarm search over a continuous landscape
+- [Grey Wolf Optimizer](/note.html?p=notes/epistemica/optimization/grey-wolf-optimizer.md) — pack-hierarchy search
+- [Neuroevolution](/note.html?p=notes/epistemica/optimization/neuroevolution.md) — evolving network weights and topologies
 
 > The remaining tagged members live in the scope that owns their target:
-> [Swarm Intelligence (Collective Intelligence)](note.html?p=notes/epistemica/complexity/swarm-intelligence-collective-intelligence.md)
+> [Swarm Intelligence (Collective Intelligence)](/note.html?p=notes/epistemica/complexity/swarm-intelligence-collective-intelligence.md)
 > in Complexity Science and
-> [Cellular Automata](note.html?p=notes/epistemica/mathematical/change/cellular-automata.md)
+> [Cellular Automata](/note.html?p=notes/epistemica/mathematical/change/cellular-automata.md)
 > in the Change scope.
 
 ## Conceptual Model
@@ -152,6 +152,6 @@ Conceptual Model: Optimization
 - Integer Programming. L.A. Wolsey. Wiley (1998).
 - Ren, Y., Lu, X., Guo, H., Xie, Z., Zhang, H., & Zhang, C. (2023). A review of combinatorial optimization problems in reverse logistics and remanufacturing for end-of-life products. Mathematics, 11(2), 298.
 - http://titan.princeton.edu/TestProblems/index.html
-- [Geometry](note.html?p=notes/epistemica/mathematical/geometry/geometry.md)
+- [Geometry](/note.html?p=notes/epistemica/mathematical/geometry/geometry.md)
 - https://en.wikipedia.org/wiki/Change-making_problem
 - [**M**AT 168 Optimization] [https://video.ucdavis.edu/channel/MAT+168+Optimization+(Matthias+Köppe%3B+Winter+2024)/329241352](https://video.ucdavis.edu/channel/MAT+168+Optimization+%28Matthias+K%C3%B6ppe%3B+Winter+2024%29/329241352)

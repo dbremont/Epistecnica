@@ -103,8 +103,8 @@ QA:
 
 ## Related
 
-- [Cell](note.html?p=notes/nature/cell.md)
-- [Nutrient](note.html?p=notes/nature/nutrient.md)
+- [Cell](/note.html?p=notes/nature/cell.md)
+- [Nutrient](/note.html?p=notes/nature/nutrient.md)
 
 ## Provenance
 

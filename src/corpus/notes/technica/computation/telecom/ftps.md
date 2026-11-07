@@ -4,7 +4,7 @@ tags: [note]
 
 # FTPs
 
-- [File Transfer Protocol (FTP)](note.html?p=notes/technica/computation/telecom/file-transfer-protocol-ftp.md)
+- [File Transfer Protocol (FTP)](/note.html?p=notes/technica/computation/telecom/file-transfer-protocol-ftp.md)
 
 > 
 

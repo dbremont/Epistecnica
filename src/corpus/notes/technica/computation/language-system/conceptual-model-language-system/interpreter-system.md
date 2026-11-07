@@ -4,7 +4,7 @@ tags: [note, language-system, virtual-machine]
 
 # Interpreter System
 
-- [Bytecode Virtual Machine](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md), [Parsing](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Memory  Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
+- [Bytecode Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md), [Parsing](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
 
 > In this note we will explore the idea of a `Interpreter System`.
 > 

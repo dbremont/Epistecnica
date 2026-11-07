@@ -81,11 +81,11 @@ tags: [note, nature, natural-system, biology, system]
 
 ## Related
 
-- [Gene](note.html?p=notes/nature/gene.md)
-- [Epigenome](note.html?p=notes/nature/epigenome.md)
-- [Leptospira](note.html?p=notes/nature/leptospira.md)
-- [Human Genome](note.html?p=notes/nature/human-genome.md)
-- [Living System](note.html?p=notes/nature/living-system.md)
+- [Gene](/note.html?p=notes/nature/gene.md)
+- [Epigenome](/note.html?p=notes/nature/epigenome.md)
+- [Leptospira](/note.html?p=notes/nature/leptospira.md)
+- [Human Genome](/note.html?p=notes/nature/human-genome.md)
+- [Living System](/note.html?p=notes/nature/living-system.md)
 
 ## Provenance
 

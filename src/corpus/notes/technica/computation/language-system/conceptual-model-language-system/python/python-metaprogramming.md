@@ -20,4 +20,4 @@ Questions:
 
 ## References
 
-- [Metaprogramming](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)
+- [Metaprogramming](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)

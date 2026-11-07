@@ -4,7 +4,7 @@ tags: [note, computational-entity, concept, linguistic-abstraction, metalinguist
 
 # Program Element
 
-- [Program](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md), [Meta Linguistic Abstraction](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/meta-linguistic-abstraction.md), [Unit of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md), [Language Specification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md), [Computation  (Computational Process)](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md)
+- [Program](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md), [Meta Linguistic Abstraction](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/meta-linguistic-abstraction.md), [Unit of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md), [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md), [Computation  (Computational Process)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md)
 
 > A **program e***lement* is a higher-order conceptual abstraction used to denote any constituent element of a program.
 > 
@@ -188,5 +188,5 @@ implement their own specific forms. For example, Python has `with`, Go has `defe
 
 ## References
 
-- [Abstraction](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
-- [Design](note.html?p=notes/technica/computation/system/design.md)
+- [Abstraction](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
+- [Design](/note.html?p=notes/technica/computation/system/design.md)

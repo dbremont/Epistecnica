@@ -10,7 +10,7 @@ tags: [note, language]
 
 ## 🧮 Model of Computation
 
-> What are the models of computation that  the language supports? See more in [Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> What are the models of computation that  the language supports? See more in [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
 > 
 
 > A **model of computation** (also called a *computation model* or *computational formalism*) is a formal system that defines how computations (processes) are **represented** and **executed**. It specifies:
@@ -62,7 +62,7 @@ PHP: 📚 Standard Library
 > **Code organizational mechanisms** refer to strategies and structures used to manage, modularize, and maintain code in a way that promotes clarity, efficiency, and scalability throughout the software development process.
 > 
 
-[**PHP:** Modularization](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/php-hypertext-preprocessor/php-modularization.md)
+[**PHP:** Modularization](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/php-hypertext-preprocessor/php-modularization.md)
 
 ## **🔄 Computation Flow Primitive**
 

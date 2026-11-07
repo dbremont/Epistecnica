@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # Etcd
 
-- [Apache Zookeeper](note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/apache-zookeeper.md)
+- [Apache Zookeeper](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/apache-zookeeper.md)
 
 > A distributed key-value store that provides reliable data storage and service discovery for systems and applications, often used with Kubernetes.
 > 

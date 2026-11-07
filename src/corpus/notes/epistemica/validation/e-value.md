@@ -354,11 +354,11 @@ qa:
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
-- [P-Value](note.html?p=notes/epistemica/validation/p-value.md)
-- [Statistical Hypothesis Testing](note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md)
-- [Validation](note.html?p=notes/epistemica/validation/validation.md)
-- [Calibration](note.html?p=notes/epistemica/validation/calibration.md)
-- [EES atlas](data/epistemica/ees.html)
+- [P-Value](/note.html?p=notes/epistemica/validation/p-value.md)
+- [Statistical Hypothesis Testing](/note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md)
+- [Validation](/note.html?p=notes/epistemica/validation/validation.md)
+- [Calibration](/note.html?p=notes/epistemica/validation/calibration.md)
+- [EES atlas](/corpus/notes/epistemica/ees.html)
 - https://en.wikipedia.org/wiki/E-values
 - Vovk, V., & Wang, R. (2021). E-values: Calibration, combination and applications. *Annals of Statistics*, 49(3), 1736–1754. https://arxiv.org/abs/1912.06116
 - Grünwald, P., de Heide, R., & Koolen, W. M. (2024). Safe testing. *Journal of the Royal Statistical Society: Series B*, 86(5), 1091–1128. https://arxiv.org/abs/1906.07801

@@ -71,7 +71,7 @@ Guiding Questions:
 
 ## Language Semantics
 
-> See more in  [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
+> See more in  [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
 > 
 
 Guiding Questions:
@@ -150,7 +150,7 @@ Guiding Questions:
 
 ## References
 
-- [Evaluation Model](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Program Element](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
-- [Language Specification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
-- [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
+- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)

@@ -4,7 +4,7 @@ tags: [note]
 
 # Representation
 
-Related: [Modelling](note.html?p=notes/epistemica/epistemic/theory/modelling.md)
+Related: [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md)
 
 > The form (representation) of the representation cannot be confuse the representation with the represented: a mathematical model can be dynamic or static. A simple equation capturing structural aspects can be considered less vivid, whereas a differential equation model is vivid.
 > 
@@ -18,4 +18,4 @@ Related: [Modelling](note.html?p=notes/epistemica/epistemic/theory/modelling.md)
 
 ## References
 
-- [Epistemic Artifact](note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
+- [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)

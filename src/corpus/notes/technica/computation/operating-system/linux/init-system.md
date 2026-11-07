@@ -4,7 +4,7 @@ tags: [note, initialization]
 
 # Init System
 
-- [initrd](note.html?p=notes/technica/computation/operating-system/linux/initrd.md)
+- [initrd](/note.html?p=notes/technica/computation/operating-system/linux/initrd.md)
 
 > 
 

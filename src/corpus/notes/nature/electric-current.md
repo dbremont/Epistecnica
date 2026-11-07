@@ -114,9 +114,9 @@ where:
 
 ## Related
 
-- [Energy](note.html?p=notes/nature/energy.md)
-- [Electrical Circuit](note.html?p=notes/nature/electrical-circuit.md)
-- [Radio Wave](note.html?p=notes/nature/radio-wave.md)
+- [Energy](/note.html?p=notes/nature/energy.md)
+- [Electrical Circuit](/note.html?p=notes/nature/electrical-circuit.md)
+- [Radio Wave](/note.html?p=notes/nature/radio-wave.md)
 
 ## Provenance
 

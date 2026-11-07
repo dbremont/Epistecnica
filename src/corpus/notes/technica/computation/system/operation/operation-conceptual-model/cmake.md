@@ -4,7 +4,7 @@ tags: [note, build-system, tool]
 
 # CMake
 
-- [Build System](note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
+- [Build System](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
 
 > CMake is an open-source cross-platform build system and configuration tool designed to manage the build process of software projects.
 > 

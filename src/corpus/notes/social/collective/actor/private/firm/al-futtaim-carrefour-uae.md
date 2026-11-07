@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, united-arab-emirates, supermarket, hypermark
 ## References
 
 - Wikipedia — Al-Futtaim / Carrefour UAE (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

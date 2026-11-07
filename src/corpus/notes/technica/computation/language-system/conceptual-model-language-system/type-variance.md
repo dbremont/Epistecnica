@@ -4,7 +4,7 @@ tags: [note, type-system]
 
 # Type Variance
 
-- [Subtyping](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/subtyping.md), [Type System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md), [Type Compatibility](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-compatibility.md)
+- [Subtyping](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/subtyping.md), [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md), [Type Compatibility](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-compatibility.md)
 
 > **Type variance** is a **type judgment** that governs the behavior of type substitutions in the presence of subtyping, ensuring the correct propagation of type relationships (covariant, contravariant, or invariant) for parameterized types in both function input and output positions, thereby preserving type safety and consistency in polymorphic contexts.
 > 
@@ -38,7 +38,7 @@ QA:
 - **Bivariant** means both covariant and contravariant.
 - **Invariant** means neither covariant nor contravariant.
 
-![Covariance vs Contra-Variance](../assets/note/technica/computation/language-system/conceptual-model-language-system/type-variance/image.png)
+![Covariance vs Contra-Variance](/assets/note/technica/computation/language-system/conceptual-model-language-system/type-variance/image.png)
 
 Covariance vs Contra-Variance
 
@@ -62,7 +62,7 @@ Covariance vs Contra-Variance
 > Function types with different argument or return types can exhibit these variances, enhancing flexibility in how functions can be assigned and used.
 > 
 
-![**Contra-variance** allows more general argument types in function signatures.](../assets/note/technica/computation/language-system/conceptual-model-language-system/type-variance/image-1.png)
+![**Contra-variance** allows more general argument types in function signatures.](/assets/note/technica/computation/language-system/conceptual-model-language-system/type-variance/image-1.png)
 
 **Contra-variance** allows more general argument types in function signatures.
 

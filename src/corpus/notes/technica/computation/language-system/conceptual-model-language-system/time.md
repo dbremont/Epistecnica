@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # Time
 
-- [Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md), [Declarative Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md)
+- [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md), [Declarative Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md)
 
 > The *problem of time* in programming refers to the difficulty of reconciling ***temporal ordering***, ***causal dependency***, and ***observable state change*** with purely ***referentially transparent* computational models**—particularly in functional programming, where time-dependent behavior must be modeled without side effects.
 > 
@@ -107,7 +107,7 @@ A process is time-dependent if:
 
 **Methods:**
 
-> See more in [Verification](note.html?p=notes/technica/computation/dependability/verification.md).
+> See more in [Verification](/note.html?p=notes/technica/computation/dependability/verification.md).
 > 
 
 | **Category** | **Method** | **Description** |
@@ -184,7 +184,7 @@ A process is time-dependent if:
 
 ## References
 
-- [Time](note.html?p=notes/technica/computation/miscelanea/time.md)
+- [Time](/note.html?p=notes/technica/computation/miscelanea/time.md)
 - [‣](https://app.notion.com/p/10e598edb7908183ba99f3b404ea8627?pvs=21)
 - https://news.ycombinator.com/item?id=27554355
 - https://www.microsoft.com/en-us/research/publication/tackling-awkward-squad-monadic-inputoutput-concurrency-exceptions-foreign-language-calls-haskell/

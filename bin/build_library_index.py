@@ -2,7 +2,7 @@
 """Build the unified library index.
 
 Merges the three corpus indexes into one lightweight metadata file,
-src/corpus/app/data/library-index.json, consumed by the hub and the unified
+src/app/data/library-index.json, consumed by the hub and the unified
 library page. Each entry keeps {corpus, kind, path, title, section,
 tags, words}; full text stays in the per-corpus indexes.
 
@@ -17,12 +17,12 @@ from pathlib import Path
 from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
-OUT = REPO / "src" / "corpus" / "app" / "data" / "library-index.json"
+OUT = REPO / "src" / "app" / "data" / "library-index.json"
 
 SOURCES = [
-    ("note", REPO / "src" / "corpus" / "app" / "data" / "notes-index.json", "notes"),
-    ("document", REPO / "src" / "corpus" / "app" / "data" / "documents-index.json", "documents"),
-    ("course", REPO / "src" / "corpus" / "app" / "data" / "courses-index.json", "entries"),
+    ("note", REPO / "src" / "app" / "data" / "notes-index.json", "notes"),
+    ("document", REPO / "src" / "app" / "data" / "documents-index.json", "documents"),
+    ("course", REPO / "src" / "app" / "data" / "courses-index.json", "entries"),
 ]
 
 
@@ -79,7 +79,7 @@ def build(progress=None) -> bool:
     }, ensure_ascii=False, separators=(",", ":")))
 
     kb = OUT.stat().st_size / 1024
-    print(f"library-index: {len(entries)} entries -> src/corpus/app/data/library-index.json ({kb:.0f} KB)")
+    print(f"library-index: {len(entries)} entries -> src/app/data/library-index.json ({kb:.0f} KB)")
     for corpus, count in sorted(counts.items()):
         print(f"  {corpus}: {count}")
     if progress is not None:

@@ -116,7 +116,7 @@ QA:
 > Use prepared statements to avoid SQL injection attacks and improve query performance.
 > 
 
-> Use connection pooling to reduce the overhead of opening and closing database connections. See more in [**Connection Pool**](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/connection-pool.md).
+> Use connection pooling to reduce the overhead of opening and closing database connections. See more in [**Connection Pool**](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/connection-pool.md).
 > 
 
 ## DNS System
@@ -173,7 +173,7 @@ QA:
 > Optimize JVM performance by tuning GC algorithms (G1GC, ZGC), leveraging tiered JIT compilation (C1, C2, Graal), adjusting heap memory allocation (`-Xms`, `-Xmx`), enabling class data sharing (CDS), minimizing synchronization overhead with lock-free data structures, and utilizing profiling tools (JFR, Async Profiler) for runtime optimization.
 > 
 
-[Java HotSpot Virtual Machine](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
+[Java HotSpot Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
 
 ## Browser
 
@@ -253,5 +253,5 @@ References
 
 ## References
 
-- [Linux Process Management Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
+- [Linux Process Management Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
 - [‣](https://app.notion.com/p/1cbc0f5171ec8054998ddf3212e4916b?pvs=21)

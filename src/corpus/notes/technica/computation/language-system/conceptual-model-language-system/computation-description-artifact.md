@@ -4,7 +4,7 @@ tags: [note, description-artifact]
 
 # Computation Description Artifact
 
-- [Program](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md)
+- [Program](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md)
 
 > **Computation Description Artifact** — an artifact whose primary purpose is to **describe, specify, compose,  or otherwise represent a computation**, independently of or prior to its execution.
 > 

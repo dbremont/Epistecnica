@@ -113,7 +113,7 @@ Argumentation Techniques:
 - Thinking
 - A Guide to Reading
 - https://en.wikipedia.org/wiki/Argument
-- [Philosophy of Language](note.html?p=notes/epistemica/epistemic/theory/philosophy-of-language.md)
+- [Philosophy of Language](/note.html?p=notes/epistemica/epistemic/theory/philosophy-of-language.md)
 - https://en.wikipedia.org/wiki/Argumentation_theory
 - https://www.filosofia.org/enc/ros/argumen.htm
 - https://plato.stanford.edu/entries/argument/

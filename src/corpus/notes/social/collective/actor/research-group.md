@@ -15,5 +15,5 @@ tags: [note]
 
 ## References
 
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the functional actor family this quasi-firm team belongs to)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the functional actor family this quasi-firm team belongs to)
 - Etzkowitz, H. (2003). Research groups as ‘quasi-firms’: the invention of the entrepreneurial university. 32(1), 109–121.

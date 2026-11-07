@@ -45,7 +45,7 @@ Guiding Questions:
     - https://huggingface.co/datasets/HuggingFaceCode/stack-v3-train
 - Data:
     
-    ![image.png](../assets/annotation-workflow-training-llm-behavior.png)
+    ![image.png](/assets/annotation-workflow-training-llm-behavior.png)
     
     - …
 
@@ -162,7 +162,7 @@ Reformulated guiding questions:
 > The problems solved by this systems are wicked problems - …
 > 
 
-![image.png](../assets/mlops-lifecycle.png)
+![image.png](/assets/mlops-lifecycle.png)
 
 ## Task Space
 

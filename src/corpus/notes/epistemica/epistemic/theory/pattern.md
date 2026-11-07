@@ -146,4 +146,4 @@ This is the ***completion principle***:
 - Solomonoff, R. J. (1964). A formal theory of inductive inference. Part I. *Information and Control, 7*(1), 1–22. [https://doi.org/10.1016/S0019-9958(64)90223-2](https://doi.org/10.1016/S0019-9958(64)90223-2)
 - Solomonoff, R. J. (1964). A formal theory of inductive inference. Part II. *Information and Control, 7*(2), 224–254. [https://doi.org/10.1016/S0019-9958(64)90231-1](https://doi.org/10.1016/S0019-9958(64)90231-1)
 - Woodward, J. (2003). *Making things happen: A theory of causal explanation*. Oxford University Press.
-- [Explanation](note.html?p=notes/epistemica/epistemic/theory/explanation.md)
+- [Explanation](/note.html?p=notes/epistemica/epistemic/theory/explanation.md)

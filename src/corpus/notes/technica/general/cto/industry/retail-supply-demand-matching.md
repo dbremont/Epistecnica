@@ -153,8 +153,8 @@ tags: [note, retail, supply-chain, demand-forecasting, inventory, multi-root]
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
-- [Logistics System](note.html?p=notes/technica/general/cto/industry/logistics-system.md)
+- [Logistics System](/note.html?p=notes/technica/general/cto/industry/logistics-system.md)

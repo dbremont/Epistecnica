@@ -88,9 +88,9 @@ Guiding Questions:
 
 ## References
 
-- [Linker](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
-- [Loader](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
-- [Evaluation Model](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Memory  Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
-- [Runtime Representation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
-- [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Loader](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
+- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
+- [Runtime Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
+- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)

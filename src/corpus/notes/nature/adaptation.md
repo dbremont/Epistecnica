@@ -30,7 +30,7 @@ tags: [note, nature, adaptation, biology, phenomena]
 
 ## Related
 
-- [Evolution](note.html?p=notes/nature/evolution.md)
+- [Evolution](/note.html?p=notes/nature/evolution.md)
 
 ## Provenance
 

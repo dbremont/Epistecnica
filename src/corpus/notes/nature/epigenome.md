@@ -13,8 +13,8 @@ tags: [note, nature, natural-system, process, system]
 
 ## Related
 
-- [Genome](note.html?p=notes/nature/genome.md)
-- [Leptospira](note.html?p=notes/nature/leptospira.md)
+- [Genome](/note.html?p=notes/nature/genome.md)
+- [Leptospira](/note.html?p=notes/nature/leptospira.md)
 
 ## Provenance
 

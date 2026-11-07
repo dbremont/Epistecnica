@@ -4,7 +4,7 @@ tags: [note, network]
 
 # Linux Network Stack
 
-- [Berkeley Socket](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md), [Netlink](note.html?p=notes/technica/computation/operating-system/linux/netlink.md), [Linux Process Management Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
+- [Berkeley Socket](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md), [Netlink](/note.html?p=notes/technica/computation/operating-system/linux/netlink.md), [Linux Process Management Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
 
 > **Berkeley Sockets** is an **API Standard** for network communication in Unix-like operating systems that provides a standardized interface for creating and managing sockets to facilitate data exchange between devices over a network.
 > 
@@ -205,7 +205,7 @@ Here’s a table that summarizes the primary protocols within each layer of the 
 
 ## Linux Network Stack Analysis
 
-> See more in [Performace](note.html?p=notes/technica/computation/system/evaluation/performace.md).
+> See more in [Performace](/note.html?p=notes/technica/computation/system/evaluation/performace.md).
 > 
 
 ### Network Performance Tool Set
@@ -280,15 +280,15 @@ Here’s a table that summarizes the primary protocols within each layer of the 
 - [‣](https://app.notion.com/p/10e598edb790817c98a9fe7b1c8f25a3?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb7908175a061dcc88330f698?pvs=21)
 - TCP/IP Illustrated The Implementation Volume 2 Understanding Linux Network Internals
-- [HTTP](note.html?p=notes/technica/computation/telecom/http.md)
+- [HTTP](/note.html?p=notes/technica/computation/telecom/http.md)
 - https://zenodo.org/records/14179366
 - Jain, M., & Dovrolis, C. (2002). End-to-end available bandwidth: Measurement methodology, dynamics, and relation with TCP throughput. 32(4), 295–308.
 - Nagle, J. (1984). Congestion control in IP/TCP internetworks. 14(4), 11–17.
 - Padhye, J., Firoiu, V., Towsley, D., & Kurose, J. (1998). Modeling TCP throughput: A simple model and its empirical validation. 303–314.
 - [Measurement, Measurement, Modeling Modeling and Analysis Analysis of the Internet](https://pages.cs.wisc.edu/~pb/ima_tutorial.pdf)
-- [Linux Network Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
-- [Berkeley Socket](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
-- [Telecom](note.html?p=notes/technica/computation/telecom/telecom.md)
+- [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
+- [Berkeley Socket](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- [Telecom](/note.html?p=notes/technica/computation/telecom/telecom.md)
 - https://github.com/kbandla/dpkt
 - https://man7.org/linux/man-pages/man8/tc.8.html
 - https://friskfrysefrugt.github.io/awesome-networking/

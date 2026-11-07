@@ -81,5 +81,5 @@ Two load-bearing caveats.
 
 - [Russian Academy of Sciences](https://www.ras.ru/en/)
 - [Russian Academy of Sciences](https://en.wikipedia.org/wiki/Russian_Academy_of_Sciences)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)

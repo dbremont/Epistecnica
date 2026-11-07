@@ -32,7 +32,7 @@ In more general settings, where the context may be heterogeneous or non-stationa
 > This note is a major undertaking—recording my understanding of probability—so some degree of incoherence should be expected.
 > 
 
-![image.png](../assets/note/epistemica/observational/probability/image.png)
+![image.png](/assets/note/epistemica/observational/probability/image.png)
 
 > **Note:** This perspective focuses on a type of *fixed weighting of possibilities*. Under this view, there may exist more complex constructions, such as sequences of such mechanisms (e.g., Markov chains), where states evolve over time, but the underlying outcome space is still assumed to be fixed.
 > 
@@ -360,7 +360,7 @@ Within this framework:
 > A fundamental concept that maps the sample space, outcomes, and events to a numerical domain, either simple or complex,  facilitating the certain numerical computations, like expectation etc.
 > 
 
-> See more [Distribution](note.html?p=notes/epistemica/observational/distribution/distribution.md),  [Random Object](../observational/random-object.md) and [Statistical Function](note.html?p=notes/epistemica/observational/construction/statistical-function.md).
+> See more [Distribution](/note.html?p=notes/epistemica/observational/distribution/distribution.md),  [Random Object](../observational/random-object.md) and [Statistical Function](/note.html?p=notes/epistemica/observational/construction/statistical-function.md).
 > 
 
 ### Join Probability
@@ -424,7 +424,7 @@ Then, for any event $A$:
 > Probability is a **formal framework** that enables the representation - description of  **stochastic pieces of reality** (systems and `events`) —or observer-induced stochasticity—through simulation or formal modeling, to support, in the most **abstract sense**,  **forecasting** (What is the next state of the system likely to be?) - **prediction** (now-casting) (asociation) (relation) part (predict unknown part from known parts in the current state), **retrodiction or backcasting** (How did we get here? Why are we here?), and **simulation** (How can we generate possible new states or sequences of states?).
 > 
 
-![image.png](../assets/note/epistemica/observational/probability/image-1.png)
+![image.png](/assets/note/epistemica/observational/probability/image-1.png)
 
 > Note: **Almost `Any System`** can be model with **probability**, even if there is no inherent stochasticity in it,  just **observer stochastic**. In applying probability to non-stochastic systems, we do not model inherent randomness, but rather quantify the profound epistemic uncertainty arising from the irreducible complexity and incomplete observability of deterministic processes, transforming probability from a measure of chance into a language for the boundaries of human knowledge.  See more here [Suppose we have a function f(x). How should we interpret a probabilistic model of P(f(x)∣x)?](probability.md)
 > 
@@ -480,7 +480,7 @@ Then, for any event $A$:
 > What is the representation capacity of a **probabilistic**  **model** $L_m$?   A **probabilistic model** is a **representation** of a **stochastic system** — i.e., a system whose behavior involves inherent randomness — using **probability distributions** over possible outcomes, states, or events.
 > 
 
-> See: [(Statistic) Estimator](note.html?p=notes/epistemica/observational/estimator/statistic-estimator.md) and  [Operator](note.html?p=notes/epistemica/observational/operator.md).
+> See: [(Statistic) Estimator](/note.html?p=notes/epistemica/observational/estimator/statistic-estimator.md) and  [Operator](/note.html?p=notes/epistemica/observational/operator.md).
 > 
 
 > See [Probability is a **formal framework** that enables the representation of systems—whether influenced by the **observer (subject)** or  **inherent stochasticity**—through (model building tools - or description building tools)  , to support, in the most **abstract sense**,  **forecasting** (What is the next state of the system likely to be?) - **prediction** (now-casting) (asociation) (relation) part (predict unknown part from known parts in the current state), **retrodiction or backcasting** (How did we get here? Why are we here?), and **simulation** (How can we generate possible new states or sequences of states?). ](probability.md)
@@ -540,10 +540,10 @@ Building Blocks:
 > [Random Object](../observational/random-object.md): – An entity whose value is **not deterministic** but governed by a probability distribution; can be a variable, vector, or more complex structure.
 > 
 
-> [Statistical Function](note.html?p=notes/epistemica/observational/construction/statistical-function.md):  A function or transformation that **acts on random objects or distributions**, producing new objects or modifying their properties (e.g., sum, scaling, convolution).
+> [Statistical Function](/note.html?p=notes/epistemica/observational/construction/statistical-function.md):  A function or transformation that **acts on random objects or distributions**, producing new objects or modifying their properties (e.g., sum, scaling, convolution).
 > 
 
-> [Distribution](note.html?p=notes/epistemica/observational/distribution/distribution.md):  A formal description of the **probabilistic behavior of a random object**, specifying the likelihood of different outcomes.
+> [Distribution](/note.html?p=notes/epistemica/observational/distribution/distribution.md):  A formal description of the **probabilistic behavior of a random object**, specifying the likelihood of different outcomes.
 > 
 
 **Model Taxonomy**
@@ -648,7 +648,7 @@ Building Blocks:
 > **Note:** Estimation is as much an art as a science; it always involves some degree of error. If the underlying system exhibits fat-tailed distributions, estimation becomes particularly challenging due to the increased likelihood of extreme events and greater variability.
 > 
 
-> See more in [(Statistic) Estimator](note.html?p=notes/epistemica/observational/estimator/statistic-estimator.md).
+> See more in [(Statistic) Estimator](/note.html?p=notes/epistemica/observational/estimator/statistic-estimator.md).
 > 
 
 The process typically follows these steps:
@@ -668,7 +668,7 @@ The process typically follows these steps:
 
 ### Model Validation
 
-> See more in  & [Model Validation](note.html?p=notes/epistemica/validation/validation.md) and [Probability Model Validation](note.html?p=notes/epistemica/validation/probability-model-validation.md).
+> See more in  & [Model Validation](/note.html?p=notes/epistemica/validation/validation.md) and [Probability Model Validation](/note.html?p=notes/epistemica/validation/probability-model-validation.md).
 > 
 
 > See more in [Why do almost all types of real probability specifications need to be joint or conditional?](probability.md)
@@ -711,7 +711,7 @@ The process typically follows these steps:
 > This is a key procedure in **estimation** and **data selection**. We usually cannot operate on the entire dataset, because the data is generated according to an underlying probabilistic process (at least we assume this), which may itself change over time in **non-stationary** settings.
 > 
 
-> See more in [Sampling](note.html?p=notes/epistemica/observational/computational/sampling.md).
+> See more in [Sampling](/note.html?p=notes/epistemica/observational/computational/sampling.md).
 > 
 
 ## Simulation
@@ -893,7 +893,7 @@ Formally, it involves:
 
 ### Why do we have very similar concepts such as probability distributions, laws, and random variables? What value does the idea of a random variable offers?
 
-![image.png](../assets/note/epistemica/observational/probability/image-2.png)
+![image.png](/assets/note/epistemica/observational/probability/image-2.png)
 
 > This is simpler than I imagined: the probability distribution is **basically the characterization of the stochastic system (row state  → probability)**, assigning a probability to each event  and the  **random variable (**and more generally random objects), is just a **numerical representation** of the same space.
 > 
@@ -959,7 +959,7 @@ Formally, it involves:
 
 ### Why do so many probabilistic modeling methods in statistics and machine learning focus on learning the joint probability distribution of a system rather than just individual variables or conditional probabilities?
 
-> See more in [Distribution](note.html?p=notes/epistemica/observational/distribution/distribution.md).
+> See more in [Distribution](/note.html?p=notes/epistemica/observational/distribution/distribution.md).
 > 
 - **Encodes all marginal and conditional distributions:** The joint distribution is like a master map of all the variables. From it, you can figure out the behavior of any single variable (marginals) or how one variable behaves given others (conditionals). Learning the joint gives you access to everything.
 - **Captures dependencies between variables:** Variables in a system often influence each other. By modeling the joint distribution, you naturally capture these relationships, correlations, and interactions, which you would miss if you only looked at variables individually.
@@ -1042,8 +1042,8 @@ Formally, it involves:
 - [](https://app.notion.com/p/245c0f5171ec80749daec722e73b8a81?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [](https://app.notion.com/p/24ac0f5171ec8020aec7f11bae9eb632?pvs=21)
-- [Distribution](note.html?p=notes/epistemica/observational/distribution/distribution.md)
-- [Enumeration (Counting)](note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
+- [Distribution](/note.html?p=notes/epistemica/observational/distribution/distribution.md)
+- [Enumeration (Counting)](/note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
 - Davidson-Pilon, Cameron. *Bayesian methods for hackers: probabilistic programming and Bayesian inference*. Addison-Wesley Professional, 2015.
 - Bayes, Thomas. "An essay towards solving a problem in the doctrine of chances." *Biometrika* 45.3-4 (1958): 296-315.
 - Talbott, William J. "Two principles of Bayesian epistemology." *Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition* 62.2 (1991): 135-150.
@@ -1053,23 +1053,23 @@ Formally, it involves:
 - https://www.richardcarrier.info/archives/16374
 - https://en.wikipedia.org/wiki/Bayesian_statistics
 - https://en.wikipedia.org/wiki/Likelihood_function
-- [**Statistical Mechanics**](note.html?p=notes/epistemica/singular/statistical-mechanics.md)
+- [**Statistical Mechanics**](/note.html?p=notes/epistemica/singular/statistical-mechanics.md)
 - https://en.wikipedia.org/wiki/Likelihood_function
 - [‣](https://app.notion.com/p/25e598edb7908013ba65d2eec601e725?pvs=21)
 - [‣](https://app.notion.com/p/25e598edb790809691e4d60f88bcbd3b?pvs=21)
 - https://en.wikipedia.org/wiki/Large_deviations_theory
 - https://mathworld.wolfram.com/topics/Probability.html
-- [Set](note.html?p=notes/epistemica/mathematical/set.md)
-- [Combinatorics](note.html?p=notes/epistemica/mathematical/discrete/combinatorics.md)
-- [Enumeration (Counting)](note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
-- [Inclusion-Exclusion Principle](note.html?p=notes/epistemica/mathematical/method/proof/inclusion-exclusion.md)
+- [Set](/note.html?p=notes/epistemica/mathematical/set.md)
+- [Combinatorics](/note.html?p=notes/epistemica/mathematical/discrete/combinatorics.md)
+- [Enumeration (Counting)](/note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
+- [Inclusion-Exclusion Principle](/note.html?p=notes/epistemica/mathematical/method/proof/inclusion-exclusion.md)
 - [‣](https://app.notion.com/p/10e598edb790813e9bc3e6df60b3011e?pvs=21)
 - https://brilliant.org/wiki/probability-rule-of-product/
 - https://brilliant.org/wiki/rule-of-sum/
 - https://en.wikipedia.org/wiki/Chain_rule_(probability)
 - [A General Guide to Representation & Estimation](https://app.notion.com/p/A-General-Guide-to-Representation-Estimation-22dc0f5171ec8099a450f1d8f419a67f?pvs=21)
-- [Measure](note.html?p=notes/epistemica/mathematical/measure/measure.md)
-- [Enumeration (Counting)](note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
+- [Measure](/note.html?p=notes/epistemica/mathematical/measure/measure.md)
+- [Enumeration (Counting)](/note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
 - https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)
 - https://en.wikipedia.org/wiki/Venn_diagram
 - https://www.youtube.com/playlist?list=PLY11JnnnTUCZSUk2xnombjwfg6z3-okP5

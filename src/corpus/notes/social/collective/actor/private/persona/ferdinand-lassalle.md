@@ -10,4 +10,4 @@ type: person
 ## References
 
 - [Ferdinand Lassalle](https://en.wikipedia.org/wiki/Ferdinand_Lassalle)
-- [General German Workers' Association](note.html?p=notes/social/collective/actor/private/party/general-german-workers-association.md)
+- [General German Workers' Association](/note.html?p=notes/social/collective/actor/private/party/general-german-workers-association.md)

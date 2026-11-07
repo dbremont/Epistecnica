@@ -55,8 +55,8 @@
 <button id="themeToggle" type="button"><span id="themeLabel">LIGHT</span></button>
 <div class="layout">
     <nav class="crumbs">
-        <a href="../../web/index.html">Naturgnosis</a><span class="sep">/</span>
-        <a href="../../web/index.html?view=browse&dir=social">Social</a><span class="sep">/</span>
+        <a href="/explorer.html">Naturgnosis</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&dir=social">Social</a><span class="sep">/</span>
         <span class="here">Notes Treemap</span>
     </nav>
     <h1 class="note-title">Notes Treemap</h1>
@@ -70,7 +70,7 @@
         <canvas id="tm-canvas"></canvas>
         <div id="tm-tip"><div class="t-src" id="tm-tip-src"></div><div class="t-title" id="tm-tip-title"></div><div class="t-desc" id="tm-tip-desc"></div></div>
     </div>
-    <footer><p>Data: <code>index.json</code> — the notes corpus index. Click-through lands in the <a href="../../web/index.html">notes catalog</a>, scoped to the section directory with the tag as search text.</p></footer>
+    <footer><p>Data: <code>index.json</code> — the notes corpus index. Click-through lands in the <a href="/explorer.html">notes catalog</a>, scoped to the section directory with the tag as search text.</p></footer>
 </div>
 <script>
 (function () {
@@ -209,7 +209,7 @@
             /* First level: one click drills into the section. */
             state.path=t.n.section;state.hover=null;draw();return;
         }
-        var url='../../../web/index.html?view=browse&dir='+encodeURIComponent(t.n.section);
+        var url='/explorer.html?view=browse&dir='+encodeURIComponent(t.n.section);
         if(t.n.tag)url+='&q='+encodeURIComponent(t.n.tag);
         window.open(url,'_blank');
     });
@@ -222,7 +222,7 @@
         el('tm-metric').textContent='weight: '+state.metric;
         draw();
     });
-    fetch('../../../corpus/data/notes-index.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){
+    fetch('/data/notes-index.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){
         state.notes=d.notes||[];
         if(!state.notes.length)throw new Error('empty notes index');
         draw();

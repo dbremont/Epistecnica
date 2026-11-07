@@ -82,7 +82,7 @@ It is a capital pool with an allocation compass: investors commit capital that t
 
 ## References
 
-- [Government Guidance Fund](note.html?p=notes/social/collective/actor/public/catalog/finance/government-guidance-fund.md) (the guided child-fund family this fund channels into)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Market](note.html?p=notes/social/coordinator/market/market.md) (arena allocated capital enters)
+- [Government Guidance Fund](/note.html?p=notes/social/collective/actor/public/catalog/finance/government-guidance-fund.md) (the guided child-fund family this fund channels into)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Market](/note.html?p=notes/social/coordinator/market/market.md) (arena allocated capital enters)
 - Graph nodes of the same names: `mother-fund`, `government-guidance-fund` (Social Space, dataset `social`)

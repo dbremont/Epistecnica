@@ -4,7 +4,7 @@ tags: [note, type-system]
 
 # Type System
 
-- [Type Variance](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-variance.md), [Type Compatibility](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-compatibility.md), [Type Checking](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-checking.md), [Annotation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/annotation.md), [Effect System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Data Type](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/data-type.md), [Memory  Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
+- [Type Variance](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-variance.md), [Type Compatibility](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-compatibility.md), [Type Checking](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-checking.md), [Annotation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/annotation.md), [Effect System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Data Type](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/data-type.md), [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
 
 > In this note we will explore the **ideas of type** and **type system**.
 > 
@@ -411,7 +411,7 @@ Practical Characterization (Axis of Variation) (Structure of the Typesystem Spac
 > **Type Compatibility and Conversion**: Rules for how different types can be used together and whether implicit type conversions are allowed.
 > 
 
-See [Type Compatibility](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-compatibility.md).
+See [Type Compatibility](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-compatibility.md).
 
 ## Role of Type System
 

@@ -423,7 +423,7 @@ The term **monitoring signal** functions as an effective umbrella because it is:
 - [Logs Data Model](https://opentelemetry.io/docs/specs/otel/logs/)
 - [Common Log Format](https://en.wikipedia.org/wiki/Common_Log_Format)
 - [Tips for analyzing logs](https://news.ycombinator.com/item?id=33971432)
-- [Program Modification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-modification.md)
+- [Program Modification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-modification.md)
 - [My Logging Best Practices](https://news.ycombinator.com/item?id=28759492)
 - https://news.ycombinator.com/item?id=46346796
 - https://news.ycombinator.com/item?id=30393683

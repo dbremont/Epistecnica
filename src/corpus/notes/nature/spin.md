@@ -31,7 +31,7 @@ tags: [note, nature, property]
 
 ## Related
 
-- [Atom](note.html?p=notes/nature/atom.md)
+- [Atom](/note.html?p=notes/nature/atom.md)
 
 ## Provenance
 

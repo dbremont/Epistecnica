@@ -6,7 +6,7 @@ tags: [note, actor, interaction-unit, agents, social-element]
 
 > An **Actor** is a bounded entity capable of interaction — agentive, cognitive/reflexive, relational, nested, state-carrying. It is the root of the social typology of who acts: individuals who decide, collectives that act as one, institutions that wield authority, and the functional forms — research, finance, trade, industry, education, party, firm — through which they engage the world.
 
-The corpus partitions actor notes by constitution: `public/` carries the state and public actors and their elements, `private/` the societal actors, `action/` the Social Action branch, and the generic type hubs — [Organization](note.html?p=notes/social/collective/actor/organization.md), [Firm](note.html?p=notes/social/collective/actor/firm.md), [Research Actor](note.html?p=notes/social/collective/actor/research.md), [Finance Actor](note.html?p=notes/social/collective/actor/finance.md), [Human](note.html?p=notes/social/collective/actor/human.md), [Family](note.html?p=notes/social/collective/actor/family.md) — sit at the actor root. Mixed families (`research`, `finance`) grow one tree per reading and are split by public authority, with a hub entry at the root linking both halves.
+The corpus partitions actor notes by constitution: `public/` carries the state and public actors and their elements, `private/` the societal actors, `action/` the Social Action branch, and the generic type hubs — [Organization](/note.html?p=notes/social/collective/actor/organization.md), [Firm](/note.html?p=notes/social/collective/actor/firm.md), [Research Actor](/note.html?p=notes/social/collective/actor/research.md), [Finance Actor](/note.html?p=notes/social/collective/actor/finance.md), [Human](/note.html?p=notes/social/collective/actor/human.md), [Family](/note.html?p=notes/social/collective/actor/family.md) — sit at the actor root. Mixed families (`research`, `finance`) grow one tree per reading and are split by public authority, with a hub entry at the root linking both halves.
 
 ## Formulation
 
@@ -69,7 +69,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Agency | Organization established or designated to perform specified governmental or administrative functions. |
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Council | Collegial body established to deliberate, coordinate, advise, govern, or make decisions within a defined domain. |
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Commission | Body established to investigate, regulate, administer, coordinate, or perform a specified public function. |
-| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Board | Collegial governing, supervisory, advisory, or decision-making body; see [Board](note.html?p=notes/social/collective/actor/board.md). |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Board | Collegial governing, supervisory, advisory, or decision-making body; see [Board](/note.html?p=notes/social/collective/actor/board.md). |
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Authority | Public body entrusted with specific powers, often regulatory, supervisory, or administrative. |
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Secretariat | Organization or administrative unit providing coordination, executive support, or administration for a government, council, or other body. |
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Office | Organizational unit or institution assigned a defined governmental responsibility. |
@@ -89,19 +89,19 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Organization](note.html?p=notes/social/collective/actor/organization.md) (collective actor hub: the full subtype tree)
-- [Firm](note.html?p=notes/social/collective/actor/firm.md) (economic subtype of Organization)
-- [Social Group](note.html?p=notes/social/collective/actor/private/group/group.md) (interacting aggregate — not an organization)
-- [Human](note.html?p=notes/social/collective/actor/human.md) (biological individual; carries personhood)
-- [Family](note.html?p=notes/social/collective/actor/family.md) (kinship unit)
-- [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
-- [Education Actor](note.html?p=notes/social/collective/actor/education-actor.md) (warranted teaching body)
-- [Laboratory](note.html?p=notes/social/collective/actor/laboratory.md) (research host unit)
-- [Public Research Institutes](note.html?p=notes/social/collective/actor/public/catalog/pri.md) (public-research role)
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (research-functional subtype hub: the research actor family)
-- [Finance Actor](note.html?p=notes/social/collective/actor/finance.md) (finance-functional subtype hub: the finance actor family)
-- [Political Party](note.html?p=notes/social/collective/actor/political-party.md) (political subtype)
-- [Sociedad de Amantes del País](note.html?p=notes/social/collective/actor/sociedad-de-amantes-del-pais.md) (learned-society type)
-- [China](note.html?p=notes/social/collective/actor/public/polity/chn/prc/china.md) (nation-state instance)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Organization](/note.html?p=notes/social/collective/actor/organization.md) (collective actor hub: the full subtype tree)
+- [Firm](/note.html?p=notes/social/collective/actor/firm.md) (economic subtype of Organization)
+- [Social Group](/note.html?p=notes/social/collective/actor/private/group/group.md) (interacting aggregate — not an organization)
+- [Human](/note.html?p=notes/social/collective/actor/human.md) (biological individual; carries personhood)
+- [Family](/note.html?p=notes/social/collective/actor/family.md) (kinship unit)
+- [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
+- [Education Actor](/note.html?p=notes/social/collective/actor/education-actor.md) (warranted teaching body)
+- [Laboratory](/note.html?p=notes/social/collective/actor/laboratory.md) (research host unit)
+- [Public Research Institutes](/note.html?p=notes/social/collective/actor/public/catalog/pri.md) (public-research role)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (research-functional subtype hub: the research actor family)
+- [Finance Actor](/note.html?p=notes/social/collective/actor/finance.md) (finance-functional subtype hub: the finance actor family)
+- [Political Party](/note.html?p=notes/social/collective/actor/political-party.md) (political subtype)
+- [Sociedad de Amantes del País](/note.html?p=notes/social/collective/actor/sociedad-de-amantes-del-pais.md) (learned-society type)
+- [China](/note.html?p=notes/social/collective/actor/public/polity/chn/prc/china.md) (nation-state instance)
 - Graph nodes of the same names: `person`, `firm`, `organization`, `public-organization`, `sreni` (Social Space, dataset `social`)

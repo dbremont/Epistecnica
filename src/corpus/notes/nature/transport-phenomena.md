@@ -202,7 +202,7 @@ QA:
 
 ## Related
 
-- [Mass Transport](note.html?p=notes/nature/mass-transport.md)
+- [Mass Transport](/note.html?p=notes/nature/mass-transport.md)
 
 ## Provenance
 

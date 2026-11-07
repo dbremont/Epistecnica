@@ -98,13 +98,13 @@ $\|f\|_{\text{TV}} = \int |f'(x)| \, dx$. This measures the integral of the abso
 
 | Construct | How it differs from a norm |
 | --- | --- |
-| [Seminorm](note.html?p=notes/epistemica/mathematical/norm/seminorm.md) | Drops definiteness: a non-zero vector may have size zero |
-| [Asymmetric Norm](note.html?p=notes/epistemica/mathematical/norm/asymmetric-norm.md) | Drops symmetry: the size of $x$ need not equal the size of $-x$ |
-| [Sublinear Functional](note.html?p=notes/epistemica/mathematical/norm/sublinear-functional.md) | Drops non-negativity: subadditive and positively homogeneous, but possibly signed |
-| [Minkowski Functional](note.html?p=notes/epistemica/mathematical/norm/minkowski-functional.md) | The gauge of an absorbing set — the construction that turns a convex body into a seminorm |
-| [Normed Vector Space](note.html?p=notes/epistemica/mathematical/space/normed-vector-space.md) | The space a norm constitutes: a vector space carrying one |
-| [Inner Product](note.html?p=notes/epistemica/mathematical/structure/linear/inner-product.md) | The stronger structure a norm may come from: every inner product induces a norm, and none of the reverse |
-| [Metric](note.html?p=notes/epistemica/mathematical/metric/metric.md) | The sibling notion on a bare set: a norm induces a metric by $d(x,y) = \lVert x - y \rVert$, never the reverse |
+| [Seminorm](/note.html?p=notes/epistemica/mathematical/norm/seminorm.md) | Drops definiteness: a non-zero vector may have size zero |
+| [Asymmetric Norm](/note.html?p=notes/epistemica/mathematical/norm/asymmetric-norm.md) | Drops symmetry: the size of $x$ need not equal the size of $-x$ |
+| [Sublinear Functional](/note.html?p=notes/epistemica/mathematical/norm/sublinear-functional.md) | Drops non-negativity: subadditive and positively homogeneous, but possibly signed |
+| [Minkowski Functional](/note.html?p=notes/epistemica/mathematical/norm/minkowski-functional.md) | The gauge of an absorbing set — the construction that turns a convex body into a seminorm |
+| [Normed Vector Space](/note.html?p=notes/epistemica/mathematical/space/normed-vector-space.md) | The space a norm constitutes: a vector space carrying one |
+| [Inner Product](/note.html?p=notes/epistemica/mathematical/structure/linear/inner-product.md) | The stronger structure a norm may come from: every inner product induces a norm, and none of the reverse |
+| [Metric](/note.html?p=notes/epistemica/mathematical/metric/metric.md) | The sibling notion on a bare set: a norm induces a metric by $d(x,y) = \lVert x - y \rVert$, never the reverse |
 
 ## References
 

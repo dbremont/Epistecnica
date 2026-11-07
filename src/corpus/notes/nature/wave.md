@@ -32,7 +32,7 @@ tags: [note, nature, phenomenon, phenomena, physics]
 
 ## Related
 
-- [Radio Wave](note.html?p=notes/nature/radio-wave.md)
+- [Radio Wave](/note.html?p=notes/nature/radio-wave.md)
 
 ## Provenance
 

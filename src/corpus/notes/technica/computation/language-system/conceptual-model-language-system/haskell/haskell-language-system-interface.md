@@ -34,4 +34,4 @@ Guiding Questions:
 
 ## References
 
-- [Language System Interface](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-system-interface.md)
+- [Language System Interface](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-system-interface.md)

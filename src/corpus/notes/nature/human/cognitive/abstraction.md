@@ -9,7 +9,7 @@ tags: [note, human, cognition, unfinished]
 
 ## References
 
-- [**Abstraction**](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abstraction.md)
+- [**Abstraction**](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abstraction.md)
 - https://en.wikipedia.org/wiki/Abstraction_(computer_science)
 
 ## Provenance

@@ -4,7 +4,7 @@ tags: [note, container]
 
 # Docker Network
 
-- Related Virtualization: Conceptual Model: [Docker](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
+- Related Virtualization: Conceptual Model: [Docker](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
 
 Docker uses different networking models to facilitate communication between containers, including:
 

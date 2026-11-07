@@ -8,10 +8,10 @@ tags: [note]
 > substance that no purposeful agent has intentionally worked — minerals, rocks, sediments,
 > soils, waters, air, and every product of life from metabolite to peat bed. The first cut
 > below intention: what remains when all deliberately transformed matter (the technical
-> reading) is set aside. Parent instance [Nature](note.html?p=notes/nature/nature.md); children
-> [Natural Biogenic](note.html?p=notes/nature/biogenic-material.md) and
-> [Natural Abiogenic](note.html?p=notes/nature/earth-material.md). Worked per
-> [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> reading) is set aside. Parent instance [Nature](/note.html?p=notes/nature/nature.md); children
+> [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md) and
+> [Natural Abiogenic](/note.html?p=notes/nature/earth-material.md). Worked per
+> [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 > Presupposed definitions (`Reality`, segments, levels of organization, the ontology/epistemology
 > dual) live in the epistemicarum guide and are restated nowhere here.
 
@@ -33,7 +33,7 @@ working — **mineral** kinds, **earth materials** (rock, sediment, soil), **wat
 and **biogenic substances** (tissues, secretions, metabolites, organic sediments, biogenic
 rocks). The cut includes every untransformed substance at every level of organization; it
 excludes all intentionally transformed matter — smelted metal, fired ceramic, sawn lumber,
-synthesized polymer — which is the technical reading ([Technical Material](note.html?p=notes/technica/general/cto/industry/technical-material.md)),
+synthesized polymer — which is the technical reading ([Technical Material](/note.html?p=notes/technica/general/cto/industry/technical-material.md)),
 each with its own tree. The biogenic/abiogenic split below is by origin (made by life or
 not), never by use or price.
 
@@ -67,9 +67,9 @@ instance, do not assume.
 
 Secondary readings (kept as prose, never merged into the tree above): readable as technique —
 every working of this matter (quarrying, smelting, sawing, synthesis) with its products
-([Technical Material](note.html?p=notes/technica/general/cto/industry/technical-material.md),
-[Technical Biogenic Material](note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md),
-[Technical Abiogenic Material](note.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md))
+([Technical Material](/note.html?p=notes/technica/general/cto/industry/technical-material.md),
+[Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md),
+[Technical Abiogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md))
 decomposes under the technicarum grammar; readable as social — tenures, grades, firms, and
 prices drawn around materials (decompose under the socialium grammar; production-role nodes
 are Social nodes tagged `production-view`); readable as epistemic — assay standards and
@@ -84,18 +84,18 @@ technically, the formation naturally
 > It precedes every split: origin-agnostic (biogenic and abiogenic alike), composition-free
 > (no chemistry or lattice in the criterion), and level-spanning (molecule to formation).
 > Its single individuating mark is negative — *not intentionally transformed* — which is why
-> the origin-defined [Natural Biogenic](note.html?p=notes/nature/biogenic-material.md) is the most
+> the origin-defined [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md) is the most
 > abstract *positive* category beneath it, and why all worked matter falls outside it
 > entirely, into the technical reading.
 
 ## References
 
-- [Philosophia Naturalis et Operis](note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
+- [Philosophia Naturalis et Operis](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
-- [Nature](note.html?p=notes/nature/nature.md) (parent: all observer-independent reality)
-- [Earth](note.html?p=notes/nature/earth.md) (parent: the planet system)
-- [Natural Biogenic](note.html?p=notes/nature/biogenic-material.md) (child: all matter made by life)
-- [Natural Abiogenic](note.html?p=notes/nature/earth-material.md) (child: all physical matter not made by life)
-- [Technical Material](note.html?p=notes/technica/general/cto/industry/technical-material.md) (counterpart: all intentionally transformed matter)
-- [Quarry](note.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)
+- [Nature](/note.html?p=notes/nature/nature.md) (parent: all observer-independent reality)
+- [Earth](/note.html?p=notes/nature/earth.md) (parent: the planet system)
+- [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md) (child: all matter made by life)
+- [Natural Abiogenic](/note.html?p=notes/nature/earth-material.md) (child: all physical matter not made by life)
+- [Technical Material](/note.html?p=notes/technica/general/cto/industry/technical-material.md) (counterpart: all intentionally transformed matter)
+- [Quarry](/note.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

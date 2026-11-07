@@ -200,7 +200,7 @@ tags: [note, mathematics, space]
 
 ### What is the relation of the idea of geometrical space, and a coordinate system?
 
-> See [Coordinate System](note.html?p=notes/epistemica/mathematical/coordinate-system.md).
+> See [Coordinate System](/note.html?p=notes/epistemica/mathematical/coordinate-system.md).
 > 
 
 > A **coordinate system** is a **representation** (or “view”) of a space, obtained by mapping its elements to tuples of numbers. This mapping must preserve the semantics induced by the relations defined on the space.
@@ -215,39 +215,39 @@ tags: [note, mathematics, space]
 - **Representation Primitive:** A mathematical space serves as a primitive for representing a collection of elements from a target domain, particularly when those elements must be treated as members of a structured collection. Some examples that we can mention: configuration space, state space, manifold, sampel space, etc.
 
 ## References
-- [Metric Space](note.html?p=notes/epistemica/mathematical/space/metric-space.md)
-- [Topological Space](note.html?p=notes/epistemica/mathematical/space/topological-space.md)
-- [Linear Space](note.html?p=notes/epistemica/mathematical/space/linear-space.md)
-- [Normed Vector Space](note.html?p=notes/epistemica/mathematical/space/normed-vector-space.md)
-- [Inner Product Space](note.html?p=notes/epistemica/mathematical/space/inner-product-space.md)
-- [Hilbert Space](note.html?p=notes/epistemica/mathematical/space/hilbert-space.md)
-- [Banach Space](note.html?p=notes/epistemica/mathematical/space/banach-space.md)
-- [Euclidean Space](note.html?p=notes/epistemica/mathematical/space/euclidean-space.md)
-- [Affine Space](note.html?p=notes/epistemica/mathematical/space/affine-space.md)
-- [Projective Space](note.html?p=notes/epistemica/mathematical/space/projective-space.md)
-- [Function Space](note.html?p=notes/epistemica/mathematical/space/function-space.md)
-- [Sobolev Space](note.html?p=notes/epistemica/mathematical/space/sobolev-space.md)
-- [Reproducing Kernel Hilbert Space](note.html?p=notes/epistemica/mathematical/space/reproducing-kernel-hilbert-space.md)
-- [Mathematical Structure](note.html?p=notes/epistemica/mathematical/structure/mathematical-structure.md)
-- [Mathematical Object](note.html?p=notes/epistemica/mathematical/mathematical-object.md)
-- [Geometry](note.html?p=notes/epistemica/mathematical/geometry/geometry.md)
-- [Topology](note.html?p=notes/epistemica/mathematical/topology/topology.md)
-- [Order](note.html?p=notes/epistemica/mathematical/relation/order.md)
-- [Measure](note.html?p=notes/epistemica/mathematical/measure/measure.md)
-- [Algebra](note.html?p=notes/epistemica/mathematical/structure/algebra/algebra.md)
-- [Manifold](note.html?p=notes/epistemica/mathematical/topology/manifold.md)
-- [Vector](note.html?p=notes/epistemica/mathematical/vector.md)
-- [Linear Algebra](note.html?p=notes/epistemica/mathematical/structure/linear/linear-algebra.md)
-- [Coordinate System](note.html?p=notes/epistemica/mathematical/coordinate-system.md)
+- [Metric Space](/note.html?p=notes/epistemica/mathematical/space/metric-space.md)
+- [Topological Space](/note.html?p=notes/epistemica/mathematical/space/topological-space.md)
+- [Linear Space](/note.html?p=notes/epistemica/mathematical/space/linear-space.md)
+- [Normed Vector Space](/note.html?p=notes/epistemica/mathematical/space/normed-vector-space.md)
+- [Inner Product Space](/note.html?p=notes/epistemica/mathematical/space/inner-product-space.md)
+- [Hilbert Space](/note.html?p=notes/epistemica/mathematical/space/hilbert-space.md)
+- [Banach Space](/note.html?p=notes/epistemica/mathematical/space/banach-space.md)
+- [Euclidean Space](/note.html?p=notes/epistemica/mathematical/space/euclidean-space.md)
+- [Affine Space](/note.html?p=notes/epistemica/mathematical/space/affine-space.md)
+- [Projective Space](/note.html?p=notes/epistemica/mathematical/space/projective-space.md)
+- [Function Space](/note.html?p=notes/epistemica/mathematical/space/function-space.md)
+- [Sobolev Space](/note.html?p=notes/epistemica/mathematical/space/sobolev-space.md)
+- [Reproducing Kernel Hilbert Space](/note.html?p=notes/epistemica/mathematical/space/reproducing-kernel-hilbert-space.md)
+- [Mathematical Structure](/note.html?p=notes/epistemica/mathematical/structure/mathematical-structure.md)
+- [Mathematical Object](/note.html?p=notes/epistemica/mathematical/mathematical-object.md)
+- [Geometry](/note.html?p=notes/epistemica/mathematical/geometry/geometry.md)
+- [Topology](/note.html?p=notes/epistemica/mathematical/topology/topology.md)
+- [Order](/note.html?p=notes/epistemica/mathematical/relation/order.md)
+- [Measure](/note.html?p=notes/epistemica/mathematical/measure/measure.md)
+- [Algebra](/note.html?p=notes/epistemica/mathematical/structure/algebra/algebra.md)
+- [Manifold](/note.html?p=notes/epistemica/mathematical/topology/manifold.md)
+- [Vector](/note.html?p=notes/epistemica/mathematical/vector.md)
+- [Linear Algebra](/note.html?p=notes/epistemica/mathematical/structure/linear/linear-algebra.md)
+- [Coordinate System](/note.html?p=notes/epistemica/mathematical/coordinate-system.md)
 
 
-- [Phase Space](note.html?p=notes/epistemica/singular/phase-space.md)
-- [Configuration Space](note.html?p=notes/epistemica/singular/configuration-space.md)
-- [State-Space Models](note.html?p=notes/epistemica/construction/state-space-model.md)
-- [Reference Frame](note.html?p=notes/epistemica/singular/reference-frame.md)
-- [Quantum Framework](note.html?p=notes/epistemica/singular/quantum-framework.md)
-- [Quantum Field Theory (QFT)](note.html?p=notes/epistemica/singular/quantum-field-theory-qft.md)
-- [EES Atlas](note.html?p=notes/epistemica/ees.md)
+- [Phase Space](/note.html?p=notes/epistemica/singular/phase-space.md)
+- [Configuration Space](/note.html?p=notes/epistemica/singular/configuration-space.md)
+- [State-Space Models](/note.html?p=notes/epistemica/construction/state-space-model.md)
+- [Reference Frame](/note.html?p=notes/epistemica/singular/reference-frame.md)
+- [Quantum Framework](/note.html?p=notes/epistemica/singular/quantum-framework.md)
+- [Quantum Field Theory (QFT)](/note.html?p=notes/epistemica/singular/quantum-field-theory-qft.md)
+- [EES Atlas](/note.html?p=notes/epistemica/ees.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 
 

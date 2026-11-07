@@ -11,6 +11,6 @@ tags: [course, learning]
 ## References
 
 - https://ocw.mit.edu/courses/mas-712-how-to-learn-almost-anything-spring-2001/
-- [9.69 Foundations of Cognition](note.html?p=courses/9-69-foundations-of-cognition/readme.md) — the cognitive science of how the learning happens
+- [9.69 Foundations of Cognition](/note.html?p=courses/9-69-foundations-of-cognition/readme.md) — the cognitive science of how the learning happens
 - [Philosophy of What Matters](https://www.youtube.com/playlist?list=PLdkGRvhaPXj3UjZkQ1rWKMijxnhPso2vK) — the telos of what is worth learning
-- [Atlas of courses](courses/atlas.html)
+- [Atlas of courses](/corpus/courses/atlas.html)

@@ -23,7 +23,7 @@ tags: [document, art-history, biography, paper]
 
 > [**The works**] The study is the reference for *La incredulidad de santo Tomás* (c. 1643), *Los desposorios de la Virgen*, the lost portraits of the Inquisitors, and the Rubens-influenced *La caída de los ángeles rebeldes*.
 
-Read the persona note: [Sebastián López de Arteaga](note.html?p=notes/social/collective/actor/private/persona/sebastian-lopez-de-arteaga.md).
+Read the persona note: [Sebastián López de Arteaga](/note.html?p=notes/social/collective/actor/private/persona/sebastian-lopez-de-arteaga.md).
 
 ## References
 

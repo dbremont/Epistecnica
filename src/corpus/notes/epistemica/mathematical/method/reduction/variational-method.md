@@ -32,7 +32,7 @@ An **`Aggregate`** — the organized method-system of variational analysis: its 
 
 No — the primary reading is unambiguous: the note documents the organized method-system as an **`Aggregate`**, with its constitutive theories an **Epistemic Construction** (the `Variational Theory` body). A legitimate secondary reading is **operative**: the method as a single routine under `Epistemic Operation` → `Organization` → `Method` — the concrete sequence formulate, vary, derive, solve, check. That reading is kept as `readable as …` prose, not as a second tree; the Operation branch of the table records the routine itself. A third reading is **ontic** — the claim that nature itself extremizes action — and it too stays prose: the note documents the epistemic method, not a metaphysical thesis about the world.
 
-What is *not* licensed is collapsing the method into its neighbours. Ordinary numerical optimization ranges over **parameters**; the variational method ranges over **functions**. The calculus of variations is the classical core of this aggregate, not a separate synonym. [Variational Inference](note.html?p=notes/epistemica/observational/computational/variational-inference.md) is a probabilistic application of the same extremizing pattern to approximate posteriors, and it has its own note. The finite element method is a discretization that realizes the Galerkin branch, not the whole method.
+What is *not* licensed is collapsing the method into its neighbours. Ordinary numerical optimization ranges over **parameters**; the variational method ranges over **functions**. The calculus of variations is the classical core of this aggregate, not a separate synonym. [Variational Inference](/note.html?p=notes/epistemica/observational/computational/variational-inference.md) is a probabilistic application of the same extremizing pattern to approximate posteriors, and it has its own note. The finite element method is a discretization that realizes the Galerkin branch, not the whole method.
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -257,19 +257,19 @@ For any normalized $|\psi\rangle$ that is not the true ground state $|0\rangle$,
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Functional](note.html?p=notes/epistemica/mathematical/mapping/functional.md)
-- [Differential Equation](note.html?p=notes/epistemica/mathematical/change/differential-equation.md)
-- [Sobolev Space](note.html?p=notes/epistemica/mathematical/space/sobolev-space.md) — the admissible class and compactness engine of the direct method.
-- [Lagrangian Mechanics](note.html?p=notes/epistemica/singular/lagrangian-mechanics.md)
-- [Hamiltonian Mechanics](note.html?p=notes/epistemica/singular/hamiltonian-mechanics.md)
-- [Galerkin Method](note.html?p=notes/epistemica/singular/galerkin-method.md)
-- [Finite Element Method (FEM)](note.html?p=notes/epistemica/singular/finite-element-method-fem.md)
-- [Variational Inference](note.html?p=notes/epistemica/observational/computational/variational-inference.md) — the probabilistic application of the extremizing pattern.
+- [Functional](/note.html?p=notes/epistemica/mathematical/mapping/functional.md)
+- [Differential Equation](/note.html?p=notes/epistemica/mathematical/change/differential-equation.md)
+- [Sobolev Space](/note.html?p=notes/epistemica/mathematical/space/sobolev-space.md) — the admissible class and compactness engine of the direct method.
+- [Lagrangian Mechanics](/note.html?p=notes/epistemica/singular/lagrangian-mechanics.md)
+- [Hamiltonian Mechanics](/note.html?p=notes/epistemica/singular/hamiltonian-mechanics.md)
+- [Galerkin Method](/note.html?p=notes/epistemica/singular/galerkin-method.md)
+- [Finite Element Method (FEM)](/note.html?p=notes/epistemica/singular/finite-element-method-fem.md)
+- [Variational Inference](/note.html?p=notes/epistemica/observational/computational/variational-inference.md) — the probabilistic application of the extremizing pattern.
 - [Action (physics)](https://en.wikipedia.org/wiki/Action_(physics))
 - [Calculus of variations](https://en.wikipedia.org/wiki/Calculus_of_variations)
 - [Newton's minimal resistance problem](https://en.wikipedia.org/wiki/Newton%27s_minimal_resistance_problem)
-- [Newton, I. (1833). Philosophiae Naturalis Principia Mathematica (Vol. 1). G. Brookman.](note.html?p=documents/books/newton-1833-philosophiae-naturalis-principia-mathematica-vol.md)
-- [Voltaire (1738). Elements of the Philosophy of Newton.](note.html?p=documents/books/voltaire-1738-elements-philosophy-newton.md)
+- [Newton, I. (1833). Philosophiae Naturalis Principia Mathematica (Vol. 1). G. Brookman.](/note.html?p=documents/books/newton-1833-philosophiae-naturalis-principia-mathematica-vol.md)
+- [Voltaire (1738). Elements of the Philosophy of Newton.](/note.html?p=documents/books/voltaire-1738-elements-philosophy-newton.md)
 - Euler, L. (1744). *Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes*.
 - Hamilton, W. R. (1834–35). On general equations of dynamics. *Philosophical Transactions of the Royal Society*.
 - Rayleigh, Lord (1877). *The Theory of Sound*.

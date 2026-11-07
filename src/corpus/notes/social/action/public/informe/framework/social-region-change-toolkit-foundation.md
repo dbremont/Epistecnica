@@ -124,11 +124,11 @@ QA:
 
 - Action Toolkit
 
-- [Developmentalism](note.html?p=notes/social/synontic/ideational/developmentalism.md)
+- [Developmentalism](/note.html?p=notes/social/synontic/ideational/developmentalism.md)
 
 - Social Ontology
 
-- [Social Change](note.html?p=notes/social/dynamic/change.md)
+- [Social Change](/note.html?p=notes/social/dynamic/change.md)
 
 - [Turkey’s 2030 Industry And Technology Strategy](https://www.setav.org/en/turkeys-2030-industry-and-technology-strategy)
 

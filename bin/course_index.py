@@ -4,7 +4,7 @@ Courses index builder.
 
 Scans src/corpus/courses/*/ for courses — one directory per course
 with a readme.md entry plus lecture *.md files — and emits
-src/corpus/app/data/courses-index.json, the search corpus for the courses
+src/app/data/courses-index.json, the search corpus for the courses
 catalog (/courses/). Stdlib only.
 
 Standalone HTML pages anywhere under the corpus (*.html, kind "live",
@@ -34,7 +34,7 @@ from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
 COURSE = REPO / "src" / "corpus" / "courses"
-APP = REPO / "src" / "corpus" / "app"
+APP = REPO / "src" / "app"
 COURSES = COURSE
 OUT = APP / "data" / "courses-index.json"
 

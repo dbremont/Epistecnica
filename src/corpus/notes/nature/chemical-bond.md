@@ -89,9 +89,9 @@ The characteristics vary by bond type, but here are **general features**:
 
 ## Related
 
-- [Molecule](note.html?p=notes/nature/molecule.md)
-- [Biomolecule](note.html?p=notes/nature/biomolecule.md)
-- [Chemical Element](note.html?p=notes/nature/chemical-element.md)
+- [Molecule](/note.html?p=notes/nature/molecule.md)
+- [Biomolecule](/note.html?p=notes/nature/biomolecule.md)
+- [Chemical Element](/note.html?p=notes/nature/chemical-element.md)
 
 ## Provenance
 

@@ -4,7 +4,7 @@ Documents index builder.
 
 Scans src/corpus/documents/** for documents — markdown (*.md,
 kind "document": papers, articles, books) — and emits
-src/corpus/app/data/documents-index.json, the search corpus for the documents
+src/app/data/documents-index.json, the search corpus for the documents
 catalog (/documents/). Stdlib only.
 
 For each document it extracts: path (relative to documents/), title
@@ -29,7 +29,7 @@ from indexlib import Progress, atomic_write_text, run_builder
 
 REPO = Path(__file__).resolve().parent.parent
 DOCUMENT = REPO / "src" / "corpus" / "documents"
-APP = REPO / "src" / "corpus" / "app"
+APP = REPO / "src" / "app"
 DOCUMENTS = DOCUMENT
 OUT = APP / "data" / "documents-index.json"
 

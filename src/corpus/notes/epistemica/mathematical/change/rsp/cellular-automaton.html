@@ -434,14 +434,14 @@
     .ruleLine b { color: var(--accent-cyan); font-weight: 500; }
 
   </style>
-  <link rel="stylesheet" href="../../../../../../shared/usearch.css">
+  <link rel="stylesheet" href="/shared/usearch.css">
 </head>
 <body>
 
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
       <div class="nav-right">
         <div class="usearch-wrap">
           <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -456,7 +456,7 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change">change</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change/rsp">rsp</a><span class="sep">/</span><span class="here">cellular-automaton</span></div>
+      <div class="crumbs"><a href="/explorer.html">notes</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica/mathematical/change">change</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica/mathematical/change/rsp">rsp</a><span class="sep">/</span><span class="here">cellular-automaton</span></div>
       <h1 class="note-title">Cellular Automaton Representational System</h1>
       <div class="note-meta"><span class="chip">live note</span><span class="chip">interactive</span><span class="chip">#cellular-automata</span><span class="chip">#representation</span></div>
     </div>
@@ -553,7 +553,7 @@
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="/corpus/note.html?p=notes/epistemica/mathematical/change/cellular-automata.md">Cellular Automata</a> — the element this playground instantiates</li><li><a href="/corpus/note.html?p=notes/epistemica/network/boolean-network.md">Boolean Network</a> · <a href="/corpus/note.html?p=notes/epistemica/singular/agent.md">Agent Model</a></li><li><a href="atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="/note.html?p=notes/epistemica/mathematical/change/cellular-automata.md">Cellular Automata</a> — the element this playground instantiates</li><li><a href="/note.html?p=notes/epistemica/network/boolean-network.md">Boolean Network</a> · <a href="/note.html?p=notes/epistemica/singular/agent.md">Agent Model</a></li><li><a href="/corpus/courses/atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
             <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Von Neumann, J. (1966)</strong> — <em>Theory of Self-Reproducing Automata</em></li><li><strong>Wolfram, S. (2002)</strong> — <em>A New Kind of Science</em> (elementary rules and complexity classes)</li><li><strong>Gardner, M. (1970)</strong> — the Game of Life; <strong>Greenberg &amp; Hastings (1978)</strong> — excitable media</li></ul>
@@ -572,12 +572,12 @@
   <footer class="site-footer">
     <div class="foot-inner">
       <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
-      <a href="../../../../../index.html">&larr; CATALOG</a>
+      <a href="/explorer.html">&larr; CATALOG</a>
     </div>
   </footer>
 
-  <script src="../../../../../vendor/mathjax-setup.js"></script>
-  <script src="../../../../../vendor/mathjax/tex-svg-full.js"></script>
+  <script src="/vendor/mathjax-setup.js"></script>
+  <script src="/vendor/mathjax/tex-svg-full.js"></script>
 
 <script id="ambient">
   (function () {
@@ -691,7 +691,7 @@
       el('iiLaw').setAttribute('data-tex-display', cur.sub);
       el('iiDesc').textContent = cur.desc;
       el('iiDocs').innerHTML = cur.docs.map(function (d) {
-        return '<a href="../../../../../note.html?p=notes/' + d.n + '">' + d.label + '</a>';
+        return '<a href="/note.html?p=notes/' + d.n + '">' + d.label + '</a>';
       }).join('');
       if (window.renderTeX) { renderTeX(el('instInfo')); }
     }
@@ -1058,7 +1058,7 @@
 
   </script>
 
-  <script src="../../../../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../../../../glossarium/data/index.json" defer></script>
-  <script src="../../../../../../shared/usearch.js" data-root="../../../../../../"></script>
+  <script src="/glossarium/js/glossarium-lookup.js" data-glossarium="/glossarium/data/index.json" defer></script>
+  <script src="/shared/usearch.js" data-root="../../../../../../"></script>
 </body>
 </html>

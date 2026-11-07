@@ -4,7 +4,7 @@ tags: [note, data-model]
 
 # Relational Data Model
 
-- [Relational Data System](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system.md)
+- [Relational Data System](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system.md)
 
 > The **relational data model** is a conceptual framework that defines mechanisms to **represent data**, specify **operations** on that data, and provide a **formal semantics** that gives a precise meaning to the representations and operations.
 > 
@@ -88,7 +88,7 @@ tags: [note, data-model]
 > The objects are **relations** (tables) consisting of tuples over attributes.
 > 
 
-> See more in [Representation](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md).
+> See more in [Representation](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md).
 > 
 
 ### Operator
@@ -96,7 +96,7 @@ tags: [note, data-model]
 > The operators are standard relational algebra operations (selection, projection, join, union, etc.) that manipulate relations and produce new relations.
 > 
 
-> See more in [Operation](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md).
+> See more in [Operation](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md).
 > 
 
 ### Semantic
@@ -112,7 +112,7 @@ tags: [note, data-model]
 > **Note:** The relational model is independent of any specific query language implementation. However, the most widely adopted standard query language for relational databases is **SQL (Structured Query Language)**.
 > 
 
-> See more in [SQL](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md).
+> See more in [SQL](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md).
 > 
 
 ## References

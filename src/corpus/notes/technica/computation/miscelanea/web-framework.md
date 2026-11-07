@@ -4,7 +4,7 @@ tags: [note]
 
 # Web Framework
 
-- [Web Server](note.html?p=notes/technica/computation/miscelanea/web-server.md)
+- [Web Server](/note.html?p=notes/technica/computation/miscelanea/web-server.md)
 
 - …
 - What is a  `Web Framework`?

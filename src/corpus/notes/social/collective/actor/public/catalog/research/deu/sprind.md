@@ -57,6 +57,6 @@ Readable secondarily as an `Institution` (the stabilized funding regime it ancho
 
 - [SPRIND — Federal Agency for Breakthrough Innovation](https://www.sprind.org/en)
 - [Bundesagentur für Sprunginnovationen — German Wikipedia](https://de.wikipedia.org/wiki/Bundesagentur_f%C3%BCr_Sprunginnovationen) (founding 2019, Freedom Act 2023, challenges, Funken; Laguna de la Vera)
-- [Defense Advanced Research Projects Agency](note.html?p=notes/social/collective/actor/public/catalog/research/usa/defense-advanced-research-projects-agency.md) (the model SPRIND is built on)
-- [Organization](note.html?p=notes/social/collective/actor/organization.md) (parent type: Government Organization → Public Agency)
+- [Defense Advanced Research Projects Agency](/note.html?p=notes/social/collective/actor/public/catalog/research/usa/defense-advanced-research-projects-agency.md) (the model SPRIND is built on)
+- [Organization](/note.html?p=notes/social/collective/actor/organization.md) (parent type: Government Organization → Public Agency)
 - Graph nodes of the same names: `sprind`, `usa-a8` (Social Space, dataset `social`)

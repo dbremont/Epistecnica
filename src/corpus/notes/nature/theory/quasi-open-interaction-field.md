@@ -4,7 +4,7 @@ tags: [note, ontology, segment]
 
 # Quasi-Open Interaction Field
 
-Related: [Event Stream](note.html?p=notes/nature/theory/event-stream.md), [Event](note.html?p=notes/nature/theory/event.md), [Segment](note.html?p=notes/nature/theory/segment.md), [Modelling](note.html?p=notes/epistemica/epistemic/theory/modelling.md)
+Related: [Event Stream](/note.html?p=notes/nature/theory/event-stream.md), [Event](/note.html?p=notes/nature/theory/event.md), [Segment](/note.html?p=notes/nature/theory/segment.md), [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md)
 
 > The  **Quasi-Open Interaction Field**  type of segment of reality tries to capture a set of entities  interactions - in a quasi open field - that is entities can come and go.
 > 

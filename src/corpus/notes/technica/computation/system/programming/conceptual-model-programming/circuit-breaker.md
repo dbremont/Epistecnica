@@ -4,7 +4,7 @@ tags: [note, design-idiom]
 
 # Circuit Breaker
 
-- [Technique](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/technique.md)
+- [Technique](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/technique.md)
 
 > A **Circuit Breaker** is a resilience design pattern that monitors for failures and, upon detecting a threshold of faults in a remote service or subsystem, transitions into an open state to short-circuit subsequent calls, thereby preventing cascading failures and enabling fault recovery via a reset or timeout mechanism.
 > 

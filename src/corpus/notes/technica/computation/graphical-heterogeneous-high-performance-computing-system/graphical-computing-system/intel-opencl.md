@@ -148,11 +148,11 @@ Below is the approximate sequence:
 - https://docs.mesa3d.org/systems.html
 - https://en.wikipedia.org/wiki/Standard_Portable_Intermediate_Representation
 - [‣](https://app.notion.com/p/b0a2a8d65e9d46d3b9ccfe1614c1bd73?pvs=21)
-- [ELF (Executable and Linkable Format)](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)
+- [ELF (Executable and Linkable Format)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)
 - [Guide to Observability Tools for C/C++ on Linux](https://app.notion.com/p/Guide-to-Observability-Tools-for-C-C-on-Linux-1c1c0f5171ec80ecabd2c048a1f861f5?pvs=21)
-- [ltrace](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/ltrace.md)
-- [strace](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/strace.md)
-- [ioctl](note.html?p=notes/technica/computation/operating-system/linux/syscall-interface/ioctl.md)
+- [ltrace](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/ltrace.md)
+- [strace](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/strace.md)
+- [ioctl](/note.html?p=notes/technica/computation/operating-system/linux/syscall-interface/ioctl.md)
 - https://github.com/KhronosGroup/SPIRV-LLVM-Translator
 - https://clang.llvm.org/doxygen/group__CINDEX.html
 - https://github.com/intel/intel-graphics-compiler
@@ -162,5 +162,5 @@ Below is the approximate sequence:
 - https://github.com/intel/gmmlib
 - https://github.com/intel/metrics-discovery/blob/master/external/drm/i915_drm.h
 - https://github.com/oneapi-src/level-zero
-- [Linux Device Model](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/linux-device-model.md)
+- [Linux Device Model](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/linux-device-model.md)
 - https://wiki.archlinux.org/title/Intel_graphics

@@ -31,11 +31,11 @@ tags: [note]
 > How to integrate ML Driven Computation with Symbolic Driven Computations?
 > 
 
-![**Computation** is the **evolution** of states under a governing **dynamic law**.](../assets/note/technica/computation/computacion/image.png)
+![**Computation** is the **evolution** of states under a governing **dynamic law**.](/assets/note/technica/computation/computacion/image.png)
 
 **Computation** is the **evolution** of states under a governing **dynamic law**.
 
-![Programming: Computational Mental Model ↔ Concrete Reification in a Given Language System. ](../assets/note/technica/computation/computacion/image-1.png)
+![Programming: Computational Mental Model ↔ Concrete Reification in a Given Language System. ](/assets/note/technica/computation/computacion/image-1.png)
 
 Programming: Computational Mental Model ↔ Concrete Reification in a Given Language System. 
 
@@ -107,43 +107,43 @@ Programming: Computational Mental Model ↔ Concrete Reification in a Given Lang
 
 ## Topics
 
-[System](note.html?p=notes/technica/computation/system.md)
+[System](/note.html?p=notes/technica/computation/system.md)
 
-[Platform](note.html?p=notes/technica/computation/platform.md)
+[Platform](/note.html?p=notes/technica/computation/platform.md)
 
-[Telecom](note.html?p=notes/technica/computation/telecom/telecom.md)
+[Telecom](/note.html?p=notes/technica/computation/telecom/telecom.md)
 
-[Algorithm](note.html?p=notes/technica/computation/algorithm.md)
+[Algorithm](/note.html?p=notes/technica/computation/algorithm.md)
 
 Miscelanea
 
-[Concurrency](note.html?p=notes/technica/computation/concurrency.md)
+[Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
 
-[Data System](note.html?p=notes/technica/computation/data-system.md)
+[Data System](/note.html?p=notes/technica/computation/data-system.md)
 
-[Specification](note.html?p=notes/technica/computation/specification.md)
+[Specification](/note.html?p=notes/technica/computation/specification.md)
 
-[Dependability](note.html?p=notes/technica/computation/dependability.md)
+[Dependability](/note.html?p=notes/technica/computation/dependability.md)
 
-[Representation](note.html?p=notes/technica/computation/representation.md)
+[Representation](/note.html?p=notes/technica/computation/representation.md)
 
-[Problem Space](note.html?p=notes/technica/computation/problem-space.md)
+[Problem Space](/note.html?p=notes/technica/computation/problem-space.md)
 
-[Operating System](note.html?p=notes/technica/computation/operating-system.md)
+[Operating System](/note.html?p=notes/technica/computation/operating-system.md)
 
-[Language System](note.html?p=notes/technica/computation/language-system.md)
+[Language System](/note.html?p=notes/technica/computation/language-system.md)
 
-[Data Visualization](note.html?p=notes/technica/computation/data-visualization.md)
+[Data Visualization](/note.html?p=notes/technica/computation/data-visualization.md)
 
-[Product Development](note.html?p=notes/technica/computation/product-development.md)
+[Product Development](/note.html?p=notes/technica/computation/product-development.md)
 
-[Distributed Computing](note.html?p=notes/technica/computation/distributed-computing.md)
+[Distributed Computing](/note.html?p=notes/technica/computation/distributed-computing.md)
 
-[Quantum Computation](note.html?p=notes/technica/computation/quantum-computation.md)
+[Quantum Computation](/note.html?p=notes/technica/computation/quantum-computation.md)
 
-[**Computational Complexity Theory**](note.html?p=notes/technica/computation/computational-complexity-theory.md)
+[**Computational Complexity Theory**](/note.html?p=notes/technica/computation/computational-complexity-theory.md)
 
-[**Enterprise Information System (EIS)**](note.html?p=notes/technica/computation/enterprise-information-system-eis.md)
+[**Enterprise Information System (EIS)**](/note.html?p=notes/technica/computation/enterprise-information-system-eis.md)
 
 ## References
 
@@ -172,4 +172,4 @@ Miscelanea
 - [A General Set of Programming Tips](https://app.notion.com/p/A-General-Set-of-Programming-Tips-1c2c0f5171ec80e89de7d94c23e143b3?pvs=21)
 - [A Guide to Thinking Deeply About Software Systems — Especially Complex Ones](https://app.notion.com/p/A-Guide-to-Thinking-Deeply-About-Software-Systems-Especially-Complex-Ones-203c0f5171ec800ea048e41bf35179f3?pvs=21)
 
-[Graphical, Heterogeneous, High-Performance Computing System](note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system.md)
+[Graphical, Heterogeneous, High-Performance Computing System](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system.md)

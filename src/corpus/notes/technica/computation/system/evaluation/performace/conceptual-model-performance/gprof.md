@@ -4,7 +4,7 @@ tags: [note, analysis, tool]
 
 # gprof
 
-- [LTTng](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/lttng.md), [Profiler](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
+- [LTTng](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/lttng.md), [Profiler](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
 
 > **`Gprof`** is a performance analysis tool for Unix-like systems that profiles C, C++, and Fortran programs by collecting execution statistics through instrumentation or sampling, generating call graphs and function-level timing metrics to identify bottlenecks.
 > 
@@ -85,4 +85,4 @@ index % time    self  children    called     name
 - https://en.wikipedia.org/wiki/Gprof
 - https://github.com/lattera/glibc/tree/master/gmon
 - - [GCC : GNU Compiler Collection]
-- [GCC Instrumentation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)
+- [GCC Instrumentation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)

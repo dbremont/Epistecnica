@@ -26,7 +26,7 @@ tags: [note, nature, organism, biology, system]
 
 ## Related
 
-- [Living System](note.html?p=notes/nature/living-system.md)
+- [Living System](/note.html?p=notes/nature/living-system.md)
 
 ## Provenance
 

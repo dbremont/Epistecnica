@@ -4,7 +4,7 @@ tags: [note, nature, natural-system, human, behavior]
 
 # Cognitive
 
-> A natural element read per [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -75,7 +75,7 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 > **The "mind" is not a direct scientific concept like “neuron” or “force,” but rather an *effective abstraction* that can be decomposed into scientific constructs.** It acts as a conceptual umbrella for a set of cognitive functions — some of which are scientifically robust and operationalizable.
 >
 
-> See more in [Brain](note.html?p=notes/nature/brain.md), [Representation](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md),   [Cognition](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/cognition.md),
+> See more in [Brain](/note.html?p=notes/nature/brain.md), [Representation](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md),   [Cognition](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/cognition.md),
 >
 
 | **Category** | **Study Target** | **Description** | **Cognitive Research** | **Research Justification** |
@@ -121,7 +121,7 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ### Modelling
 
-> See more in [Modelling](note.html?p=notes/nature/brain.md)
+> See more in [Modelling](/note.html?p=notes/nature/brain.md)
 >
 
 > How do we represent brain functions (and the underlying processes and systems)?
@@ -164,43 +164,43 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## Related
 
-[Reference System](note.html?p=notes/nature/human/cognitive/reference-system.md)
+[Reference System](/note.html?p=notes/nature/human/cognitive/reference-system.md)
 
-[**Categorization**](note.html?p=notes/nature/human/cognitive/categorization.md)
+[**Categorization**](/note.html?p=notes/nature/human/cognitive/categorization.md)
 
-[**Mental Imagery**](note.html?p=notes/nature/human/cognitive/mental-imagery.md)
+[**Mental Imagery**](/note.html?p=notes/nature/human/cognitive/mental-imagery.md)
 
-[**Serendipity**](note.html?p=notes/nature/human/cognitive/serendipity.md)
+[**Serendipity**](/note.html?p=notes/nature/human/cognitive/serendipity.md)
 
-[**Abstraction**](note.html?p=notes/nature/human/cognitive/abstraction.md)
+[**Abstraction**](/note.html?p=notes/nature/human/cognitive/abstraction.md)
 
-[**Syllogisms**](note.html?p=notes/nature/human/cognitive/syllogisms.md)
+[**Syllogisms**](/note.html?p=notes/nature/human/cognitive/syllogisms.md)
 
-[**Narratives**](note.html?p=notes/nature/human/cognitive/narratives.md)
+[**Narratives**](/note.html?p=notes/nature/human/cognitive/narratives.md)
 
-[**Heuristics**](note.html?p=notes/nature/human/cognitive/heuristics.md)
+[**Heuristics**](/note.html?p=notes/nature/human/cognitive/heuristics.md)
 
-[**Intuition**](note.html?p=notes/nature/human/cognitive/intuition.md)
+[**Intuition**](/note.html?p=notes/nature/human/cognitive/intuition.md)
 
-[**Analogies**](note.html?p=notes/nature/human/cognitive/analogies.md)
+[**Analogies**](/note.html?p=notes/nature/human/cognitive/analogies.md)
 
-[**Metaphors**](note.html?p=notes/nature/human/cognitive/metaphors.md)
+[**Metaphors**](/note.html?p=notes/nature/human/cognitive/metaphors.md)
 
-[Thinking](note.html?p=notes/nature/human/cognitive/thinking.md)
+[Thinking](/note.html?p=notes/nature/human/cognitive/thinking.md)
 
-[Notation](note.html?p=notes/nature/human/cognitive/notation.md)
+[Notation](/note.html?p=notes/nature/human/cognitive/notation.md)
 
-[**Schemas**](note.html?p=notes/nature/human/cognitive/schemas.md)
+[**Schemas**](/note.html?p=notes/nature/human/cognitive/schemas.md)
 
-[Belief](note.html?p=notes/nature/human/cognitive/belief.md)
+[Belief](/note.html?p=notes/nature/human/cognitive/belief.md)
 
 ## References
 
-- [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Brain a0dba22360494722a05b837c34806772.md`; `Human Nervous System 1e6c0f5171ec80c8ba22c19af51ac75f.md`
 
-- [Brain](note.html?p=notes/nature/brain.md)
+- [Brain](/note.html?p=notes/nature/brain.md)
 - https://en.wikipedia.org/wiki/Linguistics
 - https://en.wikipedia.org/wiki/Psychology
 - https://en.wikipedia.org/wiki/Cognitive_model

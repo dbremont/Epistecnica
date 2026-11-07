@@ -4,7 +4,7 @@ tags: [note, metacomputation, tool]
 
 # ASM
 
-- [Java Bytecode](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-bytecode.md)
+- [Java Bytecode](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-bytecode.md)
 
 > ASM is a low-level **Java bytecode** manipulation and **analysis framework** that provides direct, fine-grained control over **JVM**  instructions via a visitor-pattern API, enabling high-performance class  generation, transformation, and analysis at the bytecode level.
 > 

@@ -27,7 +27,7 @@ QA:
 
 ## Related
 
-- [Leptospira](note.html?p=notes/nature/leptospira.md)
+- [Leptospira](/note.html?p=notes/nature/leptospira.md)
 
 ## Provenance
 

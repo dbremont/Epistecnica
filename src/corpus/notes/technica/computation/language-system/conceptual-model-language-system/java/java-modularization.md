@@ -508,10 +508,10 @@ No, the **Java Platform Module System (JPMS)** does not replace the **ClassLoade
 
 ## References
 
-- [Linker](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
-- [Loader](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md)
-- [Modularization](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/modularization.md)
-- [Java HotSpot Virtual Machine](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
+- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Loader](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md)
+- [Modularization](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/modularization.md)
+- [Java HotSpot Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
 - [https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-5.html](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-5.html)
 - [https://docs.oracle.com/javase/10/docs/api/java/lang/instrument/package-summary.html](https://docs.oracle.com/javase/10/docs/api/java/lang/instrument/package-summary.html)
 

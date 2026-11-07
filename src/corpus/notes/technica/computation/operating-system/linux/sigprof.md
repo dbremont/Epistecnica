@@ -4,7 +4,7 @@ tags: [note, signal]
 
 # SIGPROF
 
-- [Signal](note.html?p=notes/technica/computation/operating-system/linux/signal.md)
+- [Signal](/note.html?p=notes/technica/computation/operating-system/linux/signal.md)
 
 > The **`SIGPROF`** signal is a **Unix signal** that is used primarily for **profiling** purposes, and it is directly related to **timed sampling** in profiling tools like `gprof`.
 > 

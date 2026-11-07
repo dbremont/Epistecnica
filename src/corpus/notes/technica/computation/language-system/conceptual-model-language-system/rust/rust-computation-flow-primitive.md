@@ -81,9 +81,9 @@ Guiding Questions:
 
 ## References
 
-- [Concurrency](note.html?p=notes/technica/computation/concurrency.md)
-- [Notion of Change](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
-- [Unit of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
-- [Exception Handling System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/exception-handling-system.md)
+- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
+- [Unit of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
+- [Exception Handling System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/exception-handling-system.md)
 - [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/)
 - [Fearless Concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)

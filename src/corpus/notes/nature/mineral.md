@@ -41,7 +41,7 @@ tags: [note, nature, substance-matter, geoscience, materials-science, matter]
 
 ## Related
 
-- [Rock](note.html?p=notes/nature/rock.md)
+- [Rock](/note.html?p=notes/nature/rock.md)
 
 ## Provenance
 

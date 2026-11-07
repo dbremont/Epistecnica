@@ -4,7 +4,7 @@ tags: [note, type-system]
 
 # Type Checking
 
-- [Type System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 
 > **Type Checking**: The process of verifying that types are used consistently and correctly in a program.
 > 

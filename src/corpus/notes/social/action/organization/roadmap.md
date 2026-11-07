@@ -44,7 +44,7 @@ tags: [note, roadmap, organization, action, social-element]
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Strategy](note.html?p=notes/social/action/guidance/strategy.md) (the selection a roadmap serves)
-- [Plan](note.html?p=notes/social/action/organization/plan.md) (the arrangement of any one move)
-- [Schedule](note.html?p=notes/social/action/organization/schedule.md) (the allocation of the near moves)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Strategy](/note.html?p=notes/social/action/guidance/strategy.md) (the selection a roadmap serves)
+- [Plan](/note.html?p=notes/social/action/organization/plan.md) (the arrangement of any one move)
+- [Schedule](/note.html?p=notes/social/action/organization/schedule.md) (the allocation of the near moves)

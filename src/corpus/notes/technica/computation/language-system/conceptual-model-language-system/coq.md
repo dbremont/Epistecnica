@@ -9,7 +9,7 @@ tags: [note, language]
 
 ## 🧮 Model of Computation
 
-> What are the models of computation that  the language supports? See more in [Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> What are the models of computation that  the language supports? See more in [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
 > 
 
 ## 📜 Language Specification
@@ -133,9 +133,9 @@ Coq: 🛠️ Tooling & Ecosystem
 
 ## 🔗 References
 
-- [Concurrency](note.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
-- [Language System](note.html?p=notes/technica/computation/language-system.md)
+- [Language System](/note.html?p=notes/technica/computation/language-system.md)
 - https://github.com/csiglab/language-system-labs
 - https://rocq-prover.org/
 - [A Guide to Study Programming Language](https://app.notion.com/p/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?pvs=21)

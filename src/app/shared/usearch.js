@@ -42,6 +42,18 @@
     }
 
     var uinput = document.getElementById('usearch');
+    var scriptEl = document.currentScript;
+    var MODE = (scriptEl && scriptEl.getAttribute('data-mode')) || 'dropdown';
+    var FILTER = MODE === 'filter';
+
+    function uemit() {
+        try {
+            document.dispatchEvent(new CustomEvent('epistecnica-search', {
+                detail: { query: uinput.value, mode: MODE }
+            }));
+        } catch (e) { /* no CustomEvent: older browser */ }
+    }
+
     var udrop = document.getElementById('usearch-drop');
     var usurprise = document.getElementById('usurprise');
     if (!uinput || !udrop || !usurprise) return;
@@ -86,15 +98,15 @@
     function uurl(e) {
         var p = uencPath(e.path);
         if (e.surface === 'note') {
-            return e.kind === 'live' ? root + 'corpus/notes/' + p : root + 'corpus/note.html?p=notes/' + p;
+            return e.kind === 'live' ? root + 'corpus/notes/' + p : root + 'note.html?p=notes/' + p;
         }
         if (e.surface === 'course') {
             if (e.kind === 'live') return root + 'corpus/courses/' + p;
             return e.kind === 'course'
-                ? root + 'corpus/note.html?p=courses/' + p + '/readme.md'
-                : root + 'corpus/note.html?p=courses/' + p;
+                ? root + 'note.html?p=courses/' + p + '/readme.md'
+                : root + 'note.html?p=courses/' + p;
         }
-        if (e.surface === 'document') return root + 'corpus/note.html?p=documents/' + p;
+        if (e.surface === 'document') return root + 'note.html?p=documents/' + p;
         if (e.surface === 'glossarium') return root + 'glossarium/?t=' + encodeURIComponent(e.path);
         if (e.surface === 'qa') return root + 'qa/entry.html?id=' + encodeURIComponent(e.path);
         return '#';
@@ -355,16 +367,21 @@
 
     uinput.addEventListener('input', function () {
         usave(uinput.value);
+        if (FILTER) { uemit(); return; }
         clearTimeout(utimer);
         utimer = setTimeout(urender, 120);
     });
 
-    uinput.addEventListener('focus', function () { if (uinput.value.trim()) urender(); });
+    uinput.addEventListener('focus', function () { if (!FILTER && uinput.value.trim()) urender(); });
 
     uinput.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') { uhide(); uinput.blur(); return; }
         if (e.key === 'ArrowDown') { e.preventDefault(); umove(1); return; }
         if (e.key === 'ArrowUp') { e.preventDefault(); umove(-1); return; }
+        if (FILTER) {
+            if (e.key === 'Enter') { e.preventDefault(); uemit(); }
+            return;
+        }
         if (e.key === 'Enter' && ukb >= 0 && uflat[ukb]) {
             e.preventDefault();
             uact(uflat[ukb]);
@@ -393,6 +410,11 @@
     });
 
     usurprise.addEventListener('click', ugoRandom);
+
+    if (FILTER) {
+        udrop.hidden = true;
+        if (uinput.value) setTimeout(uemit, 0);
+    }
 
     fetch(root + 'data/search-index.json', { headers: { 'Accept': 'application/json' } })
         .then(function (r) {

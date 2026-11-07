@@ -4,7 +4,7 @@ tags: [note, reality, segment]
 
 # System
 
-Related: [Level of Organization](note.html?p=notes/nature/theory/level-of-organization.md)
+Related: [Level of Organization](/note.html?p=notes/nature/theory/level-of-organization.md)
 
 > In this note, we explore a highly abstract concept—a system—as a mechanism to organize reality into a comprehensible and manageable form, one that is representable and thus rendered tractable.
 > 
@@ -128,7 +128,7 @@ que totaliza, engloba o abarca una serie de partes individuales (hechos,  ideas,
 > or Point Prediction or  Outcome - Distribution Based Predictions.
 > 
 
-> See more in [Model](note.html?p=notes/epistemica/epistemic/theory/model.md) and **Failure to Abstract (Overfitting to Instances)**; this is a common topic between modelling - and systems.
+> See more in [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md) and **Failure to Abstract (Overfitting to Instances)**; this is a common topic between modelling - and systems.
 > 
 
 > How should we model a complex system—by examining the particular behaviors of individual components, or by abstracting to general patterns across many cases?
@@ -166,7 +166,7 @@ que totaliza, engloba o abarca una serie de partes individuales (hechos,  ideas,
 > **Absorbing States** States from which the system cannot leave once entered.
 > 
 
-> See more in [State](note.html?p=notes/epistemica/epistemic/theory/state.md).
+> See more in [State](/note.html?p=notes/epistemica/epistemic/theory/state.md).
 > 
 
 ### State Descriptor
@@ -174,7 +174,7 @@ que totaliza, engloba o abarca una serie de partes individuales (hechos,  ideas,
 > A **state descriptor** is a (possibly many-to-one) mapping $d: \mathcal{S} \rightarrow \mathcal{Y}$  from the system’s state space $\mathcal{S}$ to a representation space $\mathcal{Y}$, such that $d(s)$ encodes selected, possibly lossy, structural or functional properties of the underlying state $s \in \mathcal{S}$ without constituting a generative coordinate of the system’s phase space dynamics; equivalently, it is an epistemic projection or feature functional over state space used to summarize, classify, compare, or control states with respect to analytically or normatively relevant criteria.
 > 
 
-> See more in [State Descriptor](note.html?p=notes/epistemica/epistemic/theory/state-descriptor.md).
+> See more in [State Descriptor](/note.html?p=notes/epistemica/epistemic/theory/state-descriptor.md).
 > 
 
 ### Variable
@@ -182,7 +182,7 @@ que totaliza, engloba o abarca una serie de partes individuales (hechos,  ideas,
 > A variable is a characteristic, property, or quantity that can take on different values in statistics. Variables collect and describe data in various studies, experiments, and analyses.
 > 
 
-> See more in [Variable](note.html?p=notes/epistemica/epistemic/theory/variable.md).
+> See more in [Variable](/note.html?p=notes/epistemica/epistemic/theory/variable.md).
 > 
 
 ### Latent Variable

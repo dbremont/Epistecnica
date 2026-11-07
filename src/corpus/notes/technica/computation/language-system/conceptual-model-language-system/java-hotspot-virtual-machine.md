@@ -4,7 +4,7 @@ tags: [note, language-system]
 
 # Java HotSpot Virtual Machine
 
-- [Java](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java.md), [Java Bytecode](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-bytecode.md)
+- [Java](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java.md), [Java Bytecode](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-bytecode.md)
 
 > Brought to you by OpenJDK.
 > 
@@ -172,7 +172,7 @@ public class MyAgent {
 ## References
 
 - https://github.com/openjdk/jdk
-- [GNU Autotools](note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md)
+- [GNU Autotools](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md)
 - https://hg.openjdk.org/jdk/jdk11/raw-file/tip/doc/building.html
 - https://github.com/openjdk
 - https://wiki.openjdk.org/display/HotSpot/Main

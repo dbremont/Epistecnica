@@ -37,10 +37,10 @@ QA:
 
 ## Related
 
-- [Spectroscopy](note.html?p=notes/nature/spectroscopy.md)
-- [Wave](note.html?p=notes/nature/wave.md)
-- [Light](note.html?p=notes/nature/light.md)
-- [Radio Wave](note.html?p=notes/nature/radio-wave.md)
+- [Spectroscopy](/note.html?p=notes/nature/spectroscopy.md)
+- [Wave](/note.html?p=notes/nature/wave.md)
+- [Light](/note.html?p=notes/nature/light.md)
+- [Radio Wave](/note.html?p=notes/nature/radio-wave.md)
 
 ## Provenance
 

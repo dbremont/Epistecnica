@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # Perf
 
-- [Profiler](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
+- [Profiler](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
 
 > **Perf** (short for “performance”) refers to measuring and analyzing a program or system's execution speed and resource usage. It involves gathering data on various metrics, such as CPU usage, memory usage, disk I/O, network I/O, and so on, and then analyzing that data to identify performance bottlenecks and areas for improvement. **Perf** typically uses specialized tools such as perf or the Linux Performance Tools (LPT).
 > 
@@ -44,4 +44,4 @@ sudo perf script > out.perf
 - Gregg, Brendan. *BPF performance tools*. Addison-Wesley Professional, 2019.
 - [**perf-tools**](https://github.com/brendangregg/perf-tools)
 
-[FlameGraph](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/flamegraph.md)
+[FlameGraph](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/flamegraph.md)

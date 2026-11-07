@@ -254,13 +254,13 @@ Multi-Node Processing System: Conceptual Model
 - [The many faces of consistency](http://sites.computer.org/debull/A16mar/p3.pdf)
 - [Awesome Distributed Systems](https://github.com/theanalyst/awesome-distributed-systems)
 - [Distributed Systems Reading List](https://people.cs.rutgers.edu/~pxk/417/readinglist.html)
-- [Firefox](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
-- [Data Streaming](note.html?p=notes/technica/computation/telecom/data-streaming.md)
+- [Firefox](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
+- [Data Streaming](/note.html?p=notes/technica/computation/telecom/data-streaming.md)
 - https://dancres.github.io/Pages/
 - https://ferd.ca/a-distributed-systems-reading-list.html
-- [Operating System](note.html?p=notes/technica/computation/operating-system.md)
-- [Telecom](note.html?p=notes/technica/computation/telecom/telecom.md)
+- [Operating System](/note.html?p=notes/technica/computation/operating-system.md)
+- [Telecom](/note.html?p=notes/technica/computation/telecom/telecom.md)
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
-- [Concurrency](note.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
 - https://github.com/dbremont/documentorum/tree/main/component/multinode
 - https://geocar.sdf1.org/fast-servers.html

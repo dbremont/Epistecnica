@@ -69,22 +69,22 @@ It is a form, not an instance: `y = AK^αL^β` with fitted coefficients is a `Co
 
 ## Linked Epistemic Nodes
 
-> The existing nodes in the epistemica dataset (`/epistemica/?node=<id>`) this note documents and cross-links.
+> The existing nodes in the epistemica dataset (`/corpus/notes/epistemica/?node=<id>`) this note documents and cross-links.
 
-- [Production Function](/epistemica/?node=production-function) — the blueprint node itself (`epistemicBlueprint`)
-- [Marginal Productivity Theory](/epistemica/?node=marginal-productivity-theory) — factor payments by marginal contribution (`epistemicFramework`)
-- [Productivity Estimate](/epistemica/?node=productivity-estimate) — a fitted value instance (`concreteEpistemicArtifact`)
-- [Productivity Measurement Procedure](/epistemica/?node=productivity-measurement-procedure) — the estimation procedure (`epistemicOperator`)
-- [SWE Productivity Method](/epistemica/?node=swe-productivity-method) — a sectoral measurement process (`epistemicProcess`)
-- [Input-Output Model](/epistemica/?node=input-output-model) / [Input-Output Models](/epistemica/?node=input-output-models) — the fixed-coefficient sibling family (`concreteEpistemicArtifact`)
-- [Optimization Models](/epistemica/?node=optimization-models) — the optimizing-behavior neighbor (`concreteEpistemicArtifact`)
-- [Optimization Problem](/epistemica/?node=tool_24) — the formal problem solved in estimation (`epistemicOperator`)
-- [Supply and Demand Theory](/epistemica/?node=supply-and-demand-theory) — the market-clearing neighbor (`epistemicFramework`)
-- [Capital Asset Pricing Model (CAPM)](/epistemica/?node=capital-asset-pricing-model-capm) — a fitted-form cousin in finance (`concreteEpistemicArtifact`)
-- [AS-AD Model](/epistemica/?node=as-ad-model-aggregate-supply-aggregate-demand) — the macro aggregate built on production mappings (`concreteEpistemicArtifact`)
-- [Labor Theory of Value](/epistemica/?node=labor-theory-of-value) — the rival accounting of value (`epistemicFramework`)
-- [Profile Production Template](/epistemica/?node=profile-production-template) — a template instance (`epistemicBlueprint`)
-- [General-Purpose Laboratory](/epistemica/?node=infra_01) — the infrastructure hosting estimation (`epistemicInfrastructure`)
+- [Production Function](/corpus/notes/epistemica/?node=production-function) — the blueprint node itself (`epistemicBlueprint`)
+- [Marginal Productivity Theory](/corpus/notes/epistemica/?node=marginal-productivity-theory) — factor payments by marginal contribution (`epistemicFramework`)
+- [Productivity Estimate](/corpus/notes/epistemica/?node=productivity-estimate) — a fitted value instance (`concreteEpistemicArtifact`)
+- [Productivity Measurement Procedure](/corpus/notes/epistemica/?node=productivity-measurement-procedure) — the estimation procedure (`epistemicOperator`)
+- [SWE Productivity Method](/corpus/notes/epistemica/?node=swe-productivity-method) — a sectoral measurement process (`epistemicProcess`)
+- [Input-Output Model](/corpus/notes/epistemica/?node=input-output-model) / [Input-Output Models](/corpus/notes/epistemica/?node=input-output-models) — the fixed-coefficient sibling family (`concreteEpistemicArtifact`)
+- [Optimization Models](/corpus/notes/epistemica/?node=optimization-models) — the optimizing-behavior neighbor (`concreteEpistemicArtifact`)
+- [Optimization Problem](/corpus/notes/epistemica/?node=tool_24) — the formal problem solved in estimation (`epistemicOperator`)
+- [Supply and Demand Theory](/corpus/notes/epistemica/?node=supply-and-demand-theory) — the market-clearing neighbor (`epistemicFramework`)
+- [Capital Asset Pricing Model (CAPM)](/corpus/notes/epistemica/?node=capital-asset-pricing-model-capm) — a fitted-form cousin in finance (`concreteEpistemicArtifact`)
+- [AS-AD Model](/corpus/notes/epistemica/?node=as-ad-model-aggregate-supply-aggregate-demand) — the macro aggregate built on production mappings (`concreteEpistemicArtifact`)
+- [Labor Theory of Value](/corpus/notes/epistemica/?node=labor-theory-of-value) — the rival accounting of value (`epistemicFramework`)
+- [Profile Production Template](/corpus/notes/epistemica/?node=profile-production-template) — a template instance (`epistemicBlueprint`)
+- [General-Purpose Laboratory](/corpus/notes/epistemica/?node=infra_01) — the infrastructure hosting estimation (`epistemicInfrastructure`)
 
 ## References
 
@@ -103,8 +103,8 @@ It is a form, not an instance: `y = AK^αL^β` with fitted coefficients is a `Co
 - Syverson, C. (2011). What determines productivity? *Journal of Economic Literature*, *49*(2), 326–365. https://doi.org/10.1257/jel.49.2.326
 - Uzawa, H. (1962). Production functions with constant elasticities of substitution. *The Review of Economic Studies*, *29*(4), 291–299. https://doi.org/10.2307/2296305
 - Young, A. (2013). Inequality, the urban–rural gap and migration. *The Quarterly Journal of Economics*, *128*(4), 1727–1785. https://doi.org/10.1093/qje/qjt025
-- [Agricultural Science](note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) (consumer: crop-yield mappings are production-function instances)
-- [SWE Productivity](note.html?p=notes/epistemica/singular/swe-productivity.md) (sectoral measurement sibling)
-- [Industry Analysis](note.html?p=notes/epistemica/singular/industry-analysis.md) (industry-level application)
-- [Firm Profiling](note.html?p=notes/epistemica/singular/firm-profiling.md) (microeconomic cut uses production mappings)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Agricultural Science](/note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) (consumer: crop-yield mappings are production-function instances)
+- [SWE Productivity](/note.html?p=notes/epistemica/singular/swe-productivity.md) (sectoral measurement sibling)
+- [Industry Analysis](/note.html?p=notes/epistemica/singular/industry-analysis.md) (industry-level application)
+- [Firm Profiling](/note.html?p=notes/epistemica/singular/firm-profiling.md) (microeconomic cut uses production mappings)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)

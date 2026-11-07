@@ -41,12 +41,13 @@ bin/notes_index.py | bin/course_index.py | bin/document_index.py   corpus indexe
 bin/course_import.py | bin/document_import.py   bulk Notion-export importers
 bin/rees_check.py | bin/atlas_check.py | bin/terminology_check.py | bin/symbols_check.py | bin/pvalue_check.py   atlas/store validators (make *-check)
 bin/conform.py          technica table-grammar conformance; bin/build_technica_atlas.py atlas builder
-src/app/                hub page (index.html, served at /) + docs.html + shared/ (nav search + content viewer + index chip)
-src/corpus/                 the single corpus tree: notes/ (sections + live notes),
-                            documents/ (papers, articles, books), courses/ (course dirs
-                            with readme.md + lectures), plus app/ (catalog, one global
-                            viewer, generated indexes, vendor); the three READMEs sit
-                            beside the tree
+src/app/                hub (index.html, /) + explorer.html (directory explorer) +
+                            note.html (global viewer) + docs.html + corpus.css +
+                            vendor/ + data/ (generated indexes, changelogs, links)
+                            + shared/ (nav search + viewer script + index chip)
+src/corpus/             content only: notes/ (sections + live notes), documents/
+                            (papers, articles, books), courses/ (course dirs with
+                            readme.md + lectures); the three READMEs sit here
 src/glossarium/…        lexical corpus + catalog/term view + lookup popup — see src/glossarium/README.md
 src/qa/…                Q/A log + catalog/entry viewer — see src/qa/README.md
 spec/                   general spec + shared design system + epistemic-content extraction method
@@ -64,11 +65,11 @@ frontend-facing surface in the deployment; there is no database behind it
 - Routes served by `bin/serve.py`:
   - `/` → hub `src/app/index.html`
   - `/docs` (also `/docs/`, `/docs.html`) → site documentation `src/app/docs.html` — the single user-facing docs surface (theory + guide, live stats from the APIs); the old per-subproject docs pages were deleted
-  - `/corpus` (also `/corpus/`) → the unified corpus catalog `src/corpus/app/index.html` — a directory browser plus a section tree over notes + documents + courses, built from `src/corpus/app/data/library-index.json`, with search and a random-document picker; `/library` 302s here
+  - `/explorer.html` (also `/notes`) → the directory explorer `src/app/explorer.html` — browse/folders over notes + documents + courses, built from `src/app/data/library-index.json`, with search, pins and filters; `/corpus` and `/library` 302 here
   - `/shared/<path>` → static from `src/app/shared/<path>` (the universal nav search — `usearch.css` + `usearch.js` — included by every surface; plus the shared content-viewer script `viewer.js` behind the single corpus viewer)
   - `/assets/<path>` → static from `src/app/assets/<path>` (the shared corpus-image store: every image referenced by corpus markdown lives here — `note/…`, `course/…`, `document/…` subtrees mirroring the corpus paths, plus a few generic diagrams at the root — never beside the notes)
-  - `/corpus/note.html` → the global markdown viewer `src/corpus/app/note.html` (`?p=notes|documents|courses/…`), replacing the old note/document/course/lecture shells
-  - `/corpus/notes/…`, `/corpus/documents/…`, `/corpus/courses/…` → the content trees under `src/corpus/<tree>/`, served as-is; the catalog app (`index.html`, `corpus.css`, `vendor/`, `data/`) lives at `/corpus/`
+  - `/note.html` → the global markdown viewer `src/app/note.html` (`?p=notes|documents|courses/…`), replacing the old note/document/course/lecture shells
+  - `/corpus/notes/…`, `/corpus/documents/…`, `/corpus/courses/…` → the content trees under `src/corpus/<tree>/`, served as-is; the catalog app (`explorer.html`, `note.html`, `corpus.css`, `vendor/`, `data/`) lives in `src/app/`
   - `/epistemica/<path>` and `/tecnica/<path>` → **302** to
     `/corpus/notes/epistemica/ees.html` (the graphs moved to the Autoregia PKS)
   - `/corpus/notes/epistemica/rees.{html,json,md}` → **302** to the `ees.*`
@@ -115,7 +116,7 @@ frontend-facing surface in the deployment; there is no database behind it
   are not corpus listings and stay allowed.
 - Corpus **images** live in `src/app/assets/` (served at `/assets/…`), never
   beside the notes. Reference them page-root-relative as
-  `../assets/<corpus>/<path>` — the global viewer sits at `/corpus/note.html`,
+  `../assets/<corpus>/<path>` — the global viewer sits at `/note.html`,
   so one `../assets/…` reaches the shared store from every corpus and still
   works under prefix mounting. The whole corpus was migrated there (notes
   `assets/…` dirs and the beside-the-note course/document images); do not add
@@ -178,12 +179,12 @@ frontend-facing surface in the deployment; there is no database behind it
   `make qa-index`
   (see verification list below).
 - Every change set touching `src/corpus/notes/**/*.md` appends one log per
-  file to `src/corpus/app/data/changelog.notes.json` (schema beside it) **in the same
+  file to `src/app/data/changelog.notes.json` (schema beside it) **in the same
   commit**; then stamp `commit`/`before` post-commit with
   `python3 bin/link_changelog_commits.py`, commit the json-only annotation.
   The documents and courses corpora keep the same shape
-  (`src/corpus/app/data/changelog.json`,
-  `src/corpus/app/data/changelog.json`, schema beside each); their history
+  (`src/app/data/changelog.json`,
+  `src/app/data/changelog.json`, schema beside each); their history
   was backfilled from git by `bin/backfill_changelog.py`, new change sets
   append logs there the same way, and
   `bin/link_changelog_commits.py --corpus document|course` stamps them.
@@ -214,8 +215,8 @@ frontend-facing surface in the deployment; there is no database behind it
 - Page shells follow the note viewer: `max-width: 1280px; margin: 0 auto;
   padding: 2.5rem 2rem 3.5rem` (`.layout`); the hub is the one wide-system
   exception at 1200px.
-- Math is typeset with the vendored MathJax 3 (`src/corpus/app/vendor/mathjax/`,
-  configured by `src/corpus/app/vendor/mathjax-setup.js`). Author page math as
+- Math is typeset with the vendored MathJax 3 (`src/app/vendor/mathjax/`,
+  configured by `src/app/vendor/mathjax-setup.js`). Author page math as
   `data-tex` / `data-tex-display` attributes (not raw `$…$`) so `bin/notes_index.py`
   never indexes LaTeX; corpus `.md` keeps literal `$…$`. Call `renderTeX()`
   after dynamic DOM updates. Recipe in `docs/live-note-chrome.md` §Vendored
@@ -502,17 +503,17 @@ Verification (no test suite exists; `make check` covers the first):
 - Goodness-of-Fit Atlas: `make gof-check` (validates `src/corpus/notes/epistemica/validation/atlas/gof.json` — unique law/measure ids, known engines, complete formulas, parameter specs in range, `m` consistent with the parameters, selftest cases referencing existing laws/measures) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/validation/atlas/gof.html` (playground-first: law + measure pickers, `n`/`δ` sliders, estimation toggle, empirical-vs-fitted, null cloud, power curve, p-value calibration; `?selftest` for the numeric cases, `?sweep` for every law × measure pair, `?law=…&measure=…&n=…&delta=…` deep links), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md` (no promoted card)
 - Universal search: `make search-index` (build-time snapshot → gitignored `src/app/data/search-index.json`, corpus-only; rebuilt locally or at image build) → every surface's header via the shared `src/app/shared/usearch.js` (hub, docs, catalogs, viewers). Query syntax is free text plus `@tag` filters (AND across multiple tags, e.g. `@person @mathematics`); a bare `@` suggests the tag vocabulary from the loaded index. The query (text and tags) persists per tab in `sessionStorage` so it survives navigation — not in the URL, which the catalogs own. The dice button and `r` shortcut sample from the active filter, so `@person` + dice opens a random persona.
 - `curl :8000/api/health` → `{"status":"ok","service":"epistecnica"}`
-- Unified library index: `make library-index` (merges the three corpus indexes into gitignored `src/corpus/app/data/library-index.json`; part of `make index`) → `curl -s :8000/corpus/`
+- Unified library index: `make library-index` (merges the three corpus indexes into gitignored `src/app/data/library-index.json`; part of `make index`) → `curl -s :8000/explorer.html`
 - Index jobs: `make index` (all, chunked, dependency order) · `make index-status`
   (last known `done/total/pct` per builder, no build) · `make index-list` ·
   `make index-background`; with `make run`, `curl -s :8010/api/index/status`
   and `curl -s -X POST -d '{"builders":["notes"]}' :8010/api/index/build`
   (`202` started, `409` busy, `400` unknown builder)
 - Legacy graphs: `curl -sI :8000/epistemica/` and `:8000/tecnica/` → `302` → `/corpus/notes/epistemica/ees.html`
-- Notes: `curl -s :8000/corpus/notes` (catalog), `/corpus/note.html?p=notes/technica/general/pto/zsh.md` (viewer), `/corpus/notes/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/corpus/data/notes-index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/corpus/README-notes.md`)
+- Notes: `curl -s :8000/corpus/notes` (catalog), `/note.html?p=notes/technica/general/pto/zsh.md` (viewer), `/corpus/notes/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/data/notes-index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/corpus/README-notes.md`)
 - EES atlas: `curl -s :8000/corpus/notes/epistemica/ees.html` (the multi-view atlas) and `/corpus/notes/epistemica/ees.json` (the canonical tree store it renders)
-- Courses: `curl -s :8000/corpus/courses` (catalog), `/corpus/note.html?p=courses/version-control-basics` (course view: entry + lectures), `/corpus/note.html?p=courses/version-control-basics/01-why-version-control.md` (lecture), `/corpus/data/courses-index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/corpus/README-courses.md`; bulk import via `bin/course_import.py <notion-export-dir>`), `/corpus/data/changelog.courses.json` (per-file history)
-- Documents: `curl -s :8000/corpus/documents` (catalog), `/corpus/note.html?p=documents/books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/corpus/data/documents-index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/corpus/README-documents.md`; bulk import via `bin/document_import.py <notion-export-dir>`), `/corpus/data/changelog.documents.json` (per-file history)
+- Courses: `curl -s :8000/corpus/courses` (catalog), `/note.html?p=courses/version-control-basics` (course view: entry + lectures), `/note.html?p=courses/version-control-basics/01-why-version-control.md` (lecture), `/data/courses-index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/corpus/README-courses.md`; bulk import via `bin/course_import.py <notion-export-dir>`), `/data/changelog.courses.json` (per-file history)
+- Documents: `curl -s :8000/corpus/documents` (catalog), `/note.html?p=documents/books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/data/documents-index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/corpus/README-documents.md`; bulk import via `bin/document_import.py <notion-export-dir>`), `/data/changelog.documents.json` (per-file history)
 - Glossarium: `make glossarium-index` (chunked; `src/glossarium/app/data/index.json`, gitignored) → `curl -s :8000/glossarium/` (catalog), `/glossarium/?t=<slug>` (term view), `/glossarium/data/index.json` (lookup index); every note page loads `glossarium/js/glossarium-lookup.js` relatively with `data-glossarium`
 - Q/A log: `make qa-index` (chunked; `src/qa/app/data/qa-index.json`, gitignored) → `curl -s :8000/qa/` (catalog) and `/qa/entry.html?id=qa-00001` (entry)
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the `/docs` + `notes/` + `documents/` + `courses/` pages (check stderr for Uncaught errors)
@@ -590,7 +591,7 @@ when switching over.
   `qa-index` targets still exist) after a fresh clone or any corpus edit; the
   Dockerfile rebuilds them
   at image build so the image is self-contained. The exception is
-  `src/corpus/app/data/links.json`: it is the hand-maintained support-link
+  `src/app/data/links.json`: it is the hand-maintained support-link
   registry (an input the indexer reads, not a generated index), so it is
   tracked and must be committed with its edits.
 - `rg` can fail with "JSON record exceeded 65536 bytes" on huge single-file
@@ -600,7 +601,7 @@ when switching over.
   renderers (deck.gl tecnica viewer, Canvas2D epistemica viewer) left with the
   subprojects, and the local universal view was retired in favour of the
   Autoregia index. Vendored runtime bundles: the notes MathJax under
-  `src/corpus/app/vendor/mathjax/`, d3 under `src/corpus/app/vendor/d3.min.js`
+  `src/app/vendor/mathjax/`, d3 under `src/app/vendor/d3.min.js`
   (the technica atlas dendrogram) — third-party copies, keep names as-is.
 - AI (DeepSeek) is called browser-direct in the editors; the token lives only
   in the browser. The backend has no AI endpoints and must never hold keys.

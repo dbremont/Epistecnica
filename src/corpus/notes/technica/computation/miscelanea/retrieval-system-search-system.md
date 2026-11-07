@@ -11,10 +11,10 @@ tags: [note, data-system, ml-system, search-system]
 > **Information retrieval is inherently about making sense of uncertain, ambiguous, and often underspecified user needs**, using large, messy datasets like text or multimedia.
 > 
 
-> In contrast, **traditional search operates in deterministic, clearly-defined problem spaces**, such as finding a value in a sorted array. See more in [Search](note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/search.md).
+> In contrast, **traditional search operates in deterministic, clearly-defined problem spaces**, such as finding a value in a sorted array. See more in [Search](/note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/search.md).
 > 
 
-![Untitled](../assets/note/technica/computation/miscelanea/retrieval-system-search-system/untitled.png)
+![Untitled](/assets/note/technica/computation/miscelanea/retrieval-system-search-system/untitled.png)
 
 ## Formulation
 
@@ -119,7 +119,7 @@ Retrieval System: Conceptual Model
 - Robertson, S. E., Jones, K. S. (1976). Relevance weighting of search terms. 27(3), 129–146.
 - Miller, D. R. H., Leek, T., Schwartz, R. M. (1999). A hidden Markov model information retrieval system. Proceedings of the 22nd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 1999, 214–221.
 - [Information retrieval](https://en.wikipedia.org/wiki/Information_retrieval)
-- [Search](note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/search.md)
-- [Data Maps (Index)](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-maps-index.md)
-    - [**Inverted Index**](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/inverted-index.md)
+- [Search](/note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/search.md)
+- [Data Maps (Index)](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-maps-index.md)
+    - [**Inverted Index**](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/inverted-index.md)
 - https://github.com/dbremont/documentorum/blob/main/lib/Lunr.js

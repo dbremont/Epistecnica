@@ -165,10 +165,10 @@ This definition is grounded in **quantum electrodynamics** and **nuclear physics
 
 ## Related
 
-- [Chemical Substance](note.html?p=notes/nature/chemical-substance.md)
-- [Chemical Bond](note.html?p=notes/nature/chemical-bond.md)
-- [Atom](note.html?p=notes/nature/atom.md)
-- [Electron](note.html?p=notes/nature/electron.md)
+- [Chemical Substance](/note.html?p=notes/nature/chemical-substance.md)
+- [Chemical Bond](/note.html?p=notes/nature/chemical-bond.md)
+- [Atom](/note.html?p=notes/nature/atom.md)
+- [Electron](/note.html?p=notes/nature/electron.md)
 
 ## Provenance
 

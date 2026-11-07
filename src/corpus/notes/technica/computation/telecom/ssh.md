@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # SSH
 
-- [Transport Layer Security (TLS)](note.html?p=notes/technica/computation/telecom/transport-layer-security-tls.md)
+- [Transport Layer Security (TLS)](/note.html?p=notes/technica/computation/telecom/transport-layer-security-tls.md)
 
 > See in https://github.com/dbremont/documentorum/blob/main/tool/ssh/SSH%20(Secure%20Shell).md
 > 

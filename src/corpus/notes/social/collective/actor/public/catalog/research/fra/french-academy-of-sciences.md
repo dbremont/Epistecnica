@@ -81,5 +81,5 @@ Two load-bearing caveats.
 - [Académie des sciences](https://www.academie-sciences.fr/en/)
 - [French Academy of Sciences](https://en.wikipedia.org/wiki/French_Academy_of_Sciences)
 - [Institut de France](https://www.institutdefrance.fr/en/)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)

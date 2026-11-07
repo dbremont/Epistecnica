@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, france, recommerce, refurbishment, marketpla
 ## References
 
 - Wikipedia — Back Market (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

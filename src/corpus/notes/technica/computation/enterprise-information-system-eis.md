@@ -41,8 +41,8 @@ Conceptual Model: Enterprise System
 ## References
 
 - [Accounting](https://app.notion.com/p/Accounting-179c0f5171ec8143b0d1eacbcd07683b?pvs=21)
-- [AB Testing](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ab-testing.md)
-- [Data Migration](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-migration.md)
+- [AB Testing](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ab-testing.md)
+- [Data Migration](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-migration.md)
 - [Communication](https://app.notion.com/p/Communication-17ac0f5171ec814c8e88c315604782b7?pvs=21)
 - [Knowledge System](https://app.notion.com/p/Knowledge-System-bf660899b313435381ffa699aac63e0c?pvs=21)
 - https://en.wikipedia.org/wiki/Business_activity_monitoring

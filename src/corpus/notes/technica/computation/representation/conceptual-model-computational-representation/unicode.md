@@ -4,7 +4,7 @@ tags: [note, text-format]
 
 # Unicode
 
-- [UTF-8](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/utf-8.md), [Font Format](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/font-format.md)
+- [UTF-8](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/utf-8.md), [Font Format](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/font-format.md)
 
 > Unicode is a **universal character encoding standard** that provides a unique numeric identifier (code point) for every character, symbol, and script used in written languages across the world. It is designed to encompass all modern and historical scripts, as well as technical symbols, punctuation, and other textual elements. Unicode supports a vast range of characters, currently defining over 1.1 million code points in its repertoire, organized into 17 planes, each comprising 65,536 code points.
 > 
@@ -73,7 +73,7 @@ The Unicode Standard specifies the following key components:
 - https://en.wikipedia.org/wiki/Unicode
 - https://www.unicode.org/main.html
 - - [Representation Problem: Text (String)]
-- [**Computational Typography**](note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
+- [**Computational Typography**](/note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
 - https://www.youtube.com/watch?v=MijmeoH9LT4
-- [Internationalization and Localization](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/internationalization-and-localization.md)
+- [Internationalization and Localization](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/internationalization-and-localization.md)
 - https://en.wikipedia.org/wiki/UTF-16

@@ -33,4 +33,4 @@ tags: [note, aromatization, domestic]
 ## References
 
 - Produceologia `docs/Production/Technique/Breviarium/Aromatization/`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

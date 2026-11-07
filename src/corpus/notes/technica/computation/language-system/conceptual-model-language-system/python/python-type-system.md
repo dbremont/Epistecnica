@@ -211,5 +211,5 @@ QA:
 - https://realpython.com/python-type-checking/
 - [ ]  Rak-Amnouykit, Ingkarat, et al. "Python 3 types in the wild: a tale of two type systems." Proceedings of the 16th ACM SIGPLAN International Symposium on Dynamic Languages. 2020.
 - [ ]  https://justapedia.org/wiki/Python_(programming_language)
-- [Type System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 - [X: **🏷️** Type System](https://app.notion.com/p/X-Type-System-fc2456113c894e699643d8ce60a4647f?pvs=21)

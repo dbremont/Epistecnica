@@ -4,7 +4,7 @@ tags: [note, user-modelling]
 
 # UI Analytics
 
-- [Clickstream Data (CSD)](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/clickstream-data-csd.md)
+- [Clickstream Data (CSD)](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/clickstream-data-csd.md)
 
 > **Human-Computer Interaction (HCI) Analytics** is the **systematic, quantitative and/or qualitative analysis of data generated through user interactions with computational systems**, aimed at modeling, interpreting, and optimizing the dynamics of human behavior in digital environments. It leverages instrumentation, data acquisition, and computational modeling to extract insight from interaction data across cognitive, perceptual, motor, and affective dimensions.
 > 
@@ -145,7 +145,7 @@ It captures granular behavioral telemetry, including:
 - [ ]  https://github.com/rrweb-io/rrweb
 - [ ]  https://github.com/PostHog/posthog
 - [ ]  https://github.com/openreplay/openreplay/
-- [ ]  [UI Analytics](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-analytics.md)
+- [ ]  [UI Analytics](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-analytics.md)
 - [ ]  https://github.com/adopted-ember-addons/ember-metrics
 - [ ]  https://uxdesign.cc/strategic-ux-research-doesnt-need-fancy-tools-04274eb54657
 - https://uxplaybook.org/articles/usability-testing-tools-every-ux-designer-should-know?srsltid=AfmBOoofIQg_nmoS6q8SJvPOdq8BnrbbAopen2zaFkRsFmUFXNHOziUa

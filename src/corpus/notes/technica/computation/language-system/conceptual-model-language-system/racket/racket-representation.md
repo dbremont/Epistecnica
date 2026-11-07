@@ -62,9 +62,9 @@ Guiding Questions:
 
 ## References
 
-- [Linker](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md).
-- [Representation](note.html?p=notes/technica/computation/representation.md)
+- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md).
+- [Representation](/note.html?p=notes/technica/computation/representation.md)
 - Racket: 📚 Standard Library
-- [Intermediate Representation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
+- [Intermediate Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
 - [‣](https://app.notion.com/p/289598edb79080359cb0e8e7f900da96?pvs=21)
 - [‣](https://app.notion.com/p/2b2598edb79080179c52c3dfbecbb5ce?pvs=21)

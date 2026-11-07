@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # Transport Layer Security (TLS)
 
-- [SSH](note.html?p=notes/technica/computation/telecom/ssh.md)
+- [SSH](/note.html?p=notes/technica/computation/telecom/ssh.md)
 
 > In this note, we will explore a key feature of internetworking: TLS, a cryptographic security protocol.
 > 

@@ -23,7 +23,7 @@ tags: [note, administration, government-wide, collective]
 
 ### What type of social element does this instance belong to?
 
-**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](note.html?p=notes/social/collective/actor/public/administration.md), the parent hub, and [Collective](note.html?p=notes/social/collective/collective.md). It is typed under [Actor](note.html?p=notes/social/collective/actor/actor.md), and its participating units are [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) instances directed by a [Government](note.html?p=notes/social/collective/actor/public/government.md).
+**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](/note.html?p=notes/social/collective/actor/public/administration.md), the parent hub, and [Collective](/note.html?p=notes/social/collective/collective.md). It is typed under [Actor](/note.html?p=notes/social/collective/actor/actor.md), and its participating units are [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) instances directed by a [Government](/note.html?p=notes/social/collective/actor/public/government.md).
 
 Its layer is **Ontic** where the system exists extra-mentally (centers, staff, shared platforms, budgets) with **Synontic** aspects (authority, standards, and compliance exist through legal warrant and shared recognition).
 
@@ -35,11 +35,11 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### Which facet does this element belong to, if applicable?
 
-> Administrative first (cross-agency coordination into coherent government operation is the dominant causal mechanism); political where it distributes authority between center and agencies; legal-constitutional where mandate and competencies are defined; economic where it governs budgets, procurement, and shared-service resourcing. See [Facet](note.html?p=notes/social/framework/facet.md).
+> Administrative first (cross-agency coordination into coherent government operation is the dominant causal mechanism); political where it distributes authority between center and agencies; legal-constitutional where mandate and competencies are defined; economic where it governs budgets, procurement, and shared-service resourcing. See [Facet](/note.html?p=notes/social/framework/facet.md).
 
 ### What is the recursive instance decomposition of this instance under collective?
 
-> Boundary: one generic Government-Wide Administrative System — its system anatomy at hub depth, one branch per characterization category. The full characterization table lives in [Government](note.html?p=notes/social/collective/actor/public/government.md) and is not duplicated here; rows below name the constituents the table characterizes.
+> Boundary: one generic Government-Wide Administrative System — its system anatomy at hub depth, one branch per characterization category. The full characterization table lives in [Government](/note.html?p=notes/social/collective/actor/public/government.md) and is not duplicated here; rows below name the constituents the table characterizes.
 >
 > Stopping rule: a row is terminal when it names a constituent, a center, a norm, a role, a standard, a process, a service, or a linked entry.
 >
@@ -136,7 +136,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, determinacy, and misuse resistance. The system/table conflation reads here as parsimony plus fidelity failures: the coordinating layer of centers, standards, and services is not the characterization table describing it — merging the two rows types the territory and the map as one.
 
@@ -338,7 +338,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ## Terminology
 
-> The working vocabulary of this note. Each term below is used with the stated sense; the characterization table in [Government](note.html?p=notes/social/collective/actor/public/government.md) carries the dimensional detail.
+> The working vocabulary of this note. Each term below is used with the stated sense; the characterization table in [Government](/note.html?p=notes/social/collective/actor/public/government.md) carries the dimensional detail.
 
 | Term | Definition |
 | --- | --- |
@@ -376,7 +376,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### How should the workforce in public administration be conceptualized?
 
-> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](note.html?p=notes/social/collective/actor/public/civil-service.md) arrangements, supplied through [Human Resource Unit](note.html?p=notes/social/collective/actor/public/catalog/hru.md) services, and occupied as [Public Employee](note.html?p=notes/social/collective/actor/public/catalog/employee.md) positions. Personnel detail lives in those entries, not here.
+> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](/note.html?p=notes/social/collective/actor/public/civil-service.md) arrangements, supplied through [Human Resource Unit](/note.html?p=notes/social/collective/actor/public/catalog/hru.md) services, and occupied as [Public Employee](/note.html?p=notes/social/collective/actor/public/catalog/employee.md) positions. Personnel detail lives in those entries, not here.
 
 ### Which Frameworks and Guides Can Be Used to Develop a Characterization System for Government-Wide Public Administration Systems?
 
@@ -479,18 +479,18 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
-- [Collective](note.html?p=notes/social/collective/collective.md)
-- [Actor](note.html?p=notes/social/collective/actor/actor.md)
-- [Government](note.html?p=notes/social/collective/actor/public/government.md)
-- [Public Administration](note.html?p=notes/social/collective/actor/public/administration.md)
-- [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md)
-- [Civil Service](note.html?p=notes/social/collective/actor/public/civil-service.md)
-- [Human Resource Unit](note.html?p=notes/social/collective/actor/public/catalog/hru.md)
-- [Public Employee](note.html?p=notes/social/collective/actor/public/catalog/employee.md)
-- [Public Policy](note.html?p=notes/social/action/public/guidance/policy.md)
-- [Facet](note.html?p=notes/social/framework/facet.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Collective](/note.html?p=notes/social/collective/collective.md)
+- [Actor](/note.html?p=notes/social/collective/actor/actor.md)
+- [Government](/note.html?p=notes/social/collective/actor/public/government.md)
+- [Public Administration](/note.html?p=notes/social/collective/actor/public/administration.md)
+- [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md)
+- [Civil Service](/note.html?p=notes/social/collective/actor/public/civil-service.md)
+- [Human Resource Unit](/note.html?p=notes/social/collective/actor/public/catalog/hru.md)
+- [Public Employee](/note.html?p=notes/social/collective/actor/public/catalog/employee.md)
+- [Public Policy](/note.html?p=notes/social/action/public/guidance/policy.md)
+- [Facet](/note.html?p=notes/social/framework/facet.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)
 - [Atlas of Government-Wide Administration Comparative Representation Systems](atlas/gov-wide-administration.html)

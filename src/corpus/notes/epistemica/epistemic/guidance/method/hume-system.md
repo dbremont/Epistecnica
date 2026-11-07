@@ -4,7 +4,7 @@ tags: [note, tooling]
 
 # Hume’s System
 
-Related: [Philosophical System](note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
+Related: [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
 
 > David Hume (1711–1776) developed a highly influential system of thought that touched epistemology, metaphysics, ethics, and philosophy of mind. Here’s a **technical** summary of his major ideas:
 > 

@@ -4,7 +4,7 @@ tags: [note, query-language]
 
 # OData (Open Data Protocol)
 
-- [Query Language](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md)
+- [Query Language](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md)
 
 > In this note, we will explore `OData (Open Data Protocol)`, a standardized data-access protocol and query language that enables clients to interact with sets of structured data resources through a uniform interface.
 > 

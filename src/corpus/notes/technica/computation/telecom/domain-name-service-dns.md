@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # Domain Name Service (DNS)
 
-- [CoreDNS](note.html?p=notes/technica/computation/telecom/coredns.md)
+- [CoreDNS](/note.html?p=notes/technica/computation/telecom/coredns.md)
 
 > System that translates human-readable domain names, such as www.example.com, into IP addresses, which are used by computers to identify each other on the internet.
 > 
@@ -281,7 +281,7 @@ www            3600 IN CNAME example.com.
 - Mockapetris, P. (1987). [RFC 882] Domain Names-Concepts and Facilities.
 - Mockapetris, P., & Dunlap, K. J. (1988). Development of the Domain Name System. 123–133.
 - [The 6 Best Free Dynamic DNS Providers](https://www.makeuseof.com/tag/5-best-dynamic-dns-providers-can-lookup-free-today/)
-- [Naming](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/naming.md)
+- [Naming](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/naming.md)
 - https://dnschecker.org/
 - https://www.dnsperf.com/
 - https://www.nic.do/

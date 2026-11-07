@@ -9,8 +9,8 @@ tags: [note, nature, epistemica, construction]
 > nodes and edges at a stated parcellation and resolution, the graph model read off them,
 > and the record of how they were reconstructed. The note is filed under `nature/` for
 > navigability; its typing follows the epistemic grammar, and its natural target is cited,
-> never decomposed here. Worked per [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md);
-> the wiring itself belongs to [Philosophia Naturalis et Operis](note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> never decomposed here. Worked per [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md);
+> the wiring itself belongs to [Philosophia Naturalis et Operis](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -124,9 +124,9 @@ Overall, connectome research holds great promise for advancing our understanding
 
 ## References
 
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Philosophia Naturalis et Operis](note.html?p=notes/meta/philosophia-naturalis-et-operis.md)
-- [Nervous system](note.html?p=notes/nature/nervous-system.md)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Naturalis et Operis](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md)
+- [Nervous system](/note.html?p=notes/nature/nervous-system.md)
 - [The human connectome: A complex network](/research/?node=sporns-2011-human-connectome-complex-network-annals)
 - Sporns, O. (2011). The human connectome: a complex network. 1224(1), 109–125.
 - The human connectome: a structural description of the human brain” by O. Sporns et al. (2013)

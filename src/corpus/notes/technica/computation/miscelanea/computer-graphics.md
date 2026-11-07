@@ -4,7 +4,7 @@ tags: [note]
 
 # Computer Graphics
 
-- [Computational Photography](note.html?p=notes/technica/computation/miscelanea/computational-photography.md), [Computational Typography](note.html?p=notes/technica/computation/miscelanea/computational-typography.md), [Computer Vision](note.html?p=notes/technica/computation/miscelanea/computer-vision.md)
+- [Computational Photography](/note.html?p=notes/technica/computation/miscelanea/computational-photography.md), [Computational Typography](/note.html?p=notes/technica/computation/miscelanea/computational-typography.md), [Computer Vision](/note.html?p=notes/technica/computation/miscelanea/computer-vision.md)
 
 > In this note we will explore the idea of ‘Computer Graphics’.
 > 
@@ -24,7 +24,7 @@ Guiding Questions:
 
 **TODO:**
 
-- Extract the computer graphics aspects of [UI](note.html?p=notes/technica/computation/system/interface/ui.md) to here - in the past i made the idiotic decision of creating one sub branch in UI for all graphical interaction - this level of aggregation does more harm than good.
+- Extract the computer graphics aspects of [UI](/note.html?p=notes/technica/computation/system/interface/ui.md) to here - in the past i made the idiotic decision of creating one sub branch in UI for all graphical interaction - this level of aggregation does more harm than good.
 - …
 
 ## Meta
@@ -179,5 +179,5 @@ Guiding Questions:
 - https://www.bremontix.xyz/lab/pro/Catalog/Technology/
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [Plato’s Dialectic Method](https://app.notion.com/p/Plato-s-Dialectic-Method-268c0f5171ec805cbb91d16158ae579e?pvs=21)
-- [UI](note.html?p=notes/technica/computation/system/interface/ui.md)
+- [UI](/note.html?p=notes/technica/computation/system/interface/ui.md)
 - https://growingswe.com/blog/quadtrees

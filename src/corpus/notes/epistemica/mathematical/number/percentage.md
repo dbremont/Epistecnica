@@ -30,5 +30,5 @@ tags: [note, mathematics, quantity]
 ## References
 
 - [Percentage](https://en.wikipedia.org/wiki/Percentage)
-- [Ratio](note.html?p=notes/epistemica/mathematical/number/ratio.md)
-- [Division](note.html?p=notes/epistemica/mathematical/number/division.md)
+- [Ratio](/note.html?p=notes/epistemica/mathematical/number/ratio.md)
+- [Division](/note.html?p=notes/epistemica/mathematical/number/division.md)

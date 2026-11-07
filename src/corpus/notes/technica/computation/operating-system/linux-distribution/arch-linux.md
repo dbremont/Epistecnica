@@ -53,7 +53,7 @@ Actual questions:
 
 ## Installation & Configuration
 
-> After doing [How to installed `Arch Linux` with `QEMU`?](note.html?p=notes/technica/computation/operating-system/linux-distribution/arch-linux.md).
+> After doing [How to installed `Arch Linux` with `QEMU`?](/note.html?p=notes/technica/computation/operating-system/linux-distribution/arch-linux.md).
 > 
 
 Two paths:
@@ -63,7 +63,7 @@ Two paths:
 
 System conditions:
 
-- **Boot Firmware:** **BIOS (SeaBIOS)** — QEMU's default firmware for this configuration. — [How to installed `Arch Linux` with `QEMU`?](note.html?p=notes/technica/computation/operating-system/linux-distribution/arch-linux.md).
+- **Boot Firmware:** **BIOS (SeaBIOS)** — QEMU's default firmware for this configuration. — [How to installed `Arch Linux` with `QEMU`?](/note.html?p=notes/technica/computation/operating-system/linux-distribution/arch-linux.md).
 - **Bootloader (Booting Software):** **GRUB** — a BIOS-compatible bootloader used to load the Arch Linux kernel.
 - **Partition Table:** **MBR (DOS)** — the partitioning scheme used for the BIOS-based installation.
 - **Root Filesystem:** **ext4** — mounted as `/`.
@@ -228,13 +228,13 @@ qemu-system-x86_64 \
 - https://wiki.archlinux.org/title/List_of_applications
 - https://wiki.archlinux.org/title/General_recommendations
 - https://gist.github.com/mjkstra/96ce7a5689d753e7a6bdd92cdc169bae
-- [QEMU (Quick Emulator)](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md)
-- [**Interconnect**](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/interconnect.md)
+- [QEMU (Quick Emulator)](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md)
+- [**Interconnect**](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/interconnect.md)
 - https://wiki.archlinux.org/title/Iwd
 - https://wiki.archlinux.org/title/Installation_guide
 - https://wiki.osdev.org/OVMF
-- [File System](note.html?p=notes/technica/computation/operating-system/linux/file-system.md)
-- [Booting (Initialization)](note.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
-- [**Boot Firmware Subsystem**](note.html?p=notes/technica/computation/operating-system/linux/boot-firmware-subsystem.md)
-- [Linux Graphics Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)
-- [**TTY Subsystem**](note.html?p=notes/technica/computation/operating-system/linux/tty-subsystem.md)
+- [File System](/note.html?p=notes/technica/computation/operating-system/linux/file-system.md)
+- [Booting (Initialization)](/note.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
+- [**Boot Firmware Subsystem**](/note.html?p=notes/technica/computation/operating-system/linux/boot-firmware-subsystem.md)
+- [Linux Graphics Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)
+- [**TTY Subsystem**](/note.html?p=notes/technica/computation/operating-system/linux/tty-subsystem.md)

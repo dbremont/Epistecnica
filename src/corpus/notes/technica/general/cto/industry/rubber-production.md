@@ -33,4 +33,4 @@ tags: [note, rubber]
 ## References
 
 - Produceologia `docs/Production/Industry/Rubber/README.md`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

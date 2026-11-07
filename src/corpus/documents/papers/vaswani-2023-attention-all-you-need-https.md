@@ -150,7 +150,7 @@ QA:
 > …
 > 
 
-![image.png](../assets/document/papers/vaswani-2023-attention-all-you-need-https/image.png)
+![image.png](/assets/document/papers/vaswani-2023-attention-all-you-need-https/image.png)
 
 ## Follow-Up Work
 

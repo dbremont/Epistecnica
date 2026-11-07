@@ -13,7 +13,7 @@ tags: [note, nature, substance-matter, materials-science, matter, unfinished]
 
 ## Related
 
-- [Chemical Solution](note.html?p=notes/nature/chemical-solution.md)
+- [Chemical Solution](/note.html?p=notes/nature/chemical-solution.md)
 
 ## Provenance
 

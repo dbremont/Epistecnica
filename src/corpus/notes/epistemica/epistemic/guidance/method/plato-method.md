@@ -4,7 +4,7 @@ tags: [note, tooling]
 
 # Plato’s Method
 
-Related: [Schopenhauer's Method](note.html?p=notes/epistemica/epistemic/guidance/method/schopenhauer-method.md), [Aristotle's Method](note.html?p=notes/epistemica/epistemic/guidance/method/aristotle-method.md)
+Related: [Schopenhauer's Method](/note.html?p=notes/epistemica/epistemic/guidance/method/schopenhauer-method.md), [Aristotle's Method](/note.html?p=notes/epistemica/epistemic/guidance/method/aristotle-method.md)
 
 > Emphasizes the existence of abstract, non-material ideas or forms that represent the most accurate reality.
 > 

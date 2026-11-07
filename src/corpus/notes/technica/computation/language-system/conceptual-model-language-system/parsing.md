@@ -4,7 +4,7 @@ tags: [note, language-system, parsing, problema]
 
 # Parsing
 
-- [Bytecode Virtual Machine](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md), [Declarative Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md), [Compiler System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md), [Grammar](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md), [Interpreter System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interpreter-system.md), [Binary Parsing](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/binary-parsing.md)
+- [Bytecode Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md), [Declarative Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md), [Compiler System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md), [Grammar](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md), [Interpreter System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interpreter-system.md), [Binary Parsing](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/binary-parsing.md)
 
 > In this note we will introduce the concept of parsing (from the French *parser*, meaning “to analyze grammatically” or “to break into parts”).
 > 
@@ -40,7 +40,7 @@ QA:
 > Parsing Method → Grammar
 > 
 
-> See [Grammar](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md).
+> See [Grammar](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md).
 > 
 
 ## Parsing Model Space

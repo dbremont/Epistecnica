@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, netherlands, e-commerce, marketplace]
 ## References
 
 - Wikipedia — Bol (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

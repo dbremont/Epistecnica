@@ -14,7 +14,7 @@ tags: [note, miscellanea, model, electromagnetism]
 > Electromagnetic phenomena are governed by **Maxwell's Equations**, which are the foundation of all electromagnetic modeling.
 >
 
-![image.png](../assets/note/essays/how-to-simulate-and-model-electromagnetic-phenomen/image.png)
+![image.png](/assets/note/essays/how-to-simulate-and-model-electromagnetic-phenomen/image.png)
 
 See  [Maxwell's Fundamental Electromagnetic Formulation](https://app.notion.com/p/Maxwell-s-Fundamental-Electromagnetic-Formulation-1bac0f5171ec8008aa65fcb024e9cfb1?pvs=21).
 
@@ -124,10 +124,10 @@ See  [Maxwell's Fundamental Electromagnetic Formulation](https://app.notion.com/
 ## References
 
 - https://www.openems.de/
-- [Fundamental Interaction](note.html?p=notes/nature/fundamental-interaction.md)
+- [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
 -
-- [Electromagnetic Field (EM)](note.html?p=notes/nature/electromagnetic-field-em.md)
-- [**Electromagnetic Radiation** (**EMR**)](note.html?p=notes/nature/electromagnetic-radiation-emr.md)
+- [Electromagnetic Field (EM)](/note.html?p=notes/nature/electromagnetic-field-em.md)
+- [**Electromagnetic Radiation** (**EMR**)](/note.html?p=notes/nature/electromagnetic-radiation-emr.md)
 
 ## Provenance
 

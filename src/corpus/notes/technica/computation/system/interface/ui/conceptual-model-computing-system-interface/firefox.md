@@ -15,9 +15,9 @@ Source Code:
 - **comment:** 6663746
 - **code:** 40720305
 
-![image.png](../assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image.png)
+![image.png](/assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image.png)
 
-![image.png](../assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image-1.png)
+![image.png](/assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox/image-1.png)
 
 ## Building
 
@@ -128,12 +128,12 @@ Conceptual Model: Firefox
 
 - https://searchfox.org/
 - https://firefox-source-docs.mozilla.org/overview/index.html
-- [WebDriver](note.html?p=notes/technica/computation/telecom/webdriver.md)
+- [WebDriver](/note.html?p=notes/technica/computation/telecom/webdriver.md)
 - https://firefox-source-docs.mozilla.org/overview/gecko.html
 - [How Back/forward Cache Helped Yahoo! JAPAN News Increase Revenue by 9% on Mobile](https://web.dev/yahoo-japan-news-bfcache/)
-- [Javascript](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/javascript.md)
-- [**WebAssembly**](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/webassembly.md)
+- [Javascript](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/javascript.md)
+- [**WebAssembly**](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/webassembly.md)
 - https://browser.engineering/
-- [X Window System (X11 Version)](note.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md)
-- [Rendering](note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/rendering.md)
+- [X Window System (X11 Version)](/note.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md)
+- [Rendering](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/rendering.md)
 - https://news.ycombinator.com/item?id=49522137

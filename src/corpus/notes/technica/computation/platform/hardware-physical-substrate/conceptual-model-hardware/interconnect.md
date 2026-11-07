@@ -4,7 +4,7 @@ tags: [note, interconnect]
 
 # Interconnect
 
-- [External Hardware Interconnect](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/external-hardware-interconnect.md)
+- [External Hardware Interconnect](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/external-hardware-interconnect.md)
 
 > In this note, we will begin **mapping the interconnection mechanisms** used in **computer hardware**.
 > 
@@ -625,7 +625,7 @@ CPU
 - https://en.wikipedia.org/wiki/Memory-mapped_I/O_and_port-mapped_I/O
 - https://en.wikipedia.org/wiki/I2C
 - https://en.wikipedia.org/wiki/Root_complex
-- [Linux Device Model](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/linux-device-model.md)
+- [Linux Device Model](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/linux-device-model.md)
 - https://en.wikipedia.org/wiki/Interrupt_request
 - https://en.wikipedia.org/wiki/Message_Signaled_Interrupts
 - https://en.wikipedia.org/wiki/Interrupt_handler

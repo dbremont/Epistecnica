@@ -4,7 +4,7 @@ tags: [note, storage-system]
 
 # SSTable
 
-- [Memtable](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/memtable.md)
+- [Memtable](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/memtable.md)
 
 > An **SSTable** (Sorted String Table) is a persistent, ordered, immutable data structure used in distributed storage systems to store large amounts of structured data in a sorted sequence, enabling efficient lookups and range scans.
 > 
@@ -18,4 +18,4 @@ keys and values are arbitrary byte strings.
 
 ## References
 
-[Key-Value Data Model](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/key-value-data-model.md)
+[Key-Value Data Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/key-value-data-model.md)

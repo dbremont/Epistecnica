@@ -33,4 +33,4 @@ tags: [note, machine-tools, shaping]
 ## References
 
 - Produceologia `docs/Production/Industry/MachineTool/README.md`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

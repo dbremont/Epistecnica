@@ -8,7 +8,7 @@ tags: [note]
 
 > It is a scope rather than a body. The Initiative owns no laboratories, employs no staff, and has no membership; it is the composite in which those units appear as a program portfolio, held together by an appropriated mandate, a coordinating apparatus, and an institutional data-governance regime.
 
-> This note decomposes the coordination, not the artifacts, per the guide at [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md). The engineering of the platforms and the materials themselves belong to [Physical Material Technology](note.html?p=notes/technica/general/cto/es/multinode/physical-material-technology.md); the descriptor vocabularies and reference databases belong to the epistemic decomposition.
+> This note decomposes the coordination, not the artifacts, per the guide at [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md). The engineering of the platforms and the materials themselves belong to [Physical Material Technology](/note.html?p=notes/technica/general/cto/es/multinode/physical-material-technology.md); the descriptor vocabularies and reference databases belong to the epistemic decomposition.
 
 ## Formulation
 
@@ -118,15 +118,15 @@ Lineage: the 2009–2011 computational-materials argument (density-functional th
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md) (layer test, facet assignment, agentic and normative spines, social-element note schema)
-- [Physical Material Technology](note.html?p=notes/technica/general/cto/es/multinode/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
-- [Laboratory](note.html?p=notes/social/collective/actor/laboratory.md) (the host unit the governance regime binds)
-- [Research Group](note.html?p=notes/social/collective/actor/research-group.md) (the depositing unit in the agentic spine)
-- [Public Research Institutes (PRI)](note.html?p=notes/social/collective/actor/public/catalog/pri.md) (the public-research role the laboratories occupy)
-- [Lawrence Berkeley National Laboratory](note.html?p=notes/social/collective/actor/public/catalog/research/usa/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
-- [National Renewable Energy Laboratory](note.html?p=notes/social/collective/actor/public/catalog/research/usa/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
-- [Argonne National Laboratory](note.html?p=notes/social/collective/actor/public/catalog/research/usa/argonne-national-laboratory.md) (participant in the hierarchical design center)
-- [SRI International](note.html?p=notes/social/collective/actor/private/research/usa/sri-international.md) (participant in the curated-data infrastructure)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md) (layer test, facet assignment, agentic and normative spines, social-element note schema)
+- [Physical Material Technology](/note.html?p=notes/technica/general/cto/es/multinode/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
+- [Laboratory](/note.html?p=notes/social/collective/actor/laboratory.md) (the host unit the governance regime binds)
+- [Research Group](/note.html?p=notes/social/collective/actor/research-group.md) (the depositing unit in the agentic spine)
+- [Public Research Institutes (PRI)](/note.html?p=notes/social/collective/actor/public/catalog/pri.md) (the public-research role the laboratories occupy)
+- [Lawrence Berkeley National Laboratory](/note.html?p=notes/social/collective/actor/public/catalog/research/usa/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
+- [National Renewable Energy Laboratory](/note.html?p=notes/social/collective/actor/public/catalog/research/usa/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
+- [Argonne National Laboratory](/note.html?p=notes/social/collective/actor/public/catalog/research/usa/argonne-national-laboratory.md) (participant in the hierarchical design center)
+- [SRI International](/note.html?p=notes/social/collective/actor/private/research/usa/sri-international.md) (participant in the curated-data infrastructure)
 - National Science and Technology Council (2011). *Materials Genome Initiative for Global Competitiveness*, June 2011
 - NSTC Subcommittee on the Materials Genome Initiative (2016). *The First Five Years of the Materials Genome Initiative: Accomplishments and Technical Highlights*, August 2016
 - Warren, J. A.; Boisvert, R. F. (2012). *Building the Materials Innovation Infrastructure: Data and Standards — A Materials Genome Initiative Workshop*, NIST.IR.7898

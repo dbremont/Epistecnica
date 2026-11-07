@@ -4,7 +4,7 @@ tags: [note]
 
 # Data Partition Model
 
-- [Replication Model](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/replication-model.md)
+- [Replication Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/replication-model.md)
 
 > **Data partitioning** is the process of dividing a large dataset into smaller, manageable **segments (partitions)** that can be stored, processed, and queried independently, either **within a single system or across multiple systems or nodes**.
 > 

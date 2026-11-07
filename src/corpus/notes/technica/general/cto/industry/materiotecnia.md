@@ -33,4 +33,4 @@ tags: [note, materiotecnia, materials-science]
 ## References
 
 - Produceologia `docs/Production/Technique/Materiotecnia/README.md`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

@@ -271,7 +271,7 @@ Type (Descriptive Construct)	Result	Description	Era
 
 ## Related
 
-- [Human](note.html?p=notes/nature/human.md)
+- [Human](/note.html?p=notes/nature/human.md)
 
 ## Provenance
 

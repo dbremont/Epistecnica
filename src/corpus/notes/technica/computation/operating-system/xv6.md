@@ -127,6 +127,6 @@ symbol-file kernel
 - https://github.com/dbremont/xv6
 - [xv6-public source](https://github.com/mit-pdos/xv6-public)
 - [Debugging user-code on xv6 with gdb](https://stackoverflow.com/questions/10534798/debugging-user-code-on-xv6-with-gdb)
-- [QEMU (Quick Emulator)](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md)
+- [QEMU (Quick Emulator)](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md)
 - https://www.reddit.com/r/osdev/comments/fgxe6x/tcpip_network_stack_on_xv6/
 - https://github.com/vibhorvatsa/xv6-networking-stack

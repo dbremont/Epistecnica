@@ -16,8 +16,8 @@ tags: [note, nature, building-block, genetics, materials-science, matter]
 
 ## Related
 
-- [DNA](note.html?p=notes/nature/dna.md)
-- [Cell](note.html?p=notes/nature/cell.md)
+- [DNA](/note.html?p=notes/nature/dna.md)
+- [Cell](/note.html?p=notes/nature/cell.md)
 
 ## Provenance
 

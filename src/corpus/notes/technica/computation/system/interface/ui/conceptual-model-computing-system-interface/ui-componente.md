@@ -4,7 +4,7 @@ tags: [note, ui-component]
 
 # UI Componente
 
-- [Design System](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/design-system.md)
+- [Design System](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/design-system.md)
 
 > aka: Building Block or Pattern.
 > 

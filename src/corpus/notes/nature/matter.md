@@ -129,11 +129,11 @@ QA:
 
 ## Related
 
-- [Interaction](note.html?p=notes/nature/theory/interaction.md)
-- [Fundamental Molecular Interaction](note.html?p=notes/nature/fundamental-molecular-interaction.md)
-- [Fundamental Interaction](note.html?p=notes/nature/fundamental-interaction.md)
-- [Electric Charge](note.html?p=notes/nature/electric-charge.md)
-- [Heisenberg Uncertainty Principle](note.html?p=notes/nature/heisenberg-uncertainty-principle.md)
+- [Interaction](/note.html?p=notes/nature/theory/interaction.md)
+- [Fundamental Molecular Interaction](/note.html?p=notes/nature/fundamental-molecular-interaction.md)
+- [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
+- [Electric Charge](/note.html?p=notes/nature/electric-charge.md)
+- [Heisenberg Uncertainty Principle](/note.html?p=notes/nature/heisenberg-uncertainty-principle.md)
 
 ## Provenance
 

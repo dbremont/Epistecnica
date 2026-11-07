@@ -93,7 +93,7 @@ tags: [note, language-system]
 - Partial Application:
     - [Partial Application](https://www.wikiwand.com/en/Partial_application)
     - [Incremental Computation](https://en.wikipedia.org/wiki/Incremental_computing)
-- [Abstraction](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
+- [Abstraction](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
 - https://en.wikipedia.org/wiki/Thunk
 - [Contingency](https://app.notion.com/p/Contingency-f873fbcc1be345f5829c98d79b5983b9?pvs=21)
 - https://en.wikipedia.org/wiki/Lazy_evaluation

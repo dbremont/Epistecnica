@@ -4,7 +4,7 @@ tags: [note, development]
 
 # Beauty
 
-- [Design System](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/design-system.md), [Design Token](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/design-token.md)
+- [Design System](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/design-system.md), [Design Token](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/design-token.md)
 
 > Basically attention to the last detail.
 > 

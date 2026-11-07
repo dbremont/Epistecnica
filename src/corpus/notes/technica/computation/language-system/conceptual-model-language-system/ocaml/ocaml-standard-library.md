@@ -38,7 +38,7 @@ Guiding Questions:
 
 ## References
 
-- [Representation](note.html?p=notes/technica/computation/representation.md)
+- [Representation](/note.html?p=notes/technica/computation/representation.md)
 - https://en.wikipedia.org/wiki/Standard_library
 - [X: **🏷️** Type System](https://app.notion.com/p/X-Type-System-fc2456113c894e699643d8ce60a4647f?pvs=21)
 - [**X:  🔀** Representation](https://app.notion.com/p/X-Representation-1c5c0f5171ec808bb72aedfec40f0241?pvs=21)

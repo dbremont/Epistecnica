@@ -61,7 +61,7 @@ A **name** is a cognitive token or symbol that:
 > Which are the  type of (names) (words) cognitive handles targets? Or What’s being handled?
 >
 
-> See more in [Type (Mental Representation Construct)](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md);  this is just a basic list.
+> See more in [Type (Mental Representation Construct)](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md);  this is just a basic list.
 >
 
 | **Type** | **Description** | **Tags** |
@@ -147,13 +147,13 @@ A **name** is a cognitive token or symbol that:
 
 ## Related
 
-- [Representation](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
-- [Language](note.html?p=notes/nature/language.md)
-- [Symbol](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
-- [Consciouses](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/consciouses.md)
-- [Concept](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
-- [Meaning](note.html?p=notes/nature/cognition/meaning.md)
-- [Reference](note.html?p=notes/nature/reference.md)
+- [Representation](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
+- [Language](/note.html?p=notes/nature/language.md)
+- [Symbol](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
+- [Consciouses](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/consciouses.md)
+- [Concept](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
+- [Meaning](/note.html?p=notes/nature/cognition/meaning.md)
+- [Reference](/note.html?p=notes/nature/reference.md)
 
 ## Provenance
 

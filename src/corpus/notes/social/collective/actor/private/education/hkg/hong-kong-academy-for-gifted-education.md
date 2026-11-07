@@ -82,5 +82,5 @@ Two load-bearing caveats.
 - [Hong Kong Academy for Gifted Education](https://en.wikipedia.org/wiki/Hong_Kong_Academy_for_Gifted_Education)
 - [HKAGE](https://www.hkage.org.hk/en/)
 - [Education Bureau of Hong Kong](https://www.edb.gov.hk/en/)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Education Actor](note.html?p=notes/social/collective/actor/education-actor.md) (the type this provider realizes)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Education Actor](/note.html?p=notes/social/collective/actor/education-actor.md) (the type this provider realizes)

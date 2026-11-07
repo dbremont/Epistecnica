@@ -381,7 +381,7 @@ Types:
 
 ### How a process represents a file?
 
-> See [Linux Process Management Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md).
+> See [Linux Process Management Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md).
 > 
 
 > A file is a **resource**; it is not directly represented in a process. Its representation exists at multiple levels: **File System → Kernel → Driver → Disk**. A process **refers to it** through a **file descriptor** or **handle**.

@@ -98,14 +98,14 @@ qa:
 
 > **Link to the p-value.** The test fixes the three inputs the p-value consumes: $T$, the null distribution of $T$, and the ordering that says which outcomes are "at least as extreme". A rank test changes the null distribution, a one-sided alternative changes the ordering, and a permutation test replaces the analytic null with the exchangeability null — same data, different p-value, by construction. Choosing the test is therefore part of stating the hypothesis, not a formatting decision made after it.
 
-> The condensed statistic → null distribution → p-value mapping is in [p-value](note.html?p=notes/epistemica/validation/p-value.md).
+> The condensed statistic → null distribution → p-value mapping is in [p-value](/note.html?p=notes/epistemica/validation/p-value.md).
 
 ## References
 
-- [E-values](note.html?p=notes/epistemica/validation/e-value.md)
-- [p-value](note.html?p=notes/epistemica/validation/p-value.md)
-- [Model Validation](note.html?p=notes/epistemica/validation/validation.md)
-- [Calibration](note.html?p=notes/epistemica/validation/calibration.md)
+- [E-values](/note.html?p=notes/epistemica/validation/e-value.md)
+- [p-value](/note.html?p=notes/epistemica/validation/p-value.md)
+- [Model Validation](/note.html?p=notes/epistemica/validation/validation.md)
+- [Calibration](/note.html?p=notes/epistemica/validation/calibration.md)
 
 - Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. *Journal of the Royal Statistical Society: Series B, 57*(1), 289–300.
 - Berger, J. O. (2003). Could Fisher, Jeffreys and Neyman have agreed on testing? *Statistical Science, 18*(1), 1–32. https://doi.org/10.1214/ss/1056397485

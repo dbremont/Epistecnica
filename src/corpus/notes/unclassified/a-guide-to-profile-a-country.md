@@ -88,4 +88,4 @@ tags: [note]
 
 ## References
 
-- [Technology](note.html?p=notes/social/structural/technical/technology.md)
+- [Technology](/note.html?p=notes/social/structural/technical/technology.md)

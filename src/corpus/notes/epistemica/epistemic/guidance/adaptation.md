@@ -43,7 +43,7 @@ tags: [note]
 
 ## References
 
-- [**Adaptation**](note.html?p=notes/epistemica/epistemic/guidance/adaptation.md)
+- [**Adaptation**](/note.html?p=notes/epistemica/epistemic/guidance/adaptation.md)
 - Adaptation
 - Evolution
 - Adaptation

@@ -4,7 +4,7 @@ tags: [note, hardware]
 
 # Networking Hardware
 
-- [Antenna](note.html?p=notes/technica/computation/telecom/antenna.md)
+- [Antenna](/note.html?p=notes/technica/computation/telecom/antenna.md)
 
 > 
 

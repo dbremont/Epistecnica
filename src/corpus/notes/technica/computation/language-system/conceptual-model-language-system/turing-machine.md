@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # Turing Machine
 
-- [Imperative Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/imperative-model-of-computation.md), [Lambda Calculus](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lambda-calculus.md)
+- [Imperative Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/imperative-model-of-computation.md), [Lambda Calculus](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lambda-calculus.md)
 
 > A **Turing machine** is a simple, abstract machine used to model computation. It has a tape divided into cells that can hold symbols, a head that reads and writes symbols on the tape, and a set of rules that tell it how to change states, write symbols, and move the head. It starts with some input on the tape and runs step-by-step until it reaches a special “halt” state, indicating whether the input is accepted or rejected. Despite its simplicity, it can simulate any algorithm.
 > 

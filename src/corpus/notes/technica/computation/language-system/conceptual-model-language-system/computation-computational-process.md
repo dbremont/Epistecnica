@@ -4,7 +4,7 @@ tags: [note, computation]
 
 # Computation  (Computational Process)
 
-- [Program Element](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md), [Notion of Change](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
+- [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md), [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
 
 > A note that dives deep into the very abstract notion of computation.
 > 
@@ -35,7 +35,7 @@ QA:
 > Note: The only conception of change that we are interested in Computer Science are the one that can be `capture - induced - represented`  via a `program`.
 > 
 
-> See more [Notion of Change](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
+> See more [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
 > 
 
 ### **What constitutes the *state* of a computation?**

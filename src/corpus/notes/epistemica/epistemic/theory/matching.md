@@ -12,4 +12,4 @@ tags: [note]
 
 - [Matching Theory](https://en.wikipedia.org/wiki/Matching_theory)
 - [Stable Matching Theory](https://en.wikipedia.org/wiki/Stable_matching_theory)
-- [Pairing](note.html?p=notes/social/relation/pair.md)
+- [Pairing](/note.html?p=notes/social/relation/pair.md)

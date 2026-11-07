@@ -7,9 +7,9 @@ tags: [note, materials]
 > **Technical Abiogenic Material** is worked matter from mineral feedstocks: steel, glass,
 > cement, concrete, silicon, and ceramics — substances whose origin is non-living and whose
 > transformation is furnace-, kiln-, and reactor-intensive. Child of
-> [Technical Material](note.html?p=notes/technica/general/cto/industry/technical-material.md); feedstock reading in
-> [Natural Abiogenic](note.html?p=notes/nature/earth-material.md). Worked per
-> [How to decompose any technical instance?](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> [Technical Material](/note.html?p=notes/technica/general/cto/industry/technical-material.md); feedstock reading in
+> [Natural Abiogenic](/note.html?p=notes/nature/earth-material.md). Worked per
+> [How to decompose any technical instance?](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -59,9 +59,9 @@ exception): inputs consumed by technical activity, individuated by mineral feeds
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
-- [Technical Material](note.html?p=notes/technica/general/cto/industry/technical-material.md) (parent: all intentionally transformed matter)
-- [Technical Biogenic Material](note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (sibling: living-feedstock family)
-- [Natural Abiogenic](note.html?p=notes/nature/earth-material.md) (feedstock reading: all physical matter not made by life)
-- [Material Technology](note.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)
-- [Materiotecnia](note.html?p=notes/technica/general/cto/industry/materiotecnia.md) (material investigation and design discipline)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
+- [Technical Material](/note.html?p=notes/technica/general/cto/industry/technical-material.md) (parent: all intentionally transformed matter)
+- [Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (sibling: living-feedstock family)
+- [Natural Abiogenic](/note.html?p=notes/nature/earth-material.md) (feedstock reading: all physical matter not made by life)
+- [Material Technology](/note.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)
+- [Materiotecnia](/note.html?p=notes/technica/general/cto/industry/materiotecnia.md) (material investigation and design discipline)

@@ -4,7 +4,7 @@ tags: [note]
 
 # Vector Data System
 
-- [Vector Data Model](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/vector-data-model.md)
+- [Vector Data Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/vector-data-model.md)
 
 > 
 

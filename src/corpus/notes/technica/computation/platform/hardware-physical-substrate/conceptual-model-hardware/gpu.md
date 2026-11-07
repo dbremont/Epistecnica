@@ -95,6 +95,6 @@ QA:
 [https://www.mankier.com/1/umr](https://www.mankier.com/1/umr)
 - [Khronos Group](https://en.wikipedia.org/wiki/Khronos_Group)
 - https://damek.github.io/random/basic-facts-about-gpus/
-- [**DRM (Direct Rendering Manager)**](note.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md)
-- [OpenCL](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)
+- [**DRM (Direct Rendering Manager)**](/note.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md)
+- [OpenCL](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)
 - https://github.com/jalexine/gpucodes

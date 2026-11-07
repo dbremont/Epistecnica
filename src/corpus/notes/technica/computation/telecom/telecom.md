@@ -32,7 +32,7 @@ QA:
 > A **telecom system** is a network of hardware, software, and protocols designed to transmit voice, data, and multimedia over distances using wired, wireless, or optical technologies.
 > 
 
-![image.png](../assets/note/technica/computation/telecom/image.png)
+![image.png](/assets/note/technica/computation/telecom/image.png)
 
 ### Characterize a Computer Network
 
@@ -210,7 +210,7 @@ QA:
 > Which are the implementation models? Relay, Virtual Circuit Model, Encapsulation (Tunneling Model),  Translation (Gateway Model),  Overlay Network Model, etc.
 > 
 
-> See [Network Connectivity](note.html?p=notes/technica/computation/telecom/network-connectivity.md).
+> See [Network Connectivity](/note.html?p=notes/technica/computation/telecom/network-connectivity.md).
 > 
 
 ## Communication (Interaction Through a Connectivity Mechanism)
@@ -224,7 +224,7 @@ QA:
 > A **Web API (Application Programming Interface)** is a set of rules and protocols for building and interacting with web-based applications, allowing different software systems to communicate over the internet using HTTP methods.
 > 
 
-> See more in [Interaction Protocol](note.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol.md)
+> See more in [Interaction Protocol](/note.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol.md)
 > 
 
 | **Communication Method** | **Description** | **Key Features** | **Use Cases** |
@@ -475,10 +475,10 @@ QA:
 
 Telecom: Conceptual Model
 
-- [Apache APISIX](note.html?p=notes/technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/apache-apisix.md)
-- [Berkeley Socket](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
-- [Linux Network Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
-- [Network Interface Card (NICs)](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/network-interface-card-nics.md)
+- [Apache APISIX](/note.html?p=notes/technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/apache-apisix.md)
+- [Berkeley Socket](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
+- [Network Interface Card (NICs)](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/network-interface-card-nics.md)
 - [Sending ethernet packet to a device with a specific mac address](https://serverfault.com/questions/988050/sending-ethernet-packet-to-a-device-with-a-specific-mac-address)
 - [Sending raw Ethernet frames from Python](https://csl.name/post/raw-ethernet-frames/)
 - [Computer network](https://en.wikipedia.org/wiki/Computer_network)
@@ -493,12 +493,12 @@ Telecom: Conceptual Model
 - [WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport](https://rxdb.info/articles/websockets-sse-polling-webrtc-webtransport.html)
 - [Web API](https://en.wikipedia.org/wiki/Web_API)
 - [Stable APIs are a Pipe Dream](https://note89.github.io/pipe-dream/)
-- [Concurrency](note.html?p=notes/technica/computation/concurrency.md)
-- [Network Virtualization](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/network-virtualization.md)
+- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Network Virtualization](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/network-virtualization.md)
 - https://github.com/alex/what-happens-when
 - https://en.wikipedia.org/wiki/Telecommunications
 - [Electromagnetism](https://app.notion.com/p/Electromagnetism-ecb3d9ce10f0425a85326aa81634a0d9?pvs=21)
-- [**Antenna**](note.html?p=notes/technica/computation/telecom/antenna.md)
+- [**Antenna**](/note.html?p=notes/technica/computation/telecom/antenna.md)
 - [Solid State Phenomena](https://app.notion.com/p/Solid-State-Phenomena-1aec0f5171ec808eb99af6ab105bb046?pvs=21)
 - [**Optical Phenomena**](https://app.notion.com/p/Optical-Phenomena-1aec0f5171ec802fb93dcbff1f95a8a1?pvs=21)
 - [**Acoustics P**henomena](https://app.notion.com/p/Acoustics-Phenomena-1aec0f5171ec806fb1f2e35f9adfd2fb?pvs=21)

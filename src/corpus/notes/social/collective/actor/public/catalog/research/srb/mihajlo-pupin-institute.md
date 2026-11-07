@@ -6,7 +6,7 @@ tags: [note, actor, institute, serbia, research, automation, ICT]
 
 > The **Mihajlo Pupin Institute** is Serbia's automation and computing house: founded in Belgrade in 1959 and named for the physicist and inventor Mihajlo Pupin, part of the University of Belgrade, it built the first Serbian digital computers (the CER family from 1960, then the TIM line), wired Yugoslav industry with process control and telecommunications, did early humanoid-robotics work, and reorganized into companies under an institute holding — robotics, AI, and smart grids today.
 
-> In the research system it is the sibling that builds rather than splits atoms: Pupin automates and computes while VINCA handles the nuclear and physical sciences, the University of Belgrade trains the engineers both employ, and the Science and Innovation Funds now finance the transfer of institute work into firms. Framed per [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> In the research system it is the sibling that builds rather than splits atoms: Pupin automates and computes while VINCA handles the nuclear and physical sciences, the University of Belgrade trains the engineers both employ, and the Science and Innovation Funds now finance the transfer of institute work into firms. Framed per [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -89,5 +89,5 @@ Lineage: a 1959 founding in Belgrade named for Mihajlo Pupin, as a member instit
 - [Institute Mihajlo Pupin — official site](https://www.pupin.rs/en/) (laboratories, companies, history)
 - [Mihajlo Pupin Institute — Wikipedia](https://en.wikipedia.org/wiki/Mihajlo_Pupin_Institute) (1959 founding, CER and TIM computers, subsidiaries)
 - [CER Computers — Wikipedia](https://en.wikipedia.org/wiki/CER_Computers) (CER-10 and the CER family)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
 - [Serbia — nation entry](/nation/web/entry.html?code=srb) (the republic whose engineering tradition this institute anchors)

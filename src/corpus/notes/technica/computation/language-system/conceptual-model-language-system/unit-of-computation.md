@@ -4,7 +4,7 @@ tags: [note, computational-entity, unit-of-computation]
 
 # Unit of Computation
 
-- [Effect System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Program Element](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Notion of Change](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
+- [Effect System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
 
 > Execution Units are the foundational elements upon which concurrency models are constructed, representing the tasks or processes that operate concurrently within the system.
 > 
@@ -15,10 +15,10 @@ tags: [note, computational-entity, unit-of-computation]
 > Note: We need to distinguish between entities that are execution contexts (entities that represent the flow of computation) (or process units) (carrier … ), such as threads, green threads, etc., and entities that describe computation (such as instructions, basic blocks, functions, etc.).
 > 
 
-> For a **more in-depth analysis** of the idea of computation flow, see. - [Notion of Change](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
+> For a **more in-depth analysis** of the idea of computation flow, see. - [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
 > 
 
-![Untitled](../assets/note/technica/computation/language-system/conceptual-model-language-system/unit-of-computation/untitled.png)
+![Untitled](/assets/note/technica/computation/language-system/conceptual-model-language-system/unit-of-computation/untitled.png)
 
 # Characterization
 
@@ -75,5 +75,5 @@ tags: [note, computational-entity, unit-of-computation]
 ## References
 
 - [Function](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Concurrency](note.html?p=notes/technica/computation/concurrency.md)
-- [Notion of Change](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
+- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)

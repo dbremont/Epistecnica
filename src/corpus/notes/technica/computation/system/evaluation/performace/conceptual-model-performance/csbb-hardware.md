@@ -4,7 +4,7 @@ tags: [note, system]
 
 # CSBB: Hardware
 
-- [How to Find Time Scale Resolution of Your Hardware in Linux?](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/how-to-find-time-scale-resolution-of-your-hardware-in-linux.md), [CSBB: Linux](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-linux.md)
+- [How to Find Time Scale Resolution of Your Hardware in Linux?](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/how-to-find-time-scale-resolution-of-your-hardware-in-linux.md), [CSBB: Linux](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-linux.md)
 
 QA:
 

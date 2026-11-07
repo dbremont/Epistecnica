@@ -6,7 +6,7 @@ tags: [note, actor, university, norway, education, research]
 
 > **NTNU** is Norway's largest university: forty-three thousand students, eight and a half thousand staff, an eleven-billion-kroner budget, and campuses in Trondheim, Gjøvik, and Ålesund. It took its present form in 1996, when the Norwegian Institute of Technology, the university colleges, the natural history museum, the medical faculty, the academy of fine art, and the conservatory were merged into one institution — a merger that makes it the successor of a technical school founded in 1910 and a learned society founded in 1760.
 
-> In the research system it is the sibling that is *not* an institute: NTNU teaches as well as researches, trains the people who staff the institutes, and hosts one of them on its own campus. Framed per [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> In the research system it is the sibling that is *not* an institute: NTNU teaches as well as researches, trains the people who staff the institutes, and hosts one of them on its own campus. Framed per [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -104,6 +104,6 @@ Lineage: a learned society founded in Trondheim in 1760 and a technical school r
 - [About the university — NTNU](https://www.ntnu.edu/about) (students, employees, programmes, budget, campuses, 2016 merger)
 - [NTNU History — NTNU](https://www.ntnu.edu/history) (the 1996 merger and its six constituents, the 1910 technical school, the Nobel connection)
 - [Norwegian University of Science and Technology — Wikipedia](https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology) (institutional history and the 1760 root)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [NINA (companion note)](note.html?p=notes/social/collective/actor/public/catalog/research/nor/nina.md) (the institute headquartered on this university's campus)
-- [NIBIO (companion note)](note.html?p=notes/social/collective/actor/public/catalog/research/nor/nibio.md) (the other state body in this family, at Ås)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [NINA (companion note)](/note.html?p=notes/social/collective/actor/public/catalog/research/nor/nina.md) (the institute headquartered on this university's campus)
+- [NIBIO (companion note)](/note.html?p=notes/social/collective/actor/public/catalog/research/nor/nibio.md) (the other state body in this family, at Ås)

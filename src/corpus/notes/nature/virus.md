@@ -22,7 +22,7 @@ tags: [note, nature, organism, biology, system]
 
 ## Related
 
-- [Microorganism](note.html?p=notes/nature/microorganism.md)
+- [Microorganism](/note.html?p=notes/nature/microorganism.md)
 
 ## Provenance
 

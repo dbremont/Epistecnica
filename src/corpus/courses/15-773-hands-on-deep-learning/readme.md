@@ -12,7 +12,7 @@ tags: [course, ml]
 
 - https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/
 - [6.7960 Deep Learning](https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/) — the more mathematical MIT deep learning course
-- [LeCun Deep Learning](https://atcold.github.io/NYU-DLSP21/) — NYU DS-GA 1008, the theory-side companion ([in the corpus](note.html?p=courses/ds-ga-1008-deep-learning/readme.md))
+- [LeCun Deep Learning](https://atcold.github.io/NYU-DLSP21/) — NYU DS-GA 1008, the theory-side companion ([in the corpus](/note.html?p=courses/ds-ga-1008-deep-learning/readme.md))
 - [10-414/714 Deep Learning Systems](https://dlsyscourse.org/lectures/) — building the systems deep learning runs on
-- [6.036 Introduction to Machine Learning](note.html?p=courses/6-036-introduction-to-machine-learning/readme.md) · [6.867 Machine Learning](note.html?p=courses/6-867-machine-learning/readme.md) — the ML courses this one builds on
-- [Atlas of courses](courses/atlas.html)
+- [6.036 Introduction to Machine Learning](/note.html?p=courses/6-036-introduction-to-machine-learning/readme.md) · [6.867 Machine Learning](/note.html?p=courses/6-867-machine-learning/readme.md) — the ML courses this one builds on
+- [Atlas of courses](/corpus/courses/atlas.html)

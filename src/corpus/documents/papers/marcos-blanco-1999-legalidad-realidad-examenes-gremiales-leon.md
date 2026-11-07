@@ -23,7 +23,7 @@ tags: [document, history, guilds, paper]
 
 > [**Relevance**] High. It shows the distance between the legal rules and the actual examination practices, and how examination served economic as well as professional ends.
 
-Read the corpus note: [Gremios](note.html?p=notes/social/history/castilla/gremios.md).
+Read the corpus note: [Gremios](/note.html?p=notes/social/history/castilla/gremios.md).
 
 ## References
 

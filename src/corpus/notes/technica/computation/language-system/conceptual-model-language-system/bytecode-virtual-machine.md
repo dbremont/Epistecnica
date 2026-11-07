@@ -4,7 +4,7 @@ tags: [note, language-system]
 
 # Bytecode Virtual Machine
 
-- [Interpreter System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interpreter-system.md), [Compiler System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md), [Parsing](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Just-in-time (JIT) Compilation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/just-in-time-jit-compilation.md), [Grammar](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
+- [Interpreter System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interpreter-system.md), [Compiler System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md), [Parsing](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Just-in-time (JIT) Compilation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/just-in-time-jit-compilation.md), [Grammar](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
 
 > A **Bytecode Virtual Machine (VM)** is a software-based computational abstraction that executes intermediate, platform-independent instructions—known as *bytecode*—through an emulated instruction set architecture (ISA).
 > 
@@ -24,8 +24,8 @@ tags: [note, language-system]
 
 ## References
 
-- [Emulator](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/emulator.md)
-- [Virtualization](note.html?p=notes/technica/computation/platform/virtualization.md)
+- [Emulator](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/emulator.md)
+- [Virtualization](/note.html?p=notes/technica/computation/platform/virtualization.md)
 - https://github.com/dbremont/isa-labs
 - https://github.com/dbremont/linux-api-labs
 - https://github.com/dbremont/virtualization-labs/tree/main/janusvm

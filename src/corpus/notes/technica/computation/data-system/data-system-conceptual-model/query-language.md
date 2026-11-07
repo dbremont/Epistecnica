@@ -4,7 +4,7 @@ tags: [note, query-language]
 
 # Query Language
 
-- [OData (Open Data Protocol)](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/odata-open-data-protocol.md), [SQL](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md), [GraphQL](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/graphql.md)
+- [OData (Open Data Protocol)](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/odata-open-data-protocol.md), [SQL](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md), [GraphQL](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/graphql.md)
 
 > A **query language** is a formal language used to request, filter, and manipulate data stored in a database or information system. Unlike general-purpose programming languages, query languages are typically **declarative**: they let users specify *what* data they want rather than *how* to retrieve it, leaving the execution strategy to the database engine.
 > 
@@ -53,6 +53,6 @@ tags: [note, query-language]
 
 ## References
 
-- [SQL](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md)
+- [SQL](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md)
 - https://en.wikipedia.org/wiki/Query_language
 - https://en.wikipedia.org/wiki/Facebook_Query_Language

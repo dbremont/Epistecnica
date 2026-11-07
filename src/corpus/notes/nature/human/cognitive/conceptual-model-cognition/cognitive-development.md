@@ -64,8 +64,8 @@ tags: [note, human, cognition, development]
 
 ## Related
 
-- [Numerical Cognition](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/numerical-cognition.md)
-- [Collective Cognition](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/collective-cognition.md)
+- [Numerical Cognition](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/numerical-cognition.md)
+- [Collective Cognition](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/collective-cognition.md)
 
 ## Provenance
 

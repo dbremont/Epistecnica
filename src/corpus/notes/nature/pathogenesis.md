@@ -14,8 +14,8 @@ tags: [note, nature, phenomenon, biology, phenomena, unfinished]
 
 ## Related
 
-- [Leptospira](note.html?p=notes/nature/leptospira.md)
-- [Virulence Factor](note.html?p=notes/nature/virulence-factor.md)
+- [Leptospira](/note.html?p=notes/nature/leptospira.md)
+- [Virulence Factor](/note.html?p=notes/nature/virulence-factor.md)
 
 ## Provenance
 

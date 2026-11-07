@@ -110,7 +110,7 @@ QA:
 
 ## Related
 
-- [Condensed Matter Phenomena](note.html?p=notes/nature/condensed-matter-phenomena.md)
+- [Condensed Matter Phenomena](/note.html?p=notes/nature/condensed-matter-phenomena.md)
 
 ## Provenance
 

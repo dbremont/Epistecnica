@@ -84,4 +84,4 @@ tags: [note]
 - Guia Mayor
 - A Guide to Study
 - A Guide to Language and Cognition
-- [Philosophical System](note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
+- [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)

@@ -4,7 +4,7 @@ tags: [note, type-system]
 
 # Subtyping
 
-- [Polymorphism](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/polymorphism.md), [Type Variance](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-variance.md)
+- [Polymorphism](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/polymorphism.md), [Type Variance](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-variance.md)
 
 > **Type Hierarchy**: How types are organized hierarchically, allowing for subtype relationships.
 > 

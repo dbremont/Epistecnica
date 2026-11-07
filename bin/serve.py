@@ -43,7 +43,7 @@ done/total/pct per builder so no page has to wait for a rebuild.
 Notes-catalog pins are browser-local (localStorage); there is no pins API.
 
 The pages fetch everything relative, so the catalog app at /corpus/
-fetches data/library-index.json from src/corpus/app/data/, and the global
+fetches data/library-index.json from src/app/data/, and the global
 viewer fetches notes/, documents/ and courses/ from src/corpus/.
 
 Usage:
@@ -71,7 +71,6 @@ INDEX_STATUS_ENDPOINT = "/api/index/status"
 INDEX_BUILD_ENDPOINT = "/api/index/build"
 
 CORPUS_PREFIX = "/corpus"
-CORPUS_APP = "src/corpus/app"
 CORPUS_DATA = "src/corpus"
 
 GLOSSARIUM_PREFIX = "/glossarium"
@@ -120,12 +119,14 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         /                -> <repo>/src/app/index.html (the hub)
         /docs[.html]     -> <repo>/src/app/docs.html
-        /corpus[/]       -> <repo>/src/corpus/app/index.html (the catalog)
-        /corpus/note.html-> <repo>/src/corpus/app/note.html (global viewer)
-        /corpus/data/...  -> <repo>/src/corpus/app/data/...
+        /explorer.html      -> <repo>/src/app/explorer.html (directory explorer)
+        /note.html       -> <repo>/src/app/note.html (global viewer)
+        /corpus.css      -> <repo>/src/app/corpus.css
+        /vendor/...      -> <repo>/src/app/vendor/...
         /corpus/notes/... -> <repo>/src/corpus/notes/...
         /corpus/documents/... -> <repo>/src/corpus/documents/...
         /corpus/courses/... -> <repo>/src/corpus/courses/...
+        /data/...        -> <repo>/src/app/data/...
         anything else    -> <repo>/x
         """
         clean = path.split("?", 1)[0].split("#", 1)[0]
@@ -134,18 +135,30 @@ class HubHandler(SimpleHTTPRequestHandler):
         if clean in ("/docs", "/docs/", "/docs.html"):
             return super().translate_path("src/app/docs.html")
 
-        # The unified corpus: one app plus the three content folders.
-        if clean in ("/corpus", "/corpus/"):
-            return super().translate_path(CORPUS_APP + "/index.html")
+        # The two content views live in src/app/.
+        if clean in ("/explorer.html", "/explorer", "/notes.html"):
+            return super().translate_path("src/app/explorer.html")
+        if clean == "/note.html":
+            return super().translate_path("src/app/note.html")
+        if clean in ("/tree.html", "/tree"):
+            return super().translate_path("src/app/tree.html")
+        if clean == "/corpus.css":
+            return super().translate_path("src/app/corpus.css")
+        if clean.startswith("/vendor/"):
+            return super().translate_path("src/app" + clean)
+
+        # The corpus tree is content only.
         if clean.startswith(CORPUS_PREFIX + "/"):
             rest = clean[len(CORPUS_PREFIX):]
             for folder in ("/notes", "/documents", "/courses"):
                 if rest == folder or rest.startswith(folder + "/"):
                     return super().translate_path(CORPUS_DATA + rest)
-            return super().translate_path(CORPUS_APP + rest)
+            # Everything else under /corpus/ is a legacy app path; the
+            # redirect handler in do_GET/_do_HEAD sends it to /explorer.html.
+            return super().translate_path("src/app/explorer.html")
 
-        # Hub-owned data (the universal search snapshot): /data/... ->
-        # <repo>/src/app/data/...
+        # Hub-owned data (the universal search snapshot + corpus indexes):
+        # /data/... -> <repo>/src/app/data/...
         if clean == "/data" or clean == "/data/":
             return super().translate_path("src/app/data/")
         if clean.startswith("/data/"):
@@ -262,10 +275,11 @@ class HubHandler(SimpleHTTPRequestHandler):
     def _redirect_legacy_note(self, path):
         query = self.path.split("?", 1)[1] if "?" in self.path else ""
         params = parse_qs(query)
+        suffix = ("?" + query) if query else ""
 
         target = LEGACY_NOTE_REDIRECTS.get(path)
         if target is not None:
-            self._redirect(target + ("?" + query if query else ""))
+            self._redirect(target + suffix)
             return True
 
         # Old per-corpus viewers -> the one global viewer.
@@ -274,56 +288,64 @@ class HubHandler(SimpleHTTPRequestHandler):
             if n:
                 if n == "epistemica/rees.md":
                     n = "epistemica/ees.md"
-                self._redirect("/corpus/note.html?" + urlencode({"p": "notes/" + n}))
+                self._redirect("/note.html?" + urlencode({"p": "notes/" + n}))
                 return True
 
         if path in ("/document/document.html", "/documents/document.html"):
             d = params.get("d", [""])[0]
             if d:
-                self._redirect("/corpus/note.html?" + urlencode({"p": "documents/" + d}))
+                self._redirect("/note.html?" + urlencode({"p": "documents/" + d}))
                 return True
 
         if path in ("/course/course.html", "/courses/course.html"):
             c = params.get("c", [""])[0]
             if c:
-                self._redirect("/corpus/note.html?" + urlencode({"p": "courses/" + c + "/readme.md"}))
+                self._redirect("/note.html?" + urlencode({"p": "courses/" + c + "/readme.md"}))
                 return True
 
         if path in ("/course/lecture.html", "/courses/lecture.html"):
             l = params.get("l", [""])[0]
             if l:
-                self._redirect("/corpus/note.html?" + urlencode({"p": "courses/" + l}))
+                self._redirect("/note.html?" + urlencode({"p": "courses/" + l}))
                 return True
 
-        # The old unified library page now lives at the corpus root.
-        if path in ("/library", "/library/", "/library.html"):
-            self._redirect("/corpus/")
+        # The old corpus app URLs all point at the directory explorer.
+        if path in ("/library", "/library/", "/library.html",
+                    "/corpus", "/corpus/", "/corpus/index.html",
+                    "/corpus/tree", "/corpus/tree/", "/corpus/tree.html"):
+            self._redirect("/explorer.html" + suffix)
+            return True
+        if path == "/corpus/note.html":
+            self._redirect("/note.html" + suffix)
+            return True
+        if path.startswith("/corpus/data/"):
+            self._redirect("/data/" + path[len("/corpus/data/"):] + suffix)
             return True
 
-        # Bare content-tree roots open the catalog at that subtree.
+        # Bare content-tree roots open the explorer at that subtree.
         for sub in ("notes", "documents", "courses"):
             if path == "/corpus/" + sub:
-                self._redirect("/corpus/?dir=" + sub)
+                self._redirect("/explorer.html?view=browse&dir=" + sub)
                 return True
 
-        # Old corpus roots -> the directory browser at that subtree.
+        # Old corpus roots -> the directory explorer at that subtree.
         for old, sub in (
             ("/note", "notes"), ("/notes", "notes"),
             ("/document", "documents"), ("/documents", "documents"),
             ("/course", "courses"), ("/courses", "courses"),
         ):
             if path == old or path == old + "/":
-                self._redirect("/corpus/?dir=" + sub)
+                self._redirect("/explorer.html?view=browse&dir=" + sub)
                 return True
 
-        # Old raw data paths -> the new corpus tree.
+        # Old raw data paths -> the new content tree.
         for old, new in (
             ("/notes/data/", "/corpus/notes/"),
             ("/documents/documents/", "/corpus/documents/"),
             ("/courses/courses/", "/corpus/courses/"),
         ):
             if path.startswith(old):
-                self._redirect(new + path[len(old):] + ("?" + query if query else ""))
+                self._redirect(new + path[len(old):] + suffix)
                 return True
 
         return False
@@ -446,9 +468,13 @@ def main():
 
     args = parser.parse_args()
 
-    corpus_app = REPO / CORPUS_APP
-    if not corpus_app.is_dir():
-        print("ERROR: corpus app dir not found: %s" % corpus_app, file=sys.stderr)
+    app_dir = REPO / "src" / "app"
+    if not app_dir.is_dir():
+        print("ERROR: app dir not found: %s" % app_dir, file=sys.stderr)
+        return 1
+    corpus_data = REPO / CORPUS_DATA
+    if not corpus_data.is_dir():
+        print("ERROR: corpus data dir not found: %s" % corpus_data, file=sys.stderr)
         return 1
     for prefix, mount in (
         ("shared", SHARED_MOUNT),
@@ -477,7 +503,7 @@ def main():
     print("  Glossary:http://%s:%d%s/" % (display_host, args.port, GLOSSARIUM_PREFIX))
     print("  Q/A:     http://%s:%d%s/" % (display_host, args.port, QA_PREFIX))
     print("  Health:  http://%s:%d%s" % (display_host, args.port, HUB_HEALTH_ENDPOINT))
-    print("  Corpus:  http://%s:%d%s/" % (display_host, args.port, CORPUS_PREFIX))
+    print("  Corpus:  http://%s:%d/explorer.html" % (display_host, args.port))
     print("  Docs:    http://%s:%d/docs" % (display_host, args.port))
     print("══════════════════════════════════════════════")
     print()

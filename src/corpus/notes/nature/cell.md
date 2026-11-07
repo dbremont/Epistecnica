@@ -39,7 +39,7 @@ tags: [note, nature, natural-system, biology, system]
 
 ## Cell Structure
 
-![Note. Incomplete Model of an Animal Cell.](../assets/note/nature/cell/image.png)
+![Note. Incomplete Model of an Animal Cell.](/assets/note/nature/cell/image.png)
 
 Note. Incomplete Model of an Animal Cell.
 
@@ -123,7 +123,7 @@ Note. Incomplete Model of an Animal Cell.
 > Plant Cell vs Animal Cell.
 >
 
-![image.png](../assets/note/nature/cell/image-1.png)
+![image.png](/assets/note/nature/cell/image-1.png)
 
 | **Feature** | **Plant Cell** | **Animal Cell** |
 | --- | --- | --- |
@@ -166,13 +166,13 @@ Note. Incomplete Model of an Animal Cell.
 
 ## Related
 
-- [Chromosome](note.html?p=notes/nature/chromosome.md)
-- [Human](note.html?p=notes/nature/human.md)
-- [Cardiovascular System](note.html?p=notes/nature/cardiovascular-system.md)
-- [Nutrition](note.html?p=notes/nature/nutrition.md)
-- [Hormone](note.html?p=notes/nature/hormone.md)
-- [Protein](note.html?p=notes/nature/protein.md)
-- [Living System](note.html?p=notes/nature/living-system.md)
+- [Chromosome](/note.html?p=notes/nature/chromosome.md)
+- [Human](/note.html?p=notes/nature/human.md)
+- [Cardiovascular System](/note.html?p=notes/nature/cardiovascular-system.md)
+- [Nutrition](/note.html?p=notes/nature/nutrition.md)
+- [Hormone](/note.html?p=notes/nature/hormone.md)
+- [Protein](/note.html?p=notes/nature/protein.md)
+- [Living System](/note.html?p=notes/nature/living-system.md)
 
 ## Provenance
 

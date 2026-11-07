@@ -33,4 +33,4 @@ tags: [note, transistor, semiconductor]
 ## References
 
 - Produceologia `docs/Production/Technique/Fisicatecnica/Electromagnetic/Transistor.md`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

@@ -9,12 +9,12 @@
 src/corpus/
 ├── README-courses.md    # this document
 ├── app/                 # shared catalog + global viewer + generated data
-│   ├── index.html
+│   ├── /explorer.html
 │   ├── note.html        # global markdown viewer (?p=courses/<dir>/readme.md)
 │   ├── corpus.css
 │   └── data/            # generated indexes, changelogs
 └── courses/             # the courses corpus (served at /corpus/courses)
-    ├── atlas.html       # the atlas of courses (a live page)
+    ├── /corpus/courses/atlas.html       # the atlas of courses (a live page)
     └── <course-dir>/
         ├── readme.md    # the entry (title, overview, lecture list)
         ├── 01-*.md      # lectures, sort order = read order
@@ -27,7 +27,7 @@ src/corpus/
   `<title>`, else the first `<h1>` — and the catalog renders it as a card
   with a `live` badge linking straight to the served page (the universal
   search and the universal view route it the same way).
-- **The atlas** (`courses/atlas.html`, served at
+- **The atlas** (`/corpus/courses/atlas.html`, served at
   `/corpus/coursesatlas.html`, a live page listed in the catalog and
   linked from the catalog footer and the hub footer) maps the two source
   course lists —
@@ -53,8 +53,8 @@ src/corpus/
   (path `<dir>/<file>`, with a `course` parent field). The catalog follows
   the Naturgnosis model (see `src/corpus/README-notes.md` §Catalog): `browse` lists
   one folder card per course, and entering a folder shows the course entry
-  (`note.html?p=courses/<dir>/readme.md`) plus its lecture cards
-  (`note.html?p=courses/<dir>/<file>`); `files` flattens the corpus. There are no
+  (`/note.html?p=courses/<dir>/readme.md`) plus its lecture cards
+  (`/note.html?p=courses/<dir>/<file>`); `files` flattens the corpus. There are no
   facet bars — kind is a badge on each card, tags are `@tag` search tokens.
 - Optional `tags: [...]` front matter (`---`-fenced, the same
   front-matter style used across the corpora) types entries and lectures

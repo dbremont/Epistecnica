@@ -13,7 +13,7 @@ tags: [note, nature, substance-matter, biology, materials-science, matter]
 
 ## Related
 
-- [Nutrition](note.html?p=notes/nature/nutrition.md)
+- [Nutrition](/note.html?p=notes/nature/nutrition.md)
 
 ## Provenance
 

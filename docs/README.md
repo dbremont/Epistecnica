@@ -122,7 +122,7 @@ make notes-index
 ```
 
 Browse at `/corpus/notes` (catalog: search + section facets) and
-`/corpus/note.html?p=notes/technica/pto/zsh.md` (viewer, rendered on the fly). Markdown
+`/note.html?p=notes/technica/pto/zsh.md` (viewer, rendered on the fly). Markdown
 files are **notes**; self-contained hand-authored HTML pages are **live notes**
 — indexed and searchable, linked directly and co-located with their companion
 note (e.g. `/corpus/notes/technica/cto/lib/concurrent-map.html`). Live notes use
@@ -132,7 +132,7 @@ the same viewer frame and philosophia shell as regular notes (recipe in
 Every viewer builds its sidebar table of contents from the `h2`/`h3` headings
 and gives each one a stable slug id (`#sec-<slug>`). Picking a section writes
 `toc-item=<slug>` into the URL, so a section can be linked or copied directly:
-`/corpus/note.html?p=notes/epistemica/ees.md&toc-item=formulation` (a plain
+`/note.html?p=notes/epistemica/ees.md&toc-item=formulation` (a plain
 `#sec-formulation` hash opens the same section). The parameter works the same
 way in the course, lecture, and document viewers.
 

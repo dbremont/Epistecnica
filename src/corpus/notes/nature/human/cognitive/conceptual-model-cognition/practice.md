@@ -61,9 +61,9 @@ This table demonstrates how the mental representation framework is empirically g
 
 ## Related
 
-- [Skill](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/skill.md)
-- [Learning](note.html?p=notes/nature/learning.md)
-- [Space Repetition](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/space-repetition.md)
+- [Skill](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/skill.md)
+- [Learning](/note.html?p=notes/nature/learning.md)
+- [Space Repetition](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/space-repetition.md)
 
 ## Provenance
 

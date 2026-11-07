@@ -178,7 +178,7 @@ QA:
 
 ## Related
 
-- [Earth Crust](note.html?p=notes/nature/earth-crust.md)
+- [Earth Crust](/note.html?p=notes/nature/earth-crust.md)
 
 ## Provenance
 

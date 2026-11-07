@@ -22,5 +22,5 @@ tags: [note]
 
 ## References
 
-- [Interoperability](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interoperability.md)
+- [Interoperability](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interoperability.md)
 - [X: **🔗Interoperability**](https://app.notion.com/p/X-Interoperability-192c0f5171ec80858e0dfdaf89fa7235?pvs=21)

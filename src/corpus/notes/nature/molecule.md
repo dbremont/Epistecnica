@@ -11,7 +11,7 @@ tags: [note, nature, natural-system, chemistry, matter, system]
 - Structure
 - Functions
 
-![image.png](../assets/note/nature/molecule/image.png)
+![image.png](/assets/note/nature/molecule/image.png)
 
 ## Molecular Orbital
 
@@ -24,8 +24,8 @@ https://en.wikipedia.org/wiki/Molecular_orbital
 
 ## Related
 
-- [Atom](note.html?p=notes/nature/atom.md)
-- [Chemical Bond](note.html?p=notes/nature/chemical-bond.md)
+- [Atom](/note.html?p=notes/nature/atom.md)
+- [Chemical Bond](/note.html?p=notes/nature/chemical-bond.md)
 
 ## Provenance
 

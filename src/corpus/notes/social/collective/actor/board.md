@@ -10,11 +10,11 @@ tags: [note, board, governance, organization, agency, social-element]
 
 ### What social element type does this social instance belong to?
 
-**Board belongs to the `Agency` social element type (Interaction Unit branch, `Organization (→ Part) Agency (→ Part) Governing Board`)** — a structured capacity for intention, selection, and control carried by a bounded collegial body. Its layer is **Synontic** where its authority depends on recognition of its charter or statute, and **Ontic** where its members, meetings, and records exist extra-mentally. Its facet is social-general: the dominant causal mechanism is coordinated collective decision and oversight, prior to any economic, political, or ideational scoping. It is carried by [Organization](note.html?p=notes/social/collective/actor/organization.md), the actor it governs.
+**Board belongs to the `Agency` social element type (Interaction Unit branch, `Organization (→ Part) Agency (→ Part) Governing Board`)** — a structured capacity for intention, selection, and control carried by a bounded collegial body. Its layer is **Synontic** where its authority depends on recognition of its charter or statute, and **Ontic** where its members, meetings, and records exist extra-mentally. Its facet is social-general: the dominant causal mechanism is coordinated collective decision and oversight, prior to any economic, political, or ideational scoping. It is carried by [Organization](/note.html?p=notes/social/collective/actor/organization.md), the actor it governs.
 
 It is not an `Organization` (the actor whose direction it decides — though a statutory board may itself be an organization), not a `Committee` (a delegated subset or a body constituted for a defined matter), not the `Executive / Management` (the capacity that carries decisions into execution), and not an `Advisory Board` (a body that advises without governing authority). It is distinct from `Charter` (the instrument that confers its mandate), from `Social Role` (the expectation-tags its members occupy), and from `Institution` (the stabilized governance arrangement it hosts and reproduces).
 
-Readable secondarily as a `Public Organization` kind when the board itself is a statutory body with legal personality — a statutory board, public board, or board of governors. That reading is carried at `Public Organization (→ Kind) Board` and cross-linked to [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md); it is not merged into this tree. The note's primary reading is the governing body as an agency of an organization.
+Readable secondarily as a `Public Organization` kind when the board itself is a statutory body with legal personality — a statutory board, public board, or board of governors. That reading is carried at `Public Organization (→ Kind) Board` and cross-linked to [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md); it is not merged into this tree. The note's primary reading is the governing body as an agency of an organization.
 
 ### What is this social instance?
 
@@ -70,9 +70,9 @@ Readable secondarily as a `Public Organization` kind when the board itself is a 
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Organization](note.html?p=notes/social/collective/actor/organization.md) (parent: the actor whose direction the board decides)
-- [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) (secondary reading: statutory boards and board-composition methods)
-- [Collective](note.html?p=notes/social/collective/collective.md) (the compound genus a board is constituted within)
-- [Charter](note.html?p=notes/social/action/organization/charter.md) (the instrument that confers a board's mandate)
-- [Social Role](note.html?p=notes/social/synontic/role.md) (the expectation-tags board members and chairs occupy)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Organization](/note.html?p=notes/social/collective/actor/organization.md) (parent: the actor whose direction the board decides)
+- [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) (secondary reading: statutory boards and board-composition methods)
+- [Collective](/note.html?p=notes/social/collective/collective.md) (the compound genus a board is constituted within)
+- [Charter](/note.html?p=notes/social/action/organization/charter.md) (the instrument that confers a board's mandate)
+- [Social Role](/note.html?p=notes/social/synontic/role.md) (the expectation-tags board members and chairs occupy)

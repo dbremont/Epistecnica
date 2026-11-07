@@ -4,7 +4,7 @@ tags: [note]
 
 # STUN (Session Traversal Utilities for NAT)
 
-- [TURN (Traversal Using Relays around NAT)](note.html?p=notes/technica/computation/telecom/turn-traversal-using-relays-around-nat.md), [Interactive Connectivity Establishment (ICE)](note.html?p=notes/technica/computation/telecom/interactive-connectivity-establishment-ice.md)
+- [TURN (Traversal Using Relays around NAT)](/note.html?p=notes/technica/computation/telecom/turn-traversal-using-relays-around-nat.md), [Interactive Connectivity Establishment (ICE)](/note.html?p=notes/technica/computation/telecom/interactive-connectivity-establishment-ice.md)
 
 > 
 

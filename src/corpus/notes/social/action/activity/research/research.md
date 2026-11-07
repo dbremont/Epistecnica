@@ -10,13 +10,13 @@ tags: [note, activity, research-activity, research, social-element]
 
 ### What social element type does this social instance belong to?
 
-**Research Activity belongs to the `Activity` social element type (Action category)** — a coarse bundle of granular research actions performed as one situated doing. It is the inquiry core of the [Science](note.html?p=notes/social/action/activity/research/science/science.md) activity family, which scopes the evaluation, communication, and advice surrounding primary inquiry. Its layer is **Ontic**: the doing exists extra-mentally. Its facet is research (scientific).
+**Research Activity belongs to the `Activity` social element type (Action category)** — a coarse bundle of granular research actions performed as one situated doing. It is the inquiry core of the [Science](/note.html?p=notes/social/action/activity/research/science/science.md) activity family, which scopes the evaluation, communication, and advice surrounding primary inquiry. Its layer is **Ontic**: the doing exists extra-mentally. Its facet is research (scientific).
 
 Readable secondarily as an epistemic pursuit (its product is warranted belief, judged by validation standards); that reading is prose here, not a second root — the epistemic decomposition lives in Epistemic Space and is cross-linked, per the derived-view rule. It is distinct from the actor (the research unit that performs it), the output (the artifact or finding), and its technical instruments (which belong to the technical decomposition).
 
 ### What is this social instance?
 
-> The research doing-family that moves inquiry from a question to a warranted result: intelligence and scanning, framing, inquiry proper (basic, applied, developmental), experimentation and observation, analysis and modeling, validation against evidence, dissemination, and transfer into use — the inquiry core beneath the broader [Science](note.html?p=notes/social/action/activity/research/science/science.md) family. Each is a bundle of granular research actions; recurrence (a program repeated over cycles) is typed as dynamics, not as the activity itself. Its technical instruments — apparatus, protocols, computation — are worked in [Technical Activity](note.html?p=notes/social/action/activity/research/technical/technical-activity.md), which sits inside this family as instrumentation, not as a separate root.
+> The research doing-family that moves inquiry from a question to a warranted result: intelligence and scanning, framing, inquiry proper (basic, applied, developmental), experimentation and observation, analysis and modeling, validation against evidence, dissemination, and transfer into use — the inquiry core beneath the broader [Science](/note.html?p=notes/social/action/activity/research/science/science.md) family. Each is a bundle of granular research actions; recurrence (a program repeated over cycles) is typed as dynamics, not as the activity itself. Its technical instruments — apparatus, protocols, computation — are worked in [Technical Activity](/note.html?p=notes/social/action/activity/research/technical/technical-activity.md), which sits inside this family as instrumentation, not as a separate root.
 
 ### What is the recursive instance decomposition of this social instance?
 
@@ -55,8 +55,8 @@ Readable secondarily as an epistemic pursuit (its product is warranted belief, j
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Science](note.html?p=notes/social/action/activity/research/science/science.md) (the parent activity family)
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the collective that performs this activity)
-- [Technical Activity](note.html?p=notes/social/action/activity/research/technical/technical-activity.md) (the instrumentation nested inside research activity)
-- [Economic Activity](note.html?p=notes/social/action/activity/economic/economic-activity.md) (sibling activity family)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Science](/note.html?p=notes/social/action/activity/research/science/science.md) (the parent activity family)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the collective that performs this activity)
+- [Technical Activity](/note.html?p=notes/social/action/activity/research/technical/technical-activity.md) (the instrumentation nested inside research activity)
+- [Economic Activity](/note.html?p=notes/social/action/activity/economic/economic-activity.md) (sibling activity family)

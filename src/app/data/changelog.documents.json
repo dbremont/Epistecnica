@@ -28205,5 +28205,45 @@
         "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
       }
     ]
+  },
+  {
+    "file_path": "books/efimov-1985-mathematical-analysis-advanced-topics-part-2-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Remove the Efimov, Zolotarev & Terpigoreva analysis entry, superseded by Ilyin & Poznyak."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ilyin-1982-fundamentals-mathematical-analysis-part-1-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add Ilyin & Poznyak, Fundamentals of Mathematical Analysis, part 1 (Mir, 1982), with the archive.org record."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ilyin-1982-fundamentals-mathematical-analysis-part-2-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add Ilyin & Poznyak, Fundamentals of Mathematical Analysis, part 2 (Mir, 1982), with the archive.org record."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ilyin-1986-linear-algebra-mir.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add Ilyin & Poznyak, Linear Algebra (Mir, 1986), with the archive.org record."
+      }
+    ]
   }
 ]

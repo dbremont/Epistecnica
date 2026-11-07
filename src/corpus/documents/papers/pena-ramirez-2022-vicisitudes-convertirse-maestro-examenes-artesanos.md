@@ -23,7 +23,7 @@ tags: [document, history, new-spain, guilds, paper]
 
 > [**Relevance**] Very high. It describes the everyday workings of apprenticeship, examination, and access to mastery in the capital of New Spain across the seventeenth and eighteenth centuries.
 
-Read the corpus note: [Gremios](note.html?p=notes/social/history/castilla/gremios.md).
+Read the corpus note: [Gremios](/note.html?p=notes/social/history/castilla/gremios.md).
 
 ## References
 

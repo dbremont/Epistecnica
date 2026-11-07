@@ -7,7 +7,7 @@ tags: [note, miscellanea, model]
 > aka: General Relativity).
 >
 
-![image.png](../assets/note/essays/einstein-field-equations/image.png)
+![image.png](/assets/note/essays/einstein-field-equations/image.png)
 
 ## Learning Project
 

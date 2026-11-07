@@ -83,7 +83,7 @@ QA:
 - https://en.wikipedia.org/wiki/Log_analysis
 - https://en.wikipedia.org/wiki/Log_management
 - https://en.wikipedia.org/wiki/Web_log_analysis_software
-- [**Grafana**](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/grafana.md)
+- [**Grafana**](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/grafana.md)
 - https://github.com/openobserve/openobserve
 - https://news.ycombinator.com/item?id=41927743
 - https://docs.dynatrace.com/docs/analyze-explore-automate/logs/lma-log-processing

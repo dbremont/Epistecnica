@@ -24,4 +24,4 @@ Guiding Questions:
 
 ## References
 
-- [Social Ontology](note.html?p=notes/social/framework/social-ontology.md)
+- [Social Ontology](/note.html?p=notes/social/framework/social-ontology.md)

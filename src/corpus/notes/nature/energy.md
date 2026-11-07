@@ -92,7 +92,7 @@ Questions:
 > A **type of energy** refers to a specific form in which  energy manifests or is stored, characterized by its properties and the  way it interacts with matter or systems.
 >
 
-> See [Potential Energy](note.html?p=notes/nature/potential-energy.md) - ..
+> See [Potential Energy](/note.html?p=notes/nature/potential-energy.md) - ..
 >
 
 | **Category** | **Type of Energy** | **Description** | **Physical Substrate** |
@@ -365,12 +365,12 @@ Questions:
 
 ## Related
 
-- [Force](note.html?p=notes/nature/force.md)
-- [Energy/Force](note.html?p=notes/nature/energy-force.md)
-- [Fundamental Interaction](note.html?p=notes/nature/fundamental-interaction.md)
-- [Electromagnetic System](note.html?p=notes/nature/electromagnetic-system.md)
-- [Mass](note.html?p=notes/nature/mass.md)
-- [Electric Current](note.html?p=notes/nature/electric-current.md)
+- [Force](/note.html?p=notes/nature/force.md)
+- [Energy/Force](/note.html?p=notes/nature/energy-force.md)
+- [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
+- [Electromagnetic System](/note.html?p=notes/nature/electromagnetic-system.md)
+- [Mass](/note.html?p=notes/nature/mass.md)
+- [Electric Current](/note.html?p=notes/nature/electric-current.md)
 
 ## Provenance
 

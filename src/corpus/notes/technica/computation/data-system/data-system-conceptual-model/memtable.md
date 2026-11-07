@@ -4,7 +4,7 @@ tags: [note, storage-system]
 
 # Memtable
 
-- [SSTable](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sstable.md)
+- [SSTable](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sstable.md)
 
 > A **Memtable** is an in-memory data structure used in distributed databases to store recent writes and updates before they are flushed to disk as immutable SSTables, facilitating fast write operations and efficient data retrieval.
 > 

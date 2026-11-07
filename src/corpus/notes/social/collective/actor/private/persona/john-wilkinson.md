@@ -15,7 +15,7 @@ tags: [note, actor, person, engineering, industrial-revolution, iron, machine-to
 
 ### What type of social element does this instance belong to?
 
-> A **Person**, typed through `Interaction Unit (→ Kind) Social Actor (→ Kind) Societal Actor`: an individual actor constituted outside public authority. It is an `Interaction Unit` — a unit that can act and participate in social interactions; a Social Actor — an acting unit recognized within social reality; and a Societal Actor — constituted outside public authority (persons, households, firms, associations), as against a `State Actor`. See [Actor](note.html?p=notes/social/collective/actor/actor.md) and [Human](note.html?p=notes/social/collective/actor/human.md).
+> A **Person**, typed through `Interaction Unit (→ Kind) Social Actor (→ Kind) Societal Actor`: an individual actor constituted outside public authority. It is an `Interaction Unit` — a unit that can act and participate in social interactions; a Social Actor — an acting unit recognized within social reality; and a Societal Actor — constituted outside public authority (persons, households, firms, associations), as against a `State Actor`. See [Actor](/note.html?p=notes/social/collective/actor/actor.md) and [Human](/note.html?p=notes/social/collective/actor/human.md).
 
 > Its dominant layer is **Agentic** where his agency, intention, and action are at issue, with **Ontic** aspects (his body, ironworks, furnaces, boring machinery, coin) and **Synontic/Noetic** aspects (his standing, and the classifications — ironmaster, patentee, "Iron Mad" — through which he is recognized). It is not a `State Actor` (he held no public office) and not an `Organization` or `Collective` (he is a single, non-compound unit).
 
@@ -25,7 +25,7 @@ tags: [note, actor, person, engineering, industrial-revolution, iron, machine-to
 
 ### Which facet does this element belong to, if applicable?
 
-> Economical first — his industrial capital, ironworks, patents, and markets are the dominant causal mechanism; technical where his boring and ironworking machinery intervenes in production; ideational where his standing and the industrial ethos he embodied are at issue. See [Facet](note.html?p=notes/social/framework/facet.md).
+> Economical first — his industrial capital, ironworks, patents, and markets are the dominant causal mechanism; technical where his boring and ironworking machinery intervenes in production; ideational where his standing and the industrial ethos he embodied are at issue. See [Facet](/note.html?p=notes/social/framework/facet.md).
 
 ### What is the recursive instance decomposition of John Wilkinson?
 
@@ -67,7 +67,7 @@ tags: [note, actor, person, engineering, industrial-revolution, iron, machine-to
 
 > Wilkinson's cannon-boring machine (patented 1774) is the technical element that made James Watt's separate-condenser engine deployable. Watt's engine was conceived by the 1760s, but its cylinder could not be bored accurately enough to hold steam: earlier boring left the bore irregular, so the piston leaked and the engine lost its power. Wilkinson's machine, designed to bore cannon from the solid, held the boring bar rigid at both ends and advanced the cutter, cutting true cylinders; from 1775–76 it bored the cylinders for Boulton and Watt, and by 1776 Boulton could advertise a fifty-inch cylinder accurate to a shilling's thickness.
 >
-> The point generalizes: the genesis of a technical element — the invention or first demonstration of its working principle — is necessary but not sufficient. The element becomes a *deployed* technical element only when its enabling conditions exist: the producing elements and tooling that make it manufacturable, the resources it consumes, and the constraints it must satisfy. In this case the invention was Watt's and the enabling condition was Wilkinson's; the steam engine is the standard case, worked out in [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> The point generalizes: the genesis of a technical element — the invention or first demonstration of its working principle — is necessary but not sufficient. The element becomes a *deployed* technical element only when its enabling conditions exist: the producing elements and tooling that make it manufacturable, the resources it consumes, and the constraints it must satisfy. In this case the invention was Watt's and the enabling condition was Wilkinson's; the steam engine is the standard case, worked out in [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
 >
 > The elements themselves — the machine tool and the engine — are documented in the Technique Space; `energy-technology.md` records the steam engine in the energy ensemble. This note records the person who supplied the enabling condition, and is cross-linked accordingly.
 
@@ -75,5 +75,5 @@ tags: [note, actor, person, engineering, industrial-revolution, iron, machine-to
 
 - [John Wilkinson](https://en.wikipedia.org/wiki/John_Wilkinson_(industrialist))
 - [Boulton and Watt](https://en.wikipedia.org/wiki/Boulton_and_Watt)
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
-- [Energy Technology](note.html?p=notes/technica/general/cto/es/multinode/energy-technology.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Energy Technology](/note.html?p=notes/technica/general/cto/es/multinode/energy-technology.md)

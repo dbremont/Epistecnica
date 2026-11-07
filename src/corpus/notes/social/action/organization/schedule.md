@@ -43,6 +43,6 @@ tags: [note, schedule, organization, action, social-element]
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Plan](note.html?p=notes/social/action/organization/plan.md) (the arrangement a schedule times)
-- [Project](note.html?p=notes/social/action/organization/project.md) (the effort a project schedule bounds)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Plan](/note.html?p=notes/social/action/organization/plan.md) (the arrangement a schedule times)
+- [Project](/note.html?p=notes/social/action/organization/project.md) (the effort a project schedule bounds)

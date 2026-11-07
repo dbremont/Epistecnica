@@ -27,11 +27,11 @@ tags: [note, foundation, logic]
 ## Key results
 
 - **Independence.** Cohen's forcing shows choice is consistent and independent: neither it nor its negation follows from ZF.
-- **Non-measurable sets.** With choice, $\mathbb{R}$ has non-measurable subsets — the [Vitali set](note.html?p=notes/epistemica/mathematical/vitali-set.md) is the standard witness. Without choice, all sets can be measurable.
+- **Non-measurable sets.** With choice, $\mathbb{R}$ has non-measurable subsets — the [Vitali set](/note.html?p=notes/epistemica/mathematical/vitali-set.md) is the standard witness. Without choice, all sets can be measurable.
 - **Banach–Tarski.** A ball splits into finitely many pieces reassembling into two balls — the most quoted pathology, and a proof that choice is doing real work.
 - **Constructive alternatives.** Dependent choice suffices for most analysis; countable choice for most measure theory; the full axiom is needed mostly for algebra and topology.
 
 ## References
 
 - https://en.wikipedia.org/wiki/Axiom_of_choice
-- [ZFC](zfc.md) · [Ordinal](ordinal.md) · [Vitali Set](note.html?p=notes/epistemica/mathematical/vitali-set.md) · [Basis](note.html?p=notes/epistemica/mathematical/structure/linear/basis.md)
+- [ZFC](zfc.md) · [Ordinal](ordinal.md) · [Vitali Set](/note.html?p=notes/epistemica/mathematical/vitali-set.md) · [Basis](/note.html?p=notes/epistemica/mathematical/structure/linear/basis.md)

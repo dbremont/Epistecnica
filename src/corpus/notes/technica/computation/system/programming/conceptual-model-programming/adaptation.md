@@ -4,7 +4,7 @@ tags: [note, technique]
 
 # Adaptation
 
-- [System Change](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/system-change.md)
+- [System Change](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/system-change.md)
 
 > aka Late Bound Structure
 > 

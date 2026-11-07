@@ -67,12 +67,12 @@ sind -> ...
 [https://www.youtube.com/playlist?list=PLDSaNmesMVOh5WdZ7Rx-nIei_MGhdBO-X](https://www.youtube.com/playlist?list=PLDSaNmesMVOh5WdZ7Rx-nIei_MGhdBO-X)
 - Etymology of Dutch word for bicycle cracked after 140 years
 [https://www.24oranges.nl/2012/02/23/etymology-of-dutch-word-for-bicycle-cracked-after-140-years/](https://www.24oranges.nl/2012/02/23/etymology-of-dutch-word-for-bicycle-cracked-after-140-years/)
-- [Grammar](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/grammar.md)
+- [Grammar](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/grammar.md)
 - …
 
 ## Related
 
-- [Language](note.html?p=notes/nature/language.md)
+- [Language](/note.html?p=notes/nature/language.md)
 
 ## Provenance
 

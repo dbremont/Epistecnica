@@ -158,7 +158,7 @@ Sure, here's a list of fundamental ingredients of quantum computations:
 - [Quantum algorithm](https://en.wikipedia.org/wiki/Quantum_algorithm)
 - [I'm Scott Aaronson, quantum computing/computational complexity researcher. AMA](https://news.ycombinator.com/item?id=17425377)
 - [Epistemic Tool Template](https://app.notion.com/p/Epistemic-Tool-Template-2e5c0f5171ec800fa9caf91bb16bcab9?pvs=21)
-- [Model of Computation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
+- [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
 - Quantum Computation and Quantum Information - Michael Nielsen, Isaac Chuang
 - **Shor’s Algorithm -**
 - Grover’s Algorithm

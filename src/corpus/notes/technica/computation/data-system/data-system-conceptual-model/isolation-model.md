@@ -4,7 +4,7 @@ tags: [note, specification]
 
 # Isolation Model
 
-- [Concurrency Control](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/concurrency-control.md)
+- [Concurrency Control](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/concurrency-control.md)
 
 > In this note we will explore  a central idea in data system - Isolation Model - and Isolation Level.
 > 

@@ -34,4 +34,4 @@ tags: [note, eda, toolchain]
 ## References
 
 - Produceologia `docs/Production/Technique/Fisicatecnica/Electromagnetic/Design/`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

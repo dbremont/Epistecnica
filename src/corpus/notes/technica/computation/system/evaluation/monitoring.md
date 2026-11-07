@@ -13,10 +13,10 @@ tags: [note]
 > Which signals to capture? How to capture them? How to analyze them? What decision to take?
 > 
 
-> Note: Take add look at the related areas ([Program Analysis](note.html?p=notes/technica/computation/miscelanea/program-analysis.md)), ([Performace](note.html?p=notes/technica/computation/system/evaluation/performace.md)) and ([**Benchmarking**](note.html?p=notes/technica/computation/system/evaluation/benchmarking.md) ).
+> Note: Take add look at the related areas ([Program Analysis](/note.html?p=notes/technica/computation/miscelanea/program-analysis.md)), ([Performace](/note.html?p=notes/technica/computation/system/evaluation/performace.md)) and ([**Benchmarking**](/note.html?p=notes/technica/computation/system/evaluation/benchmarking.md) ).
 > 
 
-> Note: **Monitoring** is not a set of techniques per se, but rather a set of objectives. Mechanisms or classes of techniques e.g., ([Instrumentation](note.html?p=notes/technica/computation/miscelanea/instrumentation.md)) will be categorized under Miscellanea , since they are shared across multiple analysis objectives such as Performance, Benchmarking, Debugging, and others.
+> Note: **Monitoring** is not a set of techniques per se, but rather a set of objectives. Mechanisms or classes of techniques e.g., ([Instrumentation](/note.html?p=notes/technica/computation/miscelanea/instrumentation.md)) will be categorized under Miscellanea , since they are shared across multiple analysis objectives such as Performance, Benchmarking, Debugging, and others.
 > 
 
 ## Formulation

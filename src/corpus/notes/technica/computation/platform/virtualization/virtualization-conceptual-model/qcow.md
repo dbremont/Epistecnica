@@ -14,4 +14,4 @@ tags: [note, representation]
 ## References
 
 - https://en.wikipedia.org/wiki/Qcow
-- [Copy-on-Write (CoW)](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/copy-on-write-cow.md)
+- [Copy-on-Write (CoW)](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/copy-on-write-cow.md)

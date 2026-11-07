@@ -8,7 +8,7 @@ tags: [note, integration]
 > **Enterprise Systems Integration Models** encompass the methodologies and frameworks used to connect disparate systems, applications, and data sources within an organization to facilitate seamless communication and data exchange.
 > 
 
-![image.png](../assets/note/technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/information-systems-integration/image.png)
+![image.png](/assets/note/technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/information-systems-integration/image.png)
 
 ## Integration Patterns
 
@@ -52,5 +52,5 @@ tags: [note, integration]
 - [Apache NiFi](https://nifi.apache.org/documentation/v2/)
 - [System Integration](https://en.wikipedia.org/wiki/System_integration)
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/)
-- [Distributed Computing](note.html?p=notes/technica/computation/distributed-computing.md)
+- [Distributed Computing](/note.html?p=notes/technica/computation/distributed-computing.md)
 - [Integration platform as a service (iPaaS)](https://en.wikipedia.org/wiki/Cloud-based_integration)

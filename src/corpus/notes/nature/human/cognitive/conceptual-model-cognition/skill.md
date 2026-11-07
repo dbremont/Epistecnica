@@ -106,7 +106,7 @@ A well-known example is the "Dreyfus Model of Skill Acquisition," which identifi
 
 ## Related
 
-- [Practice](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/practice.md)
+- [Practice](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/practice.md)
 
 ## Provenance
 

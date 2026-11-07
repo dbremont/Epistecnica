@@ -4,7 +4,7 @@ tags: [note, reality]
 
 # Property
 
-Related: [Ontology](note.html?p=notes/epistemica/epistemic/theory/ontology.md), [Principle](note.html?p=notes/nature/theory/principle.md)
+Related: [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md), [Principle](/note.html?p=notes/nature/theory/principle.md)
 
 > In this note we will explore the abstract concept - of a property - that describes a characteristic, attribute, or quality that an object, entity, or system can have. It is a **meta-level descriptor** rather than a concrete object itself.
 > 
@@ -234,4 +234,4 @@ Related: [Ontology](note.html?p=notes/epistemica/epistemic/theory/ontology.md), 
 - https://plato.stanford.edu/entries/property/
 - Description
 - Equivalence Relation
-- [Affirmation Space](note.html?p=notes/epistemica/epistemic/theory/affirmation-space.md)
+- [Affirmation Space](/note.html?p=notes/epistemica/epistemic/theory/affirmation-space.md)

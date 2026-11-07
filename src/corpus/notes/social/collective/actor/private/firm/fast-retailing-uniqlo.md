@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, japan, brand-owned, omnichannel]
 ## References
 
 - Wikipedia — Fast Retailing (Uniqlo) (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

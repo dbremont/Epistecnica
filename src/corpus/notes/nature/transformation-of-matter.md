@@ -25,7 +25,7 @@ tags: [note, nature, phenomenon, phenomena]
 
 ## Related
 
-- [Reaction](note.html?p=notes/nature/reaction.md)
+- [Reaction](/note.html?p=notes/nature/reaction.md)
 
 ## Provenance
 

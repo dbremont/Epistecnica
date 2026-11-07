@@ -64,7 +64,7 @@ QA:
 
 ## Related
 
-- [Concept](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
+- [Concept](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
 
 ## Provenance
 

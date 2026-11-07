@@ -33,4 +33,4 @@ tags: [note, automation, regime]
 ## References
 
 - Produceologia `docs/Breviarium/Technique/Regime/Automation.md`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

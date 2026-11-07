@@ -27,7 +27,7 @@ tags: [note, nature, substance-matter, biology, biomaterial, matter]
 
 ## Related
 
-- [Protein](note.html?p=notes/nature/protein.md)
+- [Protein](/note.html?p=notes/nature/protein.md)
 
 ## Provenance
 

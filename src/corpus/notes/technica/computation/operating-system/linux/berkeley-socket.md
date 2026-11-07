@@ -4,7 +4,7 @@ tags: [note, network]
 
 # Berkeley Socket
 
-- [Linux Network Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
+- [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
 
 > **Berkeley Sockets** is an **API Standard** for network communication in Unix-like operating systems that provides a standardized interface for creating and managing sockets to facilitate data exchange between devices over a network.
 > 
@@ -19,10 +19,10 @@ tags: [note, network]
 
 - What makes a socket a **`server socket`**?
 - What makes a socket a **`client socket`**?
-- After a server calls accept() on a listening socket and obtains a **connected socket** (client_fd), what are the local and remote socket address and port bindings of **client_fd**, and how do they relate to the original listening socket and the client's connect() call? [After a server calls accept() on a listening socket and obtains a connected socket (client_fd), what are the local and remote socket address and port bindings of client_fd, and how do they relate to the original listening socket and the client's connect() call?](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
-- What are the implications for a server when a single client opens a large number of TCP connections to the server’s listening port and never closes them? [What are the implications for a server when a single client opens a large number of TCP connections to the server’s listening port and never closes them?](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
-- What Happens When Server Closes a Connected Socket? [What Happens When Server Closes a Connected Socket?](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
-- What is the TCP connection state progression and resource impact on the server when it closes a connected socket but the client does not close its corresponding socket? [What is the TCP connection state progression and resource impact on the server when it closes a connected socket but the client does not close its corresponding socket?](note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- After a server calls accept() on a listening socket and obtains a **connected socket** (client_fd), what are the local and remote socket address and port bindings of **client_fd**, and how do they relate to the original listening socket and the client's connect() call? [After a server calls accept() on a listening socket and obtains a connected socket (client_fd), what are the local and remote socket address and port bindings of client_fd, and how do they relate to the original listening socket and the client's connect() call?](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- What are the implications for a server when a single client opens a large number of TCP connections to the server’s listening port and never closes them? [What are the implications for a server when a single client opens a large number of TCP connections to the server’s listening port and never closes them?](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- What Happens When Server Closes a Connected Socket? [What Happens When Server Closes a Connected Socket?](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- What is the TCP connection state progression and resource impact on the server when it closes a connected socket but the client does not close its corresponding socket? [What is the TCP connection state progression and resource impact on the server when it closes a connected socket but the client does not close its corresponding socket?](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
 
 ## 🔧 Core Abstraction
 

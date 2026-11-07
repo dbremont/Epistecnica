@@ -50,14 +50,14 @@ QA:
 
 > 
 
-![image.png](../assets/note/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol/image.png)
+![image.png](/assets/note/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol/image.png)
 
 ## References
 
-- [Telecom](note.html?p=notes/technica/computation/telecom/telecom.md)
+- [Telecom](/note.html?p=notes/technica/computation/telecom/telecom.md)
 - [ ]  https://blog.bytebytego.com/p/api-protocols-101-a-guide-to-choose?utm_source=substack&utm_medium=email
 - [ ]  https://github.com/dbremont/system-design-labs
 - [ ]  https://github.com/csiglab/networking-labs
 - [ ]  [Representation](https://app.notion.com/p/Representation-4afbffa763ec46eeb10d8c87c248edf1?pvs=21)
 - https://github.com/csiglab/performance-labs
-- [MessagePack](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/messagepack.md)
+- [MessagePack](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/messagepack.md)

@@ -79,5 +79,5 @@ Two load-bearing caveats.
 - [Leopoldina](https://www.leopoldina.org/en/)
 - [German National Academy of Sciences Leopoldina](https://en.wikipedia.org/wiki/Leopoldina_(academy))
 - [Union of German Academies](https://www.akademienunion.de/en/)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)

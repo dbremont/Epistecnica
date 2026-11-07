@@ -17,7 +17,7 @@ tags: [note, nature, phenomenon, phenomena]
 
 ## Related
 
-- [Universe](note.html?p=notes/nature/universe.md)
+- [Universe](/note.html?p=notes/nature/universe.md)
 
 ## Provenance
 

@@ -4,7 +4,7 @@ tags: [note, storage-system]
 
 # Buffer Manager
 
-- [Relational Data System Storage Management](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md)
+- [Relational Data System Storage Management](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md)
 
 > How is a database represented in memory, and how is data efficiently transferred between disk and memory?
 > 
@@ -32,7 +32,7 @@ Uses:
 
 ## Buffer Pool Manager
 
-![image.png](../assets/note/technica/computation/data-system/data-system-conceptual-model/buffer-manager/image.png)
+![image.png](/assets/note/technica/computation/data-system/data-system-conceptual-model/buffer-manager/image.png)
 
 ### Page Directory
 

@@ -43,6 +43,11 @@ BUILDERS = {
         "requires": ["notes", "courses", "documents"],
         "label": "unified library index",
     },
+    "tree": {
+        "module": "build_tree_index",
+        "requires": ["library"],
+        "label": "corpus tree index",
+    },
     "glossarium": {"module": "build_glossarium_index", "requires": [], "label": "glossarium terms"},
     "qa": {"module": "build_qa_index", "requires": [], "label": "Q/A log"},
     "atlas": {"module": "build_technica_atlas", "requires": [], "label": "technica atlas"},

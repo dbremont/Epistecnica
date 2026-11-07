@@ -36,4 +36,4 @@ Readable secondarily as a `Jurisdiction` (the Municipality of Thessaloniki) — 
 ## References
 
 - [Thessaloniki — Wikipedia](https://en.wikipedia.org/wiki/Thessaloniki) (history, port, population)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)

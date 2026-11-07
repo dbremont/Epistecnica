@@ -4,7 +4,7 @@ tags: [note, language-system, tool]
 
 # CPython
 
-- [Python](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/python.md)
+- [Python](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/python.md)
 
 Python's implementation involves several models of computation, depending on the context—whether we're discussing its execution model, memory management, or underlying abstractions. Below is a structured breakdown:
 

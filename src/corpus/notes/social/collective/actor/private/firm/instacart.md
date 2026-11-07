@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, united-states, on-demand, marketplace]
 ## References
 
 - Wikipedia — Instacart (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

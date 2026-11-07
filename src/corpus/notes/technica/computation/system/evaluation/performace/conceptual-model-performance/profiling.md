@@ -117,7 +117,7 @@ It is not static analysis; it is behavioral measurement.
 
 ## References
 
-- [Profiler](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
+- [Profiler](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
 - [Statistics](https://app.notion.com/p/Statistics-c9d6a53f36a8494eae934a1a14f969da?pvs=21)
 - [Modelado](https://app.notion.com/p/Modelado-a6727ea210124fb9a00ff6bb5bcf7cd5?pvs=21)
 - [Probability](https://app.notion.com/p/Probability-4210c322839242cd8cc944b9b1e7c27f?pvs=21)

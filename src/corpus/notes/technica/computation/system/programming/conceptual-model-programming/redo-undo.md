@@ -17,6 +17,6 @@ tags: [note, technique]
 - Text Editor Data Structures: Rethinking Undo ([cdacamar.github.io](http://cdacamar.github.io/))
 [https://news.ycombinator.com/item?id=38601435](https://news.ycombinator.com/item?id=38601435)
 
-[Recovery](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/recovery.md)
+[Recovery](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/recovery.md)
 
 - …

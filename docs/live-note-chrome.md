@@ -6,7 +6,7 @@ document holds the canonical copy-paste blocks (there is no shared runtime
 file by design — each live note stays self-contained). When the chrome
 changes, update it here and in every live note.
 
-Design tokens live in the block below; they mirror `src/corpus/app/note.html`
+Design tokens live in the block below; they mirror `src/app/note.html`
 and `spec/` (dark default + light via `epistecnica-theme`).
 
 ## Path prefixes
@@ -249,7 +249,7 @@ function themeColors() {
 
 Listen for `epistecnica-theme` (section 5) and redraw when practical.
 
-## 7. Body container (mirrors `src/corpus/app/note.html`)
+## 7. Body container (mirrors `src/app/note.html`)
 
 Live notes render inside the same frame as the markdown viewer — ambient
 constellation background, 1280px layout, crumbs + title + meta chips, card,
@@ -339,7 +339,7 @@ Rules applied beyond §7:
 ## Rules
 
 - No CDN `<script>`/`<link>` tags — runtime dependencies are vendored under
-  `src/corpus/app/vendor/` and referenced relatively (see below). Vanilla JS +
+  `src/app/vendor/` and referenced relatively (see below). Vanilla JS +
   Canvas2D/SVG otherwise; math helpers are a few stdlib lines.
 - The page's own interactivity stays as authored; the container (§7) wraps
   and tokenizes it. Content order follows the philosophia shell (§7).
@@ -348,7 +348,7 @@ Rules applied beyond §7:
 
 ## Vendored runtime dependencies
 
-Runtime libraries live in `src/corpus/app/vendor/`, version-pinned, referenced
+Runtime libraries live in `src/app/vendor/`, version-pinned, referenced
 from live notes with a relative path (e.g. `../../vendor/alpine.min.js` from
 `data/epistemica/*.html`; adjust the prefix to the file's depth). To add one:
 download the exact version, record its size and sha256 in the commit message,

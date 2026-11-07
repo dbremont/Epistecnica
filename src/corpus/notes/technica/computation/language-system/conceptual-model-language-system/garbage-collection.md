@@ -4,7 +4,7 @@ tags: [note, computer-system, language-system]
 
 # Garbage Collection
 
-- [Resource Management](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)
+- [Resource Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)
 
 > 
 

@@ -13,7 +13,7 @@ tags: [note, human, cognition, linguistics, unfinished]
 
 ## Related
 
-- [Language](note.html?p=notes/nature/language.md)
+- [Language](/note.html?p=notes/nature/language.md)
 
 ## Provenance
 

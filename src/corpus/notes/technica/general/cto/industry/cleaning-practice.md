@@ -34,4 +34,4 @@ tags: [note, cleaning, domestic]
 ## References
 
 - Produceologia `docs/Production/Technique/Breviarium/Cleaning/`
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

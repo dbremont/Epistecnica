@@ -7,4 +7,4 @@ tags: [note, hong-kong, sar, east-asia]
 > Hong Kong is indexed here as a root polity. Its corpus profile and explanations live nested
 > under the China aggregate at `chn/prc/`; this entry points there.
 
-File link: [chn/prc](note.html?p=notes/social/collective/actor/public/polity/chn/prc/china.md).
+File link: [chn/prc](/note.html?p=notes/social/collective/actor/public/polity/chn/prc/china.md).

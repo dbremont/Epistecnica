@@ -13,8 +13,8 @@ tags: [note, nature, natural-system, system]
 
 ## Related
 
-- [Vortex](note.html?p=notes/nature/vortex.md)
-- [Earth](note.html?p=notes/nature/earth.md)
+- [Vortex](/note.html?p=notes/nature/vortex.md)
+- [Earth](/note.html?p=notes/nature/earth.md)
 
 ## Provenance
 

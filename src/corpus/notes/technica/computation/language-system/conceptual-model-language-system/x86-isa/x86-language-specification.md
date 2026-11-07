@@ -142,7 +142,7 @@ Guiding Questions:
 
 ### Instruction Encoding
 
-![…](../assets/note/technica/computation/language-system/conceptual-model-language-system/x86-isa/x86-language-specification/image.png)
+![…](/assets/note/technica/computation/language-system/conceptual-model-language-system/x86-isa/x86-language-specification/image.png)
 
 …
 
@@ -254,6 +254,6 @@ Rules:
 
 ## References
 
-- [Language Specification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
-- [GDB (GNU Project Debugger)](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
+- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [GDB (GNU Project Debugger)](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
 - https://en.wikibooks.org/wiki/X86_Disassembly

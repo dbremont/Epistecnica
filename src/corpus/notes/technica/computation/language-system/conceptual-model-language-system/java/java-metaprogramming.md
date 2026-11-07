@@ -107,7 +107,7 @@ public class AgentAttacher {
 
 ## References
 
-- [Metaprogramming](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)
+- [Metaprogramming](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)
 - https://docs.oracle.com/javase/8/docs/technotes/guides/jpda/
 
 Guiding Questions:

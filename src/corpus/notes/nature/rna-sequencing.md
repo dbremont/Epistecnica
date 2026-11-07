@@ -13,7 +13,7 @@ tags: [note, nature, natural-system, technique, unfinished]
 
 ## Related
 
-- [RNA](note.html?p=notes/nature/rna.md)
+- [RNA](/note.html?p=notes/nature/rna.md)
 
 ## Provenance
 

@@ -47,7 +47,7 @@ Drugs interact with the human body by binding to specific molecular targets (e.g
 
 ## Related
 
-- [Human](note.html?p=notes/nature/human.md)
+- [Human](/note.html?p=notes/nature/human.md)
 
 ## Provenance
 

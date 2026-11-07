@@ -4,7 +4,7 @@ tags: [note]
 
 # Multiplicative Effect
 
-Related: [Compound Effect](note.html?p=notes/epistemica/epistemic/theory/compound-effect.md)
+Related: [Compound Effect](/note.html?p=notes/epistemica/epistemic/theory/compound-effect.md)
 
 > 
 

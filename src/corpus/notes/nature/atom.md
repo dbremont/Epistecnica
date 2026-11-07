@@ -214,11 +214,11 @@ Reasons:
 
 ## Related
 
-- [Molecule](note.html?p=notes/nature/molecule.md)
-- [Chemical Element](note.html?p=notes/nature/chemical-element.md)
-- [Interaction](note.html?p=notes/nature/theory/interaction.md)
-- [Fundamental Interaction](note.html?p=notes/nature/fundamental-interaction.md)
-- [Spin](note.html?p=notes/nature/spin.md)
+- [Molecule](/note.html?p=notes/nature/molecule.md)
+- [Chemical Element](/note.html?p=notes/nature/chemical-element.md)
+- [Interaction](/note.html?p=notes/nature/theory/interaction.md)
+- [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
+- [Spin](/note.html?p=notes/nature/spin.md)
 
 ## Provenance
 

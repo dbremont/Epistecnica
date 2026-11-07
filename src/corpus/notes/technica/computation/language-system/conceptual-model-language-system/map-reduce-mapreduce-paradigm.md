@@ -4,7 +4,7 @@ tags: [note, programming-paradigm]
 
 # Map/Reduce (MapReduce) Paradigm
 
-- [Programming Paradigm](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/programming-paradigm.md)
+- [Programming Paradigm](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/programming-paradigm.md)
 
 > The Map/Reduce Model of Computation is a programming paradigm for processing and analyzing large datasets in a parallel and distributed manner by dividing tasks into map and reduce operations.
 > 

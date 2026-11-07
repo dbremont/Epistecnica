@@ -4,7 +4,7 @@ tags: [note, metacomputation]
 
 # Program Modification
 
-- [Code Generation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/code-generation.md)
+- [Code Generation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/code-generation.md)
 
 > **Program Modification** is the process of systematically transforming a program's source code, intermediate representation, or executable form to alter its behavior, structure, or properties while preserving semantic correctness or achieving a specific design goal.
 > 
@@ -139,7 +139,7 @@ Key technical aspects include:
 
 - [Hooking](https://en.wikipedia.org/wiki/Hooking)
 - [AspectJ](https://en.wikipedia.org/wiki/AspectJ)
-- [BEAM](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/beam.md)
-- [Java Bytecode](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-bytecode.md)
+- [BEAM](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/beam.md)
+- [Java Bytecode](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-bytecode.md)
 - 
 - https://github.com/jacoco/jacoco

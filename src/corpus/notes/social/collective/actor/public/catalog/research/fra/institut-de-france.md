@@ -84,5 +84,5 @@ Two load-bearing caveats.
 - [Institut de France](https://www.institutdefrance.fr/en/)
 - [Institut de France](https://en.wikipedia.org/wiki/Institut_de_France)
 - [Académie des sciences](https://www.academie-sciences.fr/en/)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the family this umbrella belongs to)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the family this umbrella belongs to)

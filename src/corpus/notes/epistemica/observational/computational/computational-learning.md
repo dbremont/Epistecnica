@@ -30,11 +30,11 @@ Key Questions
     - **Meta-Learners (Learning to Learn):** Learn strategies for quickly adapting to new tasks, leveraging prior knowledge for efficient transfer and few-shot learning.
     - **Self-Supervised Learners:** Learn representations from raw, unlabeled data by exploiting inherent structure, enabling robust feature extraction and pretraining for downstream tasks.
 
-![image.png](../assets/note/epistemica/observational/computational/computational-learning/image.png)
+![image.png](/assets/note/epistemica/observational/computational/computational-learning/image.png)
 
-![image.png](../assets/note/epistemica/observational/computational/computational-learning/image-1.png)
+![image.png](/assets/note/epistemica/observational/computational/computational-learning/image-1.png)
 
-![image.png](../assets/note/epistemica/observational/computational/computational-learning/image-2.png)
+![image.png](/assets/note/epistemica/observational/computational/computational-learning/image-2.png)
 
 ## Meta
 
@@ -191,7 +191,7 @@ Key Questions:
 > **Reinforcement Learning (RL)** is a type of machine learning where an *agent* learns to make decisions by interacting with an *environment*, receiving *rewards* for good actions and adjusting its strategy over time to maximize long-term success.
 > 
 
-> See more in [Adaptative](note.html?p=notes/epistemica/adaptative/adaptative.md).
+> See more in [Adaptative](/note.html?p=notes/epistemica/adaptative/adaptative.md).
 > 
 
 ## Problem Encoding
@@ -403,7 +403,7 @@ Properties:
 > An **inference strategy** is a method used to guide, structure, or augment a model’s behavior *at inference time* (when it is generating outputs, not being trained).
 > 
 
-> See more in [Chain-of-thought (CoT)](note.html?p=notes/technica/ais/application/chain-of-thought-cot.md).
+> See more in [Chain-of-thought (CoT)](/note.html?p=notes/technica/ais/application/chain-of-thought-cot.md).
 > 
 
 | **Strategy** | **Description** |
@@ -482,7 +482,7 @@ Training - Evolution :  The general process involves:
 
 ### Validation
 
-> See more in [Model Validation](note.html?p=notes/epistemica/validation/validation.md).
+> See more in [Model Validation](/note.html?p=notes/epistemica/validation/validation.md).
 > 
 
 ### Post-training Technique
@@ -636,7 +636,7 @@ These operations **require numeric input** (real numbers, vectors, tensors).
 
 ### When we talk about a learning system that correctly represents a decision boundary, do we judge this based on the model’s behavior—its ability to classify points correctly—or based on the model’s internal architecture?
 
-![image.png](../assets/note/epistemica/observational/computational/computational-learning/image-3.png)
+![image.png](/assets/note/epistemica/observational/computational/computational-learning/image-3.png)
 
 > When we talk about a learning system that correctly learns or represents a decision boundary—like a complex frontier between countries—and you want to determine which country a given point belongs to, there are two main ways to interpret this:
 > 
@@ -686,7 +686,7 @@ These operations **require numeric input** (real numbers, vectors, tensors).
 - [Algorithm](https://app.notion.com/p/Algorithm-617ee00b46ea444799ea7a4945d72921?pvs=21)
 - https://en.wikipedia.org/wiki/Mixture_of_experts
 - https://categoricaldeeplearning.com/
-- [**Statistical Mechanics**](note.html?p=notes/epistemica/singular/statistical-mechanics.md)
+- [**Statistical Mechanics**](/note.html?p=notes/epistemica/singular/statistical-mechanics.md)
 - Akyürek, Ekin, et al. "The surprising effectiveness of test-time training for abstract reasoning." *arXiv preprint arXiv:2411.07279* (2024).
 - https://medium.com/@rachittayal7/a-gentle-introduction-to-distributed-training-of-ml-models-81295a7057de
 - https://arxiv.org/abs/2407.07852

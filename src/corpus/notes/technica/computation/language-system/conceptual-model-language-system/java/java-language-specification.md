@@ -150,7 +150,7 @@ Guiding Questions:
 
 ## Language Semantics
 
-> See more in  [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
+> See more in  [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
 > 
 
 Guiding Questions
@@ -268,5 +268,5 @@ However, there are a few scenarios where the `finally` block may not execute:
 
 ## References
 
-- [Language Specification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
 - [X: 📜 Language Specification](https://app.notion.com/p/X-Language-Specification-b37fd4f7c824484898c467ed1a48b8f2?pvs=21)

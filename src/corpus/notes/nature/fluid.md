@@ -26,11 +26,11 @@ tags: [note, nature, substance-matter, matter, physical]
 
 ## Related
 
-- [Static Fluid System](note.html?p=notes/nature/static-fluid-system.md)
-- [Vortex](note.html?p=notes/nature/vortex.md)
-- [Floating](note.html?p=notes/nature/floating.md)
-- [Gas](note.html?p=notes/nature/gas.md)
-- [Liquid](note.html?p=notes/nature/liquid.md)
+- [Static Fluid System](/note.html?p=notes/nature/static-fluid-system.md)
+- [Vortex](/note.html?p=notes/nature/vortex.md)
+- [Floating](/note.html?p=notes/nature/floating.md)
+- [Gas](/note.html?p=notes/nature/gas.md)
+- [Liquid](/note.html?p=notes/nature/liquid.md)
 
 ## Provenance
 

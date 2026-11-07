@@ -30,7 +30,7 @@ Its essence is compression under warrant: an ensemble compresses the astronomica
 
 > Primary type: `Epistemic Construction` — specifically a `Theory` of the **`Theory Family`** kind: the general theory whose instances are particular formulations, ensembles, or applications ("a statistical mechanics").
 
-The decomposition is inquiry-relative; the root type is `Epistemic Construction`, the theory's own constituents — cores, ensembles, distributions, concepts, predictions — hang under the `Statistical Mechanics` instance as `Epistemic Construction`s, and its tool routines under `Epistemic Operation` → `Organization` → `Method`. Two `readable as …` readings are legitimate and kept as prose, not as second trees: `readable as` an **`Aggregate`** when attention falls on the practiced field — its tools, paradigms, evaluations, and institutions (the reading under which the catalogue entry in [EES](note.html?p=notes/epistemica/ees.md) files this note among the operation & construction catalogues), and `readable as` an **`Epistemic Representation`** (a `Representational System`) when the probability-measure formalism itself is in focus — the calculus of weights, expectations, and cumulants over microstates.
+The decomposition is inquiry-relative; the root type is `Epistemic Construction`, the theory's own constituents — cores, ensembles, distributions, concepts, predictions — hang under the `Statistical Mechanics` instance as `Epistemic Construction`s, and its tool routines under `Epistemic Operation` → `Organization` → `Method`. Two `readable as …` readings are legitimate and kept as prose, not as second trees: `readable as` an **`Aggregate`** when attention falls on the practiced field — its tools, paradigms, evaluations, and institutions (the reading under which the catalogue entry in [EES](/note.html?p=notes/epistemica/ees.md) files this note among the operation & construction catalogues), and `readable as` an **`Epistemic Representation`** (a `Representational System`) when the probability-measure formalism itself is in focus — the calculus of weights, expectations, and cumulants over microstates.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -291,7 +291,7 @@ A Statistical Mechanics tools signature is functional that takes a “Set” →
 
 > Note: We do not have a good terminology for the signatures. Each one is a function, but the term is too generic; we need something more specific.
 
-> See more in [Signature](note.html?p=notes/epistemica/mathematical/mapping/function.md).
+> See more in [Signature](/note.html?p=notes/epistemica/mathematical/mapping/function.md).
 
 | **Category** | **Signature** | **Instance** | Descrition |
 | --- | --- | --- | --- |
@@ -507,23 +507,23 @@ Conceptual Model: Statistical Mechanics
 - [Representation](https://app.notion.com/p/Representation-16fc0f5171ec80c6bb5fc675d075f9b1?pvs=21)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
-- [Phase Space](note.html?p=notes/epistemica/singular/phase-space.md)
+- [Phase Space](/note.html?p=notes/epistemica/singular/phase-space.md)
 - [Statistical Mechanics](https://en.wikipedia.org/wiki/Statistical_mechanics)
-- [Boltzmann Machine](note.html?p=notes/technica/ais/architecture/boltzmann-machine.md)
-- [Monte Carlo Toolbox](note.html?p=notes/epistemica/observational/computational/monte-carlo-toolbox.md)
-- [Mean Field Theory](note.html?p=notes/epistemica/observational/computational/mean-field-theory.md)
-- [Renormalization Group](note.html?p=notes/epistemica/observational/renormalization-group.md)
+- [Boltzmann Machine](/note.html?p=notes/technica/ais/architecture/boltzmann-machine.md)
+- [Monte Carlo Toolbox](/note.html?p=notes/epistemica/observational/computational/monte-carlo-toolbox.md)
+- [Mean Field Theory](/note.html?p=notes/epistemica/observational/computational/mean-field-theory.md)
+- [Renormalization Group](/note.html?p=notes/epistemica/observational/renormalization-group.md)
 - https://en.wikipedia.org/wiki/Canonical_ensemble
 - https://en.wikipedia.org/wiki/Ensemble_(mathematical_physics)
 - Li, Qianyi, and Haim Sompolinsky. "Statistical mechanics of deep linear neural networks: The backpropagating kernel renormalization." Physical Review X 11.3 (2021): 031059.
-- [**Operator**](note.html?p=notes/epistemica/mathematical/mapping/operator.md)
+- [**Operator**](/note.html?p=notes/epistemica/mathematical/mapping/operator.md)
 - https://web.stanford.edu/~peastman/statmech/
 - https://www.damtp.cam.ac.uk/user/tong/statphys.html
 - [https://www.phys.ens.fr/~lbocquet/Lecture-Notes-Stat-Phys-L3-Bocquet.pdf](https://www.phys.ens.fr/~lbocquet/Lecture-Notes-Stat-Phys-L3-Bocquet.pdf)
 - https://plato.stanford.edu/entries/statphys-statmech/
 - Reif, F. (1965). *Fundamentals of Statistical and Thermal Physics*. McGraw-Hill. — A foundational introduction to statistical reasoning, ensembles, and thermodynamics.
 - Pathria, R. K., & Beale, P. D. (2011). *Statistical Mechanics* (3rd ed.). Academic Press. — A comprehensive, mathematically detailed treatment of equilibrium statistical mechanics.
-- [Landau, L. D., & Lifshitz, E. M. (2013). Statistical Physics, Part 1. Course of Theoretical Physics. Elsevier.](note.html?p=documents/books/landau-2013-course-theoretical-physics-elsevier.md) — A classic theoretical treatment emphasizing fundamental principles and physical insight.
-- [Huang, K. (2008). Statistical Mechanics. John Wiley & Sons.](note.html?p=documents/books/huang-2008-statistical-mechanics-john-wiley-sons.md) — A substantial treatment of classical and quantum statistical mechanics.
-- [Kardar, M. (2007). Statistical Physics of Particles. Cambridge University Press.](note.html?p=documents/books/kardar-2007-statistical-physics-particles-cambridge-university.md) — A modern, conceptually organized introduction to equilibrium statistical physics.
-- [Kardar, M. (2007). Statistical Physics of Fields. Cambridge University Press.](note.html?p=documents/books/kardar-2007-statistical-physics-fields-cambridge-university.md) — A transition from conventional statistical mechanics to field theory and critical phenomena.
+- [Landau, L. D., & Lifshitz, E. M. (2013). Statistical Physics, Part 1. Course of Theoretical Physics. Elsevier.](/note.html?p=documents/books/landau-2013-course-theoretical-physics-elsevier.md) — A classic theoretical treatment emphasizing fundamental principles and physical insight.
+- [Huang, K. (2008). Statistical Mechanics. John Wiley & Sons.](/note.html?p=documents/books/huang-2008-statistical-mechanics-john-wiley-sons.md) — A substantial treatment of classical and quantum statistical mechanics.
+- [Kardar, M. (2007). Statistical Physics of Particles. Cambridge University Press.](/note.html?p=documents/books/kardar-2007-statistical-physics-particles-cambridge-university.md) — A modern, conceptually organized introduction to equilibrium statistical physics.
+- [Kardar, M. (2007). Statistical Physics of Fields. Cambridge University Press.](/note.html?p=documents/books/kardar-2007-statistical-physics-fields-cambridge-university.md) — A transition from conventional statistical mechanics to field theory and critical phenomena.

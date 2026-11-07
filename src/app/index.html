@@ -605,7 +605,7 @@
         <div class="nav-inner">
             <a class="nav-brand" href="./"><img class="nav-mark" src="img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
             <div class="nav-right">
-                <a class="nav-link" href="corpus/">Corpus</a>
+                <a class="nav-link" href="explorer.html">Corpus</a>
                 <div class="usearch-wrap">
                     <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                     <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
@@ -621,13 +621,12 @@
         <header class="hero">
             <h1>Episte<em>cnica</em></h1>
             <p class="lede">
-                One corpus: notes, documents and courses in a single index, with a <em>notes</em>, <em>documents</em> and
-                <em>courses</em> in a single index, with a lexical reference and an open
-                Q/A log. This is the working extension of the Autoregia Personal
-                Knowledge System &mdash; local, linked, and searchable.
+                Epistecnica is a guide to two coupled modes of human agency:
+                <em>world modelling</em> (epistemic practice, representation) and <em>acting</em>. These are personal notes &mdash; useful for my practice.
+                This project is an extension of the universal index &mdash; that is, Naturgnosis (now Autoregia).
             </p>
 
-            <form class="hero-search" action="corpus/" method="get">
+            <form class="hero-search" action="explorer.html" method="get">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                 <input type="search" name="q" placeholder="Search the corpus: titles, tags, paths…" aria-label="Search the corpus">
                 <kbd>enter</kbd>
@@ -647,19 +646,19 @@
                 <span class="rule"></span>
             </div>
             <div class="cards">
-                <a class="card" href="corpus/?dir=notes">
+                <a class="card" href="explorer.html?view=browse&dir=notes">
                     <span class="card-kicker">Notes</span>
                     <strong class="card-count" data-stat="note">—</strong>
                     <span class="card-desc">Concepts, arguments, methods &mdash; the epistemic, natural, social and technical branches.</span>
                     <span class="card-link">Open the corpus &rarr;</span>
                 </a>
-                <a class="card" href="corpus/?dir=documents">
+                <a class="card" href="explorer.html?view=browse&dir=documents">
                     <span class="card-kicker">Documents</span>
                     <strong class="card-count" data-stat="document">—</strong>
                     <span class="card-desc">Books, papers and articles, with their extracted notes and references.</span>
                     <span class="card-link">Open the corpus &rarr;</span>
                 </a>
-                <a class="card" href="corpus/?dir=courses">
+                <a class="card" href="explorer.html?view=browse&dir=courses">
                     <span class="card-kicker">Courses</span>
                     <strong class="card-count" data-stat="course">—</strong>
                     <span class="card-desc">Structured courses, lectures and study material, filed with the rest of the corpus.</span>
@@ -707,7 +706,7 @@
                 <div class="foot-colophon">KNOWING &middot; ACTING &middot; ONE FRAMEWORK</div>
             </div>
             <div class="foot-links">
-                <a href="corpus/">CORPUS</a>
+                <a href="explorer.html">CORPUS</a>
                 <a href="notes/">NOTES</a>
                 <a href="documents/">DOCUMENTS</a>
                 <a href="courses/">COURSES</a>
@@ -849,7 +848,7 @@
         function fmt(n) { return Number(n || 0).toLocaleString(); }
         function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
-        fetch('corpus/data/library-index.json', { headers: { 'Accept': 'application/json' }, cache: 'no-cache' })
+        fetch('data/library-index.json', { headers: { 'Accept': 'application/json' }, cache: 'no-cache' })
             .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
             .then(function (d) {
                 var entries = d.entries || [];
@@ -867,7 +866,7 @@
                 order = order.filter(function (s) { return sections[s]; }).concat(extra);
                 var dom = document.getElementById('domains');
                 dom.innerHTML = order.filter(function (s) { return sections[s]; }).map(function (s) {
-                    return '<a href="corpus/?dir=notes/' + encodeURIComponent(s) + '"><span>' + cap(s) + '</span><span class="count">' + fmt(sections[s]) + '</span></a>';
+                    return '<a href="explorer.html?view=browse&dir=notes/' + encodeURIComponent(s) + '"><span>' + cap(s) + '</span><span class="count">' + fmt(sections[s]) + '</span></a>';
                 }).join('');
 
                 var docs = entries.filter(function (e) { return e.corpus === 'document'; });
@@ -886,7 +885,7 @@
                         return;
                     }
                     list.innerHTML = picked.map(function (e) {
-                        return '<li><a href="corpus/note.html?p=' + encPath(e.path) + '">' + esc(e.title) + '</a>' +
+                        return '<li><a href="note.html?p=' + encPath(e.path) + '">' + esc(e.title) + '</a>' +
                             '<span class="meta">' + esc(e.section || '') + '</span></li>';
                     }).join('');
                 }

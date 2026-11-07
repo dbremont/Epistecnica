@@ -4,7 +4,7 @@ tags: [note, intermediate-representation, language-system]
 
 # Intermediate Representation
 
-- [CIL](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/cil.md), [Compiler System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md)
+- [CIL](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/cil.md), [Compiler System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md)
 
 > A **program representation scheme** refers to a formal method or structure used to encode a program's logic, data, and associated metadata into a specific format. This can include intermediate representations (IRs), source code, object code, or higher-level constructs such as abstract syntax trees, control flow graphs, or bytecode. These representations serve as an intermediary between different stages of program processing (e.g., compilation, optimization, or execution) and are designed to facilitate analysis, transformation, and efficient execution. The scheme ensures consistency in layout, maintains necessary semantic properties, and supports toolchain compatibility across various platforms and environments.
 > 

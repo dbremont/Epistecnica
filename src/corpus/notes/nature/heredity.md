@@ -50,7 +50,7 @@ tags: [note, nature, phenomenon, biology, phenomena]
 
 ## Related
 
-- [Gene](note.html?p=notes/nature/gene.md)
+- [Gene](/note.html?p=notes/nature/gene.md)
 
 ## Provenance
 

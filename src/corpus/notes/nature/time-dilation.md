@@ -171,8 +171,8 @@ See more:
 
 ## Related
 
-- [Principle of Relativity](note.html?p=notes/nature/principle-of-relativity.md)
-- [Time](note.html?p=notes/nature/time.md)
+- [Principle of Relativity](/note.html?p=notes/nature/principle-of-relativity.md)
+- [Time](/note.html?p=notes/nature/time.md)
 
 ## Provenance
 

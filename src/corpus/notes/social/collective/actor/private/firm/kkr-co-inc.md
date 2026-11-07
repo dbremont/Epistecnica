@@ -37,5 +37,5 @@ Readable secondarily as an `Interaction Unit` nested in capital markets, and as 
 ## References
 
 - [KKR & Co. — Wikipedia](https://en.wikipedia.org/wiki/KKR_%26_Co.) (founding, business areas, AUM)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Firm](note.html?p=notes/social/collective/actor/firm.md) (the economic subtype of Organization)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Firm](/note.html?p=notes/social/collective/actor/firm.md) (the economic subtype of Organization)

@@ -16,7 +16,7 @@ QA:
 - Does very wave be represented in terms of sines waves? Any complex sound can be represented as a combination of sine waves, making them fundamental to understanding and creating sound.
 - Does every sound can be decomposed into sine waves?
 - How to create realistic sound  representation? Yes, every sound can be decomposed into sine waves, thanks to a fundamental principle in mathematics and signal processing called Fourier's Theorem (or Fourier Analysis). . Even **non-periodic** sounds (like noise or transient sounds) can be represented using sine waves, though the process is more complex.
-- Are complex sounds composed of many fundamental waves? Yes; See [Sound Anatomy](note.html?p=notes/technica/computation/miscelanea/audio-processing.md).
+- Are complex sounds composed of many fundamental waves? Yes; See [Sound Anatomy](/note.html?p=notes/technica/computation/miscelanea/audio-processing.md).
 - How do we hear? How do we perceive waves as sound?
 - How is stored sound converted into waves and played?
 

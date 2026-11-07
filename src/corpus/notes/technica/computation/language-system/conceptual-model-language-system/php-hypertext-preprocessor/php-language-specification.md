@@ -192,5 +192,5 @@ Guiding Questions:
 
 ## References
 
-- [Language Specification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
 - https://www.php.net/manual/en/langref.php

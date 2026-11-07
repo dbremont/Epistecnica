@@ -251,9 +251,9 @@ Not in the science (field perturbation sense) - but in the pragmatic sense  (the
 
 ## Related
 
-- [Electric Current](note.html?p=notes/nature/electric-current.md)
-- [Radiation](note.html?p=notes/nature/radiation.md)
-- [Wave](note.html?p=notes/nature/wave.md)
+- [Electric Current](/note.html?p=notes/nature/electric-current.md)
+- [Radiation](/note.html?p=notes/nature/radiation.md)
+- [Wave](/note.html?p=notes/nature/wave.md)
 
 ## Provenance
 

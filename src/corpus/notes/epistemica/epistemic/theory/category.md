@@ -4,7 +4,7 @@ tags: [note, epistemology, ontology]
 
 # Category
 
-Related: [Ontology](note.html?p=notes/epistemica/epistemic/theory/ontology.md)
+Related: [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md)
 
 > In this note, we will explore the **philosophical dimension** of the term *“Category”*; specifically, we will examine the doctrine of the Categories.
 > 

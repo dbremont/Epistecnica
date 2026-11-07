@@ -4,7 +4,7 @@ tags: [note, conceptual-model]
 
 # Open Systems Interconnection (OSI) Model
 
-- [Ethernet](note.html?p=notes/technica/computation/telecom/ethernet.md)
+- [Ethernet](/note.html?p=notes/technica/computation/telecom/ethernet.md)
 
 > 
 

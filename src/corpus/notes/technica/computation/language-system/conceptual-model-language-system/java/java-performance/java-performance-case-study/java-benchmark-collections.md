@@ -837,4 +837,4 @@ If you want, I can:
 
 ## References
 
-- [**Benchmarking**](note.html?p=notes/technica/computation/system/evaluation/benchmarking.md)
+- [**Benchmarking**](/note.html?p=notes/technica/computation/system/evaluation/benchmarking.md)

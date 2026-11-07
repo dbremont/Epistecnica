@@ -44,6 +44,6 @@ tags: [note, workflow, organization, action, social-element]
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Plan](note.html?p=notes/social/action/organization/plan.md) (the arrangement a workflow repeats)
-- [Project](note.html?p=notes/social/action/organization/project.md) (the effort a workflow may serve)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Plan](/note.html?p=notes/social/action/organization/plan.md) (the arrangement a workflow repeats)
+- [Project](/note.html?p=notes/social/action/organization/project.md) (the effort a workflow may serve)

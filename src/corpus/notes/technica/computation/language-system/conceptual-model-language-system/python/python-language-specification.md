@@ -291,7 +291,7 @@ def greet(name):
 
 ## References
 
-- [Language Specification](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
 - https://docs.python.org/3/reference/lexical_analysis.html#literals
 - https://github.com/python/cpython/blob/main/Lib/token.py
 - https://github.com/python/cpython/blob/main/Grammar/Tokens

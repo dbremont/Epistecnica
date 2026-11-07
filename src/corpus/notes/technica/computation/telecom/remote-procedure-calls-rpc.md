@@ -61,4 +61,4 @@ Fundamental issues that RPC Cannot Hide:
 ## References
 
 - [Implementing Remote Procedure Calls](https://courses.cs.washington.edu/courses/csep552/13sp/lectures/1/rpc.txt)
-- [Apache Thrift](note.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/apache-thrift.md)
+- [Apache Thrift](/note.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/apache-thrift.md)

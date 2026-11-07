@@ -8,7 +8,7 @@ tags: [note, plant, cultivation, agriculture, technique]
 
 > It is the complement of an inquiry: plant science establishes what a plant is and how it responds, while cultivation intervenes in it — setting substrate, water, nutrient, and protection regimes, then taking the yield. The two notes are cross-linked at the boundary between a warrantable claim and an acted-upon regime.
 
-> This note treats plant cultivation as a middle-depth ensemble — the root set, its nine sub-domain sets, and the objects, mechanisms, techniques, parameters, and standards those sub-domains work with — following the schema in [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
+> This note treats plant cultivation as a middle-depth ensemble — the root set, its nine sub-domain sets, and the objects, mechanisms, techniques, parameters, and standards those sub-domains work with — following the schema in [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
 
 ## Formulation
 
@@ -29,13 +29,13 @@ The `Technical Element Set` grouping below the root is admitted by the No-repeti
 
 Secondary readings, kept as prose rather than compromise typing: an orchard, a nursery, or a greenhouse read as a `Production Technical System`; a tractor or a sprayer reads as a `Production Technical Object`; the field itself — soil, climate, water availability, biotic pressure — reads as a `Technical Domain Reality Model`. Each of these takes its own root in its own decomposition; no row here carries two types.
 
-Cross-space boundaries: growers, cooperatives, seed merchants, and buyers are social elements and stay in `social`/`actor`; the plant as a living system — organs, tissues, physiology, growth — is natural and is decomposed under the naturalis grammar; agricultural science, the inquiry that warrants knowing the plant, is epistemic scaffolding and lives in [Agricultural Science](note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md).
+Cross-space boundaries: growers, cooperatives, seed merchants, and buyers are social elements and stay in `social`/`actor`; the plant as a living system — organs, tissues, physiology, growth — is natural and is decomposed under the naturalis grammar; agricultural science, the inquiry that warrants knowing the plant, is epistemic scaffolding and lives in [Agricultural Science](/note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md).
 
 ### What is this technical instance?
 
 > The Plant Cultivation Technical Domain Set is a raise-and-take ensemble instance: growers, agronomists, nursery workers, and equipment operators working seed lots, rooting media, soil profiles, water regimes, protection practices, protected houses, harvesting equipment, trial plots, and certification bodies, so that a specified plant population is established, kept growing, and harvested as an admissible product, under genotype, climate, soil, water, labor, and regulatory constraints.
 
-Boundary: cultivation is the deliberate growing of plants for a useful product. It **excludes** post-harvest transformation into manufactured goods (the post-harvest Food Value Chain side), the sector-of-industries container that frames crop and animal production together (Agriculture Production), the inquiry into the plant ([Agricultural Science](note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md)), and the social organization of cultivation. Genetic engineering of crops is admitted only as an instrument the improvement sub-domain calls on; it is decomposed in its own right.
+Boundary: cultivation is the deliberate growing of plants for a useful product. It **excludes** post-harvest transformation into manufactured goods (the post-harvest Food Value Chain side), the sector-of-industries container that frames crop and animal production together (Agriculture Production), the inquiry into the plant ([Agricultural Science](/note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md)), and the social organization of cultivation. Genetic engineering of crops is admitted only as an instrument the improvement sub-domain calls on; it is decomposed in its own right.
 
 Lineage: seed gathering and shifting cultivation → vegetative propagation and the walled garden → systematic selection and the four-field rotation → the greenhouse and the synthetic fertilizer → hybrid and later recombinant breeding → controlled-environment and precision cultivation, sensors, and site-specific management.
 
@@ -77,7 +77,7 @@ Lineage: seed gathering and shifting cultivation → vegetative propagation and 
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Water And Irrigation Set → `Technical Parameter` | Grouping: the water quantities the regime is stated in. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Water And Irrigation Set → `Technical Parameter` → Field Capacity | Retained water after gravitational drainage, bounding irrigation trigger. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Water And Irrigation Set → `Technical Parameter` → Crop Coefficient | Crop-specific demand ratio turning reference evapotranspiration into a water need. |
-| `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Crop Protection Set | Sub-domain of cultivation, elaborated elsewhere: the diagnostic, surveillance, forecasting, control, propagation-material, quarantine, and standards ensembles are decomposed in [Plant Health Technical Set](note.html?p=notes/technica/general/cto/es/multinode/plant-health-technical-set.md), which this note points to rather than repeats. |
+| `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Crop Protection Set | Sub-domain of cultivation, elaborated elsewhere: the diagnostic, surveillance, forecasting, control, propagation-material, quarantine, and standards ensembles are decomposed in [Plant Health Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/plant-health-technical-set.md), which this note points to rather than repeats. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Protected Cultivation Set | Raising the crop under a controlled shell rather than in open ground. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Protected Cultivation Set → `Production Technical System` | Grouping: the enclosed production units realizing controlled cultivation. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Protected Cultivation Set → `Production Technical System` → Greenhouse House | Glazed structure coupling crop, climate unit, and fertigation loop. |
@@ -122,7 +122,7 @@ Lineage: seed gathering and shifting cultivation → vegetative propagation and 
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Field Operations And Mechanization Set → `Technical Mechanism` → Controlled Traffic Farming | Fixed wheel lanes and passes preserving soil structure across seasons. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Field Operations And Mechanization Set → `Technical Feedback` | Grouping: the measurements the next season's plan reads. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Field Operations And Mechanization Set → `Technical Feedback` → Yield Map | Georeferenced harvest mass registered per pass. |
-| `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Field Operations And Mechanization Set → `Technical Feedback` → Canopy Imagery Pass | Aerial or satellite reading of cover and vigour ([Remote Sensing](note.html?p=notes/technica/general/cto/industry/remote-sensing.md)). |
+| `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Field Operations And Mechanization Set → `Technical Feedback` → Canopy Imagery Pass | Aerial or satellite reading of cover and vigour ([Remote Sensing](/note.html?p=notes/technica/general/cto/industry/remote-sensing.md)). |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Cultivation Standards And Governance Set | The admissible rules a lot must satisfy to be traded, planted, or certified. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Cultivation Standards And Governance Set → `Technical Standard` | Grouping: the normative specifications the crop and the practice must meet. |
 | `Technical Element Set` → Plant Cultivation Technical Domain Set → `Technical Element Set` → Cultivation Standards And Governance Set → `Technical Standard` → Seed Certification Standard | Generation, isolation, and purity rules a seed lot is graded against. |
@@ -137,9 +137,9 @@ Lineage: seed gathering and shifting cultivation → vegetative propagation and 
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; middle depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
-- [Agricultural Science](note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) (counterpart note: the inquiry this ensemble acts on)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; middle depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
+- [Agricultural Science](/note.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) (counterpart note: the inquiry this ensemble acts on)
 - Agriculture Production (the sector-of-industries container this set is a member of; note removed, sector view lives in the social and production spaces)
 - Food Value Chain (what the harvest becomes after cultivation ends; note removed, post-harvest side)
-- [Remote Sensing](note.html?p=notes/technica/general/cto/industry/remote-sensing.md) (the canopy and stand readings the field set consumes)
-- [Biotechnology](note.html?p=notes/technica/general/cto/es/multinode/biotechnology.md) (sibling domain ensemble: engineering living substrates)
+- [Remote Sensing](/note.html?p=notes/technica/general/cto/industry/remote-sensing.md) (the canopy and stand readings the field set consumes)
+- [Biotechnology](/note.html?p=notes/technica/general/cto/es/multinode/biotechnology.md) (sibling domain ensemble: engineering living substrates)

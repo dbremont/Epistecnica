@@ -4,7 +4,7 @@ tags: [note, linguistic-abstraction]
 
 # Language Specification
 
-- [Meta Linguistic Abstraction](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/meta-linguistic-abstraction.md), [Program Element](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md), [Program Element Modifier](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element-modifier.md)
+- [Meta Linguistic Abstraction](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/meta-linguistic-abstraction.md), [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md), [Program Element Modifier](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element-modifier.md)
 
 > **A Language Specification**  is a  *formal or semiformal* document that defines a programming language’s **syntax**, **semantics**, **type system**, and **execution behavior**, serving as the authoritative reference for how programs in the language are written, interpreted, and evaluated.
 > 
@@ -45,7 +45,7 @@ Guiding Questions:
 
 ## Linguistic Abstraction
 
-> In ([Program Element](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)) we have expanded a taxonomy o syntactical constructs.
+> In ([Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)) we have expanded a taxonomy o syntactical constructs.
 > 
 
 > **First-class citizen (object and instrument of computation):** An entity in a programming language that can be **created at runtime, assigned to variables, passed as arguments, returned from functions, and stored in data structures** without restrictions.
@@ -238,7 +238,7 @@ Abstractions:
 > **Note:** The Modifiers can be provided by the language - or created on top of the language -using metadata - based mechanisms.
 > 
 
-> See the list here [Program Element Modifier](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element-modifier.md).
+> See the list here [Program Element Modifier](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element-modifier.md).
 > 
 
 ### Binding
@@ -329,7 +329,7 @@ Guiding Questions:
 > Note in this section we specify the How a syntactical construct get’s evaluated?
 > 
 
-> See more in [Language Execution System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md) - [Evaluation Model](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
+> See more in [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md) - [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
 > 
 
 ## Expression Evaluation
@@ -396,9 +396,9 @@ Guiding Questions:
 
 ## References
 
-- [Algorithm](note.html?p=notes/technica/computation/algorithm.md)
-- [Programming](note.html?p=notes/technica/computation/system/programming.md)
-- [Type System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Algorithm](/note.html?p=notes/technica/computation/algorithm.md)
+- [Programming](/note.html?p=notes/technica/computation/system/programming.md)
+- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 - [Formal Language](https://app.notion.com/p/Formal-Language-195c0f5171ec8012bf0fd0530a135871?pvs=21)
 - https://en.wikipedia.org/wiki/Metalinguistic_abstraction
 - https://en.wikipedia.org/wiki/Abstraction_(computer_science)

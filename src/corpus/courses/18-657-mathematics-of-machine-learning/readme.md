@@ -11,8 +11,8 @@ tags: [course, ml, mathematics]
 ## References
 
 - https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/
-- [18.S096 Matrix Calculus for Machine Learning and Beyond](note.html?p=courses/18-s096-matrix-calculus-for-machine-learning-and-beyond/readme.md) — the calculus the methods rest on
-- [18.409 Algorithmic Aspects of Machine Learning](note.html?p=courses/18-409-algorithmic-aspects-of-machine-learning/readme.md) — the algorithmic side
-- [18.650 Statistics for Applications](note.html?p=courses/18-650-statistics-for-applications/readme.md) · [18.175 Theory of Probability](note.html?p=courses/18-175-theory-of-probability/readme.md) — the probabilistic groundwork
+- [18.S096 Matrix Calculus for Machine Learning and Beyond](/note.html?p=courses/18-s096-matrix-calculus-for-machine-learning-and-beyond/readme.md) — the calculus the methods rest on
+- [18.409 Algorithmic Aspects of Machine Learning](/note.html?p=courses/18-409-algorithmic-aspects-of-machine-learning/readme.md) — the algorithmic side
+- [18.650 Statistics for Applications](/note.html?p=courses/18-650-statistics-for-applications/readme.md) · [18.175 Theory of Probability](/note.html?p=courses/18-175-theory-of-probability/readme.md) — the probabilistic groundwork
 - [6.438 Algorithms for Inference](https://ocw.mit.edu/courses/6-438-algorithms-for-inference-fall-2014/)
-- [Atlas of courses](courses/atlas.html)
+- [Atlas of courses](/corpus/courses/atlas.html)

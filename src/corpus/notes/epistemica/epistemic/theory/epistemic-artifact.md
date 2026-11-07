@@ -4,7 +4,7 @@ tags: [note, epistemology]
 
 # Epistemic Artifact
 
-Related: [Modelling](note.html?p=notes/epistemica/epistemic/theory/modelling.md), [Model](note.html?p=notes/epistemica/epistemic/theory/model.md), [State](note.html?p=notes/epistemica/epistemic/theory/state.md), [Context-State Relation](note.html?p=notes/epistemica/epistemic/theory/context-state-relation.md)
+Related: [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md), [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md), [State](/note.html?p=notes/epistemica/epistemic/theory/state.md), [Context-State Relation](/note.html?p=notes/epistemica/epistemic/theory/context-state-relation.md)
 
 > In this note, we explore the higher-level concept of an **Epistemic Artifact**—a unifying construct spanning theory, modeling, explanation, and related epistemic forms.
 > 
@@ -181,6 +181,6 @@ An object qualifies **iff** it has:
 
 - Causality
 - Information
-- [Explanation](note.html?p=notes/epistemica/epistemic/theory/explanation.md)
-- [Context-State Relation](note.html?p=notes/epistemica/epistemic/theory/context-state-relation.md)
+- [Explanation](/note.html?p=notes/epistemica/epistemic/theory/explanation.md)
+- [Context-State Relation](/note.html?p=notes/epistemica/epistemic/theory/context-state-relation.md)
 - https://plato.stanford.edu/entries/descriptions/

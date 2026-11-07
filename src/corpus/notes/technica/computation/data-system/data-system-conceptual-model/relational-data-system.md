@@ -4,7 +4,7 @@ tags: [note, data-system]
 
 # Relational Data System
 
-- [Relational Data Model](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md)
+- [Relational Data Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md)
 
 > A **Relational Data System (RDS)** is a type of database system that organizes and manages data using the **relational model**, where information is represented in **tables (relations)** consisting of **rows (tuples)** and **columns (attributes)**.
 > 
@@ -14,7 +14,7 @@ tags: [note, data-system]
 > The **relational data model** is a conceptual framework that defines mechanisms to **represent data**, specify **operations** on that data, and provide a **formal semantics** that gives a precise meaning to the representations and operations.
 > 
 
-> See more in [Relational Data Model](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md).
+> See more in [Relational Data Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md).
 > 
 
 ## Query Language
@@ -22,7 +22,7 @@ tags: [note, data-system]
 > A **query language** is a formal language used to request, filter, and manipulate data stored in a database or information system. Unlike general-purpose programming languages, query languages are typically **declarative**: they let users specify *what* data they want rather than *how* to retrieve it, leaving the execution strategy to the database engine.
 > 
 
-> See more in [Query Language](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md).
+> See more in [Query Language](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md).
 > 
 
 ## Architecture
@@ -131,7 +131,7 @@ tags: [note, data-system]
 
 > 
 
-> See more in [Relational Data System Query Optimization](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-query-optimization.md).
+> See more in [Relational Data System Query Optimization](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-query-optimization.md).
 > 
 
 ## **Storage Management**
@@ -142,7 +142,7 @@ tags: [note, data-system]
 > The storage manager is responsible for maintaining a database’s files. It organizes the files as a collection of pages.
 > 
 
-> See more in [Relational Data System Storage Management](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md) & [Buffer Manager](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/buffer-manager.md), [Heap File Organization](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/heap-file-organization.md)
+> See more in [Relational Data System Storage Management](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md) & [Buffer Manager](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/buffer-manager.md), [Heap File Organization](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/heap-file-organization.md)
 > 
 
 ## **Transaction Management**
@@ -180,7 +180,7 @@ tags: [note, data-system]
 
 ### Relational Data System Query Optimization
 
-> See [Relational Data System Query Optimization](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-query-optimization.md).
+> See [Relational Data System Query Optimization](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-query-optimization.md).
 > 
 
 ### Performance Trick
@@ -209,5 +209,5 @@ tags: [note, data-system]
 
 ## References
 
-- [SQL](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md)
+- [SQL](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md)
 - https://github.com/dbremont/simpledb

@@ -4,7 +4,7 @@ tags: [note, process]
 
 # Linux Process Management Stack
 
-- [Linux Network Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
+- [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
 
 > Focus on the process management aspect of operating systems, including process scheduling, synchronization, and communication.
 > 
@@ -158,8 +158,8 @@ Everything about a process:
 
 ## References
 
-- [x86](note.html?p=notes/technica/computation/operating-system/x86.md)
+- [x86](/note.html?p=notes/technica/computation/operating-system/x86.md)
 - https://en.wikipedia.org/wiki/Chroot
-- [ELF (Executable and Linkable Format)](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)
+- [ELF (Executable and Linkable Format)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)
 - https://stackoverflow.com/questions/13112038/difference-between-system-getenv-system-getproperty
 - https://anadoxin.org/blog/the-linux-binfmt-subsystem.html/

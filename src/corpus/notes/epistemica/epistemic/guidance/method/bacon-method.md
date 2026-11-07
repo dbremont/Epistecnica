@@ -4,7 +4,7 @@ tags: [note, philosophical-system, tooling]
 
 # Bacon's Method
 
-Related: [Philosophical System](note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Ibn al-Haytham's Method](note.html?p=notes/epistemica/epistemic/guidance/method/ibn-al-haytham-method.md)
+Related: [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Ibn al-Haytham's Method](/note.html?p=notes/epistemica/epistemic/guidance/method/ibn-al-haytham-method.md)
 
 > It looks like you're referring to **Roger Bacon** (not "Robert"), a 13th-century philosopher and Franciscan friar often called *Doctor Mirabilis* ("Wonderful Teacher").
 > 

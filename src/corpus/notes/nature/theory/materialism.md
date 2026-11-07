@@ -4,7 +4,7 @@ tags: [note, ontology]
 
 # Materialism
 
-Related: [Ontology](note.html?p=notes/epistemica/epistemic/theory/ontology.md)
+Related: [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md)
 
 > In this note we will explore ‘Materialism,’ an ontological theory and conceptual framework, to understand - describe - parse  reality.
 > 

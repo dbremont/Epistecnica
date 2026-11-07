@@ -82,6 +82,6 @@ tags: [note]
 
 - https://en.wikipedia.org/wiki/Fourier_analysis
 - [Wave](https://app.notion.com/p/Wave-abe8be3df7354f11a8e84fa436de2e0b?pvs=21)
-- [Trigonometry](note.html?p=notes/epistemica/mathematical/geometry/trigonometry.md)
+- [Trigonometry](/note.html?p=notes/epistemica/mathematical/geometry/trigonometry.md)
 - 
 - [Functional Decomposition](functional-decomposition.md)

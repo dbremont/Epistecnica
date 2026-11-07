@@ -20,7 +20,7 @@ tags: [note, nature, interaction-derived-quantity, energy, phenomena]
 
 ## Related
 
-- [Electromagnetic System](note.html?p=notes/nature/electromagnetic-system.md)
+- [Electromagnetic System](/note.html?p=notes/nature/electromagnetic-system.md)
 
 ## Provenance
 

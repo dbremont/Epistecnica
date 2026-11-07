@@ -84,16 +84,16 @@ tags: [note, cultura]
 - [Ricardo Sanmartín Arce](https://produccioncientifica.ucm.es/investigadores/164002/publicaciones)
 - …
 
-[Torero](note.html?p=notes/social/history/castilla/tauromaquia/torero.md)
+[Torero](/note.html?p=notes/social/history/castilla/tauromaquia/torero.md)
 
-[Iberia](note.html?p=notes/social/history/castilla/tauromaquia/iberia.md)
+[Iberia](/note.html?p=notes/social/history/castilla/tauromaquia/iberia.md)
 
-[Genética](note.html?p=notes/social/history/castilla/tauromaquia/genetica.md)
+[Genética](/note.html?p=notes/social/history/castilla/tauromaquia/genetica.md)
 
-[América](note.html?p=notes/social/history/castilla/tauromaquia/america.md)
+[América](/note.html?p=notes/social/history/castilla/tauromaquia/america.md)
 
-[Ganaderias](note.html?p=notes/social/history/castilla/tauromaquia/ganaderias.md)
+[Ganaderias](/note.html?p=notes/social/history/castilla/tauromaquia/ganaderias.md)
 
-[Pensamiento](note.html?p=notes/social/history/castilla/tauromaquia/pensamiento.md)
+[Pensamiento](/note.html?p=notes/social/history/castilla/tauromaquia/pensamiento.md)
 
-[Plaza](note.html?p=notes/social/history/castilla/tauromaquia/plaza.md)
+[Plaza](/note.html?p=notes/social/history/castilla/tauromaquia/plaza.md)

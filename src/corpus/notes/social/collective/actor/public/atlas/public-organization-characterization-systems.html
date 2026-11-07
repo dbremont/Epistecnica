@@ -243,9 +243,9 @@
 <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 <nav class="nav">
     <div class="nav-inner">
-        <a class="nav-brand" href="../../../../../../web/index.html">Naturgnosis</a>
+        <a class="nav-brand" href="/explorer.html">Naturgnosis</a>
         <div class="nav-right">
-            <div class="nav-links"><a href="../../../../../../web/index.html">Catalog</a></div>
+            <div class="nav-links"><a href="/explorer.html">Catalog</a></div>
             <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
         </div>
     </div>
@@ -253,7 +253,7 @@
 <div class="layout">
 <header>
     <nav class="crumbs" aria-label="Breadcrumbs">
-        <a href="../../../../../../web/index.html">notes</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social">social</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/collective/actor">actor</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/collective/actor/public">public</a><span class="sep">/</span><span class="here">Atlas</span>
+        <a href="/explorer.html">notes</a><span class="sep">/</span><a href="/explorer.html?dir=social">social</a><span class="sep">/</span><a href="/explorer.html?dir=social/collective/actor">actor</a><span class="sep">/</span><a href="/explorer.html?dir=social/collective/actor/public">public</a><span class="sep">/</span><span class="here">Atlas</span>
     </nav>
     <h1>Atlas of Public Organization Comparative Representation Systems<em>.</em></h1>
     <p class="lede" id="lede">A set of <strong>comparative representation systems for
@@ -265,7 +265,7 @@
     verdicts; evaluation uses the elements, never a single rank. Sixteen sample organizations
     stand compared in <a href="public-organization.html">Public Organizations Compared</a>.
     Canonical tables live in the
-    <a id="ledeOrg" href="/corpus/note.html?p=notes/social/collective/actor/public/public-organization.md">Public Organization</a>
+    <a id="ledeOrg" href="/note.html?p=notes/social/collective/actor/public/public-organization.md">Public Organization</a>
     note; this atlas is an explorer, not a fork.</p>
     <img class="header-engraving" src="/shared/img/naturgnosis_architectural_engraving.png" alt="" aria-hidden="true">
 
@@ -306,7 +306,7 @@
 <footer>
     <div class="foot-inner">
         <div>Naturgnosis &middot; notes</div>
-        <a href="../../../../../../web/index.html">&larr; CATALOG</a>
+        <a href="/explorer.html">&larr; CATALOG</a>
     </div>
 </footer>
 <script>
@@ -395,7 +395,7 @@
             .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     }
     function escAttr(s) { return esc(s).replace(/'/g, "&#39;"); }
-    function noteUrl(path) { return WEB + "note.html?p=notes/" + path; }
+    function noteUrl(path) { return WEB + "/note.html?p=notes/" + path; }
     function shortLabel(path) {
         return String(path).split("/").pop().replace(/\.md$/, "").split("-").map(function (w) {
             return w.charAt(0).toUpperCase() + w.slice(1);

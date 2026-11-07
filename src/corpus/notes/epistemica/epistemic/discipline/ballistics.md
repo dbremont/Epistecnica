@@ -195,10 +195,10 @@ Its first mathematical treatise is Niccolò Tartaglia's *Nova Scientia* (1537), 
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Physical Sciences](note.html?p=notes/epistemica/epistemic/discipline/physical-sciences.md) — the family whose Mechanics member ballistics specializes
-- [Newtonian Mechanics](note.html?p=notes/epistemica/singular/newtonian-mechanics.md) · [Lagrangian Mechanics](note.html?p=notes/epistemica/singular/lagrangian-mechanics.md) · [Rigid-Body Mechanics](note.html?p=notes/epistemica/singular/rigid-body-mechanics.md) · [Continuum Mechanics Framework](note.html?p=notes/epistemica/singular/continuum-mechanic-framework.md) — the laws ballistics borrows
-- [Niccolò Tartaglia](note.html?p=notes/social/collective/actor/private/persona/niccolo-tartaglia.md) — *Nova Scientia* (1537), the first mathematical treatise on ballistics
-- [EES](note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
+- [Physical Sciences](/note.html?p=notes/epistemica/epistemic/discipline/physical-sciences.md) — the family whose Mechanics member ballistics specializes
+- [Newtonian Mechanics](/note.html?p=notes/epistemica/singular/newtonian-mechanics.md) · [Lagrangian Mechanics](/note.html?p=notes/epistemica/singular/lagrangian-mechanics.md) · [Rigid-Body Mechanics](/note.html?p=notes/epistemica/singular/rigid-body-mechanics.md) · [Continuum Mechanics Framework](/note.html?p=notes/epistemica/singular/continuum-mechanic-framework.md) — the laws ballistics borrows
+- [Niccolò Tartaglia](/note.html?p=notes/social/collective/actor/private/persona/niccolo-tartaglia.md) — *Nova Scientia* (1537), the first mathematical treatise on ballistics
+- [EES](/note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - https://en.wikipedia.org/wiki/Ballistics
 - Carlucci, D. E., & Jacobson, S. S. *Ballistics: Theory and Design of Guns and Ammunition*. CRC Press.
 - McCoy, R. L. *Modern Exterior Ballistics*. Schiffer.

@@ -4,7 +4,7 @@ tags: [note, container]
 
 # Container Orchestration
 
-- Related Virtualization: Conceptual Model: [Docker](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
+- Related Virtualization: Conceptual Model: [Docker](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
 
 > Container orchestration tools help manage and automate the deployment, scaling, and management of containerized applications.
 > 

@@ -118,9 +118,9 @@ Exceptions & special cases:
 
 ## Related
 
-- [Human](note.html?p=notes/nature/human.md)
-- [Cell](note.html?p=notes/nature/cell.md)
-- [Endocrine System](note.html?p=notes/nature/endocrine-system.md)
+- [Human](/note.html?p=notes/nature/human.md)
+- [Cell](/note.html?p=notes/nature/cell.md)
+- [Endocrine System](/note.html?p=notes/nature/endocrine-system.md)
 
 ## Provenance
 

@@ -17,8 +17,8 @@ tags: [note, nature, phenomenon, chemical-reaction, chemistry, phenomena]
 
 ## Related
 
-- [Combustion](note.html?p=notes/nature/combustion.md)
-- [Pyrolysis](note.html?p=notes/nature/pyrolysis.md)
+- [Combustion](/note.html?p=notes/nature/combustion.md)
+- [Pyrolysis](/note.html?p=notes/nature/pyrolysis.md)
 
 ## Provenance
 

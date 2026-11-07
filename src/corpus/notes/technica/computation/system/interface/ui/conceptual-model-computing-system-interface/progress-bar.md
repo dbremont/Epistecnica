@@ -4,7 +4,7 @@ tags: [note, ui-component]
 
 # Progress Bar
 
-- [UI Status](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-status.md)
+- [UI Status](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-status.md)
 
 > 
 
@@ -12,7 +12,7 @@ tags: [note, ui-component]
 
 > 
 
-![image.png](../assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/progress-bar/image.png)
+![image.png](/assets/note/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/progress-bar/image.png)
 
 ## Case Studies
 

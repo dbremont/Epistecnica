@@ -44,12 +44,12 @@ There are two separate tests:
 
 ## See also
 
-- [Shalizi & Crutchfield — Computational Mechanics: Pattern and Prediction, Structure and Simplicity](note.html?p=documents/articles/shalizi-2001-computational-mechanics-pattern-prediction.md)
+- [Shalizi & Crutchfield — Computational Mechanics: Pattern and Prediction, Structure and Simplicity](/note.html?p=documents/articles/shalizi-2001-computational-mechanics-pattern-prediction.md)
 
 ## References
 
 - Vafa, K., Chen, J. Y., Rambachan, A., Kleinberg, J., & Mullainathan, S. (2024). *Evaluating the World Model Implicit in a Generative Model*. arXiv:2406.03689. https://arxiv.org/abs/2406.03689
 - Shalizi, C. R., & Crutchfield, J. P. (2001). *Computational Mechanics: Pattern and Prediction, Structure and Simplicity*. Journal of Statistical Physics, 104, 817–879.
-- [Generative Model](note.html?p=notes/epistemica/observational/computational/generative-model.md)
-- [Computational Learning](note.html?p=notes/epistemica/observational/computational/computational-learning.md)
-- [Active Inference](note.html?p=notes/epistemica/adaptative/active-inference.md)
+- [Generative Model](/note.html?p=notes/epistemica/observational/computational/generative-model.md)
+- [Computational Learning](/note.html?p=notes/epistemica/observational/computational/computational-learning.md)
+- [Active Inference](/note.html?p=notes/epistemica/adaptative/active-inference.md)

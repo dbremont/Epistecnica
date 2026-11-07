@@ -39,8 +39,8 @@ QA:
 
 ## Related
 
-- [Concept](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
-- [Symbol](note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
+- [Concept](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
+- [Symbol](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
 
 ## Provenance
 

@@ -4,7 +4,7 @@ tags: [note, nature, natural-system]
 
 # Occurrence in Biological Organisms
 
-> A natural element read per [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -36,6 +36,6 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## References
 
-- [How to decompose any natural instance?](note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Hormone 0eaa83da0c0a4a279d6d409383ec5893.md`; `Protein 10cc0f5171ec801baf1edb1f7fadb809.md`

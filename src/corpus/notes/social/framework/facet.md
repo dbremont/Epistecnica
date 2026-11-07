@@ -36,11 +36,11 @@ tags: [note, facet, social-ontology, dimension, layers, analytical]
 | **Artistic** | Aesthetic creation, cultural production, critique, and symbolic capital. |
 | **Innovation** | Invention, applied knowledge, technological development, and problem-solving activities. |
 | **Recreational** | Leisure, sports, games, and organized recreational activity. |
-| **Scientific** (the research facet) | Knowledge production, research, experimentation, peer evaluation, and formalized inquiry — historical grounding and structuring exemplars in [Research Facet](note.html?p=notes/social/facet/research.md). |
+| **Scientific** (the research facet) | Knowledge production, research, experimentation, peer evaluation, and formalized inquiry — historical grounding and structuring exemplars in [Research Facet](/note.html?p=notes/social/facet/research.md). |
 
 ## Facets and layers
 
-> Facets and layers are two orthogonal axes. Layers (Ontic, Synontic, Noetic, Multi) state in which stratum an element exists — extra-mentally, through shared interpretation, as a descriptive instrument, or across strata; facets state by which dominant causal mechanism it is scoped. Every social element is read against both: an element's layer is part of its type, while its facet scopes the inquiry. See "Why do we need layers and facets?" in [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> Facets and layers are two orthogonal axes. Layers (Ontic, Synontic, Noetic, Multi) state in which stratum an element exists — extra-mentally, through shared interpretation, as a descriptive instrument, or across strata; facets state by which dominant causal mechanism it is scoped. Every social element is read against both: an element's layer is part of its type, while its facet scopes the inquiry. See "Why do we need layers and facets?" in [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md).
 
 ## Facet vs. field
 
@@ -58,8 +58,8 @@ tags: [note, facet, social-ontology, dimension, layers, analytical]
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Social Ontology](note.html?p=notes/social/framework/social-ontology.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Social Ontology](/note.html?p=notes/social/framework/social-ontology.md)
 - [Facet of Social Reality](http://localhost:8004/Locus-Social-Realitatis/Facet/)
 - [Field Theory](https://en.wikipedia.org/wiki/Field_theory_(sociology))
 - [System](https://righteous-guardian-68f.notion.site/System-1dac0f5171ec80c38c08f74d095235a9?source=copy_link)

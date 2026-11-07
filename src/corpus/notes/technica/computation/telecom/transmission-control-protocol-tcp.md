@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # Transmission Control Protocol (TCP)
 
-- [HTTP](note.html?p=notes/technica/computation/telecom/http.md)
+- [HTTP](/note.html?p=notes/technica/computation/telecom/http.md)
 
 > **Transmission Control Protocol (TCP)** is a core protocol of the Internet protocol suite that provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts communicating via an IP network.
 > 
@@ -15,7 +15,7 @@ tags: [note, computer-network, protocol]
 > TCP is stateful, maintaining **per-connection state** in the form of **Transmission Control Blocks (TCBs)**, which store all relevant connection parameters (e.g., sequence numbers, window sizes, timers).
 > 
 
-![image.png](../assets/note/technica/computation/telecom/transmission-control-protocol-tcp/image.png)
+![image.png](/assets/note/technica/computation/telecom/transmission-control-protocol-tcp/image.png)
 
 QA:
 

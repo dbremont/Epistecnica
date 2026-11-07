@@ -16,7 +16,7 @@ tags: [note, nature, natural-system, materials-science, matter, system, unfinish
 
 ## Related
 
-- [Material Failure](note.html?p=notes/nature/material-failure.md)
+- [Material Failure](/note.html?p=notes/nature/material-failure.md)
 
 ## Provenance
 

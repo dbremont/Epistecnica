@@ -4,7 +4,7 @@ tags: [note, building-block]
 
 # Identifier
 
-- [Sequence Identifier](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/sequence-identifier.md)
+- [Sequence Identifier](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/sequence-identifier.md)
 
 Guiding Questions:
 
@@ -55,7 +55,7 @@ QA:
 ## References
 
 - https://en.wikipedia.org/wiki/Universally_unique_identifier
-- [Naming](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/naming.md)
-- [Name](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/name.md) [Names In a  **Computer Process Object Space**]
-- [Database Record Identifier Models](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/database-record-identifier-models.md)
-- [Program Element](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
+- [Naming](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/naming.md)
+- [Name](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/name.md) [Names In a  **Computer Process Object Space**]
+- [Database Record Identifier Models](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/database-record-identifier-models.md)
+- [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)

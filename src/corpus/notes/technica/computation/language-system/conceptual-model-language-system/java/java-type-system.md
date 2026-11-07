@@ -205,7 +205,7 @@ Guiding Questions:
 ## References
 
 - [Type system](https://doc.rust-lang.org/reference/type-system.html#type-system)
-- [Type System](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 - [Taming Wildcards in Java’s Type System](https://www.cs.cornell.edu/~ross/publications/tamewild/tamewild-tate-pldi11.pdf)
 - [The Java type system is broken](https://wouter.coekaerts.be/2018/java-type-system-broken)
 - [Generics in Java](https://en.wikipedia.org/wiki/Generics_in_Java)

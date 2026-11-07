@@ -9,7 +9,7 @@ tags: [note, nature, natural-constraint, physics, principle, technique]
 
 ## Related
 
-- [Time Dilation](note.html?p=notes/nature/time-dilation.md)
+- [Time Dilation](/note.html?p=notes/nature/time-dilation.md)
 
 ## Provenance
 

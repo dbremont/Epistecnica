@@ -4,7 +4,7 @@ tags: [note, tooling]
 
 # Descartes’s Method
 
-Related: [Epistemology](note.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Philosophical System](note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
+Related: [Epistemology](/note.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
 
 > **Rationalism**
 > 
@@ -33,6 +33,6 @@ Related: [Epistemology](note.html?p=notes/epistemica/epistemic/theory/epistemolo
 
 ## References
 
-- [Reason](note.html?p=notes/epistemica/epistemic/theory/reason.md)
+- [Reason](/note.html?p=notes/epistemica/epistemic/theory/reason.md)
 - https://plato.stanford.edu/entries/descartes-method/
 - https://www.youtube.com/watch?v=trwXp6hMN8M

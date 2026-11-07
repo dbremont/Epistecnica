@@ -10,7 +10,7 @@ tags: [note, nature, natural-system, system]
 QA:
 
 - How to model the Earth Orbit?
-- Does the length of a year change over time, and if so, what causes these variations? [Does the length of a year change over time, and if so, what causes these variations?](note.html?p=notes/nature/earth.md)
+- Does the length of a year change over time, and if so, what causes these variations? [Does the length of a year change over time, and if so, what causes these variations?](/note.html?p=notes/nature/earth.md)
 
 ## Index
 
@@ -154,8 +154,8 @@ Due to tidal interactions with the Moon, Earth's rotation is gradually slowing. 
 
 ## Related
 
-- [Earth Water System](note.html?p=notes/nature/earth-water-system.md)
-- [Earth Crust](note.html?p=notes/nature/earth-crust.md)
+- [Earth Water System](/note.html?p=notes/nature/earth-water-system.md)
+- [Earth Crust](/note.html?p=notes/nature/earth-crust.md)
 
 ## Provenance
 

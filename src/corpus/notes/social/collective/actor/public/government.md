@@ -16,7 +16,7 @@ tags: [note, government, collective, social-element, actor]
 
 ### What type of social element does this instance belong to?
 
-**Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](note.html?p=notes/social/collective/collective.md). It is typed under [Actor](note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](note.html?p=notes/social/collective/actor/organization.md); its operating units are [Public Organization](note.html?p=notes/social/collective/actor/public/public-organization.md) instances.
+**Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/note.html?p=notes/social/collective/collective.md). It is typed under [Actor](/note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/note.html?p=notes/social/collective/actor/organization.md); its operating units are [Public Organization](/note.html?p=notes/social/collective/actor/public/public-organization.md) instances.
 
 Its layer is **Ontic** where the government exists extra-mentally (office-holders, ministries, premises, budgets) with **Synontic** aspects (authority, legitimacy, and jurisdiction exist through shared recognition and constitutional warrant).
 
@@ -24,11 +24,11 @@ It is not the `State` (the political organization that persists across successiv
 
 ### Is the type of this `social element instance` unambiguous?
 
-> Yes, as a compound kind: the mandate-bound governing collective is unambiguous, while the state-actor reading (an `Interaction Unit` wielding delegated sovereign power) and the office/role readings (minister, head of government as `Social Role`s) are secondary aspects of the same instance, not rival roots. They are recorded here as prose, not second trees; the tree below is typed once. A second tree is not grown because the state-actor grammar (`Social Actor` / `State Actor`) is not established as a subtype branch in [Actor](note.html?p=notes/social/collective/actor/actor.md), so it would use unlicensed types.
+> Yes, as a compound kind: the mandate-bound governing collective is unambiguous, while the state-actor reading (an `Interaction Unit` wielding delegated sovereign power) and the office/role readings (minister, head of government as `Social Role`s) are secondary aspects of the same instance, not rival roots. They are recorded here as prose, not second trees; the tree below is typed once. A second tree is not grown because the state-actor grammar (`Social Actor` / `State Actor`) is not established as a subtype branch in [Actor](/note.html?p=notes/social/collective/actor/actor.md), so it would use unlicensed types.
 
 ### Which facet does this element belong to, if applicable?
 
-> Political first (authoritative rule-execution is the dominant causal mechanism); administrative where it operates through agencies and the civil service; legal-constitutional where its mandate, competencies, and limits are defined. See [Facet](note.html?p=notes/social/framework/facet.md).
+> Political first (authoritative rule-execution is the dominant causal mechanism); administrative where it operates through agencies and the civil service; legal-constitutional where its mandate, competencies, and limits are defined. See [Facet](/note.html?p=notes/social/framework/facet.md).
 
 ### What is the recursive instance decomposition of this social instance?
 
@@ -45,7 +45,7 @@ It is not the `State` (the political organization that persists across successiv
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` National Government | Government exercising public power at the level of the state as a whole. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Regional Government | Government exercising public power within a constituent region, federal unit, or autonomous territory. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government | Government exercising public power over a bounded locality and its services. |
-| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government `(→ Kind)` Municipal Government | Local Government kind governing a bounded urban locality and its services; worked in [Municipal Government](note.html?p=notes/social/collective/actor/public/municipal-government.md). |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government `(→ Kind)` Municipal Government | Local Government kind governing a bounded urban locality and its services; worked in [Municipal Government](/note.html?p=notes/social/collective/actor/public/municipal-government.md). |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution | The constituents and constitutive relations through which a plurality constitutes an identifiable government. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution `(→ Part)` Constituent Set | The persons, agents, and organizations that constitute the government. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution `(→ Part)` Constituent Set `(→ Part)` Constituent Agent Set | Office-holders — head of government, ministers, junior ministers — who constitute the government directly. |
@@ -84,7 +84,7 @@ It is not the `State` (the political organization that persists across successiv
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, measurement validity, and misuse resistance. The government/state/administration conflation reads here as parsimony plus fidelity failures: a persisting state is not its transient government, and neither is its operating machinery — merging the three rows would type three different jobs as one.
 
@@ -355,16 +355,16 @@ It is not the `State` (the political organization that persists across successiv
 
 ## References
 
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Collective](note.html?p=notes/social/collective/collective.md)
-- [Actor](note.html?p=notes/social/collective/actor/actor.md)
-- [Organization](note.html?p=notes/social/collective/actor/organization.md)
-- [Government-Wide Administrative System'](note.html?p=notes/social/collective/actor/public/gov-wide-administration.md)
-- [Public Policy](note.html?p=notes/social/action/public/guidance/policy.md)
-- [Facet](note.html?p=notes/social/framework/facet.md)
-- [Philosophia Conceptuum et Operis](note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
-- [Public Administration](note.html?p=notes/social/collective/actor/public/administration.md)
-- [Municipal Government](note.html?p=notes/social/collective/actor/public/municipal-government.md) (Local Government sub-type, urban-locality kind)
-- [Civil Service](note.html?p=notes/social/collective/actor/public/civil-service.md)
-- [Law](note.html?p=notes/social/normative/law.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Collective](/note.html?p=notes/social/collective/collective.md)
+- [Actor](/note.html?p=notes/social/collective/actor/actor.md)
+- [Organization](/note.html?p=notes/social/collective/actor/organization.md)
+- [Government-Wide Administrative System'](/note.html?p=notes/social/collective/actor/public/gov-wide-administration.md)
+- [Public Policy](/note.html?p=notes/social/action/public/guidance/policy.md)
+- [Facet](/note.html?p=notes/social/framework/facet.md)
+- [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Public Administration](/note.html?p=notes/social/collective/actor/public/administration.md)
+- [Municipal Government](/note.html?p=notes/social/collective/actor/public/municipal-government.md) (Local Government sub-type, urban-locality kind)
+- [Civil Service](/note.html?p=notes/social/collective/actor/public/civil-service.md)
+- [Law](/note.html?p=notes/social/normative/law.md)
 - [Government](https://en.wikipedia.org/wiki/Government)

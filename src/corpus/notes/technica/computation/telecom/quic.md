@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # QUIC
 
-- [HTTP](note.html?p=notes/technica/computation/telecom/http.md)
+- [HTTP](/note.html?p=notes/technica/computation/telecom/http.md)
 
 > **QUIC (Quick UDP Internet Connections)** is a transport protocol developed by Google that improves web performance and security by combining multiplexed connections, reduced latency, and built-in encryption over UDP.
 > 

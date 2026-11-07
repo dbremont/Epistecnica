@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, united-states, brand-owned, dtc, omnichannel
 ## References
 
 - Wikipedia — Nike (encyclopedic entry)
-- [Commerce Economic Activity](note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

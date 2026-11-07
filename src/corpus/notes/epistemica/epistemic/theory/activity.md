@@ -4,7 +4,7 @@ tags: [note, epistemology]
 
 # Activity
 
-Related: [Modelling](note.html?p=notes/epistemica/epistemic/theory/modelling.md)
+Related: [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md)
 
 > An epistemic activity is any operation performed by an observer to construct, transform, evaluate, or apply knowledge about reality.
 > 

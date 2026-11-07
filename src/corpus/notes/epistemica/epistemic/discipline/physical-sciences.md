@@ -119,7 +119,7 @@ This note is the family-level decomposition; each member discipline is a practic
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Mathematics](note.html?p=notes/epistemica/epistemic/discipline/mathematics.md) · [Chemical Sciences](note.html?p=notes/epistemica/epistemic/discipline/chemical-sciences.md) · [Biological Sciences](note.html?p=notes/epistemica/epistemic/discipline/biological-sciences.md) · [Geometry](note.html?p=notes/epistemica/mathematical/geometry/geometry.md) · [Physics](note.html?p=notes/nature/physics.md) · [Optical Phenomena](note.html?p=notes/nature/optical-phenomena.md)
+- [Mathematics](/note.html?p=notes/epistemica/epistemic/discipline/mathematics.md) · [Chemical Sciences](/note.html?p=notes/epistemica/epistemic/discipline/chemical-sciences.md) · [Biological Sciences](/note.html?p=notes/epistemica/epistemic/discipline/biological-sciences.md) · [Geometry](/note.html?p=notes/epistemica/mathematical/geometry/geometry.md) · [Physics](/note.html?p=notes/nature/physics.md) · [Optical Phenomena](/note.html?p=notes/nature/optical-phenomena.md)
 - https://en.wikipedia.org/wiki/Outline_of_physics
 - https://en.wikipedia.org/wiki/Optics
 - Feynman, R. P. (1963). *The Feynman Lectures on Physics*. Addison-Wesley.

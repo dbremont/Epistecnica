@@ -4,12 +4,12 @@ tags: [note, query-language]
 
 # SQL
 
-- [Query Language](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md)
+- [Query Language](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md)
 
 > SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases.
 > 
 
-![Untitled](../assets/note/technica/computation/data-system/data-system-conceptual-model/sql/untitled.png)
+![Untitled](/assets/note/technica/computation/data-system/data-system-conceptual-model/sql/untitled.png)
 
 ## Language Specification
 
@@ -259,7 +259,7 @@ FROM table1
 3. **RIGHT (OUTER) JOIN** – Returns all rows from the right table, with matching rows from the left table (NULL if no match).
 4. **FULL (OUTER) JOIN** – Returns all rows from both tables; unmatched rows are NULL on the opposite side.
 5. **CROSS JOIN** – Returns the Cartesian product of both tables (all possible combinations).
-6. **APPLY** – Conceptually, it behaves like a join, but at the implementation level, it operates more like a row-by-row subquery. [Apply](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md).
+6. **APPLY** – Conceptually, it behaves like a join, but at the implementation level, it operates more like a row-by-row subquery. [Apply](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/sql.md).
 
 ### Group By
 
@@ -491,7 +491,7 @@ pivot (
 - [CTE as Lookup Tables](https://news.ycombinator.com/item?id=34346411)
 - [Isolation Level](https://www.wikiwand.com/en/Isolation_(database_systems))
 - [A Guide to Study Programming Language](https://app.notion.com/p/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?pvs=21)
-- [Relational Data Model](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md)
+- [Relational Data Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-model.md)
 - Praxis
     - https://www.hackerrank.com/domains/sql
     - https://leetcode.com/studyplan/top-sql-50/

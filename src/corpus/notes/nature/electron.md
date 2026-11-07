@@ -77,7 +77,7 @@ They **mean**:
 
 ## Related
 
-- [Chemical Element](note.html?p=notes/nature/chemical-element.md)
+- [Chemical Element](/note.html?p=notes/nature/chemical-element.md)
 
 ## Provenance
 

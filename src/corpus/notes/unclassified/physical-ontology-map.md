@@ -7,7 +7,7 @@ tags: [note, miscellanea, model]
 > A general map to the  ontic elements relevant for describing physical reality.
 >
 
-> For the details on each see ([Nature](note.html?p=notes/nature/nature.md)).
+> For the details on each see ([Nature](/note.html?p=notes/nature/nature.md)).
 >
 
 ## Index
@@ -59,9 +59,9 @@ tags: [note, miscellanea, model]
 
 ## References
 
-- [Nature](note.html?p=notes/nature/nature.md)
-- [Particle](note.html?p=notes/nature/particle.md)
-- [Energy](note.html?p=notes/nature/energy.md)
+- [Nature](/note.html?p=notes/nature/nature.md)
+- [Particle](/note.html?p=notes/nature/particle.md)
+- [Energy](/note.html?p=notes/nature/energy.md)
 - [Reference Frame](https://app.notion.com/p/Reference-Frame-16dc0f5171ec80d18ecdea1ed8201ee6?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb79081a49d9bcb8b219c6ec0?pvs=21)
 

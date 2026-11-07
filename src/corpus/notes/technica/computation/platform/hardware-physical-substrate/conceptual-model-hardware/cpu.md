@@ -4,7 +4,7 @@ tags: [note]
 
 # CPU
 
-- [Microarchitecture](note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/microarchitecture.md)
+- [Microarchitecture](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/microarchitecture.md)
 
 > The Central Processing Unit is a highly integrated, synchronous sequential logic circuit functioning as the physical realization of an Instruction Set Architecture (ISA) that utilizes a pipelined, superscalar microarchitecture to orchestrate the fetch-decode-execute cycle by dispatching micro-operations to parallel arithmetic logic units and floating-point units, while mitigating memory latency through speculative execution, dynamic branch prediction, and a coherent multi-level cache hierarchy.
 > 
@@ -20,7 +20,7 @@ QA:
 
 ## Formulation
 
-![image.png](../assets/note/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu/image.png)
+![image.png](/assets/note/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu/image.png)
 
 ## Structure
 

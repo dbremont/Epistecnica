@@ -4,7 +4,7 @@ tags: [note, c-c, language-system, tool]
 
 # GCC : GNU Compiler Collection
 
-- [glibc](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/glibc.md)
+- [glibc](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/glibc.md)
 
 > **GCC (GNU Compiler Collection)** is a modular, retargetable, and optimizing compiler system that translates high-level source code (C, C++, Fortran, Ada, and others) into machine code through a multi-stage pipeline involving lexical analysis, parsing, intermediate representation (GIMPLE, SSA), optimization (loop transformations, inlining, vectorization), and target-specific code generation using **RTL (Register Transfer Language)** before final assembly and linking, supporting multiple architectures and extensions via backend code generators.
 > 
@@ -12,7 +12,7 @@ tags: [note, c-c, language-system, tool]
 QA:
 
 - Which are the limitations of gprof?  See more  [Profiling S**hortcomings**](https://app.notion.com/p/Profiling-Shortcomings-1c1c0f5171ec80c3adabc27e6393e65c?pvs=21).
-- Does gprof log every function call during profiling, or does it sample a subset of calls? If it samples, how frequently does this occur, and what are the implications on accuracy? [Does `gcc -pg` log every function call during profiling, or does it sample a subset of calls? If it samples, how frequently does this occur, and what are the implications on accuracy?](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)
+- Does gprof log every function call during profiling, or does it sample a subset of calls? If it samples, how frequently does this occur, and what are the implications on accuracy? [Does `gcc -pg` log every function call during profiling, or does it sample a subset of calls? If it samples, how frequently does this occur, and what are the implications on accuracy?](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)
 
 ## List of Features
 
@@ -124,7 +124,7 @@ QA:
 > **GCC Instrumentation** refers to the **compiler-assisted** modification of a program's binary and execution flow to enable profiling, debugging, performance analysis, or runtime monitoring. It involves inserting additional instructions into the compiled code at compile-time, which collect metadata about function calls, execution paths, branch coverage, and system interactions.
 > 
 
-> Note: After the program is instrumented with **`-pg`**, a **`gmon.out`** file will be generated, which can then be analyzed using [gprof](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gprof.md).
+> Note: After the program is instrumented with **`-pg`**, a **`gmon.out`** file will be generated, which can then be analyzed using [gprof](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gprof.md).
 > 
 
 | **Option** | **Use Case** | **Instrumentation Method** |
@@ -136,8 +136,8 @@ QA:
 
 References:
 
-- [gmon](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/glibc.md)
-- [SIGPROF](note.html?p=notes/technica/computation/operating-system/linux/sigprof.md) (Signal)
+- [gmon](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/glibc.md)
+- [SIGPROF](/note.html?p=notes/technica/computation/operating-system/linux/sigprof.md) (Signal)
 - https://github.com/lattera/glibc/blob/master/gmon/mcount.c
 - https://github.com/lattera/glibc/tree/master/gmon
 - https://gcc.gnu.org/onlinedocs/gcc-9.1.0/gcc/Instrumentation-Options.html
@@ -182,6 +182,6 @@ References:
 - [C Preprocessor](https://en.wikipedia.org/wiki/C_preprocessor)
 - What is a GCC toolchain?
 [https://stackoverflow.com/questions/50307733/what-is-a-gcc-toolchain](https://stackoverflow.com/questions/50307733/what-is-a-gcc-toolchain)
-- [Profiler](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
+- [Profiler](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
 - https://stackoverflow.com/questions/27082959/gcc-static-and-pie-are-incompatible-for-x86
-- [LLVM (Low Level Virtual Machine)](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/llvm-low-level-virtual-machine.md)
+- [LLVM (Low Level Virtual Machine)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/llvm-low-level-virtual-machine.md)

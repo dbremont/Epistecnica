@@ -393,13 +393,13 @@
     .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
     .site-footer a:hover { color: var(--accent-cyan); }
   </style>
-  <link rel="stylesheet" href="../../../../../../shared/usearch.css">
+  <link rel="stylesheet" href="/shared/usearch.css">
 </head>
 <body>
   <canvas id="ambientCanvas" aria-hidden="true"></canvas>
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="../../../../../../img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <a class="nav-brand" href="../../../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
       <div class="nav-right">
         <div class="usearch-wrap">
           <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -414,7 +414,7 @@
 
   <div class="layout">
     <div class="note-header">
-      <div class="crumbs"><a href="../../../../../index.html">notes</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change">change</a><span class="sep">/</span><a href="../../../../../index.html?dir=epistemica/mathematical/change/rsp">rsp</a><span class="sep">/</span><span class="here">atlas</span></div>
+      <div class="crumbs"><a href="/explorer.html">notes</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica">epistemica</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica/mathematical">mathematical</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica/mathematical/change">change</a><span class="sep">/</span><a href="/explorer.html?dir=epistemica/mathematical/change/rsp">rsp</a><span class="sep">/</span><span class="here">atlas</span></div>
       <h1 class="note-title">Atlas of Dynamical Representational Systems</h1>
       <div class="note-meta">
         <span class="chip">live note</span>
@@ -447,7 +447,7 @@
             <h2 id="references">References</h2>
             <ul>
               <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation &rarr; Representational System</em></li>
-              <li><a href="/corpus/note.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a> — the scope note this atlas serves</li>
+              <li><a href="/note.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a> — the scope note this atlas serves</li>
             </ul>
 
           </div>
@@ -459,7 +459,7 @@
   <footer class="site-footer">
     <div class="foot-inner">
       <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
-      <a href="../../../../../index.html">&larr; CATALOG</a>
+      <a href="/explorer.html">&larr; CATALOG</a>
     </div>
   </footer>
 
@@ -636,7 +636,7 @@
   function hrefOf(e) {
     if (!e.note) return null;
     if (e.kind === "live") return "../" + e.note.split("/").pop();
-    return NOTE_REL + "note.html?p=notes/" + e.note;
+    return NOTE_REL + "/note.html?p=notes/" + e.note;
   }
 
   var PG = {
@@ -965,7 +965,7 @@
     apply();
 })();
 </script>
-<script src="../../../../../../glossarium/js/glossarium-lookup.js" data-glossarium="../../../../../../glossarium/data/index.json" defer></script>
-  <script src="../../../../../../shared/usearch.js" data-root="../../../../../../"></script>
+<script src="/glossarium/js/glossarium-lookup.js" data-glossarium="/glossarium/data/index.json" defer></script>
+  <script src="/shared/usearch.js" data-root="../../../../../../"></script>
 </body>
 </html>

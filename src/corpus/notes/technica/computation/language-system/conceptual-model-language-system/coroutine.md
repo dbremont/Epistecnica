@@ -4,7 +4,7 @@ tags: [note, effect-system]
 
 # Coroutine
 
-- [Continuation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation.md)
+- [Continuation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation.md)
 
 > **Coroutine** is a component that generalizes a subroutine to allow multiple entry points for suspending and resuming execution at certain locations. Unlike subroutines, coroutines can exit by calling other coroutines, which may later return to the point where they were invoked in the original coroutine.
 > 

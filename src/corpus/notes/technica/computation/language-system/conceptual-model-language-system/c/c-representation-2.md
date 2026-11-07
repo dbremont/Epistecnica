@@ -221,11 +221,11 @@ Performance:
 
 ## References
 
-- [Linker](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md).
-- [Representation](note.html?p=notes/technica/computation/representation.md)
+- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md).
+- [Representation](/note.html?p=notes/technica/computation/representation.md)
 - [**X:  🔀** Representation](https://app.notion.com/p/X-Representation-1c5c0f5171ec808bb72aedfec40f0241?pvs=21)
 - [X: 📚 Standard Library](https://app.notion.com/p/X-Standard-Library-fc444f130f9a4937ad9a96024b6f6bba?pvs=21)
 - C++: 📚 Standard Library
-- [Intermediate Representation](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
+- [Intermediate Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
 - [‣](https://app.notion.com/p/289598edb79080359cb0e8e7f900da96?pvs=21)
 - [‣](https://app.notion.com/p/2b2598edb79080179c52c3dfbecbb5ce?pvs=21)

@@ -4,7 +4,7 @@ tags: [note, development]
 
 # UI/UX
 
-- [User Research](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/user-research.md)
+- [User Research](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/user-research.md)
 
 > UX: A multidimensional system property representing the dynamic, contextual, and affective interaction between a user and a system, emergent from the coalescence of cognitive load, usability metrics, interaction feedback loops, perceptual-motor efficiency, and system affordances within a defined task environment.
 > 

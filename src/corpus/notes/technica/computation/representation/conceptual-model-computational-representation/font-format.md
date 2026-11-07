@@ -4,7 +4,7 @@ tags: [note, font-format, text-format]
 
 # Font Format
 
-- [Unicode](note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/unicode.md)
+- [Unicode](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/unicode.md)
 
 > The **representation problem of fonts** in digital typography refers to the challenge of accurately encoding, storing, and rendering font data across diverse platforms, resolutions, and rendering systems while ensuring consistency, scalability, and fidelity to the original typeface design.
 > 
@@ -40,4 +40,4 @@ QA:
 ## References
 
 - - [Representation Problem: **Font**]
-- [**Computational Typography**](note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
+- [**Computational Typography**](/note.html?p=notes/technica/computation/miscelanea/computational-typography.md)

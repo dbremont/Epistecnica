@@ -404,7 +404,7 @@ So the VM is not a single program—it is a **coordinated set of execution, emul
 > The **scope of QEMU** defines the full set of capabilities it provides as a system-level machine constructor, emulator, and virtualization runtime.
 > 
 
-> See  [Virtual Machine Interface](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md).
+> See  [Virtual Machine Interface](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md).
 > 
 
 ### Use Set
@@ -494,10 +494,10 @@ QEMU Limit Set =
 - [Frida](https://frida.re/)
 - [Ghidra](https://ghidra-sre.org/)
 - https://www.qemu.org/docs/master/devel/index-tcg.html
-- [xv6](note.html?p=notes/technica/computation/operating-system/xv6.md)
-- [KVM](note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/kvm.md)
-- [**Firmware**](note.html?p=notes/technica/computation/operating-system/linux/firmware.md)
-- [Linux Virtualization Stack](note.html?p=notes/technica/computation/operating-system/linux/linux-virtualization-stack.md)
-- [GDB (GNU Project Debugger)](note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
+- [xv6](/note.html?p=notes/technica/computation/operating-system/xv6.md)
+- [KVM](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/kvm.md)
+- [**Firmware**](/note.html?p=notes/technica/computation/operating-system/linux/firmware.md)
+- [Linux Virtualization Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-virtualization-stack.md)
+- [GDB (GNU Project Debugger)](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
 - https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF
 - https://www.qemu.org/docs/master/user/main.html

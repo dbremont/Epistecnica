@@ -79,5 +79,5 @@ Two load-bearing caveats.
 
 - [Austrian Academy of Sciences](https://www.oeaw.ac.at/en/)
 - [Austrian Academy of Sciences](https://en.wikipedia.org/wiki/Austrian_Academy_of_Sciences)
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Research Actor](note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)

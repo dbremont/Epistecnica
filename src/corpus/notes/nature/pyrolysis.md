@@ -13,7 +13,7 @@ tags: [note, nature, phenomenon, chemistry, phenomena]
 
 ## Related
 
-- [Chemical Decomposition](note.html?p=notes/nature/chemical-decomposition.md)
+- [Chemical Decomposition](/note.html?p=notes/nature/chemical-decomposition.md)
 
 ## Provenance
 

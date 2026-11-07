@@ -4,7 +4,7 @@ tags: [note, technique]
 
 # Indirection
 
-- [Technique](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/technique.md), [Abstraction](note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
+- [Technique](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/technique.md), [Abstraction](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/abstraction.md)
 
 > In computer science, **indirection refers** to the technique of accessing data or resources through an intermediate layer, reference, or identifier rather than directly. It involves using a **"pointer"** or **"reference"** to locate the actual target, creating an indirect path to the desired information. This concept is foundational in programming, data structures, and system design.
 > 

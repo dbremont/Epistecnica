@@ -4,7 +4,7 @@ tags: [note, build-system, tool]
 
 # Make
 
-- [Build System](note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
+- [Build System](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
 
 > **Make** is a build automation tool that determines the dependencies between source files and the necessary commands to build target files (such as executable programs or libraries). It uses a **Makefile** to define rules for building these targets. The basic function of Make is to evaluate file modification timestamps, compare them against their dependencies, and execute a series of commands to update out-of-date targets.
 > 
@@ -35,7 +35,7 @@ tags: [note, build-system, tool]
 
 QA
 
-- How to pass the values of variables in make files? [How to pass the values of variables in make files?](note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/make.md)
+- How to pass the values of variables in make files? [How to pass the values of variables in make files?](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/make.md)
 
 ## Flags
 

@@ -4,7 +4,7 @@ tags: [note, representation, tooling]
 
 # Model
 
-Related: [Computational Irreducibility](note.html?p=notes/epistemica/epistemic/theory/computational-irreducibility.md), [Epistemology](note.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](note.html?p=notes/epistemica/epistemic/theory/ontology.md), [Modelling](note.html?p=notes/epistemica/epistemic/theory/modelling.md), [Epistemic Artifact](note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
+Related: [Computational Irreducibility](/note.html?p=notes/epistemica/epistemic/theory/computational-irreducibility.md), [Epistemology](/note.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md), [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md), [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
 
 > A note on the theory modelling (that is the praxis of epistemology).
 > 
@@ -15,7 +15,7 @@ Related: [Computational Irreducibility](note.html?p=notes/epistemica/epistemic/t
 > **Note:** A model of reality is, fundamentally, an **affirmation about reality** — often a **composite affirmation** built from more basic, fundamental affirmations. However, this is not always strictly the case: in **effective models**, some components of the model may **not correspond directly to affirmations about reality**, but serve as computational or conceptual tools. Still, in general, the **model as a whole represents an affirmation about reality**.
 > 
 
-![Untitled](../assets/note/philosophia-naturalis/model/what-is-a-model.png)
+![Untitled](/assets/note/philosophia-naturalis/model/what-is-a-model.png)
 
 ![](https://i.imgur.com/nsNmIw4.png)
 

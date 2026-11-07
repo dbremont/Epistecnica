@@ -54,5 +54,5 @@ tags: [note]
 ## References
 
 - https://en.wikipedia.org/wiki/Rendering_(computer_graphics)
-- (Text Rendering) [**Computational Typography**](note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
+- (Text Rendering) [**Computational Typography**](/note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
 - https://github.com/dbremont/rendering/tree/main

@@ -4,7 +4,7 @@ tags: [note, philosophical-system]
 
 # Berkeley's Method
 
-Related: [Philosophical System](note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
+Related: [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
 
 > George Berkeley’s philosophical system, **immaterialist idealism**, asserts that all reality consists solely of perceiving minds and their ideas, with the apparent existence of material objects explained as collections of perceptions sustained by God’s continuous perception.
 > 

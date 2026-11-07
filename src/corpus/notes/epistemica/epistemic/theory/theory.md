@@ -68,4 +68,4 @@ tags: [note]
 ## References
 
 - https://en.wikipedia.org/wiki/Theory
-- [Explanation](note.html?p=notes/epistemica/epistemic/theory/explanation.md)
+- [Explanation](/note.html?p=notes/epistemica/epistemic/theory/explanation.md)

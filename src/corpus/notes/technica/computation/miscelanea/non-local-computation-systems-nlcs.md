@@ -10,4 +10,4 @@ tags: [note]
 
 ## References
 
-- [🌍 **Non-Local State Based Computation**](note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
+- [🌍 **Non-Local State Based Computation**](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)

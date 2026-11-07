@@ -4,7 +4,7 @@ tags: [note]
 
 # Relational Data System Storage Management
 
-- [Heap File Organization](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/heap-file-organization.md), [Buffer Manager](note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/buffer-manager.md)
+- [Heap File Organization](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/heap-file-organization.md), [Buffer Manager](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/buffer-manager.md)
 
 > Relational Data System (RDS) Storage Management is the **component of a relational database system responsible for organizing, allocating, accessing, and maintaining data and metadata on storage media** (disk, SSD, or memory). It ensures that tuples, pages, and tables are stored efficiently, retrieved quickly, and kept consistent and durable according to transactional semantics.
 > 
@@ -14,15 +14,15 @@ tags: [note]
 
 ## Storage Hierarchy
 
-> See more in [Storage System](note.html?p=notes/technica/computation/operating-system/linux/storage-system.md).
+> See more in [Storage System](/note.html?p=notes/technica/computation/operating-system/linux/storage-system.md).
 > 
 
 > **Random access** on non-volatile storage is almost always slower than **sequential access**.
 > 
 
-![image.png](../assets/note/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image.png)
+![image.png](/assets/note/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image.png)
 
-![image.png](../assets/note/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image-1.png)
+![image.png](/assets/note/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management/image-1.png)
 
 ## File Storage
 

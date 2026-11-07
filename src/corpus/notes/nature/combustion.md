@@ -37,7 +37,7 @@ tags: [note, nature, phenomenon, chemical-reaction, chemistry, phenomena, physic
 
 ## Related
 
-- [Chemical Decomposition](note.html?p=notes/nature/chemical-decomposition.md)
+- [Chemical Decomposition](/note.html?p=notes/nature/chemical-decomposition.md)
 
 ## Provenance
 

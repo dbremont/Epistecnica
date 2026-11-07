@@ -7,11 +7,11 @@ tags: [note, materials]
 > **Technical Biogenic Material** is worked matter from living feedstocks: lumber, paper,
 > leather, charcoal, natural rubber, and bioplastics — substances whose origin is
 > presently or recently living and whose biogenic character survives transformation. Child of
-> [Technical Material](note.html?p=notes/technica/general/cto/industry/technical-material.md); feedstock reading in
-> [Natural Biogenic](note.html?p=notes/nature/biogenic-material.md). Petroleum-derived polymers are
+> [Technical Material](/note.html?p=notes/technica/general/cto/industry/technical-material.md); feedstock reading in
+> [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md). Petroleum-derived polymers are
 > deliberately excluded here — their origin is ambiguous, so they classify at the parent
 > (see the parent QA). Worked per
-> [How to decompose any technical instance?](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> [How to decompose any technical instance?](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -63,8 +63,8 @@ exception): inputs consumed by technical activity, individuated by living feedst
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
-- [Technical Material](note.html?p=notes/technica/general/cto/industry/technical-material.md) (parent: all intentionally transformed matter; ambiguous cases live there)
-- [Technical Abiogenic Material](note.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (sibling: mineral-feedstock family)
-- [Natural Biogenic](note.html?p=notes/nature/biogenic-material.md) (feedstock reading: all matter made by life)
-- [Material Technology](note.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)
+- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
+- [Technical Material](/note.html?p=notes/technica/general/cto/industry/technical-material.md) (parent: all intentionally transformed matter; ambiguous cases live there)
+- [Technical Abiogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (sibling: mineral-feedstock family)
+- [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md) (feedstock reading: all matter made by life)
+- [Material Technology](/note.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)

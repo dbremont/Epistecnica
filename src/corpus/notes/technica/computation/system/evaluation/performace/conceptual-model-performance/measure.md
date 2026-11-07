@@ -22,6 +22,6 @@ tags: [note, data-collection]
 
 ## References
 
-- [Measurement Theory](note.html?p=notes/epistemica/measurement/measurement-theory.md)
-- [System of Units of Measurement](note.html?p=notes/epistemica/measurement/system-of-units-of-measurement.md)
-- [Measurement (folder)](index.html?dir=epistemica/measurement)
+- [Measurement Theory](/note.html?p=notes/epistemica/measurement/measurement-theory.md)
+- [System of Units of Measurement](/note.html?p=notes/epistemica/measurement/system-of-units-of-measurement.md)
+- [Measurement (folder)](/explorer.html?dir=epistemica/measurement)

@@ -4,7 +4,7 @@ tags: [note, graphics]
 
 # Display Manager
 
-- [Hyprland](note.html?p=notes/technica/computation/operating-system/linux/hyprland.md)
+- [Hyprland](/note.html?p=notes/technica/computation/operating-system/linux/hyprland.md)
 
 **Display Manager ≠ Desktop Environment ≠ Window Manager / Compositor**
 

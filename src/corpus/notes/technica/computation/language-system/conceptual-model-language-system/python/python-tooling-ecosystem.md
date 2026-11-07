@@ -153,7 +153,7 @@ greet(42)  # Raises TypeError: type of argument "name" must be str; got int inst
 
 ## Program Analysis
 
-> See more in [Program Analysis](note.html?p=notes/technica/computation/miscelanea/program-analysis.md).
+> See more in [Program Analysis](/note.html?p=notes/technica/computation/miscelanea/program-analysis.md).
 > 
 
 | **Category** | **Tool** | **Description** | **Usage Example** |
@@ -215,7 +215,7 @@ References:
 
 ## Package Manager
 
-> [uv](note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/uv.md)
+> [uv](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/uv.md)
 > 
 
 > pip - https://pip.pypa.io/en/stable/
@@ -226,7 +226,7 @@ References:
 
 ## References
 
-- [Pygame](note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/pygame.md)
+- [Pygame](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/pygame.md)
 - https://realpython.com/python-virtual-environments-a-primer/
 - https://docs.python.org/3/library/contextlib.html
 - 

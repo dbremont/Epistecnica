@@ -157,6 +157,6 @@ Lineage: bronze and iron smelting → Bessemer and open-hearth steel → Hall-H�
 ## References
 
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
-- [Energy Technology (companion domain pattern)](note.html?p=notes/technica/general/cto/es/multinode/energy-technology.md)
+- [Energy Technology (companion domain pattern)](/note.html?p=notes/technica/general/cto/es/multinode/energy-technology.md)
 - https://www.asminternational.org/
 - https://www.nist.gov/

@@ -95,4 +95,4 @@ A center strong in realization but weak in method development ships products tha
 - Helfat, S. & Peteraf, M. (1993). The Dynamic Capabilities of the Firm. Strategic Management Journal.
 - Wheelwright, S. C. & Lock, E. E. (1988). The Development of Technologies for Contribution. Sloan Management Review.
 - Ulrich, D. & Eppinger, W. (1997). Organizing for Development Projects. Harvard Business Review.
-- [Philosophia Socialium et Operis](note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
