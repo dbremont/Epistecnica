@@ -886,7 +886,7 @@
                         return;
                     }
                     list.innerHTML = picked.map(function (e) {
-                        return '<li><a href="corpus/note.html?p=documents/' + encPath(e.path) + '">' + esc(e.title) + '</a>' +
+                        return '<li><a href="corpus/note.html?p=' + encPath(e.path) + '">' + esc(e.title) + '</a>' +
                             '<span class="meta">' + esc(e.section || '') + '</span></li>';
                     }).join('');
                 }
