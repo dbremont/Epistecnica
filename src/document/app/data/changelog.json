@@ -23968,6 +23968,16 @@
     ]
   },
   {
+    "file_path": "papers/cortes-rocha-2019-certificacion-profesional-arquitectura-examen-maestria.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "feat",
+        "summary": "Add Cortés Rocha (2019) on professional certification and the master examination in New Spain."
+      }
+    ]
+  },
+  {
     "file_path": "papers/cottrell-2019-matter-short-introduction-oxford-university.md",
     "logs": [
       {
@@ -25959,6 +25969,16 @@
     ]
   },
   {
+    "file_path": "papers/marcos-blanco-1999-legalidad-realidad-examenes-gremiales-leon.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "feat",
+        "summary": "Add Marcos Blanco (1999) on the legality and reality of guild examinations in sixteenth-century León."
+      }
+    ]
+  },
+  {
     "file_path": "papers/marcus-2020-electron-transfer-reactions-chemistry-theory.md",
     "logs": [
       {
@@ -26245,6 +26265,16 @@
     ]
   },
   {
+    "file_path": "papers/munoz-sancho-2018-gremio-contra-academia-examenes-maestria-zaragoza.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "feat",
+        "summary": "Add Muñoz Sancho (2018) on the Zaragoza guild master examinations against the Academy."
+      }
+    ]
+  },
+  {
     "file_path": "papers/murray-2013-naiad-timely-dataflow-system-proceedings.md",
     "logs": [
       {
@@ -26388,6 +26418,16 @@
     ]
   },
   {
+    "file_path": "papers/olvera-calvo-2011-sistemas-constructivos-ordenanzas-albaniles-mexico.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "feat",
+        "summary": "Add Olvera Calvo (2011) on construction systems and examination topics in the 1599 Mexico City masons ordinances."
+      }
+    ]
+  },
+  {
     "file_path": "papers/ongaro-2011-fast-crash-recovery-ramcloud-proceedings.md",
     "logs": [
       {
@@ -26472,6 +26512,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "papers/pena-ramirez-2022-vicisitudes-convertirse-maestro-examenes-artesanos.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "feat",
+        "summary": "Add Peña Ramírez (2022) on artisan examinations and access to mastery in New Spain."
       }
     ]
   },
@@ -27396,6 +27446,16 @@
         "kind": "feat",
         "summary": "courses, documents, personas surfaces with tags plus universal search",
         "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+      }
+    ]
+  },
+  {
+    "file_path": "papers/triana-y-antorveza-1966-examenes-licencias-finanzas-elecciones-artesanales.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "feat",
+        "summary": "Add Triana y Antorveza (1966) on the origins and institutions of artisan examinations."
       }
     ]
   },

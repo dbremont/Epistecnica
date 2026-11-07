@@ -27056,6 +27056,11 @@
         "kind": "refactor",
         "summary": "Move from history/castilla/gremios.md to social/history/castilla/gremios.md in the corpus reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Link the six guild-examination papers as references."
       }
     ]
   },
