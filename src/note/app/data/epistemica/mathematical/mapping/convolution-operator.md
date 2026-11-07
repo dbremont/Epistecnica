@@ -1,5 +1,5 @@
 ---
-tags: [operator, mathematics]
+tags: [mathematics, operator]
 ---
 
 # Convolution Operator

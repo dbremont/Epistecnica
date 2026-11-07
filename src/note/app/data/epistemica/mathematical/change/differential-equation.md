@@ -1,5 +1,5 @@
 ---
-tags: [analytical, mathematics]
+tags: [mathematics, analytical]
 ---
 
 # Differential Equation

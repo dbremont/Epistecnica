@@ -1,5 +1,5 @@
 ---
-tags: [analytical, function, property, mathematics]
+tags: [mathematics, analytical, function, property]
 ---
 
 # Continuity

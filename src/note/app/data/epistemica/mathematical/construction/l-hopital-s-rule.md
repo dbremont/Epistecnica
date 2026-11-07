@@ -1,5 +1,5 @@
 ---
-tags: [theorem, mathematics]
+tags: [mathematics, theorem]
 ---
 
 # L'Hôpital's rule

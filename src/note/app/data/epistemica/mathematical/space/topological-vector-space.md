@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, space, topology, mathematics]
+tags: [mathematics, linear-algebra, space, topology]
 ---
 
 # Topological Vector Space

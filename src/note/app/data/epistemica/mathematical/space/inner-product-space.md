@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, space, mathematics]
+tags: [mathematics, linear-algebra, space]
 ---
 
 # Inner Product Space

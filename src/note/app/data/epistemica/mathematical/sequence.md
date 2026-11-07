@@ -1,5 +1,5 @@
 ---
-tags: [type, mathematics]
+tags: [mathematics, type]
 ---
 
 # Sequence

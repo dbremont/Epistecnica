@@ -1,5 +1,5 @@
 ---
-tags: [analytical, function, representation, mathematics]
+tags: [mathematics, analytical, function, representation]
 ---
 
 # Fourier Series

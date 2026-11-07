@@ -1,5 +1,5 @@
 ---
-tags: [arithmetic, function, quantity, mathematics]
+tags: [mathematics, arithmetic, function, quantity]
 ---
 
 # Division

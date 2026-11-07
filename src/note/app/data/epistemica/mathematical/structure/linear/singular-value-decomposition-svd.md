@@ -1,5 +1,5 @@
 ---
-tags: [algebraic, linear-algebra, mathematics]
+tags: [mathematics, algebraic, linear-algebra]
 ---
 
 # Singular Value Decomposition (SVD)

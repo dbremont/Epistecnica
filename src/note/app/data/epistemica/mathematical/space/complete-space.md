@@ -1,5 +1,5 @@
 ---
-tags: [space, analytical, mathematics]
+tags: [mathematics, space, analytical]
 ---
 
 # Complete Space

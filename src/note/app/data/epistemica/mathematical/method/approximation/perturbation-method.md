@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, analytical, mathematics]
+tags: [mathematics, method, technique, analytical]
 ---
 
 # Perturbation Method

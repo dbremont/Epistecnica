@@ -1,5 +1,5 @@
 ---
-tags: [analytical, linear-algebra, mathematics]
+tags: [mathematics, analytical, linear-algebra]
 ---
 
 # Vector Field

@@ -1,5 +1,5 @@
 ---
-tags: [inequality, mathematics]
+tags: [mathematics, inequality]
 ---
 
 # Cauchy-Schwarz Inequality

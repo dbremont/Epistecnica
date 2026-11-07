@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, operator, property, mathematics]
+tags: [mathematics, linear-algebra, operator, property]
 ---
 
 # Self-adjoint Operator

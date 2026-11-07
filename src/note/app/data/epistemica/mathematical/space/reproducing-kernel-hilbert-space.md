@@ -1,5 +1,5 @@
 ---
-tags: [operator, space, mathematics]
+tags: [mathematics, operator, space]
 ---
 
 # Reproducing Kernel Hilbert Space

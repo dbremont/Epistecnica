@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, mathematics]
+tags: [mathematics, method, technique]
 ---
 
 # Invariant Method

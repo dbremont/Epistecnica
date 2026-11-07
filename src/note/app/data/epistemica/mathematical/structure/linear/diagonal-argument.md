@@ -1,5 +1,5 @@
 ---
-tags: [technique, mathematics]
+tags: [mathematics, technique]
 ---
 
 # Diagonal Argument

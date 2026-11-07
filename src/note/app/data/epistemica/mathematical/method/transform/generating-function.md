@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, discrete, mathematics]
+tags: [mathematics, method, technique, discrete]
 ---
 
 # Generating Function

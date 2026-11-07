@@ -1,5 +1,5 @@
 ---
-tags: [framework, mathematics]
+tags: [mathematics, framework]
 ---
 
 # Group Theory

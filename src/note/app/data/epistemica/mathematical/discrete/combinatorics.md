@@ -1,5 +1,5 @@
 ---
-tags: [discrete, mathematics]
+tags: [mathematics, discrete]
 ---
 
 # Combinatorics

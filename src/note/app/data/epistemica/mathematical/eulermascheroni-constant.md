@@ -1,5 +1,5 @@
 ---
-tags: [specific, mathematics]
+tags: [mathematics, specific]
 ---
 
 # Euler–Mascheroni Constant

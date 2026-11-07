@@ -1,5 +1,5 @@
 ---
-tags: [analytical, space, mathematics]
+tags: [mathematics, analytical, space]
 ---
 
 # Weak Convergence

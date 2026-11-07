@@ -1,5 +1,5 @@
 ---
-tags: [function, mathematics]
+tags: [mathematics, function]
 ---
 
 # Periodic Function

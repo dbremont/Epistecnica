@@ -1,5 +1,5 @@
 ---
-tags: [topology, algebraic, mathematics]
+tags: [mathematics, topology, algebraic]
 ---
 
 # Exact Sequence

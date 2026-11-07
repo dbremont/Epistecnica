@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, measurement, mathematics]
+tags: [mathematics, method, technique, measurement]
 ---
 
 # Dimensional Analysis

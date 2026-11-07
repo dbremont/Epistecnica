@@ -1,5 +1,5 @@
 ---
-tags: [space, mathematics]
+tags: [mathematics, space]
 ---
 
 # De Sitter Space

@@ -1,5 +1,5 @@
 ---
-tags: [inference, linear-algebra, mathematics]
+tags: [mathematics, inference, linear-algebra]
 ---
 
 # Laplacian Matrix

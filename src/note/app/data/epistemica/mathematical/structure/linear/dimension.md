@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, mathematics]
+tags: [mathematics, linear-algebra]
 ---
 
 # Dimension

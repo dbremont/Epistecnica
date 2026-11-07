@@ -1,5 +1,5 @@
 ---
-tags: [theorem, mathematics]
+tags: [mathematics, theorem]
 ---
 
 # Heine-Borel Theorem

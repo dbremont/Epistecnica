@@ -1,5 +1,5 @@
 ---
-tags: [discrete, function, mathematics]
+tags: [mathematics, discrete, function]
 ---
 
 # Factorial

@@ -1,5 +1,5 @@
 ---
-tags: [analytical, linear-algebra, space, mathematics]
+tags: [mathematics, analytical, linear-algebra, space]
 ---
 
 # Hilbert Space

@@ -1,5 +1,5 @@
 ---
-tags: [discrete, technique, mathematics]
+tags: [mathematics, discrete, technique]
 ---
 
 # Bijective Method

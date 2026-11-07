@@ -1,5 +1,5 @@
 ---
-tags: [space, topology, mathematics]
+tags: [mathematics, space, topology]
 ---
 
 # Sierpiński Space

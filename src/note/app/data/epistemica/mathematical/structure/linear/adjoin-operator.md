@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, operator, mathematics]
+tags: [mathematics, linear-algebra, operator]
 ---
 
 # Adjoin Operator

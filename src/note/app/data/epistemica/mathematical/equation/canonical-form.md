@@ -1,5 +1,5 @@
 ---
-tags: [representation, mathematics]
+tags: [mathematics, representation]
 ---
 
 # Canonical Form

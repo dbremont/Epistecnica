@@ -1,5 +1,5 @@
 ---
-tags: [algebraic, geometry, mathematics]
+tags: [mathematics, algebraic, geometry]
 ---
 
 # Algebraic Variety

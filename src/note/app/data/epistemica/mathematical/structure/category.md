@@ -1,5 +1,5 @@
 ---
-tags: [structure, algebraic, framework, mathematics]
+tags: [mathematics, structure, algebraic, framework]
 ---
 
 # Category

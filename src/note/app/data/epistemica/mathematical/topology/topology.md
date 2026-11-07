@@ -1,5 +1,5 @@
 ---
-tags: [framework, topology, mathematics]
+tags: [mathematics, framework, topology]
 ---
 
 # Topology

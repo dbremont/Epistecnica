@@ -1,5 +1,5 @@
 ---
-tags: [analytical, differential-operator, operator, mathematics]
+tags: [mathematics, analytical, differential-operator, operator]
 ---
 
 # Differential Operator

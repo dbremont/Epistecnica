@@ -1,5 +1,5 @@
 ---
-tags: [analytical, type, physical, mathematics]
+tags: [mathematics, analytical, type, physical]
 ---
 
 # Stress Tensor

@@ -1,5 +1,5 @@
 ---
-tags: [geometry, space, mathematics]
+tags: [mathematics, geometry, space]
 ---
 
 # Knot

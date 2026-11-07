@@ -1,5 +1,5 @@
 ---
-tags: [analytical, framework, geometry, mathematics]
+tags: [mathematics, analytical, framework, geometry]
 ---
 
 # Differential Geometry

@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, dynamical-system, mathematics]
+tags: [mathematics, method, technique, dynamical-system]
 ---
 
 # Linearization

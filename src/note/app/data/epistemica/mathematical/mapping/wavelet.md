@@ -1,5 +1,5 @@
 ---
-tags: [analytical, function, technique, mathematics]
+tags: [mathematics, analytical, function, technique]
 ---
 
 # Wavelet

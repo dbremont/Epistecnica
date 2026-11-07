@@ -1,5 +1,5 @@
 ---
-tags: [discrete, operator, mathematics]
+tags: [mathematics, discrete, operator]
 ---
 
 # Combination

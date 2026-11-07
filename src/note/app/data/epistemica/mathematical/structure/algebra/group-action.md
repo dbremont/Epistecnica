@@ -1,5 +1,5 @@
 ---
-tags: [algebraic, mathematics]
+tags: [mathematics, algebraic]
 ---
 
 # Group Action

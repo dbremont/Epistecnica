@@ -1,5 +1,5 @@
 ---
-tags: [inequality, mathematics]
+tags: [mathematics, inequality]
 ---
 
 # Chebyshev's Inequality

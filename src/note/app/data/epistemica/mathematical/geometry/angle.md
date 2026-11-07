@@ -1,5 +1,5 @@
 ---
-tags: [geometry, mathematics]
+tags: [mathematics, geometry]
 ---
 
 # Angle

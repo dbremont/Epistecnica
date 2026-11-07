@@ -1,5 +1,5 @@
 ---
-tags: [analytical, theorem, mathematics]
+tags: [mathematics, analytical, theorem]
 ---
 
 # Taylor’s Theorem

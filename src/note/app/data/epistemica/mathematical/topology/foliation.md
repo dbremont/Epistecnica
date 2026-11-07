@@ -1,5 +1,5 @@
 ---
-tags: [relation, mathematics]
+tags: [mathematics, relation]
 ---
 
 # Foliation

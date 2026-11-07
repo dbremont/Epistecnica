@@ -1,5 +1,5 @@
 ---
-tags: [analytical, dynamical-system, mathematics]
+tags: [mathematics, analytical, dynamical-system]
 ---
 
 # Modes of Convergence

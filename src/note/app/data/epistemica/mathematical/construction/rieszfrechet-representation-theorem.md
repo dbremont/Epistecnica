@@ -1,5 +1,5 @@
 ---
-tags: [operator, theorem, mathematics]
+tags: [mathematics, operator, theorem]
 ---
 
 # Riesz–Fréchet Representation Theorem

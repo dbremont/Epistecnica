@@ -1,5 +1,5 @@
 ---
-tags: [building-block, mathematics]
+tags: [mathematics, building-block]
 ---
 
 # Mathematical Object

@@ -1,5 +1,5 @@
 ---
-tags: [analytical, geometry, type, mathematics]
+tags: [mathematics, analytical, geometry, type]
 ---
 
 # Metric Tensor

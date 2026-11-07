@@ -1,5 +1,5 @@
 ---
-tags: [analytical, linear-algebra, operator, mathematics]
+tags: [mathematics, analytical, linear-algebra, operator]
 ---
 
 # Spectrum

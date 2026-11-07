@@ -1,5 +1,5 @@
 ---
-tags: [geometry, differentialgeometrical, mathematics]
+tags: [mathematics, geometry, differentialgeometrical]
 ---
 
 # Connection

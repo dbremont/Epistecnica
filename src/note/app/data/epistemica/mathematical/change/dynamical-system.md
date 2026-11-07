@@ -1,6 +1,6 @@
 ---
 order: 0
-tags: [dynamical-system, mathematics]
+tags: [mathematics, dynamical-system]
 ---
 
 # Dynamical System

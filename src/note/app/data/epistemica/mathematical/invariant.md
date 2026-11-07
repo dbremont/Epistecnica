@@ -1,5 +1,5 @@
 ---
-tags: [property, mathematics]
+tags: [mathematics, property]
 ---
 
 # Invariant

@@ -1,5 +1,5 @@
 ---
-tags: [discrete, sequence, specific, mathematics]
+tags: [mathematics, discrete, sequence, specific]
 ---
 
 # Binomial Coefficient

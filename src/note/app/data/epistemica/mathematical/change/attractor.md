@@ -1,5 +1,5 @@
 ---
-tags: [dynamical-system, mathematics]
+tags: [mathematics, dynamical-system]
 ---
 
 # Attractor

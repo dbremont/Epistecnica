@@ -1,5 +1,5 @@
 ---
-tags: [untagged, mathematics]
+tags: [mathematics, untagged]
 ---
 
 # Level Set

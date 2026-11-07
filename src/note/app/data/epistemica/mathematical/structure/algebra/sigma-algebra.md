@@ -1,5 +1,5 @@
 ---
-tags: [measure-theory, structure, mathematics]
+tags: [mathematics, measure-theory, structure]
 ---
 
 # σ-algebra

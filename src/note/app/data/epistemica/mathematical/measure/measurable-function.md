@@ -1,5 +1,5 @@
 ---
-tags: [measure-theory, function, mathematics]
+tags: [mathematics, measure-theory, function]
 ---
 
 # Measurable Function

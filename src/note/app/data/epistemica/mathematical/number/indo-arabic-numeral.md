@@ -1,5 +1,5 @@
 ---
-tags: [quantity, mathematics]
+tags: [mathematics, quantity]
 ---
 
 # Indo-Arabic Numeral

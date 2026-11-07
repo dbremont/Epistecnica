@@ -1,5 +1,5 @@
 ---
-tags: [arithmetic, function, quantity, mathematics]
+tags: [mathematics, arithmetic, function, quantity]
 qa:
  - What makes multiplication semantically adequate for representing a problem? What must be the nature of the problem for multiplication to be a meaningful representation?\
  - What properties of a phenomenon, relationship, or problem make multiplication an appropriate mathematical representation?

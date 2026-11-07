@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, polynomial, mathematics]
+tags: [mathematics, linear-algebra, polynomial]
 ---
 
 # Characteristic Polynomial

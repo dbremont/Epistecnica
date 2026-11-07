@@ -1,5 +1,5 @@
 ---
-tags: [linear-algebra, function, mathematics]
+tags: [mathematics, linear-algebra, function]
 ---
 
 # Determinant

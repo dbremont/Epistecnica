@@ -1,5 +1,5 @@
 ---
-tags: [property, topology, mathematics]
+tags: [mathematics, property, topology]
 ---
 
 # Smoothness

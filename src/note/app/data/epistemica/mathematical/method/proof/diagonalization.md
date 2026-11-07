@@ -1,5 +1,5 @@
 ---
-tags: [method, technique, foundation, mathematics]
+tags: [mathematics, method, technique, foundation]
 ---
 
 # Diagonalization

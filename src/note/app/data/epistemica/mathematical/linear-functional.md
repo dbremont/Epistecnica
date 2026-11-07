@@ -1,5 +1,5 @@
 ---
-tags: [functional, linear-algebra, mathematics]
+tags: [mathematics, functional, linear-algebra]
 ---
 
 # Linear Functional

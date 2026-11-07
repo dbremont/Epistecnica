@@ -1,5 +1,5 @@
 ---
-tags: [operator, relation, mathematics]
+tags: [mathematics, operator, relation]
 ---
 
 # Identity Operator
