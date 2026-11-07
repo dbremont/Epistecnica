@@ -25075,6 +25075,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/adrien-marie-legendre.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Adrien-Marie Legendre persona note: number theory, elliptic integrals, least squares, and the metric system."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/alexander-alexandrovich-friedmann.md",
     "logs": [
       {
@@ -25263,6 +25273,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/carl-friedrich-gauss.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Carl Friedrich Gauss persona note: number theory, the fundamental theorem of algebra, least squares, geometry, and magnetism."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/christian-wolff.md",
     "logs": [
       {
@@ -25395,6 +25415,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/giovanni-battista-beccaria.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Giovanni Battista Beccaria persona note: artificial and atmospheric electricity, and the Franklin correspondence."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/grigory-ordzhonikidze.md",
     "logs": [
       {
@@ -25484,6 +25514,16 @@
     ]
   },
   {
+    "file_path": "social/collective/actor/private/persona/jean-le-rond-dalembert.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Jean Le Rond d'Alembert persona note: d'Alembert's principle, the wave equation, and the Encyclopédie."
+      }
+    ]
+  },
+  {
     "file_path": "social/collective/actor/private/persona/johann-heinrich-alsted.md",
     "logs": [
       {
@@ -25491,6 +25531,16 @@
         "kind": "docs",
         "summary": "Add the Johann Heinrich Alsted persona note: the Herborn Academy, the Encyclopaedia, Ramism and Lullism, Calvinist millenarianism, and the Transylvanian academy.",
         "commit": "2f0df8dd7600f42a838365d537dd38ce70c3f95f"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/joseph-fourier.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Joseph Fourier persona note: the heat equation, Fourier series and transform, and the analytical theory of heat."
       }
     ]
   },
@@ -25954,6 +26004,16 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/simeon-denis-poisson.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Siméon Denis Poisson persona note: the Poisson equation and bracket, the Poisson distribution, and the Poisson spot."
       }
     ]
   },
