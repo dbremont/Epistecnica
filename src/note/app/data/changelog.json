@@ -1226,6 +1226,16 @@
     ]
   },
   {
+    "file_path": "epistemica/epistemic/discipline/ballistics.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Ballistics epistemic-discipline note: canonical practice decomposition, mechanics relation, and critical evaluation."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/epistemic/discipline/behavioral.md",
     "logs": [
       {
@@ -5041,6 +5051,44 @@
         "kind": "refactor",
         "summary": "rename the dynamical-systems scope to change",
         "commit": "bde39a998fe635eef26d40673a38fee96d911bee"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/classical/classical-algebra.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "feat",
+        "summary": "Import Classical Algebra from the Modelado Notion export.",
+        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Move into the structure scope and repoint links.",
+        "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "refactor",
+        "summary": "Move from mathematical/structure/algebra/classical-algebra.md to mathematical/classical/classical-algebra.md as the classical scope's central algebra note; repoint outbound links."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/classical/classical.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the classical scope rundown: the Greco-Roman tradition, its elementary toolkit, the boundary with abstract algebra, and what stays outside."
       }
     ]
   },
@@ -10031,6 +10079,11 @@
         "kind": "refactor",
         "summary": "Move into the structure scope and repoint links.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Point the Classical Algebra link at the new classical scope."
       }
     ]
   },
@@ -10064,29 +10117,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Boolean Algebra from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the structure scope and repoint links.",
-        "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/structure/algebra/classical-algebra.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Classical Algebra from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       },
       {
@@ -25633,6 +25663,16 @@
         "kind": "feat",
         "summary": "add Soviet political leader persona note",
         "commit": "9b51f58b16f929de3bf3a4be73c92c7d1ef24e1e"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/niccolo-tartaglia.md",
+    "logs": [
+      {
+        "date": "2026-11-06",
+        "kind": "docs",
+        "summary": "Add the Niccolò Tartaglia persona note."
       }
     ]
   },

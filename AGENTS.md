@@ -148,7 +148,9 @@ frontend-facing surface in the deployment; there is no database behind it
   not reintroduce it.
 - The mathematical domain is filed by branch: `structure/` (`algebra/`,
   `linear/`, `category.md`, `duality.md`), `tensor/` (tensor and tensor
-  fields), `number/`, `discrete/`, `topology/`, `complex/`, `mapping/`
+  fields), `number/`, `classical/` (the classical Greco-Roman tradition and
+  its elementary toolkit: Euclidean geometry, classical algebra, equation
+  solving, arithmetic computation), `discrete/`, `topology/`, `complex/`, `mapping/`
   (functions and maps — the functional relations), `relation/` (relations that
   are not functional: `relation`, `order`, `equivalence-relation`, `lattice`,
   `ranking`, `inequality`),

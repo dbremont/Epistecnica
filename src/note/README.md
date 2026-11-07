@@ -82,7 +82,9 @@ companion is `data/epistemica/ees.md`.
   (the tensor and the tensor fields built on it: metric, Riemann, Ricci,
   Einstein, Weyl, stress-energy, electromagnetic, stress, inertia),
   `number/` (numeral systems and the
-  arithmetic transformation rules), `discrete/` (combinatorics and discrete
+  arithmetic transformation rules), `classical/` (the classical
+  Greco-Roman tradition and its elementary toolkit: Euclidean geometry,
+  classical algebra, equation solving, arithmetic computation), `discrete/` (combinatorics and discrete
   structures), `topology/`, `complex/` (the numeral system ℂ and the functions
   defined over it), `mapping/` (the kinds of map — `map.md` — and the
   functions they define: special functions and transforms), `equation/`,
