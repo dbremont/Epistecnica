@@ -1231,7 +1231,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Add the Ballistics epistemic-discipline note: canonical practice decomposition, mechanics relation, and critical evaluation."
+        "summary": "Add the Ballistics epistemic-discipline note: canonical practice decomposition, mechanics relation, and critical evaluation.",
+        "commit": "fa29c84dea6faeffa9db034ec202ff331db60424"
       }
     ]
   },
@@ -5078,7 +5079,8 @@
       {
         "date": "2026-11-06",
         "kind": "refactor",
-        "summary": "Move from mathematical/structure/algebra/classical-algebra.md to mathematical/classical/classical-algebra.md as the classical scope's central algebra note; repoint outbound links."
+        "summary": "Move from mathematical/structure/algebra/classical-algebra.md to mathematical/classical/classical-algebra.md as the classical scope's central algebra note; repoint outbound links.",
+        "commit": "fa29c84dea6faeffa9db034ec202ff331db60424"
       }
     ]
   },
@@ -5088,7 +5090,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Add the classical scope rundown: the Greco-Roman tradition, its elementary toolkit, the boundary with abstract algebra, and what stays outside."
+        "summary": "Add the classical scope rundown: the Greco-Roman tradition, its elementary toolkit, the boundary with abstract algebra, and what stays outside.",
+        "commit": "fa29c84dea6faeffa9db034ec202ff331db60424"
       }
     ]
   },
@@ -10083,7 +10086,9 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Point the Classical Algebra link at the new classical scope."
+        "summary": "Point the Classical Algebra link at the new classical scope.",
+        "commit": "fa29c84dea6faeffa9db034ec202ff331db60424",
+        "before": "e24e8f1e73c709a394746ccbb3d0c898eea41cbc"
       }
     ]
   },
@@ -25672,7 +25677,8 @@
       {
         "date": "2026-11-06",
         "kind": "docs",
-        "summary": "Add the Niccolò Tartaglia persona note."
+        "summary": "Add the Niccolò Tartaglia persona note.",
+        "commit": "fa29c84dea6faeffa9db034ec202ff331db60424"
       }
     ]
   },
