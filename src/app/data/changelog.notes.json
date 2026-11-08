@@ -60553,6 +60553,11 @@
         "kind": "docs",
         "summary": "Move the note into nature/matter/ with the other matter types.",
         "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "chore",
+        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table."
       }
     ]
   },
@@ -80539,6 +80544,16 @@
         "kind": "refactor",
         "summary": "Move into epistemica/ as a general element note: the meta shelf is dissolved.",
         "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/amoeba-amoeba-dubia.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "chore",
+        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table."
       }
     ]
   }
