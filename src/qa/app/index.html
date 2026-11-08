@@ -13,18 +13,16 @@
     <link rel="stylesheet" href="/shared/theme.css">
     <link rel="stylesheet" href="/shared/usearch.css">
     <style>
-        :root { --nav-bg: rgba(11,14,20,0.85); }
-        html[data-theme="light"] { --nav-bg: rgba(245,242,234,0.85); }
         * { margin:0; padding:0; box-sizing:border-box; }
         html { scroll-behavior:smooth; background:var(--bg-void); }
-        body { background:var(--bg-void); color:var(--text-primary); font-family:'Inter',sans-serif; min-height:100vh; transition:opacity 180ms ease; }
+        body { background:var(--bg-void); color:var(--text-primary); font-family:var(--font-body); min-height:100vh; transition:opacity 180ms ease; }
         html.theme-fading body { opacity:0; }
         a { color:inherit; text-decoration:none; }
         a:focus-visible, button:focus-visible, input:focus-visible { outline:1px solid var(--accent-cyan); outline-offset:3px; }
 
         /* ---------- nav (project standard) ---------- */
         .nav { position:sticky; top:0; z-index:10; background:var(--nav-bg); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-bottom:1px solid var(--border-subtle); }
-        .nav-inner { max-width:960px; margin:0 auto; padding:.95rem 2rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+        .nav-inner { max-width:1280px; margin:0 auto; padding:.95rem 2rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
         .nav-brand { display:inline-flex; align-items:center; gap:.55rem; font-family:var(--font-display); font-size:1.2rem; font-weight:400; letter-spacing:.03em; color:var(--text-primary); text-decoration:none; }
         .nav-mark { height:26px; width:auto; }
         .nav-brand em { font-style:italic; color:var(--accent-gold); }
@@ -32,14 +30,14 @@
         .theme-toggle { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--text-secondary); background:var(--bg-card); border:1px solid var(--border-subtle); padding:.45rem .75rem; cursor:pointer; transition:color .3s ease,border-color .3s ease; }
         .theme-toggle:hover { color:var(--accent-cyan); border-color:var(--accent-cyan); }
 
-        /* ---------- masthead + crumbs ---------- */
-        .layout { max-width:960px; margin:0 auto; padding:2.2rem 2rem 3.5rem; }
+        /* ---------- masthead + crumbs (note-viewer shell) ---------- */
+        .layout { max-width:1280px; margin:0 auto; padding:2.5rem 2rem 3.5rem; }
         .crumbs { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.16em; text-transform:uppercase; color:var(--text-muted); margin-bottom:1.1rem; }
         .crumbs a { color:var(--text-muted); text-decoration:none; transition:color .3s ease; }
         .crumbs a:hover { color:var(--accent-cyan); }
         .crumbs .sep { margin:0 .5em; opacity:.5; }
         .crumbs .here { color:var(--accent-gold); }
-        header h1 { font-family:var(--font-display); font-style:italic; font-weight:300; font-size:2.3rem; color:var(--text-primary); line-height:1.15; padding-bottom:.8rem; border-bottom:1px solid var(--border-subtle); }
+        header h1 { font-family:var(--font-display); font-weight:300; font-size:clamp(1.8rem,3.6vw,2.6rem); color:var(--text-primary); line-height:1.1; padding-bottom:.8rem; border-bottom:1px solid var(--border-subtle); }
         header p { color:var(--text-secondary); margin-top:.85rem; line-height:1.6; font-size:.9rem; max-width:70ch; }
 
         /* ---------- controls ---------- */
@@ -71,7 +69,7 @@
 
         /* ---------- footer (project standard) ---------- */
         footer { border-top:1px solid var(--border-subtle); background:var(--bg-surface); margin-top:1.8rem; }
-        .page-foot { max-width:960px; margin:0 auto; padding:1.2rem 2rem 2.2rem; color:var(--text-muted); font-size:.72rem; line-height:1.7; }
+        .page-foot { max-width:1280px; margin:0 auto; padding:1.2rem 2rem 2.2rem; color:var(--text-muted); font-size:.72rem; line-height:1.7; }
         .page-foot a { color:var(--text-secondary); }
         .page-foot a:hover { color:var(--accent-cyan); }
         .page-foot code { font-family:var(--font-mono); font-size:.68rem; }
@@ -107,19 +105,21 @@
         <p>Every question the agents worked through — searchable. Open an entry to read the answer.</p>
     </header>
 
-    <div class="stats" id="stats">loading…</div>
-    <div class="controls">
-        <input class="ng-search" id="q" type="search" placeholder="search questions…  ( / )" autocomplete="off">
-        <select class="ng-search" id="f-agent"><option value="">all agents</option></select>
-        <select class="ng-search" id="f-run"><option value="">all runs</option></select>
-        <select class="ng-search" id="f-status"><option value="">open + answered</option><option value="open">open</option><option value="answered">answered</option><option value="deferred">deferred</option></select>
-    </div>
-    <div id="tags"></div>
-    <main id="list"></main>
-    <div class="pager">
-        <button class="ng-button" id="prev">← prev</button>
-        <span id="page"></span>
-        <button class="ng-button" id="next">next →</button>
+    <div class="content">
+        <div class="stats" id="stats">loading…</div>
+        <div class="controls">
+            <input class="ng-search" id="q" type="search" placeholder="search questions…  ( / )" autocomplete="off">
+            <select class="ng-search" id="f-agent"><option value="">all agents</option></select>
+            <select class="ng-search" id="f-run"><option value="">all runs</option></select>
+            <select class="ng-search" id="f-status"><option value="">open + answered</option><option value="open">open</option><option value="answered">answered</option><option value="deferred">deferred</option></select>
+        </div>
+        <div id="tags"></div>
+        <main id="list"></main>
+        <div class="pager">
+            <button class="ng-button" id="prev">← prev</button>
+            <span id="page"></span>
+            <button class="ng-button" id="next">next →</button>
+        </div>
     </div>
 </div>
 

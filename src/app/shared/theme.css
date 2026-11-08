@@ -48,6 +48,46 @@
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
   --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
+
+  --nav-bg: rgba(11, 14, 20, 0.85);
+  --footer-bg: rgba(11, 14, 20, 0.7);
+  --card-bg: rgba(22, 27, 38, 0.72);
+}
+
+html[data-theme="light"] {
+  --bg-void: #f5f2ea;
+  --bg-surface: #efe9dc;
+  --bg-card: #fffdf8;
+  --bg-elevated: #ffffff;
+  --bg-hover: rgba(20, 22, 30, 0.04);
+
+  --gilt: #9a7b3f;
+  --parchment: #2b2620;
+  --thread: rgba(43, 38, 32, 0.25);
+
+  --text-primary: #1a1d24;
+  --text-secondary: #4a4f5e;
+  --text-muted: #7a7f8e;
+  --text-ghost: #9aa0ae;
+
+  --accent-copper: #9a7b3f;
+  --accent-copper-light: #7a6132;
+  --accent-sage: #4e7a5e;
+  --accent-plum: #7a5f8c;
+  --accent-rose: #a55a68;
+  --accent-amber: #9a742f;
+  --accent-steel: #4e6e8c;
+  --accent-cyan: #0e7c72;
+  --accent-gold: #9a7b3f; /* legacy alias for --accent-copper */
+
+  --border-subtle: rgba(20, 22, 30, 0.10);
+  --border-medium: rgba(20, 22, 30, 0.14);
+  --border-strong: rgba(20, 22, 30, 0.22);
+
+  --nav-bg: rgba(245, 242, 234, 0.85);
+  --footer-bg: rgba(245, 242, 234, 0.75);
+  --card-bg: rgba(255, 253, 248, 0.72);
+}
 }
 
 /* --------------------------------------------------------------------------
