@@ -78,8 +78,9 @@ qa:
 
 ## The Corpus's Lagrange Documents
 
-The corpus holds one of his works, cross-linked rather than re-owned:
+The corpus holds two of his works, cross-linked rather than re-owned:
 
+- **Réflexions sur la résolution algébrique des équations (1770–1771)** — [Wikisource text / corpus entry](/view.html?p=documents/books/lagrange-1770-reflexions-resolution-algebrique.md).
 - **Mécanique analytique, Vol. 1 (1788)** — [Lagrange edition](/view.html?p=documents/books/lagrange-1788-mecanique-analytique-vol.md).
 
 ## References

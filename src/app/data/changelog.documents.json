@@ -28385,5 +28385,15 @@
         "commit": "219388512bdcfb7fa71f0091be2f4e9a47df58fc"
       }
     ]
+  },
+  {
+    "file_path": "books/lagrange-1770-reflexions-resolution-algebrique.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the primary source of the resolvent program - Lagrange, Reflexions sur la resolution algebrique des equations, read to the Berlin academy 1770-1771; the Wikisource Oeuvres t.3 transcription (scan-backed) carries the entry, with the corpus exposition of the cubic case cross-linked."
+      }
+    ]
   }
 ]

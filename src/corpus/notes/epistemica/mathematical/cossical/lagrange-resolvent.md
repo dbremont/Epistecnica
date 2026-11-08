@@ -349,7 +349,7 @@ Lagrange did not formulate modern group theory, but he established a crucial con
 
 ## References
 
-- [Lagrange, J.-L. (1770–1771). Réflexions sur la résolution algébrique des équations. In Œuvres de Lagrange, Vol. 3 (pp. 205–421). Gauthier-Villars, 1868 — original text at Wikisource](https://fr.wikisource.org/wiki/M%C3%A9moires_extraits_des_recueils_de_l%E2%80%99Acad%C3%A9mie_royale_de_Berlin/R%C3%A9flexions_sur_la_r%C3%A9solution_alg%C3%A9brique_des_%C3%A9quations)
+- [Lagrange, J.-L. (1770–1771). Réflexions sur la résolution algébrique des équations. In Œuvres de Lagrange, Vol. 3 (pp. 205–421). Gauthier-Villars, 1868 — original text at Wikisource](https://fr.wikisource.org/wiki/M%C3%A9moires_extraits_des_recueils_de_l%E2%80%99Acad%C3%A9mie_royale_de_Berlin/R%C3%A9flexions_sur_la_r%C3%A9solution_alg%C3%A9brique_des_%C3%A9quations) — [corpus document entry](/view.html?p=documents/books/lagrange-1770-reflexions-resolution-algebrique.md)
 - [History of Science and Mathematics SE — Where did Lagrange write his technique of resolvents for solving polynomials?](https://hsm.stackexchange.com/questions/15489/where-did-lagrange-write-his-technique-of-resolvents-for-solving-polynomials)
 - [Mathematics SE — Clarifications regarding Lagrange resolvent](https://math.stackexchange.com/questions/1629629/clarifications-regarding-lagrange-resolvent)
 - [Mathematics SE — Finding cube roots of unity: a proper explanation](https://math.stackexchange.com/questions/3835121/finding-cube-roots-of-a-unity-proper-explanation-is-needed)
