@@ -80788,7 +80788,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the atom note into nature/matter/ with the other substance notes: the previous committed placeholder removal is reclassified as a relocation."
+        "summary": "Move the atom note into nature/matter/ with the other substance notes: the previous committed placeholder removal is reclassified as a relocation.",
+        "commit": "5b8bdef358ba8e0c52c221352b0eb87e1dfbf1a5"
       }
     ]
   }
