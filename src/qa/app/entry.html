@@ -5,26 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entry · Q/A Log · Epistecnica</title>
     <link rel="icon" href="/img/favicon.ico">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/shared/theme.css">
+    <link rel="stylesheet" href="/shared/usearch.css">
     <style>
-        body { max-width: 760px; margin: 0 auto; padding: 24px 20px 48px; }
-        nav.top { margin-bottom: 16px; font-size: 0.8rem; }
-        h1 { font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: 1.6rem; color: var(--text-primary); line-height: 1.35; }
-        .meta { margin: 12px 0 20px; font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); }
-        .tag { display: inline-block; margin-right: 6px; padding: 1px 8px; border: 1px solid var(--border-medium); border-radius: 20px; font-size: 0.68rem; color: var(--accent-cyan); }
-        .answer { margin-top: 20px; padding: 16px; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); white-space: pre-wrap; color: var(--text-secondary); }
-        .empty { font-family: var(--font-display); font-style: italic; color: var(--accent-amber); }
-        .pager { display: flex; justify-content: space-between; margin-top: 24px; }
+        :root { --nav-bg: rgba(11,14,20,0.85); }
+        html[data-theme="light"] { --nav-bg: rgba(245,242,234,0.85); }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior:smooth; background:var(--bg-void); }
+        body { background:var(--bg-void); color:var(--text-primary); font-family:'Inter',sans-serif; min-height:100vh; transition:opacity 180ms ease; }
+        html.theme-fading body { opacity:0; }
+        a { color:inherit; text-decoration:none; }
+        a:focus-visible, button:focus-visible, input:focus-visible { outline:1px solid var(--accent-cyan); outline-offset:3px; }
+
+        /* ---------- nav (project standard) ---------- */
+        .nav { position:sticky; top:0; z-index:10; background:var(--nav-bg); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-bottom:1px solid var(--border-subtle); }
+        .nav-inner { max-width:760px; margin:0 auto; padding:.95rem 2rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+        .nav-brand { display:inline-flex; align-items:center; gap:.55rem; font-family:var(--font-display); font-size:1.2rem; font-weight:400; letter-spacing:.03em; color:var(--text-primary); text-decoration:none; }
+        .nav-mark { height:26px; width:auto; }
+        .nav-brand em { font-style:italic; color:var(--accent-gold); }
+        .nav-right { display:flex; align-items:center; gap:.8rem; }
+        .theme-toggle { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--text-secondary); background:var(--bg-card); border:1px solid var(--border-subtle); padding:.45rem .75rem; cursor:pointer; transition:color .3s ease,border-color .3s ease; }
+        .theme-toggle:hover { color:var(--accent-cyan); border-color:var(--accent-cyan); }
+
+        /* ---------- masthead + crumbs ---------- */
+        .layout { max-width:760px; margin:0 auto; padding:2.2rem 2rem 3.5rem; }
+        .crumbs { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.16em; text-transform:uppercase; color:var(--text-muted); margin-bottom:1.1rem; }
+        .crumbs a { color:var(--text-muted); text-decoration:none; transition:color .3s ease; }
+        .crumbs a:hover { color:var(--accent-cyan); }
+        .crumbs .sep { margin:0 .5em; opacity:.5; }
+        .crumbs .here { color:var(--accent-gold); }
+
+        /* ---------- entry ---------- */
+        .ng-eyebrow { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.16em; text-transform:uppercase; color:var(--accent-gold); }
+        h1 { font-family:var(--font-display); font-style:italic; font-weight:300; font-size:1.9rem; color:var(--text-primary); line-height:1.35; padding-bottom:.8rem; border-bottom:1px solid var(--border-subtle); }
+        .meta { font-family:var(--font-mono); font-size:.66rem; color:var(--text-muted); margin:1rem 0 .4rem; }
+        .tag { display:inline-block; margin-right:6px; padding:2px 10px; border:1px solid var(--border-medium); border-radius:999px; font-family:var(--font-mono); font-size:.62rem; color:var(--accent-cyan); }
+        .answer { margin-top:1.4rem; padding:16px 18px; background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:var(--radius-md,8px); white-space:pre-wrap; color:var(--text-secondary); line-height:1.7; font-size:.92rem; }
+        .empty { margin-top:1.4rem; font-family:var(--font-display); font-style:italic; color:var(--accent-amber); }
+        .pager { display:flex; justify-content:space-between; margin-top:1.6rem; font-family:var(--font-mono); }
+        .pager .ng-button { background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:4px; padding:.45rem .8rem; font-size:.66rem; letter-spacing:.08em; text-transform:uppercase; color:var(--text-secondary); transition:border-color .25s ease, color .25s ease; }
+        .pager .ng-button:hover { border-color:var(--accent-cyan); color:var(--accent-cyan); }
+
+        /* ---------- footer (project standard) ---------- */
+        footer { border-top:1px solid var(--border-subtle); background:var(--bg-surface); margin-top:1.8rem; }
+        .page-foot { max-width:760px; margin:0 auto; padding:1.2rem 2rem 2.2rem; color:var(--text-muted); font-size:.72rem; line-height:1.7; }
+        .page-foot a { color:var(--text-secondary); }
+        .page-foot a:hover { color:var(--accent-cyan); }
+        .page-foot .foot-brand { font-family:var(--font-display); font-style:italic; font-size:.9rem; color:var(--text-secondary); letter-spacing:.05em; margin-bottom:.25rem; }
+
+        @media (max-width:700px){ .layout { padding:1.5rem 1.2rem 2.5rem; } .nav-inner { padding:.8rem 1.2rem; } .page-foot { padding:1rem 1.2rem 1.8rem; } }
     </style>
 </head>
 <body>
-    <nav class="top"><a href="/">Epistecnica</a> · <a href="./">Q/A Log</a></nav>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="/"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+<div class="layout">
+    <nav class="crumbs">
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="./">Q/A log</a><span class="sep">/</span>
+        <span class="here" id="crumb-id">entry</span>
+    </nav>
     <main id="entry"><p><em>loading…</em></p></main>
     <div class="pager"><a class="ng-button" id="prev" href="./">← catalog</a><span><a class="ng-button" id="pprev" href="./">← prev</a> <a class="ng-button" id="pnext" href="./">next →</a></span></div>
-    <script>
+</div>
+
+<footer>
+    <div class="page-foot">
+        <div class="foot-brand">Epistecnica · Q/A log</div>
+        Data: <code>qa.json</code> — the hand-normalized log of open questions (source of truth, committed). Entry ids are stable (<code>qa-00001</code> shape) and never reused.
+    </div>
+</footer>
+
+<script>
     (function () {
         'use strict';
         var id = new URLSearchParams(location.search).get('id') || '';
@@ -32,12 +95,35 @@
         function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
         function notFound(msg) {
             document.title = (id || 'entry') + ' · Q/A Log · Epistecnica';
+            document.getElementById('crumb-id').textContent = id || 'entry';
             document.getElementById('entry').innerHTML =
                 '<span class="ng-eyebrow">' + esc(id || 'no id') + '</span>' +
                 '<h1>Entry not found</h1>' +
                 '<p class="empty">' + esc(msg) + '</p>' +
-                '<p><a class="ng-button" href="./">&larr; back to the log</a></p>';
+                '<p style="margin-top:1.2rem"><a class="ng-button" href="./">&larr; back to the log</a></p>';
         }
+
+        /* theme toggle (project standard) */
+        var themeBtn = document.getElementById('themeToggle');
+        if (themeBtn) {
+            var label = document.getElementById('themeLabel');
+            function paintLabel() {
+                if (label) label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+            }
+            paintLabel();
+            themeBtn.addEventListener('click', function () {
+                var root = document.documentElement;
+                var swap = function () {
+                    root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+                    try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+                    paintLabel();
+                    root.classList.remove('theme-fading');
+                };
+                root.classList.add('theme-fading');
+                setTimeout(swap, 170);
+            });
+        }
+
         fetch('data/qa.json', { cache: 'no-cache', headers: { Accept: 'application/json' } })
             .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
             .then(function (rows) {
@@ -53,11 +139,14 @@
                 }
                 var e = rows[i];
                 document.title = e.id + ' · Q/A Log · Epistecnica';
+                document.getElementById('crumb-id').textContent = e.id;
+                var status = e.status || 'open';
                 var tags = (e.tags || []).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('');
                 document.getElementById('entry').innerHTML =
-                    '<span class="ng-eyebrow">' + esc(e.id) + ' · ' + esc(e.status || 'open') + '</span>' +
+                    '<span class="ng-eyebrow">' + esc(e.id) + '</span>' +
                     '<h1>' + esc(e.question) + '</h1>' +
-                    '<div class="meta">' + esc(e.agent || '') + ' · ' + esc(e.run || '') + ' · ' + esc(e.date || '') + ' · source: ' + esc(e.source || '') + '</div>' +
+                    '<div class="meta"><span class="status-' + esc(status) + '">' + esc(status) + '</span>' +
+                    ' · ' + esc(e.agent || '') + ' · ' + esc(e.run || '') + ' · ' + esc(e.date || '') + ' · source: ' + esc(e.source || '') + '</div>' +
                     (tags ? '<div>' + tags + '</div>' : '') +
                     (e.answer ? '<div class="answer">' + esc(e.answer) + '</div>' : '<p class="empty">awaiting answer.</p>');
                 var prev = rows[i - 1], next = rows[i + 1];
@@ -67,5 +156,6 @@
             .catch(function () { document.getElementById('entry').innerHTML = '<p><em>Data unavailable.</em></p>'; });
     })();
     </script>
+<script src="/shared/usearch.js" data-root="../"></script>
 </body>
 </html>
