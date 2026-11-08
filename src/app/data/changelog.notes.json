@@ -24998,7 +24998,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the three Product and goods-folder links to social/good/."
+        "summary": "Retarget the three Product and goods-folder links to social/good/.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f",
+        "before": "9f7d1e9bab11d6f0cca1db2a7fd7b8e7500e825e"
       }
     ]
   },
@@ -25015,7 +25017,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Product link to social/good/."
+        "summary": "Retarget the Product link to social/good/.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f",
+        "before": "9f7d1e9bab11d6f0cca1db2a7fd7b8e7500e825e"
       }
     ]
   },
@@ -60255,7 +60259,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the goods branch out of coordinator/ to its own social/good/ home; retarget the folder reference."
+        "summary": "Move the goods branch out of coordinator/ to its own social/good/ home; retarget the folder reference.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f"
       }
     ]
   },
@@ -60265,7 +60270,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move to social/good/ and restate the type reading: Product is a Multi compound filed at its own home, not a Coordinators-category member of the coordinator branch."
+        "summary": "Move to social/good/ and restate the type reading: Product is a Multi compound filed at its own home, not a Coordinators-category member of the coordinator branch.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f"
       }
     ]
   },
@@ -60275,7 +60281,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move to social/good/."
+        "summary": "Move to social/good/.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f"
       }
     ]
   },
@@ -60285,7 +60292,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Point the Product link at its new home, social/good/."
+        "summary": "Point the Product link at its new home, social/good/.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f",
+        "before": "9f7d1e9bab11d6f0cca1db2a7fd7b8e7500e825e"
       }
     ]
   },
@@ -60295,7 +60304,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Point the Product link at its new home, social/good/."
+        "summary": "Point the Product link at its new home, social/good/.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f",
+        "before": "9f7d1e9bab11d6f0cca1db2a7fd7b8e7500e825e"
       }
     ]
   },
@@ -60305,7 +60316,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Point the Product link at its new home, social/good/."
+        "summary": "Point the Product link at its new home, social/good/.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f",
+        "before": "9f7d1e9bab11d6f0cca1db2a7fd7b8e7500e825e"
       }
     ]
   },
@@ -60315,7 +60328,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Add the Good home row and drop product from the Coordinator scope line."
+        "summary": "Add the Good home row and drop product from the Coordinator scope line.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f",
+        "before": "9f7d1e9bab11d6f0cca1db2a7fd7b8e7500e825e"
       }
     ]
   },
@@ -60325,7 +60340,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Drop product from the branch description and point at the new social/good/ home."
+        "summary": "Drop product from the branch description and point at the new social/good/ home.",
+        "commit": "bd0439a72162c8e24bc92b7068eafb3d68e1aa1f",
+        "before": "9f7d1e9bab11d6f0cca1db2a7fd7b8e7500e825e"
       }
     ]
   }
