@@ -28293,7 +28293,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Rogal, Agriculture in Britain and America, 1660-1820 (Greenwood, 1994) - the annotated bibliography of the eighteenth-century agricultural literature; catalogue record, Harvard guide and the contemporary AgHR listing carried as references, no-scan note kept honest."
+        "summary": "Add Rogal, Agriculture in Britain and America, 1660-1820 (Greenwood, 1994) - the annotated bibliography of the eighteenth-century agricultural literature; catalogue record, Harvard guide and the contemporary AgHR listing carried as references, no-scan note kept honest.",
+        "commit": "1bbb282843a03649690a9d7dea584f7983fc6db3"
       }
     ]
   }
