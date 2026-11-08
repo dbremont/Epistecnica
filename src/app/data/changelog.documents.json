@@ -18961,7 +18961,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Cross-link the Bowditch translation entry from the French-original note."
+        "summary": "Cross-link the Bowditch translation entry from the French-original note.",
+        "commit": "ad2f7df83666eeda8829afb57a27b66d3a06e54c",
+        "before": "ee1abb5f51133d48a27a6681b4b96d719c3452d2"
       }
     ]
   },
@@ -28262,7 +28264,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Laplace, Mécanique céleste, Vol. 1 — the Nathaniel Bowditch translation with commentary (Hilliard, Gray, Little, and Wilkins, Boston, 1829), with the archive.org scanned copy."
+        "summary": "Add Laplace, Mécanique céleste, Vol. 1 — the Nathaniel Bowditch translation with commentary (Hilliard, Gray, Little, and Wilkins, Boston, 1829), with the archive.org scanned copy.",
+        "commit": "ad2f7df83666eeda8829afb57a27b66d3a06e54c"
       }
     ]
   }
